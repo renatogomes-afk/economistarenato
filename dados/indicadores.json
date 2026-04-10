@@ -1,0 +1,31 @@
+{
+  "atualizado_em": "2025-04-07",
+  "financas": {
+    "receita_liquida_2024_bi": 14.2,
+    "despesa_pessoal_pct": 51.8,
+    "limite_lrf_pct": 60.0,
+    "resultado_primario_bi": -0.34,
+    "divida_consolidada_bi": 8.7,
+    "execucao_loa_pct": 67.3
+  },
+  "infraestrutura": {
+    "municipios_sem_pavimentacao_pct": 71,
+    "km_estradas_nao_pavimentadas": 28400,
+    "total_municipios": 79
+  },
+  "saude": {
+    "cobertura_atencao_basica_pct": 64.2,
+    "leitos_sus_por_mil_hab": 2.1,
+    "mortalidade_infantil": 12.4
+  },
+  "seguranca": {
+    "taxa_homicidios_100k": 28.3,
+    "ranking_nacional": 6,
+    "variacao_5anos_pct": -8.2
+  },
+  "agro": {
+    "pib_agropecuario_bi": 31.4,
+    "participacao_pib_estadual_pct": 23.1,
+    "exportacoes_bi_usd": 5.8
+  }
+}

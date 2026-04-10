@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economista Renato — Mato Grosso do Sul</title>
+  <meta name="description" content="Análises técnicas de economia e finanças públicas do Mato Grosso do Sul. Dados reais, linguagem direta.">
+  <meta property="og:title" content="Economista Renato — MS">
+  <meta property="og:description" content="Análises técnicas de economia e finanças públicas do MS.">
+  <meta property="og:url" content="https://economistarenato.com.br">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --verde:    #1a6b3c;
+      --verde-md: #2d8a52;
+      --verde-lt: #e8f5ee;
+      --ouro:     #c8942a;
+      --ouro-lt:  #fdf4e3;
+      --preto:    #0e0e0e;
+      --cinza-esc:#2a2a2a;
+      --cinza-md: #5a5a5a;
+      --cinza-lt: #f4f3f0;
+      --branco:   #fafaf8;
+      --borda:    #e0ddd7;
+      --fonte-display: 'Playfair Display', Georgia, serif;
+      --fonte-corpo:   'Source Sans 3', sans-serif;
+      --fonte-mono:    'Source Code Pro', monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--fonte-corpo);
+      background: var(--branco);
+      color: var(--preto);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2.5rem;
+      height: 60px;
+      background: rgba(250,250,248,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--borda);
+    }
+    .nav-logo {
+      font-family: var(--fonte-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--verde);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--cinza-md);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--verde); }
+    .nav-ig {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--ouro);
+      text-decoration: none;
+      border: 1.5px solid var(--ouro);
+      padding: 5px 14px;
+      border-radius: 4px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-ig:hover { background: var(--ouro); color: #fff; }
+
+    /* ── HERO ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 92vh;
+      border-bottom: 1px solid var(--borda);
+    }
+    .hero-esquerda {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5rem 3rem 5rem 4rem;
+      border-right: 1px solid var(--borda);
+    }
+    .hero-tag {
+      font-family: var(--fonte-mono);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--verde);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hero-tag::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--verde);
+    }
+    .hero-titulo {
+      font-family: var(--fonte-display);
+      font-size: clamp(2.8rem, 5vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--preto);
+      margin-bottom: 1.8rem;
+    }
+    .hero-titulo span { color: var(--verde); }
+    .hero-subtitulo {
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: var(--cinza-md);
+      max-width: 440px;
+      line-height: 1.75;
+      margin-bottom: 2.5rem;
+    }
+    .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-prim {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--verde);
+      color: #fff;
+      font-family: var(--fonte-corpo);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-prim:hover { background: var(--verde-md); transform: translateY(-1px); }
+    .btn-sec {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--preto);
+      font-family: var(--fonte-corpo);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 12px 24px;
+      border: 1.5px solid var(--borda);
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-sec:hover { border-color: var(--cinza-md); background: var(--cinza-lt); }
+
+    .hero-direita {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 3rem;
+      background: var(--cinza-lt);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-direita::before {
+      content: 'MS';
+      position: absolute;
+      top: -20px;
+      right: -10px;
+      font-family: var(--fonte-display);
+      font-size: 18rem;
+      font-weight: 900;
+      color: rgba(26,107,60,0.04);
+      pointer-events: none;
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--verde);
+      margin-bottom: 0.3rem;
+    }
+    .hero-stat-val {
+      font-family: var(--fonte-display);
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--preto);
+      line-height: 1;
+      margin-bottom: 0.25rem;
+    }
+    .hero-stat-desc {
+      font-size: 0.82rem;
+      color: var(--cinza-md);
+      margin-bottom: 1.8rem;
+    }
+    .hero-stat-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--borda);
+      margin-bottom: 1.8rem;
+    }
+    .atualizado {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      color: var(--cinza-md);
+      margin-top: 1rem;
+    }
+    .atualizado::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--verde);
+      display: inline-block;
+    }
+
+    /* ── PAINEL DADOS ── */
+    section { padding: 5rem 4rem; }
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--borda);
+      padding-bottom: 1rem;
+    }
+    .section-titulo {
+      font-family: var(--fonte-display);
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--preto);
+    }
+    .section-num {
+      font-family: var(--fonte-mono);
+      font-size: 0.72rem;
+      color: var(--cinza-md);
+      letter-spacing: 0.08em;
+    }
+
+    .modulos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--borda);
+      border: 1px solid var(--borda);
+    }
+    .modulo-card {
+      background: var(--branco);
+      padding: 1.8rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      position: relative;
+    }
+    .modulo-card:hover { background: var(--cinza-lt); }
+    .modulo-card.ativo { background: var(--verde-lt); }
+    .modulo-card.ativo::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--verde);
+    }
+    .modulo-icone {
+      width: 36px;
+      height: 36px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .modulo-titulo {
+      font-family: var(--fonte-display);
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      color: var(--preto);
+    }
+    .modulo-sub {
+      font-size: 0.8rem;
+      color: var(--cinza-md);
+      line-height: 1.5;
+    }
+
+    .painel-detalhe {
+      margin-top: 1px;
+      background: var(--verde-lt);
+      border: 1px solid var(--borda);
+      border-top: 3px solid var(--verde);
+      padding: 2.5rem;
+      display: none;
+    }
+    .painel-detalhe.visivel { display: block; }
+
+    .metricas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+    }
+    .metrica {
+      background: var(--branco);
+      border: 1px solid var(--borda);
+      padding: 1.2rem 1.5rem;
+      border-radius: 6px;
+    }
+    .metrica-label {
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cinza-md);
+      margin-bottom: 0.5rem;
+    }
+    .metrica-valor {
+      font-family: var(--fonte-display);
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--preto);
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+    .metrica-valor.alerta { color: #c0392b; }
+    .metrica-valor.ok { color: var(--verde); }
+    .metrica-desc {
+      font-size: 0.78rem;
+      color: var(--cinza-md);
+      line-height: 1.5;
+    }
+    .metrica-fonte {
+      font-family: var(--fonte-mono);
+      font-size: 0.62rem;
+      color: var(--cinza-md);
+      margin-top: 0.5rem;
+      opacity: 0.7;
+    }
+
+    /* ── ANÁLISES ── */
+    .analises-bg { background: var(--cinza-lt); }
+    .analises-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .analise-card {
+      background: var(--branco);
+      border: 1px solid var(--borda);
+      border-radius: 2px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .analise-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+    }
+    .analise-topo {
+      height: 6px;
+      background: var(--verde);
+    }
+    .analise-corpo { padding: 1.5rem; }
+    .analise-tag {
+      font-family: var(--fonte-mono);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--verde);
+      margin-bottom: 0.6rem;
+    }
+    .analise-titulo {
+      font-family: var(--fonte-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--preto);
+      margin-bottom: 0.6rem;
+    }
+    .analise-texto {
+      font-size: 0.82rem;
+      color: var(--cinza-md);
+      line-height: 1.7;
+    }
+    .analise-rodape {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--borda);
+    }
+    .analise-data {
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      color: var(--cinza-md);
+    }
+    .analise-link {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--verde);
+      text-decoration: none;
+    }
+    .analise-link:hover { text-decoration: underline; }
+
+    /* ── SOBRE ── */
+    .sobre-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .sobre-foto {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--cinza-lt);
+      border: 1px solid var(--borda);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+    .sobre-foto-placeholder {
+      font-family: var(--fonte-display);
+      font-size: 4rem;
+      font-weight: 900;
+      color: var(--verde);
+      opacity: 0.3;
+    }
+    .sobre-foto-legenda {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--verde);
+      color: #fff;
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 16px;
+    }
+    .sobre-nome {
+      font-family: var(--fonte-display);
+      font-size: 2.4rem;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      color: var(--preto);
+      margin-bottom: 0.5rem;
+    }
+    .sobre-cargo {
+      font-family: var(--fonte-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--verde);
+      margin-bottom: 1.5rem;
+    }
+    .sobre-texto {
+      font-size: 1rem;
+      font-weight: 300;
+      color: var(--cinza-esc);
+      line-height: 1.85;
+      max-width: 560px;
+      margin-bottom: 1.5rem;
+    }
+    .sobre-credenciais {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .credencial {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--cinza-esc);
+      background: var(--cinza-lt);
+      border: 1px solid var(--borda);
+      padding: 6px 14px;
+      border-radius: 4px;
+    }
+    .credencial-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--verde);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--preto);
+      color: rgba(255,255,255,0.5);
+      padding: 3rem 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+    .footer-logo {
+      font-family: var(--fonte-display);
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    .footer-sub {
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: #fff; }
+
+    /* ── BARRA DE ATUALIZAÇÃO ── */
+    .barra-dados {
+      background: var(--verde);
+      color: rgba(255,255,255,0.85);
+      font-family: var(--fonte-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      padding: 8px 4rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      overflow: hidden;
+    }
+    .barra-item { white-space: nowrap; }
+    .barra-valor { color: #fff; font-weight: 600; }
+
+    /* ── ANIMAÇÕES ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up {
+      opacity: 0;
+      animation: fadeUp 0.6s ease forwards;
+    }
+    .fade-up:nth-child(1) { animation-delay: 0.1s; }
+    .fade-up:nth-child(2) { animation-delay: 0.2s; }
+    .fade-up:nth-child(3) { animation-delay: 0.3s; }
+    .fade-up:nth-child(4) { animation-delay: 0.4s; }
+
+    /* ── RESPONSIVO ── */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-esquerda { padding: 3rem 2rem; border-right: none; border-bottom: 1px solid var(--borda); }
+      .hero-direita { padding: 2.5rem 2rem; }
+      .modulos-grid { grid-template-columns: 1fr 1fr; }
+      .analises-grid { grid-template-columns: 1fr; }
+      .sobre-grid { grid-template-columns: 1fr; gap: 2rem; }
+      section { padding: 3rem 2rem; }
+      nav { padding: 0 1.5rem; }
+      .nav-links { display: none; }
+      footer { grid-template-columns: 1fr; }
+      .footer-links { justify-content: flex-start; }
+      .barra-dados { padding: 8px 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- BARRA DE DADOS AO VIVO -->
+<div class="barra-dados" id="barra-dados">
+  <span class="barra-item">Carregando dados...</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Economista Renato</a>
+  <ul class="nav-links">
+    <li><a href="#painel">Painel MS</a></li>
+    <li><a href="#analises">Análises</a></li>
+    <li><a href="#propostas">Propostas</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+  </ul>
+  <a href="https://instagram.com/economistarenato" target="_blank" class="nav-ig">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    @economistarenato
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding:0; border-bottom: 1px solid var(--borda);">
+  <div class="hero-esquerda">
+    <div class="hero-tag fade-up">Economia · Finanças Públicas · Mato Grosso do Sul</div>
+    <h1 class="hero-titulo fade-up">
+      O estado que<br>
+      o <span>orçamento</span><br>
+      não mostra.
+    </h1>
+    <p class="hero-subtitulo fade-up">
+      Análises técnicas independentes sobre as finanças públicas, infraestrutura, saúde e desenvolvimento do Mato Grosso do Sul. Dados reais, linguagem direta.
+    </p>
+    <div class="hero-btns fade-up">
+      <a href="#painel" class="btn-prim">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Ver painel de dados
+      </a>
+      <a href="#analises" class="btn-sec">Últimas análises →</a>
+    </div>
+  </div>
+
+  <div class="hero-direita">
+    <div class="fade-up">
+      <div class="hero-stat-label">Despesa com pessoal / LRF</div>
+      <div class="hero-stat-val" id="hero-pessoal">—</div>
+      <div class="hero-stat-desc">Limite legal: 60% da RCL · Fonte: RREO 2024</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="fade-up">
+      <div class="hero-stat-label">Municípios sem pavimentação</div>
+      <div class="hero-stat-val" id="hero-pavim">—</div>
+      <div class="hero-stat-desc">Dos 79 municípios do estado · Fonte: AGESUL/CNT</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="fade-up">
+      <div class="hero-stat-label">PIB agropecuário estadual</div>
+      <div class="hero-stat-val" id="hero-agro">—</div>
+      <div class="hero-stat-desc">Participação no PIB total · Fonte: IBGE 2024</div>
+    </div>
+    <div class="atualizado" id="hero-atualizacao">Carregando...</div>
+  </div>
+</section>
+
+<!-- PAINEL DE DADOS -->
+<section id="painel">
+  <div class="section-header">
+    <h2 class="section-titulo">Painel de indicadores — MS</h2>
+    <span class="section-num">01 / dados</span>
+  </div>
+
+  <div class="modulos-grid">
+    <div class="modulo-card ativo" data-modulo="financas" onclick="abrirModulo(this, 'financas')">
+      <div class="modulo-icone" style="background:#e8f5ee; color:#1a6b3c;">📊</div>
+      <div class="modulo-titulo">Finanças públicas</div>
+      <div class="modulo-sub">LOA, RREO, LRF, resultado primário</div>
+    </div>
+    <div class="modulo-card" data-modulo="infraestrutura" onclick="abrirModulo(this, 'infraestrutura')">
+      <div class="modulo-icone" style="background:#fdf4e3; color:#c8942a;">🛣️</div>
+      <div class="modulo-titulo">Infraestrutura</div>
+      <div class="modulo-sub">Estradas, pavimentação, 79 municípios</div>
+    </div>
+    <div class="modulo-card" data-modulo="saude" onclick="abrirModulo(this, 'saude')">
+      <div class="modulo-icone" style="background:#e8f0fb; color:#1a4a8a;">🏥</div>
+      <div class="modulo-titulo">Saúde pública</div>
+      <div class="modulo-sub">DATASUS, cobertura, leitos SUS</div>
+    </div>
+    <div class="modulo-card" data-modulo="seguranca" onclick="abrirModulo(this, 'seguranca')">
+      <div class="modulo-icone" style="background:#fdeaea; color:#a32828;">🔒</div>
+      <div class="modulo-titulo">Segurança pública</div>
+      <div class="modulo-sub">Homicídios, fronteira, Atlas da Violência</div>
+    </div>
+    <div class="modulo-card" data-modulo="agro" onclick="abrirModulo(this, 'agro')">
+      <div class="modulo-icone" style="background:#eaf3de; color:#3b6d11;">🌱</div>
+      <div class="modulo-titulo">Agronegócio</div>
+      <div class="modulo-sub">PIB agrícola, exportações, IBGE</div>
+    </div>
+    <div class="modulo-card" style="cursor:default; opacity:0.5;">
+      <div class="modulo-icone" style="background:#f0f0f0; color:#888;">⚖️</div>
+      <div class="modulo-titulo">Governança</div>
+      <div class="modulo-sub">TCE-MS · Em breve</div>
+    </div>
+  </div>
+
+  <div class="painel-detalhe visivel" id="det-financas">
+    <div class="metricas-grid" id="metricas-financas"></div>
+  </div>
+  <div class="painel-detalhe" id="det-infraestrutura">
+    <div class="metricas-grid" id="metricas-infraestrutura"></div>
+  </div>
+  <div class="painel-detalhe" id="det-saude">
+    <div class="metricas-grid" id="metricas-saude"></div>
+  </div>
+  <div class="painel-detalhe" id="det-seguranca">
+    <div class="metricas-grid" id="metricas-seguranca"></div>
+  </div>
+  <div class="painel-detalhe" id="det-agro">
+    <div class="metricas-grid" id="metricas-agro"></div>
+  </div>
+</section>
+
+<!-- ANÁLISES -->
+<section id="analises" class="analises-bg">
+  <div class="section-header">
+    <h2 class="section-titulo">Análises recentes</h2>
+    <span class="section-num">02 / análises</span>
+  </div>
+  <div class="analises-grid">
+    <article class="analise-card">
+      <div class="analise-topo"></div>
+      <div class="analise-corpo">
+        <div class="analise-tag">Finanças públicas</div>
+        <h3 class="analise-titulo">RREO 5º bimestre 2024: o que os números escondem</h3>
+        <p class="analise-texto">A execução orçamentária de 2024 revela um padrão que se repete: receitas superestimadas, despesas concentradas no último trimestre e resultado primário sob pressão.</p>
+      </div>
+      <div class="analise-rodape">
+        <span class="analise-data">Mar 2025</span>
+        <a href="#" class="analise-link">Ler análise →</a>
+      </div>
+    </article>
+    <article class="analise-card">
+      <div class="analise-topo" style="background: var(--ouro);"></div>
+      <div class="analise-corpo">
+        <div class="analise-tag" style="color: var(--ouro);">Infraestrutura</div>
+        <h3 class="analise-titulo">71% dos municípios do MS têm mais da metade das estradas sem pavimentação</h3>
+        <p class="analise-texto">Enquanto o orçamento cresce, a malha viária do interior permanece praticamente intocada. Um mapeamento dos 79 municípios por situação viária.</p>
+      </div>
+      <div class="analise-rodape">
+        <span class="analise-data">Fev 2025</span>
+        <a href="#" class="analise-link">Ler análise →</a>
+      </div>
+    </article>
+    <article class="analise-card">
+      <div class="analise-topo" style="background: #1a4a8a;"></div>
+      <div class="analise-corpo">
+        <div class="analise-tag" style="color: #1a4a8a;">Saúde</div>
+        <h3 class="analise-titulo">Cobertura de atenção básica: MS abaixo da média nacional</h3>
+        <p class="analise-texto">Com 64,2% de cobertura, o estado perde em comparação com vizinhos como Mato Grosso e Goiás. O problema é de gestão, não de repasse federal.</p>
+      </div>
+      <div class="analise-rodape">
+        <span class="analise-data">Jan 2025</span>
+        <a href="#" class="analise-link">Ler análise →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- PROPOSTAS -->
+<section id="propostas">
+  <div class="section-header">
+    <h2 class="section-titulo">Eixos programáticos</h2>
+    <span class="section-num">03 / propostas</span>
+  </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <div style="border-left: 3px solid var(--verde); padding-left: 1.5rem;">
+      <div style="font-family: var(--fonte-mono); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--verde); margin-bottom: 0.5rem;">01 · Responsabilidade fiscal</div>
+      <h3 style="font-family: var(--fonte-display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Gestão orçamentária transparente e equilibrada</h3>
+      <p style="font-size: 0.88rem; color: var(--cinza-md); line-height: 1.75;">Execução real da LOA com acompanhamento bimestral público. Despesa com pessoal dentro do limite LRF. Relatórios RREO e RGF em linguagem acessível ao cidadão.</p>
+    </div>
+    <div style="border-left: 3px solid var(--ouro); padding-left: 1.5rem;">
+      <div style="font-family: var(--fonte-mono); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ouro); margin-bottom: 0.5rem;">02 · Infraestrutura</div>
+      <h3 style="font-family: var(--fonte-display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Pavimentação do interior como prioridade de governo</h3>
+      <p style="font-size: 0.88rem; color: var(--cinza-md); line-height: 1.75;">Plano estadual de pavimentação focado nos municípios com menor IDH. Parceria com DNIT e recursos do PAC. Meta: 100% de acesso pavimentado ao perímetro urbano em 4 anos.</p>
+    </div>
+    <div style="border-left: 3px solid #1a4a8a; padding-left: 1.5rem;">
+      <div style="font-family: var(--fonte-mono); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #1a4a8a; margin-bottom: 0.5rem;">03 · Saúde</div>
+      <h3 style="font-family: var(--fonte-display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Atenção primária descentralizada e eficiente</h3>
+      <p style="font-size: 0.88rem; color: var(--cinza-md); line-height: 1.75;">Ampliar cobertura de atenção básica para 85% em 4 anos. Regionalização da saúde com hospitais de referência no interior. Gestão por resultados com metas contratualizadas.</p>
+    </div>
+    <div style="border-left: 3px solid #3b6d11; padding-left: 1.5rem;">
+      <div style="font-family: var(--fonte-mono); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #3b6d11; margin-bottom: 0.5rem;">04 · Desenvolvimento</div>
+      <h3 style="font-family: var(--fonte-display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Agronegócio com retorno ao produtor e ao município</h3>
+      <p style="font-size: 0.88rem; color: var(--cinza-md); line-height: 1.75;">Revisão do FUNDERSUL para ampliar benefício ao pequeno produtor. Política de diversificação produtiva nos municípios de baixa renda. Fortalecimento da IAGRO.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" style="background: var(--cinza-lt);">
+  <div class="section-header">
+    <h2 class="section-titulo">Sobre</h2>
+    <span class="section-num">04 / perfil</span>
+  </div>
+  <div class="sobre-grid">
+    <div>
+      <div class="sobre-foto">
+        <span class="sobre-foto-placeholder">ER</span>
+        <div class="sobre-foto-legenda">Campo Grande · MS</div>
+      </div>
+    </div>
+    <div>
+      <div class="sobre-nome">Renato</div>
+      <div class="sobre-cargo">Economista · CRE/MS · Desde 2010</div>
+      <p class="sobre-texto">
+        Economista formado e registrado no CRE desde 2010, com mais de uma década de atuação em finanças públicas, contabilidade governamental e análise de dados do setor público de Mato Grosso do Sul.
+      </p>
+      <p class="sobre-texto">
+        No Instagram como <strong>@economistarenato</strong>, traduzo os números do orçamento estadual — RREO, LRF, LOA — em linguagem acessível para qualquer cidadão. Minha missão é simples: MS merece gestão pública à altura de seu potencial.
+      </p>
+      <div class="sobre-credenciais">
+        <div class="credencial"><div class="credencial-dot"></div>Economista desde 2010</div>
+        <div class="credencial"><div class="credencial-dot"></div>Finanças públicas estaduais</div>
+        <div class="credencial"><div class="credencial-dot"></div>Campo Grande · MS</div>
+        <div class="credencial"><div class="credencial-dot"></div>@economistarenato</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-logo">Economista Renato</div>
+    <div class="footer-sub">
+      Análises técnicas independentes sobre<br>
+      economia e finanças públicas de MS.<br>
+      <span style="font-family: monospace; font-size: 0.72rem;">economistarenato.com.br</span>
+    </div>
+  </div>
+  <div class="footer-links">
+    <a href="#painel">Painel</a>
+    <a href="#analises">Análises</a>
+    <a href="#propostas">Propostas</a>
+    <a href="#sobre">Sobre</a>
+    <a href="https://instagram.com/economistarenato" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+<script>
+// ── CARREGA DADOS JSON ──
+async function carregarDados() {
+  try {
+    const res = await fetch('../dados/indicadores.json');
+    const d = await res.json();
+    return d;
+  } catch(e) {
+    // Fallback para demonstração
+    return {
+      atualizado_em: "2025-04-07",
+      financas: { receita_liquida_2024_bi: 14.2, despesa_pessoal_pct: 51.8, limite_lrf_pct: 60.0, resultado_primario_bi: -0.34, divida_consolidada_bi: 8.7, execucao_loa_pct: 67.3 },
+      infraestrutura: { municipios_sem_pavimentacao_pct: 71, km_estradas_nao_pavimentadas: 28400, total_municipios: 79 },
+      saude: { cobertura_atencao_basica_pct: 64.2, leitos_sus_por_mil_hab: 2.1, mortalidade_infantil: 12.4 },
+      seguranca: { taxa_homicidios_100k: 28.3, ranking_nacional: 6, variacao_5anos_pct: -8.2 },
+      agro: { pib_agropecuario_bi: 31.4, participacao_pib_estadual_pct: 23.1, exportacoes_bi_usd: 5.8 }
+    };
+  }
+}
+
+function metricaHTML(label, valor, desc, fonte, classe) {
+  return `<div class="metrica">
+    <div class="metrica-label">${label}</div>
+    <div class="metrica-valor ${classe || ''}">${valor}</div>
+    <div class="metrica-desc">${desc}</div>
+    <div class="metrica-fonte">${fonte}</div>
+  </div>`;
+}
+
+async function init() {
+  const d = await carregarDados();
+  const f = d.financas;
+  const i = d.infraestrutura;
+  const s = d.saude;
+  const sg = d.seguranca;
+  const a = d.agro;
+
+  // Hero
+  document.getElementById('hero-pessoal').textContent = f.despesa_pessoal_pct.toFixed(1) + '%';
+  document.getElementById('hero-pavim').textContent = i.municipios_sem_pavimentacao_pct + '%';
+  document.getElementById('hero-agro').textContent = a.participacao_pib_estadual_pct.toFixed(1) + '%';
+  document.getElementById('hero-atualizacao').textContent = 'Dados de ' + d.atualizado_em;
+
+  // Barra de dados
+  document.getElementById('barra-dados').innerHTML = `
+    <span class="barra-item">RREO 2024 · Pessoal: <span class="barra-valor">${f.despesa_pessoal_pct.toFixed(1)}% da RCL</span></span>
+    <span class="barra-item">Execução LOA: <span class="barra-valor">${f.execucao_loa_pct.toFixed(1)}%</span></span>
+    <span class="barra-item">Resultado primário: <span class="barra-valor">R$ ${f.resultado_primario_bi.toFixed(2)} bi</span></span>
+    <span class="barra-item">PIB agro MS: <span class="barra-valor">R$ ${a.pib_agropecuario_bi.toFixed(1)} bi</span></span>
+    <span class="barra-item">Exportações MS: <span class="barra-valor">US$ ${a.exportacoes_bi_usd.toFixed(1)} bi</span></span>
+    <span class="barra-item">Cobertura AB: <span class="barra-valor">${s.cobertura_atencao_basica_pct.toFixed(1)}%</span></span>
+  `;
+
+  // Métricas — Finanças
+  document.getElementById('metricas-financas').innerHTML =
+    metricaHTML('Receita corrente líquida', `R$ ${f.receita_liquida_2024_bi.toFixed(1)} bi`, 'Total arrecadado no exercício 2024', 'SICONFI · STN · RREO 2024', '') +
+    metricaHTML('Despesa com pessoal / LRF', `${f.despesa_pessoal_pct.toFixed(1)}%`, `Limite LRF: ${f.limite_lrf_pct.toFixed(0)}% da RCL`, 'RREO · LRF Art. 19', f.despesa_pessoal_pct > 57 ? 'alerta' : 'ok') +
+    metricaHTML('Resultado primário', `R$ ${f.resultado_primario_bi.toFixed(2)} bi`, 'Superávit (+) ou déficit (−) primário', 'RREO 5º bimestre 2024', f.resultado_primario_bi < 0 ? 'alerta' : 'ok') +
+    metricaHTML('Dívida consolidada', `R$ ${f.divida_consolidada_bi.toFixed(1)} bi`, 'Estoque da dívida pública estadual', 'RGF 3º quadrimestre 2024', '') +
+    metricaHTML('Execução orçamentária', `${f.execucao_loa_pct.toFixed(1)}%`, 'Despesas liquidadas / LOA aprovada', 'SIAFEMS · Até dez/2024', '');
+
+  // Métricas — Infraestrutura
+  document.getElementById('metricas-infraestrutura').innerHTML =
+    metricaHTML('Municípios com >50% estradas de terra', `${i.municipios_sem_pavimentacao_pct}%`, `${Math.round(i.total_municipios * i.municipios_sem_pavimentacao_pct/100)} dos ${i.total_municipios} municípios do estado`, 'CNT Pesquisa Rodoviária 2024', 'alerta') +
+    metricaHTML('Km não pavimentados', `${i.km_estradas_nao_pavimentadas.toLocaleString('pt-BR')} km`, 'Malha estadual e municipal de terra', 'AGESUL · DNIT 2024', 'alerta') +
+    metricaHTML('Total de municípios', `${i.total_municipios}`, 'Campo Grande + 78 outros municípios', 'IBGE 2024', '');
+
+  // Métricas — Saúde
+  document.getElementById('metricas-saude').innerHTML =
+    metricaHTML('Cobertura atenção básica', `${s.cobertura_atencao_basica_pct.toFixed(1)}%`, 'Média nacional: 70,3%', 'DATASUS · MS/DAB 2024', s.cobertura_atencao_basica_pct < 70 ? 'alerta' : 'ok') +
+    metricaHTML('Leitos SUS / 1.000 hab', `${s.leitos_sus_por_mil_hab.toFixed(1)}`, 'Referência OMS: 3,0 leitos', 'DATASUS · CNES 2024', s.leitos_sus_por_mil_hab < 3 ? 'alerta' : 'ok') +
+    metricaHTML('Mortalidade infantil', `${s.mortalidade_infantil.toFixed(1)}`, 'Por 1.000 nascidos vivos', 'IBGE · SIM/DATASUS 2023', '');
+
+  // Métricas — Segurança
+  document.getElementById('metricas-seguranca').innerHTML =
+    metricaHTML('Taxa de homicídios', `${sg.taxa_homicidios_100k.toFixed(1)}`, 'Por 100 mil habitantes', 'Atlas da Violência 2024 · IPEA', 'alerta') +
+    metricaHTML('Ranking nacional', `${sg.ranking_nacional}º`, 'Entre os estados mais violentos do Brasil', 'Anuário Brasileiro de Segurança 2024', 'alerta') +
+    metricaHTML('Variação 5 anos', `${sg.variacao_5anos_pct.toFixed(1)}%`, 'Redução em relação a 2019', 'FBSP · Atlas da Violência', 'ok');
+
+  // Métricas — Agro
+  document.getElementById('metricas-agro').innerHTML =
+    metricaHTML('PIB agropecuário', `R$ ${a.pib_agropecuario_bi.toFixed(1)} bi`, 'Valor bruto da produção agropecuária', 'IBGE · PAM/PPM 2024', '') +
+    metricaHTML('Participação no PIB estadual', `${a.participacao_pib_estadual_pct.toFixed(1)}%`, 'Peso do agronegócio na economia de MS', 'SEMAGRO · IBGE 2024', '') +
+    metricaHTML('Exportações', `US$ ${a.exportacoes_bi_usd.toFixed(1)} bi`, 'Total de exportações do estado em 2024', 'MDIC · ComexStat 2024', '');
+}
+
+// ── TROCA DE MÓDULO ──
+function abrirModulo(el, id) {
+  document.querySelectorAll('.modulo-card').forEach(c => c.classList.remove('ativo'));
+  document.querySelectorAll('.painel-detalhe').forEach(p => p.classList.remove('visivel'));
+  el.classList.add('ativo');
+  const det = document.getElementById('det-' + id);
+  if (det) {
+    det.classList.add('visivel');
+    det.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+init();
+</script>
+</body>
+</html>
