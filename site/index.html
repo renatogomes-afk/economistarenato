@@ -2,667 +2,261 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Economista Renato Gomes — Pré-candidato ao Governo de MS</title>
-<meta name="description" content="Economista com 15 anos de experiência, consultor independente com especialidade em Finanças pela FGV. Pré-candidato ao Governo do Mato Grosso do Sul.">
-<meta property="og:title" content="Economista Renato Gomes — MS 2026">
-<meta property="og:url" content="https://economistarenato.com.br">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Economista Renato Gomes — opinião e números sobre Mato Grosso do Sul</title>
+<meta name="description" content="Análise e opinião sobre a economia, as contas públicas e o dia a dia de Mato Grosso do Sul e de Campo Grande. Todo número com fonte primária.">
+<link rel="canonical" href="https://economistarenato.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Economista Renato Gomes">
+<meta property="og:title" content="Economista Renato Gomes — opinião e números sobre Mato Grosso do Sul">
+<meta property="og:description" content="Análise e opinião sobre a economia, as contas públicas e o dia a dia de MS e de Campo Grande. Todo número com fonte primária.">
+<meta property="og:url" content="https://economistarenato.com.br/">
+<meta property="og:image" content="https://economistarenato.com.br/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/monograma-azul.png">
+<link rel="apple-touch-icon" href="assets/favicon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Lora:wght@400;600;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --azul:#0a2540;--azul-md:#1a3a5c;--azul-lt:#1e4976;
-  --verde:#00c853;--verde-md:#00a846;--verde-esc:#007a32;
-  --branco:#ffffff;--cinza-lt:#f5f7fa;--cinza-md:#8899aa;--cinza-esc:#334455;
-  --borda:rgba(255,255,255,0.12);--borda-esc:#e2e8f0;
-  --fonte-tit:'Montserrat',sans-serif;
-  --fonte-corpo:'Lora',Georgia,serif;
-  --fonte-mono:'Source Code Pro',monospace;
-}
-html{scroll-behavior:smooth}
-body{font-family:var(--fonte-corpo);background:var(--azul);color:var(--branco);font-size:16px;line-height:1.7;overflow-x:hidden}
-
-/* NAV */
-nav{position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 3rem;height:64px;background:rgba(10,37,64,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--borda)}
-.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.nav-sigla{width:36px;height:36px;border-radius:50%;background:var(--verde);display:flex;align-items:center;justify-content:center;font-family:var(--fonte-tit);font-size:.8rem;font-weight:900;color:var(--azul)}
-.nav-nome{font-family:var(--fonte-tit);font-size:.9rem;font-weight:700;color:var(--branco);line-height:1.2}
-.nav-nome small{display:block;font-size:.6rem;font-weight:400;color:rgba(255,255,255,.4);letter-spacing:.08em;text-transform:uppercase}
-.nav-links{display:flex;gap:1.8rem;list-style:none}
-.nav-links a{font-family:var(--fonte-tit);font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.6);text-decoration:none;transition:color .2s}
-.nav-links a:hover{color:var(--verde)}
-.nav-cta{background:var(--verde);color:var(--azul);font-family:var(--fonte-tit);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:9px 20px;border-radius:4px;text-decoration:none;transition:background .2s}
-.nav-cta:hover{background:var(--verde-md)}
-
-/* HERO */
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:6rem 3rem 5rem;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(0,200,83,.07) 0%,transparent 60%),radial-gradient(ellipse at 15% 85%,rgba(26,58,92,.5) 0%,transparent 50%);pointer-events:none}
-.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;max-width:1200px;margin:0 auto;width:100%;position:relative}
-.hero-tag{display:inline-flex;align-items:center;gap:8px;font-family:var(--fonte-mono);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--verde);margin-bottom:1.5rem}
-.hero-tag::before{content:'';width:20px;height:2px;background:var(--verde)}
-.hero-titulo{font-family:var(--fonte-tit);font-size:clamp(2.8rem,5vw,4.4rem);font-weight:900;line-height:1.0;letter-spacing:-.03em;margin-bottom:.6rem}
-.hero-titulo span{color:var(--verde);display:block}
-.hero-cargo{font-family:var(--fonte-mono);font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:1.8rem}
-.hero-sub{font-size:1rem;color:rgba(255,255,255,.72);line-height:1.85;max-width:500px;margin-bottom:2.5rem}
-.hero-btns{display:flex;gap:1rem;flex-wrap:wrap}
-.btn-verde{display:inline-flex;align-items:center;gap:8px;background:var(--verde);color:var(--azul);font-family:var(--fonte-tit);font-size:.85rem;font-weight:700;letter-spacing:.04em;padding:13px 26px;border-radius:4px;text-decoration:none;border:none;cursor:pointer;transition:background .2s,transform .15s}
-.btn-verde:hover{background:var(--verde-md);transform:translateY(-1px)}
-.btn-outline{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--branco);font-family:var(--fonte-tit);font-size:.85rem;font-weight:600;letter-spacing:.04em;padding:13px 26px;border-radius:4px;text-decoration:none;border:1.5px solid rgba(255,255,255,.3);transition:border-color .2s,background .2s}
-.btn-outline:hover{border-color:rgba(255,255,255,.7);background:rgba(255,255,255,.05)}
-
-/* Hero card stats */
-.hero-card{background:rgba(255,255,255,.05);border:1px solid var(--borda);border-radius:12px;padding:2rem;backdrop-filter:blur(8px)}
-.hcard-tit{font-family:var(--fonte-mono);font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--verde);margin-bottom:1.5rem;display:flex;align-items:center;gap:8px}
-.hcard-tit::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--verde)}
-.stat-row{display:flex;align-items:baseline;justify-content:space-between;padding:.85rem 0;border-bottom:1px solid var(--borda)}
-.stat-row:last-of-type{border-bottom:none}
-.stat-label{font-family:var(--fonte-mono);font-size:.68rem;color:rgba(255,255,255,.5)}
-.stat-val{font-family:var(--fonte-tit);font-size:1.25rem;font-weight:700;color:var(--branco);letter-spacing:-.02em}
-.stat-val.alerta{color:#ff6b6b}
-.stat-val.ok{color:var(--verde)}
-.hcard-footer{margin-top:1.2rem;font-family:var(--fonte-mono);font-size:.62rem;color:rgba(255,255,255,.3);display:flex;align-items:center;gap:6px}
-.dot{width:5px;height:5px;border-radius:50%;background:var(--verde);display:inline-block}
-
-/* SEÇÕES */
-section{padding:5rem 3rem}
-.container{max-width:1200px;margin:0 auto}
-.sec-tag{font-family:var(--fonte-mono);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--verde);margin-bottom:.8rem;display:flex;align-items:center;gap:8px}
-.sec-tag::before{content:'';width:20px;height:2px;background:var(--verde)}
-.sec-tit{font-family:var(--fonte-tit);font-size:clamp(1.8rem,3vw,2.4rem);font-weight:900;letter-spacing:-.02em;color:var(--branco);margin-bottom:.8rem;line-height:1.1}
-.sec-sub{font-size:1rem;color:rgba(255,255,255,.62);max-width:600px;line-height:1.8;margin-bottom:3rem}
-
-/* PARA VOCÊ — 3 compromissos */
-.popular-bg{background:var(--azul-md)}
-.popular-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.pcrd{background:rgba(255,255,255,.05);border:1px solid var(--borda);border-radius:8px;padding:1.8rem;border-top:3px solid var(--verde);transition:background .2s,transform .2s}
-.pcrd:hover{background:rgba(255,255,255,.09);transform:translateY(-3px)}
-.pcrd-ico{font-size:1.5rem;margin-bottom:1rem;display:block}
-.pcrd-tit{font-family:var(--fonte-tit);font-size:1rem;font-weight:700;color:var(--branco);margin-bottom:.5rem}
-.pcrd-txt{font-size:.88rem;color:rgba(255,255,255,.62);line-height:1.75}
-
-/* SOBRE / CURRÍCULO */
-.sobre-bg{background:var(--azul-md)}
-.sobre-grid{display:grid;grid-template-columns:1fr 2fr;gap:4rem;align-items:start}
-.sobre-foto{background:var(--azul-lt);border:1px solid var(--borda);border-radius:8px;aspect-ratio:3/4;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.foto-sigla{font-family:var(--fonte-tit);font-size:5rem;font-weight:900;color:var(--verde);opacity:.35}
-.foto-img{width:100%;height:100%;object-fit:cover;object-position:top;position:absolute;inset:0}
-.foto-badge{position:absolute;bottom:0;left:0;right:0;background:var(--verde);color:var(--azul);font-family:var(--fonte-mono);font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:10px 16px;text-align:center}
-.sobre-nome{font-family:var(--fonte-tit);font-size:2rem;font-weight:900;letter-spacing:-.02em;margin-bottom:.3rem}
-.sobre-cargo{font-family:var(--fonte-mono);font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--verde);margin-bottom:1.5rem}
-.destaque-box{background:rgba(0,200,83,.08);border:1px solid rgba(0,200,83,.2);border-left:3px solid var(--verde);border-radius:4px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;font-size:.92rem;color:rgba(255,255,255,.85);line-height:1.8}
-.destaque-box strong{color:var(--verde);font-weight:700}
-.sobre-txt{font-size:.95rem;color:rgba(255,255,255,.75);line-height:1.85;margin-bottom:1rem}
-.exp-lista{margin-top:1.5rem;display:flex;flex-direction:column;gap:.8rem}
-.exp{display:flex;gap:1rem;padding:.8rem 0;border-bottom:1px solid var(--borda)}
-.exp:last-child{border-bottom:none}
-.exp-ico{width:36px;height:36px;background:rgba(0,200,83,.12);border:1px solid rgba(0,200,83,.2);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0}
-.exp-periodo{font-family:var(--fonte-mono);font-size:.6rem;color:var(--verde);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.15rem}
-.exp-titulo{font-family:var(--fonte-tit);font-size:.85rem;font-weight:700;color:var(--branco);margin-bottom:.1rem}
-.exp-empresa{font-size:.78rem;color:rgba(255,255,255,.5)}
-.creds{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.8rem}
-.cred{display:flex;align-items:center;gap:7px;font-family:var(--fonte-tit);font-size:.72rem;font-weight:600;background:rgba(255,255,255,.07);border:1px solid var(--borda);padding:7px 14px;border-radius:4px;color:rgba(255,255,255,.8);text-decoration:none}
-.cred:hover{background:rgba(255,255,255,.12)}
-.cred-dot{width:5px;height:5px;border-radius:50%;background:var(--verde)}
-.numeros{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:2.5rem;background:var(--borda)}
-.num-item{background:rgba(255,255,255,.04);padding:1.5rem;text-align:center}
-.num-val{font-family:var(--fonte-tit);font-size:2rem;font-weight:900;color:var(--verde);letter-spacing:-.03em;margin-bottom:.3rem}
-.num-desc{font-family:var(--fonte-mono);font-size:.62rem;color:rgba(255,255,255,.4);letter-spacing:.06em;text-transform:uppercase}
-
-/* PAINEL DE DADOS */
-.painel-bg{background:var(--cinza-lt);color:var(--azul)}
-.painel-bg .sec-tag{color:var(--verde-esc)}
-.painel-bg .sec-tag::before{background:var(--verde-esc)}
-.painel-bg .sec-tit{color:var(--azul)}
-.painel-bg .sec-sub{color:var(--cinza-esc)}
-.mods{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--borda-esc);border:1px solid var(--borda-esc);border-radius:8px 8px 0 0;overflow:hidden}
-.mod{background:#fff;padding:1.2rem 1rem;cursor:pointer;border:none;text-align:left;transition:background .2s;border-bottom:3px solid transparent;font-family:inherit}
-.mod:hover{background:#f0f9f4}
-.mod.ativo{background:#e6f5ee;border-bottom-color:var(--verde-esc)}
-.mod-ico{font-size:1.2rem;display:block;margin-bottom:.5rem}
-.mod-nom{font-family:var(--fonte-tit);font-size:.78rem;font-weight:700;color:var(--azul);margin-bottom:.2rem}
-.mod-sub{font-family:var(--fonte-mono);font-size:.6rem;color:var(--cinza-md)}
-.pdet{display:none;background:#fff;border:1px solid var(--borda-esc);border-top:none;border-radius:0 0 8px 8px;padding:2rem}
-.pdet.vis{display:block}
-.mets{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:1rem}
-.met{background:var(--cinza-lt);border:1px solid var(--borda-esc);border-radius:6px;padding:1.2rem 1.4rem}
-.met-lbl{font-family:var(--fonte-mono);font-size:.6rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cinza-md);margin-bottom:.5rem}
-.met-v{font-family:var(--fonte-tit);font-size:1.75rem;font-weight:900;color:var(--azul);line-height:1;margin-bottom:.3rem;letter-spacing:-.02em}
-.met-v.alerta{color:#c0392b}
-.met-v.ok{color:var(--verde-esc)}
-.met-d{font-size:.78rem;color:var(--cinza-esc);line-height:1.5}
-.met-f{font-family:var(--fonte-mono);font-size:.58rem;color:var(--cinza-md);margin-top:.5rem}
-
-/* TEMAS DEMANDADOS */
-.temas-bg{background:var(--azul-md)}
-.temas-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:1px}
-.tema{background:rgba(255,255,255,.05);border:1px solid var(--borda);border-radius:8px;padding:1.4rem;cursor:pointer;transition:all .2s;border-bottom:3px solid transparent}
-.tema:hover,.tema.ativo{background:rgba(0,200,83,.08);border-bottom-color:var(--verde)}
-.tema-ico{font-size:1.3rem;margin-bottom:.5rem;display:block}
-.tema-nom{font-family:var(--fonte-tit);font-size:.8rem;font-weight:700;color:var(--branco);margin-bottom:.2rem}
-.tema-sub{font-family:var(--fonte-mono);font-size:.62rem;color:rgba(255,255,255,.45)}
-.tdet{display:none;background:var(--cinza-lt);border-radius:8px;padding:2rem;margin-top:1px;color:var(--azul)}
-.tdet.vis{display:block}
-.tdet .met-lbl{color:var(--cinza-md)}
-.tdet .met-v{color:var(--azul)}
-.tdet .met-v.ok{color:var(--verde-esc)}
-.tdet .met{background:#fff;border:1px solid var(--borda-esc)}
-.tdet .met-d{color:var(--cinza-esc)}
-
-/* VISÃO */
-.visao-bg{background:var(--azul)}
-.visao-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.vcrd{background:rgba(255,255,255,.05);border:1px solid var(--borda);border-radius:8px;padding:1.8rem;transition:background .2s,transform .2s}
-.vcrd:hover{background:rgba(255,255,255,.09);transform:translateY(-3px)}
-.vcrd-ico{font-size:1.5rem;margin-bottom:1rem;display:block}
-.vcrd-tit{font-family:var(--fonte-tit);font-size:1rem;font-weight:700;color:var(--branco);margin-bottom:.5rem}
-.vcrd-txt{font-size:.88rem;color:rgba(255,255,255,.62);line-height:1.75}
-
-/* PROPOSTAS */
-.prop-bg{background:var(--cinza-lt)}
-.prop-bg .sec-tag{color:var(--verde-esc)}
-.prop-bg .sec-tag::before{background:var(--verde-esc)}
-.prop-bg .sec-tit{color:var(--azul)}
-.prop-bg .sec-sub{color:var(--cinza-esc)}
-.props{display:flex;flex-direction:column;gap:1px;background:var(--borda-esc);border:1px solid var(--borda-esc);border-radius:8px;overflow:hidden}
-.prop{background:#fff;padding:1.8rem 2rem;display:grid;grid-template-columns:52px 1fr;gap:1.5rem;align-items:start;transition:background .2s}
-.prop:hover{background:#f0faf5}
-.prop-n{font-family:var(--fonte-tit);font-size:2rem;font-weight:900;color:var(--verde-esc);opacity:.25;line-height:1}
-.prop-tit{font-family:var(--fonte-tit);font-size:1rem;font-weight:700;color:var(--azul);margin-bottom:.4rem}
-.prop-txt{font-size:.88rem;color:var(--cinza-esc);line-height:1.75}
-.prop-metas{margin-top:.7rem;display:flex;flex-direction:column;gap:.3rem}
-.prop-meta{font-size:.8rem;color:var(--cinza-esc);display:flex;align-items:flex-start;gap:7px}
-.prop-meta::before{content:'✓';color:var(--verde-esc);font-weight:700;flex-shrink:0}
-
-/* APOIE */
-.apoie-bg{background:linear-gradient(135deg,var(--verde-esc) 0%,var(--azul) 65%);text-align:center;padding:5rem 3rem}
-.apoie-tit{font-family:var(--fonte-tit);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;letter-spacing:-.02em;color:var(--branco);margin-bottom:1rem}
-.apoie-sub{font-size:1rem;color:rgba(255,255,255,.78);max-width:500px;margin:0 auto 2.5rem}
-.apoie-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:800px;margin:0 auto 2.5rem}
-.acrd{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:8px;padding:1.5rem;text-align:center}
-.acrd-ico{font-size:1.5rem;margin-bottom:.8rem;display:block}
-.acrd-tit{font-family:var(--fonte-tit);font-size:.9rem;font-weight:700;color:var(--branco);margin-bottom:.4rem}
-.acrd-txt{font-size:.82rem;color:rgba(255,255,255,.68);line-height:1.6}
-
-/* CONTATO */
-.contato-bg{background:var(--azul-md)}
-.ctgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-.ctcrd{background:rgba(255,255,255,.05);border:1px solid var(--borda);border-radius:8px;padding:1.8rem;text-align:center;text-decoration:none;transition:background .2s,transform .2s;display:block}
-.ctcrd:hover{background:rgba(255,255,255,.1);transform:translateY(-2px)}
-.ct-ico{width:44px;height:44px;border-radius:50%;background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.3);display:flex;align-items:center;justify-content:center;margin:0 auto 1rem}
-.ct-tipo{font-family:var(--fonte-mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--verde);margin-bottom:.4rem}
-.ct-val{font-family:var(--fonte-tit);font-size:.88rem;font-weight:600;color:var(--branco)}
-
-/* FOOTER */
-footer{background:var(--azul);border-top:1px solid var(--borda);padding:2.5rem 3rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
-.ft-logo{font-family:var(--fonte-tit);font-size:1rem;font-weight:700;color:var(--branco);margin-bottom:.3rem}
-.ft-sub{font-family:var(--fonte-mono);font-size:.62rem;color:rgba(255,255,255,.3)}
-.ft-links{display:flex;gap:1.5rem;flex-wrap:wrap}
-.ft-links a{font-family:var(--fonte-tit);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.35);text-decoration:none;transition:color .2s}
-.ft-links a:hover{color:var(--verde)}
-
-/* ANIMS */
-@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-.fu{opacity:0;animation:fadeUp .7s ease forwards}
-.fu:nth-child(1){animation-delay:.1s}.fu:nth-child(2){animation-delay:.22s}
-.fu:nth-child(3){animation-delay:.34s}.fu:nth-child(4){animation-delay:.46s}
-
-/* RESPONSIVO */
-@media(max-width:960px){
-  .hero-grid,.sobre-grid{grid-template-columns:1fr}
-  .mods{grid-template-columns:repeat(3,1fr)}
-  .visao-grid,.apoie-cards,.ctgrid,.popular-grid,.temas-grid{grid-template-columns:1fr 1fr}
-  section{padding:3.5rem 1.5rem}
-  nav{padding:0 1.5rem}.nav-links{display:none}
-  footer{flex-direction:column;align-items:flex-start}
-}
-@media(max-width:600px){
-  .visao-grid,.apoie-cards,.ctgrid,.popular-grid,.temas-grid{grid-template-columns:1fr}
-  .mods{grid-template-columns:1fr 1fr}
-  .hero-titulo{font-size:2.6rem}
-}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body>
 
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-logo">
-    <div class="nav-sigla">RG</div>
-    <div class="nav-nome">
-      Economista Renato Gomes
-      <small>Pré-candidato · Governo MS 2026</small>
+<header>
+  <div class="env">
+    <div class="tira">
+      <div class="tira-data">Campo Grande, MS · <b id="data-hoje"></b></div>
+      <div class="ticker"><div class="ticker-fita" id="fita"></div></div>
+      <a class="tira-cta" href="#assine">Receba as análises &rarr;</a>
     </div>
-  </a>
-  <ul class="nav-links">
-    <li><a href="#popular">Para você</a></li>
-    <li><a href="#sobre">Sobre Renato</a></li>
-    <li><a href="#painel">Painel MS</a></li>
-    <li><a href="#temas">Temas</a></li>
-    <li><a href="#propostas">Propostas</a></li>
-    <li><a href="#apoie">Apoie</a></li>
-  </ul>
-  <a href="https://instagram.com/economistarenato" target="_blank" class="nav-cta">@economistarenato</a>
-</nav>
+  </div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-grid">
+  <div class="env">
+    <div class="cabecalho">
+      <a href="/"><img class="marca" src="assets/marca-wordmark.png" alt="Renato W. Gomes — Economista"></a>
+      <div class="lema">Opinião e números sobre Mato Grosso do Sul e Campo Grande</div>
+      <div class="canto">
+        <a class="botao" href="sobre/">Quem sou</a>
+        <a class="botao botao-cheio" href="#assine">Assinar</a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="secoes">
+    <div class="env">
+      <a href="/" class="ativo">Capa</a>
+      <a href="artigo/estreia/">A coluna</a>
+      <a href="#dados">MS em números</a>
+      <a href="#pautas">Pautas</a>
+      <a href="sobre/">Sobre</a>
+      <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>
+    </div>
+  </nav>
+</header>
+
+<main class="env">
+
+  <section class="capa">
+
+    <article class="manchete">
+      <a href="artigo/estreia/">
+        <span class="chapeu opiniao">Opinião · Carta de estreia</span>
+        <h1 class="tit tit-xl">O MS enriqueceu. E a sua vida?</h1>
+        <p class="olho olho-xl">Este espaço nasce para responder a essa pergunta com número na mesa, e não com adjetivo. Toda semana, um pedaço do orçamento de Mato Grosso do Sul ou de Campo Grande explicado em linguagem de gente — com o documento oficial sempre no rodapé.</p>
+        <div class="assin"><span>Por <b>Renato W. Gomes</b></span><i class="ponto"></i><span>Economista · CORECON-MS 1297</span></div>
+      </a>
+      <figure style="margin-top:20px">
+        <img src="assets/retrato.jpg" alt="Renato W. Gomes" style="aspect-ratio:16/9;object-fit:cover;object-position:50% 22%">
+        <figcaption><b>Renato W. Gomes.</b> Economista há 15 anos, consultor independente com especialização em finanças pela FGV. Campo Grande, MS.</figcaption>
+      </figure>
+    </article>
+
+    <div id="pautas">
+      <div class="bloco pauta">
+        <span class="chapeu">Contas públicas</span>
+        <h2 class="tit tit-m">Como ler o orçamento de Mato Grosso do Sul</h2>
+        <p class="olho">De onde vem cada real que o estado arrecada e para onde ele vai, linha a linha.</p>
+        <span class="selo">Em preparação</span>
+      </div>
+      <div class="bloco pauta">
+        <span class="chapeu">Contas públicas</span>
+        <h2 class="tit tit-m">Renúncia fiscal: quanto o estado deixa de arrecadar, e de quem</h2>
+        <p class="olho">A abertura por setor, conforme o Demonstrativo 7 da LDO.</p>
+        <span class="selo">Em preparação</span>
+      </div>
+      <div class="bloco pauta">
+        <span class="chapeu">A Capital</span>
+        <h2 class="tit tit-m">O orçamento de Campo Grande, linha a linha</h2>
+        <span class="selo">Em preparação</span>
+      </div>
+    </div>
+
     <div>
-      <div class="hero-tag fu">Pré-candidatura ao Governo do Estado · MS 2026</div>
-      <h1 class="hero-titulo fu">
-        Economista<br>
-        Renato<br>
-        <span>Gomes.</span>
-      </h1>
-      <div class="hero-cargo fu">Economista · Consultor · Especialista em Finanças — FGV</div>
-      <p class="hero-sub fu">
-        Mato Grosso do Sul merece um governador que entende de economia, planejamento e gestão pública com responsabilidade e visão de futuro. Dados reais, propostas concretas.
-      </p>
-      <div class="hero-btns fu">
-        <a href="#popular" class="btn-verde">Para o cidadão →</a>
-        <a href="#propostas" class="btn-outline">Ver propostas</a>
+      <div class="bloco pauta">
+        <span class="chapeu dado">Os dados</span>
+        <h2 class="tit tit-m">Quanto de imposto vai no arroz, no pão e na carne</h2>
+        <p class="olho">A carga que chega à gôndola, item a item, a partir da tabela da SEFAZ-MS.</p>
+        <span class="selo">Em preparação</span>
+      </div>
+      <div class="bloco pauta">
+        <span class="chapeu">O Estado</span>
+        <h2 class="tit tit-m">A malha rodoviária estadual, quilômetro a quilômetro</h2>
+        <p class="olho">O que está pavimentado, o que está em obra e o que existe só no mapa.</p>
+        <span class="selo">Em preparação</span>
+      </div>
+      <div class="bloco pauta">
+        <span class="chapeu">Economia &amp; trabalho</span>
+        <h2 class="tit tit-m">O que o crescimento do PIB fez com o salário</h2>
+        <span class="selo">Em preparação</span>
       </div>
     </div>
-    <div class="hero-card fu">
-      <div class="hcard-tit">Indicadores do Estado · MS 2024</div>
-      <div class="stat-row">
-        <span class="stat-label">Despesa com pessoal / LRF</span>
-        <span class="stat-val" id="h-pessoal">—</span>
+
+    <aside class="trilho">
+      <div class="trilho-tit">O que vem aí</div>
+      <p class="olho" style="margin-top:0">A publicação começa agora e passa a ter uma análise por semana. As pautas ao lado já estão em apuração — cada uma sai quando os documentos oficiais estiverem conferidos, não antes.</p>
+      <p class="olho">Quem assina recebe primeiro, por e-mail.</p>
+      <a class="botao botao-cheio" href="#assine" style="display:inline-block;margin-top:14px">Quero receber</a>
+
+      <div class="trilho-tit" style="margin-top:30px">O número</div>
+      <div class="trilho-num">R$ 11,95 bi</div>
+      <p class="olho" style="margin-top:6px">é a renúncia fiscal prevista por Mato Grosso do Sul para 2026 — o que o estado decide não arrecadar.</p>
+      <p class="fonte-mini">Fonte: LDO 2026, Demonstrativo 7.</p>
+    </aside>
+  </section>
+
+  <!-- ====================== PAINEL ====================== -->
+  <section class="painel" id="dados">
+    <div class="env">
+      <div class="faixa">
+        <h2>MS em números</h2>
+        <span class="sub">Só indicador com fonte primária conferida</span>
+        <a class="mais" href="dados/indicadores.json">Ver os dados</a>
       </div>
-      <div class="stat-row">
-        <span class="stat-label">Execução orçamentária / LOA</span>
-        <span class="stat-val" id="h-loa">—</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">Municípios sem pavimentação</span>
-        <span class="stat-val alerta" id="h-pavim">—</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">PIB agropecuário estadual</span>
-        <span class="stat-val ok" id="h-agro">—</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">Taxa de homicídios / 100 mil hab.</span>
-        <span class="stat-val alerta" id="h-hom">—</span>
-      </div>
-      <div class="hcard-footer">
-        <span class="dot"></span>
-        <span id="h-data">Carregando...</span>
+      <div class="painel-grade" id="painel-grade"></div>
+      <div class="painel-rodape">
+        <span id="painel-atualizado"></span>
+        <span>Cada número acima traz o documento de origem. Achou divergência? Escreva — a correção é publicada com data.</span>
       </div>
     </div>
+  </section>
+
+  <!-- ====================== SOBRE (resumo) ====================== -->
+  <div class="faixa" id="sobre">
+    <h2>Quem escreve</h2>
+    <span class="sub">E com que método</span>
+    <a class="mais" href="sobre/">Página completa &rarr;</a>
   </div>
-</section>
 
-<!-- PARA VOCÊ -->
-<section id="popular" class="popular-bg">
-  <div class="container">
-    <div class="sec-tag">Para o povo do MS</div>
-    <h2 class="sec-tit">3 compromissos com você</h2>
-    <p class="sec-sub">Sem jargão técnico. Sem promessa vazia. O que você e sua família vão sentir na vida real.</p>
-    <div class="popular-grid">
-      <div class="pcrd">
-        <span class="pcrd-ico">🛣️</span>
-        <div class="pcrd-tit">Estrada digna para o interior</div>
-        <p class="pcrd-txt">71% dos municípios do MS têm mais da metade das estradas de chão. Quem mora no interior sabe o custo disso na colheita, no acesso ao médico, na escola dos filhos. Isso vai mudar.</p>
-      </div>
-      <div class="pcrd">
-        <span class="pcrd-ico">🏥</span>
-        <div class="pcrd-tit">Saúde perto de você</div>
-        <p class="pcrd-txt">Mais de 35% dos moradores do MS não têm cobertura de atenção básica. O estado tem dinheiro — falta gestão. Vamos levar saúde de qualidade a cada canto do estado.</p>
-      </div>
-      <div class="pcrd">
-        <span class="pcrd-ico">💰</span>
-        <div class="pcrd-tit">Seu dinheiro no lugar certo</div>
-        <p class="pcrd-txt">O orçamento estadual é seu dinheiro. Você tem direito de saber onde ele vai. Vamos publicar tudo em linguagem simples — cada real investido, cada obra entregue.</p>
-      </div>
+  <section class="coluna-destaque">
+    <div class="retrato"><img src="assets/retrato.jpg" alt="Renato W. Gomes" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
+    <div>
+      <h3 class="tit tit-g" style="font-style:normal">Renato W. Gomes</h3>
+      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Atendeu mais de 300 empresas em planejamento contábil, tributário e financeiro, e trabalhou no mercado financeiro no Rio de Janeiro e em Brasília. Mora em Campo Grande, é católico e orienta suas posições pela Doutrina Social da Igreja.</p>
+      <p class="olho">A regra desta publicação é simples: nenhuma afirmação numérica sai daqui sem a fonte primária citada — orçamento, Diário Oficial, portais de transparência, IBGE e órgãos de controle. Quando não há documento, o texto diz que não há.</p>
+      <div class="assin"><a href="sobre/"><b>Leia o método completo</b></a><i class="ponto"></i><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- SOBRE / CURRÍCULO -->
-<section id="sobre" class="sobre-bg">
-  <div class="container">
-    <div class="sobre-grid">
-      <div>
-        <div class="sobre-foto">
-          <div class="foto-sigla">RG</div>
-          <img class="foto-img" src="geral/drive-download-20260410T191600Z-3-001/_materiais/instagram/rwg_instagram_B.png" alt="Economista Renato Gomes" onerror="this.style.display='none'">
-          <div class="foto-badge">Campo Grande · Mato Grosso do Sul</div>
-        </div>
-        <div class="numeros">
-          <div class="num-item"><div class="num-val">15+</div><div class="num-desc">anos de experiência</div></div>
-          <div class="num-item"><div class="num-val">300+</div><div class="num-desc">empresas atendidas</div></div>
-          <div class="num-item"><div class="num-val">FGV</div><div class="num-desc">especialidade em finanças</div></div>
-        </div>
-      </div>
-      <div>
-        <div class="sec-tag">Quem é Renato Gomes</div>
-        <div class="sobre-nome">Economista Renato Gomes</div>
-        <div class="sobre-cargo">Economista · CRE/MS · Consultor Independente · Desde 2010</div>
-
-        <div class="destaque-box">
-          Sou Economista há <strong>15 anos</strong>, consultor independente com especialidade em Finanças pela <strong>Fundação Getúlio Vargas</strong>. Já atendi <strong>mais de 300 empresas</strong> nos segmentos de planejamento contábil, tributário e financeiro. Trabalhei no mercado financeiro em <strong>Rio de Janeiro e Brasília</strong>, tendo atendido diretores e presidentes de multinacionais como EBX, OGX, Microsoft e Petrobras, ministros da República e banqueiros.
-        </div>
-
-        <p class="sobre-txt">Com uma visão técnica e humanizada, acredito que boas políticas públicas nascem do conhecimento profundo da economia local, da escuta ativa das comunidades e de um plano de governo sólido e transparente. No Instagram como <strong style="color:var(--verde)">@economistarenato</strong>, traduzo os números do orçamento estadual em linguagem acessível para qualquer cidadão.</p>
-
-        <div class="exp-lista">
-          <div class="exp">
-            <div class="exp-ico">📊</div>
-            <div>
-              <div class="exp-periodo">2010 – Atual</div>
-              <div class="exp-titulo">Consultor Independente · +300 Empresas Atendidas</div>
-              <div class="exp-empresa">Planejamento contábil, tributário e financeiro · Brasil</div>
-            </div>
-          </div>
-          <div class="exp">
-            <div class="exp-ico">🌆</div>
-            <div>
-              <div class="exp-periodo">Rio de Janeiro & Brasília</div>
-              <div class="exp-titulo">Mercado Financeiro · Alta Direção Corporativa</div>
-              <div class="exp-empresa">EBX · OGX · Microsoft · Petrobras · Ministros da República · Banqueiros</div>
-            </div>
-          </div>
-          <div class="exp">
-            <div class="exp-ico">📱</div>
-            <div>
-              <div class="exp-periodo">2020 – Atual</div>
-              <div class="exp-titulo">@economistarenato</div>
-              <div class="exp-empresa">Análises técnicas de finanças públicas do Mato Grosso do Sul</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="creds">
-          <div class="cred"><div class="cred-dot"></div>Economista desde 2010</div>
-          <div class="cred"><div class="cred-dot"></div>Especialista FGV</div>
-          <div class="cred"><div class="cred-dot"></div>+300 empresas atendidas</div>
-          <div class="cred"><div class="cred-dot"></div>Campo Grande · MS</div>
-          <a href="https://instagram.com/economistarenato" target="_blank" class="cred"><div class="cred-dot"></div>@economistarenato</a>
-        </div>
-
-        <!-- REFUNDAÇÃO -->
-        <div style="margin-top:2rem;background:rgba(0,200,83,.06);border:1px solid rgba(0,200,83,.18);border-left:3px solid var(--verde);border-radius:4px;padding:1.4rem 1.6rem">
-          <div style="font-family:var(--fonte-tit);font-size:.92rem;font-weight:700;color:var(--verde);margin-bottom:.7rem">🏛️ Uma refundação do estado</div>
-          <p style="font-size:.88rem;color:rgba(255,255,255,.8);line-height:1.82;margin-bottom:.8rem">Para muitos sul-mato-grossenses, esta candidatura pode significar algo além de uma troca de gestão — pode ser o começo de uma <strong style="color:var(--verde)">refundação do estado</strong>: uma nova forma de governar, fundada em esperança real, não em promessas vazias de sempre.</p>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.8rem">
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Tributação centrada em patrimônio e renda — não em consumo e produção</div>
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Prioridade do essencial sobre o supérfluo em todo o orçamento</div>
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Fim do coronelismo — incentivo a uma nova cultura política no estado</div>
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Fim dos privilégios do alto escalão do governo</div>
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Combate sistemático ao desperdício do dinheiro público</div>
-            <div style="display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:rgba(255,255,255,.72)"><span style="color:var(--verde);font-weight:700;flex-shrink:0">✓</span>Premiação do mérito — valorização de quem produz e entrega resultado</div>
-          </div>
-        </div>
-
-        <!-- VALORES E FÉ -->
-        <div style="margin-top:2.5rem;border-top:1px solid var(--borda);padding-top:2rem">
-          <div class="sec-tag" style="margin-bottom:1rem">Valores e convicções</div>
-
-          <div class="destaque-box" style="margin-bottom:1.2rem">
-            <strong>Católico</strong> e adepto da <strong>Doutrina Social da Santa Igreja Católica Apostólica Romana</strong> — o conjunto de ensinamentos que orientam a ação cristã na política, na economia e na sociedade. Acredito que o bem comum, a subsidiariedade, a solidariedade e a dignidade humana devem guiar as decisões de governo.
-          </div>
-
-          <p class="sobre-txt">Me inspiro em grandes líderes católicos da história que colocaram a fé e a razão a serviço de seus povos: <strong style="color:var(--verde)">Carlos Magno</strong>, que unificou a Europa cristã; <strong style="color:var(--verde)">Carlos V</strong>, defensor da cristandade ocidental; <strong style="color:var(--verde)">Gabriel Garcia Moreno</strong>, estadista ecuatoriano que construiu um estado fundado nos princípios católicos; e outros líderes que, cada um em seu tempo e contexto histórico, buscaram governar segundo os princípios do Evangelho e da tradição cristã.</p>
-
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem">
-            <div style="background:rgba(255,255,255,.04);border:1px solid var(--borda);border-left:3px solid var(--verde);border-radius:4px;padding:1rem 1.2rem">
-              <div style="font-family:var(--fonte-tit);font-size:.78rem;font-weight:700;color:var(--verde);margin-bottom:.4rem">⚖️ Contra a usura e os juros escravizantes</div>
-              <p style="font-size:.8rem;color:rgba(255,255,255,.65);line-height:1.7">A dívida pública e os juros abusivos são mecanismos de escravização econômica. Defendo uma política de crédito justa, acessível e que sirva ao povo — não ao sistema financeiro.</p>
-            </div>
-            <div style="background:rgba(255,255,255,.04);border:1px solid var(--borda);border-left:3px solid var(--verde);border-radius:4px;padding:1rem 1.2rem">
-              <div style="font-family:var(--fonte-tit);font-size:.78rem;font-weight:700;color:var(--verde);margin-bottom:.4rem">📊 Tributação progressiva e justa</div>
-              <p style="font-size:.8rem;color:rgba(255,255,255,.65);line-height:1.7">Quem ganha mais deve contribuir proporcionalmente mais. Uma política tributária progressiva é condição mínima de justiça social e alívio para quem vive do trabalho.</p>
-            </div>
-            <div style="background:rgba(255,255,255,.04);border:1px solid var(--borda);border-left:3px solid var(--verde);border-radius:4px;padding:1rem 1.2rem">
-              <div style="font-family:var(--fonte-tit);font-size:.78rem;font-weight:700;color:var(--verde);margin-bottom:.4rem">⚡ Independência energética do MS</div>
-              <p style="font-size:.8rem;color:rgba(255,255,255,.65);line-height:1.7">MS tem sol, biomassa, gás e potencial hídrico. Não podemos depender de energia cara e importada. Vamos construir uma matriz energética própria, barata e soberana para o estado.</p>
-            </div>
-            <div style="background:rgba(255,255,255,.04);border:1px solid var(--borda);border-left:3px solid var(--verde);border-radius:4px;padding:1rem 1.2rem">
-              <div style="font-family:var(--fonte-tit);font-size:.78rem;font-weight:700;color:var(--verde);margin-bottom:.4rem">🏛️ Compensação das injustiças federais</div>
-              <p style="font-size:.8rem;color:rgba(255,255,255,.65);line-height:1.7">MS contribui muito e recebe pouco. Vamos renegociar com a União a compensação justa pelas medidas desequilibradas que penalizam nosso estado — do ICMS às transferências fiscais.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- ====================== ASSINE ====================== -->
+  <section class="assine" id="assine">
+    <div>
+      <h3>Uma análise por semana, no seu e-mail.</h3>
+      <p>Um número do orçamento de MS ou de Campo Grande, explicado em linguagem de gente — com a fonte oficial sempre no rodapé.</p>
     </div>
-  </div>
-</section>
-
-<!-- PAINEL DE DADOS -->
-<section id="painel" class="painel-bg">
-  <div class="container">
-    <div class="sec-tag">Transparência</div>
-    <h2 class="sec-tit">Painel de indicadores — MS</h2>
-    <p class="sec-sub">Dados reais das finanças públicas, infraestrutura, saúde, segurança e agronegócio de Mato Grosso do Sul. Fontes oficiais, atualizados via Python.</p>
-    <div class="mods">
-      <button class="mod ativo" onclick="abrirMod(this,'financas')"><span class="mod-ico">📊</span><div class="mod-nom">Finanças públicas</div><div class="mod-sub">LOA · RREO · LRF</div></button>
-      <button class="mod" onclick="abrirMod(this,'infra')"><span class="mod-ico">🛣️</span><div class="mod-nom">Infraestrutura</div><div class="mod-sub">Estradas · municípios</div></button>
-      <button class="mod" onclick="abrirMod(this,'saude')"><span class="mod-ico">🏥</span><div class="mod-nom">Saúde</div><div class="mod-sub">DATASUS · leitos SUS</div></button>
-      <button class="mod" onclick="abrirMod(this,'seg')"><span class="mod-ico">🔒</span><div class="mod-nom">Segurança</div><div class="mod-sub">Atlas da Violência</div></button>
-      <button class="mod" onclick="abrirMod(this,'agro')"><span class="mod-ico">🌱</span><div class="mod-nom">Agronegócio</div><div class="mod-sub">IBGE · SEMAGRO</div></button>
+    <div>
+      <form class="form-linha" name="assinantes" method="POST" data-netlify="true" action="/obrigado/">
+        <input type="hidden" name="form-name" value="assinantes">
+        <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
+        <button class="botao botao-cheio" type="submit">Quero receber</button>
+      </form>
+      <p class="form-nota">Sem custo e sem spam. Seu e-mail é usado só para enviar as análises e você sai quando quiser.</p>
     </div>
-    <div class="pdet vis" id="det-financas"><div class="mets" id="m-financas"></div></div>
-    <div class="pdet" id="det-infra"><div class="mets" id="m-infra"></div></div>
-    <div class="pdet" id="det-saude"><div class="mets" id="m-saude"></div></div>
-    <div class="pdet" id="det-seg"><div class="mets" id="m-seg"></div></div>
-    <div class="pdet" id="det-agro"><div class="mets" id="m-agro"></div></div>
-  </div>
-</section>
+  </section>
 
-<!-- TEMAS DEMANDADOS -->
-<section id="temas" class="temas-bg">
-  <div class="container">
-    <div class="sec-tag">Análises técnicas</div>
-    <h2 class="sec-tit">Temas mais demandados</h2>
-    <p class="sec-sub">Os assuntos que mais impactam o cotidiano do sul-mato-grossense — com dados e análises do @economistarenato.</p>
-    <div class="temas-grid">
-      <div class="tema ativo" onclick="abrirTema(this,'tf')"><span class="tema-ico">📊</span><div class="tema-nom">Finanças públicas</div><div class="tema-sub">RREO, LRF, resultado primário</div></div>
-      <div class="tema" onclick="abrirTema(this,'ti')"><span class="tema-ico">🛣️</span><div class="tema-nom">Infraestrutura viária</div><div class="tema-sub">Estradas, municípios, AGESUL</div></div>
-      <div class="tema" onclick="abrirTema(this,'ts')"><span class="tema-ico">🏥</span><div class="tema-nom">Saúde pública</div><div class="tema-sub">DATASUS, leitos SUS, cobertura</div></div>
-      <div class="tema" onclick="abrirTema(this,'tg')"><span class="tema-ico">🔒</span><div class="tema-nom">Segurança pública</div><div class="tema-sub">Fronteira, homicídios, Atlas</div></div>
-      <div class="tema" onclick="abrirTema(this,'ta')"><span class="tema-ico">🌱</span><div class="tema-nom">Agronegócio</div><div class="tema-sub">PIB, exportações, IBGE</div></div>
-      <div class="tema" onclick="abrirTema(this,'tgov')"><span class="tema-ico">⚖️</span><div class="tema-nom">Governança</div><div class="tema-sub">TCE-MS, contratos, pessoal</div></div>
-    </div>
-    <div class="tdet vis" id="tf"><div class="mets" id="tm-financas"></div></div>
-    <div class="tdet" id="ti"><div class="mets" id="tm-infra"></div></div>
-    <div class="tdet" id="ts"><div class="mets" id="tm-saude"></div></div>
-    <div class="tdet" id="tg"><div class="mets" id="tm-seg"></div></div>
-    <div class="tdet" id="ta"><div class="mets" id="tm-agro"></div></div>
-    <div class="tdet" id="tgov"><p style="color:rgba(255,255,255,.55);font-size:.88rem;padding:.5rem 0">Análises de governança em breve — acompanhe o @economistarenato.</p></div>
-  </div>
-</section>
+</main>
 
-<!-- VISÃO -->
-<section id="visao" class="visao-bg">
-  <div class="container">
-    <div class="sec-tag">Nossa visão</div>
-    <h2 class="sec-tit">Um MS Justo, Próspero e com Futuro</h2>
-    <p class="sec-sub">O desenvolvimento passa por gestão pública responsável, investimento em pessoas, geração de empregos e respeito ao meio ambiente.</p>
-    <div class="visao-grid">
-      <div class="vcrd"><span class="vcrd-ico">📈</span><div class="vcrd-tit">Economia Forte</div><p class="vcrd-txt">Atrair investimentos, gerar empregos de qualidade e diversificar a economia, com política fiscal responsável e transparente.</p></div>
-      <div class="vcrd"><span class="vcrd-ico">🎓</span><div class="vcrd-tit">Educação de Qualidade</div><p class="vcrd-txt">Valorizar professores, ampliar o acesso à educação técnica e superior, e preparar nossa juventude para o mercado do futuro.</p></div>
-      <div class="vcrd"><span class="vcrd-ico">🏥</span><div class="vcrd-tit">Saúde para Todos</div><p class="vcrd-txt">Garantir acesso universal à saúde pública de qualidade em todos os municípios, com atenção especial ao interior do estado.</p></div>
-      <div class="vcrd"><span class="vcrd-ico">🌿</span><div class="vcrd-tit">Pantanal e Sustentabilidade</div><p class="vcrd-txt">Preservar o Pantanal e os biomas locais, promovendo o desenvolvimento sustentável e o ecoturismo como alavanca econômica.</p></div>
-      <div class="vcrd"><span class="vcrd-ico">🛣️</span><div class="vcrd-tit">Infraestrutura</div><p class="vcrd-txt">Investir em estradas, saneamento básico, habitação e conectividade para todos os sul-mato-grossenses, priorizando o interior.</p></div>
-      <div class="vcrd"><span class="vcrd-ico">🤝</span><div class="vcrd-tit">Gestão Transparente</div><p class="vcrd-txt">Administração pública honesta, com metas publicadas, resultados auditados e participação da sociedade civil nas decisões.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- PROPOSTAS CONSOLIDADAS -->
-<section id="propostas" class="prop-bg">
-  <div class="container">
-    <div class="sec-tag">Plano de governo</div>
-    <h2 class="sec-tit">Propostas Concretas para MS</h2>
-    <p class="sec-sub">Cada proposta nasce de dados reais sobre a situação do estado. Não são promessas genéricas — são compromissos técnicos com metas verificáveis.</p>
-    <div class="props">
-      <div class="prop">
-        <div class="prop-n">01</div>
-        <div>
-          <div class="prop-tit">Responsabilidade Fiscal e Orçamento Transparente</div>
-          <p class="prop-txt">Execução real da LOA com acompanhamento bimestral público. RREO e RGF em linguagem acessível. Meta: resultado primário positivo nos 4 anos de mandato.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Despesa de pessoal abaixo de 54% da RCL</div>
-            <div class="prop-meta">Portal de dados abertos em tempo real</div>
-            <div class="prop-meta">Auditoria independente anual das contas públicas</div>
-          </div>
-        </div>
-      </div>
-      <div class="prop">
-        <div class="prop-n">02</div>
-        <div>
-          <div class="prop-tit">Desenvolvimento Econômico Regional</div>
-          <p class="prop-txt">Criar zonas de incentivo fiscal para atrair empresas de tecnologia, logística e indústria. Diversificar a matriz econômica gerando empregos qualificados no interior.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Incentivos para empresas de tecnologia no interior</div>
-            <div class="prop-meta">Programa de qualificação profissional regional</div>
-            <div class="prop-meta">Parceria com setor privado para geração de emprego</div>
-          </div>
-        </div>
-      </div>
-      <div class="prop">
-        <div class="prop-n">03</div>
-        <div>
-          <div class="prop-tit">Pavimentação do Interior como Prioridade</div>
-          <p class="prop-txt">Plano estadual de pavimentação para os 79 municípios. Parceria com DNIT e recursos do PAC. Meta: 100% de acesso pavimentado ao perímetro urbano até 2030.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Manutenção preventiva de rodovias estaduais (AGESUL)</div>
-            <div class="prop-meta">Logística integrada para o agronegócio do interior</div>
-            <div class="prop-meta">Prioridade à Ferrovia Bioceânica</div>
-          </div>
-        </div>
-      </div>
-      <div class="prop">
-        <div class="prop-n">04</div>
-        <div>
-          <div class="prop-tit">Saúde Regionalizada e Prevenção</div>
-          <p class="prop-txt">Estruturar a saúde por macrorregiões. Ampliar cobertura de atenção básica de 64% para 85% em 4 anos. Nenhum sul-mato-grossense precisa sair do estado para tratamentos de média complexidade.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Leitos SUS: de 2,1 para 3,0 por mil habitantes</div>
-            <div class="prop-meta">Médico de família em todos os municípios pequenos</div>
-            <div class="prop-meta">Telemedicina integrada para o interior</div>
-          </div>
-        </div>
-      </div>
-      <div class="prop">
-        <div class="prop-n">05</div>
-        <div>
-          <div class="prop-tit">Pacto pelo Pantanal e Sustentabilidade</div>
-          <p class="prop-txt">Criar o Fundo Estadual de Proteção do Pantanal, combater desmatamento e incêndios criminosos, e transformar a biodiversidade em oportunidade de ecoturismo e bioeconomia.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Fundo estadual de proteção do Pantanal</div>
-            <div class="prop-meta">Programa de ecoturismo sustentável</div>
-            <div class="prop-meta">Combate ao desmatamento com tecnologia e fiscalização</div>
-          </div>
-        </div>
-      </div>
-      <div class="prop">
-        <div class="prop-n">06</div>
-        <div>
-          <div class="prop-tit">Segurança Pública Inteligente</div>
-          <p class="prop-txt">MS é o 6º estado mais violento do Brasil e tem 1.500 km de fronteira seca. Isso muda com dados, estratégia e integração — não apenas retórica.</p>
-          <div class="prop-metas">
-            <div class="prop-meta">Plano estadual com metas anuais mensuráveis</div>
-            <div class="prop-meta">Cooperação com Exército e PF na fronteira seca</div>
-            <div class="prop-meta">Programas de prevenção e reinserção social</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- APOIE -->
-<section id="apoie" class="apoie-bg">
-  <div class="container">
-    <h2 class="apoie-tit">Juntos pelo Futuro de MS</h2>
-    <p class="apoie-sub">Esta é uma campanha construída pelas pessoas, para as pessoas. Seu apoio é fundamental para levarmos este projeto a cada canto do estado.</p>
-    <div class="apoie-cards">
-      <div class="acrd"><span class="acrd-ico">📢</span><div class="acrd-tit">Divulgue</div><p class="acrd-txt">Compartilhe nossa mensagem nas redes sociais e com seus amigos e família.</p></div>
-      <div class="acrd"><span class="acrd-ico">🤝</span><div class="acrd-tit">Voluntarie-se</div><p class="acrd-txt">Faça parte da nossa equipe de voluntários e ajude a construir essa campanha.</p></div>
-      <div class="acrd"><span class="acrd-ico">💬</span><div class="acrd-tit">Engaje-se</div><p class="acrd-txt">Participe de eventos, debates e encontros pela transformação do estado.</p></div>
-    </div>
-    <a href="https://instagram.com/economistarenato" target="_blank" class="btn-verde">Seguir no Instagram →</a>
-  </div>
-</section>
-
-<!-- CONTATO -->
-<section id="contato" class="contato-bg">
-  <div class="container">
-    <div class="sec-tag">Fale conosco</div>
-    <h2 class="sec-tit">Entre em Contato</h2>
-    <p class="sec-sub">Tem sugestões, quer participar ou tirar dúvidas? Nossa equipe está pronta para ouvir você.</p>
-    <div class="ctgrid">
-      <a href="https://instagram.com/economistarenato" target="_blank" class="ctcrd">
-        <div class="ct-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="#00c853" stroke="none"/></svg></div>
-        <div class="ct-tipo">Instagram</div><div class="ct-val">@economistarenato</div>
-      </a>
-      <a href="/cdn-cgi/l/email-protection#ceada1a0baafbaa18eabada1a0a1a3a7bdbaafbcaba0afbaa1e0ada1a3e0acbc" class="ctcrd">
-        <div class="ct-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg></div>
-        <div class="ct-tipo">E-mail</div><div class="ct-val"><span class="__cf_email__" data-cfemail="33505c5d4752475c7356505c5d5c5e5a40475241565d52475c1d505c5e1d5141">[email&#160;protected]</span></div>
-      </a>
-      <div class="ctcrd" style="opacity:.4;cursor:default">
-        <div class="ct-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></div>
-        <div class="ct-tipo">Facebook</div><div class="ct-val">Em breve</div>
-      </div>
-    </div>
-    <p style="margin-top:2rem;font-family:var(--fonte-mono);font-size:.65rem;color:rgba(255,255,255,.25)">Campo Grande – Mato Grosso do Sul, Brasil</p>
-  </div>
-</section>
-
-<!-- FOOTER -->
 <footer>
-  <div>
-    <div class="ft-logo">Economista Renato Gomes — MS 2026</div>
-    <div class="ft-sub">Material de pré-campanha · Art. 36-A Lei 9.504/97 · © 2026 · economistarenato.com.br</div>
-  </div>
-  <div class="ft-links">
-    <a href="#popular">Para você</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#painel">Painel MS</a>
-    <a href="#temas">Temas</a>
-    <a href="#propostas">Propostas</a>
-    <a href="#apoie">Apoie</a>
-    <a href="#contato">Contato</a>
-    <a href="https://instagram.com/economistarenato" target="_blank">Instagram</a>
+  <div class="env">
+    <div class="rodape-grade">
+      <div class="rodape-marca">
+        <img src="assets/marca-wordmark.png" alt="Renato W. Gomes — Economista">
+        <p class="rodape-texto">Análise independente sobre a economia e as contas públicas de Mato Grosso do Sul. Toda afirmação numérica publicada aqui traz a fonte primária: orçamento, Diário Oficial, portais de transparência, IBGE e órgãos de controle.</p>
+      </div>
+      <div>
+        <h4>Editorias</h4>
+        <ul>
+          <li><a href="#pautas">O Estado</a></li>
+          <li><a href="#pautas">A Capital</a></li>
+          <li><a href="#pautas">Contas Públicas</a></li>
+          <li><a href="#pautas">Economia &amp; Trabalho</a></li>
+          <li><a href="#dados">Os Dados</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Seções</h4>
+        <ul>
+          <li><a href="artigo/estreia/">A coluna</a></li>
+          <li><a href="#dados">MS em números</a></li>
+          <li><a href="#pautas">Pautas em preparação</a></li>
+          <li><a href="sobre/">Como eu apuro os números</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></li>
+          <li><a href="sobre/">Quem sou</a></li>
+          <li><a href="sobre/#correcoes">Errei? Me corrija</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rodape-fim">
+      <span>© 2026 Renato W. Gomes · Economista, CORECON-MS 1297 · Campo Grande, MS</span>
+      <span>Conteúdo de análise e opinião pessoal. Não constitui propaganda eleitoral.</span>
+    </div>
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-async function carregarDados(){
-  try{const r=await fetch('dados/indicadores.json');return await r.json();}
-  catch(e){return{atualizado_em:"2025-04-07",financas:{receita_liquida_2024_bi:14.2,despesa_pessoal_pct:51.8,limite_lrf_pct:60.0,resultado_primario_bi:-0.34,divida_consolidada_bi:8.7,execucao_loa_pct:67.3},infraestrutura:{municipios_sem_pavimentacao_pct:71,km_estradas_nao_pavimentadas:28400,total_municipios:79},saude:{cobertura_atencao_basica_pct:64.2,leitos_sus_por_mil_hab:2.1,mortalidade_infantil:12.4},seguranca:{taxa_homicidios_100k:28.3,ranking_nacional:6,variacao_5anos_pct:-8.2},agro:{pib_agropecuario_bi:31.4,participacao_pib_estadual_pct:23.1,exportacoes_bi_usd:5.8}};}
+<script>
+const RESERVA = [
+  {rotulo:'Renúncia fiscal prevista', valor:'R$ 11,95 bi', nota:'estimativa para 2026', fonte:'LDO 2026 — Demonstrativo 7'},
+  {rotulo:'ICMS previsto (bruto)', valor:'R$ 17,70 bi', nota:'receita orçada para 2026', fonte:'LOA 2026 — Lei 6.527/2025'},
+  {rotulo:'Parcela da renúncia na indústria de transformação', valor:'57%', nota:'do total renunciado', fonte:'LDO 2026 — Demonstrativo 7'},
+  {rotulo:'Municípios no estado', valor:'79', nota:'Mato Grosso do Sul', fonte:'IBGE'},
+  {rotulo:'ICMS na cesta básica', valor:'7%', nota:'carga na gôndola', fonte:'SEFAZ-MS'},
+  {rotulo:'ICMS na carne bovina', valor:'4%', nota:'carga na gôndola', fonte:'SEFAZ-MS'},
+  {rotulo:'ICMS no leite', valor:'0%', nota:'isento na gôndola', fonte:'SEFAZ-MS'},
+  {rotulo:'ICMS no açúcar e no macarrão', valor:'17%', nota:'carga na gôndola', fonte:'SEFAZ-MS'}
+];
+
+function pinta(lista, atualizado){
+  document.getElementById('painel-grade').innerHTML = lista.map(i => `
+    <div class="celula">
+      <div class="rot">${i.rotulo}</div>
+      <div class="num">${i.valor}</div>
+      <div class="nota">${i.nota}</div>
+      <div class="celula-fonte">${i.fonte}</div>
+    </div>`).join('');
+
+  const fita = lista.map(i =>
+    `<span class="ind"><b>${i.rotulo}</b><span>${i.valor}</span></span>`).join('');
+  document.getElementById('fita').innerHTML = fita + fita;
+
+  if(atualizado){
+    const d = new Date(atualizado + 'T12:00:00');
+    document.getElementById('painel-atualizado').textContent =
+      'Atualizado em ' + d.toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}) + '.';
+  }
 }
-function m(l,v,d,f,c){return`<div class="met"><div class="met-lbl">${l}</div><div class="met-v ${c||''}">${v}</div><div class="met-d">${d}</div><div class="met-f">${f}</div></div>`;}
-async function init(){
-  const d=await carregarDados();
-  const f=d.financas,i=d.infraestrutura,s=d.saude,sg=d.seguranca,a=d.agro;
-  document.getElementById('h-pessoal').textContent=f.despesa_pessoal_pct.toFixed(1)+'%';
-  document.getElementById('h-loa').textContent=f.execucao_loa_pct.toFixed(1)+'%';
-  document.getElementById('h-pavim').textContent=i.municipios_sem_pavimentacao_pct+'%';
-  document.getElementById('h-agro').textContent='R$ '+a.pib_agropecuario_bi.toFixed(1)+' bi';
-  document.getElementById('h-hom').textContent=sg.taxa_homicidios_100k.toFixed(1);
-  document.getElementById('h-data').textContent='Dados de '+d.atualizado_em;
-  const mf=m('Receita corrente líquida',`R$ ${f.receita_liquida_2024_bi.toFixed(1)} bi`,'Total arrecadado 2024','SICONFI · STN','')+m('Despesa com pessoal',`${f.despesa_pessoal_pct.toFixed(1)}%`,`Limite LRF: ${f.limite_lrf_pct}%`,'RREO · LRF Art.19',f.despesa_pessoal_pct>57?'alerta':'ok')+m('Resultado primário',`R$ ${f.resultado_primario_bi.toFixed(2)} bi`,'Superávit (+) ou déficit (−)','RREO 5º bimestre 2024',f.resultado_primario_bi<0?'alerta':'ok')+m('Dívida consolidada',`R$ ${f.divida_consolidada_bi.toFixed(1)} bi`,'Estoque da dívida estadual','RGF 3º quadrimestre 2024','')+m('Execução orçamentária',`${f.execucao_loa_pct.toFixed(1)}%`,'Despesas liquidadas / LOA','SIAFEMS · Dez/2024','');
-  const mi=m('Municípios c/ >50% terra',`${i.municipios_sem_pavimentacao_pct}%`,`${Math.round(79*i.municipios_sem_pavimentacao_pct/100)} dos 79 municípios`,'CNT Rodoviária 2024','alerta')+m('Km não pavimentados',`${i.km_estradas_nao_pavimentadas.toLocaleString('pt-BR')} km`,'Malha estadual e municipal','AGESUL · DNIT 2024','alerta')+m('Total municípios',`${i.total_municipios}`,'Campo Grande + 78','IBGE 2024','');
-  const ms=m('Cobertura atenção básica',`${s.cobertura_atencao_basica_pct.toFixed(1)}%`,'Média nacional: 70,3%','DATASUS · DAB 2024',s.cobertura_atencao_basica_pct<70?'alerta':'ok')+m('Leitos SUS/1.000 hab',`${s.leitos_sus_por_mil_hab.toFixed(1)}`,'Referência OMS: 3,0','DATASUS · CNES 2024',s.leitos_sus_por_mil_hab<3?'alerta':'ok')+m('Mortalidade infantil',`${s.mortalidade_infantil.toFixed(1)}`,'Por 1.000 nascidos vivos','IBGE · SIM 2023','');
-  const mg=m('Taxa de homicídios',`${sg.taxa_homicidios_100k.toFixed(1)}`,'Por 100 mil habitantes','Atlas da Violência 2024','alerta')+m('Ranking nacional',`${sg.ranking_nacional}º`,'Estados mais violentos','Anuário Segurança 2024','alerta')+m('Variação 5 anos',`${sg.variacao_5anos_pct.toFixed(1)}%`,'Redução vs 2019','FBSP · Atlas','ok');
-  const ma=m('PIB agropecuário',`R$ ${a.pib_agropecuario_bi.toFixed(1)} bi`,'Valor bruto da produção','IBGE · PAM/PPM 2024','')+m('Participação no PIB',`${a.participacao_pib_estadual_pct.toFixed(1)}%`,'Peso agro na economia MS','SEMAGRO · IBGE 2024','')+m('Exportações',`US$ ${a.exportacoes_bi_usd.toFixed(1)} bi`,'Total exportações 2024','MDIC · ComexStat 2024','');
-  document.getElementById('m-financas').innerHTML=mf; document.getElementById('tm-financas').innerHTML=mf;
-  document.getElementById('m-infra').innerHTML=mi;    document.getElementById('tm-infra').innerHTML=mi;
-  document.getElementById('m-saude').innerHTML=ms;    document.getElementById('tm-saude').innerHTML=ms;
-  document.getElementById('m-seg').innerHTML=mg;      document.getElementById('tm-seg').innerHTML=mg;
-  document.getElementById('m-agro').innerHTML=ma;     document.getElementById('tm-agro').innerHTML=ma;
-}
-function abrirMod(el,id){
-  document.querySelectorAll('.mod').forEach(m=>m.classList.remove('ativo'));
-  document.querySelectorAll('.pdet').forEach(p=>p.classList.remove('vis'));
-  el.classList.add('ativo');
-  document.getElementById('det-'+id)?.classList.add('vis');
-}
-function abrirTema(el,id){
-  document.querySelectorAll('.tema').forEach(t=>t.classList.remove('ativo'));
-  docume
+
+fetch('dados/indicadores.json')
+  .then(r => r.json())
+  .then(j => pinta(j.indicadores || RESERVA, j.atualizado_em))
+  .catch(() => pinta(RESERVA, null));
+
+document.getElementById('data-hoje').textContent =
+  new Date().toLocaleDateString('pt-BR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+</script>
+</body>
+</html>

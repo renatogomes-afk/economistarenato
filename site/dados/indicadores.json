@@ -1,0 +1,54 @@
+{
+  "atualizado_em": "2026-09-24",
+  "observacao": "Somente indicadores com fonte primaria verificada. Cada item traz o documento de origem.",
+  "indicadores": [
+    {
+      "rotulo": "Renúncia fiscal prevista",
+      "valor": "R$ 11,95 bi",
+      "nota": "estimativa para 2026",
+      "fonte": "LDO 2026 — Demonstrativo 7"
+    },
+    {
+      "rotulo": "ICMS previsto (bruto)",
+      "valor": "R$ 17,70 bi",
+      "nota": "receita orçada para 2026",
+      "fonte": "LOA 2026 — Lei 6.527/2025"
+    },
+    {
+      "rotulo": "Parcela da renúncia na indústria de transformação",
+      "valor": "57%",
+      "nota": "do total renunciado",
+      "fonte": "LDO 2026 — Demonstrativo 7"
+    },
+    {
+      "rotulo": "Municípios no estado",
+      "valor": "79",
+      "nota": "Mato Grosso do Sul",
+      "fonte": "IBGE"
+    },
+    {
+      "rotulo": "ICMS na cesta básica",
+      "valor": "7%",
+      "nota": "carga na gôndola",
+      "fonte": "SEFAZ-MS"
+    },
+    {
+      "rotulo": "ICMS na carne bovina",
+      "valor": "4%",
+      "nota": "carga na gôndola",
+      "fonte": "SEFAZ-MS"
+    },
+    {
+      "rotulo": "ICMS no leite",
+      "valor": "0%",
+      "nota": "isento na gôndola",
+      "fonte": "SEFAZ-MS"
+    },
+    {
+      "rotulo": "ICMS no açúcar e no macarrão",
+      "valor": "17%",
+      "nota": "carga na gôndola",
+      "fonte": "SEFAZ-MS"
+    }
+  ]
+}
