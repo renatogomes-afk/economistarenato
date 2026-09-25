@@ -1,0 +1,161 @@
+﻿Rodovia;Jurisdição;Origem;Destino;Situação;% pavimentado;Cidades no trajeto;Trajeto
+MS-010;Estadual;Campo Grande;Campo Grande;Pavimentada;100.0;1;Campo Grande
+MS-040;Estadual;Campo Grande;Brasilândia;Parcial (76% pav.);75.5;3;Campo Grande > Santa Rita do Pardo > Brasilândia
+MS-080;Estadual;Campo Grande;Rio Negro;Pavimentada;99.8;4;Campo Grande > Rochedo > Corguinho > Rio Negro
+MS-112;Estadual;Inocência;Cassilândia;Pavimentada;100.0;2;Inocência > Cassilândia
+MS-124;Estadual;Paraíso das Águas;Três Lagoas;Não pavimentada;0.0;3;Paraíso das Águas > Água Clara > Três Lagoas
+MS-134;Estadual;Nova Andradina;Batayporã;Parcial (35% pav.);35.4;2;Nova Andradina > Batayporã
+MS-135;Estadual;Alcinópolis;Costa Rica;Parcial (42% pav.);41.9;2;Alcinópolis > Costa Rica
+MS-141;Estadual;Angélica;Mundo Novo;Parcial (62% pav.);62.3;7;Angélica > Ivinhema > Naviraí > Itaquiraí > Eldorado > Japorã > Mundo Novo
+MS-142;Estadual;Camapuã;Camapuã;Não pavimentada;0.9;1;Camapuã
+MS-145;Estadual;Deodápolis;Naviraí;Parcial (53% pav.);53.5;4;Deodápolis > Glória de Dourados > Dourados > Naviraí
+MS-147;Estadual;Vicentina;Vicentina;Pavimentada;100.0;1;Vicentina
+MS-156;Estadual;Itaporã;Tacuru;Parcial (80% pav.);80.1;5;Itaporã > Dourados > Caarapó > Amambai > Tacuru
+MS-157;Estadual;Itaporã;Itaporã;Pavimentada;100.0;1;Itaporã
+MS-160;Estadual;Tacuru;Sete Quedas;Parcial (51% pav.);51.4;2;Tacuru > Sete Quedas
+MS-162;Estadual;Dois Irmãos do Buriti;Dourados;Parcial (79% pav.);79.2;4;Dois Irmãos do Buriti > Sidrolândia > Maracaju > Dourados
+MS-164;Estadual;Ponta Porã;Ponta Porã;Pavimentada;100.0;1;Ponta Porã
+MS-165;Estadual;Aral Moreira;Paranhos;Parcial (30% pav.);30.2;3;Aral Moreira > Coronel Sapucaia > Paranhos
+MS-166;Estadual;Antônio João;Antônio João;Parcial (38% pav.);38.3;1;Antônio João
+MS-168;Estadual;;;n/d;;0;
+MS-170;Estadual;Anastácio;Anastácio;Parcial (52% pav.);52.5;1;Anastácio
+MS-171;Estadual;Aquidauana;Aquidauana;Não pavimentada;0.0;1;Aquidauana
+MS-178;Estadual;Bonito;Eldorado;Pavimentada;95.6;3;Bonito > Bodoquena > Eldorado
+MS-180;Estadual;Iguatemi;Iguatemi;Pavimentada;100.0;1;Iguatemi
+MS-184;Estadual;Corumbá;Corumbá;Parcial (47% pav.);47.0;1;Corumbá
+MS-185;Estadual;Porto Murtinho;Porto Murtinho;Não pavimentada;0.0;1;Porto Murtinho
+MS-195;Estadual;Porto Murtinho;Porto Murtinho;Não pavimentada;0.0;1;Porto Murtinho
+MS-197;Estadual;;;n/d;;0;
+MS-213;Estadual;Sonora;Sonora;Parcial (16% pav.);16.4;1;Sonora
+MS-214;Estadual;Corumbá;Coxim;Não pavimentada;0.0;2;Corumbá > Coxim
+MS-215;Estadual;Pedro Gomes;Pedro Gomes;Parcial (16% pav.);16.5;1;Pedro Gomes
+MS-217;Estadual;Coxim;Coxim;Parcial (57% pav.);57.4;1;Coxim
+MS-223;Estadual;Coxim;Costa Rica;Parcial (47% pav.);47.1;3;Coxim > Figueirão > Costa Rica
+MS-228;Estadual;Ladário;Rio Verde de Mato Grosso;Não pavimentada;4.1;4;Ladário > Corumbá > Aquidauana > Rio Verde de Mato Grosso
+MS-229;Estadual;Paraíso das Águas;Cassilândia;Não pavimentada;0.8;3;Paraíso das Águas > Chapadão do Sul > Cassilândia
+MS-240;Estadual;Paranaíba;Paranaíba;Pavimentada;100.0;1;Paranaíba
+MS-243;Estadual;Corumbá;Miranda;Não pavimentada;0.1;2;Corumbá > Miranda
+MS-244;Estadual;Jaraguari;Rochedo;Parcial (5% pav.);5.1;2;Jaraguari > Rochedo
+MS-245;Estadual;Bandeirantes;Água Clara;Não pavimentada;0.0;3;Bandeirantes > Ribas do Rio Pardo > Água Clara
+MS-258;Estadual;Sidrolândia;Sidrolândia;Pavimentada;99.9;1;Sidrolândia
+MS-260;Estadual;;;n/d;;0;
+MS-267;Estadual;Jardim;Bela Vista;Não pavimentada;0.0;2;Jardim > Bela Vista
+MS-270;Estadual;Itaporã;Itaporã;Parcial (50% pav.);49.7;1;Itaporã
+MS-274;Estadual;Angélica;Nova Andradina;Parcial (50% pav.);50.0;2;Angélica > Nova Andradina
+MS-276;Estadual;Deodápolis;Anaurilândia;Pavimentada;96.7;3;Deodápolis > Ivinhema > Anaurilândia
+MS-278;Estadual;Fátima do Sul;Fátima do Sul;Não pavimentada;1.5;1;Fátima do Sul
+MS-280;Estadual;Caarapó;Laguna Carapã;Não pavimentada;3.5;2;Caarapó > Laguna Carapã
+MS-283;Estadual;Juti;Juti;Não pavimentada;0.0;1;Juti
+MS-286;Estadual;Aral Moreira;Aral Moreira;Pavimentada;100.0;1;Aral Moreira
+MS-289;Estadual;Juti;Coronel Sapucaia;Parcial (38% pav.);37.8;3;Juti > Amambai > Coronel Sapucaia
+MS-290;Estadual;Naviraí;Naviraí;Parcial (17% pav.);17.5;1;Naviraí
+MS-295;Estadual;Eldorado;Paranhos;Parcial (88% pav.);87.9;4;Eldorado > Iguatemi > Tacuru > Paranhos
+MS-299;Estadual;Paranhos;Sete Quedas;Não pavimentada;0.0;2;Paranhos > Sete Quedas
+MS-306;Estadual;Chapadão do Sul;Cassilândia;Pavimentada;100.0;2;Chapadão do Sul > Cassilândia
+MS-307;Estadual;Corumbá;Corumbá;Não pavimentada;0.0;1;Corumbá
+MS-310;Estadual;Cassilândia;Paranaíba;Não pavimentada;0.0;2;Cassilândia > Paranaíba
+MS-316;Estadual;Costa Rica;Inocência;Parcial (42% pav.);41.7;3;Costa Rica > Paraíso das Águas > Inocência
+MS-320;Estadual;Chapadão do Sul;Três Lagoas;Parcial (93% pav.);92.7;2;Chapadão do Sul > Três Lagoas
+MS-322;Estadual;Paraíso das Águas;Paraíso das Águas;Não pavimentada;2.4;1;Paraíso das Águas
+MS-324;Estadual;Água Clara;Água Clara;Parcial (7% pav.);6.9;1;Água Clara
+MS-325;Estadual;Corumbá;Corumbá;Não pavimentada;0.0;1;Corumbá
+MS-337;Estadual;Rio Negro;Rio Negro;Não pavimentada;0.0;1;Rio Negro
+MS-338;Estadual;Santa Rita do Pardo;Santa Rita do Pardo;Parcial (32% pav.);32.4;1;Santa Rita do Pardo
+MS-339;Estadual;Miranda;Bodoquena;Parcial (39% pav.);39.1;2;Miranda > Bodoquena
+MS-340;Estadual;Bandeirantes;Ribas do Rio Pardo;Não pavimentada;0.1;2;Bandeirantes > Ribas do Rio Pardo
+MS-345;Estadual;Aquidauana;Bonito;Parcial (59% pav.);59.2;4;Aquidauana > Anastácio > Miranda > Bonito
+MS-347;Estadual;Dois Irmãos do Buriti;Dois Irmãos do Buriti;Não pavimentada;0.6;1;Dois Irmãos do Buriti
+MS-351;Estadual;Jaraguari;Jaraguari;n/d;;1;Jaraguari
+MS-352;Estadual;Terenos;Terenos;Não pavimentada;0.2;1;Terenos
+MS-355;Estadual;Terenos;Dois Irmãos do Buriti;Parcial (7% pav.);6.6;2;Terenos > Dois Irmãos do Buriti
+MS-356;Estadual;;;n/d;;0;
+MS-357;Estadual;Ribas do Rio Pardo;Ribas do Rio Pardo;Não pavimentada;0.0;1;Ribas do Rio Pardo
+MS-364;Estadual;;;n/d;;0;
+MS-375;Estadual;Campo Grande;Nova Alvorada do Sul;Não pavimentada;0.1;2;Campo Grande > Nova Alvorada do Sul
+MS-377;Estadual;Água Clara;Água Clara;Pavimentada;100.0;1;Água Clara
+MS-378;Estadual;Caarapó;Juti;Parcial (71% pav.);70.8;2;Caarapó > Juti
+MS-379;Estadual;Douradina;Laguna Carapã;Pavimentada;100.0;2;Douradina > Laguna Carapã
+MS-380;Estadual;Ponta Porã;Ponta Porã;Parcial (9% pav.);9.4;1;Ponta Porã
+MS-382;Estadual;Guia Lopes da Laguna;Bonito;Parcial (66% pav.);66.3;2;Guia Lopes da Laguna > Bonito
+MS-384;Estadual;Antônio João;Caracol;Parcial (93% pav.);92.5;3;Antônio João > Bela Vista > Caracol
+MS-386;Estadual;Amambai;Japorã;Parcial (85% pav.);84.8;3;Amambai > Iguatemi > Japorã
+MS-395;Estadual;Anaurilândia;Brasilândia;Pavimentada;100.0;3;Anaurilândia > Bataguassu > Brasilândia
+MS-407;Estadual;Sonora;Sonora;Não pavimentada;0.0;1;Sonora
+MS-418;Estadual;Pedro Gomes;Pedro Gomes;Não pavimentada;0.0;1;Pedro Gomes
+MS-422;Estadual;Figueirão;Camapuã;Não pavimentada;0.0;2;Figueirão > Camapuã
+MS-423;Estadual;Corumbá;Rio Verde de Mato Grosso;Não pavimentada;0.0;2;Corumbá > Rio Verde de Mato Grosso
+MS-424;Estadual;Figueirão;Figueirão;Não pavimentada;0.0;1;Figueirão
+MS-425;Estadual;Chapadão do Sul;Paraíso das Águas;Parcial (37% pav.);36.6;2;Chapadão do Sul > Paraíso das Águas
+MS-426;Estadual;Cassilândia;Cassilândia;Não pavimentada;0.0;1;Cassilândia
+MS-427;Estadual;Sete Quedas;Rio Verde de Mato Grosso;Parcial (8% pav.);8.0;2;Sete Quedas > Rio Verde de Mato Grosso
+MS-428;Estadual;Ladário;Ladário;Pavimentada;100.0;1;Ladário
+MS-429;Estadual;São Gabriel do Oeste;São Gabriel do Oeste;Não pavimentada;0.0;1;São Gabriel do Oeste
+MS-430;Estadual;Rio Negro;São Gabriel do Oeste;Pavimentada;100.0;2;Rio Negro > São Gabriel do Oeste
+MS-431;Estadual;Paranaíba;Paranaíba;Pavimentada;100.0;1;Paranaíba
+MS-432;Estadual;Corumbá;Corumbá;Parcial (18% pav.);18.5;1;Corumbá
+MS-433;Estadual;;;n/d;;0;
+MS-434;Estadual;Paranaíba;Paranaíba;Não pavimentada;0.0;1;Paranaíba
+MS-435;Estadual;São Gabriel do Oeste;Camapuã;Não pavimentada;0.0;2;São Gabriel do Oeste > Camapuã
+MS-436;Estadual;Figueirão;Alcinópolis;Parcial (87% pav.);86.5;2;Figueirão > Alcinópolis
+MS-437;Estadual;;;n/d;;0;
+MS-438;Estadual;;;n/d;;0;
+MS-440;Estadual;Três Lagoas;Três Lagoas;Não pavimentada;0.0;1;Três Lagoas
+MS-441;Estadual;Bandeirantes;Bandeirantes;Não pavimentada;0.0;1;Bandeirantes
+MS-442;Estadual;;;n/d;;0;
+MS-444;Estadual;Selvíria;Selvíria;Não pavimentada;0.4;1;Selvíria
+MS-445;Estadual;Jaraguari;Jaraguari;Não pavimentada;0.0;1;Jaraguari
+MS-446;Estadual;Miranda;Miranda;n/d;;1;Miranda
+MS-447;Estadual;Aquidauana;Aquidauana;Não pavimentada;0.0;1;Aquidauana
+MS-448;Estadual;Miranda;Miranda;Não pavimentada;0.1;1;Miranda
+MS-449;Estadual;;;n/d;;0;
+MS-450;Estadual;Aquidauana;Dois Irmãos do Buriti;Pavimentada;100.0;2;Aquidauana > Dois Irmãos do Buriti
+MS-452;Estadual;;;n/d;;0;
+MS-453;Estadual;Três Lagoas;Três Lagoas;Não pavimentada;0.0;1;Três Lagoas
+MS-454;Estadual;Corumbá;Corumbá;Não pavimentada;1.0;1;Corumbá
+MS-455;Estadual;Campo Grande;Rio Brilhante;Não pavimentada;1.1;3;Campo Grande > Sidrolândia > Rio Brilhante
+MS-456;Estadual;Água Clara;Água Clara;Não pavimentada;0.0;1;Água Clara
+MS-457;Estadual;;;n/d;;0;
+MS-458;Estadual;;;n/d;;0;
+MS-459;Estadual;Brasilândia;Três Lagoas;Não pavimentada;0.0;2;Brasilândia > Três Lagoas
+MS-460;Estadual;Maracaju;Maracaju;Pavimentada;100.0;1;Maracaju
+MS-462;Estadual;Maracaju;Maracaju;Não pavimentada;0.2;1;Maracaju
+MS-464;Estadual;Brasilândia;Brasilândia;n/d;;1;Brasilândia
+MS-465;Estadual;Rio Brilhante;Rio Brilhante;Não pavimentada;0.0;1;Rio Brilhante
+MS-466;Estadual;Sidrolândia;Nova Alvorada do Sul;Não pavimentada;0.0;3;Sidrolândia > Rio Brilhante > Nova Alvorada do Sul
+MS-467;Estadual;Porto Murtinho;Porto Murtinho;Não pavimentada;0.0;1;Porto Murtinho
+MS-468;Estadual;Dourados;Dourados;Não pavimentada;0.0;1;Dourados
+MS-469;Estadual;Deodápolis;Angélica;Não pavimentada;0.0;2;Deodápolis > Angélica
+MS-470;Estadual;Douradina;Douradina;Parcial (32% pav.);31.7;1;Douradina
+MS-471;Estadual;Caracol;Caracol;Não pavimentada;0.0;1;Caracol
+MS-472;Estadual;Bela Vista;Caracol;Não pavimentada;0.5;2;Bela Vista > Caracol
+MS-473;Estadual;Nova Andradina;Taquarussu;Parcial (30% pav.);29.6;2;Nova Andradina > Taquarussu
+MS-474;Estadual;Caracol;Caracol;Não pavimentada;0.0;1;Caracol
+MS-475;Estadual;Novo Horizonte do Sul;Novo Horizonte do Sul;Parcial (73% pav.);73.0;1;Novo Horizonte do Sul
+MS-476;Estadual;Batayporã;Taquarussu;Não pavimentada;0.0;2;Batayporã > Taquarussu
+MS-477;Estadual;Dourados;Dourados;n/d;;1;Dourados
+MS-478;Estadual;Jateí;Jateí;n/d;;1;Jateí
+MS-479;Estadual;;;n/d;;0;
+MS-480;Estadual;Anaurilândia;Batayporã;Pavimentada;100.0;2;Anaurilândia > Batayporã
+MS-481;Estadual;Aral Moreira;Aral Moreira;Pavimentada;100.0;1;Aral Moreira
+MS-483;Estadual;;;n/d;;0;
+MS-485;Estadual;Amambai;Amambai;Pavimentada;100.0;1;Amambai
+MS-486;Estadual;Amambai;Naviraí;Parcial (18% pav.);17.9;3;Amambai > Coronel Sapucaia > Naviraí
+MS-488;Estadual;Itaquiraí;Itaquiraí;Não pavimentada;0.0;1;Itaquiraí
+MS-489;Estadual;Naviraí;Naviraí;Não pavimentada;3.6;1;Naviraí
+MS-490;Estadual;;;n/d;;0;
+MS-491;Estadual;;;n/d;;0;
+MS-497;Estadual;;;n/d;;0;
+BR-060;Federal;Bela Vista;Chapadão do Sul;Pavimentada;99.9;13;Bela Vista > Jardim > Guia Lopes da Laguna > Nioaque > Maracaju > Dois Irmãos do Buriti > Sidrolândia > Campo Grande > Jaraguari > Bandeirantes > Camapuã > Paraíso das Águas > Chapadão do Sul
+BR-158;Federal;Cassilândia;Brasilândia;Pavimentada;100.0;6;Cassilândia > Paranaíba > Aparecida do Taboado > Selvíria > Três Lagoas > Brasilândia
+BR-163;Federal;Sonora;Mundo Novo;Pavimentada;100.0;19;Sonora > Coxim > Rio Verde de Mato Grosso > São Gabriel do Oeste > Camapuã > Bandeirantes > Jaraguari > Campo Grande > Sidrolândia > Nova Alvorada do Sul > Rio Brilhante > Douradina > Dourados > Caarapó > Juti > Naviraí > Itaquiraí > Eldorado > Mundo Novo
+BR-262;Federal;Ladário;Três Lagoas;Pavimentada;100.0;11;Ladário > Corumbá > Miranda > Aquidauana > Anastácio > Dois Irmãos do Buriti > Terenos > Campo Grande > Ribas do Rio Pardo > Água Clara > Três Lagoas
+BR-267;Federal;Porto Murtinho;Bataguassu;Pavimentada;99.9;12;Porto Murtinho > Caracol > Bela Vista > Jardim > Guia Lopes da Laguna > Nioaque > Maracaju > Rio Brilhante > Nova Alvorada do Sul > Nova Andradina > Anaurilândia > Bataguassu
+BR-359;Federal;Ladário;Costa Rica;Parcial (95% pav.);94.8;5;Ladário > Coxim > Alcinópolis > Figueirão > Costa Rica
+BR-376;Federal;Dourados;Batayporã;Pavimentada;96.8;8;Dourados > Fátima do Sul > Vicentina > Glória de Dourados > Deodápolis > Ivinhema > Nova Andradina > Batayporã
+BR-419;Federal;Rio Verde de Mato Grosso;Jardim;Parcial (54% pav.);54.0;7;Rio Verde de Mato Grosso > Rio Negro > Aquidauana > Anastácio > Nioaque > Guia Lopes da Laguna > Jardim
+BR-436;Federal;Aparecida do Taboado;Aparecida do Taboado;Pavimentada;100.0;1;Aparecida do Taboado
+BR-454;Federal;Corumbá;Corumbá;Não pavimentada;1.0;1;Corumbá
+BR-463;Federal;Ponta Porã;Dourados;Pavimentada;100.0;2;Ponta Porã > Dourados
+BR-483;Federal;Paranaíba;Paranaíba;Não pavimentada;0.0;1;Paranaíba
+BR-487;Federal;Juti;Itaquiraí;Pavimentada;100.0;3;Juti > Naviraí > Itaquiraí
+BR-497;Federal;Paranaíba;Paranaíba;Pavimentada;100.0;1;Paranaíba

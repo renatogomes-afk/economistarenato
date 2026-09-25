@@ -1,0 +1,850 @@
+{
+ "meta": {
+  "titulo": "Os 79 municípios de Mato Grosso do Sul",
+  "resumo": "População, PIB, PIB per capita e receita orçamentária de cada município do estado, com o valor por habitante calculado.",
+  "fontes": [
+   "IBGE — Censo 2022 (SIDRA, tabela 4714): população",
+   "IBGE — PIB dos municípios 2023 (SIDRA, tabela 5938): PIB a preços correntes",
+   "Tesouro Nacional / Siconfi — DCA 2024, Anexo I-C: total das receitas"
+  ],
+  "metodologia": "Base montada a partir das APIs oficiais do IBGE e do Siconfi. A soma das populações fecha com o total do Censo 2022 do MS (2.757.013 habitantes). PIB per capita e receita por habitante são cálculo próprio: valor dividido pela população de 2022 — como as referências são de anos diferentes (PIB 2023, receita 2024, população 2022), esses dois campos são aproximações úteis para comparação entre municípios, não valores oficiais.",
+  "referencia": "População 2022 · PIB 2023 · Receita 2024",
+  "slug": "municipios-ms",
+  "linhas": 79,
+  "gerado_em": "2026-09-25",
+  "colunas": [
+   {
+    "campo": "municipio",
+    "titulo": "Município",
+    "tipo": "texto"
+   },
+   {
+    "campo": "quadrante",
+    "titulo": "Região",
+    "tipo": "texto"
+   },
+   {
+    "campo": "populacao",
+    "titulo": "População (2022)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "pib",
+    "titulo": "PIB (2023, R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "pib_per_capita",
+    "titulo": "PIB per capita (R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "receita",
+    "titulo": "Receita do município (2024, R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "receita_per_capita",
+    "titulo": "Receita por habitante (R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "cod_ibge",
+    "titulo": "Código IBGE",
+    "tipo": "texto"
+   }
+  ]
+ },
+ "dados": [
+  {
+   "municipio": "Campo Grande",
+   "quadrante": "Sudeste",
+   "populacao": 898100,
+   "pib": 42269768000,
+   "pib_per_capita": 47066,
+   "receita": 6172023368,
+   "receita_per_capita": 6872,
+   "cod_ibge": "5002704"
+  },
+  {
+   "municipio": "Dourados",
+   "quadrante": "Sudoeste",
+   "populacao": 243367,
+   "pib": 20257953000,
+   "pib_per_capita": 83240,
+   "receita": 1849580497,
+   "receita_per_capita": 7600,
+   "cod_ibge": "5003702"
+  },
+  {
+   "municipio": "Três Lagoas",
+   "quadrante": "Nordeste",
+   "populacao": 132152,
+   "pib": 14761816000,
+   "pib_per_capita": 111703,
+   "receita": 1365263374,
+   "receita_per_capita": 10331,
+   "cod_ibge": "5008305"
+  },
+  {
+   "municipio": "Corumbá",
+   "quadrante": "Noroeste",
+   "populacao": 96268,
+   "pib": 4187429000,
+   "pib_per_capita": 43498,
+   "receita": 1047198649,
+   "receita_per_capita": 10878,
+   "cod_ibge": "5003207"
+  },
+  {
+   "municipio": "Ponta Porã",
+   "quadrante": "Sudoeste",
+   "populacao": 92017,
+   "pib": 6069790000,
+   "pib_per_capita": 65964,
+   "receita": 743832488,
+   "receita_per_capita": 8084,
+   "cod_ibge": "5006606"
+  },
+  {
+   "municipio": "Naviraí",
+   "quadrante": "Sudeste",
+   "populacao": 50457,
+   "pib": 3670207000,
+   "pib_per_capita": 72739,
+   "receita": 408805780,
+   "receita_per_capita": 8102,
+   "cod_ibge": "5005707"
+  },
+  {
+   "municipio": "Nova Andradina",
+   "quadrante": "Sudeste",
+   "populacao": 48563,
+   "pib": 3568745000,
+   "pib_per_capita": 73487,
+   "receita": 407917693,
+   "receita_per_capita": 8400,
+   "cod_ibge": "5006200"
+  },
+  {
+   "municipio": "Sidrolândia",
+   "quadrante": "Sudoeste",
+   "populacao": 47118,
+   "pib": 4102346000,
+   "pib_per_capita": 87065,
+   "receita": 449627316,
+   "receita_per_capita": 9543,
+   "cod_ibge": "5007901"
+  },
+  {
+   "municipio": "Aquidauana",
+   "quadrante": "Noroeste",
+   "populacao": 46803,
+   "pib": 1437451000,
+   "pib_per_capita": 30713,
+   "receita": 357735762,
+   "receita_per_capita": 7643,
+   "cod_ibge": "5001102"
+  },
+  {
+   "municipio": "Maracaju",
+   "quadrante": "Sudoeste",
+   "populacao": 45047,
+   "pib": 5921262000,
+   "pib_per_capita": 131446,
+   "receita": 432690199,
+   "receita_per_capita": 9605,
+   "cod_ibge": "5005400"
+  },
+  {
+   "municipio": "Paranaíba",
+   "quadrante": "Nordeste",
+   "populacao": 40957,
+   "pib": 2012106000,
+   "pib_per_capita": 49127,
+   "receita": 352011436,
+   "receita_per_capita": 8595,
+   "cod_ibge": "5006309"
+  },
+  {
+   "municipio": "Amambai",
+   "quadrante": "Sudoeste",
+   "populacao": 39325,
+   "pib": 2426261000,
+   "pib_per_capita": 61698,
+   "receita": 298979804,
+   "receita_per_capita": 7603,
+   "cod_ibge": "5000609"
+  },
+  {
+   "municipio": "Rio Brilhante",
+   "quadrante": "Sudoeste",
+   "populacao": 37601,
+   "pib": 3833911000,
+   "pib_per_capita": 101963,
+   "receita": 374279859,
+   "receita_per_capita": 9954,
+   "cod_ibge": "5007208"
+  },
+  {
+   "municipio": "Coxim",
+   "quadrante": "Noroeste",
+   "populacao": 32151,
+   "pib": 1400833000,
+   "pib_per_capita": 43570,
+   "receita": 296885601,
+   "receita_per_capita": 9234,
+   "cod_ibge": "5003306"
+  },
+  {
+   "municipio": "Chapadão do Sul",
+   "quadrante": "Nordeste",
+   "populacao": 30993,
+   "pib": 3329527000,
+   "pib_per_capita": 107428,
+   "receita": 368979049,
+   "receita_per_capita": 11905,
+   "cod_ibge": "5002951"
+  },
+  {
+   "municipio": "Caarapó",
+   "quadrante": "Sudoeste",
+   "populacao": 30612,
+   "pib": 2553085000,
+   "pib_per_capita": 83401,
+   "receita": 265281982,
+   "receita_per_capita": 8666,
+   "cod_ibge": "5002407"
+  },
+  {
+   "municipio": "São Gabriel do Oeste",
+   "quadrante": "Nordeste",
+   "populacao": 29579,
+   "pib": 2883850000,
+   "pib_per_capita": 97497,
+   "receita": 347197833,
+   "receita_per_capita": 11738,
+   "cod_ibge": "5007695"
+  },
+  {
+   "municipio": "Ivinhema",
+   "quadrante": "Sudeste",
+   "populacao": 27821,
+   "pib": 2005469000,
+   "pib_per_capita": 72085,
+   "receita": 270953344,
+   "receita_per_capita": 9739,
+   "cod_ibge": "5004700"
+  },
+  {
+   "municipio": "Aparecida do Taboado",
+   "quadrante": "Nordeste",
+   "populacao": 27674,
+   "pib": 2189222000,
+   "pib_per_capita": 79108,
+   "receita": 273864261,
+   "receita_per_capita": 9896,
+   "cod_ibge": "5001003"
+  },
+  {
+   "municipio": "Costa Rica",
+   "quadrante": "Nordeste",
+   "populacao": 26037,
+   "pib": 3341491000,
+   "pib_per_capita": 128336,
+   "receita": 299016828,
+   "receita_per_capita": 11484,
+   "cod_ibge": "5003256"
+  },
+  {
+   "municipio": "Miranda",
+   "quadrante": "Noroeste",
+   "populacao": 25536,
+   "pib": 782435000,
+   "pib_per_capita": 30640,
+   "receita": 177096563,
+   "receita_per_capita": 6935,
+   "cod_ibge": "5005608"
+  },
+  {
+   "municipio": "Itaporã",
+   "quadrante": "Sudoeste",
+   "populacao": 24137,
+   "pib": 1525654000,
+   "pib_per_capita": 63208,
+   "receita": 172456408,
+   "receita_per_capita": 7145,
+   "cod_ibge": "5004502"
+  },
+  {
+   "municipio": "Anastácio",
+   "quadrante": "Sudoeste",
+   "populacao": 24114,
+   "pib": 783841000,
+   "pib_per_capita": 32506,
+   "receita": 156761310,
+   "receita_per_capita": 6501,
+   "cod_ibge": "5000708"
+  },
+  {
+   "municipio": "Jardim",
+   "quadrante": "Sudoeste",
+   "populacao": 23981,
+   "pib": 1130237000,
+   "pib_per_capita": 47131,
+   "receita": 185471897,
+   "receita_per_capita": 7734,
+   "cod_ibge": "5005004"
+  },
+  {
+   "municipio": "Bonito",
+   "quadrante": "Sudoeste",
+   "populacao": 23659,
+   "pib": 1586577000,
+   "pib_per_capita": 67060,
+   "receita": 265178443,
+   "receita_per_capita": 11208,
+   "cod_ibge": "5002209"
+  },
+  {
+   "municipio": "Ribas do Rio Pardo",
+   "quadrante": "Nordeste",
+   "populacao": 23150,
+   "pib": 3353286000,
+   "pib_per_capita": 144850,
+   "receita": 366287202,
+   "receita_per_capita": 15822,
+   "cod_ibge": "5007109"
+  },
+  {
+   "municipio": "Bataguassu",
+   "quadrante": "Sudeste",
+   "populacao": 23031,
+   "pib": 1841917000,
+   "pib_per_capita": 79976,
+   "receita": 172262905,
+   "receita_per_capita": 7480,
+   "cod_ibge": "5001904"
+  },
+  {
+   "municipio": "Nova Alvorada do Sul",
+   "quadrante": "Sudeste",
+   "populacao": 21822,
+   "pib": 2592615000,
+   "pib_per_capita": 118807,
+   "receita": 206800312,
+   "receita_per_capita": 9477,
+   "cod_ibge": "5006002"
+  },
+  {
+   "municipio": "Bela Vista",
+   "quadrante": "Sudoeste",
+   "populacao": 21613,
+   "pib": 1176300000,
+   "pib_per_capita": 54426,
+   "receita": 183205513,
+   "receita_per_capita": 8477,
+   "cod_ibge": "5002100"
+  },
+  {
+   "municipio": "Ladário",
+   "quadrante": "Noroeste",
+   "populacao": 21522,
+   "pib": 420685000,
+   "pib_per_capita": 19547,
+   "receita": 154682275,
+   "receita_per_capita": 7187,
+   "cod_ibge": "5005202"
+  },
+  {
+   "municipio": "Cassilândia",
+   "quadrante": "Nordeste",
+   "populacao": 20988,
+   "pib": 1059973000,
+   "pib_per_capita": 50504,
+   "receita": 214513664,
+   "receita_per_capita": 10221,
+   "cod_ibge": "5002902"
+  },
+  {
+   "municipio": "Fátima do Sul",
+   "quadrante": "Sudeste",
+   "populacao": 20609,
+   "pib": 769333000,
+   "pib_per_capita": 37330,
+   "receita": 142992372,
+   "receita_per_capita": 6938,
+   "cod_ibge": "5003801"
+  },
+  {
+   "municipio": "Rio Verde de Mato Grosso",
+   "quadrante": "Noroeste",
+   "populacao": 19818,
+   "pib": 926597000,
+   "pib_per_capita": 46755,
+   "receita": 188652117,
+   "receita_per_capita": 9519,
+   "cod_ibge": "5007406"
+  },
+  {
+   "municipio": "Itaquiraí",
+   "quadrante": "Sudeste",
+   "populacao": 19423,
+   "pib": 1546553000,
+   "pib_per_capita": 79625,
+   "receita": 181498638,
+   "receita_per_capita": 9345,
+   "cod_ibge": "5004601"
+  },
+  {
+   "municipio": "Mundo Novo",
+   "quadrante": "Sudeste",
+   "populacao": 19193,
+   "pib": 1018195000,
+   "pib_per_capita": 53050,
+   "receita": 150712089,
+   "receita_per_capita": 7852,
+   "cod_ibge": "5005681"
+  },
+  {
+   "municipio": "Terenos",
+   "quadrante": "Noroeste",
+   "populacao": 17652,
+   "pib": 1348544000,
+   "pib_per_capita": 76396,
+   "receita": 161535408,
+   "receita_per_capita": 9151,
+   "cod_ibge": "5008008"
+  },
+  {
+   "municipio": "Água Clara",
+   "quadrante": "Nordeste",
+   "populacao": 16741,
+   "pib": 1544633000,
+   "pib_per_capita": 92266,
+   "receita": 263801675,
+   "receita_per_capita": 15758,
+   "cod_ibge": "5000203"
+  },
+  {
+   "municipio": "Sonora",
+   "quadrante": "Nordeste",
+   "populacao": 14516,
+   "pib": 1489093000,
+   "pib_per_capita": 102583,
+   "receita": 184793751,
+   "receita_per_capita": 12730,
+   "cod_ibge": "5007935"
+  },
+  {
+   "municipio": "Coronel Sapucaia",
+   "quadrante": "Sudoeste",
+   "populacao": 14289,
+   "pib": 388241000,
+   "pib_per_capita": 27171,
+   "receita": 131628420,
+   "receita_per_capita": 9212,
+   "cod_ibge": "5003157"
+  },
+  {
+   "municipio": "Iguatemi",
+   "quadrante": "Sudeste",
+   "populacao": 13808,
+   "pib": 962593000,
+   "pib_per_capita": 69713,
+   "receita": 137652440,
+   "receita_per_capita": 9969,
+   "cod_ibge": "5004304"
+  },
+  {
+   "municipio": "Deodápolis",
+   "quadrante": "Sudeste",
+   "populacao": 13663,
+   "pib": 712633000,
+   "pib_per_capita": 52158,
+   "receita": 118635802,
+   "receita_per_capita": 8683,
+   "cod_ibge": "5003454"
+  },
+  {
+   "municipio": "Camapuã",
+   "quadrante": "Nordeste",
+   "populacao": 13583,
+   "pib": 872276000,
+   "pib_per_capita": 64218,
+   "receita": 152342029,
+   "receita_per_capita": 11216,
+   "cod_ibge": "5002605"
+  },
+  {
+   "municipio": "Nioaque",
+   "quadrante": "Sudoeste",
+   "populacao": 13220,
+   "pib": 618784000,
+   "pib_per_capita": 46807,
+   "receita": 124699868,
+   "receita_per_capita": 9433,
+   "cod_ibge": "5005806"
+  },
+  {
+   "municipio": "Paranhos",
+   "quadrante": "Sudoeste",
+   "populacao": 12921,
+   "pib": 371183000,
+   "pib_per_capita": 28727,
+   "receita": 130787504,
+   "receita_per_capita": 10122,
+   "cod_ibge": "5006358"
+  },
+  {
+   "municipio": "Porto Murtinho",
+   "quadrante": "Sudoeste",
+   "populacao": 12859,
+   "pib": 571511000,
+   "pib_per_capita": 44444,
+   "receita": 207201717,
+   "receita_per_capita": 16113,
+   "cod_ibge": "5006903"
+  },
+  {
+   "municipio": "Brasilândia",
+   "quadrante": "Sudeste",
+   "populacao": 11579,
+   "pib": 1159417000,
+   "pib_per_capita": 100131,
+   "receita": 147861022,
+   "receita_per_capita": 12770,
+   "cod_ibge": "5002308"
+  },
+  {
+   "municipio": "Eldorado",
+   "quadrante": "Sudeste",
+   "populacao": 11386,
+   "pib": 704592000,
+   "pib_per_capita": 61882,
+   "receita": 109617990,
+   "receita_per_capita": 9627,
+   "cod_ibge": "5003751"
+  },
+  {
+   "municipio": "Dois Irmãos do Buriti",
+   "quadrante": "Noroeste",
+   "populacao": 11100,
+   "pib": 456777000,
+   "pib_per_capita": 41151,
+   "receita": 105225183,
+   "receita_per_capita": 9480,
+   "cod_ibge": "5003488"
+  },
+  {
+   "municipio": "Sete Quedas",
+   "quadrante": "Sudoeste",
+   "populacao": 10994,
+   "pib": 493949000,
+   "pib_per_capita": 44929,
+   "receita": 88186358,
+   "receita_per_capita": 8021,
+   "cod_ibge": "5007703"
+  },
+  {
+   "municipio": "Tacuru",
+   "quadrante": "Sudoeste",
+   "populacao": 10808,
+   "pib": 378151000,
+   "pib_per_capita": 34988,
+   "receita": 103169758,
+   "receita_per_capita": 9546,
+   "cod_ibge": "5007950"
+  },
+  {
+   "municipio": "Aral Moreira",
+   "quadrante": "Sudoeste",
+   "populacao": 10748,
+   "pib": 1348752000,
+   "pib_per_capita": 125489,
+   "receita": 104663960,
+   "receita_per_capita": 9738,
+   "cod_ibge": "5001243"
+  },
+  {
+   "municipio": "Angélica",
+   "quadrante": "Sudeste",
+   "populacao": 10729,
+   "pib": 1243471000,
+   "pib_per_capita": 115898,
+   "receita": 119538111,
+   "receita_per_capita": 11142,
+   "cod_ibge": "5000856"
+  },
+  {
+   "municipio": "Batayporã",
+   "quadrante": "Sudeste",
+   "populacao": 10712,
+   "pib": 784829000,
+   "pib_per_capita": 73266,
+   "receita": 93876409,
+   "receita_per_capita": 8764,
+   "cod_ibge": "5002001"
+  },
+  {
+   "municipio": "Glória de Dourados",
+   "quadrante": "Sudeste",
+   "populacao": 10444,
+   "pib": 449930000,
+   "pib_per_capita": 43080,
+   "receita": 81652829,
+   "receita_per_capita": 7818,
+   "cod_ibge": "5004007"
+  },
+  {
+   "municipio": "Guia Lopes da Laguna",
+   "quadrante": "Sudoeste",
+   "populacao": 9940,
+   "pib": 477600000,
+   "pib_per_capita": 48048,
+   "receita": 76322502,
+   "receita_per_capita": 7678,
+   "cod_ibge": "5004106"
+  },
+  {
+   "municipio": "Antônio João",
+   "quadrante": "Sudoeste",
+   "populacao": 9303,
+   "pib": 851781000,
+   "pib_per_capita": 91560,
+   "receita": 105807814,
+   "receita_per_capita": 11374,
+   "cod_ibge": "5000906"
+  },
+  {
+   "municipio": "Bodoquena",
+   "quadrante": "Noroeste",
+   "populacao": 8567,
+   "pib": 386420000,
+   "pib_per_capita": 45106,
+   "receita": 110239015,
+   "receita_per_capita": 12868,
+   "cod_ibge": "5002159"
+  },
+  {
+   "municipio": "Inocência",
+   "quadrante": "Nordeste",
+   "populacao": 8404,
+   "pib": 946307000,
+   "pib_per_capita": 112602,
+   "receita": 160434232,
+   "receita_per_capita": 19090,
+   "cod_ibge": "5004403"
+  },
+  {
+   "municipio": "Japorã",
+   "quadrante": "Sudeste",
+   "populacao": 8148,
+   "pib": 242175000,
+   "pib_per_capita": 29722,
+   "receita": 78973770,
+   "receita_per_capita": 9692,
+   "cod_ibge": "5004809"
+  },
+  {
+   "municipio": "Selvíria",
+   "quadrante": "Nordeste",
+   "populacao": 8142,
+   "pib": 2691218000,
+   "pib_per_capita": 330535,
+   "receita": 127706172,
+   "receita_per_capita": 15685,
+   "cod_ibge": "5007802"
+  },
+  {
+   "municipio": "Bandeirantes",
+   "quadrante": "Nordeste",
+   "populacao": 7940,
+   "pib": 1001346000,
+   "pib_per_capita": 126114,
+   "receita": 97332482,
+   "receita_per_capita": 12258,
+   "cod_ibge": "5001508"
+  },
+  {
+   "municipio": "Anaurilândia",
+   "quadrante": "Sudeste",
+   "populacao": 7653,
+   "pib": 623710000,
+   "pib_per_capita": 81499,
+   "receita": 84341265,
+   "receita_per_capita": 11021,
+   "cod_ibge": "5000807"
+  },
+  {
+   "municipio": "Jaraguari",
+   "quadrante": "Nordeste",
+   "populacao": 7139,
+   "pib": 717701000,
+   "pib_per_capita": 100532,
+   "receita": 78392690,
+   "receita_per_capita": 10981,
+   "cod_ibge": "5004908"
+  },
+  {
+   "municipio": "Santa Rita do Pardo",
+   "quadrante": "Sudeste",
+   "populacao": 7027,
+   "pib": 642967000,
+   "pib_per_capita": 91500,
+   "receita": 111577535,
+   "receita_per_capita": 15878,
+   "cod_ibge": "5007554"
+  },
+  {
+   "municipio": "Pedro Gomes",
+   "quadrante": "Nordeste",
+   "populacao": 6941,
+   "pib": 460934000,
+   "pib_per_capita": 66407,
+   "receita": 74228498,
+   "receita_per_capita": 10694,
+   "cod_ibge": "5006408"
+  },
+  {
+   "municipio": "Laguna Carapã",
+   "quadrante": "Sudoeste",
+   "populacao": 6799,
+   "pib": 1257650000,
+   "pib_per_capita": 184976,
+   "receita": 93819589,
+   "receita_per_capita": 13799,
+   "cod_ibge": "5005251"
+  },
+  {
+   "municipio": "Juti",
+   "quadrante": "Sudeste",
+   "populacao": 6729,
+   "pib": 517930000,
+   "pib_per_capita": 76970,
+   "receita": 75390872,
+   "receita_per_capita": 11204,
+   "cod_ibge": "5005152"
+  },
+  {
+   "municipio": "Vicentina",
+   "quadrante": "Sudeste",
+   "populacao": 6336,
+   "pib": 384734000,
+   "pib_per_capita": 60722,
+   "receita": 76806177,
+   "receita_per_capita": 12122,
+   "cod_ibge": "5008404"
+  },
+  {
+   "municipio": "Douradina",
+   "quadrante": "Sudoeste",
+   "populacao": 5578,
+   "pib": 259999000,
+   "pib_per_capita": 46612,
+   "receita": 79391923,
+   "receita_per_capita": 14233,
+   "cod_ibge": "5003504"
+  },
+  {
+   "municipio": "Paraíso das Águas",
+   "quadrante": "Nordeste",
+   "populacao": 5510,
+   "pib": 1389706000,
+   "pib_per_capita": 252215,
+   "receita": 125177997,
+   "receita_per_capita": 22718,
+   "cod_ibge": "5006275"
+  },
+  {
+   "municipio": "Rochedo",
+   "quadrante": "Noroeste",
+   "populacao": 5199,
+   "pib": 352337000,
+   "pib_per_capita": 67770,
+   "receita": 77541883,
+   "receita_per_capita": 14915,
+   "cod_ibge": "5007505"
+  },
+  {
+   "municipio": "Caracol",
+   "quadrante": "Sudoeste",
+   "populacao": 5036,
+   "pib": 251148000,
+   "pib_per_capita": 49871,
+   "receita": 74384683,
+   "receita_per_capita": 14771,
+   "cod_ibge": "5002803"
+  },
+  {
+   "municipio": "Rio Negro",
+   "quadrante": "Noroeste",
+   "populacao": 4841,
+   "pib": 170386000,
+   "pib_per_capita": 35196,
+   "receita": 62273638,
+   "receita_per_capita": 12864,
+   "cod_ibge": "5007307"
+  },
+  {
+   "municipio": "Corguinho",
+   "quadrante": "Noroeste",
+   "populacao": 4783,
+   "pib": 172551000,
+   "pib_per_capita": 36076,
+   "receita": 71540118,
+   "receita_per_capita": 14957,
+   "cod_ibge": "5003108"
+  },
+  {
+   "municipio": "Novo Horizonte do Sul",
+   "quadrante": "Sudeste",
+   "populacao": 4721,
+   "pib": 450886000,
+   "pib_per_capita": 95506,
+   "receita": 69821770,
+   "receita_per_capita": 14790,
+   "cod_ibge": "5006259"
+  },
+  {
+   "municipio": "Alcinópolis",
+   "quadrante": "Nordeste",
+   "populacao": 4537,
+   "pib": 384368000,
+   "pib_per_capita": 84719,
+   "receita": 96575741,
+   "receita_per_capita": 21286,
+   "cod_ibge": "5000252"
+  },
+  {
+   "municipio": "Taquarussu",
+   "quadrante": "Sudeste",
+   "populacao": 3625,
+   "pib": 215369000,
+   "pib_per_capita": 59412,
+   "receita": 72111962,
+   "receita_per_capita": 19893,
+   "cod_ibge": "5007976"
+  },
+  {
+   "municipio": "Jateí",
+   "quadrante": "Sudeste",
+   "populacao": 3586,
+   "pib": 729978000,
+   "pib_per_capita": 203563,
+   "receita": 92962006,
+   "receita_per_capita": 25924,
+   "cod_ibge": "5005103"
+  },
+  {
+   "municipio": "Figueirão",
+   "quadrante": "Nordeste",
+   "populacao": 3539,
+   "pib": 186835000,
+   "pib_per_capita": 52793,
+   "receita": 73540930,
+   "receita_per_capita": 20780,
+   "cod_ibge": "5003900"
+  }
+ ]
+}

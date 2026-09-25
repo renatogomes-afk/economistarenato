@@ -1,0 +1,450 @@
+{
+ "meta": {
+  "titulo": "Renúncia fiscal de MS em 2026, por setor e modalidade",
+  "resumo": "As 58 linhas do demonstrativo oficial de renúncia de receita: quanto o estado deixa de arrecadar em cada setor, por tipo de benefício, com a projeção para 2027 e 2028.",
+  "fontes": [
+   "Lei 6.452 (LDO 2026) — Anexo de Metas Fiscais, Demonstrativo 7: Estimativa e Compensação da Renúncia de Receita, páginas 10 e 11"
+  ],
+  "metodologia": "As 58 linhas foram extraídas do PDF oficial da LDO e conferidas contra o total impresso no próprio demonstrativo. Os nomes dos setores seguem a classificação CNAE usada pelo documento; a acentuação foi reposta. Total de 2026: R$ 11.950.230.600.",
+  "referencia": "LDO 2026 (exercício de 2026, com projeção 2027–2028)",
+  "leitura": "Este número não deve ser lido como 'dinheiro desviado' nem como 'dinheiro disponível para gastar'. A renúncia soma coisas muito diferentes: imunidade constitucional (como a exportação, que responde por boa parte do agro), política deliberadamente pró-consumidor (a cesta básica entra em 'modificação da base de cálculo') e benefício discricionário concedido caso a caso (o crédito presumido). A discussão pública útil é sobre a terceira categoria — e sobre a ausência de um relatório que mostre o que cada beneficiário entregou em troca.",
+  "slug": "renuncia-fiscal-ms-2026",
+  "linhas": 58,
+  "gerado_em": "2026-09-25",
+  "colunas": [
+   {
+    "campo": "setor",
+    "titulo": "Setor (CNAE)",
+    "tipo": "texto"
+   },
+   {
+    "campo": "modalidade",
+    "titulo": "Modalidade",
+    "tipo": "texto"
+   },
+   {
+    "campo": "v2026",
+    "titulo": "2026 (R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "v2027",
+    "titulo": "2027 (R$)",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "v2028",
+    "titulo": "2028 (R$)",
+    "tipo": "inteiro"
+   }
+  ]
+ },
+ "dados": [
+  {
+   "setor": "Indústrias de transformação",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 6000595800,
+   "v2027": 6360631500,
+   "v2028": 6729548200
+  },
+  {
+   "setor": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+   "modalidade": "Isenção",
+   "v2026": 2160979700,
+   "v2027": 2290638400,
+   "v2028": 2423495500
+  },
+  {
+   "setor": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 925934700,
+   "v2027": 981490800,
+   "v2028": 1038417200
+  },
+  {
+   "setor": "Comércio e reparação de veículos",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 718223900,
+   "v2027": 761317400,
+   "v2028": 805473800
+  },
+  {
+   "setor": "Indústrias de transformação",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 707821100,
+   "v2027": 750290400,
+   "v2028": 793807200
+  },
+  {
+   "setor": "Comércio e reparação de veículos",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 661891100,
+   "v2027": 701604500,
+   "v2028": 742297600
+  },
+  {
+   "setor": "Comércio e reparação de veículos",
+   "modalidade": "Isenção",
+   "v2026": 354606500,
+   "v2027": 375882900,
+   "v2028": 397684100
+  },
+  {
+   "setor": "Indústrias de transformação",
+   "modalidade": "Isenção",
+   "v2026": 110007500,
+   "v2027": 116608000,
+   "v2028": 123371200
+  },
+  {
+   "setor": "Indústrias extrativas",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 40921700,
+   "v2027": 43377000,
+   "v2028": 45892900
+  },
+  {
+   "setor": "Alojamento e alimentação",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 35301400,
+   "v2027": 37419400,
+   "v2028": 39589800
+  },
+  {
+   "setor": "Outras atividades de serviços",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 32254400,
+   "v2027": 34189600,
+   "v2028": 36172600
+  },
+  {
+   "setor": "Construção",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 30631600,
+   "v2027": 32469500,
+   "v2028": 34352700
+  },
+  {
+   "setor": "Outras atividades de serviços",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 28071300,
+   "v2027": 29755600,
+   "v2028": 31481500
+  },
+  {
+   "setor": "Outras atividades de serviços",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 23900200,
+   "v2027": 25334200,
+   "v2028": 26803600
+  },
+  {
+   "setor": "Transporte, armazenagem e correio",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 21313800,
+   "v2027": 22592600,
+   "v2028": 23903000
+  },
+  {
+   "setor": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 19083700,
+   "v2027": 20228700,
+   "v2028": 21402000
+  },
+  {
+   "setor": "Transporte, armazenagem e correio",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 12713800,
+   "v2027": 13476700,
+   "v2028": 14258300
+  },
+  {
+   "setor": "Comércio e reparação de veículos",
+   "modalidade": "Anistia",
+   "v2026": 10737900,
+   "v2027": 11382100,
+   "v2028": 12042300
+  },
+  {
+   "setor": "Construção",
+   "modalidade": "Isenção",
+   "v2026": 9161900,
+   "v2027": 9711600,
+   "v2028": 10274900
+  },
+  {
+   "setor": "Indústrias de transformação",
+   "modalidade": "Anistia",
+   "v2026": 9143100,
+   "v2027": 9691700,
+   "v2028": 10253800
+  },
+  {
+   "setor": "Eletricidade e gás",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 5451000,
+   "v2027": 5778000,
+   "v2028": 6113100
+  },
+  {
+   "setor": "Transporte, armazenagem e correio",
+   "modalidade": "Isenção",
+   "v2026": 4293100,
+   "v2027": 4550700,
+   "v2028": 4814600
+  },
+  {
+   "setor": "Alojamento e alimentação",
+   "modalidade": "Isenção",
+   "v2026": 3642700,
+   "v2027": 3861300,
+   "v2028": 4085300
+  },
+  {
+   "setor": "Atividades profissionais, científicas e técnicas",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 2593900,
+   "v2027": 2749600,
+   "v2028": 2909100
+  },
+  {
+   "setor": "Atividades profissionais, científicas e técnicas",
+   "modalidade": "Isenção",
+   "v2026": 2514000,
+   "v2027": 2664900,
+   "v2028": 2819400
+  },
+  {
+   "setor": "Outras atividades de serviços",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 2272000,
+   "v2027": 2408400,
+   "v2028": 2548000
+  },
+  {
+   "setor": "Transporte, armazenagem e correio",
+   "modalidade": "Anistia",
+   "v2026": 2073100,
+   "v2027": 2197500,
+   "v2028": 2324900
+  },
+  {
+   "setor": "Saúde humana e serviços sociais",
+   "modalidade": "Isenção",
+   "v2026": 2027400,
+   "v2027": 2149000,
+   "v2028": 2273600
+  },
+  {
+   "setor": "Educação",
+   "modalidade": "Isenção",
+   "v2026": 1767100,
+   "v2027": 1873100,
+   "v2028": 1981700
+  },
+  {
+   "setor": "Indústrias extrativas",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 1388100,
+   "v2027": 1471400,
+   "v2028": 1556700
+  },
+  {
+   "setor": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+   "modalidade": "Anistia",
+   "v2026": 1314800,
+   "v2027": 1393700,
+   "v2028": 1474500
+  },
+  {
+   "setor": "Informação e comunicação",
+   "modalidade": "Isenção",
+   "v2026": 1032500,
+   "v2027": 1094500,
+   "v2028": 1157900
+  },
+  {
+   "setor": "Saúde humana e serviços sociais",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 962900,
+   "v2027": 1020700,
+   "v2028": 1079900
+  },
+  {
+   "setor": "Indústrias extrativas",
+   "modalidade": "Anistia",
+   "v2026": 915200,
+   "v2027": 970100,
+   "v2028": 1026400
+  },
+  {
+   "setor": "Alojamento e alimentação",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 827000,
+   "v2027": 876700,
+   "v2028": 927500
+  },
+  {
+   "setor": "Alojamento e alimentação",
+   "modalidade": "Anistia",
+   "v2026": 705400,
+   "v2027": 747800,
+   "v2028": 791100
+  },
+  {
+   "setor": "Construção",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 516000,
+   "v2027": 546900,
+   "v2028": 578700
+  },
+  {
+   "setor": "Eletricidade e gás",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 406400,
+   "v2027": 430800,
+   "v2028": 455700
+  },
+  {
+   "setor": "Artes, cultura, esporte e recreação",
+   "modalidade": "Anistia",
+   "v2026": 398400,
+   "v2027": 422300,
+   "v2028": 446800
+  },
+  {
+   "setor": "Construção",
+   "modalidade": "Anistia",
+   "v2026": 316800,
+   "v2027": 335800,
+   "v2028": 355300
+  },
+  {
+   "setor": "Eletricidade e gás",
+   "modalidade": "Isenção",
+   "v2026": 297600,
+   "v2027": 315400,
+   "v2028": 333700
+  },
+  {
+   "setor": "Informação e comunicação",
+   "modalidade": "Anistia",
+   "v2026": 255100,
+   "v2027": 270400,
+   "v2028": 286100
+  },
+  {
+   "setor": "Indústrias extrativas",
+   "modalidade": "Isenção",
+   "v2026": 204200,
+   "v2027": 216500,
+   "v2028": 229100
+  },
+  {
+   "setor": "Atividades imobiliárias",
+   "modalidade": "Isenção",
+   "v2026": 193400,
+   "v2027": 205000,
+   "v2028": 216900
+  },
+  {
+   "setor": "Informação e comunicação",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 181100,
+   "v2027": 192000,
+   "v2028": 203100
+  },
+  {
+   "setor": "Saúde humana e serviços sociais",
+   "modalidade": "Anistia",
+   "v2026": 137400,
+   "v2027": 145600,
+   "v2028": 154000
+  },
+  {
+   "setor": "Atividades profissionais, científicas e técnicas",
+   "modalidade": "Anistia",
+   "v2026": 65400,
+   "v2027": 69300,
+   "v2028": 73300
+  },
+  {
+   "setor": "Eletricidade e gás",
+   "modalidade": "Anistia",
+   "v2026": 55200,
+   "v2027": 58500,
+   "v2028": 61900
+  },
+  {
+   "setor": "Atividades imobiliárias",
+   "modalidade": "Anistia",
+   "v2026": 37000,
+   "v2027": 39200,
+   "v2028": 41500
+  },
+  {
+   "setor": "Artes, cultura, esporte e recreação",
+   "modalidade": "Isenção",
+   "v2026": 27500,
+   "v2027": 29200,
+   "v2028": 30900
+  },
+  {
+   "setor": "Água, esgoto e gestão de resíduos",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 17500,
+   "v2027": 18600,
+   "v2028": 19600
+  },
+  {
+   "setor": "Atividades imobiliárias",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 14100,
+   "v2027": 14900,
+   "v2028": 15800
+  },
+  {
+   "setor": "Água, esgoto e gestão de resíduos",
+   "modalidade": "Isenção",
+   "v2026": 11600,
+   "v2027": 12300,
+   "v2028": 13100
+  },
+  {
+   "setor": "Educação",
+   "modalidade": "Anistia",
+   "v2026": 8400,
+   "v2027": 8900,
+   "v2028": 9400
+  },
+  {
+   "setor": "Serviços domésticos",
+   "modalidade": "Crédito presumido/outorgado",
+   "v2026": 5100,
+   "v2027": 5500,
+   "v2028": 5800
+  },
+  {
+   "setor": "Atividades financeiras e de seguros",
+   "modalidade": "Anistia",
+   "v2026": 2900,
+   "v2027": 3100,
+   "v2028": 3200
+  },
+  {
+   "setor": "Saúde humana e serviços sociais",
+   "modalidade": "Modificação da base de cálculo",
+   "v2026": 2300,
+   "v2027": 2400,
+   "v2028": 2600
+  },
+  {
+   "setor": "Água, esgoto e gestão de resíduos",
+   "modalidade": "Anistia",
+   "v2026": 1900,
+   "v2027": 2000,
+   "v2028": 2100
+  }
+ ]
+}

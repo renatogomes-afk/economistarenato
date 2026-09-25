@@ -1,0 +1,193 @@
+{
+ "atualizado_em": "2026-09-25",
+ "bases": [
+  {
+   "titulo": "Renúncia fiscal de MS em 2026, por setor e modalidade",
+   "resumo": "As 58 linhas do demonstrativo oficial de renúncia de receita: quanto o estado deixa de arrecadar em cada setor, por tipo de benefício, com a projeção para 2027 e 2028.",
+   "fontes": [
+    "Lei 6.452 (LDO 2026) — Anexo de Metas Fiscais, Demonstrativo 7: Estimativa e Compensação da Renúncia de Receita, páginas 10 e 11"
+   ],
+   "metodologia": "As 58 linhas foram extraídas do PDF oficial da LDO e conferidas contra o total impresso no próprio demonstrativo. Os nomes dos setores seguem a classificação CNAE usada pelo documento; a acentuação foi reposta. Total de 2026: R$ 11.950.230.600.",
+   "referencia": "LDO 2026 (exercício de 2026, com projeção 2027–2028)",
+   "leitura": "Este número não deve ser lido como 'dinheiro desviado' nem como 'dinheiro disponível para gastar'. A renúncia soma coisas muito diferentes: imunidade constitucional (como a exportação, que responde por boa parte do agro), política deliberadamente pró-consumidor (a cesta básica entra em 'modificação da base de cálculo') e benefício discricionário concedido caso a caso (o crédito presumido). A discussão pública útil é sobre a terceira categoria — e sobre a ausência de um relatório que mostre o que cada beneficiário entregou em troca.",
+   "slug": "renuncia-fiscal-ms-2026",
+   "linhas": 58,
+   "gerado_em": "2026-09-25",
+   "colunas": [
+    {
+     "campo": "setor",
+     "titulo": "Setor (CNAE)",
+     "tipo": "texto"
+    },
+    {
+     "campo": "modalidade",
+     "titulo": "Modalidade",
+     "tipo": "texto"
+    },
+    {
+     "campo": "v2026",
+     "titulo": "2026 (R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "v2027",
+     "titulo": "2027 (R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "v2028",
+     "titulo": "2028 (R$)",
+     "tipo": "inteiro"
+    }
+   ]
+  },
+  {
+   "titulo": "Os 79 municípios de Mato Grosso do Sul",
+   "resumo": "População, PIB, PIB per capita e receita orçamentária de cada município do estado, com o valor por habitante calculado.",
+   "fontes": [
+    "IBGE — Censo 2022 (SIDRA, tabela 4714): população",
+    "IBGE — PIB dos municípios 2023 (SIDRA, tabela 5938): PIB a preços correntes",
+    "Tesouro Nacional / Siconfi — DCA 2024, Anexo I-C: total das receitas"
+   ],
+   "metodologia": "Base montada a partir das APIs oficiais do IBGE e do Siconfi. A soma das populações fecha com o total do Censo 2022 do MS (2.757.013 habitantes). PIB per capita e receita por habitante são cálculo próprio: valor dividido pela população de 2022 — como as referências são de anos diferentes (PIB 2023, receita 2024, população 2022), esses dois campos são aproximações úteis para comparação entre municípios, não valores oficiais.",
+   "referencia": "População 2022 · PIB 2023 · Receita 2024",
+   "slug": "municipios-ms",
+   "linhas": 79,
+   "gerado_em": "2026-09-25",
+   "colunas": [
+    {
+     "campo": "municipio",
+     "titulo": "Município",
+     "tipo": "texto"
+    },
+    {
+     "campo": "quadrante",
+     "titulo": "Região",
+     "tipo": "texto"
+    },
+    {
+     "campo": "populacao",
+     "titulo": "População (2022)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "pib",
+     "titulo": "PIB (2023, R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "pib_per_capita",
+     "titulo": "PIB per capita (R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "receita",
+     "titulo": "Receita do município (2024, R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "receita_per_capita",
+     "titulo": "Receita por habitante (R$)",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "cod_ibge",
+     "titulo": "Código IBGE",
+     "tipo": "texto"
+    }
+   ]
+  },
+  {
+   "titulo": "A malha rodoviária de Mato Grosso do Sul",
+   "resumo": "As rodovias estaduais e federais que cortam o estado, com origem, destino, cidades atendidas e a situação de pavimentação de cada uma.",
+   "fontes": [
+    "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
+    "OpenStreetMap — traçado e extensão dos trechos, para o cálculo do percentual pavimentado"
+   ],
+   "metodologia": "As rodovias e seus trechos vêm do SRE-MS 2026. O percentual pavimentado é cálculo próprio: sobre o traçado de cada rodovia no OpenStreetMap, mede-se a extensão com revestimento asfáltico declarado em relação à extensão total mapeada. É uma estimativa de base colaborativa: serve para comparar rodovias entre si e indicar onde olhar, não substitui levantamento de campo.",
+   "referencia": "SRE-MS 2026 · OSM consultado em 2026",
+   "slug": "rodovias-ms",
+   "linhas": 160,
+   "gerado_em": "2026-09-25",
+   "colunas": [
+    {
+     "campo": "rodovia",
+     "titulo": "Rodovia",
+     "tipo": "texto"
+    },
+    {
+     "campo": "jurisdicao",
+     "titulo": "Jurisdição",
+     "tipo": "texto"
+    },
+    {
+     "campo": "origem",
+     "titulo": "Origem",
+     "tipo": "texto"
+    },
+    {
+     "campo": "destino",
+     "titulo": "Destino",
+     "tipo": "texto"
+    },
+    {
+     "campo": "pavimentacao",
+     "titulo": "Situação",
+     "tipo": "texto"
+    },
+    {
+     "campo": "pct_pav",
+     "titulo": "% pavimentado",
+     "tipo": "decimal"
+    },
+    {
+     "campo": "n_cidades",
+     "titulo": "Cidades no trajeto",
+     "tipo": "inteiro"
+    },
+    {
+     "campo": "cidades_trajeto",
+     "titulo": "Trajeto",
+     "tipo": "texto"
+    }
+   ]
+  },
+  {
+   "titulo": "Quanto de ICMS vai em cada item da cesta",
+   "resumo": "A carga efetiva de ICMS na venda ao consumidor final, item a item, com o dispositivo legal que fixa cada percentual.",
+   "fontes": [
+    "SEFAZ-MS — RICMS, Anexo I (arts. 30, 52 e 53 e Subanexo XIII)",
+    "SEFAZ-MS — Decreto 12.056/2006 (carnes), arts. 6º a 9º",
+    "SEFAZ-MS — RICMS, art. 41, III, 'a' (alíquota geral de 17%)"
+   ],
+   "metodologia": "Cada linha foi conferida no texto oficial da norma, na base Legato da SEFAZ-MS, e não em fonte jornalística. Os percentuais de 7% (cesta e hortifrúti) e 4% (carne bovina) resultam de redução de base de cálculo, às vezes combinada com diferimento e crédito presumido: o valor informado é a carga final na saída ao consumidor. Os benefícios da cesta e das carnes estão prorrogados até 31/12/2026 pelo Decreto 16.753/2026.",
+   "referencia": "Legislação vigente em 2026 · alíquota geral de MS: 17%",
+   "leitura": "Dois pontos que costumam se perder no debate: 7% não é isenção — há estado que zerou a cesta — e itens básicos como açúcar e macarrão pagam a alíquota cheia de 17%, enquanto a carne bovina paga 4%.",
+   "slug": "icms-gondola-ms",
+   "linhas": 23,
+   "gerado_em": "2026-09-25",
+   "colunas": [
+    {
+     "campo": "item",
+     "titulo": "Item",
+     "tipo": "texto"
+    },
+    {
+     "campo": "grupo",
+     "titulo": "Grupo",
+     "tipo": "texto"
+    },
+    {
+     "campo": "carga",
+     "titulo": "ICMS na gôndola (%)",
+     "tipo": "decimal"
+    },
+    {
+     "campo": "base_legal",
+     "titulo": "Base legal",
+     "tipo": "texto"
+    }
+   ]
+  }
+ ]
+}

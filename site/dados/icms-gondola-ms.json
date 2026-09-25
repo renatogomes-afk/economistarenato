@@ -1,0 +1,179 @@
+{
+ "meta": {
+  "titulo": "Quanto de ICMS vai em cada item da cesta",
+  "resumo": "A carga efetiva de ICMS na venda ao consumidor final, item a item, com o dispositivo legal que fixa cada percentual.",
+  "fontes": [
+   "SEFAZ-MS — RICMS, Anexo I (arts. 30, 52 e 53 e Subanexo XIII)",
+   "SEFAZ-MS — Decreto 12.056/2006 (carnes), arts. 6º a 9º",
+   "SEFAZ-MS — RICMS, art. 41, III, 'a' (alíquota geral de 17%)"
+  ],
+  "metodologia": "Cada linha foi conferida no texto oficial da norma, na base Legato da SEFAZ-MS, e não em fonte jornalística. Os percentuais de 7% (cesta e hortifrúti) e 4% (carne bovina) resultam de redução de base de cálculo, às vezes combinada com diferimento e crédito presumido: o valor informado é a carga final na saída ao consumidor. Os benefícios da cesta e das carnes estão prorrogados até 31/12/2026 pelo Decreto 16.753/2026.",
+  "referencia": "Legislação vigente em 2026 · alíquota geral de MS: 17%",
+  "leitura": "Dois pontos que costumam se perder no debate: 7% não é isenção — há estado que zerou a cesta — e itens básicos como açúcar e macarrão pagam a alíquota cheia de 17%, enquanto a carne bovina paga 4%.",
+  "slug": "icms-gondola-ms",
+  "linhas": 23,
+  "gerado_em": "2026-09-25",
+  "colunas": [
+   {
+    "campo": "item",
+    "titulo": "Item",
+    "tipo": "texto"
+   },
+   {
+    "campo": "grupo",
+    "titulo": "Grupo",
+    "tipo": "texto"
+   },
+   {
+    "campo": "carga",
+    "titulo": "ICMS na gôndola (%)",
+    "tipo": "decimal"
+   },
+   {
+    "campo": "base_legal",
+    "titulo": "Base legal",
+    "tipo": "texto"
+   }
+  ]
+ },
+ "dados": [
+  {
+   "item": "Leite produzido em MS",
+   "grupo": "Cesta básica",
+   "carga": 0.0,
+   "base_legal": "Anexo I, art. 30 — isento"
+  },
+  {
+   "item": "Carne bovina e bubalina",
+   "grupo": "Carnes",
+   "carga": 4.0,
+   "base_legal": "Decreto 12.056/2006, art. 7º (redução de base de 76,471%)"
+  },
+  {
+   "item": "Arroz",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52 (redução de base de 58,824%)"
+  },
+  {
+   "item": "Banha de porco",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Café torrado e moído",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Carne suína",
+   "grupo": "Carnes",
+   "carga": 7.0,
+   "base_legal": "Decreto 12.056/2006, art. 8º"
+  },
+  {
+   "item": "Erva-mate e chá mate",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Farinha de mandioca",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Farinha de milho e fubá",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Feijão",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Frango e demais aves",
+   "grupo": "Carnes",
+   "carga": 7.0,
+   "base_legal": "Decreto 12.056/2006, art. 9º"
+  },
+  {
+   "item": "Mel produzido em MS",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Ovos",
+   "grupo": "Hortifrúti",
+   "carga": 7.0,
+   "base_legal": "Anexo I, Subanexo XIII — isento apenas na venda direta do produtor ao consumidor (art. 2º)"
+  },
+  {
+   "item": "Peixe",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Sabonete em barra",
+   "grupo": "Higiene",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Sal",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Verduras, legumes e frutas in natura",
+   "grupo": "Hortifrúti",
+   "carga": 7.0,
+   "base_legal": "Anexo I, Subanexo XIII"
+  },
+  {
+   "item": "Vinagre",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Óleo de soja",
+   "grupo": "Cesta básica",
+   "carga": 7.0,
+   "base_legal": "Anexo I, art. 52"
+  },
+  {
+   "item": "Farinha de trigo",
+   "grupo": "Cesta básica",
+   "carga": 12.0,
+   "base_legal": "Anexo I, art. 53, I"
+  },
+  {
+   "item": "Pão francês e pão de forma",
+   "grupo": "Cesta básica",
+   "carga": 12.0,
+   "base_legal": "Anexo I, art. 53, I"
+  },
+  {
+   "item": "Açúcar",
+   "grupo": "Cesta básica",
+   "carga": 17.0,
+   "base_legal": "Sem benefício previsto — alíquota geral do RICMS, art. 41, III, 'a'"
+  },
+  {
+   "item": "Macarrão e massas",
+   "grupo": "Cesta básica",
+   "carga": 17.0,
+   "base_legal": "Sem benefício previsto — alíquota geral do RICMS, art. 41, III, 'a'"
+  }
+ ]
+}

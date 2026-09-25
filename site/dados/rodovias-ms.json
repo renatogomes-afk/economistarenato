@@ -1,0 +1,1659 @@
+{
+ "meta": {
+  "titulo": "A malha rodoviária de Mato Grosso do Sul",
+  "resumo": "As rodovias estaduais e federais que cortam o estado, com origem, destino, cidades atendidas e a situação de pavimentação de cada uma.",
+  "fontes": [
+   "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
+   "OpenStreetMap — traçado e extensão dos trechos, para o cálculo do percentual pavimentado"
+  ],
+  "metodologia": "As rodovias e seus trechos vêm do SRE-MS 2026. O percentual pavimentado é cálculo próprio: sobre o traçado de cada rodovia no OpenStreetMap, mede-se a extensão com revestimento asfáltico declarado em relação à extensão total mapeada. É uma estimativa de base colaborativa: serve para comparar rodovias entre si e indicar onde olhar, não substitui levantamento de campo.",
+  "referencia": "SRE-MS 2026 · OSM consultado em 2026",
+  "slug": "rodovias-ms",
+  "linhas": 160,
+  "gerado_em": "2026-09-25",
+  "colunas": [
+   {
+    "campo": "rodovia",
+    "titulo": "Rodovia",
+    "tipo": "texto"
+   },
+   {
+    "campo": "jurisdicao",
+    "titulo": "Jurisdição",
+    "tipo": "texto"
+   },
+   {
+    "campo": "origem",
+    "titulo": "Origem",
+    "tipo": "texto"
+   },
+   {
+    "campo": "destino",
+    "titulo": "Destino",
+    "tipo": "texto"
+   },
+   {
+    "campo": "pavimentacao",
+    "titulo": "Situação",
+    "tipo": "texto"
+   },
+   {
+    "campo": "pct_pav",
+    "titulo": "% pavimentado",
+    "tipo": "decimal"
+   },
+   {
+    "campo": "n_cidades",
+    "titulo": "Cidades no trajeto",
+    "tipo": "inteiro"
+   },
+   {
+    "campo": "cidades_trajeto",
+    "titulo": "Trajeto",
+    "tipo": "texto"
+   }
+  ]
+ },
+ "dados": [
+  {
+   "rodovia": "MS-010",
+   "jurisdicao": "Estadual",
+   "origem": "Campo Grande",
+   "destino": "Campo Grande",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Campo Grande"
+  },
+  {
+   "rodovia": "MS-040",
+   "jurisdicao": "Estadual",
+   "origem": "Campo Grande",
+   "destino": "Brasilândia",
+   "pavimentacao": "Parcial (76% pav.)",
+   "pct_pav": 75.5,
+   "n_cidades": 3,
+   "cidades_trajeto": "Campo Grande > Santa Rita do Pardo > Brasilândia"
+  },
+  {
+   "rodovia": "MS-080",
+   "jurisdicao": "Estadual",
+   "origem": "Campo Grande",
+   "destino": "Rio Negro",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 99.8,
+   "n_cidades": 4,
+   "cidades_trajeto": "Campo Grande > Rochedo > Corguinho > Rio Negro"
+  },
+  {
+   "rodovia": "MS-112",
+   "jurisdicao": "Estadual",
+   "origem": "Inocência",
+   "destino": "Cassilândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Inocência > Cassilândia"
+  },
+  {
+   "rodovia": "MS-124",
+   "jurisdicao": "Estadual",
+   "origem": "Paraíso das Águas",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 3,
+   "cidades_trajeto": "Paraíso das Águas > Água Clara > Três Lagoas"
+  },
+  {
+   "rodovia": "MS-134",
+   "jurisdicao": "Estadual",
+   "origem": "Nova Andradina",
+   "destino": "Batayporã",
+   "pavimentacao": "Parcial (35% pav.)",
+   "pct_pav": 35.4,
+   "n_cidades": 2,
+   "cidades_trajeto": "Nova Andradina > Batayporã"
+  },
+  {
+   "rodovia": "MS-135",
+   "jurisdicao": "Estadual",
+   "origem": "Alcinópolis",
+   "destino": "Costa Rica",
+   "pavimentacao": "Parcial (42% pav.)",
+   "pct_pav": 41.9,
+   "n_cidades": 2,
+   "cidades_trajeto": "Alcinópolis > Costa Rica"
+  },
+  {
+   "rodovia": "MS-141",
+   "jurisdicao": "Estadual",
+   "origem": "Angélica",
+   "destino": "Mundo Novo",
+   "pavimentacao": "Parcial (62% pav.)",
+   "pct_pav": 62.3,
+   "n_cidades": 7,
+   "cidades_trajeto": "Angélica > Ivinhema > Naviraí > Itaquiraí > Eldorado > Japorã > Mundo Novo"
+  },
+  {
+   "rodovia": "MS-142",
+   "jurisdicao": "Estadual",
+   "origem": "Camapuã",
+   "destino": "Camapuã",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.9,
+   "n_cidades": 1,
+   "cidades_trajeto": "Camapuã"
+  },
+  {
+   "rodovia": "MS-145",
+   "jurisdicao": "Estadual",
+   "origem": "Deodápolis",
+   "destino": "Naviraí",
+   "pavimentacao": "Parcial (53% pav.)",
+   "pct_pav": 53.5,
+   "n_cidades": 4,
+   "cidades_trajeto": "Deodápolis > Glória de Dourados > Dourados > Naviraí"
+  },
+  {
+   "rodovia": "MS-147",
+   "jurisdicao": "Estadual",
+   "origem": "Vicentina",
+   "destino": "Vicentina",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Vicentina"
+  },
+  {
+   "rodovia": "MS-156",
+   "jurisdicao": "Estadual",
+   "origem": "Itaporã",
+   "destino": "Tacuru",
+   "pavimentacao": "Parcial (80% pav.)",
+   "pct_pav": 80.1,
+   "n_cidades": 5,
+   "cidades_trajeto": "Itaporã > Dourados > Caarapó > Amambai > Tacuru"
+  },
+  {
+   "rodovia": "MS-157",
+   "jurisdicao": "Estadual",
+   "origem": "Itaporã",
+   "destino": "Itaporã",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Itaporã"
+  },
+  {
+   "rodovia": "MS-160",
+   "jurisdicao": "Estadual",
+   "origem": "Tacuru",
+   "destino": "Sete Quedas",
+   "pavimentacao": "Parcial (51% pav.)",
+   "pct_pav": 51.4,
+   "n_cidades": 2,
+   "cidades_trajeto": "Tacuru > Sete Quedas"
+  },
+  {
+   "rodovia": "MS-162",
+   "jurisdicao": "Estadual",
+   "origem": "Dois Irmãos do Buriti",
+   "destino": "Dourados",
+   "pavimentacao": "Parcial (79% pav.)",
+   "pct_pav": 79.2,
+   "n_cidades": 4,
+   "cidades_trajeto": "Dois Irmãos do Buriti > Sidrolândia > Maracaju > Dourados"
+  },
+  {
+   "rodovia": "MS-164",
+   "jurisdicao": "Estadual",
+   "origem": "Ponta Porã",
+   "destino": "Ponta Porã",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Ponta Porã"
+  },
+  {
+   "rodovia": "MS-165",
+   "jurisdicao": "Estadual",
+   "origem": "Aral Moreira",
+   "destino": "Paranhos",
+   "pavimentacao": "Parcial (30% pav.)",
+   "pct_pav": 30.2,
+   "n_cidades": 3,
+   "cidades_trajeto": "Aral Moreira > Coronel Sapucaia > Paranhos"
+  },
+  {
+   "rodovia": "MS-166",
+   "jurisdicao": "Estadual",
+   "origem": "Antônio João",
+   "destino": "Antônio João",
+   "pavimentacao": "Parcial (38% pav.)",
+   "pct_pav": 38.3,
+   "n_cidades": 1,
+   "cidades_trajeto": "Antônio João"
+  },
+  {
+   "rodovia": "MS-168",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-170",
+   "jurisdicao": "Estadual",
+   "origem": "Anastácio",
+   "destino": "Anastácio",
+   "pavimentacao": "Parcial (52% pav.)",
+   "pct_pav": 52.5,
+   "n_cidades": 1,
+   "cidades_trajeto": "Anastácio"
+  },
+  {
+   "rodovia": "MS-171",
+   "jurisdicao": "Estadual",
+   "origem": "Aquidauana",
+   "destino": "Aquidauana",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Aquidauana"
+  },
+  {
+   "rodovia": "MS-178",
+   "jurisdicao": "Estadual",
+   "origem": "Bonito",
+   "destino": "Eldorado",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 95.6,
+   "n_cidades": 3,
+   "cidades_trajeto": "Bonito > Bodoquena > Eldorado"
+  },
+  {
+   "rodovia": "MS-180",
+   "jurisdicao": "Estadual",
+   "origem": "Iguatemi",
+   "destino": "Iguatemi",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Iguatemi"
+  },
+  {
+   "rodovia": "MS-184",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Parcial (47% pav.)",
+   "pct_pav": 47.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "MS-185",
+   "jurisdicao": "Estadual",
+   "origem": "Porto Murtinho",
+   "destino": "Porto Murtinho",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Porto Murtinho"
+  },
+  {
+   "rodovia": "MS-195",
+   "jurisdicao": "Estadual",
+   "origem": "Porto Murtinho",
+   "destino": "Porto Murtinho",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Porto Murtinho"
+  },
+  {
+   "rodovia": "MS-197",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-213",
+   "jurisdicao": "Estadual",
+   "origem": "Sonora",
+   "destino": "Sonora",
+   "pavimentacao": "Parcial (16% pav.)",
+   "pct_pav": 16.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Sonora"
+  },
+  {
+   "rodovia": "MS-214",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Coxim",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Corumbá > Coxim"
+  },
+  {
+   "rodovia": "MS-215",
+   "jurisdicao": "Estadual",
+   "origem": "Pedro Gomes",
+   "destino": "Pedro Gomes",
+   "pavimentacao": "Parcial (16% pav.)",
+   "pct_pav": 16.5,
+   "n_cidades": 1,
+   "cidades_trajeto": "Pedro Gomes"
+  },
+  {
+   "rodovia": "MS-217",
+   "jurisdicao": "Estadual",
+   "origem": "Coxim",
+   "destino": "Coxim",
+   "pavimentacao": "Parcial (57% pav.)",
+   "pct_pav": 57.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Coxim"
+  },
+  {
+   "rodovia": "MS-223",
+   "jurisdicao": "Estadual",
+   "origem": "Coxim",
+   "destino": "Costa Rica",
+   "pavimentacao": "Parcial (47% pav.)",
+   "pct_pav": 47.1,
+   "n_cidades": 3,
+   "cidades_trajeto": "Coxim > Figueirão > Costa Rica"
+  },
+  {
+   "rodovia": "MS-228",
+   "jurisdicao": "Estadual",
+   "origem": "Ladário",
+   "destino": "Rio Verde de Mato Grosso",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 4.1,
+   "n_cidades": 4,
+   "cidades_trajeto": "Ladário > Corumbá > Aquidauana > Rio Verde de Mato Grosso"
+  },
+  {
+   "rodovia": "MS-229",
+   "jurisdicao": "Estadual",
+   "origem": "Paraíso das Águas",
+   "destino": "Cassilândia",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.8,
+   "n_cidades": 3,
+   "cidades_trajeto": "Paraíso das Águas > Chapadão do Sul > Cassilândia"
+  },
+  {
+   "rodovia": "MS-240",
+   "jurisdicao": "Estadual",
+   "origem": "Paranaíba",
+   "destino": "Paranaíba",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paranaíba"
+  },
+  {
+   "rodovia": "MS-243",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Miranda",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.1,
+   "n_cidades": 2,
+   "cidades_trajeto": "Corumbá > Miranda"
+  },
+  {
+   "rodovia": "MS-244",
+   "jurisdicao": "Estadual",
+   "origem": "Jaraguari",
+   "destino": "Rochedo",
+   "pavimentacao": "Parcial (5% pav.)",
+   "pct_pav": 5.1,
+   "n_cidades": 2,
+   "cidades_trajeto": "Jaraguari > Rochedo"
+  },
+  {
+   "rodovia": "MS-245",
+   "jurisdicao": "Estadual",
+   "origem": "Bandeirantes",
+   "destino": "Água Clara",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 3,
+   "cidades_trajeto": "Bandeirantes > Ribas do Rio Pardo > Água Clara"
+  },
+  {
+   "rodovia": "MS-258",
+   "jurisdicao": "Estadual",
+   "origem": "Sidrolândia",
+   "destino": "Sidrolândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 99.9,
+   "n_cidades": 1,
+   "cidades_trajeto": "Sidrolândia"
+  },
+  {
+   "rodovia": "MS-260",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-267",
+   "jurisdicao": "Estadual",
+   "origem": "Jardim",
+   "destino": "Bela Vista",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Jardim > Bela Vista"
+  },
+  {
+   "rodovia": "MS-270",
+   "jurisdicao": "Estadual",
+   "origem": "Itaporã",
+   "destino": "Itaporã",
+   "pavimentacao": "Parcial (50% pav.)",
+   "pct_pav": 49.7,
+   "n_cidades": 1,
+   "cidades_trajeto": "Itaporã"
+  },
+  {
+   "rodovia": "MS-274",
+   "jurisdicao": "Estadual",
+   "origem": "Angélica",
+   "destino": "Nova Andradina",
+   "pavimentacao": "Parcial (50% pav.)",
+   "pct_pav": 50.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Angélica > Nova Andradina"
+  },
+  {
+   "rodovia": "MS-276",
+   "jurisdicao": "Estadual",
+   "origem": "Deodápolis",
+   "destino": "Anaurilândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 96.7,
+   "n_cidades": 3,
+   "cidades_trajeto": "Deodápolis > Ivinhema > Anaurilândia"
+  },
+  {
+   "rodovia": "MS-278",
+   "jurisdicao": "Estadual",
+   "origem": "Fátima do Sul",
+   "destino": "Fátima do Sul",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 1.5,
+   "n_cidades": 1,
+   "cidades_trajeto": "Fátima do Sul"
+  },
+  {
+   "rodovia": "MS-280",
+   "jurisdicao": "Estadual",
+   "origem": "Caarapó",
+   "destino": "Laguna Carapã",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 3.5,
+   "n_cidades": 2,
+   "cidades_trajeto": "Caarapó > Laguna Carapã"
+  },
+  {
+   "rodovia": "MS-283",
+   "jurisdicao": "Estadual",
+   "origem": "Juti",
+   "destino": "Juti",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Juti"
+  },
+  {
+   "rodovia": "MS-286",
+   "jurisdicao": "Estadual",
+   "origem": "Aral Moreira",
+   "destino": "Aral Moreira",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Aral Moreira"
+  },
+  {
+   "rodovia": "MS-289",
+   "jurisdicao": "Estadual",
+   "origem": "Juti",
+   "destino": "Coronel Sapucaia",
+   "pavimentacao": "Parcial (38% pav.)",
+   "pct_pav": 37.8,
+   "n_cidades": 3,
+   "cidades_trajeto": "Juti > Amambai > Coronel Sapucaia"
+  },
+  {
+   "rodovia": "MS-290",
+   "jurisdicao": "Estadual",
+   "origem": "Naviraí",
+   "destino": "Naviraí",
+   "pavimentacao": "Parcial (17% pav.)",
+   "pct_pav": 17.5,
+   "n_cidades": 1,
+   "cidades_trajeto": "Naviraí"
+  },
+  {
+   "rodovia": "MS-295",
+   "jurisdicao": "Estadual",
+   "origem": "Eldorado",
+   "destino": "Paranhos",
+   "pavimentacao": "Parcial (88% pav.)",
+   "pct_pav": 87.9,
+   "n_cidades": 4,
+   "cidades_trajeto": "Eldorado > Iguatemi > Tacuru > Paranhos"
+  },
+  {
+   "rodovia": "MS-299",
+   "jurisdicao": "Estadual",
+   "origem": "Paranhos",
+   "destino": "Sete Quedas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Paranhos > Sete Quedas"
+  },
+  {
+   "rodovia": "MS-306",
+   "jurisdicao": "Estadual",
+   "origem": "Chapadão do Sul",
+   "destino": "Cassilândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Chapadão do Sul > Cassilândia"
+  },
+  {
+   "rodovia": "MS-307",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "MS-310",
+   "jurisdicao": "Estadual",
+   "origem": "Cassilândia",
+   "destino": "Paranaíba",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Cassilândia > Paranaíba"
+  },
+  {
+   "rodovia": "MS-316",
+   "jurisdicao": "Estadual",
+   "origem": "Costa Rica",
+   "destino": "Inocência",
+   "pavimentacao": "Parcial (42% pav.)",
+   "pct_pav": 41.7,
+   "n_cidades": 3,
+   "cidades_trajeto": "Costa Rica > Paraíso das Águas > Inocência"
+  },
+  {
+   "rodovia": "MS-320",
+   "jurisdicao": "Estadual",
+   "origem": "Chapadão do Sul",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Parcial (93% pav.)",
+   "pct_pav": 92.7,
+   "n_cidades": 2,
+   "cidades_trajeto": "Chapadão do Sul > Três Lagoas"
+  },
+  {
+   "rodovia": "MS-322",
+   "jurisdicao": "Estadual",
+   "origem": "Paraíso das Águas",
+   "destino": "Paraíso das Águas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 2.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paraíso das Águas"
+  },
+  {
+   "rodovia": "MS-324",
+   "jurisdicao": "Estadual",
+   "origem": "Água Clara",
+   "destino": "Água Clara",
+   "pavimentacao": "Parcial (7% pav.)",
+   "pct_pav": 6.9,
+   "n_cidades": 1,
+   "cidades_trajeto": "Água Clara"
+  },
+  {
+   "rodovia": "MS-325",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "MS-337",
+   "jurisdicao": "Estadual",
+   "origem": "Rio Negro",
+   "destino": "Rio Negro",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Rio Negro"
+  },
+  {
+   "rodovia": "MS-338",
+   "jurisdicao": "Estadual",
+   "origem": "Santa Rita do Pardo",
+   "destino": "Santa Rita do Pardo",
+   "pavimentacao": "Parcial (32% pav.)",
+   "pct_pav": 32.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Santa Rita do Pardo"
+  },
+  {
+   "rodovia": "MS-339",
+   "jurisdicao": "Estadual",
+   "origem": "Miranda",
+   "destino": "Bodoquena",
+   "pavimentacao": "Parcial (39% pav.)",
+   "pct_pav": 39.1,
+   "n_cidades": 2,
+   "cidades_trajeto": "Miranda > Bodoquena"
+  },
+  {
+   "rodovia": "MS-340",
+   "jurisdicao": "Estadual",
+   "origem": "Bandeirantes",
+   "destino": "Ribas do Rio Pardo",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.1,
+   "n_cidades": 2,
+   "cidades_trajeto": "Bandeirantes > Ribas do Rio Pardo"
+  },
+  {
+   "rodovia": "MS-345",
+   "jurisdicao": "Estadual",
+   "origem": "Aquidauana",
+   "destino": "Bonito",
+   "pavimentacao": "Parcial (59% pav.)",
+   "pct_pav": 59.2,
+   "n_cidades": 4,
+   "cidades_trajeto": "Aquidauana > Anastácio > Miranda > Bonito"
+  },
+  {
+   "rodovia": "MS-347",
+   "jurisdicao": "Estadual",
+   "origem": "Dois Irmãos do Buriti",
+   "destino": "Dois Irmãos do Buriti",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.6,
+   "n_cidades": 1,
+   "cidades_trajeto": "Dois Irmãos do Buriti"
+  },
+  {
+   "rodovia": "MS-351",
+   "jurisdicao": "Estadual",
+   "origem": "Jaraguari",
+   "destino": "Jaraguari",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 1,
+   "cidades_trajeto": "Jaraguari"
+  },
+  {
+   "rodovia": "MS-352",
+   "jurisdicao": "Estadual",
+   "origem": "Terenos",
+   "destino": "Terenos",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.2,
+   "n_cidades": 1,
+   "cidades_trajeto": "Terenos"
+  },
+  {
+   "rodovia": "MS-355",
+   "jurisdicao": "Estadual",
+   "origem": "Terenos",
+   "destino": "Dois Irmãos do Buriti",
+   "pavimentacao": "Parcial (7% pav.)",
+   "pct_pav": 6.6,
+   "n_cidades": 2,
+   "cidades_trajeto": "Terenos > Dois Irmãos do Buriti"
+  },
+  {
+   "rodovia": "MS-356",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-357",
+   "jurisdicao": "Estadual",
+   "origem": "Ribas do Rio Pardo",
+   "destino": "Ribas do Rio Pardo",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Ribas do Rio Pardo"
+  },
+  {
+   "rodovia": "MS-364",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-375",
+   "jurisdicao": "Estadual",
+   "origem": "Campo Grande",
+   "destino": "Nova Alvorada do Sul",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.1,
+   "n_cidades": 2,
+   "cidades_trajeto": "Campo Grande > Nova Alvorada do Sul"
+  },
+  {
+   "rodovia": "MS-377",
+   "jurisdicao": "Estadual",
+   "origem": "Água Clara",
+   "destino": "Água Clara",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Água Clara"
+  },
+  {
+   "rodovia": "MS-378",
+   "jurisdicao": "Estadual",
+   "origem": "Caarapó",
+   "destino": "Juti",
+   "pavimentacao": "Parcial (71% pav.)",
+   "pct_pav": 70.8,
+   "n_cidades": 2,
+   "cidades_trajeto": "Caarapó > Juti"
+  },
+  {
+   "rodovia": "MS-379",
+   "jurisdicao": "Estadual",
+   "origem": "Douradina",
+   "destino": "Laguna Carapã",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Douradina > Laguna Carapã"
+  },
+  {
+   "rodovia": "MS-380",
+   "jurisdicao": "Estadual",
+   "origem": "Ponta Porã",
+   "destino": "Ponta Porã",
+   "pavimentacao": "Parcial (9% pav.)",
+   "pct_pav": 9.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Ponta Porã"
+  },
+  {
+   "rodovia": "MS-382",
+   "jurisdicao": "Estadual",
+   "origem": "Guia Lopes da Laguna",
+   "destino": "Bonito",
+   "pavimentacao": "Parcial (66% pav.)",
+   "pct_pav": 66.3,
+   "n_cidades": 2,
+   "cidades_trajeto": "Guia Lopes da Laguna > Bonito"
+  },
+  {
+   "rodovia": "MS-384",
+   "jurisdicao": "Estadual",
+   "origem": "Antônio João",
+   "destino": "Caracol",
+   "pavimentacao": "Parcial (93% pav.)",
+   "pct_pav": 92.5,
+   "n_cidades": 3,
+   "cidades_trajeto": "Antônio João > Bela Vista > Caracol"
+  },
+  {
+   "rodovia": "MS-386",
+   "jurisdicao": "Estadual",
+   "origem": "Amambai",
+   "destino": "Japorã",
+   "pavimentacao": "Parcial (85% pav.)",
+   "pct_pav": 84.8,
+   "n_cidades": 3,
+   "cidades_trajeto": "Amambai > Iguatemi > Japorã"
+  },
+  {
+   "rodovia": "MS-395",
+   "jurisdicao": "Estadual",
+   "origem": "Anaurilândia",
+   "destino": "Brasilândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 3,
+   "cidades_trajeto": "Anaurilândia > Bataguassu > Brasilândia"
+  },
+  {
+   "rodovia": "MS-407",
+   "jurisdicao": "Estadual",
+   "origem": "Sonora",
+   "destino": "Sonora",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Sonora"
+  },
+  {
+   "rodovia": "MS-418",
+   "jurisdicao": "Estadual",
+   "origem": "Pedro Gomes",
+   "destino": "Pedro Gomes",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Pedro Gomes"
+  },
+  {
+   "rodovia": "MS-422",
+   "jurisdicao": "Estadual",
+   "origem": "Figueirão",
+   "destino": "Camapuã",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Figueirão > Camapuã"
+  },
+  {
+   "rodovia": "MS-423",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Rio Verde de Mato Grosso",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Corumbá > Rio Verde de Mato Grosso"
+  },
+  {
+   "rodovia": "MS-424",
+   "jurisdicao": "Estadual",
+   "origem": "Figueirão",
+   "destino": "Figueirão",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Figueirão"
+  },
+  {
+   "rodovia": "MS-425",
+   "jurisdicao": "Estadual",
+   "origem": "Chapadão do Sul",
+   "destino": "Paraíso das Águas",
+   "pavimentacao": "Parcial (37% pav.)",
+   "pct_pav": 36.6,
+   "n_cidades": 2,
+   "cidades_trajeto": "Chapadão do Sul > Paraíso das Águas"
+  },
+  {
+   "rodovia": "MS-426",
+   "jurisdicao": "Estadual",
+   "origem": "Cassilândia",
+   "destino": "Cassilândia",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Cassilândia"
+  },
+  {
+   "rodovia": "MS-427",
+   "jurisdicao": "Estadual",
+   "origem": "Sete Quedas",
+   "destino": "Rio Verde de Mato Grosso",
+   "pavimentacao": "Parcial (8% pav.)",
+   "pct_pav": 8.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Sete Quedas > Rio Verde de Mato Grosso"
+  },
+  {
+   "rodovia": "MS-428",
+   "jurisdicao": "Estadual",
+   "origem": "Ladário",
+   "destino": "Ladário",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Ladário"
+  },
+  {
+   "rodovia": "MS-429",
+   "jurisdicao": "Estadual",
+   "origem": "São Gabriel do Oeste",
+   "destino": "São Gabriel do Oeste",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "São Gabriel do Oeste"
+  },
+  {
+   "rodovia": "MS-430",
+   "jurisdicao": "Estadual",
+   "origem": "Rio Negro",
+   "destino": "São Gabriel do Oeste",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Rio Negro > São Gabriel do Oeste"
+  },
+  {
+   "rodovia": "MS-431",
+   "jurisdicao": "Estadual",
+   "origem": "Paranaíba",
+   "destino": "Paranaíba",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paranaíba"
+  },
+  {
+   "rodovia": "MS-432",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Parcial (18% pav.)",
+   "pct_pav": 18.5,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "MS-433",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-434",
+   "jurisdicao": "Estadual",
+   "origem": "Paranaíba",
+   "destino": "Paranaíba",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paranaíba"
+  },
+  {
+   "rodovia": "MS-435",
+   "jurisdicao": "Estadual",
+   "origem": "São Gabriel do Oeste",
+   "destino": "Camapuã",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "São Gabriel do Oeste > Camapuã"
+  },
+  {
+   "rodovia": "MS-436",
+   "jurisdicao": "Estadual",
+   "origem": "Figueirão",
+   "destino": "Alcinópolis",
+   "pavimentacao": "Parcial (87% pav.)",
+   "pct_pav": 86.5,
+   "n_cidades": 2,
+   "cidades_trajeto": "Figueirão > Alcinópolis"
+  },
+  {
+   "rodovia": "MS-437",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-438",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-440",
+   "jurisdicao": "Estadual",
+   "origem": "Três Lagoas",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Três Lagoas"
+  },
+  {
+   "rodovia": "MS-441",
+   "jurisdicao": "Estadual",
+   "origem": "Bandeirantes",
+   "destino": "Bandeirantes",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Bandeirantes"
+  },
+  {
+   "rodovia": "MS-442",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-444",
+   "jurisdicao": "Estadual",
+   "origem": "Selvíria",
+   "destino": "Selvíria",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.4,
+   "n_cidades": 1,
+   "cidades_trajeto": "Selvíria"
+  },
+  {
+   "rodovia": "MS-445",
+   "jurisdicao": "Estadual",
+   "origem": "Jaraguari",
+   "destino": "Jaraguari",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Jaraguari"
+  },
+  {
+   "rodovia": "MS-446",
+   "jurisdicao": "Estadual",
+   "origem": "Miranda",
+   "destino": "Miranda",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 1,
+   "cidades_trajeto": "Miranda"
+  },
+  {
+   "rodovia": "MS-447",
+   "jurisdicao": "Estadual",
+   "origem": "Aquidauana",
+   "destino": "Aquidauana",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Aquidauana"
+  },
+  {
+   "rodovia": "MS-448",
+   "jurisdicao": "Estadual",
+   "origem": "Miranda",
+   "destino": "Miranda",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.1,
+   "n_cidades": 1,
+   "cidades_trajeto": "Miranda"
+  },
+  {
+   "rodovia": "MS-449",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-450",
+   "jurisdicao": "Estadual",
+   "origem": "Aquidauana",
+   "destino": "Dois Irmãos do Buriti",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Aquidauana > Dois Irmãos do Buriti"
+  },
+  {
+   "rodovia": "MS-452",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-453",
+   "jurisdicao": "Estadual",
+   "origem": "Três Lagoas",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Três Lagoas"
+  },
+  {
+   "rodovia": "MS-454",
+   "jurisdicao": "Estadual",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 1.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "MS-455",
+   "jurisdicao": "Estadual",
+   "origem": "Campo Grande",
+   "destino": "Rio Brilhante",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 1.1,
+   "n_cidades": 3,
+   "cidades_trajeto": "Campo Grande > Sidrolândia > Rio Brilhante"
+  },
+  {
+   "rodovia": "MS-456",
+   "jurisdicao": "Estadual",
+   "origem": "Água Clara",
+   "destino": "Água Clara",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Água Clara"
+  },
+  {
+   "rodovia": "MS-457",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-458",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-459",
+   "jurisdicao": "Estadual",
+   "origem": "Brasilândia",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Brasilândia > Três Lagoas"
+  },
+  {
+   "rodovia": "MS-460",
+   "jurisdicao": "Estadual",
+   "origem": "Maracaju",
+   "destino": "Maracaju",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Maracaju"
+  },
+  {
+   "rodovia": "MS-462",
+   "jurisdicao": "Estadual",
+   "origem": "Maracaju",
+   "destino": "Maracaju",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.2,
+   "n_cidades": 1,
+   "cidades_trajeto": "Maracaju"
+  },
+  {
+   "rodovia": "MS-464",
+   "jurisdicao": "Estadual",
+   "origem": "Brasilândia",
+   "destino": "Brasilândia",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 1,
+   "cidades_trajeto": "Brasilândia"
+  },
+  {
+   "rodovia": "MS-465",
+   "jurisdicao": "Estadual",
+   "origem": "Rio Brilhante",
+   "destino": "Rio Brilhante",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Rio Brilhante"
+  },
+  {
+   "rodovia": "MS-466",
+   "jurisdicao": "Estadual",
+   "origem": "Sidrolândia",
+   "destino": "Nova Alvorada do Sul",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 3,
+   "cidades_trajeto": "Sidrolândia > Rio Brilhante > Nova Alvorada do Sul"
+  },
+  {
+   "rodovia": "MS-467",
+   "jurisdicao": "Estadual",
+   "origem": "Porto Murtinho",
+   "destino": "Porto Murtinho",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Porto Murtinho"
+  },
+  {
+   "rodovia": "MS-468",
+   "jurisdicao": "Estadual",
+   "origem": "Dourados",
+   "destino": "Dourados",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Dourados"
+  },
+  {
+   "rodovia": "MS-469",
+   "jurisdicao": "Estadual",
+   "origem": "Deodápolis",
+   "destino": "Angélica",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Deodápolis > Angélica"
+  },
+  {
+   "rodovia": "MS-470",
+   "jurisdicao": "Estadual",
+   "origem": "Douradina",
+   "destino": "Douradina",
+   "pavimentacao": "Parcial (32% pav.)",
+   "pct_pav": 31.7,
+   "n_cidades": 1,
+   "cidades_trajeto": "Douradina"
+  },
+  {
+   "rodovia": "MS-471",
+   "jurisdicao": "Estadual",
+   "origem": "Caracol",
+   "destino": "Caracol",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Caracol"
+  },
+  {
+   "rodovia": "MS-472",
+   "jurisdicao": "Estadual",
+   "origem": "Bela Vista",
+   "destino": "Caracol",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.5,
+   "n_cidades": 2,
+   "cidades_trajeto": "Bela Vista > Caracol"
+  },
+  {
+   "rodovia": "MS-473",
+   "jurisdicao": "Estadual",
+   "origem": "Nova Andradina",
+   "destino": "Taquarussu",
+   "pavimentacao": "Parcial (30% pav.)",
+   "pct_pav": 29.6,
+   "n_cidades": 2,
+   "cidades_trajeto": "Nova Andradina > Taquarussu"
+  },
+  {
+   "rodovia": "MS-474",
+   "jurisdicao": "Estadual",
+   "origem": "Caracol",
+   "destino": "Caracol",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Caracol"
+  },
+  {
+   "rodovia": "MS-475",
+   "jurisdicao": "Estadual",
+   "origem": "Novo Horizonte do Sul",
+   "destino": "Novo Horizonte do Sul",
+   "pavimentacao": "Parcial (73% pav.)",
+   "pct_pav": 73.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Novo Horizonte do Sul"
+  },
+  {
+   "rodovia": "MS-476",
+   "jurisdicao": "Estadual",
+   "origem": "Batayporã",
+   "destino": "Taquarussu",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Batayporã > Taquarussu"
+  },
+  {
+   "rodovia": "MS-477",
+   "jurisdicao": "Estadual",
+   "origem": "Dourados",
+   "destino": "Dourados",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 1,
+   "cidades_trajeto": "Dourados"
+  },
+  {
+   "rodovia": "MS-478",
+   "jurisdicao": "Estadual",
+   "origem": "Jateí",
+   "destino": "Jateí",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 1,
+   "cidades_trajeto": "Jateí"
+  },
+  {
+   "rodovia": "MS-479",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-480",
+   "jurisdicao": "Estadual",
+   "origem": "Anaurilândia",
+   "destino": "Batayporã",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Anaurilândia > Batayporã"
+  },
+  {
+   "rodovia": "MS-481",
+   "jurisdicao": "Estadual",
+   "origem": "Aral Moreira",
+   "destino": "Aral Moreira",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Aral Moreira"
+  },
+  {
+   "rodovia": "MS-483",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-485",
+   "jurisdicao": "Estadual",
+   "origem": "Amambai",
+   "destino": "Amambai",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Amambai"
+  },
+  {
+   "rodovia": "MS-486",
+   "jurisdicao": "Estadual",
+   "origem": "Amambai",
+   "destino": "Naviraí",
+   "pavimentacao": "Parcial (18% pav.)",
+   "pct_pav": 17.9,
+   "n_cidades": 3,
+   "cidades_trajeto": "Amambai > Coronel Sapucaia > Naviraí"
+  },
+  {
+   "rodovia": "MS-488",
+   "jurisdicao": "Estadual",
+   "origem": "Itaquiraí",
+   "destino": "Itaquiraí",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Itaquiraí"
+  },
+  {
+   "rodovia": "MS-489",
+   "jurisdicao": "Estadual",
+   "origem": "Naviraí",
+   "destino": "Naviraí",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 3.6,
+   "n_cidades": 1,
+   "cidades_trajeto": "Naviraí"
+  },
+  {
+   "rodovia": "MS-490",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-491",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "MS-497",
+   "jurisdicao": "Estadual",
+   "origem": "",
+   "destino": "",
+   "pavimentacao": "n/d",
+   "pct_pav": "",
+   "n_cidades": 0,
+   "cidades_trajeto": ""
+  },
+  {
+   "rodovia": "BR-060",
+   "jurisdicao": "Federal",
+   "origem": "Bela Vista",
+   "destino": "Chapadão do Sul",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 99.9,
+   "n_cidades": 13,
+   "cidades_trajeto": "Bela Vista > Jardim > Guia Lopes da Laguna > Nioaque > Maracaju > Dois Irmãos do Buriti > Sidrolândia > Campo Grande > Jaraguari > Bandeirantes > Camapuã > Paraíso das Águas > Chapadão do Sul"
+  },
+  {
+   "rodovia": "BR-158",
+   "jurisdicao": "Federal",
+   "origem": "Cassilândia",
+   "destino": "Brasilândia",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 6,
+   "cidades_trajeto": "Cassilândia > Paranaíba > Aparecida do Taboado > Selvíria > Três Lagoas > Brasilândia"
+  },
+  {
+   "rodovia": "BR-163",
+   "jurisdicao": "Federal",
+   "origem": "Sonora",
+   "destino": "Mundo Novo",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 19,
+   "cidades_trajeto": "Sonora > Coxim > Rio Verde de Mato Grosso > São Gabriel do Oeste > Camapuã > Bandeirantes > Jaraguari > Campo Grande > Sidrolândia > Nova Alvorada do Sul > Rio Brilhante > Douradina > Dourados > Caarapó > Juti > Naviraí > Itaquiraí > Eldorado > Mundo Novo"
+  },
+  {
+   "rodovia": "BR-262",
+   "jurisdicao": "Federal",
+   "origem": "Ladário",
+   "destino": "Três Lagoas",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 11,
+   "cidades_trajeto": "Ladário > Corumbá > Miranda > Aquidauana > Anastácio > Dois Irmãos do Buriti > Terenos > Campo Grande > Ribas do Rio Pardo > Água Clara > Três Lagoas"
+  },
+  {
+   "rodovia": "BR-267",
+   "jurisdicao": "Federal",
+   "origem": "Porto Murtinho",
+   "destino": "Bataguassu",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 99.9,
+   "n_cidades": 12,
+   "cidades_trajeto": "Porto Murtinho > Caracol > Bela Vista > Jardim > Guia Lopes da Laguna > Nioaque > Maracaju > Rio Brilhante > Nova Alvorada do Sul > Nova Andradina > Anaurilândia > Bataguassu"
+  },
+  {
+   "rodovia": "BR-359",
+   "jurisdicao": "Federal",
+   "origem": "Ladário",
+   "destino": "Costa Rica",
+   "pavimentacao": "Parcial (95% pav.)",
+   "pct_pav": 94.8,
+   "n_cidades": 5,
+   "cidades_trajeto": "Ladário > Coxim > Alcinópolis > Figueirão > Costa Rica"
+  },
+  {
+   "rodovia": "BR-376",
+   "jurisdicao": "Federal",
+   "origem": "Dourados",
+   "destino": "Batayporã",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 96.8,
+   "n_cidades": 8,
+   "cidades_trajeto": "Dourados > Fátima do Sul > Vicentina > Glória de Dourados > Deodápolis > Ivinhema > Nova Andradina > Batayporã"
+  },
+  {
+   "rodovia": "BR-419",
+   "jurisdicao": "Federal",
+   "origem": "Rio Verde de Mato Grosso",
+   "destino": "Jardim",
+   "pavimentacao": "Parcial (54% pav.)",
+   "pct_pav": 54.0,
+   "n_cidades": 7,
+   "cidades_trajeto": "Rio Verde de Mato Grosso > Rio Negro > Aquidauana > Anastácio > Nioaque > Guia Lopes da Laguna > Jardim"
+  },
+  {
+   "rodovia": "BR-436",
+   "jurisdicao": "Federal",
+   "origem": "Aparecida do Taboado",
+   "destino": "Aparecida do Taboado",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Aparecida do Taboado"
+  },
+  {
+   "rodovia": "BR-454",
+   "jurisdicao": "Federal",
+   "origem": "Corumbá",
+   "destino": "Corumbá",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 1.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Corumbá"
+  },
+  {
+   "rodovia": "BR-463",
+   "jurisdicao": "Federal",
+   "origem": "Ponta Porã",
+   "destino": "Dourados",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 2,
+   "cidades_trajeto": "Ponta Porã > Dourados"
+  },
+  {
+   "rodovia": "BR-483",
+   "jurisdicao": "Federal",
+   "origem": "Paranaíba",
+   "destino": "Paranaíba",
+   "pavimentacao": "Não pavimentada",
+   "pct_pav": 0.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paranaíba"
+  },
+  {
+   "rodovia": "BR-487",
+   "jurisdicao": "Federal",
+   "origem": "Juti",
+   "destino": "Itaquiraí",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 3,
+   "cidades_trajeto": "Juti > Naviraí > Itaquiraí"
+  },
+  {
+   "rodovia": "BR-497",
+   "jurisdicao": "Federal",
+   "origem": "Paranaíba",
+   "destino": "Paranaíba",
+   "pavimentacao": "Pavimentada",
+   "pct_pav": 100.0,
+   "n_cidades": 1,
+   "cidades_trajeto": "Paranaíba"
+  }
+ ]
+}

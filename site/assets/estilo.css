@@ -334,3 +334,56 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 .centro h1{font-family:var(--serif);font-size:2.2rem;font-weight:500;letter-spacing:-.02em;line-height:1.15}
 .centro p{color:var(--tinta-2);margin-top:14px}
 .centro .botao{display:inline-block;margin-top:26px}
+
+/* ==========================================================================
+   BASES ABERTAS — catálogo e tabelas
+   ========================================================================== */
+.catalogo{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--linha);border:1px solid var(--linha);margin:26px 0 10px}
+.base-cartao{background:var(--papel);padding:26px;display:flex;flex-direction:column;gap:10px;transition:background .15s}
+.base-cartao:hover{background:var(--papel-2)}
+.base-cartao .tit{font-size:1.3rem}
+.base-cartao .olho{margin-top:0}
+.base-meta{margin-top:auto;padding-top:14px;font-family:var(--sans);font-size:11px;color:var(--cinza);display:flex;flex-wrap:wrap;gap:6px 14px;letter-spacing:.02em}
+.base-meta b{color:var(--tinta);font-weight:600}
+
+.ficha{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--linha);border:1px solid var(--linha);margin:22px 0 30px}
+.ficha div{background:var(--papel-2);padding:14px 16px}
+.ficha dt{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--cinza);margin-bottom:5px}
+.ficha dd{font-family:var(--sans);font-size:13px;line-height:1.45;color:var(--tinta)}
+
+.tabela-barra{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.tabela-busca{flex:1;min-width:200px;font-family:var(--sans);font-size:13.5px;padding:10px 12px;border:1px solid var(--linha);background:var(--papel)}
+.tabela-busca:focus{outline:none;border-color:var(--tinta)}
+.contagem{font-family:var(--sans);font-size:11.5px;color:var(--cinza);white-space:nowrap}
+.tabela-baixar{display:flex;gap:7px;margin-left:auto}
+.tabela-rolagem{overflow-x:auto;border:1px solid var(--linha);max-height:70vh;overflow-y:auto}
+.tabela-carregando{font-family:var(--sans);font-size:13px;color:var(--cinza);padding:26px}
+.tabela{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:13px}
+.tabela th{
+  position:sticky;top:0;background:var(--papel);text-align:left;font-size:10.5px;font-weight:700;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--tinta);padding:11px 12px;
+  border-bottom:2px solid var(--tinta);cursor:pointer;white-space:nowrap;user-select:none;
+}
+.tabela th:hover{color:var(--azul)}
+.tabela th.num,.tabela td.num{text-align:right;font-variant-numeric:tabular-nums}
+.tabela .seta{color:var(--azul)}
+.tabela td{padding:10px 12px;border-bottom:1px solid var(--linha);color:var(--tinta-2);vertical-align:top}
+.tabela tbody tr:hover td{background:var(--papel-2)}
+
+.caixa-leitura{border-left:3px solid var(--azul);background:var(--papel-2);padding:20px 22px;margin:30px 0}
+.caixa-leitura h3{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);margin-bottom:10px}
+.caixa-leitura p{font-size:1.02rem;line-height:1.6;color:var(--tinta-2)}
+
+.citar{border:1px solid var(--linha);padding:18px 20px;margin:26px 0}
+.citar h3{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);margin-bottom:9px}
+.citar code{font-family:var(--sans);font-size:12.5px;color:var(--tinta-2);line-height:1.6;display:block}
+
+.largura-dados{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.texto-dados{max-width:760px}
+
+@media(max-width:720px){
+  .catalogo{grid-template-columns:1fr}
+  .ficha{grid-template-columns:1fr 1fr}
+  .tabela-baixar{margin-left:0;width:100%}
+  .tabela-baixar .chip{flex:1;text-align:center}
+}
