@@ -367,6 +367,7 @@ CABECA = u"""<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
+<link rel="preload" href="{r}assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{r}assets/estilo.css">
 </head>
 <body>
@@ -437,7 +438,7 @@ def pagina_base(meta):
 <article class="largura-dados">
   <div class="texto-dados" style="margin-top:34px">
     <span class="chapeu dado">Base aberta</span>
-    <h1 class="tit" style="font-size:clamp(1.9rem,3.6vw,2.6rem);font-weight:500;letter-spacing:-.02em;line-height:1.1">{titulo}</h1>
+    <h1 class="tit tit-display">{titulo}</h1>
     <p class="olho olho-xl">{resumo}</p>
   </div>
 
@@ -505,7 +506,7 @@ def pagina_catalogo(catalogo):
 <main class="largura-dados">
   <div class="texto-dados" style="margin-top:34px">
     <span class="chapeu dado">Bases abertas</span>
-    <h1 class="tit" style="font-size:clamp(2rem,3.8vw,2.8rem);font-weight:500;letter-spacing:-.02em;line-height:1.1">Os dados de Mato Grosso do Sul, abertos para quem quiser conferir</h1>
+    <h1 class="tit tit-display">Os dados de Mato Grosso do Sul, abertos para quem quiser conferir</h1>
     <p class="olho olho-xl">Toda análise publicada aqui sai de um documento público. Em vez de
     guardar as planilhas, elas ficam nesta página: com a fonte, o ano de referência, a
     metodologia e o arquivo para baixar. Jornalista, pesquisador, vereador, estudante ou

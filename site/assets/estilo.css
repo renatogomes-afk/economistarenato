@@ -1,3 +1,17 @@
+/* --------------------------------------------------------------------------
+   Reckless Neue Regular — tipografia da marca (Displaay Type Foundry),
+   licenciada pela WGSA. Usada no nome e nos titulos de display, conforme o
+   Manual de Marca v.01. O texto de leitura fica na Newsreader e os rotulos,
+   legendas e tabelas no grotesco (Inter, no papel da Aktiv Grotesk).
+   -------------------------------------------------------------------------- */
+@font-face{
+  font-family:'Reckless Neue';
+  src:url('fontes/reckless-neue-regular.woff2') format('woff2');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+
 /* ==========================================================================
    economistarenato.com.br — sistema editorial (protótipo v1)
    Paleta do Manual de Marca v.01: Pantone 293 C #003097 | Light Blue 500 #03A9F4 | Neutral Black #1A1A1A
@@ -17,7 +31,8 @@
   --papel-2:#f6f5f2;
   --alerta:#A61E1E;
 
-  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --display:'Reckless Neue','Newsreader',Georgia,serif;  /* nome e titulos de display */
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;   /* texto de leitura */
   --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 
   --gutter:24px;
@@ -111,7 +126,7 @@ hr{border:none;border-top:1px solid var(--linha)}
 
 .tit{font-family:var(--serif);font-weight:600;letter-spacing:-.012em;line-height:1.12;color:var(--tinta)}
 a:hover .tit{color:var(--azul)}
-.tit-xl{font-size:clamp(2.1rem,4.4vw,3.15rem);line-height:1.05;letter-spacing:-.022em;font-weight:500}
+.tit-xl{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:clamp(2.1rem,4.4vw,3.3rem);line-height:1.04;letter-spacing:-.018em}
 .tit-g{font-size:1.42rem}
 .tit-m{font-size:1.14rem}
 .tit-p{font-size:1.02rem;line-height:1.2}
@@ -183,7 +198,7 @@ figcaption b{color:var(--tinta-2);font-weight:500}
 .painel-grade{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.22)}
 .celula{background:var(--azul);padding:20px 18px}
 .celula .rot{font-family:var(--sans);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.66);min-height:28px}
-.celula .num{font-family:var(--serif);font-size:2.1rem;font-weight:500;letter-spacing:-.02em;margin:8px 0 4px;font-variant-numeric:tabular-nums}
+.celula .num{font-family:var(--display);font-size:2.2rem;font-weight:400;font-synthesis-weight:none;letter-spacing:-.02em;margin:8px 0 4px;font-variant-numeric:tabular-nums}
 .celula .nota{font-family:var(--sans);font-size:10.5px;color:rgba(255,255,255,.55);line-height:1.4}
 .painel-rodape{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.6);margin-top:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .painel-rodape a{border-bottom:1px solid rgba(255,255,255,.4)}
@@ -222,7 +237,7 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
    ========================================================================== */
 .artigo{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .artigo-topo{max-width:var(--coluna-texto);margin:34px auto 0}
-.artigo-topo h1{font-family:var(--serif);font-size:clamp(2rem,4vw,2.85rem);font-weight:500;line-height:1.1;letter-spacing:-.022em}
+.artigo-topo h1{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:clamp(2rem,4vw,3rem);line-height:1.08;letter-spacing:-.018em}
 .artigo-topo .olho{font-size:1.16rem;color:var(--tinta-2);margin-top:16px}
 .barra-autor{display:flex;align-items:center;gap:13px;margin:24px 0;padding:16px 0;border-top:1px solid var(--linha);border-bottom:1px solid var(--linha)}
 .barra-autor .mini{width:42px;height:42px;border-radius:50%;background:var(--azul);display:flex;align-items:center;justify-content:center;flex:none}
@@ -250,7 +265,7 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 .citacao p{font-size:1.5rem;line-height:1.3;font-weight:500;letter-spacing:-.015em;font-style:italic;margin:0}
 
 .caixa-num{background:var(--papel-2);border-top:3px solid var(--azul);padding:24px;margin:34px 0;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
-.caixa-num .valor{font-family:var(--serif);font-size:3rem;font-weight:500;letter-spacing:-.03em;color:var(--azul);line-height:1;font-variant-numeric:tabular-nums}
+.caixa-num .valor{font-family:var(--display);font-size:3.1rem;font-weight:400;font-synthesis-weight:none;letter-spacing:-.03em;color:var(--azul);line-height:1;font-variant-numeric:tabular-nums}
 .caixa-num .exp{font-family:var(--sans);font-size:13.5px;line-height:1.55;color:var(--tinta-2)}
 .caixa-num .exp b{display:block;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--cinza);margin-bottom:6px}
 
@@ -274,6 +289,11 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 /* ==========================================================================
    RESPONSIVO
    ========================================================================== */
+/* os botoes do canto colidem com a marca centralizada em telas medias */
+@media(max-width:1040px){
+  .cabecalho .canto{display:none}
+}
+
 @media(max-width:1080px){
   .capa{grid-template-columns:1.25fr 1fr;row-gap:28px}
   .capa>*{grid-column:auto}
@@ -318,7 +338,7 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
   letter-spacing:.11em;text-transform:uppercase;color:var(--cinza);
   border:1px solid var(--linha);padding:4px 9px;
 }
-.trilho-num{font-family:var(--serif);font-size:2.6rem;font-weight:500;letter-spacing:-.03em;color:var(--azul);line-height:1}
+.trilho-num{font-family:var(--display);font-size:2.7rem;font-weight:400;font-synthesis-weight:none;letter-spacing:-.03em;color:var(--azul);line-height:1}
 .fonte-mini{font-family:var(--sans);font-size:11px;color:var(--cinza);margin-top:8px;line-height:1.5}
 .celula-fonte{
   font-family:var(--sans);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;
@@ -402,3 +422,9 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 .fonte-links a{color:var(--azul);font-weight:600;border-bottom:1px solid rgba(0,48,151,.3)}
 .fonte-links a:hover{border-color:var(--azul)}
 .auditar-nota{font-family:var(--sans);font-size:12px;line-height:1.6;color:var(--cinza);margin-top:14px}
+
+/* titulo de display das paginas de base aberta */
+.tit-display{
+  font-family:var(--display);font-weight:400;font-synthesis-weight:none;
+  font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.08;letter-spacing:-.018em;
+}

@@ -1,146 +1,137 @@
 # CLAUDE.md — economistarenato.com.br
 
-> Arquivo de contexto para o Claude Code. Coloque-o na **raiz do repositório**
-> (`economistarenato/CLAUDE.md`). O Claude Code lê este arquivo automaticamente
-> ao iniciar e o usa como memória permanente do projeto.
+> Contexto do projeto para o Claude Code. Fica na raiz do repositório e é lido
+> automaticamente ao iniciar.
 
 ---
 
 ## 1. O que é este projeto
 
-Site institucional de **Renato Wanderley Gomes** — economista (CORECON-MS nº 1297),
-sócio-fundador da WGSA Gestão Empresarial e pré-candidato ao Governo de Mato Grosso
-do Sul pelo partido Democracia Cristã (DC).
+**Publicação editorial** de **Renato Wanderley Gomes** — economista (CORECON-MS nº 1297),
+sócio-fundador da WGSA, pré-candidato ao Governo de Mato Grosso do Sul pela Democracia
+Cristã (DC).
 
-O site funciona como vitrine de **análises técnicas de economia e finanças públicas
-do MS**, com um painel de dados/indicadores que pode ser atualizado de forma simples.
-Não é um blog populista: o registro é o de **economista institucional**, com toda
-afirmação ancorada em fonte primária verificável (Portal da Transparência, LOA,
-Diário Oficial, SICONFI/RREO, IBGE, MDIC etc.).
+Desde 24/09/2026 o site deixou de ser landing page institucional e passou a funcionar como
+jornal: opinião, análise e **dados abertos** sobre a economia e as contas públicas de MS e
+de Campo Grande. O registro é o de **economista institucional** — toda afirmação numérica
+com fonte primária verificável, e a fonte sempre visível para o leitor.
 
-**Domínio oficial:** `economistarenato.com.br`
-**Handle público:** `@economistarenato`
-
----
-
-## 2. Stack e arquitetura
-
-- **Site estático** — HTML/CSS/JS puro, sem framework, sem build step.
-- **Dados dinâmicos** — o `index.html` lê um JSON (`dados/indicadores.json`) em
-  tempo de execução e renderiza o painel de indicadores. Para atualizar números,
-  edita-se o JSON; o HTML não muda.
-- **Atualização de dados** — script Python opcional (`scripts/atualiza_dados.py`)
-  para coletar/preencher os indicadores.
-- **Hospedagem** — Netlify, com deploy contínuo a partir do GitHub.
-- **Sem CMS, sem servidor, sem banco de dados.** Edita-se arquivo → `git push` →
-  Netlify publica em ~1 minuto.
+**Domínio:** `economistarenato.com.br` · **Handle:** `@economistarenato`
+**Estratégia:** `projeto_mapeamento_candGov/comunicacao_digital/PLANO_AUTORIDADE_2027_2028.md`
 
 ---
 
-## 3. Estrutura do repositório
+## 2. Stack
+
+- **Site estático** — HTML/CSS/JS puro, sem framework e sem build step.
+- **Netlify**, deploy contínuo do GitHub `renatogomes-afk/economistarenato` (branch `main`,
+  publish dir `site`). Publicar = `git add . && git commit && git push` → ~1 min.
+- **Sem CMS, sem servidor, sem banco.**
+
+---
+
+## 3. Estrutura
 
 ```
 economistarenato/
-├── dados/
-│   └── indicadores.json      # PAINEL DE DADOS — edite aqui para atualizar números
-├── scripts/
-│   └── atualiza_dados.py      # coleta/atualização automática de indicadores
-├── site/
-│   └── index.html             # site completo (responsivo, lê o JSON dinamicamente)
-├── netlify.toml               # config de hospedagem + headers de segurança
-├── README.md                  # guia de publicação
-└── CLAUDE.md                  # este arquivo
+├── site/                          # ← PUBLISH DIR do Netlify
+│   ├── index.html                 # capa em grade de jornal
+│   ├── artigo/<slug>/index.html   # uma pasta por matéria
+│   ├── sobre/index.html           # bio, método de apuração, pré-candidatura
+│   ├── obrigado/index.html        # retorno do formulário (Netlify Forms)
+│   ├── dados/                     # BASES ABERTAS (ver seção 5)
+│   │   ├── index.html             # catálogo
+│   │   ├── <slug>/index.html      # página por base (gerada)
+│   │   ├── <slug>.json / .csv     # arquivos da base (gerados)
+│   │   ├── fontes/*.pdf           # documentos primários espelhados
+│   │   └── indicadores.json       # painel "MS em números" da capa
+│   ├── assets/estilo.css          # sistema visual inteiro
+│   ├── assets/tabela.js           # tabela com busca e ordenação
+│   ├── assets/fontes/*.woff2      # Reckless Neue (marca)
+│   └── assets/*.png|jpg           # marca, retrato, Open Graph
+├── scripts/gera_dados.py          # gera as bases abertas e suas páginas
+├── _kit_marca/                    # kit do designer (FORA do publish dir)
+└── netlify.toml
 ```
 
-> **Atenção:** o diretório publicado pelo Netlify é `site/` (publish directory).
-> O `index.html` fica em `site/index.html`, **não** na raiz.
+> **Nada de material pesado dentro de `site/`** se não for para servir ao público.
+> O kit de marca já esteve publicado por engano em `/geral/` (118 MB, com fontes
+> licenciadas baixáveis). Por isso mora em `_kit_marca/`.
 
 ---
 
-## 4. Hospedagem e domínio (estado atual)
+## 4. Identidade visual
 
-| Item | Valor |
-|------|-------|
-| Repositório GitHub | `renatogomes-afk/economistarenato` (branch `main`) |
-| Plataforma | Netlify |
-| URL provisória Netlify | `wondrous-twilight-d6880e.netlify.app` |
-| Domínio | `economistarenato.com.br` (registrado no Registro.br, ~R$40/ano) |
-| DNS gerenciado por | Registro.br (não usa Netlify DNS) |
-| Registro A (`@`) | `75.2.60.5` (IP load balancer do Netlify) |
-| Registro CNAME (`www`) | `wondrous-twilight-d6880e.netlify.app` |
+Paleta e tipografia seguem o **Manual de Marca v.01** (`Downloads/rwg_manual_de_marca.pdf`).
 
-**Config do Netlify (Build & deploy):**
-- Branch to deploy: `main`
-- Base directory: *(vazio)*
-- Build command: *(vazio)*
-- Publish directory: `site`
+| Papel | Valor |
+|---|---|
+| Azul primário | **#003097** (Pantone 293 C) |
+| Azul claro (dado) | **#03A9F4** (Light Blue 500) |
+| Tinta | **#1A1A1A** (Pantone Neutral Black C) |
 
----
+**Sistema tipográfico** (o manual previa marca + um grotesco; foi estendido para leitura
+longa, que ele não previa):
 
-## 5. Fluxo de trabalho (deploy)
+| Papel | Fonte |
+|---|---|
+| Nome e títulos de display | **Reckless Neue Regular** — `--display`, sempre peso 400 |
+| Texto de leitura e títulos secundários | **Newsreader** — `--serif` |
+| Chapéus, legendas, tabelas, rótulos de dado | **Inter** — `--sans` (no papel da Aktiv Grotesk) |
 
-Caminho local da pasta no PC do Renato (Windows):
-```
-C:\Users\renat\Downloads\economistarenato_site\economistarenato
-```
-
-Para publicar qualquer alteração:
-```bash
-git add .
-git commit -m "descrição da mudança"
-git push
-```
-O Netlify detecta o push e republica automaticamente em ~1 minuto.
-
-Forçar redeploy sem mudança de arquivo:
-```bash
-git commit --allow-empty -m "Forcar novo deploy"
-git push
-```
-
-> Autenticação do GitHub usa **token** (não senha) via Git Credential Manager.
+- A Reckless é servida como woff2 subsetado (~22 KB) de `assets/fontes/`. Licença Desktop
+  comprada pela WGSA (pedido Displaay 283195). **Aktiv Grotesk não tem licença** — só
+  arquivos trial no kit; por isso o Inter faz o papel dela.
+- A Reckless tem **um peso só**: usar sempre `font-weight:400` e
+  `font-synthesis-weight:none`, nunca negrito sintético.
 
 ---
 
-## 6. Pendências conhecidas / o que ainda falta
+## 5. Bases abertas (`/dados/`)
 
-1. **Confirmar domínio no ar** — houve histórico de o domínio apontar para um site
-   antigo ("Renato Gomes" de projeto anterior) em vez do repositório correto.
-   Verificar se `economistarenato.com.br` hoje serve o conteúdo de
-   `site/index.html`. Checar status "verde" em Netlify → Domain settings, e se o
-   A record `75.2.60.5` está salvo corretamente no Registro.br.
-2. **E-mail profissional** — desejado `renato@economistarenato.com.br`. Ainda não
-   configurado (na última conversa). Opções avaliadas: Zoho Mail (grátis, 1 usuário,
-   recomendado), Google Workspace (~R$35/mês), Cloudflare Email Routing (grátis,
-   só redireciona). Requer adicionar registros MX no Registro.br.
-3. **Script de coleta SICONFI/RREO** — ficou em aberto se seria implementado.
+O diferencial do site: os dados usados nas análises ficam públicos, com fonte, metodologia
+e download.
+
+- `python scripts/gera_dados.py` lê as planilhas de trabalho (fora deste repositório:
+  `Desktop/mapa_cidades_MS`, `Desktop/estradas_MS`, `projeto_mapeamento_candGov/inteligencia`)
+  e escreve `<slug>.json`, `<slug>.csv`, a página da base e o catálogo.
+- **Base nova = uma função no script**, não uma página escrita à mão.
+- **Regra:** nada entra sem fonte primária identificada, ano de referência e o lugar exato
+  (página do PDF, artigo da norma). Quando existe o arquivo, ele é espelhado em
+  `site/dados/fontes/` e aparece como "cópia arquivada" — links de governo somem.
+- Quando o número admite leitura torta (caso da renúncia fiscal), a base traz a caixa
+  **"Como ler este número"**.
 
 ---
 
-## 7. Convenções de conteúdo (importante para gerar texto do site)
+## 6. Convenções de conteúdo
 
 - **Tom:** economista institucional, sóbrio, técnico. Nunca populista.
-- **Toda afirmação numérica precisa de fonte primária citada** (órgão + base/ano).
-- **Fontes preferidas:** Portal da Transparência MS, LOA, Diário Oficial, SICONFI/RREO,
-  IBGE, MDIC/ComexStat, SEMAGRO.
-- **Posicionamento político:** oposição ao eixo Azambuja–Riedel, fundamentado em
-  dados de governança pública (e não em ataque pessoal).
-- **Base doutrinária do autor:** Doutrina Social da Igreja; relevante para o
-  enquadramento de propostas, não para o site de dados em si.
-- **Cuidado eleitoral:** o autor é pré-candidato. Conteúdo deve respeitar as regras
-  de pré-campanha (Art. 36-A da Lei 9.504/97). Evitar pedido explícito de voto e
-  propaganda eleitoral antecipada. Em dúvida sobre uma peça específica, sinalizar.
+- **Toda afirmação numérica com fonte primária citada** (órgão + documento + ano).
+  Fontes preferidas: LOA/LDO, Diário Oficial, Portal da Transparência MS, SICONFI/RREO,
+  SEFAZ-MS (base Legato), IBGE, MDIC/ComexStat.
+- **Quando o dado não existe, o texto diz que não existe.** Não se estima no lugar.
+- **Análise trata da decisão administrativa, nunca da pessoa.** Fato atribuído a
+  investigação ou processo entra sempre como atribuição de terceiro, com a fonte —
+  nunca imputação própria de crime.
+- **Correção se publica no próprio texto, com data.**
+- **Cuidado eleitoral:** o autor é pré-candidato. Sem pedido de voto e sem promessa;
+  o "como" vai em linguagem condicional e impessoal (Art. 36-A da Lei 9.504/97).
 
 ---
 
-## 8. Como pedir ajuda ao Claude Code neste projeto
+## 7. Cuidados técnicos aprendidos
 
-Exemplos de tarefas típicas:
-- "Atualize os indicadores em `dados/indicadores.json` com os números de [fonte]."
-- "Adicione uma nova seção de análise no `site/index.html` sobre [tema]."
-- "Faça commit e push das mudanças."
-- "Verifique se o site está apontando para o repositório correto no Netlify."
-- "Implemente o `scripts/atualiza_dados.py` para coletar dados do SICONFI."
+- **Cache:** `/assets/*.css` e `*.js` usam `must-revalidate` — o nome do arquivo é fixo, e
+  cache longo deixava quem já visitou com o layout velho. Imagens seguem com 7 dias.
+- O painel da capa lê `site/dados/indicadores.json`; o JSON **precisa estar dentro da pasta
+  publicada** (já esteve na raiz e o painel ficou quebrado no ar).
+- Formulário de assinatura usa **Netlify Forms** (`data-netlify="true"` + campo
+  `form-name`); os envios aparecem no painel do Netlify.
 
-> Regra de segurança: **não** insira tokens, senhas ou credenciais em nenhum arquivo
-> versionado. Use o gerenciador de credenciais do Git / variáveis de ambiente.
+---
+
+## 8. Regra de segurança
+
+**Nunca** versionar token, senha ou credencial. Autenticação do GitHub por token, via Git
+Credential Manager.
