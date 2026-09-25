@@ -3,7 +3,11 @@
   "titulo": "Renúncia fiscal de MS em 2026, por setor e modalidade",
   "resumo": "As 58 linhas do demonstrativo oficial de renúncia de receita: quanto o estado deixa de arrecadar em cada setor, por tipo de benefício, com a projeção para 2027 e 2028.",
   "fontes": [
-   "Lei 6.452 (LDO 2026) — Anexo de Metas Fiscais, Demonstrativo 7: Estimativa e Compensação da Renúncia de Receita, páginas 10 e 11"
+   {
+    "doc": "Lei nº 6.452 — LDO 2026, Anexo de Metas Fiscais, Demonstrativo 7 (Estimativa e Compensação da Renúncia de Receita)",
+    "onde": "páginas 10 e 11 do arquivo de anexos da lei",
+    "copia": "fontes/LDO-2026-anexos-lei-6452.pdf"
+   }
   ],
   "metodologia": "As 58 linhas foram extraídas do PDF oficial da LDO e conferidas contra o total impresso no próprio demonstrativo. Os nomes dos setores seguem a classificação CNAE usada pelo documento; a acentuação foi reposta. Total de 2026: R$ 11.950.230.600.",
   "referencia": "LDO 2026 (exercício de 2026, com projeção 2027–2028)",

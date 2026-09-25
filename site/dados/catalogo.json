@@ -5,7 +5,11 @@
    "titulo": "Renúncia fiscal de MS em 2026, por setor e modalidade",
    "resumo": "As 58 linhas do demonstrativo oficial de renúncia de receita: quanto o estado deixa de arrecadar em cada setor, por tipo de benefício, com a projeção para 2027 e 2028.",
    "fontes": [
-    "Lei 6.452 (LDO 2026) — Anexo de Metas Fiscais, Demonstrativo 7: Estimativa e Compensação da Renúncia de Receita, páginas 10 e 11"
+    {
+     "doc": "Lei nº 6.452 — LDO 2026, Anexo de Metas Fiscais, Demonstrativo 7 (Estimativa e Compensação da Renúncia de Receita)",
+     "onde": "páginas 10 e 11 do arquivo de anexos da lei",
+     "copia": "fontes/LDO-2026-anexos-lei-6452.pdf"
+    }
    ],
    "metodologia": "As 58 linhas foram extraídas do PDF oficial da LDO e conferidas contra o total impresso no próprio demonstrativo. Os nomes dos setores seguem a classificação CNAE usada pelo documento; a acentuação foi reposta. Total de 2026: R$ 11.950.230.600.",
    "referencia": "LDO 2026 (exercício de 2026, com projeção 2027–2028)",
@@ -45,9 +49,21 @@
    "titulo": "Os 79 municípios de Mato Grosso do Sul",
    "resumo": "População, PIB, PIB per capita e receita orçamentária de cada município do estado, com o valor por habitante calculado.",
    "fontes": [
-    "IBGE — Censo 2022 (SIDRA, tabela 4714): população",
-    "IBGE — PIB dos municípios 2023 (SIDRA, tabela 5938): PIB a preços correntes",
-    "Tesouro Nacional / Siconfi — DCA 2024, Anexo I-C: total das receitas"
+    {
+     "doc": "IBGE — Censo 2022, população residente",
+     "onde": "SIDRA, tabela 4714",
+     "url": "https://sidra.ibge.gov.br/tabela/4714"
+    },
+    {
+     "doc": "IBGE — PIB dos municípios 2023, a preços correntes",
+     "onde": "SIDRA, tabela 5938",
+     "url": "https://sidra.ibge.gov.br/tabela/5938"
+    },
+    {
+     "doc": "Tesouro Nacional / Siconfi — Declaração de Contas Anuais 2024",
+     "onde": "Consultas → FINBRA → DCA, Anexo I-C (Total das Receitas), exercício 2024",
+     "url": "https://siconfi.tesouro.gov.br/"
+    }
    ],
    "metodologia": "Base montada a partir das APIs oficiais do IBGE e do Siconfi. A soma das populações fecha com o total do Censo 2022 do MS (2.757.013 habitantes). PIB per capita e receita por habitante são cálculo próprio: valor dividido pela população de 2022 — como as referências são de anos diferentes (PIB 2023, receita 2024, população 2022), esses dois campos são aproximações úteis para comparação entre municípios, não valores oficiais.",
    "referencia": "População 2022 · PIB 2023 · Receita 2024",
@@ -101,8 +117,16 @@
    "titulo": "A malha rodoviária de Mato Grosso do Sul",
    "resumo": "As rodovias estaduais e federais que cortam o estado, com origem, destino, cidades atendidas e a situação de pavimentação de cada uma.",
    "fontes": [
-    "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
-    "OpenStreetMap — traçado e extensão dos trechos, para o cálculo do percentual pavimentado"
+    {
+     "doc": "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
+     "onde": "relação de rodovias, trechos e extensões",
+     "copia": "fontes/SRE-MS-2026-agesul.pdf"
+    },
+    {
+     "doc": "OpenStreetMap — traçado e revestimento dos trechos",
+     "onde": "usado apenas para calcular o percentual pavimentado",
+     "url": "https://www.openstreetmap.org"
+    }
    ],
    "metodologia": "As rodovias e seus trechos vêm do SRE-MS 2026. O percentual pavimentado é cálculo próprio: sobre o traçado de cada rodovia no OpenStreetMap, mede-se a extensão com revestimento asfáltico declarado em relação à extensão total mapeada. É uma estimativa de base colaborativa: serve para comparar rodovias entre si e indicar onde olhar, não substitui levantamento de campo.",
    "referencia": "SRE-MS 2026 · OSM consultado em 2026",
@@ -156,9 +180,21 @@
    "titulo": "Quanto de ICMS vai em cada item da cesta",
    "resumo": "A carga efetiva de ICMS na venda ao consumidor final, item a item, com o dispositivo legal que fixa cada percentual.",
    "fontes": [
-    "SEFAZ-MS — RICMS, Anexo I (arts. 30, 52 e 53 e Subanexo XIII)",
-    "SEFAZ-MS — Decreto 12.056/2006 (carnes), arts. 6º a 9º",
-    "SEFAZ-MS — RICMS, art. 41, III, 'a' (alíquota geral de 17%)"
+    {
+     "doc": "SEFAZ-MS — RICMS, Anexo I (Dos Benefícios Fiscais)",
+     "onde": "arts. 30, 52 e 53 e Subanexo XIII",
+     "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/34248fea4d6a6d2a04256b210079ce20/41CA53122C77084C042579A0004910B8?OpenDocument"
+    },
+    {
+     "doc": "SEFAZ-MS — Decreto nº 12.056/2006 (gado e carnes)",
+     "onde": "arts. 6º a 9º",
+     "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/fd8600de8a55c7fc04256b210079ce25/5def4251251ab1280425712c00467c81?OpenDocument"
+    },
+    {
+     "doc": "SEFAZ-MS — RICMS (Decreto nº 9.203/1998), alíquota geral",
+     "onde": "art. 41, III, 'a' — 17%",
+     "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/7a2675fdf26e910204256b1f005348a7/d3cc39d3a6aeeda803256cc20066f1fb?OpenDocument"
+    }
    ],
    "metodologia": "Cada linha foi conferida no texto oficial da norma, na base Legato da SEFAZ-MS, e não em fonte jornalística. Os percentuais de 7% (cesta e hortifrúti) e 4% (carne bovina) resultam de redução de base de cálculo, às vezes combinada com diferimento e crédito presumido: o valor informado é a carga final na saída ao consumidor. Os benefícios da cesta e das carnes estão prorrogados até 31/12/2026 pelo Decreto 16.753/2026.",
    "referencia": "Legislação vigente em 2026 · alíquota geral de MS: 17%",

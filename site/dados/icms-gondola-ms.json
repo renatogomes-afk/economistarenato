@@ -3,9 +3,21 @@
   "titulo": "Quanto de ICMS vai em cada item da cesta",
   "resumo": "A carga efetiva de ICMS na venda ao consumidor final, item a item, com o dispositivo legal que fixa cada percentual.",
   "fontes": [
-   "SEFAZ-MS — RICMS, Anexo I (arts. 30, 52 e 53 e Subanexo XIII)",
-   "SEFAZ-MS — Decreto 12.056/2006 (carnes), arts. 6º a 9º",
-   "SEFAZ-MS — RICMS, art. 41, III, 'a' (alíquota geral de 17%)"
+   {
+    "doc": "SEFAZ-MS — RICMS, Anexo I (Dos Benefícios Fiscais)",
+    "onde": "arts. 30, 52 e 53 e Subanexo XIII",
+    "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/34248fea4d6a6d2a04256b210079ce20/41CA53122C77084C042579A0004910B8?OpenDocument"
+   },
+   {
+    "doc": "SEFAZ-MS — Decreto nº 12.056/2006 (gado e carnes)",
+    "onde": "arts. 6º a 9º",
+    "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/fd8600de8a55c7fc04256b210079ce25/5def4251251ab1280425712c00467c81?OpenDocument"
+   },
+   {
+    "doc": "SEFAZ-MS — RICMS (Decreto nº 9.203/1998), alíquota geral",
+    "onde": "art. 41, III, 'a' — 17%",
+    "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/7a2675fdf26e910204256b1f005348a7/d3cc39d3a6aeeda803256cc20066f1fb?OpenDocument"
+   }
   ],
   "metodologia": "Cada linha foi conferida no texto oficial da norma, na base Legato da SEFAZ-MS, e não em fonte jornalística. Os percentuais de 7% (cesta e hortifrúti) e 4% (carne bovina) resultam de redução de base de cálculo, às vezes combinada com diferimento e crédito presumido: o valor informado é a carga final na saída ao consumidor. Os benefícios da cesta e das carnes estão prorrogados até 31/12/2026 pelo Decreto 16.753/2026.",
   "referencia": "Legislação vigente em 2026 · alíquota geral de MS: 17%",

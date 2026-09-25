@@ -3,9 +3,21 @@
   "titulo": "Os 79 municípios de Mato Grosso do Sul",
   "resumo": "População, PIB, PIB per capita e receita orçamentária de cada município do estado, com o valor por habitante calculado.",
   "fontes": [
-   "IBGE — Censo 2022 (SIDRA, tabela 4714): população",
-   "IBGE — PIB dos municípios 2023 (SIDRA, tabela 5938): PIB a preços correntes",
-   "Tesouro Nacional / Siconfi — DCA 2024, Anexo I-C: total das receitas"
+   {
+    "doc": "IBGE — Censo 2022, população residente",
+    "onde": "SIDRA, tabela 4714",
+    "url": "https://sidra.ibge.gov.br/tabela/4714"
+   },
+   {
+    "doc": "IBGE — PIB dos municípios 2023, a preços correntes",
+    "onde": "SIDRA, tabela 5938",
+    "url": "https://sidra.ibge.gov.br/tabela/5938"
+   },
+   {
+    "doc": "Tesouro Nacional / Siconfi — Declaração de Contas Anuais 2024",
+    "onde": "Consultas → FINBRA → DCA, Anexo I-C (Total das Receitas), exercício 2024",
+    "url": "https://siconfi.tesouro.gov.br/"
+   }
   ],
   "metodologia": "Base montada a partir das APIs oficiais do IBGE e do Siconfi. A soma das populações fecha com o total do Censo 2022 do MS (2.757.013 habitantes). PIB per capita e receita por habitante são cálculo próprio: valor dividido pela população de 2022 — como as referências são de anos diferentes (PIB 2023, receita 2024, população 2022), esses dois campos são aproximações úteis para comparação entre municípios, não valores oficiais.",
   "referencia": "População 2022 · PIB 2023 · Receita 2024",

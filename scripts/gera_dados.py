@@ -140,9 +140,15 @@ def base_municipios():
         "resumo": "População, PIB, PIB per capita e receita orçamentária de cada "
                   "município do estado, com o valor por habitante calculado.",
         "fontes": [
-            "IBGE — Censo 2022 (SIDRA, tabela 4714): população",
-            "IBGE — PIB dos municípios 2023 (SIDRA, tabela 5938): PIB a preços correntes",
-            "Tesouro Nacional / Siconfi — DCA 2024, Anexo I-C: total das receitas",
+            {"doc": "IBGE — Censo 2022, população residente",
+             "onde": "SIDRA, tabela 4714",
+             "url": "https://sidra.ibge.gov.br/tabela/4714"},
+            {"doc": "IBGE — PIB dos municípios 2023, a preços correntes",
+             "onde": "SIDRA, tabela 5938",
+             "url": "https://sidra.ibge.gov.br/tabela/5938"},
+            {"doc": "Tesouro Nacional / Siconfi — Declaração de Contas Anuais 2024",
+             "onde": "Consultas → FINBRA → DCA, Anexo I-C (Total das Receitas), exercício 2024",
+             "url": "https://siconfi.tesouro.gov.br/"},
         ],
         "metodologia": "Base montada a partir das APIs oficiais do IBGE e do Siconfi. "
                        "A soma das populações fecha com o total do Censo 2022 do MS "
@@ -193,8 +199,12 @@ def base_rodovias():
         "resumo": "As rodovias estaduais e federais que cortam o estado, com origem, "
                   "destino, cidades atendidas e a situação de pavimentação de cada uma.",
         "fontes": [
-            "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
-            "OpenStreetMap — traçado e extensão dos trechos, para o cálculo do percentual pavimentado",
+            {"doc": "AGESUL — Sistema Rodoviário Estadual (SRE-MS), edição 2026",
+             "onde": "relação de rodovias, trechos e extensões",
+             "copia": "fontes/SRE-MS-2026-agesul.pdf"},
+            {"doc": "OpenStreetMap — traçado e revestimento dos trechos",
+             "onde": "usado apenas para calcular o percentual pavimentado",
+             "url": "https://www.openstreetmap.org"},
         ],
         "metodologia": "As rodovias e seus trechos vêm do SRE-MS 2026. O percentual "
                        "pavimentado é cálculo próprio: sobre o traçado de cada rodovia no "
@@ -233,8 +243,10 @@ def base_renuncia():
                   "quanto o estado deixa de arrecadar em cada setor, por tipo de "
                   "benefício, com a projeção para 2027 e 2028.",
         "fontes": [
-            "Lei 6.452 (LDO 2026) — Anexo de Metas Fiscais, Demonstrativo 7: "
-            "Estimativa e Compensação da Renúncia de Receita, páginas 10 e 11",
+            {"doc": "Lei nº 6.452 — LDO 2026, Anexo de Metas Fiscais, Demonstrativo 7 "
+                    "(Estimativa e Compensação da Renúncia de Receita)",
+             "onde": "páginas 10 e 11 do arquivo de anexos da lei",
+             "copia": "fontes/LDO-2026-anexos-lei-6452.pdf"},
         ],
         "metodologia": "As 58 linhas foram extraídas do PDF oficial da LDO e conferidas "
                        "contra o total impresso no próprio demonstrativo. Os nomes dos "
@@ -306,9 +318,18 @@ def base_icms():
         "resumo": "A carga efetiva de ICMS na venda ao consumidor final, item a item, "
                   "com o dispositivo legal que fixa cada percentual.",
         "fontes": [
-            "SEFAZ-MS — RICMS, Anexo I (arts. 30, 52 e 53 e Subanexo XIII)",
-            "SEFAZ-MS — Decreto 12.056/2006 (carnes), arts. 6º a 9º",
-            "SEFAZ-MS — RICMS, art. 41, III, 'a' (alíquota geral de 17%)",
+            {"doc": "SEFAZ-MS — RICMS, Anexo I (Dos Benefícios Fiscais)",
+             "onde": "arts. 30, 52 e 53 e Subanexo XIII",
+             "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/"
+                    "34248fea4d6a6d2a04256b210079ce20/41CA53122C77084C042579A0004910B8?OpenDocument"},
+            {"doc": "SEFAZ-MS — Decreto nº 12.056/2006 (gado e carnes)",
+             "onde": "arts. 6º a 9º",
+             "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/"
+                    "fd8600de8a55c7fc04256b210079ce25/5def4251251ab1280425712c00467c81?OpenDocument"},
+            {"doc": "SEFAZ-MS — RICMS (Decreto nº 9.203/1998), alíquota geral",
+             "onde": "art. 41, III, 'a' — 17%",
+             "url": "https://aacpdappls.net.ms.gov.br/appls/legislacao/serc/legato.nsf/"
+                    "7a2675fdf26e910204256b1f005348a7/d3cc39d3a6aeeda803256cc20066f1fb?OpenDocument"},
         ],
         "metodologia": "Cada linha foi conferida no texto oficial da norma, na base "
                        "Legato da SEFAZ-MS, e não em fonte jornalística. Os percentuais "
@@ -395,7 +416,18 @@ def pagina_base(meta):
     pasta = os.path.join(SAIDA, meta["slug"])
     os.makedirs(pasta, exist_ok=True)
 
-    fontes = "".join(u"<li>{0}</li>".format(f) for f in meta["fontes"])
+    itens = []
+    for f in meta["fontes"]:
+        links = []
+        if f.get("url"):
+            links.append(u'<a href="{0}" target="_blank" rel="noopener">abrir no site oficial</a>'.format(f["url"]))
+        if f.get("copia"):
+            links.append(u'<a href="../{0}" target="_blank">abrir a cópia arquivada aqui</a>'.format(f["copia"]))
+        itens.append(
+            u'<li><b>{doc}</b><span class="fonte-onde">{onde}</span>{links}</li>'.format(
+                doc=f["doc"], onde=f.get("onde", ""),
+                links=(u'<span class="fonte-links">' + u' · '.join(links) + u'</span>') if links else u''))
+    fontes = u"".join(itens)
     leitura = u""
     if meta.get("leitura"):
         leitura = (u'<div class="caixa-leitura"><h3>Como ler este número</h3>'
@@ -416,15 +448,20 @@ def pagina_base(meta):
     <div><dt>Licença</dt><dd>Uso livre com crédito</dd></div>
   </dl>
 
+  <div class="texto-dados auditar">
+    <h2>Confira na fonte</h2>
+    <ul class="lista-fontes">{fontes}</ul>
+    <p class="auditar-nota">Cada valor desta tabela sai desses documentos. Os links abrem o
+    texto oficial; a cópia arquivada é o mesmo arquivo guardado aqui, com a data em que foi
+    baixado, para o caso de o endereço oficial sair do ar.</p>
+  </div>
+
   <div id="tabela" data-base="{slug}"></div>
 
   <div class="texto-dados" style="margin-top:36px">
     {leitura}
     <h2 class="tit tit-g" style="margin-top:34px">Metodologia</h2>
     <p class="olho">{metodologia}</p>
-
-    <h2 class="tit tit-g" style="margin-top:30px">Fontes</h2>
-    <ul class="olho" style="margin-left:1.1em">{fontes}</ul>
 
     <div class="citar">
       <h3>Como citar</h3>
