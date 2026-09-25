@@ -15,7 +15,25 @@
     Cache-Control = "public, max-age=3600"
     Content-Type = "application/json; charset=utf-8"
 
+# Imagens da marca praticamente nao mudam: cache longo.
 [[headers]]
-  for = "/assets/*"
+  for = "/assets/*.png"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# CSS e JS mudam a cada publicacao e o nome do arquivo e sempre o mesmo:
+# revalidar sempre, senao quem ja visitou continua vendo o layout antigo.
+[[headers]]
+  for = "/assets/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
