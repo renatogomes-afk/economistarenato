@@ -124,6 +124,9 @@ e download.
 
 - **Cache:** `/assets/*.css` e `*.js` usam `must-revalidate` — o nome do arquivo é fixo, e
   cache longo deixava quem já visitou com o layout velho. Imagens seguem com 7 dias.
+  Os links para CSS e JS carregam `?v=AAAAMMDD`: **ao mexer neles, atualize a versão**
+  (nas páginas escritas à mão e em `scripts/gera_dados.py`) para quem já visitou receber
+  o arquivo novo na hora.
 - O painel da capa lê `site/dados/indicadores.json`; o JSON **precisa estar dentro da pasta
   publicada** (já esteve na raiz e o painel ficou quebrado no ar).
 - Formulário de assinatura usa **Netlify Forms** (`data-netlify="true"` + campo
