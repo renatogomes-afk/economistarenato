@@ -19,6 +19,8 @@
 
   function numerica(tipo) { return tipo === 'inteiro' || tipo === 'decimal'; }
 
+  function largura(c) { return c.min || (numerica(c.tipo) ? 120 : 160); }
+
   function filtradas() {
     var b = estado.busca.trim().toLowerCase();
     var linhas = !b ? estado.dados.slice() : estado.dados.filter(function (r) {
@@ -41,7 +43,8 @@
     var linhas = filtradas();
     var cab = estado.colunas.map(function (c) {
       var seta = estado.ordem === c.campo ? (estado.desc ? ' ▾' : ' ▴') : '';
-      return '<th class="' + (numerica(c.tipo) ? 'num' : '') + '" data-campo="' + c.campo + '">' +
+      return '<th class="' + (numerica(c.tipo) ? 'num' : '') + '" data-campo="' + c.campo +
+        '" style="min-width:' + largura(c) + 'px">' +
         c.titulo + '<span class="seta">' + seta + '</span></th>';
     }).join('');
 
@@ -51,8 +54,13 @@
       }).join('') + '</tr>';
     }).join('');
 
+    var minTotal = estado.colunas.reduce(function (t, c) { return t + largura(c); }, 0);
     alvo.querySelector('.tabela-rolagem').innerHTML =
-      '<table class="tabela"><thead><tr>' + cab + '</tr></thead><tbody>' + corpo + '</tbody></table>';
+      '<table class="tabela" style="min-width:' + minTotal + 'px"><thead><tr>' + cab +
+      '</tr></thead><tbody>' + corpo + '</tbody></table>';
+
+    var rolagem = alvo.querySelector('.tabela-rolagem');
+    alvo.querySelector('.tabela-dica').hidden = rolagem.scrollWidth <= rolagem.clientWidth + 4;
 
     alvo.querySelector('.contagem').textContent =
       linhas.length === estado.dados.length
@@ -78,7 +86,9 @@
         '<a class="chip" href="../' + slug + '.json" download>Baixar JSON</a>' +
       '</span>' +
     '</div>' +
-    '<div class="tabela-rolagem"><p class="tabela-carregando">Carregando a base…</p></div>';
+    '<div class="tabela-rolagem"><p class="tabela-carregando">Carregando a base…</p></div>' +
+    '<p class="tabela-dica" hidden>Arraste a tabela para o lado para ver todas as colunas — ' +
+    'ou baixe o arquivo, que vem completo.</p>';
 
   alvo.querySelector('.tabela-busca').addEventListener('input', function (e) {
     estado.busca = e.target.value; pinta();

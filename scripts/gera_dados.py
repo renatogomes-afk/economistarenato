@@ -108,7 +108,7 @@ def titulo_modalidade(m):
 # --- 1. municipios ----------------------------------------------------------
 def base_municipios():
     colunas = [
-        {"campo": "municipio", "titulo": "Município", "tipo": "texto"},
+        {"campo": "municipio", "titulo": "Município", "tipo": "texto", "min": 170},
         {"campo": "quadrante", "titulo": "Região", "tipo": "texto"},
         {"campo": "populacao", "titulo": "População (2022)", "tipo": "inteiro"},
         {"campo": "pib", "titulo": "PIB (2023, R$)", "tipo": "inteiro"},
@@ -167,12 +167,12 @@ def base_rodovias():
     colunas = [
         {"campo": "rodovia", "titulo": "Rodovia", "tipo": "texto"},
         {"campo": "jurisdicao", "titulo": "Jurisdição", "tipo": "texto"},
-        {"campo": "origem", "titulo": "Origem", "tipo": "texto"},
-        {"campo": "destino", "titulo": "Destino", "tipo": "texto"},
-        {"campo": "pavimentacao", "titulo": "Situação", "tipo": "texto"},
+        {"campo": "origem", "titulo": "Origem", "tipo": "texto", "min": 130},
+        {"campo": "destino", "titulo": "Destino", "tipo": "texto", "min": 130},
+        {"campo": "pavimentacao", "titulo": "Situação", "tipo": "texto", "min": 150},
         {"campo": "pct_pav", "titulo": "% pavimentado", "tipo": "decimal"},
         {"campo": "n_cidades", "titulo": "Cidades no trajeto", "tipo": "inteiro"},
-        {"campo": "cidades_trajeto", "titulo": "Trajeto", "tipo": "texto"},
+        {"campo": "cidades_trajeto", "titulo": "Trajeto", "tipo": "texto", "min": 340},
     ]
     linhas = []
     for r in le_csv(F_ESTADUAIS):
@@ -220,8 +220,8 @@ def base_rodovias():
 # --- 3. renuncia fiscal -----------------------------------------------------
 def base_renuncia():
     colunas = [
-        {"campo": "setor", "titulo": "Setor (CNAE)", "tipo": "texto"},
-        {"campo": "modalidade", "titulo": "Modalidade", "tipo": "texto"},
+        {"campo": "setor", "titulo": "Setor (CNAE)", "tipo": "texto", "min": 280},
+        {"campo": "modalidade", "titulo": "Modalidade", "tipo": "texto", "min": 210},
         {"campo": "v2026", "titulo": "2026 (R$)", "tipo": "inteiro"},
         {"campo": "v2027", "titulo": "2027 (R$)", "tipo": "inteiro"},
         {"campo": "v2028", "titulo": "2028 (R$)", "tipo": "inteiro"},
@@ -304,10 +304,10 @@ ICMS_ITENS = [
 
 def base_icms():
     colunas = [
-        {"campo": "item", "titulo": "Item", "tipo": "texto"},
+        {"campo": "item", "titulo": "Item", "tipo": "texto", "min": 230},
         {"campo": "grupo", "titulo": "Grupo", "tipo": "texto"},
         {"campo": "carga", "titulo": "ICMS na gôndola (%)", "tipo": "decimal"},
-        {"campo": "base_legal", "titulo": "Base legal", "tipo": "texto"},
+        {"campo": "base_legal", "titulo": "Base legal", "tipo": "texto", "min": 330},
     ]
     linhas = [{"item": i, "grupo": g, "carga": c, "base_legal": b}
               for (i, g, c, b) in ICMS_ITENS]

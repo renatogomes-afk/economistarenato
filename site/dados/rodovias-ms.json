@@ -33,17 +33,20 @@
    {
     "campo": "origem",
     "titulo": "Origem",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 130
    },
    {
     "campo": "destino",
     "titulo": "Destino",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 130
    },
    {
     "campo": "pavimentacao",
     "titulo": "Situação",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 150
    },
    {
     "campo": "pct_pav",
@@ -58,7 +61,8 @@
    {
     "campo": "cidades_trajeto",
     "titulo": "Trajeto",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 340
    }
   ]
  },

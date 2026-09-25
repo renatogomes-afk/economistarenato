@@ -19,12 +19,14 @@
    {
     "campo": "setor",
     "titulo": "Setor (CNAE)",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 280
    },
    {
     "campo": "modalidade",
     "titulo": "Modalidade",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 210
    },
    {
     "campo": "v2026",

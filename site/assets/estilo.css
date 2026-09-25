@@ -376,7 +376,7 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 .tabela-busca:focus{outline:none;border-color:var(--tinta)}
 .contagem{font-family:var(--sans);font-size:11.5px;color:var(--cinza);white-space:nowrap}
 .tabela-baixar{display:flex;gap:7px;margin-left:auto}
-.tabela-rolagem{overflow-x:auto;border:1px solid var(--linha);max-height:70vh;overflow-y:auto}
+.tabela-rolagem{overflow-x:auto;overflow-y:auto;border:1px solid var(--linha);max-height:70vh;overscroll-behavior-x:contain}
 .tabela-carregando{font-family:var(--sans);font-size:13px;color:var(--cinza);padding:26px}
 .tabela{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:13px}
 .tabela th{
@@ -385,9 +385,10 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
   border-bottom:2px solid var(--tinta);cursor:pointer;white-space:nowrap;user-select:none;
 }
 .tabela th:hover{color:var(--azul)}
-.tabela th.num,.tabela td.num{text-align:right;font-variant-numeric:tabular-nums}
+.tabela th.num,.tabela td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .tabela .seta{color:var(--azul)}
-.tabela td{padding:10px 12px;border-bottom:1px solid var(--linha);color:var(--tinta-2);vertical-align:top}
+.tabela td{padding:10px 12px;border-bottom:1px solid var(--linha);color:var(--tinta-2);vertical-align:top;line-height:1.4}
+.tabela td:first-child{color:var(--tinta);font-weight:500}
 .tabela tbody tr:hover td{background:var(--papel-2)}
 
 .caixa-leitura{border-left:3px solid var(--azul);background:var(--papel-2);padding:20px 22px;margin:30px 0}
@@ -428,3 +429,5 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
   font-family:var(--display);font-weight:400;font-synthesis-weight:none;
   font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.08;letter-spacing:-.018em;
 }
+
+.tabela-dica{font-family:var(--sans);font-size:11.5px;color:var(--cinza);margin-top:9px}

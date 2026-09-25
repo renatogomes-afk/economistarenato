@@ -28,7 +28,8 @@
    {
     "campo": "municipio",
     "titulo": "Município",
-    "tipo": "texto"
+    "tipo": "texto",
+    "min": 170
    },
    {
     "campo": "quadrante",

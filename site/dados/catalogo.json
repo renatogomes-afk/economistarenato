@@ -21,12 +21,14 @@
     {
      "campo": "setor",
      "titulo": "Setor (CNAE)",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 280
     },
     {
      "campo": "modalidade",
      "titulo": "Modalidade",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 210
     },
     {
      "campo": "v2026",
@@ -74,7 +76,8 @@
     {
      "campo": "municipio",
      "titulo": "Município",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 170
     },
     {
      "campo": "quadrante",
@@ -147,17 +150,20 @@
     {
      "campo": "origem",
      "titulo": "Origem",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 130
     },
     {
      "campo": "destino",
      "titulo": "Destino",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 130
     },
     {
      "campo": "pavimentacao",
      "titulo": "Situação",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 150
     },
     {
      "campo": "pct_pav",
@@ -172,7 +178,8 @@
     {
      "campo": "cidades_trajeto",
      "titulo": "Trajeto",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 340
     }
    ]
   },
@@ -206,7 +213,8 @@
     {
      "campo": "item",
      "titulo": "Item",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 230
     },
     {
      "campo": "grupo",
@@ -221,7 +229,8 @@
     {
      "campo": "base_legal",
      "titulo": "Base legal",
-     "tipo": "texto"
+     "tipo": "texto",
+     "min": 330
     }
    ]
   }
