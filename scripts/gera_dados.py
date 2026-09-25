@@ -368,7 +368,7 @@ CABECA = u"""<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
 <link rel="preload" href="{r}assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{r}assets/estilo.css?v=20260925">
+<link rel="stylesheet" href="{r}assets/estilo.css?v=20260925b">
 </head>
 <body>
 
@@ -476,7 +476,7 @@ def pagina_base(meta):
   </div>
 </article>
 
-<script src="{r}assets/tabela.js?v=20260925"></script>
+<script src="{r}assets/tabela.js?v=20260925b"></script>
 """
     html = (CABECA.format(titulo=meta["titulo"], resumo=meta["resumo"],
                           canonico=meta["slug"] + "/", r="../../") +

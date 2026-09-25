@@ -94,7 +94,8 @@
     estado.busca = e.target.value; pinta();
   });
 
-  fetch('../' + slug + '.json')
+  // 'no-cache' revalida sempre (304 quando nao mudou): base nova aparece na hora
+  fetch('../' + slug + '.json', { cache: 'no-cache' })
     .then(function (r) { return r.json(); })
     .then(function (j) {
       estado.dados = j.dados;
