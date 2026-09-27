@@ -464,8 +464,17 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 }
 .marca-simbolo{width:var(--sim);height:var(--sim);flex:none}
 .marca-nome{
+  /* Medidas tiradas do vetor original (rwg_marca_01.ai), em funcao do simbolo:
+       tinta de cada linha = 0,438 do simbolo  -> com cap-height 0,72 da Reckless,
+       corpo = 0,438 / 0,72 = 0,608 do simbolo
+       topo de uma linha ao topo da outra = 0,557 do simbolo
+       o deslocamento de 0,0065 alinha o CENTRO DA TINTA ao centro do simbolo,
+       e nao a caixa de linha, que tem sobra embaixo por causa da descendente. */
   font-family:var(--display);font-weight:400;font-synthesis-weight:none;
-  font-size:calc(var(--sim) * .54);line-height:.92;letter-spacing:-.018em;
+  font-size:calc(var(--sim) * .608);
+  line-height:calc(var(--sim) * .557);
+  margin-top:calc(var(--sim) * .0065);
+  letter-spacing:-.012em;
   color:var(--tinta);display:block;
 }
 .marca-nome span{display:block}
