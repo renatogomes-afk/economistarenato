@@ -448,17 +448,41 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 }
 
 /* ==========================================================================
-   LOCKUP DA PUBLICACAO — monograma + "Economista Renato" na letra da marca
+   LOCKUP DA PUBLICACAO — "Economista Renato Gomes"
+   Proporcoes medidas no vetor original do kit (rwg_marca_01.ai):
+     bloco de texto = mesma altura do simbolo
+     respiro entre simbolo e texto = 0,32 do lado do simbolo
+     area de nao-interferencia = metade do simbolo em volta (manual, pag. 7)
+   Tipografia do logotipo: Reckless Neue Regular, como manda o manual.
    ========================================================================== */
-.marca-lockup{display:inline-flex;align-items:center;gap:clamp(10px,1.4vw,18px);text-decoration:none}
-.marca-simbolo{width:clamp(36px,4.6vw,52px);height:auto;flex:none}
+.marca-lockup{
+  --sim:clamp(44px,5.2vw,62px);          /* lado do simbolo */
+  display:inline-flex;align-items:center;
+  gap:calc(var(--sim) * .32);
+  padding:calc(var(--sim) / 2);          /* area de nao-interferencia */
+  text-decoration:none;
+}
+.marca-simbolo{width:var(--sim);height:var(--sim);flex:none}
 .marca-nome{
   font-family:var(--display);font-weight:400;font-synthesis-weight:none;
-  font-size:clamp(1.9rem,4.4vw,3.1rem);line-height:1;letter-spacing:-.022em;color:var(--tinta);
-  white-space:nowrap;
+  font-size:calc(var(--sim) * .54);line-height:.92;letter-spacing:-.018em;
+  color:var(--tinta);display:block;
 }
-.marca-lockup.compacta .marca-simbolo{width:30px}
-.marca-lockup.compacta .marca-nome{font-size:clamp(1.25rem,3vw,1.6rem)}
-.rodape-marca .marca-lockup{margin-bottom:14px}
-.rodape-marca .marca-simbolo{width:28px}
-.rodape-marca .marca-nome{font-size:1.4rem}
+.marca-nome span{display:block}
+.marca-lockup.compacta{--sim:34px;padding:calc(var(--sim) / 2) 0}
+.rodape-marca .marca-lockup{--sim:30px;padding:0 0 12px}
+
+/* ==========================================================================
+   CAPA DE DUAS COLUNAS (estado inicial: uma peca + trilho)
+   ========================================================================== */
+.capa-dupla{grid-template-columns:minmax(0,1fr) 340px}
+.capa-dupla .manchete{grid-column:auto}
+
+/* cartoes que apresentam um produto recorrente, nao uma materia */
+.cartao.produto{border-top:3px solid var(--azul);padding-top:18px}
+.cartao.produto .tit{margin-top:2px}
+.cartao.produto .selo{border-color:var(--azul);color:var(--azul)}
+
+@media(max-width:1080px){
+  .capa-dupla{grid-template-columns:1fr}
+}

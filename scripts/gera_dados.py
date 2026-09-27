@@ -368,7 +368,7 @@ CABECA = u"""<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
 <link rel="preload" href="{r}assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{r}assets/estilo.css?v=20260927c">
+<link rel="stylesheet" href="{r}assets/estilo.css?v=20260927d">
 </head>
 <body>
 
@@ -382,7 +382,7 @@ CABECA = u"""<!DOCTYPE html>
 <path transform="matrix(1,0,0,-1,933.8877,641.1709)" d="M0 0H89.384L119.162-24.2H0Z"/>
 <path transform="matrix(1,0,0,-1,933.8877,611.3809)" d="M0 0H119.162L89.384-24.2H0Z"/>
 <path transform="matrix(1,0,0,-1,958.0898,486.6289)" d="M0 0V-89.384L-24.199-119.161V0Z"/>
-<path transform="matrix(1,0,0,-1,987.8809,486.6289)" d="M0 0-.001-119.161-24.2-89.384V0Z"/></g></svg><span class="marca-nome">Economista Renato</span></a>
+<path transform="matrix(1,0,0,-1,987.8809,486.6289)" d="M0 0-.001-119.161-24.2-89.384V0Z"/></g></svg><span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
     </div>
   </div>
   <nav class="secoes">
@@ -483,7 +483,7 @@ def pagina_base(meta):
   </div>
 </article>
 
-<script src="{r}assets/tabela.js?v=20260927c"></script>
+<script src="{r}assets/tabela.js?v=20260927d"></script>
 """
     html = (CABECA.format(titulo=meta["titulo"], resumo=meta["resumo"],
                           canonico=meta["slug"] + "/", r="../../") +
