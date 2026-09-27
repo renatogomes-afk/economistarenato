@@ -368,22 +368,22 @@ CABECA = u"""<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
 <link rel="preload" href="{r}assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{r}assets/estilo.css?v=20260925b">
+<link rel="stylesheet" href="{r}assets/estilo.css?v=20260927b">
 </head>
 <body>
 
 <header>
   <div class="env">
     <div class="cabecalho" style="padding:18px 0 14px">
-      <a href="{r}"><img class="marca" src="{r}assets/marca-wordmark.png" alt="Renato W. Gomes — Economista" style="width:min(240px,60vw)"></a>
+      <a class="marca-lockup compacta" href="{r}"><img class="marca-simbolo" src="{r}assets/monograma.png" alt=""><span class="marca-nome">Economista Renato</span></a>
     </div>
   </div>
   <nav class="secoes">
     <div class="env">
       <a href="{r}">Capa</a>
-      <a href="{r}artigo/estreia/">A coluna</a>
+      <a href="{r}artigo/estreia/">A Coluna</a>
+      <a href="{r}#boletins">Boletins</a>
       <a href="{r}dados/" class="ativo">Bases abertas</a>
-      <a href="{r}#pautas">Pautas</a>
       <a href="{r}sobre/">Sobre</a>
     </div>
   </nav>
@@ -476,7 +476,7 @@ def pagina_base(meta):
   </div>
 </article>
 
-<script src="{r}assets/tabela.js?v=20260925b"></script>
+<script src="{r}assets/tabela.js?v=20260927b"></script>
 """
     html = (CABECA.format(titulo=meta["titulo"], resumo=meta["resumo"],
                           canonico=meta["slug"] + "/", r="../../") +

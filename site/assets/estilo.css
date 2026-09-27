@@ -446,3 +446,19 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 @media(max-width:1080px){
   .capa-dupla{grid-template-columns:1fr}
 }
+
+/* ==========================================================================
+   LOCKUP DA PUBLICACAO — monograma + "Economista Renato" na letra da marca
+   ========================================================================== */
+.marca-lockup{display:inline-flex;align-items:center;gap:clamp(10px,1.4vw,18px);text-decoration:none}
+.marca-simbolo{width:clamp(36px,4.6vw,52px);height:auto;flex:none}
+.marca-nome{
+  font-family:var(--display);font-weight:400;font-synthesis-weight:none;
+  font-size:clamp(1.9rem,4.4vw,3.1rem);line-height:1;letter-spacing:-.022em;color:var(--tinta);
+  white-space:nowrap;
+}
+.marca-lockup.compacta .marca-simbolo{width:30px}
+.marca-lockup.compacta .marca-nome{font-size:clamp(1.25rem,3vw,1.6rem)}
+.rodape-marca .marca-lockup{margin-bottom:14px}
+.rodape-marca .marca-simbolo{width:28px}
+.rodape-marca .marca-nome{font-size:1.4rem}
