@@ -495,3 +495,7 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 @media(max-width:1080px){
   .capa-dupla{grid-template-columns:1fr}
 }
+
+/* credito de foto — sempre presente, sempre discreto */
+figcaption .credito{color:var(--cinza-claro);white-space:nowrap}
+figcaption .credito::before{content:"· "}
