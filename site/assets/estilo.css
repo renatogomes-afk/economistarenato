@@ -431,3 +431,18 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 }
 
 .tabela-dica{font-family:var(--sans);font-size:11.5px;color:var(--cinza);margin-top:9px}
+
+/* ==========================================================================
+   CAPA DE DUAS COLUNAS (estado inicial: uma peca + trilho)
+   ========================================================================== */
+.capa-dupla{grid-template-columns:minmax(0,1fr) 340px}
+.capa-dupla .manchete{grid-column:auto}
+
+/* cartoes que apresentam um produto recorrente, nao uma materia */
+.cartao.produto{border-top:3px solid var(--azul);padding-top:18px}
+.cartao.produto .tit{margin-top:2px}
+.cartao.produto .selo{border-color:var(--azul);color:var(--azul)}
+
+@media(max-width:1080px){
+  .capa-dupla{grid-template-columns:1fr}
+}

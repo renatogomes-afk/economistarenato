@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-09-25",
+ "atualizado_em": "2026-09-27",
  "bases": [
   {
    "titulo": "Renúncia fiscal de MS em 2026, por setor e modalidade",
@@ -16,7 +16,7 @@
    "leitura": "Este número não deve ser lido como 'dinheiro desviado' nem como 'dinheiro disponível para gastar'. A renúncia soma coisas muito diferentes: imunidade constitucional (como a exportação, que responde por boa parte do agro), política deliberadamente pró-consumidor (a cesta básica entra em 'modificação da base de cálculo') e benefício discricionário concedido caso a caso (o crédito presumido). A discussão pública útil é sobre a terceira categoria — e sobre a ausência de um relatório que mostre o que cada beneficiário entregou em troca.",
    "slug": "renuncia-fiscal-ms-2026",
    "linhas": 58,
-   "gerado_em": "2026-09-25",
+   "gerado_em": "2026-09-27",
    "colunas": [
     {
      "campo": "setor",
@@ -71,7 +71,7 @@
    "referencia": "População 2022 · PIB 2023 · Receita 2024",
    "slug": "municipios-ms",
    "linhas": 79,
-   "gerado_em": "2026-09-25",
+   "gerado_em": "2026-09-27",
    "colunas": [
     {
      "campo": "municipio",
@@ -135,7 +135,7 @@
    "referencia": "SRE-MS 2026 · OSM consultado em 2026",
    "slug": "rodovias-ms",
    "linhas": 160,
-   "gerado_em": "2026-09-25",
+   "gerado_em": "2026-09-27",
    "colunas": [
     {
      "campo": "rodovia",
@@ -208,7 +208,7 @@
    "leitura": "Dois pontos que costumam se perder no debate: 7% não é isenção — há estado que zerou a cesta — e itens básicos como açúcar e macarrão pagam a alíquota cheia de 17%, enquanto a carne bovina paga 4%.",
    "slug": "icms-gondola-ms",
    "linhas": 23,
-   "gerado_em": "2026-09-25",
+   "gerado_em": "2026-09-27",
    "colunas": [
     {
      "campo": "item",

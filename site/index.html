@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
 <link rel="preload" href="assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/estilo.css?v=20260925b">
+<link rel="stylesheet" href="assets/estilo.css?v=20260927">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
     <div class="tira">
       <div class="tira-data">Campo Grande, MS · <b id="data-hoje"></b></div>
       <div class="ticker"><div class="ticker-fita" id="fita"></div></div>
-      <a class="tira-cta" href="#assine">Receba as análises &rarr;</a>
+      <a class="tira-cta" href="#assine">Receba os boletins &rarr;</a>
     </div>
   </div>
 
@@ -47,10 +47,10 @@
   <nav class="secoes">
     <div class="env">
       <a href="/" class="ativo">Capa</a>
-      <a href="artigo/estreia/">A coluna</a>
+      <a href="artigo/estreia/">A Coluna</a>
+      <a href="#boletins">Boletins</a>
       <a href="dados/">Bases abertas</a>
       <a href="#dados">MS em números</a>
-      <a href="#pautas">Pautas</a>
       <a href="sobre/">Sobre</a>
       <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>
     </div>
@@ -59,11 +59,11 @@
 
 <main class="env">
 
-  <section class="capa">
+  <section class="capa capa-dupla">
 
     <article class="manchete">
       <a href="artigo/estreia/">
-        <span class="chapeu opiniao">Opinião · Carta de estreia</span>
+        <span class="chapeu opiniao">A Coluna · Carta de estreia</span>
         <h1 class="tit tit-xl">O MS enriqueceu. E a sua vida?</h1>
         <p class="olho olho-xl">Este espaço nasce para responder a essa pergunta com número na mesa, e não com adjetivo. Toda semana, um pedaço do orçamento de Mato Grosso do Sul ou de Campo Grande explicado em linguagem de gente — com o documento oficial sempre no rodapé.</p>
         <div class="assin"><span>Por <b>Renato W. Gomes</b></span><i class="ponto"></i><span>Economista · CORECON-MS 1297</span></div>
@@ -74,58 +74,45 @@
       </figure>
     </article>
 
-    <div id="pautas">
-      <div class="bloco pauta">
-        <span class="chapeu">Contas públicas</span>
-        <h2 class="tit tit-m">Como ler o orçamento de Mato Grosso do Sul</h2>
-        <p class="olho">De onde vem cada real que o estado arrecada e para onde ele vai, linha a linha.</p>
-        <span class="selo">Em preparação</span>
-      </div>
-      <div class="bloco pauta">
-        <span class="chapeu">Contas públicas</span>
-        <h2 class="tit tit-m">Renúncia fiscal: quanto o estado deixa de arrecadar, e de quem</h2>
-        <p class="olho">A abertura por setor, conforme o Demonstrativo 7 da LDO.</p>
-        <span class="selo">Em preparação</span>
-      </div>
-      <div class="bloco pauta">
-        <span class="chapeu">A Capital</span>
-        <h2 class="tit tit-m">O orçamento de Campo Grande, linha a linha</h2>
-        <span class="selo">Em preparação</span>
-      </div>
-    </div>
-
-    <div>
-      <article class="bloco">
-        <a href="dados/">
-          <span class="chapeu dado">Bases abertas · No ar</span>
-          <h2 class="tit tit-m">Os números de MS, abertos para qualquer um conferir</h2>
-          <p class="olho">Renúncia fiscal linha a linha, os 79 municípios, a malha rodoviária e o ICMS de cada item da cesta — com fonte, metodologia e download.</p>
-        </a>
-      </article>
-      <div class="bloco pauta">
-        <span class="chapeu">O Estado</span>
-        <h2 class="tit tit-m">A malha rodoviária estadual, quilômetro a quilômetro</h2>
-        <p class="olho">O que está pavimentado, o que está em obra e o que existe só no mapa.</p>
-        <span class="selo">Em preparação</span>
-      </div>
-      <div class="bloco pauta">
-        <span class="chapeu">Economia &amp; trabalho</span>
-        <h2 class="tit tit-m">O que o crescimento do PIB fez com o salário</h2>
-        <span class="selo">Em preparação</span>
-      </div>
-    </div>
-
     <aside class="trilho">
-      <div class="trilho-tit">O que vem aí</div>
-      <p class="olho" style="margin-top:0">A publicação começa agora e passa a ter uma análise por semana. As pautas ao lado já estão em apuração — cada uma sai quando os documentos oficiais estiverem conferidos, não antes.</p>
-      <p class="olho">Quem assina recebe primeiro, por e-mail.</p>
-      <a class="botao botao-cheio" href="#assine" style="display:inline-block;margin-top:14px">Quero receber</a>
-
-      <div class="trilho-tit" style="margin-top:30px">O número</div>
+      <div class="trilho-tit">O número</div>
       <div class="trilho-num">R$ 11,95 bi</div>
       <p class="olho" style="margin-top:6px">é a renúncia fiscal prevista por Mato Grosso do Sul para 2026 — o que o estado decide não arrecadar.</p>
-      <p class="fonte-mini">Fonte: LDO 2026, Demonstrativo 7 — <a href="dados/renuncia-fiscal-ms-2026/" style="color:var(--azul);border-bottom:1px solid rgba(0,48,151,.3)">confira linha a linha</a>.</p>
+      <p class="fonte-mini">Fonte: LDO 2026, Demonstrativo 7 — <a href="dados/renuncia-fiscal-ms-2026/">confira linha a linha</a>.</p>
+
+      <div class="trilho-tit" style="margin-top:30px">Bases abertas</div>
+      <p class="olho" style="margin-top:0">Quatro bases públicas com fonte, metodologia e download: a renúncia fiscal linha a linha, os 79 municípios, a malha rodoviária e o ICMS de cada item da cesta.</p>
+      <a class="botao botao-cheio" href="dados/" style="display:inline-block;margin-top:12px">Ver os dados</a>
     </aside>
+  </section>
+
+  <!-- ====================== OS BOLETINS ====================== -->
+  <div class="faixa" id="boletins">
+    <h2>Os boletins</h2>
+    <span class="sub">O que vai sair aqui, e quando</span>
+  </div>
+
+  <section class="grade-3">
+    <article class="cartao produto">
+      <span class="chapeu">Boletim RWG · Diário Oficial</span>
+      <h3 class="tit tit-g">O que saiu no Diário Oficial da semana</h3>
+      <p class="olho">Contrato, aditivo, dispensa de licitação, nomeação e decreto — do governo do estado, da prefeitura de Campo Grande, do Tribunal de Contas e da Assembleia. O que acontece com o dinheiro público antes de virar notícia.</p>
+      <span class="selo">Semanal · às sextas</span>
+    </article>
+
+    <article class="cartao produto">
+      <span class="chapeu dado">Boletim RWG · Economia de MS</span>
+      <h3 class="tit tit-g">O termômetro da economia do estado</h3>
+      <p class="olho">Emprego, arrecadação, preços e comércio exterior, com quadro fixo de Campo Grande e uma região do interior em destaque a cada edição — as quatro regiões, três vezes por ano cada uma.</p>
+      <span class="selo">Mensal</span>
+    </article>
+
+    <article class="cartao produto">
+      <span class="chapeu opiniao">A Coluna</span>
+      <h3 class="tit tit-g">Análise assinada, uma por semana</h3>
+      <p class="olho">Um número do orçamento explicado em linguagem de gente, com a fonte primária no rodapé e, quando couber, o desenho institucional que resolveria o problema. Opinião fica aqui — e só aqui.</p>
+      <span class="selo">Semanal</span>
+    </article>
   </section>
 
   <!-- ====================== PAINEL ====================== -->
@@ -164,8 +151,8 @@
   <!-- ====================== ASSINE ====================== -->
   <section class="assine" id="assine">
     <div>
-      <h3>Uma análise por semana, no seu e-mail.</h3>
-      <p>Um número do orçamento de MS ou de Campo Grande, explicado em linguagem de gente — com a fonte oficial sempre no rodapé.</p>
+      <h3>Os boletins no seu e-mail.</h3>
+      <p>O Diário Oficial da semana às sextas e o termômetro da economia todo mês — com a fonte oficial sempre no rodapé.</p>
     </div>
     <div>
       <form class="form-linha" name="assinantes" method="POST" data-netlify="true" action="/obrigado/">
@@ -173,7 +160,7 @@
         <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
         <button class="botao botao-cheio" type="submit">Quero receber</button>
       </form>
-      <p class="form-nota">Sem custo e sem spam. Seu e-mail é usado só para enviar as análises e você sai quando quiser.</p>
+      <p class="form-nota">Sem custo e sem spam. Seu e-mail é usado só para enviar os boletins e você sai quando quiser.</p>
     </div>
   </section>
 
@@ -187,23 +174,19 @@
         <p class="rodape-texto">Análise independente sobre a economia e as contas públicas de Mato Grosso do Sul. Toda afirmação numérica publicada aqui traz a fonte primária: orçamento, Diário Oficial, portais de transparência, IBGE e órgãos de controle.</p>
       </div>
       <div>
-        <h4>Editorias</h4>
+        <h4>Boletins</h4>
         <ul>
-          <li><a href="#pautas">O Estado</a></li>
-          <li><a href="#pautas">A Capital</a></li>
-          <li><a href="#pautas">Contas Públicas</a></li>
-          <li><a href="#pautas">Economia &amp; Trabalho</a></li>
-          <li><a href="dados/">Bases abertas</a></li>
+          <li><a href="#boletins">Diário Oficial</a></li>
+          <li><a href="#boletins">Economia de MS</a></li>
+          <li><a href="artigo/estreia/">A Coluna</a></li>
         </ul>
       </div>
       <div>
-        <h4>Seções</h4>
+        <h4>Dados</h4>
         <ul>
-          <li><a href="artigo/estreia/">A coluna</a></li>
-          <li><a href="#dados">MS em números</a></li>
           <li><a href="dados/">Bases abertas</a></li>
-          <li><a href="#pautas">Pautas em preparação</a></li>
-          <li><a href="sobre/">Como eu apuro os números</a></li>
+          <li><a href="#dados">MS em números</a></li>
+          <li><a href="sobre/#metodo">Como eu apuro os números</a></li>
         </ul>
       </div>
       <div>
