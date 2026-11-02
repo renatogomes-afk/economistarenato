@@ -1,0 +1,71 @@
+@font-face{font-family:'Anton';src:url(fontes/anton.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Plex';src:url(fontes/plex.woff2) format('woff2');font-weight:100 700;font-display:swap}
+@font-face{font-family:'SS4';src:url(fontes/serif.woff2) format('woff2');font-weight:200 900;font-display:swap}
+:root{--papel:#F3EEE2;--folha:#FBF8F1;--g:#17191C;--g8:#454749;--g6:#747577;--g3:#B9BABB;--r:#C8361E;--b:#94603A;--b8:#A98061}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--papel)}
+body{background:var(--papel);color:var(--g);font-family:'SS4',Georgia,serif;font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.env{max-width:1120px;margin:0 auto;padding:0 20px}
+.aviso{background:var(--g);color:#D1D1D2;font-family:'Plex',sans-serif;font-size:13px;letter-spacing:1px;text-align:center;padding:8px 16px}
+header.cab{padding:28px 0 0;text-align:center}
+.marca{display:inline-flex;align-items:center;gap:18px;text-decoration:none}
+.marca img{width:72px;height:72px}
+.logo{font-family:'Anton',Impact,sans-serif;font-size:56px;line-height:1;letter-spacing:1px;text-align:left}
+.logo .vaz{color:transparent;-webkit-text-stroke:1.4px var(--g)}
+.tag{font-family:'Plex',sans-serif;font-weight:500;font-size:13px;letter-spacing:4px;text-transform:uppercase;margin-top:12px}
+.barra{display:flex;justify-content:space-between;gap:12px;border-top:3px solid var(--g);border-bottom:1px solid var(--g);margin-top:22px;padding:7px 0;font-family:'Plex',sans-serif;font-weight:500;font-size:13px;letter-spacing:2px;text-transform:uppercase}
+.barra nav a{text-decoration:none;margin-left:18px}
+.rub{font-family:'Plex',sans-serif;font-weight:600;font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--r)}
+.lat{font-family:'SS4',serif;font-style:italic;font-weight:400;letter-spacing:0;text-transform:none;color:var(--g6);margin-left:8px;font-size:15px}
+.pil{color:var(--r);font-weight:700}
+.capa{display:grid;grid-template-columns:2fr 1fr;gap:48px;padding:40px 0;border-bottom:1px solid var(--g)}
+.capa h1{font-size:54px;line-height:1.05;font-weight:600;margin:12px 0 14px}
+.capa h1 a{text-decoration:none}
+.fina{font-style:italic;font-size:22px;line-height:1.4;color:var(--g8)}
+.quaestio{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:26px;border-top:1px solid var(--g3);padding-top:18px;font-size:18px}
+.quaestio p+p{margin-top:8px}
+.quaestio .rub{margin:0 0 6px}
+.quaestio .rub~.rub{margin-top:16px}
+.cap::first-letter{float:left;font-size:4.1em;line-height:.8;color:var(--r);font-weight:600;margin:6px 10px 0 0}
+aside.lado{border-left:1px solid var(--g3);padding-left:28px;display:flex;flex-direction:column;gap:28px}
+aside.lado h2{font-size:26px;line-height:1.15;font-weight:600;margin:8px 0}
+aside.lado h2 a{text-decoration:none}
+.num{font-family:'Plex',sans-serif;font-weight:600;font-size:56px;line-height:1;letter-spacing:-1px}
+.num.r{color:var(--r)}
+.lbl{font-family:'Plex',sans-serif;font-size:13px;color:var(--g8)}
+.faixa{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;padding:36px 0;border-bottom:1px solid var(--g)}
+.faixa h3{font-size:22px;line-height:1.2;font-weight:600;margin:8px 0}.faixa h3 a{text-decoration:none}
+.faixa p{font-size:17px;color:#2E3033}
+.assine{background:var(--g);color:var(--papel);padding:44px 0;margin-top:40px}
+.assine .env{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.assine h2{font-size:34px;font-weight:600;line-height:1.15}
+.assine form{display:flex;gap:10px}
+.assine input{flex:1;font:16px 'Plex',sans-serif;padding:14px;border:1px solid #5D5E60;background:#2E3033;color:var(--papel)}
+.assine button{font:600 14px 'Plex',sans-serif;letter-spacing:2px;text-transform:uppercase;padding:14px 20px;background:var(--b);color:var(--papel);border:0}
+footer{padding:36px 0 60px;font-family:'Plex',sans-serif;font-size:14px;color:var(--g8)}
+footer .env{display:grid;grid-template-columns:2fr 1fr;gap:40px}
+footer h4{font-family:'Plex';font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--r);margin-bottom:8px}
+/* artigo */
+article.texto{max-width:700px;margin:0 auto;padding:44px 0 20px}
+article.texto h1{font-size:52px;line-height:1.05;font-weight:600;margin:12px 0 16px}
+article.texto .fina{margin-bottom:22px}
+.meta{font-family:'Plex',sans-serif;font-size:13px;letter-spacing:1px;color:var(--g6);border-top:1px solid var(--g3);border-bottom:1px solid var(--g3);padding:8px 0;margin-bottom:30px}
+article.texto h2{font-family:'Plex',sans-serif;font-weight:600;font-size:15px;letter-spacing:4px;text-transform:uppercase;color:var(--r);margin:44px 0 14px}
+article.texto h2:before{content:'§ '}
+article.texto p{margin-bottom:18px}
+article.texto>p.abre::first-letter{float:left;font-size:4.6em;line-height:.8;color:var(--r);font-weight:600;margin:8px 12px 0 0}
+article.texto blockquote{border-left:3px solid var(--b);padding-left:18px;font-style:italic;color:var(--g8);margin:0 0 18px}
+article.texto hr{border:0;text-align:center;margin:30px 0}
+article.texto hr:after{content:'¶';color:var(--r);font-size:22px}
+sup.ref{font-family:'Plex';font-size:11px;color:var(--g6)}
+@media (max-width:820px){
+ .capa,.faixa,.assine .env,footer .env{grid-template-columns:1fr}
+ aside.lado{border-left:0;padding-left:0;border-top:1px solid var(--g3);padding-top:24px}
+ .quaestio{grid-template-columns:1fr}
+ .capa h1,article.texto h1{font-size:36px}
+ .logo{font-size:40px}.marca img{width:54px;height:54px}
+ .barra{flex-direction:column;align-items:center}.barra nav a{margin:0 8px}
+ .assine form{flex-direction:column}
+ body{font-size:18px}
+}
