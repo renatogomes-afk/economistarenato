@@ -137,7 +137,7 @@ def rodape(rel):
       </div>
     </div>
     <div class="rodape-fim">
-      <span>© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297 · Campo Grande, MS</span>
+      <span>© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297</span>
       <span>Conteúdo de análise e opinião pessoal. Correções são publicadas no próprio texto, com data.</span>
     </div>
   </div>
@@ -357,7 +357,7 @@ def pagina_analises():
   <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
     <span class="chapeu dado">Análises</span>
     <h1>Contas públicas com fonte</h1>
-    <p class="olho">Orçamento, arrecadação, renúncia fiscal, dívida e investimento — lidos no documento oficial (LOA, LDO, Diário Oficial, SICONFI/RREO, IBGE) e explicados em linguagem de gente.</p>
+    <p class="olho">Orçamento, arrecadação, renúncia fiscal, dívida e investimento no Brasil — da União aos estados e municípios — e comparações internacionais, lidos no documento oficial (LOA, LDO, Diário Oficial, SICONFI/RREO, Tesouro Nacional, IBGE, FMI, OCDE) e explicados em linguagem de gente.</p>
   </div>
   <div class="corpo" style="max-width:820px;margin:0 auto">
     <p><b>Em preparação.</b> As primeiras análises entram aqui em breve. Cada texto vai trazer, no rodapé, o documento de origem de cada número — e, quando couber, a planilha usada para quem quiser conferir.</p>
@@ -440,7 +440,7 @@ def pagina_sobre():
   </figure>
   <div class="corpo">
     <h2>Trajetória</h2>
-    <p>Sou economista há quinze anos, consultor independente com especialização em Finanças pela Fundação Getúlio Vargas. Já atendi mais de trezentas empresas em planejamento contábil, tributário e financeiro, e trabalhei no mercado financeiro no Rio de Janeiro e em Brasília. Sou sócio-fundador da WGSA Gestão Empresarial e moro em Campo Grande.</p>
+    <p>Sou economista há quinze anos, consultor independente com especialização em Finanças pela Fundação Getúlio Vargas. Já atendi mais de trezentas empresas em planejamento contábil, tributário e financeiro, e trabalhei no mercado financeiro no Rio de Janeiro e em Brasília. Sou sócio-fundador da WGSA Gestão Empresarial.</p>
     <p>Desde 2020 publico análises econômicas no Instagram, como <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>. Este site é a extensão desse trabalho, com espaço para o que não cabe num vídeo curto: o documento, a tabela e a fonte.</p>
 
     <h2>Economia pelas fontes</h2>
