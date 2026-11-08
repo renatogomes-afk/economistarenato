@@ -13,7 +13,7 @@ SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108b"
+CSS_V = "20261108c"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -160,7 +160,7 @@ def cartao_edicao(ed, rel):
         <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['data'])}</span>
         <h3 class="tit tit-g">{e(ed['titulo'])}</h3>
         <p class="olho">{e(ed['chamada'])}</p>
-        <span class="selo">{e(ed['titulo_original'])}</span>
+        <span class="selo">Leitura: {minutos(ed)} min</span>
       </a>
     </article>"""
 
@@ -313,6 +313,17 @@ def render_blocos(blocos):
     return "\n".join(out)
 
 
+def minutos(item):
+    """Tempo estimado de leitura: palavras do corpo (+ 'E hoje?' e glossário), 200 palavras/min, arredondado para cima."""
+    import math
+    if "blocos" in item:
+        n = palavras(item["blocos"]) + len(item.get("hoje", "").split())
+        n += sum(len(t.split()) + len(d.split()) for t, d in item.get("glossario", []))
+    else:
+        n = sum(len(t.split()) + len(x.split()) for t, x in item.get("pontos", [])) + len(item.get("hoje", "").split())
+    return max(1, math.ceil(n / 200))
+
+
 def palavras(blocos):
     n = 0
     for b in blocos:
@@ -349,7 +360,7 @@ def pagina_edicao(ed, anterior, proxima):
       <div class="exp">{e(hoje)}</div>
     </div>
 """
-        return pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, f" · {mins} min de leitura")
+        return pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, "")
     pontos = "\n".join(f"      <li><b>{e(t)}.</b> {e(x)}</li>" for t, x in ed["pontos"])
     corpo_ed = f"""  <div class="corpo">
     <h2>O que diz o documento</h2>
@@ -377,6 +388,7 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
   <div class="artigo-topo">
     <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</span>
     <h1>{e(ed['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(ed)} min</p>
     <p class="olho">{e(ed['chamada'])}</p>
     <div class="barra-autor">
       <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
@@ -420,7 +432,7 @@ def cartao_nota(n, rel):
         <span class="chapeu dado">Então × Agora</span>
         <h3 class="tit tit-g">{e(n['titulo'])}</h3>
         <p class="olho">{e(n['chamada'])}</p>
-        <span class="selo">{e(n['entao']['valor'])} → {e(n['agora']['valor'])}</span>
+        <span class="selo">Leitura: {minutos(n)} min</span>
       </a>
     </article>"""
 
@@ -453,10 +465,11 @@ def pagina_nota(n):
   <div class="artigo-topo">
     <span class="chapeu dado">Notas · Então × Agora</span>
     <h1>{e(n['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(n)} min</p>
     <p class="olho">{e(n['chamada'])}</p>
     <div class="barra-autor">
       <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
-      <div class="quem"><b>Renato W. Gomes</b><span>Economista · CORECON-MS 1297 · {max(2, round(palavras(n['blocos']) / 200))} min de leitura</span></div>
+      <div class="quem"><b>Renato W. Gomes</b><span>Economista · CORECON-MS 1297</span></div>
     </div>
   </div>
   <div class="corpo">

@@ -526,3 +526,5 @@ figcaption .credito::before{content:"· "}
 .entao-agora p{margin:0 0 6px;font-size:.98rem}
 .entao-agora small{font-family:var(--sans);font-size:11px;color:var(--cinza)}
 @media (max-width:640px){.entao-agora{grid-template-columns:1fr}.glossario dl{grid-template-columns:1fr}.glossario dd{margin-bottom:8px}}
+.tempo-leitura{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--azul);margin:6px 0 12px;display:inline-block;border:1px solid var(--azul);padding:4px 10px}
+.tempo-leitura::before{content:"\23F1\FE0E  "}
