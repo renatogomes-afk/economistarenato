@@ -119,6 +119,33 @@ e download.
 
 ---
 
+### Arquivo: modelo editorial e profundidade mínima (aprovado em 08/11/2026)
+
+**Modelo híbrido** (obrigatório a partir das edições com vários artigos, como a American Economic Review):
+- **Página da edição = hub:** visão geral da edição + lista de todos os artigos (campo `artigos` em
+  `edicoes.json`), cada um com link para o original.
+- **Artigo relevante ganha página comentada própria** em `/arquivo/<edicao>/<artigo>/` (campo
+  `ensaio_slug` no artigo). Resenhas, notas e "new books" ficam só no hub.
+- Edições de monografia única (1886–1887) continuam como página única.
+
+**Profundidade mínima (mínimos flexíveis, não rígidos):**
+| Formato | Tamanho |
+|---|---|
+| Página de artigo comentado | ≥ ~900 palavras (≈ 5 min), modelo padrão |
+| Ensaio principal (`"ensaio": true`, aparece em /ensaios/) | 1.500–2.000 palavras |
+| Hub da edição | visão geral ≥ 200 palavras + 60–120 palavras de parágrafo real por artigo listado; itens menores (resenhas, notas, new books) podem ficar agrupados, uma linha cada |
+| Nota "Então × Agora" | 400–600 palavras |
+
+- **Nunca encher linguiça:** artigo que não sustenta ~900 palavras de análise real fica só no hub.
+- Padrão de redação de toda página: abrir com cena ou fato concreto; citação traduzida com o original
+  entre parênteses; um número-chave por parágrafo (o resto em caixa); jargão explicado na primeira
+  aparição ou no glossário; subtítulos em forma de pergunta; 1–2 parágrafos "Na minha leitura"
+  separados; tempo de leitura calculado automaticamente (200 palavras/min).
+- Todo fato, número, nome, data e citação conferido no documento original; na dúvida, fica de fora.
+  O registro da conferência vai para `scripts/arquivo/verificacao.json` (não publicado).
+
+---
+
 ## 7. Cuidados técnicos aprendidos
 
 - **Cache:** `/assets/*.css` e `*.js` usam `must-revalidate` — o nome do arquivo é fixo, e

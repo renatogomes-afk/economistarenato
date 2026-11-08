@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
 <link rel="preload" href="../assets/fontes/reckless-neue-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/estilo.css?v=20261108d">
+<link rel="stylesheet" href="../assets/estilo.css?v=20261108e">
 </head>
 <body>
 <header>
@@ -40,18 +40,27 @@
       </div>
     </div>
   </div>
-  <nav class="secoes">
-    <div class="env">
-      <a href="../">Início</a>
-      <a href="../arquivo/">Arquivo</a>
-      <a href="../notas/">Notas</a>
-      <a href="../analises/">Análises</a>
-      <a href="../servicos/">Serviços</a>
-      <a href="../sobre/" class="ativo">Sobre</a>
-      <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>
+  <nav class="secoes" aria-label="Menu principal">
+    <div class="env nav-wrap">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
+      <ul class="menu" id="menu-principal">
+        <li><a href="../">Início</a></li>
+        <li class="tem-sub"><a href="../arquivo/">Arquivo</a><button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as regiões do Arquivo">&#9662;</button><ul class="sub"><li><a href="../arquivo/">Todas as coleções</a></li><li><a href="../arquivo/eua/">Estados Unidos</a></li><li><a href="../arquivo/china/">China</a></li><li><a href="../arquivo/europa/">Europa</a></li></ul></li>
+        <li><a href="../ensaios/">Ensaios</a></li>
+        <li><a href="../notas/">Notas</a></li>
+        <li><a href="../analises/">Análises</a></li>
+        <li><a href="../servicos/">Serviços</a></li>
+        <li><a href="../sobre/" class="ativo">Sobre</a></li>
+        <li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>
+        <li class="menu-ig"><a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></a></li>
+      </ul>
     </div>
   </nav>
 </header>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click',function(){var m=document.getElementById('menu-principal');var o=m.classList.toggle('aberto');this.setAttribute('aria-expanded',o)});
+document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener('click',function(){var li=b.parentNode;var o=li.classList.toggle('sub-aberto');b.setAttribute('aria-expanded',o)})});
+</script>
 
 <article class="artigo">
   <div class="artigo-topo">
@@ -116,8 +125,12 @@
         <h4>Conteúdo</h4>
         <ul>
           <li><a href="../arquivo/">Arquivo · Clássicos comentados</a></li>
+          <li><a href="../arquivo/eua/">— Estados Unidos</a></li>
+          <li><a href="../arquivo/europa/">— Europa</a></li>
+          <li><a href="../arquivo/china/">— China</a></li>
+          <li><a href="../ensaios/">Ensaios</a></li>
+          <li><a href="../notas/">Notas · Então × Agora</a></li>
           <li><a href="../analises/">Análises</a></li>
-          <li><a href="../#assine">A carta do economista</a></li>
         </ul>
       </div>
       <div>
@@ -126,6 +139,7 @@
           <li><a href="../servicos/">Consultoria</a></li>
           <li><a href="../servicos/#palestras">Palestras e cursos</a></li>
           <li><a href="../servicos/#contato">Contato</a></li>
+          <li><a href="#assine">Newsletter</a></li>
         </ul>
       </div>
       <div>
@@ -141,6 +155,7 @@
       <span>© 2026 Renato W. Gomes · Economista, CORECON-MS 1297</span>
       <span>Conteúdo de análise e opinião pessoal. Correções são publicadas no próprio texto, com data.</span>
     </div>
+    <p class="rodape-fontes">Documentos históricos do Arquivo: domínio público, via JSTOR Early Journal Content e Internet Archive, sempre com a fonte indicada. Este site não tem afiliação com as instituições que publicaram os periódicos originais.</p>
   </div>
 </footer>
 </body>

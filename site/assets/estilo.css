@@ -537,3 +537,37 @@ figcaption .credito::before{content:"· "}
 .em-preparacao{max-width:820px;margin:10px auto 0;background:#f5f3ef;border-top:3px solid var(--azul);padding:26px 28px}
 .em-preparacao h2{font-family:var(--serif);font-size:1.5rem;margin:12px 0 8px}
 @media (max-width:640px){.subnav a{padding:6px 10px}.em-preparacao{padding:20px}}
+/* Menu principal com submenu (2026-11-08) */
+.secoes .nav-wrap{height:auto;min-height:44px;overflow:visible;gap:0}
+.menu{list-style:none;display:flex;align-items:center;gap:24px;margin:0;padding:0;width:100%}
+.menu>li{position:relative;display:flex;align-items:center}
+.menu .tem-sub>a{padding-right:2px}
+.sub-toggle{background:none;border:0;cursor:pointer;color:var(--tinta-2);font-size:11px;padding:4px 2px;line-height:1}
+.menu .sub{list-style:none;margin:0;padding:8px 0;position:absolute;top:100%;left:-12px;min-width:200px;background:var(--papel);border:1px solid var(--linha);box-shadow:0 8px 24px rgba(0,0,0,.08);display:none;z-index:60}
+.menu .sub a{display:block;padding:8px 16px;border:0}
+.menu .sub a:hover{background:#f5f3ef}
+.menu .tem-sub:hover .sub,.menu .tem-sub:focus-within .sub,.menu .tem-sub.sub-aberto .sub{display:block}
+.menu-news{margin-left:auto}
+.secoes a.botao-news{background:var(--azul);color:#fff;padding:6px 14px;border:0;font-weight:600}
+.secoes a.botao-news:hover{background:var(--azul-escuro);color:#fff}
+.secoes a.ig{display:flex;padding:4px;border:0;color:var(--tinta-2)}
+.secoes a.ig:hover{color:var(--azul)}
+.nav-toggle{display:none;background:none;border:0;font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.04em;padding:10px 0;cursor:pointer;color:var(--tinta)}
+.rodape-fontes{font-family:var(--sans);font-size:11px;color:var(--cinza);margin-top:14px;line-height:1.5}
+.artigos-edicao{border-top:1px solid #ddd;margin:28px 0;padding-top:14px}
+.artigos-edicao h3{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px}
+@media (max-width:860px){
+  .secoes .nav-wrap{flex-direction:column;align-items:stretch}
+  .nav-toggle{display:block;text-align:left}
+  .menu{display:none;flex-direction:column;align-items:stretch;gap:0;padding:4px 0 12px}
+  .menu.aberto{display:flex}
+  .menu>li{flex-wrap:wrap;border-top:1px solid var(--linha)}
+  .menu>li>a{padding:12px 0;flex:1}
+  .sub-toggle{padding:12px 10px;font-size:14px}
+  .menu .tem-sub:hover .sub{display:none}
+  .menu .tem-sub.sub-aberto .sub{display:block}
+  .menu .sub{position:static;box-shadow:none;border:0;border-left:3px solid var(--azul);margin:0 0 8px 6px;width:100%;min-width:0;padding:0}
+  .menu-news{margin-left:0}
+  .secoes a.botao-news{display:inline-block;margin:10px 0}
+  .menu-ig{border-top:0 !important}
+}

@@ -12,12 +12,12 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
+COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108d"
+CSS_V = "20261108e"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("notas/", "Notas"), ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
 e = html.escape
 
 
@@ -51,9 +51,27 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 """
 
 
+IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
+
+# Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
+MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
+        ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
+
+
 def topo(ativo, rel, completo=True):
-    nav = "\n".join(f'      <a href="{rel}{h}"{" class=\"ativo\"" if h == ativo else ""}>{n}</a>' for h, n in MENU)
-    nav += '\n      <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>'
+    itens = []
+    for h, n in MENU:
+        cls = ' class="ativo"' if h == ativo else ""
+        if h == "arquivo/":
+            subs = "".join(f'<li><a href="{rel}arquivo/{c["id"]}/">{e(c["regiao"])}</a></li>' for c in COLECOES)
+            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
+                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as regiões do Arquivo">&#9662;</button>'
+                         f'<ul class="sub"><li><a href="{rel}arquivo/">Todas as coleções</a></li>{subs}</ul></li>')
+        else:
+            itens.append(f'<li><a href="{rel}{h}"{cls}>{n}</a></li>')
+    itens.append(f'<li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>')
+    itens.append(f'<li class="menu-ig"><a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato">{IG_SVG}</a></li>')
+    nav = "\n        ".join(itens)
     if completo:
         cab = f"""  <div class="env">
     <div class="cabecalho">
@@ -76,12 +94,19 @@ def topo(ativo, rel, completo=True):
   </div>"""
     return f"""<header>
 {cab}
-  <nav class="secoes">
-    <div class="env">
-{nav}
+  <nav class="secoes" aria-label="Menu principal">
+    <div class="env nav-wrap">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
+      <ul class="menu" id="menu-principal">
+        {nav}
+      </ul>
     </div>
   </nav>
 </header>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click',function(){{var m=document.getElementById('menu-principal');var o=m.classList.toggle('aberto');this.setAttribute('aria-expanded',o)}});
+document.querySelectorAll('.sub-toggle').forEach(function(b){{b.addEventListener('click',function(){{var li=b.parentNode;var o=li.classList.toggle('sub-aberto');b.setAttribute('aria-expanded',o)}})}});
+</script>
 """
 
 
@@ -115,8 +140,12 @@ def rodape(rel):
         <h4>Conteúdo</h4>
         <ul>
           <li><a href="{rel}arquivo/">Arquivo · Clássicos comentados</a></li>
+          <li><a href="{rel}arquivo/eua/">— Estados Unidos</a></li>
+          <li><a href="{rel}arquivo/europa/">— Europa</a></li>
+          <li><a href="{rel}arquivo/china/">— China</a></li>
+          <li><a href="{rel}ensaios/">Ensaios</a></li>
+          <li><a href="{rel}notas/">Notas · Então × Agora</a></li>
           <li><a href="{rel}analises/">Análises</a></li>
-          <li><a href="{rel}#assine">A carta do economista</a></li>
         </ul>
       </div>
       <div>
@@ -125,6 +154,7 @@ def rodape(rel):
           <li><a href="{rel}servicos/">Consultoria</a></li>
           <li><a href="{rel}servicos/#palestras">Palestras e cursos</a></li>
           <li><a href="{rel}servicos/#contato">Contato</a></li>
+          <li><a href="#assine">Newsletter</a></li>
         </ul>
       </div>
       <div>
@@ -140,6 +170,7 @@ def rodape(rel):
       <span>© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297</span>
       <span>Conteúdo de análise e opinião pessoal. Correções são publicadas no próprio texto, com data.</span>
     </div>
+    <p class="rodape-fontes">Documentos históricos do Arquivo: domínio público, via JSTOR Early Journal Content e Internet Archive, sempre com a fonte indicada. Este site não tem afiliação com as instituições que publicaram os periódicos originais.</p>
   </div>
 </footer>
 </body>
@@ -253,7 +284,6 @@ def pagina_inicio():
             + topo("", rel) + corpo + rodape(rel))
 
 
-COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
 
 
 def edicoes_de(cid):
@@ -425,6 +455,21 @@ def figura_html(slug, rel, legenda):
             f'    <figcaption>{e(legenda)} <span class="credito">Domínio público · JSTOR Early Journal Content / Internet Archive</span></figcaption>\n  </figure>')
 
 
+def artigos_html(ed, rel):
+    """Modelo híbrido (AER): a edição lista seus artigos; um artigo pode ter página comentada própria
+    (campo 'ensaio_slug' -> /arquivo/<edicao>/<artigo>/). Sem 'artigos', nada é exibido."""
+    arts = ed.get("artigos") or []
+    if not arts: return ""
+    linhas = []
+    for a in arts:
+        link = (f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">ler o comentário</a>' if a.get("ensaio_slug") else "")
+        linhas.append(f'        <li><b>{e(a["titulo"])}</b>' + (f' — {e(a["autores"])}' if a.get("autores") else "")
+                      + (f' ({e(a["paginas"])})' if a.get("paginas") else "") + (f'. {e(a["resumo"])}' if a.get("resumo") else "")
+                      + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") else "")
+                      + link + "</li>")
+    return '    <div class="artigos-edicao">\n      <h3>Artigos desta edição</h3>\n      <ol>\n' + "\n".join(linhas) + "\n      </ol>\n    </div>\n"
+
+
 def pagina_edicao(ed, anterior, proxima):
     rel = "../../"
     if "blocos" in ed:
@@ -482,6 +527,7 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
   </div>
 {fig}
 {corpo_ed}
+{artigos_html(ed, rel)}
     <div class="fontes">
       <h3>Fontes</h3>
       <ol>
@@ -575,6 +621,30 @@ def pagina_nota(n):
 """
     escreve(f"notas/{n['slug']}", cabeca(f"{n['titulo']} — Notas · Economista Renato Gomes", n["chamada"], f"notas/{n['slug']}/", rel, "article")
             + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+
+
+def ensaios():
+    return [ed for ed in DADOS["edicoes"] if ed.get("ensaio")]
+
+
+def pagina_ensaios():
+    rel = "../"
+    lista = "\n".join(cartao_edicao(ed, rel) for ed in ensaios())
+    corpo = f"""
+<main class="env">
+  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
+    <span class="chapeu opiniao">Ensaios</span>
+    <h1>Ensaios</h1>
+    <p class="olho">Os textos longos da casa: uma edição ou um tema lido a fundo, com a cena, os números, as citações traduzidas e a análise do autor. Para ler com calma.</p>
+  </div>
+  <section class="grade-3">
+{lista}
+  </section>
+  {assine()}
+</main>
+"""
+    escreve("ensaios", cabeca("Ensaios — Economista Renato Gomes", "Os textos longos da casa: clássicos e temas lidos a fundo, com fonte primária e análise do autor.", "ensaios/", rel)
+            + topo("ensaios/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_analises():
@@ -707,7 +777,7 @@ def pagina_obrigado():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
+    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
@@ -717,7 +787,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)
