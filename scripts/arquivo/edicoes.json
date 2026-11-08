@@ -2115,14 +2115,835 @@
       ],
       "jstor_edicao": "i342411",
       "colecao": "eua"
+    },
+    {
+      "slug": "1888-trabalho-e-minas",
+      "numero": 14,
+      "titulo": "Salário, greve e armazém da mina: o trabalho visto em 1888",
+      "titulo_original": "Efforts of the Manual Laboring Class / Mine Labor in the Hocking Valley / Proceedings of the Second Annual Meeting",
+      "autores": "Francis A. Walker, Edward W. Bemis e Richard T. Ely",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 3, nº 3",
+      "data": "julho de 1888",
+      "chamada": "Um presidente que aceita o sindicato mas culpa o imigrante, um pesquisador que encontra paz e miséria nas minas de Ohio e a ata de uma profissão em formação.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Sábado, 21 de maio, oito da noite, no Huntington Hall do Massachusetts Institute of Technology. Francis A. Walker, presidente da American Economic Association, abre a segunda reunião anual da entidade numa sessão conjunta com a American Historical Association. Escolhe um tema que o programa quase deixara de lado: os esforços dos trabalhadores manuais para melhorar a própria condição. A justificativa é a intensidade que o debate sobre as relações entre capital e trabalho ganhara no ano anterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número 3 do volume 3 das Publications, datado de julho de 1888, reúne esse discurso, um estudo de Edward W. Bemis sobre as minas de carvão do vale do rio Hocking, no sudeste de Ohio, e a ata da reunião, redigida pelo secretário Richard T. Ely. No prefácio, Ely registra que a associação já tinha quatro filiais locais: Buffalo, Galesburg, Orange e Springfield."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os três textos giram em torno de uma pergunta: o trabalhador organizado melhora a distribuição da renda ou a perturba? Walker responde com uma concessão teórica e uma suspeita política. Bemis responde com dados de campo, que mostram ao mesmo tempo o êxito da arbitragem e a miséria do subemprego. A ata, por sua vez, mostra uma profissão jovem discutindo ferrovias, varejo e serviços municipais com a mesma desconfiança da concorrência sem regras."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Walker achava que o operário devia defender o próprio salário?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Vinte e cinco anos antes, lembra Walker, a doutrina aceita na Inglaterra e nos Estados Unidos dizia que o trabalhador não precisava fazer nada. A concorrência entre patrões fixaria o salário no nível mais alto sustentável. Se o lucro levasse fatia excessiva, viraria capital, demanda por trabalho e salário maior no ciclo seguinte. Ele cita John E. Cairnes e o professor Perry como porta-vozes dessa ideia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O trabalhador não era chamado a buscar seu interesse; seu interesse o buscaria e o encontraria.”",
+          "original": "“his interest would seek him and would find him”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker considera essa visão superada. A concorrência é imperfeita se os trabalhadores não defenderem seus interesses com a mesma energia dos patrões, e o próprio empregador ganha ao lidar com homens que conhecem seus direitos. O primeiro sinal da mudança, diz, veio em 1864, quando o professor Fawcett admitiu em Cambridge que coalizões operárias podiam capturar parte de lucros excessivos em períodos de transição."
+        },
+        {
+          "tipo": "p",
+          "texto": "A concessão tem limites estreitos. Nenhum aumento salarial, afirma, se sustentou sem uma razão econômica que o permitisse; o que passa disso recai sobre a comunidade e, primeiro, sobre os próprios trabalhadores. Ele vê no boicote e na confederação dos Knights of Labor duas armas novas e perigosas, prevê o desaparecimento do boicote e observa que as greves recentes vinham do trabalho qualificado, já bem pago, e não dos mais pobres."
+        },
+        {
+          "tipo": "p",
+          "texto": "O trecho mais duro é outro. Walker atribui a “elementos estrangeiros” (foreign elements) da população a quase totalidade dos ataques violentos à produção e ao transporte. Cita Chicago, St. Louis e Rock Springs, onde, em 1885, um ataque a chineses deixou quase cinquenta mortos, e afirma que nenhum nascido no país participou. Diz rejeitar o nativismo do velho Know-Nothing, mas pede que os americanos se imponham contra quem chega para perturbar o país. É uma tese sobre origem, não uma demonstração: o discurso não traz dados que a sustentem, e em Rock Springs as vítimas eram justamente estrangeiras."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A arbitragem trouxe paz às minas de Ohio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bemis visitou o vale do Hocking em abril e encontrou harmonia entre operadores e mineiros. A região ficara famosa pela greve de 1884, a mais amarga da mineração americana, encerrada com a rendição dos mineiros a 40–50 centavos de dólar por tonelada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A paz veio por etapas. Após uma convenção sindical em Indianápolis, em setembro de 1885, vieram conferências com patrões. Em Columbus, por 39 votos a 1, aprovou-se uma tabela de preço por tonelada para cada distrito, e elegeu-se uma junta paritária de conciliação e arbitragem."
+        },
+        {
+          "tipo": "p",
+          "texto": "Antes disso, uma decisão arbitral de A. G. Thurman, aceita pelas duas partes, elevara a tarifa do Hocking de 50 para 60 centavos por tonelada. Os operadores temeram a ruína; deu-se o contrário: sem medo de greve, podiam aceitar contratos grandes. Um deles disse a Bemis que passara a ganhar mais pagando salários mais altos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lógica foi resumida por um operador de Indiana, o coronel Yeoman: pouco importava quanto se pagava pela tonelada, “desde que obrigássemos nossos concorrentes a pagar preços igualmente altos” (provided we compelled our competitors to pay equally as high prices). O ponto fraco: os operadores de Illinois recusaram o reajuste enquanto rivais do próprio estado descumprissem a tabela."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "54%",
+          "texto": "Parcela dos mineiros de Ohio (1.553 de 2.864) que trabalhou em média só 148 dias em 1885, segundo o Bureau de Estatísticas do Trabalho do estado. Apenas 12% passaram de 250 dias. Os 139 mineiros que informaram renda declararam média anual de US$ 343,02."
+        },
+        {
+          "tipo": "p",
+          "texto": "O lado escuro é o subemprego, e Bemis aponta uma causa institucional: o armazém da companhia. Nas minas, comprar ali era condição tácita para manter o posto. Convinha reter mais homens que o necessário: trabalhavam pouco, mas todos consumiam. Um operador confessou a Bemis que resgatava com deságio os vales que emitira pelo valor cheio."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 22 mil",
+          "texto": "Lucro líquido de um armazém de companhia, com capital inferior a US$ 5 mil, em 13 meses, segundo John McBride, líder dos mineiros de Ohio. A mina do mesmo dono, uma instalação de US$ 8 mil, rendeu no período apenas US$ 287."
+        },
+        {
+          "tipo": "p",
+          "texto": "As crianças pagavam a conta. Numa sala de alunos de cerca de 13 anos, Bemis contou 30 meninas e 7 meninos; os outros estavam na rua ou na mina. As leis de ensino obrigatório, escreve, eram letra morta. Em junho de 1888, o líder mineiro Chris Evans relatava uma vitória: lei de Ohio impondo pagamento quinzenal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a ata revela sobre a profissão em formação?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A reunião durou cinco dias, entre Boston e Cambridge, e começou pelas ferrovias. Edmund J. James tratou da regulação federal; Edwin R. A. Seligman, das cláusulas de trajeto curto e longo da nova lei de comércio interestadual. No debate, Arthur T. Hadley, de Yale, argumentou contra a estatização. Ely respondeu que a ferrovia privada também corrompia a política e que entre Pittsburgh e Buffalo não havia trem que fizesse 25 milhas por hora."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comissão de comércio trouxe um levantamento com 1.185 varejistas, sobretudo do Kansas, de Iowa e de Minnesota. Concluiu que o número de lojistas crescia, em proporção, quatro vezes mais rápido que a população, e que só cerca de 56% eram estáveis num período de cinco anos. Walker advertiu que dados tão limitados não sustentavam generalizações."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos serviços municipais, Davis R. Dewey mostrou como cidades extraíam receita das companhias de bonde: Baltimore obtinha mais de US$ 100 mil por ano para seus parques cobrando um percentual da receita bruta. Ely foi além: se a concessão vinha do público, numa eventual compra pela cidade nada deveria ser pago por ela, apenas pelo valor da instalação."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely, como secretário, relatou cerca de trezentos sócios e disse esperar um dia três mil. A filial de Springfield, a primeira, tinha 62 membros, onze deles mulheres, e repassava à entidade nacional metade da anuidade de três dólares. A assembleia aprovou ainda a eleição de até 25 economistas estrangeiros como membros honorários. O encontro terminou com um jantar em Plymouth."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o contraste entre os dois primeiros textos é a lição mais útil do volume. Walker fez uma concessão teórica importante, a de que o salário também depende do poder de barganha, e em seguida explicou a violência pela origem dos trabalhadores, sem apresentar prova. O nativismo da época entrava na análise econômica pela porta da frente, com a autoridade de um presidente de associação científica. Bemis, com caderno de campo, encontrou causas que se podiam medir e corrigir: o armazém cativo, o pagamento mensal, a escola vazia.",
+            "O coronel Yeoman, por sua vez, formulou sem saber um dilema permanente: um piso comum tira o salário da disputa entre concorrentes e pode estabilizar um setor inteiro, mas só funciona se todos o cumprirem. Quando um estado ou distrito fica de fora, como Illinois, o acordo passa a premiar quem não paga."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "arbitragem",
+          "solução de um conflito por um terceiro escolhido pelas partes, que se comprometem a acatar a decisão"
+        ],
+        [
+          "junta de conciliação e arbitragem",
+          "órgão com representantes de patrões e empregados, em número igual, para negociar tabelas e resolver disputas sem greve"
+        ],
+        [
+          "pluck-me store",
+          "apelido do armazém da companhia mineira, onde o trabalhador era pressionado a comprar; o “truck system” de pagamento em vales e mercadorias"
+        ],
+        [
+          "check-weighman",
+          "pesador escolhido pelos próprios mineiros para conferir na balança o carvão sobre o qual cada um era pago"
+        ],
+        [
+          "Knights of Labor",
+          "confederação nacional de trabalhadores de todos os ofícios, em ascensão nos anos 1880"
+        ]
+      ],
+      "hoje": "A pergunta de Walker, se a organização dos trabalhadores melhora ou distorce a distribuição, continua no centro do debate sobre negociação coletiva e salário mínimo. O argumento de Yeoman reaparece sempre que se discute um piso setorial: tirar o salário da competição entre empresas pode reduzir conflitos, desde que ninguém fique de fora. E o armazém da mina tem parentes modernos em todo arranjo em que o empregador também é credor e fornecedor do empregado. A lição de Bemis vale ainda: antes de culpar a natureza dos trabalhadores, olhe as regras do contrato.",
+      "itens": [
+        [
+          "Efforts of the Manual Laboring Class to Better Their Condition",
+          "pp. 7–26",
+          "2485722"
+        ],
+        [
+          "Mine Labor in the Hocking Valley",
+          "pp. 27–42",
+          "2485723"
+        ],
+        [
+          "Proceedings of the Second Annual Meeting of the American Economic Association",
+          "pp. 43–86",
+          "2485724"
+        ]
+      ],
+      "jstor_edicao": "i342412",
+      "artigos": [
+        {
+          "titulo": "Efforts of the Manual Laboring Class to Better Their Condition",
+          "autores": "Francis A. Walker, presidente da American Economic Association",
+          "paginas": "pp. 7–26",
+          "jstor": "2485722",
+          "resumo": "Discurso de abertura da segunda reunião anual. Walker registra a virada da economia: a velha tese de que a concorrência entre patrões bastava para fixar o salário dera lugar à ideia de que o trabalhador precisa defender ativamente seu interesse. A concessão vem com limites: nenhum aumento se sustenta sem base econômica, o boicote deve desaparecer e os Knights of Labor tendem ao fracasso. Walker atribui a violência trabalhista a “elementos estrangeiros” e cita o massacre de chineses em Rock Springs, tese que o texto afirma sem demonstrar."
+        },
+        {
+          "titulo": "Mine Labor in the Hocking Valley",
+          "autores": "Edward W. Bemis",
+          "paginas": "pp. 27–42",
+          "jstor": "2485723",
+          "resumo": "Relato de visita às minas de carvão betuminoso do sudeste de Ohio, palco da grande greve de 1884. Bemis descreve a construção de um sistema de conferências e arbitragem entre mineiros e operadores, com tabelas de preço por tonelada e uma junta paritária, e o testemunho de patrões que passaram a lucrar mais pagando mais. Mostra também o lado escuro: subemprego crônico, renda anual baixa, armazéns da companhia que lucravam mais que as minas, vales resgatados com deságio e meninos fora da escola."
+        },
+        {
+          "titulo": "Proceedings of the Second Annual Meeting of the American Economic Association",
+          "autores": "Richard T. Ely, secretário",
+          "paginas": "pp. 43–86",
+          "jstor": "2485724",
+          "resumo": "Ata da reunião em Boston e Cambridge, de 21 a 25 de maio. Resume trabalhos sobre regulação federal das ferrovias, tarifas de trajeto curto e longo, varejo e serviços públicos municipais, além dos debates entre Hadley, Ely, Atkinson e Sterne sobre ferrovias estatais e privadas. Inclui o relatório da filial de Springfield, primeira da associação, com sua constituição, a emenda que cria até 25 membros honorários estrangeiros, a relação de dirigentes e conselheiros e a lista de sócios."
+        }
+      ],
+      "colecao": "eua"
+    },
+    {
+      "slug": "1888-estatistica-e-economia",
+      "numero": 15,
+      "titulo": "Medir em vez de descrever: Mayo Smith e a estatística como ciência",
+      "titulo_original": "Statistics and Economics",
+      "autores": "Richmond Mayo Smith, A. M., Professor of Political Economy and Social Science in Columbia College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 3, nº 4/5",
+      "data": "setembro e novembro de 1888",
+      "chamada": "Em 1888, Richmond Mayo Smith mostrou o que a estatística revela sobre imigração, casamento, riqueza e crime — e por que a regularidade dos números não tira a liberdade de ninguém.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1888, os trens elevados de Nova York transportavam 150 milhões de passageiros por ano. Dividido pela população, dava uma média de cem viagens por habitante. Richmond Mayo Smith, professor de economia política e ciência social no Columbia College, guarda esse número para a última página de sua monografia — e o usa para dizer o que a estatística não autoriza: que a média obrigue alguém a embarcar."
+        },
+        {
+          "tipo": "p",
+          "texto": "A monografia ocupa uma edição dupla das publicações da American Economic Association e segue de perto o livro do alemão Georg Mayr. O objetivo é apresentar a estatística não como mera informação, mas como peça na construção de uma ciência social."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os números dizem que as palavras não dizem?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mayo Smith distingue três métodos de que as ciências sociais dispõem: o histórico, o comparativo e o estatístico. Os dois primeiros produzem enunciados qualitativos. O terceiro mede. A história registra que a população de um país cresceu; a estatística conta os habitantes. A história observa que uma fome retardou o crescimento; a estatística mostra quanto."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Eles nos dão descrições gerais em palavras; a estatística nos dá descrições exatas em números.”",
+          "original": "They give us general descriptions in words; statistics give us exact descriptions in figures."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor separa três tipos de conhecimento estatístico. A enumeração simples, como o censo. As regularidades invisíveis à observação casual, como o excesso constante de meninos ao nascer: de 102 a 106 para cada 100 meninas na Europa. E as causas, como quando o preço do trigo e o número de casamentos variam em sentido inverso."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cautela começa pela própria contagem. As estimativas da população da Terra reunidas por Levasseur iam de 437 milhões (Volney, 1804) a 1,85 bilhão (Behm, 1866). Para a África, dependia-se de viajantes que só viam as margens dos rios navegáveis, onde a população é mais densa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem eram os americanos em 1880?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O censo de 1880 tratava de um fenômeno que a Europa não tinha: uma nação feita de imigrantes. Mayo Smith estima que os descendentes dos brancos de 1790 somavam cerca de 25 milhões, mais ou menos metade da população. Em certo sentido, admite, todos ali descendiam de imigrantes."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "6.679.943",
+          "texto": "Nascidos no exterior residentes nos Estados Unidos no censo de 1880. Os maiores grupos: 1.966.742 nascidos no Império Alemão, 1.854.571 na Irlanda e 717.084 na América britânica. Contando também quem tinha pai ou mãe estrangeiro, eram 14.922.744 pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor desmonta uma leitura apressada. A fatia de estrangeiros caiu entre 1870 e 1880, e havia quem visse aí perda de força do elemento estrangeiro. Erro: os filhos de imigrantes nascidos no país contam como nativos. Desde 1820, haviam chegado mais de 14 milhões de pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nem o fluxo se media com precisão. Em 1880, 21.251 alemães tinham licença para emigrar aos Estados Unidos; 134.040 desembarcaram em portos americanos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A outra grande transformação era a cidade. Em 1790, só 3,3% dos americanos viviam em cidades de 8 mil habitantes ou mais; em 1880, eram 22,5%. As ferrovias, argumenta o autor, concentram os negócios e favorecem as grandes cidades à custa das pequenas."
+        },
+        {
+          "tipo": "p",
+          "texto": "No sentido inverso estava a Irlanda, exceção entre as nações civilizadas: sua população caiu de 8.175.124 em 1841 para 5.159.839 em 1881, por causa da emigração."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quanto valia quem partia? Engel estimou em 754 táleres o custo de criar uma criança alemã até os quinze anos. Mayo Smith chama de falaciosa a conta que toma esse custo como valor do imigrante: ele vale o que vai produzir no novo país, menos o que custará mantê-lo. Por esse critério, William Farr avaliou em £ 175 cada emigrante inglês de 1876."
+        },
+        {
+          "tipo": "p",
+          "texto": "A riqueza das nações também virava número. Robert Giffen, a partir do imposto de renda, calculou a riqueza geradora de renda da Grã-Bretanha em cerca de £ 8,5 bilhões em 1875, quase 40% acima de 1865. A riqueza crescia a 4% ao ano; a população, a cerca de 1%."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O casamento obedece à economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Casar é, no caso individual, uma escolha. No agregado, parece lei natural. Na Baviera, nos anos prósperos de 1840 a 1845, os casamentos anuais ficaram todos perto de 29,4 mil, entre 29.356 e 29.500. O autor não esconde o espanto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando as condições mudaram, o número mudou. No ano ruim de 1846-47, caiu para 28.331. Com a abolição das leis que restringiam o casamento, em 1869, chegou perto de 60 mil. A guerra franco-alemã o derrubou para 40.707 em 1871; a paz o devolveu a 52.045."
+        },
+        {
+          "tipo": "p",
+          "texto": "As mesmas leis explicam outro dado. A ilegitimidade, tida como indicador de moralidade, refletia em boa parte a legislação: na Baviera, os nascimentos fora do casamento caíram de 22,47% do total em 1865 para 16,47% em 1877, à medida que as restrições caíam."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Baviera fornece também o exemplo mais sombrio de causalidade. Em alguns de seus condados, quatro em cada dez crianças morriam no primeiro ano de vida, justamente onde as mães trabalhavam no campo ou na fábrica e alimentavam os filhos artificialmente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na estatística econômica, adverte o autor, o método decide tudo: se estiver errado, os números são piores que inúteis. Os orçamentos operários de Massachusetts são o exemplo de método bem aplicado."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "49,3%",
+          "texto": "Parcela da renda gasta com comida por um operário de Massachusetts que ganhava US$ 754 por ano. Vestuário levava 18%; moradia, 12%; combustível, 5%. Quanto menor a renda, maior a fatia da subsistência."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Se o crime é regular, onde fica a liberdade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Inglaterra, as infrações graves levadas a julgamento variaram pouco em duas décadas, de 2,72 por mil habitantes em 1857-61 para 2,06 em 1879-80. Dos condenados, 40% eram reincidentes. As penas, conclui o autor, parecem ter pouco efeito dissuasório."
+        },
+        {
+          "tipo": "p",
+          "texto": "Números assim inclinam a tratar o crime mais como doença do corpo social do que como pecado do indivíduo. Quetelet, às vezes chamado de pai da estatística moderna, levou a ideia ao limite ao falar de um orçamento pago com mais regularidade que o de qualquer ministro das finanças:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O orçamento da prisão, das galés e do cadafalso.”",
+          "original": "the budget of the prison, the gallies and the scaffold"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mayo Smith recusa o fatalismo. As regularidades se desfazem quando se muda de país ou de período; apontam causas parecidas, não lei imutável. E o próprio Quetelet completava a frase de um modo raramente citado: se mudarmos as causas, mudaremos necessariamente os efeitos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí o retorno aos trens de Nova York. A média de cem viagens por habitante não obriga ninguém: o autor pode nunca embarcar, ou embarcar todos os dias."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A lei da massa não tem, em si, nenhum poder sobre o indivíduo.”",
+          "original": "The law of the mass has in itself no power over the individual."
+        },
+        {
+          "tipo": "p",
+          "texto": "Resta saber se tudo isso é método ou ciência. A visão inglesa tratava a estatística como instrumento, comparável ao microscópio; a continental, de Mayr e Engel, como ramo da ciência social. Mayo Smith fica com os continentais: o estatístico precisa ser sociólogo o bastante para entender o problema, e o sociólogo, estatístico o bastante para não formular leis que não existem."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a monografia antecipa o problema central da avaliação de políticas públicas: distinguir regularidade de causalidade. A fatia de estrangeiros mal lida e a ilegitimidade atribuída à moral quando vinha da lei são casos em que o número certo, mal interpretado, conta a história errada. Volume de dados não corrige heterogeneidade.",
+            "A resposta sobre a liberdade também me parece atual. A estatística não descreve destinos; descreve condições. Se o número de casamentos responde ao preço do trigo e à lei, a política tem onde atuar. É a frase esquecida de Quetelet, e não a famosa, que justifica o trabalho do economista."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Por mil (pro mille)",
+          "Forma de expressar taxas de nascimentos, mortes, casamentos ou emigração em relação a cada mil habitantes."
+        ],
+        [
+          "Enumeração",
+          "Contagem direta, como o censo; para o autor, o tipo mais simples de conhecimento estatístico."
+        ],
+        [
+          "Riqueza geradora de renda",
+          "Parte da riqueza nacional que produz rendimento, estimada por Giffen a partir do imposto de renda britânico."
+        ],
+        [
+          "Orçamento operário",
+          "Levantamento dos gastos de famílias trabalhadoras por item (comida, roupa, moradia), usado para medir o custo de vida."
+        ],
+        [
+          "Necessitarismo",
+          "Premissa de que causas semelhantes produzem efeitos semelhantes; para Mayo Smith, base de toda estatística social."
+        ]
+      ],
+      "hoje": "Hoje, registros administrativos, pesquisas domiciliares e dados de alta frequência dão ao economista uma abundância que Mayo Smith mal poderia imaginar. Os vícios que ele apontou continuam: médias que misturam populações distintas, taxas brutas comparadas sem ajuste por idade, fluxos migratórios que não fecham entre origem e destino, indicadores sociais lidos como juízo moral quando refletem regras legais. O debate sobre se a estatística é ferramenta ou ciência perdeu o calor, mas a advertência permanece: quem coleta precisa entender o problema, e quem interpreta precisa entender a coleta.",
+      "itens": [
+        [
+          "Statistics and Economics",
+          "pp. 7–127",
+          "2560511"
+        ]
+      ],
+      "jstor_edicao": "i323680",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-a-estabilidade-dos-precos",
+      "numero": 16,
+      "titulo": "Por que os preços deixaram de ficar parados",
+      "titulo_original": "The Stability of Prices",
+      "autores": "Simon N. Patten, Ph. D., professor de Economia Política, Wharton School of Finance and Economy, University of Pennsylvania, Filadélfia",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 3, nº 6",
+      "data": "janeiro de 1889",
+      "chamada": "Em 1889, Simon Patten explicou por que os preços passaram a oscilar todo dia, atacou a teoria da renda de Ricardo e propôs que o excedente do progresso fosse tributado para pagar escolas, parques e saneamento.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O comerciante americano de 1889 precisava consultar o jornal todos os dias antes de saber onde comprar seu estoque. O consumidor também vivia de guarda: sem atenção, pagava caro demais pelo açúcar ou pela farinha. Até roupas, no varejo, mudavam de preço tão depressa que ler anúncios virara obrigação. Na geração anterior, lembra Simon N. Patten, os artigos de consumo comum tinham preços fixos que às vezes duravam uma vida inteira, e o comerciante que cobrasse acima do costume provocava a indignação da comunidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta habitual dos economistas era a superprodução. Patten, professor da Wharton School, na Universidade da Pensilvânia, perguntou por que estaríamos mais sujeitos a ela do que nossos avós. Seu ensaio de 60 páginas busca a resposta na mudança das condições físicas e sociais da produção."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o preço do trigo era estável e deixou de ser?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é a teoria da renda de David Ricardo. Renda da terra, nesse vocabulário, é o que o dono recebe acima do que paga em salários e lucros, graças à fertilidade ou à localização do solo. A margem de cultivo é a pior terra que ainda compensa plantar ao preço corrente. Quando há muitas terras de qualidades diferentes, cada queda de preço tira da produção um lote inteiro, a oferta encolhe e o preço volta. A diversidade de custos funciona como amortecedor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "70 centavos",
+          "texto": "Exemplo de Patten: três tipos de terra produzem trigo a 50, 60 e 70 centavos o bushel, cada um com um terço da colheita. Abaixo de 70 centavos, um terço da produção sai do mercado e o preço se recompõe. Se, ao contrário, nove décimos do trigo custam 50 centavos e o resto se espalha entre 50 e 90, não há preço normal: o preço pode cair até 50 e subir sem limite físico definido."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mesmo vale para a indústria. No século anterior, os centros produtores eram pequenos e isolados, cada um com custo diferente, e nenhum abastecia sozinho o mercado. Na produção em larga escala, uma diferença mínima de custo basta para eliminar o concorrente, e os centros mais eficientes podem fornecer mais do que o mundo precisa. Antes, as crises atingiam primeiro os menos eficientes e paravam ali."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O sofrimento de poucos protegia muitos.”",
+          "original": "“the suffering of the few protected the many”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com produtores igualmente eficientes, ninguém absorve o choque primeiro: todos sofrem ao mesmo tempo. Qualquer acontecimento, por menor que seja, pode então lançar o país inteiro em dificuldade: uma mudança no clima, um ato do Congresso, uma guerra de tarifas entre ferrovias, a quebra de um banco."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem fica com a sobra quando a natureza não decide?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando os preços eram estáveis, sabia-se quem levava cada parte: salários e lucros mínimos, e o restante ia como renda aos proprietários. Sem terra na margem de cultivo, surge uma sobra sem dono natural, que Patten chama de excedente: a diferença entre o que se produz e a renda garantida de cada classe. Quem a captura passa a ser questão de poder."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 centavos",
+          "texto": "O exemplo da ferrovia: o trigo custa 50 centavos o bushel numa região longe do litoral, o frete custa de fato 10 e o preço de mercado é 70. A ferrovia pode cobrar 20 de frete e transferir 10 centavos por bushel do bolso do agricultor para o próprio caixa. Se não o fizer, uma combinação de produtores de pregos, tecidos ou carvão pode fazê-lo, até absorver todo o excedente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí o ataque a Ricardo. A terra sem renda, aquela que só remunera o trabalho e o capital nela empregados, quase não existe na vida real, sustenta Patten. Terra ruim para trigo serve para outra coisa. As encostas do Reno, íngremes demais para a lavoura comum, valem mais que as planícies vizinhas porque dão uva. Os donos das planícies férteis de Illinois compram batata das colinas de Wisconsin. Em Illinois, o trigo deu lugar ao milho e passou a ser importado. A conclusão é seca: a natureza tende a melhorar a terra; é o homem que a mantém pobre."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que lei decide a divisão do bolo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten propõe uma “lei geral da distribuição”. Entre terra, trabalho e capital, o fator que cresce mais devagar reduz os demais ao mínimo, fica com todos os ganhos das melhorias e carrega todos os encargos permanentes, como os impostos. Um avanço técnico barateia a comida por um tempo; a população cresce, o preço volta a subir e o ganho final escorre para o dono do fator escasso. Máquinas, escreve ele, melhoram muito mais depressa do que homens."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado é uma divisão em duas partes. A renda segura de cada classe é fixada por causas lentas, como o padrão de vida dos trabalhadores. O excedente é disputado mês a mês. Patten o compara a um rio no delta, que qualquer obstáculo desvia. A prosperidade de um país, diz, depende de produção regular, preços estáveis e distribuição uniforme, não do volume total."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os trustes seriam um passo para preços estáveis?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira resposta social à perda da proteção natural foi a era do vendedor. Antes, o comprador procurava o vendedor e um centavo de diferença decidia a venda. Agora, o vendedor procura o comprador. Em grandes empresas, para cada homem dirigindo a produção, havia meia dúzia comprando e vendendo, e com salários maiores. Nem o sal se vendia sem anúncio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Agora, a importância do vendedor é suprema.”",
+          "original": "“Now the importance of the salesman is supreme.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "É uma estabilidade fundada no desperdício: o excedente vira custo de venda e o povo fica quase como se a produção não tivesse melhorado. A segunda etapa seriam os trustes, grandes combinações de empresas para fixar preços e controlar a oferta. Sem limites naturais, a concorrência derruba preços abaixo do custo até que os rivais queimem seu capital. Os trustes põem um piso, e o sucesso os leva a subir até o ponto em que o consumo começa a cair."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Preços estáveis, convém lembrar, significam preços altos.”",
+          "original": "“Stable prices, it is well to keep in mind, mean high prices”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten admite os males: direitos de inocentes violados e riqueza concentrada em poucas mãos. Ainda assim, prefere que o excedente vá a acionistas em vez de proprietários de terra. Se o preço da terra subisse a 500 dólares o acre, o público veria nisso prosperidade; se um quarto disso fosse parar em trustes, o país inteiro se agitaria até achar solução. A antipatia pelos trustes seria, paradoxalmente, um motor de reforma."
+        },
+        {
+          "tipo": "p",
+          "texto": "A terceira etapa seria a tributação do excedente. Impostos, escreve, podem estabilizar preços tão bem quanto qualquer monopólio, e não devem ficar no mínimo que a visão do laissez-faire admitiria. Ele lista os destinos: instrução pública, parques, diversões baratas e edificantes, boas estradas no campo, drenagem e saneamento nas cidades. Cortar tributos antigos, adverte, só entregaria o ganho a quem já captura os frutos do progresso."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio vale menos pelas conclusões do que pelo mecanismo que identifica. Patten percebeu que a estabilidade de preços não é um dado da natureza, mas o efeito de uma estrutura de custos dispersa. Quando a tecnologia e o transporte igualam os produtores, os choques deixam de ter um ponto de absorção e se espalham. A intuição reaparece sempre que mercados integrados e eficientes se mostram também mais voláteis.",
+            "A defesa dos trustes envelheceu mal, e o próprio autor reconhece seus custos. Mas a pergunta central permanece legítima: quando o progresso gera uma sobra que nenhuma regra distribui, quem deve ficar com ela? Patten responde que, na falta de um critério natural, prevalece o mais forte, e que cabe ao Estado decidir se essa sobra financia bens públicos ou fica com quem consegue montar a melhor combinação. É uma escolha de política fiscal, não uma fatalidade."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Renda da terra",
+          "Pagamento ao dono do solo acima do que remunera o trabalho e o capital, devido à fertilidade ou à localização."
+        ],
+        [
+          "Margem de cultivo",
+          "A pior terra que ainda compensa cultivar ao preço vigente; na teoria de Ricardo, ela mede a renda das terras melhores."
+        ],
+        [
+          "Terra sem renda",
+          "Terra que só cobre os custos de trabalho e capital, sem sobra para o dono; Patten nega que exista na prática."
+        ],
+        [
+          "Excedente",
+          "Parte da produção que excede a renda garantida de cada classe e não tem dono definido por leis naturais."
+        ],
+        [
+          "Truste",
+          "Combinação de empresas de um setor para limitar a concorrência e fixar preços."
+        ]
+      ],
+      "hoje": "O debate de Patten voltou com outras palavras. Discute-se se cadeias globais muito eficientes, com produtores parecidos e estoques enxutos, transmitem choques mais depressa. Discute-se quem captura os ganhos de plataformas e setores concentrados: trabalhadores, acionistas ou donos de ativos escassos, como terrenos urbanos. E a ideia de tributar rendas extraordinárias para financiar educação e infraestrutura segue no centro da agenda fiscal em muitos países. A resposta americana aos trustes, porém, foi a oposta à sugerida por Patten: o Sherman Act, de 1890, preferiu proibir as combinações a tolerá-las como etapa de transição.",
+      "itens": [
+        [
+          "The Stability of Prices",
+          "pp. 5–64",
+          "2485634"
+        ]
+      ],
+      "jstor_edicao": "i342413",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-a-questao-dos-salarios",
+      "numero": 17,
+      "titulo": "Quem fixa o salário? Duas tentativas de achar a lei, em 1888",
+      "titulo_original": "Contributions to the Wages Question",
+      "autores": "Stuart Wood e John B. Clark",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 1",
+      "data": "março de 1889",
+      "chamada": "Em dezembro de 1888, dois economistas tentaram enterrar a doutrina do fundo de salários. Um olhou para a troca entre homem e máquina; o outro, para o último trabalhador contratado.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Numa nota de rodapé, Stuart Wood registra um relato ouvido num seminário da Wharton School: em certas cidades mineiras e fabris da Pensilvânia, a demanda por trabalhadores húngaros dependeria do preço das mulas. O exemplo é cru, e foi escolhido por isso. Resume a tese de Wood: o trabalho humano compete com o de animais e máquinas, e seu preço obedece à mesma lei de oferta e demanda que rege o preço de cavalos e locomotivas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dois textos desta edição foram lidos em 27 de dezembro de 1888, no terceiro encontro anual da American Economic Association, em Filadélfia, e publicados em março de 1889 sob o título comum de contribuições à questão salarial. O alvo era o mesmo: a doutrina do fundo de salários, segundo a qual uma parcela fixa do capital é repartida periodicamente entre os trabalhadores, de modo que o salário médio seria simplesmente esse fundo dividido pelo número de assalariados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Wood lembra que, poucas décadas antes, essa doutrina era tida como solução final. Nunca convenceu os próprios trabalhadores, e os economistas mais jovens já a rejeitavam. Faltava pôr algo no lugar. Clark, de seu lado, diz que do fundo de salários sobrevive apenas uma verdade geral: mais capital na sociedade tende a elevar a remuneração do trabalho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os caminhos divergem. Wood, doutor em filosofia, procura o ponto em que tanto faz empregar um homem ou o capital que o substituiria. Clark, professor de história e ciência política no Smith College, procura o trabalhador que chega por último e produz apenas o próprio salário. Ambos assumem concorrência perfeita e mobilidade total de trabalho e capital, para isolar um princípio. Clark cita o colega com elogio. O que um chama de substituição, o outro chama de margem."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O salário é o preço da máquina que substituiria o trabalhador?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wood parte de uma constatação simples: num dado momento, a oferta de trabalho é fixa. Se o preço não pode mexer na oferta, só equilibra o mercado mexendo na demanda. E a demanda reage porque quase tudo o que o trabalho faz poderia ser feito com mais capital, e vice-versa. Ferrovias competem com carregadores, teares mecânicos com teares manuais. Mesmo o consumo muda: quem paga 500 dólares por ano a um jardineiro pode preferir gastar a soma em algo que emprega menos gente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a lei que propõe. O preço de certa quantidade de trabalho é igual ao preço pago pelo uso do capital que a substituiria, nos empregos em que os dois são intercambiáveis e rendem a mesma vantagem. Wood admite o limite: a fórmula não diz, sozinha, quanto vale um dia de trabalho. Mostra que salários e juros formam um único problema, e que nenhum dos dois é mero resíduo do que sobra depois de pagar o outro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para ele, a escolha entre homem e capital aparece também nas grandes obras. A ponte sobre o estuário do Forth, na Escócia, e a prefeitura de Filadélfia teriam absorvido de 10 a 15 milhões de dólares cada, recursos retirados do sustento do trabalho. Sobre a ponte, diz-se que o capital foi bem aplicado. Sobre a prefeitura, Wood se permite uma ironia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Gostaria que se pudesse dizer o mesmo da prefeitura de Filadélfia.”",
+          "original": "“I wish that as much could be said of the Philadelphia City Hall.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O texto separa duas famílias de causas. A produtividade geral da indústria, ditada pela natureza e pela técnica, move salários e juros na mesma direção. Já mudanças na utilidade relativa ou na abundância relativa de trabalho e capital os movem em sentidos opostos. Isso explica, segundo Wood, por que Ricardo via conflito entre salários e lucros, enquanto patrões e operários negociavam escalas móveis que subiam e desciam com o preço do produto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2/7",
+          "texto": "Exemplo numérico de Wood: se um trabalhador recebe em salário o mesmo que 10.000 dólares de capital recebem em juros, essas são as “unidades de intercâmbio”. Com 1 milhão de trabalhadores e 4 bilhões de dólares de capital, há 400 mil unidades de capital para 1 milhão de trabalho: proporção de quatro para dez. O capital fica com dois sétimos do produto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O progresso técnico, nota Wood, quase sempre aumenta a demanda relativa por capital: um transatlântico tripulado por 300 homens custaria talvez 1 milhão de dólares. Ele termina reconhecendo o que deixou de fora, como renda da terra, qualidades distintas de trabalho e o papel do empresário. Mede o salário em dinheiro, não em bem-estar, e se recusa a pular etapas: fazê-lo seria, diz, uma filantropia espúria."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O último trabalhador contratado decide o salário de todos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark abre lembrando que, para a maioria das pessoas, só uma lei econômica parece importar: a que fixa o salário, porque dela depende o nível médio da vida humana. Ele exige muito dessa lei. Deve ser natural, universal e dar conta de cartéis, trustes e sindicatos. Não pode valer apenas para os Estados Unidos, onde por um século os salários foram puxados para cima pela valorização das terras livres da fronteira."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira hipótese que testa é a de que o salário geral é dado pelo que um homem colhe, de enxada na mão, numa terra que não paga renda, a chamada margem de cultivo. Clark a acha estreita demais. Usa a analogia do trigo: o preço do grão americano é dado em Liverpool porque a Europa absorve qualquer excedente, por exemplo mais 50 milhões de bushels, enquanto a Islândia ou o Labrador não fixam preço algum. Como escoadouro de mão de obra, a terra marginal é mais Islândia do que Liverpool."
+        },
+        {
+          "tipo": "p",
+          "texto": "A margem verdadeira, diz ele, atravessa toda a economia. Há fábricas mal localizadas que nada rendem ao dono, máquinas velhas, ferrovias que só cobrem o custo operacional. Há ainda a margem intensiva: dez homens fazem a colheita e dois respigam atrás deles; cem homens operam um navio e mais cinco produzem apenas o próprio salário. É o que os manuais hoje chamam de produtividade marginal, o acréscimo de produção trazido pela última unidade empregada."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O salário geral tende a igualar o produto efetivo criado pelo último trabalho acrescentado.”",
+          "original": "“General wages tend to equal the actual product created by the last labor”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para fechar o raciocínio, Clark generaliza os retornos decrescentes, a ideia de que cada unidade adicional de um fator, somada a uma quantidade fixa de outro, rende menos que a anterior. Seu exemplo: 10.000 dólares em instrumentos e dez homens, cada um produzindo 3 dólares por dia; dobre os homens sem mexer no capital e cada um produzirá menos. A lei vale nos dois sentidos, e entre 1870 e 1880, afirma, a riqueza produtiva do mundo civilizado cresceu mais que a população."
+        },
+        {
+          "tipo": "p",
+          "texto": "A consequência é incômoda para todos os lados. Quando o capital cresce mais depressa, os juros caem e o salário sobe em termos absolutos, mas representa uma fatia menor da renda social. Sindicatos que fecham ofícios e trustes que restringem a produção não revogam a lei; exageram seus efeitos. O texto termina com uma nota sobre preços e Malthus: o destino dos trabalhadores dependerá do ritmo relativo de crescimento da população e do capital."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os sistemas mudam; os princípios permanecem.”",
+          "original": "“Systems change; principles remain.”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, os dois textos valem menos pelas respostas do que pela pergunta que obrigaram a fazer. Ao trocar uma soma fixa a repartir por uma escolha na margem, Wood e Clark tiraram o salário do campo da aritmética e o puseram no da decisão econômica. Esse é o salto que separa a economia clássica da que se ensina até hoje.",
+            "O dilema que deixaram em aberto é permanente. Clark mostra que o mesmo processo que eleva o salário absoluto pode reduzir a participação do trabalho na renda, e não esconde o desconforto. Políticas que miram apenas uma dessas medidas tendem a errar a outra. Distinguir o nível do salário da sua fatia no bolo continua sendo, para qualquer gestor público, o primeiro passo de um debate honesto sobre distribuição."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Fundo de salários",
+          "Doutrina clássica segundo a qual uma parcela fixa do capital é dividida entre os trabalhadores; o salário médio seria esse fundo dividido pelo número de assalariados."
+        ],
+        [
+          "Produtividade marginal",
+          "Acréscimo de produção trazido pela última unidade de um fator empregada, como o último trabalhador contratado."
+        ],
+        [
+          "Retornos decrescentes",
+          "Cada unidade adicional de um fator, somada a uma quantidade fixa de outro, rende menos que a anterior."
+        ],
+        [
+          "Margem de cultivo",
+          "A terra (ou o instrumento) de pior qualidade ainda em uso, que não rende nada ao dono além do pagamento a quem a trabalha."
+        ],
+        [
+          "Unidade de intercâmbio",
+          "Em Wood, as quantidades de trabalho e de capital que fazem o mesmo serviço pelo mesmo preço, onde tanto faz usar um ou outro."
+        ],
+        [
+          "Concorrência perfeita",
+          "Hipótese de muitos compradores e vendedores, sem poder de fixar preços, e de livre movimento de trabalho e capital."
+        ]
+      ],
+      "hoje": "A pergunta de 1888 voltou com força. O debate sobre automação e inteligência artificial é, em essência, o de Wood: quando a máquina fica mais barata que o trabalhador, o que acontece com o salário? E a queda da participação do trabalho na renda, discutida em vários países nas últimas décadas, ecoa a advertência de Clark de que salário maior e fatia menor podem andar juntos. A economia moderna refinou as ferramentas, mas a teoria da produtividade marginal ainda é o ponto de partida dos manuais, e também o alvo preferido de seus críticos.",
+      "itens": [
+        [
+          "The Theory of Wages",
+          "pp. 5–35",
+          "2485659"
+        ],
+        [
+          "The Possibility of a Scientific Law of Wages",
+          "pp. 39–69",
+          "2485660"
+        ]
+      ],
+      "jstor_edicao": "i342414",
+      "artigos": [
+        {
+          "titulo": "The Theory of Wages",
+          "autores": "Stuart Wood, Ph. D.",
+          "paginas": "pp. 5–35",
+          "jstor": "2485659",
+          "resumo": "Wood sustenta que o salário de mercado obedece à oferta e à demanda como qualquer preço, porque o trabalho pode ser substituído por capital, na produção e no consumo. Propõe que o preço de certa quantidade de trabalho é igual à remuneração do capital que a substituiria onde ambos são usados indiferentemente. Conclui que salários e juros formam um único problema, distingue causas que os movem juntos das que os separam e ilustra a repartição do produto com um exemplo numérico. Supõe concorrência perfeita e deixa de lado renda da terra e o papel do empresário."
+        },
+        {
+          "titulo": "The Possibility of a Scientific Law of Wages",
+          "autores": "John B. Clark, A. M., professor de história e ciência política no Smith College",
+          "paginas": "pp. 39–69",
+          "jstor": "2485660",
+          "resumo": "Clark busca uma lei de salários natural e universal. Rejeita a ideia de que o salário geral seja fixado pelo lavrador de terra sem renda, por ser um mercado estreito demais, e encontra a margem em toda a indústria: máquinas e fábricas que nada rendem ao dono e trabalhadores adicionais que produzem só o próprio salário. Generaliza a lei dos retornos decrescentes ao trabalho e ao capital e conclui que o salário tende a igualar o produto do último trabalho acrescentado. Discute sindicatos, trustes, a crítica socialista e, em nota, o papel dos salários nos preços."
+        }
+      ],
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-socialismo-na-inglaterra",
+      "numero": 18,
+      "titulo": "Socialismo sem saber: o inventário de Sidney Webb sobre a Inglaterra",
+      "titulo_original": "Socialism in England",
+      "autores": "Sidney Webb, LL. B., Barrister at Law; Lecturer on Economics at the City of London College (England)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 2",
+      "data": "abril de 1889",
+      "chamada": "Em 1889, um jovem fabiano explicou aos americanos que a Inglaterra já era socialista sem saber. A prova estava no gás, na água e nos bondes das prefeituras.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na Câmara dos Comuns, Sir William Vernon Harcourt declarou: “Somos todos socialistas agora” (“We are all Socialists now”). O príncipe de Gales, conta Sidney Webb, fez confissão parecida pouco depois. Webb não se impressiona: chama essas frases de declarações vagas. Mas as usa como porta de entrada para uma tese mais ambiciosa — a de que o avanço do socialismo era, naquele momento, a marca mais visível do pensamento inglês."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ensaio saiu em abril de 1889. O autor, advogado e professor de economia no City of London College, não era neutro: aparece no próprio texto entre os conferencistas da Sociedade Fabiana. É uma peça de defesa, escrita por um socialista para leitores americanos — mas documentada, com leis, datas e estatísticas oficiais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como uma doutrina avança sem que ninguém perceba?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central é o do avanço inconsciente. O político comum, diz Webb, negaria que o socialismo existisse como força na Inglaterra. Ainda assim, milhares teriam se tornado socialistas sem saber, muitos deles proclamando fidelidade ao laissez-faire. O que conta, insiste, não é o rótulo, mas o conteúdo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Antes, Webb desmonta a caricatura. Platão, More, Fourier e Owen desenharam utopias estáticas, em equilíbrio perfeito. Depois de Comte, Darwin e Spencer, o ideal social tornou-se dinâmico: a nova ordem nasceria aos poucos da antiga. Os críticos, porém, seguiam atacando os falanstérios, comunidades de Fourier."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sua definição é econômica: administração coletiva da renda da terra e dos juros, deixando ao indivíduo apenas o salário. E aponta quatro direções em curso: restrições à propriedade privada da terra e do capital; substituição de empreendimentos privados por administração pública; absorção, via tributos, das rendas não ganhas; e filantropia pública complementando a caridade privada."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde saiu o movimento organizado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Webb data o movimento consciente em pouco mais de oito anos. Após o colapso do cartismo, em 1848, a energia popular foi por trinta anos para sindicatos, cooperativas e a luta pelo voto. O gatilho veio de fora: a enorme circulação de Progress and Poverty, de Henry George, cuja popularização da lei da renda de Ricardo deu o tom do novo partido — por menos que George o pretendesse."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira organização explicitamente socialista foi a Democratic Federation, fundada em março de 1881 por H. M. Hyndman, Herbert Burrows e Helen Taylor, enteada de John Stuart Mill. No primeiro programa, a única proposta socialista explícita era a nacionalização da terra, posta em nono lugar. Em setembro de 1883, virou Social Democratic Federation. Seu programa imediato, que o próprio Webb acha tosco, pedia moradias com aluguel ao custo, escola gratuita com uma refeição diária, jornada de oito horas, imposto progressivo, estatização das ferrovias e bancos nacionais."
+        },
+        {
+          "tipo": "p",
+          "texto": "John Burns, engenheiro operário, foi absolvido de sedição em 1886, preso em 1888 após um protesto em Trafalgar Square e eleito em janeiro de 1889 para o London County Council. Annie Besant liderou a votação para o conselho escolar de Londres em novembro de 1888. William Morris fundou a Socialist League, de grupos comunais livres, já em declínio. A Sociedade Fabiana, de classe média, permanecia pequena por escolha, apostando em evolução gradual e boa análise econômica."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que igrejas, universidades e economistas entram na conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque, para Webb, o termômetro estava fora dos partidos. A Guild of St. Matthew, anglicana, tinha várias centenas de membros clérigos e leigos, e seu fundador, Stewart Headlam, foi eleito para o conselho escolar londrino como socialista. Na conferência pan-anglicana, os bispos dedicaram ao tema um comitê especial, num tom que Webb descreve como aprovação tímida e inconsistente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas universidades, o autor é mais cauteloso. Cita a influência de T. H. Green e Arnold Toynbee em Oxford, mas admite que sete em cada dez jovens de Oxford e Cambridge eram indiferentes à questão e que a universidade, no conjunto, pendia para o conservadorismo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre os economistas, a mudança seria mais nítida. Jevons já recusava direitos abstratos em matéria social. Em dezembro de 1887, oito dos 14 cursos de economia oferecidos por entidades públicas em Londres eram dados por socialistas declarados. Com ironia seca, Webb agradece a individualistas como Auberon Herbert, estacas fixas à beira da geleira que permitem medir seu movimento."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1/400",
+          "texto": "Parcela da indústria inglesa conduzida por cooperativas, segundo Webb. Pelo capital empregado, as sociedades por ações já eram 160 vezes maiores que as cooperativas. Em 1874, Cairnes via na cooperação produtiva a única saída para o trabalhador. Renda da terra e juros somavam mais de um terço do produto do Reino Unido, segundo dados de Giffen citados pelo autor."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mill e Cairnes apostaram na cooperação; Webb responde que uma geração de experiências mostrou sua insuficiência. E, mesmo universal, ela não eliminaria o tributo do trabalho à propriedade: as cooperativas continuariam pagando juros sobre terra e capital. Ataca a concorrência, não a renda."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto do Estado inglês já era “socialista” em 1889?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui o ensaio vira inventário. Começa pela Lei dos Pobres de 1601 e pela primeira Factory Act, de 1802, aprovada contra a resistência dos economistas. Seguem-se cerca de 400 leis locais de melhoria e, em 1875, o Public Health Act."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "168",
+          "texto": "Localidades em que o gás era produzido pela própria municipalidade, atendendo quase metade dos consumidores do Reino. Em um único ano, 14 autoridades locais obtiveram permissão para tomar empréstimos e entrar no setor. Em 1885-6, 71 órgãos tomaram empréstimos para abastecimento de água. 31 localidades já eram donas de suas linhas de bonde, um quarto da extensão total."
+        },
+        {
+          "tipo": "p",
+          "texto": "Glasgow é o caso extremo: além de gás, água, mercados, parques, bibliotecas e bondes, a prefeitura demoliu cortiços e construiu moradias para os pobres. Somadas as funções, o governo seria o maior empregador direto do país. Webb faz uma distinção ainda atual: regular e tributar no plano nacional; operar no municipal. Lei fabril no centro, gasômetro e bonde na cidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O trecho mais citado é a sátira do “homem prático”. O vereador individualista caminha pela calçada municipal, iluminada pelo gás municipal, telegrafa aos filhos para que tomem o bonde municipal e prepara, na biblioteca municipal, um discurso a favor de estatizar canais. Quando alguém lhe fala em socialismo, responde:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Autoajuda, senhor, autoajuda individual: foi isso que fez nossa cidade ser o que é.”",
+          "original": "“Self-help, sir, individual self-help, that's what's made our city what it is.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O adversário concordava com o diagnóstico. Herbert Spencer, defensor do laissez-faire, previa que as mudanças socializantes acabariam fundidas num socialismo de Estado:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“engolidas pela vasta onda que pouco a pouco elas mesmas levantaram”",
+          "original": "“swallowed in the vast wave which they have little by little raised”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Webb fecha com a política, citando o programa radical publicado pelo jornal The Star em agosto de 1888, e conclui que a Inglaterra ficaria mais coletivista à medida que crescessem a indústria, a riqueza e a democracia."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a força e a fraqueza do ensaio estão na mesma operação: a definição. Ao chamar de socialista toda lei fabril, todo gasômetro municipal e toda escola pública, Webb amplia o conceito até quase torná-lo irrefutável. Os mesmos fatos admitem leitura menos doutrinária: cidades em expansão lidando com saneamento e com serviços de rede — gás, água, bondes — que tendem ao monopólio natural. O próprio texto o sugere: o protagonista não é o militante, mas o homem prático, que resolve problema por problema.",
+            "O que o documento registra com clareza é que a provisão pública cresceu por acumulação, caso a caso, e majoritariamente no nível local. As perguntas que deixa são permanentes: quais serviços devem ser prestados diretamente pelo poder público e quais apenas regulados; em que esfera de governo; e financiados por quem. A divisão proposta por Webb — regular e tributar no centro, operar na cidade — segue útil para discutir federalismo fiscal, qualquer que seja a conclusão."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Lei da renda de Ricardo",
+          "Teoria segundo a qual a renda da terra é o excedente das terras melhores sobre a pior terra em uso, apropriado pelo proprietário."
+        ],
+        [
+          "Rendas não ganhas",
+          "Expressão de Webb para renda da terra e juros, recebidos em razão da propriedade e não do trabalho."
+        ],
+        [
+          "Coletivismo",
+          "Princípio de controle público sobre os principais instrumentos de produção, por oposição ao individualismo."
+        ],
+        [
+          "Cooperação produtiva",
+          "Empresas cujos próprios trabalhadores são donos e gestores, vista por Mill e Cairnes como saída para o assalariado."
+        ],
+        [
+          "Rates",
+          "Tributos locais ingleses sobre imóveis, que financiavam os serviços municipais."
+        ]
+      ],
+      "hoje": "A pergunta de Webb — o que a prefeitura deve fazer diretamente e o que deve apenas regular — segue aberta. Saneamento, transporte urbano, energia e habitação continuam oscilando entre operação pública, concessão e regulação, com movimentos de privatização e de remunicipalização em diferentes países e épocas. O debate raramente se resolve por doutrina: depende de custos, de capacidade administrativa, de qualidade da regulação e de qual esfera de governo arca com o financiamento. O homem prático de 1889, que usava tudo o que era municipal e negava ser socialista, ainda descreve bem a relação ambígua de muitos eleitores com o Estado.",
+      "itens": [
+        [
+          "Socialism in England",
+          "pp. 7–73",
+          "2485715"
+        ]
+      ],
+      "jstor_edicao": "i342415",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Os trabalhadores e as minas do Hocking Valley — F. A. Walker e E. W. Bemis (1888)",
-    "Estatística e economia — Richmond Mayo Smith (1888)",
-    "A estabilidade dos preços — Simon N. Patten (1889)",
-    "A questão dos salários — Stuart Wood e J. B. Clark (1889)",
-    "Socialismo na Inglaterra — Sidney Webb (1889)",
-    "Legislação rodoviária para os estados americanos (1889)"
+    "Legislação rodoviária para os estados americanos — J. W. Jenks (1889)",
+    "O progresso recente da economia política nos EUA — F. A. Walker (1889)",
+    "Malthus e Ricardo — S. N. Patten; o estudo da estatística — D. R. Dewey (1889)",
+    "Um dólar honesto — E. Benjamin Andrews (1889)"
   ]
 }
