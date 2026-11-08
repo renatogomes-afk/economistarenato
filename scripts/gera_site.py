@@ -13,7 +13,7 @@ SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108c"
+CSS_V = "20261108d"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -253,28 +253,87 @@ def pagina_inicio():
             + topo("", rel) + corpo + rodape(rel))
 
 
+COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
+
+
+def edicoes_de(cid):
+    return [ed for ed in DADOS["edicoes"] if ed.get("colecao", "eua") == cid]
+
+
+def subnav_arquivo(rel_arquivo, ativo):
+    """Sub-navegação por região, logo abaixo do menu, em todas as páginas do Arquivo."""
+    itens = [("", "Todas")] + [(c["id"] + "/", c["regiao"]) for c in COLECOES]
+    links = "".join(f'<a href="{rel_arquivo}{h}"{" class=\"ativo\"" if h == ativo else ""}>{e(n)}</a>' for h, n in itens)
+    return f'  <nav class="subnav" aria-label="Regiões do Arquivo"><span class="subnav-rot">Arquivo</span>{links}</nav>\n'
+
+
+def cartao_colecao(c, rel_arquivo):
+    n = len(edicoes_de(c["id"]))
+    selo = f"{n} edições" if c["status"] == "ativa" else "Em preparação"
+    sub = f"{e(c['periodico'])} · {e(c['periodo'])}" if c["periodico"] else "Periódico em escolha"
+    return f"""    <article class="cartao colecao colecao-{c['id']}">
+      <a href="{rel_arquivo}{c['id']}/">
+        <span class="chapeu">Coleção · {e(c['regiao'])}</span>
+        <h3 class="tit tit-g">{e(c['titulo'])}</h3>
+        <p class="olho">{e(c['descricao'])}</p>
+        <span class="selo">{selo}</span>
+        <span class="colecao-sub">{sub}</span>
+      </a>
+    </article>"""
+
+
 def pagina_arquivo():
     rel = "../"
-    s = DADOS["serie"]; eds = DADOS["edicoes"]
-    cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds)
-    prox = "\n".join(f"          <li>{e(p)}</li>" for p in DADOS["proximas"])
+    cards = "\n".join(cartao_colecao(c, "") for c in COLECOES)
+    eua = edicoes_de("eua")
+    recentes = "\n".join(cartao_edicao(ed, rel) for ed in eua[-3:][::-1])
     corpo = f"""
 <main class="env">
-  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
+{subnav_arquivo("", "")}
+  <div class="artigo-topo" style="max-width:820px;margin:28px auto 10px">
     <span class="chapeu">Arquivo · Clássicos comentados</span>
     <h1>Os debates que criaram a economia moderna</h1>
-    <p class="olho">Obras e periódicos de domínio público lidos no original e explicados em português — com o documento sempre a um clique e a pergunta de hoje no fim de cada texto.</p>
+    <p class="olho">Um periódico de referência por região, lido no original e explicado em português — com o documento sempre a um clique e a pergunta de hoje no fim de cada texto.</p>
   </div>
 
   <div class="faixa">
-    <h2>Série 1 · {e(s['titulo'])}</h2>
-    <span class="sub">{len(eds)} edições publicadas</span>
+    <h2>Coleções</h2>
+    <span class="sub">Estados Unidos, China e Europa</span>
   </div>
-  <p class="olho" style="max-width:820px">{e(s['descricao'])}</p>
+  <section class="grade-3">
+{cards}
+  </section>
+
+  <div class="faixa">
+    <h2>Edições mais recentes</h2>
+    <span class="sub">Estados Unidos</span>
+    <a class="mais" href="eua/">Ver todas &rarr;</a>
+  </div>
+  <section class="grade-3">
+{recentes}
+  </section>
+
+  {assine("Uma edição comentada por semana, no seu e-mail.", "O resumo em português, o documento original e a ponte com o debate de hoje.")}
+</main>
+"""
+    escreve("arquivo", cabeca("Arquivo · Clássicos comentados — Economista Renato Gomes", "Os debates que criaram a economia moderna: um periódico de referência por região — Estados Unidos, China e Europa — lido no original e comentado em português.", "arquivo/", rel)
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_colecao(c):
+    rel = "../../"
+    eds = edicoes_de(c["id"])
+    if c["status"] == "ativa" and eds:
+        cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds)
+        prox = "\n".join(f"          <li>{e(p)}</li>" for p in DADOS.get("proximas", [])) if c["id"] == "eua" else ""
+        miolo = f"""  <div class="faixa">
+    <h2>{e(c['periodico'])}</h2>
+    <span class="sub">{len(eds)} edições publicadas · {e(c['periodo'])}</span>
+  </div>
   <section class="grade-3">
 {cartoes}
   </section>
-
+""" + (f"""
   <div class="faixa">
     <h2>Próximas edições</h2>
     <span class="sub">Na ordem de publicação</span>
@@ -283,13 +342,34 @@ def pagina_arquivo():
     <ul>
 {prox}
     </ul>
-    <p class="nota-legal">Fontes: publicações da American Economic Association (1886–1922), em domínio público, via JSTOR Early Journal Content e Internet Archive. Os resumos e comentários são do autor deste site, que não tem afiliação com a American Economic Association.</p>
   </div>
-
+""" if prox else "")
+        nota = f"Fonte: {e(c['fonte'])}. {e(c['licenca'])} Os resumos e comentários são do autor deste site."
+    else:
+        miolo = """  <section class="em-preparacao">
+    <span class="selo">Em preparação</span>
+    <h2>Esta coleção ainda não tem edições publicadas.</h2>
+    <p>O periódico desta região está em escolha. Quando ele for definido, as edições entram aqui no mesmo formato do Arquivo: resumo em português, o documento original a um clique, glossário e a pergunta de hoje.</p>
+    <p>Quer ser avisado da primeira edição? Assine a carta abaixo.</p>
+  </section>
+"""
+        nota = "As fontes, o período e o regime de direitos autorais do periódico serão indicados aqui quando a coleção for aberta."
+    corpo = f"""
+<main class="env">
+{subnav_arquivo("../", c["id"] + "/")}
+  <div class="artigo-topo" style="max-width:820px;margin:28px auto 10px">
+    <span class="chapeu">Arquivo · {e(c['regiao'])}</span>
+    <h1>{e(c['titulo'])}</h1>
+    <p class="olho">{e(c['descricao'])}</p>
+  </div>
+{miolo}
+  <div class="corpo" style="max-width:820px;margin:0">
+    <p class="nota-legal">{nota}</p>
+  </div>
   {assine("Uma edição comentada por semana, no seu e-mail.", "O resumo em português, o documento original e a ponte com o debate de hoje.")}
 </main>
 """
-    escreve("arquivo", cabeca("Arquivo · Clássicos comentados — Economista Renato Gomes", "Os debates que criaram a economia moderna, lidos no original e explicados em português, com o documento sempre a um clique.", "arquivo/", rel)
+    escreve(f"arquivo/{c['id']}", cabeca(f"Arquivo · {c['regiao']} — Economista Renato Gomes", c["descricao"][:155], f"arquivo/{c['id']}/", rel)
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
@@ -384,6 +464,8 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
     if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Nº {anterior["numero"]} · {e(anterior["titulo"])}</a>')
     if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Nº {proxima["numero"]} · {e(proxima["titulo"])} &rarr;</a>')
     corpo = f"""
+<div class="env">
+{subnav_arquivo("../", ed.get("colecao", "eua") + "/")}</div>
 <article class="artigo">
   <div class="artigo-topo">
     <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</span>
@@ -625,7 +707,7 @@ def pagina_obrigado():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
+    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
@@ -635,7 +717,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)

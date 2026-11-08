@@ -1,0 +1,37 @@
+{
+  "colecoes": [
+    {
+      "id": "eua",
+      "regiao": "Estados Unidos",
+      "status": "ativa",
+      "periodico": "Publications of the American Economic Association / American Economic Review",
+      "periodo": "1886–1922",
+      "titulo": "As publicações da American Economic Association (1886–1922)",
+      "descricao": "Entre 1885 e 1922, uma geração de economistas americanos discutiu monopólios, ferrovias, moeda, trabalho e o papel do Estado com uma regra nova: fatos antes de doutrina. Estas são as edições que eles publicaram — lidas uma a uma, resumidas em português e ligadas ao debate de hoje.",
+      "fonte": "JSTOR Early Journal Content e Internet Archive",
+      "licenca": "Domínio público nos EUA (publicado antes de 1931). Sem afiliação com a American Economic Association."
+    },
+    {
+      "id": "china",
+      "regiao": "China",
+      "status": "em preparação",
+      "periodico": "",
+      "periodo": "",
+      "titulo": "China",
+      "descricao": "Um periódico de referência do pensamento econômico chinês, lido no original e comentado em português, edição por edição. A escolha do periódico está em andamento.",
+      "fonte": "",
+      "licenca": ""
+    },
+    {
+      "id": "europa",
+      "regiao": "Europa",
+      "status": "em preparação",
+      "periodico": "",
+      "periodo": "",
+      "titulo": "Europa",
+      "descricao": "Um periódico de referência da economia europeia, lido no original e comentado em português, edição por edição. A escolha do periódico está em andamento.",
+      "fonte": "",
+      "licenca": ""
+    }
+  ]
+}

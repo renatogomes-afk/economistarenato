@@ -528,3 +528,12 @@ figcaption .credito::before{content:"· "}
 @media (max-width:640px){.entao-agora{grid-template-columns:1fr}.glossario dl{grid-template-columns:1fr}.glossario dd{margin-bottom:8px}}
 .tempo-leitura{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--azul);margin:6px 0 12px;display:inline-block;border:1px solid var(--azul);padding:4px 10px}
 .tempo-leitura::before{content:"\23F1\FE0E  "}
+/* Arquivo por regiões (2026-11-08) */
+.subnav{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:18px 0 0;padding:10px 0;border-bottom:1px solid #e3e0da;font-family:var(--sans);font-size:13px}
+.subnav-rot{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza);margin-right:8px}
+.subnav a{padding:6px 12px;border:1px solid #d6d2ca;color:var(--tinta);text-decoration:none}
+.subnav a.ativo,.subnav a:hover{background:var(--azul);border-color:var(--azul);color:#fff}
+.colecao-sub{display:block;font-family:var(--sans);font-size:11px;color:var(--cinza);margin-top:8px}
+.em-preparacao{max-width:820px;margin:10px auto 0;background:#f5f3ef;border-top:3px solid var(--azul);padding:26px 28px}
+.em-preparacao h2{font-family:var(--serif);font-size:1.5rem;margin:12px 0 8px}
+@media (max-width:640px){.subnav a{padding:6px 10px}.em-preparacao{padding:20px}}
