@@ -14,7 +14,7 @@ DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"),
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108e"
+CSS_V = "20261108f"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -54,7 +54,7 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
 
 # Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
+MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
         ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
 
 
@@ -143,6 +143,7 @@ def rodape(rel):
           <li><a href="{rel}arquivo/eua/">— Estados Unidos</a></li>
           <li><a href="{rel}arquivo/europa/">— Europa</a></li>
           <li><a href="{rel}arquivo/china/">— China</a></li>
+          <li><a href="{rel}leituras/">Leituras · Livros comentados</a></li>
           <li><a href="{rel}ensaios/">Ensaios</a></li>
           <li><a href="{rel}notas/">Notas · Então × Agora</a></li>
           <li><a href="{rel}analises/">Análises</a></li>
@@ -776,8 +777,202 @@ def pagina_obrigado():
     escreve("obrigado", cabeca("Obrigado — Economista Renato Gomes", "Mensagem recebida.", "obrigado/", rel) + topo("", rel, completo=False) + corpo + rodape(rel))
 
 
+# ------------------------------------------------------------------ Leituras · Livros comentados
+# Um JSON por livro em scripts/leituras/<slug>.json: ficha do livro, mapa das partes, lista de capítulos
+# e as resenhas publicadas ("resenhas"). Página do livro em /leituras/<livro>/, uma página por capítulo
+# resenhado em /leituras/<livro>/<slug-da-resenha>/.
+LEIT_DIR = os.path.join(RAIZ, "scripts", "leituras")
+LIVROS = [json.load(open(os.path.join(LEIT_DIR, f), encoding="utf-8"))
+          for f in sorted(os.listdir(LEIT_DIR)) if f.endswith(".json") and not f.startswith("_")] if os.path.isdir(LEIT_DIR) else []
+
+
+def ficha_livro(L):
+    linhas = [("Autor", L["autor"]), ("Editora", f"{L['editora']}, {L['local']}, {L['ano']}"), ("Extensão", f"{L['paginas']} páginas")]
+    if L.get("isbn"): linhas.append(("ISBN", L["isbn"]))
+    dd = "".join(f"<dt>{e(a)}</dt><dd>{e(b)}</dd>" for a, b in linhas)
+    compra = f'<dt>Onde comprar</dt><dd><a href="{L["compra_url"]}" target="_blank" rel="noopener">{e(L["compra_nome"])}</a>{" ou qualquer livraria, pelo ISBN" if L.get("isbn") else ""}</dd>'
+    return f'    <div class="ficha-livro">\n      <h3>Ficha do livro</h3>\n      <dl>{dd}{compra}</dl>\n    </div>'
+
+
+def nota_resenha(L):
+    return (f"Resenha: resumo e comentário do autor deste site, em suas próprias palavras. As teses apresentadas são de "
+            f"{L['autor']}, atribuídas a ele. As citações são curtas, traduzidas, com a página indicada; o texto integral não é reproduzido aqui. "
+            f"“{L['titulo']}” © {L['ano']} {L['autor']} / {L['editora']}. Para o argumento completo, leia o livro.")
+
+
+def cartao_resenha(L, r, rel):
+    return f"""    <article class="cartao">
+      <a href="{rel}leituras/{L['slug']}/{r['slug']}/">
+        <span class="chapeu">{e(L['titulo'])} · Capítulo {r['numero']}</span>
+        <h3 class="tit tit-g">{e(r['titulo'])}</h3>
+        <p class="olho">{e(r['chamada'])}</p>
+        <span class="selo">Leitura: {minutos(r)} min</span>
+      </a>
+    </article>"""
+
+
+def pagina_leituras():
+    rel = "../"
+    cards = []
+    for L in LIVROS:
+        n = len(L.get("resenhas", []))
+        cards.append(f"""    <article class="cartao colecao">
+      <a href="{L['slug']}/">
+        <span class="chapeu">{e(L['autor'])} · {L['ano']}</span>
+        <h3 class="tit tit-g">{e(L['titulo'])}</h3>
+        <p class="olho">{e(L['chamada'])}</p>
+        <span class="selo">{n} de {len(L['capitulos'])} capítulos resenhados</span>
+      </a>
+    </article>""")
+    corpo = f"""
+<main class="env">
+  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
+    <span class="chapeu">Leituras · Livros comentados</span>
+    <h1>Livros lidos capítulo a capítulo</h1>
+    <p class="olho">Obras longas de história e de pensamento econômico, resenhadas na ordem, um capítulo por página: o argumento do autor em português, os fatos citados, um glossário e a pergunta de hoje.</p>
+  </div>
+  <section class="grade-3">
+{chr(10).join(cards)}
+  </section>
+  {assine("Um capítulo novo por semana, no seu e-mail.", "A resenha em português, com a página do livro e a ponte com o debate de hoje.")}
+</main>
+"""
+    escreve("leituras", cabeca("Leituras · Livros comentados — Economista Renato Gomes",
+                               "Obras de história e pensamento econômico resenhadas capítulo a capítulo, em português, com a página citada.", "leituras/", rel)
+            + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_livro(L):
+    rel = "../../"
+    publicadas = {r["numero"]: r for r in L.get("resenhas", [])}
+    partes = []
+    for pt in L["partes"]:
+        a, b = pt["capitulos"]
+        lis = []
+        for c in L["capitulos"]:
+            if not (a <= c["numero"] <= b): continue
+            r = publicadas.get(c["numero"])
+            nome = f'{c["numero"]}. {e(c["titulo_pt"])}'
+            if r:
+                lis.append(f'          <li><a href="{r["slug"]}/"><b>{nome}</b></a> <span class="cap-meta">{e(c["paginas"])} · {minutos(r)} min</span></li>')
+            else:
+                lis.append(f'          <li class="cap-futuro">{nome} <span class="cap-meta">{e(c["paginas"])} · em breve</span></li>')
+        partes.append(f"""    <section class="parte-livro">
+      <h3>Parte {pt['numero']} · {e(pt['titulo'])} <span class="cap-meta">caps. {a}–{b}</span></h3>
+      <p>{e(pt['descricao'])}</p>
+      <ol class="lista-caps" start="{a}">
+{chr(10).join(lis)}
+      </ol>
+    </section>""")
+    ult = L.get("resenhas", [])[-3:][::-1]
+    recentes = "\n".join(cartao_resenha(L, r, rel) for r in ult)
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu">Leituras · Livros comentados</span>
+    <h1>{e(L['titulo'])}</h1>
+    <p class="subtitulo-livro">{e(L['subtitulo'])}</p>
+    <p class="olho">{e(L['chamada'])}</p>
+  </div>
+  <div class="corpo">
+{ficha_livro(L)}
+{render_blocos(L['blocos'])}
+  </div>
+</article>
+<main class="env">
+  <div class="faixa">
+    <h2>Resenhas mais recentes</h2>
+    <span class="sub">Na ordem do livro</span>
+  </div>
+  <section class="grade-3">
+{recentes}
+  </section>
+  <div class="faixa">
+    <h2>O livro, capítulo a capítulo</h2>
+    <span class="sub">{len(publicadas)} de {len(L['capitulos'])} resenhados</span>
+  </div>
+  <div class="mapa-livro">
+{chr(10).join(partes)}
+  </div>
+  <div class="corpo" style="max-width:820px;margin:0">
+    <p class="nota-legal">{e(nota_resenha(L))}</p>
+  </div>
+  {assine("Um capítulo novo por semana, no seu e-mail.", "A resenha em português, com a página do livro e a ponte com o debate de hoje.")}
+</main>
+"""
+    escreve(f"leituras/{L['slug']}", cabeca(f"{L['titulo']}, de {L['autor']} — Leituras · Economista Renato Gomes", L["chamada"], f"leituras/{L['slug']}/", rel)
+            + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_resenha(L, r, anterior, proxima):
+    rel = "../../../"
+    nav = []
+    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Cap. {anterior["numero"]} · {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Cap. {proxima["numero"]} · {e(proxima["titulo"])} &rarr;</a>')
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">{e(L['titulo'])}</a> · Capítulo {r['numero']} de {len(L['capitulos'])} · {e(r['paginas'])}</span>
+    <h1>{e(r['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(r)} min · Resenha</p>
+    <p class="olho">{e(r['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem">
+        <b>Resenha de Renato W. Gomes</b>
+        <span>Original: “{e(r['titulo_original'])}” — {e(L['autor'])}, {e(L['titulo'])} ({L['ano']}), {e(r['paginas'])}</span>
+      </div>
+    </div>
+  </div>
+  <div class="corpo">
+{render_blocos(r['blocos'])}
+{glossario_html(r.get('glossario'))}
+
+    <div class="caixa-num">
+      <div class="valor">E hoje?</div>
+      <div class="exp">{e(r.get('hoje', ''))}</div>
+    </div>
+
+    <div class="fontes">
+      <h3>O livro</h3>
+      <ol>
+        <li>{e(L['autor'])}. <b>{e(L['titulo'])}: {e(L['subtitulo'])}</b>. {e(L['local'])}: {e(L['editora'])}, {L['ano']}. Capítulo {r['numero']}, “{e(r['titulo_original'])}”, {e(r['paginas'])}.{(' ISBN ' + e(L['isbn']) + '.') if L.get('isbn') else ''} <a href="{L['compra_url']}" target="_blank" rel="noopener">Onde comprar</a>.</li>
+        <li><a href="../">Todos os capítulos de {e(L['titulo'])}</a>.</li>
+      </ol>
+    </div>
+
+    <p class="nota-legal">{e(nota_resenha(L))} Encontrou um erro? Escreva: a correção é publicada no próprio texto, com data.</p>
+
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+
+<div class="env">
+  {assine("Um capítulo novo por semana, no seu e-mail.", "A resenha em português, com a página do livro e a ponte com o debate de hoje.")}
+</div>
+"""
+    escreve(f"leituras/{L['slug']}/{r['slug']}", cabeca(f"{r['titulo']} — {L['titulo']}, cap. {r['numero']} · Economista Renato Gomes", r["chamada"],
+                                                     f"leituras/{L['slug']}/{r['slug']}/", rel, "article")
+            + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
+
+
+def gera_leituras():
+    if not LIVROS: return
+    pagina_leituras()
+    for L in LIVROS:
+        pagina_livro(L)
+        rs = L.get("resenhas", [])
+        for i, r in enumerate(rs):
+            pagina_resenha(L, r, rs[i - 1] if i > 0 else None, rs[i + 1] if i + 1 < len(rs) else None)
+
+
+
 def sitemap():
     urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
+    if LIVROS:
+        urls += ["leituras/"]
+        for L in LIVROS:
+            urls += [f"leituras/{L['slug']}/"] + [f"leituras/{L['slug']}/{r['slug']}/" for r in L.get("resenhas", [])]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
@@ -794,4 +989,5 @@ if __name__ == "__main__":
     eds = DADOS["edicoes"]
     for i, ed in enumerate(eds):
         pagina_edicao(ed, eds[i - 1] if i > 0 else None, eds[i + 1] if i + 1 < len(eds) else None)
+    gera_leituras()
     sitemap()
