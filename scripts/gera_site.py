@@ -239,7 +239,7 @@ def pagina_inicio():
     <div class="retrato"><img src="assets/retrato-palacios.jpg" alt="Renato W. Gomes" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
     <div>
       <h3 class="tit tit-g" style="font-style:normal">Renato W. Gomes</h3>
-      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Atendeu mais de 300 empresas em planejamento contábil, tributário e financeiro, e trabalhou no mercado financeiro no Rio de Janeiro e em Brasília.</p>
+      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Trabalha com planejamento contábil, tributário e financeiro de empresas e atuou no mercado financeiro no Rio de Janeiro e em Brasília.</p>
       <p class="olho">O método é o mesmo para um relatório de 1886 e para o orçamento de 2026: ler o documento original, citar a fonte e separar o que é fato do que é opinião.</p>
       <div class="assin"><a href="sobre/"><b>Leia o método completo</b></a><i class="ponto"></i><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></div>
     </div>
@@ -382,9 +382,9 @@ def pagina_servicos():
 
   <section class="grade-3">
     <article class="cartao produto">
-      <span class="chapeu">Consultoria · WGSA</span>
+      <span class="chapeu">Consultoria</span>
       <h3 class="tit tit-g">Planejamento financeiro e tributário</h3>
-      <p class="olho">Planejamento contábil, tributário e financeiro para empresas — experiência com mais de 300 clientes. Atendimento pela WGSA Gestão Empresarial.</p>
+      <p class="olho">Planejamento contábil, tributário e financeiro para empresas, com o mesmo método das análises: documento, número e fonte.</p>
     </article>
     <article class="cartao produto" id="palestras">
       <span class="chapeu dado">Palestras</span>
@@ -440,7 +440,7 @@ def pagina_sobre():
   </figure>
   <div class="corpo">
     <h2>Trajetória</h2>
-    <p>Sou economista há quinze anos, consultor independente com especialização em Finanças pela Fundação Getúlio Vargas. Já atendi mais de trezentas empresas em planejamento contábil, tributário e financeiro, e trabalhei no mercado financeiro no Rio de Janeiro e em Brasília. Sou sócio-fundador da WGSA Gestão Empresarial.</p>
+    <p>Sou economista há quinze anos, consultor independente com especialização em Finanças pela Fundação Getúlio Vargas. Trabalho com planejamento contábil, tributário e financeiro de empresas e atuei no mercado financeiro no Rio de Janeiro e em Brasília.</p>
     <p>Desde 2020 publico análises econômicas no Instagram, como <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>. Este site é a extensão desse trabalho, com espaço para o que não cabe num vídeo curto: o documento, a tabela e a fonte.</p>
 
     <h2>Economia pelas fontes</h2>
