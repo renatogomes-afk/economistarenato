@@ -2938,12 +2938,892 @@
       ],
       "jstor_edicao": "i342415",
       "colecao": "eua"
+    },
+    {
+      "slug": "1889-legislacao-rodoviaria",
+      "numero": 19,
+      "titulo": "Lama, enxada e pedágio: o custo da estrada ruim nos EUA de 1889",
+      "titulo_original": "Road Legislation for the American State",
+      "autores": "Jeremiah W. Jenks, Ph.D., professor de ciência política e literatura inglesa, Knox College, Galesburg (Illinois)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 3",
+      "data": "maio de 1889",
+      "chamada": "Em 1889, Jeremiah Jenks calculou quanto a estrada de terra custava ao fazendeiro americano e propôs trocar o dia de trabalho obrigatório por imposto em dinheiro e engenheiros pagos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No oeste do estado de Nova York, duas aldeias ficavam a 800 pés de altura uma da outra. A estrada antiga, traçada por uma comissão de moradores, fazia quem ia da mais baixa à mais alta subir 1.200 pés; na volta, ainda se subiam 400. Um engenheiro refez o traçado: 800 pés na ida, nenhum na volta. O caso resume o problema. Nos Estados Unidos, as estradas vicinais eram obra de amadores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A monografia de Jeremiah W. Jenks, professor no Knox College, em Galesburg, Illinois, saiu em maio de 1889. Os governadores de Massachusetts e da Pensilvânia haviam pedido naquele inverno a revisão das leis rodoviárias. Os economistas, observa Jenks, atraídos pela ferrovia, tinham esquecido a estrada comum."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava uma estrada de terra ao fazendeiro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O censo de 1880 tentou estimar o custo de levar grãos da fazenda à estação. As respostas variaram muito, mas a média, conclui Jenks, ficava em pelo menos 60 centavos de dólar por 100 bushels transportados por uma milha. A oeste do lago Michigan, diz o relatório do censo, o fazendeiro gastava mais para levar um bushel por uma milha do que a ferrovia para levar uma tonelada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A física explica a conta. Numa tabela do engenheiro Q. A. Gillmore, medida com dinamômetro numa carroça de uma tonelada, a estrada de terra em bom estado exigia 200 libras de tração; a de pedra britada sobre base de pedras grandes, 46. A mesma parelha puxava cerca de quatro vezes mais. E a estrada de terra passava mais da metade do ano fora do bom estado."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 15 milhões",
+          "texto": "Custo anual das estradas ruins só em Illinois, segundo a estimativa de Richard T. Ely, de 15 dólares por cavalo, aplicada aos cavalos de fazenda do estado (US$ 15.346.230). Pelos cálculos de Jenks, um cavalo de tração que renderia 150 dólares por ano em boas estradas rendia cerca de 100 nas estradas do estado. Comissários de estradas de Illinois diziam que, em dois terços do ano, só se transportava metade de uma boa carga."
+        },
+        {
+          "tipo": "p",
+          "texto": "O engenheiro Clemens Herschel, de Boston, concluiu que o cavalo inglês fazia o dobro do trabalho do americano. Não por ser melhor cavalo, mas por causa da estrada:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“[O inglês] investiu em estradas perfeitas e permanentes o que o americano gasta em cavalos perecíveis.”",
+          "original": "“invested in perfect and permanent roads what the American expends in perishable horses”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Havia ainda o preço da terra. Illinois tinha 31.673.645 acres agrícolas, avaliados em 1880 em cerca de 32 dólares por acre. Se boas estradas de terra acrescentassem só 5 dólares por acre, o estado ganharia 160 milhões de dólares em riqueza."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que se pagava a estrada com dias de trabalho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O sistema viera da Inglaterra: funcionários de estrada eleitos no município e o imposto em trabalho, pelo qual cada contribuinte cumpria alguns dias de serviço na estrada em vez de pagar em dinheiro. Numa república de população rala e tráfego local, funcionava. A ferrovia, a partir de 1830, tirou as estradas da política nacional, e o apego ao township, a unidade municipal rural, travava qualquer reforma."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1889, o imposto em trabalho era usado regularmente em todos os estados, menos cinco. Seis estados, todos do Sul, nem previam imposto em dinheiro. Nenhum estado tinha supervisão geral das estradas, e em nenhum havia engenheiros empregados regularmente nas vias principais. Illinois permitia contratar um, mas a permissão quase nunca era usada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A crítica de Jenks é prática. Sob o disfarce do imposto, muitos perdiam o dia contando histórias e fingindo trabalhar. Os próprios comissários de Illinois estimavam que pelo menos metade do imposto em dinheiro era desperdiçada por ignorância ou descuido, e uma parte maior ainda do trabalho: de 2 a 2,5 milhões de dólares por ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde as estradas principais eram de companhias de pedágio, como em Maryland, elas não as melhoravam nem deixavam ninguém melhorá-las."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a Europa fazia diferente?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Classificava as estradas pela importância e dava a cada nível um responsável. Na Prússia havia três classes: estradas do Estado, provinciais e locais. A França, que segundo Jenks tinha o sistema mais completo e as melhores estradas da Europa, tinha cinco. As routes nationales eram mantidas pelo Estado e geridas pelos engenheiros de Ponts et Chaussées; as demais ficavam com os departamentos e as comunas, sob o conselho geral."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 dias",
+          "texto": "A prestation francesa, descrita por Waddington e reproduzida no apêndice: cada contribuinte devia três dias de trabalho por ano à estrada, mais três dias de cada cavalo, boi de tração e carroça. O dia podia ser comutado em dinheiro; no departamento de Aisne, 2 francos pelo homem e 3,25 francos pelo cavalo. As prestations respondiam ali por pouco mais da metade do gasto com as estradas do conselho geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "A diferença estava na gestão. Na França, o trabalho obrigatório era dirigido por agents voyers treinados e por cantonniers fixos em cada trecho. Mesmo assim, diz Waddington, o trabalhador pago fazia mais e melhor que o contribuinte; só o carreto saía mais barato em prestation. Se nem os franceses extraíam bom trabalho braçal do imposto, conclui Jenks, os americanos não extrairiam."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Inglaterra mostrava o fim do pedágio. Os turnpike trusts chegaram a 104.772 milhas em 1840, mas o censo de 1871 contou cerca de 5.000 cobradores na Inglaterra e na Escócia, e muitos trusts estavam afundados em dívidas. As leis de 1862 a 1878 agruparam paróquias em distritos e classificaram as estradas principais; a de 1888 entregou-as aos condados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Jenks propunha às assembleias estaduais?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O princípio vem antes: o custo deve ser repartido conforme o benefício. Como a cidade e os donos de terra também ganham com a estrada, o pedágio é injusto em princípio e deve ser abolido assim que os direitos das companhias permitirem. As estradas seriam divididas em três classes: as principais, geridas e pagas pelo condado; as de ligação, pagas sobretudo pelos municípios e geridas pelo condado; e as locais, a cargo do município."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto central é o engenheiro civil assalariado, contratado pelo condado, e não eleito. Ele faria mapas topográficos e apresentaria todo outono o relatório do ano e o plano do seguinte, com orçamento. Pelas contas dos comissários, o desperdício de um condado médio compraria dois rolos compressores a vapor por ano e pagaria duas vezes o salário do engenheiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto do plano: abolir o imposto em trabalho, salvo na parcela acima do limite ordinário; permitir empréstimos, sob condições estritas, para estradas permanentes; e criar uma junta estadual de três engenheiros para reunir e publicar os relatórios dos condados. No fim, Jenks reduz tudo a duas exigências: classificar as estradas e, sobretudo, pôr gente qualificada no comando."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhum sistema pode dar certo se [...] não garantir construtores de estradas qualificados para supervisionar o trabalho.”",
+          "original": "“no system can succeed that does not [...] secure skilled roadmakers to supervise the work”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o texto de Jenks trata do custo invisível de um tributo que parece barato. O dia de trabalho na estrada não aparecia em orçamento algum e por isso parecia gratuito. Mas era pago duas vezes: no dia perdido e no cavalo que rendia menos. Trocá-lo por imposto em dinheiro, com gestão profissional, é antes de tudo tornar o custo visível e alguém responsável por ele.",
+            "O dilema permanece. Jenks queria escala de condado e engenheiro de carreira, mas sabia que o eleitor local resiste a perder poder para instâncias maiores. Toda reforma de infraestrutura local escolhe entre a proximidade de quem usa a estrada e a competência de quem sabe construí-la. Classificar e dar a cada nível o que lhe cabe continua sendo a saída mais sensata."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto em trabalho",
+          "Tributo pago com dias de serviço pessoal, de animais ou de carroças na conservação das estradas, em vez de dinheiro."
+        ],
+        [
+          "Comutação",
+          "Conversão do dia de trabalho devido em pagamento em dinheiro, segundo uma tabela oficial."
+        ],
+        [
+          "Turnpike",
+          "Estrada com pedágio, construída e mantida por uma companhia ou trust autorizado a cobrar tarifas dos usuários."
+        ],
+        [
+          "Township",
+          "Unidade municipal rural americana, com assembleia de eleitores e funcionários eleitos, inclusive os de estradas."
+        ],
+        [
+          "Prestation en nature",
+          "Versão francesa do imposto em trabalho: três dias anuais de serviço do contribuinte e de seus animais e carroças."
+        ]
+      ],
+      "hoje": "A pergunta de Jenks segue atual onde há estradas vicinais de terra: quem paga a conservação, e com que competência técnica ela é feita? Muitos municípios pequenos ainda mantêm suas estradas rurais sem engenheiro próprio, com máquinas compartilhadas e manutenção feita só em certas épocas do ano, o defeito que Gillmore já apontava. Consórcios intermunicipais, classificação da malha por importância e manutenção contínua são, em essência, as soluções que ele propunha. E o argumento econômico continua o mesmo: estrada ruim é um imposto oculto sobre o frete de quem produz.",
+      "itens": [
+        [
+          "Road Legislation for the American State",
+          "pp. 9–83",
+          "2485664"
+        ]
+      ],
+      "jstor_edicao": "i342416",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-o-progresso-da-economia",
+      "numero": 20,
+      "titulo": "Filadélfia, 1888: a noite em que a economia deixou de ser seita",
+      "titulo_original": "Report of the Third Annual Meeting",
+      "autores": "Dr. William Pepper, Provost of the University of Pennsylvania; General Francis A. Walker, LL.D., President of Massachusetts Institute of Technology; Richard T. Ely, Secretary",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 4",
+      "data": "julho de 1889",
+      "chamada": "Na terceira reunião anual, Francis A. Walker anunciou o fim da economia de facções: o laissez-faire deixava de ser dogma e virava regra com ônus da prova. O relatório do secretário mostra a casa crescendo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na noite de quinta-feira, 27 de dezembro de 1888, o salão da Universidade da Pensilvânia, na Filadélfia, recebeu a sessão solene da terceira reunião anual da American Economic Association. Falaram o reitor da universidade, William Pepper; Robert Adams Jr., em nome dos cidadãos da cidade; e o presidente da associação, o general Francis A. Walker, presidente do Massachusetts Institute of Technology. Depois, um lanche nas salas ao lado. Por dificuldade de agenda, a sessão não pôde abrir o encontro; os discursos só ganharam o primeiro lugar no papel."
+        },
+        {
+          "tipo": "p",
+          "texto": "O volume que registra a reunião saiu em julho de 1889. Reúne a saudação de Pepper, o discurso de Walker, Progresso recente da economia política nos Estados Unidos, e o longo relatório do secretário, Richard T. Ely, sobre os quatro dias de trabalhos, de 26 a 29 de dezembro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fio comum é uma tese de Walker. A associação, vista como uma seita econômica em sua fundação, em Saratoga, em 1885, já abrangia, segundo ele, todos os economistas ativos do país. O relatório de Ely confirma o diagnóstico com números e com uma decisão: a assembleia aprovou emenda segundo a qual a associação não tomaria atitude partidária nem comprometeria seus membros com posições sobre questões práticas. É o registro de uma profissão aprendendo a discordar sem excomungar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Walker chamou a disputa tarifária de falsa questão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker começa pelo passado. Num país novo, de terra abundante e pouca tradição, os economistas americanos teriam tido uma oportunidade rara de estudar as forças industriais em estado puro. Desperdiçaram-na ao se dividir cedo entre protecionismo e livre-comércio, que ele chama de questão em grande parte falsa. Exigir que um economista se declarasse primeiro de um lado era, compara, como exigir que um cidadão fosse pacifista absoluto ou belicista absoluto."
+        },
+        {
+          "tipo": "p",
+          "texto": "A divisão produziu leituras seletivas da Europa. Os protecionistas buscavam os mestres alemães sem entender seu método histórico e estatístico. Os livre-cambistas importavam os ingleses em sua forma mais crua, ignorando as ressalvas dos próprios autores. O exemplo de Walker é a doutrina do fundo de salários, fruto, diz ele, de condições peculiares e insulares da Inglaterra e desmentida pela experiência americana mais corriqueira."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o laissez-faire virou teste de pertencimento?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro passo do movimento, diz Walker, foi emancipar a economia da teologia natural. Durante décadas, provar que um arranjo era natural bastava para prová-lo conveniente. Ele não briga com a teologia; exige apenas que toda instituição apresentada como benéfica seja demonstrada pelos fatos observados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o laissez-faire ocorreu algo semelhante. Na Inglaterra, a doutrina era qualificada por vários economistas. Nos Estados Unidos, ganhou rigidez maior que em qualquer outro lugar, e não servia apenas para separar ortodoxos de heterodoxos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Era usada para decidir se um homem era economista, afinal.”",
+          "original": "It was used to decide whether a man were an economist at all."
+        },
+        {
+          "tipo": "p",
+          "texto": "A intolerância, argumenta, decorria da própria doutrina: se ela fosse universalmente verdadeira, não haveria razão para conversar com quem pensasse diferente. Admitidas exceções, toda classe, comunidade e instituição passa a ser evidência. A economia deixa de ser obra acabada, que um único raciocinador poderia ter feito numa ilha de mil habitantes, e vira trabalho coletivo, sempre por fazer."
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker, porém, faz uma ressalva que sustenta o discurso inteiro. Declara-se crente na liberdade e no esforço individual e aceita o laissez-faire como regra prática de grande alcance, à qual só se abre exceção por motivo claro de interesse público urgente."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um pesado ônus da prova recai sobre toda proposta de limitar”",
+          "original": "a heavy burden of proof rests upon every proposal to limit"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou na figura do trabalhador?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Ricardo e os Mill, bastava um homem econômico abstrato, que Walker descreve como marionete: útil para as leis da produção e da troca, inútil para tratar da distribuição. As demandas de trabalhadores e reformadores obrigaram a economia a estudar pessoas reais. Walker credita à lei da seleção natural, anunciada cerca de vinte anos antes, um impulso decisivo, e Pepper também invocou Darwin e Spencer. É um vocabulário de época, que transpunha a biologia para a sociedade com uma confiança que hoje pede cautela."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo central é o que ele chama de tutela do capital: a ideia de que os empregadores eram os curadores naturais dos salários. Cairnes ainda a reafirmava quinze anos antes. Sua queda, sustenta Walker, não veio de melhor raciocínio profissional, mas de trabalhadores que atingiram a maioridade, ajudados, na Inglaterra, pelo fim do imposto sobre jornais, pela revogação das leis contra associações operárias, pelos sindicatos e pela educação pública gratuita."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde vai o imposto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo mais afiado é tributário. Em 1872, David A. Wells, presidente da comissão de impostos do Estado de Nova York, escreveu que todos os impostos se igualam e se difundem. Em 1874, acrescentou que um tributo lançado sobre Astor iria para os aluguéis e, sobre Stewart, para as mercadorias. Walker comenta com ironia seca: como seria simples, assim, o trabalho do legislador."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“ao longo das linhas de menor resistência”",
+          "original": "along the lines of least resistance"
+        },
+        {
+          "tipo": "p",
+          "texto": "A expressão, que Walker atribui ao mais capaz representante americano da escola inglesa, sem nomeá-lo, muda tudo. Os impostos se difundem, mas param em quem não consegue repassá-los: os pobres, os endividados, os que dependem de intermediários. A incidência deixa de ser detalhe e vira responsabilidade do legislador. Walker fecha com a imagem de uma baía seca invadida pelo mar, para dizer quanto o mundo econômico mudara."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que disse o anfitrião?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pepper chamou a reunião de a mais importante entre as recebidas pela universidade e rebateu o que descreveu como impressão errônea sobre o ensino de economia ali. Ridicularizou os velhos economistas com o doutor Sangrado, do romance Gil Blas, que curava tudo com sangria e água morna, crítica que estendia aos entusiastas da livre concorrência absoluta e aos da intervenção extrema. Defendeu um método histórico, comparativo e estatístico."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o relatório do secretário mostra sobre a associação?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely registra uma casa em expansão. A associação somava 500 membros em dezembro de 1888, e o secretário via possibilidade de chegar a 10 mil. Havia seis filiais locais, de Springfield a Canton, no Ohio, e notícias de associações inspiradas na americana em Oxford e em Sydney."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "500",
+          "texto": "Membros da associação na reunião de dezembro de 1888. Eram 182 na primeira lista, de março de 1886; 300 na reunião de Boston, em maio de 1887; e 455 na segunda lista, de julho de 1888. As seis filiais somavam mais de 150 membros e retinham metade da anuidade de US$ 3."
+        },
+        {
+          "tipo": "p",
+          "texto": "A pauta mostra a amplitude da época: salários, com J. B. Clark; ensino manual, estradas, estatísticas ferroviárias, o dólar honesto, as leis agrárias irlandesas e decisões judiciais sobre conspiração e boicote. Nos debates, Lester F. Ward relatou que, em 1874-79, as tarifas de carga nas ferrovias estatais prussianas foram 15% menores que nas privadas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "28 mil",
+          "texto": "Casos de pobreza estudados por sociedades de organização da caridade, citados por A. G. Warner. Pelos resultados: 10% deveriam receber auxílio por mais de dois anos; 27%, por menos de dois anos; 40% precisavam de trabalho, não de auxílio; e 23% não deveriam receber auxílio material."
+        },
+        {
+          "tipo": "p",
+          "texto": "A decisão mais duradoura foi institucional. A assembleia reescreveu o artigo II do estatuto: pesquisa histórica e estatística, monografias, perfeita liberdade de discussão sem atitude partidária e um bureau de informação. O artigo III foi simplesmente omitido. Ely pediu ainda a incorporação da associação, para receber doações, uma sede em Washington ou Nova York e um gerente remunerado."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o discurso de Walker vale menos pelo diagnóstico histórico e mais pela posição de duas mãos. Ele desmonta o laissez-faire como dogma, mas o preserva como regra, com o ônus da prova sobre quem quer intervir. Esse é o dilema permanente da política econômica: não mercado contra Estado, mas quem precisa demonstrar o quê, e com que evidência. A passagem sobre impostos é a mais moderna do texto. Perguntar onde estão as linhas de menor resistência é perguntar quem não consegue escapar de um tributo, e nenhuma reforma séria pode dispensar essa pergunta.",
+            "A outra lição é institucional. A associação cresceu quando trocou declarações de princípio por um compromisso com pesquisa e discussão livre. A credibilidade de uma profissão depende de pluralismo disciplinado por dados. O entusiasmo de 1888 com metáforas biológicas envelheceu mal; o método que Walker e Pepper defendiam, observar antes de concluir, não."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Laissez-faire",
+          "Doutrina de que o Estado deve interferir o mínimo possível na atividade econômica."
+        ],
+        [
+          "Fundo de salários",
+          "Tese clássica de que os salários dependem de um estoque fixo de capital destinado a pagá-los, dividido pelo número de trabalhadores."
+        ],
+        [
+          "Incidência tributária",
+          "Quem efetivamente suporta o custo de um imposto, que pode ser diferente de quem o recolhe."
+        ],
+        [
+          "Tutela do capital",
+          "Expressão de Walker para a ideia de que os empregadores eram os guardiões naturais dos interesses dos assalariados."
+        ],
+        [
+          "Homem econômico",
+          "Agente abstrato dos economistas clássicos, movido apenas pelo interesse em produzir e trocar."
+        ]
+      ],
+      "hoje": "A pergunta de Walker sobre as linhas de menor resistência continua no centro de qualquer reforma tributária. Estudos de incidência procuram saber se um imposto sobre consumo, folha ou renda termina no preço, no salário ou no lucro, e quem não consegue repassá-lo. Também sobrevive sua regra do ônus da prova: análises de impacto regulatório pedem que toda nova restrição demonstre benefícios superiores aos custos. E o debate sobre pluralismo nas associações profissionais, entre rigor e abertura a escolas diferentes, segue vivo.",
+      "itens": [
+        [
+          "Address of Welcome",
+          "pp. 9–13",
+          "2485571"
+        ],
+        [
+          "Recent Progress of Political Economy in the United States",
+          "pp. 17–40",
+          "2485572"
+        ],
+        [
+          "Secretary's Report",
+          "pp. 43–95",
+          "2485573"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Address of Welcome",
+          "autores": "Dr. William Pepper, Provost of the University of Pennsylvania",
+          "paginas": "pp. 9–13",
+          "jstor": "2485571",
+          "resumo": "Saudação do reitor da Universidade da Pensilvânia na sessão solene de 27 de dezembro de 1888. Pepper apresenta a fundação da associação como marco na história da ciência econômica no país e rebate críticas ao ensino de economia na universidade. Satiriza o dogmatismo dos velhos economistas com o doutor Sangrado, de Gil Blas, aplicando a crítica tanto aos defensores da livre concorrência absoluta quanto aos da intervenção extrema. Defende um método histórico, comparativo e estatístico, invoca Darwin e Spencer e lamenta a ausência do professor E. J. James, afastado por doença."
+        },
+        {
+          "titulo": "Recent Progress of Political Economy in the United States",
+          "autores": "General Francis A. Walker, LL.D., President of Massachusetts Institute of Technology",
+          "paginas": "pp. 17–40",
+          "jstor": "2485572",
+          "resumo": "Discurso anual do presidente da associação. Walker explica por que a entidade, vista como seita em 1885, passou a reunir todos os economistas ativos do país. Critica a divisão entre protecionistas e livre-cambistas, a dependência da teologia natural e o uso do laissez-faire como teste de pertencimento, embora o preserve como regra com ônus da prova sobre a intervenção. Rejeita o homem econômico de Ricardo e a tutela do capital, atribuindo a mudança à ascensão dos trabalhadores. Fecha contrastando a visão de David A. Wells sobre a difusão dos impostos com a tese das linhas de menor resistência."
+        },
+        {
+          "titulo": "Secretary's Report",
+          "autores": "Richard T. Ely, Secretary",
+          "paginas": "pp. 43–95",
+          "jstor": "2485573",
+          "resumo": "Relatório dos trabalhos de 26 a 29 de dezembro de 1888, na Filadélfia. Traz resumos de trabalhos sobre salários, ensino manual, estradas, estatísticas ferroviárias, moeda, caridade, leis agrárias irlandesas, desemprego involuntário e decisões judiciais sobre conspiração e boicote, com os debates que se seguiram. Registra a reforma do estatuto, que fixou a liberdade de discussão e a recusa de atitude partidária, o relatório de E. W. Bemis sobre as seis filiais e o balanço de Ely: 500 membros, presença no exterior, doações e o pedido de incorporação, sede e gerente remunerado."
+        }
+      ],
+      "jstor_edicao": "i342417",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-malthus-ricardo-e-estatistica",
+      "numero": 21,
+      "titulo": "Malthus, Ricardo e os números: três lições de método",
+      "titulo_original": "Malthus and Ricardo / The Study of Statistics / Analysis in Political Economy",
+      "autores": "Simon N. Patten, Ph. D., Professor of Political Economy, Wharton School of Finance and Economy, University of Pennsylvania; Davis R. Dewey, Ph. D., Assistant Professor of Economics and Statistics, Massachusetts Institute of Technology; William W. Folwell, Professor of Political Science, University of Minnesota",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 5",
+      "data": "setembro de 1889",
+      "chamada": "Patten explica por que Malthus e Ricardo não se entendiam, Dewey propõe ensinar estatística como laboratório e Folwell sustenta que o valor é a última palavra da economia, não a primeira.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um estudante de Harvard recebeu uma tarefa aparentemente banal: reconstituir as receitas dos Estados Unidos de 1789 a 1886. Logo em 1815, encontrou uma diferença de mais de US$ 300 mil entre o relatório do secretário do Tesouro daquele ano e o Finance Report de 1885. O exercício, aplicado pelo professor Hart, é citado por Davis R. Dewey como prova de que estatística se aprende na bancada, como química."
+        },
+        {
+          "tipo": "p",
+          "texto": "O relato está numa das três comunicações reunidas no vol. 4, nº 5 das publicações da American Economic Association, de setembro de 1889. Todas foram lidas na terceira reunião anual da associação, em Filadélfia, em 28 e 29 de dezembro de 1888. Os autores são Simon N. Patten, da Wharton School, na Universidade da Pensilvânia; Davis R. Dewey, do Massachusetts Institute of Technology; e William W. Folwell, da Universidade de Minnesota."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os temas parecem distantes: uma querela sobre a renda da terra no início do século XIX, um programa de exercícios para universitários, uma proposta para reordenar o manual de economia. O fio comum é o método. Patten pergunta por que dois discípulos de Adam Smith chegaram a conclusões opostas. Dewey pergunta como treinar alguém para desconfiar de um número. Folwell pergunta em que ordem ensinar os conceitos. As três respostas apontam para o mesmo lugar: antes da doutrina vêm as premissas, as fontes e a sequência do raciocínio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Malthus e Ricardo não conseguiam concordar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten parte de uma injustiça de reputação. Adam Smith é lembrado pelo melhor que fez; Malthus e Ricardo, pelo pior. “Malthusiano” e “ricardiano” tinham virado termos de desprezo. Ambos trouxeram más notícias. A lei da população, a tese de que a população tende a crescer até consumir todo aumento de alimentos, punha ao progresso limites que nenhuma reforma política removeria. E uma parte crescente do produto iria, como renda, para os donos de terra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O atrito está justamente na renda. Ricardo seguia o ensaio de West, que pela primeira vez formulou a lei dos rendimentos decrescentes. A sociedade começaria pelas terras mais férteis; com o crescimento da população, terras piores entrariam em cultivo, e a renda das melhores subiria. É a renda ricardiana: um prêmio pela diferença de fertilidade em relação à margem de cultivo, a pior terra em uso, que não paga renda. Lucros e salários cairiam na mesma medida, e a renda seria mera transferência entre classes. Malthus via o filme ao contrário. A humanidade começou pobre, sem sementes nem ferramentas; a renda surgiu quando melhorias técnicas elevaram a produção acima do necessário para sustentar quem cultivava. Não foi tirada de ninguém: era sinal de produtividade maior."
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten atribui a divergência ao ambiente de cada um. Malthus vivia no campo e conhecia a agricultura. Ricardo, corretor de valores bem-sucedido em Londres, olhava um acre de terra como olharia uma mina de carvão. Isolava uma causa por fenômeno e a levava às últimas consequências, num raciocínio que Patten chama de geométrico; Malthus enxergava várias causas e preferia casos concretos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um vê a economia de Saturno, enquanto o outro vê a de Marte.”",
+          "original": "One sees the economy of Saturn while the other sees that of Mars."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25 anos",
+          "texto": "Prazo em que, segundo Malthus, a população dobra nas colônias novas, taxa que ele tomou como natural. Quando Ricardo usou as mesmas colônias para ilustrar lucros que caem com o cultivo de terras piores, Malthus passou a rejeitar condições anormais como base de leis para países antigos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O veredito surpreende. Patten julga Malthus melhor observador, mas atribui a Ricardo as ideias mais claras sobre a renda. Mundos simplificados são úteis enquanto ninguém os confunde com o real; a confusão, escreve, é culpa dos seguidores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se ensina alguém a desconfiar de um número?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O tema ganhara interesse depois do ensaio de Carroll D. Wright, chefe do Departamento Nacional do Trabalho, sobre estatística nas faculdades, apresentado na reunião de maio de 1887. A disciplina, observa Dewey, era estrangeira: criada na Alemanha, na França ou na Itália e enciclopédica nos manuais de Haushofer e Block. O curso completo só caberia na pós-graduação."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a graduação, propõe outra coisa: a estatística como laboratório, subordinada a cursos de história financeira, tarifária e industrial, assim como a bancada fixa o que a aula de química ensina. O aluno deve conferir a dívida pública publicada no American Almanac contra os próprios Finance Reports. Aprende onde procurar em caso de disputa e como reconciliar discrepâncias. Nos relatórios dos bureaus de estatística do trabalho, aprende a distinguir salário real de nominal e a suspeitar de séries que provam, com igual facilidade, que o trabalhador avançou, recuou ou ficou parado."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Conter os usos desonestos correntes do material estatístico para confusão política.”",
+          "original": "check the current dishonest uses of statistical material for political bewilderment"
+        },
+        {
+          "tipo": "p",
+          "texto": "O método tem três etapas: pesquisa e verificação, tabulação e ilustração gráfica. Na tabulação, uma turma de nove alunos dividida em comitês de três costuma desperdiçar dois ou três formulários antes de chegar a uma forma compacta e exata. Nos gráficos, o risco é o oposto: alunos que fogem de números se encantam com o desenho e roubam tempo do resto do currículo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 exercícios",
+          "texto": "A sequência de Dewey para treinar o olho: representar 25 e 100 de meia dúzia de formas; desenhar a curva da dívida nacional e depois inverter as escalas dos eixos; traçar várias curvas distinguidas por cores e tipos de linha; decompor um total em partes; e colorir um mapa, por exemplo com o voto dos estados sobre o Banco dos Estados Unidos. Com isso, o aluno estaria apto a examinar com critério os álbuns e atlas estatísticos da época."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dewey fecha apontando material desperdiçado: relatórios estaduais de saúde, seguros, caridade e prisões, mal tabulados mas ricos, que os americanos deixavam acumular sem uso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por onde se deve começar um curso de economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Folwell abre com um impasse. Numa conferência de professores de um estado do oeste, ninguém conseguiu propor um programa de economia aceitável para as escolas públicas: admiradores de Carey e Bowen não toleravam os livros de Wayland e Perry. Havia quem dissesse que a matéria nem deveria ser ensinada, por não ser ciência exata."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sua resposta, apoiada em treze anos de experiência com alunos de graduação, é que a boa análise simplifica a doutrina. Ele separa economia privada de pública e põe o consumo na base: as necessidades humanas são a mola da atividade industrial, e é como consumidor que o homem entra em cena. Daí a crítica a J. S. Mill, cujo modelo inspirava os melhores tratados, por ter ignorado o consumo como ramo fundamental."
+        },
+        {
+          "tipo": "p",
+          "texto": "As consequências são práticas. Na produção, os agentes primários são dois, natureza e homem; o capital é resultado, a parte do produto reservada para produzir mais. A terra trabalhada, de um canteiro a uma fazenda, entra como capital, e a renda passa a se assemelhar aos juros. Folwell recorre a Alexander Hamilton e a Henry Maine, para quem a renda competitiva é um preço pago em prestações. O lucro vira o resíduo incerto que sobra depois de impostos, salários, renda e juros. Já a teoria do fundo de salários, em sua forma crua, se dissolve quando a pergunta é bem posta: o salário sai da produção corrente, não de poupanças anteriores."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O valor, em vez de ser a primeira palavra da economia política, é quase a última.”",
+          "original": "Value, instead of being the first word of political economy, is almost the last word."
+        },
+        {
+          "tipo": "p",
+          "texto": "Abrir o manual pelo valor, compara, é como oferecer o teorema de Sturm a quem começa álgebra. O valor pertence à troca e só ali deve ser discutido: é a razão de troca apurada entre produtos. Daí a objeção aos socialistas que perguntam se o capital produz valor. Nem capital nem trabalho produzem valor, responde; produzem satisfação de necessidades."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio de Patten envelheceu melhor do que seu tema sugere. A tese de que o ambiente de cada economista fornece as premissas, e de que a divergência raramente está na lógica, vale para todo debate de política econômica em que os dois lados descrevem mundos diferentes com as mesmas palavras.",
+            "Dewey oferece o antídoto prático. Conferir o número na fonte primária, reconciliar dois relatórios oficiais que não batem e desconfiar de médias continua sendo o melhor treino para quem lida com contas públicas. Folwell completa a lição: a ordem em que se ensina condiciona o que se entende."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Lei da população",
+          "Tese de Malthus de que a população tende a crescer até absorver todo aumento na oferta de alimentos."
+        ],
+        [
+          "Renda ricardiana",
+          "Pagamento ao dono da terra que, para Ricardo, decorre da diferença de fertilidade entre uma terra e a pior terra em cultivo."
+        ],
+        [
+          "Rendimentos decrescentes",
+          "Princípio de que cada dose adicional de trabalho e capital aplicada à terra rende menos que a anterior."
+        ],
+        [
+          "Margem de cultivo",
+          "A pior terra ainda cultivada, que não paga renda e serve de referência para medir a renda das demais."
+        ],
+        [
+          "Fundo de salários",
+          "Teoria segundo a qual os salários são pagos de um estoque de capital acumulado previamente."
+        ],
+        [
+          "Dedução e indução",
+          "Deduzir consequências de premissas gerais, de um lado; generalizar a partir de fatos observados, de outro."
+        ]
+      ],
+      "hoje": "A tensão entre o modelo abstrato e a observação de muitas causas atravessa a economia até agora, dos modelos macroeconômicos estilizados à pesquisa empírica apoiada em dados e experimentos. A proposta de Dewey ganhou nomes próprios, como letramento estatístico e checagem de dados, e segue necessária num ambiente em que séries oficiais circulam recortadas para provar qualquer tese. E a pergunta de Folwell continua aberta nos cursos introdutórios, que ainda escolhem entre abrir pelo mercado e pelo preço ou pelas necessidades e escolhas das pessoas.",
+      "itens": [
+        [
+          "Malthus and Ricardo",
+          "pp. 9–34",
+          "2485684"
+        ],
+        [
+          "The Study of Statistics",
+          "pp. 37–52",
+          "2485685"
+        ],
+        [
+          "The Effect of Correct Analysis on Doctrine in Political Economy",
+          "pp. 55–69",
+          "2485686"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Malthus and Ricardo",
+          "autores": "Simon N. Patten, Wharton School of Finance and Economy, University of Pennsylvania",
+          "paginas": "pp. 9–34",
+          "jstor": "2485684",
+          "resumo": "Lido em 29 de dezembro de 1888. Patten examina a controvérsia sobre a renda da terra para mostrar como premissas, e não apenas métodos, separaram Malthus e Ricardo. Ricardo, homem da cidade e do mercado financeiro, raciocinava a partir de uma colônia nova com terras férteis e via a renda como transferência entre classes; Malthus, ligado ao campo e à história, via a renda como fruto de melhorias agrícolas. Patten julga Malthus melhor observador, mas defende o valor dos mundos simplificados de Ricardo, desde que não confundidos com o real."
+        },
+        {
+          "titulo": "The Study of Statistics",
+          "autores": "Davis R. Dewey, Massachusetts Institute of Technology",
+          "paginas": "pp. 37–52",
+          "jstor": "2485685",
+          "resumo": "Lido em 28 de dezembro de 1888. Dewey propõe que a estatística entre na graduação como laboratório, acoplada a cursos de história financeira, tarifária, industrial e de governo municipal. O método combina verificação de números em documentos oficiais, tabulação e gráficos, com uma sequência de cinco exercícios para treinar a leitura de representações visuais. O objetivo declarado é formar alunos capazes de identificar erros e usos desonestos de estatísticas em campanhas e na imprensa, além de aproveitar relatórios estaduais pouco explorados."
+        },
+        {
+          "titulo": "The Effect of Correct Analysis on Doctrine in Political Economy",
+          "autores": "William W. Folwell, University of Minnesota",
+          "paginas": "pp. 55–69",
+          "jstor": "2485686",
+          "resumo": "Lido em 28 de dezembro de 1888. Com base em treze anos de ensino, Folwell defende que a boa análise simplifica a doutrina. Separa economia privada e pública, põe o consumo na base do sistema, trata o capital como resultado da produção e a terra trabalhada como capital, o que aproxima a renda dos juros. O lucro é o resíduo incerto que cabe a quem possui capital. O valor, definido como razão de troca, deve ser estudado só no capítulo da troca, quase ao fim do curso."
+        }
+      ],
+      "jstor_edicao": "i342418",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1889-um-dolar-honesto",
+      "numero": 22,
+      "titulo": "Um dólar honesto: a moeda que compra sempre o mesmo",
+      "titulo_original": "An Honest Dollar",
+      "autores": "E. Benjamin Andrews, presidente da Brown University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 4, nº 6",
+      "data": "novembro de 1889",
+      "chamada": "Em 1889, o presidente da Brown University argumentou que nem o ouro garante uma moeda justa e propôs regular a quantidade de dinheiro guiado por um índice oficial de preços.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1º de setembro de 1865, a dívida nacional dos Estados Unidos somava cerca de US$ 2,75 bilhões. Pela conta de E. Benjamin Andrews, presidente da Brown University, ela poderia ter sido quitada com 18 milhões de fardos de algodão. Anos depois, já reduzida a US$ 1,25 bilhão, exigiria 30 milhões de fardos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em dólares, a dívida encolhera cerca de 55%. Medida em algodão ou em ferro em barra, crescera uns 50%. O contribuinte pagava mais pagando menos. É essa anomalia que Andrews disseca em “An Honest Dollar”, trabalho lido na terceira reunião anual da American Economic Association, em Filadélfia, em 28 de dezembro de 1888, e publicado em novembro de 1889."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que torna um dólar “honesto”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Andrews parte de um ponto que, segundo ele, todos admitem: a moeda ideal tem poder de compra estável, isto é, a mesma quantia compra sempre a mesma quantidade de bens em geral. Se a moeda fosse só meio de troca, a estabilidade seria dispensável. Mas ela também mede valor, guarda riqueza e serve de padrão para pagamentos futuros. Nessas funções, qualquer oscilação transfere riqueza de uma parte para outra."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O aumento do valor da moeda rouba os devedores.”",
+          "original": "“Increase in the value of money robs debtors.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O devedor devolve o mesmo número de dólares, mas cada dólar vale mais do que na data do contrato. A queda do valor da moeda rouba o credor, no sentido inverso. Andrews condena as duas, mas acha piores os preços em queda: tornam lucrativo simplesmente reter dinheiro, que é entesourado em vez de circular, e a indústria se paralisa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 115 milhões",
+          "texto": "Transferência estimada por Robertson, na Westminster Review de outubro de 1880, aos detentores de consols (títulos da dívida britânica) pela queda de preços entre 1874 e 1880, à custa dos contribuintes. A dívida de £ 775 milhões equivalia, em 1880, a uma cesta de bens que em 1873-74 custaria cerca de £ 890 milhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a crítica à crença de que o dólar-ouro seria honesto por definição. Isso só valeria se o ouro nunca mudasse de valor, pretensão que nenhuma pessoa bem informada sustentaria. O padrão monetário, a regra ou o bem que define o valor da unidade de conta, não é honesto por ser metálico, mas por manter o poder de compra."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um dólar ideal compraria sempre exatamente a mesma quantidade de mercadoria em geral.”",
+          "original": "“An ideal dollar would buy always precisely the same amount of general commodity.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Preço em queda não é sinal de progresso?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A objeção mais simpática dizia que a queda de preços refletia a técnica: produzir ficou mais barato, os preços caem, a civilização avança. Andrews atribui essa leitura ao alemão Barth e ao americano David A. Wells. Concorda que o barateamento dos custos é uma bênção, mas nega que os preços em dinheiro precisassem cair. Uma régua que fica fixa enquanto tudo muda é justamente uma régua defeituosa: sua credencial vinha da relação com as mercadorias em geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ouro, além disso, é extraído sob rendimentos decrescentes: cada quantidade adicional custa mais. Já os manufaturados tendem a baratear indefinidamente. Deixada a si mesma, conclui Andrews, a moeda metálica tende a ganhar valor. Ele percorre Atenas, Roma, a Idade Média e a prata das Américas para mostrar que o poder de compra acompanha a oferta de metal, como as marés acompanham a lua: de modo imperfeito, mas constante."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, os preços caíram de 1809 a 1850, subiram até cerca de 1870 e voltaram a cair. A virada de 1873 ele atribui em parte à relativa escassez de ouro, mas sobretudo à desmonetização da prata, sua retirada do papel de moeda plena."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "77%",
+          "texto": "Crescimento do meio circulante americano de 1870 a 1888, segundo a nota suplementar de Willard C. Fisher, da Cornell University, anexada ao texto. No mesmo período, a população cresceu 59%, a produção de ferro-gusa 290% e a extensão das ferrovias 235%. Conclusão de Fisher: o trabalho a cargo da moeda cresceu mais depressa que a moeda, e parte da queda de preços vem daí."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que não o bimetalismo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Muitos contemporâneos buscavam estabilidade no bimetalismo internacional: ouro e prata circulando juntos, a uma razão legal fixa, nos principais países comerciais. Andrews é simpático à ideia e considera a prata uma medida de valor mais confiável que o ouro. O obstáculo é político: não vê esperança de uma aliança que exigiria recunhagem em escala tão vasta, e aponta a Grã-Bretanha como entrave."
+        },
+        {
+          "tipo": "p",
+          "texto": "Há um argumento mais fino. Em 1889, a maior parte das dívidas já não fora contratada aos preços altos de antes de 1873. Uma alta geral não corrigiria a injustiça passada; apenas a repetiria. Melhor aceitar o novo patamar de preços e impedir que ele mude outra vez, para cima ou para baixo. A volta da prata daria alívio parcial e temporário."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como manter os preços parados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A solução segue um plano do professor Walras, de Lausanne, e tem três peças: apuração oficial e criteriosa do curso dos preços; uma moeda subsidiária com curso legal pleno; e a injeção ou retirada dessa moeda conforme os preços caiam ou subam. Não se trata de indexar contratos, mas de regular a quantidade de dinheiro em circulação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira peça é um índice de preços. Andrews lista as exigências: produtos básicos idênticos a cada medição; bens sujeitos e não sujeitos a rendimentos decrescentes; os menos afetados por tarifas e clima; quanto mais itens, melhor; preços dos principais mercados; e pesos proporcionais ao consumo. Se o total sobe, há dinheiro demais e parte deve ser retirada. Se cai, falta dinheiro e mais deve ser emitido."
+        },
+        {
+          "tipo": "p",
+          "texto": "Walras pretendia prever e evitar as variações. Andrews se diz menos presunçoso: corrigiria depois de observá-las. Para expandir, o governo compraria prata, cunharia moedas-sinal e pagaria despesas com certificados correspondentes. Para contrair, venderia títulos resgatáveis nesses certificados. O ouro seguiria como única moeda de cunhagem livre; a prata viraria moeda reguladora, cunhada só quando necessário."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por que não papel, mais barato? Porque o papel não é seguro sem lastro, e nada acalma tanto um pânico quanto a conversibilidade imediata em moeda forte. Pela mesma razão, Andrews rejeita duas variantes do professor Marshall: com o tempo, o papel sem cobertura cresceria sem parar."
+        },
+        {
+          "tipo": "p",
+          "texto": "Restam as objeções. Uma nação sozinha dificilmente sustentaria o arranjo; seria preciso concerto internacional, ainda que menos formal que um tratado. E havia a objeção decisiva para muitos: a dependência do Estado. A resposta é institucional. O trabalho caberia não ao Congresso, mas a uma comissão apartidária, nos moldes da Interstate Commerce Commission: o secretário do Tesouro, o diretor da Casa da Moeda e o Comptroller of the Currency, mais quatro nomeados pelo presidente, entre eles o melhor estatístico e o melhor banqueiro do país, com tudo exposto à crítica pública. A quem recusasse o plano só por depender do poder público, Andrews devolve a acusação."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Deixo ao leitor julgar se o escrúpulo dele, e não minha proposta de reforma, revela o doutrinário.”",
+          "original": "“his scruple, rather than my motion of reform, does not betray the doctrinaire”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, Andrews acerta no diagnóstico e antecipa o desenho. A ideia de que a moeda honesta é a de poder de compra estável, e não a de metal nobre, venceu o século seguinte. A comissão técnica, pública e apartidária lembra o que hoje chamamos de banco central com mandato. Notável é o ponto de partida: não a eficiência, mas a justiça entre devedor e credor.",
+            "O ponto fraco é a confiança na mecânica. Andrews supõe que a comissão erraria pouco. Medir preços e dosar a quantidade de moeda é mais difícil do que ele admite, e corrigir só depois de observar é agir sempre com atraso. O dilema que ele deixa segue aberto: regra simples e verificável, ou julgamento técnico com margem para erro?"
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Padrão monetário",
+          "Regra ou bem (como o ouro) que define o valor da unidade de moeda."
+        ],
+        [
+          "Poder de compra",
+          "Quantidade de bens e serviços que uma unidade de moeda consegue comprar."
+        ],
+        [
+          "Índice de preços",
+          "Média ponderada dos preços de uma cesta fixa de bens, usada para medir o nível geral de preços."
+        ],
+        [
+          "Bimetalismo",
+          "Sistema em que ouro e prata circulam como moeda plena, a uma razão legal fixa entre eles."
+        ],
+        [
+          "Desmonetização",
+          "Retirada de um metal da função de moeda plena, como ocorreu com a prata a partir de 1873."
+        ],
+        [
+          "Moeda-sinal",
+          "Moeda cujo valor de face supera o valor do metal que contém; em inglês, token."
+        ]
+      ],
+      "hoje": "Muitos bancos centrais perseguem hoje algo próximo do dólar honesto de Andrews: metas de inflação acompanhadas por índices de preços ao consumidor, calculados sobre cestas ponderadas, em linha com as condições que ele listou. As diferenças são duas. O alvo costuma ser uma inflação baixa e positiva, não preços parados, e o instrumento principal é a taxa de juros, não a cunhagem de prata. O debate sobre deflação também ecoa o texto: distinguir queda de preços por ganho de produtividade de queda por escassez de moeda continua dividindo economistas.",
+      "itens": [
+        [
+          "An Honest Dollar",
+          "pp. 7–50",
+          "2485568"
+        ]
+      ],
+      "jstor_edicao": "i342419",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1890-a-transicao-industrial-do-japao",
+      "numero": 23,
+      "titulo": "Japão, 1890: instituições modernas sobre uma economia feudal",
+      "titulo_original": "The Industrial Transition in Japan",
+      "autores": "Yeijiro Ono, Ph. D. (University of Michigan)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 5, nº 1",
+      "data": "janeiro de 1890",
+      "chamada": "Em 1890, o economista Yeijiro Ono descreveu um Japão com Constituição nova e indústria velha, e defendeu livre comércio, tarifa como receita e regras para proteger o operário.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Até cerca de quinze anos antes, quem passasse ao anoitecer por uma rua japonesa ouvia o zumbido ritmado da roda de fiar saindo de quase toda casa das classes baixa e média. Os fios ingleses importados e as primeiras fiações instaladas no país calaram esse som — o mesmo destino, anota o autor, da roda de fiar inglesa do tempo da rainha Ana. A cena abre bem a monografia que a American Economic Association publicou em janeiro de 1890."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor é Yeijiro Ono, doutor pela Universidade de Michigan, que assina a nota de abertura em Ann Arbor, em outubro de 1889, agradecendo a orientação de Henry C. Adams. A introdução também é dele, e traz a tese numa frase:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O Japão está, no presente, apenas meio transformado.”",
+          "original": "Japan is at present but half-transformed."
+        },
+        {
+          "tipo": "p",
+          "texto": "Instituições políticas modernas — novas leis, uma Constituição, assembleias legislativas previstas para 1890 — tinham sido impostas, diz Ono, a um povo cuja organização industrial continuava feudal. E só a indústria moderna sustenta um governo moderno."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava a economia que o feudalismo deixou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Até cerca de trinta anos antes, o país estava dividido em 64 províncias, cada uma com governo, finanças e moeda próprios. Sob os Tokugawa, os senhores feudais deixavam a família como refém na capital e visitavam o xógum em anos alternados. O comércio entre províncias vizinhas, onerado por pedágios, parecia mais exterior do que doméstico."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "23 + 49",
+          "texto": "Tipos de papel-moeda (23) e de moedas metálicas (49) em circulação quando o feudalismo foi dissolvido. O imposto sobre a terra ia de 30% a 70% da produção anual, conforme a província."
+        },
+        {
+          "tipo": "p",
+          "texto": "A manufatura era doméstica, feita na casa de um mestre artesão. Com ferramentas simples, a habilidade vinha do tempo: no laqueado a ouro, o aprendiz precisava de oito a nove anos de formação, e os segredos de ofício passavam de pai para filho. Havia guildas, à moda da Idade Média europeia; as do chá e do sal chegavam a tentar regular a produção total do país, algo que Ono compara aos trustes modernos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A exceção era o saquê. Em grandes armazéns trabalhavam muitas vezes duzentos ou trezentos homens, com o dono entrando apenas com capital e supervisão — capitalistas de um lado, assalariados de outro, havia séculos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a Restauração mudou, e o que deixou no lugar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois da Restauração Meiji, a reforma do imposto territorial, de 1873, deu aos lavradores a propriedade legal da terra e trocou o tributo em espécie por um pagamento em dinheiro sobre o “valor legal” do imóvel. Ono a celebra como o início da pequena propriedade, mas calcula que, numa terra de duas safras, o imposto ainda equivalia a um tributo de 16% sobre a renda."
+        },
+        {
+          "tipo": "p",
+          "texto": "As cidades-castelo, que viviam de abastecer os antigos vassalos, entraram em declínio. Entre 1879 e 1886, Quioto, a antiga capital imperial, caiu de 331.308 para 245.676 habitantes, enquanto Tóquio e o porto de Kobe cresciam."
+        },
+        {
+          "tipo": "p",
+          "texto": "A mobilidade continuava baixa, e os salários mostram isso. Osaka e Quioto estavam ligadas desde 1877 por uma ferrovia de 27 milhas, mas o trabalhador rural ganhava 5 ienes por mês na primeira e 1 iene e 72 sens na segunda."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "11%",
+          "texto": "Parcela da população que vivia em cidades de mais de 20 mil habitantes em dezembro de 1886: 3.524.983 pessoas, num total acima de 38 milhões. Ono compara com mais de 25% nos Estados Unidos e mais de 60% na Inglaterra, e lê o número como sinal de baixo estágio de desenvolvimento industrial."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ainda assim, havia pressa: entre dezembro de 1886 e setembro de 1887 nasceram treze companhias ferroviárias."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem trabalhava nas fábricas novas, e em que condições?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira ruptura com a manufatura doméstica veio das filaturas de seda, pequenas fábricas movidas sobretudo a roda d’água nas regiões montanhosas, como as províncias de Kai, Mino e Hida. Ali, pela primeira vez, mulheres e crianças trabalhavam lado a lado com homens, pagas segundo as horas trabalhadas. Mulheres e meninas eram a grande maioria; homens adultos, apenas 5% do total."
+        },
+        {
+          "tipo": "p",
+          "texto": "A jornada ia de nove a catorze horas, sendo doze a mais comum. Como o trabalho era sazonal, as menores abriam só sessenta a cem dias por ano. Ono julga essas condições decididamente desfavoráveis aos trabalhadores."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas fiações de algodão, o quadro salarial era pior. Pagavam-se entre 9 e 12 sens por dia a um homem e 6,5 sens a uma mulher, por doze horas de trabalho — abaixo do salário agrícola da mesma localidade, de 22 sens para homens e 15 para mulheres. O balanço do autor é direto:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O novo sistema ainda não beneficiou muito os trabalhadores.”",
+          "original": "the new system has not yet greatly benefitted the workmen."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tampouco os donos iam bem: segundo os relatórios oficiais, todas as fiações de algodão, menos três, estavam sem pagar dividendos ou operavam com prejuízo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que abrir o mercado, e quem pagaria a conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A proteção, argumenta Ono, só funciona com território extenso, matérias-primas domésticas e demanda interna desenvolvida. O Japão tinha população grande, mas território pequeno e terra cara; produzia apenas um terço do algodão que consumia e nenhuma lã."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dez libras de chá japonês, que custam talvez dez dias de trabalho, trocam-se por cinquenta jardas de chita feitas em dois dias numa fábrica de Manchester. A saída, para ele, não era fechar o mercado, mas dominar a máquina e produzir para exportação: chá, seda, cobre, carvão, porcelana."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo real são os tratados comerciais, que tiravam do governo o controle da tarifa e, diz Ono, foram impostos pela cobiça da Inglaterra. Sobre fio de algodão e açúcar, o imposto de importação equivalia a cerca de 4,5% ad valorem. Sem essa receita, o peso recaía sobre os agricultores, os menos capazes de pagar."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta é uma troca fiscal: tarifas de pelo menos 30% sobre artigos de conforto e luxo e de 15% sobre bens de consumo geral, como açúcar e querosene. A receita estimada, de cerca de 6 milhões de ienes por ano, serviria para baixar o imposto territorial, a começar pelas terras de arroz."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na parte final, sobre quem pagaria a conta, o ensaio fica mais original. Na Inglaterra, lembra Ono, a máquina chegou rudimentar a um país de não mais de nove milhões de habitantes e sem concorrência externa, e quem mais sofreu foram os artesãos qualificados. No Japão, com trabalho barato e máquinas já prontas, o golpe cairia sobre o trabalho comum: carregadores, pequenos lojistas e estalajadeiros desalojados pela ferrovia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por isso pede duas frentes: mobilidade, com terras novas no Norte e imposto territorial menor, e regulação das relações entre capital e trabalho, porque o excedente de mão de obra manteria baixos os salários das fábricas novas. A lição que tira da Europa industrial é que se deve conceder"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“plena liberdade à classe trabalhadora para resistir à opressão egoísta dos capitalistas”.",
+          "original": "full liberty should be allowed the laboring class to resist the selfish oppression of capitalists"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ono não é pessimista. Confia na versatilidade das classes populares e fecha prevendo a passagem do feudalismo à democracia e da vida comunitária ao individualismo."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio vale menos pelas previsões do que pelo diagnóstico de coerência: instituições modernas não se sustentam sobre uma base fiscal e produtiva antiga. Um Estado que se moderniza gasta mais e, se só consegue tributar a terra, onera justamente o setor que mais precisaria investir. É um problema de composição tributária, não apenas de tamanho do Estado.",
+            "Chama atenção também que um defensor do livre comércio peça regulação do trabalho e liberdade de organização operária. Ono não via contradição: abrir a economia gera ganhos amplos, mas o custo do ajuste se concentra em quem tem menos mobilidade. Política de transição, para ele, era facilitar o deslocamento das pessoas, não deixar tudo por conta da concorrência."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Valor legal",
+          "Base do imposto territorial de 1873: média da colheita de cinco anos, a preços locais, capitalizada."
+        ],
+        [
+          "Filatura",
+          "Fábrica que desenrola e fia a seda dos casulos; o autor usa o termo italiano filanda."
+        ],
+        [
+          "Ad valorem",
+          "Tributo calculado como percentual do valor da mercadoria, e não por peso ou quantidade."
+        ],
+        [
+          "Sen",
+          "Centésima parte do iene, a moeda japonesa."
+        ],
+        [
+          "Demanda efetiva",
+          "Desejo de consumo acompanhado de poder de compra; Ono usa efficient ou effective demand."
+        ]
+      ],
+      "hoje": "O dilema de Ono reaparece sempre que uma economia se abre: quem absorve o custo do ajuste e como financiar o Estado sem sufocar o setor mais exposto. Sua ordem de prioridades — transporte primeiro, máquinas simples onde o trabalho é barato, tributos que não punam a atividade produtiva — ecoa discussões atuais sobre política industrial, reforma tributária e amparo ao trabalhador deslocado pela tecnologia. E sua recusa em copiar a experiência inglesa sem ajustes lembra que lições de desenvolvimento raramente viajam intactas de um país para outro.",
+      "itens": [
+        [
+          "Introduction",
+          "pp. 9–15",
+          "2485617"
+        ],
+        [
+          "The Industrial Transition in Japan",
+          "pp. 17–121",
+          "2485618"
+        ]
+      ],
+      "jstor_edicao": "i342420",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Legislação rodoviária para os estados americanos — J. W. Jenks (1889)",
-    "O progresso recente da economia política nos EUA — F. A. Walker (1889)",
-    "Malthus e Ricardo — S. N. Patten; o estudo da estatística — D. R. Dewey (1889)",
-    "Um dólar honesto — E. Benjamin Andrews (1889)"
+    "Trabalho infantil — dois ensaios premiados (1890)",
+    "O canal e a ferrovia — E. J. James e L. M. Haupt (1890)",
+    "História do imposto sobre a propriedade em Nova York — J. C. Schwab (1890)",
+    "O valor educativo da economia política — S. N. Patten (1890)",
+    "A quarta reunião anual da associação (1891)"
   ]
 }
