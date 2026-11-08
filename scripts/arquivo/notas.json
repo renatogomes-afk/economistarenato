@@ -1,0 +1,174 @@
+{
+  "notas": [
+    {
+      "slug": "estacoes-de-uma-ferrovia-so",
+      "titulo": "Uma estação, uma ferrovia: a concorrência que não chegou",
+      "chamada": "Em 1887, nove em cada dez estações ferroviárias dos EUA tinham um único operador. Hoje, seis grandes ferrovias concentram 94% da receita do frete americano.",
+      "data_publicacao": "2026-11-08",
+      "entao": {
+        "valor": "91,8%",
+        "texto": "Das 33.691 estações ferroviárias dos Estados Unidos em 1º de janeiro de 1887, 30.916 eram servidas por uma única ferrovia.",
+        "fonte": "Edmund J. James, “The Agitation for Federal Regulation of Railways”, em The Railway Question, Publications of the American Economic Association, vol. 2, nº 3, jul. 1887, p. 29, nota 1 (dados do Chief of the Bureau of Statistics, citados em discurso do senador Cullom de 17/1/1887)"
+      },
+      "agora": {
+        "valor": "6",
+        "texto": "Os Estados Unidos têm seis ferrovias de Classe I, que respondem por cerca de 67% da malha de carga e 94% da receita do setor.",
+        "fonte": "Association of American Railroads (AAR), Freight Rail Facts & Figures",
+        "url": "https://www.aar.org/freight-rail-facts-figures/"
+      },
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1º de janeiro de 1887, o Chief of the Bureau of Statistics contou 33.691 estações ferroviárias nos Estados Unidos. Só 2.778 eram entroncamentos, pontos servidos por mais de uma ferrovia. Nas outras 30.916, quem tinha carga a despachar dependia de uma única empresa."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número está numa nota de rodapé de Edmund J. James, professor da Universidade da Pensilvânia, que o tomou de um discurso do senador Cullom. James acrescentava um agravante: muitos entroncamentos ligavam linhas sem nenhum destino final em comum. A rigor, havia ainda menos escolha do que a conta sugere."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a concorrência não disciplinava as ferrovias?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para James, a concorrência ao longo da maior parte das linhas era impossível pela própria natureza do negócio. A razão era física, não moral:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Duas linhas não podiam ser construídas em paralelo de cada estação a cada outra.”",
+          "original": "two lines could not be built parallel from every station to every other"
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde havia disputa, ela durava pouco. Terminava em acordo para dividir tráfego ou receita, na compra de uma linha pela outra, ou na falência de uma delas, seguida de reorganização. Em qualquer caso, o custo ficava com o usuário:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O tráfego entre os dois pontos teria de pagar juros sobre dois capitais em vez de um.”",
+          "original": "would have to pay interest on two capitals instead of one"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quantas empresas disputam o frete ferroviário hoje?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo a Association of American Railroads (AAR), entidade do setor, os Estados Unidos têm seis ferrovias de Classe I, a categoria das maiores. O Surface Transportation Board (STB), o regulador federal do setor, define essa classe por receita operacional anual. Além delas, há cerca de 615 ferrovias regionais e locais, as short lines."
+        },
+        {
+          "tipo": "p",
+          "texto": "O peso das seis é desproporcional ao número. Elas respondem por cerca de 94% da receita do frete ferroviário americano, segundo a AAR. As cerca de 615 menores dividem os 6% restantes. Em número de empresas, o setor parece pulverizado; em receita, é um clube pequeno."
+        },
+        {
+          "tipo": "p",
+          "texto": "A estrutura pode encolher. Desde agosto de 2026, o STB analisa o mérito do pedido de fusão entre Union Pacific e Norfolk Southern, duas das seis. O próprio regulador frisou que retomar o processo não é decisão sobre o mérito."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o dado de 1887 ensina mais do que o de hoje. Concentração nacional mede quantas empresas existem; a nota de James mede quantas o cliente tem à porta. Em rede, a pergunta relevante é a segunda. Seis grandes operadores podem conviver com milhares de embarcadores cativos, e uma fusão importa menos pelo total do país do que pelos pontos onde duas opções viram uma. A agenda do regulador continua a mesma desde que James escreveu: como disciplinar quem é, na prática, a única saída de um embarcador, sem destruir o capital que a rede exige."
+          ]
+        }
+      ],
+      "fontes": [
+        [
+          "Edmund J. James, “The Agitation for Federal Regulation of Railways”, em The Railway Question, Publications of the American Economic Association, vol. 2, nº 3, julho de 1887, pp. 28–29 e nota 1",
+          ""
+        ],
+        [
+          "Association of American Railroads, Freight Rail Facts & Figures (consulta em 08/11/2026)",
+          "https://www.aar.org/freight-rail-facts-figures/"
+        ],
+        [
+          "Surface Transportation Board, Economic Data: classificação de ferrovias por receita",
+          "https://www.stb.gov/reports-data/economic-data/"
+        ],
+        [
+          "Surface Transportation Board, comunicado nº 26-21, 18/08/2026: procedimento da fusão UP–NS",
+          "https://www.stb.gov/wp-content/uploads/PR-26-21.pdf"
+        ]
+      ]
+    },
+    {
+      "slug": "gas-de-richmond-publico-ou-privado",
+      "titulo": "Richmond, 1851: a cidade que decidiu fazer o próprio gás",
+      "chamada": "A usina municipal de Richmond baixou o gás de US$ 4,00 para US$ 1,50 por mil pés cúbicos. Hoje, no Brasil, a lei não escolhe o dono do saneamento: exige licitação e metas.",
+      "data_publicacao": "2026-11-08",
+      "entao": {
+        "valor": "US$ 4,00 → US$ 1,50",
+        "texto": "O preço do gás da usina municipal de Richmond, Virgínia, caiu de US$ 4,00 por mil pés cúbicos em 1851 para US$ 1,50 aos consumidores privados em 1886, uma queda de 62,5%.",
+        "fonte": "Edmund J. James, The Relation of the Modern Municipality to the Gas Supply, Publications of the American Economic Association, vol. 1, nº 2 e 3, maio e julho de 1886, pp. 51–52"
+      },
+      "agora": {
+        "valor": "99% e 90% até 2033",
+        "texto": "Desde a Lei 14.026/2020, quem não integra a administração do titular só presta saneamento por concessão com licitação prévia, e todo contrato deve prever 99% da população com água e 90% com esgoto até 2033.",
+        "fonte": "Lei nº 14.026/2020, que altera os arts. 10 e 11-B da Lei nº 11.445/2007 (Planalto)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14026.htm"
+      },
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1850, a câmara de Richmond, na Virgínia, mandou sete vereadores a Baltimore, Filadélfia, Nova York e Boston para estudar o negócio do gás. Na volta, a cidade decidiu construir e operar a própria usina. Em 22 de fevereiro de 1851, ela já funcionava, e seguia municipal 35 anos depois."
+        },
+        {
+          "tipo": "p",
+          "texto": "O preço é o dado central. O mil pés cúbicos custava US$ 4,00 em 1851 e foi reduzido aos poucos até US$ 1,50 para os consumidores privados, segundo Edmund J. James, da Universidade da Pensilvânia. A iluminação pública não pagava nada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A usina também dava resultado. Em 1885, arrecadou US$ 52.093 acima do que gastou, além de fornecer quase 29 milhões de pés cúbicos de gás gratuitos à cidade. O superintendente John H. Knowles resumiu a lógica em uma frase:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Todo contribuinte é um acionista.”",
+          "original": "Every tax-payer is a stock-holder."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que não deixar duas empresas competirem?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese de James é que o gás é, por necessidade, um monopólio natural: setor em que uma só rede atende a cidade a custo menor do que várias. Nesse caso, a escolha real não é entre monopólio e concorrência, mas entre monopólio público e privado. Knowles dizia o mesmo em seu relatório de 1882:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma usina de gás pode fornecer gás mais barato do que duas na mesma cidade.”",
+          "original": "one gas works can supply gas cheaper than two in the same city"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1882, uma empresa privada ofereceu comprar a usina, com promessas de gás barato e de boa qualidade. Depois de nova rodada de visitas a outras cidades, a câmara decidiu, por ampla maioria, manter a operação municipal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o Brasil arbitra hoje entre público e privado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Lei 14.026/2020, o novo marco do saneamento, não escolhe o dono por decreto; escolhe o procedimento. Quem não integra a administração do titular, em regra o município, só pode prestar o serviço por contrato de concessão, com licitação prévia. Fica vedado o contrato de programa, acordo direto entre entes públicos, sem licitação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei também fixa o placar. Os contratos devem definir metas que garantam 99% da população com água potável e 90% com coleta e tratamento de esgoto até 31 de dezembro de 2033."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, Richmond não prova que a gestão pública supera a privada. James defendia a municipalização e escolheu um caso favorável; um bom exemplo não é uma amostra. O que o caso mostra é outra coisa: um monopólio funciona quando alguém é cobrado por ele, seja o eleitor que se vê como acionista, seja o regulador com um contrato na mão. O marco brasileiro aposta na segunda via, com concorrência pelo mercado e metas explícitas. A pergunta de 1886 continua sem resposta universal: não importa tanto quem opera a rede, mas quem mede o serviço e o que acontece quando a meta não é cumprida."
+          ]
+        }
+      ],
+      "fontes": [
+        [
+          "Edmund J. James, The Relation of the Modern Municipality to the Gas Supply, Publications of the American Economic Association, vol. 1, nº 2 e 3, maio e julho de 1886, sumário (pp. 17 e 27) e pp. 51–53",
+          ""
+        ],
+        [
+          "Lei nº 14.026, de 15 de julho de 2020 (novo marco legal do saneamento), arts. 10 e 11-B da Lei nº 11.445/2007 com a nova redação",
+          "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14026.htm"
+        ]
+      ]
+    }
+  ]
+}

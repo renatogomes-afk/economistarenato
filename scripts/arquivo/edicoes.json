@@ -7,26 +7,181 @@
     {
       "slug": "1886-organizacao-da-aea",
       "numero": 1,
-      "titulo": "Como nasceu a American Economic Association",
-      "titulo_original": "Report of the Organization of the American Economic Association",
-      "autores": "Richard T. Ely (secretário)",
+      "titulo": "Saratoga, 1885: os economistas que recusaram um credo",
+      "titulo_original": "Report of the Organization of the American Economic Association; Constitution, By-Laws and Resolutions of the American Economic Association",
+      "autores": "Richard T. Ely, Ph. D., Secretary",
       "publicacao": "Publications of the American Economic Association",
       "volume": "vol. 1, nº 1",
       "data": "março de 1886",
-      "chamada": "Em 1885, um grupo de jovens economistas declarou o laissez-faire “inseguro na política e errado na moral” e fundou uma associação para estudar a economia pelos fatos.",
-      "pontos": [
-        ["Origem e propósito", "A ideia de uma sociedade de economistas ganhou forma na primavera de 1885: reunir pesquisadores, não militantes de partido, do livre-comércio, do protecionismo ou de interesses de classe. A tarefa: coletar, classificar e interpretar fatos — “seek light, to bear light, to diffuse light”."],
-        ["A plataforma provisória", "O Estado aparece como agente educativo e ético, cuja ajuda positiva seria indispensável ao progresso; o laissez-faire é chamado de “unsafe in politics and unsound in morals”. História e estatística no lugar da especulação; nenhum partidarismo sobre tarifas."],
-        ["A reunião de Saratoga", "Em 8 de setembro de 1885, junto ao encontro da American Historical Association, professores, pastores e futuros reitores se reuniram em Saratoga, no estado de Nova York. H. C. Adams presidiu a sessão; Ely foi o secretário."],
-        ["O debate interno", "Nem todos concordavam. Houve quem rejeitasse tanto a visão inglesa do Estado como “mal necessário” quanto a alemã, quem pedisse “um retorno a Adam Smith”, quem estranhasse a palavra “Igreja” na plataforma e quem temesse que ela virasse credo."],
-        ["O acordo", "Um comitê reescreveu os princípios em tom mais positivo e acrescentou uma nota: eles não obrigam os membros. A associação foi organizada formalmente em 9 de setembro de 1885."],
-        ["Regras e pauta", "Anuidade de US$ 3; sócio vitalício por US$ 25. Sete comitês permanentes — trabalho, transportes, comércio, finanças públicas, câmbio, teoria e estatística. Temas sugeridos: jornada de trabalho, trabalho feminino nas fábricas, finanças municipais, regulação das ferrovias e a questão da prata."],
-        ["Os nomes", "Francis A. Walker foi eleito presidente; H. C. Adams, E. J. James e J. B. Clark, vice-presidentes; E. R. A. Seligman, tesoureiro. Na lista de membros aparece Andrew Carnegie como sócio vitalício."]
+      "chamada": "Em setembro de 1885, um grupo de professores reuniu-se em Saratoga para fundar uma associação de economistas. Quase naufragou num manifesto contra o laissez-faire. Salvou-a uma nota de rodapé.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Às quatro da tarde de 8 de setembro de 1885, um grupo de professores, pastores e homens públicos entrou no Bethesda Parish Building, em Saratoga, no estado de Nova York. Vinham de uma reunião da American Historical Association, que ocupava a cidade de 8 a 11 de setembro. O assunto era outro: fundar uma sociedade de economistas. O relatório oficial, publicado em março de 1886, admite um detalhe pouco solene numa nota de rodapé. Ninguém fez a lista completa dos presentes, e o secretário confessa não lembrar de todos os nomes."
+        },
+        {
+          "tipo": "p",
+          "texto": "O secretário era Richard T. Ely, da Johns Hopkins University. Seu relatório abre o primeiro número das Publications of the American Economic Association, vendidas a 4 dólares por ano, em seis números. É um documento raro: registra não só o que foi decidido, mas o que foi discutido, quem objetou e por quê. Lido hoje, é a ata de uma briga intelectual que terminou num acordo engenhoso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o prospecto de 1885 propunha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A iniciativa começou na primavera de 1885. Um prospecto foi enviado à maioria dos interessados em economia política nas faculdades americanas. Trazia quatro objetivos: estimular a pesquisa econômica, publicar monografias, garantir perfeita liberdade de discussão e criar um escritório de informação para orientar os estudos dos membros. Até aí, nada que assustasse alguém."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema estava na segunda parte, a plataforma. Seus quatro artigos diziam que o Estado é um agente educativo e ético, cuja ajuda positiva é condição indispensável do progresso humano. Recusavam as conclusões definitivas da economia política da geração anterior. Afirmavam que o conflito entre trabalho e capital exigia o esforço conjunto da Igreja, do Estado e da ciência. E declaravam neutralidade partidária na disputa entre livre-comércio e protecionismo. A frase que deu o tom de tudo vinha no primeiro artigo:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a doutrina do laissez-faire é insegura na política e infundada na moral”",
+          "original": "“the doctrine of laissez-faire is unsafe in politics and unsound in morals”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A recepção foi calorosa. Ely reproduz cartas de apoio de professores como Henry C. Adams, de Michigan, e J. B. Clark, do Smith College, e de pastores como Lyman Abbott e Washington Gladden. Andrew D. White, presidente de Cornell, escreveu que concordava inteiramente que a teoria do laissez-faire era inadequada aos Estados modernos. A imprensa ajudou. Em 23 de julho de 1885, o semanário religioso Christian Union saudou uma nova economia política, indutiva e cristã. Em 20 de agosto, o Philadelphia Times elogiou a ideia de começar do começo, sem aceitar nada como indiscutível só porque um grande economista o disse."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Ely queria uma plataforma, e não apenas um clube?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Eleito secretário provisório, Ely expôs suas razões na primeira sessão. O relatório faz questão de avisar, em nota, que aquela fala era opinião pessoal e nunca foi aceita pela associação como expressão autorizada de seus objetivos. O cuidado tinha motivo: alguns presentes discordaram fortemente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely foi prático em muitos pontos. Preferia monografias a uma revista, porque monografias não prometem o que não podem cumprir; uma revista fracassada seria um fiasco e expunha os fundadores ao ridículo. Defendeu que a associação educasse a opinião pública, já que em nenhuma outra ciência havia tanto charlatanismo. Para mostrar por que o Estado não podia ser mero espectador, deu dois exemplos: grupos que se apossavam ilegalmente dos cursos d'água nas pastagens do Oeste e as tarifas ferroviárias discriminatórias que enriqueciam os favorecidos e arruinavam concorrentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre a plataforma, seu argumento era quase de marketing. Uma associação que não professa nada não desperta interesse. Aquela tinha sido recebida com entusiasmo justamente por não ser incolor. Além disso, as diferenças de método entre economistas seriam tão radicais que não dava para trabalharem juntos: como dois viajantes numa bifurcação, quem acredita em destinos diferentes precisa se separar. Ely fechou com uma frase de humildade calculada:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“sabemos melhor aquilo que não sabemos”",
+          "original": "“we know better what we do not know”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que dividiu os fundadores em Saratoga?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seguiu-se o que o relatório chama de debate animado, com quase todos os presentes tomando a palavra. Henry C. Adams apoiava a proposta, mas temia que a condenação formal do laissez-faire fosse lida como adesão à visão alemã do Estado como análise final das relações humanas. A filosofia inglesa, que via o Estado como mal necessário, estava errada; a alemã, também. Sua sugestão: a economia precisava, mais do que de tudo, de um retorno ao espírito de Adam Smith."
+        },
+        {
+          "tipo": "p",
+          "texto": "Alexander Johnston, de Princeton, foi na mesma linha. Aquilo não era uma rebelião contra Smith, Malthus, Ricardo e Mill, mas uma luta pela liberdade de desenvolver a obra deles. Não queria ver o laissez-faire condenado em bloco, e sim restrito à sua esfera legítima, a produção e a troca. Van Buren Denslow atacou outra frente: objetou à palavra Igreja, porque prejudicaria a associação e porque nos Estados Unidos não havia uma Igreja, apenas um conjunto de sociedades religiosas. Gladden respondeu que também não havia um só Estado, e ninguém deixava de usar a palavra."
+        },
+        {
+          "tipo": "p",
+          "texto": "A acusação de importar a Alemanha pairava sobre a sala. Muitos ali tinham estudado em universidades alemãs. Ely negou que fosse um movimento alemão e insistiu no caráter americano da iniciativa. White, curiosamente, celebrou o retorno daqueles jovens vindos da Alemanha como um marco da história americana. Edmund J. James propôs reconhecer o Estado como categoria permanente da vida econômica, não uma muleta temporária, mas sem dar pretexto à pecha de socialistas de cátedra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os mais cautelosos foram Edwin Seligman e E. Benjamin Andrews. Seligman achava exagerada a reação contra a livre concorrência: competição seria uma força neutra, que trouxera benefícios imensos e podia, em certas condições, produzir males. A ciência ainda não tinha certeza bastante para pedir mais intervenção. Andrews, que esperava ser o mais conservador da sala e descobriu que não era, chegou a propor que se omitisse a declaração de princípios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se aprova um manifesto sem impor um credo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quem nomeou o problema foi J. B. Clark. Antes de discutir o texto, disse, era preciso saber para que ele serviria. Se fosse um credo obrigatório para cada membro, teria de ser tão prudente que perderia o sentido. Se servisse apenas para dar unidade de propósito ao trabalho coletivo, sem prender ninguém, a proposta de Ely poderia ficar, com pequenos ajustes. O ponto de discórdia, previu, seria a condenação forte do laissez-faire."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“teremos de torná-lo tão conservador que ficará quase sem sentido”",
+          "original": "“we must make it so highly conservative as to be comparatively meaningless”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A saída veio de Herbert B. Adams, também da Johns Hopkins: uma resolução que, com pequenas mudanças, virou a nota anexa à declaração de princípios. A plataforma foi enviada a uma comissão de cinco, formada pelo presidente da mesa, pelo secretário, por Gladden, Johnston e Clark. Outra comissão, com James, H. B. Adams e Andrews, cuidaria da organização. A sessão terminou às seis horas."
+        },
+        {
+          "tipo": "p",
+          "texto": "No dia seguinte, 9 de setembro, a comissão voltou com um texto mais simples e afirmativo. O Estado deixou de ser agente educativo e ético; tornou-se um agente cuja assistência positiva é uma das condições indispensáveis do progresso. A frase sobre o laissez-faire desapareceu. Entrou um reconhecimento expresso ao trabalho dos economistas anteriores. A Igreja ficou, mas cada força passou a atuar em sua própria esfera. A nota final dizia que a declaração indicava as ideias dos fundadores, mas não obrigava os membros individualmente. O relatório fixa ali, em 9 de setembro de 1885, o dia do nascimento da associação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Com que dinheiro e com que estrutura a associação começou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A constituição é curta e austera. Qualquer pessoa podia se tornar membro pagando 3 dólares, com anuidade de igual valor depois do primeiro ano. Havia um presidente, três vice-presidentes, um secretário, um tesoureiro e um conselho de tamanho indefinido, que elegia a diretoria. Para publicar, a comissão executiva podia sacar recursos do tesoureiro, desde que nenhuma dívida fosse contraída. Uma sociedade que pregava a ação positiva do Estado começava com orçamento equilibrado por estatuto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3",
+          "texto": "Era a taxa de adesão e a anuidade de um membro. Pagando 25 dólares, tornava-se sócio vitalício, isento de anuidades. Cada membro recebia todos os relatórios e publicações. Na lista de 1886, o asterisco de sócio vitalício aparece ao lado de Andrew Carnegie, Francis A. Walker e Edwin Seligman, entre outros."
+        },
+        {
+          "tipo": "p",
+          "texto": "O método ficou inscrito na própria máquina. O conselho se dividia em sete comissões permanentes, que preparavam relatórios para discussão; todo trabalho oferecido à sociedade passava antes pela comissão competente. A associação se dispunha a financiar pesquisas e a premiar as melhores monografias sobre temas escolhidos. Fatos antes de doutrina não era só um lema: era o fluxo de trabalho."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "7",
+          "texto": "Comissões permanentes previstas no regimento: Trabalho, Transportes, Comércio, Finanças Públicas, Câmbio, Teoria Econômica e Estatística. As resoluções sugeriam 10 temas de relatório, entre eles a jornada normal de trabalho, o emprego de mulheres nas fábricas, as finanças municipais e a questão da prata. O quórum de reunião era de cinco membros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem estava na lista dos fundadores?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Francis A. Walker, do Massachusetts Institute of Technology, foi eleito presidente por unanimidade sem estar presente. Respondeu que aceitava com orgulho o cargo numa associação de homens que acreditavam haver ainda trabalho a fazer em economia. Henry C. Adams, Edmund J. James e John B. Clark ficaram com as três vice-presidências. Ely ficou com a secretaria; Seligman, de Columbia, a tesouraria."
+        },
+        {
+          "tipo": "p",
+          "texto": "O conselho de 24 nomes mistura professores, pastores e funcionários públicos. Carroll D. Wright, comissário do Bureau of Labor dos Estados Unidos, presidia a comissão de estatística. Woodrow Wilson, então professor em Bryn Mawr, tinha assento. Katharine Coman, do Wellesley College, esteve em Saratoga, entrou no conselho e na comissão do trabalho. Na lista de membros, o industrial Carnegie convive com editores de jornais de Springfield, onde já se formara uma filial regional, a Connecticut Valley Branch."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o momento decisivo de Saratoga não é a frase contra o laissez-faire, e sim a nota que a tornou dispensável. Os fundadores perceberam que uma comunidade científica que exige adesão a conclusões deixa de ser científica e vira partido. Preferiram amarrar os membros a um método, a investigação histórica e estatística, e deixar as conclusões em aberto. É um arranjo que toda instituição técnica precisa refazer de tempos em tempos.",
+            "O debate de fundo também continua vivo. Seligman pedia certeza antes de intervenção; James queria o Estado como categoria permanente, sem crescimento automático. Entre um e outro está o dilema de sempre da política econômica: o ônus da prova cabe a quem quer agir ou a quem quer deixar como está? A resposta de 1885, decidir caso a caso, com base nos fatos, ainda me parece a mais honesta."
+          ]
+        }
       ],
-      "hoje": "A pergunta que reuniu aquele grupo — até onde vai o mercado e onde começa o Estado — continua no centro do debate econômico. O que eles trouxeram de novo foi o método: discutir com documento, número e série histórica, e não com doutrina. É a mesma regra que orienta este site.",
+      "glossario": [
+        [
+          "Laissez-faire",
+          "Doutrina segundo a qual o Estado não deve interferir na vida econômica, limitando-se a garantir contratos, punir crimes e manter a ordem."
+        ],
+        [
+          "Escola histórica",
+          "Corrente, forte nas universidades alemãs, que estuda a economia pela história e pela estatística, desconfiando de leis universais deduzidas em abstrato."
+        ],
+        [
+          "Socialistas de cátedra",
+          "Apelido dado na Alemanha a professores que defendiam reformas sociais pelo Estado; os fundadores temiam o rótulo."
+        ],
+        [
+          "Monografia",
+          "Estudo aprofundado sobre um único tema, publicado de forma avulsa; foi o formato escolhido em vez de uma revista periódica."
+        ],
+        [
+          "Plataforma",
+          "Declaração pública de princípios de um grupo; em Saratoga, a dúvida era se ela obrigaria cada membro."
+        ]
+      ],
+      "hoje": "A pergunta de Clark continua sem resposta fácil: para que serve uma declaração coletiva de princípios numa comunidade de especialistas? Associações profissionais, bancos centrais e conselhos técnicos vivem o mesmo dilema quando publicam manifestos ou notas conjuntas. Se falam alto demais, perdem quem discorda; se falam baixo demais, ninguém escuta. A solução de 1885, um consenso sobre método e não sobre conclusões, segue útil. O debate sobre o alcance do Estado na economia também não terminou; mudaram os exemplos, não a necessidade de examinar cada caso pelos fatos.",
       "itens": [
-        ["Report of the Organization of the American Economic Association", "pp. 5–32", "2485628"],
-        ["Constitution, By-Laws and Resolutions of the American Economic Association", "pp. 35–46", "2485629"]
+        [
+          "Report of the Organization of the American Economic Association",
+          "pp. 5–32",
+          "2485628"
+        ],
+        [
+          "Constitution, By-Laws and Resolutions of the American Economic Association",
+          "pp. 35–46",
+          "2485629"
+        ]
       ],
       "jstor_edicao": "i342406"
     },
@@ -35,56 +190,1108 @@
       "numero": 2,
       "titulo": "Gás: público ou privado? A pergunta de 1886",
       "titulo_original": "The Relation of the Modern Municipality to the Gas Supply",
-      "autores": "Edmund J. James (Wharton School, University of Pennsylvania)",
+      "autores": "Edmund J. James, Ph.D., Professor of Public Finance and Administration in the Wharton School of Finance and Economy, University of Pennsylvania",
       "publicacao": "Publications of the American Economic Association",
       "volume": "vol. 1, nº 2/3",
       "data": "maio e julho de 1886",
-      "chamada": "Seis tubulações de gás na mesma rua de Londres, preço dobrado em Nova York e uma usina municipal lucrativa em Richmond: o primeiro grande estudo sobre concessão de serviço público nos EUA.",
-      "pontos": [
-        ["O gás como necessidade", "Gás barato seria indispensável para iluminação, segurança (“um bico de gás equivale a um policial”), cozinha, aquecimento e força motriz para o pequeno fabricante."],
-        ["Monopólio natural", "Muito capital, produção perto do consumo e canos sob as ruas: o negócio não comporta concorrência. James usa a classificação de H. C. Adams — o gás é indústria de “rendimentos crescentes”."],
-        ["O caos da concorrência", "Em Londres chegou a haver seis redes de distribuição na mesma rua, com fraudes e vazamentos; no fim, as empresas dividiram a cidade entre si e o número caiu de cerca de 13 para 3."],
-        ["Nova York", "O capital das empresas foi “aguado” de US$ 18,3 milhões para US$ 39,1 milhões, e o preço subiu de 75 centavos para US$ 1,75 por mil pés cúbicos."],
-        ["O contraponto público", "Richmond opera sua usina desde 1851: o preço caiu de US$ 4,00 para US$ 1,50 e o lucro ficou em torno de 17% em 1885. Na Grã-Bretanha havia cerca de 160 usinas municipais; na Alemanha, a parcela pública subiu de ~25% para ~50% entre 1860 e 1883."],
-        ["A objeção da corrupção", "James reconhece o risco, mas lembra que a empresa privada também atua na política — e propõe um departamento municipal com engenheiros escolhidos por concurso."]
+      "chamada": "Seis canos sob a mesma rua, capital aguado e gás caro: em 1886, Edmund J. James argumentou que o gás era monopólio inevitável e que a escolha real era entre monopólio privado e público.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Londres, em meados do século XIX, a Oxford Street era abastecida por seis usinas de gás diferentes. Sob algumas ruas corriam seis tubulações paralelas. Havia casas com três ou mais ligações, e consumidores espertos diziam ao fiscal de cada companhia que tinham contratado a rival. Assim, não pagavam a nenhuma. A cena, relatada pelo engenheiro William Richards, é a peça de abertura de um dos primeiros estudos publicados pela American Economic Association."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor, Edmund J. James, professor de finanças públicas da Wharton School, na Universidade da Pensilvânia, enfrentava uma questão que as cidades americanas debatiam em 1886: quem deve fornecer o gás que ilumina as ruas, cozinha as refeições e move pequenas máquinas? Sua resposta desloca o debate. A escolha, diz ele, não é entre monopólio e concorrência, mas entre dois tipos de monopólio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o gás não admite concorrência?"
+        },
+        {
+          "tipo": "p",
+          "texto": "James aponta três razões técnicas. O negócio exige capital grande, fora do alcance de pequenos empreendedores. O gás precisa ser produzido perto de onde é consumido; não se engarrafa e despacha, como um par de sapatos. E a distribuição obriga a abrir as ruas para assentar e consertar canos, coisa que uma cidade tolera de uma empresa, não de seis."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento se apoia numa classificação de H. C. Adams, que separa indústrias de retornos constantes, decrescentes e crescentes. No terceiro grupo, cada acréscimo de capital rende mais que proporcionalmente, e a empresa já instalada sempre atende a demanda nova mais barato que uma entrante. O gás, conclui James, pertence a essa classe. Hoje se diria: monopólio natural."
+        },
+        {
+          "tipo": "p",
+          "texto": "A experiência inglesa confirmava a teoria. As companhias londrinas acabaram por dividir a cidade em distritos, unificar preços e fundir-se: eram cerca de 13 em 1853 e apenas três em 1883. A concorrência, ali, não baixou o preço; apenas deixou um estoque de canos inúteis sobre o qual o público continuava pagando dividendos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que acontece quando se insiste na concorrência?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, o padrão se repetia. James transcreve o parecer de uma comissão do Congresso, ao negar a uma nova companhia o direito de assentar canos em Washington, que lista 20 cidades americanas onde a entrada de rivais terminou em fusão, de Nova Orleans a Chicago e Baltimore."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Companhias de gás de oposição não são benéficas, mas prejudiciais.”",
+          "original": "opposition gas companies are not beneficial, but that they are injurious"
+        },
+        {
+          "tipo": "p",
+          "texto": "O roteiro é sempre o mesmo: guerra de tarifas, gás barato por algum tempo, depois compra, fusão ou divisão de território. Ao final, o consumidor paga duas redes onde bastava uma. Em Brooklyn, a Mutual Gas-Light Company prometeu não cobrar mais de US$ 2,00 por mil pés cúbicos; ao obter o controle do mercado, passou a cobrar US$ 2,50."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,75",
+          "texto": "Preço do gás em Nova York, por mil pés cúbicos, depois da fusão de seis companhias. Antes da consolidação, cobrava-se 75 centavos. Na mesma operação, o capital declarado saltou de US$ 18.308.920 para US$ 39.078.000, segundo o parecer da comissão do Congresso citado por James."
+        },
+        {
+          "tipo": "p",
+          "texto": "É o mecanismo do capital aguado. James o ilustra com uma cidade hipotética: uma companhia nasce com US$ 150 mil, reconstrói a usina mais de uma vez e, sem nunca baixar o capital já amortizado, acaba registrando US$ 1 milhão. A tarifa passa a remunerar instalações que já não existem. Numa indústria competitiva, lembra ele, o fabricante de tecidos teria de dar baixa na fábrica velha; no monopólio, ninguém o obriga."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A gestão municipal funciona?"
+        },
+        {
+          "tipo": "p",
+          "texto": "James não esconde o caso incômodo. Filadélfia, sua própria cidade, operava a usina por meio de um conselho de curadores eleito pela Câmara e, na prática, sem prestar contas. Virou máquina política. Mesmo assim, argumenta, a cidade acumulou um patrimônio de pelo menos US$ 15 milhões e pagava gás mais barato que Nova York. O fracasso era do desenho institucional, não da propriedade pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "Cidades menores davam resultados mais limpos. Em Wheeling, na Virgínia Ocidental, a usina municipal vendia a 90 centavos por mil pés cúbicos, e um funcionário local escrevia que a política nunca entrara na sua gestão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,50",
+          "texto": "Preço do gás municipal em Richmond, Virgínia, à época do estudo, contra US$ 4,00 em 1851, quando a usina começou a operar. Os consumidores passaram de 1.500, em 1854, para 5.000, em 1885. Naquele ano, a usina arrecadou US$ 52.093 acima das despesas e ainda forneceu cerca de 29 milhões de pés cúbicos de graça para a iluminação pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "No exterior, a tendência era nítida. Na Alemanha, as usinas públicas eram 66 de 266 em 1860 e 290 de 600 em 1883. Na Inglaterra, cerca de 160 eram municipais, e cidades pagavam até quase quatro vezes o valor de face das ações para comprar as companhias privadas. Em Nottingham, a prefeitura reduziu o preço e viu o consumo quase dobrar em oito anos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A pior forma de despotismo a que uma comunidade pode estar sujeita.”",
+          "original": "the very worst form of despotism that a community can be subject to"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Arthur Silverthorne, especialista inglês em gás, sobre os monopólios privados, numa carta enviada a James."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E a objeção da corrupção?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Era o argumento mais forte nos Estados Unidos: entregar a usina à prefeitura seria alimentar o clientelismo. James responde que a companhia privada não elimina a corrupção, apenas muda sua forma. Em vez de empregar cabos eleitorais, compra vereadores e deputados no atacado, como mostraram as investigações de uma comissão do Senado de Nova York. Em 1882, uma comissão da Câmara de Richmond chegou à mesma conclusão ao rejeitar a venda da usina municipal."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sob a propriedade privada, estamos sujeitos a um senhor cujo jugo não conseguimos sacudir.”",
+          "original": "under private ownership we are subject to a master whose rule we cannot shake off"
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta de James é administrativa. A usina seria um departamento municipal, com um chefe nomeado pelo prefeito e engenheiros escolhidos por concurso, demissíveis apenas por incapacidade ou negligência, com justificativa escrita enviada à Câmara. Ele reconhece que a melhor regulação privada conhecida, a escala móvel inglesa, funcionava razoavelmente. Mas observa que ela exige fiscalização tão minuciosa que a cidade capaz de fiscalizar seria igualmente capaz de administrar."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ponto mais duradouro do texto não é a defesa da estatização, mas o diagnóstico de que a concorrência pode ser a pior política para um setor com redes duplicadas. James percebe algo que a teoria da regulação levaria décadas para formalizar: o problema do monopólio natural não se resolve com mais entrantes, e sim com regras sobre capital, tarifa e informação. Sua escala móvel inglesa já contém a lógica da regulação por incentivos.",
+            "O ponto fraco é a confiança no concurso público como antídoto suficiente. A observação de que quem regula bem poderia gerir bem corta nos dois sentidos: quem não consegue fiscalizar uma concessionária dificilmente gerirá bem uma estatal. A questão de 1886 continua sendo menos ‘público ou privado’ e mais ‘com que instituições’."
+          ]
+        }
       ],
-      "hoje": "Saneamento, gás canalizado e energia seguem com a mesma pergunta: monopólio natural concedido e regulado, ou gestão pública? O argumento de 1886 já usava os instrumentos que importam hoje — custo de produção, capital investido de verdade, comparação internacional e desenho de contrato.",
+      "glossario": [
+        [
+          "monopólio natural",
+          "Setor em que uma única empresa atende o mercado a custo menor do que duas ou mais; James usa a expressão “practical monopoly”."
+        ],
+        [
+          "capital aguado",
+          "Capital declarado acima do custo real dos ativos (watered capital), usado para justificar tarifas e dividendos mais altos."
+        ],
+        [
+          "escala móvel",
+          "Regra inglesa (sliding scale) que permitia à companhia elevar o dividendo a cada redução do preço do gás."
+        ],
+        [
+          "retornos crescentes",
+          "Situação em que cada acréscimo de capital e trabalho gera aumento mais que proporcional da produção."
+        ],
+        [
+          "mil pés cúbicos",
+          "Unidade de venda do gás na época, equivalente a cerca de 28,3 metros cúbicos."
+        ]
+      ],
+      "hoje": "A pergunta de James continua viva em saneamento, gás canalizado e distribuição de energia, setores de rede em que duplicar tubos ou fios raramente faz sentido. O debate migrou do ‘quem é o dono’ para o desenho dos contratos: como definir a base de ativos remunerada, como evitar que investimentos desnecessários entrem na tarifa e como repartir ganhos de eficiência com o usuário. O capital aguado de 1886 tem parentes modernos nas disputas sobre revisões tarifárias. E a advertência central permanece: sem informação contábil confiável e técnicos independentes, nem a concessão nem a empresa pública entregam serviço barato.",
       "itens": [
-        ["The Relation of the Modern Municipality to the Gas Supply", "pp. 7–76", "2485712"]
+        [
+          "The Relation of the Modern Municipality to the Gas Supply",
+          "pp. 7–76",
+          "2485712"
+        ]
       ],
       "jstor_edicao": "i342407"
     },
     {
+      "slug": "1886-cooperativas-de-minneapolis",
+      "numero": 3,
+      "titulo": "Os tanoeiros que dispensaram o patrão",
+      "titulo_original": "Coöperation in a Western City",
+      "autores": "Albert Shaw, Ph. D., Associate Editor of the Minneapolis Daily Tribune",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 1, nº 4",
+      "data": "setembro de 1886",
+      "chamada": "Em Minneapolis, a maior praça moageira do mundo, os fabricantes de barris montaram oficinas cooperativas que viraram casa própria e poupança. Albert Shaw conta como funcionavam e onde esbarravam.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Numa sexta-feira da primavera de 1870, os tanoeiros de uma oficina de Minneapolis foram avisados de que, a partir da segunda-feira seguinte, receberiam 12,5 centavos de dólar por barril, e não mais 15. Na segunda, quatro deles já trabalhavam por conta própria: tinham arrendado um terreno, erguido um galpão e fechado contrato para 4.000 barris. O capital somado não chegava a US$ 100."
+        },
+        {
+          "tipo": "p",
+          "texto": "A experiência durou menos de um ano: o tesoureiro, Lawrence Stoker, tomou para si um contrato grande e virou patrão. A ideia, porém, sobreviveu, e é a história dessas oficinas que Albert Shaw, editor do Minneapolis Daily Tribune, conta nesta edição."
+        },
+        {
+          "tipo": "p",
+          "texto": "O cenário era a maior praça moageira do mundo. Vinte e seis moinhos junto às Quedas de Santo Antônio tinham capacidade de cerca de 35 mil barris de farinha por dia, e metade da produção ainda seguia em barris de carvalho e olmo. Setecentos a oitocentos tanoeiros atendiam essa demanda; a maioria estava reunida em sete oficinas cooperativas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava uma tanoaria sem patrão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A forma definitiva nasceu em novembro de 1874, com a Cooperative Barrel Manufacturing Company. O ambiente era hostil: o sindicato dos tanoeiros era filiado à Internacional, que muitos associavam à Comuna de Paris. Quem destravou o negócio foi Charles A. Pillsbury, que prometeu aos cooperados o fornecimento de um de seus moinhos. A oficina começou com dezesseis homens."
+        },
+        {
+          "tipo": "p",
+          "texto": "Juridicamente, era uma sociedade anônima comum. Todo membro detinha o mesmo número de ações e pagava 15% do valor na entrada. O restante saía de uma contribuição semanal descontada do salário, e o capital integralizado rendia juros fixos semestrais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto mais fino estava na partilha. Ganhos e perdas ordinários do negócio eram divididos na proporção do salário de cada um, isto é, do trabalho feito. Já a valorização de imóveis, os incêndios e os calotes de clientes eram repartidos igualmente por ação. Shaw viu ali a separação entre o homem como capitalista e o homem como trabalhador."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Mostra aguda percepção econômica e tem grande valor prático.”",
+          "original": "“shows keen economic insight, and has great practical value”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quem saía recebia uma nota promissória a seis meses, com juros. Quando as máquinas chegaram, em 1885, o trabalho de 120 tanoeiros passou a caber em 90, e o ajuste foi voluntário."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 500",
+          "texto": "Patrimônio líquido por sócio da Cooperative Barrel Manufacturing Company em março de 1886. Ativos de US$ 58 mil (imóveis de US$ 23 mil, fábrica de aduelas em Wisconsin de US$ 25 mil, estoques de US$ 10 mil), passivos de US$ 13 mil e 90 sócios. A fábrica de aduelas rendeu pouco; o presidente, M. J. Gill, concluiu que sapataria cooperativa não deve montar curtume."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os tanoeiros ganharam com isso?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Casa própria, antes de tudo. Dos 90 sócios da oficina mais antiga, de 60 a 70 eram casados, e nove em cada dez destes eram donos da casa onde moravam, avaliadas em média em US$ 3.500. Shaw admite que a alta dos imóveis ajudou, mas sem a cooperativa aqueles homens não teriam comprado o terreno a tempo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mecanismo era a poupança forçada. A contribuição retida do salário, somada aos dividendos até a quitação das ações, fazia do sócio um capitalista quase a contragosto. Quem ficava dois ou três anos saía com algumas centenas de dólares, o bastante para virar agricultor ou abrir um pequeno comércio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A companhia lhes serviu como uma caixa econômica compulsória.”",
+          "original": "“The company has served them as a compulsory savings bank.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dividendos também contavam. Um ex-cooperado com dez anos de oficina, depois gerente da loja cooperativa, relatou dividendos anuais que nunca ficaram abaixo de US$ 50, e vendeu suas ações por US$ 750 ao sair. Tesoureiros sem fiança movimentaram milhões; a única mancha foi um que, ao que se acredita, perdeu cerca de US$ 75 no pôquer e sumiu."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a cooperativa não bastava para subir salários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque convivia com oficinas de patrões que fechavam contratos baratos e dispensavam os homens na entressafra. As cooperativas tinham de acompanhar o preço. Resultado: o tanoeiro recebia de 11 a 13 centavos por barril feito à mão, contra 16 a 20 poucos anos antes. E cooperados, sendo também capitalistas, não aderiam facilmente a greves."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em meados de outubro de 1886, os empregados das oficinas de patrões entraram em greve por 16 centavos, e os cooperados pararam junto. Uma greve de manobristas ferroviários fechou os moinhos e esvaziou o movimento. Propôs-se então um pool de todas as oficinas, com venda centralizada. As duas cooperativas mais antigas recusaram: em 1º de novembro assumiriam o fornecimento de todos os moinhos Pillsbury."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma nota de rodapé de última hora registra o desfecho. As cooperativas pagaram salário integral aos grevistas para que seguissem parados, e os patrões acabaram assinando uma tabela de 15 centavos por barril feito à mão. As cooperativas empregavam então cerca de 400 homens; as demais, uns 200."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que há além dos barris?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O próprio Pillsbury ensaiou outra via. Em setembro de 1882, ofereceu a parte dos empregados uma fatia do lucro líquido, apurada depois dos juros do capital, pedindo sigilo na carta. No primeiro ano, cerca de cem homens dividiram mais de US$ 40 mil, algo como um terço de seus salários. Entravam os cargos de confiança e quem tivesse cinco anos de casa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1886 veio a carta oposta. A produção fora recorde, mas a safra de 1885 dera prejuízo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A razão é simples: não temos lucros para dividir.”",
+          "original": "“The simple reason is that we have no profits to divide.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Shaw, decisivo é que Pillsbury lhe garantiu que o sistema compensava; sem isso, seria só generosidade, não resposta à questão trabalhista."
+        },
+        {
+          "tipo": "p",
+          "texto": "Houve fracassos. Uma associação de carpinteiros pagou a si mesma salários acima do que o negócio permitia; em outubro, Shaw encontrou trancado o rinque de patinação que servia de oficina. Uma fábrica de camisas de oito costureiras parou em boa parte porque o corte era ruim. Nem os Cavaleiros do Trabalho (Knights of Labor), que a apoiavam, gostavam de camisa que não servia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado mais amplo vinha de outro ramo da cooperação: as associações de construção e empréstimo. Minneapolis tinha oito, que já haviam ajudado cerca de mil famílias de trabalhadores a obter casa própria; a vizinha St. Paul tinha quarenta."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 19,20",
+          "texto": "Prestação mensal no exemplo de Shaw para um inquilino que pagava US$ 18 de aluguel. Ele subscreve 12 ações (valor de resgate de US$ 200 cada) e toma US$ 2.400 com ágio de 40%, recebendo US$ 1.440 líquidos. Paga US$ 7,20 de juros e US$ 12 de cotas por mês; em cerca de oito anos as ações vencem, a dívida se extingue e a casa é dele."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o caso de Minneapolis vale justamente por ser prosaico. Os tanoeiros queriam emprego estável e casa, não uma sociedade nova. A regra de dividir o resultado operacional pelo trabalho e o ganho patrimonial pelo capital resolve, numa linha de estatuto, um conflito de incentivos que muitos arranjos de participação dos empregados ainda administram mal.",
+            "O limite também está no documento. Uma cooperativa eficiente não impede a corrida salarial para baixo quando divide o mercado com concorrentes que demitem na entressafra, e o sócio que também é dono do capital hesita em fazer greve. A lição permanente é que a forma de propriedade muda os incentivos dentro da empresa, mas não suspende a concorrência fora dela."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tanoeiro",
+          "artesão que fabrica barris, tonéis e pipas de madeira."
+        ],
+        [
+          "Oficina de patrão (boss shop)",
+          "tanoaria de dono privado, com jornaleiros pagos por peça e dispensados na entressafra."
+        ],
+        [
+          "Contribuição semanal (assessment)",
+          "valor retido do salário do sócio para integralizar suas ações na cooperativa."
+        ],
+        [
+          "Participação nos lucros (profit-sharing)",
+          "parcela do lucro líquido distribuída aos empregados além do salário."
+        ],
+        [
+          "Associação de construção e empréstimo",
+          "cooperativa de poupança que empresta aos sócios, mediante ágio, para comprar ou construir casa."
+        ]
+      ],
+      "hoje": "Cooperativas de trabalho, planos de participação acionária de empregados e programas de participação nos lucros seguem no centro do debate sobre como repartir o resultado entre capital e trabalho. As perguntas de Shaw continuam de pé: o arranjo sobrevive quando o lucro some, como na carta de Pillsbury de 1886? Ele se paga para quem o adota, ou depende de boa vontade? E a poupança automática, hoje discutida em previdência complementar com adesão automática, continua sendo, como nas tanoarias, uma das ferramentas mais eficazes para que famílias de renda modesta formem patrimônio.",
+      "itens": [
+        [
+          "Coöperation in a Western City",
+          "pp. 7–106",
+          "2485609"
+        ]
+      ],
+      "jstor_edicao": "i342408"
+    },
+    {
+      "slug": "1886-cooperativas-da-nova-inglaterra",
+      "numero": 4,
+      "titulo": "Sabão, chá e governança: por que as cooperativas quebravam",
+      "titulo_original": "Coöperation in New England",
+      "autores": "Edward W. Bemis, Ph. D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 1, nº 5",
+      "data": "novembro de 1886",
+      "chamada": "Edward W. Bemis passou em revista quatro décadas de cooperativas na Nova Inglaterra. As lojas que vendiam a preço de custo quebraram; ficaram as que acertaram preço, despesa e governança.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 6 de outubro de 1845, cerca de uma dúzia de pessoas reuniu-se numa sala no andar de cima do Boylston Market, em Boston, e abriu um negócio com uma caixa de sabão e meia caixa de chá. Diziam-se pobres e pouco versadas nos “artifícios do comércio”. Ali nascia a primeira loja da futura New England Protective Union, ponto de partida do levantamento que Edward W. Bemis publicou em novembro de 1886 pela American Economic Association."
+        },
+        {
+          "tipo": "p",
+          "texto": "Bemis visitou lojas, fábricas e bancos, trocou cartas com gerentes e copiou estatutos. O resultado é menos um elogio do movimento do que um manual de como ele falhava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a Protective Union se desfez?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A organização central foi formada em 7 de janeiro de 1847 por doze divisões locais, dez delas em Massachusetts. O modelo era simples: vender à vista, perto do custo, e comprar por um agente em Boston. Em outubro de 1852 já havia 403 subdivisões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Então, escreve Bemis, a união virou desunião. Muitas divisões deixaram de comprar pela agência central e só lhe mandavam os pedidos trabalhosos. Em 1853 o agente foi substituído, seus aliados fundaram uma organização rival, a American Protective Union, e as duas começaram a declinar por volta de 1858. A Guerra Civil acabou de desmontá-las."
+        },
+        {
+          "tipo": "p",
+          "texto": "William F. Young, secretário da organização, listou as causas: falta de unidade, imitação das lojas rivais em luxo e reformas, abandono do pagamento à vista e gerentes despreparados. Bemis acrescenta uma fragilidade de desenho. Quem promete vender mais barato que todos convida o concorrente a oferecer um artigo abaixo do custo e atrair a freguesia. Havia também a saída silenciosa: lojas que subiam preços e dividendos até as ações se concentrarem nas mãos de poucos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O fracasso desses experimentos se deve menos aos métodos do que aos homens.”",
+          "original": "“The failure of these experiments is not so much due to methods as to men.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que deu errado em Springfield?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em janeiro de 1874, uma convenção em Springfield, Massachusetts, fundou a Ordem dos Sovereigns of Industry, sob a liderança de William H. Earle, fruticultor de Worcester. No auge, os conselhos que prestaram contas somavam 27.984 membros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A loja de Springfield começou com um comprador voluntário, O. S. Brigham, que adquiria no atacado e não cobrava pelo serviço. Os carvoeiros locais recusavam-se a vender abaixo de US$ 10 a tonelada; a cooperativa achou um fornecedor em Hudson, Nova York, e passou a vender a US$ 7. Os comerciantes da cidade tiveram de baixar os preços também."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1876 as vendas chegaram a US$ 134.813,73. Mas a política de vender a preço de custo provocou a concorrência que atacadistas descreveram como a mais feroz de Massachusetts. Os rivais vendiam açúcar abaixo do custo; a loja só podia vender aos membros da ordem, que podiam comprar em qualquer lugar."
+        },
+        {
+          "tipo": "p",
+          "texto": "O defeito mais grave era de governança. O capital vinha de empréstimos dos membros aos conselhos, mas os diretores eram eleitos pelos conselhos inteiros, não por quem tinha posto dinheiro. Bemis descreve uma empresa dirigida pelos votos de uma democracia cuja maior parte nada contribuíra para o capital. Carpinteiros e ex-funcionários do Arsenal viraram gerentes; nenhum par de auditores conseguiu fechar as contas; mercadorias foram vendidas a crédito contra o estatuto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "9%",
+          "texto": "Despesas totais da loja de Springfield sobre as vendas em 1876. A mão de obra custou US$ 7.810,61. No início de 1875, com metade do movimento, bastavam dois balconistas e uma parelha; dois anos depois eram mais de dez balconistas e seis parelhas. Nas 1.153 cooperativas do Reino Unido em 1883, a proporção era de 6%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano de Rochdale foi adotado em 1878, tarde demais. Em 22 de janeiro de 1879 a corporação votou pela dissolução, depois de perder boa parte do capital. A crise de 1874 a 1879 completou o serviço: desempregados não pagavam à vista e pressionavam os conselhos por crédito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que sobreviveu, e por quê?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As lojas que duraram seguiam, em geral, o plano de Rochdale: vender a preço de mercado e devolver o excedente aos compradores em proporção às compras, depois de pagar juros modestos ao capital e formar reserva. Um voto por sócio, ações pequenas e limite por pessoa. Vender a preço corrente, dizia o roteiro dos Sovereigns, “desarma a oposição”."
+        },
+        {
+          "tipo": "p",
+          "texto": "A outra regra era de custo. Em onze lojas bem-sucedidas, as despesas correntes ficavam em média em 7,7% do movimento. Bemis conclui que aluguel, carroças, empregados demais e aparência “elegante” arruinavam mais cooperativas do que qualquer outra causa, e fixa um teto: despesas de no máximo um doze avos do movimento garantido."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso mais bem-sucedido não era uma loja. A lei de Massachusetts de 1877 criou os bancos cooperativos, em que ações de US$ 200 eram pagas à razão de US$ 1 por mês. O dinheiro arrecadado era emprestado todo mês aos sócios que oferecessem o maior prêmio, e os dividendos ficavam, em geral, entre 6% e 7%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Bemis faz as contas de um empréstimo de US$ 2.000: US$ 22,50 por mês durante cerca de doze anos, até que as ações do tomador valham o mesmo que a dívida e as duas se cancelem. Ele admite que um banco de poupança sairia mais barato no papel. Mas mal haveria um homem em mil que guardasse dinheiro todo mês por vontade própria; a obrigação mensal era a justificativa do sistema."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Antes que o homem se dê conta, já pagou pela sua casa.”",
+          "original": "“Before the man is aware of it, he has paid for his home.”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "30 bancos",
+          "texto": "Bancos cooperativos em Massachusetts em 1885, segundo os comissários bancários do estado, depois chegando a 40. Tinham 11.836 sócios, 2.482 tomadores e ativos de US$ 2.512.335,86, alta de 25% sobre o ano anterior."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A cooperação chega à fábrica?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na produção, as dificuldades eram maiores. A Somerset Cooperative Foundry, organizada em 1867, dava prejuízo em mãos privadas até ser comprada pelos fundidores; desde 1880 pagava 10% de dividendo. Mas, como na maioria das fábricas cooperativas descritas, o lucro ia só às ações, não ao trabalho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os fracassos repetiam os das lojas. Uma fábrica de móveis em Orange, criada em 1879, dissolveu-se em três anos por ciúmes sobre os salários, embora sem prejuízo financeiro. Uma fábrica de chapéus em South Norwalk fechou em outubro de 1886; seu presidente culpou a recusa da diretoria em pagar a um gerente o salário de mercado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A forma sobre a qual Bemis é mais otimista é a participação nos lucros. A Peace Dale Manufacturing Company passou em 1878 a dividir com os empregados perto da metade do lucro líquido, proporcionalmente aos salários. Pagou em apenas quatro de oito anos, mas os donos diziam que o desperdício caíra."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A participação nos lucros, mesmo quando fracassa, não leva o negócio ao fracasso.”",
+          "original": "“Profit-sharing, even if a failure, brings no failure to the business.”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O documento é uma aula de governança antes de o termo existir. Em Springfield, quem votava não arriscava capital; nas lojas que degeneraram, quem tinha capital acabou com todo o poder. As que sobreviveram encontraram um meio-termo: um voto por sócio, ações pequenas com limite por pessoa e gerentes pagos a preço de mercado e fiscalizados de perto.",
+            "Os bancos cooperativos dão a segunda lição: um bom desenho institucional pode compensar a fraqueza da vontade. Bemis não supõe operários mais virtuosos que os outros; supõe que poucos poupam sozinhos e monta uma obrigação mensal que poupa por eles."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Plano de Rochdale",
+          "Modelo cooperativo inglês: vende a preço de mercado e devolve o excedente aos compradores conforme o volume de compras."
+        ],
+        [
+          "Dividendo sobre compras",
+          "Parte do lucro devolvida a cada freguês em proporção ao que ele comprou na loja, e não às ações que possui."
+        ],
+        [
+          "Banco cooperativo",
+          "Associação de poupança e crédito imobiliário em que os sócios pagam as ações em parcelas mensais e tomam empréstimos do fundo comum."
+        ],
+        [
+          "Participação nos lucros",
+          "Parte do lucro paga aos empregados além do salário, sem que eles aportem capital ou dirijam a empresa."
+        ],
+        [
+          "Prêmio",
+          "Valor extra que o sócio oferecia, em leilão mensal, pelo direito de tomar empréstimo do banco cooperativo."
+        ]
+      ],
+      "hoje": "As cooperativas de crédito e de consumo continuam a enfrentar os dilemas que Bemis descreveu: como dar voz igual a muitos sócios sem deixar a gestão sem dono, como pagar gerentes competentes sem desfigurar o modelo e como competir em preço sem destruir a margem que sustenta a reserva. A poupança programada, que tornava os bancos cooperativos atraentes, reaparece hoje na economia comportamental sob o nome de mecanismo de compromisso. E o debate sobre participação nos lucros como instrumento de produtividade, e não de caridade, permanece aberto nas negociações trabalhistas.",
+      "itens": [
+        [
+          "Coöperation in New England",
+          "pp. 7–136",
+          "2485565"
+        ]
+      ],
+      "jstor_edicao": "i342409"
+    },
+    {
+      "slug": "1887-o-estado-e-a-industria",
+      "numero": 5,
+      "titulo": "Quem define o piso da concorrência? Adams contra o laissez-faire",
+      "titulo_original": "Relation of the State to Industrial Action",
+      "autores": "Henry C. Adams, Ph.D. — Lecturer on Political Economy and Finance na Universidade de Michigan e Associate Professor na Universidade Cornell",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 1, nº 6",
+      "data": "janeiro de 1887",
+      "chamada": "Em 1887, Henry C. Adams desmonta a lógica do laissez-faire, defende que a lei eleve o piso da concorrência e separa os setores em que o monopólio é inevitável — e deve ser público ou regulado.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1880, uma comissão especial da Assembleia de Nova York contou os elevadores de grãos de Buffalo: eram 34, quando 12 bastavam para o serviço. Os demais não precisavam funcionar para ganhar dinheiro. Todos recebiam sua parte da receita por meio de um pool, o acordo de rateio entre concorrentes. Um deles, registrou o relatório, estava parado havia vinte anos; vários tinham sido erguidos só para entrar na divisão."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso abre o ataque de Henry C. Adams, professor em Michigan e em Cornell, ao laissez-faire, publicado pela American Economic Association em janeiro de 1887. Outro desperdício: uma associação de fabricantes de papel de parede pagava US$ 25 mil por ano ao dono de uma fábrica em Long Island para mantê-la fechada."
+        },
+        {
+          "tipo": "p",
+          "texto": "As construtoras ferroviárias, diz Adams, ergueram nos Estados Unidos o dobro da malha de que o país precisava — e lucraram. O interesse privado pode prosperar destruindo valor social."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo declarado é Spencer, que em The Man versus the State listara leis do Parlamento sobre a indústria como invasões da liberdade pessoal. Adams concede muito. Legislação ignorante é legislação criminosa, e subsídios à renda do trabalhador derrubam salários, como mostraram as leis inglesas de assistência aos pobres. Mas recusa a conclusão: mesmo que o governo seja fraco e dócil a interesses privados, o sábio não deve enfraquecê-lo ainda mais. O clamor por mais governo será atendido de todo modo; resta dirigir a expansão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde falha a lógica do laissez-faire?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Adams toma a formulação de Cairnes e a converte em silogismo. Premissa maior: os interesses humanos são, no fundo, os mesmos. Premissa menor: cada um conhece o próprio interesse e, deixado livre, o segue. Conclusão: a melhor ordem social nasce da liberdade irrestrita. O erro é elementar: interesse muda de sentido no caminho. Na maior, é o interesse último; na menor, o imediato. E os homens sacrificam o remoto ao presente até nos assuntos pessoais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A versão moderada, de Cairnes e Mill, trata o laissez-faire como regra prática com presunção a seu favor. Adams não se satisfaz: corrigida a premissa, perdeu-se a força do argumento, e a economia inglesa desceu de ciência fundada num princípio a filosofia fundada numa máxima. O que resta da presunção é conservadorismo, a autoridade de qualquer fato estabelecido. Na Alemanha, a presunção corre no sentido oposto, a favor do Estado: cada povo presume em favor do arranjo que conhece. O erro inglês é ver o Estado como mal necessário; o alemão, como organismo completo em si. A unidade de análise, diz Adams, é a sociedade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quais são os três males da concorrência sem freio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro: a livre disputa rebaixa a moral de um ramo ao nível do pior concorrente capaz de nele sobreviver. O segundo: a regra da não intervenção impede a sociedade de colher os benefícios do monopólio onde ele é natural. O terceiro: o governo confinado ao mínimo fica fraco, e o fraco logo se corrompe, convidando as empresas a capturá-lo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A ilustração do primeiro é quase aritmética. Suponha dez fabricantes de algodão, nove deles dispostos a poupar mulheres e crianças de jornadas longas. Basta o décimo, que mede o sucesso só pela taxa de lucro, para que os outros sejam forçados a imitá-lo: os produtos competem, e o comprador não pergunta como foram feitos. O dono de uma gráfica da Vandewater Street disse a Adams sentir-se impotente diante de quem ditava os salários baixos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta é a legislação fabril. Quando a maioria de um ramo quer uma regra e poucos a impedem, cabe ao Estado convertê-la em lei. Proibir o trabalho infantil não restringe a concorrência; eleva seu plano ao do trabalho adulto. Muda-se o terreno, não o jogo. Neutralidade não existe: alguém dita o padrão, os melhores ou os piores."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhum voto é um voto negativo.”",
+          "original": "“No vote at all is a negative vote.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quando o monopólio é inevitável?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Adams classifica as indústrias pela resposta do produto a doses adicionais de capital e trabalho. Nas de rendimentos constantes, como o varejo, entrar é fácil, e o lucro de um merceeiro não passa muito do salário de seu primeiro caixeiro. Nas de rendimentos decrescentes, como a agricultura, a concorrência também basta. Não há motivo, diz ele, para o governo plantar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 classes",
+          "texto": "Rendimentos constantes: o produto cresce na proporção do insumo (varejo). Decrescentes: cresce menos (agricultura). Crescentes: cresce mais (ferrovias). Só a terceira, conclui Adams, exige controle do Estado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos rendimentos crescentes, ampliar o negócio estabelecido custa menos do que erguer um rival. Na ferrovia, duplicar a linha velha sai mais barato do que construir outra, e a incumbente fica por muito tempo livre de concorrência. Quando surge uma linha paralela, sua meta costuma ser vender-se à antiga: sinal de lucros excessivos, não de concorrência."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se é do interesse dos homens combinar, nenhuma lei os fará competir.”",
+          "original": "“If it is for the interest of men to combine no law can make them compete.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A escolha, portanto, é entre um monopólio irresponsável, à margem da lei, e um monopólio legal, gerido no interesse público. O instrumento fica em aberto: concessões vigiadas, comissões oficiais, concorrência estatal ou gestão direta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o governo mínimo vira governo corrupto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre 1830 e 1845, os estados americanos construíram ferrovias e canais. A experiência terminou em dívidas, e o eleitorado, irritado com os impostos, emendou as constituições para barrar o Estado da indústria. O espaço ficou com as corporações, que ainda assim viveram de recursos públicos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "215 milhões de acres",
+          "texto": "Terras públicas concedidas pelo governo federal às companhias ferroviárias, segundo Adams. Somem-se 185 milhões em títulos municipais para ferrovias e impostos locais pagos a construtoras. Para ele, prova de que o capital privado não bastava."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado foi simultâneo: corporações poderosas e prefeituras corruptas. Adams inverte o argumento liberal de que o governo é ruim demais para receber novas funções. A fraqueza é efeito, não causa. Uma administração retalhada em conselhos, sem prestígio e mal paga, afasta os capazes e abre caminho ao esperto sem escrúpulos. Na Alemanha, compara, o Estado atrai os talentos: as máquinas de costura são cópias toscas de modelos americanos abandonados, mas as cidades são bem governadas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Temos máquinas de costura perfeitíssimas, mas cidades mal administradas.”",
+          "original": "“we have very perfect sewing machines, but poorly administered cities.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Adams chama sua posição de conservadora: contra a anarquia, individualismo degenerado, e contra o socialismo, revolta contra os efeitos do laissez-faire. Seu teste separa as questões. Relações de trabalho devem ser resolvidas por contrato livre; deixá-las ao Estado seria admitir o essencial do socialismo. Os monopólios, ao contrário, são assunto do Estado, de preferência dos governos locais. Quem quer concentrar tudo no governo federal, adverte, é imperialista, não federalista."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a contribuição mais duradoura de Adams não é a defesa da intervenção, mas a recusa da presunção. “Na dúvida, mercado” e “na dúvida, Estado” são o mesmo hábito mental com sinais trocados. O critério que ele propõe — examinar a estrutura de custos de cada setor antes de decidir quem o opera — é o que a economia da regulação viria a tratar sob o nome de monopólio natural.",
+            "O argumento sobre o governo fraco envelheceu ainda melhor. Um Estado proibido de fazer, mal pago e fragmentado não fica neutro; fica capturável. A pergunta que Adams deixa é permanente: o desenho das instituições atrai para a função pública gente capaz de enfrentar os interesses que ela deve regular?"
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Laissez-faire",
+          "Doutrina que restringe o governo à proteção de pessoas e propriedade contra força e fraude, na definição citada de Mill."
+        ],
+        [
+          "Plano da concorrência",
+          "Conjunto de condições (morais, trabalhistas) sob as quais a disputa ocorre; a lei pode elevá-lo sem suprimir a concorrência."
+        ],
+        [
+          "Rendimentos crescentes",
+          "Situação em que mais capital e trabalho geram aumento mais que proporcional do produto, favorecendo o negócio já instalado."
+        ],
+        [
+          "Financiamento público e privado",
+          "Na terminologia de Adams, a regra de preço igual ao custo (Estado) versus o maior preço que não reduza o negócio lucrativo (empresa)."
+        ],
+        [
+          "Pool",
+          "Acordo entre concorrentes para dividir receitas ou mercado, em vez de disputá-los."
+        ]
+      ],
+      "hoje": "O vocabulário de Adams — rendimentos crescentes, concorrência que não se instala, monopólio legal sob regra pública — é o das agências que regulam energia, saneamento, telecomunicações e transportes. A Lei Sherman, de 1890, viria três anos depois do ensaio. O debate atual sobre plataformas digitais com efeitos de rede repete sua pergunta: quando o maior fica mais barato a cada novo usuário, a concorrência ainda disciplina? E o terceiro mal persiste como alerta: reguladores fracos, mal remunerados e sem prestígio tendem a ser capturados por quem deveriam fiscalizar.",
+      "itens": [
+        [
+          "Relation of the State to Industrial Action",
+          "pp. 7–85",
+          "2560515"
+        ]
+      ],
+      "jstor_edicao": "i323679"
+    },
+    {
+      "slug": "1887-cooperacao-no-oeste",
+      "numero": 6,
+      "titulo": "A patologia da cooperação: fazendeiros, operários e mórmons",
+      "titulo_original": "Three Phases of Coöperation in the West",
+      "autores": "Amos G. Warner, Fellow in History and Political Science, Johns Hopkins University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 1",
+      "data": "março de 1887",
+      "chamada": "Em 1887, Amos G. Warner examinou por que as cooperativas de fazendeiros quebraram, o que funcionou entre queijeiros e operários e por que os mórmons prosperaram. Conclusão: confiança tem valor econômico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Cincinnati, no início da década de 1880, a Grange Supply House convocou seus acionistas para examinar o balanço do melhor semestre de sua história. Bastavam vinte presentes para o quórum. A casa tinha cerca de setecentos acionistas. O quórum não se formou."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena está no centro da monografia que Amos G. Warner, bolsista da Johns Hopkins, publicou em março de 1887 pela American Economic Association. Warner estudou dez estados e territórios do Oeste americano e dividiu o que encontrou em três fases: a cooperação dos fazendeiros, quase toda no passado; a dos assalariados, quase toda no futuro; e a dos mórmons, à parte. Sobre a primeira, avisa:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A patologia da cooperação pode ser estudada com proveito.”",
+          "original": "“The pathology of cooperation may be studied with profit.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os armazéns da Grange quebraram?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Grange, a ordem dos Patrons of Husbandry, prometera aos fazendeiros eliminar o intermediário. Em Ohio, a primeira agência de compras terminou entre acusações de desonestidade. A sucessora, a Supply House de Cincinnati, quis seguir o modelo de Rochdale, mas a única lei disponível, a das sociedades mútuas de seguro, impunha voto proporcional às ações. Sem fundo de reserva, distribuía todo o lucro e tomava empréstimos quando o caixa apertava. A regra de vender só à vista, impressa em itálico no estatuto, convivia com contas a receber crescentes. Em 1886, estava em liquidação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1.328",
+          "texto": "Lucro líquido do primeiro ano da Supply House de Cincinnati, pago integralmente como juros e dividendos. Em julho de 1881, eram 656 acionistas, com US$ 8.629 integralizados. No mesmo ano, a casa tomou US$ 1.500 emprestados a 6%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas lojas locais, o roteiro se repetiu. Em Hillsboro, a diretoria proibiu margens acima de 10%; os comerciantes baixaram os preços dos itens básicos, os próprios acionistas foram comprar na concorrência e a loja quebrou. No fim, tentaram doar as ações para escapar das chamadas de capital e não encontraram quem as aceitasse."
+        },
+        {
+          "tipo": "p",
+          "texto": "Warner enumera seis causas. Alguns negócios não dariam certo nem com boa gestão. Faltavam leis que permitissem cooperativas verdadeiras. O fazendeiro, isolado e sem prática comercial, podia sempre voltar ao armazém de costume; um agente da Grange em Illinois resumiu que os fazendeiros eram ricos demais para cooperar. Somavam-se o endividamento rural, brigas locais e a hostilidade dos comerciantes, a quem os próprios cooperados haviam declarado guerra de extermínio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que funcionou, e por quê?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O único êxito de Ohio surgiu sem palestras nem editoriais: as fábricas de queijo do norte do estado. Em Geauga, em 1874, produtores insatisfeitos com as tarifas dos donos das fábricas montaram sociedades próprias e descobriram que o queijo podia ser feito a 90 centavos por cem libras. A ameaça bastou para os donos baixarem o preço."
+        },
+        {
+          "tipo": "p",
+          "texto": "Warner atribui o sucesso a quatro traços: capital pequeno diante do valor da produção anual, operação simples o bastante para ser confiada a um gerente assalariado, produto padronizado que dispensa propaganda e nenhuma necessidade de segredo."
+        },
+        {
+          "tipo": "p",
+          "texto": "No Kansas, a associação cooperativa de Olathe adotou o plano de Rochdale sem concessões em julho de 1876. Dez anos depois, com um fundo de reserva para obras, havia erguido uma sede de três andares que custou US$ 75 mil. Para Warner, um empreendimento racional que sirva de modelo vale mais que qualquer número de discursos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo os fracassos deixaram saldo. Ao forçar a queda de preços no comércio regular, as cooperativas renderam aos fazendeiros ganhos que, segundo Warner, tornavam triviais as perdas. E o hábito de comprar direto do atacado sobreviveu às agências: as compras por correspondência ganharam impulso com a Grange, e foi com a clientela e o endosso formal de granjas que a Montgomery, Ward & Co., de Chicago, construiu um negócio de mercadorias gerais que alcançava todos os estados do Oeste."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os operários cooperariam melhor que os fazendeiros?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre os assalariados, o entusiasmo era maior, e a necessidade também. Os Knights of Labor declaravam como objetivo final um sistema industrial cooperativo, embora socialistas radicais de Chicago vissem nas cooperativas isoladas um paliativo fadado a perder para os grandes frigoríficos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso mais instrutivo é o de Cannelburg, Indiana. Em 1883, mineiros da Buckeye Mining Company filiaram-se aos Knights e foram demitidos. Tomaram US$ 2 mil emprestados, arrendaram terra ao lado da antiga mina e abriram um poço. A ordem assumiu o projeto como Union Mining Company, e Powderly, seu dirigente, escreveu em tom de campanha:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Será a maior cartada que a ordem já jogou.”",
+          "original": "“It will be the biggest card for the order we ever played.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com mais de US$ 12 mil investidos, o desvio ferroviário até a mina nunca foi ligado à linha principal. A antiga companhia tinha influência suficiente para fazer a ferrovia violar seu dever de transportadora, e ir à Justiça custaria caro demais. A mina foi vendida pelo que se conseguiu. Warner chama falhas assim de gratuitas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O contraponto é a loja cooperativa de Streator, Illinois, criada por John H. Shay, dos Knights. Ninguém podia ter mais de cinco ações, cada sócio tinha um voto, parte do lucro ia para a reserva e os auditores tinham de ser de fora do quadro social. A loja evitou hostilizar o comércio vizinho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Warner, o defeito inerente da cooperativa é não conseguir pagar o preço mais alto pela capacidade gerencial; sua força é atrair os trabalhadores mais fiéis e inteligentes. O peso relativo desses dois fatores em cada setor indica onde cooperar tem chance."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os mórmons tinham que os outros não tinham?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Zion’s Co-operative Mercantile Institution, a Z.C.M.I., nasceu em 1868 por iniciativa de Brigham Young, para baratear as mercadorias em Utah e fomentar a indústria local. No papel, mostra Warner, era uma sociedade anônima comum: na incorporação, em 1870, quatro homens detinham US$ 177.200 dos US$ 199.000 em ações."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1 milhão",
+          "texto": "Capital da Z.C.M.I., mantido ao par. Vendas anuais entre US$ 4 milhões e US$ 5 milhões; folha de pagamento média de US$ 20 mil por mês; US$ 1.270.415,86 em dividendos pagos desde março de 1869."
+        },
+        {
+          "tipo": "p",
+          "texto": "E funcionava. Os defensores alegavam que os preços cobriam apenas o custo e a menor margem possível; os críticos viam ali a hierarquia da Igreja controlando seu povo. Amigos e adversários concordavam num ponto: o sistema comercial dependia do religioso."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí Warner tira sua conclusão. Inúmeras cooperativas fracassaram porque os líderes não eram confiáveis ou porque os sócios não confiavam neles. Os mórmons atribuíam o êxito a um elemento religioso que tornara os líderes dignos de confiança e os seguidores confiantes. Sem endossar a fé, e admitindo que ela pudesse ter produzido uma servidão espiritual, Warner registra a lição prática:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Religião e moralidade têm valor econômico.”",
+          "original": "“religion and morality have economic value.”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a monografia de Warner é sobretudo um estudo de governança. Os armazéns da Grange não morreram por falta de ideia nem de capital: morreram de assembleias vazias, estatutos mal desenhados, ausência de reservas e uma lei que não previa o que se queria fazer. As queijarias sobreviveram porque o negócio era simples, transparente e fácil de fiscalizar.",
+            "A frase final sobre religião e moral pode soar deslocada hoje, mas o argumento é econômico: confiança reduz o custo de coordenar pessoas. Onde ela falta, é preciso substituí-la por regras claras, auditoria independente e direito societário adequado, justamente o que faltou aos fazendeiros de Ohio. Não é preciso partilhar a fé de ninguém para reconhecer o valor desse capital."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Grange (Patrons of Husbandry)",
+          "Ordem de fazendeiros americanos que, nos anos 1870, promoveu armazéns e agências de compra cooperativas."
+        ],
+        [
+          "Plano de Rochdale",
+          "Modelo cooperativo inglês: venda à vista e a preço de mercado, um voto por sócio e sobras devolvidas na proporção das compras."
+        ],
+        [
+          "Knights of Labor",
+          "Organização operária americana que defendia substituir o assalariamento por um sistema industrial cooperativo."
+        ],
+        [
+          "Dividendo sobre compras",
+          "Devolução das sobras ao sócio-cliente na proporção do que comprou, e não do capital que investiu."
+        ],
+        [
+          "Loja pluck me",
+          "Armazém mantido pela própria empresa, onde os empregados eram obrigados a comprar."
+        ]
+      ],
+      "hoje": "Cooperativas de crédito, agropecuárias e de consumo enfrentam os dilemas que Warner catalogou: atrair gestores competentes sem pagar como o mercado, formar reservas em vez de distribuir tudo, manter o sócio fiel quando a concorrência baixa o preço. O legado mais duradouro da Grange, a compra direta por correspondência, sem o comerciante local, reaparece no comércio eletrônico. E a tese de que a confiança é um ativo econômico, que Warner extraiu da experiência de Utah, tornou-se tema central da economia institucional.",
+      "itens": [
+        [
+          "Three Phases of Coöperation in the West",
+          "pp. 9–119",
+          "2696706"
+        ]
+      ],
+      "jstor_edicao": "i346048"
+    },
+    {
+      "slug": "1887-as-financas-da-pensilvania",
+      "numero": 7,
+      "titulo": "Pensilvânia, 1842: o estado que quis viver de canais, não de impostos",
+      "titulo_original": "Historical Sketch of the Finances of Pennsylvania",
+      "autores": "T. K. Worthington, A. B., com introdução de Richard T. Ely, Ph. D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 2",
+      "data": "maio de 1887",
+      "chamada": "Sem impostos e com obras financiadas por dívida, a Pensilvânia suspendeu os juros em 1842. Um estudo de 1887 reconstrói o colapso, a venda dos canais e a reconstrução fiscal.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1810, cada habitante da Pensilvânia pagava, em média, 13 centavos de dólar por ano em impostos estaduais. O governo vivia sobretudo dos juros de suas aplicações em ações de bancos, estradas e pontes, e da venda de terras públicas. Até 1826, afora um tributo sobre dividendos bancários, taxas sobre certos cartórios e licenças comerciais, não havia tributação estadual."
+        },
+        {
+          "tipo": "p",
+          "texto": "Assim começa a história contada por T. K. Worthington no “Historical Sketch of the Finances of Pennsylvania”, publicado em maio de 1887 pela American Economic Association, com introdução de Richard T. Ely. O texto mostra como um estado quase sem impostos chegou à moratória (suspensão do pagamento de juros) e como saiu dela."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como um estado sem impostos decidiu construir canais?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os montes Allegheny isolavam o leste do oeste. Em agosto de 1825, uma convenção reuniu em Harrisburg 113 delegados de 46 condados para discutir canais. Os opositores alegaram que o plano exigiria impostos opressivos e beneficiaria as regiões de modo desigual. Perderam por 87 votos a 26. A resolução vencedora dizia que aplicar recursos públicos nas obras não era despesa, mas investimento benéfico. Worthington observa, seco, que ninguém explicou de onde viria o dinheiro: como impostos estavam fora de cogitação, o estado teria de tomar emprestado antes de investir."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1826 vieram a lei do Canal da Pensilvânia e a do Internal Improvement Fund, que pagaria os juros dos empréstimos com pedágios, dividendos e outras receitas. Para o autor, é ali que começa a desonra financeira do estado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custaram as obras e quanto renderam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Até 1835, o estado havia tomado emprestado e gastado US$ 19,3 milhões em obras públicas. Os pedágios do período somaram US$ 1,26 milhão, cerca de US$ 210 mil por ano. Ainda assim, esperava-se que em quinze ou vinte anos as obras quitassem a dívida e sustentassem governo e escolas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Parte da ilusão era contábil: divulgava-se a arrecadação bruta como se fosse lucro. Em 1840, o governador Porter foi o primeiro a insistir na diferença: em 1838, pedágios e tração não cobriram nem os reparos e o custeio, com um buraco de US$ 378 mil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 243 mil",
+          "texto": "Receita líquida média anual das obras públicas entre 1830 e 1854, segundo comissão do Senado estadual. Os pedágios renderam US$ 25,3 milhões e o custeio consumiu US$ 19,5 milhões. No mesmo período, o custo original de construção foi de US$ 32,5 milhões e os juros dos empréstimos, de US$ 35,2 milhões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a dívida virou dependência?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O resumo das operações do Tesouro entre 1826 e 1844 dá a medida: 58,6% da receita veio de empréstimos e apenas 11,4% de impostos. Do gasto, 76,8% foi para as obras e seus juros."
+        },
+        {
+          "tipo": "p",
+          "texto": "Durante anos, parte dos juros foi paga com os ágios (prêmio acima do valor de face) obtidos na venda de novos títulos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 18 de fevereiro de 1836 deu carta estadual por 40 anos ao antigo Banco dos Estados Unidos, rebatizado United States Bank of Pennsylvania. Em troca, o banco assumia obrigações de US$ 10,2 milhões, entre bônus e empréstimos ao estado; a mesma lei revogou os modestos impostos de 1831. Sumner, citado no texto, viu ali uma troca de favores entre isenção de impostos, obras e banco. A instituição quebrou em 1837, 1839 e 1841, e Worthington a aponta como causa imediata da crise de 1842."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Fazer negócios exclusivamente com capital emprestado é uma especulação de caráter perigoso.",
+          "original": "To do business exclusively on borrowed capital is a speculation of a dangerous character"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceu quando o dinheiro acabou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1º de agosto de 1842, o Tesouro estava sem fundos e não conseguiu tomar os US$ 870 mil autorizados. Os credores receberam certificados de juros, títulos a 5% no lugar do dinheiro, expediente repetido em 1843 e 1844. Em Filadélfia, o título estadual de 5%, cotado a 105 em 1836, valia 33 em 1842."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Inglaterra, o reverendo Sidney Smith, credor do estado, escreveu ao Congresso: a falta ocorria em plena paz, no estado mais rico da União, que colhia os frutos das estradas e canais feitos com o dinheiro emprestado."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "É um ato de má-fé que, consideradas todas as circunstâncias, não tem paralelo nem desculpa.",
+          "original": "It is an act of bad faith which (all its circumstances considered) has no parallel and no excuse"
+        },
+        {
+          "tipo": "p",
+          "texto": "A imprensa americana reagiu com bravata, mas o repúdio puro e simples quase não foi cogitado. A virada veio com a lei de 29 de abril de 1844, que tributou imóveis, bens pessoais, ações, rendas profissionais (exceto as de agricultores) e capital bancário, e vinculou de forma irrevogável toda essa receita aos juros da dívida. Alguns condados recolheram sua cota antes do prazo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Impostos e licenças, que renderam US$ 439 mil em 1840, chegaram a US$ 2,1 milhões em 1846. Os juros voltaram a ser pagos em 1845 e não foram mais interrompidos. O atraso teve preço: os juros capitalizados acrescentaram US$ 4,45 milhões a uma dívida que chegou a US$ 40,7 milhões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o estado saiu dos negócios e das dívidas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1844, a linha principal foi oferecida por US$ 20 milhões, e o leilão durou quarenta dias sem um único lance. Em 1857, a Pennsylvania Railroad Company a comprou por US$ 7,5 milhões; em 1858, o restante foi para a Sunbury and Erie por US$ 3,5 milhões. Obras que haviam custado entre 75 e 80 milhões de dólares saíram por US$ 11 milhões, a prazo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Também em 1857, uma emenda constitucional limitou a US$ 750 mil a dívida para cobrir déficits, obrigou o estado a manter um fundo de amortização e o proibiu de ser acionista de empresas. Para Worthington, ali acabou a política de tomar emprestado em vez de tributar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 17,3 milhões",
+          "texto": "Dívida da Pensilvânia em 1º de dezembro de 1886. Os juros do ano somaram US$ 770 mil. A receita de 1886 foi de US$ 7,52 milhões, cerca de 87% dela obtida com tributos; os impostos sobre corporações responderam por 53,3% do total. Em março de 1887, o título estadual de 5% era cotado a 117."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely, na introdução, relativiza o fracasso. Lembra que o imposto já foi recurso extraordinário e defende que as autoridades públicas assumam monopólios naturais, como ferrovias, em benefício do público; Prússia e Baviera tiravam de atividades lucrativas 66% e 72% de suas receitas. Na Pensilvânia, diz, a ideia era boa e a execução, falha, e os estados se apressaram em vender propriedades valiosas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lição mais prática, porém, já estava num relatório de 1840 da comissão de finanças do Legislativo: toda dívida nova deveria nascer com o imposto que a pagaria, porque assim"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "o coletor de impostos informará continuamente o povo sobre a situação da dívida pública",
+          "original": "the tax-gatherer will continually advise the people of the condition of the public debt"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o documento não condena o investimento público; condena a desconexão entre quem decide o gasto e quem enxerga o custo. A convenção de 1825 chamou dívida de investimento sem dizer quem pagaria a conta; a comissão de 1840 propôs o remédio mais simples e mais difícil. Disciplina, aqui, não é recusar obras: é medir o retorno líquido e explicitar a fonte de pagamento antes de começar.",
+            "Há uma segunda lição. A resposta ao trauma foi uma regra constitucional rígida, que o próprio texto julga excessiva por empurrar as grandes obras para corporações privadas. Regras nascidas de crises tendem a corrigir demais. Prefiro instrumentos que tornem o custo visível, como contabilidade honesta, vinculação de receitas e avaliação independente, a proibições que trocam um risco por outro."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Dívida fundada",
+          "Dívida de longo prazo, representada por títulos com prazo e juros definidos, em oposição a empréstimos temporários."
+        ],
+        [
+          "Ágio sobre empréstimos",
+          "Prêmio pago pelo comprador acima do valor de face de um título; a Pensilvânia chegou a usá-lo para pagar juros."
+        ],
+        [
+          "Certificados de juros",
+          "Títulos entregues aos credores no lugar dos juros em dinheiro, usados pela Pensilvânia entre 1842 e 1844."
+        ],
+        [
+          "Fundo de amortização",
+          "Fundo alimentado por receitas vinculadas e destinado exclusivamente a recomprar e extinguir a dívida pública."
+        ],
+        [
+          "Monopólio natural",
+          "Atividade em que um único operador atende o mercado com menor custo, como ferrovias, canais ou gás encanado."
+        ]
+      ],
+      "hoje": "O debate sobre como financiar infraestrutura continua o mesmo em sua essência. Governos ainda apresentam obras como investimentos que se pagam sozinhos, ainda confundem arrecadação bruta com retorno líquido e ainda descobrem tarde que a dívida, cedo ou tarde, recai sobre o contribuinte. A discussão sobre regras fiscais, limites ao endividamento de governos subnacionais, concessões e privatizações repete a tensão entre Worthington e Ely: proibir o Estado de empreender ou exigir que ele empreenda com contas claras. A Pensilvânia sugere que o problema raramente é a obra; é a promessa sem fonte de pagamento.",
+      "itens": [
+        [
+          "Historical Sketch of the Finances of Pennsylvania",
+          "pp. 7–106",
+          "2696709"
+        ]
+      ],
+      "jstor_edicao": "i346049"
+    },
+    {
       "slug": "1887-a-questao-ferroviaria",
-      "numero": 9,
+      "numero": 8,
       "titulo": "As ferrovias e a primeira agência reguladora dos EUA",
-      "titulo_original": "The Railway Question",
-      "autores": "Edmund J. James (Committee on Transportation)",
+      "titulo_original": "The Railway Question: Report of the Committee on Transportation, with the paper “The Agitation for Federal Regulation of Railways”",
+      "autores": "Edmund J. James, Ph. D., Professor in the University of Pennsylvania (presidente do Comitê de Transportes, com Richmond M. Smith)",
       "publicacao": "Publications of the American Economic Association",
       "volume": "vol. 2, nº 3",
       "data": "julho de 1887",
-      "chamada": "Levar trigo do norte de Iowa a Chicago custava mais que de Chicago a Liverpool. Em 1887, o Congresso respondeu com a lei que criou a regulação ferroviária federal.",
-      "pontos": [
-        ["O Estado não é neutro", "Nenhuma ferrovia existiria sem desapropriação e sem sociedade anônima de responsabilidade limitada: a corporação ferroviária é “a pure creature of law”. A omissão do governo, portanto, também é escolha."],
-        ["A fraude da construção", "Com cerca de 5% do capital integralizado, diretores contratavam a si mesmos por meio de uma “construction company”, inflavam custos de 3 a 4 vezes e deixavam a dívida para os acionistas."],
-        ["Concorrência ilusória", "Em 1º de janeiro de 1887, das 33.691 estações ferroviárias dos EUA, 30.916 eram servidas por uma única ferrovia. Onde havia disputa, ela terminava em cartel (pool), compra da rival ou falência."],
-        ["O Relatório Cullom", "O Senado reconheceu “the lowest rates known in the world”, mas também discriminações que favoreciam o forte contra o fraco e o grande comerciante contra o pequeno."],
-        ["Capital fictício", "Segundo Poor (1885), as ferrovias tinham custo real de US$ 3,79 bilhões e US$ 3,71 bilhões de capitalização fictícia."],
-        ["A lei de 1887", "Aprovada por 43 a 15 no Senado e 191 a 32 na Câmara, proibiu cartéis e discriminação de tarifas, exigiu aviso prévio de aumentos e criou uma comissão federal — o modelo das agências reguladoras."]
+      "chamada": "Em 1887, um economista explicou por que a concorrência não disciplinava as ferrovias dos EUA: 30 mil estações tinham uma só linha e o capital era em boa parte fictício. A resposta foi a primeira comissão reguladora federal.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A Wabash, Saint Louis and Pacific Railway cobrava 15 centavos por cem libras para levar uma carga de Peoria, em Illinois, até Nova York. De Gilman, na mesma linha e também em Illinois, cobrava 25 centavos pela mesma classe de carga, embora o percurso dentro do estado fosse bem menor. Illinois processou a empresa com base em sua lei contra a discriminação tarifária e venceu nos tribunais locais. A Suprema Corte, no período de outubro de 1886, reverteu a decisão: tarifas entre estados eram assunto do Congresso, e só dele."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso, relatado pelo senador Beck em discurso de janeiro de 1887, aparece num volume publicado pela American Economic Association em julho daquele ano, com o relatório do seu Comitê de Transportes e um ensaio de Edmund J. James, professor da Universidade da Pensilvânia, lido na reunião de Boston, em maio. O tema é a campanha de cerca de 20 anos pela regulação federal das ferrovias, que acabara de produzir a Lei do Comércio Interestadual."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O Estado pode ser neutro diante de uma ferrovia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "James começa desmontando a premissa. Sem o direito de desapropriar terras, o domínio eminente, prerrogativa do governo, a malha não teria chegado à escala que tinha. Sem a sociedade por ações de responsabilidade limitada, com papéis livremente transferíveis, o capital necessário não teria sido reunido. Uma corporação ferroviária existe porque a lei a criou, e cada cláusula de uma concessão confere ou nega poder. A conclusão é seca."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Nenhuma atividade é atividade do tipo mais intensivo.",
+          "original": "no activity at all is activity of the most intensive kind"
+        },
+        {
+          "tipo": "p",
+          "texto": "O debate, portanto, nunca foi entre intervir ou não, mas sobre como. Os estados, ávidos por trilhos, primeiro construíram por conta própria ou concederam subsídios. Depois abriram as portas à chamada construção competitiva: cinco ou dez homens que juntassem alguns milhares de dólares podiam fundar uma ferrovia, com poder de desapropriar e de fixar tarifas à vontade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vinha o capital fictício?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O esquema descrito era simples. Os incorporadores integralizavam, digamos, 5% do capital nominal e criavam, dentro da própria companhia, uma construtora. Como diretores da ferrovia, emitiam para si mesmos, como diretores da construtora, títulos a juros altos em pagamento de obras superfaturadas. Tomavam empréstimos para pagar juros e dividendos, davam à linha aparência de lucrativa, vendiam os papéis no pico e saíam, deixando uma empresa falida."
+        },
+        {
+          "tipo": "p",
+          "texto": "O custo declarado da obra chegava a três ou quatro vezes o real. Essa dívida inflada servia depois de justificativa para tarifas altas, cobradas sobretudo onde não havia concorrente. James lista ainda as companhias-satélite que vendiam suprimentos à ferrovia com contratos generosos e as estações instaladas onde os próprios diretores tinham comprado terrenos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3,7 bilhões",
+          "texto": "Capitalização fictícia de todas as ferrovias dos EUA, segundo estimativa de Poor de 1885 citada por James: US$ 3,708 bilhões, praticamente o mesmo que o custo efetivo em dinheiro da malha inteira, US$ 3,787 bilhões. O lucro líquido de 1883, US$ 336,9 milhões, equivalia a cerca de 9% do custo real."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo mais eloquente está numa nota sobre a Illinois Central, com dados de 1º de janeiro de 1873 reproduzidos do Congressional Globe. Somadas as distribuições gratuitas de ações e a venda das terras recebidas em doação, o desembolso efetivo dos donos caía para US$ 4.930,86 por milha, num custo declarado de US$ 48.331,75 por milha."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,7 milhão",
+          "texto": "Quanto as ações aguadas e a doação de terras da Illinois Central superavam o custo total de construção declarado pela própria empresa, de US$ 34,06 milhões. A doação somava 2.595.000 acres. Conclusão do documento: Illinois e o governo federal deram à companhia uma linha de 705 milhas e um bônus de quase US$ 2 milhões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a concorrência não disciplinava as tarifas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque, na maior parte do país, ela não existia. Em 1º de janeiro de 1887, segundo o chefe do Bureau de Estatística citado pelo senador Cullom, havia 33.691 estações ferroviárias nos Estados Unidos, das quais só 2.778 eram entroncamentos, com mais de uma ferrovia. Nas demais, o usuário tinha um único fornecedor."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo nos poucos pontos disputados, a rivalidade durava pouco. Terminava num acordo para dividir tráfego ou receitas, o pool, na compra de uma linha pela outra ou numa falência seguida de reorganização. Nesse caso, o tráfego entre as duas cidades passava a remunerar dois capitais em vez de um."
+        },
+        {
+          "tipo": "p",
+          "texto": "A diferença aparece nos fretes. Levar um bushel de trigo do norte de Iowa a Chicago, cerca de 400 milhas, custou numa temporada de 10,8 a 16,8 centavos. A tarifa mais alta superava a de Chicago a Liverpool, mais de 4 mil milhas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O relatório da comissão especial do Senado conhecido como Relatório Cullom, de 18 de janeiro de 1886, reconhecia que o país tinha o serviço ferroviário mais eficiente e as tarifas mais baixas do mundo. Mas listava 18 queixas: tarifas locais desproporcionais, preços fixados pelo critério do que o tráfego suporta, abatimentos secretos, capitalização muito acima do custo, passes gratuitos que criavam uma classe privilegiada."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Seus benefícios reconhecidos foram obtidos ao custo das discriminações mais injustificadas.",
+          "original": "its recognized benefits have been attained at the cost of the most unwarranted discriminations"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei de 1887 proibiu, e quem iria fiscalizar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O projeto passou com folga: 43 votos a 15 no Senado e 191 a 32 na Câmara. James registra, com ironia, o deputado da Pensilvânia que, antes da votação final, pediu uma saída para os colegas que pretendiam votar a favor sem aprovar o conteúdo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei alcançava toda ferrovia de tráfego interestadual. Proibia a discriminação pessoal, pois A não pode pagar mais nem menos que B por serviço idêntico, e a preferência indevida a pessoas, empresas ou localidades. Vedava os pools e a cobrança de mais, no total, por um trajeto curto do que por um longo que o contenha. Exigia tarifas afixadas em todas as estações e aviso prévio de dez dias para qualquer aumento."
+        },
+        {
+          "tipo": "p",
+          "texto": "A execução cabia a uma comissão com poder de investigar queixas, requisitar livros, contas e contratos, reportar ao Congresso e até suspender a cláusula do trajeto curto. Violações passavam a ser assunto público, a ser processado pelas autoridades, e não mais uma briga privada do embarcador contra a companhia. Para James, os abusos que dependiam do segredo tenderiam a diminuir muito."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele não via na lei um modelo. Era um compromisso entre interesses em conflito, que nada resolvia, salvo inaugurar a experimentação. Previu até que ela aceleraria a consolidação das linhas sob uma só gestão, e que mais combinação traria mais facilidade de controle. Sua defesa era pragmática."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Seguir em frente, quer você saiba ou não que está certo.",
+          "original": "go ahead, whether you know you are right or not"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ponto mais duradouro do texto é o primeiro: não existe Estado neutro diante de infraestrutura. Quem concede o direito de desapropriar, a responsabilidade limitada e a licença para fixar preços já escolheu um desenho de mercado. A pergunta útil não é se o governo deve intervir, mas se as regras que ele próprio criou alinham os incentivos de quem constrói, de quem financia e de quem usa.",
+            "Também me parece notável a honestidade intelectual de James. Ele defende a lei admitindo que ela é um compromisso imperfeito e que pode até acelerar a concentração que pretendia conter. Regulação, nessa visão, é um processo de aprendizado com dados públicos, e não um decreto que resolve o problema de uma vez."
+          ]
+        }
       ],
-      "hoje": "Concessão, tarifa, direito de passagem e captura regulatória: os temas de 1887 são os mesmos das concessões ferroviárias e rodoviárias de hoje. A diferença é que, em 1887, o diagnóstico começou pelo dado — quantas estações tinham concorrência de fato — e não pela opinião.",
+      "glossario": [
+        [
+          "Pool",
+          "acordo entre ferrovias concorrentes para dividir tráfego ou receitas e manter tarifas, eliminando a competição."
+        ],
+        [
+          "Domínio eminente (eminent domain)",
+          "poder do Estado de desapropriar propriedade privada para uso público, mediante indenização."
+        ],
+        [
+          "Ações aguadas (watered stock)",
+          "ações emitidas sem contrapartida em capital efetivamente investido, inflando o capital nominal da empresa."
+        ],
+        [
+          "Trajeto longo e curto (long and short haul)",
+          "regra que proíbe cobrar mais, no total, por um percurso curto do que por um mais longo na mesma direção que o inclua."
+        ],
+        [
+          "O que o tráfego suporta (what the traffic will bear)",
+          "critério de preço baseado na capacidade de pagamento do usuário, e não no custo do serviço."
+        ]
+      ],
+      "hoje": "O dilema de 1887 continua no centro da regulação de infraestrutura. Ferrovias, portos, energia, saneamento e plataformas digitais com efeitos de rede convivem com usuários cativos em alguns pontos e concorrência real em outros, o mesmo desenho das estações de um só trilho. Agências reguladoras ainda discutem como evitar que capital contabilizado acima do investido vire base para tarifas, como dar transparência a descontos e como impedir que acordos entre concorrentes substituam a competição. A lição de James permanece atual: a informação pública é a primeira ferramenta do regulador.",
       "itens": [
-        ["The Railway Question — Report of the Committee on Transportation", "pp. 10–68", "2696699"]
+        [
+          "The Railway Question (Report of the Committee on Transportation; The Agitation for Federal Regulation of Railways)",
+          "pp. 10–68",
+          "2696699"
+        ]
       ],
       "jstor_edicao": "i346050"
     }
   ],
   "proximas": [
-    "Cooperação numa cidade do Oeste (Minneapolis, 1886)",
-    "Cooperação na Nova Inglaterra (1886)",
-    "A relação do Estado com a ação industrial — H. C. Adams (1887)",
-    "As finanças da Pensilvânia: do boom de obras ao calote (1887)",
+    "A história da indústria da lã na Inglaterra — W. J. Ashley (1887)",
     "As guildas medievais da Inglaterra — E. R. A. Seligman (1887)",
-    "Socialismo na Inglaterra — Sidney Webb (1889)"
+    "As cidades e os serviços públicos: água, gás, luz e bonde (1888)",
+    "Estatística, sociologia e papel-moeda: três textos de 1887 (1888)",
+    "Capital e seus rendimentos — J. B. Clark (1888)",
+    "Os trabalhadores e as minas do Hocking Valley (1888)"
   ]
 }

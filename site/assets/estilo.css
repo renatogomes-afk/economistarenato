@@ -503,3 +503,26 @@ footer{border-top:2px solid var(--tinta);margin-top:56px;padding:38px 0 60px}
 /* credito de foto — sempre presente, sempre discreto */
 figcaption .credito{color:var(--cinza-claro);white-space:nowrap}
 figcaption .credito::before{content:"· "}
+
+/* ==========================================================================
+   ARQUIVO E NOTAS (2026-11-08)
+   ========================================================================== */
+.citacao-original{display:block;font-family:var(--sans);font-size:13px;font-style:normal;color:var(--cinza);margin-top:8px}
+.leitura-autor{border-left:4px solid var(--azul,#003097);background:#f5f3ef;padding:18px 22px;margin:28px 0}
+.leitura-autor h3{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--azul,#003097);margin:0 0 8px}
+.leitura-autor p{margin:0 0 10px}
+.glossario{border-top:1px solid #ddd;margin:28px 0 8px;padding-top:14px}
+.glossario h3{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px}
+.glossario dl{margin:0;display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:6px 16px;font-size:.95rem}
+.glossario dt{font-weight:600}
+.glossario dd{margin:0}
+.doc-original{text-align:center}
+.doc-original img{display:block;width:100%;max-width:380px;height:auto;margin:0 auto;border:1px solid #ddd;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.entao-agora{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:8px 0 28px}
+.entao-agora>div{background:#f5f3ef;padding:18px 20px;border-top:3px solid var(--azul,#003097)}
+.entao-agora>div:last-child{border-top-color:#03A9F4}
+.entao-agora .rot{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza)}
+.entao-agora .num{font-family:var(--display);font-size:2.2rem;line-height:1.1;margin:6px 0;color:var(--azul,#003097)}
+.entao-agora p{margin:0 0 6px;font-size:.98rem}
+.entao-agora small{font-family:var(--sans);font-size:11px;color:var(--cinza)}
+@media (max-width:640px){.entao-agora{grid-template-columns:1fr}.glossario dl{grid-template-columns:1fr}.glossario dd{margin-bottom:8px}}

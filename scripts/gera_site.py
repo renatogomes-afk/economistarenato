@@ -13,11 +13,11 @@ SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108a"
+CSS_V = "20261108b"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
+MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("notas/", "Notas"), ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
 e = html.escape
 
 
@@ -293,9 +293,79 @@ def pagina_arquivo():
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
+def render_blocos(blocos):
+    """Corpo em blocos: p, h2 (pergunta), caixa (número-chave), citacao (tradução + original), leitura (análise do autor)."""
+    out = []
+    for b in blocos:
+        t = b.get("tipo")
+        if t == "p":
+            out.append(f"    <p>{e(b['texto'])}</p>")
+        elif t == "h2":
+            out.append(f"    <h2>{e(b['texto'])}</h2>")
+        elif t == "caixa":
+            out.append(f'    <div class="caixa-num">\n      <div class="valor">{e(b["valor"])}</div>\n      <div class="exp">{e(b["texto"])}</div>\n    </div>')
+        elif t == "citacao":
+            orig = f' <span class="citacao-original">({e(b["original"])})</span>' if b.get("original") else ""
+            out.append(f'    <div class="citacao">\n      <p>{e(b["texto"])}{orig}</p>\n    </div>')
+        elif t == "leitura":
+            ps = "".join(f"<p>{e(x)}</p>" for x in b["texto"])
+            out.append(f'    <div class="caixa-leitura leitura-autor">\n      <h3>Na minha leitura</h3>\n      {ps}\n    </div>')
+    return "\n".join(out)
+
+
+def palavras(blocos):
+    n = 0
+    for b in blocos:
+        x = b.get("texto", "")
+        n += sum(len(s.split()) for s in (x if isinstance(x, list) else [x]))
+    return n
+
+
+def glossario_html(g):
+    if not g: return ""
+    itens = "\n".join(f"        <dt>{e(t)}</dt><dd>{e(d)}</dd>" for t, d in g)
+    return f'    <div class="glossario">\n      <h3>Glossário</h3>\n      <dl>\n{itens}\n      </dl>\n    </div>'
+
+
+def figura_html(slug, rel, legenda):
+    img = os.path.join(SITE, "assets", "arquivo", f"{slug}.jpg")
+    if not os.path.exists(img): return ""
+    return (f'  <figure class="artigo-figura doc-original">\n    <img src="{rel}assets/arquivo/{slug}.jpg" alt="{e(legenda)}" loading="lazy">\n'
+            f'    <figcaption>{e(legenda)} <span class="credito">Domínio público · JSTOR Early Journal Content / Internet Archive</span></figcaption>\n  </figure>')
+
+
 def pagina_edicao(ed, anterior, proxima):
     rel = "../../"
+    if "blocos" in ed:
+        mins = max(3, round(palavras(ed["blocos"]) / 200))
+        miolo = render_blocos(ed["blocos"]) + "\n" + glossario_html(ed.get("glossario"))
+        hoje = ed.get("hoje", "")
+        fig = figura_html(ed["slug"], rel, f"Página original: {ed['publicacao']}, {ed['volume']} ({ed['data']}).")
+        corpo_ed = f"""  <div class="corpo">
+{miolo}
+
+    <div class="caixa-num">
+      <div class="valor">E hoje?</div>
+      <div class="exp">{e(hoje)}</div>
+    </div>
+"""
+        return pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, f" · {mins} min de leitura")
     pontos = "\n".join(f"      <li><b>{e(t)}.</b> {e(x)}</li>" for t, x in ed["pontos"])
+    corpo_ed = f"""  <div class="corpo">
+    <h2>O que diz o documento</h2>
+    <ol>
+{pontos}
+    </ol>
+
+    <div class="caixa-num">
+      <div class="valor">E hoje?</div>
+      <div class="exp">{e(ed['hoje'])}</div>
+    </div>
+"""
+    return pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, "", "")
+
+
+def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
     itens = "\n".join(
         f'        <li><b>{e(t)}</b> ({e(p)}). <a href="https://www.jstor.org/stable/{j}" target="_blank" rel="noopener">JSTOR</a> · '
         f'<a href="https://archive.org/details/jstor-{j}" target="_blank" rel="noopener">Internet Archive (PDF)</a></li>' for t, p, j in ed["itens"])
@@ -312,22 +382,12 @@ def pagina_edicao(ed, anterior, proxima):
       <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
       <div class="quem">
         <b>Comentado por Renato W. Gomes</b>
-        <span>Original: “{e(ed['titulo_original'])}” — {e(ed['autores'])}</span>
+        <span>Original: “{e(ed['titulo_original'])}” — {e(ed['autores'])}{leitura_min}</span>
       </div>
     </div>
   </div>
-
-  <div class="corpo">
-    <h2>O que diz o documento</h2>
-    <ol>
-{pontos}
-    </ol>
-
-    <div class="caixa-num">
-      <div class="valor">E hoje?</div>
-      <div class="exp">{e(ed['hoje'])}</div>
-    </div>
-
+{fig}
+{corpo_ed}
     <div class="fontes">
       <h3>Fontes</h3>
       <ol>
@@ -348,6 +408,78 @@ def pagina_edicao(ed, anterior, proxima):
 """
     escreve(f"arquivo/{ed['slug']}", cabeca(f"{ed['titulo']} — Arquivo · Economista Renato Gomes", ed["chamada"], f"arquivo/{ed['slug']}/", rel, "article")
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
+
+
+NOTAS_ARQ = os.path.join(RAIZ, "scripts", "arquivo", "notas.json")
+NOTAS = json.load(open(NOTAS_ARQ, encoding="utf-8"))["notas"] if os.path.exists(NOTAS_ARQ) else []
+
+
+def cartao_nota(n, rel):
+    return f"""    <article class="cartao">
+      <a href="{rel}notas/{n['slug']}/">
+        <span class="chapeu dado">Então × Agora</span>
+        <h3 class="tit tit-g">{e(n['titulo'])}</h3>
+        <p class="olho">{e(n['chamada'])}</p>
+        <span class="selo">{e(n['entao']['valor'])} → {e(n['agora']['valor'])}</span>
+      </a>
+    </article>"""
+
+
+def pagina_notas():
+    rel = "../"
+    cartoes = "\n".join(cartao_nota(n, rel) for n in NOTAS)
+    corpo = f"""
+<main class="env">
+  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
+    <span class="chapeu dado">Notas · Então × Agora</span>
+    <h1>Um número de ontem, um número de hoje</h1>
+    <p class="olho">Notas curtas: um dado dos documentos de 1886–1922 ao lado de um dado atual, com as duas fontes. Para ler em três minutos.</p>
+  </div>
+  <section class="grade-3">
+{cartoes}
+  </section>
+  {assine()}
+</main>
+"""
+    escreve("notas", cabeca("Notas · Então × Agora — Economista Renato Gomes", "Um dado histórico ao lado de um dado atual, com as duas fontes.", "notas/", rel)
+            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_nota(n):
+    rel = "../../"
+    fontes = "\n".join(f'        <li>{e(d)}' + (f' — <a href="{e(u)}" target="_blank" rel="noopener">link</a>' if u else "") + "</li>" for d, u in n.get("fontes", []))
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu dado">Notas · Então × Agora</span>
+    <h1>{e(n['titulo'])}</h1>
+    <p class="olho">{e(n['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem"><b>Renato W. Gomes</b><span>Economista · CORECON-MS 1297 · {max(2, round(palavras(n['blocos']) / 200))} min de leitura</span></div>
+    </div>
+  </div>
+  <div class="corpo">
+    <div class="entao-agora">
+      <div><span class="rot">Então</span><div class="num">{e(n['entao']['valor'])}</div><p>{e(n['entao']['texto'])}</p><small>{e(n['entao']['fonte'])}</small></div>
+      <div><span class="rot">Agora</span><div class="num">{e(n['agora']['valor'])}</div><p>{e(n['agora']['texto'])}</p><small>{e(n['agora']['fonte'])}</small></div>
+    </div>
+{render_blocos(n['blocos'])}
+    <div class="fontes">
+      <h3>Fontes</h3>
+      <ol>
+{fontes}
+      </ol>
+    </div>
+    <p class="nota-legal">Nota de análise do autor. Encontrou um erro? Escreva: a correção é publicada no próprio texto, com data.</p>
+  </div>
+</article>
+<div class="env">
+  {assine()}
+</div>
+"""
+    escreve(f"notas/{n['slug']}", cabeca(f"{n['titulo']} — Notas · Economista Renato Gomes", n["chamada"], f"notas/{n['slug']}/", rel, "article")
+            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_analises():
@@ -481,6 +613,7 @@ def pagina_obrigado():
 
 def sitemap():
     urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
+    if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
     open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write(
@@ -490,6 +623,9 @@ def sitemap():
 
 if __name__ == "__main__":
     pagina_inicio(); pagina_arquivo(); pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
+    if NOTAS:
+        pagina_notas()
+        for n in NOTAS: pagina_nota(n)
     eds = DADOS["edicoes"]
     for i, ed in enumerate(eds):
         pagina_edicao(ed, eds[i - 1] if i > 0 else None, eds[i + 1] if i + 1 < len(eds) else None)
