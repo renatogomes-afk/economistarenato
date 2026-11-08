@@ -1284,14 +1284,831 @@
         ]
       ],
       "jstor_edicao": "i346050"
+    },
+    {
+      "slug": "1887-a-industria-da-la",
+      "numero": 9,
+      "titulo": "Lã, guildas e teares a menos: como nasceu a riqueza inglesa",
+      "titulo_original": "The Early History of the English Woollen Industry",
+      "autores": "W. J. Ashley, M.A., Fellow of Lincoln College; Lecturer in Lincoln and Corpus Christi Colleges, Oxford",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 4",
+      "data": "setembro de 1887",
+      "chamada": "Londres pagou ao rei para abolir a guilda dos tecelões; depois, os tecelões cortaram teares para encarecer o próprio trabalho. Ashley conta como a lã inglesa virou indústria, monopólio e, por fim, sistema doméstico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Por volta de 1200, os cidadãos de Londres fizeram ao rei João uma proposta incomum: pagariam ao Tesouro uma renda anual se a guilda dos tecelões fosse abolida. A oferta foi aceita. Uma carta régia extinguiu a corporação e transferiu à cidade o pagamento que os artesãos faziam pelo privilégio, agora fixado em vinte marcos por ano. Não durou: poucos anos depois, a guilda foi restaurada, com os próprios tecelões prometendo pagar a mesma quantia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O episódio está no ensaio de W. J. Ashley, de Oxford, publicado pela American Economic Association em 1887. No fim da Idade Média, a lã era o único artigo de exportação relevante da Inglaterra, quase um monopólio do país. No fim do século XVII, segundo Davenant, citado por Ashley, os tecidos de lã eram dois terços das exportações inglesas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a lã, e não o pão, fez a primeira indústria?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pão não se guarda para um mercado distante ou futuro; como a divisão do trabalho é limitada pela extensão do mercado, lembra Ashley citando Mill, a manufatura não podia crescer no alimento. O tecido era uma necessidade que se conservava. Por isso foi o primeiro ofício a formar guilda e o primeiro a romper seus limites."
+        },
+        {
+          "tipo": "p",
+          "texto": "O registro mais antigo é um rolo do Tesouro, a Pipe Roll, geralmente atribuído a 1130, com pagamentos ao rei das guildas de tecelões de Londres, Lincoln e Oxford. O pagamento era a condição de existência; guildas sem sanção régia eram multadas como “adulterinas”. As primeiras cartas de Henrique II tinham uma única regra definida: todo homem do ofício, no distrito, devia pertencer à guilda."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas cidades, o conflito era com os burgueses. Regras de Winchester, Marlborough, Oxford e Beverley, do início do século XIII, proibiam o tecelão de acusar um homem livre ou testemunhar contra ele. Quem enriquecesse e quisesse a cidadania tinha de renunciar ao ofício e tirar as ferramentas de casa. Em Marlborough, o artesão não deveria possuir bens acima de um pêni, além dos instrumentos de trabalho e cinco alnas de pano para a roupa do ano. Era, adverte Ashley, mais ideal da oligarquia que regra aplicada."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Regulação de qualidade ou reserva de mercado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Coroa também queria controlar o produto. A Assize of Measures, de 1197, mandou que todo tecido de lã tivesse a mesma largura, duas alnas entre as ourelas, e a mesma qualidade no meio e nas bordas. Quando os juízes do rei foram apreender o pano fora do padrão na feira de St. Botolph, os mercadores ofereceram dinheiro bastante para que a norma não fosse aplicada."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "½ pêni",
+          "texto": "Taxa do aulnager por peça inteira de tecido, pelo estatuto de 1353 (um quarto de pêni pela meia peça). O pano fora da medida deixou de ser confiscado: o fiscal media e selava, e o comprador recebia abatimento pela diferença; confiscado era o pano sem selo. A primeira prova documental do cargo é de 1298; em 1776, Adam Smith ainda elogiava o carimbo no tecido."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ashley vê nisso uma distinção de princípio: proibir a venda fora do padrão é uma coisa; dar garantia pública de tamanho e qualidade, deixando compradores e vendedores livres, é outra. A segunda, escreve, o governo pode muitas vezes assumir com segurança."
+        },
+        {
+          "tipo": "p",
+          "texto": "As guildas, uma vez vitoriosas, seguiram o caminho oposto. Em 1300, os tecelões de Londres tinham obtido tribunais semanais próprios e aprendizado obrigatório de sete anos. Em 1321, foram multados por combinar, na igreja de St. Margaret Pattens, cobrar seis pence a mais por peça. O júri condenou ainda a proibição de trabalhar à luz de vela e a exigência de quatro dias para um pano que se fazia em dois ou três."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Planejando maliciosamente que, quanto menos trabalhadores, mais caro seja o seu trabalho.”",
+          "original": "maliciously planning that the fewer the workmen the dearer their labor may become"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "380 → 80",
+          "texto": "Teares do ofício na cidade de Londres, segundo o júri de 1321: cerca de 380 trinta anos antes, apenas 80 então, porque os tecelões “reduziram o número em proveito próprio”. O processo foi adiado; o desfecho não se conhece."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a Inglaterra aprendeu a fazer o tecido fino?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Diante de Flandres, a Inglaterra era pobre e atrasada: exportava lã, por mãos estrangeiras, e importava o pano fino. Em 1258, o parlamento de Oxford decretou que a lã fosse trabalhada no país. Foi prematuro: faltavam artesãos ociosos e a habilidade para tecidos finos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O Velo era nosso; o Ouro, deles.”",
+          "original": "wherein indeed the Fleece was ours, the Golden theirs"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Thomas Fuller, historiador do século XVII, sobre o Tosão de Ouro borgonhês. Eduardo III concluiu que, sem pano flamengo, era preciso trazer tecelões flamengos. Em 1331, uma carta de proteção acolheu John Kempe, tecelão de Flandres, vindo para ensinar o ofício. O estatuto de 1337 ofereceu proteção a todos os artífices estrangeiros, proibiu importar e até vestir pano estrangeiro, salvo a família real, e vetou a exportação de lã."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os artesãos de Londres receberam os recém-chegados com agressões e ameaças de morte. Em 1352, o parlamento isentou os artífices estrangeiros de pertencer à guilda dos tecelões. A velha corporação declinou: em 1377 ocupava o nono lugar entre os ofícios da cidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem passou a carregar o risco do mercado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A manufatura criou uma classe nova, a dos comerciantes de tecido, os drapers. Não há prova segura de um corpo deles em Londres antes de 1364, quando a primeira carta da Drapers' Company lhes deu o monopólio do varejo na cidade. Quando tentaram obrigar os drapers do interior a vender só a eles, uma lei de 1405-6 garantiu a todos a liberdade de vender por atacado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ashley organiza a transformação em quatro estágios: sistema familiar, de guilda, doméstico e fabril. No terceiro, que na Inglaterra vai de meados do século XV a meados do XVIII, o mestre ainda trabalha em casa, com oficiais e aprendizes, mas perdeu a independência econômica. Entrega o produto a um mercador, que assume o risco de um mercado maior e instável."
+        },
+        {
+          "tipo": "p",
+          "texto": "As guildas urbanas, enquanto isso, viravam corporações fechadas. Um estatuto de 1530 denunciou taxas de aprendizes de até quarenta xelins. Quem tinha energia saía para o campo, onde surgia o clothier: compra a lã, paga cada etapa da fiação à tinturaria e vende o pano aos drapers. Uma lei de Eduardo IV proibiu pagar salários em alfinetes e cintos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O prefácio, de agosto de 1887, explica por que publicar nos Estados Unidos: ali competição e capital operam em escala maior e campo mais livre, sem resquícios de feudalismo. E propõe uma trégua: dedutivos e historicistas não divergem sobre a verdade das doutrinas ricardianas, só sobre seu uso; cada lado deve reconhecer ao outro o direito de testar seu método."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Continuar lutando nesse terreno é apenas matar os mortos.”",
+          "original": "To continue fighting upon this ground is only to slay the slain."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio mostra como a mesma instituição muda de sinal. A guilda nasce defendendo artesãos de uma oligarquia que lhes negava até o direito de testemunhar; um século depois, corta teares e cobra pedágio de quem quer entrar. É a lógica previsível de quem obtém o poder de regular o próprio mercado.",
+            "Mais duradoura me parece a distinção do selo. Proibir o pano fora do padrão protegia o produtor estabelecido; medir, selar e abater a diferença protegia o comprador sem fechar a porta a ninguém. Boa parte da regulação ainda oscila entre os dois modelos; vale perguntar a qual deles pertence cada norma nova."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Guilda",
+          "Associação de artesãos de um mesmo ofício, com poder de regular a produção e julgar seus membros."
+        ],
+        [
+          "Aulnager",
+          "Funcionário régio que media e selava o tecido de lã posto à venda, garantindo tamanho e qualidade."
+        ],
+        [
+          "Alna (ell)",
+          "Antiga medida de comprimento usada para tecidos, padrão da largura fixada em 1197."
+        ],
+        [
+          "Sistema doméstico",
+          "Fase em que o artesão trabalha em casa, mas para um mercador que fornece a matéria-prima e vende o produto."
+        ],
+        [
+          "Clothier",
+          "Empresário rural que comprava a lã, pagava cada etapa da fabricação e vendia o pano aos comerciantes."
+        ]
+      ],
+      "hoje": "O debate sobre conselhos profissionais, licenças de ofício e exigências de entrada repete a pergunta do júri de 1321: a regra protege o cliente ou reduz o número de concorrentes? A distinção de Ashley entre proibir e certificar continua útil para avaliar selos de qualidade, normas técnicas e registros obrigatórios. E a política de Eduardo III, que atraiu artesãos estrangeiros para adquirir uma técnica que o país não tinha, lembra que transferir conhecimento costuma exigir trazer pessoas, não só fechar fronteiras a produtos.",
+      "itens": [
+        [
+          "The Early History of the English Woollen Industry",
+          "pp. 13–85",
+          "2696712"
+        ]
+      ],
+      "jstor_edicao": "i346051"
+    },
+    {
+      "slug": "1887-as-guildas-medievais",
+      "numero": 10,
+      "titulo": "Guildas medievais: da confraria ao monopólio, e do monopólio ao nome",
+      "titulo_original": "Two Chapters on the Mediaeval Guilds of England",
+      "autores": "Edwin R. A. Seligman, Ph. D., professor adjunto de Economia Política, School of Political Science, Columbia College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 5",
+      "data": "novembro de 1887",
+      "chamada": "Seligman desmonta o mito das guildas fraternas: a guilda mercantil vendia monopólio e isenção de tributos; a de ofício servia à polícia de mercado da cidade. E ambas acabaram em ritual vazio.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Cambridge, no século XI, uma confraria de thanes escreveu em estatuto uma regra de seguro. Quem matasse um irmão da guilda pagaria oito libras à sociedade; se não pagasse, a guilda inteira assumiria a vingança. Se o homicida fosse o próprio membro, a confraria respondia com ele — salvo se tivesse agido por insensatez ou dolo, caso em que pagava sozinho."
+        },
+        {
+          "tipo": "p",
+          "texto": "É com cenas assim que Edwin R. A. Seligman, professor adjunto de economia política no Columbia College, abre o estudo que a American Economic Association publicou em novembro de 1887. O texto nasceu como tese de doutorado, escrita em 1882-3. Sua primeira afirmação já contraria o senso comum: as guildas originais não tinham nenhuma relação com comércio ou indústria."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Que todos suportem se um errar; que todos suportem igualmente.”",
+          "original": "“Let all bear it if one misdo, let all bear alike.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para que servia uma guilda antes de haver mercado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman identifica três tipos de guilda anglo-saxã: religiosas, sociais e de proteção. A própria palavra denunciava a função: guild designava, na origem, um pagamento em comum. Nos estatutos de Abbotsbury, Exeter e Cambridge, os membros davam dinheiro ou cera para as velas do culto, cuidavam de doentes e mortos e mantinham até um fundo de seguro contra incêndio."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso mais nítido é a frith-guild de Londres, cujos estatutos, do reinado de Æthelstan, estão na Judicia Civitatis Londoniae. Eram associações de cem homens, subdivididas em grupos de dez. Cada membro dava um xelim para custear a caça aos ladrões, e as perdas eram indenizadas. O autor supõe que bispos e reeves a autorizaram por não conseguirem, eles próprios, fazer cumprir a lei. Polícia privada, com missa pelos mortos. A guilda nunca mais é mencionada; provavelmente definhou à medida que a segurança aumentou."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a guilda mercantil vendia aos seus membros?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A guilda mercantil é outra criatura, de outra origem. Surge por volta da Conquista normanda; a primeira menção está no Domesday, em Nottingham. Logo quase não havia burgo importante sem a sua. Seligman cita a lista de Gross, com mais de noventa cidades. A exceção notável era Londres."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro privilégio era o monopólio do comércio interno: quem não fosse membro não podia comerciar na cidade nem nos subúrbios. Escapavam os gêneros alimentícios, e as restrições se afrouxavam em dia de mercado e em tempo de feira. O segundo era a isenção dos pequenos tributos que oneravam cada passo do comerciante."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12 tributos",
+          "texto": "É a lista, em latim, das cobranças miúdas que o autor enumera: pedágio de ponte (pontagium), taxa de banca no mercado (stallagium), contribuição para as muralhas (muragium), taxa de medição de tecidos (alnagium), entre outras. Em Bristol e em Newcastle-under-Lyme, os membros compravam e vendiam livres delas. Só o rei podia garantir essa franquia em todo o reino."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman recusa a imagem romântica. Os dispositivos de caridade e os banquetes eram insignificantes diante do corpo de regras puramente mercantis. Sociedades com não-membros eram punidas com severidade, e os irmãos não podiam guardar mercadorias alheias nem por pouco tempo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um exclusivismo egoísta e o desejo de impor seus privilégios de classe.”",
+          "original": "“A selfish exclusiveness and a desire to enforce their class privileges.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem governava a cidade: a guilda ou o burgo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Contra Brentano, cuja tese dominava, Seligman sustenta que burguês e membro da guilda eram figuras distintas. Mulheres eram admitidas como membros plenos, embora não pudessem ser burguesas; monges e prelados também; forasteiros, idem. Em Ipswich, logo após a carta do rei João, os estatutos da guilda foram para um rolo separado do da cidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O declínio, concluído nos séculos XIV e XV, fundiu a guilda com a corporação municipal. Em Leicester, em 1572, a expressão guild-merchant foi trocada por freemen. Em Preston, de vinte em vinte anos, a cidade parava uma semana para realizar a guilda e admitir novos cidadãos com um juramento que já não significava nada. Em 1705, o prefeito de Winchester processou um certo Wilkes por exercer ofício sem ser livre da guilda mercantil. Os juízes admitiram que ninguém sabia o que o termo queria dizer ali. A instituição virara palavra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que proibir o trabalho à luz de vela?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As guildas de ofício aparecem no início do século XII; os tecelões de Londres já estavam organizados sob Henrique I. No reinado de Henrique II, quinze guildas foram multadas como adulterinas, criadas sem licença real — entre elas, ourives, açougueiros e pimenteiros. O núcleo era o mesmo: ninguém exercia o ofício sem ser membro. Mas, de início, qualquer cidadão podia entrar."
+        },
+        {
+          "tipo": "p",
+          "texto": "A razão de ser aparece num episódio londrino. Oleiros se queixaram ao prefeito de quem comprava panelas de metal ruim e as levava ao fogo para parecerem de latão velho; sob calor forte, elas derretiam. O prefeito proibiu a prática, quatro guardiões foram escolhidos para fiscalizá-la, e a organização estava completa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a proibição do trabalho noturno, que Brentano atribuía ao bem-estar dos artesãos. Os estatutos dizem outra coisa. Os luveiros vetavam a venda à noite porque à luz de vela não se distingue couro bom de ruim. A separação de ofícios seguia a mesma lógica: quem mexesse com sapato velho não podia misturá-lo ao novo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhum homem consegue trabalhar tão bem de noite quanto de dia.”",
+          "original": "“No man can work so neatly by night as by day.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O aprendizado também vinha da lei geral, não da guilda. Seligman liga os sete anos à regra de Alfredo, que libertava escravos no sétimo ano de servidão. E tudo se inscrevia na doutrina do preço costumeiro, não competitivo. Os três grandes delitos de mercado eram o regrating, o forestalling e o engrossing. Um estatuto de Eduardo III fazia derivar deste último a palavra grocer."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "7 anos",
+          "texto": "Duração normal do aprendizado, que tornava o candidato ao mesmo tempo burguês e membro da guilda. Filhos de membros estavam dispensados. Num contrato de 1409, o mestre sustentava o aprendiz por quatro anos; no quinto, pagava-lhe 20 xelins e as ferramentas; no sexto, 40 xelins."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Estatuto dos Trabalhadores, aprovado logo após a peste de 1348-9, tomou como padrão os salários de 1346. Seligman nega que fosse simples opressão, porque também regulava preços. Mas recusa a leitura oposta: os legisladores, sob frases bem-soantes, perseguiam os interesses de sua própria classe."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fecho é otimista. Na guilda, o mestre trabalhava ao lado dos ajudantes, e todo trabalhador era, ou podia vir a ser, seu próprio patrão; recebia salário e lucro. Para Seligman, as guildas realizaram em parte o horizonte da cooperação produtiva — embora seu renascimento não fosse nem possível nem desejável."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio vale menos pela erudição do que pelo método: Seligman lê as guildas pelos estatutos, não pelos sentimentos que elas declaravam. A mesma regra que protegia o comprador da panela falsa fechava o mercado ao forasteiro. Qualidade e reserva de mercado andavam juntas, e o documento não permite separá-las com facilidade. Esse é o dilema permanente de toda regulação profissional.",
+            "Também me parece instrutivo o destino da guilda mercantil. Um privilégio criado para fins econômicos sobreviveu séculos à sua função, até que juízes não soubessem mais explicá-lo. Instituições raramente morrem quando perdem a razão de existir; tornam-se ritual. Avaliá-las periodicamente pelo que fazem, e não pelo nome que carregam, é uma lição de 1887 que continua atual."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Wergild",
+          "Valor pago pela morte de um homem no direito anglo-saxão, dividido entre parentes e, por vezes, a guilda."
+        ],
+        [
+          "Guilda mercantil (guild-merchant)",
+          "Associação de comerciantes de um burgo com monopólio do comércio interno e isenção de tributos."
+        ],
+        [
+          "Forestalling",
+          "Interceptar mercadorias a caminho do mercado para comprá-las mais barato."
+        ],
+        [
+          "Regrating",
+          "Comprar para revender a preço mais alto."
+        ],
+        [
+          "Engrossing",
+          "Reter mercadorias compradas no atacado para negociar depois em condições mais vantajosas."
+        ]
+      ],
+      "hoje": "As guildas acabaram, mas o seu dilema não. Conselhos profissionais, licenças de ofício e exigências de certificação ainda combinam duas funções que Seligman encontrou nos estatutos medievais: proteger o consumidor contra o serviço ruim e proteger o profissional contra a concorrência. O debate contemporâneo sobre licenciamento ocupacional gira exatamente em torno de quanto de cada coisa há em cada regra. A pergunta útil continua sendo a do ensaio: quem redige a norma, quem a fiscaliza e quem paga por ela?",
+      "itens": [
+        [
+          "Two Chapters on the Mediaeval Guilds of England",
+          "pp. 9–113",
+          "2696715"
+        ]
+      ],
+      "jstor_edicao": "i346052"
+    },
+    {
+      "slug": "1888-cidades-e-servicos-publicos",
+      "numero": 11,
+      "titulo": "Água, gás, luz e bonde: quem deve servir a cidade?",
+      "titulo_original": "The Relation of Modern Municipalities to Quasi-Public Works",
+      "autores": "Committee on Public Finance (Henry C. Adams, presidente, University of Michigan), com textos de George W. Knight (Ohio State University), Charles Moore (Detroit Evening Journal), Davis R. Dewey (Massachusetts Institute of Technology) e Frank J. Goodnow (Columbia College)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 6",
+      "data": "janeiro de 1888",
+      "chamada": "Em 1888, um comitê de economistas americanos mostrou que água, gás, luz e bonde escapam à concorrência — e perguntou o que as cidades deveriam fazer a respeito: comprar, regular ou vender a rua.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Detroit, 1884. A Câmara Municipal se prepara para derrubar o veto do prefeito a um contrato de iluminação elétrica. Pouco antes da votação, um vereador se levanta e declara ter recebido a oferta de US$ 1.000 para votar a favor do contrato. O veto cai por oito votos a dois; ele está entre os dois que apoiaram o prefeito."
+        },
+        {
+          "tipo": "p",
+          "texto": "O episódio está num relatório de 1888 do Comitê de Finanças Públicas da American Economic Association, presidido por Henry C. Adams. São cinco peças: um estudo geral de Adams, uma carta de George W. Knight sobre abastecimento de água, o caso de Detroit narrado pelo jornalista Charles Moore, um estudo de Davis R. Dewey sobre bondes e uma comparação jurídica de Frank J. Goodnow com a Europa. O fio comum são negócios “quase públicos”, que a concorrência não consegue disciplinar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a concorrência não regula água e gás?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Adams começa por uma definição. Finanças públicas seriam a ciência das necessidades do Estado e dos meios de supri-las. Sem rivais, o Estado deve prestar o melhor serviço ao menor custo; a empresa privada só é justa com o consumidor quando a concorrência a obriga."
+        },
+        {
+          "tipo": "p",
+          "texto": "A água é o caso extremo. Dos 1.402 municípios americanos com sistema de abastecimento, apenas sete tinham redes duplicadas. Nos outros 1.395 faltava a condição mínima da concorrência: haver duas empresas oferecendo o mesmo serviço."
+        },
+        {
+          "tipo": "p",
+          "texto": "No gás havia rivais, mas logo vinha a combinação. Em Nova York, uma comissão do Senado estadual concluiu em 1885 que, em dez anos, os consumidores pagaram cerca de US$ 9 milhões além do custo do gás e de dividendos de 10% sobre o capital nominal."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os preços tampouco seguiam o custo. Entre 683 empresas, o gás custava de 75 centavos a US$ 20 por mil pés cúbicos, quase sempre em saltos redondos de 25 centavos. O preço médio ficava em US$ 1,75; fabricar e armazenar o gás custaria de 50 a 75 centavos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 150 milhões",
+          "texto": "Ações fictícias que, pelas contas de Adams, recebiam dividendos de 10% pagos na conta de gás. Com produção estimada em quase 29 bilhões de pés cúbicos em 1885 e capitalização mínima de US$ 10 por mil pés, o capital registrado chegava a US$ 289.975.288. Mais da metade, diz ele, era “água”: não correspondia a nenhum desembolso dos acionistas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A urgência vinha do crescimento urbano. Em 1840, só um doze avos da população americana vivia em cidades; em 1888, quase um terço. Chicago passou de 470 mil para 703 mil habitantes em oito anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quem prestava esses serviços? Nenhuma cidade operava bondes, e só cinco eram donas de usinas de gás, entre elas Filadélfia e Richmond. Na água, o quadro era outro: 544 sistemas públicos contra 675 privados. Entre as cidades com mais de 10 mil habitantes que responderam, eram 91 públicos contra 44 privados."
+        },
+        {
+          "tipo": "p",
+          "texto": "As salvaguardas eram frágeis. Cláusulas de recompra apareciam em 23 de 138 concessões de gás, quase sempre sem dizer como fixar o preço. Limitar dividendos, observa Adams, tirava o incentivo para baratear o serviço. E havia a corrupção."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As empresas privadas continuarão a dividir com os vereadores os frutos da corrupção.”",
+          "original": "private corporations continue to divide with aldermen the fruits of corruption"
+        },
+        {
+          "tipo": "p",
+          "texto": "A carta de Knight é um relatório de andamento e um elogio do rigor. Das dezenas de cartas enviadas, a maioria ficou sem resposta completa; ele tinha dados satisfatórios de cerca de vinte cidades e recusou-se a generalizar: Detroit, com água farta, e Columbus, com água escassa e cara, não eram típicas. Pediu tempo e um fundo para pesquisa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Deve nascer de dados, apoiar-se em dados e terminar em dados.”",
+          "original": "it must be born of data, sustained by data, and end in data"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Detroit ensinou sobre a luz elétrica?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Até 1884, as duas companhias de gás de Detroit haviam dividido a cidade ao meio, cada uma com monopólio na sua metade. Quando a Câmara abriu a concorrência à eletricidade, a Brush Electric Light Company ofereceu US$ 114.644. A verba do ano era de US$ 95.600; a Brush pôde rebaixar a proposta para US$ 95 mil, enquanto o pedido das companhias de gás para fazer o mesmo foi recusado."
+        },
+        {
+          "tipo": "p",
+          "texto": "O sistema usava luzes em torres altas, e as torres viraram, nas palavras de Moore, a corrente que prendia a cidade à Brush. A empresa que as fornecia pertencia a três dos maiores acionistas da Brush e cobrou US$ 120 mil por 90 torres; o valor foi acertado em US$ 78 mil. Sem as patentes, poderiam ser reproduzidas por até US$ 35 mil."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1887, a proposta da Brush para três anos somava US$ 427.380. Um jornal sugeriu que a cidade tivesse usina própria; veio novo veto. A Brush baixou para US$ 390.680, cerca de US$ 188,70 por lâmpada ao ano nas luzes existentes, e o contrato passou por cima do veto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 42",
+          "texto": "Custo anual por lâmpada da usina municipal de Bay City, Michigan, nos primeiros seis meses; a cidade pagava US$ 100 à empresa privada. Lewiston, no Maine, com força hidráulica, chegou a 14 centavos por noite, ou US$ 51,10 ao ano. Madison, Indiana, iluminava cinco milhas quadradas com 81 lâmpadas municipais a US$ 55,55 cada por ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Moore conclui que a contratação de iluminação tende a ser fonte farta de corrupção, e que as cidades donas da usina economizam muito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto valia uma rua para uma linha de bonde?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Dewey parte de um limite jurídico: o poder de conceder linhas vinha das assembleias estaduais, não das cidades. Ele identifica oito formas de extrair receita das companhias. A mais comum, a licença por carro, variava de US$ 2,50 em Springfield, Illinois, a US$ 50 em Filadélfia e Chicago, quantias irrisórias."
+        },
+        {
+          "tipo": "p",
+          "texto": "Baltimore foi além. Em 1859, a concessão da primeira linha exigiu 20% da receita bruta para os parques públicos, segundo se dizia, a primeira vez que uma cidade americana cobrou pelo valor da franquia. A taxa caiu depois para 9%, ainda assim rendendo em média US$ 100 mil por ano na década anterior. Nova Orleans preferiu vender concessões: em 1879, três linhas renderam US$ 630 mil à vista."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Nova York, uma lei de 1884 permitia leiloar concessões, mas os vereadores entregaram a da Broadway de graça. Em 1886, o leilão tornou-se obrigatório, vencendo quem oferecesse o maior percentual da receita bruta. Em 31 de maio de 1887, a linha da Fulton Street recebeu lance de 35%. Dewey termina cético."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Dar suas ruas às corporações que controlam mais votos.”",
+          "original": "giving their streets to corporations which can control the most votes"
+        },
+        {
+          "tipo": "h2",
+          "texto": "As cidades europeias tinham mais poder?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Goodnow responde que sim. Nos Estados Unidos, a cidade só podia fazer o que a lei enumerasse; o resto era nulo. Entre os estados com lei geral de municípios, apenas três — Missouri, Ohio e Geórgia — autorizavam usinas municipais de gás. Na Alemanha e na França, ao contrário, a cidade tinha ampla liberdade, com aval central para dívidas e impostos."
+        },
+        {
+          "tipo": "p",
+          "texto": "E usavam essa liberdade. Em 1887, 220 das 482 usinas de gás alemãs eram municipais. Na Inglaterra, onde as cidades assumiram mais serviços diretamente, Birmingham recebeu £ 455.920 do gás em 1883-84. Paris preferiu outro caminho: monopólio concedido a uma empresa, preços fixados em contrato, limite ao capital e reversão das instalações à cidade no fim da concessão."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o relatório antecipa em mais de um século o vocabulário da regulação moderna: monopólio natural, captura, assimetria de informação, cláusula de reversão. Mas o comitê não chega a um dogma: Adams elogia o sistema misto da água, em que serviços públicos numa cidade servem de régua para os privados na vizinha — concorrência por comparação, não propriedade como fim em si.",
+            "Vejo também um aviso para qualquer arranjo: importa menos quem é o dono do que quem negocia o contrato, e com que informação. Detroit pagou caro não por ter escolhido mal a tecnologia, mas por ter deixado a infraestrutura essencial nas mãos de quem também vendia o serviço. E Knight lembra que nenhuma boa política nasce de dados que as prefeituras se recusam a fornecer."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Obras quase públicas",
+          "Serviços prestados por empresas privadas, mas que dependem do uso das ruas e escapam à concorrência, como água, gás, luz e bonde."
+        ],
+        [
+          "Ações aguadas",
+          "Capital registrado sem desembolso correspondente dos acionistas, que ainda assim exige dividendos pagos pelo consumidor."
+        ],
+        [
+          "Franquia",
+          "Direito exclusivo, concedido pelo poder público, de explorar um serviço usando as vias da cidade."
+        ],
+        [
+          "Direito de recompra",
+          "Cláusula que permite à cidade adquirir as instalações da concessionária em certas condições."
+        ],
+        [
+          "Controle administrativo",
+          "Sistema em que a cidade tem ampla liberdade, mas certos atos dependem de aprovação de autoridades centrais."
+        ]
+      ],
+      "hoje": "O debate de 1888 reaparece sempre que se discute saneamento, energia ou transporte urbano. Os instrumentos mudaram de nome — agências reguladoras, revisões tarifárias periódicas, leilões de concessão pelo maior valor de outorga ou menor tarifa, cláusulas de reversão de bens —, mas a pergunta é a mesma: como fazer um monopólio servir ao público. As lições de Detroit e de Nova York continuam atuais: transparência na licitação, informação sobre custos reais e cuidado para que o dono da infraestrutura essencial não trave a entrada de concorrentes.",
+      "itens": [
+        [
+          "The Relation of Modern Municipalities to Quasi-Public Works (relatório do Committee on Public Finance)",
+          "pp. 13–87",
+          "2696703"
+        ]
+      ],
+      "jstor_edicao": "i346053"
+    },
+    {
+      "slug": "1888-tres-textos-de-boston",
+      "numero": 12,
+      "titulo": "Contar, classificar, julgar: três textos de Boston, 1887",
+      "titulo_original": "Three papers read at the meeting in Boston",
+      "autores": "Carroll D. Wright, Franklin H. Giddings e Edmund J. James",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 3, nº 1",
+      "data": "março de 1888",
+      "chamada": "Em 1887, um estatístico pediu cursos de estatística, um economista quis a economia como ciência do organismo social e um professor defendeu o papel-moeda de curso forçado.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Catorze anos de trabalho com estatística oficial, e nenhum dia sem sentir falta de formação. A confissão é de Carroll D. Wright, comissário do Bureau of Labor dos Estados Unidos, numa sessão conjunta das associações americanas de economia e de história, em Cambridge, Massachusetts, em 24 de maio de 1887. Wright lamentou ter como única alma mater o próprio escritório de estatística — e disse isso em público, diante de uma plateia de professores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A American Economic Association reuniu três falas daquele encontro de maio, em Boston e Cambridge, no primeiro número do volume 3 de suas Publications, datado de março de 1888. A assinatura custava US$ 4 por ano, por seis números. Os textos não dialogam entre si de forma explícita: um trata de ensino, outro de método, o terceiro de direito constitucional da moeda."
+        },
+        {
+          "tipo": "p",
+          "texto": "Há, porém, um fio comum. Wright quer números colhidos por gente treinada e sem tese a defender. Franklin H. Giddings quer uma economia que descreva antes de deduzir e que trate a natureza humana como algo que muda com o próprio trabalho. Edmund J. James, professor da Universidade da Pensilvânia, quer que a Suprema Corte julgue a lei, e não a conveniência da política monetária. Nos três casos, a pergunta de fundo é a mesma: o que separa o juízo técnico da opinião do momento?"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os Estados Unidos não formavam estatísticos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wright começa por uma comparação desconfortável. Na Europa continental, estatísticos entravam na carreira depois de formação sistemática; nos Estados Unidos, chegavam ao ofício por acaso. A melhor escola europeia, diz ele, era o seminário ligado ao bureau prussiano de estatística, fundado cerca de um quarto de século antes por Ernst Engel. Ali, graduados de alto nível trabalhavam sem remuneração nos órgãos do governo e assistiam a aulas, quase sempre à noite."
+        },
+        {
+          "tipo": "p",
+          "texto": "O inventário americano é curto. Richard T. Ely dava estatística dentro de um curso de economia na Johns Hopkins; Davis R. Dewey, no Massachusetts Institute of Technology, propunha aos alunos problemas como estimar a margem de erro do censo para crianças com menos de um ano. O ensino mais sistemático estava no Columbia College, com Richmond M. Smith, desde 1882."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 → 25",
+          "texto": "Alunos de ciência estatística no Columbia College: três no primeiro ano do curso de Richmond M. Smith, iniciado em 1882; cerca de 25 na época da palestra. Aulas de duas horas semanais na maior parte do ano, para alunos do segundo ou terceiro ano da School of Political Science."
+        },
+        {
+          "tipo": "p",
+          "texto": "O paradoxo, para Wright, é que o estatístico americano tinha mais oportunidades do que o europeu. Os censos federais iam muito além da contagem da população, e o próprio Engel lhe dissera que trocaria a formação prussiana pelas possibilidades americanas. Faltava método. Ninguém sabia ao certo o que o censo devia registrar como “capital investido”, nem se os divórcios deviam ser comparados com os casamentos do ano, com a população ou com os casais vivos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As mentiras da estatística são mentiras não científicas.”",
+          "original": "“The lies of statistics are unscientific lies.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta é prática. A cadeira de economia política podia absorver a estatística sem prejuízo dos demais cursos; os governos deviam admitir estudantes como auxiliares nos escritórios oficiais; e o censo, feito a cada dez anos, não devia ficar nas mãos de quem nada sabe de estatística. O estatístico, conclui Wright, não pode ser advogado de uma causa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia é uma física ou uma biologia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Giddings, que falou na reunião anual em Boston em 23 de maio de 1887, começa por um menino. Quem faz agulhas desde a infância é, aos 16 anos, uma maravilha de coordenação ajustada àquela tarefa; aos 30, já não aprende destreza nova. É a imagem do que ele chama de organismo: a atividade molda a estrutura, e a estrutura dirige a atividade."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a crítica à economia dedutiva na versão de Cairnes, para quem o economista partia de causas últimas já conhecidas. Para Giddings, a frase é “pré-darwiniana”. Se a natureza humana e as instituições mudam com o modo de produzir, o economista tem dois problemas, e não um: o que a sociedade produz e distribui, e como isso a transforma de volta. O movimento operário que se espalhava pelo mundo era, para ele, a prova."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor não despreza a dedução. Lamenta a briga de métodos, cita Jevons a favor do uso alternado de indução e dedução e reserva à matemática de Gossen, Jevons e Walras o que chama de “física econômica”: oferta e demanda, custo de produção, preços, ritmos do crédito. O erro dos economistas matemáticos, diz, é supor que a economia se resume a isso."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese mais ousada está na teoria do valor. Valor não seria razão de troca, mas utilidade medida, assim como peso é gravitação medida. A troca vira processo secundário de produção: pioneiros que tecem a própria roupa produzem riqueza sem conhecer valor no sentido econômico."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“essa definição da economia política que a chama de ciência das trocas é absurda”",
+          "original": "“that definition of Political Economy which calls it the science of exchanges, is absurd”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano final divide a disciplina em três partes: a descrição comparada de instituições e costumes; a produção e a distribuição, tanto pelo esforço individual quanto pela ação consciente da comunidade, via lei e opinião pública; e as reações da economia sobre o organismo social. Para ilustrar a última, Giddings opõe a catedral medieval, feita só de materiais e trabalho perfeitos, ao culto moderno do barato."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Suprema Corte deve julgar a lei ou a política monetária?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edmund J. James trata dos Legal-Tender Cases, as decisões sobre o poder do Congresso de dar curso forçado a notas do Tesouro — isto é, obrigar credores a aceitá-las em pagamento de dívidas. Em 7 de fevereiro de 1870, em Hepburn vs. Griswold, a Corte declarou essas leis inconstitucionais para dívidas anteriores a elas. Presidia o tribunal o homem que, como secretário do Tesouro, fora o principal responsável por aquela legislação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reviravolta veio rápido. A renúncia do juiz Grier e uma nova cadeira criada por lei abriram duas vagas, preenchidas por Strong e Bradley. Strong já defendera a constitucionalidade das leis na Suprema Corte da Pensilvânia. Em Knox vs. Lee, a decisão foi revertida. A acusação de manobra circulou; James reproduz carta de George F. Hoar segundo a qual os dois nomes foram enviados ao Senado antes da primeira decisão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5–3, 5–4, 8–1",
+          "texto": "Placar das três decisões: 5 a 3 em Hepburn vs. Griswold (1870), numa corte de oito juízes; 5 a 4 em Knox vs. Lee, que reverteu a primeira com base nos poderes de guerra; 8 a 1 em Juilliard vs. Greenman (1884), que admitiu o curso forçado também em tempo de paz."
+        },
+        {
+          "tipo": "p",
+          "texto": "James nota que o raciocínio mudou mais do que o placar. As duas primeiras decisões giraram em torno de um argumento econômico: se o curso forçado melhorava ou não as notas como moeda. A terceira deixou a conveniência de lado e perguntou apenas se o Congresso tinha o poder."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ela tem de decidir uma questão de direito, e não de política.”",
+          "original": "“It has to decide a question of law and not of policy”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O restante é exegese. Na Convenção de 1787, em 16 de agosto, a expressão “and emit bills of credit” foi suprimida do projeto por nove estados a dois, mas o registro do debate, segundo James, não revela intenção comum. E “cunhar moeda”, na linguagem da época, designava o poder soberano sobre o meio circulante. O autor apoia a decisão de 1884 e confia mais na educação do público do que em proibições constitucionais contra o abuso do papel-moeda."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, os três textos tratam da mesma fronteira: onde termina o juízo técnico e começa a preferência. Wright quer o estatístico que aceita o resultado mesmo quando contraria sua doutrina. Giddings aceita a matemática, mas lembra que ela descreve um organismo que muda enquanto é medido. James pede ao juiz que não use a Constituição para vetar uma política de que discorda.",
+            "O dilema continua aberto. Institutos de estatística, bancos centrais e cortes constitucionais vivem da mesma promessa — a de que seu juízo não é simples opinião vestida de método. James apostava na educação do público como última defesa contra o abuso da moeda; Wright, na formação de quem produz os números. São apostas complementares. Sem dados confiáveis, o público não tem como julgar; sem um público capaz de julgar, nenhum mandato técnico se sustenta por muito tempo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Curso forçado (legal tender)",
+          "Qualidade legal que obriga o credor a aceitar determinada moeda ou nota em pagamento de dívidas."
+        ],
+        [
+          "Greenbacks",
+          "Notas do Tesouro americano emitidas na Guerra Civil, objeto dos Legal-Tender Cases."
+        ],
+        [
+          "Bills of credit",
+          "Títulos ou notas emitidos com base no crédito do governo, que podem circular como papel-moeda."
+        ],
+        [
+          "Seminário estatístico",
+          "Escola prática ligada ao bureau prussiano de estatística, que combinava aulas e trabalho nos órgãos oficiais."
+        ],
+        [
+          "Física econômica",
+          "Para Giddings, a parte da economia tratável pelo método matemático: equilíbrio de oferta, demanda, custos e preços."
+        ],
+        [
+          "Abstração relativa",
+          "Subordinar no estudo um elemento que é secundário no fenômeno, sem esquecê-lo por completo."
+        ]
+      ],
+      "hoje": "Os três temas seguem na pauta. A formação de estatísticos públicos e a independência dos institutos oficiais de estatística continuam em debate em muitos países. A ideia de que preferências e instituições mudam com a própria atividade econômica reaparece na economia institucional e comportamental. E a relação entre cortes, parlamentos e autoridade monetária volta sempre que se discute o alcance de mandatos de bancos centrais ou a legalidade de seus programas. A pergunta de 1887 sobrevive: quem decide, e com que tipo de argumento?",
+      "itens": [
+        [
+          "The Study of Statistics in Colleges",
+          "pp. 5–28",
+          "2485576"
+        ],
+        [
+          "The Sociological Character of Political Economy",
+          "pp. 29–47",
+          "2485577"
+        ],
+        [
+          "Some Considerations on the Legal-Tender Decisions",
+          "pp. 49–80",
+          "2485578"
+        ]
+      ],
+      "jstor_edicao": "i342410",
+      "artigos": [
+        {
+          "titulo": "The Study of Statistics in Colleges",
+          "autores": "Carroll D. Wright, comissário do Bureau of Labor dos Estados Unidos",
+          "paginas": "pp. 5–28",
+          "jstor": "2485576",
+          "resumo": "Wright compara a formação sistemática de estatísticos na Europa, com destaque para o seminário do bureau prussiano criado por Ernst Engel, ao improviso americano. Lista os poucos cursos existentes nos Estados Unidos — Johns Hopkins, MIT, Columbia, Harvard — e mostra, com exemplos do censo, como a falta de método produz números enganosos. Propõe incluir a estatística na cadeira de economia política, dividida em fundamentos, prática e análise, e abrir os escritórios oficiais a estudantes. O estatístico, insiste, não deve ser advogado de nenhuma tese."
+        },
+        {
+          "titulo": "The Sociological Character of Political Economy",
+          "autores": "Franklin H. Giddings",
+          "paginas": "pp. 29–47",
+          "jstor": "2485577",
+          "resumo": "Giddings propõe tratar a economia política como ciência de fenômenos orgânicos: a atividade econômica molda a natureza humana e as instituições, que por sua vez condicionam a produção seguinte. Critica a abstração absoluta da escola dedutiva, sem rejeitar a dedução nem a matemática, que reserva à “física econômica”. Define valor como utilidade medida, trata a troca como produção secundária e reorganiza a disciplina em três divisões: descrição comparada, produção e distribuição (individual e social) e reações da economia sobre o organismo social."
+        },
+        {
+          "titulo": "Some Considerations on the Legal-Tender Decisions",
+          "autores": "Edmund J. James, professor da Universidade da Pensilvânia",
+          "paginas": "pp. 49–80",
+          "jstor": "2485578",
+          "resumo": "James analisa as três decisões da Suprema Corte sobre o curso forçado das notas do Tesouro: Hepburn vs. Griswold (1870, 5 a 3), Knox vs. Lee (5 a 4) e Juilliard vs. Greenman (1884, 8 a 1). Discute a presunção de constitucionalidade das leis do Congresso, a influência das nomeações sobre a Corte e o debate da Convenção de 1787 sobre os bills of credit. Conclui que o poder de cunhar moeda abrange a soberania sobre o meio circulante e que a última decisão é sólida como questão de direito."
+        }
+      ]
+    },
+    {
+      "slug": "1888-capital-e-seus-rendimentos",
+      "numero": 13,
+      "titulo": "O capital muda de corpo, não de dono: Clark e a natureza do capital",
+      "titulo_original": "Capital and its Earnings",
+      "autores": "John B. Clark, Professor of History and Political Science, Smith College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 3, nº 2",
+      "data": "maio de 1888",
+      "chamada": "Em 1888, John B. Clark separou o capital como fundo de valor das máquinas que o abrigam — e daí tirou argumentos contra o fundo de salários, a favor da vigilância sobre trustes e contra o imposto único sobre a terra.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Faça o inventário de uma loja de ferragens: serras, machadinhas, pregos, cada item com seu preço. Volte um ano depois. Quase nada da primeira lista estará na prateleira; se a soma dos novos valores for a mesma, o capital do comerciante está intacto. Se as mercadorias originais continuassem lá, ele estaria em apuros."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com essa cena, John B. Clark, professor do Smith College, ilustra o ensaio publicado em maio de 1888 pela American Economic Association. A tese: a palavra capital designa duas coisas diferentes, e a economia da época trocava uma pela outra. Dessa confusão, diz ele, o socialismo tira seus argumentos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que, afinal, é capital?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pergunte a um industrial quanto é o seu capital e ele responderá em dólares; pergunte onde está investido e ele listará prédios e máquinas. Para Clark, o primeiro é o capital puro: um fundo abstrato de valor, permanente. O segundo são os bens de capital, os recipientes concretos onde esse fundo mora por algum tempo. Se há meio milhão de dólares investidos hoje, haverá o mesmo daqui a vinte anos, embora quase nenhum dos objetos atuais sobreviva."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fundo vive de transmigração, diz o autor: passa de um corpo a outro. Fica um instante no vapor, uma hora no carvão, semanas nos produtos inacabados, anos nas máquinas e décadas nos prédios. Só na terra pode permanecer indefinidamente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí sai uma definição nova da velha distinção entre capital fixo e circulante. Circulante é o valor que lucra ao abandonar rapidamente sua forma: algodão que vira tecido e é vendido. Fixo é o que lucra permanecendo onde está: o tear, que o dono quer ver durar o máximo possível. O critério não é a duração, mas o que dá lucro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vem o salário de sábado à noite?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A doutrina do fundo de salários sustentava que os salários saem de um estoque de capital acumulado previamente, e que esse estoque limita quanto se pode pagar e a quantos. Clark responde com a semana de trabalho. O valor entregue ao operário no sábado à noite nasceu durante a semana. O fundo que paga o tecelão cresce à medida que o tear trabalha e o tecido se alonga; o do pedreiro está nas fiadas de tijolo que sobem na parede."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os estoques de pão e roupa nas lojas existem, admite, mas são um estoque de troca, onde o salário recém-criado é gasto. Seu tamanho é conveniência, não limite. Só numa situação de fome, quando faltasse o alimento básico, esse estoque passaria a restringir trabalho e salários."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1/4",
+          "texto": "Fração dos salários semanais que, segundo Clark, bastaria existir em mercadorias prontas no início da semana para o trabalho ser contratado e pago como de costume. Reduzir os estoques a um vigésimo desorganizaria a indústria, mas não imporia o limite aos salários que a teoria tradicional supõe."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo seguinte é a máxima de John Stuart Mill de que demanda por mercadorias não é demanda por trabalho. No exemplo clássico, um proprietário troca a construção de lagos artificiais pela compra de veludo, sem gerar empregos, por falta de capital para adiantar salários. Clark refaz a cena: se os proprietários anunciam em janeiro que gastarão em luxos os aluguéis de abril, fabricantes de seda e de carruagens contratam de imediato. O trabalho novo cria valor desde o primeiro dia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma demanda futura conhecida por artigos de qualquer tipo é [...] uma demanda presente por trabalho.”",
+          "original": "a known future demand for articles of any kind is [...] a present demand for labor"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual a diferença entre renda e juro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Juro, na definição de Clark, é o rendimento do capital puro, expresso em porcentagem e indiferente à forma do investimento. Mil dólares por ano são juros sobre vinte mil, estejam eles em navios, fazendas ou mercadorias. Renda, no sentido inglês de rent, mais próximo de aluguel, passa a ser o rendimento de qualquer instrumento concreto, expresso em soma fixa. A terra deixa de ser caso à parte."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de Ricardo (a renda de um terreno é o que ele produz acima do pior terreno em uso) vale, diz o autor, para qualquer instrumento, de navios a lotes urbanos, mas só no curto prazo. No longo, o capital corre para onde rende mais e a concorrência iguala os juros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A terra, por sua vez, é um agregado de utilidades. Solidez e superfície são originais e indestrutíveis, mas tão abundantes que não têm valor. O valor vem de quatro outras. Três podem ser fabricadas: a fertilidade da camada superficial, que se gasta e se repõe; a fertilidade permanente, obtida com diques, drenos e canais de irrigação; e o acesso aos mercados, que as ferrovias fabricam. A quarta, a proximidade literal de um mercado, como a de uma fazenda no condado de Westchester, perto de Nova York, é o único monopólio, e limitado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os Estados Unidos fornecem os exemplos. O valor do solo das pradarias é exportado em forma de trigo e farinha. Quando terra virgem capaz de dez safras de trigo sai por um dólar e um quarto o acre, adubar não compensa. E os aluguéis agrícolas já haviam caído em grande parte da Nova Inglaterra, porque tanta terra nova se tornou acessível. Fabricamos tanto valor de terra, ironiza Clark, que deprimimos o preço do que a natureza nos deu."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 12.500",
+          "texto": "Valor que, no exemplo de Clark, uma fazenda de US$ 10.000 com juros de 5% passaria a ter se os juros caíssem a 4%, mantido o aluguel. O preço da terra varia na razão inversa dos juros. Como estes caíam, parte do incremento não ganho da terra resultaria só da tendência do capital a rendimentos uniformes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o Estado deve vigiar: o tamanho ou a forma?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção desemboca na política. Ao indivíduo importa ter dez mil dólares ou um milhão, não se estão em ferrovias ou fazendas. Ao Estado, o inverso. Que alguém tenha cem milhões de dólares pesa menos do que o fato de essa soma estar concentrada em trigo, cobre, petróleo ou ferrovias."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O monopólio reside na forma do capital, não em sua essência.”",
+          "original": "Monopoly inheres in the form of capital, not in the essence of it."
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark duvida que pools e trustes encerrem a concorrência, mas pede vigilância incessante. Suprimi-los seria indesejável e impossível. O remédio é manter livre a entrada de capital de fora; se um truste se apoia em patentes ou tarifas protecionistas, são essas leis que merecem revisão. Quando a concentração numa forma ameaça a sociedade, o Estado pode desapropriar, pagando o valor e preservando o capital do dono."
+        },
+        {
+          "tipo": "p",
+          "texto": "O raciocínio inverso é o que ele rejeita com mais veemência: deixar o proprietário com a terra e, tributando-a até o valor pleno do aluguel, tomar-lhe todo o valor. É a proposta do imposto único, associada a Henry George. Para Clark, seria como o salteador que leva o dinheiro e devolve a bolsa vazia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Seria roubo? Não; seria a quintessência do roubo.”",
+          "original": "Would it be robbery? No; it would be the quintessence of robbery."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio vale menos pelas conclusões do que pela ferramenta. Separar o valor investido do objeto que o abriga ainda explica bem por que salários saem da produção corrente, e não de um cofre prévio, e por que a política de concorrência deve olhar barreiras de entrada, não o tamanho das fortunas: o regulador cuida de mercados, não de patrimônios.",
+            "O limite está na mesma ferramenta. Ao tratar como sagrado o valor investido na terra, Clark subestima o quanto ele depende de decisões coletivas, como a ferrovia que fabrica acessibilidade. O dilema permanece: como tributar ganhos criados pela coletividade sem desrespeitar a poupança de quem comprou o ativo a preço cheio."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Capital puro",
+          "Na linguagem de Clark, o fundo abstrato de valor investido, que permanece enquanto troca de forma."
+        ],
+        [
+          "Bens de capital",
+          "Os instrumentos concretos (máquinas, prédios, matérias-primas) onde o capital puro está investido em dado momento."
+        ],
+        [
+          "Capital fixo e circulante",
+          "Fixo é o valor que lucra permanecendo na mesma forma; circulante, o que lucra passando rapidamente de uma forma a outra."
+        ],
+        [
+          "Fundo de salários",
+          "Doutrina clássica segundo a qual os salários saem de um estoque de capital acumulado antes do trabalho, que limitaria seu total."
+        ],
+        [
+          "Renda (rent) e juro",
+          "Renda é o rendimento de um instrumento concreto, em soma fixa; juro, o do capital puro, em porcentagem."
+        ],
+        [
+          "Incremento não ganho",
+          "Valorização da terra atribuída ao progresso social, e não ao trabalho do proprietário."
+        ]
+      ],
+      "hoje": "A pergunta de Clark sobre o que o regulador deve vigiar segue no centro da política de concorrência: tamanho absoluto ou poder sobre um mercado específico, barreiras de entrada, patentes e tarifas que protegem incumbentes. Também persiste o debate sobre tributar a valorização imobiliária gerada por obras públicas, com instrumentos como contribuições de melhoria e impostos sobre o valor da terra. E a relação inversa entre juros e preço de ativos, que ele ilustrou com uma fazenda, é hoje rotina na leitura dos mercados imobiliário e de títulos.",
+      "itens": [
+        [
+          "Capital and its Earnings",
+          "pp. 9–69",
+          "2485719"
+        ]
+      ],
+      "jstor_edicao": "i342411"
     }
   ],
   "proximas": [
-    "A história da indústria da lã na Inglaterra — W. J. Ashley (1887)",
-    "As guildas medievais da Inglaterra — E. R. A. Seligman (1887)",
-    "As cidades e os serviços públicos: água, gás, luz e bonde (1888)",
-    "Estatística, sociologia e papel-moeda: três textos de 1887 (1888)",
-    "Capital e seus rendimentos — J. B. Clark (1888)",
-    "Os trabalhadores e as minas do Hocking Valley (1888)"
+    "Os trabalhadores e as minas do Hocking Valley — F. A. Walker e E. W. Bemis (1888)",
+    "Estatística e economia — Richmond Mayo Smith (1888)",
+    "A estabilidade dos preços — Simon N. Patten (1889)",
+    "A questão dos salários — Stuart Wood e J. B. Clark (1889)",
+    "Socialismo na Inglaterra — Sidney Webb (1889)",
+    "Legislação rodoviária para os estados americanos (1889)"
   ]
 }
