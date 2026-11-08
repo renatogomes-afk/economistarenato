@@ -590,3 +590,9 @@ figcaption .credito::before{content:"· "}
 .cap-meta{font-family:var(--sans);font-size:11px;letter-spacing:.04em;color:var(--cinza-claro);white-space:nowrap}
 .artigo-topo .chapeu a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
 @media (max-width:640px){.lista-caps{columns:1}.ficha-livro dl{grid-template-columns:1fr}.ficha-livro dt{padding-top:6px}}
+/* Documentos de época (2026-11-08) */
+.aviso-nota{font-family:var(--sans);font-size:13px;color:var(--tinta-2);background:var(--papel-2);border-left:3px solid var(--alerta);padding:8px 12px;margin:4px 0 14px}
+.aviso-nota a{color:var(--alerta)}
+.nota-editor{border:1px solid var(--alerta);border-top-width:4px;padding:18px 22px;margin:32px 0 20px;background:#fff}
+.nota-editor h3{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--alerta);margin:0 0 10px}
+.nota-editor p{margin:0 0 10px}

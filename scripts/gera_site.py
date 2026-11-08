@@ -824,6 +824,10 @@ def pagina_leituras():
         <span class="selo">{n} de {len(L['capitulos'])} capítulos resenhados</span>
       </a>
     </article>""")
+    docs_bloco = ""
+    if DOCS_PUB:
+        docs_bloco = ('  <div class="faixa">\n    <h2>Documentos de época</h2>\n    <span class="sub">Obras antigas resenhadas como documento histórico, com Nota do editor</span>\n  </div>\n'
+                      '  <section class="grade-3">\n' + "\n".join(cartao_documento(d, rel) for d in DOCS_PUB) + '\n  </section>\n')
     corpo = f"""
 <main class="env">
   <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
@@ -834,6 +838,7 @@ def pagina_leituras():
   <section class="grade-3">
 {chr(10).join(cards)}
   </section>
+{docs_bloco}
   {assine("Um capítulo novo por semana, no seu e-mail.", "A resenha em português, com a página do livro e a ponte com o debate de hoje.")}
 </main>
 """
@@ -956,6 +961,68 @@ def pagina_resenha(L, r, anterior, proxima):
             + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
 
 
+# ------------------------------------------------------------------ Leituras · Documentos de época
+# Obras antigas cuja tese central é conspiratória: resenha histórica (descritiva, atribuída) + "Nota do editor".
+# Um JSON por volume em scripts/leituras/documentos/<slug>.json; só vai ao ar com "publicar": true.
+DOC_DIR = os.path.join(LEIT_DIR, "documentos")
+DOCUMENTOS = [json.load(open(os.path.join(DOC_DIR, f), encoding="utf-8")) for f in sorted(os.listdir(DOC_DIR)) if f.endswith(".json")] if os.path.isdir(DOC_DIR) else []
+DOCS_PUB = [d for d in DOCUMENTOS if d.get("publicar")]
+
+
+def cartao_documento(d, rel):
+    return f"""    <article class="cartao">
+      <a href="{rel}leituras/documentos/{d['slug']}/">
+        <span class="chapeu">Documento de época · {e(d['autor'])}</span>
+        <h3 class="tit tit-g">{e(d['titulo'])}</h3>
+        <p class="olho">{e(d['chamada'])}</p>
+        <span class="selo">Leitura: {minutos(d)} min</span>
+      </a>
+    </article>"""
+
+
+def pagina_documento(d, anterior=None, proxima=None, destino=None):
+    rel = "../../../"
+    nav = []
+    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">{e(proxima["titulo"])} &rarr;</a>')
+    nota = "".join(f"<p>{e(x)}</p>" for x in d["objecoes"])
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu">Leituras · Documentos de época · {e(d['autor'])}</span>
+    <h1>{e(d['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(d)} min · Resenha histórica</p>
+    <p class="olho">{e(d['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem">
+        <b>Resenha de Renato W. Gomes</b>
+        <span>Original: “{e(d['titulo_original'])}” — {e(d['autor'])} · {e(d['volume'])} · {e(d['edicao'])}</span>
+      </div>
+    </div>
+  </div>
+  <div class="corpo">
+{render_blocos(d['blocos'])}
+{glossario_html(d.get('glossario'))}
+
+    <section class="nota-editor" id="nota-do-editor">
+      <h3>Nota do editor</h3>
+      {nota}
+    </section>
+
+    <p class="nota-legal">Resenha histórica: resumo e descrição do autor deste site, em suas próprias palavras, das teses de {e(d['autor'])}, a ele atribuídas. Não reproduzimos o texto da obra; as citações são curtas. A publicação desta resenha não significa endosso às teses da obra — ver a Nota do editor.</p>
+
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+"""
+    html = (cabeca(f"{d['titulo']} — Documentos de época · Economista Renato Gomes", d["chamada"], f"leituras/documentos/{d['slug']}/", rel, "article")
+            + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
+    if destino:
+        os.makedirs(os.path.dirname(destino), exist_ok=True); open(destino, "w", encoding="utf-8").write(html); return
+    escreve(f"leituras/documentos/{d['slug']}", html)
+
+
 def gera_leituras():
     if not LIVROS: return
     pagina_leituras()
@@ -964,6 +1031,8 @@ def gera_leituras():
         rs = L.get("resenhas", [])
         for i, r in enumerate(rs):
             pagina_resenha(L, r, rs[i - 1] if i > 0 else None, rs[i + 1] if i + 1 < len(rs) else None)
+    for i, d in enumerate(DOCS_PUB):
+        pagina_documento(d, DOCS_PUB[i - 1] if i > 0 else None, DOCS_PUB[i + 1] if i + 1 < len(DOCS_PUB) else None)
 
 
 
@@ -973,6 +1042,7 @@ def sitemap():
         urls += ["leituras/"]
         for L in LIVROS:
             urls += [f"leituras/{L['slug']}/"] + [f"leituras/{L['slug']}/{r['slug']}/" for r in L.get("resenhas", [])]
+        urls += [f"leituras/documentos/{d['slug']}/" for d in DOCS_PUB]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)

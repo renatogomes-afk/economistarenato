@@ -269,7 +269,7 @@
         },
         {
           "tipo": "p",
-          "texto": "Para Jones, Diocleciano legou o pior de dois mundos: regulação totalitária sobreposta a uma moeda aviltada. Nenhuma lei, por mais draconiana, compensaria um sistema em que a riqueza flui para onde já está acumulada. O capítulo fecha o diagnóstico romano com a frase de Plínio, “Latifundia perdidere Romam”, os latifúndios arruinaram Roma. O texto da História Natural, tal como transmitido, traz “Italiam” em vez de “Romam”."
+          "texto": "Para Jones, Diocleciano legou o pior de dois mundos: regulação totalitária sobreposta a uma moeda aviltada. Nenhuma lei, por mais draconiana, compensaria um sistema em que a riqueza flui para onde já está acumulada. O capítulo fecha o diagnóstico romano com a frase de Plínio, “Latifundia perdidere Romam”, os latifúndios arruinaram Roma."
         },
         {
           "tipo": "h2",
@@ -277,7 +277,7 @@
         },
         {
           "tipo": "p",
-          "texto": "O autor traça um paralelo direto com o tema do capítulo anterior. Lourenço de Médici teria sido para Florença o que Diocleciano foi para Roma, e em ambas as cidades a oligarquia teria disfarçado a tirania com espetáculos. Jones inclui a revolta dos Ciompi entre as rebeliões de escravos; os registros da época descrevem os Ciompi como trabalhadores assalariados da indústria da lã."
+          "texto": "O autor traça um paralelo direto com o tema do capítulo anterior. Lourenço de Médici teria sido para Florença o que Diocleciano foi para Roma, e em ambas as cidades a oligarquia teria disfarçado a tirania com espetáculos. Jones inclui a revolta dos Ciompi entre as rebeliões de escravos."
         },
         {
           "tipo": "citacao",
@@ -676,7 +676,7 @@
         },
         {
           "tipo": "p",
-          "texto": "Jones apoia-se no dominicano Bede Jarrett e em Hilaire Belloc. A Peste Negra matou cerca de 30% da população europeia, mas o número médio esconde a concentração: como o contágio dependia da proximidade, as cidades sofreram mais. O autor atribui a Florença a perda de 75% dos habitantes entre 1347 e 1350, com tamanha escassez de mão de obra na indústria da lã que foi preciso trazer trabalhadores de longe. Os registros históricos mais citados costumam situar a perda florentina em torno da metade da população."
+          "texto": "Jones apoia-se no dominicano Bede Jarrett e em Hilaire Belloc. A Peste Negra matou cerca de 30% da população europeia, mas o número médio esconde a concentração: como o contágio dependia da proximidade, as cidades sofreram mais. O autor atribui a Florença a perda de 75% dos habitantes entre 1347 e 1350, com tamanha escassez de mão de obra na indústria da lã que foi preciso trazer trabalhadores de longe."
         },
         {
           "tipo": "p",
@@ -799,6 +799,849 @@
         ]
       ],
       "hoje": "A pergunta de Jones, se o dinheiro rende por si ou pelo trabalho que financia, reaparece no debate sobre crédito ao consumidor. Empréstimos de curto prazo para quem não tem garantias, cheque especial e rotativo do cartão cumprem hoje a função do penhor medieval: socorrer quem precisa, a um custo que pode prender o tomador à dívida. A discussão sobre limites de juros, educação financeira e renda do trabalho repete, com outros instrumentos, o dilema descrito no capítulo: regular o preço do crédito ou atacar a falta de renda que leva ao crédito."
+    },
+    {
+      "slug": "cap-06-bernardino-de-siena",
+      "numero": 6,
+      "titulo": "Bernardino de Siena: o pregador que negava a necessidade da usura",
+      "titulo_original": "St. Bernardine of Siena",
+      "paginas": "pp. 91–112",
+      "chamada": "Nos sermões de Siena, em 1427, Bernardino dividiu os tomadores de crédito em cinco classes para provar que a usura não era necessária. Jones o contrapõe aos Medici, banqueiros do papa.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 8 de setembro de 1402, no mesmo ano em que os Medici fundaram sua primeira manufatura de lã, Bernardino Albizeschi vestiu o hábito franciscano. Nascido em 1380, dois anos depois da revolta dos Ciompi, ele se tornaria o pregador mais conhecido da Itália do século XV. E. Michael Jones o apresenta, no sexto capítulo de “Barren Metal”, como contraponto aos Medici: um frade que tentava aplicar a proibição da usura às praças financeiras mais sofisticadas do mundo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era o pregador?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1408, aos 27 anos, Bernardino foi até Alessandria ouvir São Vicente Ferrer, o pregador mais famoso da época, que, segundo a biografia de Maria Luzzo seguida por Jones, o mandou pregar na Lombardia. Entre 1419 e 1421, ele a percorreu a pé, pregando quase todos os dias. Sua regra de eloquência cabia numa linha:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Falar com clareza, com brevidade e bem.”",
+          "original": "to speak clearly, briefly and well (p. 92)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Veneza e em Milão, atacou a usura; Jones relata que, em Milão, o fiel que lhe pediu um sermão sobre o tema era o principal usurário da cidade, interessado em ver os concorrentes fecharem as portas. O capítulo registra também que, em Pádua, Bernardino defendeu impor aos judeus um sinal distintivo, e que os franciscanos de sua geração, segundo o historiador Léon Poliakov, citado pelo autor, lideraram a agitação antijudaica na Itália."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a usura seria contra a natureza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones começa pela cidade natal do pregador: segundo a historiadora Iris Origo, Siena baniu os trabalhadores que se rebelaram, eles foram para a rival Florença, e a cidade perdeu sua indústria principal. Depois recorre a Dante. No sétimo círculo do Inferno, os usurários ficam sentados, imóveis, como o prestamista atrás da mesa de contar, que manda o dinheiro “copular” e trabalhar por ele. A imagem seria a glosa poética de uma tese de Tomás de Aquino, que desenvolve Aristóteles: o dinheiro é estéril e não deve crescer a partir de si mesmo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que contava como usura?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos sermões pregados na Piazza del Campo, em Siena, em 1427, transcritos por um tosador de pano, Benedetto di Maestro Bartolomeo, Bernardino adotou a definição mais estrita: qualquer valor acima do principal de um mútuo (o empréstimo de bens consumíveis), cobrado em razão do próprio empréstimo, era usura, fosse a taxa alta ou baixa. Segundo o historiador Raymond de Roover, citado no capítulo, a distinção entre crédito produtivo e crédito de necessidade só apareceria com Calvino."
+        },
+        {
+          "tipo": "p",
+          "texto": "A usura só existia no mútuo e só envolvia bens fungíveis, como trigo, vinho e dinheiro. Às razões clássicas, Bernardino somou outras, segundo John Noonan: a usura é vender o dinheiro, que não é vendável, e trocar um ganho certo por um incerto. Ele condenava ainda os títulos públicos voluntários de Veneza, Florença e Gênova."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "15 anos",
+          "texto": "Prazo do Monte delle doti, fundo criado em Florença em 1425: os pais emprestavam dinheiro ao Estado, que o devolvia com juros como dote da filha. A instituição era muito popular. Bernardino via no contrato, ao mesmo tempo, aposta e usura."
+        },
+        {
+          "tipo": "p",
+          "texto": "A quem achava lícito cobrar 8% ou 10%, respondia com o teólogo Alexandre de Hales:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se até o apóstolo São Pedro voltasse à Terra, não poderia tornar lícito cobrar nem 1%.”",
+          "original": "if even the Apostle St. Peter should return to earth, he could not render it licit to take even 1% (p. 103)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A usura é necessária?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Esta é, para Jones, a pergunta central do século XV. Em Assisi, em 1425, Bernardino atacou a ideia de que uma cidade não pode existir sem um usurário declarado. Na maior parte das cidades italianas, o crédito miúdo era resolvido com licenças concedidas a prestamistas judeus; o pregador considerava a prática indefensável. Para os mendicantes, a usura era mal intrínseco; daí o argumento que o autor atribui a Alessandro de Neva: se o papa não tem permissão para pecar, não pode concedê-la a outros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta de Bernardino foi uma análise de oferta e demanda. Na oferta, o ganho usurário inibia a caridade e o investimento com risco partilhado. Na demanda, ele dividiu os tomadores em cinco classes."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 classes",
+          "texto": "Os tomadores de crédito segundo Bernardino: os pobres de fato, que precisam de esmola e não de empréstimo; jogadores e viciosos; comerciantes ávidos por acumular; usurários que tomam para emprestar mais caro; e quem enfrenta uma emergência passageira. Só a última classe tinha justificativa, e mesmo ela se empobrecia aos poucos com os juros e as garantias perdidas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão, na síntese de Origo: a usura não é essencial nem para ofertar crédito nem para atender às necessidades legítimas dos pobres. O dinheiro, dizia, é o calor vital da cidade; concentrá-lo em poucas mãos é como fazer o sangue abandonar as extremidades, sinal de morte."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o papado entrou na conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones contrapõe o pregador a Martinho V, eleito em 11 de novembro de 1417, que encerrou o Grande Cisma. Quando a firma dos Spini quebrou, em 1420, o papa recorreu aos Medici, que controlaram as finanças papais pelos 20 anos seguintes. Emprestar a príncipes, diz Jones, é emprestar a quem é “grande demais para quebrar”."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40% ao ano",
+          "texto": "Retorno sobre o capital original que os 12.000 florins anuais obtidos com as finanças papais representavam para os Medici, segundo o capítulo. Entre 1435 e 1450, os lucros do banco somaram 290.791 florins."
+        },
+        {
+          "tipo": "p",
+          "texto": "Apoiado em Poliakov, o autor sustenta que sob Martinho V ganhou forma definitiva o sistema de licenças papais para o crédito judaico, por razões financeiras. Em 10 de janeiro de 1422, Elia di Angelo emprestou 300 florins à Câmara Apostólica; em 40 dias saiu uma bula que excomungava os pregadores que incitassem o povo contra os judeus, revogada no ano seguinte. Jones descreve um cabo de guerra entre papas e mendicantes que atravessaria o século."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O risco define o capitalismo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No trecho final, Jones discute com Peter Bernstein, para quem o capitalismo é a epítome da tomada de risco, e inverte o argumento. No empréstimo a juros, o devedor devolve tudo, com juros, dê o negócio certo ou não; o credor transfere todo o risco. A Igreja, diz Jones, condenava essa repartição, mas não limitava o retorno de quem entrava numa sociedade e partilhava perdas e lucros."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O capitalismo é usura patrocinada pelo Estado e, como tal, não é a epítome, mas a antítese da tomada de risco.”",
+          "original": "Capitalism is state-sponsored usury, and, as such, it is not the epitome but, rather, the antithesis of risk taking (p. 105)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é um preço justo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O último argumento vem do historiador Odd Langholm. A fórmula clássica res tantum valet quantum vendi potest (uma coisa vale quanto se consegue vendê-la) aparece em Sêneca. Os escolásticos acrescentaram a noção de vontade mista: quem aceita um preço por necessidade consente como o capitão que, na imagem de Aristóteles, joga a carga ao mar para salvar o navio. Daí a fórmula corrigida: vale o preço obtido comumente, em lugar público, junto a muitos compradores, ao longo de vários dias."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, essa era uma via para o salário justo que teria respondido às queixas dos Ciompi. Os oligarcas florentinos, sustenta, preferiram o caminho mais cômodo do humanismo e dos textos antigos. A carta em que Cosimo de Medici diz a Marsilio Ficino buscar a via mais fácil para a felicidade fecha o capítulo."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O capítulo antecipa uma distinção que a teoria financeira moderna formaliza: dívida e participação no capital repartem o risco de modo diferente. Na dívida, o credor recebe um valor fixo e o tomador absorve as perdas; na participação, o investidor divide o resultado, bom ou ruim."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Usura",
+          "Na doutrina medieval, qualquer cobrança acima do valor emprestado em razão do próprio empréstimo, independentemente da taxa."
+        ],
+        [
+          "Mútuo",
+          "Empréstimo de bens consumíveis, em que se devolve quantidade igual do mesmo gênero, e não o próprio objeto."
+        ],
+        [
+          "Bens fungíveis",
+          "Bens que se pesam, medem ou contam e podem ser substituídos por outros iguais, como trigo, vinho e dinheiro."
+        ],
+        [
+          "Mendicantes",
+          "Ordens religiosas, como franciscanos e dominicanos, que viviam de esmolas e se dedicavam à pregação."
+        ],
+        [
+          "Monte delle doti",
+          "Fundo florentino criado em 1425 em que depósitos dos pais rendiam juros e eram pagos como dote."
+        ],
+        [
+          "Câmara Apostólica",
+          "Órgão responsável pelas finanças da Santa Sé."
+        ],
+        [
+          "Grande Cisma",
+          "Período em que papas rivais disputaram a autoridade na Igreja, encerrado com a eleição de Martinho V em 1417."
+        ],
+        [
+          "Vontade mista",
+          "Consentimento dado sob pressão da necessidade, que os escolásticos não tratavam como plenamente livre."
+        ],
+        [
+          "Res tantum valet quantum vendi potest",
+          "Máxima clássica: uma coisa vale quanto se consegue vendê-la."
+        ]
+      ],
+      "hoje": "A pergunta de Bernardino, se uma cidade pode existir sem usurário, voltou com outra roupagem. O debate sobre o crédito caro para famílias de baixa renda, do cartão rotativo aos empréstimos de curto prazo, gira em torno da mesma tensão: limitar juros pode secar a oferta, mas cobrá-los de quem toma por necessidade pode aprofundar a pobreza. A ideia de vontade mista sobrevive no direito do consumidor, que trata como abusivas cláusulas aceitas sob pressão. E o financiamento por participação nos resultados, que os escolásticos preferiam à dívida, tem paralelos no capital de risco e nas finanças islâmicas."
+    },
+    {
+      "slug": "cap-07-cosimo-de-medici",
+      "numero": 7,
+      "titulo": "Cosimo de Medici: o banqueiro entre o juro e a fé",
+      "titulo_original": "Cosimo de Medici",
+      "paginas": "pp. 113–122",
+      "chamada": "O maior banqueiro da Europa financiou o Renascimento, governou Florença dos bastidores e licenciou prestamistas para o povo miúdo. Jones lê em Cosimo de Medici o conflito entre crédito, guerra e salário.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em fevereiro de 1429, Giovanni di Bicci de Medici, fundador do Banco Medici, morreu sem testamento. Segundo o historiador Raymond de Roover, citado por E. Michael Jones, redigir um testamento equivaleria a se declarar usurário e a expor os herdeiros a pedidos de restituição. Cosimo, o filho que assumiu o banco, manteria o costume. É com essa cena que Jones abre o capítulo 7 de “Barren Metal”. O autor sustenta que a família mais célebre do Renascimento viveu dividida entre um ofício, o crédito a juros, e uma fé que o condenava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que um banqueiro morria sem testamento?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Igreja tratava a usura como roubo e exigia restituição para conceder a absolvição. O Concílio de Lyon, lembra o capítulo, mandara negar sepultura cristã aos usurários públicos enquanto não devolvessem o que haviam ganho. Jones relata que a fortuna da família remontava a Buiamonte de' Bicci, banqueiro florentino que Dante pôs no Inferno, sentado num deserto de areia ardente, de olhos fixos na bolsa pendurada ao pescoço."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Banco Medici chegou tarde. Os Bardi e os Peruzzi, os maiores bancos da história de Florença, quebraram na década de 1340 por emprestar a príncipes, sobretudo a Eduardo III da Inglaterra. Jones observa que, sob o brilho da era Medici, o banco esteve em declínio quase contínuo desde meados do século XV, o que ficou evidente após a morte de Cosimo, em 1464."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Cosimo tentou acertar as contas com a Igreja?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones descreve um Cosimo atormentado pela culpa. Recorrendo ao biógrafo Curt Gutkind, registra que canonistas e magistrados já se empenhavam em separar a palavra usura da noção de juro, mas a proibição seguia enraizada no pensamento moral. Em vez de enfrentar o dilema, sustenta o autor, Cosimo fez um acordo com seu amigo e protegido, o papa Eugênio IV: uma bula permitiu-lhe expiar a cobiça financiando o mosteiro de San Marco, em Florença."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cela de Cosimo no mosteiro, decorada por Fra Angelico, foi construída para que ele conversasse com Santo Antonino, pregador e autoridade em direito canônico. Os dois tinham a mesma idade. Para Jones, dali poderia ter saído uma ciência econômica muito diferente da que Adam Smith fundaria quatro séculos depois. A colaboração não ocorreu: a Igreja ganhou edifícios, Cosimo ganhou paz de consciência e o mundo ganhou o Renascimento."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Era católico e era banqueiro, mas […] nunca foi um banqueiro católico.”",
+          "original": "He was a Catholic and he was a banker, but […] he was never a Catholic banker (p. 115)"
+        },
+        {
+          "tipo": "p",
+          "texto": "No campo intelectual, Cosimo foi mecenas de Marsilio Ficino, que Jones chama de maior platônico do Renascimento italiano, mas, segundo o autor, desviou esse trabalho para o neoplatonismo e a magia."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A guerra era um negócio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 2 de abril de 1433, Florença assinou a paz com Lucca, depois de uma guerra cara, paga com impostos, que nada rendera. Cosimo foi acusado formalmente de lucrar com o conflito. Niccolò Tinucci afirmou ter ouvido Cosimo e Averardo de Medici dizerem que o modo de manter o poder era conservar a comuna em guerra e emprestar-lhe dinheiro com alto retorno. Para o historiador John Najemy, o relato é detalhado demais para ter sido todo inventado."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O povo terá a impressão de ser ajudado pelas mesmas pessoas que colhem lucro, honra, grandeza e poder.”",
+          "original": "The people will have the impression of being helped by the very persons who reap […] profit, honor, greatness and power (p. 116)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cosimo liderava a facção contrária aos Albizzi, que haviam chegado ao poder 50 anos antes, ao restaurar a ordem depois da revolta dos Ciompi. Em setembro de 1433, a Signoria o baniu, alegando que os Medici eram perigosos para a República por sua riqueza e ambição. Em Veneza, foi recebido como chefe de Estado. Um ano e um mês depois, em outubro de 1434, voltou para assumir o governo após a queda dos Albizzi, com o apoio de Eugênio IV, que precisava de sua perícia financeira."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "100 mil florins",
+          "texto": "Valor das cotas da dívida pública de Florença cujos juros, segundo o capítulo, prendiam o papa Eugênio IV às finanças dos Medici. Dependente desses juros, dos empréstimos e da perícia da família, o papa governou a Igreja a partir de Florença durante nove anos de seu pontificado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, Cosimo concentrou poder como nenhuma família florentina antes ou depois e baniu rivais, entre eles Palla Strozzi, que o havia defendido e morreu no exílio em 1462. Segundo De Roover, governou dos bastidores, preservando as aparências da liberdade e dos procedimentos constitucionais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se governa com salário nominal e moeda fraca?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O dilema, na leitura de Jones, era político. Cosimo chegara ao poder em parte pelos sottoposti, as camadas inferiores, mas governava no interesse dos oligarcas ricos, enquanto os impostos de guerra encareciam os tecidos florentinos diante da concorrência. A saída, sustenta o autor, foi dividir para reinar: manter os salários nominais e aviltar a moeda, reduzindo o pagamento real do trabalhador."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "43⅓% ao ano",
+          "texto": "Taxa média de juros paga pelos trabalhadores que tomavam empréstimos, segundo o capítulo. Em 1422, Florença tinha 72 mesas de câmbio e cerca de 2 milhões de florins de ouro em circulação, mas nada disso chegava ao popolo minuto, pago em prata aviltada."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Florença licenciou prestamistas judeus?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1435, menos de um ano após assumir o poder, Cosimo obteve de Eugênio IV a autorização para que judeus emprestassem dinheiro ao popolo minuto, o povo miúdo. Em 17 de outubro de 1437, a Signoria concedeu licença a Abraham Dattili e sócios, alegando que havia anos ninguém emprestava a juros na cidade. Daí em diante, segundo o capítulo, não se deram mais licenças a cristãos, o que críticos de Cosimo atribuem ao desejo de afastar concorrentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Apoiado no historiador F. R. Salter, Jones relaciona as renovações dos contratos com os prestamistas (capitoli) à criação de novos tributos: o crédito servia, por exemplo, para os pobres pagarem o imposto sobre o vinho na época da vindima."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20%",
+          "texto": "Teto de juros fixado em 1430 para os prestamistas judeus, segundo o capítulo. Em 1396, tentara-se limitar os empréstimos a 15%; em 1420, impôs-se teto de 25% aos prestamistas públicos, elevado a 30% em 1421. Prestamistas cristãos chegavam a cobrar de 60% a 80%. A cidade recebia 1.200 florins anuais em taxas de licença."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones descreve um ciclo: convidar prestamistas para baratear o crédito, expulsá-los, chamá-los de volta quando os juros voltavam a ficar intoleráveis. O autor sustenta que a usura era sintoma de impostos ruinosos, salários baixos e aviltamento constante da moeda, e que oferecer crédito caro como remédio equivalia a jogar gasolina no fogo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Boa parte do capítulo trata das comunidades judaicas da Itália, de seu papel no crédito e da hostilidade que enfrentavam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual foi a resposta reformista?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a principal consequência da política de Cosimo foi associar, no imaginário popular, reforma econômica e expulsão dos prestamistas, tema retomado por pregadores de Bernardino de Siena a Bernardino da Feltre e Savonarola. A resposta institucional veio de Marco Strozzi, franciscano da família que Cosimo banira: o primeiro monte di pietà de Florença, casa de penhor para os pobres, criada em 1496."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O capítulo descreve um arranjo que a economia política reconhece: quando o Estado financia guerras com dívida, quem lhe empresta ganha duas vezes, com os juros e com a influência. Ilumina também o limite do teto de juros: tetos de 15% a 30% conviveram com taxas de 60% a 80% no mercado cristão. Quando a demanda por crédito nasce de renda insuficiente, regular o preço do empréstimo alivia pouco."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Usura",
+          "No direito canônico medieval, qualquer cobrança acima do principal num empréstimo de dinheiro; tratada como pecado."
+        ],
+        [
+          "Restituição",
+          "Devolução dos ganhos considerados ilícitos, exigida pela Igreja como condição para a absolvição."
+        ],
+        [
+          "Bula",
+          "Documento papal solene, com selo, usado para conceder privilégios ou dispensas."
+        ],
+        [
+          "Signoria",
+          "Órgão executivo da República florentina."
+        ],
+        [
+          "Sottoposti",
+          "Trabalhadores subordinados às guildas, sem direitos políticos plenos."
+        ],
+        [
+          "Popolo minuto",
+          "O povo miúdo: artesãos menores e trabalhadores de baixa renda de Florença."
+        ],
+        [
+          "Aviltamento",
+          "Redução do teor de metal precioso de uma moeda sem mudar seu valor de face."
+        ],
+        [
+          "Capitoli",
+          "Contratos pelos quais a comuna licenciava prestamistas e fixava suas condições."
+        ],
+        [
+          "Monte di pietà",
+          "Casa de penhor de fins caritativos que emprestava aos pobres a juros baixos."
+        ],
+        [
+          "Divide et impera",
+          "Dividir para reinar: governar jogando facções umas contra as outras."
+        ]
+      ],
+      "hoje": "O capítulo toca em perguntas que seguem atuais. Quem financia a dívida pública ganha influência sobre o Estado? Até que ponto tetos de juros protegem o tomador de baixa renda, ou apenas o empurram para credores mais caros e informais? O crédito de subsistência, tomado para pagar despesas correntes e não para investir, continua no centro do debate sobre endividamento das famílias. E o penhor de bens como garantia de pequenos empréstimos, herdeiro dos montes de piedade, ainda existe em muitos países. As instituições mudaram; a tensão entre crédito, salário e imposto, não."
+    },
+    {
+      "slug": "cap-08-concilio-de-florenca",
+      "numero": 8,
+      "titulo": "O Concílio de Florença: Platão, magia e a pedra filosofal das finanças",
+      "titulo_original": "The Council of Florence",
+      "paginas": "pp. 123–142",
+      "chamada": "Em 1439, Florença sediou a união efêmera das igrejas do Oriente e do Ocidente. Jones usa o concílio para ligar o neoplatonismo dos Medici, a alquimia e a usura à origem do capitalismo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 6 de julho de 1439, sob a cúpula recém-construída por Brunelleschi na catedral de Santa Maria del Fiore, as delegações ortodoxa e católica proclamaram o fim do cisma entre as igrejas do Oriente e do Ocidente. Em janeiro, Cosimo de Medici recebera na cidade o papa Eugênio IV e o imperador bizantino João VIII Paleólogo. E. Michael Jones abre o capítulo com essa cerimônia, mas o interesse dele está menos na teologia do que nas conversas paralelas que o concílio tornou possíveis."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a união das igrejas estava decidida antes do debate?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O concílio começou em Ferrara, em outubro de 1438. A peste, os exércitos dos Visconti e Cosimo, que via ganhos financeiros para Florença, levaram-no a mudar de sede. Segundo o autor, o desfecho tinha pouco a ver com doutrina: Constantinopla estava cercada pelos turcos e cairia 14 anos depois. O imperador precisava de tropas ocidentais e não deixaria uma disputa sobre a cláusula filioque atrapalhar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14 de 28",
+          "texto": "Universidades europeias situadas na Itália na época do concílio, segundo o capítulo. A Academia de Atenas estava extinta havia quase um milênio. Os italianos dominavam o comércio, os bancos e a economia do Egeu; o erudito bizantino Scholarius escreveu que os gregos teriam de buscar no exterior os próprios livros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era Gemistos Plethon?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o resultado garantido, os peritos bizantinos tinham tempo livre para frequentar a elite florentina. O maior deles era Jorge Gemistos, então com 70 anos (80, segundo algumas fontes), que adotara o nome Plethon em homenagem a Platão. O cardeal Bessarion o chamou de primeiro intérprete competente de Platão e Aristóteles a falar a plateias latinas em mil anos. O Ocidente conhecia Aristóteles, mas a obra completa de Platão só chegara ao Ocidente, em grego, em 1423."
+        },
+        {
+          "tipo": "p",
+          "texto": "A delegação ortodoxa hospedou-se no Palácio Medici, e Gemistos fez conferências sobre as diferenças entre Platão e Aristóteles para o círculo humanista que Cosimo financiava, do qual fazia parte Leonardo Bruni. Pouco depois, formou-se uma academia platônica no novo palácio. Cosimo seria seu fundador e o patrono de Marsilio Ficino, encarregado de traduzir Platão. Apoiado no biógrafo C. M. Woodhouse, Jones sustenta que Gemistos trocara o cristianismo pelo neoplatonismo. Seu adversário Scholarios relata uma conversa em Florença:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nem a de Cristo nem a de Maomé, mas uma que não difere do paganismo.”",
+          "original": "Neither, but one not differing from paganism (p. 130)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Cosimo se interessaria por essas ideias?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui o capítulo entra em economia. Jones descreve Cosimo como um banqueiro atormentado pela culpa de lidar com usura. A doutrina católica tratava a usura como roubo e exigia restituição, algo que, segundo o autor, nenhum Medici aceitaria. Citando o historiador Curt Gutkind, Jones afirma que a proibição gerava conflitos de consciência e evasões formais. Um ensinamento que tratava os teólogos como sofistas e o cristianismo como “caminho falso” seria, nessa leitura, um consolo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O raciocínio do autor é analógico: se a escultura clássica parecia superior à medieval, por que a economia clássica, que admitia a usura e dispensava o preço justo e o salário justo, não seria também?"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o afresco de Gozzoli mostraria?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cerca de 20 anos depois do concílio, Benozzo Gozzoli pintou o cortejo dos Reis Magos na capela do Palácio Medici. Atrás do imperador bizantino seguem Lorenzo num cavalo branco, retratado como estaria em 1469, Piero, o Gotoso, e Cosimo, ao lado do papa Pio II. Jones lê a cena como mensagem: os Medici seriam os verdadeiros magos, por cujo intermédio a magia entrou em Florença. Para ele, o interesse de Cosimo pela astrologia tinha motivação financeira, como sugere uma frase citada pelo historiador Tim Parks:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Mesmo que se pudesse fazer dinheiro agitando uma varinha, eu ainda seria banqueiro.”",
+          "original": "“Even if money could be made by waving a wand, I would still be a banker.” (p. 128)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor reconstrói a cadeia de transmissão. De Proclo, chefe da Academia de Atenas morto em 485, Gemistos teria herdado o gosto pelas tríades e o termo “Teologia Platônica”, repassados a Ficino. Ficino traduziu para o latim os escritos atribuídos a Hermes Trismegisto, publicados em 1471, e seu protegido Pico della Mirandola difundiu a cabala na Europa cristã. Como nenhum dos dois corpos aparece nos escritos de Gemistos, Jones propõe que eram transmitidos oralmente, como mistérios reservados aos iniciados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, o Renascimento marca o renascimento do paganismo, e a data é simbólica: em 1397, ano de fundação do Banco Medici, Manuel Crisoloras assumiu a cátedra de grego em Florença."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a alquimia tem a ver com finanças?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a pedra filosofal era a aplicação financeira da alquimia, e nela convivia, ainda indiferenciado, o embrião da química, das finanças, da política monetária e da psicologia de massas. A fonte principal é Charles Mackay, cronista dos delírios coletivos no século XIX. Mackay narra a lenda de Pietro d’Abano, médico de Pádua cujo ouro emprestado voltava sozinho, todas as manhãs, à sua bolsa. O autor oferece uma interpretação econômica da lenda:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O que o conto popular via como ‘magia’ era uma manifestação dos juros compostos.”",
+          "original": "What the folk tale saw as ‘magic’ was a manifestation of compound interest (p. 132)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O dinheiro sempre volta ao credor. Por isso, segundo o autor, príncipes endividados disputavam alquimistas. Mackay relata que Raimundo Lúlio teria produzido ouro na Torre de Londres a convite de Eduardo I; o próprio Jones registra em nota que biógrafos negam essa estada."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1452",
+          "texto": "Ano da prisão de Jacques Coeur, tesoureiro francês que, segundo Mackay, usou a fama de dono da pedra filosofal para encobrir o aviltamento da moeda. Filho de ourives, entrou na Casa da Moeda de Bourges em 1428 e, como mestre dela, reduziu o teor de ouro e prata das moedas do reino. Mackay diz que morreu em Chipre em 1460."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nicolas Flamel seria o caso paralelo, com a usura no lugar do aviltamento. A lenda lhe atribui um livro de segredos e a morte, em 1415, aos 116 anos. Segundo Mackay, contemporâneos céticos explicavam a fortuna de outro modo: Flamel era avarento, emprestava a juros altos aos jovens da corte e cobrava comissão de 100% por cobranças difíceis. O ciclo se fecha com Leão X, filho de Lorenzo: quando o alquimista Augurello lhe dedicou um tratado sobre como fabricar ouro, o papa respondeu com uma bolsa vazia, para guardar o ouro que ele saberia fazer."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o autor define capitalismo ao fim do capítulo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na parte final, Jones apoia-se nos economistas alemães Werner Sombart e Heinrich Pesch, que situam a origem do espírito capitalista no fim da Idade Média e o associam à alquimia, à caça ao tesouro e ao empréstimo a juros. O autor reproduz extensamente a tese de Sombart sobre o papel de comunidades judaicas na história do crédito e a opõe a uma tradição cristã medieval em que o lucro ilimitado era visto como indecente. Jones conclui com o economista Gustav Ruhland: o capitalismo seria um sistema de liberdade para cobrar usura com aprovação do Estado, e usura, toda apropriação contratual de mais-valia evidente."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O capítulo volta a um tema já presente na Florença dos Ciompi: o aviltamento como imposto oculto. O caso de Jacques Coeur mostra o ganho de quem controla a cunhagem, a senhoriagem, quando a moeda perde metal sem perder valor de face.",
+            "A leitura da lenda de Pietro d’Abano também tem fundamento técnico: juros compostos crescem de forma exponencial, e uma dívida cujos encargos superam a renda do devedor não se paga, apenas se renova."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cisma do Oriente",
+          "Separação entre a Igreja de Roma e as igrejas ortodoxas, formalizada em 1054."
+        ],
+        [
+          "Filioque",
+          "Cláusula latina do Credo segundo a qual o Espírito Santo procede do Pai “e do Filho”; ponto central da disputa entre as igrejas."
+        ],
+        [
+          "Peritus",
+          "Especialista em teologia que assessora bispos e delegações num concílio."
+        ],
+        [
+          "Neoplatonismo",
+          "Corrente filosófica da Antiguidade tardia, de Plotino e Proclo, que reinterpretou Platão em chave mística."
+        ],
+        [
+          "Corpus Hermeticum",
+          "Textos gregos dos primeiros séculos d.C. atribuídos a Hermes Trismegisto, nome grego do deus egípcio Thoth."
+        ],
+        [
+          "Cabala",
+          "Tradição mística judaica de interpretação das Escrituras, difundida entre cristãos por Pico della Mirandola."
+        ],
+        [
+          "Pedra filosofal",
+          "Substância lendária da alquimia capaz de transformar metais comuns em ouro ou prata."
+        ],
+        [
+          "Juros compostos",
+          "Juros calculados sobre o principal acrescido dos juros já acumulados, o que faz a dívida crescer exponencialmente."
+        ],
+        [
+          "Aviltamento",
+          "Redução do teor de metal precioso de uma moeda sem mudar seu valor de face."
+        ],
+        [
+          "Senhoriagem",
+          "Ganho de quem emite moeda, igual à diferença entre o valor de face e o custo de produzi-la."
+        ]
+      ],
+      "hoje": "A metáfora da alquimia financeira continua em uso. Toda vez que um ativo parece multiplicar dinheiro sem lastro produtivo, o debate repete a pergunta de Mackay sobre credulidade coletiva. A senhoriagem segue como receita dos Estados emissores, hoje sob a forma de inflação, e não de moedas com menos metal. E a dinâmica dos juros compostos sobre dívidas de famílias e governos continua no centro da política econômica: quando o custo da dívida cresce mais que a renda, o problema deixa de ser de liquidez e passa a ser de solvência."
+    },
+    {
+      "slug": "cap-09-santo-antonino-e-cosimo",
+      "numero": 9,
+      "titulo": "Santo Antonino contra Cosimo: usura, salário justo e preço de mercado",
+      "titulo_original": "The Turning of the Tide",
+      "paginas": "pp. 143–150",
+      "chamada": "Enquanto Cosimo de Medici financiava Sforza e endurecia o regime, o arcebispo Antonino pregava contra a usura e formulava uma teoria do salário justo. Jones põe os dois lado a lado.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em agosto de 1447, morreu Filippo Maria Visconti, duque de Milão. No dia seguinte, o povo milanês proclamou a República Ambrosiana, e o condottiere Francesco Sforza iniciou a campanha para ocupar o trono. É com essa disputa sucessória que E. Michael Jones abre o capítulo 9 de “Barren Metal”. O autor sustenta que a aposta de Cosimo de Medici em Sforza explica a política fiscal de Florença e a forma como o regime passou a tratar a oposição."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Florença ganhou ao financiar Sforza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sforza aliou-se a Veneza em outubro de 1448 e rompeu com ela um ano depois para se aproximar de Cosimo, que o apoiava abertamente desde 1446 e via num Milão forte a chave para conter a hegemonia veneziana. Em 1450, Sforza conquistou Milão com dinheiro dos Medici; em abril de 1454, a Paz de Lodi encerrou a guerra. Para o historiador John Najemy, citado no capítulo, a aposta deu certo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O preço, segundo o autor, foi pago pelos florentinos: em troca de impostos pesados, Cosimo obteve acesso ao exército de Sforza, disposto a proteger o regime contra inimigos internos. Na leitura de Jones, os cidadãos receberam correntes em troca dos impostos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4% a 33⅓%",
+          "texto": "Faixa de alíquotas da graziosa, o imposto progressivo sobre a renda instituído por Cosimo em 1443, acompanhado de uma pequena capitação (imposto por cabeça). Do outro lado da aliança, Sforza tomou grandes empréstimos do Banco Medici: ao morrer, devia cerca de 190.000 florins, soma que o capítulo descreve como impagável."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o golpe de 1458 se desenrolou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No início de 1458, a Signoria restabeleceu o Catasto, o cadastro fiscal, o que ameaçava as famílias ricas com tributação mais alta. Cosimo tentou criar um órgão legislativo permanente de partidários dos Medici para anular a medida. O arcebispo Antonino se opôs, mas a objeção foi contornada com a convocação de um parlamento. Antes, o embaixador milanês Nicodemo Tranchedini garantiu a Cosimo o envio de tropas se necessário. Com isso, segundo o capítulo, os líderes da oposição foram presos, alguns torturados e os demais postos em prisão domiciliar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era o arcebispo Antonino?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Antonino Pierozzi foi nomeado arcebispo de Florença pelo papa Eugênio IV em 1446. Filho de um notário, não pertencia nem às famílias oligárquicas nem aos homens novos dos Medici. Era dominicano, reformador e, conta Jones, muito popular na cidade. O autor lembra que Joseph Schumpeter o considerou o primeiro a quem se pode atribuir uma visão abrangente do processo econômico."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sua “Summa”, Antonino tratou a economia no quadro dos contratos e da avareza. Condenou o pagamento do salário em produtos que o patrão não conseguia vender, o aviltamento da moeda e a retenção do salário, pecado que clama ao céu."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a usura seria contra a natureza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Apoiado no historiador John T. Noonan, Jones apresenta Antonino como o ponto de chegada da primeira fase da análise escolástica da usura: mais sistemático e, por isso, mais severo que os antecessores. Nos sermões, o arcebispo argumentava que a usura viola a lei natural porque, nos bens consumíveis, uso e propriedade não se separam; porque o credor tenta se apropriar do trabalho do devedor; e porque o dinheiro não dá frutos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A multiplicação do dinheiro pela usura parece milagrosa, mas na verdade é diabólica.”",
+          "original": "seems miraculous, but in truth it is diabolical (p. 144)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo o autor, os sermões tinham destinatário: Cosimo, o maior usurário da cidade. Antonino dizia que o perdão da usura exige a restituição dos lucros, o que a torna difícil de expiar, e que ela condena também os herdeiros: conhecia uma família condenada havia quatro gerações por não devolver o que um antepassado ganhara. Jones lê aí uma alusão à relutância dos Medici em fazer testamento."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, o problema florentino era o risco. A usura criara uma classe de rentistas, de viúvas a nobres, e o ganho sem risco teria minado a caridade e o investimento de risco compartilhado. Bernardino e Antonino tratavam todo investimento sem risco como usura."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que seria um salário justo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones destaca que, embora poucos contratos tenham poder de barganha tão desigual quanto o de trabalho manual, o tema só foi examinado de forma sistemática no século XV. Citando Odd Langholm, atribui a Antonino, conhecedor da indústria têxtil florentina, o mérito de ter chamado atenção para essa exploração. Como Tomás de Aquino, ele via no salário justo um ato de justiça."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central é a necessidade. O trabalhador pobre aceita um salário de fome para não ficar sem emprego, e esse consentimento não desculpava o patrão. O salário deveria seguir uma estimativa comum; pagar menos equivaleria a comprar abaixo do preço justo aproveitando-se da necessidade do vendedor. Pagar tarde ou em moeda ruim também era pecado. Na hierarquia do arcebispo, o salário justo permitia uma vida decente, e esta, uma vida virtuosa orientada à salvação."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor aponta um limite: os escolásticos se opunham à organização dos trabalhadores. Os sindicatos eram ilegais em Florença e eram tratados como conspirações, o que, para Jones, inviabilizava a reivindicação de um salário digno."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Antonino antecipou o paradoxo do valor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que Antonino reuniu numa só frase as discussões sobre usura, moeda e trabalho, com a ideia, depois associada a Locke, Smith e Marx, de que o trabalho é a fonte da riqueza."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O dinheiro, enquanto preço das coisas compráveis, não gera ganho, exceto pelo trabalho de quem o usa.”",
+          "original": "money insofar as it is the price of purchasables confers no gain, except through the industry of the user (p. 146)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo atribui aos dois santos a solução do paradoxo do valor três séculos antes de “A Riqueza das Nações”. Bernardino ensinava que o valor depende da utilidade e da escassez: os elementos são vitais, mas comuns, e valem menos que o ouro. Antonino acrescentou que o preço vem da estimação comum, não da de indivíduos isolados, e só se forma no mercado, onde oferta e procura se encontram."
+        },
+        {
+          "tipo": "p",
+          "texto": "Se o preço justo é o de mercado, como pode haver injustiça? Segundo Jones, o capitalista responde que todo preço acordado é justo; o escolástico, que a medida do valor é a necessidade da comunidade, não a do comprador ou do vendedor. Alguns escolásticos admitiam desvios de até metade do preço justo. E, como registra Noonan, nenhum deles via o trabalho como único determinante do valor."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem pagou a conta da aliança?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones volta à política. Para apoiar Sforza, Cosimo abriu uma nova filial do Banco Medici, decisão que teria acelerado o declínio do banco. Com a Cúria ocorreu o mesmo: a partir da década de 1460, o banco emprestava ao papado mais do que recebia em comissões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor trata ainda dos acordos de 1448 com prestamistas judeus, que ofereciam crédito a juros usurários ao popolo minuto, os trabalhadores mais pobres. Segundo Jones, isso permitiu a Cosimo manter a política salarial dos antecessores: salários baixos para conter preços e, por vezes, proibição de os artesãos trabalharem no exterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "Antonino morreu em 1459; Cosimo, cinco anos depois. A balìa trocou o título de “priores das guildas” por “priores da liberdade”, o que Maquiavel leu como manter ao menos o nome do que se perdera. O cronista Benedetto Dei descreveu a cidade atordoada de 1458 a 1466. Houve revoltas em 1466 e 1478, mas a república só voltou em 1494, quando Piero, bisneto de Cosimo, fugiu. As antigas famílias oligárquicas, conclui Jones, tornaram-se cortesãs ricas dos Medici."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O capítulo ilumina o consentimento obtido sob necessidade: quando a alternativa ao emprego é a fome, assinar o contrato diz pouco sobre a justiça do salário. A estimativa comum de Antonino é parente distante dos pisos salariais e da negociação coletiva, que os escolásticos recusavam."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Condottiere",
+          "Chefe de tropas mercenárias contratado por cidades e príncipes italianos."
+        ],
+        [
+          "República Ambrosiana",
+          "Governo republicano proclamado em Milão em 1447, após a morte de Visconti."
+        ],
+        [
+          "Paz de Lodi",
+          "Acordo de 1454 que encerrou a guerra entre Milão e Veneza."
+        ],
+        [
+          "Graziosa",
+          "Imposto progressivo sobre a renda instituído em Florença em 1443."
+        ],
+        [
+          "Catasto",
+          "Cadastro fiscal florentino que servia de base à tributação sobre o patrimônio."
+        ],
+        [
+          "Parlamento",
+          "Assembleia popular convocada para aprovar por aclamação medidas do governo."
+        ],
+        [
+          "Balìa",
+          "Conselho com poderes extraordinários, criado para reformar as instituições da cidade."
+        ],
+        [
+          "Escolástica",
+          "Tradição teológica e filosófica medieval, de Tomás de Aquino a Bernardino e Antonino."
+        ],
+        [
+          "Restituição",
+          "Devolução dos ganhos ilícitos, exigida pela Igreja para perdoar a usura."
+        ],
+        [
+          "Preço justo",
+          "Preço que respeita a equidade entre as partes, sem exploração da necessidade alheia."
+        ],
+        [
+          "Paradoxo do valor",
+          "Por que bens essenciais, como a água, valem menos que bens supérfluos, como o diamante."
+        ],
+        [
+          "Popolo minuto",
+          "Camada mais pobre da população florentina, sobretudo trabalhadores sem guilda."
+        ]
+      ],
+      "hoje": "A pergunta de Antonino continua no centro do debate trabalhista: um contrato aceito por necessidade é um contrato livre? Salário mínimo, negociação coletiva e regras contra atrasos no pagamento partem da premissa de que o poder de barganha entre empregador e empregado é desigual. Persiste também a discussão sobre o crédito caro a famílias que se endividam para cobrir o mês. E a ideia de que o preço se forma no mercado, mas dentro de limites legais, segue presente na defesa do consumidor."
+    },
+    {
+      "slug": "cap-10-filial-de-londres",
+      "numero": 10,
+      "titulo": "A filial de Londres: como os empréstimos a reis quebraram os Medici",
+      "titulo_original": "The London Branch",
+      "paginas": "pp. 151–162",
+      "chamada": "No verão de 1453, o gerente dos Medici em Londres comprava lã nos Cotswolds e tudo ia bem. Jones mostra como, em poucos anos, a filial afundou em empréstimos à Coroa inglesa em guerra.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No fim do verão de 1453, Simone Nori, gerente da filial do Banco Medici em Londres, cavalgou até os Cotswolds para comprar lã. Seus relatórios da época transmitem otimismo: os negócios iam bem, o dinheiro do banco não estava preso em empréstimos ao rei e os florentinos ainda tinham apetite pela lã inglesa. É com essa cena que E. Michael Jones abre o capítulo 10 de “Barren Metal”. O autor sustenta que o que veio depois repete um padrão já visto: o capital acumulado vira usura, a usura vira empréstimo a príncipes, e os príncipes não pagam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou entre 1454 e 1456?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Londres tornara-se filial do banco em 1446. Em 25 de março de 1454, o arranjo provisório com os Medici virou uma sociedade regular, e Nori ainda podia dizer que era bem-visto na cidade, apesar de italiano. Dois anos depois, segundo o capítulo, o quadro havia mudado por completo. Em 1455 começou a Guerra das Rosas, a disputa dinástica entre as casas de Lancaster e York."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para obter crédito, os príncipes ingleses concederam aos “lombardos”, como eram chamados os banqueiros italianos, privilégios de arrecadação de impostos. Os mercadores ingleses, que já viam os florentinos como intrusos, ganharam outro motivo de hostilidade. Entre o fim de 1456 e o início de 1457, conta o autor, o ressentimento chegou à violência física contra os comerciantes italianos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava a troca entre crédito e lã?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O mecanismo descrito por Jones é simples. Para financiar a guerra, Lancaster e York precisavam de empréstimos; para obtê-los, concediam aos italianos licenças de exportação de lã. Mas cada licença irritava os Merchants of the Staple, a guilda inglesa que detinha o monopólio do comércio do produto. Em 1463, Eduardo IV, em busca de legitimidade, proibiu estrangeiros de comprar lã e obrigou todo embarque a passar pela cidade-entreposto de Calais. Um ano depois, sem nada a oferecer aos Medici, restaurou o sistema de licenças."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí em diante, Nori e seu sucessor, Gherardo di Bernardo Canigiani, tiveram de emprestar cada vez mais à Coroa. Em vez de pagar, Eduardo IV abatia a dívida perdoando o imposto de quatro marcos por quintal sobre a lã que os Medici exportavam. A filial recebia créditos fiscais, não dinheiro, e precisava tomar empréstimos com juros para continuar operando. Até a venda de seda à Coroa exigia crédito: em julho de 1468, o banco emprestou 1.000 libras esterlinas para que o rei vestisse o cortejo do casamento da irmã com Carlos, o Temerário."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2.600 libras",
+          "texto": "Empréstimo dos Medici a Eduardo IV em novembro de 1468, segundo o capítulo. Em 26 de abril de 1464, Canigiani já havia emprestado 800 marcos ao rei em troca apenas do direito de embarcar 200 sacas de lã sem pagar alfândega. Em 1457, as perdas haviam consumido todo o capital da filial, e a sociedade de 24 de março de 1458 foi liquidada."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Você sabe que é um mau negócio quando as duas partes da transação estão indo à falência.”",
+          "original": "You know it's a bad deal when both parties to the transaction are going broke (p. 153)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os reis recorreram à alquimia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com os banqueiros esgotados e a dívida intacta, prossegue Jones, a Coroa apelou para a magia. Em 1455, Henrique VI concedeu quatro patentes para a busca da pedra filosofal, com o objetivo declarado de pagar as dívidas reais em ouro e prata verdadeiros, e deu licenças de alquimia a clérigos. O autor conclui que nenhum rei saiu da dívida pela alquimia, e que os Medici aprenderam que só se cobra um rei emprestando-lhe mais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Cosimo repetiu o erro dos Bardi e dos Peruzzi?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo dialoga com o historiador Raymond de Roover, para quem o banco parou de crescer a partir de 1455 e entrou em declínio com a morte de Cosimo, em 1464. De Roover aponta falhas pessoais, como a imprudência de Tommaso Portinari em Bruges, e um “defeito congênito” do banqueiro: a tendência de deslizar do crédito privado para as finanças públicas. Os Medici conheciam o precedente dos Bardi e dos Peruzzi, arruinados por empréstimos a reis ingleses, e encalharam no mesmo recife."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones propõe uma explicação mais estrutural. As famílias oligárquicas teriam acumulado lucros da lã e da seda, do câmbio e da dívida pública mais depressa do que surgiam oportunidades de investimento produtivo. O excedente foi emprestado a príncipes que o gastavam em festas de corte e guerras. Como a guerra destrói valor, argumenta, nenhum príncipe poderia devolver sequer o principal."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O Banco Medici nunca foi outra coisa senão um colosso com pés de barro.”",
+          "original": "the Medici Bank was never anything other than a colossus on feet of clay (p. 153)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde foi o dinheiro que não virou investimento?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, o lugar lógico para investir era a indústria da lã, a única fonte de lucro constante em três séculos de história florentina. Não foi o que aconteceu. Os banqueiros continuaram a emprestar a coroas: em 1583, eram credores da Coroa espanhola em 300 mil ducados, e os espanhóis não pagaram. No início do século XVII, as oficinas de lã haviam caído de 84 para 46."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1462, quando Perúgia criou um monte di pietà, Florença não seguiu o exemplo. Seguiu-se, segundo o capítulo, uma corrida de palácios: os Pitti demoliram ruas inteiras sem prever moradia para os desalojados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40 mil florins",
+          "texto": "Custo do palácio de Filippo Strozzi, iniciado em 1489, segundo o capítulo. Um palácio típico da classe alta custava entre 1.500 e 2.500 florins. Com a altura de um prédio moderno de dez andares, tinha apenas três pisos. Após a morte de Strozzi, foram encontrados em sua casa mais de 52 mil florins em espécie, guardados em sacos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a troca da lã pela seda reduziu salários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre 1360 e 1420, segundo o capítulo, a população de Florença caiu de 55 mil para 38 mil habitantes. Jones atribui a queda sobretudo à contração da indústria da lã: com a Inglaterra fabricando o próprio pano, a lã fina ficou escassa, e os fabricantes migraram para a seda. Apoiado no historiador John Najemy, o autor observa que a seda empregava poucos trabalhadores não qualificados. Resultado: mais concentração de renda e salários estagnados."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Catasto de 1427 dá a dimensão do problema. Dos 909 chefes de família da indústria da lã, 53% foram classificados como miserabiles, pobres demais para pagar imposto, proporção que chegava a 64% entre os Ciompi não qualificados. Em 1540, a fuga de tecelões e camponeses endividados levou o Magistrato Supremo a decretar uma moratória de oito meses sobre as dívidas privadas dos contadini, com multa de 100 liras para o credor que os importunasse."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde estava Cosimo enquanto a filial afundava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois de esmagar a oposição em 1458, com a ameaça das tropas de Sforza, Cosimo se retirou da vida pública. Em 1460 fundou a Academia Platônica e, no fim do verão de 1462, chamou Marsilio Ficino à sua propriedade em Careggi, pedindo que trouxesse uma tradução de Platão e os hinos órficos. Jones pergunta se esse interesse pela magia não seria, como o dos reis ingleses, sinal de desespero econômico. Santo Antonino, o último bispo que poderia aconselhá-lo, morrera em 1459. Cosimo morreu em 1º de agosto de 1464, sem testamento."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O capítulo descreve um caso clássico de risco soberano. O credor que só recebe emprestando mais ao devedor está, na prática, refinanciando uma dívida impagável; os créditos fiscais de Eduardo IV equivaliam a pagar com receita futura, deixando o banco sem caixa."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Banco Medici",
+          "Rede de filiais bancárias e comerciais da família Medici, com sede em Florença, fundada em 1397."
+        ],
+        [
+          "Guerra das Rosas",
+          "Guerra civil inglesa entre as casas de Lancaster e York pela Coroa, iniciada em 1455."
+        ],
+        [
+          "Lombardos",
+          "Nome dado na Inglaterra aos banqueiros e mercadores italianos."
+        ],
+        [
+          "Merchants of the Staple",
+          "Guilda inglesa com monopólio sobre a exportação de lã, centralizada no entreposto de Calais."
+        ],
+        [
+          "Staple (entreposto)",
+          "Cidade designada por lei como ponto obrigatório de passagem e tributação de uma mercadoria."
+        ],
+        [
+          "Créditos fiscais",
+          "Abatimento de impostos devidos usado como forma de pagamento de uma dívida."
+        ],
+        [
+          "Monte di pietà",
+          "Instituição de crédito pignoratício a juros baixos para os pobres, criada pelos franciscanos."
+        ],
+        [
+          "Catasto",
+          "Cadastro fiscal florentino de 1427, que registrava bens e dívidas dos domicílios."
+        ],
+        [
+          "Miserabiles",
+          "Contribuintes do Catasto considerados pobres demais para pagar imposto."
+        ],
+        [
+          "Contadini",
+          "Camponeses do contado, o território rural sob domínio de Florença."
+        ]
+      ],
+      "hoje": "A relação entre bancos e Estados endividados segue no centro da regulação financeira. A crise da dívida europeia da década de 2010 trouxe de volta o chamado ciclo vicioso entre bancos e soberanos: bancos carregados de títulos públicos ficam frágeis quando o governo perde crédito, e o governo, por sua vez, precisa socorrê-los. Outro tema do capítulo também reaparece: o debate sobre por que a poupança abundante nem sempre vira investimento produtivo e acaba em ativos financeiros e imóveis. A pergunta de Florença permanece: para onde vai o excedente?"
     }
   ],
   "titulo": "Barren Metal",
@@ -885,7 +1728,7 @@
     },
     {
       "tipo": "p",
-      "texto": "Cada capítulo ganha uma resenha própria, publicada na ordem do livro. As resenhas são descritivas: expõem o argumento como o autor o apresenta, sempre atribuído a ele, sem veredito editorial. Quando uma afirmação histórica diverge do registro documentado, anotamos o registro numa frase neutra. As citações são poucas, curtas e com página indicada. Nenhuma resenha substitui a obra: quem quiser o argumento completo, com as fontes e as notas, deve ler o livro."
+      "texto": "Cada capítulo ganha uma resenha própria, publicada na ordem do livro. As resenhas são descritivas: expõem o argumento como o autor o apresenta, sempre atribuído a ele, sem veredito editorial. As citações são poucas, curtas e com página indicada. Nenhuma resenha substitui a obra: quem quiser o argumento completo, com as fontes e as notas, deve ler o livro."
     }
   ],
   "partes": [
