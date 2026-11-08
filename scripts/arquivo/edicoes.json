@@ -3817,13 +3817,1012 @@
       ],
       "jstor_edicao": "i342420",
       "colecao": "eua"
+    },
+    {
+      "slug": "1890-trabalho-infantil",
+      "numero": 24,
+      "titulo": "Crianças na linha de produção: dois diagnósticos de 1890",
+      "titulo_original": "Child Labor (dois ensaios)",
+      "autores": "William F. Willoughby, A.B.; Miss Clare de Graffenried",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 5, nº 2",
+      "data": "março de 1890",
+      "chamada": "Em 1880, um em cada dezesseis trabalhadores dos EUA tinha de 10 a 15 anos. Dois ensaios de 1890 mediram o problema e chegaram à mesma conclusão: lei sem fiscalização não protege ninguém.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Uma menina de doze anos, maltrapilha, soluça na porta de uma loja. Na palma da mão, duas moedas de 25 centavos: o ganho da semana. “O pai vai me bater, com certeza, porque ganhei muito pouco esta semana” (“Pa'll lick me sure because I've made so little this week”). A cena é uma das dezenas que Clare de Graffenried anotou em visitas a lojas, oficinas e fiações. Ela e William F. Willoughby assinam os dois ensaios, ambos intitulados “Child Labor”, que ocupam a edição de março de 1890 das Publications of the American Economic Association."
+        },
+        {
+          "tipo": "p",
+          "texto": "O tamanho do problema vinha do censo. Em 1880, segundo a tabulação reproduzida por Willoughby, havia 1.118.356 crianças de 10 a 15 anos entre os trabalhadores dos Estados Unidos, uma em cada dezesseis pessoas ocupadas. Dez anos antes, a proporção era de uma em dezessete. O próprio autor admite que a conta subestima o fenômeno: deixa de fora as crianças que trabalhavam em casa, nos cortiços, sem salário, ajudando os pais a costurar botões ou destalar fumo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1 em 16",
+          "texto": "Proporção de crianças de 10 a 15 anos entre os trabalhadores dos EUA no censo de 1880 (1.118.356 de 17.392.099). Em 1870 eram 739.164, ou 1 em 17. Fora da agricultura, o número de crianças ocupadas cresceu 66% na década; o de adultos, 47%. Nas fiações de algodão, em 1880, um em cada seis empregados tinha menos de 15 anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dois textos se completam pelo método. Willoughby trabalha com estatísticas oficiais, a história das leis fabris inglesas e teoria econômica. Graffenried faz trabalho de campo: diz ter observado, em vinte estados, mais de 100 mil mulheres trabalhadoras e conversado individualmente com 12 mil. Ele escreve como economista; ela, como investigadora social que desconfia das próprias estatísticas que cita."
+        },
+        {
+          "tipo": "p",
+          "texto": "O diagnóstico é o mesmo. Havia leis em vários estados, mas pouca gente para aplicá-las, certificados de idade fáceis de fraudar e pais e patrões interessados em burlar a regra. Ambos tomam a Inglaterra, com quase um século de Factory Acts, como prova de que restringir o trabalho infantil não arruína a indústria. Diferem no tom: Graffenried recusa a tese de que o país estaria “indo para o buraco” e lembra que os abusos atingem um segmento da indústria, não o todo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o trabalho infantil sai caro, segundo Willoughby?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O centro do argumento é o “padrão de conforto”: o nível de vida que cada classe se habituou a exigir e abaixo do qual se recusa a trabalhar. Para Willoughby, é esse padrão, e não a mera subsistência da lei de ferro de Ricardo, que fixa os salários no longo prazo. A criança posta cedo na fábrica nunca conhece outra coisa; adulta, aceita salário de fome e puxa os demais para baixo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a tese mais contraintuitiva do ensaio: o salário dos filhos não aumenta a renda da família. Quando mulheres e crianças entram no mercado, a família inteira passa a ganhar, em média, o que o pai ganharia sozinho. Willoughby reproduz a parábola de Carroll D. Wright, do órgão de estatísticas do trabalho de Massachusetts: o industrial descobre que jovens de dezesseis anos fazem o serviço por um dólar, contra dois pagos aos homens; os concorrentes copiam; depois vêm crianças de dez e doze anos a cinquenta centavos, e o salário de todos desce junto."
+        },
+        {
+          "tipo": "p",
+          "texto": "A objeção dos industriais era a concorrência: proibir crianças num estado seria entregar o mercado ao vizinho. Willoughby responde com eficiência do trabalho, com o peso do consumo operário e com a mecanização que o trabalho caro induz. E lembra que os fabricantes de Massachusetts previram a ruína com a lei das dez horas; em vez disso, os estabelecimentos se multiplicaram."
+        },
+        {
+          "tipo": "p",
+          "texto": "O retrato legal é magro. Só onze estados proibiam o trabalho abaixo de certa idade em todas as atividades: três fixavam o limite em dez anos, três em doze e cinco em treze. Apenas oito tinham inspetores de fábrica. Muitas leis, diz ele, passaram já desenhadas pelos industriais para não funcionar. A proposta é prática: um inspetor-chefe com corpo de auxiliares e amplos poderes, as normas reunidas num código único, nos moldes da lei inglesa de 1878, e mais uniformidade entre os estados."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Só o Estado está em condições de remediar isso, por meio de legislação adequada.",
+          "original": "The state alone is in a position to remedy this by suitable legislation"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Clare de Graffenried encontrou dentro das oficinas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Graffenried percorre setor por setor. Nas lojas de tecidos, crianças carregavam dinheiro e troco entre balcões por US$ 1 a US$ 2,50 por semana, e eram multadas por atraso. A aritmética da multa expõe a injustiça: a menina que ganhava US$ 1,20 perdia um doze avos da semana por dez minutos de atraso; a vendedora de US$ 15 perdia um cento e cinquenta avos. Nas semanas anteriores ao Natal, ficavam até as 9, 10 ou 11 da noite."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos cortiços, a indústria do fumo vinha para dentro de casa: ela viu uma menina de cinco anos arrancando a nervura das folhas ao lado dos pais. Fora das lojas de tecidos e da indústria têxtil, escreve, nenhuma atividade empregava mais trabalhadores de sete a catorze anos que o fumo. No Ohio, o inspetor relatou cem meninos contratados num orfanato do Brooklyn por fábricas de vidro, em turnos que entravam pela noite."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Sul era o caso extremo. Das 304 operárias e operários brancos entrevistados em fiações da Geórgia, 41 tinham doze anos ou menos, e mais de 56% haviam começado a trabalhar aos onze anos ou antes. Nas Carolinas, no Alabama e no Tennessee, nenhuma lei protegia as crianças das fábricas. O analfabetismo acompanhava: mais da metade dos operários nativos de quatro estados do Sul não sabia ler e escrever."
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde a lei era aplicada, porém, funcionava, apesar das fraudes que ela documenta: certificados de idade vendidos, emprestados entre irmãos, datas alteradas na Bíblia da família. Daí suas propostas: regras fabris uniformes, inspeção mais rígida, inspetoras mulheres qualificadas, escola obrigatória dos sete aos catorze anos, o meio período inglês e idade mínima de dezesseis anos. E uma ideia ousada para 1890: o Estado pagaria às famílias pobres o equivalente ao salário da criança enquanto ela estudasse."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A necessidade do momento é menos de novas leis que de fazer cumprir as que existem.",
+          "original": "less the need for new laws than for the enforcement of those which exist"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2.802",
+          "texto": "Meninos e meninas em fábricas de Chicago em 1888, contra 9.000 em 1884, segundo o Departamento de Saúde da cidade, citado por Graffenried, apesar do forte crescimento da população e da indústria. Em Massachusetts, segundo Carroll D. Wright, as crianças de 10 a 14 anos empregadas caíram de cerca de 8.000 para cerca de 3.000 entre 1875 e 1885. Em Fall River, em 1888, menos de 1% dos operários das fiações tinha menos de catorze anos."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o argumento mais duradouro está em Willoughby, e é um problema de coordenação. Ele observa que, se uma família tira o filho da fábrica, o salário do pai não sobe; só sobe se a classe inteira fizer o mesmo. O mesmo vale para os industriais: enquanto um contratar crianças, os outros serão forçados a imitá-lo. Quando a decisão racional de cada um produz um resultado ruim para todos, a regra comum deixa de ser intromissão e passa a ser condição para que o mercado funcione num patamar melhor.",
+            "Graffenried acrescenta o que os economistas costumam subestimar: a regra vale o que vale a fiscalização. Seus números de Chicago e Massachusetts mostram que a lei aplicada muda comportamentos depressa; suas histórias de certificados falsos mostram como a lei sem fiscal vira papel. E a proposta de pagar às famílias para manter o filho na escola antecipa em um século a lógica das transferências condicionadas de renda: se o problema é a renda que a criança traz, compensá-la é mais eficaz do que apenas proibir."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Padrão de conforto (standard of comfort)",
+          "Nível de vida que uma classe de trabalhadores se habituou a considerar mínimo; para Willoughby, é ele que fixa o salário no longo prazo."
+        ],
+        [
+          "Lei de ferro dos salários",
+          "Tese associada a Ricardo, assim batizada por Lassalle, de que os salários tendem ao mínimo necessário para a subsistência."
+        ],
+        [
+          "Meio período inglês (half-time)",
+          "Regime das leis fabris inglesas em que a criança trabalha metade do dia e frequenta a escola na outra metade."
+        ],
+        [
+          "Certificado de idade",
+          "Documento exigido pelas leis estaduais para admitir menores; segundo os ensaios, era com frequência falsificado, emprestado ou vendido."
+        ],
+        [
+          "Cash girl / cash boy",
+          "Criança empregada nas lojas para levar dinheiro e troco entre os balcões e o caixa."
+        ]
+      ],
+      "hoje": "O trabalho infantil deixou de ser regra nas economias industrializadas, mas persiste em cadeias produtivas informais, no trabalho doméstico e na agricultura familiar, longe dos olhos do fiscal. O debate continua girando em torno das duas teses de 1890: a de Willoughby, de que a proibição exige regra comum para todos os concorrentes, inclusive entre países; e a de Graffenried, de que a lei vale o que vale a fiscalização e de que a escola obrigatória precisa vir acompanhada de renda para as famílias que dependem do trabalho dos filhos.",
+      "itens": [
+        [
+          "Child Labor (William F. Willoughby)",
+          "pp. 5–70",
+          "2485611"
+        ],
+        [
+          "Child Labor (Clare de Graffenried)",
+          "pp. 71–149",
+          "2485612"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Child Labor",
+          "autores": "William F. Willoughby, A.B.",
+          "paginas": "pp. 5–70",
+          "jstor": "2485611",
+          "resumo": "Willoughby percorre a história das leis fabris inglesas, de 1802 à lei consolidada de 1878, e usa os censos de 1870 e 1880 para mostrar o avanço do trabalho infantil nos Estados Unidos, que chegou a uma criança de 10 a 15 anos para cada dezesseis trabalhadores. Com base na teoria do padrão de conforto, sustenta que o trabalho infantil rebaixa salários e não aumenta a renda familiar, rebate a objeção da concorrência entre estados e defende proibição por idade, inspetores com poderes reais e códigos fabris unificados."
+        },
+        {
+          "titulo": "Child Labor",
+          "autores": "Miss Clare de Graffenried",
+          "paginas": "pp. 71–149",
+          "jstor": "2485612",
+          "resumo": "Com base em observação direta em vinte estados, Graffenried descreve o trabalho infantil em lojas de tecidos, confecções, fábricas de fumo, caixas, vidro, conservas e fiações do Sul, com atenção a jornadas, salários, multas, acidentes, analfabetismo e fraude nos certificados de idade. Mostra que a fiscalização reduziu o problema em Chicago e Massachusetts e propõe aplicar as leis existentes, uniformizar regras, contratar inspetoras, tornar a escola obrigatória dos sete aos catorze anos, elevar a idade mínima a dezesseis e compensar financeiramente as famílias pobres."
+        }
+      ],
+      "jstor_edicao": "i342421",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1890-o-canal-e-a-ferrovia",
+      "numero": 25,
+      "titulo": "O canal que segurava o preço do trem",
+      "titulo_original": "The Canal and the Railway / Canals and Their Economic Relation to Transportation",
+      "autores": "Edmund J. James, Ph. D., professor da Wharton School of Finance and Economy, University of Pennsylvania; Lewis M. Haupt, A. M., C. E., professor de Engenharia Civil, University of Pennsylvania",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 5, nº 3/4",
+      "data": "maio e julho de 1890",
+      "chamada": "Em 1890, um economista e um engenheiro mostraram que o canal, dado como morto, ainda levava carga pesada mais barato e punha um teto no frete ferroviário.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Henry, no Illinois, despachar 100 libras de carga até Chicago, a cem milhas de distância, custava 8 centavos de dólar. Em Tiskilwa, doze milhas mais a oeste, o mesmo serviço custava 15. A ferrovia era a mesma, a Chicago, Rock Island and Pacific. A diferença: Henry ficava ao alcance do canal Illinois and Hennepin, pouco mais que uma vala. Tiskilwa, não."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo está num fascículo duplo das Publications of the American Economic Association, de maio e julho de 1890, que reúne dois professores da Universidade da Pensilvânia: o economista Edmund J. James, da Wharton School, e o engenheiro civil Lewis M. Haupt. A tese comum incomodava o otimismo da época. Meio século depois da vitória da locomotiva, o canal continuava a fazer duas coisas que o trilho não fazia: levar carga pesada mais barato e impor um limite ao preço do frete ferroviário."
+        },
+        {
+          "tipo": "p",
+          "texto": "James registra o tamanho do descrédito. Vinte e cinco anos antes, escreve, quem apostava no canal passava por ignorante ou visionário. A virada teria vindo com o sucesso do canal de Suez. A partir de cerca de 1870, parlamentos, governos e associações técnicas voltaram ao tema, e um Congresso Internacional de Navegação Interior passou a se reunir, de Bruxelas a Paris."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dois textos se completam. James pergunta por que o canal decaiu e por que renasce, com estatísticas da Inglaterra, França, Prússia e Estados Unidos, e fecha com uma nota sobre a nova tarifa ferroviária de passageiros da Hungria. Haupt parte da física da resistência ao movimento para chegar à contabilidade das empresas, e a uma história pouco edificante de canais comprados por ferrovias para deixar de competir."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o canal perdeu, e por que ainda importava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "James não subestima a ferrovia. O trem era mais rápido, rodava dia e noite e subia morros. O canal de Erie ficava parado pelo gelo mais de 40% do tempo entre 1873 e 1883. Mas a superioridade técnica, diz ele, não explica sozinha a derrota."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pesaram erros e estratégia. Os donos de canais ingleses agarraram-se a pedágios altos. As ferrovias compraram canais para controlá-los: em 1880, das 4.033 milhas de canais e rios canalizados da Inglaterra, Escócia e País de Gales, 1.447 estavam sob controle ferroviário. Bastava possuir um elo da cadeia para dominar a rota inteira."
+        },
+        {
+          "tipo": "p",
+          "texto": "O sistema, além disso, nunca foi sistema. Na rota das minas de Derbyshire a Londres, um único elo com eclusas estreitas limitava os barcos a 24 toneladas; o resto comportava até 80."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Ainda hoje é o canal de 1825 tentando competir com a ferrovia de 1890.",
+          "original": "It is even to-day the canal of 1825 trying to compete with the railway of 1890."
+        },
+        {
+          "tipo": "p",
+          "texto": "A redescoberta veio pelos custos, sobretudo para carga pesada e volumosa que não estraga no caminho. Nos Grandes Lagos, a ferrovia mais favorecida custava quatro vezes o vapor por tonelada-milha."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "0,1 centavo",
+          "texto": "Custo médio por tonelada-milha dos vapores entre Chicago e Búfalo em 1885, segundo James. Veleiros: 0,08 centavo. Ferrovia mais favorecida: ao menos 0,4 centavo. Grão de Chicago a Nova York: 4,55 centavos por bushel por lago e canal, contra 14 centavos só por trilho."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Europa já agia. Em 1879, a França fixou medidas uniformes para as eclusas principais, aptas a barcaças de 250 a 300 toneladas, e votou recursos para as obras. Na Prússia, o governo propôs em 1882 um canal das minas da Vestfália ao mar; a Câmara alta o rejeitou por cinco votos, mas pediu um plano de rede uniforme."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento mais forte é o da disciplina de preços. Albert Fink, gestor ferroviário, escreveu ao senador Windom em 1878 que as tarifas entre Chicago e Nova York caíam sempre que o Erie abria, e a queda chegava a cidades sem concorrência fluvial, até o Sul. Havia quem dissesse que o canal valeria a manutenção mesmo sem levar uma tonelada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta de James é uma rede ligando o Mississippi, os Grandes Lagos e o oceano. Quem a constrói? O capital privado, se servir ao público; se não, os estados; se não, a nação. E mesmo que os pedágios não pagassem a obra, nenhuma estrada sobreviveria se cada trecho tivesse de se pagar sozinho."
+        },
+        {
+          "tipo": "p",
+          "texto": "A nota final tira a consequência para a própria ferrovia: livre do frete pesado e lento, ela poderia se dedicar a passageiros. James cita a Hungria, que em agosto de 1889 trocou a tarifa por distância por uma tarifa por zonas, com bilhetes vendidos como selos. Nos cinco primeiros meses, os passageiros cresceram mais de 133%, sem alta das despesas operacionais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que uma ferrovia compraria um canal para fechá-lo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Haupt abre com uma tese de engenheiro: a engenharia é, antes de tudo, economia, a arte de obter o melhor resultado ao menor custo de construção e manutenção. Na água, o atrito é menor e a via é contínua. Daí sua tabela, tomando como base o Erie ampliado e sem pedágio: menos de 3 milésimos de dólar por tonelada-milha no canal, 1,2 nos lagos, 0,5 no oceano."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "O custo do movimento na água é inversamente proporcional ao calado da embarcação.",
+          "original": "The cost of movement on water is inversely proportional to the draught of the vessel."
+        },
+        {
+          "tipo": "p",
+          "texto": "A implicação é direta: muitos canais antigos fracassaram por falta de profundidade, não por vocação. O primeiro Erie, de quatro pés de calado, operava a 4,14 milésimos por tonelada-milha; ampliado para sete pés, caiu a 2,16."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema, para Haupt, é de estrutura de mercado. Comprovado que o canal era mais barato, as ferrovias decidiram eliminá-lo ou controlá-lo. No Schuylkill, depois da ampliação de 1846, a tonelada de carvão de Pottsville a Filadélfia pagava 90 centavos entre pedágio e frete. Sob a Philadelphia and Reading, dona do canal, passou a pagar o mesmo que por trilho: 170 centavos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O canal Delaware and Raritan, em Nova Jersey, conta a mesma história em balanço. Em 1866, rendeu lucro líquido de quase 23% sobre o capital, contra pouco mais de 5% da ferrovia associada. Arrendado à Pennsylvania Railroad em 1871 por 999 anos, perdeu o carvão da Reading e viu o resultado minguar até 1887. Conclusão oficial: o canal não paga. E deixa-se que decaia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Haupt recorre ao mesmo Albert Fink, então comissário das grandes linhas tronco, falando a um comitê do Congresso:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "os transportadores das rotas aquáticas é que de fato fixam essas tarifas",
+          "original": "the carriers by the water routes really establish these tariffs"
+        },
+        {
+          "tipo": "p",
+          "texto": "O contraste aparece nos Grandes Lagos. O canal de Sault Ste. Marie, fechado quase metade do ano pelo clima, já superava Suez em tonelagem. Enquanto isso, o tráfego do Erie estacionara em torno de 5 milhões de toneladas por quinze anos; o crescimento ia para as ferrovias, cujas tarifas o canal continuava a conter."
+        },
+        {
+          "tipo": "p",
+          "texto": "As propostas seguem. O governo federal deveria completar a rota do Mississippi ao Atlântico e uma via interna pela costa até a Flórida, útil também à defesa. O Delaware and Raritan deveria ser ampliado e retificado, ou vendido aos Estados Unidos e aberto livre como um rio. Haupt sustenta um paradoxo: a via navegável livre costuma enriquecer as ferrovias de suas margens, porque adensa a população, e população é a vida do comércio."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o que envelheceu nos dois textos é a técnica; o que não envelheceu é o argumento sobre concorrência. James e Haupt perceberam que o valor de uma infraestrutura alternativa não se mede só pelo que ela transporta, mas pelo preço que impede o rival de cobrar. Um canal que segura a tarifa do trilho é um ativo que nenhum balanço privado registra. Por isso tende a ser vendido, fechado ou abandonado por quem olha apenas o próprio resultado.",
+            "O segundo ponto é mais sutil. Nenhum dos dois culpa o gestor ferroviário; James diz que ele vive do curto prazo e cuida da própria linha. A falha apontada é de quem deveria zelar pelo interesse geral e deixou o concorrente ser comprado. A pergunta vale para qualquer setor de rede: quem garante que a alternativa mais barata continue de pé quando ela incomoda quem já domina o mercado?"
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tonelada-milha",
+          "Uma tonelada transportada por uma milha; unidade padrão para comparar custos de frete entre modais."
+        ],
+        [
+          "Calado",
+          "Profundidade que a embarcação carregada ocupa abaixo da linha d'água; limita o tamanho dos barcos que uma via aceita."
+        ],
+        [
+          "Eclusa",
+          "Câmara com comportas que eleva ou abaixa barcos entre trechos de nível diferente; suas medidas definem a carga máxima da rota."
+        ],
+        [
+          "Milésimo de dólar (mill)",
+          "Um décimo de centavo; unidade usada por Haupt para custos por tonelada-milha."
+        ],
+        [
+          "Tarifa por zonas",
+          "Preço da passagem fixado pelo número de faixas de distância atravessadas, e não pela quilometragem exata."
+        ]
+      ],
+      "hoje": "O debate sobre matriz de transportes gira em torno das mesmas variáveis: custo por tonelada-quilômetro, escala da embarcação, integração entre modais e concorrência entre eles. Hidrovias e cabotagem seguem defendidas como alternativa barata para cargas a granel e como freio ao frete por terra, e reguladores ainda discutem quando o controle de um modal por operador de outro reduz a disputa. A lição de 1890 é que a concorrência potencial também tem valor, e que ela pode ser comprada e desativada se ninguém estiver olhando.",
+      "itens": [
+        [
+          "The Canal and the Railway, with a Note on the Development of Railway Passenger Traffic",
+          "pp. 9–57",
+          "2560506"
+        ],
+        [
+          "Canals and Their Economic Relation to Transportation",
+          "pp. 61–85",
+          "2560507"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Canal and the Railway, with a Note on the Development of Railway Passenger Traffic",
+          "autores": "Edmund J. James",
+          "paginas": "pp. 9–57",
+          "jstor": "2560506",
+          "resumo": "James examina por que o canal perdeu terreno para a ferrovia ao longo do século XIX: velocidade, gelo, falta de padronização das eclusas, obstinação dos donos de canais e compra sistemática de vias navegáveis por companhias ferroviárias. Em seguida, documenta o renascimento do interesse desde cerca de 1870 na Inglaterra, França, Prússia e Estados Unidos, com dados de custo por tonelada-milha e o papel do canal de Erie como regulador de tarifas. Propõe uma rede ligando Mississippi, Grandes Lagos e oceano, e encerra com uma nota sobre a tarifa ferroviária por zonas adotada na Hungria em 1889."
+        },
+        {
+          "titulo": "Canals and Their Economic Relation to Transportation",
+          "autores": "Lewis M. Haupt",
+          "paginas": "pp. 61–85",
+          "jstor": "2560507",
+          "resumo": "Haupt, engenheiro civil, trata a engenharia como problema econômico e formula uma regra: o custo do transporte aquático cai na proporção inversa do calado da embarcação. Com casos da Pensilvânia e de Nova Jersey, como os canais Schuylkill e Delaware and Raritan, mostra como ferrovias que adquiriram canais elevaram fretes ou deixaram as vias decair. Compara o canal de Sault Ste. Marie a Suez e defende a ampliação de elos da navegação interior pelo governo federal, inclusive como medida de defesa."
+        }
+      ],
+      "jstor_edicao": "i323681",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1890-o-imposto-sobre-a-propriedade-em-nova-york",
+      "numero": 26,
+      "titulo": "O imposto que contava bois e não enxergava ações",
+      "titulo_original": "History of the New York Property Tax: An Introduction to the History of State and Local Finance in New York",
+      "autores": "John Christopher Schwab, A. M., Ph. D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 5, nº 5",
+      "data": "setembro de 1890",
+      "chamada": "Em 1890, John Christopher Schwab contou dois séculos do imposto sobre a propriedade em Nova York: um tributo pensado para terra e gado que, diante de ações e créditos, só alcançava quem não podia se esconder.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 16 de setembro de 1675, a lista de avaliação de Southold, em Long Island, registrou o patrimônio de Richard Browne. Terra, bois, vacas, cavalos, ovelhas e porcos foram contados um a um, num total de 370 libras. Nada ali estava escondido: a riqueza de um agricultor do século XVII pastava à vista de todos."
+        },
+        {
+          "tipo": "p",
+          "texto": "É com listas assim que John Christopher Schwab reconstitui a origem do imposto geral sobre a propriedade, o tributo que pretende cobrar de cada pessoa na proporção de tudo o que possui, imóveis e bens móveis somados. O estudo, publicado em setembro de 1890 pela American Economic Association, acompanha o imposto por mais de dois séculos e chega a uma conclusão dura: o modelo que servia a Browne já não servia à Nova York das sociedades anônimas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde veio o imposto sobre tudo o que se possui?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não dos holandeses. Na Nova Holanda, a receita vinha quase toda de tarifas sobre o comércio e de impostos sobre cerveja e vinho, como na metrópole. Em 1654, em plena penúria, Pieter Stuyvesant criou uma taxa sobre terras, casas, lotes e gado, aprovada na Holanda como imposto especial de guerra. Era um recurso de emergência, não um sistema."
+        },
+        {
+          "tipo": "p",
+          "texto": "O imposto chegou com os ingleses. O leste de Long Island fora povoado quase só por colonos da Nova Inglaterra, que trouxeram o tributo a que estavam habituados. Por trás havia uma diferença econômica: a Nova Inglaterra era colônia de agricultores; a Nova Holanda, de comerciantes. Onde a riqueza é casa, campo e gado, medir a capacidade de pagar pelo patrimônio é justo e prático. Onde ela é mercadoria em trânsito, não."
+        },
+        {
+          "tipo": "p",
+          "texto": "A transição foi gradual. Em 1655, os burgomestres de Nova Amsterdã pediram uma subscrição voluntária, cada um segundo sua condição, com autorização para arbitrar o valor de quem se recusasse. A contribuição virava imposto sem mudar de nome. Com a Carta de Liberdades de 1683, nenhum tributo poderia ser lançado sem o consentimento da assembleia de representantes, e no mesmo ano veio a primeira lei geral de tributação e avaliação. Dali em diante, diz Schwab, o princípio não mudou: cada um paga na proporção de seu patrimônio total."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a avaliação nunca chegou ao valor de mercado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema apareceu cedo: em 1692, a Assembleia já pedia comissários em cada condado para acabar com tantas incertezas. A avaliação, isto é, a estimativa oficial do valor de cada bem sobre a qual se aplica a alíquota, era o ponto fraco do sistema, e continuaria sendo."
+        },
+        {
+          "tipo": "p",
+          "texto": "As correções se repetiram por um século. Tabelas de valores fixos para cada tipo de bem caíram em desuso; o juramento dos avaliadores foi reescrito várias vezes. Uma lei de 1770 mandava o contribuinte mostrar terras e gado, mas o dispensava expressamente de declarar dinheiro a receber, móveis, joias, prataria e roupas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1796, um relatório federal sobre impostos diretos, assinado por Oliver Wolcott, descreveu o sistema do estado numa frase:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhum objeto de tributação está definido nas leis, nem qualquer princípio de avaliação prescrito.”",
+          "original": "“No objects of taxation are defined in the laws nor any principles of valuation prescribed.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Constituição federal acentuou a dependência: os estados perderam as tarifas, e a União ficou com as fontes indiretas mais fartas. Restou a Nova York ampliar o imposto sobre a propriedade, que ofuscou os aluguéis de cais, balsas e mercados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 34,7 milhões",
+          "texto": "Receita do imposto sobre a propriedade da cidade de Nova York em 1888, num total de US$ 44,3 milhões em receitas ordinárias. Entre 1840 e 1887, essa receita cresceu 24 vezes; a dos aluguéis, quatro vezes. Em 1886, um morador da cidade pagava em média US$ 20,60 de imposto municipal e US$ 1,45 de imposto estadual."
+        },
+        {
+          "tipo": "p",
+          "texto": "O desenho federativo piorou as coisas. A parcela estadual de cada condado era calculada sobre o total ali avaliado, e o condado repartia a sua entre os municípios. Quem avaliasse por baixo pagava menos aos níveis de cima: daí uma dupla competição pela menor avaliação possível. As juntas de equalização, que ajustam as avaliações entre distritos, não resolveram. A estadual, criada em 1859, só mexia nos imóveis e só alterava a cota de cada condado, não a conta de cada contribuinte."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado era sabido. Nas cidades, na melhor hipótese, os imóveis eram avaliados entre metade e três quintos do valor de mercado; no interior, entre um terço e um quinto. E o contribuinte insatisfeito tinha caminho fácil nos tribunais: bastava mostrar que fora avaliado acima do vizinho, não acima do valor real."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde foi a propriedade pessoal?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Se o imóvel era subavaliado, a propriedade pessoal, isto é, os bens móveis como dinheiro, créditos, ações e mercadorias, simplesmente sumia. Admitia-se que ela valia tanto quanto os imóveis do estado, mas não mais de um quinto chegava às listas de avaliação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "11 para 100",
+          "texto": "Relação entre bens pessoais e imóveis nas listas de avaliação do estado de Nova York em 1889: para cada 100 dólares de imóveis, 11 de bens pessoais. Em 1836, eram 24. Na cidade de Nova York, a relação caiu a 16,7 em 1889."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os motivos eram práticos e jurídicos. O bem móvel precisa ser descoberto e ter sua localização legal definida antes de ser avaliado. Mercadorias importadas ainda na embalagem original eram isentas, e os importadores apareciam nas listas com patrimônio insignificante. Muitos moradores da cidade alegavam residência numa casa de verão em outro condado, ou em Nova Jersey, e uma simples declaração juramentada os livrava do imposto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quem pagava, então? Os bens de menores e os patrimônios administrados por fiduciários, que não tinham como passar despercebidos. O imposto que pretendia alcançar todos alcançava sobretudo quem não podia se esconder."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que reforma o autor propunha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde 1880 o estado buscava receitas próprias, como impostos sobre corporações e heranças colaterais. Para Schwab, isso não bastava. Os nova-iorquinos mais versados no assunto propunham abandonar o imposto sobre bens pessoais, que ele descreve sem rodeios:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma mera farsa, calculada para premiar a desonestidade.”",
+          "original": "“a mere farce and calculated to put a premium on dishonesty”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sua primeira conclusão é que o imposto geral sobre a propriedade não pode ser aplicado com justiça na Nova York de seu tempo: funcionara quando a riqueza era visível e tangível. A segunda vai além. Mesmo com avaliação perfeita, seria mau princípio medir a capacidade de pagar só pelo patrimônio. Contra a tese, aceita pelos tribunais, de que o imposto paga a proteção da propriedade, ele lembra John Stuart Mill: por essa lógica, os mais indefesos deveriam pagar mais."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A propriedade, não o cidadão, é que é tributada.”",
+          "original": "“Property, not the citizen, is taxed.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A saída que propõe é um imposto pessoal, dirigido ao cidadão e não às suas coisas, capaz de despertar o dever cívico que o sistema deixava adormecido. O imposto sobre imóveis manteria lugar nas finanças locais, e a reforma deveria começar pelas cidades, separando suas finanças das do interior. Schwab fecha com a esperança de que o país fizesse em uma ou duas gerações o que custou séculos à Inglaterra."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor duradouro do estudo está menos na proposta do que no diagnóstico. Schwab mostra que um tributo pode ser justo no desenho e injusto na prática, porque a justiça de um imposto depende da capacidade de enxergar a base tributária. Quando a riqueza muda de forma, do gado para os títulos, a lei que não muda passa a tributar apenas quem não consegue esconder.",
+            "O segundo ensinamento é federativo. Ao repartir o imposto estadual pela base avaliada em cada condado, Nova York incentivou todos a avaliar para baixo e depois tentou corrigir o efeito com juntas, juramentos e tabelas. Nada funcionou, porque nada alterava o incentivo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto geral sobre a propriedade",
+          "Tributo que cobra de cada pessoa uma alíquota sobre o valor de todo o seu patrimônio, imóveis e bens móveis somados."
+        ],
+        [
+          "Avaliação",
+          "Estimativa oficial do valor de cada bem, feita por avaliadores públicos, sobre a qual se aplica a alíquota do imposto."
+        ],
+        [
+          "Base tributária",
+          "Conjunto de valores sobre os quais o imposto incide; aqui, a soma dos patrimônios inscritos nas listas de avaliação."
+        ],
+        [
+          "Propriedade pessoal",
+          "Bens móveis e direitos, como dinheiro, créditos, ações e mercadorias, por oposição aos imóveis (propriedade real)."
+        ],
+        [
+          "Junta de equalização",
+          "Órgão de condado ou estadual que ajusta as avaliações agregadas de cada distrito para repartir o imposto de forma proporcional."
+        ]
+      ],
+      "hoje": "O dilema de Schwab segue vivo. Impostos sobre imóveis continuam a ser a base clássica das finanças municipais, no Brasil com o IPTU, e dependem de cadastros e plantas de valores que envelhecem mais depressa do que são revistos. Ao mesmo tempo, a riqueza financeira circula com facilidade entre jurisdições, e o debate sobre tributar grandes patrimônios esbarra no obstáculo que ele descreveu: o que não se vê não se avalia. A troca de informações entre fiscos e a tributação da renda são, em boa medida, respostas à pergunta que ele deixou em 1890.",
+      "itens": [
+        [
+          "History of the New York Property Tax",
+          "pp. 17–108",
+          "2485701"
+        ]
+      ],
+      "jstor_edicao": "i342422",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1890-o-valor-educativo-da-economia",
+      "numero": 27,
+      "titulo": "Por que a economia deveria tomar o lugar da física no currículo",
+      "titulo_original": "The Educational Value of Political Economy",
+      "autores": "Simon N. Patten, Ph. D., professor de Economia Política, Wharton School of Finance and Economy, University of Pennsylvania",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 5, nº 6",
+      "data": "novembro de 1890",
+      "chamada": "Em 1890, Simon Patten defendeu que a economia treina o raciocínio melhor que a matemática e a física, e listou cinco erros de professores que desperdiçam esse potencial.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O argumento circulava no debate americano sobre a prata. A queda geral dos preços só podia ter três causas: transporte mais barato, produção mais barata ou valorização do ouro. As duas primeiras não bastavam para explicá-la. Logo, o ouro havia se valorizado. Simon N. Patten, professor da Wharton School, na Universidade da Pensilvânia, cita o raciocínio como exemplo de um vício de sala de aula: ninguém garantia que as causas possíveis eram só três."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese do ensaio é ambiciosa: a economia política deveria substituir a matemática e a física no curso universitário que forma o raciocínio. Metade do texto explica como professores, ao ensiná-la mal, anulam essa vantagem."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que trocar a geometria pela economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A faculdade antiga isolava o estudante do mundo e o disciplinava com línguas clássicas e matemática. A nova o prepara para o mundo, e o prazer no estudo vira sinal de valor educativo, como o sabor indica se um alimento convém. Das disciplinas antigas, só a matemática mantinha lugar inquestionado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten contesta esse privilégio com uma teoria das ciências. Toda ciência nasce indutiva, partindo da coleta de fatos, e com o tempo se torna dedutiva, derivando conclusões de princípios. O maior valor educativo está na transição. Uma ciência completa, como a matemática ou a física de seu tempo, ganha em utilidade e perde em valor formativo: tudo o que não serve ao conjunto é cortado. A física que Mill tomava como modelo, observa, já se tornara tão abstrata quanto a matemática."
+        },
+        {
+          "tipo": "p",
+          "texto": "A economia de 1890 estava no meio do caminho. A teoria da distribuição era altamente dedutiva; a troca, em boa parte; na produção predominava a indução; sobre o consumo, pouco se fizera. O aluno encontra, numa só disciplina, todo tipo de juízo. As cadeias de raciocínio são curtas, o retorno aos princípios é frequente e as conclusões podem ser conferidas nos fatos do dia a dia. E as premissas estão sempre em disputa, o que obriga o estudante a testá-las."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Verdades inquestionadas têm pouco valor educativo.”",
+          "original": "“Unquestioned truths have little educational value.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que tipo de raciocínio a economia treina?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Primeiro, o uso de hipóteses. Para achar causas em casos complexos, o economista deixa de lado fatos secundários e mantém poucos princípios firmes na cabeça, sem confundir as conclusões da hipótese com a realidade. Segundo, a imaginação. Cada economista forma um conceito do mundo econômico, uma espécie de esqueleto da sociedade real. Patten distingue esse conceito do ideal, que é a sociedade melhor que se gostaria de construir. O conceito vem antes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ricardo é o exemplo máximo dessa capacidade de abstração: fez pela economia o que Platão fez pela geometria plana. Mas era, diz Patten, uma economia plana. A escola de Jevons e Menger, de base psicológica, tratava de um homem que muda; a de Ricardo, de um homem fixo. A síntese seria uma economia “sólida”. O debate tarifário ilustra o problema: protecionistas enfatizam o efeito sobre os homens; livre-cambistas, o aproveitamento das forças físicas. Olham faces diferentes do mesmo sólido."
+        },
+        {
+          "tipo": "p",
+          "texto": "Há ainda duas fontes de valor. A história mostra que toda instituição começa como meio de progresso e termina como obstáculo, das guildas ao feudalismo, e que a própria escola de Adam Smith tende a ser superada. Isso dá ao aluno tolerância diante de políticas alheias. E os fatos estão à mão, como num laboratório: relatórios financeiros, municipais, de comércio e navegação, de ferrovias, empresas e bancos, além do censo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O velho não pode voltar. O presente não pode permanecer.”",
+          "original": "“The old cannot return. The present cannot remain.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde os professores erram?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten aponta cinco erros. O primeiro é ensinar a economia como um bloco fechado, à maneira da matemática, em que cada doutrina serve de degrau para a tese preferida do professor. Seu alvo é a ortodoxia: o aluno sai da faculdade achando que todo o sistema só existe para justificar o livre-comércio e a inação do Estado. Cada doutrina deveria ser testada isoladamente; as relações entre elas ficam para a pós-graduação."
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo é a redução ao absurdo, provar uma tese por eliminação das alternativas. Na geometria, se um ângulo não é agudo nem obtuso, é reto. Na economia, nunca se sabe quantas hipóteses existem. Além do caso da prata, Patten cita os socialistas, que partem da lei de ferro dos salários para declarar a concorrência um fracasso, e Henry George, em Progress and Poverty."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25 páginas",
+          "texto": "Henry George examina seis remédios contra a pobreza: governo mais econômico, educação dos trabalhadores, sindicatos, cooperação entre capital e trabalho, intervenção estatal e distribuição mais ampla da terra. Gasta 25 páginas para mostrá-los insuficientes. À própria solução, a terra como propriedade comum, dedica meia página, sem argumento afirmativo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro erro é opor teoria e fato. Os críticos de Malthus mostravam regiões subpovoadas sem atacar suas premissas; Carey tentava refutar a teoria da renda alegando que o produto da terra nem repunha o capital e o trabalho gastos para cultivá-la. Outros diziam que a moeda se multiplicara doze vezes desde a descoberta da América sem perder valor na mesma proporção, logo a teoria quantitativa seria falsa. Fatos assim, responde Patten, só revelam outras causas em ação. O erro inverso é o do teórico que varre os fatos para o lado."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma teoria só pode ser enfrentada por outra teoria, e fatos por fatos.”",
+          "original": "“A theory can be properly met only by a theory, and facts by facts.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Começar pelo concreto ou pelo abstrato?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O quarto erro contraria o senso comum pedagógico. Em instituições políticas, faz sentido começar pelo governo local, mais simples. Na economia, os fatos são mais complicados que as teorias que os explicam. No comércio exterior e na lei de Gresham, a teoria é simples e os fatos, confusos. Daí a defesa da clareza ricardiana contra os mercantilistas, que tentavam descobrir leis apenas colecionando fatos. Na campanha tarifária, cada partido dizia ao agricultor que sua política encarecia os alimentos e a quem queria comida barata que os barateava."
+        },
+        {
+          "tipo": "p",
+          "texto": "O quinto é misturar moral e política com economia. Patten não as despreza; pede ordem. A doutrina de George junta a lei da renda de Ricardo, a política negativa de Herbert Spencer e a moral do confisco sem indenização. O livre-comércio junta o custo comparativo, o laissez-faire e uma versão degenerada de Bentham, que supõe que a ganância individual leva ao bem geral. Precisamos, conclui, mais de uma nova moral e de uma nova política do que de um novo sistema econômico."
+        },
+        {
+          "tipo": "p",
+          "texto": "A recomendação final é institucional: cada disciplina com seu professor. Quem ensina economia, ética e política ao mesmo tempo subordina as outras à favorita, e a economia perde, porque os instintos morais e políticos são mais antigos e mais fortes."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio é menos sobre currículo do que sobre higiene intelectual. Os cinco erros de Patten descrevem com precisão o debate econômico de qualquer época: concluir por eliminação, descartar uma teoria com um dado solto, escolher os fatos conforme a plateia, vender um juízo moral como se fosse resultado técnico. O mérito está em tratá-los como falhas de método, corrigíveis pelo ensino.",
+            "A separação entre premissas econômicas, políticas e morais segue sendo a disciplina mais difícil de quem formula política pública. Uma reforma tributária, uma regra fiscal ou uma política comercial sempre combinam os três planos. O problema não é a mistura, que é inevitável, mas escondê-la. Patten pedia que cada premissa entrasse no argumento identificada pelo nome, e que a economia não emprestasse sua autoridade a valores que deveriam ser defendidos às claras."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Indução e dedução",
+          "Indução parte de fatos observados para chegar a leis gerais; dedução parte de princípios para derivar conclusões."
+        ],
+        [
+          "Redução ao absurdo",
+          "Provar uma tese mostrando que todas as alternativas são falsas; só vale quando se conhecem todas as alternativas."
+        ],
+        [
+          "Lei de Gresham",
+          "Princípio segundo o qual a moeda de pior qualidade tende a expulsar de circulação a de melhor qualidade."
+        ],
+        [
+          "Teoria quantitativa da moeda",
+          "Ideia de que o valor da moeda varia em sentido inverso à quantidade de moeda em circulação."
+        ],
+        [
+          "Custo comparativo",
+          "Princípio de que cada país ganha ao se especializar no que produz com menor custo relativo, base do argumento pelo livre-comércio."
+        ]
+      ],
+      "hoje": "A pergunta de Patten voltou às escolas sob outro nome. Educação financeira e noções de economia entram em currículos do ensino básico em vários países, quase sempre com a promessa de formar cidadãos que decidem melhor. O risco é o mesmo que ele apontou: ensinar um catálogo de conclusões em vez de um método. A distinção que ele pedia entre o argumento técnico e o juízo de valor ganhou, no século seguinte, os nomes de economia positiva e normativa. Continua sendo a lição mais útil, e a mais esquecida, nos debates públicos sobre impostos, juros e comércio.",
+      "itens": [
+        [
+          "The Educational Value of Political Economy",
+          "pp. 7–36",
+          "2485562"
+        ]
+      ],
+      "jstor_edicao": "i342423",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1891-a-quarta-reuniao-anual",
+      "numero": 28,
+      "titulo": "Washington, 1890: tarifas, impostos, gás e a maré das ideias",
+      "titulo_original": "Papers and Proceedings of the Fourth Annual Meeting",
+      "autores": "Francis A. Walker, F. W. Taussig (Harvard University), Edwin R. A. Seligman (Columbia College), Edward W. Bemis (Vanderbilt University), Katharine Coman (Wellesley College) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 6, nº 1/2",
+      "data": "janeiro e março de 1891",
+      "chamada": "Cinco dias em Washington, em dezembro de 1890: custo conjunto nas ferrovias, quem paga o imposto predial, gás municipal a centavos e a armadilha do sweating system.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na noite de 26 de dezembro de 1890, em Washington, Francis A. Walker abriu seu discurso presidencial descrevendo uma enchente. A maré do pensamento econômico, disse, já não enchia apenas as baías: rompera as barreiras da tradição e da autoridade e invadia a terra firme. Tudo o que parecia assentado na teoria estava sendo contestado, da propriedade da terra à própria propriedade privada."
+        },
+        {
+          "tipo": "p",
+          "texto": "O quarto encontro anual da American Economic Association durou de 26 a 30 de dezembro, em nove sessões: oito na Columbian University e a nona, conjunta com a American Forestry Association, no National Museum. Segundo o relatório, o público foi o maior de todos os encontros até então. Os temas iam da teoria do valor às florestas públicas, passando por ferrovias, estatística, impostos, ensino e problemas sociais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Houve também mudanças internas. A anuidade vitalícia subiu de 25 para 50 dólares, por votação unânime. Criou-se uma Comissão de Publicações de cinco membros, presidida por F. H. Giddings, e a associação anunciou traduções de obras estrangeiras e folhetos populares sobre questões do momento."
+        },
+        {
+          "tipo": "p",
+          "texto": "O volume reúne o discurso de Walker na íntegra e resumos revistos pelos próprios autores, com os debates condensados. A seguir, os cinco textos de maior substância e, depois, o restante."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Walker via na enchente de ideias de 1890?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker passou em revista quatro temas: o Nacionalismo, o imposto único, a moeda e a imigração. O Nacionalismo, movimento inspirado na utopia de Bellamy, era para ele um pseudo-socialismo. Mas via nos reformadores recrutas indisciplinados, não desertores da boa economia, e culpava em parte os colegas, que trataram o homem econômico de Ricardo como se valesse mais que todos os homens reais."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A revolução em curso está fazendo de cada homem e de cada mulher um economista.”",
+          "original": "The revolution now in progress is making every man and every woman an economist."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ao imposto único de George concedeu que não era absurdo nem, com indenização aos donos atuais, desonesto. Era apenas mal nomeado: tomar a renda econômica da terra não seria imposto, e sim prerrogativa do Estado. A crítica mais dura foi para a moeda. Ao negar que o greenback fosse dinheiro e ao desdenhar os males da contração monetária, os economistas ortodoxos teriam perdido autoridade justamente quando crescia a pressão pela prata."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por fim, a imigração: 5,25 milhões de estrangeiros chegaram na década encerrada em 1º de julho de 1890, o dobro de qualquer década anterior. Walker pediu que a associação estudasse a restrição legal, com uma descrição dos novos imigrantes em termos depreciativos hoje inaceitáveis."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a ferrovia cobra o que o tráfego aguenta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "F. W. Taussig, de Harvard, atacou uma anomalia aparente: por que tarifas tão diferentes para cargas e passageiros que usam os mesmos trilhos? Sua resposta foi o custo conjunto, o mesmo da ovelha que dá lã e carne ou da usina que dá gás e coque. Leito, trilhos, pontes e estações servem a todo o tráfego ao mesmo tempo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conta: os juros sobre o capital absorvem cerca de metade da receita, e, pela estimativa de Sax que Taussig endossa, metade das despesas operacionais independe do volume transportado. Ao menos três quartos do custo total são, portanto, conjuntos. Cada carga precisa cobrir apenas o custo que gerou separadamente; quanto do custo comum ela paga depende da demanda."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“cobrar o que o tráfego aguenta”",
+          "original": "charging what the traffic will bear"
+        },
+        {
+          "tipo": "p",
+          "texto": "Essa prática, concluiu, decorre da natureza da indústria, não do arbítrio dos gerentes, e por isso aparece também sob gestão pública: a Alemanha tentou uma tarifa baseada no custo e voltou a uma tarifa diferencial. No debate, Seligman respondeu que a ferrovia é praticamente um monopólio, e que essa regra é só a teoria do preço de monopólio. Ely lembrou que muitas linhas eram construídas por especulação. Taussig insistiu que oferecia teoria, não um argumento contra a regulação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga, de fato, o imposto predial?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edwin R. A. Seligman, do Columbia College, começou pelo campo. Nas cidades, os bens móveis escapam em grande parte ao fisco; no interior, o imposto sobre a propriedade é de fato geral, e o agricultor carrega mais do que deveria. Ricardo dizia que esse imposto subiria os preços e cairia sobre o consumidor. Seligman discorda: o preço do trigo do Oeste é fixado em Liverpool, e o agricultor não recebe nada a mais se o imposto dobrar."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na cidade, ele separa terreno e construção. O imposto sobre o terreno, cobrado do dono, não se transfere: o proprietário apenas recebe menos renda líquida. O imposto sobre a construção, em regra, vai para o inquilino, porque, se reduzisse o lucro do construtor abaixo do usual, as obras cessariam e os aluguéis subiriam. A exceção são os bairros em decadência, sem demanda que o absorva."
+        },
+        {
+          "tipo": "p",
+          "texto": "Conclusão para o imposto predial americano: em cidades estagnadas, ele fica com o proprietário; nas prósperas, a maior parte recai sobre o inquilino. O sistema inglês, que cobra do ocupante, seria talvez o menos equitativo de todos. No debate, Taussig pediu uma resposta mais clara sobre a parcela do terreno."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O gás municipal funcionava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edward W. Bemis, da Vanderbilt University, contou nove cidades americanas donas da própria usina de gás. Hamilton, em Ohio, começara cedo demais para ter resultados. As outras oito, entre elas Filadélfia, Wheeling e quatro cidades da Virgínia, tinham recusado havia pouco boas ofertas de empresas privadas para assumir as usinas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso mais disputado era Filadélfia, dona da usina desde 1841. Até 1886 a gestão ficou com um conselho de curadores que se autoperpetuava, sem responder ao público, e que, diz Bemis, naturalmente se corrompeu. De volta ao controle municipal, a gestão melhorou: em 1889 o custo foi de 74 centavos por mil pés cúbicos, sem contar juros e impostos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,02",
+          "texto": "Custo do gás em Filadélfia em 1889, por mil pés cúbicos, somando 5% de juros e 2% de impostos sobre o custo de duplicar a usina. Richmond: 76 centavos, ou US$ 1,04 com 6% de juros e 2% de impostos. Wheeling vendia a 75 centavos. Só Danville, com carvão a US$ 5 a tonelada, passava de US$ 1,33."
+        },
+        {
+          "tipo": "p",
+          "texto": "Bemis não esconde os custos políticos: as usinas públicas pagavam um pouco mais ao trabalho comum e tendiam a empregar gente do partido dominante, mas isso raramente chegava aos superintendentes. Para ele, o capital das empresas privadas, às vezes duas a quatro vezes maior que o custo da planta, revelava lucros de monopólio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o sweating system parecia sem saída?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Katharine Coman, do Wellesley College, estudou a alfaiataria de Londres e concluiu que o sweating system, o trabalho por empreitada a preço mínimo em oficinas precárias, não era uma forma peculiar de organização. Nem a firma atacadista, nem o intermediário, nem o empreiteiro eram os culpados."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o sweating system é simplesmente a luta competitiva pela existência nos níveis mais baixos”",
+          "original": "the sweating system is simply the competitive struggle for existence on the lowest levels"
+        },
+        {
+          "tipo": "p",
+          "texto": "Boston mostrava o processo. De 1840 a 1875, a cidade foi o centro do atacado de roupas, com trinta ou quarenta grandes casas. De 1860 a 1875 viveu sua idade de ouro, com grandes oficinas e salários altos. Depois, Nova York e Chicago, com mão de obra imigrante barata e o chamado sistema de Londres, passaram a vender mais barato, e as firmas de Boston fecharam suas oficinas para terceirizar."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quem aceitava 5 dólares por semana expulsava as costureiras mais bem pagas; as que terminavam peças em casa ganhavam, com esforço extremo, 2,50 dólares. As queixas incluíam ainda emprego irregular, pagamento incerto e oficinas insalubres. Coman dizia desesperar da associação, da cooperação e da educação, e propunha proteger o trabalhador americano da concorrência estrangeira."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais havia no volume?"
+        },
+        {
+          "tipo": "p",
+          "texto": "F. H. Giddings, do Bryn Mawr College, distinguiu dois sentidos de utilidade, dois de valor subjetivo e quatro de custo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Charles H. Cooley, do Censo, descreveu o bonde como órgão social: a área habitável cresce com o quadrado da velocidade dos carros."
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry C. Adams, da Universidade de Michigan, propôs relatórios obrigatórios e controle público para todas as corporações."
+        },
+        {
+          "tipo": "p",
+          "texto": "Thomas G. Shearman rebatizou a tributação indireta de tributação torta e disse que nela os pobres pagam dez vezes sua parte."
+        },
+        {
+          "tipo": "p",
+          "texto": "Simon N. Patten defendeu a economia política como rival da matemática na formação do raciocínio; no debate sobre ensino técnico, disse que o desperdício migrara para o consumo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Edward A. Bowers mostrou que a proteção das florestas públicas ainda se apoiava numa lei de 1817 sobre madeira para a Marinha."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 100.940,32",
+          "texto": "Valor recuperado pelo governo no último ano fiscal, contra US$ 3 milhões em roubos de madeira registrados em terras federais. Eram 25 agentes para 70 milhões de acres de floresta pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "Albert Shaw relatou a fundação da British Economic Association, em 20 de novembro de 1890, por iniciativa de Marshall, Giffen e Foxwell."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o melhor do volume são as perguntas de incidência. Taussig e Seligman separam quem recolhe de quem arca, e quem causa um custo de quem o reparte. Essas perguntas continuam sendo o ponto de partida de qualquer discussão séria sobre tarifas de infraestrutura e imposto imobiliário. Bemis acrescenta uma lição de governança: o problema de Filadélfia não era a propriedade pública em si, mas um conselho que não prestava contas a ninguém.",
+            "O lado menos confortável é que Walker e Coman, diante de pressões reais sobre salários, chegaram à restrição da imigração por argumentos em que o preconceito fazia parte da análise. Walker cobrara dos colegas que abandonassem premissas irreais; não aplicou o mesmo rigor aos imigrantes que descreveu. A economia aplicada fica mais vulnerável justamente quando a tese confirma o que o público já sente."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "custo conjunto",
+          "custo de uma estrutura que serve a vários produtos ao mesmo tempo e não pode ser repartido entre eles por cálculo técnico."
+        ],
+        [
+          "incidência tributária",
+          "quem efetivamente suporta o peso de um imposto, que nem sempre é quem o recolhe."
+        ],
+        [
+          "renda econômica",
+          "excedente do produto das terras mais favorecidas sobre o custo de produção."
+        ],
+        [
+          "imposto único",
+          "proposta de apropriar pelo Estado a renda econômica da terra em lugar dos demais impostos."
+        ],
+        [
+          "sweating system",
+          "produção de roupas por empreiteiros, em oficinas precárias ou em casa, a preços mínimos."
+        ]
+      ],
+      "hoje": "Os temas de Washington não envelheceram. A regulação de infraestrutura ainda discute como repartir custos comuns entre usuários e quanto da diferenciação de preços é eficiência ou poder de mercado. A tributação imobiliária ainda esbarra na pergunta de Seligman: o imposto fica com o proprietário ou chega ao aluguel do inquilino? A escolha entre gestão pública e concessão privada continua dependendo de custos comparáveis e de governança. E o debate sobre imigração e salários ainda pede o rigor que, em 1890, faltou a parte de seus participantes.",
+      "itens": [
+        [
+          "The Fourth Annual Meeting",
+          "pp. 9–12",
+          "2560446"
+        ],
+        [
+          "The Tide of Economic Thought",
+          "pp. 15–38",
+          "2560447"
+        ],
+        [
+          "The Concepts of Utility, Value and Cost",
+          "pp. 41–43",
+          "2560448"
+        ],
+        [
+          "A Contribution to the Theory of Railroad Rates",
+          "pp. 52–63",
+          "2560452"
+        ],
+        [
+          "The Social Significance of Street Railways",
+          "pp. 71–73",
+          "2560454"
+        ],
+        [
+          "Statistics as a Means of Correcting Corporate Abuses",
+          "pp. 73–78",
+          "2560455"
+        ],
+        [
+          "The Incidence of Local Taxation",
+          "pp. 79–85",
+          "2560456"
+        ],
+        [
+          "Crooked Taxation",
+          "pp. 88–95",
+          "2560458"
+        ],
+        [
+          "The Educational Value of Political Economy",
+          "pp. 100–115",
+          "2560460"
+        ],
+        [
+          "Economic Aspects of Technical Education",
+          "pp. 115–128",
+          "2560461"
+        ],
+        [
+          "Municipal Ownership of Gas Works in the United States",
+          "pp. 138–140",
+          "2560465"
+        ],
+        [
+          "The Tailoring Trade and the Sweating System",
+          "pp. 144–147",
+          "2560467"
+        ],
+        [
+          "The Condition of the Forests on the Public Lands",
+          "pp. 154–157",
+          "2560470"
+        ],
+        [
+          "The British Economic Association",
+          "pp. 163–174",
+          "2560472"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Tide of Economic Thought",
+          "autores": "Francis A. Walker",
+          "paginas": "pp. 15–38",
+          "jstor": "2560447",
+          "resumo": "Discurso presidencial que compara o interesse público por economia a uma enchente que derrubou a tradição. Walker examina o Nacionalismo, que considera pseudo-socialismo, mas vê nos reformadores futuros recrutas da disciplina; o imposto único, que julga praticável e honesto se houver indenização, embora mal nomeado; a moeda, criticando os ortodoxos que negaram que o greenback fosse dinheiro e desprezaram os males da contração; e a imigração, cuja restrição legal pede que a associação investigue, em termos depreciativos aos novos imigrantes."
+        },
+        {
+          "titulo": "A Contribution to the Theory of Railroad Rates",
+          "autores": "F. W. Taussig (Harvard University)",
+          "paginas": "pp. 52–63",
+          "jstor": "2560452",
+          "resumo": "Explica a diversidade de tarifas ferroviárias pelo custo conjunto: juros absorvem cerca de metade da receita e metade das despesas operacionais independe do volume, de modo que ao menos três quartos do custo são comuns a todo o tráfego. A parcela de cada carga no custo comum depende da demanda, o que explica a regra de cobrar o que o tráfego aguenta, inclusive sob gestão pública. No debate, Seligman a trata como preço de monopólio e Ely aponta a especulação na construção das linhas."
+        },
+        {
+          "titulo": "The Incidence of Local Taxation",
+          "autores": "Edwin R. A. Seligman (Columbia College)",
+          "paginas": "pp. 79–85",
+          "jstor": "2560456",
+          "resumo": "Analisa a incidência do imposto local sobre imóveis. No campo, o agricultor arca com a maior parte, pois o preço do trigo é fixado no mercado mundial. Na cidade, o imposto sobre o terreno cobrado do dono não se transfere; o imposto sobre a construção normalmente passa ao inquilino. Nas cidades prósperas, a maior parte do imposto predial americano recai sobre o inquilino; o sistema inglês, cobrado do ocupante, seria o menos equitativo."
+        },
+        {
+          "titulo": "Municipal Ownership of Gas Works in the United States",
+          "autores": "Edward W. Bemis (Vanderbilt University)",
+          "paginas": "pp. 138–140",
+          "jstor": "2560465",
+          "resumo": "Examina as nove cidades americanas donas de usinas de gás. Filadélfia, após décadas sob curadores sem prestação de contas, produziu em 1889 a 74 centavos por mil pés cúbicos, ou US$ 1,02 com juros e impostos; Richmond, a 76 centavos. As cidades recusaram ofertas privadas. Bemis registra salários algo maiores e favorecimento partidário em cargos baixos, e vê no capital inflado das empresas privadas sinal de lucros de monopólio."
+        },
+        {
+          "titulo": "The Tailoring Trade and the Sweating System",
+          "autores": "Katharine Coman (Wellesley College)",
+          "paginas": "pp. 144–147",
+          "jstor": "2560467",
+          "resumo": "Partindo de Londres e da história da alfaiataria de Boston, sustenta que o sweating system é a concorrência nos níveis mais baixos do trabalho não qualificado. Boston, centro do atacado de roupas de 1840 a 1875, perdeu mercado para Nova York e Chicago, que usavam mão de obra imigrante barata e empreiteiros. Costureiras ganhavam 5 dólares por semana, e as que trabalhavam em casa, 2,50. Coman conclui pedindo proteção contra a concorrência estrangeira."
+        },
+        {
+          "titulo": "The Fourth Annual Meeting",
+          "autores": "Relatório do encontro",
+          "paginas": "pp. 9–12",
+          "jstor": "2560446",
+          "resumo": "Washington, 26 a 30 de dezembro de 1890; nove sessões; anuidade vitalícia elevada a 50 dólares; criação da Comissão de Publicações."
+        },
+        {
+          "titulo": "The Concepts of Utility, Value and Cost",
+          "autores": "F. H. Giddings (Bryn Mawr College)",
+          "paginas": "pp. 41–43",
+          "jstor": "2560448",
+          "resumo": "Distingue utilidade objetiva e subjetiva, valor subjetivo e de mercado, e quatro sentidos de custo."
+        },
+        {
+          "titulo": "The Social Significance of Street Railways",
+          "autores": "Charles H. Cooley (United States Census)",
+          "paginas": "pp. 71–73",
+          "jstor": "2560454",
+          "resumo": "O bonde distribui a população em torno dos centros industriais; tarifa baixa e velocidade importam mais que receita municipal."
+        },
+        {
+          "titulo": "Statistics as a Means of Correcting Corporate Abuses",
+          "autores": "Henry C. Adams (University of Michigan)",
+          "paginas": "pp. 73–78",
+          "jstor": "2560455",
+          "resumo": "Corporações têm privilégios especiais e devem prestar relatórios que permitam ao governo dirigir sua política e controlar sua administração."
+        },
+        {
+          "titulo": "Crooked Taxation",
+          "autores": "Thomas G. Shearman",
+          "paginas": "pp. 88–95",
+          "jstor": "2560458",
+          "resumo": "Ataque à tributação indireta: recai sobre o consumo, desvia receita para fins privados e pesa mais sobre os pobres."
+        },
+        {
+          "titulo": "The Educational Value of Political Economy",
+          "autores": "Simon N. Patten (University of Pennsylvania)",
+          "paginas": "pp. 100–115",
+          "jstor": "2560460",
+          "resumo": "A economia política, por combinar dedução e indução, pode rivalizar com a matemática como disciplina do raciocínio."
+        },
+        {
+          "titulo": "Economic Aspects of Technical Education",
+          "autores": "Francis A. Walker (abertura, sem resumo) e debatedores",
+          "paginas": "pp. 115–128",
+          "jstor": "2560461",
+          "resumo": "Debate sobre ensino técnico; Patten sustenta que o desperdício migrou da produção para o consumo doméstico."
+        },
+        {
+          "titulo": "The Condition of the Forests on the Public Lands",
+          "autores": "Edward A. Bowers",
+          "paginas": "pp. 154–157",
+          "jstor": "2560470",
+          "resumo": "Leis obsoletas empurram colonos ao roubo de madeira; 25 agentes para 70 milhões de acres; recuperação ínfima."
+        },
+        {
+          "titulo": "The British Economic Association",
+          "autores": "Albert Shaw",
+          "paginas": "pp. 163–174",
+          "jstor": "2560472",
+          "resumo": "Fundação da associação britânica em 20 de novembro de 1890, com Goschen na presidência e Edgeworth como secretário e editor."
+        }
+      ],
+      "jstor_edicao": "i323682",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Trabalho infantil — dois ensaios premiados (1890)",
-    "O canal e a ferrovia — E. J. James e L. M. Haupt (1890)",
-    "História do imposto sobre a propriedade em Nova York — J. C. Schwab (1890)",
-    "O valor educativo da economia política — S. N. Patten (1890)",
-    "A quarta reunião anual da associação (1891)"
+    "Publications of the AEA, vol. 6, nº 3 (1891)",
+    "Publications of the AEA, vol. 6, nº 4/5 (1891)",
+    "Publications of the AEA, vol. 6, nº 6 (1891)"
   ]
 }
