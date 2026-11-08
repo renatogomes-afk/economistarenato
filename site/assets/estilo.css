@@ -596,3 +596,10 @@ figcaption .credito::before{content:"· "}
 .nota-editor{border:1px solid var(--alerta);border-top-width:4px;padding:18px 22px;margin:32px 0 20px;background:#fff}
 .nota-editor h3{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--alerta);margin:0 0 10px}
 .nota-editor p{margin:0 0 10px}
+.tabela-wrap{overflow-x:auto;margin:8px 0 24px}
+.tabela-guia{width:100%;border-collapse:collapse;font-size:.92rem}
+.tabela-guia caption{caption-side:top;text-align:left;font-family:var(--sans);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--cinza);padding-bottom:6px}
+.tabela-guia th{font-family:var(--sans);font-size:11px;letter-spacing:.08em;text-transform:uppercase;text-align:left;border-bottom:2px solid var(--tinta);padding:6px 8px}
+.tabela-guia td{border-bottom:1px solid var(--linha);padding:7px 8px;vertical-align:top}
+.tabela-guia td:first-child{font-family:var(--sans);font-weight:600;white-space:nowrap}
+.nota-curta p{font-size:.95rem}

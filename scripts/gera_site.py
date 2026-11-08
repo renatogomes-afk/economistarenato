@@ -418,6 +418,11 @@ def render_blocos(blocos):
         elif t == "citacao":
             orig = f' <span class="citacao-original">({e(b["original"])})</span>' if b.get("original") else ""
             out.append(f'    <div class="citacao">\n      <p>{e(b["texto"])}{orig}</p>\n    </div>')
+        elif t == "tabela":
+            cab = "".join(f"<th>{e(c)}</th>" for c in b["cabecalho"])
+            lin = "\n".join("        <tr>" + "".join(f"<td>{e(str(c))}</td>" for c in l) + "</tr>" for l in b["linhas"])
+            leg = f"<caption>{e(b['legenda'])}</caption>" if b.get("legenda") else ""
+            out.append(f'    <div class="tabela-wrap"><table class="tabela-guia">{leg}\n      <thead><tr>{cab}</tr></thead>\n      <tbody>\n{lin}\n      </tbody>\n    </table></div>')
         elif t == "leitura":
             ps = "".join(f"<p>{e(x)}</p>" for x in b["texto"])
             out.append(f'    <div class="caixa-leitura leitura-autor">\n      <h3>Na minha leitura</h3>\n      {ps}\n    </div>')
@@ -1004,7 +1009,7 @@ def pagina_documento(d, anterior=None, proxima=None, destino=None):
   <div class="corpo">
 {render_blocos(d['blocos'])}
 {glossario_html(d.get('glossario'))}
-
+{caps_documento_html(d)}
     <section class="nota-editor" id="nota-do-editor">
       <h3>Nota do editor</h3>
       {nota}
@@ -1023,6 +1028,68 @@ def pagina_documento(d, anterior=None, proxima=None, destino=None):
     escreve(f"leituras/documentos/{d['slug']}", html)
 
 
+def caps_documento_html(d):
+    caps = d.get("capitulos") or []
+    if not caps: return ""
+    lis = "\n".join(f'        <li><a href="{c["slug"]}/"><b>Cap. {e(c["numero"])} · {e(c["titulo"])}</b></a> <span class="cap-meta">{e(c["paginas"])} · {minutos(c)} min</span></li>' for c in caps)
+    return f'    <div class="artigos-edicao">\n      <h3>Resenhas por capítulo</h3>\n      <ol class="lista-caps" style="columns:1">\n{lis}\n      </ol>\n    </div>\n'
+
+
+def pagina_doc_capitulo(d, c, anterior=None, proxima=None, destino=None):
+    rel = "../../../../"
+    nav = []
+    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Cap. {e(anterior["numero"])} · {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Cap. {e(proxima["numero"])} · {e(proxima["titulo"])} &rarr;</a>')
+    nota = " ".join(e(x) for x in c.get("nota", []))
+    nota = nota.replace("na resenha do volume.", 'na <a href="../#nota-do-editor">resenha do volume</a>.')
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">{e(d['autor'])} · {e(d['titulo_original'])} · {e(d['volume'])}</a> · Capítulo {e(c['numero'])} · {e(c['paginas'])}</span>
+    <h1>{e(c['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(c)} min · Resenha histórica</p>
+    <p class="olho">{e(c['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem">
+        <b>Resenha de Renato W. Gomes</b>
+        <span>Original: “{e(c['titulo_original'])}” — {e(d['autor'])}, {e(d['titulo_original'])}, {e(d['volume'])}, {e(c['paginas'])} · {e(d['edicao'])}</span>
+      </div>
+    </div>
+  </div>
+  <div class="corpo">
+{render_blocos(c['blocos'])}
+{glossario_html(c.get('glossario'))}
+
+    <section class="nota-editor nota-curta">
+      <h3>Nota do editor</h3>
+      <p>{nota}</p>
+    </section>
+
+    <p class="nota-legal">Resenha histórica: resumo e descrição do autor deste site, em suas próprias palavras, das teses de {e(d['autor'])}, a ele atribuídas. Não reproduzimos o texto da obra; as citações são curtas.</p>
+
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+"""
+    html = (cabeca(f"{c['titulo']} — {d['autor']}, {d['titulo_original']}, cap. {c['numero']} · Economista Renato Gomes", c["chamada"],
+                   f"leituras/documentos/{d['slug']}/{c['slug']}/", rel, "article")
+            + topo("leituras/", rel, completo=False) + corpo + rodape(rel))
+    if destino:
+        os.makedirs(os.path.dirname(destino), exist_ok=True); open(destino, "w", encoding="utf-8").write(html); return
+    escreve(f"leituras/documentos/{d['slug']}/{c['slug']}", html)
+
+
+def gera_documento(d, anterior=None, proxima=None, raiz_previa=None):
+    """Página do volume (hub) + uma página por capítulo resenhado. raiz_previa: grava fora do fluxo normal (rascunho)."""
+    dest = (os.path.join(raiz_previa, d["slug"], "index.html") if raiz_previa else None)
+    pagina_documento(d, anterior, proxima, destino=dest)
+    caps = d.get("capitulos") or []
+    for i, c in enumerate(caps):
+        dc = (os.path.join(raiz_previa, d["slug"], c["slug"], "index.html") if raiz_previa else None)
+        pagina_doc_capitulo(d, c, caps[i - 1] if i > 0 else None, caps[i + 1] if i + 1 < len(caps) else None, destino=dc)
+
+
 def gera_leituras():
     if not LIVROS: return
     pagina_leituras()
@@ -1032,7 +1099,7 @@ def gera_leituras():
         for i, r in enumerate(rs):
             pagina_resenha(L, r, rs[i - 1] if i > 0 else None, rs[i + 1] if i + 1 < len(rs) else None)
     for i, d in enumerate(DOCS_PUB):
-        pagina_documento(d, DOCS_PUB[i - 1] if i > 0 else None, DOCS_PUB[i + 1] if i + 1 < len(DOCS_PUB) else None)
+        gera_documento(d, DOCS_PUB[i - 1] if i > 0 else None, DOCS_PUB[i + 1] if i + 1 < len(DOCS_PUB) else None)
 
 
 
@@ -1042,7 +1109,8 @@ def sitemap():
         urls += ["leituras/"]
         for L in LIVROS:
             urls += [f"leituras/{L['slug']}/"] + [f"leituras/{L['slug']}/{r['slug']}/" for r in L.get("resenhas", [])]
-        urls += [f"leituras/documentos/{d['slug']}/" for d in DOCS_PUB]
+        for d in DOCS_PUB:
+            urls += [f"leituras/documentos/{d['slug']}/"] + [f"leituras/documentos/{d['slug']}/{c['slug']}/" for c in d.get("capitulos", [])]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
