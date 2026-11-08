@@ -8,13 +8,14 @@
 ## 1. O que é este projeto
 
 **Publicação editorial** de **Renato Wanderley Gomes** — economista (CORECON-MS nº 1297),
-sócio-fundador da WGSA, pré-candidato ao Governo de Mato Grosso do Sul pela Democracia
-Cristã (DC).
+sócio-fundador da WGSA. (Desde 08/11/2026 o autor **não é mais pré-candidato**.)
 
-Desde 24/09/2026 o site deixou de ser landing page institucional e passou a funcionar como
-jornal: opinião, análise e **dados abertos** sobre a economia e as contas públicas de MS e
-de Campo Grande. O registro é o de **economista institucional** — toda afirmação numérica
-com fonte primária verificável, e a fonte sempre visível para o leitor.
+Posicionamento (reorganização de 08/11/2026): **"Economia pelas fontes"** — clássicos e
+debates da economia lidos no original e comentados em português (seção **Arquivo**, começando
+pelas publicações da American Economic Association, 1886–1922, domínio público), contas
+públicas com documento oficial (**Análises**) e **Serviços** (consultoria WGSA, palestras,
+cursos). Registro de **economista institucional**: toda afirmação numérica com fonte primária
+verificável, sempre visível para o leitor.
 
 **Domínio:** `economistarenato.com.br` · **Handle:** `@economistarenato`
 **Estratégia:** `projeto_mapeamento_candGov/comunicacao_digital/PLANO_AUTORIDADE_2027_2028.md`
@@ -34,29 +35,27 @@ com fonte primária verificável, e a fonte sempre visível para o leitor.
 
 ```
 economistarenato/
-├── site/                          # ← PUBLISH DIR do Netlify
-│   ├── index.html                 # capa em grade de jornal
-│   ├── artigo/<slug>/index.html   # uma pasta por matéria
-│   ├── sobre/index.html           # bio, método de apuração, pré-candidatura
-│   ├── obrigado/index.html        # retorno do formulário (Netlify Forms)
-│   ├── dados/                     # BASES ABERTAS (ver seção 5)
-│   │   ├── index.html             # catálogo
-│   │   ├── <slug>/index.html      # página por base (gerada)
-│   │   ├── <slug>.json / .csv     # arquivos da base (gerados)
-│   │   ├── fontes/*.pdf           # documentos primários espelhados
-│   │   └── indicadores.json       # painel "MS em números" da capa
-│   ├── assets/estilo.css          # sistema visual inteiro
-│   ├── assets/tabela.js           # tabela com busca e ordenação
-│   ├── assets/fontes/*.woff2      # Reckless Neue (marca)
-│   └── assets/*.png|jpg           # marca, retrato, Open Graph
-├── scripts/gera_dados.py          # gera as bases abertas e suas páginas
+├── site/                          # ← PUBLISH DIR do Netlify (GERADO — não editar à mão)
+│   ├── index.html                 # início
+│   ├── arquivo/index.html         # Arquivo · Clássicos comentados
+│   ├── arquivo/<slug>/index.html  # uma página por edição/obra comentada
+│   ├── analises/index.html        # contas públicas (em preparação)
+│   ├── servicos/index.html        # consultoria, palestras, cursos + formulário "contato"
+│   ├── sobre/index.html           # trajetória e método
+│   ├── obrigado/index.html        # retorno dos formulários (Netlify Forms)
+│   ├── sitemap.xml
+│   └── assets/                    # estilo.css, fontes, marca, fotos
+├── scripts/gera_site.py           # GERA O SITE INTEIRO (cabeçalho, menu e rodapé num lugar só)
+├── scripts/arquivo/edicoes.json   # conteúdo do Arquivo: edições, resumos, fontes
+├── scripts/gera_dados.py          # (antigo) gerador das bases abertas — páginas removidas
 ├── _kit_marca/                    # kit do designer (FORA do publish dir)
 └── netlify.toml
 ```
 
-> **Nada de material pesado dentro de `site/`** se não for para servir ao público.
-> O kit de marca já esteve publicado por engano em `/geral/` (118 MB, com fontes
-> licenciadas baixáveis). Por isso mora em `_kit_marca/`.
+- **Edição nova no Arquivo** = um item em `scripts/arquivo/edicoes.json` + `python scripts/gera_site.py`.
+- Mudou menu, cabeçalho ou rodapé? Muda em `gera_site.py` e regera tudo.
+- Nada de material pesado dentro de `site/` se não for para servir ao público (PDFs do Arquivo
+  ficam no Internet Archive/JSTOR — o site só aponta).
 
 ---
 
@@ -115,8 +114,8 @@ e download.
   investigação ou processo entra sempre como atribuição de terceiro, com a fonte —
   nunca imputação própria de crime.
 - **Correção se publica no próprio texto, com data.**
-- **Cuidado eleitoral:** o autor é pré-candidato. Sem pedido de voto e sem promessa;
-  o "como" vai em linguagem condicional e impessoal (Art. 36-A da Lei 9.504/97).
+- **Arquivo:** citar sempre a fonte (JSTOR Early Journal Content / Internet Archive); não usar
+  "AEA" como nome de marca; nota "sem afiliação com a American Economic Association".
 
 ---
 
@@ -125,10 +124,8 @@ e download.
 - **Cache:** `/assets/*.css` e `*.js` usam `must-revalidate` — o nome do arquivo é fixo, e
   cache longo deixava quem já visitou com o layout velho. Imagens seguem com 7 dias.
   Os links para CSS e JS carregam `?v=AAAAMMDD`: **ao mexer neles, atualize a versão**
-  (nas páginas escritas à mão e em `scripts/gera_dados.py`) para quem já visitou receber
+  (em `scripts/gera_site.py`, constante `CSS_V`) para quem já visitou receber
   o arquivo novo na hora.
-- O painel da capa lê `site/dados/indicadores.json`; o JSON **precisa estar dentro da pasta
-  publicada** (já esteve na raiz e o painel ficou quebrado no ar).
 - Formulário de assinatura usa **Netlify Forms** (`data-netlify="true"` + campo
   `form-name`); os envios aparecem no painel do Netlify.
 

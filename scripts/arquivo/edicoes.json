@@ -1,0 +1,90 @@
+{
+  "serie": {
+    "titulo": "As publicações da American Economic Association (1886–1922)",
+    "descricao": "Entre 1885 e 1922, uma geração de economistas americanos discutiu monopólios, ferrovias, moeda, trabalho e o papel do Estado com uma regra nova: fatos antes de doutrina. Estas são as edições que eles publicaram — lidas uma a uma, resumidas em português e ligadas ao debate de hoje."
+  },
+  "edicoes": [
+    {
+      "slug": "1886-organizacao-da-aea",
+      "numero": 1,
+      "titulo": "Como nasceu a American Economic Association",
+      "titulo_original": "Report of the Organization of the American Economic Association",
+      "autores": "Richard T. Ely (secretário)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 1, nº 1",
+      "data": "março de 1886",
+      "chamada": "Em 1885, um grupo de jovens economistas declarou o laissez-faire “inseguro na política e errado na moral” e fundou uma associação para estudar a economia pelos fatos.",
+      "pontos": [
+        ["Origem e propósito", "A ideia de uma sociedade de economistas ganhou forma na primavera de 1885: reunir pesquisadores, não militantes de partido, do livre-comércio, do protecionismo ou de interesses de classe. A tarefa: coletar, classificar e interpretar fatos — “seek light, to bear light, to diffuse light”."],
+        ["A plataforma provisória", "O Estado aparece como agente educativo e ético, cuja ajuda positiva seria indispensável ao progresso; o laissez-faire é chamado de “unsafe in politics and unsound in morals”. História e estatística no lugar da especulação; nenhum partidarismo sobre tarifas."],
+        ["A reunião de Saratoga", "Em 8 de setembro de 1885, junto ao encontro da American Historical Association, professores, pastores e futuros reitores se reuniram em Saratoga, no estado de Nova York. H. C. Adams presidiu a sessão; Ely foi o secretário."],
+        ["O debate interno", "Nem todos concordavam. Houve quem rejeitasse tanto a visão inglesa do Estado como “mal necessário” quanto a alemã, quem pedisse “um retorno a Adam Smith”, quem estranhasse a palavra “Igreja” na plataforma e quem temesse que ela virasse credo."],
+        ["O acordo", "Um comitê reescreveu os princípios em tom mais positivo e acrescentou uma nota: eles não obrigam os membros. A associação foi organizada formalmente em 9 de setembro de 1885."],
+        ["Regras e pauta", "Anuidade de US$ 3; sócio vitalício por US$ 25. Sete comitês permanentes — trabalho, transportes, comércio, finanças públicas, câmbio, teoria e estatística. Temas sugeridos: jornada de trabalho, trabalho feminino nas fábricas, finanças municipais, regulação das ferrovias e a questão da prata."],
+        ["Os nomes", "Francis A. Walker foi eleito presidente; H. C. Adams, E. J. James e J. B. Clark, vice-presidentes; E. R. A. Seligman, tesoureiro. Na lista de membros aparece Andrew Carnegie como sócio vitalício."]
+      ],
+      "hoje": "A pergunta que reuniu aquele grupo — até onde vai o mercado e onde começa o Estado — continua no centro do debate econômico. O que eles trouxeram de novo foi o método: discutir com documento, número e série histórica, e não com doutrina. É a mesma regra que orienta este site.",
+      "itens": [
+        ["Report of the Organization of the American Economic Association", "pp. 5–32", "2485628"],
+        ["Constitution, By-Laws and Resolutions of the American Economic Association", "pp. 35–46", "2485629"]
+      ],
+      "jstor_edicao": "i342406"
+    },
+    {
+      "slug": "1886-gas-publico-ou-privado",
+      "numero": 2,
+      "titulo": "Gás: público ou privado? A pergunta de 1886",
+      "titulo_original": "The Relation of the Modern Municipality to the Gas Supply",
+      "autores": "Edmund J. James (Wharton School, University of Pennsylvania)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 1, nº 2/3",
+      "data": "maio e julho de 1886",
+      "chamada": "Seis tubulações de gás na mesma rua de Londres, preço dobrado em Nova York e uma usina municipal lucrativa em Richmond: o primeiro grande estudo sobre concessão de serviço público nos EUA.",
+      "pontos": [
+        ["O gás como necessidade", "Gás barato seria indispensável para iluminação, segurança (“um bico de gás equivale a um policial”), cozinha, aquecimento e força motriz para o pequeno fabricante."],
+        ["Monopólio natural", "Muito capital, produção perto do consumo e canos sob as ruas: o negócio não comporta concorrência. James usa a classificação de H. C. Adams — o gás é indústria de “rendimentos crescentes”."],
+        ["O caos da concorrência", "Em Londres chegou a haver seis redes de distribuição na mesma rua, com fraudes e vazamentos; no fim, as empresas dividiram a cidade entre si e o número caiu de cerca de 13 para 3."],
+        ["Nova York", "O capital das empresas foi “aguado” de US$ 18,3 milhões para US$ 39,1 milhões, e o preço subiu de 75 centavos para US$ 1,75 por mil pés cúbicos."],
+        ["O contraponto público", "Richmond opera sua usina desde 1851: o preço caiu de US$ 4,00 para US$ 1,50 e o lucro ficou em torno de 17% em 1885. Na Grã-Bretanha havia cerca de 160 usinas municipais; na Alemanha, a parcela pública subiu de ~25% para ~50% entre 1860 e 1883."],
+        ["A objeção da corrupção", "James reconhece o risco, mas lembra que a empresa privada também atua na política — e propõe um departamento municipal com engenheiros escolhidos por concurso."]
+      ],
+      "hoje": "Saneamento, gás canalizado e energia seguem com a mesma pergunta: monopólio natural concedido e regulado, ou gestão pública? O argumento de 1886 já usava os instrumentos que importam hoje — custo de produção, capital investido de verdade, comparação internacional e desenho de contrato.",
+      "itens": [
+        ["The Relation of the Modern Municipality to the Gas Supply", "pp. 7–76", "2485712"]
+      ],
+      "jstor_edicao": "i342407"
+    },
+    {
+      "slug": "1887-a-questao-ferroviaria",
+      "numero": 9,
+      "titulo": "As ferrovias e a primeira agência reguladora dos EUA",
+      "titulo_original": "The Railway Question",
+      "autores": "Edmund J. James (Committee on Transportation)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 2, nº 3",
+      "data": "julho de 1887",
+      "chamada": "Levar trigo do norte de Iowa a Chicago custava mais que de Chicago a Liverpool. Em 1887, o Congresso respondeu com a lei que criou a regulação ferroviária federal.",
+      "pontos": [
+        ["O Estado não é neutro", "Nenhuma ferrovia existiria sem desapropriação e sem sociedade anônima de responsabilidade limitada: a corporação ferroviária é “a pure creature of law”. A omissão do governo, portanto, também é escolha."],
+        ["A fraude da construção", "Com cerca de 5% do capital integralizado, diretores contratavam a si mesmos por meio de uma “construction company”, inflavam custos de 3 a 4 vezes e deixavam a dívida para os acionistas."],
+        ["Concorrência ilusória", "Em 1º de janeiro de 1887, das 33.691 estações ferroviárias dos EUA, 30.916 eram servidas por uma única ferrovia. Onde havia disputa, ela terminava em cartel (pool), compra da rival ou falência."],
+        ["O Relatório Cullom", "O Senado reconheceu “the lowest rates known in the world”, mas também discriminações que favoreciam o forte contra o fraco e o grande comerciante contra o pequeno."],
+        ["Capital fictício", "Segundo Poor (1885), as ferrovias tinham custo real de US$ 3,79 bilhões e US$ 3,71 bilhões de capitalização fictícia."],
+        ["A lei de 1887", "Aprovada por 43 a 15 no Senado e 191 a 32 na Câmara, proibiu cartéis e discriminação de tarifas, exigiu aviso prévio de aumentos e criou uma comissão federal — o modelo das agências reguladoras."]
+      ],
+      "hoje": "Concessão, tarifa, direito de passagem e captura regulatória: os temas de 1887 são os mesmos das concessões ferroviárias e rodoviárias de hoje. A diferença é que, em 1887, o diagnóstico começou pelo dado — quantas estações tinham concorrência de fato — e não pela opinião.",
+      "itens": [
+        ["The Railway Question — Report of the Committee on Transportation", "pp. 10–68", "2696699"]
+      ],
+      "jstor_edicao": "i346050"
+    }
+  ],
+  "proximas": [
+    "Cooperação numa cidade do Oeste (Minneapolis, 1886)",
+    "Cooperação na Nova Inglaterra (1886)",
+    "A relação do Estado com a ação industrial — H. C. Adams (1887)",
+    "As finanças da Pensilvânia: do boom de obras ao calote (1887)",
+    "As guildas medievais da Inglaterra — E. R. A. Seligman (1887)",
+    "Socialismo na Inglaterra — Sidney Webb (1889)"
+  ]
+}

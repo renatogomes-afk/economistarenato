@@ -218,6 +218,10 @@ figcaption b{color:var(--tinta-2);font-weight:500}
 .form-linha input{flex:1;font-family:var(--sans);font-size:14px;padding:11px 13px;border:1px solid var(--tinta);background:#fff}
 .form-linha input::placeholder{color:var(--cinza-claro)}
 .form-nota{font-family:var(--sans);font-size:11px;color:var(--cinza);margin-top:9px;line-height:1.5}
+.form-contato{display:grid;gap:10px}
+.form-contato input,.form-contato select,.form-contato textarea{width:100%;box-sizing:border-box;font-family:var(--sans);font-size:14px;padding:11px 13px;border:1px solid var(--tinta);background:#fff;border-radius:0;color:var(--tinta)}
+.form-contato textarea{resize:vertical;min-height:110px}
+.form-contato input::placeholder,.form-contato textarea::placeholder{color:var(--cinza-claro)}
 
 /* ==========================================================================
    RODAPÉ
