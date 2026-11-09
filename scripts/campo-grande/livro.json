@@ -32,6 +32,7 @@
  ],
  "capitulos": [
   {
+   "fonte_prevista": "—",
    "numero": 1,
    "slug": "meus-valores",
    "titulo": "Meus valores",
@@ -100,6 +101,7 @@
    "regiao": null
   },
   {
+   "fonte_prevista": "IBGE (PIB dos Municípios), Receita Federal (cadastro de CNPJ e MEI), Jucems e Sebrae-MS",
    "numero": 2,
    "slug": "comercio-servicos-e-industrias",
    "titulo": "Setor privado: comércio, serviços e indústrias",
@@ -148,6 +150,7 @@
    }
   },
   {
+   "fonte_prevista": "RAIS e Novo Caged (Ministério do Trabalho), Censo 2022 (IBGE), cesta básica do DIEESE",
    "numero": 3,
    "slug": "mercado-de-trabalho",
    "titulo": "Setor privado: mercado de trabalho",
@@ -196,6 +199,7 @@
    }
   },
   {
+   "fonte_prevista": "Relatório de Gestão Fiscal (SICONFI/Tesouro Nacional), TCE-MS e Portal da Transparência da prefeitura",
    "numero": 4,
    "slug": "funcionalismo",
    "titulo": "Setor público: funcionalismo",
@@ -244,6 +248,7 @@
    }
   },
   {
+   "fonte_prevista": "Plano Diretor de Campo Grande, Perfil Socioeconômico da Planurb e Censo 2022 (IBGE)",
    "numero": 5,
    "slug": "urbanismo-e-regioes",
    "titulo": "Urbanismo e regiões",
@@ -292,6 +297,7 @@
    }
   },
   {
+   "fonte_prevista": "SICONFI (RREO e RGF), Tesouro Nacional e a Lei Orçamentária Anual de Campo Grande",
    "numero": 6,
    "slug": "arrecadacao-tributaria",
    "titulo": "Arrecadação tributária",
@@ -340,6 +346,7 @@
    }
   },
   {
+   "fonte_prevista": "Lei Orçamentária Anual, Portal da Transparência da prefeitura e cadastro dos conselhos municipais",
    "numero": 7,
    "slug": "administracao-publica",
    "titulo": "Administração pública",
@@ -394,6 +401,11 @@
    "chamada": "Postos, UPAs e CRSs: onde está a rede municipal de saúde em cada uma das sete regiões de Campo Grande, unidade por unidade.",
    "situacao": "dados",
    "sugestao": false,
+   "indicador": {
+    "valor": "74 postos de saúde,",
+    "texto": "6 UPAs e 4 CRSs na rede municipal; Anhanduizinho tem 17 postos e nenhuma UPA.",
+    "fonte": "CNES/DataSUS, consulta em 22/10/2026"
+   },
    "blocos": [
     {
      "tipo": "p",
@@ -1237,6 +1249,7 @@
    }
   },
   {
+   "fonte_prevista": "Censo Escolar e IDEB (INEP) e dados da Secretaria Municipal de Educação",
    "numero": 9,
    "slug": "educacao",
    "titulo": "Educação",
@@ -1285,6 +1298,7 @@
    }
   },
   {
+   "fonte_prevista": "efetivo da Guarda Civil Metropolitana e estatísticas da Sejusp-MS por região",
    "numero": 10,
    "slug": "seguranca-e-ordem-publica",
    "titulo": "Segurança e a ordem pública",
@@ -1333,6 +1347,7 @@
    }
   },
   {
+   "fonte_prevista": "Fundação João Pinheiro (déficit habitacional), Agência Municipal de Habitação (Emha) e Censo 2022",
    "numero": 11,
    "slug": "moradia",
    "titulo": "Moradia",
@@ -1381,6 +1396,7 @@
    }
   },
   {
+   "fonte_prevista": "Agetran, contrato de concessão do transporte coletivo e Censo 2022 (tempo de deslocamento)",
    "numero": 12,
    "slug": "mobilidade-e-transporte",
    "titulo": "Mobilidade e transporte",
@@ -1429,6 +1445,7 @@
    }
   },
   {
+   "fonte_prevista": "Funesp, Fundac e o calendário cultural do município",
    "numero": 13,
    "slug": "esportes-e-cultura",
    "titulo": "Esportes e cultura",
@@ -1477,6 +1494,7 @@
    }
   },
   {
+   "fonte_prevista": "Censo 2022 (religião), Arquidiocese de Campo Grande, conselhos de pastores e entidades conveniadas com a prefeitura",
    "numero": 14,
    "slug": "religiao",
    "titulo": "Religião",
@@ -1525,6 +1543,7 @@
    }
   },
   {
+   "fonte_prevista": "—",
    "numero": 15,
    "slug": "consideracoes-finais",
    "titulo": "Considerações finais",

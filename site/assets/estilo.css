@@ -618,3 +618,7 @@ figcaption .credito::before{content:"· "}
 .detalhes .tabela-guia{font-size:.85rem}
 .detalhes .tabela-guia td:first-child{white-space:normal;width:42%}
 .detalhes .tabela-guia td:last-child{white-space:nowrap;font-family:var(--sans);font-size:12px}
+.noticia-cg{border-top:1px solid var(--linha);padding:18px 0 6px}
+.noticia-cg h2{margin:4px 0 8px}
+.tabela-situacao td:first-child a{color:var(--azul);text-decoration:none}
+.tabela-situacao td:last-child{font-family:var(--sans);font-size:12px;color:var(--tinta-2)}
