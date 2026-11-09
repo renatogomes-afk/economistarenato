@@ -9097,11 +9097,1402 @@
       ],
       "jstor_edicao": "i322383",
       "colecao": "eua"
+    },
+    {
+      "slug": "1896-hoffman-e-as-estatisticas-raciais",
+      "numero": 49,
+      "titulo": "Hoffman, 1896: censo, mortalidade e raça nas tabelas de um estatístico",
+      "titulo_original": "Race Traits and Tendencies of the American Negro",
+      "autores": "Frederick L. Hoffman",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 11, nº 1/3",
+      "data": "1896",
+      "chamada": "Em 1896, Frederick L. Hoffman reuniu censos, registros de óbitos e dados de seguradoras para comparar a mortalidade de brancos e negros nos EUA. O livro e o uso que se fez dele, descritos pelas fontes.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um professor chamado Gilliam, num artigo da Popular Science Monthly, projetou que a população negra do Sul dos Estados Unidos cresceria 3,5% ao ano e chegaria a 12 milhões em 1900. Frederick L. Hoffman refez a conta pelo método do próprio Gilliam e mostrou que, por ele, o Sul deveria ter tido mais de 9 milhões de habitantes negros em 1890. O censo daquele ano contou 6.741.941. Para Hoffman, o erro tinha causa conhecida: Gilliam olhou só a natalidade e ignorou a mortalidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tabela de projeções fracassadas abre Race Traits and Tendencies of the American Negro, publicado em 1896 nas Publications of the American Economic Association, num volume triplo de 329 páginas. Hoffman, nascido na Alemanha, assinou o prefácio em Newark, Nova Jersey, em 28 de julho de 1896. Conta ali que coletava estatísticas vitais havia cerca de dez anos, nas horas livres de uma vida dedicada aos negócios, e agradece a Carroll D. Wright, comissário do Trabalho, a John S. Billings, responsável pelas estatísticas de mortalidade do censo, e ao professor W. F. Willcox, pela ajuda na pesquisa e na publicação."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“fazendo uso exclusivo do método estatístico”",
+          "original": "“making exclusive use of the statistical method”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A promessa do prefácio é essa: dar em cada caso uma tabela concisa, de modo que o leitor possa chegar às próprias conclusões, independentemente das deduções do autor. O livro tem sete capítulos: população, estatísticas vitais, antropometria, mistura racial, condições sociais, condições econômicas e conclusão. O segundo, sobre mortalidade, ocupa mais de cem páginas e é o núcleo empírico da obra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os censos mostravam, segundo Hoffman?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é o décimo primeiro censo, o de 1890. Entre 1880 e 1890, a população negra dos estados do Sul cresceu 13,24%, contra 23,91% da população branca da mesma região. Muitos contestaram o resultado, alegando falha na contagem. Hoffman defende o censo: depois de examinar a distribuição por idade, que considera o teste mais delicado de uma enumeração, julga o de 1890 tão cuidadoso quanto os dez anteriores. Ao mesmo tempo, descarta o de 1870, que chama de reconhecidamente defeituoso, e por isso compara a população em intervalos de trinta anos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“raciocinar a partir de resultados brutos, nisto como em outros ramos da investigação estatística, só pode ser inútil e enganoso”",
+          "original": "“Reasoning from gross results in this as in other branches of statistical inquiry must be useless and misleading”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo sobre população acompanha ainda a migração do campo para as cidades, a concentração em certos condados e o fracasso de projetos de colonização, como uma colônia de famílias negras americanas no estado mexicano de Durango, que durou menos de um ano. Hoffman conclui que a população negra permaneceria no Sul e tenderia a se concentrar nas cidades, nos bairros que ele descreve como os mais insalubres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como ele mediu a mortalidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com os relatórios anuais dos departamentos de saúde de dez cidades do Sul: Washington, Baltimore, Richmond, Memphis, Louisville, Atlanta, Savannah, Charleston, Mobile e Nova Orleans. Como os censos são decenais, Hoffman estimou a população de cada ano pelo método do Dr. Farr, e não pelos números das prefeituras, que usavam critérios diferentes entre si. O período, 1890 a 1894, foi escolhido por não ter epidemias."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "32,61 por mil",
+          "texto": "Taxa de mortalidade média da população negra em dez cidades do Sul, 1890–1894, segundo Hoffman, contra 20,12 por mil entre brancos: excesso de 62,1%. A diferença era maior em Charleston (87,5%) e menor em Mobile (47,4%). A comparação cobria cerca de 416 mil pessoas negras."
+        },
+        {
+          "tipo": "p",
+          "texto": "Hoffman sabia que a taxa bruta engana quando as populações têm idades diferentes. Nas cidades do Norte, a população negra concentrava-se entre 15 e 45 anos, efeito da migração de jovens vindos do Sul. Ali, diz ele, a taxa bruta subestima a mortalidade e não tem valor. Por isso ele recorre às taxas por faixa etária publicadas por Billings para Nova York, Brooklyn, Boston e Filadélfia, e lamenta que o censo tenha usado métodos diferentes para Baltimore e o Distrito de Colúmbia, o que impedia uma comparação exata."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para os estados, os dados eram escassos. Hoffman admite que quase não havia informação confiável sobre natalidade. Usa o registro do Alabama de 1888 a 1893, que mostrava cerca de três nascimentos por óbito entre brancos e dois entre negros, e os registros de Rhode Island, Connecticut e Massachusetts, onde os óbitos de pessoas negras superavam os nascimentos. Em Rhode Island, de 1861 a 1893, foram 5.258 nascimentos e 5.276 óbitos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“não são os números absolutos, mas apenas suas proporções relativas, que são essenciais”",
+          "original": "“it is not absolute numbers, but their relative proportions only that are essential”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase, que Hoffman toma de Milne, autor de um tratado sobre anuidades e seguros, é a premissa que sustenta o capítulo. O autor reconhece que as estatísticas de mortalidade das cidades americanas ficam aquém dos fatos, mas supõe que o sub-registro atinja os dois grupos na mesma proporção. Com isso, as razões entre as taxas continuariam válidas mesmo que os níveis estivessem errados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "17,1 anos",
+          "texto": "Diferença na expectativa de vida ao nascer entre brancos (42,36 anos) e negros (25,25 anos) em Washington, pela tábua de vida do censo de 1880. Nas quatro cidades com tábua oficial, Washington, Baltimore, Charleston e Nova Orleans, a diferença ia de 12,5 a 17,1 anos. Aos 80 anos, as expectativas quase se igualavam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Hoffman concluiu dessas tabelas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O resumo do capítulo lista dez conclusões. Hoffman sustenta que o excesso de mortalidade era maior abaixo dos 15 anos, sobretudo entre crianças com menos de cinco; que a mortalidade da população negra subia desde a emancipação, enquanto a dos brancos caía; e que tuberculose, pneumonia e doenças infantis respondiam pela maior parte da diferença. Em outras doenças, como sarampo, escarlatina e difteria, os números eram menores para a população negra. A varíola e as mortes no parto, ele atribui à falta de vacinação e de atendimento médico."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão mais ambiciosa vem de duas tabelas sobre Washington e Baltimore, que dividem a população por altitude e densidade dos bairros, indicadores das condições de moradia. Em Baltimore, o excesso de mortalidade da população negra era de 88,95% nas áreas mais baixas e de 64,39% nas mais altas. Hoffman sustenta que o excesso persistia em qualquer condição e que, portanto, o efeito das condições de vida seria comparativamente pequeno diante da raça e da hereditariedade. O capítulo final abre com uma epígrafe de John Stuart Mill, que defendia a primazia do ambiente, e o livro se apresenta como resposta a essa posição."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí Hoffman tira a previsão central do livro: a taxa de crescimento da população negra cairia década após década até que os óbitos superassem os nascimentos. Ele sustenta também que educação, filantropia e religião não haviam alterado essa tendência e atribui a situação sobretudo a fatores morais, tema dos capítulos sobre condições sociais e mistura racial."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde entram o seguro de vida e as finanças públicas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hoffman trabalhava como estatístico da Prudential Insurance Company of America, e a lógica atuarial atravessa o livro. No capítulo de antropometria, ele cita estudos sobre peso e tuberculose do Mutual Life de Nova York (1874 e 1895), do Washington Life (1886) e da própria Prudential (1895). A regra das seguradoras dizia que peso abaixo da média predispunha à tuberculose. Hoffman mostra, com dados de recrutas do Exército, que soldados negros de 20 a 25 anos pesavam em média 2,17 libras por polegada de altura, contra 2,12 dos brancos, e trata como notável que, mesmo assim, a mortalidade por tuberculose fosse maior."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tábuas de vida por grupo e taxas de mortalidade por idade são a matéria-prima do cálculo de prêmios. Nas décadas seguintes, o livro foi amplamente citado por seguradoras de vida americanas para justificar prêmios mais altos, benefícios menores ou a recusa de apólices para clientes negros. Esse é o uso pelo qual a obra ficou mais conhecida fora da economia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "18 centavos",
+          "texto": "Imposto pago por habitante negro na Virgínia em 1895, segundo o cálculo de Hoffman sobre o censo de 1890, contra US$ 1,75 por habitante branco. A população negra, 38% do total, pagou 6,2% dos impostos arrecadados. Mais de dois terços do que lhe era lançado vinham da capitação, o imposto por cabeça, e quase metade desse imposto ficou sem pagamento."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo econômico faz uma contabilidade fiscal do mesmo tipo para Geórgia, Virgínia e Carolina do Norte, com valores de propriedade avaliada, impostos escolares e os depósitos do Freedman's Savings and Trust Company. No prefácio, Hoffman propõe que o Departamento do Trabalho e os governos estaduais façam levantamentos anuais sobre as condições materiais e sociais da população negra, para avaliar os resultados dos esforços filantrópicos e de caridade."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o interesse econômico do livro está na engenharia das tabelas. Hoffman adota procedimentos que a demografia da época já conhecia: troca as estimativas municipais por uma projeção uniforme, escolhe anos sem epidemia, separa as taxas por idade quando as estruturas etárias divergem e explicita a hipótese de que o sub-registro é proporcional. Mas cada conclusão depende de uma premissa que ele mesmo declara. A previsão de declínio pressupõe que o censo de 1890 contou bem; a validade das razões pressupõe sub-registro igual nos dois grupos; e a separação entre raça e ambiente depende de quanto altitude e densidade de bairro representam as condições de vida. Renda, ocupação, qualidade da moradia e acesso a médico não entram como variáveis nessas tabelas de controle. O próprio prefácio separa os fatos tabulados das deduções do autor, e é nesse ponto, entre a tabela e a premissa, que o leitor pode refazer as contas.",
+            "A outra lição é sobre o uso atuarial de médias de grupo. Uma seguradora que precifica pela mortalidade média de uma categoria cobra de cada segurado o risco do grupo, não o seu, e trata a diferença observada como dado fixo, quando ela pode mudar com renda, saneamento e atendimento médico. O próprio Hoffman registra que a mortalidade por varíola caía onde havia vacinação e que as mortes no parto dependiam de assistência médica. A pergunta econômica que o livro deixa, e que seu uso pelas seguradoras tornou concreta, é se uma taxa medida num momento deve ser lida como característica permanente de um grupo ou como resultado de condições que a política pública pode alterar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Estatísticas vitais",
+          "registros de nascimentos, óbitos e casamentos de uma população."
+        ],
+        [
+          "Taxa bruta de mortalidade",
+          "óbitos do ano por mil habitantes, sem ajuste pela composição etária."
+        ],
+        [
+          "Distribuição etária",
+          "proporção da população em cada faixa de idade; altera a taxa bruta mesmo com riscos iguais."
+        ],
+        [
+          "Taxa por faixa etária",
+          "óbitos por mil habitantes de uma mesma faixa de idade, que permite comparar populações com idades diferentes."
+        ],
+        [
+          "Método de Farr",
+          "forma de estimar a população nos anos entre dois censos, usada pelo estatístico inglês Farr."
+        ],
+        [
+          "Tábua de vida",
+          "tabela que mostra, para cada idade, quantos sobrevivem e quantos anos ainda se espera viver."
+        ],
+        [
+          "Expectativa de vida",
+          "número médio de anos que uma pessoa de certa idade ainda viveria, mantidas as taxas de mortalidade observadas."
+        ],
+        [
+          "Sub-registro",
+          "parte dos nascimentos ou óbitos que não chega aos registros oficiais."
+        ],
+        [
+          "Prêmio de seguro",
+          "valor pago pelo segurado, calculado a partir do risco estimado de morte ou sinistro."
+        ],
+        [
+          "Capitação",
+          "imposto fixo cobrado por pessoa, independentemente de renda ou patrimônio."
+        ]
+      ],
+      "hoje": "A pergunta que atravessa as tabelas de Hoffman segue no centro da estatística aplicada: quando uma diferença entre grupos reflete o grupo e quando reflete condições como renda, moradia e acesso a serviços? A demografia passou a padronizar taxas por idade e a controlar variáveis socioeconômicas como rotina. No seguro, muitas jurisdições proíbem o uso de raça como fator de tarifação, e o debate se deslocou para variáveis indiretas, como endereço ou histórico de crédito, que podem reproduzir o mesmo efeito. Os modelos de risco baseados em dados reabriram a discussão sobre o que uma média de grupo autoriza a cobrar de um indivíduo.",
+      "itens": [
+        [
+          "The Race Traits and Tendencies of the American Negro",
+          "pp. 1–329",
+          "2560438"
+        ]
+      ],
+      "jstor_edicao": "i323686",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1896-valorizacao-e-juros",
+      "numero": 50,
+      "titulo": "Fisher, 1896: o juro que antecipa o valor da moeda",
+      "titulo_original": "Appreciation and Interest",
+      "autores": "Irving Fisher (New Haven)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 11, nº 4",
+      "data": "agosto de 1896",
+      "chamada": "Em 1896, Irving Fisher mostrou que credores e devedores embutem no juro a valorização ou a desvalorização esperada da moeda, e testou a ideia com títulos em ouro, em papel e em prata.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Poucos meses antes do livro, o sindicato Belmont-Morgan ofereceu ao governo dos Estados Unidos uma escolha. Emprestaria cerca de 65 milhões de dólares a 3% ao ano se o pagamento fosse em ouro, ou a uma taxa maior se fosse em “coin”, moeda metálica que a lei talvez permitisse pagar em prata. Todos sabiam, escreve Irving Fisher, que o adicional vinha da mera possibilidade de cunhagem livre de prata. Nenhum banqueiro precisou de teoria para cobrar por isso."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena abre o segundo capítulo de Appreciation and Interest, publicado em 1896 no volume 11, nº 4, das Publications of the American Economic Association, em 98 páginas. Fisher, que assina o prefácio em New Haven, apresentara a ideia em resumo na reunião da associação em Indianápolis, em dezembro de 1895. O alvo era o centro do debate bimetalista: a valorização do ouro roubava os devedores? A resposta do livro é que não necessariamente, porque quem prevê a mudança no valor da moeda a embute na taxa de juros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o cinto do rei tem a ver com dívidas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fisher começa com uma imagem. Suponha que a jarda fosse definida como o comprimento do cinto do rei, e que o rei fosse uma criança. Todos saberiam que a “jarda” cresceria com a idade, e o comerciante que prometesse entregar 1.000 jardas dali a dez anos ajustaria o preço à expectativa. Mudar a unidade de medida não muda as quantidades, só os números que as representam."
+        },
+        {
+          "tipo": "p",
+          "texto": "Monometalistas e bimetalistas brigavam havia anos sobre o próprio fato da valorização. Os bimetalistas a provavam pela queda dos preços; os monometalistas respondiam que os salários tinham subido. Os dois lados supunham, porém, que um padrão justo teria de ser invariável. Fisher desfaz a premissa:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“um padrão, para ser perfeito, não precisa ser invariável”",
+          "original": "“a standard to be perfect need not be invariable”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Basta que seja confiável, isto é, que as partes consigam prever nele seu futuro econômico com a mesma precisão que em qualquer outro. E a correção não exige mexer no principal da dívida. O outro elemento do contrato, a taxa de juros, faz o trabalho."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto o juro precisa mudar para compensar a moeda?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo numérico usa dois padrões, ouro e trigo. Hoje um alqueire (bushel) de trigo vale um dólar; sabe-se que daqui a um ano valerá 96 centavos. Quem toma 100 dólares a 8% deve 108 dólares no fim do ano, o equivalente a 112,5 alqueires. Logo, 8% em ouro equivalem a 12,5% em trigo: a depreciação de 4% do trigo é compensada por um juro 4,5 pontos maior."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12,5%",
+          "texto": "Juro em trigo equivalente a 8% em ouro, quando se sabe que o alqueire cairá de US$ 1 para US$ 0,96 em um ano. Em geral, 1 + j = (1 + a)(1 + i), em que i é o juro no padrão que se valoriza, j o juro no padrão que se desvaloriza e a a taxa de valorização. Desenvolvida: j = i + a + ia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em palavras: o juro no padrão que se deprecia é a soma de três termos, o juro no padrão que se valoriza, a própria taxa de valorização e o produto dos dois. É a relação que os manuais hoje chamam de equação de Fisher. Ele propõe uma forma ainda mais simples: a razão de divergência entre os padrões é igual à razão entre seus “montantes”, aquilo em que cada unidade emprestada se transforma ao fim do período. E corrige os antecessores. John Bates Clark subestimou a compensação por não compor os termos; um panfleto do século XVIII também errou a conta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem viu isso antes?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fisher não reivindica a ideia. O registro mais antigo que encontrou é um panfleto anônimo publicado em Boston em 1740, sobre as moedas das colônias britânicas na América. Entre o outono de 1737 e o de 1739, uma grande emissão de papel de Rhode Island levou a prata de 26 a 27 xelins por onça para 29 xelins. O autor calcula uma perda de 7% do principal e conclui que o credor precisaria de 13% de juro “natural” para se proteger, quando o juro legal era de 6%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fisher cita ainda John Stuart Mill, Jacob de Haas Jr., de Amsterdã, e o próprio Clark. Sua contribuição foi dar à ideia forma quantitativa, testá-la com estatísticas e aplicá-la à teoria do juro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O juro pode ser negativo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A fórmula parece permitir. Se o juro em trigo é 8% e o ouro se valoriza 20% ao ano em relação ao trigo, o juro em ouro teria de ser de menos 10%. Fisher responde que isso é impossível com uma moeda que se pode entesourar sem trabalho, risco ou despesa: quem tem ouro o guardaria em vez de emprestá-lo com perda. O piso é zero. Pelo mesmo motivo, a valorização esperada da moeda não pode superar o juro nela. O caso familiar é a terra: com juro de 5%, o preço de um lote não pode subir mais de 5% ao ano, salvo se a alta for imprevista, porque todos o reteriam."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com um padrão perecível, como morangos emprestados no verão e pagos no inverno, o piso desaparece. Há até um caso real: como manter terra exige pagar impostos, o juro medido em “acres” de terra especulativa é muitas vezes negativo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os mercados de fato anteciparam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte testa a teoria com cotações. O primeiro teste usa dois títulos do governo americano: os “currency sixes”, pagáveis em papel-moeda, e títulos de 1907 pagáveis em moeda metálica. Em janeiro de 1870, o investidor obtinha 6,4% em ouro, mas aceitava 5,4% em papel. O motivo era a esperança da retomada da conversibilidade: justamente por estar tão depreciado, o papel prometia valorizar-se. Só em 1878, quando essa perspectiva acabou, a ordem se inverteu."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2/5",
+          "texto": "Quanto da valorização do papel-moeda americano entre janeiro de 1870 e a retomada, em 1º de janeiro de 1879, os preços dos títulos anteciparam: valorização esperada de cerca de 0,8% ao ano, contra 2,1% efetivos. Mesmo depois de a lei da retomada entrar em vigor, em 14 de janeiro, a expectativa ficou em pouco mais da metade dos 3,6% anuais efetivos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois o sinal se inverteu de novo. Em 1894, com o temor da prata livre, o título em papel rendia 3,5%, contra 2,7% do título em moeda metálica."
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo teste é mais limpo: títulos do governo da Índia negociados em Londres, uns em ouro, outros em prata, a “rupee paper”. Mesmo emissor, mesma garantia, mesmo mercado; muda só o padrão. Antes de 1875 os rendimentos pouco diferiam. Quando o câmbio indiano começou a cair, a distância abriu e, em um dos anos, chegou a 1,1 ponto. A antecipação, porém, foi parcial: a valorização estimada pelos investidores foi pouco mais de um terço da efetiva."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Juro alto é sinal de dinheiro caro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro teste percorre sete mercados: Londres, Nova York, Berlim, Paris, Calcutá, Tóquio e Xangai. Primeiro, um achado lateral: em 17 de 21 comparações, os anos de preços altos tiveram juros mais altos que os de preços baixos. Depois, o central. Somados os sete países, Fisher conta 57 casos favoráveis à tese de que preços em alta vêm com juros altos e preços em queda com juros baixos, contra 16 desfavoráveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ajuste, contudo, é incompleto. Fisher converte o juro em dinheiro em juro em mercadorias, usando índices de preços. Em Londres, entre 1826 e 1829, o juro de mercado foi de 3,5%, enquanto o dinheiro se valorizava 4,2% ao ano em mercadorias. Em Nova York, na inflação de 1861 a 1865, o juro em mercadorias desceu à cifra, nas palavras do autor, fabulosamente baixa de menos 14,8%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3,5 vezes",
+          "texto": "Quanto o juro em mercadorias oscilou a mais que o juro em dinheiro em Londres: desvio médio de 2,6 pontos em torno da média, contra 0,7 ponto. Para Fisher, prova prática de que os movimentos de preços foram mal previstos. Em médias de períodos longos, o ajuste foi mais perfeito; nos curtos, pior."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí uma crítica a nomes ilustres. Tooke, Bonamy Price e Jevons, segundo Fisher, confundiram juro nominal alto ou baixo com juro real alto ou baixo. Price lamentava, em 1877, o crédito barato e o comércio deprimido. Mas o juro em mercadorias em Londres entre 1874 e 1879 fora de 7,1%. Seria espantoso, comenta Fisher, se o comércio não encolhesse."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a imprevisão gera ciclos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A passagem mais moderna trata dos “ciclos de crédito”. Se todos errassem igualmente a previsão de uma alta de preços, haveria só transferência de riqueza do credor para o devedor. Mas a previsão é desigual. Os mais perspicazes tendem a ser os tomadores, os “capitães da indústria”, a quem a sociedade delega a gestão do capital justamente por preverem melhor. Com preços subindo, eles percebem antes dos credores, aceitam juros maiores e ampliam empréstimos e investimentos. Com preços caindo, o juro cai, mas não o bastante, e o negócio definha."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a desigualdade de previsão produz superinvestimento com preços em alta e relativa estagnação com preços em queda”",
+          "original": "“inequality of foresight produces overinvestment during rising prices and relative stagnation during falling prices”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o juro perfeitamente ajustado, conclui, esses efeitos do crédito não ocorreriam: o juro, mais do que o crédito, é a variável independente principal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O devedor foi roubado pelo ouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Houve perda, mas pequena. Fisher estima que o devedor inglês médio, em contratos feitos desde 1874–75, perdeu dois terços de ponto percentual ao ano, com margem de erro de um terço de ponto; nos Estados Unidos, provavelmente menos. As estimativas usuais, baseadas nos índices de Sauerbeck, davam de três a oito vezes mais. O erro, diz ele, é tratar a questão como de valorização do ouro, quando ela é exclusivamente de previsão e de ajuste do juro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O bimetalismo tampouco corrigiria a perda. Ela atinge só dívidas não pagas, e a maior parte já passara. Empréstimos bancários e outros de curto prazo eram cerca de 60% da dívida existente. Uma desvalorização de 10% repararia exatamente as dívidas de quinze anos, mas seria pequena demais para as mais antigas e grande demais para as mais novas, que eram o grosso. O efeito dominante seria lesar o credor de hoje e de ontem."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento ético é seco. Se uma casa segurada pega fogo no dia seguinte, a seguradora tem prejuízo, mas não sofre injustiça. Se pedisse alívio ao Legislativo alegando que não podia prever o incêndio, ouviria:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Cumpra seu contrato”",
+          "original": "“Keep your contract”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Legislar para compensar uma queda de preços passada é errado, porque retroativo; para compensar uma queda futura é absurdo, porque não se pode sabê-la, e, se se pudesse, a lei seria desnecessária. Sólida, para Fisher, só a legislação que torne a unidade monetária menos variável."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Existe um único juro “real”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O último capítulo recusa o atalho. Os termos “real” e “nominal” são cômodos, admite Fisher, mas insuficientes. Há tantas taxas de juros quanto padrões: em trigo, em terra, em trabalho, em renda. Mesmo numa economia estacionária, o juro de verão para inverno seria baixo em frutas e alto em gelo. E cada pessoa tem seu padrão “absoluto”: o dólar é unidade menor para o milionário que para o operário. O juro em dinheiro é apenas o representante comum de múltiplas taxas em outros padrões."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a força do texto está na troca de pergunta. O debate de 1896 queria saber se o ouro tinha se valorizado e quem devia indenizar quem. Fisher mostra que a pergunta relevante é outra: quanto da mudança foi prevista e embutida no juro. Daí sai a ideia que orienta a política monetária moderna. O que pesa para credor e devedor é o juro descontada a inflação esperada, e uma moeda previsível vale mais do que uma moeda imóvel.",
+            "A outra lição é de honestidade empírica. Fisher constrói uma teoria elegante e, em seguida, mostra que os mercados a obedecem só em parte: um terço aqui, dois quintos ali. Não esconde o resíduo; faz dele uma teoria dos ciclos. E resiste à tentação de usar a perda medida como pretexto para reescrever contratos. A reforma que defende é a que reduz a incerteza futura, não a que redistribui o passado."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Bimetalismo",
+          "regime em que ouro e prata servem ao mesmo tempo de padrão monetário, a uma razão legal fixa entre os dois metais."
+        ],
+        [
+          "Valorização (appreciation)",
+          "aumento do poder de compra de uma moeda em relação a outro padrão, como mercadorias, trabalho ou outra moeda."
+        ],
+        [
+          "Padrão monetário",
+          "unidade em que se expressam preços e contratos, como o ouro, a prata, o papel-moeda ou, em teoria, o trigo."
+        ],
+        [
+          "Juro nominal e juro real",
+          "juro medido em dinheiro e juro medido em bens, isto é, descontada a variação do poder de compra da moeda."
+        ],
+        [
+          "Equação de Fisher",
+          "1 + j = (1 + a)(1 + i): relação entre os juros em dois padrões e a valorização esperada de um em relação ao outro."
+        ],
+        [
+          "Entesouramento",
+          "guardar a moeda parada em vez de emprestá-la; é o que impede o juro em dinheiro de cair abaixo de zero."
+        ],
+        [
+          "Rupee paper",
+          "títulos da dívida do governo da Índia denominados em rúpias de prata e negociados também em Londres."
+        ],
+        [
+          "Retomada (resumption)",
+          "volta à conversibilidade do papel-moeda americano em moeda metálica, em 1º de janeiro de 1879."
+        ],
+        [
+          "Índice de preços",
+          "média ponderada de preços que mede a variação do poder de compra da moeda; Fisher usa os de Jevons e Sauerbeck, entre outros."
+        ],
+        [
+          "Ágio (agio)",
+          "termo de Böhm-Bawerk para o prêmio dos bens presentes sobre os bens futuros da mesma espécie, que é o juro."
+        ]
+      ],
+      "hoje": "A equação de Fisher está em todo manual e em quase toda ata de banco central: o juro nominal embute a inflação esperada. Títulos indexados à inflação, como o Tesouro IPCA+, repetem o teste que Fisher fez com títulos em ouro e em papel, e a diferença entre as duas curvas é lida como inflação implícita. O piso zero que ele descreveu voltou ao debate quando bancos centrais levaram juros abaixo de zero e esbarraram no custo de guardar dinheiro. E a desigualdade de previsão entre quem toma e quem empresta segue no centro da discussão sobre expectativas e ciclos.",
+      "itens": [
+        [
+          "Appreciation and Interest",
+          "pp. 1–98",
+          "2485877"
+        ]
+      ],
+      "jstor_edicao": "i322384",
+      "colecao": "eua",
+      "ensaio": true
+    },
+    {
+      "slug": "1897-a-industria-do-algodao",
+      "numero": 51,
+      "titulo": "Hammond, 1897: o algodão que o crédito obrigava a plantar",
+      "titulo_original": "The Cotton Industry. An Essay in American Economic History. Part I: The Cotton Culture and the Cotton Trade",
+      "autores": "M. B. Hammond, Ph.D., Assistant in Economics, University of Illinois; Sometime University Fellow in Finance, Columbia University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "Nova série, nº 1",
+      "data": "dezembro de 1897",
+      "chamada": "Em 1897, M. B. Hammond mostrou por que o agricultor do Sul americano plantava mais algodão quando o preço caía: a safra estava penhorada ao comerciante antes de ir para a terra.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Condado de Montgomery, Alabama, anos 1890. O formulário é impresso, com lacunas para nome, valor e data. O agricultor declara que recebeu adiantamentos em mulas, provisões e ferramentas “para fazer uma safra”, e que sem eles não conseguiria plantar. Renuncia a todas as isenções que a Constituição e as leis do estado lhe garantem. Cede ao credor toda a colheita de algodão, caroço, milho, forragem, ervilha e batata. Se não pagar, o credor pode tomar a safra e os bens, vendê-los quando quiser e leiloar a terra no Artesian Basin de Montgomery, depois de quatro semanas de aviso no jornal."
+        },
+        {
+          "tipo": "p",
+          "texto": "O documento está reproduzido em The Cotton Industry, de M. B. Hammond, assistente de economia da Universidade de Illinois. O livro abriu a nova série das Publications, em dezembro de 1897. É a tese de doutorado do autor na Escola de Ciência Política da Universidade Columbia. O plano incluía a manufatura do algodão, adiada para outra obra; este volume trata da lavoura e do comércio. A pesquisa somou bibliotecas, entrevistas com operadores de Nova York e uma viagem pelos estados algodoeiros no outono de 1895."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O algodão criou a escravidão americana?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não, responde Hammond. A escravidão já existia havia um século e meio nas colônias inglesas quando ocorreu a alguém usar trabalho escravo no algodão. O que a fibra fez foi dar à instituição um papel central. Depois da descaroçadeira de Eli Whitney, a lavoura se espalhou para as terras novas do Sudoeste e puxou consigo a demanda por escravizados, sobretudo depois do fim do tráfico africano. O preço de uma pessoa escravizada passou a acompanhar o algodão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1.400",
+          "texto": "Valor médio de um trabalhador de campo apto para o algodão no Sudoeste em 1860, segundo Olmsted, citado por Hammond; às vezes chegava a US$ 2.000. Ao fim da Revolução, os melhores custavam US$ 200. Em 1836, uma estimativa de época punha em US$ 600 o valor médio dos escravizados enviados da Virgínia para o Sul. Em 1850, o número empregado em todas as outras lavouras mal superava o total de escravizados do país em 1790."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os políticos sulistas tiravam daí uma tese: sem escravidão não haveria algodão, e sem algodão a indústria da Europa pararia. Hammond mostra que nem Lancashire acreditou. Em discurso em Londres, em 16 de junho de 1863, John Bright sustentou que o algodão do trabalho escravo era um mau negócio para os próprios fiandeiros ingleses:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a oferta há de ser sempre insuficiente e, em segundo lugar, sempre insegura”",
+          "original": "“the supply must always be insufficient, and, second, that it must always be insecure”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os números do pós-guerra encerraram a discussão. Em 1876, a safra já correspondia à de 1860, a maior anterior à guerra: pouco mais de 2 bilhões de libras-peso, em menos de 12 milhões de acres. Em 1895, a produção chegava a 4,792 bilhões de libras, em cerca de 23 milhões de acres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que produzir o dobro rendia o mesmo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque o preço caiu mais depressa do que a produção cresceu. Até 1890, a queda foi lenta e compensada por adubos, frete mais barato e maior produtividade. Depois, despencou: a média em Nova York passou de 10,44 centavos por libra-peso entre 1880 e 1890 para 7,81 centavos entre 1891 e 1895. Segundo Hammond, quem colheu em 1894 o dobro de 1875 recebeu a mesma renda, e quase um terço menos do que com a safra menor de 1890."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 140 milhões",
+          "texto": "Perda aproximada no valor da safra entre 1890-91 e 1894-95, pelas contas de Hammond: de 8.652.597 fardos a 9,03 centavos, valendo US$ 429,8 milhões, para 9.901.251 fardos a 6,50 centavos, valendo US$ 289,8 milhões. Em 1893, a Comissão de Agricultura do Senado registrou consenso de que o algodão não dava lucro abaixo de 8 centavos, nem evitava prejuízo abaixo de 7."
+        },
+        {
+          "tipo": "p",
+          "texto": "Parte da explicação é geográfica. O Texas, sexto produtor em 1859, tinha em 1894-95 mais de um quarto da área plantada e quase um terço da produção, em terras novas que dispensavam adubo. Mas o centro do livro é outra pergunta: por que o agricultor do Leste continuava a plantar para um mercado em queda?"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem decidia o que plantar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O credor. Antes de 1860, o grande fazendeiro tomava empréstimo de um factor, o agente comercial dos portos, dando a safra em garantia; raramente se adiantava mais de 10 dólares por fardo esperado. A guerra destruiu essa base: já não havia escravizados para servir de garantia, a terra quase nada valia e as grandes fazendas se partiram em lotes de arrendatários. Logo após a guerra, quase todos os estados aprovaram as lien laws, que permitiam hipotecar a safra ainda não plantada. Hammond rejeita a crítica comum a essas leis: elas apenas legalizaram um sistema que já existia e era o único crédito possível."
+        },
+        {
+          "tipo": "p",
+          "texto": "O emprestador passou a ser o comerciante da vila. Ele quase nunca emprestava dinheiro. Adiantava milho, toucinho, roupas, ferramentas e adubo, e cobrava o juro embutido no preço a prazo. Com a hipoteca registrada, nenhum outro comerciante vendia fiado ao devedor, e a colheita ia para o credor ao preço do dia. No sul da Geórgia, a farinha que valia US$ 3 à vista em 1º de março saía por US$ 4 a crédito, com desconto de 25 centavos por mês até agosto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40% a 110%",
+          "texto": "Juro anual equivalente embutido no preço a prazo de milho e toucinho, segundo tabelas que Hammond montou com dados dos departamentos de agricultura da Geórgia e da Louisiana: os preços a crédito ficavam 20% a 55% acima dos preços à vista nas mesmas lojas, por prazos em geral de seis meses ou menos. No Alabama, 90% dos plantadores compravam assim, pagando em média 25% a mais. No cinturão do algodão, estima o autor, três quartos compravam “a prazo”."
+        },
+        {
+          "tipo": "p",
+          "texto": "A escolha da garantia virou escolha da lavoura. O algodão tinha venda certa o ano inteiro e era conhecido no Sul como “a lavoura do dinheiro”. Milho e toucinho, ao contrário, eram exatamente o que o comerciante vendia; se o agricultor os produzisse, deixaria de precisar de crédito. Hammond cita Henry W. Grady, em 1889, sobre o agricultor que tentou diversificar:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“foi avisado de que reduzir a área de algodão era reduzir sua linha de crédito”",
+          "original": "“he was notified that reducing his cotton acreage was reducing his line of credit”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado é o paradoxo do livro: quanto mais o preço caía, mais algodão se plantava para pagar a dívida, e mais o preço caía. Hammond não demoniza o comerciante. Lembra que o lucro remunera risco, que muitos desses credores quebravam e que todos carregavam contas não liquidadas de um ano para outro. Mas conclui que a maioria dos plantadores estava presa ao algodão “por uma lei tão inexorável quanto qualquer outra já promulgada” (“by a law as inexorable as any ever promulgated”), mais dura que a de qualquer governo, porque lei se contorna e a ordem do credor, não."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os bancos não ocupavam esse espaço?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque quase não existiam. Em setembro de 1895, os dez estados algodoeiros tinham 417 bancos nacionais, 214 deles no Texas: um para cada 33.660 habitantes, contra um para cada 16.600 no país. A lei exigia capital mínimo de US$ 50 mil e proibia esses bancos de emprestar sobre terra. Na Geórgia, 123 condados não tinham nenhum banco."
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde havia banco, o teto legal do juro se contornava com facilidade. Numa parte da Geórgia, o máximo era 8% ao ano, mas os bancos rurais descontavam principal e juro a 15%: quem pedia 100 dólares por um ano recebia US$ 91,66 e devolvia US$ 108, quase 18% de custo efetivo. As agências de crédito hipotecário, de capital nortista, cobravam taxas e retinham o primeiro ano de juros; um plantador da Geórgia que tomou US$ 400 recebeu US$ 335."
+        },
+        {
+          "tipo": "p",
+          "texto": "A exceção que o autor destaca é o National Bank of Newberry, na Carolina do Sul, descrito pelo major Harry Hammond em 1883. O capital de US$ 150 mil fora subscrito no próprio condado. Três quartos das 654 contas eram de agricultores, o desconto desde 1872 variava de 7% a 12%, e os créditos duvidosos de dez anos não chegavam a US$ 6 mil. Não se pediam penhoras de safra: bastava o aval de vizinhos, que se garantiam uns aos outros. Ainda assim, um correspondente da mesma região estimava em 1893 que três quartos dos agricultores locais estavam insolventes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual era o remédio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hammond descarta, um a um, os planos em voga: campanhas para reduzir a área plantada, imposto sobre o acre de algodão, cunhagem livre de prata, proibição dos contratos futuros, um truste de plantadores, corte de tarifas. Todos supunham que o agricultor escolhia o que plantar, e a maioria não escolhia. A saída, para ele, era crédito: as cooperativas de crédito ou “bancos do povo” da Europa continental, fundadas quase meio século antes e nunca tentadas nos Estados Unidos. Nada de caridade, adverte, mas sempre iniciadas por alguém disposto a bancar o primeiro experimento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os contratos futuros eram jogo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O livro termina com o mercado, e aqui Hammond toma o lado impopular. Os chamados anti-optionists acusavam os vendedores a descoberto de derrubar o preço com algodão fictício, negociado em volume oito ou dez vezes maior que a safra. O autor responde que, pela regra 4 da Bolsa de Algodão de Nova York, todo contrato obrigava à entrega; que a Suprema Corte, em Irwin v. Williar e Bibb v. Allen, recusara tratá-los como aposta; e que, se o preço cai abaixo do que indicam as estimativas de safra, os vendedores correm a recomprar. Admite o jogo: com uma ou duas centenas de dólares de margem, gente sem conhecimento do mercado especulava. Mas proibir a venda a termo seria um golpe no mecanismo moderno do comércio, e o golpe cairia com mais força sobre os produtores do Sul, que vendiam a safra meses antes de colhê-la."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o melhor do livro é tratar a superprodução como resultado de um contrato, não de um erro de cálculo do agricultor. Quando o crédito, a venda de insumos e a compra da safra estão na mesma mão, a garantia aceita pelo credor decide a alocação da terra. O preço a prazo era juro sem nome, e o teto da usura, ao ser contornado por descontos e comissões, só tornava o custo menos visível. Hammond percebe também que campanhas para “plantar menos” fracassam quando quem planta não decide.",
+            "A segunda lição é sobre o remédio. Ele não pede ao Estado que fixe preço ou área; pede instituições que deem ao pequeno produtor acesso a crédito sem entregar a safra inteira ao fornecedor. O exemplo de Newberry mostra a força do aval entre vizinhos e do capital local, e o depoimento de 1893 mostra o limite de um banco isolado. E a defesa dos futuros é um lembrete útil: o mercado que transmite a má notícia do preço raramente é a causa dela."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Penhor de safra (crop lien)",
+          "garantia sobre a colheita futura, registrada antes do plantio, que dá ao credor o primeiro direito sobre ela."
+        ],
+        [
+          "Lien laws",
+          "leis estaduais do pós-guerra que permitiram hipotecar safras ainda não colhidas ou não plantadas."
+        ],
+        [
+          "Factor",
+          "agente comercial das cidades portuárias que vendia o algodão do fazendeiro e lhe adiantava dinheiro."
+        ],
+        [
+          "Comerciante fornecedor (advancing merchant)",
+          "lojista do interior que adiantava mercadorias a crédito contra a futura colheita."
+        ],
+        [
+          "Preço a prazo",
+          "preço cobrado na venda fiada, acima do preço à vista; a diferença funcionava como juro."
+        ],
+        [
+          "Lei da usura",
+          "teto legal para a taxa de juros."
+        ],
+        [
+          "Desconto",
+          "empréstimo em que o juro é deduzido no ato, de modo que o tomador recebe menos do que o valor que devolve."
+        ],
+        [
+          "Contrato futuro",
+          "compromisso de comprar ou vender uma mercadoria numa data futura a preço fixado hoje."
+        ],
+        [
+          "Cooperativa de crédito",
+          "associação em que os próprios membros reúnem recursos e emprestam entre si, com responsabilidade comum."
+        ]
+      ],
+      "hoje": "A pergunta de Hammond continua viva no crédito rural: o que acontece quando quem vende o insumo também financia e compra a safra? Contratos de compra antecipada, crédito de fornecedores e cédulas lastreadas na produção são instrumentos úteis, mas concentram poder em quem controla a garantia. Tetos de juro ainda geram tarifas e descontos que escondem o custo efetivo, razão para exigir que ele seja informado. O aval solidário dos vizinhos de Newberry reaparece no microcrédito e nas cooperativas. E o debate sobre se os mercados futuros derrubam o preço das commodities volta a cada queda forte.",
+      "itens": [
+        [
+          "The Cotton Industry. An Essay in American Economic History: Part I. The Cotton Culture and the Cotton Trade",
+          "pp. 3–382",
+          "2485859"
+        ]
+      ],
+      "jstor_edicao": "i322386",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1899-o-censo-federal",
+      "numero": 52,
+      "titulo": "O censo sob exame: o que os números de 1890 não sabiam contar",
+      "titulo_original": "The Federal Census: Critical Essays by Members of the American Economic Association",
+      "autores": "Comissão de Richmond Mayo-Smith, Walter F. Willcox, Carroll D. Wright, Roland P. Falkner e Davis R. Dewey; ensaios de Franz Boas (Columbia University), Irving Fisher (Yale University), S. N. D. North, Charles J. Bullock (Cornell University), Carl C. Plehn (University of California), David Kinley (University of Illinois) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "Nova série, nº 2",
+      "data": "março de 1899",
+      "chamada": "Às vésperas do censo de 1900, economistas americanos auditaram o de 1890: mortes contadas de porta em porta, presos tomados por crimes, médias de salário sem sentido e um escritório desmontado a cada década.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O censo de 1890 registrou para Long Island uma área de 1.007 milhas quadradas. Medida por um especialista nos mapas do Coast Survey, a área verdadeira ficava a 1% de 1.353,8. Walter F. Willcox abre com esse erro o volume que a American Economic Association dedicou ao censo federal, publicado em março de 1899. Se nem a superfície de uma ilha estava certa, a pergunta seguinte era inevitável: o que valiam as contas de mortes, crimes, salários e riqueza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O livro nasceu de uma comissão criada na reunião de Cleveland, em dezembro de 1897, para estudar o método do décimo primeiro censo e propor o que se devia tentar no décimo segundo, o de 1900. Formavam a comissão Richmond Mayo-Smith, Willcox, Carroll D. Wright, Roland P. Falkner e Davis R. Dewey. A carta circular aos sócios fracassou, com cerca de sessenta respostas. Os convites para ensaios assinados deram resultado: são duas dezenas de textos, de autores independentes, sobre quase todos os capítulos do censo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual era o defeito, segundo a comissão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O diagnóstico do relatório é preciso: a crítica recai menos sobre a exatidão das respostas do que sobre o tratamento dos dados e a falta de continuidade de um censo para outro. A causa seria o pouco tempo dado por lei para preparar planos e questionários. O remédio, um escritório permanente sob as regras do serviço civil. A comissão também queria um censo menor e propunha transferir pesca, minas, irrigação, escolas, transporte e hipotecas a repartições que já publicavam estatísticas parecidas. William C. Hunt resumiu o problema numa frase:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Cada censo é uma lei em si mesmo”",
+          "original": "“Each census is a law unto itself”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pode-se contar num dia o que acontece ao longo de um ano?"
+        },
+        {
+          "tipo": "p",
+          "texto": "É o fio que une os ensaios de estatística vital e social. Irving Fisher, de Yale, explica que a mortalidade é um fluxo ao longo do ano, enquanto o censo fotografa a população num único dia: as mortes só se contam direito quando são registradas no momento em que ocorrem. O censo de 1850 mostrava uma morte para cada 51 vivos em Massachusetts e uma para cada 100 em Vermont, contraste que ele trata como prova de contagem falha. Fisher tirou daí uma regra:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Estatísticas inexatas, se não forem rotuladas, são muito piores que nenhuma”",
+          "original": "“Inaccurate statistics, unless so labeled, are far worse than none at all.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cressy L. Wilbur, do serviço de estatística vital de Michigan, mostra o mesmo defeito por outro lado. Fora da área de registro civil, a taxa de mortalidade apurada pelos recenseadores caiu de 13,42 por mil em 1880 para 10,79 em 1890, e o próprio censo atribuiu a queda a respostas mais incompletas, e não a uma melhora sanitária. Falkner aplica o argumento ao crime: o número de presos num dia depende das penas e não mede a criminalidade. Samuel M. Lindsay o aplica ao pauperismo: a lotação dos asilos num dia diz pouco sobre quem foi socorrido no ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 anos",
+          "texto": "Intervalo entre o ano coberto pelas estatísticas de mortalidade de 1890 e a distribuição, em 1898, do volume mais usado pelos serviços sanitários estaduais, segundo Wilbur. George K. Holmes calcula que a troca de governo em 4 de março de 1893 atrasou a conclusão do censo em pelo menos um ano. O relatório de manufaturas passou de 2.000 páginas de tabelas e mesmo assim trouxe só metade do detalhe planejado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os números da indústria enganavam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "S. N. D. North chama as estatísticas de manufaturas de as mais fracas do censo, embora estivessem entre as mais cuidadosamente compiladas. Eram usadas pelos dois lados do debate entre capital e trabalho, e cada lado achava nelas prova de qualquer tese. A medida era o valor, e o valor bruto contava o mesmo produto várias vezes: o fio entra no tecido, que entra na roupa. North resumiu assim:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nossas estatísticas de manufaturas são reservatórios de erro popular.”",
+          "original": "“Thus our manufacturing statistics are reservoirs of popular error.”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 2.204",
+          "texto": "Valor bruto médio do produto por empregado publicado pelo censo de 1890; o “líquido” dava US$ 999. Para North, os dois números estavam errados e não deviam ter saído. Na mesma linha, Charles J. Bullock condena o ganho anual médio obtido dividindo a folha pelo número de empregados, e William M. Steuart registra 82 centavos de capital por dólar de produto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema não se limita à indústria. Carl C. Plehn mostra que no inventário da riqueza nacional só itens que somam pouco mais de 10% do total tiveram método satisfatório. Também mostra que avaliações fiscais podem dobrar num ano sem que a riqueza mude. Mayo-Smith mostra que a lista de ocupações mudou de critério a cada censo, de 323 designações em 1850 para 218 em 1890. Dewey encontra 14,4 milhões de matrículas informadas pelas escolas contra 11,7 milhões de alunos declarados no questionário geral."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o volume pedia para 1900?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As propostas convergem: registro contínuo em vez de enumeração para mortes, crimes e auxílio aos pobres; classificações estáveis; menos médias e mais distribuições; indicação do erro provável ao lado de cada número; e um censo concentrado em população, agricultura e manufaturas. Há também agendas novas, como o inquérito de Franz Boas sobre a política indígena, o de N. I. Stone sobre o tamanho e a forma de posse das fazendas e o de David Kinley sobre o penhor de safra. O apêndice registra que a lei de 1899 já limitou as estatísticas de nascimentos e mortes às áreas com registro civil."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o volume é um manual de método disfarçado de crítica. A distinção que Fisher, Falkner e Lindsay repetem, entre o retrato de um dia e o fluxo de um ano, é a mesma que separa estoque de fluxo em qualquer conta econômica. A objeção de North ao valor bruto antecipa a lógica do valor adicionado, sem a qual não existe contabilidade nacional. Quase nada ali envelheceu, porque os erros apontados não eram de aritmética, e sim de definição.",
+            "O outro ponto é institucional. A comissão não culpa os funcionários; culpa um sistema que montava o escritório a cada dez anos e o desmontava em seguida, com nomeações políticas no meio. Estatística confiável depende de continuidade, de pessoal estável e de quem diga ao usuário quanto cada número vale. Um país pode ter dados abundantes e, ainda assim, não saber em quais acreditar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "enumeração",
+          "coleta feita pelo recenseador de casa em casa, referida a um único dia."
+        ],
+        [
+          "registro civil",
+          "anotação contínua de nascimentos e mortes no momento em que ocorrem, por certidões e licenças de sepultamento."
+        ],
+        [
+          "área de registro",
+          "estados e cidades cujos registros de óbito eram bons o bastante para calcular taxas confiáveis."
+        ],
+        [
+          "estoque e fluxo",
+          "o estoque é medido num instante (presos hoje); o fluxo, ao longo de um período (condenados no ano)."
+        ],
+        [
+          "taxa de mortalidade corrigida",
+          "taxa ajustada para que diferenças na composição por idade e sexo não distorçam comparações entre regiões."
+        ],
+        [
+          "tábua de vida",
+          "tabela que mostra, para cada idade, a probabilidade de sobreviver até a seguinte; base do cálculo da vida média."
+        ],
+        [
+          "dupla contagem",
+          "soma do valor bruto de produtos que servem de insumo a outros, contando o mesmo bem várias vezes."
+        ],
+        [
+          "avaliação ad valorem",
+          "valor atribuído à propriedade para cobrar imposto proporcional, distinto do valor de mercado."
+        ],
+        [
+          "penhor de safra (crop lien)",
+          "garantia sobre a colheita futura dada ao comerciante que adianta insumos e mantimentos."
+        ],
+        [
+          "sistema de espólio (spoils system)",
+          "prática de preencher cargos públicos com aliados do partido no poder."
+        ],
+        [
+          "tabulação Hollerith",
+          "sistema de cartões perfurados lidos por máquinas elétricas, usado no censo de 1890."
+        ]
+      ],
+      "hoje": "As perguntas de 1899 continuam sendo as de qualquer instituto de estatística. Mortes e nascimentos vêm hoje do registro civil, e não do recenseador; a contabilidade nacional mede valor adicionado para escapar da dupla contagem que North denunciou; e taxas padronizadas por idade são rotina. O Congresso americano tornou permanente o escritório do censo em 1902. Ficou o dilema institucional: estatística boa exige continuidade, independência e transparência sobre a margem de erro. Quando um desses três falta, os números continuam saindo, mas deixam de merecer confiança.",
+      "itens": [
+        [
+          "Report of the Committee on the Scope and Method of the Twelfth Census",
+          "pp. 1–7",
+          "2560481"
+        ],
+        [
+          "Area, Population, Birthplace, Migration and Conjugal Condition",
+          "pp. 8–37",
+          "2560482"
+        ],
+        [
+          "Colored Population of African Descent",
+          "pp. 38–48",
+          "2560483"
+        ],
+        [
+          "The Census of the North American Indians",
+          "pp. 49–53",
+          "2560484"
+        ],
+        [
+          "Age, Sex, Dwellings and Families, and Urban Population",
+          "pp. 54–67",
+          "2560485"
+        ],
+        [
+          "Illiteracy and Educational Statistics",
+          "pp. 68–77",
+          "2560486"
+        ],
+        [
+          "Statistics of Occupations",
+          "pp. 78–107",
+          "2560487"
+        ],
+        [
+          "The Mortality Statistics of the Eleventh Census",
+          "pp. 108–120",
+          "2560488"
+        ],
+        [
+          "Mortality Statistics of the United States Census",
+          "pp. 121–169",
+          "2560489"
+        ],
+        [
+          "Statistics of Crime in the United States Census",
+          "pp. 170–183",
+          "2560490"
+        ],
+        [
+          "Pauperism and Benevolence",
+          "pp. 184–203",
+          "2560491"
+        ],
+        [
+          "Agriculture",
+          "pp. 204–218",
+          "2560492"
+        ],
+        [
+          "Farm and Home Proprietorship and Real Estate Mortgage Indebtedness",
+          "pp. 219–245",
+          "2560493"
+        ],
+        [
+          "The Statistics of Transportation",
+          "pp. 246–256",
+          "2560494"
+        ],
+        [
+          "Manufactures in the Federal Census",
+          "pp. 257–302",
+          "2560495"
+        ],
+        [
+          "The Report of the Eleventh Census on Manufactures",
+          "pp. 303–327",
+          "2560496"
+        ],
+        [
+          "Statistics of Manufactures in Cities",
+          "pp. 328–342",
+          "2560497"
+        ],
+        [
+          "Wage Statistics and the Federal Census",
+          "pp. 343–368",
+          "2560498"
+        ],
+        [
+          "Valuation and Taxation",
+          "pp. 369–414",
+          "2560499"
+        ],
+        [
+          "Suggestions in Regard to the Statistics of Municipal Finance in the Census of 1900",
+          "pp. 415–465",
+          "2560500"
+        ],
+        [
+          "The Scope and Method of the Federal Census",
+          "pp. 466–494",
+          "2560501"
+        ],
+        [
+          "Extracts from Letters",
+          "pp. 495–503",
+          "2560502"
+        ],
+        [
+          "Appendix",
+          "pp. 504–510",
+          "2560503"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Report of the Committee on the Scope and Method of the Twelfth Census",
+          "autores": "Comissão da American Economic Association: Richmond Mayo-Smith, Walter F. Willcox, Carroll D. Wright, Roland P. Falkner e Davis R. Dewey",
+          "paginas": "pp. 1–7",
+          "resumo": "Relatório da comissão criada na reunião de Cleveland, em dezembro de 1897, e apresentado em 28 de dezembro de 1898. A carta circular aos sócios rendeu só cerca de sessenta respostas; os convites para ensaios assinados tiveram acolhida muito melhor. A comissão não endossa as conclusões de cada autor, mas resume o diagnóstico comum: o problema é menos a exatidão das respostas do que o tratamento dos dados e a falta de continuidade entre censos. Pede um escritório permanente sob as regras do serviço civil e a transferência de inquéritos secundários, como pesca, minas, escolas e hipotecas, a repartições especializadas.",
+          "jstor": "2560481"
+        },
+        {
+          "titulo": "Area, Population, Birthplace, Migration and Conjugal Condition",
+          "autores": "Walter F. Willcox",
+          "paginas": "pp. 8–37",
+          "resumo": "Willcox começa pelo que parece indiscutível, a área. O censo de 1890 deu a Long Island 1.007 milhas quadradas; a área verdadeira fica a 1% de 1.353,8. Define população como presença física no dia do censo ou residência e estima, pelas contagens estaduais que cobriram 27% do país, que a enumeração federal ficou provavelmente a 1% da verdade. Contesta a tese oficial de que o imigrante tem “apetite” pela cidade: o estrangeiro entra pelos portos e depois se dispersa. Mostra que os migrantes internos superam os estrangeiros e desconfia das respostas sobre divórcio, que dependem da veracidade de quem responde.",
+          "jstor": "2560482"
+        },
+        {
+          "titulo": "Colored Population of African Descent",
+          "autores": "W. Z. Ripley (Massachusetts Institute of Technology)",
+          "paginas": "pp. 38–48",
+          "resumo": "Ripley trata da contagem da população negra. O censo de 1890 confirmou que a enumeração de 1870 fora incompleta, com falta estimada por Walker em pelo menos 300 mil pessoas, o que inflou o crescimento aparente da década seguinte. Em 1890 o aumento foi de 13,5%, cerca de metade do registrado entre os brancos. Para a migração, basta manter as perguntas de nascimento e residência de 1890. A comissão registra sua crítica a perguntas que o recenseador não consegue responder. A proposta central é um inquérito especial sobre a população rural do Sul, que combine dados econômicos, médicos e de natalidade, não só de mortalidade.",
+          "jstor": "2560483"
+        },
+        {
+          "titulo": "The Census of the North American Indians",
+          "autores": "Franz Boas (Columbia University)",
+          "paginas": "pp. 49–53",
+          "resumo": "Boas sustenta que os dados sobre os povos indígenas devem ser colhidos pelos funcionários do serviço indígena, que convivem com as tribos e lidam com a barreira das línguas e dos intérpretes. A informação etnográfica caberia ao Bureau of American Ethnology; o censo deveria limitar-se à demografia. Propõe medir três efeitos da política oficial: o loteamento individual da terra, os internatos e escolas diurnas, e a ascendência mista. Nota que a opinião corrente sobre esse último ponto não tinha base estatística. Por isso sugere medições repetidas de crianças nas escolas, com intervalo mínimo de um ano, e registros de fecundidade nas agências.",
+          "jstor": "2560484"
+        },
+        {
+          "titulo": "Age, Sex, Dwellings and Families, and Urban Population",
+          "autores": "George K. Holmes (U. S. Department of Agriculture)",
+          "paginas": "pp. 54–67",
+          "resumo": "Holmes parte das restrições práticas: um plano de população, agricultura e manufaturas precisa ser tabulado em cerca de cinco anos, com boa parte dos resultados em dois ou três. Defende cortar perguntas e evitar tabelas inúteis, como as que registram duas mortes por escarlatina num distrito. Culpa o sistema de nomeações políticas, que teria atrasado a conclusão do censo em pelo menos um ano após a troca de governo de 4 de março de 1893. Pede um escritório independente, subordinado ao presidente. Discute as definições de domicílio e família e propõe tabular a relação com o chefe da família e o transporte suburbano.",
+          "jstor": "2560485"
+        },
+        {
+          "titulo": "Illiteracy and Educational Statistics",
+          "autores": "Davis R. Dewey (Massachusetts Institute of Technology)",
+          "paginas": "pp. 68–77",
+          "resumo": "Dewey reconstrói a pergunta sobre analfabetismo desde 1840. Em 1870 o censo passou a separar quem não sabe ler de quem não sabe escrever, porque muitos diziam ler para não admitir a ignorância; a conta de quem não escreve virou a medida de fato. Critica tabulações mal escolhidas, como a da língua de quem não fala inglês. O ponto mais duro é a incoerência entre fontes: as matrículas informadas pelas escolas somam 14.373.670, contra 11.674.878 pessoas que declararam frequentar a escola no questionário geral. Conclui que as estatísticas escolares deveriam ficar com o Bureau of Education, que já as publica todo ano.",
+          "jstor": "2560486"
+        },
+        {
+          "titulo": "Statistics of Occupations",
+          "autores": "Richmond Mayo-Smith (Columbia University)",
+          "paginas": "pp. 78–107",
+          "resumo": "Para Mayo-Smith, a população vista pela economia é força de trabalho, e a classificação por ocupação deve servir a esse fim. Mostra como cada censo mudou o critério: 323 designações em 1850, 584 em 1860, 338 em 1870, 265 em 1880 e 218 em 1890. Em 1890 abandonou-se a classificação por grandes indústrias, e as comparações se perderam. Pede que os “trabalhadores” genéricos, hoje em serviços pessoais, sejam alocados à agricultura, ao transporte ou às manufaturas. Também quer o ramo de atuação dos escriturários. Recomenda abandonar a pergunta sobre meses de desemprego e tabular os dependentes de cada assalariado.",
+          "jstor": "2560487"
+        },
+        {
+          "titulo": "The Mortality Statistics of the Eleventh Census",
+          "autores": "Cressy L. Wilbur (Division of Vital Statistics, Lansing, Michigan)",
+          "paginas": "pp. 108–120",
+          "resumo": "Wilbur mostra que os volumes de estatísticas vitais crescem em tamanho e atraso a cada censo: o mais usado pelos serviços sanitários de 1890 só foi distribuído em 1898. O defeito de fundo é colher mortes por enumeração, e não por registro civil. Fora da área de registro, a taxa obtida pelos recenseadores caiu de 13,42 por mil em 1880 para 10,79 em 1890. O próprio censo atribuiu a queda a respostas mais incompletas, e não a melhora sanitária. Pede escritório permanente, cooperação com os registros estaduais, publicação rápida e taxas calculadas sobre a população, em vez de proporções de mortes.",
+          "jstor": "2560488"
+        },
+        {
+          "titulo": "Mortality Statistics of the United States Census",
+          "autores": "Irving Fisher (Yale University)",
+          "paginas": "pp. 121–169",
+          "resumo": "Fisher dá o argumento mais claro do volume: a mortalidade é um fluxo ao longo do ano, e o censo fotografa a população num único dia. O censo de 1850 mostrava uma morte para cada 51 vivos em Massachusetts e uma para cada 100 em Vermont, contraste que ele trata como prova de contagem falha. O ensaio discute limites de precisão, taxas de mortalidade corrigidas pela composição por idade, vida média e tábuas de vida. A primeira recomendação é abolir a enumeração de mortes. As demais: indicar o erro provável de cada número, cortar dígitos sem significado e calcular taxas sobre a população no meio do ano.",
+          "jstor": "2560489"
+        },
+        {
+          "titulo": "Statistics of Crime in the United States Census",
+          "autores": "Roland P. Falkner (University of Pennsylvania)",
+          "paginas": "pp. 170–183",
+          "resumo": "Falkner separa duas coisas que o censo confundia: estatística de presos e estatística de crime. O número de detentos num dia depende de quantos entram por ano e da duração das penas, e por isso não mede a quantidade de crime. A medida certa é uma taxa anual, comparável às de nascimento e morte. Como a multiplicidade de tribunais impede contar os casos julgados, ele propõe contar as admissões nas prisões por condenação ao longo do ano, com um modelo uniforme de registro prisional. Seriam números anuais para penas de um ano ou mais e decenais para as menores, mesmo à custa das séries históricas.",
+          "jstor": "2560490"
+        },
+        {
+          "titulo": "Pauperism and Benevolence",
+          "autores": "Samuel M. Lindsay (University of Pennsylvania)",
+          "paginas": "pp. 184–203",
+          "resumo": "Lindsay reconstrói como o censo tratou a dependência desde 1830 e mostra o mesmo defeito do caso do crime: contar asilados num dia diz pouco sobre o pauperismo de um ano. Cita o teste de Walker em Nova York: os livros das instituições registraram 59.136 admissões no ano, muito acima da lotação num dia, sem contar o auxílio domiciliar a 101.796 pessoas. O auxílio fora dos asilos, que o censo dizia não conseguir medir, ficava de fora. A lista de instituições beneficentes era incompleta e misturava lares mútuos pagos. Propõe contagens mensais de internos e um levantamento do auxílio domiciliar nos registros locais.",
+          "jstor": "2560491"
+        },
+        {
+          "titulo": "Agriculture",
+          "autores": "N. I. Stone (Columbia University)",
+          "paginas": "pp. 204–218",
+          "resumo": "Stone parte de um fato do texto: a agricultura ainda empregava mais gente que qualquer outra atividade e respondia pela maior parte das exportações. A pergunta econômica era se a pequena propriedade resistia à grande depois da mecanização, e o censo não permitia respondê-la. A classificação por posse inflava o número de estabelecimentos: quem possuía 100 acres e arrendava mais 50 aparecia como dois estabelecimentos. Ele propõe classificar por tamanho e forma de posse (própria, mista, arrendamento em dinheiro ou em parceria) e cruzar com área cultivada, máquinas, adubos, salários e, quando houver, dívida hipotecária.",
+          "jstor": "2560492"
+        },
+        {
+          "titulo": "Farm and Home Proprietorship and Real Estate Mortgage Indebtedness",
+          "autores": "David Kinley (University of Illinois)",
+          "paginas": "pp. 219–245",
+          "resumo": "Kinley avalia o inquérito mais difícil do censo de 1890, sobre propriedade de fazendas e casas e dívida hipotecária, inédito nessa escala e iniciado na última hora. O modelo foi o relatório de 1888 de J. S. Lord sobre hipotecas em Illinois. Elogia o volume de hipotecas como trabalho estatístico raro e critica o excesso de agrupamentos e um resumo de quatro páginas. A falha principal é omitir o penhor de safra, que no Sul faz o papel da hipoteca e deixa a região com dívida aparente baixa. Pede repetir o inquérito, com agentes especiais de formação jurídica, porque uma investigação isolada vale pouco.",
+          "jstor": "2560493"
+        },
+        {
+          "titulo": "The Statistics of Transportation",
+          "autores": "Emory R. Johnson e Walter E. Weyl (University of Pennsylvania)",
+          "paginas": "pp. 246–256",
+          "resumo": "Os autores defendem dois tipos de relatório: anual, para acompanhar setores regulados ou subsidiados, e decenal, mais detalhado e comparativo. Ferrovias eram fáceis, porque já reportavam à Interstate Commerce Commission. Já o transporte fluvial e de cabotagem não tinha estatística anual, e não teria até o Congresso obrigar os transportadores a manter registros. Nas companhias de expresso, uma empresa estrangeira se recusou a responder. Na capitalização ferroviária, sugerem mostrar lado a lado o valor de mercado e o valor nominal das ações, e separar o aumento real do capital do aumento nominal, fruto de conversões e fusões.",
+          "jstor": "2560494"
+        },
+        {
+          "titulo": "Manufactures in the Federal Census",
+          "autores": "S. N. D. North",
+          "paginas": "pp. 257–302",
+          "resumo": "North chama as estatísticas de manufaturas de as mais fracas do censo e as mais sujeitas a leituras erradas. São usadas por todos os lados do debate entre capital e trabalho. O padrão de medida é o valor, que mudou com a moeda: 1860 em ouro, 1870 em papel-moeda. O valor bruto conta o mesmo produto várias vezes: o fio da fiação entra no tecido, que entra na roupa. As médias de produto por empregado, de US$ 2.204 no valor bruto e US$ 999 no “líquido”, não deveriam ter sido publicadas. Conclui que nenhum par de censos foi comparável e que só um escritório permanente acumula experiência.",
+          "jstor": "2560495"
+        },
+        {
+          "titulo": "The Report of the Eleventh Census on Manufactures",
+          "autores": "William M. Steuart",
+          "paginas": "pp. 303–327",
+          "resumo": "Steuart descreve por dentro o relatório de manufaturas de 1890: três partes, mais de 2.000 páginas de tabelas e ainda assim só metade do detalhe planejado. Houve 27 questionários especiais e um geral, e uma parte inteira para as 165 cidades com 20 mil habitantes ou mais. Registra o consenso de limitar o censo de 1900 a população, agricultura e manufaturas. Na polêmica sobre o capital, defende perguntá-lo diretamente ao industrial em vez de estimá-lo. O censo mostrara 82 centavos de capital por dólar de produto, e uma estimativa teórica seria menos aceita que a soma das respostas.",
+          "jstor": "2560496"
+        },
+        {
+          "titulo": "Statistics of Manufactures in Cities",
+          "autores": "Worthington C. Ford (Boston Public Library)",
+          "paginas": "pp. 328–342",
+          "resumo": "Ford reconstitui as tentativas de medir a indústria americana, dos inquéritos do período colonial ao relatório de Hamilton e às tabelas de Tench Coxe sobre 1810. Depois examina o volume de 1890 dedicado às manufaturas das cidades. Seu veredito é negativo: diz que só consultou o volume para resolver rivalidades locais sobre a posição de uma cidade num setor. A separação entre indústria urbana e rural seria uma distinção sem fundamento estatístico, que só acrescenta imprecisão. Sugere, em vez disso, estudos de setores específicos feitos por especialistas, como os do Office du Travail francês sobre a pequena indústria de Paris.",
+          "jstor": "2560497"
+        },
+        {
+          "titulo": "Wage Statistics and the Federal Census",
+          "autores": "Charles J. Bullock (Cornell University)",
+          "paginas": "pp. 343–368",
+          "resumo": "Bullock refaz a história das estatísticas salariais do censo. Em 1850 e 1860, os marshals visitavam as fábricas sem questionário prévio e recebiam 15 centavos por estabelecimento. O erro central é dividir a folha de pagamentos pelo número médio de empregados e chamar isso de ganho anual médio: a média mistura homens, mulheres e crianças e ofícios distintos. Comparar essas médias com as de 1850 a 1880 é inválido, embora estatísticos eminentes o tenham feito. O melhor material de 1890 são as tabelas de salários semanais por classe de trabalhador. Propõe apresentá-las em curva, pelo método de Venn, e somar a elas as semanas efetivamente trabalhadas.",
+          "jstor": "2560498"
+        },
+        {
+          "titulo": "Valuation and Taxation",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 369–414",
+          "resumo": "Plehn separa os dois fins que o censo misturava: o inventário da riqueza nacional e o retrato das finanças públicas. A herança dessa mistura explica termos como “valor verdadeiro”, que antes se referia à propriedade tributada e em 1890 passou a abranger toda a riqueza, mas continuou sendo comparado com os números antigos. No inventário, só os itens que somam pouco mais de 10% do total tiveram método satisfatório; os outros quase 90% são duvidosos. Mostra ainda que a avaliação para fins fiscais não mede riqueza: a revisão da lei fiscal da Califórnia em 1872 mais que dobrou as avaliações num só ano.",
+          "jstor": "2560499"
+        },
+        {
+          "titulo": "Suggestions in Regard to the Statistics of Municipal Finance in the Census of 1900",
+          "autores": "Henry B. Gardner (Brown University)",
+          "paginas": "pp. 415–465",
+          "resumo": "Gardner propõe reorganizar as finanças municipais do censo. O de 1890 dispersava dívida, avaliação, impostos, receitas e despesas em partes diferentes e não oferecia visão de conjunto. Seis sugestões resumem o texto: tratar todos os ramos juntos, separar tipos de município, agrupar cidades por população e por estado, condensar os dados dos municípios menores, separar a despesa de operação da despesa com obras e equipamentos, e publicar valores per capita. Critica a tabela que combinava receitas e despesas de estados, condados e municípios, que julgou confusa. Anexa modelos de questionário e lembra que a finança municipal só se entende junto às do condado, do estado e da União.",
+          "jstor": "2560500"
+        },
+        {
+          "titulo": "The Scope and Method of the Federal Census",
+          "autores": "William C. Hunt (U. S. Department of Labor)",
+          "paginas": "pp. 466–494",
+          "resumo": "Hunt culpa o caráter temporário do sistema. Até 1850 bastava contar pessoas por cor, sexo e idade; depois vieram perto de cem perguntas sobre agricultura, indústria, mortalidade, escolas e impostos, mas a máquina continuou provisória. Descreve a supervisão dos recenseadores e a tabulação elétrica de Herman Hollerith, usada em 1890, em que os dados de cada pessoa viravam furos num cartão. Atribui os atrasos ao acúmulo de quinze ou vinte inquéritos simultâneos e a classificações que não se preservavam de um censo para outro. O remédio seria um escritório permanente.",
+          "jstor": "2560501"
+        },
+        {
+          "titulo": "Extracts from Letters",
+          "autores": "Seleção da comissão; inclui a resposta integral de F. L. Hoffman e excerto de carta de Herbert Myrick",
+          "paginas": "pp. 495–503",
+          "resumo": "Das cerca de sessenta respostas à carta circular, a comissão resume as sugestões de novos dados. A lista inclui faixas etárias para identificar trabalhadores menores de 14 e de 16 anos e a distribuição da propriedade de imóveis. Também pede a velocidade de circulação dos depósitos bancários, a estatística de corporações e a indicação do erro provável de cada número. Aparecem pedidos contraditórios: estreitar o escopo do censo e contar a população a cada cinco anos. A resposta de Hoffman sai na íntegra, com propostas sobre riscos de saúde por ocupação e sobre o serviço público, e Myrick escreve sobre a agricultura no censo.",
+          "jstor": "2560502"
+        },
+        {
+          "titulo": "Appendix",
+          "autores": "Nota assinada W. F. W. (Walter F. Willcox)",
+          "paginas": "pp. 504–510",
+          "resumo": "Enquanto o volume estava no prelo, o Congresso aprovou a lei do décimo segundo censo. O apêndice põe lado a lado as oito primeiras seções da lei de 1899 e da lei de 1889, as que concentram as diferenças relevantes. A nova lei restringe o núcleo do censo à população, às mortes e à produção agrícola e manufatureira. Inquéritos sobre classes especiais, crime, pauperismo, finanças públicas e transporte ficam para depois do trabalho principal. As estatísticas de nascimentos e mortes passam a vir só dos registros de estados e cidades com dados satisfatórios, como pediam Wilbur e Fisher.",
+          "jstor": "2560503"
+        }
+      ],
+      "jstor_edicao": "i323687",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1900-a-decima-segunda-reuniao-anual",
+      "numero": 53,
+      "titulo": "Ithaca, 1899: o truste, o especulador e a moral do economista",
+      "titulo_original": "Papers and Proceedings of the Twelfth Annual Meeting, Ithaca, N. Y., December 27–29, 1899",
+      "autores": "Arthur T. Hadley (Yale University), Richard T. Ely (University of Wisconsin), Henry C. Emery (Bowdoin College), E. Dana Durand (Stanford University), Charles S. Fairchild, Sidney Sherwood (Johns Hopkins University), James B. Dill, W. H. Baldwin Jr. (Long Island Railroad), B. H. Meyer (University of Wisconsin), Henry C. Adams (University of Michigan), John Graham Brooks, Walter F. Willcox (Cornell University) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 1, nº 1",
+      "data": "fevereiro de 1900",
+      "chamada": "Cornell, dezembro de 1899: como se montava um truste, se ele era seleção natural ou perigo, quem paga a obra pública e se o economista fala pelo país ou por uma classe.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na manhã de 28 de dezembro de 1899, em Ithaca, a American Economic Association dedicou uma sessão inteira a um tema que o programa anunciava entre parênteses: combinações ou trustes. Charles S. Fairchild abriu explicando como se financia um truste a partir de um exemplo rural. Alguns fazendeiros donos de leiterias concluem que fabricar e vender manteiga e queijo juntos rende mais do que cada um na sua fazenda. Às vezes a ideia vem de quem quer o emprego de gerente da fábrica; às vezes, da conversa entre eles. No primeiro caso há um promotor; no segundo, não."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese de Fairchild era que o grande truste industrial não passava de uma queijaria cooperativa com mais papelada. O que o distinguia, dizia, era imposto pelas leis estaduais das sociedades anônimas, pela necessidade de levantar dinheiro e pela conveniência de dividir os lucros em títulos que pudessem ser vendidos ou deixados aos herdeiros. Na substância, nenhuma diferença. Os dois outros expositores da manhã, Sidney Sherwood e James B. Dill, e a dezena de economistas que falaram depois, discordaram em quase tudo, menos num ponto: o truste viera para ficar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se montava um truste em 1899?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairchild descreveu a operação passo a passo, com um promotor fictício, John Doe. Doe obtém opções de compra sobre dez fábricas e propõe uma nova companhia com capital de US$ 20 milhões, metade em ações preferenciais e metade em ordinárias. Um banco forma um sindicato de subscrição que paga em dinheiro pelas preferenciais e recebe de bônus a mesma quantidade em ordinárias. Os antigos donos recebem parte em ações e parte em dinheiro; outra parte do dinheiro fica no caixa como capital de giro, para que a empresa não dependa mais de descontar seus títulos, alívio que, segundo Fairchild, atraía muitos fabricantes para as fusões."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14.950 ações",
+          "texto": "O que sobrava ao promotor no exemplo de Fairchild: ações ordinárias com valor nominal de US$ 1.495.000, depois de pagar ao banco a comissão de 5.000 ações. O sindicato entrava com US$ 4 milhões em dinheiro e recebia US$ 4 milhões em preferenciais e outros US$ 4 milhões em ordinárias. Desse dinheiro, US$ 1 milhão ficava na empresa como capital de giro."
+        },
+        {
+          "tipo": "p",
+          "texto": "A regra prática, segundo Fairchild, era limitar as preferenciais ao valor dos ativos tangíveis e deixar às ordinárias o goodwill, os lucros esperados e as despesas de promoção. Num caso que ele considerou conservador, o goodwill foi avaliado em cinco vezes o lucro que excedia 7% sobre o capital empregado, descontadas comissões sobre vendas e depreciação. Noutro, o prospecto nem mencionava lucros passados e supunha um preço de venda igual ao dobro do custo; a emissão não encontrou compradores. Fairchild via uma vantagem nas fusões recentes: quase nenhuma emitira debêntures, e por isso a próxima depressão não traria a safra de reorganizações que as ferrovias conheceram."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O truste era seleção natural ou perigo público?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sherwood, da Johns Hopkins, fez a defesa mais franca. A frase de Mill de que a indústria é limitada pelo capital teria perdido o sentido; o limite agora era a capacidade de organização do empresário. As depressões longas seriam obra do empresário fraco que, com muito capital nas mãos, mergulha às cegas na linha errada de produção e arrasta os outros. A formação de trustes seria um processo de seleção natural da mais alta ordem, e o único monopólio duradouro seria o da habilidade gerencial, temporário por natureza."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A real função do truste é livrar-se do empresário fraco.”",
+          "original": "“The real function of the trust is to get rid of the weak entrepreneur.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sherwood não pedia ausência de Estado. Onde houvesse monopólio permanente, queria supervisão, regulação de preço ou tributação de parte do lucro. Para as combinações interestaduais, sugeria uma lei federal nos moldes do National Bank Act e um Departamento de Comércio e Manufaturas que registrasse, inspecionasse e publicasse. A lei do comércio interestadual, a seu ver, errara ao proibir o pooling das ferrovias em vez de mandar a comissão regulá-lo. No debate, resumiu a posição: não se dizia otimista, mas fatalista."
+        },
+        {
+          "tipo": "p",
+          "texto": "James B. Dill, advogado de sociedades anônimas, apontou quatro tendências que poderiam tornar-se perigosas: capitalização excessiva, fuga da publicidade, legislação feita para dispensar as companhias de prestar contas e especulação dos diretores com as ações da própria empresa. A raiz estaria no promotor e no financista, sobretudo nas comissões secretas pagas a quem empresta nome ou balcão a uma emissão. Uma companhia de milhões, dizia, podia ser organizada por pouco dinheiro e ter as ações emitidas a portas fechadas:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“não ‘dois por um’, mas literalmente ‘milhões por nada’”",
+          "original": "“not issuing ‘two for one’ but literally ‘millions for nothing’”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O remédio de Dill não era a lei dura, que ele chamava de histérica, mas uma lei de sociedades de alto padrão, voluntária, como a dos bancos nacionais: quem aceitasse prestar contas ganharia imunidades. Comparou com o trem. Ia-se de Nova York a Chicago por US$ 10 ou por US$ 35, e ninguém precisava de lei para que os passageiros de posses escolhessem o expresso; bastava não querer ser visto no trem dos imigrantes."
+        },
+        {
+          "tipo": "p",
+          "texto": "O debate mostrou as falhas dos dois lados. Jeremiah W. Jenks notou que Dill falara dos dois lados: se os trustes baixavam preços, não havia monopólio; se pagavam dividendos sobre capital inflado subindo preços ou cortando salários, havia. T. N. Carver separou o talento de produzir barato do talento de afastar rivais por estratégia e discriminação, e temeu que o truste premiasse o segundo. E. W. Bemis lembrou que nem das ferrovias se conseguia publicidade real. Davis R. Dewey e Samuel M. Lindsay perguntaram o que sobraria aos jovens sem empresa própria, e de onde sairiam os gênios de amanhã."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O economista fala pelo país ou por uma classe?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O discurso presidencial de Arthur T. Hadley, de Yale, deu a moldura moral da semana. Hadley separou a teoria da distribuição, que pode ser observada com a frieza do físico, da teoria da prosperidade, que julga o bem da nação inteira e por isso se mistura com ética e política. A concorrência, disse, não é luta entre classes, mas dentro de cada classe. Dois gatos que disputam o mesmo pássaro pioram a sorte do pássaro; dois patrões que disputam o mesmo operário melhoram a do operário."
+        },
+        {
+          "tipo": "p",
+          "texto": "A mesma lógica valia para o parlamento. Os legislativos tinham deixado de ser lugar de debate sobre o interesse comum para virar mesa de negociação de interesses locais, e a imprensa tomara seu lugar na formação da opinião. Hadley chamou isso de o maior mal da máquina política americana:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a substituição da convicção pelo compromisso como ideal da atividade legislativa”",
+          "original": "“substitution of compromise for conviction as the ideal of legislative activity”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A ponte com a manhã seguinte estava no próprio discurso. Para Hadley, os negócios tinham virado um truste no sentido original da palavra: uma delegação de poder do público a poucas pessoas, que podiam abusar dele sem castigo imediato do mercado ou da lei. Com o império colonial, o mesmo valia para o cargo público. O economista deveria ser o representante do interesse permanente de toda a comunidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "John R. Commons discordou de frente. Os economistas, disse, tiveram mais influência quando ajudaram uma classe em ascensão, como os clássicos ingleses de 1815 a 1845; o regime representativo se degradara não por representar classes, mas por ter deixado de representá-las. Quem representaria o todo seriam os economistas associados, não o economista individual. E. R. A. Seligman respondeu que, se isso fosse verdade, seria fatal para a ciência. H. H. Powers perguntou se votar pela licença dos bares fazia dele representante dos donos de bar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais passou pela pauta de Ithaca?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na tarde do primeiro dia, Richard T. Ely resgatou a teoria do monopólio de Nassau Senior, que nos anos 1830 já via monopólio em quatro dos cinco casos de produção que distinguia. Henry C. Emery perguntou onde cabe o lucro do especulador numa teoria da distribuição feita de salários, juros e lucros. E. Dana Durand atacou o hábito das grandes cidades de financiar com dívida obras que, somadas, se repetiam ano após ano com regularidade."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "mais de 1/4",
+          "texto": "Parcela da despesa total da cidade de Nova York em 1897 consumida por juros da dívida, quase US$ 8,5 milhões, e por quantia quase igual destinada ao fundo de amortização. Durand calculou ainda que uma obra paga com títulos de trinta anos a 3%, amortizados desde o início, custa quase metade a mais por causa dos juros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A sessão ferroviária tratou de gente e de contratos. W. H. Baldwin Jr., presidente da Long Island Railroad, descreveu as associações de socorro e seguro dos ferroviários, criadas primeiro pelos próprios empregados e só depois pelas companhias. B. H. Meyer mostrou cartas de concessão escritas ao acaso; Henry C. Adams listou o que uma lei de pools teria de conter. Na sexta-feira, John Graham Brooks apresentou o selo da Consumers' League contra o sweatshop, Walter F. Willcox explicou o censo de 1900 e uma comissão propôs princípios para as finanças das novas colônias."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que este número inaugura uma série?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque o Conselho decidiu, em Ithaca, encerrar os Economic Studies e começar uma publicação trimestral com o antigo nome, Publications of the American Economic Association, abrindo cada ano com as atas da reunião. Este é o primeiro número da terceira série. O Conselho também elegeu Ely presidente, marcou a reunião seguinte para Detroit, se a American Historical Association fosse para lá, e autorizou comissões sobre a condição econômica do negro americano e sobre a economia da agricultura."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "456",
+          "texto": "Anuidades pagas em 1899, a US$ 3 cada, num total de US$ 1.368. O tesoureiro Charles H. Hull movimentou US$ 3.218,66 no ano; a maior despesa foi a de publicações, US$ 1.892,10, e restaram US$ 676,56 em caixa. A Macmillan devolveu o estoque de livros da associação e pediu o fim da agência de vendas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a pergunta mais útil da manhã foi a de Jenks, e ninguém a respondeu. Se o truste vence por eficiência, não precisa de regulação especial; se vence por poder de mercado, a eficiência do gestor deixa de ser prova de mérito. Sherwood descreveu o primeiro caso, Dill e Carver temiam o segundo, e o debate terminou sem um teste para distinguir um do outro. Essa continua sendo a pergunta central de toda política de concorrência: não se a empresa é grande, mas por que é grande e o que faz com isso.",
+            "O ponto em que todos convergiram foi a publicidade, e ele é menos modesto do que parece. Dill, um advogado de corporações, e Bemis, um crítico delas, concordavam que sem números públicos não há opinião pública que valha. Mas Bemis mostrou o limite: nem a melhor comissão ferroviária do país publicava as tarifas que de fato se cobravam. Transparência que depende da boa vontade de quem é regulado tende a ser decorativa. A proposta voluntária de Dill funciona para separar as boas empresas das ruins; não funciona para disciplinar as que não querem ser vistas."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "truste",
+          "combinação de empresas sob controle comum, por fusão, holding ou acordo, para reduzir a concorrência entre elas ou ganhar escala."
+        ],
+        [
+          "promotor",
+          "quem organiza a fusão: obtém opções sobre as empresas, monta a nova companhia e é pago, em geral, com ações."
+        ],
+        [
+          "sindicato de subscrição",
+          "grupo de bancos e investidores que garante a compra de uma emissão de títulos antes de oferecê-la ao público."
+        ],
+        [
+          "ação preferencial",
+          "ação com prioridade no dividendo e, muitas vezes, no ativo em caso de liquidação, em geral sem voto."
+        ],
+        [
+          "goodwill",
+          "valor atribuído à clientela, à marca e aos lucros esperados, além dos ativos físicos."
+        ],
+        [
+          "capitalização excessiva",
+          "emissão de ações em valor nominal muito superior ao dos ativos e da capacidade de lucro da empresa."
+        ],
+        [
+          "pool",
+          "acordo entre ferrovias para dividir tráfego ou receitas, então proibido pela lei do comércio interestadual de 1887."
+        ],
+        [
+          "fundo de amortização",
+          "reserva formada com receitas correntes para resgatar a dívida no vencimento (sinking fund)."
+        ],
+        [
+          "sweatshop",
+          "oficina ou cortiço onde se costurava por empreitada, com jornadas longas e sem fiscalização."
+        ],
+        [
+          "carta de concessão (charter)",
+          "lei ou ato que autoriza uma companhia ferroviária a existir, construir e operar."
+        ]
+      ],
+      "hoje": "O debate de Ithaca reaparece toda vez que uma grande fusão é anunciada. A pergunta de Jenks, se a empresa vence por eficiência ou por poder de mercado, é a que as autoridades de defesa da concorrência tentam responder com dados. A exigência de publicidade de Dill virou regra de mercado de capitais: prospecto, balanço auditado e divulgação de fatos relevantes. A tese de Durand, de que despesa recorrente não deve ser paga com dívida, está na base das regras fiscais modernas. E a disputa entre Hadley e Commons sobre o economista neutro ou engajado continua aberta.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 7–36",
+          "2485820"
+        ],
+        [
+          "The Twelfth Annual Meeting",
+          "pp. 37–43",
+          "2485821"
+        ],
+        [
+          "Economic Theory and Political Morality",
+          "pp. 45–61",
+          "2485822"
+        ],
+        [
+          "Discussion of the President's Address",
+          "pp. 62–288",
+          "2485823"
+        ],
+        [
+          "Senior's Theory of Monopoly",
+          "pp. 89–102",
+          "2485824"
+        ],
+        [
+          "The Place of the Speculator in the Theory of Distribution",
+          "pp. 103–122",
+          "2485825"
+        ],
+        [
+          "Taxation as a Partial Substitute for Borrowing to Cover the Cost of Permanent Municipal Improvements",
+          "pp. 123–148",
+          "2485826"
+        ],
+        [
+          "The Financiering of Trusts",
+          "pp. 149–162",
+          "2485827"
+        ],
+        [
+          "Influence of the Trust in the Development of Undertaking Genius",
+          "pp. 163–176",
+          "2485828"
+        ],
+        [
+          "Some Tendencies in Combinations Which May Become Dangerous",
+          "pp. 177–211",
+          "2485829"
+        ],
+        [
+          "Railroad Relief and Beneficiary Associations",
+          "pp. 212–230",
+          "2485830"
+        ],
+        [
+          "Railway Charters",
+          "pp. 231–244",
+          "2485831"
+        ],
+        [
+          "Difficulties in Adjusting Rates",
+          "pp. 245–249",
+          "2485832"
+        ],
+        [
+          "The Label of the Consumers League",
+          "pp. 250–258",
+          "2485833"
+        ],
+        [
+          "The Plans for the Twelfth Census",
+          "pp. 259–282",
+          "2485834"
+        ],
+        [
+          "Preliminary Report of Committee on Colonies",
+          "pp. 283–286",
+          "2485835"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Economic Theory and Political Morality",
+          "autores": "Arthur T. Hadley (Yale University); discurso presidencial",
+          "paginas": "pp. 45–61",
+          "resumo": "Hadley distingue a teoria da distribuição, que o economista pode tratar como observador neutro, da teoria da prosperidade, que julga o bem da nação e se mistura com ética e política. Responde a três objeções à ideia do economista como representante do interesse geral: má psicologia, má política e má ética. A concorrência, diz, é conflito dentro das classes, não entre elas; o parlamento valeu como lugar de debate, não de barganha. Com trustes e colônias, a confiança delegada cresce, e o economista deve representar nada menos que a verdade inteira.",
+          "jstor": "2485822"
+        },
+        {
+          "titulo": "Discussion of the President's Address",
+          "autores": "John R. Commons (Bureau of Economic Research, Nova York), E. R. A. Seligman (Columbia University), L. M. Keasbey (Bryn Mawr College), E. W. Bemis, Richmond Mayo-Smith, H. H. Powers e resposta de Hadley",
+          "paginas": "pp. 62–88 e 287–288",
+          "resumo": "Commons sustenta que o economista só influencia a lei quando suas ideias coincidem com o interesse de uma classe, e que o regime representativo decaiu por deixar de representar classes. Seligman vê nisso uma ameaça à ciência; Bemis tenta conciliar; Mayo-Smith cita Mill e Lassalle; Powers pergunta se votar pela licença dos bares o torna representante dos donos de bar. Hadley encerra opondo governo pela opinião pública a governo de classe. A intervenção de Keasbey, que separa o economista como cientista do economista como homem, saiu no fim do volume, nas pp. 287–288, o que explica a paginação do registro.",
+          "jstor": "2485823"
+        },
+        {
+          "titulo": "Senior's Theory of Monopoly",
+          "autores": "Richard T. Ely (University of Wisconsin)",
+          "paginas": "pp. 89–102",
+          "resumo": "Ely resgata Nassau Senior como antecipador da teoria moderna do valor e do monopólio. Escrevendo nos anos 1830, Senior classificou quatro tipos de monopólio, da patente de Arkwright ao vinho de Constantia e à terra, e admitiu ausência de monopólio em só um dos cinco casos de produção que distinguia. Mas, ao tratar do lucro, recuou das próprias conclusões e não as levou à prática. Ely explica o recuo pela ideia de Senior de que a ciência não deve aconselhar e por seu temperamento: a economia teria sido para ele um manto, vestido por conveniência e depois posto de lado.",
+          "jstor": "2485824"
+        },
+        {
+          "titulo": "The Place of the Speculator in the Theory of Distribution",
+          "autores": "Henry C. Emery (Bowdoin College); debate com Stuart Wood, T. N. Carver, F. H. Giddings, A. T. Hadley, J. R. Commons e W. Z. Ripley",
+          "paginas": "pp. 103–122",
+          "resumo": "Emery separa os riscos da produção dos riscos especulativos, que vêm das oscilações contínuas de preço de todo o mercado e sustentam uma classe de especuladores puros. O ganho do especulador não seria uma parcela coordenada do produto anual, ao lado de salários, juros e lucros, mas uma mudança no valor relativo de um estoque existente. Wood vê no lucro um pagamento por conhecimento e chama os amadores de cordeiros, feitos para a tosquia. Carver responde que o especulador produz utilidade de tempo, como quem guarda gelo do inverno para o verão; Giddings prefere tratá-lo na teoria do consumo.",
+          "jstor": "2485825"
+        },
+        {
+          "titulo": "Taxation as a Partial Substitute for Borrowing to Cover the Cost of Permanent Municipal Improvements",
+          "autores": "E. Dana Durand (Stanford University); debate com J. H. Hollander e E. R. A. Seligman",
+          "paginas": "pp. 123–148",
+          "resumo": "Durand argumenta que, numa grande cidade, as obras permanentes somadas se repetem com regularidade e devem ser pagas em boa parte com receita corrente. Mede a variação anual das emissões em relação às médias de cinco anos em Nova York, Boston, Baltimore, Berlim e Londres. Endividar-se sem parar, diz, é injusto com o contribuinte futuro e caro: em 1897, juros e amortização tomavam mais de um quarto da despesa de Nova York. Propõe um imposto fixo por cinco anos para obras, com títulos de curto prazo para cobrir oscilações. Hollander defende discrição em vez de regra; Seligman busca um meio-termo.",
+          "jstor": "2485826"
+        },
+        {
+          "titulo": "The Financiering of Trusts",
+          "autores": "Charles S. Fairchild",
+          "paginas": "pp. 149–162",
+          "resumo": "Fairchild descreve a montagem de um truste como uma queijaria cooperativa ampliada. Com um promotor fictício, John Doe, mostra opções de compra sobre dez fábricas, sindicato de subscrição, ações preferenciais com bônus em ordinárias e capital de giro deixado no caixa; no fim, o promotor fica com 14.950 ações ordinárias. As preferenciais deveriam cobrir os ativos tangíveis e as ordinárias, o goodwill. Fairchild elogia a ausência de debêntures nas fusões recentes, que pouparia reorganizações na próxima depressão, e anexa uma tabela de títulos emitidos por grandes companhias industriais.",
+          "jstor": "2485827"
+        },
+        {
+          "titulo": "Influence of the Trust in the Development of Undertaking Genius",
+          "autores": "Sidney Sherwood (Johns Hopkins University)",
+          "paginas": "pp. 163–176",
+          "resumo": "Para Sherwood, a indústria passou a ser limitada pela capacidade de organização do empresário, não pelo capital, e o truste é um processo de seleção que põe os mais capazes no comando e elimina o empresário fraco. O único monopólio duradouro seria o da habilidade, temporário por natureza. Num trecho não lido na reunião (pp. 167–173), percorre a história do monopólio temporário como estímulo à concorrência, da terra à patente, e propõe uma lei federal no modelo dos bancos nacionais e um Departamento de Comércio e Manufaturas. Fraudes e corrupção seriam males da fase pioneira, como nas ferrovias.",
+          "jstor": "2485828"
+        },
+        {
+          "titulo": "Some Tendencies in Combinations Which May Become Dangerous",
+          "autores": "James B. Dill; debate com E. W. Bemis, J. W. Jenks, S. M. Lindsay, Gray, T. N. Carver, F. H. Giddings, Theodore Marburg, D. R. Dewey, Gardner, Sidney Sherwood e Allen Ripley Foote",
+          "paginas": "pp. 177–211",
+          "resumo": "Dill aponta quatro tendências perigosas em parte das combinações: capitalização excessiva, fuga da publicidade, legislação evasiva e especulação dos diretores com as próprias ações. Critica as comissões secretas a promotores e financistas, compara a capitalização inflada à moeda depreciada e propõe uma lei voluntária de alto padrão, como a dos bancos nacionais. No debate, Jenks pergunta se há ou não monopólio; Carver teme o talento estratégico; Marburg quer partilhar com o governo o lucro acima de certa taxa; Dewey pensa nos jovens; Sherwood se declara fatalista e diz que a publicidade vem primeiro.",
+          "jstor": "2485829"
+        },
+        {
+          "titulo": "Railroad Relief and Beneficiary Associations",
+          "autores": "W. H. Baldwin Jr. (presidente da Long Island Railroad)",
+          "paginas": "pp. 212–230",
+          "resumo": "Baldwin conta que o seguro e o socorro dos ferroviários nasceram nas irmandades dos próprios empregados, quase vinte anos antes de as companhias agirem; a primeira associação patronal foi a da Baltimore & Ohio, em 1880. Pelos dados da Interstate Commerce Commission para 1898, 3,5% dos 823.476 ferroviários morreram ou se feriram no ano. Detalha o fundo voluntário da Pennsylvania, com comitê paritário e garantia da empresa. Na parte final, defende que salários de ferrovia, serviço público, sejam discutidos com publicidade total diante do público, o júri final.",
+          "jstor": "2485830"
+        },
+        {
+          "titulo": "Railway Charters",
+          "autores": "B. H. Meyer (University of Wisconsin)",
+          "paginas": "pp. 231–244",
+          "resumo": "Meyer descreve a lenta passagem das cartas especiais às leis gerais de incorporação, com cartas especiais concedidas mesmo depois de proibidas; um grande sistema ferroviário operava sob carta dada para uma linha local nunca construída. As cartas do Oeste eram mais frouxas, às vezes com quatro a doze seções, contra vinte a quarenta nas melhores do Leste, e o capital não guardava relação com o tamanho da obra. Elogia o costume inglês de definir os termos na própria lei e os conselhos consultivos da Prússia, Suíça e Japão. Mais de cem dirigentes ferroviários consultados pediram uniformidade.",
+          "jstor": "2485831"
+        },
+        {
+          "titulo": "Difficulties in Adjusting Rates",
+          "autores": "Henry C. Adams (University of Michigan; estatístico da Interstate Commerce Commission)",
+          "paginas": "pp. 245–249",
+          "resumo": "Trecho de um trabalho sobre a legislação ferroviária federal, sem que o autor se comprometa com a política de pools. Adams lista o que uma lei de legalização teria de conter: pool restrito ao tráfego competitivo, contrato publicado em forma prescrita e sem cláusulas que travem a melhoria do serviço, prazo legal, aprovação das tarifas por um órgão público e contas consolidadas sob regras da comissão. Hoje, diz, o embarcador só pode contar com uma tarifa por três dias; deveria ter ao menos um ano, como na Europa.",
+          "jstor": "2485832"
+        },
+        {
+          "titulo": "The Label of the Consumers League",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 250–258",
+          "resumo": "Brooks narra a origem do selo sindical, criado na Califórnia contra os charutos feitos por chineses, e explica por que a Consumers' League, movimento quase só de mulheres, precisou de selo próprio: as roupas brancas que suas sócias compravam não tinham selo sindical. A liga de Nova York começou escrevendo a 1.400 lojistas; dois responderam bem. O selo nacional exige cumprimento da lei fabril, nada de menores de 16 anos, no máximo dez horas por dia e sessenta por semana, e inspeção pela liga. A meta é criar a opinião pública que torne possível a lei contra o sweatshop.",
+          "jstor": "2485833"
+        },
+        {
+          "titulo": "The Plans for the Twelfth Census",
+          "autores": "Walter F. Willcox (Cornell University; chefe de estatística do censo); debate com H. T. Newcomb, Richmond Mayo-Smith, D. R. Dewey e R. P. Falkner",
+          "paginas": "pp. 259–282",
+          "resumo": "Willcox apresenta a lei de 3 de março de 1899, que põe entre as quatro grandes leis censitárias do país e que dá ao diretor do censo autonomia diante do Ministério do Interior. O país foi dividido em 292 distritos de supervisão; o trabalho de campo ocorre em junho de 1900 e os resultados devem sair até 1º de julho de 1902. Destaca a tabulação elétrica, usada pela primeira vez no censo anterior. Newcomb explica a adoção de um questionário por fazenda. Dewey e Falkner pedem cautela nos elogios e um escritório censitário permanente.",
+          "jstor": "2485834"
+        },
+        {
+          "titulo": "Preliminary Report of Committee on Colonies",
+          "autores": "Jeremiah W. Jenks (presidente), Charles S. Hamlin, E. R. A. Seligman e Albert Shaw",
+          "paginas": "pp. 283–286",
+          "resumo": "Com base em relatórios sobre colônias francesas, alemãs e inglesas, a comissão propõe doze princípios provisórios para as finanças das novas dependências americanas. Entre eles: administrar cada colônia em seu próprio benefício, e não no da metrópole; nenhum sistema uniforme; autossuficiência fiscal; obras públicas estatais onde faltar capacidade local; tarifas baixas onde o comércio externo for decisivo; impostos internos sobre poucos artigos de consumo geral; nativos como funcionários, com a última palavra em Washington; e um serviço civil de competência e honestidade inquestionáveis.",
+          "jstor": "2485835"
+        },
+        {
+          "titulo": "The Twelfth Annual Meeting",
+          "autores": "Relatório da reunião; boas-vindas de J. G. Schurman (presidente da Cornell University)",
+          "paginas": "pp. 37–43",
+          "resumo": "Programa das sessões de 27 a 29 de dezembro de 1899 em Ithaca, relatório do secretário, decisões do Conselho (fim dos Economic Studies, nova série trimestral, Ely na presidência, Detroit como próxima sede) e resumo das contas do tesoureiro.",
+          "jstor": "2485821"
+        },
+        {
+          "titulo": "American Economic Association",
+          "autores": "Manual da associação",
+          "paginas": "pp. 7–36",
+          "resumo": "Apresentação, estatuto, dirigentes, conselho e lista de sócios e assinantes.",
+          "jstor": "2485820"
+        }
+      ],
+      "jstor_edicao": "i322387",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, vol. 11, nº 1/3 (1896)",
-    "Publications of the AEA, vol. 11, nº 4 (1896)",
-    "Publications of the AEA, 1897"
+    "Publications of the AEA, 3ª série, vol. 1, nº 2 a 4 (1900)",
+    "Publications of the AEA, 3ª série, vol. 2 (1901)",
+    "Publications of the AEA, 3ª série, vol. 3 (1902)"
   ]
 }
