@@ -1,0 +1,1587 @@
+{
+ "titulo": "Campo Grande em 2032",
+ "subtitulo": "Propostas",
+ "autor": "Renato Wanderley Gomes",
+ "chamada": "Um livro em construção sobre a cidade: quinze capítulos, cada um com o diagnóstico de hoje, as propostas para 2032 e o quadro das sete regiões urbanas.",
+ "blocos": [
+  {
+   "tipo": "p",
+   "texto": "Este é o canteiro de obras de um livro sobre Campo Grande. Cada capítulo trata de um tema da vida da cidade (trabalho, saúde, escola, moradia, transporte, contas da prefeitura) e responde a duas perguntas: onde a cidade está hoje e onde ela pode estar em 2032."
+  },
+  {
+   "tipo": "p",
+   "texto": "O livro está sendo escrito em público. Os capítulos aparecem aqui assim que têm texto ou dados conferidos; até lá, cada página mostra o que o capítulo vai tratar e de que fontes virão os números. Nenhum número entra sem fonte primária."
+  },
+  {
+   "tipo": "h2",
+   "texto": "Como cada capítulo se organiza?"
+  },
+  {
+   "tipo": "p",
+   "texto": "Os capítulos temáticos seguem a mesma forma: uma abertura com uma cena ou um número; o diagnóstico de como está hoje; o princípio que se aplica; as propostas para 2032, com quem faz e como medir; e o quadro “E na sua região?”, que leva o tema às sete regiões urbanas da cidade: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu. O primeiro e o último capítulo não têm quadro de região."
+  }
+ ],
+ "regioes": [
+  "Centro",
+  "Segredo",
+  "Prosa",
+  "Bandeira",
+  "Anhanduizinho",
+  "Lagoa",
+  "Imbirussu"
+ ],
+ "capitulos": [
+  {
+   "fonte_prevista": "—",
+   "numero": 1,
+   "slug": "meus-valores",
+   "titulo": "Meus valores",
+   "chamada": "Os princípios que servem de régua para todas as propostas do livro: dignidade da pessoa, família, bem comum, subsidiariedade e trabalho antes do capital.",
+   "situacao": "texto",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "p",
+     "texto": "Toda proposta de política pública parte de uma ideia do que é uma vida boa e do que a cidade deve a quem mora nela. Este capítulo põe a minha na mesa antes de qualquer número, para que o leitor saiba com que régua cada proposta do livro foi medida."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Qual é a régua?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A régua é a Doutrina Social da Igreja, que há mais de um século afirma uma coisa que a economia moderna esqueceu: o trabalho vem antes do capital, e a economia existe para servir à pessoa, não o contrário. Dela vêm os quatro princípios que atravessam o livro: a dignidade da pessoa, o bem comum, o destino universal dos bens e a subsidiariedade."
+    },
+    {
+     "tipo": "p",
+     "texto": "A subsidiariedade é o fio que costura tudo. O que a família, a comunidade e o bairro podem fazer, a prefeitura não deve tomar para si; e o que eles não conseguem fazer sozinhos, a prefeitura tem o dever de ajudar a fazer. Na escala de Campo Grande, a frase cabe numa linha: o que o bairro resolve, a prefeitura não deve tirar dele."
+    },
+    {
+     "tipo": "p",
+     "texto": "Juros, impostos e salários não são fenômenos da natureza. São escolhas, e toda escolha econômica favorece alguém. Por isso a economia é tratada aqui como ciência moral: cada medida é julgada pelo que faz à família de quem trabalha."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Não somos contra a propriedade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quem critica os juros é logo acusado de inimigo da propriedade. Nada mais falso. Marx queria abolir a propriedade privada; este livro quer protegê-la. A Igreja, na Rerum Novarum de Leão XIII, em 1891, rejeitou o socialismo justamente porque ele atacava a propriedade, fruto legítimo do trabalho e garantia da liberdade da família. A Constituição brasileira diz o mesmo no artigo 5º: a propriedade atenderá a sua função social."
+    },
+    {
+     "tipo": "p",
+     "texto": "O alvo não é a propriedade. É o juro que a devora: o que tira a terra do pequeno produtor endividado, a casa da família que atrasou a prestação, a oficina do comerciante que tomou capital de giro caro. Quem defende a propriedade de verdade tem de defender o crédito barato para quem produz."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Onde fica a linha entre o lucro justo e a usura?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Santo Tomás de Aquino, na Suma Teológica (II-II, questão 78), separou três situações. Reparar um prejuízo real que o credor sofreu por emprestar é justo. Cobrar pelo lucro que ele poderia ter tido se não emprestasse não é, porque não se vende o que ainda não se tem. E quem entra como sócio, partilhando o risco do negócio, pode receber licitamente parte do lucro."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Risco partilhado",
+     "texto": "Quem arrisca junto tem direito ao fruto; quem exige retorno garantido, jogando todo o risco sobre o mais fraco, pratica usura. O empresário, o produtor e o comerciante estão do lado certo dessa linha."
+    },
+    {
+     "tipo": "p",
+     "texto": "A Igreja nunca condenou o lucro, o investimento ou o comércio. Em 1515, pela bula Inter multiplices, aprovou os Montes de Piedade, bancos populares criados pelos franciscanos que cobravam só uma pequena taxa para cobrir seus custos. As cooperativas de crédito de hoje são herdeiras dessa ideia, e voltam no Capítulo 2."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que isso muda numa cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Muda a pergunta que se faz diante de cada proposta. Não basta perguntar quanto custa; é preciso perguntar se ela aumenta o salário de quem trabalha, se fortalece a família e o bairro e se respeita o que a comunidade já faz bem sozinha. É com essa pergunta que os catorze capítulos seguintes olham Campo Grande."
+    }
+   ],
+   "regiao": null
+  },
+  {
+   "fonte_prevista": "IBGE (PIB dos Municípios), Receita Federal (cadastro de CNPJ e MEI), Jucems e Sebrae-MS",
+   "numero": 2,
+   "slug": "comercio-servicos-e-industrias",
+   "titulo": "Setor privado: comércio, serviços e indústrias",
+   "chamada": "O retrato da economia da cidade, o pequeno comércio de bairro, o crédito para quem produz e Campo Grande como polo regional.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "O retrato da economia de Campo Grande: o PIB municipal por setor, o peso dos serviços e do comércio, a indústria e a agroindústria."
+    },
+    {
+     "tipo": "p",
+     "texto": "O pequeno comércio de bairro e o dinheiro que gira perto de casa; crédito para quem produz, das cooperativas de crédito ao microcrédito, na linha dos antigos Montes de Piedade."
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande como polo regional: logística, Rota Bioceânica e serviços para o interior do estado."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: IBGE (PIB dos Municípios), Receita Federal (cadastro de CNPJ e MEI), Jucems e Sebrae-MS. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quem empreende na sua região?",
+    "coluna": "Empresas, MEIs e corredores comerciais",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "RAIS e Novo Caged (Ministério do Trabalho), Censo 2022 (IBGE), cesta básica do DIEESE",
+   "numero": 3,
+   "slug": "mercado-de-trabalho",
+   "titulo": "Setor privado: mercado de trabalho",
+   "chamada": "Quantos trabalham, em quê e por quanto, e se o salário de Campo Grande sustenta uma família.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quantos trabalham, em quê e por quanto; o emprego formal e o informal; jovens e primeiro emprego."
+    },
+    {
+     "tipo": "p",
+     "texto": "O salário que sustenta uma família: o salário mediano da cidade comparado com a cesta básica, o aluguel e o transporte."
+    },
+    {
+     "tipo": "p",
+     "texto": "O critério do bispo Ketteler, que serve de teste para qualquer política de emprego: isso aumenta o salário do trabalhador?"
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: RAIS e Novo Caged (Ministério do Trabalho), Censo 2022 (IBGE), cesta básica do DIEESE. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "O salário sustenta uma família na sua região?",
+    "coluna": "Renda do trabalho × custo de vida",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Relatório de Gestão Fiscal (SICONFI/Tesouro Nacional), TCE-MS e Portal da Transparência da prefeitura",
+   "numero": 4,
+   "slug": "funcionalismo",
+   "titulo": "Setor público: funcionalismo",
+   "chamada": "Quantos são os servidores municipais, onde trabalham, quanto pesa a folha e como valorizar quem atende o cidadão na ponta.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quantos são os servidores municipais e onde trabalham: escolas, postos de saúde, guarda, administração."
+    },
+    {
+     "tipo": "p",
+     "texto": "O peso da folha no orçamento e o limite da Lei de Responsabilidade Fiscal; a previdência dos servidores."
+    },
+    {
+     "tipo": "p",
+     "texto": "Carreira, mérito e concurso: o servidor como quem atende o cidadão na ponta."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Relatório de Gestão Fiscal (SICONFI/Tesouro Nacional), TCE-MS e Portal da Transparência da prefeitura. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quem atende na sua região?",
+    "coluna": "Servidores em escolas, postos e outros equipamentos",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Plano Diretor de Campo Grande, Perfil Socioeconômico da Planurb e Censo 2022 (IBGE)",
+   "numero": 5,
+   "slug": "urbanismo-e-regioes",
+   "titulo": "Urbanismo e regiões",
+   "chamada": "Como a cidade se formou, quanto custa a cidade espalhada e por que o bairro completo, com tudo a dez minutos a pé, é o caminho.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "Como a cidade se formou e como nasceram as sete regiões urbanas: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu."
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade espalhada e o seu custo: zoneamento rígido, loteamentos distantes e vazios urbanos, com asfalto, água, esgoto e linhas de ônibus pagos por todos."
+    },
+    {
+     "tipo": "p",
+     "texto": "O bairro completo: casa, trabalho, padaria, escola, posto de saúde e igreja a dez minutos a pé; ruas, calçadas e praças; a beleza como pertencimento, porque as pessoas cuidam do que amam."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Plano Diretor de Campo Grande, Perfil Socioeconômico da Planurb e Censo 2022 (IBGE). Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "A sua região é um bairro completo?",
+    "coluna": "População, densidade e o que há a 10 minutos a pé",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "SICONFI (RREO e RGF), Tesouro Nacional e a Lei Orçamentária Anual de Campo Grande",
+   "numero": 6,
+   "slug": "arrecadacao-tributaria",
+   "titulo": "Arrecadação tributária",
+   "chamada": "De onde vem o dinheiro da prefeitura, quanto vem de fora e quem paga a conta.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "De onde vem o dinheiro da prefeitura (IPTU, ISS, ITBI e taxas) e quanto vem de fora: FPM, cota-parte do ICMS e do IPVA, repasses do SUS e do Fundeb."
+    },
+    {
+     "tipo": "p",
+     "texto": "A dependência de transferências e a dívida do município."
+    },
+    {
+     "tipo": "p",
+     "texto": "A carga que pesa no consumo essencial e na pequena produção; um IPTU justo e a cobrança dos vazios urbanos."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: SICONFI (RREO e RGF), Tesouro Nacional e a Lei Orçamentária Anual de Campo Grande. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quanto a sua região paga de IPTU?",
+    "coluna": "Arrecadação ou valor venal médio",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Lei Orçamentária Anual, Portal da Transparência da prefeitura e cadastro dos conselhos municipais",
+   "numero": 7,
+   "slug": "administracao-publica",
+   "titulo": "Administração pública",
+   "chamada": "Como a prefeitura está organizada, para onde vai o orçamento e como trazer as decisões para perto do cidadão.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "Como a prefeitura está organizada e para onde vai o orçamento; transparência e sistemas de informação orçamentária; compras e contratos."
+    },
+    {
+     "tipo": "p",
+     "texto": "Subsidiariedade na prática: associações de moradores, conselhos, paróquias e orçamento por região."
+    },
+    {
+     "tipo": "p",
+     "texto": "Uma prefeitura que funciona perto do cidadão."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Lei Orçamentária Anual, Portal da Transparência da prefeitura e cadastro dos conselhos municipais. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quanto a prefeitura investe na sua região?",
+    "coluna": "Investimento municipal e associações ativas",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "numero": 8,
+   "slug": "saude",
+   "titulo": "Saúde",
+   "chamada": "Postos, UPAs e CRSs: onde está a rede municipal de saúde em cada uma das sete regiões de Campo Grande, unidade por unidade.",
+   "situacao": "dados",
+   "sugestao": false,
+   "indicador": {
+    "valor": "74 postos de saúde,",
+    "texto": "6 UPAs e 4 CRSs na rede municipal; Anhanduizinho tem 17 postos e nenhuma UPA.",
+    "fonte": "CNES/DataSUS, consulta em 22/10/2026"
+   },
+   "blocos": [
+    {
+     "tipo": "p",
+     "texto": "O posto de saúde é a porta de entrada do sistema. É ali que se vacina a criança, se acompanha a gestante, se mede a pressão do idoso e se retira o remédio de uso contínuo. Quando o posto funciona, o hospital respira. Quando falha, a fila desce para a UPA e, da UPA, para o corredor do pronto-socorro."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quantas unidades a prefeitura mantém?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande mantém 74 unidades de atenção básica: 71 Unidades de Saúde da Família e Unidades Básicas de Saúde, mais 3 Clínicas da Família. A elas se somam 6 Unidades de Pronto Atendimento (UPAs) e 4 Centros Regionais de Saúde (CRSs), voltados à urgência. Contando os centros de atenção psicossocial, os centros de especialidades odontológicas, o SAMU, a vigilância e as unidades de gestão, a rede municipal soma 159 estabelecimentos no Cadastro Nacional de Estabelecimentos de Saúde (CNES)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "74 postos",
+     "texto": "Unidades de atenção básica mantidas pela Prefeitura de Campo Grande: 71 USF/UBS e 3 Clínicas da Família. Fonte: CNES/DataSUS, consulta em 22/10/2026."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Onde a rede está, região por região?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Para saber onde a rede está, cada unidade foi localizada pelo endereço no seu bairro oficial e, pelo bairro, numa das sete regiões urbanas da cidade. A Tabela 1 mostra o resultado."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Tabela 1. Unidades municipais de saúde por região urbana de Campo Grande",
+     "cabecalho": [
+      "Região",
+      "Postos",
+      "UPAs",
+      "CRSs",
+      "Total"
+     ],
+     "linhas": [
+      [
+       "Centro",
+       3,
+       0,
+       0,
+       3
+      ],
+      [
+       "Segredo",
+       14,
+       1,
+       0,
+       15
+      ],
+      [
+       "Prosa",
+       5,
+       0,
+       1,
+       6
+      ],
+      [
+       "Bandeira",
+       9,
+       2,
+       1,
+       12
+      ],
+      [
+       "Anhanduizinho",
+       17,
+       0,
+       1,
+       18
+      ],
+      [
+       "Lagoa",
+       12,
+       1,
+       1,
+       14
+      ],
+      [
+       "Imbirussu",
+       10,
+       2,
+       0,
+       12
+      ],
+      [
+       "Distritos e zona rural",
+       4,
+       0,
+       0,
+       4
+      ],
+      [
+       "Total",
+       74,
+       6,
+       4,
+       84
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números pedem duas leituras. A primeira é que a rede acompanhou o crescimento da cidade. Anhanduizinho, Segredo e Lagoa, as regiões dos grandes conjuntos habitacionais e dos loteamentos populares, reúnem 43 dos 74 postos. O Centro tem 3, e não tem UPA nem CRS."
+    },
+    {
+     "tipo": "p",
+     "texto": "A segunda é que o pronto atendimento não está onde estão os postos. Anhanduizinho, a região com mais postos (17), não tem UPA; conta com o CRS do Aero Rancho. Prosa também não tem UPA e depende do CRS Nova Bahia. Bandeira e Imbirussu têm duas UPAs cada uma."
+    },
+    {
+     "tipo": "p",
+     "texto": "Contar unidades, porém, não basta. O que interessa ao morador é quantas famílias cada posto precisa atender e quanto tempo leva para chegar a um. Esse cálculo depende da população de cada região urbana, que ainda não foi cruzada com a tabela; por isso, por enquanto, ele não aparece aqui."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Qual é o posto do seu bairro?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Abra a sua região para ver a lista das unidades, primeiro os postos, depois as UPAs e os CRSs. O horário de cada uma deve ser confirmado na própria unidade."
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Centro · 3 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "3 postos de atenção básica, nenhuma UPA e nenhum CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "UBS Dr. Jair Garcia de Freitas – 26 de Agosto",
+         "São Francisco",
+         "Rua Rui Barbosa, 4670",
+         "3314-7451 / 2020-1932"
+        ],
+        [
+         "USF Dr. Pedro Nango Dobashi – Vila Carvalho",
+         "Carvalho",
+         "Rua Joaquim Manoel Carvalho, 605",
+         "3301-4511 / 2020-2060"
+        ],
+        [
+         "USF Vila Corumbá",
+         "Planalto",
+         "Rua Dr. Vicente Pinzon, 459",
+         "3314-3203"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Segredo · 14 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "14 postos de atenção básica, 1 UPA e nenhum CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "Clínica da Família Dra. Márcia de Sá Earp – Nova Lima",
+         "Nova Lima",
+         "Rua Padre Antonio Franco, s/n",
+         "3314-8282"
+        ],
+        [
+         "UBS Dr. Willian Macksoud – Estrela do Sul",
+         "Coronel Antonino",
+         "Rua Hamlet, 313",
+         "3314-3175 / 2020-1996"
+        ],
+        [
+         "USF Aquino Dias Bezerra – Vida Nova III",
+         "Nova Lima",
+         "Rua Nízia Floresta, 220",
+         "3314-8322 / 2020-2116"
+        ],
+        [
+         "USF Coronel Antonino – Dr. Arthur Vasconcelos Dias",
+         "Coronel Antonino",
+         "Rua Heitor Meireles, 1355",
+         "2020-1947 / 2020-1948"
+        ],
+        [
+         "USF Dr. Elias Nasser Neto – José Abrão",
+         "José Abrão",
+         "Rua Antonio Lopes, 77",
+         "3314-7449 / 2020-2015"
+        ],
+        [
+         "USF Dr. Fernando de Arruda Torres – Uniderp (José Tavares do Couto)",
+         "Nova Lima",
+         "Avenida Zulmira Borba, 2090",
+         "3314-8312 / 2020-2016"
+        ],
+        [
+         "USF Dr. Milton Kojo Chinen – Vila Nasser",
+         "Nasser",
+         "Rua Antonio de Moraes Ribeiro, 939",
+         "3314-7447 / 2020-2066"
+        ],
+        [
+         "USF Dr. Nasri Siufi – Jardim Presidente",
+         "Mata do Segredo",
+         "Rua Maria Flauzina, 45",
+         "2020-1717"
+        ],
+        [
+         "USF Dra. Alda Garcia de Oliveira – Jardim Azaleia",
+         "Nasser",
+         "Rua Jaime Ferreira Vasconcelos, 419",
+         "3314-7468"
+        ],
+        [
+         "USF Mestre José Alberto Veronese – UCDB (Jardim Seminário)",
+         "Seminário",
+         "Avenida Tamandaré, 6000",
+         "3314-7498 / 2020-2113"
+        ],
+        [
+         "USF Pedro Félix de Souza – Jardim Paradiso",
+         "Nasser",
+         "Rua Hanna Abdulahad, 315",
+         "3314-7333 / 2020-2111"
+        ],
+        [
+         "USF São Benedito",
+         "Seminário",
+         "Rua do Seminário, Q1 Lt 19",
+         "3314-7484"
+        ],
+        [
+         "USF São Francisco – Nova Lima",
+         "Nova Lima",
+         "Rua Ida Baís, 19",
+         "3314-8260 / 2020-2049"
+        ],
+        [
+         "USF Vila Cox",
+         "Nasser",
+         "Rua Santa Gertrudes, s/n",
+         "2020-2109 / 2020-2110"
+        ],
+        [
+         "UPA Walfrido Arruda – Coronel Antonino",
+         "Coronel Antonino",
+         "Rua Dr. Meireles, s/n",
+         "3314-4195"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Prosa · 5 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "5 postos de atenção básica, nenhuma UPA e 1 CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "USF Conselheiro Edney A. de Campos – Nova Bahia",
+         "Novos Estados",
+         "Avenida Senhor do Bonfim, 2685",
+         "2020-1906 / 2020-1905"
+        ],
+        [
+         "USF Dr. Ademar Guedes de Souza – Mata do Jacinto",
+         "Mata do Jacinto",
+         "Rua Dr. Wilson Mangini Marques, 153",
+         "3314-8289 / 2020-2026"
+        ],
+        [
+         "USF Dr. Cláudio Luiz Fontanillas Fragelli – Jardim Noroeste",
+         "Noroeste",
+         "Avenida Dois Irmãos, 701",
+         "3314-5959 / 2020-2007"
+        ],
+        [
+         "USF Dr. João Miguel Basmage – Estrela Dalva",
+         "Estrela Dalva",
+         "Avenida Senhor do Bonfim, 2685",
+         "3314-8316 / 2020-1992"
+        ],
+        [
+         "USF Dra. Marly Anna Tatton Berg G. Pereira – Jardim Marabá",
+         "Margarida",
+         "Rua Torquato Neto, 28",
+         "3314-3162 / 2020-2021"
+        ],
+        [
+         "CRS Dr. Gunter Hans – Nova Bahia",
+         "Novos Estados",
+         "Avenida Senhor do Bonfim, s/n",
+         "3314-8295"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Bandeira · 9 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "9 postos de atenção básica, 2 UPAs e 1 CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "UBS Dr. Astrogildo Carmona – Vila Carlota",
+         "Carlota",
+         "Rua São Cosme e Damião, 322",
+         "3314-5072"
+        ],
+        [
+         "USF Dr. Antônio Pereira – Tiradentes",
+         "Tiradentes",
+         "Rua José Nogueira Vieira, 337",
+         "3314-4436 / 2020-1875"
+        ],
+        [
+         "USF Dr. Carlos A. Jurgielewcz – Cristo Redentor",
+         "Tiradentes",
+         "Rua Padre Musa Tuma, 812",
+         "2020-1855"
+        ],
+        [
+         "USF Dr. Edgar Pedro Raupp – Arnaldo Estevão de Figueiredo",
+         "Tiradentes",
+         "Travessa dos Gráficos, 24",
+         "2020-1645"
+        ],
+        [
+         "USF Dr. Edson Quintino Mendes – Jardim Itamaracá",
+         "Universitário",
+         "Avenida Guaicurus, 1647",
+         "3314-3685 / 2020-2001"
+        ],
+        [
+         "USF Dr. Germano Barros de Souza – Universitário",
+         "Universitário",
+         "Rua Marquês de Olinda, 295",
+         "3314-3680 / 2020-1973"
+        ],
+        [
+         "USF Dr. Judson Tadeu Ribas – Moreninha III",
+         "Moreninha",
+         "Rua Anacá, 645",
+         "3314-9005 / 2020-2027"
+        ],
+        [
+         "USF Dr. Vicente Fragelli – Cidade Morena",
+         "Moreninha",
+         "Rua Jaguariúna, 543",
+         "3314-9038 / 2020-1949"
+        ],
+        [
+         "USF Maria Aparecida Pedrossian (Mape)",
+         "Maria Aparecida Pedrossian",
+         "Avenida Manoel Padial, 390",
+         "3314-5079 / 2020-2019"
+        ],
+        [
+         "UPA Aparecida Gonçalves Saraiva – Universitário",
+         "Universitário",
+         "Avenida Guaicurus, s/n",
+         "3304-5601"
+        ],
+        [
+         "UPA Joel Rodrigues da Rocha – Moreninha",
+         "Moreninha",
+         "Avenida Araticum, 25",
+         "2020-1845"
+        ],
+        [
+         "CRS Dr. Antônio Pereira – Tiradentes",
+         "Tiradentes",
+         "Avenida José Nogueira Vieira, s/n",
+         "3314-3754"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Anhanduizinho · 17 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "17 postos de atenção básica, nenhuma UPA e 1 CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "Clínica da Família Dr. Mauro Rogério de Barros Wanderley – Iracy Coelho",
+         "Centenário",
+         "Rua Santa Quitéria, 1238",
+         "3314-6391 / 2020-2000"
+        ],
+        [
+         "UBS Dr. Celso Lacerda Azevedo – Pioneira",
+         "Pioneiros",
+         "Rua Ana Luiza de Souza, 685",
+         "2020-1965 / 2020-1966"
+        ],
+        [
+         "UBS Eng. Arthur Hokama – Dona Neta",
+         "Guanandi",
+         "Rua Cora, 100",
+         "3314-6338 / 2020-1955"
+        ],
+        [
+         "USF Dom Antônio Barbosa – Dr. Evandro M. de Arruda",
+         "Lageado",
+         "Rua Domingos Belintani, s/n",
+         "2020-1657"
+        ],
+        [
+         "USF Dr. Benjamim Asato – Parque do Sol",
+         "Lageado",
+         "Avenida Evelina Selingard, 1008",
+         "3314-6363 / 2020-2034"
+        ],
+        [
+         "USF Dr. Jorge David Nasser – Jockey Club",
+         "Piratininga",
+         "Rua do Hipódromo, 13",
+         "3346-3212 / 2020-1959"
+        ],
+        [
+         "USF Dr. Nelson Tokuei Simabukuro – Aero Rancho IV",
+         "Aero Rancho",
+         "Rua Leonor Garcia Pires, 285",
+         "3314-6433 / 2020-1977"
+        ],
+        [
+         "USF Dr. Olímpio Cavalheiro – Cohab",
+         "a confirmar (provável Pioneiros ou Alves Pereira)",
+         "Rua Davi Correia Leite, 310",
+         "3314-3172"
+        ],
+        [
+         "USF Dr. Sebastião Eloy Pereira – Aero Rancho (antiga ficha \"Dr. João Pereira da Rosa\")",
+         "Aero Rancho",
+         "Avenida Raquel de Queiroz, 995",
+         "3314-6009 / 2020-1909"
+        ],
+        [
+         "USF Dr. Sebastião Luiz Nogueira – Jardim Los Angeles",
+         "Los Angeles",
+         "Rua Francisco Chaves, 568",
+         "3314-5087 / 2020-2011"
+        ],
+        [
+         "USF Dr. Wagner Jorge Bortotto Garcia – Mário Covas",
+         "Centro-Oeste",
+         "Rua Leandro da Silva Salina, 578",
+         "3314-5077 / 2020-2024"
+        ],
+        [
+         "USF Dr. Walfrido Ferreira de Azambuja – Alves Pereira",
+         "Alves Pereira",
+         "Rua Filomena Segundo Nascimento, 812",
+         "3314-3170 / 2020-1980"
+        ],
+        [
+         "USF Dra. Jeanne Elizabeth Wanderley Tobaru – Jardim Botafogo",
+         "Pioneiros",
+         "Rua Cascais, 128",
+         "3388-3086 / 2020-2010"
+        ],
+        [
+         "USF Dra. Regia Jussara F. de Barros – Aero Rancho Granja",
+         "Aero Rancho",
+         "Rua do Príncipe, s/n",
+         "2020-2018 / 2020-2019"
+        ],
+        [
+         "USF Dra. Sôni Lydia Souza Wolf – Jardim Macaúbas",
+         "Centro-Oeste",
+         "Avenida dos Cafezais, 2697",
+         "3314-5090 / 2020-2018"
+        ],
+        [
+         "USF Nova Esperança",
+         "Piratininga",
+         "Rua Anhúmas, 383",
+         "3314-9518"
+        ],
+        [
+         "USF Paulo Coelho Machado",
+         "Centro-Oeste",
+         "Rua Alcides Celso Macharet, 125",
+         "3314-5084"
+        ],
+        [
+         "CRS Dr. João Pereira da Rosa – Aero Rancho",
+         "Aero Rancho",
+         "Avenida Raquel de Queiroz, s/n",
+         "3314-6339"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Lagoa · 12 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "12 postos de atenção básica, 1 UPA e 1 CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "Clínica da Família Maria de Lourdes dos Santos – Portal Caiobá",
+         "Caiobá",
+         "Rua Ilha de Marajó, 440",
+         "3314-6373 / 2020-2040"
+        ],
+        [
+         "UBS Dr. Alberto Neder – Caiçara",
+         "Caiçara",
+         "Rua Vital Brasil, 01",
+         "3314-3165 / 2020-1935"
+        ],
+        [
+         "UBS Dr. Hidelbrand da Costa – Buriti",
+         "Leblon",
+         "Rua José Soares Araújo, 80",
+         "3314-6345 / 2020-1933"
+        ],
+        [
+         "USF Benedito Martins Gonçalves – Oliveira II",
+         "União",
+         "Rua Antônio João Escobar, 01",
+         "3301-4517 / 2020-2108"
+        ],
+        [
+         "USF Dr. Alfredo Neder – Coophavila II",
+         "Coophavila II",
+         "Rua dos Recifes, 981",
+         "2020-1951 / 2020-1952"
+        ],
+        [
+         "USF Dr. Emílio Garbeloti Neto – Jardim Tarumã",
+         "Tarumã",
+         "Rua Fanorte, 544",
+         "2020-2055 / 2020-2056"
+        ],
+        [
+         "USF Dr. Hirose Adania – Bonança",
+         "Leblon",
+         "Rua Santo Inácio, s/n",
+         "2020-1988"
+        ],
+        [
+         "USF Dr. Hélio Martins Coelho – Jardim Batistão",
+         "Batistão",
+         "Rua Souto Maior, 1935",
+         "3314-6438 / 2020-2005"
+        ],
+        [
+         "USF Dr. Nelson Assef Buainain – Jardim Antártica",
+         "Leblon",
+         "Rua Tenente Antônio João Ribeiro, 1190",
+         "3301-4343 / 2020-2003"
+        ],
+        [
+         "USF Jeferson Rodrigues de Souza – Santa Emília",
+         "São Conrado",
+         "Rua Boanerges Lopes, s/n",
+         "não informado"
+        ],
+        [
+         "USF Maria Ivone de O. Nascimento Arakaki – Vila Fernanda",
+         "Caiobá",
+         "Rua Nelson Martins Lima, 30",
+         "3314-6020 / 2020-2063"
+        ],
+        [
+         "USF Pastor Elizeu Feitosa de Alencar – São Conrado",
+         "São Conrado",
+         "Rua Pampulha, 859",
+         "3314-6359 / 2020-2046"
+        ],
+        [
+         "UPA Dr. Carlos Vinícius Pistoia de Oliveira – Leblon",
+         "Leblon",
+         "Rua Benjamin Adese, 277",
+         "2020-1862"
+        ],
+        [
+         "CRS Dr. Waldeck Fletner de Castro Maia – Coophavila II",
+         "Coophavila II",
+         "Rua da Península, s/n",
+         "3373-5400"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Imbirussu · 10 postos de atenção básica",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "10 postos de atenção básica, 2 UPAs e nenhum CRS."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "UBS Dr. Nicolau Fragelli – Lar do Trabalhador",
+         "Sobrinho",
+         "Avenida Crisântemos, s/n",
+         "3314-7456 / 2020-1960"
+        ],
+        [
+         "UBS Dr. Vespasiano Martins – Vila Popular",
+         "Popular",
+         "Rua Dalila Siqueira, 736",
+         "2020-1967 / 2020-1968"
+        ],
+        [
+         "USF Ana Maria do Couto",
+         "Panamá",
+         "Rua Mitsuo Daima, 483",
+         "2020-1982 / 2020-1984"
+        ],
+        [
+         "USF Dr. Albino Coimbra Filho – Santa Carmélia",
+         "Santo Amaro",
+         "Rua Terlita Garcia, 1438",
+         "3314-7481 / 2020-2043"
+        ],
+        [
+         "USF Dr. Herbert Calado Rebelo – Aero Itália",
+         "Popular",
+         "Rua Rio Galheiros, 280",
+         "2020-1975 / 2020-1976"
+        ],
+        [
+         "USF Dr. Jurandyr de Castro Coimbra – Zé Pereira",
+         "Panamá",
+         "Avenida Eng. Amélio Carvalho Baís, 2885",
+         "3314-7458 / 2020-2068"
+        ],
+        [
+         "USF Dr. Manoel Secco Thomé – Indubrasil",
+         "Núcleo Industrial",
+         "Rua Ji-Paraná, 140",
+         "3314-7465 / 2020-1956"
+        ],
+        [
+         "USF Dr. Syrzil Wilson Maksoud – Sírio Libanês",
+         "Santo Amaro",
+         "Rua Tamer Gelelaite, s/n",
+         "2020-2052 / 2020-2054"
+        ],
+        [
+         "USF Dra. Eleonora Moura Quevedo Gomes – Sílvia Regina",
+         "Santo Antônio",
+         "Rua Capibaribe, s/n",
+         "3314-7461 / 2020-1969"
+        ],
+        [
+         "USF Dra. Sumie Ikeda Rodrigues – Serradinho",
+         "Nova Campo Grande",
+         "Rua Delmiro Gouveia, 427",
+         "3314-7463 / 2020-2050"
+        ],
+        [
+         "UPA Dr. Alessandro Martins de Souza Silva – Vila Almeida",
+         "Santo Amaro",
+         "Rua Ministro José Linhares, s/n",
+         "3314-7329"
+        ],
+        [
+         "UPA Santa Mônica",
+         "Popular",
+         "Rua Lúcia Helena Coelho Maymone, 174",
+         "2020-1867"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "detalhes",
+     "titulo": "Distritos e zona rural · 4 postos",
+     "blocos": [
+      {
+       "tipo": "p",
+       "texto": "4 postos de atenção básica, fora das sete regiões urbanas: nos distritos de Anhanduí e Rochedinho e na zona rural (Três Barras e Aguão)."
+      },
+      {
+       "tipo": "tabela",
+       "cabecalho": [
+        "Unidade",
+        "Bairro",
+        "Endereço",
+        "Telefone"
+       ],
+       "linhas": [
+        [
+         "USF Dr. Bento de Assis Machado – Anhanduí",
+         "—",
+         "Rua Nuremberg, 61 (distrito de Anhanduí)",
+         "3227-1254 / 2020-1985"
+        ],
+        [
+         "USF Dr. Roger Buainain – Rochedinho",
+         "—",
+         "Travessa Guia Lopes, s/n (distrito de Rochedinho)",
+         "3301-4367 / 2020-2042"
+        ],
+        [
+         "USF Dra. Maria José de Pauli – Três Barras",
+         "—",
+         "Rodovia MS-040, km 10",
+         "3342-8710"
+        ],
+        [
+         "USF Manoel Cordeiro – Aguão",
+         "—",
+         "BR-080, km 35, saída para Rochedo",
+         "3301-4510 / 2020-1979"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que ainda vem neste capítulo?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Faltam as partes sobre hospitais e leitos, filas da regulação e acesso a especialistas, e remédios. Elas entram aqui à medida que os dados forem conferidos."
+    }
+   ],
+   "glossario": [
+    [
+     "USF e UBS",
+     "Unidade de Saúde da Família e Unidade Básica de Saúde: o “posto” do bairro, com consultas, vacinação, pré-natal, curativos e farmácia básica. A USF trabalha com equipes de Saúde da Família responsáveis por um território definido."
+    ],
+    [
+     "Clínica da Família",
+     "Unidade de atenção básica maior, que reúne várias equipes de Saúde da Família no mesmo prédio."
+    ],
+    [
+     "UPA",
+     "Unidade de Pronto Atendimento: urgência e emergência 24 horas, entre o posto e o hospital."
+    ],
+    [
+     "CRS",
+     "Centro Regional de Saúde: unidade municipal de pronto atendimento que também concentra serviços de apoio da região."
+    ]
+   ],
+   "fontes": [
+    "BRASIL. Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES/DataSUS). Estabelecimentos mantidos pela Prefeitura Municipal de Campo Grande, CNPJ 03.501.509/0001-06. Acesso em: 22 out. 2026.",
+    "CAMPO GRANDE. Prefeitura Municipal. Carta de Serviços: unidades de saúde. Acesso em: 22 out. 2026.",
+    "CAMPO GRANDE. Lei de bairros, Anexo 4: perímetros e parcelamentos por bairro. Acesso em: 22 out. 2026."
+   ],
+   "sobre_dados": "A lista e o tipo de cada unidade vêm do CNES. Endereços e bairros vêm da Carta de Serviços da Prefeitura, que está desatualizada em alguns pontos: ainda lista o CRS Moreninha, hoje UPA Moreninha, e o CRS Guanandi, que não aparece mais como unidade ativa no CNES e por isso ficou de fora. Seis unidades constam no CNES mas não aparecem na Carta de Serviços (USF Jardim Presidente, Vila Cox, Aero Rancho Granja e Santa Emília; UPAs Leblon e Santa Mônica). A USF Cohab ficou sem bairro oficial confirmado. O total de 74 postos coincide com o número divulgado pela imprensa local.",
+   "regiao": {
+    "pergunta": "Quanta saúde há na sua região?",
+    "coluna": "Postos, UPAs e CRSs",
+    "linhas": {
+     "Centro": "3 postos",
+     "Segredo": "14 postos, 1 UPA",
+     "Prosa": "5 postos, 1 CRS",
+     "Bandeira": "9 postos, 2 UPAs, 1 CRS",
+     "Anhanduizinho": "17 postos, 1 CRS",
+     "Lagoa": "12 postos, 1 UPA, 1 CRS",
+     "Imbirussu": "10 postos, 2 UPAs"
+    },
+    "nota": "Habitantes por posto: falta cruzar com a população de cada região (Censo 2022)."
+   }
+  },
+  {
+   "fonte_prevista": "Censo Escolar e IDEB (INEP) e dados da Secretaria Municipal de Educação",
+   "numero": 9,
+   "slug": "educacao",
+   "titulo": "Educação",
+   "chamada": "Escolas e creches da rede municipal, vagas e filas, professores e salários, e a qualidade do ensino.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "As escolas e os CEINFs da Rede Municipal de Ensino (Reme); vagas e fila de creche."
+    },
+    {
+     "tipo": "p",
+     "texto": "Professores, salários e plano de carreira."
+    },
+    {
+     "tipo": "p",
+     "texto": "A qualidade do ensino (IDEB, alfabetização na idade certa) e a escola perto de casa."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Censo Escolar e IDEB (INEP) e dados da Secretaria Municipal de Educação. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Há escola e creche perto de casa na sua região?",
+    "coluna": "Escolas, CEINFs, fila de creche e IDEB",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "efetivo da Guarda Civil Metropolitana e estatísticas da Sejusp-MS por região",
+   "numero": 10,
+   "slug": "seguranca-e-ordem-publica",
+   "titulo": "Segurança e a ordem pública",
+   "chamada": "O que cabe à prefeitura e o que cabe ao estado na segurança, e a ordem pública no dia a dia do bairro.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "O que cabe à prefeitura (Guarda Civil Metropolitana, iluminação, câmeras, ordenamento urbano) e o que cabe ao estado (Polícias Militar e Civil)."
+    },
+    {
+     "tipo": "p",
+     "texto": "A ordem pública no dia a dia: pichação, terrenos abandonados, perturbação do sossego, comércio irregular."
+    },
+    {
+     "tipo": "p",
+     "texto": "Prevenção e presença."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: efetivo da Guarda Civil Metropolitana e estatísticas da Sejusp-MS por região. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Como está a segurança na sua região?",
+    "coluna": "Ocorrências e presença da Guarda",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Fundação João Pinheiro (déficit habitacional), Agência Municipal de Habitação (Emha) e Censo 2022",
+   "numero": 11,
+   "slug": "moradia",
+   "titulo": "Moradia",
+   "chamada": "Déficit habitacional, ocupações e aluguel, e o caminho da moradia digna perto do trabalho.",
+   "situacao": "roteiro",
+   "sugestao": true,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "O déficit habitacional, as ocupações e os loteamentos irregulares, o peso do aluguel."
+    },
+    {
+     "tipo": "p",
+     "texto": "Moradia perto do trabalho em vez da periferização; “lojinha embaixo, casa em cima”; a Fuggerei de Augsburgo como inspiração."
+    },
+    {
+     "tipo": "p",
+     "texto": "Regularização fundiária e pequena propriedade."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Fundação João Pinheiro (déficit habitacional), Agência Municipal de Habitação (Emha) e Censo 2022. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Onde se mora e quanto custa na sua região?",
+    "coluna": "Déficit, ocupações e aluguel médio",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Agetran, contrato de concessão do transporte coletivo e Censo 2022 (tempo de deslocamento)",
+   "numero": 12,
+   "slug": "mobilidade-e-transporte",
+   "titulo": "Mobilidade e transporte",
+   "chamada": "Ônibus, vans, carros, motos e patinetes: quanto tempo o morador perde para atravessar a cidade espalhada.",
+   "situacao": "roteiro",
+   "sugestao": true,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "O ônibus: contrato de concessão, tarifa, frota e tempo de viagem."
+    },
+    {
+     "tipo": "p",
+     "texto": "Vans, carros, motos e patinetes; calçadas e ciclovias."
+    },
+    {
+     "tipo": "p",
+     "texto": "A dependência do carro na cidade espalhada."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Agetran, contrato de concessão do transporte coletivo e Censo 2022 (tempo de deslocamento). Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quanto tempo se gasta para sair da sua região?",
+    "coluna": "Linhas, terminais e tempo até o Centro",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Funesp, Fundac e o calendário cultural do município",
+   "numero": 13,
+   "slug": "esportes-e-cultura",
+   "titulo": "Esportes e cultura",
+   "chamada": "Praças esportivas, parques, esporte de base, teatros e bibliotecas, e a cultura de uma cidade feita de muitas origens.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "Praças esportivas, parques e centros comunitários; esporte de base e escolinhas; o Morenão e o futebol local."
+    },
+    {
+     "tipo": "p",
+     "texto": "Teatros, bibliotecas e museus."
+    },
+    {
+     "tipo": "p",
+     "texto": "A cultura de Campo Grande feita de muitas origens (terenas, paraguaios, japoneses e okinawanos, sírio-libaneses, gaúchos, nordestinos): o sobá, a chipa, o tereré."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Funesp, Fundac e o calendário cultural do município. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "O que há de esporte e cultura na sua região?",
+    "coluna": "Praças esportivas, parques, centros culturais e bibliotecas",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "Censo 2022 (religião), Arquidiocese de Campo Grande, conselhos de pastores e entidades conveniadas com a prefeitura",
+   "numero": 14,
+   "slug": "religiao",
+   "titulo": "Religião",
+   "chamada": "A fé como parte da vida da cidade, a liberdade religiosa e o papel das igrejas e entidades no bairro.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "A fé como parte da vida da cidade e a liberdade religiosa; católicos, evangélicos e as demais confissões tratados com o mesmo respeito."
+    },
+    {
+     "tipo": "p",
+     "texto": "Igrejas e paróquias como coração do bairro; o papel das entidades religiosas na saúde, na educação, na assistência e no acolhimento de dependentes químicos."
+    },
+    {
+     "tipo": "p",
+     "texto": "Como a prefeitura pode ser parceira sem tomar o lugar delas: a subsidiariedade aplicada."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Com que dados?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Censo 2022 (religião), Arquidiocese de Campo Grande, conselhos de pastores e entidades conveniadas com a prefeitura. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quem acolhe na sua região?",
+    "coluna": "Paróquias, templos e entidades de assistência",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  },
+  {
+   "fonte_prevista": "—",
+   "numero": 15,
+   "slug": "consideracoes-finais",
+   "titulo": "Considerações finais",
+   "chamada": "A Campo Grande de 2032 em poucas páginas: as propostas reunidas pelo que depende da prefeitura, do estado e da União.",
+   "situacao": "roteiro",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "h2",
+     "texto": "O que este capítulo vai tratar"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Campo Grande de 2032 em poucas páginas."
+    },
+    {
+     "tipo": "p",
+     "texto": "As propostas de todos os capítulos reunidas e separadas pelo que depende da prefeitura, do estado e da União."
+    },
+    {
+     "tipo": "p",
+     "texto": "A proposta prioritária de cada uma das sete regiões. Campo Grande tem espaço, gente e história para ser essa cidade."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Qual é a proposta para a sua região?",
+    "coluna": "Proposta prioritária",
+    "linhas": {
+     "Centro": "a levantar",
+     "Segredo": "a levantar",
+     "Prosa": "a levantar",
+     "Bandeira": "a levantar",
+     "Anhanduizinho": "a levantar",
+     "Lagoa": "a levantar",
+     "Imbirussu": "a levantar"
+    },
+    "nota": null
+   }
+  }
+ ]
+}

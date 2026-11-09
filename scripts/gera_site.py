@@ -13,8 +13,16 @@ SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
+_CG = os.path.join(RAIZ, "scripts", "campo-grande", "livro.json")
+CG = json.load(open(_CG, encoding="utf-8")) if os.path.exists(_CG) else None
+_CGN = os.path.join(RAIZ, "scripts", "campo-grande", "noticias.json")
+NOTICIAS_CG = json.load(open(_CGN, encoding="utf-8"))["noticias"] if os.path.exists(_CGN) else []
+# Submenus de Campo Grande-MS: (slug, nome no menu, descrição)
+SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construção, capítulo a capítulo: o diagnóstico de cada tema e as propostas para a cidade."),
+          ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
+          ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261108f"
+CSS_V = "20261109cg"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -54,7 +62,7 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
 
 # Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
+MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("campo-grande/", "Campo Grande-MS"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
         ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
 
 
@@ -67,6 +75,11 @@ def topo(ativo, rel, completo=True):
             itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
                          f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as regiões do Arquivo">&#9662;</button>'
                          f'<ul class="sub"><li><a href="{rel}arquivo/">Todas as coleções</a></li>{subs}</ul></li>')
+        elif h == "campo-grande/" and CG:
+            subs = "".join(f'<li><a href="{rel}campo-grande/{sl}/">{e(nm)}</a></li>' for sl, nm, _ in SUB_CG)
+            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
+                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as seções de Campo Grande-MS">&#9662;</button>'
+                         f'<ul class="sub sub-larga">{subs}</ul></li>')
         else:
             itens.append(f'<li><a href="{rel}{h}"{cls}>{n}</a></li>')
     itens.append(f'<li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>')
@@ -144,6 +157,7 @@ def rodape(rel):
           <li><a href="{rel}arquivo/europa/">— Europa</a></li>
           <li><a href="{rel}arquivo/china/">— China</a></li>
           <li><a href="{rel}leituras/">Leituras · Livros comentados</a></li>
+          <li><a href="{rel}campo-grande/">Campo Grande-MS</a></li>
           <li><a href="{rel}ensaios/">Ensaios</a></li>
           <li><a href="{rel}notas/">Notas · Então × Agora</a></li>
           <li><a href="{rel}analises/">Análises</a></li>
@@ -423,6 +437,8 @@ def render_blocos(blocos):
             lin = "\n".join("        <tr>" + "".join(f"<td>{e(str(c))}</td>" for c in l) + "</tr>" for l in b["linhas"])
             leg = f"<caption>{e(b['legenda'])}</caption>" if b.get("legenda") else ""
             out.append(f'    <div class="tabela-wrap"><table class="tabela-guia">{leg}\n      <thead><tr>{cab}</tr></thead>\n      <tbody>\n{lin}\n      </tbody>\n    </table></div>')
+        elif t == "detalhes":
+            out.append(f'    <details class="detalhes">\n      <summary>{e(b["titulo"])}</summary>\n{render_blocos(b["blocos"])}\n    </details>')
         elif t == "leitura":
             ps = "".join(f"<p>{e(x)}</p>" for x in b["texto"])
             out.append(f'    <div class="caixa-leitura leitura-autor">\n      <h3>Na minha leitura</h3>\n      {ps}\n    </div>')
@@ -1102,6 +1118,245 @@ def gera_leituras():
         gera_documento(d, DOCS_PUB[i - 1] if i > 0 else None, DOCS_PUB[i + 1] if i + 1 < len(DOCS_PUB) else None)
 
 
+# ------------------------------------------------------------------ Campo Grande-MS · o livro "Campo Grande em 2032"
+# Conteúdo em scripts/campo-grande/livro.json: ficha do livro e os 15 capítulos. Página do livro em /campo-grande/,
+# uma página por capítulo em /campo-grande/<slug>/. Capítulo ainda sem texto mostra o roteiro e as fontes previstas.
+SITUACAO_CG = {"texto": "Texto em andamento", "dados": "Com dados", "roteiro": "Em preparação"}
+
+
+def situacao_cg(c):
+    s = SITUACAO_CG[c["situacao"]]
+    return s + (" · tema a confirmar" if c.get("sugestao") else "")
+
+
+def quadro_regiao(c):
+    q = c.get("regiao")
+    if not q: return ""
+    lin = "\n".join(f"        <tr><td>{e(r)}</td><td>{e(q['linhas'].get(r, 'a levantar'))}</td></tr>" for r in CG["regioes"])
+    nota = f'\n      <p class="regiao-nota">{e(q["nota"])}</p>' if q.get("nota") else ""
+    return f"""    <section class="quadro-regiao">
+      <span class="chapeu">E na sua região?</span>
+      <h3>{e(q['pergunta'])}</h3>
+      <div class="tabela-wrap"><table class="tabela-guia">
+        <thead><tr><th>Região</th><th>{e(q['coluna'])}</th></tr></thead>
+        <tbody>
+{lin}
+        </tbody>
+      </table></div>{nota}
+    </section>"""
+
+
+def cartao_cg(c, rel):
+    return f"""    <article class="cartao">
+      <a href="{rel}campo-grande/livro/{c['slug']}/">
+        <span class="chapeu">Campo Grande em 2032 · Capítulo {c['numero']}</span>
+        <h3 class="tit tit-g">{e(c['titulo'])}</h3>
+        <p class="olho">{e(c['chamada'])}</p>
+        <span class="selo">{situacao_cg(c)}</span>
+      </a>
+    </article>"""
+
+
+def pagina_cg_livro():
+    rel = "../../"
+    caps = CG["capitulos"]
+    lis = "\n".join(
+        f'          <li><a href="{c["slug"]}/"><b>{c["numero"]}. {e(c["titulo"])}</b></a> <span class="cap-meta">{situacao_cg(c).lower()}</span></li>'
+        for c in caps)
+    prontos = [c for c in caps if c["situacao"] != "roteiro"]
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">Campo Grande-MS</a> · Livro · Minhas propostas para 2028</span>
+    <h1>{e(CG['titulo'])}</h1>
+    <p class="subtitulo-livro">{e(CG['subtitulo'])}</p>
+    <p class="olho">{e(CG['chamada'])}</p>
+  </div>
+  <div class="corpo">
+    <div class="ficha-livro">
+      <h3>O livro</h3>
+      <dl><dt>Autor</dt><dd>{e(CG['autor'])}</dd><dt>Capítulos</dt><dd>{len(caps)}, de cerca de 10 páginas cada</dd><dt>Situação</dt><dd>Em redação; {len(prontos)} de {len(caps)} capítulos já com texto ou dados publicados</dd></dl>
+    </div>
+{render_blocos(CG['blocos'])}
+  </div>
+</article>
+<main class="env">
+  <div class="faixa">
+    <h2>Já dá para ler</h2>
+    <span class="sub">Capítulos com texto ou dados</span>
+  </div>
+  <section class="grade-3">
+{chr(10).join(cartao_cg(c, rel) for c in prontos)}
+  </section>
+  <div class="faixa">
+    <h2>O livro, capítulo a capítulo</h2>
+    <span class="sub">{len(caps)} capítulos</span>
+  </div>
+  <div class="mapa-livro">
+    <section class="parte-livro">
+      <ol class="lista-caps" style="columns:1">
+{lis}
+      </ol>
+    </section>
+  </div>
+  {assine("Cada capítulo novo, no seu e-mail.", "O avanço do livro sobre Campo Grande, com os dados e as fontes de cada tema.")}
+</main>
+"""
+    escreve("campo-grande/livro", cabeca("Campo Grande em 2032: Propostas — Campo Grande-MS · Economista Renato Gomes", CG["chamada"], "campo-grande/livro/", rel)
+            + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_cg_capitulo(c, anterior, proxima):
+    rel = "../../../"
+    nav = []
+    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Cap. {anterior["numero"]} · {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Cap. {proxima["numero"]} · {e(proxima["titulo"])} &rarr;</a>')
+    aviso = ""
+    if c["situacao"] == "roteiro":
+        aviso = ('    <p class="aviso-cg">Capítulo em preparação. Esta página mostra o roteiro: o que o capítulo vai tratar e de onde virão os números. '
+                 'O texto entra aqui quando estiver pronto.' + (" O tema deste capítulo ainda está em definição." if c.get("sugestao") else "") + '</p>\n')
+    fontes = ""
+    if c.get("fontes"):
+        fs = "\n".join(f"        <li>{e(f)}</li>" for f in c["fontes"])
+        fontes = f'    <div class="fontes">\n      <h3>Fontes deste capítulo</h3>\n      <ol>\n{fs}\n      </ol>\n    </div>\n'
+    sobre = f'    <div class="caixa-leitura">\n      <h3>Sobre os dados</h3>\n      <p>{e(c["sobre_dados"])}</p>\n    </div>\n' if c.get("sobre_dados") else ""
+    leitura = f' · Leitura: {minutos(c)} min' if c["situacao"] != "roteiro" else ""
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">{e(CG['titulo'])}</a> · Capítulo {c['numero']} de {len(CG['capitulos'])}</span>
+    <h1>{e(c['titulo'])}</h1>
+    <p class="tempo-leitura situacao-cg">{situacao_cg(c)}{leitura}</p>
+    <p class="olho">{e(c['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem">
+        <b>{e(CG['autor'])}</b>
+        <span>{e(CG['titulo'])}: {e(CG['subtitulo'])} · livro em construção</span>
+      </div>
+    </div>
+  </div>
+  <div class="corpo">
+{aviso}{render_blocos(c['blocos'])}
+{quadro_regiao(c)}
+{glossario_html(c.get('glossario'))}
+{sobre}{fontes}
+    <p class="nota-legal">Texto em construção, sujeito a revisão. Encontrou um erro ou tem um dado da sua região? Escreva: a correção é publicada no próprio texto, com data.</p>
+
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+
+<div class="env">
+  {assine("Cada capítulo novo, no seu e-mail.", "O avanço do livro sobre Campo Grande, com os dados e as fontes de cada tema.")}
+</div>
+"""
+    escreve(f"campo-grande/livro/{c['slug']}", cabeca(f"{c['titulo']} — Campo Grande em 2032, cap. {c['numero']} · Economista Renato Gomes", c["chamada"],
+                                               f"campo-grande/livro/{c['slug']}/", rel, "article")
+            + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_cg_hub():
+    rel = "../"
+    cards = "\n".join(f"""    <article class="cartao colecao">
+      <a href="{sl}/">
+        <span class="chapeu">Campo Grande-MS</span>
+        <h3 class="tit tit-g">{e(nm)}</h3>
+        <p class="olho">{e(ds)}</p>
+      </a>
+    </article>""" for sl, nm, ds in SUB_CG)
+    corpo = f"""
+<main class="env">
+  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
+    <span class="chapeu">Campo Grande-MS</span>
+    <h1>Campo Grande, com documento na mesa</h1>
+    <p class="olho">A capital de Mato Grosso do Sul vista pelo economista: o livro com as propostas para a cidade, o retrato de como ela está hoje e as notícias que importam, sempre com a fonte.</p>
+  </div>
+  <section class="grade-3">
+{cards}
+  </section>
+  {assine("Campo Grande no seu e-mail.", "Cada capítulo novo do livro, os dados atualizados e as notícias que importam para a cidade.")}
+</main>
+"""
+    escreve("campo-grande", cabeca("Campo Grande-MS — Economista Renato Gomes", "Campo Grande vista pelo economista: o livro com as propostas, a situação atual da cidade e as notícias importantes, com fonte.", "campo-grande/", rel)
+            + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_cg_situacao():
+    rel = "../../"
+    linhas = []
+    for c in CG["capitulos"]:
+        ind = c.get("indicador")
+        if c["numero"] in (1, 15): continue
+        if ind:
+            linhas.append(f'        <tr><td><a href="../livro/{c["slug"]}/">{e(c["titulo"])}</a></td><td><b>{e(ind["valor"])}</b> {e(ind["texto"])}</td><td>{e(ind["fonte"])}</td></tr>')
+        else:
+            linhas.append(f'        <tr><td><a href="../livro/{c["slug"]}/">{e(c["titulo"])}</a></td><td class="cap-futuro">Dado em levantamento</td><td class="cap-futuro">{e(c.get("fonte_prevista", "—"))}</td></tr>')
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">Campo Grande-MS</a> · Situação atual</span>
+    <h1>Como Campo Grande está hoje</h1>
+    <p class="olho">O retrato da cidade tema a tema, com o número mais recente conferido e a fonte. Quando o dado ainda não foi levantado, a tabela diz isso, em vez de estimar.</p>
+  </div>
+  <div class="corpo">
+    <div class="tabela-wrap"><table class="tabela-guia tabela-situacao">
+      <caption>Campo Grande, tema a tema</caption>
+      <thead><tr><th>Tema</th><th>O que se sabe hoje</th><th>Fonte</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table></div>
+    <p>Cada tema leva ao capítulo correspondente do livro, onde o dado aparece com a divisão pelas sete regiões urbanas: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu.</p>
+    <p class="nota-legal">A tabela é atualizada à medida que cada dado é conferido no documento original. Correções são publicadas no próprio texto, com data.</p>
+  </div>
+</article>
+<div class="env">
+  {assine("Campo Grande no seu e-mail.", "Cada capítulo novo do livro, os dados atualizados e as notícias que importam para a cidade.")}
+</div>
+"""
+    escreve("campo-grande/situacao-atual", cabeca("Situação atual — Campo Grande-MS · Economista Renato Gomes", "Como Campo Grande está hoje, tema a tema, com o número e a fonte de cada dado.", "campo-grande/situacao-atual/", rel)
+            + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_cg_noticias():
+    rel = "../../"
+    if NOTICIAS_CG:
+        itens = "\n".join(f"""    <article class="noticia-cg">
+      <span class="chapeu">{e(n['data'])} · {e(n.get('tema', ''))}</span>
+      <h2>{e(n['titulo'])}</h2>
+      <p>{e(n['comentario'])}</p>
+      <p class="fonte-links">Fonte: <a href="{e(n['fonte_url'])}" target="_blank" rel="noopener">{e(n['fonte'])}</a></p>
+    </article>""" for n in sorted(NOTICIAS_CG, key=lambda n: n["data_iso"], reverse=True))
+    else:
+        itens = '    <p class="aviso-cg">Ainda não há notícias publicadas nesta seção. As primeiras entram em breve.</p>'
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">Campo Grande-MS</a> · Notícias importantes</span>
+    <h1>Notícias importantes</h1>
+    <p class="olho">Os fatos que mexem com a vida da cidade (orçamento, obras, serviços, emprego), cada um com a fonte original e um comentário curto do economista.</p>
+  </div>
+  <div class="corpo">
+{itens}
+  </div>
+</article>
+<div class="env">
+  {assine("Campo Grande no seu e-mail.", "Cada capítulo novo do livro, os dados atualizados e as notícias que importam para a cidade.")}
+</div>
+"""
+    escreve("campo-grande/noticias", cabeca("Notícias importantes — Campo Grande-MS · Economista Renato Gomes", "Os fatos que mexem com Campo Grande, com a fonte e um comentário curto.", "campo-grande/noticias/", rel)
+            + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
+
+
+def gera_campo_grande():
+    if not CG: return
+    pagina_cg_hub(); pagina_cg_livro(); pagina_cg_situacao(); pagina_cg_noticias()
+    cs = CG["capitulos"]
+    for i, c in enumerate(cs):
+        pagina_cg_capitulo(c, cs[i - 1] if i > 0 else None, cs[i + 1] if i + 1 < len(cs) else None)
+
+
 
 def sitemap():
     urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
@@ -1112,6 +1367,7 @@ def sitemap():
         for d in DOCS_PUB:
             urls += [f"leituras/documentos/{d['slug']}/"] + [f"leituras/documentos/{d['slug']}/{c['slug']}/" for c in d.get("capitulos", [])]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
+    if CG: urls += ["campo-grande/"] + [f"campo-grande/{sl}/" for sl, _, _ in SUB_CG] + [f"campo-grande/livro/{c['slug']}/" for c in CG["capitulos"]]
     hoje = date.today().isoformat()
     x = "\n".join(f"  <url><loc>{DOMINIO}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
     open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write(
@@ -1128,4 +1384,5 @@ if __name__ == "__main__":
     for i, ed in enumerate(eds):
         pagina_edicao(ed, eds[i - 1] if i > 0 else None, eds[i + 1] if i + 1 < len(eds) else None)
     gera_leituras()
+    gera_campo_grande()
     sitemap()
