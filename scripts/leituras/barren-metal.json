@@ -5357,6 +5357,662 @@
         ]
       ],
       "hoje": "O capítulo descreve mecanismos que a literatura sobre dívida soberana estuda até hoje: o descasamento entre o custo de captação e a taxa de empréstimo, a concentração do risco em um único devedor público e a conversão forçada de dívidas de curto prazo em títulos longos de juro baixo. A frase do autor sobre o soberano que precisa cortejar os mercados também ecoa nos debates atuais sobre prêmio de risco, credibilidade fiscal e a ordem em que credores mais bem informados conseguem sair antes de uma reestruturação."
+    },
+    {
+      "slug": "cap-36-gresham-e-elizabeth",
+      "numero": 36,
+      "titulo": "Gresham e Elizabeth: recunhagem, câmbio e o tesouro dos genoveses",
+      "titulo_original": "Gresham and Elizabeth",
+      "paginas": "pp. 405–416",
+      "chamada": "Com Elizabeth no trono, a dívida externa inglesa chegou a 226.910 libras, acima da receita anual da Coroa. Jones descreve como Gresham recunhou a moeda, operou o câmbio e defendeu ficar com o tesouro dos genoveses.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em novembro de 1558, Mary Tudor morreu sem herdeiro. No domingo, 20 de novembro, Sir William Cecil foi nomeado secretário de Estado principal, e, segundo E. Michael Jones, a questão religiosa da Inglaterra ficou decidida ali. No capítulo 36 de “Barren Metal”, o autor conta que Thomas Gresham correu a Hatfield para oferecer seus serviços a Elizabeth, que os aceitou com a promessa de lhe dar tantas terras quanto os dois irmãos que a precederam no trono."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Em 1559, não havia um único inglês além de Gresham com conhecimento amplo das complexidades do negócio de câmbio.”",
+          "original": "in 1559, there was not a single Englishman except Gresham who had any extensive knowledge of the intricacies of the exchange business (p. 405)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto devia a Coroa quando Elizabeth assumiu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Raymond de Roover, citado por Jones. Gresham voltou a Antuérpia para garantir aos mercadores a validade das obrigações pendentes, comprar munição e tomar novos empréstimos. O mercado precisava ser tranquilizado: a dívida externa inglesa chegara a 226.910 libras, mais que a receita anual da Coroa, de 200 mil libras."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "478 mil libras",
+          "texto": "Gasto adicional que, segundo o capítulo, a rainha precisava financiar além do serviço da dívida: 300 mil libras para reforçar a marinha e 178 mil para a guerra com a Escócia. O remédio extremo foi vender terras da Coroa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Empréstimos externos, empréstimos internos e impostos estavam, descreve o autor, no limite. Gresham aboliu o costume de comprar joias como condição dos empréstimos, mas a melhor taxa que obteve em Antuérpia foi de 12% ao ano, com banqueiros alemães entre os quais menciona os Fugger. Os títulos levavam o selo da rainha e o da City de Londres, o que tornava todos os londrinos responsáveis pela dívida real em caso de calote. Depois de 1560, a meta passou a ser pagar devagar e evitar que as rolagens pressionassem o câmbio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Lei de Gresham é de Gresham?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não, segundo as fontes de Jones. A expressão foi cunhada no século 19 por Henry D. Macleod, que julgou encontrá-la numa carta de Gresham a Elizabeth sobre a queda do câmbio; Copérnico, entre outros, já sabia que o excesso de moeda aviltada expulsava a boa de circulação. Na carta, Gresham atribui o problema ao pai da rainha, Henrique VIII, que reduzira o teor de metal fino da moeda de seis para três onças. O câmbio, escreve ele, caiu de 26 xelins e 8 pence para 13 xelins e 4 pence, e o ouro fino saiu do reino."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones descreve a cadeia: as guerras endividaram o rei em Flandres, a dívida levou ao aviltamento, e este, à fuga de metal e à alta de preços. No exterior, os comerciantes recusavam moedas inglesas pelo valor de face. Quem identificou a relação entre aviltamento e preços, sustenta o autor, não foi Gresham, mas John Hales, a quem Jones atribui o “Discourse of the Commonweal”, de 1549. Hales teria visto que o problema não era só mais moeda em circulação, mas que um único homem, o rei, ficava com todo o ganho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sob Eduardo VI, a falsificação virou praga, e a resposta foi emitir moeda ainda pior. Em 11 de maio de 1551, a Casa da Moeda lançou testões com o mesmo peso e metade da prata dos antigos, usados para pagar os credores do rei. Assim, descreve o autor, a Coroa eliminou a dívida interna fazendo dois pence de um."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a recunhagem de 1560 resolveu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1560, Gresham convenceu a Coroa a recunhar a moeda aviltada. Uma proclamação de 27 de setembro desvalorizou o testão, e um contrato de 8 de novembro restaurou o antigo padrão esterlino. A operação terminou em menos de um ano, e Elizabeth celebrou a vitória sobre o “monstro hediondo” da moeda ruim. O lucro líquido do governo é estimado em cerca de 40 mil libras."
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo Jones, a reforma devolveu aos mercadores a confiança no governo, mas não melhorou a posição da libra no câmbio, e trouxe forte deflação e depressão. Gresham ficou intrigado, porque não percebeu que a prata do Novo Mundo começava a chegar à Inglaterra. Para De Roover, ele sabia o que fazer em cada circunstância, mas costumava justificar suas decisões com argumentos fracos. Seu talento, resume o autor, estava em manipular o câmbio a favor da Coroa, o que aparece na carta de dezembro de 1558 com 24 artifícios para operar o mercado e na proposta de um fundo de equalização cambial."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a lei da usura mudou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que Gresham não se ocupava de questões morais. Com Tawney, afirma que ele atacou a proibição da usura e que, com o apoio de Lord Burghley, a lei de 1552, que chamava a usura de “vício odioso e detestável”, foi revogada em 1571, restaurando-se a lei do tempo de Henrique VIII. Juros deixaram de ser crime desde que não passassem de 10%. Para o autor, os homens enriquecidos com os bens da Igreja queriam multiplicar a fortuna com as técnicas da finança italiana, e a Inglaterra resolveu a questão separando economia e ética; ele liga essa linhagem empirista a Bacon, Newton, Locke e Adam Smith."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que outros papéis Gresham cumpria em Antuérpia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor descreve Gresham como contrabandista: nos relatórios, “veludo” significava pólvora, e sedas, damascos e cetins tinham sentidos cifrados. Subornava funcionários da alfândega dos Países Baixos espanhóis; Sir Jasper Schetz recebeu 500 coroas. Em 1560, o próprio Gresham escreveu que havia “corrompido” o fiscal-chefe. O biógrafo John Burgon, citado por Jones, considera esses atos indefensáveis do ponto de vista moral."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A compreensão de Gresham das complexidades do câmbio fez dele um dos primeiros praticantes da guerra econômica encoberta.”",
+          "original": "Gresham's understanding of the intricacies of currency exchange made him one of the first practitioners of covert economic warfare (p. 410)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Gresham entendia, diz Jones, que um câmbio alto barateava as importações e podia empobrecer príncipes estrangeiros sem violência. Era também informante de Cecil: em 18 de abril de 1560, avisou que oito navios das Índias tinham chegado a Cádis com 4 milhões em ouro e prata, dos quais 1 milhão cabia a Filipe II. Mais valiosos eram os avisos sobre galeões com dinheiro para as tropas espanholas, úteis aos piratas ingleses."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ele sabia que, quando o Estado capitalista está irremediavelmente endividado, só há uma saída: o roubo.”",
+          "original": "He knew that when the capitalist state is hopelessly in debt, there is only one way out: theft (p. 411)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceu com o tesouro dos genoveses?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, Filipe II, dono das minas americanas, quebrou três vezes por causa da guerra, dos juros compostos e da pirataria, que ele descreve como empresa organizada por sindicatos dos quais a rainha participou. Em 1568, uma frota espanhola levava a Antuérpia metal comprado de banqueiros genoveses para pagar as tropas do duque de Alba. Atacada por corsários, refugiou-se em portos ingleses. Gresham defendeu que o tesouro fosse “guardado”: a Coroa ficaria com ele e negociaria a restituição depois, pagando aos genoveses pelo câmbio. Em 1569, 90 mil libras ainda estavam na Torre de Londres; o resto fora usado para amortizar dívidas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "200 mil libras",
+          "texto": "Valor em mercadorias inglesas confiscadas, segundo o capítulo, quando o duque de Alba respondeu à apreensão. O comércio com Flandres parou, a Inglaterra perdeu acesso aos mercados de crédito de Antuérpia e, em 1570, Gresham dizia nunca ter visto tamanha escassez de dinheiro na City."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ainda assim, conclui o autor, com os subsídios e o dinheiro da Torre, Elizabeth reduziu bastante sua dívida, embora tenha contraído uma obrigação futura com os genoveses."
+        }
+      ],
+      "glossario": [
+        [
+          "Aviltamento da moeda",
+          "Redução do teor de metal precioso das moedas mantendo seu valor nominal."
+        ],
+        [
+          "Recunhagem",
+          "Recolhimento da moeda em circulação e sua reemissão em novo padrão."
+        ],
+        [
+          "Testão",
+          "Moeda inglesa de prata do período Tudor."
+        ],
+        [
+          "Lei de Gresham",
+          "Princípio segundo o qual a moeda ruim expulsa a boa de circulação."
+        ],
+        [
+          "Fundo de equalização",
+          "Reserva usada para comprar e vender moeda e sustentar a taxa de câmbio."
+        ],
+        [
+          "Corsário",
+          "Navio ou capitão privado autorizado por um Estado a atacar embarcações inimigas."
+        ]
+      ],
+      "hoje": "O capítulo reúne temas que continuam no centro da política monetária: o imposto inflacionário que o emissor cobra ao degradar a moeda, o custo de uma estabilização que devolve confiança mas traz recessão, e o uso do câmbio como instrumento de poder. Fundos de estabilização cambial existem em vários países, e o congelamento de ativos de um Estado por outro voltou ao debate sobre sanções. A relação entre credibilidade do emissor, juros da dívida e fluxos de metal, hoje de capital, segue sendo a mesma equação que Gresham tentava administrar."
+    },
+    {
+      "slug": "cap-37-gresham-e-fausto",
+      "numero": 37,
+      "titulo": "Gresham e Fausto: pirataria, alquimia e o dinheiro que se reproduz",
+      "titulo_original": "Gresham and Faust",
+      "paginas": "pp. 417–432",
+      "chamada": "Gresham morreu em 1579 sem tirar a Coroa das dívidas; só a viagem de Drake rendeu 250 mil libras à rainha. Jones lê a lenda de Fausto como parábola do crédito e da usura.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 21 de novembro de 1579, Thomas Gresham morreu aos 60 anos. Boa parte de sua fortuna, registra E. Michael Jones no capítulo 37 de “Barren Metal”, consistia em correntes de ouro. Não pagou missas pela própria alma nem deixou esmolas generosas; contratou duzentos pobres, vestidos com túnicas pretas, para acompanhar o cortejo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como terminou a carreira de Gresham?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O auge, segundo o autor, foi de 1553 a 1564. Por ter liquidado a maior parte da dívida externa, Gresham só precisou tomar 98.484 libras entre 1563 e 1574. Foi uma sorte, observa Jones, porque depois de 1568 o mercado de Antuérpia se fechou à Coroa inglesa, sobretudo por causa da apreensão do tesouro genovês, pela qual Gresham tinha responsabilidade direta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1564 morreu o filho de Gresham. Sem herdeiro, Gresham tornou-se filantropo: pagou do próprio bolso a Bolsa Real, inspirada na de Antuérpia, e fundou o Gresham College, deixando sua residência em Bishopsgate e uma dotação para salários. Era tido como o plebeu mais rico do reino. Na primavera de 1572, negociou com os banqueiros genoveses uma restituição satisfatória do tesouro apreendido."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "250 mil libras",
+          "texto": "Quanto a viagem de Drake no Golden Hind, encerrada em 1580, rendeu à rainha, segundo o capítulo. Para comparação, a dívida da Coroa na morte de Elizabeth era de 400 mil libras. Jones cita Salter: a melhora da dívida veio menos das receitas ordinárias que de entradas excepcionais como essa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ao deixar o cargo, Gresham recebeu uma cobrança de 10 mil libras. Para reaver o que julgava lhe ser devido, apresentou à rainha, num momento favorável, uma conta que o Tesouro recusara, e ela a aprovou. Um biógrafo chamou o expediente de “vergonhoso”. O sistema, explica o autor com De Roover, estimulava suborno e corrupção, porque os agentes se pagavam quando o governo não os pagava."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O próprio Gresham não fez milagres e deixou sem solução o grande problema da despesa nacional.”",
+          "original": "Gresham himself worked no miracles and left the big problem of national expenditure unsolved (p. 419)"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Salter, e Jones a usa para o balanço: se a meta era tirar a Coroa das dívidas, Gresham fracassou. Não era, diz o autor, um teórico nem um economista em sentido relevante, mas um partidário protestante com um repertório de artifícios. Seu trabalho principal, nas palavras de Salter, era o paciente convencimento de credores a conceder empréstimos e renovações às menores taxas possíveis."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem pagou a conta?"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "500% contra 200%",
+          "texto": "Alta dos preços e dos salários, qualificados ou não, durante a gestão de Gresham, segundo Salter, citado no capítulo. Para Jones, os números mostram a perda de poder de compra do trabalho."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O capitalismo foi roubo de trabalho. Começou com o roubo do trabalho acumulado nos mosteiros da Inglaterra ao longo de 900 anos.”",
+          "original": "Capitalism was theft of labor. It began with the theft of the stored labor which had accrued in England's monasteries over a period of 900 years (p. 420)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor sustenta que, institucionalizada a usura, o Estado passou a garantir o cumprimento dos contratos de juros e a administrar uma dívida que se compõe sem parar. Gresham queria transferir a dívida dos credores estrangeiros para ingleses, projeto que Jones vê realizado com a fundação do Banco da Inglaterra pelos whigs, que lucravam 8% ao ano com a dívida pública. Os bancos nacionais, a partir do de Amsterdã, em 1609, adotaram juros moderados, mas mesmo 5% sobre uma dívida rolada indefinidamente se mostrariam, segundo o autor, insustentáveis."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Fausto tem a ver com crédito?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones atribui o erro da época ao mercantilismo, resumido na ordem do rei Fernando a Colombo: obter ouro a qualquer custo. Isso levou à pirataria e ao renascimento da alquimia. Christopher Marlowe teria reagido com três peças: “Tamerlão” contra o imperialismo, “Doutor Fausto” contra a magia e a alquimia, “O judeu de Malta” contra a usura."
+        },
+        {
+          "tipo": "p",
+          "texto": "No “Faustbuch”, depois do pacto, uma névoa enche o quarto e, ao se dissipar, revela dois sacos, um de ouro e outro de prata. Para o autor, eles simbolizam a chegada da economia monetária. Comida e bebida satisfazem um apetite de cada vez; o dinheiro satisfaz todos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Dinheiro e magia são uma e a mesma coisa.”",
+          "original": "Money and magic are one and the same thing (p. 421)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O pacto, sustenta Jones, funciona como um empréstimo usurário: o devedor recebe dinheiro sem trabalhar, satisfaz seus desejos e tudo corre bem até o vencimento, que o autor associa ao ciclo de dívida e deflação descrito por Irving Fisher. Então ele entrega o que tem de mais valioso. Sem lastro em algo real, como a produtividade do trabalho, o dinheiro desaparece tão magicamente quanto surgiu."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como os Fugger viraram personagens de Fausto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1572, Filipe II pediu aos Fugger um milhão de ducados para as tropas nos Países Baixos; com os piratas ingleses no mar, mandar dinheiro em espécie era perigoso. Os Fugger só conseguiram empréstimos-ponte de 100 mil a 150 mil ducados, e a Espanha quebrou pela segunda vez em 1575. Em 1576, as tropas sem pagamento se amotinaram, e Antuérpia acabaria saqueada. Em 1607, veio a terceira falência. Só os juros da dívida que a própria firma contraíra custavam aos Fugger 200 mil ducados por ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 milhões de florins",
+          "texto": "Total, em florins renanos, que os Fugger haviam posto nos cofres dos Habsburgo em meados do século 17, sem retorno, segundo o capítulo. Em 1630, Octavio Centurione disse que suas riquezas eram pura imaginação. O pacto de Fausto durou 24 anos; o dos Fugger com a usura, quatro vezes isso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Da alquimia à aritmética política?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor percorre a linhagem de magos que prometiam transformar metais em ouro: Tritêmio, nascido em 1462; Cornélio Agrippa, nascido em Colônia em 1486, cujo ouro, segundo Charles Mackay, virava pedra em 24 horas, o que Jones lê como alusão ao ciclo da usura; Paracelso, nascido em Einsiedeln em 1493; John Dee, nascido em 1527, a serviço de Walsingham. Seguem os rosa-cruzes e Robert Fludd, refutado por Mersenne. Expulsa do continente, diz Jones, a alquimia refugiou-se na Inglaterra com Boyle e Newton."
+        },
+        {
+          "tipo": "p",
+          "texto": "No plano da doutrina, Calvino (1509–1564) abandonou, segundo Noonan, citado por Jones, a análise escolástica e afirmou que o dinheiro é tão frutífero quanto uma casa; Salmasius (1588–1653) deixou à lei secular o único limite aos lucros. Gresham, ao defender a revogação da lei de 1552, teria ajudado a fazer da usura uma questão de conveniência, e não de lei moral. De Roover, citado no capítulo, considera os primeiros mercantilistas muito inferiores aos escolásticos, que tinham teorias de preço e distribuição baseadas na justiça comutativa e distributiva. Para Jones, nascia a aritmética política, inspirada na matemática e na física, e não na filosofia moral."
+        }
+      ],
+      "glossario": [
+        [
+          "Mercantilismo",
+          "Doutrina que identificava a riqueza nacional com o acúmulo de ouro e prata."
+        ],
+        [
+          "Aritmética política",
+          "Nome dado no século 17 à análise quantitativa da economia e da população."
+        ],
+        [
+          "Faustbuch",
+          "Livro popular alemão do século 16 que narra a história do doutor Fausto."
+        ],
+        [
+          "Ciclo dívida-deflação",
+          "Tese de Irving Fisher: o endividamento excessivo leva a vendas forçadas e queda de preços."
+        ],
+        [
+          "Escolásticos",
+          "Teólogos e filósofos medievais que analisaram preço justo, juros e usura."
+        ],
+        [
+          "Justiça comutativa",
+          "Igualdade de valor exigida nas trocas entre particulares."
+        ]
+      ],
+      "hoje": "A metáfora do pacto ajuda a descrever ciclos de crédito que ainda se repetem: o dinheiro emprestado parece abundante na expansão e desaparece quando os vencimentos se acumulam. A discussão sobre juros compostos sobre dívida pública rolada, sobre quem detém os títulos do governo e sobre a distância entre preços e salários continua atual. A crítica de que a economia trocou a filosofia moral pela física também reaparece no debate sobre os limites dos modelos matemáticos e o lugar da ética na profissão."
+    },
+    {
+      "slug": "cap-38-hobbes-e-o-contrato",
+      "numero": 38,
+      "titulo": "Hobbes e o contrato: quando o consentimento basta para a justiça",
+      "titulo_original": "Hobbes and the Rise of Science",
+      "paginas": "pp. 433–444",
+      "chamada": "Para Jones, Hobbes reduziu a justiça ao cumprimento de contratos e virou do avesso a doutrina escolástica da vontade mista, que negava valor ao consentimento arrancado pela necessidade.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Thomas Hobbes nasceu em 5 de abril de 1588, filho de um cura da paróquia de Brokenborough que, segundo a biografia citada por E. Michael Jones, mal sabia ler os ofícios e fugiu para Londres em 1604, depois de brigar com outro clérigo. No capítulo 38 de “Barren Metal”, o filho desse cura aparece como a figura que deu à política e à economia inglesas uma roupagem “científica”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o tutor dos Cavendish chegou à ciência política?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bacharel por Oxford em 1608, Hobbes tornou-se tutor na família de William Cavendish, proprietário de terras em Derbyshire que em 1618 seria o primeiro conde de Devonshire, e depois secretário do segundo conde. Começou como humanista. Nos anos 1630, experimentos de ciências naturais na abadia de Welbeck, com primos do conde, o aproximaram da nova ciência. Em 1636 já escrevia ao conde de Newcastle sobre movimento, calor e a teoria de Galileu sobre cor e luz. Jones registra a conclusão a que a física o levou: só uma coisa no mundo seria real, o movimento."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com a piora da situação política inglesa, Hobbes temeu pela própria segurança e mudou-se para a França, onde aplicou à política e à economia os princípios extraídos da física. O resultado foi o De Cive, de 1642, que, segundo o estudo de Quentin Skinner citado no capítulo, pretendia substituir a ciência civil do Renascimento por outra fundada em premissas científicas. Jones observa que Hobbes escreveu três vezes o mesmo livro sobre sociedade e soberania, sempre com os mesmos adversários: Pedro Lombardo, Tomás de Aquino, Duns Scotus e Francisco Suárez."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que muda quando a justiça vira cumprimento de contrato?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, Hobbes introduziu no pensamento inglês os princípios econômicos liberais do direito romano, que os escolásticos combatiam no continente desde que Cosimo de Médici os trouxera a Florença. Com Heinrich Pesch, Jones o vê como teórico do Estado policial elisabetano e, pela reação que esse Estado provocou, arauto do laissez-faire. Com Adam Smith, como precursor do positivismo jurídico, para o qual a vontade do magistrado seria a única regra de conduta."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A própria justiça é reduzida a um conceito de mercado.”",
+          "original": "Justice itself is reduced to a market concept (p. 434)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones resume a posição que atribui ao direito romano pagão: não há preço justo nem salário justo; a justiça está no cumprimento dos contratos, e o preço é o que as partes acordarem. O contrato voluntário seria a peça de que depende todo o sistema. Assim como, em Hobbes, o estado de natureza termina com um pacto pelo qual os indivíduos se entregam a um Estado absoluto, todo conflito social se resolveria por contratos livremente pactuados. O autor compara esse contrato ao de Fausto: o consentimento não dá a Fausto a posse da própria alma, nem muda a justiça de uma troca. Se o pobre consente porque está ameaçado pela fome, escreve Jones, o caso está encerrado, e foi o consentimento que o encerrou."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o capítulo salta para os empréstimos de curto prazo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que os defensores contemporâneos do capitalismo retomam a noção hobbesiana de consentimento. Seu exemplo é Robert T. Miller, professor de Direito da Universidade Villanova, que na revista First Things de fevereiro de 2011 contestou Alasdair MacIntyre e afirmou que ninguém é forçado a tomar dinheiro emprestado numa economia capitalista. O autor responde com as lojas de payday loans: só ignorância ou necessidade explicariam quem toma recursos nessas condições, e a causa mais óbvia da falta de dinheiro seriam salários baixos de forma sistêmica."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "500% ao ano",
+          "texto": "Taxa que Jones atribui às lojas de payday loans. Para ele, empréstimo e investimento diferem pela partilha do risco: o investidor que divide o risco pode pedir qualquer retorno; quem exige retorno sem dividir o risco pratica usura. São Bernardino de Siena, lembra o autor, dizia que a usura mata a caridade e os negócios."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tradição que Jones opõe a isso é a da “vontade mista”, a de quem consente sob coerção econômica. Com Odd Langholm, ele lembra que vários autores comparavam o devedor ao capitão que joga a carga ao mar para não naufragar. Jean Gerson, Antonino de Florença, Bernardino de Siena e Battista Trovamala, segundo esse relato, negavam que o consentimento absolvesse o contrato usurário; Antonino notava que os necessitados põem por escrito o que o usurário exigir. A analogia considerada mais adequada era a de Odonis."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A situação do devedor que aceita pagar usura é como a de um prisioneiro que prefere ser resgatado a ser enforcado.”",
+          "original": "The situation of the borrower who agrees to pay usury is like that of a prisoner who prefers to be ransomed rather than hanged (p. 437)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Hobbes inverteu a vontade mista?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No Leviatã, Hobbes usa o mesmo exemplo do navio para chegar à conclusão oposta."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Medo e liberdade são compatíveis; como quando um homem lança seus bens ao mar por medo de que o navio afunde.”",
+          "original": "Fear and Liberty are consistent; as when a man throweth his goods into the sea for fear the ship should sink (p. 438)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí, descreve o autor, ações compelidas passam a ser voluntárias, e o preço justo e o salário justo perdem sentido. Em The Elements of Law, Hobbes escreve que comprador e vendedor são ambos juízes do valor e, satisfeitos os dois, não há injúria de nenhum lado. Langholm, citado por Jones, situa a primeira brecha nesse liberalismo nas relações de trabalho: até John Stuart Mill admitiu que o contrato de trabalho é um caso especial, e a brecha se alargou com a Rerum Novarum, de Leão XIII, que pediu um salário justo. Locke lamentava que o pobre aceitasse salário de fome, mas atribuía o mal à escassez geral de dinheiro, não à moral dos empregadores. Hayek aparece como herdeiro da mesma lógica: mesmo coagido, sou eu quem decide qual é o mal menor."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que papel teve a escola de Salamanca?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que os escolásticos tardios de Salamanca aceitaram as premissas dos adversários. O exemplo é Juan de Lugo, que ensinou e escreveu na Itália e, ao admitir o lucrum cessans como título legítimo de compensação, ficaria, nas palavras de Langholm, ao lado de Hobbes. O De iustitia et iure de Lugo saiu em 1642, o mesmo ano do De Cive."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como terminou a trajetória de Hobbes?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hobbes voltou à Inglaterra depois de publicar o Leviatã, em 1651. Edward Hyde, futuro conde de Clarendon, viu as provas do livro e perguntou por que publicaria tal doutrina; a resposta registrada é que Hobbes queria voltar para casa. Chegou a Londres no início de 1652 e foi bem recebido pelos partidários do novo regime. Com a restauração dos Stuart, a Royal Society, que recebeu sua carta em 1662, recusou-se a admiti-lo. Protegido pelos Cavendish, morreu aos 91 anos, em 4 de dezembro de 1679."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, o legado foi separar a economia da moral. Um século depois, os primeiros liberais clássicos imaginariam um mecanismo benévolo que transforma a avareza privada em bem social, e o mercado impessoal, governado por leis abstratas comparáveis à gravidade, passaria a ser visto como o melhor árbitro das trocas."
+        }
+      ],
+      "glossario": [
+        [
+          "Escolástica",
+          "Tradição filosófica e teológica das universidades medievais, de Tomás de Aquino aos mestres de Salamanca."
+        ],
+        [
+          "Vontade mista",
+          "Consentimento dado sob coerção ou necessidade, que os escolásticos não consideravam plenamente livre."
+        ],
+        [
+          "Lucrum cessans",
+          "Lucro cessante: ganho que o credor deixa de obter por ter emprestado o dinheiro."
+        ],
+        [
+          "Positivismo jurídico",
+          "Doutrina para a qual o direito vale pela vontade de quem o impõe, não por seu conteúdo moral."
+        ],
+        [
+          "Laissez-faire",
+          "Princípio de não intervenção do Estado nas trocas econômicas."
+        ],
+        [
+          "Payday loan",
+          "Empréstimo de curto prazo, antecipado sobre o salário seguinte, com juros muito altos."
+        ]
+      ],
+      "hoje": "A pergunta que Jones atribui a Hobbes e aos escolásticos, se basta que as partes concordem, continua a dividir a regulação do crédito. Tetos de juros, regras contra cláusulas abusivas no direito do consumidor e a proteção ao superendividado partem da ideia de que a necessidade pode viciar a escolha, a vontade mista do capítulo. Do outro lado, economistas lembram que tetos rígidos podem empurrar o tomador para o crédito informal, mais caro e menos transparente. O debate sobre o crédito de curto prazo voltado à baixa renda é, no fundo, o mesmo."
+    },
+    {
+      "slug": "cap-39-newton-matematica-e-alquimia",
+      "numero": 39,
+      "titulo": "Newton entre a matemática e a alquimia",
+      "titulo_original": "Isaac Newton and Violent Motion",
+      "paginas": "pp. 445–468",
+      "chamada": "Jones lê os Principia de 1687 como obra de dupla face: matemática de gênio por fora, cosmologia alquímica por dentro. A inércia e a gravidade seriam herdeiras do amor e da discórdia de Empédocles.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1687, a Royal Society publicou os Principia de Isaac Newton, recebidos com aclamação quase universal; Alexander Pope escreveria que Deus disse “Faça-se Newton!” e tudo foi luz. É com essa recepção que E. Michael Jones abre o capítulo 39 de “Barren Metal”, dedicado a contestar a imagem de Newton que ele associa à história whig."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que imagem de Newton o autor contesta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones cita, via Glenn Olsen, um artigo da New York Review of Books de 2004 que descreve a Royal Society como uma república de sábios indiferentes a posição e ganho. Para o autor, a descrição não se aplica a Newton, que teria usado o comando da sociedade contra Robert Hooke e contra Gottfried Wilhelm Leibniz, na disputa sobre quem descobriu primeiro o cálculo. Mesmo o biógrafo Richard Westfall, observa Jones, recorre à imagem dos deuses ao descrevê-lo. O feito celebrado é ter unido a mecânica celeste de Kepler e a terrestre de Galileu numa só construção matemática, a lei do inverso do quadrado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A biografia segue Westfall. Em 1664, aos 22 anos e com quatro de Cambridge, Newton dominou a Geometria de Descartes. No verão de 1665, a peste o levou à casa da mãe em Woolsthorpe, cenário da história da maçã. Jones registra que Hooke reivindicou a ideia da gravitação e que, nas Lectiones Cutlerianae de 1674, descrevera três suposições sobre a atração entre corpos celestes, sem a lei do inverso do quadrado. Westfall, segundo o capítulo, também desmonta o mito da maçã."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para que servia a matemática dos Principia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que Newton deu dois usos à matemática: descrever a atração entre os corpos e encobrir seus rastros. O próprio Newton teria dito a William Derham que tornou o livro abstruso de propósito, para não ser importunado por pequenos entendidos em matemática. O sistema repousava em duas leis. A inércia invertia o senso comum aristotélico: o repouso passava a ser exceção, e o movimento, regra. A gravidade impedia que os corpos, seguindo em linha reta, dispersassem toda a matéria. Com David Berlinski, admirador de Newton, o autor expõe a dificuldade de explicar ambas: os corpos se atraem porque sim."
+        },
+        {
+          "tipo": "p",
+          "texto": "No continente, Christiaan Huygens e Leibniz acusaram Newton de introduzir qualidades ocultas em seu sistema; Huygens achou “absurdo” o princípio de atração. O próprio Newton, em carta a Richard Bentley, recusou que lhe atribuíssem a ideia de uma gravidade inata à matéria."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A causa da gravidade é algo que não pretendo conhecer.”",
+          "original": "the cause of gravity is what I do not pretend to know (p. 449)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que era o “movimento violento”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na física de Aristóteles, os quatro elementos (terra, ar, fogo e água) têm seu lugar natural; os corpos tendem a ele e ali repousam. O deslocamento para longe desse lugar se chamava movimento violento. Newton, segundo Jones, trocou Aristóteles por Descartes, que dividia o mundo entre res extensa, a matéria, e res cogitans, o pensamento. O universo virava um só tecido de átomos, e o movimento passava de um a outro como a locomotiva o transmite aos vagões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor liga essa escolha à controvérsia eucarística. Calvino sustentara que a essência do corpo é a extensão, e a estudiosa Anne Gardiner aponta a convergência entre calvinistas e cartesianos nessa definição. Jones descreve Newton como whig radical, anticatólico e ariano, isto é, alguém que negava a divindade de Cristo. Abolida a substância, argumenta, só restava a força externa: os objetos perdiam o telos, a finalidade interna."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com Philip Mirowski, Descartes aparece como quem fez da conservação a norma da ciência moderna: cada corpo teria uma “força” proporcional a massa vezes velocidade, e o que um perde no choque o outro ganha. Daí viria o sonho de Laplace de uma fórmula única para o mundo. Para o autor, esse sonho morreu na matemática com Gödel e na física com Heisenberg, mas sobreviveu na economia até a equação de Black-Scholes e a quebra do Long Term Capital Management."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde, então, viria a gravidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Leibniz chamou a atração, com ironia, de renascimento na Inglaterra das qualidades ocultas da escolástica. Jones aceita o diagnóstico de contrabando, mas não a fonte."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Newton era um matemático de gênio, mas, quando se tratava de seus princípios cosmológicos, era antes de tudo um alquimista.”",
+          "original": "Newton was a mathematician of genius, but when it came to his cosmological principles, Newton was first and foremost an alchemist (p. 455)"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 anos",
+          "texto": "Período que, segundo Jones, Newton dedicou quase só à pesquisa alquímica a partir de 1669, com fornos no próprio quarto em Cambridge. Escritos alquímicos seriam um décimo de sua biblioteca. Os papéis só vieram a público em 1936, quando o economista John Maynard Keynes comprou a coleção oferecida pela Sotheby’s."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo reconstrói a genealogia que o autor vê por trás disso. A alquimia nasce em Alexandria, quando metalúrgicos e tintureiros egípcios buscaram explicar seu ofício pela filosofia grega. Platão e Aristóteles teriam herdado de Empédocles os quatro elementos, e Empédocles uniu dois princípios opostos, o amor e a discórdia, num cosmos de movimento circular, para Jones o primeiro princípio de conservação. O mercúrio, que “toma todas as formas”, seria a substância que dissolve a própria ideia de substância. Os biógrafos, registra o autor, sugerem que o colapso mental de Newton em 1693 pode ter vindo de envenenamento por mercúrio."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones vê aí uma ponte com a economia: se se troca cor por valor nos textos alquímicos, escreve, a alquimia fica próxima da teoria do papel-moeda. Receitas do papiro de Leiden ensinavam a “dobrar” o ouro com ligas; por isso, diz o autor, alquimistas eram procurados como moedeiros, ponto que voltaria na vida de Newton. Ele lembra ainda o que Westfall descreve como a carreira de Newton de estudante usurário entre os colegas de Cambridge."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o segredo seria central?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Newton adotou o pseudônimo alquímico Jeova sanctus unus, anagrama de seu nome latino, Isaacus Neuutonus, e criticava Boyle por discutir alquimia em cartas que poderiam ser interceptadas. Por meio de Boyle, chegou ao círculo de Samuel Hartlib. Para Jones, o que os alquimistas punham por escrito era verdade exotérica, destinada aos de fora; quando Newton dizia que a alquimia buscava a verdade, falava para os não iniciados."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A primeira regra da alquimia era o ‘alto silêncio’.”",
+          "original": "The first rule of alchemy was “high silence (p. 463)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor conclui que, para ser aceito por um meio científico cartesiano, Newton precisou disfarçar a fonte alquímica de sua cosmologia, pela matemática e pelo atomismo da filosofia mecânica. A inércia corresponderia ao “princípio secreto de insociabilidade” que ele via em fluidos como óleo e água; a gravidade, ao princípio ativo de atração que impede o universo de se desfazer. Os Principia seriam, na expressão de Westfall citada no fecho, uma obra de “cosmologia alquímica”."
+        }
+      ],
+      "glossario": [
+        [
+          "História whig",
+          "Narrativa do passado como progresso rumo às instituições liberais inglesas; termo de Herbert Butterfield."
+        ],
+        [
+          "Lei do inverso do quadrado",
+          "A força de atração cai com o quadrado da distância entre os corpos."
+        ],
+        [
+          "Inércia",
+          "Tendência de um corpo a manter seu estado de repouso ou de movimento retilíneo."
+        ],
+        [
+          "Movimento violento",
+          "Na física aristotélica, deslocamento de um corpo para longe de seu lugar natural."
+        ],
+        [
+          "Res extensa",
+          "Na filosofia de Descartes, a matéria definida como pura extensão espacial."
+        ],
+        [
+          "Telos",
+          "Finalidade interna de um ser, o fim para o qual tende."
+        ],
+        [
+          "Arianismo",
+          "Doutrina que nega a plena divindade de Cristo."
+        ]
+      ],
+      "hoje": "A pergunta sobre de onde vêm os modelos de uma ciência continua atual. A economia ainda importa da física noções como equilíbrio, conservação e otimização, e a crise financeira de 2008 reacendeu a crítica a modelos de risco que supunham mercados bem-comportados. O caso do Long Term Capital Management, citado por Jones, segue nos cursos de finanças como alerta sobre alavancagem e confiança excessiva em fórmulas. A história da ciência, por sua vez, já incorporou os manuscritos alquímicos de Newton ao retrato do cientista."
+    },
+    {
+      "slug": "cap-40-newton-e-o-universo-capitalista",
+      "numero": 40,
+      "titulo": "O universo de Newton como espelho do capitalismo inglês",
+      "titulo_original": "Newton and the Capitalist Universe",
+      "paginas": "pp. 469–486",
+      "chamada": "Jones sustenta que a inércia newtoniana é a discórdia, ou a competição, projetada no cosmos. Com Mirowski, propõe que a economia clássica é física ruim e que a física newtoniana é economia ruim.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em janeiro de 1684, o astrônomo Edmund Halley levou à Royal Society a questão da lei do inverso do quadrado e do movimento celeste. Hooke disse ter demonstrado a relação, sem convencer ninguém. Halley percebeu que Newton tinha a resposta e, segundo E. Michael Jones no capítulo 40 de “Barren Metal”, tornou-se o parteiro intelectual dos Principia."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os Principia foram reescritos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Até então, descreve o autor, a vida intelectual de Newton era feita de projetos abortados e inacabados, em matemática e em alquimia, muitas vezes em conflito entre si. Com Halley, ele enfim concluiu uma obra. Para Jones, o desafio era mais retórico que científico: as lacunas entre as partes matemática, alquímica e cartesiana eram grandes demais para passar despercebidas. Newton refez então a prosa do Livro II como o quebra-cabeça matemático do Livro III, para dificultar que homens sem habilidade vissem a análise por trás das proposições."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "550 páginas em 18 meses",
+          "texto": "Extensão e prazo de redação dos Principia segundo o capítulo. Para Jones, a rapidez sugere que o grosso do trabalho intelectual já estava feito. A publicação, observa, foi o ponto culminante de um processo iniciado com Copérnico 150 anos antes."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema mais fundo, segundo o autor, com apoio no biógrafo Michael White, era a alquimia: as ideias de Newton sobre forças subatômicas derivavam visivelmente da tradição hermética, e ele não podia arriscar expor suas fontes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os Principia foram um ‘livro que fez época’, mas também um hábil exercício de prestidigitação.”",
+          "original": "The Principia was an \"epoch-making book,\" but it was also a skillful exercise in sleight of hand (p. 469)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois que Huygens e Leibniz o acusaram de importar agentes ocultos para um exercício de filosofia mecânica, Newton inseriu numa edição posterior a célebre fórmula “hypotheses non fingo”, não invento hipóteses. A essa altura, observa Jones, seus pronunciamentos já bastavam para calar murmúrios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Amor e discórdia viram inércia e gravidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor sustenta que o sistema newtoniano não é um retorno à escolástica, como dizia Leibniz, mas ao paganismo. Traça uma linha de influência de Newton a Robert Boyle, Samuel Hartlib, Robert Fludd, Francis Bacon e John Dee. Newton teria reduzido a magia de Dee a dois princípios, o amor e a discórdia, e, dos dois, a discórdia, isto é, a inércia, seria o mais básico. Se se troca discórdia pelo termo econômico moderno, competição, escreve Jones, tem-se o princípio do capitalismo inglês."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que muda, segundo o capítulo, é a relação entre movimento e finalidade. Na tradição aristotélica e tomista, movimento é passagem da potência ao ato e sempre visa um fim. Com o teólogo Simon Oliver, Jones argumenta que Newton, unitarista, não podia conceber a Trindade como modelo do movimento: a natureza fica externa a Deus, e as relações entre as coisas, mecânicas. Westfall registra que Newton, após 20 anos de reflexão, concluiu que uma força interna aos corpos era incompatível com a inércia. Restava a força externa. Herbert Butterfield descreveu a inércia como o fator que ajudou a expulsar os espíritos do mundo e abriu caminho a um universo de relojoaria."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“[As forças de Newton] descrevem o movimento como resultado de um conflito competitivo, e não de uma criação participativa.”",
+          "original": "describe motion as the outcome of competitive conflict rather than the outcome of a participative creation (p. 474)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde entram Smith, Malthus e Darwin?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na leitura de Smith que Jones apresenta, o amor-próprio funciona como a inércia: cada corpo busca seu bem sem considerar os outros; a competição o contém, e o resultado é a mão invisível que transforma vício privado em bem público. Para o autor, os ricos assumem em Smith o papel que a Providência tinha no universo tradicional, ideia que ele associa à economia do gotejamento. Heinrich Pesch e Réginald Garrigou-Lagrange representam a visão oposta: um Deus sábio não criaria desejos impossíveis de satisfazer, e os bens da terra devem servir a todos. Malthus ocuparia posição intermediária entre Newton e Darwin, com a população a crescer geometricamente e os alimentos, aritmeticamente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na imagem política do capítulo, o Deus newtoniano governa como Guilherme de Orange, posto no trono pela força, por movimento violento, e não por herança, como Jaime II. Sem obrigações para com suas criaturas, deixaria que elas resolvessem a disputa por recursos escassos pela competição, isto é, pelo capitalismo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O elo com a biologia vem de Eric D. Beinhocker, professor de Harvard e autor de The Origin of Wealth. Malthus publicou seu ensaio sobre população em 1798; Darwin o leu em outubro de 1838 e encontrou ali a teoria com que trabalhar. Depois a influência fez o caminho inverso: em 1898, Thorstein Veblen descreveu a economia como sistema evolutivo, e Alfred Marshall escreveu que a meca do economista está na biologia econômica. Para Beinhocker, a evolução é um algoritmo universal, que rege tanto a biosfera quanto a “econosfera”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia é física ruim, e a física, economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central apoia-se em Philip Mirowski e seu More Heat than Light. Segundo ele, a matemática que os cientistas sociais empregam é a da física de 1850, e os fundadores da teoria neoclássica copiaram as teorias físicas dos anos 1870 termo a termo, símbolo a símbolo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A teoria econômica usada no Ocidente para discutir toda sorte de eventos e questões era essencialmente um simulacro da física de meados do século 19.”",
+          "original": "the economic theory used in the West to discuss all manner of events and issues was essentially a simulacrum of the physics of the mid-19th century (p. 481)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones afirma que a equação é reversível. Com Mirowski, sustenta que o princípio de conservação seria uma versão das partidas dobradas, a contabilidade em que tudo soma zero, e que as inovações na teoria do movimento seguiram o eixo comercial europeu, do norte da Itália aos Países Baixos e ao sudeste britânico. A palavra holandesa arcaica “Actien” designava tanto as primeiras tentativas de quantificar o movimento quanto as ações das companhias por ações. Leibniz, que começou como engenheiro de minas no Harz, escreveu que a água de seu reservatório valia seu peso em ouro. Balfour Stewart comparou a energia de posição ao dinheiro no banco, e a de movimento ao dinheiro que se gasta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones encerra com uma proposição própria: assim como a economia clássica seria física ruim, a física newtoniana seria economia ruim, no duplo sentido de defeito intelectual e falha moral. Assim como Darwin e Malthus projetaram sobre a biologia o capitalismo inglês de seu tempo, Newton o teria projetado sobre o universo ao fazer da inércia, a discórdia, seu princípio fundamental. O passo seguinte, anuncia, é ver essa física em seu contexto político e histórico."
+        }
+      ],
+      "glossario": [
+        [
+          "Hypotheses non fingo",
+          "“Não invento hipóteses”: fórmula com que Newton recusou especular sobre a causa da gravidade."
+        ],
+        [
+          "Telos",
+          "Finalidade interna de um ser, o fim para o qual tende."
+        ],
+        [
+          "Unitarismo",
+          "Doutrina que admite uma só pessoa divina e nega a Trindade."
+        ],
+        [
+          "Mão invisível",
+          "Imagem de Adam Smith para a coordenação não intencional dos interesses privados."
+        ],
+        [
+          "Economia neoclássica",
+          "Corrente que, desde os anos 1870, modela a economia como agentes que otimizam utilidade em equilíbrio."
+        ],
+        [
+          "Partidas dobradas",
+          "Método contábil em que cada lançamento a débito tem um correspondente a crédito."
+        ]
+      ],
+      "hoje": "A crítica de Mirowski à importação da física pela economia segue no debate acadêmico, ao lado da economia evolucionária, dos estudos de complexidade e da economia comportamental, que contestam o modelo de agentes otimizadores em equilíbrio. Bancos centrais e tesourarias usam modelos que herdaram essa linguagem, de equilíbrio, choques e estabilidade, e a discussão sobre seus limites volta a cada crise. A pergunta de fundo do capítulo, se uma teoria econômica descreve a natureza ou projeta uma ordem social, continua útil para ler qualquer modelo que se apresente como neutro."
     }
   ],
   "titulo": "Barren Metal",
