@@ -11788,11 +11788,1184 @@
       ],
       "jstor_edicao": "i322392",
       "colecao": "eua"
+    },
+    {
+      "slug": "1901-a-teoria-do-valor-antes-de-adam-smith",
+      "numero": 59,
+      "titulo": "Sewall, 1901: do preço justo ao valor subjetivo, antes de Adam Smith",
+      "titulo_original": "The Theory of Value before Adam Smith",
+      "autores": "Hannah Robie Sewall, Ph.D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 2, nº 3",
+      "data": "agosto de 1901",
+      "chamada": "Em 1901, Hannah Robie Sewall refez o caminho da ideia de valor, de Aristóteles e Tomás de Aquino a Galiani, Turgot e Steuart: como o “preço justo” virou pergunta sobre o que determina o preço.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "1588. O mercador Bernardo Davanzati publica umas Lições sobre a moeda para mostrar o dano de rebaixar a cunhagem. No meio do argumento, um exemplo: um ovo, cujo preço pode ser meio grão de ouro, bastou para manter vivo o conde Ugolino por onze dias na Torre da Fome, enquanto todo o ouro do mundo não teria bastado. Como coisas tão valiosas por natureza podem valer tão pouco ouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A pergunta está no centro de The Theory of Value before Adam Smith, de Hannah Robie Sewall, Ph.D., publicada em agosto de 1901 como o nº 3 do vol. 2 da terceira série das Publications of the American Economic Association. O livro tem três capítulos e uma conclusão: o valor antes do século XVI, o valor nos séculos XVI e XVII e o valor na formação da ciência econômica até 1776. Em cada etapa, a autora liga as ideias às condições econômicas em que surgiram."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os gregos e os romanos entendiam por valor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Sewall, os gregos estudavam a conduta humana para saber o que era justo, não para descobrir leis da distribuição da riqueza. Aristóteles distingue dois usos de um sapato: calçar e trocar. O segundo é derivado, porque o sapato não é feito para ser objeto de escambo. Na Ética, a troca justa é a que deixa as partes com o mesmo que tinham antes, e a medida comum das coisas é a procura por serviços mútuos, representada pelo dinheiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os romanos, segundo a autora, não tinham teoria do valor; usavam a mesma palavra, pretium, para preço e valor. O jurista Paulo admitia que cada parte procurasse levar vantagem sobre a outra na compra e venda. Pédio dizia que os preços não se medem pela afeição nem pela utilidade para um indivíduo, mas têm validade comum. Um rescrito de Diocleciano permitia ao vendedor desfazer a venda feita por menos da metade do preço verdadeiro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a Idade Média chegou ao “preço justo”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com as invasões bárbaras, diz Sewall, veio uma economia natural: terra em troca de serviço, bens trocados por bens, sem moeda e sem barganha. O valor de um serviço dependia da posição social de quem o prestava, não do tempo gasto nem da utilidade para quem o recebia. Por volta do ano 1000, a economia monetária começou a substituir a natural, e se espalhou pela Europa nos três séculos seguintes. A compra e venda passou a ocupar a vida diária, e os teólogos tiveram de tratar do assunto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tomás de Aquino é o centro do primeiro capítulo. Na Suma Teológica, ele sustenta que a compra e venda existe para vantagem comum e não deve pesar mais para um lado. Daí a regra:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“vender uma coisa mais caro ou comprá-la mais barato do que ela vale”",
+          "original": "“to sell a thing dearer or to buy a thing cheaper than it is worth”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Essa conduta, para Aquino, é injusta em si. Mas Sewall mostra as nuances. O preço das coisas vendáveis, citando Agostinho, não segue a hierarquia da natureza: às vezes um cavalo vale mais que um escravo. O vendedor que leva grão a um lugar e sabe que outros comerciantes vêm atrás pode vender ao preço corrente sem avisar; avisar seria virtude maior, não dever de justiça. E o preço justo é matéria de estimativa: um pouco a mais ou a menos não destrói a justiça. O ganho do comerciante é lícito quando serve a fim honesto e funciona como salário de seu trabalho; ele pode vender mais caro por melhorar o artigo, pela diferença de lugar ou de tempo e pelo risco do transporte."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na síntese de Sewall, o valor verdadeiro dos canonistas era a remuneração justa do trabalho do produtor, segundo o padrão de vida de sua classe. Só a estimativa comum da comunidade o revelava, e ela não podia ser confiada ao mercado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quando o preço de mercado passou a ser o preço justo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o comércio, a estimativa comum passou a incorporar qualidade, desejo das pessoas e oferta. O jurista eclesiástico Scaccia, no início do século XVII, publicou um tratado sobre comércio e câmbio que ficou por um tempo sob interdição da Igreja e depois foi declarado conforme ao direito canônico."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 preços justos",
+          "texto": "Para Scaccia, o preço justo não era um ponto indivisível: havia um máximo, um médio e um mínimo. Seu critério: o preço que pede quem não está em necessidade a quem também não está, é inteligente, conhece o estado da coisa, é maior de idade e está em sã consciência. Na conclusão, Sewall registra que os canonistas acabaram admitindo que, em condições normais, o preço de mercado seria o justo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Reforma, segundo a autora, não trouxe avanço imediato: Lutero voltou às doutrinas dos primeiros canonistas. O avanço veio de dois grupos: os filósofos do direito natural, como Grotius e Pufendorf, e os empiristas, que escreviam para defender alguma medida de política."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O valor depende da coisa ou de quem a deseja?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Davanzati respondeu com uma proporção. Todas as coisas que os homens desejam valem, somadas, todo o dinheiro em circulação; a fração que cabe a cada coisa corresponde à fração de felicidade que ela proporciona. Sewall lê aí, em forma rudimentar, a ideia de que os valores relativos dependem da utilidade subjetiva."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 mil grãos",
+          "texto": "Quantidade de grãos de trigo que, segundo Davanzati, se vendia por um único grão de ouro, embora nada fosse mais importante para a vida que o trigo. O mesmo texto, de 1588, sustenta que o poder de compra da moeda vem do acordo entre as pessoas, não das qualidades naturais dos metais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Montanari dedicou páginas a mostrar que as necessidades de que falava Aristóteles incluíam os desejos. Nicholas Barbon foi adiante: as necessidades do espírito são infinitas, e pérolas e diamantes valem por serem distintivos de honra. Locke explicou o valor de mercado pela quantidade e pela saída do bem, o “vent”; Law trocou a palavra por demanda e ilustrou o ponto com o exemplo clássico da água e dos diamantes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O custo explica o valor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Petty buscou uma equivalência entre terra e trabalho. Pôs, em exemplo, um bezerro desmamado em dois acres de pasto cercado: a carne ganha em doze meses, mais os juros do valor do bezerro, seria a renda anual da terra, e o excedente produzido pelo trabalho seria o salário, tudo medido em dias de comida. Cantillon contou o custo de outro modo: um copo de água do Sena não custa nada, mas nas ruas de Paris se paga um sol por ele, o preço do trabalho de transportá-lo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Esses autores, na classificação de Sewall, explicavam o valor de forma mecânica: oferta e demanda no curto prazo, custo de produção como árbitro permanente. A autora observa que eles tratavam como simples e invariáveis as necessidades e os hábitos que determinam a subsistência do trabalhador."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os psicólogos do século XVIII acrescentaram?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Galiani, abade de Nápoles, analisou o valor como composto de utilidade e raridade. Ar e água não têm valor porque não são raros; um saco de areia das praias do Japão seria raro, mas sem valor por não ter utilidade. Chamava de paralogismos vergonhosos frases como “uma libra de pão é mais útil que uma libra de ouro”, porque útil é termo relativo ao estado de cada pessoa. Sua definição:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Chamo utilidade a aptidão que uma coisa tem para nos proporcionar felicidade”",
+          "original": "“I call utility the aptitude that a thing has for procuring us happiness”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Turgot pôs em oposição a utilidade e o custo: a água, apesar de útil, não é preciosa onde abunda, mas no deserto tem preço infinito. Condillac voltou a utilidade e raridade. Para os três, diz Sewall, as forças que determinam o valor são internas, complexas e variáveis, e o preço de mercado é aquele em que compradores e vendedores conseguem concordar ao comparar suas avaliações pessoais."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4 fatores",
+          "texto": "Os determinantes do valor segundo Sir James Steuart, em An Inquiry into the Principles of Political Economy, de 1767: a abundância da coisa, a demanda por ela, a concorrência entre os demandantes e a capacidade de pagamento deles. O preço não pode ficar abaixo do “valor real”, formado pelo tempo de trabalho, pela subsistência do trabalhador e pelos materiais; o que passa disso é lucro, proporcional à demanda."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A que conclusão a autora chega?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sewall propõe abandonar a distinção entre valor de uso e valor de troca, que considera imprecisa, porque trocar é uma forma de usar. Em seu lugar, sugere distinguir o valor pessoal, produto da mente de um indivíduo, do valor social, produto comum de muitos. O valor de troca seria uma forma de valor social, que dependeu de duas condições históricas: produzir para vender e um interesse generalizado pelas atividades econômicas. Ela observa que, mais de um século e um quarto depois, ainda não havia formulação da lei do valor com aprovação geral. Mas registra que quase não há"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“proposição importante na discussão moderna do valor”",
+          "original": "“proposition of importance in the modern discussion of value”"
+        },
+        {
+          "tipo": "p",
+          "texto": "que não tenha sido enunciada ou sugerida pelos autores anteriores a Adam Smith."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o método do livro é o que lhe dá unidade. Sewall não trata a teoria do valor como uma sequência de autores, mas como resposta a condições econômicas: enquanto o serviço era pago por posição social, não havia por que perguntar o que determina o preço; quando a economia passou a produzir para vender, a pergunta se impôs. A trajetória que ela descreve é a passagem de uma questão normativa, qual deveria ser o preço, para uma positiva, o que faz o preço ser o que é. O ponto intermediário, o preço justo como faixa e não como ponto, é revelador: a regra moral foi se alargando até caber dentro da concorrência.",
+            "O conteúdo econômico também mostra quanto os ingredientes estavam disponíveis cedo. O ovo de Davanzati, a água e os diamantes de Law, a areia do Japão de Galiani e a água no deserto de Turgot são versões do mesmo problema: o valor não acompanha a utilidade total, mas a utilidade diante da escassez. Faltava a ferramenta para juntar as duas coisas na margem. E a solução de Aquino para o comerciante que sabe da chegada de mais grão continua a ser o caso mais claro de um dilema que nunca saiu da economia: o que o mercado deve à informação que só um lado possui."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Preço justo",
+          "na doutrina canônica, o preço que corresponde ao valor verdadeiro de uma coisa, segundo a estimativa comum."
+        ],
+        [
+          "Canonistas",
+          "juristas do direito da Igreja, que trataram de preço, usura e comércio na Idade Média."
+        ],
+        [
+          "Economia natural",
+          "economia sem moeda, em que terra, serviços e bens se trocam diretamente."
+        ],
+        [
+          "Valor de uso",
+          "a importância de um bem pelo serviço que presta a quem o usa."
+        ],
+        [
+          "Valor de troca",
+          "o poder de um bem de obter outros bens na troca."
+        ],
+        [
+          "Vent",
+          "termo de Locke para a saída ou venda de um bem, próximo da ideia de demanda efetiva."
+        ],
+        [
+          "Fisiocratas",
+          "economistas franceses do século XVIII que viam na agricultura a fonte da riqueza."
+        ],
+        [
+          "Utilidade subjetiva",
+          "a capacidade de um bem de satisfazer desejos, avaliada pela pessoa que o deseja."
+        ]
+      ],
+      "hoje": "A pergunta de Aquino sobre o comerciante que sabe da chegada de mais grão reaparece nos debates sobre informação privilegiada e dever de divulgação. A ideia de preço justo volta a cada emergência, quando leis contra preços abusivos tentam separar a alta legítima, que sinaliza escassez e atrai oferta, do aproveitamento da necessidade alheia. E a distinção de Scaccia entre quem compra em necessidade e quem compra livremente segue útil para pensar contratos em situações de urgência. O livro de Sewall lembra que essas perguntas são anteriores à teoria econômica que hoje as examina.",
+      "itens": [
+        [
+          "The Theory of Value before Adam Smith",
+          "pp. 1–128",
+          "2485740"
+        ]
+      ],
+      "jstor_edicao": "i322393",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1901-o-orcamento-das-cidades-americanas",
+      "numero": 60,
+      "titulo": "Clow, 1901: como as cidades americanas aprenderam a fazer orçamento",
+      "titulo_original": "A Comparative Study of the Administration of City Finances in the United States with Special Reference to the Budget",
+      "autores": "Frederick R. Clow, Ph.D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 2, nº 4",
+      "data": "novembro de 1901",
+      "chamada": "Em 1901, Frederick R. Clow comparou as finanças de 102 cidades americanas e mostrou como teto de impostos, tutela estadual e déficits crônicos empurraram os municípios para o orçamento moderno.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Filadélfia, 1860. O legislativo da Pensilvânia decide que a cidade terá uma nova prefeitura e aprova uma lei para isso; a guerra adia a obra. Em 1870, outra lei nomeia os membros de uma comissão e, como interpretada pelos tribunais, obriga a cidade a pagar a construção com impostos e empréstimos, apesar de todos os obstáculos que as autoridades locais tentaram opor. Até 1º de julho de 1901, o prédio havia custado US$ 22.581.406 e ainda não estava pronto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso abre o retrato que Frederick R. Clow, Ph.D., traça em A Comparative Study of the Administration of City Finances in the United States with Special Reference to the Budget, publicado em novembro de 1901 como o nº 4 do vol. 2 da terceira série das Publications of the American Economic Association. O estudo nasceu de uma sugestão do professor Charles F. Dunbar, sob cuja direção Clow começou a pesquisa em 1894. Cobre 102 cidades; o autor visitou 23 delas pessoalmente e obteve o resto por documentos e correspondência."
+        },
+        {
+          "tipo": "p",
+          "texto": "O próprio Clow avisa, no prefácio, que o resultado é incompleto: algumas partes são sumárias, impostos e dívidas aparecem só em esqueleto, e as fontes, sobretudo as obtidas por carta, tornaram a certeza difícil em muitos pontos. Para ele, um estudo comparativo satisfatório teria de esperar estudos exaustivos de cidades individuais, como os já feitos sobre Nova York e Baltimore."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto poder tinha uma cidade americana?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pouco, segundo Clow. O estado é soberano; a cidade é criada pelo estado e pode ser alterada ou abolida por ele. Os poderes municipais são enumerados em cartas especiais ou leis gerais e interpretados de forma estrita. Clow cita o juiz Dillon: qualquer dúvida razoável sobre a existência de um poder é"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“resolvida pelos tribunais contra a corporação, e o poder é negado”",
+          "original": "“resolved by the courts against the corporation, and the power is denied”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde as constituições estaduais proibiam leis especiais para cidades, a proibição era contornada dividindo as cidades em classes por população, de modo que cada grande cidade tivesse uma classe só para si. Na Pensilvânia, a classe I incluía apenas Filadélfia. A minúcia das regras impressiona o autor: a lei de consolidação de 1882 fixava para Nova York o número de inspetores, cirurgiões, capitães e sargentos da polícia, além do salário de cada posto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3,7 milhões",
+          "texto": "Parte do imposto de Nova York para fins locais, em 1868, que estava à disposição do conselho municipal, num total de US$ 17.728.590. Em 1886, o prefeito Grace mostrou que quase exatamente três quintos das dotações estavam fora do controle do conselho. Até 1871, o lançamento anual do imposto da cidade precisava da aprovação do legislativo estadual."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso extremo é Memphis. Em 1879, o legislativo do Tennessee aboliu o governo da cidade para permitir que ela repudiasse a dívida; a área virou um “distrito de tributação” cujos impostos seriam fixados diretamente pela assembleia estadual. O poder de tributar só voltou às autoridades locais depois de um acordo com os credores."
+        },
+        {
+          "tipo": "p",
+          "texto": "No endividamento, as cidades tinham mais autonomia: o legislativo não podia obrigá-las a contrair dívida para fins locais sem consentimento. Mas quase todas tinham limites. O mais comum era 5% do valor tributável dos imóveis, com variações de 2,5% em Massachusetts a 18% em Richmond."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que as cidades fizeram orçamento antes da União?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clow afirma que as cidades americanas superaram os governos estadual e federal no desenvolvimento do procedimento orçamentário. A razão principal está na receita. Ela vinha sobretudo de um imposto direto sobre o valor dos imóveis; em dois terços das cidades, as cartas fixavam uma alíquota máxima, e metade delas precisava cobrar até o teto. Somada à aversão universal aos impostos, a receita era limitada pela carta, pelo costume ou pelo que o contribuinte tolerasse. Diante das demandas da vida urbana, a cidade tinha de"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“cortar o casaco conforme o pano”",
+          "original": "“cut the coat according to the cloth”"
+        },
+        {
+          "tipo": "p",
+          "texto": "e repartir a receita limitada entre os serviços segundo um plano. Dotações feitas ao acaso, como as do governo federal e da maioria dos estados, seriam intoleráveis. A tutela estadual ajudava por outro caminho: quase em toda parte, a lei exigia que o imposto fosse cobrado por finalidade, tanto para escolas, tanto para parques, tanto para a dívida. Aí estão, diz Clow, os elementos de um orçamento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que formas tinha o orçamento municipal?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clow distingue três. A primeira é o simples lançamento do imposto, um orçamento em embrião: em Little Rock, as alíquotas eram as máximas permitidas, e a repartição do dinheiro entre departamentos era feita pelo conselho ao aprovar contratos e contas mês a mês. A segunda é o lançamento precedido de estimativas detalhadas sem força legal. A terceira, o orçamento plenamente desenvolvido, como o de Boston, fixa dotações anuais junto com o imposto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "23 itens",
+          "texto": "Número de itens do orçamento que o conselho de finanças de Albany submeteu ao conselho municipal em 1895. Os detalhes vinham em adendos com 310 itens, que permaneceram sem força legal. Em Elizabeth, o orçamento de 1897 tinha 15 itens e somava US$ 391.533,61."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda forma, o conselho fica apenas moralmente obrigado a seguir as estimativas. Clow observa que essa obrigação está sujeita a todo uso e abuso: pode permitir economia ou melhor serviço, mas também que um grupo no controle distribua bem os recursos na época em que o orçamento atrai atenção pública e depois os desvie para outros fins."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem fazia o orçamento, o executivo ou o conselho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As estimativas dos departamentos, diz Clow, pedem quase sempre mais do que a cidade pode pagar, e alguém tem de fazer a tarefa ingrata de cortá-las. O trabalho exige tantos detalhes e contas que só pode ser feito por uma pessoa, ou por duas ou três. Depois de pronto, aumentar um item exige subir o imposto ou cortar outro, e cada mudança encontra resistência. O autor recebeu repetidos depoimentos de que o controller ou o prefeito, ao revisar as estimativas, fazia de fato o orçamento."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1 item",
+          "texto": "Única alteração feita pelo conselho de La Crosse ao orçamento preparado pelo controller durante os oito anos em que ele serviu. Em Indianápolis e Worcester, o conselho não podia aumentar as estimativas; em Buffalo e Cambridge, alterá-las exigia dois terços de todos os membros. Em Troy, o conselho podia reduzir mas não aumentar, regra depois adotada na carta da Grande Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "O modelo mais conhecido foi a junta de estimativa e repartição de Nova York, formada por altos funcionários executivos ex officio, com o prefeito e o controller entre eles. O conselho podia propor mudanças, mas a junta podia derrubá-las, e por isso o conselho raramente as fazia. A ideia foi imitada em Baltimore e, com menos poderes, em New Haven, Detroit, Minneapolis e outras cidades."
+        },
+        {
+          "tipo": "h2",
+          "texto": "As previsões de receita acertavam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pouco. Nas estimativas, escreve Clow, as cidades estavam na mesma condição caótica do governo federal. A despesa pode ser obrigada a caber na dotação; a receita, não. É da superestimativa das receitas que os déficits mais surgem. Em Buffalo, a carta mandava distribuir o imposto pelos imóveis, e nada indica que a cidade não contasse com cada dólar lançado; o resultado era uma dívida flutuante alimentada por um déficit anual; o controller informou que ela somava cerca de US$ 80 mil em sete anos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20%",
+          "texto": "Desconto que Allegheny aplicava ao lançamento do imposto antes de distribuir as dotações. Nova York acrescentava ao imposto até 3% para cobrir falhas de arrecadação; Louisville só podia gastar ou contratar 95% do lançamento antes de arrecadá-lo. Em Baltimore, a comissão de meios estimou que 73% do lançamento de 1896 entrariam no ano; entraram 70,4%."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como corrigir um orçamento que não previu tudo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clow lista os imprevistos: um carro de bombeiros perdido num incêndio, uma tempestade de neve que só vem uma vez por década, chuvas, enchentes, epidemias, motins, sentenças judiciais. Algumas cidades revisavam o orçamento de forma regular: Atlanta em junho e outubro, Cleveland três vezes ao ano. O autor desconfia do arranjo, porque uma revisão esperada por todos tornaria menos visível quem estourou a dotação. Sua regra:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Tudo o que diminui a importância do orçamento original é um mal”",
+          "original": "“Anything that lessens the importance of the original budget is an evil”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os meios mais usados eram o saque a descoberto, frequente embora ilegal em várias cidades, e a transferência entre dotações, proibida como regra geral em Nova York, Wisconsin e Iowa. Boston a permitia por recomendação escrita do prefeito aprovada por dois terços do conselho."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde ia a administração financeira das cidades?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No resumo final, Clow descreve uma trajetória. Até cerca de trinta anos antes, comissões do conselho dirigiam o trabalho até os menores detalhes. Desde então, as maiores cidades restringiram o conselho ao trabalho legislativo e entregaram a administração aos executivos, que preparam o orçamento e o submetem à aprovação. No começo, o único orçamento era o imposto sobre a propriedade; agora é uma previsão oficial de todas as receitas e sua destinação em somas específicas. O controller ganhou importância; o tesoureiro, relativamente, perdeu."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o método comparativo é o que dá peso ao estudo. Em vez de descrever o modelo ideal, Clow reúne o que 102 cidades efetivamente faziam e deixa ver um mecanismo econômico: a restrição orçamentária rígida veio antes da técnica orçamentária. Onde a alíquota tinha teto e o contribuinte resistia, a cidade precisou escolher entre serviços; onde o governo podia simplesmente gastar, como a União, as dotações ficavam dispersas. O orçamento aparece aqui como consequência da escassez de receita, não de uma doutrina administrativa.",
+            "O livro também isola uma assimetria que continua no centro da gestão fiscal: a despesa obedece a uma ordem, a receita não. Os remédios que ele registra, o desconto de 20% de Allegheny, a margem de Nova York, o limite de 95% de Louisville, são versões primitivas de regras de prudência para estimar receita. E a regra de Troy, em que o legislativo pode cortar mas não aumentar, mostra a escolha institucional de concentrar a iniciativa em quem conhece os números e dar ao conselho o poder de veto, não o de expansão."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Controller (comptroller)",
+          "principal funcionário contábil da cidade, que audita contas e prepara grande parte do orçamento."
+        ],
+        [
+          "Lançamento do imposto (tax-levy)",
+          "ato que fixa as alíquotas ou as somas a cobrar do imposto sobre a propriedade no ano."
+        ],
+        [
+          "Dotação",
+          "autorização legal para gastar uma soma específica numa finalidade específica."
+        ],
+        [
+          "Carta municipal (charter)",
+          "lei estadual que organiza o governo de uma cidade e enumera seus poderes."
+        ],
+        [
+          "Regra de Dillon",
+          "princípio judicial de que a cidade só tem os poderes expressamente concedidos pelo estado."
+        ],
+        [
+          "Ex officio",
+          "membro de um órgão em razão do cargo que ocupa, não por eleição ou nomeação específica."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida de curto prazo acumulada para cobrir déficits correntes."
+        ],
+        [
+          "Saque a descoberto",
+          "gasto acima da dotação aprovada, coberto depois."
+        ]
+      ],
+      "hoje": "O estudo de Clow antecipa debates que seguem abertos na gestão pública: quem deve ter a iniciativa do orçamento, até onde o legislativo pode alterá-lo, como estimar receitas com prudência e como lidar com o imprevisto sem esvaziar a lei aprovada. As regras fiscais atuais, com limites de despesa, metas de resultado e mecanismos de contenção quando a arrecadação frustra, tratam do mesmo problema que Buffalo enfrentava: a receita estimada não é receita garantida. E a tensão entre autonomia local e tutela de níveis superiores de governo continua a definir o espaço fiscal dos municípios.",
+      "itens": [
+        [
+          "A Comparative Study of the Administration of City Finances in the United States with Special Reference to the Budget",
+          "pp. 7–148",
+          "2485889"
+        ]
+      ],
+      "jstor_edicao": "i322394",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1902-a-decima-quarta-reuniao-anual",
+      "numero": 61,
+      "titulo": "Washington, 1901: liberdade industrial, comércio e tarifa protetora",
+      "titulo_original": "Papers and Proceedings of the Fourteenth Annual Meeting, Washington, D. C., December 27, 28 and 30, 1901",
+      "autores": "Richard T. Ely, Brooks Adams (Quincy, Mass.), Worthington C. Ford (Boston Public Library), Henry C. Emery (Yale University), Thomas N. Carver (Harvard University), Guy S. Callender (Bowdoin College), Maurice H. Robinson (Yale University), Charles A. Tuttle (Wabash College), David Kinley (University of Illinois), Samuel M. Lindsay (University of Pennsylvania), Alfred H. Stone (Greenville, Miss.), Herman Justi (Illinois Coal Operators' Association), Carroll D. Wright (U. S. Department of Labor), Thomas S. Adams (University of Wisconsin), Jacob H. Hollander (Johns Hopkins University), Moses N. Baker (Engineering News), Edwin R. A. Seligman (Columbia University), Isaac A. Loos (University of Iowa), Edward P. Cheyney (University of Pennsylvania) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 3, nº 1",
+      "data": "fevereiro de 1902",
+      "chamada": "Washington, dezembro de 1901: Ely redefine liberdade industrial, Brooks Adams lê o comércio americano como luta pelo centro do mundo e Carver testa o que a teoria admite numa tarifa protetora.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Madison, Wisconsin, dezenove barbeiros queriam fechar aos domingos. O vigésimo não concordou, e os vinte continuaram abertos. Foi com essa cena que Richard T. Ely, na noite de 27 de dezembro de 1901, numa sessão conjunta com a American Historical Association na Columbian University, em Washington, ilustrou o que chamou de problema do vigésimo homem: dezenove podem preferir dez horas de trabalho e ser levados a catorze pela concorrência do vigésimo, que também preferiria dez. A escolha parece livre, disse ele, mas não é livre em nenhum sentido verdadeiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O discurso presidencial, “Industrial Liberty”, partia de 1776, ano da Declaração de Independência e da Riqueza das Nações, e de uma liberdade pensada em termos negativos e políticos: bastava remover restrições. Para Ely, a liberdade do século XX era outra, positiva, no sentido de Thomas Hill Green, e as restrições que pesam sobre ela vêm sobretudo da coerção de forças econômicas que se exprimem pelo contrato entre desiguais. Citou contratos de trabalho na Carolina do Sul que um juiz considerou piores que a escravidão, a lei de Massachusetts que limitou o trabalho feminino em fábricas a dez horas por dia e sessenta por semana e a lei de Utah das oito horas para mineiros, mantida pela Suprema Corte."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Não há desigualdade maior que o tratamento igual de desiguais.”",
+          "original": "“There is no greater inequality than the equal treatment of unequals.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase, que Ely atribuiu a um jurista moderno, resumia a tese: legislação que regula o contrato restringe a liberdade em um ponto para ampliá-la em outros. O ideal, concluiu, ficava a meio caminho entre o anarquismo e o socialismo, e ele o chamou de princípio da solidariedade social."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O comércio exterior americano era uma questão de preços ou de poder?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na manhã seguinte, Brooks Adams, de Quincy, Massachusetts, respondeu à pergunta do programa voltando à Antiguidade. Tratou a economia como o estudo da luta pela sobrevivência entre grupos humanos e descreveu deslocamentos sucessivos do centro de energia do mundo: de Nínive, ponto de convergência das rotas do Oriente, às cidades gregas, a Roma, ao norte da Itália e a Londres. Em cada caso, disse, a mudança das rotas jogava as velhas capitais na excentricidade, e a guerra era a forma mais intensa da concorrência comercial. Na sua leitura, o ouro da Califórnia, a partir de 1848, deu aos Estados Unidos capital para as ferrovias; a crise aberta em 1873 forçou o país a vender barato; e a consolidação em trustes, que ele chamou de tipo mais alto de eficiência administrativa, fez de Londres a próxima Nínive."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 87 milhões",
+          "texto": "Ouro exportado em termos líquidos pelos Estados Unidos só em 1893, segundo Brooks Adams. Ele também registra os depósitos em caixas econômicas, que passaram de US$ 33.087.488 em 1848 a US$ 149.277.504 em 1860, e afirma que em março de 1897 as siderúrgicas consolidadas de Pittsburgh começaram a vender aço abaixo do preço europeu."
+        },
+        {
+          "tipo": "p",
+          "texto": "O debate não aceitou a tese inteira. Charles A. Conant sustentou que a abundância de metais preciosos é consequência, não causa, da prosperidade nacional. Seligman e Henry B. Gardner lembraram que, na década de 1850, os colonos chegaram ao vale do Mississippi e as ferrovias começaram a pesar na economia; Gardner acrescentou a mudança da política comercial inglesa no fim dos anos 1840 e o salto das exportações de algodão. H. P. Willis questionou o uso do saldo comercial como argumento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a Europa voltava à proteção?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Worthington C. Ford, chefe do departamento de estatística da Boston Public Library, escolheu um fio condutor: o tratado comercial anglo-francês de 1860, negociado por Cobden e Chevalier, com a cláusula de nação mais favorecida e tarifas fixadas por prazo. A guerra de 1870 e a indenização cobrada da França levaram Thiers a buscar receita na alfândega. Na Alemanha, a tarifa de 1879 juntou os votos de agrários e industriais, aliança que, para Ford, explica boa parte da história comercial alemã desde então; em 1885 os direitos sobre trigo e centeio subiram de 1 para 3 marcos. Depois vieram a tarifa francesa de 1891 e os tratados de Caprivi."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A tarifa não deve ser um instrumento de ataque, de guerra comercial”",
+          "original": "“The tariff should not be an implement of offence, of commercial war”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ford considerava impossível uma união aduaneira europeia contra os Estados Unidos, por excesso de interesses concorrentes, e via o país entre os principais responsáveis pelo retorno a uma política restritiva. Henry C. Emery, de Yale, observou que os dois trabalhos da manhã representavam pontos de vista opostos: um próximo do renascimento das ideias mercantilistas, outro do livre-comércio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a teoria permite dizer a favor de uma tarifa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "À tarde, Thomas N. Carver, de Harvard, defendeu reabrir a questão tarifária à análise científica e sustentou três proposições. Uma tarifa não é necessariamente paga pelo consumidor nacional: depende da elasticidade da oferta e da demanda e, em indústria de custo decrescente, a produção interna pode crescer o bastante para não haver alta de preço. Uma tarifa pode ser desenhada para elevar salários, se proteger as indústrias em que o trabalho pesa mais que a terra e o capital. E pode atrair trabalho e capital para indústrias mais produtivas do ponto de vista da comunidade, porque produtivo para o empresário quer dizer lucrativo, o que não é o mesmo que útil para todos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo foi uma terra cultivada com vinte trabalhadores que, com a alta da lã, vira pasto de ovelhas e dispensa dezenove: a renda do proprietário sobe, o produto total cai. Carver admitiu que, na prática, a proteção muitas vezes havia favorecido o lado oposto, o de proprietários e capitalistas, e atribuiu isso à maior capacidade de lobby dessas classes. Guy S. Callender, Maurice H. Robinson, Fabian Franklin e Gardner contestaram partes do argumento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga pelo progresso técnico?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Charles A. Tuttle, do Wabash College, partiu de um fato: a especialização torna o trabalhador interdependente e vulnerável a cada invenção. Os benefícios do progresso vão à sociedade e, no início, ao empresário; o choque recai sobre o trabalhador deslocado. Daí propôs o direito econômico à indenização, paga em parte pela receita geral de impostos e em parte por um tributo especial sobre o empresário, e, de modo mais amplo, o direito do trabalhador ao seu posto enquanto fosse eficiente e de boa conduta. O conselho da associação remeteu a proposta ao comitê executivo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como era financiada uma ilha antes e depois de mudar de soberania?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda-feira, Thomas S. Adams, da University of Wisconsin e ex-funcionário do Tesouro de Porto Rico, examinou as finanças da ilha. Afirmou ter chegado à ilha disposto a encontrar o lado bom do governo espanhol e concluído, pela leitura dos estatutos, que Porto Rico fora sistematicamente explorado no plano fiscal: orçamento votado em Madri, administração concentrada no governador-geral e uma deputação provincial cujo cargo era honorário, obrigatório e sujeito a responsabilidade pessoal."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "37,5%",
+          "texto": "Fatia da alfândega na receita estimada de cerca de US$ 2 milhões do novo sistema de Porto Rico, segundo Thomas S. Adams. O imposto sobre a propriedade daria 25% e os selos e impostos sobre consumo, sobretudo bebidas e fumo, 35%. No sistema espanhol, 67% vinham da alfândega e 13% de impostos diretos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Adams resumiu a mudança em quatro pontos: carga menor, sistema mais simples, mais peso na propriedade acumulada e deslocamento dos impostos de consumo do bacalhau e da carne de porco para o rum e o tabaco. Jacob H. Hollander, tesoureiro da ilha, tirou outra lição: nenhum desenho fiscal é bom sem possibilidade de administração eficiente. Federico Degetau, comissário residente de Porto Rico, contestou a descrição do status da ilha sob a Espanha."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia explica a história?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A última sessão conjunta ouviu Edwin R. A. Seligman, de Columbia, preferir a expressão “interpretação econômica da história” a “materialismo histórico” e examinar cinco objeções: fatalismo, dependência de leis históricas, socialismo, desprezo pelas forças éticas e exagero. Sua conclusão foi dupla. Como filosofia universal, a doutrina já não podia ser defendida; no sentido mais estreito, de que o fator econômico teve enorme importância e de que a história deve ser considerada na economia, continuava relevante. Isaac A. Loos e Edward P. Cheyney discutiram o trabalho."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E a própria associação, como ia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O secretário interino, Frank A. Fetter, relatou o maior crescimento da história recente da associação: ganho líquido de 176 entre sócios e assinantes em 1901, depois de 17 em 1898, 32 em 1899 e 57 em 1900. Em 1890 eram 635; o máximo até 1897 tinha sido 668. Uma campanha de convites trouxe cerca de 150 sócios. Seligman foi eleito presidente e Fetter, secretário e tesoureiro. O encontro aprovou resolução em favor de um órgão de censo permanente e incluiu visitas ao Census Office e à Library of Congress."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "965",
+          "texto": "Sócios e assinantes em 1º de fevereiro de 1902: 12 honorários, 74 vitalícios, 749 anuais e 130 assinantes. O caixa no banco fechou 1901 em US$ 1.512,99, e as anuidades renderam US$ 2.280,35 no ano."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o volume opõe dois métodos que ainda disputam espaço. Brooks Adams trabalha por analogia histórica de longo alcance: Nínive, Roma, Londres e Nova York como casos de uma mesma lei. O desenho é sugestivo, mas uma lei extraída de poucos episódios escolhidos depois do fato pouco se deixa testar, e as objeções de Conant, Seligman e Gardner são justamente a pergunta por causas concorrentes. Carver faz o oposto: aceita o instrumental marginalista e mostra que, mudadas as hipóteses sobre elasticidades, custos e distribuição, a conclusão livre-cambista deixa de ser automática. É o embrião do que mais tarde se chamaria de argumentos de segundo melhor, e Carver já anota o limite prático: quem desenha a tarifa costuma ser quem tem mais acesso ao legislador.",
+            "Ely e Tuttle movem o debate da eficiência para as regras do contrato e para quem arca com o custo do ajuste. A proposta de Tuttle, de financiar a transição do trabalhador deslocado com recursos gerais e com um tributo sobre quem colhe o ganho imediato, antecipa em décadas a discussão sobre seguro-desemprego e compensação de perdedores do comércio e da tecnologia. O relatório fiscal de Thomas S. Adams e o comentário de Hollander completam o quadro: a composição da receita diz quem paga, mas é a capacidade de arrecadar, e não o desenho no papel, que decide se o sistema funciona."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "cláusula de nação mais favorecida",
+          "compromisso de estender a um parceiro qualquer vantagem tarifária concedida a outro país."
+        ],
+        [
+          "tarifa protetora",
+          "imposto de importação desenhado para favorecer a produção nacional, e não apenas para arrecadar."
+        ],
+        [
+          "elasticidade",
+          "sensibilidade da quantidade demandada ou ofertada a uma variação de preço."
+        ],
+        [
+          "custo decrescente",
+          "situação em que produzir mais reduz o custo por unidade."
+        ],
+        [
+          "parceiro (cropper) e arrendatário (renter)",
+          "no sistema descrito por Stone, o primeiro entrega trabalho e divide a safra pela metade com o dono da terra; o segundo paga aluguel fixo em dinheiro ou em algodão."
+        ],
+        [
+          "conciliação e arbitragem",
+          "mecanismos para resolver disputas trabalhistas por negociação entre as partes ou por decisão de terceiros, sem greve."
+        ],
+        [
+          "imposto do selo",
+          "tributo cobrado pela aplicação de um selo em documento ou mercadoria, usado em Porto Rico sobre bebidas, fumo e outros bens."
+        ],
+        [
+          "interpretação econômica da história",
+          "tese de que as mudanças na estrutura social se explicam, em última instância, por causas econômicas."
+        ]
+      ],
+      "hoje": "Quase todos os temas de Washington continuam em pauta. A pergunta de Carver, sobre quando uma tarifa pode melhorar o resultado social, voltou com a política industrial e as disputas comerciais entre grandes potências. A alternância europeia entre tratados e retaliação descrita por Ford lembra o vaivém atual entre acordos de livre-comércio e tarifas unilaterais. A proposta de Tuttle reaparece em programas de assistência a trabalhadores afetados por comércio e automação. E a advertência de Hollander, de que um tributo bem desenhado falha sem administração capaz de cobrá-lo, segue valendo para qualquer reforma tributária.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 5–41",
+          "2485755"
+        ],
+        [
+          "The Fourteenth Annual Meeting",
+          "pp. 42–58",
+          "2485756"
+        ],
+        [
+          "Industrial Liberty",
+          "pp. 59–79",
+          "2485757"
+        ],
+        [
+          "Meaning of the Recent Expansion of the Foreign Trade of the United States",
+          "pp. 80–96",
+          "2485758"
+        ],
+        [
+          "Meaning of the Recent Expansion of the Foreign Trade of the United States: Discussion",
+          "pp. 97–117",
+          "2485759"
+        ],
+        [
+          "The Commercial Policy of Europe",
+          "pp. 118–157",
+          "2485760"
+        ],
+        [
+          "The Commercial Policy of Europe: Discussion",
+          "pp. 158–166",
+          "2485761"
+        ],
+        [
+          "Some Theoretical Possibilities of a Protective Tariff",
+          "pp. 167–182",
+          "2485762"
+        ],
+        [
+          "Some Theoretical Possibilities of a Protective Tariff: Discussion",
+          "pp. 183–198",
+          "2485763"
+        ],
+        [
+          "The Workman's Position in the Light of Economic Progress",
+          "pp. 199–212",
+          "2485764"
+        ],
+        [
+          "The Workman's Position in the Light of Economic Progress: Discussion",
+          "pp. 213–234",
+          "2485765"
+        ],
+        [
+          "The Negro in the Yazoo-Mississippi Delta",
+          "pp. 235–272",
+          "2485766"
+        ],
+        [
+          "The Negro in the Yazoo-Mississippi Delta: Discussion",
+          "pp. 273–278",
+          "2485767"
+        ],
+        [
+          "Conciliation and Arbitration in the Coal Mining Industry",
+          "pp. 279–304",
+          "2485768"
+        ],
+        [
+          "Conciliation and Arbitration in the Coal Mining Industry: Discussion",
+          "pp. 305–313",
+          "2485769"
+        ],
+        [
+          "Porto Rican Finance Under the Spanish and American Governments",
+          "pp. 314–341",
+          "2485770"
+        ],
+        [
+          "Porto Rican Finance Under the Spanish and American Governments: Discussion",
+          "pp. 342–350",
+          "2485771"
+        ],
+        [
+          "Uniform Municipal Accounts and Statistics",
+          "pp. 351–353",
+          "2485772"
+        ],
+        [
+          "Uniform Municipal Accounts and Statistics: Discussion",
+          "pp. 354–368",
+          "2485773"
+        ],
+        [
+          "The Economic Interpretation of History",
+          "pp. 369–386",
+          "2485774"
+        ],
+        [
+          "The Economic Interpretation of History: Discussion",
+          "pp. 387–397",
+          "2485775"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Industrial Liberty",
+          "autores": "Richard T. Ely; discurso presidencial",
+          "paginas": "pp. 59–79",
+          "resumo": "Ely contrasta a liberdade negativa e política de 1776, associada à igualdade natural e à remoção de restrições, com a liberdade positiva de T. H. Green. Argumenta que as principais restrições modernas vêm da coerção de forças econômicas expressa no contrato entre desiguais, ilustrada pelo problema do vigésimo homem e pelos barbeiros de Madison. Defende a regulação do contrato pelo poder de polícia, citando decisões de Massachusetts, Tennessee, West Virginia e a lei de Utah das oito horas. Rejeita o anarquismo e o socialismo e propõe o princípio da solidariedade social, com conservação e desenvolvimento das grandes instituições.",
+          "jstor": "2485757"
+        },
+        {
+          "titulo": "Meaning of the Recent Expansion of the Foreign Trade of the United States",
+          "autores": "Brooks Adams (Quincy, Massachusetts)",
+          "paginas": "pp. 80–96",
+          "resumo": "Adams define a economia como estudo da competição pela sobrevivência e interpreta a expansão comercial americana como mais um deslocamento do centro de energia do mundo, comparável à queda de Nínive diante das rotas gregas. Atribui papel central aos metais: o ouro da Califórnia teria dado ao país capital para as ferrovias, e a recusa europeia da prata em 1873 forçou a liquidação da dívida americana. A consolidação em trustes aparece como ganho de eficiência administrativa. Descreve o declínio relativo de Londres, as dificuldades da Alemanha e da Rússia e aponta a reorganização da China como questão decisiva.",
+          "jstor": "2485758"
+        },
+        {
+          "titulo": "Meaning of the Recent Expansion of the Foreign Trade of the United States: Discussion",
+          "autores": "George Roberts, Charles A. Conant, H. P. Willis, E. R. A. Seligman, Henry B. Gardner, John F. Crowell e Brooks Adams",
+          "paginas": "pp. 97–117",
+          "resumo": "Roberts atribui a ascensão industrial à energia e à iniciativa da população; Conant, Seligman e Gardner contestam o peso dado aos metais preciosos e apontam o vale do Mississippi, as ferrovias e a política comercial inglesa.",
+          "jstor": "2485759"
+        },
+        {
+          "titulo": "The Commercial Policy of Europe",
+          "autores": "Worthington C. Ford (Boston Public Library)",
+          "paginas": "pp. 118–157",
+          "resumo": "Ford reconstrói a política comercial europeia a partir do tratado Cobden-Chevalier de 1860, que difundiu a cláusula de nação mais favorecida e tarifas fixas por prazo. Mostra como a indenização francesa de 1871, a crise de 1873 e a depressão até 1879 empurraram os países para tarifas mais altas; como a tarifa alemã de 1879 uniu agrários e industriais; e como a França de 1891 e os tratados de Caprivi reorganizaram o continente. Conclui que uma união aduaneira europeia contra os Estados Unidos é impossível, critica a política restritiva americana e defende a tarifa como instrumento de receita, não de guerra comercial.",
+          "jstor": "2485760"
+        },
+        {
+          "titulo": "The Commercial Policy of Europe: Discussion",
+          "autores": "Henry C. Emery, Brooks Adams, Charles W. Mixter e Emory R. Johnson",
+          "paginas": "pp. 158–166",
+          "resumo": "Emery contrapõe o neomercantilismo de Adams ao livre-comércio de Ford; Adams declara concordar com Ford; Mixter e Johnson divergem sobre o peso dos canais e das ferrovias no transporte alemão.",
+          "jstor": "2485761"
+        },
+        {
+          "titulo": "Some Theoretical Possibilities of a Protective Tariff",
+          "autores": "Thomas N. Carver (Harvard University)",
+          "paginas": "pp. 167–182",
+          "resumo": "Carver limita a discussão a três perguntas e sustenta três proposições. A incidência da tarifa depende das elasticidades e da lei de custos: em indústria de custo decrescente e sem monopólio, o preço interno pode não subir. Uma tarifa que favoreça indústrias em que o trabalho é o fator principal pode elevar a parcela e o nível dos salários. E, como capital e trabalho buscam o lucrativo e não o socialmente produtivo, uma discriminação tarifária pode aumentar o produto total. Ilustra com a terra convertida em pasto de ovelhas e reconhece que a proteção histórica muitas vezes favoreceu proprietários e capitalistas.",
+          "jstor": "2485762"
+        },
+        {
+          "titulo": "Some Theoretical Possibilities of a Protective Tariff: Discussion",
+          "autores": "Guy S. Callender, Maurice H. Robinson, Fabian Franklin, Henry B. Gardner e Thomas N. Carver",
+          "paginas": "pp. 183–198",
+          "resumo": "Callender defende que, em geral, os setores mais lucrativos são os mais úteis; Franklin e Gardner apontam falhas lógicas; Carver responde e admite que sua segunda e terceira teses se encontram.",
+          "jstor": "2485763"
+        },
+        {
+          "titulo": "The Workman's Position in the Light of Economic Progress",
+          "autores": "Charles A. Tuttle (Wabash College)",
+          "paginas": "pp. 199–212",
+          "resumo": "Tuttle parte de Henry C. Adams sobre a defasagem entre direito positivo e direitos industriais e trata a especialização como o fato central da economia moderna, que torna o indivíduo dependente da vontade coletiva. Distingue o ganho de longo prazo da classe trabalhadora do choque sofrido pelo trabalhador concreto deslocado por invenções. Propõe reconhecer em lei o direito econômico à indenização, financiada pela tributação geral e por um tributo especial sobre o empresário, em formas como agências públicas de emprego e transporte gratuito. Estende o raciocínio a um direito quase de propriedade do trabalhador sobre seu posto enquanto for eficiente.",
+          "jstor": "2485764"
+        },
+        {
+          "titulo": "The Workman's Position in the Light of Economic Progress: Discussion",
+          "autores": "David Kinley, Samuel M. Lindsay, George Roberts, Theodore Marburg, Adna F. Weber, William W. Folwell, John R. Commons, Edward T. Devine e outros",
+          "paginas": "pp. 213–234",
+          "resumo": "Os debatedores aceitam em geral o princípio e discutem a execução: Weber descreve soluções privadas na introdução da máquina de compor tipos; Folwell e Commons perguntam como tributar e operar o esquema.",
+          "jstor": "2485765"
+        },
+        {
+          "titulo": "The Negro in the Yazoo-Mississippi Delta",
+          "autores": "Alfred H. Stone (Greenville, Mississippi)",
+          "paginas": "pp. 235–272",
+          "resumo": "Stone, plantador da região, propõe estudar a questão racial por condições locais e descreve nove condados do delta do Yazoo e do Mississippi, com 195.346 habitantes, dos quais 171.209 negros e 24.137 brancos. Apresenta os sistemas de trabalho no algodão, a parceria com divisão da safra pela metade e o arrendamento por valor fixo por acre, o crédito de fornecedores e a garantia sobre a safra, salários e produtividade do solo. Conclui com o relato de um experimento em sua própria fazenda, iniciado em 1899 com regras contábeis mais estritas, e diz que seriam necessários cinco anos para avaliar seus efeitos.",
+          "jstor": "2485766"
+        },
+        {
+          "titulo": "The Negro in the Yazoo-Mississippi Delta: Discussion",
+          "autores": "Powers (U. S. Census) e Alfred H. Stone",
+          "paginas": "pp. 273–278",
+          "resumo": "Powers, estatístico de agricultura do Censo, confirma os dados de valor da terra e compara o progresso material segundo a qualidade do solo; Stone responde sobre a estabilidade da população.",
+          "jstor": "2485767"
+        },
+        {
+          "titulo": "Conciliation and Arbitration in the Coal Mining Industry",
+          "autores": "Herman Justi (Illinois Coal Operators' Association)",
+          "paginas": "pp. 279–304",
+          "resumo": "Justi, comissário da associação de operadores de carvão de Illinois, descreve o movimento interestadual de acordos conjuntos iniciado em janeiro de 1898, após a greve de 1897, entre mineiros e operadores da Pensilvânia, Ohio, Indiana e Illinois. Escalas salariais e condições de trabalho eram fixadas em convenções interestaduais, estaduais e distritais. Atribui as dificuldades de cumprimento à variedade das minas de Illinois, à fraqueza da organização para impor os acordos e a concessões locais de operadores. Rejeita o recurso aos tribunais para fazer valer contratos com sindicatos e aposta na organização dos empregadores e na opinião pública bem informada.",
+          "jstor": "2485768"
+        },
+        {
+          "titulo": "Conciliation and Arbitration in the Coal Mining Industry: Discussion",
+          "autores": "Carroll D. Wright e E. Dana Durand",
+          "paginas": "pp. 305–313",
+          "resumo": "Wright endossa os comitês conjuntos voluntários de empregadores e empregados; Durand vê no caso de Illinois uma prática que tende a se espalhar para outras indústrias.",
+          "jstor": "2485769"
+        },
+        {
+          "titulo": "Porto Rican Finance Under the Spanish and American Governments",
+          "autores": "Thomas S. Adams (University of Wisconsin; ex-funcionário do Tesouro de Porto Rico)",
+          "paginas": "pp. 314–341",
+          "resumo": "Adams examina o governo fiscal de Porto Rico sob a Espanha e conclui, com base na legislação espanhola, que a ilha foi administrada no interesse da metrópole: orçamento votado em Madri, poderes concentrados no governador-geral e uma deputação provincial esvaziada. Descreve o novo sistema americano: imposto geral sobre a propriedade, cobrado por funcionários assalariados, impostos do selo e de consumo sobre bebidas e fumo, com o selo aplicado na nota fiscal para evitar reaproveitamento, e uma alfândega cuja receita deveria cair com o livre-comércio com os Estados Unidos. Resume a mudança como carga menor, sistema mais simples e mais peso sobre a propriedade.",
+          "jstor": "2485770"
+        },
+        {
+          "titulo": "Porto Rican Finance Under the Spanish and American Governments: Discussion",
+          "autores": "Jacob H. Hollander, Henry C. Adams, Federico Degetau e Thomas S. Adams",
+          "paginas": "pp. 342–350",
+          "resumo": "Hollander destaca o papel de Adams na lei do imposto sobre a propriedade e a dependência da teoria em relação à administração; Degetau contesta a descrição do status político da ilha sob a Espanha.",
+          "jstor": "2485771"
+        },
+        {
+          "titulo": "Uniform Municipal Accounts and Statistics",
+          "autores": "Comitê especial: Moses N. Baker (presidente), Henry B. Gardner, Ed. W. Bemis, E. Dana Durand e Frederick R. Clow",
+          "paginas": "pp. 351–353",
+          "resumo": "Relatório breve que reafirma as conclusões de 1900, registra o comitê da National Municipal League e pede aos sócios que ajudem a testar modelos de contas uniformes.",
+          "jstor": "2485772"
+        },
+        {
+          "titulo": "Uniform Municipal Accounts and Statistics: Discussion",
+          "autores": "Charles E. Curtis, Roland P. Falkner, Harvey S. Chase, Hartwell, Clinton Rogers Woodruff e Moses N. Baker",
+          "paginas": "pp. 354–368",
+          "resumo": "Administradores e especialistas discutem a falta de dados comparáveis e a aplicação da contabilidade uniforme em Chicago.",
+          "jstor": "2485773"
+        },
+        {
+          "titulo": "The Economic Interpretation of History",
+          "autores": "Edwin R. A. Seligman (Columbia University)",
+          "paginas": "pp. 369–386",
+          "resumo": "Seligman prefere “interpretação econômica” a “materialismo histórico” e examina cinco objeções: fatalismo, dependência de leis históricas, socialismo, desprezo pelas forças éticas e espirituais e exagero. Responde que vontade individual e determinação social não se excluem, que o grande homem só prevalece quando a sociedade está pronta e que a doutrina não implica socialismo. Descreve a luta entre grupos, entre classes e entre indivíduos como derivada da pressão da vida sobre os meios de subsistência. Conclui que a teoria não se sustenta como filosofia universal, mas mantém grande valor no sentido estrito de que o fator econômico pesou de modo geral na história.",
+          "jstor": "2485774"
+        },
+        {
+          "titulo": "The Economic Interpretation of History: Discussion",
+          "autores": "Isaac A. Loos e Edward P. Cheyney",
+          "paginas": "pp. 387–397",
+          "resumo": "Loos aceita a versão moderada, mas critica a unilateralidade da expressão; Cheyney levanta objeções de historiador ao método de buscar um fator econômico para cada série de eventos.",
+          "jstor": "2485775"
+        },
+        {
+          "titulo": "The Fourteenth Annual Meeting",
+          "autores": "Relatório da reunião",
+          "paginas": "pp. 42–58",
+          "resumo": "Programa de 27, 28 e 30 de dezembro de 1901, lista de presentes, relatórios do secretário interino e do tesoureiro, resoluções, eleição de Seligman e visitas ao Census Office e à Library of Congress.",
+          "jstor": "2485756"
+        },
+        {
+          "titulo": "American Economic Association",
+          "autores": "Manual da associação",
+          "paginas": "pp. 5–41",
+          "resumo": "Estatuto, dirigentes, conselho, lista de sócios e resumo de 965 sócios e assinantes por estado em fevereiro de 1902.",
+          "jstor": "2485755"
+        }
+      ],
+      "jstor_edicao": "i322395",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1902-tillinghast-trabalho-e-propriedade",
+      "numero": 62,
+      "titulo": "Tillinghast, 1902: trabalho, terra e propriedade depois da abolição",
+      "titulo_original": "The Negro in Africa and America",
+      "autores": "Joseph Alexander Tillinghast, M.A.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 3, nº 2",
+      "data": "maio de 1902",
+      "chamada": "Em 1902, Joseph Alexander Tillinghast reuniu relatos de viajantes, censos e boletins do Departamento do Trabalho para discutir trabalho, agricultura e propriedade da população negra dos EUA. O livro e suas fontes, descritos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Fayetteville, Carolina do Norte, 1899. Uma fábrica de seda abre as portas com operários negros, sob a gerência de um certo Thurston, que agia em nome de industriais da seda de Paterson, Nova Jersey. Em pouco tempo, segundo Joseph Alexander Tillinghast, havia 400 operários e 10 mil fusos. O autor tira o caso do Journal of Commerce, de Nova York, e do Charlotte Observer, e faz dele a ilustração central do capítulo sobre o trabalho. A fábrica dava resultado, registra, mas sob uma disciplina que o próprio gerente descrevia como a mais estrita e que, conforme o correspondente do jornal, incluía castigos físicos aos operários menores de 21 anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso está em The Negro in Africa and America, publicado em maio de 1902 como volume 3, nº 2, da terceira série das Publications of the American Economic Association, em 231 páginas. O prefácio é de Walter F. Willcox, de Ithaca, Nova York. Ele apresenta o autor como um branco do Sul, filho de senhor de escravos, que fez a pesquisa numa universidade do Norte, numa biblioteca cujo núcleo sobre o tema era uma coleção antiescravista. Para Willcox, o mérito do livro é que ele"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“reúne duas linhas de investigação que até então eram mantidas separadas”",
+          "original": "“brings together two lines of investigation which have hitherto been kept asunder”"
+        },
+        {
+          "tipo": "p",
+          "texto": "As duas linhas são a etnografia da África Ocidental e a história da população negra nos Estados Unidos. O livro tem três partes: a África Ocidental, em sete capítulos; a escravidão americana, em oito; e o período de cidadania livre, em cinco. Na introdução, Tillinghast sustenta que o caráter de um povo resulta de hereditariedade e ambiente, e que a explicação corrente, que atribuía à escravidão as diferenças observadas, ignorava o período africano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que economia o autor descreve na África Ocidental?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo “Economia industrial” se apoia em relatos de viajantes e comerciantes europeus: Bosman, Barbot, Proyart, Du Chaillu, Ellis e Miss Kingsley. De Bosman vem a descrição de um pequeno grupo de artesãos nas tribos da Alta Guiné, que faziam copos de madeira e de barro, braceletes de ouro, cobre ou marfim, tiras estreitas de tecido e trabalhos simples de ferraria."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre moeda, Tillinghast registra os búzios como a forma de maior circulação na Alta Guiné; os “macutes”, peças de pano de uma jarda, entre os nativos de Luanda em 1666; e a manilha, bracelete de liga de cobre usado na Costa do Marfim, que se tornava mera ficha convencional. Segundo Du Chaillu, do litoral ao interior a unidade comercial de valor era o escravo, em que se contavam multas e dotes. Daí o autor conclui que essas moedas serviam mal como instrumento de troca e que o escambo continuava a predominar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o livro trata o trabalho sob a escravidão?"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3.638.808",
+          "texto": "População negra dos Estados Unidos em 1850, pouco mais de 16% do total, pelos números do censo citados por Tillinghast. Pelo historiador Bancroft, pouco mais de 300 mil africanos teriam sido introduzidos antes de 1776."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tillinghast descreve a escravidão como uma escola de trabalho cujos lucros ficavam com os senhores, e diz que lucro e controle eram os dois traços fundamentais do sistema. Com Frederick Law Olmsted, o diário de Fanny Kemble e as memórias de V. V. Clayton, identifica em 1863 quatro grupos: trabalhadores do eito, artesãos e operários, empregados domésticos e capatazes ou administradores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "metade",
+          "texto": "Eficiência dos escravizados em relação a trabalhadores livres, na estimativa de Olmsted citada por Tillinghast, feita a partir do trigo colhido por equipes equivalentes de ceifadores e enfeixadores. No sistema de tarefas da Carolina do Sul, os mais ágeis muitas vezes terminavam às duas da tarde."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor atribui a diferença a dois fatores: aos defeitos da escravidão como escola de trabalho e a traços que considera herdados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que dados ele reúne sobre a agricultura depois de 1865?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo “Progresso industrial”, nas páginas 176 a 193, é feito quase todo de fontes de segunda mão: Race Traits, de Frederick L. Hoffman (1896); The Plantation Negro as a Freeman, de Philip A. Bruce; dois estudos de Du Bois; boletins do Departamento do Trabalho; Henry Gannett e Alfred H. Stone; e uma conferência de Willcox de 1899. O autor soma observações próprias nas Carolinas e em Washington."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o fumo, Tillinghast reproduz Hoffman: em cinco condados da Virgínia com maioria negra, a produção, de 30.504.090 libras em 1859, caiu até 1889. Em Pittsylvania, de maioria branca, subiu de 7,8 milhões para 12,3 milhões de libras. Em quatro condados do Kentucky com menos de 5% de população negra, passou de 90.338 para 10.044.856 libras. O próprio autor lista explicações alternativas: solo esgotado, migração para as cidades e, no Kentucky, terra nova."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "mais de 50%",
+          "texto": "Queda da produção de milho no condado de Prince Edward, Virgínia, entre 1850 e 1890, pelas tabelas de Du Bois citadas por Tillinghast. O trigo caiu 23%, a aveia pela metade e o fumo um terço. Já o feno subiu de 487 para 2.513 toneladas e a manteiga de 47.932 para 133.511 libras. Em 1890, o condado tinha 4.770 brancos e 9.924 negros."
+        },
+        {
+          "tipo": "p",
+          "texto": "No algodão, Hoffman é de novo a fonte: o Texas, com menos da metade da população negra do Mississippi, teria produzido em 1894 quase o triplo da safra deste, e o Mississippi, com quase o dobro da população negra de 1860, colhera em 1894 menos algodão que 34 anos antes. Willcox estimava que ao menos quatro quintos do algodão de 1860 eram cultivados por negros e que, na época, provavelmente nem metade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que acontecia com os ofícios qualificados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelo censo de 1890, no estudo de Gannett, 85% dos homens negros com ocupação remunerada estavam na agricultura ou no serviço doméstico. Entre as mulheres, 44% estavam na agricultura e cerca de 4% fora desses dois setores. Tillinghast avisa sobre o limite da série:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os resultados do décimo segundo censo sobre essa questão ainda não estão disponíveis”",
+          "original": "“The results of twelfth census on this question are not yet available”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para os ofícios, o autor reúne depoimentos. Booker T. Washington, em The Future of the American Negro, relatava que nenhum jovem carpinteiro negro pudera substituir um velho construtor formado na escravidão. Washington atribuía o deslocamento aos mecânicos brancos vindos do Norte e aos sindicatos, não ao preconceito dos brancos do Sul; Du Bois, na Filadélfia, atribuía boa parte dele ao preconceito. Tillinghast lê os depoimentos como prova de que a causa não era o preconceito e atribui o recuo às escolhas da geração nascida depois da guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanta propriedade se acumulou desde a guerra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelo censo de 1890, citado por Gannett, das 549.632 fazendas ocupadas por negros, 22% eram de propriedade dos ocupantes, e 10% destas tinham hipoteca. Das moradias ocupadas por negros, 19% eram próprias, 13% delas oneradas. Na Filadélfia, Du Bois encontrou entre 5% e 6% de proprietários de casa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 16",
+          "texto": "Propriedade tributável por habitante negro, contra US$ 322 por habitante branco, em Virgínia, Carolina do Norte e Geórgia, os três únicos estados com dados separados, pela avaliação fiscal citada de Hoffman. A participação negra no total era de 3,1% na Virgínia e 3,5% na Geórgia em 1890, e de 3,3% na Carolina do Norte. Hoffman estimava o valor total em duzentos ou trezentos milhões de dólares."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tillinghast resolve a aparente contradição com dois argumentos econômicos. O primeiro ele credita a Hoffman:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Valor maior não implica necessariamente poupança maior, por causa do ‘incremento não ganho’”",
+          "original": "“Increased value does not necessarily imply increased saving, owing to the ‘unearned increment’”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo é uma assimetria. Sem propriedade no início, os libertos só puderam comprar a terra mais barata, a terra marginal que não rende renda. Ela podia se valorizar, mas tinha pouco a perder. Tillinghast testa ainda a hipótese de Bruce, de que poucos dos que eram crianças no fim da guerra haviam adquirido terra, e admite não ter chegado a conclusão: os registros não informavam a idade dos donos. Sua conclusão geral, ainda assim, é que a maioria enfrentava uma desvantagem que ele atribui a características herdadas e que a liberdade econômica não produzira o resultado que muitos esperavam."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor documental do capítulo econômico está no inventário de fontes que ele reúne em 1902: censos, boletins do Departamento do Trabalho, avaliações fiscais e monografias da época. As séries agrícolas são comparações entre condados e estados em dois pontos do tempo, e o próprio autor enumera o que pode interferir nelas: solo esgotado, migração para as cidades, terra nova. Nenhuma tabela controla solo, crédito, preço da terra ou salário, e Tillinghast reconhece que não é possível medir com exatidão quanto de cada diferença cabe a cada causa que discute.",
+            "O trecho mais técnico é o de patrimônio. A distinção entre valorização de ativos e poupança, e a observação de que quem começa sem nada só compra terra marginal, cuja variação de preço é assimétrica, valem para qualquer estudo de acumulação de riqueza. E a dúvida que o autor não resolve, por falta da idade dos proprietários, mostra como a pergunta econômica fica presa ao formato do registro administrativo disponível."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Búzios (cowries)",
+          "conchas usadas como moeda em partes da África Ocidental."
+        ],
+        [
+          "Manilha",
+          "bracelete de liga de cobre usado como meio de troca na costa africana."
+        ],
+        [
+          "Escambo",
+          "troca direta de mercadorias, sem moeda."
+        ],
+        [
+          "Sistema de tarefas",
+          "organização do trabalho escravo em que cada pessoa recebia uma tarefa diária fixa."
+        ],
+        [
+          "Propriedade tributável",
+          "bens registrados e avaliados pelo fisco para cobrança de imposto."
+        ],
+        [
+          "Incremento não ganho (unearned increment)",
+          "valorização de um bem, sobretudo terra, que não resulta de esforço ou poupança do dono."
+        ],
+        [
+          "Terra marginal",
+          "terra no limite do cultivo, que mal cobre os custos e não gera renda fundiária."
+        ],
+        [
+          "Imóvel onerado",
+          "imóvel com hipoteca ou outra dívida garantida por ele."
+        ]
+      ],
+      "hoje": "A pergunta que o capítulo deixa aberta segue no centro da economia do trabalho: quanto de uma diferença de salário, ocupação ou patrimônio entre grupos reflete composição, como educação, região e herança, e quanto reflete discriminação ou outras barreiras. Nos estudos de riqueza, a distinção entre ganho de capital e poupança e o peso do patrimônio inicial são hoje rotina, e a falta de dados administrativos adequados continua limitando o que se pode testar.",
+      "itens": [
+        [
+          "The Negro in Africa and America",
+          "pp. 1–231",
+          "2485874"
+        ]
+      ],
+      "jstor_edicao": "i322396",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1902-a-tributacao-em-new-hampshire",
+      "numero": 63,
+      "titulo": "Robinson, 1902: dois séculos de impostos em New Hampshire",
+      "titulo_original": "A History of Taxation in New Hampshire",
+      "autores": "Maurice H. Robinson, Ph.D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 3, nº 3",
+      "data": "agosto de 1902",
+      "chamada": "Do imposto por cabeça de 1680 à tributação de ferrovias, bancos e seguradoras, Maurice H. Robinson reconstituiu a história fiscal de New Hampshire. Um caso precoce de base tributária que foge.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "New Hampshire, 1º de janeiro de 1886. Entra em vigor a chamada “valued policy law”, pela qual, em caso de perda total, a indenização do seguro contra incêndio seria o valor escrito na apólice, sem outra prova. As 58 seguradoras de outros estados que operavam ali saíram em massa. A arrecadação do imposto sobre seguros, que fora de US$ 10.081,59 em 1884-1885, caiu no ano do “êxodo” para US$ 4.831,56. Em 1º de dezembro de 1890, segundo mensagem do governador, 37 das 58 já tinham voltado e se ajustado à lei."
+        },
+        {
+          "tipo": "p",
+          "texto": "O episódio está em A History of Taxation in New Hampshire, de Maurice H. Robinson, publicado como volume 3, nº 3, da terceira série das Publications of the American Economic Association, com data de agosto de 1902 na capa e 226 páginas de texto. O prefácio, porém, é assinado em Urbana, Illinois, em janeiro de 1903. Robinson credita a ideia do estudo a James Fairbanks Colby, professor do Dartmouth College, avisa que deixou de lado a tributação das cidades por falta de tempo e espaço, e admite que, por trabalhar longe das fontes, podem ter escapado erros de citação."
+        },
+        {
+          "tipo": "p",
+          "texto": "O prefácio destaca três pontos: a influência, que o autor considera benéfica, do governo inglês em impedir experiências arriscadas com moeda e impostos; o estabelecimento precoce da autoridade legislativa sobre o orçamento; e a evolução muito gradual do sistema, da base na renda, no período provincial, à base na propriedade, no século XIX, e depois à tributação de empresas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se tributava uma província em 1680?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com leis importadas prontas de Massachusetts, à qual as cidades de New Hampshire estiveram unidas desde 1641. Robinson mostra por quê: dos 21 membros das duas casas do primeiro governo provincial, nove tinham servido no legislativo de Massachusetts, num total de 62 sessões. Richard Waldron, vice-presidente do conselho, tinha sido oito vezes presidente da câmara de deputados vizinha."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1680 mandava os selectmen, os administradores eleitos de cada cidade, listarem todos os homens de 16 anos ou mais e avaliarem seus bens. Uma comissão de seis membros, um de cada cidade, Dover, Portsmouth, Hampton e Exeter, mais dois do conselho, equalizava as avaliações para que nenhuma cidade ou pessoa pagasse além da proporção. Navios, casas, armazéns, cais, moinhos e ofícios, de carpinteiros a mercadores e estalajadeiros, eram avaliados por estimativa. Sobre a lista assim montada, a lei fixou uma alíquota de um penny e meio por libra; o presidente, o conselho, os ministros e os presbíteros das igrejas ficaram de fora."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 18",
+          "texto": "Valor atribuído a cada homem de 16 anos ou mais na lista de 1680, base da capitação. A mesma lei fixava 5 xelins por acre de prado ou pântano cercado, £ 3 por boi de quatro anos ou mais e 5 xelins por ovelha; o pasto sem cerca ficava isento. Gado de menos de um ano, ferramentas, colheitas, móveis, livros e joias também não entravam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que imprimir papel em vez de cobrar imposto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "De 1709 até 1787, a província usou largamente as bills of credit, cédulas emitidas pelo governo, como substituto temporário do imposto. Robinson registra que Hildreth data as primeiras de 1707 e Bullock, de 1709, e diz não ter encontrado rastro de emissão anterior a 1709. O modelo era Massachusetts, que, de 1690 a 1714, emitira cerca de £ 300.000 em cédulas e as mantivera ao par por vinte anos aceitando-as com bônus de 5% no tesouro. O autor aponta duas causas: a pobreza dos contribuintes, incapazes de suportar encargos extraordinários num só ano, e a escassez de meio de troca. Uma alíquota maior, repetia-se na época, iria"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“encher as cadeias, e não o tesouro”",
+          "original": "“tend to fill the gaols rather than the treasury”"
+        },
+        {
+          "tipo": "p",
+          "texto": "As emissões acompanham as guerras. As primeiras, de 1709 a 1716, eram resgatáveis por impostos dos cinco anos seguintes; as de 1745 só seriam pagas com impostos lançados de 1751 a 1766. As da Guerra dos Sete Anos foram em grande parte resgatadas com recursos enviados pelo Parlamento inglês, e às vezes nem se previu imposto para isso. Robinson as descreve como precursoras do empréstimo de guerra moderno, que distribuíam no tempo um encargo que, de outro modo, seria intolerável; o mal que aponta é a depreciação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 → 140",
+          "texto": "Preço da onça de prata, em xelins de moeda local: 8 a 9 nas emissões de 1709-1716 e 120 a 140 nas de 1759-1762, pela tabela de Robinson. Só em 1745-1746 foram emitidas £ 87.000 em cédulas de novo teor, com a prata entre 35 e 50 xelins. Em 1709-1716, as emissões somaram £ 9.200 sem juros e £ 1.500 com juros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quando o imposto sobre a renda virou imposto sobre a propriedade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1789, segundo Robinson. Até ali, a lei mandava tributar “cada pessoa na proporção de sua renda”, sobre três bases: cabeças, bens tributáveis e “faculty”, a capacidade de ganho de cada um. A lei de 1789 trocou a renda pelo patrimônio e abandonou a tributação da “faculty”. O autor ressalva que a mudança só registrou um fato: antes da Revolução, o sistema já era essencialmente um imposto geral sobre a propriedade somado a uma capitação relativamente alta. Em 1833, o legislativo deixou de fixar por lei o valor de grandes classes de bens, e tudo passou a ser avaliado pelo valor real por funcionários locais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O imposto estadual sobre o inventário mostra a inflação da Revolução: £ 80.000 em moeda legal em 1778 e £ 250.000 para o estado em 1779. Depois de 1790, ele foi por meio século a única receita permanente do tesouro. Ficou em US$ 26.666,67 em 1795, US$ 30.000 anuais de 1803 a 1826 e US$ 60.000 anuais de 1843 a 1850, subiu na Guerra Civil e ficou em US$ 400.000 por ano de 1873 a 1887."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o estado passou a tributar as empresas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelas ferrovias, em 1842, quando havia cerca de cem milhas de trilhos no estado. A lei mandou cada companhia pagar ao tesouro estadual 1% sobre o capital investido no estado, com a renda repartida entre as cidades por onde passava a linha, as cidades onde moravam os acionistas e o estado. Robinson chama a mudança de a de maior alcance na história tributária do estado. A comissão tributária de 1878 apontou a falha da prática de avaliação:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se as ações originais, por qualquer causa, perderam valor, (...) a avaliação é apenas nominal”",
+          "original": "“If the original stock, from any cause, has become worthless (...) the assessment is only nominal”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1878 passou a tributar o valor real da linha, do material rodante e dos equipamentos, fixado por uma junta estadual de equalização. Em 1881, a alíquota passou a acompanhar a média de todas as cidades, e não só as do trajeto. Robinson vê na arrecadação a prova da eficiência de cobrar o imposto direto da própria empresa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 15.635,67",
+          "texto": "Arrecadação total do imposto sobre ferrovias em 1844, dos quais US$ 8.405,55 ficaram com o estado. Dez anos depois, eram US$ 61.590,36; em 1868, US$ 203.284,64. Nos vinte anos seguintes, a média ficou perto de US$ 190.000 por ano. Em 1886-1887, o total foi de US$ 208.182,72, e a parte do estado, pouco menos da metade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Guerra Civil levou a outro passo, em 1864. Os depósitos de poupança, que pela regra antiga eram bens pessoais tributáveis do depositante, escapavam em grande parte. A lei mandou cada banco pagar ao estado três quartos de 1% sobre os depósitos, em lugar de todos os outros impostos; a alíquota subiu para 1% em 1869 e, em 1895, voltou a três quartos para os depósitos gerais, descontados os empréstimos hipotecários no estado a até 5% ao ano. Numa audiência de 1878, alegou-se que a concorrência das caixas de Massachusetts e Vermont afetava os depósitos. Para o autor, era outro exemplo de método eficiente:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O imposto é cobrado com facilidade e baixo custo, é equitativo e é certo”",
+          "original": "“The tax is easily and cheaply collected, it is equitable, and it is certain”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 77 milhões",
+          "texto": "Depósitos de poupança tributados em 1893 (US$ 77.024.282), contra US$ 30.318.320 em 1877, pela tabela de Robinson. Em 1869, o estado passou a cobrar das seguradoras de fora 1% sobre os prêmios brutos; a arrecadação com seguros foi de US$ 11.115,78 em 1870-1871 e de US$ 26.195,88 em 1896-1897."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Isenção para atrair fábrica é ideia nova?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não em New Hampshire. Depois da paz de 1783, o estado isentou por dez anos os moinhos de óleo de linhaça, porque, dizia o preâmbulo, dariam emprego aos pobres e teriam influência favorável sobre a balança comercial. As laminações de ferro e fábricas de pregos ganharam dez anos de isenção e abatimento, por sete anos, da capitação dos operários empregados, para evitar que o dinheiro saísse para o exterior. O pano para velas de navio e a cerveja de malte tiveram tratamento parecido. Antes da Revolução, segundo Robinson, o governador real vetaria esse tipo de incentivo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1860 permitiu que as cidades votassem isenção de dez anos para fábricas de tecidos de algodão e lã, e a de 1871 estendeu a regra a qualquer manufatura; o voto valia como contrato. O efeito colateral veio depois: fábricas mudavam de cidade ao fim de cada isenção. Uma emenda de 1885 proibiu oferecer isenção como condição para a fábrica deixar outra cidade, e a de 1887 vedou isentar empresa já isenta por outra cidade. Esta última, segundo o autor, cumpriu seu objetivo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O retrato final é a tabela do tesouro estadual. Entre 1886-1887 e 1896-1897, o imposto estadual sobre o inventário passou de US$ 400.000 para US$ 500.000, a parte do estado no imposto ferroviário de US$ 101.191,22 para US$ 133.045,66 e o imposto sobre telefones de US$ 195,65 para US$ 3.129,60. Nas cidades, a lei de tolerância de 1819 tinha separado Igreja e Estado e encerrado o imposto local para o culto."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro é uma história legislativa da tributação: Robinson trabalha com leis, relatórios de comissões tributárias, decisões da suprema corte estadual, papéis provinciais e relatórios do tesoureiro. Os números de arrecadação vêm quase todos desses relatórios oficiais. Isso permite seguir com precisão o desenho de cada imposto, mas pouco diz sobre quem de fato o suportava. A tributação das cidades, que o próprio autor deixa de fora, e a incidência ficam como lacunas declaradas.",
+            "O conteúdo econômico mais duradouro é o da base tributária móvel. Seguradoras que saem do estado, depósitos que migram para caixas vizinhas e fábricas que mudam de cidade ao fim da isenção são três versões do mesmo problema, e New Hampshire respondeu a ele cobrando na fonte, da empresa, e proibindo leilões de isenção entre cidades. As bills of credit mostram o outro lado: um governo pobre que, sem mercado de títulos, usou o papel-moeda como empréstimo de guerra e pagou a conta em depreciação."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Capitação (poll tax)",
+          "imposto fixo por pessoa adulta, independente de renda ou patrimônio."
+        ],
+        [
+          "Inventário de cabeças e bens",
+          "lista oficial de contribuintes e bens tributáveis sobre a qual se aplicava a alíquota."
+        ],
+        [
+          "Faculty",
+          "capacidade de ganho de um ofício ou negócio, tributada no período colonial como substituto da renda."
+        ],
+        [
+          "Selectmen",
+          "administradores eleitos de uma cidade da Nova Inglaterra."
+        ],
+        [
+          "Equalização",
+          "ajuste das avaliações entre cidades para que a mesma riqueza pague o mesmo imposto."
+        ],
+        [
+          "Bills of credit",
+          "cédulas emitidas pelo governo colonial, aceitas no pagamento de impostos."
+        ],
+        [
+          "Old tenor e new tenor",
+          "séries antigas e novas de cédulas coloniais, com valores legais diferentes."
+        ],
+        [
+          "Valued policy law",
+          "lei que fixava a indenização do seguro no valor declarado na apólice, em caso de perda total."
+        ],
+        [
+          "Cobrança na fonte",
+          "imposto recolhido pela empresa ou instituição, em vez de por cada dono ou depositante."
+        ]
+      ],
+      "hoje": "Os três sustos de New Hampshire continuam atuais. Governos subnacionais ainda disputam fábricas com isenções e ainda tentam conter a disputa com regras comuns, com resultados variados. Bases móveis, como depósitos, prêmios de seguro e lucros de empresas, migram para onde a carga é menor, o que levou à cobrança na fonte e, mais recentemente, a acordos internacionais de tributação mínima. E a avaliação de ativos pelo valor contábil ou nominal, criticada pela comissão de 1878, segue como ponto fraco de muitos impostos sobre a propriedade.",
+      "itens": [
+        [
+          "A History of Taxation in New Hampshire",
+          "pp. 1–226",
+          "2485865"
+        ]
+      ],
+      "jstor_edicao": "i322397",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, 3ª série, vol. 2, nº 3 e 4 (1901)",
-    "Publications of the AEA, 3ª série, vol. 3 (1902)",
-    "Publications of the AEA, 3ª série, vol. 4 (1903)"
+    "Publications of the AEA, 3ª série, vol. 3, nº 4 (1902)",
+    "Publications of the AEA, 3ª série, vol. 4 (1903)",
+    "Publications of the AEA, 3ª série, vol. 5 (1904)"
   ]
 }
