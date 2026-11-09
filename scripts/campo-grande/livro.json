@@ -98,7 +98,14 @@
      "texto": "Muda a pergunta que se faz diante de cada proposta. Não basta perguntar quanto custa; é preciso perguntar se ela aumenta o salário de quem trabalha, se fortalece a família e o bairro e se respeita o que a comunidade já faz bem sozinha. É com essa pergunta que os catorze capítulos seguintes olham Campo Grande."
     }
    ],
-   "regiao": null
+   "regiao": null,
+   "fontes": [
+    "LEÃO XIII. Rerum Novarum: carta encíclica sobre a condição dos operários. Roma, 1891.",
+    "TOMÁS DE AQUINO. Suma Teológica, II-II, questão 78 (sobre a usura).",
+    "LEÃO X. Inter multiplices, bula do V Concílio de Latrão, 1515 (aprovação dos Montes de Piedade).",
+    "BRASIL. Constituição Federal de 1988, art. 5º, XXIII (função social da propriedade).",
+    "PONTIFÍCIO CONSELHO JUSTIÇA E PAZ. Compêndio da Doutrina Social da Igreja, 2004 (dignidade, bem comum, destino universal dos bens, subsidiariedade)."
+   ]
   },
   {
    "fonte_prevista": "IBGE (PIB dos Municípios), Receita Federal (cadastro de CNPJ e MEI), Jucems e Sebrae-MS",
@@ -705,7 +712,16 @@
     "valor": "Sem cadastro público",
     "texto": "de praças: a prefeitura não publica quantas são nem onde ficam.",
     "fonte": "PLANURB, PPA 2022–2025 e Funesp, consultados em 09/11/2026"
-   }
+   },
+   "fontes": [
+    "DUANY, Andrés; PLATER-ZYBERK, Elizabeth; SPECK, Jeff. Suburban Nation: The Rise of Sprawl and the Decline of the American Dream. New York: North Point Press, 2000.",
+    "KRIER, Léon. The Architecture of Community. Washington: Island Press, 2009.",
+    "BESS, Philip. Till We Have Built Jerusalem: Architecture, Urbanism, and the Sacred. Wilmington: ISI Books, 2006.",
+    "CHESTERTON, G. K. The Outline of Sanity. London: Methuen, 1926.",
+    "BRASIL. Constituição Federal, art. 182; Lei nº 10.257, de 10 de julho de 2001 (Estatuto da Cidade), arts. 5º a 8º (parcelamento compulsório e IPTU progressivo no tempo).",
+    "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).",
+    "Praças: Campo Grande News (ata de R$ 19,7 mi, 01/07/2024; Propam, 17/06/2025); Correio do Estado (Praça dos Imigrantes, 24/07/2025 e 13/08/2025; Praça do Preto Velho, 23/09/2026); A Crítica (Funesp, 12/10/2026); Prefeitura de Campo Grande, CG Notícias (23/03/2026). Fontes secundárias; estimativa de custo do autor (planilha pracas-de-campo-grande.xlsx)."
+   ]
   },
   {
    "fonte_prevista": "SICONFI (RREO e RGF), Tesouro Nacional e a Lei Orçamentária Anual de Campo Grande",
