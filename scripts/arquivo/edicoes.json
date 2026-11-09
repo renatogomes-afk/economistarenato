@@ -17545,10 +17545,494 @@
       ],
       "jstor_edicao": "i350425",
       "colecao": "eua"
+    },
+    {
+      "slug": "1907-o-manual-da-associacao",
+      "numero": 84,
+      "titulo": "O manual de 1907: 1.040 sócios e um boletim a caminho",
+      "titulo_original": "Hand Book of the American Economic Association, 1907",
+      "autores": "American Economic Association; relatórios de Ernest L. Bogart (secretário e tesoureiro interino); lista de teses compilada pelo Comitê de Publicações",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 8, nº 2 (suplemento)",
+      "data": "1907",
+      "chamada": "O manual de 1907 traz o estatuto, a lista de sócios, as atas de Providence e a quarta lista de teses em curso: mais sócios, menos caixa e a decisão de lançar um boletim profissional.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 27 de dezembro de 1906, em Providence, o secretário interino Ernest L. Bogart informou que a associação tinha 1.040 sócios e assinantes, oito a mais que um ano antes. Seis sócios haviam morrido, 26 renunciado e três sido excluídos; três assinantes desistiram. Entraram 29 sócios e 17 assinantes. Bogart ocupava o posto porque o secretário, W. M. Daniels, ia se ausentar do país, e o escritório se mudara de Ithaca para Princeton."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os números estão no Hand Book of the American Economic Association de 1907, suplemento do nº 2 do vol. 8 da terceira série das Publications. A estrutura repete a do manual de 1906, comentado no nº 80: propósitos da associação, estatuto revisto em dezembro de 1905, lista de sócios, atas da décima nona reunião anual e a quarta lista de teses de doutorado em economia política em andamento. O texto de abertura acrescenta duas novidades: a reunião de 1907 seria em Madison, e um boletim de bibliografia e notas sairia ainda naquele ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 4.676,82",
+          "texto": "Saldo de caixa em dezembro de 1906, ante US$ 4.803,68 um ano antes: a primeira queda depois de anos de alta. As anuidades renderam US$ 2.088,59 (US$ 2.225,75 no manual de 1906) e as despesas de publicação subiram para US$ 1.843,09 (US$ 1.612,66). Bogart explica que mais de US$ 450 eram do quarto número atrasado do vol. VI e que a mudança e contas antigas de Ithaca inflaram os gastos da secretaria, de US$ 1.361,93."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde ia o dinheiro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para um boletim trimestral. O Comitê Executivo aprovou gastar até US$ 1.200 por ano com ele e convidou C. W. A. Veditz, da George Washington University, para editor. O plano previa resenhas assinadas, resenhas de periódicos, notícias acadêmicas e bibliografias de publicações oficiais e estatísticas, com vinte seções e estreia prevista para abril de 1907. Bogart admite que o boletim provavelmente consumiria boa parte do excedente, mas diz ser difícil imaginar uso mais proveitoso. O Comitê de Publicações, por sua vez, registrou que os quatro números do ano saíram no prazo pela primeira vez, agora impressos pela Princeton University Press."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lista de teses, de 1º de janeiro de 1907, tem mais de noventa nomes em onze instituições. Columbia lidera com 32, ante 27 no ano anterior; seguem Harvard com 17, Wisconsin com 14 e Johns Hopkins com 10, quase todas sobre sindicatos americanos. Os temas continuam dominados por finanças de estados e cidades, ferrovias, tarifas, trabalho e indústrias específicas, do tabaco ao latão. Há candidatos do Japão, que estudam as finanças públicas japonesas e as de Formosa, e várias mulheres, de Bryn Mawr, Radcliffe, Columbia, Cornell e Wisconsin. Duas teses dialogam com esta coleção: Wilbur O. Hedrick estuda a tributação das ferrovias em Michigan, tema que Snider tratou para Wisconsin no nº 81, e Harry George Friedman, a tributação das corporações em Massachusetts, estado cujas finanças Bullock reconstituiu no nº 83. John Maurice Clark prepara, em Columbia, uma teoria das tarifas ferroviárias."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o manual de 1907 mostra uma associação que passa da fase de acumular para a de investir. O número de sócios fica praticamente estável, o caixa cai pela primeira vez e a decisão é gastá-lo num instrumento de rotina profissional: bibliografia, resenhas e notícias, mais do que monografias. A lista de teses confirma o perfil de uma disciplina voltada para instituições concretas, com a tributação e as finanças subnacionais como campo dominante."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "American Economic Association",
+          "autores": "texto institucional",
+          "paginas": "pp. 1–2",
+          "resumo": "Apresenta a associação, seus sócios e quase duzentos assinantes, o histórico das publicações desde março de 1886 e as reuniões conjuntas com a American Historical Association. Anuncia a reunião de 1907 em Madison e um boletim de bibliografia e notas para o ano corrente. Reafirma que a associação não é órgão de partido, seita ou instituição e que toda a receita vai para publicações e reuniões.",
+          "jstor": "2999940"
+        },
+        {
+          "titulo": "Constitution of the American Economic Association",
+          "autores": "texto revisto na reunião anual de dezembro de 1905",
+          "paginas": "pp. 3–5",
+          "resumo": "Mesmo texto do manual de 1906: pesquisa econômica, em especial o estudo histórico e estatístico das condições reais da vida industrial, publicações e plena liberdade de discussão, sem posição partidária. Anuidade de três dólares, contribuição vitalícia de cinquenta e até 25 sócios honorários estrangeiros.",
+          "jstor": "2999941"
+        },
+        {
+          "titulo": "List of Members",
+          "autores": "",
+          "paginas": "pp. 6–29",
+          "resumo": "Relação alfabética de sócios e assinantes, com endereços e sinais para sócios vitalícios, assinantes e honorários. Professores, funcionários públicos, profissionais liberais, faculdades e bibliotecas públicas aparecem lado a lado.",
+          "jstor": "2999942"
+        },
+        {
+          "titulo": "The Nineteenth Annual Meeting",
+          "autores": "atas; relatórios de Ernest L. Bogart",
+          "paginas": "pp. 30–41",
+          "resumo": "Atas da reunião de Providence, de 26 a 28 de dezembro de 1906, sob os auspícios da Brown University e em conjunto com as associações de história, ciência política e sociologia: programa, relatórios do secretário e do tesoureiro, o plano do boletim trimestral, a reeleição de Jeremiah W. Jenks para a presidência e a escolha de Madison para 1907. A comissão de auditoria só concluiu o exame das contas em janeiro de 1907. Os trabalhos apresentados estão comentados no nº 82.",
+          "jstor": "2999943"
+        },
+        {
+          "titulo": "Fourth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges, January 1, 1907",
+          "autores": "Comitê de Publicações",
+          "paginas": "pp. 42–47",
+          "resumo": "Lista, por instituição, as teses em andamento em 1º de janeiro de 1907, com formação do candidato, tema e data provável de conclusão; omite quem está fora da universidade há mais de três anos. Os temas vão das leis de cereais francesas de 1515 a 1789 e da Levant Company às finanças de Colorado, Cleveland e Boston, aos sindicatos, às ferrovias e à United States Steel Corporation.",
+          "jstor": "2999944"
+        }
+      ],
+      "glossario": [
+        [
+          "Assinante (subscriber)",
+          "instituição ou pessoa que recebe as publicações sem ser sócia, como as bibliotecas."
+        ],
+        [
+          "Secretário interino (acting secretary)",
+          "quem exerce o cargo de secretário durante a ausência do titular."
+        ],
+        [
+          "Comitê Executivo",
+          "órgão que cuida dos interesses da associação entre as reuniões anuais."
+        ]
+      ],
+      "hoje": "Boletins com resenhas, notícias e bibliografia corrente acabaram se tornando o núcleo das revistas profissionais de economia, e o acompanhamento das teses em andamento virou rotina das associações. O manual de 1907 registra o momento da escolha: um caixa acumulado ao longo de anos, uma base de sócios estável e a decisão de gastar o excedente em informação para a profissão, e não em mais reservas.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 1–2",
+          "2999940"
+        ],
+        [
+          "Constitution of the American Economic Association",
+          "pp. 3–5",
+          "2999941"
+        ],
+        [
+          "List of Members",
+          "pp. 6–29",
+          "2999942"
+        ],
+        [
+          "The Nineteenth Annual Meeting",
+          "pp. 30–41",
+          "2999943"
+        ],
+        [
+          "Fourth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges, January 1, 1907",
+          "pp. 42–47",
+          "2999944"
+        ]
+      ],
+      "jstor_edicao": "i350426",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1907-legislacao-trabalhista-de-connecticut",
+      "numero": 85,
+      "titulo": "Edwards, 1907: as leis do trabalho em Connecticut, de 1650 a 1906",
+      "titulo_original": "The Labor Legislation of Connecticut",
+      "autores": "Alba M. Edwards",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 8, nº 3",
+      "data": "1907",
+      "chamada": "Em 1907, Alba M. Edwards reconstituiu as leis do trabalho de Connecticut: trabalho infantil, jornada, salários, greves, inspeção de fábricas e a distância entre o que a lei dizia e o que se cumpria.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um agente do Conselho Estadual de Educação de Connecticut chamou quinze crianças numa fiação. Todas tinham certificado de idade assinado pelos pais, como a lei de 1886 permitia quando não havia registro de nascimento no cartório da cidade. O agente perguntou ao gerente quantas tinham de fato a idade declarada. A resposta, contada ao autor:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhuma, diabos. Minhas ordens são manter a fábrica rodando.”",
+          "original": "“Not a d——d one of them. My orders are to keep the mill running.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "The Labor Legislation of Connecticut, de Alba M. Edwards, saiu em 1907 como o nº 3 do vol. 8 da terceira série das Publications of the American Economic Association. O próprio texto se apresenta como tese. Em treze capítulos, Edwards segue cada lei desde a primeira versão até a revisão de 1902, com base em relatórios oficiais, jornais, decisões judiciais e entrevistas com agentes, patrões e trabalhadores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como começou a lei do trabalho infantil?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O código de 1650 mandava pais e mestres ensinar filhos e aprendizes a ler e criá-los em algum ofício honesto; um trecho dele ainda constava da revisão de 1902. Uma lei de 1813 exigia que os donos de fábricas ensinassem as crianças empregadas a ler, escrever e fazer as quatro operações. Nenhuma das duas era aplicada: em 1842, a comissão de escolas relatou uma fábrica com 24 crianças que não sabiam escrever o próprio nome."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira lei de trabalho infantil propriamente dita é de 1842: menor de 15 anos só podia ser empregado se tivesse frequentado a escola três meses no ano anterior, e menor de 14 não podia trabalhar mais de dez horas por dia em fábrica de algodão ou lã. Seguiram-se as leis de 1855 (idade mínima de nove anos), 1856 (dez anos) e 1867 (dez horas por dia e 58 por semana para menores de 15). A fiscalização ficava com visitadores escolares, condestáveis e grand jurors, sem pagamento extra. Um visitador escolar resumiu a situação em 1866:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se eu tentasse aplicar a lei atual, este vilarejo ficaria quente demais para mim.”",
+          "original": "“If I were to attempt to execute the present law, this village would be too hot to hold me.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou a partir de 1869?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1869, o Conselho Estadual de Educação ganhou poder para aplicar a lei e nomear um agente pago. Edwards marca aí o início do segundo período: pela primeira vez havia um funcionário cuja única tarefa era fiscalizar. Um acordo com os fabricantes para mandar as crianças à escola em turnos durou pouco. Em 1875, 332 de 500 fábricas investigadas empregavam menores de 14 anos, num total de 2.292 crianças."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1886 fixou a idade mínima de 13 anos em estabelecimentos mecânicos, comerciais e industriais, com multa de US$ 60 por semana de infração. Foi um meio-termo: o Conselho de Educação queria 12 anos, os Knights of Labor queriam 14. No Senado houve três votos contra; na Câmara, um. A idade mínima subiu para 14 anos em 1895."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2.600",
+          "texto": "Crianças com menos de 14 anos empregadas no estado nos doze meses até 1º de julho de 1887, segundo o Conselho Estadual de Educação. Por idade: 979 tinham 13 anos, 748 tinham 12 e 57 tinham 8. Por setor, cerca de 1.200 estavam em fábricas de algodão, 400 em lanifícios e 400 em metalurgia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seguiram-se ajustes: em 1899, frequência escolar obrigatória dos 7 aos 16 anos e proibição de empregar menor de 14 durante o horário escolar; em 1901, certificado de idade obrigatório para todo empregado com menos de 16; em 1903 e 1905, poder para manter na escola o adolescente de 14 a 16 anos sem instrução suficiente. Um único agente chegou a cobrir 40 cidades, 700 professores e 30 mil alunos. O autor atribui boa parte das dificuldades de fiscalização à grande população imigrante, sobretudo franco-canadense e, mais tarde, italiana."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo inclui o relatório de W. B. Ferguson, superintendente de escolas de Middletown, sobre a investigação de 1906, que Edwards chama de a única investigação minuciosa já feita numa cidade fabril do estado. O recenseamento escolar havia contado 10 crianças italianas de 14 a 16 anos; a investigação encontrou 49. Das 42 mandadas à escola, 38 saíram das fábricas. Pelos censos federais, a participação de crianças no emprego industrial caiu de forma abrupta entre 1880 e 1890, o que Edwards credita à lei de 1886. Em 1900, os menores de 16 eram cerca de 2% dos empregados da indústria."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A lei encurtou a jornada?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1867, o movimento pelas oito horas conseguiu uma lei que declarava oito horas a jornada legal, “salvo acordo em contrário” entre as partes. Segundo o Bureau of Labor Statistics, em 1874, ela não teve efeito algum. A lei de 1887 limitou a dez horas por dia e 60 por semana o trabalho de mulheres e menores de 16 anos em fábricas e lojas, mas aceitava como prova conclusiva o certificado de idade feito pelo próprio menor. Edwards diz não ter encontrado um único processo com base nela."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O costume estabeleceu a jornada de dez horas antes que ela aparecesse em nossas leis.”",
+          "original": "“Custom established the ten hour working day before it appeared on our statutes.”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "82,81%",
+          "texto": "Fatia dos empregados que trabalhavam dez horas ou menos por dia em 1880, sete anos antes da lei de 1887, pelas estatísticas do Bureau compiladas em 1892. Nos têxteis o quadro era outro: em 1880, 90,57% dos empregados das fábricas de algodão ainda passavam de dez horas. Em 1904, 59,17% dos empregados do estado trabalhavam menos de 60 horas semanais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda metade do capítulo trata dos efeitos econômicos das restrições ao trabalho de mulheres e crianças, sobretudo a concorrência das fiações do Sul. Para Edwards, a única vantagem permanente importante do Sul era a proximidade do algodão. Em Connecticut, o número de fusos cresceu 7,1% de 1890 a 1900. Em 1900, a indústria do algodão respondia por cerca de 6% da indústria do estado, mas por 26,8% das crianças com menos de 16 anos empregadas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei dizia sobre contrato, salário e greve?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo III reúne as leis sobre o contrato de trabalho: a de 1867, que pune o patrão que tenta influenciar o voto do empregado; a de 1899, que proíbe obrigar o empregado a prometer não se sindicalizar; a “padrone law” de 1895, que criou intérpretes para informar trabalhadores estrangeiros de seus direitos; e a lei de 1901 sobre a responsabilidade do empregador, que Edwards descreve como meia medida, por apenas codificar princípios da common law. O capítulo IV trata do salário: crédito preferencial do trabalhador na insolvência desde 1828, proibição de descontar o salário pago antes do dia de pagamento em 1886 e pagamento semanal obrigatório em 1887."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo V acompanha as leis contra a intimidação, de 1864 a 1878, e dois processos de conspiração: o caso Glidden, de 1886, sobre um boicote a uma editora de jornal, e o caso dos carroceiros, julgado em 1904. Edwards conclui que, em quase vinte anos, a visão da Suprema Corte do estado sobre o que constituía conspiração criminosa não mudou. A lista negra foi proibida em 1897."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que instituições o estado criou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os capítulos VI a X tratam de cinco experiências. Em 1901, o estado abriu agências públicas e gratuitas de emprego em New Haven, Hartford, Bridgeport, Norwich e Waterbury, com teto de US$ 2 mil por ano cada, e passou a licenciar as agências privadas, limitando a taxa a US$ 2. O conselho estadual de mediação e arbitragem de 1895, com três membros, foi chamado uma única vez em 1896, sem acordo. O capítulo VIII trata da lei do selo sindical, de 1893."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de licença para barbeiros, de 1901, é o único caso em que Connecticut exigiu licença de um trabalhador para exercer o ofício. Para estudá-la, Edwards entrevistou barbeiros em cerca de 150 barbearias; descreve a lei como obtida pelos sindicatos de barbeiros para afastar a concorrência de barbeiros itinerantes, de egressos de escolas de seis semanas e das barbearias de cinco centavos. O capítulo X conta a história do trabalho de presos desde a prisão estadual de Wethersfield, aberta em 1827, e do sistema de contratos com empresas privadas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como surgiu a inspeção de fábricas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A campanha começou com os Knights of Labor em 1885. O principal opositor citado é o próprio comissário do Bureau, A. T. Hadley, que em 1885 defendeu aumentar a responsabilidade do empregador por acidentes em vez de criar inspeção estatal. A lei de 1887, quase cópia da de Massachusetts, criou um inspetor nomeado pelo governador, com salário de US$ 1.500, poder de exigir proteção em correias, engrenagens e poços de elevador, e multas de US$ 50 a US$ 500. Quando Edwards escrevia, havia três inspetores adjuntos além do chefe. O capítulo trata ainda das leis sobre saídas de incêndio (1883), assentos para empregadas (1893), inspeção de padarias (1897) e oficinas em cortiços (1899)."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "68 a 64",
+          "texto": "Placar na Câmara da emenda que recriou o Bureau of Labor Statistics em 1885: bastavam 67 votos, e a emenda passou por um. O primeiro Bureau, de 1873, havia sido extinto em 1875. O novo comissário recebia US$ 2 mil por ano, mas perdeu o poder, previsto no projeto original, de convocar testemunhas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem fez essas leis?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No capítulo final, Edwards resume: a legislação de Connecticut esteve cerca de dez anos atrás da de Nova York e Massachusetts, muitas vezes copiada de outros estados, sem conhecimento das condições locais e sem órgão para aplicá-la. A partir de 1885, o motor foram os sindicatos. A legislatura de 1885-86 tinha 37 membros dos Knights of Labor; um dirigente da ordem calculava no máximo 8 mil membros estáveis em 1886, quando a estimativa corrente era de 60 mil. Para Edwards, a lei do trabalho infantil de 1886, as leis de pagamento semanal, a inspeção de fábricas e a lei das padarias tiveram efeito claro; a maior necessidade, conclui, é revisar as leis existentes e aplicá-las com cuidado."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a contribuição de método está em separar a lei escrita da lei aplicada. Edwards não para no texto legal: pergunta quem fiscaliza, com que orçamento e com que prova. Daí as melhores passagens econômicas do livro, sobre o desenho dos certificados. Quando o certificado de idade é emitido por quem ganha com o trabalho da criança, pais ou o próprio menor, a lei vira formalidade. Quando a fiscalização cabe a funcionários locais sem remuneração, ela simplesmente não acontece. O problema é de incentivos, não de redação.",
+            "O segundo ponto, na minha leitura, é a causalidade. As próprias tabelas mostram que a jornada de dez horas já era a regra em 1880, antes da lei de 1887, e que nos têxteis ela continuou sendo descumprida depois. A lei, nesse caso, seguiu o costume. Já a queda do trabalho infantil entre 1880 e 1890 coincide com a lei de 1886 e com agentes pagos. A comparação entre os dois casos sugere uma regra útil: a lei pesa mais quando vem acompanhada de quem a aplique."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Knights of Labor",
+          "organização nacional de trabalhadores, forte nos Estados Unidos na década de 1880."
+        ],
+        [
+          "Grand juror",
+          "membro do júri de acusação; em Connecticut, encarregado de apresentar denúncias de infrações locais."
+        ],
+        [
+          "Common law",
+          "direito formado pelas decisões dos tribunais, e não por leis escritas."
+        ],
+        [
+          "Regra do colega de trabalho (fellow-servant rule)",
+          "doutrina pela qual o patrão não responde por acidente causado por negligência de outro empregado."
+        ],
+        [
+          "Padrone",
+          "intermediário que trazia grupos de imigrantes e negociava seus salários e pagamentos."
+        ],
+        [
+          "Lista negra (blacklisting)",
+          "troca de nomes de empregados entre patrões para impedir sua contratação."
+        ],
+        [
+          "Selo sindical (union label)",
+          "marca aplicada a produtos para certificar que foram feitos por trabalhadores sindicalizados."
+        ],
+        [
+          "Sistema de contratos (contract system)",
+          "arranjo em que o Estado aluga o trabalho dos presos a empresas privadas."
+        ],
+        [
+          "Oficina em cortiço (tenement house workshop)",
+          "produção de roupas e outros artigos dentro de moradias coletivas."
+        ]
+      ],
+      "hoje": "As perguntas de Edwards seguem no centro do debate sobre regulação do trabalho. Fiscalização depende de orçamento, de pessoal e de prova; uma lei sem órgão que a aplique tende a virar letra morta. O desenho de documentos e certificados continua a ser um problema de incentivos, sobretudo quando quem atesta é quem ganha com a infração. E a discussão sobre se a lei muda o costume ou apenas o registra reaparece em quase toda avaliação de salário mínimo, jornada máxima e idade mínima para o trabalho.",
+      "itens": [
+        [
+          "The Labor Legislation of Connecticut",
+          "pp. 1–322",
+          "2999934"
+        ]
+      ],
+      "jstor_edicao": "i350427",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1907-o-crescimento-das-grandes-fortunas",
+      "numero": 86,
+      "titulo": "Watkins, 1907: de onde vêm as grandes fortunas",
+      "titulo_original": "The Growth of Large Fortunes",
+      "autores": "G. P. Watkins",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 8, nº 4",
+      "data": "1907",
+      "chamada": "Em 1907, G. P. Watkins procurou causas impessoais para as grandes fortunas: a renda da propriedade, sem teto natural, a sociedade anônima, a grande escala e os ganhos com a valorização.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O sindicato de banqueiros liderado por Morgan que financiou a United States Steel Corporation se comprometeu a fornecer US$ 250 milhões, adiantou de fato US$ 25 milhões e lucrou US$ 50 milhões em doze meses. G. P. Watkins usa o caso para ilustrar o que chama de ganhos sem tempo do promotor e do financista: fechar os acordos de uma combinação de empresas depende tão pouco do tempo que não faz sentido exprimir o ganho como taxa anual sobre um investimento."
+        },
+        {
+          "tipo": "p",
+          "texto": "The Growth of Large Fortunes saiu em 1907 como o nº 4 do vol. 8 da terceira série das Publications of the American Economic Association, com 170 páginas em cinco capítulos. O autor afirma que nenhum estudo completo do tema fora feito e remete a um artigo seu sobre a evidência estatística da concentração da riqueza. No fim, define o livro como um tratado de causas: das consequências e dos remédios para a concentração, diz não ter nada a tratar ali."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que procurar causas impessoais?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é metodológico. Uma teoria científica das grandes fortunas, argumenta Watkins, precisa de causas que permitam generalização. Influência política e privilégio não servem. A natureza humana também não: os homens não são muito diferentes do que eram, e a falta de escrúpulos não é nova. A pilhagem transfere riqueza, mas não explica sua concentração. Como os indivíduos ganham os prêmios é assunto de julgamento moral; a tarefa do economista é outra:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O ofício da economia, porém, é apenas mostrar que os prêmios existem e por que existem.”",
+          "original": "“The business of economics, however, is only to show that the prizes are there and why they are there.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele anuncia três pistas. A propriedade passou de formas mais democráticas para formas menos democráticas: o artesão com suas ferramentas e o comerciante atento ao estoque deram lugar ao capitalista que acompanha seus bens pelas cotações da bolsa. A máquina movida a energia substituiu a ferramenta. E a avaliação de tudo em dinheiro pôs no comando o homem que conhece os mercados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a renda do trabalho tem teto e a da propriedade não?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Watkins separa produção de aquisição. Produzir é um fato físico; adquirir é um fato econômico e jurídico, e pode ocorrer por troca, por doação ou por herança, sem produção própria. A grande empresa ampliou o valor possível do esforço individual, mas, segundo ele, ainda não fixou o valor de mercado da capacidade produtiva de homem algum acima de cerca de US$ 100 mil por ano. Há, no entanto, muitas rendas várias vezes maiores, que não se explicam pelo esforço de quem as recebe."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Homens e coisas produzem; mas só os homens adquirem.”",
+          "original": "“Men and things produce; but only men acquire.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para medir a diferença, o autor compara a razão entre o decil superior e a mediana em várias distribuições. Nos salários semanais de nove ramos industriais, o decil superior fica sempre abaixo de duas vezes a mediana. Nos espólios inventariados em Massachusetts, chega a oito ou nove vezes. A conclusão é que a renda do esforço pessoal tem um limite técnico que freia a concentração; é na renda da propriedade que a aquisição sem produção própria encontra espaço."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 a 9 vezes",
+          "texto": "Razão entre o decil superior e a mediana dos espólios de Massachusetts, contra menos de 2 nos salários de nove ramos (censo de 1900) e cerca de 2 nos salários da United States Steel e de professores de 467 cidades. Nos espólios franceses de 1903–1904, 13 vezes. No centésimo superior, a renda do esforço pessoal vale talvez 3 vezes a mediana; a propriedade, talvez 100 vezes. Para estimar o decil da U.S. Steel, US$ 1.682, o autor interpola supondo queda geométrica do número de casos por faixa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é propriedade abstrata?"
+        },
+        {
+          "tipo": "p",
+          "texto": "É o conceito central do livro. Watkins distingue a renda direta da riqueza, obtida por quem administra os próprios meios de produção, da renda de propriedade abstrata, recebida por quem entrega a outros a gestão e guarda apenas um direito a uma renda, de preferência fixa e segura. O credor hipotecário, o detentor de títulos e, em grande parte, o acionista vivem da segunda. Ações preferenciais, holdings e procurações tornam o acionista, na prática, um credor. Para o autor, do ponto de vista econômico pouco resta da distinção entre ações e títulos de dívida."
+        },
+        {
+          "tipo": "p",
+          "texto": "A consequência é a remoção de um limite natural. A riqueza concreta exige supervisão, e o cuidado cresce com o tamanho. A propriedade abstrata não: o número que representa os interesses de um homem pode ganhar mais alguns algarismos sem aumentar o trabalho exigido. O avanço da forma é rápido. Na Inglaterra, a sociedade de responsabilidade limitada por simples registro só foi possível a partir de 1855; o capital integralizado das companhias registradas cresceu quase 500% em 25 anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os inventários confirmam a ligação com a concentração. No estado de Nova York, três quartos do valor dos espólios de US$ 50 mil ou mais eram bens móveis, sobretudo papéis; nos espólios abaixo de US$ 5 mil, a proporção se inverte, e três quartos eram imóveis. O espólio de Gould tinha 97% em bens móveis. Pelas contas do autor, o acionista médio das ferrovias americanas tinha provavelmente mais de US$ 20 mil em ações, enquanto a fazenda média, com suas construções, valia pouco menos de US$ 3 mil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "45%",
+          "texto": "Parcela da riqueza nacional dos Estados Unidos em 1904 que, pela estimativa de Watkins, tomava a forma de propriedade de papel: cerca de US$ 47,4 bilhões em títulos de ferrovias e serviços públicos, ações industriais e de mineração, hipotecas, empréstimos bancários e dívida pública, sobre um total de US$ 107,1 bilhões. Ele considera o número subestimado. No Reino Unido, calcula mais da metade; na França, perto de dois quintos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde nasceram os milionários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro capítulo junta duas forças à propriedade abstrata: a produção em grande escala e o que Watkins chama de renda incremental, a valorização que acontece sem esforço do dono. O caso típico é a terra urbana. O valor dos imóveis de Nova York foi multiplicado por 12 em quarenta anos, enquanto a terra agrícola perdia valor na Europa e no leste americano. Nas cidades, dois terços das moradias eram alugadas; no campo, dois terços eram próprias."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na indústria, a grande escala avançava sobre o pequeno empresário. Em 1905, as empresas incorporadas eram 23,6% dos estabelecimentos manufatureiros, mas tinham 82,8% do capital declarado. Na mineração, a expansão foi ainda mais rápida: a produção mundial de carvão passou de 12 milhões de toneladas em 1800 para 650 milhões em 1897, e os Estados Unidos ultrapassaram o Reino Unido em 1899."
+        },
+        {
+          "tipo": "p",
+          "texto": "A nota ao capítulo testa a tese com a lista de milionários americanos publicada pelo New York Tribune em 1892, que registra a origem de cada fortuna. A agricultura, o maior grupo de ocupação dos homens, aparece quase vazia: 84 nomes, e 47 deles fizeram fortuna criando gado no Oeste, isto é, explorando o domínio público. Comércio e transporte, indústria, minas e madeira, e a valorização de imóveis respondem pelo resto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4.047",
+          "texto": "Milionários da lista do New York Tribune de 1892. Comércio e transporte: 1.752 (43,3%); indústria: 1.140 (28,1%); minas, petróleo e madeira: 436; valorização de imóveis com o crescimento da população: 468; agricultura e pecuária: 84 (2,1%), quando a agricultura reunia 41,4% dos homens ocupados em 1900. Dos 73 em serviços profissionais, 65 eram advogados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Juros baixos ajudam os ricos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Watkins argumenta que sim, por uma via indireta. Quanto mais baixa a taxa de juros, maior a distância entre quem já tem renda de propriedade e quem só tem a do trabalho, porque o salário precisa render mais anos de poupança para gerar a mesma renda. Os juros reinvestidos crescem em progressão geométrica. Se a capacidade de dois homens está na razão de 1 para 2 e seus meios iniciais também, a desigualdade resultante será de 1 para 4. A propriedade abstrata, além disso, protege a fortuna herdada da falta de talento de quem a recebe:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Conservar a riqueza já obtida é mais fácil do que nunca.”",
+          "original": "“Keeping riches once gained is easier than ever before.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O mesmo instrumento, porém, pode funcionar no sentido contrário. Watkins duvida que os ricos sejam os principais poupadores e aponta a França, país de pequenos proprietários e de grande poupança, que se tornara a principal fonte de capital novo no mercado mundial. Os depósitos de poupança nos Estados Unidos passaram de US$ 43 milhões em 1850 para US$ 3,1 bilhões em 1905. Com papéis seguros, de renda fixa e risco diluído, a classe média poupadora poderia, com o tempo, comprar a parte dos grandes detentores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou nos Estados Unidos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O quarto capítulo começa com Franklin, que descrevia uma feliz mediania de cultivadores donos da terra, e com Tocqueville, que via poucas grandes fortunas e capital escasso. Para Watkins, o país que fora a terra da igualdade econômica era conhecido como a terra do multimilionário porque reunia, no grau mais alto, as tendências modernas: recursos naturais explorados em ritmo sem precedente, monopólios de transporte deixados a particulares mais do que em outros países, uma tarifa que favoreceu a indústria e, com ela, a formação de milionários, e um vasto campo para a especulação."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na conclusão, o autor separa duas perguntas. A de que os pobres estariam empobrecendo ele considera falsa: estão melhor do que nunca, e a alta dos salários é outra questão. A da concentração da renda da propriedade é a do livro. Sua avaliação final é de que há concentração demais de riqueza, a ponto de ameaçar a igualdade de oportunidades, e de que o problema mais urgente seria conter o poder dos ricos ativos e de suas corporações."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a força do método está na escolha da medida. Ao comparar distribuições pela razão entre o decil superior e a mediana, Watkins obtém um indicador relativo, que não depende do nível de preços nem da moeda e permite pôr lado a lado salários americanos, inventários de Massachusetts e espólios franceses. A interpolação geométrica entre faixas é um cuidado técnico raro para a época. Os limites são os das fontes: inventários em valores brutos, listas de milionários feitas por reputação e estimativas de riqueza nacional montadas item a item, que o próprio autor trata como aproximações.",
+            "O argumento econômico mais duradouro, na minha leitura, é o da assimetria entre as duas rendas. A renda do trabalho esbarra num teto técnico; a renda da propriedade, quando separada da gestão, não esbarra em nada, e cresce por reinvestimento. Daí a ênfase na forma da propriedade, e não apenas na sua quantidade: a sociedade anônima e o título negociável são, para Watkins, ao mesmo tempo a causa da concentração e o meio possível de sua difusão. O que decide entre os dois resultados é o acesso de pequenos poupadores a papéis seguros e diversificados."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Propriedade abstrata (abstract property)",
+          "direito a uma renda sobre bens que outros administram, como títulos de dívida, hipotecas e ações de grandes empresas."
+        ],
+        [
+          "Renda incremental (incremental income)",
+          "ganho com a valorização de um bem sem esforço do dono, como na terra urbana ou na especulação."
+        ],
+        [
+          "Propriedade de papel (paper property)",
+          "a parte da propriedade abstrata representada por títulos e documentos negociáveis."
+        ],
+        [
+          "Decil superior",
+          "valor acima do qual está o décimo mais alto de uma distribuição; dividido pela mediana, mede a desigualdade."
+        ],
+        [
+          "Bens móveis e imóveis (personalty e realty)",
+          "divisão jurídica dos espólios; nos bens móveis entram ações, títulos e hipotecas."
+        ]
+      ],
+      "hoje": "A distinção de Watkins entre renda do trabalho e renda da propriedade continua no centro do debate sobre desigualdade, assim como a constatação de que a riqueza é muito mais concentrada que os salários. A separação entre propriedade e gestão, que ele via nascer, tornou-se a regra das grandes empresas, e fundos e gestores profissionais levaram ao extremo a figura do investidor que só recebe a renda. A pergunta que ele deixa em aberto também permanece: se o acesso de pequenos poupadores a ativos financeiros basta para difundir a propriedade ou se a herança e o reinvestimento acabam pesando mais.",
+      "itens": [
+        [
+          "The Growth of Large Fortunes",
+          "pp. 1–170",
+          "2999952"
+        ]
+      ],
+      "jstor_edicao": "i350428",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, 3ª série, vol. 8, nº 2 a 4 (1907)",
     "American Economic Association Quarterly e Economic Bulletin (1908–1910)",
     "American Economic Review (1911–1922)"
   ]
