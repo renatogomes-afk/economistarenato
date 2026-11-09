@@ -865,7 +865,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Pelo limite do Senado, a dívida contratual é pequena: 14,7% da receita corrente líquida, para um teto de 120%. A entrada de crédito novo teve pico em 2022 e caiu a quase nada em 2025. Três pontos pedem atenção: os parcelamentos voltaram a crescer (de R$ 37 milhões em 2024 para R$ 101 milhões em agosto de 2026), puxados por contribuições previdenciárias e tributos não recolhidos; cerca de um terço dos contratos está em moeda estrangeira; e a Câmara autorizou em outubro de 2026 novos empréstimos de R$ 476,7 milhões com a Caixa para asfalto e drenagem, segundo a imprensa. Se forem contratados, a dívida sobe mais de 50%."
+     "texto": "Pelo limite do Senado, a dívida contratual é pequena: 14,7% da receita corrente líquida, para um teto de 120%. A entrada de crédito novo teve pico em 2022 e caiu a quase nada em 2025. Três pontos pedem atenção: os parcelamentos voltaram a crescer (de R$ 37 milhões em 2024 para R$ 101 milhões em agosto de 2026), puxados por contribuições previdenciárias e tributos não recolhidos; cerca de um terço dos contratos está em moeda estrangeira; e a Câmara autorizou em outubro de 2026 novos empréstimos de R$ 476,7 milhões com a Caixa para asfalto e drenagem, segundo a imprensa. Se forem contratados, a dívida sobe mais de 50%. Para onde vai cada real, entre folha, custeio, investimento e dívida, está no Capítulo 7."
     },
     {
      "tipo": "p",
@@ -960,6 +960,92 @@
     {
      "tipo": "h2",
      "texto": "Para onde vai o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa da prefeitura por categoria (R$ milhões correntes, liquidado)",
+     "cabecalho": [
+      "",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "Pessoal e encargos (folha)",
+       "2.894",
+       "2.902",
+       "3.487",
+       "3.755"
+      ],
+      [
+       "Custeio (outras despesas correntes)",
+       "1.738",
+       "1.854",
+       "2.014",
+       "2.062"
+      ],
+      [
+       "Investimentos (obras e equipamentos)",
+       "284",
+       "274",
+       "320",
+       "236"
+      ],
+      [
+       "Juros da dívida",
+       "53",
+       "76",
+       "84",
+       "85"
+      ],
+      [
+       "Amortização da dívida e inversões*",
+       "82",
+       "97",
+       "104",
+       "93"
+      ],
+      [
+       "Total da despesa",
+       "5.051",
+       "5.203",
+       "6.008",
+       "6.230"
+      ],
+      [
+       "Receita total, para comparar",
+       "5.514",
+       "5.843",
+       "6.172",
+       "6.469"
+      ],
+      [
+       "Crédito novo recebido",
+       "187",
+       "108",
+       "53",
+       "18"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "* Calculado por diferença (despesa de capital menos investimentos); a DCA em PDF separa as duas linhas. Folha e receita incluem as operações dentro da própria prefeitura, como a contribuição patronal ao IMPCG (R$ 374 milhões em 2025)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "60%",
+     "texto": "da despesa de 2025 foi folha; 33%, custeio; e só 3,8%, investimento, a menor fatia dos quatro anos. Fonte: SICONFI, DCA 2022–2025, Anexo I-D (cálculo do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Em quatro anos a folha cresceu 30% e o custeio, 19%, enquanto o investimento caiu de R$ 284 milhões para R$ 236 milhões. Do lado da dívida, a prefeitura passou a pagar mais do que toma: em 2025 recebeu R$ 18 milhões de empréstimos novos e pagou cerca de R$ 177 milhões em juros e amortização. A conta fecha no aperto, e o que sobra para obra é cada vez menor."
+    },
+    {
+     "tipo": "p",
+     "texto": "Por área de governo, o retrato de 2025 é este:"
     },
     {
      "tipo": "tabela",
@@ -1104,12 +1190,12 @@
     "nota": null
    },
    "indicador": {
-    "valor": "59% da despesa",
-    "texto": "de 2025 foi para saúde (31%) e educação (28%); a gestão das duas secretarias consumiu R$ 239 mi.",
-    "fonte": "SICONFI: DCA 2025, Anexo I-E"
+    "valor": "3,8% da despesa",
+    "texto": "de 2025 foi investimento; 60% foi folha e 33% custeio. Saúde e educação levaram 59%.",
+    "fonte": "SICONFI: DCA 2022–2025, Anexos I-D e I-E"
    },
    "fontes": [
-    "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais 2025, Anexo I-E (despesa por função e subfunção), Município de Campo Grande. Consulta em 09/11/2026.",
+    "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais 2022–2025, Anexos I-C (receita), I-D (despesa por categoria econômica) e I-E (despesa por função), Município de Campo Grande. Consulta em 09/11/2026.",
     "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos)."
    ]
   },
