@@ -13974,11 +13974,1321 @@
       ],
       "jstor_edicao": "i322402",
       "colecao": "eua"
+    },
+    {
+      "slug": "1904-a-decima-sexta-reuniao-anual-i",
+      "numero": 69,
+      "titulo": "Nova Orleans, 1903: o Sul agrícola, Seligman e o destino do imposto",
+      "titulo_original": "Papers and Proceedings of the Sixteenth Annual Meeting, Part I, New Orleans, La., December 29–31, 1903",
+      "autores": "Edwin R. A. Seligman (presidente da associação), Edwin A. Alderman (Tulane University), William C. Stubbs (Louisiana Sugar Experiment Stations), John Dymond, S. A. Knapp e S. Locke Breaux (Rice Association of America), D. F. Houston (Agricultural and Mechanical College of Texas), George K. Holmes (Department of Agriculture), Lawson H. Shelfer (Department of Agriculture), J. B. Killebrew, William H. Glasson, D. A. Tompkins (Charlotte, N. C.), Charles C. Thach (Alabama Polytechnic Institute), Richard H. Edmonds (Manufacturers' Record), Frank A. Fetter (Cornell University), Thomas N. Carver (Harvard University), Jacob H. Hollander (Johns Hopkins University), Richard T. Ely e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 5, nº 1",
+      "data": "fevereiro de 1904",
+      "chamada": "Nova Orleans, dezembro de 1903: Seligman propõe uma teoria social do imposto, técnicos do Sul expõem açúcar, arroz, algodão e tabaco, e Fetter redefine renda e juros.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um trem especial saído de Nova York levou 105 pessoas a Nova Orleans no fim de dezembro de 1903; outro grupo veio de Chicago em vagões especiais. De 29 a 31 de dezembro, a American Economic Association realizou ali sua décima sexta reunião anual, no mesmo lugar e na mesma data que a American Historical Association, com duas sessões conjuntas. A primeira manhã foi dedicada aos problemas agrícolas do Sul, numa sala do tribunal civil da Jackson Square; a tarde, aos problemas industriais da região."
+        },
+        {
+          "tipo": "p",
+          "texto": "O programa era tão extenso que a comissão de publicações dividiu os anais em duas partes. Esta primeira saiu em fevereiro de 1904, como nº 1 do vol. 5 da terceira série; a segunda é o nº 70 deste arquivo. A nota editorial atribui o atraso à falta do registro estenográfico prometido: parte das discussões foi reconstituída pelos participantes, algumas saíram resumidas e outras se perderam. O volume reúne o manual da associação, o relatório da reunião, o discurso presidencial, a saudação de boas-vindas, seis trabalhos sobre o Sul e a sessão de teoria sobre renda e juros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga, afinal, o imposto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edwin R. A. Seligman, no discurso presidencial “Social Aspects of Economic Law”, retomou pelo avesso o tema do ano anterior: em vez dos efeitos da economia sobre a vida social, a base social da lei econômica. Passou pelo valor, pelo comércio internacional, pela propriedade e pela questão sindical, e dedicou a maior parte do texto às finanças públicas, tema que, segundo ele, nenhum antecessor havia tratado num discurso presidencial. Sua tese: as doutrinas do benefício e da capacidade contributiva olham só para quem paga em primeira instância e ignoram a transferência e a capitalização do imposto. Por isso a prática americana, que abandonava o imposto geral sobre a propriedade, estaria na direção certa, e a teoria, errada:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se a teoria corrente não se harmoniza com os fatos, pior para a teoria.”",
+          "original": "“If the current theory does not harmonize with the facts, so much the worse for the theory.”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 80",
+          "texto": "Preço, no exemplo de Seligman, de um título corporativo de 5% vendido ao par que passa a pagar imposto de 1% do qual outros títulos estão isentos. O comprador recebe US$ 5 de juros e paga US$ 1 de imposto; os US$ 4 líquidos rendem sobre US$ 80 o mesmo que US$ 5 sobre US$ 100. O imposto se capitaliza no preço, e o novo comprador não o suporta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o Sul tinha a mostrar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os trabalhos agrícolas vieram de técnicos e dirigentes de associações. William C. Stubbs descreveu a usina central de açúcar da Luisiana e pediu estabilidade tarifária; D. F. Houston mediu o avanço do bicudo-do-algodoeiro no Texas; Lawson H. Shelfer tratou do tabaco. O número mais eloquente veio de S. A. Knapp, presidente da Rice Association of America: na Luisiana e no Texas, um acre de arroz exigia no máximo dois dias de trabalho humano, contra oitenta em Bengala e 120 no Japão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40 a 60 para 1",
+          "texto": "Vantagem de trabalho humano por acre de arroz a favor dos Estados Unidos, segundo Knapp, atribuída à maquinaria agrícola. Em Bengala, oitenta dias de homem e 21 de bois; no Japão, 120 dias sem animais; na Luisiana e no Texas, até dois dias de homem e um e meio de parelha. O arroz saía da fazenda a 2 ou 3 centavos por libra e chegava ao consumidor a 8 a 12."
+        },
+        {
+          "tipo": "p",
+          "texto": "À tarde, D. A. Tompkins sustentou que a escravidão nunca favoreceu a produção de algodão, e Charles C. Thach, do Alabama Polytechnic Institute, contestou com dados de 1850 a 1860. Richard H. Edmonds, editor do Manufacturers' Record, fez o balanço mais duro: em 1900, cada pessoa ocupada na agricultura do Sul produzia US$ 248, contra US$ 655 no resto do país. A estabilidade das regras foi pedida por Stubbs em termos gerais:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A permanência da legislação nacional é quase necessária à prosperidade contínua de qualquer indústria.”",
+          "original": "“Permanency in national legislation is almost necessary to the continued prosperity of any industry.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Renda e juros são coisas diferentes?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão de teoria, o trabalho de Frank A. Fetter, de Cornell, foi lido apenas pelo título e serviu de base a uma discussão com dez participantes. Fetter sustentou que o conceito clássico de renda mistura três ideias incompatíveis e propôs separar o uso de um bem de seu valor de capital: o juro apareceria só ao descontar rendas futuras. Thomas N. Carver e Jacob H. Hollander defenderam a distinção tradicional; Winthrop M. Daniels apoiou Fetter."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A renda é o usufruto atribuível a qualquer agente material.”",
+          "original": "“rent is the usufruct attributable to any material agent”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na reunião do conselho, Frank W. Taussig foi eleito presidente, e Chicago foi escolhida para dezembro de 1904. A pedido da Census Bureau, criou-se uma comissão de contabilidade e finanças municipais, presidida por Frederick A. Cleveland, e o conselho saudou o programa de pesquisa em história econômica americana do Carnegie Institute."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "994",
+          "texto": "Sócios registrados no relatório do secretário Frank A. Fetter, com perda líquida de 21 no ano. As publicações de 1903 somaram 986 páginas, e o saldo do tesoureiro era de US$ 3.040,10. O resumo de 1º de fevereiro de 1904 soma 987 sócios e assinantes: 13 honorários, 75 vitalícios, 751 anuais e 148 assinantes."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o discurso de Seligman é o texto de maior alcance do volume, porque desloca a pergunta da justiça tributária de quem recolhe o imposto para quem acaba suportando seu peso. A combinação de transferência e capitalização é uma ferramenta de análise de incidência: um imposto sobre imóveis pode subir aluguéis ou derrubar o preço da terra, e quem compra depois não paga nada. A conclusão prática, porém, depende de mercados que se ajustam, e o próprio texto registra o limite: a capitalização desonera o futuro comprador porque cobra tudo, de uma vez, do proprietário atual. A transição é o ponto em que a teoria encontra a política.",
+            "A proposta de Fetter caminha na mesma direção por outra via: separar o fluxo de serviços de um bem do valor presente desse fluxo, com o juro como taxa de desconto. É uma formulação próxima da que hoje se usa para precificar qualquer ativo. Os trabalhos sobre o Sul têm outro método, descritivo e estatístico, de quem conhece o campo; o dado de Knapp sobre o preço do arroz ao produtor e ao consumidor lembra que ganhos de produtividade na lavoura podem ficar no caminho entre a fazenda e a mesa."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Incidência do imposto",
+          "quem efetivamente suporta o ônus de um tributo, que pode ser diferente de quem o recolhe."
+        ],
+        [
+          "Capitalização do imposto",
+          "queda no preço de um ativo equivalente ao valor presente do imposto futuro, que recai sobre o dono no momento da criação do tributo."
+        ],
+        [
+          "Capacidade contributiva",
+          "princípio de que cada um deve pagar conforme sua capacidade econômica, e não conforme o benefício recebido do Estado."
+        ],
+        [
+          "Bicudo-do-algodoeiro",
+          "inseto (boll weevil) que ataca botões e capulhos do algodão; chegou ao Texas vindo do México."
+        ],
+        [
+          "Usina central",
+          "fábrica de açúcar que processa a cana de vários produtores, trazida por via férrea."
+        ],
+        [
+          "Beneficiamento por empreitada",
+          "sistema em que o moinho processa o arroz do agricultor mediante pagamento, sem comprá-lo."
+        ],
+        [
+          "Convenção de Bruxelas",
+          "acordo europeu que aboliu prêmios à exportação de açúcar de beterraba e cartéis do setor."
+        ],
+        [
+          "Quase-renda",
+          "termo de Marshall para o rendimento temporário de bens de capital que se comporta como a renda da terra."
+        ],
+        [
+          "Capitalização (em Fetter)",
+          "cálculo do valor presente de uma série de rendas futuras, descontadas a uma taxa que expressa a preferência pelo presente."
+        ]
+      ],
+      "hoje": "As perguntas de Nova Orleans seguem atuais. A distinção de Seligman entre quem recolhe e quem suporta o imposto é a base de qualquer estudo de incidência, e a capitalização explica por que mudanças em tributos sobre imóveis ou títulos afetam sobretudo quem os possui no momento da mudança. A tese de Fetter, de que valor de capital é renda futura descontada, é a lógica corrente de avaliação de ativos. E a diferença entre o preço na fazenda e o preço na prateleira continua no centro do debate sobre margens nas cadeias de alimentos.",
+      "itens": [
+        [
+          "Editorial Note",
+          "pp. iii",
+          "2999854"
+        ],
+        [
+          "American Economic Association",
+          "pp. 1–37",
+          "2999855"
+        ],
+        [
+          "The Sixteenth Annual Meeting",
+          "pp. 38–48",
+          "2999856"
+        ],
+        [
+          "Social Aspects of Economic Law",
+          "pp. 49–73",
+          "2999857"
+        ],
+        [
+          "Address of Welcome",
+          "pp. 74–78",
+          "2999858"
+        ],
+        [
+          "Sugar",
+          "pp. 79–98",
+          "2999859"
+        ],
+        [
+          "Sugar-Discussion",
+          "pp. 99–101",
+          "2999860"
+        ],
+        [
+          "Rice",
+          "pp. 102–109",
+          "2999861"
+        ],
+        [
+          "Rice-Discussion",
+          "pp. 110–112",
+          "2999862"
+        ],
+        [
+          "Cotton and the General Agricultural Outlook",
+          "pp. 113–121",
+          "2999863"
+        ],
+        [
+          "Cotton and the General Agricultural Outlook-Discussion",
+          "pp. 122–128",
+          "2999864"
+        ],
+        [
+          "Tobacco",
+          "pp. 129–134",
+          "2999865"
+        ],
+        [
+          "Tobacco-Discussion",
+          "pp. 135–143",
+          "2999866"
+        ],
+        [
+          "The Cotton Industry",
+          "pp. 144–153",
+          "2999867"
+        ],
+        [
+          "The Cotton Industry-Discussion",
+          "pp. 154–161",
+          "2999868"
+        ],
+        [
+          "The Utilization of Southern Wastes",
+          "pp. 162–175",
+          "2999869"
+        ],
+        [
+          "The Relations between Rent and Interest",
+          "pp. 176–198",
+          "2999870"
+        ],
+        [
+          "The Relations between Rent and Interest-Discussion",
+          "pp. 199–240",
+          "2999871"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Editorial Note",
+          "autores": "Comissão de publicações",
+          "paginas": "pp. iii",
+          "resumo": "Explica a divisão dos anais em duas partes, pelo programa extenso, e o atraso causado pela falta do registro estenográfico das discussões, reconstituídas em parte pelos participantes.",
+          "jstor": "2999854"
+        },
+        {
+          "titulo": "American Economic Association",
+          "autores": "Manual da associação",
+          "paginas": "pp. 1–37",
+          "resumo": "Introdução, estatuto, regimento, dirigentes para 1904, conselho, lista de sócios e resumo de 1º de fevereiro de 1904: 987 sócios e assinantes.",
+          "jstor": "2999855"
+        },
+        {
+          "titulo": "The Sixteenth Annual Meeting",
+          "autores": "Relatório da reunião",
+          "paginas": "pp. 38–48",
+          "resumo": "Programa das sete sessões de 29 a 31 de dezembro de 1903, reunião do conselho, relatórios do secretário e do tesoureiro, eleição de Frank W. Taussig para presidente e resolução de agradecimento a Nova Orleans.",
+          "jstor": "2999856"
+        },
+        {
+          "titulo": "Social Aspects of Economic Law",
+          "autores": "Edwin R. A. Seligman (Columbia University); discurso presidencial",
+          "paginas": "pp. 49–73",
+          "resumo": "Seligman sustenta que a lei econômica tem base social e que o ponto de vista individual gera erros na teoria. Exemplos: a propensão à troca de Adam Smith seria produto social; o valor dependeria de utilidade e custo marginais sociais; a separação entre comércio interno e internacional seria artificial. A parte principal trata de tributação: as doutrinas do benefício e da capacidade olham só para quem paga em primeira instância. Combinando transferência (difusão) e capitalização (absorção), propõe a “teoria do desaparecimento final” do imposto como ônus individual e conclui que tributar classes de propriedade, heranças e corporações pode ser justo, desde que se respeite o ônus sobre os proprietários atuais.",
+          "jstor": "2999857"
+        },
+        {
+          "titulo": "Address of Welcome",
+          "autores": "Edwin A. Alderman (presidente da Tulane University)",
+          "paginas": "pp. 74–78",
+          "resumo": "Saudação às duas associações: descreve Nova Orleans e o Sul, distingue industrialismo de comercialismo e expõe a posição sulista da época sobre a separação das raças.",
+          "jstor": "2999858"
+        },
+        {
+          "titulo": "Sugar",
+          "autores": "William C. Stubbs (diretor das Louisiana Sugar Experiment Stations)",
+          "paginas": "pp. 79–98",
+          "resumo": "Stubbs narra a indústria açucareira da Luisiana desde a safra comercial de Étienne de Boré, em 1795, a passagem do engenho a tração animal à usina central e a substituição de variedades importadas por mudas de semente. Descreve extração por moagem e difusão, clarificação, evaporação em múltiplo efeito, cozimento a vácuo, centrifugação e classificação dos produtos. Registra produção média de cerca de 300 mil toneladas longas, investimento de US$ 100 milhões e vinte mudanças na tarifa do açúcar desde 1789. Conclui que a Convenção de Bruxelas, ao abolir prêmios à exportação, reduziu a ameaça do açúcar de beterraba europeu, mas que a expansão de Cuba anulou parte do efeito.",
+          "jstor": "2999859"
+        },
+        {
+          "titulo": "Sugar-Discussion",
+          "autores": "John Dymond",
+          "paginas": "pp. 99–101",
+          "resumo": "Dymond descreve a ruína das antigas famílias de fazendeiros depois da Guerra Civil, a entrada de novos capitais e a formação das associações de produtores e da estação experimental.",
+          "jstor": "2999860"
+        },
+        {
+          "titulo": "Rice",
+          "autores": "S. A. Knapp (presidente da Rice Association of America)",
+          "paginas": "pp. 102–109",
+          "resumo": "Knapp relata que, por volta de 1885, agricultores da Luisiana adaptaram ao arroz a maquinaria das fazendas de trigo. Defende o arroz como cultura própria para terras úmidas e ácidas da costa do Golfo e como alimento. Compara o trabalho por acre: oitenta dias de homem e 21 de bois em Bengala, 120 dias no Japão, no máximo dois dias de homem e um e meio de parelha na Luisiana e no Texas, vantagem de quarenta a sessenta para um. Aponta três erros americanos: venda apressada, beneficiamento excessivo e preparo culinário. Observa que o arroz sai da fazenda a 2 ou 3 centavos por libra e chega ao consumidor a 8 a 12.",
+          "jstor": "2999861"
+        },
+        {
+          "titulo": "Rice-Discussion",
+          "autores": "S. Locke Breaux (vice-presidente da Rice Association of America)",
+          "paginas": "pp. 110–112",
+          "resumo": "Breaux critica o beneficiamento por empreitada e propõe que os moinhos comprem o arroz, classifiquem os lotes e coordenem a venda a partir de Nova Orleans.",
+          "jstor": "2999862"
+        },
+        {
+          "titulo": "Cotton and the General Agricultural Outlook",
+          "autores": "D. F. Houston (presidente do Agricultural and Mechanical College of Texas)",
+          "paginas": "pp. 113–121",
+          "resumo": "Houston examina o bicudo-do-algodoeiro, surgido no Texas em 1892-93 perto de Brownsville e em avanço de quarenta a cinquenta milhas por ano. Em 1903 a praga cobria mais de 5 milhões dos 7 milhões de acres de algodão do estado; ele estima perdas de 240 mil a 300 mil fardos num só ano. Compara condados atingidos e não atingidos e conclui que o inseto não pode ser exterminado, mas que plantio precoce, variedades precoces e cultivo cuidadoso permitem lucro. Na parte geral, mostra a recuperação agrícola do Sul a partir de 1890, com mais fazendas, menores, mais máquinas e maior diversificação.",
+          "jstor": "2999863"
+        },
+        {
+          "titulo": "Cotton and the General Agricultural Outlook-Discussion",
+          "autores": "George K. Holmes (Department of Agriculture), Thomas N. Carver, D. F. Houston e William C. Stubbs",
+          "paginas": "pp. 122–128",
+          "resumo": "Holmes trata do arrendamento, do penhor da safra e do trabalho negro e branco nas lavouras, citando o ex-governador Northen; Carver pergunta sobre rotação, e Stubbs descreve planos para conter o bicudo na Luisiana.",
+          "jstor": "2999864"
+        },
+        {
+          "titulo": "Tobacco",
+          "autores": "Lawson H. Shelfer (especialista em tabaco do Department of Agriculture)",
+          "paginas": "pp. 129–134",
+          "resumo": "Shelfer aponta três condições para o tabaco de qualidade: solo, clima e experiência no manejo. O solo seria o fator principal, pois áreas vizinhas produzem folhas de valor muito diferente; sementes da mesma origem tenderiam a convergir para uma variedade local. Recomenda sementes da região mais adequada a cada tipo, sombreamento com tela para folhas de capa e prática na capação, colheita e cura. Calcula que os Estados Unidos pagam cerca de US$ 8 milhões por ano a produtores cubanos pelo tabaco de enchimento, mais US$ 5 a 6 milhões em direitos, e sustenta que Texas e Flórida poderiam produzi-lo.",
+          "jstor": "2999865"
+        },
+        {
+          "titulo": "Tobacco-Discussion",
+          "autores": "J. B. Killebrew e William H. Glasson",
+          "paginas": "pp. 135–143",
+          "resumo": "Killebrew descreve a origem do tabaco amarelo na Carolina do Norte em 1852, o White Burley do Kentucky, os gostos nacionais e os monopólios estatais europeus; Glasson relata o crescimento de Durham.",
+          "jstor": "2999866"
+        },
+        {
+          "titulo": "The Cotton Industry",
+          "autores": "D. A. Tompkins (Charlotte, N. C.)",
+          "paginas": "pp. 144–153",
+          "resumo": "Tompkins resume a história do algodão nos Estados Unidos: do descaroçador de Whitney e Holmes, patenteado em 1794 e 1796, a quase 10 milhões de fardos em 1900. Sustenta que a escravidão nunca favoreceu a produção de algodão: teria afastado o trabalho livre, sufocado manufaturas e estimulado a emigração de brancos. Lista seis condições favoráveis do presente, entre elas manufaturas restabelecidas, imigração do Norte e uso de fertilizantes. Estima em cerca de US$ 100 milhões o custo anual da colheita manual, que uma máquina poderia reduzir à metade ou menos, e pede ao governo que defenda o acesso aos mercados da China e da Manchúria.",
+          "jstor": "2999867"
+        },
+        {
+          "titulo": "The Cotton Industry-Discussion",
+          "autores": "Charles C. Thach (presidente do Alabama Polytechnic Institute)",
+          "paginas": "pp. 154–161",
+          "resumo": "Thach contesta a tese de Tompkins sobre a escravidão com dados de produção de 1850 a 1860 e descreve o avanço do trabalho branco, dos fertilizantes, dos subprodutos do caroço e das fiações sulistas.",
+          "jstor": "2999868"
+        },
+        {
+          "titulo": "The Utilization of Southern Wastes",
+          "autores": "Richard H. Edmonds (editor do Manufacturers' Record)",
+          "paginas": "pp. 162–175",
+          "resumo": "Edmonds trata o desperdício como chave da história econômica do Sul: o descaroçador fortaleceu a escravidão, cujos benefícios couberam a uma minoria, e a guerra destruiu riqueza e organização do trabalho. Descreve o aproveitamento de resíduos: óleo, farelo e casca do caroço de algodão, frigoríficos atraídos pelo farelo, coleta de terebintina por copos, que elevou o produto por árvore, destilação de tocos de pinho e quedas-d'água. Compara 1880 e 1900: o capital industrial do Sul cresceu 348%, contra 242% no resto do país, mas o produto agrícola por pessoa ocupada era de US$ 248, contra US$ 655. Conclui que o Sul precisa de população e de qualificação.",
+          "jstor": "2999869"
+        },
+        {
+          "titulo": "The Relations between Rent and Interest",
+          "autores": "Frank A. Fetter (Cornell University); lido apenas pelo título",
+          "paginas": "pp. 176–198",
+          "resumo": "Fetter sustenta que os conceitos usuais de renda e juros misturam três ideias: renda como rendimento de uma classe social, como rendimento que não entra no custo de produção e como quantia absoluta paga por um bem medido fisicamente, enquanto o juro é expresso como porcentagem de um capital. Rejeita as duas primeiras como bases de classificação, pela impossibilidade de separar terra de melhoramentos e pela abstração da relação com o preço. Propõe distinguir o aspecto de riqueza e o aspecto de capital dos mesmos bens: renda é o uso de qualquer agente material; juro surge na capitalização, ao descontar rendas futuras. Daí três etapas da teoria do valor: utilidade, renda e capitalização.",
+          "jstor": "2999870"
+        },
+        {
+          "titulo": "The Relations between Rent and Interest-Discussion",
+          "autores": "Thomas N. Carver, Jacob H. Hollander, Charles W. Macfarlane, Lindley M. Keasbey, W. G. Langworthy Taylor, Richard T. Ely, James E. Le Rossignol, Franklin H. Giddings, Winthrop M. Daniels e Frank A. Fetter",
+          "paginas": "pp. 199–240",
+          "resumo": "Carver e Hollander defendem a distinção tradicional, Ely vê exagero na reação à teoria ricardiana, Daniels apoia Fetter, e Fetter responde às críticas.",
+          "jstor": "2999871"
+        }
+      ],
+      "jstor_edicao": "i350411",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1904-a-decima-sexta-reuniao-anual-ii",
+      "numero": 70,
+      "titulo": "Nova Orleans, 1903 (II): reservas, crédito, trustes e o fisco",
+      "titulo_original": "Papers and Proceedings of the Sixteenth Annual Meeting, Part II, New Orleans, La., December 29–31, 1903",
+      "autores": "Edward S. Meade (University of Pennsylvania), John H. Gray (Northwestern University), Victor Rosewater (Omaha), Henry Rand Hatfield (Chicago University), J. Pease Norton (Yale University), Frederick A. Cleveland (New York University), Frank J. Goodnow (Columbia University), Winthrop M. Daniels (Princeton University), Frederick N. Judson (St. Louis), Carl C. Plehn (University of California), Henry C. Adams (University of Michigan), Balthasar H. Meyer (University of Wisconsin), James Edward Le Rossignol (University of Denver), Edward W. Bemis (Cleveland), Maurice H. Robinson (University of Illinois), Henry W. Farnam (Yale University), Franklin H. Giddings (Columbia University), Albion W. Small (Chicago University), Charles Horton Cooley (University of Michigan), Lester F. Ward (Smithsonian Institution) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 5, nº 2",
+      "data": "maio de 1904",
+      "chamada": "Segunda parte de Nova Orleans: Meade discute a reserva de lucros, Norton formaliza o ganho do crédito, Goodnow a tributação interestadual e Adams nega que trustes sejam produtivos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Para tomar US$ 2 milhões emprestados, a Philadelphia and Reading teve de depositar US$ 12 milhões em garantias, a maior parte valendo o valor de face. O caso está no trabalho de Edward S. Meade, da University of Pennsylvania, lido na noite de 30 de dezembro de 1903, no salão de banquetes do New St. Charles Hotel, em Nova Orleans, na sessão sobre finanças corporativas e públicas. Meade queria mostrar o risco da dívida flutuante sem garantia específica e a utilidade de uma reserva de títulos fora do negócio."
+        },
+        {
+          "tipo": "p",
+          "texto": "Esta é a segunda parte dos anais da décima sexta reunião anual da American Economic Association, publicada em maio de 1904 como nº 2 do vol. 5 da terceira série. A primeira parte, com o discurso de Seligman, os trabalhos sobre o Sul e o debate sobre renda e juros, está no nº 69 deste arquivo. Aqui estão as três últimas sessões: finanças corporativas e públicas, o problema dos trustes, na manhã de 31 de dezembro na biblioteca da Tulane University, e a segunda sessão conjunta com a American Historical Association, à noite, no Gibson Hall."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto lucro uma empresa deve guardar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Meade tratou de onde investir a reserva de lucros, de como dividir as melhorias entre lucros e venda de títulos, do papel da manutenção e da distribuição aos acionistas. Sobre esta, mostrou que a subscrição privilegiada, a venda de ações novas aos acionistas abaixo do preço de mercado, transfere patrimônio sem aparecer nos livros. Os debatedores divergiram: John H. Gray separou serviços públicos de indústrias especulativas; Victor Rosewater pediu publicidade e fiscalização pública como a dos bancos nacionais; Henry Rand Hatfield lembrou que empresas com muita dívida precisam de reservas maiores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "7,89%",
+          "texto": "Retorno anual estimado por Meade para quem comprou ações da Illinois Central em novembro de 1895, somando os ganhos com cinco subscrições privilegiadas, equivalentes a 70% das ações registradas. Pelo dividendo sobre o preço, o rendimento médio do período era de cerca de 4,1%; o ganho com as subscrições acrescentava 2,69% ao ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que tomar emprestado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "J. Pease Norton, de Yale, respondeu com álgebra. Dividiu os custos em variáveis e fixos, definiu giro, margem e despesa variável e derivou o ganho do crédito: a razão entre capital emprestado e próprio multiplicada pela diferença entre o lucro por giro e a taxa de juros. Num exemplo, títulos de 4% e ações preferenciais de 5% permitiam ao empreendedor retirar seus US$ 10 mil, embolsar parte da “água” e manter o controle. No limite, ironizou, cumprir-se-ia o sonho de alguns promotores:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“uma porcentagem infinita de lucro sobre um investimento zero de capital”",
+          "original": "“an infinite percentage of profit on a zero investment of capital”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frederick A. Cleveland, da New York University, objetou ao método: raciocínio a priori sobre premissas não demonstradas e uma notação que nem economistas nem o público acompanhariam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os estados podem tributar o comércio entre estados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frank J. Goodnow, de Columbia, reconstituiu a jurisprudência da Suprema Corte. Impedidos de taxar licenças, mercadorias em trânsito e receitas interestaduais, os estados passaram a tributar a propriedade das empresas pela “regra da unidade de valor”, que avalia os bens pela receita do conjunto. Nos casos das Express Companies, de 1896, bens que valeriam menos de US$ 70 mil foram avaliados em mais de US$ 500 mil. Para Goodnow, isso era tributar o comércio interestadual por via indireta; propôs que o Congresso fixasse um sistema uniforme, como fizera com os bancos nacionais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O truste é produtivo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry C. Adams, de Michigan, respondeu que não, ao menos na manufatura. Contestou argumentos em defesa dos trustes, entre eles o da concorrência potencial, que só impediria os abusos mais flagrantes, e sustentou que, acima do porte que esgota a divisão do trabalho, a fábrica maior não é mais eficiente. O poder dos trustes estaria na compra de insumos e na venda, sobretudo nas tarifas de transporte. Entre as causas, apontou a escassez de talento empresarial:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O truste pode ser visto como um açambarcamento de visão, talento e coragem empresariais.”",
+          "original": "“The trust may be regarded as a corner in business insight, business talent and business courage.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão final, Franklin H. Giddings, de Columbia, propôs uma teoria da causação social como resposta coletiva a estímulos, das assembleias das antigas leis de Gales aos ideais de unidade, liberdade e igualdade. Albion W. Small, Charles Horton Cooley, Lester F. Ward e historiadores da associação irmã comentaram."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a sessão de finanças é a parte mais moderna do volume. A fórmula de Norton é, em substância, a equação da alavancagem financeira: o retorno sobre o capital próprio cresce com a dívida enquanto o retorno do negócio supera o custo do empréstimo, e cai na mesma proporção quando não supera. O complemento está em Hatfield: com metade do capital em títulos, a mesma oscilação do resultado operacional produz oscilação muito maior no lucro do acionista. A crítica de Cleveland antecipa um debate de método que nunca se encerrou: formalizar ajuda a pensar com precisão, mas não substitui a verificação nos dados.",
+            "O trabalho de Adams desloca a questão do monopólio da fábrica para o mercado. Se a escala ótima de produção é limitada, o poder vem do acesso a transporte, insumos e canais de venda, e é aí que a política deve atuar. O argumento sobre concorrência potencial é uma análise de barreiras à entrada: tempo de construção, aprendizado, gestores e clientela. A mesma lógica aparece em Goodnow, em outro plano: quando a regra formal impede um tributo, o fisco encontra uma base equivalente, e a uniformidade só vem de uma regra comum."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Reserva de lucros (surplus reserve)",
+          "lucros acumulados não distribuídos; excesso do ativo sobre o passivo."
+        ],
+        [
+          "Ativos livres",
+          "títulos ou bens não essenciais à operação, que podem ser vendidos ou dados em garantia sem prejudicar o negócio."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida de curto prazo sem garantia específica, que precisa ser renovada."
+        ],
+        [
+          "Subscrição privilegiada",
+          "oferta de ações novas aos acionistas atuais abaixo do preço de mercado."
+        ],
+        [
+          "Giro do capital",
+          "número de vezes que o capital se converte em vendas num período."
+        ],
+        [
+          "Água (nas ações)",
+          "parcela do capital emitido que excede o valor dos ativos, apoiada só na expectativa de lucros."
+        ],
+        [
+          "Cláusula de comércio",
+          "dispositivo da Constituição americana que dá ao Congresso poder de regular o comércio entre os estados."
+        ],
+        [
+          "Regra da unidade de valor",
+          "método de avaliar a propriedade de uma empresa interestadual como fração do valor do conjunto, medido pela receita."
+        ],
+        [
+          "Concorrência potencial",
+          "ameaça de entrada de novos produtores, que limita o preço que uma empresa dominante pode cobrar."
+        ]
+      ],
+      "hoje": "Os temas da segunda parte continuam na pauta. Reservas de liquidez, regras de distribuição de lucros e recompras de ações repetem a discussão de Meade e Rosewater sobre o que fazer com o lucro retido e quem se beneficia. A equação de Norton é a da alavancagem, presente em toda análise de crédito. A disputa de Goodnow reaparece sempre que estados ou países tentam tributar empresas que operam além de suas fronteiras. E a tese de Adams, de que o poder de mercado nasce mais do acesso a canais de venda do que da escala da fábrica, ecoa no debate sobre plataformas e infraestrutura.",
+      "itens": [
+        [
+          "The Management of the Surplus Reserve",
+          "pp. 1–16",
+          "2999874"
+        ],
+        [
+          "The Management of the Surplus Reserve-Discussion",
+          "pp. 17–33",
+          "2999875"
+        ],
+        [
+          "The Theory of Loan Credit in Relation to Corporation Economics",
+          "pp. 34–56",
+          "2999876"
+        ],
+        [
+          "The Theory of Loan Credit in Relation to Corporation Economics-Discussion",
+          "pp. 57–62",
+          "2999877"
+        ],
+        [
+          "State Taxation of Interstate Commerce",
+          "pp. 63–85",
+          "2999878"
+        ],
+        [
+          "State Taxation of Interstate Commerce-Discussion",
+          "pp. 86–90",
+          "2999879"
+        ],
+        [
+          "Trusts",
+          "pp. 91–107",
+          "2999880"
+        ],
+        [
+          "Trusts-Discussion",
+          "pp. 108–137",
+          "2999881"
+        ],
+        [
+          "A Theory of Social Causation",
+          "pp. 139–174",
+          "2999882"
+        ],
+        [
+          "A Theory of Social Causation Discussion",
+          "pp. 175–199",
+          "2999883"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Management of the Surplus Reserve",
+          "autores": "Edward S. Meade (University of Pennsylvania)",
+          "paginas": "pp. 1–16",
+          "resumo": "Meade define a reserva de lucros como excesso do ativo sobre o passivo, acumulado depois de juros e dividendos, e examina quatro questões. Sugere investir parte dela em títulos sem relação com o negócio, “ativos livres” que dariam renda estável e garantia para empréstimos, citando casos em que ferrovias precisaram empenhar muito mais do que tomavam. Endossa a regra de Stephen Little: só vai à conta de capital o gasto que aumente a receita cedo; o resto sai dos lucros. Defende que gastos altos de manutenção em anos bons compensam a falta de contas de depreciação. Mostra que a subscrição privilegiada distribui patrimônio sem aparecer nos livros e eleva o retorno efetivo das ações.",
+          "jstor": "2999874"
+        },
+        {
+          "titulo": "The Management of the Surplus Reserve-Discussion",
+          "autores": "John H. Gray (Northwestern University), Victor Rosewater (Omaha) e Henry Rand Hatfield (Chicago University)",
+          "paginas": "pp. 17–33",
+          "resumo": "Gray distingue serviços públicos de indústrias especulativas; Rosewater trata a reserva como dividendo diferido e pede publicidade e fiscalização pública; Hatfield liga o tamanho da reserva à estrutura de capital.",
+          "jstor": "2999875"
+        },
+        {
+          "titulo": "The Theory of Loan Credit in Relation to Corporation Economics",
+          "autores": "J. Pease Norton (Yale University)",
+          "paginas": "pp. 34–56",
+          "resumo": "Norton propõe estudar a distribuição do controle da riqueza produtiva. Separa bens “competitivos”, que o comprador consegue graduar e comparar, dos “não competitivos”, maioria vendida segundo uma política de preços que maximiza o lucro total; marcas, embalagens e publicidade serviriam para tornar não competitivo o que era competitivo. Com uma tabela de variáveis, deriva o ganho de usar crédito: a razão entre capital emprestado e próprio multiplicada pela diferença entre o lucro por giro e a taxa de juros. Aplica curvas de probabilidade ao risco de não pagar juros, explica por esse ângulo a “água” das ações e pede educação do investidor sobre os riscos das ações ordinárias.",
+          "jstor": "2999876"
+        },
+        {
+          "titulo": "The Theory of Loan Credit in Relation to Corporation Economics-Discussion",
+          "autores": "Frederick A. Cleveland (New York University)",
+          "paginas": "pp. 57–62",
+          "resumo": "Cleveland critica o método a priori e a linguagem matemática de Norton e defende pesquisa empírica como base da ciência econômica.",
+          "jstor": "2999877"
+        },
+        {
+          "titulo": "State Taxation of Interstate Commerce",
+          "autores": "Frank J. Goodnow (Columbia University)",
+          "paginas": "pp. 63–85",
+          "resumo": "Goodnow reconstitui a jurisprudência da Suprema Corte sobre a cláusula de comércio, de Gibbons vs. Ogden, de 1824, ao caso Cooley, de 1851, e seguintes: o poder do Congresso é exclusivo nas matérias que pedem regra uniforme, sua inação equivale a proibir regulação, e tributar é regular. Os estados perderam quase todas as tentativas de taxar licenças, mercadorias em trânsito e receitas interestaduais, mas a partir de cerca de 1880 passaram a tributar a propriedade das empresas pela “regra da unidade de valor”. Nos casos das Express Companies, de 1896, bens de menos de US$ 70 mil foram avaliados em mais de US$ 500 mil. Propõe que o Congresso fixe um sistema uniforme, como fez com os bancos nacionais.",
+          "jstor": "2999878"
+        },
+        {
+          "titulo": "State Taxation of Interstate Commerce-Discussion",
+          "autores": "Winthrop M. Daniels (Princeton University), Frederick N. Judson (St. Louis) e Carl C. Plehn (University of California)",
+          "paginas": "pp. 86–90",
+          "resumo": "Judson separa tributação do comércio e da propriedade usada nele; da fala de Daniels sai só um resumo; Plehn concorda com Goodnow sobre o poder do Congresso.",
+          "jstor": "2999879"
+        },
+        {
+          "titulo": "Trusts",
+          "autores": "Henry C. Adams (University of Michigan)",
+          "paginas": "pp. 91–107",
+          "resumo": "Adams define truste como indústria que, pelo tamanho ou pela organização, domina a produção ou a venda de seus bens, e examina os argumentos a seu favor. A evolução histórica, diz, sempre exigiu novas regras legais; a concorrência entre mercadorias e a concorrência potencial só impedem os abusos mais flagrantes, porque entrar num mercado exige tempo, gestores e clientela. Sustenta que a manufatura opera com rendimentos constantes acima de certo porte e que a consolidação nasce de donos de fábricas inferiores que buscam proteger seu capital. Aponta três causas a atacar: escassez de talento empresarial, que pede ensino comercial superior; tarifas ferroviárias, até a nacionalização se preciso; e a relação entre sindicatos e concentração.",
+          "jstor": "2999880"
+        },
+        {
+          "titulo": "Trusts-Discussion",
+          "autores": "Balthasar H. Meyer, James Edward Le Rossignol, Edward W. Bemis, Maurice H. Robinson, W. G. Langworthy Taylor, Jacob H. Hollander, Thomas N. Carver e Henry W. Farnam",
+          "paginas": "pp. 108–137",
+          "resumo": "Os debatedores discutem as economias da grande escala, a supercapitalização e as bases teóricas do monopólio; Farnam resume a discussão.",
+          "jstor": "2999881"
+        },
+        {
+          "titulo": "A Theory of Social Causation",
+          "autores": "Franklin H. Giddings (Columbia University)",
+          "paginas": "pp. 139–174",
+          "resumo": "Giddings propõe tratar a causação social como processo psicofísico: instituições e eventos históricos seriam respostas coletivas a estímulos, condicionadas pela semelhança ou diferença entre as mentes que respondem. Ilustra com as tríades das antigas leis de Gales, que descrevem assembleias convocadas por trompa ou grito. Classifica quatro tipos de ambiente, conforme a riqueza de recursos e o acesso, e relaciona cada um à composição da população, às formas de cooperação e aos laços sociais. Examina três ideais, unidade, liberdade e igualdade, como estímulos que transformam a cooperação coercitiva em liberal e democrática, e conclui que cada tipo de comunidade produz um tipo de teoria social.",
+          "jstor": "2999882"
+        },
+        {
+          "titulo": "A Theory of Social Causation Discussion",
+          "autores": "Albion W. Small, Charles Horton Cooley, Lester F. Ward, George L. Burr, Willis Mason West e Franklin H. Giddings",
+          "paginas": "pp. 175–199",
+          "resumo": "Sociólogos e historiadores comentam a teoria na segunda sessão conjunta com a American Historical Association; Giddings encerra.",
+          "jstor": "2999883"
+        }
+      ],
+      "jstor_edicao": "i350412",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1904-o-cartel-do-carvao-alemao",
+      "numero": 71,
+      "titulo": "Walker, 1904: por dentro do cartel do carvão do Ruhr",
+      "titulo_original": "Monopolistic Combinations in the German Coal Industry",
+      "autores": "Francis Walker",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 5, nº 3",
+      "data": "agosto de 1904",
+      "chamada": "Em 1904, Francis Walker descreveu por dentro o Sindicato Renano-Vestfaliano do Carvão: cotas, preços, exportações abaixo do preço doméstico e o que ele propunha como regulação.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Abril de 1900. A Alemanha atravessa, desde o outono anterior, uma escassez de carvão. O inverno chegou cedo e frio, a indústria está no auge, faltam vagões ferroviários, a Guerra do Transvaal atrapalha as importações inglesas e greves cortam o fornecimento da Boêmia. O sindicato do carvão do Ruhr vende a 112 a 122 marcos o vagão de 10 toneladas. Segundo a Industrie Zeitung, citada por Francis Walker, revendedores e especuladores levaram o preço a 220 a 240 marcos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Reichstag debateu o tema em dezembro de 1900, e a Câmara dos Deputados da Prússia criou uma comissão de inquérito em janeiro de 1901. Esse episódio é um dos pontos de partida de Monopolistic Combinations in the German Coal Industry, publicado em agosto de 1904 como o nº 3 do vol. 5 da terceira série das Publications of the American Economic Association."
+        },
+        {
+          "tipo": "p",
+          "texto": "No prefácio, datado de Nova York em 23 de dezembro de 1903, Walker conta que fez o estudo durante uma estada na Alemanha em 1902 e 1903. Visitou duas vezes a Vestfália e uma vez Luxemburgo, conversou com dirigentes do setor e agradece ao professor von Halle, da Universidade de Berlim, e ao diretor Dernburg, do Bank für Handel und Industrie. Usa o inquérito sobre cartéis aberto pelo governo imperial e avisa que boa parte das estatísticas vem dos próprios produtores; declara ter confiado nelas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que estudar um cartel alemão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A introdução situa o tema no centro da economia da época:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O problema da combinação monopolista é um dos mais sérios, talvez o mais sério”",
+          "original": "“The problem of monopolistic combination is one of the most serious, perhaps the most serious”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Walker, faltam análises detalhadas, e o cartel do carvão do Reno lhe parece o melhor caso: é grande, tem rivais fora dele, alianças com outros cartéis e um registro claro de suas operações ao longo de 25 anos. Há ainda dois pontos de interesse para americanos. O fisco prussiano é ele próprio grande produtor de carvão, o que põe à prova a estatização como remédio contra o monopólio privado. E as ferrovias são estatais, de modo que os cartéis não contam com tarifas preferenciais nem descontos ocultos (rebates)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os primeiros cartéis fracassaram?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor explica o impulso pela estrutura de custos. Numa mineração muito capitalizada, quanto maior a produção, menor o custo por tonelada. Quando os preços caem, nenhuma mina reduz a extração por conta própria: estaria entregando mercado às rivais. Cada uma produz o máximo para cobrir ao menos parte do capital que não pode retirar, e o excesso de oferta aprofunda a queda dos preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "As tentativas de acordo se sucederam. O primeiro cartel do carvão conhecido, de 1877, previa cortar a produção em 10% durante três meses e não teve o efeito desejado. Outros vieram em 1879 e de 1880 a 1883. O de 1885, que reunia 91,52% da produção do ano anterior, com multas sobre o excesso, não conseguiu restringir a extração. No coque, o acordo de 1885 manteve preços até o fim de 1886; quando as minas de fora aproveitaram para crescer, os participantes liberaram produção e preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "A solução veio por etapas. Em 1890 surgiu o sindicato do coque, como sociedade anônima que passou a vender todo o coque dos associados. No mesmo ano e no início de 1891 formaram-se quatro cartéis locais de carvão, em Dortmund, Bochum, Essen e Steele-Mülheim. Uma associação geral, a Gemeinschaft, criada em janeiro de 1892, dissolveu-se em setembro do mesmo ano. Em 22 de janeiro de 1893 foi fundado o Rheinisch-Westfälisches Kohlen-Syndikat, o Sindicato Renano-Vestfaliano do Carvão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "86,8%",
+          "texto": "Parcela da produção do distrito que entrou no sindicato em 1893, de 96,94% considerada elegível. O distrito de Dortmund produziu 36.853.502 toneladas em 1892; as minas associadas, 31.975.642. Ficaram de fora 31 minas, quase todas muito pequenas, e as minas ligadas a siderúrgicas (Hüttenzechen)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava o sindicato?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na forma, era uma sociedade anônima com sede em Essen e capital apenas nominal, de 900 mil marcos, cujas ações pertenciam aos donos das minas. A peça central era o contrato: cada mina se obrigava a vender toda a produção ao sindicato, com poucas exceções. Os donos das minas formavam uma assembleia com votos proporcionais à produção. Ela elegia um conselho consultivo (Beirat), que fixava os preços-norma, e uma comissão que definia a cifra de participação de cada mina, isto é, sua cota."
+        },
+        {
+          "tipo": "p",
+          "texto": "Toda redução de produção era aplicada proporcionalmente a todas as minas. Quem produzia acima da cota pagava uma contribuição por tonelada; quem ficava abaixo recebia compensação de igual valor. As minas recebiam sempre ao menos o preço de conta (Verrechnungspreis), derivado dos preços-norma. Como as vendas, sobretudo as exportações e as regiões disputadas com concorrentes, não cobriam esse total, o sindicato fazia um rateio mensal (Umlage) entre todos os associados. Por isso, observa Walker, ele em geral não tinha lucro nem prejuízo próprios."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1 voto a cada 10 mil t",
+          "texto": "Regra de voto na assembleia dos donos de minas. O conselho consultivo tinha um membro por milhão de toneladas. A venda por fora do sindicato era multada em 50 marcos por tonelada. Eram 99 associados em 1893 e 85 em 1901."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O cartel conseguiu conter a produção?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos primeiros anos, pouco. Em 1894 o sindicato projetou reduzir a produção em 11,75% da capacidade; a redução efetiva foi de 4,98%. O relatório anual reconheceu o limite:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o poder de restringir a produção que o sindicato possui é de caráter temporário”",
+          "original": "“the power of restraining production possessed by the syndicate is of a temporary character”"
+        },
+        {
+          "tipo": "p",
+          "texto": "No auge de 1895 a 1899, as restrições foram reduzidas até quase desaparecer. Em 1899, com produção praticamente livre, as minas não chegaram à capacidade declarada, e o país enfrentou escassez de carvão. Depois da crise de 1900, o movimento se inverteu: o sindicato projetou cortes de 13,75% em 1901 e de 23% em 1902, os maiores já propostos, e passou a escoar mais carvão no exterior, em geral abaixo do preço doméstico."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "35,3 → 48,0 milhões de t",
+          "texto": "Produção do sindicato em 1895 e em 1899. A cifra total de participação passou de cerca de 38,0 milhões para 53,6 milhões de toneladas no mesmo período. As exportações foram de 15,5% da produção em 1900 para 19,0% em 1902."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os preços subiram demais?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O sindicato começou com preços baixos, que até a ala moderada considerava insuficientes. Segundo Walker, os moderados controlaram a política de preços até 1898, quando a ala radical venceu na assembleia geral. Em 1900, já na crise, os preços-norma subiram de 1 a 1,25 marco por tonelada, e o carvão gordo (Fettförderkohle) passou de 9,10 para 10,10 marcos. O sindicato manteve essa tabela durante 1901, apesar dos protestos dos consumidores, e só a reduziu em 1902."
+        },
+        {
+          "tipo": "p",
+          "texto": "No coque, o episódio central foram os contratos de fusão de dois anos. A produção de 1900 já tinha sido vendida na primavera de 1899 a 14 marcos. A ala radical promoveu a substituição desses contratos por um acordo para 1900 e 1901 a 17 marcos. No mercado à vista de 1900, a média do coque de alto-forno na bolsa de Essen foi de 21,29 marcos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Exportar barato prejudica a indústria nacional?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Era a acusação mais forte contra os sindicatos do Ruhr: ao vender carvão e coque mais barato no exterior, dariam vantagem a concorrentes estrangeiros da indústria alemã. Walker registra o argumento de Liefmann de que o problema real são os preços domésticos altos, e não os de exportação, e o considera correto no essencial. Com os dados disponíveis, conclui que o efeito sobre a indústria alemã foi exagerado pelos críticos, no caso do carvão e do coque."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "9,84 contra 10,45 marcos",
+          "texto": "Receita do sindicato por tonelada exportada e por tonelada vendida no mercado interno em 1902, segundo o inquérito oficial. Em 1900, foram 9,82 e 10,70 marcos. Para 1901, as cifras publicadas indicam exportação mais cara que o mercado interno, mas Walker as considera inconciliáveis e provavelmente fruto de erro tipográfico."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual foi o veredito do autor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na conclusão, Walker sustenta que os cartéis do carvão não limitaram indevidamente a produção nem frearam o progresso técnico, mas provavelmente elevaram o custo médio ao manter vivas minas fracas e caras. Considera moderada, no conjunto, a política de preços do carvão, e extorsiva a do coque. Os preços foram mais estáveis do que seriam sob concorrência livre: subiram menos no auge e caíram mais devagar na baixa. Para ele, os cartéis não causaram a crise da siderurgia, mas provavelmente retardaram a recuperação ao não baixar os preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre a política correta de um cartel, ele é explícito:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Preços permanentes são um absurdo”",
+          "original": "“Permanent prices are an absurdity”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O preço adequado, escreve, é estável por prazos definidos e limitados, com lucro muito moderado na depressão e bom, mas não exorbitante, no auge; os contratos deveriam durar no máximo um ano. Como regulação, defende que os governos alemão e prussiano tenham informação completa sobre custos, vendas, contratos, preços internos e externos, lucros e salários. Considera inadequadas as vias penal e civil e prematuro o controle administrativo além da publicidade. A compra de minas do Ruhr pelo fisco prussiano lhe parece um experimento desejável, mais como forma de dar ao governo independência no próprio abastecimento do que como remédio contra a exploração do consumidor."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor do livro está na descrição do mecanismo. O sindicato não é apenas um acordo de preços: é uma central única de vendas, com cotas negociadas, compensações entre quem produz acima e abaixo da cota e um rateio que distribui entre todos o custo de vender barato fora. Esse desenho resolve o problema que derrubou os acordos anteriores, a tentação de cada mina vender por fora, mas cria outro: as cifras de participação passam a premiar capacidade declarada, e minas caras sobrevivem dentro do cartel. É exatamente o custo que o próprio autor aponta.",
+            "O segundo ponto que destaco é a distinção entre estabilidade e nível de preços. A defesa dos cartéis na época dizia que eles suavizam ciclos; os números do livro mostram que suavizam para os dois lados, inclusive quando a economia precisaria de preços de insumos mais baixos para se recuperar. E a resposta regulatória que Walker propõe começa pela informação: antes de punir ou fixar preços, o Estado precisa saber custos, vendas e contratos. O limite do método também está declarado no prefácio, já que a maior parte dos dados veio dos próprios produtores."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cartel (Kartell)",
+          "acordo entre empresas independentes para controlar produção, preços ou vendas."
+        ],
+        [
+          "Sindicato de vendas (Syndikat)",
+          "sociedade comum que compra toda a produção dos associados e a vende em nome deles."
+        ],
+        [
+          "Cifra de participação (Beteiligungsziffer)",
+          "cota de produção de cada mina, expressa em toneladas, base para dividir vendas e cortes."
+        ],
+        [
+          "Contração",
+          "redução percentual da produção aplicada igualmente a todas as cotas."
+        ],
+        [
+          "Preço-norma (Richtpreis)",
+          "preço de referência fixado pelo conselho do sindicato para cada tipo de carvão."
+        ],
+        [
+          "Rateio (Umlage)",
+          "cobrança mensal sobre as minas para cobrir despesas e perdas do sindicato, inclusive nas exportações."
+        ],
+        [
+          "Fisco prussiano",
+          "o Estado da Prússia na condição de proprietário e operador de minas."
+        ],
+        [
+          "Hausse e baisse",
+          "fases de alta e de baixa dos preços e dos negócios."
+        ],
+        [
+          "Coque",
+          "combustível obtido do carvão aquecido sem ar, usado nos altos-fornos siderúrgicos."
+        ]
+      ],
+      "hoje": "Os cartéis de exportação, os acordos de cotas e a discriminação de preços entre mercados interno e externo continuam no centro do direito da concorrência e do comércio internacional. A preocupação com a rigidez de preços de insumos na recessão também reaparece em debates sobre mercados concentrados de energia. E a proposta de Walker de começar a regulação pela informação ecoa nas exigências atuais de notificação de acordos e de transparência de preços, ainda que hoje a maior parte das jurisdições trate cartéis de preços como ilícitos em si.",
+      "itens": [
+        [
+          "Monopolistic Combinations in the German Coal Industry",
+          "pp. 5–334",
+          "2999957"
+        ]
+      ],
+      "jstor_edicao": "i350413",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1904-a-maquina-agricola-producao-e-trabalho",
+      "numero": 72,
+      "titulo": "Quaintance, 1904: a máquina que tirou o trabalhador do campo",
+      "titulo_original": "The Influence of Farm Machinery on Production and Labor",
+      "autores": "H. W. Quaintance, D.C.L., Ph.D. (University of Missouri)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 5, nº 4",
+      "data": "novembro de 1904",
+      "chamada": "Em 1904, H. W. Quaintance mediu com dados do Census e do Department of Labor quanto a máquina agrícola multiplicou a produção por trabalhador e quantas pessoas ela deslocou do campo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Cortar e curar uma tonelada de feno exigia 11 horas de trabalho humano. Com segadeiras, ancinhos puxados a cavalo, reviradores e empilhadeiras, a mesma tarefa passou a levar 1 hora e 39 minutos. O dado vem do anuário de 1899 do Department of Agriculture, e H. W. Quaintance o usa para ilustrar uma afirmação mais ampla: quase nenhuma etapa do trabalho agrícola deixou de ser alterada por alguma máquina nova."
+        },
+        {
+          "tipo": "p",
+          "texto": "The Influence of Farm Machinery on Production and Labor saiu em novembro de 1904 como o nº 4 do vol. 5 da terceira série das Publications of the American Economic Association. No prefácio, assinado na University of Missouri, o autor diz que o tema foi sugerido por David Kinley, da University of Illinois, e agradece a Carroll D. Wright, ex-comissário do Trabalho, a I. P. Roberts, de Cornell, ao seminário de Richard Ely em Wisconsin e a M. B. Hammond. Declara ter evitado provar uma teoria, preferindo, nas suas palavras:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“deixar que os dados contem sua própria história”",
+          "original": "“to let the data tell their own story”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quando a máquina chegou ao campo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Tarde, segundo as fontes reunidas na parte histórica. O estatístico agrícola do Census considera que 1850 marca praticamente o fim da era dos implementos manuais. Até lá, além da carroça e do descaroçador de algodão, só o arado de ferro fundido havia se incorporado de vez à lavoura. Seu precursor, patenteado por Charles Newbold em 1797, enfrentou agricultores convencidos de que o ferro fundido envenenava a terra. As ceifadeiras de Obed Hussey e Cyrus McCormick foram patenteadas em 1833 e 1834, mas a complexidade das máquinas atrasou sua difusão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 101 milhões",
+          "texto": "Valor dos implementos e máquinas agrícolas fabricados nos Estados Unidos no ano do censo de 1900, contra US$ 6,8 milhões em 1850 e US$ 68,6 milhões em 1880. O autor adverte que a comparação subestima o avanço, porque o preço das máquinas caiu muito enquanto sua eficiência aumentava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A produção cresceu mais que a população?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bem mais. Entre as safras de 1839 e 1899, a cevada se multiplicou por 28,7, e milho, algodão, aveia, trigo e feno, por 6 a 8. A população de 1900 era 4,4 vezes a de 1840. Em índice com base 100 em 1840, a produção dos oito principais cereais chegou a 718,4 em 1900, contra 442,7 da população. A única exceção é 1870, que o autor atribui à safra fraca de milho e à desorganização dos estados do Sul."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto rende o trabalho com a máquina?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelos números do Census, a área cultivada por trabalhador do sexo masculino passou de 23,3 acres em 1880 para 31,0 em 1900, e o número de cavalos por trabalhador, de 1,7 para 2,3. O estatístico do Census concluiu que a eficiência do trabalho humano subira cerca de 33%. Quaintance faz uma ressalva: a área por cavalo ficou igual, logo o ganho por trabalhador reflete menos uma expansão das propriedades do que um crescimento abaixo do normal do número de trabalhadores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A medida mais precisa vem do 13º relatório anual do Department of Labor, que comparou, operação por operação, o tempo e o custo de produzir a mesma quantidade de cada cultura por métodos manuais e mecânicos. Quaintance atribui toda a diferença à máquina. Reconhece que adubos, irrigação, rotação e sementes melhores também contam, mas diz que separar essas parcelas seria, nas suas palavras:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“como tentar determinar qual lâmina de uma tesoura faz o corte”",
+          "original": "“like attempting to determine which blade of a pair of shears does the cutting”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "63 h 35 min → 2 h 43 min",
+          "texto": "Trabalho humano para produzir 30 bushels de cevada em um acre, em 1829-30 e em 1895-96. No trigo, 20 bushels passaram de 61 h 5 min para 3 h 19 min no mesmo intervalo; na aveia, 40 bushels, de 66 h 15 min (1830) para 7 h 6 min (1893); no milho, 40 bushels, de 38 h 45 min (1855) para 15 h 8 min (1894)."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por esse critério, o aumento da eficácia do trabalho vai de 150% no centeio a 2.244% na cevada. Citando Hadley, o autor diz que a máquina é menos um poupador de trabalho do que um fabricante de produto. Na média das culturas, o produto por unidade de trabalho seria quase cinco vezes o de antes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto caiu o custo de produzir?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na cevada, o custo de um acre caiu de US$ 3,88 para US$ 1,06; no trigo, de US$ 4,00 para US$ 1,12. Quaintance aplica os custos unitários do relatório às safras de 1899. O resultado vai na caixa. Ele observa que os dados de custo são menos confiáveis que os de tempo, porque salários variam entre lugares e épocas, e explica as exceções: no tabaco e na ervilha o custo subiu porque os salários subiram sem mudança relevante de método."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "46,3%",
+          "texto": "Economia estimada no custo das principais safras de 1899 com métodos mecânicos: US$ 472,7 milhões, contra US$ 880,0 milhões pelos métodos manuais. A data média das observações manuais é 1850, e a das mecânicas, 1895. Para o autor, o custo caiu à metade na segunda metade do século XIX."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde foi o trabalho poupado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas nove principais culturas, a máquina poupou 450.368.992 dias de trabalho, ou 79% do que seria necessário pelos métodos manuais. Quaintance distingue deslocamento absoluto, quando o número de trabalhadores de um setor cai, e relativo, quando cresce menos que o emprego em geral. Excluído o algodão, o deslocamento absoluto nas outras oito culturas é de 42,5%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Nova Inglaterra é o exemplo de deslocamento absoluto em toda a agricultura. A população ocupada no setor caiu de 304.679 pessoas em 1880 para 287.829 em 1900, enquanto o valor da produção agrícola subiu mais de 50%. No mesmo período, o valor de implementos e máquinas por acre de terra melhorada passou de US$ 1,68 para US$ 4,49."
+        },
+        {
+          "tipo": "p",
+          "texto": "No país como um todo, a agricultura reunia 47,6% das pessoas em ocupações remuneradas em 1870 e 35,7% em 1900. O autor calcula quantos estariam no campo se a proporção tivesse se mantido e chega a quase 3,5 milhões. Para mostrar que a máquina é a causa, estima que, com a eficiência de 1869, a produção de cereais de 1899 exigiria cerca de 7 milhões de trabalhadores a mais, mais que o dobro dos que saíram. Ele discorda do professor Davenport, da University of Illinois, que dissera à Industrial Commission não acreditar que a máquina tivesse reduzido o emprego no campo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3.459.819",
+          "texto": "Pessoas que, mantida a distribuição ocupacional de 1870, estariam na agricultura em 1900 além das 10.381.765 efetivamente registradas. Quase metade, 1.523.365, vinha dos estados do Centro-Norte. Segundo o autor, o setor perdeu, relativamente, quase um quarto de seus membros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem ganhou com a mudança?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os salários subiram onde a máquina entrou. Nas cinco culturas mais mecanizadas, a média diária passou de 66 centavos para US$ 1,76, alta de 166%. Nas cinco em que o método quase não mudou, caiu de US$ 1,11 para US$ 1,04. O salário mensal com alimentação, fora dos estados do Sul, subiu 40,8% de 1869 a 1899, de US$ 12,29 para US$ 17,31."
+        },
+        {
+          "tipo": "p",
+          "texto": "A distribuição, porém, mudou. Nos sete principais estados produtores de cereais, os assalariados agrícolas cresceram 73,6% de 1880 a 1900, e os agricultores, fazendeiros e capatazes, 27,4%. A máquina exige áreas maiores e mais capital; o valor médio de uma propriedade nesses estados passou de US$ 3.515 para US$ 6.531, o que dificulta ao assalariado tornar-se proprietário. Quaintance estima que a renda dos proprietários cresceu bem mais que a dos assalariados e conclui que o trabalhador sem preparo para operar máquinas tende a descer na escala social. Sua proposta é que o Estado exija que toda criança aprenda ao menos os rudimentos da arte industrial."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o método é o ponto forte e o limite do livro. A pergunta que Quaintance faz, quanto o mesmo trabalho produziria com a técnica antiga, é uma forma precoce de contrafactual de produtividade. Mas ao atribuir à máquina toda a diferença entre 1830 e 1895, ele produz um teto, não uma estimativa: o ganho inclui sementes, adubos, terras novas do Oeste e organização. Ele declara a escolha, o que permite ao leitor descontá-la.",
+            "O resultado mais duradouro está na segunda metade. A mecanização elevou a produção por trabalhador, elevou o salário de quem operava as máquinas e, ao mesmo tempo, deslocou milhões do campo, aumentou o capital necessário para ser proprietário e deixou para trás quem não tinha preparo. É a mesma pergunta que se faz hoje diante de cada onda de automação: o ganho médio é claro; a distribuição depende de mobilidade, crédito e formação."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Método manual (hand method)",
+          "no relatório do Department of Labor, a técnica primitiva anterior ao uso geral de máquinas automáticas ou a motor, não o trabalho sem ferramenta alguma."
+        ],
+        [
+          "Método mecânico (machine method)",
+          "a técnica mais aprovada em uso nos anos recentes da pesquisa."
+        ],
+        [
+          "Dia de trabalho (days-work)",
+          "unidade de medida do trabalho humano usada para comparar os dois métodos."
+        ],
+        [
+          "Deslocamento absoluto",
+          "queda no número de trabalhadores de um setor."
+        ],
+        [
+          "Deslocamento relativo",
+          "crescimento do emprego de um setor abaixo do crescimento do emprego total."
+        ],
+        [
+          "Classe dependente e independente",
+          "assalariados agrícolas, de um lado; agricultores, fazendeiros e capatazes, de outro."
+        ],
+        [
+          "Bushel",
+          "medida americana de volume para grãos, de cerca de 35 litros."
+        ],
+        [
+          "Acre",
+          "medida de área de cerca de 0,4 hectare."
+        ]
+      ],
+      "hoje": "A transição que Quaintance mediu continuou por todo o século XX: a agricultura dos países ricos passou a ocupar uma fração pequena da força de trabalho, com produção muito maior. O debate atual sobre automação e inteligência artificial repete suas duas perguntas: quanto a técnica nova aumenta o produto por trabalhador e quem fica com o ganho. A distinção entre deslocamento absoluto e relativo e a ênfase na formação profissional como condição para partilhar os benefícios continuam no centro das discussões sobre política de emprego.",
+      "itens": [
+        [
+          "The Influence of Farm Machinery on Production and Labor",
+          "pp. 1–106",
+          "2999837"
+        ]
+      ],
+      "jstor_edicao": "i350414",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1905-a-decima-setima-reuniao-anual",
+      "numero": 73,
+      "titulo": "Chicago, 1904: livre comércio, teoria dos preços e oficina aberta",
+      "titulo_original": "Papers and Proceedings of the Seventeenth Annual Meeting, Chicago, December 28–30, 1904",
+      "autores": "Frank W. Taussig (Harvard University, presidente da associação), J. Laurence Laughlin (University of Chicago), David Kinley (University of Illinois), A. Piatt Andrew (Harvard University), John R. Commons (University of Wisconsin), John Graham Brooks (American Social Science Association), John D. Hibbard (John Davis Co. e Chicago Metal Trades Association), Thomas Kidd (Amalgamated Woodworkers), William R. Harper (University of Chicago), William A. Scott, Irving Fisher, Thomas N. Carver, Henry R. Seager, Edward A. Ross, Towner K. Webster, George E. Barnett, Walter F. Willcox, W. E. B. Du Bois e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 6, nº 1",
+      "data": "fevereiro de 1905",
+      "chamada": "Chicago, dezembro de 1904: Taussig reexamina o livre comércio diante da onda protecionista, Laughlin e Andrew divergem sobre moeda e crédito, e quatro autores discutem a oficina aberta.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na noite de quarta-feira, 28 de dezembro de 1904, na Chicago Historical Society, Frank W. Taussig, de Harvard, subiu à tribuna para o discurso presidencial da American Economic Association, numa sessão conjunta com a American Historical Association. Começou pelo contraste com a geração anterior:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Há quarenta anos, a doutrina do livre comércio parecia triunfante.”",
+          "original": "“Forty years ago, the doctrine of free trade seemed to be triumphant”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A décima sétima reunião anual se realizou em Chicago de 28 a 30 de dezembro de 1904, sob os auspícios da University of Chicago, ao mesmo tempo que as reuniões da American Historical Association e da American Political Science Association. O programa teve sete sessões: a abertura conjunta, com boas-vindas de William R. Harper; os discursos presidenciais; teoria da moeda; oficina aberta ou fechada; corporações e ferrovias; tarifas preferenciais e reciprocidade; e história econômica. Este número reúne parte dos trabalhos; os anais saíram em fevereiro de 1905 como nº 1 do vol. 6 da terceira série."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que restava da doutrina do livre comércio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Taussig registrou a virada: depois da revogação das Corn Laws em 1846 e do tratado franco-inglês de 1860, vieram a tarifa alemã de 1879, o fim do regime de tratados na França em 1881 e a consolidação da proteção nos Estados Unidos. Rejeitou os argumentos populares, como o de que a proteção explica os salários americanos, que atribuiu à produtividade do trabalho e aos recursos naturais. Admitiu casos difíceis, como o dumping temporário e a proteção à indústria nascente, e concluiu que o princípio continuava de pé, mas que sua aplicação exigia pesar razões contrárias."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A quantidade de moeda governa os preços?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na manhã de quinta-feira, J. Laurence Laughlin, da University of Chicago, separou o padrão, a mercadoria em que os preços são expressos, dos meios de troca, como notas, cheques e depósitos. Para ele, o preço se forma antes da troca, pelos custos e pela demanda, e os meios de pagamento apenas registram o resultado:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“os meios de troca são uma consequência, não uma causa”",
+          "original": "“the media of exchange are a consequence, not a cause”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20%",
+          "texto": "Queda aproximada do nível geral de preços em relação a cerca de 1879, segundo Laughlin, apesar de o estoque de ouro ter ao menos triplicado no período. Ele atribuiu a queda ao barateamento da produção de bens, não à escassez de ouro. Na discussão, Henry R. Seager aceitou o diagnóstico, mas não a afirmação de que não houvera escassez de ouro."
+        },
+        {
+          "tipo": "p",
+          "texto": "David Kinley, da University of Illinois, tratou o crédito bancário como uma alavanca apoiada nas reservas: a moeda-padrão se divide entre reservas e pagamentos diretos, e o crédito permite atender a um volume maior de trocas com menor alteração de preços. A. Piatt Andrew, de Harvard, sustentou que o crédito só substitui a moeda em formas transferíveis, notas e depósitos, e rejeitou a tese de que o crédito bancário seria limitado apenas pelo valor dos bens dos tomadores, citando trechos de Laughlin."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Oficina sindical ou oficina aberta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "À tarde, o tema foi a oficina aberta. John R. Commons, da University of Wisconsin, explicou a política da oficina sindical pela estrutura de cada indústria e pela capacidade das associações patronais de fazer cumprir acordos. John Graham Brooks a defendeu como exigência prática em certos lugares e épocas, não como princípio. John D. Hibbard, empregador de Chicago, expôs objeções colhidas entre industriais metalúrgicos e propôs a “verdadeira oficina aberta”; Thomas Kidd, dos marceneiros, respondeu em nome do sindicalismo. Na discussão, Seager resumiu um ponto:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“não tanto a oficina fechada quanto o sindicato fechado”",
+          "original": "“not the closed shop so much as the closed union”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que decisões a associação tomou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O conselho reelegeu Taussig presidente para 1905, manteve Frank A. Fetter como secretário e tesoureiro e marcou a reunião seguinte para Baltimore. A comissão de publicações, presidida por Jacob H. Hollander, relatou que uma consulta a 22 sócios sobre cooperar com o Quarterly Journal of Economics não despertou entusiasmo; o conselho declarou desejável que a associação tivesse revista própria e autorizou a comissão executiva a criá-la, se houvesse meios financeiros. A American Economic Review começaria em 1911."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1.029",
+          "texto": "Sócios registrados no relatório do secretário de 28 de dezembro de 1904, ante 994 um ano antes. No ano entraram 119 novos sócios e saíram 84: 9 mortes, 45 renúncias e 30 exclusões por falta de pagamento. Foram publicadas 904 páginas, e o caixa fechou com US$ 3.560,30, alta de US$ 520,20."
+        },
+        {
+          "tipo": "p",
+          "texto": "O volume termina com o relatório de progresso da comissão sobre a situação econômica da população negra, assinado por Walter F. Willcox, W. E. B. Du Bois, H. T. Newcomb, W. Z. Ripley e A. H. Stone, que estimou, a partir do censo de 1900, as ocupações que sustentavam as famílias negras e a riqueza acumulada."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ponto metodológico mais útil do volume está no fecho de Taussig: a distinção entre princípio e aplicação. O livre comércio aparece como presunção, não como dogma; quem propõe a restrição carrega o ônus da prova, e mesmo quando ela se justifica, por receita, transição ou interesses constituídos, deve ser tratada como custo a compensar, não como ganho. Também vale a cautela empírica que ele aplica à indústria nascente: sem isolar causas, um setor que cresceu sob tarifa não prova que cresceu por causa da tarifa. O exemplo do crescimento industrial da região central do país, sob livre comércio interno total, funciona como contraprova.",
+            "A sessão monetária expõe um conflito que nunca foi inteiramente resolvido: se a moeda bancária se ajusta passivamente às trocas, como quer Laughlin, ou se tem um limite próprio, dado pelas reservas e pela fração de cheques convertida em dinheiro, como argumenta Andrew. O argumento de Andrew é o mais rigoroso do debate: se o crédito se expande com o valor dos bens, e o valor dos bens sobe com o crédito, o limite é circular e não limita nada. Já na sessão trabalhista, Commons oferece o enquadramento mais analítico, ao mostrar que a mesma regra de contratação produz efeitos diferentes conforme o número de pequenos empreiteiros e a capacidade de fazer cumprir os acordos."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Indústria nascente",
+          "argumento de que uma tarifa temporária permite a um setor novo ganhar escala e depois competir sem proteção."
+        ],
+        [
+          "Dumping",
+          "na definição de Taussig, venda de bens no exterior abaixo do preço normal."
+        ],
+        [
+          "Custo primário (prime cost)",
+          "termo de Marshall para o custo direto mínimo que uma venda precisa cobrir."
+        ],
+        [
+          "Padrão e meios de troca",
+          "distinção de Laughlin entre a mercadoria em que os preços são expressos (o ouro) e os instrumentos usados para pagar."
+        ],
+        [
+          "Moeda-depósito",
+          "depósitos bancários movimentados por cheque, usados como meio de pagamento."
+        ],
+        [
+          "Teoria quantitativa",
+          "tese de que o nível de preços varia com a quantidade de moeda em circulação."
+        ],
+        [
+          "Oficina fechada, aberta e sindical",
+          "na proposta de Commons: fechada por contrato aos não sindicalizados; aberta quando o patrão é livre para contratar; sindical quando, de fato, só há sindicalizados."
+        ],
+        [
+          "Acordo coletivo",
+          "contrato entre sindicato e empregador ou associação patronal sobre salários, jornada e regras de trabalho."
+        ]
+      ],
+      "hoje": "Os três debates de Chicago seguem vivos. A pergunta de Taussig, quem deve provar que uma tarifa traz ganho, volta sempre que a proteção comercial reaparece em nome da indústria ou da segurança. A divergência entre Laughlin e Andrew prefigura a discussão sobre se a moeda bancária é criada conforme a demanda por crédito ou se é limitada pelas reservas e pela autoridade monetária. E a disputa sobre a oficina aberta continua nas regras sobre filiação sindical obrigatória e na diferença, apontada por Seager, entre negociação coletiva e entrada restrita na profissão.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 1–2",
+          "2999916"
+        ],
+        [
+          "Constitution",
+          "pp. 3–11",
+          "2999917"
+        ],
+        [
+          "Minutes of the Council Meeting",
+          "pp. 12–17",
+          "2999918"
+        ],
+        [
+          "The Seventeenth Annual Meeting",
+          "pp. 18–20",
+          "2999919"
+        ],
+        [
+          "Report of the Publication Committee Submitted to the Council of the American Economic Association, at the Seventeenth Annual Meeting Held at Chicago, December 28-30, 1904",
+          "pp. 21–25",
+          "2999920"
+        ],
+        [
+          "Address of Welcome",
+          "pp. 26–28",
+          "2999921"
+        ],
+        [
+          "The Present Position of the Doctrine of Free Trade",
+          "pp. 29–65",
+          "2999922"
+        ],
+        [
+          "A Theory of Prices",
+          "pp. 66–83",
+          "2999923"
+        ],
+        [
+          "The Relation of the Credit System to the Value of Money",
+          "pp. 84–94",
+          "2999924"
+        ],
+        [
+          "Credit and the Value of Money",
+          "pp. 95–115",
+          "2999925"
+        ],
+        [
+          "Discussion on Papers of Laughlin, Kinley and Andrew on the Theory of Money",
+          "pp. 116–139",
+          "2999926"
+        ],
+        [
+          "Causes of the Union-Shop Policy",
+          "pp. 140–159",
+          "2999927"
+        ],
+        [
+          "The Issue between the Open and Closed Shop",
+          "pp. 160–177",
+          "2999928"
+        ],
+        [
+          "The Necessity of an Open Shop-An Employer's View",
+          "pp. 178–194",
+          "2999929"
+        ],
+        [
+          "The Open Shop Versus Trades Unionism",
+          "pp. 195–199",
+          "2999930"
+        ],
+        [
+          "Discussion on Papers of Commons, Brooks, Hibbard, and Kidd on the Open or Closed Shop",
+          "pp. 200–215",
+          "2999931"
+        ],
+        [
+          "The Economic Position of the American Negro",
+          "pp. 216–221",
+          "2999932"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "American Economic Association",
+          "autores": "Apresentação da associação",
+          "paginas": "pp. 1–2",
+          "resumo": "Nota sobre os fins da associação, as reuniões conjuntas com a American Historical Association, as séries de publicações desde março de 1886 e o anúncio da reunião de 1905 em Baltimore e Washington.",
+          "jstor": "2999916"
+        },
+        {
+          "titulo": "Constitution",
+          "autores": "Estatuto e dirigentes",
+          "paginas": "pp. 3–11",
+          "resumo": "Estatuto (anuidade de três dólares, sócio vitalício por cinquenta), regimento e relação de dirigentes e membros do conselho.",
+          "jstor": "2999917"
+        },
+        {
+          "titulo": "Minutes of the Council Meeting",
+          "autores": "Atas do conselho",
+          "paginas": "pp. 12–17",
+          "resumo": "Reuniões de 28 e 29 de dezembro de 1904: relatórios do secretário e do tesoureiro, eleição de Taussig para 1905, escolha de Baltimore e resolução favorável a uma revista da associação.",
+          "jstor": "2999918"
+        },
+        {
+          "titulo": "The Seventeenth Annual Meeting",
+          "autores": "Programa da reunião",
+          "paginas": "pp. 18–20",
+          "resumo": "Programa das sete sessões de 28 a 30 de dezembro de 1904, com locais, trabalhos e debatedores.",
+          "jstor": "2999919"
+        },
+        {
+          "titulo": "Report of the Publication Committee",
+          "autores": "Jacob H. Hollander, presidente da comissão de publicações",
+          "paginas": "pp. 21–25",
+          "resumo": "Balanço do vol. 5, lista anual de teses em andamento, bibliografia sobre teoria dos salários, consulta sem entusiasmo sobre cooperação com o Quarterly Journal of Economics e recomendação de uma revista própria.",
+          "jstor": "2999920"
+        },
+        {
+          "titulo": "Address of Welcome",
+          "autores": "William R. Harper (presidente da University of Chicago)",
+          "paginas": "pp. 26–28",
+          "resumo": "Boas-vindas às três associações, com a lembrança de que todo edifício de Chicago fora erguido durante a vida de moradores ainda vivos.",
+          "jstor": "2999921"
+        },
+        {
+          "titulo": "The Present Position of the Doctrine of Free Trade",
+          "autores": "Frank W. Taussig (Harvard University); discurso presidencial",
+          "paginas": "pp. 29–65",
+          "resumo": "Taussig parte da reversão protecionista desde 1860 e rejeita os argumentos populares: a visão mercantilista de exportações e importações, o mercado interno e a ideia de que a proteção explica os salários americanos, que atribui à produtividade e aos recursos naturais. Aceita restringir o dumping quando é temporário, como nos prêmios europeus à exportação de açúcar, e trata a indústria nascente como questão empírica, com evidência mista para França, Alemanha e Estados Unidos. Sustenta que os efeitos das tarifas costumam ser superestimados e que a proteção se mantém por agricultura, nacionalismo e hábito. Conclui que o livre comércio é presunção: restrições precisam provar seu caso.",
+          "jstor": "2999922"
+        },
+        {
+          "titulo": "A Theory of Prices",
+          "autores": "J. Laurence Laughlin (University of Chicago)",
+          "paginas": "pp. 66–83",
+          "resumo": "Laughlin define preço como a quantidade da mercadoria-padrão, o ouro, pela qual um bem se troca, e separa o padrão dos meios de troca. O nível de preços resulta de forças dos dois lados da relação: oferta e demanda de ouro e custos de produção dos bens. Como o estoque de ouro é grande, variações anuais pesam pouco. Os meios de troca surgem depois de formado o preço, e a moeda-depósito se expande na proporção das transações. Aponta queda de cerca de 20% nos preços desde 1879, apesar de mais ouro, e encerra com doze perguntas sobre a teoria quantitativa.",
+          "jstor": "2999923"
+        },
+        {
+          "titulo": "The Relation of the Credit System to the Value of Money",
+          "autores": "David Kinley (University of Illinois)",
+          "paginas": "pp. 84–94",
+          "resumo": "Kinley analisa como a sociedade reparte as trocas entre escambo, moeda e crédito, pelo meio mais barato disponível. O dinheiro mantido como reserva bancária presta o mesmo serviço do dinheiro em circulação, mas de forma mais eficiente, como uma alavanca. Quando cresce o volume de trocas, a moeda se redistribui entre reservas e pagamentos diretos, e o crédito permite acomodar o aumento com menor alteração de preços. Conclui, em seis pontos, que quanto mais refinado o sistema de crédito, menos moeda é necessária para dado volume de comércio, e que, com grande capital fixo, o crédito tende a deprimir o nível de preços.",
+          "jstor": "2999924"
+        },
+        {
+          "titulo": "Credit and the Value of Money",
+          "autores": "A. Piatt Andrew (Harvard University)",
+          "paginas": "pp. 95–115",
+          "resumo": "Andrew sustenta que a quantidade de moeda, a velocidade de circulação e o volume de negócios continuam sendo fatores do valor da moeda, ainda que seus efeitos muitas vezes se compensem. Separa as formas de crédito: só as transferíveis, notas e depósitos movimentados por cheque, substituem a moeda; o crédito em conta e outros adiamentos de pagamento só elevam os preços temporariamente. Rejeita a tese de que o crédito bancário seria limitado pelo valor dos bens dos tomadores, que atribui a Laughlin entre outros: como preços e crédito se alimentam, esse limite seria impossível. O limite real está nas reservas e na fração de cheques apresentada para pagamento em dinheiro.",
+          "jstor": "2999925"
+        },
+        {
+          "titulo": "Discussion on Papers of Laughlin, Kinley and Andrew on the Theory of Money",
+          "autores": "William A. Scott, Irving Fisher, Thomas N. Carver, Henry R. Seager, J. Laurence Laughlin, Henry B. Gardner, William W. Folwell, Frederick R. Clow e David Kinley",
+          "paginas": "pp. 116–139",
+          "resumo": "Scott apoia a distinção de Laughlin e contesta Kinley sobre reservas; Fisher separa utilidade marginal e poder de compra da moeda; Carver discute se o crédito barateia o ouro; Seager, Laughlin e Kinley respondem.",
+          "jstor": "2999926"
+        },
+        {
+          "titulo": "Causes of the Union-Shop Policy",
+          "autores": "John R. Commons (University of Wisconsin)",
+          "paginas": "pp. 140–159",
+          "resumo": "Commons apresenta a oficina sindical como a “tarifa” que os trabalhadores impuseram a si mesmos, num país que protegia produtos mas recebia trabalhadores imigrantes. Propõe distinguir oficina fechada, aberta e sindical e identifica três condições para acordos de oficina aberta duradouros: associações fortes dos dois lados, a mesma escala salarial para sindicalizados e não sindicalizados e queixas decididas em conferência conjunta. Onde há muitos pequenos empreiteiros, como na construção e no vestuário, a oficina aberta não sobrevive; em ferrovias e no serviço público, é dispensável. Conclui que associações patronais e sindicatos se contêm mutuamente, como num sistema de pesos e contrapesos.",
+          "jstor": "2999927"
+        },
+        {
+          "titulo": "The Issue between the Open and Closed Shop",
+          "autores": "John Graham Brooks (presidente da American Social Science Association)",
+          "paginas": "pp. 160–177",
+          "resumo": "Brooks observa que oficinas fechadas e abertas variam tanto entre si que a definição contratual pouco ajuda, e adota um critério prático. Admite que a oficina fechada deve ser defendida como exigência de tempo e lugar, não como princípio, e que pode custar caro ao consumidor. Sustenta que os sindicatos erraram ao defender abertamente o contrato de exclusão, em vez de defender a negociação coletiva, e que a oficina aberta, nas mãos de associações hostis, pode ser tão nociva quanto a pior oficina fechada. Cita os charuteiros de Boston, com taxa de admissão baixa e jornada de oito horas, e pede suspensão de juízo.",
+          "jstor": "2999928"
+        },
+        {
+          "titulo": "The Necessity of an Open Shop-An Employer's View",
+          "autores": "John D. Hibbard (John Davis Co.; presidente da Chicago Metal Trades Association)",
+          "paginas": "pp. 178–194",
+          "resumo": "Com base em uma circular enviada a empregadores da Chicago Metal Trades Association, Hibbard distingue quatro tipos de oficina: a fechada pelo sindicato, a fechada aos sindicalizados, a oficina aberta comum e a “verdadeira oficina aberta”. Contra a primeira, cita decisões judiciais sobre monopólio e alega que o salário mínimo sindical nivela o trabalhador mais capaz pelo menos produtivo. Rejeita também a oficina fechada aos sindicalizados, salvo como medida de guerra. Admite que a negociação coletiva deve prevalecer, mas avalia que nenhum dos lados está pronto para ela, e deposita a esperança na oficina aberta verdadeira.",
+          "jstor": "2999929"
+        },
+        {
+          "titulo": "The Open Shop Versus Trades Unionism",
+          "autores": "Thomas Kidd (secretário-geral da Amalgamated Woodworkers)",
+          "paginas": "pp. 195–199",
+          "resumo": "Kidd apresenta a luta sindical como continuação da luta histórica do trabalho por liberdade. Atribui a limitação da produção ao uso patronal do “marcador de ritmo”, um operário rápido pago para acelerar os demais, e defende regras de aprendizagem como proteção contra a troca de homens por meninos. Sustenta que a escala sindical põe todos os empregadores em pé de igualdade e que a oficina aberta levaria a greves sucessivas. Conclui que nem o empregador nem o sindicato devem ter poder absoluto.",
+          "jstor": "2999930"
+        },
+        {
+          "titulo": "Discussion on Papers of Commons, Brooks, Hibbard, and Kidd on the Open or Closed Shop",
+          "autores": "Edward A. Ross, Towner K. Webster, George E. Barnett e Henry R. Seager",
+          "paginas": "pp. 200–215",
+          "resumo": "Ross argumenta que, sem negociação conjunta, o trabalho é mal pago; Webster, industrial, defende a “oficina de contrato”; Barnett separa a uniformidade das regras de oficina; Seager propõe regular o sindicato fechado e aceitar a oficina sindical aberta a todos.",
+          "jstor": "2999931"
+        },
+        {
+          "titulo": "The Economic Position of the American Negro",
+          "autores": "Walter F. Willcox, W. E. B. Du Bois, H. T. Newcomb, W. Z. Ripley e A. H. Stone (comissão especial)",
+          "paginas": "pp. 216–221",
+          "resumo": "Relatório de progresso que usa o censo de 1900 para estimar quantas famílias negras dependiam de cada ocupação, com hipóteses explicitadas, como a de que a renda familiar vinha sobretudo dos homens de 16 anos ou mais. Estima 1.833.759 famílias, 72,8% sustentadas principalmente pela agricultura, que a comissão considera estimativa máxima. Partindo dos dados agrícolas do censo e do patrimônio das igrejas, avalia a riqueza acumulada da população negra em 1900 em cerca de US$ 300 milhões, provavelmente entre US$ 250 milhões e US$ 350 milhões.",
+          "jstor": "2999932"
+        }
+      ],
+      "jstor_edicao": "i350415",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, 3ª série, vol. 5 (1904)",
-    "Publications of the AEA, 3ª série, vol. 6 (1905)",
-    "Publications of the AEA, 3ª série, vol. 7 (1906)"
+    "Publications of the AEA, 3ª série, vol. 6, nº 2 a 4 (1905)",
+    "Publications of the AEA, 3ª série, vol. 7 (1906)",
+    "Publications of the AEA, 3ª série, vol. 8 (1907)"
   ]
 }
