@@ -15284,11 +15284,1177 @@
       ],
       "jstor_edicao": "i350415",
       "colecao": "eua"
+    },
+    {
+      "slug": "1905-a-decima-setima-reuniao-anual-ii",
+      "numero": 74,
+      "titulo": "Chicago, 1904 (II): trustes, ferrovias e preferência imperial",
+      "titulo_original": "Papers and Proceedings of the Seventeenth Annual Meeting, Chicago, December 28–30, 1904. Part II",
+      "autores": "Edward B. Whitney, Martin A. Knapp (presidente da Interstate Commerce Commission), Henry C. Adams (University of Michigan), Adam Shortt (Queen's University), G. E. Foster, A. W. Flux, Edwin F. Gay (Harvard), Carroll D. Wright (Clark College) e os debatedores Edward P. Ripley, John H. Gray, W. Z. Ripley, H. T. Newcomb, F. B. Thurber, William F. Folwell, Horace White, William W. Baldwin, H. Parker Willis, George M. Fisk, S. J. McLean, John B. McMaster, Charles H. Hull, Jacob H. Hollander, Henry R. Seager e F. W. Taussig",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 6, nº 2",
+      "data": "maio de 1905",
+      "chamada": "Segunda parte da reunião de Chicago: como o governo federal pode conter os trustes, quem deve fixar a tarifa ferroviária, como tributar ferrovias e se a preferência imperial leva ao livre comércio.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Edward B. Whitney avisou que não tentaria cobrir a questão dos trustes em vinte minutos. Advogado, falou só de remédios jurídicos ao alcance do governo federal e começou por um fato de calendário: em Nova York, a primeira lei que permitiu fundir empresas manufatureiras é de 1867, e as leis que deixaram uma companhia comprar ações de uma rival para controlá-la são de 1892, posteriores ao Sherman Act. O truste, concluiu, era em parte produto de legislação."
+        },
+        {
+          "tipo": "p",
+          "texto": "Este número reúne a segunda parte dos trabalhos da décima sétima reunião anual, realizada em Chicago em dezembro de 1904: a sessão sobre corporações e ferrovias, a de tributação ferroviária, a de tarifas preferenciais e reciprocidade e a de história econômica, esta numa sessão conjunta com a American Historical Association em 30 de dezembro. A primeira parte, com o discurso de Taussig sobre o livre comércio, o debate monetário e a oficina aberta, está no nº 73 deste arquivo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o governo federal pode fazer contra os trustes?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Whitney sustentou que o Congresso, pelo poder de regular o comércio interestadual, pode impor condições às corporações estaduais que dele participam, como os estados fazem com empresas de fora. Daí sairiam remédios diretos: excluir as holdings, separar o transporte da produção, exigir publicidade das contas e limitar o capital. Rejeitou a ideia de dar aos juízes poder de dispensar restrições ao comércio que parecessem razoáveis; se esse poder existisse, deveria caber a um corpo técnico."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1903",
+          "texto": "Ano em que o Congresso fez a primeira dotação para aplicar o Sherman Act, segundo Whitney. Outros marcos que ele lista: em Nova York, fusão de manufatureiras autorizada em 1867 e ampliada em 1892; em Nova Jersey, as leis de holding evoluíram de 1888 a 1893. O caso decisivo, Trans-Missouri, foi decidido por um voto."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve fixar a tarifa ferroviária?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Martin A. Knapp, presidente da Interstate Commerce Commission, separou dois problemas. Os descontos secretos sobre a tarifa publicada são crime e se combatem com a máquina penal. A tarifa publicada que é excessiva ou desigual exige outra coisa: um tribunal administrativo que, depois de ouvir as partes, prescreva a tarifa substituta, sujeita a revisão judicial. E propôs legalizar a ação conjunta das ferrovias, porque a lei, a seu ver, exigia ao mesmo tempo competição e ausência de discriminação:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O poder de competir é o poder de discriminar.”",
+          "original": "“The power to compete is the power to discriminate”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na discussão, Edward P. Ripley, que dizia fazer tarifas de frete havia quase quarenta anos, objetou que dar efeito imediato às decisões da comissão seria enforcar primeiro e julgar depois. W. Z. Ripley defendeu tornar o pool um acordo exigível em juízo. Horace White resumiu a disputa a uma questão prática: se a ferrovia pode dar garantia ao recorrer, por que não o reclamante?"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como tributar uma ferrovia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry C. Adams, da University of Michigan, mostrou que, apesar das máquinas administrativas próprias, quase todos os estados tributavam ferrovias pelo valor, como qualquer propriedade. A novidade estava na jurisprudência: ao reconhecer um valor de franquia acima do valor físico, os tribunais abriam a pergunta sobre a origem desse excedente."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "47 de 50",
+          "texto": "Estados e territórios que, segundo Adams, buscavam tributar as ferrovias em proporção ao seu valor. Desses, 39 usavam a propriedade geral como base com máquina própria de avaliação e 6 avaliavam ações e títulos. Maine, Maryland e Minnesota tributavam a receita bruta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Adams, o excedente vinha do tráfego sem concorrência, das conexões e, sobretudo, das economias de densidade criadas pelo crescimento da população: um valor socialmente produzido, que a concorrência não transfere ao público. Daí a tese de uma copropriedade entre público e corporação. William W. Baldwin respondeu que tributar o excedente de uma única classe de propriedade iria longe demais e examinou o caso de Michigan, onde a avaliação dependia da taxa de retorno considerada adequada, 3,5% para a Michigan Central."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A preferência imperial aproxima o livre comércio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Adam Shortt, da Queen's University, abriu com um aviso de método:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“teorias duvidosas ou falsas muitas vezes têm muito mais peso […] que as verdadeiras”",
+          "original": "“doubtful or false theories often have much more weight … than true ones”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Contou que a preferência canadense aos produtos britânicos nasceu em 1897 como saída política do Partido Liberal, não como sacrifício pelo Império, e que não deteve a perda de participação britânica nas importações do Canadá. G. E. Foster defendeu a preferência por razões comerciais e imperiais e declarou a reciprocidade com os Estados Unidos uma questão morta no Canadá."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25,19%",
+          "texto": "Participação da Grã-Bretanha nas importações canadenses em 1903, segundo Shortt, ante 42,27% em 1883 e 35,45% em 1893. A preferência subiu para 25% em 1898 e 33⅓% em 1900. Nos Estados Unidos estava a origem de quase 60% das importações do Canadá; a Grã-Bretanha absorvia 58% das exportações."
+        },
+        {
+          "tipo": "p",
+          "texto": "A. W. Flux contestou a crença de que a reciprocidade é meio caminho para o livre comércio. Para o livre-cambista, reduzir a tarifa vale por si; para o protecionista coerente, não há razão para trocá-la. Na prática, guardar tarifas como moeda de troca adia reduções: as alíquotas canadenses de 1897 foram mantidas mais altas à espera de um tratado com os Estados Unidos que não veio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os cercamentos foram uma catástrofe súbita?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edwin F. Gay, de Harvard, revisou a história dos cercamentos ingleses com os relatórios das comissões de inquérito dos séculos XVI e XVII. Concluiu que o movimento durou mais de quatro séculos, concentrou-se nos condados centrais e foi menor do que diziam os panfletos da época:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“sua ação foi erosiva, e não vulcânica”",
+          "original": "“its action was erosive rather than volcanic”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na mesma linha de história econômica, Carroll D. Wright apresentou o plano do Departamento de Economia e Sociologia da Carnegie Institution: onze divisões, de população a finanças públicas, com cerca de setenta e cinco pessoas trabalhando. Charles H. Hull, Jacob H. Hollander e Henry R. Seager discutiram o alcance do projeto, e Wright respondeu que o propósito principal era reunir material para historiadores e economistas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o argumento de Flux é o que melhor resistiu ao tempo. Ele separa a justificativa de uma redução tarifária, que está no ganho de quem reduz, da lógica de barganha, que trata cada alíquota como ficha a ser trocada. O efeito prático da segunda é perverso: a tarifa alta vira refém da negociação e o país paga por ela enquanto espera. O exemplo canadense de 1897 ilustra o mecanismo com o próprio debate parlamentar. A sessão de Shortt complementa o argumento com dados: uma preferência de um terço não mudou a composição do comércio, porque o que o Canadá comprava dos Estados Unidos não era o que a Grã-Bretanha vendia.",
+            "Nas ferrovias, Knapp e Adams chegam ao mesmo ponto por caminhos diferentes. Knapp argumenta que não se pode ter, ao mesmo tempo, competição de preços entre ferrovias e tarifa igual para todos; Adams, que as economias de densidade geram um excedente que a concorrência não distribui. Lidos juntos, descrevem o que hoje se chamaria de monopólio natural, uma indústria de custos fixos altos, e deslocam a pergunta de “se” regular para “quem” regula e com que informação. Gay, por sua vez, dá uma lição de método que vale para qualquer tema: confrontar a retórica dos contemporâneos com os registros administrativos antes de medir o tamanho de uma transformação."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Holding",
+          "companhia cujo ativo principal são ações de outras empresas, que ela controla."
+        ],
+        [
+          "Sherman Act",
+          "lei federal antitruste americana de 1890, que proíbe contratos e combinações em restrição do comércio."
+        ],
+        [
+          "Restrição do comércio (restraint of trade)",
+          "acordo ou combinação que limita a concorrência; o debate era se só as restrições “razoáveis” seriam lícitas."
+        ],
+        [
+          "Rebate",
+          "desconto secreto concedido por uma ferrovia a certos embarcadores sobre a tarifa publicada."
+        ],
+        [
+          "Pool",
+          "acordo entre ferrovias concorrentes para dividir tráfego ou receitas."
+        ],
+        [
+          "Interstate Commerce Commission",
+          "comissão federal criada em 1887 para fiscalizar as tarifas ferroviárias interestaduais."
+        ],
+        [
+          "Regra da unidade (unit rule)",
+          "avaliação da ferrovia como um todo contínuo, repartida depois entre as jurisdições que ela atravessa."
+        ],
+        [
+          "Valor de franquia",
+          "parte do valor de uma empresa acima do valor de sua propriedade física, reconhecida pelos tribunais."
+        ],
+        [
+          "Tarifa preferencial",
+          "alíquota menor concedida às importações de certos países, no caso, do Império Britânico."
+        ],
+        [
+          "Reciprocidade",
+          "redução tarifária concedida por tratado em troca de concessão equivalente, sem extensão a terceiros."
+        ],
+        [
+          "Cláusula de nação mais favorecida",
+          "compromisso de estender a um parceiro qualquer vantagem tarifária dada a outro país."
+        ],
+        [
+          "Cercamento (inclosure)",
+          "conversão de campos abertos e terras comunais em propriedades fechadas de uso privado."
+        ]
+      ],
+      "hoje": "Os quatro debates continuam abertos. A pergunta de Knapp, quem fixa o preço de uma infraestrutura com custos fixos altos, reaparece nas agências reguladoras de energia, saneamento e transporte. A tese de Adams sobre o excedente criado pela densidade de uso ecoa nas discussões sobre tributar rendas de infraestrutura e plataformas. O argumento de Flux pesa sempre que um país adia a abertura comercial à espera de um acordo, mantendo tarifas como moeda de troca. E a revisão de Gay lembra que a escala de uma transformação econômica deve ser medida nos registros, não nos panfletos.",
+      "itens": [
+        [
+          "Governmental Interference with Industrial Combinations",
+          "pp. 1–19",
+          "2999838"
+        ],
+        [
+          "The Regulation of Railway Rates",
+          "pp. 20–30",
+          "2999839"
+        ],
+        [
+          "Discussion on Papers by Whitney and Knapp on Corporations and Railways",
+          "pp. 31–50",
+          "2999840"
+        ],
+        [
+          "Tendencies in Railway Taxation",
+          "pp. 51–60",
+          "2999841"
+        ],
+        [
+          "Discussion on Paper by H. C. Adams on Tendencies in Railway Taxation",
+          "pp. 61–79",
+          "2999842"
+        ],
+        [
+          "Preferential Trade between Britain and Canada",
+          "pp. 80–92",
+          "2999843"
+        ],
+        [
+          "Preferential Tariffs and Reciprocity",
+          "pp. 93–105",
+          "2999844"
+        ],
+        [
+          "Do Reciprocally Preferential Tariffs Tend Towards Free Trade?",
+          "pp. 106–128",
+          "2999845"
+        ],
+        [
+          "Discussion on Reciprocity and Preferential Tariffs",
+          "pp. 129–145",
+          "2999846"
+        ],
+        [
+          "The Inclosure Movement in England",
+          "pp. 146–159",
+          "2999847"
+        ],
+        [
+          "An Economic History of the United States",
+          "pp. 160–179",
+          "2999848"
+        ],
+        [
+          "Discussion on an Economic History of the United States",
+          "pp. 180–198",
+          "2999849"
+        ],
+        [
+          "List of Members",
+          "pp. 203–265",
+          "2999850"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Governmental Interference with Industrial Combinations",
+          "autores": "Edward B. Whitney",
+          "paginas": "pp. 1–19",
+          "resumo": "Whitney limita-se aos remédios jurídicos ao alcance do governo federal, sem emenda constitucional. Mostra que o truste é em parte produto de legislação estadual recente, como as leis de holding de Nova York, de 1892, e de Nova Jersey, de 1888 a 1893. Sustenta que o Congresso, ao regular o comércio interestadual, pode impor condições às corporações estaduais: excluir holdings, proibir que transportadoras atuem na produção, exigir publicidade das contas e limitar o capital por taxa graduada. Rejeita um poder judicial de dispensa para restrições “razoáveis” e prefere confiá-lo, se for o caso, a um corpo técnico. Fecha com a hipótese de que a era das invenções termine e o mundo se torne relativamente estático.",
+          "jstor": "2999838"
+        },
+        {
+          "titulo": "The Regulation of Railway Rates",
+          "autores": "Martin A. Knapp (presidente da Interstate Commerce Commission)",
+          "paginas": "pp. 20–30",
+          "resumo": "Knapp parte da ferrovia como estrada pública moderna, cujo uso igual é um direito. Separa os descontos secretos sobre a tarifa publicada, que devem ser tratados como crime pela justiça penal, da tarifa publicada excessiva ou desigual, que só um tribunal administrativo pode corrigir, prescrevendo a tarifa a vigorar depois de ouvir as partes, com revisão judicial. Os tribunais comuns, diz, não podem fixar tarifas futuras. Conclui que a política de forçar a competição entre ferrovias é a fonte das discriminações e defende legalizar a ação conjunta das transportadoras, combinada com o poder da comissão de condenar e substituir tarifas.",
+          "jstor": "2999839"
+        },
+        {
+          "titulo": "Discussion on Papers by Whitney and Knapp on Corporations and Railways",
+          "autores": "Edward P. Ripley, John H. Gray, W. Z. Ripley, H. T. Newcomb, F. B. Thurber, William F. Folwell, Edward B. Whitney e Horace White",
+          "paginas": "pp. 31–50",
+          "resumo": "E. P. Ripley descreve a evolução das tarifas e rejeita o efeito imediato das decisões da comissão; Gray e W. Z. Ripley defendem controle público e pools legais; Newcomb, Thurber, Folwell, Whitney e White discutem rebates, revisão judicial e garantias.",
+          "jstor": "2999840"
+        },
+        {
+          "titulo": "Tendencies in Railway Taxation",
+          "autores": "Henry C. Adams (University of Michigan)",
+          "paginas": "pp. 51–60",
+          "resumo": "Adams mostra que a tributação ferroviária americana não criou princípio novo: 47 dos 50 estados e territórios buscavam tributar as ferrovias pelo valor, como a propriedade em geral, e só Maine, Maryland e Minnesota usavam a receita bruta. A regra da unidade apenas aplica o princípio antigo de avaliar pelo uso. O ponto de partida novo é o reconhecimento judicial de um valor de franquia acima do físico. Adams decompõe esse excedente em tráfego sem concorrência, conexões, economias de densidade e prosperidade das indústrias servidas, e o trata como valor socialmente produzido. Daí prevê, no sistema fiscal futuro, o reconhecimento de uma copropriedade entre público e corporação.",
+          "jstor": "2999841"
+        },
+        {
+          "titulo": "Discussion on Paper by H. C. Adams on Tendencies in Railway Taxation",
+          "autores": "William W. Baldwin",
+          "paginas": "pp. 61–79",
+          "resumo": "Baldwin argumenta que tributar o excedente de uma só classe de propriedade iria longe demais, defende a uniformidade e examina o método de Michigan, que na prática funcionaria como imposto de renda.",
+          "jstor": "2999842"
+        },
+        {
+          "titulo": "Preferential Trade between Britain and Canada",
+          "autores": "Adam Shortt (Queen's University)",
+          "paginas": "pp. 80–92",
+          "resumo": "Shortt explica a preferência canadense aos produtos britânicos pela história partidária: o Partido Liberal, no poder desde 1896, precisava reduzir a tarifa sem abandonar a proteção, e a fórmula de 1897 atingia na prática só o comércio britânico. Não houve barganha nem sacrifício pelo Império. Com tabelas de 1883 a 1903, mostra que a participação britânica nas importações caiu de 42,27% para 25,19% mesmo com a preferência. A razão, diz, é que o Canadá compra dos Estados Unidos bens que a Grã-Bretanha não produz ou não adapta. Recomenda que o país mantenha flexibilidade e não se prenda a obrigações comerciais rígidas.",
+          "jstor": "2999843"
+        },
+        {
+          "titulo": "Preferential Tariffs and Reciprocity",
+          "autores": "G. E. Foster",
+          "paginas": "pp. 93–105",
+          "resumo": "Foster descreve as tarifas protecionistas canadenses desde 1879 e a evolução da preferência: a cláusula geral de 1897, a preferência restrita ao Império em 1898, de 25%, e a ampliação para um terço em 1900. Defende a preferência imperial como arranjo em que cada parte mantém sua autonomia fiscal e favorece os membros do Império, e cita o aumento do comércio com o Reino Unido de 1900 a 1904, admitindo não saber quanto se deve à preferência. Sobre a reciprocidade com os Estados Unidos, relata o fim do tratado Elgin em 1865 e as recusas posteriores, e conclui que o tema deixou de ser questão viva no Canadá.",
+          "jstor": "2999844"
+        },
+        {
+          "titulo": "Do Reciprocally Preferential Tariffs Tend Towards Free Trade?",
+          "autores": "A. W. Flux",
+          "paginas": "pp. 106–128",
+          "resumo": "Flux examina se a preferência recíproca tende ao livre comércio e responde que não, nem pela lógica nem pela experiência. Para o livre-cambista, a redução tarifária vale pelo ganho próprio, sem exigir contrapartida; para o protecionista coerente, não há razão para aceitá-la. Na história, o desejo de guardar alíquotas para barganha atrasou reduções, como no Canadá de 1897, e mesmo o tratado Cobden de 1860 estendeu as concessões britânicas a todas as nações. Com dados das importações de lã, estima que só parte do aumento se deve à preferência. Conclui que a revisão tarifária unilateral é caminho mais seguro que os tratados de reciprocidade.",
+          "jstor": "2999845"
+        },
+        {
+          "titulo": "Discussion on Reciprocity and Preferential Tariffs",
+          "autores": "H. Parker Willis, George M. Fisk e S. J. McLean",
+          "paginas": "pp. 129–145",
+          "resumo": "Willis registra o declínio da reciprocidade como instrumento de reforma tarifária; Fisk analisa a campanha de Chamberlain e o peso do comércio externo britânico; McLean reconstitui a alternância entre preferência e reciprocidade na história do Canadá.",
+          "jstor": "2999846"
+        },
+        {
+          "titulo": "The Inclosure Movement in England",
+          "autores": "Edwin F. Gay (Harvard)",
+          "paginas": "pp. 146–159",
+          "resumo": "Gay distingue dois tipos de cercamento: o das terras comunais e incultas, antigo e lento, e o dos campos abertos cultivados, iniciado no século XV e muitas vezes convertido em pastagem de ovelhas. Com base nos relatórios de inquéritos oficiais, argumenta que o movimento se concentrou nos condados centrais, foi gradual e menor do que diziam os panfletos do século XVI. Explica a lentidão pelos costumes, pela resistência dos camponeses, pela falta de capital e pela necessidade de cada região produzir seu grão. Dá também o lado do proprietário, preso a rendas fixadas pelo costume, e conclui que a primeira fase ajudou a formar uma classe média rural que a última contribuiu para destruir.",
+          "jstor": "2999847"
+        },
+        {
+          "titulo": "An Economic History of the United States",
+          "autores": "Carroll D. Wright",
+          "paginas": "pp. 160–179",
+          "resumo": "Wright relata a origem do projeto de uma história econômica dos Estados Unidos, esboçado por Francis A. Walker pouco antes de morrer e assumido pela Carnegie Institution. Uma comissão consultiva com Farnam, Clark e Wright recomendou o tema, e a dotação anual foi dobrada. O Departamento de Economia e Sociologia ficou com onze divisões, de população e imigração a finanças federais e estaduais, cada uma com responsável indicado. Wright descreve o roteiro de cada divisão, informa cerca de setenta e cinco pessoas em atividade e prevê oito, dez, doze ou mais volumes. Insiste que o propósito central é reunir material original para historiadores e economistas.",
+          "jstor": "2999848"
+        },
+        {
+          "titulo": "Discussion on an Economic History of the United States",
+          "autores": "John B. McMaster, Charles H. Hull, Jacob H. Hollander, Henry R. Seager, Carroll D. Wright e F. W. Taussig",
+          "paginas": "pp. 180–198",
+          "resumo": "McMaster situa o projeto na fase cooperativa da historiografia; Hull defende priorizar a publicação de fontes; Hollander pede descrição econômica sistemática; Seager aponta omissões, como comércio e efeitos da proteção; Wright responde.",
+          "jstor": "2999849"
+        },
+        {
+          "titulo": "List of Members",
+          "autores": "Lista de sócios",
+          "paginas": "pp. 203–265",
+          "resumo": "Relação nominal dos sócios da associação, com endereços e ocupações.",
+          "jstor": "2999850"
+        }
+      ],
+      "jstor_edicao": "i350416",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1905-subsidios-a-navegacao",
+      "numero": 75,
+      "titulo": "Meeker, 1905: o que os subsídios à navegação compraram",
+      "titulo_original": "History of Shipping Subsidies",
+      "autores": "Royal Meeker",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 6, nº 3",
+      "data": "1905",
+      "chamada": "Em 1905, Royal Meeker reconstituiu, país por país, a história dos subsídios à marinha mercante, dos correios de Cunard às leis americanas, e concluiu que o dinheiro público pouco explicava o sucesso no mar.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No ano fiscal de 1901, a linha postal de Nova York a Cuba recebeu US$ 201.078 em subsídios do governo americano. Transportou 1.995 libras de correspondência de primeira classe e 30.864 libras de outros objetos. Pelas tarifas normais de porte, o serviço valia US$ 2.266,68. Royal Meeker usa o caso para mostrar o defeito que, para ele, acompanha os pagamentos fixos ou por milha navegada: o valor pago se descola do serviço prestado."
+        },
+        {
+          "tipo": "p",
+          "texto": "History of Shipping Subsidies saiu em 1905 como o nº 3 do vol. 6 da terceira série das Publications of the American Economic Association. A primeira parte percorre a política de cada país: Grã-Bretanha, França, Alemanha, Itália, Áustria, Hungria, Espanha, Rússia, Holanda, Suécia e Noruega, Japão, alguns menores e, por fim, os Estados Unidos. A segunda trata da teoria dos subsídios. O ponto de partida é uma controvérsia: os defensores dos subsídios citam a Grã-Bretanha como o grande exemplo de país que subsidia; os adversários dizem que ela não subsidia e prospera."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Grã-Bretanha subsidiava ou não?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pouco, e quase sempre pelo correio. O primeiro prêmio direto à navegação, no reinado de Elizabeth, foi de cinco xelins por tonelada para navios acima de 100 toneladas. Depois disso, segundo o autor, o país nunca concedeu prêmios gerais à navegação nem, salvo essa exceção, prêmios gerais à construção. Quando se fala em subsídio britânico, fala-se das subvenções postais. Houve também prêmios à pesca: em 1750, o Parlamento deu 30 xelins por tonelada aos barcos da pesca do arenque branco. Meeker reproduz a crítica de Adam Smith, para quem o prêmio por tonelagem premiava o tamanho do barco, não o resultado da pesca, e era comum equipar barcos:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“com o único propósito de pescar não o peixe, mas o prêmio”",
+          "original": "“for the sole purpose of catching, not the fish, but the bounty”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso central é o de Samuel Cunard. Em 1838-39 ele fechou com o Almirantado, de forma privada, um contrato de sete anos para levar as malas postais duas vezes por mês entre Liverpool, Halifax, Quebec e Boston, por £ 60 mil ao ano. Em 1841 o valor subiu para £ 80 mil; em 1848, para £ 145 mil por 44 viagens. A Great Western Steamship Company chegou a oferecer o serviço pela metade do preço, e a oferta foi recusada porque a Cunard tinha direito anterior. A conclusão do autor é que os pagamentos foram em grande parte prêmios disfarçados e que os subsídios mais atrapalharam do que ajudaram o desenvolvimento natural da navegação a vapor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 1.013.054",
+          "texto": "Total pago pela Grã-Bretanha e suas colônias à marinha mercante em 1899-1900, equivalente a US$ 4.923.442. Desse total, £ 759.433 eram subvenções postais do governo central, £ 188.621 vinham das colônias da América do Norte, Nova Zelândia e África do Sul, e cerca de £ 65 mil eram subvenções do Almirantado a cruzadores mercantes de reserva."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na linha do Oriente, da Peninsular and Oriental, os contratos foram postos em concorrência pública, e Meeker conclui que o governo obteve o serviço mais barato do que de qualquer outro modo. Ainda assim, atribui à concorrência, não ao contrato, os navios maiores e mais rápidos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a França comprou com seus prêmios?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 29 de janeiro de 1881 deu 60 francos por tonelada bruta aos navios de ferro ou aço construídos na França e um prêmio de navegação de 1,5 franco por tonelada líquida a cada mil milhas navegadas no primeiro ano, decrescente com a idade do navio. Navios comprados no exterior recebiam metade. Para o autor, as justificativas da lei eram fórmulas verbais: na prática, doações do Tesouro a particulares, sem retorno direto ao governo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "420 × 300 francos",
+          "texto": "Custo por tonelada bruta de um vapor comum na França e na Inglaterra, segundo o relatório de 1893 do ministro Siegfried. As chapas de aço custavam 15 francos por 100 kg na Inglaterra, contra 23 a 25 na França; as despesas gerais inglesas eram estimadas em metade das francesas. O gasto médio anual com prêmios de construção nos dez anos anteriores foi de 2.679.766 francos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1893 deu tal impulso aos veleiros que, em seis anos, a tonelagem a vela recuperou quase tudo o que perdera nos catorze anos anteriores a 1896. Meeker atribui o resultado inteiramente à lei e o descreve como a inversão da ordem natural: o transportador mais eficiente substituído pelo menos eficiente. Nas subvenções postais, os navios tinham de ser construídos em estaleiros franceses, com custo inicial estimado de 25% a 50% acima do inglês, e os contratos não passavam por concorrência. O balanço final do capítulo:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“uma gigantesca ‘indústria nascente’ cuja fraqueza aumenta com o seu crescimento”",
+          "original": "“a giant ‘infant industry’ whose weakness increases with its growth”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os outros países tiveram melhor sorte?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Alemanha começou tarde. A lei de 6 de abril de 1885 previu contratos de quinze anos para linhas à Ásia Oriental, à Austrália e um ramal entre Alexandria e Trieste, com subsídio anual total de 4,4 milhões de marcos. Na Itália, o autor vê o problema nos impostos e na falta de carvão, e julga que uma tributação razoável faria o que os prêmios não fizeram. Na Áustria, distingue a frota cara da frota valiosa: o valor de mercado subiu enquanto a capacidade de gerar renda caiu."
+        },
+        {
+          "tipo": "p",
+          "texto": "No Japão, de 1890 a 1899, o comércio exterior japonês mais que quadruplicou, e a participação de navios japoneses nesse comércio passou de cerca de 22,2% para 36,4%. Meeker lembra que a navegação já crescia na mesma velocidade antes da lei de 1896 e conclui que o governo apenas deu forma a empreendimentos que os capitalistas já faziam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como foi a experiência americana?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro período começa com a lei de 3 de março de 1845. O contrato mais famoso foi o da linha Collins, entre Nova York e Liverpool, que entrou em operação em 1º de junho de 1850 com US$ 19.250 por viagem, para vinte viagens por ano. Em 1852, o valor subiu para US$ 33 mil por viagem, para 26 viagens. Depois da perda de dois navios, o Arctic e o Pacific, o Congresso voltou ao valor original em 1856; dois anos depois, os contratos foram cancelados e a linha acabou. Segundo o autor, a experiência com a Collins custou cerca de US$ 4 milhões."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 4.583.333,33",
+          "texto": "Valor efetivamente recebido pela Pacific Mail Steamship Company nos dez anos do contrato para a linha do Japão e da China, encerrado em 1877. A lei de 1865 autorizara US$ 500 mil por ano. Em 1872, obteve mais US$ 500 mil anuais; em 1874 descobriu-se o uso de suborno: a empresa gastara cerca de US$ 1 milhão para aprovar a lei, e o novo contrato foi anulado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Meeker, os dados de comércio com o Brasil, a China e o Japão não mostram ligação com o subsídio. Ele atribui o declínio da marinha americana não à Guerra Civil, mas à passagem da madeira ao ferro e da vela ao vapor, somada ao impulso que a guerra deu às indústrias internas. A lei de 1891, do senador Frye, pagava até US$ 4 por milha aos vapores de primeira classe; o caso de Cuba é um de seus resultados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os projetos seguintes foram maiores. Pelo cálculo do capitão W. W. Bates citado no texto, o projeto Hanna, de 1898, custaria US$ 3.222.268 em 1900 e US$ 48.374.015 em 1908, se o país chegasse a 80% da navegação do seu comércio exterior. Um novo projeto Frye passou no Senado em 14 de março de 1902, mas não na Câmara. O autor prefere reformar as leis de navegação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Subsídio é melhor ou pior que tarifa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na parte teórica, a tarifa protetora reserva o mercado interno, eleva o preço e reduz a demanda; o prêmio reduz o custo, baixa o preço e amplia a demanda. Por isso, do ponto de vista do consumidor, Meeker considera o prêmio mais defensável que a tarifa. A exceção: quando o preço mais baixo beneficia sobretudo consumidores estrangeiros, o prêmio pode ser a forma mais desperdiçadora de proteção."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor rejeita a ideia de que mais navios significam fretes mais baixos. Cada navio é capital que precisa render juros; cada navio supérfluo, nas palavras dele, é um indigente sustentado pela navegação ativa. Os prêmios estrangeiros, diz, mantiveram em serviço tonelagem ineficiente."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo final é de considerações éticas. Com Marshall, Meeker adverte que, num setor que recebe prêmio, as pessoas passam a cuidar menos do próprio negócio e mais de quem controla os prêmios. Sustenta que, mesmo que um subsídio bem administrado fosse benéfico, seria impossível livrar o Legislativo da influência dos interessados. Termina com a justiça distributiva:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“poderíamos suportar um pouco menos de ‘prosperidade’ e um pouco mais de justiça distributiva”",
+          "original": "“we could endure a little less ‘prosperity’ and a little more distributive justice”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o método é a força e o limite do estudo. Meeker compara antes e depois de cada lei, país por país, com estatísticas oficiais que ele mesmo diz não conseguir conciliar no caso francês. Isso não isola o efeito do subsídio: em quase todos os países a passagem ao ferro e ao vapor, o custo do carvão e o comércio de cada época pesam mais que a lei. O mérito está em perguntar, em cada caso, o que teria acontecido sem o pagamento, e em mostrar que a resposta frequente é: quase o mesmo.",
+            "O argumento mais duradouro é a distinção entre frota cara e frota valiosa. Subsídio que mede sucesso por tonelagem sob a bandeira nacional pode aumentar a tonelagem e reduzir a capacidade de competir. A segunda lição é institucional: contratos sem concorrência transformam o custo do serviço em quanto o contratado precisar, e cada aumento cria a expectativa do próximo. São os mesmos dilemas de qualquer política setorial: medir o resultado pelo que se compra, não pelo que se gasta."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Subvenção postal (mail subvention)",
+          "pagamento do governo a uma companhia de navegação por levar as malas postais em linha regular."
+        ],
+        [
+          "Prêmio à construção (construction bounty)",
+          "valor pago por tonelada ao navio construído no país."
+        ],
+        [
+          "Prêmio à navegação (navigation bounty)",
+          "valor pago por tonelada e por distância navegada sob a bandeira nacional."
+        ],
+        [
+          "Tonelada bruta e líquida",
+          "medidas de volume do navio; a líquida exclui espaços não usados para carga ou passageiros."
+        ],
+        [
+          "Indústria nascente (infant industry)",
+          "argumento de que a proteção temporária permite a um setor novo alcançar os concorrentes estrangeiros."
+        ],
+        [
+          "Prêmio oculto à exportação",
+          "efeito de uma tarifa que permite ao produtor protegido cobrar caro no mercado interno e vender barato no externo."
+        ]
+      ],
+      "hoje": "A pergunta de Meeker continua aberta. Governos ainda subsidiam estaleiros, reservam a navegação costeira a navios nacionais e defendem a marinha mercante por razões de defesa. O debate sobre política industrial voltou a ganhar força, com subsídios a chips, energia e veículos. As distinções do estudo seguem úteis: subsídio e tarifa têm efeitos diferentes sobre o consumidor; parte do ganho pode ir para estrangeiros; e contratos sem concorrência tendem a crescer. A medida de sucesso continua sendo a capacidade de competir sem o pagamento, não o tamanho do setor subsidiado.",
+      "itens": [
+        [
+          "History of Shipping Subsidies",
+          "pp. 1–229",
+          "2999946"
+        ]
+      ],
+      "jstor_edicao": "i350417",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1905-legislacao-fabril-nova-york",
+      "numero": 76,
+      "titulo": "Fairchild, 1905: vinte anos de lei fabril em Nova York",
+      "titulo_original": "The Factory Legislation of the State of New York",
+      "autores": "Fred Rogers Fairchild",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 6, nº 4",
+      "data": "1905",
+      "chamada": "Em 1905, Fred Rogers Fairchild reconstituiu a história da lei fabril de Nova York, de 1886 a 1903, e mediu com dados do Census e da inspeção o que ela fez com o trabalho infantil.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1884, o comissário de estatísticas do trabalho de Nova York parou uma dúzia de crianças na saída de uma fábrica de Cohoes e perguntou suas idades. A mais velha tinha 13 anos. As outras tinham 10, 11 e 12. A maioria trabalhava havia mais de um ano; uma, de 11 anos, trabalhava havia cinco. Fred Rogers Fairchild usa esse levantamento para descrever o ponto de partida da lei que estuda."
+        },
+        {
+          "tipo": "p",
+          "texto": "The Factory Legislation of the State of New York saiu em 1905 como o nº 4 do vol. 6 da terceira série das Publications of the American Economic Association. O autor delimita o objeto: os artigos V e VI da lei do trabalho (capítulo 415 das leis de 1897), partes da lei de educação compulsória e a lei de responsabilidade do empregador, com a legislação em vigor até 1º de outubro de 1903. Deixa de fora o trabalho em cortiços e as padarias. A primeira parte é histórica; a segunda trata da administração e dos resultados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como era antes da lei?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quase sem regra. Uma lei de 1881 exigia assentos para mulheres em lojas e fábricas, mas não previa pena nem inspeção, e nunca foi cumprida. Testemunhar contra o patrão significava demissão; num caso em Nova York, cerca de cinquenta vendedoras compareceram para depor a favor da defesa. Crianças de 8 a 15 anos trabalhavam em geral onze horas por dia nas cidades fabris do interior. Nas fábricas de charutos, segundo os depoimentos, elas eram de 5% a 25% dos trabalhadores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "29.529",
+          "texto": "Número médio de crianças com menos de 16 anos nos estabelecimentos manufatureiros e mecânicos do estado em 1880, segundo o Census de 1900. O comissário estimou de 1.500 a 2.000 crianças com menos de 15 anos só na fabricação de colarinhos de papel em Nova York. Numa fiação de Cohoes, de 3.200 empregados, 1.200 tinham menos de 16 anos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a lei dos charutos caiu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira tentativa foi proibir a fabricação de charutos em cortiços, aprovada em 1883 por pressão do sindicato dos charuteiros. No sistema, o fabricante alugava os apartamentos às famílias que trabalhavam para ele, e lucrava duas vezes. Fairchild registra dois motivos: a saúde e as condições de trabalho, e o desejo dos líderes sindicais de controlar o ofício, o que um dirigente lhe admitiu. Em 20 de janeiro de 1885, a Court of Appeals declarou a lei inconstitucional, por interferir na liberdade pessoal e na propriedade sem relação real com a saúde pública. Segundo o autor, em vinte anos ninguém mais tentou proibir diretamente o trabalho em cortiços."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem fez a lei de 1886?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Duas forças. De um lado, os sindicatos, reunidos na Workingmen's Assembly, com poder de voto em Albany. De outro, entidades filantrópicas, como a Society for the Prevention of Cruelty to Children, que redigiam os projetos. Os fabricantes se opuseram ano após ano, com o argumento de que a indústria seria arruinada ou deixaria o estado. A lei passou em maio de 1886, como capítulo 409. Proibia o trabalho fabril de menores de 13 anos e limitava a 60 horas semanais o de menores de 18 e de mulheres com menos de 21. Previa multa de 50 a 100 dólares e um inspetor com um assistente, com despesas de até US$ 2.500 por ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei foi sendo ampliada. Em 1889, a idade mínima subiu para 14 anos. Em 1899, o limite de horas passou a valer para todas as mulheres. O corpo de inspetores foi de um titular e um assistente para oito adjuntos no ano seguinte e cinquenta na época do estudo, dez dos quais podiam ser mulheres. O salário de um adjunto era de 1.200 dólares por ano. Em 1901, a inspeção foi fundida com o escritório de estatísticas num departamento do trabalho, decisão que o autor considera prejudicial à fiscalização."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A lei reduziu o trabalho infantil?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelos números do Census, sim. As crianças eram 5,9% dos empregados na indústria do estado em 1870 e 5,6% em 1880. Em 1890, eram 1,6%, e assim ficaram em 1900. Entre 1880 e 1890, o número absoluto caiu 58,5%. Fairchild adverte que parte da queda pode ser aparente, por mudanças de método e declarações falsas de idade, mas conclui que a lei teve papel importante. Também registra que a indústria do estado continuou crescendo, ao contrário do que os opositores previam."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12.680 → 4.740",
+          "texto": "Crianças analfabetas de 10 a 14 anos no estado em 1880 e em 1900, segundo o Census (7.669 em 1890). A proporção caiu de 2,5% para 1,4% e depois para 0,7%. O número de crianças empregadas foi de 20.627 (1870) a 29.529 (1880), 12.263 (1890) e 13.139 (1900)."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto fraco era a prova de idade. Até 1903, bastava a declaração juramentada dos pais, e o autor descreve uma corrente constante de crianças de 11, 12 e 13 anos entrando nas fábricas com declarações falsas. A legislação de 1903 exigiu prova documental e limitou a nove horas diárias o trabalho de menores de 16. No primeiro trimestre de 1904, 1.361 pedidos de certificado foram recusados, 560 por prova insuficiente da data de nascimento. No caso da Chelsea Jute Mills, o juiz Roesch afastou a defesa da declaração falsa:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O empregador age por sua conta e risco.”",
+          "original": "“The employer acts at his peril.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "E a segurança de quem já era adulto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui os tribunais limitaram a lei. A lei fabril obrigava a proteger engrenagens e máquinas. Em Knisley vs. Pratt, uma operária teve o braço amputado depois de prendê-lo em engrenagens sem proteção, em violação clara da lei. A Court of Appeals manteve a rejeição da ação: ao aceitar o emprego conhecendo o risco, a empregada podia renunciar à proteção legal. O tribunal não viu razão para que o empregado não pudesse:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“assumir o risco evidente do negócio, tanto sob a lei fabril quanto fora dela”",
+          "original": "“to assume the obvious risk of the business as well under the factory act as otherwise”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas saídas de incêndio, o efeito é mais claro. Em 1885, de 816 respostas a um questionário oficial, 350 informavam ter saída de incêndio externa e 318, não. A lei de 1887 era mal redigida e produziu escadas pouco úteis; foi corrigida em 1889. Em 1892, estimava-se que quatro mil saídas haviam sido construídas por ordem dos inspetores. Sobre as regras sanitárias, o autor é cauteloso: a maioria das boas fábricas teria sido bem construída mesmo sem a lei."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o melhor do estudo é a combinação de fontes independentes: Census, relatórios da inspeção, processos judiciais e entrevistas. O autor declara de saída que não tentará medir efeitos sobre salários, porque as causas são muitas, e restringe a pergunta ao que a lei pretendia fazer. É uma escolha honesta. O limite está na queda de 1880 a 1890: o Census mostra o resultado, mas não separa a lei de outras mudanças, como a escola e a técnica, e o próprio autor admite isso.",
+            "O caso mostra que uma regra vale o que vale a sua prova. A idade mínima de 1886 dependia da palavra dos pais; só a exigência de documentos, em 1903, deu dentes à proibição. E o caso Knisley mostra o outro lado: uma obrigação legal pode ser esvaziada se o tribunal permitir que a parte mais fraca renuncie a ela ao aceitar o emprego. Regra, fiscalização e interpretação judicial formam um único sistema."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Lei fabril (factory law)",
+          "conjunto de normas que regulam o trabalho em estabelecimentos manufatureiros: idade, jornada, segurança e higiene."
+        ],
+        [
+          "Poder de polícia (police power)",
+          "competência do estado para restringir liberdades em nome da saúde, segurança e moral públicas."
+        ],
+        [
+          "Declaração juramentada (affidavit)",
+          "afirmação escrita sob juramento; até 1903, era a prova de idade da criança."
+        ],
+        [
+          "Risco assumido (assumed risk)",
+          "doutrina do direito comum segundo a qual quem aceita um emprego conhecendo o perigo aceita também o risco."
+        ],
+        [
+          "Court of Appeals",
+          "o tribunal mais alto do estado de Nova York."
+        ],
+        [
+          "Cortiço (tenement-house)",
+          "prédio de apartamentos populares, onde famílias também trabalhavam por encomenda."
+        ]
+      ],
+      "hoje": "O trabalho infantil nas fábricas dos países ricos virou exceção, mas as perguntas de Fairchild continuam atuais onde a fiscalização é fraca. A lição sobre prova de idade reaparece em qualquer regra que dependa de autodeclaração. A tensão entre proteção legal e liberdade contratual ainda divide tribunais, por exemplo quando se discute se o trabalhador pode abrir mão de direitos ao aceitar um contrato. E o desenho da inspeção, sua independência e seu número de fiscais seguem decisivos para que a lei escrita produza efeito.",
+      "itens": [
+        [
+          "[The Factory Legislation of the State of New York]: Introduction",
+          "pp. 1–3",
+          "2999958"
+        ],
+        [
+          "The Factory Legislation of the State of New York",
+          "pp. 4–218",
+          "2999959"
+        ]
+      ],
+      "jstor_edicao": "i350418",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1906-a-decima-oitava-reuniao-anual",
+      "numero": 77,
+      "titulo": "Baltimore, 1905: o amor à riqueza e o serviço público",
+      "titulo_original": "Papers and Proceedings of the Eighteenth Annual Meeting, Baltimore, Md., December 27–29, 1905",
+      "autores": "F. W. Taussig (presidente da associação), Jacob H. Hollander, Hugo R. Meyer, Balthasar Henry Meyer, Frederic C. Howe, Winthrop M. Daniels, H. W. Farnam, T. S. Adams, W. E. B. Du Bois, Alfred Holt Stone e os debatedores John Bates Clark, Roswell C. McCrea, Frank A. Fetter, T. N. Carver, Henry R. Seager, Victor Rosewater, David Kinley, Frank H. Dixon, S. G. McPherson, Don C. Barrett, W. C. Fisher, F. B. Thurber, D. C. W. Thom, Leo S. Rowe, John A. Fairlie, Milo R. Maltbie, J. Dorsey Forrest, Albert Shaw, Jeremiah W. Jenks, Richard T. Ely, Nicholas P. Gilman, George E. Barnett, W. B. Prescott, Roscoe Conkling Bruce, Charles Lee Raper, Theodore Marburg e M. B. Hammond",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 7, nº 1",
+      "data": "fevereiro de 1906",
+      "chamada": "Baltimore, dezembro de 1905: Taussig pergunta como atrair talento para o governo, Hollander cobra fatos da teoria da distribuição e dois Meyer divergem sobre quem deve fixar a tarifa ferroviária.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No discurso presidencial da décima oitava reunião anual, F. W. Taussig, presidente da associação, foi buscar em Nassau Senior o único traço da natureza humana que a economia clássica tomava como postulado:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“que todo homem deseja obter riqueza adicional com o menor sacrifício possível”",
+          "original": "“that every man desires to obtain additional wealth with as little sacrifice as possible”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A reunião se realizou em Baltimore de 27 a 29 de dezembro de 1905, e os trabalhos saíram em fevereiro de 1906 como nº 1 do vol. 7 da terceira série. Depois do discurso presidencial vieram cinco temas: o estado da teoria da distribuição, a regulação das tarifas ferroviárias, a propriedade municipal dos serviços públicos, a violência nas disputas trabalhistas e o futuro econômico da população negra. Cada um teve dois trabalhos ou um trabalho e debatedores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o capitão de indústria não vai para o governo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Taussig decompôs o desejo de riqueza em quatro motivos: conforto, distinção, impulso de atividade e paixão pelo poder. Os três últimos, argumentou, podem ser satisfeitos no serviço público, desde que haja mandato longo e autoridade real. O sistema americano de freios e contrapesos, com muitos cargos eleitos e mandatos curtos, afastava os administradores capazes e abria espaço ao chefe político. A saída proposta: mandatos mais longos, menos cargos eletivos, maior poder de nomeação. Mas a questão, concluiu, era também de caráter, e não só de máquina política."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A teoria da distribuição é ciência?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jacob H. Hollander respondeu que não, pelos critérios de Comte: faltava consenso e faltava previsão. A teoria vinha sendo feita por dialética e crítica de textos, sem coleta sistemática dos fatos. Propôs suspender a produção de manuais e fazer uma descrição econômica dos Estados Unidos de 1906, de sindicatos a juros e aluguéis urbanos. A teoria seria buscada"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“não necessariamente a partir dos fatos, mas por meio dos fatos”",
+          "original": "“not necessarily from the facts, but through the facts”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os debatedores reagiram. John Bates Clark negou o contraste entre o método do físico e o do economista. Carver sustentou que o método que Hollander chamava de dedutivo era o próprio método analítico que ele defendia. Seager, autor de manual, defendeu escrever manuais. Rosewater leu o trabalho como pedido de mais recursos para pesquisa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve fixar a tarifa ferroviária?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hugo R. Meyer argumentou que as tarifas americanas, embora pareçam arbitrárias, são fixadas pela competição entre ferrovias, hidrovias e centros produtores, e que a Interstate Commerce Commission tentara legislar por conta própria ao condená-las. Fixar tarifa, disse, é função legislativa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "32 de 35",
+          "texto": "Casos decididos em que os tribunais federais deram razão às ferrovias contra ordens da Interstate Commerce Commission, segundo Hugo R. Meyer. De 1887 a outubro de 1904, a comissão proferiu 297 decisões formais, 194 favoráveis aos reclamantes; em cerca de 80% destas, as ferrovias cumpriram a decisão no todo ou em parte."
+        },
+        {
+          "tipo": "p",
+          "texto": "Balthasar H. Meyer, de Wisconsin, respondeu que muitas tarifas não registram forças de mercado, mas improvisos, pressões de grandes embarcadores e más soluções de compromisso. Defendeu dar à comissão poder de fixar tarifas e de examinar a contabilidade das ferrovias, e encerrou:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“ou propriedade e operação pelo governo, ou controle governamental rigoroso”",
+          "original": "“either government ownership and operation, or rigid governmental control”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A cidade deve ser dona da água, da luz e do bonde?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frederic C. Howe defendeu a propriedade municipal como expressão da democracia e citou resultados de usinas de luz e serviços de água em Detroit, Chicago, Cleveland e Nova York. Winthrop M. Daniels pediu o teste financeiro: a cidade presta serviço igual a preço autossustentável menor? Com a análise de Leonard Darwin sobre a experiência britânica, concluiu que a evidência era indeterminada e preferiu uma política de concessões bem desenhada."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 65",
+          "texto": "Custo total médio por lâmpada de arco da usina municipal de Detroit em dez anos, segundo Howe, ante US$ 102, melhor preço privado obtido. O custo de operação médio foi de US$ 43; Howe estima a economia do período, incluindo impostos não recolhidos, em US$ 1.183.813."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanta violência há nas greves?"
+        },
+        {
+          "tipo": "p",
+          "texto": "H. W. Farnam propôs melhorar as estatísticas de greves do Bureau of Labor, que cobriam 1881 a 1900, medindo sua magnitude e classificando as causas. T. S. Adams, com números compilados por Slason Thompson, comparou a violência das greves com outras formas de violência e argumentou que o problema maior era a coerção moral que a cercava. Propôs uma comissão de especialistas para fomentar a negociação coletiva e, em último caso, arbitrar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "180",
+          "texto": "Mortos em greves nos Estados Unidos de janeiro de 1902 a junho de 1904, segundo os números de Slason Thompson citados por T. S. Adams. No mesmo período houve 1.651 feridos e 5.533 presos. Dos mortos, 116 eram trabalhadores não sindicalizados e 51 grevistas sindicalizados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual o futuro econômico da população negra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A última sessão teve dois trabalhos com conclusões opostas. W. E. B. Du Bois descreveu quatro caminhos tentados desde a emancipação, entre eles a terra própria e a “economia de grupo”, e apontou como condições do avanço a escola, a justiça e o direito de voto. Alfred Holt Stone, a partir de sua experiência como fazendeiro, tratou da competição dos trabalhadores brancos e imigrantes. M. B. Hammond defendeu combinar a observação local com os números do censo."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o discurso de Taussig é o texto mais atual do volume. Ele trata o recrutamento para o setor público como problema de incentivos: se o talento busca distinção, poder e realização, um cargo com mandato curto, autoridade fatiada e eleição a cada um ou dois anos não oferece nada disso, e o espaço fica com quem opera a máquina por fora. A proposta de concentrar responsabilidade, com mandatos mais longos e menos cargos eletivos, é a mesma que reaparece sempre que se discute capacidade estatal. E ele mesmo ressalva que é uma questão de grau, não de abolir os controles.",
+            "A sessão sobre distribuição e a sessão ferroviária tratam, no fundo, da mesma dificuldade de método. Hollander cobra fatos antes de teorias; os dois Meyer discutem se as tarifas existentes refletem forças de mercado ou discricionariedade, e cada um cita casos a seu favor sem uma base comum de dados. O debate sobre propriedade municipal repete o padrão: Howe e Daniels leem as mesmas estatísticas britânicas de modo oposto, e Daniels lembra que uma média de preços nada diz sem densidade, custo do carvão e depreciação. A lição que tiro é a de Hammond: observação local e estatística agregada precisam corrigir uma à outra."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Capitão de indústria",
+          "expressão da época para o dirigente de grandes empresas."
+        ],
+        [
+          "Freios e contrapesos",
+          "divisão de poderes entre executivo, legislativo e cargos eleitos, que limita cada um."
+        ],
+        [
+          "Chefe político (boss)",
+          "líder partidário que controla nomeações e votos de fora da estrutura formal do governo."
+        ],
+        [
+          "Teoria da distribuição",
+          "parte da economia que explica como o produto se divide em salários, juros, lucros e renda da terra."
+        ],
+        [
+          "Fundo de salários",
+          "doutrina clássica segundo a qual os salários dependem de um fundo de capital previamente reservado."
+        ],
+        [
+          "Produtividade marginal",
+          "teoria que remunera cada fator pelo acréscimo de produto da última unidade empregada."
+        ],
+        [
+          "Sistema de pontos-base (basing point)",
+          "esquema em que as tarifas para uma região se calculam a partir de certos centros de distribuição."
+        ],
+        [
+          "Tarifa por distância",
+          "tarifa ferroviária proporcional à distância percorrida, sem considerar a concorrência."
+        ],
+        [
+          "Propriedade municipal",
+          "prestação de serviços como água, luz, gás e bondes por empresas da própria cidade."
+        ],
+        [
+          "Concessão (franchise)",
+          "direito dado por uma cidade a uma empresa privada para explorar um serviço público."
+        ],
+        [
+          "Lockout",
+          "paralisação decidida pelo empregador, que fecha o estabelecimento aos trabalhadores."
+        ],
+        [
+          "Arbitragem compulsória",
+          "solução de conflitos trabalhistas por decisão obrigatória de um órgão público."
+        ]
+      ],
+      "hoje": "A pergunta de Taussig, como atrair gestores capazes para o setor público, segue no centro das discussões sobre capacidade estatal, carreiras e autonomia de agências. A cobrança de Hollander por fatos sistemáticos antecipa a virada empírica da economia, apoiada hoje em dados administrativos. O choque entre os dois Meyer reaparece em toda revisão tarifária de concessões, e o debate entre Howe e Daniels se repete quando cidades discutem reestatizar ou conceder água, energia e transporte. A medição de conflitos trabalhistas proposta por Farnam também continua a ser um desafio estatístico.",
+      "itens": [
+        [
+          "The Love of Wealth and the Public Service",
+          "pp. 1–23",
+          "2999962"
+        ],
+        [
+          "The Present State of the Theory of Distribution",
+          "pp. 24–45",
+          "2999963"
+        ],
+        [
+          "The Present State of the Theory of Distribution-Discussion",
+          "pp. 46–60",
+          "2999964"
+        ],
+        [
+          "Government Regulation of Railway Rates",
+          "pp. 61–68",
+          "2999965"
+        ],
+        [
+          "Government Regulation of Railway Rates",
+          "pp. 69–83",
+          "2999966"
+        ],
+        [
+          "Discussion on Papers on Railway Rate Regulation",
+          "pp. 84–112",
+          "2999967"
+        ],
+        [
+          "The Case for Municipal Ownership",
+          "pp. 113–132",
+          "2999968"
+        ],
+        [
+          "Municipal Ownership",
+          "pp. 133–143",
+          "2999969"
+        ],
+        [
+          "Municipal Ownership-Discussion",
+          "pp. 144–159",
+          "2999970"
+        ],
+        [
+          "The Quantitative Study of the Labor Movement",
+          "pp. 160–175",
+          "2999971"
+        ],
+        [
+          "Violence in Labor Disputes",
+          "pp. 176–206",
+          "2999972"
+        ],
+        [
+          "Violence in Strikes-Discussion",
+          "pp. 207–218",
+          "2999973"
+        ],
+        [
+          "The Economic Future of the Negro",
+          "pp. 219–242",
+          "2999974"
+        ],
+        [
+          "The Economic Future of the Negro. The Factor of White Competition",
+          "pp. 243–294",
+          "2999975"
+        ],
+        [
+          "The Economic Future of the Negro: Discussion",
+          "pp. 295–324",
+          "2999976"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Love of Wealth and the Public Service",
+          "autores": "F. W. Taussig; discurso presidencial",
+          "paginas": "pp. 1–23",
+          "resumo": "Taussig parte do postulado de Senior e o declara insuficiente. Decompõe o desejo de riqueza do capitão de indústria em amor ao conforto, desejo de distinção, impulso de atividade e paixão pelo domínio, e nota que a canalização desses motivos para a indústria trouxe ganhos ao substituir o ideal militar. Pergunta se o mesmo talento pode servir ao governo e aponta obstáculos: freios e contrapesos, muitos cargos eleitos, mandatos curtos e o surgimento do chefe político. Compara com os administradores coloniais britânicos e a burocracia prussiana, sem propô-los como modelo. Propõe mandatos longos, menos eleições e mais poder de nomeação, e conclui que tudo depende do caráter do povo.",
+          "jstor": "2999962"
+        },
+        {
+          "titulo": "The Present State of the Theory of Distribution",
+          "autores": "Jacob H. Hollander",
+          "paginas": "pp. 24–45",
+          "resumo": "Hollander reconstitui a história da teoria da distribuição, de Ricardo à queda do fundo de salários e às teorias de Walker, Clark e Marshall, e conclui que nenhuma doutrina interpreta a distribuição moderna. Pelos critérios de Comte, consenso e previsão, a teoria não seria ciência positiva. Classifica os métodos em histórico, metafísico e analítico e sustenta que o economista não usou indução de verdade. Propõe interromper a produção de manuais e reduzir a especulação, em favor de uma descrição sistemática da economia americana de 1906: sindicatos, remuneração, lucros, corporações, juros, bancos, posse da terra e aluguéis. Pede, para isso, acesso a documentos, tempo e verbas de investigação.",
+          "jstor": "2999963"
+        },
+        {
+          "titulo": "The Present State of the Theory of Distribution-Discussion",
+          "autores": "John Bates Clark, Roswell C. McCrea, Frank A. Fetter, T. N. Carver, Henry R. Seager, Victor Rosewater e David Kinley",
+          "paginas": "pp. 46–60",
+          "resumo": "Clark e Carver defendem o valor da teoria recente; McCrea examina, em tom tentativo, a teoria da produtividade marginal; Fetter defende o papel auxiliar do método histórico; Seager defende os manuais; Rosewater apoia o pedido de verbas; Kinley insiste que não há boa prática sem boa teoria.",
+          "jstor": "2999964"
+        },
+        {
+          "titulo": "Government Regulation of Railway Rates",
+          "autores": "Hugo R. Meyer",
+          "paginas": "pp. 61–68",
+          "resumo": "Hugo R. Meyer sustenta que as tarifas ferroviárias americanas parecem arbitrárias, mas são fixadas pela competição entre ferrovias, hidrovias e mercados, e discriminam de modo honesto e inteligente. Lembra que os tribunais federais deram razão às ferrovias em 32 dos 35 casos decididos contra ordens da Interstate Commerce Commission. Acusa a comissão de ler na lei teorias que o Congresso não aprovou, como o direito às vantagens da localização e as tarifas pelo custo do serviço, e cita casos de pontos-base, moagem e importações. Argumenta que fixar tarifa é legislar e que a comissão não precisa desse poder para corrigir uma tarifa irrazoável.",
+          "jstor": "2999965"
+        },
+        {
+          "titulo": "Government Regulation of Railway Rates",
+          "autores": "Balthasar Henry Meyer",
+          "paginas": "pp. 69–83",
+          "resumo": "B. H. Meyer parte de que a ferrovia difere da empresa comum e de que o direito de regular está assentado há mais de um quarto de século. Rejeita a tese de que o tarifador apenas registra forças comerciais: muitas tarifas, diz, resultam de erro, de pressão de grandes embarcadores ou de compromissos ruins. Defende dar à comissão poder de fixar tarifas, com limites legais, e de examinar a contabilidade das ferrovias, condição para detectar descontos. Responde às objeções sobre investidores e sobre a experiência da Alemanha e da França. Conclui que as alternativas são a propriedade estatal ou o controle rigoroso, e escolhe o controle.",
+          "jstor": "2999966"
+        },
+        {
+          "titulo": "Discussion on Papers on Railway Rate Regulation",
+          "autores": "Frank H. Dixon, S. G. McPherson, Don C. Barrett, W. C. Fisher, F. B. Thurber, D. C. W. Thom e Hugo R. Meyer",
+          "paginas": "pp. 84–112",
+          "resumo": "Dixon vê nas teses de Hugo Meyer um laissez-faire extremo; McPherson compara balanços de ferrovias e empresas comuns; Barrett discute a tarifa por distância; Fisher defende a comissão; Thurber e Thom tratam de rebates e riscos da regulação; H. R. Meyer e B. H. Meyer trocam réplicas sobre fontes.",
+          "jstor": "2999967"
+        },
+        {
+          "titulo": "The Case for Municipal Ownership",
+          "autores": "Frederic C. Howe",
+          "paginas": "pp. 113–132",
+          "resumo": "Howe apresenta a propriedade municipal como expressão industrial da democracia e diz que o teste decisivo não é financeiro, mas de vida cívica. Ainda assim, afirma que ela paga: cita a usina de luz de Detroit, com custo por lâmpada inferior ao melhor preço privado, e os serviços de água de Chicago, Cleveland, Detroit, Boston e Nova York, com receitas acima de custos e juros. Invoca a experiência das cidades britânicas, com tarifas de bonde e gás mais baixas. Sustenta que, com os serviços nas mãos da cidade, cessariam as fontes de corrupção e os homens capazes entrariam na política: o bom governo viria com mais governo.",
+          "jstor": "2999968"
+        },
+        {
+          "titulo": "Municipal Ownership",
+          "autores": "Winthrop M. Daniels",
+          "paginas": "pp. 133–143",
+          "resumo": "Daniels admite que o balanço financeiro não esgota o valor de um serviço municipal, mas argumenta que o eleitor americano exigirá a pergunta central: a cidade presta serviço igualmente eficiente a um preço autossustentável menor que o da empresa privada? Examina a evidência britânica invocada por Howe e cita a análise de Leonard Darwin, segundo quem o resultado líquido não seria grande perda nem grande ganho. Considera indeterminadas as comparações de custos e preços sem ajustar densidade, carvão e depreciação. Propõe, em vez da municipalização, uma política de concessões bem redigida e uma reforma que concentre a responsabilidade política e reduza o número de cargos eletivos.",
+          "jstor": "2999969"
+        },
+        {
+          "titulo": "Municipal Ownership-Discussion",
+          "autores": "Leo S. Rowe, John A. Fairlie, Milo R. Maltbie, J. Dorsey Forrest, Albert Shaw, Jeremiah W. Jenks, Richard T. Ely e F. B. Thurber",
+          "paginas": "pp. 144–159",
+          "resumo": "Maltbie trata das taxas de depreciação nas contas municipais britânicas; os demais comentam os trabalhos de Howe e Daniels.",
+          "jstor": "2999970"
+        },
+        {
+          "titulo": "The Quantitative Study of the Labor Movement",
+          "autores": "H. W. Farnam",
+          "paginas": "pp. 160–175",
+          "resumo": "Farnam elogia a série americana de estatísticas de greves, de 1881 a 1900, mas aponta duas falhas. Primeira: falta um índice único da magnitude das greves. Compara quatro medidas possíveis, número de greves, estabelecimentos, empregados e perda de salários, mostra que os picos mudam conforme a medida e discute os defeitos de cada uma. Segunda: a classificação das causas não revela seu sentido econômico. Propõe agrupar as greves por atitude das partes, separando as que buscam vantagens positivas das que resistem a economias patronais. Pelos seus cálculos, as greves contra economias fracassaram com mais frequência, sobretudo nos anos de crise.",
+          "jstor": "2999971"
+        },
+        {
+          "titulo": "Violence in Labor Disputes",
+          "autores": "T. S. Adams",
+          "paginas": "pp. 176–206",
+          "resumo": "Adams usa os números de Slason Thompson para 1902 a 1904, período que inclui a greve do antracito e os conflitos do Colorado, e conclui que a violência física nas greves é pequena perto de linchamentos, homicídios urbanos e acidentes industriais. O mal real seria a atmosfera de ameaça, boicote e intimidação, a violência moral. Aponta a aplicação desigual da lei, que pune a coerção dos trabalhadores e não a dos empregadores, como o uso da fome nas greves longas. Propõe nivelar a lei por cima e criar uma comissão de especialistas que promova a negociação coletiva e arbitre quando ela falhar, inclusive de forma compulsória.",
+          "jstor": "2999972"
+        },
+        {
+          "titulo": "Violence in Strikes-Discussion",
+          "autores": "Nicholas P. Gilman, George E. Barnett e W. B. Prescott",
+          "paginas": "pp. 207–218",
+          "resumo": "Gilman rejeita comparar a violência das greves com outros crimes; Barnett resume as três teses de Adams e discute se a violência diminui; Prescott, que participou da condução de muitas greves, diz não ter conhecido violência sistemática.",
+          "jstor": "2999973"
+        },
+        {
+          "titulo": "The Economic Future of the Negro",
+          "autores": "W. E. B. Du Bois",
+          "paginas": "pp. 219–242",
+          "resumo": "Du Bois propõe examinar a formação de classes econômicas entre os negros americanos e rejeita tratá-los como grupo homogêneo. Distingue quatro esforços após a emancipação: o dos antigos criados domésticos, o da indústria competitiva, o da posse da terra e o da “economia de grupo”, rede de serviços e negócios que atende a própria comunidade. Analisa a migração para as cidades, o preconceito racial, que só admite negros em substituição de grupo e com piores condições, e a eficiência. Sobre os dois milhões de trabalhadores comuns, aponta leis de contrato e vadiagem e a falta de justiça, e propõe escola, justiça e voto.",
+          "jstor": "2999974"
+        },
+        {
+          "titulo": "The Economic Future of the Negro. The Factor of White Competition",
+          "autores": "Alfred Holt Stone",
+          "paginas": "pp. 243–294",
+          "resumo": "Stone declara que não discutirá estatísticas do censo e que se apoiará em observações da vida comum. Questiona as estimativas da riqueza negra e a ideia de que a população começou do zero em 1865, lembrando os quase meio milhão de negros livres de 1860 e a posição dos escravizados no trabalho qualificado do Sul. Seu tema central é a competição dos trabalhadores brancos e imigrantes, que, diz, vinha deslocando o negro de ofícios e da construção. Compara contas de arrendatários italianos e negros numa fazenda e conclui que o problema principal seria de caráter e de vida doméstica das massas.",
+          "jstor": "2999975"
+        },
+        {
+          "titulo": "The Economic Future of the Negro: Discussion",
+          "autores": "Roscoe Conkling Bruce, Charles Lee Raper, Theodore Marburg, M. B. Hammond e H. W. Farnam",
+          "paginas": "pp. 295–324",
+          "resumo": "Bruce descreve o cinturão negro do Alabama; Raper e Marburg comparam as teses de Du Bois e Stone; Hammond defende usar o censo junto com a observação local; Farnam adverte contra generalizações apressadas.",
+          "jstor": "2999976"
+        }
+      ],
+      "jstor_edicao": "i350419",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1906-tarifa-ferroviaria-e-os-tribunais",
+      "numero": 78,
+      "titulo": "Smalley, 1906: os tribunais e o controle da tarifa ferroviária",
+      "titulo_original": "Railroad Rate Control in Its Legal Aspects: A Study of the Effect of Judicial Decisions upon Public Regulation of Railroad Rates",
+      "autores": "Harrison Standish Smalley, Ph.D. (Instructor in Political Economy, University of Michigan)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 7, nº 2",
+      "data": "1906",
+      "chamada": "Em 1906, Harrison S. Smalley examinou como as decisões da Suprema Corte americana passaram a limitar as tarifas fixadas pelas comissões ferroviárias estaduais e propôs um modo de contornar o impasse.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 26 de agosto de 1897, a comissão ferroviária de Dakota do Sul publicou uma tabela de tarifas que entraria em vigor em 15 de setembro. No dia seguinte, várias ferrovias foram à Circuit Court federal pedir sua suspensão, e a liminar foi concedida. Em julho de 1898, o tribunal deu razão à comissão; a ferrovia St. Paul recorreu, e a Suprema Corte manteve a suspensão enquanto o caso tramitava. O decreto final só veio em agosto de 1901."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso é o exemplo central de Railroad Rate Control in Its Legal Aspects, de Harrison Standish Smalley, instrutor de economia política na University of Michigan. O tema é a doutrina da revisão judicial: o princípio de que os tribunais podem examinar tarifas fixadas por comissões e barrar as que julgarem não razoáveis. O autor escreve em 14 de abril de 1906, quando lhe parece provável que o Congresso aprove em breve uma lei federal de tarifas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que regular tarifas de ferrovia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Smalley começa pela economia do setor. Até cerca de 1870, os governos americanos não interferiam nas tarifas. Os males que motivaram a regulação eram discriminação, sobretudo por abatimentos secretos, extorsão onde não havia concorrência e instabilidade de preços. A causa, para o autor, está na estrutura de custos: as despesas crescem pouco quando o tráfego cresce muito, e é impossível saber quanto custa um serviço específico. Sem conhecer o piso, o gerente de tráfego aceita carga a quase qualquer preço."
+        },
+        {
+          "tipo": "p",
+          "texto": "O direito de regular foi firmado nos Granger Cases, oito processos decididos pela Suprema Corte em 1876. A ferrovia, disse a Corte, é negócio público: a empresa é transportadora comum e a linha é estrada pública. Nos mesmos casos, a Corte recusou aos tribunais o papel de rever o valor da tarifa. Contra abusos dos legisladores, escreveu o Chief Justice Waite em Munn v. Illinois:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o povo deve recorrer às urnas, não aos tribunais”",
+          "original": "“the people must resort to the polls, not to the courts”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a Corte mudou de posição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1886, Waite incluiu numa decisão uma ressalva: o poder de regular não é poder de destruir. Seguiram-se cinco anos de incerteza. A virada veio em 24 de março de 1890, em Chicago, Milwaukee and St. Paul R. Co. v. Minnesota, uma disputa sobre tarifas de transporte de leite. O juiz Blatchford, pela maioria, decidiu que a razoabilidade da tarifa exige investigação judicial, com base na 14ª Emenda. O juiz Bradley divergiu, acompanhado por Gray e Lamar. Smalley observa que Blatchford não citou precedente além da ressalva de 1886:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sua doutrina era direito novo, feito do nada.”",
+          "original": "“His doctrine was new law, freshly made out of whole cloth.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A doutrina foi elaborada nos Reagan cases, do Texas, em 1894, e em Smyth v. Ames, de 1898, que derrubou a lei de tarifas máximas de Nebraska. Ali a Corte fixou que a ferrovia tem direito a um retorno justo sobre o valor razoável da propriedade, não sobre o capital nominal, que pode estar inflado. Entre os elementos desse valor, listou o custo original, o custo atual, o valor de mercado dos títulos, a capacidade de ganho sob as tarifas e as despesas operacionais. Em nota, Smalley aponta que os dois últimos já entram no cálculo do lucro e não podem entrar também na base sobre a qual ele é medido."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A renda acima do razoável não é propriedade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A crítica central do livro é jurídica, mas tem conteúdo econômico. Pela doutrina, o Estado pode reduzir a renda da ferrovia até o ponto da renda razoável; abaixo dele, a redução é tomada de propriedade e exige indenização. Para Smalley, dividir a renda em uma parte que é propriedade e outra que não é constitui ficção jurídica. O erro, a seu ver, foi tratar o controle de tarifas como desapropriação, quando a Corte dizia apoiá-lo no poder de polícia. Leis que obrigam a instalar engates automáticos também reduzem a renda, e nenhuma ferrovia pode contestá-las por isso. O teste, propõe, deveria ser o interesse público."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o tribunal estimava o efeito da tarifa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os tribunais supunham que o tráfego não mudaria com a tarifa nova e projetavam a receita futura reduzindo a receita passada na mesma proporção do corte sobre a tarifa de tabela. Smalley vê dois vieses. O primeiro ignora que tarifa menor costuma atrair mais carga, ponto admitido pelo próprio advogado das ferrovias em Smyth v. Ames. O segundo ignora que a receita passada foi obtida com tarifas efetivas abaixo das de tabela, por causa de abatimentos e discriminações. Assim, quanto mais a ferrovia violou a lei, maior parece o corte e mais forte fica seu caso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a comissão não conseguia aplicar a tarifa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo efeito da doutrina recai sobre a execução. Os tribunais concediam liminares com base em demonstração apenas aparente, apesar da regra de que as leis se presumem constitucionais. A suspensão obtida por poucas ferrovias liberava as demais, porque nenhuma comissão aplicaria uma tabela geral a só parte delas. Faltava dinheiro: em Dakota do Sul, o caso da St. Paul esgotou a verba de litígio, completada com US$ 1.561,27 de fontes privadas. E as ferrovias tinham incentivo para mostrar pouco perante a comissão e guardar os melhores argumentos para o tribunal."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "quase 4 anos",
+          "texto": "Tempo em que as tarifas da comissão de Dakota do Sul ficaram “temporariamente” suspensas no caso Tompkins: tabela anunciada em 26 de agosto de 1897, decisão favorável à comissão em 7 de julho de 1898, suspensão mantida pela Suprema Corte durante a apelação e decreto final em agosto de 1901, favorável à ferrovia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado, diz o autor, é que a comissão não ajusta tarifas às condições da economia e a instabilidade aumenta. Ele transcreve cartas de comissões estaduais: uma conta ter feito acordo em dois processos por medo da demora; outra diz convidar a revisão judicial e só se queixar do tempo até a decisão final."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que saídas o autor propõe?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma emenda constitucional é descartada como inviável. A proposta principal é de indenização: a tarifa da comissão entra em vigor de imediato; depois de talvez um ano, a ferrovia pode processar o Estado perante um tribunal especial, formado em parte por juristas e em parte por pessoas com experiência em negócios ou administração pública. Se provar que não obteve renda razoável, recebe a perda do Tesouro estadual, e o tribunal aponta o defeito da tarifa sem suspendê-la. O efeito observado substitui a projeção. O próprio autor chama o plano de paliativo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as sugestões menores estão legalizar os pools e a fusão de linhas paralelas, para reduzir a concorrência que força a discriminação, e acelerar os julgamentos. A caução para devolver a diferença aos embarcadores esbarra na demora de quatro ou cinco anos até a decisão final:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um negócio arruinado não se restaura com a mera transferência de uma soma de dinheiro.”",
+          "original": "“A business ruined is not restored by the mere transfer of a sum of money.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A última sugestão é a moderação. Em Smyth v. Ames, a lei de Nebraska cortava as tarifas em 29,5%, e a Corte examinou sete ferrovias, cada uma com dados de três anos. Smalley refaz a conta com os números da própria decisão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "13,5%",
+          "texto": "Corte de tarifas com o qual, pelos métodos da própria Corte, a lei de Nebraska teria coberto as despesas em 16 dos 21 casos examinados. Para o autor, ao menos seis ferrovias teriam enfrentado uma lei com chance real de ser mantida."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o capítulo mais durável é o de método. Supor tráfego constante e aplicar o corte percentual à receita passada produz uma estimativa enviesada, sempre no mesmo sentido. É uma crítica que hoje se faria em termos de elasticidade-preço da demanda e de diferença entre preço de tabela e preço efetivo. A nota sobre o valor razoável toca um problema que nunca saiu da regulação: se a base depende da receita, e a receita depende da tarifa, a base não pode julgar a tarifa sem circularidade.",
+            "A proposta de indenização troca a projeção pela observação, mas, na minha leitura, desloca a dificuldade em vez de eliminá-la. Saber quanto a ferrovia perdeu por causa da tarifa exige estimar o que teria ganhado sem ela, de novo um contrafactual, e o Tesouro passa a carregar o risco de erro da comissão. O dilema de fundo é o de qualquer regulação de preços: quem decide, com que informação e quem paga quando a decisão erra."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Revisão judicial (judicial review)",
+          "poder dos tribunais de examinar tarifas fixadas por lei ou comissão e suspender as que considerem não razoáveis."
+        ],
+        [
+          "Comissão ferroviária",
+          "órgão estadual com poder, delegado pelo legislativo, de supervisionar ferrovias e, em muitos estados, fixar tarifas."
+        ],
+        [
+          "Transportadora comum (common carrier)",
+          "empresa obrigada a servir a todos em termos iguais e razoáveis."
+        ],
+        [
+          "Obiter dictum",
+          "observação de um juiz que não é necessária para decidir o caso e, por isso, não tem força de precedente."
+        ],
+        [
+          "Poder de polícia",
+          "poder do Estado de regular atividades privadas em nome da segurança, da saúde e do bem-estar público."
+        ],
+        [
+          "Desapropriação (eminent domain)",
+          "poder do Estado de tomar propriedade privada para uso público, mediante justa indenização."
+        ],
+        [
+          "Liminar (temporary injunction)",
+          "ordem judicial provisória que suspende um ato até o julgamento final."
+        ],
+        [
+          "Prima facie",
+          "à primeira vista; demonstração aparente, ainda não confirmada por instrução completa."
+        ],
+        [
+          "Valor razoável (fair value)",
+          "base sobre a qual se calcula o retorno permitido à ferrovia em Smyth v. Ames."
+        ],
+        [
+          "Pool",
+          "acordo entre ferrovias concorrentes para dividir tráfego ou receitas."
+        ],
+        [
+          "Tonelada-milha",
+          "uma tonelada de carga transportada por uma milha, unidade de medida do tráfego."
+        ]
+      ],
+      "hoje": "A regulação de serviços públicos por agências seguiu o caminho que Smalley descreveu: tarifa fixada por órgão técnico, sujeita a revisão judicial, com o retorno sobre uma base de ativos como referência. As questões do livro continuam abertas. Como avaliar a base de ativos sem circularidade, quanto tempo uma decisão regulatória pode ficar suspensa por liminar e se o regulador deve projetar a demanda ou observar o resultado são temas presentes em concessões de energia, saneamento e transporte. Modelos de preço-teto e revisões periódicas são, em parte, respostas a esses mesmos dilemas.",
+      "itens": [
+        [
+          "Railroad Rate Control in Its Legal Aspects: A Study of the Effect of Judicial Decisions Upon Public Regulation of Railroad Rates",
+          "pp. 4–147",
+          "2999949"
+        ]
+      ],
+      "jstor_edicao": "i350420",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, 3ª série, vol. 6, nº 2 a 4 (1905)",
-    "Publications of the AEA, 3ª série, vol. 7 (1906)",
-    "Publications of the AEA, 3ª série, vol. 8 (1907)"
+    "Publications of the AEA, 3ª série, vol. 7, nº 3 e 4 (1906)",
+    "Publications of the AEA, 3ª série, vol. 8 (1907)",
+    "American Economic Association Quarterly e Economic Bulletin (1908–1910)"
   ]
 }
