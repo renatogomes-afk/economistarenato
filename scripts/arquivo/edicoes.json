@@ -18030,10 +18030,1616 @@
       ],
       "jstor_edicao": "i350428",
       "colecao": "eua"
+    },
+    {
+      "slug": "1908-o-manual-da-associacao",
+      "numero": 87,
+      "titulo": "O manual de 1908: 1.002 sócios, anuidades em queda e um boletim",
+      "titulo_original": "Hand Book of the American Economic Association, 1908",
+      "autores": "American Economic Association; atas e relatórios de W. M. Daniels (secretário e tesoureiro)",
+      "publicacao": "American Economic Association Quarterly",
+      "volume": "3ª série, vol. 9, nº 1 (suplemento)",
+      "data": "1908",
+      "chamada": "O manual de 1908 traz o estatuto, a lista de sócios e as atas de Madison: menos sócios pagantes, o primeiro investimento em títulos e um novo editor para o boletim.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 28 de dezembro de 1907, em Madison, o secretário W. M. Daniels informou que uma revisão rigorosa do cadastro reduzira a associação a 1.002 sócios e assinantes. Um ano antes, eram 1.040. A queda vinha sobretudo da exclusão de quem estava com cinco anos ou mais de anuidades atrasadas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os números estão no Hand Book of the American Economic Association de fevereiro de 1908, suplemento do nº 1 do vol. 9 da terceira série. A estrutura repete a do manual de 1907, comentado no nº 84: propósitos da associação, estatuto, lista de sócios e atas da vigésima reunião anual. Na folha de rosto, o título ainda é Publications of the American Economic Association, terceira série, “issued quarterly”; o próprio manual lembra que a série trimestral começou em 1900. É a partir deste volume que o acervo digital passa a catalogá-la como American Economic Association Quarterly. Por isso o Arquivo, que nos nº 1 a 86 cobriu as Publications de 1886 a 1907, muda aqui de título."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que as anuidades caíam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O relatório do tesoureiro dá a série de quatro anos: as anuidades renderam US$ 2.340 em 1904 e US$ 1.842,60 em 1907. Daniels calcula que, em média, mais de cinquenta sócios por ano deixaram de pagar nos três últimos anos, apesar das cobranças. Aponta duas causas prováveis: a multiplicação de outras organizações com objetivos parecidos e o corte nos orçamentos de quem vivia de salário fixo, num período de alta do custo de vida."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 5.189,22",
+          "texto": "Caixa mais aplicações (a preço de custo) em 20 de dezembro de 1907, US$ 512,40 acima do saldo de US$ 4.676,82 do ano anterior. As receitas correntes somaram US$ 3.127,98; as despesas, US$ 2.615,58, das quais US$ 1.531,25 com publicações (US$ 1.843,09 no manual de 1907). Cerca de US$ 360 do nº 4 ainda seriam pagos depois de 1º de janeiro de 1908."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reserva, até então depositada a juros numa trust company de Nova York e num banco de Ithaca, passou a títulos: por ordem do Comitê Executivo, US$ 3.000 de valor de face em títulos da cidade de Nova York com vencimento em 1917. O tesoureiro repete que acumular excedente não é tarefa de uma associação científica e propõe duas economias: concentrar a administração financeira num só escritório, com a associação como editora de si mesma, e talvez contratar um subsecretário assalariado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que se decidiu em Madison?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O boletim trimestral, aprovado no ano anterior, trocou de editor: C. W. A. Veditz foi liberado a pedido e o Comitê Executivo escolheu E. W. Kemmerer, de Cornell. O teto de US$ 1.200 por ano para o boletim caiu, e o gasto passou ao critério do Comitê Executivo. A associação aprovou a proposta de C. B. Fillebrown de um comitê de até doze membros para buscar acordo sobre definições de termos e princípios econômicos. A cooperação com a American Statistical Association foi considerada impraticável naquele momento. Atlantic City ficou como sede de 1908, e Simon N. Patten foi eleito presidente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os trabalhos apresentados em Madison, de “Are Savings Income?”, de Irving Fisher, ao discurso presidencial de Jeremiah W. Jenks sobre o controle estatal dos negócios, estão comentados no nº 88."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o manual de 1908 mostra uma associação que trata o caixa como problema de gestão, e não de acumulação. A receita principal encolhe, e a resposta não é cortar a atividade, mas aplicar a reserva a juros, cortar custos de intermediação e apostar no boletim como forma de recuperar sócios. É uma aposta em que a despesa nova deve gerar a receita futura, com o risco evidente de que a queda das anuidades continue."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "American Economic Association",
+          "autores": "texto institucional",
+          "paginas": "pp. 1–2",
+          "resumo": "Apresenta a associação como reunião de professores, homens de negócios, jornalistas, advogados e políticos interessados em economia, com quase duzentos assinantes, entre eles as principais bibliotecas do país. Resume o histórico das publicações desde março de 1886 e da série trimestral iniciada em 1900, lembra as reuniões conjuntas com a American Historical Association e anuncia Atlantic City para 1908 e o boletim de bibliografia e notas para o ano corrente. Reafirma que a associação não é órgão de partido, seita ou instituição.",
+          "jstor": "3000012"
+        },
+        {
+          "titulo": "Constitution of the American Economic Association",
+          "autores": "texto revisto na reunião anual de dezembro de 1905",
+          "paginas": "pp. 3–5",
+          "resumo": "Mesmo texto dos manuais anteriores: incentivo à pesquisa econômica, em especial ao estudo histórico e estatístico das condições reais da vida industrial, publicações e plena liberdade de discussão, sem posição partidária. Anuidade de três dólares, contribuição vitalícia de cinquenta e até 25 sócios honorários estrangeiros.",
+          "jstor": "3000013"
+        },
+        {
+          "titulo": "List of Members",
+          "autores": "",
+          "paginas": "pp. 6–30",
+          "resumo": "Relação alfabética de sócios e assinantes, com endereços e sinais para sócios vitalícios, assinantes e honorários. Professores, funcionários públicos, profissionais liberais, faculdades e bibliotecas aparecem lado a lado.",
+          "jstor": "3000014"
+        },
+        {
+          "titulo": "The Twentieth Annual Meeting",
+          "autores": "atas; relatórios de W. M. Daniels",
+          "paginas": "pp. 31–49",
+          "resumo": "Atas da reunião de Madison, de 28 a 31 de dezembro de 1907, sob os auspícios da Universidade de Wisconsin e ao lado das associações de história, ciência política, sociologia e legislação do trabalho: lista de presença, programa, relatórios do secretário e do tesoureiro, o parecer da comissão de auditoria, a troca de editor do boletim, a escolha de Atlantic City para 1908 e a eleição de Simon N. Patten para a presidência. Os trabalhos apresentados estão comentados no nº 88.",
+          "jstor": "3000015"
+        }
+      ],
+      "glossario": [
+        [
+          "Assinante (subscriber)",
+          "instituição ou pessoa que recebe as publicações sem ser sócia, como as bibliotecas."
+        ],
+        [
+          "Valor de face (par value)",
+          "valor nominal de um título, que pode diferir do preço pago por ele."
+        ],
+        [
+          "Comitê Executivo",
+          "órgão que cuida dos interesses da associação entre as reuniões anuais."
+        ]
+      ],
+      "hoje": "A queda das anuidades por concorrência de outras entidades e por aperto no orçamento dos sócios é um problema conhecido de qualquer associação profissional. A resposta de 1908 também: aplicar a reserva, reduzir intermediários e oferecer ao sócio um serviço novo e regular, no caso um boletim de resenhas, notícias e bibliografia. O manual registra o momento em que a associação passa a pensar o próprio caixa como uma pequena política financeira.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 1–2",
+          "3000012"
+        ],
+        [
+          "Constitution of the American Economic Association",
+          "pp. 3–5",
+          "3000013"
+        ],
+        [
+          "List of Members",
+          "pp. 6–30",
+          "3000014"
+        ],
+        [
+          "The Twentieth Annual Meeting",
+          "pp. 31–49",
+          "3000015"
+        ]
+      ],
+      "jstor_edicao": "i350429",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1908-a-vigesima-reuniao-anual",
+      "numero": 88,
+      "titulo": "Madison, 1907: o pânico, o Tesouro e o que conta como renda",
+      "titulo_original": "Papers and Discussions of the Twentieth Annual Meeting, Madison, Wis., December 28-30, 1907",
+      "autores": "Jeremiah W. Jenks (presidente da associação), Irving Fisher, Harrison Standish Smalley, Halford Erickson, Richard T. Ely, Thomas K. Urdahl, Charles R. Henderson, David Kinley, Lyman J. Gage (ex-secretário do Tesouro), A. Piatt Andrew, Thomas M. Osborne, William H. Hatton e os debatedores e participantes Winthrop M. Daniels, Frank A. Fetter, A. W. Flux, John Franklin Crowell, Maurice H. Robinson, T. N. Carver, Kenyon L. Butterfield, Edward D. Jones, R. P. Teele, F. W. Blackmar, J. G. Thompson, W. A. Peck, E. C. Parker, B. H. Hibbard, H. C. Taylor, W. D. Hoard, John M. Glenn, B. H. Meyer, Davis R. Dewey, William A. Scott, Isaac A. Loos, Frank L. McVey, C. B. Fillebrown, Charles Hillman Brough, J. H. Hollander, Edward W. Bemis, Allen R. Foote, George B. Hudnall, John H. Gray, George E. Hooker e M. S. Dudgeon",
+      "publicacao": "American Economic Association Quarterly",
+      "colecao": "eua",
+      "volume": "3ª série, vol. 9, nº 1",
+      "data": "1908",
+      "chamada": "Madison, dezembro de 1907, semanas depois do pânico: Jenks discute o controle estatal dos negócios, Fisher nega que poupança seja renda e três autores examinam o papel do Tesouro.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Jeremiah W. Jenks abriu o discurso presidencial com um contraste de calendário. Poucos meses antes, o presidente dos Estados Unidos fora aplaudido por afirmar o poder federal de submeter empresários e corporações à lei. Poucas semanas antes, parte do mesmo público o acusava de ter causado o pânico. A crise financeira de 1907 deu o tom da vigésima reunião anual, realizada em Madison, Wisconsin, no fim de dezembro daquele ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os trabalhos saíram como nº 1 do vol. 9 da terceira série, já sob o novo nome, American Economic Association Quarterly, que sucedeu as Publications. A ata da reunião e o manual da associação estão no nº 87 deste Arquivo. Aqui ficam os 19 textos do programa: o discurso de Jenks, o debate sobre poupança e renda, quatro mesas-redondas, três trabalhos sobre legislação trabalhista, uma sessão sobre o Tesouro e o mercado monetário e outra sobre as comissões de serviços públicos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Até onde o governo deve controlar os negócios?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jenks enunciou uma série de princípios numerados como se fossem assentados, embora soubesse que eram discutíveis. Rejeitou os direitos naturais como base de política: a única razão sólida para mudar uma política é o ganho de bem-estar. O grau de controle, disse, varia com as condições políticas, o caráter do povo e a natureza da indústria. Classificou os setores que tendem a ficar com o Estado: os ligados à própria função de governo, como correio e navios de guerra; os de importância primordial, como a cunhagem de moeda, os bancos e as escolas; e os que exigem muito capital com retorno distante. Nos demais, cabe ao governo manter a concorrência dentro de limites honestos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre o pânico, Jenks atribuiu a suspensão dos pagamentos em dinheiro menos à ação de qualquer autoridade do que à falta de controle mais rígido. Banqueiros haviam reduzido reservas para pagar dividendos altos e contado depósitos em outros bancos como recursos próprios. A conclusão foi preventiva:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O governo precisa fazer mais para impedir que a emergência surja”",
+          "original": "“The government must do more to prevent the emergency's arising”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Poupança é renda?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Irving Fisher defendeu uma tese que chamou de heresia sua desde 1897: o aumento do valor do capital não é renda. O exemplo é uma floresta recém-plantada, sem corte por cerca de vinte anos, cujo valor sobe 5% ao ano à medida que se aproxima a colheita. Para Fisher, contar esse acréscimo como renda é dupla contagem, porque o valor do capital já é o desconto da renda futura. A renda corrigida pela poupança ou pela depreciação ele propôs chamar de earnings. O conceito básico, disse, ainda não tinha nome:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O conceito não tem nome porque não é apreciado”",
+          "original": "“The concept is unnamed because unappreciated”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os debatedores divergiram. Winthrop M. Daniels tratou a renda como comando líquido sobre riqueza no período, gasto ou poupado. Frank A. Fetter separou renda monetária de renda psíquica e lembrou que Fisher tirara do conceito conclusões contra a tributação da valorização da terra. Maurice H. Robinson sustentou que a equidade tributária não se deduz da definição de renda."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se fixa uma tarifa ferroviária razoável?"
+        },
+        {
+          "tipo": "p",
+          "texto": "B. H. Meyer, da comissão ferroviária de Wisconsin, notou que leis e tribunais exigem tarifas razoáveis sem dizer como calculá-las. Harrison Standish Smalley propôs abandonar a ideia de tarifa justa para os dois lados: quando os interesses colidem, a tarifa razoável é a que distribui bem o ônus da injustiça. Acrescentou que os tribunais fazem do interesse da empresa a consideração decisiva. Halford Erickson descreveu como a comissão separa despesas entre serviços, terminais e transporte, e chegou a um custo por unidade bom o bastante para a prática."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10%",
+          "texto": "Retorno aproximado, sobre o custo de reprodução da ferrovia, da tabela-modelo de Erickson, que combina o custo do serviço com o valor da mercadoria. O custo por unidade nas ferrovias do estado ficara quase estável por cinco anos; na discussão, admitiu-se que a comissão se afasta do custo por razões de valor ou conveniência, mas o trata como norma."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que moeda serve numa crise de liquidez?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A mesa de moeda e bancos, presidida por Davis R. Dewey, examinou o plano da comissão monetária da American Bankers' Association: notas de crédito adicionais, tributadas, vinculadas à circulação lastreada em títulos públicos. Dewey perguntou se um imposto bastaria para fazê-las voltar. William A. Scott defendeu notas emitidas contra ativos comerciais, mas por poucos emissores. Frank L. McVey achou o banco central politicamente impossível no país e preferiu câmaras de compensação com poder legal de emissão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 200 milhões",
+          "texto": "Pouco mais que isso poderia ser emitido em notas de crédito pelo plano dos banqueiros, segundo a estimativa citada por Dewey, com base na circulação de então. Nos dez anos anteriores, a circulação de notas bancárias crescera 400 milhões. Dewey pediu investigação exaustiva antes de qualquer mudança legal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que papel cabia ao Tesouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Três trabalhos trataram do Tesouro independente, o sistema em que o governo guarda a própria receita fora dos bancos. David Kinley o comparou a um reservatório que retira moeda sem relação com a demanda dos negócios e propôs aboli-lo, rever o orçamento e criar distritos de compensação para emitir notas de emergência. Lyman J. Gage achou ilógico que o governo patrocinasse bancos sem confiar neles, mas manteria o sistema até haver um banco central. Sua ressalva foi seca:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“dirigido por um administrador infalivelmente sábio (que ainda não apareceu)”",
+          "original": "“directed by an infallibly wise administrator (one who has never yet appeared)”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A. Piatt Andrew descreveu a década anterior como de intervenção crescente: iniciada com Gage, ampliada por Shaw, com depósitos públicos usados para aliviar juros e o mercado de ações. Propôs depositar automaticamente nos bancos toda receita acima de um saldo fixo, nas mesmas condições para todos. Na discussão, Scott defendeu a conduta dos secretários diante de um sistema que o Congresso não corrigira."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 95 milhões",
+          "texto": "Depósitos do Tesouro nos bancos no aperto do outono de 1898, segundo Andrew, ante cerca de 28 milhões antes. Em 1899 chegaram a 111 milhões, mais de um terço do saldo do Tesouro, e um só banco recebeu mais de 15,5 milhões. No tempo do secretário Fairchild, o teto por banco fora de 1 milhão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem regula os serviços públicos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Thomas M. Osborne, membro da comissão de serviços públicos do segundo distrito de Nova York, abriu com uma cena: no mesmo dia, um empresário de Rochester saudou a nova lei como barreira contra a estatização, e um passageiro de trem a saudou como primeiro passo para ela. William H. Hatton listou os pontos em disputa: avaliação do patrimônio, contabilidade uniforme, franquias, autonomia municipal, tarifas e revisão judicial. No debate, John H. Gray defendeu franquias que reservem ao público a valorização futura; Edward W. Bemis desaconselhou a maioria dos estados a copiar o modelo tão cedo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 5.000",
+          "texto": "Salário anual de cada um dos três membros da comissão ferroviária de Wisconsin, criada em 1905, segundo George B. Hudnall. Em Nova York, cada comissário recebia US$ 15.000. Hudnall via na lei de Wisconsin a matriz da lei nova-iorquina."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a economia diz da legislação trabalhista?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira reunião anual da American Association for Labor Legislation ocorreu junto com a da associação de economistas. Richard T. Ely sustentou que nenhuma teoria de salários então aceita levava, por si, a rejeitar a legislação trabalhista. Thomas K. Urdahl examinou a jornada de oito horas nas minas de carvão e pediu investigação antes da lei. Charles R. Henderson relatou o projeto de seguro operário de Illinois, combatido pelos sindicatos, que preferiam endurecer a lei de responsabilidade civil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "175 de 302",
+          "texto": "Minas de carvão austríacas que mantiveram a produção após quatro anos de jornada reduzida, segundo estatísticas oficiais citadas por Urdahl. Outras 78 produziram menos e 49 oscilaram de ano para ano. Na Inglaterra, os donos de minas estimavam perda de 31,9 milhões de toneladas por ano, cerca de 13,5% da produção."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais entrou no programa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Duas mesas-redondas completaram a reunião. A de economia agrícola, presidida por T. N. Carver, foi a primeira dedicada ao tema pela associação e discutiu o que a disciplina inclui e como ensiná-la. A de acordos em economia política, presidida por C. B. Fillebrown, propôs uma comissão de até doze membros para submeter definições e princípios ao voto dos associados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "135 a 0",
+          "texto": "Placar da primeira proposição da consulta de Fillebrown, de 1902: renda fundiária é o que a terra vale para uso. Em 1906, a proposição de que o valor de venda da terra é um valor não tributado teve 59 votos a favor e 2 contra."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o debate sobre poupança e renda é menos semântico do que parece. Fisher e seus críticos concordam com a aritmética do desconto; discordam sobre qual grandeza merece o nome de renda e, portanto, qual serve de base tributária. Se o acréscimo de valor do capital é renda, tributa-se a valorização à medida que ocorre; se não é, tributa-se apenas o que é consumido ou realizado. Robinson separou bem as duas questões: a definição analítica não decide, sozinha, o que é equitativo tributar.",
+            "A sessão do Tesouro expõe outro dilema permanente: regra ou discrição na oferta de liquidez. Kinley e Andrew querem uma regra automática, que tire do secretário a escolha de quando e onde depositar; Gage aceita a discrição enquanto não houver um banco central. Andrew acrescenta um argumento de incentivo: a expectativa de socorro externo reduz o preparo dos bancos. É o mesmo problema que Smalley e Erickson enfrentam nas tarifas, com outro vocabulário: uma norma observável, como o custo, contra a necessidade de ajustá-la caso a caso."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tesouro independente",
+          "sistema em que o governo federal guardava a própria receita em cofres e subtesourarias, fora dos bancos."
+        ],
+        [
+          "Elasticidade da moeda",
+          "capacidade de a oferta de moeda crescer e encolher com a demanda sazonal ou de crise."
+        ],
+        [
+          "Notas de crédito (credit notes)",
+          "notas bancárias adicionais, tributadas, propostas para dar elasticidade à circulação."
+        ],
+        [
+          "Certificados de câmara de compensação",
+          "títulos emitidos entre bancos associados para liquidar saldos sem usar dinheiro em espécie."
+        ],
+        [
+          "Cidades de reserva",
+          "centros onde bancos do interior podiam manter parte de suas reservas legais em depósito."
+        ],
+        [
+          "Valor do capital",
+          "na definição de Fisher, o valor descontado da renda futura esperada de um estoque de riqueza."
+        ],
+        [
+          "Earnings",
+          "termo de Fisher para a renda corrigida pelo acréscimo ou pela perda de valor do capital."
+        ],
+        [
+          "Renda psíquica",
+          "satisfação obtida com o uso dos bens, distinta da renda medida em dinheiro."
+        ],
+        [
+          "Custo de reprodução",
+          "quanto custaria construir de novo, aos preços correntes, a propriedade de uma empresa regulada."
+        ],
+        [
+          "Franquia",
+          "concessão pública para usar ruas e espaços públicos na prestação de um serviço, como bonde ou gás."
+        ],
+        [
+          "Renda fundiária (ground rent)",
+          "o que a terra vale para uso, independentemente das benfeitorias."
+        ],
+        [
+          "Responsabilidade por culpa",
+          "regra que obriga o empregador a indenizar apenas quando se prova sua negligência."
+        ]
+      ],
+      "hoje": "O Federal Reserve, criado em 1913, respondeu pela via que Gage preferia à pergunta que dominou Madison: quem fornece moeda numa corrida bancária. A observação de Andrew, de que a expectativa de socorro reduz o preparo dos bancos, voltou a cada crise com outro nome, risco moral. A disputa entre Fisher e seus críticos reaparece sempre que se discute tributar ganhos de capital ainda não realizados. E as comissões de Nova York e Wisconsin anteciparam o modelo das agências reguladoras de serviços públicos, ainda às voltas com base de capital, tarifas por custo e revisão judicial.",
+      "itens": [
+        [
+          "The Principles of Government Control of Business",
+          "pp. 1–20",
+          "2999984"
+        ],
+        [
+          "Are Savings Income?",
+          "pp. 21–47",
+          "2999985"
+        ],
+        [
+          "Are Savings Income-Discussion",
+          "pp. 48–58",
+          "2999986"
+        ],
+        [
+          "Agricultural Economics. Round Table Discussion: T. N. Carver, Chairman",
+          "pp. 59–82",
+          "2999987"
+        ],
+        [
+          "Transportation-The Basis of Reasonable Railway Rates. Round Table Discussion: B. H. Meyer, Chairman",
+          "pp. 83–85",
+          "2999988"
+        ],
+        [
+          "The Basis of Reasonable Railway Rates",
+          "pp. 86–94",
+          "2999989"
+        ],
+        [
+          "The Basis of Reasonable Railway Rates",
+          "pp. 95–103",
+          "2999990"
+        ],
+        [
+          "Money and Banking. Round Table Discussion: D. R. Dewey, Chairman",
+          "pp. 104–116",
+          "2999991"
+        ],
+        [
+          "Agreements in Political Economy. Round Table Discussion: C. B. Fillebrown, Chairman",
+          "pp. 117–123",
+          "2999992"
+        ],
+        [
+          "Economic Theory and Labor Legislation",
+          "pp. 124–153",
+          "2999993"
+        ],
+        [
+          "The Normal Labor Day in Coal Mines",
+          "pp. 154–182",
+          "2999994"
+        ],
+        [
+          "Workingman's Insurance in Illinois",
+          "pp. 183–198",
+          "2999995"
+        ],
+        [
+          "The Relation of the United States Treasury to the Money Market",
+          "pp. 199–211",
+          "2999996"
+        ],
+        [
+          "The Relation of the United States Treasury to General Finance",
+          "pp. 212–217",
+          "2999997"
+        ],
+        [
+          "The United States Treasury and the Money Market. The Partial Responsibility of Secretaries Gage and Shaw for the Crisis of 1907",
+          "pp. 218–231",
+          "2999998"
+        ],
+        [
+          "The Relation of the United States Federal Treasury to the Money Market- Discussion",
+          "pp. 232–237",
+          "2999999"
+        ],
+        [
+          "The Public Service Commissions Law of New York State",
+          "pp. 238–262",
+          "3000000"
+        ],
+        [
+          "Public Service Commissions",
+          "pp. 263–278",
+          "3000001"
+        ],
+        [
+          "Public Service Commissions-Discussion",
+          "pp. 279–309",
+          "3000002"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Principles of Government Control of Business",
+          "autores": "Jeremiah W. Jenks; discurso presidencial",
+          "paginas": "pp. 1–20",
+          "jstor": "2999984",
+          "resumo": "Jenks parte da crise de 1907 para perguntar se há princípios permanentes na relação entre governo e negócios. Enuncia-os em itens numerados, sem argumentá-los: a lei, enquanto vigora, deve reger; direitos naturais não servem de guia de política; o controle varia com as condições políticas, o caráter do povo e a natureza da indústria. Classifica setores próprios do Estado, como correio, cunhagem e escolas, e defende para os demais a concorrência dentro de limites honestos. Sobre o pânico, aponta reservas bancárias reduzidas e pede controle preventivo. Conclui que cada caso deve ser julgado pelos próprios méritos e que o governo provavelmente terá de ampliar o controle sobre as grandes empresas."
+        },
+        {
+          "titulo": "Are Savings Income?",
+          "autores": "Irving Fisher",
+          "paginas": "pp. 21–47",
+          "jstor": "2999985",
+          "resumo": "Fisher responde às críticas ao livro The Nature of Capital and Income, de 1906, e reformula a questão: o aumento esperado do valor do capital é descontado do mesmo modo que os serviços do capital? Responde que não. Com exemplos de uma floresta em crescimento, de títulos e de contas de poupança, sustenta que tratar a valorização como renda é dupla contagem. Resume a tese em onze proposições: o valor do capital é o desconto de toda a renda futura, sem incluir poupança; a renda corrigida pela poupança ou pela depreciação deve chamar-se earnings; e o conceito fundamental de renda merece nome próprio."
+        },
+        {
+          "titulo": "Are Savings Income-Discussion",
+          "autores": "Winthrop M. Daniels, Frank A. Fetter, A. W. Flux, John Franklin Crowell e Maurice H. Robinson",
+          "paginas": "pp. 48–58",
+          "jstor": "2999986",
+          "resumo": "Daniels define renda como comando líquido sobre riqueza no período e cita Samuel Johnson; Fetter distingue renda monetária de renda psíquica e trata o tema também como questão tributária; Flux comenta a depreciação; Crowell contrapõe renda contábil e renda em caixa; Robinson separa a definição de renda da equidade tributária e cita a definição de Hadley."
+        },
+        {
+          "titulo": "Agricultural Economics. Round Table Discussion: T. N. Carver, Chairman",
+          "autores": "T. N. Carver (presidente), Kenyon L. Butterfield, Edward D. Jones, R. P. Teele, F. W. Blackmar, J. G. Thompson, W. A. Peck, E. C. Parker, David Kinley, B. H. Hibbard, H. C. Taylor, W. D. Hoard e John M. Glenn",
+          "paginas": "pp. 59–82",
+          "jstor": "2999987",
+          "resumo": "Primeira mesa da associação sobre economia agrícola. Carver remonta a Xenofonte e Aristóteles; Butterfield parte do problema rural e separa a disciplina da administração da fazenda; Teele informa que o Departamento de Agricultura não tem definição oficial; Peck descreve o estudo detalhado de fazendas; Hibbard sustenta que se trata de economia, não de agronomia; Hoard fala como fazendeiro."
+        },
+        {
+          "titulo": "Transportation-The Basis of Reasonable Railway Rates. Round Table Discussion: B. H. Meyer, Chairman",
+          "autores": "B. H. Meyer (presidente)",
+          "paginas": "pp. 83–85",
+          "jstor": "2999988",
+          "resumo": "Meyer abre a mesa observando que leis e decisões exigem tarifas razoáveis sem oferecer regra tangível. Descreve o ponto de partida da comissão ferroviária de Wisconsin: cada classe de tráfego deve contribuir com sua parte da receita, e o custo do transporte deve pesar ao lado de valor, risco e espaço."
+        },
+        {
+          "titulo": "The Basis of Reasonable Railway Rates",
+          "autores": "Harrison Standish Smalley",
+          "paginas": "pp. 86–94",
+          "jstor": "2999989",
+          "resumo": "Smalley concentra-se na relação entre interesse privado e público na fixação de tarifas. Contesta a máxima judicial de que as tarifas devem ser justas para ferrovias e público ao mesmo tempo: quando os interesses colidem, alguma injustiça é inevitável, e a tarifa razoável é a que distribui bem esse ônus. Distingue a regulação corretiva da regulação construtiva, voltada ao desenvolvimento social e industrial. Argumenta que os tribunais tomam o interesse da empresa como decisivo e que uma derrota judicial não prova erro da comissão. Sugere, por fim, inscrever na Constituição federal os princípios que vierem a obter consenso."
+        },
+        {
+          "titulo": "The Basis of Reasonable Railway Rates",
+          "autores": "Halford Erickson",
+          "paginas": "pp. 95–103",
+          "jstor": "2999990",
+          "resumo": "Erickson contesta a ideia de que o custo por unidade de transporte não pode ser calculado ou não serve para fixar tarifas. Descreve o método da comissão de Wisconsin: separar despesas entre passageiros e carga, depois entre terminais e movimento, alocando itens comuns por unidades como carro, locomotiva ou trem por milha. Propõe que mercadorias de baixo valor paguem ao menos o custo operacional e algo mais, as médias paguem tarifas médias e as de alto valor compensem o restante. Conclui que o custo, modificado pelo valor, é o primeiro fator da tarifa. Inclui o resumo da discussão informal que se seguiu."
+        },
+        {
+          "titulo": "Money and Banking. Round Table Discussion: D. R. Dewey, Chairman",
+          "autores": "Davis R. Dewey (presidente), William A. Scott, Isaac A. Loos e Frank L. McVey",
+          "paginas": "pp. 104–116",
+          "jstor": "2999991",
+          "resumo": "A mesa examina o plano monetário da American Bankers' Association. Dewey pergunta se notas de crédito tributadas, ligadas aos títulos públicos, dariam elasticidade e pede investigação antes de legislar. Scott defende notas contra ativos comerciais emitidas por poucos e mostra cidades de reserva abaixo de 25% de reservas em todos os relatórios de 1906 e 1907. Loos relata certificados de compensação usados no varejo em cidades de Iowa. McVey atribui a fragilidade ao capital bancário insuficiente, julga o banco central politicamente impossível e propõe câmaras de compensação com poder de emissão."
+        },
+        {
+          "titulo": "Agreements in Political Economy. Round Table Discussion: C. B. Fillebrown, Chairman",
+          "autores": "C. B. Fillebrown (presidente), T. N. Carver, Frank A. Fetter, Charles Hillman Brough e J. H. Hollander",
+          "paginas": "pp. 117–123",
+          "jstor": "2999992",
+          "resumo": "Fillebrown apresenta o resultado de anos de consulta a economistas sobre definições de renda da terra e tributação fundiária e propõe uma comissão de até doze membros para estender o método. Carver apoia; Fetter adverte contra acordos prematuros; Brough contrasta as definições de truste do Arkansas e de Nova Jersey; Hollander defende a padronização de termos."
+        },
+        {
+          "titulo": "Economic Theory and Labor Legislation",
+          "autores": "Richard T. Ely",
+          "paginas": "pp. 124–153",
+          "jstor": "2999993",
+          "resumo": "Ely fala na primeira reunião anual da American Association for Labor Legislation, realizada com a dos economistas. Lembra a declaração de princípios de 1885 e percorre a história das ideias: os fisiocratas e Smith, opostos à interferência legal, mas movidos por propósitos humanitários; a teoria do fundo de salários; Walker, Clark e Taussig, cujas teorias não excluem a legislação. Apoia-se em Mill para a proteção das crianças, mas contesta sua posição sobre o trabalho feminino, e discute o caso Lochner. Termina descrevendo a associação internacional, o escritório de Basileia e o tratado trabalhista entre França e Itália de abril de 1905."
+        },
+        {
+          "titulo": "The Normal Labor Day in Coal Mines",
+          "autores": "Thomas K. Urdahl",
+          "paginas": "pp. 154–182",
+          "jstor": "2999994",
+          "resumo": "Urdahl relaciona a jornada ao estágio de desenvolvimento da indústria: minas artesanais, sujeitas à demanda de inverno, trabalham longas horas; minas capitalistas, com demanda estável, comportam jornadas curtas. Atribui a persistência da jornada longa sobretudo à falta de organização dos mineiros. Examina produção, saúde e acidentes, com dados da Inglaterra, da Áustria e da Alemanha, e nota que a maioria dos acidentes ocorre nas primeiras horas do dia. Discute se a lei de oito horas deve ser rígida ou admitir exceções. Pede investigação antes da lei e conclui que a jornada mais curta virá, por lei ou por conflito."
+        },
+        {
+          "titulo": "Workingman's Insurance in Illinois",
+          "autores": "Charles R. Henderson",
+          "paginas": "pp. 183–198",
+          "jstor": "2999995",
+          "resumo": "Henderson narra as tentativas de Nova York, Maryland e Massachusetts e a resolução de 1905 que criou em Illinois uma comissão para propor seguro industrial e pensões. Reproduz o relatório: quatro sistemas possíveis, da responsabilidade por culpa ao seguro compulsório alemão e austríaco, e as falhas da lei de Illinois, com júris imprevisíveis e longos litígios. Explica a oposição sindical ao projeto, que exigia do empregador apenas metade dos prêmios. Registra que o Legislativo adotou duas recomendações: notificação de acidentes graves e nova comissão sobre doenças industriais."
+        },
+        {
+          "titulo": "The Relation of the United States Treasury to the Money Market",
+          "autores": "David Kinley",
+          "paginas": "pp. 199–211",
+          "jstor": "2999996",
+          "resumo": "Kinley distingue duas funções do Tesouro independente: a fiscal, que retira e devolve moeda sem relação com a demanda dos negócios, e a de controle da oferta monetária, assumida por secretários sob pressão bancária. Liga o problema às finanças de superávit: em quarenta anos houve déficit apenas nove vezes. Propõe abolir o Tesouro independente, reconstruir o orçamento, exigir o depósito do saldo corrente em bancos nacionais e dividir o país em distritos de compensação, que aceitariam títulos aprovados e emitiriam notas tributadas, resgatáveis em moeda legal."
+        },
+        {
+          "titulo": "The Relation of the United States Treasury to General Finance",
+          "autores": "Lyman J. Gage, ex-secretário do Tesouro",
+          "paginas": "pp. 212–217",
+          "jstor": "2999997",
+          "resumo": "Gage chama de ilógica a posição do Tesouro: o governo cria e fiscaliza mais de 6.500 bancos nacionais, mas não lhes confia sua receita nem aceita cheques. Afirma que depósitos nos bancos das cidades de reserva não teriam dado perda e, a 2% ao ano, teriam rendido mais de US$ 70 milhões. Ainda assim, adiaria a abolição do Tesouro independente até que o sistema bancário fosse reforçado por centralização, com um banco central ou governamental nos moldes britânico, francês ou alemão. Reconhece que o Tesouro exerceu, de forma tosca, funções de banco central."
+        },
+        {
+          "titulo": "The United States Treasury and the Money Market. The Partial Responsibility of Secretaries Gage and Shaw for the Crisis of 1907",
+          "autores": "A. Piatt Andrew",
+          "paginas": "pp. 218–231",
+          "jstor": "2999998",
+          "resumo": "Andrew reconstrói meio século de relações entre Tesouro e mercado: compras de títulos por Guthrie, Cobb e Fairchild, depósitos bancários tratados como exceção. Sustenta que, a partir de Gage, a política passou a responder aos juros e à bolsa, e que com Shaw se tornou sistemática, com depósitos concentrados em poucos bancos de Nova York. Liga esse período ao rápido aumento do crédito em relação à moeda e a reservas baixas. Propõe relações automáticas: depositar diariamente nos bancos toda receita acima de um saldo fixo, nas mesmas condições para todos."
+        },
+        {
+          "titulo": "The Relation of the United States Federal Treasury to the Money Market- Discussion",
+          "autores": "Edward W. Bemis, Allen R. Foote, William A. Scott e David Kinley",
+          "paginas": "pp. 232–237",
+          "jstor": "2999999",
+          "resumo": "Bemis propõe emissão de emergência de papel-moeda contra títulos, com encargo de 7% a 10%, e Andrew responde que o encargo seria baixo demais ou chegaria tarde. Foote quer a receita depositada onde é arrecadada. Scott defende os secretários diante de um sistema não corrigido pelo Congresso; Kinley desconfia de entregar a reforma aos bancos."
+        },
+        {
+          "titulo": "The Public Service Commissions Law of New York State",
+          "autores": "Thomas M. Osborne, membro da comissão de serviços públicos do segundo distrito de Nova York",
+          "paginas": "pp. 238–262",
+          "jstor": "3000000",
+          "resumo": "Osborne abre com dois elogios opostos à lei, um como barreira contra a estatização, outro como passo em sua direção. Descreve a história de desordem financeira das concessionárias nova-iorquinas e o clima da eleição estadual de 1906, que levou o governador Hughes a propor a lei. Expõe os poderes das comissões sobre tarifas, serviço e emissão de ações e títulos. Relata que as empresas aceitaram a lei e resolvem muitas queixas antes que cheguem aos comissários, e encerra apoiando-a como democrata."
+        },
+        {
+          "titulo": "Public Service Commissions",
+          "autores": "William H. Hatton",
+          "paginas": "pp. 263–278",
+          "jstor": "3000001",
+          "resumo": "Hatton parte do dever do Estado de prover serviços públicos e de controlar quem exerce atividade de interesse público. Discute avaliação do patrimônio, contabilidade uniforme e publicidade, franquias, regulação estadual e autonomia municipal, tarifas e classificação, e revisão judicial. Propõe que a empresa insatisfeita processe a comissão, que nova prova em juízo devolva o caso à comissão por quinze dias e que o ônus da prova passe à empresa. Sugere dividir a jurisdição da Interstate Commerce Commission em distritos federais."
+        },
+        {
+          "titulo": "Public Service Commissions-Discussion",
+          "autores": "George B. Hudnall, John H. Gray, Edward W. Bemis, George E. Hooker, Allen R. Foote e M. S. Dudgeon",
+          "paginas": "pp. 279–309",
+          "jstor": "3000002",
+          "resumo": "Hudnall narra a origem da comissão de Wisconsin de 1905. Gray defende franquias que reservem ao público a valorização futura e verbas amplas para as comissões. Bemis enumera sete objeções à difusão do modelo, entre elas a perda de autonomia municipal. Hooker trata do valor das franquias em Chicago; Foote, da estatística; Dudgeon, do recurso judicial na lei de Wisconsin."
+        }
+      ],
+      "jstor_edicao": "i350430"
+    },
+    {
+      "slug": "1908-o-boletim-economico-abril",
+      "numero": 89,
+      "titulo": "O Economic Bulletin estreia: notas, resenhas e bibliografia",
+      "titulo_original": "The Economic Bulletin, vol. 1, no. 1 (April 1908)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 1, nº 1",
+      "data": "abril de 1908",
+      "chamada": "O primeiro número do boletim trimestral da associação: notas sobre nomeações e investigações, 28 resenhas de livros, a quinta lista de teses em andamento e uma bibliografia corrente em seções.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em abril de 1908, a American Economic Association lançou um periódico que não publicaria artigos originais. O editorial de abertura do The Economic Bulletin diz que ele seria uma espécie de revista de ofício para quem estuda economia de forma científica, e uma revisão de revisões. O editor-gerente era E. W. Kemmerer, da Cornell University, com 21 editores de departamento, de estatística a administração municipal."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Uma espécie de “revista de ofício” para todos os interessados no estudo científico de questões econômicas.",
+          "original": "a sort of \"trade journal\" for all interested in the scientific study of economic questions"
+        },
+        {
+          "tipo": "p",
+          "texto": "As notas registram também a reunião do Comitê Executivo de 14 de março, no City Club de Nova York, que liberou a Macmillan do contrato de distribuição e rebatizou as Publications como American Economic Association Quarterly, por causa de uma decisão dos correios sobre tarifas postais."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "O boletim “não defenderá nem promoverá nenhuma das reformas”.",
+          "original": "will not advocate or promote any of the reforms"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "842 sócios",
+          "texto": "Segundo o Hand Book de 1908, em fevereiro a associação tinha 842 sócios e 152 assinantes das Publications. Entre os sócios, 67 vitalícios e 11 honorários. Distribuição: 787 nos Estados Unidos continentais, 36 na Europa, 9 no Japão, 4 no Canadá e 3 no Havaí."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As Personal and Miscellaneous Notes registram nomeações, investigações e instituições novas. Harvard cria uma Graduate School of Business Administration, só para graduados, com Edwin F. Gay como diretor. O Bureau of Corporations investiga as indústrias do ferro e aço, do tabaco e da madeira, as bolsas de algodão e o transporte hidroviário. As novas Public Service Commissions de Nova York recrutam estatísticos. A Universidade de Wisconsin recebe a biblioteca de literatura socialista alemã de Hermann Schlüter."
+        },
+        {
+          "tipo": "p",
+          "texto": "Três notas são assinadas. John R. Commons descreve a lei de serviços públicos de Wisconsin de 1907, que iguala empresas privadas e municipais diante da comissão estadual. Wm. J. Meyers comenta a lei da Public Service Commission de Nova York. Harrison Standish Smalley examina os litígios sobre tarifas ferroviárias fixadas pelos estados, da Carolina do Norte e Alabama a Minnesota."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 28 resenhas assinadas. Na teoria, F. W. Taussig resenha J. B. Clark, e T. N. Carver, Irving Fisher. Ferrovias ocupam quatro resenhas seguidas, de Haines a Dewsnup. Tributação aparece com os anais da primeira conferência da National Tax Association e o estudo de Max West sobre o imposto sobre heranças. Commons resenha três obras sobre o movimento operário nos Estados Unidos. A sociologia fecha o bloco, com Sumner, Ross, Forrest e Morgan."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A quinta lista de teses de doutorado em economia política em andamento, de 1º de janeiro de 1908, reúne candidatos de Bryn Mawr, Columbia, Cornell e Harvard a Wisconsin, Chicago e Califórnia. Há candidatos do Japão e um da China, que estuda as doutrinas econômicas de Confúcio; John Maurice Clark prepara em Columbia uma teoria das tarifas ferroviárias. Fecha o número a seção Recent Publications, com a lista dos periódicos indexados e livros e artigos publicados sobretudo desde janeiro de 1908, em seções numeradas até a XVIII. Nela aparece o próprio Hand Book de 1908, com as atas da vigésima reunião anual, em Madison."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o boletim é uma aposta em infraestrutura de informação, não em doutrina. Notas, resenhas e bibliografia reduzem o custo de busca de uma profissão dispersa por dezenas de universidades e repartições,. As notas mostram ainda para onde ia a demanda por economistas em 1908: comissões reguladoras, o Bureau of Corporations e comissões de tributação, onde avaliação de ativos, contabilidade uniforme e estatística de custos viravam instrumentos de política."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores; notas assinadas por John R. Commons, Wm. J. Meyers e Harrison Standish Smalley",
+          "paginas": "pp. 1–19",
+          "resumo": "Editorial de abertura, dados do Hand Book de 1908, notas sobre nomeações, investigações e novas instituições e três notas assinadas: a lei de serviços públicos de Wisconsin, a lei da Public Service Commission de Nova York e os litígios sobre tarifas ferroviárias estaduais.",
+          "jstor": "222149"
+        },
+        {
+          "titulo": "J. B. Clark, Essentials of Economic Theory",
+          "autores": "F. W. Taussig",
+          "paginas": "pp. 20–22",
+          "resumo": "O resenhista descreve um livro em duas partes: a estática, que reexpõe a Distribution of Wealth, e a dinâmica, que reúne e reorganiza textos publicados em periódicos.",
+          "jstor": "222150"
+        },
+        {
+          "titulo": "Pierre Leroy-Beaulieu, The United States in the Twentieth Century",
+          "autores": "E. L. Bogart",
+          "paginas": "pp. 22–24",
+          "resumo": "Segundo o resenhista, o livro populariza os resultados do décimo segundo censo federal para descrever, em quatro partes, o progresso material dos Estados Unidos.",
+          "jstor": "222151"
+        },
+        {
+          "titulo": "Irving Fisher, The Rate of Interest",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 25–26",
+          "resumo": "O resenhista apresenta uma teoria do juro do tipo “agio”, atribuída por Fisher a Rae, Böhm-Bawerk e Landry, reformulada com o conceito de renda de The Nature of Capital and Income.",
+          "jstor": "222152"
+        },
+        {
+          "titulo": "Ernest Ludlow Bogart, Economic History of the United States",
+          "autores": "Charles H. Hull",
+          "paginas": "pp. 26–29",
+          "resumo": "O resenhista descreve um livro-texto que divide a história econômica americana em quatro períodos, do desenvolvimento colonial à integração econômica de 1860 a 1906.",
+          "jstor": "222153"
+        },
+        {
+          "titulo": "J. Laurence Laughlin, Industrial America",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 29–30",
+          "resumo": "Sete conferências feitas na Universidade de Berlim em 1906, para leitores gerais, sobre protecionismo, trabalho, trustes, ferrovias e bancos.",
+          "jstor": "222154"
+        },
+        {
+          "titulo": "Rufus Farrington Sprague, The True Nature of Value",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 30",
+          "resumo": "Teoria do valor de um homem de negócios centrada no serviço, medido pelo obstáculo superado ou pelo trabalho poupado a quem o recebe.",
+          "jstor": "222155"
+        },
+        {
+          "titulo": "F. Dawtrey Drewitt, Bombay in the Days of George IV",
+          "autores": "Jacob H. Hollander",
+          "paginas": "pp. 31–33",
+          "resumo": "Memórias de Sir Edward West, autor do ensaio de 1815 sobre a aplicação de capital à terra, com documentos inéditos de sua passagem pela magistratura em Bombaim.",
+          "jstor": "222156"
+        },
+        {
+          "titulo": "Henry S. Haines, Railway Corporations as Public Servants",
+          "autores": "Willard C. Fisher",
+          "paginas": "pp. 33–35",
+          "resumo": "Segundo o resenhista, um esboço do desenvolvimento da ferrovia americana como sistema, com trechos de análise e sugestões de política.",
+          "jstor": "222157"
+        },
+        {
+          "titulo": "W. Z. Ripley, Railway Problems",
+          "autores": "Emory R. Johnson",
+          "paginas": "pp. 35–36",
+          "resumo": "Coletânea de textos e de decisões da Interstate Commerce Commission sobre regulação de tarifas, com introdução de Ripley e dois ensaios seus.",
+          "jstor": "222158"
+        },
+        {
+          "titulo": "Logan G. McPherson, The Working of the Railroads",
+          "autores": "Carroll W. Doten",
+          "paginas": "pp. 36–38",
+          "resumo": "Conferências do curso de transportes da Johns Hopkins que expõem os princípios da prática ferroviária do ponto de vista de um ferroviário.",
+          "jstor": "222159"
+        },
+        {
+          "titulo": "Ernest Ritson Dewsnup (org.), Railway Organization and Working",
+          "autores": "Carroll W. Doten",
+          "paginas": "pp. 38–39",
+          "resumo": "Reúne palestras de dirigentes ferroviários sobre as funções de seus departamentos, feitas na Universidade de Chicago entre 1904 e 1906.",
+          "jstor": "222160"
+        },
+        {
+          "titulo": "Burton J. Hendrick, The Story of Life Insurance",
+          "autores": "Maurice H. Robinson",
+          "paginas": "pp. 39–41",
+          "resumo": "Segundo o resenhista, um relato das práticas de gestão da Mutual Life, da New York Life e da Equitable, baseado em autos judiciais e relatórios de comissões de investigação.",
+          "jstor": "222161"
+        },
+        {
+          "titulo": "James Henry Gilbert, Trade and Currency in Early Oregon",
+          "autores": "W. L. Whittelsey",
+          "paginas": "pp. 41–43",
+          "resumo": "Tese sobre comércio e moeda no Oregon de 1785 a 1865, centrada em como os meios de troca locais moldaram as relações comerciais de uma região isolada.",
+          "jstor": "222162"
+        },
+        {
+          "titulo": "National Tax Association, State and Local Taxation: First National Conference",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 44–47",
+          "resumo": "Discursos e atas da primeira conferência nacional da National Tax Association, em Columbus, Ohio, em novembro de 1907, e as resoluções que se tornaram sua plataforma.",
+          "jstor": "222163"
+        },
+        {
+          "titulo": "Max West, The Inheritance Tax",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 48–49",
+          "resumo": "Segunda edição, revista e ampliada, de estudo sobre o imposto sobre heranças que incorpora a legislação dos catorze anos anteriores; o autor defende que o tributo fique com os estados.",
+          "jstor": "222164"
+        },
+        {
+          "titulo": "James M. Motley, Apprenticeship in American Trade Unions",
+          "autores": "John R. Commons",
+          "paginas": "pp. 49–50",
+          "resumo": "Pesquisa sobre como os sindicatos americanos regulam a aprendizagem, com classificação dos sindicatos e um modelo de acordo entre patrões e sindicatos.",
+          "jstor": "222165"
+        },
+        {
+          "titulo": "Hermann Schlüter, Die Anfänge der deutschen Arbeiterbewegung in Amerika",
+          "autores": "John R. Commons",
+          "paginas": "pp. 50–51",
+          "resumo": "História do movimento operário e comunista alemão nos Estados Unidos, de 1848 à Guerra Civil, baseada em papéis e jornais originais.",
+          "jstor": "222166"
+        },
+        {
+          "titulo": "George E. Barnett (org.), A Trial Bibliography of American Trade-Union Publications",
+          "autores": "John R. Commons",
+          "paginas": "pp. 51–52",
+          "resumo": "Segunda edição da bibliografia do seminário econômico da Johns Hopkins, com estatutos, atas de convenções e publicações oficiais de sindicatos.",
+          "jstor": "222167"
+        },
+        {
+          "titulo": "Gottlieb Schnapper-Arndt, Sozialstatistik",
+          "autores": "William B. Bailey",
+          "paginas": "pp. 52–53",
+          "resumo": "Lições póstumas sobre estatística de população, econômica e moral, organizadas por Leon Zeitlin, que abrem com uma história da estatística.",
+          "jstor": "222168"
+        },
+        {
+          "titulo": "H. G. Wells, New Worlds for Old",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 53–55",
+          "resumo": "Segundo o resenhista, uma exposição e defesa do socialismo para o grande público, centrada na ideia de introduzir desenho deliberado na ação social.",
+          "jstor": "222169"
+        },
+        {
+          "titulo": "Frank Podmore, Robert Owen: A Biography",
+          "autores": "David A. McCabe",
+          "paginas": "pp. 55–58",
+          "resumo": "Biografia em dois volumes que usa a correspondência de Owen posterior a 1822, recuperada depois de décadas perdida.",
+          "jstor": "222170"
+        },
+        {
+          "titulo": "Alfred L. Hutchinson, The Limit of Wealth",
+          "autores": "R. Pritchard",
+          "paginas": "pp. 58",
+          "resumo": "Utopia em que um comitê imaginário visita os Estados Unidos de 1942, onde um limite ao que se pode deixar de herança financia obras e serviços públicos.",
+          "jstor": "222171"
+        },
+        {
+          "titulo": "William Graham Sumner, Folkways",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 58–61",
+          "resumo": "Estudo de como usos, costumes e mores surgem de tentativas repetidas de satisfazer necessidades e se tornam fenômenos de massa.",
+          "jstor": "222172"
+        },
+        {
+          "titulo": "Edward Alsworth Ross, Sin and Society",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 61–63",
+          "resumo": "Ensaios sobre a moralidade pública e empresarial que sustentam que a ética de uma sociedade agrícola não basta para uma sociedade industrial e urbana.",
+          "jstor": "222173"
+        },
+        {
+          "titulo": "J. Dorsey Forrest, The Development of Western Civilization",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 63–65",
+          "resumo": "Ampliação de uma tese de doutorado que interpreta psicologicamente a evolução ética, econômica e política dos povos ocidentais.",
+          "jstor": "222174"
+        },
+        {
+          "titulo": "Lewis Morgan, Ancient Society",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 65–66",
+          "resumo": "Reimpressão sem revisão da obra de 1877 sobre a organização social primitiva, que o resenhista usa para resumir o estado do debate.",
+          "jstor": "222175"
+        },
+        {
+          "titulo": "Frederick Webb Hodge (org.), Handbook of American Indians North of Mexico, parte I",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 67",
+          "resumo": "Primeira parte, de A a M, de um dicionário, enciclopédia e bibliografia do Bureau of American Ethnology, com 46 colaboradores.",
+          "jstor": "222176"
+        },
+        {
+          "titulo": "W. S. Harwood, The New Earth",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 67–68",
+          "resumo": "Apresentação popular da agricultura moderna nos Estados Unidos, da inoculação do solo à silvicultura e à criação de animais.",
+          "jstor": "222177"
+        },
+        {
+          "titulo": "Fifth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges, January 1, 1908",
+          "autores": "compilada pelo Economic Bulletin",
+          "paginas": "pp. 69–75",
+          "resumo": "Lista por instituição, com nome, formação, tema e data provável de conclusão de cada candidato, a partir de circular às instituições do Conselho da associação.",
+          "jstor": "222178"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 76–105",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de janeiro de 1908, precedida da lista de periódicos indexados e dividida em seções temáticas numeradas, com livros e artigos.",
+          "jstor": "222179"
+        }
+      ],
+      "glossario": [
+        [
+          "Revisão de revisões (review of reviews)",
+          "periódico que resume e indexa o que saiu em outras publicações, em vez de publicar pesquisa original."
+        ],
+        [
+          "Public Service Commission",
+          "comissão estadual que regula empresas de serviços públicos, como ferrovias, gás e eletricidade."
+        ],
+        [
+          "Bureau of Corporations",
+          "órgão federal americano criado para investigar grandes empresas e setores industriais."
+        ]
+      ],
+      "hoje": "Seções de notas profissionais, resenhas e bibliografia corrente continuam a existir nas revistas e boletins das associações de economia, embora a busca bibliográfica tenha migrado para bases de dados. O primeiro número do Economic Bulletin mostra o desenho original: separar a informação para a profissão da pesquisa original e da defesa de reformas. A pergunta de 1908 segue atual: quem financia e organiza a infraestrutura que permite aos economistas saber o que os colegas estão fazendo?",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 1–19",
+          "222149"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 20-22",
+          "pp. 20–22",
+          "222150"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 22-24",
+          "pp. 22–24",
+          "222151"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 25-26",
+          "pp. 25–26",
+          "222152"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 26-29",
+          "pp. 26–29",
+          "222153"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 29-30",
+          "pp. 29–30",
+          "222154"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-04-01), page 30",
+          "pp. 30",
+          "222155"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 31-33",
+          "pp. 31–33",
+          "222156"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 33-35",
+          "pp. 33–35",
+          "222157"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 35-36",
+          "pp. 35–36",
+          "222158"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 36-38",
+          "pp. 36–38",
+          "222159"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 38-39",
+          "pp. 38–39",
+          "222160"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 39-41",
+          "pp. 39–41",
+          "222161"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 41-43",
+          "pp. 41–43",
+          "222162"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 44-47",
+          "pp. 44–47",
+          "222163"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 48-49",
+          "pp. 48–49",
+          "222164"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 49-50",
+          "pp. 49–50",
+          "222165"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 50-51",
+          "pp. 50–51",
+          "222166"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 51-52",
+          "pp. 51–52",
+          "222167"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 52-53",
+          "pp. 52–53",
+          "222168"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 53-55",
+          "pp. 53–55",
+          "222169"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 55-58",
+          "pp. 55–58",
+          "222170"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-04-01), page 58",
+          "pp. 58",
+          "222171"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 58-61",
+          "pp. 58–61",
+          "222172"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 61-63",
+          "pp. 61–63",
+          "222173"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 63-65",
+          "pp. 63–65",
+          "222174"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 65-66",
+          "pp. 65–66",
+          "222175"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-04-01), page 67",
+          "pp. 67",
+          "222176"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-04-01), pages 67-68",
+          "pp. 67–68",
+          "222177"
+        ],
+        [
+          "Fifth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges, January 1, 1908",
+          "pp. 69–75",
+          "222178"
+        ],
+        [
+          "Recent Publications",
+          "pp. 76–105",
+          "222179"
+        ]
+      ],
+      "jstor_edicao": "i302104",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1908-os-bondes-de-chicago",
+      "numero": 90,
+      "titulo": "Heilman, 1908: cinquenta anos de concessões dos bondes de Chicago",
+      "titulo_original": "Chicago Traction",
+      "autores": "R. E. Heilman",
+      "publicacao": "American Economic Association Quarterly",
+      "volume": "3ª série, vol. 9, nº 2",
+      "data": "1908",
+      "chamada": "Em 1908, R. E. Heilman reconstituiu a briga entre Chicago e suas empresas de bondes: concessões de 99 anos, tarifa de cinco centavos, referendos sobre a municipalização e o acordo de 1907.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1906, a Chicago Union Traction Company pagou à prefeitura US$ 40.257,25 de taxa sobre carros. Se a taxa fosse cobrada, como dizia o nome, a US$ 50 por carro de fato em operação, teria pago US$ 126.150. A diferença vinha de uma regra de 1883: o número de carros tributáveis era o total diário de viagens dividido por 13, na suposição de que cada carro fizesse treze viagens por dia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O cálculo está em Chicago Traction, de R. E. Heilman, publicado em 1908 como o nº 2 do vol. 9 da terceira série das publicações trimestrais da American Economic Association. A monografia acompanha, em 22 capítulos e dois apêndices, cinquenta anos de relação entre a cidade e as empresas de bondes: as primeiras concessões, as tentativas de obter prazos longos, o movimento pela municipalização, a situação de 1906 e os contratos de 1907. As fontes são atas da câmara municipal, diários da legislatura, decisões judiciais, relatórios de comissões e as contas das próprias empresas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto tempo durava uma concessão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira concessão efetivamente usada, de 17 de agosto de 1858, valia por 25 anos e até a compra das linhas pela cidade. Em 6 de fevereiro de 1865, a legislatura de Illinois aprovou, por cima do veto do governador Oglesby, o chamado Ninety-Nine Year Act, que trocava os 25 anos por 99 nas cartas das três companhias. Um protesto contra a lei teve 9.000 assinaturas. Por quatro décadas, a dúvida central foi se o ato prorrogara só a vida das empresas ou também seu direito de usar as ruas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reação veio em camadas. A constituição estadual de 1870 passou a exigir o consentimento das autoridades locais para qualquer linha; uma lei de 1874 e a lei municipal de 1875 limitaram as concessões a vinte anos. Em 1883, a câmara preferiu não levar o ato de 1865 aos tribunais: prorrogou todas as concessões por vinte anos, até 1903, em troca da taxa sobre carros. O prefeito Carter Harrison justificou a escolha dizendo que os tribunais da época dificilmente dariam razão à cidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como as empresas tentaram prazos longos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Heilman descreve três tentativas na legislatura. O projeto Crawford, de 1895, autorizava concessões de 99 anos e foi vetado pelo governador Altgeld."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Amo Chicago e não estou disposto a ajudar a forjar uma corrente.”",
+          "original": "“I love Chicago and am not willing to help forge a chain”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os projetos Humphrey, de 1897, prorrogavam todas as concessões por cinquenta anos com tarifa fixa de cinco centavos e criavam uma comissão estadual nomeada pelo governador. Passaram no Senado e caíram na Câmara por 121 a 29. No mesmo ano, a Allen law deu às câmaras municipais o poder de conceder por até cinquenta anos, com tarifa de cinco centavos nos primeiros vinte. A câmara de Chicago não chegou a usá-lo, e a lei foi revogada em 7 de março de 1899, por votação quase unânime."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 de 15",
+          "texto": "Senadores que votaram pela Allen law, tinham mandato vencendo e voltaram na legislatura de 1899. Na Câmara, dos 85 deputados que apoiaram o projeto em sua primeira forma, só 21 voltaram. Em Cook County, dos 39 parlamentares que votaram a favor sem ter mandato garantido, os republicanos renomearam 7 e os democratas 5."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a municipalização ganhou votos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Heilman, o motor foi o serviço: carros pequenos e velhos, tarifas duplas, congestionamento no centro e superlotação. As empresas abriram os livros a um comitê da Civic Federation; o relatório concluiu que, sem a água do capital, poderiam pagar à cidade 20% da receita bruta, reservar 4% para depreciação e ainda distribuir dividendos de 6%. Em abril de 1902, num referendo consultivo, a municipalização dos bondes venceu por 142.826 votos a 27.998."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Mueller law, aprovada em 1903, deu às cidades de Illinois o poder de comprar, construir e operar linhas, mas com travas: operar exigia três quintos dos eleitores, e a compra podia ser financiada por certificados pagos só com a renda das próprias linhas. Chicago adotou a lei em abril de 1904, por 153.223 votos a 30.279. Em 1905, Edward F. Dunne foi eleito prefeito com a plataforma da propriedade imediata, e os eleitores rejeitaram o contrato provisório com a Chicago City Railway por 150.785 a 64.381."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 75 milhões",
+          "texto": "Valor dos certificados autorizados pela câmara em janeiro de 1906 para comprar as linhas. Em abril de 1906, os eleitores aprovaram a emissão por 110.225 a 106.859; a operação municipal teve 121.916 votos contra 110.323, maioria simples, mas abaixo dos três quintos exigidos. Em 18 de abril de 1907, a Suprema Corte de Illinois declarou os certificados inconstitucionais, por elevarem a dívida da cidade acima do limite de 5% do valor da propriedade tributável."
+        },
+        {
+          "tipo": "p",
+          "texto": "No meio do caminho, a Suprema Corte dos Estados Unidos decidiu o caso do ato de 1865, em março de 1906: a lei prorrogou por 99 anos a vida das três companhias, mas não suas concessões nas ruas. Para Heilman, a decisão pôs a cidade numa posição muito melhor para negociar, pois boa parte da rede passou a operar por tolerância da prefeitura."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a cidade comprava em 1907?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida era o preço. As empresas pediram US$ 43.119.512 só pela rede da Union Traction, somando bens físicos e o valor das concessões ainda não vencidas. Uma comissão de avaliação, que supôs que a cidade poderia assumir as linhas em dezoito meses, chegou a US$ 46.652.747 para as duas redes, sem o calçamento, ou US$ 50.994.782 com ele. Os contratos aprovados fixaram US$ 29 milhões para o sistema da Union Traction e US$ 21 milhões para a Chicago City Railway."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dois contratos, de vinte anos, foram aprovados pela câmara em 4 de fevereiro de 1907, por 56 votos a 13, mantidos sobre o veto de Dunne por 57 a 12 e ratificados em referendo em 2 de abril, por maioria de 33.086 votos. Exigiam a reconstrução da rede em três anos, sob pena de US$ 10.000 por dia; 21 linhas diretas com baldeação entre os sistemas; o fim dos carros em comboio; e um adiantamento de até US$ 5 milhões para um metrô municipal. Uma junta de três engenheiros, com Bion J. Arnold como terceiro membro, aprovaria cada gasto."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte financeira é a mais nova. Da receita bruta saíam as despesas de operação e um retorno de 5% sobre o valor fixado mais o investimento em reconstrução; o resto se dividia em 55% para a cidade e 45% para as empresas, com a parte municipal reservada para a compra futura. A cidade podia comprar as linhas com seis meses de aviso, pelo valor fixado mais o custo da reconstrução, com bônus de 20% se não fosse para operá-las ela mesma."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 20.454.545",
+          "texto": "Receita bruta anual que, pelas contas de Heilman, as duas empresas precisariam ter antes de a cidade receber qualquer parcela. Ele supõe investimento de US$ 90 milhões (US$ 50 milhões de avaliação e US$ 40 milhões de reconstrução), juros de 5%, operação a 70% da receita e 8% para renovações. A receita bruta das duas empresas era então de cerca de US$ 17 milhões por ano, e a média estimada para os vinte anos, de cerca de US$ 20 milhões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "As garantias de serviço valiam no tribunal?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Heilman duvida. Uma lei municipal de 1905 já exigia carros suficientes para levar os passageiros com conforto e sem superlotação; com base nela, a cidade processou a Union Traction em US$ 1.500.000 por 15.000 infrações. Um tribunal de Cook County anulou a regra por imprecisão."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O conforto pessoal indica um estado de espírito.”",
+          "original": "“Personal comfort indicates a state of mind.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os contratos de 1907, nota o autor, usam termos ainda mais vagos, como a promessa de manter a rede na mais alta eficiência praticável. A multa diária por atraso pode ser tratada como penalidade e não ser cobrada; a lei municipal limita multas a US$ 200 por infração; e a cláusula de caducidade quase nunca é aplicada pelos tribunais. Sua conclusão é que as cláusulas, embora pareçam formidáveis, não asseguram o serviço."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“longe de ser garantias blindadas de serviço satisfatório.”",
+          "original": "“far from being iron clad guarantees of satisfactory service.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os capítulos finais tratam da fusão provável das duas empresas, que passavam a ser controladas pelos mesmos interesses financeiros, e do futuro da municipalização. Para Heilman, o cidadão comum pouco se importa com quem é o dono das linhas se o serviço for bom; por isso o destino do movimento dependeria do serviço prestado sob os novos contratos."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a contribuição de método está em ler as concessões como contratos incompletos. Heilman mostra que cada cláusula vaga vira litígio: a taxa por carro que não conta carros, a exigência de conforto que nenhum juiz consegue medir, a multa que pode ser tratada como penalidade. A lição econômica é que o regulador só controla aquilo que consegue verificar. Daí o peso que o contrato de 1907 dá à junta de engenheiros e ao padrão contábil uniforme, que transformam promessas em números auditáveis.",
+            "O segundo ponto, na minha leitura, é a divisão da receita líquida. A cidade aceitou dividir um resíduo que depende de custos informados pelas próprias empresas, e a conta de Heilman mostra que esse resíduo podia não existir com os custos da época. Uma parcela da receita bruta é menos elegante, mas muito mais fácil de fiscalizar. A escolha entre as duas fórmulas é, no fundo, uma escolha sobre quanta informação o poder público consegue de fato obter."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Traction",
+          "no inglês americano da época, o transporte urbano sobre trilhos: bondes a cavalo, a cabo e elétricos."
+        ],
+        [
+          "Concessão (franchise)",
+          "direito, dado pela cidade ou pelo estado, de usar as ruas para operar uma linha."
+        ],
+        [
+          "Capital aguado (watered stock)",
+          "ações e títulos emitidos acima do valor dos bens da empresa."
+        ],
+        [
+          "Municipalização (municipal ownership)",
+          "propriedade das linhas pela cidade, com operação própria ou arrendada."
+        ],
+        [
+          "Certificados de bonde (street railway certificates)",
+          "títulos pagos só com a renda das linhas compradas, sem garantia do caixa geral da cidade."
+        ],
+        [
+          "Desapropriação (condemnation)",
+          "aquisição compulsória de bens privados pelo poder público, mediante indenização."
+        ],
+        [
+          "Danos prefixados (liquidated damages)",
+          "valor de indenização fixado de antemão no contrato para cada dia de descumprimento."
+        ],
+        [
+          "Caducidade (forfeiture)",
+          "perda da concessão por descumprimento grave do contrato."
+        ]
+      ],
+      "hoje": "As perguntas de Heilman continuam no centro de qualquer concessão de transporte urbano. Quanto deve durar o contrato, como se avalia o ativo na retomada, se a remuneração do poder concedente sai da receita bruta ou do lucro, e como se escreve um padrão de serviço que um tribunal consiga aplicar. Indicadores objetivos de desempenho, verificador independente e contabilidade regulatória são, em boa medida, respostas aos problemas que Chicago enfrentou entre 1858 e 1907.",
+      "itens": [
+        [
+          "Chicago Traction",
+          "pp. 1–131",
+          "3000017"
+        ]
+      ],
+      "jstor_edicao": "i350431",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1908-o-boletim-economico-junho",
+      "numero": 91,
+      "titulo": "O segundo Bulletin: greenbacks, orçamentos operários e coleções",
+      "titulo_original": "The Economic Bulletin, vol. 1, no. 2 (June 1908)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 1, nº 2",
+      "data": "junho de 1908",
+      "chamada": "O segundo número do boletim traz notas sobre nomeações, bibliotecas e mortes, 25 resenhas com peso para moeda, estatística e socialismo, e a bibliografia corrente desde abril de 1908.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A primeira nota do número de junho de 1908 informa que S. N. Patten representou a associação na conferência convocada pelo presidente Roosevelt sobre a conservação dos recursos naturais do país. A segunda anuncia um novo editor: James B. Morman, do Experiment Station Record, em Washington, assume o departamento de economia agrícola."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nomeações dominam. H. J. Davenport deixa Chicago para chefiar o departamento de economia da Universidade de Missouri. A. P. Andrew, de Harvard, vira consultor da comissão monetária dos Estados Unidos. As Columbia University Studies in History, Economics and Public Law passam da Macmillan para a Longmans, Green. O Bureau of Social Research, ligado à Russell Sage Foundation, conclui um estudo sobre empréstimos a assalariados em Nova York."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 7.000",
+          "texto": "Doações de James J. Hill, presidente da Great Northern, para a coleção sobre transporte ferroviário da biblioteca da Universidade de Wisconsin. Em três anos, reuniram-se cerca de 5.000 relatórios de companhias ferroviárias americanas."
+        },
+        {
+          "tipo": "p",
+          "texto": "As bibliotecas aparecem também em Columbia: E. R. A. Seligman incorpora à sua biblioteca a coleção de Francis Place sobre literatura operária, reunida entre 1815 e 1840, e já tem completas as obras e periódicos de Robert Owen e Karl Marx. O número registra duas mortes. Richard Boeckh, da Universidade de Berlim, morreu aos 83 anos. Walter A. Wyckoff, de Princeton, morreu em 15 de maio; em 1892 e 1893 atravessou os Estados Unidos como trabalhador avulso e contou a experiência em The Workers."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 25 resenhas. Na teoria, T. N. Carver resenha Value and Distribution, de Davenport, que reconstrói a distribuição a partir do custo de oportunidade, e o livro de Hawley sobre o empresário. Moeda ocupa três resenhas de H. Parker Willis: Wesley C. Mitchell sobre os greenbacks, Kemmerer sobre moeda e preços e a nova edição de The Bank and the Treasury, de Cleveland. Há duas monografias de Columbia sobre indústria, de Meyer Jacobstein sobre o tabaco e de Abraham Berglund sobre a United States Steel Corporation; os dois autores tinham aparecido nas notas de abril, no Bureau of Corporations e no Washington State College."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Mitchell descreve o volume como “o aparato estatístico de um livro ainda por escrever”.",
+          "original": "the statistical apparatus of a book still to be written"
+        },
+        {
+          "tipo": "p",
+          "texto": "A estatística social aparece com Wage-Earners' Budgets, de Louise B. More, sobre as receitas e despesas de 200 famílias do bairro de Greenwich, em Nova York, e com os resumos internacionais de Gustav Sundbärg. As finanças estaduais entram com o estudo de Eugene E. Agger sobre orçamentos. O socialismo rende duas resenhas, de Robert Hunter e H. O. Arnold-Forster. Fecham o bloco a sociologia, com Small, Webster, Tenney e Thomas, e livros sobre o Congo e o Japão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications cobre obras publicadas sobretudo desde 1º de abril de 1908. A lista de periódicos indexados cresce: entram o American Economic Association Quarterly, o Banker's Magazine de Nova York e o Finanz Archiv. A divisão em seções numeradas se mantém, das obras gerais e de teoria à miscelânea, com livros e artigos separados."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de junho expõe a tensão de método da economia americana em 1908. De um lado, construções dedutivas, como a teoria do empresário de Hawley e o custo de oportunidade de Davenport. De outro, o trabalho de reunir números: os salários e preços da era dos greenbacks, os orçamentos de 200 famílias, as tabelas de Sundbärg. A resenha de Willis sobre Kemmerer separa os dois lados do mesmo livro, o dedutivo e o indutivo. As notas sobre bibliotecas mostram a base material do segundo caminho."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 107–114",
+          "resumo": "Notas sobre nomeações, investigações, bibliotecas e conferências, a entrada de James B. Morman no conselho de editores e os obituários de Richard Boeckh e Walter A. Wyckoff.",
+          "jstor": "221983"
+        },
+        {
+          "titulo": "Herbert Joseph Davenport, Value and Distribution",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 115–116",
+          "resumo": "Revisão crítica das teorias do custo e da utilidade marginal e reconstrução da distribuição a partir do custo do empresário, baseado no custo de oportunidade sugerido por David I. Green.",
+          "jstor": "221984"
+        },
+        {
+          "titulo": "G. P. Watkins, The Growth of Large Fortunes",
+          "autores": "Edson Newton Tuckey",
+          "paginas": "pp. 117–120",
+          "resumo": "Estudo, publicado pela própria associação, das causas econômicas das grandes fortunas, que o autor atribui a condições e instituições impessoais.",
+          "jstor": "221985"
+        },
+        {
+          "titulo": "George Randall Lewis, The Stannaries: A Study of the English Tin Miner",
+          "autores": "Dana Carleton Munro",
+          "paginas": "pp. 120–121",
+          "resumo": "História da mineração de estanho inglesa em oito capítulos, da técnica e do comércio à tributação e às relações entre capital e trabalho, com apêndices documentais e séries de produção e preços.",
+          "jstor": "221986"
+        },
+        {
+          "titulo": "Davis R. Dewey, National Problems, 1885–1897",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 122",
+          "resumo": "Volume da American Nation Series sobre 1885–1897: pensões, supervisão das ferrovias, sindicatos, trustes e a questão monetária.",
+          "jstor": "221987"
+        },
+        {
+          "titulo": "Frederick Barnard Hawley, Enterprise and the Productive Process",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 123–124",
+          "resumo": "Teoria da produtividade econômica do ponto de vista do empresário, construída por dedução a partir de definições do objeto da economia.",
+          "jstor": "221988"
+        },
+        {
+          "titulo": "Meyer Jacobstein, The Tobacco Industry in the United States",
+          "autores": "M. B. Hammond",
+          "paginas": "pp. 124–127",
+          "resumo": "Monografia de Columbia sobre a indústria do tabaco americana, cujos dois primeiros capítulos traçam sua história das origens coloniais à Guerra Civil.",
+          "jstor": "221989"
+        },
+        {
+          "titulo": "Abraham Berglund, The United States Steel Corporation",
+          "autores": "John C. Duncan",
+          "paginas": "pp. 127–128",
+          "resumo": "Relato da formação da United States Steel Corporation, das empresas que a compõem e de suas relações com a companhia-mãe.",
+          "jstor": "221990"
+        },
+        {
+          "titulo": "Hugo R. Meyer, The British State Telegraph",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 128–129",
+          "resumo": "Estudo da estatização dos telégrafos britânicos, na linha dos trabalhos anteriores do autor contra a expansão de funções industriais do governo.",
+          "jstor": "221991"
+        },
+        {
+          "titulo": "E. D. Morel, Red Rubber",
+          "autores": "E. D. Jones",
+          "paginas": "pp. 129–130",
+          "resumo": "Denúncia do sistema de exploração da borracha no Estado Livre do Congo, que o resenhista lê como catálogo de impostos em espécie, trabalho forçado e companhias concessionárias.",
+          "jstor": "221992"
+        },
+        {
+          "titulo": "W. Petrie Watson, The Future of Japan",
+          "autores": "Edward Van Dyke Robinson",
+          "paginas": "pp. 131–134",
+          "resumo": "Ensaio de filosofia da história que busca na religião a explicação das civilizações e a aplica ao Japão moderno.",
+          "jstor": "221993"
+        },
+        {
+          "titulo": "Richard Harding Davis, The Congo and Coasts of Africa",
+          "autores": "E. D. Jones",
+          "paginas": "pp. 134–135",
+          "resumo": "Relato de viagem pelas costas ocidental e oriental da África e pelo rio Congo, com a descrição do Estado do Congo como empresa comercial de borracha e marfim.",
+          "jstor": "221994"
+        },
+        {
+          "titulo": "Louise B. More, Wage-Earners' Budgets",
+          "autores": "Julius H. Parmelee",
+          "paginas": "pp. 135–137",
+          "resumo": "Estudo de dois anos, feito a partir do settlement Greenwich House, sobre receitas e despesas de 200 famílias de Nova York, por tamanho da família, ocupação e nacionalidade.",
+          "jstor": "221995"
+        },
+        {
+          "titulo": "Wesley C. Mitchell, Gold, Prices, and Wages under the Greenback Standard",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 137–139",
+          "resumo": "Continuação de A History of the Greenbacks, formada sobretudo por tabelas de salários e preços baseadas no Décimo Censo e no relatório Aldrich, com apoio da Carnegie Institution.",
+          "jstor": "221996"
+        },
+        {
+          "titulo": "E. W. Kemmerer, Money and Credit Instruments in their Relation to General Prices",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 139–141",
+          "resumo": "Tese de doutorado em dois livros: um abstrato, com métodos matemáticos, e um estatístico, sobre moeda em circulação, volume de negócios e reservas bancárias.",
+          "jstor": "221997"
+        },
+        {
+          "titulo": "Frederick A. Cleveland, The Bank and the Treasury",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 142",
+          "resumo": "Nova edição que leva a história até a primavera de 1908, com capítulo introdutório sobre a evolução monetária recente e apêndice com projetos de lei apresentados no Congresso.",
+          "jstor": "221998"
+        },
+        {
+          "titulo": "Eugene E. Agger, The Budget in the American Commonwealths",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 142–144",
+          "resumo": "Estudo dos sistemas orçamentários de 45 estados americanos, incluindo auditoria e controle, que recomenda a publicidade como remédio.",
+          "jstor": "221999"
+        },
+        {
+          "titulo": "Gustav Sundbärg, Aperçus statistiques internationaux",
+          "autores": "Walter F. Willcox",
+          "paginas": "pp. 144–145",
+          "resumo": "Décimo ano dos resumos de estatística internacional antes publicados no Statistisk Tidskrift, agora volume independente em francês, organizado por tema e não por país.",
+          "jstor": "222000"
+        },
+        {
+          "titulo": "Robert Hunter, Socialists at Work",
+          "autores": "J. A. Lapp",
+          "paginas": "pp. 146–147",
+          "resumo": "Retrato do movimento socialista na Alemanha, Itália, França, Bélgica e Inglaterra, baseado sobretudo em observação própria do autor.",
+          "jstor": "222001"
+        },
+        {
+          "titulo": "H. O. Arnold-Forster, English Socialism of Today",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 147–148",
+          "resumo": "Resposta popular ao socialismo, publicada antes como artigos no Standard, que examina as doutrinas dos propagandistas com citações de seus programas oficiais.",
+          "jstor": "222002"
+        },
+        {
+          "titulo": "Albion W. Small, Adam Smith and Modern Sociology",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 148–150",
+          "resumo": "Ensaio sobre a interdependência entre economia e sociologia que usa Adam Smith como exemplo, parte de um estudo maior sobre as ciências sociais do século XIX.",
+          "jstor": "222003"
+        },
+        {
+          "titulo": "John C. Van Dyke, The Money God",
+          "autores": "I. A. Loos",
+          "paginas": "pp. 150–151",
+          "resumo": "Apelo, em linguagem popular, por mais peso do elemento ético nos negócios, com críticas a métodos implacáveis e a ideais apenas materiais.",
+          "jstor": "222004"
+        },
+        {
+          "titulo": "Hutton Webster, Primitive Secret Societies",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 151–154",
+          "resumo": "Estudo, originalmente tese de doutorado, sobre casas dos homens, ritos de iniciação e sociedades secretas como instituições da política e da religião primitivas.",
+          "jstor": "222005"
+        },
+        {
+          "titulo": "Alvan A. Tenney, Social Democracy and Population",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 154–155",
+          "resumo": "Monografia sobre a relação entre crescimento populacional, hereditariedade e seleção e a manutenção de uma democracia social, definida como sociedade em que todos têm oportunidade.",
+          "jstor": "222006"
+        },
+        {
+          "titulo": "William I. Thomas, Sex and Society",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 155–157",
+          "resumo": "Nove ensaios de psicologia social sobre as diferenças entre os sexos e seus efeitos no controle social, na indústria e na moral.",
+          "jstor": "222007"
+        },
+        {
+          "titulo": "Paul S. Reinsch, American Legislatures and Legislative Methods",
+          "autores": "Albert A. Giesecke",
+          "paginas": "pp. 158–159",
+          "resumo": "Volume da American States Series sobre a organização e o procedimento dos legislativos federal e estaduais e as forças que influem nas leis aprovadas.",
+          "jstor": "222008"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 160–187",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de abril de 1908, com lista ampliada de periódicos indexados e seções temáticas numeradas de livros e artigos.",
+          "jstor": "222009"
+        }
+      ],
+      "glossario": [
+        [
+          "Greenbacks",
+          "papel-moeda inconversível emitido pelo governo americano durante a Guerra Civil."
+        ],
+        [
+          "Custo de oportunidade",
+          "valor da melhor alternativa de que se abre mão ao fazer uma escolha."
+        ],
+        [
+          "Settlement",
+          "casa de assistência instalada em bairro operário, onde voluntários moram e trabalham com a vizinhança."
+        ]
+      ],
+      "hoje": "Pesquisas de orçamento familiar como a de Louise B. More viraram rotina dos institutos de estatística e são a base dos índices de preços ao consumidor. A ambição de Mitchell, montar primeiro o aparato estatístico e só depois a interpretação, também se tornou prática corrente em história econômica. O número de junho de 1908 mostra esse trabalho ainda artesanal, dependente de bibliotecas formadas por doações e de investigadores que conheciam pessoalmente as famílias pesquisadas.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 107–114",
+          "221983"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 115-116",
+          "pp. 115–116",
+          "221984"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 117-120",
+          "pp. 117–120",
+          "221985"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 120-121",
+          "pp. 120–121",
+          "221986"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-06-01), page 122",
+          "pp. 122",
+          "221987"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 123-124",
+          "pp. 123–124",
+          "221988"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 124-127",
+          "pp. 124–127",
+          "221989"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 127-128",
+          "pp. 127–128",
+          "221990"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 128-129",
+          "pp. 128–129",
+          "221991"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 129-130",
+          "pp. 129–130",
+          "221992"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 131-134",
+          "pp. 131–134",
+          "221993"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 134-135",
+          "pp. 134–135",
+          "221994"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 135-137",
+          "pp. 135–137",
+          "221995"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 137-139",
+          "pp. 137–139",
+          "221996"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 139-141",
+          "pp. 139–141",
+          "221997"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-06-01), page 142",
+          "pp. 142",
+          "221998"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 142-144",
+          "pp. 142–144",
+          "221999"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 144-145",
+          "pp. 144–145",
+          "222000"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 146-147",
+          "pp. 146–147",
+          "222001"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 147-148",
+          "pp. 147–148",
+          "222002"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 148-150",
+          "pp. 148–150",
+          "222003"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 150-151",
+          "pp. 150–151",
+          "222004"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 151-154",
+          "pp. 151–154",
+          "222005"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 154-155",
+          "pp. 154–155",
+          "222006"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 155-157",
+          "pp. 155–157",
+          "222007"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-06-01), pages 158-159",
+          "pp. 158–159",
+          "222008"
+        ],
+        [
+          "Recent Publications",
+          "pp. 160–187",
+          "222009"
+        ]
+      ],
+      "jstor_edicao": "i302113",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "American Economic Association Quarterly e Economic Bulletin (1908–1910)",
+    "American Economic Association Quarterly e Economic Bulletin (1908, nº 3 e 4; 1909–1910)",
     "American Economic Review (1911–1922)"
   ]
 }
