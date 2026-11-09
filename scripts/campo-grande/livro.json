@@ -203,33 +203,169 @@
    "numero": 4,
    "slug": "funcionalismo",
    "titulo": "Setor público: funcionalismo",
-   "chamada": "Quantos são os servidores municipais, onde trabalham, quanto pesa a folha e como valorizar quem atende o cidadão na ponta.",
-   "situacao": "roteiro",
+   "chamada": "Quase 38 mil pessoas na folha, gasto com pessoal colado no teto da Lei de Responsabilidade Fiscal e um passivo previdenciário de R$ 10,3 bilhões.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "Quantos são os servidores municipais e onde trabalham: escolas, postos de saúde, guarda, administração."
-    },
-    {
-     "tipo": "p",
-     "texto": "O peso da folha no orçamento e o limite da Lei de Responsabilidade Fiscal; a previdência dos servidores."
-    },
-    {
-     "tipo": "p",
-     "texto": "Carreira, mérito e concurso: o servidor como quem atende o cidadão na ponta."
+     "texto": "Quem atende o cidadão na ponta é servidor municipal: a professora do CEINF, a enfermeira do posto, o agente comunitário que bate à porta, o guarda da praça. Antes de propor qualquer coisa para eles, é preciso saber quantos são, quanto custam e o que a cidade deve a quem já se aposentou."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Quantos são os servidores?"
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Relatório de Gestão Fiscal (SICONFI/Tesouro Nacional), TCE-MS e Portal da Transparência da prefeitura. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "O último número oficial com a divisão por vínculo saiu do edital de venda da folha de pagamento. Na versão corrigida de março de 2024, a folha tinha 28.490 servidores ativos, 6.955 inativos e pensionistas e 2.297 pessoas em frentes de trabalho (Primt e Proinc), num total de 37.742."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "37.742",
+     "texto": "pessoas na folha da prefeitura: 28.490 ativos, 6.955 inativos e pensionistas e 2.297 em frentes de trabalho. Fonte: adendo ao edital da folha de pagamento, mar/2024."
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura não publica, em fonte aberta, quantos ativos são concursados e quantos são comissionados ou contratados. O retrato mais detalhado é de uma auditoria do Tribunal de Contas do Estado, noticiada pela imprensa: em abril de 2022 havia 16.993 efetivos e 9.883 temporários, espalhados em 54 funções; professores, assistentes de educação infantil e médicos estavam entre as cinco funções com mais temporários. Só a Secretaria de Saúde tem 7.888 servidores, segundo o seu relatório quadrimestral (RDQA) do 2º quadrimestre de 2026."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto pesa a folha?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa com pessoal do Poder Executivo, 12 meses (R$ milhões correntes)",
+     "cabecalho": [
+      "",
+      "2023",
+      "2024",
+      "2025",
+      "ago/2026"
+     ],
+     "linhas": [
+      [
+       "Despesa bruta com pessoal",
+       "2.907",
+       "3.458",
+       "3.710",
+       "3.861"
+      ],
+      [
+       "…servidores ativos",
+       "2.269",
+       "2.775",
+       "2.970",
+       "3.008"
+      ],
+      [
+       "…inativos e pensionistas",
+       "573",
+       "625",
+       "687",
+       "798"
+      ],
+      [
+       "Despesa total com pessoal (base do limite)",
+       "2.640",
+       "2.676",
+       "2.923",
+       "3.015"
+      ],
+      [
+       "% da receita corrente líquida (limite: 54%)",
+       "55,2",
+       "52,2",
+       "54,1*",
+       "53,9"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "* 2025: calculado a partir do RGF (despesa total com pessoal ÷ receita corrente líquida ajustada), a conferir no relatório publicado. Em 2022, a auditoria do TCE-MS apontou 57,0%."
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura está colada no teto da Lei de Responsabilidade Fiscal desde 2022, e acima do limite prudencial de 51,3%. Acima dele, a própria lei (art. 22) proíbe reajuste além da revisão geral, criação de cargo e pagamento de hora extra. A folha bruta cresceu 28% entre 2023 e 2025, em valores correntes, e a parte dos inativos passou de R$ 573 milhões para R$ 798 milhões."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto custa a previdência dos servidores?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os aposentados e pensionistas do município são pagos pelo Instituto Municipal de Previdência de Campo Grande (IMPCG). Em 2025, o que entrou de contribuições não cobriu o que saiu em benefícios, e a prefeitura teve de pôr R$ 104,8 milhões a mais."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "IMPCG em 2025 (R$ milhões)",
+     "cabecalho": [
+      "Item",
+      "Valor"
+     ],
+     "linhas": [
+      [
+       "Receitas previdenciárias",
+       "566,9"
+      ],
+      [
+       "…contribuição dos servidores",
+       "208,5"
+      ],
+      [
+       "…contribuição da prefeitura",
+       "336,5"
+      ],
+      [
+       "…compensação do INSS",
+       "18,8"
+      ],
+      [
+       "Aposentadorias e pensões pagas",
+       "695,7"
+      ],
+      [
+       "Resultado",
+       "−128,9"
+      ],
+      [
+       "Aporte extra da prefeitura",
+       "104,8"
+      ],
+      [
+       "Dinheiro aplicado (saldo)",
+       "31,1"
+      ],
+      [
+       "Passivo atuarial",
+       "10.331"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 10,3 bilhões",
+     "texto": "é o passivo atuarial do IMPCG: o valor, a preço de hoje, dos benefícios prometidos que não têm dinheiro reservado. É 12 vezes a dívida consolidada do município. Fonte: SICONFI, RREO Anexo 4 e RGF Anexo 2, 2025."
+    },
+    {
+     "tipo": "p",
+     "texto": "O fundo do IMPCG se chama de capitalização, mas com R$ 31 milhões aplicados diante de R$ 10,3 bilhões de compromisso, ele funciona na prática como repartição: paga os aposentados com a contribuição do mês e com o aporte do Tesouro municipal. Cada real de aporte é um real a menos para a escola e o posto."
+    },
+    {
+     "tipo": "h2",
+     "texto": "E por carreira?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Este é o dado que falta. A base do Tesouro não separa a folha por carreira nem por lotação, e a prefeitura não publica em fonte aberta quantos professores, médicos, enfermeiros, técnicos e guardas tem, nem quanto cada grupo custa. Sem isso não se separa quem está na ponta de quem está na área-meio."
+    },
+    {
+     "tipo": "p",
+     "texto": "O que se sabe é parcial. Na enfermagem da Secretaria de Saúde, em abril de 2024, eram 342 enfermeiros e 799 técnicos, segundo dados da secretaria citados pelo Conselho Regional de Enfermagem. A despesa por área (saúde, educação, guarda, administração) aparece no Capítulo 7."
+    },
+    {
+     "tipo": "p",
+     "texto": "O caminho para fechar o quadro é a folha nominal do Portal da Transparência ou um pedido pela Lei de Acesso à Informação à Secretaria de Gestão, com o total por cargo e por secretaria."
     }
    ],
    "regiao": {
@@ -245,7 +381,19 @@
      "Imbirussu": "a levantar"
     },
     "nota": null
-   }
+   },
+   "indicador": {
+    "valor": "53,9% da receita corrente líquida,",
+    "texto": "é o gasto com pessoal (o limite da LRF é 54%); 37.742 pessoas na folha.",
+    "fonte": "RGF, 2º quadr. 2026 (SICONFI); edital da folha, adendo de mar/2024"
+   },
+   "fontes": [
+    "BRASIL. Tesouro Nacional. SICONFI: Relatório de Gestão Fiscal, Anexo 1 (3º quadr. 2023 a 2025 e 2º quadr. 2026), e Relatório Resumido da Execução Orçamentária, Anexo 4 (6º bim. 2025), Município de Campo Grande. Consulta em 09/11/2026.",
+    "CAMPO GRANDE. Edital de contratação da folha de pagamento, adendo de março de 2024.",
+    "CAMPO GRANDE. Secretaria Municipal de Saúde. Relatório Detalhado do Quadrimestre Anterior (RDQA), 2º quadrimestre de 2026.",
+    "Auditoria do TCE-MS sobre a folha de 2022, noticiada por Campo Grande News, 04/04/2023 (fonte secundária).",
+    "Correio do Estado, 28/09/2026, sobre o RGF do 2º quadrimestre de 2026 (fonte secundária)."
+   ]
   },
   {
    "fonte_prevista": "Plano Diretor de Campo Grande, Perfil Socioeconômico da Planurb e Censo 2022 (IBGE)",
@@ -253,7 +401,7 @@
    "slug": "urbanismo-e-regioes",
    "titulo": "Urbanismo e regiões",
    "chamada": "Como a cidade se formou, quanto custa a cidade espalhada e por que o bairro completo, com tudo a dez minutos a pé, é o caminho.",
-   "situacao": "roteiro",
+   "situacao": "texto",
    "sugestao": false,
    "blocos": [
     {
@@ -274,6 +422,87 @@
     },
     {
      "tipo": "h2",
+     "texto": "Quantas praças a cidade tem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ninguém sabe ao certo, ao menos em fonte pública. Nem o Perfil Socioeconômico da PLANURB nem o Plano Plurianual trazem o total de praças ou a divisão pelas sete regiões; a camada de áreas verdes do sistema de geoprocessamento da prefeitura não está aberta. O que se publicou é desencontrado: 34 parques e praças ligados à Funesp, segundo a imprensa; 40 praças entregues em 2025, segundo um veículo, e mais de 80, segundo a própria prefeitura; 54 termos de adoção vigentes em junho de 2025."
+    },
+    {
+     "tipo": "p",
+     "texto": "Enquanto isso, o abandono tem endereço. A Praça dos Imigrantes ficou com a obra parada de 2023 a 2025; a Praça Ary Coelho, no Centro, já teve dezesseis reformas. Sem cuidado diário, a praça reformada volta ao abandono."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Proposta: Praça da Família"
+    },
+    {
+     "tipo": "p",
+     "texto": "Uma praça só é frequentada pela família se tiver luz, sombra, parquinho, banheiro e alguém cuidando todo dia. A proposta é um programa em três padrões: a praça de vizinhança (até 2.000 m², com iluminação LED, árvores, parquinho, academia e bancos), a praça da família (de 2.000 a 6.000 m², com parquinho completo, pista de caminhada, quadra, bebedouro, ponto de feira e zelador fixo) e uma praça-polo por região (com sanitário, quiosques, câmera ligada à Guarda e agenda semanal)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Programa Praça da Família: dimensionamento e custo estimado",
+     "cabecalho": [
+      "Padrão",
+      "Critério",
+      "Quantidade",
+      "Custo unitário",
+      "Total"
+     ],
+     "linhas": [
+      [
+       "Praça da família",
+       "1 a cada 12 mil habitantes",
+       "73",
+       "R$ 550 mil",
+       "R$ 40,2 mi"
+      ],
+      [
+       "Requalificação leve",
+       "1 a cada 6 mil habitantes",
+       "146",
+       "R$ 180 mil",
+       "R$ 26,3 mi"
+      ],
+      [
+       "Praça-polo",
+       "1 por região + 3 históricas no Centro",
+       "10",
+       "R$ 1,2 mi",
+       "R$ 12,0 mi"
+      ],
+      [
+       "Projetos e fiscalização",
+       "5% da obra",
+       "",
+       "",
+       "R$ 3,9 mi"
+      ],
+      [
+       "Total",
+       "",
+       "229",
+       "",
+       "≈ R$ 82 mi"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "≈ R$ 82 milhões",
+     "texto": "em quatro anos, cerca de R$ 20 milhões por ano e R$ 93 por habitante, mais R$ 6,5 milhões por ano para o cuidado permanente. Estimativa do autor, com base em contratos de praças em Campo Grande (2024–2026) e em Belo Horizonte; os preços serão refeitos pela tabela SINAPI no projeto."
+    },
+    {
+     "tipo": "p",
+     "texto": "A escala é a mesma da ata de R$ 19,7 milhões que a prefeitura já assinou para praças em 2024. A diferença está no zelador e na manutenção, que entram no programa desde o primeiro dia, e na parceria com quem está perto: associação de moradores, paróquia e empresa do bairro, pelo programa de adoção de áreas públicas. É a subsidiariedade aplicada à praça."
+    },
+    {
+     "tipo": "p",
+     "texto": "Para fechar o catálogo, o primeiro passo é um pedido pela Lei de Acesso à Informação à Semadur e à PLANURB: a lista das praças com endereço, área, equipamentos, estado de conservação e data da última reforma."
+    },
+    {
+     "tipo": "h2",
      "texto": "Com que dados?"
     },
     {
@@ -282,18 +511,23 @@
     }
    ],
    "regiao": {
-    "pergunta": "A sua região é um bairro completo?",
-    "coluna": "População, densidade e o que há a 10 minutos a pé",
+    "pergunta": "Quantas praças da família a sua região teria?",
+    "coluna": "População (Censo 2022) e o programa proposto",
     "linhas": {
-     "Centro": "a levantar",
-     "Segredo": "a levantar",
-     "Prosa": "a levantar",
-     "Bandeira": "a levantar",
-     "Anhanduizinho": "a levantar",
-     "Lagoa": "a levantar",
-     "Imbirussu": "a levantar"
+     "Centro": "61.653 hab.; 5 praças da família, 10 requalificações leves; ≈ R$ 9,8 mi",
+     "Segredo": "128.300 hab.; 11 praças da família, 21 requalificações leves; ≈ R$ 11,6 mi",
+     "Prosa": "95.500 hab.; 8 praças da família, 16 requalificações leves; ≈ R$ 8,9 mi",
+     "Bandeira": "136.691 hab.; 11 praças da família, 23 requalificações leves; ≈ R$ 12,0 mi",
+     "Anhanduizinho": "218.500 hab.; 18 praças da família, 36 requalificações leves; ≈ R$ 18,5 mi",
+     "Lagoa": "134.964 hab.; 11 praças da família, 22 requalificações leves; ≈ R$ 11,8 mi",
+     "Imbirussu": "108.000 hab.; 9 praças da família, 18 requalificações leves; ≈ R$ 9,9 mi"
     },
-    "nota": null
+    "nota": "População do Censo 2022 (IBGE), conforme noticiado; parte arredondada na fonte. O número de praças existentes por região ainda não é público."
+   },
+   "indicador": {
+    "valor": "Sem cadastro público",
+    "texto": "de praças: a prefeitura não publica quantas são nem onde ficam.",
+    "fonte": "PLANURB, PPA 2022–2025 e Funesp, consultados em 09/11/2026"
    }
   },
   {
@@ -301,33 +535,263 @@
    "numero": 6,
    "slug": "arrecadacao-tributaria",
    "titulo": "Arrecadação tributária",
-   "chamada": "De onde vem o dinheiro da prefeitura, quanto vem de fora e quem paga a conta.",
-   "situacao": "roteiro",
+   "chamada": "De onde vem o dinheiro da prefeitura, quanto vem de fora, quanto a cidade deve e o que muda quando o ISS acabar.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "De onde vem o dinheiro da prefeitura (IPTU, ISS, ITBI e taxas) e quanto vem de fora: FPM, cota-parte do ICMS e do IPVA, repasses do SUS e do Fundeb."
-    },
-    {
-     "tipo": "p",
-     "texto": "A dependência de transferências e a dívida do município."
-    },
-    {
-     "tipo": "p",
-     "texto": "A carga que pesa no consumo essencial e na pequena produção; um IPTU justo e a cobrança dos vazios urbanos."
+     "texto": "Em 2025 a Prefeitura de Campo Grande arrecadou R$ 6,5 bilhões. A maior parte não saiu do bolso do campo-grandense em forma de imposto municipal: veio de Brasília e do governo do estado, quase sempre com destino carimbado. Entender essa conta é o primeiro passo para discutir qualquer proposta."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "De onde vem o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Receitas da prefeitura (R$ milhões correntes)",
+     "cabecalho": [
+      "",
+      "2020",
+      "2022",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "Receita total",
+       "4.480",
+       "5.514",
+       "6.172",
+       "6.469"
+      ],
+      [
+       "Receita tributária própria",
+       "1.311",
+       "1.667",
+       "1.985",
+       "2.169"
+      ],
+      [
+       "…ISS",
+       "359",
+       "517",
+       "664",
+       "728"
+      ],
+      [
+       "…IPTU",
+       "506",
+       "586",
+       "633",
+       "677"
+      ],
+      [
+       "…IRRF retido",
+       "200",
+       "255",
+       "303",
+       "362"
+      ],
+      [
+       "…ITBI",
+       "71",
+       "105",
+       "110",
+       "131"
+      ],
+      [
+       "…COSIP (iluminação)",
+       "120",
+       "144",
+       "197",
+       "192"
+      ],
+      [
+       "Transferências correntes",
+       "2.492",
+       "2.781",
+       "3.067",
+       "3.270"
+      ],
+      [
+       "…FUNDEB",
+       "518",
+       "754",
+       "916",
+       "961"
+      ],
+      [
+       "…SUS (União + Estado)",
+       "880",
+       "886",
+       "936",
+       "983"
+      ],
+      [
+       "…cota-parte do ICMS",
+       "443",
+       "501",
+       "507",
+       "536"
+      ],
+      [
+       "…FPM",
+       "164*",
+       "278",
+       "302",
+       "333"
+      ],
+      [
+       "…cota-parte do IPVA",
+       "159",
+       "182",
+       "222",
+       "238"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: SICONFI (RREO e RGF), Tesouro Nacional e a Lei Orçamentária Anual de Campo Grande. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "* Em 2020 o FPM segue a classificação contábil antiga, só com a cota mensal."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "55%",
+     "texto": "das receitas correntes de 2025 vieram de transferências da União e do Estado. Em 2020 eram 60%. Fonte: SICONFI, DCA 2020–2025, Anexo I-C (cálculo do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "A receita própria cresceu de 31,7% para 36,4% das receitas correntes entre 2020 e 2025. O ISS, imposto sobre serviços, dobrou em cinco anos e passou o IPTU em 2024. O IPTU cresceu 34% no período, abaixo da receita total (44%)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os maiores repasses não são o FPM. São o FUNDEB (R$ 961 milhões) e o SUS (R$ 983 milhões somando União e Estado). Quase um terço da receita chega com destino certo: escola e saúde. O município também põe dinheiro no FUNDEB, R$ 221 milhões descontados de FPM, ICMS e IPVA em 2025; o retorno líquido foi de R$ 740 milhões."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto a cidade deve?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Dívida consolidada por tipo (R$ milhões, fim do período)",
+     "cabecalho": [
+      "",
+      "2020",
+      "2022",
+      "2024",
+      "2025",
+      "ago/2026"
+     ],
+     "linhas": [
+      [
+       "Dívida consolidada",
+       "709",
+       "860",
+       "941",
+       "846",
+       "833"
+      ],
+      [
+       "…contratos internos (Caixa, BNDES, BB)",
+       "356",
+       "477",
+       "551",
+       "509",
+       "471"
+      ],
+      [
+       "…contratos externos (moeda estrangeira)",
+       "211",
+       "316",
+       "353",
+       "288",
+       "259"
+      ],
+      [
+       "…parcelamentos",
+       "142",
+       "67",
+       "37",
+       "48",
+       "101"
+      ],
+      [
+       "% da receita corrente líquida (limite: 120%)",
+       "18,7",
+       "18,9",
+       "18,2",
+       "15,5",
+       "14,7"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Crédito novo recebido por ano (R$ milhões)",
+     "cabecalho": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "68,9",
+       "108,4",
+       "186,8",
+       "108,2",
+       "53,1",
+       "18,2"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Pelo limite do Senado, a dívida contratual é pequena: 14,7% da receita corrente líquida, para um teto de 120%. A entrada de crédito novo teve pico em 2022 e caiu a quase nada em 2025. Três pontos pedem atenção: os parcelamentos voltaram a crescer (de R$ 37 milhões em 2024 para R$ 101 milhões em agosto de 2026), puxados por contribuições previdenciárias e tributos não recolhidos; cerca de um terço dos contratos está em moeda estrangeira; e a Câmara autorizou em outubro de 2026 novos empréstimos de R$ 476,7 milhões com a Caixa para asfalto e drenagem, segundo a imprensa. Se forem contratados, a dívida sobe mais de 50%."
+    },
+    {
+     "tipo": "p",
+     "texto": "A dívida que não aparece nessa tabela é a da previdência dos servidores: R$ 10,3 bilhões de passivo atuarial, doze vezes a dívida consolidada. Ela é tratada no Capítulo 4."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que muda quando o ISS acabar?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A reforma tributária (Emenda Constitucional 132, de 2023) extingue o ISS. Entre 2029 e 2032 ele cai para 90%, 80%, 70% e 60% do que seria; em 2033 deixa de existir, e o município passa a viver da sua parte do IBS, o novo imposto sobre bens e serviços. Cada município vai fixar a sua alíquota de IBS. É aí que se decide quanto o prestador de serviço de Campo Grande vai pagar, e o mandato que começa em 2029 é o que atravessa toda a transição."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Há dinheiro fora dos impostos?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Há, mas menos do que parece. Um levantamento dos serviços prestados com exclusividade na cidade encontrou 32, dos quais 7 são monopólios naturais de rede (água e esgoto, energia, gás) e os demais são exclusividades por contrato, por lei ou por equipamento único. Os que dependem do município, como água e esgoto, transporte coletivo, limpeza urbana, rodoviária, terminal de cargas e estacionamento rotativo, são tratados no Capítulo 7."
+    },
+    {
+     "tipo": "p",
+     "texto": "A única fonte com escala é o saneamento. A concessionária de água e esgoto teve lucro líquido de R$ 173,6 milhões no primeiro semestre de 2026, segundo as demonstrações financeiras noticiadas pela imprensa, e a prorrogação do contrato até 2060, feita em 2012, não teve novo pagamento de outorga ao município. Retomar a concessão custaria uma indenização provavelmente bilionária; renegociar é o caminho viável."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 80 a 120 milhões",
+     "texto": "por ano é o potencial estimado das receitas fora dos impostos hoje ao alcance da prefeitura: de 10% a 16% do ISS. Estimativa do autor, não de estudo formal; a maior parte viria do saneamento."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas em estudo"
+    },
+    {
+     "tipo": "p",
+     "texto": "Renegociar o contrato de água e esgoto, aproveitando a auditoria em curso, com uma outorga variável de 3% a 5% do faturamento paga pela margem da concessionária, sem aumento de tarifa. Fazer a nova concessão do estacionamento rotativo, vaga desde 2022, com outorga e participação na receita. Conceder a publicidade no mobiliário urbano. Cobrar dos vazios urbanos o IPTU que a cidade espalhada custa a todos (Capítulo 5). E usar cada real de receita fora dos impostos para fixar uma alíquota municipal de IBS mais baixa, que é como o alívio chega a quem trabalha e empreende."
+    },
+    {
+     "tipo": "p",
+     "texto": "O argumento é de bem comum: a renda de um monopólio já é paga hoje pelo usuário, na tarifa. A pergunta é quem fica com ela. A proposta só se sustenta se a tarifa não subir."
     }
    ],
    "regiao": {
@@ -343,15 +807,27 @@
      "Imbirussu": "a levantar"
     },
     "nota": null
-   }
+   },
+   "indicador": {
+    "valor": "55% das receitas correntes",
+    "texto": "vêm de transferências; o ISS (R$ 728 mi) passou o IPTU (R$ 677 mi). Dívida consolidada: R$ 833 mi (ago/2026).",
+    "fonte": "SICONFI: DCA 2025 e RGF 2º quadr. 2026"
+   },
+   "fontes": [
+    "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais (DCA) 2020–2025, Anexos I-C e I-D; Relatório de Gestão Fiscal, Anexo 2 (3º quadr. 2020–2025 e 2º quadr. 2026), Município de Campo Grande. Consulta em 09/11/2026.",
+    "BRASIL. Emenda Constitucional nº 132, de 20 de dezembro de 2023 (reforma tributária).",
+    "A Crítica, 13/10/2026: Câmara aprova R$ 476,7 milhões em empréstimos (fonte secundária).",
+    "Correio do Estado: lucro da concessionária de água no 1º semestre de 2026; aditivo de prorrogação sem outorga (fontes secundárias).",
+    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos)."
+   ]
   },
   {
    "fonte_prevista": "Lei Orçamentária Anual, Portal da Transparência da prefeitura e cadastro dos conselhos municipais",
    "numero": 7,
    "slug": "administracao-publica",
    "titulo": "Administração pública",
-   "chamada": "Como a prefeitura está organizada, para onde vai o orçamento e como trazer as decisões para perto do cidadão.",
-   "situacao": "roteiro",
+   "chamada": "Para onde vai o orçamento, quanto fica na ponta e quanto na máquina, e como a prefeitura regula os serviços que concede.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
@@ -364,19 +840,138 @@
     },
     {
      "tipo": "p",
-     "texto": "Subsidiariedade na prática: associações de moradores, conselhos, paróquias e orçamento por região."
-    },
-    {
-     "tipo": "p",
-     "texto": "Uma prefeitura que funciona perto do cidadão."
+     "texto": "Subsidiariedade na prática: associações de moradores, conselhos, paróquias e orçamento por região; uma prefeitura que funciona perto do cidadão."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Para onde vai o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa da prefeitura por área em 2025, pessoal e custeio (R$ milhões)",
+     "cabecalho": [
+      "Área",
+      "Valor",
+      "Participação"
+     ],
+     "linhas": [
+      [
+       "Saúde",
+       "1.815",
+       "31%"
+      ],
+      [
+       "…atenção básica",
+       "404",
+       ""
+      ],
+      [
+       "…hospitalar e ambulatorial",
+       "1.196",
+       ""
+      ],
+      [
+       "…gestão da secretaria",
+       "99",
+       ""
+      ],
+      [
+       "Educação",
+       "1.626",
+       "28%"
+      ],
+      [
+       "…ensino fundamental",
+       "1.082",
+       ""
+      ],
+      [
+       "…educação infantil",
+       "385",
+       ""
+      ],
+      [
+       "…gestão da secretaria",
+       "140",
+       ""
+      ],
+      [
+       "Previdência",
+       "705",
+       "12%"
+      ],
+      [
+       "Urbanismo",
+       "464",
+       ""
+      ],
+      [
+       "Administração",
+       "291",
+       ""
+      ],
+      [
+       "Câmara Municipal",
+       "123",
+       ""
+      ],
+      [
+       "Guarda Municipal",
+       "69",
+       "1,2%"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Lei Orçamentária Anual, Portal da Transparência da prefeitura e cadastro dos conselhos municipais. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "Saúde e educação levam 59% do que a prefeitura gasta. Dentro delas, a gestão das secretarias soma R$ 239 milhões; o resto chega à ponta, ao posto, ao hospital e à escola. A Guarda Municipal, tão cobrada pelo morador, fica com 1,2%."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quem presta os serviços que a prefeitura concede?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Boa parte do que o morador sente no dia a dia não é feita pela prefeitura, e sim por concessionárias que ela contratou e deveria regular pela Agereg: água e esgoto, ônibus, limpeza urbana, rodoviária, terminal de cargas, radares. Um levantamento dos serviços com exclusividade na cidade encontrou 32 casos:"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Serviços com exclusividade em Campo Grande, por tipo",
+     "cabecalho": [
+      "Tipo",
+      "Quantos",
+      "Remédio adequado"
+     ],
+     "linhas": [
+      [
+       "Monopólio natural de rede (água, energia, gás)",
+       "7",
+       "Regulação técnica de tarifa e investimento"
+      ],
+      [
+       "Exclusividade por contrato (ônibus, lixo, rodoviária)",
+       "10",
+       "Licitação bem desenhada, divisão em lotes"
+      ],
+      [
+       "Exclusividade por lei (cartórios, táxi, Detran)",
+       "9",
+       "Revisão da barreira legal"
+      ],
+      [
+       "Equipamento único (Ceasa, Morenão, Bioparque)",
+       "6",
+       "Regulação do preço de uso quando concedido"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Os casos críticos são municipais: o transporte coletivo sob intervenção desde junho de 2026, o contrato de água e esgoto prorrogado até 2060 sem nova outorga, o contrato global de limpeza urbana e o terminal intermodal de cargas, com obra concluída em 2020 e ainda sem operar, segundo a imprensa. Renegociar esses contratos libera dinheiro com o mesmo efeito de uma receita nova."
+    },
+    {
+     "tipo": "p",
+     "texto": "O levantamento se apoia em reportagens; os números de cada contrato serão conferidos nos documentos originais antes de entrarem no texto final."
     }
    ],
    "regiao": {
@@ -392,7 +987,16 @@
      "Imbirussu": "a levantar"
     },
     "nota": null
-   }
+   },
+   "indicador": {
+    "valor": "59% da despesa",
+    "texto": "de 2025 foi para saúde (31%) e educação (28%); a gestão das duas secretarias consumiu R$ 239 mi.",
+    "fonte": "SICONFI: DCA 2025, Anexo I-E"
+   },
+   "fontes": [
+    "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais 2025, Anexo I-E (despesa por função e subfunção), Município de Campo Grande. Consulta em 09/11/2026.",
+    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos)."
+   ]
   },
   {
    "numero": 8,
@@ -403,8 +1007,8 @@
    "sugestao": false,
    "indicador": {
     "valor": "74 postos de saúde,",
-    "texto": "6 UPAs e 4 CRSs na rede municipal; Anhanduizinho tem 17 postos e nenhuma UPA.",
-    "fonte": "CNES/DataSUS, consulta em 22/10/2026"
+    "texto": "6 UPAs e 4 CRSs; ≈ 1,3 milhão de consultas por ano na atenção primária; R$ 2,1 bi no Fundo Municipal de Saúde em 2026.",
+    "fonte": "CNES (out/2026); RDQA 2º quadr. 2026; LOA 2026"
    },
    "blocos": [
     {
@@ -518,7 +1122,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Contar unidades, porém, não basta. O que interessa ao morador é quantas famílias cada posto precisa atender e quanto tempo leva para chegar a um. Esse cálculo depende da população de cada região urbana, que ainda não foi cruzada com a tabela; por isso, por enquanto, ele não aparece aqui."
+     "texto": "Contar unidades, porém, não basta: o que interessa ao morador é quantas famílias cada posto precisa atender. Cruzando a tabela com a população de cada região no Censo 2022, a diferença salta: no Segredo há um posto para cerca de 9 mil habitantes; no Prosa e no Centro, um para cerca de 19 mil e 21 mil. O quadro “E na sua região?”, no fim da página, traz a conta de cada região."
     },
     {
      "tipo": "h2",
@@ -1202,11 +1806,112 @@
     },
     {
      "tipo": "h2",
+     "texto": "Quantos atendimentos a rede faz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Entre maio e agosto de 2026, a atenção primária fez 2.170.701 ações, 5% a mais que no mesmo período de 2025: 982.741 visitas domiciliares dos agentes comunitários, 694.808 procedimentos (curativo, vacina, aferição de pressão), 438.884 consultas individuais e 54.268 atendimentos odontológicos. A atenção especializada da rede própria fez 100.859 procedimentos, e a saúde mental, cerca de 14,9 mil atendimentos por mês."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "≈ 1,3 milhão",
+     "texto": "de consultas por ano na atenção primária, numa conta simples que multiplica o quadrimestre por três. Fonte: RDQA da Secretaria de Saúde, 2º quadrimestre de 2026 (cálculo do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os atendimentos de urgência nas UPAs e CRSs e as internações não aparecem nos relatórios abertos consultados; estão nos sistemas do SUS (SIA e SIH) e entram aqui quando forem levantados."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quem trabalha na rede?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Secretaria de Saúde tem 7.888 servidores, entre efetivos, temporários e convocados. Na enfermagem, em abril de 2024, eram 342 enfermeiros e 799 técnicos. Um posto típico reúne de 35 a 95 profissionais: de três a seis equipes de Saúde da Família (médico, enfermeiro, técnico e agentes comunitários), dentista e auxiliar de saúde bucal; ginecologista e pediatra aparecem em poucos. As UPAs e os CRSs são dominados por médicos clínicos plantonistas, e o Centro de Especialidades Médicas concentra os especialistas."
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade tem 1.753 leitos do SUS e 1.276 privados (abril de 2025). A Santa Casa é o maior hospital conveniado e recebe cerca de R$ 32,8 milhões por mês do SUS, segundo a imprensa; o Hospital Universitário (Humap-UFMS) tem 210 leitos e um contrato de R$ 57,5 milhões por ano com a secretaria."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto custa?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Orçamento da saúde",
+     "cabecalho": [
+      "Item",
+      "Valor"
+     ],
+     "linhas": [
+      [
+       "Orçamento total da prefeitura em 2026 (LOA)",
+       "R$ 6,974 bi"
+      ],
+      [
+       "Fundo Municipal de Saúde em 2026",
+       "R$ 2,092 bi (30%)"
+      ],
+      [
+       "Gasto liquidado de janeiro a junho de 2026",
+       "R$ 849,7 mi"
+      ],
+      [
+       "…com recursos próprios",
+       "R$ 414 mi"
+      ],
+      [
+       "Receita própria aplicada em saúde (mínimo: 15%)",
+       "24,6%"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Há controle de qualidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Controles da rede municipal de saúde",
+     "cabecalho": [
+      "Controle",
+      "É publicado?"
+     ],
+     "linhas": [
+      [
+       "Relatórios quadrimestral (RDQA) e anual (RAG) à Câmara",
+       "Sim, a cada quatro meses"
+      ],
+      [
+       "Painel de gestão: faltas às consultas (~30%), regulação, urgência, produção das equipes",
+       "Sim"
+      ],
+      [
+       "Tempo de espera nas UPAs e CRSs, ao vivo (SiGS)",
+       "Sim, desde ago/2025"
+      ],
+      [
+       "Metas de qualidade nos contratos com hospitais",
+       "As metas sim; o resultado mensal não"
+      ],
+      [
+       "Satisfação do usuário de postos e UPAs",
+       "Não"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Existe controle, mas quase todo ele mede volume (quantos atendimentos) e não resultado: se o paciente melhorou, quanto esperou pelo especialista, se voltou satisfeito. Publicar esses números, posto a posto, é uma proposta que custa pouco e muda muito."
+    },
+    {
+     "tipo": "h2",
      "texto": "O que ainda vem neste capítulo?"
     },
     {
      "tipo": "p",
-     "texto": "Faltam as partes sobre hospitais e leitos, filas da regulação e acesso a especialistas, e remédios. Elas entram aqui à medida que os dados forem conferidos."
+     "texto": "Faltam os atendimentos de urgência e as internações, o retrato de cada hospital por especialidade, as filas da regulação e a parte sobre remédios. Entram aqui à medida que os dados forem conferidos."
     }
    ],
    "glossario": [
@@ -1230,22 +1935,25 @@
    "fontes": [
     "BRASIL. Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES/DataSUS). Estabelecimentos mantidos pela Prefeitura Municipal de Campo Grande, CNPJ 03.501.509/0001-06. Acesso em: 22 out. 2026.",
     "CAMPO GRANDE. Prefeitura Municipal. Carta de Serviços: unidades de saúde. Acesso em: 22 out. 2026.",
-    "CAMPO GRANDE. Lei de bairros, Anexo 4: perímetros e parcelamentos por bairro. Acesso em: 22 out. 2026."
+    "CAMPO GRANDE. Lei de bairros, Anexo 4: perímetros e parcelamentos por bairro. Acesso em: 22 out. 2026.",
+    "CAMPO GRANDE. Secretaria Municipal de Saúde. RDQA, 2º quadrimestre de 2026; Painel de Ferramentas de Gestão (ago/2026).",
+    "CAMPO GRANDE. Lei Orçamentária Anual de 2026.",
+    "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária)."
    ],
    "sobre_dados": "A lista e o tipo de cada unidade vêm do CNES. Endereços e bairros vêm da Carta de Serviços da Prefeitura, que está desatualizada em alguns pontos: ainda lista o CRS Moreninha, hoje UPA Moreninha, e o CRS Guanandi, que não aparece mais como unidade ativa no CNES e por isso ficou de fora. Seis unidades constam no CNES mas não aparecem na Carta de Serviços (USF Jardim Presidente, Vila Cox, Aero Rancho Granja e Santa Emília; UPAs Leblon e Santa Mônica). A USF Cohab ficou sem bairro oficial confirmado. O total de 74 postos coincide com o número divulgado pela imprensa local.",
    "regiao": {
     "pergunta": "Quanta saúde há na sua região?",
-    "coluna": "Postos, UPAs e CRSs",
+    "coluna": "Unidades e habitantes por posto",
     "linhas": {
-     "Centro": "3 postos",
-     "Segredo": "14 postos, 1 UPA",
-     "Prosa": "5 postos, 1 CRS",
-     "Bandeira": "9 postos, 2 UPAs, 1 CRS",
-     "Anhanduizinho": "17 postos, 1 CRS",
-     "Lagoa": "12 postos, 1 UPA, 1 CRS",
-     "Imbirussu": "10 postos, 2 UPAs"
+     "Centro": "3 postos; ≈ 20.600 hab. por posto",
+     "Segredo": "14 postos, 1 UPA; ≈ 9.200 hab. por posto",
+     "Prosa": "5 postos, 1 CRS; ≈ 19.100 hab. por posto",
+     "Bandeira": "9 postos, 2 UPAs, 1 CRS; ≈ 15.200 hab. por posto",
+     "Anhanduizinho": "17 postos, 1 CRS; ≈ 12.900 hab. por posto",
+     "Lagoa": "12 postos, 1 UPA, 1 CRS; ≈ 11.200 hab. por posto",
+     "Imbirussu": "10 postos, 2 UPAs; ≈ 10.800 hab. por posto"
     },
-    "nota": "Habitantes por posto: falta cruzar com a população de cada região (Censo 2022)."
+    "nota": "Habitantes por posto: população do Censo 2022 (IBGE), conforme noticiado, dividida pelos postos de atenção básica (CNES, out/2026). Cálculo do autor."
    }
   },
   {

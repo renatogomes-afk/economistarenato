@@ -68,7 +68,7 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
   <div class="artigo-topo">
     <span class="chapeu"><a href="../">Campo Grande em 2032</a> · Capítulo 8 de 15</span>
     <h1>Saúde</h1>
-    <p class="tempo-leitura situacao-cg">Com dados · Leitura: 3 min</p>
+    <p class="tempo-leitura situacao-cg">Com dados · Leitura: 5 min</p>
     <p class="olho">Postos, UPAs e CRSs: onde está a rede municipal de saúde em cada uma das sete regiões de Campo Grande, unidade por unidade.</p>
     <div class="barra-autor">
       <div class="mini"><img src="../../../assets/monograma-branco.png" alt=""></div>
@@ -104,7 +104,7 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
     </table></div>
     <p>Os números pedem duas leituras. A primeira é que a rede acompanhou o crescimento da cidade. Anhanduizinho, Segredo e Lagoa, as regiões dos grandes conjuntos habitacionais e dos loteamentos populares, reúnem 43 dos 74 postos. O Centro tem 3, e não tem UPA nem CRS.</p>
     <p>A segunda é que o pronto atendimento não está onde estão os postos. Anhanduizinho, a região com mais postos (17), não tem UPA; conta com o CRS do Aero Rancho. Prosa também não tem UPA e depende do CRS Nova Bahia. Bandeira e Imbirussu têm duas UPAs cada uma.</p>
-    <p>Contar unidades, porém, não basta. O que interessa ao morador é quantas famílias cada posto precisa atender e quanto tempo leva para chegar a um. Esse cálculo depende da população de cada região urbana, que ainda não foi cruzada com a tabela; por isso, por enquanto, ele não aparece aqui.</p>
+    <p>Contar unidades, porém, não basta: o que interessa ao morador é quantas famílias cada posto precisa atender. Cruzando a tabela com a população de cada região no Censo 2022, a diferença salta: no Segredo há um posto para cerca de 9 mil habitantes; no Prosa e no Centro, um para cerca de 19 mil e 21 mil. O quadro “E na sua região?”, no fim da página, traz a conta de cada região.</p>
     <h2>Qual é o posto do seu bairro?</h2>
     <p>Abra a sua região para ver a lista das unidades, primeiro os postos, depois as UPAs e os CRSs. O horário de cada uma deve ser confirmado na própria unidade.</p>
     <details class="detalhes">
@@ -263,24 +263,57 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
       </tbody>
     </table></div>
     </details>
+    <h2>Quantos atendimentos a rede faz?</h2>
+    <p>Entre maio e agosto de 2026, a atenção primária fez 2.170.701 ações, 5% a mais que no mesmo período de 2025: 982.741 visitas domiciliares dos agentes comunitários, 694.808 procedimentos (curativo, vacina, aferição de pressão), 438.884 consultas individuais e 54.268 atendimentos odontológicos. A atenção especializada da rede própria fez 100.859 procedimentos, e a saúde mental, cerca de 14,9 mil atendimentos por mês.</p>
+    <div class="caixa-num">
+      <div class="valor">≈ 1,3 milhão</div>
+      <div class="exp">de consultas por ano na atenção primária, numa conta simples que multiplica o quadrimestre por três. Fonte: RDQA da Secretaria de Saúde, 2º quadrimestre de 2026 (cálculo do autor).</div>
+    </div>
+    <p>Os atendimentos de urgência nas UPAs e CRSs e as internações não aparecem nos relatórios abertos consultados; estão nos sistemas do SUS (SIA e SIH) e entram aqui quando forem levantados.</p>
+    <h2>Quem trabalha na rede?</h2>
+    <p>A Secretaria de Saúde tem 7.888 servidores, entre efetivos, temporários e convocados. Na enfermagem, em abril de 2024, eram 342 enfermeiros e 799 técnicos. Um posto típico reúne de 35 a 95 profissionais: de três a seis equipes de Saúde da Família (médico, enfermeiro, técnico e agentes comunitários), dentista e auxiliar de saúde bucal; ginecologista e pediatra aparecem em poucos. As UPAs e os CRSs são dominados por médicos clínicos plantonistas, e o Centro de Especialidades Médicas concentra os especialistas.</p>
+    <p>A cidade tem 1.753 leitos do SUS e 1.276 privados (abril de 2025). A Santa Casa é o maior hospital conveniado e recebe cerca de R$ 32,8 milhões por mês do SUS, segundo a imprensa; o Hospital Universitário (Humap-UFMS) tem 210 leitos e um contrato de R$ 57,5 milhões por ano com a secretaria.</p>
+    <h2>Quanto custa?</h2>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>Orçamento da saúde</caption>
+      <thead><tr><th>Item</th><th>Valor</th></tr></thead>
+      <tbody>
+        <tr><td>Orçamento total da prefeitura em 2026 (LOA)</td><td>R$ 6,974 bi</td></tr>
+        <tr><td>Fundo Municipal de Saúde em 2026</td><td>R$ 2,092 bi (30%)</td></tr>
+        <tr><td>Gasto liquidado de janeiro a junho de 2026</td><td>R$ 849,7 mi</td></tr>
+        <tr><td>…com recursos próprios</td><td>R$ 414 mi</td></tr>
+        <tr><td>Receita própria aplicada em saúde (mínimo: 15%)</td><td>24,6%</td></tr>
+      </tbody>
+    </table></div>
+    <h2>Há controle de qualidade?</h2>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>Controles da rede municipal de saúde</caption>
+      <thead><tr><th>Controle</th><th>É publicado?</th></tr></thead>
+      <tbody>
+        <tr><td>Relatórios quadrimestral (RDQA) e anual (RAG) à Câmara</td><td>Sim, a cada quatro meses</td></tr>
+        <tr><td>Painel de gestão: faltas às consultas (~30%), regulação, urgência, produção das equipes</td><td>Sim</td></tr>
+        <tr><td>Tempo de espera nas UPAs e CRSs, ao vivo (SiGS)</td><td>Sim, desde ago/2025</td></tr>
+        <tr><td>Metas de qualidade nos contratos com hospitais</td><td>As metas sim; o resultado mensal não</td></tr>
+        <tr><td>Satisfação do usuário de postos e UPAs</td><td>Não</td></tr>
+      </tbody>
+    </table></div>
+    <p>Existe controle, mas quase todo ele mede volume (quantos atendimentos) e não resultado: se o paciente melhorou, quanto esperou pelo especialista, se voltou satisfeito. Publicar esses números, posto a posto, é uma proposta que custa pouco e muda muito.</p>
     <h2>O que ainda vem neste capítulo?</h2>
-    <p>Faltam as partes sobre hospitais e leitos, filas da regulação e acesso a especialistas, e remédios. Elas entram aqui à medida que os dados forem conferidos.</p>
+    <p>Faltam os atendimentos de urgência e as internações, o retrato de cada hospital por especialidade, as filas da regulação e a parte sobre remédios. Entram aqui à medida que os dados forem conferidos.</p>
     <section class="quadro-regiao">
       <span class="chapeu">E na sua região?</span>
       <h3>Quanta saúde há na sua região?</h3>
       <div class="tabela-wrap"><table class="tabela-guia">
-        <thead><tr><th>Região</th><th>Postos, UPAs e CRSs</th></tr></thead>
+        <thead><tr><th>Região</th><th>Unidades e habitantes por posto</th></tr></thead>
         <tbody>
-        <tr><td>Centro</td><td>3 postos</td></tr>
-        <tr><td>Segredo</td><td>14 postos, 1 UPA</td></tr>
-        <tr><td>Prosa</td><td>5 postos, 1 CRS</td></tr>
-        <tr><td>Bandeira</td><td>9 postos, 2 UPAs, 1 CRS</td></tr>
-        <tr><td>Anhanduizinho</td><td>17 postos, 1 CRS</td></tr>
-        <tr><td>Lagoa</td><td>12 postos, 1 UPA, 1 CRS</td></tr>
-        <tr><td>Imbirussu</td><td>10 postos, 2 UPAs</td></tr>
+        <tr><td>Centro</td><td>3 postos; ≈ 20.600 hab. por posto</td></tr>
+        <tr><td>Segredo</td><td>14 postos, 1 UPA; ≈ 9.200 hab. por posto</td></tr>
+        <tr><td>Prosa</td><td>5 postos, 1 CRS; ≈ 19.100 hab. por posto</td></tr>
+        <tr><td>Bandeira</td><td>9 postos, 2 UPAs, 1 CRS; ≈ 15.200 hab. por posto</td></tr>
+        <tr><td>Anhanduizinho</td><td>17 postos, 1 CRS; ≈ 12.900 hab. por posto</td></tr>
+        <tr><td>Lagoa</td><td>12 postos, 1 UPA, 1 CRS; ≈ 11.200 hab. por posto</td></tr>
+        <tr><td>Imbirussu</td><td>10 postos, 2 UPAs; ≈ 10.800 hab. por posto</td></tr>
         </tbody>
       </table></div>
-      <p class="regiao-nota">Habitantes por posto: falta cruzar com a população de cada região (Censo 2022).</p>
+      <p class="regiao-nota">Habitantes por posto: população do Censo 2022 (IBGE), conforme noticiado, dividida pelos postos de atenção básica (CNES, out/2026). Cálculo do autor.</p>
     </section>
     <div class="glossario">
       <h3>Glossário</h3>
@@ -301,6 +334,9 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
         <li>BRASIL. Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES/DataSUS). Estabelecimentos mantidos pela Prefeitura Municipal de Campo Grande, CNPJ 03.501.509/0001-06. Acesso em: 22 out. 2026.</li>
         <li>CAMPO GRANDE. Prefeitura Municipal. Carta de Serviços: unidades de saúde. Acesso em: 22 out. 2026.</li>
         <li>CAMPO GRANDE. Lei de bairros, Anexo 4: perímetros e parcelamentos por bairro. Acesso em: 22 out. 2026.</li>
+        <li>CAMPO GRANDE. Secretaria Municipal de Saúde. RDQA, 2º quadrimestre de 2026; Painel de Ferramentas de Gestão (ago/2026).</li>
+        <li>CAMPO GRANDE. Lei Orçamentária Anual de 2026.</li>
+        <li>IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).</li>
       </ol>
     </div>
 
