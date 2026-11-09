@@ -537,6 +537,68 @@
     },
     {
      "tipo": "h2",
+     "texto": "O que os urbanistas propõem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quatro autores servem de guia a este capítulo. Andrés Duany, um dos fundadores do Novo Urbanismo, mostrou que o problema da cidade espalhada começa na lei: o zoneamento por uso proíbe a padaria na rua de casas e obriga a família a pegar o carro para tudo. Léon Krier defende a cidade feita de bairros completos e do tamanho do passo, cada um com o seu centro, que cresce por novos bairros e não por mancha. Philip Bess lembra que a cidade é uma ordem moral, feita para a vida boa em comum, e que a beleza dos edifícios públicos e o lugar do sagrado fazem parte disso. E G. K. Chesterton, com o distributismo, defende a pequena propriedade espalhada pelo maior número de famílias: a lojinha embaixo e a casa em cima."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Das ideias às propostas para Campo Grande",
+     "cabecalho": [
+      "Ideia",
+      "Autor",
+      "Proposta para 2032"
+     ],
+     "linhas": [
+      [
+       "Regular a forma do prédio, não proibir o uso",
+       "Duany",
+       "Rever a lei de uso do solo para permitir comércio e serviço de bairro em todas as zonas residenciais, com regras de altura, recuo e fachada no lugar da lista de usos proibidos."
+      ],
+      [
+       "Bairro completo, do tamanho do passo",
+       "Krier",
+       "Um centro de bairro em cada região: praça, posto, escola, comércio e igreja juntos, a 10 minutos a pé de quem mora em volta. A praça-polo do programa Praça da Família é o ponto de partida."
+      ],
+      [
+       "Crescer para dentro, não para fora",
+       "Krier e Duany",
+       "Ocupar os vazios urbanos antes de aprovar loteamento distante, usando o IPTU progressivo no tempo que a Constituição (art. 182) e o Estatuto da Cidade já permitem."
+      ],
+      [
+       "Lojinha embaixo, casa em cima",
+       "Chesterton",
+       "Licença simplificada para o térreo comercial em casa de morador e para o sobrado de uso misto, com o MEI como porta de entrada."
+      ],
+      [
+       "A rua é do pedestre",
+       "Duany",
+       "Calçada contínua, árvore e travessia segura nas ruas que levam à escola, ao posto e ao ponto de ônibus (ligação com o Cap. 12)."
+      ],
+      [
+       "Beleza é bem comum",
+       "Bess e Krier",
+       "Padrão de projeto para prédio público e praça, com concurso de arquitetura nas obras maiores: escola, posto e praça que o bairro tenha orgulho de cuidar."
+      ],
+      [
+       "O que o bairro resolve, a prefeitura não tira dele",
+       "Doutrina Social da Igreja",
+       "Plano de cada região feito com associações de moradores, paróquias e comércio local, com parte do investimento decidida por região (Cap. 7)."
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Nada disso exige dinheiro novo na mesma proporção. Mudar a lei de uso do solo, cobrar o vazio urbano e simplificar a licença do pequeno comércio custam pouco; o que se paga hoje é o contrário, o asfalto, a água, o esgoto e a linha de ônibus que levam a cidade cada vez mais longe."
+    },
+    {
+     "tipo": "p",
+     "texto": "O ponto de partida é saber onde estão os vazios e quanto custa cada loteamento distante. Esses dados, do Plano Diretor e da PLANURB, ainda estão sendo levantados."
+    },
+    {
+     "tipo": "h2",
      "texto": "Quantas praças a cidade tem?"
     },
     {
