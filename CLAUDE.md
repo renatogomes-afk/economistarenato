@@ -25,8 +25,10 @@ verificável, sempre visível para o leitor.
 ## 2. Stack
 
 - **Site estático** — HTML/CSS/JS puro, sem framework e sem build step.
-- **Netlify**, deploy contínuo do GitHub `renatogomes-afk/economistarenato` (branch `main`,
-  publish dir `site`). Publicar = `git add . && git commit && git push` → ~1 min.
+- **GitHub Pages** (desde 09/11/2026), deploy contínuo do GitHub `renatogomes-afk/economistarenato` (branch `main`,
+  workflow `.github/workflows/pages.yml`, publica a pasta `site/`; domínio em `site/CNAME`). O Netlify
+  foi abandonado (limite de créditos do plano grátis); `netlify.toml` tem `ignore = "exit 0"`.
+  Publicar = `git add . && git commit && git push` → ~1 min.
 - **Sem CMS, sem servidor, sem banco.**
 
 ---
@@ -154,8 +156,8 @@ e download.
   Os links para CSS e JS carregam `?v=AAAAMMDD`: **ao mexer neles, atualize a versão**
   (em `scripts/gera_site.py`, constante `CSS_V`) para quem já visitou receber
   o arquivo novo na hora.
-- Formulário de assinatura usa **Netlify Forms** (`data-netlify="true"` + campo
-  `form-name`); os envios aparecem no painel do Netlify.
+- Formulários (newsletter e contato) usavam **Netlify Forms**, que NÃO funcionam no GitHub Pages:
+  precisam de substituto (ex.: Formspree) — pendente.
 
 ---
 

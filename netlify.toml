@@ -1,6 +1,8 @@
+# Hospedagem migrada para o GitHub Pages (09/11/2026). O Netlify ignora todos os builds.
 [build]
   publish = "site"
   command = ""
+  ignore = "exit 0"
 
 [[headers]]
   for = "/*"
