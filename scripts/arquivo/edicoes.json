@@ -6983,11 +6983,980 @@
       ],
       "jstor_edicao": "i342431",
       "colecao": "eua"
+    },
+    {
+      "slug": "1893-a-primeira-tarifa",
+      "numero": 39,
+      "titulo": "Hill, 1893: a primeira tarifa dos EUA já nasceu protecionista",
+      "titulo_original": "The First Stages of the Tariff Policy of the United States",
+      "autores": "William Hill, A. M., Some time Henry Lee Memorial Fellow in Harvard University; Tutor in Political Economy in the University of Chicago",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 8, nº 6",
+      "data": "novembro de 1893",
+      "chamada": "William Hill refez o caminho das tarifas americanas, das colônias à lei de 1789, e concluiu que a primeira tarifa federal, tida como fiscal, foi desenhada para proteger a indústria nascente.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Primavera de 1789, Câmara dos Representantes, primeiro Congresso dos Estados Unidos. Clymer, deputado da Pensilvânia, pede proteção para o aço. Uma fornalha na Filadélfia, com uma ajuda muito pequena do legislativo estadual, fizera 300 toneladas em dois anos e já produzia 230 por ano. Com um pouco mais de estímulo, dizia ele, abasteceria a União inteira. Tucker, da Carolina do Sul, respondeu que o menor imposto sobre o aço seria um fardo para a agricultura. Aceitaria 5%, e nada além."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena está em The First Stages of the Tariff Policy of the United States, de William Hill, tutor de economia política na Universidade de Chicago, publicado em novembro de 1893 como o nº 6 do volume 8 das Publications. São quatro capítulos, das páginas 9 a 162, mais treze apêndices com leis estaduais, resoluções de comerciantes e cartas de jornal. A tese é direta: a tarifa de 1789, citada como lei de receita, foi pensada também, e talvez sobretudo, para proteger manufaturas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Hill escolhe um adversário explícito. Condy Raguet, em Principles of Free Trade, de 1835, achava impensável que um imposto de cinco por cento servisse para estimular a indústria em 1789, quando a agricultura era o destino natural do capital:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A ideia é absurda”",
+          "original": "“The idea is preposterous”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que as colônias cobravam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quase só receita. Hill vasculhou as leis coloniais e encontrou quatro famílias de tributos: taxas sobre a tonelagem dos navios, impostos de exportação sobre o tabaco, impostos sobre a importação de escravos e as pautas regulares, em que vinhos e bebidas eram os itens principais. A primeira taxa de tonelagem é da Virgínia, em 1631, e era paga em pólvora: cem libras de pólvora e dez balas de ferro a cada cem toneladas, para a defesa dos portos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cobrança era frouxa. Nos anos anteriores à Revolução, Nova York importava não menos que £500 mil por ano, com tarifa de 5%, mas os direitos arrecadados mal passavam de £5 mil. Em 1769, o livro do tesoureiro de Massachusetts registrou £133 6s. 8d. recebidas “de mão desconhecida”: um contribuinte arrependido pagava o que devia sobre o rum e o melaço que contrabandeara. Quanto passou por consciências menos sensíveis, nota o autor, não há como saber."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1/5",
+          "texto": "Fração do que Nova York deveria arrecadar com sua tarifa de 5% sobre importações de ao menos £500 mil anuais, segundo Hill. Massachusetts arrecadava em média cerca de £2 mil por ano em direitos, contra impostos diretos de £10 mil a £100 mil. Em 1731, a Carolina do Sul tirou £8.500 da taxa sobre escravos e £4 mil de todas as outras fontes aduaneiras."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Hill, as tarifas coloniais eram imitações dos meios comuns de receita europeus, e não há evidência direta de que tenham influenciado a política posterior. O ponto de virada está depois da guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o livre-comércio virou proteção em quatro anos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Durante a guerra, quase nenhum estado cobrou direitos de importação. Em 1783, Nova Jersey declarou seus portos livres de quaisquer tarifas. Quando Massachusetts, pressionada pela dívida, voltou a tributar importações em 1782, fez a lei valer só até seis meses depois da paz, e explicou no preâmbulo que restrições ao comércio eram altamente prejudiciais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que veio depois foi uma escalada. Em 1784, papel, velas, sabão e couro passaram de 2,5% para 7,5%; carruagens, selas, botas e sapatos pagavam 12,5%. Em 1785, algumas alíquotas chegaram a 25%, e o preâmbulo já falava em estimular agricultura e manufaturas e desestimular o luxo. A lei de 1786 proibiu de vez a importação de 58 artigos, abrindo mão de toda a receita que dariam."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "58",
+          "texto": "Artigos cuja importação Massachusetts proibiu em 1786. Quatro anos antes, o estado cobrava 2,5% sobre a maioria das mercadorias e prometia suspender tudo seis meses após a paz. Hill conclui que, em quatro anos, Massachusetts montou um sistema protecionista mais completo e coerente do que os Estados Unidos jamais tiveram."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Pensilvânia andou menos, mas na mesma direção. A lei de 20 de setembro de 1785, feita para proteger as manufaturas do estado, tributava com alíquotas específicas altas mais de quarenta artigos que o estado começara a produzir. Hill a considera a base da tarifa federal de 1789. Os estados se copiavam: a lei de Rhode Island de 4 de agosto de 1785 saiu na Pennsylvania Gazette no dia 24, enquanto os deputados da Filadélfia redigiam a sua."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a paz trouxe crise?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque trouxe dinheiro demais, e depois de menos. Exércitos franceses e ingleses, empréstimos externos e o comércio com Havana tinham enchido o país de moeda metálica no fim da guerra. Com a reabertura dos portos, os ingleses despejaram estoques acumulados em oito anos de mercado fechado, muitas vezes a crédito. John Jay escreveu a Benjamin Vaughn, em novembro de 1784, que se comerciava num ritmo louco e que aquele delírio não podia durar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 3,68 milhões",
+          "texto": "Importações americanas vindas da Inglaterra em 1784, segundo os registros da alfândega britânica reproduzidos por Hill. As exportações para lá somaram £749 mil. Em 1786, foram £1,60 milhão contra £843 mil; em 1790, £3,43 milhões contra £1,19 milhão."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para pagar a diferença, a moeda saiu do país. Os jornais se encheram de lamentos contra os agentes britânicos e o gosto por bugigangas importadas. Em Boston, comerciantes e artesãos se uniram num boicote aos agentes ingleses, mas divergiram no essencial: os artesãos queriam o mercado reservado ao produto americano; os comerciantes prometeram apoiar a indústria local em termos gerais, sem se comprometer a deixar de importar o que concorresse com ela."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os fundadores eram livre-cambistas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em princípio, sim. Hill afirma que, com poucas exceções, talvez só uma importante, a de Hamilton, os líderes da Revolução defendiam o comércio sem restrições. Franklin foi o mais coerente e quase o único a não se converter à retaliação. Os demais mudaram quando a Inglaterra, por proclamação de julho de 1783, reservou a navios britânicos o comércio entre os Estados Unidos e as Índias Ocidentais. Madison escreveu a Jefferson em agosto de 1785:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A liberdade perfeita é o sistema que eu escolheria”",
+          "original": "“A perfect freedom is the system which would be my choice”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mas impôs duas condições: o país teria de estar sem dívidas, e todas as outras nações teriam de aderir. Hill observa que essas condições nunca se realizaram. John Adams, leitor de Quesnay e Adam Smith, chegou à mesma posição por outro caminho e a resumiu em carta de março de 1786:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“repelir monopólios com monopólios e responder a proibições com proibições”",
+          "original": "“repel monopolies by monopolies and answer prohibitions by prohibitions”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a União não conseguia cobrar uma tarifa de 5%?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque precisava da concordância de todos os estados. Em 1781, o Congresso pediu autoridade para cobrar 5% sobre as importações. Todos concordaram, menos Rhode Island; depois, a Virgínia retirou seu consentimento. Em 1783, o pedido foi refeito, com coletores nomeados pelos estados e prazo máximo de 25 anos. Em agosto de 1786, só Nova York faltava. O governador George Clinton recusou-se a convocar sessão extraordinária, alegando razões constitucionais."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 915.956",
+          "texto": "Receita líquida anual estimada pelo Congresso para o plano de 1783: US$ 995.550 brutos, menos 8% de custo de cobrança. A dívida dos Estados Unidos era então de US$ 42 milhões, com juros anuais de US$ 2.415.956. Somada às cotas estaduais de US$ 1,5 milhão por ano previstas no mesmo plano, a conta fecharia exatamente nos juros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que se decidiu em 1789?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em abril de 1789, Madison propôs adotar de imediato a velha tarifa de receita, como medida temporária, para pegar as importações da primavera. Fitzsimmons, também da Pensilvânia, preferiu perder essa receita e apresentou uma lista de artigos que, salvo seis itens sem importância, eram todos tributados pela lei pensilvana de 1785. Sabia que seria mais fácil obter proteção na primeira lei do que substituir depois uma lei de receita bem aceita. Venceu. E, segundo Hill, ninguém na Câmara disse que a proteção era inconstitucional."
+        },
+        {
+          "tipo": "p",
+          "texto": "O debate seguiu artigo por artigo, cada deputado defendendo o que seu estado produzia. Fitzsimmons pediu 9 centavos por galão de cerveja; Madison propôs 8, e lembrou que Nova York já cobrava 6 e ainda importava. Clymer relatou que os moinhos da Pensilvânia produziam cerca de 70 mil resmas de papel por ano, tão baratas quanto as importadas. A Virgínia pediu 3 centavos por alqueire de carvão, porque o inglês chegava como lastro de navio. A taxa sobre o cânhamo, pedida pelo Sul e pelo Oeste, só seria cobrada a partir de dezembro de 1790, quando houvesse safra."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "6 centavos",
+          "texto": "Taxa por tonelada paga pelos navios americanos na lei de 1789. Navios de países com tratado comercial pagavam cinco vezes mais; os demais, 50 centavos. Mercadorias trazidas em navios americanos tinham ainda 10% de desconto nos direitos. O chá vindo da China em navio americano pagava de 6 a 20 centavos por libra; em navio estrangeiro, de 15 a 45."
+        },
+        {
+          "tipo": "p",
+          "texto": "No Senado, o diário de William Maclay, da Pensilvânia, registra a resistência. Os importadores queriam atrasar a lei para trazer antes as mercadorias de verão, estocadas em Nova Jersey, onde não se pagavam direitos. Os preços subiram antes da tarifa, e, pelas contas de Maclay, um milhão de dólares saiu do bolso do público sem chegar ao Tesouro. O senador Butler, da Carolina do Sul, chegou a ameaçar a dissolução da União."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Leis mudam a economia, ou é o contrário?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hill divide a década de 1780 em três fases: a crença no livre-comércio até 1784; a retaliação, até 1786 ou 1787; e a proteção como objetivo próprio, quando a Constituição foi adotada. Mas sua conclusão final vai contra a ideia de que as leis fizeram a indústria. A expansão comercial de 1793 a 1807 tirou a proteção da pauta, e a proteção só voltou a ser buscada no fim da guerra de 1812, quando as condições do pós-Revolução se repetiram em escala maior. Para o autor, as condições industriais produzem as leis com mais eficácia do que as leis mudam as condições industriais."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro de Hill é sobretudo um estudo de como uma doutrina cede à conjuntura. Os fundadores leram Adam Smith e o citavam com convicção; bastaram um choque de balança comercial, uma fuga de moeda e uma retaliação estrangeira para que o discurso mudasse em menos de três anos. A lição não é que o protecionismo estava certo ou errado, mas que a política comercial costuma nascer da pressão de quem perde, e que a primeira lei vira precedente. Fitzsimmons entendeu isso melhor que Madison: medidas apresentadas como provisórias tendem a ficar.",
+            "O outro fio do livro me parece ainda mais atual: a tarifa de 5% fracassou não por ser má, mas porque dependia da unanimidade. Sem capacidade de arrecadar, a União não pagava juros, e sem pagar juros não tinha crédito. A primeira tarifa federal foi, antes de tudo, a resposta a um problema de coordenação fiscal. Proteção e receita chegaram juntas, numa só lei, e por isso ficou tão difícil separá-las no debate dos cem anos seguintes."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tarifa (impost)",
+          "imposto cobrado sobre mercadorias importadas; na época, a principal fonte de receita indireta."
+        ],
+        [
+          "Ad valorem",
+          "direito calculado como percentual do valor da mercadoria."
+        ],
+        [
+          "Direito específico",
+          "valor fixo por unidade física, como centavos por galão ou por libra."
+        ],
+        [
+          "Taxa de tonelagem",
+          "cobrança sobre o navio, proporcional à sua capacidade de carga."
+        ],
+        [
+          "Atos de Navegação",
+          "leis inglesas que reservavam o comércio colonial a navios e mercadores britânicos."
+        ],
+        [
+          "Balança comercial",
+          "diferença entre exportações e importações de um país."
+        ],
+        [
+          "Moeda metálica (specie)",
+          "moedas de ouro e prata, o meio de pagamento internacional da época."
+        ],
+        [
+          "Indústria nascente",
+          "argumento de que setores novos precisam de proteção temporária até ganhar escala para competir."
+        ]
+      ],
+      "hoje": "Tarifas voltaram ao centro do debate econômico, e os argumentos de 1789 reaparecem quase intactos: proteger a indústria nascente, responder a barreiras alheias, corrigir o déficit comercial, garantir autonomia em setores estratégicos. O livro de Hill lembra três coisas. Quem fala em livre-comércio raramente o pratica sob pressão. A primeira escolha cria precedente e é difícil de desfazer. E o debate setorial, item por item, transforma qualquer pauta numa soma de interesses locais. A pergunta que ele deixa, sobre se as leis mudam a economia ou a economia muda as leis, continua sem resposta fácil.",
+      "itens": [
+        [
+          "The First Stages of the Tariff Policy of the United States",
+          "pp. 9–162",
+          "2485625"
+        ]
+      ],
+      "jstor_edicao": "i342432",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1894-o-imposto-progressivo",
+      "numero": 40,
+      "titulo": "Seligman, 1894: o imposto progressivo é justo, mas cabe na prática?",
+      "titulo_original": "Progressive Taxation in Theory and Practice",
+      "autores": "Edwin R. A. Seligman, Professor of Political Economy and Finance, Columbia College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 9, nº 1/2",
+      "data": "janeiro e março de 1894",
+      "chamada": "Em 1894, Seligman revisou os impostos progressivos desde Sólon e todas as teorias a favor e contra. Concluiu que a progressão é defensável em tese, mas que quase nenhum imposto americano estava pronto para ela.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Turgot, o célebre ministro francês, recebeu certa vez um projeto de imposto progressivo e escreveu na margem:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É preciso executar o autor, não o projeto”",
+          "original": "“We must execute the author, not the project”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele não estava sozinho. Quando o Parlamento inglês discutiu o primeiro imposto de renda, em 1799, Lord Auckland chamou a tributação graduada de revolucionária. O estadista alemão Gentz disse que ela não era muito melhor que um roubo comum. Para boa parte do século XIX, alíquota que sobe com a renda era sinônimo de socialismo e confisco."
+        },
+        {
+          "tipo": "p",
+          "texto": "Progressive Taxation in Theory and Practice, de Edwin R. A. Seligman, professor de economia política e finanças do Columbia College, saiu em janeiro e março de 1894, nos números 1 e 2 do volume 9 das Publications, das páginas 7 a 222. É uma resposta a esse pânico, mas não é um panfleto a favor. Seligman abre dizendo que a questão não estava resolvida nem na teoria nem na prática, e se propõe a reunir, pela primeira vez, os fatos e os argumentos de todas as escolas. Em 1892 ele perguntara quem de fato paga um imposto; agora pergunta quanto cada um deveria pagar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Progressivo, regressivo, degressivo: qual a diferença?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O livro começa arrumando o vocabulário. Proporcional é a mesma alíquota para qualquer valor. Progressivo é a alíquota que sobe com a renda ou a propriedade. Regressivo é o inverso, a alíquota que cai à medida que a base cresce, o que os franceses chamavam de progressão às avessas. E degressivo é o caso intermediário: a alíquota sobe até um limite e dali em diante fica constante. O imposto de renda inglês, nota o autor, era degressivo: proporcional como regra, com alívio para as rendas pequenas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "37,5%",
+          "texto": "Alíquota máxima mais alta que Seligman encontrou na história: a do imposto de renda da Holanda em 1796, que ia de 3% a 37,5% e durou um ano. Em 1798, a escala holandesa foi de 4% a 10%; em 1804, de 1% a 20%. A Áustria cobrou, de 1799 a 1830, de 2,5% a 20%, em 23 classes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Desde quando se tributa o rico a alíquotas maiores?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde Atenas, embora os fatos não sejam indiscutíveis. No tempo de Sólon, os proprietários eram divididos em quatro classes. A alíquota era a mesma, mas a base mudava: a classe mais alta era avaliada pelo valor cheio da propriedade, a segunda por cinco sextos e a terceira por cinco nonos; a mais baixa ficava isenta. Por volta de 380 a.C., segundo a interpretação que Seligman prefere, o imposto já era uma tributação progressiva da renda, de 1% a 20%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Idade Média tem os dois sentidos. A Inglaterra cobrou em 1435 um imposto de renda em três faixas, de 2,5%, 3⅓% e 10%. Mas muitos tributos medievais eram regressivos. Na Basileia de 1429, a alíquota geral era de 2% para o topo de cada classe, e na classe mais baixa, de até dez florins, passava de 17%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo mais citado, e mais usado contra a progressão, é Florença. Em 1443 veio a “taxa graciosa”, em catorze classes, de 4% a 33⅓% da renda; em 1447, a “décima desagradável”, de 8% a 50%. Os Médici usaram a escala para arruinar rivais, e houve vendas forçadas de patrimônio. Seligman rebate que a falha estava menos na graduação do que na frequência e no tamanho dos impostos e, sobretudo, no arbítrio dos avaliadores. Onde a avaliação é arbitrária, escreve, quase não há o que escolher entre proporção e progressão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E os Estados Unidos, a pátria da proporção?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nem tanto. O imposto federal sobre casas de 1798, desenhado por Gallatin, tinha oito classes, com alíquotas de 2 a 10 por mil sobre o valor. Na Guerra Civil, a lei de 1862 cobrava 3% da renda acima de US$ 600 até US$ 10 mil, e 5% acima disso. A de 1864 criou três faixas, de 5%, 7,5% e 10%. O secretário do Tesouro Fessenden defendeu a escala dizendo que"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a capacidade de pagar cresce muito mais que em proporção aritmética”",
+          "original": "“the ability to pay increases in much more than arithmetical proportion”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Terminada a guerra, a alíquota foi reduzida e unificada, e o imposto acabou em 1872. A Confederação também graduou o seu: pela lei de 24 de abril de 1863, rendas que não fossem salários pagavam de 5% a 15%. Em 1894, fora um imposto de renda graduado na Carolina do Norte, a progressão nos estados americanos aparecia só em tributos sobre empresas, como os de ferrovias, que subiam com a receita por milha."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "16 de 25",
+          "texto": "Cantões suíços com imposto progressivo sobre propriedade ou renda quando Seligman escreveu; 18 dos 25 tinham alguma forma de progressão, e seis graduavam a herança. O impulso veio da lei de Zurique de 1870. Na Prússia, a lei de 1891 isentava rendas abaixo de 900 marcos e chegava a 4% em 100 mil marcos. Em Victoria, na Austrália, a herança era tributada em 37 classes, de 1% a 10%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tendência à progressão, conclui a parte histórica, crescia em quase toda parte, e mais nos países mais democráticos. Na Suíça e na Austrália, os temores não se confirmaram: o capital continuava crescendo, e a propriedade privada não fora enfraquecida."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que as teorias antigas não fechavam a conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman separa três famílias de argumentos a favor: a socialista, a compensatória e a econômica. A primeira, cujo principal defensor científico era o alemão Adolf Wagner, quer usar o imposto para reduzir a desigualdade de fortunas. Seligman a rejeita sem rodeios. Se fosse dever do Estado corrigir toda desigualdade entre cidadãos, não haveria ciência das finanças, só uma regra: confiscar do rico e dar ao pobre. Justiça, para ele, é igualdade perante a lei e de oportunidades, não de fortuna. E a reforma social cabe mais no gasto público do que na receita."
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria compensatória, de F. A. Walker e da francesa Clémence Royer, diz que o Estado ajudou a criar desigualdades e deve compensá-las. O problema é que não há como medir essa contribuição. Seligman aceita apenas uma versão estreita, a compensação especial: se os impostos indiretos pesam mais sobre os pobres, um imposto direto progressivo pode reequilibrar o sistema, mantendo a proporção como ideal do conjunto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento clássico contra a progressão, a teoria do benefício, também cai. Se o imposto fosse um prêmio de seguro pela proteção do Estado, a proporção pareceria natural. Mas o rico contrata seus próprios vigias e põe os filhos em escola particular; o pobre depende inteiramente do Estado. Não custa dez vezes mais julgar uma causa de US$ 1.000 que uma de US$ 100. Pela lógica do benefício, a escala deveria até descer. Na verdade, conclui, benefícios não se medem, e por isso o critério serve para taxas e tarifas de serviços, não para impostos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O sacrifício igual prova a progressão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "É o argumento mais forte, e Seligman o expõe com cuidado. Tirar 10% de quem ganha US$ 1.000 deixa uma família sem o necessário; tirar 10% de quem ganha US$ 100 mil corta, no máximo, um luxo. Para que o sacrifício seja igual, o rico deve pagar relativamente mais. Economistas holandeses, aplicando a utilidade marginal de Jevons, montaram tabelas para provar a tese com aritmética."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3,3755%",
+          "texto": "Alíquota que, nas tabelas holandesas de Bok corrigidas por Cohen-Stuart, igualaria o sacrifício de quem ganha US$ 7 mil ao de quem ganha US$ 1 mil e paga 3%. Com US$ 2 mil, seriam 3,079%; com US$ 4 mil, 3,2014%. Mas o próprio Cohen-Stuart mostrou que, mudando as hipóteses de utilidade, as mesmas contas levam à proporção ou até à regressão."
+        },
+        {
+          "tipo": "p",
+          "texto": "É aqui que Seligman é mais duro. O sacrifício é psíquico; o imposto tira coisas materiais. Não há cálculo que converta um no outro. Dois homens com a mesma renda podem ser um solteiro e um pai de família numerosa, um sóbrio e um perdulário, um morador de aldeia barata e outro de metrópole cara. A teoria do sacrifício, sozinha, não leva a escala nenhuma, nem progressiva, nem proporcional."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Então, o que sobra a favor da progressão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A capacidade contributiva, entendida em dois lados. Do lado da produção, quem tem mais tem mais facilidade de ganhar ainda mais; Seligman cita Adam Smith, para quem dinheiro faz dinheiro e o difícil é conseguir o primeiro pouco. Do lado do consumo, volta o sacrifício: ele não fixa uma escala, mas tampouco sustenta a proporção. Somados, os dois lados indicam que, para o contribuinte médio, com quem o Estado de fato lida, alguma progressão provavelmente faz menos injustiça que a proporção estrita."
+        },
+        {
+          "tipo": "p",
+          "texto": "As objeções usuais, diz ele, provam demais. Mill e McCulloch reclamavam que a progressão não oferece certeza. Mas uma alíquota incerta na direção da justiça pode valer mais que uma certa e injusta. O medo de que a escala engula todo o capital se resolve fazendo a própria progressão desacelerar. E se a progressão não arrecada mais, pouco importa: seu papel é repartir melhor, não arrecadar mais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que, na prática, quase sempre não?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque a teoria supõe que o imposto atinja a renda real de cada indivíduo, e nenhum tributo americano fazia isso. O imposto geral sobre a propriedade já era regressivo na prática: a riqueza mobiliária escapava, e escapava mais quanto maior fosse. Progressão sobre ele só aumentaria a fraude. Sobre imóveis, criaria injustiça grosseira, porque o imposto recaía sobre a terra, sem descontar hipotecas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25 vezes",
+          "texto": "Quanto o fazendeiro B pagaria a mais que A no exemplo de Seligman, embora ambos tenham o mesmo patrimônio líquido de US$ 5 mil. A tem fazenda de US$ 10 mil hipotecada em US$ 5 mil; B, de US$ 100 mil hipotecada em US$ 95 mil. Com 2% sobre A, ele paga US$ 200; com 5% sobre B, US$ 5 mil, todo o seu patrimônio líquido."
+        },
+        {
+          "tipo": "p",
+          "texto": "No imposto de renda, o dilema é técnico. O modelo inglês, de cobrança por fontes separadas e retenção na fonte, era o mais bem-sucedido, mas não aceita bem uma escala: quem ganha US$ 50 mil vindos de cinco fontes pagaria US$ 1.000; quem ganha o mesmo de uma só fonte, US$ 3.000. O modelo de declaração global aceita a escala, mas na prática falhava. Por isso o autor aprova o Congresso, que no projeto de imposto de renda de 1894 recusou a emenda que propunha alíquotas progressivas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“um imposto de renda progressivo realmente bem-sucedido é uma inviabilidade”",
+          "original": "“a really successful progressive income tax is an infeasibility”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas empresas, a progressão também não faz sentido: a corporação é uma pessoa jurídica fictícia, sem necessidades nem sacrifício, e uma alíquota maior sobre a grande empresa pode cair sobre pequenos acionistas. Sobra a herança. Ela é uma renda fortuita, que aumenta a capacidade contributiva de quem a recebe e não é alcançada pelo imposto de renda. Até Mill, conservador quanto à progressão em geral, a aceitava aqui. Para os Estados Unidos de 1894, conclui Seligman, a herança era o único tributo importante em que a escala progressiva se aplicava."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fecho é menos técnico do que parece. Para ir além, o país dependeria de melhor administração tributária, de um sistema de receitas mais coerente e de uma disposição maior dos cidadãos para pagar sua parte. Em última instância, escreve o autor, o ponto decisivo é o estado da consciência social e do sentimento de obrigação cívica."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a força do livro está em separar duas perguntas que o debate público costuma fundir: se a progressão é justa e se ela é administrável. Seligman responde sim à primeira, com reservas, e quase sempre não à segunda, e não muda de opinião por conveniência em nenhuma delas. A lição de Florença vale até hoje: o que arruinava os contribuintes não era a escala, era a avaliação arbitrária. Uma tabela de alíquotas elegante sobre uma base mal medida produz o contrário do que promete.",
+            "A outra ideia que me parece permanente é olhar o sistema inteiro, não cada imposto isolado. Um tributo progressivo pode servir só para compensar outros regressivos e, somado a eles, entregar uma carga apenas proporcional. Discutir a alíquota máxima do imposto de renda sem olhar o consumo, a propriedade e a herança é discutir uma parte como se fosse o todo. Seligman já sabia disso em 1894."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto proporcional",
+          "mesma alíquota para qualquer valor da base."
+        ],
+        [
+          "Imposto progressivo",
+          "alíquota que sobe com a renda, a propriedade ou a herança."
+        ],
+        [
+          "Imposto regressivo",
+          "alíquota que cai à medida que a base cresce; pesa mais, em proporção, sobre quem tem menos."
+        ],
+        [
+          "Imposto degressivo",
+          "alíquota que sobe até certo ponto e depois fica constante; na prática, proporcional com alívio para os menores."
+        ],
+        [
+          "Teoria do benefício",
+          "ideia de que cada um deve pagar conforme o que recebe do Estado."
+        ],
+        [
+          "Capacidade contributiva (faculty)",
+          "ideia de que cada um deve pagar conforme sua capacidade de pagar."
+        ],
+        [
+          "Sacrifício igual",
+          "princípio de que o imposto deve causar a cada contribuinte um incômodo equivalente."
+        ],
+        [
+          "Utilidade marginal (final utility)",
+          "valor da última unidade de um bem ou de renda; tende a cair à medida que se tem mais."
+        ],
+        [
+          "Retenção na fonte",
+          "cobrança do imposto por quem paga a renda, antes que ela chegue ao beneficiário."
+        ],
+        [
+          "Compensação especial",
+          "uso de um imposto progressivo para equilibrar outros regressivos, buscando proporção no conjunto."
+        ]
+      ],
+      "hoje": "A progressividade venceu a disputa de princípio: impostos de renda com faixas crescentes são regra em quase todo o mundo. Mas as perguntas práticas de Seligman continuam abertas. A retenção na fonte convive mal com a escala quando a renda vem de várias origens. Patrimônio e herança seguem difíceis de avaliar, e a riqueza que se move escapa mais quanto maior é. O debate sobre a progressividade do sistema inteiro, somando consumo, renda e propriedade, é exatamente o que ele propôs. E a conclusão dele ainda serve: sem administração competente e disposição cívica para pagar, a melhor tabela de alíquotas fica no papel.",
+      "itens": [
+        [
+          "Progressive Taxation in Theory and Practice",
+          "pp. 7–222",
+          "2485696"
+        ]
+      ],
+      "jstor_edicao": "i342433",
+      "colecao": "eua",
+      "ensaio": true
+    },
+    {
+      "slug": "1894-a-sexta-reuniao-anual",
+      "numero": 41,
+      "titulo": "Chicago, 1893: o dinheiro, o juro e a origem do capital",
+      "titulo_original": "Hand Book of the American Economic Association 1894, with the Report of the Sixth Annual Meeting",
+      "autores": "Francis A. Walker (Massachusetts Institute of Technology), Arthur T. Hadley (Yale University), S. N. Patten (University of Pennsylvania), John B. Clark (Amherst College), F. W. Taussig (Harvard University) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 9, nº 1 (suplemento)",
+      "data": "1894",
+      "chamada": "Um único dia em Chicago, em setembro de 1893, no meio de uma crise: o crédito tornou a moeda irrelevante? De onde vêm o juro, o capital e os salários?",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 12 de setembro de 1893, em Chicago, a American Economic Association reuniu-se sem o seu presidente. Charles F. Dunbar estava doente, e a sessão da noite anterior, reservada ao seu discurso, foi cancelada. O encontro inteiro coube num só dia: o Instituto Internacional de Estatística, convidado pelas associações americanas de estatística e de economia, ocupava a mesma cidade de 11 a 15 de setembro, as datas antes previstas para a reunião."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro trabalho tocou na ferida do momento. Francis A. Walker, do MIT, perguntou se a expansão do crédito tornara irrelevante a quantidade de moeda. Respondeu que não e citou como prova a crise comercial recente, atribuída à retirada de apenas uma parte das notas em circulação. Atkinson, que dizia acompanhar cerca de 1.600 fábricas pelo seu trabalho com seguros, contestou o diagnóstico e o tamanho do estrago. Fábricas paradas se contavam às centenas, ou às dezenas, e não aos milhares:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“é um exagero terrível”",
+          "original": "“it is a terrible exaggeration”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Atkinson, aquela era uma crise não comercial, fruto de má legislação e de incompreensão dos princípios monetários. Para medir a economia, ele preferia a conta de baixo para cima à soma das câmaras de compensação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 36,5 bilhões",
+          "texto": "Estimativa de Atkinson para as transações anuais em mercadorias nos Estados Unidos: consumo de 50 centavos por pessoa por dia, um produto final acima de US$ 12 bilhões, cada bem comprado e vendido três vezes, cerca de US$ 100 milhões em transações por dia."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga o juro, e por quê?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Arthur T. Hadley, de Yale, deslocou a pergunta: o retorno da classe capitalista é o lucro; o juro é só a parte que um grupo de capitalistas paga a outro pelo controle da produção. O debate que se seguiu foi o mais vivo do dia. Franklin, da Johns Hopkins, negou que os clássicos ingleses tivessem chamado o juro de justo; Taussig defendeu a abstinência como ideia indispensável; Giddings separou risco, comutação e juro “mínimo”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Capital é um estoque de coisas ou um fundo permanente?"
+        },
+        {
+          "tipo": "p",
+          "texto": "John B. Clark, de Amherst, recém-eleito presidente, respondeu à teoria austríaca do juro com uma imagem: o capital é como uma queda-d’água, cujas gotas passam enquanto a queda permanece."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o capital é perpétuo; mas as coisas que a cada momento o compõem logo desaparecem”",
+          "original": "“capital is perpetual; but the things that at any moment compose it soon pass away”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção entre capital e bens de capital atravessou o resto do dia. Patten propôs fundir economia e utilitarismo numa só ciência. Taussig mostrou que os alemães, desde Hermann em 1834, trocaram o fundo de salários por uma explicação circular. No fecho, Hadley usou a distinção de Clark para separar Adam Smith de Ricardo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O volume abre com o Hand Book de 1894: estatuto, dirigentes, conselho e a lista de sócios, que o texto estima em cerca de 800. Pelo relatório, o Conselho elegeu Clark presidente e Jeremiah W. Jenks secretário e marcou a reunião seguinte para o Columbia College, em Nova York, na temporada de festas de 1894."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a troca entre Walker e Atkinson é o melhor do volume, porque mostra dois métodos diante da mesma crise. Walker parte de uma proposição teórica e encontra na crise a confirmação; Atkinson parte do que vê em suas fábricas e encontra exagero. Os dois tinham parte da razão: a quantidade de moeda importa, e o tamanho de uma recessão se mede com dados, não com a teoria que se quer confirmar.",
+            "O resto do dia antecipa um programa. Hadley trata o juro como preço pela transferência de controle; Clark separa o fundo permanente das coisas que o compõem; Taussig cobra que uma teoria dos salários explique o nível geral, e não só as diferenças entre ofícios. São perguntas que a teoria da distribuição levaria décadas para responder."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "valor da moeda",
+          "o poder de compra do dinheiro; sobe quando os preços caem e cai quando sobem."
+        ],
+        [
+          "câmara de compensação (clearing-house)",
+          "instituição onde os bancos cancelam entre si cheques e dívidas, liquidando em dinheiro só o saldo."
+        ],
+        [
+          "comutação",
+          "troca de um ganho incerto (lucro, renda) por um pagamento fixo (juro)."
+        ],
+        [
+          "abstinência",
+          "na tradição de Senior, o sacrifício de adiar o consumo, apresentado como explicação do juro."
+        ],
+        [
+          "bens de capital",
+          "as máquinas, matérias-primas e estoques concretos; para Clark, distintos do capital como fundo permanente."
+        ],
+        [
+          "fundo de salários",
+          "doutrina clássica de que os salários saem de um fundo de capital adiantado pelos empregadores aos trabalhadores."
+        ],
+        [
+          "utilidade marginal",
+          "satisfação trazida pela última unidade de um bem; base da medição subjetiva da riqueza."
+        ]
+      ],
+      "hoje": "As perguntas de Chicago continuam abertas. Depois de cada inovação financeira volta a dúvida de Walker: se quase tudo se paga com crédito, a quantidade de moeda ainda importa? A objeção de Atkinson, a de que o tamanho de uma crise se mede com dados, vale para qualquer diagnóstico feito no calor do momento. A ideia de Hadley, a de que o juro remunera a transferência de controle e de risco, aproxima-se da forma como as finanças corporativas tratam dívida e ações. E a crítica de Taussig a teorias que explicam salários pelo consumo, que depende dos próprios salários, segue útil contra raciocínios circulares de política econômica.",
+      "itens": [
+        [
+          "Hand Book of the American Economic Association",
+          "pp. 7–39",
+          "2485730"
+        ],
+        [
+          "The Sixth Annual Meeting",
+          "pp. 41–46",
+          "2485731"
+        ],
+        [
+          "The Value of Money",
+          "pp. 47–56",
+          "2485732"
+        ],
+        [
+          "The Relation between Interest and Profits",
+          "pp. 56–62",
+          "2485733"
+        ],
+        [
+          "The Scope of Political Economy",
+          "pp. 62–64",
+          "2485734"
+        ],
+        [
+          "The Genesis of Capital",
+          "pp. 64–68",
+          "2485735"
+        ],
+        [
+          "The Wages-Fund at the Hands of the German Economists",
+          "pp. 68–73",
+          "2485736"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The Value of Money",
+          "autores": "Francis A. Walker (Massachusetts Institute of Technology); debate com Atkinson",
+          "paginas": "pp. 47–56",
+          "resumo": "Walker pergunta se a extrema expansão do crédito invalidou a tese de que os preços dependem da oferta e da demanda de moeda. Parte de uma comunidade em que tudo se compra com dinheiro e introduz quatro mudanças: autoconsumo, escambo, crédito e transferência de títulos com compensação bancária. Nenhuma derruba a tese. O crédito compensado é uma extensão do escambo, e depósitos bancários não são moeda, contra Overstone e Sidgwick. Nos salários e no varejo, a quantidade de moeda continua a determinar preços. Atkinson rebate: cheques e notas são títulos de moeda, e a crise vinha da má legislação, não da escassez de meios de troca.",
+          "jstor": "2485732"
+        },
+        {
+          "titulo": "The Relation between Interest and Profits",
+          "autores": "Arthur T. Hadley (Yale University); debate com Franklin (Johns Hopkins), F. W. Taussig e F. H. Giddings",
+          "paginas": "pp. 56–62",
+          "resumo": "Em cinco teses, Hadley sustenta que o lucro, e não o juro, é o retorno da classe capitalista; o juro redistribui lucro entre capitalistas. Possuir capital dá o controle da indústria; quem empresta abre mão dele e troca o lucro possível por uma taxa fixa. Essa comutação se justifica por selecionar os empregadores mais competentes, não por produtividade do capital. O juro de longo prazo seria renda comutada, e a taxa nasce de muitas negociações mal conectadas, não de um mercado único. Franklin nega que os clássicos chamassem o juro de justo; Taussig defende a abstinência; Giddings isola o juro puro, diferença entre bens presentes e futuros.",
+          "jstor": "2485733"
+        },
+        {
+          "titulo": "The Scope of Political Economy",
+          "autores": "S. N. Patten (University of Pennsylvania)",
+          "paginas": "pp. 62–64",
+          "resumo": "Patten trata os limites da economia como problema histórico, não lógico. Adam Smith dera à disciplina um escopo amplo, que incluía o progresso social. A reação à Revolução Francesa teria tornado conservadora a economia inglesa, com Malthus e Ricardo, enquanto o espírito liberal migrou para o utilitarismo de Bentham. As duas ciências diferiam na unidade de medida: satisfação para uma, riqueza material para a outra. A utilidade marginal e a teoria do consumo apagaram a fronteira. Se o progresso consiste em elevar a margem de consumo, e não em acumular quantidade, economia e utilitarismo deveriam fundir-se numa só ciência.",
+          "jstor": "2485734"
+        },
+        {
+          "titulo": "The Genesis of Capital",
+          "autores": "John B. Clark (Amherst College)",
+          "paginas": "pp. 64–68",
+          "resumo": "Clark rejeita a teoria austríaca de que o juro é um prêmio dos bens presentes sobre bens futuros iguais. O capitalista típico não faz essa comparação: guarda uma soma, não pretende gastar o principal e compara-a com uma série infinita de rendimentos menores, que caberão sobretudo aos herdeiros. O erro de Böhm-Bawerk estaria em confundir capital com bens de capital. As imagens são a queda-d’água, o reservatório cheio e o couro que leva um ano para virar sapato: os bens têm período de produção, o capital não. A acumulação, conclui, depende da razão e do altruísmo de quem poupa.",
+          "jstor": "2485735"
+        },
+        {
+          "titulo": "The Wages-Fund at the Hands of the German Economists",
+          "autores": "F. W. Taussig (Harvard University); debate com E. W. Bemis e A. T. Hadley",
+          "paginas": "pp. 68–73",
+          "resumo": "Taussig mostra que Hermann atacou o fundo de salários em 1834, muito antes dos ingleses, e que os alemães adotaram sua tese, depois acrescida por Brentano em 1871: a fonte última dos salários é a renda dos consumidores. A objeção é a circularidade, porque os salários são a maior parte dessa renda. A renda dos consumidores explica salários relativos, não o nível geral. A fonte real seria o fluxo de bens acabados produzidos e consumidos. Bemis responde que salários podem subir à custa de rentistas e de lucros de monopólio. Hadley atribui a diferença entre Smith e Ricardo à distinção de Clark entre capital e bens de capital.",
+          "jstor": "2485736"
+        },
+        {
+          "titulo": "Hand Book of the American Economic Association",
+          "autores": "Manual da associação",
+          "paginas": "pp. 7–39",
+          "resumo": "Introdução, estatuto, regimento, dirigentes, conselho, membros honorários e lista de sócios e assinantes de 1894.",
+          "jstor": "2485730"
+        },
+        {
+          "titulo": "The Sixth Annual Meeting",
+          "autores": "Relatório da reunião",
+          "paginas": "pp. 41–46",
+          "resumo": "Relatório do encontro de Chicago, decisões do Conselho, eleição de dirigentes e relatório do tesoureiro.",
+          "jstor": "2485731"
+        }
+      ],
+      "jstor_edicao": "i342437",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1894-teoria-do-transporte",
+      "numero": 42,
+      "titulo": "Cooley, 1894: as cidades nascem onde a carga para",
+      "titulo_original": "The Theory of Transportation",
+      "autores": "Charles H. Cooley, Ph. D., ex-chefe da Divisão de Transportes do Décimo Primeiro Censo e assistente de Economia Política na Universidade de Michigan",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 9, nº 3",
+      "data": "maio de 1894",
+      "chamada": "Em 1894, Charles H. Cooley propôs uma teoria geral do transporte: cidades surgem onde a carga é baldeada, e tarifas ferroviárias decidem quem cresce. Pedia o fim da guerra de fretes, sob controle público.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Boston e Chicago servem de prova. Nas ruas antigas de Boston, que segundo a tradição teriam sido traçadas pelas vacas, Charles H. Cooley via um exemplo quase perfeito de arranjo radial, com as vias convergindo para um centro. Em Chicago, só algumas avenidas diagonais quebravam a grade retangular, e provavelmente marcavam estradas rurais anteriores à cidade. Washington combinava os dois princípios de propósito: uma grade cortada por avenidas diagonais que convergem para o Capitólio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É injusto com as vacas imaginar que essas ruas não têm plano”",
+          "original": "“It is unjust to the cows to imagine that these streets have no plan”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A observação está nas primeiras páginas de The Theory of Transportation, monografia publicada nas Publications of the American Economic Association em maio de 1894. Cooley assina como ex-chefe da Divisão de Transportes do Décimo Primeiro Censo americano e assistente de Economia Política na Universidade de Michigan. No prefácio, anuncia o plano: escrever uma teoria do transporte de um ponto de vista sociológico, apoiado sobretudo em Schäffle. E reclama que, desde a obra de Kohl, de 1841, ninguém investigara de forma abrangente as leis que distribuem pessoas e riqueza pelo território."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que faz um transporte ser bom?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cooley começa pela mecânica. Os testes fundamentais são velocidade e economia de força, que na prática quer dizer barateza. A eles soma um terceiro: o grau de independência em relação ao relevo, isto é, a capacidade de levar velocidade e economia a lugares antes inacessíveis. Todo sistema tem três elementos, a via, o veículo e a força motriz. O progresso segue uma ordem: força humana, animais de carga, veículos de roda puxados por animais e, por fim, a energia química do carvão convertida em vapor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "15 milhas",
+          "texto": "Distância que os carregadores do antigo México percorriam por dia, com 50 a 60 libras às costas, num comércio terrestre feito sem animais de carga. O camelo, por comparação, aguentava três dias sem água sob carga, mantendo 25 milhas por dia. O correio a pé mexicano tinha torres a cerca de seis milhas umas das outras."
+        },
+        {
+          "tipo": "p",
+          "texto": "A roda é o exemplo de que técnica não basta. Os egípcios já faziam carros de guerra tão leves que um homem os carregava sozinho. O que faltava eram estradas. Sem via adequada, o veículo de roda é pior que inútil. Por isso a sela de carga dominou as rotas longas até o período, iniciado no século XVII, em que a Europa ocidental construiu um sistema de boas estradas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde nascem as cidades?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Este é o capítulo que Cooley considerava mais original. Ele admite causas não econômicas: fortes em tempos de guerra, prestígio religioso, a sede de um condado no oeste plano dos Estados Unidos. Mas, numa sociedade industrial, a causa principal da localização é o transporte, e ele a resume numa lei."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“População e riqueza tendem a se acumular onde houver uma quebra no transporte”",
+          "original": "“Population and wealth tend to collect wherever there is a break in transportation”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quebra é a interrupção que obriga a baldear e armazenar a carga. Se só a carga muda de veículo, a quebra é mecânica. Se muda também de dono, é comercial, e aí surgem mercadores, cambistas, armazéns e toda uma população subsidiária. Daí as grandes cidades no estuário ou no curso baixo de rios navegáveis, onde o navio de mar cede lugar à barca: Hamburgo no Elba, Londres no Tâmisa, Nova Orleans no Mississippi, Nova York no Hudson. O Canal Erie, nota o autor, fez brotar cidades logo depois de concluído. O mesmo vale para a borda do deserto, onde se organizavam as caravanas; Cooley cita Meca e Palmira."
+        },
+        {
+          "tipo": "p",
+          "texto": "A consequência menos intuitiva é que o simples cruzamento de duas ferrovias não cria cidade. Sem troca de tipo de transporte não há quebra necessária; bastam um entroncamento insignificante e um restaurante. E, à medida que melhoram a troca de vagões e o despacho direto, os pontos de transferência migram para as cidades grandes. É, para Cooley, uma das razões do engrandecimento contínuo das grandes cidades à custa das pequenas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto vale ganhar velocidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cooley sustenta que haveria renda da terra mesmo num território ilimitado de solo uniforme. Ela nasceria só da diferença no custo de levar a produção ao mercado. O transporte é, portanto, causa independente da renda, ao lado da fertilidade. O exemplo é a queda das rendas agrícolas inglesas depois que navios a vapor e ferrovias abriram o mercado ao trigo americano; no leste dos Estados Unidos, fazendas deixaram de ser cultivadas pelo mesmo motivo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "112 milhas²",
+          "texto": "Área ao alcance de quem aceita meia hora de viagem até o centro a 12 milhas por hora (raio de seis milhas), contra cerca de 28 milhas² a seis milhas por hora (raio de três). Dobrar a velocidade quadruplica a área. Triplicá-la a multiplica por quase nove e, na hipótese simplificada do autor, reduz o aluguel do solo por unidade de área a um nono."
+        },
+        {
+          "tipo": "p",
+          "texto": "A imagem que acompanha o diagrama é doméstica. A renda total é um cone de chumbo; o transporte melhorado, o martelo que o achata. Com a velocidade dobrada, a renda no centro cai a um quarto, enquanto na periferia passa a se pagar renda onde antes não se pagava nada. O raciocínio vale para o campo, trocando velocidade por custo de frete e área habitável por área de cultivo lucrativo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como deveriam ser fixadas as tarifas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria privada das tarifas busca a maior receita líquida e se traduz em cobrar o que o tráfego suporta. Cooley adota o ponto de vista público, com duas concessões à ferrovia: as tarifas, no conjunto, devem dar retorno razoável ao investimento, sob pena de algo parecido com confisco; e nenhuma tarifa pode ficar abaixo do custo imediato de mover a carga."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele propõe quatro princípios. Justiça entre pessoas, sem discriminação. Aproveitamento das vantagens naturais imóveis, como o trigo do noroeste ou as frutas da Flórida e da Califórnia, com fretes baixos se preciso. Descentralização da indústria e do comércio. E, no resto, a maior liberdade possível às forças econômicas. Até o desconto por vagão completo lhe parece suspeito, por favorecer o grande embarcador; na dúvida, o pequeno deve levar a vantagem."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo principal é a competição entre ferrovias nos poucos pontos onde há rotas rivais. Ela dá fretes menores justamente às cidades grandes e as engorda à custa das demais. Cooley registra que a Interstate Commerce Commission, em seu segundo relatório anual, pensava o mesmo. O apoio popular à concorrência ferroviária, escreve, é pura fidelidade a um princípio fora de lugar."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“lealdade a uma ideia que aqui não tem aplicação prática”",
+          "original": "“loyalty to an idea that has here no practical application”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 centavos",
+          "texto": "Exemplo do autor para a classificação por valor: se custar em toda parte 5 centavos levar um dólar de mercadoria ao mercado, o custo na entrega sobe para um dólar e cinco centavos. O frete entra como porcentagem uniforme no preço de tudo. Cooley aceita esse critério para as mercadorias, mas rejeita a tarifa única sem distância, como a do correio."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tarifa única abolia a distância, e por isso mesmo concentraria. Aplicada aos Estados Unidos de então, diz o autor, engrandeceria as cidades e as manufaturas do leste e impediria o surgimento de novas cidades no oeste. Cooley partilha a opinião comum de que a concentração de população e riqueza tende ao excesso. Prefere fretes proporcionais à distância, com um mínimo para os trechos curtos, e classificação por valor."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Estado ou empresa privada?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Transporte, para Cooley, é uma atividade orgânica: cada parte nada vale sem o resto. O exemplo é uma estrada necessária a mil pessoas que atravessa dez fazendas. Cada fazendeiro teria de construir um décimo dela para colher talvez um milésimo do benefício, e de nada adiantaria se os outros nove recusassem. Daí a ação associada, do município ao condado, do estado à União, da pequena ferrovia ao grande sistema."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Estado tem a vantagem da unidade e a desvantagem do detalhe, porque lhe falta o motivo do ganho privado. As estradas romanas, com sua solidez desnecessária, são o caso típico. Cooley lembra que, na década de 1830, Michigan projetou três ferrovias e um canal quase paralelos atravessando o estado, aparentemente para distribuir as obras e garantir apoio político. Sua conclusão é deixar construção e operação à iniciativa privada, sob controle público."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro objetivo do controle é a publicidade: contas ferroviárias confiáveis, em padrão uniforme, e repartições estatísticas com estatísticos competentes. O segundo é unificar onde a ação isolada falha, como no engate automático de vagões, que nenhuma ferrovia adota sozinha. O terceiro é substituir a guerra de fretes por uma combinação mais forte e permanente que os pools, sob regulação pública. A regra das distâncias curta e longa do Interstate Commerce Act lhe parece só uma regra prática, que diz o que a tarifa não deve ser, não o que deve ser."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o melhor do livro é tratar a tarifa como política territorial. Cooley percebe que o preço do frete não é um detalhe contábil da ferrovia: ele decide onde as fábricas se instalam, quais cidades crescem e quais definham. E percebe que esse preço não se ajusta sozinho. Alguém o fixa, e quem o fixa escolhe, ainda que sem declarar, um mapa de país. A lei da quebra no transporte, por sua vez, continua útil para entender por que portos, terminais e pontos de transbordo concentram atividade.",
+            "O dilema que ele deixa é atual. Para acabar com a discriminação contra pequenos embarcadores e cidades menores, propunha suprimir a concorrência e organizar um cartel sob tutela pública. A aposta é que o regulador saiba qual tarifa é a certa e resista a quem tem mais poder sobre ele. Cooley exige do regulador uma teoria das tarifas e estatísticas confiáveis; sem as duas, admite, o controle se reduz a mera crítica."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "quebra no transporte",
+          "ponto em que a carga precisa ser baldeada e armazenada; se muda também de dono, a quebra é comercial."
+        ],
+        [
+          "cobrar o que o tráfego suporta",
+          "fixar cada frete pelo máximo que a mercadoria aguenta pagar sem deixar de ser transportada."
+        ],
+        [
+          "custo imediato",
+          "custo que a ferrovia evitaria se deixasse de transportar uma carga específica, distinto do custo geral da rede."
+        ],
+        [
+          "renda da terra",
+          "pagamento pelo uso do solo; para Cooley, depende também da distância e do custo de acesso ao mercado."
+        ],
+        [
+          "pool",
+          "acordo voluntário entre ferrovias para dividir tráfego ou receitas e evitar a guerra de fretes."
+        ],
+        [
+          "regra das distâncias curta e longa",
+          "dispositivo do Interstate Commerce Act que limitava cobrar mais por um trajeto curto do que por um longo na mesma linha."
+        ]
+      ],
+      "hoje": "A pergunta de Cooley sobrevive em qualquer debate sobre infraestrutura. Concessões de rodovias, ferrovias e portos ainda exigem que o regulador defina tarifas, e cada escolha favorece regiões, produtos e tamanhos de empresa. A tensão entre concorrência e coordenação reaparece no compartilhamento de trilhos, na integração tarifária do transporte urbano e na regulação de monopólios naturais. Também a relação entre velocidade e preço do solo urbano segue atual: linhas de metrô e corredores expressos valorizam a periferia e redistribuem a renda da terra, como no cone de chumbo martelado do livro.",
+      "itens": [
+        [
+          "The Theory of Transportation",
+          "pp. 13–148",
+          "2485676"
+        ]
+      ],
+      "jstor_edicao": "i342434",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1894-sir-william-petty",
+      "numero": 43,
+      "titulo": "Bevan, 1894: William Petty, o agrimensor que contou a Inglaterra",
+      "titulo_original": "Sir William Petty: A Study in English Economic Literature",
+      "autores": "Wilson Lloyd Bevan, M.A., Ph.D., ex-bolsista da Johns Hopkins University e fellow do Columbia College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 9, nº 4",
+      "data": "agosto de 1894",
+      "chamada": "Em 1894, Wilson Lloyd Bevan reconstituiu vida e ideias de William Petty: o médico que mediu a Irlanda, enriqueceu com terras confiscadas e fez da contagem um método de governo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em março de 1659, no Parlamento convocado por Richard Cromwell, Sir Jerome Sankey anunciou a acusação mais grave já feita contra um membro da Casa. O acusado tinha tido em mãos a distribuição de dois milhões de acres de terra irlandesa. Era médico, agrimensor e comissário ao mesmo tempo. O nome era Dr. Petty. Em 26 de março, o presidente da Casa mandou que ele respondesse a três acusações: negociar com debêntures, aceitar subornos e apropriar-se de dinheiro do Estado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Petty chegou a Londres em 17 de abril, tomou posse no dia 19 e se defendeu no dia 21. O Parlamento foi dissolvido no dia seguinte, e o julgamento nunca aconteceu. A cena está em Sir William Petty: A Study in English Economic Literature, de Wilson Lloyd Bevan, publicado nas Publications of the American Economic Association em agosto de 1894. É uma tese de doutorado. No prefácio, Bevan diz que o estudante comum precisava se contentar com as poucas páginas que Roscher ou Cunningham dedicavam a Petty, e agradece a orientação do professor Brentano, da Universidade de Munique."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que gastar tantas páginas com a biografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque, diz Bevan, Petty não era um literato: sua própria carreira lhe deu o material dos folhetos. Nasceu em Rumsey, no Hampshire, em 26 de maio de 1623, filho de um fabricante de tecidos. Por volta dos quinze anos foi para Caen, na Normandia, fez pequeno comércio e se manteve sozinho. Estudou medicina nos Países Baixos e em Paris, onde leu Vesalius com Hobbes e, segundo Aubrey, passou uma semana vivendo de nozes. Voltou, doutorou-se em medicina em Oxford e foi professor de anatomia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 10 de setembro de 1652 desembarcou em Waterford como médico do exército que reprimira a rebelião irlandesa. O exército e os credores privados que o haviam financiado, os chamados Irish Adventurers, seriam pagos com terras confiscadas. Para isso era preciso medi-las. O levantamento anterior era notoriamente errado. Petty se ofereceu para refazê-lo em treze meses e venceu a disputa com o agrimensor-geral."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 18.532",
+          "texto": "Valor recebido por Petty pelo Down Survey, o levantamento cadastral da Irlanda, do qual saíam o pagamento dos assistentes e as despesas. Contrato assinado em 24 de dezembro de 1654; levantamento aceito em 17 de maio de 1656. O exército pagava à razão de um penny por acre. Por um crédito restante de £ 3.181, Petty recebeu 9.665 acres."
+        },
+        {
+          "tipo": "p",
+          "texto": "Bevan nota que o trabalho foi rápido não por métodos científicos novos, mas pela direção cuidadosa de numerosos subordinados. O resto foi menos edificante. Havia 33.400 debêntures sobre terras irlandesas, das quais só 11.804 foram devolvidas; o atraso alimentou a especulação, e soldados pobres vendiam seus títulos a oficiais. O governo compensou salários atrasados de Petty com 6.000 acres e autorização para comprar debêntures. Vantagens tão notórias, escreve Bevan, dificilmente passariam despercebidas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O biógrafo não é complacente. Fala da insensibilidade de Petty à honestidade estrita quando via chance de promover seus interesses, e registra que, depois de vencer um processo contra o duque de Ormond, ele se gabou de ter usado testemunhas capazes de jurar através de uma tábua de seis polegadas. Aubrey calculava que o levantamento lhe rendera na Irlanda propriedades de £ 18.000 por ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem escreveu as Observações sobre as listas de mortalidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O livro que fundou a estatística demográfica saiu em nome de John Graunt, amigo de Petty, com primeira edição datada de 1661 e provavelmente publicada em 1662. McCulloch, Roscher e Cunningham negavam a autoria a Petty. Bevan defende a tese contrária. Apoia-se em Evelyn e Aubrey, que a atribuíam a Petty, e em passagens paralelas com o Treatise on Taxes, também de 1662: a igualação das paróquias, o deslocamento de Londres para oeste, a distinção entre valor intrínseco e extrínseco da terra. É uma atribuição do autor, e ele mesmo admite não saber por que Petty esconderia a autoria."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "36%",
+          "texto": "Proporção dos nascidos que morriam antes dos seis anos, segundo as listas semanais de mortalidade de Londres. O mesmo livro estimava a população de Londres em 384.000 e a de Inglaterra e País de Gales em 6.400.000, e registrava 16 nascimentos de meninos para cada 15 de meninas. Bevan chama de espantosa a afirmação de que Londres dobrava de população em oito anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Petty sabia que seus números eram frágeis. Numa carta a Aubrey, pede que ninguém tome suas contas sobre nascimentos e mortes como demonstração matemática. Nas observações sobre as listas de Dublin, admite que deduzir a população de batismos e enterros por conjecturas laboriosas era engenhoso, mas descabido. A saída que propôs foi institucional: modelos de listas com as informações que faltavam, coleta estatal de dados sobre comércio e agricultura e, segundo Bevan, a primeira proposta de observação meteorológica geral."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vinha a riqueza, para Petty?"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o trabalho é o pai e princípio ativo da riqueza, assim como as terras são a mãe”",
+          "original": "“labor is the Father and active principle of wealth, as lands are the Mother”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A terra decide o destino de um país, mas o trabalho é o fator principal. E nem todo trabalho vale o mesmo: ganha-se mais com manufatura do que com lavoura, e mais com comércio do que com manufatura. O salário de um lavrador era um terço do de um marinheiro, que Petty via como navegador, mercador e soldado ao mesmo tempo. A Holanda era o modelo, por ter se livrado do que ele chamava de ofício patriarcal de guardar vacas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a defesa das cidades grandes. Mesmo uma Londres sete vezes maior poderia ser abastecida de carne e bebida num raio de 35 milhas, e a manufatura ganharia com a divisão do trabalho. O exemplo é o relógio: se um homem faz as rodas, outro a mola, outro grava o mostrador e outro faz a caixa, o relógio sai melhor e mais barato. A mesma lógica o levava a propostas brutais, como transplantar os irlandeses nativos para a Inglaterra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na teoria do valor, Petty mede tudo em trabalho. Cem homens trabalhando dez anos em trigo e outros cem o mesmo tempo em prata: o produto líquido da prata é o preço do produto líquido do trigo. Mais tarde, para tirar o trabalho da definição de renda, propôs como medida comum o alimento de um dia, com o exemplo de um bezerro desmamado posto em dois acres de pasto. Chegou a estimar o valor monetário de cada inglês, tentativa que Bevan trata como exemplo cru de insensibilidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Petty dizia sobre moeda e impostos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Moeda, para Petty, era talvez a centésima parte da riqueza de uma nação; o resto eram terras, casas, navios e bens. A quantidade necessária dependia da frequência dos pagamentos. Se as rendas da terra somassem oito milhões por ano, pagas semestralmente, bastariam quatro milhões em moeda. Proibir a exportação de dinheiro lhe parecia inútil: os países que proibiam não tinham moeda, e os que permitiam eram ricos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Desvalorizar a moeda era, nas palavras resumidas por Bevan, um imposto sobre os credores do Estado, ou um desfalque; uma bancarrota declarada seria preferível. Juro era recompensa por abrir mão do uso do próprio dinheiro, e não havia razão para proibi-lo. Juro baixo era efeito, não causa, da prosperidade, ponto em que Bevan põe Petty muito acima de Child."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Treatise on Taxes and Contributions é, para Bevan, a obra mais sistemática de Petty e mais ambiciosa que qualquer texto inglês da época sobre finanças. Um exemplo de incidência: dois donos de terras iguais, um com arrendamento fixo de £ 20 por 21 anos e outro livre. Com um imposto de um quinto, o segundo não aluga por menos de £ 25; o primeiro fica com £ 16. Só perde quem tem renda já contratada."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“um imposto sobre tolos infelizes e presunçosos”",
+          "original": "“a tax upon unfortunate self-conceited fools”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase define a loteria estatal, que ele aceitava com moderação. O imposto que preferia era o excise, sobre o consumo, pela justiça natural de cada um pagar segundo o que de fato desfruta. Concentrá-lo só na cerveja seria injusto, porque trabalhadores pobres às vezes bebiam o dobro dos cavalheiros. Entre os excises, o melhor lhe parecia o imposto sobre lareiras, desde que pequeno."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3/8",
+          "texto": "Parcela do imposto que caberia ao patrimônio no exemplo do Verbum Sapienti: se o estoque da nação rende 15 milhões por ano e o trabalho do povo, 25 milhões, três oitavos recaem sobre terras, gado, bens e casas, e cinco oitavos sobre as pessoas, por capitação igual."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Petty antecipou Smith e Ricardo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bevan responde com cautela. O método de Petty vinha mais de Hobbes que de Bacon: preferência pela prova matemática, uso frequente de exemplos fictícios para sustentar princípios obtidos por dedução. A afinidade com Ricardo é forte. Os dois tinham formação matemática, fizeram grandes fortunas e tratavam o homem como unidade de trabalho, quase como símbolo algébrico. Já falar em Smith antecipado por Petty, escreve, seria coisa de entusiasta, embora boa parte do primeiro livro da Riqueza das Nações apareça em forma embrionária nos folhetos de Petty, e a definição de juro de Smith seja quase idêntica à dele."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“é o pai da ciência econômica inglesa”",
+          "original": "“he is the father of English economic science”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O título vem com ressalvas. Bevan vê em Petty dois elementos: o político preso aos preconceitos da Restauração e o pesquisador que aplica dados estatísticos e métodos das ciências à economia. É o segundo que justifica o elogio. Petty morreu em Londres em 16 de dezembro de 1687 e foi enterrado em Rumsey, ao lado dos pais."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro de Bevan vale menos pela história das ideias do que pelo retrato de um economista dentro do Estado. Petty mediu a Irlanda para que ela pudesse ser repartida, e lucrou com a repartição. A mesma régua que produziu o primeiro cadastro moderno serviu a confiscos e a uma especulação com títulos que ele, como funcionário, deveria ter evitado. O episódio lembra que dado público não é neutro: quem controla a medição controla parte da distribuição.",
+            "Há também uma lição de método. Petty pedia números, peso e medida, mas admitia que suas estimativas eram conjecturas, e propunha melhorar a coleta em vez de esconder a fragilidade. Ao mesmo tempo, usava essas conjecturas para orientar a política do Estado. O dilema continua o mesmo: decidir com o dado imperfeito disponível ou esperar o dado bom que ainda não existe."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "aritmética política",
+          "nome dado por Petty ao uso de números, pesos e medidas para analisar a população, a riqueza e as finanças de um Estado."
+        ],
+        [
+          "Bills of Mortality",
+          "listas semanais de enterros e batismos das paróquias de Londres, base do livro atribuído a Graunt."
+        ],
+        [
+          "Down Survey",
+          "levantamento cadastral da Irlanda dirigido por Petty, assim chamado porque as divisões do terreno eram marcadas no mapa."
+        ],
+        [
+          "debênture",
+          "título de crédito dado a soldados e credores, resgatável em terra confiscada."
+        ],
+        [
+          "excise",
+          "imposto sobre o consumo de mercadorias, cobrado quando o bem está pronto para uso."
+        ],
+        [
+          "incidência",
+          "quem de fato arca com um imposto, que pode ser diferente de quem o recolhe."
+        ],
+        [
+          "capitação",
+          "imposto de valor fixo por pessoa."
+        ]
+      ],
+      "hoje": "Petty continua presente sempre que se discute estatística pública. Censos, cadastros de terra e contas nacionais nasceram da mesma ideia de que o Estado precisa medir o que governa. Também sobrevivem suas perguntas sobre impostos: quem paga de fato um tributo sobre a terra ou o consumo, se a capitação é justa, se a loteria é imposto voluntário. E o episódio irlandês ilumina um problema permanente de governança: técnicos que medem, avaliam e distribuem ativos públicos precisam de regras claras de conflito de interesses e de prestação de contas.",
+      "itens": [
+        [
+          "[Sir William Petty: A Study in English Economic Literature]: Introduction- Bibliographical Notices",
+          "pp. 9–12",
+          "2485671"
+        ],
+        [
+          "Sir William Petty: A Study in English Economic Literature",
+          "pp. 13–102",
+          "2485672"
+        ]
+      ],
+      "jstor_edicao": "i342435",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, vol. 8, nº 6 (1893)",
-    "Publications of the AEA, vol. 9 (1894)",
-    "Publications of the AEA, vol. 10 (1895)"
+    "Publications of the AEA, vol. 9, nº 5/6 (1894)",
+    "Publications of the AEA, vol. 10 (1895)",
+    "Publications of the AEA, vol. 11 (1896)"
   ]
 }
