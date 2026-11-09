@@ -4729,6 +4729,634 @@
         ]
       ],
       "hoje": "O capítulo trata de temas que seguem no centro da economia política. A perda de valor da moeda corrói salários reais e alimenta conflitos distributivos sobre quem arca com o ajuste. A nacionalização de ativos estrangeiros continua a afetar o custo de crédito de governos, porque investidores precificam o risco de expropriação. E a dependência de Estados em relação a credores privados reaparece nos debates sobre dívida soberana, reestruturações e a disciplina que o mercado impõe a quem precisa financiar despesas urgentes."
+    },
+    {
+      "slug": "cap-31-a-pilhagem-dos-mosteiros",
+      "numero": 31,
+      "titulo": "A pilhagem dos mosteiros e o nascimento da propriedade absoluta",
+      "titulo_original": "The Crisis in England",
+      "paginas": "pp. 371–388",
+      "chamada": "Em março de 1536, o Parlamento inglês decretou o saque de 376 mosteiros. Jones vê no confisco a origem do capitalismo inglês, da especulação fundiária e da Grande Desvalorização.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em junho e julho de 1535, o bispo John Fisher, de Rochester, e o ex-chanceler Thomas More foram decapitados por se recusarem a jurar a supremacia real de Henrique VIII sobre a Igreja. Anton Fugger, descreve E. Michael Jones, recebeu a notícia como se viesse de muito longe: a posição da firma na Inglaterra era fraca, e suas atenções estavam voltadas para a campanha dos Habsburgo no norte da África. É assim que o capítulo 31 de “Barren Metal” desloca o foco de Augsburgo para Londres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o divórcio do rei virou confisco?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones reconstitui a sequência. Em 1526, Henrique VIII pediu ao papa permissão para se divorciar de Catarina de Aragão, sua mulher havia 17 anos. Em janeiro de 1533, casou-se em segredo com Ana Bolena; Thomas Cranmer, instalado como arcebispo de Cantuária, chancelou a união. Quando Clemente VII declarou o casamento nulo, sustenta o autor, o rei, enfurecido e influenciado pela facção luterana, decidiu confiscar os bens da Igreja na Inglaterra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1534, o Ato de Supremacia fez do rei o chefe da Igreja na Inglaterra. Em março de 1536, o Parlamento decretou a pilhagem de 376 mosteiros, operação conduzida por Thomas Cromwell, sucessor de More, que no ano anterior organizara uma “visitação” para descobrir onde estavam os bens e reunir pretextos morais para tomá-los. Segundo Jones, apoiado no relato de William Cobbett, o Parlamento cedeu sob ameaça: dividir o butim ou partilhar o destino de Fisher e More."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "645 mosteiros",
+          "texto": "Total de casas monásticas saqueadas, segundo Jones, ao lado de 90 colégios e 2.374 capelanias e capelas livres. A riqueza acumulada pelos mosteiros em 900 anos, afirma o autor, desapareceu em semanas; o ouro dos altares e as capas ornamentadas de livros manuscritos foram arrancados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era Thomas Cromwell?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones traça um paralelo com Jakob Fugger. Como ele, Cromwell passou a juventude em Veneza e lá aprendeu o ofício da usura; diferentemente dele, serviu aos venezianos como mercenário e pôs sua formação financeira a serviço do novo evangelho de Lutero e Calvino, que os Fugger abominavam. Para o autor, foram os protestantes ingleses os primeiros a declarar que a usura não era pecado, e foi então que o sistema de usura patrocinada pelo Estado, que ele chama de capitalismo, tornou-se lei na Inglaterra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Cromwell, prossegue o autor, enriqueceu emprestando a juros o que obtivera com a pilhagem e apropriando-se, pela execução de hipotecas, das terras de saqueadores menos hábeis. Em 10 de junho de 1540, já sem utilidade para o rei, passou de oligarca todo-poderoso a prisioneiro à espera da execução, e escreveu a Henrique cartas de súplica que Cobbett descreve com desprezo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou na ideia de propriedade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central do capítulo é que a pilhagem redefiniu a própria propriedade. Jones recorre a R. H. Tawney: um século e meio depois do saque, John Locke formularia a propriedade privada como direito absoluto, de forma conveniente aos descendentes dos saqueadores que consolidaram o poder na Revolução Gloriosa. A mudança, insiste o autor, veio primeiro na prática, quando o Parlamento aceitou o roubo do rei em troca de uma parte dos despojos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A teoria seguiu a práxis; a práxis não seguiu a teoria.”",
+          "original": "Theory followed praxis; praxis did not follow theory (p. 374)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na leitura de Jones, o capitalismo não decorreu da teologia protestante; a teologia surgiu para justificá-lo. Com David Hume e Cobbett, ele lembra que os monges, sem os mesmos motivos de avareza, eram senhorios indulgentes, e que, quando as terras da Igreja viraram propriedade privada, as rendas subiram e o dinheiro passou a ser gasto longe das propriedades. Cobbett afirma que, por 900 anos sob a religião católica, a Inglaterra não teve nem leis dos pobres nem indigentes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O capitalismo sempre começa com a apropriação do trabalho.”",
+          "original": "Capitalism always begins with the appropriation of labor (p. 378)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, o trabalho acumulado nos mosteiros e posto a uso social foi transferido a senhorios ausentes, que, ao hipotecar as terras, acabavam por entregá-las aos usurários. Com Heinrich Pesch, Jones descreve o Estado policial que protegeu o novo regime e a doutrina econômica que o acompanhou, o mercantilismo, voltado à acumulação de ouro. A reação a ele seria o laissez-faire; ambos, sustenta o autor, compartilhavam o desprezo pela lei moral."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a terra virou objeto de especulação?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Às terras das abadias, postas no mercado em 1536, somaram-se em 1547 as das guildas e capelanias. Seguiu-se, descreve Jones com Tawney, um “furor de especulação fundiária” entre 1540 e 1550: as terras eram compradas “para a alta”, não para produzir alimento. O exemplo citado é o da Abadia de Whitby, que passou da Coroa ao duque de Northumberland e deste a Sir John Yorke; uma propriedade que muda de mãos três vezes em dez dias, observa Tawney, só se paga com arrendamentos extorsivos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cadeia, segundo o autor, foi especulação, arrendamento extorsivo, cercamento, expulsão do campo, vadiagem e pobreza. A lei inglesa dos pobres teria surgido em parte como seguro social contra esses efeitos. Em 1549, Warwick tomou o poder de Somerset e voltou-se contra os camponeses que derrubavam as cercas de quem os expulsara da terra."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1548–1550",
+          "texto": "Anos do maior clamor popular contra os cercamentos, segundo Tawney, citado por Jones. Por uma lei de 1550, quaisquer quarenta camponeses reunidos para derrubar uma cerca podiam ser condenados como traidores. Os campos comuns, que serviram ao povo por nove séculos, passaram a ser chamados de “terras baldias”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que papel tem Shakespeare no argumento?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones lê Shakespeare como testemunha indireta. O discurso de Ulisses em “Troilo e Créssida”, em que o apetite, “lobo universal”, acaba por devorar a si mesmo, descreveria a trajetória do novo regime. Em “Tímon de Atenas”, o senhor que manda vender todas as terras descobre que já estão hipotecadas, e Alcibíades, banido pelo Senado, pede que se bana a usura. Para o autor, o dramaturgo situava a crítica em terras antigas para não perder a cabeça."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a moeda entrou na crise?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo fecha na moeda. Jones lembra que a desvalorização não era novidade na Inglaterra: em 1299, Eduardo I cortou 243 pence de cada libra de prata, em vez dos 240 habituais; em 1464, o número chegara a 450. Com Raymond de Roover, descreve uma coroa com deficit crônico na balança de pagamentos, que perdia metal porque importava mais do que exportava."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A política monetária dos governos medievais da Europa Ocidental pode ser descrita como uma corrida geral por uma oferta cada vez menor de metal.”",
+          "original": "The monetary policy of medieval governments in Western Europe can best be described as a general scramble for a dwindling supply of bullion (p. 385)"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Grande Desvalorização, iniciada em 1543, não teria sido ditada por necessidade econômica: foi um expediente para encher o Tesouro, que o secretário de Estado Sir Thomas Wriothesley ensinou o rei a usar por meio da Casa da Moeda. Como Henrique ficou com todo o lucro da redução de peso e de título, tornou-se lucrativo derreter a prata cunhada antes de 1543, e o metal sumiu ainda mais depressa. Se tivesse dividido o ganho, dobrando salários, argumenta Jones, a medida apenas teria ampliado a oferta de moeda."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1545, Henrique ainda precisou tomar 100 mil libras flamengas emprestadas aos Fugger. Ao morrer, em 28 de janeiro de 1547, deixou uma Coroa endividada sobretudo com credores do continente, mercadores que se queixavam de um comércio quase parado e compradores em Antuérpia que já recusavam as moedas inglesas pelo valor de face."
+        }
+      ],
+      "glossario": [
+        [
+          "Ato de Supremacia",
+          "Lei de 1534 que fez do rei da Inglaterra o chefe da Igreja no país."
+        ],
+        [
+          "Dissolução dos mosteiros",
+          "Confisco dos bens monásticos ingleses pela Coroa a partir de 1536."
+        ],
+        [
+          "Cercamento",
+          "Fechamento de terras de cultivo comum com cercas, em geral para criar ovelhas."
+        ],
+        [
+          "Arrendamento extorsivo",
+          "Cobrança de aluguéis de terra no limite do que o arrendatário pode pagar."
+        ],
+        [
+          "Mercantilismo",
+          "Doutrina que associava a riqueza do país ao acúmulo de metais preciosos."
+        ],
+        [
+          "Laissez-faire",
+          "Doutrina de não intervenção do Estado na vida econômica."
+        ],
+        [
+          "Grande Desvalorização",
+          "Redução do peso e do teor de prata das moedas inglesas a partir de 1543."
+        ]
+      ],
+      "hoje": "O capítulo toca em temas que seguem no debate econômico: o efeito de grandes transferências de propriedade sobre a distribuição da renda, a relação entre crédito, especulação e preço da terra, e a tentação de financiar o Estado pela emissão de moeda. A desvalorização de Henrique VIII é um caso de senhoriagem, o ganho do emissor ao criar moeda, e de como moeda ruim pode tirar de circulação a boa. Os limites do direito de propriedade e sua função social também continuam em discussão, em constituições e tribunais."
+    },
+    {
+      "slug": "cap-32-thomas-gresham-e-o-cambio",
+      "numero": 32,
+      "titulo": "Thomas Gresham em Antuérpia: rolar a dívida e mexer no câmbio",
+      "titulo_original": "Thomas Gresham",
+      "paginas": "pp. 389–394",
+      "chamada": "Agente da Coroa inglesa em Antuérpia a partir de 1551, Gresham elevou o câmbio da libra de 16 para 22 xelins flamengos. Jones descreve os cinco remédios que ele usou contra a dívida real.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em junho de 1543, o nome de Thomas Gresham aparece num despacho enviado de Bruxelas a Henrique VIII; outro registro o liga, no mesmo ano, a uma compra de pólvora para a Coroa em Antuérpia. É com essas menções, contemporâneas da Grande Desvalorização, que E. Michael Jones apresenta, no capítulo 32 de “Barren Metal”, o homem que administraria a dívida externa da Coroa inglesa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vinha Gresham?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nascido em Londres em 1519, Gresham vinha, segundo Jones, de uma família bem relacionada que enriqueceu com a pilhagem dos bens da Igreja. O autor cita Tawney, que menciona o pai, Sir Richard Gresham, como especulador fundiário e o maior beneficiário individual de bens confiscados na City, e Raymond de Roover, para quem Sir Richard enriquecera consideravelmente com os despojos dos mosteiros. Órfão de mãe aos três anos, Thomas estudou em Cambridge, no Gonville Hall, onde teria absorvido a adesão à fé protestante visível em toda a sua correspondência."
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois de Cambridge, o pai o pôs como aprendiz do tio, Sir John Gresham. Em 1543, foi admitido na corporação dos Mercers, centro do comércio inglês. Jones reconstitui a história do ofício: a palavra designava de início o vendedor de miudezas e tornou-se sinônimo de comerciante. Desde a segunda metade do século 14, quando Eduardo III atraiu tecelões flamengos, o comércio inglês era sobretudo de pano de lã, e a lã foi o principal artigo de exportação e a maior fonte de receita até o tempo de Elizabeth. Quando Gresham entrou, os Mercers praticamente monopolizavam o comércio do país."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Gresham tinha em comum com Jakob Fugger?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor traça paralelos. Como Jakob Fugger, Gresham casou-se com uma viúva rica e já era considerado abastado antes de servir ao governo; como Jakob, cujo casamento com Sybille Artzt não teve filhos, morreu sem herdeiro. Sua fortuna deu origem à bolsa de comércio e a um palácio que depois abrigou o Gresham College."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ninguém fez mais no século 16 para refutar a tese de Aristóteles de que o dinheiro era estéril do que Jakob Fugger e Thomas Gresham.”",
+          "original": "No one did more during the 16th century to disprove Aristotle's contention that money was sterile than Jakob Fugger and Thomas Gresham (p. 390)"
+        },
+        {
+          "tipo": "p",
+          "texto": "A esterilidade do dinheiro que manejavam, observa Jones, parece ter passado aos casamentos de ambos. Como Cromwell e Fugger, Gresham seria um produto do Renascimento italiano: os Mercers sabiam que a Itália liderava as técnicas e os instrumentos financeiros que registravam a riqueza e a faziam crescer. Para o autor, essa formação, somada a pensadores como Maquiavel, abriu caminho para fortunas rápidas. Com F. R. Salter, registra que elas vinham da criação de ovelhas ou das terras monásticas distribuídas por Henrique VIII a seus favoritos após a Dissolução."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que tudo passava por Antuérpia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Antuérpia sucedera Bruges como centro financeiro da Europa depois que o grande comércio desta foi transferido para lá, em 1487. Em meados do século 16, segundo as fontes citadas por Jones, a cidade era a capital comercial mais visível do continente, e os Países Baixos viviam o auge de sua prosperidade. O principal item de troca era o tecido."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,2 milhão de libras",
+          "texto": "Valor que, segundo o capítulo, mudava de mãos todo ano em Antuérpia: pano inglês exportado para pagar manufaturas holandesas, depois reimportadas pela Inglaterra. No mesmo período, dois ou três mil navios podiam ser vistos ao mesmo tempo no rio Escalda."
+        },
+        {
+          "tipo": "p",
+          "texto": "O núcleo desse mercado, descreve o autor, eram os Fugger, com acesso a minas de prata e ouro nos domínios dos Habsburgo, do Peru à Hungria. Por terem moeda metálica à mão, eram a primeira escolha de quem precisava de crédito; Cosimo I de Médici, grão-duque de Florença, aparece nos livros da firma entre os maiores clientes. Só não dominaram a banca europeia, sustenta Jones, porque o compromisso com as demandas de crédito dos Habsburgo os deixava cronicamente sem liquidez. O nome virara sinônimo de riqueza, como Creso: nas províncias flamengas, chamava-se de “rico Fokker” um homem de opulência incomum."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Gresham chegou a agente real?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O governo inglês mantinha no continente um agente permanente, Stephen Vaughn, que passava boa parte do tempo na sede dos Fugger em Augsburgo, e não na filial de Antuérpia. Vaughn morreu em 1550; o sucessor, Sir William Dansell, foi destituído em abril de 1551 por “negligência”. Em dezembro de 1551 ou no mês seguinte, Gresham foi chamado ao Conselho para dizer de que modo o rei poderia sair das dívidas com o menor custo. Antuérpia seria sua residência, com intervalos, pelos 15 anos seguintes."
+        },
+        {
+          "tipo": "p",
+          "texto": "A situação era grave. As extravagâncias e as guerras com a França tinham levado a Coroa a pagar 40 mil libras por ano em juros sobre seus títulos, com renovações a taxas cada vez maiores e a obrigação de comprar joias a cada rolagem. Gresham instalou-se com a família em Antuérpia, na casa de Jasper Schetz, principal feitor do imperador Carlos V. Segundo Jones, logo ficou claro que sair das dívidas era impossível, e Gresham se contentou em rolar os empréstimos aos juros mais baixos possíveis."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As realizações efetivas de Gresham foram muito mais modestas do que sua reputação sugeria.”",
+          "original": "Gresham's actual accomplishments were much more modest than his reputation warranted (p. 392)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quais foram os remédios de Gresham?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones enumera cinco. O primeiro foi ganhar tempo: pagar o mínimo, prolongar prazos sempre que possível e esperar refinanciar a juros próximos aos originais. Em 21 de agosto de 1552, Gresham queixou-se por carta ao duque de Northumberland de que a única forma de acertar os pagamentos era forçar os credores, de tempos em tempos, a prorrogar a dívida."
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo foi manipular o câmbio. Em 16 de abril de 1553, pediu a Northumberland remessas semanais de 1.300 libras para comprar moeda e assim sustentar a cotação, prometendo tirar o rei das dívidas em dois anos. Comprando e vendendo nos momentos certos, elevou o câmbio da libra de 16 para 22 xelins flamengos, taxa à qual, segundo o relato citado, quitou as dívidas do rei. Na prática, afirma o autor, dobrou o dinheiro da Coroa. Os mercadores, inclusive o tio que o iniciara, reclamaram da alta no preço de seus produtos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O câmbio é a coisa principal e mais rica, acima de todas as outras.”",
+          "original": "the exchange is the chiefest and richest thing only above all others (p. 392)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Gresham, segundo Jones, julgava-se justificado nessa máxima. De Roover o considera o único que chegou perto de resolver a crise de metal que afligiu reis Plantageneta, Tudor e Stuart, ao impedir a queda da libra e elevar o câmbio a favor da Inglaterra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro remédio foram empréstimos forçados, sobretudo dos merchant adventurers. A frota era retida às vésperas de zarpar para Antuérpia até que os mercadores emprestassem ao rei, por intermédio de Gresham, somas pagas lá e reembolsadas depois em Londres; a diferença entre as taxas de câmbio das duas praças ficava com a Coroa. A reputação de Gresham caiu entre os mercadores, mas a do rei como bom pagador subiu entre os prestamistas, a única opinião que contava, descreve o autor, e isso permitiu tomar a taxas menores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14% contra 16%",
+          "texto": "Gresham raramente precisou pagar 14% ao ano, taxa considerada usurária na época; Carlos V, mesmo com os Fugger como banqueiros, pagava com frequência 16%. Ainda assim, juros compõem: a dívida externa inglesa passou de 100 mil libras em 1550 para 150 mil em dois anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O quarto remédio foi usar a prerrogativa real para criar um monopólio do chumbo. O quinto, e segundo o autor o mais bem-sucedido, foi a pirataria, assunto que Jones anuncia e deixa para adiante."
+        }
+      ],
+      "glossario": [
+        [
+          "Mercers",
+          "Corporação de mercadores de Londres, ligada sobretudo ao comércio de tecidos."
+        ],
+        [
+          "Merchant adventurers",
+          "Mercadores ingleses que exportavam pano para os Países Baixos."
+        ],
+        [
+          "Rolagem da dívida",
+          "Substituição de um empréstimo que vence por outro novo, adiando o pagamento."
+        ],
+        [
+          "Taxa de câmbio",
+          "Preço de uma moeda expresso em outra; aqui, a libra em xelins flamengos."
+        ],
+        [
+          "Empréstimo forçado",
+          "Crédito exigido pelo soberano a súditos, sem livre negociação das condições."
+        ],
+        [
+          "Prerrogativa real",
+          "Poderes próprios da Coroa, exercidos sem necessidade de lei do Parlamento."
+        ]
+      ],
+      "hoje": "A gestão descrita no capítulo antecipa problemas que tesourarias e bancos centrais ainda enfrentam: rolar dívida externa sem elevar seu custo, sustentar a moeda com intervenções no mercado de câmbio e lidar com o efeito da cotação sobre exportadores e importadores. A reputação de bom pagador continua a ser o ativo que mais reduz os juros de um soberano, e a escolha entre agradar credores externos e preservar agentes domésticos segue no centro das crises de dívida. A diferença é que hoje as intervenções costumam usar reservas internacionais e regras públicas."
+    },
+    {
+      "slug": "cap-33-a-falencia-dos-habsburgo",
+      "numero": 33,
+      "titulo": "A falência dos Habsburgo: o império que devia demais aos Fugger",
+      "titulo_original": "The Habsburg Bankruptcy",
+      "paginas": "pp. 395–396",
+      "chamada": "Em janeiro de 1552, Carlos V, dono das minas de ouro e prata do Novo Mundo, ficou sem dinheiro no meio de uma guerra. Jones mostra como os Fugger seguiram emprestando.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em janeiro de 1552, mais ou menos quando Thomas Gresham foi a Antuérpia tomar dinheiro emprestado dos Fugger, Carlos V ficou sem recursos no meio da guerra de Schmalkalden contra os príncipes protestantes do sul da Alemanha. O imperador era dono de todas as minas de ouro e prata do Novo Mundo, que enviavam carregamentos regulares à Espanha desde 1530. É com esse paradoxo que E. Michael Jones abre o curto capítulo 33 de “Barren Metal”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os Fugger queriam sair do negócio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo o autor, a família tentava deixar o ramo bancário havia seis anos. Já em 20 de fevereiro de 1546, Christopher Peutinger, representante dos Welser, relatava a Augsburgo que os Fugger estavam fartos dos empréstimos ao império e tinham entrado tão fundo que precisariam esperar muito para reaver o dinheiro."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os Fugger estavam cansados dos empréstimos imperiais.”",
+          "original": "the Fugger were tired of Imperial loans (p. 395)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando Maurício da Saxônia avançou, Carlos e sua corte, com Anton Fugger, fugiram para Villach. Mais uma vez, descreve Jones, os Fugger tiraram os Habsburgo do apuro: Anton levantou o dinheiro de que o imperador precisava para continuar a guerra. Sem isso, sustenta o autor, Carlos teria de aceitar as exigências dos príncipes alemães apresentadas em Passau, em 26 de maio, e o sul da Alemanha provavelmente não teria permanecido católico nem se tornado o baluarte da Contrarreforma."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Anton não parou de emprestar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O quase desastre mudou o tom das negociações, mas, nas palavras do autor, os Habsburgo já eram grandes demais para quebrar. Anton, mesmo sabendo aonde levava a insensatez de emprestar a príncipes, não conseguia parar. Seguiu-se um novo empréstimo de 400 mil ducados. As receitas espanholas estavam hipotecadas até 1557, e Anton vivia ansioso porque agora emprestava por conta própria e precisava tomar recursos no mercado de Antuérpia para manter a firma solvente."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A essa altura, os Habsburgo haviam se tornado grandes demais para quebrar.”",
+          "original": "by this point the Habsburgs had become too big to fail (p. 395)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones compara a situação à dos Medici um século antes, quando tentaram cobrir as despesas da filial inglesa tomando empréstimos em Bruges. O padrão, para ele, se repete: o banqueiro passa a depender do crédito alheio para sustentar o crédito que concedeu."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto a coroa espanhola devia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com base no historiador Mark Häberlein, o autor registra que, no reinado de Carlos V, a coroa espanhola tomou cerca de 28 milhões de ducados. Mais de 10 milhões, ou 36% do total, vieram dos banqueiros de Augsburgo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5,5 milhões de ducados",
+          "texto": "Parcela dos Fugger nos mais de 10 milhões de ducados emprestados por Augsburgo à coroa espanhola sob Carlos V; os Welser responderam por 4,2 milhões. Sete casas bancárias geraram quase dois terços dos empréstimos entre 1521 e 1555, entre elas as genovesas Grimaldi, Spinola, Gentile e Centurione e a firma Schetz, de Antuérpia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os empréstimos se acumularam na preparação da guerra de 1546–47, quando a coroa tomou mais 500 mil florins. Em 1546, no auge do conflito, o governo dos Países Baixos recebeu 100 mil ducados dos Fugger, que também garantiram subsídios papais destinados às guerras do imperador contra os protestantes. O ponto culminante, segundo Jones, veio em 28 de maio de 1552, quando Anton adiantou de sua própria conta, sem a participação do sobrinho, 100 mil ducados e 300 mil escudos italianos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Minas e tecidos bastavam para pagar a dívida?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para reaver o que haviam emprestado, os Fugger reivindicavam uma parte cada vez maior dos minérios dos Habsburgo, com concessões que avançavam cada vez mais no futuro. A partir da década de 1530, os metais preciosos trazidos do Novo Mundo pela frota espanhola, dos quais em regra 20% pertenciam à coroa, ganharam peso crescente. A firma arrendava recursos minerais dos Maestrazgos e minas de mercúrio, metal usado em espelhos, no refino do ouro e no tratamento da sífilis."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os contatos com os Habsburgo também permitiam aos Fugger vender fustão e outros produtos nas colônias espanholas. Nada disso, conclui o autor, era suficiente diante de uma dívida que crescia sem parar."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os Fugger não conseguiam produzir tecido suficiente nem tirar minério suficiente do chão para acompanhar os juros compostos.”",
+          "original": "the Fuggers couldn't produce enough cloth or get enough ore out of the ground to keep up with the compound interest (p. 396)"
+        }
+      ],
+      "glossario": [
+        [
+          "Guerra de Schmalkalden",
+          "Conflito entre Carlos V e a liga dos príncipes protestantes alemães, em meados do século 16."
+        ],
+        [
+          "Ducado",
+          "Moeda de ouro amplamente usada no comércio e nas finanças europeias da época."
+        ],
+        [
+          "Grande demais para quebrar",
+          "Situação em que a falência de um devedor ou banco traria danos tão grandes que o credor se vê obrigado a socorrê-lo."
+        ],
+        [
+          "Juros compostos",
+          "Juros que incidem sobre o principal e sobre os juros já acumulados."
+        ],
+        [
+          "Fustão",
+          "Tecido de algodão e linho, um dos produtos tradicionais dos Fugger."
+        ]
+      ],
+      "hoje": "A expressão que Jones aplica aos Habsburgo voltou ao vocabulário econômico depois da crise de 2008, quando governos socorreram bancos considerados grandes demais para quebrar. O capítulo inverte a direção do problema: ali é o soberano que se torna grande demais, e o credor que não consegue parar de emprestar. Concentração de crédito em poucos devedores, dívida pública com receitas comprometidas por anos à frente e bancos que se financiam no curto prazo para sustentar posições longas seguem no centro das discussões sobre risco sistêmico."
+    },
+    {
+      "slug": "cap-34-maria-tudor-e-os-saqueadores",
+      "numero": 34,
+      "titulo": "Maria Tudor e os saqueadores: a missa volta, o crédito fica",
+      "titulo_original": "Mary and the Looters",
+      "paginas": "pp. 397–400",
+      "chamada": "Em 1552, o Parlamento inglês voltou a proibir a usura. Jones mostra como Maria Tudor restaurou a missa, mas não as terras da Igreja, e precisou de Gresham em Antuérpia.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1552, o Parlamento inglês declarou a usura ilegal e revogou uma lei de 1547 que dispunha o contrário. Segundo E. Michael Jones, foi a reação a uma onda de cercamentos e de arrendamentos extorsivos que se seguiu à especulação com as propriedades tomadas à Igreja. É com essa virada legislativa que o autor abre o capítulo 34 de “Barren Metal”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Proibir a usura em casa resolvia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, a lei teria pouco efeito enquanto os ingleses pudessem, como fazia Thomas Gresham, tomar dinheiro em Antuérpia e em outras praças do continente. Nos Países Baixos, registra Jones com apoio no biógrafo F. R. Salter, os juros eram permitidos desde 1540, desde que não passassem de 12% e que as duas partes fossem mercadores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12%",
+          "texto": "Teto de juros admitido nos Países Baixos a partir de 1540, válido apenas para operações entre mercadores. Na Inglaterra, a lei de 1547 havia liberado a cobrança; a de 1552 voltou a proibi-la."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma vez aceito o princípio de que dinheiro gera dinheiro, sustenta o autor, ele se espalhou por toda a vida econômica. A facilidade aparente da usura fazia os riscos do comércio e da manufatura parecerem altos demais. Operar com capital emprestado tornava-se a regra, e mercadores trocavam o negócio de tecidos pelas operações de câmbio. Jones lembra que São Bernardino de Siena previra, um século antes, que a usura destruiria tanto o comércio quanto a caridade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou com a Reforma, segundo Belloc?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor discorda de Hilaire Belloc quando este afirma que a taxa de juros nada tem a ver com o caráter usurário de um empréstimo, e que mil por cento numa mina bem-sucedida não seria usura, enquanto três por cento num empréstimo de guerra seria. A Igreja medieval, observa Jones, nunca disse que a finalidade do empréstimo absolvia o credor. Mas ele concorda com Belloc num ponto: antes da Reforma, os juros sobre empréstimos improdutivos eram cobrados por subterfúgio, como algo sabidamente mau."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Depois da Reforma, era fugir desses juros que se tornou errado e desonroso.”",
+          "original": "After the Reformation, it was the shirking of such interest which became wrong and dishonorable (p. 397)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Maria podia devolver as terras da Igreja?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Eduardo VI morreu em 6 de julho de 1553, aos 16 anos, depois de reinar sete anos apenas no nome. Jones recorre a William Cobbett, para quem foram os sete anos mais miseráveis da história inglesa. Maria Tudor, filha de Catarina de Aragão, sucedeu ao meio-irmão e passou a restaurar a fé católica. Em seis meses, descreve o autor, a missa havia voltado sob aclamação geral, e os pobres deixaram de ser marcados a ferro e escravizados por pedir esmola."
+        },
+        {
+          "tipo": "p",
+          "texto": "A questão das propriedades tomadas, porém, seguia aberta. Quando o restabelecimento da supremacia papal chegou ao Parlamento, os que chamaram para si os bens da Igreja, os “saqueadores” do título, sabiam que o papa exigiria a restituição. A rainha, segundo Jones, ficava entre resolver o problema e arriscar uma guerra civil, ou deixá-lo de lado e preservar a base de poder de quem havia ficado com o butim."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Mal havia um nobre, ou cavalheiro de alguma importância em seu reino, que não tivesse […] sujado as mãos com o butim.”",
+          "original": "there was scarcely a nobleman, or gentleman of any note in her kingdom, who had not [...] soiled his hands with the plunder (p. 398)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Maria cedeu. Cobbett, citado pelo autor, julga que ela teria feito melhor em arriscar a guerra civil do que aprovar a lei que garantiu aos beneficiários a posse tranquila dos bens. Os conselheiros se dividiam: o papa queria a devolução; Carlos V, cujo filho se casaria com a rainha, achava que um herdeiro resolveria o assunto por si. Jones considera que o imperador se enganou, dada a escala e o número dos envolvidos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Maria não precisou recriminalizar a usura, lembra o autor, porque o próprio Parlamento já o fizera. E mesmo Elizabeth, que desfez quase tudo o que a irmã fizera, esperou 12 anos para voltar à lei de 1547, e ainda assim com reservas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a rainha católica chamou Gresham de volta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com a ascensão de Maria, Gresham, agente real em Antuérpia, perdeu o posto. Ele fora hábil em manipular o câmbio, mas a dívida seguia pesada: segundo seu biógrafo John Burgon, os juros e as perdas cambiais somavam cerca de 40 mil libras por ano. Pouco depois, Gresham foi reconduzido. Para Jones, protegido dos Cecil e membro da oligarquia que governava a Inglaterra qualquer que fosse a facção no poder, ele era o único com contatos capazes de obter boas condições."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 mil libras a 14%",
+          "texto": "Empréstimo que Gresham obteve em Antuérpia em 1552, no mesmo ano da lei que restringia a usura e em violação direta a ela. Para o autor, as dívidas deixadas pela extravagância de Henrique VIII obrigavam a coroa a tomar dinheiro às taxas de mercado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A recondução de Gresham por uma monarca devota, conclui Jones, era sinal de que o capitalismo viera para ficar na Inglaterra. Sem seus esforços, afirma o autor, o governo de Maria não teria durado seis meses."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A missa havia voltado, por ora, mas o capitalismo viera para ficar.”",
+          "original": "The Mass had returned for the moment, but capitalism had come to stay (p. 399)"
+        }
+      ],
+      "glossario": [
+        [
+          "Usura",
+          "No uso do autor, a cobrança de juros sobre empréstimos, condenada pela tradição da Igreja."
+        ],
+        [
+          "Cercamentos",
+          "Fechamento de terras comuns para uso privado, sobretudo pastagem, na Inglaterra dos séculos 15 e 16."
+        ],
+        [
+          "Arrendamento extorsivo",
+          "Elevação abusiva das rendas cobradas de quem arrenda a terra (rack-renting)."
+        ],
+        [
+          "Supremacia papal",
+          "Autoridade do papa sobre a Igreja na Inglaterra, rompida por Henrique VIII."
+        ],
+        [
+          "Agente real",
+          "Representante da coroa encarregado de negociar empréstimos e câmbio nas praças estrangeiras."
+        ]
+      ],
+      "hoje": "O capítulo trata de um dilema que reaparece em forma moderna: a regulação doméstica do crédito perde força quando o governo e os grandes tomadores podem buscar recursos em mercados externos. Tetos de juros, controles de capital e regras sobre endividamento público em moeda estrangeira continuam em debate entre economistas. Também segue atual a dependência de governos endividados em relação a negociadores com acesso privilegiado aos mercados, e a dificuldade de desfazer transferências patrimoniais já consolidadas sem abalar a estabilidade política."
+    },
+    {
+      "slug": "cap-35-a-falencia-dos-fugger",
+      "numero": 35,
+      "titulo": "A falência dos Fugger: o fim da era do banqueiro dos Habsburgo",
+      "titulo_original": "The Fuggers Go Bankrupt",
+      "paginas": "pp. 401–404",
+      "chamada": "Em fevereiro de 1554, o homem mais rico da Europa teve dificuldade para pagar uma nota de 30 mil florins. Jones narra o caminho até a bancarrota espanhola de 1557.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em fevereiro de 1554, venceu um dos empréstimos de Anton Fugger e, para espanto do mundo financeiro, o homem mais rico da Europa teve dificuldade para quitar uma nota de 30 mil florins. Anton mandou seu agente Oertel levantar dinheiro em Augsburgo a qualquer preço, porque seu crédito estava em jogo. É com essa cena que E. Michael Jones abre o capítulo 35 de “Barren Metal”."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Penso tanto na zombaria dos homens quanto no próprio dinheiro.”",
+          "original": "I think as much on men's mockery as on the money itself (p. 401)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o maior banqueiro da Europa ficou sem caixa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Anton, explica o autor, tomava emprestado para emprestar ao imperador. Como todo tomador, por mais ilustre, negociava juros em pé de igualdade com os demais, muitas vezes pagava uma taxa maior do que a que havia combinado receber. O historiador Richard Ehrenberg via nisso um sintoma ameaçador da ruína. Como o imperador, Anton depositava suas esperanças no ouro e na prata das minas americanas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nem todo o ouro e a prata do novo mundo conseguiriam acompanhar as exigências inexoráveis da usura.”",
+          "original": "not all the gold and silver in the new world could keep up with the inexorable demands of usury (p. 401)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os juros compostos, sustenta Jones, garantiam no longo prazo riqueza imensa para o credor e a ruína para o devedor. A ironia, para o autor, é que essa sensação de desgraça iminente tenha assombrado os últimos anos de um homem que era, antes de tudo, um emprestador de dinheiro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a prata não chegava a tempo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No fim de 1553, por insistência de Anton, chegou a Antuérpia um carregamento de 200 mil ducados de prata. Diante do tamanho da dívida dos Habsburgo, descreve o autor, foi uma gota no oceano. As finanças públicas, argumenta Jones, ainda viviam na Idade Média: os italianos haviam inventado a letra de câmbio para escapar dos ladrões, mas governos e bancos continuavam a depender do transporte físico de sacos de dinheiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Esses carregamentos eram vulneráveis no mar. O galeão espanhol, segundo o autor, era lento e alto demais para se defender dos navios ingleses, mais rápidos e mais bem armados, o que a derrota da Armada provaria em 1588. Nos 30 anos anteriores, a Espanha teria perdido ouro e prata para piratas com barcos mais velozes e mais poder de fogo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O casamento de Filipe e Maria era uma operação financeira?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sugere que a preocupação com essa sangria levou a Espanha a arranjar mais um casamento com os Tudor. A França era inimiga de ambos, mas a Reforma mudara a Inglaterra, que se tornara, nas palavras do autor, sede do protestantismo e do que ele chama de capitalismo messiânico. A morte do rei-menino abria uma janela: unir Maria Tudor a Filipe, filho de Carlos V, eliminaria um rival e a pirataria inglesa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em julho de 1554, Filipe desembarcou em Southampton e casou-se com Maria na mesma semana. Gresham foi à Espanha esperando novas fontes de dinheiro e se decepcionou. Em suas cartas, descreve uma grande escassez em todo o país e o temor de que suas operações, que já haviam levado um antigo banco de Sevilha a suspender pagamentos, provocassem outras quebras."
+        },
+        {
+          "tipo": "p",
+          "texto": "Surgia ali, segundo Jones, um fenômeno que se tornaria comum: o soberano precisava conquistar a aprovação dos mercados. E os mercados duvidavam do casamento. A rainha precisava gerar um herdeiro, o que sua idade tornava improvável, e, sem herdeiro católico, os que o autor descreve como os verdadeiros governantes da Inglaterra tinham sua candidata: Elizabeth. Gresham, agente desse grupo, percebeu antes de todos, pelo aperto do dinheiro, que a aliança não funcionava."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O soberano tinha de cortejar a aprovação dos mercados de dinheiro.”",
+          "original": "The sovereign had to court the approval of the money markets (p. 402)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a abdicação de Carlos V chegou aos credores?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1555 e 1556, ficou claro, nas palavras citadas de Ehrenberg, quanto a guerra aumentava as dívidas da coroa espanhola e dos Países Baixos. Em 1555, Anton emprestou mais 200 mil coroas ao rei Filipe. Havia dez anos que os Fugger tomavam recursos na bolsa de Antuérpia, prática que, para Jones, lhes seria tão fatal quanto fora aos Medici."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 25 de outubro de 1555, em Bruxelas, Carlos V abdicou, cena que Gresham presenciou e relatou a Londres. Para o autor, o imperador abdicou por não conseguir pagar as dívidas, que passou ao filho. Filipe teria dito que, de bom grado, pagaria suas obrigações com o próprio sangue. Sem pagar as tropas nos Países Baixos, viu os soldados saquearem a região e a população passar a vê-lo como ocupante estrangeiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Anton, escreve Jones, seguia jogando dinheiro bom atrás de dinheiro ruim. Enviou 400 mil ducados a Filipe para pagar as tropas, e a dívida dos Países Baixos subiu a uma altura que Ehrenberg chamou de insana. Os juros subiram junto, Filipe desviou para os soldados recursos reservados aos Fugger, e a dívida com a firma cresceu ainda mais depressa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5% ao ano",
+          "texto": "Rendimento das anuidades reais em que Filipe II converteu, por decreto de junho de 1557, os pagamentos devidos aos credores a partir de receitas futuras da coroa. Foi a bancarrota espanhola de 1557. A coroa também confiscou, para pagar as tropas, uma remessa de prata americana já destinada aos Fugger."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que restou dos Fugger?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os Fugger foram as principais vítimas. Talvez pela idade avançada, sugere o autor, Anton não acompanhou a situação, e os banqueiros genoveses retiraram seu dinheiro antes do colapso. Se o período de 1485 a 1560 é conhecido como a Era dos Fugger, ela terminou com a morte de Anton, em 1560. Jones toma de Jacob Strieder o epitáfio: a firma ruiu porque, na esperança de recuperar empréstimos antigos, novos milhões foram lançados no poço sem fundo das finanças dos Habsburgo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo Strieder, depois da morte de Anton, sob o filho Markus, a família perdeu a maior parte da fortuna nas bancarrotas dos Estados. Restou sobretudo o que Jakob Fugger, o Rico, havia investido em terras. Pressentindo o fim, Anton acrescentou ao testamento, em 11 de julho de 1560, um codicilo que proibia os sucessores de vender as propriedades da família. Para o autor, o homem enriquecido pela usura concluía que só a terra era fonte segura de riqueza."
+        }
+      ],
+      "glossario": [
+        [
+          "Letra de câmbio",
+          "Ordem de pagamento que permitia transferir valores entre praças sem transportar moeda."
+        ],
+        [
+          "Bancarrota soberana",
+          "Suspensão ou reestruturação unilateral, por um Estado, dos pagamentos devidos a credores."
+        ],
+        [
+          "Anuidade real (juro)",
+          "Título da coroa que paga renda fixa periódica, usado aqui para converter dívidas de curto prazo."
+        ],
+        [
+          "Codicilo",
+          "Disposição acrescentada a um testamento já existente."
+        ],
+        [
+          "Bolsa de Antuérpia",
+          "Principal mercado de dinheiro e câmbio do norte da Europa no século 16."
+        ]
+      ],
+      "hoje": "O capítulo descreve mecanismos que a literatura sobre dívida soberana estuda até hoje: o descasamento entre o custo de captação e a taxa de empréstimo, a concentração do risco em um único devedor público e a conversão forçada de dívidas de curto prazo em títulos longos de juro baixo. A frase do autor sobre o soberano que precisa cortejar os mercados também ecoa nos debates atuais sobre prêmio de risco, credibilidade fiscal e a ordem em que credores mais bem informados conseguem sair antes de uma reestruturação."
     }
   ],
   "titulo": "Barren Metal",
