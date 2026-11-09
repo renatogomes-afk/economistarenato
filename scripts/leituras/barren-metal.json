@@ -10443,6 +10443,738 @@
         ]
       ],
       "hoje": "A polêmica entre Marx e List sobre se o desenvolvimento passa pela nação ou pela integração global atravessa o debate contemporâneo. Países que se industrializaram tarde recorreram a proteção e política industrial, enquanto a globalização das últimas décadas apostou na abertura comercial. O retorno das tarifas e do discurso de segurança econômica nos Estados Unidos e na Europa reacende a pergunta de List. E o argumento de Marx, de que o livre-comércio acelera os conflitos sociais, reaparece nas análises sobre a reação política à globalização nas regiões industriais que perderam empregos."
+    },
+    {
+      "slug": "cap-74-a-fome-da-batata-na-irlanda",
+      "numero": 74,
+      "titulo": "A fome da batata na Irlanda e a dívida dos senhores de terra",
+      "titulo_original": "The Irish Potato Famine",
+      "paginas": "pp. 975–990",
+      "chamada": "Jones liga a Grande Fome irlandesa de 1845 ao endividamento crônico da aristocracia britânica, à desindustrialização após o Ato de União e à doutrina do laissez-faire que guiou a resposta de Londres.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em agosto de 1845, o primeiro-ministro britânico, Sir Robert Peel, recebeu um relatório da ilha de Wight: uma doença desconhecida devastava as plantações de batata. Tubérculos que pareciam sãos, mesmo depois de colhidos, viravam quase da noite para o dia uma massa negra e fétida. No outono, a praga chegou à Irlanda. É o fato central do capítulo 74 de “Barren Metal”, mas E. Michael Jones começa antes, pela crítica de Friedrich List a Malthus."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ela substitui a piedade pelo cálculo.”",
+          "original": "It substitutes calculation for pity (p. 975)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para List, Malthus errou ao querer conter o crescimento da população em vez de liberar a força produtiva do trabalho, que sempre supera o aumento do número de bocas. Jones sustenta que, ao condenar Malthus, List escreveu sem saber um epitáfio para a classe dirigente inglesa e para o laissez-faire, que o autor vincula à Teoria dos Sentimentos Morais de Adam Smith e a seu mentor, David Hume."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o capítulo começa pela dívida da aristocracia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque, segundo Jones, a fome expôs um problema acumulado por séculos. Apoiado no historiador David Cannadine, o autor descreve uma aristocracia britânica que, no século 19, consumiu a capacidade produtiva de suas terras em gastos ostentatórios, construção de mansões e jogo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,5 milhão de libras",
+          "texto": "Dívida total do pariato inglês em 1641, segundo Cannadine; a dependência do crédito teria começado entre 1580 e 1610. Em 1848, o segundo duque de Buckingham and Chandos faliu com dívidas acima de 1,5 milhão de libras, 950.000 delas tomadas entre 1839 e 1845."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a trajetória começa na Reforma, com o confisco de terras da Igreja e o fim da proibição católica da usura. A alavancagem teria inflado o preço da terra e levado aos arrendamentos extorsivos e aos cercamentos. No século 18, hipotecas mais flexíveis, juros em queda, os bancos do West End, as seguradoras e um mercado provincial de hipotecas facilitaram o crédito. A fuga de capitais do continente nas guerras napoleônicas, que o autor simboliza na chegada de Nathan Rothschild a Londres com o tesouro do príncipe de Hesse-Kassel, ampliou a oferta de empréstimos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os juros compostos fizeram o resto, escreve Jones: depois de cerca de 70 anos, empréstimos rolados tornam-se impagáveis. A saída usual era vender terras distantes, depois obras de arte. Quando o Burke's Landed Gentry saiu, em 1937, um terço das famílias listadas havia perdido as terras ancestrais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a Irlanda estava mais exposta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Irlanda, diz o autor, a diferença religiosa, o absenteísmo dos proprietários e o laissez-faire romperam qualquer vínculo moral entre senhor e arrendatário. Cormac O'Grada registra que, na Inglaterra, se dizia que a terra estava hipotecada em cerca de metade do valor, ou que o serviço da dívida absorvia metade da renda bruta. Na Irlanda era pior: as dívidas dos Downshire em suas terras irlandesas oscilavam entre 250.000 e 400.000 libras. Para Jones, as propriedades que deveriam bancar o auxílio aos pobres eram justamente as mais endividadas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a praga se espalhou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O início de julho de 1845 foi seco e quente, e a safra prometia. Vieram três semanas de chuva, e as batatas apodreceram no campo. No fim de agosto, John Lindley, primeiro professor de botânica da Universidade de Londres, alertava os leitores: na Bélgica os campos estavam desolados, e quase não havia amostra sã no mercado de Covent Garden."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Fomos visitados por uma grande calamidade, que devemos suportar.”",
+          "original": "We are visited by a great calamity which we must bear (p. 978)"
+        },
+        {
+          "tipo": "p",
+          "texto": "A chuva era condição necessária, mas a causa era um fungo, a Phytophtora infestans. Ela apareceu na costa atlântica da América do Norte, entre Boston e a Nova Escócia. Segundo o autor, o fungo morria com o calor das lentas travessias a vela; o navio a vapor encurtou a viagem o bastante para que sobrevivesse. Úmida e de clima ameno, a Irlanda era uma estufa da praga."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1 milhão",
+          "texto": "Mortos na Irlanda, um oitavo da população, segundo o capítulo. Mais de dois milhões de irlandeses já passavam fome todos os anos, com ou sem praga. Na Holanda, na França e na Bélgica a perda foi grave; na Irlanda, onde a batata era o único alimento da maioria dos trabalhadores rurais, foi catástrofe."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a batata era tudo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor recua ao Ato de União, em vigor desde 1º de janeiro de 1801. Sem as tarifas que protegiam a indústria nascente na Alemanha e nos Estados Unidos, a Irlanda teria virado escoadouro de manufaturas inglesas. Nos 20 anos seguintes, a produção de tecido de lã caiu 50%. Em Mayo, pescadores de arenque não tinham dinheiro para o sal que conservaria a pesca. Sem manufatura, não havia como pagar alimento importado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ao mesmo tempo, a população crescia, e a terra era subdividida em lotes de menos de um acre. Um acre e meio de batata alimentava uma família de cinco ou seis pessoas por doze meses; em grãos, seria preciso de quatro a seis vezes mais área. A batata, observa Jones, ficava fora da economia monetária: o camponês só entrava no mercado quando ela acabava, e então comprava farinha a crédito, a preços exorbitantes, do agiota da aldeia, o “gombeen man”."
+        },
+        {
+          "tipo": "p",
+          "texto": "O'Grada, retomando a pergunta clássica de Joel Mokyr sobre se Malthus tinha razão, conclui que, sem a praga, o ajuste teria vindo aos poucos, pela demanda por mão de obra irlandesa no exterior e pelo controle preventivo dos nascimentos. Para Jones, Malthus não acertou em condições normais. Mas as condições da década de 1840 não eram normais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como reagiu o governo de Peel?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com demora. Em 13 de outubro de 1845, Peel justificou a inação alegando a tendência ao exagero dos relatos irlandeses. Com base em Cecil Woodham-Smith, o autor descreve a antipatia de Peel pela Irlanda desde os tempos de secretário-chefe, quando Daniel O'Connell o apelidou de “Orange Peel”. Ainda assim, registra Jones, os esforços de Peel superaram os de seus sucessores. A tese do capítulo é que o protestantismo inglês e o capitalismo, combinados, e não o fungo, foram a causa principal da fome de 1845–49."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones cita Nassau Senior, a quem atribui a frase de que a fome não mataria mais de um milhão de pessoas, o que mal bastaria para fazer algum bem; o professor de Oxford Benjamin Jowett disse ter horror aos economistas políticos desde que ouvira algo assim. Para Woodham-Smith, quase todos os altos funcionários responsáveis pela Irlanda acreditavam com fervor na não interferência do governo. O Estado não podia comprar nos mercados de alimentos nem perturbar o curso ordinário do comércio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O governo, em outras palavras, não podia funcionar como governo.”",
+          "original": "The government, in other words, could not function as the government (p. 985)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois que o botânico Lindley e o químico Lyon Playfair confirmaram a gravidade da situação, Peel concluiu que a saída compatível com o mercado era revogar as Leis do Trigo: sem a tarifa, o grão ficaria mais barato. Tory, mas de família dona de tecelagens, Peel chegara ao poder em 1841 comprometido com as tarifas. Quando propôs suspendê-las, só três ministros o apoiaram. Em paralelo, comprou em segredo milho americano por meio da casa Baring, porque não havia comércio de milho na Irlanda que pudesse ser perturbado."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "100.000 libras",
+          "texto": "Valor do milho comprado por Peel, diante de 3,5 milhões de libras em batatas perdidas para a praga. Sem moinhos de aço na Irlanda para moê-lo, o grão duro, mesmo fervido por uma hora e meia, causava dores intensas, sobretudo em crianças. Ficou conhecido como “Trevelyan's flint”."
+        }
+      ],
+      "glossario": [
+        [
+          "Leis do Trigo (Corn Laws)",
+          "Tarifas britânicas sobre a importação de grãos, que sustentavam o preço interno em favor dos proprietários rurais."
+        ],
+        [
+          "Laissez-faire",
+          "Doutrina de mínima intervenção do Estado na economia, deixando preços e oferta ao mercado."
+        ],
+        [
+          "Rack-renting",
+          "Cobrança de aluguéis da terra no limite do que o arrendatário pode pagar."
+        ],
+        [
+          "Gombeen man",
+          "Comerciante e agiota de aldeia irlandês que vendia alimento a crédito a juros altos."
+        ],
+        [
+          "Poor rates",
+          "Taxas locais sobre a propriedade que financiavam o auxílio aos pobres."
+        ],
+        [
+          "Ato de União",
+          "Lei que integrou a Irlanda ao Reino Unido a partir de 1º de janeiro de 1801."
+        ]
+      ],
+      "hoje": "Jones se apoia em Amartya Sen, para quem a fome irlandesa foi um fenômeno econômico, e não apenas físico: exportava-se comida enquanto a população morria. A ideia de que fomes resultam da falta de renda para comprar alimento, e não só da falta de alimento, orienta até hoje programas de transferência de renda em crises. O capítulo toca ainda um dilema atual das finanças públicas: transferir a entes locais já endividados o custo de uma emergência tende a falhar justamente onde a necessidade é maior."
+    },
+    {
+      "slug": "cap-75-a-fome-e-o-livre-comercio",
+      "numero": 75,
+      "titulo": "Livre-comércio em tempo de fome: a Irlanda de 1846–47",
+      "titulo_original": "The Famine and Free Trade",
+      "paginas": "pp. 991–1016",
+      "chamada": "Jones acompanha a política de Trevelyan e do governo Russell na Irlanda: obras públicas no lugar de comida, exportação de grãos sob escolta, o pânico bancário de 1847 e senhores de terra afogados em dívida.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 24 de outubro de 1846, Dennis McKennedy foi encontrado morto durante o turno na estrada nº 1 de West Carberry, condado de Cork. A autópsia não achou comida no estômago nem no intestino. Os médicos Daniel Donovan e Patrick Due concluíram que ele morrera de fome por negligência grave do Board of Works. O governo lhe devia duas semanas de salário. É com esse caso que E. Michael Jones abre o capítulo 75 de “Barren Metal”."
+        },
+        {
+          "tipo": "p",
+          "texto": "O pano de fundo é político. Em 15 de maio de 1846, a revogação das Leis do Trigo passou com uma coalizão de conservadores, whigs e livre-cambistas; só 112 conservadores votaram a favor, e 241 contra. Em 26 de junho, horas depois da votação nos Lordes, caiu o governo tory, em boa parte por manobras de Benjamin Disraeli, e Lord John Russell assumiu à frente de um governo whig."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que obras públicas em vez de comida?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Charles Trevelyan, do Tesouro, e Charles Wood, novo chanceler do Tesouro, decidiram que a fome seria aliviada empregando os irlandeses em obras públicas. Com o salário, comprariam comida, e o governo não interferiria no comércio de grãos. O custo caberia ao distrito das obras, via adiantamentos do Tesouro reembolsáveis em dez anos a 3,5% de juros. As mesmas propriedades, lembra o autor, já estavam sobrecarregadas de dívida."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 pence",
+          "texto": "Salário médio diário nas obras públicas, segundo o capítulo. A farinha de milho subira a 2 xelins e 5 pence por stone de 14 libras-peso; uma família de seis pessoas não conseguia sequer uma refeição tolerável. No asilo de Skibbereen, 266 pessoas morreram entre outubro de 1846 e janeiro de 1847, contra dez no mesmo período do ano anterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para completar a renda, mulheres e crianças passaram a acompanhar os homens às obras, na neve. Em dezembro de 1846, um velho, Richard Cotter, foi carregado moribundo de uma dessas turmas. Dos 5.000 mendigos de Cork no inverno de 1846–47, cerca de 100 morriam por semana. Jones credita a Peel ter adiado a mortandade e atribui a Russell e a Trevelyan a catástrofe de 1846–47."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era Trevelyan?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Secretário-assistente do Tesouro de 1840 a 1859, ele se tornou, no verão de 1846, o “ditador virtual” do auxílio à Irlanda. A balada “The Fields of Athenry”, lembra o autor, fala de alguém que roubou “o milho de Trevelyan” e foi deportado para Botany Bay."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 15 de maio de 1846, Trevelyan abriu os depósitos para vender o restante do milho de Peel e decidiu que essa operação única encerraria o auxílio. Seu assistente, Randolph Routh, protestou por escrito."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Não se responde ao grito da necessidade com uma citação de economia política.”",
+          "original": "You cannot answer the cry of want … by a quotation from political economy (p. 995)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Routh acabou cedendo. Em julho, os estoques de Peel se esgotaram, e os irlandeses já comiam a batata-semente da safra seguinte; as notícias indicavam que a perda de 1846 era maior que a de 1845. Ainda assim, Trevelyan mandou fechar os depósitos até 15 de agosto, para que o povo não se tornasse dependente do governo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a comida continuava saindo da Irlanda?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No outono vieram os motins. Camponeses cortavam os arreios das carroças que levavam grãos aos navios no rio Shannon. O governo enviou 2.000 soldados, com provisões de seis semanas para eles, e nada para a população. Em Dungarvan, condado de Waterford, tropas dispararam 26 tiros contra a multidão e mataram dois camponeses. Em 3 de setembro, Trevelyan desaconselhou proibir exportações."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O livre-comércio perfeito é o caminho certo.”",
+          "original": "perfect Free Trade is the right course (p. 996)"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "250 navios",
+          "texto": "Embarcações com 50.000 toneladas de alimento paradas no porto de Cork em fevereiro, porque os preços estavam altos demais para a população. Um certo Hewtson, de Cork, queixava-se de comerciantes que lucravam de 40 a 80 mil libras com milho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Trevelyan via na alta dos preços uma “grande bênção”: ela atrairia milho de Cincinnati e de Ohio. Quando mudou de ideia e encomendou milho nos últimos navios de setembro, já não havia milho em Ohio, e nada chegaria antes da primavera de 1847. A colheita de 1846 fora comprada por outros governos europeus."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem tentou preencher o vazio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 23 de novembro de 1846, os quacres criaram em Dublin o Comitê Central de Socorro da Sociedade dos Amigos e abriram cozinhas de sopa. Dois meses depois surgiu a British Association, presidida por Thomas Baring, com doações de 1.000 libras dos Rothschild e 2.000 da rainha Vitória."
+        },
+        {
+          "tipo": "p",
+          "texto": "O tifo, transmitido por piolhos entre pessoas que se amontoavam para se aquecer, matou, pela estimativa de Woodham-Smith, dez vezes mais que a fome. Em 1847, o governo imitou os quacres e passou a distribuir sopa sem exigir trabalho; a sopa salvou vidas no verão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os senhores de terra despejaram e embarcaram seus arrendatários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 13 de março de 1846, a sra. Gerrard despejou 300 arrendatários em Ballinglass, condado de Galway, embora estivessem em dia e tivessem recuperado 400 acres de turfeira; as casas foram demolidas. Em janeiro de 1847, o governo transferiu os indigentes à Lei dos Pobres, custeada pelas taxas locais. Para os proprietários, diz o autor, o caminho mais simples passou a ser o navio."
+        },
+        {
+          "tipo": "p",
+          "texto": "Além do milhão de mortos, outro milhão de irlandeses cruzou o Atlântico, a maioria pelo Canadá, via Grosse Isle, no rio São Lourenço."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "108",
+          "texto": "Mortos no mar a bordo do Larch, vindo de Sligo com 440 passageiros; outros 150 chegaram com febre. O Syria chegou a Grosse Isle em 17 de maio com 84 de seus 214 passageiros doentes. Em 31 de maio, 40 navios esperavam desembarque e 1.100 pacientes de tifo lotavam a ilha."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o ouro tem a ver com a fome?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, muito. O Bank Charter Act de 1844, do governo Peel, atrelou a emissão de notas às reservas de ouro do Banco da Inglaterra. As más colheitas obrigaram o país a comprar alimento no exterior pagando em ouro. Quando os preços dos grãos e as ações das ferrovias desabaram em 1847, o banco, temendo perder lastro, recusou-se a emprestar livremente. Em outubro, 11 bancos faliram; na Câmara dos Comuns, falou-se em 117 firmas quebradas durante o pânico."
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo o capítulo, Trevelyan encerrou o auxílio no verão de 1847 por causa dessa crise e da saída de metal do banco; Charles Wood disse a Clarendon que não tinha dinheiro. Clarendon respondeu que deixar a Irlanda à “operação de causas naturais”, fórmula de Trevelyan, significava mortes em massa por fome e doença."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 milhões de libras",
+          "texto": "Gasto total da Inglaterra com o auxílio à fome entre 1846 e 1852, segundo o capítulo, que o compara aos 20 milhões gastos com a emancipação nas Índias Ocidentais. Em 30 de setembro de 1847, Trevelyan avisou que os repasses do Tesouro às uniões irlandesas cessariam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os proprietários não podiam pagar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Por causa da dívida, responde Jones. Lorde Mountcashel disse aos Lordes que, de uma renda anual de 13 milhões de libras, os proprietários irlandeses pagavam quase 10,5 milhões em hipotecas e empréstimos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "700.000 libras",
+          "texto": "Dívidas declaradas pelo conde de Portarlington em novembro de 1849, contra renda anual de 33.000 libras. Lorde Oranmore and Browne devia mais de 200.000 libras sobre uma propriedade que rendia menos de 5.000. Nos três primeiros anos do tribunal reformado, três quartos dos casos envolviam dívidas acima de dez vezes a renda anual."
+        },
+        {
+          "tipo": "p",
+          "texto": "O'Grada considera duvidoso que algum proprietário livre de dívidas em 1845 tenha sucumbido durante a fome. Para Jones, a maioria iria ao tribunal de falências nos anos 1850 mesmo sem a praga. E, pela mesma razão, nenhum auxílio aos pobres cabia em seus orçamentos."
+        }
+      ],
+      "glossario": [
+        [
+          "Board of Works",
+          "Órgão britânico que administrava as obras públicas de socorro na Irlanda."
+        ],
+        [
+          "Workhouse (asilo)",
+          "Instituição da Lei dos Pobres que abrigava indigentes em troca de trabalho."
+        ],
+        [
+          "Lei dos Pobres (Poor Law)",
+          "Sistema de auxílio aos pobres financiado por taxas locais sobre a propriedade."
+        ],
+        [
+          "Bank Charter Act de 1844",
+          "Lei que limitou a emissão de notas do Banco da Inglaterra às suas reservas de ouro."
+        ],
+        [
+          "Padrão-ouro",
+          "Regime em que a moeda é conversível em ouro a uma taxa fixa."
+        ],
+        [
+          "Coffin ships",
+          "“Navios-caixão”: embarcações superlotadas que levaram emigrantes irlandeses à América do Norte."
+        ]
+      ],
+      "hoje": "O capítulo antecipa debates atuais sobre resposta a crises alimentares: transferir renda ou entregar comida, controlar ou não exportações, confiar que preços altos atraiam oferta a tempo. Também ilumina o conflito entre regras monetárias rígidas e socorro emergencial, tema que voltou depois de 2008 e da pandemia, quando bancos centrais tiveram de decidir se emprestariam livremente em meio ao pânico. E o retrato de proprietários sem caixa para cumprir encargos sociais ecoa a discussão sobre entes subnacionais endividados chamados a financiar emergências."
+    },
+    {
+      "slug": "cap-76-palmerston-e-o-caso-don-pacifico",
+      "numero": 76,
+      "titulo": "Palmerston, os arrendatários de Sligo e o caso Don Pacifico",
+      "titulo_original": "Palmerston and the Don Pacifico Affair",
+      "paginas": "pp. 1017–1028",
+      "chamada": "Jones contrapõe o abandono dos arrendatários irlandeses de Lord Palmerston à mobilização da marinha britânica para cobrar a dívida grega reclamada por Don Pacifico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 30 de outubro de 1847, o navio Lord Ashburton chegou a Quebec com 174 arrendatários de Lord Palmerston a bordo. Dos 477 passageiros, 107 tinham morrido de febre e disenteria na travessia. Dos 174 arrendatários, 87 precisaram ser vestidos pela caridade antes de deixar o navio. O dono das terras era o ministro do Exterior britânico. É dessa figura que E. Michael Jones se ocupa no capítulo 76 de “Barren Metal”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Palmerston embarcava seus arrendatários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque a assistência aos pobres passara a pesar sobre os proprietários. Quando o governo de Lord John Russell lhes transferiu esse ônus, a primeira reação de muitos, segundo o autor, foi despachar os pobres para a América do Norte. Palmerston, dono de grandes propriedades em Sligo, ofereceu pagar a passagem a quem aceitasse emigrar e prometeu entre duas e cinco libras por família na chegada ao Canadá."
+        },
+        {
+          "tipo": "p",
+          "texto": "O prometido e o entregue divergiram, escreve Jones. Ninguém esperava os emigrantes nas docas de Grosse Isle, e eles foram deixados a mendigar na neve. Em 11 de dezembro de 1847, Adam Ferrie, do Conselho Legislativo do Canadá, denunciou Palmerston por ter posto 2.000 arrendatários de Sligo em “navios-caixão”, com o dobro da lotação e condições comparadas às do tráfico de escravos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "240",
+          "texto": "Emigrantes das terras de Palmerston no navio Aeolus, que chegou em 2 de novembro com o rio São Lourenço já fechado pelo gelo e desembarcou em St. John, New Brunswick. O capitão pagou 250 libras em títulos e partiu. Segundo o autor, 99% precisaram imediatamente de assistência pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cidade de St. John ofereceu passagem e comida a quem quisesse voltar à Irlanda; não houve interessados. Os vereadores queixaram-se a Lord Elgin, governador-geral do Canadá. Palmerston repassou a queixa à firma Kincaid and Stewart, que organizara as partidas. A resposta: mais de 2.000 pessoas tinham saído de suas terras na temporada, e eram os lavradores mais pobres, pouco melhores que indigentes, incapazes de pagar o arrendamento. Para Jones, a justificativa era econômica, e Palmerston a endossaria por formação. Em 1849, o número de assistidos caíra a 2% do de 1847."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor apoia-se em Cecil Woodham-Smith, para quem o capitalismo, e não o fungo da batata, foi a causa principal do sofrimento irlandês entre 1845 e 1849, período em que 2,5 milhões de pessoas foram perdidas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde Palmerston aprendeu economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Edimburgo. Henry John Temple, terceiro visconde Palmerston, nascido em 20 de outubro de 1784, foi mandado a Harrow aos dez anos e depois, contra a tradição aristocrática, à Universidade de Edimburgo, para estudar economia política com Dugald Stewart, amigo de Adam Smith. Ficou ali de 1800 a 1803. Aprendeu, resume o biógrafo Denis Judd, que cada indivíduo é o melhor juiz de seus interesses e que tarifas e monopólios deviam ser varridos. Jones o trata como produto típico do Iluminismo escocês, que o levaria a exortar governos estrangeiros a não proibir a exportação de cereais na escassez de 1847."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vinham as terras e as dívidas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As terras de Sligo vinham de Sir John Temple, partidário da campanha irlandesa de Cromwell nos anos 1640, recompensado com propriedades confiscadas de católicos irlandeses. Em 1723, seu neto Henry Temple recebeu um título irlandês e tornou-se o primeiro visconde Palmerston; a renda permitiu comprar Broadlands, em Hampshire. O segundo visconde gastou 23.000 libras na reforma e contratou Capability Brown para os jardins, sem investir nas terras de Sligo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10.000 libras",
+          "texto": "Hipoteca que pesava sobre Broadlands quando Palmerston a herdou, com a morte do pai em abril de 1802. Ele pagou parte em 1811, mas seis anos depois o ônus da propriedade inglesa somava 14.000 libras. Para cobri-lo, ampliou a hipoteca das terras irlandesas e alugou a casa de Hanover Square."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a compra de Broadlands abriu uma trajetória financeira que culminaria em meados do século XIX, quando a dívida impagável dos proprietários ausentes levaria não só à inadimplência, mas à morte dos arrendatários das terras oneradas. Palmerston visitou Sligo em 1808 e fez melhorias: estradas, uma pequena vila manufatureira, um porto na baía de Donegal, uma escola católica. A dívida, porém, falou mais alto."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O tom natural da resolução se fez doentio sob o pálido matiz dos juros compostos.”",
+          "original": "the native hue of resolution was sicklied o'er by the pale cast of compound interest (p. 1020)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre 1811 e 1841, segundo Judd, foi processado por credores 20 vezes e condenado em 18, num dos casos por apenas duas libras. William Cobbett, ao passar por Broadlands em 16 de outubro de 1826, anotou que um arrendatário, Charles Smith, fora enforcado por atirar, sem matar, num ajudante de guarda-caça de Palmerston."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que foi o caso Don Pacifico?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Páscoa de 1847, um membro da família Rothschild chegou a Atenas para tratar do pagamento de um empréstimo ao governo grego. As autoridades proibiram a tradicional queima da efígie de Judas, e a multidão culpou o comerciante David Pacifico, que se fazia chamar Don. Invadiu sua casa, assediou a família, roubou joias e ateou fogo. A polícia assistiu por três horas; entre os manifestantes estava o filho do ministro da Guerra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pacifico nascera em Gibraltar, súdito britânico, mas se naturalizara português e fora nomeado cônsul de Portugal em Atenas em 1839. Lá pediu passaporte britânico à embaixada, aparentemente sem mencionar a naturalização. Depois do ataque, cobrou do governo grego 5.000 libras pela casa e mais 27.000 por provas de um processo que teriam queimado. Palmerston ameaçou bloquear o Pireu e apreender navios gregos. Jones sublinha a simultaneidade: seus arrendatários de Sligo, súditos britânicos de fato, morriam de tifo em Grosse Isle."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "24 horas",
+          "texto": "Prazo do ultimato entregue ao chanceler grego Londos depois que a frota do almirante Parker ancorou diante do Pireu, em 15 de janeiro de 1850. França e Rússia, co-garantidoras do empréstimo de 1832, ofereceram mediação, recusada. A disputa só terminou em 19 de abril, com a França ameaçando guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a censura virou triunfo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lord Stanley levou o caso ao Parlamento, alegando que a Grécia fora forçada a pagar uma reclamação fraudulenta, e Palmerston foi censurado por 169 votos a 132. Na segunda noite do debate, ele respondeu com o discurso de sua carreira: assim como o romano dizia Civis Romanus sum, o súdito britânico, onde estivesse, deveria confiar na proteção da Inglaterra. Publicado nos jornais, o discurso virou o jogo. Gladstone falou por mais de três horas sobre moral nas relações internacionais e foi ignorado."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O olhar atento e o braço forte da Inglaterra o protegerão contra a injustiça e o mal.”",
+          "original": "the watchful eye and the strong arm of England will protect him against injustice and wrong (p. 1026)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, o subtexto era mercantil. Ridley observa que os maiores beneficiários dessa proteção eram comerciantes, e que Palmerston usara a marinha para que britânicos cumprissem contratos de exportação de alimentos em países com fome. Jones lê o caso como defesa do princípio pacta sunt servanda mesmo à custa da fome. Na vitória, 250 membros do Reform Club ofereceram a Palmerston um jantar de nove pratos com 81 iguarias."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ao defender Pacifico, Palmerston estava na verdade defendendo o direito dos proprietários irlandeses de exportar alimentos.”",
+          "original": "By defending Pacifico, Palmerston was in reality defending the rights of Irish landlords to export food (p. 1026)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo fecha com duas hipóteses do autor. Pacifico agiria como intermediário dos Rothschild, que financiavam projetos do governo pelo mundo e precisavam de prova de que Londres faria cumprir seus contratos. E o próprio Palmerston, endividado, dependeria do favor de banqueiros como eles para rolar seus empréstimos."
+        }
+      ],
+      "glossario": [
+        [
+          "Laissez-faire",
+          "Doutrina de não intervenção do governo na economia."
+        ],
+        [
+          "Navios-caixão (coffin ships)",
+          "Embarcações superlotadas da emigração irlandesa, com alta mortalidade a bordo."
+        ],
+        [
+          "Proprietário ausente",
+          "Dono de terras que vive longe delas e as explora por meio de arrendamentos."
+        ],
+        [
+          "Ônus (encumbrance)",
+          "Hipoteca ou dívida que grava uma propriedade."
+        ],
+        [
+          "Pacta sunt servanda",
+          "Princípio de que os contratos devem ser cumpridos."
+        ],
+        [
+          "Civis Romanus sum",
+          "“Sou cidadão romano”: invocação da proteção de Roma a seus cidadãos."
+        ]
+      ],
+      "hoje": "O caso Don Pacifico é um antecedente da chamada diplomacia das canhoneiras, em que potências usavam força para cobrar dívidas e indenizações de seus cidadãos no exterior. O direito internacional moderno trocou a frota pela arbitragem e pelos tribunais de investimento, mas a pergunta persiste: até onde um Estado deve ir para proteger credores e investidores nacionais? E o debate sobre restrições à exportação de alimentos em crises de abastecimento continua vivo nos fóruns de comércio, opondo a segurança alimentar local ao cumprimento de contratos."
+    },
+    {
+      "slug": "cap-77-a-revolucao-de-1848",
+      "numero": 77,
+      "titulo": "1848: da praga da batata às barricadas de Paris",
+      "titulo_original": "The Revolution of 1848",
+      "paginas": "pp. 1029–1052",
+      "chamada": "Jones liga a praga da batata, o padrão-ouro e a crise de 1847 às revoluções de 1848, e lê o Manifesto Comunista como herdeiro da mesma propriedade absoluta que diz combater.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 14 de junho de 1846, James de Rothschild reuniu 1.700 convidados para celebrar a inauguração do Chemin de Fer du Nord, a linha entre Paris e Bruxelas. Em 8 de julho, menos de um mês depois, um trem a caminho de Bruxelas descarrilou em Fampoux: os trilhos assentados à beira de um lago pantanoso cederam. Morreram entre 14 e 29 pessoas. Com esse acidente, E. Michael Jones abre o capítulo 77 de “Barren Metal”, dedicado à revolução de 1848."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que um acidente ferroviário importava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque tornou visíveis os financistas, argumenta o autor. Depois da morte de Nathan, em 1836, a família Rothschild passou a se interessar pela emissão de ações ferroviárias, num momento em que os governos lançavam cada vez menos títulos. A técnica de subscrição era a mesma. Segundo o historiador Niall Ferguson, no fim dos anos 1840 os Rothschild eram os principais financiadores privados das ferrovias do continente, e James usara sua influência no mercado de títulos para obter a concessão do Nord."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "metade",
+          "texto": "Fatia britânica do capital investido nas ferrovias francesas até 1847, segundo Ferguson. Só um quarto das locomotivas francesas era produzido no país. James tinha acesso familiar ao capital e à tecnologia britânicos, mais avançados que os disponíveis na França."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reação da imprensa foi furiosa. O jornalista George Dairnvaell acusou a família de negligência na construção. Os Rothschild, segundo Ferguson, preocuparam-se sobretudo com o preço das ações do Nord e responderam encomendando artigos favoráveis. O panfletário Alphonse Toussenel fez do caso um emblema: para financiar a linha, o governo cedera aos Rothschild os lucros por 40 anos e deixara à nação os custos da obra. Jones registra extensamente a onda de panfletos franceses dos anos 1840 contra os Rothschild e os judeus, que relaciona à nova visibilidade das ferrovias."
+        },
+        {
+          "tipo": "p",
+          "texto": "É a questão do trabalho que interessa ao autor. Ferrovias exigiam enormes quantidades de mão de obra e encarnavam a era do vapor. Para Jones, tornaram inescapável a pergunta sobre quem trabalha e quem recebe."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como era a França de Luís Filipe?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Governada por um homem de negócios, na leitura de Jones. Em 1830, quando seu protegido subiu ao trono, o banqueiro Jacques Laffitte resumiu que, dali em diante, os banqueiros governariam. Ao longo de 18 anos de reinado, Luís Filipe usou o trono para acumular fortuna e, em 1848, restringia o voto a cerca de 1% da população, excluindo toda a classe média. A oposição organizou-se em “banquetes” políticos a partir de julho de 1847. Tocqueville comparou viver sob esse regime a dormir sobre um vulcão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a batata tem a ver com 1848?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Tudo, sustenta o autor. A praga da batata, a Phytophthora infestans, que matava de fome a Irlanda, obrigou os governos europeus a comprar alimentos no exterior, sobretudo na América. Os pagamentos eram feitos em ouro. Pelas regras do padrão-ouro, a saída de metal exigia contrair a oferta de moeda, com juros mais altos e corte de crédito. Assim veio a crise de 1847, como viera a de 1837."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A praga da batata levou a mais compras de alimentos no exterior, o que levou à exportação de ouro.”",
+          "original": "the potato blight led to increased food purchases abroad, which led to the export of gold (p. 1038)"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4,35 milhões de florins",
+          "texto": "Exposição de Salomon Rothschild em fevereiro de 1848, mais que o dobro do capital da casa de Viena em 1844, segundo Ferguson. Em outubro de 1846, James já falava numa “crise na oferta de moeda” do Banque de France."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em fevereiro de 1848, Luís Filipe proibiu os banquetes. Ao meio-dia de 22 de fevereiro, multidões tomaram as ruas de Paris. O ministro Guizot renunciou no dia seguinte. Um soldado disparou por acidente diante do Ministério do Exterior, os demais atiraram na multidão, e Paris inteira se levantou. O rei abdicou e fugiu para a Inglaterra. Em 26 de fevereiro nasceu a Segunda República, com o poeta Lamartine à frente do governo provisório. O sufrágio universal masculino incorporou nove milhões de eleitores, e Louis Blanc propôs Oficinas Nacionais que garantissem o “direito ao trabalho”."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "dez",
+          "texto": "Estados atuais que ocupam, no todo ou em parte, a área da Europa onde, em semanas, nenhum governo ficou de pé, segundo Eric Hobsbawm. Baden em 2 de março, Baviera em 6, Berlim em 11, Viena e Hungria dois dias depois, Milão em 18. Metternich renunciou em 14 de março e fugiu graças a uma carta de crédito de Salomon Rothschild."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a Irlanda não se levantou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque a mesma praga que incendiou o continente apagou a Irlanda, argumenta Jones. Sem indústria nem proletariado urbano, os arrendatários viviam só da batata; quando ela faltou, morreram ou ficaram fracos demais para lutar. Os Young Irelanders lançaram-se à rebelião em março de 1848, e Londres mandou 10.000 soldados a Dublin no verão. Os 6.000 homens reunidos perto de Mullinahone, com piques e forcados, dispersaram-se porque a maioria viera na esperança de ser alimentada. No continente, ao contrário, o operário urbano pagava mais pelo pão, mas não morria de fome: a carestia, diz o autor, alimentou a raiva."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o Manifesto propunha, e o que Jones objeta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No fim de fevereiro de 1848 apareceu em Londres, anônimo, o Manifesto do Partido Comunista, de Karl Marx, então com 30 anos, e Friedrich Engels, com 28. Uma liga operária encomendara o programa em novembro de 1847. Segundo Harold Laski, citado por Jones, a crítica às tarifas protetoras era um golpe contra Friedrich List, morto no ano anterior. Para o autor, o motor da revolução prevista por Marx era a lei de ferro dos salários, ideia de Ricardo batizada por Ferdinand Lassalle."
+        },
+        {
+          "tipo": "p",
+          "texto": "A objeção central é sobre a propriedade. A propriedade burguesa da Revolução Francesa, escreve Jones, não era a propriedade privada em geral, mas sua forma extrema e absoluta. Aristóteles e Tomás de Aquino a defendiam condicionada, e as encíclicas sociais recomendam o mesmo há mais de um século. Apoiado em Perry Anderson, o autor sustenta que a Reforma converteu a posse condicional feudal em propriedade absoluta, e que os cercamentos ingleses deixaram o trabalhador à mercê do salário. O socialismo, diz, percebeu que a propriedade absoluta não funcionava e escolheu o extremo oposto."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Eles corretamente sustentavam que a propriedade privada deve ser condicional para ser moral.”",
+          "original": "They correctly held that private property must be conditional in order to be moral (p. 1040)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, capitalismo e comunismo divergem na aparência e coincidem no objetivo de dissolver família, religião e nação."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O comunismo era, para usar a expressão contemporânea, o liberalismo clássico tomando esteroides.”",
+          "original": "communism was, to use the contemporary phrase, classical Liberalism on steroids (p. 1043)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como terminou a revolução?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 23 de junho de 1848, os operários de Paris romperam com os aliados em protesto contra o fechamento das Oficinas Nacionais. O general Louis Eugène Cavaignac atacou as barricadas com 20.000 a 30.000 soldados e precisou chegar a 120.000 ou 125.000 para vencer. O arcebispo de Paris, que cruzara as barricadas para negociar uma trégua, foi morto a tiro. Em 10 de dezembro, os franceses elegeram Luís Napoleão. Jones atribui o fracasso, em boa parte, ao anticlericalismo de Marx e Engels, que afastou camponeses e operários católicos. Húngaros e venezianos capitularam em agosto de 1849."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "11 milhões de francos",
+          "texto": "Lucro de James de Rothschild ao converter, com o ministro das Finanças Goudchaux, os títulos de 3% do empréstimo de 1847 em títulos de 5%, em vez de uma perda de 25 milhões. Ele carregava cerca de 170 milhões de francos em rentes valendo metade do preço."
+        }
+      ],
+      "glossario": [
+        [
+          "Phytophthora infestans",
+          "Micro-organismo causador da praga que destruiu as safras de batata nos anos 1840."
+        ],
+        [
+          "Padrão-ouro",
+          "Regime em que a moeda é conversível em ouro a uma paridade fixa, e a oferta de moeda acompanha as reservas."
+        ],
+        [
+          "Subscrição (underwriting)",
+          "Compra e revenda ao público de uma emissão de títulos ou ações por um banco."
+        ],
+        [
+          "Oficinas Nacionais",
+          "Programa de emprego público criado em Paris em 1848 e fechado em junho daquele ano."
+        ],
+        [
+          "Lei de ferro dos salários",
+          "Tese de que os salários tendem ao nível de subsistência."
+        ],
+        [
+          "Propriedade condicional",
+          "Propriedade limitada por obrigações sociais, em oposição à propriedade absoluta."
+        ],
+        [
+          "Rentes",
+          "Títulos da dívida pública francesa com juros perpétuos."
+        ]
+      ],
+      "hoje": "A cadeia que Jones descreve, choque de oferta de alimentos, perda de reservas, contração do crédito e agitação política, ainda aparece nos estudos sobre economias com câmbio fixo e alta dependência de alimentos importados. Altas de preços de alimentos voltaram a ser associadas a ondas de protesto no século XXI. E a discussão sobre a propriedade, se é direito absoluto ou condicionado por sua função social, segue nas constituições contemporâneas, inclusive na brasileira, que fala em função social da propriedade."
+    },
+    {
+      "slug": "cap-78-o-ouro-do-reno-e-o-padrao-ouro",
+      "numero": 78,
+      "titulo": "O Ouro do Reno, de Wagner, como alegoria do padrão-ouro",
+      "titulo_original": "Das Rheingold and the Gold Standard",
+      "paginas": "pp. 1053–1078",
+      "chamada": "Jones acompanha Richard Wagner das barricadas de Dresden, em 1849, ao Ouro do Reno, e lê o anel forjado por Alberich como alegoria da usura e do padrão-ouro britânico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em maio de 1849, a revolução de 1848 enfim chegou a Dresden. O rei da Saxônia fugiu para uma fortaleza próxima e pediu tropas à Prússia. O diretor da orquestra da cidade, Richard Wagner, ficou com os insurgentes. Mandou imprimir, nas maiores folhas e no maior tipo disponíveis, cartazes que perguntavam aos soldados saxões se estavam com o povo contra as tropas estrangeiras. Os cartazes acabaram pendurados nas barricadas e serviram depois de prova contra ele, acusado de alta traição. Assim E. Michael Jones abre o capítulo 78 de “Barren Metal”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Wagner fez nas barricadas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na noite de 7 de maio, passou horas na torre da Kreuzkirche informando os movimentos das tropas prussianas, sob tiros, e viu a velha ópera de madeira arder. Perto dele estava o “Dr. Schwartz”, na verdade o anarquista russo Mikhail Bakunin, procurado pela polícia, que frequentara os ensaios da Nona Sinfonia de Beethoven regidos por Wagner. Bakunin, conta Jones a partir das memórias do compositor, só se interessava por destruição. Para um drama sobre Jesus que Wagner planejava, sugeriu coros cantando “decapitem-no” e “enforquem-no”. Na retirada, mandou derrubar as árvores de uma avenida para servir de barreira."
+        },
+        {
+          "tipo": "p",
+          "texto": "A revolta caiu. Wagner fugiu para Weimar, onde estava Franz Liszt, e depois para a Suíça, com o passaporte vencido de um professor suábio. Ficaria 12 anos longe da Alemanha. À mulher escreveu que não era um verdadeiro revolucionário; em Zurique, porém, redigiu “A arte e a revolução”. Para o autor, as duas posições se conciliam: Wagner trocou a revolução política pela cultural e passou de revolucionário fracassado a músico revolucionário de enorme êxito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é O Ouro do Reno?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O prólogo do Anel do Nibelungo, ciclo de quatro óperas que Wagner tirou, no exílio, de seu poema sobre os Nibelungos. Jones o chama de “18 de Brumário” de Wagner, seu balanço de 1848. No fundo do Reno, três filhas do rio brincam. O anão Alberich as corteja e é ridicularizado. Uma luz atravessa as águas: é o ouro do Reno, do qual se pode forjar um anel de poder ilimitado, mas só quem renunciar ao amor. Alberich amaldiçoa o amor e rouba o ouro."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É a meditação mais profunda até hoje sobre as raízes metafísicas do capitalismo.”",
+          "original": "it is the profoundest meditation to date on the metaphysical roots of capitalism (p. 1059)"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1854",
+          "texto": "Ano em que Wagner concluiu a partitura de O Ouro do Reno, segundo George Bernard Shaw. O poema do Anel estava pronto e impresso em 1853. O ciclo só se completou com o Crepúsculo dos Deuses, encenado em 1876: Wagner tinha 35 anos ao esboçá-lo e 60 ao terminá-lo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O ouro é dinheiro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não, responde o autor, em polêmica com o filósofo Roger Scruton. Para Scruton, a obra trata do paradoxo do dinheiro: por se transformar em qualquer coisa, sua utilidade marginal quase não diminui, e daí seu poder psicológico. Jones objeta que o ouro no fundo do rio está em estado de natureza, antes da moeda, que nasce quando a efígie do soberano é cunhada no metal. O ouro é condição necessária, mas não suficiente, do poder de Alberich; o poder está no anel, forjado pelos nibelungos que ele escravizou."
+        },
+        {
+          "tipo": "p",
+          "texto": "Alberich também usa o Tarnhelm, o elmo que torna invisível. Para Jones, é o símbolo de um capitalismo invisível a quem sofre seus efeitos. Shaw dizia que, em Londres, o elmo costumava tomar a forma de uma cartola, que tornava o homem invisível como acionista. Scruton vê em Nibelheim, o reino subterrâneo, um prenúncio do “1984” de Orwell; Jones prefere Shaw, para quem Alberich é um “plutocrata juramentado”, e identifica Nibelheim com a City de Londres."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O Ouro do Reno é a versão alemã da Riqueza das Nações.”",
+          "original": "Das Rheingold is the German version of the Wealth of Nations (p. 1064)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nessa leitura, as filhas do Reno são guardiãs amadoras da riqueza nacional, que cuidam do ouro sem desejar possuí-lo. O roubo de Alberich “privatiza” essa riqueza, como na Reforma. Scruton chama o roubo de usurpação original pela qual a natureza vira propriedade e poder; a forja do anel, de passagem do valor de uso ao valor de troca. Jones dedica uma passagem à leitura de Theodor Adorno, que viu em Alberich e Mime caricaturas antissemitas, e sustenta que Wagner teria pensado em Mayer Amschel Rothschild e no ouro do príncipe de Hesse-Kassel ao criar Alberich."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o anel tem a ver com o padrão-ouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, o anel é usura, capitalismo e banca, mas sobretudo o padrão-ouro difundido pelo Banco da Inglaterra nas três décadas entre a queda de Napoleão e 1848. Ele segue a cronologia britânica: grande recunhagem após as guerras napoleônicas, notas pequenas dos bancos regionais restringidas em 1826, notas do Banco da Inglaterra com curso legal em 1833 e, em 1844, a Lei Bancária, que as tornou o padrão, integralmente lastreadas em ouro."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "6 a 7 vezes",
+          "texto": "Aumento da oferta mundial de ouro em sete anos após as descobertas na Califórnia e na Austrália, a partir de 1848, em passagem de Eric Hobsbawm citada pelo autor. A cunhagem de ouro de Grã-Bretanha, França e Estados Unidos passou de 4,9 milhões de libras por ano em 1848–49 para 28,1 milhões anuais entre 1850 e 1856."
+        },
+        {
+          "tipo": "p",
+          "texto": "Apoiado no economista Guido Preparata, Jones descreve o mecanismo. O ouro sai de circulação e desce aos cofres dos bancos de reserva, que entregam papel à economia. Com ouro sobrando, baixam-se os juros e expande-se o crédito; o boom dura enquanto o lucro cobre os juros. Quando os preços caem, os empréstimos são cobrados, empresas quebram, e o ciclo recomeça sobre os ativos comprados a preço vil. Um país com déficit no balanço de pagamentos pagava em ouro e precisava restringir o crédito."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O padrão-ouro gerava naturalmente o ciclo de expansão e colapso.”",
+          "original": "The gold standard begat the boom and bust cycle naturally (p. 1073)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na ópera, Wotan e Loge capturam Alberich e exigem o tesouro. Ele se mantém calmo: com o anel, pode recuperá-lo. Do mesmo modo, diz Jones, o Banco da Inglaterra trazia de volta o ouro emprestado à Índia e à América manipulando juros. O autor estende a analogia à Grande Depressão, que atribui a Benjamin Strong, do Fed, e Montagu Norman, do Banco da Inglaterra. Quando Wotan arranca o anel, Alberich o amaldiçoa. Jones nota que a tradução inglesa de Stewart Spencer verte “Ohne Wucher” como “sem proveito”, quando Wucher é a palavra alemã para usura."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o Anel não termina em 1848?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque Wagner levou quase 30 anos para concluí-lo e, no intervalo, caiu sob a influência pessimista de Schopenhauer, sustenta Jones, ecoando Shaw. No fim, Brünnhilde declara não crer em propriedade, dinheiro nem contrato, mas no amor. Para o autor, depois de analisar a exploração encoberta pelo padrão-ouro, Wagner só soube propor o remédio que falhara em 1848. Shaw lembra que os Siegfrieds de 1848 fracassaram, enquanto Wotans e Alberichs prosperaram; a Internacional, fundada por Marx em Londres em 1864, terminou em briga com Bakunin. Jones fecha com Bismarck, que unificou a Alemanha em 1871."
+        }
+      ],
+      "glossario": [
+        [
+          "Anel do Nibelungo",
+          "Ciclo de quatro óperas de Wagner: O Ouro do Reno, A Valquíria, Siegfried e O Crepúsculo dos Deuses."
+        ],
+        [
+          "Tarnhelm",
+          "Elmo mágico que torna invisível quem o usa."
+        ],
+        [
+          "Utilidade marginal",
+          "Satisfação adicional obtida com mais uma unidade de um bem."
+        ],
+        [
+          "Valor de uso e valor de troca",
+          "Utilidade de um bem em si versus o que se obtém por ele no mercado."
+        ],
+        [
+          "Lei Bancária de 1844 (Bank Charter Act)",
+          "Lei britânica que vinculou a emissão do Banco da Inglaterra às reservas de ouro."
+        ],
+        [
+          "Balanço de pagamentos",
+          "Registro das transações de um país com o exterior."
+        ],
+        [
+          "Wucher",
+          "Palavra alemã para usura."
+        ]
+      ],
+      "hoje": "A leitura de Jones toca um debate que nunca se encerrou: a disciplina do padrão-ouro protege a moeda ou transmite choques e amplia recessões? Muitos historiadores econômicos associam a rigidez do regime à profundidade da Grande Depressão, enquanto defensores do ouro ainda o veem como freio à inflação e ao endividamento público. O ajuste descrito no capítulo, em que o país deficitário perde reservas e contrai o crédito, reaparece em economias com câmbio fixo ou união monetária, que não podem desvalorizar e ajustam pela recessão."
     }
   ],
   "titulo": "Barren Metal",
