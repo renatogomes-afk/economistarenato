@@ -12961,11 +12961,1024 @@
       ],
       "jstor_edicao": "i322397",
       "colecao": "eua"
+    },
+    {
+      "slug": "1902-a-renda-da-terra-na-teoria-moderna",
+      "numero": 64,
+      "titulo": "Johnson, 1902: a renda da terra é uma renda como as outras?",
+      "titulo_original": "Rent in Modern Economic Theory: An Essay in Distribution",
+      "autores": "Alvin Saunders Johnson, A.M. (Columbia University)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 3, nº 4",
+      "data": "novembro de 1902",
+      "chamada": "Em 1902, Alvin S. Johnson testou as distinções clássicas entre a renda da terra e os salários e juros. Sua conclusão: só a dinâmica do crescimento dos fatores justifica tratá-la à parte.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Num campo de batatas, os primeiros trabalhadores colhem muito. Os que vêm depois precisam cavar e rastelar a terra com mais cuidado e colhem bem menos. O último obtém com dificuldade o que recebe, e os primeiros não podem receber mais do que ele. O exemplo é de Johann Heinrich von Thünen, e Alvin Saunders Johnson o usa para mostrar como a teoria costuma contar a origem da renda da terra: cada trabalhador adicional seria um sinal para o empregador cortar o salário de todos, e o ganho passaria logo ao proprietário."
+        },
+        {
+          "tipo": "p",
+          "texto": "Johnson não aceita a moral da história. Rent in Modern Economic Theory: An Essay in Distribution saiu em novembro de 1902 como o nº 4 do vol. 3 da terceira série das Publications of the American Economic Association, com 129 páginas e sete capítulos. No prefácio, assinado na Columbia University, o autor afirma que os elementos essenciais da teoria da renda são conhecidos de todo estudante sério; as divergências viriam da ênfase dada a cada aspecto. Declara que suas posições se apoiam em grande parte nas teorias de J. B. Clark e agradece a E. R. A. Seligman e F. A. Fetter, que leram o manuscrito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que reclassificar uma renda tão antiga?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é metodológico. Para Johnson, a economia não é estudada por interesse próprio, e suas classificações precisam passar por um teste duplo: verdade e relevância. Os economistas, observa ele, já puseram a renda ao lado do lucro, dos juros ou do retorno de monopólio, conforme o traço que parecia decisivo, e costumam supor que a classificação vem da natureza das coisas. Como os problemas mudam, a análise também muda:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A obra da teoria econômica, portanto, nunca está concluída.”",
+          "original": "“The work of economic theory, therefore, is never done.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na conclusão, ele explicita as duas premissas do ensaio: a distribuição da renda é o problema central da economia, e a concorrência continua sendo o princípio econômico mais essencial, ainda que mude de forma. Johnson reconhece que essa segunda premissa seria contestada numa época impressionada com sinais de uma nova ordem monopolista."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é, afinal, um excedente?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro capítulo percorre os vários “fundos de excedente” da literatura: o produit net dos fisiocratas, o excedente dos materialistas históricos, a energia excedente da teoria do progresso de Simon Patten e o excedente de satisfação, ou renda do consumidor. Sobre este último, Johnson sustenta que não tem força econômica: um ato é praticado quer os motivos a favor superem por pouco, quer por muito, os motivos contra. O excedente do consumidor seria, nas suas palavras, um epifenômeno."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3 por dia",
+          "texto": "Salário que, no exemplo de Johnson, um trabalhador qualificado considera justo. Oferecidos US$ 2,50, ele recusa com indignação, mesmo que o valor cubra o sacrifício do trabalho; oferecidos US$ 3,50, sente um ganho líquido. Para o autor, não há razão a priori para esse padrão: é questão de experiência comum, e o excedente relevante é o que induz mudança."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí sua definição: o excedente dinâmico, a renda que provoca mudança e tende a desaparecer, é “o excedente econômico por excelência”. Salários normais servem de tipo para as rendas-padrão, que tendem a se perpetuar; o lucro puro, para o excedente. A pergunta do livro passa a ser de qual lado fica a renda da terra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A terra é mesmo diferente do capital?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo capítulo descarta, uma a uma, as distinções correntes. Que a terra não é feita pelo trabalho? Os terraços da Europa devem sua utilidade ao esforço humano, e um campo limpo de pedras foi tão transformado quanto o ferro extraído do minério. Que o essencial da terra é a extensão ou a situação, como sustentavam John R. Commons e Alfred Marshall? A carne pode ser bem livre em partes da América do Sul, e ninguém diria por isso que só a situação lhe dá valor em Nova York. Que o valor da terra excede seu custo? Sob concorrência livre, diz Johnson, a terra teria custo igual ao valor, como o capital."
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção que ele mantém é outra. A superfície geográfica é fixa, mas a terra econômica, a parte acessível ao homem, cresce com a recuperação de pântanos e desertos, com transporte melhor e com novos métodos. O que separa terra e capital é que as leis desse crescimento não são as mesmas: quando os juros sobem, a renda pode cair, e a renda pode subir num período de juros em queda. Renda, para Johnson, é o que o dono da terra efetivamente recebe."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A renda é uma renda “não ganha”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro capítulo trata da visão popular, que vê na renda o rendimento obtido por privilégio, e cita a farpa de Adam Smith contra os proprietários que gostam de colher onde não semearam e a acusação de exploração em Henry George. Johnson responde que, pelo critério da dor ou do sacrifício, parte dos salários e dos juros também seria não ganha; e que o critério moderno, a produtividade, não separa a renda dos demais rendimentos. Além disso, ganho e não ganho descrevem a relação entre uma renda e uma pessoa, não uma qualidade da fonte:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O roubo não adere a uma moeda que um dia foi roubada.”",
+          "original": "“Theft does not adhere to a coin that has once been stolen.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção entre parte necessária e parte dispensável de uma renda também não isola a terra. O que decide é a capacidade do dono de retirar o fator de um emprego e levá-lo a outro. A divisão real, conclui, não é entre a renda e os salários e juros, mas entre os rendimentos dos agentes imóveis e dos móveis, sejam terra, trabalho ou capital. A tese de Ricardo, Sismondi e Buchanan, de que a renda é mera transferência do consumidor, recebe resposta semelhante: como renda monetária, a renda não acrescenta riqueza, mas salários e juros também não; como produto específico, os três acrescentam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Ser diferencial e residual distingue a renda?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No quarto capítulo, Johnson toma a formulação de Francis A. Walker: a renda nasce dos diferentes graus de produtividade das terras que abastecem o mesmo mercado, e a pior terra não paga renda. A objeção é antiga, diz ele: quando a demanda cresce, a parte do proprietário aumenta de imediato, sem esperar o cultivo da terra pior. O surgimento da renda nas terras melhores e o uso das piores são efeitos diferentes da mesma causa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando Ricardo escreveu, a terra disponível crescia devagar e a renda subia, enquanto trabalho e capital aumentavam depressa. Era natural supor a terra fixa. Johnson inverte o exercício: imagine-se o Estado isolado de von Thünen anexando, por transporte melhor, uma grande área antes inútil. Cada estabelecimento acrescentaria acres e o produto dos acres sucessivos cairia, numa série diferencial idêntica à das doses de capital e trabalho. Os termos diferencial e residual, propõe, devem ser reservados ao retorno dos fatores estritamente monopolistas, sejam terras, navios, edifícios ou o trabalho de um gerente."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A renda entra no preço?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O quinto capítulo enfrenta a tese clássica, na versão de Walker: o preço normal do trigo é fixado pelo custo nas terras menos produtivas cultivadas, que não pagam renda; logo, a renda não faz parte do preço. Johnson classifica as críticas em três linhas e acrescenta a sua: o argumento supõe na premissa o que pretende provar, que o uso da terra não é custo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 + 20",
+          "texto": "Combinação do exemplo de Johnson: algumas unidades de um bem custam 5 unidades de trabalho e 20 de capital; outras, 5 de capital e 20 de trabalho. Nenhum economista diria que têm custos desiguais. Assim, uma parcela produzida só com 25 unidades de trabalho não seria, por isso, a mais cara; da mesma forma, a parcela que não paga renda não é necessariamente a de custo marginal."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que governa a relação com o preço é a mobilidade. Se toda a terra só produzisse trigo, como supunha Ricardo, o proprietário seria um recebedor passivo do que sobrasse. Mas a terra, sustenta Johnson, é móvel no mesmo sentido que o trabalho e o capital, e nos três casos são as unidades capazes de mudar de emprego que controlam o preço. A conclusão do capítulo é direta:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“em sua relação com o preço, a renda não difere das outras rendas produtivas”",
+          "original": "“in its relation to price rent does not differ from other productive incomes”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Renda, lucro e monopólio são o mesmo fundo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten sustentava que renda e lucro de monopólio eram um só fundo visto de dois modos. Johnson discorda: o rendimento de monopólio vem de uma limitação artificial que eleva a produtividade e desaparece com mais concorrência; a renda vem da produtividade, apoiada em última instância numa limitação natural. O monopolista opera limitando a quantidade de agentes produtivos num ramo; por isso, retirar um trabalhador de um monopólio causa perda maior do que num setor competitivo. Exploração, avisa o autor, é termo sem sentido ético no capítulo: designa o agente que não recebe o que produz. Sobre o lucro, ele revisa Samuel Read, a teoria do risco de von Thünen e Walker e diz inclinar-se a tratar o ganho do empresário superior como forma especial de salário."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o mérito do ensaio está no método. Johnson não pergunta o que a renda é em essência, mas para que serve a categoria. Aplica a todos os fatores o mesmo teste de retirada de uma unidade, que é a produtividade marginal, e com ele dissolve quase todas as fronteiras herdadas da economia clássica. O que sobra é a mobilidade: a parte necessária de qualquer rendimento é a que impede o fator de migrar. É, em germe, a separação que a teoria posterior faria entre o pagamento necessário para manter um fator em seu uso e o excedente sobre esse mínimo, aplicável a terras, pessoas e máquinas.",
+            "O limite também está na premissa declarada. O argumento depende de concorrência efetiva, e o próprio autor admite que as rendas de fricção e de monopólio quase não se deixam classificar no estado do conhecimento da época. Para a política econômica, a consequência é dupla. A razão analítica para tratar a terra como base tributária singular fica mais fraca. Mas a tese de que a tributação pouco altera a oferta quando recai sobre unidades imóveis vale para qualquer fator nessa condição, e é por esse critério, não pelo nome da renda, que o dilema deveria ser julgado."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Renda da terra (rent)",
+          "rendimento pago pelo uso da terra; no ensaio, o que o proprietário efetivamente recebe."
+        ],
+        [
+          "Produit net",
+          "na fisiocracia, o excedente da produção agrícola sobre o sustento de quem a realiza."
+        ],
+        [
+          "Excedente do consumidor",
+          "diferença entre o que alguém estaria disposto a pagar e o que paga; Johnson o considera sem força econômica."
+        ],
+        [
+          "Excedente dinâmico",
+          "rendimento que provoca mudança e tende a desaparecer, como o lucro puro."
+        ],
+        [
+          "Renda diferencial",
+          "renda medida pela diferença de produtividade entre unidades de terra ou entre doses aplicadas à mesma terra."
+        ],
+        [
+          "Renda residual",
+          "renda calculada como o que sobra do produto depois de pagos trabalho e capital."
+        ],
+        [
+          "Lei intensiva da renda",
+          "versão em que doses sucessivas de trabalho e capital na mesma terra rendem cada vez menos."
+        ],
+        [
+          "Terra econômica",
+          "a parte da superfície efetivamente acessível e útil, que cresce com transporte e técnica."
+        ],
+        [
+          "Mobilidade",
+          "capacidade de um fator mudar de emprego; para Johnson, o que liga um rendimento ao preço."
+        ],
+        [
+          "Rendimento exploratório",
+          "no ensaio, parte do produto de um agente apropriada por outro, sem juízo ético."
+        ]
+      ],
+      "hoje": "A palavra renda saiu do campo e se espalhou. Fala-se de rendas de localização nos preços de imóveis urbanos, de rendas de plataformas e empresas dominantes, de busca de renda junto ao Estado. A proposta de tributar o valor da terra volta periodicamente ao debate sobre habitação e finanças municipais. O ensaio de Johnson ajuda a ordenar a discussão: antes de chamar um ganho de renda, vale perguntar o que impede o fator de migrar e se o excedente vem de limitação natural, de fricção ou de restrição artificial. A resposta muda o diagnóstico e o remédio.",
+      "itens": [
+        [
+          "Rent in Modern Economic Theory: An Essay in Distribution",
+          "pp. 1–129",
+          "2485785"
+        ]
+      ],
+      "jstor_edicao": "i322398",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1903-a-decima-quinta-reuniao-anual",
+      "numero": 65,
+      "titulo": "Filadélfia, 1902: fretes, salários, sindicatos e o papel do economista",
+      "titulo_original": "Papers and Proceedings of the Fifteenth Annual Meeting, Philadelphia, Pa., December 26–29, 1902",
+      "autores": "Edwin R. A. Seligman (presidente da associação), Charles A. Prouty (Interstate Commerce Commission), Walker D. Hines (Louisville and Nashville R. R.), Emory R. Johnson (University of Pennsylvania), Balthasar H. Meyer (University of Wisconsin), J. Shirley Eaton (Lehigh Valley Railroad), John B. Clark (Columbia University), John A. Hobson (Londres), Thomas N. Carver (Harvard University), Charles W. Macfarlane (Filadélfia), Simon N. Patten (University of Pennsylvania), Alvin S. Johnson (Columbia University), Henry White (United Garment Workers of America), William H. Pfahler (National Founders' Association), Samuel B. Donnelly (Typographical Union nº 6), John E. George (Northwestern University), George E. McNeill (Boston), Frank K. Foster (Massachusetts Federation of Labor), Simeon B. Chase (King Philip's Mill, Fall River), Jeremiah W. Jenks (Cornell University), Charles A. Conant (Morton Trust Co.), G. Bruce Webster (Chartered Bank of India, Australia and China), Horace White e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 4, nº 1",
+      "data": "fevereiro de 1903",
+      "chamada": "Filadélfia, dezembro de 1902: Seligman defende a relatividade das leis econômicas, um regulador e um diretor de ferrovia disputam o poder sobre fretes, e Clark discute monopólio e salários.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Charles A. Prouty, membro da Interstate Commerce Commission, abriu a sessão da manhã de sábado, 27 de dezembro de 1902, com uma resposta curta ao tema que lhe haviam encomendado:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“…regulação nacional das ferrovias nos Estados Unidos. Não existe nenhuma.”",
+          "original": "“…national regulation of railways in the United States. There is none.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A décima quinta reunião anual da American Economic Association se realizou em Filadélfia na sexta, no sábado e na segunda-feira, 26, 27 e 29 de dezembro de 1902. As sessões diurnas ocorreram no Houston Hall, da University of Pennsylvania; as noturnas, conjuntas com a American Historical Association, no Drexel Institute e no Griffith Hall. O programa teve seis sessões: o discurso presidencial, a regulação pública das ferrovias, teoria econômica, problemas e objetivos do trabalho organizado e problemas monetários do Oriente. Os anais saíram em fevereiro de 1903 como nº 1 do vol. 4 da terceira série."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o presidente esperava da ciência econômica?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edwin R. A. Seligman abriu a reunião com “Economics and Social Progress”. Sua tese: a ciência econômica nasce das condições econômicas, e suas leis valem enquanto as condições se mantêm. Aplicou a ideia à história americana, tratando democracia, individualismo e escravidão como produtos do ambiente econômico, e enumerou seis traços que separariam a sociedade industrial de suas antecessoras, do esgotamento da terra livre ao ideal democrático. Daí uma conclusão otimista e um papel ampliado para o economista, que, sem medo nem favor, falaria por cima dos interesses de classe:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É a criatura do passado; é a criadora do futuro.”",
+          "original": "“It is the creature of the past; it is the creator of the future.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve fixar o preço do frete?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Prouty argumentou que as consolidações haviam trocado o problema da discriminação entre embarcadores pelo da tarifa excessiva, paga pelo consumidor e recebida pelo acionista. Propôs uma comissão especializada que revisasse as tarifas fixadas pelas ferrovias e um tribunal de comércio para executar suas ordens. Walker D. Hines, vice-presidente da Louisville and Nashville, respondeu que esse poder seria legislativo, escaparia ao controle judicial e não resolveria o corte secreto de tarifas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,5 milhão",
+          "texto": "Custo anual, segundo Prouty, de um aumento de um centavo por bushel no frete de grãos de Buffalo ao litoral, aplicado à média dos dez anos anteriores. Ele citou ainda cerca de US$ 2 milhões por ano de aumento no frete de feno e comparou o carvão antracito, a US$ 2,00 por tonelada da mina a Washington em 240 milhas, com o betuminoso, levado a US$ 1,00 por distâncias equivalentes no Oeste."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Monopólio de capital e de trabalho segura os salários?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão de teoria, John B. Clark separou o padrão de salários, dado pela produtividade marginal, do salário efetivo, que o persegue com atraso, e comparou os dois a um rebocador e sua barcaça. Sustentou que sindicatos que restringem a entrada no ofício podem aliar-se a trustes para taxar o público, com a concorrência potencial como limite. John A. Hobson, de Londres, negou que o produto do trabalhador marginal possa ser medido. Em seguida, Charles W. Macfarlane criticou a distribuição de Clark por uma lei da renda, e Alvin S. Johnson, tutor em Columbia, respondeu que a divergência era sobretudo de termos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Oficina sindical ou oficina aberta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda-feira, o tema foi o trabalho organizado, com sindicalistas e empregadores na mesma mesa. Henry White, dos trabalhadores do vestuário, defendeu a oficina sindical como forma de democracia industrial; William H. Pfahler, ex-presidente da National Founders' Association, listou oito perigos que ela traria ao empregador. À tarde, George E. McNeill e Frank K. Foster expuseram os ideais sindicais, e Simeon B. Chase, gerente de fiação em Fall River, respondeu pelo lado da indústria."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem ganha quando a moeda cai?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na última sessão, Jeremiah W. Jenks usou a experiência asiática para formular um princípio: o ganho que uma classe obtém com a queda ou a alta da moeda frente à de outro país é, em geral, compensado pela perda de outra. Na Índia, entre 1872 e 1893, a rupia caiu de cerca de dois xelins para menos de treze pence; ganharam os exportadores, perdeu o governo, com obrigações em ouro. Jenks aplicou o raciocínio às Filipinas, e Horace White comentou o projeto do senador Lodge para a moeda das ilhas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O relatório do secretário Frank A. Fetter trouxe um marco administrativo: pela primeira vez, a associação passava de mil sócios. Seligman foi reeleito presidente, Fetter seguiu como secretário e tesoureiro, e a reunião seguinte foi marcada para Nova Orleans."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1.011",
+          "texto": "Sócios registrados no relatório do secretário, ante 950 no relatório anterior, com ganho líquido de 61 entre sócios e assinantes. O resumo de 1º de fevereiro de 1903 soma 1.008: 13 honorários, 75 vitalícios, 782 anuais e 138 assinantes. O tesoureiro registrou saldo de US$ 2.188,92."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o debate ferroviário é o centro do volume, porque opõe dois desenhos institucionais ainda reconhecíveis. Prouty parte de um problema de ação coletiva: o custo excessivo do frete se dilui entre milhões de consumidores, e nenhum deles tem incentivo para litigar contra a ferrovia; daí a proposta de que o Estado assuma o processo, com um órgão técnico e um tribunal especializado. Hines aponta o risco simétrico: um regulador com poder amplo e pouca revisão judicial também pode errar, favorecer regiões e desorganizar preços relativos entre cidades. A pergunta de fundo, quem regula o regulador, não tem resposta definitiva; tem arranjos melhores ou piores de mandato, revisão e prazo.",
+            "A sessão de teoria toca no mesmo nervo por outro lado. Clark admite que trustes e sindicatos podem cobrar um tributo do público e confia na concorrência potencial como limite, desde que o Estado a preserve; Hobson duvida de que o limite funcione. A discussão monetária de Jenks completa o quadro com uma regra útil para qualquer época: mudança cambial redistribui antes de criar riqueza, e uma política monetária deve ser avaliada pelo efeito sobre cada classe, não só pelo agregado."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Interstate Commerce Commission",
+          "comissão federal americana criada para supervisionar o transporte ferroviário entre estados."
+        ],
+        [
+          "Maximum Rate Case",
+          "decisão da Suprema Corte de 1897 que negou à comissão o poder de fixar tarifas máximas futuras."
+        ],
+        [
+          "Corte secreto de tarifas",
+          "desconto não publicado concedido por uma ferrovia a certos embarcadores, em desacordo com a tarifa oficial."
+        ],
+        [
+          "Padrão de salários",
+          "na formulação de Clark, o salário fixado pela produtividade marginal do trabalho em concorrência perfeita."
+        ],
+        [
+          "Concorrência potencial",
+          "ameaça de entrada de novos produtores ou trabalhadores, que limita o preço que um monopólio pode cobrar."
+        ],
+        [
+          "Capital e bens de capital",
+          "distinção de Clark entre o fundo permanente e móvel de valor e as máquinas e instrumentos concretos em que se encarna."
+        ],
+        [
+          "Oficina sindical e oficina aberta",
+          "a primeira emprega só sindicalizados; a segunda contrata sem distinguir filiação."
+        ],
+        [
+          "Padrão-prata",
+          "regime em que a moeda tem valor ligado à prata; com a queda do metal, a moeda se desvaloriza frente às de padrão-ouro."
+        ]
+      ],
+      "hoje": "Os temas de Filadélfia seguem em pauta. A disputa entre Prouty e Hines reaparece sempre que se discute o poder de agências reguladoras sobre tarifas de infraestrutura, a revisão judicial de suas decisões e o risco de captura. A hipótese de Clark sobre alianças entre empresas concentradas e trabalhadores protegidos ecoa nos debates sobre poder de mercado e salários. E o princípio de Jenks, de que câmbio redistribui renda entre exportadores, importadores e governo, continua sendo a primeira pergunta diante de qualquer desvalorização.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 5–41",
+          "2485838"
+        ],
+        [
+          "The Fifteenth Annual Meeting",
+          "pp. 42–51",
+          "2485839"
+        ],
+        [
+          "Economics and Social Progress",
+          "pp. 52–70",
+          "2485840"
+        ],
+        [
+          "National Regulation of Railways",
+          "pp. 71–83",
+          "2485841"
+        ],
+        [
+          "Legislative Regulation of Railroad Rates",
+          "pp. 84–103",
+          "2485842"
+        ],
+        [
+          "Public Regulation of Railroads-Discussion",
+          "pp. 104–129",
+          "2485843"
+        ],
+        [
+          "The Dynamics of the Wages Question",
+          "pp. 130–142",
+          "2485844"
+        ],
+        [
+          "The Dynamics of the Wages Question-Discussion",
+          "pp. 143–153",
+          "2485845"
+        ],
+        [
+          "Distribution by a Law of Rent",
+          "pp. 154–165",
+          "2485846"
+        ],
+        [
+          "Distribution by a Law of Rent-Discussion",
+          "pp. 166–172",
+          "2485847"
+        ],
+        [
+          "The Union and the Open Shop",
+          "pp. 173–182",
+          "2485848"
+        ],
+        [
+          "Free Shops for Free Men",
+          "pp. 183–189",
+          "2485849"
+        ],
+        [
+          "Problems of Organized Labor-Discussion",
+          "pp. 190–210",
+          "2485850"
+        ],
+        [
+          "Trade Union Ideals",
+          "pp. 211–247",
+          "2485851"
+        ],
+        [
+          "Trade Union Ideals-Discussion",
+          "pp. 248–268",
+          "2485852"
+        ],
+        [
+          "Currency Problems in the Orient",
+          "pp. 269–279",
+          "2485853"
+        ],
+        [
+          "Currency Problems in the Orient-Discussion",
+          "pp. 280–295",
+          "2485854"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "American Economic Association",
+          "autores": "Manual da associação",
+          "paginas": "pp. 5–41",
+          "resumo": "Introdução, estatuto, regimento, dirigentes para 1903, conselho, lista de sócios e resumo de 1.008 sócios e assinantes em 1º de fevereiro de 1903.",
+          "jstor": "2485838"
+        },
+        {
+          "titulo": "The Fifteenth Annual Meeting",
+          "autores": "Relatório da reunião",
+          "paginas": "pp. 42–51",
+          "resumo": "Programa das seis sessões de 26, 27 e 29 de dezembro de 1902, lista de presentes, reuniões do conselho, relatórios do secretário e do tesoureiro, emenda ao estatuto, escolha de Nova Orleans para a reunião seguinte e resoluções.",
+          "jstor": "2485839"
+        },
+        {
+          "titulo": "Economics and Social Progress",
+          "autores": "Edwin R. A. Seligman; discurso presidencial",
+          "paginas": "pp. 52–70",
+          "resumo": "Seligman sustenta que a ciência econômica nasce das condições econômicas e que suas leis valem para estágios determinados do desenvolvimento. Aplica essa relatividade à história americana: democracia, individualismo e escravidão aparecem como produtos de terra livre e ambiente econômico, não de caráter nacional. Contra o pessimismo sobre luxo e plutocracia, aponta seis traços da sociedade industrial moderna: esgotamento da terra livre, predomínio do capital industrial, aplicação da ciência à produção, concorrência elevada a forma superior, opinião pública e ideal democrático. Conclui que a economia, criatura do passado, será criadora do futuro, com papel crescente na legislação.",
+          "jstor": "2485840"
+        },
+        {
+          "titulo": "National Regulation of Railways",
+          "autores": "Charles A. Prouty (Interstate Commerce Commission)",
+          "paginas": "pp. 71–83",
+          "resumo": "Prouty afirma que não existe regulação nacional das ferrovias, porque não há controle das tarifas interestaduais. Com as consolidações, o problema deixou de ser a discriminação entre embarcadores e passou a ser a cobrança de tarifas excessivas. Ilustra com fretes de grãos, feno e carvão antracito e argumenta que o consumidor paga e o acionista recebe. Defende uma comissão especializada que revise tarifas fixadas pelas ferrovias e um tribunal de comércio, com juízes vitalícios, para rever e executar suas ordens, em vez dos tribunais federais comuns.",
+          "jstor": "2485841"
+        },
+        {
+          "titulo": "Legislative Regulation of Railroad Rates",
+          "autores": "Walker D. Hines (Louisville and Nashville R. R.)",
+          "paginas": "pp. 84–103",
+          "resumo": "Hines, vice-presidente da Louisville and Nashville, examina a proposta de dar à Interstate Commerce Commission o poder de fixar tarifas, negado pela Suprema Corte no Maximum Rate Case, de 24 de maio de 1897. Sustenta que o novo poder seria legislativo e escaparia ao controle judicial, salvo em caso de confisco; que o corte secreto de tarifas, o mal mais sério, não seria resolvido por ele; e que a concorrência entre mercados mantém os fretes baixos. Defende o direito das ferrovias de partilhar a prosperidade e pede investigação antes de nova lei.",
+          "jstor": "2485842"
+        },
+        {
+          "titulo": "Public Regulation of Railroads-Discussion",
+          "autores": "Emory R. Johnson, Balthasar H. Meyer, J. Shirley Eaton, Max West, C. S. Walker, Frederick C. Clark, Charles W. Mixter, Theodore Marburg, Henry B. Gardner, Walker D. Hines e Charles A. Prouty",
+          "paginas": "pp. 104–129",
+          "resumo": "Johnson sustenta que as discriminações entre classes de tráfego e localidades, e não a extorsão, continuam o problema central; Meyer e outros discutem o alcance da regulação; Hines e Prouty respondem.",
+          "jstor": "2485843"
+        },
+        {
+          "titulo": "The Dynamics of the Wages Question",
+          "autores": "John B. Clark (Columbia University)",
+          "paginas": "pp. 130–142",
+          "resumo": "Clark distingue o padrão de salários, fixado pela produtividade marginal do trabalho e em alta, do salário efetivo, que o persegue com atraso. O intervalo entre os dois gera o lucro do empresário e o incentivo à invenção, como o cabo entre rebocador e barcaça. Com quatro gráficos, compara o efeito de monopólios, patentes e consolidações. Em oito teses, argumenta que sindicatos que restringem a entrada no ofício e a produção podem aliar-se a trustes para taxar o público, e que o limite desse ganho é a concorrência potencial, que depende de regulação efetiva do Estado.",
+          "jstor": "2485844"
+        },
+        {
+          "titulo": "The Dynamics of the Wages Question-Discussion",
+          "autores": "John A. Hobson, Thomas N. Carver, Edward A. Ross e John B. Clark",
+          "paginas": "pp. 143–153",
+          "resumo": "Hobson nega que se possa medir o produto específico do trabalhador marginal e duvida do limite natural ao monopólio; Carver defende e critica a teoria da produtividade; Ross intervém; Clark responde.",
+          "jstor": "2485845"
+        },
+        {
+          "titulo": "Distribution by a Law of Rent",
+          "autores": "Charles W. Macfarlane (Filadélfia)",
+          "paginas": "pp. 154–165",
+          "resumo": "Macfarlane elogia a distinção de Clark entre capital, fundo permanente e móvel, e bens de capital, suas formas concretas, mas aponta falta de correspondência entre premissas e conclusões. Os diagramas em que Clark apresenta juros e salários como excedentes diferenciais, semelhantes à renda, supõem acréscimos sucessivos de trabalho a um capital fixo e mudança na forma dos instrumentos, isto é, condições dinâmicas. Nesse caso, argumenta, os diagramas deveriam conter o lucro puro, e o ganho diferencial viria das formas concretas do capital, não do fundo homogêneo.",
+          "jstor": "2485846"
+        },
+        {
+          "titulo": "Distribution by a Law of Rent-Discussion",
+          "autores": "Alvin S. Johnson, Simon N. Patten, Mr. Swift e Charles W. Macfarlane",
+          "paginas": "pp. 166–172",
+          "resumo": "Johnson sustenta que a diferença entre Macfarlane e Clark é sobretudo de termos; Patten trata a questão historicamente, a partir das três classes inglesas; Macfarlane responde que não se trata de definições.",
+          "jstor": "2485847"
+        },
+        {
+          "titulo": "The Union and the Open Shop",
+          "autores": "Henry White (United Garment Workers of America)",
+          "paginas": "pp. 173–182",
+          "resumo": "White, secretário do sindicato dos trabalhadores do vestuário, descreve o movimento sindical como esforço da classe trabalhadora por representação e por democracia industrial, não como resposta temporária a maus patrões. Sustenta que a oficina parcialmente organizada é insustentável, porque o não sindicalizado frustra a ação coletiva, e que a melhor situação é a de dois lados fortes, favorável à arbitragem. Reconhece que excluir trabalhadores é poder de caráter público, sujeito a regras de apelação, condena a violência e compara a democracia a um mar tempestuoso, preferível à calmaria da sujeição.",
+          "jstor": "2485848"
+        },
+        {
+          "titulo": "Free Shops for Free Men",
+          "autores": "William H. Pfahler (ex-presidente da National Founders' Association)",
+          "paginas": "pp. 183–189",
+          "resumo": "Pfahler define a oficina aberta como reação do empregador à exigência de contratar só sindicalizados e diz que a objeção não é à organização do trabalho, mas a seus métodos e ao sigilo. Enumera oito perigos da oficina sindical, entre eles a perda da escolha dos empregados, o limite de aprendizes, a oposição a máquinas e a limitação da produção. Admite que empregadores que se recusam a negociar são os melhores recrutadores dos sindicatos e prevê uma união entre capital e trabalho sem necessidade de imposição.",
+          "jstor": "2485849"
+        },
+        {
+          "titulo": "Problems of Organized Labor-Discussion",
+          "autores": "Samuel B. Donnelly, Ernest F. Du Brul, John E. George, Isaac Hourwich, Hugo Bilgram, Stuart Wood, John A. Hobson, Delmer E. Hawkins, Frank O'Connor, E. Dana Durand, William Z. Ripley e Henry White",
+          "paginas": "pp. 190–210",
+          "resumo": "Donnelly, ex-presidente da Typographical Union nº 6, contesta o retrato da oficina aberta e classifica os não sindicalizados; White responde a Du Brul enumerando os frutos do sindicalismo.",
+          "jstor": "2485850"
+        },
+        {
+          "titulo": "Trade Union Ideals",
+          "autores": "George E. McNeill (Boston) e Frank K. Foster (Massachusetts Federation of Labor)",
+          "paginas": "pp. 211–247",
+          "resumo": "Dois trabalhos. McNeill chama os sindicatos de democracias dos pobres, compara sistemas financeiros de duas uniões nacionais, recorre a imagens religiosas e defende jornadas de oito ou seis horas e o fim do trabalho monótono. Foster, presidente do comitê legislativo da federação de Massachusetts, define o sindicalismo como oportunista e prático: lista conquistas como jornada menor, salários maiores, combate ao trabalho infantil e seguro aos membros; registra mais de cinco milhões de sindicalizados entre os povos de língua inglesa; e sustenta que os ideais sindicais não diferem dos da humanidade civilizada.",
+          "jstor": "2485851"
+        },
+        {
+          "titulo": "Trade Union Ideals-Discussion",
+          "autores": "Simeon B. Chase, Jesse E. Pope, Hugo Bilgram, Thomas N. Carver, Mr. Swift, Delmer E. Hawkins, C. S. Walker, A. W. Flux, Theodore Marburg, Mr. Grigg, Henry W. Farnam, Isaac Hourwich, Ernest F. Du Brul e Frank K. Foster",
+          "paginas": "pp. 248–268",
+          "resumo": "Chase, gerente de fiação em Fall River, contrapõe a prática sindical aos ideais expostos; seguem intervenções de economistas e empregadores e a resposta de Foster.",
+          "jstor": "2485852"
+        },
+        {
+          "titulo": "Currency Problems in the Orient",
+          "autores": "Jeremiah W. Jenks (Cornell University)",
+          "paginas": "pp. 269–279",
+          "resumo": "Jenks usa a variedade de sistemas monetários da Ásia para examinar quem ganha e quem perde com a variação cambial. Na Índia, a rupia caiu de cerca de dois xelins para menos de treze pence entre 1872 e 1893; exportadores ganharam, e o governo, com dívida em ouro, perdeu. O princípio: o ganho de uma classe com moeda em queda ou alta é, em geral, compensado pela perda de outra. Compara Ceilão, Estados Malaios, Sumatra e Java e aplica o raciocínio às Filipinas, onde os perdedores seriam os filipinos e o governo.",
+          "jstor": "2485853"
+        },
+        {
+          "titulo": "Currency Problems in the Orient-Discussion",
+          "autores": "Charles A. Conant, G. Bruce Webster, Horace White e Jeremiah W. Jenks",
+          "paginas": "pp. 280–295",
+          "resumo": "Conant vê na queda da prata uma crise de câmbio mundial e rejeita o bimetalismo internacional; Webster defende a prata para os filipinos; Horace White comenta o projeto do senador Lodge para a moeda das ilhas.",
+          "jstor": "2485854"
+        }
+      ],
+      "jstor_edicao": "i322399",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1903-a-populacao-de-boston",
+      "numero": 66,
+      "titulo": "Bushee, 1903: moradia, trabalho e mortalidade na Boston imigrante",
+      "titulo_original": "Ethnic Factors in the Population of Boston",
+      "autores": "Frederick A. Bushee",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 4, nº 2",
+      "data": "maio de 1903",
+      "chamada": "Em 1903, Frederick A. Bushee reuniu censos, registros de saúde e de assistência para comparar moradia, ocupação e mortalidade dos grupos de origem de Boston. Os números e o método, descritos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "North End, Boston, 1891. O censo dos cortiços da cidade percorre dois distritos eleitorais ocupados quase só por imigrantes italianos. Ali, 259 famílias, mais de um quarto da população dos dois distritos, viviam em média com duas pessoas por cômodo, e 154 delas ocupavam um único cômodo. A média dos dois distritos era de 1,41 pessoa por cômodo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os números estão em Ethnic Factors in the Population of Boston, de Frederick A. Bushee, publicado em maio de 1903 como volume 4, nº 2, da terceira série das Publications of the American Economic Association, em 171 páginas. O autor apresenta o estudo como continuação de um artigo seu de junho de 1899, nas publicações da American Statistical Association, sobre o crescimento da população de Boston pela imigração. Os dez capítulos tratam de causas da imigração, características dos imigrantes, padrão de vida, vitalidade, ocupações, pobreza, crime, naturalização, casamentos mistos e conclusão. No primeiro, Bushee diz que pretende considerar o valor de cada grupo na vida da cidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O prefácio é de William Z. Ripley. Ele compara o livro com Americans in Process, estudo da South End House sobre um distrito pequeno e homogêneo, feito sobretudo por investigação pessoal. Bushee, ao contrário, toma a cidade inteira e pode se apoiar quase só em estatísticas oficiais. Ripley dá o argumento de método: as estatísticas vitais são tabuladas por divisão administrativa, mas muitas vezes o que explica a taxa de um bairro é a proporção de cada grupo na sua população. Sobre uma taxa de mortalidade por distrito que ignore essa composição, ele escreve:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Pode se tornar inteiramente enganosa”",
+          "original": "“It may become entirely misleading”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual era o tamanho da Boston imigrante?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A tabela de abertura usa o censo federal de 1900, por local de nascimento e por nascimento dos pais. Os nascidos em Massachusetts eram 285.242. Pelo nascimento dos pais, o grupo irlandês chegava a 156.650 pessoas. Segundo Bushee, Boston era a 15ª entre 161 cidades principais na proporção de estrangeiros e a segunda entre as seis maiores dos Estados Unidos. Os irlandeses eram os mais antigos: cerca de 24 mil em 1846 e perto de 60 mil dez anos depois."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "70.147",
+          "texto": "Nascidos na Irlanda residentes em Boston pelo censo de 1900, o maior grupo estrangeiro da tabela de Bushee. Seguem os nascidos no Canadá inglês (47.374), na Rússia (14.995), na Itália (13.728), na Inglaterra (13.174) e na Alemanha (10.523)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como e quanto se pagava para morar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo sobre padrão de vida combina o censo de cortiços de 1891, relatórios do escritório de estatísticas do trabalho de Massachusetts e boletins do Departamento do Trabalho. Bushee registra preços. Dez ou doze homens solteiros alugavam juntos um cômodo, cada um pagando 25 ou 30 centavos por semana; duas refeições por dia custavam cerca de um dólar semanal. Em quartos pequenos sem janela externa, um homem solteiro conseguia onde dormir por 50 centavos por semana."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "56,2%",
+          "texto": "Média dos moradores italianos dos distritos 6 e 7 que viviam, em 1891, em cortiços classificados como “ruins” em pelo menos um aspecto, pelo censo de cortiços de Boston. Para os russos, 39,7%; para os irlandeses, 27,1%. Bushee observa que essa é a única parte da cidade em que a comparação era possível."
+        },
+        {
+          "tipo": "p",
+          "texto": "Separadas dos cortiços estão as pensões, onde viviam caixeiros, vendedores, vendedoras, mecânicos, garçonetes e trabalhadores sem qualificação. O censo estadual de 1895 contou 54.442 pensionistas e inquilinos de quartos em Boston. Um quarto de frente grande custava 4 ou 5 dólares por semana, em geral para duas pessoas; o de fundos, cerca de um dólar menos. Bushee insiste na distinção:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“é enganoso agrupar juntas a classe do cortiço e a da pensão”",
+          "original": "“it is misleading to group the tenement and the lodging house classes together”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que as taxas de mortalidade medem, e o que não medem?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a mortalidade, Bushee toma a média de óbitos de 1894, 1895 e 1896, compilada pelo conselho de saúde, e a divide pela população do censo estadual de 1895. Ele calcula a taxa de duas formas: por local de nascimento e por nascimento dos pais. A escolha muda o resultado. Entre os nascidos na Itália, a taxa era de 14,93 por mil; pelo nascimento dos pais, que inclui os filhos nascidos em Boston, subia para 25,88. O autor atribui a diferença sobretudo à mortalidade infantil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "6,09",
+          "texto": "Óbitos por mil habitantes entre os nascidos na Rússia, em grande parte judeus, em 1894-96, a menor taxa da tabela. Pelo nascimento dos pais, a taxa do grupo sobe para 15,95. Para os americanos nativos, cai de 24,33 para 19,03 quando se excluem os filhos de estrangeiros."
+        },
+        {
+          "tipo": "p",
+          "texto": "O próprio autor enumera as limitações. A segunda geração de estrangeiros entra como “nativa”, o que infla a natalidade dos grupos estrangeiros e reduz a dos nativos. Grupos recém-chegados não são populações normais, porque concentram adultos em idade reprodutiva; por isso, diz ele, as taxas de natalidade mostram o crescimento efetivo de cada grupo, não sua fecundidade. Os nascimentos por origem só existiam para 1889 e 1890, e eram levantados de casa em casa; o registro por médicos começou em 1892."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para conferir, Bushee usa um segundo método: o aumento dos nascidos em Boston de pais estrangeiros entre 1890 e 1895. O grupo russo, com 11.979 pessoas em 1895, teve aumento natural de 3.001 no quinquênio; o irlandês, com 71.571, de 3.133. Entre 1890 e 1895, ainda segundo o autor, o grupo russo cresceu 178% pela imigração e 25% pelo crescimento natural. Para a natalidade baixa dos americanos nativos, ele oferece uma explicação econômica: a concorrência nas grandes cidades tornaria a manutenção do padrão de vida e da posição social incompatível com famílias grandes, e às vezes com o próprio casamento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde e em que se trabalhava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O censo de 1895 não trazia ocupações por local de nascimento, e Bushee recorre ao censo estadual de 1885, comparado com 1870. Em 1885, 68,67% dos homens e 29,53% das mulheres de Boston tinham ocupação remunerada. A parcela da população total com ocupação passou de 41% em 1870 para 48,2% em 1885 e 48,5% em 1895; o aumento entre 1885 e 1895, diz o autor, deveu-se inteiramente ao trabalho feminino."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "37% → 27%",
+          "texto": "Participação dos trabalhadores sem qualificação entre os ocupados de Boston de 1870 a 1885, pelos censos compilados por Bushee. No mesmo período, profissionais, comerciantes e servidores passaram de 20% para 23%, e artesãos e trabalhadores qualificados, de 27% para 30%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1895, a produção manufatureira ocupava menos de um terço da população ativa, ou 15% da população total, e o comércio e o transporte ocupavam quase tanto quanto ela. O serviço pessoal e doméstico respondia por 18,8% dos ocupados, e o governo, por 2,8%. Para Bushee, os números mostram Boston como centro de distribuição dos produtos da Nova Inglaterra."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 2,50",
+          "texto": "Salário diário padrão do sindicato dos carpinteiros em Boston, segundo Bushee. Trabalhadores sazonais vindos do Canadá trabalhavam muitas vezes por menos de US$ 2; no sul de Nova York e na Pensilvânia, carpinteiros recebiam de US$ 3 a US$ 3,75 por dia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso dos carpinteiros é o argumento econômico mais desenvolvido do capítulo. Quem vinha só para a temporada, escreve o autor, tinha pouco interesse permanente na cidade, sentia menos o custo de vida americano e se sindicalizava menos; daí aceitar salários menores, o que impedia o sindicato de elevar o padrão local."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que dados havia sobre pobreza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os asilos municipais são a fonte principal. No inverno de 1899-1900, o de Long Island tinha 616 internos e o de Charlestown, reservado a idosos, 99, num total de 715. Bushee adverte que o número não inclui os pobres sem domicílio legal em Boston, enviados a instituições estaduais, cuja nacionalidade não podia ser obtida. Ele usa ainda uma tabela de Amos G. Warner sobre causas da pobreza em várias cidades: em 2.075 casos, doença respondia por 26,16%, bebida por 22,89% e problemas de emprego por 19,95%."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor do livro está menos nas conclusões sobre os grupos e mais no inventário de fontes que ele mostra para uma cidade americana de 1900: censo de cortiços, censo estadual de ocupações, registros de óbitos e de nascimentos, asilos e entidades de caridade. E nas cautelas que o próprio autor registra. O salto da mortalidade italiana de 14,93 para 25,88 conforme se conte por local de nascimento ou por nascimento dos pais é uma lição de método: a definição do grupo decide o resultado antes de qualquer interpretação.",
+            "As tabelas comparam taxas brutas, sem padronizar idade, renda ou moradia, e os denominadores vêm de anos diferentes dos numeradores. Com esses dados não é possível separar o que cabe à origem do que cabe à composição etária, ao tempo de residência e ao bairro, a mesma armadilha que Ripley aponta no prefácio para as taxas por distrito. O trecho sobre os carpinteiros, por sua vez, antecipa um tema permanente da economia do trabalho: o efeito da migração temporária sobre o poder de barganha de um sindicato local."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cortiço (tenement)",
+          "prédio de aluguel dividido em vários apartamentos ou cômodos, com instalações muitas vezes compartilhadas."
+        ],
+        [
+          "Pensão (lodging house)",
+          "casa dedicada a alugar quartos a inquilinos, em geral solteiros."
+        ],
+        [
+          "Nascimento dos pais (parent nativity)",
+          "classificação de uma pessoa pela origem do pai e da mãe, e não pelo próprio local de nascimento."
+        ],
+        [
+          "Taxa bruta de mortalidade",
+          "óbitos por mil habitantes, sem ajuste pela composição etária da população."
+        ],
+        [
+          "Crescimento natural",
+          "diferença entre nascimentos e óbitos, sem contar migração."
+        ],
+        [
+          "Asilo municipal (almshouse)",
+          "instituição pública que abrigava pessoas sem meios de sustento."
+        ],
+        [
+          "Ocupação remunerada (gainful occupation)",
+          "categoria censitária de quem exerce trabalho pelo qual recebe pagamento."
+        ]
+      ],
+      "hoje": "A pergunta metodológica de 1903 continua no centro das estatísticas de migração e saúde. Comparar grupos por taxas brutas mistura idade, renda, tempo de residência e local de moradia, e por isso os institutos de estatística padronizam por idade e decompõem diferenças antes de atribuí-las a qualquer fator. A classificação da segunda geração, se pelo local de nascimento ou pela origem dos pais, ainda muda resultados. E o efeito de trabalhadores temporários sobre salários e sindicatos locais segue em debate onde há programas de trabalho sazonal.",
+      "itens": [
+        [
+          "Ethnic Factors in the Population of Boston",
+          "pp. 1–171",
+          "2485881"
+        ]
+      ],
+      "jstor_edicao": "i322400",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1903-trabalho-por-contrato-no-havai",
+      "numero": 67,
+      "titulo": "Coman, 1903: meio século de trabalho por contrato no Havaí",
+      "titulo_original": "The History of Contract Labor in the Hawaiian Islands",
+      "autores": "Katharine Coman, Ph.B.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 4, nº 3",
+      "data": "agosto de 1903",
+      "chamada": "Em 1903, Katharine Coman reconstituiu as leis, os salários e os custos do trabalho por contrato nas plantações de açúcar do Havaí, de 1850 à anexação. A história, os números e o argumento econômico, descritos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Plantação de Hana, ilha de Maui, 1º de setembro de 1874. Um trabalhador chamado Kealaula assina contrato por dezoito meses. Cada mês tem 26 dias de trabalho, cada dia não menos de dez horas. Em troca, os donos pagam oito dólares por mês e fornecem poi, a pasta de taro, mas não carne. O documento aparece em nota como modelo de contrato na monografia de Katharine Coman."
+        },
+        {
+          "tipo": "p",
+          "texto": "The History of Contract Labor in the Hawaiian Islands saiu em agosto de 1903 como volume 4, nº 3, da terceira série das Publications of the American Economic Association, em 61 páginas. No prefácio, datado de Cedar Hill, Waltham, Massachusetts, em 20 de maio de 1903, a autora conta que o estudo resultou de uma visita às ilhas e de conversas com plantadores e legisladores. Agradece ao ex-procurador-geral W. O. Smith o acesso à legislação antiga e aos autos judiciais, e registra que a bibliografia sobre o tema ainda era muito curta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que faltava mão de obra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Coman parte de duas condições. A primeira é técnica: segundo W. C. Stubbs, diretor da estação experimental agrícola da Louisiana, as plantações havaianas rendiam em média cinco toneladas de açúcar por acre, contra uma e meia na Louisiana e de uma a duas em Cuba, embora a cana levasse de três a seis meses a mais para amadurecer. Cortada, a cana precisava chegar ao engenho em três dias, ou azedava. Cada máquina nova exigia mais área e, com ela, mais gente disponível no momento exato da colheita."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "84.165 → 29.799",
+          "texto": "População nativa do Havaí no censo de 1850 e havaianos recenseados em 1900, pelos números citados por Coman. Em 1900 havia ainda 7.857 havaianos de ascendência mista, numa população total de 154 mil. O primeiro censo, de 1832, contara 130.313 pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda condição é demográfica. Uma lei de 1850 registrava que a população nativa diminuía e que a falta de braços encarecia os alimentos, e proibia os súditos nativos de deixar as ilhas sem permissão. No mesmo ano, a Lei de Senhores e Servos (Master and Servants Act) legalizou o aprendizado e a servidão por contrato. Um adulto podia se obrigar por até cinco anos; o desertor era devolvido ao patrão e devia servir o dobro do tempo de ausência; quem se recusasse podia ser preso com trabalhos forçados até aceitar. Contratos firmados no exterior valiam, limitados a dez anos. Para Coman, essa é a base legal de todo o sistema."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "115 mil",
+          "texto": "Trabalhadores importados para o Havaí sob a lei de 1850, em vigor até 1897, segundo a autora. Entre 1855 e 1885 chegaram 2.448 polinésios, dos quais restavam cerca de 600, só 46 nas plantações. Cerca de 14 mil portugueses vieram, sobretudo dos Açores e da Madeira, e 62 mil japoneses entraram sob a convenção de 1886."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava um trabalhador contratado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro carregamento, em 1852, trouxe 180 trabalhadores chineses, contratados por cinco anos a três dólares por mês, além de passagem paga, comida, roupa e abrigo. O transporte custava 50 dólares por homem e a manutenção era estimada em cinco dólares mensais. Coman calcula o custo total do trabalho em cerca de nove dólares por mês."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1865, a Junta de Imigração enviou o médico Hillebrand em viagem pela Ásia; seu primeiro passo foi organizar a vinda de 500 chineses. O transporte, de 59 dólares, era pago pelo plantador, mas, exceto o bônus e as despesas da Junta, era tratado como adiantamento e descontado do salário mês a mês. Com quatro dólares por mês e dois de presente de Ano Novo, o trabalhador ganhava 150 dólares em três anos, mais oito de bônus; pago o adiantamento de 41, ficava com 119. Como comida, abrigo e roupa eram fornecidos, a autora considera a maior parte dessa soma ganho líquido."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 22,25",
+          "texto": "Salário mensal estimado de um trabalhador português livre, contra US$ 19,53 do português sob contrato, no relatório da Junta de Imigração de 1888-1890. Havaianos: US$ 20,64 livres e US$ 18,58 contratados; japoneses: US$ 18,84 e US$ 15,58; chineses: US$ 17,47 e US$ 17,61."
+        },
+        {
+          "tipo": "p",
+          "texto": "Coman explica a diferença pela composição: a maioria dos contratados cumpria o primeiro termo, ou só encontrava emprego sob contrato e com salário baixo. Os termos também mudaram com a escassez. Em 1877 a Junta garantia aos portugueses dez dólares por mês, com comida e alojamento; em 1884 já oferecia dezesseis, com alojamento e lenha mas sem comida, mais um auxílio por filho. No mesmo ano, a firma Hoffnung, de Londres, escrevia que, segundo seu agente em São Miguel, os salários tinham dobrado e que o Brasil e outros governos disputavam os mesmos emigrantes. Os embarques de portugueses cessaram depois de 1888."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o Estado regulava o contrato?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A partir de 1872, todo contrato tinha de ser reconhecido pelas duas partes diante de um funcionário do governo, que registrava nomes, prazo, adiantamento e salário. O contrato era pessoal: o trabalhador não ficava preso à terra, e o vínculo cessava com a morte do patrão ou a venda da plantação. Uma lei de 1876 fixou em nove horas o dia de trabalho quando o contrato não o definia; uma de 1880 estabeleceu padrões sanitários para os alojamentos, com 300 pés cúbicos de ar por adulto; uma de 1884 proibiu descontar por tempo perdido mais do que o valor desse tempo. Inspetores da Junta visitavam as plantações quatro vezes por ano. A autora compara o sistema ao da Guiana Inglesa, apontando pontos a favor de cada um."
+        },
+        {
+          "tipo": "p",
+          "texto": "A política de origem dos trabalhadores oscilou entre a demanda dos plantadores e as restrições do governo. Os chineses passaram de 5.916 em 1878 para 19.217 em 1889. Em 1883 vieram as primeiras restrições, em 1886 uma lei de exclusão, e em 1895 uma licença condicionada: para cada dez chineses, o plantador devia trazer um trabalhador europeu ou americano. A convenção com o Japão, de 1886, fez do governo havaiano responsável pelos contratos, com intérpretes e médicos japoneses."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se fazia cumprir um contrato sem garantia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui está o argumento econômico central da monografia. O trabalhador chegava sem propriedade e endividado pela passagem; o plantador só adiantaria passagem e emprego se tivesse um direito exigível por prazo definido. A autora resume o problema:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Obviamente, ele nada tem a perder senão a liberdade”",
+          "original": "“Obviously he has nothing to forfeit but his freedom”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Suprema Corte havaiana tratou o dilema em 1873, em Wood contra Afo, e em 1891, no caso do trabalhador japonês Mioshi, e manteve a execução penal. Sobre a alternativa de processar o desertor por perdas e danos, a decisão de 1873 diz:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Isso pode ser considerado, na maioria dos casos, mero escárnio”",
+          "original": "“This may be regarded in most cases as mere mockery”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Coman situa o caso numa tendência mais longa: o fim da servidão por contrato nas colônias atlânticas, a reforma inglesa que substituiu prisão por multa e, em 1875, a lei de Empregadores e Trabalhadores, a lei prussiana de 1869 e, nos Estados Unidos, o voto vencido do juiz Harlan em Robertson contra Baldwin, de 1896, seguido da emenda de 1898 à lei de navegação. A Lei Orgânica de 1900, que deu governo ao território do Havaí, vedou a execução específica de contratos de trabalho e anulou os firmados desde 12 de agosto de 1898. Pelo comissário do trabalho dos Estados Unidos, das 22 greves registradas em 1900, 20 foram de trabalhadores de plantação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que substituiu o contrato?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta dos plantadores foi a “companhia de contrato”, uma espécie de parceria coletiva. O plantador fornecia terra, muda, água, adubo e ferramentas, fazia as tarefas que exigiam máquinas e adiantava dez dólares mensais a cada trabalhador. Um campo de 50 a 100 acres era arrendado a um grupo de uma dúzia ou mais de homens, que cuidavam da cana e eram pagos pelo produto. O preço por peça acompanhava o do açúcar: dois dólares por tonelada de cana ou sete por tonelada de açúcar, cerca de um sétimo do valor da safra."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25%",
+          "texto": "Ganho adicional dos trabalhadores das companhias de contrato em relação ao que receberiam como assalariados, segundo Coman. A produção, nas mesmas condições de solo e água, era maior em um quarto ou um quinto do que a das turmas supervisionadas por capatazes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Coman conclui que o contrato, como administrado pela Junta, serviu aos trabalhadores tanto quanto aos plantadores, e cita o censo de 1900: as terras agrícolas em que chineses tinham participação valiam 2.700.335 dólares, e os japoneses pagavam imposto sobre 1.268.180 dólares de bens pessoais. A autora registra também o custo do sistema: a importação de milhares de trabalhadores sob contrato semisservil desestimulou a imigração livre, e nesse ponto ela o compara ao trabalho escravo dos estados do Sul. E conclui que a execução penal é um anacronismo na ordem industrial moderna."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a monografia descreve com clareza um problema clássico de financiamento: alguém precisa pagar a passagem de um trabalhador sem patrimônio, e o credor precisa de uma garantia. A pena de prisão fazia o papel da garantia que o trabalhador não tinha. Quando ela foi abolida, a garantia reapareceu em outra forma: as companhias de emigração japonesas passaram a adiantar a passagem e a exigir fiança do emigrante ou de parentes, confiscada em caso de fuga. O problema econômico continuou; mudou quem o carregava.",
+            "A companhia de contrato é o trecho mais interessante para a teoria dos contratos. Ao trocar salário fixo por pagamento pelo produto, indexado ao preço do açúcar, os plantadores transferiram parte do risco e alinharam incentivos, e a autora relata ganho de produção e de renda. Os números de salário, porém, comparam contratados e livres sem separar experiência e tempo de serviço, ressalva que a própria Coman faz."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Trabalho por contrato (indentured labor)",
+          "trabalho prestado por prazo fixo, em geral em troca de passagem adiantada, com obrigação legal de cumprir o termo."
+        ],
+        [
+          "Master and Servants Act",
+          "lei havaiana de 1850 que regulou aprendizado e servidão por contrato."
+        ],
+        [
+          "Execução penal do contrato",
+          "uso de prisão ou multa criminal para obrigar o trabalhador a cumprir o contrato."
+        ],
+        [
+          "Execução específica",
+          "ordem judicial para cumprir a prestação contratada, e não apenas pagar indenização."
+        ],
+        [
+          "Junta de Imigração (Board of Immigration)",
+          "órgão do governo havaiano que regulava origem, transporte e contratos dos trabalhadores importados."
+        ],
+        [
+          "Companhia de contrato",
+          "grupo de trabalhadores que arrendava um campo de cana e era pago pela produção."
+        ],
+        [
+          "Poi",
+          "pasta de raiz de taro, alimento básico havaiano."
+        ]
+      ],
+      "hoje": "O dilema que Coman descreve existe hoje com outros nomes. Trabalhadores migrantes que se endividam com taxas de recrutamento e passagem, vistos que prendem o trabalhador a um único empregador e retenção de documentos são temas das convenções internacionais sobre trabalho forçado. A resposta de 1903, trocar a coerção por contratos de produção e por regulação pública do recrutamento, continua no centro do debate. E os contratos de parceria e de pagamento por produção seguem como exemplo de como dividir risco e incentivo quando a supervisão é cara.",
+      "itens": [
+        [
+          "The History of Contract Labor in the Hawaiian Islands",
+          "pp. 1–61",
+          "2485748"
+        ]
+      ],
+      "jstor_edicao": "i322401",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1903-o-imposto-de-renda-nos-estados",
+      "numero": 68,
+      "titulo": "Kinsman, 1903: sessenta anos de imposto de renda estadual",
+      "titulo_original": "The Income Tax in the Commonwealths of the United States",
+      "autores": "Delos O. Kinsman, Ph.D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "3ª série, vol. 4, nº 4",
+      "data": "novembro de 1903",
+      "chamada": "Em 1903, Delos O. Kinsman leu as leis de cada estado americano desde a admissão na União para contar a história do imposto de renda estadual. Os números de arrecadação e a conclusão do autor, descritos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Massachusetts, 1874. Uma cidade de 14 mil habitantes, com patrimônio avaliado em 8,4 milhões de dólares e muitos comerciantes e industriais prósperos, lança o imposto de renda sobre apenas treze pessoas: caixas de banco, advogados, clérigos, médicos, um agente de fábrica e um atuário. A renda tributada de todos somava 15.121 dólares. O caso está no relatório da comissão tributária estadual de 1875, e Delos O. Kinsman o reproduz para mostrar como a lei funcionava na prática."
+        },
+        {
+          "tipo": "p",
+          "texto": "The Income Tax in the Commonwealths of the United States saiu em novembro de 1903 como volume 4, nº 4, da terceira série das Publications of the American Economic Association, em 128 páginas. No prefácio, assinado em Whitewater, Wisconsin, o autor diz ter escrito para estudantes de finanças públicas e legisladores. Como leis eram aprovadas e revogadas sem chegar às consolidações, ele afirma ter examinado as leis de cada sessão legislativa de cada estado, desde a admissão na União, além de decisões judiciais, relatórios financeiros, mensagens de governadores e constituições."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quantos estados tentaram tributar a renda?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Kinsman divide a história em dois períodos. O primeiro, até cerca de 1825, é o do imposto sobre a “faculdade”, cobrado sobre uma renda estimada ou presumida. O segundo, de cerca de 1840 em diante, é o do imposto de renda propriamente dito, que tenta medir a renda exata de cada contribuinte. Já em 1646 uma lei da baía de Massachusetts cobrava 3 xelins e 4 pence por ano de todo trabalhador ou artesão que ganhasse no verão 18 pence ou mais por dia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "16 de 45",
+          "texto": "Estados que, até 1903, tinham previsto em lei algum imposto de renda, geral ou especial, segundo Kinsman. Seis ainda o cobravam: Massachusetts, Virgínia, Carolina do Norte, Carolina do Sul, Louisiana e Tennessee. Treze constituições estaduais, de oito estados, o previam expressamente."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor identifica três ondas: de 1840 a 1850, quando seis estados introduziram o imposto; de 1860 a 1870, quando sete o fizeram; e uma retomada a partir de cerca de 1895. Na primeira, o motivo dominante foi a dívida acumulada com obras de infraestrutura; na segunda, as despesas da Guerra Civil. Na fase recente, diz Kinsman, pesa mais a demanda por justiça na distribuição da carga."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a lei funcionava em Massachusetts?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Massachusetts tem a experiência mais longa. A lei isentava a renda de profissões e ofícios até 600 dólares a partir de 1849, e o limite subiu para 1.000 dólares em 1866. Em 1873, depois de uma campanha pela revogação, um acordo entre as duas casas legislativas fixou a isenção em 2.000 dólares. O Boston Daily Advertiser, citado pelo autor, argumentava que a renda poupada era tributada duas vezes, uma como renda e outra como o bem em que fora investida."
+        },
+        {
+          "tipo": "p",
+          "texto": "O imposto era lançado pelas cidades, e cada junta local de avaliadores interpretava a lei a seu modo. Boston isentava a parte da renda investida em bens tributáveis; Cambridge tributava toda a renda; outras cidades deduziam 6% do capital como juros e tributavam só o excedente. Segundo Kinsman, as cidades vizinhas de Boston que queriam atrair moradores de negócios e assalariados simplesmente ignoravam o imposto."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "273 de 340",
+          "texto": "Cidades de Massachusetts que não declararam nenhuma renda tributável nas listas de avaliação de 1873, pelo levantamento feito para a comissão de 1875. Só 41 declararam rendas; 17 não responderam."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comissão de 1875 reconheceu que nenhum tributo do sistema tinha aplicação tão desigual, e ainda assim defendeu o imposto:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“ninguém pode entender claramente este imposto sem admitir tanto sua economia quanto sua justiça”",
+          "original": "“no one can clearly understand this tax without admitting both its economy and its justice”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ela recomendou baixar a isenção para 1.000 dólares, deduzir 6% do valor dos bens usados no negócio e criar um órgão central de supervisão. Nada foi adotado. A comissão de 1897 recomendou revogar o imposto e substituí-lo por um tributo sobre a renda presumida pelo gasto com moradia: 10% sobre o aluguel acima de 400 dólares anuais, cobrado do ocupante. Também isso ficou sem efeito."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,5 milhão",
+          "texto": "Renda lançada em 1895 nos condados de Massachusetts, contra US$ 147,8 milhões de bens pessoais avaliados, pelos dados da comissão de 1897. Dukes e Nantucket não declararam renda alguma; Middlesex lançou mais que os outros onze condados somados. Nas cidades, nove de trinta não declararam renda, e o total lançado foi de US$ 3.880.220."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E nos outros estados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Pensilvânia cobrou o imposto de 1841 a 1871. Em 1840, para enfrentar a dívida estadual, criou 1% sobre salários de cargos públicos e um mil por dólar sobre a renda de ofícios e profissões; em 1841 as alíquotas subiram para 2% e 1%. Pela mensagem do governador citada por Kinsman, num total de impostos de 910 mil dólares, os cargos públicos tinham rendido apenas 1.386. O mesmo estado, porém, tributava os dividendos das empresas: em 1864, 3% sobre o lucro líquido anual, pago pelas próprias companhias. Segundo T. K. Worthington, citado pelo autor, esse tributo respondia por 53,3% da receita estadual em 1886."
+        },
+        {
+          "tipo": "p",
+          "texto": "Maryland cobrou 2,5% sobre salários e rendas profissionais a partir de 1842, com isenção abaixo de 500 dólares. Em 1849, só pouco mais da metade do imposto estadual geral foi arrecadada, e nenhum imposto de renda aparece como recolhido; em 1850 a lei foi na prática revogada. A Virgínia começou em 1843 com 1% sobre a renda monetária acima de 400 dólares, e 2,5% sobre juros. O Delaware cobrou, de 1869 a 1871, 2% sobre receitas brutas de banqueiros privados, corretores e agentes imobiliários."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 54.565",
+          "texto": "Imposto de renda arrecadado pela Virgínia em 1899, contra US$ 2.132.368 de imposto estadual, pelos relatórios dos auditores compilados por Kinsman. Na Carolina do Norte, no mesmo ano, US$ 4.399 de US$ 723.307. No Alabama, no melhor período, na década de 1880, US$ 22.116 de mais de US$ 600 mil."
+        },
+        {
+          "tipo": "p",
+          "texto": "O desenho variou de todos os modos possíveis, registra o autor: imposto geral e especial, por cota e por alíquota, proporcional e progressivo, com isenção fixa ou variável. Seis estados usaram alíquotas progressivas. As isenções fixas foram em geral de 300 a 2.500 dólares, sendo 500 e 1.000 as mais comuns; a da Carolina do Sul, em 1903, era de 2.500. A administração foi quase sempre a mesma: lançamento por avaliadores locais e declaração do próprio contribuinte, sob pena severa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que, segundo o autor, o imposto falhou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Kinsman distingue princípio e aplicação. Em teoria, escreve, o imposto de renda é o sistema mais justo já proposto, e a oposição nunca o atacou seriamente nesse terreno. Ele observa que estados aprovaram repetidas vezes leis bem desenhadas, e elas falharam tanto quanto as ruins. Daí sua conclusão:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o imposto de renda estadual foi um fracasso, devido ao fracasso da administração”",
+          "original": "“the state income tax has been a failure, due to the failure of administration”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor aponta quatro causas: o método de autodeclaração, a negligência dos funcionários, o esforço persistente dos contribuintes para evadir e a natureza da própria renda, fácil de ocultar e às vezes difícil de medir até para quem a recebe. A comparação decisiva é com a Inglaterra, onde, segundo ele, o imposto só funcionava onde era cobrado na fonte, e três quartos da renda podiam ser tributados sem perguntar nada ao contribuinte. Com a organização econômica americana de então, conclui, essa cobrança não alcançaria a maior parte da renda, e um imposto geral estadual continuaria a falhar até que a estrutura da economia permitisse outro método."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro é uma demonstração empírica precoce de que a arrecadação de um imposto depende mais da informação disponível ao fisco do que da alíquota escrita na lei. Os dois casos de sucesso que Kinsman encontra têm a mesma estrutura: o imposto sobre o lucro das empresas na Pensilvânia, pago pelas companhias direto ao Tesouro, e o imposto inglês cobrado na fonte. Em ambos, um terceiro informa e recolhe. Onde a base dependia só da palavra do contribuinte, a receita foi quase nula, qualquer que fosse o desenho.",
+            "O capítulo de Massachusetts acrescenta um segundo mecanismo: com o lançamento entregue às cidades, cada uma podia aliviar a cobrança para atrair moradores de renda alta, e muitas fizeram isso. É concorrência fiscal dentro de um único estado. Os números do autor, por fim, vêm de relatórios oficiais que nem sempre separavam o imposto de renda das demais receitas, limitação que ele mesmo registra para a Pensilvânia e para Massachusetts."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto sobre a “faculdade” (faculty tax)",
+          "tributo colonial sobre a capacidade de ganho estimada de uma pessoa, e não sobre a renda medida."
+        ],
+        [
+          "Autodeclaração (self-assessment)",
+          "sistema em que o próprio contribuinte informa ao fisco a renda a tributar."
+        ],
+        [
+          "Cobrança na fonte",
+          "retenção do imposto por quem paga a renda, como o empregador ou a empresa que distribui dividendos."
+        ],
+        [
+          "Isenção",
+          "parcela da renda que não é tributada."
+        ],
+        [
+          "Alíquota progressiva",
+          "percentual que sobe conforme aumenta a renda."
+        ],
+        [
+          "Imposto por cota (apportioned tax)",
+          "tributo em que se fixa primeiro o total a arrecadar e depois se reparte entre as localidades."
+        ],
+        [
+          "Bens pessoais (personal estate)",
+          "bens móveis e financeiros, distintos de terras e imóveis, avaliados para o imposto sobre a propriedade."
+        ]
+      ],
+      "hoje": "O diagnóstico de Kinsman é hoje rotina nas administrações tributárias. A arrecadação do imposto de renda moderno se apoia na retenção na fonte e no cruzamento de informações de terceiros, como empregadores, bancos e empresas; a renda que depende só da declaração do contribuinte, como a de autônomos e pequenos negócios, é onde se concentra a evasão estimada. A disputa entre governos locais por contribuintes de alta renda, que ele viu nas cidades de Massachusetts, continua presente nos debates sobre federalismo fiscal.",
+      "itens": [
+        [
+          "The Income Tax in the Commonwealths of the United States",
+          "pp. 1–128",
+          "2485885"
+        ]
+      ],
+      "jstor_edicao": "i322402",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, 3ª série, vol. 3, nº 4 (1902)",
-    "Publications of the AEA, 3ª série, vol. 4 (1903)",
-    "Publications of the AEA, 3ª série, vol. 5 (1904)"
+    "Publications of the AEA, 3ª série, vol. 5 (1904)",
+    "Publications of the AEA, 3ª série, vol. 6 (1905)",
+    "Publications of the AEA, 3ª série, vol. 7 (1906)"
   ]
 }
