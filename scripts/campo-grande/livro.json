@@ -105,33 +105,137 @@
    "numero": 2,
    "slug": "comercio-servicos-e-industrias",
    "titulo": "Setor privado: comércio, serviços e indústrias",
-   "chamada": "O retrato da economia da cidade, o pequeno comércio de bairro, o crédito para quem produz e Campo Grande como polo regional.",
-   "situacao": "roteiro",
+   "chamada": "Comércio e serviços sustentam a cidade, mas a proposta central é trazer indústria: Campo Grande tem o que falta ao interior, gente para trabalhar.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "O retrato da economia de Campo Grande: o PIB municipal por setor, o peso dos serviços e do comércio, a indústria e a agroindústria."
-    },
-    {
-     "tipo": "p",
-     "texto": "O pequeno comércio de bairro e o dinheiro que gira perto de casa; crédito para quem produz, das cooperativas de crédito ao microcrédito, na linha dos antigos Montes de Piedade."
-    },
-    {
-     "tipo": "p",
-     "texto": "Campo Grande como polo regional: logística, Rota Bioceânica e serviços para o interior do estado."
+     "texto": "Mato Grosso do Sul se industrializou nos últimos anos, mas longe da capital. A fábrica de celulose foi para Três Lagoas e Ribas do Rio Pardo, o frigorífico foi para perto do boi, a usina para perto da cana. A indústria seguiu a matéria-prima. E descobriu, no interior, o que falta lá: gente para trabalhar. Campo Grande tem o contrário: um terço da população do estado e pouca fábrica."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Como é a economia da cidade hoje?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Campo Grande e o estado: tamanho e perfil da economia",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Ano"
+     ],
+     "linhas": [
+      [
+       "PIB de Campo Grande",
+       "R$ 42,3 bilhões",
+       "2023"
+      ],
+      [
+       "Participação no PIB de MS",
+       "22,9%",
+       "2023"
+      ],
+      [
+       "População (Censo)",
+       "897.938 habitantes, cerca de 33% do estado",
+       "2022"
+      ],
+      [
+       "Indústria no valor adicionado de Campo Grande",
+       "19,2%",
+       "2021"
+      ],
+      [
+       "Comércio e serviços no valor adicionado de Campo Grande",
+       "77,2%",
+       "2021"
+      ],
+      [
+       "Indústria no valor adicionado de Três Lagoas",
+       "61,8%",
+       "2021"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: IBGE (PIB dos Municípios), Receita Federal (cadastro de CNPJ e MEI), Jucems e Sebrae-MS. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "A capital tem um terço dos moradores do estado e menos de um quarto do seu PIB. A diferença está, em boa parte, na indústria: em Três Lagoas ela responde por 62% do que se produz; em Campo Grande, por 19%. O dado do IBGE não separa, no município, quanto disso é fábrica e quanto é construção e energia."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Onde estão os empregos formais de Campo Grande",
+     "cabecalho": [
+      "Setor",
+      "Participação nos vínculos formais"
+     ],
+     "linhas": [
+      [
+       "Serviços",
+       "46,9%"
+      ],
+      [
+       "Administração pública",
+       "20,8%"
+      ],
+      [
+       "Comércio",
+       "18,6%"
+      ],
+      [
+       "Indústria de transformação",
+       "6,4%"
+      ],
+      [
+       "Construção civil",
+       "4,3%"
+      ],
+      [
+       "Agropecuária",
+       "1,2%"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "6,4%",
+     "texto": "dos 288.885 vínculos formais de Campo Grande estavam na indústria de transformação em 2021. Um em cada cinco estava no setor público. Fonte: RAIS 2021, conforme estudo do IFMS (cálculo sobre a tabela publicada)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Por que trazer indústria para a capital?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque é aqui que está a mão de obra. No interior, a fábrica nova esbarra na falta de gente e disputa trabalhador com as outras fábricas da região. Campo Grande tem quase 900 mil moradores, universidades, escolas técnicas, o aeroporto e o entroncamento das rodovias. O que falta são as fábricas."
+    },
+    {
+     "tipo": "p",
+     "texto": "E porque emprego industrial paga melhor e sustenta família. Um posto de trabalho na fábrica puxa outros no comércio e nos serviços em volta dela. A régua do livro é a pergunta do bispo Ketteler: isso aumenta o salário do trabalhador? A indústria é a resposta mais direta."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Que indústria cabe em Campo Grande?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A que precisa de muita gente e está perto do que o estado já produz: alimentos processados a partir da carne, do leite e dos grãos; couro e calçados; móveis e embalagens a partir do eucalipto; confecção; metal-mecânica e manutenção de máquinas para o agronegócio e para as fábricas de celulose; e a indústria ligada à logística da Rota Bioceânica. É a mesma tese do livro para o estado inteiro, transformar aqui o que hoje sai daqui em estado bruto, aplicada à cidade que tem os trabalhadores."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Recuperar e ampliar as áreas industriais que a cidade já tem, como o Núcleo Industrial e o Indubrasil, com asfalto, água, energia, transporte para o trabalhador e terreno pronto. Pôr para funcionar o terminal intermodal de cargas, com obra concluída em 2020 e ainda parado. Formar a mão de obra junto com o Senai, o IFMS e as universidades, para as vagas que as fábricas vão abrir. Abrir crédito para a pequena indústria pelas cooperativas de crédito e pelo FCO. E disputar as fábricas com agilidade de licença e segurança jurídica, já que o incentivo pelo ISS acaba com a reforma tributária."
+    },
+    {
+     "tipo": "h2",
+     "texto": "E o comércio e os serviços?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Continuam sendo o coração da economia da cidade: mais de três quartos do que se produz e dois de cada três empregos formais. O pequeno comércio de bairro e o dinheiro que gira perto de casa, o crédito barato para quem produz e Campo Grande como polo de serviços para o interior seguem no capítulo. A indústria não vem no lugar deles; vem para dar mais renda a quem compra no comércio e usa os serviços."
     }
    ],
    "regiao": {
@@ -147,7 +251,18 @@
      "Imbirussu": "a levantar"
     },
     "nota": null
-   }
+   },
+   "indicador": {
+    "valor": "19% da economia",
+    "texto": "é indústria; ela emprega só 6,4% dos trabalhadores formais, contra 47% nos serviços e 19% no comércio.",
+    "fonte": "Semadesc, PIB dos Municípios 2021; RAIS 2021"
+   },
+   "fontes": [
+    "MATO GROSSO DO SUL. Semadesc. Produto Interno Bruto Municipal 2023 (Tabela 4 e Tabela 5); Produto Interno Bruto dos Municípios do MS 2021 (Tabela 9). Com base no IBGE, PIB dos Municípios.",
+    "IBGE. Censo Demográfico 2022: população de Campo Grande.",
+    "BRASIL. Ministério do Trabalho. RAIS 2021, conforme IFMS, Estudos da Gestão do Conhecimento: Campo Grande 2022 (Tabela 10) (fonte secundária).",
+    "Correio do Estado: terminal intermodal de cargas sem operar (fonte secundária)."
+   ]
   },
   {
    "fonte_prevista": "RAIS e Novo Caged (Ministério do Trabalho), Censo 2022 (IBGE), cesta básica do DIEESE",
