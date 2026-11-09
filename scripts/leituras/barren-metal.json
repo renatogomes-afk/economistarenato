@@ -3284,6 +3284,756 @@
         ]
       ],
       "hoje": "O capítulo toca num debate vivo: quanto do resultado econômico deve ir para salários e quanto para o capital, e que instituições protegem o lado mais fraco da negociação. Sindicatos, conselhos profissionais e normas técnicas herdaram parte das funções que Jones atribui às guildas. Também persiste a discussão sobre regras que limitam a entrada em profissões, protegendo a qualidade mas encarecendo serviços. E a ênfase final na distribuição, mais do que no nível da riqueza, ecoa a discussão atual sobre crescimento inclusivo e concentração de renda."
+    },
+    {
+      "slug": "cap-21-jakob-o-rico",
+      "numero": 21,
+      "titulo": "Jakob, o Rico: do clero frustrado ao maior capitalista de seu tempo",
+      "titulo_original": "Jakob the Rich",
+      "paginas": "pp. 257–264",
+      "chamada": "Destinado à Igreja, Jakob Fugger foi mandado a Veneza em 1478 para aprender contabilidade. Jones lê sua carreira como o choque entre a tradição germânica do trabalho e as finanças italianas.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na primavera de 1478, Marx Fugger, gerente da filial da família em Veneza, morreu de repente. A morte abriu um buraco na firma de Augsburgo que só o irmão mais novo podia preencher. Jakob, nascido em 6 de março de 1459, recebera ordens menores ainda criança e um modesto benefício eclesiástico em Herrieden, na Francônia. Parecia destinado a subir na hierarquia da Igreja. O conselho da família decidiu outra coisa: o aspirante a clérigo iria estudar negócios no Fondaco dei Tedeschi, a casa veneziana dos mercadores alemães. É com essa reviravolta que E. Michael Jones abre o capítulo 21 de “Barren Metal”."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Jakob aprendeu em Veneza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo o autor, era costume da classe mercantil de Augsburgo mandar os filhos a Veneza para obter a versão tardo-medieval de um MBA. Os irmãos mais velhos, Georg e Ulrich, não podiam deixar a sede da empresa. Jakob ficou seis meses no Rialto e, conta Jones, aprendeu ali as nuances da contabilidade por partidas dobradas e se tornou um homem de negócios à maneira italiana."
+        },
+        {
+          "tipo": "p",
+          "texto": "O orgulho da formação italiana o acompanhou pela vida inteira. Jakob passou a assinar documentos, recibos e letras de câmbio da companhia com a forma veneziana Jacomo, e os irmãos continuaram a chamá-lo pelo nome italiano muito depois de seu retorno. O conhecimento contábil, sustenta o autor, permitiu-lhe depois, em frequentes viagens de inspeção, conferir contas e balanços das várias filiais e dominar em detalhe toda a rede de negócios da família."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "6 meses",
+          "texto": "Tempo que Jakob Fugger passou no Rialto, segundo o capítulo. Matthaeus Schwartz, seu futuro guarda-livros-chefe, também fez aprendizado em Milão, Gênova e Veneza. Schwartz desprezava mercadores que diziam guardar as contas de cabeça e comparava o empresário a um padeiro que pesa a farinha na balança."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que nasceu do encontro entre Alemanha e Itália?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a união do sistema de guildas germânico com as técnicas financeiras italianas, ocorrida em Augsburgo e cidades vizinhas na última década do século 15, provocou uma explosão de crescimento econômico. O autor apoia-se aqui no biógrafo Jacob Strieder, para quem Jakob Fugger inaugurou uma nova fase da história comercial alemã."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a segunda idade de ouro da história comercial alemã”",
+          "original": "the second golden age in German commercial history (p. 258)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Esse período, segundo Strieder, começou com o declínio da Liga Hanseática, no norte, e terminou nas últimas décadas do século 16, quando os metais preciosos trazidos do Novo Mundo tiraram a importância das minas europeias. No intervalo, os Fugger mandaram nas finanças da Europa. Strieder vê em Jakob o capitalista alemão paradigmático da época, aquele que levou ao auge o capitalismo europeu inicial que vinha se desenvolvendo na Itália desde o começo do Renascimento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Síntese ou colisão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui o autor se afasta de seus biógrafos. Jones sustenta que não é possível sintetizar as tradições econômicas germânica e italiana, porque partem de primeiros princípios contraditórios. O sistema alemão, argumenta, assenta na valorização do trabalho, herança do ensino beneditino às tribos germânicas. O italiano começou na manufatura, mas logo perdeu de vista suas origens e passou às finanças e, por fim, à usura. Para o autor, Jakob não encarnou síntese alguma, e sim as contradições de sua época, de um modo que ele próprio não compreendia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo descreve os dois lados. De um, o devoto promotor de devoções tardo-medievais: sua sepultura na capela dos Fugger, na igreja de Santa Ana, inaugurou o Renascimento na Alemanha, e a família foi a primeira grande patrona da arte alemã e formou a biblioteca Fugger. Jakob construiu a Fuggerei, que o autor descreve como o primeiro conjunto habitacional para os deslocados pelas mudanças econômicas que ele mesmo ajudou a provocar. De outro, um usurário implacável, capaz de levar à ruína católicos e até parentes por casamento, como o velho Ambrosius Hochstetter."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Colisão é uma palavra melhor para descrever o novo sistema.”",
+          "original": "Collision is a better word to describe the new system (p. 260)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde se deu essa colisão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No Sacro Império Romano-Germânico, que, como lembra Jones citando Voltaire, não era santo, nem romano, nem império. O autor, apoiado em Raymond H. Schmandt, descreve-o não como um Estado no sentido moderno, mas como um sistema econômico sob a égide da fé católica, o braço secular da Igreja. Na teoria, refletia a unidade de todos os cristãos do Ocidente sob um só governo civil; na prática, França e Inglaterra nunca reconheceram subordinação real ao imperador."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "300 + 1.500",
+          "texto": "Segundo Schmandt, citado no capítulo, depois do tratado de Vestfália (1648) o Império era pouco mais que uma confederação frouxa de cerca de 300 principados independentes e 1.500 ou mais corpos ou indivíduos semissoberanos. Na época de Lutero, a organização política era ainda mais complicada."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para ilustrar o mosaico, Jones imagina Lutero descendo o Elba a partir da cidade onde afixou suas teses, no eleitorado da Saxônia: em sucessivos trechos de rio ele cruzaria o principado de Anhalt, o arcebispado de Magdeburgo, o eleitorado de Brandemburgo e o ducado de Mecklemburgo até chegar à cidade hanseática livre de Hamburgo. Quando Lutero afixou suas 95 teses, em 1517, observa o autor, não existia país chamado Alemanha."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo associa a ruptura religiosa à Revolta dos Camponeses, liderada por Thomas Muenzer, ex-aluno de Lutero que o acusava de ter feito um acordo com os príncipes. Jones recorre de novo a William Cobbett, para quem o saque foi a mola mestra da Reforma: os reformadores teriam ganho o status de Igreja estabelecida em troca dos bens eclesiásticos entregues aos príncipes. O resultado, diz o autor, variou conforme as circunstâncias locais, e foi muito diferente na Inglaterra e no Império."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o Império precisava dos Fugger?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta de Jones é monetária. A economia feudal se baseava no trabalho, não no dinheiro: o senhor não recebia moeda dos servos, recebia dias de trabalho, três por semana. Com a ascensão das economias monetárias das cidades-Estado italianas entre os séculos 13 e 15, os domínios do Império ficaram em desvantagem. Estados unificados, com renda estável em impostos, projetavam poder militar com mais facilidade que a colcha de retalhos de principados, ducados e bispados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Monetizar esse sistema não era fácil, e foi exatamente esse o serviço que, segundo o autor, os Fugger prestaram aos Habsburgo. O ciclo de prosperidade que a família inaugurou terminou quando os Habsburgo deixaram de pagar seus empréstimos, em meados do século 16. A Guerra dos Trinta Anos, somada à desunião religiosa e política, provocou um declínio do qual a recuperação completa só viria mais de século e meio depois."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que separou os Fugger dos florentinos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo termina com a tese de que Jakob usou técnicas financeiras italianas sem perder de vista o princípio central das guildas germânicas. Nos séculos 14 e 15, argumenta Jones, os florentinos abandonaram a lã para se concentrar no banco, sobretudo no banco papal. Os Fugger também se tornaram banqueiros de papas e imperadores, mas antes passaram pela mineração e pela fundição."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o trabalho é a única coisa capaz de produzir valor”",
+          "original": "labor is the only thing that can produce value (p. 263)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nesse ponto, diz Strieder, Jakob seguiu os passos não dos italianos, mas dos empresários alemães, em particular os de Augsburgo. A escolha de ir da tecelagem à mineração, e só depois ao banco, fez dele, nas palavras do biógrafo citado por Jones, o maior magnata industrial de seu tempo. É o gancho para o capítulo seguinte, dedicado às minas."
+        }
+      ],
+      "glossario": [
+        [
+          "Partidas dobradas",
+          "Método contábil em que cada lançamento aparece a débito numa conta e a crédito em outra."
+        ],
+        [
+          "Fondaco dei Tedeschi",
+          "Casa dos mercadores alemães em Veneza, centro de comércio e aprendizado."
+        ],
+        [
+          "Benefício eclesiástico",
+          "Cargo da Igreja com renda vinculada."
+        ],
+        [
+          "Letra de câmbio",
+          "Ordem de pagamento usada para transferir fundos entre praças sem mover moeda."
+        ],
+        [
+          "Sacro Império Romano-Germânico",
+          "Conjunto de principados, cidades e Estados eclesiásticos sob o imperador, de 962 a 1806."
+        ],
+        [
+          "Fuggerei",
+          "Conjunto habitacional construído por Jakob Fugger em Augsburgo."
+        ],
+        [
+          "Monetizar",
+          "Converter obrigações em trabalho ou bens em receita em dinheiro."
+        ],
+        [
+          "Usura",
+          "No vocabulário do livro, a cobrança de juros sobre empréstimos."
+        ]
+      ],
+      "hoje": "A pergunta de fundo do capítulo continua atual: como um Estado sem base tributária sólida financia despesas urgentes? A resposta dos Habsburgo, recorrer a um banqueiro privado em troca de garantias sobre recursos naturais, ecoa nos empréstimos lastreados em petróleo ou minérios que vários governos ainda contratam. Também persiste a tensão entre finança e produção que Jones atribui à oposição entre Florença e Augsburgo, presente no debate sobre a financeirização das empresas. E a contabilidade padronizada segue sendo a condição para que investidores enxerguem o que acontece em grupos espalhados por muitos países."
+    },
+    {
+      "slug": "cap-22-fugger-e-minas-dos-habsburgo",
+      "numero": 22,
+      "titulo": "Prata, cobre e crédito: os Fugger e as minas dos Habsburgo",
+      "titulo_original": "The Fuggers and the Habsburg Mines",
+      "paginas": "pp. 265–276",
+      "chamada": "Em 1488, os Fugger adiantaram 150 mil gulden ao endividado senhor do Tirol em troca da prata de Schwaz. Jones mostra como a fome de metal da Europa fez de uma firma de Augsburgo o banco dos Habsburgo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 9 de junho de 1488, os Fugger fecharam um acordo com Sigismundo do Tirol, conhecido como Sigmund, o Endinheirado. Pagariam um adiantamento de 150.000 em parcelas mensais em troca do direito exclusivo de explorar o veio de prata de Schwaz, a oito gulden por marco de peso. Menos de dois anos depois, em 16 de março de 1490, Sigmund abdicou, afundado em dívidas. É nesse ponto, conta E. Michael Jones no capítulo 22 de “Barren Metal”, que começa a relação entre os Fugger e os Habsburgo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que faltava dinheiro na Europa do século 15?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os Fugger entraram na mineração, sustenta o autor, no momento exato: no auge do que se convencionou chamar de Grande Fome de Metais do século 15. A Peste Negra de 1347 reduziu a força de trabalho e concentrou a riqueza. A maior riqueza individual elevou a demanda, e a demanda maior, somada a uma queda de 40% no número de trabalhadores europeus, fez subir os salários."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dois fatores travavam essa expansão, segundo Jones. O primeiro era a natureza da economia do Império, ainda baseada no trabalho: o servo devia ao senhor dias de serviço, não impostos em dinheiro. O segundo era a própria moeda, feita de metal precioso. Os veios superficiais estavam esgotados, e nenhuma tecnologia nova dava acesso aos mais profundos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "−50%",
+          "texto": "Queda das reservas totais de metal precioso na Europa entre cerca de 1340 e 1460, segundo estimativa citada no capítulo. Pelos números de Peter Bernstein, a Europa produzia apenas quatro toneladas de ouro por volta de 1400, e os preços das mercadorias caíram de 20% a 50% entre 1400 e 1500."
+        },
+        {
+          "tipo": "p",
+          "texto": "A escassez, prossegue o autor, provocou em muitas comunidades a volta ao escambo. A pimenta, que valia mais que o próprio peso em ouro, era a mercadoria preferida para isso, a ponto de príncipes alemães chamarem seus banqueiros de “homens da pimenta”. Até que a prata e o ouro da América começassem a chegar, por volta de 1530, o único jeito de aumentar a oferta era cavar o solo europeu."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como os Fugger entraram nas minas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o capital acumulado no comércio de fustão, Jakob e os irmãos mais velhos, Ulrich e Georg, diversificaram os negócios nos anos 1480 e entraram na mineração do Tirol. O método, descreve Jones, foi o crédito: emprestando a pequenas operações na região de Salzburgo, adquiriram participações, depois o controle das empresas, as próprias empresas e, por fim, o monopólio da produção de prata e cobre. Nisso se distinguiram do mercador suábio médio, que fugia dos riscos da mineração."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o crédito virou governo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com a abdicação de Sigmund, o imperador Maximilian I absorveu o trono tirolês. Em março de 1491, tomou seu primeiro grande empréstimo com os Fugger: 120.000 gulden adiantados sobre 30.000 marcos de prata. A partir daí, conta Jones, os Fugger estavam sempre presentes quando o rei precisava de dinheiro, e como o rei sempre precisava, tornaram-se parte indispensável do governo. Para garantir cada novo empréstimo, Maximilian entregava mais direitos exclusivos sobre os recursos naturais da Áustria."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "300 mil gulden",
+          "texto": "Adiantamento dos Fugger a Maximilian em outubro de 1508, em troca de 30.000 marcos de prata e 15.000 quintais de cobre. Em 1491, o primeiro grande empréstimo fora de 120.000 gulden. Pouco depois, segundo o capítulo, a corte de Innsbruck nada fazia sem o crédito dos Fugger."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones descreve a relação como dois homens se afogando agarrados um ao outro numa torrente de dívida, e lembra que ela terminaria em ruína para ambos com a suspensão de pagamentos do governo espanhol sob Filipe II, bisneto de Maximilian. O risco era conhecido: o calote de Eduardo III da Inglaterra, que levara à falência os Bardi e os Peruzzi de Florença, estava sempre diante dos olhos dos Fugger. Mas não havia como fazer negócios nas terras dos Habsburgo sem emprestar aos príncipes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde termina o investimento e começa a usura?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Esta é, para o autor, a distinção moral central do capítulo. Durante séculos a Igreja reclamou que a usura não partilhava o risco; Jones cita São Bernardino de Siena, para quem ela matava a caridade com os pobres e o investimento entre os ricos. Os banqueiros de Augsburgo, sustenta o autor, preferiram o mal conhecido, emprestar a príncipes, ao desconhecido, o risco de um empreendimento novo. Os Fugger, dispostos a partilhar o risco, tiveram o campo livre. Parte de sua fortuna foi investida, de forma lícita segundo o ensino católico, em minas e fundições."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“desapareceu na peneira das Danaides dos empréstimos principescos”",
+          "original": "disappeared in the Danaides sieve of princely loans (p. 269)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os Fugger fizeram na Hungria?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 15 de novembro de 1494, os Fugger fecharam negócio com Johannes Thurzo e o filho Georg, arrendatários de minas de prata em Neusohl, a atual Banská Bystrica, na Eslováquia. Thurzo entrava com a técnica, sabia drenar minas inundadas e dominava o processo Saiger, que usa chumbo para separar cobre e prata; os Fugger, com o financiamento. A sociedade previa 16 anos de operação conjunta e a construção de uma fundição. Quando Thurzo pediu uma parte maior dos lucros, conta Jones, Jakob, que controlava o financiamento, o afastou de modo educado mas inexorável."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "37% → 40%",
+          "texto": "Participação da produção eslovaca no cobre europeu na primeira e na segunda décadas do século 16, segundo cálculo citado no capítulo. De 1494 a 1526, as usinas Saiger do ramo húngaro produziram 316.832 marcos de prata, avaliados em dois milhões de gulden. Entre 1495 e 1504, a receita do comércio húngaro chegou a cerca de um milhão de gulden."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como nasceu o primeiro cartel do cobre?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 12 de março de 1498, Jakob assinou o contrato que criou o primeiro cartel do cobre da história alemã. No outono de 1499, conta o autor, destruiu o sindicato do cobre de Augsburgo vendendo cobre húngaro a preço de dumping, usando o nome de Thurzo. Eliminada a concorrência, os Fugger puderam subir os preços e recuperar as perdas assumidas por razões táticas. O biógrafo Goetz von Poelnitz, citado por Jones, julga o método incomum para a época."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A crueza dessas táticas era incomum para aqueles tempos.”",
+          "original": "The ruthlessness of these tactics was unusual for those times (p. 272)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O mesmo Jakob, prossegue o capítulo, pagava salários generosos, passou semanas nas florestas da Turíngia supervisionando a construção de uma fundição, mandou reformar a igreja local e um hospital em Neusohl e pediu ao papa Alexandre VI que abrandasse as regras de jejum para mineiros e fundidores. Jones vê nos Fugger o elo de transição entre a piedade da Alta Idade Média e a voracidade do espírito capitalista."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Maximilian ganhou com o monopólio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo o autor, a coroa francesa dispunha de um sistema tributário ordenado e da possibilidade legal de empréstimos forçados; Maximilian não conseguia levantar pelo imposto o dinheiro de que precisava. Jakob supriu essa falta com o que Jones, seguindo von Poelnitz, chama de fórmula mágica da Nova Era."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a fórmula mágica da Nova Era: o crédito”",
+          "original": "the magic formula of the New Age: credit (p. 274)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí o arranjo de troca que fecha o capítulo. A acusação de “monopólio usurário” era frequente contra Jakob, mas o imperador a descartava diante das vantagens que obtinha. Seguindo o exemplo de Maximilian, reis e imperadores alemães se comprometeram secretamente a honrar os contratos monopolistas de minério. Para Jones, esse modus vivendi abriu caminho para o financiamento capitalista da dívida pública."
+        }
+      ],
+      "glossario": [
+        [
+          "Grande Fome de Metais",
+          "Escassez de ouro e prata na Europa do século 15, que restringiu a oferta de moeda."
+        ],
+        [
+          "Gulden",
+          "Moeda de ouro usada no Sacro Império."
+        ],
+        [
+          "Marco",
+          "Unidade de peso para metais preciosos."
+        ],
+        [
+          "Processo Saiger",
+          "Técnica que usa chumbo para separar a prata do cobre."
+        ],
+        [
+          "Cartel",
+          "Acordo entre produtores para controlar preços ou quantidades."
+        ],
+        [
+          "Dumping",
+          "Venda abaixo do custo para eliminar concorrentes."
+        ],
+        [
+          "Renda perpétua",
+          "Título que paga juros periódicos sem data de resgate do principal."
+        ],
+        [
+          "Escambo",
+          "Troca direta de bens, sem uso de moeda."
+        ],
+        [
+          "Usura",
+          "No vocabulário do livro, a cobrança de juros sobre empréstimos."
+        ]
+      ],
+      "hoje": "O capítulo trata de dois temas que seguem no centro da economia. O primeiro é a escassez de moeda: quando a oferta de dinheiro cresce menos que a atividade, os preços caem, e a deflação pesa sobre devedores e investimento, razão pela qual os bancos centrais modernos temem tanto a queda de preços quanto a alta. O segundo é a relação entre Estados endividados e credores que recebem em troca concessões sobre recursos naturais. A diferença entre dividir o risco de um projeto e emprestar com garantia, central no argumento de Jones, reaparece no debate entre capital de risco e dívida."
+    },
+    {
+      "slug": "cap-23-fugger-e-indulgencias",
+      "numero": 23,
+      "titulo": "Os Fugger e o comércio de indulgências: o banco entre papa e imperador",
+      "titulo_original": "The Fuggers and the Indulgence Trade",
+      "paginas": "pp. 277–288",
+      "chamada": "Em 1498, Jakob Fugger casou-se e, quatro anos depois, assumiu o comando da firma. Jones acompanha como o capital de cardeais, o crédito ao imperador e as indulgências fizeram dele o maior financista da Europa.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 9 de janeiro de 1498, Jakob Fugger, com quase 40 anos, casou-se com Sibylle Artzt. O casamento não teve filhos, e o relato de sua vida, conta E. Michael Jones, registra uma frieza visível entre os cônjuges: Sibylle não esteve no leito de morte do marido e voltou a se casar seis semanas depois. O capítulo 23 de “Barren Metal” parte dessa cena doméstica para sustentar que a esterilidade do casamento se converteu num desejo obsessivo de controlar cada aspecto da firma da família."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Jakob tomou o comando da firma?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Caçula dos irmãos Fugger, Jakob reorganizou a empresa pelo contrato de 23 de dezembro de 1502 e tornou-se seu líder incontestável. Em seguida, descreve o autor, voltou-se para as finanças imperiais e deixou claro a tesoureiros como Jacob Villinger e o cardeal Matthäus Lang que quem quisesse dinheiro da coroa teria de passar por ele. Apoiado sobretudo no biógrafo Götz von Pölnitz, Jones observa que Jakob não dava valor aos sinais visíveis de sucesso."
+        },
+        {
+          "tipo": "p",
+          "texto": "A família, porém, subia. Sem filhos, Jakob exibia riqueza nos casamentos dos sobrinhos. O de Ursula, filha de Ulrich, com o cavaleiro Philip von Stein zu Jettingen custou quase dez vezes o que a pequena nobreza rural costumava gastar. As queixas cessaram quando se soube que o próprio imperador pedira que a festa ocorresse durante uma de suas visitas a Augsburgo. Para o autor, ficou claro ali que Jakob era o principal financista do Império: nem uma cruzada contra os turcos Maximiliano anunciaria sem consultá-lo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde veio o capital, segundo Jones?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo apresenta os Fugger como sucessores dos Medici à frente do principal banco da Europa, herdeiros de uma rede pan-europeia que transferia as receitas da Igreja e emprestava ao papa nos apertos. Desconfortáveis com o humanismo renascentista, prossegue Jones, os Fugger viram no vácuo deixado pela queda dos Medici uma oportunidade em Roma. Sob Júlio II (1503–1513), o agente Johann Zink ampliou a presença da firma na Cúria."
+        },
+        {
+          "tipo": "p",
+          "texto": "O passo decisivo, porém, viera antes. Na primavera de 1496, Jakob ganhou a confiança do cardeal Melchior von Meckau, príncipe-bispo de Brixen. A partir daí, o capital que só um cardeal conseguia acumular passou a fluir para os cofres dos Fugger em troca de retorno fixo. Por serem alemães, de fora das famílias oligárquicas da Cúria, os Fugger eram mais discretos que os banqueiros italianos dependentes de Roma, argumenta o autor. Meckau os recomendou a outros prelados, e o colégio dos cardeais tornou-se fonte importante de recursos da firma."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10% e 75%",
+          "texto": "Retorno pago pelos Fugger sobre o capital do cardeal von Meckau (10%) e participação dos depósitos de Brixen no capital total da firma (75%), segundo o capítulo. Para Jones, nem o fustão suábio, nem o mercado de benefícios eclesiásticos, nem as especiarias renderiam somas dessa ordem."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones atribui a Jakob a ideia de contornar a falta de liquidez e a proibição dos juros tomando empréstimos secretos de altos dignitários da Igreja, o que, no seu relato, contornava aspectos importantes do direito canônico. Daí a tese que o autor tira do episódio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Isso praticamente garantiria que a Igreja jamais resolveria a questão da usura. O conflito de interesses era grande demais.”",
+          "original": "it would also all but guarantee that the Church would never resolve the usury issue. The conflict of interest was simply too great (p. 279)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceu quando o cardeal morreu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Meckau morreu de repente e sem testamento, que teria exposto suas operações. Segundo o capítulo, a Cúria e o bispado de Brixen reivindicaram o espólio, e a ameaça de falência pairou sobre a firma, incapaz de devolver as somas depositadas. Jakob arrastou as negociações e mobilizou defensores influentes. Em agosto de 1509, um acordo entre Maximiliano e Júlio II transferiu as pretensões da Cúria aos Habsburgo, e o imperador aceitou receber dos Fugger em tecido, não em dinheiro com juros. Em troca dos empréstimos, conta Jones, Maximiliano ajudou a encobrir o perigo que a firma correra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como os Fugger entraram no negócio das indulgências?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1507, Júlio II anunciou uma indulgência para financiar a construção da Basílica de São Pedro, e os Fugger assumiram a coleta do dinheiro na Boêmia, na Silésia, na Hungria e na Polônia. O autor lembra a doutrina: boas obras podiam remir a pena do purgatório por pecados já perdoados. Desde o século 15, a demanda dos fiéis por indulgências crescera, e a Igreja via nelas um meio de financiar obras e assistência. Citando Jacob Strieder, Jones registra que, por volta de 1502, os Fugger passaram a transferir a Roma o dinheiro das indulgências alemãs, em regime de monopólio lucrativo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor descreve Jakob como católico de piedade acima do comum, mas avesso a considerações teóricas e indiferente às disputas de teólogos. Para Jones, os Fugger tentaram monopolizar o negócio romano das indulgências na Alemanha como haviam monopolizado o cobre, e não perceberam o descontentamento espiritual que se espalhava pela Europa. Por isso, sustenta, Fugger ajudou a destruir a cristandade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem dependia de quem: o banqueiro ou o imperador?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones contrapõe o cálculo de Jakob ao temperamento cavaleiresco de Maximiliano, que, segundo ele, não entendia de economia. O dinheiro dos Fugger financiou as ambições imperiais e a viagem a Roma, e grandes somas foram absorvidas por empréstimos antigos e seus juros. Em 8 de maio de 1511, Jakob foi elevado à nobreza do Império; em 17 de julho de 1514, a conde, honra inédita para um negociante alemão. No mesmo ano, um contrato de metais confirmou em lei o monopólio da firma."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "200 mil a 300 mil ducados",
+          "texto": "Soma que a coroa precisaria, segundo o capítulo, para influenciar os cardeais no plano de Maximiliano de se tornar também papa. Para o autor, quantias assim não tinham precedente; só o banco dos Fugger em Roma poderia levantá-las. O plano não prosperou."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Cada exaltação do credor era sinal de aflição por parte do devedor.”",
+          "original": "every exaltation of the lender was a sign of distress on the part of the borrower (p. 284)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O socorro, relata Jones, veio dos subsídios que Henrique VIII pagava ao imperador para hostilizar a França, ouro que só os Fugger sabiam transferir de Antuérpia aos cofres dos Habsburgo em Innsbruck. A simbiose funcionava, mas vivia de tempo emprestado, diz o autor, pela natureza inexorável dos juros compostos. Com as chaves dos recursos naturais do Império nas mãos da firma, o príncipe dependia mais dela do que ela dele."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a Fuggerei diz sobre Jakob?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na primavera de 1514, Jakob decidiu construir perto da prefeitura de Augsburgo um conjunto de casas enfileiradas para os trabalhadores pobres. Projetadas pelo arquiteto Thomas Krebs, eram apartamentos de dois e três cômodos, cada um com entrada própria para a rua e cozinha própria. Para Jones, a novidade era a ideia de que o trabalhador e sua família tivessem casa própria, integrada a uma comunidade de colegas e situada no centro da cidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor compara a Fuggerei ao Palazzo Strozzi, que em Florença teria sido o coroamento arquitetônico da usura, e lê o conjunto de Augsburgo como tributo à tradição germânico-cristã que vê no trabalho a fonte de todo valor. Jakob, por sua vez, deu um florim renano de ouro a cada família com filhos na Fuggerei e meio florim às sem filhos. Jones cita a frase que tomaria como seu epitáfio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sou rico pela graça de Deus, sem prejuízo a homem algum.”",
+          "original": "I am rich by God's grace, without injury to any man (p. 284)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Culpa ou caridade, conclui o autor, as contradições do homem que pagou a obra ficaram sem solução. Para Jones, ele foi representante típico dos que, apesar das inovações revolucionárias na economia, se agarravam à ordem espiritual da Idade Média."
+        }
+      ],
+      "glossario": [
+        [
+          "Indulgência",
+          "Na doutrina católica, remissão da pena temporal devida por pecados já perdoados."
+        ],
+        [
+          "Cúria",
+          "Conjunto de órgãos que administram a Igreja junto ao papa, em Roma."
+        ],
+        [
+          "Benefício eclesiástico",
+          "Cargo da Igreja que dava direito a uma renda."
+        ],
+        [
+          "Príncipe-bispo",
+          "Bispo que também governava um território como senhor temporal."
+        ],
+        [
+          "Simonia",
+          "Compra ou venda de cargos e bens espirituais."
+        ],
+        [
+          "Fuggerei",
+          "Conjunto de moradias para trabalhadores pobres construído por Jakob Fugger em Augsburgo."
+        ],
+        [
+          "Ducado",
+          "Moeda de ouro de grande circulação na Europa da época."
+        ],
+        [
+          "Juros compostos",
+          "Juros que incidem sobre o principal e sobre os juros já acumulados."
+        ]
+      ],
+      "hoje": "O capítulo descreve um problema que a regulação financeira moderna tenta enfrentar: a concentração do funding de um banco em poucos depositantes e o risco de um único grande credor retirar seus recursos. Também ecoa o debate sobre conflitos de interesse quando quem regula ou condena uma prática é ao mesmo tempo seu beneficiário. A relação entre o banqueiro e o soberano endividado lembra a discussão atual sobre dependência fiscal de credores. E a Fuggerei aparece como referência antiga no debate sobre habitação social e filantropia empresarial."
+    },
+    {
+      "slug": "cap-24-eck-e-o-debate-da-usura",
+      "numero": 24,
+      "titulo": "Eck e o debate da usura: os 5% que os Fugger queriam legitimar",
+      "titulo_original": "Eck and the Usury Debate",
+      "paginas": "pp. 289–296",
+      "chamada": "Em 1484, o papa Inocêncio VIII empenhou a tiara por 100.000 ducados. Jones narra como Jakob Fugger recrutou o teólogo Johannes Eck para defender juros de 5%.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1484, o papa Inocêncio VIII teve de empenhar a própria tiara por 100.000 ducados. É com essa cena que E. Michael Jones abre o capítulo 24 de “Barren Metal”. Para o autor, a Igreja da Alta Renascença vivia acima de seus meios e, por isso, tomava dinheiro emprestado sem parar. Os juros, sustenta, só agravavam o déficit que tornara o empréstimo necessário, e a Igreja procurava sem cessar novas fontes de receita."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que as indulgências entraram na conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma dessas fontes, descreve Jones, foi a “venda” de indulgências. Tecnicamente, os fiéis não compravam a remissão das penas; ofereciam esmolas à Igreja, que concedia a indulgência. Mas a urgência da necessidade e a eficiência dos Fugger na arrecadação davam a impressão de que a salvação das almas virara negócio, e um negócio que drenava ouro da nação alemã."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sob Leo X, papa da casa Médici que reinou de 1513 a 1521, o negócio das indulgências ganhou peso nas transações romanas dos Fugger. Em 1514, Jakob Fugger chegou ao auge do poder financeiro no Sacro Império: o imperador Maximiliano acabara de sagrá-lo cavaleiro, sinal, para o autor, de que estava endividado e em seu poder."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "30 de outubro de 1514",
+          "texto": "Data do contrato de prata e cobre que Maximiliano firmou com o consórcio dos Fugger e dos Hochstetter. Segundo Jones, o imperador aprovou o cartel por necessidade financeira, contrariando várias ordenações imperiais. O contrato abriu caminho à exploração monopolista da metalurgia da Alta Alemanha."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a ética econômica medieval proibia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na primeira década do século 16, conta o autor, as queixas contra a usura voltaram a se ouvir. Humanistas como Sebastian Brant, autor do poema “A nau dos insensatos”, publicado em 1493, e pregadores como Geiler von Kaisersberg atacavam a usura e o monopólio. Em 1500, o estado da questão ainda era dado por pensadores como Duns Scotus e Bernardino de Siena, que incluíam o comércio e o câmbio sob o título de usura."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones recorre ao historiador Jacob Strieder para descrever o sistema herdado de Tomás de Aquino, formulado no século 13: proibição da busca irrestrita do lucro e da livre concorrência, e o ideal de um sustento suficiente, uma renda adequada à condição de cada um, mas não muito mais. Cidades e Estados tentavam aplicá-lo por meio da regulação das guildas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O que pode alimentar dois não deve ser absorvido por um.”",
+          "original": "What can nourish two should not be absorbed by one (p. 290)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto crucial, segundo o autor, era a usura, isto é, cobrar juros sobre um empréstimo. Um capitalista católico devoto como Jakob Fugger não via saída: no começo do século 16, negociar sem crédito era impossível, mas negociar com crédito era imoral. Augsburgo, considerada a cidade alemã mais progressista em ética de negócios, ficou no meio. Era aberta a inovações financeiras, mas, ao contrário das cidades-Estado italianas, seus mercadores não se livravam da ideia de que o trabalho era a fonte primária do valor."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem defendia a liberdade de preços?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O porta-voz dessa nova visão, descreve Jones, foi o humanista Konrad Peutinger, expoente da chamada Escola de Augsburgo. Ele defendia a liberdade das companhias de comércio e da formação de preços e a tolerância a monopólios e cartéis. Para o autor, a tentativa de justificar o que fora classificado como imoral nasceu da colaboração entre Peutinger, jurista de espírito romano, e Fugger. Quando o Conselho de Augsburgo defendeu a liberdade total de seus empresários, os Fugger viram a chance de usar o próprio tomismo, via teoria do preço justo, para conciliar teoria e prática."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Todo mercador é livre para vender suas mercadorias tão caro quanto puder e quiser.”",
+          "original": "Every merchant is free to sell his wares as dear as he can and chooses (p. 291)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fugger não podia ignorar os frades mendicantes. Grandes doações a suas casas atenuavam a oposição, mas não a eliminavam. O conflito, sustenta Jones, pedia uma solução intelectual. Na Itália, desde o século 14, as autoridades florentinas admitiam juros dentro de certos limites."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Eck justificou os 5%?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ataque intelectual veio de Willibald Pirckheimer, que traduziu um texto de Plutarco contra a usura e o dedicou a Bernhard Adelmann, de uma firma concorrente, e de Ecolampádio. Como a réplica do jurista Sebastian Ilsung não bastou, Peutinger indicou Johannes Eck, que a posteridade conheceria como o homem que debateu com Lutero. Em 1514, Fugger pediu a Peutinger e Eck que defendessem juros de 5% em empréstimos, com uma justificativa compatível com a doutrina católica e com a prática comercial. Na primavera de 1514, Eck deu sua primeira aula de economia na Universidade de Ingolstadt e apresentou o contrato triplo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A questão central, explica o autor, era o risco. Em 1403, Ridolfi afirmara que era lícito vender risco, e Santo Antonino defendera o seguro como forma de pôr preço nele. Eck, citando Angelus, sustentou que o dinheiro numa sociedade corre por conta do investidor, mas o risco pode ser transferido a um preço justo. Esse preço seria de 5%, desde que o dinheiro estivesse numa sociedade, e não num empréstimo. Jones cita o historiador John T. Noonan, para quem Eck tornou o contrato triplo conhecido do mundo erudito e dos mercadores-banqueiros."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5%",
+          "texto": "Preço do risco, segundo Eck, que podia ser pago pela “vantagem do dinheiro” aplicado em sociedade. O argumento foi apresentado em Ingolstadt em 1514 e levado a Bolonha em julho de 1515. Os mercadores comemoraram; Cajetano, herdeiro intelectual de Tomás de Aquino, ofereceu oposição que o capítulo descreve como fraca e hesitante."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceu em Bolonha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O edifício de Eck, segundo Jones, ruiu por excesso de especificidade. Ao comparar os mercadores de Augsburgo a Cosimo de Médici, em deferência ao patrono e à Cúria dominada pelos Médici, Eck deu a impressão de falar a soldo dos Fugger. A disputa prevista para Ingolstadt foi abandonada. Em junho de 1515, Eck partiu para Bolonha; em Innsbruck e Brixen foi recebido por agentes da firma. Chegou a Bolonha na primeira semana de julho e venceu com facilidade, numa disputa que, para o autor, teve direção “pura Fugger”."
+        },
+        {
+          "tipo": "p",
+          "texto": "A vitória, somada ao Congresso de Viena, deu a Jakob Fugger enorme poder no fim de 1515. Mas Jones o descreve como um homem dividido, em quem a piedade medieval e a economia moderna continuavam a se chocar como placas tectônicas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Igreja mudou sua doutrina?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não, responde o autor, contestando Noonan, para quem a Igreja teria aceitado os 5% depois de Bolonha. Jones lembra que a Igreja sempre admitira títulos extrínsecos, razões externas ao empréstimo que autorizavam o credor a receber mais que o valor emprestado, desde que exposto a um perigo real e extraordinário de perda. Os mais reconhecidos eram o dano emergente e o lucro cessante, que o capítulo explica com apoio em Heinrich Pesch: o primeiro é a perda de um valor real e avaliável; o segundo, uma chance de ganho, futura e incerta, de que o credor se privou."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É uma ficção jurídica que alcança um resultado prático sensato.”",
+          "original": "It is a legal fiction reaching a sound practical result (p. 294)"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Noonan sobre o contrato triplo, que críticos viam como um modo indireto de legitimar o lucro cessante. Jones sustenta que Noonan exagera as implicações e que seu próprio relato dos fatos posteriores desmente a tese de mudança doutrinária. Para o autor, a questão não estava resolvida em Bolonha, porque as mudanças econômicas desencadeadas pelos Fugger puseram em movimento forças políticas que nem eles nem a Igreja controlavam. Se as reformas de Savonarola em Florença tivessem se espalhado pela cristandade, argumenta, a Igreja talvez evitasse uma de suas grandes catástrofes. O capítulo termina anunciando que a questão seria resolvida pela força, e que seu instrumento seria o cavaleiro alemão Ulrich von Hutten."
+        }
+      ],
+      "glossario": [
+        [
+          "Usura",
+          "No vocabulário do livro, a cobrança de juros sobre empréstimos."
+        ],
+        [
+          "Indulgência",
+          "Remissão concedida pela Igreja da pena temporal por pecados já perdoados."
+        ],
+        [
+          "Contrato triplo",
+          "Combinação de sociedade, seguro e venda de lucro incerto, usada para justificar retorno fixo ao investidor."
+        ],
+        [
+          "Títulos extrínsecos",
+          "Razões externas ao empréstimo que autorizavam o credor a receber mais que o principal."
+        ],
+        [
+          "Dano emergente",
+          "Perda efetiva e avaliável sofrida pelo credor por causa do empréstimo."
+        ],
+        [
+          "Lucro cessante",
+          "Ganho futuro e incerto de que o credor abre mão ao emprestar o dinheiro."
+        ],
+        [
+          "Preço justo",
+          "Conceito escolástico de preço eticamente adequado, discutido por Tomás de Aquino."
+        ],
+        [
+          "Mendicantes",
+          "Ordens religiosas, como franciscanos e dominicanos, que viviam de esmolas e pregavam ao povo."
+        ]
+      ],
+      "hoje": "O capítulo trata de uma pergunta que a economia ainda faz: o que remunera o juro. Na leitura moderna, a taxa de juros embute custo de oportunidade, prêmio de risco e expectativa de inflação, categorias que lembram o lucro cessante e o dano emergente discutidos no capítulo. A fronteira entre sociedade e empréstimo também persiste, por exemplo nas finanças islâmicas, que estruturam operações como participação nos resultados. E a relação entre pesquisa acadêmica e financiamento privado segue sob escrutínio, com regras de divulgação de conflitos de interesse em periódicos e universidades."
+    },
+    {
+      "slug": "cap-25-hutten-e-a-reacao-alema",
+      "numero": 25,
+      "titulo": "Ulrich von Hutten, os Fugger e a reação alemã contra Roma",
+      "titulo_original": "Ulrich von Hutten and the German Reaction",
+      "paginas": "pp. 297–312",
+      "chamada": "Em 1514, um arcebispo de 24 anos tomou 48 mil florins dos Fugger para assumir Mainz. Jones parte dessa dívida para contar como um cavaleiro-poeta e Lutero transformaram a usura em questão nacional alemã.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em fevereiro de 1514 morreu Uriel von Gemmingen, arcebispo de Mainz. Quatro semanas depois, Albrecht, irmão de Joaquim, eleitor de Brandemburgo, assumiu o posto. Tinha 24 anos e fora ordenado padre apenas em 1513. É com essa sucessão que o capítulo 25 de “Barren Metal” abre o encontro entre três personagens: os Fugger, o cavaleiro-poeta Ulrich von Hutten e Martinho Lutero."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava um arcebispado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Caro, segundo E. Michael Jones. Cada posse em sé importante exigia taxas a Roma, o chamado pálio, que muitas vezes equivaliam à renda anual de uma diocese inteira. Como Albrecht e o irmão já integravam o colégio de sete eleitores do imperador, o acúmulo de cargos exigia ainda uma dispensa papal. Roma cobrou 20.000 florins de pálio e mais 10.000 de multa pela dispensa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "48 mil florins",
+          "texto": "Dívida de Albrecht com os Fugger ao fim das negociações em Roma, a pagar em oito anos, a 5% de juros. A garantia veio da indulgência criada por Júlio II para financiar a basílica de São Pedro. Em 1518, segundo o capítulo, Albrecht já havia devolvido 42.000 florins."
+        },
+        {
+          "tipo": "p",
+          "texto": "O valor não podia sair dos impostos do principado sem risco de revolta aberta, sustenta o autor. Albrecht recorreu então, como tantos cardeais, aos Fugger. O arranjo, descreve Jones, foi desenhado pelo credor: Leão X autorizou a pregação da indulgência de São Pedro em Mainz e em Brandemburgo por oito anos; os Fugger recolhiam as contribuições e abatiam o empréstimo, com juros; a Cúria ficava com ao menos 30.000 florins."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era Ulrich von Hutten?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando Albrecht entrou em Mainz, em novembro de 1514, foi saudado por um panegírico de 1.300 versos escrito por Hutten, nascido em 21 de abril de 1488 no castelo de Steckelburg, de família da pequena nobreza. Entre a eleição e a confirmação papal, Hutten serviu de correio secreto entre Magdeburgo, Halle e Mainz. O pai o destinara ao clero, mas em 1508, em Leipzig, ele contraiu sífilis, doença que, segundo o capítulo, fez dele um andarilho."
+        },
+        {
+          "tipo": "p",
+          "texto": "A doença, argumenta Jones, ajuda a explicar a hostilidade de Hutten aos Fugger. Em 1515 a família, ligada ao comércio do Novo Mundo, passou a promover o guáiaco, madeira americana tida como cura da sífilis, e montou uma “casa da madeira” em seu bairro de habitação popular em Augsburgo. Em 1518 Hutten fez o tratamento: 40 dias de jejum numa câmara aquecida, à base de chá amargo. Julgou-se curado e publicou um tratado dedicado ao cardeal Albrecht. Quando os sintomas voltaram, conta o autor, a raiva se voltou contra a exploração capitalista dos Fugger. Paracelso, em panfletos de 1528 e 1529, também os acusaria de promover o guáiaco por interesse financeiro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o ouro virou o sangue da Alemanha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, Hutten via a própria doença como metáfora política. Assim como seu corpo perdia sangue pelas feridas, a Alemanha perdia ouro, o sangue da economia, pelo comércio dos Fugger e pela venda de indulgências, enquanto Espanha, França e Inglaterra haviam se protegido dessa sangria. O capítulo registra, via o historiador Jacob Strieder, que na Suábia o verbo “fuggern” passara a designar o comércio em geral, com conotação de prática usurária."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ressentimento teria nascido em Roma, na Quaresma de 1516. Para não abrir mão de leite e manteiga, Hutten comprou na filial dos Fugger uma dispensa do jejum, o “certificado da manteiga”, e viu o gerente local, Johann Zink, vendendo benefícios com zelo. Hutten tornou-se porta-voz da pequena nobreza deslocada pela burguesia em ascensão. Jones atribui a esses ataques uma carta de Jakob Fugger a Jorge da Saxônia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sou rico pela graça de Deus, sem prejuízo a homem algum.”",
+          "original": "I am rich by God's grace, without injury to any man (p. 300)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor aponta uma ironia: o nacionalista Hutten apoiava Albrecht, Maximiliano, a campanha italiana e a cruzada contra os turcos sem perceber que tudo era financiado pelos Fugger. Em 12 de julho de 1517, em Augsburgo, por intermédio de Konrad Peutinger, aliado da família, Maximiliano coroou Hutten poeta laureado do Império, com louros trançados pela filha de Peutinger."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Jones lê a economia de Lutero?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A venda das indulgências ficou a cargo do dominicano Johann Tetzel. Seus sermões levaram um professor de teologia de Wittenberg a afixar 95 teses em outubro de 1517. Os Fugger, segundo Jones, julgavam ter encerrado a questão da usura em 1515, quando Johannes Eck defendeu em Bolonha a licitude de juros de 5%. Roma, endividada, reagiu como a um “barulho de tempestade distante”, na imagem de Hilaire Belloc."
+        },
+        {
+          "tipo": "p",
+          "texto": "Lutero, sustenta o autor apoiado em R. H. Tawney, rejeitava o comércio dos dois séculos anteriores e via no camponês a vida mais digna, mas descartava como sutileza escolástica o trabalho dos canonistas para definir a usura. Para Jones, a ênfase luterana no pecado original levou à conclusão de que o comércio é pecaminoso em si e de que a ordem só pode ser mantida pela espada do governante. Daí a tese de que a teologia da Reforma interrompeu a ciência econômica no mundo protestante por dois séculos. O autor resume o episódio numa frase."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A Reforma não foi seguida por uma orgia de saque dos bens da Igreja; a Reforma foi uma orgia de saque dos bens da Igreja.”",
+          "original": "The Reformation was not followed by an orgy of looting Church property; the Reformation was an orgy of looting Church property (p. 304)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Hutten ensinou a Lutero?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em vez de tratar a economia como questão moral, argumenta Jones, Lutero passou a vê-la pelo nacionalismo alemão, sob influência de Hutten, que dominava latim e alemão e é autor das “Cartas dos homens obscuros”. Em fevereiro de 1520 Lutero leu a edição de Hutten do texto de Valla sobre a falsa Doação de Constantino. Com Hutten e Sickingen, adotou a ideia de que os mercadores eram ladrões piores que os barões salteadores, e não entendia como alguém ganhava 20 florins por ano sobre 100 sem lidar com terra ou gado. No apelo à nobreza alemã, culpou os mercadores e Roma pela ruína dos principados: o ouro corria para o sul e não voltava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde Lutero e a escolástica coincidiam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No risco, segundo o autor. No tratado sobre comércio e usura, de 1524, Lutero condena a compra de rendas fixas, comum entre os rentistas de Augsburgo, porque permite fazer negócio sem correr risco. Jones vê aí uma síntese de um princípio central da economia escolástica."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se esse risco não é assumido, a compra de rendas é simplesmente usura.”",
+          "original": "if this risk is not taken, the purchase of incomes is simply usury (p. 307)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lutero, porém, recusa-se a dizer quando cabe cobrar quatro, cinco ou seis por cento e deixa a decisão à lei. Propõe o dízimo: uma parcela da colheita, que renderia muito ao credor nos anos bons e pouco nos ruins, dividindo o risco entre as partes. Para Jones, a defesa da força como fonte de ordem agradou a uma nobreza ávida pelos bens da Igreja; o eleitor da Saxônia protegeu Lutero, e Filipe de Hesse esmagou a revolta camponesa. O capítulo termina com Jakob Fugger, que mal entendia a fúria contra as indulgências de Mainz, cuja parte da firma mal cobria os custos, enviando o sobrinho Anton a Roma para tratar de abusos litúrgicos na paróquia de São Maurício."
+        }
+      ],
+      "glossario": [
+        [
+          "Pálio",
+          "Taxa paga a Roma na posse de um arcebispo, muitas vezes igual à renda anual da diocese."
+        ],
+        [
+          "Dispensa",
+          "Autorização papal para algo vedado pela regra, como acumular cargos ou não jejuar."
+        ],
+        [
+          "Indulgência",
+          "Remissão da pena temporal por pecados já perdoados, obtida mediante doações."
+        ],
+        [
+          "Florim (gulden)",
+          "Moeda de ouro corrente no Sacro Império."
+        ],
+        [
+          "Guáiaco",
+          "Madeira americana promovida no século 16 como cura da sífilis."
+        ],
+        [
+          "Compra de rendas",
+          "Pagamento à vista em troca de uma renda anual fixa, sem risco para o comprador."
+        ],
+        [
+          "Casuística",
+          "Análise moral caso a caso, usada pelos escolásticos para definir a usura."
+        ],
+        [
+          "Usura",
+          "No vocabulário do livro, a cobrança de juros sobre empréstimos."
+        ]
+      ],
+      "hoje": "O capítulo toca em temas que seguem em pauta. A distinção entre renda fixa e participação no risco reaparece no debate sobre instrumentos de dívida e de capital e nas finanças islâmicas, que preferem contratos de partilha de lucros e perdas. A ideia de que capitais fluem para fora e drenam a economia doméstica ressurge nas discussões sobre controle de capitais, remessas de lucros e balanço de pagamentos. E o financiamento de cargos e instituições por grandes credores privados ecoa a preocupação contemporânea com conflitos de interesse entre bancos e poder público."
     }
   ],
   "titulo": "Barren Metal",
