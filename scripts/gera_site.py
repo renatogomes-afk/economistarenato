@@ -375,7 +375,7 @@ def pagina_colecao(c):
     </ul>
   </div>
 """ if prox else "")
-        nota = f"Fonte: {e(c['fonte'])}. {e(c['licenca'])} Os resumos e comentários são do autor deste site."
+        nota = f"Fonte: {e(c['fonte'])}. {e(c['licenca'])} Os resumos e comentários são do autor deste site." + (" Não são comentados, por não serem textos de economia, o suplemento com os estatutos da associação (1889) e o índice geral dos volumes de 1886 a 1896." if c["id"] == "eua" else "")
     else:
         miolo = """  <section class="em-preparacao">
     <span class="selo">Em preparação</span>
