@@ -4818,11 +4818,983 @@
       ],
       "jstor_edicao": "i323682",
       "colecao": "eua"
+    },
+    {
+      "slug": "1891-florestas-publicas",
+      "numero": 29,
+      "titulo": "Florestas públicas, 1891: uma lei da Marinha contra o machado",
+      "titulo_original": "Government Forestry Abroad; The Present Condition of the Forests on the Public Lands; Practicability of an American Forest Administration",
+      "autores": "Gifford Pinchot; Edward A. Bowers (Secretary of the American Forestry Association, formerly Inspector of Public Lands); B. E. Fernow (Chief of Forestry Division, Department of Agriculture)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 6, nº 3",
+      "data": "maio de 1891",
+      "chamada": "Em 1890, os Estados Unidos protegiam suas florestas com uma lei de 1817 feita para a madeira da Marinha. Três especialistas mostram o custo disso e o que a Europa e a Índia faziam diferente.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Num mês de agosto, Edward A. Bowers, ex-inspetor de terras públicas, aproximou-se dos montes Bighorn, no norte do Wyoming, e não viu montanha nenhuma: só uma nuvem de fumaça. Ela ficou ali as semanas todas em que ele esteve na região, deslocando-se devagar para o norte. Nenhum colono, nenhum morador das cidades vizinhas deu atenção. O fogo consumia madeira e, com ela, a água de que dependia a irrigação do vale."
+        },
+        {
+          "tipo": "p",
+          "texto": "O relato está num dos três trabalhos lidos em Washington, em 30 de dezembro de 1890, na sessão conjunta da American Economic Association com a American Forestry Association, e publicados juntos em maio de 1891. Gifford Pinchot descreve a gestão florestal pública na Europa e nas colônias britânicas. Bowers expõe o estado das florestas federais. B. E. Fernow, chefe da Divisão Florestal do Departamento de Agricultura, pergunta se uma administração florestal americana seria praticável."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a floresta pediria um dono que não morre?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pinchot parte de dois fatos que chama de quase axiomas: árvores levam muitos anos para atingir tamanho comercial, e não se tira uma safra de floresta todo ano do mesmo terreno. Daí deduz que o manejo exige um plano de longo prazo e que a propriedade florestal fica mais segura sob um guardião imperecível, isto é, o Estado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comparação que abre o caso alemão é deliberadamente incômoda. Na Alemanha, as florestas cobriam 26% do território. Nos Estados Unidos, dos recursos ditos inesgotáveis, os dados mais recentes davam a mesma proporção. A diferença estava na gestão: o Estado alemão possuía ou controlava cerca de dois terços da área florestal."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Prússia, o Estado detinha 29% das florestas, outros entes públicos 16% e particulares 55%. A regra era nunca vender. Nem quando a Prússia foi invadida pelos franceses, diz Pinchot, a venda das florestas estatais foi seriamente cogitada. O contraexemplo vinha das aldeias que, em 1848, venderam suas florestas comunais e empobreceram com regularidade deplorável."
+        },
+        {
+          "tipo": "p",
+          "texto": "A gestão cabia a 681 Oberförster, os oficiais executivos, formados em um percurso de anos: estágio prático, escola florestal, um ano de direito e economia política na universidade, dois exames e longa espera pela nomeação. Pinchot adverte, porém, contra a caricatura de um sistema rígido. O que distinguia o manejo alemão era a adaptabilidade; os métodos não deveriam ser copiados, só os princípios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Floresta pública dava prejuízo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Não na França. O Estado francês possuía 2.657.944 acres de floresta, cerca de um nono da área florestal, que por sua vez cobria 17% do país. O serviço florestal também administrava as matas de comunas e instituições públicas, mediante taxa fixa, e reservava um quarto delas como fundo para emergências, como incêndio, enchente ou a construção de uma escola."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14 milhões de francos",
+          "texto": "Receita líquida esperada das florestas no orçamento francês de 1891, excluídos o reflorestamento das montanhas e a Argélia. O orçamento total previa despesas de 15,5 milhões e receita bruta de 25 milhões. Em 1878, a receita líquida média das florestas estatais foi de 32 francos por hectare, cerca de US$ 2,50 por acre."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pinchot resume: gestão desse tipo nada tinha de sentimentalismo nem da proteção filantrópica do “não toque”. O mesmo valia para a Índia, onde o manejo sistemático começara cerca de 35 anos antes, conduzido por Sir Dietrich Brandis. O sucesso inicial, observa, deveu-se em boa parte a ter dado receita líquida desde o início. Pela tabela de Schlich, a receita líquida média anual mais que triplicou entre 1864–1867 e 1882–1887."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Suíça interessava por outro motivo: era uma república federativa, como os Estados Unidos. Ali a lei florestal federal veio em 1876, depois que as enchentes de 1834 nos Alpes foram atribuídas à destruição das matas de montanha. Segundo o professor Landolt, citado por Pinchot, a lei agia mais por instrução e exemplo que por punição. A floresta municipal de Zurique, o Sihlwald, com 2.400 acres, rendeu à cidade cerca de US$ 20.000 em 1889."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O cuidado das florestas é dever da nação.”",
+          "original": "The care of the forests is the duty of the nation."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se protegia madeira com uma lei para navios?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bowers responde com a cronologia. A base do sistema americano era uma lei de 1º de março de 1817, que autorizava reservar terras com carvalho e cedro “exclusivamente” para a Marinha, ampliada em 1831 com multa de três vezes o valor da madeira. Era nela que o governo se apoiava para proteger matas nas regiões áridas do Oeste, onde não havia nenhuma das madeiras navais previstas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As leis não oferecem método adequado nem para proteger a madeira pública”",
+          "original": "The laws provide neither an adequate method for the protection of the public timber"
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto da legislação produzia incentivos perversos. Nas Montanhas Rochosas, colonos e mineradores só podiam cortar legalmente em terra mineral, coisa que ninguém sabia identificar sem cavar um poço. Resultado: toda a população era empurrada a furtar um bem de primeira necessidade. O próprio comissário do General Land Office notava que o dono de uma mina no Arizona obtinha madeira de graça, enquanto um agricultor de Minnesota não podia tirar um graveto."
+        },
+        {
+          "tipo": "p",
+          "texto": "No Pacífico, a lei de 1878 vendia terra florestal a US$ 2,50 por acre, ou US$ 1.600 por milha quadrada, onde a madeira valia, segundo Bowers, US$ 20.000 por milha quadrada. Empresas contratavam trabalhadores para registrar lotes em seu nome e repassá-los. Bowers viu uma companhia contratar a tripulação inteira de navios que aportavam, pagando US$ 50 a cada um pela assinatura."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 36,7 milhões",
+          "texto": "Valor da madeira registrada como furtada de terras federais de 1881 a 1887. O governo recuperou US$ 478.073 e gastou US$ 455.000 só com os agentes especiais, sem contar custos judiciais. No último ano, 310 casos, mais de US$ 3 milhões em madeira e US$ 100.940,32 recuperados."
+        },
+        {
+          "tipo": "p",
+          "texto": "A fiscalização tinha dinheiro para cerca de 25 agentes, que deveriam cobrir 70 milhões de acres. Júris locais raramente condenavam, porque muitas vezes os próprios jurados usavam a madeira. Os cargos viraram prêmio partidário. Um dono de serraria disse a Bowers que o agente era uma forma barata de comprar proteção; só reclamava que a troca frequente de agentes estava encarecendo o serviço."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Uma administração florestal americana era viável?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fernow começa pelo diagnóstico econômico. A ausência de manejo privado não era vício moral, mas resposta racional: com tanta mata virgem disponível, compensava tirar o melhor e partir para a próxima. Manejar significa abrir mão de receita presente por retorno futuro. Só perto dos mercados, como nos Adirondacks, o manejo privado já pagaria a conta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Onde a cobertura florestal regula a água das montanhas, porém, o interesse é da comunidade, e o Estado representa, nas palavras de Fernow, não só o interesse comunal contra o individual, mas o futuro contra o presente. Controlar proprietários privados seria injusto e ineficaz; melhor manter a terra com o governo federal, que já era o dono. O caminho estava num projeto apresentado no 50º Congresso, o H.R. 6045, reproduzido no apêndice."
+        },
+        {
+          "tipo": "p",
+          "texto": "O projeto retirava as terras florestais da venda, criava um comissário de florestas com quatro assistentes e cobrava pelo uso: licença de US$ 2 para o colono cortar em cinco acres, licenças maiores com taxa por acre e por toco para serrarias. Proibia que qualquer pessoa ligada à indústria madeireira ocupasse cargo no serviço."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 centavos por acre",
+          "texto": "Custo anual estimado por Fernow para administrar 50 milhões de acres: US$ 2,5 milhões, com 1.000 a 2.000 guardas e 500 gerentes residentes. A demanda seria coberta pela capacidade das serrarias da região, acima de 3 bilhões de pés de tábua, e por 3 milhões de habitantes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“toda a dificuldade é de homens, mais do que de medidas”",
+          "original": "the whole difficulty is one of men, rather than of measures"
+        },
+        {
+          "tipo": "p",
+          "texto": "Do ponto de vista dos negócios, conclui Fernow, a administração era perfeitamente praticável. O obstáculo era legislativo: o enorme impulso dos maus hábitos e da política pessoal. Bowers terminava no mesmo tom, apostando que só a agitação constante levaria o país a perceber o que a destruição das florestas significava."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o volume é um tratado sobre direitos de propriedade mal definidos. Bowers descreve um bem de dono ausente: o governo possui a mata, mas não a vigia, não a vende pelo valor e não permite o uso legal. O que resta é o furto, o fogo e a fraude, com a cumplicidade de júris e fiscais. Fernow percebe que a solução não é só punir, mas cobrar: dar ao colono uma licença barata e ao madeireiro um preço por toco transforma o infrator em cliente.",
+            "O segundo ponto é de governança. Os três autores insistem que o problema não é falta de lei, mas de gente: fiscais nomeados por favor, sem preparo e mal pagos. A Prússia e a França mostram o contrário, um corpo técnico estável que gera receita. A lição permanente é que a propriedade pública só funciona com administração profissional; sem ela, o patrimônio do Estado é apenas um recurso aberto ao primeiro que chegar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Oberförster",
+          "oficial florestal prussiano encarregado da gestão direta de um distrito de floresta pública."
+        ],
+        [
+          "plano de manejo",
+          "documento que fixa onde, quanto e quando cortar para que a floresta renda sem se esgotar (working plan)."
+        ],
+        [
+          "talhadia composta",
+          "manejo francês que corta rebrotas de tocos em ciclos curtos e deixa algumas árvores crescerem por vários ciclos (taillis sous futaie)."
+        ],
+        [
+          "quart en réserve",
+          "quarta parte das florestas comunais francesas mantida como fundo de emergência."
+        ],
+        [
+          "floresta de proteção",
+          "mata preservada por sua função contra erosão, enchentes e avalanches, mais que pela madeira."
+        ],
+        [
+          "stumpage",
+          "preço pago ao dono pela madeira em pé, cobrado por toco, por volume ou por área."
+        ]
+      ],
+      "hoje": "O dilema de 1890 não envelheceu. Florestas públicas ainda sofrem com fiscalização insuficiente, títulos de terra obtidos por fraude e incêndios que escondem o corte ilegal. O debate atual sobre concessões florestais repete a proposta de Fernow: em vez de apenas proibir, cobrar pelo uso legal e controlar como se corta. E a pergunta de Pinchot continua válida para qualquer patrimônio público de ciclo longo: quem garante que a geração presente não consuma o que pertence às seguintes? A resposta, então como agora, depende menos da lei escrita que de um corpo técnico capaz de aplicá-la.",
+      "itens": [
+        [
+          "Government Forestry Abroad",
+          "pp. 7–54",
+          "2485580"
+        ],
+        [
+          "The Present Condition of the Forests on the Public Lands",
+          "pp. 57–74",
+          "2485581"
+        ],
+        [
+          "Practicability of an American Forest Administration",
+          "pp. 77–101",
+          "2485582"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "Government Forestry Abroad",
+          "autores": "Gifford Pinchot",
+          "paginas": "pp. 7–54",
+          "jstor": "2485580",
+          "resumo": "Panorama da gestão florestal pública na Alemanha, França, Suíça, Austrália, Índia, África do Sul e outros países. Sustenta que a floresta exige um guardião permanente, o Estado; descreve a formação dos oficiais prussianos, as receitas das florestas francesas, a lei federal suíça e a experiência indiana de Brandis, que deu lucro desde o início. Conclui que o cuidado das florestas é dever da nação."
+        },
+        {
+          "titulo": "The Present Condition of the Forests on the Public Lands",
+          "autores": "Edward A. Bowers (Secretary of the American Forestry Association)",
+          "paginas": "pp. 57–74",
+          "jstor": "2485581",
+          "resumo": "Mostra que a proteção das florestas federais se apoiava numa lei de 1817 sobre madeira para a Marinha e que as demais leis empurravam colonos ao furto e favoreciam fraudes de grandes madeireiras. De 1881 a 1887, US$ 36,7 milhões em madeira furtada contra US$ 478.073 recuperados; cerca de 25 agentes para 70 milhões de acres; perda anual por incêndio estimada em US$ 8 milhões."
+        },
+        {
+          "titulo": "Practicability of an American Forest Administration",
+          "autores": "B. E. Fernow (Chief of Forestry Division, Department of Agriculture)",
+          "paginas": "pp. 77–101",
+          "jstor": "2485582",
+          "resumo": "Explica a ausência de manejo privado pela abundância de mata virgem e defende que as florestas de montanha fiquem sob o governo federal. Analisa o projeto H.R. 6045, com comissário de florestas, licenças pagas e guarda contra incêndios, e estima custo de US$ 2,5 milhões, ou 5 centavos por acre, para 50 milhões de acres. O obstáculo, diz, é de homens e de política, não de medidas."
+        }
+      ],
+      "jstor_edicao": "i342424",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1891-o-gas-municipal",
+      "numero": 30,
+      "titulo": "Nove cidades e uma conta: o gás municipal posto à prova",
+      "titulo_original": "Municipal Ownership of Gas in the United States",
+      "autores": "Edward W. Bemis, Ph. D., Professor in Vanderbilt University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 6, nº 4/5",
+      "data": "julho e setembro de 1891",
+      "chamada": "Em 1890 e 1891, Edward Bemis visitou as nove cidades americanas donas da própria usina de gás. Voltou com custos, tarifas, dívidas e uma tese: o problema do monopólio privado não é o custo, é o capital aguado.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na última semana de junho de 1891, Edward W. Bemis desembarcou em Hamilton, Ohio, com uma denúncia no bolso. Um correspondente de Cincinnati lhe escrevera que a usina municipal de gás era um fracasso absoluto, que os dois jornais da cidade pediam sua venda e que mais de sessenta consumidores tinham voltado à antiga empresa privada em dois meses. Bemis conferiu nome por nome. Encontrou apenas três. Descobriu também que o informante trabalhava no escritório dos advogados da empresa privada."
+        },
+        {
+          "tipo": "p",
+          "texto": "O episódio resume o método da monografia. Bemis, professor da Vanderbilt University, visitou em agosto e dezembro de 1890 todas as cidades americanas que fabricavam e vendiam o próprio gás, exceto a pequena Bellefontaine. Eram nove: quatro na Virgínia, uma na Virgínia Ocidental, duas em Ohio, uma no Kentucky e Filadélfia, na Pensilvânia, dona da usina desde 1841. Leu relatórios, abriu livros contábeis e interrogou cidadãos nas ruas e até nos trens. O Arquivo já tratou do tema em 1886, com a monografia de Edmund J. James; Bemis se propõe a fazer o que James não fez, medir os resultados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que era preciso refazer as contas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque as contas em circulação eram ruins. O estudo mais citado contra a propriedade municipal, o relatório nº 91 de uma comissão do Senado de Massachusetts, de abril de 1890, afirmava conhecer só quatro cidades que vendiam gás aos cidadãos. Havia oito. Segundo o superintendente de Richmond, boa parte da investigação ali foi conduzida por um engenheiro da Bay State Gas Company, de Boston, que acompanhava a comissão. Para fabricar um prejuízo, diz Bemis, a comissão avaliou o gás das ruas abaixo do preço de mercado e cobrou juros sobre uma avaliação inflada da usina."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Hamilton, a usina municipal começou a operar em abril de 1890, depois de os eleitores aprovarem a obra por 2.412 votos contra 59. A empresa privada respondeu com processos em tribunais estaduais e federais, e perdeu as decisões principais. O preço caiu de 2 dólares para 1 dólar por mil pés cúbicos, e a própria empresa privada passou a cobrar 95 centavos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava o gás das cidades?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso mais vistoso era Wheeling, na Virgínia Ocidental. Quando a cidade assumiu a usina, em 1870, o gás custava 3,50 dólares. Em 1891, quem pagava em dia pagava 75 centavos. O custo, incluindo reparos e extensões, era de 40,2 centavos; somando 6% de juros e 2% de impostos que a usina não pagava, chegava a 67 centavos. Parte se explica pelo carvão a 1,58 dólar a tonelada. O resto, conclui Bemis, era boa gestão."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "67 centavos a US$ 1,59",
+          "texto": "Custo do gás nas nove usinas municipais por mil pés cúbicos, já incluídos 6% de juros e 2% de impostos fictícios sobre o custo de reconstruir a usina. Wheeling no piso; Danville, cidade pequena com carvão a 5 dólares a tonelada, no teto. Filadélfia: US$ 1,08; Richmond: US$ 1,11. No Kentucky, nenhuma das 18 empresas privadas vendia tão barato quanto Henderson, a US$ 1,25."
+        },
+        {
+          "tipo": "p",
+          "texto": "Bemis é cuidadoso com o que os números provam. Admite que não é certo que as empresas privadas, nas mesmas condições de carvão e mercado, produzam mais caro. O secretário da usina de Wheeling chegou a lhe escrever que uma empresa privada fabricaria um pouco mais barato. A tese do livro é outra: quem fica com a diferença entre o custo e o preço."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto vale uma usina de gás?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui está o centro técnico da monografia. Os superintendentes municipais tinham adotado o hábito dos monopólios privados: avaliavam a usina pelo custo histórico de tudo o que um dia se gastou nela. Em Richmond, os comprovantes somavam entre 800 mil e 900 mil dólares. Mas parte da planta fora substituída e os materiais tinham barateado. Peça por peça, canos, medidores, terreno, gasômetros, Bemis e o superintendente chegaram a 592.795 dólares para reconstruí-la."
+        },
+        {
+          "tipo": "p",
+          "texto": "O critério certo, sustenta, é o custo de duplicar uma usina de mesma eficiência, porque é a ele que a concorrência reduz o valor de uma fábrica comum. Um monopólio que continua cobrando retorno sobre capital já obsoleto apenas escapou dessa disciplina. Com esse critério, ele mede o capital por mil pés cúbicos vendidos por ano, e a comparação fica desconfortável para as empresas privadas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 9,85",
+          "texto": "Capitalização média, em ações e títulos, por mil pés cúbicos vendidos nas 15 maiores cidades com dados completos, todas servidas por empresas privadas. Nas usinas municipais, a média era de US$ 4,56. St. Louis chegava a US$ 19,50 e Nova Orleans a US$ 20,25. A fusão das empresas de Boston emitiu 17 milhões de dólares sobre 1,76 bilhão de pés cúbicos: US$ 9,67."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para cada dólar necessário para reconstruir as usinas, calcula Bemis, as empresas privadas tinham quase três dólares em ações e títulos, e a maior parte rendia dividendos. O nome técnico era stock watering, a emissão de ações sem contrapartida em ativos. A prova mais dura vinha de Nova York. O relatório do Senado estadual de 31 de março de 1885, tão raro que Bemis o copiou na Biblioteca do Congresso, mostrava que os consumidores pagaram 74,7 milhões de dólares em dez anos, quase metade lucro líquido. Em 1883, o gás custava às empresas 60 centavos no gasômetro e era vendido a 2,16 dólares."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A usina pública vira cabide de empregos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Era a objeção decisiva, e Bemis a encara pelo pior caso. Filadélfia foi dona da usina por quase meio século sem controlá-la: até abril de 1887, a gestão cabia a um conselho de curadores que nem a prefeitura nem a câmara podiam fiscalizar, protegido pelos tribunais enquanto houvesse títulos a resgatar. O conselho usou os cargos como prêmio partidário. Com a reforma que pôs a usina sob um diretor de obras públicas e concurso para contratar, o quadro caiu de 2.257 para 1.546 empregados em quatro anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas outras cidades, o balanço é misto e contado sem retoque. Em Wheeling, em 1879, o superintendente e o secretário desviaram fundos e queimaram os livros para esconder a fraude; seguiu-se uma reorganização completa. Em Richmond, todos os funcionários eram presumidamente do partido dominante, e talvez houvesse gente demais na folha. Ainda assim, Bemis conclui que seis das nove cidades estavam inteiramente livres de influência política."
+        },
+        {
+          "tipo": "p",
+          "texto": "O contraponto é a corrupção do outro lado do balcão. Um advogado de uma grande empresa de gás no Tennessee lhe disse que não houve ano sem suborno direto à câmara municipal, para obter favores ou se defender de extorsões. Um acionista de outra empresa contou que ela pagava todo ano 2% do capital aos vereadores. Para Bemis, a troca ocasional de funcionários por motivo político não se compara a isso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O lucro da usina é tarifa ou imposto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Filadélfia cobrava 1,50 dólar por um gás que lhe custava 84 centavos. A diferença ia para o caixa da cidade, que esbarrava no limite constitucional de endividamento e tinha muitos pequenos proprietários avessos a impostos diretos. Bemis preferia vender a um pouco acima do custo, para difundir o gás como combustível de cozinha, mas não vê ali grande injustiça: os pobres usavam pouco gás, e a tarifa alta pesava sobre as classes média e rica. O que o incomodava era outro efeito. O gás das repartições, que não pagavam nada, somou 551 milhões de pés cúbicos em 1890. O superintendente propunha cobrar de cada departamento, ainda que isso parecesse absurdo:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“tirar dinheiro de um bolso e pôr no outro”",
+          "original": "“taking money out of one pocket and putting it into another”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Melhor isso, completava, do que tirar dos dois bolsos e dissipar no ar. A pergunta sobre o monopólio privado, Bemis a responde no capítulo teórico. Na concorrência, o preço tende ao custo de produção; no monopólio, fica no ponto que maximiza o lucro. O excedente sobre o retorno normal não é lucro comum:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“tem a natureza de um imposto cobrado por particulares sobre o público”",
+          "original": "“in the nature of a tax levied by private parties upon the public”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a resposta à acusação de socialismo. A propriedade municipal de um monopólio natural, escreve, não tem ligação lógica com a entrada do Estado na fabricação de pão ou tecido. Regular é inevitável; se por meio da propriedade pública ou de uma comissão, é questão de experiência. E a experiência das comissões era fraca: a de Massachusetts, a mais elogiada do país, só reduzira preços duas vezes, em Worcester e em Chelsea."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga pelo monopólio quando a cidade compra a usina?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em maio de 1891, a Assembleia de Massachusetts autorizou as cidades a fabricar gás e eletricidade, por 158 votos a 30 na Câmara e 22 a 10 no Senado. Bemis aplaude, mas critica uma cláusula: na compra de uma usina privada, os peritos deveriam considerar sua capacidade de lucro. Como o lucro vinha de preços de monopólio, os cidadãos pagariam não só pelos canos e gasômetros, mas pelo próprio monopólio, que a empresa nunca criou. Ele aponta como melhor modelo a lei inglesa de iluminação elétrica de 1882, que excluía da indenização o fundo de comércio e os lucros futuros."
+        },
+        {
+          "tipo": "p",
+          "texto": "Toledo, que comprara campos de gás natural e uma tubulação de mais de quarenta milhas, mostrava o que havia em jogo. A empresa ligada à Standard Oil cobrava 12 centavos por mil pés cúbicos; a linha municipal, 8. Bemis previa que a década dobraria o número de usinas municipais de gás no país."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a contribuição duradoura de Bemis não é o veredito a favor da prefeitura, e sim a régua. Ao trocar o custo histórico pelo custo de duplicação e medir o capital por unidade vendida, ele separou o que remunera investimento do que remunera privilégio. Essa distinção, entre a base de ativos que merece retorno e o capital que só existe no papel, continua sendo a pergunta central de qualquer revisão tarifária. Também é honesto o bastante para registrar o que enfraquece a própria tese: a eficiência produtiva não era o diferencial, e Filadélfia mostra que uma usina pública sem prestação de contas pode ser pior que uma privada.",
+            "O documento tem seus limites. Bemis trabalha com nove casos escolhidos por existirem, não por amostragem, e confia muito na palavra de superintendentes. Numa passagem, descreve o eleitorado negro do Sul em termos preconceituosos, como se fosse um obstáculo à boa gestão. Mas sua lição de governança vale para os dois modelos: o que protege o usuário não é a natureza do dono, é a combinação de contabilidade aberta, gestor técnico e alguém a quem prestar contas."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "mil pés cúbicos",
+          "unidade em que o gás era vendido, equivalente a cerca de 28 metros cúbicos."
+        ],
+        [
+          "custo de duplicação",
+          "quanto custaria construir hoje uma usina de mesma eficiência; Bemis o usa como valor justo do capital."
+        ],
+        [
+          "stock watering",
+          "emissão de ações e títulos acima do capital efetivamente investido, para justificar lucros maiores."
+        ],
+        [
+          "monopólio natural",
+          "atividade em que uma só rede atende a cidade mais barato do que duas, como gás, água e bondes."
+        ],
+        [
+          "resíduos",
+          "subprodutos da destilação do carvão, como coque, alcatrão e amônia, vendidos para reduzir o custo do gás."
+        ],
+        [
+          "gás de água",
+          "gás produzido sobretudo a partir de petróleo e coque, sem resíduos para venda, que ganhava espaço sobre o gás de carvão."
+        ]
+      ],
+      "hoje": "A pergunta de Bemis ainda organiza a regulação de infraestrutura. Concessões de gás, saneamento e energia são revistas a partir de uma base de ativos, e a disputa continua sendo se ela deve refletir o que foi gasto, o que custaria repor ou o que o negócio rende. A escolha entre empresa pública e concessão privada também segue dependendo menos da natureza do dono do que de contas comparáveis e de governança. E as indenizações em retomadas de concessão ainda esbarram no problema que ele apontou: não pagar duas vezes pelo mesmo privilégio.",
+      "itens": [
+        [
+          "Municipal Ownership of Gas in the United States",
+          "pp. 9–185",
+          "2485705"
+        ]
+      ],
+      "jstor_edicao": "i342425",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1891-as-comissoes-ferroviarias-estaduais",
+      "numero": 31,
+      "titulo": "Trinta e quatro comissões, nenhum padrão: a regulação ferroviária de 1891",
+      "titulo_original": "State Railroad Commissions and How They May Be Made Effective",
+      "autores": "Frederick C. Clark, Ph. D. (Instructor in History and Political Economy, Ann Arbor High School)",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 6, nº 6",
+      "data": "novembro de 1891",
+      "chamada": "Em 1891, 34 estados americanos tinham comissões ferroviárias e quase nenhuma regra em comum. Frederick C. Clark propôs reguladores técnicos, contabilidade uniforme e cooperação entre estados.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1885, diante de uma comissão do Senado americano, o secretário da comissão ferroviária de Minnesota, Mr. Warner, foi perguntado se os cidadãos lesados processavam as ferrovias. Ele disse que sabia de apenas dois processos. Os dois autores ganharam. Um deles, um homem da região da Northern Pacific, gastou em litígio cerca de três vezes o que recebeu da empresa."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso abre o argumento de Frederick C. Clark, professor de história e economia política na escola secundária de Ann Arbor, em Michigan. A monografia nasceu de uma tabela anexada à sua dissertação de mestrado na Universidade de Michigan e foi ampliada com o incentivo de Henry C. Adams. A tese é simples: as leis existiam, mas não havia máquina nem força para aplicá-las."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como os Estados Unidos chegaram às comissões?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark divide a história em três períodos de cerca de vinte anos. De 1830 a 1850, a construção é entusiasmada e o Estado não interfere: financia. Maryland subscreveu US$ 3 milhões em ações da Baltimore and Ohio em 1835, e a cidade de Baltimore outro tanto. De 1850 a 1870, vêm as leis gerais e a fé na concorrência. A partir de 1870, as comissões."
+        },
+        {
+          "tipo": "p",
+          "texto": "A fé na concorrência custou caro. A crença, diz Clark, era que quanto mais ferrovias, mais baratas as tarifas. Vieram guerras tarifárias, a crise de 1857 e, depois da Guerra Civil, uma nova onda: o acréscimo anual de linhas triplicou entre 1868 e 1871, à frente da demanda real. O desfecho foi o pânico de 1873 e, no Oeste, a revolta dos agricultores conhecida como movimento Granger."
+        },
+        {
+          "tipo": "p",
+          "texto": "As primeiras comissões cuidavam de segurança. New Hampshire criou em 1844 a primeira junta para inspecionar as linhas e informar o Legislativo; Connecticut fez o mesmo em 1853, depois que um trem de passageiros caiu numa ponte levadiça aberta. O passo decisivo veio em 1869, quando Massachusetts juntou numa só comissão permanente duas funções antes separadas: arbitrar disputas e supervisionar as empresas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Persuadir ou mandar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark descreve dois tipos. A comissão de Massachusetts, de três membros nomeados pelo governador para mandatos de três anos, examinava livros, ouvia queixas e recomendava leis, mas não tinha poder de impor suas ordens. Apoiava-se na opinião pública, na imprensa e na disposição do Legislativo de acolher suas recomendações. Sob Charles Francis Adams Jr., chegou a propor a compra estatal da linha Fitchburg, de 51 milhas, como experimento; a ideia foi abandonada por se julgar que a política contaminaria a gestão."
+        },
+        {
+          "tipo": "p",
+          "texto": "Illinois seguiu o caminho oposto. A constituição de 1870 obrigou o Legislativo a impedir a extorsão e a discriminação e a fixar tarifas máximas. A lei de 1873 inverteu a regra do direito comum: as tabelas da comissão passaram a valer como prova prima facie de razoabilidade, e cabia à ferrovia provar que uma tarifa acima delas era razoável, e não ao usuário provar o contrário."
+        },
+        {
+          "tipo": "p",
+          "texto": "Funcionou enquanto durou. No ano encerrado em 30 de junho de 1880, a comissão recebeu 47 queixas formais, 25 delas de extorsão, e resolveu todas. Em 1884 eram três. Mas a Suprema Corte, no caso Wabash, decidiu que um estado não podia regular tarifas de transporte entre estados. Como o grosso do tráfego era interestadual, as ferrovias voltaram a ficar, na prática, livres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei federal de 1887 mudou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta foi a Interstate Commerce Act. Uma comissão do Senado presidida pelo senador Cullom ouviu comerciantes, agricultores, advogados e ferroviários e acumulou 1.456 páginas de depoimentos. O projeto passou no Senado em 14 de janeiro de 1887, por 45 a 15, e na Câmara em 21 de janeiro, por 219 a 41. O presidente Cleveland o assinou em 4 de fevereiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro efeito surpreendeu quem previa desastre para as ferrovias. Segundo o juiz Cooley, presidente da comissão federal, nos primeiros seis meses a lei ajudou as empresas: o que ganharam com o fim dos favores a clientes privilegiados superou o que perderam com a regra do percurso curto. E acrescentou que o período mais favorável foi"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“exatamente aquele em que suas disposições foram mais bem observadas”",
+          "original": "precisely that during which its provisions were best observed"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois vieram os abatimentos secretos, o subfaturamento de cargas e outras manobras. Para Clark, isso provava duas coisas: a lei carecia de força, e havia fontes de desordem que nenhum legislador ainda atacara."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que 34 comissões não faziam um sistema?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O coração do trabalho são as tabelas do apêndice, verificadas pelos próprios comissários. Trinta e quatro estados mantinham comissões: 13 supervisoras, no molde de Massachusetts; 17 reguladoras, no molde de Illinois; e 4 que eram apenas órgãos fiscais ou estatísticos. Florida e Tennessee haviam tentado o sistema e desistido. Dentro de cada grupo, nenhuma comissão era igual a outra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O tamanho das comissões não seguia critério algum. Ohio tinha um único comissário para 7.797,15 milhas de linha, 4,94% da malha do país; Vermont tinha três para 1.012,54 milhas, 0,64%. Os mandatos iam de dois anos, em Vermont, a seis, na Carolina do Sul e na Geórgia. Uns comissários eram nomeados, outros eleitos, um escolhido pelo Legislativo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 500 a US$ 8.000",
+          "texto": "Faixa de salário anual dos comissários estaduais. Rhode Island pagava US$ 500 a seu único comissário; Nova York, US$ 8.000 a cada um de três, o maior salário do estado depois do governador. Iowa, cuja comissão tinha a maior carga de trabalho entre as estaduais, pagava US$ 3.000. Vermont pagava oito dólares por dia trabalhado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Clark, o pior era a falta de exigência técnica. Só Connecticut, Maine e Geórgia definiam qualificações: em Connecticut, um advogado, um engenheiro civil com dez anos de prática e um homem de negócios. Nos demais, mais de 90% dos estados com comissão, não havia exigência além das de natureza política. Ele cita Charles Francis Adams: no Oeste, os governadores, com medo de viés, procuravam homens"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“cuja mente era uma página em branco”",
+          "original": "whose minds were a blank"
+        },
+        {
+          "tipo": "p",
+          "texto": "A diversidade tinha custo para todos. Havia três classificações de frete na mesma região, e a mesma mercadoria podia viajar a duas tarifas diferentes no mesmo trem. Antes da lei federal, ir de Detroit a Chicago saía bem mais barato do que ir de Jackson ou de Ann Arbor a Chicago, no mesmo serviço. Em Missouri e Wisconsin, quem se sentia lesado precisava ir à Justiça por conta própria; nos vizinhos Iowa e Illinois, a comissão cuidava do caso à custa do estado. O resultado, diz Clark, era silêncio de um lado da fronteira e queixas resolvidas do outro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Clark propunha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Três passos. Primeiro, criar comissões onde não havia: 19 estados e territórios, contando os quatro de órgãos meramente fiscais, somavam cerca de um quarto da malha ferroviária sem regulador de fato. Segundo, uniformizar as leis. Os comissários deveriam ter mandato de pelo menos seis anos, salário que não exigisse sacrifício e juramento de qualificação: dez anos de advocacia para um, dez de gestão ferroviária para outro, quinze de negócios para o terceiro, além de caução de no mínimo US$ 10.000."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os dirigentes das ferrovias escolheriam seus maquinistas por critério partidário?”",
+          "original": "Would railroad officials choose their efficient engineers on party grounds?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ainda no segundo passo: as tarifas fixadas pelas comissões, depois de ouvidas as empresas, deveriam valer como decisão vinculante, com o ônus da prova sobre as ferrovias, como em Illinois. E todas deveriam exigir contabilidade uniforme. Só dez comissões estaduais, 27,7% delas, tinham esse poder, e mesmo a comissão federal evitava usá-lo, porque aplicá-lo de forma desigual seria, ela própria, uma discriminação."
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark queria inspeção física e financeira. Cada estado teria um engenheiro para percorrer as linhas duas vezes por ano; num único ano, 1.972 empregados ferroviários haviam morrido em serviço. Na parte financeira, propôs três auditores nacionais, um deles o auditor da comissão federal, e ao menos um inspetor por estado, no modelo da inspeção dos bancos nacionais. Aos dirigentes que alegavam não saber nem se uma pá de carvão fora comprada para o vagão nº 20, respondeu que contabilidade sólida presta contas dos centavos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Defendeu ainda que nenhuma linha nova fosse autorizada sem prova de necessidade, examinada pela comissão, como fazia o Board of Trade inglês. Entre 1860 e 1880, a população americana cresceu 59% e a extensão das ferrovias, 297%. Clark rejeitava a ideia de que toda ferrovia tem direito a viver: uma concessão não garante dividendo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A cooperação entre reguladores dava resultado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro passo era a cooperação entre as comissões estaduais e a federal. Até então, só o Alabama, por lei de 1881, obrigava sua comissão a buscar acordo com as dos outros estados, sem sucesso. Em março de 1889, a comissão federal reuniu em Washington representantes de 22 estados e territórios. Seguiram-se conferências em maio de 1890 e março de 1891."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado mais concreto foi contábil. Em março de 1889, 12 comissões encerravam o ano fiscal em 30 de junho; em outubro de 1891, eram 29 estados. Os formulários federais de relatório, usados por 16 estados em 1889, já eram usados por 22. Para Clark, era a prova de que a uniformidade era possível. Propôs dar às conferências estatuto permanente e obrigar cada comissão a levar ao seu Legislativo os projetos acordados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 8,5 bilhões",
+          "texto": "Capital em ações e títulos das ferrovias americanas, segundo o estatístico da comissão federal (relatório de 1889): US$ 8.518.718.578. O setor sustentava diretamente 3 milhões de pessoas, cerca de uma em cada 22 da população, e gerava lucro líquido de US$ 2.087 por milha ao ano."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor duradouro do texto está no diagnóstico, não no otimismo. Clark percebeu que um regulador vale o que valem as pessoas que o compõem e a informação que recebe. Sem quadros qualificados, sem mandato estável e sem contabilidade padronizada, a lei mais rigorosa vira papel. Ele também notou o risco de captura: Iowa deixou, em 1888, de pagar seus comissários com dinheiro cobrado das ferrovias, porque se via ali uma porta para a influência das empresas.",
+            "O ponto fraco é a confiança na “lei das tendências”. Clark tratava a uniformidade como destino e a eleição popular dos comissários como garantia de independência, quando o próprio texto mostra quanto a política contaminava as nomeações. E o melhor dado que ele reúne, a convergência das datas e dos formulários contábeis, sugere uma lição mais modesta: coordenar reguladores dá certo primeiro onde o acordo é técnico, barato e verificável, e só depois onde mexe com tarifas e interesses."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "comissão supervisora",
+          "órgão que inspeciona, ouve queixas e recomenda leis, mas não impõe decisões; o modelo de Massachusetts."
+        ],
+        [
+          "comissão reguladora",
+          "órgão que, além de supervisionar, fixa tarifas máximas e leva infratores à Justiça; o modelo de Illinois."
+        ],
+        [
+          "prova prima facie",
+          "presunção que vale até prova em contrário; aqui, a de que a tarifa da comissão é razoável."
+        ],
+        [
+          "ônus da prova",
+          "obrigação de demonstrar um fato em juízo; Illinois a transferiu do usuário para a ferrovia."
+        ],
+        [
+          "classificação de fretes",
+          "agrupamento das mercadorias em classes, cada uma com sua tabela de tarifas."
+        ],
+        [
+          "movimento Granger",
+          "agitação de agricultores do Oeste americano, a partir de 1867, contra o poder das ferrovias."
+        ],
+        [
+          "laissez-faire",
+          "doutrina de não interferência do Estado na atividade econômica."
+        ]
+      ],
+      "hoje": "Os três remédios de Clark seguem na pauta de qualquer agência reguladora: dirigentes escolhidos por competência técnica, com mandato estável e protegidos da pressão das empresas e dos partidos; padrões contábeis uniformes, sem os quais não há como comparar custos nem fiscalizar tarifas; e coordenação entre esferas de governo, porque a infraestrutura atravessa fronteiras que a jurisdição do regulador não atravessa. O debate atual sobre independência das agências, contabilidade regulatória e harmonização de regras entre entes federados repete, com outro vocabulário, as perguntas de 1891.",
+      "itens": [
+        [
+          "[State Railroad Commissions and How They May be Made Effective]: Introduction",
+          "p. 9",
+          "2485681"
+        ],
+        [
+          "State Railroad Commissions and How They May be Made Effective",
+          "pp. 11–110",
+          "2485682"
+        ]
+      ],
+      "jstor_edicao": "i342426",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1892-a-questao-da-prata",
+      "numero": 32,
+      "titulo": "A prata que voltava ao Tesouro: Taussig e as leis de 1878 e 1890",
+      "titulo_original": "The Silver Situation in the United States",
+      "autores": "F. W. Taussig, LL. B., Ph. D., Assistant Professor of Political Economy in Harvard University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 7, nº 1",
+      "data": "janeiro de 1892",
+      "chamada": "Por treze anos, os EUA compraram prata e a transformaram em dinheiro. Taussig mostra que a moeda nova seguiu os preços em vez de puxá-los, e por que a lei de 1890 ameaçava o ouro do Tesouro.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em março de 1878, a Casa da Moeda americana cunhou os primeiros dólares de prata da nova lei. Naquele mês, 190 mil moedas foram para as mãos do público; 810 mil ficaram no Tesouro. Os certificados de mil dólares tiveram destino pior: até junho de 1879, de US$ 7,8 milhões emitidos, 6,7 milhões já tinham voltado. Certificados emitidos em San Francisco voltavam ao governo em dez dias, pela alfândega de Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena abre a monografia de F. W. Taussig, professor assistente de economia política em Harvard, publicada em janeiro de 1892 pela American Economic Association. Foi escrita em novembro de 1891, em plena segunda experiência com a prata. A primeira parte examina o que de fato aconteceu com a moeda de prata; a segunda, o que o país deveria fazer com ela."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que exigia a lei de 1878?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1878, a Bland-Allison, obrigava o Tesouro a comprar prata em barras todo mês e cunhá-la em dólares de curso legal. Todos os secretários ficaram no mínimo: US$ 2 milhões em prata por mês. Com o metal em queda, a pouco mais de 80 centavos a onça em 1889, saíam em média cerca de 2,5 milhões de dólares de prata por mês, ou 30 milhões por ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Taussig insiste no ineditismo: os táleres alemães e as moedas de cinco francos também eram sobrevalorizados, mas eram resíduos de um padrão antigo, sem acréscimos. A lei não instituía bimetalismo: a cunhagem não era livre, e o lucro da diferença entre valor de face e valor do metal ficava com o Tesouro. Nasceu de um meio-termo que ninguém esperava duradouro, e durou mais de doze anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria de manual previa que cada dose de prata expulsaria igual quantia de ouro. Não foi o que aconteceu, e Taussig conclui que a teoria de Ricardo segue intacta, mas pede cautela nas previsões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a prata voltava sempre ao Tesouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A chave estava nos bancos do Leste. Em novembro de 1878, a câmara de compensação de Nova York proibiu liquidar saldos entre bancos em prata, salvo pequenas somas. O Congresso derrubou a regra em 1882, mas o hábito ficou. Os bancos devolviam a prata ao governo pelo caminho mais curto: a alfândega. Como os certificados só existiam em valores a partir de dez dólares, a prata não alcançava o dinheiro miúdo do dia a dia, o único lugar onde poderia ficar."
+        },
+        {
+          "tipo": "p",
+          "texto": "As moedas encontraram um teto: mesmo com frete pago pelo governo, havia lugar para cerca de 60 milhões delas, e não mais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceu na crise de 1884-1886?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre 1878 e 1884 a prata circulou com facilidade. Safras fartas, exportações recordes e crédito em expansão abriram espaço. Os certificados em poder do público saltaram de menos de 8 milhões em agosto de 1880 para mais de 36 milhões em dezembro. Com a crise de maio de 1884, a prata em mãos do público estagnou até meados de 1886, enquanto a cunhagem seguia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 94 milhões",
+          "texto": "Prata “morta” acumulada nos cofres do Tesouro em julho de 1886, o máximo do período: dólares cunhados que ninguém queria usar. O ouro dos bancos de Nova York, enquanto isso, subiu de cerca de 72 milhões no início de 1884 para 113 milhões em meados de 1885. Em julho de 1885 os bancos da cidade entregaram ao Tesouro mais de US$ 5,9 milhões em ouro em troca de moedas fracionárias, um empréstimo na prática."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Tesouro sobreviveu porque tinha superávit. Deixou de resgatar títulos de setembro de 1884 a dezembro de 1885 e guardou os certificados que entravam em vez de reemiti-los. O nervosismo girava em torno de uma linha de US$ 100 milhões de reserva em ouro, citada apenas numa cláusula de uma lei de 1882, mas tratada como limite sagrado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A partir de 1886, as notas dos bancos nacionais encolheram rapidamente, porque a alta dos títulos públicos que lhes serviam de lastro eliminou o lucro da emissão. E uma lei de 30 de junho de 1886 autorizou certificados de prata de um, dois e cinco dólares. A prata finalmente entrou no bolso do público: no início de 1889, praticamente todos os dólares cunhados estavam em circulação, quase sempre na forma de certificados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto dinheiro novo o país absorvia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Taussig chama de “troco graúdo” as notas e moedas de vinte dólares para baixo. Seu total passou de quase 500 milhões em 1878 para 773 milhões em 1890. Daí estima que o país absorvia de 20 a 30 milhões de dólares por ano nesses valores. É, admite, uma aproximação grosseira."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou com a lei de 1890?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 14 de julho de 1890, a Sherman Silver Purchase Act, revogou a de 1878 e, para Taussig, foi ainda mais notável: única na história monetária. O Tesouro passou a comprar 4,5 milhões de onças de prata por mês a preço de mercado, pagando com notas de curso legal. Era, segundo o diretor da Casa da Moeda, exatamente a produção americana de 1890: 54 milhões de onças por ano. Mas a diferença decisiva era o volume: cerca de 55 milhões de dólares por ano, mais do que o país podia absorver como troco graúdo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12%",
+          "texto": "Fatia de ouro nos recolhimentos alfandegários de Nova York no verão de 1891, contra mais de 90% no início de 1890; o porto arrecadava mais da metade da receita federal. O ouro líquido do Tesouro caiu de 190,5 milhões em maio de 1890 para 117,7 milhões em junho de 1891. Nas liquidações da câmara de compensação de Nova York, o ouro passou de 98,4% para 64,9% entre os anos encerrados em outubro de 1890 e 1891."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os bancos de Nova York, desta vez, aceitaram as novas notas. Ainda assim, depois da quebra do Barings, em novembro de 1890, e com a economia desaquecida, o papel se acumulou nos bancos, que pagavam o governo com ele e guardavam o ouro. O Tesouro manteve a promessa de pagar ouro a quem pedisse, conclui o autor, graças à tolerância dos bancos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A prata causou a alta de preços?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão central contraria o senso comum. A expansão da prata acompanhou, e não precedeu, a alta de preços e a especulação. Quando a depressão chegou em 1884, a emissão regular não teve o menor efeito para contê-la; a prata simplesmente voltou ao Tesouro nos impostos. O mesmo se repetiu em 1890-91."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O volume usado pelo público tem sido efeito, e não causa.”",
+          "original": "“The volume used by the public has been effect and not cause.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A explicação é moderna. Nos Estados Unidos e na Inglaterra, o principal meio de pagamento já não era o dinheiro, mas o crédito bancário, sob a forma de depósitos e cheques. Os depósitos individuais nos bancos nacionais passaram de 615 milhões de dólares em 1878 para mais de 1,5 bilhão em 1890. E o crédito dependia do ânimo e das expectativas de bancos e empresários. Fora das reservas bancárias, a prata não alimentou o crédito. Notas de um, cinco e dez dólares tinham virado uma espécie de moeda subsidiária: sua quantidade era determinada pelos preços, não o contrário."
+        },
+        {
+          "tipo": "p",
+          "texto": "Isso não absolvia a lei de 1890: a longo prazo, admite Taussig, mais moeda leva a mais crédito e a preços mais altos. Emissões excessivas acabariam por expulsar o ouro, numa recessão pela drenagem externa, num boom pela inflação do crédito. A cunhagem livre apressaria a quebra do padrão-ouro, mas não traria a alta de preços na velocidade que seus defensores prometiam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O padrão-ouro era injusto com os devedores?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda parte, Taussig enfrenta o melhor argumento adversário. Pelo índice de Soetbeer, com 114 artigos em Hamburgo e base 100 em 1847-50, os preços caíram de 138,28 em 1873 para 102,20 em 1887. Os bimetalistas diziam que isso refletia a valorização do ouro, agravada pela adesão da Alemanha ao ouro em 1873. Taussig aceita o fato e contesta as consequências: os preços caíram com a produtividade, e salários e rendas nominais subiram. O devedor pagava com uma renda que não havia caído."
+        },
+        {
+          "tipo": "p",
+          "texto": "A exceção era o agricultor das terras antigas. Ferrovias e navios a vapor abriram as planícies do Oeste e as pastagens da Austrália, e o preço dos grãos caiu sem que seu campo produzisse mais. Quem esperava pagar um dólar de juros com um alqueire de trigo descobriu que precisava de dois. Somavam-se dívidas da era do papel-moeda, ciclos de especulação com terras e a dura transição para a agricultura intensiva. A agitação da prata tinha raízes reais; o remédio é que estava errado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sua objeção final é moral e mira a própria agitação da prata, que não vinha dos argumentos dos economistas bimetalistas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nasce da inquietação e da ignorância.”",
+          "original": "“It is born of restlessness and ignorance.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em cada depressão, parte do público atribui tudo a uma causa única, a tarifa, as ferrovias ou a moeda, e a panaceia mais comum é mais dinheiro. Taussig responde com a frase que resume o livro:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a estabilidade é a primeira qualidade exigida do meio de troca”",
+          "original": "“stability is the first quality needed in the medium of exchange”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Como saída prática, endossa a proposta do Sr. Fairchild: emitir moeda de prata sem cota fixa e parar sempre que a prata morta voltasse a se acumular no Tesouro."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a monografia vale menos pelo veredito sobre a prata e mais pelo método. Taussig segue a moeda pelas alfândegas, pelas câmaras de compensação e pelos cofres do Tesouro, e descobre que o quanto o público retém é escolha do público; o resto volta ao emissor. É uma descrição precoce da moeda endógena e do limite de empurrar liquidez onde não há demanda.",
+            "O ponto mais atual é fiscal. O Tesouro de 1885 aguentou porque tinha superávit e pôde guardar o que entrava; o de 1891 já não tinha, e passou a depender da boa vontade dos bancos. A credibilidade de uma regra monetária, então como agora, mede-se pela folga das contas de quem a sustenta."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "certificado de prata",
+          "papel emitido pelo Tesouro contra dólares de prata guardados em seus cofres, usado como dinheiro."
+        ],
+        [
+          "prata morta",
+          "dólares de prata cunhados que ficavam parados no Tesouro porque o público não os absorvia."
+        ],
+        [
+          "greenbacks",
+          "notas do governo americano emitidas na Guerra Civil, conversíveis em ouro a partir de 1879."
+        ],
+        [
+          "troco graúdo",
+          "termo de Taussig para notas e moedas de vinte dólares para baixo, usadas no varejo."
+        ],
+        [
+          "câmara de compensação",
+          "associação em que os bancos liquidam entre si os cheques e saldos do dia."
+        ],
+        [
+          "cunhagem livre",
+          "regime em que qualquer pessoa pode levar metal à Casa da Moeda e recebê-lo em moeda, sem limite."
+        ],
+        [
+          "bimetalismo",
+          "padrão monetário com ouro e prata cunhados livremente a uma razão legal fixa."
+        ],
+        [
+          "ágio do ouro",
+          "prêmio que o ouro passa a valer sobre o papel quando o governo deixa de convertê-lo ao par."
+        ]
+      ],
+      "hoje": "A pergunta de Taussig voltou depois de 2008, quando bancos centrais criaram reservas em escala inédita e a inflação demorou mais de uma década para reagir. A lição de 1892 continua válida: a moeda que o público e os bancos não querem reter volta ao emissor ou fica parada, e os preços dependem sobretudo do crédito e das expectativas. Mas a advertência dele também vale: o efeito demorado não é efeito nulo. Quando a demanda muda e as contas públicas perdem folga, o excesso aparece, e costuma aparecer sem aviso.",
+      "itens": [
+        [
+          "The Silver Situation in the United States",
+          "pp. 7–118",
+          "2485709"
+        ]
+      ],
+      "jstor_edicao": "i342427",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1892-quem-paga-o-imposto",
+      "numero": 33,
+      "titulo": "Seligman, 1892: quem realmente paga o imposto?",
+      "titulo_original": "On the Shifting and Incidence of Taxation",
+      "autores": "Edwin R. A. Seligman, Professor of Political Economy and Finance, Columbia College",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 7, nº 2/3",
+      "data": "março e maio de 1892",
+      "chamada": "Em 1892, Seligman desmontou a ideia de que todo imposto se espalha por igual entre todos. Quem paga depende da demanda, do capital e do mercado — e o legislador nem sempre acerta.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Durante a Guerra Civil, os Estados Unidos tributaram os fósforos. O imposto fez surgir um monopólio, e o preço subiu muito além do tributo. Quando o imposto caiu, o preço desabou numa proporção bem maior do que a alíquota extinta. Edwin R. A. Seligman, professor de economia política e finanças do Columbia College, usa o caso como exemplo gritante de algo que a teoria da época não sabia explicar: um imposto não apenas passa adiante, ele altera o mercado por onde passa."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo está enterrado no capítulo V de On the Shifting and Incidence of Taxation, monografia publicada em março e maio de 1892 num número duplo das Publications of the American Economic Association. São 185 páginas, do 7 ao 191, mais uma bibliografia que vai de Petty e Locke a Walras e Marshall. A ambição é declarada na introdução: revisar todas as teorias já propostas sobre quem paga os impostos e resolver os problemas teóricos com atenção especial à prática."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual é a diferença entre pagar um imposto e suportá-lo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman começa pelo vocabulário, porque é ali que a confusão nasce. Quem recolhe o imposto em primeira instância pode não ser quem arca com ele no fim. A transferência é o deslocamento (shifting); o peso final é a incidência. Há ainda um terceiro conceito, o efeito, que trata da redistribuição da riqueza. O deslocamento é o processo, a incidência é o resultado e a mudança na distribuição é o efeito. Misturar os três, diz o autor, é o erro mais comum da literatura."
+        },
+        {
+          "tipo": "p",
+          "texto": "O deslocamento também não se confunde com a evasão. Na evasão, o imposto deixa de ser pago sem que ninguém o assuma. O contrabando é evasão ilegítima. Quando um imposto estimula técnicas melhores de produção, como o imposto sobre o açúcar de beterraba na Europa ou o do uísque nos Estados Unidos, o produtor escapa de parte do tributo de forma legítima, sem repassá-lo a ninguém. A pergunta da incidência é só uma, de fato: quem realmente paga o imposto?"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que dez teorias diferentes não bastavam?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mais de um terço do livro é história das ideias. Seligman conta nada menos que 10 teorias da incidência e reclama das duas únicas histórias anteriores, ambas alemãs, por ignorarem os autores italianos, espanhóis e americanos. A classificação é, em si, um diagnóstico. Os fisiocratas achavam que todo imposto recaía sobre os donos de terra. Ricardo construiu a teoria absoluta: análise profunda, mas rígida, que trata o mercado como se não houvesse atrito. Seligman a chama de prematura e inadequada."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo principal é outro: a teoria da difusão, que ele batiza de otimista. Thiers, inventor do termo, tomou-o emprestado da óptica e comparou o imposto aos raios de luz que se espalham. Lord Mansfield já falara de uma pedra que cai no lago e agita a superfície inteira. A conclusão política era confortável. Como o imposto se dissolve nos preços, cada um paga segundo o que consome; e como os ricos consomem mais, Thiers podia dizer aos socialistas que os ricos já pagavam a maior parte."
+        },
+        {
+          "tipo": "p",
+          "texto": "Canard levou o raciocínio ao limite. Se todo imposto acaba se distribuindo por igual, basta esperar. Daí a máxima que Seligman reproduz com evidente prazer:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Todo imposto antigo é bom, todo imposto novo é mau”",
+          "original": "“Every old tax is good, every new tax is bad”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A ironia seca vem logo depois: a solução prática de Canard era substituir todos os impostos existentes por um imposto sobre o sal. Do lado oposto, Proudhon aceitava a difusão mas tirava dela a conclusão contrária. Como a massa dos consumidores é pobre, todo imposto seria iníquo, e o problema tributário, insolúvel. Otimistas e pessimistas partiam da mesma premissa, e Seligman recusa a premissa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, observa ele, a difusão sobrevivia melhor do que em qualquer outro lugar. O país seria o único onde a doutrina ainda era defendida, e seu principal representante era David A. Wells, para quem os impostos se igualam e se difundem sozinhos se cobrados com uniformidade:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Toda tributação recai, em última instância e necessariamente, sobre o consumo”",
+          "original": "“All taxation ultimately and necessarily falls on consumption”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os elogios vão para os matemáticos. Cournot é, de longe, o mais hábil: tratou a incidência como parte da teoria do valor e aplicou cálculo diferencial a mercados em monopólio e em concorrência. No estudo dos impostos indiretos, diz Seligman, nunca foi superado. O defeito é o alcance, porque Cournot só olhou para impostos sobre mercadorias. Fauveau deixou a melhor imagem contra Thiers: a difusão não torna o imposto proporcional, assim como a luz de uma vela não ilumina igualmente todos os cantos da sala."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga o imposto sobre a terra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte construtiva começa pelo campo, e com uma queixa concreta: os fazendeiros americanos diziam pagar impostos muito acima de sua capacidade. A razão apontada é que, nas cidades, a riqueza mobiliária intangível escapava quase toda ao fisco, enquanto no campo a propriedade era visível. A resposta habitual era que o fazendeiro repassaria o imposto ao preço dos produtos. Seligman desmonta a tese com um argumento que Ricardo deixara de lado, o comércio internacional."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fazendeiro do Oeste, escreve ele, tem o preço do trigo fixado em Liverpool, pelas condições de produção em países a milhares de milhas de distância. Se seus impostos dobrarem, não receberá um centavo a mais. Ele e só ele carrega o tributo. A conclusão do capítulo é direta: nas condições americanas da época, o dono da terra paga o imposto que recai sobre ela, e é um erro supor um deslocamento geral para o consumidor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "55 centavos",
+          "texto": "Preço do bushel de trigo no exemplo de Seligman depois de um imposto fixo de 50 centavos por acre. Três terras produzem 10, 20 e 30 bushels por acre a 50 centavos o bushel. A terra pior, que fixa o preço, precisa de US$ 5,50 para continuar produzindo. As melhores passam a cobrar US$ 1 e US$ 1,50 a mais do público, mas pagam só 50 centavos de imposto: o consumidor desembolsa mais do que o fisco arrecada."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas cidades, o raciocínio separa o terreno da construção, regidos por princípios distintos. O imposto sobre o prédio tende a recair quase todo sobre o ocupante. Somado à parte do imposto do terreno que também chega a ele, o resultado é que, numa cidade próspera e em crescimento, o inquilino suporta a maior parte; em bairros decadentes, o proprietário. Na Inglaterra, onde as taxas locais eram cobradas do ocupante, o sistema seria talvez o mais iníquo de todos os sistemas de tributação local direta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O capital foge do imposto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Um imposto igual sobre todo o capital cairia sobre o capitalista, sem saída. Mas Seligman avisa que esse caso é hipotético: é a teoria do imposto geral sobre a propriedade americano, nunca sua prática. Na vida real, o imposto sobre capital é sempre desigual. E um imposto desigual sobre capital emprestável tende a passar do credor ao devedor, porque o capital migra entre setores e entre países em busca do retorno habitual."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5",
+          "texto": "Forças de atrito econômico que, segundo Seligman, impedem o repasse integral do imposto sobre capital ao devedor: ignorância do capitalista, dificuldade de remover o capital, risco de investir fora, considerações sociais e obstáculos legais. Exemplo dado: capitalistas americanos preferiam hipotecas menos rentáveis no Leste às de juros altos nos estados do Oeste. As leis bancárias estaduais, ao restringir aplicações a certos títulos e hipotecas, também barravam o repasse."
+        },
+        {
+          "tipo": "p",
+          "texto": "É aqui que aparece outro conceito central, a capitalização. Quando um imposto desigual atinge um bem que gera renda, o comprador desconta o tributo no preço. Quem compra depois fica livre; quem era dono no momento da criação do imposto perde de uma vez. Por isso, diz Seligman, um imposto deslocado não pode ser capitalizado, e um imposto capitalizado não pode ser deslocado. A fórmula é seca: a causa é a desigualdade; o resultado, confisco ou doação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o modo de cobrar importa tanto quanto o valor cobrado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo sobre lucros é o mais técnico, e o mais atual. Seligman distingue 4 formas de tributar lucros: pela quantidade produzida, pela receita bruta, pela receita líquida e por um valor fixo. O repasse ao consumidor depende de duas coisas, a elasticidade da demanda, ou seja, quanto o consumo cai quando o preço sobe, e o tipo de retorno da indústria, constante, crescente ou decrescente. Para bens que o consumidor compra a qualquer preço, o preço sobe exatamente o valor do imposto, caso que ele próprio admite ser raro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O monopolista tributado por unidade produzida pode, e em geral vai, repassar o imposto. Mas um imposto de valor fixo sobre o monopólio recai sempre sobre o lucro de monopólio. Já na concorrência, a licença fixa favorece o grande produtor, que paga o mesmo que o pequeno e prefere absorver o tributo para tomar-lhe os clientes. As licenças altas para bares nos Estados Unidos, observa, não encareciam necessariamente a bebida: reduziam o número de estabelecimentos e concentravam o negócio nos mais ricos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí recomendações muito concretas. Empresas deveriam ser tributadas pela receita líquida, não pela bruta, se o objetivo for não transferir o imposto à comunidade. Impostos sobre monopólios puros não deveriam incidir sobre a produção, se a intenção for que fiquem no monopólio. E, contra os extremistas da época, Seligman nota que a perda do consumidor com uma tarifa de importação não se mede pela arrecadação: o preço pode subir menos do que o imposto, ou nem subir."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Afinal, todo imposto recai sobre todos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta final é não, e o argumento é elegante. A difusão supõe que todo consumidor é também produtor e pode repassar o imposto adiante. Mas boa parte do consumo é improdutivo. Quem gasta a renda comprando diamantes não tem a quem repassar o imposto: pode comprar menos diamantes, mas não transfere nada ao joalheiro. O fim de toda produção é o consumo. Por isso não existe difusão indefinida."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo que existisse, seria injusta. Se todos os impostos recaíssem sobre todos, a tributação seria proporcional ao gasto, e o gasto é, para Seligman, a menos equitativa das bases, porque pesa mais sobre os menos afortunados. O único teste de justiça é a capacidade de pagar. A velha distinção entre impostos diretos e indiretos perde boa parte do valor: na prática, ela registra apenas a intenção do legislador, que nem sempre coincide com o resultado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobram duas regras. Só o excedente econômico, a renda pura da terra e o lucro puro, não pode ser deslocado, porque não faz parte do custo de produção. E o legislador deve preferir impostos de efeito previsível. Num grupo, os que quase não se deslocam: sobre monopólios, lucro líquido, heranças e certas formas de propriedade e renda. No outro, os que se deslocam por inteiro: tarifas de importação, certos impostos de consumo e licenças, impostos sobre a receita bruta das empresas. Quem quer atingir certas classes diretamente escolhe o primeiro grupo; quem quer que o imposto seja pago sem que se perceba, o segundo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman fecha com modéstia calculada. A teoria da incidência ajuda, mas não substitui, o estudo da justiça econômica. E retoma uma frase que diz ser corrente:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“nem o arcanjo nem o arquidemônio da ciência das finanças”",
+          "original": "“neither the archangel nor the archfiend of the science of finance”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o mérito duradouro do livro é ter trocado uma pergunta moral por uma pergunta de fato. A difusão de Thiers e Wells servia para encerrar o debate: se todos pagam, ninguém precisa reformar nada. Seligman reabre o debate mostrando que a resposta depende de coisas observáveis, como a elasticidade da demanda, a mobilidade do capital, a estrutura do mercado e o lugar onde o preço é formado. Isso tira o argumento da retórica e o põe na conta.",
+            "O livro também ensina uma humildade útil. Seligman admite que as proporções exatas são impossíveis de determinar e que o atrito econômico desmente as leis absolutas. Mesmo assim, recusa o agnosticismo. É a postura certa para qualquer política tributária: não fingir precisão que não se tem, mas preferir os tributos cujo destino se consegue prever. Um imposto cuja incidência ninguém conhece é, antes de tudo, um imposto que ninguém escolheu de fato."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Incidência",
+          "quem suporta, no fim, o peso de um imposto, que nem sempre é quem o recolhe."
+        ],
+        [
+          "Deslocamento (shifting)",
+          "transferência do imposto de quem o paga em primeira instância para outra pessoa, via preços, salários ou juros."
+        ],
+        [
+          "Evasão",
+          "não pagamento do imposto sem transferência a ninguém; pode ser legítima ou ilegítima."
+        ],
+        [
+          "Teoria da difusão",
+          "ideia de que todo imposto acaba espalhado pelos preços e recai sobre todos conforme o consumo."
+        ],
+        [
+          "Capitalização do imposto",
+          "desconto do imposto futuro no preço de compra de um bem que gera renda, que concentra o ônus em quem era dono quando o imposto foi criado."
+        ],
+        [
+          "Elasticidade da demanda",
+          "quanto a quantidade comprada cai quando o preço sobe."
+        ],
+        [
+          "Excedente econômico",
+          "renda pura da terra e lucro puro, que não entram no custo de produção e por isso não se deslocam."
+        ],
+        [
+          "Atrito econômico",
+          "forças práticas, como custos de mudança e hábitos, que impedem os ajustes previstos pela teoria abstrata."
+        ]
+      ],
+      "hoje": "A pergunta de Seligman continua no centro de qualquer reforma tributária: quem paga, de fato? Debates sobre impostos sobre consumo, tributação de empresas pela receita ou pelo lucro, impostos imobiliários e tarifas de importação ainda giram em torno da elasticidade da demanda, da mobilidade do capital e da concorrência. A economia moderna formalizou muito do que ele intuiu, mas a lição principal segue igual. A intenção do legislador não define a incidência; o mercado define. E a ideia de que um imposto antigo se torna justo só porque é antigo ainda reaparece, sob outros nomes, sempre que se discute mudar o sistema.",
+      "itens": [
+        [
+          "On the Shifting and Incidence of Taxation",
+          "pp. 7–191",
+          "2485667"
+        ]
+      ],
+      "jstor_edicao": "i342428",
+      "colecao": "eua",
+      "ensaio": true
     }
   ],
   "proximas": [
-    "Publications of the AEA, vol. 6, nº 3 (1891)",
-    "Publications of the AEA, vol. 6, nº 4/5 (1891)",
-    "Publications of the AEA, vol. 6, nº 6 (1891)"
+    "Publications of the AEA, vol. 7, nº 4/5 (1892)",
+    "Publications of the AEA, vol. 7, nº 6 (1892)",
+    "Publications of the AEA, vol. 8 (1893)"
   ]
 }
