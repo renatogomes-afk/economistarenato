@@ -6662,6 +6662,691 @@
         ]
       ],
       "hoje": "A intuição que o capítulo atribui a Law, de que o valor da moeda não depende do metal guardado no cofre, é a base do dinheiro fiduciário que todos os países usam. O que sustenta uma moeda sem lastro, a confiança no emissor, a disciplina fiscal ou a credibilidade de um banco central, segue em discussão, e as advertências de Hume sobre governos endividados que recorrem a projetistas ousados reaparecem em debates sobre monetização de dívida e moedas digitais. A biografia de Law lembra que inovação monetária e aposta caminham, com frequência, lado a lado."
+    },
+    {
+      "slug": "cap-46-banco-de-terra-na-escocia",
+      "numero": 46,
+      "titulo": "John Law na Escócia: o plano de fazer dinheiro com terra",
+      "titulo_original": "John Law and the Bank of Scotland",
+      "paginas": "pp. 555–570",
+      "chamada": "Jones acompanha a volta de Law a Edimburgo após a quebra do Banco da Escócia, expõe a teoria monetária de “Money and Trade” e explica por que, a seu ver, o banco de terra não podia funcionar.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 18 de dezembro de 1704, o Banco da Escócia suspendeu pagamentos depois de uma corrida de depositantes. Fundado em 1695, um ano após o Banco da Inglaterra, ele fracassara tanto quanto o modelo inglês prosperara. É nesse ponto que E. Michael Jones, no capítulo 46 de “Barren Metal”, traz John Law de volta à terra natal, disposto a curar os males monetários do país com uma ideia nova: fazer dinheiro de terra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que faltava dinheiro na Escócia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones sustenta que a Inglaterra tinha metal suficiente para criar um banco, o que atribui à apropriação de bens da Igreja pela Coroa no século XVI. A Escócia, mais pobre, vivia o círculo vicioso que o autor associa a todo país em desenvolvimento: a falta de dinheiro travava o comércio, e a falta de comércio impedia a acumulação de dinheiro. Um panfleto anônimo de 1705 queixava-se de que todas as camadas sociais tinham dificuldade para pagar as despesas do dia a dia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sem ouro e prata próprios, a Escócia buscou, como a Espanha dois séculos antes, uma colônia no Novo Mundo: Darién, no Panamá. O projeto era de William Paterson, fundador do Banco da Inglaterra, e terminou em desastre. A mulher e o filho de Paterson morreram na empreitada, e os investidores foram arruinados. Segundo o capítulo, a Companhia das Índias Orientais, temendo concorrência, levou a Câmara dos Comuns a retaliar, e os investidores ingleses se afastaram. Para o biógrafo Antoin Murphy, citado por Jones, a oferta de ações funcionou como um “vórtice” que tirou metal da economia escocesa e reduziu as reservas do banco."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "18 de dezembro de 1704",
+          "texto": "Data em que o Banco da Escócia, fundado em 1695, suspendeu pagamentos. Segundo o capítulo, em 1705 o dinheiro era muito escasso e a economia escocesa carecia “tanto de moeda quanto de comércio”. Law escrevia sobre moeda e bancos desde 1701."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Law propôs em “Money and Trade”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Menos de um ano depois da corrida, Law concluiu “Money and Trade Considered with a Proposal for supplying the Nation with Money”, publicado em Edimburgo. Segundo Murphy, a obra queria provar três coisas: que o Banco da Escócia não era a solução, que a prata era um meio de troca inadequado e que mexer no valor nominal da moeda não resolveria. Jones destaca que Law via uma relação forte entre emprego e quantidade de dinheiro em circulação. Sem moeda, a economia regrediria ao escambo, porque, nas palavras de Law, não se faz trabalho sem dinheiro."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Comércio e dinheiro dependem um do outro; quando o comércio decai, o dinheiro diminui; e quando o dinheiro diminui, o comércio decai.”",
+          "original": "Trade and Money depend mutually on one another; when Trade decayes, Money lessens; and when Money lessens, Trade decayes (p. 556)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "De onde vem o valor das coisas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para definir dinheiro, Law partiu do paradoxo do valor: a água é muito útil e vale pouco; os diamantes, pouco úteis, valem muito, porque a demanda por eles supera em muito a quantidade. Jones registra que Adam Smith retomou o tema em “A Riqueza das Nações”, 71 anos depois, sem citar Law, e que Law tampouco citou antecessores, como Bernardo Davanzati e John Locke. Daí Law concluiu que o valor depende mais da raridade que do uso, e que o dinheiro não tem valor intrínseco: é o valor por meio do qual os bens são trocados."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor observa que, ao catalogar as funções do dinheiro (medida de valor, meio de troca e unidade dos contratos), Law omitiu a reserva de valor. Jones atribui a omissão aos dez anos em que Law viveu do jogo no continente. Cita a aposta a prazo feita com lorde Londonderry em setembro de 1719, sobre ações da South Sea, que deixou uma dívida que, segundo o capítulo, o acompanhou até o túmulo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a terra, e não a prata?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Law sustentava que a prata não tinha estabilidade de valor: diante da terra, sofria queda contínua, pela expansão da oferta mundial e pelas desvalorizações promovidas pelos monarcas europeus. A terra, de quantidade fixa e suscetível de melhoria, tenderia a se valorizar. Comparando com dois séculos antes, Law calculava que o dinheiro valia a vigésima parte dos bens e a 57ª parte da terra. Como a Escócia tinha pouca prata e muita terra, propôs ao Parlamento “make money of Land”, fazer dinheiro de terra, por meio de um banco de terra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones lembra que Law não foi o primeiro. Propostas de banco de terra multiplicaram-se depois de 1694, quando a nobreza rural sentiu que perdia terreno para os mercadores. William Potter propusera na Inglaterra um banco com notas garantidas por casas, terras, navios e mercadorias. O médico inglês Hugh Chamberlen, que vinha propondo bancos de terra desde novembro de 1689, foi o principal rival de Law diante do Parlamento escocês."
+        },
+        {
+          "tipo": "p",
+          "texto": "Law argumentava que o papel superava a prata em cinco qualidades: facilidade de entrega, valor igual em lugares diferentes, conservação sem perda, divisibilidade e capacidade de receber selo. Na sua imagem, 500 libras em papel se pagam em menos tempo que 5 em prata, “providing it have a Value”, desde que tenha valor."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde Jones vê a falha do argumento?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, essa ressalva é o ponto central. A terra tem valor intrínseco, mas não serve como meio de troca; o papel é ótimo meio de troca, mas não tem valor intrínseco; só ouro e prata, que Jones descreve como trabalho humano concentrado em pequeno volume, reuniriam as duas qualidades. A promessa de Law de que o papel lastreado em terra subiria junto com a terra é comparada pelo autor a dizer que a foto de um gatinho cresce quando ele vira gato."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones considera que Law chegou mais perto do alvo ao dizer que os bancos eram o melhor método já praticado para aumentar o dinheiro. No exemplo de Law, com 15.000 libras em caixa e 75.000 em notas, 60.000 seriam acrescentadas ao dinheiro da nação. O autor rejeita, porém, a conclusão, que atribui a Law, de que “crédito é dinheiro”."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Crédito, em outras palavras, não é dinheiro; é o uso temporário do dinheiro em busca de trabalho que tente criar valor.”",
+          "original": "Credit, in other words, is not money; it is the temporary use of money in search of labor attempting to create value (p. 566)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando o dinheiro nasce como dívida, escreve Jones, trava-se uma corrida entre usura e trabalho; com juros compostos, quanto mais longo o empréstimo, menos provável o desfecho favorável. Ele lembra que o papel do Wisselbank de Amsterdã era aceito porque podia ser resgatado a qualquer momento e tinha reserva de 100%. O dinheiro de papel, na sua metáfora, era como uma pipa: só voava amarrado ao chão do metal precioso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O tempo deu razão a Law?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo confronta leituras favoráveis. Rupert Ederer, em 1964, saudou Law como um dos primeiros a enunciar que a emissão monetária deve acompanhar as necessidades do comércio. Murphy, em 1997, lembrou que o último elo com o ouro foi cortado em 1971, quando os Estados Unidos deixaram de converter o dólar a preço fixo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A concepção de Law de uma economia sem metal é hoje uma realidade.”",
+          "original": "Law's conceptualization of a specie-less economy is now a reality (p. 567)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones responde que Murphy escreveu antes da bolha pontocom e da crise de 2008, depois da qual o ouro voltou a atrair interesse, e que a desmaterialização do dinheiro depende da restauração da confiança. No fim de junho de 1705, o Parlamento escocês rejeitou o plano como “too chimerical to put into practice”, quimérico demais para ser aplicado. O autor aventa que a condição de fugitivo da justiça inglesa pesou, numa sessão dominada pela união com a Inglaterra. No fim de 1705, Law e a família voltaram ao continente."
+        }
+      ],
+      "glossario": [
+        [
+          "Banco de terra",
+          "Banco que emitiria notas garantidas por terras, e não por ouro ou prata."
+        ],
+        [
+          "Darién",
+          "Colônia escocesa no istmo do Panamá, cujo fracasso arruinou seus investidores."
+        ],
+        [
+          "Paradoxo do valor",
+          "Contraste entre a utilidade de um bem, como a água, e seu preço baixo."
+        ],
+        [
+          "Reserva de valor",
+          "Função do dinheiro de conservar poder de compra ao longo do tempo."
+        ],
+        [
+          "Moeda metálica",
+          "Dinheiro em ouro ou prata (specie, no original)."
+        ],
+        [
+          "Wisselbank",
+          "Banco de câmbio de Amsterdã, cujas notas tinham reserva integral em metal."
+        ]
+      ],
+      "hoje": "A pergunta que separa Law de Jones neste capítulo, se o papel precisa de um lastro físico ou se basta a confiança no emissor, continua no centro do debate monetário. Bancos centrais administram moedas sem metal desde 1971, e a defesa de algum lastro em ouro reaparece sempre que a confiança nas instituições financeiras vacila. A metáfora da pipa e a ressalva de Law, “desde que tenha valor”, resumem bem a questão: o que ancora o valor de uma moeda que não é feita de nada?"
+    },
+    {
+      "slug": "cap-47-banque-generale",
+      "numero": 47,
+      "titulo": "John Law na França: da Banque Générale à Companhia do Mississippi",
+      "titulo_original": "John Law and the Bank of France",
+      "paginas": "pp. 571–584",
+      "chamada": "Jones mostra como a França falida de Luís XIV abriu a Law as portas que a Escócia fechara: um banco emissor, uma companhia colonial e uma emissão de papel que, em 1719, já não conhecia limite.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em novembro de 1706, John Law estava de volta a Paris com uma memória sobre moedas e comércio. Chamillard, controlador-geral de Luís XIV, riu da proposta e nunca a levou ao rei. No capítulo 47 de “Barren Metal”, E. Michael Jones mostra como, anos depois, o mesmo Law encontrou numa França falida a oportunidade que o Parlamento escocês lhe negara."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que França Law encontrou em 1714?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Guerra de Sucessão Espanhola, de 1702 a 1713, drenara o metal das grandes potências e multiplicara a dívida pública. Londres, no mesmo período, criara o Banco da Inglaterra e a Companhia dos Mares do Sul. Quando Law voltou, em 1714, a polícia parisiense anotou que ele vivia com luxo na place Louis-le-Grand e fazia fortuna no jogo, mas decidiu deixá-lo em paz."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em julho de 1715, Law dizia que o rei aceitara seu plano de banco e o encarregara do projeto. Mas Luís XIV adoeceu em 12 de agosto e morreu em 1º de setembro. O sucessor, seu bisneto, tinha cinco anos. O regente seria Filipe, duque de Orléans, sobrinho do rei, de 41 anos e companheiro de jogo de Law. Segundo Janet Gleeson, citada no capítulo, o duque era um livre-pensador fascinado pela ciência, inclusive a do dinheiro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto devia a França?"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2 bilhões de livres",
+          "texto": "Dívida do Estado francês na morte de Luís XIV, com juros anuais de 90 milhões de livres. Segundo o capítulo, a relação dívida/PNB era de 167%, os títulos de longo prazo eram negociados com 50% de desconto e a dívida era devida a um grupo de 40 financistas privados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones descreve um conflito de interesses clássico: os financistas que controlavam a arrecadação também emprestavam ao governo. O que desviavam dos impostos gerava o déficit, que eles mesmos cobriam a 15% de juros. Durante a guerra, o gasto do Estado subira de 175 milhões de livres em 1702 para 264 milhões em 1711, com dois terços tomados emprestados. Na morte do rei, todo o sistema tributário estava hipotecado aos financistas por três a quatro anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira reação da Coroa, típica do mercantilismo segundo o autor, foi mexer na moeda: entre 1690 e 1715, ela foi reavaliada 40 vezes, e o rei chegou a fundir sua baixela de ouro e seus móveis de prata. Para Jones, nada disso funcionaria por uma assimetria que ele resume na fórmula latina “usura est contra naturam”: nenhum recurso natural acompanha os juros compostos. Segundo Du Tot, citado no capítulo, o consumo caíra pela metade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Law propôs ao Conselho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na “Mémoire sur les banques”, de julho de 1715, Law recomendou um banco nos moldes do Banco da Inglaterra, capaz de criar crédito e emitir notas. O autor sustenta que Law, tão mercantilista quanto Colbert, via o problema na falta de dinheiro, e não na dívida que a provocava. O plano tinha duas partes: um banco emissor para resolver a crise monetária e uma companhia de comércio monopolista, como a inglesa das Índias, cujas ações absorveriam a dívida pública. Ao Conselho Real, disse que a França sem banco guerreava com arco e flecha contra armas de fogo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Conselho rejeitou a proposta por 9 votos a 4. Rouillé du Coudray temia que a tentação de expandir o crédito fosse grande demais para Law e para a Coroa, e o Conselho lembrava a emissão excessiva do banco estatal sueco. O regente ofereceu a Law uma remuneração para que ficasse na França e esperasse. Na primavera de 1716, com a economia à beira do colapso, o plano foi aprovado. Law naturalizou-se francês e, em 2 de maio de 1716, recebeu cartas-patentes para a Banque Générale, autorizada a emitir notas lastreadas em seu ouro e prata."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o papel ganhou a confiança do público?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A recepção foi fria: Law ainda era visto como estrangeiro e jogador. A percepção mudou quando o duque de Orléans chegou ao banco de carruagem com sacos de ouro e os trocou por pedaços de papel. Em setembro de 1716, o banco já havia emitido 24 milhões de livres em notas. Voltaire zombaria da “alquimia negativa” do sistema."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Metade da nação encontrou a pedra filosofal nas fábricas de papel?”",
+          "original": "Has half the nation found the philosopher's stone in the paper mills? (p. 576)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, nasce aí um novo conceito de dinheiro. A Inglaterra superara a França por ter aprendido a monetizar a dívida soberana, e o dinheiro, para Law, deixava de ser metal para ser dívida. O autor apoia-se em Murphy para descrever a ideia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Dinheiro e dívida estão intimamente ligados e, às vezes, são sinônimos, pois a criação de um costuma gerar a criação do outro.”",
+          "original": "Money and debt are closely linked, and at times are synonymous, in that the creation of one usually engenders the creation of the other (p. 577)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Enquanto os fundadores dos bancos da Inglaterra e de Amsterdã ainda viam as reservas metálicas como fundamentais, diz o capítulo, Law quis dispensar esse “intermediate process”: notas e depósitos seriam contrabalançados por dívida, não por metal. Como as ações das grandes companhias circulavam quase como moeda, imaginou fundir banco e companhia."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Foi o gênio e a loucura de John Law levar a evolução do dinheiro à sua conclusão lógica, abolindo de vez a necessidade do metal.”",
+          "original": "It was John Law's genius and his folly to take the evolution of money to its logical conclusion by abolishing the necessity of specie altogether (p. 577)"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor aponta duas falhas no raciocínio: Law não distinguia dinheiro de crédito, e não via que ações não são boa reserva de valor, porque num mercado em queda perdem depressa a liquidez."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que era, de fato, a Companhia do Mississippi?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 10 de abril de 1717, o Conselho de Estado permitiu pagar impostos com notas da Banque Générale, que se tornou, de fato, o banco estatal. Subcapitalizado, Law fundou em agosto de 1717 a Compagnie d'Occident, depois chamada Companhia do Mississippi. Comprou 26.000 ações, 45% da oferta inicial, e o regente investiu somas comparáveis. A companhia controlava o comércio com a Luisiana e o Canadá, num território de 3.000 milhas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Luisiana, segundo o capítulo, não havia ouro nem nada parecido com a Cidade do México; Nova Orleans tinha quatro casas. Os colonos levados por Bernard Cantillon, irmão de Richard Cantillon, sofriam com escorbuto, malária e febre amarela. Para Jones, os mercantilistas esqueceram que só o trabalho humano extrai riqueza da terra. Law promoveu leis para deportar criminosos, vagabundos, prostitutas e desempregados; em quatro anos, os colonos perderam 75% de seu número. O autor conclui que a companhia era um banco de terra disfarçado de companhia de comércio, uma réplica francesa do esquema de Darién."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a bolha foi inflada?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Num jantar em 6 de janeiro de 1718, com Aguesseau e Noailles, Law propôs converter o banco em estatal, tornar obrigatório o uso de notas nas transações acima de 500 livres e trocar a dívida pública por ações da companhia. Para Jones, foi o inverso das aquisições alavancadas dos anos 1980: ações usadas para assumir a dívida nacional. Segundo o capítulo, em três anos a companhia passou de cerca de 34 milhões para mais de 5 bilhões de livres."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 4 de dezembro de 1718, a Banque Générale virou Banque Royale. Enquanto o banco era privado, Law limitara o papel a uma reserva de 25% em metal; com o aval do Estado, afirma o autor, abandonou o limite. A decisão de emitir cabia ao regente e a seus conselheiros, que haviam investido pesadamente na companhia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "400 milhões de livres",
+          "texto": "Emissão acumulada de notas em 1719 até 25 de julho, segundo o capítulo: 160 milhões no primeiro semestre e mais 240 milhões, alta de 150%. Cinco meses após a criação da Banque Royale, oito impressores produziam notas de 100, 50 e 10 livres dia e noite."
+        },
+        {
+          "tipo": "p",
+          "texto": "O objetivo, nas palavras citadas por Jones, era garantir liquidez suficiente para a compra das novas ações. No verão de 1719, escreve o autor, “tout le monde” enlouqueceu com a perspectiva de riqueza instantânea."
+        }
+      ],
+      "glossario": [
+        [
+          "Controlador-geral",
+          "Ministro responsável pelas finanças do reino na França do Antigo Regime."
+        ],
+        [
+          "Regência",
+          "Governo exercido em nome de um rei menor de idade."
+        ],
+        [
+          "Arrendamento de impostos",
+          "Venda a particulares do direito de cobrar tributos em troca de adiantamentos à Coroa."
+        ],
+        [
+          "Cartas-patentes",
+          "Ato régio que concedia um privilégio, como o de fundar um banco."
+        ],
+        [
+          "Curso legal",
+          "Aceitação obrigatória de uma moeda no pagamento de dívidas e impostos."
+        ],
+        [
+          "Monetizar a dívida",
+          "Transformar títulos públicos em meios de pagamento por meio de um banco emissor."
+        ]
+      ],
+      "hoje": "A troca de dívida pública por ações e a emissão de papel para sustentar o preço desses ativos lembram debates atuais sobre bancos centrais que compram títulos do governo e sobre a independência da autoridade monetária. O temor do Conselho de 1715, de que nem o banqueiro nem a Coroa resistiriam à tentação de expandir o crédito, é o argumento clássico a favor de regras e mandatos separados para quem emite moeda e quem gasta. A fórmula de Murphy, dinheiro como dívida, descreve o sistema bancário moderno."
+    },
+    {
+      "slug": "cap-48-bolha-do-mississippi",
+      "numero": 48,
+      "titulo": "A bolha do Mississippi: quando Paris trocou ouro por papel",
+      "titulo_original": "The Mississippi Bubble",
+      "paginas": "pp. 585–596",
+      "chamada": "Jones narra a ascensão e a queda do sistema de John Law entre 1719 e 1720: ações a 10.000 livres, a dívida da Coroa reduzida em dois terços e um banco que fechou as portas em novembro de 1720.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No verão de 1719, a Rue Quincampoix, rua estreita e sinuosa de Paris onde ficava o escritório da Companhia do Mississippi, virou um pregão a céu aberto. Aristocratas se acotovelavam com seus criados para comprar ações. O cocheiro de John Law largou o emprego ao ficar milionário, palavra que, segundo o capítulo, foi cunhada nessa época. Um corcunda ganhou 150.000 livres alugando a corcunda como mesa de escrever. E. Michael Jones abre assim o capítulo 48 de “Barren Metal”: com a primeira bolha especulativa da França."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como as ações subiram tanto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No início do verão, a ação era negociada ao par, 500 livres. Em meados de junho, chegava a 650, e outros 50 milhões de livres em papel saíram das prensas da Banque Royale para financiar a emissão seguinte. O autor descreve um ciclo que se repetiu várias vezes: mais moeda, ações mais caras. Em outubro de 1719, a cotação estava em 6.500 livres, impulsionada por empréstimos a 2% ao ano que aceitavam as próprias ações como garantia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones registra também o lado benéfico do episódio. A França, diz ele, vivia em deflação crônica havia séculos, e a abundância de moeda aliviou devedores, elevou preços agrícolas e levou trabalhadores a cultivar terras antes abandonadas. Du Tot, contemporâneo citado no capítulo, escreveu que o sistema devolveu honra e liberdade aos devedores e destruiu a usura. Estrangeiros chegavam a Paris com ouro e prata, o que melhorava a balança de pagamentos; Daniel Defoe, que foi à cidade relatar a febre, comparou o dinheiro às águas do Sena."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual foi a grande aposta de Law?"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,2 bilhão de livres a 3%",
+          "texto": "Oferta de empréstimo que Law fez à Coroa francesa no fim de agosto de 1719, soma que retiraria a dívida soberana herdada de Luís XIV. Ele ainda ofereceu 52 milhões adicionais pelo direito de arrecadar impostos. Em resposta, segundo o capítulo, os britânicos permitiram à Companhia dos Mares do Sul tentar assumir a maior parte da dívida nacional inglesa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, Law cumpriu o que prometera: reanimou a economia expandindo a oferta de moeda e usou o boom para resolver um problema fiscal tido como insolúvel. Mas o autor sustenta que, ao fazer isso, Law cedeu ao velho perigo de deixar as necessidades fiscais do governo, e não as da economia, ditarem a quantidade de moeda. Era o mesmo impulso que levara soberanos a desvalorizar suas moedas no passado. Ao amarrar a dívida pública ao papel-moeda, escreve Jones, Law apenas tornou a desvalorização mais fácil."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em dezembro de 1719, a ação chegou a 10.000 livres. No dia 11, caiu de 9.750 para 9.305; no dia 14, estava em 7.950. Law havia estimado que a economia francesa comportava 3 bilhões de livres em circulação; segundo o capítulo, já ultrapassara a própria meta em 2,2 bilhões. Tentou então retirar metal de circulação: primeiro tornou as notas moeda de curso legal, depois proibiu o uso de prata em transações acima de 10 livres e de ouro acima de 300."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a confiança evaporou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Law converteu-se ao catolicismo, condição para ocupar cargo público, e foi nomeado controlador-geral das finanças em 5 de janeiro de 1720. No dia seguinte, a ação atingiu o recorde de 10.100 livres. Logo depois, relatos sobre a situação real da Louisiana começaram a circular em Paris. Saint-Simon observou que a companhia não tinha minas nem pedra filosofal. Investidores passaram a trocar ganhos de capital por moedas de ouro. O príncipe de Conti levou 4,5 milhões de livres em notas ao banco e exigiu metal: precisou de três carroças para levá-lo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em fevereiro, os vendedores de gado de Poissy recusaram papel. Jones vê aí a falha central do sistema: em crises, a troca regride a formas mais primitivas, que exigem menos confiança, e o vendedor volta ao meio que percebe como dotado de valor intrínseco. Para o autor, a moeda não pode perder sua ligação com o trabalho. Law reagiu exigindo notas em pagamentos acima de 100 livres e, em 5 de março, garantiu a ação a 9.000 livres, o que, segundo o capítulo, a transformou numa espécie de moeda e obrigou as prensas a seguir rodando."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ao criar dinheiro e, portanto, prosperidade do nada, Law havia minado fatalmente a credibilidade do velho sistema.”",
+          "original": "By creating money and, therefore, prosperity out of thin air, Law had fatally undermined the credibility of the old system (p. 592)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em maio de 1720, a oferta de moeda havia dobrado em relação a janeiro. Law anunciou que as notas perderiam gradualmente valor, a partir de 21 de maio, até a metade. O público marchou sobre o banco e quebrou suas janelas; o Regente convocou 6.000 soldados e aceitou a renúncia de Law em 29 de maio, para reconduzi-lo pouco depois, por entender que só ele compreendia o sistema."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde foi o dinheiro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Londres. Law havia apostado com Thomas Pitt, Lord Londonderry, que as ações da Companhia das Índias Orientais cairiam. Errou: em 1720, o dinheiro saiu da França e inflou a bolha dos Mares do Sul, cujas ações passaram de 128 em janeiro a 1.050 em junho. O diplomata Destouches escreveu de Londres que via ao mesmo tempo o colapso do crédito francês e a ascensão do britânico. Isaac Newton, registra Jones, perdeu 20.000 libras quando a bolha inglesa estourou."
+        },
+        {
+          "tipo": "p",
+          "texto": "O fim veio em outubro de 1720, quando o medo da peste, que matara um terço da população de Marselha e depois de Toulon, provocou nova corrida ao banco. Law queimou publicamente 400.000 ações diante do Hôtel de Ville. Em 10 de outubro, o governo anunciou que as notas deixariam de ter curso legal em 1º de novembro. Voltaire gracejou que o papel voltara a seu valor intrínseco."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Law aprendia da maneira mais dura que o papel-moeda era uma forma de crédito baseada na confiança.”",
+          "original": "Law was learning the hard way that paper money was a form of credit which was based on confidence (p. 594)"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "Dois terços",
+          "texto": "Redução da dívida da Coroa francesa ao fim da bolha, segundo Janet Gleeson, citada no capítulo. Quando a Banque Royale fechou, em 27 de novembro de 1720, quem não havia resgatado ações e notas estava arruinado. O sistema quebrou os credores do Estado, mas o Estado, como devedor, saiu ganhando."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O problema foi o papel ou o excesso?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones recorre ao economista Rupert Ederer, para quem o problema real não foi o papel-moeda, mas a emissão excessiva, e para quem Law foi dos primeiros a enunciar que a emissão deve acompanhar as necessidades do comércio. Ederer observa que períodos de excesso costumam ser precedidos por períodos de aperto monetário. O autor cita ainda o biógrafo Antoin Murphy: sem a âncora do ouro e da prata, a expansão só tem como limite a prudência das instituições emissoras. Jones conclui que nenhum mecanismo “autorregulado” substitui a prudência humana, que ele associa à lei moral."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo termina com a fuga. Em 17 de dezembro, Law partiu para Bruxelas com passaportes, ouro e guardas cedidos pelo duque de Orléans. Na fronteira, em Valenciennes, o filho do marquês d’Argenson confiscou seu ouro com base numa regra criada pelo próprio Law, que proibia exportar metal. Em Bruxelas, foi recebido como um messias; o rei da Dinamarca e Pedro, o Grande, quiseram contratá-lo. Law, porém, esperava ser chamado de volta a Paris."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "O episódio narrado no capítulo antecipa um dilema clássico: quando a política monetária passa a servir à gestão da dívida pública, a inflação vira instrumento de ajuste fiscal. Credores do Estado perderam; o Estado devedor ganhou. É o mecanismo que economistas hoje chamam de dominância fiscal."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Livre",
+          "Libra francesa, unidade de conta do Antigo Regime."
+        ],
+        [
+          "Ao par",
+          "Preço igual ao valor nominal de emissão da ação."
+        ],
+        [
+          "Curso legal",
+          "Obrigação legal de aceitar um meio de pagamento na quitação de dívidas."
+        ],
+        [
+          "Corrida bancária",
+          "Saque em massa de depositantes que temem não reaver seu dinheiro."
+        ],
+        [
+          "Bolha dos Mares do Sul",
+          "Alta e colapso das ações da South Sea Company inglesa, em 1720."
+        ],
+        [
+          "Anuidade",
+          "Título que paga renda periódica ao portador, em vez de dividendos."
+        ]
+      ],
+      "hoje": "O capítulo descreve, em pleno século XVIII, a tensão que domina os debates sobre bancos centrais: até que ponto a emissão de moeda pode servir para aliviar a dívida do governo sem destruir a confiança na própria moeda. A tese de Ederer, citada por Jones, de que o problema é o excesso e não o papel, é hoje consenso entre economistas, e a autonomia dos bancos centrais nasceu, em boa parte, para separar a política monetária das urgências do Tesouro. A pergunta de Murphy, sobre quem limita a emissão quando não há metal, continua aberta."
+    },
+    {
+      "slug": "cap-49-morte-em-veneza",
+      "numero": 49,
+      "titulo": "Morte em Veneza: o exílio de Law e o erro de confundir crédito e moeda",
+      "titulo_original": "Death in Venice",
+      "paginas": "pp. 597–604",
+      "chamada": "Jones acompanha os últimos anos de John Law, entre Londres e Veneza, e usa Spann, Pesch e Ederer para sustentar que o sistema caiu por tratar crédito como se fosse moeda.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em agosto de 1721, John Law deixou Veneza rumo à Inglaterra. Na Câmara dos Lordes, Thomas Coningsby exigia que ele fosse enforcado pela conversão ao catolicismo e pelos serviços prestados à França. O efeito, segundo E. Michael Jones no capítulo 49 de “Barren Metal”, foi o oposto: os ataques só aumentaram o prestígio de Law junto ao establishment político e financeiro de Londres. Em dezembro, ele recebeu o perdão real, numa cerimônia na City, e dias depois era disputado por cortesãos na ópera."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Law virou peça de disputa entre Londres e Paris?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, Law era perigoso demais para ser nomeado chanceler do Tesouro inglês, e mais perigoso ainda se fosse servir a um inimigo da Inglaterra. Os franceses pensavam o mesmo em sentido inverso. Seguiu-se o que Jones chama de dança delicada: cada soberano tentava neutralizá-lo como consultor para impedir que o rival o contratasse. O duque de Bourbon pediu-lhe que não se afastasse demais, porque a França ainda precisaria de seus conselhos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os ingleses temiam sobretudo que Law, escocês e recém-convertido, acabasse em Roma, atraído pela corte exilada dos Stuart. Quando ele deixou escapar o plano de ir à cidade, o cônsul inglês em Veneza, coronel Elizeus Burges, avisou-o de que isso confirmaria as suspeitas de simpatia jacobita e encerraria qualquer chance de voltar à Grã-Bretanha. Law seguiu o conselho e ficou em Veneza, perto do Ridotto, o bairro do jogo, de volta às mesas no auge do carnaval."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como terminaram os anos de Law?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Law nunca perdeu a fé no sistema. Em maio de 1722, dizia que na França não restara terra ociosa nem trabalhador desempregado, e que o crédito tornara o dinheiro tão abundante que se tomava emprestado a meio por cento. A esperança de voltar a Paris acabou com a morte do Regente, em dezembro de 1723, aos 49 anos. O cronista Marais acreditava que, vivo o Regente, Law teria sido chamado de volta e criado um novo papel-moeda, os “billets de confiance”."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em agosto de 1725, Law cruzou o canal como agente secreto inglês, mal pago e de novo dependente do jogo. Quando pediu demissão, o governo britânico a aceitou, diz o capítulo, sem aparente desânimo. De volta a Veneza, iniciou nova carreira como colecionador e marchand."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "Quase 500 obras",
+          "texto": "Tamanho da coleção de arte que Law reuniu em dois anos em Veneza, segundo Janet Gleeson, citada no capítulo, com pinturas de Ticiano, Rafael, Tintoretto, Veronese, Holbein, Michelangelo, Poussin e Leonardo. Em testamento, deixou os quadros a Katherine, que viveu num convento até morrer, em 1747, da renda de 15 telas herdadas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 29 de agosto de 1728, Montesquieu visitou-o de surpresa e concluiu que o homem que fora o mais rico da Europa estava mais apaixonado por suas ideias do que por seu dinheiro. Law morreu de pneumonia em 21 de março de 1729, pouco antes de completar 58 anos, enfraquecido pelo inverno úmido de Veneza. Recebeu os últimos sacramentos de jesuítas, e sua missa de réquiem foi cantada pelo núncio papal. Jones discorda de Gleeson quanto ao estado de espírito final: para ele, Law provavelmente não morreu em desespero."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Mais apaixonado por suas ideias do que por seu dinheiro.”",
+          "original": "more in love with his ideas than with his money (p. 598)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Gênio adiantado ou projeto extravagante?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor reúne os veredictos. Murphy, biógrafo de Law, o chama de “gênio imperfeito”, adiantado para seu tempo, que fracassou pelas circunstâncias e não por erro de teoria. Adam Smith, nascido seis anos antes da morte de Law, falou no projeto mais extravagante de banco e especulação que o mundo talvez tenha visto. Jones o compara a Giges, o rei lídio que, diz o capítulo, inventou a moeda: Law seria um Giges às avessas, que mostrou que a economia podia funcionar sem ouro e prata."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, a solução “sedutoramente simples” de que fala Gleeson esconde o fato de que Law foi seduzido por uma confusão entre crédito e moeda. Ele entendia que o crédito importava mais que o comércio para destravar uma economia deflacionada, mas não, segundo o autor, a relação entre crédito, moeda e trabalho. Emprestar a 2% para comprar ações novas, aceitando ações antigas como garantia, era menos criação de moeda do que extensão de crédito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que crédito não é moeda, segundo Jones?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central do capítulo é este. Na fase inicial, expandir crédito e expandir moeda parecem a mesma coisa: papel emitido por banco é crédito funcionando como dinheiro. Mas crédito é outro nome para dívida, e dívida carrega juros compostos. Em algum momento, sustenta o autor, o dinheiro emprestado precisa ser posto a render por meio do trabalho humano, a única fonte do excedente capaz de quitar o empréstimo. Sem isso, o calote é inevitável."
+        },
+        {
+          "tipo": "p",
+          "texto": "No caso do Mississippi, o crédito foi aplicado em ações que nada podiam render enquanto não houvesse trabalho suficiente na Louisiana. Quando a situação real da colônia ficou clara, a cotação despencou, os empréstimos ficaram impagáveis, os investidores perderam a confiança e os depositantes exigiram seu ouro. Jones se apoia em Othmar Spann, que viu na teoria de Law a crença de que o crédito pode gerar um segundo capital, independente, e que associou a ela os assignats da Revolução Francesa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“[O crédito] é apenas a permissão para usar o capital de outra pessoa.”",
+          "original": "is only the permission to use the capital of another person (p. 600)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí, para o autor, a distinção: a moeda é reserva de valor, já é “fruto”; o crédito precisa dar fruto antes de virar capital novo. A forma mais perigosa de abuso, diz Jones, é o crédito usado para especulação, exatamente o uso que Law fez. O que capitalistas posteriores teriam aprendido com ele foi criar bolhas para eliminar dívidas e controlar ativos: quando o crédito fácil é cortado, o credor compra a preço vil os bens dados em garantia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "Dez vezes",
+          "texto": "Proporção que, segundo o economista Heinrich Pesch, citado no capítulo, Law imaginou poder aplicar ao Estado: assim como um banqueiro privado opera com crédito dez vezes maior que seu capital, o Estado poderia emitir notas dez vezes acima de seu fundo. Para Pesch, Law conhecia a teoria de que as notas só valem enquanto há dinheiro equivalente por trás, mas a ignorou na prática."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pesch acrescenta que Law se iludiu ao pensar que muito papel estimularia a produção, esquecendo que meios de pagamento acima das necessidades do comércio só elevam preços e reduzem exportações. A companhia, conclui ele, caiu porque as expectativas sobre as colônias se revelaram ilusões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que limita a moeda sem lastro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones retoma Murphy: sem ouro e prata, a expansão só é limitada pela prudência de quem emite. Rupert Ederer, citando Walter Bagehot, diz que o dinheiro não se administra sozinho e defende que o poder de emissão caiba ao Estado, em nome do bem comum. O autor atribui essa visão ao otimismo do início dos anos 1960 e sustenta que, nas décadas seguintes, houve colapso da prudência entre os gestores da moeda e da confiança do público, de que a alta do ouro seria sintoma. Para ele, sem confiança o retorno a formas mais primitivas de troca é inevitável."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Cada estágio sucessivo na evolução da moeda deve ser acompanhado por um aumento da confiança.”",
+          "original": "Each successive stage in the evolution of money must be accompanied by an increase in trust (p. 602)"
+        }
+      ],
+      "glossario": [
+        [
+          "Jacobitas",
+          "Partidários dos Stuart depostos e de seu direito ao trono britânico."
+        ],
+        [
+          "Assignats",
+          "Papel-moeda emitido na Revolução Francesa, lastreado em bens confiscados."
+        ],
+        [
+          "Reserva fracionária",
+          "Prática bancária de manter em caixa só parte do que se empresta ou emite."
+        ],
+        [
+          "Reserva de valor",
+          "Função da moeda de conservar poder de compra ao longo do tempo."
+        ],
+        [
+          "Billets de confiance",
+          "Notas de confiança, novo papel-moeda que Law teria criado se voltasse à França."
+        ]
+      ],
+      "hoje": "A distinção que Jones toma de Spann e Pesch, entre crédito e moeda, reaparece sempre que o crédito barato infla preços de ativos usados como garantia do próprio crédito. A ideia de que a moeda sem lastro depende da prudência do emissor e da confiança do público é, em outra linguagem, a base da credibilidade dos bancos centrais modernos. A tese do autor de que a alta do ouro sinaliza perda de confiança tem eco no debate atual sobre a demanda de bancos centrais pelo metal."
+    },
+    {
+      "slug": "cap-50-depois-da-revolucao-gloriosa",
+      "numero": 50,
+      "titulo": "Depois da Revolução Gloriosa: “Rob Roy” e a vitória do crédito",
+      "titulo_original": "The Aftermath of the Glorious Revolution",
+      "paginas": "pp. 605–614",
+      "chamada": "Jones lê o romance “Rob Roy”, de Walter Scott, e “A Riqueza das Nações”, de Adam Smith, como retratos da guerra entre duas economias na Escócia após 1688: a dos clãs e a do crédito whig.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em “Rob Roy”, de Walter Scott, o herói das Terras Altas recebe uma oferta de boa-fé do comerciante Jarvie: emprego para seus filhos nos teares de Glasgow. A resposta é furiosa. “Meus filhos, tecelões!”, exclama Rob Roy. E. Michael Jones faz dessa cena o eixo do capítulo 50 de “Barren Metal”: para ele, o romance narra a guerra entre dois sistemas econômicos que disputaram a Escócia depois da Revolução de 1688."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Eu veria cada tear de Glasgow, viga, pedais e lançadeiras, queimar no fogo do inferno antes!”",
+          "original": "I would see every loom in Glasgow, beam, treddles and shuttles, burned in hell fire sooner! (p. 611)"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a revolução não foi tão “gloriosa”?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor sustenta que a Revolução de 1688 foi um processo longo e contencioso, que expôs a Grã-Bretanha a insurreições armadas pelos 57 anos seguintes. Citando o historiador Geoffrey Plank, Jones lembra a vitória jacobita em Killiecrankie, em julho de 1689, anulada pela morte do visconde Dundee em combate, e os dois anos de luta na Irlanda, encerrados no tratado de Limerick, que permitiu aos soldados jacobitas partir para a França em vez de responder por traição."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1708, 1715, 1719 e 1745",
+          "texto": "Anos dos levantes jacobitas que, segundo o capítulo, mantiveram viva a causa dos Stuart depois da morte de Jaime II, em 1701. Seu filho, James Francis Edward Stuart, continuou a luta, e o filho deste fez o mesmo. Para Jones, a longevidade da causa indica que estava em jogo algo além do direito hereditário ao trono."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que estava em jogo, segundo o autor, era quem governaria o mundo. Os jacobitas representariam um mundo católico e feudal, preso à tradição, ao clã e à terra; os whigs, um mundo protestante, regido por princípios abstratos e unido pelo capitalismo. Sem a legitimidade hereditária e acusados de usurpação, os whigs, como os puritanos antes deles, teriam buscado sinais de eleição na esfera econômica e passado a apoiar sua legitimidade no boom que se seguiu à revolução."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a União de 1707 mudou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Jones, o boom escocês começou com o Ato de União de 1707, que abriu os mercados coloniais aos comerciantes de Glasgow, sobretudo no tabaco. O autor registra que esses mercadores presbiterianos exploraram os plantadores americanos, que, segundo Plank, passaram a odiá-los. O mesmo ato dissolveu o Parlamento escocês, pouco depois de a Escócia recusar a proposta de banco de terras de John Law. Em 1708, James Edward Stuart chegou à costa com uma proclamação pela revogação da união; o levante jacobita daquele ano foi a resposta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A nova riqueza de Glasgow financiou a Sociedade Escocesa para a Propagação do Conhecimento Cristão, que enviou seus primeiros missionários às Terras Altas em 1714. Tentou também evangelizar os algonquinos do Maine com presentes de cachimbos e tabaco, mas, diz o capítulo, seus missionários não aprenderam a língua nativa e não ensinaram inglês a ninguém."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1º de agosto de 1714, morreu a rainha Ana, sem herdeiros apesar de 17 gestações. Subiu ao trono Jorge I, de Hanôver, que não falava inglês e cuja principal credencial, segundo o autor, era a fé protestante. Ele formou um governo inteiramente whig e apoiou o expurgo dos tories da vida pública. A reação foi o levante de 1715, iniciado quando o conde de Mar ergueu o estandarte jacobita, em 6 de setembro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como Scott e Smith entram nessa história?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Scott, filho de um homem de negócios que lidava com chefes das Terras Altas, conta que se tornou jacobita aos dez anos, ouvindo histórias de um cliente do pai que lutara em 1715 e 1745. Adulto, conheceu Adam Smith nas ruas de Edimburgo e possuía um exemplar de “A Riqueza das Nações”. Jones sustenta que, ao escrever “Rob Roy”, Scott já via os partidários do Pretendente como o lado perdedor da história e tratava protestantismo, liberdade e desenvolvimento econômico como um só tecido cultural."
+        },
+        {
+          "tipo": "p",
+          "texto": "O narrador do romance, Frank Osbaldistone, é inglês e hanoveriano; seu pai, William, banqueiro whig em Londres, liga liberdade e comércio como Smith. O autor observa que Scott usa “economia política” no mesmo sentido de Smith, e que o romance traz juízos duros do narrador sobre os habitantes das Terras Altas, e retrata com estranheza sua chegada aos mercados de Glasgow. Jones observa que as divisões eram essencialmente religiosas, mas traziam consigo duas visões econômicas distintas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o comércio desfez o poder dos clãs?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui Jones recorre a Smith. Em “A Riqueza das Nações”, os senhores feudais perdem o poder quando passam a gastar o excedente de suas terras em artigos de luxo, em vez de sustentar seus dependentes. Smith fala de um par de fivelas de diamante trocado pelo sustento de mil homens por um ano. Para o autor, o comércio transformou a cultura das Terras Altas mais do que a religião ou as armas, e atraiu montanheses a Glasgow como mão de obra para as manufaturas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A operação silenciosa e insensível do comércio exterior e das manufaturas gradualmente produziu.”",
+          "original": "the silent and insensible operation of foreign commerce and manufactures gradually brought about (p. 609)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Jones situa a passagem na transição de uma economia feudal para uma economia monetária, entre os séculos XIV e XVIII. Na Inglaterra, diz ele, ela começou com a Reforma, o saque das propriedades da Igreja e os cercamentos, que expulsaram trabalhadores rurais e formaram o proletariado das futuras fábricas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem era o Rob Roy histórico?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Robert MacGregor, chefe das Terras Altas, participou do levante de 1715 e foi um dos 49 escoceses acusados de alta traição, com bens confiscados. Até 1712, segundo o capítulo, era um respeitável negociante de gado e proprietário; depois de tomar dinheiro emprestado ao duque de Montrose, faliu e virou fora da lei. Jones o descreve como vítima da usura. Scott o retrata católico, e muitos fidalgos do norte, em boa parte católicos, estavam em situação financeira desesperada em 1715."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seu contraponto é o bailio Jarvie, que, no romance, quer drenar o lago Lomond para transformar o fundo em lavoura e manter apenas um canal para barcaças de carvão. Para o autor, quando Scott escreveu, cem anos depois de 1715, a questão econômica central já era o trabalho, e a recusa de Rob Roy aos teares exprime a percepção de que o sistema fabril se apropriaria do excedente do trabalho escocês."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o dinheiro venceu a guerra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No desfecho do romance, William Osbaldistone volta da Holanda com lucros de especulações, ajuda a organizar banqueiros e mercadores para sustentar o crédito do governo e compra títulos públicos despejados no mercado a preço baixo quando a rebelião estoura. Jones sustenta que isso evitou a quebra que os conspiradores esperavam e permitiu aos hanoverianos financiar seus exércitos. No fim, Frank assume a propriedade do derrotado Sir Hildebrand e se casa com a jacobita Di Vernon."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma conclusão previsível, porque agora o dinheiro vence guerras, não a coragem.”",
+          "original": "a foregone conclusion because money now wins wars, not valor (p. 613)"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, o sistema dependia da insistência whig em fazer cumprir contratos de dívida. Ele cita Smith: comércio e manufaturas raramente prosperam onde o Estado não é usado para cobrar as dívidas de quem pode pagá-las. A recusa em honrar contratos usurários, típica de monarcas católicos, teria sido o que afastou os Stuart do trono. O capítulo termina com o destino dos vencidos: depois da batalha de Preston, em 1715, ao menos 639 homens, em sua maioria montanheses, foram vendidos como servos à América do Norte e ao Caribe."
+        }
+      ],
+      "glossario": [
+        [
+          "Jacobitas",
+          "Partidários do rei deposto Jaime II e de seus herdeiros Stuart."
+        ],
+        [
+          "Whigs",
+          "Facção parlamentar que apoiou 1688, a sucessão protestante e o novo sistema financeiro."
+        ],
+        [
+          "Terras Altas",
+          "Highlands, região montanhosa do norte da Escócia, organizada em clãs."
+        ],
+        [
+          "Ato de União",
+          "Lei de 1707 que uniu Escócia e Inglaterra e extinguiu o Parlamento escocês."
+        ],
+        [
+          "Cercamentos",
+          "Fechamento de terras comuns para uso privado, que expulsou camponeses."
+        ],
+        [
+          "Pretendente",
+          "Nome dado ao herdeiro Stuart que reivindicava o trono."
+        ]
+      ],
+      "hoje": "A tese que Jones atribui a Smith e a Scott, de que a capacidade de financiar guerras decide guerras, é um lugar-comum da história econômica: Estados capazes de tomar dinheiro barato, porque honram suas dívidas, mobilizam mais recursos. O outro lado do argumento, a dissolução de economias tradicionais pelo comércio e pelo trabalho assalariado, reaparece nos debates sobre globalização, desindustrialização e comunidades que perdem seu modo de vida. A pergunta que o capítulo sugere é antiga e atual: quem paga a conta da modernização?"
     }
   ],
   "titulo": "Barren Metal",
