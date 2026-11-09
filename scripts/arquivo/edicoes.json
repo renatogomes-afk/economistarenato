@@ -5790,11 +5790,1204 @@
       "jstor_edicao": "i342428",
       "colecao": "eua",
       "ensaio": true
+    },
+    {
+      "slug": "1892-fundos-de-amortizacao",
+      "numero": 34,
+      "titulo": "Ross, 1892: o fundo que prometia pagar a dívida sozinho",
+      "titulo_original": "Sinking Funds",
+      "autores": "Edward A. Ross, Ph. D., Associate Professor of Political Economy and Finance, Cornell University",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 7, nº 4/5",
+      "data": "julho e setembro de 1892",
+      "chamada": "Em 1892, Edward A. Ross mostrou como a Inglaterra pagou caro por um fundo que amortizava dívida com dinheiro emprestado, e por que só o superávit paga a conta.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1828, uma comissão do Parlamento britânico fez uma conta incômoda. Entre 1785 e 1829, para manter o fundo de amortização funcionando durante as guerras, o país tomara emprestados £ 330 milhões a cerca de 5% ao ano. O dinheiro serviu para pagar uma dívida do mesmo tamanho que custava 4,5%. A Inglaterra trocou dívida barata por dívida cara e, por décadas, chamou a operação de prudência."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conta está no centro da parte inglesa de Sinking Funds, monografia de Edward A. Ross, professor associado de economia política e finanças da Universidade Cornell, publicada em julho e setembro de 1892 num número duplo das Publications of the American Economic Association. São cerca de cem páginas em três partes: a amortização inglesa, a americana e uma teoria geral. A Inglaterra, diz Ross na introdução, exemplifica todos os erros que uma teoria equivocada pode produzir; os Estados Unidos mostram a lenta emergência das formas que a experiência e a análise aprovaram."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "£ 1,6 milhão",
+          "texto": "Perda anual de juros estimada pela comissão parlamentar de 1828: £ 1.627.765, durante 43 anos. Origem: £ 330 milhões tomados a cerca de 5% para resgatar dívida equivalente a 4,5%, entre 1785 e 1829. A estimativa não inclui o custo de administrar o fundo nem a desvalorização dos títulos causada por empréstimos maiores que o necessário."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é, afinal, um fundo de amortização?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Amortizar é pagar o principal da dívida, não apenas os juros. O fundo de amortização (sinking fund) inglês nasceu em 1716, quando as pequenas receitas vinculadas a cada empréstimo foram reunidas em quatro grandes fundos. Três pagavam juros. O quarto juntava as sobras dos outros e se destinava a “afundar” a dívida nacional, e a nenhum outro fim. Como cada resgate liberava juros que voltavam ao fundo, ele crescia em progressão geométrica."
+        },
+        {
+          "tipo": "p",
+          "texto": "A virtude durou pouco. Em 1727, a redução dos juros da dívida de 5% para 4% acrescentou £ 400 mil por ano às sobras do fundo. Daí em diante, os ministros passaram a carregá-lo com os juros de empréstimos novos. Em 1733, Walpole precisou de meio milhão para despesas correntes e o tirou do fundo. Em 1752, o fundo já recebia impostos e encargos de dívida nova; seu caráter original, escreve Ross, ficou inteiramente obscurecido. Ainda assim, servia para embalar o público na crença de que a dívida estava sendo extinta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como um centavo podia virar um planeta de ouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O erro intelectual veio de um clérigo. Em 1772, o Dr. Price publicou um apelo ao público sobre a dívida nacional, muito lido. A receita: separar uma quantia fixa por ano, comprar títulos públicos no mercado e reinvestir os juros desses títulos. O fundo cresceria a juros compostos e, se mantido intocado, absorveria qualquer dívida. Valia até tomar empréstimo para manter os aportes, porque o dinheiro emprestado custaria juros simples e renderia juros compostos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Price ilustrava a mágica com um centavo (penny) aplicado a 5% compostos desde o ano 1: em 1775, valeria 300 milhões de Terras de ouro maciço. A juros simples, apenas sete xelins e seis pence. Ross aponta o equívoco central: tratar o título público como propriedade produtiva. Os “rendimentos” do fundo eram, na verdade, impostos pagos como juros sobre dívida que o próprio Estado já havia recomprado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pitt assumiu em 1784 com a dívida em £ 245 milhões e adotou a teoria. Em 1786, transformou um superávit de £ 900 mil, elevado a £ 1 milhão com novos impostos, em dotação permanente, entregue a uma comissão especial que comprava títulos a cada trimestre. O plano começou honesto, apoiado num superávit real. O erro foi não suspendê-lo quando a guerra com a França começou, em 1793. Sob a influência de Price, o Parlamento seguiu reforçando o fundo enquanto o orçamento só mostrava déficits, até aplicar £ 16 milhões no resgate de dívida antiga em 1813."
+        },
+        {
+          "tipo": "p",
+          "texto": "No mesmo ano de 1813, o professor Hamilton, de Aberdeen, desmontou Price ponto por ponto. O único fundo de amortização real é o excesso da receita sobre a despesa; amortizar enquanto se toma emprestado não reduz a dívida, aumenta-a. Lord Grenville, antigo defensor de Pitt, retratou-se em 1828. No ano seguinte, a Inglaterra aboliu o fundo formal e passou a destinar à dívida apenas o superávit que de fato aparecesse."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os Estados Unidos copiaram da Inglaterra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hamilton, primeiro secretário do Tesouro americano, importou o aparato de Pitt. Seu relatório sobre o crédito público, de 14 de janeiro de 1790, orientou a lei de financiamento da dívida de agosto daquele ano, e em seus relatórios aparece a máxima que ele queria ver incorporada ao sistema:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A criação de dívida deve sempre vir acompanhada dos meios de extingui-la”",
+          "original": "“the creation of debt should always be accompanied with the means of extinguishment”"
+        },
+        {
+          "tipo": "p",
+          "texto": "As primeiras compras deram certo, porque havia sobra de receita. Os comissários começaram comprando títulos a 54 centavos por dólar, e a média logo subiu para 62, o que ajudou a recuperar o valor da dívida. Mas a rigidez cobrou seu preço. Em 1799, o governo só conseguiu captar a 8%, e no mesmo ano os comissários gastaram US$ 638 mil resgatando títulos de 6%. Pela conta de Ross, essa única amortização custou US$ 12.760 por ano enquanto durassem os papéis de 8%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Gallatin, que assumiria o Tesouro em 1801, explicou o problema no debate de janeiro de 1800 com uma clareza que Ross registra como antecipação do que os ingleses só admitiriam em 1813:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Só conheço uma maneira de uma nação pagar suas dívidas”",
+          "original": "“I know but one way that a nation has of paying her debts”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A maneira é a do indivíduo: gastar menos do que recebe. O exemplo numérico de Gallatin continua didático. Com receita de 9 milhões e despesa de 14, o governo precisa tomar 5. Se 2 milhões da receita estiverem presos ao fundo, terá de tomar 7 para pagar 2 de dívida velha. A dívida cresce os mesmos 5 milhões. Só muda a diferença entre o juro da dívida nova e o preço da velha."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O fundo funcionou quando houve superávit?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Como secretário do Tesouro a partir de 1801, Gallatin manteve os comissários, por cálculo político, mas simplificou o resto. A lei de 29 de abril de 1802 reservou US$ 7,3 milhões por ano para todo o serviço da dívida, juros e principal juntos, com prioridade sobre as despesas correntes. Com receita estimada em US$ 9,95 milhões e despesa de US$ 2,65 milhões, o governo passaria a viver das sobras do fundo, e não o contrário."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 46 milhões",
+          "texto": "Dívida extinta pelo fundo de Gallatin entre 1801 e 1811: US$ 46.022.810. Os federalistas haviam deixado US$ 79.926.999. A compra da Louisiana acrescentou US$ 11.250.000. Em 1º de janeiro de 1812, a dívida pública era de US$ 45.154.189."
+        },
+        {
+          "tipo": "p",
+          "texto": "A guerra de 1812 inverteu o ciclo. O fundo de 8 milhões passou a responder por notas do Tesouro e empréstimos de curto prazo e, no fim de 1815, carregava US$ 108,7 milhões. A reorganização veio com a lei de 3 de março de 1817, que revogou toda a legislação anterior: US$ 10 milhões anuais, mais as sobras acima de 2 milhões, e destruição dos títulos resgatados, sem juros fictícios sobre eles. Para Ross, é o momento em que a simplicidade e o bom senso triunfam. Até o fim de 1834, a dívida estava praticamente extinta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A promessa de 1862 foi cumprida?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Guerra Civil trouxe de volta os princípios de Hamilton. A lei de 25 de fevereiro de 1862 mandou aplicar, a cada ano fiscal, 1% de toda a dívida, mais os juros dos títulos já comprados, e fez disso parte de uma lei de empréstimo, isto é, um compromisso com os credores. Durante a guerra, a regra não foi cumprida. Depois, o Tesouro pagou o que podia, sem olhar para ela."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 223 milhões",
+          "texto": "Excedente apurado pelo secretário Morrill: a lei de 1862 exigia reduzir a dívida em US$ 433.848.215,37 entre 1º de julho de 1862 e o fim do último ano fiscal de seu cálculo; a redução efetiva foi de US$ 656.992.226,44, ou US$ 223.144.011,07 a mais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O total impressiona; o ano a ano, nem tanto. Para 1874-75, havia um superávit de 9 milhões contra mais de 31 milhões exigidos pela lei. O senador Sherman admitiu que, a partir de 1873, o governo não pagou nem um quarto ou um quinto do fundo. Num debate de 1884, o senador Plumb descreveu o fundo como mera contabilidade:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“lançamentos nos livros do Tesouro, mas nada nos cofres”",
+          "original": "“entries on the books of the treasury, but nothing in the vaults”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão de Ross é seca. Administrada assim, a lei equivalia a mandar o secretário usar o superávit para pagar dívida, como teria feito sem lei nenhuma. Pior: as verbas de rios e portos, concessões gratuitas, tinham preferência no caixa sobre um compromisso contratual."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual é o melhor modo de amortizar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte teórica parte de um argumento de função. Uma fundição estatal de canhões financiada com dívida continua fazendo canhões. Um fundo de amortização financiado com dívida não faz nada: quando a dívida criada iguala a paga, o resultado líquido é zero. Daí a regra de Ross: suspender a amortização sempre que os déficits obrigarem a tomar empréstimos, com duas exceções, a amortização que funciona como refinanciamento parcial e o caso em que abandonar uma política estabelecida custaria mais em confiança do que mantê-la."
+        },
+        {
+          "tipo": "p",
+          "texto": "O extremo oposto também falha. Destinar à dívida apenas o superávit eventual, como fez a Inglaterra depois de 1829, entregou a decisão aos ministros e às pressões por corte de impostos. A meta era de £ 3 milhões por ano; entre 1829 e 1869, o superávit aplicado à dívida britânica ficou em média em £ 760 mil. Ross prefere, por isso, uma dotação regular dentro do orçamento, que só pode ser suspensa por ato explícito do Legislativo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as formas regulares, a progressiva mantém constante o encargo total da dívida: a cada ano, os juros liberados pelos resgates anteriores somam-se à parcela fixa. Assim, o peso não se concentra nos primeiros anos. As anuidades termináveis são a forma mais rígida, porque deixar de pagar o principal equivale a dar calote. O veredito final é técnico e um tanto patriótico: o fundo combinado de Gallatin, uma soma fixa maior que os juros dividida entre juros e principal, é o modo mais simples, claro e eficaz de reduzir dívidas públicas já empregado. Receitas vinculadas, só para empréstimos produtivos, como ferrovias e telégrafos, que devem pagar a si mesmos."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a lição mais durável de Ross não está na tipologia, mas na distinção entre o mecanismo e o resultado. Ainda hoje se discutem regras fiscais como se a engenharia da regra pudesse substituir a condição que Gallatin considerava indispensável: receita maior que despesa. Fundos, vinculações e metas ajudam a disciplinar o orçamento, mas não criam superávit. Quando a regra é cumprida com dinheiro emprestado, a contabilidade melhora e a dívida não.",
+            "O segundo ponto é a credibilidade. O fundo inglês e a lei americana de 1862 mostram dois fracassos opostos: a regra cumprida a qualquer custo e a regra reinterpretada até virar letra morta. Ross não escolhe a rigidez nem o arbítrio. Escolhe a simplicidade, com contas que qualquer um pode acompanhar e suspensão só por decisão pública e explícita. Parece pouco. É o que muitos sistemas fiscais ainda têm dificuldade de garantir."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Amortização",
+          "pagamento do principal de uma dívida, distinto do pagamento dos juros."
+        ],
+        [
+          "Fundo de amortização (sinking fund)",
+          "receita ou dotação reservada regularmente para resgatar o principal da dívida pública."
+        ],
+        [
+          "Juros fictícios",
+          "juros que o Tesouro pagava a uma comissão sobre títulos que o próprio Estado já tinha recomprado."
+        ],
+        [
+          "Consols",
+          "títulos da dívida britânica consolidada, originados quando Pitt fundiu as receitas dos quatro fundos permanentes num só."
+        ],
+        [
+          "Fundo combinado",
+          "soma anual fixa, maior que os juros, dividida entre juros e principal; a parte do principal cresce a cada ano."
+        ],
+        [
+          "Amortização progressiva",
+          "regime em que os juros liberados pelos resgates se somam à parcela fixa, mantendo constante o encargo total da dívida."
+        ],
+        [
+          "Anuidade terminável",
+          "título que paga, num prazo fixo, juros e principal juntos; deixar de pagá-lo equivale a calote."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida de curto prazo, como notas do Tesouro, que deve ser paga ou convertida em dívida de longo prazo."
+        ]
+      ],
+      "hoje": "A pergunta de Ross reaparece sempre que um país adota uma regra fiscal: o que de fato reduz a dívida? Tetos de gasto, metas de resultado primário, fundos soberanos e vinculações de receita são parentes do velho sinking fund e enfrentam os mesmos dilemas. Uma regra rígida demais acaba cumprida com empréstimo ou contabilidade criativa; uma regra frouxa demais vira sobra eventual que nunca aparece. A lição de 1892 continua simples: amortização real exige superávit, e uma regra só tem crédito quando suas exceções são públicas, explícitas e raras.",
+      "itens": [
+        [
+          "[Sinking Funds]: Introduction",
+          "pp. 7",
+          "2560477"
+        ],
+        [
+          "Sinking Funds",
+          "pp. 9–106",
+          "2560478"
+        ]
+      ],
+      "jstor_edicao": "i323683",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1892-o-tratado-de-reciprocidade",
+      "numero": 35,
+      "titulo": "Haynes, 1892: o acordo com o Canadá que a política derrubou",
+      "titulo_original": "The Reciprocity Treaty with Canada of 1854",
+      "autores": "Frederick E. Haynes, Ph. D.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 7, nº 6",
+      "data": "novembro de 1892",
+      "chamada": "Em 1854, EUA e Canadá zeraram tarifas sobre produtos naturais e o comércio deu um salto. Em 1892, Haynes mostrou que o tratado caiu por ressentimento político, não por fracasso econômico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Perto da meia-noite de 5 de junho de 1854, em Washington, quatro homens conferiam três cópias manuscritas de um tratado à luz de seis velas de cera. Um deles era William L. Marcy, secretário de Estado dos Estados Unidos. Outro era o conde de Elgin, governador-geral das províncias britânicas da América do Norte. O relógio bateu as doze badaladas antes da assinatura, e por um momento ninguém soube se o documento levaria a data de hoje ou de ontem. A cena está numa carta de Lawrence Oliphant, secretário de Elgin, escrita à mãe dois dias depois."
+        },
+        {
+          "tipo": "p",
+          "texto": "Frederick E. Haynes, doutor (Ph. D.), resgata a carta em The Reciprocity Treaty with Canada of 1854, monografia publicada em novembro de 1892 nas Publications of the American Economic Association. O tratado tinha sete artigos. Haynes se concentra em dois. O terceiro isentava de tarifa, nos dois sentidos da fronteira, uma lista de produtos naturais: grãos e farinha, animais, carnes, peixe, madeira, carvão, minérios, lã, couros, manteiga e queijo. O quarto abria aos americanos o rio São Lourenço e os canais do Canadá; em troca, os súditos britânicos poderiam navegar no lago Michigan."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o Canadá queria tanto o acordo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Antes de 1845, um sistema de tarifas diferenciais favorecia os produtos britânicos a ponto de impedir qualquer comércio relevante com os Estados Unidos. Em 1845, Londres autorizou o legislativo canadense a fixar a própria tarifa. Em 1847, o Canadá eliminou a discriminação e passou a admitir os bens americanos nas mesmas condições dos britânicos. Haynes liga a mudança à virada liberal inglesa, com a abolição das Corn Laws, as leis protecionistas sobre cereais, em 1846, e a revogação das Leis de Navegação em 1849."
+        },
+        {
+          "tipo": "p",
+          "texto": "Havia também um motivo político. Os canadenses viam com descontentamento crescente a riqueza acumulada pelo vizinho, e a ideia de anexação aos Estados Unidos ganhava adeptos. Em cartas de 1849, Elgin advertia Londres de que, sem comércio recíproco e livre navegação, o horizonte era de agitação, convulsão ou anexação. O acordo comercial era, para ele, um instrumento de estabilidade colonial."
+        },
+        {
+          "tipo": "p",
+          "texto": "A via escolhida no início foi a legislação concorrente: cada país aprovaria leis espelhadas. Em 1848, um projeto passou na Câmara dos Representantes sem oposição, mas o Senado não chegou a votá-lo, por excesso de outros assuntos. O impasse se repetiu na sessão seguinte. Depois de 1851, ninguém tentou seriamente esse caminho. A disputa sobre as pescas no litoral nordeste, herdada da convenção de 1818, acabou estendendo a negociação a todas as províncias britânicas e empurrou o tema para um tratado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Um tratado aprovado com champanhe?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando Elgin chegou a Washington, em 1854, o presidente Pierce e Marcy foram francos: era inútil, porque os democratas, que tinham maioria no Senado, se opunham. Seguiram-se cerca de dez dias de jantares e recepções. Oliphant conta que, a certa altura, comentou com o chefe que todos os seus amigos mais próximos eram senadores democratas. Elgin respondeu, seco, que os dele também. Ao fim da temporada social, Elgin avisou Marcy de que havia maioria no Senado. Marcy mal acreditou. Os detalhes foram fechados em três dias."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os inimigos de Elgin na Inglaterra e nas províncias disseram que o tratado fora comprado com ouro britânico. Os adversários americanos preferiam outra imagem:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Passou flutuando em champanhe”",
+          "original": "“floated through on champagne”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Haynes não encontra indício de suborno, mas considera a segunda acusação bem fundada; o próprio Oliphant admitiu que, nas mãos de um diplomata hábil, a bebida tem seu valor. A ressalva do autor é importante: as tentativas desde 1846 mostram que havia um movimento consistente por trás do acordo. O Congresso aprovou a lei de execução em 5 de agosto de 1854, e o tratado vigorou a partir da proclamação presidencial de 16 de março de 1855. Nas legislaturas coloniais, houve apenas 21 votos contrários."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto o comércio realmente cresceu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Antes dos números, Haynes faz três advertências. As estatísticas não são exatas. O tratado era só uma entre várias forças: crescimento da população, canais, ferrovias e a expansão da indústria agiam sobre o comércio como nunca antes. E o período foi perturbado pela crise de 1857 e pela Guerra Civil de 1861 a 1865. Feita a ressalva, a série longa impressiona: o comércio total entre os Estados Unidos e as províncias britânicas passou de US$ 2,5 milhões em 1821 para US$ 88,2 milhões em 1885."
+        },
+        {
+          "tipo": "p",
+          "texto": "A década de 1851 a 1861, que inclui os primeiros anos do tratado, teve o maior aumento de toda a série até 1881: US$ 31,7 milhões. A de 1861 a 1871, que cobre a guerra e a revogação, teve o menor desde a década de 1830, de US$ 8,5 milhões."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 22,1 milhões",
+          "texto": "Aumento do comércio total entre Estados Unidos e províncias britânicas no primeiro ano completo do tratado: de US$ 34,9 milhões no último ano antes da vigência para US$ 57,0 milhões em 1856. Nos três anos anteriores, de 1850 a 1853, o aumento fora de US$ 9,2 milhões. Com o comércio do Canadá propriamente dito, o total foi de US$ 13,1 milhões em 1853 para US$ 38,4 milhões em 1856."
+        },
+        {
+          "tipo": "p",
+          "texto": "A composição mudou tanto quanto o volume. As importações americanas isentas de tarifa vindas das províncias somavam US$ 787.599 em 1850 e chegaram a US$ 23,2 milhões em 1860. As sujeitas a tarifa caíram de US$ 6,1 milhões em 1853 para US$ 529.258 em 1862. Do lado canadense, as importações livres vindas dos Estados Unidos subiram para US$ 19,0 milhões em 1862, enquanto as tarifadas ficaram praticamente estáveis, em torno de US$ 6 milhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os produtos agrícolas lideravam nos dois sentidos. Somados cevada e aveia, os grãos seriam o maior item de importação dos dois países. A cevada vendida aos Estados Unidos passou de US$ 1,1 milhão em 1862 para US$ 4,1 milhões em 1865. Haynes registra o motivo com naturalidade: a cevada canadense era a melhor para fazer cerveja. O argumento dos protecionistas, de que dois países com os mesmos produtos não teriam o que trocar, não resistia aos dados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Um dado do fim do tratado reforça o ponto. Em 1866, os Estados Unidos importaram US$ 48,5 milhões das províncias, num ano fiscal em que o tratado vigorou menos de nove meses. Haynes vê ali a pressa dos comerciantes em aproveitar o fim da isenção. O valor só voltou a ser alcançado em 1882. Em nota, ele registra uma explicação adicional sugerida pelo professor Taussig: os preços altos nos Estados Unidos, inflados pelo papel-moeda da guerra."
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois da revogação, o comércio não desabou e já se recuperava antes do tratado de 1871. Haynes levanta a hipótese de que o acordo de 1854 criou correntes de troca que sobreviveram a ele. Cita também um relatório de 1871 sobre o que chamou de comércio de conveniência: trocas de quantidades quase iguais de cereais, farinha e carvão, explicadas por economia de frete e diferença de qualidade, e não por necessidade. Pelo menos um terço do comércio teria esse caráter. Em 1889, o comércio do Canadá com os Estados Unidos já superava o de qualquer outro parceiro, inclusive a Grã-Bretanha."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Onde o tratado falhou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A falha estava no que ficou de fora. O tratado cobria quase só produtos naturais e deixava as manufaturas onde estavam. O Canadá precisava de receita para canais e ferrovias, financiados por subsídios e títulos municipais, e só podia elevar tarifas sobre o que não constava da lista. Foi o que fez, ano após ano. Entre 1855 e 1859, a tarifa sobre arreios subiu de 12% para 25%; tecidos de algodão, ferro, seda e lã chegaram a 20%; o açúcar refinado, a 40%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Haynes relativiza a queixa americana. Mesmo pela tarifa de 1857, os Estados Unidos cobravam 24% sobre tecidos de algodão e lã, 4 pontos acima da tarifa canadense de 1859. E nenhuma cláusula proibia o Canadá de subir tarifas sobre outros bens. Os americanos alegavam um entendimento tácito de que a tarifa canadense ficaria como estava, mas ele nunca foi escrito. Nenhuma das partes apresentou queixa formal de violação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,5 milhão",
+          "texto": "Exportações de manufaturas americanas para o Canadá em 1862-63, contra US$ 4,2 milhões em 1858-59. Tecidos de algodão: de US$ 363.016 para US$ 64.495. Botas e sapatos: de US$ 211.147 para US$ 22.860. Fumo manufaturado: de US$ 1,2 milhão para US$ 76.026. Haynes atribui parte da queda à tarifa canadense e parte à Guerra Civil, que aumentou a demanda interna e reduziu a capacidade de produção americana."
+        },
+        {
+          "tipo": "p",
+          "texto": "A navegação dos canais também decepcionou. O Canadá esperava desviar para o São Lourenço o grão do Oeste americano que seguia pelo canal do Erie, em Nova York. Aboliu os pedágios nos canais do São Lourenço em 1860 e reduziu os do canal de Welland. Ainda assim, a parcela dos cereais americanos que descia o São Lourenço foi de 7,3% em 1856 a um pico de 16,08% em 1859 e voltou a 11,04% em 1862. O próprio ministro das Finanças canadense culpava a pouca concorrência entre transportadores, os laços dos embarcadores com o capital de Nova York e os fretes mais baratos de Nova York para a Europa. Haynes acrescenta o inverno: rios e canais canadenses ficavam congelados boa parte do ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que, então, foi revogado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 13 de dezembro de 1864, a Câmara aprovou por 85 votos a 57 uma resolução para encerrar o tratado. O Senado a enviou à comissão de relações exteriores, e não à de comércio, e a transformou em revogação incondicional em 12 de janeiro de 1865. Para Haynes, o detalhe processual revela tudo: o Senado tratou o tema como questão política. O presidente aprovou a medida em 18 de janeiro de 1865, e o tratado terminou em 17 de março de 1866. O senador Charles Sumner, a favor da revogação, contestou a relação entre o acordo e o comércio:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Post hoc ergo propter hoc é uma regra frouxa demais para o nosso governo”",
+          "original": "“Post hoc ergo propter hoc is too loose a rule for our government”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sumner tinha razão no método, como o próprio Haynes reconhece nas três ressalvas iniciais. Mas o autor nota que a oposição se contentou em denunciar o tratado e atacar a política britânica, enquanto os argumentos sólidos estavam com os defensores. A crítica de mérito mais séria veio de Hannibal Hamlin, adversário moderado, numa convenção comercial em Detroit em julho de 1865. Ele se dizia defensor do livre-comércio, mas não de um sistema que isenta poucos artigos e obriga a cobrar mais dos outros para cobrir a receita perdida:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Isso é livre-comércio em fatias”",
+          "original": "“That is free trade in slices”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto da evidência aponta para a política. Charles Francis Adams, ministro americano em Londres, escreveu em fevereiro de 1865 que a revogação resultava mais de forte sentimento político do que de considerações comerciais. A convenção de Detroit, que reuniu juntas comerciais e câmaras de comércio dos dois lados da fronteira, pediu por unanimidade substancial um novo acordo. Delegados de Canadá, Nova Brunswick e Nova Escócia passaram de 24 de janeiro a 6 de fevereiro de 1866 em Washington tentando renová-lo, sem sucesso. A conclusão de Haynes é que a causa foi política, e não econômica: a hostilidade inglesa ao Norte durante a Guerra Civil despertou um ressentimento que nenhum argumento comercial venceria."
+        },
+        {
+          "tipo": "p",
+          "texto": "Haynes fecha com uma moldura maior. Entre 1846 e 1870, as principais nações caminharam para reduzir barreiras ao comércio: as Corn Laws caíram na Inglaterra, o Zollverein, a união aduaneira alemã, se expandiu, multiplicaram-se tratados comerciais, e os Estados Unidos baixaram tarifas em 1846 e 1857. A Guerra Civil e a Guerra Franco-Prussiana interromperam esse movimento. Os Estados Unidos precisavam de receita para a guerra e para a dívida; a Europa, de receita para exércitos. Com o fim da onda liberal, diz ele, foram-se as melhores esperanças de relações comerciais melhores com as províncias britânicas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o estudo de Haynes ensina que um acordo comercial pode dar certo nos números e ainda assim morrer na política. O tratado de 1854 entregou o que prometia: o comércio de produtos naturais cresceu e, ao que tudo indica, parte dele sobreviveu à revogação. O que o derrubou foi a combinação de um desenho incompleto, que deixou as manufaturas e a tarifa canadense fora das regras, com um choque de ressentimento que transformou uma questão de comércio em questão de lealdade. Quando o tema muda de comissão, muda de natureza.",
+            "A crítica de Hamlin merece ser levada a sério, mesmo por quem defende a abertura. Liberar apenas uma lista de produtos protege os setores escolhidos, empurra a receita perdida para outros e deixa à outra parte uma margem que ela usará. O tratado não proibia a alta das tarifas sobre o que ficou de fora, e o Canadá a usou para financiar seus canais. A lição prática é antiga: em acordo comercial, o que não está escrito não existe, e o que fica de fora costuma ser exatamente onde o conflito vai aparecer."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Reciprocidade",
+          "acordo em que dois países concedem um ao outro as mesmas reduções ou isenções de tarifa sobre uma lista de produtos."
+        ],
+        [
+          "Tarifa diferencial",
+          "imposto de importação mais alto para bens de certa origem, usado para favorecer um parceiro, como a metrópole."
+        ],
+        [
+          "Legislação concorrente",
+          "leis espelhadas aprovadas separadamente por cada país, como alternativa a um tratado."
+        ],
+        [
+          "Corn Laws",
+          "leis britânicas que protegiam os cereais nacionais com tarifas de importação; abolidas em 1846."
+        ],
+        [
+          "Comércio de conveniência",
+          "troca de mercadorias semelhantes entre vizinhos, explicada por frete mais barato ou diferença de qualidade."
+        ],
+        [
+          "Revogação (abrogation)",
+          "encerramento de um tratado por decisão de uma das partes, conforme as regras previstas nele."
+        ],
+        [
+          "Zollverein",
+          "união aduaneira dos Estados alemães no século XIX."
+        ],
+        [
+          "Post hoc ergo propter hoc",
+          "falácia de supor que, se B veio depois de A, então A causou B."
+        ]
+      ],
+      "hoje": "A história de 1854 continua atual em qualquer acordo comercial. Liberalizações parciais, por lista de produtos, ainda geram a mesma reclamação de Hamlin: protegem uns setores e transferem o custo para outros. A ausência de cláusulas que impeçam a outra parte de compensar tarifas em bens não cobertos segue sendo fonte de atrito. E a separação entre comércio e política, que Haynes lamentava ter sido rompida, continua frágil: acordos são revistos, suspensos ou ameaçados por razões de segurança, diplomacia ou ressentimento. Os números podem mostrar ganhos; a decisão, muitas vezes, se toma em outra comissão.",
+      "itens": [
+        [
+          "The Reciprocity Treaty with Canada of 1854",
+          "pp. 7–70",
+          "2485728"
+        ]
+      ],
+      "jstor_edicao": "i342429",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1893-a-quinta-reuniao-anual",
+      "numero": 36,
+      "titulo": "Chautauqua, 1892: a nova economia, o fisco e o agricultor",
+      "titulo_original": "Report of the Proceedings of the American Economic Association at the Fifth Annual Meeting",
+      "autores": "W. W. Folwell (University of Minnesota), Edwin R. A. Seligman (Columbia College), E. A. Ross (Cornell University), Edward W. Bemis (University of Chicago), J. B. Clark (Smith College), F. W. Taussig (Harvard University) e outros",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 8, nº 1",
+      "data": "janeiro de 1893",
+      "chamada": "Quatro dias em Chautauqua, em agosto de 1892: a economia como ramo da sociologia, um novo cânone tributário, água e ferrovia municipais, a revolta do agricultor e a aritmética de uma pirâmide.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na noite de 23 de agosto de 1892, no anfiteatro de Chautauqua, à beira de um lago no oeste do estado de Nova York, o anfitrião Lewis H. Miller abriu o encontro com uma experiência própria. Sua empresa adotara a jornada de oito horas por dois anos, com salário integral. A produção não caiu; fizeram-se até mais máquinas com menos homens. O problema veio depois do expediente: em vez de descansar, os operários iam para as fábricas vizinhas trabalhar mais três ou quatro horas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O quinto encontro anual da American Economic Association durou de 23 a 26 de agosto. O roteiro foi enxuto: finanças públicas na manhã de quarta-feira, passeio no lago à tarde, o movimento dos agricultores à noite; teoria econômica durante toda a quinta-feira, estatística à noite; temas variados na sexta. O relatório saiu em janeiro de 1893, com o discurso de abertura na íntegra, resumos redigidos pelos próprios autores e debates condensados a partir das notas do estenógrafo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Coube a William W. Folwell, da University of Minnesota, segundo vice-presidente, presidir no lugar dos dois dirigentes ausentes. O Conselho elegeu Charles F. Dunbar presidente e Edward A. Ross secretário, fez de Charles Gide e F. Y. Edgeworth membros honorários e marcou o encontro seguinte para Chicago, perto da reunião do Instituto Internacional de Estatística. Segundo o secretário que saía, Richard T. Ely, o quadro de sócios chegara a 732 em agosto de 1892."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Folwell chamava de nova economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Folwell começou admitindo a má fama da disciplina: para o cidadão comum, teoria vazia que levanta perguntas e não dá respostas. A culpa, disse, era das leis do comércio ensinadas como se fossem a gravidade, com o laissez-faire como última palavra. Sua proposta mudava o endereço da ciência:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“um ramo e um constituinte da sociologia, a ciência do homem social”",
+          "original": "“a branch and constituent of sociology-the science of the social man”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí vinham o método indutivo e, sobretudo, a economia pública: receita, moeda, terras, trabalho. Pelas contas dele, cerca de metade dos trabalhos da associação já tratava desses temas, e o volume confirma: finanças, água e ferrovia municipais, crédito rural, estatística de dívidas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que separava o fisco da conta do agricultor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os debates de finanças e do campo se cruzaram. Dick queria tirar o imposto da propriedade pessoal para aliviar as fazendas; Weeks duvidava de que o agricultor ganhasse. Ross resumiu a queixa rural: vender a preço de concorrência e comprar, inclusive o frete, a preço de monopólio. Ely, que dizia ter integrado duas comissões tributárias, encerrou o debate fiscal com uma frase seca:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O perigo não é irmos depressa demais, mas não irmos de modo algum.”",
+          "original": "“The danger is not that we shall go too rapidly, but that we shall not go at all.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava uma promessa de enriquecer sem esforço?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O texto mais devastador veio de um editor, Frank P. Bennett. Sua aritmética das companhias de endowment de Massachusetts mostrou que a conta só fechava com entrada contínua de novos sócios."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 15.000",
+          "texto": "Custo de cada oração do capelão supremo da ordem do Golden Lion, que ganhava US$ 7.500 por ano e abria uma sessão a cada dois anos. Em 30 de junho de 1891, as 56 companhias de Massachusetts tinham 265.585 sócios e haviam prometido US$ 84.810.278. Trinta e duas já tinham quebrado."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o que este volume tem de melhor é o atrito entre programa e conta. Folwell pede uma economia pública guiada por estatística; no mesmo encontro, Holmes mostra que os registros de hipotecas exagerariam a dívida em 71%, e Dick e Weeks discutem avaliações fiscais que ninguém considera corretas. O cânone de Ross, o imposto que arrecada sem impedir, continua sendo um bom primeiro teste para qualquer tributo, e a pergunta de Farnam, como cobrar progressivamente através de empresas cujos donos ninguém vê, nunca deixou de ser atual.",
+            "O debate rural mostra o outro lado: cada orador usou os dados que lhe convinham. Bemis chegou mais perto de um diagnóstico testável ao separar a queda absoluta de riqueza, que não houve, do atraso relativo do campo, que era real."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "propriedade pessoal",
+          "bens móveis, créditos, títulos e hipotecas, em oposição aos imóveis (real estate)."
+        ],
+        [
+          "efeito proibitivo",
+          "atividade que deixa de existir por causa de um imposto; custo que não aparece na arrecadação."
+        ],
+        [
+          "tributação progressiva",
+          "alíquota que sobe com a renda ou a riqueza, em vez de permanecer proporcional."
+        ],
+        [
+          "teoria da capacidade",
+          "princípio de que cada um deve pagar segundo seus meios, e não segundo o benefício que recebe do Estado."
+        ],
+        [
+          "sub-treasury",
+          "plano dos agricultores de depositar safras em armazéns públicos e receber em troca papel-moeda de curso legal."
+        ],
+        [
+          "trabalho marginal",
+          "acréscimo de trabalho a um capital fixo; o produto extra é atribuído só ao trabalho."
+        ],
+        [
+          "número-índice",
+          "média de preços relativos a um ano-base, simples ou ponderada pelo peso de cada item no consumo."
+        ],
+        [
+          "endowment de assessment",
+          "promessa de pagar uma quantia fixa após alguns anos, financiada por contribuições cobradas dos sócios conforme a necessidade."
+        ]
+      ],
+      "hoje": "Chautauqua antecipou perguntas que continuam abertas. O cânone de Ross está na base da análise moderna de eficiência tributária: um bom imposto arrecada sem destruir a atividade que tributa. A dúvida de Farnam sobre progressividade cobrada através de empresas reaparece em todo debate sobre tributar lucros ou dividendos. A comparação entre média simples e ponderada de Falkner é o dilema de qualquer índice de preços. E a aritmética de Bennett continua sendo a melhor vacina contra esquemas que pagam os antigos com o dinheiro dos novos.",
+      "itens": [
+        [
+          "The Fifth Annual Meeting",
+          "pp. 9–11",
+          "2485585"
+        ],
+        [
+          "Address of Welcome",
+          "pp. 15–16",
+          "2485586"
+        ],
+        [
+          "The New Economics",
+          "pp. 19–40",
+          "2485587"
+        ],
+        [
+          "The Taxation of Personal Property and the Farmer",
+          "pp. 43–48",
+          "2485588"
+        ],
+        [
+          "A New Canon of Taxation",
+          "pp. 49–52",
+          "2485589"
+        ],
+        [
+          "The Theory of Progressive Taxation",
+          "pp. 52–55",
+          "2485590"
+        ],
+        [
+          "The Municipal Ownership of Water Works",
+          "pp. 55–58",
+          "2485591"
+        ],
+        [
+          "The Cincinnati Southern Railway: A Study in Municipal Activity",
+          "pp. 58–61",
+          "2485592"
+        ],
+        [
+          "The Movement in the Northern States",
+          "pp. 62–74",
+          "2485593"
+        ],
+        [
+          "The Discontent of the Farmers",
+          "pp. 74–76",
+          "2485594"
+        ],
+        [
+          "The Interpretation of Ricardo",
+          "pp. 77–82",
+          "2485595"
+        ],
+        [
+          "\"The Ultimate Standard of Value\"",
+          "pp. 82–87",
+          "2485596"
+        ],
+        [
+          "The Idea and Definition of Value",
+          "pp. 87–95",
+          "2485597"
+        ],
+        [
+          "Value and Distribution as Treated by Professor Marshall",
+          "pp. 95–101",
+          "2485598"
+        ],
+        [
+          "Diminishing Returns and Distribution",
+          "pp. 101–103",
+          "2485599"
+        ],
+        [
+          "Statistical Work of the Year",
+          "pp. 104–105",
+          "2485600"
+        ],
+        [
+          "Statistics of Private Indebtedness",
+          "pp. 105–108",
+          "2485601"
+        ],
+        [
+          "The Measurement of Price Movements",
+          "pp. 108–113",
+          "2485602"
+        ],
+        [
+          "The Endowment Craze in Massachusetts",
+          "pp. 114–121",
+          "2485603"
+        ],
+        [
+          "Architectural Problems in Great Cities",
+          "pp. 121–123",
+          "2485604"
+        ],
+        [
+          "Report of the Secretary",
+          "pp. 127–129",
+          "2485605"
+        ],
+        [
+          "Report of the Treasurer",
+          "pp. 130",
+          "2485606"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "The New Economics",
+          "autores": "W. W. Folwell (University of Minnesota), segundo vice-presidente",
+          "paginas": "pp. 19–40",
+          "resumo": "Discurso de abertura. Folwell atribui a má fama da economia ao ensino das leis do comércio como forças externas ao homem e propõe tratá-la como ramo da sociologia, indutiva e centrada nas necessidades e no consumo. Divide a disciplina em economia social e economia pública e cobra atenção à segunda: terra, trabalho, moeda e impostos. Pede um departamento nacional de estatística, aponta a concentração de minas, florestas e águas do Oeste, sugere pôr os sindicatos sob a lei e vê na publicidade o principal controle sobre os monopólios.",
+          "jstor": "2485587"
+        },
+        {
+          "titulo": "The Taxation of Personal Property and the Farmer",
+          "autores": "S. M. Dick (Missouri Wesleyan College)",
+          "paginas": "pp. 43–48",
+          "resumo": "Com dados dos registros fiscais do Ohio, mostra que a propriedade pessoal escapa ao imposto: em 1889, os imóveis somavam US$ 1,21 bilhão e os bens pessoais, US$ 540,6 milhões. Conclui que os condados agrícolas ganhariam se só os imóveis fossem tributados. No debate, Seligman aponta dupla contagem, já que a hipoteca aparece como bem pessoal sobre um imóvel já contado, e defende a tributação pela capacidade. Joseph D. Weeks duvida de que o agricultor, individualmente, saísse ganhando.",
+          "jstor": "2485588"
+        },
+        {
+          "titulo": "A New Canon of Taxation",
+          "autores": "E. A. Ross (Cornell University)",
+          "paginas": "pp. 49–52",
+          "resumo": "Ross sustenta que um imposto tem só dois efeitos diretos: arrecadar e impedir. Se o fato tributado rende pouca satisfação líquida, ele desaparece, e esse custo não aparece na receita. A opressão dos impostos antigos viria daí. O efeito proibitivo é legítimo nos impostos de finalidade social, mas ruinoso nos demais. Daí o cânone que acrescenta ao de Adam Smith: imposto de receita deve ter o menor efeito proibitivo possível. Lester F. Ward elogia; Frederick B. Hawley aponta o efeito sobre a acumulação de capital.",
+          "jstor": "2485589"
+        },
+        {
+          "titulo": "The Theory of Progressive Taxation",
+          "autores": "Edwin R. A. Seligman (Columbia College)",
+          "paginas": "pp. 52–55",
+          "resumo": "Recusa a teoria socialista de Wagner, segundo a qual o Estado deveria corrigir desigualdades de fortuna, e acha inútil como critério a teoria compensatória de Walker. A disputa real é entre benefício e capacidade. Escritores holandeses teriam mostrado que o sacrifício igual não fixa nenhuma alíquota; ainda assim, a progressão seria menos injusta que a proporção. Na prática, recomenda cautela. No debate, Farnam lembra que tributar via empresas impede medir a riqueza de cada dono, e Ely diz que o risco americano é a inércia.",
+          "jstor": "2485590"
+        },
+        {
+          "titulo": "The Municipal Ownership of Water Works",
+          "autores": "M. N. Baker",
+          "paginas": "pp. 55–58",
+          "resumo": "Escolhe a água porque é o único monopólio natural em que a propriedade municipal é comum: no fim de 1890, 806 das 1.878 empresas de água do país, ou 43%, pertenciam a cidades. A tendência era de municipalização: até 1890, 66 sistemas haviam passado do privado ao público e só 15 no sentido inverso. As tarifas de 430 empresas eram 43% mais altas que as de 318 cidades, em parte porque cidades cobriam déficits com impostos. Conclui que a gestão pública é tão eficiente quanto a privada.",
+          "jstor": "2485591"
+        },
+        {
+          "titulo": "The Cincinnati Southern Railway: A Study in Municipal Activity",
+          "autores": "J. H. Hollander (Johns Hopkins University)",
+          "paginas": "pp. 58–61",
+          "resumo": "Narra como a cidade de Cincinnati construiu, por conta própria, uma ferrovia de 335 milhas até Chattanooga, ao custo de mais de US$ 18 milhões e dez anos de trabalho. A obra foi conduzida por cinco curadores nomeados pela Justiça, elogiados pela integridade. Aberta em 1880, a linha foi arrendada no ano seguinte por 25 anos, a um aluguel médio de US$ 1,08 milhão por ano, mas títulos longos e caros sem resgate antecipado impediam que gerasse receita. No debate, Gray duvida de que só a cidade pudesse fazê-la.",
+          "jstor": "2485592"
+        },
+        {
+          "titulo": "The Movement in the Northern States",
+          "autores": "S. C. Walker (Massachusetts Agricultural College)",
+          "paginas": "pp. 62–74",
+          "resumo": "Atribui a situação do agricultor a uma oferta que cresceu além da demanda, com custos de insumos e ferramentas que comprimem a margem. Vê o movimento como despertar irreversível, em quatro frentes: organização, educação, cooperação e ação política. O debate é longo. Ross diz que o agricultor vende em concorrência e compra a preços de monopólio; Weeks defende os fretes ferroviários; Ely calcula a hipoteca contra o lucro agrícola; Commons elogia o plano do sub-treasury; Giddings culpa a mentalidade do próprio agricultor.",
+          "jstor": "2485593"
+        },
+        {
+          "titulo": "The Discontent of the Farmers",
+          "autores": "Edward W. Bemis (University of Chicago)",
+          "paginas": "pp. 74–76",
+          "resumo": "Bemis vê nos agricultores do Oeste e do Sul o grupo mais radical do país e aponta como causa principal a queda de mais de 22% nos preços desde 1873, que dificultou pagar as hipotecas. Estas valiam de 5% a 30% das terras de cada estado, mas o arrendamento crescera mais de 50% em vários estados desde 1880. O núcleo da queixa é o atraso relativo frente às cidades. Recusa o sub-treasury, propõe crédito cooperativo ao modo Raiffeisen e impostos sobre herança e renda para financiar estradas e escolas rurais.",
+          "jstor": "2485594"
+        },
+        {
+          "titulo": "The Interpretation of Ricardo",
+          "autores": "Simon N. Patten (University of Pennsylvania)",
+          "paginas": "pp. 77–82",
+          "resumo": "Patten propõe ler Ricardo como autor de uma teoria da prosperidade, não da distribuição. Smith e Malthus contrapunham renda da terra e salários numa economia agrícola; Ricardo contrapôs lucros e salários numa economia industrial e perguntou por que os lucros eram baixos. A resposta foi o preço alto dos alimentos, ligado à tarifa. A teoria da renda de Malthus, de 1815, entrou como prova melhor de uma tese já pronta. Taussig concorda em parte, mas vê o mérito de Ricardo em dar coerência à distribuição.",
+          "jstor": "2485595"
+        },
+        {
+          "titulo": "\"The Ultimate Standard of Value\"",
+          "autores": "J. B. Clark (Smith College)",
+          "paginas": "pp. 82–87",
+          "resumo": "Clark busca um padrão absoluto de medida do valor e o encontra no trabalho social. Enumera quatro obstáculos ao uso do trabalho como unidade e resolve cada um: toma o trabalho marginal, uma amostra de todos os graus de eficiência, o sacrifício em vez dos atos e, por fim, o sacrifício imposto à sociedade pela última e mais penosa parte da jornada. No debate sobre monopólios, explica a tarifa de bonde de cinco centavos pelo esforço de quem teria de voltar para casa a pé; Patten prefere medir pelo prazer.",
+          "jstor": "2485596"
+        },
+        {
+          "titulo": "The Idea and Definition of Value",
+          "autores": "Franklin H. Giddings (Bryn Mawr College)",
+          "paginas": "pp. 87–95",
+          "resumo": "Giddings conta cinco grupos e doze espécies de definição de valor desde Locke e critica a que identifica valor subjetivo com utilidade subjetiva. Para ele, valoriza-se por um juízo sobre um sentimento futuro, e por isso os valores de mercado variam com a inteligência e o padrão de vida dos grupos. Quem prevê a demanda futura obtém valores de monopólio. Ely rebate com um caso: uma companhia de bondes de Baltimore rendia 17% sobre o capital investido, com péssimo serviço e nenhuma ideia brilhante por trás.",
+          "jstor": "2485597"
+        },
+        {
+          "titulo": "Value and Distribution as Treated by Professor Marshall",
+          "autores": "F. W. Taussig (Harvard University)",
+          "paginas": "pp. 95–101",
+          "resumo": "Taussig examina os Principles of Economics de Marshall, cuja maior inovação seria tratar valor e distribuição como um só problema. Marshall enfatiza as semelhanças de longo prazo e as diferenças imediatas; Taussig inverteria a ênfase. Critica a teoria residual dos salários em geral e limita a lei da substituição aos períodos de transição, quando dois métodos convivem. Duvida de que o livro alcance a autoridade que teve John Stuart Mill. Folwell diz ter se decepcionado; Giddings acha que não se foi muito além de Cairnes.",
+          "jstor": "2485598"
+        },
+        {
+          "titulo": "Diminishing Returns and Distribution",
+          "autores": "J. R. Commons (University of Indiana)",
+          "paginas": "pp. 101–103",
+          "resumo": "Commons propõe tornar universal a lei dos rendimentos decrescentes, olhando sempre a partir da área ocupada, na indústria como na agricultura. O solo seria capital e seguiria a lei do juro; a lei da renda valeria apenas para área e localização e, por extensão, para outras oportunidades sociais e privilégios de monopólio, como franquias, patentes e marcas. Uma tabela classifica os fatores da distribuição. Ely acrescenta que o censo pode registrar como riqueza o que é só transferência do público para o dono de um privilégio.",
+          "jstor": "2485599"
+        },
+        {
+          "titulo": "Statistics of Private Indebtedness",
+          "autores": "George Kirby Holmes (Census Office)",
+          "paginas": "pp. 105–108",
+          "resumo": "Descreve como o Censo mediu a dívida hipotecária. Os registros de cartório exagerariam a dívida real em 71%, e a entrevista direta seria cara e arriscada. O método escolhido foi indireto: resumir todas as hipotecas da década, calcular a vida média da dívida e descontar pagamentos parciais apurados em 102 condados, onde também se fez a conferência direta. O erro médio nos condados tabulados foi de 0,98%. A pesquisa de propriedade e dívida de fazendas e casas combinou recenseadores, correio e agentes especiais.",
+          "jstor": "2485601"
+        },
+        {
+          "titulo": "The Measurement of Price Movements",
+          "autores": "Roland P. Falkner (University of Pennsylvania)",
+          "paginas": "pp. 108–113",
+          "resumo": "Falkner relata a análise que conduziu de dados do Department of Labor sobre preços desde 1840 e o efeito da tarifa sobre preços e salários. Explica as escolhas: preços no atacado no lugar do varejo, ano-base de 1860 por ter sido normal e uma ponderação pelo orçamento dos consumidores, com alimentos pesando 41%. Taussig observa que a média simples dá quase o mesmo; Falkner confirma, 99,52 contra 99,56, mas adverte que a coincidência pode não se manter com listas maiores.",
+          "jstor": "2485602"
+        },
+        {
+          "titulo": "The Endowment Craze in Massachusetts",
+          "autores": "Frank P. Bennett (publisher, American Wool and Cotton Reporter)",
+          "paginas": "pp. 114–121",
+          "resumo": "Ataca as companhias de endowment autorizadas por lei de Massachusetts de 1888. Das 56 criadas, 32 já tinham quebrado. A pioneira, a Order of the Iron Hall, de Indiana, prometia mil dólares em sete anos a um custo de cerca de 300 por beneficiário. Bennett mostra que a conta exigiria uma população crescente sem limite: para pagar seus 65.204 sócios, seriam precisos 2.608.160 novos. No debate, Walker culpa o desejo de ganhar algo por nada; Commons lembra a instabilidade que leva os pobres a buscar seguro.",
+          "jstor": "2485603"
+        },
+        {
+          "titulo": "Architectural Problems in Great Cities",
+          "autores": "Barr Ferree (Engineering Magazine, Nova York)",
+          "paginas": "pp. 121–123",
+          "resumo": "Ferree desloca o problema da arquitetura urbana dos monumentos para casas, escritórios e fábricas: dois terços da população de Nova York viviam em cortiços. O arquiteto é instrumento do cliente, e o construtor trata o prédio como investimento. O arranha-céu seria, assim, o produto legítimo de métodos comerciais aplicados à arquitetura, e a obra deve ser julgada pelas condições econômicas que a produzem.",
+          "jstor": "2485604"
+        },
+        {
+          "titulo": "The Fifth Annual Meeting",
+          "autores": "Relatório do encontro",
+          "paginas": "pp. 9–11",
+          "resumo": "Chautauqua, 23 a 26 de agosto de 1892; Charles F. Dunbar eleito presidente; próximo encontro marcado para Chicago.",
+          "jstor": "2485585"
+        },
+        {
+          "titulo": "Address of Welcome",
+          "autores": "Lewis H. Miller",
+          "paginas": "pp. 15–16",
+          "resumo": "Saudação do anfitrião, com o relato de sua experiência com a jornada de oito horas.",
+          "jstor": "2485586"
+        },
+        {
+          "titulo": "Statistical Work of the Year",
+          "autores": "Roland P. Falkner (University of Pennsylvania)",
+          "paginas": "pp. 104–105",
+          "resumo": "Na ausência de Carroll D. Wright, destaca o trabalho dele sobre custo de produção e orçamentos operários.",
+          "jstor": "2485600"
+        },
+        {
+          "titulo": "Report of the Secretary",
+          "autores": "Richard T. Ely",
+          "paginas": "pp. 127–129",
+          "resumo": "Sócios passam de 638 a 732; nova South Western Branch; pede reuniões anuais e unidade de administração.",
+          "jstor": "2485605"
+        },
+        {
+          "titulo": "Report of the Treasurer",
+          "autores": "Relatório do tesoureiro",
+          "paginas": "pp. 130",
+          "resumo": "Demonstrativo financeiro da associação.",
+          "jstor": "2485606"
+        }
+      ],
+      "jstor_edicao": "i342430",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1893-a-moradia-dos-pobres",
+      "numero": 37,
+      "titulo": "Reynolds, 1893: por que o pobre pagava caro para morar mal",
+      "titulo_original": "The Housing of the Poor in American Cities",
+      "autores": "Marcus T. Reynolds, Ph. B., M. A.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 8, nº 2/3",
+      "data": "março e maio de 1893",
+      "chamada": "No ensaio premiado de 1892, Marcus T. Reynolds mediu aluguéis, densidades e mortalidade nos cortiços americanos e concluiu que a saída não era caridade nem decreto, mas oferta melhor pelo mesmo aluguel.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A planta é de 1863. Um prédio de Nova York, na Broadway, perto do Central Park, foi projetado para doze famílias por andar. Cada andar tinha 12 salas e 21 quartos de dormir; só seis desses quartos recebiam luz e ar sem passar pela sala da família. Os outros eram escuros, abafados e sem ventilação. Não era um abrigo de miseráveis: o prédio vivia lotado de famílias que podiam pagar bem e queriam morar com respeitabilidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A planta está no primeiro capítulo de The Housing of the Poor in American Cities, de Marcus T. Reynolds, o ensaio vencedor do prêmio da American Economic Association de 1892, publicado em março e maio de 1893 num número duplo das Publications. São nove capítulos, das páginas 9 a 132, mais uma bibliografia em inglês, francês e alemão. Reynolds avisa que deixou de fora, de propósito, as descrições de casos de sofrimento, já pintadas com as cores mais escuras por quem trabalhava entre os pobres. Seu interesse é outro: os males do cortiço vistos do ponto de vista econômico."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quão apinhada era Nova York?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em dezembro de 1864, o levantamento sanitário da cidade contou 15.309 cortiços (tenements, prédios de aluguel ocupados por várias famílias que dividem escadas, pátios e latrinas), onde viviam 110 mil famílias e 795.592 pessoas. Certos distritos chegavam a 290 mil habitantes por milha quadrada. O East London, único rival à altura, tinha 175.815. Em setembro de 1891, a junta de saúde já registrava 1.225.411 pessoas em cortiços."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "18,52",
+          "texto": "Pessoas por moradia em Nova York em 1890, segundo o Extra Census Bulletin nº 19 (abril de 1892), reproduzido por Reynolds. Eram 16,37 em 1880. Brooklyn tinha 9,80 e Chicago, 8,60. Em Nova York, 3,82 famílias dividiam cada moradia; na Filadélfia, 1,10. Dois terços da população de Nova York (66,70%) moravam em casas com mais de vinte pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O contraste preferido do autor é a Filadélfia, a cidade das casas. Lá, 84,64% das famílias moravam sozinhas numa construção; em Nova York, só 12,02%. A diferença não era só de costume. A Filadélfia se espalhava por mais de 82.560 acres; a ilha de Manhattan tinha 12.673. Reynolds prevê que os limites geográficos fariam de Nova York, para sempre, a cidade mais apertada do continente."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto sobrava no fim do ano?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para saber que moradia o operário podia pagar, Reynolds recorre ao 16º relatório do Bureau de Estatísticas do Trabalho de Massachusetts. O salário semanal médio dos homens era de US$ 11,85. O das mulheres correspondia a 51,39% disso; o das crianças, a 32,15%. Na indústria têxtil, a média de todos os empregados mal passava de US$ 6,91 por semana."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1885, o mesmo bureau reuniu 19 orçamentos familiares. A família média tinha 5,21 pessoas, ganhava US$ 803,47 por ano e gastava US$ 754,42. Sobravam US$ 49,05 para qualquer emergência. A conclusão de Reynolds é a mais importante do livro: seja qual for o caminho para dar casas melhores aos pobres, não pode ser o de cobrar mais. É preciso entregar mais valor pelo mesmo aluguel."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "19,74%",
+          "texto": "Parcela do gasto anual dos 19 orçamentos de Massachusetts que ia para o aluguel: US$ 148,95 em média. A alimentação levava 49,28%; o vestuário, 15,95%; o combustível, 4,30%. Em Massachusetts, o aluguel médio de um cômodo era de 66 centavos por semana, ou US$ 34,38 por ano; na Inglaterra, 35 centavos. Pela conta do autor, os aluguéis eram 89,62% mais altos do que os ingleses."
+        },
+        {
+          "tipo": "p",
+          "texto": "Aqui o autor confronta a Lei de Engel, a regularidade estatística formulada pelo Dr. Engel, chefe do bureau prussiano de estatística, segundo a qual a parcela da renda gasta com comida cai à medida que a renda sobe. Reynolds confirma essa parte. Mas Engel também dizia que a fatia do aluguel era invariavelmente a mesma, qualquer que fosse a renda, e os números americanos desmentem: ela oscila de modo notável. Nos Estados Unidos, o aluguel levava 18,58% do gasto operário; na Europa, 12,74%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Se a comida pesa mais que o teto, por que priorizar a moradia? A resposta de Reynolds é que as duas coisas não se medem pelo preço. Comida simples quase não faz mal; casa insalubre fere o corpo e o caráter de quem mora nela. Um dinheiro extra, diz ele, rende mais se gasto no conforto da casa do que na qualidade do prato."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o aluguel do pobre era tão caro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque a demanda superava muito a oferta perto dos locais de trabalho. O operário podia morar fora da cidade, mas raramente aceitava somar uma hora ou mais de deslocamento ao dia de trabalho. Antigos inquilinos que juntavam um pequeno capital construíam cortiços baratos, sabendo que qualquer cômodo perto do emprego seria disputado, por pior que fosse. Reparos quase nunca eram feitos. Reynolds cita Lord Salisbury:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O mal é causado diretamente pela prosperidade”",
+          "original": "“The evil is directly caused by prosperity”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os exemplos de retorno são extremos. Na Bedford Street, na Filadélfia, um pardieiro avaliado em US$ 500 rendia US$ 80 por mês. Testemunhas ouvidas por uma comissão do Senado declararam que 40% ao ano era um juro médio razoável sobre imóveis de cortiço, e houve relatos de 100% ou mais. Em Nova York, um cômodo com alcova escura custava US$ 10 por mês; sala, dois quartos e cozinha, US$ 22."
+        },
+        {
+          "tipo": "p",
+          "texto": "A família pagava como podia. Recebia pensionistas no mesmo cômodo, sem alugar espaço maior. Alugava o quarto durante o dia para costureiras e costureiros que faziam roupa por peça, a confecção de cortiço que depois ia para as lojas da cidade. E cortava combustível, comida e roupa. O aluguel alto, portanto, não aparece só no recibo: ele produz a superlotação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O cortiço matava mais?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em alguns lugares, muito mais. No Gotham Court, um bloco na Cherry Street, a mortalidade na última grande epidemia de cólera chegou a 195 por mil habitantes. Ali, de 138 crianças nascidas em três anos, apenas 61 sobreviveram. Em 1889, a taxa de mortalidade de Nova York era de 25,19 por mil, contra 19,7 na Filadélfia e 17,4 em Londres."
+        },
+        {
+          "tipo": "p",
+          "texto": "Reynolds, porém, não esconde um dado que contraria sua tese. O censo de 1888 da população de cortiços apontou mortalidade de 26,11 por mil entre seus 1.117.257 moradores, abaixo da média geral da cidade, de 26,33. E a mortalidade era maior nas casas com menos moradores. A explicação oferecida pelas autoridades: os prédios grandes eram mais fáceis de inspecionar, e de lá os doentes iam mais para o hospital. O problema, sugere o próprio dado, não era a densidade em si, mas a falta de fiscalização e de projeto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento que Reynolds julga decisivo é o do contágio. Quem dorme no cortiço se espalha de manhã pela cidade inteira, costura roupa vendida nas melhores lojas e lava a roupa dos ricos. Só os dispensários públicos de Nova York atendiam 1,5 milhão de pessoas por ano, quase todas de distritos de cortiço. Para o autor, é o interesse próprio que acabará por fazer valer o que a humanidade já recomendava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Desapropriar resolve?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A Inglaterra tentou. Com as leis de 1875 e 1879, o Metropolitan Board of Works de Londres limpou 42 acres onde viviam 20.335 pessoas. O prejuízo líquido foi estimado em £1.211.336, cerca de £60 por pessoa supostamente beneficiada."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "17 xelins",
+          "texto": "Preço pago por pé quadrado de terreno nas desapropriações de Londres. Revendido com a obrigação de erguer moradias operárias, o terreno valia 3 xelins e 4 pence; para uso comercial, 10 xelins. Os donos ganharam 7 xelins acima do valor de mercado. Em outro caso, a Corporation of London pagou 43 xelins por um terreno que valia 34 no mercado."
+        },
+        {
+          "tipo": "p",
+          "texto": "O efeito colateral é o que interessa ao economista. Como a desapropriação pagava mais do que o mercado, muita gente comprou imóveis e torceu para que se deteriorassem, à espera de vendê-los ao poder público por um preço artificial. A lei criou, nas palavras do autor, um prêmio para o descaso. Em cinco outras cidades inglesas, o custo líquido passou de 30% do valor original dos imóveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "Glasgow é o contraexemplo. Em 1866, a cidade decidiu recuperar 88 acres do centro antigo. Um agente privado negociou cada compra individualmente, e nenhuma melhoria que valorizasse um ponto foi feita antes de todo o terreno afetado estar comprado. Os inquilinos só eram retirados quando havia lugar para eles. O imposto levantou £350 mil; o custo líquido ficou em cerca de £180 mil. A mortalidade caiu de 32,4 por mil em 1868–70 para 25,5 em 1880–82. Mas os sete cortiços-modelo erguidos pela prefeitura, por £90 mil, foram vendidos: davam prejuízo e eram vistos como caridade pública. Reynolds conclui que a desapropriação seria medida extrema para os Estados Unidos, útil no máximo em pequena escala."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a regulação conseguiu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As regras da junta de saúde de Nova York e do Brooklyn, diz Reynolds, viraram modelo no mundo. Exigiam 600 pés cúbicos de ar por morador, uma latrina para cada quinze ocupantes, área de janela de pelo menos um décimo do piso, água em todos os andares e inspeção duas vezes por ano. Só em 1891 foram 54.643 inspeções. O proprietário respondia, em primeiro lugar, pelas multas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor reconhece o avanço, mas desconfia do atalho. Subsídios ou abatimento de impostos para cortiços-modelo lhe parecem muito questionáveis. Para encerrar o capítulo, ele toma emprestada uma frase do livro Improved Dwellings for the Laboring Classes, de Alfred T. White: de nada adianta proibir as casas ruins se as boas não forem construídas antes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nenhuma lei pode ser aplicada com tanto rigor quanto a lei da oferta e da procura”",
+          "original": "“No law can be enforced so rigidly as the law of supply and demand”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Filantropia com dividendo fecha a conta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O modelo vem de Londres. Peabody doou ao todo £500 mil para moradias populares. Os curadores trataram a doação como capital permanente, com dividendos limitados a 3% ao ano, e o fundo chegou a £1.023.446. A procura fala por si: quando os prédios de Bedfordbury abriram, 2.500 pessoas disputaram 146 moradias."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Improved Industrial Dwellings Company mostra que densidade não é sinônimo de doença. Seus prédios abrigavam cerca de 750 pessoas por acre, contra 42 na média da cidade, e ainda assim a mortalidade, em dezesseis anos, foi de 16,7 por mil, contra 23,4 em Londres. O desenho, e não a quantidade de gente, fazia a diferença."
+        },
+        {
+          "tipo": "p",
+          "texto": "No Brooklyn, Alfred T. White abriu os Home Buildings em 1877 e os Tower Buildings em 1879. Cada família tinha acesso privativo, cômodos com luz direta, pia, tanque e latrina exclusivos. Uma moradia de três cômodos saía por US$ 6 por mês. O aluguel subia dez centavos por semana a cada andar que se descia, e White via nisso um subsídio cruzado: o mecânico que pagava mais embaixo ajudava a baratear o operário que subia alguns lances."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Nova York, a Tenement-House Building Company abriu em dezembro de 1887 seis prédios na Cherry Street, com custo total de US$ 152.715,13. Dois cômodos custavam de US$ 7 a US$ 9 por mês. Os pátios largos reduziam a capacidade de aluguel em 30%, a empresa recusava lojas e proibia trabalho fabril nos apartamentos, e os dividendos eram limitados a 4%. O excedente ia para um fundo dos inquilinos, que podia pagar o aluguel em caso de doença ou desemprego. Em 1890, a perda com vagos foi de US$ 731,83 sobre uma capacidade de US$ 13 mil, e houve só seis despejos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14,28",
+          "texto": "Mortes por mil habitantes nos prédios da Tenement-House Building Company em 1888. No mesmo ano, a média de Nova York era de 26,33; nos cortiços antigos, 23,06; nos construídos depois de 1880, 22,42. O autor registra que a vizinhança melhorou e que outros proprietários passaram a construir melhor."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Reynolds, o segredo dessas empresas é a disciplina comercial. O que cheirar a caridade afasta os melhores inquilinos e humilha os que ficam. Os casos de Londres, Brooklyn, Nova York e Filadélfia provariam que filantropia com retorno de cinco por cento já era fato consumado, e é isso que o capital privado precisa ver para entrar no negócio."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Aluguel justo, e não caridade, é do que o operário precisa”",
+          "original": "“Fair rents, not charity, is what the workingman requires”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o pobre pagava mais pela farinha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo final traz a observação mais moderna do ensaio. Pelas contas do autor, 57% da renda da família operária ia para pequenas vendas nos porões dos cortiços. A dona de casa gastava 30 ou 40 centavos por dia e comprava por onça o que os outros compravam por libra. Sem dinheiro, sem gelo e sem espaço para estocar, ela não tinha como comprar em quantidade."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 10",
+          "texto": "O que rendia um barril de farinha vendido a 5 centavos a libra na venda do cortiço. O mesmo barril custava cerca de US$ 5 em outro lugar. A soda de lavar saía a 1 centavo a onça, contra 3 centavos a libra. O carvão vendido a 14 centavos o balde fazia uma tonelada de US$ 5 render US$ 14."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí sua proposta original, o que ele chama de cortiço com pensão: um prédio-modelo com cozinha central no porão, compras no atacado, pratos encomendados por formulário e enviados aos apartamentos por elevador. A família economizaria fogão, combustível e um cômodo, o ar do prédio melhoraria, e as mulheres ganhariam tempo para trabalhar. Tudo em base comercial, não caritativa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Abaixo de todos estavam os albergues baratos, que em Nova York ofereciam a noite por 5 a 25 centavos. Somadas às delegacias, as hospedagens chegaram a 5.121.659 em um ano, uma média de 14 mil por noite. Reynolds pede regulamentação rigorosa e albergues-modelo, que considera também um bom investimento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E a casa no subúrbio?"
+        },
+        {
+          "tipo": "p",
+          "texto": "É a melhor solução, admite o autor, e a menos viável para a maioria. Em Londres, a Great Eastern Railway vendeu passes semanais a um xelim para operários, usados por cerca de 7 mil pessoas por dia; trens especiais, alegou a ferrovia, não sairiam por menos de dois xelins por cabeça. Na Filadélfia, as associações cooperativas de construção, introduzidas em 1831, já eram cerca de 500 e explicavam boa parte do sucesso da cidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resumo final é uma estratégia em camadas. Os operários mais bem pagos devem sair da disputa pelos melhores cômodos, em casas independentes como as de Warren Place, no Brooklyn, que custavam pouco menos de US$ 1.100 cada; numa versão sobreposta proposta por Reynolds, o aluguel cairia para US$ 13,25 por mês. Os demais ficariam nos cortiços-modelo; os mais pobres, nos cortiços com pensão e nos albergues-modelo. A lei deve exigir agente residente e padrões mínimos, mas sem interferência desnecessária na oferta e na procura."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio acerta no diagnóstico central: o aluguel do pobre era alto porque faltava oferta perto do emprego, e toda solução que ignorasse isso fracassava. A desapropriação londrina pagou caro e premiou o descaso; a regra que exige pátio e janela melhora a casa, mas reduz cômodos alugáveis, como a própria Cherry Street mostra. Reynolds percebe o dilema permanente da política habitacional: padrão mínimo, custo de transporte e preço da terra formam um só problema. Retirar a camada de cima da disputa para aliviar as de baixo, como defendia Sydney Waterlow, é uma intuição que a economia urbana ainda discute.",
+            "O texto também carrega a moral de sua época. Fala de pobres preguiçosos ou inaptos para casas melhores e, em passagens pontuais, associa a pobreza e a desordem a grupos de imigrantes, juízos que hoje não se sustentam e que não alteram seus números. O que permanece é a descoberta de que o pobre paga mais caro por quase tudo: pela farinha comprada por onça, pelo carvão comprado por balde, pelo cômodo perto da fábrica. Quem desenha política social sem levar em conta esse custo extra da pobreza costuma errar o alvo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cortiço (tenement)",
+          "prédio de aluguel ocupado por três ou mais famílias independentes que dividem escadas, pátios ou latrinas, pela definição da junta de saúde de Nova York."
+        ],
+        [
+          "Lei de Engel",
+          "regularidade estatística segundo a qual a parcela da renda gasta com alimentação cai à medida que a renda da família sobe."
+        ],
+        [
+          "Desapropriação (expropriation)",
+          "compra compulsória de imóveis pelo poder público para demolir e reconstruir áreas insalubres."
+        ],
+        [
+          "Cortiço-modelo (model tenement)",
+          "prédio popular projetado com luz, ar e saneamento, erguido por empresas com dividendos limitados."
+        ],
+        [
+          "Cortiço com pensão (boarding tenement)",
+          "proposta de Reynolds: prédio-modelo com cozinha central que compra no atacado e entrega refeições aos apartamentos."
+        ],
+        [
+          "Associação cooperativa de construção",
+          "sociedade em que os sócios pagam cotas periódicas e tomam empréstimos do fundo comum para comprar ou construir a casa própria."
+        ]
+      ],
+      "hoje": "A pergunta de Reynolds continua aberta nas grandes cidades: como oferecer moradia decente perto do emprego a quem tem renda baixa? O debate atual sobre zoneamento, padrões mínimos de construção, subsídio ao aluguel, transporte e habitação social ainda gira em torno dos mesmos dilemas. Regras melhoram a casa, mas podem encarecê-la; a construção pública esbarra em custos e estigma; o subúrbio barato cobra em tempo de deslocamento. E a constatação de que o pobre paga mais caro por bens básicos, por comprar pouco e mal, reaparece hoje sob o nome de custo da pobreza.",
+      "itens": [
+        [
+          "The Housing of the Poor in American Cities",
+          "pp. 9–132",
+          "2560434"
+        ]
+      ],
+      "jstor_edicao": "i323684",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1893-assistencia-aos-pobres-na-franca",
+      "numero": 38,
+      "titulo": "Balch, 1893: a França que ajudava os pobres, mas não lhes devia nada",
+      "titulo_original": "Public Assistance of the Poor in France",
+      "autores": "Emily Greene Balch, A. B.",
+      "publicacao": "Publications of the American Economic Association",
+      "volume": "vol. 8, nº 4/5",
+      "data": "julho e setembro de 1893",
+      "chamada": "Em 1893, Emily Greene Balch dissecou a assistência pública francesa: voluntária, local e financiada sobretudo por doações. Mais de um terço do país não tinha sequer acesso a socorro em casa.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um notário de Paris, M. Hubert, deixou em testamento 200.000 francos para operários pobres. Impôs uma condição: o dinheiro seria distribuído pelo seu herdeiro, com exclusão expressa do bureau de bienfaisance, o escritório municipal de caridade, e de qualquer autoridade administrativa. A cláusula foi anulada como ilegal. O maire, chefe do município, assumiu o legado, porque a lei francesa o tratava como único representante legítimo dos pobres."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso aparece quase no fim de Public Assistance of the Poor in France, monografia de Emily Greene Balch publicada num número duplo das Publications of the American Economic Association, em julho e setembro de 1893. São cerca de 170 páginas. No prefácio, a autora avisa que fez pouco além de exposição simples, que a parte histórica vem de fontes secundárias e que procurou permitir o controle de cada afirmação. Agradece a orientação de Émile Levasseur, durante uma estada em Paris."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava um sistema que ninguém era obrigado a manter?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Balch identifica dois princípios. A assistência francesa era, em regra, voluntária, e não uma obrigação imposta à comunidade. E era comunal, isto é, local. O pobre não tinha direito exigível na Justiça. Uma comuna podia não ter serviço algum. A única obrigação legal efetiva recaía sobre duas classes: os loucos perigosos e certas categorias de crianças desamparadas, as enfants assistés."
+        },
+        {
+          "tipo": "p",
+          "texto": "A razão da recusa era inglesa. A lei dos pobres britânica, com seu imposto local crescente, assombrava os legisladores franceses desde a Assembleia Constituinte. A tradução francesa de Malthus, de 1809, reforçou a ideia de que reconhecer um direito à assistência levava à situação inglesa anterior à reforma. A Segunda República chegou a proclamar o direito ao trabalho e montou oficinas públicas; a autora chama a experiência de desastrosa e de curta duração."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem pagava a conta?"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "52%",
+          "texto": "Parcela das receitas da assistência pública francesa que vinha de fontes privadas (doações e fundações), em 1885. Total: 184.121.099 francos. O Estado entrava com 7.511.956 francos (4%); os departamentos, com 29.912.459 (16%); as comunas fora Paris, com 28.309.483 (15%); Paris, com 23.508.198 (13%). Números atribuídos por Balch a M. Monod."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tabela é o retrato fiscal do sistema. O governo central bancava uma fatia mínima e se ocupava sobretudo de regular e fiscalizar. Os fundos estatais distribuídos a instituições de caridade eram tão pulverizados que a média por instituição ficava em 80 francos, o que, segundo a autora, tornava a verba quase inútil antes da reforma de 1888."
+        },
+        {
+          "tipo": "p",
+          "texto": "Havia também tributos com destino carimbado. O droit des pauvres cobrava um décimo do preço dos ingressos de teatro e um quarto da receita bruta de outros espetáculos. Antes era pago num guichê separado; depois passou a vir embutido no bilhete, e a maioria nem sabia que o pagava. Balch o considera quase tão pouco censurável quanto um imposto pode ser. Nos cemitérios, um terço do preço de cada lote ia para os pobres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a rede tinha tantos buracos?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porque a geografia do dinheiro não coincidia com a da pobreza. Em 1886 a França tinha 36.121 comunas; em 1885 havia 14.574 bureaux de bienfaisance. A população coberta por eles era de 22 milhões, num total de 38.153.000. A conclusão do livro é seca: mais de um terço dos franceses não tinha nem a chance de receber socorro em domicílio."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "644",
+          "texto": "Bureaux de bienfaisance parados por falta de recursos em 1871, num total de 13.367 (inquérito de Paul Bucquet). Outros 1.062 não passavam de 50 francos de receita ordinária por ano. No mesmo ano, os 20 bureaux de Paris tinham média de 239.915 francos cada. Só 2.498 bureaux recebiam verba municipal."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os hospitais repetiam o padrão. Em 1889 eram 1.679 hospitais e asilos, concentrados nas cidades. Provavelmente nem uma comuna em cinquenta tinha hospital próprio, e um hospital não era obrigado a receber doentes de fora. Ainda assim, em 1878, 24.562 dos 59.997 leitos estavam vazios. A autora atribui a ociosidade, em boa parte, à política estreita de admissão. Conta-se que vizinhos levavam um doente à noite até a porta do hospital mais próximo e o deixavam lá."
+        },
+        {
+          "tipo": "p",
+          "texto": "A assistência médica rural seguia a mesma lógica de adesão voluntária. Em 1887, 44 departamentos tinham algum serviço de medicina gratuita, alcançando 12.701 de 18.518 comunas. Em alguns departamentos havia um médico para oito ou dez mil habitantes. O serviço dependia quase inteiramente dos votos de verba dos conselhos locais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A esmola mensal tirava alguém da pobreza?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Balch não esconde a evidência contrária. Cita o relatório do barão de Watteville, de 1847, sobre os bureaux: média anual de 10,42 francos por assistido, dos quais 2,28 iam para despesas de administração. Watteville afirma que, em sessenta anos, nunca viu um único pobre sair da miséria por esse tipo de ajuda. Pior: encontrava nos registros os netos de assistidos de 1802."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Estourei a bolha que fui ver na França”",
+          "original": "“I have burst the bubble I went to see in France”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A frase é de Edward Denison, especialista inglês em lei dos pobres, que visitou a França em 1868 disposto a admirar o sistema. Voltou desiludido. Para ele, o modelo francês era uma aproximação desajeitada do asilo de trabalho e do imposto dos pobres, sob a aparência de esforço voluntário. A única lição seria a poupança natural do povo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "15,8% → 5,9%",
+          "texto": "Proporção de indigentes inscritos nos bureaux de Paris em 1804 e em 1886, segundo Levasseur. O pico foi de 16,5% em 1813; em 1861 a taxa era de 5,3%. Balch nota que as altas costumam anteceder crises políticas (1813, 1847, 1869) e que parte da queda pode refletir políticas diferentes de inscrição."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a caridade privada pagava a maior parte e ainda era vigiada?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Esse é o paradoxo que atravessa o livro. A caridade privada financiava mais da metade do sistema, mas vivia à mercê das autoridades. Pelo artigo 291 do Código Penal, nenhuma associação de mais de 20 pessoas podia se reunir periodicamente sem consentimento do governo. Para possuir bens, precisava de reconhecimento de utilidade pública, e mesmo assim não podia aceitar doação ou legado sem autorização especial."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os impostos pesavam do mesmo modo. Havia tributo especial sobre bens de mão-morta, e uma lei de 1884 sujeitou as sociedades beneficentes ao imposto de 3% sobre lucros, presumidos em pelo menos 5% do valor de prédios e móveis. Num caso relatado, o Conselho de Estado permitiu à assistência de Paris aceitar só três quartos de um legado e devolveu cerca de 400.000 francos aos primos do testador, inclusive ao que ele excluíra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O dinheiro privado também era sobretudo herdado. Léon Lallemand calculava que, dos 16 milhões de francos gastos com crianças assistidas, apenas 350.000 vinham de fundações privadas, e ao menos 300.000 deles eram generosidade de gerações passadas. Onde o Estado assumia a obrigação, o doador recuava."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que Balch recomendava?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Prudência. A autora propõe dois testes para qualquer sistema de assistência: quanto alivia o sofrimento existente e se aumenta ou reduz o sofrimento evitável, isto é, se empobrece ou educa. No primeiro, o resultado francês é insatisfatório: o socorro era magro, arbitrário e proporcional às dotações disponíveis, não às necessidades. Uma aldeia rica podia ter um bureau farto; outra, cheia de pobres, nenhum."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ainda assim, ela duvida que um sistema completo e simétrico, desenhado de uma vez, fosse melhor. Elogia a lei de 12 de março de 1890, que permitiu às comunas se unirem em sindicatos para manter serviços comuns, por ser prática, elástica e firme. E registra que o Conselho Superior de Assistência Pública já defendia tornar obrigatória a assistência médica no campo. O sistema caminhava para a obrigação; a autora preferia que caminhasse devagar."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro de Balch é um estudo sobre o custo de financiar política social com dotações em vez de orçamento. Quando a receita depende do que doadores deixaram em cada lugar, a cobertura passa a seguir o patrimônio, não a necessidade. Os 644 bureaux sem um franco e os 20 bureaux parisienses com média de quase 240 mil francos são o mesmo sistema, operando exatamente como foi desenhado.",
+            "O outro lado também aparece. O Estado francês desconfiava tanto de quem doava que tributava, limitava e confiscava parte do que deveria agradecer. Ao mesmo tempo, onde a obrigação pública se firmava, a doação privada encolhia. O dilema permanece: obrigação legal dá previsibilidade e cobertura, mas tende a expulsar a iniciativa voluntária; voluntariedade preserva flexibilidade, mas deixa buracos que ninguém é obrigado a tapar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "bureau de bienfaisance",
+          "escritório municipal de caridade que distribuía socorro em domicílio, presidido pelo maire."
+        ],
+        [
+          "comuna",
+          "menor unidade administrativa francesa, equivalente aproximado do município."
+        ],
+        [
+          "departamento",
+          "divisão administrativa intermediária entre a comuna e o Estado, governada por um prefeito nomeado."
+        ],
+        [
+          "enfants assistés",
+          "crianças abandonadas ou desamparadas sob tutela da assistência pública, em sua maioria filhos ilegítimos."
+        ],
+        [
+          "socorro em domicílio",
+          "ajuda dada ao pobre em sua casa, em dinheiro ou espécie, sem internação em asilo."
+        ],
+        [
+          "mão-morta",
+          "bens de corporações que não mudam de dono por herança e, por isso, eram tributados à parte."
+        ]
+      ],
+      "hoje": "A pergunta de Balch volta sempre que se discute o papel da filantropia na política social. Fundações, doações dedutíveis e organizações sociais ainda cobrem lacunas que o orçamento deixa abertas, e sua distribuição tende a seguir a riqueza dos doadores, não o mapa da necessidade. Programas de transferência com cadastro, regras de elegibilidade e financiamento central são, em parte, a resposta ao problema que ela descreveu. O debate sobre se a obrigação pública desloca a solidariedade voluntária, e sobre como o Estado regula entidades sem sufocá-las, continua aberto.",
+      "itens": [
+        [
+          "[Public Assistance of the Poor in France]: Preface",
+          "pp. 7–8",
+          "2485655"
+        ],
+        [
+          "Public Assistance of the Poor in France",
+          "pp. 9–179",
+          "2485656"
+        ]
+      ],
+      "jstor_edicao": "i342431",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "Publications of the AEA, vol. 7, nº 4/5 (1892)",
-    "Publications of the AEA, vol. 7, nº 6 (1892)",
-    "Publications of the AEA, vol. 8 (1893)"
+    "Publications of the AEA, vol. 8, nº 6 (1893)",
+    "Publications of the AEA, vol. 9 (1894)",
+    "Publications of the AEA, vol. 10 (1895)"
   ]
 }
