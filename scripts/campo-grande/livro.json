@@ -720,6 +720,88 @@
       "Revitalizar o Centro com morador e não só com obra: o comércio da 14 de Julho precisa de gente morando por perto (Capítulo 11).",
       "Rever a tabela do ISS na transição para o IBS (Capítulo 6), começando pelos serviços que mais empregam."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.5",
+     "texto": "Licenças, taxas e profissionais liberais"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Que licenças uma empresa precisa para abrir as portas?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Depende do risco da atividade. Desde março de 2025, 654 atividades de baixo risco, listadas por código CNAE, começam a funcionar só com o CNPJ e a inscrição municipal, sem esperar alvará (Lei Complementar municipal 528/2024 e Decreto 16.204/2025, com base na Lei de Liberdade Econômica, Lei 13.874/2019; A Crítica, 27/08/2026). A dispensa é do papel, não das regras: as normas sanitárias, ambientais e urbanísticas continuam valendo e a fiscalização pode vir a qualquer hora. As demais atividades passam por até quatro portas."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As licenças de quem abre comércio ou serviço em Campo Grande",
+     "cabecalho": [
+      "Licença",
+      "Quem dá",
+      "Base legal",
+      "O que mudou"
+     ],
+     "linhas": [
+      [
+       "Alvará de localização e funcionamento",
+       "Prefeitura",
+       "Lei 1.466/1973 e Lei Complementar 38/2000; taxa anual lançada por decreto (Decreto 16.129/2025)",
+       "Dispensado para 654 atividades de baixo risco desde março de 2025"
+      ],
+      [
+       "Licença sanitária",
+       "Sesau, Gerência de Vigilância Sanitária e Ambiental",
+       "Resolução Sesau 946/2025",
+       "Desde 1º/11/2026, quem tem mais de um CNAE declara as atividades na abertura do processo (Correio do Estado, 20/10/2026). A Taxa de Inspeção Sanitária tem desconto até 2029 e cobrança cheia a partir de 2030; a prefeitura vetou em março de 2026 o projeto que estendia o desconto (A Crítica, 18/03/2026)"
+      ],
+      [
+       "Licença ambiental",
+       "Secretaria de meio ambiente e urbanismo, com parecer do Conselho Municipal de Meio Ambiente",
+       "Lei 3.612/1999 (Sistema Municipal de Licenciamento, Silam)",
+       "A taxa vai para o Fundo Municipal de Meio Ambiente; o parecer do conselho vincula a decisão (art. 15)"
+      ],
+      [
+       "Alvará de construção ou reforma",
+       "Prefeitura",
+       "Lei do Alvará Imediato, sancionada em 04/10/2019",
+       "Casa, prédio de até cinco unidades e sala comercial de até 500 m² com alvará pela internet, sob responsabilidade do profissional (Correio do Estado, 04/10/2019)"
+      ],
+      [
+       "Taxas de anúncio e de ocupação do solo",
+       "Prefeitura",
+       "Decreto 16.129/2025",
+       "Anúncio com 20% de desconto à vista; ocupação do solo em até quatro parcelas"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fora da prefeitura ainda há a vistoria do Corpo de Bombeiros, que é estadual, e o registro no conselho da profissão. Somadas, as taxas da prefeitura renderam R$ 71 milhões em 2025, 3,3% da receita tributária própria (SICONFI, DCA 2025; cálculo do autor). O tempo médio de cada licença em Campo Grande não é publicado, e esse é o número que mais importa para quem quer abrir um negócio."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E os profissionais liberais?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Médico, dentista, advogado, contador, engenheiro, arquiteto e psicólogo podem pagar ISS fixo em vez de um percentual do faturamento: o autônomo de nível superior paga R$ 160,91 por mês, e a sociedade de profissionais paga por profissional, de R$ 162 a R$ 533 por mês conforme a profissão (Lei Complementar 59/2003, Anexo II, com as mudanças de 2023; ver o subtópico 2.4). Os serviços de saúde, como clínica, consultório e laboratório, também precisam da licença sanitária. A cidade tinha 3.183 médicos registrados em 2018, 3,64 por mil habitantes, contra 2,04 em Mato Grosso do Sul (CFM, Demografia Médica 2018). O número de advogados e de contadores por cidade não é publicado em fonte aberta pela OAB-MS e pelo CRC-MS."
+    },
+    {
+     "tipo": "p",
+     "texto": "A reforma tributária muda a vida desse grupo. O ISS fixo acaba com o ISS, em 2033. No lugar, entram o IBS e a CBS, com redução de 30% da alíquota para as profissões intelectuais regulamentadas e de 60% para os serviços de saúde (Lei Complementar 214/2025). Quem está no Simples Nacional continua nele. A transição de 2029 a 2032 é o momento de a prefeitura dizer, com número, quanto o consultório e o escritório da cidade vão pagar."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Licenças, taxas e profissionais liberais",
+     "texto": [
+      "Balcão único de licenças: alvará, licença sanitária e licença ambiental num só pedido, com um só prazo e aprovação automática quando o prazo vencer sem resposta, como permite a Lei de Liberdade Econômica (Lei 13.874/2019, art. 3º, IX).",
+      "Publicar todo mês o tempo médio de cada licença, por tipo de atividade, e o estoque de pedidos parados.",
+      "Ampliar a lista de baixo risco para a vigilância sanitária e a licença ambiental, com fiscalização depois, por amostra, concentrada no que é de risco alto.",
+      "Taxas proporcionais ao porte, com a microempresa pagando o mínimo, e calendário da Taxa de Inspeção Sanitária negociado com o setor até 2030.",
+      "Uma simulação pública de quanto o profissional liberal e a clínica vão pagar de IBS em Campo Grande na transição, antes de fixar a alíquota municipal."
+     ]
     }
    ],
    "regiao": {
@@ -755,7 +837,8 @@
     "2.1 A economia da cidade",
     "2.2 Indústria",
     "2.3 Crédito e dívida das famílias",
-    "2.4 Comércio e serviços"
+    "2.4 Comércio e serviços",
+    "2.5 Licenças, taxas e profissionais liberais"
    ]
   },
   {
@@ -1839,6 +1922,88 @@
       "Nova concessão do estacionamento rotativo, vago desde 2022, com outorga e participação na receita.",
       "Conceder a publicidade no mobiliário urbano."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.6",
+     "texto": "Quem pode pagar mais: casos no mundo"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Mônaco vive do cassino?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não mais. Mônaco não cobra imposto de renda de quem mora lá, com exceção dos franceses, por um acordo de 1963 com a França. Mas quem sustenta o Estado não é o cassino: mais da metade da receita vem do IVA, o imposto sobre o consumo, e a receita total bateu o recorde de 2,3 bilhões de euros em 2024 (Monaco Life, 14/05/2025, com dados do instituto de estatística do principado). O cassino é de uma empresa, a Société des Bains de Mer, de que o Estado é o acionista principal. A lição serve pela metade: Mônaco cobra de quem tem muito porque o rico consome caro num território minúsculo. Numa capital de 960 mil habitantes, e com a reforma tributária, o caminho é outro."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a reforma tributária deixa à prefeitura?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A reforma acaba com o ISS em 2033, e o IBS terá uma alíquota só por município para todos os bens e serviços, sem alíquota maior para o luxo (Emenda Constitucional 132/2023). O que fica nas mãos da prefeitura é o que recai sobre a terra e sobre a cidade: o IPTU, que pode ter alíquota progressiva pelo valor do imóvel (Constituição, art. 156, §1º, desde a Emenda 29/2000) e base atualizada por decreto, segundo critérios fixados em lei municipal (art. 156, §1º, III, da Emenda 132); o ITBI; a contribuição de iluminação, que agora também pode pagar sistemas de monitoramento das vias (art. 149-A); as taxas; e a contribuição de melhoria. Em 2025, IPTU e ITBI renderam R$ 808 milhões (SICONFI, DCA 2025)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde quem tem mais paga mais, sem espantar quem investe?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Cinco casos de receita que recai sobre quem ganha com a cidade",
+     "cabecalho": [
+      "Caso",
+      "Como funciona",
+      "Quanto",
+      "Serve para Campo Grande?"
+     ],
+     "linhas": [
+      [
+       "Captura da valorização, São Paulo (Brasil)",
+       "A prefeitura vende em bolsa o direito de construir acima do padrão (Cepac); o dinheiro só pode ser gasto dentro do perímetro da operação, inclusive em moradia popular",
+       "R$ 1,637 bilhão num só leilão da Operação Faria Lima, em 2019 (Prefeitura de São Paulo, 06/12/2019)",
+       "Sim, nos eixos dos corredores de ônibus e nas áreas que o Plano Diretor quer adensar"
+      ],
+      [
+       "Contribuição de valorização, Bogotá e Medellín (Colômbia)",
+       "O dono do imóvel valorizado pela obra paga parte da obra; Medellín divide a conta pela capacidade de pagamento",
+       "Cerca de US$ 1 bilhão em Bogotá; chegou a 24% da receita da cidade em 1993 (Lincoln Institute, 2011)",
+       "Sim: no Brasil é a contribuição de melhoria (CTN, arts. 81 e 82), que quase ninguém usa"
+      ],
+      [
+       "Terra pública que paga a obra, Copenhague (Dinamarca)",
+       "Uma empresa pública vendeu terrenos em Ørestad, valorizados pelo metrô, e com isso pagou a linha",
+       "Sem dinheiro do orçamento além de empréstimos garantidos e pagos com a venda dos terrenos (GI Hub, estudo de caso do Metrô M1)",
+       "Sim, com áreas públicas ociosas, inclusive no Centro"
+      ],
+      [
+       "Fundo soberano, Maricá (Brasil)",
+       "A receita extraordinária vai para um fundo, e não para a folha",
+       "R$ 2,6 bilhões em 2024, com royalties do petróleo (Folha do Leste, 31/12/2024)",
+       "Em parte: sem royalty, o fundo seria de outorgas e concessões"
+      ],
+      [
+       "Mônaco",
+       "Sem imposto de renda; receita do consumo (IVA) e de empresas",
+       "2,3 bilhões de euros em 2024, mais da metade de IVA (Monaco Life, 14/05/2025)",
+       "Não: depende de território pequeno e de alta renda"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande já tem uma ferramenta desse tipo e quase não a usa. A outorga onerosa, o pagamento para mudar o uso do solo na zona de expansão ou construir acima do padrão, foi aprovada pela Câmara em fevereiro de 2022 dentro do Plano Diretor (Lei Complementar 341/2018; Campo Grande News, 24/02/2022), mas o valor arrecadado não é publicado. O desenho que faz quem tem mais pagar mais é o mesmo nos casos que deram certo: cobra-se de quem ganha com a cidade, a terra que valoriza com a obra pública e o imóvel de alto valor, e se alivia quem só mora."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quem pode pagar mais: casos no mundo",
+     "texto": [
+      "IPTU progressivo pelo valor do imóvel, com isenção ampliada para a casa popular e simulação pública de quem paga mais e quem paga menos antes de votar.",
+      "Contribuição de melhoria nas obras grandes, como corredores, parques e drenagem, cobrada dos imóveis que mais valorizam e dividida pela capacidade de pagamento, como em Medellín.",
+      "Leilão de potencial construtivo nos eixos dos corredores de ônibus, com o dinheiro preso à região, a moradia popular e ao transporte.",
+      "Fundo Municipal de Investimento com outorgas, concessões e venda de áreas ociosas, que só pode pagar obra e equipamento, nunca a folha.",
+      "Publicar todo ano quanto rendem a outorga onerosa e as demais receitas da terra."
+     ]
     }
    ],
    "regiao": {
@@ -1873,7 +2038,8 @@
     "6.2 Receita própria e dependência",
     "6.3 Dívida",
     "6.4 Reforma tributária e o fim do ISS",
-    "6.5 Receitas fora dos impostos"
+    "6.5 Receitas fora dos impostos",
+    "6.6 Quem pode pagar mais: casos no mundo"
    ]
   },
   {
@@ -4071,6 +4237,90 @@
      "texto": [
       "Um Plano Municipal de Segurança com metas públicas por região: homicídios, violência contra a mulher, furto no comércio e mortes no trânsito, com balanço a cada semestre."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "10.5",
+     "texto": "Trânsito e a indústria da multa"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o trânsito mata?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Morreram 64 pessoas no trânsito de Campo Grande em 2025, 45 delas em moto, e 17 até o fim de abril de 2026 (A Crítica, 01/05/2026). São 6,6 mortes por 100 mil habitantes (cálculo do autor sobre a população do IBGE de 2025), abaixo da meta nacional de 9 por 100 mil até 2030 (Decreto 10.822/2021, ver o subtópico 10.4). A frota é de 679.761 veículos (Secretaria de Segurança e Defesa Social, via Campo Grande News, 04/06/2025). Desde novembro de 2024 a fiscalização de rua é da Guarda Civil Metropolitana, com 80 agentes e sete viaturas (mesma fonte)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a multa rende, e para onde vai?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Arrecadação com multas de trânsito, Agetran (R$ milhões)",
+     "cabecalho": [
+      "Ano",
+      "Multas",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "2023",
+       "43,8",
+       "Agetran, via Campo Grande News, 31/01/2026"
+      ],
+      [
+       "2024",
+       "46,2",
+       "idem"
+      ],
+      [
+       "2025",
+       "47,7",
+       "idem"
+      ],
+      [
+       "Contrato dos radares",
+       "48,0 por 24 meses, cerca de 2,1 por mês",
+       "licitação de 18/08/2025, via Correio do Estado"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A multa rende cerca de R$ 48 milhões por ano, 2,2% da receita tributária própria de 2025 (cálculo do autor). Não é dinheiro que sustente a prefeitura, mas é dinheiro que pesa no bolso: nos oito primeiros meses de 2024 foram 184.819 multas, R$ 30,3 milhões, e só R$ 1,4 milhão, 4,6%, foi para obras de sinalização (Campo Grande News, 04/06/2025). Cerca de 95% das multas vêm de equipamento eletrônico, segundo o vereador autor da ação popular, e a Agetran diz não ser obrigada a separar as multas por radar (Campo Grande News, 11/09/2025)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O caso mais grave foi o dos radares sem contrato. O contrato venceu em 5 de setembro de 2024, depois de seis prorrogações, e os equipamentos continuaram multando; em setembro de 2025 a Justiça suspendeu cerca de 196,9 mil multas, perto de R$ 31,5 milhões, aplicadas nesse período (2ª Vara de Direitos Difusos, Coletivos e Individuais Homogêneos, via Campo Grande News, 10/09/2025). A prefeitura recorreu."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "art. 320",
+     "texto": "do Código de Trânsito: o dinheiro da multa só pode ir para sinalização, engenharia de tráfego, policiamento, fiscalização e educação de trânsito, e 5% vão para um fundo nacional. Quando a multa paga outra coisa, ou some no caixa geral, o motorista tem razão de desconfiar."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como acabar com a indústria da multa sem abrir mão da segurança?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O ponto de partida é tirar da prefeitura o interesse em multar. A Inglaterra fez isso em 2007: as parcerias de radares deixaram de ficar com o dinheiro das multas, que passou a ir para o Tesouro nacional, e o radar passou a ser defendido só pelo que reduz de acidentes (Departamento de Transportes do Reino Unido, fim do sistema de netting-off, abril de 2007). A Suécia, com a Visão Zero aprovada pelo Parlamento em 1997, pôs a meta na morte evitada e no desenho da via, não no número de autuações. Aqui, a lei já dá ferramentas: o radar fixo só pode ser instalado com estudo técnico (Resolução Contran 798/2020), e a infração leve ou média pode ser punida com advertência por escrito para quem não tem outra infração em doze meses (Código de Trânsito, art. 267)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Substituir a receita é a parte fácil, porque ela é pequena. O que a multa paga hoje, cerca de R$ 48 milhões por ano, pode vir das receitas fora dos impostos do Capítulo 6, como a concessão do estacionamento rotativo, vago desde 2022, e a publicidade no mobiliário urbano, e da captura da valorização imobiliária do subtópico 6.6. A meta passa a ser o contrário da de hoje: cada ano, menos multas e menos mortes."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Trânsito e a indústria da multa",
+     "texto": [
+      "Lei municipal da multa justa: radar só onde houver estudo de acidentes publicado; mapa público de cada equipamento com multas, acidentes antes e depois e data do contrato; nenhum radar funcionando sem contrato.",
+      "Advertência por escrito, em vez de multa, para a infração leve ou média de quem não tem outra em doze meses (Código de Trânsito, art. 267), como regra da cidade.",
+      "Relatório trimestral do art. 320: quanto entrou de multa e onde foi gasto, real por real, com meta de 100% em sinalização, engenharia e educação.",
+      "Orçamento do trânsito garantido pelo caixa geral e pelas concessões, para que a segurança viária não dependa de quanto se multa; meta pública de menos multas e menos mortes a cada ano.",
+      "Prioridade à moto, que mata sete de cada dez: faixa e semáforo seguros, curso de pilotagem para entregadores e fiscalização educativa nos corredores."
+     ]
     }
    ],
    "regiao": {
@@ -4103,7 +4353,8 @@
     "10.1 O papel da prefeitura",
     "10.2 Efetivo e orçamento da Guarda",
     "10.3 O que a Guarda faz",
-    "10.4 Metas e resultados"
+    "10.4 Metas e resultados",
+    "10.5 Trânsito e a indústria da multa"
    ]
   },
   {
@@ -5113,6 +5364,222 @@
     {
      "tipo": "subtopico",
      "numero": "16.2",
+     "texto": "Receita e déficits: o quadro geral"
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde vem o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Receitas correntes da prefeitura em 2025 (R$ milhões)",
+     "cabecalho": [
+      "Origem",
+      "R$ milhões",
+      "% das correntes"
+     ],
+     "linhas": [
+      [
+       "Própria: impostos, taxas e iluminação",
+       "2.169",
+       "36%"
+      ],
+      [
+       "…ISS",
+       "728",
+       "12%"
+      ],
+      [
+       "…IPTU",
+       "677",
+       "11%"
+      ],
+      [
+       "…Imposto de renda retido dos servidores",
+       "362",
+       "6%"
+      ],
+      [
+       "…Contribuição de iluminação",
+       "192",
+       "3%"
+      ],
+      [
+       "…ITBI",
+       "131",
+       "2%"
+      ],
+      [
+       "…Taxas",
+       "71",
+       "1%"
+      ],
+      [
+       "Própria: contribuições, aplicações, serviços, multas e dívida ativa",
+       "cerca de 514",
+       "9%"
+      ],
+      [
+       "De fora: transferências",
+       "3.270",
+       "55%"
+      ],
+      [
+       "…Fundeb",
+       "961",
+       "16%"
+      ],
+      [
+       "…SUS (União e estado)",
+       "983",
+       "17%"
+      ],
+      [
+       "…ICMS",
+       "536",
+       "9%"
+      ],
+      [
+       "…FPM",
+       "333",
+       "6%"
+      ],
+      [
+       "…IPVA",
+       "238",
+       "4%"
+      ],
+      [
+       "…Outras",
+       "219",
+       "4%"
+      ],
+      [
+       "Total das receitas correntes",
+       "5.953",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA 2025, Anexo I-C; a linha de outras receitas próprias e os percentuais são cálculos do autor. A prefeitura controla menos da metade do que gasta: 55 centavos de cada real vêm da União e do estado, e boa parte deles já chega com destino, como o Fundeb e o SUS."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto falta em cada serviço?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Os déficits da cidade e quanto custa fechá-los (estimativas do autor)",
+     "cabecalho": [
+      "Serviço",
+      "O que falta",
+      "Custo por mês",
+      "Custo por ano",
+      "Onde no livro"
+     ],
+     "linhas": [
+      [
+       "Remédio básico",
+       "R$ 6 mi por mês, segundo o secretário de Saúde",
+       "R$ 6 mi",
+       "R$ 72 mi",
+       "8.3 e 8.8"
+      ],
+      [
+       "Equipes de Saúde da Família",
+       "49 equipes; 168 mil pessoas sem equipe",
+       "R$ 7,3 mi",
+       "R$ 87 mi",
+       "8.8"
+      ],
+      [
+       "Filas de cirurgia e de imagem",
+       "44.665 pedidos (2024), além do mutirão de 2026",
+       "R$ 3,9 mi",
+       "R$ 46 mi",
+       "8.4 e 8.8"
+      ],
+      [
+       "Leitos SUS",
+       "654 a 1.136 leitos",
+       "não estimado",
+       "não estimado",
+       "8.5 e 8.8"
+      ],
+      [
+       "Consultas e exames especializados",
+       "54.185 pessoas na fila (2024)",
+       "não estimado",
+       "não estimado",
+       "8.4"
+      ],
+      [
+       "Terapias da criança atípica",
+       "cerca de 2 mil na fila, três anos de espera",
+       "não estimado",
+       "não estimado",
+       "8.7"
+      ],
+      [
+       "Creche",
+       "4.015 crianças na fila (out/2026); cerca de 34 Emeis",
+       "custeio não estimado",
+       "obra de cerca de R$ 120 mi, uma vez",
+       "9.2"
+      ],
+      [
+       "CRAS",
+       "19 unidades; 94 mil famílias sem referência",
+       "R$ 1,5 mi",
+       "R$ 18 mi",
+       "14.5"
+      ],
+      [
+       "Acolhimento da população de rua",
+       "842 pessoas dormindo na rua",
+       "não estimado",
+       "não estimado",
+       "14.3 e 14.5"
+      ],
+      [
+       "Moradia",
+       "16.105 famílias de até três salários mínimos",
+       "não estimado",
+       "não estimado",
+       "11.1"
+      ],
+      [
+       "Total do que tem conta",
+       "",
+       "cerca de R$ 18,7 mi",
+       "cerca de R$ 224 mi, mais R$ 120 mi de obra de creche",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 224 milhões",
+     "texto": "por ano é o custeio estimado para fechar os déficits que têm conta: 3,8% das receitas correntes e 10% da receita tributária própria de 2025 (cálculo do autor). Os leitos, a moradia, a fila de especialistas e o acolhimento ficam fora porque o custo não é publicado; com eles, a conta sobe."
+    },
+    {
+     "tipo": "p",
+     "texto": "O número é grande, mas está ao alcance. Só as receitas fora dos impostos do subtópico 6.5, com a outorga da água e esgoto à frente, foram estimadas em R$ 80 a 120 milhões por ano, e a administração da secretaria de assistência cresceu cerca de R$ 32 milhões entre 2023 e 2024 (estimativas do autor). Somadas à captura da valorização e a um IPTU mais justo, que ainda precisam de simulação, chegam perto do custo dos déficits. O que falta para a conta virar plano é medir: hoje a prefeitura não publica nem a fila, nem o custo por atendimento, nem o déficit de nenhum desses serviços."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Receita e déficits: o quadro geral",
+     "texto": [
+      "Painel público trimestral de receita e déficit: receita própria e transferências, e para cada serviço a demanda, a oferta, o déficit e o custo de fechá-lo, por região.",
+      "Lei de Diretrizes Orçamentárias com meta de déficit por serviço, e cada receita nova ligada a um déficit que ela vai fechar.",
+      "Antes de criar despesa nova, fechar os déficits do serviço básico: remédio, equipe de saúde, creche e CRAS."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "16.3",
      "texto": "Quem decide"
     },
     {
@@ -5143,7 +5610,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.3",
+     "numero": "16.4",
      "texto": "Uma prioridade por região"
     },
     {
@@ -5156,7 +5623,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.4",
+     "numero": "16.5",
      "texto": "Como medir"
     },
     {
@@ -5188,9 +5655,10 @@
    ],
    "subtopicos": [
     "16.1 O diagnóstico",
-    "16.2 Quem decide",
-    "16.3 Uma prioridade por região",
-    "16.4 Como medir"
+    "16.2 Receita e déficits: o quadro geral",
+    "16.3 Quem decide",
+    "16.4 Uma prioridade por região",
+    "16.5 Como medir"
    ]
   }
  ]
