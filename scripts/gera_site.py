@@ -1119,7 +1119,7 @@ def gera_leituras():
 
 
 # ------------------------------------------------------------------ Campo Grande-MS · o livro "Campo Grande em 2032"
-# Conteúdo em scripts/campo-grande/livro.json: ficha do livro e os 15 capítulos. Página do livro em /campo-grande/,
+# Conteúdo em scripts/campo-grande/livro.json: ficha do livro e os capítulos. Página do livro em /campo-grande/,
 # uma página por capítulo em /campo-grande/<slug>/. Capítulo ainda sem texto mostra o roteiro e as fontes previstas.
 SITUACAO_CG = {"texto": "Texto em andamento", "dados": "Com dados", "roteiro": "Em preparação"}
 
@@ -1287,7 +1287,7 @@ def pagina_cg_situacao():
     linhas = []
     for c in CG["capitulos"]:
         ind = c.get("indicador")
-        if c["numero"] in (1, 15): continue
+        if c["numero"] == 1 or c["slug"] == "consideracoes-finais": continue
         if ind:
             linhas.append(f'        <tr><td><a href="../livro/{c["slug"]}/">{e(c["titulo"])}</a></td><td><b>{e(ind["valor"])}</b> {e(ind["texto"])}</td><td>{e(ind["fonte"])}</td></tr>')
         else:
