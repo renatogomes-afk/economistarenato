@@ -135,12 +135,37 @@
      "linhas": [
       [
        "PIB de Campo Grande",
+       "R$ 40,5 bilhões",
+       "2022"
+      ],
+      [
+       "PIB de Campo Grande",
        "R$ 42,3 bilhões",
        "2023"
       ],
       [
-       "Participação no PIB de MS",
-       "22,9%",
+       "PIB de Campo Grande, estimativa do autor",
+       "cerca de R$ 52 bilhões",
+       "2026"
+      ],
+      [
+       "PIB de Mato Grosso do Sul",
+       "R$ 184,4 bilhões",
+       "2023"
+      ],
+      [
+       "PIB de Mato Grosso do Sul, projeção da Semadesc (base da LDO estadual)",
+       "R$ 245,6 bilhões",
+       "2026"
+      ],
+      [
+       "Participação de Campo Grande no PIB de MS",
+       "24,3% → 22,9%",
+       "2022 → 2023"
+      ],
+      [
+       "PIB por habitante: Campo Grande x MS",
+       "R$ 47 mil x R$ 67 mil",
        "2023"
       ],
       [
@@ -164,6 +189,15 @@
        "2021"
       ]
      ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A estimativa de 2026 parte do PIB de 2023 medido pelo IBGE e soma a inflação usada pela Semadesc (4,3% a 4,8% ao ano) e um crescimento real de 1,5% a 3,5% ao ano, ritmo de uma economia de comércio e serviços. Dá entre R$ 51 e 53 bilhões. Se a capital mantivesse a fatia de 2023 no PIB do estado, seriam R$ 56 bilhões; mas essa fatia vem caindo, porque o estado cresce puxado pelo agro e pela celulose do interior. O PIB por habitante é cálculo do autor, com a população do Censo 2022."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "30% menos",
+     "texto": "é o que Campo Grande produz por morador em relação à média de Mato Grosso do Sul: R$ 47 mil contra R$ 67 mil em 2023. A capital tem um terço da gente e menos de um quarto da produção. Fonte: Semadesc, PIB Municipal 2023 e Projeção do PIB de MS 2024–2030, com base no IBGE; Censo 2022 (cálculo do autor)."
     },
     {
      "tipo": "p",
@@ -207,6 +241,10 @@
      "tipo": "caixa",
      "valor": "6,4%",
      "texto": "dos 288.885 vínculos formais de Campo Grande estavam na indústria de transformação em 2021. Um em cada cinco estava no setor público. Fonte: RAIS 2021, conforme estudo do IFMS (cálculo sobre a tabela publicada)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O retrato mais recente confirma o de 2021. A capital tem 37% do emprego formal privado do estado, mas só 20% do emprego industrial: 27,2 mil de 133,6 mil vagas (Novo Caged, conforme Observatório de Economia da UFMS, 2025, e Semadesc, Carta de Conjuntura, dez/2025; cálculo do autor). De janeiro a agosto de 2026, Mato Grosso do Sul abriu 9.928 vagas na indústria; Campo Grande ficou com 181 (Fiems e Caged, conforme A Crítica, 09/10/2026, e Semades). E o desemprego baixo, de 3,1%, não desmente a tese: o argumento é o tamanho da força de trabalho e a qualidade do emprego, não a falta de vaga."
     },
     {
      "tipo": "h2",
@@ -260,14 +298,16 @@
     "nota": null
    },
    "indicador": {
-    "valor": "19% da economia",
-    "texto": "é indústria; ela emprega só 6,4% dos trabalhadores formais, contra 47% nos serviços e 19% no comércio.",
-    "fonte": "Semadesc, PIB dos Municípios 2021; RAIS 2021"
+    "valor": "R$ 42,3 bilhões",
+    "texto": "foi o PIB de Campo Grande em 2023, 22,9% do estado, com 33% da população. Por morador, 30% abaixo da média de MS.",
+    "fonte": "Semadesc/IBGE, PIB Municipal 2023; Censo 2022"
    },
    "fontes": [
-    "MATO GROSSO DO SUL. Semadesc. Produto Interno Bruto Municipal 2023 (Tabela 4 e Tabela 5); Produto Interno Bruto dos Municípios do MS 2021 (Tabela 9). Com base no IBGE, PIB dos Municípios.",
-    "IBGE. Censo Demográfico 2022: população de Campo Grande.",
+    "MATO GROSSO DO SUL. Semadesc. Produto Interno Bruto Municipal 2023 (Tabelas 4 e 5), dez/2025; Produto Interno Bruto dos Municípios do MS 2021 (Tabela 9). Com base no IBGE, PIB dos Municípios.",
+    "MATO GROSSO DO SUL. Semadesc. Projeção do Produto Interno Bruto de Mato Grosso do Sul 2024–2030, abr/2026. Base IBGE/CONAC; mesma série da LDO estadual de 2027.",
+    "IBGE. Censo Demográfico 2022: população de Campo Grande e de Mato Grosso do Sul.",
     "BRASIL. Ministério do Trabalho. RAIS 2021, conforme IFMS, Estudos da Gestão do Conhecimento: Campo Grande 2022 (Tabela 10) (fonte secundária).",
+    "BRASIL. Ministério do Trabalho. Novo Caged, conforme Observatório de Economia da UFMS (2025), Semadesc (Carta de Conjuntura, dez/2025) e Semades (Boletim Econômico, 2026); Fiems, conforme A Crítica, 09/10/2026 (fonte secundária).",
     "Correio do Estado: terminal intermodal de cargas sem operar (fonte secundária)."
    ]
   },
@@ -863,6 +903,87 @@
     },
     {
      "tipo": "h2",
+     "texto": "A receita própria paga a cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não. Somando tudo o que a prefeitura arrecada sozinha, impostos, taxas, contribuições, aplicações e multas, entraram R$ 2,68 bilhões em 2025. A estrutura de funcionamento, folha, custeio e juros, custou R$ 5,90 bilhões."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O que a receita própria cobre, 2025 (R$ milhões)",
+     "cabecalho": [
+      "Despesa",
+      "Valor",
+      "Tributária própria cobre",
+      "Receita própria total cobre"
+     ],
+     "linhas": [
+      [
+       "Folha bruta do Executivo",
+       "3.710",
+       "58%",
+       "72%"
+      ],
+      [
+       "Folha + custeio + juros",
+       "5.902",
+       "37%",
+       "45%"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "5,5 meses",
+     "texto": "é o tempo que a cidade se paga sozinha: com a receita própria, a prefeitura funcionaria de janeiro até meados de junho. De junho a dezembro, quem paga é o dinheiro de fora. Fonte: SICONFI, DCA 2025, Anexos I-C e I-D, e RGF 2025, Anexo 1 (cálculo do autor)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "De onde vem o dinheiro de fora, 2025",
+     "cabecalho": [
+      "Origem",
+      "R$ milhões",
+      "% das receitas correntes"
+     ],
+     "linhas": [
+      [
+       "Receita própria (tudo o que não é transferência)",
+       "2.683",
+       "45,1%"
+      ],
+      [
+       "União: FPM, SUS, FNDE e ITR",
+       "1.148",
+       "19,3%"
+      ],
+      [
+       "Estado: ICMS, IPVA e SUS estadual",
+       "1.050",
+       "17,6%"
+      ],
+      [
+       "FUNDEB (retorno bruto)",
+       "961",
+       "16,1%"
+      ],
+      [
+       "Outras transferências",
+       "110",
+       "1,8%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Somando à receita própria os repasses livres (FPM, ICMS, IPVA e ITR, já descontada a parte que vai para o FUNDEB), a cobertura sobe para 61%. Os outros 39% são dinheiro carimbado para saúde e escola: SUS, FUNDEB e FNDE, R$ 2,0 bilhões. A rede de saúde e as escolas municipais funcionam, em boa parte, com recursos de Brasília e do estado."
+    },
+    {
+     "tipo": "p",
+     "texto": "Nem todo repasse, porém, é ajuda. O ICMS e o IPVA são a parte do município nos impostos gerados aqui: a Constituição manda devolver 25% do ICMS e 50% do IPVA (art. 158). Quanto mais a cidade produz e vende, mais volta. É a ligação entre este capítulo e a tese do Capítulo 2: cada fábrica que se instala em Campo Grande aumenta a fatia do município no ICMS."
+    },
+    {
+     "tipo": "h2",
      "texto": "Quanto a cidade deve?"
     },
     {
@@ -1002,16 +1123,17 @@
     "nota": null
    },
    "indicador": {
-    "valor": "55% das receitas correntes",
-    "texto": "vêm de transferências; o ISS (R$ 728 mi) passou o IPTU (R$ 677 mi). Dívida consolidada: R$ 833 mi (ago/2026).",
-    "fonte": "SICONFI: DCA 2025 e RGF 2º quadr. 2026"
+    "valor": "45% da estrutura",
+    "texto": "da prefeitura (folha, custeio e juros) é paga com receita própria; 55% das receitas correntes vêm da União, do Estado e do FUNDEB.",
+    "fonte": "SICONFI: DCA 2025 e RGF 2025 (cálculo do autor)"
    },
    "fontes": [
     "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais (DCA) 2020–2025, Anexos I-C e I-D; Relatório de Gestão Fiscal, Anexo 2 (3º quadr. 2020–2025 e 2º quadr. 2026), Município de Campo Grande. Consulta em 09/11/2026.",
     "BRASIL. Emenda Constitucional nº 132, de 20 de dezembro de 2023 (reforma tributária).",
     "A Crítica, 13/10/2026: Câmara aprova R$ 476,7 milhões em empréstimos (fonte secundária).",
     "Correio do Estado: lucro da concessionária de água no 1º semestre de 2026; aditivo de prorrogação sem outorga (fontes secundárias).",
-    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos)."
+    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos).",
+    "BRASIL. Constituição Federal, art. 158 (repartição do IRRF, ICMS e IPVA com os municípios)."
    ]
   },
   {
@@ -1207,6 +1329,71 @@
     },
     {
      "tipo": "h2",
+     "texto": "Como se decide o orçamento?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Três leis organizam o dinheiro da prefeitura: o Plano Plurianual, de quatro anos; a Lei de Diretrizes Orçamentárias (LDO), que fixa metas e regras para o ano seguinte; e a Lei Orçamentária Anual (LOA), que põe valor em cada programa (Constituição, art. 165; Lei de Responsabilidade Fiscal, arts. 4º e 5º). A Câmara vota as três."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Orçamento previsto e realizado",
+     "cabecalho": [
+      "",
+      "2025",
+      "2026",
+      "2027"
+     ],
+     "linhas": [
+      [
+       "Receita prevista na LDO",
+       "",
+       "R$ 6,88 bi",
+       "R$ 7,05 bi"
+      ],
+      [
+       "Orçamento aprovado (LOA)",
+       "R$ 6,87 bi",
+       "R$ 6,97 bi",
+       "R$ 7,7 bi (proposta)"
+      ],
+      [
+       "Receita realizada",
+       "R$ 6,47 bi",
+       "em execução",
+       ""
+      ],
+      [
+       "Remanejamento permitido sem a Câmara",
+       "",
+       "30%",
+       "15%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: LDO 2026, Campo Grande News, 22/04/2025; LOA 2025 e 2026, Correio do Estado, 16/12/2025; LDO 2027, Campo Grande News, 05/08/2026; LOA 2027, A Crítica, 25/09/2026 (fontes secundárias, a conferir no Diogrande); receita realizada, SICONFI, DCA 2025."
+    },
+    {
+     "tipo": "p",
+     "texto": "O orçamento promete mais do que entra. Em 2025 a lei previa R$ 6,87 bilhões e entraram R$ 6,47 bilhões, 94% do previsto. A proposta para 2027, de R$ 7,7 bilhões, fica R$ 650 milhões acima da receita que a própria LDO de 2027 estima; a diferença ainda precisa ser explicada, e parte dela pode ser o empréstimo de R$ 476,7 milhões com a Caixa aprovado em outubro (A Crítica, 13/10/2026)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "56%",
+     "texto": "da receita corrente líquida é o que a LOA de 2026 reserva para pessoal, R$ 3,9 bilhões, acima do limite de 54% da LRF para o Executivo. Saúde fica com R$ 2,09 bilhões e educação com R$ 1,77 bilhão. Fonte: Correio do Estado, 02/09/2025, sobre o projeto de LOA 2026 (fonte secundária)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Ao mesmo tempo, a Câmara derrubou em setembro de 2026 treze vetos à LDO de 2027 e incluiu diretrizes de concurso, jornada de 30 horas e piso do magistério (A Crítica, 15/09/2026). Também reduziu de 30% para 15% o quanto a prefeitura pode remanejar o orçamento por decreto (Campo Grande News, 05/08/2026). Diretriz na LDO não obriga a gastar, mas a conta da folha e a das promessas não cabem juntas sem receita nova."
+    },
+    {
+     "tipo": "p",
+     "texto": "A proposta para 2032 é um orçamento realista: prever a receita pela média do que de fato entrou, e não pela meta; publicar a cada quadrimestre o previsto e o realizado de cada programa, em linguagem simples; e dar a cada prioridade da LDO uma meta física, como quantas Emeis concluídas e quantos quilômetros de asfalto, para que a Câmara e o morador cobrem resultado e não só valor."
+    },
+    {
+     "tipo": "h2",
      "texto": "Quem presta os serviços que a prefeitura concede?"
     },
     {
@@ -1274,7 +1461,9 @@
    },
    "fontes": [
     "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais 2022–2025, Anexos I-C (receita), I-D (despesa por categoria econômica) e I-E (despesa por função), Município de Campo Grande. Consulta em 09/11/2026.",
-    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos)."
+    "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos).",
+    "BRASIL. Constituição Federal, art. 165; Lei Complementar nº 101/2000 (LRF), arts. 4º, 5º e 20.",
+    "Campo Grande News (22/04/2025; 05/08/2026), Correio do Estado (02/09/2025; 16/12/2025) e A Crítica (15/09/2026; 25/09/2026; 13/10/2026): LDO e LOA de Campo Grande (fontes secundárias; texto das leis no Diogrande a conferir)."
    ]
   },
   {
