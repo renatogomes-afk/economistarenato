@@ -45,7 +45,12 @@
      "texto": "Toda proposta de política pública parte de uma ideia do que é uma vida boa e do que a cidade deve a quem mora nela. Este capítulo põe a minha na mesa antes de qualquer número, para que o leitor saiba com que régua cada proposta do livro foi medida."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "1.1",
+     "texto": "A régua"
+    },
+    {
+     "tipo": "h3",
      "texto": "Qual é a régua?"
     },
     {
@@ -61,7 +66,12 @@
      "texto": "Juros, impostos e salários não são fenômenos da natureza. São escolhas, e toda escolha econômica favorece alguém. Por isso a economia é tratada aqui como ciência moral: cada medida é julgada pelo que faz à família de quem trabalha."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "1.2",
+     "texto": "Propriedade"
+    },
+    {
+     "tipo": "h3",
      "texto": "Não somos contra a propriedade?"
     },
     {
@@ -73,7 +83,12 @@
      "texto": "O alvo não é a propriedade. É o juro que a devora: o que tira a terra do pequeno produtor endividado, a casa da família que atrasou a prestação, a oficina do comerciante que tomou capital de giro caro. Quem defende a propriedade de verdade tem de defender o crédito barato para quem produz."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "1.3",
+     "texto": "Lucro e usura"
+    },
+    {
+     "tipo": "h3",
      "texto": "Onde fica a linha entre o lucro justo e a usura?"
     },
     {
@@ -90,7 +105,12 @@
      "texto": "A Igreja nunca condenou o lucro, o investimento ou o comércio. Em 1515, pela bula Inter multiplices, aprovou os Montes de Piedade, bancos populares criados pelos franciscanos que cobravam só uma pequena taxa para cobrir seus custos. As cooperativas de crédito de hoje são herdeiras dessa ideia, e voltam no Capítulo 2."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "1.4",
+     "texto": "Na cidade"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que isso muda numa cidade?"
     },
     {
@@ -105,6 +125,12 @@
     "LEÃO X. Inter multiplices, bula do V Concílio de Latrão, 1515 (aprovação dos Montes de Piedade).",
     "BRASIL. Constituição Federal de 1988, art. 5º, XXIII (função social da propriedade).",
     "PONTIFÍCIO CONSELHO JUSTIÇA E PAZ. Compêndio da Doutrina Social da Igreja, 2004 (dignidade, bem comum, destino universal dos bens, subsidiariedade)."
+   ],
+   "subtopicos": [
+    "1.1 A régua",
+    "1.2 Propriedade",
+    "1.3 Lucro e usura",
+    "1.4 Na cidade"
    ]
   },
   {
@@ -121,7 +147,12 @@
      "texto": "Mato Grosso do Sul se industrializou nos últimos anos, mas longe da capital. A fábrica de celulose foi para Três Lagoas e Ribas do Rio Pardo, o frigorífico foi para perto do boi, a usina para perto da cana. A indústria seguiu a matéria-prima. E descobriu, no interior, o que falta lá: gente para trabalhar. Campo Grande tem o contrário: um terço da população do estado e pouca fábrica."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "2.1",
+     "texto": "A economia da cidade"
+    },
+    {
+     "tipo": "h3",
      "texto": "Como é a economia da cidade hoje?"
     },
     {
@@ -247,7 +278,19 @@
      "texto": "O retrato mais recente confirma o de 2021. A capital tem 37% do emprego formal privado do estado, mas só 20% do emprego industrial: 27,2 mil de 133,6 mil vagas (Novo Caged, conforme Observatório de Economia da UFMS, 2025, e Semadesc, Carta de Conjuntura, dez/2025; cálculo do autor). De janeiro a agosto de 2026, Mato Grosso do Sul abriu 9.928 vagas na indústria; Campo Grande ficou com 181 (Fiems e Caged, conforme A Crítica, 09/10/2026, e Semades). E o desemprego baixo, de 3,1%, não desmente a tese: o argumento é o tamanho da força de trabalho e a qualidade do emprego, não a falta de vaga."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A economia da cidade",
+     "texto": [
+      "Um painel econômico anual da cidade, feito com a UFMS e as bases do IBGE e do Ministério do Trabalho: PIB, emprego formal e renda por região, publicados todo ano com fonte."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.2",
+     "texto": "Indústria"
+    },
+    {
+     "tipo": "h3",
      "texto": "Por que trazer indústria para a capital?"
     },
     {
@@ -259,7 +302,7 @@
      "texto": "E porque emprego industrial paga melhor e sustenta família. Um posto de trabalho na fábrica puxa outros no comércio e nos serviços em volta dela. A régua do livro é a pergunta do bispo Ketteler: isso aumenta o salário do trabalhador? A indústria é a resposta mais direta."
     },
     {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Que indústria cabe em Campo Grande?"
     },
     {
@@ -267,15 +310,22 @@
      "texto": "A que precisa de muita gente e está perto do que o estado já produz: alimentos processados a partir da carne, do leite e dos grãos; couro e calçados; móveis e embalagens a partir do eucalipto; confecção; metal-mecânica e manutenção de máquinas para o agronegócio e para as fábricas de celulose; e a indústria ligada à logística da Rota Bioceânica. É a mesma tese do livro para o estado inteiro, transformar aqui o que hoje sai daqui em estado bruto, aplicada à cidade que tem os trabalhadores."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Indústria",
+     "texto": [
+      "Recuperar e ampliar as áreas industriais que a cidade já tem, como o Núcleo Industrial e o Indubrasil, com asfalto, água, energia, transporte para o trabalhador e terreno pronto.",
+      "Pôr para funcionar o terminal intermodal de cargas, com obra concluída em 2020 e ainda parado.",
+      "Disputar as fábricas com agilidade de licença e segurança jurídica, já que o incentivo pelo ISS acaba com a reforma tributária (Capítulo 6).",
+      "Formar a mão de obra junto com o Senai, o IFMS e as universidades, para as vagas que as fábricas vão abrir (Capítulo 3)."
+     ]
     },
     {
-     "tipo": "p",
-     "texto": "Recuperar e ampliar as áreas industriais que a cidade já tem, como o Núcleo Industrial e o Indubrasil, com asfalto, água, energia, transporte para o trabalhador e terreno pronto. Pôr para funcionar o terminal intermodal de cargas, com obra concluída em 2020 e ainda parado. Formar a mão de obra junto com o Senai, o IFMS e as universidades, para as vagas que as fábricas vão abrir. Abrir crédito para a pequena indústria pelas cooperativas de crédito e pelo FCO. E disputar as fábricas com agilidade de licença e segurança jurídica, já que o incentivo pelo ISS acaba com a reforma tributária."
+     "tipo": "subtopico",
+     "numero": "2.3",
+     "texto": "Crédito e dívida das famílias"
     },
     {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Quanto as famílias devem?"
     },
     {
@@ -343,12 +393,34 @@
      "texto": "Um terço dos negativados deve menos de mil reais, e a dívida típica tem mais de dois anos: não é calote de rico, é a conta de luz e a fatura do cartão de quem não fechou o mês. Quem ganha até dez salários mínimos deve em carnê e cartão, o crédito mais caro; quem ganha mais deve em financiamento de carro e casa, que vira patrimônio (PEIC, jan. e mai/2026). É o retrato da usura no dia a dia, e o argumento para a proposta do capítulo: crédito de cooperativa e microcrédito no lugar do rotativo, e mutirões nos bairros para levar às famílias a renegociação do Desenrola 3.0, desenhada justamente para dívidas pequenas, antigas e de cartão (A Crítica, 22/10/2026)."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Crédito e dívida das famílias",
+     "texto": [
+      "Crédito para a pequena indústria e o pequeno comércio pelas cooperativas de crédito e pelo FCO, com a prefeitura como ponte entre quem produz e quem empresta.",
+      "Microcrédito orientado no lugar do rotativo do cartão, com as cooperativas e as agências de fomento.",
+      "Mutirões nos bairros para levar às famílias a renegociação do Desenrola 3.0, desenhada para dívidas pequenas, antigas e de cartão."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.4",
+     "texto": "Comércio e serviços"
+    },
+    {
+     "tipo": "h3",
      "texto": "E o comércio e os serviços?"
     },
     {
      "tipo": "p",
      "texto": "Continuam sendo o coração da economia da cidade: mais de três quartos do que se produz e dois de cada três empregos formais. O pequeno comércio de bairro e o dinheiro que gira perto de casa, o crédito barato para quem produz e Campo Grande como polo de serviços para o interior seguem no capítulo. A indústria não vem no lugar deles; vem para dar mais renda a quem compra no comércio e usa os serviços."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Comércio e serviços",
+     "texto": [
+      "Licença simples e rápida para o pequeno comércio de bairro, junto com a mudança da lei de uso do solo (Capítulo 5).",
+      "Usar o poder de compra da prefeitura com as pequenas empresas locais, como permite a Lei Complementar 123/2006 nas compras de menor valor."
+     ]
     }
    ],
    "regiao": {
@@ -379,6 +451,12 @@
     "Correio do Estado: terminal intermodal de cargas sem operar (fonte secundária).",
     "CNC. Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC), Campo Grande, Fecomércio-MS: boletins de fev., mar., mai., jun. e nov./2026; O Jacaré, 09/06/2023 (mai/2023).",
     "Serasa, Mapa da Inadimplência, conforme Correio do Estado (13/08/2026); SPC Brasil, conforme Correio do Estado (02/02/2026); Banco Central e Desenrola 3.0, conforme A Crítica (22/10/2026) (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "2.1 A economia da cidade",
+    "2.2 Indústria",
+    "2.3 Crédito e dívida das famílias",
+    "2.4 Comércio e serviços"
    ]
   },
   {
@@ -391,23 +469,12 @@
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
+     "tipo": "subtopico",
+     "numero": "3.1",
+     "texto": "Renda e desigualdade"
     },
     {
-     "tipo": "p",
-     "texto": "Quantos trabalham, em quê e por quanto; o emprego formal e o informal; jovens e primeiro emprego."
-    },
-    {
-     "tipo": "p",
-     "texto": "O salário que sustenta uma família: o salário mediano da cidade comparado com a cesta básica, o aluguel e o transporte."
-    },
-    {
-     "tipo": "p",
-     "texto": "O critério do bispo Ketteler, que serve de teste para qualquer política de emprego: isso aumenta o salário do trabalhador?"
-    },
-    {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Quanto ganha a cidade?"
     },
     {
@@ -455,12 +522,45 @@
      "texto": "As faixas de renda do Censo 2022 por município ainda não foram publicadas em texto aberto. As de 2010 mostram o desenho: dois terços de quem tinha renda ganhavam até dois salários mínimos, e só 2,6% passavam de dez (IBGE, Censo 2010, via Banco de Dados do Estado, Semadesc; cálculo do autor). O teste do capítulo continua o do bispo Ketteler: a política proposta aumenta o salário de quem mora no Anhanduizinho, no Lagoa e no Imbirussu?"
     },
     {
-     "tipo": "h2",
-     "texto": "Com que dados?"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Renda e desigualdade",
+     "texto": [
+      "Medir cada programa de emprego e renda pelo teste do bispo Ketteler: quanto aumentou a renda de quem mora no Anhanduizinho, no Lagoa e no Imbirussu."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "3.2",
+     "texto": "Emprego formal e informal"
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: RAIS e Novo Caged (Ministério do Trabalho), Censo 2022 (IBGE), cesta básica do DIEESE. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "Os números do emprego formal, por setor, estão no Capítulo 2. A informalidade da capital, medida pela PNAD Contínua do IBGE, e o salário mediano comparado com a cesta básica do DIEESE ainda não foram levantados para este livro; entram quando forem conferidos no documento original."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Emprego formal e informal",
+     "texto": [
+      "Um balcão de emprego em cada CRAS, ligado ao Sine, para que a família do Cadastro Único chegue à vaga e ao curso (Capítulo 14).",
+      "Formalizar o pequeno negócio: Sala do Empreendedor nos bairros, para abrir o MEI, emitir nota e chegar ao crédito."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "3.3",
+     "texto": "Jovens e primeiro emprego"
+    },
+    {
+     "tipo": "p",
+     "texto": "O desemprego e a informalidade dos jovens de Campo Grande não aparecem em fonte aberta por município; o dado existe por estado na PNAD Contínua. Este subtópico fica aberto até o levantamento."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Jovens e primeiro emprego",
+     "texto": [
+      "Exigir e fiscalizar a cota de aprendiz nas empresas contratadas pela prefeitura.",
+      "Ensino técnico com o Senai e o IFMS desenhado para as vagas do polo industrial do Capítulo 2."
+     ]
     }
    ],
    "regiao": {
@@ -488,6 +588,11 @@
     "IBGE. PNAD Contínua 2019: índice de Gini das capitais, conforme Campo Grande News, 12/11/2020 (fonte secundária).",
     "IBGE. Censo Demográfico 2010: faixas de rendimento, via Banco de Dados do Estado (Semadesc-MS).",
     "CAMPO GRANDE. PLANURB. Perfil Socioeconômico (base Censo 2010), conforme Campo Grande News, 31/10/2023 (fonte secundária)."
+   ],
+   "subtopicos": [
+    "3.1 Renda e desigualdade",
+    "3.2 Emprego formal e informal",
+    "3.3 Jovens e primeiro emprego"
    ]
   },
   {
@@ -504,8 +609,9 @@
      "texto": "Quem atende o cidadão na ponta é servidor municipal: a professora do CEINF, a enfermeira do posto, o agente comunitário que bate à porta, o guarda da praça. Antes de propor qualquer coisa para eles, é preciso saber quantos são, quanto custam e o que a cidade deve a quem já se aposentou."
     },
     {
-     "tipo": "h2",
-     "texto": "Quantos são os servidores?"
+     "tipo": "subtopico",
+     "numero": "4.1",
+     "texto": "Quantos são os servidores"
     },
     {
      "tipo": "p",
@@ -521,7 +627,20 @@
      "texto": "A prefeitura não publica, em fonte aberta, quantos ativos são concursados e quantos são comissionados ou contratados. O retrato mais detalhado é de uma auditoria do Tribunal de Contas do Estado, noticiada pela imprensa: em abril de 2022 havia 16.993 efetivos e 9.883 temporários, espalhados em 54 funções; professores, assistentes de educação infantil e médicos estavam entre as cinco funções com mais temporários. Só a Secretaria de Saúde tem 7.888 servidores, segundo o seu relatório quadrimestral (RDQA) do 2º quadrimestre de 2026."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quantos são os servidores",
+     "texto": [
+      "Publicar todo ano o quadro de pessoal por vínculo (efetivo, comissionado, temporário), por secretaria e por cargo.",
+      "Trocar, aos poucos, temporários por concursados nas funções permanentes, como professor, assistente de educação infantil e médico, dentro do limite da LRF."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.2",
+     "texto": "Folha e Lei de Responsabilidade Fiscal"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto pesa a folha?"
     },
     {
@@ -581,7 +700,19 @@
      "texto": "A prefeitura está colada no teto da Lei de Responsabilidade Fiscal desde 2022, e acima do limite prudencial de 51,3%. Acima dele, a própria lei (art. 22) proíbe reajuste além da revisão geral, criação de cargo e pagamento de hora extra. A folha bruta cresceu 28% entre 2023 e 2025, em valores correntes, e a parte dos inativos passou de R$ 573 milhões para R$ 798 milhões."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Folha e Lei de Responsabilidade Fiscal",
+     "texto": [
+      "Sair do limite prudencial cortando primeiro na área-meio e nos cargos em comissão, para proteger quem está na ponta."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.3",
+     "texto": "Previdência dos servidores"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto custa a previdência dos servidores?"
     },
     {
@@ -644,7 +775,20 @@
      "texto": "O fundo do IMPCG se chama de capitalização, mas com R$ 31 milhões aplicados diante de R$ 10,3 bilhões de compromisso, ele funciona na prática como repartição: paga os aposentados com a contribuição do mês e com o aporte do Tesouro municipal. Cada real de aporte é um real a menos para a escola e o posto."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Previdência dos servidores",
+     "texto": [
+      "Um plano de equacionamento do déficit do IMPCG, com aportes previsíveis e publicados, e a transferência de imóveis e recebíveis da prefeitura para o fundo.",
+      "Conferir e aplicar a previdência complementar exigida pela Emenda Constitucional 103/2019 para os servidores novos."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.4",
+     "texto": "Carreiras"
+    },
+    {
+     "tipo": "h3",
      "texto": "E por carreira?"
     },
     {
@@ -658,6 +802,14 @@
     {
      "tipo": "p",
      "texto": "O caminho para fechar o quadro é a folha nominal do Portal da Transparência ou um pedido pela Lei de Acesso à Informação à Secretaria de Gestão, com o total por cargo e por secretaria."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Carreiras",
+     "texto": [
+      "Publicar a folha por carreira e por lotação, para separar quem atende o cidadão de quem está na área-meio.",
+      "Carreira com avaliação de desempenho ligada à meta do serviço: fila, vaga, atendimento."
+     ]
     }
    ],
    "regiao": {
@@ -685,6 +837,12 @@
     "CAMPO GRANDE. Secretaria Municipal de Saúde. Relatório Detalhado do Quadrimestre Anterior (RDQA), 2º quadrimestre de 2026.",
     "Auditoria do TCE-MS sobre a folha de 2022, noticiada por Campo Grande News, 04/04/2023 (fonte secundária).",
     "Correio do Estado, 28/09/2026, sobre o RGF do 2º quadrimestre de 2026 (fonte secundária)."
+   ],
+   "subtopicos": [
+    "4.1 Quantos são os servidores",
+    "4.2 Folha e Lei de Responsabilidade Fiscal",
+    "4.3 Previdência dos servidores",
+    "4.4 Carreiras"
    ]
   },
   {
@@ -697,23 +855,12 @@
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
+     "tipo": "subtopico",
+     "numero": "5.1",
+     "texto": "Regiões e população"
     },
     {
-     "tipo": "p",
-     "texto": "Como a cidade se formou e como nasceram as sete regiões urbanas: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu."
-    },
-    {
-     "tipo": "p",
-     "texto": "A cidade espalhada e o seu custo: zoneamento rígido, loteamentos distantes e vazios urbanos, com asfalto, água, esgoto e linhas de ônibus pagos por todos."
-    },
-    {
-     "tipo": "p",
-     "texto": "O bairro completo: casa, trabalho, padaria, escola, posto de saúde e igreja a dez minutos a pé; ruas, calçadas e praças; a beleza como pertencimento, porque as pessoas cuidam do que amam."
-    },
-    {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Quem mora em cada região?"
     },
     {
@@ -792,7 +939,19 @@
      "texto": "de moradores no Centro entre 2010 e 2022, enquanto a cidade tinha 66.917 domicílios vagos, 17% do total. Fonte: IBGE, Censo 2022, via Campo Grande News, 21/03/2024."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Regiões e população",
+     "texto": [
+      "Orçamento e indicadores publicados por região, para que o morador do Lagoa saiba o que a prefeitura gasta e entrega no Lagoa."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.2",
+     "texto": "Cidade espalhada e uso do solo"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que os urbanistas propõem?"
     },
     {
@@ -854,7 +1013,21 @@
      "texto": "O ponto de partida é saber onde estão os vazios e quanto custa cada loteamento distante. Esses dados, do Plano Diretor e da PLANURB, ainda estão sendo levantados."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Cidade espalhada e uso do solo",
+     "texto": [
+      "Nova lei de uso do solo com uso misto: a padaria, o consultório e a oficina de volta à rua de casas.",
+      "IPTU progressivo no tempo sobre o vazio urbano especulativo, como prevê o Estatuto da Cidade (Capítulo 11).",
+      "Inventário público dos vazios urbanos e do custo de cada loteamento distante, antes de aprovar o próximo."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.3",
+     "texto": "Praças"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantas praças a cidade tem?"
     },
     {
@@ -866,7 +1039,7 @@
      "texto": "Enquanto isso, o abandono tem endereço. A Praça dos Imigrantes ficou com a obra parada de 2023 a 2025; a Praça Ary Coelho, no Centro, já teve dezesseis reformas. Sem cuidado diário, a praça reformada volta ao abandono."
     },
     {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Proposta: Praça da Família"
     },
     {
@@ -935,12 +1108,13 @@
      "texto": "Para fechar o catálogo, o primeiro passo é um pedido pela Lei de Acesso à Informação à Semadur e à PLANURB: a lista das praças com endereço, área, equipamentos, estado de conservação e data da última reforma."
     },
     {
-     "tipo": "h2",
-     "texto": "Com que dados?"
-    },
-    {
-     "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Plano Diretor de Campo Grande, Perfil Socioeconômico da Planurb e Censo 2022 (IBGE). Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Praças",
+     "texto": [
+      "Programa Praça da Família: 229 praças em três padrões em quatro anos, cerca de R$ 82 milhões (estimativa do autor), com zelador e manutenção desde o primeiro dia.",
+      "Adoção de praças por associações, paróquias e empresas do bairro, com termo público.",
+      "Catálogo público das praças, pedido pela Lei de Acesso à Informação à Semadur e à PLANURB."
+     ]
     }
    ],
    "regiao": {
@@ -971,6 +1145,11 @@
     "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).",
     "Praças: Campo Grande News (ata de R$ 19,7 mi, 01/07/2024; Propam, 17/06/2025); Correio do Estado (Praça dos Imigrantes, 24/07/2025 e 13/08/2025; Praça do Preto Velho, 23/09/2026); A Crítica (Funesp, 12/10/2026); Prefeitura de Campo Grande, CG Notícias (23/03/2026). Fontes secundárias; estimativa de custo do autor (planilha pracas-de-campo-grande.xlsx).",
     "IBGE. Censo Demográfico 2022: população, idade e domicílios por região urbana, conforme Campo Grande News (21/03/2024) e City Population (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "5.1 Regiões e população",
+    "5.2 Cidade espalhada e uso do solo",
+    "5.3 Praças"
    ]
   },
   {
@@ -987,8 +1166,9 @@
      "texto": "Em 2025 a Prefeitura de Campo Grande arrecadou R$ 6,5 bilhões. A maior parte não saiu do bolso do campo-grandense em forma de imposto municipal: veio de Brasília e do governo do estado, quase sempre com destino carimbado. Entender essa conta é o primeiro passo para discutir qualquer proposta."
     },
     {
-     "tipo": "h2",
-     "texto": "De onde vem o dinheiro?"
+     "tipo": "subtopico",
+     "numero": "6.1",
+     "texto": "De onde vem o dinheiro"
     },
     {
      "tipo": "tabela",
@@ -1112,7 +1292,12 @@
      "texto": "Os maiores repasses não são o FPM. São o FUNDEB (R$ 961 milhões) e o SUS (R$ 983 milhões somando União e Estado). Quase um terço da receita chega com destino certo: escola e saúde. O município também põe dinheiro no FUNDEB, R$ 221 milhões descontados de FPM, ICMS e IPVA em 2025; o retorno líquido foi de R$ 740 milhões."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "6.2",
+     "texto": "Receita própria e dependência"
+    },
+    {
+     "tipo": "h3",
      "texto": "A receita própria paga a cidade?"
     },
     {
@@ -1193,7 +1378,20 @@
      "texto": "Nem todo repasse, porém, é ajuda. O ICMS e o IPVA são a parte do município nos impostos gerados aqui: a Constituição manda devolver 25% do ICMS e 50% do IPVA (art. 158). Quanto mais a cidade produz e vende, mais volta. É a ligação entre este capítulo e a tese do Capítulo 2: cada fábrica que se instala em Campo Grande aumenta a fatia do município no ICMS."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Receita própria e dependência",
+     "texto": [
+      "Atrair indústria também como política de receita: cada fábrica aumenta a fatia do município no ICMS (Capítulo 2).",
+      "Atualizar a planta de valores e o cadastro do IPTU com geoprocessamento, cobrando de quem não paga antes de subir a alíquota de quem paga."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.3",
+     "texto": "Dívida"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto a cidade deve?"
     },
     {
@@ -1281,7 +1479,20 @@
      "texto": "A dívida que não aparece nessa tabela é a da previdência dos servidores: R$ 10,3 bilhões de passivo atuarial, doze vezes a dívida consolidada. Ela é tratada no Capítulo 4."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Dívida",
+     "texto": [
+      "Novo empréstimo só com projeto, retorno e custo publicados antes do voto na Câmara.",
+      "Zerar os parcelamentos de contribuições previdenciárias e tributos não recolhidos."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.4",
+     "texto": "Reforma tributária e o fim do ISS"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que muda quando o ISS acabar?"
     },
     {
@@ -1289,7 +1500,19 @@
      "texto": "A reforma tributária (Emenda Constitucional 132, de 2023) extingue o ISS. Entre 2029 e 2032 ele cai para 90%, 80%, 70% e 60% do que seria; em 2033 deixa de existir, e o município passa a viver da sua parte do IBS, o novo imposto sobre bens e serviços. Cada município vai fixar a sua alíquota de IBS. É aí que se decide quanto o prestador de serviço de Campo Grande vai pagar, e o mandato que começa em 2029 é o que atravessa toda a transição."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Reforma tributária e o fim do ISS",
+     "texto": [
+      "Usar a transição de 2029 a 2032 para fixar uma alíquota municipal de IBS baixa, compensada pelas receitas fora dos impostos do subtópico seguinte."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.5",
+     "texto": "Receitas fora dos impostos"
+    },
+    {
+     "tipo": "h3",
      "texto": "Há dinheiro fora dos impostos?"
     },
     {
@@ -1306,16 +1529,17 @@
      "texto": "por ano é o potencial estimado das receitas fora dos impostos hoje ao alcance da prefeitura: de 10% a 16% do ISS. Estimativa do autor, não de estudo formal; a maior parte viria do saneamento."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas em estudo"
-    },
-    {
-     "tipo": "p",
-     "texto": "Renegociar o contrato de água e esgoto, aproveitando a auditoria em curso, com uma outorga variável de 3% a 5% do faturamento paga pela margem da concessionária, sem aumento de tarifa. Fazer a nova concessão do estacionamento rotativo, vaga desde 2022, com outorga e participação na receita. Conceder a publicidade no mobiliário urbano. Cobrar dos vazios urbanos o IPTU que a cidade espalhada custa a todos (Capítulo 5). E usar cada real de receita fora dos impostos para fixar uma alíquota municipal de IBS mais baixa, que é como o alívio chega a quem trabalha e empreende."
-    },
-    {
      "tipo": "p",
      "texto": "O argumento é de bem comum: a renda de um monopólio já é paga hoje pelo usuário, na tarifa. A pergunta é quem fica com ela. A proposta só se sustenta se a tarifa não subir."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Receitas fora dos impostos",
+     "texto": [
+      "Renegociar o contrato de água e esgoto, aproveitando a auditoria em curso, com outorga variável de 3% a 5% do faturamento paga pela margem da concessionária, sem aumento de tarifa.",
+      "Nova concessão do estacionamento rotativo, vago desde 2022, com outorga e participação na receita.",
+      "Conceder a publicidade no mobiliário urbano."
+     ]
     }
    ],
    "regiao": {
@@ -1344,6 +1568,13 @@
     "Correio do Estado: lucro da concessionária de água no 1º semestre de 2026; aditivo de prorrogação sem outorga (fontes secundárias).",
     "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos).",
     "BRASIL. Constituição Federal, art. 158 (repartição do IRRF, ICMS e IPVA com os municípios)."
+   ],
+   "subtopicos": [
+    "6.1 De onde vem o dinheiro",
+    "6.2 Receita própria e dependência",
+    "6.3 Dívida",
+    "6.4 Reforma tributária e o fim do ISS",
+    "6.5 Receitas fora dos impostos"
    ]
   },
   {
@@ -1356,20 +1587,9 @@
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
-     "tipo": "p",
-     "texto": "Como a prefeitura está organizada e para onde vai o orçamento; transparência e sistemas de informação orçamentária; compras e contratos."
-    },
-    {
-     "tipo": "p",
-     "texto": "Subsidiariedade na prática: associações de moradores, conselhos, paróquias e orçamento por região; uma prefeitura que funciona perto do cidadão."
-    },
-    {
-     "tipo": "h2",
-     "texto": "Para onde vai o dinheiro?"
+     "tipo": "subtopico",
+     "numero": "7.1",
+     "texto": "Para onde vai o dinheiro"
     },
     {
      "tipo": "tabela",
@@ -1538,8 +1758,16 @@
      "texto": "Saúde e educação levam 59% do que a prefeitura gasta. Dentro delas, a gestão das secretarias soma R$ 239 milhões; o resto chega à ponta, ao posto, ao hospital e à escola. A Guarda Municipal, tão cobrada pelo morador, fica com 1,2%."
     },
     {
-     "tipo": "h2",
-     "texto": "Como se decide o orçamento?"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Para onde vai o dinheiro",
+     "texto": [
+      "Recuperar o investimento pelo menos ao nível de 2022 (R$ 284 milhões) até 2030, com a folha e o custeio crescendo menos que a receita."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "7.2",
+     "texto": "Como se decide o orçamento"
     },
     {
      "tipo": "p",
@@ -1599,11 +1827,22 @@
      "texto": "Ao mesmo tempo, a Câmara derrubou em setembro de 2026 treze vetos à LDO de 2027 e incluiu diretrizes de concurso, jornada de 30 horas e piso do magistério (A Crítica, 15/09/2026). Também reduziu de 30% para 15% o quanto a prefeitura pode remanejar o orçamento por decreto (Campo Grande News, 05/08/2026). Diretriz na LDO não obriga a gastar, mas a conta da folha e a das promessas não cabem juntas sem receita nova."
     },
     {
-     "tipo": "p",
-     "texto": "A proposta para 2032 é um orçamento realista: prever a receita pela média do que de fato entrou, e não pela meta; publicar a cada quadrimestre o previsto e o realizado de cada programa, em linguagem simples; e dar a cada prioridade da LDO uma meta física, como quantas Emeis concluídas e quantos quilômetros de asfalto, para que a Câmara e o morador cobrem resultado e não só valor."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Como se decide o orçamento",
+     "texto": [
+      "Prever a receita pela média do que de fato entrou, e não pela meta.",
+      "Publicar a cada quadrimestre o previsto e o realizado de cada programa, em linguagem simples.",
+      "Dar a cada prioridade da LDO uma meta física, como Emeis concluídas e quilômetros de asfalto, para que a Câmara e o morador cobrem resultado.",
+      "Orçamento por região, com escuta das associações de moradores e dos conselhos."
+     ]
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "7.3",
+     "texto": "Concessões e contratos"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quem presta os serviços que a prefeitura concede?"
     },
     {
@@ -1648,6 +1887,15 @@
     {
      "tipo": "p",
      "texto": "O levantamento se apoia em reportagens; os números de cada contrato serão conferidos nos documentos originais antes de entrarem no texto final."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Concessões e contratos",
+     "texto": [
+      "Agência reguladora (Agereg) com metas de serviço em cada contrato e relatório público anual.",
+      "Renegociar os contratos críticos: transporte, saneamento, limpeza urbana e terminal de cargas.",
+      "Publicar na internet a íntegra de cada contrato de concessão e de cada aditivo."
+     ]
     }
    ],
    "regiao": {
@@ -1674,6 +1922,11 @@
     "Levantamento do autor sobre monopólios e concessões em Campo Grande, 09/11/2026 (com base em reportagens; a conferir nos contratos).",
     "BRASIL. Constituição Federal, art. 165; Lei Complementar nº 101/2000 (LRF), arts. 4º, 5º e 20.",
     "Campo Grande News (22/04/2025; 05/08/2026), Correio do Estado (02/09/2025; 16/12/2025) e A Crítica (15/09/2026; 25/09/2026; 13/10/2026): LDO e LOA de Campo Grande (fontes secundárias; texto das leis no Diogrande a conferir)."
+   ],
+   "subtopicos": [
+    "7.1 Para onde vai o dinheiro",
+    "7.2 Como se decide o orçamento",
+    "7.3 Concessões e contratos"
    ]
   },
   {
@@ -1694,7 +1947,12 @@
      "texto": "O posto de saúde é a porta de entrada do sistema. É ali que se vacina a criança, se acompanha a gestante, se mede a pressão do idoso e se retira o remédio de uso contínuo. Quando o posto funciona, o hospital respira. Quando falha, a fila desce para a UPA e, da UPA, para o corredor do pronto-socorro."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "8.1",
+     "texto": "Unidades de atendimento"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantas unidades a prefeitura mantém?"
     },
     {
@@ -1707,7 +1965,7 @@
      "texto": "Unidades de atenção básica mantidas pela Prefeitura de Campo Grande: 71 USF/UBS e 3 Clínicas da Família. Fonte: CNES/DataSUS, consulta em 22/10/2026."
     },
     {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Onde a rede está, região por região?"
     },
     {
@@ -1803,7 +2061,7 @@
      "texto": "Contar unidades, porém, não basta: o que interessa ao morador é quantas famílias cada posto precisa atender. Cruzando a tabela com a população de cada região no Censo 2022, a diferença salta: no Segredo há um posto para cerca de 9 mil habitantes; no Prosa e no Centro, um para cerca de 19 mil e 21 mil. O quadro “E na sua região?”, no fim da página, traz a conta de cada região."
     },
     {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Qual é o posto do seu bairro?"
     },
     {
@@ -2483,24 +2741,21 @@
      ]
     },
     {
-     "tipo": "h2",
-     "texto": "Quantos atendimentos a rede faz?"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Unidades de atendimento",
+     "texto": [
+      "Novos postos onde há mais gente por posto, começando pelo Prosa e pelo Centro, com cerca de 19 mil e 21 mil moradores por posto.",
+      "Pronto atendimento no Anhanduizinho, a região com mais postos e sem UPA.",
+      "Horário estendido nos postos de maior procura, para tirar da UPA o que é consulta de rotina."
+     ]
     },
     {
-     "tipo": "p",
-     "texto": "Entre maio e agosto de 2026, a atenção primária fez 2.170.701 ações, 5% a mais que no mesmo período de 2025: 982.741 visitas domiciliares dos agentes comunitários, 694.808 procedimentos (curativo, vacina, aferição de pressão), 438.884 consultas individuais e 54.268 atendimentos odontológicos. A atenção especializada da rede própria fez 100.859 procedimentos, e a saúde mental, cerca de 14,9 mil atendimentos por mês."
+     "tipo": "subtopico",
+     "numero": "8.2",
+     "texto": "Médicos e profissionais"
     },
     {
-     "tipo": "caixa",
-     "valor": "≈ 1,3 milhão",
-     "texto": "de consultas por ano na atenção primária, numa conta simples que multiplica o quadrimestre por três. Fonte: RDQA da Secretaria de Saúde, 2º quadrimestre de 2026 (cálculo do autor)."
-    },
-    {
-     "tipo": "p",
-     "texto": "Os atendimentos de urgência nas UPAs e CRSs e as internações não aparecem nos relatórios abertos consultados; estão nos sistemas do SUS (SIA e SIH) e entram aqui quando forem levantados."
-    },
-    {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Quem trabalha na rede?"
     },
     {
@@ -2508,83 +2763,25 @@
      "texto": "A Secretaria de Saúde tem 7.888 servidores, entre efetivos, temporários e convocados. Na enfermagem, em abril de 2024, eram 342 enfermeiros e 799 técnicos. Um posto típico reúne de 35 a 95 profissionais: de três a seis equipes de Saúde da Família (médico, enfermeiro, técnico e agentes comunitários), dentista e auxiliar de saúde bucal; ginecologista e pediatra aparecem em poucos. As UPAs e os CRSs são dominados por médicos clínicos plantonistas, e o Centro de Especialidades Médicas concentra os especialistas."
     },
     {
-     "tipo": "p",
-     "texto": "A cidade tem 1.753 leitos do SUS e 1.276 privados (abril de 2025). A Santa Casa é o maior hospital conveniado e recebe cerca de R$ 32,8 milhões por mês do SUS, segundo a imprensa; o Hospital Universitário (Humap-UFMS) tem 210 leitos e um contrato de R$ 57,5 milhões por ano com a secretaria."
+     "tipo": "caixa",
+     "valor": "5,28",
+     "texto": "médicos por mil habitantes em Campo Grande: 4.839 médicos (out/2024), contra 1,9 por mil no interior de MS. Médico não falta na cidade; falta a rede pública contratar e fixar. Fonte: Conselho Federal de Medicina."
     },
     {
-     "tipo": "h2",
-     "texto": "Quanto custa?"
-    },
-    {
-     "tipo": "tabela",
-     "legenda": "Orçamento da saúde",
-     "cabecalho": [
-      "Item",
-      "Valor"
-     ],
-     "linhas": [
-      [
-       "Orçamento total da prefeitura em 2026 (LOA)",
-       "R$ 6,974 bi"
-      ],
-      [
-       "Fundo Municipal de Saúde em 2026",
-       "R$ 2,092 bi (30%)"
-      ],
-      [
-       "Gasto liquidado de janeiro a junho de 2026",
-       "R$ 849,7 mi"
-      ],
-      [
-       "…com recursos próprios",
-       "R$ 414 mi"
-      ],
-      [
-       "Receita própria aplicada em saúde (mínimo: 15%)",
-       "24,6%"
-      ]
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Médicos e profissionais",
+     "texto": [
+      "Concurso e carreira para as equipes de Saúde da Família, para fixar o médico no posto: médico há na cidade, falta a rede pública contratar.",
+      "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos."
      ]
     },
     {
-     "tipo": "h2",
-     "texto": "Há controle de qualidade?"
+     "tipo": "subtopico",
+     "numero": "8.3",
+     "texto": "Remédios"
     },
     {
-     "tipo": "tabela",
-     "legenda": "Controles da rede municipal de saúde",
-     "cabecalho": [
-      "Controle",
-      "É publicado?"
-     ],
-     "linhas": [
-      [
-       "Relatórios quadrimestral (RDQA) e anual (RAG) à Câmara",
-       "Sim, a cada quatro meses"
-      ],
-      [
-       "Painel de gestão: faltas às consultas (~30%), regulação, urgência, produção das equipes",
-       "Sim"
-      ],
-      [
-       "Tempo de espera nas UPAs e CRSs, ao vivo (SiGS)",
-       "Sim, desde ago/2025"
-      ],
-      [
-       "Metas de qualidade nos contratos com hospitais",
-       "As metas sim; o resultado mensal não"
-      ],
-      [
-       "Satisfação do usuário de postos e UPAs",
-       "Não"
-      ]
-     ]
-    },
-    {
-     "tipo": "p",
-     "texto": "Existe controle, mas quase todo ele mede volume (quantos atendimentos) e não resultado: se o paciente melhorou, quanto esperou pelo especialista, se voltou satisfeito. Publicar esses números, posto a posto, é uma proposta que custa pouco e muda muito."
-    },
-    {
-     "tipo": "h2",
+     "tipo": "h3",
      "texto": "Falta remédio?"
     },
     {
@@ -2592,7 +2789,20 @@
      "texto": "Falta. A lista municipal tem 252 remédios, e o abastecimento estava em 76% em agosto de 2026 (RDQA, 2º quadrimestre), o que dá cerca de 60 itens em falta (cálculo do autor). Entre os citados estão losartana, metformina e hidroclorotiazida, de uso contínuo para pressão e diabetes. As metas de 90% em dezembro de 2025 e de 100% em janeiro de 2026 não se cumpriram. A prefeitura gastou R$ 22,6 milhões com remédios básicos em 2025, e o próprio secretário de Saúde estima que faltam pelo menos R$ 6 milhões por mês. O Ministério Público abriu inquérito em agosto de 2026."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Remédios",
+     "texto": [
+      "Publicar todo mês a lista de remédios em falta, posto a posto.",
+      "Compra planejada por ata de registro de preços e consórcio com outros municípios, com estoque mínimo dos remédios de uso contínuo para pressão e diabetes."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "8.4",
+     "texto": "Filas de exames e cirurgias"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto se espera por exame e cirurgia?"
     },
     {
@@ -2641,12 +2851,21 @@
      "texto": "A fila total não é publicada desde 2024. Em novembro de 2024, uma liminar fixou espera máxima de 100 dias para consulta e seis meses para cirurgia; em maio de 2026 a prefeitura anunciou um mutirão de R$ 60 milhões para 8.400 cirurgias e 16.800 exames, cujo resultado ainda não saiu. Cerca de 30% dos pacientes faltam às consultas e exames marcados (painel da SESAU), o que pede confirmação por mensagem e remarcação rápida da vaga."
     },
     {
-     "tipo": "caixa",
-     "valor": "5,28",
-     "texto": "médicos por mil habitantes em Campo Grande: 4.839 médicos (out/2024), contra 1,9 por mil no interior de MS. Médico não falta na cidade; falta a rede pública contratar e fixar. Fonte: Conselho Federal de Medicina."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Filas de exames e cirurgias",
+     "texto": [
+      "Publicar todo mês a fila por especialidade, com o tempo de espera.",
+      "Confirmar consulta e exame por mensagem, para recuperar as vagas perdidas por falta.",
+      "Contratar os hospitais por meta de produção, com a fila como indicador."
+     ]
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "8.5",
+     "texto": "Urgência e hospitais"
+    },
+    {
+     "tipo": "h3",
      "texto": "E a emergência?"
     },
     {
@@ -2654,7 +2873,124 @@
      "texto": "A cidade está em situação de emergência na saúde desde abril de 2025. Em 27/04/2026, o pronto-socorro da Santa Casa tinha cerca de 90 pacientes para 7 leitos contratados, com 67 internados em corredores (imprensa); em julho, a área verde tinha 48 pacientes para 7 leitos (o próprio hospital). Nas UPAs, há pacientes que esperam de três a quatro dias por um leito. A Santa Casa, sob intervenção, tem dívida acima de R$ 810 milhões. A cidade tem 1.753 leitos do SUS, entre 1,4 e 1,8 por mil habitantes, abaixo dos 2,5 a 3,2 por mil usados como referência."
     },
     {
-     "tipo": "h2",
+     "tipo": "p",
+     "texto": "A cidade tem 1.753 leitos do SUS e 1.276 privados (abril de 2025). A Santa Casa é o maior hospital conveniado e recebe cerca de R$ 32,8 milhões por mês do SUS, segundo a imprensa; o Hospital Universitário (Humap-UFMS) tem 210 leitos e um contrato de R$ 57,5 milhões por ano com a secretaria."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Urgência e hospitais",
+     "texto": [
+      "Contratos com a Santa Casa e os hospitais conveniados por meta: leitos efetivamente abertos, tempo de espera na UPA e pacientes no corredor."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "8.6",
+     "texto": "Atendimentos, custo e qualidade"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos atendimentos a rede faz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Entre maio e agosto de 2026, a atenção primária fez 2.170.701 ações, 5% a mais que no mesmo período de 2025: 982.741 visitas domiciliares dos agentes comunitários, 694.808 procedimentos (curativo, vacina, aferição de pressão), 438.884 consultas individuais e 54.268 atendimentos odontológicos. A atenção especializada da rede própria fez 100.859 procedimentos, e a saúde mental, cerca de 14,9 mil atendimentos por mês."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "≈ 1,3 milhão",
+     "texto": "de consultas por ano na atenção primária, numa conta simples que multiplica o quadrimestre por três. Fonte: RDQA da Secretaria de Saúde, 2º quadrimestre de 2026 (cálculo do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os atendimentos de urgência nas UPAs e CRSs e as internações não aparecem nos relatórios abertos consultados; estão nos sistemas do SUS (SIA e SIH) e entram aqui quando forem levantados."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Orçamento da saúde",
+     "cabecalho": [
+      "Item",
+      "Valor"
+     ],
+     "linhas": [
+      [
+       "Orçamento total da prefeitura em 2026 (LOA)",
+       "R$ 6,974 bi"
+      ],
+      [
+       "Fundo Municipal de Saúde em 2026",
+       "R$ 2,092 bi (30%)"
+      ],
+      [
+       "Gasto liquidado de janeiro a junho de 2026",
+       "R$ 849,7 mi"
+      ],
+      [
+       "…com recursos próprios",
+       "R$ 414 mi"
+      ],
+      [
+       "Receita própria aplicada em saúde (mínimo: 15%)",
+       "24,6%"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "Há controle de qualidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Controles da rede municipal de saúde",
+     "cabecalho": [
+      "Controle",
+      "É publicado?"
+     ],
+     "linhas": [
+      [
+       "Relatórios quadrimestral (RDQA) e anual (RAG) à Câmara",
+       "Sim, a cada quatro meses"
+      ],
+      [
+       "Painel de gestão: faltas às consultas (~30%), regulação, urgência, produção das equipes",
+       "Sim"
+      ],
+      [
+       "Tempo de espera nas UPAs e CRSs, ao vivo (SiGS)",
+       "Sim, desde ago/2025"
+      ],
+      [
+       "Metas de qualidade nos contratos com hospitais",
+       "As metas sim; o resultado mensal não"
+      ],
+      [
+       "Satisfação do usuário de postos e UPAs",
+       "Não"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Existe controle, mas quase todo ele mede volume (quantos atendimentos) e não resultado: se o paciente melhorou, quanto esperou pelo especialista, se voltou satisfeito. Publicar esses números, posto a posto, é uma proposta que custa pouco e muda muito."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Atendimentos, custo e qualidade",
+     "texto": [
+      "Medir resultado e não só volume: tempo até o especialista, controle da pressão e do diabetes, satisfação do paciente, publicados posto a posto."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "8.7",
+     "texto": "A criança atípica"
+    },
+    {
+     "tipo": "h3",
      "texto": "E a criança atípica?"
     },
     {
@@ -2662,12 +2998,12 @@
      "texto": "O Censo 2022 contou 10.779 moradores de Campo Grande com diagnóstico de autismo, 1,2% da população; entre 5 e 9 anos, a taxa nacional chega a 2,6% (IBGE). A terapia pelo SUS é feita quase toda por filantrópicas conveniadas, como Apae, Pestalozzi, Cotolengo e Juliano Varela, e a fila passa de 2 mil, com 235 ações judiciais só em 2025 (MPMS, 09/04/2026). Num caso, a Justiça bloqueou R$ 83,8 mil das contas da prefeitura para pagar a terapia de uma criança (Campo Grande News, 04/12/2024): a fila sai mais cara pela Justiça do que pelo planejamento. A cidade ficou cerca de dez anos sem formar fonoaudiólogos e terapeutas ocupacionais; a UEMS abriu os cursos em 2025. A escola dessas crianças está no Capítulo 9."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Publicar todo mês a fila por especialidade, com o tempo de espera, e a lista de remédios em falta. Contratar os hospitais por meta de produção, com a fila como indicador. Confirmar consulta por mensagem para recuperar as vagas perdidas por falta. Rastrear o autismo nos postos entre 16 e 30 meses e pagar as filantrópicas por produção, com meta pública de fila: a sociedade organizada atende, a prefeitura financia e fiscaliza."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A criança atípica",
+     "texto": [
+      "Rastrear o autismo nos postos entre 16 e 30 meses.",
+      "Pagar as filantrópicas por produção, com meta pública de fila: a sociedade organizada atende, a prefeitura financia e fiscaliza."
+     ]
     }
    ],
    "glossario": [
@@ -2715,7 +3051,16 @@
      "Imbirussu": "10 postos, 2 UPAs; ≈ 10.800 hab. por posto"
     },
     "nota": "Habitantes por posto: população do Censo 2022 (IBGE), conforme noticiado, dividida pelos postos de atenção básica (CNES, out/2026). Cálculo do autor."
-   }
+   },
+   "subtopicos": [
+    "8.1 Unidades de atendimento",
+    "8.2 Médicos e profissionais",
+    "8.3 Remédios",
+    "8.4 Filas de exames e cirurgias",
+    "8.5 Urgência e hospitais",
+    "8.6 Atendimentos, custo e qualidade",
+    "8.7 A criança atípica"
+   ]
   },
   {
    "fonte_prevista": "Censo Escolar e IDEB (INEP) e dados da Secretaria Municipal de Educação",
@@ -2731,7 +3076,12 @@
      "texto": "Nathaly, de 19 anos, deixou o emprego de telemarketing para cuidar da filha enquanto esperava vaga numa Emei do Aero Rancho (Campo Grande News, 27/05/2023). A história se repete nos mutirões da Defensoria, onde a fila é quase toda de mulheres. Para uma mãe que cria o filho sozinha, a creche decide se ela trabalha."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "9.1",
+     "texto": "Creches e vagas"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantas crianças esperam vaga?"
     },
     {
@@ -2785,6 +3135,19 @@
      "texto": "A fila oficial é o piso, não a necessidade: só entra nela quem se inscreve. Para chegar à meta do Plano Nacional de Educação, de 50% das crianças de 0 a 3 anos em creche (Lei 13.005/2014), faltariam cerca de 11,7 mil vagas na rede pública, quase três vezes a fila (cálculo do autor). E cerca de metade da fila vira processo todo ano: a vaga vai para quem tem informação para procurar a Defensoria, não necessariamente para quem mais precisa."
     },
     {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Creches e vagas",
+     "texto": [
+      "Publicar todo mês a fila por Emei e por região, como manda a Lei municipal 7.286/2024.",
+      "Vaga na rede particular credenciada onde a Emei não chega."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.2",
+     "texto": "Infraestrutura"
+    },
+    {
      "tipo": "caixa",
      "valor": "7 de 8",
      "texto": "Emeis prometidas estavam paradas em junho de 2026; só a do bairro Popular andava, com R$ 26,2 milhões federais disponíveis. A da Moreninha II está parada desde 2013. Fonte: O Jacaré, 06/06/2026, com dados do Portal do FNDE."
@@ -2794,7 +3157,20 @@
      "texto": "O gargalo não é só o prédio. Cada Emei nova exige ao menos 50 profissionais, e a prefeitura está colada no limite de gasto com pessoal da Lei de Responsabilidade Fiscal (ver Capítulo 4)."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Infraestrutura",
+     "texto": [
+      "Terminar as Emeis paradas antes de começar novas, com o dinheiro federal que já existe.",
+      "Inventário público das escolas e Emeis: reforma pendente, climatização, acessibilidade, quadra e cozinha."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.3",
+     "texto": "Mães solo"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantas mães criam os filhos sozinhas?"
     },
     {
@@ -2802,7 +3178,20 @@
      "texto": "Em Campo Grande, 163.719 domicílios têm uma mulher como responsável, 50,2% do total (IBGE, Censo 2022, via Campo Grande News, 25/10/2024). Em Mato Grosso do Sul, 12,6% das famílias são de mãe sem cônjuge com filhos, e mais da metade delas vive com menos de um salário mínimo por pessoa (IBGE, Censo 2022, Nupcialidade e Família). Aplicadas à capital, essas proporções dão entre 41 e 46 mil mães criando filhos sem cônjuge (cálculo do autor). Se a indústria vier a Campo Grande pela mão de obra, como propõe o Capítulo 2, é a creche em tempo integral que libera a metade feminina dessa força de trabalho."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Mães solo",
+     "texto": [
+      "Prioridade pública na fila para o bebê de mãe solo que trabalha ou estuda, para que a vaga não dependa de ação judicial.",
+      "Creche em tempo integral nas regiões de maior fila, para liberar a mãe para o trabalho."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.4",
+     "texto": "Alimentação escolar"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que a merenda representa?"
     },
     {
@@ -2810,7 +3199,38 @@
      "texto": "A merenda chega a mais de 110 mil alunos em 207 unidades, e desde 2024 todo o hortifrúti vem da agricultura familiar (Semed, via A Crítica, 18/10/2026). O governo federal paga, por aluno e por dia letivo, R$ 1,57 na creche e R$ 0,57 no ensino fundamental (Resolução CD/FNDE nº 1/2026); o resto sai do caixa da cidade. Quanto, ninguém sabe: a prefeitura não usa a subfunção de alimentação escolar no orçamento, e a merenda fica diluída nas linhas de ensino (SICONFI, DCA 2022–2025). Para a família pobre, a refeição da escola é parte do orçamento doméstico, e nas férias a cozinha fecha."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Alimentação escolar",
+     "texto": [
+      "Cozinha aberta nas férias nas regiões de menor renda.",
+      "A merenda separada no orçamento, na subfunção própria, para saber quanto a cidade gasta.",
+      "Manter e ampliar a compra da agricultura familiar."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.5",
+     "texto": "Professores"
+    },
+    {
+     "tipo": "p",
+     "texto": "Professores e assistentes de educação infantil estavam entre as cinco funções com mais temporários na auditoria do Tribunal de Contas de 2022 (Capítulo 4), e a LDO de 2027 recebeu da Câmara diretrizes de concurso, jornada de 30 horas e piso do magistério (Capítulo 7). O número de professores da rede, por vínculo, e o resultado de aprendizagem dos alunos ainda não foram levantados para este livro."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Professores",
+     "texto": [
+      "Concurso para as vagas permanentes de professor, com a conta da folha feita antes e publicada.",
+      "Formação continuada ligada à aprendizagem medida em sala, e meta de alfabetização na idade certa por escola."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.6",
+     "texto": "Educação inclusiva"
+    },
+    {
+     "tipo": "h3",
      "texto": "E a criança atípica na escola?"
     },
     {
@@ -2818,12 +3238,12 @@
      "texto": "A rede municipal tinha cerca de 2.500 alunos com deficiência em 2019 e 5.780 em 2025, mais que o dobro, com o total de alunos quase parado (Semed, via Correio do Estado, 23/07/2019, e balanço da Reme 2025). São cerca de 5% dos alunos. Os profissionais de apoio não acompanharam: eram 2,6 alunos da educação especial por profissional em 2022 e 4,2 em 2025 (cálculo do autor). O assistente educacional inclusivo é quase sempre temporário, contratado a R$ 2.500 por 40 horas, e o Ministério Público mandou a prefeitura abrir concurso em 2025. No orçamento, a subfunção Educação Especial está zerada: não se sabe quanto custa a inclusão (SICONFI, DCA 2025). A fila das terapias está no Capítulo 8."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Terminar as Emeis paradas antes de começar novas, com o dinheiro federal que já existe. Publicar todo mês a fila por Emei e por região, como manda a Lei municipal 7.286/2024. Prioridade pública na fila para o bebê de mãe solo que trabalha ou estuda, para que a vaga não dependa de ação judicial. Vaga na rede particular credenciada onde a Emei não chega. Cozinha aberta nas férias nas regiões de menor renda e a merenda separada no orçamento. Concurso e carreira para o assistente inclusivo, e o gasto com educação especial lançado na sua subfunção."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Educação inclusiva",
+     "texto": [
+      "Concurso e carreira para o assistente educacional inclusivo.",
+      "O gasto com educação especial lançado na sua subfunção, para saber quanto custa a inclusão."
+     ]
     }
    ],
    "regiao": {
@@ -2851,6 +3271,14 @@
     "BRASIL. Lei nº 13.005/2014 (PNE), meta 1; Constituição Federal, art. 208, IV; Resolução CD/FNDE nº 1, de 18/02/2026 (PNAE); Lei nº 12.764/2012; CAMPO GRANDE. Lei nº 7.286/2024.",
     "BRASIL. Tesouro Nacional. SICONFI: DCA 2022–2025, Anexo I-E (subfunções 12.365, 12.367 e 12.306).",
     "O Jacaré, 06/06/2026 (obras paradas, dados do FNDE); balanço da Reme 2025, via CGR Brasil News, 31/12/2025; MPMS, 17/06/2025 (concurso de AEI), via Campo Grande News (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "9.1 Creches e vagas",
+    "9.2 Infraestrutura",
+    "9.3 Mães solo",
+    "9.4 Alimentação escolar",
+    "9.5 Professores",
+    "9.6 Educação inclusiva"
    ]
   },
   {
@@ -2867,7 +3295,12 @@
      "texto": "No primeiro semestre de 2026, o telefone 153 da Guarda Civil Metropolitana recebeu 15.585 ligações, 30% a mais que um ano antes (balanço da GCM, A Crítica, 23/07/2026). A cidade chama a Guarda cada vez mais. A pergunta deste capítulo é o que a prefeitura pode, de fato, fazer pela segurança, e como saber se está fazendo."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "10.1",
+     "texto": "O papel da prefeitura"
+    },
+    {
+     "tipo": "h3",
      "texto": "Segurança é tarefa da prefeitura?"
     },
     {
@@ -2884,7 +3317,19 @@
      "texto": "Fora da Guarda, a prefeitura atua sobre as ocasiões do crime com ferramentas que são só dela: iluminação, praça ocupada, terreno baldio fiscalizado, uso do solo, escola em tempo integral e assistência social (Constituição, arts. 30 e 182)."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O papel da prefeitura",
+     "texto": [
+      "Iluminação, terreno baldio e praça tratados como política de segurança, com mapa de pontos escuros feito junto com a Guarda."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "10.2",
+     "texto": "Efetivo e orçamento da Guarda"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantos guardas e quanto custam?"
     },
     {
@@ -2958,15 +3403,36 @@
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E (despesa liquidada). Em cinco anos a despesa com segurança subiu 5% em valor nominal, enquanto a despesa total da prefeitura cresceu 28% (cálculo do autor). Descontada a inflação, encolheu. É quase só folha: a frota tem viaturas com seis anos de uso, 20 novas foram alugadas em 2026, e os equipamentos novos vieram de um programa federal de R$ 2,6 milhões (Correio do Estado, 24/07/2026; A Crítica, 02/06/2026). O vencimento-base citado na Câmara em agosto de 2026 foi de R$ 1.860 (A Crítica, 10/08/2026)."
     },
     {
-     "tipo": "h2",
-     "texto": "O que a Guarda faz?"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Efetivo e orçamento da Guarda",
+     "texto": [
+      "Recompor o orçamento da segurança e a carreira dos guardas antes de aumentar o efetivo."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "10.3",
+     "texto": "O que a Guarda faz"
     },
     {
      "tipo": "p",
      "texto": "No primeiro semestre de 2026, além das 15.585 ligações, foram 13.050 atendimentos registrados; a Patrulha Maria da Penha fez 1.525 ações e 645 fiscalizações de medidas protetivas; a motopatrulha abordou 851 pessoas (balanço da GCM, A Crítica, 23/07/2026). Desde dezembro de 2024 a Guarda também fiscaliza o trânsito, com cerca de 60 guardas (Correio do Estado, 27/11/2024). A Patrulha Maria da Penha é onde a Guarda mais claramente reduz violência."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que a Guarda faz",
+     "texto": [
+      "Ampliar a Patrulha Maria da Penha.",
+      "Guarda distribuída pelas regiões conforme as ocorrências, com base fixa nas praças-polo do programa Praça da Família (Capítulo 5)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "10.4",
+     "texto": "Metas e resultados"
+    },
+    {
+     "tipo": "h3",
      "texto": "Que metas a Guarda tem?"
     },
     {
@@ -2978,12 +3444,11 @@
      "texto": "Régua existe. O Plano Nacional de Segurança Pública fixa, até 2030, homicídios abaixo de 16 por 100 mil habitantes, mortes violentas de mulheres abaixo de 2 por 100 mil mulheres e mortes no trânsito abaixo de 9 por 100 mil, e prevê planos municipais alinhados (Decreto 10.822/2021). Campo Grande teve 19,5 homicídios por 100 mil em 2024, abaixo da média das capitais (26,6), mas com a segunda maior alta entre elas desde 2019 (Atlas da Violência, Ipea e FBSP, via Campo Grande News, 26/05/2026). Para chegar a 16, seriam cerca de 30 homicídios a menos por ano (cálculo do autor)."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Um Plano Municipal de Segurança com metas públicas por região: homicídios, violência contra a mulher, furto no comércio e mortes no trânsito, com balanço a cada semestre. Guarda distribuída pelas regiões conforme as ocorrências, com base fixa nas praças-polo do programa Praça da Família (Cap. 5). Ampliar a Patrulha Maria da Penha. Recompor o orçamento da segurança e a carreira dos guardas antes de aumentar o efetivo. E iluminação, terreno baldio e praça tratados como política de segurança, porque são."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Metas e resultados",
+     "texto": [
+      "Um Plano Municipal de Segurança com metas públicas por região: homicídios, violência contra a mulher, furto no comércio e mortes no trânsito, com balanço a cada semestre."
+     ]
     }
    ],
    "regiao": {
@@ -3011,6 +3476,12 @@
     "BRASIL. Tesouro Nacional. SICONFI: DCA 2021–2025, Anexo I-E (função 06), Município de Campo Grande.",
     "Ipea e FBSP. Atlas da Violência 2026, conforme Campo Grande News, 26/05/2026 (fonte secundária).",
     "Balanço da GCM, efetivo, frota e salários: A Crítica (02/06/2026; 23/07/2026; 10/08/2026), Correio do Estado (27/11/2024; 24/07/2026), Campo Grande News (30/05/2025), O Liberal (04/11/2026) (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "10.1 O papel da prefeitura",
+    "10.2 Efetivo e orçamento da Guarda",
+    "10.3 O que a Guarda faz",
+    "10.4 Metas e resultados"
    ]
   },
   {
@@ -3027,7 +3498,12 @@
      "texto": "Em 2022 o IBGE contou 16 favelas em Campo Grande, com 7.862 moradores. Em março de 2026, a imprensa somou 236 áreas ocupadas irregularmente, com mais de 50 mil pessoas (Censo 2022, via Impacto Mais, 08/11/2024; Campo Grande News, 16/03/2026). As duas contas estão certas: a favela clássica é pequena, mas a cidade informal, de casa de alvenaria em lote sem escritura, é grande."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "11.1",
+     "texto": "O tamanho do déficit"
+    },
+    {
+     "tipo": "h3",
      "texto": "Qual é o tamanho do déficit?"
     },
     {
@@ -3071,7 +3547,20 @@
      "texto": "Campo Grande tem 66.917 domicílios vagos (Censo 2022) e um déficit imediato de 16.105 moradias: cerca de quatro casas vazias para cada família em déficit. Fonte: IBGE, via Campo Grande News, 21/03/2024; Phabis (cálculo do autor)."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O tamanho do déficit",
+     "texto": [
+      "Atacar o aluguel antes do tijolo: locação social e aluguel subsidiado, com prioridade para o Centro e os corredores de ônibus, usando os imóveis vazios.",
+      "IPTU progressivo no tempo sobre o imóvel vazio e especulativo, já previsto no Estatuto da Cidade."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "11.2",
+     "texto": "Favelas e áreas irregulares"
+    },
+    {
+     "tipo": "h3",
      "texto": "Onde estão as favelas?"
     },
     {
@@ -3079,20 +3568,29 @@
      "texto": "No sul, sobretudo. A Homex, no extremo sul do Anhanduizinho, é a maior de Mato Grosso do Sul, com 3.317 moradores no Censo de 2022, e está em regularização. Samambaia, Mário Covas e a antiga Cidade de Deus, hoje Cidade dos Anjos, ao lado do antigo lixão, ficam na mesma região. Em segundo lugar vem o Prosa, na saída para Três Lagoas, com Nova Esperança e Morada dos Angicos, onde 92 de 93 casas tinham fossa rudimentar ou buraco (Censo 2022, via Campo Grande News, 08/11/2024; Correio do Estado, 03/03/2023). O Centro não tem favela listada; tem casa vazia."
     },
     {
-     "tipo": "h2",
-     "texto": "O que a prefeitura entrega?"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Favelas e áreas irregulares",
+     "texto": [
+      "Regularização fundiária em massa das 236 áreas irregulares, porque escritura é propriedade, e propriedade é crédito e segurança para a família.",
+      "Saneamento junto com a escritura, começando pela Nova Esperança e pela Morada dos Angicos."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "11.3",
+     "texto": "O que a prefeitura entrega"
     },
     {
      "tipo": "p",
      "texto": "Cerca de 540 moradias por ano com subsídio desde 2017, diante de uma demanda de 11,4 mil por ano; um orçamento da Emha de cerca de R$ 14 milhões para habitação; 1.264 casas contratadas no Jardim Água Branca, nas Moreninhas; e cerca de 36 mil famílias na fila (Campo Grande News, 2026; Correio do Estado, 06/11/2026). No Centro, a prefeitura regulamentou a locação social (Lei 6.592 e Decreto 15.167/2022) e comprou um terreno para cerca de 200 moradias (Prefeitura de Campo Grande, CG Notícias, 12/12/2023)."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Atacar o aluguel antes do tijolo: locação social e aluguel subsidiado com prioridade para o Centro e os corredores de ônibus, usando os imóveis vazios. Regularização fundiária em massa das 236 áreas irregulares, porque escritura é propriedade, e propriedade é crédito e segurança para a família. Lote urbanizado com projeto-padrão para quem constrói por conta própria, a pequena propriedade espalhada que defende o Capítulo 5. E IPTU progressivo no tempo sobre o imóvel vazio e especulativo, já previsto no Estatuto da Cidade."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que a prefeitura entrega",
+     "texto": [
+      "Lote urbanizado com projeto-padrão para quem constrói por conta própria, a pequena propriedade espalhada que defende o Capítulo 5.",
+      "Fila da habitação publicada, com critério e posição de cada família."
+     ]
     }
    ],
    "regiao": {
@@ -3121,6 +3619,11 @@
     "Correio do Estado: regularização da Homex (03/03/2023); 1.264 casas populares (06/11/2026) (fontes secundárias).",
     "CAMPO GRANDE. Lei nº 6.592/2022 e Decreto nº 15.167/2022 (locação social); CG Notícias, 12/12/2023.",
     "BRASIL. Lei nº 10.257/2001 (Estatuto da Cidade), arts. 5º a 8º."
+   ],
+   "subtopicos": [
+    "11.1 O tamanho do déficit",
+    "11.2 Favelas e áreas irregulares",
+    "11.3 O que a prefeitura entrega"
    ]
   },
   {
@@ -3137,7 +3640,12 @@
      "texto": "Em 2025, uma em cada quatro viagens de ônibus programadas em Campo Grande não aconteceu: o sistema cumpriu 74,5% do que devia (relatório da intervenção, via Diário do Transporte, 25/09/2026). Quem esperou no ponto sabe disso sem precisar do número. Este capítulo trata de como o morador atravessa uma cidade que cresceu para as bordas, e do ônibus que deveria levá-lo."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "12.1",
+     "texto": "Ônibus"
+    },
+    {
+     "tipo": "h3",
      "texto": "Como está o ônibus?"
     },
     {
@@ -3201,7 +3709,21 @@
      "texto": "é a diferença entre o custo de cada passageiro (R$ 6,57) e o que ele paga (R$ 4,95). Alguém paga essa diferença: a prefeitura, o próprio usuário pela pior qualidade, ou o contrato pela Justiça. Fonte: Correio do Estado (24/01/2025 e 21/07/2026); cálculo do autor."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Ônibus",
+     "texto": [
+      "Um contrato novo, que pague o operador por viagem cumprida e por qualidade, e não só por passageiro.",
+      "Frota e pontualidade publicadas em tempo real.",
+      "Integração tarifária com o tempo, para que a baldeação não custe outra passagem."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "12.2",
+     "texto": "Corredores e a cidade do carro"
+    },
+    {
+     "tipo": "h3",
      "texto": "Por que a cidade depende do carro?"
     },
     {
@@ -3213,12 +3735,29 @@
      "texto": "Os dados de tempo de deslocamento casa-trabalho do Censo 2022 e a contagem de passageiros por linha não foram publicados de forma aberta para Campo Grande; o livro diz isso em vez de estimar. É o primeiro dado a pedir à Agetran e à Agereg."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Corredores e a cidade do carro",
+     "texto": [
+      "Corredores com faixa exclusiva nas avenidas que ligam o Anhanduizinho, o Lagoa e o Bandeira ao Centro.",
+      "Crescer para dentro: cada morador a mais perto do Centro e dos corredores é passageiro a mais no ônibus e carro a menos na rua."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "12.3",
+     "texto": "Calçadas e travessias"
     },
     {
      "tipo": "p",
-     "texto": "Um contrato novo, que pague o operador por viagem cumprida e por qualidade, e não só por passageiro, com a frota e a pontualidade publicadas em tempo real. Corredores com faixa exclusiva nas avenidas que ligam o Anhanduizinho, o Lagoa e o Bandeira ao Centro, onde mora a maior parte de quem usa ônibus. Integração tarifária com o tempo, para que a baldeação não custe outra passagem. Calçada contínua e travessia segura no caminho da escola, do posto e do ponto (Capítulo 5). E crescer para dentro: cada morador a mais perto do Centro e dos corredores é passageiro a mais no ônibus e carro a menos na rua."
+     "texto": "Ninguém publica um inventário das calçadas de Campo Grande, nem dos pontos de ônibus sem abrigo. É no caminho a pé, até o ponto, a escola e o posto, que o idoso e a mãe com carrinho sentem a cidade (Capítulo 5)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Calçadas e travessias",
+     "texto": [
+      "Calçada contínua e travessia segura no caminho da escola, do posto e do ponto, começando pelas regiões de maior uso do ônibus.",
+      "Abrigo e informação de horário em cada ponto."
+     ]
     }
    ],
    "regiao": {
@@ -3244,6 +3783,11 @@
     "Relatório da intervenção no transporte coletivo de Campo Grande, conforme Diário do Transporte (02/06/2026; 21/07/2026; 25/09/2026) (fonte secundária).",
     "Correio do Estado (24/01/2025; 21/07/2026) e A Crítica (22/05/2026): tarifa, tarifa técnica, venda do consórcio e repasses (fontes secundárias).",
     "IBGE. Censo Demográfico 2022: população por região, conforme Campo Grande News, 21/03/2024."
+   ],
+   "subtopicos": [
+    "12.1 Ônibus",
+    "12.2 Corredores e a cidade do carro",
+    "12.3 Calçadas e travessias"
    ]
   },
   {
@@ -3260,7 +3804,12 @@
      "texto": "Em 2025 a Polícia Militar atendeu 24.328 ocorrências de perturbação do sossego em Campo Grande, 67 por dia; o barulho é a reclamação número um do 190 (Sejusp, via Campo Grande News, 20/03/2026 e 14/07/2023). No mesmo ano, a prefeitura gastou com cultura o menor valor em cinco anos. Este capítulo trata das duas coisas juntas, porque a solução é uma só: pôr cada som no seu lugar."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "13.1",
+     "texto": "Orçamento e palcos da cultura"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto a prefeitura gasta com cultura?"
     },
     {
@@ -3318,7 +3867,19 @@
      "texto": "A maioria dos palcos da cidade não é da prefeitura: o Teatro Glauce Rocha é da UFMS; o Centro Cultural José Octávio Guizzo, a Concha Acústica e o Memorial da Cultura são do estado. Quase tudo está no Centro e no Prosa; as sete regiões não têm, cada uma, um centro cultural municipal. As praças e as escolas são a rede que já existe nos bairros."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Orçamento e palcos da cultura",
+     "texto": [
+      "O Fundo Municipal de Investimentos Culturais (FMIC) com valor mínimo em lei e calendário que não se suspende."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "13.2",
+     "texto": "Música da terra"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto vai para a música da terra?"
     },
     {
@@ -3326,7 +3887,21 @@
      "texto": "Ninguém sabe. A prefeitura não publica balanço de cachês por evento nem pela origem do artista; os contratos de show saem um a um no Diogrande, por inexigibilidade (Lei 14.133/2021, art. 74, II). Nem o Arraial de Santo Antônio nem o Natal no Centro tiveram os cachês divulgados. No mesmo estado, um baile regional pagou de R$ 12 mil a R$ 15 mil e um festival pagou até R$ 500 mil a uma atração nacional (Campo Grande News, 25/07/2026): um único cachê desses equivale a um oitavo de todo o FMIC de 2024. A cidade de Helena Meireles, Almir Sater, Geraldo Espíndola e Paulo Simões merece regra para o seu próprio palco."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Música da terra",
+     "texto": [
+      "Pelo menos dois terços do dinheiro municipal de shows para artistas de Mato Grosso do Sul.",
+      "Tabela pública de cachês e um painel de cada evento.",
+      "Um circuito de música nas praças dos bairros, até as 22h."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "13.3",
+     "texto": "Sossego e barulho"
+    },
+    {
+     "tipo": "h3",
      "texto": "Por que o barulho não se resolve?"
     },
     {
@@ -3373,12 +3948,31 @@
      "texto": "A norma técnica brasileira já prevê o meio-termo: limites maiores para áreas de atividade cultural e de lazer, e menores para as áreas residenciais (ABNT NBR 10151:2019). A lei pode reconhecer um distrito cultural sem liberar o barulho na cidade toda."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Sossego e barulho",
+     "texto": [
+      "Na nova lei de uso do solo, um mapa de zonas de som pela norma técnica, com dois ou três distritos culturais, como a Esplanada Ferroviária e a Rua 14 de Julho.",
+      "Licença sonora simples para o bar, com multa em reais e por porte, e crédito para isolamento acústico.",
+      "Fiscalização noturna de verdade, com Guarda, Planurb e PM Ambiental medindo na casa de quem reclama, e operação contra o som automotivo."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "13.4",
+     "texto": "Esporte e lazer"
     },
     {
      "tipo": "p",
-     "texto": "Na nova lei de uso do solo, um mapa de zonas de som pela norma técnica, com dois ou três distritos culturais, como a Esplanada Ferroviária e a Rua 14 de Julho, onde a música ao vivo tem horário mais longo. Licença sonora simples para o bar, com multa em reais e por porte, e crédito para isolamento acústico. Fiscalização noturna de verdade, com Guarda, Planurb e PM Ambiental medindo na casa de quem reclama, e operação contra o som automotivo nos bairros que mais sofrem. Na cultura: o FMIC com valor mínimo em lei e calendário que não se suspende; pelo menos dois terços do dinheiro municipal de shows para artistas de MS, com tabela pública de cachês e um painel de cada evento; e um circuito de música nas praças dos bairros, até as 22h."
+     "texto": "A despesa da prefeitura com esporte e lazer está na tabela do primeiro subtópico. O número de quadras, ginásios e escolinhas por região não foi encontrado em fonte aberta nesta pesquisa e entra quando for levantado."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Esporte e lazer",
+     "texto": [
+      "Quadra e escolinha esportiva nas praças-polo do programa Praça da Família (Capítulo 5).",
+      "Esporte no contraturno da escola em tempo integral, nas regiões de menor renda.",
+      "Cadastro público dos equipamentos esportivos por região."
+     ]
     }
    ],
    "regiao": {
@@ -3405,6 +3999,12 @@
     "CAMPO GRANDE. Lei nº 7.415/2025 (Fundac); Lei Complementar nº 8/1996 (poluição sonora). BRASIL. Lei nº 14.133/2021, art. 74. ABNT NBR 10151:2019.",
     "Sejusp e PM: ocorrências de perturbação do sossego, conforme Campo Grande News (14/07/2023; 20/03/2026; 19/06/2026) (fontes secundárias).",
     "Campo Grande News (28/03/2018; 09/05/2023; 06/12/2024; 25/07/2026) e Correio do Estado (25/09/2026): lei do silêncio, editais do FMIC e cachês (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "13.1 Orçamento e palcos da cultura",
+    "13.2 Música da terra",
+    "13.3 Sossego e barulho",
+    "13.4 Esporte e lazer"
    ]
   },
   {
@@ -3421,7 +4021,12 @@
      "texto": "Em 2025, o governo federal pagou R$ 1,17 bilhão em benefícios diretamente a moradores de Campo Grande: Bolsa Família, BPC, Pé-de-Meia, Auxílio Gás e outros (Portal da Transparência). No mesmo ano, a prefeitura gastou R$ 154 milhões em toda a assistência social (SICONFI, DCA 2025). Para cada real da prefeitura, a União pôs R$ 7,60 no bolso das famílias da cidade (cálculo do autor)."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "14.1",
+     "texto": "Transferência de renda e a porta do CRAS"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quem recebe o quê?"
     },
     {
@@ -3475,7 +4080,20 @@
      "texto": "A prefeitura não é dona do dinheiro da transferência de renda, mas é dona da porta: é o CRAS municipal que inscreve e atualiza o Cadastro Único, e sem ele ninguém recebe Bolsa Família, BPC, Gás do Povo ou tarifa social de energia."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Transferência de renda e a porta do CRAS",
+     "texto": [
+      "Cadastro Único atualizado e busca ativa, com balanço anual da secretaria mostrando famílias atendidas e fila do cadastro.",
+      "Ligar o cadastro às vagas de emprego e aos cursos, em vez de manter o emprego temporário dentro da prefeitura como saída."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.2",
+     "texto": "Orçamento e entidades"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quanto a prefeitura gasta?"
     },
     {
@@ -3529,7 +4147,19 @@
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E. A assistência cresceu 49% em quatro anos, mais que o orçamento (28%), mas o aumento foi para a administração da secretaria, que saltou de R$ 22 milhões para R$ 54 milhões em 2024, enquanto os serviços na ponta caíram; pode ser reclassificação contábil, e é a pergunta a fazer. São cerca de R$ 172 por habitante ao ano. Em abril de 2025 a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais, alegando o ajuste fiscal (O Jacaré, 25/04/2025): o apoio a quem já cuida das pessoas fica à mercê do caixa."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Orçamento e entidades",
+     "texto": [
+      "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.3",
+     "texto": "População de rua"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quantas pessoas vivem na rua?"
     },
     {
@@ -3539,6 +4169,18 @@
     {
      "tipo": "p",
      "texto": "O que essas pessoas pedem é trabalho e renda, moradia, comida, saúde, documentos e tratamento para drogas, nessa ordem; só 7 dos entrevistados tinham emprego formal (censo de 2026). A rede tem um Centro POP novo desde setembro de 2026, depois de o Ministério Público ter encontrado o antigo em estado de calamidade, e cerca de 460 vagas de abrigo pelas notícias (cálculo do autor; a prefeitura não publica o número). A porta de saída, que é tratamento, trabalho e casa, continua estreita."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · População de rua",
+     "texto": [
+      "Abrigo com porta de saída, que junte tratamento, documento, trabalho e aluguel social."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.4",
+     "texto": "Drogas e dependência"
     },
     {
      "tipo": "caixa",
@@ -3554,12 +4196,12 @@
      "texto": "O comércio do Centro se queixa de furtos e de uso de droga nas portas (Campo Grande News, 17/06/2025; A Crítica, 17/07/2026). O lojista e o morador de rua não são lados opostos: o Centro esvaziado, que perdeu 13% dos moradores, abre espaço para o abandono, e o abandono afasta o cliente. A saída que serve aos dois é a mesma: gente morando no Centro, prédio vazio ocupado, rua iluminada e uma rede que tire a pessoa da calçada com tratamento, trabalho e teto."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Fazer bem o que é da prefeitura: Cadastro Único atualizado e busca ativa, com balanço anual da secretaria mostrando famílias atendidas e fila do cadastro. Ligar o cadastro às vagas de emprego e aos cursos, em vez de manter o emprego temporário dentro da prefeitura como saída. Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa. Para a população de rua: abrigo com porta de saída, que junte tratamento, documento, trabalho e aluguel social, e leitos de crise em hospital geral, como prevê a rede federal de atenção psicossocial. E prevenção na escola, onde a cidade lidera o uso precoce de drogas."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Drogas e dependência",
+     "texto": [
+      "Leitos de crise em hospital geral, como prevê a rede federal de atenção psicossocial.",
+      "Prevenção na escola, onde a cidade lidera o uso precoce de drogas."
+     ]
     }
    ],
    "regiao": {
@@ -3588,6 +4230,12 @@
     "MDS e Sead-MS, conforme Correio do Estado (26/01/2026; 22/01/2026; 17/06/2026) e A Crítica (01/04/2026; 07/08/2026); O Jacaré (25/04/2025) (fontes secundárias).",
     "Defensoria Pública de MS e outros. Censo da população em situação de rua de Campo Grande, apresentado em 19/08/2026 (Prefeitura de Campo Grande, CG Notícias); CadÚnico, conforme Campo Grande News, 02/11/2025.",
     "IBGE. PeNSE 2019, conforme Correio do Estado, 13/07/2022; rede de saúde mental: Prefeitura (10/05/2021; 23/10/2023) e Campo Grande News (10/10/2025; 04/05/2026) (fontes secundárias)."
+   ],
+   "subtopicos": [
+    "14.1 Transferência de renda e a porta do CRAS",
+    "14.2 Orçamento e entidades",
+    "14.3 População de rua",
+    "14.4 Drogas e dependência"
    ]
   },
   {
@@ -3604,7 +4252,12 @@
      "texto": "Campo Grande tem mais de dois mil templos, segundo a própria prefeitura, citada ao justificar um veto em março de 2026 (A Crítica, 18/03/2026). Em quase todo bairro, a primeira porta aberta para quem perdeu o emprego, saiu da cadeia, chegou de fora ou tenta largar a droga é a de uma igreja. Um livro sobre a cidade não pode tratar disso como assunto privado."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "15.1",
+     "texto": "A fé na cidade"
+    },
+    {
+     "tipo": "h3",
      "texto": "Quem crê em Campo Grande?"
     },
     {
@@ -3612,7 +4265,12 @@
      "texto": "O dado de religião do Censo 2022 por município ainda não foi publicado em fonte aberta para Campo Grande. Em 2010, eram 51,9% de católicos, 30,2% de evangélicos, uma das capitais mais evangélicas do país, e 10,4% sem religião (IBGE, Censo 2010, via Exame). Em Mato Grosso do Sul, em 2022, eram 51,9% de católicos e 32,5% de evangélicos (IBGE, Censo 2022, via Campo Grande News, 07/06/2025). A cidade é cristã, plural e cada vez mais evangélica, com espíritas, comunidades de matriz africana, a tradição budista e xintoísta dos imigrantes japoneses e a fé dos povos indígenas."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "15.2",
+     "texto": "O que as igrejas já fazem"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que as igrejas já fazem pela cidade?"
     },
     {
@@ -3625,7 +4283,20 @@
      "texto": "O que a comunidade faz bem, a prefeitura não deve tomar para si; o que ela não consegue fazer sozinha, a prefeitura deve ajudar a fazer. Fonte: Pontifício Conselho Justiça e Paz, Compêndio da Doutrina Social da Igreja (2004), n. 185–186."
     },
     {
-     "tipo": "h2",
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que as igrejas já fazem",
+     "texto": [
+      "Um cadastro público das entidades de acolhimento por região, para que o CRAS, o posto e a escola saibam a quem encaminhar.",
+      "As comunidades terapêuticas avaliadas por resultado, com equipe de saúde de referência para a fase de desintoxicação."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "15.3",
+     "texto": "Parceria com regra clara"
+    },
+    {
+     "tipo": "h3",
      "texto": "Como a prefeitura pode ser parceira?"
     },
     {
@@ -3637,12 +4308,12 @@
      "texto": "O que se vê hoje é o contrário de uma parceria estável. Em abril de 2025, a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais (O Jacaré, 25/04/2025). As vagas em comunidades terapêuticas caíram de 300 em 2021 para 273 em 2026 (Prefeitura de Campo Grande, 10/05/2021; Campo Grande News, 04/05/2026). A entidade nunca sabe se o convênio do ano que vem existirá."
     },
     {
-     "tipo": "h2",
-     "texto": "Propostas para 2032"
-    },
-    {
-     "tipo": "p",
-     "texto": "Repasse por lei, plurianual e por resultado às entidades que prestam serviço público, religiosas ou não, com chamamento aberto e prestação de contas na internet. Um cadastro público das entidades de acolhimento por região, para que o CRAS, o posto e a escola saibam a quem encaminhar. As comunidades terapêuticas avaliadas por resultado, com equipe de saúde de referência para a fase de desintoxicação. E respeito à liberdade de todas as confissões, inclusive na regra do silêncio, que deve ser a mesma para o templo, o bar e o show (Capítulo 13)."
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Parceria com regra clara",
+     "texto": [
+      "Repasse por lei, plurianual e por resultado às entidades que prestam serviço público, religiosas ou não, com chamamento aberto e prestação de contas na internet.",
+      "Respeito à liberdade de todas as confissões, inclusive na regra do silêncio, que deve ser a mesma para o templo, o bar e o show (Capítulo 13)."
+     ]
     }
    ],
    "regiao": {
@@ -3669,6 +4340,11 @@
     "PONTIFÍCIO CONSELHO JUSTIÇA E PAZ. Compêndio da Doutrina Social da Igreja, 2004, n. 185–186.",
     "IBGE. Censo Demográfico 2010 (religião, Campo Grande), conforme Exame; Censo 2022 (religião, MS), conforme Campo Grande News, 07/06/2025 (fontes secundárias).",
     "A Crítica (18/03/2026); Campo Grande News (12/03/2023; 04/05/2026); O Jacaré (25/04/2025); Prefeitura de Campo Grande, CG Notícias (10/05/2021)."
+   ],
+   "subtopicos": [
+    "15.1 A fé na cidade",
+    "15.2 O que as igrejas já fazem",
+    "15.3 Parceria com regra clara"
    ]
   },
   {
@@ -3685,7 +4361,12 @@
      "texto": "Os capítulos deste livro olharam a cidade por quinze lados e chegaram, quase sempre, ao mesmo lugar. Campo Grande tem gente, tem renda acima da média do estado e tem uma das menores desigualdades entre as capitais. Mas produz por morador 30% menos que Mato Grosso do Sul, depende de fora para pagar mais da metade das suas contas, cresceu para as bordas deixando o Centro vazio e tem uma prefeitura que gasta quase tudo em folha e custeio, sobrando pouco para investir e menos ainda para medir resultado."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "16.1",
+     "texto": "O diagnóstico"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que o diagnóstico mostra?"
     },
     {
@@ -3693,7 +4374,12 @@
      "texto": "Três fios atravessam os capítulos. O primeiro é a economia: a indústria foi para onde está a matéria-prima, e a capital ficou com a mão de obra e sem as fábricas (Capítulos 2 e 3). O segundo é a forma da cidade: o loteamento distante encarece o ônibus, a creche, o posto e o asfalto, e esvazia o Centro (Capítulos 5, 11 e 12). O terceiro é a gestão: filas que não são publicadas, metas que não existem, orçamento que promete mais do que entra e dinheiro que não se sabe para onde vai, como na merenda, na inclusão escolar e nos cachês (Capítulos 6 a 10 e 13)."
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "16.2",
+     "texto": "Quem decide"
+    },
+    {
+     "tipo": "h3",
      "texto": "O que depende de quem?"
     },
     {
@@ -3719,7 +4405,12 @@
      ]
     },
     {
-     "tipo": "h2",
+     "tipo": "subtopico",
+     "numero": "16.3",
+     "texto": "Uma prioridade por região"
+    },
+    {
+     "tipo": "h3",
      "texto": "Uma prioridade para cada região"
     },
     {
@@ -3727,8 +4418,9 @@
      "texto": "O quadro ao fim deste capítulo reúne, região por região, a proposta que os números deste livro apontam como a mais urgente. É uma escolha do autor, feita a partir dos dados de cada capítulo, e serve de ponto de partida para a conversa com quem mora em cada lugar."
     },
     {
-     "tipo": "h2",
-     "texto": "Como medir?"
+     "tipo": "subtopico",
+     "numero": "16.4",
+     "texto": "Como medir"
     },
     {
      "tipo": "p",
@@ -3756,6 +4448,12 @@
    "indicador": null,
    "fontes": [
     "As fontes de cada número estão nos capítulos de origem."
+   ],
+   "subtopicos": [
+    "16.1 O diagnóstico",
+    "16.2 Quem decide",
+    "16.3 Uma prioridade por região",
+    "16.4 Como medir"
    ]
   }
  ]

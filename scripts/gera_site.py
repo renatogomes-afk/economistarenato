@@ -22,7 +22,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261109cg2"
+CSS_V = "20261110st"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -427,6 +427,14 @@ def render_blocos(blocos):
             out.append(f"    <p>{e(b['texto'])}</p>")
         elif t == "h2":
             out.append(f"    <h2>{e(b['texto'])}</h2>")
+        elif t == "subtopico":
+            ancora = "st-" + b["numero"].replace(".", "-")
+            out.append(f'    <h2 class="subtopico" id="{ancora}"><span class="st-num">{e(b["numero"])}</span> {e(b["texto"])}</h2>')
+        elif t == "h3":
+            out.append(f'    <h3 class="pergunta">{e(b["texto"])}</h3>')
+        elif t == "propostas":
+            li = "".join(f"<li>{e(x)}</li>" for x in b["texto"])
+            out.append(f'    <div class="caixa-como caixa-propostas">\n      <h3>{e(b["titulo"])}</h3>\n      <ol>{li}</ol>\n    </div>')
         elif t == "caixa":
             out.append(f'    <div class="caixa-num">\n      <div class="valor">{e(b["valor"])}</div>\n      <div class="exp">{e(b["texto"])}</div>\n    </div>')
         elif t == "citacao":
@@ -1206,6 +1214,13 @@ def pagina_cg_livro():
             + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
 
 
+def indice_subtopicos(c):
+    sts = [b for b in c["blocos"] if b.get("tipo") == "subtopico"]
+    if not sts: return ""
+    li = "".join(f'<li><a href="#st-{b["numero"].replace(".", "-")}">{e(b["numero"])} {e(b["texto"])}</a></li>' for b in sts)
+    return f'    <nav class="indice-st"><b>Neste capítulo</b><ul>{li}</ul></nav>\n'
+
+
 def pagina_cg_capitulo(c, anterior, proxima):
     rel = "../../../"
     nav = []
@@ -1237,7 +1252,7 @@ def pagina_cg_capitulo(c, anterior, proxima):
     </div>
   </div>
   <div class="corpo">
-{aviso}{render_blocos(c['blocos'])}
+{aviso}{indice_subtopicos(c)}{render_blocos(c['blocos'])}
 {quadro_regiao(c)}
 {glossario_html(c.get('glossario'))}
 {sobre}{fontes}
