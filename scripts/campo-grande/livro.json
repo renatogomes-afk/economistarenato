@@ -3128,33 +3128,97 @@
    "numero": 12,
    "slug": "mobilidade-e-transporte",
    "titulo": "Mobilidade e transporte",
-   "chamada": "Ônibus, vans, carros, motos e patinetes: quanto tempo o morador perde para atravessar a cidade espalhada.",
-   "situacao": "roteiro",
-   "sugestao": true,
+   "chamada": "Um em cada quatro ônibus programados não saiu em 2025. O transporte coletivo está sob intervenção, e a cidade espalhada depende cada vez mais do carro e da moto.",
+   "situacao": "dados",
+   "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "O ônibus: contrato de concessão, tarifa, frota e tempo de viagem."
-    },
-    {
-     "tipo": "p",
-     "texto": "Vans, carros, motos e patinetes; calçadas e ciclovias."
-    },
-    {
-     "tipo": "p",
-     "texto": "A dependência do carro na cidade espalhada."
+     "texto": "Em 2025, uma em cada quatro viagens de ônibus programadas em Campo Grande não aconteceu: o sistema cumpriu 74,5% do que devia (relatório da intervenção, via Diário do Transporte, 25/09/2026). Quem esperou no ponto sabe disso sem precisar do número. Este capítulo trata de como o morador atravessa uma cidade que cresceu para as bordas, e do ônibus que deveria levá-lo."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Como está o ônibus?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Transporte coletivo de Campo Grande",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Concessão",
+       "Consórcio Guaicurus, contrato de 2012",
+       "Diário do Transporte, 25/09/2026"
+      ],
+      [
+       "Frota",
+       "460 ônibus, idade média de 10,4 anos (contrato: 5 anos)",
+       "relatório da intervenção, idem"
+      ],
+      [
+       "Viagens cumpridas em 2025",
+       "74,5% das programadas; −14% de 2023 a 2025",
+       "idem"
+      ],
+      [
+       "Passageiros pagantes",
+       "−12,3% de 2023 a 2025",
+       "idem"
+      ],
+      [
+       "Autuações de 2021 a 2025",
+       "mais de 21 mil, 12.279 por descumprir horário",
+       "idem"
+      ],
+      [
+       "Tarifa paga pelo usuário",
+       "R$ 4,95, a 10ª mais cara entre as capitais (jan/2025)",
+       "Correio do Estado, 24/01/2025"
+      ],
+      [
+       "Tarifa técnica (custo por passageiro)",
+       "R$ 6,57; o consórcio pede R$ 7,79 na Justiça",
+       "Correio do Estado, 21/07/2026; A Crítica, 22/05/2026"
+      ],
+      [
+       "Repasse da prefeitura em 2026",
+       "mais de R$ 40 milhões (isenção de ISS e passe do estudante)",
+       "Correio do Estado, 21/07/2026"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Agetran, contrato de concessão do transporte coletivo e Censo 2022 (tempo de deslocamento). Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "A prefeitura decretou intervenção no consórcio em 16 de junho de 2026, por até 180 dias; os interventores encontraram cerca de R$ 20 milhões em dívidas de curto prazo, e o Tribunal de Justiça limitou depois os poderes deles sobre as contas das empresas ligadas ao consórcio. Em julho, os donos anunciaram a venda do consórcio a um grupo de Goiânia (Diário do Transporte, 25/09/2026 e 21/07/2026; Correio do Estado, 21/07/2026). O ciclo é conhecido em muitas cidades: menos passageiro, tarifa mais alta, menos viagem, menos passageiro."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 1,62",
+     "texto": "é a diferença entre o custo de cada passageiro (R$ 6,57) e o que ele paga (R$ 4,95). Alguém paga essa diferença: a prefeitura, o próprio usuário pela pior qualidade, ou o contrato pela Justiça. Fonte: Correio do Estado (24/01/2025 e 21/07/2026); cálculo do autor."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Por que a cidade depende do carro?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque cresceu para longe. Entre 2010 e 2022 a cidade ganhou 111 mil moradores, quase todos nas bordas, enquanto o Centro perdeu 13% da população (IBGE, Censo 2022; ver Capítulo 5). Cada loteamento distante pede mais quilômetro de linha para menos passageiro por quilômetro, e o ônibus fica caro e lento justamente onde a renda é menor. Quem pode compra moto ou carro; quem não pode espera no ponto. A mobilidade é a outra face do urbanismo: não há tarifa que resolva uma cidade espalhada."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os dados de tempo de deslocamento casa-trabalho do Censo 2022 e a contagem de passageiros por linha não foram publicados de forma aberta para Campo Grande; o livro diz isso em vez de estimar. É o primeiro dado a pedir à Agetran e à Agereg."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Um contrato novo, que pague o operador por viagem cumprida e por qualidade, e não só por passageiro, com a frota e a pontualidade publicadas em tempo real. Corredores com faixa exclusiva nas avenidas que ligam o Anhanduizinho, o Lagoa e o Bandeira ao Centro, onde mora a maior parte de quem usa ônibus. Integração tarifária com o tempo, para que a baldeação não custe outra passagem. Calçada contínua e travessia segura no caminho da escola, do posto e do ponto (Capítulo 5). E crescer para dentro: cada morador a mais perto do Centro e dos corredores é passageiro a mais no ônibus e carro a menos na rua."
     }
    ],
    "regiao": {
@@ -3169,8 +3233,18 @@
      "Lagoa": "a levantar",
      "Imbirussu": "a levantar"
     },
-    "nota": null
-   }
+    "nota": "A Agetran não publica linhas, viagens e tempo até o Centro por região urbana. O dado foi pedido para a próxima versão."
+   },
+   "indicador": {
+    "valor": "74,5% das viagens",
+    "texto": "programadas de ônibus foram feitas em 2025; a frota tem idade média de 10,4 anos, o dobro do contrato. Sob intervenção desde 16/06/2026.",
+    "fonte": "Relatório da intervenção, via Diário do Transporte (25/09/2026)"
+   },
+   "fontes": [
+    "Relatório da intervenção no transporte coletivo de Campo Grande, conforme Diário do Transporte (02/06/2026; 21/07/2026; 25/09/2026) (fonte secundária).",
+    "Correio do Estado (24/01/2025; 21/07/2026) e A Crítica (22/05/2026): tarifa, tarifa técnica, venda do consórcio e repasses (fontes secundárias).",
+    "IBGE. Censo Demográfico 2022: população por região, conforme Campo Grande News, 21/03/2024."
+   ]
   },
   {
    "fonte_prevista": "Funesp, Fundac e o calendário cultural do município",
@@ -3473,7 +3547,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Para tratar a dependência, a cidade tem 2 CAPS AD com 30 leitos de acolhimento, 12 leitos de álcool e drogas no Hospital Regional e 273 vagas em comunidades terapêuticas pagas pela prefeitura, menos que as 300 de 2021 (Prefeitura, 10/05/2021; Campo Grande News, 04/05/2026 e 10/10/2025). Os 20 leitos psiquiátricos da Santa Casa fecharam em 2023, e o Ministério Público cobrou a falta de leitos para quem está em crise. As comunidades terapêuticas são quase todas ligadas a igrejas (Capítulo 15)."
+     "texto": "Para tratar a dependência, a cidade tem 2 CAPS AD com 30 leitos de acolhimento, 12 leitos de álcool e drogas no Hospital Regional e 273 vagas em comunidades terapêuticas pagas pela prefeitura, menos que as 300 de 2021 (Prefeitura, 10/05/2021; Campo Grande News, 04/05/2026 e 10/10/2025). Os 20 leitos psiquiátricos da Santa Casa fecharam em 2023, e o Ministério Público cobrou a falta de leitos para quem está em crise. Boa parte das comunidades terapêuticas é ligada a igrejas (Capítulo 15)."
     },
     {
      "tipo": "p",
@@ -3521,33 +3595,54 @@
    "numero": 15,
    "slug": "religiao",
    "titulo": "Religião",
-   "chamada": "A fé como parte da vida da cidade, a liberdade religiosa e o papel das igrejas e entidades no bairro.",
-   "situacao": "roteiro",
+   "chamada": "A fé é parte da vida da cidade. Paróquias, templos e entidades religiosas já cuidam de gente que a prefeitura não alcança; o papel do poder público é ser parceiro sem tomar o lugar delas.",
+   "situacao": "texto",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "A fé como parte da vida da cidade e a liberdade religiosa; católicos, evangélicos e as demais confissões tratados com o mesmo respeito."
-    },
-    {
-     "tipo": "p",
-     "texto": "Igrejas e paróquias como coração do bairro; o papel das entidades religiosas na saúde, na educação, na assistência e no acolhimento de dependentes químicos."
-    },
-    {
-     "tipo": "p",
-     "texto": "Como a prefeitura pode ser parceira sem tomar o lugar delas: a subsidiariedade aplicada."
+     "texto": "Campo Grande tem mais de dois mil templos, segundo a própria prefeitura, citada ao justificar um veto em março de 2026 (A Crítica, 18/03/2026). Em quase todo bairro, a primeira porta aberta para quem perdeu o emprego, saiu da cadeia, chegou de fora ou tenta largar a droga é a de uma igreja. Um livro sobre a cidade não pode tratar disso como assunto privado."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Quem crê em Campo Grande?"
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Censo 2022 (religião), Arquidiocese de Campo Grande, conselhos de pastores e entidades conveniadas com a prefeitura. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "O dado de religião do Censo 2022 por município ainda não foi publicado em fonte aberta para Campo Grande. Em 2010, eram 51,9% de católicos, 30,2% de evangélicos, uma das capitais mais evangélicas do país, e 10,4% sem religião (IBGE, Censo 2010, via Exame). Em Mato Grosso do Sul, em 2022, eram 51,9% de católicos e 32,5% de evangélicos (IBGE, Censo 2022, via Campo Grande News, 07/06/2025). A cidade é cristã, plural e cada vez mais evangélica, com espíritas, comunidades de matriz africana, a tradição budista e xintoísta dos imigrantes japoneses e a fé dos povos indígenas."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que as igrejas já fazem pela cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Muito do que o morador recebe de cuidado vem de entidades religiosas ou nascidas delas. A Santa Casa, maior hospital da cidade, é filantrópica. O Cotolengo atende crianças e adultos com deficiência pelo SUS. Boa parte das 13 comunidades terapêuticas que recebem dependentes químicos com dinheiro da prefeitura é ligada a igrejas (Campo Grande News, 12/03/2023 e 04/05/2026). Paróquias e igrejas evangélicas mantêm creches, cestas básicas, casas de acolhida e grupos de recuperação que não aparecem em nenhuma estatística. Os capítulos 8, 9 e 14 mostram onde a rede pública falta; em boa parte desses lugares, quem está presente é a comunidade de fé."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Subsidiariedade",
+     "texto": "O que a comunidade faz bem, a prefeitura não deve tomar para si; o que ela não consegue fazer sozinha, a prefeitura deve ajudar a fazer. Fonte: Pontifício Conselho Justiça e Paz, Compêndio da Doutrina Social da Igreja (2004), n. 185–186."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Como a prefeitura pode ser parceira?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Com regra clara e igual para todas as confissões. A Constituição garante a liberdade de crença e de culto (art. 5º, VI) e proíbe o poder público de subvencionar cultos ou manter com eles aliança, ressalvada a colaboração de interesse público (art. 19, I). O Marco Regulatório das Organizações da Sociedade Civil (Lei 13.019/2014) diz como fazer essa colaboração: por chamamento público, plano de trabalho, meta e prestação de contas. A entidade religiosa que cuida de idoso, de criança ou de dependente presta um serviço público e pode ser paga por ele; o culto, não."
+    },
+    {
+     "tipo": "p",
+     "texto": "O que se vê hoje é o contrário de uma parceria estável. Em abril de 2025, a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais (O Jacaré, 25/04/2025). As vagas em comunidades terapêuticas caíram de 300 em 2021 para 273 em 2026 (Prefeitura de Campo Grande, 10/05/2021; Campo Grande News, 04/05/2026). A entidade nunca sabe se o convênio do ano que vem existirá."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Repasse por lei, plurianual e por resultado às entidades que prestam serviço público, religiosas ou não, com chamamento aberto e prestação de contas na internet. Um cadastro público das entidades de acolhimento por região, para que o CRAS, o posto e a escola saibam a quem encaminhar. As comunidades terapêuticas avaliadas por resultado, com equipe de saúde de referência para a fase de desintoxicação. E respeito à liberdade de todas as confissões, inclusive na regra do silêncio, que deve ser a mesma para o templo, o bar e o show (Capítulo 13)."
     }
    ],
    "regiao": {
@@ -3562,49 +3657,106 @@
      "Lagoa": "a levantar",
      "Imbirussu": "a levantar"
     },
-    "nota": null
-   }
+    "nota": "Não há cadastro público de paróquias, templos e entidades de acolhimento por região. A proposta do capítulo é criá-lo."
+   },
+   "indicador": {
+    "valor": "Mais de 2 mil templos",
+    "texto": "em Campo Grande, segundo a prefeitura. Boa parte das comunidades terapêuticas que tratam dependentes químicos é ligada a igrejas.",
+    "fonte": "A Crítica (18/03/2026); Campo Grande News (12/03/2023)"
+   },
+   "fontes": [
+    "BRASIL. Constituição Federal, arts. 5º, VI, e 19, I; Lei nº 13.019/2014 (Marco Regulatório das Organizações da Sociedade Civil).",
+    "PONTIFÍCIO CONSELHO JUSTIÇA E PAZ. Compêndio da Doutrina Social da Igreja, 2004, n. 185–186.",
+    "IBGE. Censo Demográfico 2010 (religião, Campo Grande), conforme Exame; Censo 2022 (religião, MS), conforme Campo Grande News, 07/06/2025 (fontes secundárias).",
+    "A Crítica (18/03/2026); Campo Grande News (12/03/2023; 04/05/2026); O Jacaré (25/04/2025); Prefeitura de Campo Grande, CG Notícias (10/05/2021)."
+   ]
   },
   {
    "fonte_prevista": "—",
    "numero": 16,
    "slug": "consideracoes-finais",
    "titulo": "Considerações finais",
-   "chamada": "A Campo Grande de 2032 em poucas páginas: as propostas reunidas pelo que depende da prefeitura, do estado e da União.",
-   "situacao": "roteiro",
+   "chamada": "A Campo Grande de 2032 em poucas páginas: o diagnóstico, as propostas separadas pelo que depende de quem, e uma prioridade para cada região.",
+   "situacao": "texto",
    "sugestao": false,
    "blocos": [
     {
+     "tipo": "p",
+     "texto": "Os capítulos deste livro olharam a cidade por quinze lados e chegaram, quase sempre, ao mesmo lugar. Campo Grande tem gente, tem renda acima da média do estado e tem uma das menores desigualdades entre as capitais. Mas produz por morador 30% menos que Mato Grosso do Sul, depende de fora para pagar mais da metade das suas contas, cresceu para as bordas deixando o Centro vazio e tem uma prefeitura que gasta quase tudo em folha e custeio, sobrando pouco para investir e menos ainda para medir resultado."
+    },
+    {
      "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
+     "texto": "O que o diagnóstico mostra?"
     },
     {
      "tipo": "p",
-     "texto": "A Campo Grande de 2032 em poucas páginas."
+     "texto": "Três fios atravessam os capítulos. O primeiro é a economia: a indústria foi para onde está a matéria-prima, e a capital ficou com a mão de obra e sem as fábricas (Capítulos 2 e 3). O segundo é a forma da cidade: o loteamento distante encarece o ônibus, a creche, o posto e o asfalto, e esvazia o Centro (Capítulos 5, 11 e 12). O terceiro é a gestão: filas que não são publicadas, metas que não existem, orçamento que promete mais do que entra e dinheiro que não se sabe para onde vai, como na merenda, na inclusão escolar e nos cachês (Capítulos 6 a 10 e 13)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que depende de quem?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As propostas do livro pelo responsável",
+     "cabecalho": [
+      "Quem decide",
+      "Propostas"
+     ],
+     "linhas": [
+      [
+       "A prefeitura, sozinha",
+       "Publicar filas, metas e previsto x realizado; terminar as Emeis paradas; contratar hospitais e transporte por resultado; Cadastro Único bem feito e ligado ao emprego; fiscalização noturna do som; regra de prioridade para a música da terra."
+      ],
+      [
+       "A prefeitura com a Câmara",
+       "Lei de uso do solo com uso misto e distritos culturais; IPTU progressivo sobre o vazio urbano; repasse por lei às entidades; fundo de cultura com valor mínimo; Plano Municipal de Segurança com metas por região; alíquota municipal do IBS."
+      ],
+      [
+       "Com o estado e a União",
+       "Polo industrial com crédito e formação de mão de obra; leitos de saúde mental em hospital geral; renegociação do contrato de saneamento; recursos para corredores de ônibus e para habitação."
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Uma prioridade para cada região"
     },
     {
      "tipo": "p",
-     "texto": "As propostas de todos os capítulos reunidas e separadas pelo que depende da prefeitura, do estado e da União."
+     "texto": "O quadro ao fim deste capítulo reúne, região por região, a proposta que os números deste livro apontam como a mais urgente. É uma escolha do autor, feita a partir dos dados de cada capítulo, e serve de ponto de partida para a conversa com quem mora em cada lugar."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Como medir?"
     },
     {
      "tipo": "p",
-     "texto": "A proposta prioritária de cada uma das sete regiões. Campo Grande tem espaço, gente e história para ser essa cidade."
+     "texto": "Uma proposta sem número para medir é intenção. Por isso cada capítulo deixou o seu indicador: receita própria sobre receitas correntes, investimento sobre despesa, fila da creche, viagens de ônibus cumpridas, homicídios por 100 mil habitantes, remédios em estoque, pessoas na rua. A página Situação atual do site economistarenato.com.br acompanha esses números e será atualizada a cada novo dado. A régua que vale para a prefeitura vale para este livro: onde o dado não existe, o texto diz que não existe."
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande tem espaço, gente e história para ser, em 2032, a capital onde o trabalho sustenta a família, onde se mora perto de onde se vive e onde a prefeitura presta contas do que faz. Os capítulos mostraram o caminho; o resto é decisão."
     }
    ],
    "regiao": {
     "pergunta": "Qual é a proposta para a sua região?",
-    "coluna": "Proposta prioritária",
+    "coluna": "Proposta prioritária (escolha do autor)",
     "linhas": {
-     "Centro": "a levantar",
-     "Segredo": "a levantar",
-     "Prosa": "a levantar",
-     "Bandeira": "a levantar",
-     "Anhanduizinho": "a levantar",
-     "Lagoa": "a levantar",
-     "Imbirussu": "a levantar"
+     "Centro": "Trazer moradores de volta: locação social nos prédios vazios, Centro POP com porta de saída e um distrito cultural na Esplanada e na 14 de Julho.",
+     "Segredo": "Praça da família em cada bairro grande e operação contra o som de madrugada no Nova Lima, o bairro com mais queixas de barulho da cidade.",
+     "Prosa": "Mais atenção básica, porque a região tem cerca de 19 mil moradores por posto, e regularização com saneamento na Nova Esperança e na Morada dos Angicos.",
+     "Bandeira": "Creche e ônibus para os conjuntos novos das Moreninhas antes da mudança das famílias, e as Emeis paradas da região concluídas.",
+     "Anhanduizinho": "Regularização fundiária e saneamento na Homex e no entorno do antigo lixão, e creche: é a maior região da cidade e a de maior fila estimada.",
+     "Lagoa": "Corredor de ônibus até o Centro e creche em tempo integral, para que as mães do Caiobá e dos bairros vizinhos possam trabalhar.",
+     "Imbirussu": "O polo industrial do Indubrasil e do Núcleo Industrial com terreno pronto, transporte e formação de mão de obra: a tese do Capítulo 2 começa aqui."
     },
-    "nota": null
-   }
+    "nota": "Prioridades escolhidas pelo autor a partir dos dados dos Capítulos 2, 5, 8, 9, 11, 12 e 13."
+   },
+   "indicador": null,
+   "fontes": [
+    "As fontes de cada número estão nos capítulos de origem."
+   ]
   }
  ]
 }
