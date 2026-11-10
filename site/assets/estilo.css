@@ -623,3 +623,16 @@ figcaption .credito::before{content:"· "}
 .tabela-situacao td:first-child a{color:var(--azul);text-decoration:none}
 .tabela-situacao td:last-child{font-family:var(--sans);font-size:12px;color:var(--tinta-2)}
 .tabela-guia td:first-child{white-space:normal;min-width:7em}
+
+/* Campo Grande: subtópicos e propostas (10/11/2026) */
+.corpo h2.subtopico{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.9rem;color:var(--azul);border-top:2px solid var(--azul);padding-top:.6em;margin-top:2.4em}
+.corpo h2.subtopico .st-num{font-family:var(--sans);font-size:.55em;font-weight:600;color:var(--azul-claro,#03A9F4);letter-spacing:.06em;vertical-align:.25em;margin-right:.3em}
+.corpo h3.pergunta{font-family:var(--serif);font-size:1.25rem;font-weight:600;margin:1.6em 0 .4em;line-height:1.25}
+.caixa-propostas{border-color:var(--azul);background:var(--papel-2)}
+.caixa-propostas h3{color:var(--azul)}
+.indice-st{border:1px solid var(--linha);padding:16px 20px;margin:0 0 30px;font-family:var(--sans);font-size:14px}
+.indice-st b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.indice-st ul{list-style:none;margin:0;padding:0;columns:2;column-gap:24px}
+.indice-st li{margin:0 0 5px;break-inside:avoid}
+.indice-st a{color:var(--tinta);text-decoration:none}
+@media (max-width:600px){.indice-st ul{columns:1}}
