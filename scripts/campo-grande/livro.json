@@ -316,8 +316,8 @@
    "numero": 3,
    "slug": "mercado-de-trabalho",
    "titulo": "Setor privado: mercado de trabalho",
-   "chamada": "Quantos trabalham, em quê e por quanto, e se o salário de Campo Grande sustenta uma família.",
-   "situacao": "roteiro",
+   "chamada": "Quem trabalha em Campo Grande ganha acima da média do estado, mas a renda está concentrada no Prosa e no Centro, e a maioria mora onde ela é baixa.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
@@ -338,6 +338,54 @@
     },
     {
      "tipo": "h2",
+     "texto": "Quanto ganha a cidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Renda em Campo Grande",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Rendimento domiciliar por pessoa",
+       "R$ 2.088 por mês (2º de MS; 286º do Brasil)",
+       "IBGE, Censo 2022, via Campo Grande News, 04/11/2025"
+      ],
+      [
+       "Rendimento médio de quem trabalha",
+       "R$ 3.451 por mês, 17,8% acima de MS (R$ 2.930)",
+       "IBGE, Censo 2022, via O Estado MS, 09/10/2025"
+      ],
+      [
+       "Desigualdade (índice de Gini)",
+       "0,500, a 2ª menor entre as capitais",
+       "IBGE, PNAD Contínua 2019, via Campo Grande News, 12/11/2020"
+      ],
+      [
+       "Moradores em idade de trabalhar (15 a 64 anos)",
+       "622 mil, 69% da população",
+       "IBGE, Censo 2022, via City Population"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A média é boa e a desigualdade, das menores entre as capitais. Mas a média esconde o mapa. O rendimento por setor censitário do Censo 2022 vai de R$ 826 no setor mais pobre a R$ 31.837 no mais rico (dados do IBGE em mapa de Wendel Moreira, out/2026). O dinheiro está no Prosa e no sul e leste do Centro; Anhanduizinho, Lagoa e Imbirussu, que somam mais de 460 mil moradores, ficam quase inteiros na faixa mais baixa, até R$ 3.233 (leitura do mapa pelo autor)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "11 vezes",
+     "texto": "era a diferença de renda média domiciliar entre a Chácara Cachoeira (R$ 11.330) e o Portal Caiobá (R$ 1.055) no último dado por bairro publicado. Fonte: PLANURB, Perfil Socioeconômico, com base no Censo 2010, via Campo Grande News, 31/10/2023."
+    },
+    {
+     "tipo": "p",
+     "texto": "As faixas de renda do Censo 2022 por município ainda não foram publicadas em texto aberto. As de 2010 mostram o desenho: dois terços de quem tinha renda ganhavam até dois salários mínimos, e só 2,6% passavam de dez (IBGE, Censo 2010, via Banco de Dados do Estado, Semadesc; cálculo do autor). O teste do capítulo continua o do bispo Ketteler: a política proposta aumenta o salário de quem mora no Anhanduizinho, no Lagoa e no Imbirussu?"
+    },
+    {
+     "tipo": "h2",
      "texto": "Com que dados?"
     },
     {
@@ -347,18 +395,30 @@
    ],
    "regiao": {
     "pergunta": "O salário sustenta uma família na sua região?",
-    "coluna": "Renda do trabalho × custo de vida",
+    "coluna": "Renda no mapa do Censo 2022 (leitura do autor)",
     "linhas": {
-     "Centro": "a levantar",
-     "Segredo": "a levantar",
-     "Prosa": "a levantar",
-     "Bandeira": "a levantar",
-     "Anhanduizinho": "a levantar",
-     "Lagoa": "a levantar",
-     "Imbirussu": "a levantar"
+     "Centro": "alta (sul e leste do Centro)",
+     "Segredo": "baixa a média",
+     "Prosa": "a mais alta da cidade",
+     "Bandeira": "média, maior perto do Centro",
+     "Anhanduizinho": "baixa",
+     "Lagoa": "baixa",
+     "Imbirussu": "baixa"
     },
-    "nota": null
-   }
+    "nota": "Leitura visual do rendimento médio por setor censitário (IBGE, Censo 2022, mapa de Wendel Moreira, out/2026). O número oficial por região depende de somar os setores do IBGE, ainda não feito."
+   },
+   "indicador": {
+    "valor": "R$ 2.088 por mês",
+    "texto": "é o rendimento domiciliar por pessoa em Campo Grande, o 2º maior de MS; quem trabalha ganha em média R$ 3.451.",
+    "fonte": "IBGE, Censo 2022 (via imprensa)"
+   },
+   "fontes": [
+    "IBGE. Censo Demográfico 2022: rendimento domiciliar per capita e rendimento do trabalho, conforme Campo Grande News (04/11/2025) e O Estado MS (09/10/2025) (fontes secundárias).",
+    "IBGE. Censo Demográfico 2022: rendimento por setor censitário, conforme mapa de Wendel Moreira (out/2026).",
+    "IBGE. PNAD Contínua 2019: índice de Gini das capitais, conforme Campo Grande News, 12/11/2020 (fonte secundária).",
+    "IBGE. Censo Demográfico 2010: faixas de rendimento, via Banco de Dados do Estado (Semadesc-MS).",
+    "CAMPO GRANDE. PLANURB. Perfil Socioeconômico (base Censo 2010), conforme Campo Grande News, 31/10/2023 (fonte secundária)."
+   ]
   },
   {
    "fonte_prevista": "Relatório de Gestão Fiscal (SICONFI/Tesouro Nacional), TCE-MS e Portal da Transparência da prefeitura",
@@ -584,6 +644,85 @@
     },
     {
      "tipo": "h2",
+     "texto": "Quem mora em cada região?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As sete regiões urbanas (Censo 2022)",
+     "cabecalho": [
+      "Região",
+      "Moradores",
+      "% da cidade",
+      "Desde 2010",
+      "Renda (leitura do mapa)"
+     ],
+     "linhas": [
+      [
+       "Anhanduizinho",
+       "218.500",
+       "24,7%",
+       "n/d",
+       "baixa"
+      ],
+      [
+       "Bandeira",
+       "136.691",
+       "15,5%",
+       "+20,8%",
+       "média, maior perto do Centro"
+      ],
+      [
+       "Lagoa",
+       "134.964",
+       "15,3%",
+       "+17,9%",
+       "baixa"
+      ],
+      [
+       "Segredo",
+       "128.300",
+       "14,5%",
+       "n/d",
+       "baixa a média"
+      ],
+      [
+       "Imbirussu",
+       "108.000",
+       "12,2%",
+       "n/d",
+       "baixa"
+      ],
+      [
+       "Prosa",
+       "95.500",
+       "10,8%",
+       "n/d",
+       "a mais alta da cidade"
+      ],
+      [
+       "Centro",
+       "61.653",
+       "7,0%",
+       "−13,2%",
+       "alta (sul e leste do Centro)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, por setor, via Campo Grande News, 21/03/2024 (Anhanduizinho, Segredo, Imbirussu e Prosa arredondados na fonte); percentuais do autor; renda pela leitura do mapa por setor censitário."
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande tem 897.938 moradores (IBGE, Censo 2022), 14% a mais que em 2010. Quase todo o crescimento foi para as bordas: Bandeira e Lagoa cresceram perto de 20%, e o Anhanduizinho já tem um em cada quatro moradores. O Centro perdeu 13% da população e tem as casas mais vazias, 2,36 pessoas por domicílio, contra 2,76 no Anhanduizinho. É uma cidade de adultos jovens, com 69% em idade de trabalhar, mas os de 60 anos ou mais já são 15% (IBGE, Censo 2022, via City Population; cálculo do autor), e isso pesa na calçada, no ônibus e na praça."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "−13%",
+     "texto": "de moradores no Centro entre 2010 e 2022, enquanto a cidade tinha 66.917 domicílios vagos, 17% do total. Fonte: IBGE, Censo 2022, via Campo Grande News, 21/03/2024."
+    },
+    {
+     "tipo": "h2",
      "texto": "O que os urbanistas propõem?"
     },
     {
@@ -760,7 +899,8 @@
     "CHESTERTON, G. K. The Outline of Sanity. London: Methuen, 1926.",
     "BRASIL. Constituição Federal, art. 182; Lei nº 10.257, de 10 de julho de 2001 (Estatuto da Cidade), arts. 5º a 8º (parcelamento compulsório e IPTU progressivo no tempo).",
     "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).",
-    "Praças: Campo Grande News (ata de R$ 19,7 mi, 01/07/2024; Propam, 17/06/2025); Correio do Estado (Praça dos Imigrantes, 24/07/2025 e 13/08/2025; Praça do Preto Velho, 23/09/2026); A Crítica (Funesp, 12/10/2026); Prefeitura de Campo Grande, CG Notícias (23/03/2026). Fontes secundárias; estimativa de custo do autor (planilha pracas-de-campo-grande.xlsx)."
+    "Praças: Campo Grande News (ata de R$ 19,7 mi, 01/07/2024; Propam, 17/06/2025); Correio do Estado (Praça dos Imigrantes, 24/07/2025 e 13/08/2025; Praça do Preto Velho, 23/09/2026); A Crítica (Funesp, 12/10/2026); Prefeitura de Campo Grande, CG Notícias (23/03/2026). Fontes secundárias; estimativa de custo do autor (planilha pracas-de-campo-grande.xlsx).",
+    "IBGE. Censo Demográfico 2022: população, idade e domicílios por região urbana, conforme Campo Grande News (21/03/2024) e City Population (fontes secundárias)."
    ]
   },
   {
@@ -2478,33 +2618,132 @@
    "numero": 10,
    "slug": "seguranca-e-ordem-publica",
    "titulo": "Segurança e a ordem pública",
-   "chamada": "O que cabe à prefeitura e o que cabe ao estado na segurança, e a ordem pública no dia a dia do bairro.",
-   "situacao": "roteiro",
+   "chamada": "A prefeitura não comanda a polícia, mas é dona da rua: Guarda presente, metas públicas e uma cidade que não oferece escuro e abandono ao crime.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "O que cabe à prefeitura (Guarda Civil Metropolitana, iluminação, câmeras, ordenamento urbano) e o que cabe ao estado (Polícias Militar e Civil)."
-    },
-    {
-     "tipo": "p",
-     "texto": "A ordem pública no dia a dia: pichação, terrenos abandonados, perturbação do sossego, comércio irregular."
-    },
-    {
-     "tipo": "p",
-     "texto": "Prevenção e presença."
+     "texto": "No primeiro semestre de 2026, o telefone 153 da Guarda Civil Metropolitana recebeu 15.585 ligações, 30% a mais que um ano antes (balanço da GCM, A Crítica, 23/07/2026). A cidade chama a Guarda cada vez mais. A pergunta deste capítulo é o que a prefeitura pode, de fato, fazer pela segurança, e como saber se está fazendo."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Segurança é tarefa da prefeitura?"
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: efetivo da Guarda Civil Metropolitana e estatísticas da Sejusp-MS por região. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "Em parte. Prender, investigar e levar ao juiz é tarefa do estado, pela Polícia Militar e pela Polícia Civil (Constituição, art. 144). A Constituição permite ao município ter guarda para proteger seus bens, serviços e instalações (art. 144, §8º), e o Estatuto das Guardas ampliou esse papel: patrulha preventiva, proteção de quem usa os serviços municipais, trânsito, meio ambiente e prisão em flagrante (Lei 13.022/2014, art. 5º). A Lei do SUSP pôs as guardas no sistema de segurança pública (Lei 13.675/2018)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Em fevereiro de 2025, o Supremo foi além: é constitucional a guarda fazer \"policiamento ostensivo e comunitário\", respeitadas as atribuições das polícias e excluída a investigação, sob controle do Ministério Público (STF, RE 608.588, Tema 656). E a PEC da Segurança Pública, aprovada na Câmara e no Senado em 2026 e ainda não promulgada, abre caminho para polícias municipais de natureza civil (O Liberal, 04/11/2026)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Dona da rua",
+     "texto": "Fora da Guarda, a prefeitura atua sobre as ocasiões do crime com ferramentas que são só dela: iluminação, praça ocupada, terreno baldio fiscalizado, uso do solo, escola em tempo integral e assistência social (Constituição, arts. 30 e 182)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quantos guardas e quanto custam?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Guarda Civil Metropolitana em números",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Efetivo",
+       "cerca de 1.300 a 1.400 guardas",
+       "prefeitura e GCM, via Campo Grande News (30/05/2025) e A Crítica (02/06/2026)"
+      ],
+      [
+       "Guardas por 100 mil habitantes",
+       "cerca de 144, a maior proporção entre as capitais",
+       "estudo AGM/Inepesp, via Campo Grande News, 30/05/2025"
+      ],
+      [
+       "Teto legal (0,2% da população)",
+       "1.796 guardas",
+       "Lei 13.022/2014, art. 7º, III; cálculo do autor com o Censo 2022"
+      ],
+      [
+       "Despesa com segurança pública, 2025",
+       "R$ 69,4 milhões, 1,2% da despesa",
+       "SICONFI, DCA 2025, Anexo I-E"
+      ],
+      [
+       "Por habitante, 2025",
+       "cerca de R$ 77 por ano",
+       "cálculo do autor"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa da prefeitura com segurança pública (R$ milhões)",
+     "cabecalho": [
+      "",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "Função segurança pública",
+       "65,8",
+       "64,9",
+       "76,5",
+       "64,3",
+       "69,4"
+      ],
+      [
+       "% da despesa total",
+       "1,44%",
+       "1,38%",
+       "1,58%",
+       "1,15%",
+       "1,19%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E (despesa liquidada). Em cinco anos a despesa com segurança subiu 5% em valor nominal, enquanto a despesa total da prefeitura cresceu 28% (cálculo do autor). Descontada a inflação, encolheu. É quase só folha: a frota tem viaturas com seis anos de uso, 20 novas foram alugadas em 2026, e os equipamentos novos vieram de um programa federal de R$ 2,6 milhões (Correio do Estado, 24/07/2026; A Crítica, 02/06/2026). O vencimento-base citado na Câmara em agosto de 2026 foi de R$ 1.860 (A Crítica, 10/08/2026)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que a Guarda faz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "No primeiro semestre de 2026, além das 15.585 ligações, foram 13.050 atendimentos registrados; a Patrulha Maria da Penha fez 1.525 ações e 645 fiscalizações de medidas protetivas; a motopatrulha abordou 851 pessoas (balanço da GCM, A Crítica, 23/07/2026). Desde dezembro de 2024 a Guarda também fiscaliza o trânsito, com cerca de 60 guardas (Correio do Estado, 27/11/2024). A Patrulha Maria da Penha é onde a Guarda mais claramente reduz violência."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Que metas a Guarda tem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Nenhuma publicada. Não há Plano Municipal de Segurança, nem meta da Guarda em plano ou relatório de gestão encontrado nesta pesquisa. O que se divulga são números de produção, como ligações, abordagens e quilos de droga, não de resultado: o crime caiu onde a Guarda está?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Régua existe. O Plano Nacional de Segurança Pública fixa, até 2030, homicídios abaixo de 16 por 100 mil habitantes, mortes violentas de mulheres abaixo de 2 por 100 mil mulheres e mortes no trânsito abaixo de 9 por 100 mil, e prevê planos municipais alinhados (Decreto 10.822/2021). Campo Grande teve 19,5 homicídios por 100 mil em 2024, abaixo da média das capitais (26,6), mas com a segunda maior alta entre elas desde 2019 (Atlas da Violência, Ipea e FBSP, via Campo Grande News, 26/05/2026). Para chegar a 16, seriam cerca de 30 homicídios a menos por ano (cálculo do autor)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Um Plano Municipal de Segurança com metas públicas por região: homicídios, violência contra a mulher, furto no comércio e mortes no trânsito, com balanço a cada semestre. Guarda distribuída pelas regiões conforme as ocorrências, com base fixa nas praças-polo do programa Praça da Família (Cap. 5). Ampliar a Patrulha Maria da Penha. Recompor o orçamento da segurança e a carreira dos guardas antes de aumentar o efetivo. E iluminação, terreno baldio e praça tratados como política de segurança, porque são."
     }
    ],
    "regiao": {
@@ -2519,57 +2758,130 @@
      "Lagoa": "a levantar",
      "Imbirussu": "a levantar"
     },
-    "nota": null
-   }
+    "nota": "A prefeitura e a Sejusp não publicam ocorrências nem presença da Guarda por região urbana. O dado foi pedido para a próxima versão."
+   },
+   "indicador": {
+    "valor": "19,5 homicídios",
+    "texto": "por 100 mil habitantes em 2024, abaixo da média das capitais, mas a 2ª maior alta entre elas desde 2019 (+45%).",
+    "fonte": "Atlas da Violência (Ipea/FBSP), via imprensa"
+   },
+   "fontes": [
+    "BRASIL. Constituição Federal, arts. 30, 144 (§8º) e 182; Lei nº 13.022/2014 (Estatuto Geral das Guardas Municipais), arts. 5º e 7º; Lei nº 13.675/2018 (SUSP); Decreto nº 10.822/2021 (Plano Nacional de Segurança Pública 2021–2030).",
+    "BRASIL. Supremo Tribunal Federal. RE 608.588 (Tema 656), rel. Min. Luiz Fux, julgado em 20/02/2025; ADPF 995.",
+    "BRASIL. Tesouro Nacional. SICONFI: DCA 2021–2025, Anexo I-E (função 06), Município de Campo Grande.",
+    "Ipea e FBSP. Atlas da Violência 2026, conforme Campo Grande News, 26/05/2026 (fonte secundária).",
+    "Balanço da GCM, efetivo, frota e salários: A Crítica (02/06/2026; 23/07/2026; 10/08/2026), Correio do Estado (27/11/2024; 24/07/2026), Campo Grande News (30/05/2025), O Liberal (04/11/2026) (fontes secundárias)."
+   ]
   },
   {
    "fonte_prevista": "Fundação João Pinheiro (déficit habitacional), Agência Municipal de Habitação (Emha) e Censo 2022",
    "numero": 11,
    "slug": "moradia",
    "titulo": "Moradia",
-   "chamada": "Déficit habitacional, ocupações e aluguel, e o caminho da moradia digna perto do trabalho.",
-   "situacao": "roteiro",
+   "chamada": "O déficit de Campo Grande é, sobretudo, aluguel que não cabe no salário, numa cidade com quatro casas vazias para cada família sem moradia adequada.",
+   "situacao": "dados",
    "sugestao": true,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "O déficit habitacional, as ocupações e os loteamentos irregulares, o peso do aluguel."
-    },
-    {
-     "tipo": "p",
-     "texto": "Moradia perto do trabalho em vez da periferização; “lojinha embaixo, casa em cima”; a Fuggerei de Augsburgo como inspiração."
-    },
-    {
-     "tipo": "p",
-     "texto": "Regularização fundiária e pequena propriedade."
+     "texto": "Em 2022 o IBGE contou 16 favelas em Campo Grande, com 7.862 moradores. Em março de 2026, a imprensa somou 236 áreas ocupadas irregularmente, com mais de 50 mil pessoas (Censo 2022, via Impacto Mais, 08/11/2024; Campo Grande News, 16/03/2026). As duas contas estão certas: a favela clássica é pequena, mas a cidade informal, de casa de alvenaria em lote sem escritura, é grande."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Qual é o tamanho do déficit?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Déficit habitacional de Campo Grande (famílias de até 3 salários mínimos)",
+     "cabecalho": [
+      "Componente",
+      "Moradias",
+      "%"
+     ],
+     "linhas": [
+      [
+       "Aluguel acima de 30% da renda",
+       "9.631",
+       "60%"
+      ],
+      [
+       "Moradias precárias ou improvisadas",
+       "3.622",
+       "22%"
+      ],
+      [
+       "Famílias dividindo a casa (coabitação)",
+       "2.852",
+       "18%"
+      ],
+      [
+       "Total do déficit imediato",
+       "16.105",
+       "100%"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Fundação João Pinheiro (déficit habitacional), Agência Municipal de Habitação (Emha) e Censo 2022. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "Fonte: Plano Municipal de Habitação de Interesse Social (Phabis), elaborado para a Amhasf, conforme Campo Grande News, 23/01/2024 (fonte secundária). O mesmo plano estima demanda de 114 mil moradias novas de 2023 a 2035, cerca de 11,4 mil por ano, e conta 47.931 domicílios do CadÚnico sem alguma infraestrutura básica, espalhados por toda a cidade. A Fundação João Pinheiro não publica o déficit por município fora das regiões metropolitanas."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "4 para 1",
+     "texto": "Campo Grande tem 66.917 domicílios vagos (Censo 2022) e um déficit imediato de 16.105 moradias: cerca de quatro casas vazias para cada família em déficit. Fonte: IBGE, via Campo Grande News, 21/03/2024; Phabis (cálculo do autor)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Onde estão as favelas?"
+    },
+    {
+     "tipo": "p",
+     "texto": "No sul, sobretudo. A Homex, no extremo sul do Anhanduizinho, é a maior de Mato Grosso do Sul, com 3.317 moradores no Censo de 2022, e está em regularização. Samambaia, Mário Covas e a antiga Cidade de Deus, hoje Cidade dos Anjos, ao lado do antigo lixão, ficam na mesma região. Em segundo lugar vem o Prosa, na saída para Três Lagoas, com Nova Esperança e Morada dos Angicos, onde 92 de 93 casas tinham fossa rudimentar ou buraco (Censo 2022, via Campo Grande News, 08/11/2024; Correio do Estado, 03/03/2023). O Centro não tem favela listada; tem casa vazia."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que a prefeitura entrega?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Cerca de 540 moradias por ano com subsídio desde 2017, diante de uma demanda de 11,4 mil por ano; um orçamento da Emha de cerca de R$ 14 milhões para habitação; 1.264 casas contratadas no Jardim Água Branca, nas Moreninhas; e cerca de 36 mil famílias na fila (Campo Grande News, 2026; Correio do Estado, 06/11/2026). No Centro, a prefeitura regulamentou a locação social (Lei 6.592 e Decreto 15.167/2022) e comprou um terreno para cerca de 200 moradias (Prefeitura de Campo Grande, CG Notícias, 12/12/2023)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Atacar o aluguel antes do tijolo: locação social e aluguel subsidiado com prioridade para o Centro e os corredores de ônibus, usando os imóveis vazios. Regularização fundiária em massa das 236 áreas irregulares, porque escritura é propriedade, e propriedade é crédito e segurança para a família. Lote urbanizado com projeto-padrão para quem constrói por conta própria, a pequena propriedade espalhada que defende o Capítulo 5. E IPTU progressivo no tempo sobre o imóvel vazio e especulativo, já previsto no Estatuto da Cidade."
     }
    ],
    "regiao": {
     "pergunta": "Onde se mora e quanto custa na sua região?",
-    "coluna": "Déficit, ocupações e aluguel médio",
+    "coluna": "Favelas e ocupações conhecidas",
     "linhas": {
-     "Centro": "a levantar",
-     "Segredo": "a levantar",
-     "Prosa": "a levantar",
-     "Bandeira": "a levantar",
-     "Anhanduizinho": "a levantar",
-     "Lagoa": "a levantar",
-     "Imbirussu": "a levantar"
+     "Centro": "nenhuma listada",
+     "Segredo": "Mandela (removida após incêndio em 2023)",
+     "Prosa": "Nova Esperança; Morada dos Angicos",
+     "Bandeira": "nenhuma listada; 1.264 casas contratadas nas Moreninhas",
+     "Anhanduizinho": "Homex (a maior de MS), Samambaia, Mário Covas, Cidade dos Anjos",
+     "Lagoa": "Alfavela (Caiobá)",
+     "Imbirussu": "Jardim Sayonara (provável)"
     },
-    "nota": null
-   }
+    "nota": "Localização das comunidades pelo bairro citado na imprensa e no Censo 2022 (\"provável\" é dedução do autor). A prefeitura não publica o déficit por região; o dado foi pedido pela Lei de Acesso à Informação."
+   },
+   "indicador": {
+    "valor": "16.105 moradias",
+    "texto": "é o déficit imediato para famílias de até 3 salários mínimos; 6 em cada 10 casos são aluguel acima de 30% da renda.",
+    "fonte": "Plano Municipal de Habitação de Interesse Social (Amhasf), via imprensa"
+   },
+   "fontes": [
+    "CAMPO GRANDE. Amhasf. Plano Municipal de Habitação de Interesse Social (Phabis), Demacamp, conforme Campo Grande News, 23/01/2024 e 2026 (fonte secundária).",
+    "IBGE. Censo Demográfico 2022: domicílios vagos e população por região, via Campo Grande News (21/03/2024); Favelas e Comunidades Urbanas, via Impacto Mais e Campo Grande News (08/11/2024) (fontes secundárias).",
+    "Campo Grande News, 16/03/2026: 236 áreas irregulares, 50 mil moradores (fonte secundária).",
+    "Correio do Estado: regularização da Homex (03/03/2023); 1.264 casas populares (06/11/2026) (fontes secundárias).",
+    "CAMPO GRANDE. Lei nº 6.592/2022 e Decreto nº 15.167/2022 (locação social); CG Notícias, 12/12/2023.",
+    "BRASIL. Lei nº 10.257/2001 (Estatuto da Cidade), arts. 5º a 8º."
+   ]
   },
   {
    "fonte_prevista": "Agetran, contrato de concessão do transporte coletivo e Censo 2022 (tempo de deslocamento)",
