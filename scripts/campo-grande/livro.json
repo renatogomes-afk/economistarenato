@@ -3303,6 +3303,142 @@
       "Rastrear o autismo nos postos entre 16 e 30 meses.",
       "Pagar as filantrópicas por produção, com meta pública de fila: a sociedade organizada atende, a prefeitura financia e fiscaliza."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "8.8",
+     "texto": "Demanda, oferta e déficit"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a cidade precisa, quanto a rede entrega e quanto falta?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Este subtópico junta, numa conta só, o que os anteriores mostram aos pedaços. Onde há parâmetro oficial do Ministério da Saúde, a demanda sai dele; onde não há, sai da fila registrada. Os déficits e os valores em reais são cálculos do autor, com a conta escrita ao lado, sobre a população de 962.883 habitantes estimada pelo IBGE para 1º de julho de 2025 (via Correio do Estado, 28/08/2025)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Saúde em Campo Grande: demanda, oferta e déficit",
+     "cabecalho": [
+      "Serviço",
+      "Demanda",
+      "Oferta",
+      "Déficit",
+      "Fonte e conta"
+     ],
+     "linhas": [
+      [
+       "Equipes de Saúde da Família",
+       "no mínimo 276 equipes (962.883 ÷ 3.500 pessoas por equipe)",
+       "227 equipes (1º quadrimestre de 2026)",
+       "49 equipes; cerca de 168 mil pessoas sem equipe",
+       "PNAB, Portaria 2.436/2017 (2.000 a 3.500 pessoas por equipe); Ministério da Saúde, via A Crítica, 20/08/2026; cálculo do autor"
+      ],
+      [
+       "Leitos SUS",
+       "2.407 a 2.889 (2,5 a 3 por mil habitantes)",
+       "1.753 (abr/2025)",
+       "654 a 1.136 leitos",
+       "Portaria MS 1.101/2002 (parâmetro); SESAU, via Campo Grande News, 30/04/2025; cálculo do autor"
+      ],
+      [
+       "Ressonância magnética",
+       "13.356 pessoas na fila (nov/2024)",
+       "cerca de 3.500 exames contratados (2026)",
+       "cerca de 9.900 exames",
+       "ação civil pública, via Campo Grande News, 19/11/2024; MPMS, 01/04/2026; datas diferentes"
+      ],
+      [
+       "Consultas e exames especializados",
+       "54.185 pessoas na fila (abr/2024)",
+       "não publicada",
+       "para zerar em um ano, 4.515 atendimentos a mais por mês",
+       "SISREG, apresentado na Assembleia, via Boca do Povo, 11/06/2024; cálculo do autor"
+      ],
+      [
+       "Cirurgias eletivas",
+       "19.658 na fila (mai/2024)",
+       "não publicada",
+       "para zerar em um ano, 1.638 cirurgias a mais por mês",
+       "SESAU, via Campo Grande News, 11/06/2024; cálculo do autor"
+      ],
+      [
+       "Exames de imagem",
+       "25.007 na fila (nov/2024)",
+       "não publicada",
+       "para zerar em um ano, 2.084 exames a mais por mês",
+       "Campo Grande News, 19/11/2024; cálculo do autor"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Duas ressalvas. Os hospitais da capital atendem também o interior do estado, e por isso o déficit de leitos calculado só com a população da cidade é um piso, não um teto. E parte dos moradores tem plano de saúde, o que reduz a procura pelo SUS; a parcela de Campo Grande não foi encontrada (em Mato Grosso do Sul eram 675.477 beneficiários de planos médicos, ANS, ago/2024)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa fechar o déficit, por mês e por ano?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Saúde: o déficit em reais (cálculo do autor)",
+     "cabecalho": [
+      "Item",
+      "Demanda (mês | ano)",
+      "Oferta (mês | ano)",
+      "Déficit (mês | ano)",
+      "Como se chegou"
+     ],
+     "linhas": [
+      [
+       "Remédios da atenção básica",
+       "R$ 7,9 mi | R$ 94,6 mi",
+       "R$ 1,9 mi | R$ 22,6 mi",
+       "R$ 6 mi | R$ 72 mi",
+       "gasto de 2025 e falta de pelo menos R$ 6 mi por mês declarada pelo secretário (SESAU, fev/2026); demanda = gasto + falta"
+      ],
+      [
+       "Equipes de Saúde da Família",
+       "R$ 40,9 mi | R$ 491 mi",
+       "R$ 33,7 mi | R$ 404 mi",
+       "R$ 7,3 mi | R$ 87 mi",
+       "R$ 404 mi de atenção básica em 2025 (SICONFI, DCA 2025) ÷ 227 equipes = R$ 1,78 mi por equipe por ano, com tudo o que o posto gasta"
+      ],
+      [
+       "Filas de cirurgia e de imagem (44.665 pedidos)",
+       "R$ 8,9 mi | R$ 106 mi",
+       "R$ 5 mi | R$ 60 mi (mutirão de 2026)",
+       "R$ 3,9 mi | R$ 46 mi",
+       "custo médio do mutirão: R$ 60 mi ÷ 25.200 procedimentos = R$ 2.381 (A Crítica, 25/05/2026); supõe a fila de 2024 sem crescimento"
+      ],
+      [
+       "Total com conta",
+       "",
+       "",
+       "cerca de R$ 17 mi | R$ 205 mi",
+       "11% da despesa com saúde de 2025, de R$ 1,815 bilhão (SICONFI, DCA 2025)"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 205 milhões",
+     "texto": "por ano é o que falta, pela conta do autor, para a cidade ter remédio básico, equipe de Saúde da Família para todos e fila de cirurgia e imagem zerada em um ano. É 11% do que a prefeitura já gasta com saúde. Ficam fora da conta os leitos, a fila de consultas especializadas e a das terapias do autismo, porque o custo não é publicado."
+    },
+    {
+     "tipo": "p",
+     "texto": "O custo do leito-dia contratado, a fila atual por especialidade e a produção mensal da rede não são publicados desde 2024. Sem eles, o déficit da saúde só pode ser estimado, como aqui, e não acompanhado mês a mês."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Demanda, oferta e déficit",
+     "texto": [
+      "Publicar todo quadrimestre, no relatório da saúde à Câmara, a tabela de demanda, oferta e déficit: equipes, leitos, filas por especialidade e remédios em falta, com o custo de fechar cada uma.",
+      "Chegar às 276 equipes de Saúde da Família até 2032, cerca de oito equipes novas por ano, com custo de cerca de R$ 14 milhões a mais a cada ano (cálculo do autor).",
+      "Orçar o remédio básico pela necessidade, cerca de R$ 95 milhões por ano, e não pelo gasto do ano anterior.",
+      "Pactuar com o estado e a União os leitos que cabem à capital como polo de todo o estado, com contrato, meta e pagamento pela parte do interior."
+     ]
     }
    ],
    "glossario": [
@@ -3358,7 +3494,8 @@
     "8.4 Filas de exames e cirurgias",
     "8.5 Urgência e hospitais",
     "8.6 Atendimentos, custo e qualidade",
-    "8.7 A criança atípica"
+    "8.7 A criança atípica",
+    "8.8 Demanda, oferta e déficit"
    ]
   },
   {
@@ -4687,6 +4824,120 @@
       "Leitos de crise em hospital geral, como prevê a rede federal de atenção psicossocial.",
       "Prevenção na escola, onde a cidade lidera o uso precoce de drogas."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.5",
+     "texto": "Demanda, oferta e déficit"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantas pessoas precisam da assistência?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A porta de entrada de quase toda a assistência é o Cadastro Único. Campo Grande tinha 199.446 famílias inscritas em fevereiro de 2024 (Prefeitura, via Campo Grande News, 07/02/2024). Em 2021 eram 140.040 famílias e pelo menos 400 mil pessoas (Prefeitura de Campo Grande, 08/11/2021), perto de 45% dos moradores contados no Censo de 2022 (cálculo do autor, com datas diferentes). O cadastro reúne famílias com renda de até meio salário mínimo por pessoa, e nem todas são pobres no mesmo grau: 50,4 mil recebiam Bolsa Família em junho de 2026 (MDS, via Correio do Estado, 17/06/2026). O número de 2025 e 2026, por faixa de renda, está no VIS Data do Ministério do Desenvolvimento Social e não foi obtido nesta pesquisa."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Assistência social em Campo Grande: demanda, oferta e déficit",
+     "cabecalho": [
+      "Serviço",
+      "Demanda",
+      "Oferta",
+      "Déficit",
+      "Fonte e conta"
+     ],
+     "linhas": [
+      [
+       "CRAS, a porta da assistência",
+       "40 CRAS (199.446 famílias ÷ 5 mil famílias por CRAS)",
+       "21 CRAS (set/2026), para até 105 mil famílias",
+       "19 CRAS; cerca de 94 mil famílias sem CRAS de referência (16, se saírem os três anunciados em 2025)",
+       "NOB-SUAS 2005 (CRAS de metrópole para até 5 mil famílias referenciadas); A Crítica, 11/09/2026; Campo Grande News, 29/07/2025; cálculo do autor"
+      ],
+      [
+       "Atualização do Cadastro Único",
+       "cerca de 8.300 famílias por mês, 99,7 mil por ano (o cadastro vence em 24 meses)",
+       "não publicada; em 2024 a prefeitura convocou 31.107 famílias de uma vez, e em 2022 um CRAS dava 60 senhas por dia",
+       "não calculável sem o número de atendimentos",
+       "Campo Grande News, 07/02/2024 e 22/07/2022; cálculo do autor"
+      ],
+      [
+       "Acolhimento da população de rua",
+       "1.476 pessoas (censo de 2026)",
+       "634 acolhidas no dia do censo",
+       "842 pessoas dormindo na rua",
+       "censo da população de rua, Defensoria Pública, prefeitura e Ministério Público, 2026"
+      ],
+      [
+       "Tratamento da dependência em comunidade terapêutica",
+       "não medida",
+       "273 vagas (2026), contra 300 em 2021",
+       "não calculável",
+       "Campo Grande News, 04/05/2026; Prefeitura, 10/05/2021"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa fechar o déficit, por mês e por ano?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura não publica o custo de um CRAS. A estimativa do autor parte da equipe mínima que a norma federal fixa para um CRAS de até 5 mil famílias, quatro técnicos de nível superior (dois assistentes sociais, um psicólogo e mais um profissional), quatro de nível médio e um coordenador (NOB-RH/SUAS, Resolução CNAS 269/2006), com salários supostos de R$ 6 mil, R$ 3 mil e R$ 8 mil, mais 30% de encargos, e R$ 20 mil por mês de aluguel, energia e material. Dá cerca de R$ 80 mil por mês por CRAS, perto de R$ 1 milhão por ano, sem a obra."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Assistência social: o déficit em reais (cálculo do autor)",
+     "cabecalho": [
+      "Item",
+      "Demanda (mês | ano)",
+      "Oferta (mês | ano)",
+      "Déficit (mês | ano)",
+      "Como se chegou"
+     ],
+     "linhas": [
+      [
+       "Custeio dos CRAS",
+       "R$ 3,2 mi | R$ 38,4 mi (40 CRAS)",
+       "R$ 1,7 mi | R$ 20,2 mi (21 CRAS)",
+       "R$ 1,5 mi | R$ 18,2 mi (19 CRAS)",
+       "R$ 80 mil por mês por CRAS, estimativa acima; valores de custo, não do gasto real da prefeitura"
+      ],
+      [
+       "Bolsa Família (União)",
+       "não publicada por município",
+       "R$ 35 a 40 mi | R$ 420 a 480 mi",
+       "não calculável: a fila do programa por cidade não é publicada",
+       "50,4 mil famílias (MDS, jun/2026); valor estimado pelo autor"
+      ],
+      [
+       "Acolhimento de rua",
+       "1.476 pessoas",
+       "634 vagas ocupadas",
+       "842 vagas; o custo por vaga não é publicado",
+       "censo de 2026; a prefeitura paga R$ 24,57 mi por 273 vagas em comunidades terapêuticas, sem prazo informado na notícia (Campo Grande News, 04/05/2026)"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 18 milhões",
+     "texto": "por ano é o custeio estimado dos 19 CRAS que faltam, 12% do orçamento da assistência de 2025 (R$ 154,3 milhões, SICONFI). É menos que o aumento da administração da secretaria entre 2023 e 2024, de cerca de R$ 32 milhões (cálculo do autor sobre a DCA)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os atendimentos de cada CRAS e CREAS são informados todo mês ao governo federal no Registro Mensal de Atendimentos (RMA) do MDS, mas a prefeitura não os publica. Com eles, a conta deste subtópico deixaria de ser estimada e passaria a ser acompanhada mês a mês."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Demanda, oferta e déficit",
+     "texto": [
+      "Plano de CRAS até 2032: chegar a 40 unidades, uma para cada 5 mil famílias do cadastro, começando pelas regiões com mais famílias inscritas, com custeio estimado de R$ 18 milhões por ano a mais ao fim do plano.",
+      "Publicar todo mês, por CRAS, famílias referenciadas, atendimentos, cadastros atualizados e fila de espera, a partir do RMA que a prefeitura já manda ao MDS.",
+      "Vagas de acolhimento com meta, até cobrir as 842 pessoas que dormem na rua, e custo por vaga publicado."
+     ]
     }
    ],
    "regiao": {
@@ -4720,7 +4971,8 @@
     "14.1 Transferência de renda e a porta do CRAS",
     "14.2 Orçamento e entidades",
     "14.3 População de rua",
-    "14.4 Drogas e dependência"
+    "14.4 Drogas e dependência",
+    "14.5 Demanda, oferta e déficit"
    ]
   },
   {
