@@ -2,7 +2,7 @@
  "titulo": "Campo Grande em 2032",
  "subtitulo": "Propostas",
  "autor": "Renato Wanderley Gomes",
- "chamada": "Um livro em construção sobre a cidade: quinze capítulos, cada um com o diagnóstico de hoje, as propostas para 2032 e o quadro das sete regiões urbanas.",
+ "chamada": "Um livro em construção sobre a cidade: dezesseis capítulos, cada um com o diagnóstico de hoje, as propostas para 2032 e o quadro das sete regiões urbanas.",
  "blocos": [
   {
    "tipo": "p",
@@ -95,7 +95,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Muda a pergunta que se faz diante de cada proposta. Não basta perguntar quanto custa; é preciso perguntar se ela aumenta o salário de quem trabalha, se fortalece a família e o bairro e se respeita o que a comunidade já faz bem sozinha. É com essa pergunta que os catorze capítulos seguintes olham Campo Grande."
+     "texto": "Muda a pergunta que se faz diante de cada proposta. Não basta perguntar quanto custa; é preciso perguntar se ela aumenta o salário de quem trabalha, se fortalece a família e o bairro e se respeita o que a comunidade já faz bem sozinha. É com essa pergunta que os quinze capítulos seguintes olham Campo Grande."
     }
    ],
    "regiao": null,
@@ -276,6 +276,74 @@
     },
     {
      "tipo": "h2",
+     "texto": "Quanto as famílias devem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O crédito para quem produz começa por olhar o crédito de quem consome. Em outubro de 2026, 75,5% das famílias de Campo Grande estavam endividadas, contra 58,3% em maio de 2023; 27,2% tinham conta em atraso e 8,0% diziam que não teriam como pagar. A família endividada compromete 29,7% da renda com dívidas, e 71,8% delas devem no cartão de crédito (PEIC/CNC, pesquisa feita na capital pela Fecomércio-MS, 06/11/2026; O Jacaré, 09/06/2023)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Endividamento e inadimplência em Campo Grande",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Famílias endividadas",
+       "75,5% (out/2026); eram 58,3% em mai/2023",
+       "PEIC/CNC, Fecomércio-MS"
+      ],
+      [
+       "Famílias com conta em atraso",
+       "27,2%",
+       "PEIC/CNC, out/2026"
+      ],
+      [
+       "Dívida no cartão de crédito",
+       "71,8% das endividadas",
+       "PEIC/CNC, out/2026"
+      ],
+      [
+       "Renda comprometida com dívidas",
+       "29,7%",
+       "PEIC/CNC, out/2026"
+      ],
+      [
+       "Pessoas com o nome negativado",
+       "500.375, devendo R$ 4,96 bilhões",
+       "Serasa, jul/2026, via Correio do Estado, 13/08/2026"
+      ],
+      [
+       "Dívida média por pessoa negativada",
+       "R$ 9.918 (MS: R$ 8.500)",
+       "Serasa, jul/2026"
+      ],
+      [
+       "Negativados que devem até R$ 1.000",
+       "36%; atraso médio de 2,4 anos",
+       "SPC Brasil, dez/2025, via Correio do Estado, 02/02/2026"
+      ],
+      [
+       "Juros do crédito livre às famílias (Brasil)",
+       "61,7% ao ano",
+       "Banco Central, ago/2026, via A Crítica, 22/10/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Meio milhão",
+     "texto": "de campo-grandenses estão com o nome sujo, perto de 7 em cada 10 adultos, devendo quase R$ 5 bilhões. Fonte: Serasa, jul/2026, via Correio do Estado (13/08/2026); proporção sobre a população adulta do Censo 2022, cálculo do autor."
+    },
+    {
+     "tipo": "p",
+     "texto": "Um terço dos negativados deve menos de mil reais, e a dívida típica tem mais de dois anos: não é calote de rico, é a conta de luz e a fatura do cartão de quem não fechou o mês. Quem ganha até dez salários mínimos deve em carnê e cartão, o crédito mais caro; quem ganha mais deve em financiamento de carro e casa, que vira patrimônio (PEIC, jan. e mai/2026). É o retrato da usura no dia a dia, e o argumento para a proposta do capítulo: crédito de cooperativa e microcrédito no lugar do rotativo, e mutirões nos bairros para levar às famílias a renegociação do Desenrola 3.0, desenhada justamente para dívidas pequenas, antigas e de cartão (A Crítica, 22/10/2026)."
+    },
+    {
+     "tipo": "h2",
      "texto": "E o comércio e os serviços?"
     },
     {
@@ -308,7 +376,9 @@
     "IBGE. Censo Demográfico 2022: população de Campo Grande e de Mato Grosso do Sul.",
     "BRASIL. Ministério do Trabalho. RAIS 2021, conforme IFMS, Estudos da Gestão do Conhecimento: Campo Grande 2022 (Tabela 10) (fonte secundária).",
     "BRASIL. Ministério do Trabalho. Novo Caged, conforme Observatório de Economia da UFMS (2025), Semadesc (Carta de Conjuntura, dez/2025) e Semades (Boletim Econômico, 2026); Fiems, conforme A Crítica, 09/10/2026 (fonte secundária).",
-    "Correio do Estado: terminal intermodal de cargas sem operar (fonte secundária)."
+    "Correio do Estado: terminal intermodal de cargas sem operar (fonte secundária).",
+    "CNC. Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC), Campo Grande, Fecomércio-MS: boletins de fev., mar., mai., jun. e nov./2026; O Jacaré, 09/06/2023 (mai/2023).",
+    "Serasa, Mapa da Inadimplência, conforme Correio do Estado (13/08/2026); SPC Brasil, conforme Correio do Estado (02/02/2026); Banco Central e Desenrola 3.0, conforme A Crítica (22/10/2026) (fontes secundárias)."
    ]
   },
   {
@@ -652,9 +722,9 @@
      "cabecalho": [
       "Região",
       "Moradores",
-      "% da cidade",
+      "%",
       "Desde 2010",
-      "Renda (leitura do mapa)"
+      "Renda"
      ],
      "linhas": [
       [
@@ -669,7 +739,7 @@
        "136.691",
        "15,5%",
        "+20,8%",
-       "média, maior perto do Centro"
+       "média"
       ],
       [
        "Lagoa",
@@ -697,14 +767,14 @@
        "95.500",
        "10,8%",
        "n/d",
-       "a mais alta da cidade"
+       "a mais alta"
       ],
       [
        "Centro",
        "61.653",
        "7,0%",
        "−13,2%",
-       "alta (sul e leste do Centro)"
+       "alta"
       ]
      ]
     },
@@ -1614,9 +1684,9 @@
    "situacao": "dados",
    "sugestao": false,
    "indicador": {
-    "valor": "74 postos de saúde,",
-    "texto": "6 UPAs e 4 CRSs; ≈ 1,3 milhão de consultas por ano na atenção primária; R$ 2,1 bi no Fundo Municipal de Saúde em 2026.",
-    "fonte": "CNES (out/2026); RDQA 2º quadr. 2026; LOA 2026"
+    "valor": "76% dos remédios",
+    "texto": "da lista municipal estavam em estoque em ago/2026, cerca de 60 em falta; 19.658 pessoas esperavam cirurgia eletiva no último dado publicado (mai/2024).",
+    "fonte": "SESAU: RDQA 2º quadr. 2026; SISREG"
    },
    "blocos": [
     {
@@ -2515,11 +2585,89 @@
     },
     {
      "tipo": "h2",
-     "texto": "O que ainda vem neste capítulo?"
+     "texto": "Falta remédio?"
     },
     {
      "tipo": "p",
-     "texto": "Faltam os atendimentos de urgência e as internações, o retrato de cada hospital por especialidade, as filas da regulação e a parte sobre remédios. Entram aqui à medida que os dados forem conferidos."
+     "texto": "Falta. A lista municipal tem 252 remédios, e o abastecimento estava em 76% em agosto de 2026 (RDQA, 2º quadrimestre), o que dá cerca de 60 itens em falta (cálculo do autor). Entre os citados estão losartana, metformina e hidroclorotiazida, de uso contínuo para pressão e diabetes. As metas de 90% em dezembro de 2025 e de 100% em janeiro de 2026 não se cumpriram. A prefeitura gastou R$ 22,6 milhões com remédios básicos em 2025, e o próprio secretário de Saúde estima que faltam pelo menos R$ 6 milhões por mês. O Ministério Público abriu inquérito em agosto de 2026."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto se espera por exame e cirurgia?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Filas da saúde em Campo Grande",
+     "cabecalho": [
+      "Fila",
+      "Tamanho",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Consultas e exames especializados",
+       "54.185 pessoas (abr/2024)",
+       "SISREG"
+      ],
+      [
+       "Exames de imagem",
+       "25.007 (nov/2024), 13.356 só de ressonância",
+       "SESAU"
+      ],
+      [
+       "Cirurgias eletivas",
+       "19.658 (mai/2024)",
+       "SESAU"
+      ],
+      [
+       "Cirurgia de coluna",
+       "3.529 pessoas; espera máxima de 28 anos",
+       "SESAU/MPMS"
+      ],
+      [
+       "Terapias para crianças com autismo e outras deficiências",
+       "quase 2 mil; espera média de 3 anos",
+       "MPMS, inquérito de 09/04/2026"
+      ],
+      [
+       "CAPS infantojuvenil",
+       "1.065 crianças e adolescentes (mar/2025)",
+       "SESAU, via Campo Grande News, 15/03/2025"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A fila total não é publicada desde 2024. Em novembro de 2024, uma liminar fixou espera máxima de 100 dias para consulta e seis meses para cirurgia; em maio de 2026 a prefeitura anunciou um mutirão de R$ 60 milhões para 8.400 cirurgias e 16.800 exames, cujo resultado ainda não saiu. Cerca de 30% dos pacientes faltam às consultas e exames marcados (painel da SESAU), o que pede confirmação por mensagem e remarcação rápida da vaga."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "5,28",
+     "texto": "médicos por mil habitantes em Campo Grande: 4.839 médicos (out/2024), contra 1,9 por mil no interior de MS. Médico não falta na cidade; falta a rede pública contratar e fixar. Fonte: Conselho Federal de Medicina."
+    },
+    {
+     "tipo": "h2",
+     "texto": "E a emergência?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade está em situação de emergência na saúde desde abril de 2025. Em 27/04/2026, o pronto-socorro da Santa Casa tinha cerca de 90 pacientes para 7 leitos contratados, com 67 internados em corredores (imprensa); em julho, a área verde tinha 48 pacientes para 7 leitos (o próprio hospital). Nas UPAs, há pacientes que esperam de três a quatro dias por um leito. A Santa Casa, sob intervenção, tem dívida acima de R$ 810 milhões. A cidade tem 1.753 leitos do SUS, entre 1,4 e 1,8 por mil habitantes, abaixo dos 2,5 a 3,2 por mil usados como referência."
+    },
+    {
+     "tipo": "h2",
+     "texto": "E a criança atípica?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo 2022 contou 10.779 moradores de Campo Grande com diagnóstico de autismo, 1,2% da população; entre 5 e 9 anos, a taxa nacional chega a 2,6% (IBGE). A terapia pelo SUS é feita quase toda por filantrópicas conveniadas, como Apae, Pestalozzi, Cotolengo e Juliano Varela, e a fila passa de 2 mil, com 235 ações judiciais só em 2025 (MPMS, 09/04/2026). Num caso, a Justiça bloqueou R$ 83,8 mil das contas da prefeitura para pagar a terapia de uma criança (Campo Grande News, 04/12/2024): a fila sai mais cara pela Justiça do que pelo planejamento. A cidade ficou cerca de dez anos sem formar fonoaudiólogos e terapeutas ocupacionais; a UEMS abriu os cursos em 2025. A escola dessas crianças está no Capítulo 9."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Publicar todo mês a fila por especialidade, com o tempo de espera, e a lista de remédios em falta. Contratar os hospitais por meta de produção, com a fila como indicador. Confirmar consulta por mensagem para recuperar as vagas perdidas por falta. Rastrear o autismo nos postos entre 16 e 30 meses e pagar as filantrópicas por produção, com meta pública de fila: a sociedade organizada atende, a prefeitura financia e fiscaliza."
     }
    ],
    "glossario": [
@@ -2546,7 +2694,12 @@
     "CAMPO GRANDE. Lei de bairros, Anexo 4: perímetros e parcelamentos por bairro. Acesso em: 22 out. 2026.",
     "CAMPO GRANDE. Secretaria Municipal de Saúde. RDQA, 2º quadrimestre de 2026; Painel de Ferramentas de Gestão (ago/2026).",
     "CAMPO GRANDE. Lei Orçamentária Anual de 2026.",
-    "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária)."
+    "IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).",
+    "CAMPO GRANDE. SESAU. RDQA, 2º quadrimestre de 2026 (abastecimento de medicamentos); SISREG e painéis da SESAU (filas, faltas).",
+    "CONSELHO FEDERAL DE MEDICINA. Demografia médica, out/2024.",
+    "MPMS: inquéritos sobre medicamentos (ago/2026), ressonância (abr/2026) e terapias para TEA (05/06/2025 e 09/04/2026).",
+    "IBGE. Censo Demográfico 2022: Pessoas com deficiência e pessoas diagnosticadas com TEA (23/05/2025), via imprensa.",
+    "Santa Casa, UPAs e mutirão de cirurgias: Campo Grande News, Correio do Estado e A Crítica, 2024–2026 (fontes secundárias; lista na planilha remedios-exames-filas-hospitais.xlsx)."
    ],
    "sobre_dados": "A lista e o tipo de cada unidade vêm do CNES. Endereços e bairros vêm da Carta de Serviços da Prefeitura, que está desatualizada em alguns pontos: ainda lista o CRS Moreninha, hoje UPA Moreninha, e o CRS Guanandi, que não aparece mais como unidade ativa no CNES e por isso ficou de fora. Seis unidades constam no CNES mas não aparecem na Carta de Serviços (USF Jardim Presidente, Vila Cox, Aero Rancho Granja e Santa Emília; UPAs Leblon e Santa Mônica). A USF Cohab ficou sem bairro oficial confirmado. O total de 74 postos coincide com o número divulgado pela imprensa local.",
    "regiao": {
@@ -2569,49 +2722,136 @@
    "numero": 9,
    "slug": "educacao",
    "titulo": "Educação",
-   "chamada": "Escolas e creches da rede municipal, vagas e filas, professores e salários, e a qualidade do ensino.",
-   "situacao": "roteiro",
+   "chamada": "A fila da creche caiu, mas a conta não fecha: 4 mil crianças esperam vaga, sete Emeis estão paradas e a necessidade real chega a 12 mil vagas.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "As escolas e os CEINFs da Rede Municipal de Ensino (Reme); vagas e fila de creche."
-    },
-    {
-     "tipo": "p",
-     "texto": "Professores, salários e plano de carreira."
-    },
-    {
-     "tipo": "p",
-     "texto": "A qualidade do ensino (IDEB, alfabetização na idade certa) e a escola perto de casa."
+     "texto": "Nathaly, de 19 anos, deixou o emprego de telemarketing para cuidar da filha enquanto esperava vaga numa Emei do Aero Rancho (Campo Grande News, 27/05/2023). A história se repete nos mutirões da Defensoria, onde a fila é quase toda de mulheres. Para uma mãe que cria o filho sozinha, a creche decide se ela trabalha."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Quantas crianças esperam vaga?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Creche em Campo Grande",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Emeis da rede municipal",
+       "108",
+       "Semed, via Campo Grande News, 21/10/2026"
+      ],
+      [
+       "Crianças matriculadas nas Emeis",
+       "22.695",
+       "idem"
+      ],
+      [
+       "Crianças na fila",
+       "4.015 (out/2026); 15 mil em 2019",
+       "Semed, via Campo Grande News e Correio do Estado"
+      ],
+      [
+       "Crianças de 0 a 3 anos (estimativa)",
+       "cerca de 51 mil",
+       "IBGE, Censo 2022; cálculo do autor"
+      ],
+      [
+       "Cobertura pública de 0 a 3 anos",
+       "cerca de 27% (meta nacional: 50%)",
+       "INEP, Censo Escolar 2026 preliminar; cálculo do autor"
+      ],
+      [
+       "Ações na Justiça por vaga",
+       "cerca de 2 mil por ano",
+       "Defensoria Pública, via Campo Grande News, 2025–2026"
+      ],
+      [
+       "Gasto com educação infantil, 2025",
+       "R$ 385,4 milhões (+89% desde 2022)",
+       "SICONFI, DCA, Anexo I-E"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Censo Escolar e IDEB (INEP) e dados da Secretaria Municipal de Educação. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "A fila oficial é o piso, não a necessidade: só entra nela quem se inscreve. Para chegar à meta do Plano Nacional de Educação, de 50% das crianças de 0 a 3 anos em creche (Lei 13.005/2014), faltariam cerca de 11,7 mil vagas na rede pública, quase três vezes a fila (cálculo do autor). E cerca de metade da fila vira processo todo ano: a vaga vai para quem tem informação para procurar a Defensoria, não necessariamente para quem mais precisa."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "7 de 8",
+     "texto": "Emeis prometidas estavam paradas em junho de 2026; só a do bairro Popular andava, com R$ 26,2 milhões federais disponíveis. A da Moreninha II está parada desde 2013. Fonte: O Jacaré, 06/06/2026, com dados do Portal do FNDE."
+    },
+    {
+     "tipo": "p",
+     "texto": "O gargalo não é só o prédio. Cada Emei nova exige ao menos 50 profissionais, e a prefeitura está colada no limite de gasto com pessoal da Lei de Responsabilidade Fiscal (ver Capítulo 4)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quantas mães criam os filhos sozinhas?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Em Campo Grande, 163.719 domicílios têm uma mulher como responsável, 50,2% do total (IBGE, Censo 2022, via Campo Grande News, 25/10/2024). Em Mato Grosso do Sul, 12,6% das famílias são de mãe sem cônjuge com filhos, e mais da metade delas vive com menos de um salário mínimo por pessoa (IBGE, Censo 2022, Nupcialidade e Família). Aplicadas à capital, essas proporções dão entre 41 e 46 mil mães criando filhos sem cônjuge (cálculo do autor). Se a indústria vier a Campo Grande pela mão de obra, como propõe o Capítulo 2, é a creche em tempo integral que libera a metade feminina dessa força de trabalho."
+    },
+    {
+     "tipo": "h2",
+     "texto": "O que a merenda representa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A merenda chega a mais de 110 mil alunos em 207 unidades, e desde 2024 todo o hortifrúti vem da agricultura familiar (Semed, via A Crítica, 18/10/2026). O governo federal paga, por aluno e por dia letivo, R$ 1,57 na creche e R$ 0,57 no ensino fundamental (Resolução CD/FNDE nº 1/2026); o resto sai do caixa da cidade. Quanto, ninguém sabe: a prefeitura não usa a subfunção de alimentação escolar no orçamento, e a merenda fica diluída nas linhas de ensino (SICONFI, DCA 2022–2025). Para a família pobre, a refeição da escola é parte do orçamento doméstico, e nas férias a cozinha fecha."
+    },
+    {
+     "tipo": "h2",
+     "texto": "E a criança atípica na escola?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A rede municipal tinha cerca de 2.500 alunos com deficiência em 2019 e 5.780 em 2025, mais que o dobro, com o total de alunos quase parado (Semed, via Correio do Estado, 23/07/2019, e balanço da Reme 2025). São cerca de 5% dos alunos. Os profissionais de apoio não acompanharam: eram 2,6 alunos da educação especial por profissional em 2022 e 4,2 em 2025 (cálculo do autor). O assistente educacional inclusivo é quase sempre temporário, contratado a R$ 2.500 por 40 horas, e o Ministério Público mandou a prefeitura abrir concurso em 2025. No orçamento, a subfunção Educação Especial está zerada: não se sabe quanto custa a inclusão (SICONFI, DCA 2025). A fila das terapias está no Capítulo 8."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Terminar as Emeis paradas antes de começar novas, com o dinheiro federal que já existe. Publicar todo mês a fila por Emei e por região, como manda a Lei municipal 7.286/2024. Prioridade pública na fila para o bebê de mãe solo que trabalha ou estuda, para que a vaga não dependa de ação judicial. Vaga na rede particular credenciada onde a Emei não chega. Cozinha aberta nas férias nas regiões de menor renda e a merenda separada no orçamento. Concurso e carreira para o assistente inclusivo, e o gasto com educação especial lançado na sua subfunção."
     }
    ],
    "regiao": {
     "pergunta": "Há escola e creche perto de casa na sua região?",
-    "coluna": "Escolas, CEINFs, fila de creche e IDEB",
+    "coluna": "Fila de creche, rateio estimado pela população",
     "linhas": {
-     "Centro": "a levantar",
-     "Segredo": "a levantar",
-     "Prosa": "a levantar",
-     "Bandeira": "a levantar",
-     "Anhanduizinho": "a levantar",
-     "Lagoa": "a levantar",
-     "Imbirussu": "a levantar"
+     "Centro": "~280 crianças",
+     "Segredo": "~580 crianças",
+     "Prosa": "~430 crianças",
+     "Bandeira": "~620 crianças",
+     "Anhanduizinho": "~990 crianças",
+     "Lagoa": "~610 crianças",
+     "Imbirussu": "~490 crianças"
     },
-    "nota": null
-   }
+    "nota": "Estimativa do autor: a fila de 4.015 dividida pelo peso de cada região na população (Censo 2022). Subestima a periferia, onde as famílias são mais jovens. A Semed não publica a fila por região; o dado foi pedido pela Lei de Acesso à Informação."
+   },
+   "indicador": {
+    "valor": "4.015 crianças",
+    "texto": "esperavam vaga em creche em out/2026; 22.695 estão matriculadas nas 108 Emeis. A cobertura pública de 0 a 3 anos é de cerca de 27%.",
+    "fonte": "Semed, via Campo Grande News (21/10/2026); cálculo do autor"
+   },
+   "fontes": [
+    "CAMPO GRANDE. Semed: Emeis, matrículas e fila, conforme Campo Grande News (21/10/2026; 01/09/2025) e Correio do Estado (13/02/2020; 05/03/2024) (fontes secundárias).",
+    "INEP. Censo Escolar 2026 (preliminar), conforme Correio do Estado, 25/09/2026; IBGE, Censo 2022 (crianças de 0 a 3 anos em MS, SIDRA 9514; domicílios chefiados por mulheres; Nupcialidade e Família), via imprensa.",
+    "BRASIL. Lei nº 13.005/2014 (PNE), meta 1; Constituição Federal, art. 208, IV; Resolução CD/FNDE nº 1, de 18/02/2026 (PNAE); Lei nº 12.764/2012; CAMPO GRANDE. Lei nº 7.286/2024.",
+    "BRASIL. Tesouro Nacional. SICONFI: DCA 2022–2025, Anexo I-E (subfunções 12.365, 12.367 e 12.306).",
+    "O Jacaré, 06/06/2026 (obras paradas, dados do FNDE); balanço da Reme 2025, via CGR Brasil News, 31/12/2025; MPMS, 17/06/2025 (concurso de AEI), via Campo Grande News (fontes secundárias)."
+   ]
   },
   {
    "fonte_prevista": "efetivo da Guarda Civil Metropolitana e estatísticas da Sejusp-MS por região",
@@ -2937,33 +3177,134 @@
    "numero": 13,
    "slug": "esportes-e-cultura",
    "titulo": "Esportes e cultura",
-   "chamada": "Praças esportivas, parques, esporte de base, teatros e bibliotecas, e a cultura de uma cidade feita de muitas origens.",
-   "situacao": "roteiro",
+   "chamada": "Uma capital com música da terra no palco e moradores dormindo em paz: cada som no seu lugar, e a regra valendo de noite.",
+   "situacao": "dados",
    "sugestao": false,
    "blocos": [
     {
-     "tipo": "h2",
-     "texto": "O que este capítulo vai tratar"
-    },
-    {
      "tipo": "p",
-     "texto": "Praças esportivas, parques e centros comunitários; esporte de base e escolinhas; o Morenão e o futebol local."
-    },
-    {
-     "tipo": "p",
-     "texto": "Teatros, bibliotecas e museus."
-    },
-    {
-     "tipo": "p",
-     "texto": "A cultura de Campo Grande feita de muitas origens (terenas, paraguaios, japoneses e okinawanos, sírio-libaneses, gaúchos, nordestinos): o sobá, a chipa, o tereré."
+     "texto": "Em 2025 a Polícia Militar atendeu 24.328 ocorrências de perturbação do sossego em Campo Grande, 67 por dia; o barulho é a reclamação número um do 190 (Sejusp, via Campo Grande News, 20/03/2026 e 14/07/2023). No mesmo ano, a prefeitura gastou com cultura o menor valor em cinco anos. Este capítulo trata das duas coisas juntas, porque a solução é uma só: pôr cada som no seu lugar."
     },
     {
      "tipo": "h2",
-     "texto": "Com que dados?"
+     "texto": "Quanto a prefeitura gasta com cultura?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa da prefeitura com cultura e com esporte e lazer (R$ milhões)",
+     "cabecalho": [
+      "",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "Cultura",
+       "17,5",
+       "20,0",
+       "19,3",
+       "24,6",
+       "13,6"
+      ],
+      [
+       "…patrimônio histórico",
+       "3,6",
+       "3,3",
+       "2,5",
+       "2,3",
+       "0,05"
+      ],
+      [
+       "% da despesa",
+       "0,38%",
+       "0,42%",
+       "0,40%",
+       "0,44%",
+       "0,23%"
+      ],
+      [
+       "Desporto e lazer",
+       "16,3",
+       "17,6",
+       "17,4",
+       "19,9",
+       "19,2"
+      ]
+     ]
     },
     {
      "tipo": "p",
-     "texto": "Os números do capítulo virão destas fontes primárias, que ainda estão sendo levantadas: Funesp, Fundac e o calendário cultural do município. Enquanto o dado não estiver conferido no documento original, ele não aparece aqui."
+     "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E (despesa liquidada). Em 2025 a cultura caiu 45% sobre 2024; descontada a inflação, foram uns 36% a menos que em 2021 (cálculo do autor, com o IPCA). São cerca de R$ 15 por habitante ao ano. O fundo municipal de cultura (FMIC) teve editais de R$ 4 milhões em 2024, suspensos em dezembro com os projetos já selecionados (Campo Grande News, 06/12/2024), e o valor de referência é o mesmo de quinze anos atrás. A gestão passou por três órgãos em seis anos; desde 2025 é da Fundação Municipal de Cultura, a Fundac (Lei 7.415/2025)."
+    },
+    {
+     "tipo": "p",
+     "texto": "A maioria dos palcos da cidade não é da prefeitura: o Teatro Glauce Rocha é da UFMS; o Centro Cultural José Octávio Guizzo, a Concha Acústica e o Memorial da Cultura são do estado. Quase tudo está no Centro e no Prosa; as sete regiões não têm, cada uma, um centro cultural municipal. As praças e as escolas são a rede que já existe nos bairros."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto vai para a música da terra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ninguém sabe. A prefeitura não publica balanço de cachês por evento nem pela origem do artista; os contratos de show saem um a um no Diogrande, por inexigibilidade (Lei 14.133/2021, art. 74, II). Nem o Arraial de Santo Antônio nem o Natal no Centro tiveram os cachês divulgados. No mesmo estado, um baile regional pagou de R$ 12 mil a R$ 15 mil e um festival pagou até R$ 500 mil a uma atração nacional (Campo Grande News, 25/07/2026): um único cachê desses equivale a um oitavo de todo o FMIC de 2024. A cidade de Helena Meireles, Almir Sater, Geraldo Espíndola e Paulo Simões merece regra para o seu próprio palco."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Por que o barulho não se resolve?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Bairros com mais ocorrências de perturbação do sossego, 2025",
+     "cabecalho": [
+      "Bairro",
+      "Ocorrências"
+     ],
+     "linhas": [
+      [
+       "Nova Lima",
+       "1.087"
+      ],
+      [
+       "Portal Caiobá",
+       "982"
+      ],
+      [
+       "Aero Rancho",
+       "940"
+      ],
+      [
+       "Centro",
+       "887"
+      ],
+      [
+       "Jardim Noroeste",
+       "822"
+      ],
+      [
+       "Moreninhas",
+       "638"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Sejusp, via Campo Grande News, 19/06/2026. O barulho que mais incomoda não é o do teatro: quase todos os bairros do topo são populares, onde o problema é som automotivo, conveniência e festa de madrugada e escapamento aberto. A lei em vigor é de 1996 (Lei Complementar 8), com multa em UFIR, moeda extinta em 2000. O afrouxamento aprovado pela Câmara em 2014 e 2015 foi derrubado pelo Tribunal de Justiça em 2018, e o projeto novo, com zonas de ruído, foi retirado em 2023 sob pressão de bares e músicos e ainda não voltou (Campo Grande News, 28/03/2018 e 09/05/2023; Correio do Estado, 25/09/2026). Desde 2016 a Justiça manda a prefeitura manter o Disque-Silêncio 24 horas, mas não há dado de quantas denúncias recebe; na prática, quem atende é a PM."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Lugar, hora e volume",
+     "texto": "A norma técnica brasileira já prevê o meio-termo: limites maiores para áreas de atividade cultural e de lazer, e menores para as áreas residenciais (ABNT NBR 10151:2019). A lei pode reconhecer um distrito cultural sem liberar o barulho na cidade toda."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na nova lei de uso do solo, um mapa de zonas de som pela norma técnica, com dois ou três distritos culturais, como a Esplanada Ferroviária e a Rua 14 de Julho, onde a música ao vivo tem horário mais longo. Licença sonora simples para o bar, com multa em reais e por porte, e crédito para isolamento acústico. Fiscalização noturna de verdade, com Guarda, Planurb e PM Ambiental medindo na casa de quem reclama, e operação contra o som automotivo nos bairros que mais sofrem. Na cultura: o FMIC com valor mínimo em lei e calendário que não se suspende; pelo menos dois terços do dinheiro municipal de shows para artistas de MS, com tabela pública de cachês e um painel de cada evento; e um circuito de música nas praças dos bairros, até as 22h."
     }
    ],
    "regiao": {
@@ -2978,12 +3319,206 @@
      "Lagoa": "a levantar",
      "Imbirussu": "a levantar"
     },
-    "nota": null
-   }
+    "nota": "Não há cadastro municipal publicado de equipamentos culturais e esportivos por região. Pelos levantados, quase todos ficam no Centro e no Prosa."
+   },
+   "indicador": {
+    "valor": "R$ 13,6 milhões",
+    "texto": "foi o gasto da prefeitura com cultura em 2025, 0,23% da despesa e o menor da série; o patrimônio histórico recebeu R$ 46 mil.",
+    "fonte": "SICONFI: DCA 2021–2025, Anexo I-E"
+   },
+   "fontes": [
+    "BRASIL. Tesouro Nacional. SICONFI: DCA 2021–2025, Anexo I-E (funções 13 e 27), Município de Campo Grande.",
+    "CAMPO GRANDE. Lei nº 7.415/2025 (Fundac); Lei Complementar nº 8/1996 (poluição sonora). BRASIL. Lei nº 14.133/2021, art. 74. ABNT NBR 10151:2019.",
+    "Sejusp e PM: ocorrências de perturbação do sossego, conforme Campo Grande News (14/07/2023; 20/03/2026; 19/06/2026) (fontes secundárias).",
+    "Campo Grande News (28/03/2018; 09/05/2023; 06/12/2024; 25/07/2026) e Correio do Estado (25/09/2026): lei do silêncio, editais do FMIC e cachês (fontes secundárias)."
+   ]
+  },
+  {
+   "fonte_prevista": "—",
+   "numero": 14,
+   "slug": "familia-e-assistencia-social",
+   "titulo": "Família e assistência social",
+   "chamada": "A União põe R$ 7,60 no bolso das famílias da cidade para cada R$ 1 que a prefeitura gasta com assistência. O papel da prefeitura é a porta de entrada, a ponte com o trabalho e o apoio a quem já cuida.",
+   "situacao": "dados",
+   "sugestao": false,
+   "blocos": [
+    {
+     "tipo": "p",
+     "texto": "Em 2025, o governo federal pagou R$ 1,17 bilhão em benefícios diretamente a moradores de Campo Grande: Bolsa Família, BPC, Pé-de-Meia, Auxílio Gás e outros (Portal da Transparência). No mesmo ano, a prefeitura gastou R$ 154 milhões em toda a assistência social (SICONFI, DCA 2025). Para cada real da prefeitura, a União pôs R$ 7,60 no bolso das famílias da cidade (cálculo do autor)."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quem recebe o quê?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Programas sociais que chegam a Campo Grande",
+     "cabecalho": [
+      "Programa (quem paga)",
+      "Alcance na cidade",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Bolsa Família (União)",
+       "50,4 mil famílias (jun/2026), cerca de R$ 35 a 40 milhões por mês",
+       "MDS, via Correio do Estado, 17/06/2026; valor estimado pelo autor"
+      ],
+      [
+       "BPC, idoso e pessoa com deficiência (União)",
+       "cerca de 37 a 41 mil pessoas, R$ 670 a 750 milhões por ano",
+       "estimativa do autor; o MDS não publica o dado aberto"
+      ],
+      [
+       "Gás do Povo (União)",
+       "26,3 mil famílias (jan/2026)",
+       "Correio do Estado, 26/01/2026"
+      ],
+      [
+       "Mais Social, R$ 450 por mês (Estado)",
+       "cerca de 40 mil pessoas em MS; a fatia da capital não é publicada",
+       "Correio do Estado, 22/01/2026"
+      ],
+      [
+       "PRIMT, bolsa de um salário mínimo por trabalho na prefeitura (Prefeitura)",
+       "1.231 pessoas (dez/2025)",
+       "balanço na Câmara, via A Crítica, 01/04/2026"
+      ],
+      [
+       "Bônus Sonho de Morar, até R$ 20 mil (Prefeitura)",
+       "143 famílias (ago/2026)",
+       "A Crítica, 07/08/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande tem cerca de 26% das famílias do Bolsa Família de Mato Grosso do Sul e 32,6% da população: a capital é proporcionalmente menos pobre que o interior, mas é onde estão mais famílias em número absoluto (cálculo do autor). É provável que o BPC já movimente mais dinheiro que o Bolsa Família na cidade, como acontece na maioria das capitais."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "A porta de entrada",
+     "texto": "A prefeitura não é dona do dinheiro da transferência de renda, mas é dona da porta: é o CRAS municipal que inscreve e atualiza o Cadastro Único, e sem ele ninguém recebe Bolsa Família, BPC, Gás do Povo ou tarifa social de energia."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quanto a prefeitura gasta?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Assistência social da prefeitura (R$ milhões)",
+     "cabecalho": [
+      "",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+     ],
+     "linhas": [
+      [
+       "Função assistência social",
+       "103,9",
+       "123,2",
+       "134,6",
+       "148,7",
+       "154,3"
+      ],
+      [
+       "…assistência comunitária (serviços na ponta)",
+       "76,2",
+       "80,5",
+       "101,5",
+       "86,8",
+       "94,6"
+      ],
+      [
+       "…administração geral da secretaria",
+       "21,9",
+       "22,5",
+       "22,2",
+       "54,5",
+       "53,9"
+      ],
+      [
+       "% da despesa total",
+       "2,28%",
+       "2,62%",
+       "2,77%",
+       "2,65%",
+       "2,65%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E. A assistência cresceu 49% em quatro anos, mais que o orçamento (28%), mas o aumento foi para a administração da secretaria, que saltou de R$ 22 milhões para R$ 54 milhões em 2024, enquanto os serviços na ponta caíram; pode ser reclassificação contábil, e é a pergunta a fazer. São cerca de R$ 172 por habitante ao ano. Em abril de 2025 a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais, alegando o ajuste fiscal (O Jacaré, 25/04/2025): o apoio a quem já cuida das pessoas fica à mercê do caixa."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Quantas pessoas vivem na rua?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Cerca de 1.500, três vezes mais que em 2018. Pelo Cadastro Único eram 503 pessoas em 2018 e 1.611 em outubro de 2025 (CadÚnico, via Campo Grande News, 02/11/2025). O primeiro censo feito na rua, coordenado pela Defensoria Pública com a prefeitura e o Ministério Público, contou 1.476 pessoas: 842 dormindo na rua e 634 em abrigos; 81% homens; 566 na região do Centro e 363 no Anhanduizinho (Prefeitura de Campo Grande, 19/08/2026). Por habitante, a cidade está na média do Brasil; o que preocupa é a velocidade."
+    },
+    {
+     "tipo": "p",
+     "texto": "O que essas pessoas pedem é trabalho e renda, moradia, comida, saúde, documentos e tratamento para drogas, nessa ordem; só 7 dos entrevistados tinham emprego formal (censo de 2026). A rede tem um Centro POP novo desde setembro de 2026, depois de o Ministério Público ter encontrado o antigo em estado de calamidade, e cerca de 460 vagas de abrigo pelas notícias (cálculo do autor; a prefeitura não publica o número). A porta de saída, que é tratamento, trabalho e casa, continua estreita."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "19,3%",
+     "texto": "dos alunos do 9º ano de Campo Grande já tinham experimentado droga ilícita em 2019, a maior proporção entre as capitais (Brasil: 12,1%). Fonte: IBGE, PeNSE 2019, via Correio do Estado, 13/07/2022."
+    },
+    {
+     "tipo": "p",
+     "texto": "Para tratar a dependência, a cidade tem 2 CAPS AD com 30 leitos de acolhimento, 12 leitos de álcool e drogas no Hospital Regional e 273 vagas em comunidades terapêuticas pagas pela prefeitura, menos que as 300 de 2021 (Prefeitura, 10/05/2021; Campo Grande News, 04/05/2026 e 10/10/2025). Os 20 leitos psiquiátricos da Santa Casa fecharam em 2023, e o Ministério Público cobrou a falta de leitos para quem está em crise. As comunidades terapêuticas são quase todas ligadas a igrejas (Capítulo 15)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O comércio do Centro se queixa de furtos e de uso de droga nas portas (Campo Grande News, 17/06/2025; A Crítica, 17/07/2026). O lojista e o morador de rua não são lados opostos: o Centro esvaziado, que perdeu 13% dos moradores, abre espaço para o abandono, e o abandono afasta o cliente. A saída que serve aos dois é a mesma: gente morando no Centro, prédio vazio ocupado, rua iluminada e uma rede que tire a pessoa da calçada com tratamento, trabalho e teto."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Propostas para 2032"
+    },
+    {
+     "tipo": "p",
+     "texto": "Fazer bem o que é da prefeitura: Cadastro Único atualizado e busca ativa, com balanço anual da secretaria mostrando famílias atendidas e fila do cadastro. Ligar o cadastro às vagas de emprego e aos cursos, em vez de manter o emprego temporário dentro da prefeitura como saída. Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa. Para a população de rua: abrigo com porta de saída, que junte tratamento, documento, trabalho e aluguel social, e leitos de crise em hospital geral, como prevê a rede federal de atenção psicossocial. E prevenção na escola, onde a cidade lidera o uso precoce de drogas."
+    }
+   ],
+   "regiao": {
+    "pergunta": "Quantas pessoas vivem na rua na sua região?",
+    "coluna": "População de rua no censo de 2026",
+    "linhas": {
+     "Centro": "566 pessoas (cerca de 40%)",
+     "Segredo": "há registros, sem número publicado",
+     "Prosa": "há registros, sem número publicado",
+     "Bandeira": "há registros, sem número publicado",
+     "Anhanduizinho": "363 pessoas (25,6%)",
+     "Lagoa": "há registros, sem número publicado",
+     "Imbirussu": "há registros, sem número publicado"
+    },
+    "nota": "Censo da população em situação de rua coordenado pela Defensoria Pública de MS (agosto de 2026). O relatório por região completo não foi publicado."
+   },
+   "indicador": {
+    "valor": "R$ 1,17 bilhão",
+    "texto": "em benefícios federais pagos a moradores de Campo Grande em 2025, contra R$ 154 milhões da prefeitura em assistência social. Cerca de 1.500 pessoas vivem na rua.",
+    "fonte": "Portal da Transparência; SICONFI DCA 2025; censo da população de rua 2026"
+   },
+   "fontes": [
+    "BRASIL. CGU. Portal da Transparência: benefícios ao cidadão, Campo Grande, 2025 e 2026.",
+    "BRASIL. Tesouro Nacional. SICONFI: DCA 2021–2025, Anexo I-E (função 08), Município de Campo Grande.",
+    "BRASIL. Lei nº 14.601/2023 (Bolsa Família); Lei nº 8.742/1993 (LOAS), art. 20.",
+    "MDS e Sead-MS, conforme Correio do Estado (26/01/2026; 22/01/2026; 17/06/2026) e A Crítica (01/04/2026; 07/08/2026); O Jacaré (25/04/2025) (fontes secundárias).",
+    "Defensoria Pública de MS e outros. Censo da população em situação de rua de Campo Grande, apresentado em 19/08/2026 (Prefeitura de Campo Grande, CG Notícias); CadÚnico, conforme Campo Grande News, 02/11/2025.",
+    "IBGE. PeNSE 2019, conforme Correio do Estado, 13/07/2022; rede de saúde mental: Prefeitura (10/05/2021; 23/10/2023) e Campo Grande News (10/10/2025; 04/05/2026) (fontes secundárias)."
+   ]
   },
   {
    "fonte_prevista": "Censo 2022 (religião), Arquidiocese de Campo Grande, conselhos de pastores e entidades conveniadas com a prefeitura",
-   "numero": 14,
+   "numero": 15,
    "slug": "religiao",
    "titulo": "Religião",
    "chamada": "A fé como parte da vida da cidade, a liberdade religiosa e o papel das igrejas e entidades no bairro.",
@@ -3032,7 +3567,7 @@
   },
   {
    "fonte_prevista": "—",
-   "numero": 15,
+   "numero": 16,
    "slug": "consideracoes-finais",
    "titulo": "Considerações finais",
    "chamada": "A Campo Grande de 2032 em poucas páginas: as propostas reunidas pelo que depende da prefeitura, do estado e da União.",
