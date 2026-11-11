@@ -802,6 +802,98 @@
       "Taxas proporcionais ao porte, com a microempresa pagando o mínimo, e calendário da Taxa de Inspeção Sanitária negociado com o setor até 2030.",
       "Uma simulação pública de quanto o profissional liberal e a clínica vão pagar de IBS em Campo Grande na transição, antes de fixar a alíquota municipal."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.6",
+     "texto": "Construção civil e mercado imobiliário"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos trabalham na construção e quanto ela produz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A construção foi o segundo setor que mais criou empregos com carteira em Campo Grande no primeiro semestre de 2026: saldo de 1.467 vagas, atrás só dos serviços (2.088) e quatro vezes o da indústria de transformação (350), enquanto o comércio fechou 633 (Novo Caged, analisado pelo Observatório do Mercado de Trabalho de Campo Grande, via A Crítica, 30/07/2026). A Fiems conta cerca de 45 mil empregos na indústria da capital somada à construção; como o Caged dá 27.250 na indústria, a construção teria perto de 18 mil empregos formais (cálculo do autor, com fontes e datas diferentes; o número exato está na RAIS)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O faturamento da construção na cidade não é publicado. A parte que se mede é a dos prédios residenciais: R$ 516 milhões em vendas no primeiro semestre de 2026, R$ 259 milhões no primeiro trimestre e R$ 257 milhões no segundo (Censo Imobiliário da Brain Inteligência Estratégica para o Sinduscon-MS, via Correio do Estado, 28/08/2026). Ficam de fora as casas, os loteamentos, as obras públicas e as reformas, que provavelmente são a maior parte."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Prédios residenciais em Campo Grande, 2026",
+     "cabecalho": [
+      "Indicador",
+      "1º trimestre",
+      "2º trimestre"
+     ],
+     "linhas": [
+      [
+       "Unidades vendidas",
+       "464",
+       "408"
+      ],
+      [
+       "Unidades lançadas",
+       "144 (2 empreendimentos)",
+       "240 (2 empreendimentos)"
+      ],
+      [
+       "Estoque à venda",
+       "1.961",
+       "2.033"
+      ],
+      [
+       "Valor das vendas (VGV)",
+       "R$ 259 milhões",
+       "R$ 257 milhões"
+      ],
+      [
+       "Preço médio do m²",
+       "R$ 10.477",
+       "R$ 9.857"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Censo Imobiliário (Brain e Sinduscon-MS), via Correio do Estado, 28/08/2026, e A Crítica, 26/06/2026. O estoque cresceu 35% em um ano, os lançamentos do primeiro trimestre caíram 41% sobre 2025, e o preço médio do apartamento foi de R$ 688 mil: R$ 294 mil no Minha Casa, Minha Vida de dois quartos, R$ 1,14 milhão no de três quartos. De 872 unidades vendidas de janeiro a julho, 352 eram do Minha Casa, Minha Vida. Com juros altos, o prédio que se vende é o de médio padrão e o do programa federal."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde a cidade cresce?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo Imobiliário não separa as vendas por bairro, e a prefeitura não publica os alvarás e os habite-se por região. O que se sabe aponta para a periferia e para fora do perímetro urbano. Em 2024, a Câmara aprovou a lei que cobra outorga onerosa de quem loteia na Zona de Expansão Urbana (Lei 6.795/2024), com emenda que tirava a exigência de o loteamento ficar colado à cidade; segundo o arquiteto Ângelo Arruda, a zona de expansão já comportaria 1,94 milhão de pessoas, o dobro da população atual (Correio do Estado, 13/05/2024). Ao mesmo tempo, os vazios urbanos ocupavam 35% do território, em estudo coordenado pela UFMS (Campo Grande News, 01/10/2017), a cidade tinha 66.917 domicílios vagos (IBGE, Censo 2022), e o Centro perdeu 13% dos moradores de 2010 a 2022 (ver o Capítulo 5)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como se aprova um projeto?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Pelo tamanho. Casa, prédio de até cinco unidades e sala comercial de até 500 m², que são mais de 80% dos processos, seguem rito simplificado desde 2017 (programas Aprove Fácil e Habite-se Legal, Campo Grande News, 11/06/2017) e, desde 2019, podem ter alvará pela internet sob responsabilidade do profissional (Alvará Imediato, Correio do Estado, 04/10/2019). Projetos maiores passam pela análise urbanística, ambiental e de trânsito; em abril de 2026 a prefeitura criou um ponto de controle para analisar esses processos em conjunto (A Crítica, 16/04/2026). O ISS da obra é pago antes do alvará, pelo valor do metro quadrado de uma tabela anual, e o habite-se só sai com o imposto quitado (Decreto 16.468/2025). O tempo médio de aprovação e o número de processos parados não são publicados."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que diz o Plano Diretor?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Plano Diretor de Desenvolvimento Urbano Ambiental é a Lei Complementar 341/2018, com horizonte de dez anos; a revisão cai no próximo mandato. A briga central da última revisão foi o coeficiente de aproveitamento, quanto se pode construir em cada terreno. O Ministério Público propôs coeficiente 1 para toda a cidade, com compra do direito de construir acima disso; o Secovi-MS respondeu que 90% dos 383.143 imóveis cadastrados tinham coeficiente 2 ou mais e perderiam valor (Campo Grande News, 13/06/2018). O plano aprovado manteve coeficientes diferentes por região e a outorga onerosa, regulamentada depois para a zona de expansão (Câmara, 24/02/2022). A pergunta para 2028 é a mesma do subtópico 6.6: como fazer a cidade crescer para dentro, onde já há asfalto, ônibus e esgoto, e cobrar de quem ganha com a valorização."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Construção civil e mercado imobiliário",
+     "texto": [
+      "Publicar todo mês os alvarás, habite-se e loteamentos aprovados por região, com a área construída, e o tempo médio de aprovação por tipo de projeto.",
+      "Prazo máximo para aprovar projeto grande, com análise conjunta dos órgãos e aprovação automática no rito simplificado quando o prazo vencer.",
+      "Revisão do Plano Diretor (2028) com a cidade compacta como regra: mais coeficiente nos eixos de ônibus e no Centro, IPTU progressivo no tempo para terreno vazio (Estatuto da Cidade, art. 7º) e nenhum loteamento novo longe da rede de água, esgoto e transporte.",
+      "Minha Casa, Minha Vida no Centro, com prédios vazios reformados e terrenos públicos, junto com a política de moradia do Capítulo 11.",
+      "Um censo imobiliário por região, em parceria com o Sinduscon-MS e o Secovi-MS, para que a prefeitura saiba onde a cidade está crescendo."
+     ]
     }
    ],
    "regiao": {
@@ -838,7 +930,8 @@
     "2.2 Indústria",
     "2.3 Crédito e dívida das famílias",
     "2.4 Comércio e serviços",
-    "2.5 Licenças, taxas e profissionais liberais"
+    "2.5 Licenças, taxas e profissionais liberais",
+    "2.6 Construção civil e mercado imobiliário"
    ]
   },
   {
@@ -4631,6 +4724,140 @@
       "Calçada contínua e travessia segura no caminho da escola, do posto e do ponto, começando pelas regiões de maior uso do ônibus.",
       "Abrigo e informação de horário em cada ponto."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "12.4",
+     "texto": "Preço, qualidade e o contrato que vence em 2032"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o usuário paga, e pelo quê?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A passagem custa R$ 4,95 desde 24 de janeiro de 2025; em janeiro de 2020 custava R$ 3,95, 25% a menos (Campo Grande News, 25/01/2025), e em março de 2026 continuava em R$ 4,95 (A Crítica, 11/03/2026). Quem pega dois ônibus por dia útil gasta cerca de R$ 218 por mês (44 passagens; cálculo do autor). O que se recebe por esse preço está no relatório da intervenção e da agência reguladora: um quarto das viagens programadas de 2025 não aconteceu, e 225 dos 460 ônibus estavam irregulares em junho de 2026, sendo 197 acima da idade máxima do contrato, 15 interditados e 13 articulados com mais de dez anos (Agereg, via Diário do Transporte, 02/06/2026). Foram 81 interdições de ônibus em 2025 (Diário do Transporte, 30/05/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O passageiro respondeu indo embora. Uma auditoria contou queda de 25% dos pagantes em sete anos, de 56,9 milhões para 42,5 milhões por ano, e a venda de passagens rendeu R$ 116 milhões de janeiro a outubro de 2023 (Correio do Estado, 01/04/2024), perto de R$ 140 milhões no ano (cálculo do autor). A conta não fecha de nenhum lado: o custo por passageiro (tarifa técnica) foi fixado em R$ 6,57 em janeiro de 2026, o consórcio pede R$ 7,79 na Justiça, com decisões em sentidos diferentes ao longo de 2026, e a prefeitura repassa mais de R$ 40 milhões por ano em isenção de ISS e passe do estudante (A Crítica, 11/03/2026; Correio do Estado, 21/07/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que diz o contrato?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O contrato do transporte coletivo",
+     "cabecalho": [
+      "Item",
+      "Situação",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Contrato",
+       "330/2012, com o Consórcio Guaicurus",
+       "A Crítica, 21/09/2026"
+      ],
+      [
+       "Vencimento",
+       "2032, prorrogável por mais 20 anos",
+       "Correio do Estado, 23/07/2026"
+      ],
+      [
+       "Pedido de reequilíbrio",
+       "R$ 830 milhões, pela perícia judicial (valores de dez/2024), para o período de 2013 a 2024; a prefeitura contesta o cálculo e diz que perder passageiro é risco da empresa",
+       "A Crítica, 21/09/2026"
+      ],
+      [
+       "Intervenção",
+       "decretada em 16/06/2026, por até 180 dias",
+       "Diário do Transporte, 25/09/2026"
+      ],
+      [
+       "Venda",
+       "à Maas Transportes, ligada ao grupo HP (Goiânia), que deve buscar a prorrogação antecipada da concessão",
+       "Correio do Estado, 23/07/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "2032",
+     "texto": "é o ano em que vence o contrato do ônibus. O próximo prefeito decide se prorroga por mais 20 anos ou faz uma licitação nova, e a decisão começa a ser tomada já em 2029, porque uma licitação desse tamanho leva anos para ficar pronta. É a maior decisão de mobilidade da cidade em duas décadas."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Preço, qualidade e o contrato que vence em 2032",
+     "texto": [
+      "Não prorrogar a concessão antes do prazo. Preparar desde 2029 a licitação de 2032, com estudo de demanda, consulta pública e o pedido de reequilíbrio resolvido na Justiça antes.",
+      "Contrato novo em mais de um lote, para que a cidade não dependa de um só operador, com pagamento por quilômetro e viagem cumpridos, idade máxima da frota, ar-condicionado e multa automática por viagem não feita.",
+      "Bilhetagem pública: o dinheiro da passagem entra numa conta da prefeitura, que paga o operador, e os dados de passageiros, viagens e horários ficam abertos em tempo real."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "12.5",
+     "texto": "Outros modais e o que deu certo"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Tarifa zero funciona?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Funciona em cidade pequena e média, e cobra caro. Em março de 2026, 143 municípios tinham tarifa zero integral e 43 parcial, mas nenhum com mais de 500 mil habitantes; dos 312 com mais de 100 mil, só 14 (NTU, via Diário do Transporte, 22/10/2026). Onde se adotou, a demanda explodiu: Caucaia (CE) passou de 510 mil para 2,4 milhões de viagens por mês (+371%), e Maricá (RJ), que gasta R$ 120 milhões por ano pagos com royalties do petróleo, de 50 mil para 122 mil por dia (+144%). No Distrito Federal, o sistema custou mais de R$ 3 bilhões em 2025, R$ 2,3 bilhões pagos pelo governo (mesma fonte). Em Campo Grande, só a receita das passagens é de cerca de R$ 140 milhões por ano, e com a tarifa zero seriam precisos mais ônibus (cálculo do autor). Uma proposta de emenda constitucional de outubro de 2026 prevê dinheiro federal para a tarifa zero aos fins de semana e feriados, ainda sem aprovação."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E os outros modais?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Modais de transporte: o que funcionou e o que não funcionou",
+     "cabecalho": [
+      "Modal",
+      "O que aconteceu",
+      "Lição para Campo Grande"
+     ],
+     "linhas": [
+      [
+       "Corredor de ônibus (BRT)",
+       "Curitiba abriu o primeiro corredor do país em 1974; hoje são 556 km em 15 cidades, menos de 12 km por ano em média (NTU, via Portal do Trânsito, 28/08/2026)",
+       "É o modal de massa que cabe na cidade; o gargalo é a execução, não a ideia"
+      ],
+      [
+       "VLT de Cuiabá",
+       "Prometido para a Copa de 2014, consumiu cerca de R$ 1 bilhão e nunca operou; o governo trocou o projeto por um BRT (Agência Brasil, 11/03/2023)",
+       "Trilho exige densidade que Campo Grande não tem; não repetir"
+      ],
+      [
+       "Bicicleta",
+       "Campo Grande tem 110 km de vias para bicicleta (89 km de ciclovia), com falta de luz, buraco e sinalização (Correio do Estado, 28/04/2025); São Paulo tem mais de 710 km e Fortaleza mais de 400 km",
+       "Cidade plana e de clima seco: ligar as ciclovias aos terminais e aos bairros de renda baixa"
+      ],
+      [
+       "Patinete compartilhado",
+       "Chegou em julho de 2026, com 200 patinetes no Centro e arredores, a R$ 0,99 para desbloquear e de R$ 0,33 a R$ 0,59 por minuto (Correio do Estado, 15/07/2026)",
+       "Serve à última milha, não substitui o ônibus"
+      ],
+      [
+       "Tarifa zero com contribuição das empresas, Dunquerque (França)",
+       "Ônibus de graça pago com dinheiro público e com uma contribuição dos empregadores (via Diário do Transporte, 22/10/2026)",
+       "No Brasil, o vale-transporte já é pago pelo empregador; parte dele poderia financiar o sistema"
+      ]
+     ]
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Outros modais e o que deu certo",
+     "texto": [
+      "Tarifa zero aos domingos e feriados e para quem procura emprego, como primeiro passo, medindo a demanda e o custo antes de ampliar, e buscando o dinheiro federal da proposta de emenda constitucional.",
+      "Dois ou três corredores de ônibus de verdade (subtópico 12.2), em vez de obra de trilho.",
+      "Rede de bicicleta ligada aos terminais, com bicicletário, luz e manutenção, começando pelos bairros de renda mais baixa.",
+      "Integração da bicicleta e do patinete com o ônibus na mesma tarifa e no mesmo aplicativo."
+     ]
     }
    ],
    "regiao": {
@@ -4660,7 +4887,9 @@
    "subtopicos": [
     "12.1 Ônibus",
     "12.2 Corredores e a cidade do carro",
-    "12.3 Calçadas e travessias"
+    "12.3 Calçadas e travessias",
+    "12.4 Preço, qualidade e o contrato que vence em 2032",
+    "12.5 Outros modais e o que deu certo"
    ]
   },
   {
