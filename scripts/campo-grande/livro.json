@@ -1905,6 +1905,91 @@
       "Publicar todo ano um retrato econômico por região: renda, emprego formal, empresas abertas, valor venal médio, gasto da prefeitura por habitante.",
       "Orçamento por região, com a regra de que o investimento por habitante nas regiões de renda mais baixa não seja menor que nas de renda alta."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.7",
+     "texto": "Iluminação pública"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como está a iluminação?"
+    },
+    {
+     "tipo": "p",
+     "texto": "No papel, pronta: a prefeitura anunciou em agosto de 2026 a troca de 125.736 pontos de luz por LED, 100% da rede, com economia de energia prevista de 30% a 35% (Plano Municipal de Iluminação Pública 2026, via Campo Grande News, 01/08/2026). Na rua, a queixa continua: ruas no escuro por semanas, luminária queimada sem prazo de troca e bairros inteiros com luz fraca são assunto frequente na imprensa (Correio do Estado). A cidade não publica um mapa dos pontos apagados nem o tempo médio de conserto."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Iluminação pública em números",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Pontos de luz",
+       "125.736, todos em LED",
+       "prefeitura, via Campo Grande News, 01/08/2026"
+      ],
+      [
+       "Arrecadação da COSIP (contribuição na conta de luz)",
+       "R$ 192 milhões em 2025; quase R$ 99 milhões no 1º semestre de 2026",
+       "SICONFI, DCA 2025; Correio do Estado, 03/07/2026"
+      ],
+      [
+       "COSIP por morador (2022)",
+       "R$ 160,30, mais que Curitiba e Goiânia",
+       "Correio do Estado, 11/05/2024"
+      ],
+      [
+       "Manutenção por região (contratos de 2024)",
+       "de R$ 2,1 a 2,8 milhões por ano por região (Segredo, Lagoa, Imbirussu)",
+       "Correio do Estado, 03/07/2026"
+      ],
+      [
+       "LED solar em avenidas e parques (2024)",
+       "cerca de R$ 25 milhões",
+       "Correio do Estado, 11/05/2024"
+      ],
+      [
+       "Reajuste dos contratos de manutenção (mar/2025)",
+       "cerca de 25%, nove meses após a assinatura",
+       "Correio do Estado, 03/07/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Há ainda uma investigação em curso. Em dezembro de 2025 o Grupo Especial de Combate à Corrupção do Ministério Público fez a Operação Apagar das Luzes, com 14 mandados de busca, e afirmou ter identificado superfaturamento de mais de R$ 62 milhões em contratos de manutenção da iluminação; as empresas não foram condenadas e os contratos foram renovados em julho de 2026 (Correio do Estado, 03/07/2026). O livro registra a apuração como atribuição do Ministério Público, sem juízo sobre o mérito."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que fazer?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Com a rede já em LED, a conta de energia deveria cair cerca de um terço, e a COSIP, de R$ 192 milhões por ano, sobrar para manutenção e expansão. A pergunta é para onde vai a diferença. Belo Horizonte mostra o que um contrato bem desenhado entrega: a parceria público-privada assinada em 2017 trocou a rede por LED até 2020, levou telegestão a 32 mil luminárias e reduziu o consumo em 55% em cinco anos, com economia de cerca de R$ 150 milhões (Diário do Comércio, 11/04/2025). O ganho não veio só da lâmpada, mas do contrato pago por desempenho: luz acesa, tempo de reparo e consumo medido."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a cidade precisa de três coisas. Um contrato único por desempenho no lugar dos lotes por região, com pagamento por ponto aceso e multa por atraso no conserto, com prazo de 48 horas. Telegestão, que avisa sozinha quando uma luminária apaga e permite reduzir a luz na madrugada onde não há movimento; a estimativa do autor, a ser conferida em orçamento de referência, é de R$ 300 a R$ 500 por ponto, R$ 38 a 63 milhões para toda a rede, que cabem na própria COSIP em menos de um ano de arrecadação. E prioridade de luz onde há gente a pé: pontos de ônibus, travessias, entornos de escola e de posto de saúde, praças-polo (13.5) e os territórios do programa Jovem Vivo (10.6), porque rua clara é rua mais segura."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 192 milhões",
+     "texto": "foi a arrecadação da COSIP em 2025, cerca de R$ 1.530 por ponto de luz por ano (cálculo do autor), com a rede já toda em LED. Fonte: SICONFI, DCA 2025; prefeitura, via Campo Grande News, 01/08/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Iluminação pública",
+     "texto": [
+      "Relatório anual da COSIP: quanto entrou, quanto foi para energia, manutenção, expansão e telegestão, e quanto sobrou.",
+      "Contrato único de iluminação por desempenho, pago por ponto aceso, com conserto em até 48 horas e mapa público dos pontos apagados.",
+      "Telegestão em toda a rede, paga com a COSIP, e luz reforçada em pontos de ônibus, travessias, escolas, postos e praças.",
+      "Se a economia de energia se confirmar, reduzir a COSIP para as famílias de baixa renda ou usar a sobra só em iluminação e segurança viária, por lei."
+     ]
     }
    ],
    "regiao": {
@@ -1942,7 +2027,8 @@
     "5.3 Praças",
     "5.4 Parques",
     "5.5 Asfalto e a manutenção das ruas",
-    "5.6 Bairros ricos, médios e pobres"
+    "5.6 Bairros ricos, médios e pobres",
+    "5.7 Iluminação pública"
    ]
   },
   {
@@ -2595,6 +2681,261 @@
       "Fundo municipal de aval e microcrédito para o pequeno empreendedor, formal e informal, operado por banco ou instituição de microcrédito autorizada, com a Funsat orientando o tomador.",
       "Negociar com o estado uma linha da agência de fomento de Mato Grosso do Sul dedicada à capital, com metas de emprego por projeto."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.9",
+     "texto": "A arrecadação em detalhe"
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde vem cada real?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Receitas da prefeitura, 2020 e 2025 (R$ milhões correntes)",
+     "cabecalho": [
+      "Origem",
+      "2020",
+      "2025",
+      "Crescimento",
+      "O que é"
+     ],
+     "linhas": [
+      [
+       "ISS",
+       "359",
+       "728",
+       "+103%",
+       "imposto sobre serviços: saúde privada, bancos, educação, obras, profissionais"
+      ],
+      [
+       "IPTU",
+       "506",
+       "677",
+       "+34%",
+       "imposto sobre casas, prédios e terrenos"
+      ],
+      [
+       "Imposto de renda retido",
+       "200",
+       "362",
+       "+81%",
+       "IR descontado dos servidores e fornecedores da prefeitura, que fica com ela"
+      ],
+      [
+       "COSIP (iluminação pública)",
+       "120",
+       "192",
+       "+60%",
+       "cobrada na conta de luz"
+      ],
+      [
+       "ITBI",
+       "71",
+       "131",
+       "+85%",
+       "imposto sobre a venda de imóveis"
+      ],
+      [
+       "Taxas",
+       "56",
+       "71",
+       "+26%",
+       "alvarás, licenças, coleta, fiscalização"
+      ],
+      [
+       "Contribuição dos servidores ao IMPCG",
+       "163",
+       "209",
+       "+28%",
+       "previdência própria"
+      ],
+      [
+       "Aplicações financeiras",
+       "15",
+       "73",
+       "",
+       "rendimento do caixa; caiu de R$ 180 mi em 2024"
+      ],
+      [
+       "Multas, dívida ativa não tributária e outras",
+       "67",
+       "131",
+       "+96%",
+       "inclui as multas de trânsito (10.5)"
+      ],
+      [
+       "Fundeb (retorno bruto)",
+       "518",
+       "961",
+       "+86%",
+       "fundo da educação básica, redistribuído pelo número de alunos"
+      ],
+      [
+       "SUS da União",
+       "706",
+       "706",
+       "0%",
+       "repasse fundo a fundo da saúde"
+      ],
+      [
+       "SUS do estado",
+       "174",
+       "277",
+       "+59%",
+       ""
+      ],
+      [
+       "Cota do ICMS",
+       "443",
+       "536",
+       "+21%",
+       "parte do imposto estadual que cabe ao município"
+      ],
+      [
+       "FPM",
+       "164",
+       "333",
+       "+103%",
+       "Fundo de Participação dos Municípios"
+      ],
+      [
+       "Cota do IPVA",
+       "159",
+       "238",
+       "+49%",
+       "metade do IPVA dos carros emplacados na cidade"
+      ],
+      [
+       "Salário-educação, merenda e transporte escolar (FNDE)",
+       "32",
+       "80",
+       "+151%",
+       ""
+      ],
+      [
+       "Receitas correntes, total",
+       "4.140",
+       "5.953",
+       "+44%",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA 2020 e 2025, Anexo I-C, receitas brutas realizadas, ente 5002704 (consulta de 09/11/2026); crescimento calculado pelo autor, sem descontar a inflação, que somou cerca de 33% no período (IPCA). Em 2020 e 2021 a classificação era outra, e o FPM de 2020 inclui só a cota mensal; a comparação é aproximada."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem paga o ISS e o ICMS?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O ISS foi o imposto que mais cresceu: dobrou em cinco anos e passou o IPTU em 2023. É o retrato de uma economia de serviços, com 148.531 empresas ativas em setembro de 2026, oito em cada dez de comércio e serviços (2.4). A Secretaria de Fazenda não publica quanto cada atividade recolhe; o que se sabe vem de mudanças de regra, como a declaração própria dos bancos (DES-IF), criada em 2026 (A Crítica). Quanto pagam saúde privada, bancos, ensino, construção e serviços profissionais, e quanto vem dos cem maiores contribuintes, é a primeira informação a pedir, porque decide o que muda com a reforma tributária (6.4)."
+    },
+    {
+     "tipo": "p",
+     "texto": "No ICMS, a cidade perde espaço há quinze anos. O índice de Campo Grande na divisão do imposto estadual caiu de 25,34% em 2012 para 12,11% em 2026 e deve cair para 11,65% em 2027, uma perda de cerca de R$ 21 milhões por ano, porque o critério dá peso ao território e ao valor adicionado das grandes indústrias do interior, como a fábrica de celulose de Ribas do Rio Pardo (Correio do Estado, 29/10/2026). A capital, com um terço da população, recebe pouco mais de um décimo do ICMS dos municípios. É a razão econômica da tese do Capítulo 2: trazer indústria para a capital também devolve ICMS."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a cidade tem a receber e quanto recupera?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura recuperou R$ 352,5 milhões de débitos em atraso em 2025, R$ 230,5 milhões de tributos imobiliários, como o IPTU, e R$ 122 milhões de mobiliários, como o ISS, com 84.612 negativações e 86.459 protestos em cartório (Secretaria de Fazenda, Relatório de Atividades 2025, via Campo Grande News, 03/02/2026). O estoque da dívida ativa não aparece nos documentos abertos encontrados: o último número publicado, de R$ 2,6 bilhões, é de 2017 (Campo Grande News, 05/07/2017). Se o estoque ainda for dessa ordem, a cidade recupera algo como 13% por ano (cálculo do autor, com números de anos diferentes; vale como ordem de grandeza). O saldo atual está no balanço patrimonial da prefeitura (DCA, Anexo I-AB) e deve ser publicado com a idade de cada débito, porque dívida de mais de cinco anos quase não se recupera."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "11,65%",
+     "texto": "é o índice de Campo Grande no ICMS dos municípios para 2027, contra 25,34% em 2012, com um terço da população do estado. Fonte: Secretaria de Fazenda de MS, índice provisório, via Correio do Estado, 29/10/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A arrecadação em detalhe",
+     "texto": [
+      "Publicar todo ano o ISS por atividade econômica e por porte de empresa, e o IPTU por uso (residencial, comercial, terreno), por região.",
+      "Publicar o estoque da dívida ativa por tributo e por idade, a taxa de recuperação e os cem maiores devedores, como já fazem estados e a União.",
+      "Defender na Assembleia um critério do ICMS que pese a população e os serviços prestados, e atrair indústria para recuperar valor adicionado (Capítulo 2)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.10",
+     "texto": "Contas em atraso e decisões judiciais"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a prefeitura deve e não pagou?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Contas a pagar em atraso e compromissos herdados (R$ milhões)",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Restos a pagar processados no fim de 2025 (serviço feito, não pago)",
+       "306",
+       "SICONFI, RGF Anexo 2, 3º quadr. 2025"
+      ],
+      [
+       "Restos a pagar não processados no fim de 2025 (empenhado, não liquidado)",
+       "222",
+       "idem"
+      ],
+      [
+       "Restos a pagar da saúde acumulados de 2021 a fev/2026 e ainda abertos",
+       "mais de 197 (de 286; 88 pagos)",
+       "Sicont, via Correio do Estado, mai/2026"
+      ],
+      [
+       "Dívidas com fornecedores no Plano de Equilíbrio Fiscal, pagas por leilão de desconto",
+       "54,9 (Solurb mais de 7; Rial mais de 4,4; Águas Guariroba 4)",
+       "Correio do Estado, 16/01/2026"
+      ],
+      [
+       "Dívida com o IMPCG (contribuições patronais não repassadas de 2010 a 2021)",
+       "2.386 (abr/2026), em 300 parcelas de cerca de 7,95 por mês",
+       "Campo Grande News, 04/08/2026; Câmara, 11/08/2026"
+      ],
+      [
+       "Parcelamentos de tributos e contribuições",
+       "101 (ago/2026)",
+       "SICONFI, RGF Anexo 2"
+      ],
+      [
+       "Precatórios vencidos e não pagos",
+       "1,4 (ago/2026)",
+       "idem"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O retrato mostra uma prefeitura que gasta no limite: as despesas chegaram a 99,94% da arrecadação até outubro de 2025 (Secretaria de Fazenda, via Campo Grande News, 03/02/2026), e a conta que não cabe no ano vira resto a pagar, que vira atraso ao fornecedor, que vira falta de remédio (8.3). Há fornecedores da saúde com mais de 500 dias sem receber, o que levou o Ministério Público a abrir procedimento (Correio do Estado, mai/2026). A maior conta, porém, é a do IMPCG: R$ 2,4 bilhões de contribuições que a prefeitura descontou ou devia e não repassou, agora parcelados em 25 anos. A parcela, de cerca de R$ 95 milhões por ano, é despesa fixa até 2051 e concorre com qualquer proposta deste livro (cálculo do autor)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o orçamento paga por ordem da Justiça?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O número fechado não é publicado. O que existe: a função Judiciária, que reúne Procuradoria e precatórios, liquidou R$ 36,1 milhões em 2025, e os encargos especiais, que somam dívida, precatórios e Pasep, R$ 202,5 milhões (SICONFI, DCA 2025, Anexo I-E). A LDO de 2026 estimou R$ 28 milhões de risco fiscal com ações judiciais (Campo Grande News, 22/04/2025). Os precatórios vencidos são pequenos, R$ 1,4 milhão, mas a Emenda Constitucional 136/2025 passou a exigir pagamento mínimo anual de 1% a 5% da receita, e o Tribunal de Justiça alertou os prefeitos para o risco de adiar a conta (Campo Grande News, 20/03/2026). Na saúde, a Justiça fixou espera máxima de 100 dias para consulta e seis meses para cirurgia (liminar, nov/2024, ver 8.4), e aditivos de contrato passaram a pagar cirurgias judicializadas, como os R$ 2 milhões do Hospital do Câncer (Campo Grande News). Quanto a prefeitura gasta por ano com remédio, leito e cirurgia por ordem judicial não é divulgado."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Contas em atraso e decisões judiciais",
+     "texto": [
+      "Plano de quitação dos restos a pagar em dois anos, com ordem cronológica pública de pagamento por fornecedor, como manda a Lei 14.133/2021 (art. 141).",
+      "Relatório anual das decisões judiciais pagas: precatórios, requisições de pequeno valor e ordens da saúde, com valor, objeto e secretaria, para atacar as causas da judicialização.",
+      "Pagar em dia a parcela do IMPCG e a patronal corrente, para não criar nova dívida previdenciária."
+     ]
     }
    ],
    "regiao": {
@@ -2632,7 +2973,9 @@
     "6.5 Receitas fora dos impostos",
     "6.6 Quem pode pagar mais: casos no mundo",
     "6.7 IPTU: quem paga, quanto e como fazer mais justo",
-    "6.8 Um banco da cidade?"
+    "6.8 Um banco da cidade?",
+    "6.9 A arrecadação em detalhe",
+    "6.10 Contas em atraso e decisões judiciais"
    ]
   },
   {
@@ -2954,6 +3297,182 @@
       "Renegociar os contratos críticos: transporte, saneamento, limpeza urbana e terminal de cargas.",
       "Publicar na internet a íntegra de cada contrato de concessão e de cada aditivo."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "7.4",
+     "texto": "A despesa em detalhe"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Em que a prefeitura gasta?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa liquidada por área, 2025 (R$ milhões)",
+     "cabecalho": [
+      "Área",
+      "R$ milhões",
+      "%"
+     ],
+     "linhas": [
+      [
+       "Saúde",
+       "1.815",
+       "31,2%"
+      ],
+      [
+       "…atenção básica (postos)",
+       "404",
+       "6,9%"
+      ],
+      [
+       "…hospitais, UPAs e especialidades",
+       "1.196",
+       "20,6%"
+      ],
+      [
+       "Educação",
+       "1.627",
+       "28,0%"
+      ],
+      [
+       "…ensino fundamental",
+       "1.082",
+       "18,6%"
+      ],
+      [
+       "…educação infantil",
+       "385",
+       "6,6%"
+      ],
+      [
+       "Previdência (aposentadorias e pensões)",
+       "705",
+       "12,1%"
+      ],
+      [
+       "Urbanismo (ruas, iluminação, limpeza, obras)",
+       "464",
+       "8,0%"
+      ],
+      [
+       "Administração (secretarias-meio)",
+       "291",
+       "5,0%"
+      ],
+      [
+       "Encargos especiais (dívida, precatórios, Pasep)",
+       "203",
+       "3,5%"
+      ],
+      [
+       "Transporte",
+       "177",
+       "3,0%"
+      ],
+      [
+       "Assistência social",
+       "154",
+       "2,7%"
+      ],
+      [
+       "Câmara Municipal",
+       "123",
+       "2,1%"
+      ],
+      [
+       "Guarda Municipal",
+       "69",
+       "1,2%"
+      ],
+      [
+       "Trabalho (Funsat)",
+       "62",
+       "1,1%"
+      ],
+      [
+       "Judiciária (Procuradoria)",
+       "36",
+       "0,6%"
+      ],
+      [
+       "Esporte, cultura e habitação",
+       "46",
+       "0,8%"
+      ],
+      [
+       "Total",
+       "5.817",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA 2025, Anexo I-E, despesa liquidada por função, sem as intraorçamentárias. Habitação recebeu R$ 13,4 milhões, 0,2% do total, numa cidade com 16.105 famílias em déficit (11.1); cultura, R$ 13,6 milhões; esporte, R$ 19,2 milhões."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E pelo tipo de gasto?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa por natureza, 2025 (R$ milhões)",
+     "cabecalho": [
+      "Tipo",
+      "R$ milhões",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Pessoal: ativos",
+       "3.008",
+       "SICONFI, RGF Anexo 1, 3º quadr. 2025"
+      ],
+      [
+       "Pessoal: aposentados e pensionistas",
+       "798",
+       "idem"
+      ],
+      [
+       "Pessoal: terceirização de mão de obra",
+       "56",
+       "idem"
+      ],
+      [
+       "Juros da dívida",
+       "85",
+       "SICONFI, DCA 2025, Anexo I-D"
+      ],
+      [
+       "Amortização da dívida (estimativa por diferença)",
+       "cerca de 93",
+       "idem; cálculo do autor"
+      ],
+      [
+       "Investimentos (obras e equipamentos)",
+       "236",
+       "idem"
+      ],
+      [
+       "Custeio: contratos, hospitais, remédios, limpeza, transporte escolar (por diferença)",
+       "cerca de 1.950",
+       "cálculo do autor sobre a DCA"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Dois números resumem o orçamento. A folha, com aposentados, consome R$ 3,9 bilhões, e a despesa com pessoal ficou em 54,1% da receita corrente líquida em 2025, no limite legal de 54% (SICONFI, RGF; cálculo do autor). O investimento, R$ 236 milhões, foi 3,6% da receita, menos que a metade do que a cidade paga de previdência. Os maiores contratos de custeio são a Santa Casa (cerca de R$ 32,8 milhões por mês somadas as fontes, 8.5), a coleta e destinação do lixo com a Solurb, a iluminação, o tapa-buraco (R$ 197 milhões em quatro anos, 5.5) e os radares (10.5). A prefeitura não publica uma lista consolidada dos maiores fornecedores por valor pago no ano; o Portal da Transparência traz os pagamentos um a um."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A despesa em detalhe",
+     "texto": [
+      "Publicar todo ano a lista dos cem maiores fornecedores por valor pago, com o objeto do contrato e a secretaria.",
+      "Meta de investimento de pelo menos 7% da receita até 2032, com a folha abaixo do limite prudencial de 51,3% da receita corrente líquida."
+     ]
     }
    ],
    "regiao": {
@@ -2984,7 +3503,8 @@
    "subtopicos": [
     "7.1 Para onde vai o dinheiro",
     "7.2 Como se decide o orçamento",
-    "7.3 Concessões e contratos"
+    "7.3 Concessões e contratos",
+    "7.4 A despesa em detalhe"
    ]
   },
   {
@@ -4198,6 +4718,95 @@
       "Orçar o remédio básico pela necessidade, cerca de R$ 95 milhões por ano, e não pelo gasto do ano anterior.",
       "Pactuar com o estado e a União os leitos que cabem à capital como polo de todo o estado, com contrato, meta e pagamento pela parte do interior."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "8.9",
+     "texto": "Um hospital municipal"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que a cidade depende da Santa Casa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque a Santa Casa é o maior hospital do SUS em Mato Grosso do Sul e não tem substituto. Tinha 704 leitos em 2025, 615 do SUS, com 112 de UTI (ficha do hospital, via Correio do Estado, 08/04/2025). Em 2024 faturou R$ 383,5 milhões e custou R$ 542,4 milhões, um déficit de R$ 13,2 milhões por mês, segundo dados apresentados ao Ministério Público (idem), e acumula dívida de mais de R$ 810 milhões (8.5). O contrato com a prefeitura teve 46 aditivos de junho de 2021 a janeiro de 2026 e chegou ao limite legal de 60 meses (Campo Grande News, 05/05/2026). Em abril de 2025, a prefeitura complementava com R$ 6 milhões por mês e o estado com R$ 9 milhões, além da tabela SUS (Correio do Estado, 08/04/2025). Quando a Santa Casa entra em crise, a cidade inteira entra junto."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que já foi tentado?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura anunciou em setembro de 2023 um Hospital Municipal de 259 leitos, todos SUS, na Chácara Cachoeira: 49 de pronto atendimento, 20 de UTI e 190 de enfermaria, com 10 salas de cirurgia. O modelo escolhido foi a locação sob medida (built to suit): uma empresa construiria (obra estimada em R$ 211,4 milhões) e equiparia (cerca de R$ 80 milhões), e a prefeitura pagaria aluguel de até R$ 5,14 milhões por mês por 20 anos, R$ 1,23 bilhão no total. A primeira licitação fracassou em março de 2026, com as duas concorrentes desclassificadas, e a segunda terminou sem nenhuma proposta em 19 de junho de 2026 (Correio do Estado, 12/03/2026 e 20/06/2026; Campo Grande News, 17/03/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o projeto tem dois problemas além da licitação. O aluguel de 20 anos custa mais de quatro vezes o valor da obra e dos equipamentos, sem que o hospital fique da cidade no fim; e o terreno fica no Prosa, a região de renda mais alta e a que menos depende do SUS, longe do Anhanduizinho, do Lagoa e do Imbirussu, onde está metade da população (5.6)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custaria um hospital da cidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Hospital municipal de cerca de 260 leitos: estimativa do autor",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Obra",
+       "cerca de R$ 210 milhões",
+       "orçamento do edital de 2026"
+      ],
+      [
+       "Equipamentos e mobiliário",
+       "cerca de R$ 80 milhões",
+       "idem"
+      ],
+      [
+       "Investimento total",
+       "cerca de R$ 290 milhões",
+       "soma"
+      ],
+      [
+       "Custeio por leito por ano",
+       "R$ 0,8 a 1,4 milhão",
+       "Santa Casa: R$ 542,4 mi de custo para 704 leitos em 2024 (R$ 0,77 mi); hospital municipal de Feira de Santana (BA): custeio de cerca de R$ 150 mi por ano para 100 a 110 leitos (Jornal Grande Bahia, 10/03/2026)"
+      ],
+      [
+       "Custeio anual com 260 leitos",
+       "R$ 210 a 360 milhões",
+       "cálculo do autor; parte paga pelo SUS federal e estadual após a habilitação"
+      ],
+      [
+       "Prazo",
+       "projeto e licitação no 1º ano; obra de 24 meses; abertura no 4º ano",
+       "prazo de obra do edital de 2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Um hospital de 260 leitos não acaba sozinho com a dependência: a Santa Casa tem 615 leitos SUS, e o déficit da cidade é de 654 a 1.136 leitos (8.8). Mas muda a relação. Com um hospital próprio no sul, a prefeitura passa a ter onde internar o paciente da UPA, deixa de ser refém de cada crise e contrata a Santa Casa pelo que ela faz de mais complexo, como UTI, trauma, cardiologia e transplante, com metas e preço por procedimento. Para o modelo de gestão, há três caminhos: administração direta, que esbarra no limite da folha (54%); organização social com contrato de metas, o mais usado no país; ou parceria público-privada com a obra e a manutenção a cargo do parceiro e a parte clínica com a prefeitura, como em Feira de Santana. Com a folha no limite, a organização social com metas publicadas é o caminho mais realista."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 1,23 bilhão",
+     "texto": "seria o aluguel de 20 anos do hospital municipal no modelo licitado em 2026, mais de quatro vezes a obra e os equipamentos (R$ 291 milhões). Fonte: edital da Concorrência 001/2026, via Campo Grande News, 17/03/2026; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Um hospital municipal",
+     "texto": [
+      "Hospital Municipal próprio, de cerca de 260 leitos, no Anhanduizinho, construído com financiamento federal ou de banco público em vez de aluguel de 20 anos, aberto até o 4º ano do mandato.",
+      "Gestão por organização social com contrato de metas públicas (tempo de espera, ocupação, mortalidade, custo por internação) e prestação de contas trimestral.",
+      "Novo contrato com a Santa Casa por procedimento e por metas, focado na alta complexidade, com auditoria independente e fim dos aditivos emergenciais.",
+      "Segundo hospital, no Lagoa ou no Imbirussu, no segundo mandato, se as metas do primeiro forem cumpridas."
+     ]
     }
    ],
    "glossario": [
@@ -4254,7 +4863,8 @@
     "8.5 Urgência e hospitais",
     "8.6 Atendimentos, custo e qualidade",
     "8.7 A criança atípica",
-    "8.8 Demanda, oferta e déficit"
+    "8.8 Demanda, oferta e déficit",
+    "8.9 Um hospital municipal"
    ]
   },
   {
@@ -5063,6 +5673,80 @@
       "Relatório anual do art. 320 do Código de Trânsito, publicado na internet: quanto entrou de multa e em que foi gasto, item por item, com a parte do contrato dos radares separada.",
       "Contrato de radar pago por equipamento disponível e calibrado, nunca por multa aplicada, para tirar da empresa o interesse em multar."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "10.6",
+     "texto": "Jovens longe do crime"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que leva o jovem para o crime?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A polícia de Campo Grande conhece o caminho. A delegacia da infância e da juventude acompanha há quatro anos quase 400 adolescentes ligados ao tráfico: a entrada é aos 12 ou 13 anos, há crianças que usam crack aos 7 ou 8, cerca de 30 são meninas e um em cada dez chega a posição de chefia, cuja idade média é de 30 anos (delegada Daniela Kades, Deaij, via Campo Grande News, 01/12/2025). No país, 46,5% dos assassinados em 2024 tinham de 15 a 29 anos, 19.801 jovens (Atlas da Violência 2026, Ipea e Fórum Brasileiro de Segurança Pública). O tráfico oferece ao menino o que a cidade não oferece: renda imediata, grupo, respeito e um adulto que o chama pelo nome."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que deu certo em outros lugares?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Prevenção da violência juvenil: casos",
+     "cabecalho": [
+      "Caso",
+      "O que fez",
+      "Resultado",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Fica Vivo!, Belo Horizonte (2002)",
+       "Oficinas de esporte, cultura e trabalho nas comunidades mais violentas, com policiamento focado nos autores de homicídio",
+       "Queda de 69% dos homicídios nos seis primeiros meses no Morro das Pedras, comparado a favelas parecidas",
+       "Silveira et al., Revista de Saúde Pública, 2010"
+      ],
+      [
+       "Medellín (Colômbia)",
+       "Transporte (metrocabo), bibliotecas, escolas e espaços públicos de qualidade nas comunas pobres",
+       "Homicídios caíram de 381 por 100 mil em 1991 para cerca de 100 em 2009",
+       "Brookings Institution, Felbab-Brown, 14/02/2011"
+      ],
+      [
+       "Aprendizagem profissional (Brasil)",
+       "Contrato de aprendiz com curso e prática na empresa",
+       "1.821 vagas de aprendiz em aberto em Campo Grande em nov/2026",
+       "A Crítica, 03/11/2026 (9.9)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A lição comum é foco e constância. Os programas que funcionam escolhem poucos territórios, onde a violência se concentra; oferecem coisa concreta e diária, como treino, aula de música, oficina, curso e emprego; põem um adulto de referência, o mentor, para cada grupo pequeno de jovens; e juntam isso com polícia que mira os poucos autores de violência, e não o bairro inteiro. Programa espalhado pela cidade toda, de evento em evento, não muda trajetória."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como seria em Campo Grande, e quanto custa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, um programa Jovem Vivo em oito territórios prioritários, escolhidos pelos dados de homicídio e de apreensão de adolescentes, a começar pelas regiões do Anhanduizinho, do Lagoa e do Imbirussu (5.6). Cada território teria um núcleo com esporte e música todos os dias (13.4 e 13.5), curso técnico e vaga de aprendiz garantida com as empresas (9.9), e mentores contratados entre moradores do bairro, um para cada 15 jovens. Estimativa do autor: cerca de R$ 1,5 milhão por núcleo por ano, com equipe, oficinas e bolsas, cerca de R$ 12 milhões por ano para os oito, 0,2% das receitas correntes de 2025. A Guarda Municipal entra com patrulha nas escolas e nos núcleos (10.3), e a avaliação é pública: homicídios de jovens, apreensões e jovens empregados em cada território, ano a ano."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "12 anos",
+     "texto": "é a idade em que os adolescentes acompanhados pela polícia de Campo Grande entram no tráfico. Fonte: Deaij, via Campo Grande News, 01/12/2025."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Jovens longe do crime",
+     "texto": [
+      "Programa Jovem Vivo em oito territórios prioritários, com núcleo diário de esporte, música e curso técnico, mentores do próprio bairro e vaga de aprendiz garantida.",
+      "Pacto com as empresas para preencher as 1.821 vagas de aprendiz em aberto com jovens dos territórios prioritários (9.9).",
+      "Busca ativa do aluno que falta à escola, com a Secretaria da Família (14.6), porque a evasão é a porta de entrada do tráfico.",
+      "Avaliação pública anual, por território, de homicídios de jovens, apreensões de adolescentes e jovens no emprego, com continuidade só do que der resultado."
+     ]
     }
    ],
    "regiao": {
@@ -5096,7 +5780,8 @@
     "10.2 Efetivo e orçamento da Guarda",
     "10.3 O que a Guarda faz",
     "10.4 Metas e resultados",
-    "10.5 Trânsito e a indústria da multa"
+    "10.5 Trânsito e a indústria da multa",
+    "10.6 Jovens longe do crime"
    ]
   },
   {
@@ -5978,6 +6663,72 @@
       "Esporte no contraturno da escola em tempo integral, nas regiões de menor renda.",
       "Cadastro público dos equipamentos esportivos por região."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "13.5",
+     "texto": "Atividade física para jovens e idosos"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que uma política de atividade física?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque é a política de saúde mais barata que existe e quase não depende de obra. O idoso que se exercita cai menos, toma menos remédio e fica independente por mais tempo; o jovem que pratica esporte com professor tem horário, grupo e alguém que repara quando ele some. O SUS já reconhece isso: o Programa Academia da Saúde, criado em 2011, financia espaços públicos com profissional para atividade física e promoção da saúde (Portaria GM/MS 719/2011), inspirado em experiências municipais como a Academia da Cidade de Recife. Campo Grande tem praças e parques (5.3 e 5.4), muitas com aparelhos de ginástica, mas sem programa contínuo com professor; o número de polos e de participantes não é publicado."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como seria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, uma rede Campo Grande em Movimento com três frentes. Praças-polo: cem praças e parques, ao menos dez por região, com dois professores de educação física em turnos de manhã cedo e fim de tarde, aulas para idosos, caminhada orientada, ginástica e treino funcional, e avaliação simples de pressão e peso com o posto de saúde vizinho. Esporte no contraturno: escolinhas de modalidades nas escolas municipais e nos parques esportivos da Funesp, como o Ayrton Senna e o Jacques da Luz, para crianças e adolescentes de 7 a 17 anos, com prioridade para as regiões de renda mais baixa (5.6). E competição de bairro: ligas por região, que dão objetivo ao treino e ocupam o fim de semana."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Campo Grande em Movimento: custo estimado (hipóteses do autor)",
+     "cabecalho": [
+      "Item",
+      "Quantidade",
+      "Custo por ano"
+     ],
+     "linhas": [
+      [
+       "Professores de educação física nas praças-polo",
+       "200 (dois por praça)",
+       "R$ 14,4 milhões (R$ 6 mil por mês com encargos)"
+      ],
+      [
+       "Escolinhas de esporte no contraturno",
+       "100 turmas",
+       "R$ 3,6 milhões (professor e material)"
+      ],
+      [
+       "Material, academias ao ar livre e manutenção",
+       "100 polos",
+       "R$ 2 milhões"
+      ],
+      [
+       "Total",
+       "",
+       "cerca de R$ 20 milhões"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O custo equivale a 0,34% das receitas correntes de 2025 (SICONFI; cálculo do autor). Parte pode vir de habilitar os polos no Programa Academia da Saúde, que tem incentivo federal de custeio, e de parcerias com as faculdades de educação física, que podem ter estágio supervisionado nas praças."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Atividade física para jovens e idosos",
+     "texto": [
+      "Rede Campo Grande em Movimento: cem praças-polo com professor de educação física, com aulas para idosos e adultos de manhã cedo e no fim da tarde, ligadas ao posto de saúde mais próximo.",
+      "Escolinhas de esporte no contraturno nas escolas municipais e nos parques da Funesp, com prioridade para o Anhanduizinho, o Lagoa e o Imbirussu.",
+      "Habilitar os polos no Programa Academia da Saúde e firmar estágio supervisionado com as faculdades de educação física.",
+      "Ligas esportivas por região, com calendário anual, e publicação do número de participantes por polo."
+     ]
     }
    ],
    "regiao": {
@@ -6009,7 +6760,8 @@
     "13.1 Orçamento e palcos da cultura",
     "13.2 Música da terra",
     "13.3 Sossego e barulho",
-    "13.4 Esporte e lazer"
+    "13.4 Esporte e lazer",
+    "13.5 Atividade física para jovens e idosos"
    ]
   },
   {
@@ -6393,6 +7145,92 @@
       "Busca ativa casa a casa com 200 agentes da família, junto com os agentes comunitários de saúde, começando pelas regiões do Anhanduizinho, do Lagoa e do Imbirussu (5.6).",
       "Plano de acompanhamento para cada família vulnerável, com metas de creche, escola, emprego e saúde, e publicação anual do mapa das necessidades por região."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.7",
+     "texto": "Os idosos"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos são?"
+    },
+    {
+     "tipo": "p",
+     "texto": "As pessoas de 65 anos ou mais eram 10,1% da população de Campo Grande no Censo 2022 (IBGE, via A Crítica, 10/10/2026), cerca de 90 mil pessoas sobre os 898.100 moradores (cálculo do autor). Contando a partir dos 60 anos, idade que a lei usa para definir a pessoa idosa (Estatuto da Pessoa Idosa, Lei 10.741/2003, art. 1º), são da ordem de 130 mil, aplicando a relação entre os dois grupos observada no país no mesmo Censo (estimativa do autor; o número exato está nas tabelas do IBGE). Em Mato Grosso do Sul, a parte de quem tem 65 anos ou mais triplicou em quatro décadas, de 2,9% em 1980 para 9,6% em 2022, e quem chega aos 60 vive em média mais 22,6 anos (IBGE, Censo 2022 e Tábuas de Mortalidade 2024, via A Crítica, 10/10/2026). A cidade envelhece mais rápido do que a sua rede se prepara."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde são atendidos?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Atendimento à pessoa idosa em Campo Grande",
+     "cabecalho": [
+      "Serviço",
+      "Quem oferece",
+      "O que se sabe",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Instituições de longa permanência (asilos) com apoio da prefeitura",
+       "Sirpha, Viver Bem, Asilo São João Bosco (filantrópicos)",
+       "195 vagas, todas ocupadas; até 15 pedidos por dia numa delas; espera de anos",
+       "Campo Grande News, 27/01/2025"
+      ],
+      [
+       "Instituições privadas",
+       "particulares",
+       "R$ 6 mil a R$ 7 mil por mês por residente; número de casas e vagas não publicado",
+       "idem"
+      ],
+      [
+       "Atividades na universidade",
+       "UFMS",
+       "2,8 mil vagas em atividades gratuitas para idosos no semestre",
+       "Midiamax, 2026"
+      ],
+      [
+       "Convivência e fortalecimento de vínculos",
+       "CRAS da prefeitura",
+       "21 CRAS na cidade; o número de idosos atendidos não é publicado",
+       "14.5"
+      ],
+      [
+       "Saúde",
+       "postos e equipes de Saúde da Família",
+       "o idoso é o maior usuário da rede básica; geriatras e fila de geriatria não são publicados",
+       "8.8"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O retrato tem um buraco no meio. Há o idoso que vive bem e frequenta convivência e universidade, e há o que precisa de cuidado integral, que disputa 195 vagas filantrópicas ou paga R$ 6 mil por mês. Entre os dois fica a maioria: o idoso que mora com a família, mas fica sozinho o dia inteiro enquanto os filhos trabalham, e por falta de onde ficar acaba cedo no asilo ou no pronto-socorro. Para ele existe o centro-dia, onde passa o dia com cuidado, alimentação e atividade e volta para casa à noite (Tipificação Nacional dos Serviços Socioassistenciais, Resolução CNAS 109/2009). Campo Grande não tem rede pública de centros-dia; a inscrição de um asilo como centro-dia chegou a ser cancelada (Campo Grande News)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custaria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Estimativa do autor: um centro-dia por região, sete no total, a cerca de R$ 100 mil por mês cada (equipe de cuidadores, técnico de enfermagem, alimentação e transporte), custa cerca de R$ 8,4 milhões por ano; ampliar em 200 as vagas cofinanciadas de longa permanência, a cerca de R$ 3 mil por mês por vaga de complemento público, custa R$ 7,2 milhões. Juntos, cerca de R$ 15,6 milhões por ano, 0,26% das receitas correntes de 2025 (SICONFI; cálculo do autor). Os valores são hipóteses e precisam do custo real dos convênios da Secretaria de Assistência Social."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "130 mil",
+     "texto": "pessoas de 60 anos ou mais vivem em Campo Grande (estimativa do autor sobre o Censo 2022), para 195 vagas de longa permanência com apoio da prefeitura. Fonte: IBGE, via A Crítica, 10/10/2026; Campo Grande News, 27/01/2025."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Os idosos",
+     "texto": [
+      "Um centro-dia para a pessoa idosa em cada uma das sete regiões até 2032, começando pelo Anhanduizinho e pelo Lagoa.",
+      "Ampliar em 200 as vagas cofinanciadas de longa permanência, com fila única pública e prazo máximo de espera.",
+      "Cadastro da pessoa idosa que mora sozinha ou fica sozinha de dia, feito pela Secretaria da Família (14.6) com as equipes de Saúde da Família, e visita periódica.",
+      "Atividade física e convivência em todas as praças-polo, com professor de educação física (13.5)."
+     ]
     }
    ],
    "regiao": {
@@ -6428,7 +7266,8 @@
     "14.3 População de rua",
     "14.4 Drogas e dependência",
     "14.5 Demanda, oferta e déficit",
-    "14.6 Uma Secretaria da Família"
+    "14.6 Uma Secretaria da Família",
+    "14.7 Os idosos"
    ]
   },
   {
@@ -6793,13 +7632,14 @@
     },
     {
      "tipo": "p",
-     "texto": "A tabela soma, em oito anos, as propostas que têm custo estimado em algum capítulo. Para o custeio, a conta supõe meio ano de implantação no primeiro ano e o serviço completo nos outros sete (7,5 anos de custo). Todos os valores são estimativas do autor, em reais de 2026, sem correção; a fonte do custo está no subtópico indicado."
+     "texto": "A tabela soma, em oito anos, as propostas que têm custo estimado em algum capítulo. Para o custeio, a conta supõe meio ano de implantação no primeiro ano e o serviço completo nos outros sete (7,5 anos de custo). Todos os valores são estimativas do autor, em reais de 2026, sem correção; a fonte do custo está no subtópico indicado. O prazo segue três horizontes: curto, nos primeiros 100 dias e no primeiro ano (o que depende de decisão e de lei, não de obra); médio, no primeiro mandato de quatro anos; e longo, no segundo mandato e além."
     },
     {
      "tipo": "tabela",
      "legenda": "Plano de metas de 8 anos: custo estimado por projeto (R$ milhões de 2026)",
      "cabecalho": [
       "Projeto",
+      "Prazo",
       "Meta em 8 anos",
       "Custo por ano, com o serviço pronto",
       "Total em 8 anos",
@@ -6808,6 +7648,7 @@
      "linhas": [
       [
        "Saúde: remédio básico, 49 equipes de Saúde da Família, filas",
+       "curto (remédio) e médio",
        "Zerar a falta de remédio e as filas de 2024; 100% de cobertura de equipes",
        "205",
        "1.538",
@@ -6815,6 +7656,7 @@
       ],
       [
        "19 novos CRAS",
+       "médio",
        "Um CRAS para cada 5 mil famílias",
        "18",
        "135",
@@ -6822,6 +7664,7 @@
       ],
       [
        "Obras de creche",
+       "médio",
        "Zerar a fila de 4.015 crianças",
        "custeio não estimado",
        "120",
@@ -6829,6 +7672,7 @@
       ],
       [
        "Asfalto: 1.000 km de terra e 2.380 km de recapeamento",
+       "longo",
        "Toda rua asfaltada e em bom estado",
        "425 a 650",
        "3.400 a 5.200 (meio: 4.300)",
@@ -6836,6 +7680,7 @@
       ],
       [
        "Revitalização das praças",
+       "médio",
        "Praças A, B e C em todas as regiões",
        "6,5 de cuidado",
        "131",
@@ -6843,6 +7688,7 @@
       ],
       [
        "Requalificação dos parques municipais",
+       "médio",
        "Seis parques reformados",
        "não estimado",
        "9 a 18",
@@ -6850,6 +7696,7 @@
       ],
       [
        "Fim da indústria da multa",
+       "curto",
        "Radar só com estudo; receita reposta por outras fontes",
        "até 48 de receita a repor",
        "360",
@@ -6857,6 +7704,7 @@
       ],
       [
        "Aluguel social",
+       "médio",
        "Cerca de 5 mil famílias com até R$ 500 por mês (hipótese do autor)",
        "30",
        "225",
@@ -6864,6 +7712,7 @@
       ],
       [
        "Fundo de complemento da entrada da casa própria",
+       "médio",
        "Cerca de mil famílias por ano com R$ 10 mil (hipótese do autor)",
        "10",
        "75",
@@ -6871,6 +7720,7 @@
       ],
       [
        "Fundo de aval e microcrédito",
+       "médio",
        "Aporte inicial (hipótese do autor)",
        "",
        "20",
@@ -6878,30 +7728,65 @@
       ],
       [
        "Convênios com UFMS e UEMS",
+       "curto",
        "Estudos de malha viária, origem-destino, IPTU e renda por região (hipótese do autor)",
        "5",
        "38",
        "9.8"
       ],
       [
+       "Hospital municipal de cerca de 260 leitos",
+       "médio (abre no 4º ano)",
+       "Hospital próprio no sul da cidade",
+       "210 a 360 de custeio",
+       "1.330 (290 de obra e equipamentos e cerca de 260 por ano do 5º ao 8º ano)",
+       "8.9"
+      ],
+      [
        "Secretaria da Família",
+       "curto (lei) e médio",
        "200 agentes e observatório das famílias",
        "20",
        "150",
        "14.6"
       ],
       [
+       "Centros-dia e vagas de longa permanência para idosos",
+       "médio",
+       "Sete centros-dia e 200 vagas",
+       "15,6",
+       "117",
+       "14.7"
+      ],
+      [
+       "Campo Grande em Movimento (atividade física)",
+       "curto (primeiros polos) e médio",
+       "Cem praças-polo com professor e escolinhas no contraturno",
+       "20",
+       "150",
+       "13.5"
+      ],
+      [
+       "Jovem Vivo (prevenção da violência juvenil)",
+       "médio",
+       "Oito núcleos em territórios prioritários",
+       "12",
+       "90",
+       "10.6"
+      ],
+      [
        "Total",
        "",
-       "cerca de 770 a 1.000 com o asfalto",
-       "6.200 a 8.000 (meio: 7.100)",
+       "",
+       "cerca de 1.050 a 1.300 com o asfalto e o hospital",
+       "7.900 a 9.700 (meio: 8.800)",
        ""
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Na média, o plano custa cerca de R$ 890 milhões por ano, 15% das receitas correntes de 2025, de R$ 5,95 bilhões (SICONFI, DCA 2025; cálculo do autor). O asfalto é seis de cada dez reais. Sem ele, as demais propostas custam cerca de R$ 2,8 bilhões em oito anos, perto de R$ 350 milhões por ano, ou 5,9% das receitas correntes."
+     "texto": "Na média, o plano custa cerca de R$ 1,1 bilhão por ano, 18,5% das receitas correntes de 2025, de R$ 5,95 bilhões (SICONFI, DCA 2025; cálculo do autor). O asfalto é metade de cada real, e o hospital municipal, um sexto. Sem o asfalto, as demais propostas custam cerca de R$ 4,5 bilhões em oito anos, perto de R$ 560 milhões por ano, ou 9,4% das receitas correntes. Fora da tabela está a parcela da dívida com o IMPCG, de cerca de R$ 95 milhões por ano, que já é compromisso assumido (6.10)."
     },
     {
      "tipo": "h3",
@@ -6945,7 +7830,7 @@
     },
     {
      "tipo": "p",
-     "texto": "As fontes identificadas somam de R$ 1,7 a 2 bilhões. O que falta, cerca de R$ 5 bilhões, tem duas partes. A maior é o asfalto, que é obra de vida longa e por isso pode ser paga com financiamento de longo prazo, como a Caixa já faz no programa atual, desde que caiba no limite de dívida do Capítulo 6.3. A outra, perto de R$ 1,9 a 2,2 bilhões em oito anos, de R$ 240 a 275 milhões por ano, é o custeio das demais propostas, que precisa vir de eficiência e de realocação do orçamento existente, 4% a 5% das receitas correntes. É muito, mas é da ordem do que a prefeitura já mexe em um ano: só as transferências do SUS e do Fundeb somam R$ 1,9 bilhão (16.2)."
+     "texto": "As fontes identificadas somam de R$ 1,7 a 2 bilhões. O que falta, cerca de R$ 6,8 bilhões, tem três partes. A maior é o asfalto, que é obra de vida longa e por isso pode ser paga com financiamento de longo prazo, como a Caixa já faz no programa atual, desde que caiba no limite de dívida do Capítulo 6.3. O hospital municipal, R$ 290 milhões de obra, também pode ser financiado, e o seu custeio é em parte coberto pelo SUS depois da habilitação dos leitos. A terceira, perto de R$ 2,4 a 2,9 bilhões em oito anos, de R$ 300 a 360 milhões por ano, é o custeio das demais propostas, que precisa vir de eficiência e de realocação do orçamento existente, 5% a 6% das receitas correntes. É muito, mas é da ordem do que a prefeitura já mexe em um ano: só as transferências do SUS e do Fundeb somam R$ 1,9 bilhão (16.2)."
     },
     {
      "tipo": "p",
@@ -6953,14 +7838,15 @@
     },
     {
      "tipo": "caixa",
-     "valor": "R$ 7,1 bilhões",
-     "texto": "é o custo estimado, em oito anos, das propostas do livro que têm conta, cerca de R$ 890 milhões por ano, 15% das receitas correntes de 2025; sem o asfalto, R$ 2,8 bilhões. Fonte: estimativas do autor nos subtópicos indicados; SICONFI, DCA 2025."
+     "valor": "R$ 8,8 bilhões",
+     "texto": "é o custo estimado, em oito anos, das propostas do livro que têm conta, com o hospital municipal: cerca de R$ 1,1 bilhão por ano, 18,5% das receitas correntes de 2025; sem o asfalto, R$ 4,5 bilhões. Fonte: estimativas do autor nos subtópicos indicados; SICONFI, DCA 2025."
     },
     {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Plano de metas de 8 anos: quanto custa cada projeto",
      "texto": [
       "Lei do Plano de Metas: o prefeito eleito apresenta, em 90 dias, metas por serviço e por região para os oito anos, com custo, fonte e prazo, e presta contas a cada seis meses.",
+      "Três horizontes: nos primeiros 100 dias, as medidas que dependem só de decisão (publicar dados, remédio em dia, regra dos radares, leis da Secretaria da Família e do Plano de Metas); no primeiro mandato, as obras e serviços de médio prazo (equipes de saúde, CRAS, creches, hospital municipal); no segundo, o que leva mais tempo (toda a malha asfaltada, segundo hospital, parques novos).",
       "Ordem de prioridade quando o dinheiro não der para tudo: primeiro remédio, equipe de saúde, creche e CRAS; depois asfalto com drenagem nas regiões mais pobres; depois o restante.",
       "Refazer esta tabela todo ano no projeto da Lei Orçamentária, com o custo oficial de cada déficit no lugar das estimativas."
      ]
@@ -6968,6 +7854,249 @@
     {
      "tipo": "subtopico",
      "numero": "16.4",
+     "texto": "Orçamento dos déficits: quantidades, valores, secretarias e fundos"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto falta, em unidades?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Antes do dinheiro, a quantidade. A tabela junta os déficits medidos no livro, cada um com a secretaria responsável e o fundo por onde o dinheiro passa. Os fundos municipais são contas com destino fixado em lei: o Fundo Municipal de Saúde recebe o SUS e os 15% obrigatórios da receita de impostos; o Fundeb e os 25% da educação pagam as escolas e creches; o Fundo Municipal de Assistência Social recebe os repasses do SUAS; o Fundo Municipal de Habitação de Interesse Social, os recursos de moradia; o Fundo Municipal de Investimentos Culturais, a cultura (13)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Orçamento dos déficits: quantidades e valores em 8 anos (estimativas do autor, R$ milhões de 2026)",
+     "cabecalho": [
+      "Déficit",
+      "Quantidade",
+      "Valor em 8 anos",
+      "Secretaria",
+      "Fundo"
+     ],
+     "linhas": [
+      [
+       "Equipes de Saúde da Família",
+       "49 equipes; 168 mil pessoas sem equipe",
+       "650",
+       "Sesau",
+       "Fundo Municipal de Saúde"
+      ],
+      [
+       "Remédio básico",
+       "R$ 6 mi por mês em falta",
+       "540",
+       "Sesau",
+       "Fundo Municipal de Saúde"
+      ],
+      [
+       "Filas de cirurgia e imagem",
+       "44.665 pedidos (2024)",
+       "345",
+       "Sesau",
+       "Fundo Municipal de Saúde"
+      ],
+      [
+       "Leitos",
+       "654 a 1.136 leitos; hospital de 260 no plano",
+       "1.330",
+       "Sesau",
+       "Fundo Municipal de Saúde"
+      ],
+      [
+       "Creche",
+       "4.015 crianças; cerca de 34 Emeis",
+       "120 de obra; custeio não estimado",
+       "Semed",
+       "Fundeb e 25% da educação"
+      ],
+      [
+       "CRAS",
+       "19 unidades; 94 mil famílias sem referência",
+       "135",
+       "SAS",
+       "Fundo Municipal de Assistência Social"
+      ],
+      [
+       "Busca ativa e Secretaria da Família",
+       "200 agentes; 199 mil famílias do CadÚnico",
+       "150",
+       "nova secretaria",
+       "Fundo Municipal de Assistência Social"
+      ],
+      [
+       "População de rua",
+       "842 pessoas sem vaga",
+       "não estimado",
+       "SAS",
+       "Fundo Municipal de Assistência Social"
+      ],
+      [
+       "Moradia",
+       "16.105 famílias; 11,4 mil moradias novas por ano",
+       "300 (aluguel social e entrada); obra não estimada",
+       "Amhasf/Emha",
+       "Fundo Municipal de Habitação de Interesse Social"
+      ],
+      [
+       "Asfalto e drenagem",
+       "1.000 km de terra; 2.380 km comprometidos",
+       "3.400 a 5.200",
+       "Sisep",
+       "Tesouro e operações de crédito"
+      ],
+      [
+       "Praças e parques",
+       "cerca de 230 praças; 6 parques",
+       "145",
+       "Semadur e Sisep",
+       "Tesouro; Fundo Municipal de Meio Ambiente nos parques"
+      ],
+      [
+       "Receita das multas a repor",
+       "até R$ 48 mi por ano",
+       "360",
+       "Agetran",
+       "fundo de trânsito (art. 320 do CTB)"
+      ],
+      [
+       "Microcrédito e fundo de aval",
+       "aporte inicial",
+       "20",
+       "Funsat e Sefaz",
+       "fundo de aval a criar"
+      ],
+      [
+       "Estudos com UFMS e UEMS",
+       "malha, origem-destino, IPTU, renda",
+       "38",
+       "Segov",
+       "Tesouro"
+      ],
+      [
+       "Idosos: centros-dia e longa permanência",
+       "cerca de 130 mil idosos; 195 vagas cofinanciadas",
+       "117",
+       "SAS",
+       "Fundo Municipal de Assistência Social e Fundo da Pessoa Idosa"
+      ],
+      [
+       "Atividade física",
+       "cem praças-polo; 100 turmas no contraturno",
+       "150",
+       "Funesp",
+       "Tesouro; Academia da Saúde (Fundo Municipal de Saúde)"
+      ],
+      [
+       "Jovens em territórios de violência",
+       "cerca de 400 adolescentes no tráfico acompanhados pela polícia; oito territórios",
+       "90",
+       "Segurança e Juventude",
+       "Tesouro; Fundo da Criança e do Adolescente"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Bases: saúde, 8.8 (o valor de 8 anos usa 7,5 anos de custeio); hospital, 8.9; creche, 9.2; CRAS e população de rua, 14.5; Secretaria da Família, 14.6; moradia, 11.1 e 11.4; asfalto, 5.5; praças, 5.3; parques, 5.4; multas, 10.5; microcrédito, 6.8; universidades, 9.8; idosos, 14.7; atividade física, 13.5; jovens, 10.6."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto por secretaria e por fundo?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O orçamento dos déficits por secretaria e por fundo (meio da faixa, R$ milhões em 8 anos)",
+     "cabecalho": [
+      "Secretaria / fundo",
+      "Valor em 8 anos",
+      "Por ano",
+      "% do total"
+     ],
+     "linhas": [
+      [
+       "Saúde (Sesau / Fundo Municipal de Saúde)",
+       "2.865",
+       "358",
+       "33%"
+      ],
+      [
+       "Infraestrutura (Sisep / Tesouro e crédito)",
+       "4.300",
+       "538",
+       "49%"
+      ],
+      [
+       "Assistência, Família e idosos (SAS / Fundo de Assistência Social)",
+       "402",
+       "50",
+       "5%"
+      ],
+      [
+       "Habitação (Amhasf / Fundo de Habitação)",
+       "300",
+       "38",
+       "3%"
+      ],
+      [
+       "Educação (Semed / Fundeb)",
+       "120",
+       "15",
+       "1%"
+      ],
+      [
+       "Trânsito (Agetran)",
+       "360",
+       "45",
+       "4%"
+      ],
+      [
+       "Praças e parques (Semadur)",
+       "145",
+       "18",
+       "2%"
+      ],
+      [
+       "Esporte (Funesp)",
+       "150",
+       "19",
+       "2%"
+      ],
+      [
+       "Juventude e segurança",
+       "90",
+       "11",
+       "1%"
+      ],
+      [
+       "Desenvolvimento (Funsat, Sefaz, Segov)",
+       "58",
+       "7",
+       "1%"
+      ],
+      [
+       "Total",
+       "8.790",
+       "1.099",
+       "100%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Cálculo do autor sobre a tabela anterior, com o meio da faixa do asfalto (R$ 4,3 bilhões). A saúde e o asfalto são 82% da conta. A educação aparece pequena porque o custeio das creches novas não foi estimado e porque o Fundeb já cobre a maior parte da rede; a cultura não aparece porque o livro não mediu déficit em quantidade para ela (13). A distribuição real depende do orçamento de cada fundo, que a Lei Orçamentária publica por unidade orçamentária; o livro recomenda que a LOA traga, ao lado de cada fundo, o déficit que ele deve fechar."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Orçamento dos déficits: quantidades, valores, secretarias e fundos",
+     "texto": [
+      "Anexo de déficits na Lei Orçamentária: para cada secretaria e cada fundo, a quantidade que falta, a meta do ano e o valor previsto, como nesta tabela.",
+      "Conselhos dos fundos (saúde, assistência, habitação, cultura) aprovando e acompanhando a meta física, e não só o valor."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "16.5",
      "texto": "Quem decide"
     },
     {
@@ -6998,7 +8127,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.5",
+     "numero": "16.6",
      "texto": "Uma prioridade por região"
     },
     {
@@ -7011,7 +8140,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.6",
+     "numero": "16.7",
      "texto": "Como medir"
     },
     {
@@ -7045,9 +8174,10 @@
     "16.1 O diagnóstico",
     "16.2 Receita e déficits: o quadro geral",
     "16.3 Plano de metas de 8 anos: quanto custa cada projeto",
-    "16.4 Quem decide",
-    "16.5 Uma prioridade por região",
-    "16.6 Como medir"
+    "16.4 Orçamento dos déficits: quantidades, valores, secretarias e fundos",
+    "16.5 Quem decide",
+    "16.6 Uma prioridade por região",
+    "16.7 Como medir"
    ]
   }
  ]
