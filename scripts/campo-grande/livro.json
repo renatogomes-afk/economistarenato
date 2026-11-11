@@ -350,6 +350,75 @@
      "texto": "A indústria paga ICMS ao estado, e é pelo ICMS que ela mais ajuda a cidade: a cota municipal depende do valor adicionado gerado aqui. O incentivo municipal é o Prodes, que isenta ou reduz IPTU, ISS e contribuição de iluminação por até dez anos, com contrapartida de emprego e investimento (Campo Grande News, 15/04/2025). Em junho de 2026 o conselho do programa aprovou projetos de R$ 238,1 milhões e cerca de 333 empregos (A Crítica, 03/06/2026). Com o fim do ISS em 2033, o incentivo pelo ISS acaba, e sobra à prefeitura o que é só dela: terreno, licença, transporte e formação."
     },
     {
+     "tipo": "h3",
+     "texto": "Quais são as grandes indústrias, e quantos empregam?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não existe lista pública das maiores indústrias da cidade com o número de empregados: a RAIS não divulga dado por empresa, e o cadastro da Fiems não é aberto. O que se sabe vem das próprias empresas e da imprensa. A maior é o frigorífico, e a maior de todas é a JBS."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Grandes indústrias de Campo Grande: o que se sabe",
+     "cabecalho": [
+      "Empresa",
+      "O que faz",
+      "Onde",
+      "Empregos",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "JBS (Friboi), unidade Campo Grande II",
+       "abate de bovinos: 2,2 mil cabeças por dia, com projeto de 4,4 mil",
+       "saída para Sidrolândia",
+       "2.300, com projeto de chegar a 4.600 (investimento de R$ 150 milhões anunciado em 2024)",
+       "Correio do Estado, 18/05/2024; Supervarejo, 15/04/2024"
+      ],
+      [
+       "JBS (Friboi), unidade de supergelados",
+       "hambúrguer, quibe e almôndega: 2 mil toneladas por mês",
+       "Campo Grande",
+       "mais de 1.500 (dado de 2020)",
+       "Campo Grande News, 12/01/2020"
+      ],
+      [
+       "ADM",
+       "proteína de soja",
+       "Campo Grande",
+       "não informado",
+       "O Estado MS, caderno especial, ago/2025"
+      ],
+      [
+       "Marquespan",
+       "pães (fábrica nova, terreno público doado de 10 mil m²)",
+       "Campo Grande",
+       "200 previstos; investimento de R$ 5,2 milhões",
+       "A Crítica, 02/06/2026"
+      ],
+      [
+       "H2X",
+       "combustível sustentável",
+       "Campo Grande",
+       "53 previstos; investimento de R$ 428 milhões",
+       "A Crítica, 02/06/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O setor todo dá a medida. A cidade tinha 1.324 indústrias de transformação, com 21.099 empregos formais em 2024, dos quais 5.293 no abate e processamento de carne (Fiems, via O Estado MS, ago/2025). A JBS tem cerca de 17,3 mil empregados em Mato Grosso do Sul (Correio do Estado, 04/08/2024), e a carne congelada e resfriada foi 73% das exportações da capital em 2023, de US$ 411,6 milhões (Fiems, via Campo Grande News, 25/08/2024). Se a ampliação da unidade Campo Grande II se completar, uma só fábrica terá cerca de 4.600 empregos, perto de 17% do emprego industrial com carteira da cidade, de 27.250 (cálculo do autor). Não foi encontrada confirmação pública de que a ampliação já terminou."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "1 fábrica, 1 em cada 6",
+     "texto": "empregos industriais da cidade, se a JBS Campo Grande II dobrar para 4.600 trabalhadores: 4.600 de 27.250 com carteira. Fontes: Correio do Estado, 18/05/2024; Novo Caged, UFMS, ago/2025; cálculo do autor."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a JBS prova a tese do capítulo, que a indústria vem para onde há gente para trabalhar, e mostra o risco: uma cidade que depende de uma fábrica fica à mercê do ciclo do boi. Em 2024 a própria JBS admitiu que poderia fechar frigoríficos no estado por falta de animais (Campo Grande News). O polo industrial da capital precisa de mais de uma âncora: alimentos de maior valor, como a proteína de soja e a panificação, embalagem, máquinas e manutenção para o agro, e os serviços industriais que atendem as fábricas de celulose do interior."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Indústria",
      "texto": [
@@ -358,7 +427,9 @@
       "Disputar as fábricas com agilidade de licença e segurança jurídica, já que o incentivo pelo ISS acaba com a reforma tributária (Capítulo 6).",
       "Formar a mão de obra junto com o Senai, o IFMS e as universidades, para as vagas que as fábricas vão abrir (Capítulo 3).",
       "Inventário público dos polos industriais: área, lotes vagos e ocupados, empresas, empregos e infraestrutura que falta.",
-      "Prodes com meta pública: emprego prometido e cumprido por empresa incentivada, publicado todo ano."
+      "Prodes com meta pública: emprego prometido e cumprido por empresa incentivada, publicado todo ano.",
+      "Cadastro público das maiores indústrias da cidade, com empregos, feito pela prefeitura com a Fiems e atualizado todo ano.",
+      "Atração de indústrias que diversifiquem a base além do frigorífico: alimentos de maior valor, embalagens, máquinas e manutenção para o agro e para a celulose."
      ]
     },
     {
@@ -1682,7 +1753,7 @@
     },
     {
      "tipo": "p",
-     "texto": "O retrato é de desigualdade. O Prosa tem os 116 hectares do Nações Indígenas, os 135 do Parque Estadual do Prosa, o Bioparque e o Sóter. O Anhanduizinho, a região mais populosa, com 199 mil moradores (Censo 2022, ver 5.1), tem dois parques esportivos de bairro. O Lagoa, o Imbirussu e o Bandeira não aparecem na lista. A conservação também é desigual: o parque do estado tem reforma licitada, e o da prefeitura espera. Para cuidar das áreas que não consegue manter, a prefeitura criou o programa de adoção por empresas (Lei 7.355/2024), com 54 parcerias em vigor em 2025, sem dizer quais áreas (Campo Grande News, 17/06/2025)."
+     "texto": "O retrato é de desigualdade. O Prosa tem os 116 hectares do Nações Indígenas, os 135 do Parque Estadual do Prosa, o Bioparque e o Sóter. O Anhanduizinho, a região mais populosa, com 218,5 mil moradores (Censo 2022, ver 5.1), tem dois parques esportivos de bairro. O Lagoa, o Imbirussu e o Bandeira não aparecem na lista. A conservação também é desigual: o parque do estado tem reforma licitada, e o da prefeitura espera. Para cuidar das áreas que não consegue manter, a prefeitura criou o programa de adoção por empresas (Lei 7.355/2024), com 54 parcerias em vigor em 2025, sem dizer quais áreas (Campo Grande News, 17/06/2025)."
     },
     {
      "tipo": "h3",
@@ -1990,6 +2061,520 @@
       "Telegestão em toda a rede, paga com a COSIP, e luz reforçada em pontos de ônibus, travessias, escolas, postos e praças.",
       "Se a economia de energia se confirmar, reduzir a COSIP para as famílias de baixa renda ou usar a sobra só em iluminação e segurança viária, por lei."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.8",
+     "texto": "Água, esgoto e drenagem"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto da cidade tem água e esgoto?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quase toda. A água chega a 99% da população, cerca de 953 mil pessoas, e o esgoto, que atendia 19% em 2003, chegou a 94% (Águas Guariroba, via Correio do Estado, 15/10/2025). Campo Grande é a quarta melhor capital do país no Ranking do Saneamento de 2026, e perde 20,7% da água tratada na rede, contra 39,5% na média brasileira (Instituto Trata Brasil, Ranking 2026, dados do SINISA 2024). As metas do Marco Legal do Saneamento para 2033, 99% de água e 90% de esgoto (Lei 14.026/2020), já foram cumpridas em 2024, segundo a concessionária."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Saneamento em Campo Grande: números",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "População com água",
+       "99% (cerca de 953 mil pessoas)",
+       "Águas Guariroba, via Correio do Estado, 15/10/2025"
+      ],
+      [
+       "População com esgoto",
+       "94% (19% em 2003); meta de 98% até 2028–2029",
+       "idem; Correio do Estado, 22/07/2025"
+      ],
+      [
+       "Imóveis ligados à água e ao esgoto",
+       "398.612 e 332.556 (1º sem. 2026)",
+       "balanço da concessionária, via Correio do Estado, 07/08/2026"
+      ],
+      [
+       "Perda de água tratada",
+       "20,7% (2024); 20,2% (2º tri 2026); 56% em 2001",
+       "Trata Brasil, Ranking 2026; Correio do Estado, 07/08/2026 e 22/07/2025"
+      ],
+      [
+       "Investimento por morador",
+       "R$ 217 por ano (média 2020–2024), o segundo maior entre as capitais",
+       "Trata Brasil, Ranking 2026"
+      ],
+      [
+       "Faturamento e lucro da concessionária",
+       "R$ 716 milhões e R$ 173,6 milhões no 1º semestre de 2026",
+       "Correio do Estado, 07/08/2026"
+      ],
+      [
+       "Reajuste da tarifa",
+       "4,49% em janeiro de 2026",
+       "idem"
+      ],
+      [
+       "Tarifa social",
+       "50% de desconto; 23 mil famílias inscritas, meta de 53 mil",
+       "Águas Guariroba, via Correio do Estado, 15/10/2025"
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "66 mil imóveis",
+     "texto": "têm água e ainda não estão ligados ao esgoto: 398.612 com água e 332.556 com esgoto no 1º semestre de 2026 (balanço da concessionária, via Correio do Estado, 07/08/2026; diferença do autor). Parte tem rede na porta e não fez a ligação; parte não tem rede. O dado por região não é publicado."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa a água?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A conta tem duas partes: a água, cobrada por metro cúbico em faixas que sobem com o consumo, e o esgoto, cobrado como um percentual da água. O reajuste de 2026 foi de 4,49%, e quem está no Cadastro Único pode ter 50% de desconto pela tarifa social. A tabela de valores em reais por faixa, publicada pela Agereg, não foi conferida nesta edição; ela entra na próxima, com a conta típica de uma família que gasta 10 metros cúbicos por mês. O reajuste da Sanesul, de 7,53% para 2027, não vale para a capital, que tem contrato próprio (Correio do Estado, 19/10/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O ponto não é o preço da água, é a conta do contrato. A concessionária lucrou R$ 173,6 milhões em seis meses, cerca de R$ 964 mil por dia (Correio do Estado, 07/08/2026), e a prorrogação até 2060, feita em 2012, não teve nova outorga (6.5). A tarifa social atende 23 mil famílias, quando o Cadastro Único da cidade tem 199 mil (14.6), e a meta da própria empresa é de 53 mil."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E a drenagem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "É o elo fraco. A água e o esgoto têm contrato, meta e ranking; a drenagem das chuvas é da prefeitura, não tem tarifa nem indicador publicado, e aparece no noticiário a cada temporal, com rua alagada e córrego transbordando. Não foi encontrado plano de drenagem com custo por bacia publicado. As obras de asfalto novo das fases 1 e 2 levam drenagem junto (5.5), mas a macrodrenagem, os canais e as bacias que seguram a chuva, fica sem conta."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o saneamento de Campo Grande está à frente do país e não precisa de dinheiro da prefeitura para fechar a rede de esgoto: isso é obrigação da concessionária e já está no contrato. O papel da prefeitura é outro. Fiscalizar e renegociar o contrato com outorga variável (6.5), levar a ligação de esgoto a quem tem rede na porta e não tem dinheiro para a obra dentro do lote, levar a tarifa social a todas as famílias que têm direito e fazer o que é só dela, a drenagem."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Água, esgoto e drenagem",
+     "texto": [
+      "Revisão do contrato de água e esgoto com outorga variável, aproveitando a auditoria em curso (6.5), e publicação anual dos indicadores por região.",
+      "Ligação social de esgoto: a prefeitura paga a obra dentro do lote para famílias do Cadastro Único com rede na porta, cerca de 20 mil imóveis em oito anos, R$ 30 a 50 milhões (hipótese do autor, a conferir com a concessionária).",
+      "Tarifa social para todas as famílias elegíveis do Cadastro Único, com inscrição automática pelo cruzamento de dados.",
+      "Plano de drenagem por bacia, com custo e prazo, antes da próxima obra de asfalto."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.9",
+     "texto": "Lixo, reciclagem e energia"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto lixo a cidade produz, e para onde vai?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Cerca de 875 toneladas de lixo doméstico por dia em 2022, quase um quilo por morador (0,955 kg), segundo a coleta (Campo Grande News, 14/04/2023). Quase tudo vai para o aterro Dom Antônio Barbosa II, na saída para Sidrolândia, aberto em dezembro de 2012 e já ampliado, que deve chegar ao limite no primeiro semestre de 2028; o substituto, o aterro Ereguaçu, tem previsão de cerca de 40 anos de uso (CG Solurb, via Correio do Estado, 07/10/2026). A coleta, a limpeza e o aterro estão num contrato global com o consórcio CG Solurb, de cerca de R$ 1,9 bilhão (6.5)."
+    },
+    {
+     "tipo": "p",
+     "texto": "A reciclagem quase não existe. A coleta seletiva porta a porta alcança cerca de 600 mil pessoas, mas só 26% separam o lixo, e a usina de triagem recebe cerca de 20 toneladas por dia (Solurb, via Campo Grande News, 01/05/2023), perto de 2% do lixo da cidade (cálculo do autor), o mesmo índice que o Tribunal de Contas apontou em 2017 (Campo Grande News, 29/09/2017)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Lixo e reciclagem: Campo Grande e duas referências",
+     "cabecalho": [
+      "",
+      "Campo Grande",
+      "Curitiba",
+      "Suécia"
+     ],
+     "linhas": [
+      [
+       "Lixo por pessoa por ano",
+       "cerca de 349 kg",
+       "n/d",
+       "426 kg"
+      ],
+      [
+       "Reciclado",
+       "cerca de 2%",
+       "22,5%",
+       "23% de material e 17% de orgânico"
+      ],
+      [
+       "Queimado com geração de energia",
+       "0%",
+       "n/d",
+       "54,8%"
+      ],
+      [
+       "Aterro",
+       "quase tudo",
+       "n/d",
+       "1,6%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Campo Grande News, 14/04/2023 e 01/05/2023 (Campo Grande; por pessoa, 0,955 kg × 365, e reciclado, cálculo do autor); Prefeitura de Curitiba, 17/05/2024; Avfall Sverige, The Waste Trend 2024 (lixo doméstico da Suécia, 2024)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa, e quanto paga a taxa do lixo?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O serviço custa cerca de R$ 130 milhões por ano, e a taxa do lixo cobrada no carnê do IPTU arrecadava perto de R$ 40 milhões (6.7); em 2022 foram R$ 34,5 milhões, com taxas de R$ 50 a R$ 60 por imóvel nos carnês verificados pela imprensa (Campo Grande News, 20/04/2023). Em 2026 a prefeitura reclassificou o perfil dos imóveis, e 44,7% subiram de categoria (Correio do Estado, 03/01/2026); a Câmara derrubou a mudança por 20 votos a zero (6.7). Dividido pelas 478.769 inscrições aptas, o custo do serviço é de cerca de R$ 270 por imóvel por ano, e a taxa média, de cerca de R$ 84 (cálculo do autor); a diferença sai do caixa geral."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que outras cidades fazem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Curitiba recicla 22,5% do lixo com o programa Lixo que Não é Lixo, que tem quase 40 anos, e o Câmbio Verde troca 4 quilos de recicláveis por 1 quilo de frutas e verduras da agricultura familiar (Prefeitura de Curitiba, 17/05/2024). A Suécia manda 1,6% do lixo doméstico para aterro e queima 54,8% em usinas que geram eletricidade e aquecem bairros inteiros (Avfall Sverige, 2024). No Brasil, Barueri (SP) termina a primeira usina de recuperação energética da América Latina: 870 toneladas por dia, 20 megawatts, cerca de R$ 600 milhões, numa parceria público-privada de 30 anos, com operação comercial prevista para o primeiro semestre de 2027 (Governo de São Paulo, Semil, 02/10/2026). É o mesmo volume que Campo Grande produz por dia."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E a energia?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O aterro gera biogás, e não foi encontrada informação pública sobre o seu aproveitamento para energia. A cidade já tem mais de 43 mil sistemas de geração distribuída, quase todos solares em casas e empresas (Aneel, via Canal Solar, 06/08/2025), mas a conta de energia dos prédios da prefeitura, escolas, postos e sedes, não é publicada à parte, e sem ela não se calcula a economia de pôr painéis solares neles."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o aterro novo é a hora da decisão: ou se abre mais um buraco para 40 anos, ou se usa a troca para reduzir o que vai para ele. A ordem é reciclar e compostar primeiro, que é o mais barato, com ecopontos, cooperativas pagas por tonelada e troca de recicláveis por comida como em Curitiba; aproveitar o biogás do aterro atual por concessão; e estudar a usina de energia, que só vale a pena se o custo por tonelada couber no que a cidade já paga ao aterro. Painéis solares nas escolas e nos postos se pagam com a própria conta de luz, e podem ser contratados por desempenho."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "cerca de 2%",
+     "texto": "do lixo de Campo Grande é reciclado, contra 22,5% em Curitiba. Fontes: Solurb, via Campo Grande News, 01/05/2023 (cálculo do autor); Prefeitura de Curitiba, 17/05/2024."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Lixo, reciclagem e energia",
+     "texto": [
+      "Meta de reciclagem e compostagem de 20% em oito anos, com ecopontos em todas as regiões, cooperativas pagas por tonelada triada e um Câmbio Verde campo-grandense ligado à agricultura familiar.",
+      "Pátio de compostagem dos resíduos de feiras, Ceasa, poda e grandes geradores.",
+      "Concessão do biogás do aterro Dom Antônio Barbosa II e estudo de viabilidade de uma usina de recuperação energética antes de contratar o aterro novo.",
+      "Taxa do lixo pelo custo real do serviço, com tarifa social, e publicação anual de quanto custa e quanto arrecada.",
+      "Energia solar nos prédios da prefeitura, começando pelas escolas e postos, paga pela economia na conta de luz, e publicação da conta de energia da prefeitura.",
+      "Lixo e energia no plano de 8 anos: ecopontos, compostagem e solar, cerca de R$ 125 a 175 milhões (hipótese do autor; 16.3)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.10",
+     "texto": "Quanto custa uma cidade toda urbanizada"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que é uma região bem urbanizada?"
+    },
+    {
+     "tipo": "p",
+     "texto": "É a rua que o morador do Prosa já tem: asfalto bom com drenagem, calçada contínua onde a cadeira de rodas passa, árvore, luz, esgoto, praça a dez minutos a pé, parque na região e ponto de ônibus com abrigo. O livro já fez a conta de parte disso: o asfalto (5.5), as praças (5.3), os parques (5.4), a iluminação (5.7) e o esgoto (5.8). Aqui se soma o que faltava e se divide por região."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Urbanização completa em 8 anos: custo por item (R$ milhões de 2026)",
+     "cabecalho": [
+      "Item",
+      "Meta",
+      "Faixa",
+      "Meio",
+      "Base do cálculo"
+     ],
+     "linhas": [
+      [
+       "Asfalto com drenagem e recapeamento",
+       "1.000 km de terra e 2.380 km comprometidos",
+       "3.400 a 5.200",
+       "4.300",
+       "5.5 (já no plano)"
+      ],
+      [
+       "Praças e parques existentes",
+       "229 praças; seis parques",
+       "140 a 149",
+       "145",
+       "5.3 e 5.4 (já no plano)"
+      ],
+      [
+       "Macrodrenagem: canais, galerias e bacias de detenção",
+       "obras nos córregos que mais alagam",
+       "400 a 800",
+       "600",
+       "hipótese do autor; não há plano com custo publicado"
+      ],
+      [
+       "Calçadas acessíveis nas rotas de pedestre",
+       "1.200 km de calçada (600 km de ruas com ônibus, escola ou posto, nos dois lados), 2 m de largura",
+       "290 a 430",
+       "360",
+       "R$ 120 a 180 por m² (hipótese do autor)"
+      ],
+      [
+       "Arborização",
+       "100 mil árvores, com três anos de rega",
+       "25 a 40",
+       "32",
+       "R$ 250 a 400 por árvore (hipótese do autor)"
+      ],
+      [
+       "Parques novos",
+       "um parque linear em fundo de vale no Anhanduizinho, no Lagoa, no Imbirussu e no Bandeira",
+       "80 a 160",
+       "120",
+       "R$ 20 a 40 milhões cada (hipótese do autor)"
+      ],
+      [
+       "Telegestão da iluminação",
+       "125.736 pontos",
+       "38 a 63",
+       "50",
+       "5.7; paga pela COSIP"
+      ],
+      [
+       "Ligação social de esgoto",
+       "20 mil imóveis",
+       "30 a 50",
+       "40",
+       "5.8 (hipótese do autor)"
+      ],
+      [
+       "Urbanização de favelas e regularização",
+       "16 favelas do Censo (7.862 moradores) e títulos para cerca de 15 mil lotes irregulares",
+       "210 a 340",
+       "275",
+       "R$ 80 a 120 mil por moradia urbanizada e R$ 2 mil por título (hipótese do autor); 11.1"
+      ],
+      [
+       "Abrigos de ônibus e travessias seguras",
+       "2.000 abrigos",
+       "50 a 80",
+       "65",
+       "R$ 25 a 40 mil cada (hipótese do autor)"
+      ],
+      [
+       "Projetos e fiscalização",
+       "5% dos itens novos",
+       "56 a 98",
+       "77",
+       "cálculo do autor"
+      ],
+      [
+       "Total",
+       "",
+       "4.720 a 7.410",
+       "6.065",
+       ""
+      ],
+      [
+       "…dos quais novos, fora do plano anterior",
+       "",
+       "1.180 a 2.060",
+       "1.620",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: estimativas do autor. Os custos unitários marcados como hipótese precisam ser conferidos em orçamento de referência (SINAPI) e nos contratos recentes da prefeitura antes de virar meta."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto cabe a cada região?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O dinheiro não deve ser dividido só pelo número de moradores, porque a rua de terra, a calçada que falta e a favela estão nas regiões pobres (5.6). A divisão abaixo pesa a população pela necessidade: peso 1,3 para Anhanduizinho, Lagoa e Imbirussu, 1,15 para o Segredo, 1,0 para o Bandeira e 0,6 para o Prosa e o Centro. Os pesos são hipótese do autor e devem ser trocados pelo inventário da malha e das calçadas por região, que a prefeitura não publica."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Urbanização completa por região, em 8 anos (estimativa do autor, R$ milhões de 2026, meio da faixa)",
+     "cabecalho": [
+      "Região",
+      "Moradores (2022)",
+      "Peso",
+      "Parte",
+      "Total em 8 anos",
+      "Por ano",
+      "Por morador"
+     ],
+     "linhas": [
+      [
+       "Anhanduizinho",
+       "218.500",
+       "1,3",
+       "29,0%",
+       "1.761",
+       "220",
+       "R$ 8.060"
+      ],
+      [
+       "Lagoa",
+       "134.964",
+       "1,3",
+       "17,9%",
+       "1.088",
+       "136",
+       "R$ 8.060"
+      ],
+      [
+       "Segredo",
+       "128.300",
+       "1,15",
+       "15,1%",
+       "915",
+       "114",
+       "R$ 7.130"
+      ],
+      [
+       "Imbirussu",
+       "108.000",
+       "1,3",
+       "14,3%",
+       "870",
+       "109",
+       "R$ 8.060"
+      ],
+      [
+       "Bandeira",
+       "136.691",
+       "1,0",
+       "14,0%",
+       "847",
+       "106",
+       "R$ 6.200"
+      ],
+      [
+       "Prosa",
+       "95.500",
+       "0,6",
+       "5,9%",
+       "355",
+       "44",
+       "R$ 3.720"
+      ],
+      [
+       "Centro",
+       "61.653",
+       "0,6",
+       "3,8%",
+       "229",
+       "29",
+       "R$ 3.720"
+      ],
+      [
+       "Total",
+       "883.608",
+       "",
+       "100%",
+       "6.065",
+       "758",
+       "R$ 6.860"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: moradores, IBGE, Censo 2022, via Campo Grande News, 21/03/2024 (5.1); divisão e valores, cálculo do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Ano a ano"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Urbanização completa: desembolso por ano (estimativa do autor, R$ milhões de 2026)",
+     "cabecalho": [
+      "Ano",
+      "%",
+      "Valor",
+      "O que acontece"
+     ],
+     "linhas": [
+      [
+       "1º",
+       "5%",
+       "303",
+       "inventário da malha, das calçadas e da drenagem; projetos; obras já contratadas do asfalto"
+      ],
+      [
+       "2º",
+       "10%",
+       "607",
+       "primeiros lotes de asfalto novo e recapeamento; praças; abrigos"
+      ],
+      [
+       "3º",
+       "15%",
+       "910",
+       "obras em todas as regiões; macrodrenagem nas bacias que mais alagam"
+      ],
+      [
+       "4º",
+       "15%",
+       "910",
+       "parques lineares; urbanização das favelas"
+      ],
+      [
+       "5º",
+       "15%",
+       "910",
+       "segunda metade do asfalto novo"
+      ],
+      [
+       "6º",
+       "15%",
+       "910",
+       "calçadas e árvores nas rotas de pedestre"
+      ],
+      [
+       "7º",
+       "13%",
+       "788",
+       "recapeamento final e regularização dos lotes"
+      ],
+      [
+       "8º",
+       "12%",
+       "728",
+       "acabamento, conservação e prestação de contas"
+      ],
+      [
+       "Total",
+       "100%",
+       "6.066",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 6,1 bilhões",
+     "texto": "é o custo estimado para deixar as sete regiões bem urbanizadas em oito anos, cerca de R$ 760 milhões por ano; R$ 4,4 bilhões já estavam no plano (asfalto, praças e parques), e R$ 1,6 bilhão é novo. Fonte: estimativas do autor."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a conta assusta menos quando se olha a fonte. O asfalto tem R$ 713 milhões já contratados e financiados (5.5), a telegestão cabe na COSIP (5.7), a rede de esgoto é paga pela tarifa (5.8), e a macrodrenagem e a urbanização de favelas são o tipo de obra que o governo federal financia a longo prazo (Avançar Cidades e Novo PAC). O que não pode faltar é o inventário: sem saber quantos quilômetros de rua, de calçada e de córrego cada região tem, nenhuma meta é verificável."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quanto custa uma cidade toda urbanizada",
+     "texto": [
+      "Inventário urbano por região no primeiro ano: malha viária, calçadas, drenagem, árvores, praças e iluminação, publicado em mapa aberto.",
+      "Plano de urbanização por região com meta anual e a regra de que as regiões de renda mais baixa recebem mais investimento por morador.",
+      "Calçada acessível como obra pública nas rotas de ônibus, escola e posto, e não só obrigação do dono do lote.",
+      "Financiamento federal de longo prazo para macrodrenagem e urbanização de favelas, dentro do limite de dívida (6.3)."
+     ]
     }
    ],
    "regiao": {
@@ -2028,7 +2613,10 @@
     "5.4 Parques",
     "5.5 Asfalto e a manutenção das ruas",
     "5.6 Bairros ricos, médios e pobres",
-    "5.7 Iluminação pública"
+    "5.7 Iluminação pública",
+    "5.8 Água, esgoto e drenagem",
+    "5.9 Lixo, reciclagem e energia",
+    "5.10 Quanto custa uma cidade toda urbanizada"
    ]
   },
   {
@@ -7775,18 +8363,34 @@
        "10.6"
       ],
       [
+       "Urbanização completa das regiões: macrodrenagem, calçadas, árvores, parques novos, favelas, abrigos, telegestão, ligação de esgoto",
+       "médio e longo",
+       "As sete regiões no padrão de rua do Prosa",
+       "cerca de 200",
+       "1.180 a 2.060 (meio: 1.620)",
+       "5.10"
+      ],
+      [
+       "Lixo e energia: ecopontos, compostagem, solar nos prédios públicos",
+       "curto (ecopontos) e médio",
+       "20% do lixo reciclado ou compostado; escolas e postos com solar",
+       "cerca de 19",
+       "125 a 175 (meio: 150)",
+       "5.9"
+      ],
+      [
        "Total",
        "",
        "",
-       "cerca de 1.050 a 1.300 com o asfalto e o hospital",
-       "7.900 a 9.700 (meio: 8.800)",
+       "cerca de 1.270 a 1.580 com o asfalto e o hospital",
+       "9.200 a 11.900 (meio: 10.570)",
        ""
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Na média, o plano custa cerca de R$ 1,1 bilhão por ano, 18,5% das receitas correntes de 2025, de R$ 5,95 bilhões (SICONFI, DCA 2025; cálculo do autor). O asfalto é metade de cada real, e o hospital municipal, um sexto. Sem o asfalto, as demais propostas custam cerca de R$ 4,5 bilhões em oito anos, perto de R$ 560 milhões por ano, ou 9,4% das receitas correntes. Fora da tabela está a parcela da dívida com o IMPCG, de cerca de R$ 95 milhões por ano, que já é compromisso assumido (6.10)."
+     "texto": "Na média, o plano custa cerca de R$ 1,3 bilhão por ano, 22% das receitas correntes de 2025, de R$ 5,95 bilhões (SICONFI, DCA 2025; cálculo do autor). O asfalto é cerca de 40% de cada real, e a urbanização completa das regiões (5.10), com o asfalto, quase 60%; o hospital municipal é um oitavo. Sem o asfalto, as demais propostas custam cerca de R$ 6,3 bilhões em oito anos, perto de R$ 780 milhões por ano, ou 13% das receitas correntes. Fora da tabela está a parcela da dívida com o IMPCG, de cerca de R$ 95 milhões por ano, que já é compromisso assumido (6.10)."
     },
     {
      "tipo": "h3",
@@ -7825,6 +8429,21 @@
        "IPTU mais justo e captura da valorização",
        "neutro por desenho; o ganho depende de simulação",
        "6.6, 6.7"
+      ],
+      [
+       "COSIP: telegestão da iluminação",
+       "38 a 63",
+       "5.7"
+      ],
+      [
+       "Financiamento federal de macrodrenagem e urbanização de favelas (Avançar Cidades, Novo PAC)",
+       "a definir",
+       "5.10"
+      ],
+      [
+       "Rede de esgoto paga pela tarifa da concessionária, sem dinheiro do orçamento",
+       "fora da conta",
+       "5.8"
       ]
      ]
     },
@@ -7838,8 +8457,8 @@
     },
     {
      "tipo": "caixa",
-     "valor": "R$ 8,8 bilhões",
-     "texto": "é o custo estimado, em oito anos, das propostas do livro que têm conta, com o hospital municipal: cerca de R$ 1,1 bilhão por ano, 18,5% das receitas correntes de 2025; sem o asfalto, R$ 4,5 bilhões. Fonte: estimativas do autor nos subtópicos indicados; SICONFI, DCA 2025."
+     "valor": "R$ 10,6 bilhões",
+     "texto": "é o custo estimado, em oito anos, das propostas do livro que têm conta, com o hospital municipal e a urbanização completa das regiões: cerca de R$ 1,3 bilhão por ano, 22% das receitas correntes de 2025; sem o asfalto, R$ 6,3 bilhões. Fonte: estimativas do autor nos subtópicos indicados; SICONFI, DCA 2025."
     },
     {
      "tipo": "propostas",
@@ -7993,12 +8612,40 @@
        "90",
        "Segurança e Juventude",
        "Tesouro; Fundo da Criança e do Adolescente"
+      ],
+      [
+       "Urbanização das regiões (fora o asfalto)",
+       "macrodrenagem, 1.200 km de calçada, 2.000 abrigos, telegestão",
+       "1.129",
+       "Sisep e Semadur",
+       "Tesouro, COSIP e operações de crédito"
+      ],
+      [
+       "Favelas e ligação social de esgoto",
+       "16 favelas; 15 mil títulos; 20 mil ligações",
+       "331",
+       "Amhasf/Emha",
+       "Fundo Municipal de Habitação de Interesse Social"
+      ],
+      [
+       "Parques novos e árvores",
+       "4 parques lineares; 100 mil árvores",
+       "160",
+       "Semadur",
+       "Fundo Municipal de Meio Ambiente"
+      ],
+      [
+       "Lixo e energia",
+       "ecopontos, compostagem, solar",
+       "150",
+       "Semadur e Sisep",
+       "Tesouro; economia na conta de luz"
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Bases: saúde, 8.8 (o valor de 8 anos usa 7,5 anos de custeio); hospital, 8.9; creche, 9.2; CRAS e população de rua, 14.5; Secretaria da Família, 14.6; moradia, 11.1 e 11.4; asfalto, 5.5; praças, 5.3; parques, 5.4; multas, 10.5; microcrédito, 6.8; universidades, 9.8; idosos, 14.7; atividade física, 13.5; jovens, 10.6."
+     "texto": "Bases: saúde, 8.8 (o valor de 8 anos usa 7,5 anos de custeio); hospital, 8.9; creche, 9.2; CRAS e população de rua, 14.5; Secretaria da Família, 14.6; moradia, 11.1 e 11.4; asfalto, 5.5; praças, 5.3; parques, 5.4; multas, 10.5; microcrédito, 6.8; universidades, 9.8; idosos, 14.7; atividade física, 13.5; jovens, 10.6; urbanização das regiões, favelas e ligação de esgoto, 5.8 e 5.10; lixo e energia, 5.9."
     },
     {
      "tipo": "h3",
@@ -8018,25 +8665,25 @@
        "Saúde (Sesau / Fundo Municipal de Saúde)",
        "2.865",
        "358",
-       "33%"
+       "27%"
       ],
       [
        "Infraestrutura (Sisep / Tesouro e crédito)",
-       "4.300",
-       "538",
-       "49%"
+       "5.429",
+       "679",
+       "51%"
       ],
       [
        "Assistência, Família e idosos (SAS / Fundo de Assistência Social)",
        "402",
        "50",
-       "5%"
+       "4%"
       ],
       [
        "Habitação (Amhasf / Fundo de Habitação)",
-       "300",
-       "38",
-       "3%"
+       "631",
+       "79",
+       "6%"
       ],
       [
        "Educação (Semed / Fundeb)",
@@ -8048,19 +8695,19 @@
        "Trânsito (Agetran)",
        "360",
        "45",
-       "4%"
+       "3%"
       ],
       [
        "Praças e parques (Semadur)",
-       "145",
-       "18",
-       "2%"
+       "305",
+       "38",
+       "3%"
       ],
       [
        "Esporte (Funesp)",
        "150",
        "19",
-       "2%"
+       "1%"
       ],
       [
        "Juventude e segurança",
@@ -8075,16 +8722,22 @@
        "1%"
       ],
       [
+       "Meio ambiente, lixo e energia (Semadur e Sisep)",
+       "150",
+       "19",
+       "1%"
+      ],
+      [
        "Total",
-       "8.790",
-       "1.099",
+       "10.560",
+       "1.320",
        "100%"
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Cálculo do autor sobre a tabela anterior, com o meio da faixa do asfalto (R$ 4,3 bilhões). A saúde e o asfalto são 82% da conta. A educação aparece pequena porque o custeio das creches novas não foi estimado e porque o Fundeb já cobre a maior parte da rede; a cultura não aparece porque o livro não mediu déficit em quantidade para ela (13). A distribuição real depende do orçamento de cada fundo, que a Lei Orçamentária publica por unidade orçamentária; o livro recomenda que a LOA traga, ao lado de cada fundo, o déficit que ele deve fechar."
+     "texto": "Cálculo do autor sobre a tabela anterior, com o meio da faixa do asfalto (R$ 4,3 bilhões). A saúde e a infraestrutura urbana (asfalto, drenagem, calçadas, abrigos e telegestão) são cerca de 80% da conta. A educação aparece pequena porque o custeio das creches novas não foi estimado e porque o Fundeb já cobre a maior parte da rede; a cultura não aparece porque o livro não mediu déficit em quantidade para ela (13). A distribuição real depende do orçamento de cada fundo, que a Lei Orçamentária publica por unidade orçamentária; o livro recomenda que a LOA traga, ao lado de cada fundo, o déficit que ele deve fechar."
     },
     {
      "tipo": "propostas",
