@@ -1770,13 +1770,140 @@
      "texto": "A conta mostra o desperdício. O dinheiro gasto em quatro anos remendando buraco daria para recapear de 200 a 300 km de ruas (Correio do Estado, 25/02/2026); remendo dura uma chuva, recapeamento dura anos. Ao mesmo tempo, o orçamento de requalificação caiu 70% de um ano para o outro, e a Câmara abriu uma CPI para investigar medições e pagamentos do tapa-buraco (A Crítica, 17/10/2026). O asfalto novo, que leva rua a bairros que esperavam havia décadas, como o Jardim das Nações, é pago com empréstimo: entra na dívida tratada no Capítulo 6.3."
     },
     {
+     "tipo": "h3",
+     "texto": "Quanto falta asfaltar, e quanto custaria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade tem cerca de 3,4 mil km de vias asfaltadas e outros 1.000 km sem pavimento, segundo a imprensa (Campo Grande News, 22/01/2026); a prefeitura não publica o inventário. Pela soma, a malha tem perto de 4,4 mil km, e 23% dela é de terra (cálculo do autor)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Plano de oito anos para o asfalto (estimativa do autor)",
+     "cabecalho": [
+      "Frente",
+      "Extensão",
+      "Custo por km",
+      "Custo em 8 anos",
+      "Por ano"
+     ],
+     "linhas": [
+      [
+       "Asfaltar as ruas de terra, com drenagem",
+       "1.000 km",
+       "R$ 1,5 a 2,5 milhões",
+       "R$ 1,5 a 2,5 bilhões",
+       "R$ 190 a 310 milhões"
+      ],
+      [
+       "Recapear a malha comprometida (70% de 3,4 mil km)",
+       "2.380 km",
+       "R$ 0,7 a 1 milhão",
+       "R$ 1,7 a 2,4 bilhões",
+       "R$ 210 a 300 milhões"
+      ],
+      [
+       "Conservar o restante (30%)",
+       "1.020 km",
+       "R$ 0,2 a 0,3 milhão (hipótese do autor)",
+       "R$ 0,2 a 0,3 bilhão",
+       "R$ 25 a 40 milhões"
+      ],
+      [
+       "Total",
+       "4.400 km",
+       "",
+       "R$ 3,4 a 5,2 bilhões",
+       "R$ 425 a 650 milhões"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Bases do custo por km: R$ 2,5 milhões é o custo da fase 2 do programa de asfalto e drenagem, R$ 433 milhões para 170 km (A Crítica, 10/08/2026); o piso de R$ 1,5 milhão supõe ruas onde a drenagem já existe ou é mais simples. O recapeamento de R$ 0,7 a 1 milhão por km vem do contrato de 2020 (R$ 17,8 milhões por 25 km, Campo Grande News, 04/03/2020) e da estimativa de engenheira ouvida pelo Correio do Estado (25/02/2026). O custo de conservação é hipótese do autor e precisa de orçamento de referência (SINAPI ou Sicro)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O valor anual, de R$ 425 a 650 milhões, equivale a 7% a 11% da receita corrente de 2025, de R$ 5,95 bilhões (SICONFI; cálculo do autor), e não cabe só no caixa. Parte já está contratada: os R$ 713 milhões das fases 1 e 2 cobrem cerca de 250 km (A Crítica, 10/08/2026). O resto exige financiamento de longo prazo, como o da Caixa já usado, dentro do limite de dívida do Capítulo 6.3, e o fim do gasto perdido com remendo: só o tapa-buraco custou R$ 197 milhões em quatro anos, perto de R$ 50 milhões por ano que passariam para o recapeamento."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Asfalto e a manutenção das ruas",
      "texto": [
       "Inventário público da malha viária: quilômetros por região, asfaltados ou não, e um índice de condição de cada trecho, atualizado todo ano.",
       "Trocar o remendo pelo recapeamento planejado, com garantia de cinco anos do empreiteiro e prioridade para as ruas com linha de ônibus, escola e posto de saúde.",
       "Tapa-buraco com medição aberta: cada buraco com foto, local e data antes e depois, e pagamento só pelo que foi conferido.",
-      "Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila."
+      "Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila.",
+      "Plano Asfalto 2032: em oito anos, asfaltar com drenagem os 1.000 km de terra e recapear os 2.380 km comprometidos, com meta anual por região publicada e financiamento de longo prazo dentro do limite de dívida."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.6",
+     "texto": "Bairros ricos, médios e pobres"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde está o dinheiro da cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Em poucos lugares. O rendimento médio por setor censitário do Censo 2022 vai de R$ 826 por mês no setor mais pobre a R$ 31.837 no mais rico, 38 vezes mais (IBGE, Censo 2022, mapa de Wendel Moreira, out/2026; razão do autor). Por bairro, o último dado publicado é de 2010: a renda média domiciliar ia de R$ 11.329,68 na Chácara Cachoeira, no Prosa, a R$ 1.055,18 no Portal Caiobá, no Lagoa, quase 11 vezes (PLANURB, Perfil Socioeconômico, base Censo 2010, via Campo Grande News, 31/10/2023)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As três cidades dentro de Campo Grande",
+     "cabecalho": [
+      "Faixa",
+      "Onde fica",
+      "Moradores (2022)",
+      "Como é"
+     ],
+     "linhas": [
+      [
+       "Bairros ricos",
+       "Prosa e o sul e leste do Centro: Jardim dos Estados, Chácara Cachoeira, Carandá Bosque, Santa Fé, Mata do Jacinto, entorno do Parque das Nações Indígenas",
+       "Prosa 95.500; Centro 61.653 (17,8% da cidade)",
+       "Renda média acima de R$ 10 mil nos setores mais ricos; os parques grandes, o comércio de alto padrão, os condomínios e os prédios novos"
+      ],
+      [
+       "Bairros médios",
+       "Bandeira e parte do Segredo, com renda maior perto do Centro",
+       "Bandeira 136.691; Segredo 128.300 (30%)",
+       "Casas próprias, comércio de bairro, crescimento rápido (Bandeira +20,8% desde 2010)"
+      ],
+      [
+       "Bairros pobres",
+       "Anhanduizinho, Lagoa, Imbirussu e o norte do Segredo",
+       "Anhanduizinho 218.500; Lagoa 134.964; Imbirussu 108.000 (52%)",
+       "Renda média de até R$ 3.233 na maior parte dos setores; as maiores favelas (Homex, Cidade dos Anjos), ruas de terra, nenhum parque grande"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: população, IBGE, Censo 2022, via Campo Grande News, 21/03/2024 (alguns números arredondados na fonte); faixas de renda, leitura do autor sobre o mapa por setor censitário; favelas, 11.2; parques, 5.4. A divisão em três faixas é do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que muda de um bairro para outro?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Quase tudo. Metade da população mora nas três regiões mais pobres, que são também as mais jovens, as de casas mais cheias (2,76 pessoas por domicílio no Anhanduizinho) e as que mais dependem do ônibus e do posto de saúde. O dinheiro que essas famílias ganham sai do bairro: o emprego formal, o comércio grande e os serviços estão no Centro e no Prosa, e o tempo de ônibus, de até quatro horas por dia para 63% dos usuários (12.6), é o preço dessa distância. Nos bairros ricos fica o oposto: renda alta, plano de saúde, carro na garagem e o metro quadrado mais caro. O preço do imóvel por bairro, que mostraria a diferença em reais, não é publicado de forma aberta; a Planta Genérica de Valores do IPTU (6.7) tem esse dado e poderia ser divulgada por região."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "52%",
+     "texto": "dos moradores de Campo Grande vivem no Anhanduizinho, no Lagoa e no Imbirussu, as regiões de renda mais baixa. Fonte: IBGE, Censo 2022, via Campo Grande News, 21/03/2024; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Bairros ricos, médios e pobres",
+     "texto": [
+      "Levar emprego aos bairros pobres: os polos industriais e de serviços do Capítulo 2 no Anhanduizinho, no Lagoa e no Imbirussu, com incentivo do ISS ligado a vagas para moradores da região.",
+      "Publicar todo ano um retrato econômico por região: renda, emprego formal, empresas abertas, valor venal médio, gasto da prefeitura por habitante.",
+      "Orçamento por região, com a regra de que o investimento por habitante nas regiões de renda mais baixa não seja menor que nas de renda alta."
      ]
     }
    ],
@@ -1814,7 +1941,8 @@
     "5.2 Cidade espalhada e uso do solo",
     "5.3 Praças",
     "5.4 Parques",
-    "5.5 Asfalto e a manutenção das ruas"
+    "5.5 Asfalto e a manutenção das ruas",
+    "5.6 Bairros ricos, médios e pobres"
    ]
   },
   {
@@ -2379,6 +2507,94 @@
       "IPTU progressivo no tempo para os grandes terrenos vazios dentro da cidade, e fim da alíquota menor para lote vazio de condomínio fechado.",
       "Desconto à vista estável e anunciado com antecedência, e cobrança por protesto e acordo antes da execução fiscal."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.8",
+     "texto": "Um banco da cidade?"
+    },
+    {
+     "tipo": "h3",
+     "texto": "A prefeitura pode ter um banco?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não um banco comercial, e não uma agência de fomento. Toda instituição financeira precisa de autorização do Banco Central (Lei 4.595/1964, art. 18), e a empresa estatal só pode existir por lei, com relevante interesse coletivo (Constituição, art. 173). A agência de fomento, o caminho que os estados usam para emprestar a empresas, só pode ser controlada por estado ou pelo Distrito Federal, uma por unidade, com capital mínimo de R$ 4 milhões e sem captar depósitos do público (Resolução CMN 2.828/2001, arts. 1º, 4º e 5º). Município não está na lista. Mato Grosso do Sul anunciou a sua agência em agosto de 2024, com 51% do estado e 49% do BRDE (Correio do Estado, 01/08/2024)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a cidade pode fazer, então?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Caminhos para um 'banco da cidade' dentro da lei",
+     "cabecalho": [
+      "Caminho",
+      "Exemplo",
+      "Números",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Banco comunitário com moeda social",
+       "Mumbuca, Maricá (RJ), desde 2013",
+       "93 mil beneficiários no fim de 2023",
+       "Revista Pesquisa Fapesp, jan/2025"
+      ],
+      [
+       "Moeda social para a transferência de renda",
+       "Arariboia, Niterói (RJ), desde 2021",
+       "cerca de R$ 19 milhões por mês, 100 mil usuários",
+       "idem"
+      ],
+      [
+       "Banco comunitário de bairro",
+       "Banco Palmas, Fortaleza, desde 1998",
+       "167 bancos comunitários no país",
+       "idem"
+      ],
+      [
+       "Microcrédito por convênio",
+       "Prefeitura de São Paulo com o Banco do Povo Paulista",
+       "R$ 200 milhões; até R$ 21 mil; 0,35% a 0,80% ao mês; 36 meses",
+       "Prefeitura de São Paulo, SMDET"
+      ],
+      [
+       "Microcrédito municipal",
+       "Programa Avançar, Funsat, Campo Grande, 2021",
+       "R$ 1 mil a R$ 5 mil por empréstimo; juros previstos de cerca de 1,5% ao mês",
+       "Campo Grande News, 07/06/2021"
+      ],
+      [
+       "Banco público local, no exterior",
+       "Sparkassen, Alemanha (caixas municipais e regionais)",
+       "343 caixas, 1,54 trilhão de euros em ativos, 10.593 agências",
+       "DSGV, Financial Report 2025 (dados de 2024 e de jun/2025)"
+      ],
+      [
+       "Banco público regional, no exterior",
+       "Bank of North Dakota (EUA), desde 1919",
+       "único banco estadual do país",
+       "Voice of America, 18/07/2014; Gigafact, 25/03/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A moeda social é o modelo mais próximo de um banco municipal que a lei brasileira permite hoje. A prefeitura paga o benefício social numa moeda digital que só circula no comércio da cidade, com lastro em reais depositado num banco, e uma associação comunitária opera o sistema. O dinheiro do benefício gira no bairro em vez de sair para as grandes redes, e a taxa cobrada dos lojistas financia microcrédito. A moeda social ainda não tem lei própria: o PL 4.476/2023, que a regulamenta, passou pela Comissão de Finanças e Tributação da Câmara e está na de Constituição e Justiça (Revista Pesquisa Fapesp, jan/2025)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o 'banco de Campo Grande' tem três peças: uma moeda social para os programas de transferência de renda do Capítulo 14, um fundo municipal de aval e microcrédito operado por instituição autorizada, com a Funsat no balcão, e uma cota da cidade na agência de fomento do estado, para que a indústria que se quer atrair (Capítulo 2) tenha crédito de longo prazo. Nenhuma das três exige licença bancária da prefeitura. O tamanho de cada uma depende do orçamento, e o livro não fixa número sem estudo."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Um banco da cidade?",
+     "texto": [
+      "Criar por lei a moeda social de Campo Grande, para pagar benefícios municipais no comércio dos bairros, com lastro em reais e operação por associação comunitária, nos moldes de Maricá e Niterói.",
+      "Fundo municipal de aval e microcrédito para o pequeno empreendedor, formal e informal, operado por banco ou instituição de microcrédito autorizada, com a Funsat orientando o tomador.",
+      "Negociar com o estado uma linha da agência de fomento de Mato Grosso do Sul dedicada à capital, com metas de emprego por projeto."
+     ]
     }
    ],
    "regiao": {
@@ -2415,7 +2631,8 @@
     "6.4 Reforma tributária e o fim do ISS",
     "6.5 Receitas fora dos impostos",
     "6.6 Quem pode pagar mais: casos no mundo",
-    "6.7 IPTU: quem paga, quanto e como fazer mais justo"
+    "6.7 IPTU: quem paga, quanto e como fazer mais justo",
+    "6.8 Um banco da cidade?"
    ]
   },
   {
@@ -4335,7 +4552,7 @@
     {
      "tipo": "subtopico",
      "numero": "9.8",
-     "texto": "A UFMS e as empresas da cidade"
+     "texto": "A UFMS, a UEMS e a economia da cidade"
     },
     {
      "tipo": "h3",
@@ -4397,14 +4614,101 @@
      "texto": "No Brasil, a Embrapii já usa um modelo de divisão do risco: ela financia até um terço do projeto de inovação a fundo perdido, e a empresa e a unidade de pesquisa credenciada entram com o resto (Embrapii, Manual de Operação das Unidades, 2020)."
     },
     {
+     "tipo": "h3",
+     "texto": "E a UEMS?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Universidade Estadual de Mato Grosso do Sul tem unidade em Campo Grande, inclusive nas Moreninhas, e entrou na economia da cidade pelo agro: em junho de 2026 lançou com a gestora Vivaterra o AgroValley MS, polo de inovação para o agronegócio com sede de cerca de 1.000 m² na capital e meta de captar até R$ 150 milhões num fundo para startups, com aporte mínimo de R$ 1 milhão por cotista e apoio da Fundação MS, sem dinheiro público estadual (Campo Grande News, 01/06/2026). O ponto fraco é o mesmo da UFMS, em escala maior: cerca de 70% dos professores da UEMS são temporários, segundo o deputado Pedro Kemp, e a associação dos docentes calcula perda de 44% do poder de compra dos salários desde 2015 (audiência pública, via Correio do Estado, 28/05/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como as duas universidades podem entrar na economia da cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Com a prefeitura como cliente e como ponte. A prefeitura compra estudos, sistemas e serviços técnicos todo ano; parte disso pode ser contratada das universidades, que ganham receita e problema real para resolver. Exemplos possíveis: a UFMS medindo a malha viária e o estado do asfalto (5.5), a UEMS e a UFMS fazendo a pesquisa origem-destino do transporte (12.6), o cadastro georreferenciado do IPTU (6.7) e o retrato econômico por região (5.6). A lei permite a contratação direta de instituição de pesquisa sem fins lucrativos (Lei 14.133/2021, art. 75, XV). A outra ponte é a empresa: o AgroValley mostra que fundo privado vem quando há pesquisa e projeto; a prefeitura pode oferecer área, ISS menor e rapidez de alvará para as empresas que nascem desses polos e ficam na cidade."
+    },
+    {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A UFMS e as empresas da cidade",
+     "titulo": "Propostas para 2032 · A UFMS, a UEMS e a economia da cidade",
      "texto": [
       "Um vale-inovação municipal, com o Sebrae, para a pequena e média empresa contratar ensaio, análise ou projeto num laboratório da UFMS, da UEMS ou do IFMS.",
       "Estágio alternado com as empresas dos polos industriais, nos cursos ligados às indústrias que a cidade quer atrair (Capítulo 2).",
       "Buscar o credenciamento de laboratórios da UFMS e da UEMS como unidades Embrapii, para dividir o custo da pesquisa com as empresas.",
       "A cidade como laboratório: problemas da prefeitura, como fila da saúde, trânsito e iluminação, contratados como projetos de pesquisa e extensão.",
-      "Um balanço anual, público, da cooperação entre universidades e empresas da cidade: contratos, valores, estágios, patentes licenciadas e empresas criadas."
+      "Um balanço anual, público, da cooperação entre universidades e empresas da cidade: contratos, valores, estágios, patentes licenciadas e empresas criadas.",
+      "Convênio permanente da prefeitura com a UFMS e a UEMS para estudos que a cidade precisa e não tem (malha viária, origem-destino, cadastro do IPTU, renda por região), com dados publicados em aberto.",
+      "Distrito de inovação junto ao AgroValley e ao parque tecnológico da UFMS, com ISS reduzido e alvará imediato para startups nascidas nas universidades que se instalem em Campo Grande."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.9",
+     "texto": "Empresas e escolas"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a empresa ganha com a escola, e a escola com a empresa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A empresa ganha o trabalhador que não encontra pronto; a escola ganha sentido para o aluno, que vê para que serve o que estuda, e equipamento e professor que não teria. Em Campo Grande a ponte mais simples já existe e está pela metade: as empresas da cidade tinham 3.610 aprendizes contratados em novembro de 2026, 66% da cota obrigatória, com 1.821 vagas de aprendiz em aberto (organizadores do Feirão da Aprendizagem, via A Crítica, 03/11/2026). A Lei da Aprendizagem obriga a empresa média e grande a ter de 5% a 15% de aprendizes entre os empregados de funções que exigem formação (CLT, art. 429)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Escola e empresa: modelos que funcionam",
+     "cabecalho": [
+      "Modelo",
+      "Como funciona",
+      "Números",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Ensino dual (Alemanha)",
+       "70% da formação na empresa, 30% na escola técnica, por dois a três anos e meio",
+       "1,22 milhão de aprendizes; 327 profissões; 18,8% das empresas formam; 77% ficam na empresa ao terminar",
+       "BIBB/GOVET, Formação profissional dual, 2025"
+      ],
+      [
+       "Custo do aprendiz para a empresa alemã",
+       "A empresa paga a formação prática; o Estado paga a escola",
+       "€ 26.210 por aprendiz por ano, 69% compensados pelo trabalho do próprio aprendiz",
+       "idem, dados de 2022/2023"
+      ],
+      [
+       "P-TECH (EUA, IBM)",
+       "Ensino médio e curso superior de tecnologia em seis anos, sem custo, com a empresa no currículo e no estágio",
+       "Lançado em 2011; 55 escolas em 2017; 34% da 1ª turma terminaram o curso superior antes do prazo",
+       "The 74, 13/03/2017"
+      ],
+      [
+       "Estágio alternado (Waterloo, Canadá)",
+       "O aluno alterna semestres de aula e de trabalho remunerado",
+       "mais de 8 mil empregadores (ver 9.8)",
+       "Universidade de Waterloo"
+      ],
+      [
+       "Aprendizagem (Brasil)",
+       "Contrato de até dois anos, curso no Senai, Senac ou entidade, prática na empresa",
+       "3.610 aprendizes em Campo Grande, 66% da cota",
+       "A Crítica, 03/11/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, Campo Grande não precisa importar o modelo alemão inteiro; precisa fazer funcionar o que a lei já tem e ligar a escola às indústrias que quer atrair (Capítulo 2). Cumprir a cota de aprendizagem daria mais 1.800 vagas para jovens já no ano que vem. As escolas estaduais de ensino médio da capital, com 27 mil matrículas em 2026 (9.1), podem ter itinerário técnico desenhado com as empresas do polo industrial, com o Senai, o Senac e o IFMS dando a parte técnica. E a empresa que adota uma escola, com laboratório, mentor e estágio, pode ter reconhecimento público e preferência como critério de desempate em programas municipais, sem renúncia fiscal nova."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Empresas e escolas",
+     "texto": [
+      "Pacto da aprendizagem: prefeitura, Ministério Público do Trabalho, Senai, Senac e associações empresariais para preencher as 1.821 vagas de aprendiz em aberto, com prioridade para jovens das regiões mais pobres (5.6).",
+      "Itinerário técnico dual com o estado: cursos de ensino médio desenhados com as empresas dos polos industriais, metade do tempo na prática, com Senai, Senac e IFMS.",
+      "Programa Empresa Amiga da Escola: a empresa que adota uma escola municipal, com laboratório, mentoria ou estágio, recebe selo público e preferência como critério de desempate nos programas da prefeitura.",
+      "Uma escola no modelo P-TECH até 2032, em parceria com a UFMS ou o IFMS e uma empresa de tecnologia ou de alimentos, com ensino médio e curso superior de tecnologia num só percurso."
      ]
     }
    ],
@@ -4442,7 +4746,8 @@
     "9.5 Alimentação escolar",
     "9.6 Professores",
     "9.7 Educação inclusiva",
-    "9.8 A UFMS e as empresas da cidade"
+    "9.8 A UFMS, a UEMS e a economia da cidade",
+    "9.9 Empresas e escolas"
    ]
   },
   {
@@ -4688,6 +4993,65 @@
      "texto": "Substituir a receita é a parte fácil, porque ela é pequena. O que a multa paga hoje, cerca de R$ 48 milhões por ano, pode vir das receitas fora dos impostos do Capítulo 6, como a concessão do estacionamento rotativo, vago desde 2022, e a publicidade no mobiliário urbano, e da captura da valorização imobiliária do subtópico 6.6. A meta passa a ser o contrário da de hoje: cada ano, menos multas e menos mortes."
     },
     {
+     "tipo": "h3",
+     "texto": "Quantas multas, quanto rendem, e para onde vai o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Multas de trânsito em Campo Grande: números de 2023 a 2026",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Infrações registradas em 2023",
+       "332.938",
+       "Agetran, via Correio do Estado, 15/01/2025"
+      ],
+      [
+       "Infrações de janeiro a novembro de 2024",
+       "313.971",
+       "idem"
+      ],
+      [
+       "Multas por mês, início de 2024",
+       "16,7 mil a 20,2 mil; R$ 2,7 a 3,1 milhões por mês",
+       "Correio do Estado, 09/09/2024"
+      ],
+      [
+       "Arrecadação com multas, 2023 a 2025",
+       "R$ 137,7 milhões (43,8 + 46,2 + 47,7)",
+       "Agetran, via Campo Grande News, 31/01/2026"
+      ],
+      [
+       "Contrato antigo dos radares (Consórcio Cidade Morena), aditivo de 2023, 12 meses",
+       "R$ 23,7 milhões",
+       "Correio do Estado, 09/09/2024"
+      ],
+      [
+       "Contrato novo dos radares (Serget), 24 meses",
+       "R$ 47,9 milhões",
+       "Campo Grande News, 30/01/2026"
+      ],
+      [
+       "Registros dos radares novos, 11/11/2025 a 10/01/2026",
+       "7.850 (5.224 por velocidade, 2.626 por sinal vermelho)",
+       "idem"
+      ],
+      [
+       "Multa por excesso de velocidade (até 20%) e por avanço de sinal",
+       "R$ 130,16 e R$ 293,47",
+       "idem"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A conta mais reveladora é simples: o contrato dos radares custa perto de R$ 24 milhões por ano, a metade dos cerca de R$ 48 milhões que a prefeitura arrecada com multas (cálculo do autor). Metade do dinheiro da multa paga a empresa que multa. Da outra metade, a prefeitura não publica a aplicação por item, como manda o art. 320 do Código de Trânsito, e a Agetran chegou a afirmar que não era obrigada a divulgar o número de multas por radar (Campo Grande News). O que se sabe é que, de janeiro a agosto de 2024, só 4,6% da arrecadação foi para obras de sinalização (Campo Grande News, 04/06/2025). Uma ação popular do vereador Marquinhos Trad pede a anulação de cerca de 320 mil multas aplicadas sem contrato e a devolução de mais de R$ 33 milhões, segundo o autor da ação (Correio do Estado, 08/08/2025); o processo não terminou."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Trânsito e a indústria da multa",
      "texto": [
@@ -4695,7 +5059,9 @@
       "Advertência por escrito, em vez de multa, para a infração leve ou média de quem não tem outra em doze meses (Código de Trânsito, art. 267), como regra da cidade.",
       "Relatório trimestral do art. 320: quanto entrou de multa e onde foi gasto, real por real, com meta de 100% em sinalização, engenharia e educação.",
       "Orçamento do trânsito garantido pelo caixa geral e pelas concessões, para que a segurança viária não dependa de quanto se multa; meta pública de menos multas e menos mortes a cada ano.",
-      "Prioridade à moto, que mata sete de cada dez: faixa e semáforo seguros, curso de pilotagem para entregadores e fiscalização educativa nos corredores."
+      "Prioridade à moto, que mata sete de cada dez: faixa e semáforo seguros, curso de pilotagem para entregadores e fiscalização educativa nos corredores.",
+      "Relatório anual do art. 320 do Código de Trânsito, publicado na internet: quanto entrou de multa e em que foi gasto, item por item, com a parte do contrato dos radares separada.",
+      "Contrato de radar pago por equipamento disponível e calibrado, nunca por multa aplicada, para tirar da empresa o interesse em multar."
      ]
     }
    ],
@@ -4840,6 +5206,179 @@
       "Lote urbanizado com projeto-padrão para quem constrói por conta própria, a pequena propriedade espalhada que defende o Capítulo 5.",
       "Fila da habitação publicada, com critério e posição de cada família."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "11.4",
+     "texto": "Custo de vida e o acesso à casa própria"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa viver em Campo Grande?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A cesta básica de Campo Grande custou R$ 806,56 em setembro de 2026, 3,3% a mais que um ano antes. Quem ganha o salário mínimo, de R$ 1.621, trabalha 109 horas e 28 minutos por mês só para comprá-la, ou 53,8% do salário líquido (Dieese, Pesquisa Nacional da Cesta Básica, setembro de 2026). Pelo método do Dieese, o salário mínimo necessário para uma família de quatro pessoas seria de R$ 7.750,01, 4,8 vezes o mínimo em vigor (mesma fonte, calculado com a cesta de São Paulo)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Do outro lado está a renda. Quem trabalha em Campo Grande ganhava em média R$ 3.450,86 por mês no Censo 2022 (IBGE, via O Estado MS, 09/10/2025), e o rendimento médio de Mato Grosso do Sul chegou a R$ 3.727 em 2025 (IBGE, PNAD Contínua, via A Crítica, 12/05/2026). A PNAD não publica a renda só da capital nos textos abertos; o livro usa o número do estado como referência atual e o do Censo como piso."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O orçamento de quem ganha a renda média (R$ 3.727 por mês)",
+     "cabecalho": [
+      "Gasto",
+      "Valor mensal",
+      "% da renda",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Cesta básica de uma pessoa",
+       "R$ 807",
+       "22%",
+       "Dieese, set/2026"
+      ],
+      [
+       "Cesta da família de quatro (três cestas, método Dieese)",
+       "R$ 2.420",
+       "65%",
+       "cálculo do autor sobre o Dieese"
+      ],
+      [
+       "Aluguel de apartamento de 50 m²",
+       "R$ 1.538",
+       "41%",
+       "FipeZap, R$ 30,75 por m², mar/2026; cálculo do autor"
+      ],
+      [
+       "Duas passagens de ônibus por dia útil",
+       "R$ 218",
+       "6%",
+       "tarifa de R$ 4,95; cálculo do autor (ver 12.4)"
+      ],
+      [
+       "Soma para uma pessoa só (cesta, aluguel, ônibus)",
+       "R$ 2.563",
+       "69%",
+       "cálculo do autor"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Para uma pessoa sozinha, comida, aluguel e ônibus já tomam perto de 70% da renda média, antes de luz, água, gás, remédio e roupa. É por isso que seis em cada dez casos do déficit habitacional da cidade são aluguel acima de 30% da renda (11.1). O aluguel também sobe mais que o salário: o índice FipeZap de locação de Campo Grande subiu 11,95% de janeiro a julho de 2026 (FipeZap, via Portas, 12/08/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa um imóvel?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Preço dos imóveis em Campo Grande",
+     "cabecalho": [
+      "Indicador",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Metro quadrado anunciado, venda (todos os residenciais)",
+       "R$ 6.609; alta de 3% em 12 meses",
+       "FipeZap, out/2026, via MySide"
+      ],
+      [
+       "Metro quadrado do apartamento novo",
+       "R$ 9.857 (2º tri 2026)",
+       "Censo Imobiliário Brain/Sinduscon-MS, via Correio do Estado, 28/08/2026"
+      ],
+      [
+       "Apartamento novo, preço médio",
+       "R$ 688.283",
+       "idem"
+      ],
+      [
+       "Apartamento de 2 quartos do Minha Casa, Minha Vida",
+       "R$ 293.682",
+       "idem"
+      ],
+      [
+       "Apartamento de 3 quartos",
+       "R$ 1.141.120",
+       "idem"
+      ],
+      [
+       "Rentabilidade do aluguel",
+       "5,73% ao ano",
+       "FipeZap, mar/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como um jovem consegue comprar a casa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Tome o apartamento de dois quartos do Minha Casa, Minha Vida, de R$ 293.682, com 20% de entrada (R$ 58,7 mil) e o restante financiado. As regras do programa em vigor desde 22/04/2026 dão juros de 4% a 8,16% ao ano para famílias com renda de até R$ 9.600, prazo de até 420 meses e teto de imóvel de R$ 400 mil na Faixa 3 (Caixa, via IstoÉ Dinheiro e O Povo, 21 e 22/04/2026). A conta abaixo é do autor, pelo sistema de amortização constante (SAC), em que a primeira parcela é a maior, e pela regra dos bancos de não comprometer mais de 30% da renda."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Renda necessária para financiar o apartamento de R$ 293.682 (estimativa do autor)",
+     "cabecalho": [
+      "Juros e prazo",
+      "1ª parcela (SAC)",
+      "Renda mensal necessária",
+      "Renda anual (12 meses)"
+     ],
+     "linhas": [
+      [
+       "8,16% ao ano, 30 anos",
+       "R$ 2.193",
+       "R$ 7.311",
+       "R$ 87.700"
+      ],
+      [
+       "8,16% ao ano, 35 anos",
+       "R$ 2.100",
+       "R$ 7.001",
+       "R$ 84.000"
+      ],
+      [
+       "4,5% ao ano, 35 anos",
+       "R$ 1.423",
+       "R$ 4.743",
+       "R$ 56.900"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O resultado é duro. Um jovem com a renda média de R$ 3.727 não financia sozinho nem o apartamento mais barato do mercado novo: precisaria de duas rendas médias. E a taxa de 4,5%, a mais baixa, vale só para quem ganha até R$ 3.200 (O Povo, 21/04/2026), renda com a qual a parcela não cabe sem subsídio. A entrada é a outra barreira: guardando 10% da renda média por mês, um jovem leva cerca de 13 anos para juntar R$ 58,7 mil; um casal com duas rendas médias, guardando 15%, leva cerca de 4 anos e meio (cálculo do autor, sem rendimento da poupança e sem o FGTS, que encurta a conta para quem tem carteira assinada)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantas casas a cidade produz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Muito menos do que precisa. As incorporadoras lançaram 384 apartamentos no primeiro semestre de 2026 e venderam 872 de janeiro a julho, 352 deles pelo Minha Casa, Minha Vida (Censo Imobiliário Brain/Sinduscon-MS, via Correio do Estado, 28/08/2026, e A Crítica, 26/06/2026). A prefeitura anunciou 1.264 casas populares em novembro de 2026 (Correio do Estado, 06/11/2026). O plano municipal de habitação estima uma demanda de 11,4 mil moradias novas por ano até 2035 (Phabis, via Campo Grande News, ver 11.1). Casas construídas por conta própria e em loteamentos não entram no levantamento do Sinduscon; o número de alvarás e habite-se por ano, que mediria isso, não é publicado (ver 2.6)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "2 rendas",
+     "texto": "médias de Mato Grosso do Sul (R$ 3.727 cada) são o mínimo para financiar o apartamento mais barato do mercado novo de Campo Grande, de R$ 293.682, a 8,16% ao ano. Fonte: IBGE, PNAD 2025; Sinduscon-MS, 2026; regras do MCMV de abril de 2026; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Custo de vida e o acesso à casa própria",
+     "texto": [
+      "Aluguel social e locação subsidiada para jovens e famílias de até três salários mínimos, com imóveis vazios do Centro (11.1), para que o aluguel não passe de 30% da renda.",
+      "Entrada facilitada: um fundo municipal de complemento da entrada para quem compra o primeiro imóvel do Minha Casa, Minha Vida, somado ao subsídio federal e ao do estado.",
+      "Lote urbanizado barato nas áreas já servidas por ônibus, asfalto e escola, com o IPTU progressivo pressionando os terrenos vazios a entrar no mercado (6.7).",
+      "Publicar todo ano os alvarás e habite-se por região, para medir quantas moradias a cidade realmente produz contra a demanda de 11,4 mil por ano."
+     ]
     }
    ],
    "regiao": {
@@ -4872,7 +5411,8 @@
    "subtopicos": [
     "11.1 O tamanho do déficit",
     "11.2 Favelas e áreas irregulares",
-    "11.3 O que a prefeitura entrega"
+    "11.3 O que a prefeitura entrega",
+    "11.4 Custo de vida e o acesso à casa própria"
    ]
   },
   {
@@ -5141,6 +5681,85 @@
       "Rede de bicicleta ligada aos terminais, com bicicletário, luz e manutenção, começando pelos bairros de renda mais baixa.",
       "Integração da bicicleta e do patinete com o ônibus na mesma tarifa e no mesmo aplicativo."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "12.6",
+     "texto": "Quem anda de ônibus, de carro e de moto"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos carros e motos a cidade tem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande tinha 745.178 veículos registrados em agosto de 2026: 351.204 automóveis e 223.918 motos e motonetas (Senatran, via Correio do Estado, 08/10/2026). São 36 carros e 23 motos para cada 100 moradores, e cerca de 1,1 carro por domicílio ocupado (cálculo do autor, com 970.843 habitantes estimados para 2026, mesma fonte, e 325.750 domicílios ocupados, Censo 2022). A frota registrada é maior que a que circula, porque inclui veículos parados ou fora de uso; mesmo assim, mostra uma cidade em que ter carro é a regra."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E quantos usam o ônibus?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Bem menos. O sistema transportou 42,5 milhões de passageiros pagantes por ano no fim do período auditado, contra 56,9 milhões sete anos antes (auditoria, via Correio do Estado, 01/04/2024). Isso dá cerca de 116 mil viagens pagas por dia na média do ano, ou perto de 140 mil num dia útil (cálculo do autor). Como quase todo passageiro faz ida e volta, são da ordem de 60 a 70 mil pessoas pagantes por dia, mais estudantes e idosos com gratuidade: algo entre 7% e 10% da população (estimativa do autor). A frota de ônibus caiu de 574 veículos em 2012 para 460 em janeiro de 2025, enquanto a população cresceu 11,5% (Correio do Estado, 09/01/2025)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Como o brasileiro vai ao trabalho (Censo 2022)",
+     "cabecalho": [
+      "Meio",
+      "Brasil",
+      "Observação"
+     ],
+     "linhas": [
+      [
+       "Carro",
+       "32,3%",
+       "Centro-Oeste: 38,8%"
+      ],
+      [
+       "Ônibus",
+       "21,4%",
+       ""
+      ],
+      [
+       "A pé",
+       "17,8%",
+       ""
+      ],
+      [
+       "Moto",
+       "16,4%",
+       ""
+      ],
+      [
+       "Bicicleta",
+       "6,2%",
+       "Mato Grosso do Sul: 12,6%, a 3ª maior do país"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, Deslocamentos para trabalho e estudo, resultados da amostra, via Diário do Transporte, 14/12/2025, e IBGE, Agência de Notícias. O número de Campo Grande existe nas tabelas do IBGE (SIDRA), que não abriram nesta pesquisa; o livro deixa a lacuna registrada em vez de estimar."
+    },
+    {
+     "tipo": "p",
+     "texto": "Quem fica no ônibus é, em geral, quem não pode escolher: 63% dos usuários ouvidos pela CDL e pelo SPC Brasil em abril de 2026 gastam cerca de quatro horas por dia no ônibus, ida e volta, e 22% gastam de cinco a seis horas (CDL Campo Grande e SPC Brasil, 280 entrevistas, via A Crítica, 11/05/2026). Numa pesquisa do Instituto de Pesquisa Resultado, 83,5% reprovaram o transporte público (412 entrevistas, Correio do Estado, 24/01/2025). A moto é a saída de quem não aguenta esperar e não pode pagar o carro, e cobra caro: 45 dos 64 mortos no trânsito em 2025 estavam de moto (10.5)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "36 e 23",
+     "texto": "carros e motos para cada 100 moradores de Campo Grande, contra 7 a 10 em cada 100 que usam o ônibus num dia comum. Fonte: Senatran, ago/2026; auditoria do transporte, 2024; cálculo e estimativa do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quem anda de ônibus, de carro e de moto",
+     "texto": [
+      "Medir quem anda de quê: publicar a pesquisa origem-destino da cidade e a série mensal de passageiros por linha, e usar os dados do Censo 2022 por região no plano de mobilidade.",
+      "Fazer o ônibus competir com a moto: frequência garantida nas linhas troncais, faixa exclusiva e integração temporal, porque é o tempo de viagem, mais que a tarifa, que empurra o trabalhador para a moto.",
+      "Programa de segurança para motociclistas, com faixa de retenção nos semáforos, curso gratuito de pilotagem e fiscalização educativa, ligado à meta de mortes do 10.4."
+     ]
     }
    ],
    "regiao": {
@@ -5172,7 +5791,8 @@
     "12.2 Corredores e a cidade do carro",
     "12.3 Calçadas e travessias",
     "12.4 Preço, qualidade e o contrato que vence em 2032",
-    "12.5 Outros modais e o que deu certo"
+    "12.5 Outros modais e o que deu certo",
+    "12.6 Quem anda de ônibus, de carro e de moto"
    ]
   },
   {
@@ -5701,6 +6321,78 @@
       "Publicar todo mês, por CRAS, famílias referenciadas, atendimentos, cadastros atualizados e fila de espera, a partir do RMA que a prefeitura já manda ao MDS.",
       "Vagas de acolhimento com meta, até cobrir as 842 pessoas que dormem na rua, e custo por vaga publicado."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "14.6",
+     "texto": "Uma Secretaria da Família"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que a prefeitura não sabe do que cada família precisa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque a informação está espalhada. O Cadastro Único tinha 199.446 famílias de Campo Grande em fevereiro de 2024 (ver 14.5); a saúde tem o cadastro das equipes de Saúde da Família; a educação, o das matrículas e da fila da creche; a habitação, o da Emha, com cerca de 36 mil inscritos (11.1); a assistência, o dos CRAS. Cada cadastro foi feito para um programa, com sistema próprio, e nenhum responde à pergunta simples: nesta rua, nesta família, o que falta? O livro inteiro esbarrou nisso: a fila de terapias, o acolhimento, a moradia e os leitos ficaram sem custo porque o dado não existe (16.2)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como seria a secretaria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, uma Secretaria da Família não deve ser mais um balcão, e sim o lugar que junta a informação e acompanha a família ao longo do tempo. Teria três partes. Um observatório das famílias, que cruza os cadastros já existentes (CadÚnico, saúde, escola, creche, habitação, CRAS) por família e por bairro, e publica todo ano o mapa das necessidades por região. Agentes da família, um por cerca de mil famílias do Cadastro Único, que fazem a busca ativa casa a casa, atualizam o cadastro e encaminham cada caso ao serviço certo, trabalhando junto com os agentes comunitários de saúde, que já visitam as casas. E um plano por família vulnerável, com metas simples (criança na creche, adulto no curso ou no emprego, idoso com remédio) acompanhadas até a família sair da vulnerabilidade."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Modelos que acompanham família por família",
+     "cabecalho": [
+      "Programa",
+      "Como funciona",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Chile Crece Contigo (Chile)",
+       "Sistema de proteção integral que acompanha toda criança da gestação aos 4 anos e a sua família, com ação de saúde, educação e assistência coordenada; lei de 2009",
+       "Lei 20.379, de 01/09/2009, via Unicef Chile"
+      ],
+      [
+       "Programa Criança Feliz (Brasil)",
+       "Visitas domiciliares periódicas a gestantes e crianças pequenas de famílias do Cadastro Único, feitas pelo município",
+       "Decreto federal 8.869/2016"
+      ],
+      [
+       "Busca ativa do SUAS (Brasil)",
+       "Os CRAS devem localizar as famílias que precisam e não chegam ao serviço, com equipe volante quando necessário",
+       "Tipificação Nacional dos Serviços Socioassistenciais, Resolução CNAS 109/2009"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "E a privacidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Juntar dados de família exige cuidado. A Lei Geral de Proteção de Dados permite ao poder público tratar dados pessoais para executar políticas públicas previstas em lei, com finalidade definida e transparência sobre o uso (Lei 13.709/2018, arts. 7º, III, e 23). A secretaria precisa nascer por lei municipal que diga o que se coleta, para quê, quem acessa e por quanto tempo, com registro de cada acesso e dados de saúde vistos só por profissional de saúde. O mapa público mostra bairros e regiões, nunca famílias."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custaria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Estimativa do autor, a ser refeita com a estrutura real: 200 agentes da família, um para cada mil famílias do Cadastro Único, a cerca de R$ 5 mil por mês cada com encargos e transporte, custam perto de R$ 12 milhões por ano; o observatório, a equipe central e o sistema que integra os cadastros, perto de R$ 8 milhões. Total de cerca de R$ 20 milhões por ano, 0,3% das receitas correntes de 2025 (SICONFI; cálculo do autor). Parte da equipe pode vir da reorganização das áreas que já fazem cadastro hoje, sem servidor novo."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Uma Secretaria da Família",
+     "texto": [
+      "Criar por lei a Secretaria da Família, com observatório que integra CadÚnico, saúde, educação, creche, habitação e CRAS por família e por bairro, e regras de proteção de dados definidas na própria lei.",
+      "Busca ativa casa a casa com 200 agentes da família, junto com os agentes comunitários de saúde, começando pelas regiões do Anhanduizinho, do Lagoa e do Imbirussu (5.6).",
+      "Plano de acompanhamento para cada família vulnerável, com metas de creche, escola, emprego e saúde, e publicação anual do mapa das necessidades por região."
+     ]
     }
    ],
    "regiao": {
@@ -5735,7 +6427,8 @@
     "14.2 Orçamento e entidades",
     "14.3 População de rua",
     "14.4 Drogas e dependência",
-    "14.5 Demanda, oferta e déficit"
+    "14.5 Demanda, oferta e déficit",
+    "14.6 Uma Secretaria da Família"
    ]
   },
   {
@@ -6092,6 +6785,189 @@
     {
      "tipo": "subtopico",
      "numero": "16.3",
+     "texto": "Plano de metas de 8 anos: quanto custa cada projeto"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custam as propostas do livro?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A tabela soma, em oito anos, as propostas que têm custo estimado em algum capítulo. Para o custeio, a conta supõe meio ano de implantação no primeiro ano e o serviço completo nos outros sete (7,5 anos de custo). Todos os valores são estimativas do autor, em reais de 2026, sem correção; a fonte do custo está no subtópico indicado."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Plano de metas de 8 anos: custo estimado por projeto (R$ milhões de 2026)",
+     "cabecalho": [
+      "Projeto",
+      "Meta em 8 anos",
+      "Custo por ano, com o serviço pronto",
+      "Total em 8 anos",
+      "Onde"
+     ],
+     "linhas": [
+      [
+       "Saúde: remédio básico, 49 equipes de Saúde da Família, filas",
+       "Zerar a falta de remédio e as filas de 2024; 100% de cobertura de equipes",
+       "205",
+       "1.538",
+       "8.8, 16.2"
+      ],
+      [
+       "19 novos CRAS",
+       "Um CRAS para cada 5 mil famílias",
+       "18",
+       "135",
+       "14.5"
+      ],
+      [
+       "Obras de creche",
+       "Zerar a fila de 4.015 crianças",
+       "custeio não estimado",
+       "120",
+       "9.2"
+      ],
+      [
+       "Asfalto: 1.000 km de terra e 2.380 km de recapeamento",
+       "Toda rua asfaltada e em bom estado",
+       "425 a 650",
+       "3.400 a 5.200 (meio: 4.300)",
+       "5.5"
+      ],
+      [
+       "Revitalização das praças",
+       "Praças A, B e C em todas as regiões",
+       "6,5 de cuidado",
+       "131",
+       "5.3"
+      ],
+      [
+       "Requalificação dos parques municipais",
+       "Seis parques reformados",
+       "não estimado",
+       "9 a 18",
+       "5.4"
+      ],
+      [
+       "Fim da indústria da multa",
+       "Radar só com estudo; receita reposta por outras fontes",
+       "até 48 de receita a repor",
+       "360",
+       "10.5"
+      ],
+      [
+       "Aluguel social",
+       "Cerca de 5 mil famílias com até R$ 500 por mês (hipótese do autor)",
+       "30",
+       "225",
+       "11.1, 11.4"
+      ],
+      [
+       "Fundo de complemento da entrada da casa própria",
+       "Cerca de mil famílias por ano com R$ 10 mil (hipótese do autor)",
+       "10",
+       "75",
+       "11.4"
+      ],
+      [
+       "Fundo de aval e microcrédito",
+       "Aporte inicial (hipótese do autor)",
+       "",
+       "20",
+       "6.8"
+      ],
+      [
+       "Convênios com UFMS e UEMS",
+       "Estudos de malha viária, origem-destino, IPTU e renda por região (hipótese do autor)",
+       "5",
+       "38",
+       "9.8"
+      ],
+      [
+       "Secretaria da Família",
+       "200 agentes e observatório das famílias",
+       "20",
+       "150",
+       "14.6"
+      ],
+      [
+       "Total",
+       "",
+       "cerca de 770 a 1.000 com o asfalto",
+       "6.200 a 8.000 (meio: 7.100)",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Na média, o plano custa cerca de R$ 890 milhões por ano, 15% das receitas correntes de 2025, de R$ 5,95 bilhões (SICONFI, DCA 2025; cálculo do autor). O asfalto é seis de cada dez reais. Sem ele, as demais propostas custam cerca de R$ 2,8 bilhões em oito anos, perto de R$ 350 milhões por ano, ou 5,9% das receitas correntes."
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde viria o dinheiro?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Fontes para o plano de 8 anos (estimativas do autor, R$ milhões)",
+     "cabecalho": [
+      "Fonte",
+      "Total em 8 anos",
+      "Onde"
+     ],
+     "linhas": [
+      [
+       "Receitas fora dos impostos: outorga da água e esgoto, estacionamento rotativo, publicidade (80 a 120 por ano)",
+       "600 a 900",
+       "6.5"
+      ],
+      [
+       "Asfalto já contratado e financiado (fases 1 e 2)",
+       "713",
+       "5.5"
+      ],
+      [
+       "Tapa-buraco transformado em recapeamento (cerca de 50 por ano)",
+       "400",
+       "5.5"
+      ],
+      [
+       "Novo financiamento de longo prazo para o asfalto, dentro do limite de dívida",
+       "a definir",
+       "6.3"
+      ],
+      [
+       "IPTU mais justo e captura da valorização",
+       "neutro por desenho; o ganho depende de simulação",
+       "6.6, 6.7"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "As fontes identificadas somam de R$ 1,7 a 2 bilhões. O que falta, cerca de R$ 5 bilhões, tem duas partes. A maior é o asfalto, que é obra de vida longa e por isso pode ser paga com financiamento de longo prazo, como a Caixa já faz no programa atual, desde que caiba no limite de dívida do Capítulo 6.3. A outra, perto de R$ 1,9 a 2,2 bilhões em oito anos, de R$ 240 a 275 milhões por ano, é o custeio das demais propostas, que precisa vir de eficiência e de realocação do orçamento existente, 4% a 5% das receitas correntes. É muito, mas é da ordem do que a prefeitura já mexe em um ano: só as transferências do SUS e do Fundeb somam R$ 1,9 bilhão (16.2)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Ficam fora da conta, porque o custo não é publicado: leitos de saúde, fila de especialistas, terapias da criança atípica, acolhimento da população de rua, tarifa zero aos domingos, corredores de ônibus e moradia nova. A primeira meta do plano, por isso, é medir: em um ano, publicar o custo e a fila de cada um desses serviços e refazer esta tabela com número oficial."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 7,1 bilhões",
+     "texto": "é o custo estimado, em oito anos, das propostas do livro que têm conta, cerca de R$ 890 milhões por ano, 15% das receitas correntes de 2025; sem o asfalto, R$ 2,8 bilhões. Fonte: estimativas do autor nos subtópicos indicados; SICONFI, DCA 2025."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Plano de metas de 8 anos: quanto custa cada projeto",
+     "texto": [
+      "Lei do Plano de Metas: o prefeito eleito apresenta, em 90 dias, metas por serviço e por região para os oito anos, com custo, fonte e prazo, e presta contas a cada seis meses.",
+      "Ordem de prioridade quando o dinheiro não der para tudo: primeiro remédio, equipe de saúde, creche e CRAS; depois asfalto com drenagem nas regiões mais pobres; depois o restante.",
+      "Refazer esta tabela todo ano no projeto da Lei Orçamentária, com o custo oficial de cada déficit no lugar das estimativas."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "16.4",
      "texto": "Quem decide"
     },
     {
@@ -6122,7 +6998,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.4",
+     "numero": "16.5",
      "texto": "Uma prioridade por região"
     },
     {
@@ -6135,7 +7011,7 @@
     },
     {
      "tipo": "subtopico",
-     "numero": "16.5",
+     "numero": "16.6",
      "texto": "Como medir"
     },
     {
@@ -6168,9 +7044,10 @@
    "subtopicos": [
     "16.1 O diagnóstico",
     "16.2 Receita e déficits: o quadro geral",
-    "16.3 Quem decide",
-    "16.4 Uma prioridade por região",
-    "16.5 Como medir"
+    "16.3 Plano de metas de 8 anos: quanto custa cada projeto",
+    "16.4 Quem decide",
+    "16.5 Uma prioridade por região",
+    "16.6 Como medir"
    ]
   }
  ]
