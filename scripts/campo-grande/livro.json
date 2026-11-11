@@ -965,6 +965,113 @@
       "Minha Casa, Minha Vida no Centro, com prédios vazios reformados e terrenos públicos, junto com a política de moradia do Capítulo 11.",
       "Um censo imobiliário por região, em parceria com o Sinduscon-MS e o Secovi-MS, para que a prefeitura saiba onde a cidade está crescendo."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.7",
+     "texto": "O que o Japão ensina a uma capital do interior"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que olhar para o Japão?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque o Japão mostrou que crescer depressa é uma escolha de onde pôr o crédito, e não só um efeito do mercado. Entre meados dos anos 1950 e o início dos 1970, a economia japonesa cresceu perto de 10% ao ano (Chalmers Johnson, MITI and the Japanese Miracle, 1982). O economista Richard Werner (Princes of the Yen, 2003) atribui o resultado à alocação do crédito: o banco central orientava os bancos, pela chamada orientação de janela (window guidance), a emprestar para a indústria e a exportação, e restringia o crédito ao consumo e à especulação; a poupança das famílias ia para os bancos, os bancos principais financiavam os grupos industriais, e as empresas buscavam mercado antes de dividendo, com o Ministério da Indústria e do Comércio Exterior (MITI) coordenando a política industrial."
+    },
+    {
+     "tipo": "p",
+     "texto": "Uma prefeitura brasileira não tem banco central, não fixa juros e não pode ter banco próprio (6.8). As limitações da federação, do sistema tributário e do sistema financeiro são reais. Mas cinco ideias japonesas não dependem de nada disso e cabem numa cidade: dirigir o crédito que existe, escolher poucos setores com critério, pensar a cidade como polo de uma rede, juntar universidade e indústria e dar identidade aos produtos do lugar."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As ideias japonesas e o que cabe a Campo Grande",
+     "cabecalho": [
+      "Ideia",
+      "Autor ou programa",
+      "O que cabe à cidade"
+     ],
+     "linhas": [
+      [
+       "Crédito dirigido à produção",
+       "Werner, Princes of the Yen (2003); Arisawa, produção prioritária (1946–48)",
+       "Fundo de aval e microcrédito só para quem produz e contrata, e não para consumo (6.8); compras públicas da prefeitura dirigidas a fornecedores locais"
+      ],
+      [
+       "Escolher poucos setores",
+       "Shinohara, critérios de elasticidade-renda e de produtividade (1957)",
+       "Três ou quatro apostas, escolhidas por critério publicado, no lugar do incentivo a qualquer empresa"
+      ],
+      [
+       "Subir de setor aprendendo com os vizinhos",
+       "Akamatsu, modelo dos gansos voadores (anos 1930; em inglês, 1962)",
+       "Passar da carne e da soja em bruto para o alimento processado, e da obra para a manutenção industrial das fábricas de celulose"
+      ],
+      [
+       "Cidade-polo de uma rede regional",
+       "Tanaka, Nihon Rettō Kaizōron (1972); Planos Nacionais de Desenvolvimento Integral (1962) e Lei das Novas Cidades Industriais (1962)",
+       "Campo Grande como centro de serviços, logística e formação para a indústria do interior e para a Rota Bioceânica"
+      ],
+      [
+       "Universidade, indústria e moradia juntas",
+       "Lei das Tecnópolis (MITI, 1983)",
+       "Parque tecnológico com a UFMS e a UEMS e lotes industriais com moradia por perto (9.8)"
+      ],
+      [
+       "Um produto com a cara do lugar",
+       "Hiramatsu, Uma Vila, Um Produto (Oita, 1979)",
+       "Selo e marca para produtos de Campo Grande, ligados à cultura (Capítulo 13) e à agricultura familiar"
+      ],
+      [
+       "Meta de renda com prazo",
+       "Shimomura e Ōkita, Plano de Duplicação da Renda (governo Ikeda, 1960)",
+       "Meta pública de renda média por região em oito anos, medida todo ano (16.7)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: obras citadas na tabela; Chalmers Johnson, MITI and the Japanese Miracle (Stanford University Press, 1982), o estudo clássico do modelo, para o contexto."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Que setores escolher?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Miyohei Shinohara propôs, em 1957, dois critérios para o governo escolher em que apostar: setores cuja demanda cresce mais que a renda (alta elasticidade-renda) e setores com mais espaço para ganhar produtividade. Aplicados a Campo Grande, apontam para o que o livro já mostrou. Alimento processado de maior valor sobre a carne e a soja: a cidade já tem a unidade de supergelados da JBS e a proteína de soja da ADM (2.2), mas 73% das exportações ainda são carne congelada e resfriada (Fiems, via Campo Grande News, 25/08/2024). Manutenção, máquinas e serviços industriais para as fábricas de celulose e os frigoríficos do interior, que criam emprego industrial mais depressa que a capital (2.2). Logística, armazenagem e serviços de comércio exterior para a Rota Bioceânica. E saúde, porque a cidade já é o centro hospitalar do estado (8.10). A escolha deve ser revista a cada quatro anos, com os números à vista."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Campo Grande como cidade-polo"
+    },
+    {
+     "tipo": "p",
+     "texto": "Kakuei Tanaka, primeiro-ministro japonês, propôs em 1972 levar a indústria para fora de Tóquio e de Osaka, criar cidades-polo de cerca de 250 mil habitantes e ligá-las por rodovia e trem-bala (Tanaka, Nihon Rettō Kaizōron, 1972; em inglês, Building a New Japan, 1973). Antes dele, a Lei das Novas Cidades Industriais, de 1962, escolheu cidades para receber infraestrutura e incentivo. O resultado foi desigual, e a indústria continuou a se concentrar no litoral do Pacífico, como registra a literatura sobre o programa: escolher a cidade não basta se ela não tiver mão de obra, porto ou mercado. Campo Grande tem o que faltava a muitas delas, gente para trabalhar (2.1), e é o centro de serviços de um estado cuja indústria cresce no interior. O papel de polo é atender essa indústria: formar o técnico, manter a máquina, transportar a carga e prestar o serviço que a fábrica de Três Lagoas ou de Ribas do Rio Pardo hoje compra em São Paulo."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Um produto com a cara da cidade"
+    },
+    {
+     "tipo": "p",
+     "texto": "Morihiko Hiramatsu, governador de Oita, lançou em 1979 o movimento Uma Vila, Um Produto: cada localidade escolhe um produto com identidade, melhora a qualidade e vende com marca própria, com a prefeitura apoiando a técnica e a venda, e não pagando a produção. A ideia foi copiada em vários países da Ásia. Em Campo Grande, o caminho natural é a culinária e a cultura que já têm identidade, como o sobá da Feira Central, a chipa e a sopa paraguaia, o tereré e a erva-mate, a carne e o artesanato, com um selo da cidade, ponto de venda na Feira e no aeroporto e presença nos eventos (Capítulo 13). É pequeno perto da indústria, mas é emprego que não sai da cidade."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a lição japonesa para Campo Grande não é copiar um país, que tinha banco central, ministério e escala que uma prefeitura não tem. É a disciplina: escolher poucos setores por critério, pôr o pouco crédito e o pouco incentivo que a cidade controla só neles, medir o resultado e mudar quando não der certo. E não lamentar a federação: o que depende da prefeitura, terreno, licença, formação, compra pública, crédito de aval e marca, já é bastante."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que o Japão ensina a uma capital do interior",
+     "texto": [
+      "Lei municipal de setores prioritários: três ou quatro apostas escolhidas por critério publicado (demanda que cresce com a renda e espaço para ganho de produtividade), revistas a cada quatro anos.",
+      "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 2.1).",
+      "Programa Campo Grande Fornecedora: cadastro e qualificação de empresas da capital para vender serviços e manutenção às fábricas de celulose e aos frigoríficos do interior.",
+      "Parque tecnológico com UFMS e UEMS em área industrial com moradia por perto, no modelo das Tecnópolis (9.8).",
+      "Selo Feito em Campo Grande para produtos com identidade local, com apoio técnico e ponto de venda, no modelo de Oita.",
+      "Meta de renda: dobrar em termos reais a renda média das regiões mais pobres em 16 anos, com acompanhamento anual por região."
+     ]
     }
    ],
    "regiao": {
@@ -1002,7 +1109,8 @@
     "2.3 Crédito e dívida das famílias",
     "2.4 Comércio e serviços",
     "2.5 Licenças, taxas e profissionais liberais",
-    "2.6 Construção civil e mercado imobiliário"
+    "2.6 Construção civil e mercado imobiliário",
+    "2.7 O que o Japão ensina a uma capital do interior"
    ]
   },
   {
