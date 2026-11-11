@@ -1590,6 +1590,194 @@
       "Adoção de praças por associações, paróquias e empresas do bairro, com termo público.",
       "Catálogo público das praças, pedido pela Lei de Acesso à Informação à Semadur e à PLANURB."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.4",
+     "texto": "Parques"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quais são os parques da cidade, e onde estão?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande é a capital mais arborizada do país: 91,4% dos domicílios ficam em rua com pelo menos uma árvore (IBGE, Censo 2022, divulgado em 17/04/2025). Os parques grandes, porém, são poucos, quase todos do estado e concentrados no Prosa, região de renda mais alta. A prefeitura não publica uma lista oficial dos seus parques com área e estado de conservação; a tabela abaixo junta o que se encontrou."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Parques de Campo Grande",
+     "cabecalho": [
+      "Parque",
+      "Região",
+      "Quem cuida",
+      "Área e atrativos",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Nações Indígenas",
+       "Prosa (Afonso Pena)",
+       "Estado (Imasul)",
+       "116 ha; lago, pista, quadras, pista de skate; vizinho do Bioparque, do Museu de Arte Contemporânea e do Memorial da Cultura Indígena",
+       "Imasul, 31/07/2024"
+      ],
+      [
+       "Bioparque Pantanal",
+       "Prosa",
+       "Estado",
+       "Maior aquário de água doce do mundo; custou R$ 230 milhões; 369,7 mil visitantes em 2023",
+       "Campo Grande News, 27/12/2023"
+      ],
+      [
+       "Parque Estadual do Prosa",
+       "Prosa",
+       "Estado (Imasul)",
+       "135 ha de cerrado; trilhas guiadas com agendamento",
+       "Imasul, 31/07/2024"
+      ],
+      [
+       "Parque Estadual Matas do Segredo",
+       "Segredo (norte)",
+       "Estado (Imasul)",
+       "177 ha; cerrado, anta, veado, observação de aves; visita agendada",
+       "idem"
+      ],
+      [
+       "Parque Ecológico do Sóter",
+       "Prosa (Mata do Jacinto)",
+       "Prefeitura",
+       "22 ha; cerca de 800 pessoas por dia; parquinho sem brinquedos e pista quebrada, sem previsão de reforma",
+       "Campo Grande News, 28/04/2026"
+      ],
+      [
+       "Parque Olímpico Ayrton Senna",
+       "Anhanduizinho (Aero Rancho)",
+       "Prefeitura (Funesp)",
+       "Parque esportivo",
+       "Campo Grande News, 01/11/2023"
+      ],
+      [
+       "Parque Jacques da Luz",
+       "Anhanduizinho (Moreninhas)",
+       "Prefeitura (Funesp)",
+       "Parque esportivo",
+       "idem"
+      ],
+      [
+       "Horto Florestal",
+       "Centro",
+       "Prefeitura; gestão passada ao Sesc em 2025",
+       "4,5 ha; estava fechado, sem dinheiro para a reforma",
+       "Correio do Estado, 13/08/2025"
+      ],
+      [
+       "Parque Linear do Segredo",
+       "Segredo",
+       "Prefeitura",
+       "Faixa verde ao longo do córrego; pressão de loteamentos e de uma ponte em debate",
+       "A Crítica, 22/04/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O retrato é de desigualdade. O Prosa tem os 116 hectares do Nações Indígenas, os 135 do Parque Estadual do Prosa, o Bioparque e o Sóter. O Anhanduizinho, a região mais populosa, com 199 mil moradores (Censo 2022, ver 5.1), tem dois parques esportivos de bairro. O Lagoa, o Imbirussu e o Bandeira não aparecem na lista. A conservação também é desigual: o parque do estado tem reforma licitada, e o da prefeitura espera. Para cuidar das áreas que não consegue manter, a prefeitura criou o programa de adoção por empresas (Lei 7.355/2024), com 54 parcerias em vigor em 2025, sem dizer quais áreas (Campo Grande News, 17/06/2025)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custaria?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não há orçamento publicado por parque. Uma ordem de grandeza: a reforma do Nações Indígenas em 2017, com guaritas, grades, três quadras, pista de skate e iluminação, foi contratada por R$ 946 mil (Campo Grande News, 26/10/2017). Requalificar os seis parques municipais com algo parecido, corrigido pela inflação, custaria de R$ 9 a 18 milhões, de R$ 1,5 a 3 milhões cada (estimativa do autor). Um parque novo de bairro, num terreno público já existente, custa mais, e o valor depende do projeto; cada fundo de vale, como os dos córregos Anhanduí, Lagoa e Imbirussu, é candidato a parque linear, que também segura a enchente."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Parques",
+     "texto": [
+      "Um parque em cada região até 2032, começando pelo Anhanduizinho, pelo Lagoa e pelo Imbirussu, aproveitando os fundos de vale dos córregos como parques lineares que também ajudam na drenagem.",
+      "Requalificar os parques municipais existentes, a começar pelo Sóter, com orçamento anual de manutenção previsto na lei orçamentária, e não só obra.",
+      "Lista pública dos parques e áreas verdes, com área, estado e responsável, e prestação de contas das 54 adoções por empresas.",
+      "Programação permanente nos parques, esporte, música da terra e feira, junto com a cultura (Capítulo 13), porque parque usado é parque cuidado."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.5",
+     "texto": "Asfalto e a manutenção das ruas"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Qual é o tamanho do problema?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A prefeitura não publica quantos quilômetros de ruas a cidade tem, quantos são asfaltados e em que estado está cada trecho. O próprio secretário de obras disse que pelo menos 70% da malha está comprometida (Correio do Estado, 25/02/2026). Em julho de 2026 foram tapados 20.950 buracos, com 2.858 toneladas de massa asfáltica (A Crítica, 03/08/2026), e quase 9 mil das 24.673 indicações que os vereadores mandaram à prefeitura no primeiro semestre pediam tapa-buraco (A Crítica, 17/10/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto se gasta, e com quê?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Asfalto em Campo Grande: valores",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Tapa-buraco, sete contratos, quatro anos (2022 a 2026)",
+       "R$ 197,3 milhões",
+       "Correio do Estado, 25/02/2026"
+      ],
+      [
+       "Novos contratos de tapa-buraco (out/2026, um ano)",
+       "R$ 46,3 milhões; 12 equipes",
+       "Correio do Estado, 13/10/2026"
+      ],
+      [
+       "Requalificação de vias no orçamento",
+       "de R$ 132 milhões (2025) para R$ 40 milhões (2026)",
+       "A Crítica, 17/10/2026"
+      ],
+      [
+       "Asfalto novo e drenagem, fase 1",
+       "R$ 280 milhões, mais de 80 km",
+       "A Crítica, 10/08/2026"
+      ],
+      [
+       "Asfalto novo e drenagem, fase 2",
+       "R$ 433 milhões, 170 km; R$ 411,7 milhões financiados pela Caixa (Avançar Cidades)",
+       "A Crítica, 10/08/2026; Correio do Estado, 28/10/2026"
+      ],
+      [
+       "Custo do km novo, com drenagem",
+       "cerca de R$ 2,5 milhões",
+       "cálculo do autor (R$ 433 mi ÷ 170 km)"
+      ],
+      [
+       "Custo do km recapeado",
+       "cerca de R$ 0,7 a 1 milhão",
+       "R$ 17,8 mi por 25 km em 2020 (Campo Grande News, 04/03/2020); estimativa de engenheira ouvida pelo Correio do Estado, 25/02/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A conta mostra o desperdício. O dinheiro gasto em quatro anos remendando buraco daria para recapear de 200 a 300 km de ruas (Correio do Estado, 25/02/2026); remendo dura uma chuva, recapeamento dura anos. Ao mesmo tempo, o orçamento de requalificação caiu 70% de um ano para o outro, e a Câmara abriu uma CPI para investigar medições e pagamentos do tapa-buraco (A Crítica, 17/10/2026). O asfalto novo, que leva rua a bairros que esperavam havia décadas, como o Jardim das Nações, é pago com empréstimo: entra na dívida tratada no Capítulo 6.3."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Asfalto e a manutenção das ruas",
+     "texto": [
+      "Inventário público da malha viária: quilômetros por região, asfaltados ou não, e um índice de condição de cada trecho, atualizado todo ano.",
+      "Trocar o remendo pelo recapeamento planejado, com garantia de cinco anos do empreiteiro e prioridade para as ruas com linha de ônibus, escola e posto de saúde.",
+      "Tapa-buraco com medição aberta: cada buraco com foto, local e data antes e depois, e pagamento só pelo que foi conferido.",
+      "Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila."
+     ]
     }
    ],
    "regiao": {
@@ -1624,7 +1812,9 @@
    "subtopicos": [
     "5.1 Regiões e população",
     "5.2 Cidade espalhada e uso do solo",
-    "5.3 Praças"
+    "5.3 Praças",
+    "5.4 Parques",
+    "5.5 Asfalto e a manutenção das ruas"
    ]
   },
   {
@@ -2097,6 +2287,98 @@
       "Fundo Municipal de Investimento com outorgas, concessões e venda de áreas ociosas, que só pode pagar obra e equipamento, nunca a folha.",
       "Publicar todo ano quanto rendem a outorga onerosa e as demais receitas da terra."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.7",
+     "texto": "IPTU: quem paga, quanto e como fazer mais justo"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o IPTU rende?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "IPTU de Campo Grande",
+     "cabecalho": [
+      "Ano",
+      "Arrecadado (R$ milhões)",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "2020",
+       "506",
+       "SICONFI, DCA"
+      ],
+      [
+       "2022",
+       "586",
+       "idem"
+      ],
+      [
+       "2024",
+       "633",
+       "idem"
+      ],
+      [
+       "2025",
+       "677",
+       "idem"
+      ],
+      [
+       "2026 (lançado)",
+       "950,2 previstos; 1.060 com a taxa do lixo",
+       "Prefeitura, Decreto 16.443/2025, via Campo Grande News, 12/11/2025"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O IPTU cresceu 34% de 2020 a 2025, menos que a receita total (44%), e em 2024 foi ultrapassado pelo ISS (Capítulo 6.1). São cerca de R$ 703 por habitante (cálculo do autor). Para 2026 a prefeitura emitiu 432.712 carnês: 363.207 de imóveis construídos e 69.505 de terrenos (Campo Grande News, 12/11/2025). A diferença entre o que se lança e o que entra é a inadimplência e o desconto: a Justiça bloqueou em 2025 contas de cerca de 10 mil devedores de IPTU, com perto de R$ 30 milhões em dívida, num universo de 102 mil execuções fiscais do município (Campo Grande News, 12/09/2025). O estoque da dívida ativa do IPTU não é publicado."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Para onde vai o dinheiro do IPTU?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Imposto não tem destino carimbado (Constituição, art. 167, IV), mas a lei manda aplicar 25% dos impostos na educação (art. 212) e 15% na saúde (Lei Complementar 141/2012, art. 7º). Do IPTU de 2025, cerca de R$ 169 milhões entram na conta da educação e R$ 102 milhões na da saúde; o resto vai para o caixa geral, que paga folha, custeio e dívida (cálculo do autor). É diferente da taxa do lixo, que só pode pagar a coleta: o serviço custa cerca de R$ 130 milhões por ano, e a taxa arrecadava perto de R$ 40 milhões (Correio do Estado, 10/01/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como se calcula, e onde está a injustiça?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O IPTU é o valor venal do imóvel, tirado da Planta Genérica de Valores, vezes a alíquota. Os problemas de Campo Grande estão nas duas pontas. A planta está fora do mercado: um levantamento divulgado em 2025 encontrou valores venais até 14 vezes acima do preço real em alguns bairros (noticiado por Click Petróleo e Gás, 31/08/2025, sem identificar a autoria), e a prefeitura prometeu revisá-la. E a alíquota mudou sem debate: em 2026 o terreno vazio com pelo menos três serviços públicos passou de 1% para 3,5%, alta de cerca de 250% no carnê; o desconto à vista caiu de 20% para 10%, com ganho estimado de R$ 50 milhões; e a reclassificação dos imóveis na taxa do lixo foi derrubada pela Câmara por 20 votos a zero (Correio do Estado, 10 e 12/01/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Há ainda um contrassenso. O lote vazio comum paga 3,5%, mas o lote vazio em condomínio fechado de alto padrão tem alíquota diferenciada, menor, por até oito anos (Decreto 16.453/2025; em 2026 o Tribunal de Justiça aplicou 1% num desses casos). Do outro lado, a isenção para a casa popular subiu de R$ 83 mil para R$ 100 mil de valor venal, por iniciativa da Câmara, que derrubou o veto da prefeitura (A Crítica, 26/02/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como fazer quem tem mais pagar mais?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Constituição permite o IPTU progressivo pelo valor do imóvel desde 2000 (art. 156, §1º, I, Emenda 29) e, com a reforma de 2023, a atualização da base por decreto, dentro de critérios fixados em lei (art. 156, §1º, III, Emenda 132). São Paulo adotou alíquotas progressivas em 2001, sob forte resistência do mercado imobiliário; as gestões seguintes, de partidos diferentes, mantiveram e ampliaram o modelo, e a maioria da população passou a pagar menos ou ficou isenta (Guilherme Minarelli, Centro de Estudos da Metrópole, USP, via Jornal da USP, 23/07/2025)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O desenho que funciona tem quatro peças. Uma planta de valores próxima do mercado, atualizada com os preços que a própria prefeitura conhece pelas declarações do ITBI, com transição de alguns anos e teto de aumento por imóvel. Faixas de alíquota: isenção até R$ 100 mil, alíquota menor nas faixas de baixo e maior acima de um valor alto, como R$ 1 milhão, calibradas para que a maioria pague menos e a arrecadação não caia. Para o terreno vazio, em vez do salto de 1% para 3,5% para todos, o IPTU progressivo no tempo do Estatuto da Cidade (Lei 10.257/2001, arts. 5º a 7º), que notifica o dono do grande vazio para construir e dobra a alíquota a cada ano até 15% se ele não o fizer. E cobrança melhor: cadastro georreferenciado, protesto e acordo antes da execução. A distribuição dos imóveis por faixa de valor venal existe na Secretaria de Fazenda, mas não é publicada; sem ela, nenhuma faixa pode ser calculada com responsabilidade, e o livro não inventa os números."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · IPTU: quem paga, quanto e como fazer mais justo",
+     "texto": [
+      "Publicar a base do IPTU: imóveis por faixa de valor venal e por região, quanto cada faixa paga, isenções, descontos e dívida ativa.",
+      "Revisar a Planta Genérica de Valores por lei, com os preços do ITBI e do mercado, transição de quatro anos e teto de aumento anual por imóvel.",
+      "IPTU progressivo pelo valor: isenção até R$ 100 mil, alíquota menor nas faixas baixas e maior nas altas, com simulação pública mostrando que a maioria paga menos.",
+      "IPTU progressivo no tempo para os grandes terrenos vazios dentro da cidade, e fim da alíquota menor para lote vazio de condomínio fechado.",
+      "Desconto à vista estável e anunciado com antecedência, e cobrança por protesto e acordo antes da execução fiscal."
+     ]
     }
    ],
    "regiao": {
@@ -2132,7 +2414,8 @@
     "6.3 Dívida",
     "6.4 Reforma tributária e o fim do ISS",
     "6.5 Receitas fora dos impostos",
-    "6.6 Quem pode pagar mais: casos no mundo"
+    "6.6 Quem pode pagar mais: casos no mundo",
+    "6.7 IPTU: quem paga, quanto e como fazer mais justo"
    ]
   },
   {
