@@ -9188,11 +9188,117 @@
      "texto": "No sul, sobretudo. A Homex, no extremo sul do Anhanduizinho, é a maior de Mato Grosso do Sul, com 3.317 moradores no Censo de 2022, e está em regularização. Samambaia, Mário Covas e a antiga Cidade de Deus, hoje Cidade dos Anjos, ao lado do antigo lixão, ficam na mesma região. Em segundo lugar vem o Prosa, na saída para Três Lagoas, com Nova Esperança e Morada dos Angicos, onde 92 de 93 casas tinham fossa rudimentar ou buraco (Censo 2022, via Campo Grande News, 08/11/2024; Correio do Estado, 03/03/2023). O Centro não tem favela listada; tem casa vazia."
     },
     {
+     "tipo": "h3",
+     "texto": "Quantos moram nas favelas e o que lhes falta?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo de 2022 achou 16 favelas e comunidades urbanas em Campo Grande, com 7.862 moradores em 2.644 domicílios, cerca de 0,9% da população (IBGE, via RCN67, 08/11/2024; domicílios, Sidra 9892; percentual por cálculo do autor). Homex (3.317 moradores) e Samambaia (1.251), as duas no Anhanduizinho, concentram 58% deles. A cidade informal é maior: a imprensa conta 236 áreas ocupadas irregularmente, com mais de 50 mil pessoas (Campo Grande News, 16/03/2026); o Censo só classifica como favela os núcleos mais precários."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O que falta nas favelas de Campo Grande, 2022",
+     "cabecalho": [
+      "Item",
+      "Nas favelas",
+      "Fora delas",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Domicílios fora da rede de esgoto",
+       "95% (2.501); 1.931 com fossa rudimentar ou buraco",
+       "cobertura de esgoto da cidade: 94%",
+       "IBGE, Sidra 9892; cidade: Correio do Estado, 15/10/2025"
+      ],
+      [
+       "Domicílios sem rede geral de água",
+       "20% (522)",
+       "—",
+       "IBGE, Sidra 9891"
+      ],
+      [
+       "Lixo não coletado",
+       "6% (162)",
+       "—",
+       "IBGE, Sidra 9893"
+      ],
+      [
+       "Moradores em rua pavimentada",
+       "12,3%",
+       "76,5%",
+       "IBGE, Censo 2022, entorno, via Agência Gov, 05/12/2025"
+      ],
+      [
+       "Moradores com bueiro na rua",
+       "7,0%",
+       "54,4%",
+       "idem"
+      ],
+      [
+       "Moradores com iluminação pública",
+       "48,0%",
+       "não informado",
+       "idem"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Em uma frase: as favelas de Campo Grande são pequenas, e quase todas têm água e coleta. Falta esgoto, asfalto com drenagem, luz na rua, título e o espaço comum, como praça, calçada e creche. A favela é o buraco que sobrou no mapa do esgoto da cidade."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa urbanizar todas?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Custo estimado para urbanizar as 16 favelas do Censo (estimativa do autor)",
+     "cabecalho": [
+      "Recorte",
+      "Mínimo",
+      "Completo"
+     ],
+     "linhas": [
+      [
+       "16 favelas (2.644 domicílios)",
+       "R$ 67 a 93 milhões (cerca de R$ 30 mil por domicílio)",
+       "cerca de R$ 156 milhões (cerca de R$ 59 mil por domicílio)"
+      ],
+      [
+       "Homex (1.151 domicílios)",
+       "R$ 29 a 40 milhões",
+       "cerca de R$ 68 milhões"
+      ],
+      [
+       "Samambaia (399)",
+       "R$ 10 a 15 milhões",
+       "cerca de R$ 26 milhões"
+      ],
+      [
+       "As outras 14 (1.094)",
+       "cerca de R$ 33 milhões",
+       "cerca de R$ 62 milhões"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Estimativa do autor com custos unitários publicados: asfalto com drenagem pelo Vira CG fase 2 (R$ 433 milhões para 170 km, A Crítica, 10/08/2026) e pelo estudo do LabHab/FAU-USP corrigido pelo IPCA; esgoto, água e iluminação pelo LabHab; título pelo Periferia Viva (R$ 300 milhões para 285 mil famílias, Diário do Pará, 04/12/2024); 10% de projeto, trabalho social e gerenciamento conforme o Manual do Novo PAC Urbanização de Favelas (set/2025). O mínimo cobre água, esgoto, asfalto com drenagem, luz, banheiro e título; o completo soma praça, calçada, reforma de metade das casas e creche na Homex e na Samambaia. Não é orçamento de obra, e fica de fora a compra de terra. Para conferir a ordem de grandeza, o programa Mais Igual, de Santo André, urbanizou a cerca de R$ 35 mil por família em valores corrigidos (Denaldi, 2004, citado pelo Insper; correção do autor)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 156 milhões",
+     "texto": "é o custo estimado para urbanizar por completo as 16 favelas do Censo, menos de 2% do plano de 8 anos do 16.3. Estimativa do autor; detalhamento em dados/favelas-carencias-e-investimento.xlsx."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Favelas e áreas irregulares",
      "texto": [
       "Regularização fundiária em massa das 236 áreas irregulares, porque escritura é propriedade, e propriedade é crédito e segurança para a família.",
-      "Saneamento junto com a escritura, começando pela Nova Esperança e pela Morada dos Angicos."
+      "Saneamento junto com a escritura, começando pela Nova Esperança e pela Morada dos Angicos.",
+      "Urbanização completa das 16 favelas do Censo em um mandato (cerca de R$ 156 milhões, estimativa), começando por Homex e Samambaia, com recursos do Novo PAC Urbanização de Favelas.",
+      "Esgoto primeiro: ligar os 2.501 domicílios fora da rede, com tarifa social, dentro do contrato de saneamento (5.8)."
      ]
     },
     {
