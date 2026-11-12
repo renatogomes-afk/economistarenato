@@ -4510,6 +4510,313 @@
       "Calçada acessível como obra pública nas rotas de ônibus, escola e posto, e não só obrigação do dono do lote.",
       "Financiamento federal de longo prazo para macrodrenagem e urbanização de favelas, dentro do limite de dívida (6.3)."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "5.11",
+     "texto": "Quem mora em cada região: casas, idades e renda"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantas casas a cidade tem, e quantas estão vazias?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo de 2022 contou 392.791 domicílios em Campo Grande: 325.986 ocupados, 53.558 vagos (13,6%) e 12.928 de uso ocasional, com média de 2,73 moradores por domicílio ocupado (IBGE, Censo 2022, agregados por setor censitário, somados pelo autor por região urbana da Planurb). O Centro é o caso extremo: 18% dos domicílios vagos e só 2,35 moradores por casa ocupada, numa região que perdeu 13% dos moradores desde 2010 (Campo Grande News, 21/03/2024)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Domicílios e moradores por região, 2022",
+     "cabecalho": [
+      "Região",
+      "Habitantes",
+      "Domicílios",
+      "Ocupados",
+      "Vagos",
+      "Moradores por domicílio ocupado"
+     ],
+     "linhas": [
+      [
+       "Anhanduizinho",
+       "218.585",
+       "93.723",
+       "79.010",
+       "12.420",
+       "2,77"
+      ],
+      [
+       "Bandeira",
+       "136.691",
+       "59.404",
+       "50.697",
+       "7.256",
+       "2,69"
+      ],
+      [
+       "Lagoa",
+       "134.964",
+       "55.700",
+       "47.936",
+       "7.038",
+       "2,81"
+      ],
+      [
+       "Segredo",
+       "128.312",
+       "56.381",
+       "46.098",
+       "8.425",
+       "2,78"
+      ],
+      [
+       "Imbirussu",
+       "108.031",
+       "45.685",
+       "38.291",
+       "6.275",
+       "2,81"
+      ],
+      [
+       "Prosa",
+       "95.589",
+       "39.293",
+       "33.081",
+       "4.483",
+       "2,77"
+      ],
+      [
+       "Centro",
+       "61.653",
+       "34.233",
+       "26.102",
+       "6.250",
+       "2,35"
+      ],
+      [
+       "Distritos e área rural",
+       "14.275",
+       "8.372",
+       "4.771",
+       "1.411",
+       "—"
+      ],
+      [
+       "Total",
+       "898.100",
+       "392.791",
+       "325.986",
+       "53.558",
+       "2,73"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, agregados por setor censitário (via base do Ipea, censobr), somados pelo autor por região. O total de 898.100 é o da primeira divulgação; o número revisado é 897.938 (Prefeitura de Campo Grande, 02/07/2023)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde estão as crianças e onde estão os idosos?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Moradores por faixa de idade e região, 2022",
+     "cabecalho": [
+      "Região",
+      "Bebês (0–4)",
+      "Crianças (5–14)",
+      "Jovens (15–29)",
+      "Adultos (30–59)",
+      "Idosos (60+)",
+      "% de idosos"
+     ],
+     "linhas": [
+      [
+       "Anhanduizinho",
+       "16.147",
+       "32.996",
+       "51.616",
+       "90.190",
+       "27.536",
+       "12,6%"
+      ],
+      [
+       "Bandeira",
+       "9.140",
+       "18.596",
+       "29.273",
+       "59.741",
+       "19.854",
+       "14,5%"
+      ],
+      [
+       "Lagoa",
+       "9.286",
+       "19.825",
+       "30.138",
+       "56.294",
+       "19.386",
+       "14,4%"
+      ],
+      [
+       "Segredo",
+       "8.814",
+       "18.875",
+       "28.930",
+       "54.563",
+       "16.848",
+       "13,2%"
+      ],
+      [
+       "Imbirussu",
+       "7.027",
+       "14.834",
+       "23.831",
+       "45.004",
+       "16.998",
+       "15,8%"
+      ],
+      [
+       "Prosa",
+       "6.060",
+       "12.560",
+       "18.969",
+       "39.672",
+       "14.461",
+       "15,8%"
+      ],
+      [
+       "Centro",
+       "2.395",
+       "5.388",
+       "11.504",
+       "25.819",
+       "16.541",
+       "26,8%"
+      ],
+      [
+       "Distritos e área rural",
+       "879",
+       "1.955",
+       "2.408",
+       "5.423",
+       "2.475",
+       "18,8%"
+      ],
+      [
+       "Total",
+       "59.748",
+       "125.029",
+       "196.669",
+       "376.706",
+       "134.099",
+       "15,0%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, por setor censitário; soma do autor. A soma das faixas (892 mil) é menor que a população porque o IBGE não divulga a idade em setores com poucos moradores. O Anhanduizinho é a região das crianças, com 27% dos bebês da cidade; o Centro é a região dos idosos, onde 1 em cada 4 moradores tem 60 anos ou mais. A creche (Capítulo 9) tem de ir para o Anhanduizinho; o cuidado ao idoso (Capítulo 14), para o Centro, o Prosa e o Imbirussu."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como a renda se reparte entre as regiões?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Renda por região, 2022",
+     "cabecalho": [
+      "Região",
+      "Renda média do responsável (R$/mês)",
+      "Renda total estimada (R$/ano)",
+      "% da renda da cidade",
+      "% dos moradores",
+      "Renda por pessoa estimada (R$/mês)"
+     ],
+     "linhas": [
+      [
+       "Centro",
+       "7.647",
+       "3,60 bi",
+       "16,1%",
+       "6,9%",
+       "4.889"
+      ],
+      [
+       "Prosa",
+       "6.473",
+       "3,86 bi",
+       "17,3%",
+       "10,3%",
+       "3.510"
+      ],
+      [
+       "Bandeira",
+       "4.466",
+       "4,08 bi",
+       "18,3%",
+       "15,3%",
+       "2.491"
+      ],
+      [
+       "Imbirussu",
+       "3.201",
+       "2,21 bi",
+       "9,9%",
+       "12,1%",
+       "1.710"
+      ],
+      [
+       "Segredo",
+       "3.061",
+       "2,54 bi",
+       "11,4%",
+       "14,4%",
+       "1.656"
+      ],
+      [
+       "Lagoa",
+       "2.787",
+       "2,41 bi",
+       "10,8%",
+       "15,1%",
+       "1.488"
+      ],
+      [
+       "Anhanduizinho",
+       "2.398",
+       "3,41 bi",
+       "15,3%",
+       "24,5%",
+       "1.302"
+      ],
+      [
+       "Cidade",
+       "3.802",
+       "22,3 bi",
+       "100%",
+       "100%",
+       "2.088"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: renda média do responsável pelo domicílio, IBGE, Censo 2022, por setor censitário, com média por região ponderada pelo autor; renda total e por pessoa são estimativas do autor, a partir do rendimento domiciliar per capita da cidade, R$ 2.088,31 (IBGE, Censo 2022, via Campo Grande News, 04/11/2025), vezes os 891.107 moradores em domicílios particulares, repartida na proporção da renda dos responsáveis; valores de 2022, sem 13º. Centro e Prosa, com 17% dos moradores, ficam com 33% da renda; o Anhanduizinho, com 1 em cada 4 moradores, fica com 15%. Entre bairros, a distância chega a quase 9 vezes: o responsável no Jardim dos Estados ganha em média R$ 13.971; no Lageado, R$ 1.567 (mesma base)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "3,8 vezes",
+     "texto": "é quanto a renda por pessoa do Centro (R$ 4.889) supera a do Anhanduizinho (R$ 1.302), a região mais populosa da cidade. Fonte: IBGE, Censo 2022, por setor censitário; estimativa do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quem mora em cada região: casas, idades e renda",
+     "texto": [
+      "Usar a renda e a idade de cada região como critério público de prioridade no orçamento: creches onde estão os bebês, cuidado ao idoso onde estão os idosos, praças e postos onde a renda é menor.",
+      "Programa de ocupação dos domicílios vagos do Centro (6.250 em 2022), com IPTU progressivo para imóvel vazio e moradia no centro (Capítulo 5).",
+      "Publicar o perfil de cada região e bairro, com os dados do Censo por setor, no portal da prefeitura, atualizado a cada nova divulgação do IBGE."
+     ]
     }
    ],
    "regiao": {
@@ -4551,7 +4858,8 @@
     "5.7 Iluminação pública",
     "5.8 Água, esgoto e drenagem",
     "5.9 Lixo, reciclagem e energia",
-    "5.10 Quanto custa uma cidade toda urbanizada"
+    "5.10 Quanto custa uma cidade toda urbanizada",
+    "5.11 Quem mora em cada região: casas, idades e renda"
    ]
   },
   {
