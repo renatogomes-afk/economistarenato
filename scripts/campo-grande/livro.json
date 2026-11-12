@@ -1348,7 +1348,7 @@
        "Folha dos servidores ativos (prefeitura, estado e União)",
        "6,0",
        "14%",
-       "ver 2.11"
+       "ver 2.12"
       ],
       [
        "Remuneração dos empregados (soma)",
@@ -1400,6 +1400,434 @@
     {
      "tipo": "subtopico",
      "numero": "2.11",
+     "texto": "Quanto ganha quem trabalha"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como se distribuem as rendas do trabalho na cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo de 2022 contou 427.266 pessoas de 14 anos ou mais ocupadas em Campo Grande, com ou sem carteira, por conta própria, servidores e empregadores, e perguntou a cada uma quanto ganhava somando todos os trabalhos (IBGE, Censo Demográfico 2022, Tabela Sidra 10292). O retrato é o de uma cidade de renda média concentrada na faixa de 1 a 2 salários mínimos: 152.273 pessoas, 35,6% dos ocupados, ganhavam entre R$ 1.212 e R$ 2.424 por mês, o salário mínimo da época (mesma fonte; percentuais por cálculo do autor)."
+    },
+    {
+     "tipo": "barras",
+     "legenda": "Pessoas ocupadas por faixa de rendimento de todos os trabalhos, 2022 (% dos ocupados)",
+     "rotulos": [
+      "Até 1/4 SM",
+      "1/4 a 1/2",
+      "1/2 a 1",
+      "1 a 2",
+      "2 a 3",
+      "3 a 5",
+      "5 a 10",
+      "10 a 15",
+      "15 a 20",
+      "Mais de 20",
+      "Sem rendimento"
+     ],
+     "series": [
+      {
+       "nome": "Campo Grande",
+       "valores": [
+        1.5,
+        3.7,
+        19.0,
+        35.6,
+        15.7,
+        12.4,
+        7.6,
+        1.7,
+        0.9,
+        1.0,
+        0.9
+       ]
+      },
+      {
+       "nome": "Mato Grosso do Sul",
+       "valores": [
+        2.1,
+        4.4,
+        20.4,
+        37.4,
+        16.3,
+        10.9,
+        5.4,
+        1.2,
+        0.6,
+        0.6,
+        0.8
+       ]
+      },
+      {
+       "nome": "Brasil",
+       "valores": [
+        3.9,
+        6.3,
+        24.2,
+        32.7,
+        14.2,
+        10.1,
+        5.1,
+        1.2,
+        0.7,
+        0.7,
+        1.0
+       ]
+      }
+     ],
+     "unidade": "%",
+     "fonte": "Fonte: IBGE, Censo Demográfico 2022, Tabela Sidra 10292 (pessoas de 14 anos ou mais ocupadas na semana de referência; salário mínimo de R$ 1.212). Percentuais por cálculo do autor."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Rendas do trabalho em Campo Grande, Mato Grosso do Sul e Brasil, 2022",
+     "cabecalho": [
+      "Faixa",
+      "Campo Grande",
+      "MS",
+      "Brasil"
+     ],
+     "linhas": [
+      [
+       "Até 1 salário mínimo",
+       "24,2%",
+       "26,8%",
+       "34,3%"
+      ],
+      [
+       "Até 2 salários mínimos",
+       "59,9%",
+       "64,2%",
+       "67,1%"
+      ],
+      [
+       "Mais de 5 salários mínimos",
+       "11,1%",
+       "7,8%",
+       "7,6%"
+      ],
+      [
+       "Mais de 10 salários mínimos",
+       "3,5%",
+       "2,3%",
+       "2,6%"
+      ],
+      [
+       "Mais de 20 salários mínimos",
+       "1,0% (4.096 pessoas)",
+       "0,6%",
+       "0,7%"
+      ],
+      [
+       "Sem rendimento (ocupados)",
+       "0,9%",
+       "0,8%",
+       "1,0%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, Tabela Sidra 10292; cálculo do autor. A capital fica acima do estado e do país nas duas pontas: tem menos gente ganhando até 1 salário mínimo (24,2%, contra 34,3% no Brasil) e mais gente ganhando acima de 5 (11,1%, contra 7,6%). Mas seis em cada dez ocupados ganhavam até 2 salários mínimos, R$ 2.424 em valores de 2022. É essa a renda que sustenta o comércio de bairro, paga o aluguel e, como se viu no 2.3, alimenta o endividamento das famílias."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Homens e mulheres ganham parecido?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não. Entre os homens ocupados, 19,1% ganhavam até 1 salário mínimo; entre as mulheres, 30,1%. Na outra ponta, 13,3% dos homens ganhavam mais de 5 salários mínimos, contra 8,6% das mulheres, e dos 4.096 ocupados com mais de 20 salários mínimos, três em cada quatro eram homens (3.089) (IBGE, Censo 2022, Tabela Sidra 10292; cálculo do autor). Parte da diferença vem de jornada, ocupação e setor, que a tabela não separa; o que ela mostra é o resultado: a mulher trabalhadora de Campo Grande está mais concentrada nas faixas baixas."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Ocupados por faixa de rendimento e sexo, Campo Grande, 2022",
+     "cabecalho": [
+      "Faixa",
+      "Homens",
+      "Mulheres"
+     ],
+     "linhas": [
+      [
+       "Total de ocupados",
+       "228.594",
+       "198.672"
+      ],
+      [
+       "Até 1 salário mínimo",
+       "19,1%",
+       "30,1%"
+      ],
+      [
+       "De 1 a 2",
+       "35,7%",
+       "35,6%"
+      ],
+      [
+       "De 2 a 5",
+       "31,4%",
+       "24,4%"
+      ],
+      [
+       "Mais de 5",
+       "13,3%",
+       "8,6%"
+      ],
+      [
+       "Mais de 10",
+       "4,6%",
+       "2,3%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, Censo 2022, Tabela Sidra 10292; percentuais por cálculo do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Em que setores estão as rendas maiores e as menores?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Censo de 2022 ainda não publicou, para o município, o rendimento por atividade. O dado por setor que existe é o do Cadastro Central de Empresas do IBGE, que cobre os empregos formais em empresas e órgãos com CNPJ (inclusive o setor público) e traz, por seção da CNAE, quantos assalariados há e quanto receberam no ano. Em 2021, Campo Grande tinha 280.408 assalariados nesse cadastro, que receberam R$ 13,5 bilhões em salários e outras remunerações, o equivalente a R$ 3.697 por mês, ou 3,4 salários mínimos de R$ 1.100 (IBGE, CEMPRE 2021, Tabela Sidra 6450; média mensal por cálculo do autor, dividindo por 13 pagamentos). A distância entre os setores é grande."
+    },
+    {
+     "tipo": "barras",
+     "legenda": "Salário médio mensal dos assalariados por setor, Campo Grande, 2021 (R$)",
+     "rotulos": [
+      "Administração pública",
+      "Eletricidade e gás",
+      "Finanças e seguros",
+      "Educação",
+      "Saúde e serviços sociais",
+      "Água, esgoto e lixo",
+      "Informação e comunicação",
+      "Agropecuária",
+      "Serviços profissionais e técnicos",
+      "Transporte e armazenagem",
+      "Indústria de transformação",
+      "Construção",
+      "Comércio",
+      "Serviços administrativos",
+      "Alojamento e alimentação"
+     ],
+     "series": [
+      {
+       "nome": "Salário médio",
+       "valores": [
+        7716,
+        5824,
+        5770,
+        4680,
+        3814,
+        3033,
+        2635,
+        2563,
+        2512,
+        2474,
+        2188,
+        2149,
+        2133,
+        1649,
+        1405
+       ]
+      }
+     ],
+     "unidade": "",
+     "fonte": "Fonte: IBGE, Cadastro Central de Empresas 2021, Tabela Sidra 6450 (salários e outras remunerações e pessoal assalariado por seção da CNAE 2.0). Média mensal por cálculo do autor (salários ÷ assalariados ÷ 13). A administração pública é obtida por diferença entre o total e as demais seções."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Assalariados e salários por setor, Campo Grande, 2021",
+     "cabecalho": [
+      "Setor (seção CNAE)",
+      "Assalariados",
+      "Salários no ano (R$ milhões)",
+      "Salário médio mensal",
+      "Em salários mínimos"
+     ],
+     "linhas": [
+      [
+       "Administração pública (por diferença)",
+       "50.062",
+       "5.021",
+       "R$ 7.716",
+       "7,0"
+      ],
+      [
+       "Comércio e reparação de veículos",
+       "52.478",
+       "1.455",
+       "R$ 2.133",
+       "1,9"
+      ],
+      [
+       "Educação",
+       "38.067",
+       "2.316",
+       "R$ 4.680",
+       "4,3"
+      ],
+      [
+       "Serviços administrativos (limpeza, vigilância, apoio)",
+       "30.530",
+       "654",
+       "R$ 1.649",
+       "1,5"
+      ],
+      [
+       "Saúde e serviços sociais",
+       "27.411",
+       "1.359",
+       "R$ 3.814",
+       "3,5"
+      ],
+      [
+       "Indústria de transformação",
+       "16.941",
+       "482",
+       "R$ 2.188",
+       "2,0"
+      ],
+      [
+       "Transporte, armazenagem e correio",
+       "13.076",
+       "421",
+       "R$ 2.474",
+       "2,2"
+      ],
+      [
+       "Construção",
+       "12.518",
+       "350",
+       "R$ 2.149",
+       "2,0"
+      ],
+      [
+       "Alojamento e alimentação",
+       "8.432",
+       "154",
+       "R$ 1.405",
+       "1,3"
+      ],
+      [
+       "Serviços profissionais, científicos e técnicos",
+       "7.485",
+       "244",
+       "R$ 2.512",
+       "2,3"
+      ],
+      [
+       "Informação e comunicação",
+       "5.318",
+       "182",
+       "R$ 2.635",
+       "2,4"
+      ],
+      [
+       "Outros serviços",
+       "4.785",
+       "143",
+       "R$ 2.302",
+       "2,1"
+      ],
+      [
+       "Finanças e seguros",
+       "4.774",
+       "358",
+       "R$ 5.770",
+       "5,2"
+      ],
+      [
+       "Água, esgoto e resíduos",
+       "4.401",
+       "174",
+       "R$ 3.033",
+       "2,8"
+      ],
+      [
+       "Agropecuária",
+       "1.034",
+       "34",
+       "R$ 2.563",
+       "2,3"
+      ],
+      [
+       "Artes, cultura e esporte",
+       "1.042",
+       "31",
+       "R$ 2.294",
+       "2,1"
+      ],
+      [
+       "Imobiliárias",
+       "985",
+       "25",
+       "R$ 1.919",
+       "1,7"
+      ],
+      [
+       "Eletricidade e gás",
+       "901",
+       "68",
+       "R$ 5.824",
+       "5,3"
+      ],
+      [
+       "Indústria extrativa",
+       "168",
+       "4",
+       "R$ 1.999",
+       "1,8"
+      ],
+      [
+       "Total",
+       "280.408",
+       "13.476",
+       "R$ 3.697",
+       "3,4"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: IBGE, CEMPRE 2021, Tabela Sidra 6450; médias por cálculo do autor (salário mínimo de 2021, R$ 1.100). Três leituras saem da tabela. Primeiro, o setor público paga a maior média e fica com 37% de toda a massa salarial formal (R$ 5,0 de R$ 13,5 bilhões), mais a parte pública da educação e da saúde, que o cadastro classifica pela atividade; é o peso do funcionalismo do 2.12 visto pelo lado do salário. Segundo, os dois maiores empregadores privados, comércio (52 mil) e serviços administrativos (31 mil), pagam abaixo de 2 salários mínimos. Terceiro, a indústria de transformação da capital paga R$ 2.188, abaixo da média da cidade: é uma indústria de alimentos, gráficas, confecção e materiais de construção, de baixo valor por trabalhador (2.2)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "60%",
+     "texto": "dos ocupados de Campo Grande ganhavam até 2 salários mínimos (R$ 2.424) em 2022, e só 11% ganhavam mais de 5. Fonte: IBGE, Censo 2022, Tabela Sidra 10292; cálculo do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que o dado não mostra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não existe tabela publicada que cruze faixa de renda com setor para Campo Grande. A RAIS tem esse cruzamento para os empregos formais (faixa de remuneração por CNAE e por município), mas só nos microdados e no painel do Ministério do Trabalho, que não foram consultados para este livro; os informais e os autônomos ficam fora dela, e o Censo, que os inclui, ainda não divulgou o rendimento por atividade no município. Também não há dado municipal de renda de MEIs. A comparação entre as duas fontes exige cuidado: o Censo mede todos os trabalhos de cada pessoa em 2022; o CEMPRE mede o salário formal pago por empresas e órgãos em 2021."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que fazer com isso?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o histograma confirma a tese do Capítulo 2 com uma ressalva. A cidade não precisa de qualquer indústria, porque a indústria que já tem paga menos que a média; precisa da indústria e dos serviços que paguem acima de 3 salários mínimos, como energia, finanças, tecnologia, saúde e a manufatura de maior valor tratada adiante. O sinal de sucesso de um programa de desenvolvimento em Campo Grande não é o número de empregos, é o deslocamento do histograma: menos gente na faixa de 1 a 2 salários mínimos e mais na de 3 a 10, em especial entre as mulheres."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quanto ganha quem trabalha",
+     "texto": [
+      "Painel municipal anual das rendas do trabalho: faixa de remuneração por setor e por região, com os dados da RAIS (formais) e do Censo e da PNAD (todos os trabalhos), publicado pela prefeitura com a fonte de cada número.",
+      "Meta pública do programa de desenvolvimento medida em renda, e não só em vagas: elevar a fatia dos ocupados com mais de 3 salários mínimos de cerca de 24% (2022) para 30% em 2032.",
+      "Incentivo municipal (Capítulo 2) condicionado ao salário: desconto maior de ISS e IPTU para empresas que paguem salário médio acima de 3 salários mínimos, conferido na RAIS.",
+      "Programa de qualificação e creche dirigido às mulheres das faixas de até 1 salário mínimo, ligado às vagas das empresas atraídas (Capítulo 9)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.12",
      "texto": "O peso do funcionalismo público"
     },
     {
@@ -1474,6 +1902,654 @@
       "Publicar, com o estado e a União, o número de servidores e a folha paga em Campo Grande por esfera e por órgão, a partir da RAIS e dos portais de transparência.",
       "Na prefeitura, quadro de pessoal por secretaria e por vínculo publicado todo mês, com a proporção de comissionados e contratados (4)."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.13",
+     "texto": "Para onde vai a indústria no mundo e no Brasil"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que mudou no mundo?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Três coisas. O investimento voltou a crescer, mas mudou de endereço: o investimento estrangeiro direto no mundo subiu 14% em 2025, para cerca de US$ 1,6 trilhão, e os data centers, sozinhos, receberam mais de US$ 270 bilhões em anúncios, mais de um quinto do valor de todos os projetos novos do planeta (UNCTAD, Global Investment Trends Monitor n. 50, 20/01/2026). A energia renovável perdeu fôlego (−28% no valor dos projetos novos), e os setores mais expostos às tarifas, como têxtil, eletrônicos e máquinas, tiveram 25% menos projetos (mesma fonte). E as cadeias de produção estão se aproximando dos mercados consumidores, o chamado nearshoring: o BID calcula que isso pode somar US$ 78 bilhões por ano às exportações da América Latina, US$ 7,84 bilhões delas no Brasil, sobretudo em automotivo, têxtil, farmacêutico, energia renovável e tecnologia da informação (BID, via Bloomberg Línea, 03/09/2023)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Tendências da indústria no mundo, 2025",
+     "cabecalho": [
+      "Tendência",
+      "Número",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Investimento estrangeiro direto",
+       "+14%, cerca de US$ 1,6 trilhão",
+       "UNCTAD, 20/01/2026"
+      ],
+      [
+       "Data centers",
+       "mais de US$ 270 bilhões anunciados; mais de 1/5 dos projetos novos do mundo",
+       "UNCTAD, 20/01/2026"
+      ],
+      [
+       "Semicondutores",
+       "+35% no valor dos projetos anunciados",
+       "UNCTAD, 20/01/2026"
+      ],
+      [
+       "Energia renovável",
+       "−28% no valor dos projetos novos",
+       "UNCTAD, 20/01/2026"
+      ],
+      [
+       "Têxtil, eletrônicos e máquinas (expostos a tarifas)",
+       "−25% no número de projetos",
+       "UNCTAD, 20/01/2026"
+      ],
+      [
+       "Nearshoring na América Latina",
+       "até US$ 78 bilhões por ano a mais em exportações; Brasil, US$ 7,84 bilhões",
+       "BID, via Bloomberg Línea, 03/09/2023"
+      ],
+      [
+       "Serviços de engenharia e P&D vendidos a outros países",
+       "a Índia fatura cerca de US$ 45 bilhões (2023) e mira US$ 130 a 170 bilhões em 2030",
+       "Nasscom e BCG, via Autocar Pro, 12/10/2023"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "E no Brasil?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O governo federal lançou em janeiro de 2024 a Nova Indústria Brasil, com R$ 300 bilhões de financiamento até 2026 pelo BNDES, pela Finep e pela Embrapii e seis missões com metas para 2033 (Agência Gov, 22/01/2024). A indústria de transformação, porém, caiu 0,2% em 2025, depois de crescer 3,9% em 2024, e só cresceu em quatro dos últimos dez anos (IBGE, via Fiesp, CNN Brasil, 03/03/2026). As missões importam para Campo Grande porque dizem onde estará o crédito barato."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As missões da Nova Indústria Brasil e o que tocam em Campo Grande",
+     "cabecalho": [
+      "Missão",
+      "Meta para 2033",
+      "Onde encosta na cidade"
+     ],
+     "linhas": [
+      [
+       "Cadeias agroindustriais",
+       "70% da agricultura familiar mecanizada (hoje 18%), com 95% de máquinas nacionais",
+       "alimento processado, máquinas e implementos"
+      ],
+      [
+       "Saúde",
+       "70% dos remédios, vacinas e equipamentos feitos no país (hoje 42%)",
+       "genéricos, fitoterápicos, dispositivos médicos; a cidade é o polo hospitalar do estado"
+      ],
+      [
+       "Cidades",
+       "−20% no tempo de deslocamento; +25 pontos de conteúdo nacional no transporte sustentável",
+       "ônibus elétrico e seus componentes (Capítulo 12)"
+      ],
+      [
+       "Transformação digital",
+       "90% das indústrias digitalizadas (hoje 23,5%)",
+       "software industrial e automação"
+      ],
+      [
+       "Bioeconomia e descarbonização",
+       "+50% de biocombustíveis na matriz de transportes (hoje 21,4%); −30% de emissões da indústria",
+       "bioinsumos, serviços às usinas de etanol de milho e de cana"
+      ],
+      [
+       "Defesa",
+       "50% de autonomia nas tecnologias críticas",
+       "pouco, salvo eletrônica e software"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Agência Gov, 22/01/2024 (metas e linha de base); terceira coluna, leitura do autor. Duas tendências brasileiras pesam a favor da capital. A saúde tem um déficit comercial enorme: o país importou cerca de US$ 14,8 bilhões em produtos farmacêuticos em 2025 e exportou cerca de US$ 1,4 bilhão (Comex Stat, via Movimento Econômico, 21/08/2026; saldo por cálculo do autor). E os bioinsumos, os defensivos e fertilizantes biológicos, movimentaram R$ 6,2 bilhões em 2025, 15% a mais que em 2024, e já tratam 194 milhões de hectares, 62% deles de soja (CropLife Brasil, via Revista Cultivar, 01/04/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E em Mato Grosso do Sul?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O estado tem quase R$ 90 bilhões em investimentos previstos, e mais de 80% disso, R$ 75 bilhões, são três fábricas de celulose, da Arauco em Inocência, da Bracell em Bataguassu e a segunda linha da Eldorado em Três Lagoas; o resto inclui a UFN3 da Petrobras (mais de R$ 5 bilhões), a mineração da LHG em Corumbá (R$ 4 bilhões), bioenergia e citros (Correio do Estado, 14/09/2026). Nenhum projeto grande fica dentro de Campo Grande; o mais perto é o pomar da Cutrale, de R$ 500 milhões, na divisa com Sidrolândia (mesma fonte). O estado industrializa onde está a matéria-prima; a capital precisa disputar o que não depende dela, ou o que vem depois dela."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 75 bilhões",
+     "texto": "em três fábricas de celulose no interior, mais de 80% dos investimentos previstos em MS, e nenhum projeto grande dentro de Campo Grande. Fonte: Correio do Estado, 14/09/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Para onde vai a indústria no mundo e no Brasil",
+     "texto": [
+      "Escritório da prefeitura para captar as linhas da Nova Indústria Brasil (BNDES, Finep, Embrapii) para empresas da cidade, com meta anual de valor contratado.",
+      "Acompanhar todo ano, com fonte pública, a carteira de investimentos do estado e marcar o que pode ser fornecido a partir da capital (2.7)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.14",
+     "texto": "Primeiro caminho: a indústria que nasce da região"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a região oferece?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Matéria-prima e mercado vizinho. Mato Grosso do Sul tinha, em 2025, 17,9 milhões de bois (o menor rebanho desde 1989, mas ainda um dos maiores do país), 35,5 milhões de galinhas, 2 milhões de porcos, 264 milhões de litros de leite e 134 milhões de dúzias de ovos, com alta de 18% (IBGE, Pesquisa da Pecuária Municipal 2025, via Correio do Estado, 02/10/2026). Tem as fábricas de celulose e as usinas de etanol, que precisam de manutenção, peça e serviço. E tem a América do Sul na porta: a ponte de Porto Murtinho a Carmelo Peralta, peça central da Rota Bioceânica até os portos do norte do Chile, estava 84% pronta em fevereiro de 2026, com previsão de conclusão no segundo semestre e inauguração da rota ainda sem data (Correio do Estado, 01/02/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O vizinho também ensina. O Paraguai atraiu indústria com o regime de maquila, de imposto baixo para quem importa insumo, monta e exporta: em 2025 exportou US$ 1,31 bilhão por esse regime, com 35.357 empregos, e 64% foi para o Brasil, sobretudo autopeças, confecções, alumínio, alimentos e plásticos (InfoNegocios, Paraguai, jan/2026, com dados do Ministério de Indústria e Comércio). Campo Grande não vai ganhar do Paraguai em custo de mão de obra e de imposto. Ganha em engenheiro, universidade, hospital e serviço, e pode ser o centro técnico de quem fabrica dos dois lados da fronteira."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Indústrias do caminho regional",
+     "cabecalho": [
+      "Indústria",
+      "Por que cabe em Campo Grande",
+      "Engenheiros e técnicos",
+      "UFMS e UEMS"
+     ],
+     "linhas": [
+      [
+       "Alimento processado de maior valor: carne porcionada e pronta, pratos congelados, proteína vegetal, pet food, ração, ovos e lácteos",
+       "boi, frango, porco, soja e milho do estado; a cidade já tem a JBS supergelados e a ADM (2.2); 73% da exportação ainda é carne congelada e resfriada (Fiems, 2023)",
+       "engenharia de alimentos, de produção, mecânica e de refrigeração",
+       "veterinária e zootecnia (Famez/UFMS), farmácia e nutrição (Facfan/UFMS), biologia (UEMS)"
+      ],
+      [
+       "Manutenção, peças, caldeiraria, automação e serviços de engenharia para celulose, etanol e frigoríficos",
+       "R$ 75 bilhões em celulose no interior (Correio do Estado, 14/09/2026); a fábrica hoje compra muito desse serviço em São Paulo",
+       "engenharia mecânica, elétrica, de controle e de produção; técnicos do IFMS e do Senai",
+       "engenharia elétrica e de produção e laboratórios de energia e de controle (Faeng/UFMS)"
+      ],
+      [
+       "Bioinsumos: inoculantes, biodefensivos e biofertilizantes",
+       "mercado de R$ 6,2 bilhões, crescendo 15% ao ano, e 62% do uso na soja (CropLife, 2025); fábrica de porte médio, com laboratório",
+       "engenharia química e de bioprocessos, agronomia",
+       "química e biologia (UFMS), biologia (UEMS), AgroValley MS (UEMS e Vivaterra)"
+      ],
+      [
+       "Construção industrializada: pré-moldado, estrutura metálica e madeira engenheirada de eucalipto",
+       "eucalipto das plantações da celulose; déficit de moradia (Capítulo 11) e obra pública como primeiro cliente",
+       "engenharia civil e de estruturas",
+       "engenharia civil e tecnólogo em construção de edifícios (Faeng/UFMS)"
+      ],
+      [
+       "Embalagem e logística de frio para exportar pela Rota Bioceânica",
+       "papelão e papel da celulose do estado; carga de carne e de frutas para o Chile e a Ásia",
+       "engenharia de produção e de logística",
+       "engenharia de produção (UFMS); administração (UEMS)"
+      ],
+      [
+       "Centro técnico das maquilas do Paraguai",
+       "projeto de produto, teste, certificação e manutenção para fábricas que montam do outro lado da fronteira",
+       "engenharia de produção, mecânica e de materiais",
+       "engenharia de produção e física (UFMS)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: as indicadas na segunda coluna; cursos, PDU da Faeng (UFMS) e vestibular da UEMS (Campo Grande News); escolha e cruzamento, leitura do autor. Na minha leitura, o caminho regional é o mais seguro, porque se apoia no que o estado já produz e no que já foi investido. O risco é a capital ficar só com o abate e a embalagem, a parte de menor salário. A meta tem de ser o degrau de cima: o alimento pronto, a máquina, o serviço de engenharia."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "US$ 1,31 bilhão",
+     "texto": "foi a exportação da maquila do Paraguai em 2025, com 35.357 empregos e 64% vendido ao Brasil. Fonte: InfoNegocios, jan/2026, com dados do Ministério de Indústria e Comércio do Paraguai."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Primeiro caminho: a indústria que nasce da região",
+     "texto": [
+      "Campo Grande Fornecedora (2.7): cadastro e qualificação de empresas da capital para manutenção, peça e serviço de engenharia às fábricas de celulose, usinas e frigoríficos, com rodada de negócios anual.",
+      "Distrito de alimento processado com câmara fria comum, laboratório de análise e inspeção sanitária ágil, para pequenas e médias indústrias de alimento.",
+      "Escritório da prefeitura em Assunção e acordo com as maquilas da fronteira para a capital prestar engenharia, teste e manutenção.",
+      "Compra pública de casas e escolas em construção industrializada, para criar o primeiro mercado da madeira engenheirada e do pré-moldado feitos aqui."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.15",
+     "texto": "Segundo caminho: a indústria que não depende da região"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Dá para disputar indústria sem matéria-prima local?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Dá, quando o insumo principal é gente qualificada. É o caso da indústria leve de alto valor, em que o produto pesa pouco e vale muito, e dos serviços de engenharia, que se exportam pela internet. A Costa Rica, com 5 milhões de habitantes e sem tradição industrial, fez dos dispositivos médicos o seu primeiro produto de exportação: 31% de tudo o que vendeu ao exterior em 2025, de US$ 35,2 bilhões em bens e serviços (Procomer, via Delfino, abr/2026). A Índia vende serviços de engenharia e de pesquisa e desenvolvimento a empresas de outros países: cerca de US$ 45 bilhões em 2023, com meta de US$ 130 a 170 bilhões em 2030 (Nasscom e BCG, via Autocar Pro, 12/10/2023). Em nenhum dos dois casos a vantagem foi a matéria-prima; foi a mão de obra formada, a universidade e a regra estável."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Indústrias do caminho global",
+     "cabecalho": [
+      "Indústria",
+      "Por que cabe em Campo Grande",
+      "Engenheiros e técnicos",
+      "UFMS e UEMS"
+     ],
+     "linhas": [
+      [
+       "Centro de engenharia: projeto, cálculo, simulação, desenho e teste para empresas de fora",
+       "trabalho exportável pela internet; custo de vida menor que o de São Paulo; o mercado mundial cresce (Nasscom e BCG, 2023)",
+       "todas as engenharias, sobretudo civil, elétrica, mecânica e de produção",
+       "Faeng (UFMS), com estágio alternado com o trabalho, no modelo de Waterloo (9.8)"
+      ],
+      [
+       "Dispositivos médicos e de reabilitação: órteses, próteses, cadeiras, equipamentos de fisioterapia e de diagnóstico simples",
+       "a cidade é o polo hospitalar do estado (8.10); missão saúde da Nova Indústria Brasil; o produto é leve e vai de avião ou caminhão",
+       "engenharia biomédica, mecânica, elétrica e de materiais",
+       "medicina, fonoaudiologia e terapia ocupacional (UEMS); medicina, farmácia e engenharia física (UFMS); hospital universitário"
+      ],
+      [
+       "Genéricos, fitoterápicos e dermocosméticos",
+       "déficit de cerca de US$ 13 bilhões em fármacos (Comex Stat, 2025); a Motirô Dermocosméticos aprovou R$ 4,5 milhões e 50 empregos na capital (A Crítica, 13/08/2026); plantas do Cerrado e do Pantanal",
+       "engenharia química e farmacêutica",
+       "farmácia (Facfan/UFMS), química (UFMS), biologia (UEMS)"
+      ],
+      [
+       "Equipamentos elétricos e eletrônica de potência: quadros, painéis, inversores, carregadores, eficiência energética",
+       "rede elétrica em expansão no estado (Energisa, R$ 928 milhões em 2026, A Crítica) e usinas solares; demanda de toda a América do Sul",
+       "engenharia elétrica, eletrônica e de controle",
+       "engenharia elétrica, eletrotécnica e mestrado em eficiência energética (Faeng/UFMS)"
+      ],
+      [
+       "Software industrial, automação e data center de porte médio para agro, indústria e governo",
+       "missão digital (90% das indústrias digitalizadas em 2033); data centers são a maior onda de investimento do mundo (UNCTAD, 2026)",
+       "engenharia de computação, elétrica e de controle",
+       "computação (Facom/UFMS), Aginova e parque tecnológico (9.8)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: as indicadas na segunda coluna; cursos, PDU da Faeng (UFMS) e vestibular da UEMS (Campo Grande News); escolha e cruzamento, leitura do autor. Ficaram de fora, de propósito, quatro apostas da moda que não cabem na capital: celulose e mineração, que ficam onde está o insumo; montadora de carro, que exige escala e enfrenta tarifas; semicondutor de ponta, que exige dezenas de bilhões e uma cadeia que o Brasil não tem; e data center gigante, de hiperescala, que pede muita energia e água e encontra melhores condições no interior."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o caminho global é o mais difícil e o que paga melhor. Ele não depende do boi nem do eucalipto, e por isso não depende do humor do preço da carne ou da celulose. Depende de três coisas que a prefeitura pode ajudar a fazer: formar e segurar o engenheiro, ligar a universidade à empresa e manter a regra estável por muitos anos. Os dois caminhos não competem: o regional dá escala e emprego já, o global dá salário e futuro."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "31%",
+     "texto": "das exportações da Costa Rica em 2025 foram dispositivos médicos, indústria sem matéria-prima local, feita com mão de obra formada. Fonte: Procomer, via Delfino, abr/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Segundo caminho: a indústria que não depende da região",
+     "texto": [
+      "Programa Engenharia Exporta: espaço, internet e apoio da prefeitura para centros de engenharia que vendam projeto, cálculo e teste a empresas de outros estados e países, com meta de empregos de engenheiro.",
+      "Polo de dispositivos médicos e de reabilitação junto aos hospitais e às faculdades de saúde, com laboratório de teste e apoio à certificação da Anvisa.",
+      "Atrair uma indústria de genéricos ou fitoterápicos com a compra do SUS municipal como primeiro cliente, dentro das regras de compra pública."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.16",
+     "texto": "Engenheiros e universidades: o elo que falta"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O Brasil forma engenheiros e não os aproveita?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Em boa parte, sim. O país formou 105 mil engenheiros em 2021, 18% menos que no pico de 129 mil em 2018, e de cada dez que entram nos cursos só cerca de quatro se formam (Inep, via Revista Pesquisa Fapesp, abr/2023). Dos formados, 59% não trabalhavam em ocupação típica de engenheiro, pelo Censo de 2010; boa parte foi para o mercado financeiro e o ensino (Ipea, Maciente e Meyer, via Exame, 18/12/2013). O Confea mostra um retrato mais otimista: entre os profissionais registrados, 92% estão empregados e 78% dos empregados atuam na área (Censo do Confea, 28/05/2025). As duas contas não se contradizem: o Confea só ouve quem mantém o registro, e quem deixa a profissão costuma não renová-lo."
+    },
+    {
+     "tipo": "p",
+     "texto": "Em Campo Grande o descompasso é mais forte, porque a indústria é só 10,7% do emprego formal privado, contra 19,4% no estado (Novo Caged, UFMS, ago/2025; Semadesc, dez/2025; ver 2.2). Quem se forma na Faeng e quer trabalhar em fábrica muitas vezes precisa ir para Três Lagoas, para o interior de São Paulo ou para fora do país. A cidade paga a formação e perde o engenheiro."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Formação, absorção e lacunas",
+     "cabecalho": [
+      "Indicador",
+      "Número",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Formados em engenharia no Brasil",
+       "105 mil (2021); pico de 129 mil (2018)",
+       "Inep, via Revista Pesquisa Fapesp, abr/2023"
+      ],
+      [
+       "Evasão nos cursos de engenharia",
+       "cerca de 61% (52% nas públicas, 64% nas privadas)",
+       "Inep, via Revista Pesquisa Fapesp, abr/2023"
+      ],
+      [
+       "Formados que não trabalham como engenheiro",
+       "59% (Censo 2010)",
+       "Ipea, via Exame, 18/12/2013"
+      ],
+      [
+       "Registrados no Confea empregados na área",
+       "78% dos empregados (92% empregados)",
+       "Confea, 28/05/2025"
+      ],
+      [
+       "Indústria no emprego formal privado",
+       "10,7% em Campo Grande; 19,4% em MS",
+       "Novo Caged, UFMS, ago/2025; Semadesc, dez/2025 (2.2)"
+      ],
+      [
+       "Engenheiros empregados em Campo Grande",
+       "sem dado público; está na RAIS por ocupação (CBO)",
+       "lacuna"
+      ],
+      [
+       "Engenheiros formados por ano na cidade",
+       "sem dado consolidado; está nos microdados do Censo da Educação Superior",
+       "lacuna"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que as universidades da cidade já têm?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A UFMS tem, em Campo Grande, as engenharias Ambiental, Civil, Elétrica e de Produção, os tecnólogos em Construção de Edifícios, Eletrotécnica Industrial e Saneamento, pós-graduação em Eficiência Energética, Engenharia Elétrica, Recursos Naturais e Tecnologias Ambientais e 51 laboratórios na faculdade de engenharia (UFMS, PDU 2020–2024 da Faeng), além de Engenharia Física, computação, farmácia, veterinária e zootecnia em outras unidades e uma agência de inovação, a Aginova, que leva pesquisa a negócio (Programa Inovação UFMS 2026). A UEMS tem na capital cursos de saúde, Medicina, Fonoaudiologia, Terapia Ocupacional, Psicologia e Ciências Biológicas, e, nas Moreninhas, Administração Pública e Direito (Campo Grande News, vestibular 2025), além do AgroValley MS com a Vivaterra (9.8). Falta à cidade o que liga isso à indústria: engenharia mecânica, química e de alimentos na capital, laboratórios abertos às empresas e estágio dentro da fábrica."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o engenheiro é o melhor argumento de Campo Grande para disputar indústria, e hoje é um argumento desperdiçado. O caminho regional precisa dele para subir do abate ao alimento pronto e da obra à manutenção da fábrica; o caminho global precisa dele como a própria mercadoria. A prefeitura não manda na universidade, mas pode ser a ponte: dar o terreno, a encomenda e a bolsa, e cobrar emprego em troca."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "59%",
+     "texto": "dos formados em engenharia no Brasil não trabalhavam como engenheiros, pelo Censo de 2010. Fonte: Ipea (Maciente e Meyer), via Exame, 18/12/2013."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Engenheiros e universidades: o elo que falta",
+     "texto": [
+      "Pedir ao MTE (RAIS por CBO) e ao Inep (microdados do Censo da Educação Superior) o número de engenheiros empregados e formados em Campo Grande, e publicar todo ano.",
+      "Bolsa Engenheiro na Fábrica: a prefeitura e a empresa dividem a bolsa de estágio e do primeiro emprego de engenheiros formados na UFMS e na UEMS em indústrias da capital.",
+      "Pedir à UFMS e à UEMS, com apoio de emenda e de convênio, os cursos que faltam na capital para os setores escolhidos: engenharia mecânica, química, de alimentos e biomédica.",
+      "Laboratórios de teste e certificação abertos às empresas (alimentos, bioinsumos, dispositivos médicos e equipamentos elétricos), no modelo Fraunhofer (9.8), com contrato por serviço.",
+      "Compra pública de inovação: a prefeitura encomenda soluções a startups e laboratórios da UFMS e da UEMS e se torna o primeiro cliente."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.17",
+     "texto": "De nada adianta formar se não houver renda"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Formar basta?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não. Costumo dizer que de nada adianta ter pessoas bem formadas na região se não houver oportunidade de renda para elas. A universidade forma, mas quem contrata é a empresa; sem demanda por gente qualificada, o diploma vira passagem de ônibus para São Paulo ou emprego fora da área, como mostram os 59% de engenheiros que não trabalhavam como engenheiros no Censo de 2010 (Ipea, via Exame, 18/12/2013). A política tem de agir dos dois lados: do lado de quem forma, que a cidade já tem, e do lado de quem paga, que a cidade não tem o bastante."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde isso deu certo no Brasil?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Cidades que criaram demanda por gente qualificada",
+     "cabecalho": [
+      "Cidade",
+      "O que fez",
+      "Resultado",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Recife (Porto Digital)",
+       "bairro de tecnologia no centro antigo, criado em 2000 com governo, empresas e universidade, e formação própria (Embarque Digital)",
+       "541 empresas, cerca de 24 mil trabalhadores e R$ 7,4 bilhões de faturamento em 2025 (+19%)",
+       "Movimento Econômico, 27/03/2026"
+      ],
+      [
+       "Florianópolis",
+       "rede de inovação com a UFSC, associação de empresas (Acate) e parques tecnológicos",
+       "cerca de 6,1 mil empresas de tecnologia, 38 mil empregos e R$ 12 bilhões em 2023, cerca de 25% do PIB da cidade",
+       "Rede de Inovação de Florianópolis, via Baguete, 18/03/2025"
+      ],
+      [
+       "Santa Rita do Sapucaí (MG), cerca de 40 mil habitantes",
+       "escola técnica de eletrônica desde 1959 e faculdade de engenharia de telecomunicações desde 1965 (Inatel), com as empresas nascendo dos ex-alunos",
+       "mais de 160 empresas de tecnologia, o Vale da Eletrônica",
+       "Seu Dinheiro, 05/09/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Nos três casos a escola veio primeiro, mas a virada só aconteceu quando alguém criou o lugar, a regra e o primeiro cliente para as empresas que os formados abriram ou que vieram atrás deles. Nenhum deles dependeu de matéria-prima."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como criar a oportunidade em Campo Grande?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Sete alavancas para criar renda para quem se forma",
+     "cabecalho": [
+      "Alavanca",
+      "O que a prefeitura faz",
+      "Quem se forma ganha"
+     ],
+     "linhas": [
+      [
+       "Empresa-âncora com contrapartida",
+       "incentivo (Prodes, terreno, ISS) só com meta de vagas de nível técnico e superior e salário mínimo por vaga, verificada todo ano",
+       "emprego qualificado na cidade"
+      ],
+      [
+       "Compra pública de inovação",
+       "contrato de solução inovadora do Marco Legal das Startups (Lei Complementar 182/2021) para problemas da cidade: fila da saúde, iluminação, trânsito, lixo",
+       "o primeiro cliente da empresa que abriu"
+      ],
+      [
+       "Spin-offs da UFMS e da UEMS",
+       "incubação, sala e bolsa no primeiro ano para empresas nascidas de pesquisa, junto da Aginova",
+       "virar dono, e não só empregado"
+      ],
+      [
+       "Centros de engenharia e trabalho remoto exportado",
+       "espaço, internet e apoio a empresas que vendem projeto e serviço para fora da cidade (Engenharia Exporta)",
+       "salário de fora gasto aqui"
+      ],
+      [
+       "Distrito de inovação no Centro",
+       "prédios ociosos do Centro para empresas de tecnologia e engenharia, com ISS reduzido para software e engenharia, no modelo do Porto Digital",
+       "aluguel barato e vizinhança de empresas do mesmo ramo"
+      ],
+      [
+       "Crédito e capital semente",
+       "fundo de aval (6.8) e chamada anual com a Fundect, a Finep e o Sebrae para empresas de base tecnológica",
+       "dinheiro para começar sem hipotecar a casa"
+      ],
+      [
+       "Ficar na cidade",
+       "Bolsa Engenheiro na Fábrica, estágio alternado com o trabalho e prioridade em moradia perto dos polos (Capítulo 11)",
+       "motivo para não ir embora no primeiro ano"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Lei Complementar 182/2021 (Marco Legal das Startups), arts. 12 a 15; demais alavancas, proposta do autor. Na minha leitura, a frase que resume o capítulo é esta: a cidade não precisa formar mais gente, precisa dar trabalho à gente que já forma. Cada real de incentivo deve ser cobrado em vaga qualificada, e a prefeitura deve medir, todo ano, quantos formados da UFMS e da UEMS ficaram em Campo Grande trabalhando na área."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "541 empresas e 24 mil empregos",
+     "texto": "é o Porto Digital, no centro antigo do Recife, em 2025, um bairro de tecnologia criado do zero em 2000. Fonte: Movimento Econômico, 27/03/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · De nada adianta formar se não houver renda",
+     "texto": [
+      "Todo incentivo municipal com contrapartida de vagas de nível técnico e superior, publicada e verificada todo ano.",
+      "Programa municipal de compra pública de inovação pelo Marco Legal das Startups, com ao menos cinco desafios da cidade por ano abertos a empresas locais.",
+      "Distrito de inovação no Centro, em prédios ociosos, com ISS reduzido para software e engenharia e sala para spin-offs da UFMS e da UEMS.",
+      "Indicador anual: quantos formados da UFMS e da UEMS ficaram em Campo Grande e trabalham na área, com a renda média, a partir da RAIS e de convênio com as universidades."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.18",
+     "texto": "Preferência aos profissionais da cidade, sem fechar o mercado"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Dá para preferir o advogado, o contador e o engenheiro daqui?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Dá, mas não do jeito mais óbvio. A prefeitura não pode proibir ninguém de contratar um escritório de São Paulo nem criar registro próprio para quem quer trabalhar na cidade: a Constituição proíbe preferências entre brasileiros (art. 19, III), garante o livre exercício da profissão (art. 5º, XIII), dá só à União o poder de regular as profissões (art. 22, XVI) e proíbe imposto diferente conforme a origem do serviço (art. 152). Nas compras públicas, a Lei de Licitações proíbe preferir o licitante pela sede ou pelo domicílio (Lei 14.133/2021, art. 9º, I, b). Quando um município paulista tentou obrigar a prefeitura a contratar empresa local nas compras sem licitação, o Tribunal de Justiça de São Paulo derrubou a lei (ADI 2285448-54.2022.8.26.0000, via Jus.com.br, 22/06/2023); e o STF já decidiu, num caso de Mato Grosso do Sul, que só lei federal pode criar diferenças gerais entre licitantes (ADI 3.755, DOU de 14/08/2017)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, isso é bom para o consumidor. A reserva de mercado sai cara: nos Estados Unidos, as barreiras de entrada nas profissões reduzem o emprego e custam, em média, 12% do excedente da ocupação, e 30% dessa conta cai no bolso de quem contrata (Kleiner e Soltas, Federal Reserve de Minneapolis, Staff Report 590, 2019). O caminho é outro: abrir portas para o profissional da cidade sem fechar a porta para quem vem de fora."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos são?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ninguém publica o número de advogados, contadores, engenheiros e arquitetos por município. Há aproximações: Campo Grande tinha 12.598 empresas de atividades profissionais, científicas e técnicas, sem contar os MEIs (Jucems, Mapa de Empresas, 29/01/2025); 3.183 médicos, 3,64 por mil moradores, contra 2,04 no estado (CFM, Demografia Médica 2018); e 8.867 advogados votaram na eleição da OAB-MS de 2024, no estado inteiro (Correio do Estado, 22/11/2024). O primeiro passo é pedir os números à OAB-MS, ao CRC-MS, ao Crea-MS e ao CAU-MS."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a lei permite"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O que a prefeitura pode e o que não pode fazer para preferir o profissional da cidade",
+     "cabecalho": [
+      "Medida",
+      "Pode?",
+      "Base legal"
+     ],
+     "linhas": [
+      [
+       "Proibir ou dificultar a contratação de profissional de fora pelo cidadão ou pela empresa",
+       "Não",
+       "CF, arts. 5º, XIII, 19, III, e 22, XVI"
+      ],
+      [
+       "ISS maior para quem é de fora ou desconto só para quem é daqui",
+       "Não",
+       "CF, art. 152; o ISS já é devido, em regra, no local do prestador (LC 116/2003, art. 3º)"
+      ],
+      [
+       "Exigir sede na cidade para participar de licitação",
+       "Não",
+       "Lei 14.133/2021, art. 9º, I, b"
+      ],
+      [
+       "Licitação só para micro e pequenas empresas até R$ 80 mil",
+       "Sim",
+       "LC 123/2006, art. 48, I; LC municipal 142/2009, art. 48"
+      ],
+      [
+       "Prioridade à micro e pequena empresa sediada na cidade ou na região, pagando até 10% acima do melhor preço, com justificativa",
+       "Sim, mas Campo Grande não usa",
+       "LC 123/2006, art. 48, §3º"
+      ],
+      [
+       "Cota de até 25% e subcontratação de até 30% para pequenas empresas",
+       "Sim",
+       "LC 123/2006, art. 48, II e III; LC municipal 142/2009, arts. 49 e 50"
+      ],
+      [
+       "Exigir atendimento presencial em Campo Grande, quando o serviço pedir",
+       "Sim, se ligado ao objeto",
+       "Lei 14.133/2021, arts. 9º e 18 (justificativa técnica)"
+      ],
+      [
+       "Credenciar todos os profissionais que aceitem a tabela e deixar o cidadão escolher",
+       "Sim",
+       "Lei 14.133/2021, art. 79, II"
+      ],
+      [
+       "Assistência jurídica gratuita municipal, complementar à Defensoria",
+       "Sim",
+       "STF, ADPF 279 (Diadema-SP), 03/11/2021"
+      ],
+      [
+       "ISS fixo por profissional para as sociedades de advogados, contadores, médicos e engenheiros",
+       "Sim, já existe",
+       "DL 406/1968, art. 9º; STF, Tema 918; LC municipal 59/2003, Anexo II, e LC 142/2009, art. 31"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: textos das leis citadas; LC municipal 142/2009 consultada na reprodução da LegisWeb (12/11/2026), a conferir no Diogrande. A lei geral da micro e pequena empresa de Campo Grande já tem o empate a favor da pequena empresa, a licitação exclusiva, a cota e a subcontratação, e a cotação exclusiva para pequenas empresas sediadas no município nas compras diretas de pequeno valor (art. 52, §1º). Não tem a prioridade local de até 10% que a lei federal permite."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Seis caminhos que não restringem a escolha do consumidor"
+    },
+    {
+     "tipo": "p",
+     "texto": "O primeiro é a prefeitura como cliente. Ela contrata projetos, laudos, perícias, topografia, consultorias e, na saúde, médicos por empresa. Dividir os contratos grandes em lotes menores, usar a licitação exclusiva para pequenas empresas, a cota e a subcontratação, e incluir na lei municipal a prioridade local de até 10% abre esse mercado para os escritórios da cidade. Para os projetos de arquitetura e urbanismo, o concurso de projeto, previsto na Lei 14.133/2021, premia a ideia e não o tamanho do escritório."
+    },
+    {
+     "tipo": "p",
+     "texto": "O segundo é o credenciamento com escolha do cidadão. Em vez de um contrato com uma empresa só, a prefeitura credencia todos os profissionais que aceitem a tabela e as regras, e quem escolhe é o morador (Lei 14.133/2021, art. 79, II). Serve para a assistência técnica de arquitetura e engenharia nas reformas das casas pobres (Lei 11.888/2008), para a topografia e o projeto da regularização fundiária, para a assistência jurídica gratuita complementar e para o contador que tira o MEI da irregularidade. Goiás credenciou escritórios de arquitetura e engenharia para a assistência técnica em moradias, a R$ 1.343,50 por casa, para até 4.550 famílias (Agehab, Chamamento 006/2021). Quem está na cidade atende melhor, e ganha mais clientes, sem que ninguém de fora seja proibido."
+    },
+    {
+     "tipo": "p",
+     "texto": "O terceiro é a vitrine. Um cadastro público, gratuito e voluntário dos profissionais e escritórios da cidade, por especialidade e por bairro, com registro no conselho conferido, ligado ao portal de compras e à Sala do Empreendedor. Em Costa Rica, no norte do estado, a prefeitura criou por decreto o Selo Empresa Parceira, que atesta a regularidade e a capacidade técnica de 81 empresas, e ganhou o prêmio Sebrae Prefeitura Empreendedora de 2026 em compras governamentais, com custo direto de cerca de R$ 32,8 mil (Campo Grande News, 05/05/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O quarto é a capacitação: com o Sebrae, os conselhos e a UFMS, cursos de compras públicas, gestão de escritório, perícia e uso de inteligência artificial para os profissionais da cidade disputarem contratos com quem vem de fora. O quinto é o custo de trabalhar aqui: o escritório é atividade de baixo risco e deve abrir sem esperar alvará (2.5), e o ISS fixo por profissional precisa ser mantido até a transição para o IBS. O sexto é atrair clientes para a cidade: o comprador de serviços jurídicos, contábeis e de engenharia mais rico é a indústria, e cada fábrica nova (2.2 e 2.7) contrata advogado, contador, engenheiro de segurança, médico do trabalho e laboratório perto de onde está."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa, e para quem?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Para o consumidor, quase nada: nenhuma das seis medidas tira dele o direito de contratar quem quiser, pelo preço que quiser. O custo cai no contribuinte, e só na prioridade de preço nas compras da prefeitura. A prefeitura gastou R$ 2,06 bilhões em custeio em 2025 (SICONFI, DCA 2025, Anexo I-D). Supondo que os serviços profissionais sejam de 5% a 10% disso, de R$ 100 a 200 milhões por ano (hipótese do autor), e que todos os contratos fossem ganhos por empresa local pagando 10% a mais, o custo máximo seria de R$ 10 a 20 milhões por ano. O custo real é bem menor, porque a prioridade só vale para a pequena empresa e só quando ela fica até 10% acima do melhor preço. No condado de Montgomery, nos Estados Unidos, a simulação de uma preferência local de 10% em dois anos de licitações deu US$ 714 mil a mais em 26 contratos, contra cerca de US$ 1 bilhão de compras por ano (Conselho do Condado de Montgomery, memorando de 04/12/2019). Os estudos lembram o risco: quando a preferência é grande, as empresas de fora deixam de disputar e o preço médio sobe (NIGP, Local Preference in Public Procurement, 2015)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a regra de ouro é preferir pela qualidade e pela presença, não pelo endereço. Os casos de fora mostram que dá resultado: em Preston, na Inglaterra, as instituições públicas e as universidades da cidade passaram a comprar £ 112 milhões por ano de fornecedores da cidade, contra cerca de £ 38 milhões em 2012/13, só mudando o planejamento das compras (Co-operative News, 15/10/2019; base calculada pelo autor). E a reforma tributária ajuda: com o IBS cobrado no destino, a partir de 2033 o imposto do serviço prestado a um morador de Campo Grande fica aqui, venha o profissional de onde vier (LC 214/2025), e a disputa passa a ser só de qualidade e preço."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Até 10%",
+     "texto": "é quanto a prefeitura pode pagar a mais, com justificativa, à micro e pequena empresa sediada na cidade ou na região. Fonte: LC 123/2006, art. 48, §3º. A lei municipal de Campo Grande (LC 142/2009) ainda não usa essa regra."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Preferência aos profissionais da cidade, sem fechar o mercado",
+     "texto": [
+      "Incluir na LC municipal 142/2009 a prioridade à micro e pequena empresa sediada em Campo Grande ou na região, até 10% acima do melhor preço, como permite a LC 123/2006 (art. 48, §3º), com relatório anual do custo.",
+      "Dividir em lotes os contratos de projeto, laudo, perícia, topografia e consultoria, e usar o concurso de projeto para as obras públicas de arquitetura.",
+      "Credenciamento com escolha do morador para a assistência técnica em moradia (Lei 11.888/2008), a regularização fundiária, a assistência jurídica gratuita complementar (STF, ADPF 279) e a regularização do MEI.",
+      "Vitrine pública e voluntária dos profissionais e escritórios da cidade, com selo de regularidade, nos moldes do Selo Empresa Parceira de Costa Rica-MS.",
+      "Capacitação em compras públicas com Sebrae, OAB-MS, CRC-MS, Crea-MS, CAU-MS e UFMS, e publicação anual de quanto a prefeitura comprou de profissionais e empresas da cidade.",
+      "Nenhuma barreira ao consumidor: nada de registro municipal, taxa ou ISS diferente para quem é de fora."
+     ]
     }
    ],
    "regiao": {
@@ -1516,7 +2592,14 @@
     "2.8 A indústria nos municípios de Mato Grosso do Sul",
     "2.9 Insumos de fora e de dentro",
     "2.10 Quem fica com o PIB: salário, lucro e imposto",
-    "2.11 O peso do funcionalismo público"
+    "2.11 Quanto ganha quem trabalha",
+    "2.12 O peso do funcionalismo público",
+    "2.13 Para onde vai a indústria no mundo e no Brasil",
+    "2.14 Primeiro caminho: a indústria que nasce da região",
+    "2.15 Segundo caminho: a indústria que não depende da região",
+    "2.16 Engenheiros e universidades: o elo que falta",
+    "2.17 De nada adianta formar se não houver renda",
+    "2.18 Preferência aos profissionais da cidade, sem fechar o mercado"
    ]
   },
   {
@@ -4206,6 +5289,204 @@
       "Meta de recuperar o índice de participação no ICMS, ligada à política industrial do Capítulo 2, e conferência anual do valor adicionado declarado pelas empresas da cidade.",
       "Pleito da bancada e da Frente Nacional de Prefeitos pela correção dos tetos do SUS de média e alta complexidade."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.12",
+     "texto": "Um banco para o servidor, depois para a cidade"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que começar pelo servidor?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque é o cliente que todo banco quer e que, em Campo Grande, paga juros de quem não tem garantia. O servidor tem salário certo, estabilidade e desconto em folha; o risco de crédito é baixo, e a taxa deveria ser a menor do mercado. A prefeitura paga 37.742 servidores ativos e inativos (contrato da folha com o Bradesco, março de 2024, via Correio do Estado, 28/03/2024), e o estado, cerca de 86,2 mil, com folha de cerca de R$ 463 milhões por mês (mesma fonte). Somados, são mais de 120 mil clientes com renda garantida, base suficiente para sustentar uma instituição de crédito antes de ela oferecer um único real ao resto da cidade. Essa é a ordem proposta: primeiro o servidor municipal, depois o estadual, por fim a cidade."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o servidor paga hoje?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Juros médios por modalidade, Brasil, semana de 20 a 24/07/2026",
+     "cabecalho": [
+      "Modalidade",
+      "Taxa ao mês",
+      "R$ 10 mil em 60 meses: parcela",
+      "Total pago"
+     ],
+     "linhas": [
+      [
+       "Consignado de servidor público",
+       "2,32%",
+       "R$ 310",
+       "R$ 18.624"
+      ],
+      [
+       "Cartão benefício da Credcesta em Campo Grande (2024)",
+       "cerca de 4,5%",
+       "R$ 485",
+       "R$ 29.073"
+      ],
+      [
+       "Crédito pessoal sem consignação",
+       "7,19%",
+       "—",
+       "—"
+      ],
+      [
+       "Cheque especial",
+       "7,12%",
+       "—",
+       "—"
+      ],
+      [
+       "Rotativo do cartão de crédito",
+       "14,95%",
+       "—",
+       "—"
+      ],
+      [
+       "Referência: consignado a 1,5% ao mês (proposta)",
+       "1,50%",
+       "R$ 254",
+       "R$ 15.236"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: médias das taxas por instituição publicadas pelo Banco Central, compiladas pelo Procon de Juiz de Fora (Monitoramento da Taxa de Juros, julho de 2026); cartão benefício, Correio do Estado, 26/07/2024; parcelas e totais por cálculo do autor (tabela Price). A diferença entre o cartão benefício e um consignado a 1,5% ao mês é de cerca de R$ 230 por mês em cada R$ 10 mil emprestados, quase R$ 14 mil ao longo de cinco anos. Para quem ganha R$ 3 mil, é a diferença entre pagar a conta de luz ou não."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que aconteceu com o cartão benefício?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Em abril de 2024 a prefeitura criou por decreto o 'cartão benefício' como nova modalidade de consignação (Decreto 15.908/2024) e permitiu à Credcesta, ligada ao Banco Master, oferecê-lo aos servidores, com juros de cerca de 4,5% ao mês, parte descontada em folha e o resto em fatura (Correio do Estado, 26/07/2024). O Banco Master foi liquidado pelo Banco Central em 2025 (A Crítica, 05/03/2026). Em dezembro de 2025, a prefeitura e o IMPCG tinham cerca de R$ 1,43 milhão por mês em descontos a repassar ao banco, e mais de 270 ações tinham sido ajuizadas em Campo Grande por servidores que alegam dívidas impagáveis (Correio do Estado, IMPCG quer reter consignados do Banco Master). A Federação dos Servidores (Feserp-MS) pediu à Câmara a suspensão dos descontos e uma auditoria dos contratos (A Crítica, 05/03/2026). O caso mostra que o problema não é falta de crédito, é a regra da folha: quem decide quem pode descontar, e a que taxa, é a prefeitura."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 14 mil",
+     "texto": "é quanto um servidor deixa de pagar, em cinco anos, para cada R$ 10 mil emprestados, se trocar um cartão benefício de 4,5% ao mês por um consignado de 1,5%. Cálculo do autor (tabela Price); taxa do cartão, Correio do Estado, 26/07/2024."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Que forma jurídica o banco pode ter?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Como se viu no 6.8, município não pode controlar agência de fomento (Resolução CMN 2.828/2001), e toda instituição financeira depende de autorização do Banco Central (Lei 4.595/1964, art. 18). O livro não encontrou norma que proíba expressamente um município de controlar outro tipo de instituição, nem caso de município brasileiro que o faça; uma estatal financeira exigiria lei específica (Constituição, arts. 37, XIX, e 173) e a aprovação do Banco Central, que é incerta. Por isso a proposta trabalha com formas que não dependem da licença bancária da prefeitura."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Formas possíveis para o 'banco do servidor', da mais simples à mais difícil",
+     "cabecalho": [
+      "Forma",
+      "Quem controla",
+      "O que permite",
+      "Limite"
+     ],
+     "linhas": [
+      [
+       "Regra da folha (decreto de consignação e contrato da folha)",
+       "Prefeitura",
+       "Teto de juros para quem desconta em folha; portabilidade gratuita; fim do cartão benefício caro",
+       "Não empresta; só disciplina quem empresta"
+      ],
+      [
+       "Cooperativa de crédito dos servidores",
+       "Os próprios servidores (cooperados)",
+       "Captar depósitos dos cooperados, emprestar com desconto em folha, devolver sobras",
+       "Depende de adesão e de gestão profissional; autorização do Banco Central"
+      ],
+      [
+       "Parceria com cooperativa ou banco já existente, por chamamento público",
+       "A instituição parceira",
+       "Linha exclusiva de troca de dívida para o servidor, a taxa máxima definida no edital",
+       "Contrato com prazo; exige fiscalização"
+      ],
+      [
+       "Sociedade de crédito direto (fintech) municipal",
+       "Prefeitura, se lei e Banco Central permitirem",
+       "Emprestar com capital próprio, sem captar depósitos (Resolução CMN 4.656/2018)",
+       "Sem precedente municipal; risco jurídico e político"
+      ],
+      [
+       "Cota na agência de fomento do estado",
+       "Estado (51%) e BRDE (49%)",
+       "Crédito de longo prazo às empresas da capital (terceira etapa)",
+       "A prefeitura não controla"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Resolução CMN 2.828/2001; Resolução CMN 4.656/2018; Lei 4.595/1964; agência de fomento de MS, Correio do Estado, 01/08/2024; enquadramento por leitura do autor, a conferir com o Banco Central."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como seria a sequência?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O banco do servidor em três etapas",
+     "cabecalho": [
+      "Etapa",
+      "Público",
+      "O que se faz",
+      "Prazo"
+     ],
+     "linhas": [
+      [
+       "1. Servidor municipal",
+       "37.742 ativos e inativos (2024)",
+       "Novo decreto de consignação com teto de juros; troca do cartão benefício e do cheque especial por consignado barato; mutirão de portabilidade; criação da cooperativa de crédito dos servidores, com apoio da prefeitura (desconto em folha, espaço, educação financeira)",
+       "Curto: 1º ano"
+      ],
+      [
+       "2. Servidor estadual",
+       "cerca de 86,2 mil (2024)",
+       "Convênio com o governo do estado para a cooperativa ou a parceria operarem também na folha estadual, ampliando a base estável",
+       "Médio: 1º mandato"
+      ],
+      [
+       "3. A cidade",
+       "MEIs, comércio, indústria",
+       "Com carteira e capital formados, a cooperativa abre a livre admissão e passa a emprestar ao pequeno negócio, com o fundo municipal de aval (6.8) e a agência de fomento do estado para o crédito grande",
+       "Longo: 2º mandato"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes dos públicos: Correio do Estado, 28/03/2024. Prazos na classificação do 16.3. Os bancos públicos estaduais que restaram no país, como Banrisul (RS), Banestes (ES) e BRB (DF), fizeram da folha e do consignado dos servidores a base do negócio, e as cooperativas de crédito, que em Campo Grande já têm presença forte com Sicredi e Sicoob, crescem pela mesma lógica de clientela fiel. O Banco Palmas, em Fortaleza, mostra o caminho inverso, de baixo para cima, para o bairro (6.8)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa e quais são os riscos?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A primeira etapa quase não custa: é decreto, contrato da folha e apoio à cooperativa. A folha está contratada com o Bradesco até 2029, por cinco anos a partir de março de 2024, renováveis (Correio do Estado, 28/03/2024); a renovação é o momento de exigir teto de juros e portabilidade gratuita, em troca de menor pagamento pela folha, se for preciso. O tamanho do mercado do servidor municipal é estimável só por aproximação: os consignados descontados somavam cerca de R$ 4,2 milhões por mês em 2024 (mesma fonte), o que, a 1,5% ao mês e 60 meses, corresponde a uma carteira da ordem de R$ 165 milhões (estimativa do autor); o cartão benefício e o crédito fora da folha não estão nessa conta, e o valor deles não é publicado. Para uma fintech municipal, o capital mínimo de uma sociedade de crédito direto é de R$ 1 milhão (Resolução CMN 4.656/2018), mas o capital para emprestar seria muito maior, e a prefeitura, no limite da Lei de Responsabilidade Fiscal com pessoal (4.2), não tem folga para isso."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os riscos são três. O político: crédito barato para servidor pode virar favor, por isso a taxa, o teto e os números da carteira têm de ser públicos. O de concentração: uma carteira só de servidores depende da saúde da folha, e se a prefeitura atrasar salários, a inadimplência sobe junto. E o jurídico: qualquer passo além da cooperativa e da regra da folha precisa de parecer do Banco Central antes da lei. Na minha leitura, o caminho mais seguro é a cooperativa dos servidores com regra de folha dura; ela começa pelo servidor, ganha escala com o estadual e chega à cidade sem que a prefeitura ponha capital em risco."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Um banco para o servidor, depois para a cidade",
+     "texto": [
+      "Novo decreto de consignação: teto de juros para quem desconta na folha da prefeitura e do IMPCG (referência: o teto do consignado do INSS), fim do cartão benefício acima desse teto e portabilidade gratuita.",
+      "Auditoria pública dos contratos de consignado e cartão benefício da Credcesta e do Banco Master, com a lista de servidores afetados e mutirão de troca de dívida.",
+      "Apoio à criação da cooperativa de crédito dos servidores municipais: desconto em folha, espaço físico e educação financeira, sem capital da prefeitura.",
+      "Na renovação do contrato da folha (2029), exigir do banco teto de juros no consignado, tarifa zero na conta-salário e portabilidade facilitada.",
+      "Convênio com o governo do estado para estender a cooperativa ou a parceria à folha estadual (segunda etapa).",
+      "Abertura da cooperativa à cidade (livre admissão) com o fundo municipal de aval do 6.8 para MEIs e pequeno comércio (terceira etapa)."
+     ]
     }
    ],
    "regiao": {
@@ -4246,7 +5527,8 @@
     "6.8 Um banco da cidade?",
     "6.9 A arrecadação em detalhe",
     "6.10 Contas em atraso e decisões judiciais",
-    "6.11 Os repasses da União e do estado: quanto vem e por que muda"
+    "6.11 Os repasses da União e do estado: quanto vem e por que muda",
+    "6.12 Um banco para o servidor, depois para a cidade"
    ]
   },
   {
