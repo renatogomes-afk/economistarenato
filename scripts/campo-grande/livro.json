@@ -1,12 +1,12 @@
 {
- "titulo": "Campo Grande em 2032",
+ "titulo": "Campo Grande em 2036",
  "subtitulo": "Propostas",
  "autor": "Renato Wanderley Gomes",
- "chamada": "Um livro em construção sobre a cidade: dezesseis capítulos, cada um com o diagnóstico de hoje, as propostas para 2032 e o quadro das sete regiões urbanas.",
+ "chamada": "Um livro em construção sobre a cidade: dezesseis capítulos, cada um com o diagnóstico de hoje, as propostas para 2036 e o quadro das sete regiões urbanas.",
  "blocos": [
   {
    "tipo": "p",
-   "texto": "Este é o canteiro de obras de um livro sobre Campo Grande. Cada capítulo trata de um tema da vida da cidade (trabalho, saúde, escola, moradia, transporte, contas da prefeitura) e responde a duas perguntas: onde a cidade está hoje e onde ela pode estar em 2032."
+   "texto": "Este é o canteiro de obras de um livro sobre Campo Grande. Cada capítulo trata de um tema da vida da cidade (trabalho, saúde, escola, moradia, transporte, contas da prefeitura) e responde a duas perguntas: onde a cidade está hoje e onde ela pode estar em 2036."
   },
   {
    "tipo": "p",
@@ -18,7 +18,7 @@
   },
   {
    "tipo": "p",
-   "texto": "Os capítulos temáticos seguem a mesma forma: uma abertura com uma cena ou um número; o diagnóstico de como está hoje; o princípio que se aplica; as propostas para 2032, com quem faz e como medir; e o quadro “E na sua região?”, que leva o tema às sete regiões urbanas da cidade: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu. O primeiro e o último capítulo não têm quadro de região."
+   "texto": "Os capítulos temáticos seguem a mesma forma: uma abertura com uma cena ou um número; o diagnóstico de como está hoje; o princípio que se aplica; as propostas para 2036, com quem faz e como medir; e o quadro “E na sua região?”, que leva o tema às sete regiões urbanas da cidade: Centro, Segredo, Prosa, Bandeira, Anhanduizinho, Lagoa e Imbirussu. O primeiro e o último capítulo não têm quadro de região."
   }
  ],
  "regioes": [
@@ -173,7 +173,7 @@
        "Bem comum",
        "Concílio Vaticano II, Gaudium et Spes (1965), n. 26",
        "Serve à cidade inteira ou a um grupo?",
-       "orçamento e contratos (7.2 e 7.3), o caixa até 2032 (7.6), prioridade por região (16.6)"
+       "orçamento e contratos (7.2 e 7.3), o caixa até 2036 (7.6), prioridade por região (16.6)"
       ],
       [
        "Destino universal dos bens",
@@ -212,7 +212,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que a régua não é",
+     "titulo": "Propostas para 2036 · O que a régua não é",
      "texto": [
       "Nota de impacto em todo projeto de lei da prefeitura: o que muda no salário, na família e no bairro, com o número que sustenta a resposta ou a declaração de que o número não existe."
      ]
@@ -399,7 +399,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A economia da cidade",
+     "titulo": "Propostas para 2036 · A economia da cidade",
      "texto": [
       "Um painel econômico anual da cidade, feito com a UFMS e as bases do IBGE e do Ministério do Trabalho: PIB, emprego formal e renda por região, publicados todo ano com fonte."
      ]
@@ -490,7 +490,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quem fica com o PIB: salário, lucro e imposto",
+     "titulo": "Propostas para 2036 · Quem fica com o PIB: salário, lucro e imposto",
      "texto": [
       "Pedir ao IBGE e à Semadesc o PIB pela ótica da renda por município, ao menos para as cidades grandes, como já se faz para os estados.",
       "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (1.4) em número."
@@ -565,7 +565,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Insumos de fora e de dentro",
+     "titulo": "Propostas para 2036 · Insumos de fora e de dentro",
      "texto": [
       "Pedido à Sefaz-MS, pela Lei de Acesso à Informação, das entradas e saídas interestaduais de Campo Grande por produto, a partir das notas fiscais, sem identificar empresas.",
       "Programa de substituição de compras de fora: a cada ano, a prefeitura e a Fiems escolhem dez insumos que a cidade mais compra de outros estados e procuram quem os produza aqui (2.10).",
@@ -841,7 +841,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Comércio e serviços",
+     "titulo": "Propostas para 2036 · Comércio e serviços",
      "texto": [
       "Licença simples e rápida para o pequeno comércio de bairro, junto com a mudança da lei de uso do solo (Capítulo 5).",
       "Usar o poder de compra da prefeitura com as pequenas empresas locais, como permite a Lei Complementar 123/2006 nas compras de menor valor.",
@@ -933,7 +933,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Construção civil e mercado imobiliário",
+     "titulo": "Propostas para 2036 · Construção civil e mercado imobiliário",
      "texto": [
       "Publicar todo mês os alvarás, habite-se e loteamentos aprovados por região, com a área construída, e o tempo médio de aprovação por tipo de projeto.",
       "Prazo máximo para aprovar projeto grande, com análise conjunta dos órgãos e aprovação automática no rito simplificado quando o prazo vencer.",
@@ -1017,7 +1017,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Crédito e dívida das famílias",
+     "titulo": "Propostas para 2036 · Crédito e dívida das famílias",
      "texto": [
       "Crédito para a pequena indústria e o pequeno comércio pelas cooperativas de crédito e pelo FCO, com a prefeitura como ponte entre quem produz e quem empresta.",
       "Microcrédito orientado no lugar do rotativo do cartão, com as cooperativas e as agências de fomento.",
@@ -1160,7 +1160,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Indústria",
+     "titulo": "Propostas para 2036 · Indústria",
      "texto": [
       "Recuperar e ampliar as áreas industriais que a cidade já tem, como o Núcleo Industrial e o Indubrasil, com asfalto, água, energia, transporte para o trabalhador e terreno pronto.",
       "Pôr para funcionar o terminal intermodal de cargas, com obra concluída em 2020 e ainda parado.",
@@ -1322,7 +1322,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A indústria nos municípios de Mato Grosso do Sul",
+     "titulo": "Propostas para 2036 · A indústria nos municípios de Mato Grosso do Sul",
      "texto": [
       "Pedir ao IBGE e à Semadesc a divulgação anual do valor adicionado por setor dos municípios, sem a defasagem de quatro anos.",
       "Usar o mapa da indústria do estado para escolher o que a capital fornece ao interior: manutenção, máquinas, logística, formação e serviços às fábricas (2.10)."
@@ -1455,7 +1455,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Para onde vai a indústria no mundo e no Brasil",
+     "titulo": "Propostas para 2036 · Para onde vai a indústria no mundo e no Brasil",
      "texto": [
       "Escritório da prefeitura para captar as linhas da Nova Indústria Brasil (BNDES, Finep, Embrapii) para empresas da cidade, com meta anual de valor contratado.",
       "Acompanhar todo ano, com fonte pública, a carteira de investimentos do estado e marcar o que pode ser fornecido a partir da capital (2.10)."
@@ -1558,7 +1558,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que o Japão ensina a uma capital do interior",
+     "titulo": "Propostas para 2036 · O que o Japão ensina a uma capital do interior",
      "texto": [
       "Lei municipal de setores prioritários: três ou quatro apostas escolhidas por critério publicado (demanda que cresce com a renda e espaço para ganho de produtividade), revistas a cada quatro anos.",
       "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 1.4).",
@@ -1644,7 +1644,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Primeiro caminho: a indústria que nasce da região",
+     "titulo": "Propostas para 2036 · Primeiro caminho: a indústria que nasce da região",
      "texto": [
       "Campo Grande Fornecedora (2.10): cadastro e qualificação de empresas da capital para manutenção, peça e serviço de engenharia às fábricas de celulose, usinas e frigoríficos, com rodada de negócios anual.",
       "Distrito de alimento processado com câmara fria comum, laboratório de análise e inspeção sanitária ágil, para pequenas e médias indústrias de alimento.",
@@ -1722,7 +1722,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Segundo caminho: a indústria que não depende da região",
+     "titulo": "Propostas para 2036 · Segundo caminho: a indústria que não depende da região",
      "texto": [
       "Programa Engenharia Exporta: espaço, internet e apoio da prefeitura para centros de engenharia que vendam projeto, cálculo e teste a empresas de outros estados e países, com meta de empregos de engenheiro.",
       "Polo de dispositivos médicos e de reabilitação junto aos hospitais e às faculdades de saúde, com laboratório de teste e apoio à certificação da Anvisa.",
@@ -1921,7 +1921,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Indústrias de apoio: atender daqui as fábricas do estado",
+     "titulo": "Propostas para 2036 · Indústrias de apoio: atender daqui as fábricas do estado",
      "texto": [
       "Programa Campo Grande Fornecedora (2.10) com meta: dobrar em oito anos o número de empresas da capital que vendem para as fábricas de celulose, usinas, frigoríficos e mineradoras, medido pelo cadastro de fornecedores da Fiems.",
       "Distrito de indústria de apoio na saída para Três Lagoas (BR-262), com lotes pequenos e médios para caldeiraria, usinagem, montagem, química e lavanderia industrial.",
@@ -2065,7 +2065,7 @@
     },
     {
      "tipo": "tabela",
-     "legenda": "Cultura regional: valor adicionado por ano em 2032, em três cenários (estimativa do autor)",
+     "legenda": "Cultura regional: valor adicionado por ano em 2036, em três cenários (estimativa do autor)",
      "cabecalho": [
       "Frente",
       "Conservador",
@@ -2126,7 +2126,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Cultura regional como fonte de PIB",
+     "titulo": "Propostas para 2036 · Cultura regional como fonte de PIB",
      "texto": [
       "Polo do tereré em Campo Grande: área no distrito industrial para ervateiras e fábricas de bebidas à base de erva, incubadora com a engenharia de alimentos da UFMS e da UEMS, e apoio ao plantio no sul do estado em parceria com Agraer, Ponta Porã, Aral Moreira e Amambai.",
       "Pedido de indicação geográfica da erva-mate e do tereré de Mato Grosso do Sul no INPI, com a prefeitura financiando o estudo técnico junto com Sebrae e Semadesc; e apoio à indicação da carne do Pantanal.",
@@ -2219,7 +2219,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Engenheiros e universidades: o elo que falta",
+     "titulo": "Propostas para 2036 · Engenheiros e universidades: o elo que falta",
      "texto": [
       "Pedir ao MTE (RAIS por CBO) e ao Inep (microdados do Censo da Educação Superior) o número de engenheiros empregados e formados em Campo Grande, e publicar todo ano.",
       "Bolsa Engenheiro na Fábrica: a prefeitura e a empresa dividem a bolsa de estágio e do primeiro emprego de engenheiros formados na UFMS e na UEMS em indústrias da capital.",
@@ -2340,7 +2340,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · De nada adianta formar se não houver renda",
+     "titulo": "Propostas para 2036 · De nada adianta formar se não houver renda",
      "texto": [
       "Todo incentivo municipal com contrapartida de vagas de nível técnico e superior, publicada e verificada todo ano.",
       "Programa municipal de compra pública de inovação pelo Marco Legal das Startups, com ao menos cinco desafios da cidade por ano abertos a empresas locais.",
@@ -2421,7 +2421,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Licenças, taxas e profissionais liberais",
+     "titulo": "Propostas para 2036 · Licenças, taxas e profissionais liberais",
      "texto": [
       "Balcão único de licenças: alvará, licença sanitária e licença ambiental num só pedido, com um só prazo e aprovação automática quando o prazo vencer sem resposta, como permite a Lei de Liberdade Econômica (Lei 13.874/2019, art. 3º, IX).",
       "Publicar todo mês o tempo médio de cada licença, por tipo de atividade, e o estoque de pedidos parados.",
@@ -2563,7 +2563,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Preferência aos profissionais da cidade, sem fechar o mercado",
+     "titulo": "Propostas para 2036 · Preferência aos profissionais da cidade, sem fechar o mercado",
      "texto": [
       "Incluir na LC municipal 142/2009 a prioridade à micro e pequena empresa sediada em Campo Grande ou na região, até 10% acima do melhor preço, como permite a LC 123/2006 (art. 48, §3º), com relatório anual do custo.",
       "Dividir em lotes os contratos de projeto, laudo, perícia, topografia e consultoria, e usar o concurso de projeto para as obras públicas de arquitetura.",
@@ -2688,7 +2688,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Renda e desigualdade",
+     "titulo": "Propostas para 2036 · Renda e desigualdade",
      "texto": [
       "Medir cada programa de emprego e renda pelo teste do bispo Ketteler: quanto aumentou a renda de quem mora no Anhanduizinho, no Lagoa e no Imbirussu."
      ]
@@ -3113,10 +3113,10 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quanto ganha quem trabalha",
+     "titulo": "Propostas para 2036 · Quanto ganha quem trabalha",
      "texto": [
       "Painel municipal anual das rendas do trabalho: faixa de remuneração por setor e por região, com os dados da RAIS (formais) e do Censo e da PNAD (todos os trabalhos), publicado pela prefeitura com a fonte de cada número.",
-      "Meta pública do programa de desenvolvimento medida em renda, e não só em vagas: elevar a fatia dos ocupados com mais de 3 salários mínimos de cerca de 24% (2022) para 30% em 2032.",
+      "Meta pública do programa de desenvolvimento medida em renda, e não só em vagas: elevar a fatia dos ocupados com mais de 3 salários mínimos de cerca de 24% (2022) para 30% em 2036.",
       "Incentivo municipal (Capítulo 2) condicionado ao salário: desconto maior de ISS e IPTU para empresas que paguem salário médio acima de 3 salários mínimos, conferido na RAIS.",
       "Programa de qualificação e creche dirigido às mulheres das faixas de até 1 salário mínimo, ligado às vagas das empresas atraídas (Capítulo 9)."
      ]
@@ -3132,7 +3132,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Emprego formal e informal",
+     "titulo": "Propostas para 2036 · Emprego formal e informal",
      "texto": [
       "Um balcão de emprego em cada CRAS, ligado ao Sine, para que a família do Cadastro Único chegue à vaga e ao curso (Capítulo 14).",
       "Formalizar o pequeno negócio: Sala do Empreendedor nos bairros, para abrir o MEI, emitir nota e chegar ao crédito."
@@ -3149,7 +3149,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Jovens e primeiro emprego",
+     "titulo": "Propostas para 2036 · Jovens e primeiro emprego",
      "texto": [
       "Exigir e fiscalizar a cota de aprendiz nas empresas contratadas pela prefeitura.",
       "Ensino técnico com o Senai e o IFMS desenhado para as vagas do polo industrial do Capítulo 2."
@@ -3222,7 +3222,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quantos são os servidores",
+     "titulo": "Propostas para 2036 · Quantos são os servidores",
      "texto": [
       "Publicar todo ano o quadro de pessoal por vínculo (efetivo, comissionado, temporário), por secretaria e por cargo.",
       "Trocar, aos poucos, temporários por concursados nas funções permanentes, como professor, assistente de educação infantil e médico, dentro do limite da LRF."
@@ -3300,7 +3300,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O peso do funcionalismo público",
+     "titulo": "Propostas para 2036 · O peso do funcionalismo público",
      "texto": [
       "Publicar, com o estado e a União, o número de servidores e a folha paga em Campo Grande por esfera e por órgão, a partir da RAIS e dos portais de transparência.",
       "Na prefeitura, quadro de pessoal por secretaria e por vínculo publicado todo mês, com a proporção de comissionados e contratados (4)."
@@ -3373,7 +3373,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Folha e Lei de Responsabilidade Fiscal",
+     "titulo": "Propostas para 2036 · Folha e Lei de Responsabilidade Fiscal",
      "texto": [
       "Sair do limite prudencial cortando primeiro na área-meio e nos cargos em comissão, para proteger quem está na ponta."
      ]
@@ -3575,13 +3575,13 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Previdência dos servidores",
+     "titulo": "Propostas para 2036 · Previdência dos servidores",
      "texto": [
       "Parcela da dívida vai para o fundo, não para a folha do mês: lei que deposite as parcelas num fundo capitalizado e blindado, que só possa pagar benefícios.",
       "Renegociar os juros no próximo ajuste do plano de amortização, trocando juros simples por compostos ou compensando com aporte de ativos.",
       "Aporte de patrimônio ao IMPCG: imóveis públicos sem uso (Capítulo 5), uma fatia da dívida ativa e parte das outorgas de concessões.",
       "Força-tarefa da compensação com o INSS (Comprev), que rendeu só R$ 18,8 milhões em 2025 (SICONFI, RREO Anexo 4).",
-      "Plano de equacionamento com metas públicas e aportes previsíveis em lei, com a meta de chegar a 2032 com o fundo cobrindo ao menos um ano de benefícios.",
+      "Plano de equacionamento com metas públicas e aportes previsíveis em lei, com a meta de chegar a 2036 com o fundo cobrindo ao menos um ano de benefícios.",
       "Segregação de massa: os servidores sob a previdência complementar (Emenda Constitucional 103/2019) ficam num fundo capitalizado separado, que não paga o passado.",
       "Concurso no lugar de contrato temporário nas funções permanentes, para recompor a base de contribuintes do IMPCG.",
       "Governança: dirigentes e conselheiros certificados, adesão ao Pró-Gestão do Ministério da Previdência, servidores no conselho fiscal e política de investimento que proíba papéis de bancos de risco (o caso do Banco Master).",
@@ -3612,7 +3612,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Carreiras",
+     "titulo": "Propostas para 2036 · Carreiras",
      "texto": [
       "Publicar a folha por carreira e por lotação, para separar quem atende o cidadão de quem está na área-meio.",
       "Carreira com avaliação de desempenho ligada à meta do serviço: fila, vaga, atendimento."
@@ -3748,7 +3748,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Regiões e população",
+     "titulo": "Propostas para 2036 · Regiões e população",
      "texto": [
       "Orçamento e indicadores publicados por região, para que o morador do Lagoa saiba o que a prefeitura gasta e entrega no Lagoa."
      ]
@@ -3772,7 +3772,7 @@
      "cabecalho": [
       "Ideia",
       "Autor",
-      "Proposta para 2032"
+      "Proposta para 2036"
      ],
      "linhas": [
       [
@@ -3822,7 +3822,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Cidade espalhada e uso do solo",
+     "titulo": "Propostas para 2036 · Cidade espalhada e uso do solo",
      "texto": [
       "Nova lei de uso do solo com uso misto: a padaria, o consultório e a oficina de volta à rua de casas.",
       "IPTU progressivo no tempo sobre o vazio urbano especulativo, como prevê o Estatuto da Cidade (Capítulo 11).",
@@ -3917,7 +3917,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Praças",
+     "titulo": "Propostas para 2036 · Praças",
      "texto": [
       "Programa Praça da Família: 229 praças em três padrões em quatro anos, cerca de R$ 82 milhões (estimativa do autor), com zelador e manutenção desde o primeiro dia.",
       "Adoção de praças por associações, paróquias e empresas do bairro, com termo público.",
@@ -4027,9 +4027,9 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Parques",
+     "titulo": "Propostas para 2036 · Parques",
      "texto": [
-      "Um parque em cada região até 2032, começando pelo Anhanduizinho, pelo Lagoa e pelo Imbirussu, aproveitando os fundos de vale dos córregos como parques lineares que também ajudam na drenagem.",
+      "Um parque em cada região até 2036, começando pelo Anhanduizinho, pelo Lagoa e pelo Imbirussu, aproveitando os fundos de vale dos córregos como parques lineares que também ajudam na drenagem.",
       "Requalificar os parques municipais existentes, a começar pelo Sóter, com orçamento anual de manutenção previsto na lei orçamentária, e não só obra.",
       "Lista pública dos parques e áreas verdes, com área, estado e responsável, e prestação de contas das 54 adoções por empresas.",
       "Programação permanente nos parques, esporte, música da terra e feira, junto com a cultura (Capítulo 13), porque parque usado é parque cuidado."
@@ -4161,13 +4161,13 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Asfalto e a manutenção das ruas",
+     "titulo": "Propostas para 2036 · Asfalto e a manutenção das ruas",
      "texto": [
       "Inventário público da malha viária: quilômetros por região, asfaltados ou não, e um índice de condição de cada trecho, atualizado todo ano.",
       "Trocar o remendo pelo recapeamento planejado, com garantia de cinco anos do empreiteiro e prioridade para as ruas com linha de ônibus, escola e posto de saúde.",
       "Tapa-buraco com medição aberta: cada buraco com foto, local e data antes e depois, e pagamento só pelo que foi conferido.",
       "Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila.",
-      "Plano Asfalto 2032: em oito anos, asfaltar com drenagem os 1.000 km de terra e recapear os 2.380 km comprometidos, com meta anual por região publicada e financiamento de longo prazo dentro do limite de dívida."
+      "Plano Asfalto 2036: em oito anos, asfaltar com drenagem os 1.000 km de terra e recapear os 2.380 km comprometidos, com meta anual por região publicada e financiamento de longo prazo dentro do limite de dívida."
      ]
     },
     {
@@ -4232,7 +4232,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Bairros ricos, médios e pobres",
+     "titulo": "Propostas para 2036 · Bairros ricos, médios e pobres",
      "texto": [
       "Levar emprego aos bairros pobres: os polos industriais e de serviços do Capítulo 2 no Anhanduizinho, no Lagoa e no Imbirussu, com incentivo do ISS ligado a vagas para moradores da região.",
       "Publicar todo ano um retrato econômico por região: renda, emprego formal, empresas abertas, valor venal médio, gasto da prefeitura por habitante.",
@@ -4316,7 +4316,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Iluminação pública",
+     "titulo": "Propostas para 2036 · Iluminação pública",
      "texto": [
       "Relatório anual da COSIP: quanto entrou, quanto foi para energia, manutenção, expansão e telegestão, e quanto sobrou.",
       "Contrato único de iluminação por desempenho, pago por ponto aceso, com conserto em até 48 horas e mapa público dos pontos apagados.",
@@ -4419,7 +4419,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Água, esgoto e drenagem",
+     "titulo": "Propostas para 2036 · Água, esgoto e drenagem",
      "texto": [
       "Revisão do contrato de água e esgoto com outorga variável, aproveitando a auditoria em curso (6.5), e publicação anual dos indicadores por região.",
       "Ligação social de esgoto: a prefeitura paga a obra dentro do lote para famílias do Cadastro Único com rede na porta, cerca de 20 mil imóveis em oito anos, R$ 30 a 50 milhões (hipótese do autor, a conferir com a concessionária).",
@@ -4519,7 +4519,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Lixo, reciclagem e energia",
+     "titulo": "Propostas para 2036 · Lixo, reciclagem e energia",
      "texto": [
       "Meta de reciclagem e compostagem de 20% em oito anos, com ecopontos em todas as regiões, cooperativas pagas por tonelada triada e um Câmbio Verde campo-grandense ligado à agricultura familiar.",
       "Pátio de compostagem dos resíduos de feiras, Ceasa, poda e grandes geradores.",
@@ -4830,7 +4830,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quanto custa uma cidade toda urbanizada",
+     "titulo": "Propostas para 2036 · Quanto custa uma cidade toda urbanizada",
      "texto": [
       "Inventário urbano por região no primeiro ano: malha viária, calçadas, drenagem, árvores, praças e iluminação, publicado em mapa aberto.",
       "Plano de urbanização por região com meta anual e a regra de que as regiões de renda mais baixa recebem mais investimento por morador.",
@@ -5138,7 +5138,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quem mora em cada região: casas, idades e renda",
+     "titulo": "Propostas para 2036 · Quem mora em cada região: casas, idades e renda",
      "texto": [
       "Usar a renda e a idade de cada região como critério público de prioridade no orçamento: creches onde estão os bebês, cuidado ao idoso onde estão os idosos, praças e postos onde a renda é menor.",
       "Programa de ocupação dos domicílios vagos do Centro (6.250 em 2022), com IPTU progressivo para imóvel vazio e moradia no centro (Capítulo 5).",
@@ -5265,7 +5265,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Uma indústria do lixo para a região?",
+     "titulo": "Propostas para 2036 · Uma indústria do lixo para a região?",
      "texto": [
       "Criar o consórcio público intermunicipal de resíduos da região de Campo Grande, com a capital e os 17 municípios vizinhos, para contratar em conjunto a destinação e a valorização do lixo.",
       "Publicar o preço por tonelada cobrado hoje dos municípios conveniados e o custo da destinação dentro do contrato da Solurb.",
@@ -5545,7 +5545,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Receita própria e dependência",
+     "titulo": "Propostas para 2036 · Receita própria e dependência",
      "texto": [
       "Atrair indústria também como política de receita: cada fábrica aumenta a fatia do município no ICMS (Capítulo 2).",
       "Atualizar a planta de valores e o cadastro do IPTU com geoprocessamento, cobrando de quem não paga antes de subir a alíquota de quem paga."
@@ -5646,7 +5646,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Dívida",
+     "titulo": "Propostas para 2036 · Dívida",
      "texto": [
       "Novo empréstimo só com projeto, retorno e custo publicados antes do voto na Câmara.",
       "Zerar os parcelamentos de contribuições previdenciárias e tributos não recolhidos."
@@ -5667,7 +5667,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Reforma tributária e o fim do ISS",
+     "titulo": "Propostas para 2036 · Reforma tributária e o fim do ISS",
      "texto": [
       "Usar a transição de 2029 a 2032 para fixar uma alíquota municipal de IBS baixa, compensada pelas receitas fora dos impostos do subtópico seguinte."
      ]
@@ -5700,7 +5700,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Receitas fora dos impostos",
+     "titulo": "Propostas para 2036 · Receitas fora dos impostos",
      "texto": [
       "Renegociar o contrato de água e esgoto, aproveitando a auditoria em curso, com outorga variável de 3% a 5% do faturamento paga pela margem da concessionária, sem aumento de tarifa.",
       "Nova concessão do estacionamento rotativo, vago desde 2022, com outorga e participação na receita.",
@@ -5780,7 +5780,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quem pode pagar mais: casos no mundo",
+     "titulo": "Propostas para 2036 · Quem pode pagar mais: casos no mundo",
      "texto": [
       "IPTU progressivo pelo valor do imóvel, com isenção ampliada para a casa popular e simulação pública de quem paga mais e quem paga menos antes de votar.",
       "Contribuição de melhoria nas obras grandes, como corredores, parques e drenagem, cobrada dos imóveis que mais valorizam e dividida pela capacidade de pagamento, como em Medellín.",
@@ -5872,7 +5872,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · IPTU: quem paga, quanto e como fazer mais justo",
+     "titulo": "Propostas para 2036 · IPTU: quem paga, quanto e como fazer mais justo",
      "texto": [
       "Publicar a base do IPTU: imóveis por faixa de valor venal e por região, quanto cada faixa paga, isenções, descontos e dívida ativa.",
       "Revisar a Planta Genérica de Valores por lei, com os preços do ITBI e do mercado, transição de quatro anos e teto de aumento anual por imóvel.",
@@ -5962,7 +5962,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Um banco da cidade?",
+     "titulo": "Propostas para 2036 · Um banco da cidade?",
      "texto": [
       "Criar por lei a moeda social de Campo Grande, para pagar benefícios municipais no comércio dos bairros, com lastro em reais e operação por associação comunitária, nos moldes de Maricá e Niterói.",
       "Fundo municipal de aval e microcrédito para o pequeno empreendedor, formal e informal, operado por banco ou instituição de microcrédito autorizada, com a Funsat orientando o tomador.",
@@ -6141,7 +6141,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A arrecadação em detalhe",
+     "titulo": "Propostas para 2036 · A arrecadação em detalhe",
      "texto": [
       "Publicar todo ano o ISS por atividade econômica e por porte de empresa, e o IPTU por uso (residencial, comercial, terreno), por região.",
       "Publicar o estoque da dívida ativa por tributo e por idade, a taxa de recuperação e os cem maiores devedores, como já fazem estados e a União.",
@@ -6217,7 +6217,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Contas em atraso e decisões judiciais",
+     "titulo": "Propostas para 2036 · Contas em atraso e decisões judiciais",
      "texto": [
       "Plano de quitação dos restos a pagar em dois anos, com ordem cronológica pública de pagamento por fornecedor, como manda a Lei 14.133/2021 (art. 141).",
       "Relatório anual das decisões judiciais pagas: precatórios, requisições de pequeno valor e ordens da saúde, com valor, objeto e secretaria, para atacar as causas da judicialização.",
@@ -6524,7 +6524,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Os repasses da União e do estado: quanto vem e por que muda",
+     "titulo": "Propostas para 2036 · Os repasses da União e do estado: quanto vem e por que muda",
      "texto": [
       "Painel público dos repasses, atualizado todo mês: cada transferência da União e do estado, obrigatória ou voluntária, com data, valor e destino, e as emendas por parlamentar.",
       "Banco de projetos prontos (asfalto, drenagem, creche, posto) para captar convênios e emendas assim que abrirem, com equipe de captação na Segov.",
@@ -6723,7 +6723,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Um banco para o servidor, depois para a cidade",
+     "titulo": "Propostas para 2036 · Um banco para o servidor, depois para a cidade",
      "texto": [
       "Novo decreto de consignação: teto de juros para quem desconta na folha da prefeitura e do IMPCG (referência: o teto do consignado do INSS), fim do cartão benefício acima desse teto e portabilidade gratuita.",
       "Auditoria pública dos contratos de consignado e cartão benefício da Credcesta e do Banco Master, com a lista de servidores afetados e mutirão de troca de dívida.",
@@ -6793,7 +6793,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quanto a cidade paga de tributos, e quanto volta",
+     "titulo": "Propostas para 2036 · Quanto a cidade paga de tributos, e quanto volta",
      "texto": [
       "Painel anual 'quanto Campo Grande pagou e quanto voltou', no portal da prefeitura, com o método e as fontes.",
       "Defender na Assembleia mais peso para população, educação e saúde na parte do índice do ICMS que a lei estadual define, enquanto o ICMS existir.",
@@ -7026,7 +7026,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Para onde vai o dinheiro",
+     "titulo": "Propostas para 2036 · Para onde vai o dinheiro",
      "texto": [
       "Recuperar o investimento pelo menos ao nível de 2022 (R$ 284 milhões) até 2030, com a folha e o custeio crescendo menos que a receita."
      ]
@@ -7095,7 +7095,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Como se decide o orçamento",
+     "titulo": "Propostas para 2036 · Como se decide o orçamento",
      "texto": [
       "Prever a receita pela média do que de fato entrou, e não pela meta.",
       "Publicar a cada quadrimestre o previsto e o realizado de cada programa, em linguagem simples.",
@@ -7157,7 +7157,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Concessões e contratos",
+     "titulo": "Propostas para 2036 · Concessões e contratos",
      "texto": [
       "Agência reguladora (Agereg) com metas de serviço em cada contrato e relatório público anual.",
       "Renegociar os contratos críticos: transporte, saneamento, limpeza urbana e terminal de cargas.",
@@ -7334,10 +7334,10 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A despesa em detalhe",
+     "titulo": "Propostas para 2036 · A despesa em detalhe",
      "texto": [
       "Publicar todo ano a lista dos cem maiores fornecedores por valor pago, com o objeto do contrato e a secretaria.",
-      "Meta de investimento de pelo menos 7% da receita até 2032, com a folha abaixo do limite prudencial de 51,3% da receita corrente líquida."
+      "Meta de investimento de pelo menos 7% da receita até 2036, com a folha abaixo do limite prudencial de 51,3% da receita corrente líquida."
      ]
     },
     {
@@ -7456,7 +7456,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quanto custam a Câmara e os órgãos de apoio",
+     "titulo": "Propostas para 2036 · Quanto custam a Câmara e os órgãos de apoio",
      "texto": [
       "Câmara gastando até 4% da base constitucional, e não 4,5%, com devolução anual da sobra do duodécimo ao caixa da prefeitura e meta pública de custo por habitante.",
       "Verba de gabinete com prestação de contas por nota, mês a mês, e teto menor.",
@@ -7469,7 +7469,7 @@
     {
      "tipo": "subtopico",
      "numero": "7.6",
-     "texto": "O que sobra para escolher: o caixa até 2032"
+     "texto": "O que sobra para escolher: o caixa até 2036"
     },
     {
      "tipo": "h3",
@@ -7535,11 +7535,11 @@
     },
     {
      "tipo": "h3",
-     "texto": "E até 2032, se nada mudar?"
+     "texto": "E até 2036, se nada mudar?"
     },
     {
      "tipo": "tabela",
-     "legenda": "Margem livre e resultado de caixa, 2026–2032 (estimativa do autor, R$ milhões de 2026)",
+     "legenda": "Margem livre e resultado de caixa, 2026–2036 (estimativa do autor, R$ milhões de 2026)",
      "cabecalho": [
       "Ano",
       "Receita",
@@ -7604,12 +7604,44 @@
        "−94",
        "−723",
        "−3.645"
+      ],
+      [
+       "2033",
+       "6.857",
+       "6.993",
+       "−136",
+       "−767",
+       "−4.412"
+      ],
+      [
+       "2034",
+       "6.963",
+       "7.142",
+       "−178",
+       "−813",
+       "−5.225"
+      ],
+      [
+       "2035",
+       "7.071",
+       "7.295",
+       "−223",
+       "−861",
+       "−6.086"
+      ],
+      [
+       "2036",
+       "7.181",
+       "7.451",
+       "−270",
+       "−911",
+       "−6.997"
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Hipóteses do autor, acima da inflação: receita própria +2% ao ano; transferências +1,5%; folha dos ativos +1,5%; aposentadorias +5% (cenário base do 4.4); custeio +1%; empréstimo de R$ 476,7 milhões da Caixa recebido de 2027 a 2029 e gasto em obra; investimento de R$ 300 milhões por ano. A margem livre fica negativa em 2030, sobretudo pelas aposentadorias, que passam de R$ 830 milhões para cerca de R$ 1,1 bilhão. O empréstimo da Caixa esconde o aperto de 2027 a 2029. O mandato de 2029 a 2032 começa sem margem, com déficit estrutural de R$ 450 a 700 milhões por ano. A planilha com o mês a mês e a sensibilidade está em fluxo-de-caixa-prefeitura.xlsx."
+     "texto": "Hipóteses do autor, acima da inflação: receita própria +2% ao ano; transferências +1,5%; folha dos ativos +1,5%; aposentadorias +5% (cenário base do 4.4); custeio +1%; empréstimo de R$ 476,7 milhões da Caixa recebido de 2027 a 2029 e gasto em obra; investimento de R$ 300 milhões por ano. A margem livre fica negativa em 2030, sobretudo pelas aposentadorias, que passam de R$ 830 milhões para cerca de R$ 1,1 bilhão. O empréstimo da Caixa esconde o aperto de 2027 a 2029. O primeiro mandato, de 2029 a 2032, começa sem margem, com déficit estrutural de R$ 450 a 700 milhões por ano; no segundo, de 2033 a 2036, o déficit passa de R$ 750 para R$ 900 milhões por ano, e o acumulado desde 2026 chega a cerca de R$ 7 bilhões, se nada mudar (estimativa do autor, mesmas hipóteses). A planilha com o mês a mês e a sensibilidade está em fluxo-de-caixa-prefeitura.xlsx."
     },
     {
      "tipo": "tabela",
@@ -7673,7 +7705,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que sobra para escolher: o caixa até 2032",
+     "titulo": "Propostas para 2036 · O que sobra para escolher: o caixa até 2036",
      "texto": [
       "Plano fiscal de 8 anos aprovado em lei no primeiro ano do mandato, com as três frentes juntas: arrecadação, contratos e previdência.",
       "Publicar todo mês o fluxo de caixa da prefeitura e a margem livre, com os restos a pagar.",
@@ -7712,7 +7744,7 @@
     "7.3 Concessões e contratos",
     "7.4 A despesa em detalhe",
     "7.5 Quanto custam a Câmara e os órgãos de apoio",
-    "7.6 O que sobra para escolher: o caixa até 2032"
+    "7.6 O que sobra para escolher: o caixa até 2036"
    ]
   },
   {
@@ -8528,7 +8560,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Unidades de atendimento",
+     "titulo": "Propostas para 2036 · Unidades de atendimento",
      "texto": [
       "Novos postos onde há mais gente por posto, começando pelo Prosa e pelo Centro, com cerca de 19 mil e 21 mil moradores por posto.",
       "Pronto atendimento no Anhanduizinho, a região com mais postos e sem UPA.",
@@ -8555,7 +8587,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Médicos e profissionais",
+     "titulo": "Propostas para 2036 · Médicos e profissionais",
      "texto": [
       "Concurso e carreira para as equipes de Saúde da Família, para fixar o médico no posto: médico há na cidade, falta a rede pública contratar.",
       "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos."
@@ -8576,7 +8608,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Remédios",
+     "titulo": "Propostas para 2036 · Remédios",
      "texto": [
       "Publicar todo mês a lista de remédios em falta, posto a posto.",
       "Compra planejada por ata de registro de preços e consórcio com outros municípios, com estoque mínimo dos remédios de uso contínuo para pressão e diabetes."
@@ -8638,7 +8670,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Filas de exames e cirurgias",
+     "titulo": "Propostas para 2036 · Filas de exames e cirurgias",
      "texto": [
       "Publicar todo mês a fila por especialidade, com o tempo de espera.",
       "Confirmar consulta e exame por mensagem, para recuperar as vagas perdidas por falta.",
@@ -8664,7 +8696,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Urgência e hospitais",
+     "titulo": "Propostas para 2036 · Urgência e hospitais",
      "texto": [
       "Contratos com a Santa Casa e os hospitais conveniados por meta: leitos efetivamente abertos, tempo de espera na UPA e pacientes no corredor."
      ]
@@ -8765,7 +8797,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Atendimentos, custo e qualidade",
+     "titulo": "Propostas para 2036 · Atendimentos, custo e qualidade",
      "texto": [
       "Medir resultado e não só volume: tempo até o especialista, controle da pressão e do diabetes, satisfação do paciente, publicados posto a posto."
      ]
@@ -8785,7 +8817,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A criança atípica",
+     "titulo": "Propostas para 2036 · A criança atípica",
      "texto": [
       "Rastrear o autismo nos postos entre 16 e 30 meses.",
       "Pagar as filantrópicas por produção, com meta pública de fila: a sociedade organizada atende, a prefeitura financia e fiscaliza."
@@ -8919,10 +8951,10 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Demanda, oferta e déficit",
+     "titulo": "Propostas para 2036 · Demanda, oferta e déficit",
      "texto": [
       "Publicar todo quadrimestre, no relatório da saúde à Câmara, a tabela de demanda, oferta e déficit: equipes, leitos, filas por especialidade e remédios em falta, com o custo de fechar cada uma.",
-      "Chegar às 276 equipes de Saúde da Família até 2032, cerca de oito equipes novas por ano, com custo de cerca de R$ 14 milhões a mais a cada ano (cálculo do autor).",
+      "Chegar às 276 equipes de Saúde da Família até 2036, cerca de oito equipes novas por ano, com custo de cerca de R$ 14 milhões a mais a cada ano (cálculo do autor).",
       "Orçar o remédio básico pela necessidade, cerca de R$ 95 milhões por ano, e não pelo gasto do ano anterior.",
       "Pactuar com o estado e a União os leitos que cabem à capital como polo de todo o estado, com contrato, meta e pagamento pela parte do interior."
      ]
@@ -9008,7 +9040,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Um hospital municipal",
+     "titulo": "Propostas para 2036 · Um hospital municipal",
      "texto": [
       "Hospital Municipal próprio, de cerca de 260 leitos, no Anhanduizinho, construído com financiamento federal ou de banco público em vez de aluguel de 20 anos, aberto até o 4º ano do mandato.",
       "Gestão por organização social com contrato de metas públicas (tempo de espera, ocupação, mortalidade, custo por internação) e prestação de contas trimestral.",
@@ -9123,7 +9155,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Santa Casa: o jogo de empurra entre os governos",
+     "titulo": "Propostas para 2036 · Santa Casa: o jogo de empurra entre os governos",
      "texto": [
       "Contrato tripartite único (União, estado e prefeitura) com a Santa Casa, com valor por leito-dia e por procedimento fixado por auditoria independente de custos, metas de leitos abertos e de espera, e vigência de cinco anos, no lugar dos aditivos emergenciais.",
       "Calendário de repasses por lei: estado e prefeitura pagam a sua cota até o 5º dia útil, e o complemento federal do piso da enfermagem é repassado em até cinco dias úteis do depósito.",
@@ -9312,7 +9344,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Mapa das escolas",
+     "titulo": "Propostas para 2036 · Mapa das escolas",
      "texto": [
       "Um mapa público das escolas por região, com as três redes, vagas, fila e resultado de aprendizagem, para planejar onde abrir turma e onde fazer escola nova.",
       "Planejamento conjunto de vagas entre prefeitura e estado (regime de colaboração), para que nenhum bairro fique sem escola de anos finais ou de ensino médio perto de casa."
@@ -9379,7 +9411,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Creches e vagas",
+     "titulo": "Propostas para 2036 · Creches e vagas",
      "texto": [
       "Publicar todo mês a fila por Emei e por região, como manda a Lei municipal 7.286/2024.",
       "Vaga na rede particular credenciada onde a Emei não chega."
@@ -9401,7 +9433,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Infraestrutura",
+     "titulo": "Propostas para 2036 · Infraestrutura",
      "texto": [
       "Terminar as Emeis paradas antes de começar novas, com o dinheiro federal que já existe.",
       "Inventário público das escolas e Emeis: reforma pendente, climatização, acessibilidade, quadra e cozinha."
@@ -9422,7 +9454,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Mães solo",
+     "titulo": "Propostas para 2036 · Mães solo",
      "texto": [
       "Prioridade pública na fila para o bebê de mãe solo que trabalha ou estuda, para que a vaga não dependa de ação judicial.",
       "Creche em tempo integral nas regiões de maior fila, para liberar a mãe para o trabalho."
@@ -9443,7 +9475,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Alimentação escolar",
+     "titulo": "Propostas para 2036 · Alimentação escolar",
      "texto": [
       "Cozinha aberta nas férias nas regiões de menor renda.",
       "A merenda separada no orçamento, na subfunção própria, para saber quanto a cidade gasta.",
@@ -9461,7 +9493,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Professores",
+     "titulo": "Propostas para 2036 · Professores",
      "texto": [
       "Concurso para as vagas permanentes de professor, com a conta da folha feita antes e publicada.",
       "Formação continuada ligada à aprendizagem medida em sala, e meta de alfabetização na idade certa por escola."
@@ -9482,7 +9514,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Educação inclusiva",
+     "titulo": "Propostas para 2036 · Educação inclusiva",
      "texto": [
       "Concurso e carreira para o assistente educacional inclusivo.",
       "O gasto com educação especial lançado na sua subfunção, para saber quanto custa a inclusão."
@@ -9570,7 +9602,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A UFMS, a UEMS e a economia da cidade",
+     "titulo": "Propostas para 2036 · A UFMS, a UEMS e a economia da cidade",
      "texto": [
       "Um vale-inovação municipal, com o Sebrae, para a pequena e média empresa contratar ensaio, análise ou projeto num laboratório da UFMS, da UEMS ou do IFMS.",
       "Estágio alternado com as empresas dos polos industriais, nos cursos ligados às indústrias que a cidade quer atrair (Capítulo 2).",
@@ -9642,12 +9674,12 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Empresas e escolas",
+     "titulo": "Propostas para 2036 · Empresas e escolas",
      "texto": [
       "Pacto da aprendizagem: prefeitura, Ministério Público do Trabalho, Senai, Senac e associações empresariais para preencher as 1.821 vagas de aprendiz em aberto, com prioridade para jovens das regiões mais pobres (5.6).",
       "Itinerário técnico dual com o estado: cursos de ensino médio desenhados com as empresas dos polos industriais, metade do tempo na prática, com Senai, Senac e IFMS.",
       "Programa Empresa Amiga da Escola: a empresa que adota uma escola municipal, com laboratório, mentoria ou estágio, recebe selo público e preferência como critério de desempate nos programas da prefeitura.",
-      "Uma escola no modelo P-TECH até 2032, em parceria com a UFMS ou o IFMS e uma empresa de tecnologia ou de alimentos, com ensino médio e curso superior de tecnologia num só percurso."
+      "Uma escola no modelo P-TECH até 2036, em parceria com a UFMS ou o IFMS e uma empresa de tecnologia ou de alimentos, com ensino médio e curso superior de tecnologia num só percurso."
      ]
     },
     {
@@ -9865,7 +9897,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · A universidade produzindo com a prefeitura",
+     "titulo": "Propostas para 2036 · A universidade produzindo com a prefeitura",
      "texto": [
       "Escritório Prefeitura-Universidade, na Secretaria de Governo, com uma carteira anual de problemas da cidade abertos à UFMS e à UEMS, e um responsável por curso em cada universidade.",
       "Escritório de projetos de engenharia e arquitetura com a Faeng (UFMS): meta de 40 projetos executivos de obras municipais por ano.",
@@ -9953,7 +9985,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O papel da prefeitura",
+     "titulo": "Propostas para 2036 · O papel da prefeitura",
      "texto": [
       "Iluminação, terreno baldio e praça tratados como política de segurança, com mapa de pontos escuros feito junto com a Guarda."
      ]
@@ -10039,7 +10071,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Efetivo e orçamento da Guarda",
+     "titulo": "Propostas para 2036 · Efetivo e orçamento da Guarda",
      "texto": [
       "Recompor o orçamento da segurança e a carreira dos guardas antes de aumentar o efetivo."
      ]
@@ -10055,7 +10087,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que a Guarda faz",
+     "titulo": "Propostas para 2036 · O que a Guarda faz",
      "texto": [
       "Ampliar a Patrulha Maria da Penha.",
       "Guarda distribuída pelas regiões conforme as ocorrências, com base fixa nas praças-polo do programa Praça da Família (Capítulo 5)."
@@ -10080,7 +10112,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Metas e resultados",
+     "titulo": "Propostas para 2036 · Metas e resultados",
      "texto": [
       "Um Plano Municipal de Segurança com metas públicas por região: homicídios, violência contra a mulher, furto no comércio e mortes no trânsito, com balanço a cada semestre."
      ]
@@ -10219,7 +10251,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Trânsito e a indústria da multa",
+     "titulo": "Propostas para 2036 · Trânsito e a indústria da multa",
      "texto": [
       "Lei municipal da multa justa: radar só onde houver estudo de acidentes publicado; mapa público de cada equipamento com multas, acidentes antes e depois e data do contrato; nenhum radar funcionando sem contrato.",
       "Advertência por escrito, em vez de multa, para a infração leve ou média de quem não tem outra em doze meses (Código de Trânsito, art. 267), como regra da cidade.",
@@ -10296,7 +10328,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Jovens longe do crime",
+     "titulo": "Propostas para 2036 · Jovens longe do crime",
      "texto": [
       "Programa Jovem Vivo em oito territórios prioritários, com núcleo diário de esporte, música e curso técnico, mentores do próprio bairro e vaga de aprendiz garantida.",
       "Pacto com as empresas para preencher as 1.821 vagas de aprendiz em aberto com jovens dos territórios prioritários (9.9).",
@@ -10404,7 +10436,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O tamanho do déficit",
+     "titulo": "Propostas para 2036 · O tamanho do déficit",
      "texto": [
       "Atacar o aluguel antes do tijolo: locação social e aluguel subsidiado, com prioridade para o Centro e os corredores de ônibus, usando os imóveis vazios.",
       "IPTU progressivo no tempo sobre o imóvel vazio e especulativo, já previsto no Estatuto da Cidade."
@@ -10529,7 +10561,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Favelas e áreas irregulares",
+     "titulo": "Propostas para 2036 · Favelas e áreas irregulares",
      "texto": [
       "Regularização fundiária em massa das 236 áreas irregulares, porque escritura é propriedade, e propriedade é crédito e segurança para a família.",
       "Saneamento junto com a escritura, começando pela Nova Esperança e pela Morada dos Angicos.",
@@ -10548,7 +10580,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que a prefeitura entrega",
+     "titulo": "Propostas para 2036 · O que a prefeitura entrega",
      "texto": [
       "Lote urbanizado com projeto-padrão para quem constrói por conta própria, a pequena propriedade espalhada que defende o Capítulo 5.",
       "Fila da habitação publicada, com critério e posição de cada família."
@@ -10719,7 +10751,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Custo de vida e o acesso à casa própria",
+     "titulo": "Propostas para 2036 · Custo de vida e o acesso à casa própria",
      "texto": [
       "Aluguel social e locação subsidiada para jovens e famílias de até três salários mínimos, com imóveis vazios do Centro (11.1), para que o aluguel não passe de 30% da renda.",
       "Entrada facilitada: um fundo municipal de complemento da entrada para quem compra o primeiro imóvel do Minha Casa, Minha Vida, somado ao subsídio federal e ao do estado.",
@@ -10846,7 +10878,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Ônibus",
+     "titulo": "Propostas para 2036 · Ônibus",
      "texto": [
       "Um contrato novo, que pague o operador por viagem cumprida e por qualidade, e não só por passageiro.",
       "Frota e pontualidade publicadas em tempo real.",
@@ -10872,7 +10904,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Corredores e a cidade do carro",
+     "titulo": "Propostas para 2036 · Corredores e a cidade do carro",
      "texto": [
       "Corredores com faixa exclusiva nas avenidas que ligam o Anhanduizinho, o Lagoa e o Bandeira ao Centro.",
       "Crescer para dentro: cada morador a mais perto do Centro e dos corredores é passageiro a mais no ônibus e carro a menos na rua."
@@ -10889,7 +10921,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Calçadas e travessias",
+     "titulo": "Propostas para 2036 · Calçadas e travessias",
      "texto": [
       "Calçada contínua e travessia segura no caminho da escola, do posto e do ponto, começando pelas regiões de maior uso do ônibus.",
       "Abrigo e informação de horário em cada ponto."
@@ -10959,7 +10991,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Preço, qualidade e o contrato que vence em 2032",
+     "titulo": "Propostas para 2036 · Preço, qualidade e o contrato que vence em 2032",
      "texto": [
       "Não prorrogar a concessão antes do prazo. Preparar desde 2029 a licitação de 2032, com estudo de demanda, consulta pública e o pedido de reequilíbrio resolvido na Justiça antes.",
       "Contrato novo em mais de um lote, para que a cidade não dependa de um só operador, com pagamento por quilômetro e viagem cumpridos, idade máxima da frota, ar-condicionado e multa automática por viagem não feita.",
@@ -11021,7 +11053,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Outros modais e o que deu certo",
+     "titulo": "Propostas para 2036 · Outros modais e o que deu certo",
      "texto": [
       "Tarifa zero aos domingos e feriados e para quem procura emprego, como primeiro passo, medindo a demanda e o custo antes de ampliar, e buscando o dinheiro federal da proposta de emenda constitucional.",
       "Dois ou três corredores de ônibus de verdade (subtópico 12.2), em vez de obra de trilho.",
@@ -11101,7 +11133,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quem anda de ônibus, de carro e de moto",
+     "titulo": "Propostas para 2036 · Quem anda de ônibus, de carro e de moto",
      "texto": [
       "Medir quem anda de quê: publicar a pesquisa origem-destino da cidade e a série mensal de passageiros por linha, e usar os dados do Censo 2022 por região no plano de mobilidade.",
       "Fazer o ônibus competir com a moto: frequência garantida nas linhas troncais, faixa exclusiva e integração temporal, porque é o tempo de viagem, mais que a tarifa, que empurra o trabalhador para a moto.",
@@ -11220,7 +11252,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Orçamento e palcos da cultura",
+     "titulo": "Propostas para 2036 · Orçamento e palcos da cultura",
      "texto": [
       "O Fundo Municipal de Investimentos Culturais (FMIC) com valor mínimo em lei e calendário que não se suspende."
      ]
@@ -11240,7 +11272,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Música da terra",
+     "titulo": "Propostas para 2036 · Música da terra",
      "texto": [
       "Pelo menos dois terços do dinheiro municipal de shows para artistas de Mato Grosso do Sul.",
       "Tabela pública de cachês e um painel de cada evento.",
@@ -11301,7 +11333,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Sossego e barulho",
+     "titulo": "Propostas para 2036 · Sossego e barulho",
      "texto": [
       "Na nova lei de uso do solo, um mapa de zonas de som pela norma técnica, com dois ou três distritos culturais, como a Esplanada Ferroviária e a Rua 14 de Julho.",
       "Licença sonora simples para o bar, com multa em reais e por porte, e crédito para isolamento acústico.",
@@ -11319,7 +11351,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Esporte e lazer",
+     "titulo": "Propostas para 2036 · Esporte e lazer",
      "texto": [
       "Quadra e escolinha esportiva nas praças-polo do programa Praça da Família (Capítulo 5).",
       "Esporte no contraturno da escola em tempo integral, nas regiões de menor renda.",
@@ -11384,7 +11416,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Atividade física para jovens e idosos",
+     "titulo": "Propostas para 2036 · Atividade física para jovens e idosos",
      "texto": [
       "Rede Campo Grande em Movimento: cem praças-polo com professor de educação física, com aulas para idosos e adultos de manhã cedo e no fim da tarde, ligadas ao posto de saúde mais próximo.",
       "Escolinhas de esporte no contraturno nas escolas municipais e nos parques da Funesp, com prioridade para o Anhanduizinho, o Lagoa e o Imbirussu.",
@@ -11534,7 +11566,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O Morenão como fonte de renda",
+     "titulo": "Propostas para 2036 · O Morenão como fonte de renda",
      "texto": [
       "Defender a concessão comum, sem pagamento do Estado ao operador, no modelo de Brasília e Goiânia: outorga, percentual da receita, investimento obrigatório e agenda mínima de shows e eventos.",
       "Contrato com metas públicas: shows e eventos por ano, público, empregos e artistas de MS na abertura dos grandes shows.",
@@ -11652,7 +11684,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Transferência de renda e a porta do CRAS",
+     "titulo": "Propostas para 2036 · Transferência de renda e a porta do CRAS",
      "texto": [
       "Cadastro Único atualizado e busca ativa, com balanço anual da secretaria mostrando famílias atendidas e fila do cadastro.",
       "Ligar o cadastro às vagas de emprego e aos cursos, em vez de manter o emprego temporário dentro da prefeitura como saída."
@@ -11719,7 +11751,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Orçamento e entidades",
+     "titulo": "Propostas para 2036 · Orçamento e entidades",
      "texto": [
       "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa."
      ]
@@ -11743,7 +11775,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · População de rua",
+     "titulo": "Propostas para 2036 · População de rua",
      "texto": [
       "Abrigo com porta de saída, que junte tratamento, documento, trabalho e aluguel social."
      ]
@@ -11768,7 +11800,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Drogas e dependência",
+     "titulo": "Propostas para 2036 · Drogas e dependência",
      "texto": [
       "Leitos de crise em hospital geral, como prevê a rede federal de atenção psicossocial.",
       "Prevenção na escola, onde a cidade lidera o uso precoce de drogas."
@@ -11881,9 +11913,9 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Demanda, oferta e déficit",
+     "titulo": "Propostas para 2036 · Demanda, oferta e déficit",
      "texto": [
-      "Plano de CRAS até 2032: chegar a 40 unidades, uma para cada 5 mil famílias do cadastro, começando pelas regiões com mais famílias inscritas, com custeio estimado de R$ 18 milhões por ano a mais ao fim do plano.",
+      "Plano de CRAS até 2036: chegar a 40 unidades, uma para cada 5 mil famílias do cadastro, começando pelas regiões com mais famílias inscritas, com custeio estimado de R$ 18 milhões por ano a mais ao fim do plano.",
       "Publicar todo mês, por CRAS, famílias referenciadas, atendimentos, cadastros atualizados e fila de espera, a partir do RMA que a prefeitura já manda ao MDS.",
       "Vagas de acolhimento com meta, até cobrir as 842 pessoas que dormem na rua, e custo por vaga publicado."
      ]
@@ -11953,7 +11985,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Uma Secretaria da Família",
+     "titulo": "Propostas para 2036 · Uma Secretaria da Família",
      "texto": [
       "Criar por lei a Secretaria da Família, com observatório que integra CadÚnico, saúde, educação, creche, habitação e CRAS por família e por bairro, e regras de proteção de dados definidas na própria lei.",
       "Busca ativa casa a casa com 200 agentes da família, junto com os agentes comunitários de saúde, começando pelas regiões do Anhanduizinho, do Lagoa e do Imbirussu (5.6).",
@@ -12038,9 +12070,9 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Os idosos",
+     "titulo": "Propostas para 2036 · Os idosos",
      "texto": [
-      "Um centro-dia para a pessoa idosa em cada uma das sete regiões até 2032, começando pelo Anhanduizinho e pelo Lagoa.",
+      "Um centro-dia para a pessoa idosa em cada uma das sete regiões até 2036, começando pelo Anhanduizinho e pelo Lagoa.",
       "Ampliar em 200 as vagas cofinanciadas de longa permanência, com fila única pública e prazo máximo de espera.",
       "Cadastro da pessoa idosa que mora sozinha ou fica sozinha de dia, feito pela Secretaria da Família (14.6) com as equipes de Saúde da Família, e visita periódica.",
       "Atividade física e convivência em todas as praças-polo, com professor de educação física (13.5)."
@@ -12130,7 +12162,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · O que as igrejas já fazem",
+     "titulo": "Propostas para 2036 · O que as igrejas já fazem",
      "texto": [
       "Um cadastro público das entidades de acolhimento por região, para que o CRAS, o posto e a escola saibam a quem encaminhar.",
       "As comunidades terapêuticas avaliadas por resultado, com equipe de saúde de referência para a fase de desintoxicação."
@@ -12155,7 +12187,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Parceria com regra clara",
+     "titulo": "Propostas para 2036 · Parceria com regra clara",
      "texto": [
       "Repasse por lei, plurianual e por resultado às entidades que prestam serviço público, religiosas ou não, com chamamento aberto e prestação de contas na internet.",
       "Respeito à liberdade de todas as confissões, inclusive na regra do silêncio, que deve ser a mesma para o templo, o bar e o show (Capítulo 13)."
@@ -12193,7 +12225,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Quanto a prefeitura repassa às entidades?",
+     "titulo": "Propostas para 2036 · Quanto a prefeitura repassa às entidades?",
      "texto": [
       "Lista pública e anual de todos os convênios e termos de colaboração com entidades, com valor, objeto, meta, vagas e resultado, por região.",
       "Custo por vaga de acolhimento (idoso, criança, dependente químico) apurado e publicado, igual para entidades religiosas e não religiosas.",
@@ -12238,7 +12270,7 @@
    "numero": 16,
    "slug": "consideracoes-finais",
    "titulo": "Considerações finais",
-   "chamada": "A Campo Grande de 2032 em poucas páginas: o diagnóstico, as propostas separadas pelo que depende de quem, e uma prioridade para cada região.",
+   "chamada": "A Campo Grande de 2036 em poucas páginas: o diagnóstico, as propostas separadas pelo que depende de quem, e uma prioridade para cada região.",
    "situacao": "texto",
    "sugestao": false,
    "blocos": [
@@ -12468,7 +12500,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Receita e déficits: o quadro geral",
+     "titulo": "Propostas para 2036 · Receita e déficits: o quadro geral",
      "texto": [
       "Painel público trimestral de receita e déficit: receita própria e transferências, e para cada serviço a demanda, a oferta, o déficit e o custo de fechá-lo, por região.",
       "Lei de Diretrizes Orçamentárias com meta de déficit por serviço, e cada receita nova ligada a um déficit que ela vai fechar.",
@@ -12761,7 +12793,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Plano de metas de 8 anos: quanto custa cada projeto",
+     "titulo": "Propostas para 2036 · Plano de metas de 8 anos: quanto custa cada projeto",
      "texto": [
       "Lei do Plano de Metas: o prefeito eleito apresenta, em 90 dias, metas por serviço e por região para os oito anos, com custo, fonte e prazo, e presta contas a cada seis meses.",
       "Plano fiscal antes do plano de metas: a lei do plano de metas só vale com o plano fiscal de 8 anos do 7.6 aprovado junto, e cada projeto novo de custeio entra quando houver receita própria nova ou corte equivalente.",
@@ -13048,7 +13080,7 @@
     },
     {
      "tipo": "propostas",
-     "titulo": "Propostas para 2032 · Orçamento dos déficits: quantidades, valores, secretarias e fundos",
+     "titulo": "Propostas para 2036 · Orçamento dos déficits: quantidades, valores, secretarias e fundos",
      "texto": [
       "Anexo de déficits na Lei Orçamentária: para cada secretaria e cada fundo, a quantidade que falta, a meta do ano e o valor previsto, como nesta tabela.",
       "Conselhos dos fundos (saúde, assistência, habitação, cultura) aprovando e acompanhando a meta física, e não só o valor."
@@ -13109,7 +13141,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Campo Grande tem espaço, gente e história para ser, em 2032, a capital onde o trabalho sustenta a família, onde se mora perto de onde se vive e onde a prefeitura presta contas do que faz. Os capítulos mostraram o caminho; o resto é decisão."
+     "texto": "Campo Grande tem espaço, gente e história para ser, em 2036, a capital onde o trabalho sustenta a família, onde se mora perto de onde se vive e onde a prefeitura presta contas do que faz. Os capítulos mostraram o caminho; o resto é decisão."
     }
    ],
    "regiao": {
