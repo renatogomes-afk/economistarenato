@@ -201,7 +201,7 @@
       ],
       [
        "População (Censo)",
-       "897.938 habitantes, cerca de 33% do estado",
+       "898.100 habitantes, cerca de 33% do estado",
        "2022"
       ],
       [
@@ -1066,7 +1066,7 @@
      "titulo": "Propostas para 2032 · O que o Japão ensina a uma capital do interior",
      "texto": [
       "Lei municipal de setores prioritários: três ou quatro apostas escolhidas por critério publicado (demanda que cresce com a renda e espaço para ganho de produtividade), revistas a cada quatro anos.",
-      "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 2.1).",
+      "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 2.2).",
       "Programa Campo Grande Fornecedora: cadastro e qualificação de empresas da capital para vender serviços e manutenção às fábricas de celulose e aos frigoríficos do interior.",
       "Parque tecnológico com UFMS e UEMS em área industrial com moradia por perto, no modelo das Tecnópolis (9.8).",
       "Selo Feito em Campo Grande para produtos com identidade local, com apoio técnico e ponto de venda, no modelo de Oita.",
@@ -1394,7 +1394,7 @@
      "titulo": "Propostas para 2032 · Quem fica com o PIB: salário, lucro e imposto",
      "texto": [
       "Pedir ao IBGE e à Semadesc o PIB pela ótica da renda por município, ao menos para as cidades grandes, como já se faz para os estados.",
-      "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (2.1) em número."
+      "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (2.2) em número."
      ]
     },
     {
@@ -2928,14 +2928,14 @@
        "Total",
        "R$ 53 milhões (0,1% do PIB)",
        "R$ 141 milhões (0,3%)",
-       "R$ 277 milhões (0,55%)",
+       "R$ 277 milhões (0,5%)",
        "1.150 / 3.200 / 6.400"
       ]
      ]
     },
     {
      "tipo": "p",
-     "texto": "Hipóteses do autor. Erva: indústrias da cidade faturando R$ 100, 250 ou 500 milhões, com 30% de valor adicionado e um emprego para cada R$ 656 mil de faturamento, a média da indústria de alimentos do país (ABIA, 2025: R$ 1,39 trilhão e 2,12 milhões de empregos, via Agência Brasil, 10/03/2026). Turismo: 30, 80 ou 150 mil pernoites a mais de quem vai a Bonito, que recebeu 293.712 turistas em 2025 (Observatório de Turismo de Bonito), e ao Bioparque, onde quase metade do público das férias de julho de 2025 veio de fora de MS (Correio do Estado, 07/08/2025), a R$ 450 a 550 por dia, mais 15, 40 ou 80 mil visitantes de fora em quatro festivais, a R$ 600 cada; metade do gasto vira valor adicionado; um posto para cada R$ 29,6 mil de gasto (turismo de eventos do Ceará, 2025). Produtos com selo: R$ 30, 80 ou 150 milhões vendidos fora, 35% de valor adicionado, um posto a cada R$ 200 mil. Artesanato: R$ 3, 8 ou 15 milhões em vendas. PIB da cidade de cerca de R$ 50 bilhões (estimativa deste capítulo)."
+     "texto": "Hipóteses do autor. Erva: indústrias da cidade faturando R$ 100, 250 ou 500 milhões, com 30% de valor adicionado e um emprego para cada R$ 656 mil de faturamento, a média da indústria de alimentos do país (ABIA, 2025: R$ 1,39 trilhão e 2,12 milhões de empregos, via Agência Brasil, 10/03/2026). Turismo: 30, 80 ou 150 mil pernoites a mais de quem vai a Bonito, que recebeu 293.712 turistas em 2025 (Observatório de Turismo de Bonito), e ao Bioparque, onde quase metade do público das férias de julho de 2025 veio de fora de MS (Correio do Estado, 07/08/2025), a R$ 450 a 550 por dia, mais 15, 40 ou 80 mil visitantes de fora em quatro festivais, a R$ 600 cada; metade do gasto vira valor adicionado; um posto para cada R$ 29,6 mil de gasto (turismo de eventos do Ceará, 2025). Produtos com selo: R$ 30, 80 ou 150 milhões vendidos fora, 35% de valor adicionado, um posto a cada R$ 200 mil. Artesanato: R$ 3, 8 ou 15 milhões em vendas. PIB da cidade de cerca de R$ 52 bilhões em 2026 (estimativa do 2.1)."
     },
     {
      "tipo": "p",
@@ -3619,7 +3619,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Campo Grande tem 897.938 moradores (IBGE, Censo 2022), 14% a mais que em 2010. Quase todo o crescimento foi para as bordas: Bandeira e Lagoa cresceram perto de 20%, e o Anhanduizinho já tem um em cada quatro moradores. O Centro perdeu 13% da população e tem as casas mais vazias, 2,36 pessoas por domicílio, contra 2,76 no Anhanduizinho. É uma cidade de adultos jovens, com 69% em idade de trabalhar, mas os de 60 anos ou mais já são 15% (IBGE, Censo 2022, via City Population; cálculo do autor), e isso pesa na calçada, no ônibus e na praça."
+     "texto": "Campo Grande tem 898.100 moradores (IBGE, Censo 2022, Sidra 4709), 14% a mais que em 2010. Quase todo o crescimento foi para as bordas: Bandeira e Lagoa cresceram perto de 20%, e o Anhanduizinho já tem um em cada quatro moradores. O Centro perdeu 13% da população e tem as casas mais vazias, 2,36 pessoas por domicílio, contra 2,76 no Anhanduizinho. É uma cidade de adultos jovens, com 69% em idade de trabalhar, mas os de 60 anos ou mais já são 15% (IBGE, Censo 2022, via City Population; cálculo do autor), e isso pesa na calçada, no ônibus e na praça."
     },
     {
      "tipo": "caixa",
@@ -3980,7 +3980,7 @@
     },
     {
      "tipo": "p",
-     "texto": "A conta mostra o desperdício. O dinheiro gasto em quatro anos remendando buraco daria para recapear de 200 a 300 km de ruas (Correio do Estado, 25/02/2026); remendo dura uma chuva, recapeamento dura anos. Ao mesmo tempo, o orçamento de requalificação caiu 70% de um ano para o outro, e a Câmara abriu uma CPI para investigar medições e pagamentos do tapa-buraco (A Crítica, 17/10/2026). O asfalto novo, que leva rua a bairros que esperavam havia décadas, como o Jardim das Nações, é pago com empréstimo: entra na dívida tratada no Capítulo 6.3."
+     "texto": "A conta mostra o desperdício. O dinheiro gasto em quatro anos remendando buraco daria para recapear de 200 a 300 km de ruas (Correio do Estado, 25/02/2026); remendo dura uma chuva, recapeamento dura anos. Ao mesmo tempo, o orçamento de requalificação caiu 70% de um ano para o outro, e a Câmara abriu uma CPI para investigar medições e pagamentos do tapa-buraco (A Crítica, 17/10/2026). O asfalto novo, que leva rua a bairros que esperavam havia décadas, como o Jardim das Nações, é pago com empréstimo: entra na dívida tratada no subtópico 6.3."
     },
     {
      "tipo": "h3",
@@ -4037,7 +4037,7 @@
     },
     {
      "tipo": "p",
-     "texto": "O valor anual, de R$ 425 a 650 milhões, equivale a 7% a 11% da receita corrente de 2025, de R$ 5,95 bilhões (SICONFI; cálculo do autor), e não cabe só no caixa. Parte já está contratada: os R$ 713 milhões das fases 1 e 2 cobrem cerca de 250 km (A Crítica, 10/08/2026). O resto exige financiamento de longo prazo, como o da Caixa já usado, dentro do limite de dívida do Capítulo 6.3, e o fim do gasto perdido com remendo: só o tapa-buraco custou R$ 197 milhões em quatro anos, perto de R$ 50 milhões por ano que passariam para o recapeamento."
+     "texto": "O valor anual, de R$ 425 a 650 milhões, equivale a 7% a 11% da receita corrente de 2025, de R$ 5,95 bilhões (SICONFI; cálculo do autor), e não cabe só no caixa. Parte já está contratada: os R$ 713 milhões das fases 1 e 2 cobrem cerca de 250 km (A Crítica, 10/08/2026). O resto exige financiamento de longo prazo, como o da Caixa já usado, dentro do limite de dívida do subtópico 6.3, e o fim do gasto perdido com remendo: só o tapa-buraco custou R$ 197 milhões em quatro anos, perto de R$ 50 milhões por ano que passariam para o recapeamento."
     },
     {
      "tipo": "propostas",
@@ -4819,7 +4819,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Fonte: IBGE, Censo 2022, agregados por setor censitário (via base do Ipea, censobr), somados pelo autor por região. O total de 898.100 é o da primeira divulgação; o número revisado é 897.938 (Prefeitura de Campo Grande, 02/07/2023)."
+     "texto": "Fonte: IBGE, Censo 2022, agregados por setor censitário (via base do Ipea, censobr), somados pelo autor por região. O total de 898.100 é o do IBGE nas tabelas do Censo (Sidra 4709 e 9514, conferido em 12/11/2026); a prefeitura chegou a divulgar 897.938 (Prefeitura de Campo Grande, 02/07/2023)."
     },
     {
      "tipo": "h3",
@@ -5716,7 +5716,7 @@
     },
     {
      "tipo": "p",
-     "texto": "O IPTU cresceu 34% de 2020 a 2025, menos que a receita total (44%), e em 2024 foi ultrapassado pelo ISS (Capítulo 6.1). São cerca de R$ 703 por habitante (cálculo do autor). Para 2026 a prefeitura emitiu 432.712 carnês: 363.207 de imóveis construídos e 69.505 de terrenos (Campo Grande News, 12/11/2025). A diferença entre o que se lança e o que entra é a inadimplência e o desconto: a Justiça bloqueou em 2025 contas de cerca de 10 mil devedores de IPTU, com perto de R$ 30 milhões em dívida, num universo de 102 mil execuções fiscais do município (Campo Grande News, 12/09/2025). O estoque da dívida ativa do IPTU não é publicado."
+     "texto": "O IPTU cresceu 34% de 2020 a 2025, menos que a receita total (44%), e em 2024 foi ultrapassado pelo ISS (6.1). São cerca de R$ 703 por habitante (cálculo do autor). Para 2026 a prefeitura emitiu 432.712 carnês: 363.207 de imóveis construídos e 69.505 de terrenos (Campo Grande News, 12/11/2025). A diferença entre o que se lança e o que entra é a inadimplência e o desconto: a Justiça bloqueou em 2025 contas de cerca de 10 mil devedores de IPTU, com perto de R$ 30 milhões em dívida, num universo de 102 mil execuções fiscais do município (Campo Grande News, 12/09/2025). O estoque da dívida ativa do IPTU não é publicado."
     },
     {
      "tipo": "h3",
@@ -7283,7 +7283,7 @@
       [
        "Campo Grande",
        "122,8",
-       "897.938",
+       "898.100",
        "137",
        "2,1%"
       ],
@@ -9663,7 +9663,7 @@
       [
        "Comunicação e Jornalismo (UFMS)",
        "linguagem simples nos serviços, portal da transparência legível",
-       "transparência (Capítulo 4)"
+       "transparência (Capítulo 7)"
       ]
      ]
     },
@@ -11393,7 +11393,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Hipóteses do autor: público de fora de 40% nos shows, 20% nas feiras e 5% nos jogos; gasto de quem vem de fora, sem o ingresso, de R$ 700 no show, R$ 400 na feira e R$ 150 no jogo (no Rio, o turista estrangeiro gastou R$ 590 por dia no show de Lady Gaga, segundo a prefeitura e a Embratur, via Folha de Pernambuco, 06/05/2025); um posto de trabalho para cada R$ 29,6 mil de gasto, relação do turismo de eventos do Ceará em 2025 (Visite Ceará e Abeoc-CE, via O Povo, 09/12/2025); PIB da cidade de cerca de R$ 50 bilhões (estimativa do Capítulo 2). Os postos são em boa parte temporários. Os shows respondem por mais de 85% do resultado; o futebol enche o calendário, mas quase não traz dinheiro de fora."
+     "texto": "Hipóteses do autor: público de fora de 40% nos shows, 20% nas feiras e 5% nos jogos; gasto de quem vem de fora, sem o ingresso, de R$ 700 no show, R$ 400 na feira e R$ 150 no jogo (no Rio, o turista estrangeiro gastou R$ 590 por dia no show de Lady Gaga, segundo a prefeitura e a Embratur, via Folha de Pernambuco, 06/05/2025); um posto de trabalho para cada R$ 29,6 mil de gasto, relação do turismo de eventos do Ceará em 2025 (Visite Ceará e Abeoc-CE, via O Povo, 09/12/2025); PIB da cidade de cerca de R$ 52 bilhões em 2026 (estimativa do 2.1). Os postos são em boa parte temporários. Os shows respondem por mais de 85% do resultado; o futebol enche o calendário, mas quase não traz dinheiro de fora."
     },
     {
      "tipo": "p",
