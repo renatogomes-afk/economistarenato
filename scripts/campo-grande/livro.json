@@ -6612,6 +6612,73 @@
       "Convênio com o governo do estado para estender a cooperativa ou a parceria à folha estadual (segunda etapa).",
       "Abertura da cooperativa à cidade (livre admissão) com o fundo municipal de aval do 6.8 para MEIs e pequeno comércio (terceira etapa)."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "6.13",
+     "texto": "Quanto a cidade paga de tributos, e quanto volta"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a economia de Campo Grande paga de impostos?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A carga tributária bruta do Brasil foi de 32,4% do PIB em 2025, a maior da série iniciada em 2010: 21,6% para a União, 8,4% para os estados e 2,4% para os municípios (Tesouro Nacional, Boletim da Carga Tributária Bruta 2025, abr/2026). Não existe dado oficial de quanto cada cidade paga à União e ao estado: a Receita Federal publica por estado e por delegacia, e a Sefaz-MS não publica o ICMS por município de origem. Aplicando as cargas de cada esfera a um PIB de Campo Grande de cerca de R$ 49 bilhões em 2025 (estimativa do autor a partir dos R$ 42,3 bilhões de 2023, IBGE), e somando o que a prefeitura de fato arrecadou (SICONFI, DCA 2025), a economia da cidade pagou cerca de R$ 16,5 bilhões em tributos, R$ 18,4 mil por morador (estimativa do autor). Com o PIB entre R$ 46 e R$ 52 bilhões, o total fica entre R$ 15,6 e R$ 17,4 bilhões."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Para onde vão os tributos pagos em Campo Grande, 2025 (estimativa do autor)",
+     "cabecalho": [
+      "Parte",
+      "R$ bilhões",
+      "% do total",
+      "O que é"
+     ],
+     "linhas": [
+      [
+       "Fica na cidade (receita própria)",
+       "2,2",
+       "13%",
+       "ISS R$ 728 mi, IPTU R$ 677 mi, IRRF R$ 362 mi, COSIP R$ 192 mi, ITBI R$ 131 mi, taxas R$ 71 mi (SICONFI, DCA 2025)"
+      ],
+      [
+       "Vai e volta (transferências à prefeitura)",
+       "3,1",
+       "19%",
+       "União: SUS, FPM, FNDE, ITR, R$ 1,15 bi; estado: ICMS, IPVA, SUS, R$ 1,05 bi; Fundeb líquido R$ 0,74 bi; outras R$ 0,17 bi (DCA 2025)"
+      ],
+      [
+       "Vai e não volta ao caixa da prefeitura",
+       "11,2",
+       "68%",
+       "União: R$ 10,2 bi pagos, R$ 1,15 bi voltam; estado: R$ 4,1 bi pagos, R$ 1,8 bi voltam com o Fundeb"
+      ],
+      [
+       "Total",
+       "16,5",
+       "100%",
+       "cerca de 33,7% do PIB da cidade"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "De cada R$ 100 que a economia de Campo Grande paga, R$ 13 ficam com a prefeitura, R$ 19 voltam a ela em repasses, quase todos carimbados para saúde e educação, e R$ 68 não voltam ao caixa municipal (estimativa do autor). 'Não volta' não quer dizer que se perca: volta em aposentadorias do INSS, Bolsa Família, salários da UFMS e das forças federais, e na polícia, nas escolas e nos hospitais do estado, um gasto que ainda não foi medido. Mas o posto, a escola infantil, o asfalto e a lâmpada da praça são da prefeitura, que fica com 13%. Há um vazamento específico: a cidade gera 22,9% do PIB do estado (IBGE, 2023) e recebe 12,1% da cota municipal do ICMS em 2026, que cai para 11,65% em 2027 (Sefaz-MS, Resolução 3.530, via A Crítica), porque o índice segue o valor adicionado das fábricas e do agro, que estão no interior."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 13 de cada R$ 100",
+     "texto": "pagos em tributos pela economia de Campo Grande ficam com a prefeitura; R$ 19 voltam em repasses e R$ 68 não voltam ao caixa municipal. Estimativa do autor com IBGE, Tesouro Nacional (carga de 2025) e SICONFI (DCA 2025)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quanto a cidade paga de tributos, e quanto volta",
+     "texto": [
+      "Painel anual 'quanto Campo Grande pagou e quanto voltou', no portal da prefeitura, com o método e as fontes.",
+      "Defender na Assembleia mais peso para população, educação e saúde na parte do índice do ICMS que a lei estadual define, enquanto o ICMS existir.",
+      "Preparar a cidade para a reforma tributária: o IBS é cobrado no destino, e uma capital de comércio e serviços tende a ganhar; a transição vai até 2032 (6.4)."
+     ]
     }
    ],
    "regiao": {
@@ -6653,7 +6720,8 @@
     "6.9 A arrecadação em detalhe",
     "6.10 Contas em atraso e decisões judiciais",
     "6.11 Os repasses da União e do estado: quanto vem e por que muda",
-    "6.12 Um banco para o servidor, depois para a cidade"
+    "6.12 Um banco para o servidor, depois para a cidade",
+    "6.13 Quanto a cidade paga de tributos, e quanto volta"
    ]
   },
   {
@@ -7151,6 +7219,346 @@
       "Publicar todo ano a lista dos cem maiores fornecedores por valor pago, com o objeto do contrato e a secretaria.",
       "Meta de investimento de pelo menos 7% da receita até 2032, com a folha abaixo do limite prudencial de 51,3% da receita corrente líquida."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "7.5",
+     "texto": "Quanto custam a Câmara e os órgãos de apoio"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa a Câmara Municipal?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Gasto da Câmara Municipal de Campo Grande (função Legislativa, despesa liquidada)",
+     "cabecalho": [
+      "Ano",
+      "R$ milhões",
+      "% da despesa do município"
+     ],
+     "linhas": [
+      [
+       "2021",
+       "84,9",
+       "1,86%"
+      ],
+      [
+       "2022",
+       "93,8",
+       "1,99%"
+      ],
+      [
+       "2023",
+       "103,4",
+       "2,13%"
+      ],
+      [
+       "2024",
+       "112,7",
+       "2,01%"
+      ],
+      [
+       "2025",
+       "122,8",
+       "2,11%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: SICONFI, DCA Anexo I-E, função 01; percentuais por cálculo do autor. O gasto subiu 45% de 2021 a 2025, contra 28% da despesa total do município, cerca de 20% acima da inflação (cálculo do autor). A folha foi de R$ 92,6 milhões em 2025, 1,71% da receita corrente líquida, longe do limite de 6% da LRF (SICONFI, RGF do Legislativo, 3º quadrimestre de 2025). Os 29 vereadores recebem R$ 26.081 por mês desde abril de 2025, 37% a mais que antes (Lei 7.398, via O Jacaré, 26/04/2025), e têm até R$ 25 mil por mês de verba de gabinete cada (Campo Grande News, 2025). Pela Constituição (art. 29-A), uma câmara de cidade com 500 mil a 3 milhões de habitantes pode gastar até 4,5% da receita tributária e das transferências constitucionais do ano anterior; pela base de 2024, o teto de 2025 seria de cerca de R$ 128 milhões, e a Câmara gastou cerca de 96% dele (estimativa do autor; a base exata é a do Tribunal de Contas)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Câmaras de capitais de porte parecido, 2025",
+     "cabecalho": [
+      "Capital",
+      "Câmara (R$ mi)",
+      "Habitantes (2022)",
+      "R$ por habitante",
+      "% da despesa total"
+     ],
+     "linhas": [
+      [
+       "Campo Grande",
+       "122,8",
+       "897.938",
+       "137",
+       "2,1%"
+      ],
+      [
+       "Cuiabá",
+       "90,6",
+       "650.877",
+       "139",
+       "2,1%"
+      ],
+      [
+       "Teresina",
+       "133,9",
+       "866.300",
+       "155",
+       "2,9%"
+      ],
+      [
+       "João Pessoa",
+       "135,2",
+       "833.932",
+       "162",
+       "3,0%"
+      ],
+      [
+       "Goiânia",
+       "242,6",
+       "1.437.237",
+       "169",
+       "2,8%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: SICONFI, DCA 2025, Anexo I-E, função 01; IBGE, Censo 2022; cálculo do autor. Pelo custo por habitante, a Câmara de Campo Grande é a mais barata das cinco. O problema não é o tamanho da conta, é o crescimento acima do resto da prefeitura e a entrega: o parcelamento de R$ 2,39 bilhões da dívida com o IMPCG foi aprovado em cerca de 20 minutos de debate (Correio do Estado, 11/08/2026), e dez anos sem repasse ao instituto passaram sem que a Câmara os detectasse (4.3)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E os órgãos que cuidam do dinheiro?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A administração de receitas da Sefaz custou R$ 63,1 milhões em 2024 para arrecadar R$ 1,985 bilhão de receita tributária própria, 3,2 centavos por real; a Controladoria custou R$ 8,6 milhões, 0,15% de uma despesa de R$ 5,6 bilhões (SICONFI, DCA 2024; cálculo do autor). A função Administração, a máquina-meio, foi de 5,0% da despesa em 2025, contra 8,6% em Teresina, 14,2% em João Pessoa, 14,5% em Cuiabá e 20% em Goiânia (DCA 2025; cálculo do autor), com a ressalva de que cada município classifica de um jeito. Agetran, Agereg e Emha não publicam o próprio custo de forma acessível; aparecem pela receita, não pela despesa nem pela entrega."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 137",
+     "texto": "por habitante é o custo anual da Câmara de Campo Grande, o menor entre cinco capitais de porte parecido, mas o gasto cresceu 45% de 2021 a 2025. Fonte: SICONFI, DCA 2021–2025; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quanto custam a Câmara e os órgãos de apoio",
+     "texto": [
+      "Câmara gastando até 4% da base constitucional, e não 4,5%, com devolução anual da sobra do duodécimo ao caixa da prefeitura e meta pública de custo por habitante.",
+      "Verba de gabinete com prestação de contas por nota, mês a mês, e teto menor.",
+      "Painel de produção legislativa: leis que mudam política pública separadas das homenagens, pedidos de informação e fiscalização dos grandes contratos.",
+      "Controladoria forte e independente: mandato fixo, carreira própria e auditoria anual dos repasses ao IMPCG e da folha.",
+      "Página de custo e entrega para cada autarquia e fundação.",
+      "Reforçar a fiscalização da Sefaz, onde cada real gasto traz mais retorno."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "7.6",
+     "texto": "O que sobra para escolher: o caixa até 2032"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como a prefeitura fechou 2025?"
+    },
+    {
+     "tipo": "p",
+     "texto": "No vermelho. A receita líquida, já descontada a parte que vai para o Fundeb, foi de R$ 5,838 bilhões, e a despesa liquidada, de R$ 6,230 bilhões: déficit de R$ 391 milhões (SICONFI, DCA 2025; cálculo do autor). A conta confere com o caixa, que caiu de R$ 597 milhões para R$ 209 milhões ao longo do ano, enquanto os restos a pagar processados subiram para R$ 306 milhões (SICONFI, RGF Anexo 2, 3º quadrimestre de 2025). Em 2026, com teto mensal de gastos, o caixa voltou a R$ 654 milhões em agosto (RGF, 2º quadrimestre de 2026), em parte porque o IPTU entra no começo do ano e o 13º sai em dezembro."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto do orçamento já está comprometido?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Despesa obrigatória da prefeitura em 2026 (estimativa do autor, R$ milhões)",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "% da receita"
+     ],
+     "linhas": [
+      [
+       "Folha dos ativos e encargos",
+       "3.221",
+       "52%"
+      ],
+      [
+       "Aposentadorias e pensões (IMPCG)",
+       "830",
+       "13%"
+      ],
+      [
+       "Juros e amortização da dívida",
+       "190",
+       "3%"
+      ],
+      [
+       "Precatórios e sentenças",
+       "40",
+       "1%"
+      ],
+      [
+       "Custeio rígido (lixo, iluminação, hospitais conveniados, remédios, merenda, transporte escolar, energia, aluguéis)",
+       "1.753",
+       "28%"
+      ],
+      [
+       "Total obrigatório",
+       "6.034",
+       "97%"
+      ],
+      [
+       "Margem livre",
+       "190",
+       "3%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Estimativa do autor sobre a DCA 2025 e o RGF de 2026 (receita de R$ 6,2 bilhões). Sobram cerca de R$ 190 milhões para tudo o que é escolha do prefeito, menos que o investimento previsto para 2026."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E até 2032, se nada mudar?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Margem livre e resultado de caixa, 2026–2032 (estimativa do autor, R$ milhões de 2026)",
+     "cabecalho": [
+      "Ano",
+      "Receita",
+      "Obrigatórias",
+      "Margem livre",
+      "Resultado de caixa",
+      "Acumulado"
+     ],
+     "linhas": [
+      [
+       "2026",
+       "6.224",
+       "6.034",
+       "190",
+       "−319",
+       "−319"
+      ],
+      [
+       "2027",
+       "6.378",
+       "6.154",
+       "224",
+       "−388",
+       "−707"
+      ],
+      [
+       "2028",
+       "6.474",
+       "6.282",
+       "192",
+       "−424",
+       "−1.131"
+      ],
+      [
+       "2029",
+       "6.571",
+       "6.423",
+       "148",
+       "−471",
+       "−1.602"
+      ],
+      [
+       "2030",
+       "6.550",
+       "6.568",
+       "−18",
+       "−640",
+       "−2.242"
+      ],
+      [
+       "2031",
+       "6.651",
+       "6.706",
+       "−55",
+       "−680",
+       "−2.922"
+      ],
+      [
+       "2032",
+       "6.753",
+       "6.848",
+       "−94",
+       "−723",
+       "−3.645"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Hipóteses do autor, acima da inflação: receita própria +2% ao ano; transferências +1,5%; folha dos ativos +1,5%; aposentadorias +5% (cenário base do 4.3); custeio +1%; empréstimo de R$ 476,7 milhões da Caixa recebido de 2027 a 2029 e gasto em obra; investimento de R$ 300 milhões por ano. A margem livre fica negativa em 2030, sobretudo pelas aposentadorias, que passam de R$ 830 milhões para cerca de R$ 1,1 bilhão. O empréstimo da Caixa esconde o aperto de 2027 a 2029. O mandato de 2029 a 2032 começa sem margem, com déficit estrutural de R$ 450 a 700 milhões por ano. A planilha com o mês a mês e a sensibilidade está em fluxo-de-caixa-prefeitura.xlsx."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O que fecha a conta em 2030 (estimativa do autor, R$ milhões por ano)",
+     "cabecalho": [
+      "Medida",
+      "Ganho estimado",
+      "Onde no livro"
+     ],
+     "linhas": [
+      [
+       "Cobrança da dívida ativa e Refis permanente com critério",
+       "80 a 120",
+       "Cap. 6"
+      ],
+      [
+       "IPTU de vazios urbanos e cadastro georreferenciado",
+       "60 a 100",
+       "5 e 6.7"
+      ],
+      [
+       "Fiscalização do ISS de plataformas e grandes tomadores",
+       "40 a 70",
+       "Cap. 6"
+      ],
+      [
+       "Renegociar grandes contratos contínuos com metas (5% do custeio rígido)",
+       "90",
+       "7.3"
+      ],
+      [
+       "Compensação previdenciária com o INSS e auditoria de benefícios",
+       "30 a 60",
+       "4.3"
+      ],
+      [
+       "Folha dos ativos crescendo 0,5% real, e não 1,5%",
+       "70 (no 4º ano)",
+       "Cap. 4"
+      ],
+      [
+       "Corte de 15% no custeio não rígido (eventos, publicidade, aluguéis)",
+       "50",
+       "Cap. 7"
+      ],
+      [
+       "Soma",
+       "420 a 560",
+       ""
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Com as medidas somadas, o déficit de 2030 cairia de R$ 640 milhões para algo entre R$ 80 e R$ 220 milhões (estimativa do autor); o resto teria de vir da capitalização do IMPCG com patrimônio (4.3). Não há saída só pela receita nem só pelo corte."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "3%",
+     "texto": "da receita de 2026 é a margem livre estimada da prefeitura, cerca de R$ 190 milhões; ela fica negativa a partir de 2030 se nada mudar. Estimativa do autor com SICONFI (DCA 2025 e RGF 2026)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que sobra para escolher: o caixa até 2032",
+     "texto": [
+      "Plano fiscal de 8 anos aprovado em lei no primeiro ano do mandato, com as três frentes juntas: arrecadação, contratos e previdência.",
+      "Publicar todo mês o fluxo de caixa da prefeitura e a margem livre, com os restos a pagar.",
+      "Dezembro sem atraso: reserva mensal do 13º e das férias desde janeiro, em conta separada."
+     ]
     }
    ],
    "regiao": {
@@ -7169,8 +7577,8 @@
    },
    "indicador": {
     "valor": "3,8% da despesa",
-    "texto": "de 2025 foi investimento; 60% foi folha e 33% custeio. Saúde e educação levaram 59%.",
-    "fonte": "SICONFI: DCA 2022–2025, Anexos I-D e I-E"
+    "texto": "de 2025 foi investimento; 60% foi folha e 33% custeio. Saúde e educação levaram 59%. Em 2025, a despesa superou a receita líquida em R$ 391 milhões, e a Câmara custou R$ 122,8 milhões.",
+    "fonte": "SICONFI: DCA 2022–2025, Anexos I-D e I-E; DCA 2025, Anexos I-C e I-E (déficit por cálculo do autor)"
    },
    "fontes": [
     "BRASIL. Tesouro Nacional. SICONFI: Declaração de Contas Anuais 2022–2025, Anexos I-C (receita), I-D (despesa por categoria econômica) e I-E (despesa por função), Município de Campo Grande. Consulta em 09/11/2026.",
@@ -7182,7 +7590,9 @@
     "7.1 Para onde vai o dinheiro",
     "7.2 Como se decide o orçamento",
     "7.3 Concessões e contratos",
-    "7.4 A despesa em detalhe"
+    "7.4 A despesa em detalhe",
+    "7.5 Quanto custam a Câmara e os órgãos de apoio",
+    "7.6 O que sobra para escolher: o caixa até 2032"
    ]
   },
   {
