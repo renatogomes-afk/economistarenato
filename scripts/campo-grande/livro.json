@@ -6262,6 +6262,147 @@
      "texto": "Na minha leitura, a prefeitura não controla o valor dos repasses obrigatórios, mas controla três coisas: a fatia do ICMS, que sobe com a indústria e o comércio instalados aqui (Cap. 2); a captação do dinheiro voluntário, que exige projeto pronto na gaveta; e a transparência, porque hoje o cidadão não sabe quanto chegou de emenda, de quem, nem para quê."
     },
     {
+     "tipo": "h3",
+     "texto": "Quem mandou emenda Pix para a prefeitura, e quanto?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A emenda Pix, oficialmente 'transferência especial', é o dinheiro que o deputado ou senador manda direto ao caixa da prefeitura, sem convênio, desde 2020 (Constituição, art. 166-A). O plano de ação de cada uma fica registrado no Transferegov. Com a Prefeitura de Campo Grande como beneficiária, foram R$ 48,2 milhões em planos de 2021 a 2026, de 11 parlamentares (Transferegov, transferências especiais, consulta de 12/11/2026; somas do autor). São valores planejados, não necessariamente pagos."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Emendas Pix para a Prefeitura de Campo Grande, por ano (R$ milhões)",
+     "cabecalho": [
+      "Ano",
+      "Valor",
+      "Parlamentares"
+     ],
+     "linhas": [
+      [
+       "2021",
+       "3,95",
+       "Nelsinho Trad, Soraya Thronicke, Dagoberto Nogueira, Fábio Trad"
+      ],
+      [
+       "2022",
+       "5,85",
+       "Fábio Trad, Loester Trutis, Dagoberto Nogueira, Simone Tebet, Vander Loubet, Soraya Thronicke"
+      ],
+      [
+       "2023",
+       "24,34",
+       "Fábio Trad, Simone Tebet, Dr. Luiz Ovando, Rose Modesto"
+      ],
+      [
+       "2024",
+       "9,70",
+       "Nelsinho Trad, Dr. Luiz Ovando, Rodolfo Nogueira"
+      ],
+      [
+       "2025",
+       "0,50",
+       "Dagoberto Nogueira"
+      ],
+      [
+       "2026",
+       "3,88",
+       "Vander Loubet, Camila Jara, Dr. Luiz Ovando"
+      ],
+      [
+       "Total",
+       "48,22",
+       "11 parlamentares"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Emendas Pix para a Prefeitura de Campo Grande, por parlamentar, 2021–2026 (R$ milhões)",
+     "cabecalho": [
+      "Parlamentar",
+      "Total",
+      "Anos"
+     ],
+     "linhas": [
+      [
+       "Fábio Trad",
+       "13,66",
+       "2021, 2022, 2023"
+      ],
+      [
+       "Simone Tebet",
+       "12,08",
+       "2022, 2023"
+      ],
+      [
+       "Nelsinho Trad",
+       "5,90",
+       "2021, 2024"
+      ],
+      [
+       "Dr. Luiz Ovando",
+       "4,08",
+       "2023, 2024, 2026"
+      ],
+      [
+       "Vander Loubet",
+       "3,73",
+       "2022, 2026"
+      ],
+      [
+       "Rodolfo Nogueira",
+       "2,52",
+       "2024"
+      ],
+      [
+       "Dagoberto Nogueira",
+       "2,21",
+       "2021, 2022, 2025"
+      ],
+      [
+       "Soraya Thronicke",
+       "1,45",
+       "2021, 2022"
+      ],
+      [
+       "Loester Trutis",
+       "1,38",
+       "2022"
+      ],
+      [
+       "Rose Modesto",
+       "0,60",
+       "2023"
+      ],
+      [
+       "Camila Jara",
+       "0,60",
+       "2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Transferegov, plano_acao_especial, beneficiário CNPJ 03.501.509/0001-06; exclui um plano marcado como impedido (R$ 200 mil, 2022). Os R$ 9,7 milhões de 2024 batem com o que a imprensa noticiou (Correio do Estado, 27/12/2024). O pico de 2023 vem de emendas aprovadas no orçamento feito no fim de 2022, por parlamentares que deixaram o mandato em janeiro de 2023, como Simone Tebet e Fábio Trad; a queda de 2025 coincide com a regra do Supremo que passou a exigir plano de trabalho e rastreabilidade das emendas Pix (STF, ADI 7.688, decisões de 2024). A lista mostra o tamanho do problema: num orçamento de R$ 6 bilhões, as emendas Pix à prefeitura nunca passaram de R$ 25 milhões por ano."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E as emendas de bancada e as dos deputados estaduais e vereadores?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A emenda de bancada é maior, mas quase nunca vai ao caixa da prefeitura: para 2026, a bancada federal de MS indicou R$ 529 milhões, e os 8 deputados e 3 senadores, mais R$ 506 milhões em emendas individuais, somando R$ 1,035 bilhão para o estado, 66% a mais que em 2025 (Campo Grande News, 26/05/2025). Para Campo Grande foram citados R$ 90 milhões para vias e viadutos e R$ 40 milhões para subsídio à habitação, além dos R$ 110 milhões para dois viadutos anunciados em fevereiro de 2025 (Correio do Estado, 10/02/2025), em geral executados pelo governo do estado ou pela Caixa. Os 24 deputados estaduais têm R$ 84 milhões em emendas impositivas no orçamento estadual de 2025, cerca de R$ 3,5 milhões cada, e os vereadores da capital, R$ 8,1 milhões, cerca de R$ 280 mil cada, o menor valor entre as capitais (Câmara dos Deputados, estudo 'Impositividade Local', via Campo Grande News, 10/09/2025). Não foi encontrada fonte pública que diga quanto das emendas estaduais foi para Campo Grande."
+    },
+    {
+     "tipo": "p",
+     "texto": "O que ainda não se sabe com número oficial: as emendas individuais com finalidade definida e os convênios federais à prefeitura e ao Fundo Municipal de Saúde, por ano e por autor, que estão no Portal da Transparência e no Transferegov, mas não abriram para consulta automática nesta pesquisa; e os convênios do estado com a prefeitura fora do MS Ativo. A planilha de repasses tem agora a aba 'Emendas Pix (Transferegov)', com cada plano de ação."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 48,2 milhões",
+     "texto": "em emendas Pix para a Prefeitura de Campo Grande em seis anos (2021–2026), de 11 parlamentares, menos de 1% da receita de um único ano. Fonte: Transferegov, transferências especiais, consulta de 12/11/2026; soma do autor."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Os repasses da União e do estado: quanto vem e por que muda",
      "texto": [
@@ -6269,7 +6410,9 @@
       "Banco de projetos prontos (asfalto, drenagem, creche, posto) para captar convênios e emendas assim que abrirem, com equipe de captação na Segov.",
       "Emenda Pix só com plano de trabalho publicado antes da execução e prestação de contas aberta.",
       "Meta de recuperar o índice de participação no ICMS, ligada à política industrial do Capítulo 2, e conferência anual do valor adicionado declarado pelas empresas da cidade.",
-      "Pleito da bancada e da Frente Nacional de Prefeitos pela correção dos tetos do SUS de média e alta complexidade."
+      "Pleito da bancada e da Frente Nacional de Prefeitos pela correção dos tetos do SUS de média e alta complexidade.",
+      "Publicar no portal da prefeitura, todo mês, a lista das emendas recebidas (Pix, finalidade definida, bancada e estaduais), com autor, valor, objeto e situação da obra.",
+      "Plano anual de captação: a prefeitura leva à bancada federal e à Assembleia, antes da votação do orçamento, uma lista priorizada de projetos prontos com custo, para que as emendas sigam o plano da cidade, e não o contrário."
      ]
     },
     {
