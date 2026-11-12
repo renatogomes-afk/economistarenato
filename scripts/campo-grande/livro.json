@@ -4004,6 +4004,168 @@
       "Publicar a folha por carreira e por lotação, para separar quem atende o cidadão de quem está na área-meio.",
       "Carreira com avaliação de desempenho ligada à meta do serviço: fila, vaga, atendimento."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.6",
+     "texto": "Quanto pagar ao servidor: o critério do salário suficiente"
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde vem o critério?"
+    },
+    {
+     "tipo": "p",
+     "texto": "De um livro de António de Oliveira Salazar, que governou Portugal de 1932 a 1968 num regime autoritário, o Estado Novo. Como se Levanta um Estado foi escrito em 1936 para a editora francesa Flammarion e saiu em 1937; a primeira edição completa em português é de Lisboa, 2007, e é dela que vêm as citações abaixo, com a página aproximada da cópia digitalizada. O regime e o autor são controversos, e o que se aproveita aqui é só o critério sobre o pagamento do trabalho, que tem a mesma raiz da doutrina social católica do Capítulo 1 (o salário justo de Ketteler e da Rerum Novarum, 1.4)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Um aviso importante: o livro não fala da remuneração do funcionário público. Não traz tabela, regra de reajuste nem critério próprio para o servidor. O que ele traz é uma ideia geral do salário, que vale para todo trabalhador, e uma crítica ao Estado que incha a folha. Aplicar essas ideias ao servidor de Campo Grande é leitura minha, não de Salazar."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que o livro diz sobre o salário?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O salário em Como se Levanta um Estado",
+     "cabecalho": [
+      "Ideia",
+      "O que diz o texto",
+      "Página*"
+     ],
+     "linhas": [
+      [
+       "Servidor também é trabalhador",
+       "o termo trabalhador inclui “todo o esforço de ordem intelectual ou física (...) do professor ao governante, do agente da ordem ao operário”",
+       "p. 108"
+      ],
+      [
+       "Pagar conforme a utilidade",
+       "o trabalho é “igualmente nobre e digno”, mas “há utilidades diferentes, rendimentos diversos e, por esta razão, o trabalho não pode ser igualmente remunerado”",
+       "p. 109"
+      ],
+      [
+       "Salário suficiente",
+       "“a fórmula ideal que deve servir de base às numerosas combinações possíveis é o salário suficiente”",
+       "p. 110"
+      ],
+      [
+       "Piso sim, teto não",
+       "“Não há (...) necessidade de impor ao salário um limite máximo, mas deve-se fixar-lhe um mínimo para que ele não desça abaixo do que é imposto pelas exigências de uma vida suficiente e digna”",
+       "p. 111"
+      ],
+      [
+       "O limite é a economia",
+       "o nível de vida de quem trabalha pode subir sempre, “desde que não exceda, por qualquer forma, as possibilidades do conjunto económico do País”",
+       "p. 111"
+      ],
+      [
+       "Salário de quem sustenta a casa",
+       "“consideramos fundamental que seja o trabalhador a sustentá-la [a família]”",
+       "p. 112"
+      ],
+      [
+       "Contra o Estado inchado",
+       "o Estado intervencionista “sobrecarregou-se de funcionários, aumentou desmesuradamente as despesas e os impostos, reduziu a produção”",
+       "p. 101"
+      ],
+      [
+       "Contra o parasitismo",
+       "“fazemos a guerra a todos os parasitismos, começando pelo da administração pública”",
+       "p. 124"
+      ],
+      [
+       "Contas austeras",
+       "reforma financeira “de uma economia rígida”, com “defesa do contribuinte” entre os princípios da administração; crítica à “política dos salários elevados” e à “política das largas despesas públicas”",
+       "pp. 36, 37 e 99"
+      ],
+      [
+       "Mudança sem expurgo",
+       "na troca de regime de 1926, “não se viram nem exonerações de funcionários, nem prisões, nem deportações”",
+       "p. 31"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "* Fonte: Salazar, Como se Levanta um Estado (Lisboa, 2007); edição original em francês, Paris, Flammarion, 1937. Páginas aproximadas, lidas na cópia digitalizada (OCR) da edição de 2007; conferir no exemplar impresso antes da edição final. Dois cuidados de leitura. O trecho da p. 31 fala da troca de governo em 1926, e não de corte de gastos; tirar dele a regra de “ajustar sem demissão em massa” é leitura minha. E o trecho da p. 112 defende, na mesma frase, que o trabalho da mulher fora de casa não seja encorajado; essa parte não entra no critério, porque a Constituição garante a igualdade entre homens e mulheres (art. 5º, I) e proíbe diferença de salário por sexo (art. 7º, XXX), e porque a cidade tem milhares de mães que sustentam a casa sozinhas (Capítulo 9)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como o critério fica em Campo Grande?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Lidas juntas, as ideias do livro dão quatro regras para a folha da prefeitura. Nenhuma é de Salazar sobre o servidor; são a minha aplicação delas."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Quatro regras para a remuneração do servidor municipal (leitura do autor)",
+     "cabecalho": [
+      "Regra",
+      "De onde vem",
+      "O que já existe no Brasil",
+      "Situação em Campo Grande"
+     ],
+     "linhas": [
+      [
+       "1. Piso digno: ninguém abaixo do suficiente",
+       "salário suficiente e mínimo obrigatório (pp. 110–111)",
+       "pisos nacionais do magistério (Lei 11.738/2008), da enfermagem (Lei 14.434/2022) e dos agentes comunitários e de endemias, de dois salários mínimos (EC 120/2022)",
+       "a cesta básica de um adulto custa R$ 848,51, 56,6% do salário mínimo líquido de R$ 1.621; o DIEESE calcula em R$ 7.992,47 o mínimo para uma família de quatro (DIEESE, outubro de 2026). Quantos servidores ganham perto do mínimo não se sabe: a folha por carreira não é publicada (4.5)"
+      ],
+      [
+       "2. Diferença conforme a função",
+       "utilidades e rendimentos diferentes (p. 109)",
+       "carreiras com níveis e progressão por tempo e por mérito (Constituição, art. 39, §1º)",
+       "sem a folha por carreira e por lotação não se compara quem está na ponta com quem está na área-meio (4.5)"
+      ],
+      [
+       "3. O teto é o caixa",
+       "não exceder “as possibilidades do conjunto económico” (p. 111)",
+       "Lei de Responsabilidade Fiscal: pessoal até 54% da receita corrente líquida no Executivo municipal; acima de 51,3%, sem reajuste além da revisão geral (LC 101/2000, arts. 20 e 22). Há ainda o teto individual, o subsídio do prefeito (Constituição, art. 37, XI)",
+       "53,9% em agosto de 2026, acima do prudencial e colado no limite (SICONFI, RGF, 2º quadrimestre de 2026; 4.3)"
+      ],
+      [
+       "4. Quadro enxuto, sem demissão em massa",
+       "contra o Estado “sobrecarregado de funcionários” (p. 101) e contra o parasitismo administrativo (p. 124)",
+       "se a folha passar do limite, a Constituição manda cortar primeiro ao menos 20% dos cargos em comissão e funções de confiança, depois os não estáveis, e só por último os estáveis (art. 169, §§3º e 4º)",
+       "cerca de 15.304 comissionados e contratados ao lado de 15.590 efetivos (edital da folha, jan./2024; 4.1)"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa cumprir as quatro regras?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ordem de grandeza, por cálculo do autor sobre o RGF. A folha dos servidores ativos somou R$ 3,008 bilhões nos 12 meses até agosto de 2026; cada 1% de reajuste geral custa, portanto, cerca de R$ 30 milhões por ano. A despesa que conta para a lei foi de R$ 3,015 bilhões, 53,9% de uma receita corrente líquida de cerca de R$ 5,59 bilhões. Para voltar a 51,3%, o limite prudencial, a despesa teria de ser de cerca de R$ 2,87 bilhões: são cerca de R$ 145 milhões por ano a menos, ou a mesma despesa com uma receita cerca de R$ 285 milhões maior (SICONFI, RGF, 2º quadrimestre de 2026; cálculo do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Os R$ 145 milhões cabem nas regras 3 e 4 sem demitir concursado. Um corte de 20% na despesa com cargos em comissão e funções de confiança, o primeiro passo que a Constituição manda, mais a não reposição das vagas que se abrem na área-meio por aposentadoria, são o caminho mais curto; o valor exato de cada um depende da folha por cargo, que a prefeitura não publica (4.5). A cada ano em que a despesa ficar abaixo de 51,3%, a revisão geral e os reajustes dos pisos voltam a ser possíveis, começando por quem está mais perto do mínimo e por quem atende o cidadão na ponta."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o critério de Salazar se resume numa frase: piso para todos, diferença conforme a função, e o teto dado pelo que o caixa aguenta. É uma régua simples para uma folha que está no limite da lei, e serve para dizer não a dois erros opostos: o salário que não sustenta a casa e a folha que não cabe no orçamento."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 30 milhões",
+     "texto": "é o custo anual de cada 1% de reajuste para os servidores ativos da prefeitura, cuja folha somou R$ 3,008 bilhões em 12 meses até agosto de 2026. Fonte: SICONFI, RGF Anexo 1, 2º quadrimestre de 2026; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Quanto pagar ao servidor: o critério do salário suficiente",
+     "texto": [
+      "Lei municipal de política de remuneração com quatro regras: piso que sustente a família, diferença entre carreiras pela função e pelo resultado, reajuste acima da inflação só com a despesa de pessoal abaixo do limite prudencial, e crescimento do quadro só onde há atendimento ao cidadão.",
+      "Estudar um piso municipal de dois salários mínimos (R$ 3.242 em 2026) para o servidor efetivo, o mesmo dos agentes comunitários (EC 120/2022), com o custo calculado antes pela folha nominal.",
+      "Publicar todo ano quanto ganha cada carreira, comparado com o salário mínimo, a cesta básica de Campo Grande e o mínimo necessário do DIEESE.",
+      "Sair do limite prudencial sem demitir concursado: primeiro corte de ao menos 20% na despesa com cargos em comissão e funções de confiança (Constituição, art. 169, §3º), depois a não reposição de vagas na área-meio.",
+      "Quando houver folga, distribuir o reajuste primeiro a quem ganha perto do piso e a quem está na ponta: professora, enfermeira, agente comunitário e guarda."
+     ]
     }
    ],
    "regiao": {
@@ -4037,7 +4199,8 @@
     "4.2 O peso do funcionalismo público",
     "4.3 Folha e Lei de Responsabilidade Fiscal",
     "4.4 Previdência dos servidores",
-    "4.5 Carreiras"
+    "4.5 Carreiras",
+    "4.6 Quanto pagar ao servidor: o critério do salário suficiente"
    ]
   },
   {
