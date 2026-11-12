@@ -9119,6 +9119,232 @@
       "Programa Empresa Amiga da Escola: a empresa que adota uma escola municipal, com laboratório, mentoria ou estágio, recebe selo público e preferência como critério de desempate nos programas da prefeitura.",
       "Uma escola no modelo P-TECH até 2032, em parceria com a UFMS ou o IFMS e uma empresa de tecnologia ou de alimentos, com ensino médio e curso superior de tecnologia num só percurso."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "9.10",
+     "texto": "A universidade produzindo com a prefeitura"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que a prefeitura e não só a empresa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque a prefeitura é o maior comprador de serviço técnico da cidade e quase nunca compra das universidades que tem ao lado. Paga escritório de fora para fazer projeto de escola, laudo de ponte e sistema de computador, enquanto a UFMS e a UEMS têm professores, laboratórios e alunos que precisam de problema real para aprender. O 9.8 mostrou a universidade a serviço das empresas; aqui a ideia é a mesma, com a prefeitura como cliente, curso por curso. Já há começo: em setembro de 2026 a prefeitura e a UFMS assinaram o contrato de ensino e serviço de saúde (COAPES), por cinco anos, e o acordo para uma Unidade de Saúde da Família dentro da Cidade Universitária, com estudantes atendendo pacientes do SUS sob supervisão (Correio do Estado, 15/09/2026); e, em outubro de 2025, um acordo de cinco anos para recuperar o Lago do Amor (Campo Grande News, 31/10/2025)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Isso já deu certo em algum lugar?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Universidades trabalhando para o governo",
+     "cabecalho": [
+      "Onde",
+      "Como funciona",
+      "Resultado",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Paraná, escritórios de engenharia das universidades estaduais (Projetek)",
+       "as universidades fazem projetos executivos de obras públicas, em BIM, para os municípios",
+       "87 projetos para 59 municípios em pouco mais de três anos, economia de cerca de R$ 8,8 milhões, perto de R$ 101 mil por projeto",
+       "Agência Estadual de Notícias do Paraná, 23/04/2025"
+      ],
+      [
+       "Paraná, Residência Técnica",
+       "engenheiros e arquitetos formados há até três anos trabalham dois anos no governo e fazem especialização de 500 horas com a universidade (UEPG)",
+       "bolsa de R$ 3.040 por mês; 123 vagas na edição de 2025; 264 já concluíram",
+       "Agência Estadual de Notícias do Paraná, 2025"
+      ],
+      [
+       "Campo Grande, saúde (COAPES)",
+       "estudantes da UFMS atendem no SUS municipal sob supervisão; USF no campus",
+       "assinado em 08/09/2026; capacidade ainda não divulgada",
+       "Correio do Estado, 15/09/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que cada curso pode produzir para a cidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Cursos da UFMS e da UEMS e o trabalho que podem fazer com a prefeitura",
+     "cabecalho": [
+      "Curso ou área",
+      "O que produz para a prefeitura",
+      "Onde ajuda no livro"
+     ],
+     "linhas": [
+      [
+       "Engenharia Civil e Arquitetura (UFMS)",
+       "projeto executivo de escola, posto e praça; laudo de pontes, prédios e encostas; ensaio de laboratório do asfalto entregue pelas empreiteiras",
+       "praças, asfalto (5.5), creches"
+      ],
+      [
+       "Engenharia Elétrica e mestrado em Eficiência Energética (UFMS)",
+       "auditoria da conta de energia dos prédios públicos e da iluminação pública; projeto de usina solar para a prefeitura",
+       "lixo e energia (5.9), iluminação pública"
+      ],
+      [
+       "Engenharia Ambiental e tecnólogo em Saneamento (UFMS)",
+       "plano de drenagem, monitoramento dos córregos e do aterro, coleta seletiva",
+       "saneamento (5.8), lixo (5.9)"
+      ],
+      [
+       "Geografia e geoprocessamento (UFMS)",
+       "cadastro georreferenciado dos imóveis para o IPTU, mapa de calor da violência e da falta de serviço por região",
+       "IPTU (6.7), regiões (5.6)"
+      ],
+      [
+       "Computação (Facom, UFMS)",
+       "sistemas próprios da prefeitura, dados abertos, aplicativo da fila da saúde e da vaga de creche",
+       "filas da saúde, vagas de creche"
+      ],
+      [
+       "Medicina, Enfermagem e Odontologia (UFMS); Medicina (UEMS)",
+       "atendimento supervisionado nas USFs, mutirões de consulta e de exame",
+       "filas de consulta e de exame (Capítulo 8)"
+      ],
+      [
+       "Fonoaudiologia, Terapia Ocupacional e Psicologia (UEMS)",
+       "atendimento a crianças com autismo e outras deficiências, apoio aos CAPS",
+       "crianças atípicas (Capítulo 8), dependência química (Capítulo 14)"
+      ],
+      [
+       "Farmácia (UFMS)",
+       "controle do estoque de remédios, farmácia de fitoterápicos (Farmácia Viva), análise de qualidade",
+       "remédios em falta (Capítulo 8)"
+      ],
+      [
+       "Nutrição (UFMS)",
+       "cardápio e controle da merenda escolar",
+       "merenda (Capítulo 9)"
+      ],
+      [
+       "Medicina Veterinária e Zootecnia (UFMS)",
+       "castração em massa, apoio ao controle de zoonoses, hortas e criação nas escolas",
+       "saúde pública e escolas"
+      ],
+      [
+       "Direito (UFMS e UEMS)",
+       "núcleo de prática jurídica para regularização fundiária (Reurb), Procon e defesa do idoso",
+       "moradia (Capítulo 11), idosos (Capítulo 14)"
+      ],
+      [
+       "Administração Pública (UEMS), Economia e Contabilidade (UFMS)",
+       "custo de cada serviço, avaliação de programas, apoio a compras e à previdência municipal",
+       "finanças (Capítulos 6 e 7)"
+      ],
+      [
+       "Pedagogia, Letras e licenciaturas",
+       "reforço escolar e alfabetização na Reme",
+       "educação (Capítulo 9)"
+      ],
+      [
+       "Educação Física",
+       "atividade física orientada nas praças e nos parques",
+       "praças e parques (Capítulo 5), idosos"
+      ],
+      [
+       "Comunicação e Jornalismo (UFMS)",
+       "linguagem simples nos serviços, portal da transparência legível",
+       "transparência (Capítulo 4)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: cursos, PDU 2020–2024 da Faeng (UFMS) e vestibular da UEMS (Campo Grande News); atividades, proposta do autor. A lista não é fechada; os cursos de cada universidade escolhem o que conseguem fazer bem."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como fazer dentro da lei?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Formatos legais para a parceria",
+     "cabecalho": [
+      "Formato",
+      "Para quê",
+      "Base legal"
+     ],
+     "linhas": [
+      [
+       "Acordo de cooperação técnica, sem dinheiro",
+       "projetos de extensão, estágio, uso de dados e de laboratório",
+       "Lei 14.133/2021, art. 184 (aplicação aos convênios e acordos)"
+      ],
+      [
+       "Convênio com repasse",
+       "projeto com custo: material, bolsa, equipamento",
+       "Lei 14.133/2021, art. 184; lei municipal e LDO"
+      ],
+      [
+       "Contratação direta da universidade ou da fundação de apoio",
+       "estudo, projeto, laudo, sistema, pesquisa",
+       "Lei 14.133/2021, art. 75, XV; Lei 8.958/1994 (fundações de apoio)"
+      ],
+      [
+       "Extensão curricular",
+       "trabalho dos alunos em projetos da cidade, contando como parte do curso",
+       "Resolução CNE/CES 7/2018: ao menos 10% da carga horária do curso em extensão"
+      ],
+      [
+       "Contrato de ensino e serviço de saúde (COAPES)",
+       "estudantes e residentes no SUS municipal",
+       "Portaria Interministerial MEC/MS 1.124/2015; já assinado em 2026"
+      ],
+      [
+       "Residência técnica municipal",
+       "recém-formados trabalhando na prefeitura com especialização",
+       "lei municipal própria, no modelo do Paraná"
+      ],
+      [
+       "Estágio",
+       "alunos nas secretarias",
+       "Lei 11.788/2008"
+      ],
+      [
+       "Compra pública de inovação",
+       "solução nova para problema da cidade",
+       "Lei Complementar 182/2021, arts. 12 a 15; Lei 13.243/2016"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a cidade economiza?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ordem de grandeza, com hipóteses do autor. Se a universidade fizer 40 projetos executivos de obras por ano para a prefeitura, ao custo médio evitado de R$ 101 mil do Paraná, são cerca de R$ 4 milhões por ano. Uma residência técnica com 50 engenheiros, arquitetos, contadores e profissionais de saúde, à bolsa paranaense de R$ 3.040, custa cerca de R$ 1,8 milhão por ano (50 × R$ 3.040 × 12) e põe na prefeitura gente formada que hoje falta nas secretarias. E a extensão curricular é a maior reserva: um curso de 3.600 horas exige ao menos 360 horas de extensão por aluno (Resolução CNE/CES 7/2018); se 5 mil alunos das duas universidades em Campo Grande fizerem 90 horas por ano em projetos da cidade, são 450 mil horas de trabalho técnico supervisionado por ano. A economia maior, porém, não está no preço; está no serviço que hoje não é feito porque não há quem faça: o laudo da ponte, o ensaio do asfalto, a auditoria da conta de luz."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a prefeitura e as universidades vivem na mesma cidade como se estivessem em cidades diferentes. Juntar as duas não custa obra nem empréstimo; custa decisão, convênio bem escrito e um escritório que cuide da agenda. A universidade ganha problema real e receita; o aluno ganha prática e currículo; a prefeitura ganha serviço técnico que não consegue contratar; e o morador ganha o posto, a praça e o asfalto mais bem feitos."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 8,8 milhões",
+     "texto": "foi a economia de 59 municípios do Paraná com 87 projetos de obras feitos pelos escritórios de engenharia das universidades estaduais, em pouco mais de três anos. Fonte: Agência Estadual de Notícias do Paraná, 23/04/2025."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A universidade produzindo com a prefeitura",
+     "texto": [
+      "Escritório Prefeitura-Universidade, na Secretaria de Governo, com uma carteira anual de problemas da cidade abertos à UFMS e à UEMS, e um responsável por curso em cada universidade.",
+      "Escritório de projetos de engenharia e arquitetura com a Faeng (UFMS): meta de 40 projetos executivos de obras municipais por ano.",
+      "Residência técnica municipal por lei: 50 vagas por ano para recém-formados da UFMS e da UEMS em engenharia, arquitetura, contabilidade, direito e computação, com especialização e bolsa.",
+      "Laboratório da UFMS como fiscal do asfalto e das obras: toda obra acima de um valor definido em lei com ensaio independente antes de a prefeitura pagar (5.5).",
+      "Ampliar o COAPES de 2026 para a UEMS e para os cursos de fonoaudiologia, terapia ocupacional e psicologia, com atendimento às crianças atípicas nas unidades da prefeitura.",
+      "Carteira de extensão curricular: a prefeitura publica todo semestre os projetos em que os alunos podem cumprir as horas de extensão exigidas pelo MEC.",
+      "Relatório anual da parceria, com projetos feitos, horas trabalhadas e economia estimada."
+     ]
     }
    ],
    "regiao": {
@@ -9156,7 +9382,8 @@
     "9.6 Professores",
     "9.7 Educação inclusiva",
     "9.8 A UFMS, a UEMS e a economia da cidade",
-    "9.9 Empresas e escolas"
+    "9.9 Empresas e escolas",
+    "9.10 A universidade produzindo com a prefeitura"
    ]
   },
   {
