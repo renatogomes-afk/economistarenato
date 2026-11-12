@@ -1072,6 +1072,408 @@
       "Selo Feito em Campo Grande para produtos com identidade local, com apoio técnico e ponto de venda, no modelo de Oita.",
       "Meta de renda: dobrar em termos reais a renda média das regiões mais pobres em 16 anos, com acompanhamento anual por região."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.8",
+     "texto": "A indústria nos municípios de Mato Grosso do Sul"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Onde está a indústria do estado?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Longe da capital. Em Três Lagoas, a indústria responde por 62% do valor adicionado; em Selvíria, vizinha das usinas do Rio Paraná, por 76%; em Campo Grande, por 19%, pela conta da Semadesc com os dados do IBGE de 2021 (Semadesc, PIB dos Municípios de MS 2021, Tabela 9). A prefeitura, com a mesma base do IBGE, divulgou 15% (18/12/2023), porque conta à parte a administração pública; o livro usa a tabela da Semadesc aqui para comparar todos os municípios do mesmo jeito. O IBGE ainda não publicou o valor adicionado por setor dos municípios em 2022 e 2023."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "PIB e peso de cada setor nos maiores municípios de MS",
+     "cabecalho": [
+      "Município",
+      "PIB 2023 (R$ bi)",
+      "Agropecuária",
+      "Indústria",
+      "Comércio, serviços e governo"
+     ],
+     "linhas": [
+      [
+       "Campo Grande",
+       "42,3",
+       "3,6%",
+       "19,2%",
+       "77,2%"
+      ],
+      [
+       "Dourados",
+       "20,3",
+       "12,0%",
+       "21,3%",
+       "66,7%"
+      ],
+      [
+       "Três Lagoas",
+       "14,8",
+       "11,9%",
+       "61,8%",
+       "26,3%"
+      ],
+      [
+       "Ponta Porã",
+       "6,1",
+       "45,1%",
+       "10,0%",
+       "44,9%"
+      ],
+      [
+       "Maracaju",
+       "5,9",
+       "50,9%",
+       "6,3%",
+       "42,8%"
+      ],
+      [
+       "Corumbá",
+       "4,2",
+       "26,0%",
+       "16,9%",
+       "57,1%"
+      ],
+      [
+       "Sidrolândia",
+       "4,1",
+       "54,5%",
+       "11,7%",
+       "33,8%"
+      ],
+      [
+       "Rio Brilhante",
+       "3,8",
+       "39,9%",
+       "36,9%",
+       "23,3%"
+      ],
+      [
+       "Naviraí",
+       "3,7",
+       "28,9%",
+       "31,7%",
+       "39,4%"
+      ],
+      [
+       "Nova Andradina",
+       "3,6",
+       "37,3%",
+       "23,7%",
+       "39,0%"
+      ],
+      [
+       "Ribas do Rio Pardo",
+       "3,4",
+       "78,7%",
+       "8,0%",
+       "13,3%"
+      ],
+      [
+       "Costa Rica",
+       "3,3",
+       "62,4%",
+       "14,6%",
+       "23,0%"
+      ],
+      [
+       "Chapadão do Sul",
+       "3,3",
+       "48,4%",
+       "8,2%",
+       "43,3%"
+      ],
+      [
+       "Selvíria",
+       "2,7",
+       "19,8%",
+       "76,5%",
+       "3,7%"
+      ],
+      [
+       "Aparecida do Taboado",
+       "n/d",
+       "26,1%",
+       "42,7%",
+       "31,3%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: PIB de 2023, Semadesc, Produto Interno Bruto Municipal 2023, Tabela 5 (base IBGE, dez/2025); participação dos setores no valor adicionado de 2021, Semadesc, PIB dos Municípios de MS 2021, Tabela 9. Os anos diferem porque o IBGE só publicou os setores até 2021. Ribas do Rio Pardo aparece com pouca indústria porque a fábrica de celulose começou a operar em 2024, depois do último dado por setor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a tabela mostra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Três tipos de município. Os industriais, onde uma fábrica grande define a economia: Três Lagoas (celulose), Selvíria (energia), Aparecida do Taboado, Rio Brilhante e Naviraí (açúcar, etanol e alimentos). Os agrícolas, onde metade ou mais do valor vem da lavoura e do boi: Ribas do Rio Pardo, Costa Rica, Sidrolândia, Maracaju, Chapadão do Sul. E os de serviço, onde o comércio, o serviço e o governo pesam três quartos: Campo Grande e, em menor grau, Dourados e Corumbá. Campo Grande tem 23% do PIB do estado (Semadesc, 2023) e um terço da população, e o PIB por morador da capital, R$ 37,9 mil em 2021, é menos da metade do de Chapadão do Sul (R$ 91,7 mil) e de Costa Rica (R$ 97,7 mil) (Semadesc, PIB dos Municípios 2021, Tabela 11). PIB por morador alto em cidade pequena e industrial ou agrícola não quer dizer renda alta para quem mora lá: boa parte é lucro de empresa e sai do município."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "62% contra 19%",
+     "texto": "é o peso da indústria no valor adicionado de Três Lagoas e de Campo Grande (2021). Fonte: Semadesc, PIB dos Municípios de MS 2021, Tabela 9 (base IBGE)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · A indústria nos municípios de Mato Grosso do Sul",
+     "texto": [
+      "Pedir ao IBGE e à Semadesc a divulgação anual do valor adicionado por setor dos municípios, sem a defasagem de quatro anos.",
+      "Usar o mapa da indústria do estado para escolher o que a capital fornece ao interior: manutenção, máquinas, logística, formação e serviços às fábricas (2.7)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.9",
+     "texto": "Insumos de fora e de dentro"
+    },
+    {
+     "tipo": "h3",
+     "texto": "É possível saber quanto do que a cidade usa vem de fora?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não com dado público. O número existe: cada nota fiscal eletrônica registra o município de quem vende e de quem compra, e a Secretaria de Fazenda do estado tem essa informação. Mas ela não é publicada por município, e não há matriz insumo-produto atualizada de Campo Grande. O que existe são três aproximações."
+    },
+    {
+     "tipo": "p",
+     "texto": "A primeira é a matriz de 2023 do BNDES para os estados: São Paulo compra de outros estados só 17,5% dos insumos nacionais que usa, Minas Gerais 23,8%, a Bahia 34,8%, o Rio de Janeiro 52,1%, o Espírito Santo 53,8% e o Acre 78,3%; os estados do Centro-Oeste estão entre os que mais compram de fora (BNDES, Encadeamentos produtivos inter-regionais, Estudos Especiais 73/2026, maio/2026). A segunda é o comércio de Mato Grosso do Sul com os outros estados, último dado publicado: em 2012, o estado vendeu mais de R$ 50 bilhões e comprou cerca de R$ 41 bilhões de outras unidades da federação, metade das compras industriais vindo do Sudeste, e os itens mais comprados foram combustíveis (7,6%), automóveis (7,4%), alimentos (6,3%) e móveis e produtos industriais (5,5%) (Fagundes e outros, Desenvolvimento em Questão, n. 39, 2017). A terceira é a matriz insumo-produto de Campo Grande com ano-base 2014, de Coelho, Frainer e Reis Neto (Editora Pascal, 2023), que aponta como setores-chave da cidade a celulose e papel, os laticínios, os serviços às famílias, a administração pública, a educação privada e a alimentação."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Quanto a economia de Campo Grande compra de insumos (ordem de grandeza)",
+     "cabecalho": [
+      "Item",
+      "Valor",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "Consumo intermediário no Brasil (insumos sobre o valor da produção)",
+       "53,5% (2021)",
+       "IBGE, Contas Nacionais, Tabela 7.5.1.1 (Anuário 2023); cálculo do autor"
+      ],
+      [
+       "Valor adicionado de Campo Grande (2023)",
+       "cerca de R$ 36 bilhões",
+       "PIB de R$ 42,3 bi (Semadesc) menos impostos de cerca de 15%; cálculo do autor"
+      ],
+      [
+       "Valor da produção da cidade, se a proporção for a nacional",
+       "cerca de R$ 77 bilhões",
+       "hipótese do autor"
+      ],
+      [
+       "Insumos comprados",
+       "cerca de R$ 41 bilhões por ano",
+       "hipótese do autor"
+      ],
+      [
+       "…vindos de outros estados",
+       "de 45% a 60%, ou R$ 18 a 25 bilhões",
+       "hipótese do autor, por analogia com os estados de porte médio da matriz do BNDES"
+      ],
+      [
+       "Importações do exterior pela cidade",
+       "cerca de US$ 249 milhões de janeiro a julho de 2026",
+       "corrente de comércio menos exportações (A Crítica, 07/09/2026); cálculo do autor"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a conta mostra o tamanho da oportunidade: se a cidade compra de fora algo entre R$ 18 e 25 bilhões por ano em insumos, trazer para cá 10% disso, em embalagem, peça, manutenção, alimento processado, ração e serviço técnico, é uma indústria do tamanho da que a capital tem hoje. É o argumento mais prático da tese do capítulo. Para sair da hipótese, basta a Sefaz publicar, com sigilo por empresa, as compras e vendas interestaduais por município e por produto."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 18 a 25 bilhões",
+     "texto": "é a estimativa do que a economia de Campo Grande compra de insumos de outros estados por ano; hipótese do autor sobre IBGE (Contas Nacionais 2021), Semadesc (PIB 2023) e BNDES (matriz de 2023)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Insumos de fora e de dentro",
+     "texto": [
+      "Pedido à Sefaz-MS, pela Lei de Acesso à Informação, das entradas e saídas interestaduais de Campo Grande por produto, a partir das notas fiscais, sem identificar empresas.",
+      "Programa de substituição de compras de fora: a cada ano, a prefeitura e a Fiems escolhem dez insumos que a cidade mais compra de outros estados e procuram quem os produza aqui (2.7).",
+      "Atualizar a matriz insumo-produto de Campo Grande com a UFMS e a UEMS (9.8)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.10",
+     "texto": "Quem fica com o PIB: salário, lucro e imposto"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como se divide o que a cidade produz?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O PIB pode ser lido pela renda que gera: a remuneração dos empregados (salário e contribuições sociais), o rendimento misto dos autônomos e dos pequenos negócios sem empregado, o excedente operacional (lucros, juros, aluguéis e a depreciação das máquinas e prédios) e os impostos sobre a produção. No Brasil, em 2021, os empregados ficaram com 39,2% do PIB, os autônomos com 7,8%, o excedente operacional com 37,5% e os impostos com 15,5% (IBGE, Contas Nacionais, Anuário 2023, Tabela 7.5.1.1; cálculo do autor). Em Mato Grosso do Sul, os empregados ficaram com só 33,6%, o excedente e o rendimento misto com 54% e os impostos com 12,4% (IBGE, Sistema de Contas Regionais 2021, p. 12): é o retrato de um estado de agro e de indústria de capital intensivo, onde muito do valor vira lucro e depreciação."
+    },
+    {
+     "tipo": "p",
+     "texto": "O IBGE não publica essa divisão por município. A tabela abaixo é uma estimativa do autor para Campo Grande em 2023, montada de baixo para cima com o emprego e as folhas conhecidas."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O PIB de Campo Grande pela renda, 2023 (estimativa do autor)",
+     "cabecalho": [
+      "Parte",
+      "R$ bilhões",
+      "% do PIB",
+      "Como foi calculado"
+     ],
+     "linhas": [
+      [
+       "Salário dos empregados com carteira no setor privado",
+       "10,7",
+       "25%",
+       "cerca de 250 mil vínculos (Novo Caged, UFMS) × R$ 3.000 a 3.400 por mês × 13,3 (com 13º e férias); hipótese de salário médio do autor, perto da média industrial de R$ 3.033 (Fiems)"
+      ],
+      [
+       "Contribuições das empresas (INSS, FGTS)",
+       "2,1",
+       "5%",
+       "cerca de 20% da folha privada (hipótese do autor, menor que a alíquota cheia por causa do Simples)"
+      ],
+      [
+       "Folha dos servidores ativos (prefeitura, estado e União)",
+       "6,0",
+       "14%",
+       "ver 2.11"
+      ],
+      [
+       "Remuneração dos empregados (soma)",
+       "18,8",
+       "44%",
+       ""
+      ],
+      [
+       "Rendimento misto: MEIs e autônomos sem CNPJ",
+       "4,5",
+       "11%",
+       "78.372 MEIs (Receita, set/2026) e cerca de 72 mil autônomos sem CNPJ (35% dos 206 mil do estado, PNAD 1º tri 2026; hipótese do autor) × R$ 2.500 por mês (hipótese)"
+      ],
+      [
+       "Impostos sobre a produção",
+       "6,3",
+       "15%",
+       "PIB menos valor adicionado de 2021 (R$ 34,7 bi e R$ 29,4 bi; Semadesc e IBGE via prefeitura): 15,3%; cálculo do autor"
+      ],
+      [
+       "Excedente operacional: lucros, juros, aluguéis e depreciação",
+       "12,7",
+       "30%",
+       "o que sobra do PIB de R$ 42,3 bi (Semadesc, 2023)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Em Campo Grande, a fatia do salário é maior que a do país e muito maior que a do estado, porque a cidade é de serviço e de governo e tem mais emprego formal por morador: 324 mil vínculos formais (Funtrab, dez/2025) para 898 mil moradores (IBGE, Censo 2022). O excedente operacional, que é a renda do capital, fica perto de 30%. Dentro dele estão o lucro das empresas, os juros recebidos pelos bancos, os aluguéis, inclusive o aluguel que o IBGE atribui a quem mora em casa própria, e a depreciação. O IBGE não separa essas partes por município nem por estado, e o livro não as estima: não há base para dizer quanto é lucro e quanto é aluguel em Campo Grande."
+    },
+    {
+     "tipo": "p",
+     "texto": "O consumo intermediário, os insumos, não entra no PIB: o PIB é o que sobra do valor da produção depois de pagar os insumos. No Brasil, os insumos são 53,5% do valor da produção (2021); em Campo Grande, pela mesma proporção, cerca de R$ 41 bilhões por ano, boa parte comprada de outros estados (2.9)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "44%",
+     "texto": "do PIB de Campo Grande vai para salários e contribuições, contra 39,2% no Brasil e 33,6% em Mato Grosso do Sul (2021). Fontes: IBGE, Contas Nacionais e Contas Regionais; estimativa do autor para a capital (2023)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quem fica com o PIB: salário, lucro e imposto",
+     "texto": [
+      "Pedir ao IBGE e à Semadesc o PIB pela ótica da renda por município, ao menos para as cidades grandes, como já se faz para os estados.",
+      "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (2.1) em número."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.11",
+     "texto": "O peso do funcionalismo público"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos são os servidores na cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Cerca de um em cada cinco empregos formais. Pela RAIS de 2021, a administração pública tinha 20,8% dos empregos formais de Campo Grande; aplicada a mesma fatia aos 324.441 vínculos formais de dezembro de 2025 (Funtrab), são cerca de 67 mil servidores, somadas as três esferas (cálculo do autor). Nenhum órgão publica o número de servidores que trabalham em Campo Grande por esfera; a tabela junta o que se sabe e marca o que é hipótese."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Servidores ativos que trabalham em Campo Grande, por esfera (ordem de grandeza)",
+     "cabecalho": [
+      "Esfera",
+      "Servidores",
+      "Folha por ano (R$ bilhões)",
+      "Fonte e método"
+     ],
+     "linhas": [
+      [
+       "Prefeitura (todas as secretarias)",
+       "cerca de 31 mil vínculos: 15.590 efetivos e 15.304 comissionados e contratados",
+       "2,97 (ativos, 2025); 2,27 em 2023",
+       "imprensa, com base em edital (servidores-e-rede-de-saude.md); SICONFI, RGF 2023 e 2025"
+      ],
+      [
+       "Estado (Executivo, com a polícia)",
+       "cerca de 27 mil (metade dos 54.078 ativos do estado)",
+       "cerca de 2,3",
+       "Correio do Estado, 30/11/2023 (ativos); folha de R$ 343 milhões por mês, civis e militares (avaliação atuarial, via Correio do Estado, 23/04/2024) × 13,3; metade na capital é hipótese do autor"
+      ],
+      [
+       "União e outros (UFMS, IFMS, Exército, polícias e justiça federais, INSS, Receita; tribunais, Ministério Público e Assembleia do estado)",
+       "cerca de 9 a 12 mil",
+       "cerca de 1,5",
+       "diferença entre o total e as duas linhas acima; folha média de R$ 11 mil por mês (hipótese do autor)"
+      ],
+      [
+       "Total",
+       "cerca de 67 mil",
+       "cerca de 6,0 (2023)",
+       "cálculo do autor"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fora da tabela estão os aposentados e pensionistas, que não trabalham mas recebem e gastam na cidade: só a prefeitura pagou R$ 687 milhões a inativos em 2025 (SICONFI, RGF), e o estado paga cerca de R$ 377 milhões por mês a inativos e pensionistas civis e militares em todo o estado (avaliação atuarial de 2024, via Correio do Estado, 23/04/2024)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto pesa na economia?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A folha dos servidores ativos, cerca de R$ 6 bilhões, é perto de 14% do PIB de Campo Grande de 2023 (R$ 42,3 bilhões; Semadesc) e cerca de um terço de tudo o que se paga de salário na cidade (2.10; cálculo do autor). Pelo lado da produção, a administração, a saúde e a educação públicas foram 22,8% do valor adicionado da cidade em 2021 (IBGE, via prefeitura, 18/12/2023), uma fatia maior que a da indústria. É o traço de capital: o governo é o maior empregador e o salário do servidor sustenta boa parte do comércio e dos serviços."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o funcionalismo grande não é defeito de Campo Grande, é função de capital: os órgãos do estado e da União estão aqui. O risco é a cidade depender dele para crescer. Quando a folha do estado aperta, como mostra o déficit da previdência estadual, ou quando a prefeitura chega ao limite da Lei de Responsabilidade Fiscal (54,1% da receita corrente líquida em 2025, 4.2 e 7.4), a economia da cidade sente. Diversificar com indústria e serviços privados de maior salário é a forma de a capital não ficar refém do caixa público."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "1 em cada 5",
+     "texto": "empregos formais de Campo Grande é público, somadas prefeitura, estado e União. Fonte: RAIS 2021 (20,8%), aplicada aos 324.441 vínculos de dez/2025 (Funtrab); cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O peso do funcionalismo público",
+     "texto": [
+      "Publicar, com o estado e a União, o número de servidores e a folha paga em Campo Grande por esfera e por órgão, a partir da RAIS e dos portais de transparência.",
+      "Na prefeitura, quadro de pessoal por secretaria e por vínculo publicado todo mês, com a proporção de comissionados e contratados (4)."
+     ]
     }
    ],
    "regiao": {
@@ -1110,7 +1512,11 @@
     "2.4 Comércio e serviços",
     "2.5 Licenças, taxas e profissionais liberais",
     "2.6 Construção civil e mercado imobiliário",
-    "2.7 O que o Japão ensina a uma capital do interior"
+    "2.7 O que o Japão ensina a uma capital do interior",
+    "2.8 A indústria nos municípios de Mato Grosso do Sul",
+    "2.9 Insumos de fora e de dentro",
+    "2.10 Quem fica com o PIB: salário, lucro e imposto",
+    "2.11 O peso do funcionalismo público"
    ]
   },
   {
