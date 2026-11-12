@@ -418,6 +418,39 @@ def pagina_colecao(c):
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
+
+def barras_svg(b):
+    """Gráfico de barras horizontais em SVG inline (bloco 'barras'): rotulos, series [{nome, valores}], unidade, legenda, fonte."""
+    cores = ["#003097", "#03A9F4", "#9AA5B1", "#1A1A1A"]
+    rot, ser = b["rotulos"], b["series"]
+    un = b.get("unidade", "")
+    vmax = max(max(s["valores"]) for s in ser) or 1
+    W, LX, BW = 640, 195, 390
+    bh, gap = 11, 9
+    gh = len(ser) * bh + gap
+    topo = 26 if len(ser) > 1 else 6
+    H = topo + len(rot) * gh + 4
+    fmt = lambda v: (f"{v:.1f}".replace(".", ",") if isinstance(v, float) else f"{v:,}".replace(",", ".")) + un
+    out = [f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" aria-label="{html.escape(b.get("legenda", ""), quote=True)}" '
+           f'style="font-family:Inter,Arial,sans-serif;font-size:11px;max-width:{W}px;display:block;margin:0 auto">']
+    if len(ser) > 1:
+        x = LX
+        for k, s in enumerate(ser):
+            out.append(f'<rect x="{x}" y="6" width="10" height="10" fill="{cores[k % 4]}"/><text x="{x + 14}" y="15" fill="#1A1A1A">{html.escape(s["nome"])}</text>')
+            x += 22 + 7 * len(s["nome"])
+    for i, r in enumerate(rot):
+        y0 = topo + i * gh
+        out.append(f'<text x="{LX - 8}" y="{y0 + len(ser) * bh / 2 + 4}" text-anchor="end" fill="#1A1A1A">{html.escape(r)}</text>')
+        for k, s in enumerate(ser):
+            v = s["valores"][i]
+            w = max(0.5, BW * v / vmax)
+            y = y0 + k * bh
+            out.append(f'<rect x="{LX}" y="{y}" width="{w:.1f}" height="{bh - 2}" fill="{cores[k % 4]}"/>'
+                       f'<text x="{LX + w + 4:.1f}" y="{y + bh - 3}" fill="#444" font-size="9.5">{fmt(v)}</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
 def render_blocos(blocos):
     """Corpo em blocos: p, h2 (pergunta), caixa (número-chave), citacao (tradução + original), leitura (análise do autor)."""
     out = []
@@ -445,6 +478,10 @@ def render_blocos(blocos):
             lin = "\n".join("        <tr>" + "".join(f"<td>{e(str(c))}</td>" for c in l) + "</tr>" for l in b["linhas"])
             leg = f"<caption>{e(b['legenda'])}</caption>" if b.get("legenda") else ""
             out.append(f'    <div class="tabela-wrap"><table class="tabela-guia">{leg}\n      <thead><tr>{cab}</tr></thead>\n      <tbody>\n{lin}\n      </tbody>\n    </table></div>')
+        elif t == "barras":
+            leg = f"<figcaption>{e(b['legenda'])}</figcaption>" if b.get("legenda") else ""
+            fonte = f'<p class="nota">{e(b["fonte"])}</p>' if b.get("fonte") else ""
+            out.append(f'    <figure class="grafico-barras" style="margin:1.5em 0">{leg}{barras_svg(b)}{fonte}</figure>')
         elif t == "detalhes":
             out.append(f'    <details class="detalhes">\n      <summary>{e(b["titulo"])}</summary>\n{render_blocos(b["blocos"])}\n    </details>')
         elif t == "leitura":
