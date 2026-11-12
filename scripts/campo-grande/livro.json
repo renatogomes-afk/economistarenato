@@ -9403,6 +9403,157 @@
       "Habilitar os polos no Programa Academia da Saúde e firmar estágio supervisionado com as faculdades de educação física.",
       "Ligas esportivas por região, com calendário anual, e publicação do número de participantes por polo."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "13.6",
+     "texto": "O Morenão como fonte de renda"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Em que pé está o Morenão?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O Estádio Universitário Pedro Pedrossian, inaugurado em 1971 com 45 mil lugares, é da UFMS e está fechado para jogos oficiais desde 2022, sem certificado dos Bombeiros desde 2023 (Campo Grande News, 31/03/2026). A reitora explicou que a universidade não tinha orçamento e que manter um estádio profissional não está no escopo da sua missão (A Crítica, 31/03/2026). Em 31/03/2026 a UFMS cedeu a gestão ao Governo do Estado por até 35 anos. A reforma da estrutura, da parte elétrica e do combate a incêndio foi contratada por R$ 17,8 milhões, com prazo de até seis meses (A Crítica, 06/10/2026), e o gramado, de R$ 1,8 milhão, foi pago pela CBF (WK Notícias, 02/09/2026). A primeira fase reabre só o setor coberto, com cerca de 12 mil lugares, e mira o Estadual de 2027. O Estado contratou sem licitação a Alvarez & Marsal, por R$ 3,8 milhões, para modelar a concessão a uma empresa privada até 2028 (Correio do Estado, 28/08/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade já provou que tem público para show de estádio. O Guns N' Roses levou mais de 30 mil pessoas ao Autódromo em 09/04/2026, e os hotéis chegaram a 86% de ocupação no dia do show (secretaria municipal de desenvolvimento econômico e turismo, via A Crítica, 09/04/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que os outros estádios ensinam?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Estádios de capitais: modelo e resultado",
+     "cabecalho": [
+      "Estádio",
+      "Modelo",
+      "Resultado",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Arena Pantanal (Cuiabá)",
+       "gestão do Estado",
+       "cerca de R$ 15 milhões por ano de manutenção pagos pelo governo; naming rights nunca vendidos",
+       "Rdnews, 08/11/2026 e 2023"
+      ],
+      [
+       "Mané Garrincha (Brasília)",
+       "concessão comum de 35 anos (2020)",
+       "R$ 150 milhões de outorga, 5% da receita ao governo, cerca de R$ 700 milhões de investimento; o futebol é menos de 10% da receita",
+       "Folhapress, 22/06/2024"
+      ],
+      [
+       "Serra Dourada (Goiânia)",
+       "concessão de 35 anos, leilão na B3 (2025)",
+       "cerca de R$ 1 bilhão no contrato; a empresa promete mais shows que jogos",
+       "NeoFeed, 22/05/2025"
+      ],
+      [
+       "Fonte Nova (Salvador)",
+       "PPP",
+       "naming rights de R$ 13 milhões por ano, mas o Estado pagou R$ 119 milhões ao consórcio em 2023",
+       "Folhapress, 22/06/2024"
+      ],
+      [
+       "Arena Pernambuco",
+       "concessão desfeita",
+       "déficit de cerca de R$ 400 mil por mês e R$ 3 milhões por mês pagos à antiga concessionária",
+       "Folhapress, 22/06/2024"
+      ],
+      [
+       "Arena das Dunas (Natal)",
+       "naming rights",
+       "cerca de R$ 1,2 milhão por ano, até 2029",
+       "Folhapress, 22/06/2024"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A lição é clara: dá certo quando a empresa assume o risco e enche a agenda de shows e eventos; dá errado quando o governo garante pagamento ao operador ou fica com o estádio vazio."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o Morenão pode render para a cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Primeiro, um cuidado de economista. Quem mora aqui e vai ao show deixa de gastar o mesmo dinheiro em outra coisa na cidade; renda nova é só o que gasta quem vem de fora. Por isso a literatura internacional raramente encontra efeito mensurável de estádios sobre a renda local (Bradbury, Coates e Humphreys, Journal of Economic Surveys, 2023). Com essa régua, fiz três cenários."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Morenão: dinheiro novo por ano em três cenários (estimativa do autor)",
+     "cabecalho": [
+      "Cenário",
+      "Agenda por ano",
+      "Visitantes de fora",
+      "Dinheiro novo",
+      "% do PIB da cidade",
+      "Postos equivalentes"
+     ],
+     "linhas": [
+      [
+       "Conservador",
+       "3 shows, 2 feiras ou festivais, 30 jogos",
+       "42 mil",
+       "R$ 24 milhões",
+       "0,05%",
+       "cerca de 820"
+      ],
+      [
+       "Moderado",
+       "6 shows, 4 feiras ou festivais, 35 jogos",
+       "99 mil",
+       "R$ 58 milhões",
+       "0,12%",
+       "cerca de 2 mil"
+      ],
+      [
+       "Otimista",
+       "10 shows, 6 feiras ou festivais, 40 jogos",
+       "186 mil",
+       "R$ 112 milhões",
+       "0,22%",
+       "cerca de 3,8 mil"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Hipóteses do autor: público de fora de 40% nos shows, 20% nas feiras e 5% nos jogos; gasto de quem vem de fora, sem o ingresso, de R$ 700 no show, R$ 400 na feira e R$ 150 no jogo (no Rio, o turista estrangeiro gastou R$ 590 por dia no show de Lady Gaga, segundo a prefeitura e a Embratur, via Folha de Pernambuco, 06/05/2025); um posto de trabalho para cada R$ 29,6 mil de gasto, relação do turismo de eventos do Ceará em 2025 (Visite Ceará e Abeoc-CE, via O Povo, 09/12/2025); PIB da cidade de cerca de R$ 50 bilhões (estimativa do Capítulo 2). Os postos são em boa parte temporários. Os shows respondem por mais de 85% do resultado; o futebol enche o calendário, mas quase não traz dinheiro de fora."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, o Morenão contribui, mas não muda a renda da cidade: no cenário moderado, algo como um milésimo do PIB. É importante para hotel, bar, restaurante e transporte, e para pôr Campo Grande no circuito dos grandes shows. Não é fonte de receita da prefeitura: a outorga vai para o Estado, e o município fica com o ISS dos ingressos e do consumo, de R$ 1 a 4 milhões por ano (estimativa do autor, com ISS de 5% sobre ingresso médio de R$ 250). E só vale a pena se a concessão não custar dinheiro público por ano, como custa a Arena Pantanal."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E o sossego de quem mora perto?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O estádio fica no campus da UFMS, ao lado do Hospital Universitário e de bairros residenciais. A norma técnica nacional fixa 50 decibéis de dia e 45 à noite em área estritamente residencial (ABNT NBR 10151:2019), e o projeto de Lei do Silêncio de 2023 punha a área junto a hospitais na zona mais protegida (PLC 859/2023, retirado). Show de estádio passa disso na vizinhança. Por isso o limite tem de estar no contrato, e não na boa vontade do operador: número máximo de shows por ano, horário de término, medição pública do som e projeto acústico. É coerente com a cidade que defendo neste capítulo: com cultura e com sossego."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 58 milhões",
+     "texto": "por ano de dinheiro novo no cenário moderado, cerca de 0,1% do PIB de Campo Grande e 2 mil postos equivalentes. Fonte: estimativa do autor, com hipóteses descritas no texto."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O Morenão como fonte de renda",
+     "texto": [
+      "Defender a concessão comum, sem pagamento do Estado ao operador, no modelo de Brasília e Goiânia: outorga, percentual da receita, investimento obrigatório e agenda mínima de shows e eventos.",
+      "Contrato com metas públicas: shows e eventos por ano, público, empregos e artistas de MS na abertura dos grandes shows.",
+      "Uso social garantido: pista e campo para escolas, UFMS e projetos da Funesp em horários fixos e gratuitos.",
+      "Sossego no contrato: até 12 shows por ano, término às 23h30 nos dias úteis e à meia-noite na sexta e no sábado, medição de som na internet durante o show, multa acima do limite e projeto acústico voltado para o hospital e os bairros.",
+      "A prefeitura como parceira: plano de trânsito com a Agetran, Disque-Silêncio ativo nos dias de show e medição pública do impacto de cada grande evento (ocupação hoteleira, público de fora, gasto)."
+     ]
     }
    ],
    "regiao": {
@@ -9435,7 +9586,8 @@
     "13.2 Música da terra",
     "13.3 Sossego e barulho",
     "13.4 Esporte e lazer",
-    "13.5 Atividade física para jovens e idosos"
+    "13.5 Atividade física para jovens e idosos",
+    "13.6 O Morenão como fonte de renda"
    ]
   },
   {
