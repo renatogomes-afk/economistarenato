@@ -1163,7 +1163,7 @@ def gera_leituras():
         gera_documento(d, DOCS_PUB[i - 1] if i > 0 else None, DOCS_PUB[i + 1] if i + 1 < len(DOCS_PUB) else None)
 
 
-# ------------------------------------------------------------------ Campo Grande-MS · o livro "Campo Grande em 2032"
+# ------------------------------------------------------------------ Campo Grande-MS · o livro "Campo Grande em 2036"
 # Conteúdo em scripts/campo-grande/livro.json: ficha do livro e os capítulos. Página do livro em /campo-grande/,
 # uma página por capítulo em /campo-grande/<slug>/. Capítulo ainda sem texto mostra o roteiro e as fontes previstas.
 SITUACAO_CG = {"texto": "Texto em andamento", "dados": "Com dados", "roteiro": "Em preparação"}
@@ -1194,7 +1194,7 @@ def quadro_regiao(c):
 def cartao_cg(c, rel):
     return f"""    <article class="cartao">
       <a href="{rel}campo-grande/livro/{c['slug']}/">
-        <span class="chapeu">Campo Grande em 2032 · Capítulo {c['numero']}</span>
+        <span class="chapeu">Campo Grande em 2036 · Capítulo {c['numero']}</span>
         <h3 class="tit tit-g">{e(c['titulo'])}</h3>
         <p class="olho">{e(c['chamada'])}</p>
         <span class="selo">{situacao_cg(c)}</span>
@@ -1247,7 +1247,7 @@ def pagina_cg_livro():
   {assine("Cada capítulo novo, no seu e-mail.", "O avanço do livro sobre Campo Grande, com os dados e as fontes de cada tema.")}
 </main>
 """
-    escreve("campo-grande/livro", cabeca("Campo Grande em 2032: Propostas — Campo Grande-MS · Economista Renato Gomes", CG["chamada"], "campo-grande/livro/", rel)
+    escreve("campo-grande/livro", cabeca("Campo Grande em 2036: Propostas — Campo Grande-MS · Economista Renato Gomes", CG["chamada"], "campo-grande/livro/", rel)
             + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
 
 
@@ -1303,7 +1303,7 @@ def pagina_cg_capitulo(c, anterior, proxima):
   {assine("Cada capítulo novo, no seu e-mail.", "O avanço do livro sobre Campo Grande, com os dados e as fontes de cada tema.")}
 </div>
 """
-    escreve(f"campo-grande/livro/{c['slug']}", cabeca(f"{c['titulo']} — Campo Grande em 2032, cap. {c['numero']} · Economista Renato Gomes", c["chamada"],
+    escreve(f"campo-grande/livro/{c['slug']}", cabeca(f"{c['titulo']} — Campo Grande em 2036, cap. {c['numero']} · Economista Renato Gomes", c["chamada"],
                                                f"campo-grande/livro/{c['slug']}/", rel, "article")
             + topo("campo-grande/", rel, completo=False) + corpo + rodape(rel))
 
