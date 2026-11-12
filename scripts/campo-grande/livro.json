@@ -2550,6 +2550,208 @@
       "Capacitação em compras públicas com Sebrae, OAB-MS, CRC-MS, Crea-MS, CAU-MS e UFMS, e publicação anual de quanto a prefeitura comprou de profissionais e empresas da cidade.",
       "Nenhuma barreira ao consumidor: nada de registro municipal, taxa ou ISS diferente para quem é de fora."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.19",
+     "texto": "Indústrias de apoio: atender daqui as fábricas do estado"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que indústria de apoio?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque é o jeito mais rápido de a capital depender menos do comércio e dos serviços sem disputar com o interior o que é do interior. A fábrica de celulose fica onde está o eucalipto, a usina onde está a cana e o milho, o frigorífico perto do boi. Mas todas elas compram, o ano inteiro, peça, manutenção, química, embalagem, uniforme, equipamento de proteção, instrumento, software e serviço de engenharia, e boa parte disso vem hoje de São Paulo, do Paraná ou do exterior. Campo Grande fica no meio do caminho e tem o que falta às cidades pequenas: gente, engenheiro, escola técnica, aeroporto e hotel."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem são os grandes compradores?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "As grandes indústrias de Mato Grosso do Sul e o que compram",
+     "cabecalho": [
+      "Setor",
+      "Tamanho em MS",
+      "Onde fica",
+      "O que compra o ano todo"
+     ],
+     "linhas": [
+      [
+       "Celulose",
+       "Suzano: 5,8 milhões de toneladas por ano em três fábricas, uma delas, a de Ribas do Rio Pardo, com 2,55 milhões (Semadesc); Eldorado: 1,5 milhão nominal, até 1,8 milhão produzido (InfoMoney, 21/11/2023); Arauco: 3,5 milhões a partir do fim de 2027 (Times Brasil, 17/10/2025); R$ 75 bilhões em novos projetos (Correio do Estado, 14/09/2026)",
+       "Três Lagoas, Ribas do Rio Pardo, Inocência, Bataguassu, Água Clara",
+       "caldeiraria, tubulação, válvulas, bombas, motores, instrumentação, refratários, química de processo, telas e feltros, manutenção de paradas, inspeção, automação"
+      ],
+      [
+       "Bioenergia (etanol, açúcar e energia)",
+       "22 usinas, 5 bilhões de litros de etanol na safra 2025/26, 44% de milho; 18,9% do PIB industrial do estado; cerca de 34,5 mil empregos (Biosul, via Correio do Estado, 30/09/2026)",
+       "todo o centro-sul do estado",
+       "manutenção de entressafra, caldeiras e turbinas, peças de moenda, enzimas e leveduras (etanol de milho), análise de laboratório, automação"
+      ],
+      [
+       "Frigoríficos e carnes",
+       "40.656 empregos formais e US$ 2,47 bilhões de exportação em 2025 (Campo Grande News, 06/08/2026)",
+       "Campo Grande e interior",
+       "embalagem, filme plástico e caixa de papelão, facas e afiação, uniformes e EPIs, refrigeração industrial a amônia, química de higienização, manutenção de câmara fria"
+      ],
+      [
+       "Mineração e fertilizantes",
+       "LHG Mining, R$ 4 bilhões; UFN3 da Petrobras, mais de R$ 5 bilhões (Correio do Estado, 14/09/2026)",
+       "Corumbá e Três Lagoas",
+       "peças de desgaste, manutenção de máquinas pesadas, correias, instrumentação, análise química"
+      ],
+      [
+       "Grãos e esmagadoras",
+       "Copasul, R$ 1,4 bilhão em Naviraí (Correio do Estado, 14/09/2026)",
+       "sul e centro do estado",
+       "secadores, elevadores, peças, automação de armazéns, manutenção"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: as indicadas na tabela; última coluna, leitura do autor sobre o funcionamento típico de cada setor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Já existe esse mercado?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Existe, e é grande. Nas paradas de manutenção da Suzano de março a maio de 2026, as fábricas de Ribas do Rio Pardo e de Três Lagoas mobilizaram cerca de 6,1 mil trabalhadores e mais de 190 empresas prestadoras de serviço, com hotéis lotados em Três Lagoas na primeira semana (A Crítica, 07/05/2026). Ribas do Rio Pardo fica a cerca de 100 quilômetros da capital pela BR-262; Três Lagoas, a 331 quilômetros (valorfinal.com.br, rota conferida em 25/09/2026); Inocência, onde se ergue a fábrica da Arauco, a 329 quilômetros (emsampa.com.br). São Paulo está a cerca de mil. Quem atende de Campo Grande chega no mesmo dia; quem vem de São Paulo, não."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Quanto as grandes indústrias gastam com manutenção e insumos de apoio (ordem de grandeza)",
+     "cabecalho": [
+      "Item",
+      "Valor por ano",
+      "Como foi calculado"
+     ],
+     "linhas": [
+      [
+       "Manutenção das fábricas de celulose em operação",
+       "R$ 1,3 a 2,0 bilhões",
+       "valor de reposição de cerca de R$ 8,8 bilhões por milhão de toneladas (Ribas: R$ 22 bilhões para 2,55 milhões; AgFeed) × cerca de 7,6 milhões de toneladas em operação (5,8 da Suzano, Semadesc; e até 1,8 da Eldorado, que tem capacidade nominal de 1,5, InfoMoney, 21/11/2023) × 2% a 3% ao ano, faixa considerada adequada para manutenção industrial (Tractian, indicador CPMV); hipótese do autor"
+      ],
+      [
+       "Manutenção das novas fábricas de celulose (quando prontas)",
+       "mais R$ 1,5 a 2,2 bilhões",
+       "R$ 75 bilhões em projetos (Correio do Estado, 14/09/2026) × 2% a 3%; hipótese do autor"
+      ],
+      [
+       "Manutenção e insumos de apoio das usinas",
+       "R$ 0,4 a 0,7 bilhão",
+       "5 bilhões de litros (Biosul) × cerca de R$ 2,80 por litro × 3% a 5% da receita; preço e proporção são hipóteses do autor"
+      ],
+      [
+       "Uniformes e EPIs dos frigoríficos",
+       "cerca de R$ 60 milhões",
+       "40.656 empregados (Campo Grande News, 06/08/2026) × R$ 1.500 por ano; hipótese do autor"
+      ],
+      [
+       "Total, com as novas fábricas",
+       "cerca de R$ 3 a 5 bilhões por ano",
+       "soma; não inclui embalagem, química de processo nem engenharia de projeto, que aumentam a conta"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, se Campo Grande capturar um quinto desse mercado, são de R$ 600 milhões a R$ 1 bilhão por ano de faturamento em indústria e serviço industrial, o equivalente a uma grande fábrica nova, sem precisar de matéria-prima nem de incentivo bilionário. E é emprego de salário melhor: soldador, caldeireiro, eletricista industrial, técnico de instrumentação, engenheiro de manutenção. A conta é estimativa; para sair dela, basta pedir às empresas, pela Fiems, quanto compram por ano e de onde."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que fabricar e prestar a partir daqui?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Indústrias de apoio que cabem em Campo Grande",
+     "cabecalho": [
+      "Indústria ou serviço",
+      "Para quem",
+      "Por que daqui",
+      "Formação"
+     ],
+     "linhas": [
+      [
+       "Caldeiraria, usinagem e recuperação de peças",
+       "celulose, usinas, mineração",
+       "a peça quebrada não pode esperar um caminhão de São Paulo",
+       "Senai, IFMS, técnicos; engenharia mecânica (falta na capital)"
+      ],
+      [
+       "Manutenção e montagem industrial, com equipes para paradas",
+       "celulose, usinas",
+       "6,1 mil trabalhadores numa só rodada de paradas (A Crítica, 07/05/2026); Ribas a cerca de 100 km",
+       "Senai, IFMS; engenharia elétrica e de produção (Faeng/UFMS)"
+      ],
+      [
+       "Instrumentação, automação e painéis elétricos",
+       "todas",
+       "serviço técnico de alto valor e pouco peso",
+       "engenharia elétrica, eletrotécnica (Faeng/UFMS), computação (Facom/UFMS)"
+      ],
+      [
+       "Embalagem: caixa de papelão, filme e bandeja",
+       "frigoríficos, alimentos",
+       "papel da própria celulose do estado e cliente grande na cidade (JBS, 2.2)",
+       "engenharia de produção"
+      ],
+      [
+       "Uniformes, EPIs e lavanderia industrial",
+       "frigoríficos, usinas, celulose",
+       "compra contínua, muito emprego, pequena e média empresa",
+       "costura e confecção (Senai), sem barreira de entrada"
+      ],
+      [
+       "Química industrial: higienização, tratamento de água e efluentes",
+       "frigoríficos, usinas, celulose",
+       "produto pesado que encarece com o frete",
+       "química (UFMS), engenharia ambiental (Faeng/UFMS)"
+      ],
+      [
+       "Refrigeração industrial e câmaras frias",
+       "frigoríficos, alimentos, logística",
+       "manutenção de amônia exige equipe perto",
+       "engenharia mecânica e elétrica"
+      ],
+      [
+       "Laboratórios de análise, inspeção e ensaio",
+       "todas",
+       "certificação e controle de qualidade sem mandar amostra para fora",
+       "química, biologia e veterinária (UFMS, UEMS)"
+      ],
+      [
+       "Software de manutenção e de gestão industrial",
+       "todas",
+       "vende para o estado inteiro e para fora",
+       "computação (Facom/UFMS), Aginova"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: as indicadas na tabela; escolha e cruzamento, leitura do autor. Há também um lado de comércio e serviço que cresce com a indústria de apoio, como hotel, alimentação, transporte e locação de máquinas, mas ele vem atrás da indústria, e não no lugar dela."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "6,1 mil trabalhadores e 190 empresas",
+     "texto": "numa só rodada de paradas de manutenção da Suzano em Ribas do Rio Pardo e Três Lagoas, de março a maio de 2026. Fonte: A Crítica, 07/05/2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Indústrias de apoio: atender daqui as fábricas do estado",
+     "texto": [
+      "Programa Campo Grande Fornecedora (2.7) com meta: dobrar em oito anos o número de empresas da capital que vendem para as fábricas de celulose, usinas, frigoríficos e mineradoras, medido pelo cadastro de fornecedores da Fiems.",
+      "Distrito de indústria de apoio na saída para Três Lagoas (BR-262), com lotes pequenos e médios para caldeiraria, usinagem, montagem, química e lavanderia industrial.",
+      "Acordo com as grandes empresas, pela Fiems e pelo Sebrae, no modelo do programa Semear da Suzano com o Sebrae em Ribas do Rio Pardo: elas publicam o que compram de fora, e a prefeitura ajuda a criar o fornecedor aqui.",
+      "Escola de paradas: cursos do Senai e do IFMS para soldador, caldeireiro, montador, eletricista e instrumentista, com a agenda de paradas das fábricas como calendário de estágio e de emprego.",
+      "Trazer à capital centros de serviço dos fabricantes de equipamentos que atendem as fábricas do estado, com terreno e licença rápidos e contrapartida de vagas técnicas.",
+      "Pedir às empresas, pela Fiems, o valor anual de compras de manutenção e insumos de apoio e a origem dos fornecedores, para substituir a estimativa deste subtópico por número real."
+     ]
     }
    ],
    "regiao": {
@@ -2599,7 +2801,8 @@
     "2.15 Segundo caminho: a indústria que não depende da região",
     "2.16 Engenheiros e universidades: o elo que falta",
     "2.17 De nada adianta formar se não houver renda",
-    "2.18 Preferência aos profissionais da cidade, sem fechar o mercado"
+    "2.18 Preferência aos profissionais da cidade, sem fechar o mercado",
+    "2.19 Indústrias de apoio: atender daqui as fábricas do estado"
    ]
   },
   {
