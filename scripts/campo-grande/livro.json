@@ -12469,12 +12469,12 @@
        "10.6"
       ],
       [
-       "Urbanização completa das regiões: macrodrenagem, calçadas, árvores, parques novos, favelas, abrigos, telegestão, ligação de esgoto",
+       "Urbanização completa das regiões: macrodrenagem, calçadas, árvores, parques novos, as 16 favelas do Censo (cerca de 156, 11.2), abrigos, telegestão, ligação de esgoto",
        "médio e longo",
        "As sete regiões no padrão de rua do Prosa",
        "cerca de 200",
        "1.180 a 2.060 (meio: 1.620)",
-       "5.10"
+       "5.10, 11.2"
       ],
       [
        "Lixo e energia: ecopontos, compostagem, solar nos prédios públicos",
@@ -12493,11 +12493,19 @@
        "8.10"
       ],
       [
+       "Residência técnica municipal e escritório de projetos com a UFMS e a UEMS",
+       "curto",
+       "50 residentes por ano e 40 projetos executivos de obras por ano",
+       "cerca de 2 (economia de cerca de 4 em projetos)",
+       "15",
+       "9.10"
+      ],
+      [
        "Total",
        "",
        "",
        "cerca de 1.300 a 1.630 com o asfalto e o hospital",
-       "9.450 a 12.300 (meio: 10.890)",
+       "9.465 a 12.315 (meio: 10.905)",
        ""
       ]
      ]
@@ -12555,6 +12563,11 @@
        "5.10"
       ],
       [
+       "Consórcio regional do lixo: taxa dos municípios vizinhos e aterro evitado pela reciclagem (cerca de 15 por ano a partir do 3º ano)",
+       "cerca de 90",
+       "5.12"
+      ],
+      [
        "Rede de esgoto paga pela tarifa da concessionária, sem dinheiro do orçamento",
        "fora da conta",
        "5.8"
@@ -12563,11 +12576,23 @@
     },
     {
      "tipo": "p",
-     "texto": "As fontes identificadas somam de R$ 1,7 a 2 bilhões. O que falta, cerca de R$ 6,8 bilhões, tem três partes. A maior é o asfalto, que é obra de vida longa e por isso pode ser paga com financiamento de longo prazo, como a Caixa já faz no programa atual, desde que caiba no limite de dívida do Capítulo 6.3. O hospital municipal, R$ 290 milhões de obra, também pode ser financiado, e o seu custeio é em parte coberto pelo SUS depois da habilitação dos leitos. A terceira, perto de R$ 2,4 a 2,9 bilhões em oito anos, de R$ 300 a 360 milhões por ano, é o custeio das demais propostas, que precisa vir de eficiência e de realocação do orçamento existente, 5% a 6% das receitas correntes. É muito, mas é da ordem do que a prefeitura já mexe em um ano: só as transferências do SUS e do Fundeb somam R$ 1,9 bilhão (16.2)."
+     "texto": "As fontes identificadas somam de R$ 1,8 a 2,2 bilhões. O que falta, cerca de R$ 8,9 bilhões, tem quatro partes. A maior é o asfalto: descontados os R$ 1,1 bilhão já contratados ou vindos do tapa-buraco, restam cerca de R$ 3,2 bilhões, obra de vida longa que pode ser paga com financiamento de longo prazo, como a Caixa já faz no programa atual, desde que caiba no limite de dívida do 6.3. A segunda é a urbanização das regiões, R$ 1,6 bilhão, com as favelas dentro, o tipo de obra que o Novo PAC financia. A terceira é o hospital municipal, R$ 1,33 bilhão, com R$ 290 milhões de obra financiável e custeio em parte coberto pelo SUS depois da habilitação dos leitos. A quarta, cerca de R$ 3,7 bilhões, é o custeio e as obras pequenas das demais propostas; tiradas as receitas novas da tabela acima, sobram de R$ 2,6 a 2,9 bilhões, de R$ 330 a 370 milhões por ano, 5,5% a 6% das receitas correntes, que precisam vir de eficiência e de realocação do orçamento existente (cálculo do autor sobre as linhas da tabela)."
     },
     {
      "tipo": "p",
-     "texto": "Ficam fora da conta, porque o custo não é publicado: leitos de saúde, fila de especialistas, terapias da criança atípica, acolhimento da população de rua, tarifa zero aos domingos, corredores de ônibus e moradia nova. A primeira meta do plano, por isso, é medir: em um ano, publicar o custo e a fila de cada um desses serviços e refazer esta tabela com número oficial."
+     "texto": "Ficam fora da conta, porque o custo não é publicado: leitos de saúde, fila de especialistas, terapias da criança atípica, acolhimento da população de rua, tarifa zero aos domingos, corredores de ônibus, moradia nova, a terra e a infraestrutura do distrito de indústria de apoio (2.19) e do polo do tereré (2.20), e a usina de energia do lixo, da ordem de R$ 600 milhões, que só faz sentido por parceria público-privada (5.12). Não entram porque não custam ao orçamento: o banco do servidor, que começa como cooperativa sem capital da prefeitura (6.12), a concessão do Morenão (13.6) e o plano de captação de emendas (6.11). A primeira meta do plano, por isso, é medir: em um ano, publicar o custo e a fila de cada um desses serviços e refazer esta tabela com número oficial."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O plano cabe no caixa da prefeitura?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Hoje, não. O 7.6 mostra que a prefeitura já gastou R$ 391 milhões a mais do que arrecadou em 2025 e que a margem livre de 2026, o que sobra depois da folha, das aposentadorias, da dívida e do custeio obrigatório, é de cerca de R$ 190 milhões, 3% da receita; se nada mudar, ela fica negativa em 2030, com um déficit de cerca de R$ 640 milhões, sobretudo pelas aposentadorias (estimativa do autor com SICONFI, DCA 2025 e RGF 2026). As medidas do 7.6, de cobrança da dívida ativa a renegociação de contratos, rendem de R$ 420 a 560 milhões por ano, e elas mal fecham esse buraco. Os R$ 330 a 370 milhões por ano de custeio novo deste plano vêm, portanto, depois e por cima delas."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, isso não invalida o plano; muda a ordem. No primeiro ano vêm o plano fiscal do 7.6 e as medidas que custam pouco e só dependem de decisão (remédio em dia, publicação de dados, residência técnica, consórcio do lixo, convênios com as universidades). As obras grandes, asfalto, urbanização e hospital, só avançam com financiamento de longo prazo dentro do limite de dívida, e o custeio novo de saúde, creche e assistência cresce na medida em que a receita própria crescer. Sem capitalizar o IMPCG com patrimônio (4.3), nenhum prefeito terá folga para o restante."
     },
     {
      "tipo": "caixa",
@@ -12579,6 +12604,7 @@
      "titulo": "Propostas para 2032 · Plano de metas de 8 anos: quanto custa cada projeto",
      "texto": [
       "Lei do Plano de Metas: o prefeito eleito apresenta, em 90 dias, metas por serviço e por região para os oito anos, com custo, fonte e prazo, e presta contas a cada seis meses.",
+      "Plano fiscal antes do plano de metas: a lei do plano de metas só vale com o plano fiscal de 8 anos do 7.6 aprovado junto, e cada projeto novo de custeio entra quando houver receita própria nova ou corte equivalente.",
       "Três horizontes: nos primeiros 100 dias, as medidas que dependem só de decisão (publicar dados, remédio em dia, regra dos radares, leis da Secretaria da Família e do Plano de Metas); no primeiro mandato, as obras e serviços de médio prazo (equipes de saúde, CRAS, creches, hospital municipal); no segundo, o que leva mais tempo (toda a malha asfaltada, segundo hospital, parques novos).",
       "Ordem de prioridade quando o dinheiro não der para tudo: primeiro remédio, equipe de saúde, creche e CRAS; depois asfalto com drenagem nas regiões mais pobres; depois o restante.",
       "Refazer esta tabela todo ano no projeto da Lei Orçamentária, com o custo oficial de cada déficit no lugar das estimativas."
