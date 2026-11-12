@@ -107,6 +107,119 @@
     {
      "tipo": "subtopico",
      "numero": "1.4",
+     "texto": "O teste do bispo Ketteler"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem foi Ketteler, e qual é o teste?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Wilhelm Emmanuel von Ketteler (1811–1877) foi bispo de Mainz, na Alemanha, numa época em que a fábrica tirava o camponês da terra e o jogava em jornadas de doze horas. Em 1864 publicou A questão operária e o cristianismo (Die Arbeiterfrage und das Christentum), em que defendia salário que sustentasse a família, descanso e associações de trabalhadores, quase trinta anos antes da Rerum Novarum. Não pedia o fim da empresa; pedia que a empresa servisse a quem trabalha nela."
+    },
+    {
+     "tipo": "p",
+     "texto": "Do livro dele tiro uma pergunta simples, que uso como teste em todos os capítulos: isso aumenta o salário do trabalhador? Uma fábrica nova, um incentivo, uma obra ou um imposto passam no teste se, ao fim de alguns anos, quem mora no Anhanduizinho, no Lagoa e no Imbirussu ganha mais. Por isso o livro mede a política de desenvolvimento pela fatia do salário no PIB da cidade (2.2) e pela renda por região (3.1 e 5.11), e não só pelo PIB."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "Isso aumenta o salário?",
+     "texto": "é a pergunta que cada proposta do livro tem de responder. Fonte: leitura do autor de W. E. von Ketteler, Die Arbeiterfrage und das Christentum (Mainz, 1864)."
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "1.5",
+     "texto": "A régua aplicada aos temas do livro"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como cada princípio vira proposta?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Da régua às propostas",
+     "cabecalho": [
+      "Princípio",
+      "De onde vem",
+      "A pergunta que faz",
+      "Onde aparece no livro"
+     ],
+     "linhas": [
+      [
+       "Dignidade da pessoa",
+       "Compêndio da Doutrina Social da Igreja (2004), n. 105–107",
+       "O serviço trata o morador como pessoa ou como número de fila?",
+       "remédio e filas (8.3 e 8.4), criança atípica (8.7), população de rua (14.3)"
+      ],
+      [
+       "Prioridade do trabalho sobre o capital",
+       "João Paulo II, Laborem Exercens (1981), n. 12",
+       "Aumenta o salário e o emprego de quem mora aqui?",
+       "indústria pela mão de obra (2.7 a 2.14), renda do trabalho (3.2), profissionais da cidade (2.18)"
+      ],
+      [
+       "Família",
+       "Compêndio, n. 209–214",
+       "Facilita a vida de quem cria filhos e cuida dos pais?",
+       "creches (9.2), mães solo (9.4), Secretaria da Família (14.6), idosos (14.7)"
+      ],
+      [
+       "Subsidiariedade",
+       "Pio XI, Quadragesimo Anno (1931), n. 79",
+       "O bairro, a família ou a entidade fariam isso melhor, com ajuda?",
+       "praças por região (5.3), entidades com regra clara (15.3), cooperativa do servidor (6.12)"
+      ],
+      [
+       "Bem comum",
+       "Concílio Vaticano II, Gaudium et Spes (1965), n. 26",
+       "Serve à cidade inteira ou a um grupo?",
+       "orçamento e contratos (7.2 e 7.3), o caixa até 2032 (7.6), prioridade por região (16.6)"
+      ],
+      [
+       "Destino universal dos bens",
+       "Compêndio, n. 171–184; Constituição, art. 5º, XXIII",
+       "A propriedade cumpre a sua função social?",
+       "IPTU mais justo e vazios urbanos (6.7), moradia (11.4)"
+      ],
+      [
+       "Contra a usura",
+       "Santo Tomás, Suma Teológica, II-II, q. 78",
+       "Quem toma crédito paga um preço justo pelo risco?",
+       "dívida das famílias (2.6), banco do servidor (6.12), microcrédito (6.8)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A tabela é um roteiro de leitura, não uma prova. Os princípios não dizem quanto custa uma creche nem onde pôr um posto; isso é trabalho dos números, e é por isso que os capítulos seguintes trazem a fonte de cada um. O que os princípios fazem é dizer em que ordem olhar: primeiro a pessoa e a família, depois o bairro, depois a prefeitura."
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "1.6",
+     "texto": "O que a régua não é"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Uma régua religiosa numa prefeitura laica?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A régua é minha, não do Estado. A Constituição proíbe o poder público de se aliar a cultos (art. 19, I) e garante a liberdade de crença (art. 5º, VI), e nenhuma proposta deste livro pede que alguém creia em nada. Os princípios vêm da Doutrina Social da Igreja, mas são argumentos que se sustentam em público: que o trabalho valha mais que o juro, que a família tenha tempo para os filhos, que o bairro decida o que pode decidir. Quem não é cristão pode discordar da origem e concordar com a conta."
+    },
+    {
+     "tipo": "p",
+     "texto": "Também não é desculpa para não medir. Uma proposta bem-intencionada que não aumenta a renda, não encurta a fila e não melhora a rua falhou, por mais bonita que seja a intenção. Por isso o livro fecha com um plano de metas com custo (16.3) e com o modo de medir cada uma (16.7), e diz com todas as letras quando o dado não existe."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · O que a régua não é",
+     "texto": [
+      "Nota de impacto em todo projeto de lei da prefeitura: o que muda no salário, na família e no bairro, com o número que sustenta a resposta ou a declaração de que o número não existe."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "1.7",
      "texto": "Na cidade"
     },
     {
@@ -130,7 +243,10 @@
     "1.1 A régua",
     "1.2 Propriedade",
     "1.3 Lucro e usura",
-    "1.4 Na cidade"
+    "1.4 O teste do bispo Ketteler",
+    "1.5 A régua aplicada aos temas do livro",
+    "1.6 O que a régua não é",
+    "1.7 Na cidade"
    ]
   },
   {
@@ -377,7 +493,7 @@
      "titulo": "Propostas para 2032 · Quem fica com o PIB: salário, lucro e imposto",
      "texto": [
       "Pedir ao IBGE e à Semadesc o PIB pela ótica da renda por município, ao menos para as cidades grandes, como já se faz para os estados.",
-      "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (2.7) em número."
+      "Medir a política de desenvolvimento pela fatia do salário no PIB da cidade, e não só pelo PIB: é o teste do bispo Ketteler (1.4) em número."
      ]
     },
     {
@@ -923,7 +1039,7 @@
     },
     {
      "tipo": "p",
-     "texto": "E porque emprego industrial paga melhor e sustenta família. Um posto de trabalho na fábrica puxa outros no comércio e nos serviços em volta dela. A régua do livro é a pergunta do bispo Ketteler: isso aumenta o salário do trabalhador? A indústria é a resposta mais direta."
+     "texto": "E porque emprego industrial paga melhor e sustenta família. Um posto de trabalho na fábrica puxa outros no comércio e nos serviços em volta dela. A régua do livro é a pergunta do bispo Ketteler (1.4): isso aumenta o salário do trabalhador? A indústria é a resposta mais direta."
     },
     {
      "tipo": "h3",
@@ -1445,7 +1561,7 @@
      "titulo": "Propostas para 2032 · O que o Japão ensina a uma capital do interior",
      "texto": [
       "Lei municipal de setores prioritários: três ou quatro apostas escolhidas por critério publicado (demanda que cresce com a renda e espaço para ganho de produtividade), revistas a cada quatro anos.",
-      "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 2.7).",
+      "Prodes, fundo de aval e compras públicas concentrados nos setores escolhidos, com meta de emprego e de salário por empresa (teste do bispo Ketteler, 1.4).",
       "Programa Campo Grande Fornecedora: cadastro e qualificação de empresas da capital para vender serviços e manutenção às fábricas de celulose e aos frigoríficos do interior.",
       "Parque tecnológico com UFMS e UEMS em área industrial com moradia por perto, no modelo das Tecnópolis (9.8).",
       "Selo Feito em Campo Grande para produtos com identidade local, com apoio técnico e ponto de venda, no modelo de Oita.",
@@ -11992,7 +12108,7 @@
     },
     {
      "tipo": "p",
-     "texto": "O dado de religião do Censo 2022 por município ainda não foi publicado em fonte aberta para Campo Grande. Em 2010, eram 51,9% de católicos, 30,2% de evangélicos, uma das capitais mais evangélicas do país, e 10,4% sem religião (IBGE, Censo 2010, via Exame). Em Mato Grosso do Sul, em 2022, eram 51,9% de católicos e 32,5% de evangélicos (IBGE, Censo 2022, via Campo Grande News, 07/06/2025). A cidade é cristã, plural e cada vez mais evangélica, com espíritas, comunidades de matriz africana, a tradição budista e xintoísta dos imigrantes japoneses e a fé dos povos indígenas."
+     "texto": "O Censo de 2022 já tem o dado da capital. Entre as pessoas de 10 anos ou mais, 45,5% se declararam católicas e 34,3% evangélicas (IBGE, Censo 2022, via A Crítica, 22/09/2026). Em 2010 eram 51,9% de católicos e 30,2% de evangélicos (IBGE, Censo 2010, via Exame): em doze anos, os católicos perderam seis pontos e os evangélicos ganharam quatro. No estado, em 2022, eram 51,9% de católicos, 32,5% de evangélicos e 9% sem religião (IBGE, Censo 2022, via A Crítica, 22/09/2026). Uma pesquisa de 2026, com outro método e por isso não comparável ao Censo, achou em MS 20% de evangélicos que não frequentam nenhuma igreja, o dobro da média do país (Iser e Quaest, entrevistas de jan–fev/2026, via A Crítica, 22/09/2026). A cidade é cristã, plural e cada vez mais evangélica, com espíritas, comunidades de matriz africana, a tradição budista e xintoísta dos imigrantes japoneses e a fé dos povos indígenas."
     },
     {
      "tipo": "subtopico",
@@ -12044,6 +12160,45 @@
       "Repasse por lei, plurianual e por resultado às entidades que prestam serviço público, religiosas ou não, com chamamento aberto e prestação de contas na internet.",
       "Respeito à liberdade de todas as confissões, inclusive na regra do silêncio, que deve ser a mesma para o templo, o bar e o show (Capítulo 13)."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "15.4",
+     "texto": "Quanto a prefeitura repassa às entidades?"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto vai para as entidades, e quanto delas é religiosa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Em 2025, a prefeitura pagou R$ 110,3 milhões de transferências correntes a instituições privadas sem fins lucrativos, de R$ 111,8 milhões empenhados, cerca de 1,9% das receitas correntes; e empenhou mais R$ 7,7 milhões em transferências de capital, para obra e equipamento (SICONFI, DCA 2025, Anexo I-D, elementos 3.3.50 e 4.4.50; percentual do autor). Aí estão a Santa Casa, as comunidades terapêuticas, as creches conveniadas e as entidades de idosos e de pessoas com deficiência."
+    },
+    {
+     "tipo": "p",
+     "texto": "O que não existe é a divisão desse dinheiro entre entidades religiosas e não religiosas. A contabilidade pública não pergunta a confissão de quem recebe, e é certo que não pergunte; mas a prefeitura também não publica a lista de convênios por entidade, com objeto, meta e resultado, num lugar só. Sem essa lista, ninguém sabe quanto custa uma vaga de acolhimento, quanto a entidade põe do próprio bolso nem se o serviço funcionou."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E os impostos que os templos não pagam?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os templos de qualquer culto têm imunidade de impostos (Constituição, art. 150, VI, b), que desde a Emenda 132/2023 alcança também as entidades religiosas e suas organizações assistenciais, e o templo alugado não paga IPTU (art. 156, § 1º-A, incluído pela Emenda 116/2022). É regra constitucional, não favor do prefeito. A prefeitura, porém, não publica quanto deixa de arrecadar por isso; o número deveria aparecer no demonstrativo de renúncia de receita da LDO, para que a cidade saiba o tamanho da contribuição que já faz."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 110 milhões",
+     "texto": "pagos em 2025 a entidades sem fins lucrativos, religiosas ou não, cerca de 1,9% das receitas correntes. Fonte: SICONFI, DCA 2025, Anexo I-D, elemento 3.3.50; percentual do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2032 · Quanto a prefeitura repassa às entidades?",
+     "texto": [
+      "Lista pública e anual de todos os convênios e termos de colaboração com entidades, com valor, objeto, meta, vagas e resultado, por região.",
+      "Custo por vaga de acolhimento (idoso, criança, dependente químico) apurado e publicado, igual para entidades religiosas e não religiosas.",
+      "Estimativa da imunidade dos templos e das entidades no demonstrativo de renúncia de receita da LDO."
+     ]
     }
    ],
    "regiao": {
@@ -12074,7 +12229,8 @@
    "subtopicos": [
     "15.1 A fé na cidade",
     "15.2 O que as igrejas já fazem",
-    "15.3 Parceria com regra clara"
+    "15.3 Parceria com regra clara",
+    "15.4 Quanto a prefeitura repassa às entidades?"
    ]
   },
   {
