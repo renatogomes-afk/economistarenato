@@ -2918,11 +2918,146 @@
      "texto": "O fundo do IMPCG se chama de capitalização, mas com R$ 31 milhões aplicados diante de R$ 10,3 bilhões de compromisso, ele funciona na prática como repartição: paga os aposentados com a contribuição do mês e com o aporte do Tesouro municipal. Cada real de aporte é um real a menos para a escola e o posto."
     },
     {
+     "tipo": "h3",
+     "texto": "Como o déficit cresceu tão rápido?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "IMPCG: receita, despesa e déficit (R$ milhões)",
+     "cabecalho": [
+      "Ano",
+      "Receita previdenciária",
+      "Aposentadorias e pensões",
+      "Déficit",
+      "Aporte extra da prefeitura"
+     ],
+     "linhas": [
+      [
+       "2022",
+       "514,1",
+       "534,5",
+       "20,4",
+       "—"
+      ],
+      [
+       "2023",
+       "515,3",
+       "605,1",
+       "89,8",
+       "98,5"
+      ],
+      [
+       "2024",
+       "515,4",
+       "640,8",
+       "125,5",
+       "74,5"
+      ],
+      [
+       "2025",
+       "566,9",
+       "695,7",
+       "128,9",
+       "104,8"
+      ],
+      [
+       "12 meses até ago/2026",
+       "—",
+       "797,5",
+       "—",
+       "cerca de 144 (R$ 12 milhões por mês)"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: 2022 a 2024, Correio do Estado, 06/08/2026, e Campo Grande News, 28/03/2025 (despesa de 2022 e 2023 = receita + déficit, cálculo do autor); 2025, SICONFI, RREO Anexo 4, 6º bimestre; 12 meses até agosto de 2026, SICONFI, RGF Anexo 1; aporte de 2026, Correio do Estado, 11/08/2026. Em quatro anos, a receita subiu 10% e a despesa, 49% (cálculo do autor). A razão estrutural está na base: há 15.590 servidores efetivos contribuindo ao IMPCG para cerca de 7 mil aposentados e pensionistas (6.955 em março de 2024), cerca de 2 por beneficiário, quando um regime equilibrado precisa de 3 a 4 (edital da folha, jan. e mar./2024; cálculo do autor). Os outros 15.304 que trabalham na prefeitura, comissionados e contratados, contribuem ao INSS, não ao instituto."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que é a dívida da prefeitura com o próprio instituto?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Entre 2010 e 2021, a prefeitura deixou de repassar ao IMPCG contribuições que somavam R$ 821,3 milhões; corrigidas, viraram R$ 2,386 bilhões em abril de 2026, reconhecidos em três processos do Ministério da Previdência (Campo Grande News, 06/08/2026). A inadimplência derrubou o Certificado de Regularidade Previdenciária, sem o qual o município perde transferências voluntárias e empréstimos federais. Em 11/08/2026, a Câmara aprovou por 21 a 1, em regime de urgência, o parcelamento em 300 meses (PL 12.477/26), com parcela inicial de R$ 7,95 milhões, correção pelo INPC, juros simples de 0,5% ao mês e o FPM como garantia; o prazo era 31 de agosto, para não perder os empréstimos de asfalto na Caixa (Correio do Estado e A Crítica, 11/08/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Por estimativa do autor, trazidas a valor presente a 6% reais ao ano, a mesma taxa que corrigiu a dívida original, as 300 parcelas valem entre R$ 1,25 bilhão e R$ 1,98 bilhão, conforme se leia a regra dos juros, contra R$ 2,39 bilhões reconhecidos; para quitar a dívida em 25 anos a essa taxa, a parcela teria de ser de cerca de R$ 15,1 milhões, quase o dobro. Os sindicatos estimaram perda de R$ 300 milhões (Correio do Estado, 06/08/2026). Quando o parcelamento entrar na dívida consolidada, hoje com só R$ 60,7 milhões lançados nessa rubrica (SICONFI, RGF, 2º quadrimestre de 2026), a dívida do município passa de cerca de R$ 833 milhões para cerca de R$ 3,2 bilhões (cálculo do autor)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que vem até 2034?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A reforma municipal de 2021 (Lei Complementar 415/2021) manteve uma regra de transição por pontos que vale até 2032 (Correio do Estado, 06/10/2026). Quem puder se aposentar antes tem incentivo para sair, e a despesa de 2026 já corre cerca de 15% acima da de 2025. Os cenários abaixo são estimativas do autor, não projeção oficial: o cálculo atuarial do instituto (DRAA) não estava acessível nesta consulta."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Déficit anual do IMPCG em três cenários, R$ milhões de 2026 (estimativa do autor)",
+     "cabecalho": [
+      "Cenário",
+      "Hipótese (real, ao ano)",
+      "2026",
+      "2030",
+      "2034",
+      "% da RCL em 2034",
+      "Soma 2027–2034"
+     ],
+     "linhas": [
+      [
+       "Otimista",
+       "despesa +3%, receita +2%",
+       "210",
+       "262",
+       "322",
+       "4,8%",
+       "2.162"
+      ],
+      [
+       "Base",
+       "despesa +5%, receita +1%",
+       "210",
+       "358",
+       "543",
+       "8,1%",
+       "3.083"
+      ],
+      [
+       "Pessimista",
+       "despesa +7%, receita estável",
+       "210",
+       "459",
+       "785",
+       "11,7%",
+       "4.064"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Ponto de partida: despesa de R$ 800 milhões nos 12 meses até agosto de 2026 (SICONFI, RGF Anexo 1) e receita estimada de R$ 590 milhões em 2026 (2025 + 4%); receita corrente líquida crescendo 2% reais ao ano. No cenário base, a prefeitura poria cerca de R$ 3,1 bilhões no IMPCG entre 2027 e 2034, além da contribuição patronal de 28%, com o gasto de pessoal já em 53,9% da receita corrente líquida, junto ao limite de 54% da Lei de Responsabilidade Fiscal (SICONFI, RGF, 2º quadrimestre de 2026)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 2,39 bilhões",
+     "texto": "é a dívida da prefeitura com o IMPCG por contribuições não repassadas entre 2010 e 2021 (R$ 821,3 milhões no valor original), parcelada em 300 meses em agosto de 2026. Fonte: Campo Grande News, 06/08/2026; Correio do Estado, 11/08/2026."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2032 · Previdência dos servidores",
      "texto": [
-      "Um plano de equacionamento do déficit do IMPCG, com aportes previsíveis e publicados, e a transferência de imóveis e recebíveis da prefeitura para o fundo.",
-      "Conferir e aplicar a previdência complementar exigida pela Emenda Constitucional 103/2019 para os servidores novos."
+      "Parcela da dívida vai para o fundo, não para a folha do mês: lei que deposite as parcelas num fundo capitalizado e blindado, que só possa pagar benefícios.",
+      "Renegociar os juros no próximo ajuste do plano de amortização, trocando juros simples por compostos ou compensando com aporte de ativos.",
+      "Aporte de patrimônio ao IMPCG: imóveis públicos sem uso (Capítulo 5), uma fatia da dívida ativa e parte das outorgas de concessões.",
+      "Força-tarefa da compensação com o INSS (Comprev), que rendeu só R$ 18,8 milhões em 2025 (SICONFI, RREO Anexo 4).",
+      "Plano de equacionamento com metas públicas e aportes previsíveis em lei, com a meta de chegar a 2032 com o fundo cobrindo ao menos um ano de benefícios.",
+      "Segregação de massa: os servidores sob a previdência complementar (Emenda Constitucional 103/2019) ficam num fundo capitalizado separado, que não paga o passado.",
+      "Concurso no lugar de contrato temporário nas funções permanentes, para recompor a base de contribuintes do IMPCG.",
+      "Governança: dirigentes e conselheiros certificados, adesão ao Pró-Gestão do Ministério da Previdência, servidores no conselho fiscal e política de investimento que proíba papéis de bancos de risco (o caso do Banco Master).",
+      "Transparência mensal: DRAA, fluxo de caixa e certidão de repasses em dia publicados no site do instituto; recenseamento e prova de vida a cada dois anos.",
+      "Regra clara de aposentadoria em norma, e não em parecer interno, para a interpretação do art. 43 da LC 415/2021 (Correio do Estado, 06/10/2026)."
      ]
     },
     {
@@ -2971,8 +3106,8 @@
    },
    "indicador": {
     "valor": "53,9% da receita corrente líquida,",
-    "texto": "é o gasto com pessoal (o limite da LRF é 54%); 37.742 pessoas na folha.",
-    "fonte": "RGF, 2º quadr. 2026 (SICONFI); edital da folha, adendo de mar/2024"
+    "texto": "é o gasto com pessoal (o limite da LRF é 54%); 37.742 pessoas na folha. A previdência (IMPCG) teve déficit de R$ 128,9 milhões em 2025 e tem passivo atuarial de R$ 10,33 bilhões.",
+    "fonte": "RGF, 2º quadr. 2026 (SICONFI); edital da folha, adendo de mar/2024; SICONFI, RREO Anexo 4 (6º bim. 2025) e RGF Anexo 2"
    },
    "fontes": [
     "BRASIL. Tesouro Nacional. SICONFI: Relatório de Gestão Fiscal, Anexo 1 (3º quadr. 2023 a 2025 e 2º quadr. 2026), e Relatório Resumido da Execução Orçamentária, Anexo 4 (6º bim. 2025), Município de Campo Grande. Consulta em 09/11/2026.",
