@@ -2629,7 +2629,7 @@
    "numero": 3,
    "slug": "mercado-de-trabalho",
    "titulo": "Setor privado: mercado de trabalho",
-   "chamada": "Quem trabalha em Campo Grande ganha acima da média do estado, mas a renda está concentrada no Prosa e no Centro, e a maioria mora onde ela é baixa.",
+   "chamada": "Quem trabalha em Campo Grande ganha acima da média do estado, mas a renda está concentrada no Prosa e no Centro, a maioria mora onde ela é baixa, e é ali que o custo de vida, puxado pela comida, mais pesa.",
    "situacao": "dados",
    "sugestao": false,
    "blocos": [
@@ -3154,6 +3154,383 @@
       "Exigir e fiscalizar a cota de aprendiz nas empresas contratadas pela prefeitura.",
       "Ensino técnico com o Senai e o IFMS desenhado para as vagas do polo industrial do Capítulo 2."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "3.5",
+     "texto": "Custo de vida: quanto custa viver em Campo Grande"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto o custo de vida subiu?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O IBGE mede a inflação de Campo Grande todo mês com dois índices. O IPCA acompanha as famílias com renda de 1 a 40 salários mínimos; o INPC, só as de 1 a 5 salários, e por isso dá mais peso à comida, à conta de luz e ao ônibus (IBGE, metodologia do Sistema Nacional de Índices de Preços ao Consumidor). Em outubro de 2026 os dois mostraram a mesma coisa: os preços subiram mais aqui que no país, e subiram mais para quem ganha menos."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Inflação em Campo Grande e no Brasil, outubro de 2026",
+     "cabecalho": [
+      "Índice",
+      "Campo Grande",
+      "Brasil",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "IPCA (1 a 40 salários), no mês",
+       "0,53% (2ª maior das 16 áreas)",
+       "0,14%",
+       "IBGE, via Correio do Estado e A Crítica, 12/11/2026"
+      ],
+      [
+       "IPCA, no ano",
+       "5,00%",
+       "—",
+       "IBGE, via Correio do Estado, 12/11/2026"
+      ],
+      [
+       "IPCA, em 12 meses",
+       "5,42%",
+       "4,63%",
+       "IBGE, via Correio do Estado, 12/11/2026"
+      ],
+      [
+       "INPC (1 a 5 salários), no mês",
+       "0,62% (2ª maior)",
+       "0,22%",
+       "IBGE, via Campo Grande News, 12/11/2026"
+      ],
+      [
+       "INPC, no ano",
+       "5,38% (a maior do país)",
+       "4,24%",
+       "IBGE, via Campo Grande News, 12/11/2026"
+      ],
+      [
+       "INPC, em 12 meses",
+       "5,64% (a maior do país)",
+       "4,49%",
+       "IBGE, via Campo Grande News, 12/11/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "O que puxou foi a comida e a casa. No ano, o grupo alimentação e bebidas subiu 6,58% e o grupo habitação, 5,86% em Campo Grande (IBGE, via Correio do Estado, 12/11/2026). Só em outubro a comida comprada para casa subiu 2,87% aqui, contra 1,31% no país, com tomate (+23,3%), cebola (+12,8%), batata (+10,6%) e carnes (+3,3%) (IBGE, via A Crítica, 12/11/2026). A conta de luz da Energisa subiu em média 12,11% em abril (Aneel, via Correio do Estado, 23/04/2026), e a energia residencial saltou 6,56% só em setembro, quando acabou o bônus de Itaipu (IBGE, via Correio do Estado, 09/10/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa a comida do mês?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A cesta básica do DIEESE, os 13 alimentos que sustentam um adulto por um mês, custou R$ 848,51 em Campo Grande em outubro de 2026: subiu 5,2% no mês e 9,16% em doze meses, quase o dobro do INPC. Foi a 8ª mais cara das 27 capitais, abaixo de São Paulo (R$ 951,37) e bem acima de Aracaju (R$ 618,61). Quem ganha o salário mínimo de R$ 1.621 precisou de 115 horas de trabalho para comprá-la, ou 56,6% do salário líquido (DIEESE, Pesquisa Nacional da Cesta Básica, outubro de 2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Para uma família de dois adultos e duas crianças, que o DIEESE conta como três adultos, a comida básica do mês sai por R$ 2.545,53, mais que um salário mínimo e meio (cálculo do autor: 3 × R$ 848,51). Por isso o DIEESE calcula que o mínimo necessário para sustentar essa família seria de R$ 7.992,47, 4,93 vezes o salário mínimo em vigor (DIEESE, outubro de 2026)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Preços que pesam no orçamento em Campo Grande, 2026",
+     "cabecalho": [
+      "Item",
+      "Preço",
+      "Comparação",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Cesta básica (1 adulto, 1 mês)",
+       "R$ 848,51 (out/2026)",
+       "8ª mais cara das 27 capitais; +9,16% em 12 meses",
+       "DIEESE, out/2026"
+      ],
+      [
+       "Passagem de ônibus",
+       "R$ 4,95",
+       "a mesma desde 24/01/2025, quando subiu de R$ 4,75",
+       "A Crítica, 02/11/2026; Correio do Estado, 23/01/2025"
+      ],
+      [
+       "Botijão de gás (13 kg)",
+       "R$ 114,88",
+       "o menor preço médio entre as cidades pesquisadas em MS (média do estado: R$ 119,86)",
+       "ANP, semana de 4 a 10/10/2026, via Correio do Estado"
+      ],
+      [
+       "Gasolina comum (litro)",
+       "R$ 6,28",
+       "a menor média de MS; etanol a R$ 3,94",
+       "ANP, mesma semana, via Correio do Estado"
+      ],
+      [
+       "Aluguel residencial anunciado (m²)",
+       "R$ 31,45 (mai/2026)",
+       "3º menor entre as capitais (média das 36 cidades: R$ 53,35), mas com a maior alta do país em 2026: +16,25% até agosto",
+       "FipeZap, via IstoÉ Dinheiro, 16/06/2026, e Campo Grande News, 19/09/2026"
+      ],
+      [
+       "Conta de luz",
+       "+12,11% em média em 23/04/2026",
+       "parte do custo adiada para 2027, corrigida pela Selic",
+       "Aneel e Energisa MS, via Correio do Estado, 23/04/2026"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "A cidade, portanto, não é cara em tudo. A moradia e o combustível ainda custam menos que nas outras capitais; a comida custa mais que na maioria delas e é o que mais sobe. E o aluguel, que era a vantagem, é o preço que mais corre: o Jardim dos Estados já anuncia R$ 88,60 o metro quadrado, mais que Copacabana (FipeZap, via Campo Grande News, 19/09/2026)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "56,6%",
+     "texto": "do salário mínimo líquido é o que custa a cesta básica de um adulto em Campo Grande. Fonte: DIEESE, Pesquisa Nacional da Cesta Básica, outubro de 2026."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Custo de vida: quanto custa viver em Campo Grande",
+     "texto": [
+      "Índice de Custo de Vida de Campo Grande, mensal e por região, feito pela prefeitura com o Observatório de Economia da UFMS (Obecon), que já acompanha a cesta do DIEESE, e com o Procon municipal: a mesma cesta, mais gás, ônibus, luz, água e aluguel, coletada nas sete regiões.",
+      "Comparador público de preços a partir das notas fiscais eletrônicas do varejo, em convênio com a Sefaz-MS, nos moldes do Menor Preço do Paraná e do Preço da Hora da Bahia: o morador vê, pelo celular, onde a cesta está mais barata perto de casa."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "3.6",
+     "texto": "Custo de vida por grupo e por região"
+    },
+    {
+     "tipo": "h3",
+     "texto": "A inflação é a mesma para todo mundo?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Não. Cada família compra coisas diferentes, e o mesmo aumento pesa de um jeito em cada uma. As famílias com renda de até dois salários mínimos gastam 22% do orçamento com comida e 39,2% com a casa (aluguel, luz, água, gás), juntos 61,2%; as de mais de 25 salários gastam 7,6% e 22,6% (IBGE, Pesquisa de Orçamentos Familiares 2017–2018, Brasil). Quando o tomate e a conta de luz sobem, quem ganha pouco sente muito; quando sobem a passagem de avião, a escola particular e o carro, sente quem ganha mais."
+    },
+    {
+     "tipo": "p",
+     "texto": "O Ipea separa a inflação do país em seis faixas de renda domiciliar mensal: muito baixa (até R$ 2.299,82), baixa (até R$ 3.449,73), média-baixa (até R$ 5.749,55), média (até R$ 11.499,11), média-alta (até R$ 22.998,22) e alta (acima disso) (Ipea, Inflação por faixa de renda, valores de janeiro de 2026)."
+    },
+    {
+     "tipo": "barras",
+     "legenda": "Inflação em 12 meses por faixa de renda, Brasil, até setembro de 2026 (%)",
+     "rotulos": [
+      "Renda muito baixa",
+      "Baixa",
+      "Média-baixa",
+      "Média",
+      "Média-alta",
+      "Alta",
+      "IPCA"
+     ],
+     "series": [
+      {
+       "nome": "12 meses",
+       "valores": [
+        4.22,
+        4.45,
+        4.44,
+        4.51,
+        4.52,
+        5.03,
+        4.58
+       ]
+      },
+      {
+       "nome": "No ano (jan–set)",
+       "valores": [
+        4.09,
+        4.18,
+        4.0,
+        3.86,
+        3.73,
+        3.8,
+        3.95
+       ]
+      }
+     ],
+     "unidade": "%",
+     "fonte": "Fonte: Ipea, Carta de Conjuntura nº 72, Nota 26, Inflação por faixa de renda, setembro de 2026 (28/10/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "No país, em doze meses, a inflação foi maior para os mais ricos (5,03%) que para os mais pobres (4,22%), por causa da passagem aérea, da educação e do combustível. Mas a conta do ano de 2026 já se inverteu: de janeiro a setembro, a faixa baixa teve 4,18% e a média-alta, 3,73%. A comida respondeu por 1,17 ponto da inflação das duas faixas mais pobres e por só 0,62 da faixa alta; a casa, por 0,81 contra 0,46 (Ipea, mesma nota, Tabela 3)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O Ipea não calcula o índice por cidade. Mas em Campo Grande o sinal é claro: o INPC, que mede a inflação de quem ganha até cinco salários, ficou acima do IPCA no ano (5,38% contra 5,00%) e em doze meses (5,64% contra 5,42%), e foi o maior do país (IBGE, via Campo Grande News e Correio do Estado, 12/11/2026). Aqui, a carestia de 2026 pesou mais para os mais pobres, porque foi a comida que subiu."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem sente mais o custo de vida em Campo Grande?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O custo de vida por grupo em Campo Grande",
+     "cabecalho": [
+      "Grupo",
+      "O que pesa mais",
+      "O número",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Famílias de baixa renda",
+       "comida, luz, água e gás",
+       "a cesta de um adulto custa 56,6% do salário mínimo líquido; 57 mil famílias passaram a ter 50% de desconto na água em setembro de 2026",
+       "DIEESE, out/2026; Águas Guariroba e prefeitura, via A Crítica, 25/08/2026"
+      ],
+      [
+       "Famílias com crianças",
+       "comida, roupa, escola e creche",
+       "a comida básica de dois adultos e duas crianças custa R$ 2.545,53 por mês; roupas infantis subiram 2,78% só em setembro",
+       "cálculo do autor sobre o DIEESE, out/2026; IBGE, via Correio do Estado, 09/10/2026"
+      ],
+      [
+       "Idosos",
+       "remédio, plano de saúde e consulta",
+       "o reajuste dos planos individuais teve teto de 5,11% em 2026–2027; a última faixa de idade, aos 59 anos, pode custar até seis vezes a primeira",
+       "ANS, 29/05/2026; ANS, Resolução Normativa 63/2003"
+      ],
+      [
+       "Quem depende do ônibus",
+       "passagem",
+       "ida e volta em 22 dias úteis custam R$ 217,80 por mês, 13,4% do salário mínimo; o empregado com carteira paga até 6% do salário e o patrão, o resto",
+       "cálculo do autor com a tarifa de R$ 4,95; Lei 7.418/1985 (vale-transporte)"
+      ],
+      [
+       "Quem paga aluguel",
+       "aluguel e condomínio",
+       "6 de cada 10 famílias do déficit habitacional da cidade estão nele porque o aluguel passa de 30% da renda (9.631 de 16.105)",
+       "Plano Municipal de Habitação de Interesse Social, via Campo Grande News, 23/01/2024"
+      ],
+      [
+       "Quem anda de carro ou moto",
+       "combustível e manutenção",
+       "gasolina a R$ 6,28 e etanol a R$ 3,94, os menores preços médios de MS",
+       "ANP, semana de 4 a 10/10/2026, via Correio do Estado"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "E por região?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ninguém mede preço por bairro em Campo Grande: o IBGE e o DIEESE pesquisam a cidade como um todo (DIEESE; Obecon/UFMS, nota da cesta de julho de 2022). O que se pode medir é o peso do mesmo custo sobre rendas muito diferentes. Fiz a conta com a renda do Censo de 2022 e a cesta básica do mesmo mês da pesquisa, julho de 2022, quando custava R$ 707 em Campo Grande (DIEESE, julho de 2022): quanto da renda média do responsável pelo domicílio seria preciso para pôr na mesa a comida básica da família, do tamanho que ela tem em cada região."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Quanto a comida básica pesa na renda, por região, julho de 2022 (estimativa do autor)",
+     "cabecalho": [
+      "Região",
+      "Renda média do responsável",
+      "Pessoas por domicílio",
+      "Cesta da família",
+      "Peso na renda",
+      "Idosos (60+)",
+      "Crianças (0–14)"
+     ],
+     "linhas": [
+      [
+       "Centro",
+       "R$ 7.647",
+       "2,35",
+       "R$ 1.245",
+       "16%",
+       "26,8%",
+       "12,6%"
+      ],
+      [
+       "Prosa",
+       "R$ 6.473",
+       "2,77",
+       "R$ 1.468",
+       "23%",
+       "15,1%",
+       "19,5%"
+      ],
+      [
+       "Bandeira",
+       "R$ 4.466",
+       "2,69",
+       "R$ 1.428",
+       "32%",
+       "14,5%",
+       "20,3%"
+      ],
+      [
+       "Imbirussu",
+       "R$ 3.201",
+       "2,81",
+       "R$ 1.490",
+       "47%",
+       "15,7%",
+       "20,2%"
+      ],
+      [
+       "Segredo",
+       "R$ 3.061",
+       "2,77",
+       "R$ 1.471",
+       "48%",
+       "13,1%",
+       "21,6%"
+      ],
+      [
+       "Lagoa",
+       "R$ 2.787",
+       "2,81",
+       "R$ 1.491",
+       "53%",
+       "14,4%",
+       "21,6%"
+      ],
+      [
+       "Anhanduizinho",
+       "R$ 2.398",
+       "2,76",
+       "R$ 1.466",
+       "61%",
+       "12,6%",
+       "22,5%"
+      ],
+      [
+       "Cidade",
+       "R$ 3.802",
+       "2,73",
+       "R$ 1.449",
+       "38%",
+       "14,9%",
+       "20,6%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Hipóteses do autor. Renda média mensal do responsável e moradores por domicílio particular ocupado: IBGE, Censo 2022, agregados por setor censitário (arquivos do pacote censobr, do Ipea), somados pelas regiões urbanas da Planurb. Cesta da família: R$ 707 × 3/4 × moradores por domicílio, a regra do DIEESE, em que duas crianças comem como um adulto. A renda do responsável não é a renda da casa, porque muitas casas têm mais de um salário, e por isso o peso real é menor; mas a comparação entre as regiões vale, porque o erro é o mesmo em todas."
+    },
+    {
+     "tipo": "p",
+     "texto": "A mesma comida pesa quase quatro vezes mais no Anhanduizinho que no Centro. E o retrato dos grupos se sobrepõe ao das regiões: o Centro é a região dos idosos, mais de um morador em cada quatro tem 60 anos ou mais, e o custo que mais pesa ali é o da saúde; o Anhanduizinho, o Lagoa e o Segredo têm mais crianças e casas maiores, e o que pesa é a comida, a passagem e o aluguel. Quem mora mais longe do Centro também gasta mais tempo e dinheiro para chegar ao trabalho, um custo que nenhum índice de preço capta (ver o Capítulo 12)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "4 vezes",
+     "texto": "é quanto a mesma comida básica pesa mais na renda do Anhanduizinho que na do Centro. Fonte: estimativa do autor com o IBGE, Censo 2022, e o DIEESE, cesta de julho de 2022."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Custo de vida por grupo e por região",
+     "texto": [
+      "Feira e sacolão municipal nas regiões onde a comida pesa mais (Anhanduizinho, Lagoa, Segredo e Imbirussu), com venda direta dos produtores do cinturão verde e da agricultura familiar, sem atravessador.",
+      "Busca ativa pelos CRAS para pôr na tarifa social de energia (federal, pelo CadÚnico) todas as famílias que já têm a tarifa social de água, e conferência anual das duas listas.",
+      "Meta de custo de vida no plano de 2036: reduzir o peso da cesta da família na renda do Anhanduizinho e do Lagoa, medido pelo Índice de Custo de Vida por região, com aumento da renda (Capítulos 2 e 3) e não com controle de preço."
+     ]
     }
    ],
    "regiao": {
@@ -3180,13 +3557,23 @@
     "IBGE. Censo Demográfico 2022: rendimento por setor censitário, conforme mapa de Wendel Moreira (out/2026).",
     "IBGE. PNAD Contínua 2019: índice de Gini das capitais, conforme Campo Grande News, 12/11/2020 (fonte secundária).",
     "IBGE. Censo Demográfico 2010: faixas de rendimento, via Banco de Dados do Estado (Semadesc-MS).",
-    "CAMPO GRANDE. PLANURB. Perfil Socioeconômico (base Censo 2010), conforme Campo Grande News, 31/10/2023 (fonte secundária)."
+    "CAMPO GRANDE. PLANURB. Perfil Socioeconômico (base Censo 2010), conforme Campo Grande News, 31/10/2023 (fonte secundária).",
+    "IBGE. IPCA e INPC de Campo Grande, outubro de 2026, conforme Correio do Estado, A Crítica e Campo Grande News (12/11/2026) (fontes secundárias).",
+    "DIEESE. Pesquisa Nacional da Cesta Básica de Alimentos: outubro de 2026 e julho de 2022.",
+    "Ipea. Carta de Conjuntura nº 72, Nota 26: Inflação por faixa de renda, setembro de 2026 (28/10/2026); Nota 16, maio de 2026 (faixas de renda).",
+    "IBGE. Pesquisa de Orçamentos Familiares 2017–2018: primeiros resultados (Agência IBGE, 04/10/2019).",
+    "ANP. Levantamento de preços de combustíveis e GLP, 4 a 10/10/2026, conforme Correio do Estado (fonte secundária).",
+    "FipeZap. Índice de locação residencial, maio e agosto de 2026, conforme IstoÉ Dinheiro (16/06/2026) e Campo Grande News (19/09/2026) (fontes secundárias).",
+    "ANS. Teto de reajuste dos planos individuais 2026–2027 (29/05/2026); Resolução Normativa 63/2003 (faixas etárias).",
+    "IBGE. Censo Demográfico 2022: agregados por setor censitário (pacote censobr, Ipea), somados por região urbana pelo autor."
    ],
    "subtopicos": [
     "3.1 Renda e desigualdade",
     "3.2 Quanto ganha quem trabalha",
     "3.3 Emprego formal e informal",
-    "3.4 Jovens e primeiro emprego"
+    "3.4 Jovens e primeiro emprego",
+    "3.5 Custo de vida: quanto custa viver em Campo Grande",
+    "3.6 Custo de vida por grupo e por região"
    ]
   },
   {
