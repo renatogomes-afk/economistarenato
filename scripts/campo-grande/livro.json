@@ -264,7 +264,7 @@
     },
     {
      "tipo": "p",
-     "texto": "O capítulo tem três partes. A primeira mostra a economia da cidade como ela é: o tamanho e a divisão do PIB, o que se compra de fora, o comércio, os serviços, a construção e a dívida das famílias (2.1 a 2.6). A segunda trata da indústria: o que existe, onde o estado se industrializou, para onde vai a indústria no mundo, o que o Japão ensina e os caminhos para Campo Grande, do alimento processado às indústrias de apoio e à cultura regional (2.7 a 2.14). A terceira trata da gente e do ambiente de negócios: engenheiros, universidades, licenças e os profissionais da cidade (2.15 a 2.18). A renda do trabalho está no Capítulo 3, e o peso do funcionalismo, no Capítulo 4."
+     "texto": "O capítulo tem quatro partes. A primeira mostra a economia da cidade como ela é: o tamanho e a divisão do PIB, o que se compra de fora, o comércio, os serviços, a construção e a dívida das famílias (2.1 a 2.6). A segunda trata da indústria: o que existe, onde o estado se industrializou, para onde vai a indústria no mundo, o que o Japão ensina e os caminhos para Campo Grande, do alimento processado às indústrias de apoio e à cultura regional (2.7 a 2.14). A terceira trata da gente e do ambiente de negócios: engenheiros, universidades, licenças e os profissionais da cidade (2.15 a 2.18). A quarta trata da família que produz: o pequeno negócio, as compras da prefeitura, o cinturão verde, a casa e as contrapartidas das grandes empresas, para que a família dependa menos de um patrão só (2.19 a 2.25). A renda do trabalho está no Capítulo 3, e o peso do funcionalismo, no Capítulo 4."
     },
     {
      "tipo": "subtopico",
@@ -2572,6 +2572,607 @@
       "Capacitação em compras públicas com Sebrae, OAB-MS, CRC-MS, Crea-MS, CAU-MS e UFMS, e publicação anual de quanto a prefeitura comprou de profissionais e empresas da cidade.",
       "Nenhuma barreira ao consumidor: nada de registro municipal, taxa ou ISS diferente para quem é de fora."
      ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.19",
+     "texto": "A família que produz: o pequeno recebe a política, o grande paga a estrutura"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Qual é a ideia?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os capítulos anteriores defendem trazer indústria para Campo Grande, e o livro mantém essa defesa: a fábrica paga melhor que o balcão e sustenta família (2.7). Mas uma cidade que só espera a fábrica fica à mercê dela. Se a JBS Campo Grande II chegar aos 4.600 empregados do projeto de ampliação, uma só empresa terá perto de 17% do emprego industrial com carteira da cidade (2.7, cálculo do autor), e a própria empresa já admitiu fechar frigoríficos no estado por falta de boi (Campo Grande News, 2024). A pergunta desta parte é outra: como fazer com que a família de Campo Grande dependa menos de um patrão só, de um preço só e de um crédito caro, e tenha mais coisas que são suas: o negócio, a casa, o quintal, a energia, a cota na cooperativa."
+    },
+    {
+     "tipo": "p",
+     "texto": "Para o estado, há anos defendo uma regra simples: a política pública (crédito, assistência técnica, estrada, compra do governo) deve ir para a pequena propriedade rural, e as grandes, que têm escala e lucro, é que devem pagar a estrutura do governo. Os números de Mato Grosso do Sul mostram por quê. A agricultura familiar tem 43.223 dos 71.164 estabelecimentos rurais do estado, 61%, mas só 1,19 milhão dos 30,5 milhões de hectares, cerca de 4% da área (IBGE, Censo Agropecuário 2017, conforme a Semadesc, Estudo Socioeconômico da Agricultura Familiar de MS, 2025, pp. 19 e 31; percentual da área, cálculo do autor). Quem é mais numeroso tem menos terra, menos crédito e menos voz."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na cidade, a regra se traduz em duas metades. A primeira: o que a prefeitura tem para dar (compra pública, licença rápida, crédito orientado, assistência técnica, terreno, espaço na feira) vai primeiro para a família que produz: o MEI, a pequena empresa, o agricultor do cinturão verde, a cooperativa. A segunda: o grande paga a sua parte inteira, e só recebe incentivo em troca de contrapartida medida e publicada. Não é contra a grande empresa. É a ordem da régua do livro: primeiro a pessoa e a família, depois o bairro, depois a prefeitura (1.5)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde vem essa régua?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "A família proprietária na doutrina e na experiência",
+     "cabecalho": [
+      "Ideia",
+      "Fonte",
+      "O que quer dizer para Campo Grande"
+     ],
+     "linhas": [
+      [
+       "Multiplicar o número de proprietários",
+       "Leão XIII, Rerum Novarum (1891), n. 46 na numeração do Vaticano: a lei deve favorecer a propriedade e levar o maior número possível de pessoas a ser proprietárias",
+       "Política municipal medida por quantas famílias passam a ter negócio, casa e cota de cooperativa, e não só por quantos empregos uma fábrica abre"
+      ],
+      [
+       "Subsidiariedade",
+       "Pio XI, Quadragesimo Anno (1931), n. 79",
+       "O que a família e a cooperativa fazem, a prefeitura não toma para si; o que não conseguem sozinhas, a prefeitura ajuda a fazer (1.5)"
+      ],
+      [
+       "A pequena propriedade espalhada",
+       "G. K. Chesterton, O que há de errado com o mundo (1910) e Esboço de sanidade (1926); Hilaire Belloc, O Estado servil (1912)",
+       "A lojinha embaixo e a casa em cima (5.2): o bairro com muitos pequenos donos em vez de poucos grandes empregadores"
+      ],
+      [
+       "Salário que sustenta a família",
+       "Rerum Novarum, n. 45; Salazar, Como se Levanta um Estado (1937), p. 112, ver 4.6",
+       "Mesmo quem é empregado precisa de um salário que permita poupar e chegar à casa e ao negócio próprios"
+      ],
+      [
+       "Cooperativa de quem trabalha",
+       "Mondragón, País Basco: 81 cooperativas, 70.085 trabalhadores e € 11,2 bilhões de vendas em 2024 (Mondragon Corporation, via Co-operative News)",
+       "A pequena empresa cresce sem perder o dono quando se associa: compra junto, vende junto, toma crédito junto"
+      ],
+      [
+       "Distrito de pequenas empresas",
+       "Sebastiano Brusco, The Emilian model (Cambridge Journal of Economics, 1982), sobre a Emília-Romanha",
+       "Muitas pequenas oficinas especializadas, ligadas entre si, competem com a grande indústria; é o modelo para a confecção e a metal-mecânica da cidade"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes na tabela. A aplicação a Campo Grande é leitura do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que já existe na cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Bastante, e espalhado. Campo Grande tem 140.222 pequenos negócios, 94,4% das 148.531 empresas ativas, dos quais 78.372 MEIs (Receita Federal e DataSebrae, Boletim Econômico da Semades, set/2026, via Correio do Estado, 18/10/2026). Tem 1.849 estabelecimentos rurais, 758 deles da agricultura familiar (IBGE, Censo Agropecuário 2017, conforme o Perfil do Censo Agropecuário da Prefeitura), 63 feiras livres (Sisgran, via Campo Grande News, 16/02/2025), 83 hortas urbanas (Sidagro, via Campo Grande News, 18/12/2022), mais de 43 mil sistemas de energia solar em casas e empresas (Aneel, via Canal Solar, 06/08/2025) e cooperativas de crédito fortes, como Sicredi e Sicoob (6.12). O que falta é tratar isso como uma política só, com meta, orçamento e alguém responsável, e não como programas soltos de secretarias diferentes."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "94,4%",
+     "texto": "das empresas ativas de Campo Grande são MEIs, microempresas ou empresas de pequeno porte: 140.222 de 148.531. Fonte: Receita Federal e DataSebrae, Boletim Econômico da Semades, set/2026, via Correio do Estado (18/10/2026)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · A família que produz: o pequeno recebe a política, o grande paga a estrutura",
+     "texto": [
+      "Política municipal da família que produz, por lei, com um responsável no gabinete do prefeito e quatro frentes: o negócio da família, a compra do bairro, o cinturão verde e a casa que produz (2.20 a 2.23).",
+      "Regra de ordem para todo benefício econômico da prefeitura (compra, crédito, terreno, licença e espaço público): primeiro a família, o MEI, a pequena empresa e a cooperativa; a grande empresa, só com contrapartida medida e publicada (2.24).",
+      "Medir o resultado pelo número de famílias com negócio, casa e cota de cooperativa, com metas para 2036 publicadas todo ano (2.25)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.20",
+     "texto": "O negócio da família: do MEI à pequena empresa"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem são os pequenos negócios da cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na maioria, uma pessoa trabalhando em casa ou perto de casa. As cinco atividades mais comuns dos MEIs da capital são comércio de roupas (11.146), cabeleireiro e manicure (7.519), promoção de vendas (7.291), pedreiro (6.327) e marmita para entrega (5.821) (Junta Comercial de MS, Mapa de Empresas de MS, jan/2025; ver 2.4). Somados aos cerca de 72 mil autônomos sem CNPJ, os MEIs respondem por cerca de 11% do PIB da cidade pela ótica da renda, como rendimento misto (2.2, estimativa do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O MEI paga pouco imposto e tem pouca proteção. Fatura até R$ 81 mil por ano (Lei Complementar 123/2006, art. 18-A, §1º), paga cerca de R$ 82 a R$ 86 por mês (2.4), e três em cada dez fecham em até cinco anos, contra 21,6% das microempresas e 17% das de pequeno porte; as causas mais citadas são falta de capital de giro e falta de clientes (Sebrae, Sobrevivência de Empresas, 2020, via Agência Sebrae, 16/06/2021). O problema não é abrir: é crescer. A família que tem um MEI de costura ou de marmita raramente passa a microempresa com um empregado, porque o salto de imposto, de contador e de exigência é grande e ninguém a ajuda a dar o passo."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a prefeitura pode fazer?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "A escada do pequeno negócio",
+     "cabecalho": [
+      "Degrau",
+      "Obstáculo",
+      "O que a prefeitura faz"
+     ],
+     "linhas": [
+      [
+       "Informal para MEI",
+       "medo de perder benefício social; não saber como",
+       "Sala do Empreendedor nos CRAS e nas sete regiões; formalização sem custo, que a lei já garante (LC 123/2006, art. 4º, §3º)"
+      ],
+      [
+       "MEI que trabalha em casa",
+       "lei de uso do solo que proíbe atividade em zona residencial",
+       "licença automática para atividade de baixo risco em casa de morador (5.2); a cidade já dispensa 654 atividades de alvará prévio (LC 528/2024, ver 2.4)"
+      ],
+      [
+       "MEI que vende pouco",
+       "falta de cliente",
+       "compra da prefeitura reservada ao pequeno (2.21), feira e vitrine pública, selo Feito em Campo Grande (2.10)"
+      ],
+      [
+       "MEI sem capital de giro",
+       "rotativo do cartão a juros de usura (2.6)",
+       "microcrédito orientado com fundo de aval municipal (6.8) e cooperativa de crédito"
+      ],
+      [
+       "MEI para microempresa",
+       "salto de imposto e de custo de contador ao passar de R$ 81 mil",
+       "contador do bairro: convênio com o CRC-MS e as faculdades de Ciências Contábeis para o primeiro ano da microempresa, e orientação da Funsat para o primeiro empregado"
+      ],
+      [
+       "Pequena empresa isolada",
+       "compra cara de insumo, sem escala para vender fora",
+       "cooperativa ou central de compras por setor (confecção, alimentação, construção), com sede e assistência técnica no começo"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Lei Complementar 123/2006; LC municipal 528/2024 (2.4); a escada é proposta do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E o crédito?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O crédito é a corrente que prende a família. Três em cada quatro famílias da cidade estão endividadas, 71,8% delas no cartão de crédito (PEIC/CNC, out/2026; ver 2.6), e quem tem um pequeno negócio costuma misturar a conta da casa com a do negócio no mesmo cartão. O livro já propõe o fundo municipal de aval e microcrédito (6.8) e a cooperativa de crédito que começa pelos servidores e chega à cidade (6.12). Aqui a ênfase é no destino: crédito para quem produz e contrata, e não para consumo, que é a lição japonesa do 2.10. O microcrédito só para a máquina de costura, o forno, a ferramenta e o estoque, com orientação antes do empréstimo, é o que tira a família do rotativo."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E o exemplo de fora?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na Emília-Romanha, na Itália, a indústria de máquinas, cerâmica e confecção nasceu de oficinas de família, que cresceram ligadas umas às outras, com cooperativas de crédito e de compra e com serviços comuns de feira, exportação e formação técnica criados pelos governos locais (Brusco, Cambridge Journal of Economics, 1982). Em Mondragón, no País Basco, a escola técnica fundada pelo padre José María Arizmendiarrieta em 1943 deu origem, a partir de 1956, a um grupo de 81 cooperativas que hoje emprega 70.085 pessoas (Mondragon Corporation, 2024, via Co-operative News). Nenhum dos dois casos dispensou a indústria; os dois fizeram indústria com muitos donos. Campo Grande tem 11 mil MEIs de roupa e uma rede de escolas técnicas (2.15): é a matéria-prima de um distrito de confecção."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · O negócio da família: do MEI à pequena empresa",
+     "texto": [
+      "Sala do Empreendedor em cada uma das sete regiões, junto ao CRAS, para formalizar e orientar o MEI, inclusive quem recebe benefício social.",
+      "Contador do bairro: convênio com o CRC-MS e os cursos de Ciências Contábeis para acompanhar de graça, no primeiro ano, o MEI que passa a microempresa.",
+      "Microcrédito orientado só para produzir (máquina, ferramenta, estoque), pelo fundo municipal de aval (6.8) e pelas cooperativas de crédito, com meta de MEIs atendidos por região.",
+      "Programa de cooperativas e centrais de compras por setor, começando pela confecção, pela alimentação e pela construção, com sede cedida e assistência técnica nos dois primeiros anos.",
+      "Distrito da confecção: oficinas de costura, cooperativa de compra de tecido, escola técnica de moda e vitrine de venda, numa área com transporte e moradia por perto."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.21",
+     "texto": "A prefeitura compra do bairro"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto a prefeitura compra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Muito. O custeio da prefeitura, o que ela gasta com material, serviços e contratos, fora o pessoal e a dívida, foi de R$ 2,06 bilhões em 2025 (SICONFI, DCA 2025, Anexo I-D). Cada 1% desse valor que passar de um fornecedor de fora para uma pequena empresa da cidade são cerca de R$ 20 milhões por ano girando no comércio e na folha de Campo Grande (cálculo do autor). A prefeitura não publica quanto das suas compras vai para micro e pequenas empresas, nem quanto vai para empresas da cidade; é a primeira coisa a medir."
+    },
+    {
+     "tipo": "p",
+     "texto": "Dois exemplos mostram o tamanho. Em 2025, a licitação dos uniformes da Reme somou R$ 47,7 milhões, para cerca de 842 mil peças em 105 escolas, e a de 2023, R$ 60,7 milhões (Correio do Estado, 09/10/2025). A cidade tem 11.146 MEIs de comércio de roupa e uma rede de costureiras em casa (2.20). Na merenda, um único contrato de proteínas congeladas foi de R$ 18,9 milhões por um ano, com uma só fornecedora (A Crítica, 06/10/2026). Licitação grande, num lote só, para uma empresa só, é a forma mais fácil de comprar e a que mais fecha a porta para o pequeno."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a lei permite?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O que a Lei Complementar 123/2006 já permite, e a prefeitura pode usar mais",
+     "cabecalho": [
+      "Regra",
+      "Artigo",
+      "Uso em Campo Grande"
+     ],
+     "linhas": [
+      [
+       "Licitação só para micro e pequena empresa nas compras de até R$ 80 mil por item",
+       "art. 48, I",
+       "material de escritório, manutenção predial, pequenos reparos de escola, marmita para eventos"
+      ],
+      [
+       "Cota de até 25% reservada a micro e pequenas nas compras de bens divisíveis",
+       "art. 48, III",
+       "uniformes, kits escolares, hortifrúti, material de limpeza"
+      ],
+      [
+       "Exigir que a grande contratada subcontrate micro e pequenas",
+       "art. 48, II",
+       "obras, coleta de lixo, manutenção de iluminação"
+      ],
+      [
+       "Prioridade para a empresa local ou regional, pagando até 10% acima do melhor preço",
+       "art. 48, §3º",
+       "não usada pela lei municipal (LC 142/2009); ver 2.18"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Lei Complementar federal 123/2006, arts. 47 a 49, nas redações da LC 147/2014; Lei 14.133/2021, art. 4º. A prioridade local até 10% é uma faculdade da lei que Campo Grande não usa (2.18)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Além dos artigos, conta a forma de comprar. O uniforme pode ser licitado por peça e por região, e não num lote só; a manutenção das escolas pode ser contratada por região, em atas que um pequeno empreiteiro do bairro consegue disputar; e a compra pode exigir entrega parcelada, que o pequeno consegue cumprir. Costa Rica, no norte do estado, virou referência estadual de compras públicas como motor da economia local (Campo Grande News; ver 2.18)."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 20 milhões",
+     "texto": "por ano é o que gira na cidade para cada 1% do custeio da prefeitura (R$ 2,06 bilhões em 2025) que passar a pequenas empresas de Campo Grande. Fonte: SICONFI, DCA 2025, Anexo I-D; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · A prefeitura compra do bairro",
+     "texto": [
+      "Publicar todo mês quanto a prefeitura comprou de MEIs, micro e pequenas empresas, e de empresas com sede em Campo Grande, por secretaria.",
+      "Meta: dobrar até 2036 a fatia das compras da prefeitura feitas de pequenas empresas da cidade, a partir da linha de base medida no primeiro ano.",
+      "Licitar uniformes, kits e hortifrúti por item e por região, com a cota de 25% para micro e pequenas (LC 123, art. 48, III), e incentivar cooperativas de costureiras a disputar.",
+      "Manutenção predial das escolas, postos e praças por região, em contratos do tamanho que o pequeno empreiteiro do bairro consegue cumprir.",
+      "Usar a prioridade local de até 10% (LC 123, art. 48, §3º), mudando a LC municipal 142/2009, com relatório anual do custo (2.18)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.22",
+     "texto": "Cinturão verde e agricultura familiar"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem produz comida em volta da cidade?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande é também um município rural. Tem 731 mil hectares em 1.849 estabelecimentos agropecuários, com 7.161 pessoas ocupadas; 758 estabelecimentos, 41%, são da agricultura familiar, e quase metade dos estabelecimentos produz hortaliças, como alface, cebolinha, couve, rúcula e salsa (IBGE, Censo Agropecuário 2017, conforme o Perfil do Censo Agropecuário de Campo Grande, Prefeitura). A prefeitura contava 24 assentamentos e comunidades de agricultores familiares na área rural e 1.505 propriedades que vivem de hortaliça, fruta e leite (Sedesc, via Correio do Estado, 05/03/2019). É o cinturão verde: comida fresca a menos de uma hora da mesa, produzida por famílias donas da terra."
+    },
+    {
+     "tipo": "p",
+     "texto": "Essa gente vende pouco à cidade que tem do lado. O programa das agrovilas, anunciado em 2019 para assentar 20 famílias com água, luz e um centro de processamento de hortaliças, previa funcionar até 2020 (Correio do Estado, 05/03/2019); não foi encontrada notícia de que tenha saído do papel. As feiras livres resistem, 63 na cidade, a maioria com o próprio produtor na banca (Sisgran, via Campo Grande News, 16/02/2025), mas não há dado publicado de quanto do hortifrúti consumido na cidade sai do próprio município e quanto chega de outros estados pela Ceasa e pelos atacadistas; é uma lacuna a medir."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E a merenda?"
+    },
+    {
+     "tipo": "p",
+     "texto": "É a maior compradora de comida da prefeitura, e a lei manda comprar do agricultor familiar. Desde 1º de janeiro de 2026, ao menos 45% do dinheiro que o governo federal repassa para a merenda (PNAE) tem de ir para a agricultura familiar, com prioridade para assentamentos da reforma agrária, comunidades indígenas e quilombolas e grupos de mulheres; antes eram 30% (Lei 15.226/2025, que alterou o art. 14 da Lei 11.947/2009). Campo Grande diz ter comprado R$ 20,4 milhões de alimentos da agricultura familiar desde 2024, cerca de 2,5 mil toneladas, para 207 unidades e mais de 110 mil alunos (Prefeitura, via A Crítica, 18 e 25/10/2026). Em agosto de 2026, três contratos de um ano somaram R$ 2,88 milhões, com a Cooperana, a Associação do Assentamento Conquista e a Coopermig (A Crítica, 12/08/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O repasse federal para a merenda da Reme fica em torno de R$ 17 milhões por ano a valores de 2026 (estimativa do autor, pelos valores por aluno da Resolução CD/FNDE 1/2026 aplicados às matrículas da Reme; ver 9.5), o que dá cerca de R$ 7,7 milhões de compra mínima da agricultura familiar (45%, cálculo do autor). A média das compras divulgadas desde 2024, cerca de R$ 7 milhões por ano, está perto desse piso (cálculo do autor); o número exato depende do repasse real, que a prefeitura não publica separado (9.5). O ponto, porém, não é cumprir o piso. A prefeitura compra comida com dinheiro próprio para a merenda, os restaurantes, os hospitais e os abrigos, e pode estender a regra da agricultura familiar a todas essas compras, pela modalidade de compra institucional do Programa de Aquisição de Alimentos (Lei 14.628/2023 e Decreto 11.802/2023)."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "O cinturão verde em números",
+     "cabecalho": [
+      "Item",
+      "Número",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Estabelecimentos agropecuários no município",
+       "1.849, em 731.246 ha",
+       "IBGE, Censo Agropecuário 2017 (Perfil da Prefeitura)"
+      ],
+      [
+       "   dos quais da agricultura familiar",
+       "758 (41%)",
+       "idem"
+      ],
+      [
+       "Pessoas ocupadas nos estabelecimentos",
+       "7.161",
+       "idem"
+      ],
+      [
+       "Assentamentos e comunidades de agricultores familiares",
+       "24",
+       "Sedesc, via Correio do Estado, 05/03/2019"
+      ],
+      [
+       "Propriedades que vivem de hortaliça, fruta e leite",
+       "1.505",
+       "idem"
+      ],
+      [
+       "Feiras livres",
+       "63",
+       "Sisgran, via Campo Grande News, 16/02/2025"
+      ],
+      [
+       "Hortas urbanas",
+       "83",
+       "Sidagro, via Campo Grande News, 18/12/2022"
+      ],
+      [
+       "Compras da merenda da agricultura familiar desde 2024",
+       "R$ 20,4 milhões",
+       "Prefeitura, via A Crítica, 25/10/2026"
+      ],
+      [
+       "Piso legal do PNAE para a agricultura familiar",
+       "45% desde 2026 (antes 30%)",
+       "Lei 15.226/2025"
+      ]
+     ]
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que fazer?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Três coisas, que se juntam. Primeiro, dar ao agricultor familiar um comprador certo: a merenda e as demais compras de comida da prefeitura, com chamada pública por região e calendário de plantio combinado com a nutricionista. Segundo, dar a ele estrutura de venda: um centro de recebimento e beneficiamento de hortaliças, que lava, embala e entrega, e as feiras e sacolões nas regiões onde a comida pesa mais no orçamento (3.6). Terceiro, levar a produção para dentro da cidade: hortas comunitárias em terrenos públicos vazios e quintais produtivos nas casas, como prevê a Política Nacional de Agricultura Urbana e Periurbana (Lei 14.935/2024)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Cinturão verde e agricultura familiar",
+     "texto": [
+      "Estender a regra dos 45% da agricultura familiar a todas as compras de comida da prefeitura (merenda com recurso próprio, restaurantes, hospitais e abrigos), pela compra institucional do PAA (Lei 14.628/2023).",
+      "Publicar todo ano o repasse do PNAE recebido e quanto foi comprado da agricultura familiar, por cooperativa e por assentamento.",
+      "Centro municipal de recebimento e beneficiamento de hortaliças, operado por cooperativa dos agricultores, ligado à merenda e às feiras: a agrovila de 2019 feita de verdade.",
+      "Assistência técnica para os 24 assentamentos e comunidades rurais do município, com a Agraer e a UFMS, para plantio escalonado, certificação orgânica e selo de inspeção municipal (SIM) para queijo, mel e embutidos.",
+      "Hortas comunitárias em terrenos públicos vazios de cada região, cedidos por termo a associações de moradores, com água e assistência técnica (Lei 14.935/2024)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.23",
+     "texto": "A casa que produz: quintal, energia e oficina"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que a casa?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Porque é o primeiro patrimônio da família, e pode ser também o primeiro meio de produção. A casa própria livra a família do aluguel, que em Campo Grande sobe mais que o salário e é a causa de seis em cada dez casos do déficit habitacional (11.1 e 11.4); o cômodo da frente vira loja, salão ou oficina; o quintal dá verdura e fruta; o telhado, energia. É a lógica da pequena propriedade espalhada que o livro defende no urbanismo (5.2) e na moradia (11.3), agora vista pelo lado da renda."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a prefeitura pode fazer em cada parte da casa?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "A casa que produz",
+     "cabecalho": [
+      "Parte da casa",
+      "O que rende",
+      "O que a prefeitura faz",
+      "Base"
+     ],
+     "linhas": [
+      [
+       "O lote",
+       "a casa sem aluguel e o patrimônio da família",
+       "lote urbanizado com projeto-padrão para quem constrói por conta própria, perto de ônibus e de trabalho",
+       "11.3; vazios urbanos ocupados primeiro (2.24)"
+      ],
+      [
+       "O cômodo da frente",
+       "loja, salão, oficina de costura, cozinha de marmita",
+       "licença automática para atividade de baixo risco em casa de morador; projeto-padrão de casa com cômodo comercial",
+       "5.2; LC 528/2024"
+      ],
+      [
+       "A reforma",
+       "um cômodo a mais para alugar ou trabalhar",
+       "assistência técnica gratuita de arquiteto e engenheiro para a família de baixa renda",
+       "Lei 11.888/2008 (ATHIS); ver 2.18"
+      ],
+      [
+       "O quintal",
+       "verdura, fruta, ovos; economia na feira",
+       "muda, semente e assistência técnica, pelos CRAS e pela Agraer",
+       "Lei 14.935/2024"
+      ],
+      [
+       "O telhado",
+       "conta de luz menor",
+       "energia solar na habitação popular e cooperativa de geração compartilhada nos bairros",
+       "Lei 14.300/2022"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes na tabela; a combinação é proposta do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E a energia?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Campo Grande já tem mais de 43 mil sistemas de geração distribuída, quase todos solares em casas e empresas (Aneel, via Canal Solar, 06/08/2025), mas eles estão nas casas de quem tem dinheiro para comprar o painel. A lei do marco da geração distribuída permite que vizinhos se juntem em consórcio, cooperativa ou condomínio para gerar energia numa usina comum e dividir o crédito na conta de luz (Lei 14.300/2022). Uma cooperativa de energia por região, com a usina num terreno público ou no telhado de uma escola, levaria a conta menor a quem não tem telhado próprio nem dinheiro para o painel. Para a família que paga R$ 200 de luz, cada 10% de economia são R$ 20 por mês que voltam ao orçamento (cálculo do autor)."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · A casa que produz: quintal, energia e oficina",
+     "texto": [
+      "Projeto-padrão de casa com cômodo comercial na habitação de interesse social e no lote urbanizado, já com licença de uso misto.",
+      "Assistência técnica gratuita para reforma e ampliação da casa de baixa renda (Lei 11.888/2008), com prioridade para quem quer abrir um negócio no próprio imóvel.",
+      "Programa quintal produtivo: muda, semente, galinheiro e orientação técnica para as famílias do CadÚnico, pelos CRAS e pela Agraer.",
+      "Energia solar em toda habitação popular nova financiada ou doada pela prefeitura, e apoio à formação de uma cooperativa de geração compartilhada em cada região (Lei 14.300/2022)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.24",
+     "texto": "Quem é grande paga a sua parte: incentivos com contrapartida"
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que é a segunda metade da regra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "É a que costuma faltar. A prefeitura dá incentivo à grande empresa pelo Prodes, com isenção de IPTU e ISS, doação ou cessão de terreno, e quase nunca publica quanto isso custa nem o que voltou. Em dezembro de 2025 a Câmara aprovou isenção de ISS e IPTU para um imóvel da JBS na BR-060, sem que o valor constasse do projeto; a contrapartida foi contratar pela Funsat e aderir a um selo de igualdade de gênero (Campo Grande News, 18/12/2025). Em maio de 2026 o conselho do programa cancelou incentivos e terrenos cedidos a ao menos nove empresas de transporte e de pré-moldados que não fizeram os investimentos prometidos, alguns parados havia mais de doze anos (Diogrande, via Campo Grande News, 11/05/2026). Ao mesmo tempo, negou isenção de IPTU e de ISS a uma empresa de medicamentos que pedia 5 mil m² para investir R$ 3,5 milhões e abrir 12 empregos (idem): sinal de que o conselho já filtra, mas sem regra pública."
+    },
+    {
+     "tipo": "p",
+     "texto": "A Lei de Responsabilidade Fiscal exige que toda renúncia de receita venha com estimativa do impacto e medida de compensação (LRF, art. 14), e que a LDO traga o demonstrativo das renúncias (art. 4º, §2º, V). A regra existe. O que falta é aplicá-la empresa por empresa, com o resultado à vista: quanto a cidade deixou de arrecadar, quantos empregos e de que salário a empresa prometeu, e quantos entregou."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como o grande paga a estrutura na cidade?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Quatro formas de o grande pagar a sua parte",
+     "cabecalho": [
+      "Instrumento",
+      "Base legal",
+      "Quem paga",
+      "Situação em Campo Grande"
+     ],
+     "linhas": [
+      [
+       "Incentivo só com contrapartida medida",
+       "LRF, art. 14; lei do Prodes",
+       "grande empresa que pede isenção ou terreno",
+       "contrapartida existe, mas o valor da renúncia e o resultado não são publicados"
+      ],
+      [
+       "IPTU progressivo no tempo para terreno vazio",
+       "Constituição, art. 182, §4º; Estatuto da Cidade, arts. 5º a 8º (alíquota até 15%)",
+       "dono de grande terreno ocioso dentro da cidade",
+       "previsto em lei desde 2008 e nunca aplicado (Planurb, via Campo Grande News, 25/07/2016); vazios eram 35% do território (UFMS, via Campo Grande News, 01/10/2017)"
+      ],
+      [
+       "Outorga onerosa",
+       "Estatuto da Cidade, arts. 28 a 31; Plano Diretor, LC 341/2018",
+       "quem constrói acima do índice ou loteia na zona de expansão",
+       "regulamentada para a zona de expansão em 2022, com valor ainda a definir (Campo Grande News, 24/02/2022)"
+      ],
+      [
+       "Contrapartida de grande empreendimento",
+       "Estatuto da Cidade, arts. 36 a 38 (estudo de impacto de vizinhança)",
+       "shopping, atacarejo, condomínio, centro de distribuição",
+       "a medir: não há lista pública das contrapartidas exigidas"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes na tabela. Os quatro instrumentos não criam imposto novo: cobram de quem tem escala, terreno e lucro a parte que a lei já prevê, e o dinheiro vai para a estrutura que serve a todos."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E o que a grande empresa ganha?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ganha o que mais importa a ela: regra clara, licença rápida, área industrial pronta e mão de obra formada (2.7 e 2.15). O que muda é a moeda do incentivo. Em vez de isenção sem prazo e sem conta, a prefeitura premia o que aumenta a autonomia das famílias da cidade: contratar pela Funsat, pagar acima do piso da categoria, comprar de fornecedores locais, subcontratar pequenas empresas, formar aprendizes. Quem cumpre, mantém o incentivo; quem não cumpre, devolve, como já começou a acontecer em 2026."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, é a mesma regra que defendo para o estado, no tamanho da cidade: a pequena empresa e o agricultor familiar recebem a política; a grande empresa recebe a cidade organizada, e paga por ela."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Quem é grande paga a sua parte: incentivos com contrapartida",
+     "texto": [
+      "Prodes com regra pública: valor da renúncia estimado por empresa antes da aprovação (LRF, art. 14), meta de emprego, salário e compra local no termo, relatório anual de cumprimento e devolução do benefício por quem não cumprir.",
+      "Pontuação extra no Prodes para a empresa que compra de fornecedores da cidade, subcontrata pequenas empresas e cooperativas, e paga acima do piso da categoria (teste do bispo Ketteler, 1.4).",
+      "Aplicar o IPTU progressivo no tempo aos grandes terrenos vazios dentro da área urbanizada, a partir de um tamanho mínimo definido em lei, para não alcançar o lote único da família (6.7).",
+      "Fixar o valor da outorga onerosa e levar a receita a um fundo de lotes urbanizados e de infraestrutura de bairro.",
+      "Publicar a lista das contrapartidas exigidas de cada grande empreendimento pelo estudo de impacto de vizinhança, e o que foi entregue."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "2.25",
+     "texto": "Como medir a autonomia da família"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Que números dizem se deu certo?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os que contam famílias, e não só empregos. A tabela traz a linha de base que se conseguiu levantar, com fonte, e a meta para 2036. Onde a linha de base não é publicada, a primeira meta é publicá-la."
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Metas de autonomia da família para 2036",
+     "cabecalho": [
+      "Indicador",
+      "Hoje",
+      "Meta para 2036",
+      "Fonte da linha de base"
+     ],
+     "linhas": [
+      [
+       "Pequenos negócios ativos (MEI, ME e EPP)",
+       "140.222 (set/2026)",
+       "manter o número e aumentar a sobrevivência",
+       "Receita Federal e DataSebrae, Semades"
+      ],
+      [
+       "MEIs que passam a microempresa por ano",
+       "não publicado",
+       "publicar e dobrar",
+       "Receita Federal, a pedir"
+      ],
+      [
+       "Fatia das compras da prefeitura feitas de pequenas empresas da cidade",
+       "não publicada",
+       "medir no 1º ano e dobrar até 2036",
+       "Portal da Transparência da prefeitura, a montar"
+      ],
+      [
+       "Compra de comida da agricultura familiar",
+       "R$ 20,4 milhões desde 2024 (só merenda)",
+       "45% de todas as compras de comida da prefeitura",
+       "Prefeitura, via A Crítica, 25/10/2026"
+      ],
+      [
+       "Agricultores familiares vendendo à prefeitura",
+       "não publicado",
+       "publicar e chegar aos 24 assentamentos e comunidades",
+       "chamadas públicas do PNAE"
+      ],
+      [
+       "Famílias endividadas",
+       "75,5% (out/2026)",
+       "abaixo de 60%, o nível de 2023",
+       "PEIC/CNC, Fecomércio-MS"
+      ],
+      [
+       "Renúncia do Prodes por empresa e resultado",
+       "não publicada",
+       "publicada todo ano, com devolução quando não cumprida",
+       "LDO, demonstrativo de renúncias"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes na tabela; metas do autor. Os indicadores entram no painel de metas do Capítulo 16 (16.7)."
     }
    ],
    "regiao": {
@@ -2621,7 +3222,14 @@
     "2.15 Engenheiros e universidades: o elo que falta",
     "2.16 De nada adianta formar se não houver renda",
     "2.17 Licenças, taxas e profissionais liberais",
-    "2.18 Preferência aos profissionais da cidade, sem fechar o mercado"
+    "2.18 Preferência aos profissionais da cidade, sem fechar o mercado",
+    "2.19 A família que produz: o pequeno recebe a política, o grande paga a estrutura",
+    "2.20 O negócio da família: do MEI à pequena empresa",
+    "2.21 A prefeitura compra do bairro",
+    "2.22 Cinturão verde e agricultura familiar",
+    "2.23 A casa que produz: quintal, energia e oficina",
+    "2.24 Quem é grande paga a sua parte: incentivos com contrapartida",
+    "2.25 Como medir a autonomia da família"
    ]
   },
   {
