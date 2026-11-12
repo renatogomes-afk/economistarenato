@@ -4213,7 +4213,7 @@
     },
     {
      "tipo": "p",
-     "texto": "A prefeitura não publica, em fonte aberta, quantos ativos são concursados e quantos são comissionados ou contratados. O retrato mais detalhado é de uma auditoria do Tribunal de Contas do Estado, noticiada pela imprensa: em abril de 2022 havia 16.993 efetivos e 9.883 temporários, espalhados em 54 funções; professores, assistentes de educação infantil e médicos estavam entre as cinco funções com mais temporários. Só a Secretaria de Saúde tem 7.888 servidores, segundo o seu relatório quadrimestral (RDQA) do 2º quadrimestre de 2026."
+     "texto": "Pela folha nominal do Portal da Transparência, em fevereiro de 2026 (o último mês publicado até novembro de 2026) havia 31.174 vínculos ativos: 17.360 efetivos, 7.359 contratos temporários, 4.766 convocações de professores e médicos, 1.589 comissionados e 100 de outros tipos (conselheiros tutelares, cedidos e conveniados). O detalhe está em 4.7. Antes disso, o retrato mais detalhado era o de uma auditoria do Tribunal de Contas do Estado, noticiada pela imprensa: em abril de 2022 havia 16.993 efetivos e 9.883 temporários, espalhados em 54 funções; professores, assistentes de educação infantil e médicos estavam entre as cinco funções com mais temporários. Só a Secretaria de Saúde tem 7.888 servidores, segundo o seu relatório quadrimestral (RDQA) do 2º quadrimestre de 2026."
     },
     {
      "tipo": "propostas",
@@ -4591,27 +4591,146 @@
     },
     {
      "tipo": "h3",
-     "texto": "E por carreira?"
+     "texto": "Quais são as carreiras dos concursados?"
     },
     {
      "tipo": "p",
-     "texto": "Este é o dado que falta. A base do Tesouro não separa a folha por carreira nem por lotação, e a prefeitura não publica em fonte aberta quantos professores, médicos, enfermeiros, técnicos e guardas tem, nem quanto cada grupo custa. Sem isso não se separa quem está na ponta de quem está na área-meio."
+     "texto": "O quadro oficial de cargos efetivos da prefeitura, de agosto de 2026, lista os cargos criados por lei, a lei de cada um, quantas vagas existem e quantas estão ocupadas. A administração direta tem 34.168 vagas previstas em lei e 16.777 preenchidas: 17.392 vagas, mais da metade, estão abertas (Quadro Demonstrativo de Cargos Efetivos, ago/2026 (Semadi, Portal da Transparência)). A base de quase todos os cargos é a lei do plano de cargos de 2000 (Lei 3.836/2000), e a Lei 7.273/2024 pôs dezenas de cargos em extinção."
     },
     {
      "tipo": "p",
-     "texto": "O que se sabe é parcial. Na enfermagem da Secretaria de Saúde, em abril de 2024, eram 342 enfermeiros e 799 técnicos, segundo dados da secretaria citados pelo Conselho Regional de Enfermagem. A despesa por área (saúde, educação, guarda, administração) aparece no Capítulo 7."
+     "texto": "Os concursados se dividem em uma tabela geral, a Tabela Administrativa Municipal, e em carreiras próprias, cada uma com lei complementar: magistério, procuradoria, auditoria fiscal, guarda, as carreiras da saúde, a fiscalização urbana e ambiental, a assistência social e a gestão. A tabela abaixo junta as carreiras, o tamanho, o salário de tabela e o que se paga de fato."
     },
     {
-     "tipo": "p",
-     "texto": "O caminho para fechar o quadro é a folha nominal do Portal da Transparência ou um pedido pela Lei de Acesso à Informação à Secretaria de Gestão, com o total por cargo e por secretaria."
-    },
-    {
-     "tipo": "propostas",
-     "titulo": "Propostas para 2036 · Carreiras",
-     "texto": [
-      "Publicar a folha por carreira e por lotação, para separar quem atende o cidadão de quem está na área-meio.",
-      "Carreira com avaliação de desempenho ligada à meta do serviço: fila, vaga, atendimento."
+     "tipo": "tabela",
+     "legenda": "Carreiras dos servidores efetivos de Campo Grande: lei, vagas, tabela e salário pago",
+     "cabecalho": [
+      "Carreira",
+      "Lei principal",
+      "Vagas em lei / ocupadas (ago/2026)",
+      "Tabela: início e topo (R$)",
+      "Efetivos na folha (fev/2026)",
+      "Mediana paga (R$, fev/2026)"
+     ],
+     "linhas": [
+      [
+       "Magistério (professor e especialista em educação)",
+       "LC 19/1998",
+       "7.660 / 6.999",
+       "Professor 3.894 a 21.199; especialista 8.487 a 21.251 (jornada maior)",
+       "7.006",
+       "7.973"
+      ],
+      [
+       "Saúde: médicos e dentistas",
+       "LC 377/2020",
+       "2.171 / 567",
+       "Médico 40h 9.050 a 11.909; dentista 40h 9.026 a 11.877",
+       "631",
+       "9.397"
+      ],
+      [
+       "Saúde: enfermagem",
+       "LC 376/2020",
+       "1.605 / 1.404",
+       "Enfermeiro 3.678 a 4.840; técnico 1.849 a 2.433",
+       "1.430",
+       "5.991"
+      ],
+      [
+       "Agentes comunitários de saúde e de endemias",
+       "Leis 3.994/2002 e 4.275/2005",
+       "2.305 / 1.991",
+       "968 a 3.995",
+       "2.068",
+       "4.705"
+      ],
+      [
+       "Guarda Civil Metropolitana",
+       "LC 358/2019",
+       "1.750 / 1.206",
+       "1.860 a 5.076",
+       "1.217",
+       "4.136"
+      ],
+      [
+       "Fisco e fiscalização (receita, obras, sanitária, meio ambiente, trânsito)",
+       "LC 101/2007, LC 378/2020, LC 391/2020",
+       "565 / 295",
+       "Auditor da receita 11.274 a 18.324; fiscais 1.072 a 4.537",
+       "331",
+       "44.166"
+      ],
+      [
+       "Procuradoria",
+       "LC 85/2006",
+       "62 / 35",
+       "11.838 a 23.069",
+       "35",
+       "39.553"
+      ],
+      [
+       "Assistência social",
+       "LC 452/2022",
+       "1.061 / 218",
+       "sem tabela própria publicada",
+       "296",
+       "3.765"
+      ],
+      [
+       "Gestão estratégica (administrador, economista, engenheiro e outros)",
+       "LC 453/2022",
+       "415 / 180",
+       "3.448 a 15.039",
+       "210",
+       "5.153"
+      ],
+      [
+       "Tabela administrativa (assistente, auxiliar, motorista, merendeira e outros)",
+       "Lei 3.836/2000",
+       "cerca de 16.800 / 4.300",
+       "942 a 11.909 (240 horas)",
+       "cerca de 2.900",
+       "1.800 a 1.900"
+      ]
      ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: vagas, Quadro Demonstrativo de Cargos Efetivos, ago/2026 (Semadi, Portal da Transparência); tabela, Tabela de Vencimento dos Servidores Efetivos (Prefeitura, maio de 2025; a tabela administrativa é de dezembro de 2022); efetivos e mediana, Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026, remuneração básica bruta, sem férias e 13º. Agrupamento e somas do autor; vagas só da administração direta; a linha da tabela administrativa é aproximada porque o quadro repete cargos em vários grupos. A assistência social tem 710 vagas criadas em 2022 e 2023 ainda sem ninguém (assistente de serviços administrativos, cuidador, orientador, cozinheiro e condutor)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que a tabela mostra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Primeiro, a tabela salarial é uma ficção na base. O primeiro degrau da tabela administrativa paga R$ 942,03, e o dos agentes de saúde, R$ 967,99, abaixo do salário mínimo de R$ 1.621. A prefeitura completa a diferença: na folha de fevereiro de 2026, 2.160 vínculos recebiam exatamente R$ 1.621,00 de remuneração básica. Segundo a imprensa, mais de 5 mil servidores até o nível 10 ganham um vencimento abaixo do mínimo e recebem o complemento (Correio do Estado, 11/06/2026). Quando o mínimo sobe, o complemento cresce e a tabela não; reajustar a tabela não muda o contracheque de quem está no piso."
+    },
+    {
+     "tipo": "p",
+     "texto": "Segundo, no topo a tabela também não diz quanto se paga. O auditor fiscal da receita tem vencimento de tabela entre R$ 11,3 mil e R$ 18,3 mil, mas a remuneração básica mediana paga em fevereiro de 2026 foi de R$ 45,1 mil, porque inclui a produtividade fiscal. Os fiscais de obras, sanitários e ambientais têm tabela de R$ 1 mil a R$ 4,5 mil e remuneração mediana paga perto de R$ 40 mil. Nessas carreiras a gratificação por produtividade é a maior parte do pagamento."
+    },
+    {
+     "tipo": "p",
+     "texto": "Terceiro, o quadro está vazio onde o serviço é mais simples e mais necessário. Há 4.598 vagas de monitor de alunos e só 276 ocupadas; 2.638 de assistente de inclusão escolar e 15 ocupadas; 1.630 de merendeira e 287 ocupadas; 2.605 de auxiliar de serviços diversos e 637 ocupadas; 1.301 de médico de 24 horas e 125 ocupadas (Quadro Demonstrativo de Cargos Efetivos, ago/2026 (Semadi, Portal da Transparência)). Essas funções existem na escola e no posto de saúde, mas são feitas por contratados: na folha de fevereiro de 2026 havia 2.015 assistentes de educação infantil, 1.144 assistentes educacionais inclusivos, 1.058 auxiliares de manutenção e 625 merendeiros com contrato temporário, e 937 médicos e 3.828 professores por convocação (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "E as funções de confiança?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Além do cargo, o servidor pode ocupar uma função de confiança ou um cargo em comissão. Em agosto de 2026 a prefeitura tinha 1.717 cargos em comissão previstos e 1.563 ocupados, do secretário (símbolo AGP-1, R$ 19.028,90) ao assessor governamental IV (DCA-9, até R$ 2.398,68); quase metade das vagas ocupadas está nos dois níveis mais baixos, gestor de processo e assessor governamental IV, com 929 pessoas (Quadro de Cargos em Comissão, ago/2026, e Tabela Remuneratória dos Cargos em Comissão, maio de 2025, Portal da Transparência). Na folha de fevereiro de 2026, os 1.589 comissionados custaram R$ 7,4 milhões no mês, 4% da folha."
+    },
+    {
+     "tipo": "p",
+     "texto": "Entre os efetivos, 1.690 tinham uma função gratificada em fevereiro de 2026. As mais comuns são encarregado governamental (712), gestor operacional (342), secretário de escola (177 nos três níveis) e as direções de escola e de Emei (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026). As direções de escola são função, não cargo: o professor volta para a sala quando sai."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "17.392",
+     "texto": "vagas de cargo efetivo previstas em lei e não ocupadas na administração direta de Campo Grande, de 34.168 (agosto de 2026). Fonte: Quadro Demonstrativo de Cargos Efetivos, Semadi, Portal da Transparência."
     },
     {
      "tipo": "subtopico",
@@ -4721,13 +4840,13 @@
        "1. Piso digno: ninguém abaixo do suficiente",
        "salário suficiente e mínimo obrigatório (pp. 110–111)",
        "pisos nacionais do magistério (Lei 11.738/2008), da enfermagem (Lei 14.434/2022) e dos agentes comunitários e de endemias, de dois salários mínimos (EC 120/2022)",
-       "a cesta básica de um adulto custa R$ 848,51, 56,6% do salário mínimo líquido de R$ 1.621; o DIEESE calcula em R$ 7.992,47 o mínimo para uma família de quatro (DIEESE, outubro de 2026). Quantos servidores ganham perto do mínimo não se sabe: a folha por carreira não é publicada (4.5)"
+       "a cesta básica de um adulto custa R$ 848,51, 56,6% do salário mínimo líquido de R$ 1.621; o DIEESE calcula em R$ 7.992,47 o mínimo para uma família de quatro (DIEESE, outubro de 2026). em fevereiro de 2026, 1.408 vínculos ativos tinham remuneração básica abaixo de um salário mínimo (a maioria em jornada parcial), 2.160 recebiam exatamente o mínimo e 9.984 ganhavam de um a dois mínimos, quase dois terços deles com contrato temporário (Portal da Transparência; 4.7)"
       ],
       [
        "2. Diferença conforme a função",
        "utilidades e rendimentos diferentes (p. 109)",
        "carreiras com níveis e progressão por tempo e por mérito (Constituição, art. 39, §1º)",
-       "sem a folha por carreira e por lotação não se compara quem está na ponta com quem está na área-meio (4.5)"
+       "a mediana paga vai de R$ 1,8 mil na tabela administrativa a R$ 44 mil no fisco, e a tabela salarial não explica a diferença, que vem das gratificações (4.5 e 4.7)"
       ],
       [
        "3. O teto é o caixa",
@@ -4753,7 +4872,7 @@
     },
     {
      "tipo": "p",
-     "texto": "Os R$ 145 milhões cabem nas regras 3 e 4 sem demitir concursado. Um corte de 20% na despesa com cargos em comissão e funções de confiança, o primeiro passo que a Constituição manda, mais a não reposição das vagas que se abrem na área-meio por aposentadoria, são o caminho mais curto; o valor exato de cada um depende da folha por cargo, que a prefeitura não publica (4.5). A cada ano em que a despesa ficar abaixo de 51,3%, a revisão geral e os reajustes dos pisos voltam a ser possíveis, começando por quem está mais perto do mínimo e por quem atende o cidadão na ponta."
+     "texto": "Os R$ 145 milhões cabem nas regras 3 e 4 sem demitir concursado. Um corte de 20% na despesa com cargos em comissão e funções de confiança, o primeiro passo que a Constituição manda, mais a não reposição das vagas que se abrem na área-meio por aposentadoria, são o caminho mais curto; a folha de fevereiro de 2026 dá a ordem de grandeza: os comissionados custam cerca de R$ 7,4 milhões por mês, e 20% disso são cerca de R$ 20 milhões por ano com 13º e férias (Portal da Transparência; cálculo do autor; 4.7). A cada ano em que a despesa ficar abaixo de 51,3%, a revisão geral e os reajustes dos pisos voltam a ser possíveis, começando por quem está mais perto do mínimo e por quem atende o cidadão na ponta."
     },
     {
      "tipo": "p",
@@ -4773,6 +4892,361 @@
       "Publicar todo ano quanto ganha cada carreira, comparado com o salário mínimo, a cesta básica de Campo Grande e o mínimo necessário do DIEESE.",
       "Sair do limite prudencial sem demitir concursado: primeiro corte de ao menos 20% na despesa com cargos em comissão e funções de confiança (Constituição, art. 169, §3º), depois a não reposição de vagas na área-meio.",
       "Quando houver folga, distribuir o reajuste primeiro a quem ganha perto do piso e a quem está na ponta: professora, enfermeira, agente comunitário e guarda."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.7",
+     "texto": "A folha por dentro: quem ganha quanto"
+    },
+    {
+     "tipo": "h3",
+     "texto": "De onde vêm os números?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Da folha nominal publicada no Portal da Transparência da prefeitura, que traz, para cada servidor e cada mês, o cargo, a lotação, o tipo de admissão e a remuneração básica bruta. Baixei os meses de janeiro de 2025 a fevereiro de 2026 e os meses de dezembro de 2019 a 2024, cerca de 646 mil linhas, e tirei nomes e CPF. Fevereiro de 2026 é o último mês publicado: em novembro de 2026 o portal não tinha os meses de março a outubro. Isso contraria o dever de divulgar a informação de interesse público de forma atualizada (Lei de Acesso à Informação, Lei 12.527/2011, art. 8º)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Um cuidado de leitura: a remuneração básica bruta é o vencimento mais as vantagens e gratificações do mês. Não inclui férias, 13º, abono de permanência nem encargos da prefeitura, e é anterior aos descontos de imposto, previdência e teto. Por isso a soma do ano (R$ 2,18 bilhões em 2025, só ativos) é menor que a despesa com ativos do relatório fiscal (R$ 2,97 bilhões; SICONFI, RGF 2025)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quem está na folha?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Vínculos ativos e folha do mês, por tipo de vínculo, fevereiro de 2026",
+     "cabecalho": [
+      "Vínculo",
+      "Vínculos",
+      "Folha do mês (R$ mi)",
+      "% da folha",
+      "Mediana (R$)"
+     ],
+     "linhas": [
+      [
+       "Efetivo (concurso)",
+       "17.360",
+       "128,1",
+       "70%",
+       "5.627"
+      ],
+      [
+       "Convocação (professores e médicos)",
+       "4.766",
+       "31,7",
+       "17%",
+       "5.156"
+      ],
+      [
+       "Contrato temporário",
+       "7.359",
+       "14,9",
+       "8%",
+       "1.900"
+      ],
+      [
+       "Comissionado",
+       "1.589",
+       "7,4",
+       "4%",
+       "3.605"
+      ],
+      [
+       "Outros (conselho tutelar, cedidos, convênios)",
+       "100",
+       "0,7",
+       "0,4%",
+       ""
+      ],
+      [
+       "Total",
+       "31.174",
+       "182,8",
+       "100%",
+       "4.703"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026; remuneração básica bruta; somas e medianas do autor. Uma pessoa pode ter mais de um vínculo (por exemplo, professor com dois cargos): os 31.174 vínculos são de 29.038 matrículas."
+    },
+    {
+     "tipo": "p",
+     "texto": "A educação concentra 17.731 vínculos e R$ 95,7 milhões por mês, metade da folha; metade dos seus vínculos é temporária ou por convocação. A saúde tem 7.430 vínculos e R$ 51,6 milhões. A Secretaria de Fazenda tem 423 vínculos e custa R$ 9,8 milhões por mês, mais que o dobro da Secretaria de Segurança e Defesa Social, com 1.178 vínculos e R$ 4,7 milhões (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Como a folha cresceu?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Folha de dezembro, vínculos ativos, 2019 a 2025",
+     "cabecalho": [
+      "Mês",
+      "Efetivos",
+      "Convocação",
+      "Temporários",
+      "Comissionados",
+      "Folha do mês (R$ mi)",
+      "Folha em R$ de dez/2025 (mi)"
+     ],
+     "linhas": [
+      [
+       "dez/2019",
+       "17.488",
+       "4.367",
+       "5.205",
+       "1.504",
+       "106,6",
+       "148,3"
+      ],
+      [
+       "dez/2021",
+       "17.630",
+       "3.734",
+       "6.548",
+       "1.771",
+       "119,1",
+       "144,1"
+      ],
+      [
+       "dez/2023",
+       "17.129",
+       "5.685",
+       "6.677",
+       "1.620",
+       "139,3",
+       "152,3"
+      ],
+      [
+       "dez/2025",
+       "17.400",
+       "6.237",
+       "7.174",
+       "1.552",
+       "175,0",
+       "175,0"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes: Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026 (meses de dezembro); IPCA do IBGE (2020: 4,52%; 2021: 10,06%; 2022: 5,79%; 2023: 4,62%; 2024: 4,83%; 2025: 4,26%); correção e somas do autor."
+    },
+    {
+     "tipo": "p",
+     "texto": "Em seis anos a folha do mês subiu 64%, contra 39% de inflação: um ganho real de 18%. O número de efetivos ficou parado em 17,4 mil. O que cresceu foram os vínculos precários: as convocações passaram de 4.367 para 6.237 e os contratos temporários de 5.205 para 7.174. A prefeitura atende mais gente com o mesmo quadro de concursados e cada vez mais contratados, que não fazem carreira e saem quando o contrato acaba."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto ganha quem está na prefeitura?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Vínculos ativos por faixa de remuneração básica, fevereiro de 2026",
+     "cabecalho": [
+      "Faixa (salário mínimo de R$ 1.621)",
+      "Vínculos",
+      "% dos vínculos",
+      "% da folha"
+     ],
+     "linhas": [
+      [
+       "Abaixo de 1 mínimo (em geral jornada parcial)",
+       "1.408",
+       "4,5%",
+       "0,6%"
+      ],
+      [
+       "De 1 a 2 mínimos",
+       "9.984",
+       "32,0%",
+       "11,3%"
+      ],
+      [
+       "De 2 a 3 mínimos",
+       "4.685",
+       "15,0%",
+       "10,7%"
+      ],
+      [
+       "De 3 a 5 mínimos",
+       "8.998",
+       "28,9%",
+       "30,0%"
+      ],
+      [
+       "De 5 a 10 mínimos",
+       "4.921",
+       "15,8%",
+       "29,1%"
+      ],
+      [
+       "De 10 mínimos ao teto (R$ 26.943)",
+       "688",
+       "2,2%",
+       "7,5%"
+      ],
+      [
+       "Acima do teto, no bruto",
+       "427",
+       "1,4%",
+       "10,9%"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fonte: Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026; faixas e somas do autor. Dos 9.984 vínculos entre um e dois mínimos, 6.457 são contratos temporários."
+    },
+    {
+     "tipo": "p",
+     "texto": "A folha é desigual como a cidade. Os 10% de vínculos mais bem pagos levam 32,5% da folha, e o 1% do topo, 9%. Na base, um terço dos vínculos ganha até dois mínimos, e quase todos os temporários estão aí: a mediana do contrato temporário é de R$ 1.900 (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026; cálculo do autor)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Há supersalários?"
+    },
+    {
+     "tipo": "p",
+     "texto": "O teto do funcionalismo municipal é o subsídio do prefeito (Constituição, art. 37, XI), de R$ 26.943,05 desde abril de 2025 (Tabela Remuneratória, Prefeitura, maio de 2025). A Lei 7.398/2025 previa R$ 31.912,56 a partir de fevereiro de 2026 (O Jacaré, 26/04/2025; Correio do Estado, 11/06/2026), mas os descontos dos contracheques de fevereiro batem com o teto de R$ 26.943,05 (cálculo do autor). Os procuradores têm teto próprio, de 90,25% do subsídio dos ministros do STF (STF, RE 663.696, 2019)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Em fevereiro de 2026, 427 vínculos ativos tinham remuneração básica bruta acima do teto, somando R$ 20 milhões no mês, 11% da folha; o que passa do teto soma R$ 8,5 milhões. São quase todos do fisco e da fiscalização (auditor fiscal da receita, 93; fiscais de obras, 79; fiscais ambientais, 46; fiscais sanitários, 70; fiscais de trânsito, 32), da procuradoria (32) e alguns médicos e especialistas em educação. Em 2025, 751 servidores diferentes passaram do teto em algum mês. Entre os inativos, 261 passavam do teto em janeiro de 2026 (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Esse bruto, porém, não é o que se recebe. Conferi o contracheque de uma amostra de 34 desses vínculos, sorteados: em todos, as deduções vão de 42% a 81% do bruto, e o líquido mediano é de R$ 19,3 mil; em 10 deles o líquido é exatamente R$ 17.707,72, o que sobra do teto depois de previdência e imposto de renda. O abate-teto está sendo aplicado. O único líquido alto da amostra (R$ 66 mil) é de um mês com férias (Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026, detalhe por servidor; cálculo do autor). Não se acharam supersalários líquidos na amostra; o que se acha é outra coisa: carreiras cuja gratificação passa do teto todo mês e é cortada todo mês."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, isso mostra um desenho de carreira errado, não uma ilegalidade. Uma produtividade fiscal que leva o bruto a R$ 45 mil, quando o teto corta em R$ 26,9 mil, não incentiva mais arrecadação de quem já está no teto; ela só pressiona por teto maior. A lei de 2023 que aumentou a produtividade de auditores e procuradores foi aprovada por 24 votos a 2, com a promessa de mais R$ 6 milhões por mês de arrecadação (Correio do Estado, 01/12/2023); essa conta nunca foi publicada."
+    },
+    {
+     "tipo": "caixa",
+     "valor": "R$ 182,8 milhões",
+     "texto": "foi a folha básica bruta dos 31.174 vínculos ativos da prefeitura em fevereiro de 2026, o último mês publicado: 70% para efetivos, 17% para convocados, 8% para temporários e 4% para comissionados. Fonte: Portal da Transparência da Prefeitura de Campo Grande; cálculo do autor."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · A folha por dentro: quem ganha quanto",
+     "texto": [
+      "Publicar a folha nominal até o dia 30 do mês seguinte, com todos os campos (vencimento, gratificações, abate-teto e descontos) em arquivo aberto; hoje ela está oito meses atrasada e o abate-teto só aparece no contracheque individual.",
+      "Publicar todo mês quantos servidores passaram do teto e quanto foi cortado, por carreira.",
+      "Medir a produtividade fiscal pelo que entra no caixa: publicar a arrecadação adicional atribuída a cada carreira que recebe produtividade, e rever a lei de 2023 se a promessa de R$ 6 milhões por mês não se confirmar.",
+      "Trocar convocações e contratos temporários permanentes por concurso, começando pela merenda, pela monitoria, pela inclusão escolar e pelo médico de 24 horas (4.5)."
+     ]
+    },
+    {
+     "tipo": "subtopico",
+     "numero": "4.8",
+     "texto": "Reforma administrativa: o que mudar no quadro da prefeitura"
+    },
+    {
+     "tipo": "h3",
+     "texto": "Por que uma reforma?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Os números de 4.1 a 4.7 contam a mesma história. O quadro de concursados está parado há seis anos e cobre metade das vagas que a lei criou; o crescimento do atendimento foi feito com convocações e contratos, que hoje são 12 mil vínculos, 39% do total. A tabela salarial de 2000 tem o primeiro degrau abaixo do mínimo e é corrigida por complemento. Algumas carreiras recebem gratificações que passam do teto e são cortadas todo mês. E a despesa com pessoal está acima do limite prudencial da LRF desde 2022 (4.3), o que proíbe criar cargo e dar reajuste além da revisão geral (LC 101/2000, art. 22)."
+    },
+    {
+     "tipo": "p",
+     "texto": "Reforma administrativa, aqui, não quer dizer demitir. Quer dizer pôr cada função no vínculo certo, pagar pela função e pelo resultado, e fazer a folha caber no caixa. Tudo o que vai abaixo cabe na competência do município (Constituição, arts. 30 e 39) e não depende da reforma administrativa federal."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que mudar?"
+    },
+    {
+     "tipo": "tabela",
+     "legenda": "Reforma administrativa municipal: sete medidas (proposta do autor)",
+     "cabecalho": [
+      "Medida",
+      "O que muda",
+      "Base nos dados",
+      "Efeito na folha"
+     ],
+     "linhas": [
+      [
+       "1. Quadro de vagas real",
+       "Lei que reduz as vagas previstas ao que a cidade precisa e extingue as que nunca serão ocupadas",
+       "17.392 vagas abertas de 34.168 (4.5)",
+       "nenhum custo; dá a medida certa para concurso e para a LRF"
+      ],
+      [
+       "2. Concurso para funções permanentes",
+       "Concurso em etapas para merendeira, monitor, assistente de inclusão e médico de 24 horas, trocando contrato por cargo",
+       "4.009 temporários no apoio escolar e 938 médicos convocados (4.5 e 4.7)",
+       "o custo mensal sobe pouco, porque a função já é paga; muda o vínculo e a previdência"
+      ],
+      [
+       "3. Tabela única com piso real",
+       "Nova tabela geral, com o primeiro degrau no salário mínimo e degraus que valham a progressão",
+       "2.160 vínculos recebem exatamente o mínimo por complemento (4.5)",
+       "só se aplica com a despesa abaixo de 51,3% da RCL"
+      ],
+      [
+       "4. Gratificação dentro do teto",
+       "Produtividade fiscal com limite no teto e ligada à arrecadação adicional publicada",
+       "427 vínculos acima do teto no bruto, R$ 8,5 mi por mês cortados (4.7)",
+       "nenhum custo novo; deixa de pressionar o teto"
+      ],
+      [
+       "5. Menos comissionados",
+       "Corte de 20% da despesa com cargos em comissão e funções de confiança, o primeiro passo do art. 169 da Constituição",
+       "1.563 comissionados, R$ 7,4 mi por mês (4.5 e 4.7)",
+       "cerca de R$ 20 milhões por ano (estimativa do autor)"
+      ],
+      [
+       "6. Carreira com avaliação",
+       "Progressão por mérito ligada à meta do serviço (fila, vaga, atendimento), com avaliação publicada",
+       "a tabela atual progride por tempo",
+       "neutro, se a progressão por mérito substituir parte da progressão por tempo"
+      ],
+      [
+       "7. Transparência em dia",
+       "Folha nominal publicada em até 30 dias, com abate-teto e gratificações separados",
+       "folha publicada só até fev/2026 (4.7)",
+       "nenhum"
+      ]
+     ]
+    },
+    {
+     "tipo": "p",
+     "texto": "Fontes das bases: Quadro Demonstrativo de Cargos Efetivos, ago/2026 (Semadi, Portal da Transparência); Portal da Transparência da Prefeitura, folha de fev/2026, baixada em 12/11/2026; SICONFI, RGF 2025 e 2º quadrimestre de 2026. Medidas e efeitos são proposta e cálculo do autor."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quanto custa e quanto economiza?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Ordem de grandeza, por cálculo do autor sobre a folha de fevereiro de 2026, com 13º, férias e 28% de contribuição patronal ao IMPCG. Os cargos efetivos hoje ocupados custam cerca de R$ 2,1 bilhões por ano. Preencher todas as vagas abertas do quadro, no primeiro degrau ou no salário mínimo, custaria mais cerca de R$ 650 milhões por ano, o que mostra por que a medida 1, ajustar o quadro, vem antes da 2. A troca de um contrato temporário por um concursado custa pouco no salário, porque a função já é paga, mas acrescenta a contribuição patronal de 28% ao regime próprio; 1.000 trocas na faixa de R$ 1.900 somam cerca de R$ 7 milhões por ano."
+    },
+    {
+     "tipo": "p",
+     "texto": "Do lado da economia, o corte de 20% nos comissionados dá cerca de R$ 20 milhões por ano, e a não reposição de parte das vagas da área-meio que se abrem por aposentadoria completa os R$ 145 milhões que faltam para a despesa voltar ao limite prudencial (4.6). Nada disso exige demitir concursado."
+    },
+    {
+     "tipo": "p",
+     "texto": "Na minha leitura, a reforma administrativa de Campo Grande é menos sobre cortar e mais sobre arrumar: o quadro que a lei desenhou não existe, a tabela não paga o que diz e o atendimento depende de quem não tem carreira. Arrumar isso custa pouco e é condição para tudo o que este livro propõe na saúde e na educação."
+    },
+    {
+     "tipo": "propostas",
+     "titulo": "Propostas para 2036 · Reforma administrativa: o que mudar no quadro da prefeitura",
+     "texto": [
+      "Mandar à Câmara, no primeiro ano, uma lei de quadro de pessoal que ajuste as vagas previstas às necessárias e extinga as que nunca serão ocupadas.",
+      "Plano de concursos de 2029 a 2036 para as funções permanentes hoje feitas por contrato, começando por merenda, monitoria, inclusão escolar e médico de 24 horas, dentro do limite da LRF.",
+      "Nova tabela geral de cargos com o primeiro degrau no salário mínimo, aplicada quando a despesa com pessoal ficar abaixo de 51,3% da receita corrente líquida.",
+      "Limitar a produtividade fiscal ao teto e ligá-la à arrecadação adicional publicada.",
+      "Cortar ao menos 20% da despesa com cargos em comissão e funções de confiança no primeiro ano.",
+      "Avaliação de desempenho ligada à meta do serviço, com resultado publicado, como critério de progressão."
      ]
     }
    ],
@@ -4808,7 +5282,9 @@
     "4.3 Folha e Lei de Responsabilidade Fiscal",
     "4.4 Previdência dos servidores",
     "4.5 Carreiras",
-    "4.6 Quanto pagar ao servidor: o critério do salário suficiente"
+    "4.6 Quanto pagar ao servidor: o critério do salário suficiente",
+    "4.7 A folha por dentro: quem ganha quanto",
+    "4.8 Reforma administrativa: o que mudar no quadro da prefeitura"
    ]
   },
   {
@@ -7655,12 +8131,21 @@
      "texto": "é o índice de Campo Grande no ICMS dos municípios para 2027, contra 25,34% em 2012, com um terço da população do estado. Fonte: Secretaria de Fazenda de MS, índice provisório, via Correio do Estado, 29/10/2026."
     },
     {
+     "tipo": "h3",
+     "texto": "Quanto custa a máquina de arrecadar?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Secretaria de Fazenda tinha 423 vínculos em fevereiro de 2026 e uma folha de R$ 9,8 milhões no mês. Só os 94 auditores fiscais da receita somaram R$ 6,2 milhões de remuneração básica bruta, com mediana de R$ 45,1 mil, quase toda produtividade; o abate-teto corta o que passa de R$ 26.943 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor; ver 4.7). A lei de 2023 que aumentou a produtividade prometia R$ 6 milhões a mais de arrecadação por mês (Correio do Estado, 01/12/2023), e o resultado não foi publicado. Se a produtividade é paga pela arrecadação, a arrecadação adicional precisa aparecer na conta, auditor por auditor ou equipe por equipe."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · A arrecadação em detalhe",
      "texto": [
       "Publicar todo ano o ISS por atividade econômica e por porte de empresa, e o IPTU por uso (residencial, comercial, terreno), por região.",
       "Publicar o estoque da dívida ativa por tributo e por idade, a taxa de recuperação e os cem maiores devedores, como já fazem estados e a União.",
-      "Defender na Assembleia um critério do ICMS que pese a população e os serviços prestados, e atrair indústria para recuperar valor adicionado (Capítulo 2)."
+      "Defender na Assembleia um critério do ICMS que pese a população e os serviços prestados, e atrair indústria para recuperar valor adicionado (Capítulo 2).",
+      "Publicar todo ano a arrecadação atribuída às equipes que recebem produtividade fiscal, contra o custo dessa produtividade (4.7)."
      ]
     },
     {
@@ -10101,11 +10586,24 @@
      "texto": "médicos por mil habitantes em Campo Grande: 4.839 médicos (out/2024), contra 1,9 por mil no interior de MS. Médico não falta na cidade; falta a rede pública contratar e fixar. Fonte: Conselho Federal de Medicina."
     },
     {
+     "tipo": "h3",
+     "texto": "O que a folha mostra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na folha de fevereiro de 2026 a Secretaria de Saúde tinha 7.430 vínculos: 5.837 efetivos, 938 convocados, 486 temporários e 146 comissionados. Os médicos são o caso mais claro de vínculo precário: eram 401 médicos efetivos e 938 médicos por convocação, mais que o dobro. A convocação paga bem (mediana de R$ 9.958, contra R$ 8.056 do efetivo), mas não fixa o médico no posto (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O quadro de cargos explica por quê. A lei criou 1.301 vagas de médico de 24 horas, e só 125 estão ocupadas; das 400 de médico de 12 horas, 161 (Quadro Demonstrativo de Cargos Efetivos, ago/2026, Semadi). Na enfermagem o quadro está quase cheio: 498 enfermeiros e 896 técnicos nas vagas de efetivo, com mediana paga de R$ 9.861 e R$ 5.355 (mesmas fontes). Os números de abril de 2024 citados acima (342 enfermeiros e 799 técnicos) são menores; a diferença pode vir da data ou de quem está fora da rede de atendimento, e é pergunta a fazer à secretaria."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Médicos e profissionais",
      "texto": [
       "Concurso e carreira para as equipes de Saúde da Família, para fixar o médico no posto: médico há na cidade, falta a rede pública contratar.",
-      "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos."
+      "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos.",
+      "Abrir concurso para as vagas de médico de 24 horas em etapas, trocando a convocação pelo cargo, a começar pelas regiões com menos médico por habitante (4.5 e 4.8)."
      ]
     },
     {
@@ -10989,6 +11487,14 @@
      "texto": "A merenda chega a mais de 110 mil alunos em 207 unidades, e desde 2024 todo o hortifrúti vem da agricultura familiar (Semed, via A Crítica, 18/10/2026). O governo federal paga, por aluno e por dia letivo, R$ 1,57 na creche e R$ 0,57 no ensino fundamental (Resolução CD/FNDE nº 1/2026); o resto sai do caixa da cidade. Quanto, ninguém sabe: a prefeitura não usa a subfunção de alimentação escolar no orçamento, e a merenda fica diluída nas linhas de ensino (SICONFI, DCA 2022–2025). Para a família pobre, a refeição da escola é parte do orçamento doméstico, e nas férias a cozinha fecha."
     },
     {
+     "tipo": "h3",
+     "texto": "Quem faz a merenda?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A lei prevê 1.630 vagas de merendeira efetiva, e 287 estão ocupadas (Quadro de Cargos Efetivos, ago/2026). Na folha de fevereiro de 2026 havia 282 merendeiras efetivas, com mediana de R$ 1.750, e 625 merendeiros com contrato temporário, quase todos no salário mínimo de R$ 1.621 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A cozinha da escola funciona com dois terços de contratados."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Alimentação escolar",
      "texto": [
@@ -11005,6 +11511,14 @@
     {
      "tipo": "p",
      "texto": "Professores e assistentes de educação infantil estavam entre as cinco funções com mais temporários na auditoria do Tribunal de Contas de 2022 (Capítulo 4), e a LDO de 2027 recebeu da Câmara diretrizes de concurso, jornada de 30 horas e piso do magistério (Capítulo 7). A rede municipal tem cerca de 8,9 mil professores para 110 mil alunos, perto de 12 alunos por professor (Correio do Estado, 12/06/2026; cálculo do autor). A divisão por vínculo, efetivo ou contratado, e o resultado de aprendizagem dos alunos ainda não foram levantados para este livro."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos são efetivos?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na folha de fevereiro de 2026 havia 6.774 vínculos de professor efetivo, com mediana de R$ 7.973, e 3.828 convocações de professor, com mediana de R$ 5.156. A convocação pode ser de professor de fora do quadro ou de efetivo em jornada complementar, e o portal não diz qual (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A lei prevê 7.321 vagas de professor e 6.809 estão ocupadas: o quadro de concursados está quase cheio, e o que falta é jornada, coberta por convocação (Quadro de Cargos Efetivos, ago/2026). A Secretaria de Educação inteira tinha 17.731 vínculos e R$ 95,7 milhões de folha no mês, metade da folha da prefeitura; metade desses vínculos é temporária ou por convocação."
     },
     {
      "tipo": "propostas",
@@ -11583,6 +12097,14 @@
     {
      "tipo": "p",
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E (despesa liquidada). Em cinco anos a despesa com segurança subiu 5% em valor nominal, enquanto a despesa total da prefeitura cresceu 28% (cálculo do autor). Descontada a inflação, encolheu. É quase só folha: a frota tem viaturas com seis anos de uso, 20 novas foram alugadas em 2026, e os equipamentos novos vieram de um programa federal de R$ 2,6 milhões (Correio do Estado, 24/07/2026; A Crítica, 02/06/2026). O vencimento-base citado na Câmara em agosto de 2026 foi de R$ 1.860 (A Crítica, 10/08/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que diz a folha?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A lei da carreira (LC 358/2019) prevê 1.750 guardas, e 1.206 vagas estão ocupadas (Quadro de Cargos Efetivos, ago/2026). Na folha de fevereiro de 2026 eram 1.217 guardas, todos concursados, com folha de R$ 5,0 milhões no mês e mediana de R$ 4.136; o início da carreira, a terceira classe, recebe a partir de R$ 1.860 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor; Tabela de Vencimento dos Efetivos, maio de 2025). A pirâmide está invertida: 498 guardas de classe especial e 429 inspetores, contra 255 na terceira classe, o que indica muita gente no topo e pouca entrada nova."
     },
     {
      "tipo": "propostas",
@@ -13265,10 +13787,19 @@
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E. A assistência cresceu 49% em quatro anos, mais que o orçamento (28%), mas o aumento foi para a administração da secretaria, que saltou de R$ 22 milhões para R$ 54 milhões em 2024, enquanto os serviços na ponta caíram; pode ser reclassificação contábil, e é a pergunta a fazer. São cerca de R$ 172 por habitante ao ano. Em abril de 2025 a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais, alegando o ajuste fiscal (O Jacaré, 25/04/2025): o apoio a quem já cuida das pessoas fica à mercê do caixa."
     },
     {
+     "tipo": "h3",
+     "texto": "Quem trabalha na assistência?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Secretaria de Assistência Social tinha 1.497 vínculos em fevereiro de 2026: só 17% efetivos, 67% temporários e 13% comissionados, com mediana de R$ 2.499 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A carreira própria da assistência, criada entre 2022 e 2023 (LC 452/2022, 481/2023 e 504/2023), tem 710 vagas de cuidador, orientador social, cozinheiro, condutor e assistente administrativo ainda sem nenhum concursado (Quadro de Cargos Efetivos, ago/2026). O atendimento ao vulnerável é feito por quem tem o vínculo mais frágil."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Orçamento e entidades",
      "texto": [
-      "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa."
+      "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa.",
+      "Primeiro concurso da carreira de assistência social (LC 452/2022) para as funções de cuidador e orientador social, hoje feitas por contrato (4.8)."
      ]
     },
     {
