@@ -8131,12 +8131,21 @@
      "texto": "é o índice de Campo Grande no ICMS dos municípios para 2027, contra 25,34% em 2012, com um terço da população do estado. Fonte: Secretaria de Fazenda de MS, índice provisório, via Correio do Estado, 29/10/2026."
     },
     {
+     "tipo": "h3",
+     "texto": "Quanto custa a máquina de arrecadar?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Secretaria de Fazenda tinha 423 vínculos em fevereiro de 2026 e uma folha de R$ 9,8 milhões no mês. Só os 94 auditores fiscais da receita somaram R$ 6,2 milhões de remuneração básica bruta, com mediana de R$ 45,1 mil, quase toda produtividade; o abate-teto corta o que passa de R$ 26.943 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor; ver 4.7). A lei de 2023 que aumentou a produtividade prometia R$ 6 milhões a mais de arrecadação por mês (Correio do Estado, 01/12/2023), e o resultado não foi publicado. Se a produtividade é paga pela arrecadação, a arrecadação adicional precisa aparecer na conta, auditor por auditor ou equipe por equipe."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · A arrecadação em detalhe",
      "texto": [
       "Publicar todo ano o ISS por atividade econômica e por porte de empresa, e o IPTU por uso (residencial, comercial, terreno), por região.",
       "Publicar o estoque da dívida ativa por tributo e por idade, a taxa de recuperação e os cem maiores devedores, como já fazem estados e a União.",
-      "Defender na Assembleia um critério do ICMS que pese a população e os serviços prestados, e atrair indústria para recuperar valor adicionado (Capítulo 2)."
+      "Defender na Assembleia um critério do ICMS que pese a população e os serviços prestados, e atrair indústria para recuperar valor adicionado (Capítulo 2).",
+      "Publicar todo ano a arrecadação atribuída às equipes que recebem produtividade fiscal, contra o custo dessa produtividade (4.7)."
      ]
     },
     {
@@ -10577,11 +10586,24 @@
      "texto": "médicos por mil habitantes em Campo Grande: 4.839 médicos (out/2024), contra 1,9 por mil no interior de MS. Médico não falta na cidade; falta a rede pública contratar e fixar. Fonte: Conselho Federal de Medicina."
     },
     {
+     "tipo": "h3",
+     "texto": "O que a folha mostra?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na folha de fevereiro de 2026 a Secretaria de Saúde tinha 7.430 vínculos: 5.837 efetivos, 938 convocados, 486 temporários e 146 comissionados. Os médicos são o caso mais claro de vínculo precário: eram 401 médicos efetivos e 938 médicos por convocação, mais que o dobro. A convocação paga bem (mediana de R$ 9.958, contra R$ 8.056 do efetivo), mas não fixa o médico no posto (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor)."
+    },
+    {
+     "tipo": "p",
+     "texto": "O quadro de cargos explica por quê. A lei criou 1.301 vagas de médico de 24 horas, e só 125 estão ocupadas; das 400 de médico de 12 horas, 161 (Quadro Demonstrativo de Cargos Efetivos, ago/2026, Semadi). Na enfermagem o quadro está quase cheio: 498 enfermeiros e 896 técnicos nas vagas de efetivo, com mediana paga de R$ 9.861 e R$ 5.355 (mesmas fontes). Os números de abril de 2024 citados acima (342 enfermeiros e 799 técnicos) são menores; a diferença pode vir da data ou de quem está fora da rede de atendimento, e é pergunta a fazer à secretaria."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Médicos e profissionais",
      "texto": [
       "Concurso e carreira para as equipes de Saúde da Família, para fixar o médico no posto: médico há na cidade, falta a rede pública contratar.",
-      "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos."
+      "Pediatra e ginecologista de referência por região, em vez de espalhados em poucos postos.",
+      "Abrir concurso para as vagas de médico de 24 horas em etapas, trocando a convocação pelo cargo, a começar pelas regiões com menos médico por habitante (4.5 e 4.8)."
      ]
     },
     {
@@ -11465,6 +11487,14 @@
      "texto": "A merenda chega a mais de 110 mil alunos em 207 unidades, e desde 2024 todo o hortifrúti vem da agricultura familiar (Semed, via A Crítica, 18/10/2026). O governo federal paga, por aluno e por dia letivo, R$ 1,57 na creche e R$ 0,57 no ensino fundamental (Resolução CD/FNDE nº 1/2026); o resto sai do caixa da cidade. Quanto, ninguém sabe: a prefeitura não usa a subfunção de alimentação escolar no orçamento, e a merenda fica diluída nas linhas de ensino (SICONFI, DCA 2022–2025). Para a família pobre, a refeição da escola é parte do orçamento doméstico, e nas férias a cozinha fecha."
     },
     {
+     "tipo": "h3",
+     "texto": "Quem faz a merenda?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A lei prevê 1.630 vagas de merendeira efetiva, e 287 estão ocupadas (Quadro de Cargos Efetivos, ago/2026). Na folha de fevereiro de 2026 havia 282 merendeiras efetivas, com mediana de R$ 1.750, e 625 merendeiros com contrato temporário, quase todos no salário mínimo de R$ 1.621 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A cozinha da escola funciona com dois terços de contratados."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Alimentação escolar",
      "texto": [
@@ -11481,6 +11511,14 @@
     {
      "tipo": "p",
      "texto": "Professores e assistentes de educação infantil estavam entre as cinco funções com mais temporários na auditoria do Tribunal de Contas de 2022 (Capítulo 4), e a LDO de 2027 recebeu da Câmara diretrizes de concurso, jornada de 30 horas e piso do magistério (Capítulo 7). A rede municipal tem cerca de 8,9 mil professores para 110 mil alunos, perto de 12 alunos por professor (Correio do Estado, 12/06/2026; cálculo do autor). A divisão por vínculo, efetivo ou contratado, e o resultado de aprendizagem dos alunos ainda não foram levantados para este livro."
+    },
+    {
+     "tipo": "h3",
+     "texto": "Quantos são efetivos?"
+    },
+    {
+     "tipo": "p",
+     "texto": "Na folha de fevereiro de 2026 havia 6.774 vínculos de professor efetivo, com mediana de R$ 7.973, e 3.828 convocações de professor, com mediana de R$ 5.156. A convocação pode ser de professor de fora do quadro ou de efetivo em jornada complementar, e o portal não diz qual (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A lei prevê 7.321 vagas de professor e 6.809 estão ocupadas: o quadro de concursados está quase cheio, e o que falta é jornada, coberta por convocação (Quadro de Cargos Efetivos, ago/2026). A Secretaria de Educação inteira tinha 17.731 vínculos e R$ 95,7 milhões de folha no mês, metade da folha da prefeitura; metade desses vínculos é temporária ou por convocação."
     },
     {
      "tipo": "propostas",
@@ -12059,6 +12097,14 @@
     {
      "tipo": "p",
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E (despesa liquidada). Em cinco anos a despesa com segurança subiu 5% em valor nominal, enquanto a despesa total da prefeitura cresceu 28% (cálculo do autor). Descontada a inflação, encolheu. É quase só folha: a frota tem viaturas com seis anos de uso, 20 novas foram alugadas em 2026, e os equipamentos novos vieram de um programa federal de R$ 2,6 milhões (Correio do Estado, 24/07/2026; A Crítica, 02/06/2026). O vencimento-base citado na Câmara em agosto de 2026 foi de R$ 1.860 (A Crítica, 10/08/2026)."
+    },
+    {
+     "tipo": "h3",
+     "texto": "O que diz a folha?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A lei da carreira (LC 358/2019) prevê 1.750 guardas, e 1.206 vagas estão ocupadas (Quadro de Cargos Efetivos, ago/2026). Na folha de fevereiro de 2026 eram 1.217 guardas, todos concursados, com folha de R$ 5,0 milhões no mês e mediana de R$ 4.136; o início da carreira, a terceira classe, recebe a partir de R$ 1.860 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor; Tabela de Vencimento dos Efetivos, maio de 2025). A pirâmide está invertida: 498 guardas de classe especial e 429 inspetores, contra 255 na terceira classe, o que indica muita gente no topo e pouca entrada nova."
     },
     {
      "tipo": "propostas",
@@ -13741,10 +13787,19 @@
      "texto": "Fonte: SICONFI, DCA 2021–2025, Anexo I-E. A assistência cresceu 49% em quatro anos, mais que o orçamento (28%), mas o aumento foi para a administração da secretaria, que saltou de R$ 22 milhões para R$ 54 milhões em 2024, enquanto os serviços na ponta caíram; pode ser reclassificação contábil, e é a pergunta a fazer. São cerca de R$ 172 por habitante ao ano. Em abril de 2025 a prefeitura vetou R$ 8,7 milhões de emendas para entidades sociais, alegando o ajuste fiscal (O Jacaré, 25/04/2025): o apoio a quem já cuida das pessoas fica à mercê do caixa."
     },
     {
+     "tipo": "h3",
+     "texto": "Quem trabalha na assistência?"
+    },
+    {
+     "tipo": "p",
+     "texto": "A Secretaria de Assistência Social tinha 1.497 vínculos em fevereiro de 2026: só 17% efetivos, 67% temporários e 13% comissionados, com mediana de R$ 2.499 (Portal da Transparência da Prefeitura, folha de fev/2026, remuneração básica bruta; somas e medianas do autor). A carreira própria da assistência, criada entre 2022 e 2023 (LC 452/2022, 481/2023 e 504/2023), tem 710 vagas de cuidador, orientador social, cozinheiro, condutor e assistente administrativo ainda sem nenhum concursado (Quadro de Cargos Efetivos, ago/2026). O atendimento ao vulnerável é feito por quem tem o vínculo mais frágil."
+    },
+    {
      "tipo": "propostas",
      "titulo": "Propostas para 2036 · Orçamento e entidades",
      "texto": [
-      "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa."
+      "Repasse às entidades por lei e por resultado, com prestação de contas pública, e não ao sabor do caixa.",
+      "Primeiro concurso da carreira de assistência social (LC 452/2022) para as funções de cuidador e orientador social, hoje feitas por contrato (4.8)."
      ]
     },
     {
