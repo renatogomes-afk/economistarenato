@@ -76725,6 +76725,1792 @@
         ]
       ],
       "jstor_edicao": "i331441"
+    },
+    {
+      "slug": "1920-a-natureza-do-problema-economico",
+      "numero": 162,
+      "titulo": "Gardner, os acidentes de trabalho e o imposto de renda dos estados",
+      "titulo_original": "The American Economic Review, vol. X, no. 1, March 1920",
+      "autores": "Henry B. Gardner, Willard C. Fisher, Edwin J. Clapp, James D. Magee, Harley L. Lutz, J. Anderson Fitzgerald, Margaret L. Goldsmith, Paul H. Douglas e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 10, nº 1",
+      "data": "março de 1920",
+      "chamada": "Gardner diz que o problema central ainda é produzir mais por habitante; Fisher avalia as leis de indenização por acidente; Lutz, o imposto de renda dos estados; Magee, o crédito para especulação.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1910, segundo a estimativa de King citada por Henry B. Gardner, mais de nove milhões de famílias americanas viviam com menos de US$ 900 por ano, cerca de metade do total. Gardner, da Brown University, abre a American Economic Review de março de 1920 com o discurso que fez como presidente da associação em Chicago, em 29 de dezembro de 1919, e usa a estimativa para uma conta: mesmo dividida por igual, a renda nacional pouco passaria do necessário para uma vida modesta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição, a primeira do volume X, gira em torno de medir antes de reformar. Willard C. Fisher, da New York University, faz o balanço das leis de indenização por acidente de trabalho; Edwin J. Clapp descreve o Bush Terminal, no Brooklyn, como experiência de cooperação entre pequenas empresas; James D. Magee, também da New York University, pergunta se o Federal Reserve Board conseguiu afastar o crédito bancário da especulação na bolsa; Harley L. Lutz, do Oberlin College, revê os impostos estaduais sobre a renda desde 1911; e J. Anderson Fitzgerald, da University of Texas, explica o seguro recíproco contra incêndio. Duas comunicações curtas completam a parte de artigos: Margaret L. Goldsmith, de Chicago, sobre cláusulas de reajuste em contratos coletivos da indústria gráfica, e Paul H. Douglas, da University of Washington, em resposta a uma crítica ao seu método de medir a rotatividade da mão de obra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O problema econômico é de distribuição ou de produção?",
+          "artigo": "1803186",
+          "credito": "Henry B. Gardner (Brown University) · “The Nature of our Economic Problem” · pp. 1–17"
+        },
+        {
+          "tipo": "p",
+          "texto": "Gardner parte de uma dúvida da profissão. Alguns economistas, diz, haviam perdido a fé nos princípios construídos desde Adam Smith: erraram ao prever os efeitos da guerra, a psicologia avançara sobre os motivos da ação humana e a teoria tomaria como permanentes instituições que mudam. Para ele, as críticas não são tão destrutivas. A previsão é o teste mais severo do conhecimento, e os erros foram de prazo, não de direção: os juros de longo prazo já subiam, e os preços, que continuavam em alta, acabariam por cair. Prevê ainda que o país, agora credor, verá as importações crescerem em relação às exportações."
+        },
+        {
+          "tipo": "p",
+          "texto": "A guerra, afirma, confirmou o que se ensina em qualquer curso elementar: o poder econômico de um povo é sua capacidade de produzir os bens de que precisa; para produzir mais de uma coisa é preciso consumir menos de outra; e as finanças de guerra são apenas o mecanismo que põe trabalho e capital à disposição do governo. A tarefa, portanto, não é reconstruir a teoria, mas desenvolver o que chama de engenharia econômica."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1.300",
+          "texto": "Renda anual que caberia a uma família de pai, mãe e três filhos menores de quinze anos se cerca de US$ 26 bilhões disponíveis para consumo fossem divididos por igual, na conta de Gardner com as estimativas de King. Segundo Chapin, em 1907 eram precisos US$ 900 para as necessidades físicas de uma família assim em Nova York. Só cerca de 4% das famílias tinham renda acima de US$ 3.000."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Nosso problema não é apenas um problema de distribuição.”",
+          "original": "“Our problem is not merely a problem in distribution.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a tese: o remédio para a condição dos mais pobres não está numa redistribuição forçada, que Gardner chama de paliativo de pequena potência, mas no aumento da produtividade marginal deles. Lista cinco frentes: eficiência individual, por saúde e educação; organização industrial sem desperdício; cooperação dentro de cada estabelecimento; equilíbrio entre os fatores de produção; e uso racional da riqueza. Pede estatísticas coordenadas e contabilidade uniforme das empresas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na questão trabalhista, propõe incorporar os trabalhadores ao sistema, com voz e responsabilidade na gestão, primeiro em cada empresa e depois por ramo; mas não vê vantagem em entregar o controle exclusivo a uma só classe."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "gardner-a-natureza-do-problema-economico",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "As leis de indenização por acidente cumpriram o que prometiam?",
+          "artigo": "1803187",
+          "credito": "Willard C. Fisher (New York University) · “American Experience with Workmen's Compensation” · pp. 18–47"
+        },
+        {
+          "tipo": "p",
+          "texto": "Menos de nove anos depois das primeiras leis eficazes, aprovadas em 1911 no Kansas e em Washington, 42 dos 48 estados, além do Alasca, de Porto Rico e do Havaí, tinham leis de indenização por acidente de trabalho. Fisher vê na rapidez da adoção, e na ausência de qualquer pedido de revogação, a primeira prova de que o sistema funcionou. Empregadores, seguradoras e sindicatos, antes céticos, passaram a apoiá-lo, e a constitucionalidade estava assentada em pelo menos cinco decisões da Suprema Corte."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os pagamentos cresceram. Em Wisconsin, de 1911 a junho de 1918, somaram US$ 6,917 milhões em dinheiro e assistência médica; em Nova York, US$ 36,631 milhões em três anos e meio. No padrão de Massachusetts de 1918, o país inteiro pagaria de US$ 125 milhões a US$ 150 milhões por ano. Por caso, porém, os valores são pequenos: a indenização média por morte fica perto de US$ 3.000, ou menos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 261",
+          "texto": "Pagamento médio por acidente fatal na Pensilvânia pouco antes da lei de indenização, segundo estudo citado por Fisher. Em 1918, já sob a nova lei, a indenização média por morte no estado foi de US$ 2.659, pouco mais de dez vezes mais. Sob as leis de responsabilidade civil, estima o autor, houve pagamento em no máximo um terço dos casos fatais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O maior efeito, para Fisher, está na prevenção. A lei encareceu os acidentes para o empregador, e as seguradoras passaram a ajustar prêmios ao histórico e às condições de segurança de cada cliente. Usinas siderúrgicas com sistemas de segurança completos tinham 167,1 acidentes por mil trabalhadores-ano de 300 dias; sem eles, 507,9. O custo para a indústria é baixo: cerca de 1% da folha, ou um quinto de 1% do custo total."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os defeitos vêm no fim: períodos de carência de até duas semanas, quando cerca de três quartos das incapacidades terminam nesse prazo; tetos semanais que reduzem as indenizações reais; e, sobretudo, a cobertura estreita. Pela estimativa de Carl Hookstadt, ao menos 7,4 milhões de empregados dos estados com lei não estavam cobertos."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "fisher-a-experiencia-americana-com-a-indenizacao-por-acidentes",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pequenos fabricantes podem ter as vantagens da grande empresa?",
+          "artigo": "1803188",
+          "credito": "Edwin J. Clapp · “A New York Experiment in Business Co-operation” · pp. 48–58"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clapp trata do problema do espaço nas grandes cidades e de como os empresários o resolvem, em silêncio, antes do governo. Em Manhattan, ao sul da Rua 14, armazéns e fábricas leves pagavam aluguel e seguro altos e uma conta enorme de carreto: os caminhões esperavam nas estações de carga do cais, e cada remessa pequena exigia um veículo para cada estação ferroviária."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta de Irving T. Bush foi o Bush Terminal, no sul do Brooklyn. Dezesseis edifícios industriais cercam pátios com trilhos; o terminal é agente de todas as ferrovias que chegam a Nova York, aplica em geral a mesma tarifa de Manhattan e consolida as remessas dos inquilinos em vagões diretos. O carreto desaparece. Os inquilinos dividem ainda um sistema de sprinklers de US$ 1 milhão, que barateia o seguro, vigilância, hospital, restaurante e serviço de caminhões; oito píeres recebem 27 navios ao mesmo tempo, e cento e trinta armazéns guardam matérias-primas importadas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4.000",
+          "texto": "Número aproximado de inquilinos do Bush Terminal, segundo Clapp. Com seus empregados e os do terminal, somavam cerca de 30 mil pessoas, e mais de 100 mil com as famílias. Os edifícios tinham 6 milhões de pés quadrados de piso, e pelo terminal passava, diz o autor, de um quinto a um quarto do comércio exterior do porto."
+        },
+        {
+          "tipo": "p",
+          "texto": "O princípio foi estendido à venda. Um Service Building recebe vagões de fabricantes do interior, armazena, reembala e despacha por poucos centavos a cada cem libras-peso. Um International Sales Building de trinta andares, na Rua 42, construído por US$ 3 milhões, expõe por andar os produtos de dezenas de fabricantes, e seu clube de compradores tinha 13 mil membros. O passo seguinte seria organizar o poder de compra de varejistas independentes diante das redes de lojas."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão de Clapp é que a cooperação enfrenta com sucesso a grande organização quando adota a forma da própria organização: uma agência cooperativa administrada como empresa, que corta as despesas gerais, onde está a principal vantagem da escala."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pode o Federal Reserve impedir que o crédito vá para a especulação?",
+          "artigo": "1803189",
+          "credito": "James D. Magee (New York University) · “Call Rates and the Federal Reserve Board” · pp. 59–65"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei do Federal Reserve tentou reservar o redesconto ao comércio, à agricultura e à indústria: papéis emitidos para carregar ou negociar ações não podiam ser redescontados, salvo se garantidos por títulos do governo. Magee mostra como essa exceção, depois da guerra, esvaziou a regra. Os call loans, empréstimos à vista com garantia de ações na bolsa de Nova York, ficaram sob controle de um pool bancário de outubro de 1917 a janeiro de 1919, com taxa em torno de 6%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Encerrado o pool, as ações subiram a partir de fevereiro de 1919, e os empréstimos na bolsa foram estimados em cerca de US$ 1,5 bilhão de julho a outubro. Em junho, o Federal Reserve Board escreveu aos bancos regionais sobre a tendência à especulação excessiva. Os bancos reduziram por pouco tempo os empréstimos garantidos por títulos de guerra, mas logo voltaram a crescer: era possível redescontar papéis do governo ou repassar aceites ao Federal Reserve e aplicar o dinheiro no call money."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "30%",
+          "texto": "Taxa máxima do call money em Nova York em 1919, alcançada em 12 de novembro, segundo Magee; algumas ações caíram de 30 a 60 pontos. Pouco antes, em 3 de novembro, o Federal Reserve Bank de Nova York elevara suas taxas, e deixara de ser possível tomar a 4% com garantia de títulos que rendiam mais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo taxas altas, nota Magee, pouco afetaram o volume da especulação, porque as oscilações das ações ofereciam lucros maiores que o custo do crédito, e a taxa relevante era a de renovação, paga pelos empréstimos já existentes. A preferência dada aos títulos do governo, emitidos em grande volume na guerra, anulava na prática a proibição de redescontar papel usado na bolsa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As ‘advertências’ do Federal Reserve Board, em geral, parecem inúteis.”",
+          "original": "“‘warnings’ of the Federal Reserve Board, on the whole, seem to be futile.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O teste real, conclui, virá quando o governo deixar de absorver recursos bancários e o Board tentar a deflação; até lá, elevar as taxas eleva o call money, mas não contém a especulação de imediato."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que oito anos ensinaram sobre o imposto de renda estadual?",
+          "artigo": "1803190",
+          "credito": "Harley L. Lutz (Oberlin College) · “The Progress of State Income Taxation Since 1911” · pp. 66–91"
+        },
+        {
+          "tipo": "p",
+          "texto": "Antes de 1911, lembra Lutz, a experiência dos estados com o imposto de renda era tão ruim que muitos estudiosos o davam por inviável como fonte de receita. A lei de Wisconsin daquele ano mudou o quadro: tributou toda renda, de pessoas e empresas, obtida no estado, com alíquotas progressivas e administração centralizada. Seguiram-se Oklahoma, Connecticut e West Virginia em 1915; Massachusetts em 1916; Nova York, Montana, Missouri e Delaware em 1917; e Novo México, Dakota do Norte e Alabama em 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resumo das leis mostra, diz o autor, as tendências habituais da legislação estadual: grande diversidade, ausência de padrões e dupla tributação. Lutz sugere seguir os conceitos federais de renda bruta e líquida, com mudanças: declarar toda a renda, inclusive a isenta; limitar o ganho de capital tributável, para não travar a venda de bens; excluir os dividendos em ações, que vê como simples rearranjo de títulos; e alcançar o valor dos produtos consumidos na própria fazenda."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 11,83 milhões",
+          "texto": "Imposto de renda lançado em Wisconsin em 1918, segundo Lutz, ante US$ 3,482 milhões em 1912. Em Massachusetts, o novo imposto sobre juros e dividendos rendeu no primeiro ano um ganho real de cerca de US$ 2 milhões em relação aos antigos impostos sobre esses títulos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na administração, Wisconsin é o modelo: comissão estadual com controle efetivo, assessores de renda por distrito, nomeados centralmente, e cobrança junto com os demais impostos locais. O lançamento a partir da declaração é, para ele, superior à retenção na fonte, que a Dakota do Norte levou ao extremo com vinte e três alíquotas possíveis. Para repartir entre estados a renda de empresas, considera mais sugestiva a regra de Massachusetts de 1919, que combina propriedade tangível, folha de pagamento e receita bruta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão tem seis pontos: a diversidade pode virar caos, e uma lei-modelo seria desejável; houve progresso na definição de renda; administração eficaz é a condição sem a qual o imposto nunca deu certo; o lançamento sobre a declaração supera a retenção na fonte; em condições adequadas, o tributo é suficiente e elástico; mas não é a salvação financeira de todo estado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funciona um seguro em que os segurados se seguram uns aos outros?",
+          "artigo": "1803191",
+          "credito": "J. Anderson Fitzgerald (The University of Texas) · “Reciprocal or Inter-insurance Against Loss by Fire” · pp. 92–103"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fitzgerald abre com duas frases opostas. O comerciante mais bem-sucedido de uma grande cidade lhe diz que recebe de volta 85% dos prêmios pagos; o comissário de seguros do Texas afirmara em 1915 que, no ano anterior, o povo do estado perdera ao menos um milhão de dólares com o chamado interseguro. Trinta e um estados, a maioria nos seis anos anteriores, tinham leis para regulá-lo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Numa bolsa recíproca, cada empresa segura todas as outras por uma quantia definida. Cada subscritor dá procuração a um gerente, o attorney-in-fact, que examina as propostas e assina as apólices em nome de todos; a responsabilidade de cada um é individual, não solidária. Com 101 participantes e limite de US$ 1.000 por risco, a maior apólice possível é de US$ 100 mil. O prêmio costuma ser o mesmo das companhias por ações; o gerente fica com uma comissão, de 10% a 25% conforme a bolsa, e o restante, depois de perdas e despesas, pertence aos subscritores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 536 mil",
+          "texto": "Perdas acumuladas em 25 anos por um grupo recíproco de grandes comerciantes, segundo Fitzgerald; no mesmo período, o grupo devolveu aos membros US$ 6 milhões em dinheiro. A bolsa só aceitava empresas com valor mínimo de US$ 125 mil, inspecionava os riscos quatro vezes por ano e não cobrava rateio extra havia vinte anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A economia, explica, vem da especialização: as melhores bolsas aceitam só riscos de alta qualidade de um mesmo ramo, como bancos, lavanderias, padarias, hotéis ou lojas de departamentos, e os inspecionam com rigor. O autor lista as objeções dos críticos, como reservas insuficientes, subscritores que não se conhecem, dificuldade de processar dezenas de pessoas e poder excessivo do gerente, e indica para cada uma a salvaguarda: reservas adequadas, apólices assinadas com o nome dos responsáveis e um comitê consultivo eleito, com poder real sobre o gerente."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que o princípio é sólido, mas o sistema não está protegido nem contra a incompetência nem contra a desonestidade. Serve a empresas de alto padrão, com propriedades dispersas e que se conhecem; para as demais, o alcance da responsabilidade torna o plano duvidoso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como fazer um contrato coletivo acompanhar o custo de vida?",
+          "artigo": "1803192",
+          "credito": "Margaret L. Goldsmith (Chicago, Illinois) · “Flexibility Clauses in Agreements in the Printing Industry” · pp. 104–105"
+        },
+        {
+          "tipo": "p",
+          "texto": "A comunicação parte de um artigo de Dorothy W. Douglas, publicado na edição de dezembro de 1919, segundo o qual, com preços mudando depressa, um salário mínimo fica antiquado em pouco tempo. Douglas sugeria dar às comissões de salário mínimo poder de revisar as taxas pelos índices de custo de vida do Bureau of Labor Statistics. Goldsmith mostra que a indústria gráfica já experimentava algo parecido nos contratos coletivos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A política adotada pelo Joint Industrial Conference Council, que reunia associações de empregadores do setor gráfico, tomava o custo de vida comparado a 1914 como fator básico dos reajustes, pedia ao menos um salário de vida razoável e recomendava contratos locais de três anos ou mais, com reajuste anual pelo custo de vida."
+        },
+        {
+          "tipo": "p",
+          "texto": "A autora cita três cláusulas. Em Memphis, o contrato entre o sindicato tipográfico e os empregadores permite reabrir a discussão, depois de dois anos, se houver mudança radical nos negócios ou no custo de vida, sem prazo fixo para a revisão. Em Chicago, o acordo da Franklin Typothetae com os sindicatos admite novo reajuste a cada seis meses se o custo de vida, pelos números do Departamento do Trabalho, subir 5% ou mais; a alta incide sobre as tabelas de 1914, e uma queda equivalente pode reduzir os aumentos, sem descer abaixo das tabelas do contrato."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 7,50",
+          "texto": "Diária de sete horas dos operadores de máquina em Tacoma até 30 de junho de 1919, no contrato citado por Goldsmith; os fundidores recebiam US$ 7,00 por sete horas e os homens de piso, US$ 6,50 por oito horas. As tabelas tomavam como base os preços de Seattle de 15 de dezembro de 1918."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso de Tacoma é o mais automático: o salário sobe ou desce, sem nova negociação, a partir do primeiro sábado de janeiro, abril, julho e outubro, na mesma porcentagem dos preços médios de varejo dos principais alimentos publicados pela Monthly Labor Review, em múltiplos de 5%."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Rotatividade se mede por desligamentos ou por reposições?",
+          "artigo": "1803193",
+          "credito": "Paul H. Douglas (University of Washington) · “The Computation of Labor Turnover: A Rejoinder” · pp. 106–108"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em junho de 1919, Douglas propusera calcular a rotatividade da mão de obra dividindo o número de reposições pelo número médio de pessoas na folha de pagamento, e não pela frequência média diária. Em dezembro, H. G. Hayes aceitou o divisor, mas defendeu usar no numerador os desligamentos. A réplica explica por que a diferença importa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando o quadro é constante ou crescente, diz Douglas, desligamentos e reposições coincidem: todo o que sai é reposto. A diferença surge quando o quadro diminui. Aí os desligamentos incluem a redução líquida do pessoal, e as reposições não. Hayes queria contar essa redução como rotatividade, porque o público se interessa pela estabilidade do emprego e porque ela revelaria a condição patológica do negócio."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Douglas, isso mistura fenômenos de natureza e custo diferentes. O desligamento seguido de reposição gera gastos de instrução, produção menor, quebras e atrasos enquanto o novo empregado aprende; a redução do quadro por queda dos negócios não gera esse custo e, se decidida como política, já foi pesada contra a economia com a folha. A redução deve ser medida à parte, comparando a folha em intervalos regulares."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os nomes não importam muito.”",
+          "original": "“Names do not matter appreciably.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele propõe, então, três medidas separadas: o absenteísmo, ausência ao trabalho de quem está empregado; a rotatividade propriamente dita, número de contratações necessárias para manter o quadro num nível constante; e um índice de mudança de nível, que registra o crescimento ou a redução do pessoal. Se Hayes aceita separar o crescimento do quadro, pergunta, por que não separar também a redução?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Admite que, nesse esquema, o que chama de rotatividade talvez devesse se chamar manutenção da mão de obra. O ponto, para ele, é medir separadamente fenômenos diferentes, em vez de juntá-los numa fórmula única."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento final é de coerência. Hayes já aceitava usar o total da folha como divisor justamente para separar o absenteísmo da rotatividade; pela mesma lógica, diz Douglas, deveria aceitar as reposições no numerador para separar a manutenção do quadro das mudanças no seu nível. O progresso da ciência, acrescenta, consiste em desenvolver medidas mais finas, que decomponham os problemas em suas partes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem Efficient Railway Operation, de Henry S. Haines, por Julius H. Parmelee; Resale Price Maintenance, de Claudius Temple Murchison, por Harry R. Tosdal; dois livros de finanças resenhados por Arthur S. Dewing, The Financing of Public Service Corporations, de Milton B. Ignatius, e o manual de investimentos de Albert W. Atwood; o estudo de B. M. Anderson Jr. sobre moeda, crédito e bancos na França e nos Estados Unidos durante a guerra e Papers on Current Finance, de H. S. Foxwell, ambos por Chester A. Phillips; três obras sobre pensões e seguros, entre elas a de Edward T. Devine sobre soldados e marinheiros incapacitados, por Henry J. Harris; Justice and the Poor, de Reginald Heber Smith, por George B. Mangold; e o livro de Georges Sorel sobre a teoria do proletariado, por John Graham Brooks. Completam o número as listas de livros novos, documentos sobre a avaliação de terras petrolíferas, a comissão industrial da Dakota do Norte e o relatório tributário de Ohio, resumos de periódicos e notas sobre novos sócios e nomeações."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de março de 1920 tem um método comum: medir antes de reformar. Gardner testa a promessa da redistribuição com as estimativas de renda nacional de King e conclui que o ganho possível seria pequeno diante do que traria o aumento da produtividade; Fisher separa, nos dados de acidentes, o efeito da lei do efeito da expansão industrial e da notificação mais completa; Lutz compara receitas e regras de vários estados para saber o que, na administração de um tributo, faz diferença.",
+            "Os textos menores seguem o mesmo caminho em escala reduzida. Magee observa os balanços semanais dos bancos de reserva para ver se a regra do redesconto resistiu ao incentivo do lucro; Clapp e Fitzgerald tratam de arranjos que dão a pequenas empresas economias de escala; Goldsmith e Douglas discutem como indexar um salário e como definir um indicador para que ele meça uma só coisa. Em todos, a pergunta é qual informação permite separar causas que aparecem misturadas."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Engenharia econômica",
+          "expressão de Gardner para a arte de reorganizar instituições e empresas com base no conhecimento econômico."
+        ],
+        [
+          "Produtividade marginal",
+          "acréscimo ao produto obtido com uma unidade a mais de um fator de produção, como o trabalho."
+        ],
+        [
+          "Indenização por acidente de trabalho (workmen's compensation)",
+          "pagamento ao trabalhador acidentado ou a seus dependentes sem necessidade de provar culpa do empregador."
+        ],
+        [
+          "Responsabilidade civil do empregador",
+          "regime anterior, em que o acidentado precisava processar o empregador e provar sua culpa."
+        ],
+        [
+          "Call loan",
+          "empréstimo bancário pagável à vista, em geral garantido por ações e usado na bolsa."
+        ],
+        [
+          "Redesconto",
+          "empréstimo do banco central a um banco, com garantia de títulos que este já descontou."
+        ],
+        [
+          "Seguro recíproco",
+          "arranjo em que cada participante segura os demais por uma parcela definida, por meio de um procurador comum."
+        ],
+        [
+          "Dividendo em ações",
+          "distribuição de novas ações aos acionistas em vez de dinheiro."
+        ],
+        [
+          "Rotatividade da mão de obra",
+          "medida da frequência com que uma empresa precisa contratar para manter seu quadro."
+        ]
+      ],
+      "hoje": "Os temas de março de 1920 seguem em debate. A tensão entre aumentar a produtividade e redistribuir a renda continua no centro da política econômica. O seguro de acidentes de trabalho, com prêmios ligados ao histórico de cada empresa, tornou-se regra em muitos países. A coordenação de impostos sobre a renda entre jurisdições e a repartição do lucro de empresas que operam em vários lugares seguem como problemas abertos, e bancos centrais ainda discutem se podem ou devem conter o crédito a mercados de ativos. Cláusulas de indexação salarial e medidas de rotatividade continuam em uso.",
+      "itens": [
+        [
+          "The Nature of our Economic Problem",
+          "pp. 1–17",
+          "1803186"
+        ],
+        [
+          "American Experience with Workmen's Compensation",
+          "pp. 18–47",
+          "1803187"
+        ],
+        [
+          "A New York Experiment in Business Co-operation",
+          "pp. 48–58",
+          "1803188"
+        ],
+        [
+          "Call Rates and the Federal Reserve Board",
+          "pp. 59–65",
+          "1803189"
+        ],
+        [
+          "The Progress of State Income Taxation Since 1911",
+          "pp. 66–91",
+          "1803190"
+        ],
+        [
+          "Reciprocal or Inter-insurance Against Loss by Fire",
+          "pp. 92–103",
+          "1803191"
+        ],
+        [
+          "Flexibility Clauses in Agreements in the Printing Industry",
+          "pp. 104–105",
+          "1803192"
+        ],
+        [
+          "The Computation of Labor Turnover: A Rejoinder",
+          "pp. 106–108",
+          "1803193"
+        ],
+        [
+          "New Books",
+          "pp. 109",
+          "1803194"
+        ],
+        [
+          "New Books",
+          "pp. 110–114",
+          "1803195"
+        ],
+        [
+          "New Books",
+          "pp. 114–117",
+          "1803196"
+        ],
+        [
+          "New Books",
+          "pp. 117",
+          "1803197"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 117-119",
+          "pp. 117–119",
+          "1803198"
+        ],
+        [
+          "New Books",
+          "pp. 119–120",
+          "1803199"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 120-122",
+          "pp. 120–122",
+          "1803200"
+        ],
+        [
+          "New Books",
+          "pp. 122–124",
+          "1803201"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 124-125",
+          "pp. 124–125",
+          "1803202"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 125-127",
+          "pp. 125–127",
+          "1803203"
+        ],
+        [
+          "New Books",
+          "pp. 127–131",
+          "1803204"
+        ],
+        [
+          "New Books",
+          "pp. 131",
+          "1803205"
+        ],
+        [
+          "New Books",
+          "pp. 131–137",
+          "1803206"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 137-140",
+          "pp. 137–140",
+          "1803207"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 140-142",
+          "pp. 140–142",
+          "1803208"
+        ],
+        [
+          "New Books",
+          "pp. 142–146",
+          "1803209"
+        ],
+        [
+          "New Books",
+          "pp. 146–148",
+          "1803210"
+        ],
+        [
+          "New Books",
+          "pp. 149–150",
+          "1803211"
+        ],
+        [
+          "New Books",
+          "pp. 150–154",
+          "1803212"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 154-156",
+          "pp. 154–156",
+          "1803213"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 156-160",
+          "pp. 156–160",
+          "1803214"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 160-162",
+          "pp. 160–162",
+          "1803215"
+        ],
+        [
+          "New Books",
+          "pp. 162–165",
+          "1803216"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 165-167",
+          "pp. 165–167",
+          "1803217"
+        ],
+        [
+          "New Books",
+          "pp. 167",
+          "1803218"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-03-01), pages 167-168",
+          "pp. 167–168",
+          "1803219"
+        ],
+        [
+          "New Books",
+          "pp. 168–171",
+          "1803220"
+        ],
+        [
+          "New Books",
+          "pp. 171–172",
+          "1803221"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 173–184",
+          "1803222"
+        ],
+        [
+          "Periodicals",
+          "pp. 185–218",
+          "1803223"
+        ],
+        [
+          "Notes",
+          "pp. 219–226",
+          "1803224"
+        ]
+      ],
+      "jstor_edicao": "i331268",
+      "artigos": [
+        {
+          "titulo": "The Nature of our Economic Problem",
+          "autores": "Henry B. Gardner (Brown University)",
+          "paginas": "pp. 1–17",
+          "jstor": "1803186",
+          "resumo": "Discurso presidencial que sustenta que o problema central continua sendo aumentar a produção por habitante, mais que redistribuir a renda.",
+          "ensaio_slug": "gardner-a-natureza-do-problema-economico"
+        },
+        {
+          "titulo": "American Experience with Workmen's Compensation",
+          "autores": "Willard C. Fisher (New York University)",
+          "paginas": "pp. 18–47",
+          "jstor": "1803187",
+          "resumo": "Balanço das leis estaduais de indenização por acidente de trabalho: difusão, valores pagos, prevenção, custos e defeitos.",
+          "ensaio_slug": "fisher-a-experiencia-americana-com-a-indenizacao-por-acidentes"
+        },
+        {
+          "titulo": "A New York Experiment in Business Co-operation",
+          "autores": "Edwin J. Clapp",
+          "paginas": "pp. 48–58",
+          "jstor": "1803188",
+          "resumo": "O Bush Terminal, no Brooklyn, como forma de dar a pequenos fabricantes as vantagens de transporte, armazenagem e venda da grande empresa."
+        },
+        {
+          "titulo": "Call Rates and the Federal Reserve Board",
+          "autores": "James D. Magee (New York University)",
+          "paginas": "pp. 59–65",
+          "jstor": "1803189",
+          "resumo": "Por que as advertências do Federal Reserve Board não impediram, em 1919, o uso do crédito bancário na especulação com ações."
+        },
+        {
+          "titulo": "The Progress of State Income Taxation Since 1911",
+          "autores": "Harley L. Lutz (Oberlin College)",
+          "paginas": "pp. 66–91",
+          "jstor": "1803190",
+          "resumo": "Resumo das leis estaduais de imposto de renda desde a de Wisconsin, com propostas sobre definição de renda, administração e repartição entre estados."
+        },
+        {
+          "titulo": "Reciprocal or Inter-insurance Against Loss by Fire",
+          "autores": "J. Anderson Fitzgerald (The University of Texas)",
+          "paginas": "pp. 92–103",
+          "jstor": "1803191",
+          "resumo": "Funcionamento, vantagens, objeções e regulação das bolsas de seguro recíproco contra incêndio."
+        },
+        {
+          "titulo": "Flexibility Clauses in Agreements in the Printing Industry",
+          "autores": "Margaret L. Goldsmith (Chicago, Illinois)",
+          "paginas": "pp. 104–105",
+          "jstor": "1803192",
+          "resumo": "Comunicação sobre cláusulas de reajuste pelo custo de vida em contratos coletivos da indústria gráfica de Memphis, Chicago e Tacoma."
+        },
+        {
+          "titulo": "The Computation of Labor Turnover: A Rejoinder",
+          "autores": "Paul H. Douglas (University of Washington)",
+          "paginas": "pp. 106–108",
+          "jstor": "1803193",
+          "resumo": "Réplica a H. G. Hayes em defesa de medir a rotatividade pelas reposições, separando-a da redução do quadro."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 109",
+          "jstor": "1803194",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 110–114",
+          "jstor": "1803195",
+          "resumo": "Lista de livros novos: história econômica e geografia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 114–117",
+          "jstor": "1803196",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 117",
+          "jstor": "1803197",
+          "resumo": "Lista de livros novos: indústrias manufatureiras."
+        },
+        {
+          "titulo": "Henry S. Haines, Efficient Railway Operation",
+          "autores": "Julius H. Parmelee (Washington, D. C.)",
+          "paginas": "pp. 117–119",
+          "jstor": "1803198",
+          "resumo": "Tratado de mais de 700 páginas sobre a operação eficiente de ferrovias."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 119–120",
+          "jstor": "1803199",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "Claudius Temple Murchison, Resale Price Maintenance",
+          "autores": "Harry R. Tosdal (Boston University, College of Business Administration)",
+          "paginas": "pp. 120–122",
+          "jstor": "1803200",
+          "resumo": "Monografia da série da Columbia University sobre a fixação do preço de revenda pelo fabricante."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 122–124",
+          "jstor": "1803201",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "Milton B. Ignatius, The Financing of Public Service Corporations",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 124–125",
+          "jstor": "1803202",
+          "resumo": "Finanças das concessionárias de serviços públicos e resultados da regulação por comissões."
+        },
+        {
+          "titulo": "Albert W. Atwood, Putnam's Investment Handbook",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 125–127",
+          "jstor": "1803203",
+          "resumo": "Manual de investimentos para o poupador comum."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 127–131",
+          "jstor": "1803204",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 131",
+          "jstor": "1803205",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 131–137",
+          "jstor": "1803206",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "B. M. Anderson Jr., Effects of the War on Money, Credit and Banking in France and the United States",
+          "autores": "C. A. Phillips",
+          "paginas": "pp. 137–140",
+          "jstor": "1803207",
+          "resumo": "Estudo da Carnegie Endowment for International Peace sobre moeda, crédito e bancos durante a guerra."
+        },
+        {
+          "titulo": "H. S. Foxwell, Papers on Current Finance",
+          "autores": "Chester A. Phillips (Dartmouth College)",
+          "paginas": "pp. 140–142",
+          "jstor": "1803208",
+          "resumo": "Sete artigos e conferências de 1909 a 1917 sobre problemas financeiros."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 142–146",
+          "jstor": "1803209",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 146–148",
+          "jstor": "1803210",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 149–150",
+          "jstor": "1803211",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 150–154",
+          "jstor": "1803212",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "Edward T. Devine e Lilian Brandt, Disabled Soldiers and Sailors Pensions and Training",
+          "autores": "Henry J. Harris (Washington, D. C.)",
+          "paginas": "pp. 154–156",
+          "jstor": "1803213",
+          "resumo": "Pensões, reabilitação e treinamento de soldados e marinheiros incapacitados na guerra."
+        },
+        {
+          "titulo": "National Civic Federation, A Refutation of False Statements in Propaganda for Compulsory Health Insurance",
+          "autores": "Henry J. Harris",
+          "paginas": "pp. 156–160",
+          "jstor": "1803214",
+          "resumo": "Folheto de uma comissão da National Civic Federation contra o seguro-saúde obrigatório."
+        },
+        {
+          "titulo": "William F. Gephart, Effects of the War upon Insurance, with Special Reference to the Substitution of Insurance for Pensions",
+          "autores": "Henry J. Harris",
+          "paginas": "pp. 160–162",
+          "jstor": "1803215",
+          "resumo": "Compêndio sobre os efeitos da guerra nos seguros e a troca de pensões por seguro."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 162–165",
+          "jstor": "1803216",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "Reginald Heber Smith, Justice and the Poor",
+          "autores": "George B. Mangold (St. Louis)",
+          "paginas": "pp. 165–167",
+          "jstor": "1803217",
+          "resumo": "Relatório da Carnegie Foundation for the Advancement of Teaching sobre o acesso dos pobres à Justiça."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 167",
+          "jstor": "1803218",
+          "resumo": "Lista de livros novos: pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "Georges Sorel, Matériaux d'une théorie du prolétariat",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 167–168",
+          "jstor": "1803219",
+          "resumo": "Volume da série Études sur le devenir social, de Georges Sorel."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 168–171",
+          "jstor": "1803220",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 171–172",
+          "jstor": "1803221",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 173–184",
+          "jstor": "1803222",
+          "resumo": "Relatórios oficiais, entre eles sobre avaliação e esgotamento de terras petrolíferas, a comissão industrial da Dakota do Norte e a tributação em Ohio."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 185–218",
+          "jstor": "1803223",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 219–226",
+          "jstor": "1803224",
+          "resumo": "Lista de novos sócios e notícias sobre nomeações e atividades de economistas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "gardner-a-natureza-do-problema-economico",
+          "titulo": "Gardner e o limite da redistribuição",
+          "titulo_original": "The Nature of our Economic Problem",
+          "autores": "Henry B. Gardner (Brown University)",
+          "paginas": "pp. 1–17",
+          "jstor": "1803186",
+          "chamada": "No discurso presidencial de 1919, Henry B. Gardner defende a teoria econômica contra os críticos, faz as contas da renda nacional e conclui que o problema central é aumentar a produção por habitante.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "O discurso que Henry B. Gardner, da Brown University, leu como presidente da American Economic Association na reunião anual de Chicago, em 29 de dezembro de 1919, começa com uma frase pouco esperada naquele momento: para o estudante de economia, a guerra fora uma bênção. A tensão súbita sobre o sistema econômico iluminara sua estrutura, expusera fraquezas do raciocínio corrente e sugerira novas avaliações das forças em jogo."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto, que abre a American Economic Review de março de 1920, tem um alvo dentro da profissão. Alguns economistas, diz Gardner, pareciam ter perdido a fé na validade geral dos princípios acumulados desde Adam Smith e queriam recomeçar sobre novas bases. As razões eram três: o erro em prever os efeitos da guerra, o avanço da psicologia sobre os motivos da ação humana e a ideia de que a teoria tomava como permanentes instituições que mudam e que, além disso, comandam a vida econômica."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os economistas erraram na guerra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Gardner responde que a previsão é o teste mais severo do conhecimento e só é segura quando as forças em ação são poucas e bem compreendidas. Admite os erros: muitos subestimaram a reserva de trabalho que as nações modernas podem mobilizar e previram que o esgotamento financeiro encerraria a guerra mais cedo. Previram também uma alta de juros antes do que ocorreu. Mas, sustenta, acertaram as forças fundamentais e erraram o prazo. A alta já começara nos investimentos de longo prazo; no curto prazo, era retardada pelo sistema de redesconto do Federal Reserve, pela entrada de ouro nos primeiros anos da guerra e por cerca de 25 bilhões de dólares em títulos da dívida pública, usados como garantia de empréstimos a juros baixos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo valeria para os preços. Em 1914, diz, quase todos os economistas esperariam alta durante a guerra e queda depois; os preços continuavam a subir, e muitos duvidavam da queda. Gardner prevê que ela virá, a menos que a produção caia de forma permanente ou que o mundo desista de sair do papel-moeda depreciado, e acrescenta que, quando vier, os juros reais terão subido mais depressa que os nominais. Arrisca uma segunda previsão: os Estados Unidos, que passaram de devedores a credores, verão as importações crescerem em relação às exportações, apesar do excedente comercial mantido desde 1873."
+            },
+            {
+              "tipo": "p",
+              "texto": "A guerra, por outro lado, confirmou o que se ensina em qualquer curso elementar: os fatos econômicos fundamentais são os mesmos numa economia complexa e numa comunidade primitiva; o poder econômico de um povo é sua capacidade de produzir os bens de que precisa; para produzir mais de uma coisa é preciso consumir menos de outra; poupar é condição para criar capital; e as finanças de guerra são apenas o meio de pôr trabalho e capital à disposição do governo. O lema “negócios como sempre”, em plena emergência, era uma falácia evidente."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Basta redistribuir a renda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A parte central do discurso ataca uma suposição que Gardner encontra até entre economistas e sociólogos: a de que a máquina resolvera o problema da produção e só restava o da distribuição. Para ele, o aumento da capacidade produtiva por habitante foi superestimado. Compara-se a fiação moderna com a roca, esquecendo o trabalho gasto em construir a fábrica e o que continua no algodoal; compara-se o frete ferroviário com o de carroça, esquecendo que as distâncias aumentaram. Os ganhos foram grandes na manufatura, na mineração e nos transportes, e pequenos na agricultura e no comércio, onde está boa parte do trabalho que produz o necessário à vida. A vida urbana exigiu ainda ruas pavimentadas, esgotos, água, polícia e proteção contra incêndio."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os números vêm das estimativas de renda nacional de King para os Estados Unidos e de Bowley para o Reino Unido, feitas pouco antes da guerra. Descontadas a poupança e a parte dos impostos não repassada ao consumidor, restariam cerca de 26 bilhões de dólares para as despesas de consumo. Divididos por igual, com o devido ajuste por idade, dariam cerca de US$ 1.300 por ano a uma família de pai, mãe e três filhos menores de quinze anos. Segundo Chapin, em 1907 eram precisos US$ 900 para as necessidades físicas de uma família assim em Nova York."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4%",
+              "texto": "Parcela das famílias americanas com renda acima de US$ 3.000 antes da recente queda do valor da moeda, segundo Gardner; só sete décimos de 1% passavam de US$ 10.000. Pela estimativa de King, em 1910 mais de nove milhões de famílias, cerca de metade do total, tinham renda inferior a US$ 900."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mesmo tomando das famílias acima de US$ 3.000 todo o excedente, menos a poupança, e distribuindo-o aos mais pobres, seria concebível estabelecer por um momento uma renda familiar mínima de US$ 1.000. Gardner considera que nenhuma redistribuição desse porte, por impostos ou por salários, se faria sem uma queda da produção maior que a soma distribuída. Admite que os números já não valiam para 1920, com os valores monetários dobrados e a guerra favorecendo os mais ricos na distribuição, mas sustenta que não havia sinal claro de aumento permanente da produção por habitante."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Um paliativo de potência comparativamente pequena.”",
+              "original": "“a palliative of comparatively small potency.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão é que o remédio para a condição dos mais pobres deve ser buscado sobretudo no aumento de sua produtividade marginal: por eficiência maior, pelo uso mais inteligente da riqueza e por um número de trabalhadores menor em relação aos outros fatores de produção. Gardner observa que a guerra deixara cerca de dez milhões de trabalhadores a menos no mundo industrial do Ocidente, o que abria a possibilidade de um padrão de vida mais alto e duradouro, mas ainda apenas uma possibilidade."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é engenharia econômica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O problema, para Gardner, tem ao menos cinco fases: eficiência individual, questão de saúde e educação, inclusive o treinamento na oficina e na fazenda; organização industrial que elimine desperdício sem enfraquecer os motivos do progresso; cooperação entre os fatores dentro de cada estabelecimento; equilíbrio entre os fatores de produção, para que a produtividade marginal de nenhuma classe caia abaixo do necessário a uma vida saudável; e uso racional da riqueza. Na segunda, o economista pode prestar o maior serviço, mas falta-lhe conhecer o funcionamento real do sistema. Gardner pede que as informações reunidas pelos órgãos de guerra e pela administração dos impostos sobre renda e lucros sejam aproveitadas, que se monte com os estatísticos um serviço coordenado e que as empresas prestem contas com base em contabilidade uniforme."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O que chamamos de indústria privada é indústria pública administrada privadamente.”",
+              "original": "“What we call private industry is privately managed public industry”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na cooperação dentro da empresa, Gardner vê o lado construtivo da questão trabalhista. O sistema nascido da Revolução Industrial deixou o trabalhador fora do esquema: sem autoridade, sem responsabilidade e sem perspectiva além do salário. Os sindicatos trouxeram ganhos, admite, mas organizaram-se para obter mais do sistema, não para cooperar dentro dele. A proposta é incorporar o trabalhador, com voz e responsabilidade na gestão, primeiro em cada estabelecimento e depois por ramo e no plano nacional. Os empregadores, por sua vez, devem entender que, em última análise, representam a nação, e que sua posição depende de organizar bem os recursos produtivos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Gardner rejeita o caminho oposto, o de entregar o controle exclusivo ao trabalho e pôr o capital e a gestão a salário fixo, sem voz efetiva: duvida que a natureza humana difira essencialmente entre classes econômicas. O problema fundamental, conclui, continua o de sempre: um aumento permanente da produção por habitante, apoiado em eficiência individual, cooperação efetiva e ajuste da população aos recursos naturais, e o uso racional e econômico da riqueza."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o valor do discurso está na conta da renda nacional. Gardner não discute a justiça da distribuição em abstrato: pergunta quanto haveria para distribuir e compara o resultado com um orçamento mínimo medido. Com isso, desloca o debate para a produtividade e para a composição do produto, e mostra que os ganhos de eficiência se concentravam em alguns setores e que parte deles era absorvida por custos novos, como os da urbanização.",
+                "O segundo ponto é o pedido de dados. A engenharia econômica que ele propõe depende de estatística regular, contabilidade uniforme e prestação de contas das empresas. É um programa de medição antes de ser um programa de reforma, e põe o economista na posição de quem precisa conhecer o funcionamento real do sistema antes de recomendar mudanças."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Renda nacional",
+              "valor do produto anual de um país, base das estimativas de King e Bowley usadas por Gardner."
+            ],
+            [
+              "Produtividade marginal",
+              "acréscimo ao produto obtido com uma unidade a mais de um fator de produção, como o trabalho."
+            ],
+            [
+              "Juro real",
+              "o juro descontada a variação do valor da moeda; o ônus efetivo para quem toma emprestado."
+            ],
+            [
+              "Balança comercial favorável",
+              "excesso de exportações sobre importações de mercadorias."
+            ],
+            [
+              "Engenharia econômica",
+              "termo de Gardner para a arte de reorganizar a indústria com base no conhecimento econômico."
+            ],
+            [
+              "Contabilidade uniforme",
+              "sistema padronizado de contas exigido de empresas, como já se fazia com as consideradas de caráter quase público."
+            ]
+          ],
+          "hoje": "A pergunta de Gardner, se a pobreza se resolve mais por redistribuição ou por aumento da produtividade, continua no centro do debate econômico, agora com estatísticas de renda e de distribuição muito mais completas que as de King. A participação dos trabalhadores na gestão das empresas, por conselhos de fábrica ou representação em conselhos de administração, existe em diversos países, e a exigência de informação padronizada das empresas, por normas contábeis e de divulgação, tornou-se regra."
+        },
+        {
+          "slug": "fisher-a-experiencia-americana-com-a-indenizacao-por-acidentes",
+          "titulo": "Fisher e o balanço da indenização por acidentes",
+          "titulo_original": "American Experience with Workmen's Compensation",
+          "autores": "Willard C. Fisher (New York University)",
+          "paginas": "pp. 18–47",
+          "jstor": "1803187",
+          "chamada": "Willard C. Fisher faz o balanço de menos de nove anos de leis americanas de indenização por acidente de trabalho: como se espalharam, quanto pagaram, o que fizeram pela segurança e onde falharam.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1909, Samuel Gompers, presidente da American Federation of Labor, declarou preferir uma lei de responsabilidade do empregador aperfeiçoada. Dois anos depois, o presidente da federação do trabalho de Connecticut foi a uma audiência legislativa combater um projeto de indenização por acidentes; os trabalhadores organizados do estado preferiam simplesmente abolir a regra do co-empregado. Em Illinois, as primeiras propostas tiveram nos sindicatos alguns de seus críticos mais duros. Poucos anos de experiência depois, escreve Willard C. Fisher, da New York University, os trabalhadores, organizados ou não, eram em geral entusiastas do sistema."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo de Fisher, na American Economic Review de março de 1920, faz o balanço das leis americanas de indenização por acidente de trabalho. A conclusão aparece logo: a experiência justificou em boa medida as esperanças dos defensores e realizou parte não pequena das vantagens previstas."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não trouxe o milênio.”",
+              "original": "“It has not been millennial.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Com que rapidez a lei se espalhou?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As primeiras leis realmente eficazes foram aprovadas no mesmo dia de 1911, no Kansas e em Washington. Menos de nove anos depois, 42 dos 48 estados, além do Alasca, de Porto Rico e do Havaí, tinham leis desse tipo; só o Distrito de Columbia, as duas Carolinas, a Geórgia, a Flórida, o Mississippi e o Arkansas continuavam sem elas. Para Fisher, os estados não teriam agido tão depressa, um após o outro e conhecendo a experiência dos vizinhos, sem a convicção de que a medida era acertada. Nenhuma voz pediu a revogação. As emendas foram todas no sentido de ampliar: mais trabalhadores cobertos, percentuais e tetos maiores, carências menores, pagamentos mais longos, mais assistência médica e, em alguns estados, a inclusão de doenças."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os empregadores também aderiram. Nos estados de lei opcional, poucos recusaram o sistema, e na Califórnia, em 1918, havia mais de 20 mil adesões voluntárias comunicadas à comissão de acidentes. A constitucionalidade, contestada no início em Montana, em Nova York e no Kentucky, ficou assentada por emendas constitucionais e por dezenas de decisões favoráveis, entre elas pelo menos cinco da Suprema Corte dos Estados Unidos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "As vítimas recebem mais?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os totais são grandes. Em Wisconsin, de 1911 a 30 de junho de 1918, os pagamentos somaram US$ 6,917 milhões, dos quais US$ 1,773 milhão em assistência médica; em Massachusetts, US$ 20,253 milhões nos seis primeiros anos; em Nova York, US$ 36,631 milhões em três anos e meio. Fisher calcula que, se todo o país adotasse o padrão de Massachusetts de 1918, pagaria de US$ 125 milhões a US$ 150 milhões por ano, e talvez US$ 200 milhões pela experiência da Pensilvânia e de Nova York. Por caso, porém, os valores são modestos: em Wisconsin, cerca de US$ 100 por acidente indenizado; por morte, uma média geral que ele estima em cerca de US$ 3.000, ou menos."
+            },
+            {
+              "tipo": "p",
+              "texto": "A comparação certa, insiste, não é com as grandes indenizações obtidas em processos judiciais, que chegavam depois de litígios longos e caros, mas com o que as famílias realmente recebiam antes. As comissões estaduais de inquérito mostraram que muitos empregadores não pagavam nada aos dependentes dos mortos, ou pagavam US$ 50 ou US$ 100. Fisher arrisca que, sob as leis de responsabilidade civil, houve pagamento em no máximo um terço dos casos fatais."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 261",
+              "texto": "Pagamento médio por acidente fatal na Pensilvânia pouco antes da lei de indenização, segundo estudo do Bureau of Labor Statistics citado por Fisher. Em 1916, já sob a nova lei, a indenização média por morte no estado foi de US$ 2.383; em 1918, de US$ 2.659, pouco mais de dez vezes o valor anterior. Pela perda de um olho, a Pensilvânia pagou em média de US$ 959 a US$ 1.198 entre 1916 e 1918."
+            },
+            {
+              "tipo": "p",
+              "texto": "Um temor dos críticos, a simulação de incapacidade para receber o benefício, não se confirmou. Fisher não encontra nos relatórios oficiais nenhuma indicação de que fosse um problema apreciável, e cita D. M. Holman, da comissão de acidentes de Massachusetts, que em quatro anos e meio não se lembrava de meia dúzia de casos claros."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A lei reduziu os acidentes?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher é cauteloso. O movimento pela segurança industrial começou antes das leis, e as estatísticas gerais misturam influências opostas: a notificação mais completa exigida pela lei e a expansão da indústria na guerra, com máquinas mais velozes e operários novos, elevam os registros. Em Massachusetts, os acidentes notificados passaram de 90.631 em 1912–13 para 174.372 em 1916–17, mas cresceram menos de 6% até 1914–15 e mais de 80% nos dois anos seguintes."
+            },
+            {
+              "tipo": "p",
+              "texto": "A prova está nas comparações diretas. Em usinas siderúrgicas, a frequência de acidentes por mil trabalhadores de 300 dias foi de 167,1 onde havia sistemas de segurança completos, 272,4 onde estavam em desenvolvimento e 507,9 onde não havia nenhum. A lei contribuiu ao encarecer os acidentes para o empregador e, sobretudo, pelo seguro: seguradoras privadas e fundos estaduais passaram a ajustar prêmios ao histórico de acidentes ou às condições de segurança de cada cliente, e a fazer inspeções. Na Califórnia, uma campanha da comissão reduziu as mortes na mineração de 20 em 1916 para 10 em 1917."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "886.762",
+              "texto": "Acidentes registrados nos relatórios mais recentes de oito estados reunidos por Fisher, com 7.633 mortes; só Nova York, em 1918, registrou 286.871 acidentes e 1.504 mortes. Para o autor, os números confirmam a estimativa de F. L. Hoffman de cerca de 25 mil mortos e 700 mil incapacitados por quatro semanas ou mais a cada ano no país."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto custa à indústria?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pouco, segundo Fisher. Os prêmios vão de uma fração de 1% da folha nas tecelagens a vários por cento na construção metálica e na mineração, e podem ser generalizados em cerca de 1%. Em West Virginia, a média foi de 1,41% em 1916–17; em Wisconsin, de 1,33% entre 1913 e 1916. Como o trabalho responde por cerca de um quinto do custo na manufatura, o acréscimo seria de um quinto de 1% do custo total, e nem isso é líquido, porque o empregador já pagava seguro de responsabilidade e litígios. O temor de que a lei afugentasse indústrias revelou-se infundado."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde a lei falha?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher lista os defeitos. Deixar o direito do acidentado à mercê dos tribunais anulou a lei em muitos casos. Quase todos os estados limitam a assistência médica. A carência sem benefício ainda era de duas semanas em alguns estados e de dez dias em muitos, quando cerca de três quartos das incapacidades terminam em duas semanas: no Oregon, uma carência de uma semana teria excluído 35,38% dos acidentados, e uma de duas semanas, 62%. Vários estados não exigiam seguro, e a restrição a lesões acidentais deixava de fora as doenças profissionais."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os percentuais nominais, de menos de metade a dois terços do salário, exageram o que se paga, por causa dos tetos semanais, como US$ 12, e dos prazos máximos. Em Minnesota, com taxa nominal de 60%, as indenizações por incapacidade temporária cobriram 38% da perda salarial em 1916–17 e 48% em 1917–18."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“É o valor efetivamente pago que conta.”",
+              "original": "“It is the amount actually paid that counts.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O maior defeito é a cobertura estreita. Carl Hookstadt estimou em ao menos 7,4 milhões os empregados não cobertos nos estados com lei: cerca de 1,25 milhão no comércio interestadual e mais de seis milhões deixados de fora pelos legislativos, quase um terço do total. Na Califórnia, em 1917, houve 14.313 indenizações por incapacidade temporária para 107.420 incapacidades notificadas. A conclusão de Fisher é que as leis provaram seu valor, mas não chegaram à forma final, e serão estendidas e tornadas mais generosas."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um exemplo de avaliação de política pública com dados imperfeitos. Fisher não toma o aumento dos acidentes notificados como prova de fracasso nem a queda em algumas indústrias como prova de sucesso: separa o efeito da lei do efeito da notificação, da expansão industrial e de um movimento de segurança anterior, e busca a evidência em comparações entre estabelecimentos com e sem programas de segurança.",
+                "O ponto econômico central é o mecanismo de incentivo. A lei não impõe a segurança diretamente; transfere o custo do acidente para o empregador, e o seguro com prêmio ajustado ao risco transmite esse custo de forma contínua. Ao mesmo tempo, Fisher mostra que o desenho do benefício, com carências, tetos e exclusões, decide quanto da promessa chega ao trabalhador."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Indenização por acidente de trabalho (workmen's compensation)",
+              "pagamento ao acidentado ou a seus dependentes sem necessidade de provar culpa do empregador."
+            ],
+            [
+              "Lei de responsabilidade do empregador",
+              "regime em que o acidentado precisava processar o empregador e provar sua negligência."
+            ],
+            [
+              "Regra do co-empregado (fellow-servant)",
+              "doutrina do direito comum que isentava o empregador por acidente causado por outro empregado."
+            ],
+            [
+              "Lei opcional",
+              "lei de indenização a que o empregador pode aderir ou não, perdendo certas defesas se recusar."
+            ],
+            [
+              "Período de carência",
+              "dias iniciais de incapacidade durante os quais não se paga benefício."
+            ],
+            [
+              "Classificação por experiência",
+              "ajuste do prêmio de seguro ao histórico de acidentes do segurado."
+            ],
+            [
+              "Classificação por tabela",
+              "ajuste do prêmio à conformidade do estabelecimento com padrões de segurança."
+            ]
+          ],
+          "hoje": "O seguro obrigatório contra acidentes de trabalho, com prêmios ajustados ao risco de cada empresa ou setor, é hoje a norma em grande parte do mundo, e os problemas que Fisher apontou continuam a ser discutidos: carências, tetos de benefício, cobertura de trabalhadores informais ou de plataformas e reconhecimento de doenças ocupacionais. A avaliação do efeito desses seguros sobre a segurança ainda enfrenta a dificuldade que ele descreveu, a de separar mudanças reais de mudanças na notificação."
+        }
+      ]
+    },
+    {
+      "slug": "1920-a-trigesima-segunda-reuniao-anual",
+      "numero": 163,
+      "titulo": "Chicago, 1919: impostos de guerra, reparações e preços da paz",
+      "titulo_original": "Papers and Proceedings of the Thirty-second Annual Meeting of the American Economic Association. Chicago, Ill., December, 1919",
+      "autores": "Robert Murray Haig, T. S. Adams, F. W. Taussig, Henry C. Adams, T. N. Carver, Royal Meeker, Wesley C. Mitchell, H. G. Moulton, David Friday, George E. Holmes, Arthur Anderson, Thomas E. Lyons, Roy G. Blakey, John H. Williams, Ditlew M. Frederiksen, Yu Tinn Hugh, Harry Gunnison Brown, J. E. Le Rossignol, Charles E. Persons, Harry B. Jordan, Willard E. Hotchkiss, D. R. Stevens, Francis H. Bird, F. S. Deibler, James B. Forgan, George W. Dowrie, George E. Putnam, Samuel O. Dunn, Pierpont V. Davis, J. M. Clark, C. O. Ruggles, R. R. Bowker, L. D. H. Weld, L. H. Haney, L. C. Gray, Allyn A. Young, Davis R. Dewey e comissões da associação",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 10, nº 1 (suplemento)",
+      "data": "1920",
+      "chamada": "Chicago, dezembro de 1919: Haig e T. S. Adams discutem o imposto sobre lucros extraordinários, Taussig mostra como a Alemanha teria de pagar as reparações, e Mitchell e Moulton preveem os preços.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Às 10h30 de segunda-feira, 29 de dezembro de 1919, no Red Room do Hotel La Salle, em Chicago, a American Economic Association abriu sua 32ª reunião anual com uma pergunta de política fiscal: o imposto sobre lucros extraordinários deveria ficar como parte permanente do sistema tributário? A sessão, conjunta com a associação dos professores universitários de contabilidade, foi presidida pelo vice-presidente Harry R. Hatfield, da University of California."
+        },
+        {
+          "tipo": "p",
+          "texto": "O suplemento de março de 1920 reúne os textos e debates dos três dias da reunião. A agenda é a da transição para a paz: impostos de guerra, reparações alemãs, investimento estrangeiro, participação dos empregados na gestão, preços, política bancária e ferrovias. O discurso presidencial de Henry B. Gardner, lido na noite do dia 29 em sessão conjunta com a American Sociological Society, consta do programa, mas não é reproduzido neste volume; saiu na edição regular da revista."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O imposto de guerra sobre lucros deveria sobreviver à paz?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Robert Murray Haig, da Columbia University, relatou a investigação que fez na Inglaterra a pedido da comissão de finanças de guerra da associação. Sua notícia principal: os britânicos não pretendiam abolir o imposto, mas refiná-lo e torná-lo permanente, adotando como base o capital investido, à maneira da lei americana de 1917, no lugar dos lucros de antes da guerra. T. S. Adams, de Yale, chegou à conclusão oposta para os Estados Unidos: o imposto pesava demais sobre a administração e deveria dar lugar a um imposto adicional sobre os lucros não distribuídos das sociedades anônimas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40%",
+          "texto": "Alíquota do imposto britânico sobre lucros extraordinários em 1919, segundo Haig, depois de chegar a 80% no auge da guerra. Somada ao imposto de renda de 6 xelins por libra, a carga sobre o lucro excedente era de 58%. Os atrasados acumulados chegavam a cerca de quatro vezes a arrecadação esperada para o ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a Alemanha pagaria?"
+        },
+        {
+          "tipo": "p",
+          "texto": "F. W. Taussig, de Harvard, calculou que o tratado de paz exigiria remessas de pelo menos US$ 750 milhões por ano, talvez um bilhão, por cerca de uma geração. Seu argumento central é que só há um meio de pagar: um excedente permanente de exportações de mercadorias sobre importações. Daí uma ironia, dita por ele com todas as letras: os aliados que pediam reparação eram os mesmos que tentavam barrar as exportações alemãs. John H. Williams, de Princeton, concordou com o núcleo da tese, mas duvidou de que o comércio internacional chegue a “estágios de equilíbrio”."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os países aliados, na medida em que sufocam as exportações da Alemanha, estão cortando o nariz para se vingar do rosto.”",
+          "original": "“The Allied countries, so far as they smother Germany's exports, ... are cutting off the nose to spite the face.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve controlar o capital e o trabalho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry C. Adams, de Michigan, propôs uma comissão internacional para supervisionar os investimentos estrangeiros nas ferrovias da China, como primeiro passo para tirar os empréstimos a países fracos do terreno da rivalidade diplomática. T. N. Carver, de Harvard, descreveu um “sistema industrial equilibrado”, em que a escassez relativa de cada tipo de trabalho, corrigida pela educação, igualaria a prosperidade entre ocupações sem tocar na liberdade de contrato. Royal Meeker, comissário de estatísticas do trabalho, examinou os comitês de fábrica e os conselhos britânicos do sistema Whitley e concluiu que a representação dos empregados ainda estava em fase de experiência."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os preços cairiam depois da guerra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wesley C. Mitchell, da New School for Social Research, reconstituiu a alta de preços de 1914 a 1919 e explicou por que a queda iniciada depois do armistício parou na primavera de 1919. Sua previsão dependia do Federal Reserve: se contivesse a especulação, 1920 não teria variações violentas; se não, viriam aperto financeiro e depressão. H. G. Moulton, de Chicago, foi mais longe: como o crédito bancário financia a própria produção, só uma depressão baixaria os preços, e o Federal Reserve deveria elevar os juros já."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Completam o volume o debate sobre o Plano Plumb para as ferrovias, cujo autor não entregou o texto de sua palestra, as mesas-redondas sobre monopólio, imigração, ensino de economia e comercialização em grande escala, as atas das reuniões administrativas, que registram a eleição de H. J. Davenport para presidente, os relatórios do secretário, do tesoureiro, da auditoria e do editor da revista, os das comissões de comércio exterior, coordenação tributária, questionários do alistamento militar e censo, e a constituição revista da associação."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o fio de Chicago é a capacidade administrativa como limite da política econômica. Haig e T. S. Adams divergem sobre o imposto, mas concordam que ele vale o que vale a máquina que o cobra; Taussig mostra que a reparação esbarra no mecanismo de pagamento antes de esbarrar na riqueza alemã; Meeker e a comissão do censo tratam de organizações que ainda precisavam ser construídas.",
+            "A outra lição é de método. Quase todos os autores raciocinam a partir de um mecanismo explícito, seja o do câmbio, o do crédito ou o da incidência do imposto, e só então perguntam pelos números. É uma boa defesa contra a tentação de julgar uma política pelo que ela promete em vez de pelo caminho por onde teria de passar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto sobre lucros extraordinários",
+          "imposto sobre o lucro acima de um retorno normal, medido por lucros anteriores ou pelo capital investido."
+        ],
+        [
+          "Reparações",
+          "pagamentos impostos à Alemanha pelo tratado de paz para compensar os danos de guerra dos aliados."
+        ],
+        [
+          "Plano Plumb",
+          "proposta de propriedade pública das ferrovias americanas com gestão partilhada entre empregados, dirigentes e governo."
+        ],
+        [
+          "Sistema Whitley",
+          "organização britânica de conselhos industriais nacionais e distritais e comitês de fábrica, com patrões e empregados."
+        ],
+        [
+          "Imposto único",
+          "proposta de substituir os demais tributos por um imposto sobre o valor da terra."
+        ],
+        [
+          "Taxa de redesconto",
+          "juro cobrado pelos bancos do Federal Reserve ao emprestar aos bancos associados."
+        ]
+      ],
+      "hoje": "Quase todos os temas de Chicago continuam na agenda. Impostos sobre lucros extraordinários voltam sempre que um choque concentra ganhos em poucos setores, e a pergunta de Haig sobre a capacidade da administração tributária continua decisiva. O problema da transferência descrito por Taussig reaparece nas negociações de dívidas soberanas. A dúvida de Moulton e Mitchell sobre quanto um banco central deve apertar o crédito para conter preços, e a que custo para a atividade, é a mesma dos debates atuais de política monetária. E a participação dos empregados na gestão ainda divide empresas e sindicatos.",
+      "itens": [
+        [
+          "Program of the Thirty-Second Annual Meeting",
+          "pp. v–vii",
+          "1811878"
+        ],
+        [
+          "British Experience with Excess Profits Taxation",
+          "pp. 1–14",
+          "1811879"
+        ],
+        [
+          "Immediate Future of the Excess Profits Tax",
+          "pp. 15–18",
+          "1811880"
+        ],
+        [
+          "The Excess Profits Tax--Discussion",
+          "pp. 19–32",
+          "1811881"
+        ],
+        [
+          "Germany's Reparation Payments",
+          "pp. 33–49",
+          "1811882"
+        ],
+        [
+          "Germany's Reparation Payments--Discussion",
+          "pp. 50–57",
+          "1811883"
+        ],
+        [
+          "International Supervision Over Foreign Investments",
+          "pp. 58–67",
+          "1811884"
+        ],
+        [
+          "Foreign Investments--Discussion",
+          "pp. 68",
+          "1811885"
+        ],
+        [
+          "Some Probable Results of a Balanced Industrial System",
+          "pp. 69–77",
+          "1811886"
+        ],
+        [
+          "A Balanced Industrial System--Discussion",
+          "pp. 78–88",
+          "1811887"
+        ],
+        [
+          "Employees' Representation in Management of Industry",
+          "pp. 89–102",
+          "1811888"
+        ],
+        [
+          "Employees' Participation in Management--Discussion",
+          "pp. 103–128",
+          "1811889"
+        ],
+        [
+          "Prices and Reconstruction",
+          "pp. 129–155",
+          "1811890"
+        ],
+        [
+          "Banking Policy and the Price Situation",
+          "pp. 156–175",
+          "1811891"
+        ],
+        [
+          "Prices and Banking Policy--Discussion",
+          "pp. 176–185",
+          "1811892"
+        ],
+        [
+          "The Railway Problem--Discussion",
+          "pp. 186–212",
+          "1811893"
+        ],
+        [
+          "Round Table Discussions",
+          "pp. 213–224",
+          "1811894"
+        ],
+        [
+          "Minutes of Business Meetings at Chicago: December 29, 30, and 31, 1919",
+          "pp. 225–229",
+          "1811895"
+        ],
+        [
+          "Report of the Secretary for the Year Ending December 29, 1919",
+          "pp. 230–234",
+          "1811896"
+        ],
+        [
+          "Report of the Treasurer for the Year Ending December 19, 1919",
+          "pp. 235",
+          "1811897"
+        ],
+        [
+          "Report of the Auditing Committee",
+          "pp. 236–237",
+          "1811898"
+        ],
+        [
+          "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1919",
+          "pp. 238–240",
+          "1811899"
+        ],
+        [
+          "Report of the Committee on Foreign Trade",
+          "pp. 241–247",
+          "1811900"
+        ],
+        [
+          "Report of Committee on Co-ordination in Taxation",
+          "pp. 248–262",
+          "1811901"
+        ],
+        [
+          "Report of Committee on Utilization of Material in the Draft Questionnaires",
+          "pp. 263–266",
+          "1811902"
+        ],
+        [
+          "Report of the Joint Census Advisory Committee of the American Statistical and American Economic Associations",
+          "pp. 267–278",
+          "1811903"
+        ],
+        [
+          "Constitution of the American Economic Association",
+          "pp. 279–280",
+          "1811904"
+        ]
+      ],
+      "jstor_edicao": "i304613",
+      "artigos": [
+        {
+          "titulo": "Program of the Thirty-Second Annual Meeting",
+          "autores": "Programa da reunião",
+          "paginas": "pp. v–vii",
+          "jstor": "1811878",
+          "resumo": "Programa da reunião de Chicago, de 29 a 31 de dezembro de 1919, com quase todas as sessões no Hotel La Salle. O primeiro dia teve a sessão sobre o imposto de lucros extraordinários, conjunta com os professores de contabilidade, a sessão sobre as reparações alemãs e, à noite, os discursos presidenciais de Henry B. Gardner, pela American Economic Association, e de Frank W. Blackmar, pela American Sociological Society. Seguiram-se sessões sobre teoria econômica, negociação coletiva na agricultura, representação dos empregados, preços e política bancária, mesas-redondas e o problema ferroviário."
+        },
+        {
+          "titulo": "British Experience with Excess Profits Taxation",
+          "autores": "Robert Murray Haig, Columbia University",
+          "paginas": "pp. 1–14",
+          "jstor": "1811879",
+          "resumo": "Haig chama o imposto especial sobre lucros extraordinários de única invenção relevante das finanças de guerra e relata a investigação que fez na Inglaterra, em 1919, para a comissão de finanças de guerra da associação. Ao contrário da impressão corrente, diz, os britânicos pretendiam manter o imposto, reduzido de 80% para 40% no orçamento de 1919, não por gostarem dele, mas porque as alternativas, um imposto sobre o capital ou impostos sobre o consumo, pareciam piores. A versão permanente adotaria a base americana do capital investido, com alíquotas moderadas e progressivas. Haig descreve os efeitos do imposto pesado e temporário: gastos com publicidade, reformas e bonificações, subavaliação de estoques, comércio de empresas falidas com bons registros de antes da guerra e atrasados de cerca de £ 200 milhões. Elogia a administração britânica, com avaliações feitas por funcionários permanentes e recursos julgados por quem não é do Tesouro. Conclui que, mantida a arrecadação, continuar o imposto seria melhor do que um imposto geral sobre vendas ou do que dobrar a alíquota normal do imposto de renda, desde que os gastos caíssem e a administração americana melhorasse.",
+          "ensaio_slug": "haig-a-experiencia-britanica-com-o-imposto-sobre-lucros-extraordinarios"
+        },
+        {
+          "titulo": "Immediate Future of the Excess Profits Tax",
+          "autores": "T. S. Adams, Yale University",
+          "paginas": "pp. 15–18",
+          "jstor": "1811880",
+          "resumo": "Adams parte da premissa de que não havia motivo para reduzir a arrecadação e enumera cinco fatos. O sistema de impostos internos precisava ser simplificado com urgência: os impostos de renda e de lucros eram tão pesados e complexos que o governo não conseguia auditores para liquidar os casos antigos no ritmo em que surgiam novos, e muitas das maiores declarações de 1917 ainda não tinham sido auditadas. O imposto de lucros extraordinários atingia só parte das sociedades anônimas, enquanto as sobretaxas do imposto de renda não alcançavam os lucros que elas retinham; sócios de uma firma podiam pagar muito mais ou muito menos do que concorrentes organizados como companhia. Para Adams, a única saída praticável era abolir o imposto e aplicar às sociedades um imposto pleno de renda: alíquota normal de 10% para pessoas e empresas e um adicional de cerca de 20% sobre lucros não distribuídos, evitável por meio de um “dividendo construtivo” tributado nas mãos dos acionistas. Pede ainda que o Congresso autorize liquidações definitivas de todos os créditos tributários pendentes."
+        },
+        {
+          "titulo": "The Excess Profits Tax--Discussion",
+          "autores": "David Friday, George E. Holmes, Arthur Anderson, Thomas E. Lyons e Roy G. Blakey",
+          "paginas": "pp. 19–32",
+          "jstor": "1811881",
+          "resumo": "Friday defende o imposto: as declarações de 1917 mostram lucros muito dispersos em relação ao capital investido, e manter o imposto por uma década daria dados para uma teoria dos lucros. Holmes propõe uma definição uniforme de capital investido, que inclua o valor de todos os ativos em 1913, inclusive os intangíveis. Anderson, de Chicago, atribui o efeito sobre preços sobretudo às alíquotas altas, que estimularam gastos. Lyons, da comissão tributária de Wisconsin, prefere melhorar a lei existente a arriscar uma nova. Blakey vê um dilema administrativo e critica a tributação de ganhos nominais de preço."
+        },
+        {
+          "titulo": "Germany's Reparation Payments",
+          "autores": "F. W. Taussig, Harvard University",
+          "paginas": "pp. 33–49",
+          "jstor": "1811882",
+          "resumo": "Taussig estima que o tratado de paz obrigaria a Alemanha a remeter de US$ 750 milhões a um bilhão por ano durante cerca de trinta anos e pergunta como uma soma dessas, arrecadada internamente, pode sair do país. Pela teoria ricardiana, o ouro sairia, os preços cairiam na Alemanha e subiriam fora, e as exportações cresceriam até o excedente igualar a remessa; a Alemanha perderia ainda por vender mais mercadorias e comprar menos por dólar. Mas a escala torna o mecanismo do ouro inviável, e a Alemanha está sob papel-moeda: a demanda oficial por divisas manteria o câmbio acima dos preços internos, premiando exportadores e deslocando trabalho e capital para as indústrias de exportação. O ponto central é que a reparação só pode ser paga em mercadorias, pelo excedente de exportações; as estatísticas de riqueza total não vêm ao caso. Daí a contradição: os aliados exigem pagamento e, ao mesmo tempo, querem fechar mercados à Alemanha. Taussig vê na Rússia o grande destino das exportações alemãs, prevê ajustes dolorosos na entrada e na saída do período de reparação e adverte que, vendidos os títulos a investidores, não haverá como cancelar a dívida.",
+          "ensaio_slug": "taussig-os-pagamentos-de-reparacao-da-alemanha"
+        },
+        {
+          "titulo": "Germany's Reparation Payments--Discussion",
+          "autores": "John H. Williams, Princeton University, e Ditlew M. Frederiksen",
+          "paginas": "pp. 50–57",
+          "jstor": "1811883",
+          "resumo": "Williams, ex-aluno de Taussig, aceita que os pagamentos tomarão a forma de um excedente de exportações, mas lembra que seu tamanho dependerá de outros itens do balanço de pagamentos, como frete e juros, e duvida de “estágios de equilíbrio” no comércio internacional, sobretudo sob papel-moeda, com base em seu estudo da Argentina. Para ele, o prêmio ao exportador vem da diferença entre preços de exportação e custos internos. Frederiksen, a partir do comércio triangular da Dinamarca, prevê que a reparação estimulará a agricultura de países concorrentes e pressionará os agricultores americanos."
+        },
+        {
+          "titulo": "International Supervision Over Foreign Investments",
+          "autores": "Henry C. Adams, University of Michigan",
+          "paginas": "pp. 58–67",
+          "jstor": "1811884",
+          "resumo": "Adams observa que o comércio mundial ultrapassa a jurisdição de qualquer governo e que nem a escola clássica nem a da economia nacional reconhecem uma economia mundial com problemas próprios. Entre países de nível semelhante, como Inglaterra e Estados Unidos, o investimento estrangeiro não cria questões diplomáticas: o credor confia nos tribunais do devedor. O problema está nos empréstimos a países economicamente atrasados e politicamente fracos, onde os credores pedem proteção especial ao próprio governo e exercem influência extraterritorial, inclusive o controle de receitas e da operação de empresas. Toma como caso as ferrovias da China: concessões a sindicatos bancários com caráter político, supervisão dos bancos sobre a operação, engenheiros e contadores nomeados pelos credores e compras de materiais por meio dos mesmos bancos. Nem a porta aberta, que trata do comércio de mercadorias, nem o consórcio internacional de banqueiros, do qual os bancos americanos se retiraram, resolveram a questão. Adams apoia a proposta de uma comissão internacional de supervisão das ferrovias chinesas, com representação da China, como passo limitado, mas praticável, rumo a regras comuns para o investimento estrangeiro."
+        },
+        {
+          "titulo": "Foreign Investments--Discussion",
+          "autores": "Yu Tinn Hugh",
+          "paginas": "pp. 68",
+          "jstor": "1811885",
+          "resumo": "Hugh sustenta que uma política de investimentos internacionais na China só funcionará se baseada na justiça. Descreve a divisão do país em esferas de influência de várias potências, a porta aberta que existe apenas em teoria e o uso do controle de ferrovias para favorecer comerciantes nacionais. Propõe um escritório internacional de investimentos, com um representante de cada país credor e, para empréstimos destinados ao desenvolvimento da China, representação chinesa igual à de todas as potências somadas, na supervisão do uso e do pagamento dos fundos."
+        },
+        {
+          "titulo": "Some Probable Results of a Balanced Industrial System",
+          "autores": "T. N. Carver, Harvard University",
+          "paginas": "pp. 69–77",
+          "jstor": "1811886",
+          "resumo": "Carver toma emprestada a ideia de ração ou solo equilibrado e a aplica ao sistema industrial inteiro. Distingue o equilíbrio de oferta e demanda, obtido por qualquer preço que iguale compras e vendas, de um equilíbrio verdadeiro, em que o preço também é satisfatório do ponto de vista social. Um salário baixo pode ser de equilíbrio e, ainda assim, deixar os trabalhadores pobres; decretar salários mais altos, diz, trata o sintoma e não a causa, gerando excesso de mão de obra ou desemprego. A causa só se corrige reduzindo a oferta relativa do trabalho mal pago ou aumentando os fatores que o complementam, sobretudo pela educação popular, que desvia pessoas das ocupações superlotadas. Num sistema equilibrado, a produtividade marginal do trabalho seria quase a mesma em todas as ocupações. Carver enumera quatro resultados: prosperidade igual entre ocupações, embora não entre indivíduos; poder de barganha igual entre capitalistas e trabalhadores; participação voluntária dos trabalhadores na gestão, porque o fator escasso ganha voz; e uma escola livre da tarefa de redistribuir a população entre ofícios. Tudo isso, ressalta, sem abandonar a liberdade de contrato."
+        },
+        {
+          "titulo": "A Balanced Industrial System--Discussion",
+          "autores": "Roy G. Blakey, Harry Gunnison Brown, J. E. Le Rossignol e Charles E. Persons",
+          "paginas": "pp. 78–88",
+          "jstor": "1811887",
+          "resumo": "Blakey elogia a exposição de Carver, mas vê nela uma volta ao laissez-faire e defende a legislação social enquanto o equilíbrio não chega. Brown argumenta que a lógica de Carver se aproxima da dos defensores do imposto único sobre a terra e que a objeção dos direitos adquiridos atinge igualmente a proposta mais moderada de tributar só a valorização futura. Le Rossignol distingue equilíbrio de troca e proporção entre fatores e pede uma síntese entre laissez-faire e controle social. Persons lista pré-requisitos, como maior igualdade de posses e educação de trabalhadores e proprietários."
+        },
+        {
+          "titulo": "Employees' Representation in Management of Industry",
+          "autores": "Royal Meeker, U.S. Commissioner of Labor Statistics",
+          "paginas": "pp. 89–102",
+          "jstor": "1811888",
+          "resumo": "Meeker reduz a inquietação operária a três causas: insatisfação com salários e com a parte que cabe ao trabalho, com a gestão das empresas, conduzidas à distância por quem não conhece a fábrica, e com a própria natureza do trabalho, monótono e sem saída para cargos de direção. Chama o fenômeno de absenteísmo do proprietário industrial e critica a primeira administração científica por tratar o operário como máquina; o trabalho, diz, fica mais leve quando exige mais da cabeça do trabalhador. Na guerra, a escassez de mão de obra levou governos e empresas a experimentar a participação dos empregados. Na Inglaterra, o sistema Whitley criou conselhos nacionais em cerca de cinquenta indústrias, mas só três, fósforos, borracha e cerâmica, tinham a estrutura completa, e sobretudo no papel. Nos Estados Unidos, os comitês de fábrica se dividem entre sindicais, abertos e de fábricas fechadas aos sindicatos. Meeker acha que a corrida dos empregadores para criar comitês acabou, defende que todo trabalhador possa apresentar queixas e sugestões e propõe salário mínimo garantido por posto, mais bônus ligado a reduções de custo. Termina dizendo que a cura da democracia é mais democracia."
+        },
+        {
+          "titulo": "Employees' Participation in Management--Discussion",
+          "autores": "Harry B. Jordan, Willard E. Hotchkiss, D. R. Stevens, Francis H. Bird, F. S. Deibler e Ditlew M. Frederiksen",
+          "paginas": "pp. 103–128",
+          "jstor": "1811889",
+          "resumo": "O coronel Jordan descreve a organização dos trabalhadores no arsenal de Rock Island, que vê como meio de obter trabalho em equipe, não como panaceia. Hotchkiss, da associação de alfaiatarias por atacado, defende acordos voluntários por indústria com interpretação imparcial contínua. Stevens, da Goodyear, aponta desconfiança e egoísmo como etapas a vencer. Bird, da United Typothetae, sugere experiências graduais em fábricas escolhidas. Deibler situa a participação na evolução dos incentivos ao trabalho, e Frederiksen lembra o ponto de vista do consumidor, que pagaria custos mais altos, e defende a participação nos lucros."
+        },
+        {
+          "titulo": "Prices and Reconstruction",
+          "autores": "Wesley C. Mitchell, New School for Social Research",
+          "paginas": "pp. 129–155",
+          "jstor": "1811890",
+          "resumo": "Mitchell quer saber em que bases se pode prever o rumo dos preços por atacado nos Estados Unidos nos anos seguintes. A experiência das guerras napoleônicas e da Guerra Civil, quando os preços caíram após o conflito, já fora desmentida pela alta de 1919; por isso prefere analisar o processo pelo qual os fatores atuaram, apoiado nas medições estatísticas disponíveis. Reconstitui o choque financeiro de 1914, a alta antes e depois da entrada americana na guerra e a reação ao armistício: queda forte de dezembro a fevereiro ou março e recuperação lenta até junho. A queda parou porque os preços contidos durante a guerra subiram com o fim do controle, as exportações de alimentos voltaram a crescer, os consumidores recuperaram compras adiadas e a produção não acompanhou; pesaram também a resistência a cortes de salários e preços e a especulação. Para 1920, tudo dependeria do Federal Reserve: contendo a especulação, não haveria variações violentas; falhando, viria um período de forte aperto financeiro. A longo prazo, pesariam o ouro e a volta da Europa ao padrão-ouro. Conclui pedindo um sistema monetário melhor que o existente."
+        },
+        {
+          "titulo": "Banking Policy and the Price Situation",
+          "autores": "H. G. Moulton, The University of Chicago",
+          "paginas": "pp. 156–175",
+          "jstor": "1811891",
+          "resumo": "Moulton parte da hipótese de que é desejável baixar o nível geral de preços e pergunta se a política bancária pode fazê-lo. Critica a abordagem da teoria quantitativa, que compara a quantidade de moeda com a de bens já produzidos: o comércio, diz, toma crédito bancário para reunir terra, trabalho e capital em cada etapa da produção, de modo que as necessidades do comércio em termos monetários sobem quando os custos sobem. Por isso, cortar empréstimos não reduz os preços automaticamente; reduz a produção. Analisa os efeitos de uma contração de crédito e a política do Federal Reserve, cujas reservas estavam perto do mínimo. Vê uma depressão próxima em qualquer cenário: com exportações em queda, pela própria retração; com exportações fortes, pela pressão sobre o mercado monetário; com aumentos de salários, pela expansão do crédito necessária para financiá-los. Conclui que o Federal Reserve deveria elevar substancialmente os juros de redesconto e frear a indústria de imediato, e que, se a depressão é inevitável, quanto antes vier, melhor, pois só ela baixaria preços e recomporia as reservas. Em nota, sugere juros de sete ou oito por cento."
+        },
+        {
+          "titulo": "Prices and Banking Policy--Discussion",
+          "autores": "James B. Forgan, George W. Dowrie, George E. Putnam e H. G. Moulton",
+          "paginas": "pp. 176–185",
+          "jstor": "1811892",
+          "resumo": "Forgan, do First National Bank de Chicago, acredita que o sistema do Federal Reserve resistirá à crise, mas pede juros mais altos se as reservas continuarem a cair. Dowrie, de Minnesota, concorda que os preços só cairão depois de uma liquidação forçada e sugere vender títulos a pequenos poupadores, à custa do consumo. Putnam, da Washington University, expõe sua leitura da equação de trocas e liga o rumo dos preços aos créditos à Europa. Na réplica, Moulton diz que sua distinção é entre a moeda que troca bens prontos e a que financia a produção."
+        },
+        {
+          "titulo": "The Railway Problem--Discussion",
+          "autores": "Samuel O. Dunn, Pierpont V. Davis, J. M. Clark, C. O. Ruggles e R. R. Bowker",
+          "paginas": "pp. 186–212",
+          "jstor": "1811893",
+          "resumo": "O debate sobre o Plano Plumb, de propriedade pública das ferrovias com gestão compartilhada por empregados, dirigentes e governo, foi aberto pelo próprio Glenn E. Plumb, que não entregou o texto. Dunn, editor da Railway Age, examina o efeito do plano sobre o custo do serviço. Davis, da National City Co., retoma as objeções à propriedade estatal. Clark, de Chicago, observa que o projeto Sims deixa a avaliação a uma comissão e prefere que os empregados comprem aos poucos participação nas empresas. Ruggles e Bowker pesam os interesses de empregados, dirigentes, investidores e público."
+        },
+        {
+          "titulo": "Round Table Discussions",
+          "autores": "W. F. Gephart, H. A. Millis, C. M. Thompson, L. D. H. Weld, L. H. Haney e L. C. Gray",
+          "paginas": "pp. 213–224",
+          "jstor": "1811894",
+          "resumo": "Resumos de quatro mesas-redondas de 31 de dezembro. Na de concorrência e monopólio, defendeu-se maior variedade de formas de organização industrial, incorporação federal e publicidade das contas de empresas interestaduais. Na de imigração, falaram W. E. Leiserson, Don Lescohier e Matthew Woll, da American Federation of Labor. Na de ensino, o ponto principal foi a superlotação dos cursos elementares; a Califórnia tinha mais de 1.400 alunos num só curso. Na de comercialização, Weld, da Swift & Company, defendeu a grande escala; Haney separou vantagem privada de benefício público, e Gray respondeu a Haney."
+        },
+        {
+          "titulo": "Minutes of Business Meetings at Chicago: December 29, 30, and 31, 1919",
+          "autores": "Atas das reuniões administrativas",
+          "paginas": "pp. 225–229",
+          "jstor": "1811895",
+          "resumo": "As atas registram a reunião da comissão executiva de 29 de dezembro e duas reuniões da associação, presididas por Gardner. Foram aceitos os US$ 1.500 oferecidos por E. A. Karelsen para prêmios de ensaios sobre participação nos lucros, aprovada a adesão ao Council of American Learned Societies e emendada a constituição para reorganizar a comissão executiva. Foram eleitos H. J. Davenport, presidente, e A. A. Young, secretário-tesoureiro, e aprovada uma resolução pela reclassificação e aumento dos salários de economistas e estatísticos no serviço federal."
+        },
+        {
+          "titulo": "Report of the Secretary for the Year Ending December 29, 1919",
+          "autores": "Allyn A. Young, secretário",
+          "paginas": "pp. 230–234",
+          "jstor": "1811896",
+          "resumo": "Young relata a reunião da comissão executiva de 6 de junho, na University of Chicago, que prorrogou para 1º de outubro de 1920 o prazo dos prêmios Karelsen e autorizou novos contratos de impressão da revista sem reduzir seu tamanho. Várias comissões especiais foram dissolvidas e outras mantidas, e foi criada a comissão sobre os questionários do alistamento militar. A reunião de 1919, prevista para Lexington, no Kentucky, foi transferida para Chicago por falta de hotéis adequados. O secretário descreve a conferência de Boston que levou à criação do American Council of Learned Societies, para que as sociedades americanas participassem em grupo da Union Académique Internationale, sediada em Bruxelas. A associação fechou 1919 com 2.216 sócios e 498 assinantes, total de 2.714, ganho líquido de 36. Entre os sócios mortos estão Andrew Carnegie e R. H. I. Palgrave. Pela primeira vez desde que a anuidade passou de três para cinco dólares, as contas mostram déficit, de quase US$ 1.700, contra um superávit normal de cerca de US$ 500, por causa do papel, da impressão e dos salários do escritório. Young diz que ampliar o quadro além dos interessados no estudo científico baixaria os padrões e propõe uma comissão especial para as finanças."
+        },
+        {
+          "titulo": "Report of the Treasurer for the Year Ending December 19, 1919",
+          "autores": "Allyn A. Young, tesoureiro",
+          "paginas": "pp. 235",
+          "jstor": "1811897",
+          "resumo": "O tesoureiro apresenta o resumo habitual de entradas e saídas de caixa do ano encerrado em 19 de dezembro de 1919, a ser lido junto com a demonstração de resultado do relatório de auditoria. As receitas do ano somaram US$ 15.707,70, com destaque para as anuidades, de US$ 10.441,68, as assinaturas, de US$ 2.418,51, e os US$ 1.500 do fundo do prêmio Karelsen. As despesas chegaram a US$ 16.277,02. A maior parte foi para as publicações, US$ 9.705,08, das quais US$ 7.544,09 para a revista e US$ 2.054,84 para os anais e o manual; o escritório do secretário custou US$ 3.056,79, com US$ 1.989,43 de salários. A associação também aplicou US$ 1.000 em dois títulos do Victory Loan. O caixa final era de US$ 4.915,62, distribuído entre o Central Trust Co., o Ithaca Trust Co., o Tompkins County National Bank e cheques não depositados. A demonstração de resultado aponta um excesso de despesas de publicação sobre a receita de publicações de US$ 9.078,21 e, depois das reservas para anuidades e contas incobráveis, um déficit líquido de US$ 1.688,48 no ano."
+        },
+        {
+          "titulo": "Report of the Auditing Committee",
+          "autores": "Donald English, Abbott Payson Usher e James E. Boyle",
+          "paginas": "pp. 236–237",
+          "jstor": "1811898",
+          "resumo": "A comissão de auditoria, que assina em Ithaca em 20 de dezembro de 1919, informa ter examinado em detalhe as contas do secretário-tesoureiro do exercício encerrado em 18 de dezembro. Certifica que a demonstração de receitas e despesas, o balanço e o quadro de lançamentos na conta de superávit estão corretos e que os registros contábeis conferem com o balanço. Este soma US$ 12.128,12. No ativo aparecem o caixa, as contas de poupança no Ithaca Trust Co. e no Central Trust Co., de Cambridge, investimentos de US$ 5.000 em títulos da United Fruit Co. e dos empréstimos de guerra Liberty e Victory, anuidades e contas a receber, estoque de papel e móveis do escritório. No passivo estão anuidades pagas antecipadamente, contas a pagar, US$ 1.300 de sócios vitalícios, reservas para anuidades não pagas e contas incobráveis e a reserva de US$ 1.500 do fundo de prêmios. A conta de superávit parte de US$ 8.914,75 em dezembro de 1918, registra o déficit líquido de US$ 1.688,48 em 1919 e fecha em US$ 7.505,29. A comissão era composta por Donald English, Abbott Payson Usher e James E. Boyle."
+        },
+        {
+          "titulo": "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1919",
+          "autores": "Davis R. Dewey, editor-gerente",
+          "paginas": "pp. 238–240",
+          "jstor": "1811899",
+          "resumo": "Dewey informa que publicar a revista custou em 1919 muito mais do que nos anos anteriores. Sem o papel, a impressão custou US$ 3.768,30, contra US$ 2.233,93 em 1918; com o estoque de papel comprado antecipadamente no ano anterior, o custo total da impressão chegou a US$ 5.049,50. A Princeton University Press, que não mudara os preços até então, alegou prejuízo mesmo depois de uma mudança de especificações, e o contrato foi estendido provisoriamente em regime de custo mais dez por cento. O volume do ano teve 948 páginas, contra 984 em 1917 e 906 em 1918, e tiragem média de 3.113 exemplares. O custo total foi de US$ 9.454,77, incluindo US$ 1.500 de salário do editor e US$ 1.231,50 pagos a colaboradores. Dewey lista os membros do conselho editorial e as mudanças na equipe de resumos de periódicos: Charles A. Morgan, Amelia C. Ford e Horace Secrist assumem as seções de serviços públicos, história econômica dos Estados Unidos e estatística. Registra que 126 pessoas escreveram para a revista no ano e anexa tabelas, desde 1911, de páginas, itens, proporções e despesas por seção."
+        },
+        {
+          "titulo": "Report of the Committee on Foreign Trade",
+          "autores": "Elisha M. Friedman (presidente), David Friday, Jason A. Neilson, Wesley Frost, J. Russell Smith, A. Barton Hepburn, O. M. W. Sprague, Phillip B. Kennedy, F. W. Taussig e Thomas W. Lamont",
+          "paginas": "pp. 241–247",
+          "jstor": "1811900",
+          "resumo": "O segundo relatório da comissão de comércio exterior trata dos efeitos da guerra sobre o volume, a direção e a composição do comércio mundial. Os beligerantes passaram a importar mais manufaturas e menos matérias-primas; o abastecimento de alimentos da Europa Ocidental recaiu sobre as Américas; os países que dependiam da Alemanha para produtos químicos, corantes e máquinas recorreram à Suíça, aos Estados Unidos e ao Japão. A falta de navios concentrou as rotas no Atlântico: a tonelagem pelo canal de Suez caiu de 20 milhões em 1913 para 8,3 milhões em 1917. O comércio entre vizinhos e no Pacífico cresceu, Hamburgo e Bremen perderam o comércio de reexportação, e surgiram indústrias fora da Europa. A comissão chama o processo de descentralização econômica e o liga à ideia de uma liga de nações. Recomenda que os créditos à Europa financiem a produção e bens essenciais, não despesas correntes dos governos nem a sustentação artificial de moedas. Conclui que a Europa terá de pagar aos Estados Unidos em mercadorias e que o excedente americano de exportações deverá, com o tempo, dar lugar a um excedente de importações, típico dos países credores."
+        },
+        {
+          "titulo": "Report of Committee on Co-ordination in Taxation",
+          "autores": "R. R. Bowker (presidente), Thomas S. Adams, Lawson Purdy e Henry W. Farnam",
+          "paginas": "pp. 248–262",
+          "jstor": "1811901",
+          "resumo": "A comissão, criada em 1916, parte da dívida federal de US$ 25,2 bilhões e de uma receita ordinária federal de mais de US$ 5,1 bilhões em 1919 para pedir uma revisão de longo alcance dos métodos de tributação. Coordenar, para ela, é relacionar os impostos federais, estaduais e locais, e o primeiro requisito é um orçamento nacional e orçamentos estaduais e locais. Distingue três arranjos: um sistema unificado, com repartição da receita; um coordenado, com bases separadas ou jurisdição concorrente; e a falta de sistema, exemplificada pelos impostos de renda federal e estaduais cobrados sobre bases diferentes. Pondera um critério de equidade, cada governo tributando as atividades que controla ou sustenta, e um critério prático, que pode atribuir impostos ao governo maior. Revê a Constituição e os números de cada tributo: as tarifas aduaneiras, quase metade da receita em 1910, caíram para menos de 4% em 1919. O plano proposto reserva ao governo federal as tarifas, impostos de consumo sobre a produção de artigos de luxo, um imposto de renda progressivo simplificado e um imposto graduado sobre os lucros das empresas, sem passar de 50% na faixa mais alta; aos estados caberiam a terra e os bens tangíveis, um imposto sobre negócios e profissões e um imposto de renda complementar, com taxas locais sobrepostas."
+        },
+        {
+          "titulo": "Report of Committee on Utilization of Material in the Draft Questionnaires",
+          "autores": "John Cummings (presidente), William F. Willoughby e Joseph A. Hill",
+          "paginas": "pp. 263–266",
+          "jstor": "1811902",
+          "resumo": "A comissão foi encarregada de estudar o uso do material econômico e estatístico dos questionários do alistamento militar e estendeu o exame a outros arquivos das agências de guerra. Considera esse material um registro original e permanente das condições econômicas da guerra, desde que localizado, preservado, indexado e tornado acessível. Observa que os serviços que o produziram foram desmobilizados e que os arquivos estão sob guarda provisória e precária, espalhados por diversos órgãos. Propõe que o Conselho de Defesa Nacional, que já guardava os arquivos do War Industries Board, faça o levantamento e a indexação, e que o assunto passe à comissão conjunta sobre um edifício para os arquivos do governo. Os anexos descrevem o acervo: mais de 1.200 processos do National War Labor Board, 435 armários de aço do War Industries Board, cerca de 205.000 certificados de prioridade e 30.000 inventários industriais. Segundo o oficial-chefe de estatística do Estado-Maior, cerca de 23 milhões de homens se alistaram, e não havia plano para estudar os questionários; ele lamenta que o Exército não tenha adotado em 1917 os cartões perfurados da Marinha."
+        },
+        {
+          "titulo": "Report of the Joint Census Advisory Committee of the American Statistical and American Economic Associations",
+          "autores": "William S. Rossiter (presidente), Carroll W. Doten e Edwin F. Gay, pela American Statistical Association; Walter F. Willcox, Wesley C. Mitchell e Edwin R. A. Seligman, pela American Economic Association",
+          "paginas": "pp. 267–278",
+          "jstor": "1811903",
+          "resumo": "Em novembro de 1918, o secretário do Comércio, William C. Redfield, pediu às duas associações uma comissão consultiva para o Décimo Quarto Censo, com o objetivo declarado de restaurar a confiança entre elas e o Bureau of the Census. A comissão conjunta foi formada por seis membros, nomeados agentes especiais do censo a um dólar por ano para cobrir viagens. Reuniu-se sete vezes em Washington, somando catorze dias de trabalho, e preferiu concentrar-se no produto estatístico, sobretudo na forma de apresentação e distribuição dos resultados, a se envolver em detalhes administrativos. Suas deliberações resultaram em 39 recomendações, sobre pessoal, máquinas, questionários de população, classificação de ocupações, manufaturas, agricultura e publicações; 17 foram adotadas e 6 recusadas pelo diretor. A principal, dada a demora na publicação do censo anterior, foi omitir quase todo o texto dos relatórios principais, publicar as tabelas o mais depressa possível e encomendar depois monografias a especialistas sobre temas de importância nacional. O relatório registra a aprovação do diretor e o pedido de contato do serviço estatístico do Canadá."
+        },
+        {
+          "titulo": "Constitution of the American Economic Association",
+          "autores": "Constituição da associação",
+          "paginas": "pp. 279–280",
+          "jstor": "1811904",
+          "resumo": "Texto da constituição revista na reunião de dezembro de 1919: objetivos, como o estímulo à pesquisa e à plena liberdade de discussão, sem posição partidária; anuidade de US$ 5, sócio vitalício por US$ 100 e até 25 sócios honorários estrangeiros; e a nova composição dos cargos e comissões."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "haig-a-experiencia-britanica-com-o-imposto-sobre-lucros-extraordinarios",
+          "titulo": "Haig e o imposto que a Inglaterra não queria abolir",
+          "titulo_original": "British Experience with Excess Profits Taxation",
+          "autores": "Robert Murray Haig, Columbia University",
+          "paginas": "pp. 1–14",
+          "jstor": "1811879",
+          "chamada": "Em Chicago, em 1919, Robert Murray Haig relata que a Inglaterra pretendia manter o imposto de guerra sobre lucros extraordinários e descreve o que ele ensinou sobre evasão, alíquotas e administração.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Haig abre seu texto com uma frase de efeito: o imposto especial sobre lucros extraordinários seria a única invenção relevante que a guerra produziu nas finanças públicas. Provou-se, diz, um meio notavelmente eficaz de arrecadar grandes somas e ganhou popularidade pelos efeitos econômicos e sociais que lhe atribuíam. No fim de 1919, a pergunta era se essa máquina de guerra deveria ser abandonada no campo de batalha ou adaptada à paz; na imagem do autor, se o tanque poderia trabalhar como trator."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A única invenção de importância desenvolvida durante a guerra no campo das finanças.”",
+              "original": "“The only invention of consequence developed during the war in the field of finance.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto abriu a primeira sessão da reunião de Chicago, em 29 de dezembro de 1919, sobre se o imposto deveria ficar como parte permanente do sistema tributário. Haig, da Columbia University, considera essa a questão fiscal mais importante do Congresso daquele momento."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem queria o fim do imposto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Haig enumera os adversários. A Câmara de Comércio do Estado de Nova York pedia a eliminação dos impostos que atrapalham a acumulação de capital industrial, e a associação nacional dos gestores de crédito queria a revogação já para os rendimentos de 1919. O próprio secretário do Tesouro, em relatório divulgado em 4 de dezembro, recomendara eliminar ou reduzir o imposto, acusando-o de estimular desperdício, premiar a sobrecapitalização, punir a iniciativa e encarecer o custo de vida. Do outro lado, representantes dos grandes interesses agrícolas defendiam manter os impostos de renda e de lucros."
+            },
+            {
+              "tipo": "p",
+              "texto": "A campanha pela revogação, observa, tinha três alvos misturados: o tamanho total da tributação federal, a tributação das empresas em geral, comparada com alternativas como impostos de consumo, e o imposto de lucros extraordinários como forma específica. Até ali, diz, a análise ficara quase só com quem pagava o imposto, e por isso não podia ser chamada de científica nem de desapaixonada. Para obter dados, a comissão de finanças de guerra da associação decidira, na primavera de 1919, investigar a experiência britânica: a Inglaterra fora a primeira a criar o imposto e o administrava havia cinco anos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os britânicos iam mantê-lo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão contrariava a impressão corrente. Muitos empresários ingleses esperavam que Austen Chamberlain abolisse o imposto no orçamento seguinte, depois de tê-lo reduzido de 80% para 40%. Haig leu o discurso do orçamento de 1919 e concluiu que o ministro previa sua continuação de alguma forma; a única ressalva era política, pois um governo trabalhista provavelmente tentaria um pesado imposto sobre o capital."
+            },
+            {
+              "tipo": "p",
+              "texto": "O motivo não era simpatia. A administração fiscal, instalada em Somerset House, encarava a tarefa com apreensão; os empresários se enfureciam com a ideia; o público, que culpava o imposto pela alta de preços, já não o apoiava; e os líderes trabalhistas mais radicais visavam a nacionalização de minas e ferrovias. O imposto ficaria porque a Inglaterra precisava de somas enormes e as alternativas, um imposto sobre o capital ou impostos sobre o consumo, despertavam rejeição maior."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Embora não achem a frigideira confortável, preferem-na ao fogo.”",
+              "original": "“While they do not find the frying pan comfortable, they prefer it to the fire.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Haig acrescenta um dado sobre as preferências britânicas: o imposto sobre artigos de luxo, que servira de modelo ao americano, fora considerado complicado demais e nunca entrara em vigor. Para quem temia a concorrência inglesa, nota ainda, o imposto britânico continuaria pesando sobre os preços de lá."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que forma teria o imposto permanente?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O mais interessante, para Haig, era a forma. Os britânicos reconheciam que o padrão dos lucros de antes da guerra, traço distintivo de sua lei, ficava mais anômalo a cada ano, enquanto o padrão do capital investido, traço da lei americana de 1917, servia tanto a um imposto temporário quanto a um permanente. A proposta mais provável adotava esse padrão, com alíquotas moderadas e progressivas, numa escala parecida com a da lei americana de 1917."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "£ 50 milhões",
+              "texto": "Arrecadação esperada do imposto britânico à alíquota de 40% em 1919, nível que, segundo Haig, a Inglaterra tentaria manter. No auge, a alíquota foi de 80%, e chegou a ser proposta uma de 100%, evitada pela insistência da administração fiscal de que seria impossível cobrá-la. Sobre o que sobrava incidia ainda o imposto de renda de 6 xelins por libra, ou 30%."
+            },
+            {
+              "tipo": "p",
+              "texto": "A proposta resolvia problemas que também preocupavam os americanos: os britânicos não viam justiça em limitar o imposto às sociedades anônimas, tratavam as empresas com pouco capital por meio de uma escala de deduções de salários em vez de isentá-las e, como lá a valorização de bens não era renda tributável, preferiam avaliar os ativos pelo custo para o primeiro dono, mesmo depois de vendidos, para evitar evasão."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o imposto pesado ensinou?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os efeitos observados no verão de 1919 não eram animadores. Havia sinais de que o imposto reprimira a atividade, levara a gastos extravagantes e fora muito evadido; o efeito sobre preços era incerto. Haig atribui boa parte desses males ao peso das alíquotas e ao caráter temporário do imposto, não ao princípio."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nenhuma empresa quebrara por causa do imposto, mas por causa de uma política de cobrança flexível: o Tesouro podia conceder prazos a quem tinha dificuldade. O privilégio fora abusado, e os atrasados chegavam a cerca de £ 200 milhões, quatro vezes a arrecadação esperada para o ano. Haig prefere o rigor americano."
+            },
+            {
+              "tipo": "p",
+              "texto": "Sobre preços, cita Sidney Webb, para quem atribuir ao imposto a alta de bens não controlados era ignorância pura, opinião partilhada pela maioria dos economistas. Os empresários, ao contrário, diziam ter aumentado preços por causa dele. Haig suspeita que, em alguns casos, o imposto servia de desculpa para preços de monopólio; num mercado competitivo, um imposto cobrado só depois de lucros moderados dificilmente eleva preços diretamente. Nos contratos com o governo, porém, o imposto era tratado como custo, e o próprio governo criava os lucros que depois tributava."
+            },
+            {
+              "tipo": "p",
+              "texto": "As formas de evasão, escreve, eram infinitas. Um dono de seringal adiava a sangria das árvores até o fim do imposto; fábricas gastavam em publicidade, filiais deficitárias, reformas e bonificações que renderiam no futuro. Quando o governo levava £ 86 de cada £ 100 de lucro excedente, valia comprar qualquer coisa de £ 100 que valesse £ 14 para o contribuinte; mesmo com 40%, a carga combinada era de 58%, e um empresário lhe disse haver algo de mágico na marca de 50%. Havia ainda comércio de empresas falidas que tinham bons registros de antes da guerra e subavaliação de estoques."
+            },
+            {
+              "tipo": "p",
+              "texto": "Durante a guerra, a evasão aberta fora pequena, quase traição; depois do armistício, virara um jogo. Reginald McKenna, que criara o imposto como ministro das Finanças, comentou que a Receita levara desde 1842 para montar um imposto de renda difícil de evadir e precisaria de outros cem anos para um imposto sobre lucros. Haig responde que muitos expedientes só funcionavam porque o imposto era temporário."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os Estados Unidos deveriam copiar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A administração britânica, diz, era melhor que a americana. As avaliações eram feitas localmente por funcionários permanentes e qualificados, que conheciam os negócios e podiam fazer acordos definitivos. Os recursos iam a juntas que não pertenciam ao Tesouro, perto da casa do contribuinte, e um Board of Referees tratava de pedidos de indústrias inteiras. Haig lamenta o fim do conselho tributário consultivo americano."
+            },
+            {
+              "tipo": "p",
+              "texto": "Resume as lições em seis pontos, a partir da imagem de J. C. Stamp: o imposto é uma desnatação preliminar dos potes de creme mais ricos. Os britânicos queriam mantê-lo; achavam o padrão de antes da guerra superado; aceitavam tratamento diferenciado para lucros obtidos com grande risco; queriam um imposto leve, porque o pesado gera extravagância; e permanente, porque o temporário é facilmente adiado. E reconheciam as enormes dificuldades administrativas."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uma desnatação preliminar dos potes de creme mais ricos.”",
+              "original": "“A preliminary skimming of the richer crocks of cream.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para os Estados Unidos, a conclusão é condicional. Se a arrecadação fosse mantida, como queria o secretário do Tesouro, as alternativas, o imposto geral sobre vendas do senador Smoot e o aumento da alíquota normal do imposto de renda proposto pelo secretário Glass, seriam piores: a primeira distribuiria o ônus ao acaso nos preços, e a segunda sobrecarregaria a administração, enfraqueceria a progressividade nas rendas baixas e passaria o peso dos investidores para rendas do trabalho moderadas. Mas Haig pede que se conteste a própria manutenção da arrecadação, com corte de gastos, e afirma que não se deve pensar em manter o imposto sem melhorar radicalmente a administração."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto de Haig é uma aula sobre como a incidência real de um imposto depende de sua duração esperada. Os mesmos contribuintes que, sob um imposto temporário, adiam receitas e antecipam despesas deixariam de fazê-lo sob um imposto permanente; boa parte do que se atribuía ao princípio do imposto vinha, segundo ele, de seu prazo e de sua alíquota.",
+                "A outra lição é que a escolha tributária se faz entre alternativas, não contra um ideal. Haig não defende o imposto por suas virtudes, mas por comparação com o imposto sobre vendas e com a alta da alíquota normal, e condiciona tudo à qualidade da máquina de cobrança. É um raciocínio que continua valendo para qualquer debate sobre bases tributárias."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Imposto sobre lucros extraordinários",
+              "imposto que incide sobre o lucro que excede um retorno considerado normal, medido por lucros passados ou pelo capital investido."
+            ],
+            [
+              "Padrão do capital investido",
+              "base que mede o lucro normal como uma porcentagem do capital aplicado na empresa, adotada na lei americana de 1917."
+            ],
+            [
+              "Imposto sobre o capital",
+              "cobrança extraordinária, de uma só vez, sobre o patrimônio, discutida na Inglaterra como alternativa para reduzir a dívida de guerra."
+            ],
+            [
+              "Board of Referees",
+              "tribunal britânico criado para decidir pedidos de indústrias inteiras sobre o retorno admitido no cálculo do imposto."
+            ]
+          ],
+          "hoje": "A ideia de tributar lucros acima do normal reaparece sempre que um choque gera ganhos concentrados, como nos impostos sobre lucros extraordinários de empresas de energia. As questões de Haig continuam as mesmas: como definir o retorno normal, como evitar que um imposto anunciado como temporário estimule o adiamento de receitas e a antecipação de despesas, e se a administração tributária tem capacidade para cobrá-lo. A distinção entre o princípio do imposto e os efeitos de sua alíquota e de seu prazo segue útil para avaliar essas propostas."
+        },
+        {
+          "slug": "taussig-os-pagamentos-de-reparacao-da-alemanha",
+          "titulo": "Taussig e a reparação que só podia ser paga em mercadorias",
+          "titulo_original": "Germany's Reparation Payments",
+          "autores": "F. W. Taussig, Harvard University",
+          "paginas": "pp. 33–49",
+          "jstor": "1811882",
+          "chamada": "Em dezembro de 1919, F. W. Taussig calcula as remessas exigidas da Alemanha pelo tratado de paz e mostra por que elas só poderiam ser pagas com um grande excedente de exportações.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Taussig começa por uma ordem de grandeza. O tratado de paz impunha à Alemanha encargos de reparação que exigiriam remessas regulares aos aliados, por cerca de trinta anos, muito acima de qualquer transação internacional por conta de governos já conhecida: não menos de US$ 750 milhões por ano, talvez um bilhão ou mais."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto foi lido na tarde de 29 de dezembro de 1919, no salão de baile do Hotel La Salle, em Chicago. Taussig deixa de lado o problema interno, de como o governo alemão arrecadaria a soma, que considera pesado, mas não necessariamente impossível, e se concentra em outra pergunta: como uma soma dessas, obtida dos próprios cidadãos, pode ser remetida para fora do país, e com que consequências."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que diz a teoria clássica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pela teoria ricardiana, supondo ouro em circulação dos dois lados, a sequência seria esta: a demanda do governo por divisas eleva o câmbio, o ouro sai da Alemanha, os preços caem lá e sobem no exterior, as exportações alemãs crescem e as importações diminuem, até que o excedente comercial se iguale à remessa anual. Aí o ouro para de fluir e as divisas ficam regularmente à disposição do governo. As mercadorias podem ir aos países credores diretamente ou por terceiros, como a América do Sul, o Oriente ou a Rússia."
+            },
+            {
+              "tipo": "p",
+              "texto": "Taussig destaca uma perda menos visível. Durante todo o período, as rendas monetárias alemãs seriam mais baixas e as dos países credores mais altas; a Alemanha entregaria uma quantidade física de mercadorias maior do que a necessária, aos preços anteriores, para somar um bilhão, e compraria menos importações em quantidade física. É uma perda menos sentida que a remessa, mas real."
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando os pagamentos terminassem, haveria reversão: o ouro voltaria, os preços alemães subiriam e o comércio retornaria ao ponto de partida. Taussig aproveita para corrigir um erro comum. Enquanto uma remessa continua, o fluxo de ouro não se reverte sozinho; um tributo perpétuo deixaria preços permanentemente mais altos no país que recebe e mais baixos no que paga. A reparação só gera refluxo porque tem data para acabar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A história ajuda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pouco. As indenizações cobradas de países como a Turquia e a China ocorreram em condições muito particulares. A única grande operação entre países desenvolvidos, a indenização franco-alemã de 1871, foi uma soma única, os cinco bilhões de francos, paga em pouco tempo e sobretudo com títulos estrangeiros em poder dos franceses. Algo semelhante, diz, ocorreu quando Inglaterra e França pagaram as exportações americanas de 1916 e 1917. Nenhum desses expedientes serviria para remessas pesadas e regulares por décadas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Além disso, a escala obriga a revisar a teoria. Se o governo alemão comprasse divisas e deixasse o ouro sair, o meio circulante se esgotaria em poucos meses, no máximo em um ano, muito antes de exportações e importações se ajustarem. O resultado seria uma revolução monetária e um colapso de crédito com efeitos sobre o mundo inteiro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto o tratado cobrava?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Taussig divide as cláusulas em três partes, convertendo o marco-ouro a um quarto de dólar. A primeira previa US$ 5 bilhões até 1º de maio de 1921, a serem cobertos em grande parte por navios, títulos, carvão, máquinas e gado entregues até lá; ele supõe, com generosidade, que metade seria coberta assim e a outra metade convertida em títulos. A segunda, uma emissão de US$ 10 bilhões em títulos, com juros de 2,5% entre 1921 e 1926 e, depois, 5% mais 1% de amortização. A terceira, até mais US$ 10 bilhões, emitidos só quando a Comissão de Reparações julgasse que a Alemanha podia pagar."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 750 milhões",
+              "texto": "Encargo anual mínimo da Alemanha depois de 1926, segundo Taussig: juros e amortização de 6% sobre um principal de pelo menos US$ 12,5 bilhões. Entre 1921 e 1926, a 2,5%, seriam US$ 312,5 milhões por ano. Ele se diria surpreso se a Comissão de Reparações achasse a Alemanha capaz de pagar mais de um bilhão por ano."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que muda com o papel-moeda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A Alemanha estava sob regime de papel-moeda, sem pontos de ouro e com câmbio cotado em papel depreciado, e dificilmente sairia dele cedo. Ricardo e seus seguidores supunham que câmbio, ágio do ouro e nível de preços andassem juntos. A experiência, diz Taussig, mostra que os dois primeiros andam juntos, mas os preços podem se afastar deles por muito tempo, sobretudo os dos bens só vendidos no mercado interno."
+            },
+            {
+              "tipo": "p",
+              "texto": "A demanda constante do governo por letras sobre Londres, Paris ou Nova York manteria o câmbio acima do que justificariam os preços internos. Os exportadores comprariam barato na Alemanha e venderiam as divisas com vantagem; os importadores teriam o oposto. Trabalho e capital migrariam para as indústrias de exportação, o que equivale, por outro mecanismo, às entregas de carvão e gado previstas no tratado. Por isso, conclui, o papel-moeda, que costuma perturbar o comércio, poderia acelerar o ajuste e jogar a favor da Alemanha. Com o tempo, câmbio e preços voltariam a convergir."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que só as mercadorias contam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Este é o centro do texto. A reparação só pode ser paga em bens, e o limite é o excedente possível de exportações sobre importações. As estimativas baseadas na riqueza total da Alemanha não vêm ao caso: terras, casas, ferrovias e fábricas não podem ser levadas, e ouro e títulos já teriam sido esgotados antes de começar o fluxo regular. Qualquer valor de capital fixado para a dívida seria apenas o valor presente do excedente máximo de exportações."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“De algum modo, uma enorme balança comercial favorável (nunca a expressão teve maior ironia) precisa ser criada depressa.”",
+              "original": "“Somehow a huge favorable balance of trade (never has the phrase had greater irony) must be rapidly developed.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A venda de propriedades alemãs a investidores estrangeiros, a única ressalva, lhe parece desprezível, e criaria a necessidade de remeter lucros e juros, de novo em mercadorias. O governo alemão, portanto, teria de agir deliberadamente: restringir importações, de luxo e talvez com viés protecionista, e promover exportações por subsídios, fretes especiais, preços reduzidos e isenções. Práticas assim, em condições normais, prejudicam o próprio país que as adota, escreve Taussig; aqui, a perda é inevitável de qualquer modo, e os credores não teriam como objetar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde estava a contradição?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Taussig prevê a reação dos protecionistas dos países aliados diante de uma Alemanha vencida que fecha seu mercado e força as vendas externas, e a satisfação dos protecionistas alemães com a conquista de mercados, embora essas exportações, sendo tributo, nada rendam ao país. Mais grave, os programas comerciais dos próprios aliados contradiziam a reparação: tentavam tomar da Alemanha todos os mercados, ela perdera colônias e navios, e o protecionismo se reforçava na França e na Itália. Para ele, ao sufocar as exportações alemãs, os aliados cortavam o próprio nariz."
+            },
+            {
+              "tipo": "p",
+              "texto": "O único grande destino possível seria a Europa Oriental, sobretudo a Rússia, que receberia manufaturas alemãs e pagaria com alimentos e matérias-primas. Essa expansão, diz, deveria ser bem-vinda, salvo por razões mercantilistas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A França ganharia com a reparação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sim, responde Taussig, contra quem dizia que exações militares nunca beneficiam os vencedores; até a indenização de 1871 trouxera ganho material à Alemanha. Mas o ganho viria com ajustes. As mercadorias alemãs, gratuitas para o recebedor, deslocariam produção francesa, e a concorrência indireta, por meio da Rússia, afetaria as exportações francesas e britânicas. E haveria dois ajustes, na entrada e na saída, como no antigo debate alemão entre política agrária e política industrial. Ao fim, a Alemanha teria um mercado exportador estabelecido e estaria em melhor posição para mantê-lo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Taussig termina com cautela: suas previsões são hipotéticas, o tratado ainda poderia mudar, e só em 1926 as cláusulas entrariam plenamente em vigor. Conta que um estadista francês lhe disse que, se a Alemanha só pudesse pagar competindo com a França, os aliados simplesmente cancelariam as reparações. A resposta de Taussig é que, depois de vendidos os títulos a investidores, o cancelamento deixaria de ser possível."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Quem pode dizer em que tipo de mundo estaremos daqui a dez anos?”",
+              "original": "“Who can say what sort of world we shall find ourselves in ten years hence?”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o mérito do texto está em separar duas restrições que o debate público misturava: a fiscal, de arrecadar a soma dentro da Alemanha, e a de transferência, de convertê-la em divisas. Taussig mostra que a segunda depende do comportamento dos credores, porque só um excedente de exportações paga a dívida, e que nenhuma estatística de riqueza a resolve.",
+                "Também chama atenção a forma como ele trata a teoria. Taussig expõe o mecanismo ricardiano, admite que a escala e o papel-moeda o invalidam em parte e o reconstrói com a divergência entre câmbio e preços internos. Williams, na discussão, vai mais longe e duvida dos próprios estágios de equilíbrio. A divergência entre os dois é um bom exemplo de como o modelo serve de guia sem substituir o exame das instituições."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Reparações",
+              "pagamentos impostos à Alemanha pelo tratado de paz para compensar danos de guerra aos aliados."
+            ],
+            [
+              "Ponto de exportação do ouro",
+              "cotação do câmbio a partir da qual compensa enviar ouro em vez de comprar divisas."
+            ],
+            [
+              "Ágio do ouro",
+              "prêmio do ouro sobre o papel-moeda inconversível, que acompanha a cotação do câmbio."
+            ],
+            [
+              "Problema da transferência",
+              "dificuldade de converter em divisas uma soma arrecadada internamente para pagamento ao exterior."
+            ]
+          ],
+          "hoje": "O problema que Taussig descreve, a diferença entre arrecadar uma soma e transferi-la ao exterior, voltou ao centro do debate econômico nos anos seguintes e continua presente nas discussões sobre dívidas externas e programas de ajuste. Um país devedor só paga em termos líquidos se exportar mais do que importa, e isso depende de os credores aceitarem essas exportações. A tensão entre exigir pagamentos e restringir o comércio do devedor reaparece sempre que se discutem renegociações de dívidas soberanas e desequilíbrios de balanço de pagamentos."
+        }
+      ]
     }
   ],
   "proximas": [
