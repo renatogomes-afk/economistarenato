@@ -531,8 +531,8 @@ def tipo_item_aer(titulo_original):
     """Classifica um item da AER pelo título do metadado (JSTOR)."""
     t = titulo_original or ""
     if t.startswith("[untitled]"): return "resenha"
-    if t.startswith("New Books"): return "livros"
-    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^\[.*\]: ", t): return "docs"
+    if t.startswith("New Book"): return "livros"
+    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^\[.*\]: ", t): return "docs"
     return "artigo"
 
 
