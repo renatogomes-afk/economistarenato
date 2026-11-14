@@ -85393,6 +85393,1384 @@
           "hoje": "A pergunta de Youngman segue atual. Bancos centrais discutem até que ponto a taxa básica chega às taxas cobradas de famílias e empresas e quanto depende da estrutura do sistema bancário. A ideia de que o banco central deve conduzir as taxas de mercado, e não segui-las, tornou-se regra em muitos regimes, e o debate sobre usar juros ou instrumentos diretos contra excessos de crédito em mercados de ativos continua aberto."
         }
       ]
+    },
+    {
+      "slug": "1921-a-frota-mercante-e-as-greves",
+      "numero": 172,
+      "titulo": "Gregg, a frota do governo, os ciclos de greves e a regulação de preços",
+      "titulo_original": "The American Economic Review, vol. XI, no. 4, December 1921",
+      "autores": "E. S. Gregg, Alvin H. Hansen, Francis H. Bird, Rexford G. Tugwell, Victor Rosewater e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 11, nº 4",
+      "data": "dezembro de 1921",
+      "chamada": "Gregg propõe vender a frota do governo a preço de paz; Hansen liga greves ao ciclo; Bird descreve salários indexados em Chicago; Tugwell busca na teoria a base da regulação.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na conta de E. S. Gregg, os Estados Unidos gastaram cerca de quatro bilhões de dólares para montar uma frota mercante oceânica a vapor que só perdia para a britânica e era três vezes maior que a da França ou a do Japão. Em 1914, a bandeira americana cobria 725 mil toneladas brutas de navios registrados para o comércio exterior; em 1º de julho de 1921, 10,6 milhões. O número de dezembro de 1921 da American Economic Review, o último do volume XI, abre com a pergunta sobre o que fazer com esses navios num mercado de fretes em depressão."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto da edição gira em torno de um mesmo problema: preços e salários que não se ajustam sozinhos, ou que se ajustam mal. Alvin H. Hansen, da University of Minnesota, mede como o número de grevistas acompanha o ciclo econômico de 1881 a 1919. Francis H. Bird, de Chicago, descreve os reajustes salariais pelo custo de vida na indústria gráfica da cidade entre 1916 e 1921. Rexford G. Tugwell, da Columbia University, procura na teoria econômica a justificativa para a regulação de preços de empresas privadas. E Victor Rosewater, de Omaha, numa comunicação, contesta o uso de orçamentos familiares e números-índice para medir salários reais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a lei da marinha mercante de 1920 não funcionou?",
+          "artigo": "1804379",
+          "credito": "E. S. Gregg (New York City) · “The Failure of the Merchant Marine Act of 1920” · pp. 601–615"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei aprovada pelo Congresso e sancionada em 5 de junho de 1920, com 39 seções, declarava necessário ter uma marinha mercante capaz de levar a maior parte do comércio do país, a ser no fim possuída e operada por cidadãos americanos. Gregg, mais de um ano depois, confronta o propósito com o desempenho, dispositivo por dispositivo: venda dos navios do governo, fundo de empréstimo para construção, isenção de impostos, subsídios postais, tarifas conjuntas de trem e navio, hipotecas navais e direitos discriminatórios."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1º de julho de 1921, o Shipping Board ainda possuía 7,2 milhões de toneladas brutas de navios de aço, 64% do total. As primeiras vendas, em junho de 1919, pediam de US$ 210 a US$ 225 por tonelada de porte bruto; em menos de um ano as condições mudaram cinco vezes, enquanto os fretes de afretamento caíam de 25% a 50% até o meio do verão de 1920. Muitas vendas eram, na prática, afretamentos a casco nu, e os navios voltaram ao governo quando a receita caiu."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os demais dispositivos, diz o autor, ficaram no papel ou ajudaram quem não precisava. O fundo de construção dependia de lucros que o Board não tinha: seu balanço do fim do exercício de 1920 mostrava déficit de US$ 513 milhões. A isenção fiscal alcançou sobretudo navios-tanque que grandes petroleiras haviam encomendado antes da lei. E o presidente declarou, em 24 de setembro de 1920, que não denunciaria os tratados comerciais, como mandava a seção 34; Gregg aplaude a decisão. A parte construtiva, para ele, é a nova legislação de hipotecas navais."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 35",
+          "texto": "Valor de paz de uma tonelada de porte bruto, segundo Gregg: era o preço aproximado de um cargueiro comum de 7.500 a 10.000 toneladas antes da guerra, e os navios saíam, no mercado de 1921, por US$ 30 a US$ 40. O Shipping Board começara vendendo a US$ 210–225 por tonelada."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a proposta: vender os navios construídos na emergência a US$ 30–40 por tonelada quando novos, com 5% a menos por ano de idade. As razões são de custo. A navegação rendera em média só 5% ao ano; havia no mundo 15,8 milhões de toneladas brutas de vapores a mais que os 43,1 milhões de 1913, para uma carga de quatro quintos da anterior; e um navio comprado a US$ 200 por tonelada tinha 53% do custo anual em encargos fixos, contra cerca de 25% dos concorrentes. Gregg sugere ainda desfazer-se de parte dos cargueiros pequenos e dos grandes navios de linha irregular e, enquanto durar a depressão, operar o restante com eficiência."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os economistas estão estranhamente calados sobre essa questão.”",
+          "original": "“Economists are strangely silent on this question.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "As greves sobem na prosperidade ou na depressão?",
+          "artigo": "1804380",
+          "credito": "Alvin H. Hansen (University of Minnesota) · “Cycles of Strikes” · pp. 616–621"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hansen distingue dois aspectos da dinâmica econômica: o movimento rítmico do ciclo de negócios e a evolução econômica. A relação entre evolução e conflito industrial já tinha, diz, literatura volumosa; seu objetivo é medir o efeito do ciclo sobre as greves. O estudo cobre 1881–1919. Os dados de 1881 a 1905 vêm do relatório anual do Commissioner of Labor; para 1906–1914, sem estatística geral nos Estados Unidos, os números canadenses indicam o movimento; de 1915 em diante, valem os do Bureau of Labor Statistics. Os preços são os índices do Aldrich report e do mesmo Bureau."
+        },
+        {
+          "tipo": "p",
+          "texto": "As séries foram convertidas em números-índice com base em 1901–1905 e depois postas em escala comparável pelo desvio-padrão. O gráfico mostra tendências de longo prazo em sentidos opostos de 1881 a 1897, e por isso o autor divide o período em dois: preços em queda, de 1881 a 1897, e preços em alta, de 1898 a 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "A hipótese é que o comportamento das greves depende da tendência dos preços. Quando os preços caem no longo prazo, o trabalho fica na defensiva: luta contra cortes de salário, e a pressão por cortes é maior na depressão. Quando sobem, o trabalho passa à ofensiva, e a disputa se acirra nos anos prósperos, em que crescem o custo de vida e os lucros. O indício citado: a proporção de greves contra redução de salário foi duas vezes maior nas depressões de 1883–85 e 1893–97 que nos anos relativamente prósperos de 1881–82 e 1886–92; em 1899–1905, ficou abaixo de um quinto da registrada nas depressões do período de queda."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "+0,494",
+          "texto": "Coeficiente de correlação de Pearson entre as flutuações cíclicas de preços e de grevistas em 1898–1914, depois de eliminadas as tendências seculares pelo método dos momentos. Hansen analisa esse período à parte dos anos de guerra, que considera anormais; neles, a grande alta de preços veio com aumento correspondente das greves."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que as greves se correlacionam inversamente com o ciclo nos períodos de preços em queda no longo prazo e diretamente nos de preços em alta. O autor ressalva que os números de grevistas de 1915–1919 subestimam os fatos, pois só em 64% das greves desses anos se informou o número de pessoas envolvidas."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "hansen-ciclos-de-greves",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Um índice de preços pode substituir a barganha salarial?",
+          "artigo": "1804381",
+          "credito": "Francis H. Bird (Chicago, Illinois) · “The Cost of Living As a Factor in Recent Wage Adjustments in the Book and Job Branch of the Chicago Printing Industry” · pp. 622–642"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bird atuou como estatístico consultor da Franklin-Division da Franklin-Typothetae of Chicago, a organização dos empregadores gráficos que negociava com os sindicatos, nos reajustes de 1919 a 1921, e avisa que as opiniões são suas. O objetivo declarado não é defender o princípio do custo de vida, então criticado pelo conselho executivo da American Federation of Labor, mas descrever como ele funcionou num setor. Os empregadores que tratavam com sindicatos controlavam de 55% a 60% da produção do ramo de livros e serviços gráficos e empregavam entre 9 mil e 10 mil pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1916 assinaram-se contratos de cinco anos, com salários-base semanais de US$ 25 para os tipógrafos, US$ 26 para os impressores e US$ 18,50 para os alimentadores de prensa. A inflação desfez o arranjo. Os alimentadores, o sindicato de menor salário, fizeram greves ilegais em dezembro de 1917 e em junho de 1918 e obtiveram bônus de guerra depois estendidos aos demais; em setembro de 1918, o National War Labor Board concedeu-lhes US$ 3,50 com base exclusiva na alta de 16,2% do índice de custo de vida de Chicago. Em agosto de 1919, as partes adotaram uma cláusula automática: a cada seis meses, se o índice do Bureau of Labor Statistics para Chicago variasse 5% ou mais, os salários seriam revistos para cima ou para baixo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 4,35",
+          "texto": "Redução semanal média decidida por unanimidade pela junta de arbitragem em 5 de maio de 1921, primeira aplicação da cláusula para baixo. Pelos números do custo de vida, a redução seria de US$ 4,65; a junta descontou 30 centavos pelo intervalo de dez semanas entre a data do índice e a do reajuste."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cláusula foi posta à prova quando os preços caíram. Os sindicatos recorreram ao argumento do atraso: os salários teriam ficado sempre atrás dos preços. A junta, presidida por Ralph E. Heilman, recusou o argumento quanto ao intervalo semestral, que não poderia funcionar nos dois sentidos, mas aceitou parte dele quanto às dez semanas. No balanço de Bird, o dólar do salário contratual de 1916 tinha, em maio de 1921, poder de compra de US$ 1,21 para os tipógrafos e de US$ 1,43 para os alimentadores, cujo salário, diz, se aproximara demais do dos impressores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que a cláusula garantiu produção praticamente contínua num período de paralisações caras em outras indústrias, ao trocar a barganha por regra de bolso pela verificação de fatos em datas fixas. Bird pergunta se o mesmo método não poderia valer para padrões de produção."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O velho lema de um dia de trabalho justo por um dia de pagamento justo é, afinal, o cerne.”",
+          "original": "“a ‘fair day's work for a fair day's pay’ is after all the nub”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quando o Estado deve regular os preços de empresas privadas?",
+          "artigo": "1804382",
+          "credito": "Rexford G. Tugwell (Columbia University) · “The Economic Basis for Business Regulation” · pp. 643–658"
+        },
+        {
+          "tipo": "p",
+          "texto": "A expressão “affected with a public interest”, afetado por um interesse público, aparece com frequência nas decisões dos tribunais americanos, e dela nascem os controles que protegem o interesse econômico do público. Tugwell quer mostrar que esses controles têm base na própria teoria econômica. O ponto de partida é o vendedor: como vendedor, seu interesse é o maior lucro líquido possível, e o meio para isso é controlar a oferta. Só com concorrência perfeitamente livre a oferta efetiva coincidiria com a oferta possível."
+        },
+        {
+          "tipo": "p",
+          "texto": "As empresas importantes o bastante para serem reguladas operam, diz, com custos decrescentes, e nelas a combinação de concorrentes é inevitável no longo prazo, tanto pelas economias de escala quanto porque permite controlar preços. Nos bens de primeira necessidade, a demanda é muito inelástica no alto da escala de preços e só se amplia com reduções fortes; o vendedor pode preferir atender apenas aos compradores mais abastados. A regulação força a empresa a vender muito com lucro unitário baixo, e o lucro total não precisa cair."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí o conflito de interesses: o administrador busca o maior retorno líquido; o consumidor, a difusão mais ampla e barata dos bens. Intervir não fere a imparcialidade do Estado, que o autor se recusa a confundir com inação. Os tribunais vinham ampliando a regulação, às vezes, nota Tugwell, como se desafiassem a teoria econômica, como no voto do juiz Pound num caso de aluguéis em Nova York."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Para ser imparcial, neste caso, o Estado precisa agir.”",
+          "original": "“To be impartial in this case the state must act.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para descobrir o monopólio, a investigação deve olhar o mercado inteiro, e não cada empresa: cinco firmas sem nada de irregular podem, por liderança tácita ou por um entendimento sem conspiração, produzir efeito de monopólio sobre os preços. A regulação deve ter por base o bem ou serviço, e não a dissolução de empresas, caminho dos atos antitruste que, diz, não foram muito bem-sucedidos. A substituição de produtos protege o consumidor contra a escassez natural, mas não deve ser sua única defesa contra a restrição artificial. Por fim, a comissão reguladora deve estimar a oferta necessária pelo consumo passado e fixar um preço que cubra o custo do produtor marginal, revendo-o quando as condições mudarem."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "tugwell-a-base-economica-da-regulacao",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Orçamentos familiares medem o salário real?",
+          "artigo": "1804383",
+          "credito": "Victor Rosewater (Omaha) · “Wages, Budgets, Cost of Living” · pp. 659–662"
+        },
+        {
+          "tipo": "p",
+          "texto": "A comunicação responde ao artigo de abertura do número de setembro da Review, que concluíra que o poder de compra da semana de trabalho em 1918 era menor que em 1915. Rosewater diz que a conclusão pode ser sustentável, mas não está provada pelos orçamentos, números-índice e estatísticas salariais apresentados. Lembra um artigo seu, “What is the Cost of Living?”, publicado na Charities Review em abril de 1892, e invoca a experiência de negociar contratos salariais, sobretudo nas artes gráficas, levando quatro ou cinco deles a arbitragem em primeira e segunda instância."
+        },
+        {
+          "tipo": "p",
+          "texto": "Enumera nove pontos. Os sindicatos, em regra, recusaram salários variáveis atrelados a índices, prevendo que a queda de preços traria cortes automáticos. Não há índice-padrão, e os preços variam de cidade para cidade. Não há família operária-padrão: o orçamento teórico é o de um chefe de família com mulher e três filhos, sem outra renda, mas a escala salarial é a mesma para casados e solteiros. Com falta de mão de obra, outros membros da família passam a trabalhar e as horas extras se multiplicam. Os pesos dos índices não podem ser fixos quando a renda sobe e o consumo muda. Parar em 1918 deixa de fora o pico salarial de 1919 e 1920. O salário por hora diz pouco ao empregador sem a produção correspondente. E há outros custos do trabalho além do salário, como seguro de acidentes e pensões, além de regras de oficina que encarecem a produção."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "150%",
+          "texto": "Aumento do salário diário de instaladores elétricos numa cidade durante a guerra, segundo Rosewater: de US$ 4 para US$ 10, igualando os pedreiros, que passaram de US$ 6 para US$ 10, alta de 66%. Para o autor, a posição relativa de cada ofício muda com a oferta de trabalho, sem relação com o índice ou o orçamento familiar."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento final é distributivo. Os salários medem a parte do trabalhador no produto; sem aumento do produto, a parte maior de um fator é a parte menor de outro. A saída, para Rosewater, é elevar a eficiência geral, pela organização industrial, máquinas melhores, localização correta da indústria, formação profissional e saúde, e dar ao trabalhador a sua parte nos ganhos, em vez de mantê-lo sempre no mesmo lugar por reajustes atrelados a um índice."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem Our Economic Organization, de Leon C. Marshall e Leverett S. Lyon, por Everett W. Goodhue; The Industrial State, de E. L. Bogart e G. M. Thompson, e Manufacturing Industries in America, de Malcolm Keir, ambos por Isaac Lippincott; The Non-Partisan League, de Andrew A. Bruce, por George M. Janes; The Electric Railway Problem, de Delos F. Wilcox, por John Bauer; The Financial Policy of Corporations, de Arthur Stone Dewing, por Stanley E. Howard; The High Cost of Strikes, de Marshall Olds, por Nathaniel R. Whitney; The Labor Movement, de Frank Tannenbaum, por Frank T. Stockton; Industrial Government, de John R. Commons e outros, por D. A. McCabe; o livro de Sir Josiah Stamp sobre os princípios da tributação, por Rufus S. Tucker; Great American Issues, de John Hays Hammond e Jeremiah W. Jenks, por Frank H. Streightoff; os livros de Solomon S. Huebner e William D. Winter sobre seguro marítimo, por Avard L. Bishop; e Teachers' Pension Systems in the United States, de Paul Studensky, por Henry J. Harris. Completam o número as listas de livros novos, documentos como o relatório da Tariff Commission sobre a criação de ovinos para lã, comentado por Abraham Berglund, resumos de periódicos e notas, com o programa da reunião anual em Pittsburgh, de 27 a 30 de dezembro, e o registro da morte de Henry Carter Adams, um dos fundadores da American Economic Association, em 11 de agosto de 1921."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de dezembro de 1921 é uma coleção de casos sobre o que acontece quando o preço deixa de fazer o ajuste sozinho. Gregg trata de ativos comprados a preço de guerra que só se vendem a preço de paz, e propõe reconhecer a perda de uma vez, em vez de cobri-la aos poucos com subsídios. Tugwell trata de mercados em que o preço reflete o controle da oferta, e não o custo, e pede ao regulador que reconstrua o preço que a concorrência daria. Bird e Rosewater discutem se um índice de custo de vida pode servir de regra salarial.",
+            "O ponto comum é de método: cada autor precisa de uma medida externa para julgar o preço observado. Gregg usa o valor de mercado dos navios; Tugwell, o custo do produtor marginal e as estatísticas de consumo; Bird, o índice do Bureau of Labor Statistics; Hansen, séries de preços e de grevistas depuradas da tendência. Rosewater lembra o limite dessas medidas: um índice médio aplicado a famílias e ofícios diferentes não diz quanto cada um ganhou ou perdeu."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tonelada de porte bruto (deadweight ton)",
+          "peso máximo de carga, combustível e provisões que um navio pode levar."
+        ],
+        [
+          "Tonelada bruta (gross ton)",
+          "medida do volume interno de um navio, usada para comparar frotas."
+        ],
+        [
+          "Afretamento a casco nu",
+          "aluguel do navio sem tripulação, em que o afretador arca com toda a operação."
+        ],
+        [
+          "Shipping Board",
+          "órgão federal americano que detinha e administrava a frota mercante do governo."
+        ],
+        [
+          "Tendência secular",
+          "movimento de longo prazo de uma série, separado das oscilações do ciclo."
+        ],
+        [
+          "Coeficiente de correlação de Pearson",
+          "medida, entre -1 e +1, de quanto duas séries variam juntas."
+        ],
+        [
+          "Cláusula de custo de vida",
+          "regra contratual que revê salários conforme a variação de um índice de preços."
+        ],
+        [
+          "Affected with a public interest",
+          "expressão dos tribunais americanos para negócios sujeitos a regulação de preço e serviço."
+        ],
+        [
+          "Custos decrescentes",
+          "situação em que o custo por unidade cai à medida que a produção aumenta."
+        ],
+        [
+          "Produtor marginal",
+          "o produtor de custo mais alto cuja produção ainda é necessária para completar a oferta."
+        ]
+      ],
+      "hoje": "A indexação de salários a índices de preços, com gatilhos e datas fixas, continua em uso em contratos coletivos e em salários mínimos de vários países, e o debate sobre o atraso entre a inflação medida e o reajuste segue o mesmo de Chicago em 1921. A regulação de serviços de rede por comissões independentes, com tarifas baseadas em custos, tornou-se a forma dominante de controle de monopólios naturais. E a relação entre ciclo econômico e conflito trabalhista ainda é estudada com séries depuradas de tendência.",
+      "itens": [
+        [
+          "The Failure of the Merchant Marine Act of 1920",
+          "pp. 601–615",
+          "1804379"
+        ],
+        [
+          "Cycles of Strikes",
+          "pp. 616–621",
+          "1804380"
+        ],
+        [
+          "The Cost of Living As a Factor in Recent Wage Adjustments in the Book and Job Branch of the Chicago Printing Industry",
+          "pp. 622–642",
+          "1804381"
+        ],
+        [
+          "The Economic Basis for Business Regulation",
+          "pp. 643–658",
+          "1804382"
+        ],
+        [
+          "Wages, Budgets, Cost of Living",
+          "pp. 659–662",
+          "1804383"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 663-665",
+          "pp. 663–665",
+          "1804384"
+        ],
+        [
+          "New Books",
+          "pp. 665–667",
+          "1804385"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 667-668",
+          "pp. 667–668",
+          "1804386"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 668-670",
+          "pp. 668–670",
+          "1804387"
+        ],
+        [
+          "New Books",
+          "pp. 670–676",
+          "1804388"
+        ],
+        [
+          "New Books",
+          "pp. 676–679",
+          "1804389"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 679-681",
+          "pp. 679–681",
+          "1804390"
+        ],
+        [
+          "New Books",
+          "pp. 681–682",
+          "1804391"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 682-684",
+          "pp. 682–684",
+          "1804392"
+        ],
+        [
+          "New Books",
+          "pp. 684–685",
+          "1804393"
+        ],
+        [
+          "New Books",
+          "pp. 685–688",
+          "1804394"
+        ],
+        [
+          "New Books",
+          "pp. 688–694",
+          "1804395"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 694-698",
+          "pp. 694–698",
+          "1804396"
+        ],
+        [
+          "New Books",
+          "pp. 698",
+          "1804397"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 698-701",
+          "pp. 698–701",
+          "1804398"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 701-702",
+          "pp. 701–702",
+          "1804399"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 702-704",
+          "pp. 702–704",
+          "1804400"
+        ],
+        [
+          "New Books",
+          "pp. 704–706",
+          "1804401"
+        ],
+        [
+          "New Books",
+          "pp. 707–710",
+          "1804402"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 710-712",
+          "pp. 710–712",
+          "1804403"
+        ],
+        [
+          "New Books",
+          "pp. 712–713",
+          "1804404"
+        ],
+        [
+          "New Books",
+          "pp. 713–714",
+          "1804405"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 714-716",
+          "pp. 714–716",
+          "1804406"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 716-719",
+          "pp. 716–719",
+          "1804407"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 719-721",
+          "pp. 719–721",
+          "1804408"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-12-01), pages 721-722",
+          "pp. 721–722",
+          "1804409"
+        ],
+        [
+          "New Books",
+          "pp. 723",
+          "1804410"
+        ],
+        [
+          "New Books",
+          "pp. 723–724",
+          "1804411"
+        ],
+        [
+          "New Books",
+          "pp. 724–725",
+          "1804412"
+        ],
+        [
+          "New Books",
+          "pp. 725–726",
+          "1804413"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 727–735",
+          "1804414"
+        ],
+        [
+          "Periodicals",
+          "pp. 736–761",
+          "1804415"
+        ],
+        [
+          "Notes",
+          "pp. 762–772",
+          "1804416"
+        ]
+      ],
+      "jstor_edicao": "i304573",
+      "artigos": [
+        {
+          "titulo": "The Failure of the Merchant Marine Act of 1920",
+          "autores": "E. S. Gregg (New York City)",
+          "paginas": "pp. 601–615",
+          "jstor": "1804379",
+          "resumo": "Balanço do primeiro ano da lei da marinha mercante de 1920 e proposta de vender os navios do governo pelo valor de mercado em tempo de paz."
+        },
+        {
+          "titulo": "Cycles of Strikes",
+          "autores": "Alvin H. Hansen (University of Minnesota)",
+          "paginas": "pp. 616–621",
+          "jstor": "1804380",
+          "resumo": "Correlação entre grevistas e ciclo de 1881 a 1919, inversa com preços em queda no longo prazo e direta com preços em alta.",
+          "ensaio_slug": "hansen-ciclos-de-greves"
+        },
+        {
+          "titulo": "The Cost of Living As a Factor in Recent Wage Adjustments in the Book and Job Branch of the Chicago Printing Industry",
+          "autores": "Francis H. Bird (Chicago, Illinois)",
+          "paginas": "pp. 622–642",
+          "jstor": "1804381",
+          "resumo": "Descrição dos reajustes salariais pelo custo de vida na indústria gráfica de Chicago entre 1916 e 1921, até a primeira redução por arbitragem."
+        },
+        {
+          "titulo": "The Economic Basis for Business Regulation",
+          "autores": "Rexford G. Tugwell (Columbia University)",
+          "paginas": "pp. 643–658",
+          "jstor": "1804382",
+          "resumo": "Custos decrescentes, combinação e demanda inelástica como base econômica da regulação de negócios afetados por interesse público.",
+          "ensaio_slug": "tugwell-a-base-economica-da-regulacao"
+        },
+        {
+          "titulo": "Wages, Budgets, Cost of Living",
+          "autores": "Victor Rosewater (Omaha)",
+          "paginas": "pp. 659–662",
+          "jstor": "1804383",
+          "resumo": "Comunicação que contesta o uso de orçamentos familiares e números-índice para medir salários reais na guerra."
+        },
+        {
+          "titulo": "Leon C. Marshall e Leverett S. Lyon, Our Economic Organization",
+          "autores": "Everett W. Goodhue (Dartmouth College)",
+          "paginas": "pp. 663–665",
+          "jstor": "1804384",
+          "resumo": "Manual elementar que descreve a organização econômica pelas funções de cada instituição."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 665–667",
+          "jstor": "1804385",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "E. L. Bogart e G. M. Thompson, The Industrial State",
+          "autores": "Isaac Lippincott",
+          "paginas": "pp. 667–668",
+          "jstor": "1804386",
+          "resumo": "Volume do centenário de Illinois sobre os anos de 1870 a 1893, de transição para a indústria."
+        },
+        {
+          "titulo": "Andrew A. Bruce, The Non-Partisan League",
+          "autores": "George M. Janes (Washington and Jefferson College)",
+          "paginas": "pp. 668–670",
+          "jstor": "1804387",
+          "resumo": "Estudo sobre a Non-Partisan League e seus empreendimentos na Dakota do Norte."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 670–676",
+          "jstor": "1804388",
+          "resumo": "Lista de livros novos: história econômica e geografia; agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 676–679",
+          "jstor": "1804389",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca (continuação)."
+        },
+        {
+          "titulo": "Malcolm Keir, Manufacturing Industries in America",
+          "autores": "Isaac Lippincott (Washington University)",
+          "paginas": "pp. 679–681",
+          "jstor": "1804390",
+          "resumo": "Panorama das indústrias manufatureiras dos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 681–682",
+          "jstor": "1804391",
+          "resumo": "Lista de livros novos: indústrias manufatureiras."
+        },
+        {
+          "titulo": "Delos F. Wilcox, The Electric Railway Problem",
+          "autores": "John Bauer (New York City)",
+          "paginas": "pp. 682–684",
+          "jstor": "1804392",
+          "resumo": "Análise preparada para a Federal Electric Railways Commission sobre a crise das ferrovias elétricas urbanas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 684–685",
+          "jstor": "1804393",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "Homer B. Vanderblue",
+          "paginas": "pp. 685–688",
+          "jstor": "1804394",
+          "resumo": "Lista de livros novos: comércio e crises comerciais, com nota sobre o levantamento estatístico do U. S. Sugar Equalization Board."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 688–694",
+          "jstor": "1804395",
+          "resumo": "Lista de livros novos: comércio (continuação); contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Arthur Stone Dewing, The Financial Policy of Corporations",
+          "autores": "Stanley E. Howard (Princeton University)",
+          "paginas": "pp. 694–698",
+          "jstor": "1804396",
+          "resumo": "Tratado em cinco volumes sobre finanças de empresas, dos títulos à falência e reorganização."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 698",
+          "jstor": "1804397",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "Marshall Olds, The High Cost of Strikes",
+          "autores": "Nathaniel R. Whitney (University of Cincinnati)",
+          "paginas": "pp. 698–701",
+          "jstor": "1804398",
+          "resumo": "Estudo sobre os custos das greves, com propostas de política trabalhista."
+        },
+        {
+          "titulo": "Frank Tannenbaum, The Labor Movement; Its Conservative Functions and Social Consequences",
+          "autores": "Frank T. Stockton (University of South Dakota)",
+          "paginas": "pp. 701–702",
+          "jstor": "1804399",
+          "resumo": "Ensaio sobre as funções e as consequências sociais do movimento operário."
+        },
+        {
+          "titulo": "John R. Commons e outros, Industrial Government",
+          "autores": "D. A. McCabe",
+          "paginas": "pp. 702–704",
+          "jstor": "1804400",
+          "resumo": "Obra coletiva de um grupo que visitou cerca de trinta empresas para estudar suas formas de relação de trabalho."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 704–706",
+          "jstor": "1804401",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 707–710",
+          "jstor": "1804402",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Sir Josiah Stamp, The Fundamental Principles of Taxation in the Light of Modern Developments",
+          "autores": "Rufus S. Tucker (Harvard University)",
+          "paginas": "pp. 710–712",
+          "jstor": "1804403",
+          "resumo": "Seis conferências sobre os princípios da tributação diante das mudanças modernas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 712–713",
+          "jstor": "1804404",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 713–714",
+          "jstor": "1804405",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "John Hays Hammond e Jeremiah W. Jenks, Great American Issues, Political, Social, Economic",
+          "autores": "Frank H. Streightoff (Indiana University)",
+          "paginas": "pp. 714–716",
+          "jstor": "1804406",
+          "resumo": "Panorama de questões políticas, sociais e econômicas dos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 716–719",
+          "jstor": "1804407",
+          "resumo": "Lista de livros novos: problemas sociais e reformas, com notas de G. B. Mangold."
+        },
+        {
+          "titulo": "Solomon S. Huebner, Marine Insurance; William D. Winter, Marine Insurance: Its Principles and Practice",
+          "autores": "Avard L. Bishop (Yale University)",
+          "paginas": "pp. 719–721",
+          "jstor": "1804408",
+          "resumo": "Dois manuais de seguro marítimo, ligados ao crescimento do comércio exterior e da marinha mercante americana na guerra."
+        },
+        {
+          "titulo": "Paul Studensky, Teachers' Pension Systems in the United States",
+          "autores": "Henry J. Harris (Washington, D. C.)",
+          "paginas": "pp. 721–722",
+          "jstor": "1804409",
+          "resumo": "Estudo crítico dos fundos de pensão de professores, perto de cem, com passivos de quase meio bilhão de dólares."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 723",
+          "jstor": "1804410",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 723–724",
+          "jstor": "1804411",
+          "resumo": "Lista de livros novos: pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 724–725",
+          "jstor": "1804412",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 725–726",
+          "jstor": "1804413",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "Abraham Berglund",
+          "paginas": "pp. 727–735",
+          "jstor": "1804414",
+          "resumo": "Relatório da Tariff Commission sobre a criação de ovinos para lã e listas de documentos estaduais sobre bancos e tributação."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 736–761",
+          "jstor": "1804415",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 762–772",
+          "jstor": "1804416",
+          "resumo": "Programa da reunião anual em Pittsburgh, notícias de economistas e nota sobre a morte de Henry Carter Adams."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "hansen-ciclos-de-greves",
+          "titulo": "Hansen e as greves ao longo do ciclo",
+          "titulo_original": "Cycles of Strikes",
+          "autores": "Alvin H. Hansen (University of Minnesota)",
+          "paginas": "pp. 616–621",
+          "jstor": "1804380",
+          "chamada": "Com séries de grevistas e de preços de 1881 a 1919, Alvin H. Hansen sustenta que as greves acompanham o ciclo em sentido inverso quando os preços caem no longo prazo e no mesmo sentido quando sobem.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Entre 1906 e 1914 não havia estatística geral de greves nos Estados Unidos. Para atravessar esses nove anos, Alvin H. Hansen, da University of Minnesota, recorreu ao Canadá: usou os números de empregados afetados por greves e locautes publicados na Labour Gazette e os encaixou na série americana. Assim montou uma série de grevistas de 1881 a 1919 e pôde compará-la, ano a ano, com os preços. O resultado, publicado em seis páginas na American Economic Review de dezembro de 1921, é um argumento curto: o sinal da relação entre greves e ciclo depende da tendência de longo prazo dos preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "Hansen começa por separar dois aspectos da dinâmica econômica. Um é o movimento rítmico do ciclo de negócios; o outro, a evolução econômica. A relação entre a evolução e a tendência crescente ao conflito industrial, diz, já tinha literatura volumosa. Seu propósito é mais restrito: apontar o efeito dos movimentos cíclicos da indústria sobre as greves."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vêm os números?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As fontes são três, uma para cada trecho do período. De 1881 a 1905, os dados de greves vêm do Twenty-first Annual Report of the Commissioner of Labor. De 1906 a 1914, na falta de estatística americana, a canadense indica o movimento geral; os números do Canadá somam greves e locautes. Em 1915, o Bureau of Labor Statistics passou a publicar dados sobre greves nos Estados Unidos, e Hansen toma os números de 1915 a 1919 da Monthly Labor Review. O primeiro número dessa revista trazia algo sobre 1914, mas sem números satisfatórios de grevistas."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor registra uma limitação nos dados mais recentes: os números de grevistas de 1915 a 1919 subestimam os fatos, porque só em 64% das greves desses anos foi informado o número de pessoas envolvidas. Para os preços, usa os números-índice do Aldrich report e do Bureau of Labor Statistics."
+            },
+            {
+              "tipo": "p",
+              "texto": "A montagem segue três passos. Primeiro, o número de grevistas de cada ano foi convertido em número-índice, com base nos anos de 1901 a 1905. Segundo, a lacuna de nove anos foi preenchida com índices canadenses, também com base em 1901–1905, de modo que os relativos do Canadá para 1906–1914 ficaram ajustados aos americanos. Terceiro, para comparar greves e preços, as duas séries foram postas em escala comum, tomando o desvio-padrão de cada uma como base."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a tendência dos preços muda a relação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O gráfico das duas séries mostra dois tipos de movimento: o secular, de longo prazo, e o cíclico, de curto prazo. De 1881 a 1897, as tendências seculares andam em sentidos opostos. Isso leva Hansen a dividir o período em dois: o de preços em queda, de 1881 a 1897, e o de preços em alta, de 1898 a 1919."
+            },
+            {
+              "tipo": "p",
+              "texto": "A hipótese de trabalho é que o movimento cíclico das greves não será o mesmo nos dois casos. Com preços em queda no longo prazo, o trabalho fica na defensiva. Boa parte da luta se volta contra a redução de salários, o aumento da jornada e a piora geral das condições; quanto aos salários, trata-se de manter o que já foi conquistado. Como a pressão por cortes é maior na depressão, é nesses anos que a disputa entre trabalho e capital deve ser mais dura e o número de grevistas, maior."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "2 vezes",
+              "texto": "Proporção das greves contra redução de salário nos anos de depressão de 1883–85 e 1893–97 em relação aos anos relativamente prósperos de 1881–82 e 1886–92, segundo Hansen. No período de preços em alta, em 1899–1905, essa proporção ficou abaixo de um quinto da registrada nas depressões do período de queda."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com preços em alta, a situação se inverte. Os empregadores já não tentam cortar salários, mas impedir aumentos, e o trabalho, diante do custo de vida crescente, não pode se contentar com a defesa do que já obteve: precisa passar à ofensiva. A disputa se torna mais acirrada nos anos de prosperidade, por duas razões: é neles que sobem os preços e o custo de vida, e os grandes lucros desses anos abrem uma disputa sobre sua divisão. Daí duas previsões: correlação inversa entre grevistas e ciclo quando a tendência dos preços é de queda, e correlação direta quando é de alta."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mostram as correlações?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para testar a hipótese, Hansen precisa isolar as flutuações cíclicas. No período de 1881 a 1897, elimina as tendências seculares pelo método dos momentos e converte os resíduos em relativos, de novo com o desvio-padrão de cada série como base. No gráfico correspondente, a série de greves aparece invertida, e a série de preços é tomada como representativa dos movimentos do ciclo de negócios. A correlação encontrada é inversa, e o autor conclui que, nos períodos de preços em queda, as greves tendem a aumentar na depressão e a diminuir na prosperidade."
+            },
+            {
+              "tipo": "p",
+              "texto": "No período de alta, os anos de guerra exigem cuidado. O enorme aumento de preços e de greves daqueles anos era, diz Hansen, anormal, e por isso ele analisa 1898–1914 separadamente. As tendências foram eliminadas pelas linhas de regressão obtidas pelo método dos momentos, e os desvios em relação à média de cada série foram divididos pelo respectivo desvio-padrão. O resultado é uma correlação direta considerável."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "+0,494",
+              "texto": "Coeficiente de correlação de Pearson entre as flutuações cíclicas de preços e de grevistas em 1898–1914, segundo Hansen. O autor acrescenta que a forte alta de preços e de prosperidade nos anos de guerra trouxe aumento correspondente das greves, o que reforça a conclusão."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“As greves se correlacionam inversamente com o ciclo de negócios nos períodos de queda prolongada dos preços.”",
+              "original": "“Strikes correlate inversely with the business cycle in periods of long-run falling prices”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão final é simétrica. A hipótese, diz o autor, parece confirmada em medida considerável pelos fatos: as greves variam em sentido contrário ao ciclo quando os preços caem no longo prazo e no mesmo sentido quando sobem. A tabela que fecha o artigo traz os relativos de preços e de greves para 1881–1919 e para cada subperíodo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é o alcance do resultado?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo trata apenas do efeito do ciclo; a relação entre evolução econômica e conflito industrial fica, por escolha declarada, fora do estudo. A série de grevistas combina três fontes, e uma delas é de outro país. Os coeficientes medem a associação entre séries anuais padronizadas; a leitura causal vem da hipótese sobre a posição defensiva ou ofensiva do trabalho, que o autor apoia no dado sobre as greves contra redução de salário."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o interesse do artigo está na ideia de que a correlação entre duas séries pode mudar de sinal conforme o regime de fundo. Hansen não procura uma relação estável entre greves e ciclo; procura a condição que a inverte e a encontra na tendência secular dos preços. É um raciocínio que separa o curto do longo prazo e trata o segundo como o ambiente em que o primeiro opera.",
+                "O método também chama atenção. Remover a tendência, padronizar pelo desvio-padrão e só então comparar é o procedimento que permite falar de ciclo sem confundi-lo com crescimento. A emenda da série americana com a canadense mostra o custo prático da falta de estatística oficial: para medir um fenômeno nacional, foi preciso usar o movimento de outro país como aproximação."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Tendência secular",
+              "movimento de longo prazo de uma série, separado das oscilações do ciclo."
+            ],
+            [
+              "Método dos momentos",
+              "procedimento estatístico usado aqui para ajustar a linha de tendência de cada série."
+            ],
+            [
+              "Desvio-padrão",
+              "medida da dispersão de uma série em torno de sua média."
+            ],
+            [
+              "Coeficiente de correlação de Pearson",
+              "medida, entre -1 e +1, de quanto duas séries variam juntas."
+            ],
+            [
+              "Locaute",
+              "paralisação decidida pelo empregador, que fecha o estabelecimento aos trabalhadores."
+            ]
+          ],
+          "hoje": "A pergunta de Hansen, se o conflito trabalhista acompanha ou contraria o ciclo, continua estudada com séries muito mais longas e métodos de remoção de tendência mais refinados. A ideia de que a inflação de fundo muda o comportamento das negociações, com o trabalho na defensiva quando os preços caem e na ofensiva quando sobem, reaparece nas discussões sobre a rigidez dos salários nominais e sobre a indexação."
+        },
+        {
+          "slug": "tugwell-a-base-economica-da-regulacao",
+          "titulo": "Tugwell e a teoria por trás da regulação",
+          "titulo_original": "The Economic Basis for Business Regulation",
+          "autores": "Rexford G. Tugwell (Columbia University)",
+          "paginas": "pp. 643–658",
+          "jstor": "1804382",
+          "chamada": "Rexford G. Tugwell sustenta que custos decrescentes, combinação de empresas e demanda inelástica dão base econômica à regulação de preços dos negócios afetados por interesse público.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Ao julgar uma lei de Nova York sobre aluguéis, no caso People ex rel. Durham Realty Corp. v. La Fetra, o juiz Pound enumerou os argumentos contrários, a começar por um: construir casas não é privilégio de monopólio. Concluiu que o legislativo constatara um estado anormal de demanda e oferta, que ninguém construía porque não compensava e que especulação e opressão se haviam generalizado; era com essa condição, e não com a teoria econômica, que o Estado tinha de lidar. Rexford G. Tugwell, da Columbia University, cita o voto para discutir uma premissa: a de que a teoria econômica estaria do lado contrário."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo, publicado na American Economic Review de dezembro de 1921, sustenta que a regulação de negócios “affected with a public interest”, afetados por um interesse público, tem base na própria economia. A expressão aparece com frequência nas decisões dos tribunais americanos, e dela decorrem os controles, sobre serviços públicos e negócios privados, que protegem o interesse econômico do público. Tugwell nota a diferença entre os dois: a regulação dos serviços públicos é positiva e compulsória; a dos negócios privados, apenas negativa e proibitiva. Em ambos, regulam-se preços e padrões de serviço."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o vendedor restringe a oferta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto de partida é uma distinção. Todo produtor é também vendedor, e é como vendedor, não como produtor, que exibe os traços que tornam necessário proteger o consumidor. O interesse do vendedor, enquanto vendedor, é o maior lucro líquido possível, e o meio é controlar a oferta, um dos elementos do equilíbrio de preço. Se a empresa restringe a oferta, ainda que pouco, o preço sobe e o lucro aumenta. Pode acontecer que o preço alto reduza tanto as vendas que o lucro caia; mas o simples poder de experimentar assim com o mecanismo do mercado, diz Tugwell, já indica a necessidade de controle. E a restrição pode prejudicar o público mesmo quando a empresa nada ganha com ela."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor apoia-se em textos correntes da profissão: Henry Clay, para quem a essência da concorrência está na posse de uma alternativa e no exercício da escolha; o manual de Ely, segundo o qual o monopolista fixa a produção no ponto de maior retorno líquido; Taussig; John Stuart Mill; e A. T. Hadley, que via o preço obtido em mercado aberto, sem fraude nem monopólio artificial, como preço justo. A questão, responde Tugwell, é de fato: existe ou não o mercado aberto? Onde a concorrência não é livre, a lei deveria levar em conta a nova situação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a combinação seria inevitável?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As empresas importantes o bastante para serem reguladas operam, por natureza, com custos decrescentes: quanto mais se usa a planta e as máquinas, menor o custo unitário. Nesses negócios, o motivo econômico se realiza melhor ampliando vendas e aceitando lucro baixo por unidade. Mas há um segundo elemento, a elasticidade da demanda. Nos bens de primeira necessidade, a demanda é muito inelástica até que as tarifas caiam bastante, quando então se amplia com força. Para quem busca só o maior retorno líquido, pode ser mais vantajoso atender a demanda inelástica dos clientes mais abastados do que baixar o preço para chamar novas camadas de consumidores."
+            },
+            {
+              "tipo": "p",
+              "texto": "É essa relutância, diz o autor, que justifica a regulação. O lucro total não precisa ser menor sob regulação sensata; virá de margens unitárias baixas sobre vendas grandes, e não de margens altas sobre vendas restritas. Com custos decrescentes e demanda inelástica, a combinação dos concorrentes é inevitável no longo prazo, pelas economias de escala e pelas perdas com a duplicação de plantas, e também porque dá ao administrador controle sobre o preço. O objetivo do controle não é impedir a combinação, que Tugwell considera inevitável, mas garantir que o poder assim obtido não seja usado contra quem a empresa atende."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O Estado imparcial pode ficar parado?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Da análise sai um conflito de interesses. O administrador quer o maior retorno líquido sobre o investimento; o consumidor, a difusão mais barata e ampla dos bens. Com mercado aberto e barganha livre, as duas partes ganham; quando o mercado não é aberto, uma ganha à custa da outra. Tugwell lembra que os bens de primeira necessidade compõem o ambiente em que as crianças crescem e os adultos vivem, e que a responsabilidade pelos arranjos que permitem explorar o consumidor é comum. Acrescenta que a luta por salários mais altos pouco rende ao trabalhador se o aumento for repassado aos preços por quem tem poder de monopólio."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Para ser imparcial, neste caso, o Estado precisa agir.”",
+              "original": "“To be impartial in this case the state must act.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os controles derivados do interesse público são, nesse sentido, armas econômicas dos consumidores exercidas por meio do Estado. Há quem veja neles uma quebra de imparcialidade; Tugwell responde que essa visão confunde imparcialidade com inatividade. Os tribunais, observa, vinham transformando negócios antes privados em serviços públicos e aceitando cada vez mais a regulação por lei sob o poder de polícia."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como reconhecer um monopólio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A existência de monopólio não se descobre examinando cada empresa, mas o mercado inteiro: a necessidade total do bem, a oferta possível e a efetiva e o papel de cada negócio no processo. O autor imagina cinco empresas investigadas uma a uma, sem nada de irregular, num mercado em que o preço sobe de modo estranho. Uma delas pode ter oferta tão preponderante que as outras aceitem tacitamente sua liderança; pode haver um entendimento de cavalheiros, sem conspiração. Para justificar a regulação, não é preciso que o monopólio caiba numa definição: basta o efeito sobre preços e serviço. A preocupação jurídica com a empresa isolada, diz, explica parte do fracasso dos atos antitruste; a regulação deve tomar como base o bem ou serviço, e não a dissolução de empresas úteis."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A substituição não basta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Resta o argumento de que o consumidor pode trocar um bem por outro. Tugwell admite que às vezes a troca é boa, como a da carne por alimentos mais baratos em ocupações sedentárias. Mas, quando o preço alto resulta de restrição artificial, ele não mede escassez alguma da natureza. O autor propõe três limites à substituição: a produtividade natural da região, o estado das artes industriais e a definição dos especialistas sobre o que é desejável, como leite para crianças ou espaço de ar por pessoa numa moradia. A cozinha equipada para gás e a viagem que só o trem direto faz bem são outros exemplos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a comissão deve fixar o preço?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na parte final, Tugwell descreve o trabalho do regulador. Primeiro, estimar a oferta necessária, o que, salvo se a comissão quiser impor gostos aos consumidores, significa partir do consumo passado. Depois, estudar os custos comparados e fixar um preço que cubra a despesa do produtor marginal, o menos eficiente cuja produção ainda é necessária, com a taxa corrente de lucro. Haverá lucro nas plantas mais eficientes, o excedente do produtor, que o imposto de renda pode alcançar. A comissão começa com estatísticas regulares de preços e volumes e com contabilidade uniforme; e é preferível a preços fixados em lei, porque pode revê-los quando mudam custos e hábitos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor conclui que os atos Sherman e Clayton não podem ser considerados muito bem-sucedidos, que os legislativos vinham aplicando a regulação de modo fragmentado e em emergências, e que é a economia que fornece a base teórica dessas regulações: quando a concorrência não protege o comprador, o Estado não só pode como deve intervir."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo desloca a pergunta da regulação do terreno jurídico para o da estrutura de custos e de demanda. Custos decrescentes explicam por que a concentração tende a ocorrer; demanda inelástica explica por que a empresa concentrada pode preferir vender pouco e caro. O critério proposto ao regulador, um preço que cubra o custo do produtor marginal e traga ao mercado a oferta necessária, é uma tentativa de reproduzir por decisão administrativa o resultado de um mercado competitivo.",
+                "O texto também deixa visíveis as exigências de informação desse programa: estimar a demanda a preços diferentes, medir custos comparados com contabilidade uniforme, lidar com custos conjuntos e rever preços com frequência. A escolha do mercado inteiro, e não da empresa isolada, como unidade de análise do poder de monopólio aponta para um problema prático de qualquer política de concorrência: definir o mercado antes de julgar a conduta."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Affected with a public interest",
+              "expressão dos tribunais americanos para negócios sujeitos a regulação de preço e serviço."
+            ],
+            [
+              "Poder de polícia (police power)",
+              "competência do Estado para regular atividades privadas em nome do interesse público."
+            ],
+            [
+              "Custos decrescentes",
+              "situação em que o custo por unidade cai à medida que a produção aumenta."
+            ],
+            [
+              "Demanda inelástica",
+              "demanda cuja quantidade pouco reage a mudanças de preço."
+            ],
+            [
+              "Produtor marginal",
+              "o produtor de custo mais alto cuja produção ainda é necessária para completar a oferta."
+            ],
+            [
+              "Excedente do produtor",
+              "lucro obtido pelas plantas de custo menor quando o preço cobre o custo do produtor marginal."
+            ]
+          ],
+          "hoje": "A regulação tarifária de serviços de rede, como energia, água e telecomunicações, por agências com poder de rever preços, tornou-se prática comum, e o debate entre regular a conduta ou desfazer empresas continua no direito da concorrência. A noção de que o poder de mercado se avalia no mercado relevante como um todo, e não na empresa isolada, é hoje o ponto de partida das análises antitruste."
+        }
+      ]
+    },
+    {
+      "slug": "1921-quanto-um-homem-pode-dar",
+      "numero": 173,
+      "titulo": "Quanto um homem pode dar? O concurso Karelsen de 1921",
+      "titulo_original": "What Can a Man Afford? Two Essays awarded the Karelsen Prizes",
+      "autores": "Paul e Dorothy Douglas; Carl S. Joslyn; apresentação de Frank A. Fetter (Princeton University)",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 11, nº 4 (suplemento nº 2)",
+      "data": "dezembro de 1921",
+      "chamada": "Um doador ofereceu US$ 1.500 a quem respondesse quanto um homem pode dar. Os dois ensaios premiados trocam o apelo à generosidade por orçamentos familiares, renda nacional e escalas progressivas.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1918, no meio das campanhas de arrecadação para a guerra, E. A. Karelsen propôs à American Economic Association um concurso de ensaios com US$ 1.500 em prêmios. A pergunta vinha da experiência dele como coletor de donativos: diante de cada pedido, ouvia que a pessoa já dava tudo o que podia. Se alguém conseguisse dizer quanto um homem pode dar, escreveu, muito bem se faria, porque a maioria quer cumprir seu dever."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Deve haver algum mínimo abaixo do qual nenhum homem deveria ousar ir.”",
+          "original": "“there must be some minimum below which no man should dare go”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O suplemento nº 2 de dezembro de 1921 da American Economic Review publica os dois ensaios vencedores, precedidos de uma nota de Frank A. Fetter, de Princeton, que presidiu a comissão julgadora. O primeiro prêmio coube a Paul e Dorothy Douglas; o segundo, a Carl S. Joslyn. Os dois textos partem da mesma pergunta e chegam a respostas de natureza parecida, uma escala de contribuição que cresce com a renda e diminui com o tamanho da família, mas por caminhos muito diferentes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionou o concurso?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A associação aprovou a oferta em sua reunião de dezembro de 1918. O presidente, Gardner, nomeou três jurados: Irene Osgood Andrews, da American Association for Labor Legislation; James H. Tufts, professor de filosofia da Universidade de Chicago; e Fetter, que presidiu. O prazo de entrega foi 1º de outubro de 1920, e se sugeria uma pequena monografia de 7.500 a 25.000 palavras."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "cerca de 40",
+          "texto": "Ensaios sérios inscritos, sem contar respostas breves, algumas pouco mais que epigramas. Primeiro prêmio de US$ 1.000; segundo de US$ 500. Os três jurados escolheram os três melhores de forma independente e unânime; menção honrosa para Lillian Brandt, cujo texto saiu em separado pela Frontier Press, de Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fetter conta que a ordem final foi mais difícil que a escolha dos finalistas. Pesou o texto da oferta, que, nas palavras de um jurado, pedia sugestões bem definidas, e não apenas princípios gerais. Ele admite que talvez não tenha surgido a resposta inédita que o doador esperava, mas afirma que o concurso formulou melhor o problema e reuniu muitos fatos sobre ele."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como os Douglas chegam a um número?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Paul e Dorothy Douglas começam pelo lado da necessidade. Montam um orçamento filantrópico nacional para 1921, item por item, de igrejas a hospitais, universidades e ajuda ao exterior, e chegam a um mínimo líquido de US$ 1,719 bilhão. Encaixam esse total na renda nacional, de cerca de US$ 57 bilhões: descontam os impostos federais sobre a renda e os lucros, o investimento de que o país precisa e o custo de manter toda a população no nível de subsistência. Sobra um excedente de uns US$ 17 bilhões, do qual as doações seriam quase exatamente um décimo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte distributiva usa os estudos de orçamento operário e as estatísticas do imposto de renda. O dízimo é recusado: tirar 10% de quem ganha US$ 2.000 pesa muito mais do que tirar 10% de quem ganha um milhão. A proposta é uma escala progressiva com um piso de isenção de US$ 1.200 e um teto relativo de consumo pessoal de US$ 20.000. Aos US$ 40.000 de renda, metade iria para impostos, investimentos e doações. A família é medida em unidades de “homem adulto equivalente”, de modo que a mesma renda pede menos de uma casa com mais bocas. Aplicada à distribuição estimada da renda, a escala renderia US$ 1,731 bilhão, pouco acima da meta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que caminho segue Joslyn?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Carl S. Joslyn parte do orçamento familiar. Apoia-se nas “leis” de Engel, o estatístico alemão segundo o qual a fatia da comida cai quando a renda sobe e a das despesas diversas aumenta, e em grandes pesquisas oficiais americanas de 1901 e 1919. A conclusão é que a parcela da despesa que sobra para itens diversos cresce com a renda e encolhe com o número de filhos. Daí tira taxas sugeridas de 4% a 10% dessas despesas diversas para igreja e caridade, o que nunca passaria de cerca de 5% da renda total."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,30%",
+          "texto": "Parcela da despesa que 2.567 famílias operárias pesquisadas pelo Bureau of Labor em 1901 destinavam à igreja (0,99%) e à caridade (0,31%), segundo Joslyn. Nos Douglas, o orçamento de subsistência de Filadélfia reserva US$ 9 por ano, cerca de 0,5%, para igreja e caridade."
+        },
+        {
+          "tipo": "p",
+          "texto": "Joslyn fixa a isenção de uma família de cinco em torno de US$ 2.000 e adota, para graduar as taxas, a tabela de contribuições semanais publicada pelo Interchurch World Movement em abril de 1920. A segunda metade do ensaio passa à questão moral: por que alguém deveria dar o que pode dar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Em que os dois ensaios diferem?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os Douglas trabalham de cima para baixo: primeiro o total de que o país precisa e o investimento que não pode ser sacrificado, depois a repartição. Seu peso maior recai sobre os muito ricos e sobre os solteiros, a quem pedem quase o triplo do que costumam dar. Joslyn trabalha de baixo para cima: parte do que as famílias de fato gastam e pergunta quanto poderiam dar sem aperto, sem fixar um total nacional. Ele justifica a progressão pela conveniência prática, à maneira da teoria fiscal dos impostos, e não por uma ideia de justiça que considera impossível de medir."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o interesse do suplemento está no método. As duas respostas tratam a doação voluntária como um tributo sem coerção e importam dele as ferramentas: base de cálculo, isenção na subsistência, progressividade, ajuste pelo tamanho da família. A diferença está no ponto de partida. Os Douglas começam pela necessidade agregada e pelo investimento que a sustenta, o que os leva a um teto de consumo; Joslyn começa pela capacidade observada nos orçamentos e evita qualquer meta. É a mesma tensão de toda política fiscal, entre o que se precisa arrecadar e o que a base suporta."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Leis de Engel",
+          "regularidades observadas nos orçamentos familiares: a fatia da comida cai e a das despesas diversas sobe quando a renda aumenta."
+        ],
+        [
+          "Despesas diversas (sundries)",
+          "tudo o que não é comida, roupa, moradia, combustível e luz: seguro, saúde, lazer, educação, igreja e caridade."
+        ],
+        [
+          "Homem adulto equivalente",
+          "unidade que converte cada membro da família em fração do consumo de um homem adulto, para comparar famílias de tamanhos diferentes."
+        ],
+        [
+          "Mínimo de subsistência",
+          "nível de vida em que a família se sustenta de modo permanente, mas sem folga para o futuro."
+        ],
+        [
+          "Dízimo",
+          "contribuição de um décimo da renda, de origem bíblica, que os dois ensaios rejeitam como regra uniforme."
+        ],
+        [
+          "Escala progressiva",
+          "regra em que a porcentagem exigida aumenta com a renda, como no imposto de renda."
+        ]
+      ],
+      "hoje": "A pergunta de Karelsen continua sem resposta oficial, mas as ferramentas dos ensaios estão em toda parte: escalas de equivalência para comparar famílias, linhas de pobreza baseadas em orçamentos, a ideia de que a capacidade de contribuir começa acima de um mínimo de subsistência. Campanhas de doação e organizações filantrópicas ainda sugerem porcentagens da renda, e o debate entre dar uma fração fixa e dar uma fração crescente repete, em escala privada, a discussão sobre a progressividade dos impostos.",
+      "itens": [
+        [
+          "The E. A. Karelsen Prizes",
+          "pp. v–vi",
+          "1807355"
+        ],
+        [
+          "Part I: What Can A Man Afford?",
+          "pp. 1–95",
+          "1807356"
+        ],
+        [
+          "Part II: What Can a Man Afford?",
+          "pp. 97–118",
+          "1807357"
+        ]
+      ],
+      "jstor_edicao": "i331347",
+      "artigos": [
+        {
+          "titulo": "The E. A. Karelsen Prizes",
+          "autores": "Frank A. Fetter (Princeton University), presidente da comissão de prêmios",
+          "paginas": "pp. v–vi",
+          "jstor": "1807355",
+          "resumo": "Fetter conta a origem e o resultado do concurso. Em 1918, quando as campanhas de arrecadação para a guerra ocupavam o país, E. A. Karelsen ofereceu à American Economic Association US$ 1.500 em prêmios para os melhores ensaios sobre a pergunta “What can a man afford?”. A oferta foi aprovada na reunião de dezembro de 1918, e o presidente Gardner nomeou a comissão julgadora: Irene Osgood Andrews, da American Association for Labor Legislation, o filósofo James H. Tufts, da Universidade de Chicago, e o próprio Fetter, de Princeton, como presidente. A nota reproduz a carta do doador, para quem a resposta teria de ser elástica, mas deveria haver um mínimo abaixo do qual ninguém deveria ir. O prazo terminou em 1º de outubro de 1920, com prêmios de US$ 1.000 e US$ 500 e extensão sugerida de 7.500 a 25.000 palavras. Chegaram cerca de quarenta trabalhos sérios. Os jurados escolheram por unanimidade os três melhores e, depois de mais discussão, deram o primeiro prêmio a Dorothy e Paul H. Douglas, o segundo a Carl S. Joslyn e menção honrosa a Lillian Brandt, cujo texto já fora publicado em separado. Fetter registra que a oferta pedia sugestões definidas, e não só princípios gerais, e que o concurso, mesmo sem uma resposta inédita, formulou melhor o problema e reuniu muitos fatos."
+        },
+        {
+          "titulo": "Part I: What Can A Man Afford?",
+          "autores": "Paul e Dorothy Douglas",
+          "paginas": "pp. 1–95",
+          "jstor": "1807356",
+          "ensaio_slug": "douglas-quanto-um-homem-pode-dar",
+          "resumo": "O ensaio premiado em primeiro lugar trata a pergunta como um problema de contas nacionais. No primeiro capítulo, os autores rebatem as objeções à doação sistemática, como a ideia de que o consumo de luxo é necessário para dar emprego ou a de que o investimento e o imposto podem substituir a filantropia, e criticam a doação por impulso, que oscila com o momento e pesa mais sobre os pobres. Depois montam um orçamento filantrópico nacional mínimo para 1921, de US$ 1,719 bilhão líquido, e estimam em cerca de US$ 6 bilhões o investimento novo de que o país precisa. Com a renda nacional de cerca de US$ 57 bilhões, os impostos federais e o custo da subsistência, as doações equivaleriam a um décimo do excedente social. O quarto capítulo descreve os níveis de vida das famílias operárias, o que elas dão à igreja e à caridade e o que as estatísticas do imposto de renda de 1916 mostram sobre as doações dos mais ricos, e introduz a medida do homem adulto equivalente. O quinto propõe a escala: isenção abaixo de US$ 1.200, teto relativo de consumo de US$ 20.000, metade da renda destinada a outros fins aos US$ 40.000 e taxas de doação e investimento que crescem até 27,2% cada aos US$ 95.000. Aplicada à renda de 1921, a escala renderia US$ 1,731 bilhão."
+        },
+        {
+          "titulo": "Part II: What Can a Man Afford?",
+          "autores": "Carl S. Joslyn",
+          "paginas": "pp. 97–118",
+          "jstor": "1807357",
+          "ensaio_slug": "joslyn-quanto-um-homem-pode-dar",
+          "resumo": "O ensaio premiado em segundo lugar separa duas perguntas: o que um homem pode dar, como item do orçamento familiar, e o que deveria dar, como obrigação moral. Joslyn começa pelo dízimo, de origem bíblica, e o considera impraticável numa economia industrial, porque nas rendas baixas as necessidades consomem quase tudo. Recorre então às leis de Engel e às pesquisas do Bureau of Labor de 1901, com 11.156 famílias, e do Bureau of Labor Statistics de 1919, para mostrar que a parcela das despesas diversas cresce com a renda e cai com o tamanho da família, e que a fração dessas despesas dada à igreja e à caridade tende a cair quando elas crescem. Propõe taxas de 4% a 10% das despesas diversas, isenção perto de US$ 2.000 para uma família de cinco e de cerca de US$ 700 para um homem sozinho, e adota como escala a tabela de contribuições semanais do Interchurch World Movement, de abril de 1920, que converte em porcentagens entre 0,28% e 5,35% da renda. Defende a progressão com a teoria fiscal dos impostos, por conveniência, e não por justiça. Na parte final, contesta a tese de W. G. Sumner de que as classes nada devem umas às outras e funda a obrigação de dar no princípio da maior felicidade do maior número, com apoio em Mill."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "douglas-quanto-um-homem-pode-dar",
+          "titulo": "Os Douglas, 1921: uma escala progressiva para a filantropia",
+          "titulo_original": "Part I: What Can A Man Afford?",
+          "autores": "Paul e Dorothy Douglas",
+          "paginas": "pp. 1–95",
+          "jstor": "1807356",
+          "chamada": "O ensaio que ganhou o primeiro prêmio Karelsen calcula quanto os Estados Unidos precisavam dar em 1921, quanto podiam dar sem sacrificar o investimento e como repartir o total entre famílias de cada renda e tamanho.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Um operário de Filadélfia com mulher e três filhos, vivendo no mínimo de subsistência, gastaria em 1920 cerca de US$ 1.792 por ano. Desse total, US$ 9 iam para a igreja e a caridade, meio por cento. Paul e Dorothy Douglas observam que a cifra parece ínfima, mas que a mesma família gastava só US$ 23 por ano com toda forma de recreação. É desse tipo de comparação que o ensaio vencedor do concurso Karelsen tira sua resposta: quanto se pode dar depende do que sobra depois do necessário, e o necessário pode ser medido."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a doação por impulso não basta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro capítulo enfrenta as razões que costumam travar a doação. A primeira é a crença de que o consumo de luxo é bom em si, porque dá emprego. Os autores lembram, com Bastiat, que o trabalho empregado no consumo pessoal é visto por todos, enquanto o empregado pelo investimento ou pela caridade não é visto. Rebatem também a ideia de que o luxo dos poucos difunde novidades e estimula o esforço: para eles, os ganhos técnicos vêm da produção em massa, e o luxo desvia trabalho para o raro e o feito à mão. Citam Veblen sobre o desperdício conspícuo."
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda razão é a dúvida sobre se a caridade é o meio certo. Os Douglas admitem as virtudes do investimento e do imposto, mas lembram que há necessidades sem retorno comercial, como a educação universal, e que as entidades voluntárias são mais flexíveis, experimentam antes do governo e representam minorias como as confissões religiosas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Resta o problema da doação por impulso. Ela cresce nas crises e despenca depois, não acompanha o custo de vida, pesa mais sobre quem tem menos e premia com novos pedidos quem já deu. Os autores notam que uma contribuição de dez dólares em 1910 tende a continuar de dez dólares em 1920. O pobre compra a satisfação de sua generosidade num mercado caro; o rico, num mercado barato."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“É apenas chicotear um cavalo cansado continuar apelando à natureza impulsiva do homem para ‘dar até doer’.”",
+              "original": "“merely whipping a tired horse to keep appealing to man's impulsive nature to ‘give until it hurts’”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "De quanto o país precisa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo capítulo monta um orçamento filantrópico nacional para 1921, a preços do início do ano. Os autores dizem não descrever uma idade de ouro da benevolência, mas o mínimo para manter o lugar do país em saúde, educação, vida espiritual e bem-estar. Só entram causas que já têm apoio público, e os valores partem das contribuições registradas, corrigidas pela alta de preços e pelo subfinanciamento crônico das entidades."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 1,719 bilhão",
+              "texto": "Orçamento filantrópico mínimo líquido para 1921, segundo os Douglas: total bruto de US$ 1,749 bilhão menos US$ 30 milhões de renda de fundos patrimoniais. Fins religiosos, US$ 836 milhões (US$ 500 milhões para as denominações protestantes e US$ 250 milhões para a Igreja Católica); presentes diretos a indivíduos, US$ 200 milhões; assistência organizada, US$ 199 milhões; ajuda ao exterior, US$ 166 milhões; saúde, US$ 158 milhões."
+            },
+            {
+              "tipo": "p",
+              "texto": "O terceiro capítulo estima o investimento novo que as doações não deveriam comprimir, excluídos manutenção, depreciação e o capital formado fora do sistema de preços. O critério é a necessidade física de capital, não a rentabilidade do momento: em 1921, ano de depressão, ampliar o equipamento não dava lucro, mas o crescimento seguia necessário. O total fica em torno de US$ 6 bilhões, dos quais US$ 2,3 bilhões em edificações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto sobra depois do necessário?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conta central aparece já no primeiro capítulo. A renda nacional de 1921 seria de cerca de US$ 57 bilhões. Os impostos federais sobre a renda e os lucros extraordinários levariam uns US$ 4 bilhões, e o investimento, outros US$ 6 bilhões. Manter a população na subsistência, cerca de cinco dólares por dia para uma família urbana de tamanho normal e três a quatro no campo, consumiria pouco mais de US$ 30 bilhões. O excedente seria de uns US$ 17 bilhões, e US$ 1,7 bilhão de doações seriam quase exatamente 10% dele."
+            },
+            {
+              "tipo": "p",
+              "texto": "O dízimo, portanto, valeria para o excedente social, não para cada renda. Aplicado a cada um, deixaria US$ 1.800 a quem ganha US$ 2.000 e US$ 900.000 a quem ganha um milhão. A alternativa radical, cortar toda renda acima de cinco ou seis mil dólares, é rejeitada por desorganizar a economia e tirar das entidades a gestão democrática. Os autores optam por uma curva de porcentagens crescentes, inspirada na que o Bankers' Trust Company de Nova York publicou em 1918."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como medir o tamanho da família?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O quarto capítulo descreve três níveis de vida operária. No nível de pobreza, cerca de US$ 1.324 anuais em Nova York, a preços de abril de 1921, não caberia pedir doações, embora mesmo ali as famílias costumem dar cinco ou seis dólares por ano à igreja. No mínimo de subsistência, a doação ganha lugar fixo no orçamento. No nível de conforto mínimo, de cerca de US$ 2.400 em Washington, igreja e caridade somam US$ 31. Acima disso faltam dados de consumo, e os autores usam o imposto de renda: em 1916, quem ganhava menos de US$ 10.000 declarava doar cerca de 1,5%; acima de US$ 500.000, perto de 7%."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para comparar famílias, os Douglas usam uma escala de consumo alimentar em que cada membro vale uma fração de um homem adulto. A família padrão, pai, mãe e três filhos, soma 3,33 unidades. Uma casa com pai e mãe de cinquenta anos, filha de vinte e avô de oitenta soma 3,6 e pode gastar cerca de 9% mais que a padrão com a mesma renda. A conta é feita por bocas a alimentar, não por pessoas a quem se pode pedir."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que escala propõem?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O quinto capítulo junta tudo. Abaixo de US$ 1.200 nada se pede. O teto relativo de consumo pessoal é de US$ 20.000, suficiente, dizem, para qualquer família normal. Aos US$ 40.000, metade da renda vai para impostos, investimentos e doações; acima disso, os acréscimos de renda são tão pesados que quem ganha um milhão por ano ficaria com pouco mais de US$ 31.000 para gastar. Até US$ 14.500, o investimento cresce mais depressa que a doação, porque a renda da classe média vem do trabalho e é mais incerta; depois, a doação acelera."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "27,2%",
+              "texto": "Taxa máxima recomendada tanto para doação quanto para investimento, atingida aos US$ 95.000 de renda familiar. A doação começa em 0,1% aos US$ 1.250, chega a 5,1% aos US$ 14.500 (com 20,5% de investimento) e se iguala ao investimento em 23,8% aos US$ 55.000. Acima de US$ 95.000 as duas caem, porque o imposto federal sobe."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para usar a tabela, divide-se a renda pelo número de homens adultos equivalentes. Um solteiro com renda líquida de US$ 2.535 vale 1,3 unidade, o que dá US$ 1.900 por unidade e uma doação de 3,9%, ou US$ 99. Uma família de seis com a mesma renda soma 4,6 unidades, fica com US$ 551 por unidade e daria 0,7%, ou US$ 17,75."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A escala fecha a conta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aplicada à distribuição estimada da renda pessoal de 1921, de US$ 55,5 bilhões, a escala renderia US$ 1,731 bilhão, US$ 12 milhões acima da meta. Os autores calculam que o país já dava de US$ 1,2 a US$ 1,3 bilhão; o acréscimo cairia sobretudo sobre os muito ricos e sobre os solteiros, a quem se pede quase o triplo do que costumam dar. Os 5% de cima da renda nacional dariam mais que os 78% de baixo. Isentar todas as rendas equivalentes abaixo de US$ 2.800, porém, custaria uns US$ 180 milhões e afastaria quase 90% dos doadores."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Nosso esquema é traçado sob a suposição impossível de que todo homem cumpra seu dever.”",
+              "original": "“Our scale is drawn on the impossible supposition that every man does his duty.”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do ensaio é tratar a filantropia como um problema de alocação do excedente. Antes de dizer quanto cada um deve dar, os autores perguntam quanto a economia pode desviar do consumo sem comer o investimento, o que transforma uma questão de consciência numa questão de contas nacionais. A escolha de proteger mais a poupança da classe média do que a dos ricos, com o argumento de que a renda do trabalho é mais incerta que a da propriedade, é uma hipótese sobre risco e acumulação que reaparece em qualquer desenho de tributação progressiva.",
+                "O ponto mais frágil é o próprio orçamento de necessidades, que depende de julgamentos sobre o que cada causa merece. Os autores reconhecem isso e dizem manter o método, não os detalhes: necessidade, excedente, isenção, progressão e ajuste por tamanho de família."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Excedente social",
+              "parte da renda nacional que sobra depois de impostos federais, investimento necessário e subsistência da população."
+            ],
+            [
+              "Mínimo de submersão",
+              "renda abaixo da qual a escala não pede doação nem poupança; fixado em US$ 1.200."
+            ],
+            [
+              "Máximo relativo de luxo",
+              "nível de consumo pessoal, de US$ 20.000, acima do qual quase todo o excedente iria para doação e investimento."
+            ],
+            [
+              "Homem adulto equivalente",
+              "fração do consumo alimentar de um homem adulto atribuída a cada membro da família."
+            ],
+            [
+              "Investimento novo",
+              "acréscimo líquido ao estoque de capital, sem contar manutenção e depreciação."
+            ],
+            [
+              "Desperdício conspícuo",
+              "expressão de Veblen para o gasto feito para exibir posição social."
+            ]
+          ],
+          "hoje": "O roteiro dos Douglas, estimar a necessidade, preservar o investimento, isentar a subsistência e graduar a contribuição pelo tamanho da família, é o mesmo dos sistemas tributários modernos, com suas faixas de isenção e deduções por dependente. As escalas de equivalência que eles usaram para comparar famílias continuam a ser instrumento corrente nas estatísticas de pobreza e desigualdade. E a pergunta sobre quanto o consumo dos mais ricos pode ceder sem prejudicar a acumulação de capital segue no centro do debate sobre tributação de altas rendas."
+        },
+        {
+          "slug": "joslyn-quanto-um-homem-pode-dar",
+          "titulo": "Joslyn, 1921: do orçamento familiar à obrigação moral",
+          "titulo_original": "Part II: What Can a Man Afford?",
+          "autores": "Carl S. Joslyn",
+          "paginas": "pp. 97–118",
+          "jstor": "1807357",
+          "chamada": "O ensaio que ganhou o segundo prêmio Karelsen usa as leis de Engel e pesquisas oficiais de orçamento para sugerir quanto cada família pode dar à igreja e à caridade, e depois discute por que deveria dar.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Entre 25 de abril e 2 de maio de 1920, o Interchurch World Movement, uma campanha unificada de igrejas americanas, publicou nos principais jornais do país uma tabela de contribuições semanais. Uma pessoa sozinha com renda de US$ 10.000 deveria prometer US$ 10,70 por semana à igreja; uma família de seis com US$ 1.800, alguns centavos. Carl S. Joslyn conclui seu ensaio, segundo colocado no concurso Karelsen, adotando essa tabela como a melhor resposta disponível, mas só depois de mostrar, com orçamentos familiares, por que ela fazia sentido."
+            },
+            {
+              "tipo": "p",
+              "texto": "O ensaio tem 22 páginas e duas partes. Joslyn distingue de saída duas perguntas: o que um homem pode dar, como item do orçamento com que sustenta a família, e o que deveria dar, como obrigação para com os menos afortunados. A primeira é econômica; a segunda, moral."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que não o dízimo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto de partida é o dízimo, a décima parte da produção da terra que as tribos hebraicas reservavam a fins religiosos e que a Igreja cristã adotou, introduzido na Inglaterra por volta do fim do século VIII. Joslyn observa que há quem ainda o considere praticável, como se um tributo sobre o produto da terra valesse para o produto do trabalho numa sociedade industrial. O exame dos orçamentos familiares, diz, desfaz o engano: nas rendas baixas, as necessidades invadem o que poderia ir para a caridade, e uma cota de 10% empobreceria a família em algum bem indispensável."
+            },
+            {
+              "tipo": "p",
+              "texto": "A pergunta passa a ser se cabe uma proporção menor e fixa ou uma taxa progressiva. Para responder, o autor estuda os orçamentos em detalhe."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que dizem os orçamentos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Joslyn recorre às proposições do estatístico alemão Engel, formuladas cerca de sessenta anos antes: quanto maior a renda, menor a porcentagem gasta com subsistência; roupa, aluguel, combustível e luz tomam porcentagens mais ou menos constantes; e a fatia das despesas diversas cresce com a renda. Ele insiste na diferença entre variação absoluta e proporcional: o gasto com comida sobe com a renda, mas cai como parcela do total."
+            },
+            {
+              "tipo": "p",
+              "texto": "A pesquisa do Bureau of Labor de 1901, com 11.156 famílias “normais”, confirma em grande parte as leis de Engel, com exceções: nos Estados Unidos, a parcela da roupa quase dobra nas rendas mais altas, sinal, diz o autor, do desejo de viver à altura da renda, ao menos na aparência. Cruzando renda e número de filhos, a parcela das despesas diversas aumenta com a renda e diminui com o tamanho da família, sobretudo a partir de três filhos. Daí a conclusão de que qualquer sugestão de contribuição mínima tem de considerar as duas variáveis."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "11.156",
+              "texto": "Famílias “normais” da pesquisa do Bureau of Labor de 1901: marido trabalhando, esposa, no máximo cinco filhos, nenhum acima de 14 anos, sem dependentes, pensionistas ou empregados. Entre as 2.567 famílias estudadas em detalhe, 0,99% da despesa ia para a igreja e 0,31% para a caridade, 1,30% no total."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A caridade cresce com a renda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não necessariamente, segundo os dados que Joslyn reúne. No estudo de L. B. More sobre 200 famílias de Nova York, a igreja leva em média 2,5% das despesas diversas, contra 18,7% do dinheiro para gastos pessoais e 14,1% da bebida. Na pesquisa do Bureau of Labor Statistics de 1919, em 92 cidades de 42 estados, com dados de despesas diversas para 30 localidades, a fração dessas despesas dada à igreja e à caridade cai de 4,97% para 2,98% à medida que as despesas diversas passam de 17%–19% para 23%–25% do orçamento. Lazer e férias, ao contrário, mantêm sua fatia."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor não vê razão para que a proporção destinada à igreja e à caridade não se mantenha constante, se não crescer. Se famílias com pouca folga podem dar 4% das despesas diversas, as de folga maior podem dar o mesmo ou mais, depois de atendidos seguro, poupança, médico e transporte. E isso, frisa, como possibilidade econômica, não como obrigação moral."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uma taxa de 6% ou menos certamente não é demais para pedir a um homem para fins filantrópicos.”",
+              "original": "“A rate of 6 per cent or less is surely not too much to ask of a man”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que taxas e que isenção propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Joslyn sugere uma progressão: 4% das despesas diversas para famílias em que elas representam de 17% a 19% do total, subindo um ponto a cada faixa até 10% quando passam de 30%. Reconhece que a graduação é em grande parte arbitrária, mas nota que, assim, a contribuição nunca superaria cerca de 5% da renda total."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para a isenção, usa o orçamento de “saúde e decência” calculado para uma família de cinco em Washington em agosto de 1919: US$ 2.262,47 a preços de mercado, ou US$ 2.015,56 com economia e boa administração doméstica. Em novembro o custo já subira para US$ 2.288,25. Joslyn fixa o ponto de isenção da família de cinco em torno de US$ 2.000 e, dividindo pelas unidades de adulto equivalente, chega a cerca de US$ 700 para um homem sozinho. Como o próprio orçamento oficial inclui uma pequena verba para igrejas, alguma contribuição é razoável mesmo nesse nível."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "1,38%",
+              "texto": "Contribuição que a escala de Joslyn daria a uma família de cerca de cinco pessoas com renda de US$ 1.800 a US$ 2.100: 6% das despesas diversas, que tomam 23% do orçamento. A tabela do Interchurch World Movement indica 1,43% para a mesma família. Nos dois casos, o máximo não passa de 6% da renda."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que adotar a tabela das igrejas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Faltavam dados recentes e detalhados para graduar as taxas por tamanho de família, e Joslyn considera que generalizar além disso seria arriscado. Por isso adota a tabela do Interchurch World Movement, cuja isenção e cujo teto coincidem aproximadamente com os seus. Ela é expressa em contribuições semanais porque, argumenta, todos sabem quanto dão por semana, mas poucos sabem quanto isso soma no ano. Convertida em porcentagens, vai de 0,28% para uma família de seis com US$ 1.800 a 5,35% para uma pessoa sozinha com US$ 10.000. O autor aponta irregularidades na progressão, sinal de que a tabela não foi construída em porcentagens."
+            },
+            {
+              "tipo": "p",
+              "texto": "A defesa da progressão vem da analogia com o imposto. Das três teorias de tributação, a do benefício e a da capacidade de pagar esbarram, diz ele, na impossibilidade de medir benefícios, capacidade ou sacrifício. Resta a teoria fiscal: o rico paga proporcionalmente mais porque assim se arrecada mais e porque, como mostram os orçamentos, ele sentiria pouco o pedido maior. A diferença, ressalva, é que o imposto é compulsório e a doação deve continuar voluntária."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vem a obrigação de dar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A tabela mostra o que é economicamente possível, não o que é moralmente obrigatório. Para a segunda parte, Joslyn escolhe como adversário W. G. Sumner, de Yale, autor de What Social Classes Owe to Each Other, para quem um homem livre não tem para com os de sua condição outro dever senão respeito, cortesia e boa vontade. Joslyn contesta a separação de Sumner entre males naturais e males causados pelos homens e propõe outro critério: a maior felicidade do maior número."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com uma passagem do Utilitarismo de Mill, argumenta que o sentimento de unidade com os outros faz parte da natureza humana e que a felicidade do indivíduo e a da sociedade tendem a coincidir. Se for assim, há obrigação de ajudar quem, por acidente, doença ou abandono, não pode se realizar plenamente. Joslyn concorda com Sumner num ponto: a esmola indiscriminada é um mal. A tabela, diz, existe justamente para canalizar a doação para a caridade organizada."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o ensaio de Joslyn é um bom exemplo de como usar as leis de Engel como teoria da capacidade contributiva: se a parcela da renda livre de necessidades cresce com a renda e cai com o número de dependentes, uma regra uniforme pesa mais sobre quem tem menos folga. A escolha da teoria fiscal, e não de uma teoria de justiça, é coerente com o material: o autor tem dados sobre o que as famílias gastam, não sobre o que sacrificam.",
+                "O limite está na falta de um total. Sem perguntar quanto o conjunto das contribuições precisa somar, a escala responde quanto cada família pode dar, mas não se isso basta. É a diferença entre desenhar uma base e definir uma meta de arrecadação, e Joslyn, por escolha declarada, fica só com a primeira."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Leis de Engel",
+              "proposições do estatístico alemão sobre como a composição do gasto familiar muda com a renda."
+            ],
+            [
+              "Família normal",
+              "na pesquisa de 1901, casal com marido trabalhando e até cinco filhos com menos de 14 anos, sem outros moradores."
+            ],
+            [
+              "Despesas diversas",
+              "gastos além de comida, roupa, aluguel, combustível e luz; incluem seguro, lazer, educação, igreja e caridade."
+            ],
+            [
+              "Teoria fiscal da tributação",
+              "visão de que a progressão se justifica pela conveniência de arrecadar mais, não por um critério de justiça."
+            ],
+            [
+              "Orçamento de saúde e decência",
+              "cesta mínima calculada pelo Bureau of Labor Statistics em 1919 para uma família de cinco em Washington."
+            ],
+            [
+              "Interchurch World Movement",
+              "campanha unificada de igrejas americanas que publicou em 1920 uma tabela de contribuições."
+            ]
+          ],
+          "hoje": "O raciocínio de Joslyn, de que a capacidade de contribuir se mede pela renda que sobra depois das necessidades e varia com o número de dependentes, é o mesmo que sustenta as deduções por dependente e as faixas de isenção dos impostos sobre a renda. A curva de Engel continua a ser usada para comparar o bem-estar de famílias e calibrar linhas de pobreza. E o debate entre justificar a progressividade por justiça ou por conveniência arrecadatória segue vivo na teoria da tributação."
+        }
+      ]
     }
   ],
   "proximas": [
