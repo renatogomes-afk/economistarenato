@@ -14,7 +14,7 @@ verif_path = os.path.join(AQUI, "verificacao.json")
 verif = json.load(open(verif_path, encoding="utf-8")) if os.path.exists(verif_path) else {}
 
 OBRIG = ["slug", "numero", "titulo", "titulo_original", "autores", "publicacao", "volume", "data", "chamada", "blocos", "hoje", "itens", "jstor_edicao"]
-TIPOS = {"p", "h2", "caixa", "citacao", "leitura"}
+TIPOS = {"p", "h2", "caixa", "citacao", "leitura", "comentario"}
 
 por_slug = {e["slug"]: e for e in dados["edicoes"]}
 for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
@@ -37,11 +37,23 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
         # Piso de conteúdo (decisão do dono, 14/11/2026): todo artigo principal explica ideia e argumento no hub.
         reuniao = "suplemento" in ed.get("volume", "")
         orig = {i[2]: i[0] for i in ed["itens"]}
+        # Formato de 14/11/2026: cada artigo principal é uma seção da resenha (h2 com "artigo": jstor).
+        secoes, atual = {}, None
+        for bl in ed["blocos"]:
+            if bl["tipo"] == "h2":
+                atual = bl.get("artigo")
+                if atual: secoes[atual] = 0
+                continue
+            if atual:
+                txt = bl.get("texto", "")
+                secoes[atual] += len((" ".join(txt) if isinstance(txt, list) else txt).split())
         for x in ed.get("artigos", []):
             t0 = orig.get(x.get("jstor"), "")
             if t0.startswith(("[untitled]", "New Books")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^\[.*\]: ", t0):
                 continue
             n = len(x.get("resumo", "").split())
+            if secoes:
+                n = secoes.get(x.get("jstor"), 0)
             discussao = re.search(r"Discussion|Round Table|Meeting|Address of|Luncheon", t0)
             piso = 0 if (reuniao and discussao) else (150 if reuniao else 300)
             assert n >= piso, f"{f}: artigo {x.get('jstor')} '{t0[:50]}' com {n} palavras (< {piso})"

@@ -22,7 +22,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261110st"
+CSS_V = "20261114a"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -459,7 +459,12 @@ def render_blocos(blocos):
         if t == "p":
             out.append(f"    <p>{e(b['texto'])}</p>")
         elif t == "h2":
-            out.append(f"    <h2>{e(b['texto'])}</h2>")
+            ancora = f' id="art-{b["artigo"]}"' if b.get("artigo") else ""
+            out.append(f"    <h2{ancora}>{e(b['texto'])}</h2>")
+            if b.get("artigo") and b.get("credito"):
+                out.append(f'    <p class="credito-art">{e(b["credito"])}</p>')
+        elif t == "comentario":
+            out.append(f'    <p class="ler-coment"><a href="{e(b["slug"])}/">{e(b.get("texto") or "Ler o comentário completo")} &rarr;</a></p>')
         elif t == "subtopico":
             ancora = "st-" + b["numero"].replace(".", "-")
             out.append(f'    <h2 class="subtopico" id="{ancora}"><span class="st-num">{e(b["numero"])}</span> {e(b["texto"])}</h2>')
@@ -550,6 +555,18 @@ def artigos_em_blocos(ed, rel, arts):
     for k, nome in nomes:
         g = grupos[k]
         if not g: continue
+        secoes = {b.get("artigo") for b in ed.get("blocos", []) if b.get("artigo")}
+        if k == "artigo" and secoes:
+            lis = []
+            for a in g:
+                ln = f'        <li><b>{e(a["titulo"])}</b>' + (f' — {e(a["autores"])}' if a.get("autores") else "") + (f' ({e(a["paginas"])})' if a.get("paginas") else "")
+                if a.get("jstor") in secoes: ln += f' · <a href="#art-{a["jstor"]}">resenha acima</a>'
+                elif a.get("resumo"): ln += f'. {e(a["resumo"])}'
+                if a.get("ensaio_slug"): ln += f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">comentário completo</a>'
+                if a.get("jstor"): ln += f' · <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>'
+                lis.append(ln + "</li>")
+            out.append(f'      <h3>{nome} ({len(g)})</h3>\n      <ol class="artigos-principais">\n' + "\n".join(lis) + "\n      </ol>")
+            continue
         cls = ' class="artigos-principais"' if k == "artigo" else ""
         out.append(f'      <h3>{nome} ({len(g)})</h3>\n      <ol{cls}>\n' + "\n".join(item_artigo_html(ed, a, rel) for a in g) + "\n      </ol>")
     return '    <div class="artigos-edicao">\n' + "\n".join(out) + "\n    </div>\n"

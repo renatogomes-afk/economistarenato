@@ -636,3 +636,7 @@ figcaption .credito::before{content:"· "}
 .indice-st li{margin:0 0 5px;break-inside:avoid}
 .indice-st a{color:var(--tinta);text-decoration:none}
 @media (max-width:600px){.indice-st ul{columns:1}}
+/* AER: cada artigo principal é uma seção da resenha da edição */
+.corpo h2[id^="art-"]{scroll-margin-top:80px}
+.credito-art{font-family:var(--sans);font-size:13px;color:#555;margin:-6px 0 14px}
+.ler-coment{font-family:var(--sans);font-size:14px;font-weight:600;margin:4px 0 22px}
