@@ -89413,10 +89413,1799 @@
         ]
       ],
       "jstor_edicao": "i304587"
+    },
+    {
+      "slug": "1922-credito-russia-e-circuito-do-dinheiro",
+      "numero": 178,
+      "titulo": "Adams, o crédito, a Rússia que compra e o circuito do dinheiro",
+      "titulo_original": "The American Economic Review, vol. XII, no. 3, September 1922",
+      "autores": "Anna Youngman, Alonzo Englebert Taylor, William T. Foster e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 12, nº 3",
+      "data": "setembro de 1922",
+      "chamada": "Um memorial a Henry Carter Adams; Youngman questiona o poder da taxa de redesconto; Taylor vê na Rússia um comprador perdido; Foster mede o tempo que o dólar leva para voltar ao consumidor.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 22 de fevereiro de 1922, aniversário de Washington, o Dr. F. Chang, da delegação chinesa à conferência de armamentos de Washington, instalou um monumento sobre um túmulo em Ann Arbor: um pedestal de mármore em forma da tartaruga sagrada da China, que sustenta uma lápide com inscrição em chinês de um lado e em inglês do outro. O túmulo era de Henry Carter Adams, ex-presidente da American Economic Association, morto em 11 de agosto de 1921. O monumento era um presente do Ministério das Comunicações chinês. A cena, reproduzida do Michigan Alumnus, fecha o memorial que abre o número de setembro de 1922 da American Economic Review."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto da edição trata de dinheiro e crédito vistos de três ângulos. Anna Youngman pergunta se um banco central pode de fato dirigir o crédito e conclui que o poder da taxa de redesconto foi exagerado. Alonzo Englebert Taylor, do Food Research Institute da Stanford University, sustenta que o mundo sente falta da Rússia mais como compradora do que como fornecedora. William T. Foster propõe medir quanto tempo um dólar leva para sair das mãos de um consumidor e voltar às de outro, e liga essa velocidade às oscilações dos negócios. Completam o número resenhas, listas de livros novos, resumos de periódicos, documentos oficiais e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem foi Henry Carter Adams?",
+          "artigo": "1803145",
+          "credito": "J. H. Hollander, R. T. Ely, E. R. A. Seligman e outros · “Memorial to Former President Henry C. Adams” · pp. 401–416"
+        },
+        {
+          "tipo": "p",
+          "texto": "O memorial reúne as falas de um encontro de amigos de Adams durante a reunião anual da associação em Pittsburgh, em 29 de dezembro de 1921, presidido por Jacob H. Hollander. Falaram também R. T. Ely, E. R. A. Seligman, C. H. Cooley, F. H. Dixon, D. Friday, I. L. Sharfman, J. B. Clark e F. H. Giddings."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelo relato de Seligman, Adams nasceu no Iowa em 31 de dezembro de 1851, filho de Ephraim Adams, um dos estudantes de teologia de Andover que foram para o Iowa em 1842 e ajudaram a fundar o Grinnell College. Destinado ao ministério, formou-se em Grinnell em 1874 e entrou no seminário de Andover em 1875, mas voltou-se para a economia como caminho para a reforma ética. Foi um dos dez escolhidos, entre mais de trezentos candidatos, para as bolsas da nova Johns Hopkins, onde recebeu em 1878 o primeiro doutorado concedido pela universidade. Estudou depois em Oxford, Paris, Berlim e Heidelberg."
+        },
+        {
+          "tipo": "p",
+          "texto": "Lecionou em Cornell, na Johns Hopkins e em Michigan. Em 1886, uma palestra sobre a greve ferroviária de Gould, relatada de forma distorcida pelos jornais, levou Henry Sage, benfeitor de Cornell, a pedir sua saída; o reitor Angell o chamou então para a University of Michigan, onde ficou. Na obra escrita, Seligman destaca a tese sobre a tributação nos Estados Unidos de 1789 a 1816, o livro Public Debts, de 1887, e The Science of Finance, o primeiro tratado americano sobre finanças públicas. Ely lembra a monografia “Relation of the State to Industrial Action”, preparada para o primeiro volume da associação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1906",
+          "texto": "Ano das emendas à lei ferroviária em que, segundo Seligman e Dixon, Adams fez incluir relatórios das ferrovias sob juramento, com penalidades, e o poder da Interstate Commerce Commission de impor contabilidade uniforme a todas elas. Adams organizava as estatísticas da comissão desde 1887, em tempo parcial, por mais de vinte anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dixon descreve esse trabalho como a parte mais duradoura da carreira. Antes de 1906, a Suprema Corte entendera que a lei não previa meio de obrigar as ferrovias a apresentar os relatórios, e cada empresa escriturava à sua maneira. De 1913 a 1917, Adams assessorou o governo chinês na unificação da contabilidade das ferrovias estatais, o que explica a lápide de Ann Arbor. Clark o descreve como fundador da associação, seu primeiro vice-presidente e, cedo, seu presidente."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Elevar o nível da concorrência a um nível mais alto.”",
+          "original": "“to raise the level of competition to a higher level.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A taxa de redesconto controla o crédito?",
+          "artigo": "1803146",
+          "credito": "Anna Youngman · “A Popular Theory of Credit Applied to Credit Policy” · pp. 417–446"
+        },
+        {
+          "tipo": "p",
+          "texto": "Anna Youngman parte de um artigo seu publicado na revista em setembro de 1921 sobre a eficácia das taxas de desconto dos bancos do Federal Reserve. Desde então, diz, acumulou-se evidência de que as taxas cobradas pelos bancos de reserva aos bancos-membros pouco se ligam às que estes cobram de seus clientes. Em partes do país, 8%, 10% ou 12% são taxas costumeiras, que nem a alta nem a queda do redesconto alteraram."
+        },
+        {
+          "tipo": "p",
+          "texto": "A pergunta de fundo é teórica: os bancos são agentes passivos ou instituições formativas? A autora adota a definição que chama de popular, a de banqueiros e homens de negócios: capital e crédito são a mesma coisa, o poder de compra que os bancos alugam aos tomadores, e o juro é o preço desse aluguel. Aponta H. J. Davenport e Schumpeter como defensores consistentes dessa linha e critica Gustav Cassel, cuja taxa “verdadeira” de juros, segundo ela, só pode ser alcançada por definição. Compara o sistema bancário centralizado a um monopolista: controla a oferta, mas não pode fixar o preço sem olhar a demanda."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí três teses. Crédito de longo e de curto prazo é, em essência, o mesmo, e nenhum tipo é por si mais inflacionário que outro; a inflação vem da expansão total do poder de compra num ritmo maior que o necessário para absorver bens e serviços a preços correntes. A política de crédito deve, portanto, abranger também o mercado de investimentos, e os bancos de reserva deveriam poder emprestar contra ações e títulos e ampliar as operações de mercado aberto. E a força das mudanças de taxa foi exagerada: um banco de redesconto que cobra menos que os bancos-membros só controla o crédito, na expansão, por racionamento."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14%",
+          "texto": "Teto das taxas que, segundo Youngman, o mercado suporta em algumas regiões dos Estados Unidos, onde bancos-membros agem como pequenos monopolistas e cobram 10%, 12% ou 14%. Ali, propõe ela, o Federal Reserve deveria recusar redesconto aos bancos com cobranças excessivas ou emprestar diretamente aos tomadores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A autora pede ainda que qualquer agência nova de crédito agrícola siga a política do sistema de reserva, e rejeita guias mecânicos como a estabilização do nível de preços, as reservas legais e os movimentos de ouro. O que falta, conclui, é conhecimento melhor dos fatos da indústria e dos mercados."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Prevenção pelo conhecimento, e não socorro depois do desastre, é a meta de uma política de crédito bem-sucedida.”",
+          "original": "“Prevention through knowledge—not succor following disaster—is the goal of a successful credit policy.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O mundo sente falta da Rússia como vendedora ou como compradora?",
+          "artigo": "1803147",
+          "credito": "Alonzo Englebert Taylor (Food Research Institute, Stanford University) · “The Commercial Importance of Russia” · pp. 447–459"
+        },
+        {
+          "tipo": "p",
+          "texto": "Taylor anuncia a conclusão logo no início: as mercadorias russas importavam ao mundo mais como expressão de poder de compra do que por suas qualidades físicas. Os produtos que a Rússia exportava antes da guerra podiam ser obtidos em outros lugares; as relações de troca que eles sustentavam, não. O colapso da indústria e dos transportes russos, diz o autor, foi subestimado, e o significado econômico da fome, superestimado."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é a Europa de antes da guerra, tomada como um grande importador de alimentos, rações e matérias-primas, abastecido pela Rússia e pelos países de ultramar. O que esses fornecedores vendiam, argumenta Taylor, refletia menos sua capacidade de produzir do que a capacidade de consumo da Europa. A Rússia, como Canadá, Argentina e Austrália, estava no estágio extrativo: exportava matérias-primas, importava sobretudo manufaturas e usava o saldo comercial para pagar os encargos do capital estrangeiro."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 504 milhões",
+          "texto": "Saldo final estimado por Taylor para o comércio exterior russo nos cinco anos antes da guerra: superávit de 567 milhões de dólares com a Europa menos déficit de 63 milhões com o ultramar. O autor avisa que o número pode estar uns cem milhões alto. A Rússia respondia por quase 4% do comércio internacional."
+        },
+        {
+          "tipo": "p",
+          "texto": "Produto por produto, o autor mostra que a substituição foi fácil. Os cereais, mais da metade do valor exportado, foram cobertos pelo ultramar: os Estados Unidos, sozinhos, assumiram dois terços das cerca de 5 milhões de toneladas de cereais panificáveis que a Rússia exportava. Oleaginosas tropicais, linho substituído por algodão, juta e cânhamo, manganês do Brasil e da Índia, platina de novas jazidas: nada disso, a seu ver, era essencial a ponto de causar uma catástrofe."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que não se substitui é o comprador. A Rússia pagava seus cereais com mercadorias que a Europa estava equipada para produzir; os exportadores de ultramar, de padrão de vida alto, querem ser pagos em ouro e não absorvem de repente mais manufaturas europeias. A conclusão de Taylor é que a Rússia foi facilmente substituída como produtora e é, em boa medida, insubstituível como consumidora."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "taylor-a-importancia-comercial-da-russia",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto tempo um dólar leva para voltar ao consumidor?",
+          "artigo": "1803148",
+          "credito": "William T. Foster · “The Circuit Flow of Money” · pp. 460–473"
+        },
+        {
+          "tipo": "p",
+          "texto": "Foster distingue a velocidade da moeda, a frequência com que ela é usada para qualquer fim, de outra grandeza que chama de velocidade de circuito: a frequência com que o dinheiro volta de um gasto em bens de consumo novos para outro gasto em bens de consumo novos. Bens e dinheiro andam em sentidos opostos; os bens, ao chegar ao consumidor, saem da corrente, mas o dinheiro segue, do varejo ao atacado, à fábrica, ao produtor de matéria-prima e, sobretudo como pagamento por serviços pessoais, de volta ao consumidor."
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção importa porque, para o autor, os períodos de grande perturbação dos negócios rompem a proporção entre as duas velocidades. Se as pessoas gastarem menos em bens novos e mais em outras transações, a quantidade e a velocidade geral da moeda podem ficar iguais e, ainda assim, a velocidade de circuito cai e o comércio sente. Para alguns fins, por isso, Foster propõe uma equação de trocas restrita às vendas de bens de consumo novos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "158 dias",
+          "texto": "Tempo de circuito do dinheiro em 1909, numa conta que Foster diz servir só de ilustração: 8,68 bilhões de dólares em circulação divididos por 20 bilhões gastos em bens novos dão 0,434 ano. A velocidade geral seria de cerca de 46 vezes ao ano; a de circuito, cerca de 2,3."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com um diagrama de reservatórios e canos, inspirado num desenho de M. C. Rorty, o autor mostra o fundo dos consumidores, alimentado em cerca de 70% por rendas de serviços pessoais. Admite os defeitos do desenho, que omite os bancos e o governo, ambos capazes de criar e extinguir moeda, e lista onze condições que aceleram o circuito, como salários maiores, impostos menores, expectativa de alta de preços e pagamentos mais frequentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é um programa de pesquisa. A surpresa com a sustentação das vendas no varejo na depressão de 1921 mostraria quão pouco se sabe; com registros melhores, diz Foster, talvez não tivessem ocorrido nem a expansão extrema de 1919 nem a contração que se seguiu."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Só as mudanças contam.”",
+          "original": "“Only changes count.”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "foster-o-circuito-do-dinheiro",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas cobrem a terceira edição revista do segundo volume dos Principles of Economics de Frank W. Taussig, por C. E. Persons; dois livros de finanças internacionais do pós-guerra, de Elisha M. Friedman e de John Foster Bass e Harold Glenn Moulton, por W. F. Gephart; The Stock Market, de S. S. Huebner, e The Work of the Stock Exchange, de J. Edward Meeker; Electrical Rates, de G. P. Watkins; The Human Factor in Business, de B. Seebohm Rowntree; The World's Monetary Problems, de Gustav Cassel; dois livros sobre imigração, por Henry Pratt Fairchild; e Wealth and Taxable Capacity, de Sir Josiah Stamp, por Willford I. King. Rufus S. Tucker comenta o relatório de uma comissão legislativa de Nova York sobre tributação, e as notas registram novos sócios, prêmios e centros de pesquisa de negócios."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, os três artigos discutem a mesma coisa por lados diferentes: a moeda e o crédito não são um véu neutro sobre a produção. Youngman trata o crédito como mercadoria cuja oferta depende de decisão, e o banco central como um monopolista que precisa testar a demanda. Taylor mostra que o comércio é uma rede de pagamentos, e que retirar um comprador desfaz trocas que nenhum fornecedor alternativo recompõe. Foster sugere que importa menos quanto dinheiro existe e mais por onde e com que rapidez ele passa.",
+            "O ponto comum é também uma confissão de ignorância estatística. Youngman pede estudo de mercados, e não apenas de produção; Taylor avisa que seus saldos comerciais são aproximados; Foster chama de ilustração a própria estimativa. A homenagem a Adams, que fez da estatística ferroviária uniforme a base da regulação, cabe bem nesse número."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Taxa de redesconto",
+          "juro que o banco central cobra ao emprestar a bancos contra títulos que estes já descontaram."
+        ],
+        [
+          "Operações de mercado aberto",
+          "compra e venda de títulos pelo banco central diretamente no mercado, para alterar a oferta de crédito."
+        ],
+        [
+          "Velocidade de circuito",
+          "na definição de Foster, quantas vezes por ano o dinheiro volta de um gasto em bens de consumo novos a outro."
+        ],
+        [
+          "Balança comercial",
+          "diferença entre o valor das exportações e o das importações de mercadorias."
+        ],
+        [
+          "Contabilidade uniforme",
+          "plano de contas único imposto pelo regulador a todas as empresas de um setor."
+        ]
+      ],
+      "hoje": "As três perguntas desta edição continuam abertas. Bancos centrais ainda discutem até onde a taxa básica chega ao juro cobrado na ponta e se devem operar também em mercados de títulos longos. Sanções e guerras voltaram a mostrar que tirar um país do comércio afeta tanto quem lhe vendia quanto quem lhe comprava. E a ideia de que a velocidade da moeda depende de onde ela circula reaparece no estudo de fluxos de renda e de gasto, hoje medidos por contas nacionais e dados de pagamentos.",
+      "itens": [
+        [
+          "Memorial to Former President Henry C. Adams",
+          "pp. 401–416",
+          "1803145"
+        ],
+        [
+          "A Popular Theory of Credit Applied to Credit Policy",
+          "pp. 417–446",
+          "1803146"
+        ],
+        [
+          "The Commercial Importance of Russia",
+          "pp. 447–459",
+          "1803147"
+        ],
+        [
+          "The Circuit Flow of Money",
+          "pp. 460–473",
+          "1803148"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 474-475",
+          "pp. 474–475",
+          "1803149"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 475-476",
+          "pp. 475–476",
+          "1803150"
+        ],
+        [
+          "New Books",
+          "pp. 476–477",
+          "1803151"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 478-479",
+          "pp. 478–479",
+          "1803152"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 479-480",
+          "pp. 479–480",
+          "1803153"
+        ],
+        [
+          "New Books",
+          "pp. 481–487",
+          "1803154"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 487-488",
+          "pp. 487–488",
+          "1803155"
+        ],
+        [
+          "New Books",
+          "pp. 488–491",
+          "1803156"
+        ],
+        [
+          "New Books",
+          "pp. 491–494",
+          "1803157"
+        ],
+        [
+          "New Books",
+          "pp. 494–496",
+          "1803158"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 497-498",
+          "pp. 497–498",
+          "1803159"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 499-501",
+          "pp. 499–501",
+          "1803160"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 501-504",
+          "pp. 501–504",
+          "1803161"
+        ],
+        [
+          "New Books",
+          "pp. 504–509",
+          "1803162"
+        ],
+        [
+          "New Books",
+          "pp. 509–510",
+          "1803163"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 510-511",
+          "pp. 510–511",
+          "1803164"
+        ],
+        [
+          "New Books",
+          "pp. 511–513",
+          "1803165"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 514-515",
+          "pp. 514–515",
+          "1803166"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 515-517",
+          "pp. 515–517",
+          "1803167"
+        ],
+        [
+          "New Books",
+          "pp. 517–520",
+          "1803168"
+        ],
+        [
+          "New Books",
+          "pp. 520–523",
+          "1803169"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 523-524",
+          "pp. 523–524",
+          "1803170"
+        ],
+        [
+          "New Books",
+          "pp. 525",
+          "1803171"
+        ],
+        [
+          "New Books",
+          "pp. 525–529",
+          "1803172"
+        ],
+        [
+          "New Books",
+          "pp. 529–530",
+          "1803173"
+        ],
+        [
+          "[untitled] The American Economic Review (1922-09-01), page 530",
+          "pp. 530",
+          "1803174"
+        ],
+        [
+          "New Books",
+          "pp. 530–531",
+          "1803175"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-09-01), pages 531-533",
+          "pp. 531–533",
+          "1803176"
+        ],
+        [
+          "New Books",
+          "pp. 533–535",
+          "1803177"
+        ],
+        [
+          "Periodicals",
+          "pp. 536–563",
+          "1803178"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 564–568",
+          "1803179"
+        ],
+        [
+          "Notes",
+          "pp. 569–576",
+          "1803180"
+        ]
+      ],
+      "jstor_edicao": "i331270",
+      "artigos": [
+        {
+          "titulo": "Memorial to Former President Henry C. Adams",
+          "autores": "J. H. Hollander, R. T. Ely, E. R. A. Seligman, C. H. Cooley, F. H. Dixon, D. Friday, I. L. Sharfman, J. B. Clark e F. H. Giddings",
+          "paginas": "pp. 401–416",
+          "jstor": "1803145",
+          "resumo": "Falas em homenagem a Henry Carter Adams na reunião de Pittsburgh, com sua biografia, sua obra em finanças públicas e a contabilidade ferroviária, e a homenagem do governo chinês em Ann Arbor."
+        },
+        {
+          "titulo": "A Popular Theory of Credit Applied to Credit Policy",
+          "autores": "Anna Youngman",
+          "paginas": "pp. 417–446",
+          "jstor": "1803146",
+          "resumo": "Trata o crédito como poder de compra vendido pelos bancos e sustenta que a política de crédito deve abranger investimentos e que o poder da taxa de redesconto foi exagerado."
+        },
+        {
+          "titulo": "The Commercial Importance of Russia",
+          "autores": "Alonzo Englebert Taylor (Food Research Institute, Stanford University)",
+          "paginas": "pp. 447–459",
+          "jstor": "1803147",
+          "resumo": "Sustenta que a Rússia foi facilmente substituída como produtora e é em boa medida insubstituível como consumidora no comércio mundial.",
+          "ensaio_slug": "taylor-a-importancia-comercial-da-russia"
+        },
+        {
+          "titulo": "The Circuit Flow of Money",
+          "autores": "William T. Foster",
+          "paginas": "pp. 460–473",
+          "jstor": "1803148",
+          "resumo": "Define a velocidade de circuito do dinheiro, de um gasto de consumo a outro, e propõe estudá-la como causa das flutuações dos negócios.",
+          "ensaio_slug": "foster-o-circuito-do-dinheiro"
+        },
+        {
+          "titulo": "Frank W. Taussig, Principles of Economics, vol. II (3ª ed. revista)",
+          "autores": "C. E. Persons (Boston University)",
+          "paginas": "pp. 474–475",
+          "jstor": "1803149",
+          "resumo": "Nova edição revista do segundo volume do manual de Taussig."
+        },
+        {
+          "titulo": "Oskar Engländer, Bestimmungsgründe des Preises",
+          "autores": "O. Fred Boucke",
+          "paginas": "pp. 475–476",
+          "jstor": "1803150",
+          "resumo": "Estudo sobre os fatores determinantes do preço, de interesse para quem estuda a ascensão e o declínio do marginalismo."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 476–477",
+          "jstor": "1803151",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Elisha M. Friedman, International Finance and Its Reorganization",
+          "autores": "W. F. Gephart",
+          "paginas": "pp. 478–479",
+          "jstor": "1803152",
+          "resumo": "História financeira da Guerra Mundial e da reorganização das finanças internacionais."
+        },
+        {
+          "titulo": "John Foster Bass e Harold Glenn Moulton, America and the Balance Sheet of Europe",
+          "autores": "W. F. Gephart (Washington University)",
+          "paginas": "pp. 479–480",
+          "jstor": "1803153",
+          "resumo": "Os Estados Unidos diante dos problemas econômicos da Europa do pós-guerra."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 481–487",
+          "jstor": "1803154",
+          "resumo": "Lista de livros novos: história e geografia econômica."
+        },
+        {
+          "titulo": "R. A. Lehfeldt, The National Resources of South Africa",
+          "autores": "Willford I. King",
+          "paginas": "pp. 487–488",
+          "jstor": "1803155",
+          "resumo": "Panorama dos recursos da África do Sul, com prefácio de J. C. Smuts."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 488–491",
+          "jstor": "1803156",
+          "resumo": "Lista de livros novos: agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 491–494",
+          "jstor": "1803157",
+          "resumo": "Lista de livros novos: indústrias manufatureiras, transportes e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 494–496",
+          "jstor": "1803158",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "Thomas Temple Hoyne, Speculation: Its Sound Principles and Rules for Its Practice",
+          "autores": "James E. Boyle (Cornell University)",
+          "paginas": "pp. 497–498",
+          "jstor": "1803159",
+          "resumo": "Teoria e prática da especulação organizada."
+        },
+        {
+          "titulo": "S. S. Huebner, The Stock Market; J. Edward Meeker, The Work of the Stock Exchange",
+          "autores": "Walter E. Lagerquist (Northwestern University)",
+          "paginas": "pp. 499–501",
+          "jstor": "1803160",
+          "resumo": "Dois livros sobre o mercado de ações e o funcionamento da bolsa."
+        },
+        {
+          "titulo": "G. P. Watkins, Electrical Rates",
+          "autores": "John Bauer (New York City)",
+          "paginas": "pp. 501–504",
+          "jstor": "1803161",
+          "resumo": "Estudo sobre tarifas de energia elétrica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 504–509",
+          "jstor": "1803162",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 509–510",
+          "jstor": "1803163",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "B. Seebohm Rowntree, The Human Factor in Business",
+          "autores": "D. A. McCabe (Princeton University)",
+          "paginas": "pp. 510–511",
+          "jstor": "1803164",
+          "resumo": "Livro sobre o fator humano na gestão das empresas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 511–513",
+          "jstor": "1803165",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "H. Parker Willis e George W. Edwards, Banking and Business",
+          "autores": "George W. Dowrie (The University of Minnesota)",
+          "paginas": "pp. 514–515",
+          "jstor": "1803166",
+          "resumo": "Manual sobre bancos e suas relações com os negócios."
+        },
+        {
+          "titulo": "Gustav Cassel, The World's Monetary Problems",
+          "autores": "N. R. Whitney (University of Cincinnati)",
+          "paginas": "pp. 515–517",
+          "jstor": "1803167",
+          "resumo": "Os problemas monetários mundiais do pós-guerra segundo Cassel."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 517–520",
+          "jstor": "1803168",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 520–523",
+          "jstor": "1803169",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Jeremiah W. Jenks e W. Jett Lauck, The Immigration Problem; Isaac A. Hourwich, Immigration and Labor",
+          "autores": "Henry Pratt Fairchild (New York University)",
+          "paginas": "pp. 523–524",
+          "jstor": "1803170",
+          "resumo": "Dois livros sobre a imigração europeia para os Estados Unidos e seus efeitos sobre o trabalho."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 525",
+          "jstor": "1803171",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 525–529",
+          "jstor": "1803172",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 529–530",
+          "jstor": "1803173",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "Rudolf Eucken, Socialism: an Analysis",
+          "autores": "G. B. L. Arner",
+          "paginas": "pp. 530",
+          "jstor": "1803174",
+          "resumo": "Análise do socialismo pelo filósofo alemão, em tradução de Joseph McCabe."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 530–531",
+          "jstor": "1803175",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "Sir Josiah Stamp, Wealth and Taxable Capacity",
+          "autores": "Willford I. King (National Bureau of Economic Research)",
+          "paginas": "pp. 531–533",
+          "jstor": "1803176",
+          "resumo": "Estudo sobre riqueza, renda e capacidade contributiva, com estatísticas do Reino Unido."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 533–535",
+          "jstor": "1803177",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 536–563",
+          "jstor": "1803178",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "Rufus S. Tucker",
+          "paginas": "pp. 564–568",
+          "jstor": "1803179",
+          "resumo": "Publicações da Tariff Commission e da Federal Trade Commission e o relatório da comissão legislativa de Nova York sobre tributação e corte de gastos."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 569–576",
+          "jstor": "1803180",
+          "resumo": "Novos sócios da associação, prêmios, centros de pesquisa de negócios e notícias de economistas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "taylor-a-importancia-comercial-da-russia",
+          "titulo": "Taylor e a Rússia que o mundo perdeu como compradora",
+          "titulo_original": "The Commercial Importance of Russia",
+          "autores": "Alonzo Englebert Taylor (Food Research Institute, Stanford University)",
+          "paginas": "pp. 447–459",
+          "jstor": "1803147",
+          "chamada": "Alonzo Englebert Taylor sustenta que trigo, linho e platina russos foram substituídos com pouca dificuldade, mas que a capacidade de consumo da Rússia não tem substituto no comércio mundial.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1921, segundo Alonzo Englebert Taylor, a Rússia exportou pouco mais de oito milhões de dólares em mercadorias, sem contar o ouro, e trens vazios chegavam aos portos do Báltico para levar um volume escasso de importações. Antes da guerra, o país respondia por quase 4% do comércio internacional. O artigo de Taylor, do Food Research Institute da Stanford University, pergunta o que esse desaparecimento significa para os vizinhos da Rússia e para os países de ultramar."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para o autor, o problema não é só interno; é de comércio internacional. E ele dá a conclusão antes da prova: as mercadorias russas valiam para o mundo mais como expressão de poder de compra do que por suas qualidades físicas e químicas. Os bens podem ser encontrados em outra parte; as relações de troca que eles sustentavam, não."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a Europa pagava o que importava?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto de partida é a Europa de antes da guerra, incluindo o Reino Unido, tomada como separada da Rússia. Alguns países, como Áustria-Hungria, Bulgária, Romênia e Sérvia, produziam mais alimento do que consumiam; os demais eram importadores. Como unidade, a Europa era uma enorme importadora de alimentos, rações e matérias-primas, que vinham da Rússia ou do ultramar, em proporções delicadamente equilibradas. Liverpool era a referência de preço; Londres, o lugar final de compensação das letras de câmbio."
+            },
+            {
+              "tipo": "p",
+              "texto": "A Europa não pagava importações só com mercadorias. O excesso de importações, que crescia antes da guerra, era coberto por rendimentos de investimentos no exterior, fretes, seguros, remessas de emigrantes e gastos de turistas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí a tese central da primeira parte. O que a Rússia e os países de ultramar ofereciam à Europa era menos a expressão de sua capacidade produtiva do que da capacidade de consumo europeia. O limite estava nos compradores: esses países poderiam ter produzido muito mais se houvesse mercado. Quando um fornecedor saía de cena, os outros podiam cobrir o vazio rapidamente. A Rússia, como África do Sul, Austrália, Argentina e Canadá, estava no estágio extrativo: exportava matérias-primas, importava sobretudo manufaturas, com exceção do algodão, e precisava todo ano de novo capital estrangeiro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual era o saldo comercial russo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor dedica uma seção à dificuldade de medir. O saldo comercial de um país muda conforme se usem os dados do próprio país ou os dos parceiros. Com os números russos, as médias dos cinco anos antes da guerra davam exportações de 670 milhões de dólares para a Europa e importações de 421 milhões. Com os dados dos países de origem e de destino, as exportações subiam para 988 milhões e as importações caíam para 311 milhões. O autor segue a prática dos estatísticos oficiais, que confiam mais nos números de importação: combina as importações russas com as exportações registradas pelos países de destino."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 504 milhões",
+              "texto": "Saldo final do comércio exterior russo na conta de Taylor: superávit de 567 milhões de dólares com a Europa menos déficit de 63 milhões no comércio de ultramar. Ele mesmo diz que o número parece alto e pode estar uns cem milhões acima do real, entre outros motivos porque os números britânicos incluem frete e seguro."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com poucos recursos invisíveis, a Rússia usava o saldo sobretudo para pagar juros e amortizações do capital estrangeiro. Era o sexto exportador e o nono importador do mundo. A Alemanha, maior parceira, fornecia um terço das importações russas e comprava um quarto das exportações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que a Rússia vendia, e quem a substituiu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os produtos do solo dominavam. Os cereais respondiam por mais da metade do valor exportado; na média dos cinco anos antes da guerra, saíam 167 milhões de bushels de cevada e 161 milhões de trigo, além de aveia, centeio e milho e cerca de 600 mil toneladas de linhaça, girassol e outras oleaginosas. Os principais compradores eram Alemanha, Reino Unido, Países Baixos e França, nessa ordem."
+            },
+            {
+              "tipo": "p",
+              "texto": "Guerra e comunismo, escreve Taylor, apagaram por ora o excedente exportável, e outros países assumiram a função. Contra os prognósticos sombrios sobre os limites da agricultura mundial, ele sustenta que ainda havia uma reserva de terras que responde ao preço. Os Estados Unidos exportaram em média 3,13 milhões de toneladas longas de cereais panificáveis e farinha por ano de 1907 a 1914 e 6,43 milhões de 1915 a 1921; como a Rússia exportava cerca de 5 milhões de toneladas, os americanos sozinhos cobriram dois terços da substituição. Milho e aveia americanos e argentinos poderiam substituir a cevada; os trópicos ofereciam coco, amendoim, caroço de algodão e soja em quantidade praticamente ilimitada."
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo exame vale para os demais produtos. O linho russo, em grande parte grosso, foi substituído por algodão processado, cânhamo, juta e seda. O manganês do Brasil e da Índia bastava à siderurgia. A Rússia fornecia nove décimos da platina do mundo antes da guerra; novas jazidas e estoques acumulados na guerra impediram a escassez. Nenhum desses produtos, conclui, era essencial a ponto de provocar uma catástrofe."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O trigo russo vale mais como dinheiro do que como cereal de panificação.”",
+              "original": "“The Russian wheat is more valuable as money than as bread-grain.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o comprador não tem substituto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui está o centro do argumento. As principais importações russas eram algodão, em mais da metade americano, artigos de metal e máquinas, sobretudo alemães, e chá da China e da Índia. A Rússia pagava com cereais; sem exportações, suas importações cessaram. A Europa preferiria comprar 200 milhões de bushels de cereais panificáveis da Rússia e 350 milhões do ultramar a comprar os 550 milhões inteiros do ultramar, porque sua capacidade de pagar a Rússia com mercadorias é diferente de sua capacidade de pagar os países de ultramar."
+            },
+            {
+              "tipo": "p",
+              "texto": "A diferença, diz Taylor, é qualitativa e quantitativa. Qualitativa porque as fábricas europeias estavam equipadas para atender às especificações costumeiras do consumidor russo, enquanto Estados Unidos, Canadá, Austrália e Argentina, de padrão de vida alto, querem outras coisas. Quantitativa porque concentrar todas as compras no ultramar exigiria que esses países desenvolvessem de repente uma capacidade de consumo de produtos europeus que não se cria em um dia. A Alemanha trocaria artigos de metal por semente de girassol russa com muito mais facilidade do que por caroço de algodão americano, e o comércio triangular que antes contornava esses limites ainda não funcionava."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor dá dois exemplos. Se a Rússia não compra chá da Índia e da China, esses países compram menos tecidos britânicos; os fusos param, cai a importação de algodão e recuam a navegação, o seguro e os bancos britânicos. E se a Argentina aumenta em 60 milhões de bushels sua exportação de trigo, um terço do que a Rússia mandava à Europa, não passa por isso a consumir um terço do algodão que a Rússia importava. Os cereais eram metade das exportações russas, e o algodão, um sexto das importações. Quando a Rússia exportava 160 milhões de bushels de trigo, esperava ser paga em mercadorias; os exportadores de ultramar esperam ser pagos em ouro."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O que o mundo sente falta hoje não é da produção russa, mas do consumo russo.”",
+              "original": "“what the world misses today is not Russian production but Russian consumption.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o autor espera da reconstrução?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor observa que a Europa ocidental parece concordar que a recuperação russa deve incluir alimentos, rações e matérias-primas, mas não manufaturas, e prevê capital negado à indústria e concedido à agricultura, às florestas e à mineração. Citando E. Dana Durand, no Quarterly Journal of Economics, avisa que excedentes exportáveis não virão fácil nos anos seguintes."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do artigo está em tratar a exportação como meio de pagamento. Medido pelo volume de trigo, o mundo não perdeu quase nada com a saída russa; medido pela rede de trocas, perdeu um comprador cujas necessidades se encaixavam no que a indústria europeia sabia fazer. O raciocínio é o de que exportações e importações são dois lados de uma mesma conta, e de que a substituição de um fornecedor não recompõe automaticamente a demanda que ele exercia.",
+                "O artigo também mostra cuidado com números frágeis: três versões do saldo russo, a escolha justificada de uma e o aviso de que ela pode estar cem milhões acima do real. A conclusão depende da estrutura, não do número exato."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Bushel",
+              "medida de volume para grãos usada nos Estados Unidos e no Reino Unido."
+            ],
+            [
+              "Tonelada longa",
+              "unidade inglesa de peso, equivalente a 2.240 libras."
+            ],
+            [
+              "Recursos invisíveis",
+              "receitas externas que não vêm da venda de mercadorias, como fretes, seguros, juros e remessas."
+            ],
+            [
+              "Comércio triangular",
+              "troca em que o pagamento a um país é feito por meio de vendas a um terceiro."
+            ],
+            [
+              "Estágio extrativo",
+              "fase em que um país exporta sobretudo produtos agrícolas e minerais e importa manufaturas."
+            ]
+          ],
+          "hoje": "A distinção de Taylor entre perder um fornecedor e perder um comprador reaparece sempre que um grande país sai do comércio por guerra, sanções ou crise. A substituição de cereais, petróleo ou metais costuma vir pelo preço e por novos fornecedores; a demanda que esse país exercia sobre máquinas, bens de consumo e serviços de outros países é mais difícil de repor. A literatura sobre cadeias de valor e sobre comércio bilateral discute o mesmo problema com dados que Taylor não tinha."
+        },
+        {
+          "slug": "foster-o-circuito-do-dinheiro",
+          "titulo": "Foster e o caminho do dinheiro de volta ao consumidor",
+          "titulo_original": "The Circuit Flow of Money",
+          "autores": "William T. Foster",
+          "paginas": "pp. 460–473",
+          "jstor": "1803148",
+          "chamada": "William T. Foster define a velocidade de circuito do dinheiro, de um gasto em bens de consumo novos a outro, e propõe estudá-la como causa das oscilações dos negócios.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Um par de sapatos comprado numa loja põe em movimento uma cadeia de pagamentos. Parte do dinheiro vai ao atacadista, parte ao fabricante, parte ao curtidor, parte ao criador do gado, parte ao fabricante de máquinas agrícolas, parte aos mecânicos da fábrica, e assim volta ao bolso de algum consumidor. O que o lojista paga na semana aos seus empregados faz o percurso depressa; o que o fabricante guarda em caixa como lucro não distribuído pode demorar muito. É com esse exemplo que William T. Foster, na American Economic Review de setembro de 1922, apresenta o que chama de fluxo de circuito do dinheiro."
+            },
+            {
+              "tipo": "p",
+              "texto": "O objetivo declarado é modesto: descrever esse fluxo, perguntar se ele não merece mais atenção na análise dos ciclos e sugerir linhas de pesquisa, já que as estatísticas necessárias não existem."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é a velocidade de circuito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Por dinheiro, Foster entende todas as formas de moeda corrente e os depósitos bancários movimentáveis por cheque; por bens, as mercadorias novas. Bens e dinheiro correm em sentidos opostos. As matérias-primas vão às fábricas, aos atacadistas, aos varejistas e aos consumidores; o dinheiro faz o caminho inverso, numa corrente que diminui a cada etapa e volta aos consumidores sobretudo como pagamento por serviços pessoais. A diferença essencial é que os bens, ao chegar ao consumidor, em geral saem da corrente; o dinheiro continua."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor chama de fluxo de circuito o caminho do dinheiro de um uso no consumo de bens novos a outro uso no consumo de bens novos. O tempo médio desse percurso é o tempo de circuito; sua frequência, a velocidade de circuito, que é o inverso do tempo. Se a velocidade de circuito for de duas vezes por ano, o tempo de circuito será de meio ano. Não se trata da velocidade da moeda dos economistas, que mede quantas vezes o dinheiro é usado para qualquer fim."
+            },
+            {
+              "tipo": "p",
+              "texto": "Por que separar as duas? Se o volume de bens de consumo novos mantivesse uma proporção fixa com o total de bens em circulação, a velocidade de circuito acompanharia a velocidade geral e não haveria interesse especial nela. Toda a discussão de Foster supõe o contrário: que os períodos de grande perturbação dos negócios rompem as proporções vigentes nos tempos de estabilidade. Por isso, para alguns fins, ele prefere à equação de trocas usual uma versão em que entram a velocidade de circuito e o volume de bens de consumo novos vendidos aos consumidores."
+            },
+            {
+              "tipo": "p",
+              "texto": "O dinheiro pode trabalhar mais depressa para fazer os tecidos de lã passarem por mais mãos a caminho das alfaiatarias, sem que mais roupas saiam das lojas. E, se as pessoas gastarem menos em bens novos e mais em outras transações, a velocidade de circuito cai mesmo com quantidade e velocidade geral constantes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o diagrama representa o fluxo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo traz um diagrama de reservatórios e canos, semelhante a um desenhado por M. C. Rorty. No alto, um reservatório duplo representa o fundo dos consumidores: de um lado a renda, quase toda gasta em consumo; do outro, o dinheiro da venda de imóveis e títulos, quase todo reinvestido. Os canos que ligam as duas partes estão sempre parcialmente entupidos: não se sabe quanto do fundo será gasto em consumo num dado período."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "70%",
+              "texto": "Parcela aproximada da renda individual vinda de serviços pessoais no diagrama de Foster; os outros 30% vêm de gestão e propriedade, como aluguéis, royalties, juros e dividendos. São médias arredondadas de 1909 a 1918, tiradas do estudo Income in the United States, publicado em 1921 pelo National Bureau of Economic Research."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na imagem da água, parte do reservatório move turbinas e irriga campos; parte fica congelada, parada em bacias mortas ou evapora. Nada disso perturba a produção se a vazão útil for constante. Com o dinheiro, diz Foster, é igual: não importa quanto está entesourado, desde que esse volume e o de bens fiquem estáveis. Quando dinheiro ocioso volta a trabalhar, ou dinheiro ativo se retira, muda a velocidade de circuito, e o efeito depende do estado dos negócios."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Só as mudanças contam.”",
+              "original": "“Only changes count.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto tempo leva o circuito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor arrisca uma conta para 1909, a partir da estimativa de Irving Fisher para o volume e a velocidade da moeda e da estimativa de renda do National Bureau. Se as transações em dinheiro somaram 400 bilhões de dólares e havia 8,68 bilhões em circulação, a velocidade média foi de cerca de 46. Se os consumidores gastaram 20 bilhões em bens novos, o tempo de circuito foi de 0,434 ano, ou 158,4 dias, e a velocidade de circuito, de cerca de 2,3."
+            },
+            {
+              "tipo": "p",
+              "texto": "Isso significaria que, para cada dólar gasto por um consumidor em bens de consumo novos, cerca de dezenove eram usados em outras transações. Cada dólar seria usado mais ou menos a cada oito dias para algum fim, mas só uma vez em 158 dias para levar bens novos às mãos dos consumidores. Foster insiste que há adivinhação demais nesses números e que eles servem só de ilustração; se a rotação dos depósitos for de cerca de 25 vezes por ano, como estima o Federal Reserve Bank de Nova York, as velocidades do exemplo estariam provavelmente longe do certo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que falta ao diagrama?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O próprio autor aponta duas omissões. A primeira são os bancos, pelos quais passa quase todo o dinheiro a caminho de um consumidor a outro. Quando um agricultor que espera a colheita toma dez mil dólares emprestados, o banco aumenta seus depósitos nesse valor, menos o desconto, e a moeda em circulação cresce; quando ele vende o trigo e quita o empréstimo, a moeda diminui na mesma medida. Em certo sentido, escreve Foster, a maior parte do dinheiro é criada e extinta nos bancos, e um novo empréstimo exige um novo ato conjunto do banco e de um tomador. A segunda omissão é o governo, que pode cunhar ou imprimir moeda quando gasta mais do que arrecada."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em seguida, o autor lista onze condições que, com a moeda total constante e sem efeitos compensatórios, aceleram o circuito: aumento do total pago em salários, porque assalariados gastam maior parte do que recebem; redução de impostos; expectativa de alta de preços; expectativa de salários e lucros maiores; poupança menor; mais empréstimos ao consumo; uso maior de cheques; dias de pagamento mais frequentes; bens passando por menos mãos, como na integração vertical; menos dinheiro empregado em transferir imóveis, ações e títulos; e menos lucros não distribuídos mantidos em dinheiro. Nas condições opostas, o circuito se retarda. As três últimas, diz, merecem estudo particular."
+            },
+            {
+              "tipo": "p",
+              "texto": "Uma conclusão, diz Foster, não precisa esperar a pesquisa: os fatores variam de forma tão independente que praticamente não há chance de se equilibrarem, e o tempo de circuito muda o tempo todo."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Cada dólar gasto pelos consumidores veio de algum lugar, foi para algum lugar.”",
+              "original": "“Every dollar spent by consumers came from somewhere, went somewhere”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que conclusão o autor tira da depressão de 1921?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O fecho parte da surpresa geral com a sustentação das vendas no varejo na depressão de 1921, depois da queda dos mercados atacadistas. Para Foster, nada de mágico aconteceu: os registros existentes, bem analisados, explicariam essa persistência da demanda. E, se se conhecesse o fluxo de circuito dos ciclos anteriores, talvez não tivessem ocorrido nem a expansão extrema de 1919 nem a contração seguinte, cujas causas principais ele considera monetárias e sujeitas ao controle humano. O artigo é um capítulo do livro Money in the World's Work, então no prelo."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo desloca a atenção da quantidade de moeda para o caminho que ela percorre. A velocidade geral da equação de trocas mistura compras de bens novos com transações financeiras e intermediárias; Foster isola a parte do gasto que leva bens ao consumidor final e argumenta que é ela que interessa ao ciclo. A ideia de que um fluxo de renda pode desacelerar sem que a quantidade de moeda mude é o núcleo do argumento.",
+                "O texto também deixa claras as exigências de informação do programa: medir o tempo de circuito exige saber quanto da renda vai a bens novos e quanto fica parado, e o próprio autor chama sua estimativa de ilustração."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Velocidade da moeda",
+              "número de vezes que uma unidade de moeda é usada em transações num período."
+            ],
+            [
+              "Equação de trocas",
+              "identidade em que a moeda multiplicada por sua velocidade iguala o valor das transações."
+            ],
+            [
+              "Fundo dos consumidores",
+              "no diagrama de Foster, o dinheiro em mãos de indivíduos disponível para gasto em consumo."
+            ],
+            [
+              "Lucros não distribuídos",
+              "parte do lucro que a empresa retém em vez de pagar aos sócios."
+            ],
+            [
+              "Integração vertical",
+              "reunião, numa mesma empresa, de etapas sucessivas da produção e da distribuição."
+            ]
+          ],
+          "hoje": "A pergunta de Foster sobre por onde passa o dinheiro reaparece na distinção entre transações financeiras e gasto em bens e serviços finais, que está na base das contas nacionais. Também retorna quando a velocidade da moeda muda sem aviso, como em crises em que famílias e empresas passam a reter caixa, e na discussão sobre criação de moeda pelos bancos a cada empréstimo, hoje parte do ensino de política monetária."
+        }
+      ]
+    },
+    {
+      "slug": "1922-a-filosofia-da-cooperacao",
+      "numero": 179,
+      "titulo": "Nourse, as cooperativas, a crise da teoria e a base tarifária",
+      "titulo_original": "The American Economic Review, vol. XII, no. 4, December 1922",
+      "autores": "E. G. Nourse, O. Fred Boucke, Shirley D. Southworth, John Ise e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 12, nº 4",
+      "data": "dezembro de 1922",
+      "chamada": "Nourse examina os três princípios da cooperação; Boucke vê a teoria sem alicerce psicológico; Southworth propõe o investimento como base tarifária; Ise quer o curso de princípios no fim.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "E. G. Nourse, do Iowa State College, abre o número de dezembro de 1922 da American Economic Review com uma loja: a pequena loja sem enfeites que vinte e oito tecelões de Rochdale montaram em Toad Lane, no modelo de lojas sem fins lucrativos que o movimento cooperativo britânico transformou em doutrina. Para o autor, os cooperados são fortes na prática e fracos na teoria, e a falta de um entendimento comum dos princípios já cria problemas para legisladores, tribunais, contadores e fiscais do imposto de renda."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição, a quarta do volume XII, reúne quatro artigos de natureza diferente. Nourse examina os três fundamentos econômicos da cooperação. O. Fred Boucke, de State College, Pensilvânia, sustenta que o abandono da psicologia sensacionista deixa a teoria econômica numa situação sem precedente. Shirley D. Southworth, da Princeton University, discute como as comissões de serviços públicos fixam a base tarifária e a taxa de retorno das concessionárias. E John Ise, da University of Kansas, propõe levar o curso de princípios de economia para o último ano da graduação. Seguem-se resenhas, listas de livros novos, de artigos de periódicos e de documentos oficiais, e as notas da associação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que distingue uma cooperativa de uma empresa comum?",
+          "artigo": "1804796",
+          "credito": "E. G. Nourse (Iowa State College) · “The Economic Philosophy of Co-operation” · pp. 577–597"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nourse parte dos três fundamentos geralmente atribuídos ao êxito de Rochdale. O primeiro é a eficiência, ou o custo menor do serviço: venda sem crédito, sem angariação de clientes e com trabalho gratuito ou pouco pago dos membros. O segundo é a distribuição popular das sobras: juro mínimo ao capital e o excedente devolvido como dividendo de compra e de trabalho. O terceiro é o controle democrático, em que cada membro vota como indivíduo. Juntos, diz o autor, formam um protesto triplo: contra os custos do sistema competitivo de vendas, contra o capital como credor residual dos lucros e contra a identificação do controle com a propriedade de ações."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na eficiência, o argumento central não é a economia de balcão, mas o ataque aos desperdícios da concorrência: marcas duplicadas, caixeiros-viajantes, publicidade e comerciantes redundantes. O autor chama de “buymanship” a reação do consumidor organizado ao culto da venda. Entre produtores, o exemplo é o fazendeiro que pergunta por que sustentar sete compradores locais de gado quando um agente bastaria, e o das associações de serviços agrícolas, das que reúnem capital para a debulha a vapor às de pulverização e de controle leiteiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na distribuição, Nourse observa que a cooperação não é coerentemente anticapitalista nem pró-trabalho. O dividendo ao trabalho, ainda previsto em lei, é letra morta na prática; a Co-operative Wholesale Society britânica teve greves em suas fábricas; e sociedades de produtores e de consumidores chegaram ao conflito aberto. O autor descreve uma “cooperação militante”, que aplica os princípios dentro do grupo e barganha duramente fora dele."
+        },
+        {
+          "tipo": "p",
+          "texto": "No controle, a cooperação propõe três contrapesos à sociedade anônima: capital tratado como empréstimo, sem voto; proibição de procurações e voto individual; e quadro de membros aberto a quem participa do negócio. Quanto aos campos de aplicação, Nourse conclui que a copropriedade operária não se firmou diante da técnica industrial, que a cooperação de consumidores levada ao extremo se tornaria socialismo coercitivo, e que a cooperação agrícola, ao aceitar os preços do mercado e preservar a iniciativa do pequeno proprietário, é o ramo mais importante nos Estados Unidos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "28",
+          "texto": "Tecelões que fundaram a loja de Rochdale, cujo modelo deu ao movimento seus três fundamentos. Nas sociedades atacadistas de consumo da Inglaterra, diz Nourse, gerentes capazes dirigiam negócios de milhões com salários de quatrocentas libras."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "nourse-a-filosofia-economica-da-cooperacao",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A teoria econômica perdeu o seu alicerce?",
+          "artigo": "1804797",
+          "credito": "O. Fred Boucke (State College, Pennsylvania) · “A Unique Situation in Economic Theory” · pp. 598–605"
+        },
+        {
+          "tipo": "p",
+          "texto": "Boucke começa por uma convicção que diz ser difundida entre os economistas: a literatura das duas últimas décadas, sobretudo depois da Grande Guerra, foi crítica, desfez crenças antigas e pouco reconstruiu. Os economistas vinham renegando as premissas psicológicas do século XVIII, o sensacionismo e o associacionismo da psicologia empírica britânica, e com elas as duas escolas que ocuparam um século de pesquisa: o utilitarismo, ou classicismo, e o marginalismo. No lugar da análise cresce a descrição de instituições; os currículos prosperam sob o signo do comércio e das finanças; e economistas promissores trocam o campus por bancos, fábricas e a administração pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira parte do artigo é um retrospecto. Os fisiocratas buscaram leis sociais inspirados em Newton; Smith introduziu uma teoria da natureza humana; os ricardianos fizeram da economia uma ciência das trocas, a catalática; e John Stuart Mill, com a Lógica de 1843, deu-lhe um método dedutivo assentado no sensacionismo. A escola histórica de Roscher, Knies e Schmoller foi, para o autor, um interlúdio. O marginalismo concordava no essencial com o utilitarismo, na psicologia hedonista, na dedução e na estática; a diferença estava entre uma teoria objetiva e uma subjetiva do valor."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte pergunta o que sobra quando a velha psicologia é abandonada. Boucke distingue leis qualitativas, que dizem quais eventos ocorrem juntos, e quantitativas, que medem também suas grandezas, como a lei de Boyle. O marginalismo, diz, caiu num círculo vicioso: como os estados psíquicos não se medem, a intensidade do desejo tinha de ser julgada pelos preços pagos. Daí as novas tarefas: dinâmica no lugar da estática, visão de longo prazo ao lado da de curto, estudo dos eventos como ocorrem no mundo real, ir além da troca e examinar a indução estatística e a estatística descritiva."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma situação sem paralelo pode levar a realizações sem paralelo.”",
+          "original": "“An unparalleled situation may lead to unparalleled achievements.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor não antecipa o resultado. Pode-se concluir que só cabe uma análise qualitativa meio filosófica, meio científica, ou que medidas diferentes servem a assuntos diferentes. Por algum tempo, escreve, os economistas serão céticos que nada aceitam por fé; mas a teoria, a seu ver, está às vésperas de grandes acontecimentos."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "boucke-uma-situacao-singular-na-teoria",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Sobre que base uma concessionária deve ganhar?",
+          "artigo": "1804798",
+          "credito": "Shirley D. Southworth (Princeton University) · “Some Recent Problems in Public Utility Valuation and Regulation” · pp. 606–613"
+        },
+        {
+          "tipo": "p",
+          "texto": "A comissão de serviços públicos que fixa a passagem do bonde ou a tarifa do gás precisa de dois números, lembra Southworth: a base tarifária, isto é, o “valor” da propriedade dedicada ao serviço, e a taxa de retorno permitida sobre o investimento. Os relatórios das comissões mostram que a base é estabelecida com grande cuidado e a taxa, de modo improvisado. O autor resume as regras recentes de tribunais e comissões pelos títulos dos Public Utility Reports Annotated e observa que a maior parte delas é questão de opinião, julgamento ou viés."
+        },
+        {
+          "tipo": "p",
+          "texto": "A principal é saber que custo mede o valor. As comissões preferem o mais baixo, em geral o custo original; as empresas, o custo de reprodução a preços altos; os tribunais inclinam-se para a reprodução. Na guerra, recusou-se usar os preços correntes e buscaram-se médias de cinco a dez anos anteriores ao conflito, o que, diz o autor, expôs a inflexibilidade do sistema: reavaliações são caras e lentas. O valor de empresa em funcionamento, estimado pelo método de Wisconsin como as perdas iniciais não compensadas, produz um paradoxo: a empresa que nunca prosperou e a que sempre prosperou ficam igualmente sem ele."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Southworth, a raiz do problema é a ambiguidade de “valor”, herdada da doutrina clássica do custo: o valor depende de rendimentos futuros estimados, e o raciocínio fica circular. Ele propõe a palavra “investimento”, o que o investidor pôs na propriedade, quantia fixa até que ele a altere. A valorização real, por escassez relativa, como a da terra com o crescimento da população, seria tratada como receita ao fixar a taxa de retorno; a mudança no valor da moeda seria corrigida por um índice oficial de preços no atacado, como o do Bureau of Labor Statistics."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um retorno justo sobre o seu investimento é tudo o que alguém pode razoavelmente pedir ao público.”",
+          "original": "“A fair return on his investment is all that any man can reasonably ask of the public.”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "9%",
+          "texto": "Retorno aceito pela Arizona Corporation Commission em decisão de 13 de abril de 1922, citada por Southworth como exemplo de taxa fixada sem indicação de método. Outras decisões mencionam 7% e 8% (Indiana, janeiro de 1922) e 6% líquidos (West Virginia, dezembro de 1921)."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor pede que a taxa se apoie em provas sobre o custo do dinheiro, inclusive em Nova York, e não na mera “judicial notice” dos tribunais, porque uma pequena diferença na taxa equivale a uma diferença considerável na base."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O curso de introdução deve vir no início ou no fim?",
+          "artigo": "1804799",
+          "credito": "John Ise (University of Kansas) · “The Course In Elementary Economics” · pp. 614–623"
+        },
+        {
+          "tipo": "p",
+          "texto": "Depois de anos ensinando princípios de economia a calouros, veteranos e pós-graduandos, e a alunos de comércio, agricultura, direito, engenharia e veterinária, John Ise propõe inverter a ordem habitual: o curso de Elements, em vez de ser o primeiro e pré-requisito dos demais, deveria vir no último ano, precedido pela maior parte dos outros cursos de economia. Talvez fosse melhor, diz, eliminá-lo e oferecer no último ano um curso substancial de Principles."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento tem várias partes. Para quem se especializa, o curso é sobretudo uma visão panorâmica do que será visto em detalhe depois. Um dos manuais mais populares percorre, em 750 páginas, da história econômica da Inglaterra às finanças públicas e à história do pensamento. Os alunos decoram definições de utilidade, valor e renda e logo as esquecem; parte delas precisa ser desaprendida, porque nos cursos posteriores capital, terra e juro têm outro sentido, e em Marketing distribuição se refere a laranjas e batatas. Os problemas de distribuição, os mais complexos da disciplina, exigem a maturidade de quem já estudou o sistema econômico como ele é."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Ise, o arranjo vigente se explica pela tradição acadêmica: o curso de princípios ficou como introdução quando os cursos especializados foram acrescentados, e o Elements of Political Economy de Wayland, de 1837, lembra muitos textos recentes. Ao menos vinte instituições já exigiam cursos descritivos antes de Principles, movimento que o autor considera correto, mas insuficiente. Ele examina os argumentos contrários, como alcançar mais alunos e treinar instrutores jovens, e os julga pouco importantes para justificar o esquema."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os estudantes devem dominar a fisiologia econômica antes de tentar a terapêutica econômica.”",
+          "original": "“Students should have a thorough grasp of economic physiology before they attempt economic therapy.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A sequência proposta começa por geografia industrial e comercial, contabilidade, organização de empresas e marketing; passa a moeda e bancos, ferrovias e comércio exterior; e termina com princípios no último ano. Ise cita dois casos: Stanford exigia 80 unidades de crédito antes de seu curso de princípios, e a University of Kansas, um curso de Advanced Principles no último ano dos alunos que se especializam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas cobrem manuais e monografias. Everett W. Goodhue, do Dartmouth College, trata de Principles of the New Economics, de Lionel D. Edie, e de Introduction to Economic Problems, de James Dysart Magee; Edgar J. Rich, de Railroads and Government, de Frank Haigh Dixon; J. Hugh Jackson, de um livro de Eugene Szepesi sobre custos em tecelagens; Frank A. Fetter, de Economics of Bridge Work, de J. A. L. Waddell; Jens P. Jensen, de Employers' Associations in the United States, de Clarence E. Bonnett; Frank T. Stockton, de Industrial Unionism in America, de Marion Dutton Savage; William A. Scott, de The Guaranty of Bank Deposits, de Thomas Bruce Robb; Ralph H. Blanchard, de um tratado de seguros de Alfred Manes; Herbert Feis, de Government and Industry, de C. Delisle Burns; J. E. LeRossignol, de Socialisation in Theory and Practice, de Heinrich Ströbel; e A. J. Hettinger Jr., de Wealth and Income of the American People, de Walter Renton Ingalls. As notas anunciam a reunião anual da associação em Chicago, de 27 a 30 de dezembro, no Congress Hotel."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a edição junta três maneiras de fazer economia. Nourse faz análise institucional: compara formas de organização pelo modo como repartem custos, sobras e controle, e testa cada uma pelo resultado prático. Boucke faz crítica de método e pede regularidades objetivas e medidas no lugar de estados psíquicos que não se observam. Southworth mostra o problema de medida na prática, quando um regulador precisa de um número para o capital e outro para o retorno.",
+            "O ponto comum é a dificuldade de dar conteúdo a “valor”. Para o regulador, o valor da propriedade depende dos rendimentos que a própria tarifa vai permitir; para o crítico do marginalismo, a intensidade do desejo só se mede pelo preço que se quer explicar. Os dois textos chegam ao mesmo círculo por caminhos diferentes, e ambos procuram sair dele trocando o conceito por uma grandeza registrável: o investimento, num caso, a regularidade estatística, no outro."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Dividendo de compra (patronage dividend)",
+          "devolução da sobra de uma cooperativa aos membros na proporção de suas compras ou vendas."
+        ],
+        [
+          "Credor residual",
+          "quem fica com o que sobra da receita depois de pagas as parcelas contratuais."
+        ],
+        [
+          "Base tarifária (rate base)",
+          "valor do capital sobre o qual o regulador permite que a concessionária obtenha retorno."
+        ],
+        [
+          "Custo de reprodução",
+          "quanto custaria construir hoje a mesma instalação, aos preços correntes."
+        ],
+        [
+          "Valor de empresa em funcionamento (going value)",
+          "valor atribuído a um negócio já estabelecido, além de seus bens físicos."
+        ],
+        [
+          "Sensacionismo",
+          "doutrina psicológica que deriva todo o conteúdo da mente das sensações."
+        ],
+        [
+          "Catalática",
+          "economia entendida como ciência das trocas e dos preços."
+        ]
+      ],
+      "hoje": "As cooperativas agrícolas continuam a ser forma corrente de organizar compras, beneficiamento e venda de pequenos produtores, e a tensão descrita por Nourse entre o princípio democrático e o poder de mercado reaparece no direito da concorrência. A regulação de serviços públicos ainda discute a base de ativos, o custo histórico ou de reposição e uma taxa de retorno ligada ao custo de capital. E a ordem do currículo de economia segue em debate. Este é o último número da American Economic Review coberto pelo Arquivo, cuja coleção vai até 1922, em domínio público.",
+      "itens": [
+        [
+          "The Economic Philosophy of Co-operation",
+          "pp. 577–597",
+          "1804796"
+        ],
+        [
+          "A Unique Situation in Economic Theory",
+          "pp. 598–605",
+          "1804797"
+        ],
+        [
+          "Some Recent Problems in Public Utility Valuation and Regulation",
+          "pp. 606–613",
+          "1804798"
+        ],
+        [
+          "The Course In Elementary Economics",
+          "pp. 614–623",
+          "1804799"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 624-625",
+          "pp. 624–625",
+          "1804800"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 625-626",
+          "pp. 625–626",
+          "1804801"
+        ],
+        [
+          "New Books",
+          "pp. 626–630",
+          "1804802"
+        ],
+        [
+          "New Books",
+          "pp. 630–634",
+          "1804803"
+        ],
+        [
+          "New Books",
+          "pp. 634–635",
+          "1804804"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 635-637",
+          "pp. 635–637",
+          "1804805"
+        ],
+        [
+          "New Books",
+          "pp. 638–640",
+          "1804806"
+        ],
+        [
+          "New Books",
+          "pp. 641–642",
+          "1804807"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 642-643",
+          "pp. 642–643",
+          "1804808"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 643-645",
+          "pp. 643–645",
+          "1804809"
+        ],
+        [
+          "New Books",
+          "pp. 645–652",
+          "1804810"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 652-653",
+          "pp. 652–653",
+          "1804811"
+        ],
+        [
+          "New Books",
+          "pp. 653–654",
+          "1804812"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 654-655",
+          "pp. 654–655",
+          "1804813"
+        ],
+        [
+          "New Books",
+          "pp. 655–659",
+          "1804814"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 659-661",
+          "pp. 659–661",
+          "1804815"
+        ],
+        [
+          "New Books",
+          "pp. 661–664",
+          "1804816"
+        ],
+        [
+          "New Books",
+          "pp. 664–666",
+          "1804817"
+        ],
+        [
+          "New Books",
+          "pp. 666",
+          "1804818"
+        ],
+        [
+          "New Books",
+          "pp. 666–672",
+          "1804819"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 672-673",
+          "pp. 672–673",
+          "1804820"
+        ],
+        [
+          "New Books",
+          "pp. 673–674",
+          "1804821"
+        ],
+        [
+          "New Books",
+          "pp. 674",
+          "1804822"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 674-676",
+          "pp. 674–676",
+          "1804823"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 676-677",
+          "pp. 676–677",
+          "1804824"
+        ],
+        [
+          "New Books",
+          "pp. 678–679",
+          "1804825"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-12-01), pages 679-681",
+          "pp. 679–681",
+          "1804826"
+        ],
+        [
+          "New Books",
+          "pp. 681–682",
+          "1804827"
+        ],
+        [
+          "Periodicals",
+          "pp. 683–719",
+          "1804828"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 720–738",
+          "1804829"
+        ],
+        [
+          "Notes",
+          "pp. 739–752",
+          "1804830"
+        ]
+      ],
+      "jstor_edicao": "i304574",
+      "artigos": [
+        {
+          "titulo": "The Economic Philosophy of Co-operation",
+          "autores": "E. G. Nourse (Iowa State College)",
+          "paginas": "pp. 577–597",
+          "jstor": "1804796",
+          "resumo": "Exame dos três fundamentos da cooperação, eficiência, distribuição das sobras e controle democrático, e de sua aplicação ao trabalho, ao consumo e à agricultura.",
+          "ensaio_slug": "nourse-a-filosofia-economica-da-cooperacao"
+        },
+        {
+          "titulo": "A Unique Situation in Economic Theory",
+          "autores": "O. Fred Boucke (State College, Pennsylvania)",
+          "paginas": "pp. 598–605",
+          "jstor": "1804797",
+          "resumo": "O abandono da psicologia sensacionista e suas consequências para o método e para o caráter científico da economia.",
+          "ensaio_slug": "boucke-uma-situacao-singular-na-teoria"
+        },
+        {
+          "titulo": "Some Recent Problems in Public Utility Valuation and Regulation",
+          "autores": "Shirley D. Southworth (Princeton University)",
+          "paginas": "pp. 606–613",
+          "jstor": "1804798",
+          "resumo": "Proposta de usar o investimento como base tarifária, tratar a valorização como receita e fixar a taxa de retorno com provas do mercado de capitais."
+        },
+        {
+          "titulo": "The Course In Elementary Economics",
+          "autores": "John Ise (University of Kansas)",
+          "paginas": "pp. 614–623",
+          "jstor": "1804799",
+          "resumo": "Defesa de que o curso de princípios de economia venha no último ano da graduação, depois dos cursos descritivos e especializados."
+        },
+        {
+          "titulo": "Lionel D. Edie, Principles of the New Economics",
+          "autores": "Everett W. Goodhue (Dartmouth College)",
+          "paginas": "pp. 624–625",
+          "jstor": "1804800",
+          "resumo": "Manual que procura relacionar o pensamento econômico recente aos princípios da escola anterior."
+        },
+        {
+          "titulo": "James Dysart Magee, Introduction to Economic Problems",
+          "autores": "Everett W. Goodhue (Dartmouth College)",
+          "paginas": "pp. 625–626",
+          "jstor": "1804801",
+          "resumo": "Introdução descritiva a problemas econômicos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 626–630",
+          "jstor": "1804802",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história; história econômica e geografia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 630–634",
+          "jstor": "1804803",
+          "resumo": "Lista de livros novos: história econômica e geografia; agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 634–635",
+          "jstor": "1804804",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "Frank Haigh Dixon, Railroads and Government: Their Relations in the United States, 1910-1921",
+          "autores": "Edgar J. Rich",
+          "paginas": "pp. 635–637",
+          "jstor": "1804805",
+          "resumo": "As relações entre ferrovias e governo nos Estados Unidos de 1910 a 1921."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 638–640",
+          "jstor": "1804806",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 641–642",
+          "jstor": "1804807",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "Eugene Szepesi, Cost Control and Accounting for Textile Mills",
+          "autores": "J. Hugh Jackson",
+          "paginas": "pp. 642–643",
+          "jstor": "1804808",
+          "resumo": "Controle e contabilidade de custos em tecelagens."
+        },
+        {
+          "titulo": "J. A. L. Waddell, Economics of Bridge Work: a Sequel to “Bridge Engineering”",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 643–645",
+          "jstor": "1804809",
+          "resumo": "Os fatores econômicos na construção de pontes, vistos por um engenheiro."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 645–652",
+          "jstor": "1804810",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Clarence E. Bonnett, Employers' Associations in the United States",
+          "autores": "Jens P. Jensen (University of Kansas)",
+          "paginas": "pp. 652–653",
+          "jstor": "1804811",
+          "resumo": "Livro dedicado exclusivamente às associações patronais americanas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 653–654",
+          "jstor": "1804812",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "Marion Dutton Savage, Industrial Unionism in America",
+          "autores": "Frank T. Stockton (University of South Dakota)",
+          "paginas": "pp. 654–655",
+          "jstor": "1804813",
+          "resumo": "Os sindicatos industriais em funcionamento e a direção provável do movimento operário."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 655–659",
+          "jstor": "1804814",
+          "resumo": "Lista de livros novos: trabalho e organizações trabalhistas."
+        },
+        {
+          "titulo": "Thomas Bruce Robb, The Guaranty of Bank Deposits",
+          "autores": "William A. Scott",
+          "paginas": "pp. 659–661",
+          "jstor": "1804815",
+          "resumo": "As leis estaduais de garantia de depósitos bancários e seus efeitos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 661–664",
+          "jstor": "1804816",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 664–666",
+          "jstor": "1804817",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 666",
+          "jstor": "1804818",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 666–672",
+          "jstor": "1804819",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "Alfred Manes, Besondere Versicherungslehre",
+          "autores": "Ralph H. Blanchard (Columbia University)",
+          "paginas": "pp. 672–673",
+          "jstor": "1804820",
+          "resumo": "Terceira edição de um tratado alemão sobre o negócio de seguros."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 673–674",
+          "jstor": "1804821",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 674",
+          "jstor": "1804822",
+          "resumo": "Lista de livros novos: pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "C. Delisle Burns, Government and Industry",
+          "autores": "Herbert Feis (University of Kansas)",
+          "paginas": "pp. 674–676",
+          "jstor": "1804823",
+          "resumo": "Tentativa de encontrar ideias ordenadoras nas mudanças recentes da relação entre governo e indústria."
+        },
+        {
+          "titulo": "Heinrich Ströbel, Socialisation in Theory and Practice",
+          "autores": "J. E. LeRossignol",
+          "paginas": "pp. 676–677",
+          "jstor": "1804824",
+          "resumo": "A socialização da indústria vista por um ex-ministro das Finanças do governo revolucionário prussiano de 1918."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 678–679",
+          "jstor": "1804825",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "Walter Renton Ingalls, Wealth and Income of the American People",
+          "autores": "A. J. Hettinger, Jr. (Harvard University)",
+          "paginas": "pp. 679–681",
+          "jstor": "1804826",
+          "resumo": "Estimativas da riqueza e da renda dos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 681–682",
+          "jstor": "1804827",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 683–719",
+          "jstor": "1804828",
+          "resumo": "Lista de artigos de periódicos, por assunto."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "",
+          "paginas": "pp. 720–738",
+          "jstor": "1804829",
+          "resumo": "Documentos oficiais recebidos, a começar pelos da United States Tariff Commission."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 739–752",
+          "jstor": "1804830",
+          "resumo": "Programa da reunião anual em Chicago, de 27 a 30 de dezembro, novos membros e notícias."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "nourse-a-filosofia-economica-da-cooperacao",
+          "titulo": "Nourse e os três princípios da cooperação",
+          "titulo_original": "The Economic Philosophy of Co-operation",
+          "autores": "E. G. Nourse (Iowa State College)",
+          "paginas": "pp. 577–597",
+          "jstor": "1804796",
+          "chamada": "Eficiência, sobras e voto: Nourse examina o que a cooperação promete, onde ela tropeça e por que, nos Estados Unidos, o seu campo principal é a agricultura.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Numa loja sem vitrine em Toad Lane, os pioneiros de Rochdale vendiam à vista e com a ajuda voluntária dos sócios. E. G. Nourse, do Iowa State College, usa essa imagem como ponto de partida para um exame sistemático do que chama de filosofia econômica da cooperação. Sua constatação inicial é que os cooperados agem antes de entender a doutrina, enquanto muitos de fora veem o movimento, sem necessidade, como criador de monopólio e de uma consciência de classe nociva. Essa falta de entendimento, diz, já torna incertas as relações do movimento com legisladores, tribunais, contadores e fiscais do imposto de renda."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vêm os três fundamentos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O movimento, lembra Nourse, nasceu da Revolução Industrial, como reação aos rigores do sistema fabril. Os operários britânicos, apertados entre salários baixos e preços altos, encontraram alívio nas lojas sem fins lucrativos do modelo de vinte e oito tecelões de Rochdale. Três fundamentos teriam sustentado o êxito: eficiência, com venda sem crédito, sem angariação e com serviço gratuito ou pouco pago dos membros; distribuição popular das sobras, com juro mínimo ao capital e o excedente pago como dividendo de compra e de trabalho; e controle democrático, com voto individual."
+            },
+            {
+              "tipo": "p",
+              "texto": "Esses princípios registram, segundo o autor, um protesto triplo: contra os custos e desperdícios do sistema competitivo de vendas, contra o capital como credor residual dos lucros e contra a identificação do controle com a propriedade de ações. O artigo examina cada aspecto por vez."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A cooperativa é mais eficiente?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na eficiência, Nourse separa a economia que só corta serviço, que não é ganho real, do ataque aos desperdícios da concorrência. Ao reunir os pedidos do grupo consumidor e orientar distribuição e produção pelas necessidades de quem compra, a loja cooperativa afirma que o negócio deve ser meio, e não fim. O autor dá voz ao consumidor que pergunta por que pagar marcas duplicadas, caixeiros-viajantes, publicidade e comerciantes redundantes."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O comércio de todas essas lojas não passa da reunião de bens para satisfazer as minhas necessidades.”",
+              "original": "“The trade of all these stores is nothing more than the assembling of goods to satisfy my wants.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo argumento vale para produtores. O fazendeiro pergunta por que sustentar sete compradores locais de gado quando um agente organizaria os embarques. Numa região nova, longe dos mercados e com produto perecível, a associação consegue o que o distribuidor privado não faz. E na produção multiplicaram-se as associações de serviço, das que reuniam capital para levar a debulha a vapor à pequena fazenda às de pulverização e controle leiteiro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem fica com a sobra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na cooperativa, o lucro não vai como dividendo das ações, mas como dividendo de compra, ou de trabalho. O capital recebe a taxa corrente, e o membro que compra, vende ou trabalha é o credor residual. Nourse vê aí uma confusão entre o capitalismo como categoria de distribuição e o grande capitalista: a objeção do cooperado é ao acúmulo de dividendos excessivos e às ações infladas, não ao juro de mercado. Organizados os clientes, o risco sai do negócio, e a sobra que aparecer é cobrança a mais, devolvida depois das reservas e de um fundo educacional."
+            },
+            {
+              "tipo": "p",
+              "texto": "A cooperação seria então favorável ao trabalho? O autor responde que é um movimento da classe trabalhadora, mas com adesão imperfeita a uma teoria trabalhista da distribuição. O dividendo ao trabalho é letra morta na prática; a Co-operative Wholesale Society britânica teve greves em suas fábricas; sociedades de produtores e de consumidores entraram em conflito. Nos Estados Unidos, o fazendeiro quer retorno também sobre o capital investido, e um dos motivos do surto cooperativo agrícola seria manter o preço da terra."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí o que Nourse chama de cooperação militante, em oposição à cooperação utópica da velha escola: princípios cooperativos dentro do grupo, barganha competitiva fora dele. A Associated Raisin Growers of California, exemplo citado, adotou o voting trust e entrou em choque com a Federal Trade Commission. O autor espera que o elemento mais sólido do movimento repudie essas ideias predatórias."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem manda numa cooperativa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na sociedade anônima, o controle acompanha o capital e tende a concentrar-se: ações preferenciais sem voto, credores de títulos sem voz, procurações, holdings e voting trusts. A cooperação opõe três contrapropostas: todo capital investido vira fundo de empréstimo, sem voto, e o voto vai aos membros que participam do negócio; procurações são proibidas, a quantidade de ações por pessoa é limitada e cada membro vota como indivíduo; e o quadro de membros fica aberto a quem exerce a atividade, terminando quando ele a deixa."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A associação cooperativa é uma união de pessoas, enquanto a sociedade anônima é uma união de capitais.”",
+              "original": "“the cooperative association is a union of persons, whereas the joint stock company or corporation is a union of capitals”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O princípio de um homem, um voto às vezes é ajustado à proporção do movimento, por vacas ou peso de leite numa associação de laticínios, por árvores ou caixas de fruta numa de horticultura. Mas permanece a ideia de que a filiação é pessoal e de que a riqueza não deve ter peso adicional: o cooperado, resume Nourse, acredita que a democracia vale tanto na economia quanto na política."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A cooperação pode substituir o mercado?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O teste, diz o autor, é pragmático. Levadas ao extremo, as propostas cooperativas montam uma nova máquina de fazer preços. O trabalhador quer o valor integral de seu trabalho no preço ao consumidor; o consumidor quer apropriar-se de tudo acima do preço de mercado dos serviços e materiais. Um não pode tomar como dado o preço do outro. Em nota, Nourse observa que o intermediário mantém um terreno neutro onde oferta e demanda se igualam, e que mesmo as vendas diretas dependem das cotações desse mercado."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mill esperava da cooperação de trabalhadores uma transformação favorável à justiça social. A história, diz o autor, desmentiu a expectativa, pela técnica industrial, que exigia equipamento cada vez maior e mais caro, e pela situação do assalariado, sem capital para reinvestir; o sindicalismo pareceu-lhe caminho mais rápido."
+            },
+            {
+              "tipo": "p",
+              "texto": "A cooperação de consumidores, dominante na Inglaterra e na Escócia, integrou atacado e importação, montou fábricas, plantações de chá, navios e departamentos bancários. Levada à comunidade cooperativa que dirigisse toda a economia, passaria, para Nourse, da associação voluntária ao socialismo coercitivo. Ainda assim, sua presença seria um estímulo valioso e uma salvaguarda contra exploração e ineficiência."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a agricultura é o caso americano?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Cooperação agrícola, explica Nourse, não é lavoura coletiva, mas a associação de fazendeiros para as partes do negócio que não podem fazer sozinhos. O ponto de vista é o da reorganização funcional, e não o da regeneração econômica. O fazendeiro, trabalhador por conta própria e pequeno capitalista, aceita os fatos do mercado e procura apenas a posição mais eficaz diante dele. Por isso a facção cooperativa é a ala conservadora da agricultura."
+            },
+            {
+              "tipo": "p",
+              "texto": "A lógica é de escala. O criador precisa concentrar a venda para enfrentar nos currais o poder de compra dos cinco grandes frigoríficos; os produtores de leite, que criaram a cooperativa local contra a pequena usina privada, enfrentam agora grandes empresas que anunciam direto ao consumidor, e precisam de federações regionais. Os cooperativistas de consumo acusam essa cooperação de ser tão exploradora quanto o produtor capitalista; o autor admite o risco, mas vê perigo igual em reduzir a produção a atender pedidos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O perigo de monopólio na agricultura americana, diz, é praticamente desprezível, e o quadro aberto de membros é salvaguarda adicional. Melhores retornos estimulam a produção e baixam o preço ao consumidor, às vezes a ponto de ameaçar as próprias associações. Nourse conclui que, se o objetivo de Mill é fazer do trabalhador também dono do capital de sua atividade, a cooperação agrícola, que preserva a combinação de capitalista e trabalhador no fazendeiro, merece ser cultivada, e que analisar suas questões seria tarefa própria do economista."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo trata a cooperativa como uma solução para três problemas distintos de organização: custo de transação, repartição do excedente e governança. Os ganhos de eficiência que Nourse aceita vêm da agregação da demanda ou da oferta e da escala; os que ele recusa são só redução de serviço. A distinção é útil para qualquer comparação entre formas de empresa.",
+                "O ponto mais forte é o argumento sobre preços. Sem um mercado de referência, produtores e consumidores organizados não têm como dividir a margem, e a cooperação passa a depender das cotações do sistema que pretendia substituir. É por isso que o autor encontra na agricultura, onde a cooperativa aceita o preço de mercado e muda apenas a posição do produtor diante dele, o caso mais viável."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Dividendo de compra (patronage dividend)",
+              "devolução da sobra aos membros na proporção de seu movimento com a cooperativa."
+            ],
+            [
+              "Copropriedade operária (labor copartnership)",
+              "empresa em que os trabalhadores participam do capital e dos lucros."
+            ],
+            [
+              "Voting trust",
+              "arranjo em que acionistas transferem o direito de voto a um grupo de fiduciários."
+            ],
+            [
+              "Credor residual",
+              "quem fica com o que sobra depois de pagas as parcelas contratuais."
+            ],
+            [
+              "Lojas em cadeia",
+              "redes de lojas de um mesmo dono, com compras centralizadas."
+            ]
+          ],
+          "hoje": "Cooperativas de produtores rurais continuam a organizar compras, armazenagem, beneficiamento e venda em muitos países, e as questões levantadas por Nourse seguem presentes: como votar quando o movimento dos membros é desigual, como capitalizar a sociedade sem dar poder ao capital e até onde a ação conjunta de vendedores é tolerada pelo direito da concorrência. A distinção entre ganho de eficiência e simples redução de serviço também reaparece nas comparações entre formatos de varejo."
+        },
+        {
+          "slug": "boucke-uma-situacao-singular-na-teoria",
+          "titulo": "Boucke e a teoria econômica sem a velha psicologia",
+          "titulo_original": "A Unique Situation in Economic Theory",
+          "autores": "O. Fred Boucke (State College, Pennsylvania)",
+          "paginas": "pp. 598–605",
+          "jstor": "1804797",
+          "chamada": "Para Boucke, abandonar o sensacionismo derruba juntos o utilitarismo e o marginalismo e obriga a economia a refazer o método: dinâmica, longo prazo e indução estatística.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Os currículos das faculdades americanas prosperam sob o signo do comércio e das finanças, e alguns dos economistas mais promissores deixaram o campus por bancos, fábricas e repartições públicas. É com esse retrato que O. Fred Boucke, de State College, Pensilvânia, descreve em dezembro de 1922 o que chama de situação singular na teoria econômica: um período em que a crítica desmontou a velha base da disciplina e nada ainda a substituiu."
+            },
+            {
+              "tipo": "p",
+              "texto": "Boucke parte de uma convicção que diz ser difundida: a literatura das duas últimas décadas, e sobretudo a posterior à Grande Guerra, foi crítica, desfez crenças antigas e pouco reconstruiu. O fenômeno não é exclusivo da época nem dos economistas; o pensamento, escreve, sobe e desce em curvas, e um grupo derruba o que o anterior construiu. Matemáticos, físicos e químicos também revisavam suas certezas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os economistas estavam abandonando?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na economia, a revisão atingia as premissas do século XVIII em psicologia e em governo. Os economistas renegavam o sensacionismo e o associacionismo, pilares da psicologia empírica britânica, e com eles três ensinamentos: que as margens são a chave dos valores de troca, que a psicologia tem lugar na economia e que a teoria intelectualista dos sentimentos contém alguma verdade. As alterações propostas, diz o autor, seriam fatais para as duas formas dominantes de análise de um século, o utilitarismo, ou classicismo, e o marginalismo."
+            },
+            {
+              "tipo": "p",
+              "texto": "No lugar da análise, crescia a descrição de instituições e práticas, sem busca de generalização científica. Descrever normas e processos de negócios, e não discutir princípios ou leis universais, tornara-se o ideal de muitos professores. Boucke admite que isso pode ser lido como prova de versatilidade dos economistas ou de apreço da indústria pelo conhecimento especializado, mas vê aí um significado mais profundo: até então, a economia fora uma ciência que buscava leis, enunciava relações quantitativas e se apoiava num sistema psicológico desenvolvido."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a economia chegou até ali?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O retrospecto começa pelos fisiocratas, que não elaboraram uma teoria da natureza humana, mas acreditavam em leis sociais permanentes, inspirados pelas pesquisas que culminaram nos Principia de Newton; seu feito mais famoso foi o Tableau Économique. A falta de uma psicologia definida, diz o autor, ajudaria a explicar por que não converteram a Europa. Desde então, os economistas apoiaram-se em traços da natureza humana para tornar suas doutrinas definidas e coerentes."
+            },
+            {
+              "tipo": "p",
+              "texto": "Smith introduziu teorias da natureza humana numa análise naturalista: alguns traços do homem garantiam a autopreservação e promoviam o bem-estar geral, e o laissez-faire se justificava porque interesse próprio e simpatia nivelavam preços e rendas. Os ricardianos seguiram outro caminho. Fizeram da economia uma ciência das relações de troca, a catalática, que sacrificou a amplitude à precisão lógica; com Malthus e os dois Mill, ela passou a depender de Hartley e Bentham para explicar os fenômenos mentais, e o problema central deixou de ser a produção para ser o preço e a distribuição."
+            },
+            {
+              "tipo": "p",
+              "texto": "John Stuart Mill, segundo Boucke, deu à economia uma metodologia para as ciências sociais nunca igualada. Com a psicologia associacionista, construiu o argumento pela dedução: nos fenômenos sociais os efeitos das causas se somam, e por isso a ciência social seria dedutiva. Pela Lógica de 1843, a economia utilitária tornou-se um sistema completo, em que o hedonismo era a teoria da motivação, embora os valores ainda fossem explicados de modo objetivo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A escola histórica e o marginalismo romperam com isso?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A escola histórica combateu a psicologia hedonista e protestou contra a estática e a catalática, mas, para o autor, não quebrou a continuidade do pensamento. Buscava leis tanto quanto os adversários, e seus adeptos se revelaram mais historiadores que economistas: quando procuravam leis com afinco, convertiam-se a alguma forma de economia utilitária; quando não, produziam história e ética. Roscher, Knies e Schmoller, conclui, foram um interlúdio, não a causa da queda."
+            },
+            {
+              "tipo": "p",
+              "texto": "O marginalismo venceu, diz Boucke, porque concordava no fundo com o utilitarismo. Ambos acreditavam no sensacionismo e no hedonismo; ambos usavam dedução, estática, catalática e cosmopolitismo; ambos supunham liberdade de contrato e definições moldadas pela concorrência. O que os separava era a teoria do valor: objetiva nos ricardianos, que analisavam preço e renda como compostos de trabalho e dinheiro; subjetiva nos marginalistas, para quem a utilidade era a chave do valor de troca. O hedonismo virou, então, teoria dos valores além de teoria da motivação."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O que separava o utilitarismo do marginalismo era essencialmente a diferença entre uma teoria objetiva e uma subjetiva do valor.”",
+              "original": "“What separated utilitarianism from marginism was essentially the difference between an objective and a subjective theory of valuation.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é uma lei qualitativa e o que é uma quantitativa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda questão é o efeito, sobre a economia como ciência e como método, de rejeitar o sensacionismo. Boucke recorre a uma distinção conhecida dos lógicos. Leis qualitativas dizem que certos eventos se repetem sempre na mesma combinação, como sequências ou coexistências; explicar uma tempestade pelo vento, pela umidade, pela eletricidade e pela transmissão do som já é enunciar sua lei. Leis quantitativas medem também as grandezas e suas variações, e desde o Renascimento a correlação quantitativa exata é o ideal dos cientistas, como na lei de Boyle para os gases."
+            },
+            {
+              "tipo": "p",
+              "texto": "Aplicada às escolas, a distinção dá dois juízos. O utilitarismo acertava na análise do preço, que explicava por fatos distintos do preço ou por despesas, mas errou ao adotar o sensacionismo e um homem econômico que excluía outros elementos da valoração, e sofreu de uma estática abstrata demais; sua análise quantitativa fracassou pela discrepância inevitável entre quantidade de trabalho e preço. O marginalismo seria pior: usou uma psicologia falha para explicar o valor e, além disso, para buscar uma relação quantitativa exata entre ele e os preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "O defeito central, para o autor, é um círculo vicioso. Como desejos e estados psíquicos não admitem medida, a intensidade do desejo e a ordem de preferência tinham de ser julgadas pelos preços pagos, e o recurso às margens não resolvia a petição de princípio, porque as próprias margens pediam explicação. Daí a pergunta do artigo: correlações e medidas objetivas podem substituir as subjetivas?"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que tarefas ficam para os economistas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Boucke deixa de lado o livre-arbítrio e a separação entre fato e norma. Para o cientista, diz, causalidade é apenas um modo de enunciar a interdependência entre eventos; há regularidade nos fatos sociais como nos físicos, com diferença de grau. A ética não estuda eventos, e nenhum critério de bem último sai de uma descrição de fatos; mas, uma vez definido esse bem, os dados econômicos podem ser julgados por ele. A tarefa principal continua a ser substituir a velha metodologia, se a economia quiser seguir como ciência."
+            },
+            {
+              "tipo": "p",
+              "texto": "As novas obrigações vêm em lista. A dinâmica substitui a estática, e a visão de curto prazo deve ser completada por uma de longo prazo. Os eventos devem ser estudados como ocorrem no mundo real, e não como abstrações da natureza humana ou funções equacionadas. Pode ser preciso ir além da catalática. A dedução pode mudar de sentido diante de dados empíricos complexos, e é preciso examinar a indução estatística, a estatística descritiva e a seleção e classificação dos materiais a correlacionar. O ponto decisivo, prevê o autor, será a diferença entre as unidades da física e as estudadas por sociólogos e economistas."
+            },
+            {
+              "tipo": "p",
+              "texto": "O desfecho fica em aberto. Talvez só caiba uma análise qualitativa meio filosófica, meio científica; talvez diferentes medidas sirvam a diferentes assuntos. Por algum tempo, os economistas duvidarão de tudo. Mas, seja qual for a atitude diante do crítico ou do conservador, Boucke considera que a disciplina está às vésperas de grandes acontecimentos."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uma situação sem paralelo pode levar a realizações sem paralelo.”",
+              "original": "“An unparalleled situation may lead to unparalleled achievements.”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o argumento central do artigo é uma objeção de identificação: se a utilidade só se observa pelo preço, uma teoria que explica o preço pela utilidade não pode ser testada contra os dados que pretende explicar. A saída que Boucke propõe é trocar grandezas não observáveis por regularidades registradas, medidas e correlacionadas, ao lado de uma análise que acompanhe as mudanças no tempo.",
+                "O texto também separa duas questões que costumam vir juntas: a psicologia que fundamenta uma teoria e o método com que ela é construída. Ao mostrar que utilitaristas e marginalistas compartilhavam a dedução, a estática e as premissas jurídicas, e divergiam só na teoria do valor, o autor desloca o debate da escolha entre escolas para a escolha das unidades de análise e das técnicas de medida."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Sensacionismo",
+              "doutrina psicológica que deriva todo o conteúdo da mente das sensações."
+            ],
+            [
+              "Associacionismo",
+              "teoria que explica a vida mental pela associação de ideias e sensações."
+            ],
+            [
+              "Catalática",
+              "economia entendida como ciência das trocas e dos preços."
+            ],
+            [
+              "Marginalismo",
+              "explicação do valor pela utilidade da última unidade consumida ou produzida."
+            ],
+            [
+              "Estática e dinâmica",
+              "análise de estados de equilíbrio, de um lado, e das mudanças no tempo, de outro."
+            ],
+            [
+              "Indução estatística",
+              "generalização a partir de regularidades observadas em dados numéricos."
+            ]
+          ],
+          "hoje": "A economia seguiu, em boa parte, o caminho que Boucke descreve como tarefa: séries estatísticas, correlação e, depois, econometria e modelos dinâmicos. O problema que ele aponta no marginalismo, a dificuldade de observar preferências fora das escolhas e dos preços, também foi enfrentado de frente pela teoria, com formulações que dispensam a medida direta da utilidade, e continua em discussão na economia comportamental e na avaliação de bem-estar."
+        }
+      ]
     }
   ],
-  "proximas": [
-    "American Economic Review, vol. 2 (1912)",
-    "American Economic Review (1913–1922)"
-  ]
+  "proximas": []
 }
