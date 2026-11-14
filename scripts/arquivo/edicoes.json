@@ -54431,6 +54431,2417 @@
           "hoje": "A escolha que Glocker descreve continua presente na organização do trabalho. Sindicatos ainda se dividem entre representação por categoria profissional e por setor ou empresa, e fusões entre sindicatos seguem motivadas por poder de barganha e economia de custos. Disputas sobre quem representa trabalhadores de funções novas, criadas por tecnologias e materiais novos, repetem as disputas de jurisdição do texto. E a relação entre trabalhadores mais e menos qualificados dentro de uma mesma organização segue no centro da discussão sobre desigualdade salarial."
         }
       ]
+    },
+    {
+      "slug": "1915-o-fator-de-carga",
+      "numero": 138,
+      "titulo": "A população da Europa, o fator de carga e o canal do Panamá",
+      "titulo_original": "The American Economic Review, vol. V, no. 4, December 1915",
+      "autores": "Walter F. Willcox, G. P. Watkins, H. A. Millis, George E. Putnam, G. G. Huebner e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 5, nº 4",
+      "data": "dezembro de 1915",
+      "chamada": "Willcox mede a expansão da população europeia; Watkins leva o fator de carga para a teoria do custo; Millis, Putnam e Huebner tratam de imigração, crédito rural e do primeiro ano do canal do Panamá.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 11 de agosto de 1915, em San Francisco, Walter F. Willcox, da Cornell University, fez o discurso presidencial da American Economic Association sobre um único número. A Europa tinha cerca de 127 milhões de habitantes em meados do século XVIII; às vésperas da guerra, 452 milhões. O discurso abre o número de dezembro de 1915 da American Economic Review."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reunião especial na costa do Pacífico explica parte da edição: dois outros artigos, de H. A. Millis e de G. G. Huebner, foram apresentados em Berkeley no dia seguinte. Millis trata dos efeitos econômicos da imigração japonesa sobre salários, terra e comércio no Oeste americano; Huebner faz o primeiro balanço do canal do Panamá, aberto à navegação comercial em agosto de 1914. Entre eles, G. P. Watkins propõe incorporar à teoria da produtividade um conceito vindo dos engenheiros eletricistas, o fator de carga, e George E. Putnam examina as leis estaduais de crédito agrícola e seu efeito sobre o arrendamento. Fecham o número resenhas, listas de livros novos, documentos oficiais, resumos de periódicos e notas sobre a reunião."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto cresceu a população de origem europeia?",
+          "artigo": "1809628",
+          "credito": "Walter F. Willcox (Cornell University) · “The Expansion of Europe in Population” · pp. 737–752"
+        },
+        {
+          "tipo": "p",
+          "texto": "O censo moderno, diz Willcox, nasceu na Constituição federal americana como instrumento político, ligado à representação, e se espalhou com as instituições representativas; o subproduto científico é a medida da população. O tema fica restrito à população porque é o que se pode medir."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira medida séria da Europa foi a de Süssmilch, em 1741: 130 milhões de habitantes contados, mais 20 milhões para omissões, total depois reduzido a 130 milhões. Os métodos variavam por país: o número de contribuintes do imposto sobre lareiras multiplicado por cinco, óbitos anuais por 36, batismos por 27. Willcox corrige as estimativas com censos posteriores, projetados para trás. Acrescenta 12,7 milhões ao sul e ao oeste e retira 6 milhões da Polônia e da Lituânia e 5 milhões da Rússia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "127 milhões",
+          "texto": "População da Europa em meados do século XVIII na estimativa corrigida de Willcox, ante 452 milhões às vésperas da guerra: um aumento médio de cerca de 2 milhões por ano. Desde 1900, o continente somou 50 milhões, cerca de 4 milhões por ano. Fora da Europa viviam então perto de 127 milhões de pessoas de nascimento ou ascendência europeia, quase dois terços delas nos Estados Unidos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comparação natural seria a China, mas os registros oficiais não resistem ao exame: no século anterior ao suposto censo de 1842, 160 de 162 anos mostram aumento, e o salto de 44 milhões entre 1774 e 1775 resultou de uma ordem imperial de revisão. Willcox conclui que a população chinesa ficou quase estacionária, com fomes, enchentes e guerras consumindo o crescimento dos anos normais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os demais exemplos vêm de censos e estimativas. Java teria passado de cerca de 4 milhões em 1800 para cerca de 30 milhões em 1905; a Índia, de uma estimativa de 178,5 milhões em 1851 para 244 milhões no censo de 1911; o Egito, de 2,46 milhões em 1800 para quase 11 milhões em 1907. No Japão, a população passou de 32,9 milhões em 1871 para 53,7 milhões em 1914."
+        },
+        {
+          "tipo": "p",
+          "texto": "No total, a população da Terra teria passado de perto de um bilhão, dois séculos antes, para quase um bilhão e dois terços. Willcox trata esse acréscimo como a única medida quantitativa de progresso aplicável ao mundo inteiro, preferível à longevidade, de Lord Acton, aplicável a poucos países, e à felicidade, de Bryce, que ninguém mede."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um critério pobre que dá uma resposta é preferível a um teoricamente melhor.”",
+          "original": "“a poor criterion which gives an answer is preferable to one theoretically better”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a máquina parada encarece o produto?",
+          "artigo": "1809629",
+          "credito": "G. P. Watkins (New York City) · “A Third Factor in the Variation of Productivity: The Load Factor” · pp. 753–786"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os engenheiros eletricistas chamam de fator de carga a razão entre a carga média e a carga máxima de uma usina num período. Watkins propõe tirar o conceito da tarifa elétrica e colocá-lo na teoria econômica, ao lado dos dois princípios clássicos de variação do custo unitário: os rendimentos decrescentes, que ele rebatiza de fator de proporcionalidade, e as economias de escala, que chama de fator de densidade. O terceiro mede quanto a demanda permite usar continuamente a capacidade instalada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A eletricidade é o caso puro, porque não se armazena de forma econômica e porque juros e depreciação do capital fixo pesam muito no custo. A usina precisa ter capacidade para o pico; quem consome fora dele usa capacidade que já existe. Um consumidor que usa a mesma potência por uma hora ao dia impõe, por quilowatt-hora, cinco vezes o encargo de capital de quem a usa por cinco horas, desde que os picos coincidam com o do sistema. Daí as tarifas menores para usos fora do pico e o esforço das companhias para ampliar os usos da energia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "55%",
+          "texto": "Fator de carga diário aproximado do sistema da New York Edison em Manhattan e no Bronx, em dias úteis de dezembro de 1913: a produção horária máxima chegou a 183% da média e a mínima a 34%. O fator de carga anual do sistema em 1913 foi de cerca de 34%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O princípio vale onde há muito capital fixo e um serviço que precisa ser consumido onde e quando é oferecido: ferrovias, bondes, telégrafo, telefone, correio. Os bondes nova-iorquinos têm a hora do rush; o telégrafo criou a carta noturna a tarifa reduzida. Na indústria comum, o problema é sazonal: em 1910, a razão de utilização calculada pelo órgão de estatística de Nova Jersey foi de 74,92% na média, de 64,42% em estruturas de aço e de 88,12% em papel. Hotéis de montanha suíços ocupavam 76% dos leitos em agosto e 14% em dezembro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Watkins aplica a ideia ao trabalho e ao consumo. Salários de pessoal permanente são custo fixo, como o capital; os ofícios sazonais com pouco capital transferem a flutuação da demanda para os trabalhadores, e mais capital por trabalhador tende a regularizar o emprego. Conclui que os três fatores atuam juntos em qualquer empresa e que o custo unitário depende do grau de uso das instalações."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "watkins-fator-de-carga",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a imigração japonesa fez com salários e terra no Oeste?",
+          "artigo": "1809630",
+          "credito": "H. A. Millis (University of Kansas) · “Some of the Economic Aspects of Japanese Immigration” · pp. 787–804"
+        },
+        {
+          "tipo": "p",
+          "texto": "Millis, autor de The Japanese Problem in the United States (1915), deixa de lado as questões de regulação e de tratamento dos imigrantes e trata dos efeitos econômicos de uma imigração pequena e concentrada. O censo de 1890 registrou 2.039 japoneses residentes; em 1900 chegaram mais de 12 mil, e a imigração direta para os estados do Pacífico ficou entre 6 e 7 mil por ano até as restrições de 1907, o acordo sobre passaportes e a ordem presidencial que barrou a reemigração via Havaí, Canadá e México. O censo de 1910 contou 72.157 japoneses no território continental."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que importa, para o autor, é a concentração em poucas ocupações e regiões. Em 1909 ele estimou, de cerca de 75 mil ocupados, de 38 mil a 40 mil na agricultura, de 10 mil a 12 mil no serviço doméstico, de 12 mil a 14 mil no comércio e uns 10 mil nas ferrovias. O recrutamento se fazia por empreiteiros, que forneciam turmas às ferrovias, vendiam mantimentos aos trabalhadores e cobravam, em geral, 5 centavos por dia de cada homem e US$ 1 por mês de intérprete."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "66,3%",
+          "texto": "Parcela do trabalho na produção de beterraba da Califórnia fornecida por japoneses em 1909, segundo Millis; nas frutas silvestres, 87,2%; na uva, 51,7%; em grãos e feno, 6,6%. Nas ferrovias, os salários diários desses trabalhadores ficaram de 20 a 25 centavos abaixo dos de outros turmeiros até que a restrição reduzisse a oferta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dados da Interstate Commerce Commission indicam o efeito sobre os salários: de 1898 a 1908, a remuneração dos trabalhadores de via subiu 30% e 28% em dois distritos do Leste e do Meio-Oeste, ante 18% e 12% nos dois distritos do Oeste onde se concentravam os japoneses. A conclusão do autor é que a oferta organizada de mão de obra retardou a alta de salários, elevou lucros e o valor da terra e estimulou o açúcar de beterraba, a passa e outras culturas intensivas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na terra, o censo de 1910 registrou 2.502 propriedades operadas por japoneses, com 157.259 acres, das quais 1.816 na Califórnia. Millis vê no arrendamento um prêmio às grandes propriedades e um freio à subdivisão. Como política, propõe bolsas de trabalho para organizar a mão de obra sazonal, melhores alojamentos, regularidade no trabalho agrícola e, como solução final, a pequena propriedade cultivada pelo próprio dono, com regulação da venda de terras."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Crédito mais barato reduz o arrendamento rural?",
+          "artigo": "1809631",
+          "credito": "George E. Putnam (University of Kansas) · “Agricultural Credit Legislation and the Tenancy Problem” · pp. 805–815"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1915, sete estados americanos tinham leis abrangentes de reforma do crédito rural, fruto de uma onda legislativa dos dois anos anteriores. Putnam as divide em dois tipos. Massachusetts, Utah e Wisconsin autorizaram bancos de terra privados e concorrentes, sob supervisão estadual; Nova York criou um banco central de terras ligado às associações de poupança e empréstimo. Missouri, Montana e Oklahoma foram além e adotaram empréstimos com recursos do Estado, com a promessa de juros bem abaixo dos correntes."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Land Bank of the State of New York, adaptação da Landschaft central da Prússia, reunia mais de 40 associações, com ativos de cerca de US$ 20 milhões, e autorizara a primeira emissão de US$ 250 mil em títulos de dez anos a 4,5%, para emprestar às associações a 5%. A lei do Missouri previa empréstimos de US$ 250 a US$ 10 mil, até metade do valor da terra, por cinco a 25 anos, com capital inicial de US$ 1 milhão do tesouro estadual e títulos até US$ 40 milhões. Em Oklahoma, o empréstimo máximo era de US$ 2 mil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 anos",
+          "texto": "Prazo mais longo que os bancos comerciais costumavam conceder em empréstimos com hipoteca rural, segundo Putnam, curto demais para pagar a terra com o que ela produz. As novas leis previam prazos longos e amortização em parcelas fixas: de cinco a 25 anos no Missouri, 23,5 anos em Oklahoma, 20 anos na Woodruff Trust Company, de Joliet, Illinois."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central vai contra a expectativa dos legisladores. O crescimento do arrendamento, diz Putnam, decorre menos do crédito caro do que da alta especulativa do preço da terra desde 1900. Juros menores para todos os agricultores se capitalizariam no valor da terra; ele relata casos de agricultores prósperos que se endividavam para comprar mais terra à espera da ajuda oficial. O efeito poderia ser concentrar a propriedade e agravar o arrendamento."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Nova Zelândia combinou empréstimos baratos com imposto progressivo sobre a terra, mas Putnam considera a solução inviável diante da fraqueza da administração tributária dos estados. Propõe limitar o crédito por pessoa, emprestar só para a compra de terra e exigir que o comprador a cultive. Para os proprietários, bastariam companhias privadas reguladas; para o arrendatário, a ajuda direta caberia ao governo federal, como no passado a política de terras livres."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o canal do Panamá mudou no primeiro ano?",
+          "artigo": "1809632",
+          "credito": "G. G. Huebner (University of Pennsylvania) · “Economic Aspects of the Panama Canal” · pp. 816–829"
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro navio mercante atravessou o canal em 15 de agosto de 1914, quando a guerra europeia acabava de começar. Huebner, que trabalhara por dois anos no estudo de tráfego e pedágios que precedeu a fixação das tarifas, faz o balanço dos primeiros dez meses e meio: 1.088 navios mercantes, 4.969.792 toneladas de carga e US$ 4.424.256 em pedágios. O tráfego de cabotagem entre as duas costas americanas passou de 40% do total, quando se previam 10% a 11%; o internacional ficou abaixo do esperado por causa da guerra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro efeito é sobre as rotas. A distância de Nova York a San Francisco ficou 7.873 milhas náuticas menor que pela rota de Magalhães; a Valparaíso, 3.747 milhas; a Yokohama, 3.768 milhas a menos que por Suez. Um vapor de 10 nós economiza 33,3 dias até a costa do Pacífico. Onde a carga antes cruzava o istmo por ferrovia, o transbordo custava cerca de US$ 3 por tonelada no Panamá e US$ 3,50 em Tehuantepec, ante um pedágio equivalente a 80 a 90 centavos por tonelada de carga."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,20",
+          "texto": "Pedágio por tonelada líquida de registro do navio, com redução de 40% para navios em lastro, cobrado igualmente de navios de todas as bandeiras e também da cabotagem americana. Suez cobrava tarifa semelhante, mais 10 francos por passageiro; o Panamá não cobrava por passageiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo efeito é sobre o comércio. Os fretes de costa a costa pelo canal ficaram de 5% a 20% abaixo dos anteriores, com cinco linhas privadas no lugar de três e uma do governo. As ferrovias transcontinentais reduziram tarifas para a costa do Pacífico, mas só de 20% a 22% de seu tráfego vinha ou ia para o litoral atlântico, e o corte não se estenderia ao Meio-Oeste. O canal encurta muito mais as rotas dos Estados Unidos que as da Europa: de Liverpool a Valparaíso, só 1.540 milhas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Huebner prevê crescimento gradual, não revolução: transporte é só um elemento do comércio internacional. Defende uma marinha mercante americana com leis de navegação revistas e subvenções postais, regulação em vez de proibição para os navios de ferrovias e permissão para exportadores se associarem."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "huebner-canal-do-panama",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem The Happiness of Nations, de James MacKaye, por Henry Pratt Fairchild; Railroads: Finance and Organization, de William Z. Ripley, por George O. Virtue; Some Aspects of the Tariff Question, de F. W. Taussig, por H. R. Mussey; o estudo de R. H. Tawney sobre o salário mínimo na alfaiataria inglesa, por John A. Ryan; Livelihood and Poverty, de A. L. Bowley e A. R. Burnett-Hurst, por Frank H. Streightoff; a Standard Accident Table de I. M. Rubinow, por Willard C. Fisher; e Reflections on Violence, de Georges Sorel, por John Graham Brooks. Os documentos tratam de centrais elétricas, tarifas do antracito, leis estaduais sobre empresas de outros estados, números-índice de preços a varejo e do relatório do censo sobre riqueza, dívida e tributação. As notas descrevem a reunião especial de San Francisco e consultam os sócios sobre entregar a revista com as folhas já cortadas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de dezembro de 1915 é um exercício de medida. Willcox corrige estimativas do século XVIII com censos posteriores e descarta séries oficiais que crescem regularmente demais; Watkins transforma uma razão de engenharia em categoria de custo; Millis usa estatísticas salariais por distrito e a parcela de cada grupo no trabalho de cada cultura; Huebner mede o canal em milhas, dias e centavos por tonelada.",
+            "Putnam acrescenta o raciocínio de equilíbrio que falta às boas intenções: um subsídio ao juro que vale para todos os compradores tende a se transformar em preço da terra. É a mesma pergunta que atravessa a edição, sobre quem fica, no fim, com o ganho de uma mudança de custo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Fator de carga (load factor)",
+          "razão entre a demanda média e a demanda máxima de um serviço num período."
+        ],
+        [
+          "Fator de diversidade",
+          "razão entre a soma das demandas máximas dos consumidores e a demanda máxima do sistema."
+        ],
+        [
+          "Fator de capacidade",
+          "razão entre a produção média e a produção possível com uso contínuo da capacidade nominal."
+        ],
+        [
+          "Rendimentos decrescentes",
+          "queda do produto adicional quando se aplica mais trabalho e capital a uma área fixa de terra."
+        ],
+        [
+          "Banco de terras (land bank)",
+          "instituição que empresta a longo prazo com hipoteca rural e se financia com títulos lastreados nessas hipotecas."
+        ],
+        [
+          "Amortização",
+          "pagamento do principal em parcelas periódicas, junto com os juros, ao longo do prazo do empréstimo."
+        ],
+        [
+          "Cabotagem",
+          "navegação comercial entre portos do mesmo país."
+        ],
+        [
+          "Tonelada líquida de registro",
+          "medida da capacidade útil de um navio, base de cálculo do pedágio do canal."
+        ]
+      ],
+      "hoje": "As perguntas da edição continuam presentes. Tarifas de energia por horário e cobrança pela demanda de pico aplicam o fator de carga que Watkins descreveu, agora também em transporte, telecomunicações e computação. A capitalização de subsídios ao crédito no preço de ativos, o ponto de Putnam, reaparece nos debates sobre financiamento habitacional e rural. O efeito de fluxos migratórios concentrados sobre salários de setores específicos segue em estudo, e o canal do Panamá continua a redesenhar rotas e fretes conforme seu custo de passagem.",
+      "itens": [
+        [
+          "The Expansion of Europe in Population",
+          "pp. 737–752",
+          "1809628"
+        ],
+        [
+          "A Third Factor in the Variation of Productivity: The Load Factor",
+          "pp. 753–786",
+          "1809629"
+        ],
+        [
+          "Some of the Economic Aspects of Japanese Immigration",
+          "pp. 787–804",
+          "1809630"
+        ],
+        [
+          "Agricultural Credit Legislation and the Tenancy Problem",
+          "pp. 805–815",
+          "1809631"
+        ],
+        [
+          "Economic Aspects of the Panama Canal",
+          "pp. 816–829",
+          "1809632"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 830-832",
+          "pp. 830–832",
+          "1809633"
+        ],
+        [
+          "New Books",
+          "pp. 832–834",
+          "1809634"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 834-835",
+          "pp. 834–835",
+          "1809635"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 835-837",
+          "pp. 835–837",
+          "1809636"
+        ],
+        [
+          "New Book",
+          "pp. 838–842",
+          "1809637"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 843-844",
+          "pp. 843–844",
+          "1809638"
+        ],
+        [
+          "New Books",
+          "pp. 844–845",
+          "1809639"
+        ],
+        [
+          "New Books",
+          "pp. 845",
+          "1809640"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 845-850",
+          "pp. 845–850",
+          "1809641"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 850-852",
+          "pp. 850–852",
+          "1809642"
+        ],
+        [
+          "New Books",
+          "pp. 852–853",
+          "1809643"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 853-855",
+          "pp. 853–855",
+          "1809644"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 855-856",
+          "pp. 855–856",
+          "1809645"
+        ],
+        [
+          "New Books",
+          "pp. 856–857",
+          "1809646"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 857-859",
+          "pp. 857–859",
+          "1809647"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 859-861",
+          "pp. 859–861",
+          "1809648"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 861-864",
+          "pp. 861–864",
+          "1809649"
+        ],
+        [
+          "New Books",
+          "pp. 865–868",
+          "1809650"
+        ],
+        [
+          "New Books",
+          "pp. 868",
+          "1809651"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 868-870",
+          "pp. 868–870",
+          "1809652"
+        ],
+        [
+          "New Books",
+          "pp. 870–871",
+          "1809653"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 872-874",
+          "pp. 872–874",
+          "1809654"
+        ],
+        [
+          "New Books",
+          "pp. 874–876",
+          "1809655"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 876-879",
+          "pp. 876–879",
+          "1809656"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 879-881",
+          "pp. 879–881",
+          "1809657"
+        ],
+        [
+          "New Books",
+          "pp. 881–882",
+          "1809658"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 882-885",
+          "pp. 882–885",
+          "1809659"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 885-886",
+          "pp. 885–886",
+          "1809660"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 886-889",
+          "pp. 886–889",
+          "1809661"
+        ],
+        [
+          "New Books",
+          "pp. 889–890",
+          "1809662"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 891-892",
+          "pp. 891–892",
+          "1809663"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 892-894",
+          "pp. 892–894",
+          "1809664"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 894-895",
+          "pp. 894–895",
+          "1809665"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 896-899",
+          "pp. 896–899",
+          "1809666"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 899-901",
+          "pp. 899–901",
+          "1809667"
+        ],
+        [
+          "New Books",
+          "pp. 901–903",
+          "1809668"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 903-906",
+          "pp. 903–906",
+          "1809669"
+        ],
+        [
+          "New Books",
+          "pp. 906–909",
+          "1809670"
+        ],
+        [
+          "New Books",
+          "pp. 909",
+          "1809671"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 909-912",
+          "pp. 909–912",
+          "1809672"
+        ],
+        [
+          "[untitled] The American Economic Review, (1915-12-01), pages 912-915",
+          "pp. 912–915",
+          "1809673"
+        ],
+        [
+          "New Books",
+          "pp. 915",
+          "1809674"
+        ],
+        [
+          "New Books",
+          "pp. 915–916",
+          "1809675"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 917–946",
+          "1809676"
+        ],
+        [
+          "Periodicals",
+          "pp. 947–985",
+          "1809677"
+        ],
+        [
+          "Notes",
+          "pp. 986–1003",
+          "1809678"
+        ]
+      ],
+      "jstor_edicao": "i331391",
+      "artigos": [
+        {
+          "titulo": "The Expansion of Europe in Population",
+          "autores": "Walter F. Willcox (Cornell University)",
+          "paginas": "pp. 737–752",
+          "jstor": "1809628",
+          "resumo": "Discurso presidencial que mede a expansão da população de origem europeia desde o século XVIII e trata o crescimento populacional como indicador de progresso."
+        },
+        {
+          "titulo": "A Third Factor in the Variation of Productivity: The Load Factor",
+          "autores": "G. P. Watkins (New York City)",
+          "paginas": "pp. 753–786",
+          "jstor": "1809629",
+          "resumo": "Proposta de incluir o fator de carga, razão entre demanda média e máxima, entre os princípios que explicam a variação do custo unitário.",
+          "ensaio_slug": "watkins-fator-de-carga"
+        },
+        {
+          "titulo": "Some of the Economic Aspects of Japanese Immigration",
+          "autores": "H. A. Millis (University of Kansas)",
+          "paginas": "pp. 787–804",
+          "jstor": "1809630",
+          "resumo": "Efeitos da imigração japonesa sobre salários, lucros, valor da terra e comércio no Oeste americano, com base em censos e estatísticas setoriais."
+        },
+        {
+          "titulo": "Agricultural Credit Legislation and the Tenancy Problem",
+          "autores": "George E. Putnam (University of Kansas)",
+          "paginas": "pp. 805–815",
+          "jstor": "1809631",
+          "resumo": "Exame das leis estaduais de crédito rural de 1913–1915 e do risco de que juros menores elevem o preço da terra e agravem o arrendamento."
+        },
+        {
+          "titulo": "Economic Aspects of the Panama Canal",
+          "autores": "G. G. Huebner (University of Pennsylvania)",
+          "paginas": "pp. 816–829",
+          "jstor": "1809632",
+          "resumo": "Balanço dos primeiros dez meses e meio do canal do Panamá: tráfego, rotas, fretes, tarifas ferroviárias e política comercial.",
+          "ensaio_slug": "huebner-canal-do-panama"
+        },
+        {
+          "titulo": "James MacKaye, The Happiness of Nations: A Beginning in Political Engineering",
+          "autores": "Henry Pratt Fairchild",
+          "paginas": "pp. 830–832",
+          "jstor": "1809633",
+          "resumo": "Ensaio que propõe uma “engenharia política” orientada pela felicidade."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 832–834",
+          "jstor": "1809634",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "John McFarlane, Economic Geography",
+          "autores": "Avard Longley Bishop",
+          "paginas": "pp. 834–835",
+          "jstor": "1809635",
+          "resumo": "Manual de geografia econômica, com mapas e bibliografia."
+        },
+        {
+          "titulo": "Giuseppe Prato, L'Evoluzione Agricola nel Secolo XVIII e outros estudos",
+          "autores": "Frederick C. Dietz",
+          "paginas": "pp. 835–837",
+          "jstor": "1809636",
+          "resumo": "Estudos de história econômica do Piemonte publicados nas memórias da Academia de Ciências de Turim."
+        },
+        {
+          "titulo": "New Book",
+          "autores": "",
+          "paginas": "pp. 838–842",
+          "jstor": "1809637",
+          "resumo": "Lista de livros novos: história e geografia econômica."
+        },
+        {
+          "titulo": "John A. Todd, The World's Cotton Crops",
+          "autores": "Melvin T. Copeland",
+          "paginas": "pp. 843–844",
+          "jstor": "1809638",
+          "resumo": "Panorama mundial da produção de algodão."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 844–845",
+          "jstor": "1809639",
+          "resumo": "Lista de livros novos: agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 845",
+          "jstor": "1809640",
+          "resumo": "Lista de livros novos: indústrias manufatureiras."
+        },
+        {
+          "titulo": "William Z. Ripley, Railroads: Finance and Organization",
+          "autores": "George O. Virtue",
+          "paginas": "pp. 845–850",
+          "jstor": "1809641",
+          "resumo": "Estudo das finanças e da organização das ferrovias americanas."
+        },
+        {
+          "titulo": "Watarai, Nationalization of Railways in Japan",
+          "autores": "Ernest Ritson Dewsnup",
+          "paginas": "pp. 850–852",
+          "jstor": "1809642",
+          "resumo": "Estudo sobre a estatização das ferrovias japonesas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 852–853",
+          "jstor": "1809643",
+          "resumo": "Lista de livros novos: transporte e comunicações."
+        },
+        {
+          "titulo": "Peter Heinrich Schmidt, Die Schweiz und die Europäische Handelspolitik",
+          "autores": "Simon Litman",
+          "paginas": "pp. 853–855",
+          "jstor": "1809644",
+          "resumo": "A Suíça e a política comercial europeia."
+        },
+        {
+          "titulo": "Aughinbaugh, Selling Latin America",
+          "autores": "Selden O. Martin",
+          "paginas": "pp. 855–856",
+          "jstor": "1809645",
+          "resumo": "Guia sobre a venda de produtos na América Latina."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 856–857",
+          "jstor": "1809646",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "C. E. Knoeppel, Installing Efficiency Methods",
+          "autores": "Frederic G. Coburn",
+          "paginas": "pp. 857–859",
+          "jstor": "1809647",
+          "resumo": "Manual de implantação de métodos de eficiência na fábrica."
+        },
+        {
+          "titulo": "Hammond V. Hayes, Public Utilities: Their Fair Present Value and Return",
+          "autores": "John Bauer",
+          "paginas": "pp. 859–861",
+          "jstor": "1809648",
+          "resumo": "Livro sobre avaliação e retorno justo de empresas de serviços públicos."
+        },
+        {
+          "titulo": "John Charles Lounsbury Fish, Engineering Economics: First Principles",
+          "autores": "Edwin Bidwell Wilson",
+          "paginas": "pp. 861–864",
+          "jstor": "1809649",
+          "resumo": "Princípios de economia aplicada à engenharia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 865–868",
+          "jstor": "1809650",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios e investimentos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 868",
+          "jstor": "1809651",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "R. H. Tawney, The Establishment of Minimum Rates in the Tailoring Industry under the Trade Boards Act of 1909",
+          "autores": "John A. Ryan",
+          "paginas": "pp. 868–870",
+          "jstor": "1809652",
+          "resumo": "Estudo do salário mínimo na alfaiataria britânica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 870–871",
+          "jstor": "1809653",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "S. V. Doraiswami, Indian Finance, Currency and Banking",
+          "autores": "E. W. Kemmerer",
+          "paginas": "pp. 872–874",
+          "jstor": "1809654",
+          "resumo": "Livro sobre finanças, moeda e bancos na Índia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 874–876",
+          "jstor": "1809655",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Frank William Taussig, Some Aspects of the Tariff Question",
+          "autores": "H. R. Mussey",
+          "paginas": "pp. 876–879",
+          "jstor": "1809656",
+          "resumo": "Estudos de Taussig sobre a tarifa e indústrias protegidas."
+        },
+        {
+          "titulo": "Willford Isbell King, The Valuation of Urban Realty for Purposes of Taxation",
+          "autores": "Lawson Purdy",
+          "paginas": "pp. 879–881",
+          "jstor": "1809657",
+          "resumo": "Avaliação de imóveis urbanos para fins tributários, com seções sobre Wisconsin."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 881–882",
+          "jstor": "1809658",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Negroes in the United States (Bureau of the Census, Bulletin 129)",
+          "autores": "L. L. Bernard",
+          "paginas": "pp. 882–885",
+          "jstor": "1809659",
+          "resumo": "Boletim estatístico do Census Bureau."
+        },
+        {
+          "titulo": "Warren S. Thompson, Population: A Study in Malthusianism",
+          "autores": "G. B. L. Arner",
+          "paginas": "pp. 885–886",
+          "jstor": "1809660",
+          "resumo": "Reexame estatístico da teoria de Malthus."
+        },
+        {
+          "titulo": "The Medico-Actuarial Mortality Investigation",
+          "autores": "W. F. Gephart",
+          "paginas": "pp. 886–889",
+          "jstor": "1809661",
+          "resumo": "Investigação atuarial de mortalidade em cinco volumes."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 889–890",
+          "jstor": "1809662",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "Charles A. Ellwood, The Social Problem: A Constructive Analysis",
+          "autores": "Henry Pratt Fairchild",
+          "paginas": "pp. 891–892",
+          "jstor": "1809663",
+          "resumo": "Análise sociológica do problema social."
+        },
+        {
+          "titulo": "Edward T. Devine, The Normal Life",
+          "autores": "George B. Mangold",
+          "paginas": "pp. 892–894",
+          "jstor": "1809664",
+          "resumo": "Conferências sobre as condições de uma vida familiar normal."
+        },
+        {
+          "titulo": "The Pittsburgh District: Civic Frontage; Wage-Earning Pittsburgh",
+          "autores": "Herbert E. Mills",
+          "paginas": "pp. 894–895",
+          "jstor": "1809665",
+          "resumo": "Volumes do levantamento social de Pittsburgh."
+        },
+        {
+          "titulo": "Lawrence Veiller, A Model Housing Law",
+          "autores": "James Ford",
+          "paginas": "pp. 896–899",
+          "jstor": "1809666",
+          "resumo": "Proposta de lei-modelo de habitação."
+        },
+        {
+          "titulo": "A. L. Bowley e A. R. Burnett-Hurst, Livelihood and Poverty",
+          "autores": "Frank H. Streightoff",
+          "paginas": "pp. 899–901",
+          "jstor": "1809667",
+          "resumo": "Levantamento das condições econômicas de famílias operárias em quatro cidades inglesas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 901–903",
+          "jstor": "1809668",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "I. M. Rubinow, A Standard Accident Table as a Basis for Compensation Rates",
+          "autores": "Willard C. Fisher",
+          "paginas": "pp. 903–906",
+          "jstor": "1809669",
+          "resumo": "Tabela de acidentes para o cálculo de prêmios de indenização."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 906–909",
+          "jstor": "1809670",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 909",
+          "jstor": "1809671",
+          "resumo": "Lista de livros novos: pauperismo e assistência."
+        },
+        {
+          "titulo": "William English Walling, The Socialists and the War",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 909–912",
+          "jstor": "1809672",
+          "resumo": "Coletânea documental sobre a posição dos socialistas diante da guerra."
+        },
+        {
+          "titulo": "Georges Sorel, Reflections on Violence",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 912–915",
+          "jstor": "1809673",
+          "resumo": "Tradução inglesa do ensaio de Sorel."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 915",
+          "jstor": "1809674",
+          "resumo": "Lista de livros novos: socialismo e cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 915–916",
+          "jstor": "1809675",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 917–946",
+          "jstor": "1809676",
+          "resumo": "Resumos de documentos oficiais: produção de algodão, centrais elétricas, tarifas do antracito, leis sobre empresas de outros estados, números-índice de preços a varejo e relatórios sobre tributação."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 947–985",
+          "jstor": "1809677",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 986–1003",
+          "jstor": "1809678",
+          "resumo": "Notas sobre a reunião especial de San Francisco, a entrega da revista com folhas cortadas e outras notícias."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "watkins-fator-de-carga",
+          "titulo": "Watkins e o terceiro fator da produtividade",
+          "titulo_original": "A Third Factor in the Variation of Productivity: The Load Factor",
+          "autores": "G. P. Watkins (New York City)",
+          "paginas": "pp. 753–786",
+          "jstor": "1809629",
+          "chamada": "G. P. Watkins leva para a teoria econômica um conceito dos engenheiros eletricistas: o custo unitário depende de quanto a demanda deixa usar a capacidade instalada, da usina ao bonde e ao hotel de veraneio.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Nos dias úteis de dezembro de 1913, o mês de maior demanda, a produção horária do sistema da New York Edison em Manhattan e no Bronx chegou, no horário de pico, a 183% da média do dia e caiu, de madrugada, a 34%. A usina tinha de ser construída para o pico; o resto do dia, parte dela ficava parada. Para um sistema urbano, com consumo denso e variado, era um resultado bom."
+            },
+            {
+              "tipo": "p",
+              "texto": "O dado aparece no início de um longo artigo de G. P. Watkins, de Nova York, na American Economic Review de dezembro de 1915. A proposta é tirar um conceito da tarifa elétrica e colocá-lo na teoria da produtividade: o fator de carga, que os engenheiros definiam como a razão entre a carga média e a carga máxima num período."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é o terceiro fator?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Watkins parte dos dois princípios clássicos de variação do custo unitário. O primeiro são os rendimentos decrescentes: aplicar mais trabalho e capital a uma área fixa de terra rende cada vez menos. O segundo são as economias de produção em grande escala, chamadas de rendimentos crescentes. Ele considera os nomes imprecisos, porque um se refere a uma área de terra e o outro à empresa, e uma mesma fazenda pode exibir os dois ao mesmo tempo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Propõe então três nomes paralelos. O fator de proporcionalidade generaliza os rendimentos decrescentes a qualquer agente escasso usado em proporção inadequada com os demais. O fator de densidade cobre as economias de escala e a densidade do mercado: uma ferrovia lucra mais quando a região que atende cresce em população e tráfego. O terceiro, o fator de carga, mede até que ponto as condições da demanda permitem operar a capacidade de forma contínua."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Os economistas podem aprender muito com os engenheiros.”",
+              "original": "“Economists can learn much from engineers”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o conceito nasceu na eletricidade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Por duas razões. A energia elétrica não pode ser armazenada de forma econômica para esperar o consumidor, e juros e depreciação do capital fixo formam parte muito grande do custo unitário, quase tanto quanto nas ferrovias. A definição oficial do American Institute of Electrical Engineers fala da razão entre potência média e potência máxima de uma máquina, usina ou sistema."
+            },
+            {
+              "tipo": "p",
+              "texto": "O exemplo do autor é simples. Se dois consumidores têm a mesma demanda de potência, e um a usa por uma hora ao dia e o outro por cinco, o encargo de capital por quilowatt-hora do primeiro é cinco vezes maior. Há uma ressalva, que dá origem a um segundo conceito: se o consumidor de uma hora usa energia das 17h às 18h, depois de o outro ter consumido do meio-dia às 17h, ele não exige capacidade adicional. O fator de diversidade mede essa diferença de horário entre os picos dos consumidores e o pico do sistema."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí a política das companhias: tarifas baixas para usos fora do pico, sobretudo os novos. O fornecimento começou pela iluminação pública, passou à iluminação comercial e doméstica, aos motores e elevadores, às baterias de automóveis, aos aparelhos domésticos e à refrigeração, que o autor via como o próximo grande campo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde mais o fator de carga aparece?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em todo serviço que exige muito capital fixo e precisa ser consumido onde e quando é oferecido. O telégrafo criou a carta noturna a tarifa reduzida; os cabos submarinos testavam tarifas fora do pico. Nas ferrovias pesa mais a densidade, mas o fator de carga explica as tarifas de excursão por temporada e o esforço para formar trens mais longos com vagões cheios. No correio, o problema é o pico do Natal."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos bondes, o pico é diário. Num dia típico de novembro de 1910, segundo contagens da Public Service Commission, dos 174.224 passageiros que cruzaram a Ponte do Brooklyn rumo a Manhattan em 24 horas, 80.618 passaram entre 7h e 9h: quase metade do total em um doze avos do tempo. O passageiro em pé, segurando a alça, é o resultado de uma escolha econômica, porque oferecer assento a todos no pico multiplicaria o custo."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "38%",
+              "texto": "Fator de carga diário do metrô de Nova York calculado por Watkins a partir da venda de bilhetes em 22 de janeiro de 1914: 1.060.202 bilhetes no dia, média de 44.175 por hora e 115.870 entre 8h e 9h, ou 262% da média. O metrô transportava, entre a Rua 42 e a Ponte do Brooklyn, 12.800 carros-milha por dia por milha de linha em 1912; as linhas de superfície de Manhattan, cerca de 1.100."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na indústria comum o problema é sazonal. O órgão de estatística do trabalho de Nova Jersey publicava, para 1910, uma razão de utilização das fábricas de 74,92% na média de todas as indústrias, de 64,42% em estruturas de aço e de 88,12% em papel. Em Massachusetts, com 305 dias úteis no ano, as olarias funcionaram em média 153 dias. Os hotéis de montanha suíços ocupavam 76% dos leitos em agosto e 14% em dezembro, e as estâncias passavam a buscar hóspedes no inverno. Na agricultura, a máquina de plantar ou colher trabalha algumas semanas por ano, razão pela qual, para o autor, a lavoura usa menos capital que a fábrica."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o conceito diz sobre o trabalho?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Watkins vê no salário do pessoal permanente, a diretoria, os técnicos, os supervisores, um custo fixo como o do capital: a empresa não dispensa esses empregados quando o movimento cai, e o custo unitário depende de usar continuamente seu tempo. Os assalariados por hora, ao contrário, são ajustados à produção como a matéria-prima."
+            },
+            {
+              "tipo": "p",
+              "texto": "A consequência para o emprego é a parte mais original do texto. Onde há muito capital fixo, o empregador tem interesse próprio em manter a fábrica funcionando o ano todo e em conservar uma força de trabalho estável. Onde quase não há capital, como no trabalho a domicílio de muitos ofícios sazonais, nada impede que toda a flutuação da demanda recaia sobre os trabalhadores. Muitos ofícios sazonais, prevê, deixarão de sê-lo à medida que usarem mais capital, embora alguns, como a conserva de frutas, continuem presos à estação. Uma jornada de oito horas em 305 dias corresponde a um fator de carga de apenas 28% sobre o uso contínuo das instalações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E no consumo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo raciocínio decide quanto vale investir num bem durável: poucos constroem casas de veraneio caras para usar um mês por ano. O autor cita o movimento por um uso mais amplo das escolas, as escolas de verão das universidades e a remoção da neve em Manhattan, que custou US$ 1.726.000 entre 14 de fevereiro e 31 de março de 1914 com equipamento improvisado, já que não compensa comprar máquinas para meia dúzia de dias por ano. A campanha para fazer as compras de Natal mais cedo é, para ele, um esforço para educar o consumidor a reduzir o pico."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como os três fatores atuam juntos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O exemplo final é uma companhia de bondes. O terreno caro de Manhattan leva a garagens de vários andares: proporcionalidade. A linha dupla transporta mais que o dobro de uma linha simples sem custar o dobro, e o tráfego urbano cresce mais ou menos com o quadrado da população enquanto a extensão das linhas acompanha a população: densidade. A hora do rush impõe capacidade ociosa no resto do dia: carga. Para Watkins, os três princípios são de importância coordenada, e nenhuma explicação de preços relativos ou de tarifas diferenciadas dispensa qualquer um deles."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí uma advertência à contabilidade de custos, que costuma tratar dois fatores como constantes ou supor que não há variação de produtividade. O custo unitário de um produto depende do grau de uso das instalações, e a variação de tarifas por horário ou classe de consumidor tem relação causal com essa variação de custo, ainda que não seja paralela a ela."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo faz uma operação teórica de valor: reconhece que o custo médio de um serviço não é um número, mas uma função do perfil temporal da demanda. Isso desloca a discussão das tarifas diferenciadas, que o público tendia a ver como discriminação arbitrária, para o terreno do custo de capacidade.",
+                "O texto também mostra o método do autor. Watkins trabalha com razões simples, demanda média sobre máxima, dias de operação sobre dias úteis, leitos ocupados sobre leitos disponíveis, e as aplica a setores muito diferentes. O resultado é menos uma teoria formal que um instrumento de comparação, que ele próprio reconhece não se prestar a tratamento matemático completo."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Fator de carga",
+              "razão entre a demanda média e a demanda máxima de um serviço num período."
+            ],
+            [
+              "Fator de diversidade",
+              "razão entre a soma das demandas máximas dos consumidores e a demanda máxima do sistema."
+            ],
+            [
+              "Fator de capacidade",
+              "razão entre a produção média e a produção teórica com uso contínuo da capacidade nominal."
+            ],
+            [
+              "Fator de proporcionalidade",
+              "nome de Watkins para a generalização dos rendimentos decrescentes."
+            ],
+            [
+              "Fator de densidade",
+              "nome de Watkins para as economias de escala e de densidade do mercado."
+            ],
+            [
+              "Encargos fixos",
+              "juros e depreciação do capital investido, que não variam com a quantidade produzida."
+            ]
+          ],
+          "hoje": "Tarifas de energia diferenciadas por horário, cobrança pela demanda contratada, preços dinâmicos de transporte e de hospedagem e a precificação de capacidade em redes de computação seguem a lógica que Watkins descreveu: quem consome no pico responde pela capacidade instalada. O armazenamento de energia em baterias, que ele via como inviável, tornou-se um modo de melhorar o fator de carga sem mudar o hábito do consumidor. A advertência dele à contabilidade de custos, de que o custo unitário depende do grau de uso, continua atual."
+        },
+        {
+          "slug": "huebner-canal-do-panama",
+          "titulo": "Huebner e o primeiro ano do canal do Panamá",
+          "titulo_original": "Economic Aspects of the Panama Canal",
+          "autores": "G. G. Huebner (University of Pennsylvania)",
+          "paginas": "pp. 816–829",
+          "jstor": "1809632",
+          "chamada": "Em dez meses e meio, 1.088 navios cruzaram o canal. G. G. Huebner mede o que mudou em rotas, fretes, tarifas ferroviárias e comércio, e lista o que ainda faltava para o canal render tudo o que podia.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "O primeiro navio mercante atravessou o canal do Panamá em 15 de agosto de 1914, quando a guerra europeia acabava de começar. Nos dez meses e meio seguintes passaram 1.088 navios mercantes com 4.969.792 toneladas de carga, e o governo dos Estados Unidos arrecadou US$ 4.424.256 em pedágios."
+            },
+            {
+              "tipo": "p",
+              "texto": "G. G. Huebner, da University of Pennsylvania, apresentou o balanço em Berkeley, em 12 de agosto de 1915, na reunião especial da American Economic Association, e o publicou na American Economic Review de dezembro. Ele havia trabalhado por dois anos no estudo de tráfego, custos de navegação e rotas que embasou a recomendação de pedágios de Emory R. Johnson, comissário especial para tráfego e tarifas. Distingue duas funções do canal, a naval e a econômica, e trata só da segunda."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os primeiros meses mostraram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Huebner adverte que os números são anormais: o tráfego ainda se ajustava às novas rotas, deslizamentos de terra interromperam a passagem e a guerra desorganizou o comércio entre os países do Atlântico e do Pacífico. Só um item seria normal, a cabotagem entre as costas leste e oeste dos Estados Unidos, e ele superou a previsão."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "40%",
+              "texto": "Parcela do tráfego de cabotagem americana no total do canal nos primeiros dez meses e meio, quando se previam 10% a 11% para os primeiros anos. O tráfego internacional ficou perto de 60%, abaixo do esperado: o comércio da Alemanha com o Pacífico parou e o resto da Europa exportava muito menos. Johnson estimara que, em tempo normal, o canal receberia pelo menos 10,5 milhões de toneladas líquidas de registro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto o canal encurta as rotas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Quatro grandes rotas são afetadas: a do cabo Horn ou estreito de Magalhães, as travessias ferroviárias do Panamá e de Tehuantepec, a do cabo da Boa Esperança e a de Suez. Huebner enumera cinco fatores de escolha: distância, tempo de viagem, custo do carvão, facilidade de obter carga e custo de transbordo. Os veleiros ficam praticamente de fora, porque ventos incertos e calmarias dificultam a aproximação pelo Pacífico."
+            },
+            {
+              "tipo": "p",
+              "texto": "As distâncias poupadas são grandes. De Nova York a San Francisco, 7.873 milhas náuticas a menos que por Magalhães; a Valparaíso, 3.747; a Iquique, porto do salitre chileno, 5.139; a Guayaquil, 7.405. Em relação a Suez, Nova York fica 3.768 milhas mais perto de Yokohama e 1.876 de Xangai. De San Francisco a Liverpool, 5.666 milhas a menos. Para um vapor comum de 10 nós, a economia chega a 33,3 dias até a costa do Pacífico, 15,8 até Sydney e 15,2 até Yokohama, o que significa serviço mais frequente, entrega mais rápida e custo de operação menor."
+            },
+            {
+              "tipo": "p",
+              "texto": "O transbordo explica a rapidez com que o canal absorveu o tráfego das ferrovias do istmo. Em Tehuantepec ele custava em média cerca de US$ 3,50 por tonelada de carga, e no Panamá cerca de US$ 3. O pedágio de US$ 1,20 por tonelada líquida do navio equivale a 80 a 90 centavos por tonelada de carga média."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O canal do Panamá influencia o comércio apenas na medida em que melhora as condições de transporte.”",
+              "original": "“the Panama Canal influences trade only in so far as it improves transportation conditions”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que aconteceu com fretes e ferrovias?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os fretes de costa a costa pelo canal, segundo cotações de setembro de 1914 e junho de 1915, ficaram de 5% a 20% abaixo dos anteriores em muitas mercadorias, enquanto os fretes transatlânticos subiam com a falta de navios. Antes havia três linhas privadas e uma do governo nesse tráfego; agora eram cinco linhas privadas."
+            },
+            {
+              "tipo": "p",
+              "texto": "As ferrovias transcontinentais reduziram tarifas para a costa do Pacífico em muitas mercadorias e estenderam os cortes ao Meio-Oeste, e a Interstate Commerce Commission autorizou tarifas menores para os terminais do Pacífico que para pontos intermediários. Quem esperava cortes drásticos se decepcionaria: só de 20% a 22% do frete transcontinental vinha do litoral atlântico ou ia para ele, e reduzir tudo para disputar essa fração obrigaria a estender a redução ao tráfego muito maior do Meio-Oeste. A região menos beneficiada foram as Montanhas Rochosas, porque as ferrovias ampliaram a diferença entre as tarifas para os terminais e as tarifas para o interior."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem ganha com o canal?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sobretudo as Américas. O canal encurta as rotas dos Estados Unidos muito mais que as da Europa: de Nova York a Valparaíso são 3.747 milhas a menos, de Liverpool só 1.540; para Wellington, 2.493 e 1.564. Para a Ásia e a Austrália, a rota europeia continua mais curta por Suez. Os portos do golfo do México ganham mais que todos: de Nova Orleans a Manila a distância cai 1.978 milhas, ante 41 milhas a partir de Nova York."
+            },
+            {
+              "tipo": "p",
+              "texto": "Huebner previne contra expectativas de revolução comercial. Grande parte da América do Sul, incluindo Argentina, Brasil e Uruguai, fica a leste do canal. Nos mercados do Pacífico os exportadores americanos enfrentavam concorrentes estabelecidos; a participação dos Estados Unidos nas importações da Nova Zelândia, por exemplo, oscilara entre 7% e 13% desde 1900. Investimentos externos, bancos, crédito e métodos de venda pesam tanto quanto o frete. Na indústria, o canal aproxima fábricas de matérias-primas: lã australiana vai direto às tecelagens do Leste, minério da costa oeste sul-americana chega às siderúrgicas atlânticas, e carvão do Leste segue para o Pacífico."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que faltava fazer?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor elogia a construção, os pedágios fixados depois de estudo detalhado e a decisão de cobrá-los igualmente de todas as bandeiras, inclusive da cabotagem americana, protegida da concorrência estrangeira. A tarifa é de US$ 1,20 por tonelada líquida, com redução de 40% para navios em lastro, calculada por regras de medição feitas para refletir a capacidade de ganho de cada navio. Suez cobrava tarifa semelhante e mais 10 francos por passageiro; o Panamá não cobrava passageiros."
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira tarefa pendente é a marinha mercante. A lei do canal de 1912, emendada em 1914, permitiu registrar navios construídos no exterior, mas o armador americano continuava com custos de operação maiores. Huebner propõe rever as leis de navegação e pagar subvenções postais a poucas linhas, com rotas e frequência definidas em contrato, e vê na operação estatal o risco de afastar as empresas privadas."
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda é a regulação. A lei proibia o uso do canal por navios de ferrovias, embora uma comissão do Congresso tivesse apurado que as ferrovias detinham 61,9% da tonelagem das linhas regulares no Atlântico e no Golfo e 19,8% no Pacífico, e vetava linhas que violassem a lei antitruste, num setor em que a combinação de fretes era prática universal. Huebner prefere supervisão da Interstate Commerce Commission a proibição, e pede que exportadores possam se associar para vender no exterior, como já faziam seus concorrentes estrangeiros."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O transporte é apenas um elemento do comércio internacional.”",
+              "original": "“transportation is but one element in international trade”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o valor do artigo está em separar o efeito de uma infraestrutura do efeito das condições que a cercam. Huebner mede a vantagem do canal em milhas, dias e centavos por tonelada, e ao mesmo tempo mostra por que essa vantagem não se converte automaticamente em comércio: concorrência estrangeira estabelecida, mercados pequenos ou pobres, crédito e investimento.",
+                "O texto também é um bom exemplo de análise de concorrência entre modais. A resposta das ferrovias depende de qual fração de seu tráfego está exposta à rota marítima; por isso o corte de tarifas se concentra nos terminais e as regiões do interior podem até perder. É a lógica da discriminação de preços que a regulação da época procurava disciplinar."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Cabotagem",
+              "navegação comercial entre portos do mesmo país."
+            ],
+            [
+              "Tonelada líquida de registro",
+              "medida da capacidade útil de um navio, base do pedágio."
+            ],
+            [
+              "Transbordo",
+              "transferência da carga de um navio para outro meio de transporte e de volta."
+            ],
+            [
+              "Navio em lastro",
+              "navio que viaja sem carga paga."
+            ],
+            [
+              "Subvenção postal",
+              "pagamento do governo a uma linha de navegação pelo transporte de correspondência, usado como subsídio."
+            ],
+            [
+              "Tarifa de terminal",
+              "frete ferroviário para os portos onde há concorrência marítima, menor que para pontos do interior."
+            ]
+          ],
+          "hoje": "O canal segue no centro do comércio entre Atlântico e Pacífico, e os temas de Huebner continuam presentes: pedágios fixados pelo que o tráfego suporta diante de rotas alternativas, concorrência entre transporte marítimo e ferroviário, regras de cabotagem que protegem armadores nacionais e a distância entre ganho logístico e ganho comercial. Secas que reduzem o calado e a capacidade do canal lembram que a infraestrutura depende de condições físicas que nenhuma tarifa resolve."
+        }
+      ]
+    },
+    {
+      "slug": "1916-padrao-de-vida-e-renda-do-agricultor",
+      "numero": 139,
+      "titulo": "O lucro do pequeno negócio, o padrão de vida e a renda da fazenda",
+      "titulo_original": "The American Economic Review, vol. VI, no. 1, March 1916",
+      "autores": "J. E. Sterrett, Henry Pratt Fairchild, Harvey A. Wooster, E. A. Goldenweiser, Abbott Payson Usher, Richard T. Ely, L. R. Nash e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 6, nº 1",
+      "data": "março de 1916",
+      "chamada": "Sterrett compara lucros livres e regulados; Fairchild mede o padrão de vida operário de 1890 a 1908; Goldenweiser estima a renda da fazenda; Usher conclui que a bolsa trouxe certeza, não estabilidade.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Os 158 relatórios de auditoria que J. E. Sterrett tirou dos arquivos de sua firma somavam US$ 406.829.858 de capital investido em empresas sem regulação de preços. O lucro anual, depois de todos os custos, inclusive a depreciação, foi de US$ 55.613.659: 13,67%. As comissões estaduais de serviços públicos não permitiam mais de 8%. É com essa comparação que abre o número de março de 1916 da American Economic Review, o primeiro do vol. 6."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição é quase toda sobre medida de rendimentos e de preços. Henry Pratt Fairchild monta o orçamento de uma família operária para saber se o padrão de vida subiu ou desceu desde 1890. Harvey A. Wooster contesta a proposta de Henry C. Emery de calibrar tarifas protecionistas para que o consumidor não pague por elas, e Emery responde numa nota. E. A. Goldenweiser estima a renda média da família agricultora em 1909. Abbott Payson Usher compara mercados de trigo do século XVIII com os de 1911. Richard T. Ely resenha a reforma agrária russa, e L. R. Nash mostra como o crescimento das empresas altera as reservas de depreciação. Seguem resenhas, livros novos, documentos, periódicos, uma carta e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto rende o capital fora dos setores regulados?",
+          "artigo": "1827807",
+          "credito": "J. E. Sterrett · “The Comparative Yield on Trade and Public Service Investment” · pp. 1–8"
+        },
+        {
+          "tipo": "p",
+          "texto": "A pergunta de Sterrett é a das comissões de regulação: qual é o retorno justo sobre o capital de uma ferrovia ou empresa de serviço público? A resposta aceita era a taxa capaz de atrair capital suficiente. Para ele, isso remete à concorrência pelo dinheiro: o investidor escolhe, e compara o retorno regulado com o que obtém em atividades livres."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dados publicados não servem, porque os balanços misturam ao ativo intangíveis como fundo de comércio e patentes, que os reguladores excluem da base de cálculo. O Comptroller of the Currency informava que os bancos nacionais lucraram, em média, 8,64% sobre capital e reservas nos 45 anos até 30 de junho de 1914. Sterrett recorre então a auditorias de sua firma, escolhidas ao acaso e restritas às que permitiam separar os intangíveis, quase todas de 1912 a 1914."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "28,02%",
+          "texto": "Retorno das 25 empresas com até US$ 100 mil de capital, que somavam US$ 1.156.827 investidos e US$ 324.114 de lucro. As 59 com US$ 1 milhão ou mais renderam 13,52%; as de até US$ 500 mil, 16,67%. Das 158, 117 ganharam 8% ou mais, 70 ganharam 15% ou mais e 10 passaram de 40%; 23 ficaram abaixo de 6%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sterrett trata da objeção óbvia, a de que pequenos negócios subestimam salários de gestão, lembrando que excluiu os relatórios sem provisão razoável para esse item e que, desde a lei do imposto sobre sociedades de 1909, as pequenas empresas tendiam a pagar salários generosos aos sócios. A conclusão é dupla: o pequeno negócio não estava sendo esmagado e os reguladores ofereciam pouco."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O tempo do pequeno negócio ainda não passou.”",
+          "original": "“the day of the small business is not yet past”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em contraste, o retorno máximo admitido pelas comissões estaduais era de 8%, e às vezes menos; os tribunais federais aceitaram 7% no caso da Northern Pacific e 6% no caso tarifário do Arkansas, ambos de 1911. Sterrett sugere que a regulação permita uma distribuição justa aos donos e uma parcela para melhorias e reservas, a ser descontada do capital em cálculos futuros. Sem retorno atrativo, diz, o capital necessário à expansão dos serviços públicos irá para outros setores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O padrão de vida do trabalhador subiu ou desceu?",
+          "artigo": "1827808",
+          "credito": "Henry Pratt Fairchild (Yale University) · “The Standard of Living — Up or Down?” · pp. 9–25"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairchild desconfia da comparação habitual entre índices gerais de preços e de salários: os índices são de atacado, incluem artigos que não entram no orçamento operário e a média de salários é quase impossível de calcular. Propõe uma régua: um orçamento-padrão de bens necessários, aplicado a duas datas, para ver quanto da renda sobra para o que chama de necessidades culturais, de médico e escola a lazer e poupança."
+        },
+        {
+          "tipo": "p",
+          "texto": "A família-padrão tem pai, mãe e três filhos menores de 14 anos e renda de US$ 600 em 1908, a fronteira usual entre trabalho não qualificado e semiqualificado. Os orçamentos de Chapin, More, Kenngott e Nearing indicam a divisão: alimentação 48%, moradia 20%, vestuário 12%, aquecimento e luz 6%. O autor detalha as quantidades: 20 pães, 6 libras de carne bovina e 7 quartos de galão de leite por semana, quatro cômodos a US$ 10 por mês, três toneladas de carvão por ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14%",
+          "texto": "Parcela da renda de US$ 600 que sobrava em 1908 para as necessidades culturais, depois de US$ 516 em bens necessários. A mesma cesta, a preços de 1890 calculados com índices do Bureau of Labor, custaria US$ 422,85. Com a renda de 1890 estimada, por precaução, em US$ 500, sobravam US$ 77,15, ou 15,4%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte decisiva é a renda de 1890. Fairchild testa quatro métodos. O que considera melhor divide a folha de salários da indústria pelo número de trabalhadores: US$ 444,83 em 1890, ante US$ 503,61 estimados para 1908, o que faria os US$ 600 equivalerem a US$ 530. Para não exagerar as condições de 1890, usa US$ 500; para o aluguel, supõe US$ 8 em 1890 contra US$ 10 em 1908. Uma comparação com dados de Massachusetts de 1882 aponta na mesma direção."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor admite que nada está provado, mas inverte o ônus: a afirmação corrente de que o padrão de vida do trabalhador comum melhorou precisaria de prova."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O ônus da prova recai sobre os otimistas.”",
+          "original": "“The burden of proof is laid on the optimists”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Uma tarifa pode poupar o consumidor?",
+          "artigo": "1827809",
+          "credito": "Harvey A. Wooster (Yale University), com nota de Henry C. Emery · “The Tariff and the Ultimate Consumer” · pp. 26–41"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em setembro de 1915, Henry C. Emery, que trabalhara no Tariff Board, sugerira na mesma revista que, num mercado de preços fixos e convencionais, seria possível ajustar um imposto de importação para elevar o preço do produtor sem alterar o preço ao consumidor: o acréscimo seria absorvido pelos intermediários. Bastaria conhecer bem cada mercado. Wooster responde em duas frentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira é de método. A teoria do valor, diz, é dedutiva e assenta na psicologia das necessidades e nos rendimentos decrescentes; estudos indutivos de mercado delimitam onde ela vale, mas não produzem outra. A concorrência livre é uma premissa como o vácuo do físico. Se a teoria vale, o monopólio e o quase monopólio tornam mais provável, e não menos, que o intermediário repasse o imposto."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda é prática. Mesmo com preços convencionais, há pelo menos quatro modos de repasse: criar um novo preço convencional, como aconteceu com os automóveis, que deixaram de custar múltiplos de US$ 500 e passaram a US$ 895 ou US$ 1.295; reclassificar parte da mercadoria num grupo de preço mais alto; reduzir a qualidade; e transferir o custo a outros produtos, como o merceeiro que quase não lucra com o açúcar e compensa no café. Em cinco anos, prazo que uma lei tarifária deveria considerar, a adaptação estaria feita. O próprio exemplo de Emery, um terno de US$ 23 e a tarifa da lã, mostraria a impossibilidade de prever o efeito."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na nota, Emery responde que as forças de longo prazo são lentas demais diante das mudanças da produção e do comércio, que sua crítica à teoria era só negativa e que o Tariff Board podia prever com razoável precisão os efeitos das mudanças na tarifa da lã. Contesta um exemplo de Wooster: o uso de lã reaproveitada nos tecidos, diz, tinha diminuído, não aumentado. Para ele, só a investigação de casos concretos mostra que o que vale para uma indústria não vale para outra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto ganhava a família agricultora?",
+          "artigo": "1827810",
+          "credito": "E. A. Goldenweiser (Washington, D. C.) · “The Farmer's Income” · pp. 42–48"
+        },
+        {
+          "tipo": "p",
+          "texto": "Goldenweiser, a partir do censo de 1909 e de pesquisas do Departamento de Agricultura, estima a renda da família agricultora média nos Estados Unidos. Parte do valor das safras, descontada a parte consumida pelos animais da própria fazenda, e soma produtos animais e animais vendidos ou abatidos. O censo não registrava o aluguel da casa, o combustível e parte da comida que a fazenda fornecia à família; para isso o autor usa um levantamento de W. C. Funk com 483 famílias."
+        },
+        {
+          "tipo": "p",
+          "texto": "A receita bruta média foi de US$ 1.236 por fazenda. As despesas, US$ 512, somam mão de obra contratada, adubos, ração, sementes, debulha, animais comprados, impostos, manutenção de prédios e máquinas e despesas gerais. Sobram US$ 724 de rendimento líquido."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 402",
+          "texto": "Ganho médio da família agricultora em 1909, depois de descontar dos US$ 724 líquidos os juros de 5% sobre o valor da propriedade, US$ 322. Dos US$ 724, a família recebia US$ 303 em dinheiro, US$ 125 em aluguel da casa, US$ 35 em combustível e US$ 261 em comida da própria fazenda."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor acrescenta a valorização da propriedade entre os censos de 1900 e 1910, US$ 323 por fazenda e por ano, US$ 242 só na terra, mas lembra que parte pode ser sobrevalorização e que o ganho só se realiza na venda. Discute as limitações: médias nacionais, sem distribuição por faixa de renda nem separação entre proprietários e arrendatários, e um único ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por fim, compara com a cidade. A mesma comida custaria pelo menos US$ 100 a mais, e aluguel e combustível também seriam mais caros; os US$ 400 da família agricultora equivaleriam a US$ 600 ou mais de um operário urbano. O autor admite que a quantia não supera muito o salário de um peão a US$ 30 por mês com casa e comida, mas sustenta que a população rural americana, de mais de 30 milhões de pessoas, tinha renda média por família maior que qualquer grupo comparável no mundo."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "goldenweiser-renda-do-agricultor",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A especulação estabiliza os preços?",
+          "artigo": "1827811",
+          "credito": "Abbott Payson Usher (Cornell University) · “The Influence of Speculative Marketing Upon Prices” · pp. 49–60"
+        },
+        {
+          "tipo": "p",
+          "texto": "A defesa corrente das bolsas de mercadorias dizia que a especulação organizada estabiliza os preços ao longo da safra e entre safras. Os estudos estatísticos americanos, de H. H. Brace e do próprio Emery, encontravam apenas uma redução modesta das flutuações na segunda metade do século XIX, e os autores os tratavam com cautela. Usher sustenta que o teste falhou porque a premissa estava errada, e recorre a séries de preços mais antigas que as usadas até então."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para comparar, ele recua ao século XVIII com os relatórios de William Jacob sobre o comércio de cereais, de 1826: preços máximos e mínimos em Danzig de 1703 a 1825 e médias mensais do trigo de Mecklenburg em Hamburgo de 1791 a 1822, mercados ainda organizados à moda antiga. Não há diferença significativa no grau de flutuação. As médias mensais de Hamburgo não variam mais que as de Chicago."
+        },
+        {
+          "tipo": "p",
+          "texto": "A mudança real está em outro lugar: na amplitude de preços num mesmo dia de mercado. Em Bear Key e depois em Mark Lane, em Londres, os preços do século XVIII, compilados por J. E. T. Rogers, mostram faixas típicas de 8 a 10 xelins por quarter num mesmo dia. Não havia classificação sistemática dos grãos nem concorrência pública: cada negócio era privado, entre dois homens, e nenhum sabia o que se fazia no outro lado da bolsa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A mudança notável está no grande aumento da certeza.”",
+          "original": "“The conspicuous change lies in the great increase in certainty”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a conclusão. A classificação por padrões e o leilão público do pregão são o que distingue os mercados modernos; o mercado futuro importa, mas não é único. Usher liga os dois tipos de gráfico a duas ideias de valor: a de Mill, um nível médio em torno do qual o preço oscila, e a de um valor que se move com as condições. A eficiência de um mercado se mede pela certeza, não pela estabilidade."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "usher-mercados-especulativos",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a reforma agrária russa ensina?",
+          "artigo": "1827812",
+          "credito": "Richard T. Ely (University of Wisconsin) · “Russian Land Reform” · pp. 61–68"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely transforma em artigo a resenha de Bauernfrage und Agrarreform in Russland, de K. A. Wieth-Knudsen, de 1913, sobre a dissolução da comuna camponesa russa a partir do ukaz de 9 de novembro de 1906 e da lei de 29 de maio de 1911. O ponto de partida é a palavra fazenda: para o americano, uma área contínua; para milhões de camponeses na Rússia, na Alemanha e na Irlanda, faixas longas e estreitas espalhadas entre as dos vizinhos, às vezes cem vezes mais compridas que largas, que obrigavam todos a trabalhar no mesmo ritmo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reforma faz o que os ingleses chamaram de cercamento e os alemães, com mais precisão, de reunião e separação das parcelas. Os planos da aldeia de Pogost, na província de Kostroma, antes e depois da reforma, mostram a passagem das faixas para lotes em uma, duas ou três peças, com a aldeia mantida como residência."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1861",
+          "texto": "Ano do principal ato da emancipação dos servos, parte de leis de 1858 a 1866. A terra recebida pelos camponeses era insuficiente, ficava na comuna e tinha de ser paga, em parcelas longas. O ukaz de 1906 adotou a propriedade e o cultivo individuais, com crédito do Estado, bancos camponeses e reembolsos que em muitos casos passavam de meio século."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os resultados, diz Ely, são uma diferenciação: uma camada de proprietários independentes de um lado e, de outro, camponeses empobrecidos que vendem pequenas faixas por pouco dinheiro, migram para as cidades ou para a Sibéria. Por isso as restrições à venda e à hipoteca da terra, que só podia ser hipotecada para melhorias, seriam parte necessária da reforma, como na Dinamarca e na França, onde o receio era de propriedades pequenas demais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ely considera a descrição do autor correta nas linhas gerais, mas otimista demais. Reproduz a opinião de um especialista em assuntos russos: o camponês precisava de mais terra, educação geral e técnica, capital para empregar os sem-terra e mais autonomia para os zemstvos, os governos provinciais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o crescimento da empresa altera a depreciação?",
+          "artigo": "1827813",
+          "credito": "L. R. Nash · “Depreciation Reserves as Affected by Property Growth” · pp. 69–89"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nash trata das reservas que empresas de serviços públicos constituem para repor equipamentos gastos ou obsoletos. Os métodos usuais reservam um percentual fixo do valor atual da propriedade, da receita bruta ou de uma unidade de produção, como o quilowatt-hora ou o carro-milha. Todos ignoram, diz, a taxa de crescimento da empresa. O resultado pode ser acumular reservas excessivas e privar os acionistas do retorno a que teriam direito."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo inicial resume o argumento. As reposições feitas hoje são de elementos instalados há, digamos, 20 anos. Uma propriedade que vale US$ 1 milhão e cresceu 6% ao ano valia US$ 312 mil vinte anos antes; repor 5% daquele valor custa menos de 2% do valor atual. Quanto mais rápido o crescimento, menor a parcela do valor presente gasta com reposição."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2,98%",
+          "texto": "Parcela do valor atual gasta por ano com reposição numa propriedade que cresce 6% ao ano, com vida útil média de 20 anos e dispersão de 15 anos, segundo as tabelas de Nash. Sem crescimento e com vida uniforme de 20 anos, seriam 5%; com crescimento de 10% ao ano e a mesma vida média, cerca de 2%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nash deriva fórmulas para crescimento uniforme, vida útil uniforme ou distribuída e idade ilimitada, publica tabelas de juros compostos e de somas de séries infinitas para o cálculo e examina o erro de supor idade ilimitada para empresas com menos de 30 anos. Lembra que cerca de 25% do valor de uma propriedade típica não exige reserva, como terrenos e capital de giro, e que o crescimento rápido também encurta a vida útil."
+        },
+        {
+          "tipo": "p",
+          "texto": "A exigência da Interstate Commerce Commission, de amortizar mensalmente cada elemento novo, acumularia um fundo nunca usado, que poderia chegar à metade do valor da propriedade e seria pago pelos usuários. A conclusão prática é que nenhuma empresa deve copiar o percentual de outra sem verificar se têm propriedade física e histórico de crescimento semelhantes."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem The Evolution of the English Corn Market, de N. S. B. Gras, por Ray B. Westerfield, obra da qual Usher usa os preços de Oxford; Income, de Scott Nearing, por T. S. Adams; três livros sobre trustes, de Durand, Taft e Crowell, por Maurice H. Robinson; The Canadian Iron and Steel Industry, de W. J. A. Donald, por F. W. Taussig; Agricultural Commerce, de G. G. Huebner, por Frank R. Rutter; Graphic Methods for Presenting Facts, de Willard C. Brinton, por Allyn A. Young; e um livro de Umberto Ricci sobre estatística agrícola internacional, pelo próprio Goldenweiser. Os documentos tratam da terceira conferência nacional sobre comercialização e crédito rural, em Chicago, de associações de fabricantes de máquinas agrícolas, da avaliação de uma empresa de serviço público, de números-índice e das receitas do estado de Nova York. Na correspondência, I. M. Rubinow defende a Standard Accident Table, resenhada no número de dezembro. As notas trazem a lista de novos sócios."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de março de 1916 é uma sequência de perguntas sobre a medida certa. Sterrett troca os lucros distribuídos pelo lucro ganho sobre o capital efetivamente investido; Fairchild troca índices de atacado por uma cesta de consumo operário e pela parcela que sobra da renda; Goldenweiser soma ao censo o que a fazenda fornece à família sem passar pelo mercado; Nash mostra que um percentual de depreciação só tem sentido junto com a taxa de crescimento da empresa.",
+            "Usher e Wooster fazem a mesma pergunta pelo outro lado. Usher troca a estabilidade média dos preços pela certeza dentro do dia de mercado como critério de eficiência; Wooster lembra que preço inalterado não significa imposto absorvido, porque o repasse pode vir pela qualidade ou por outros produtos. Em todos os casos, a conclusão depende do que se decide contar."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Retorno justo (fair return)",
+          "remuneração do capital que os reguladores admitem nas tarifas de serviços públicos."
+        ],
+        [
+          "Intangíveis",
+          "ativos sem existência física, como fundo de comércio, patentes e franquias."
+        ],
+        [
+          "Necessidades culturais (culture wants)",
+          "despesas além do necessário físico, como saúde, educação, religião, lazer, seguro e poupança."
+        ],
+        [
+          "Preço convencional (set price)",
+          "preço de venda fixado por costume em valores redondos, como “dois por 25 centavos”."
+        ],
+        [
+          "Repasse (incidência)",
+          "transferência do ônus de um imposto do contribuinte legal para outro agente, como o consumidor."
+        ],
+        [
+          "Mercado futuro",
+          "negociação de contratos padronizados para entrega futura de mercadoria classificada."
+        ],
+        [
+          "Classificação (grading)",
+          "padronização de grãos em tipos definidos, que permite negociar sem ver o lote físico."
+        ],
+        [
+          "Comuna camponesa (obshchina)",
+          "aldeia russa que detinha a terra em comum e a distribuía em faixas entre as famílias."
+        ],
+        [
+          "Reserva de depreciação",
+          "fundo acumulado com a receita para repor equipamentos gastos ou obsoletos."
+        ]
+      ],
+      "hoje": "As perguntas do número continuam abertas. O retorno permitido a concessionárias reguladas ainda é calibrado pelo custo de oportunidade do capital. Medidas de custo de vida baseadas em cestas de consumo de famílias de baixa renda e a parcela da renda que sobra após as despesas essenciais seguem em uso. A redução de qualidade ou de tamanho como forma de repasse de custos é estudada como “reduflação”. E a avaliação de mercados futuros pela informação que produzem, mais que pela estabilidade dos preços, ecoa o argumento de Usher.",
+      "itens": [
+        [
+          "The Comparative Yield on Trade and Public Service Investment",
+          "pp. 1–8",
+          "1827807"
+        ],
+        [
+          "The Standard of Living--Up or Down?",
+          "pp. 9–25",
+          "1827808"
+        ],
+        [
+          "The Tariff and the Ultimate Consumer",
+          "pp. 26–41",
+          "1827809"
+        ],
+        [
+          "The Farmer's Income",
+          "pp. 42–48",
+          "1827810"
+        ],
+        [
+          "The Influence of Speculative Marketing Upon Prices",
+          "pp. 49–60",
+          "1827811"
+        ],
+        [
+          "Russian Land Reform",
+          "pp. 61–68",
+          "1827812"
+        ],
+        [
+          "Depreciation Reserves as Affected by Property Growth",
+          "pp. 69–89",
+          "1827813"
+        ],
+        [
+          "New Books",
+          "pp. 90–91",
+          "1827814"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 91-92",
+          "pp. 91–92",
+          "1827815"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 92-93",
+          "pp. 92–93",
+          "1827816"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 93-95",
+          "pp. 93–95",
+          "1827817"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 95-98",
+          "pp. 95–98",
+          "1827818"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 98-100",
+          "pp. 98–100",
+          "1827819"
+        ],
+        [
+          "New Books",
+          "pp. 100–106",
+          "1827820"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 106-108",
+          "pp. 106–108",
+          "1827821"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 108-110",
+          "pp. 108–110",
+          "1827822"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 110-111",
+          "pp. 110–111",
+          "1827823"
+        ],
+        [
+          "New Books",
+          "pp. 112",
+          "1827824"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 113-114",
+          "pp. 113–114",
+          "1827825"
+        ],
+        [
+          "New Books",
+          "pp. 114–115",
+          "1827826"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 115-116",
+          "pp. 115–116",
+          "1827827"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 116-118",
+          "pp. 116–118",
+          "1827828"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 118-120",
+          "pp. 118–120",
+          "1827829"
+        ],
+        [
+          "New Books",
+          "pp. 120–122",
+          "1827830"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 122-124",
+          "pp. 122–124",
+          "1827831"
+        ],
+        [
+          "New Books",
+          "pp. 124–125",
+          "1827832"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 125-127",
+          "pp. 125–127",
+          "1827833"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 127-129",
+          "pp. 127–129",
+          "1827834"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 129-131",
+          "pp. 129–131",
+          "1827835"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 131-133",
+          "pp. 131–133",
+          "1827836"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 133-136",
+          "pp. 133–136",
+          "1827837"
+        ],
+        [
+          "New Books",
+          "pp. 136–141",
+          "1827838"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 141-144",
+          "pp. 141–144",
+          "1827839"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 144-145",
+          "pp. 144–145",
+          "1827840"
+        ],
+        [
+          "New Books",
+          "pp. 146–147",
+          "1827841"
+        ],
+        [
+          "New Books",
+          "pp. 147–150",
+          "1827842"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 150-153",
+          "pp. 150–153",
+          "1827843"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 153-155",
+          "pp. 153–155",
+          "1827844"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 155-156",
+          "pp. 155–156",
+          "1827845"
+        ],
+        [
+          "New Books",
+          "pp. 156–158",
+          "1827846"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 158-162",
+          "pp. 158–162",
+          "1827847"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 162-163",
+          "pp. 162–163",
+          "1827848"
+        ],
+        [
+          "New Books",
+          "pp. 164–165",
+          "1827849"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 165-166",
+          "pp. 165–166",
+          "1827850"
+        ],
+        [
+          "New Books",
+          "pp. 166–167",
+          "1827851"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 167-169",
+          "pp. 167–169",
+          "1827852"
+        ],
+        [
+          "New Books",
+          "pp. 169–173",
+          "1827853"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 173-175",
+          "pp. 173–175",
+          "1827854"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 175-176",
+          "pp. 175–176",
+          "1827855"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 176-179",
+          "pp. 176–179",
+          "1827856"
+        ],
+        [
+          "New Books",
+          "pp. 179–180",
+          "1827857"
+        ],
+        [
+          "New Books",
+          "pp. 180",
+          "1827858"
+        ],
+        [
+          "New Books",
+          "pp. 180",
+          "1827859"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 181-182",
+          "pp. 181–182",
+          "1827860"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 182-187",
+          "pp. 182–187",
+          "1827861"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 187-188",
+          "pp. 187–188",
+          "1827862"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-03-01), pages 188-189",
+          "pp. 188–189",
+          "1827863"
+        ],
+        [
+          "New Books",
+          "pp. 189",
+          "1827864"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 190–219",
+          "1827865"
+        ],
+        [
+          "Periodicals",
+          "pp. 220–249",
+          "1827866"
+        ],
+        [
+          "Correspondence",
+          "pp. 250–257",
+          "1827867"
+        ],
+        [
+          "Notes",
+          "pp. 258–270",
+          "1827868"
+        ]
+      ],
+      "jstor_edicao": "i331814",
+      "artigos": [
+        {
+          "titulo": "The Comparative Yield on Trade and Public Service Investment",
+          "autores": "J. E. Sterrett",
+          "paginas": "pp. 1–8",
+          "jstor": "1827807",
+          "resumo": "Comparação, com 158 auditorias, entre o retorno do capital em empresas não reguladas e o máximo admitido pelas comissões de serviços públicos."
+        },
+        {
+          "titulo": "The Standard of Living--Up or Down?",
+          "autores": "Henry Pratt Fairchild (Yale University)",
+          "paginas": "pp. 9–25",
+          "jstor": "1827808",
+          "resumo": "Comparação entre 1890 e 1908 da parcela da renda de uma família operária-padrão que sobra depois dos bens necessários."
+        },
+        {
+          "titulo": "The Tariff and the Ultimate Consumer",
+          "autores": "Harvey A. Wooster (Yale University); nota em réplica de Henry C. Emery",
+          "paginas": "pp. 26–41",
+          "jstor": "1827809",
+          "resumo": "Crítica à proposta de Emery de ajustar tarifas para que o consumidor não as pague, com a resposta do próprio Emery."
+        },
+        {
+          "titulo": "The Farmer's Income",
+          "autores": "E. A. Goldenweiser (Washington, D. C.)",
+          "paginas": "pp. 42–48",
+          "jstor": "1827810",
+          "resumo": "Estimativa da renda média da família agricultora americana em 1909, a partir do censo e de pesquisas do Departamento de Agricultura.",
+          "ensaio_slug": "goldenweiser-renda-do-agricultor"
+        },
+        {
+          "titulo": "The Influence of Speculative Marketing Upon Prices",
+          "autores": "Abbott Payson Usher (Cornell University)",
+          "paginas": "pp. 49–60",
+          "jstor": "1827811",
+          "resumo": "Comparação entre mercados de trigo dos séculos XVIII e XX que atribui o ganho dos mercados modernos mais à certeza que à estabilidade dos preços.",
+          "ensaio_slug": "usher-mercados-especulativos"
+        },
+        {
+          "titulo": "Russian Land Reform",
+          "autores": "Richard T. Ely (University of Wisconsin)",
+          "paginas": "pp. 61–68",
+          "jstor": "1827812",
+          "resumo": "Resenha-artigo do livro de Wieth-Knudsen sobre a dissolução da comuna camponesa russa após 1906."
+        },
+        {
+          "titulo": "Depreciation Reserves as Affected by Property Growth",
+          "autores": "L. R. Nash",
+          "paginas": "pp. 69–89",
+          "jstor": "1827813",
+          "resumo": "Fórmulas e tabelas que mostram como a taxa de crescimento de uma empresa reduz a parcela do valor atual gasta com reposições."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 90–91",
+          "jstor": "1827814",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "C. W. Alvord e C. E. Carter, The Critical Period, 1763–1765",
+          "autores": "Amelia Clewley Ford",
+          "paginas": "pp. 91–92",
+          "jstor": "1827815",
+          "resumo": "Documentos sobre o período de 1763–1765 da Illinois State Historical Library."
+        },
+        {
+          "titulo": "Flippin, The Financial Administration of the Colony of Virginia",
+          "autores": "Frank W. Pitman",
+          "paginas": "pp. 92–93",
+          "jstor": "1827816",
+          "resumo": "Estudo da administração financeira da Virgínia colonial."
+        },
+        {
+          "titulo": "Laut, The Canadian Commonwealth",
+          "autores": "J. C. Hemmeon",
+          "paginas": "pp. 93–95",
+          "jstor": "1827817",
+          "resumo": "Livro sobre o Canadá."
+        },
+        {
+          "titulo": "E. Lipson, An Introduction to the Economic History of England. I. The Middle Ages",
+          "autores": "Charles M. Andrews",
+          "paginas": "pp. 95–98",
+          "jstor": "1827818",
+          "resumo": "História econômica da Inglaterra medieval."
+        },
+        {
+          "titulo": "N. S. B. Gras, The Evolution of the English Corn Market",
+          "autores": "Ray B. Westerfield",
+          "paginas": "pp. 98–100",
+          "jstor": "1827819",
+          "resumo": "História do mercado inglês de cereais."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 100–106",
+          "jstor": "1827820",
+          "resumo": "Lista de livros novos: história e geografia econômica."
+        },
+        {
+          "titulo": "Edward Van Dyke Robinson, Early Economic Conditions and the Development of Agriculture in Minnesota",
+          "autores": "George K. Holmes",
+          "paginas": "pp. 106–108",
+          "jstor": "1827821",
+          "resumo": "História agrícola de Minnesota."
+        },
+        {
+          "titulo": "Haney (org.), The Land Problem in Texas",
+          "autores": "Paul L. Vogt",
+          "paginas": "pp. 108–110",
+          "jstor": "1827822",
+          "resumo": "Estudos sobre a questão da terra no Texas."
+        },
+        {
+          "titulo": "Palmer, Swamp Land Drainage",
+          "autores": "C. W. Wassam",
+          "paginas": "pp. 110–111",
+          "jstor": "1827823",
+          "resumo": "Estudo sobre a drenagem de terras alagadas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 112",
+          "jstor": "1827824",
+          "resumo": "Lista de livros novos: agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "Dunbar, The Tin-Plate Industry",
+          "autores": "Simon Litman",
+          "paginas": "pp. 113–114",
+          "jstor": "1827825",
+          "resumo": "Estudo comparativo da indústria de folha de flandres nos Estados Unidos e no País de Gales."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 114–115",
+          "jstor": "1827826",
+          "resumo": "Lista de livros novos: indústrias manufatureiras."
+        },
+        {
+          "titulo": "Holmes, Regulation of Railroads and Public Utilities in Wisconsin",
+          "autores": "A. M. Sakolski",
+          "paginas": "pp. 115–116",
+          "jstor": "1827827",
+          "resumo": "Regulação de ferrovias e serviços públicos em Wisconsin."
+        },
+        {
+          "titulo": "Sharfman, Railway Regulation",
+          "autores": "Lewis H. Haney",
+          "paginas": "pp. 116–118",
+          "jstor": "1827828",
+          "resumo": "Livro sobre regulação ferroviária."
+        },
+        {
+          "titulo": "Cleveland-Stevens, English Railways",
+          "autores": "Ernest Ritson Dewsnup",
+          "paginas": "pp. 118–120",
+          "jstor": "1827829",
+          "resumo": "Estudo sobre as ferrovias inglesas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 120–122",
+          "jstor": "1827830",
+          "resumo": "Lista de livros novos: transporte e comunicações."
+        },
+        {
+          "titulo": "Grover G. Huebner, Agricultural Commerce",
+          "autores": "Frank R. Rutter",
+          "paginas": "pp. 122–124",
+          "jstor": "1827831",
+          "resumo": "Organização do comércio americano de produtos agrícolas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 124–125",
+          "jstor": "1827832",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "John Raymond Wildman, Principles of Cost Accounting; Elementary Accounting Problems; Principles of Accounting",
+          "autores": "David Friday",
+          "paginas": "pp. 125–127",
+          "jstor": "1827833",
+          "resumo": "Três manuais de contabilidade."
+        },
+        {
+          "titulo": "Tipper e outros, Advertising; Calkins, The Business of Advertising; Bunting; Mahin; Tipper, The New Business",
+          "autores": "Edward D. Jones",
+          "paginas": "pp. 127–129",
+          "jstor": "1827834",
+          "resumo": "Resenha conjunta de livros sobre publicidade."
+        },
+        {
+          "titulo": "Saliers, Principles of Depreciation",
+          "autores": "John Bauer",
+          "paginas": "pp. 129–131",
+          "jstor": "1827835",
+          "resumo": "Livro sobre princípios de depreciação."
+        },
+        {
+          "titulo": "Ernest L. Bogart, Business Economics",
+          "autores": "Carroll W. Doten",
+          "paginas": "pp. 131–133",
+          "jstor": "1827836",
+          "resumo": "Manual de economia dos negócios."
+        },
+        {
+          "titulo": "Hugo Diemer, Industrial Organization and Management; Drury, Scientific Management",
+          "autores": "Frederic G. Coburn",
+          "paginas": "pp. 133–136",
+          "jstor": "1827837",
+          "resumo": "Dois livros sobre organização industrial e administração científica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 136–141",
+          "jstor": "1827838",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios e investimentos."
+        },
+        {
+          "titulo": "Edward Dana Durand, The Trust Problem; William Howard Taft, The Anti-Trust Act and the Supreme Court; John Franklin Crowell, Trusts and Competition",
+          "autores": "Maurice H. Robinson",
+          "paginas": "pp. 141–144",
+          "jstor": "1827839",
+          "resumo": "Três livros sobre trustes e a lei antitruste."
+        },
+        {
+          "titulo": "Harry A. Cushing, Voting Trusts",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 144–145",
+          "jstor": "1827840",
+          "resumo": "Estudo sobre os voting trusts na história corporativa recente."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 146–147",
+          "jstor": "1827841",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 147–150",
+          "jstor": "1827842",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Lower Living Costs in Cities",
+          "autores": "Edward M. Hartwell",
+          "paginas": "pp. 150–153",
+          "jstor": "1827843",
+          "resumo": "Livro sobre a redução do custo de vida nas cidades."
+        },
+        {
+          "titulo": "Hemantakumar Ghosh, Theory of Cooperative Credit",
+          "autores": "James B. Morman",
+          "paginas": "pp. 153–155",
+          "jstor": "1827844",
+          "resumo": "Teoria do crédito cooperativo."
+        },
+        {
+          "titulo": "Hulftegger, Die Bank von England",
+          "autores": "Chester A. Phillips",
+          "paginas": "pp. 155–156",
+          "jstor": "1827845",
+          "resumo": "Estudo sobre o Banco da Inglaterra."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 156–158",
+          "jstor": "1827846",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Haig, The Exemption of Improvements from Taxation in Canada and the United States, e outro estudo; Louis F. Post, The Taxation of Land Values",
+          "autores": "Arthur N. Young",
+          "paginas": "pp. 158–162",
+          "jstor": "1827847",
+          "resumo": "Estudos sobre a isenção de benfeitorias e a tributação do valor da terra."
+        },
+        {
+          "titulo": "W. J. A. Donald, The Canadian Iron and Steel Industry",
+          "autores": "F. W. Taussig",
+          "paginas": "pp. 162–163",
+          "jstor": "1827848",
+          "resumo": "História econômica de uma indústria protegida no Canadá."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 164–165",
+          "jstor": "1827849",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Babcock, The Scandinavian Element in the United States",
+          "autores": "A. B. Wolfe",
+          "paginas": "pp. 165–166",
+          "jstor": "1827850",
+          "resumo": "Estudo sobre a imigração escandinava nos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 166–167",
+          "jstor": "1827851",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "Charles Richmond Henderson, Citizens in Industry",
+          "autores": "Henry Clayton Metcalf",
+          "paginas": "pp. 167–169",
+          "jstor": "1827852",
+          "resumo": "Livro da série Social Betterment sobre o trabalhador na indústria."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 169–173",
+          "jstor": "1827853",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "Dunham e Rhodes, Accident and Health Insurance",
+          "autores": "Louis I. Dublin",
+          "paginas": "pp. 173–175",
+          "jstor": "1827854",
+          "resumo": "Livro sobre seguros de acidentes e de saúde."
+        },
+        {
+          "titulo": "Solomon S. Huebner, Life Insurance",
+          "autores": "W. F. Gephart",
+          "paginas": "pp. 175–176",
+          "jstor": "1827855",
+          "resumo": "Manual de seguro de vida."
+        },
+        {
+          "titulo": "H. J. Hoare, Old Age Pensions",
+          "autores": "Robert F. Foerster",
+          "paginas": "pp. 176–179",
+          "jstor": "1827856",
+          "resumo": "Funcionamento e resultados das pensões de velhice no Reino Unido."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 179–180",
+          "jstor": "1827857",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 180",
+          "jstor": "1827858",
+          "resumo": "Lista de livros novos: pauperismo e assistência."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 180",
+          "jstor": "1827859",
+          "resumo": "Lista de livros novos: socialismo e cooperativas."
+        },
+        {
+          "titulo": "Willard C. Brinton, Graphic Methods for Presenting Facts",
+          "autores": "Allyn A. Young",
+          "paginas": "pp. 181–182",
+          "jstor": "1827860",
+          "resumo": "Manual de métodos gráficos."
+        },
+        {
+          "titulo": "Scott Nearing, Income",
+          "autores": "T. S. Adams",
+          "paginas": "pp. 182–187",
+          "jstor": "1827861",
+          "resumo": "Exame dos rendimentos do trabalho e da propriedade nos Estados Unidos."
+        },
+        {
+          "titulo": "Robert Henderson, Mortality Laws and Statistics",
+          "autores": "H. L. Rietz",
+          "paginas": "pp. 187–188",
+          "jstor": "1827862",
+          "resumo": "Leis e estatísticas de mortalidade."
+        },
+        {
+          "titulo": "Umberto Ricci, Les Bases Théoriques de la Statistique Agricole Internationale",
+          "autores": "E. A. Goldenweiser",
+          "paginas": "pp. 188–189",
+          "jstor": "1827863",
+          "resumo": "Bases teóricas da estatística agrícola internacional."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 189",
+          "jstor": "1827864",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "",
+          "paginas": "pp. 190–219",
+          "jstor": "1827865",
+          "resumo": "Resumos de documentos: terceira conferência nacional sobre comercialização e crédito rural, associações de fabricantes de máquinas agrícolas, avaliação de serviço público, números-índice, receitas de Nova York e outros."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 220–249",
+          "jstor": "1827866",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Correspondence",
+          "autores": "",
+          "paginas": "pp. 250–257",
+          "jstor": "1827867",
+          "resumo": "Carta de I. M. Rubinow em defesa da Standard Accident Table."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 258–270",
+          "jstor": "1827868",
+          "resumo": "Lista de novos sócios da associação e notícias diversas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "goldenweiser-renda-do-agricultor",
+          "titulo": "Goldenweiser e a conta da família agricultora",
+          "titulo_original": "The Farmer's Income",
+          "autores": "E. A. Goldenweiser (Washington, D. C.)",
+          "paginas": "pp. 42–48",
+          "jstor": "1827810",
+          "chamada": "Com o censo de 1909 e pesquisas do Departamento de Agricultura, E. A. Goldenweiser monta a conta da fazenda americana média: US$ 1.236 de receita, US$ 724 líquidos e US$ 402 para o trabalho da família.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Uma família agricultora americana média recebia da própria fazenda, em 1909, o equivalente a US$ 125 de aluguel da casa onde morava, US$ 35 de combustível e US$ 261 de comida. Nenhum desses valores passava pelo mercado, e boa parte deles não aparecia nos questionários do censo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Somá-los ao que o censo registrava é o principal trabalho de E. A. Goldenweiser no artigo de sete páginas que publicou na American Economic Review de março de 1916. O objetivo é estimar a renda média das famílias agricultoras dos Estados Unidos no ano censitário de 1909. Um boletim anterior sobre o mesmo tema, de W. J. Spillman, saíra em 19 de julho de 1913 com dados preliminares; desde então havia estatísticas mais detalhadas e pesquisas do Departamento de Agricultura que permitiam estimar o que o censo omitia."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como se monta a receita?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro cuidado é não contar duas vezes. O valor de todas as safras era de US$ 5,487 bilhões, mas parte delas virava ração dos animais da própria fazenda e reaparecia no valor dos produtos animais. O autor calcula essa parte: das culturas que servem de ração, milho, aveia, cevada, feno e forragens, valendo US$ 2,786 bilhões, saem US$ 509 milhões vendidos e US$ 40 milhões de milho consumido pelas famílias do Cinturão do Algodão, à razão de US$ 20 por fazenda. Restam US$ 2,236 bilhões consumidos pelos animais, que se subtraem do total."
+            },
+            {
+              "tipo": "p",
+              "texto": "À receita das safras somam-se os produtos animais, laticínios, ovos, mel, lã, e os animais vendidos ou abatidos, num total de US$ 2,958 bilhões. Falta o que a fazenda dá diretamente à família. Para isso Goldenweiser usa o Farmers' Bulletin nº 635, de W. C. Funk, do Office of Farm Management, com 483 famílias espalhadas pelo país: em média, US$ 125 de aluguel da casa, US$ 35 de combustível e US$ 47 de leite e creme."
+            },
+            {
+              "tipo": "p",
+              "texto": "O aluguel tem uma razão contábil: o agricultor é cobrado em juros de 5% e manutenção sobre toda a propriedade, inclusive a casa, e precisa ser creditado pelo uso dela. Para os alimentos que o recenseador deixava escapar, como aves, ovos, carne de porco e de boi, verduras e frutas, o autor eleva os US$ 47 para US$ 100. O total não registrado pelo censo chega a US$ 260 por fazenda; somado aos US$ 161 de comida que o censo provavelmente contava, a contribuição direta da fazenda à família chega a US$ 421."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 1.236",
+              "texto": "Receita bruta média por fazenda em 1909: US$ 511 de safras não consumidas pelos animais da fazenda, US$ 177 de produtos animais, US$ 288 de animais vendidos ou abatidos e US$ 260 de aluguel, combustível e comida não registrados pelo censo. No total, cerca de US$ 7,862 bilhões."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quais são as despesas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O censo dava quatro grandes itens: mão de obra contratada, US$ 651 milhões; adubos, US$ 115 milhões; ração comprada, US$ 300 milhões; animais comprados, US$ 840 milhões. O autor estima as sementes, cerca de US$ 200 milhões, pela área de cada cultura, pela quantidade semeada por acre em cada região, obtida com agentes do Departamento de Agricultura, e pelo preço médio; e a debulha, cerca de US$ 90 milhões. Os itens enumerados somam US$ 2,195 bilhões, ou US$ 345 por fazenda."
+            },
+            {
+              "tipo": "p",
+              "texto": "A esses itens somam-se impostos, estimados em 0,6% do valor da propriedade, e manutenção de 5% sobre o valor dos prédios e de 15% sobre o das máquinas e implementos, o que leva o total a US$ 2,947 bilhões. Um acréscimo para despesas gerais, baseado em levantamentos de administração rural, completa US$ 3,256 bilhões, ou US$ 512 por fazenda. O trabalho não pago da família não entra como despesa."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 724",
+              "texto": "Rendimento líquido médio da fazenda e da família em 1909, disponível para o consumo, o pagamento de dívidas e a poupança. Desse valor, US$ 322 correspondem a juros de 5% sobre o capital investido e US$ 402 ao trabalho e à direção do agricultor e de sua família."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E as hipotecas e a valorização da terra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os juros pagos sobre hipotecas reduzem o rendimento da fazenda, mas não o ganho da família. Só que não havia estatística satisfatória: o censo informava hipotecas apenas para fazendas operadas pelos donos, e um terço delas declarou hipoteca. Se a proporção e o valor médio fossem iguais entre arrendatários, os juros seriam de cerca de US$ 34 por ano e o rendimento líquido cairia para US$ 690. O autor acha a hipótese exagerada e conclui que o ajuste não muda as médias."
+            },
+            {
+              "tipo": "p",
+              "texto": "A valorização da propriedade é outra questão. Dividindo por dez a diferença entre os valores de 1910 e de 1900, Goldenweiser obtém um aumento médio de US$ 2,055 bilhões por ano, ou US$ 323 por fazenda: US$ 242 na terra, US$ 44 nos prédios, US$ 8 em máquinas e US$ 29 nos animais. Parte é fruto do trabalho de melhoria; parte, a participação do agricultor no aumento da riqueza nacional. Como o censo de 1900 foi feito em junho e o de 1910 em abril, o aumento dos rebanhos fica subestimado."
+            },
+            {
+              "tipo": "p",
+              "texto": "Ele não soma esse ganho à renda. A valorização da terra, quando real, é a capitalização de preços maiores dos produtos, e o agricultor já a recebe em receitas maiores. Parte pode ser sobrevalorização pelos próprios donos, e o ganho só se realiza se a fazenda for vendida, já que o preço da terra também pode cair."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Depende de um grande número de fatores, sobre muitos dos quais ele não tem controle.”",
+              "original": "“dependent on a large number of factors over many of which he has no control”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Até onde vão as médias?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor enumera as limitações. As médias nacionais escondem condições muito diferentes entre regiões, e não havia dados regionais detalhados; mais úteis seriam números por faixa de renda, que não existiam. Não há separação entre o proprietário e o arrendatário, que depende quase só do trabalho da família. O ano é um só, embora 1909 lhe pareça representativo. O censo incluía pequenas propriedades perto das cidades, mas fazendas de menos de 3 acres só entravam se produzissem US$ 250 em safras ou ocupassem um homem em tempo integral, e eram só 18 mil em 1910, cerca de 0,3% do total. A renda de trabalho fora da fazenda não está nos números."
+            },
+            {
+              "tipo": "p",
+              "texto": "Da renda líquida de US$ 724, a família recebia US$ 303 em dinheiro, US$ 35 em combustível, US$ 125 em aluguel e US$ 261 em comida. A comparação com a cidade fecha o artigo. A mesma comida custaria pelo menos US$ 100 a mais, e aluguel e combustível também; os US$ 400 da família agricultora corresponderiam a US$ 600 ou mais de um operário urbano. O autor reconhece que o ganho não supera muito o de um peão a US$ 30 por mês, com casa e comida, mas sustenta que a população rural americana, de mais de 30 milhões de pessoas, tinha a maior renda média por família entre os grupos de tamanho comparável no mundo."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um exercício exemplar de contabilidade nacional antes de ela ter esse nome. Goldenweiser separa o consumo intermediário da fazenda para não contar duas vezes, imputa o aluguel da casa própria e o autoconsumo, distingue o rendimento do capital do rendimento do trabalho e trata a valorização da terra como ganho de capital, não como renda corrente. São as mesmas decisões que as contas nacionais tomariam décadas depois.",
+                "O texto também mostra o peso das hipóteses. A renda da família é um resíduo: depende da taxa de 5% atribuída ao capital, das estimativas de sementes, debulha e despesas gerais e do valor dado ao que a fazenda fornece. O autor declara cada uma delas, o que permite ao leitor refazer a conta com outras premissas."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Ano censitário",
+              "período de doze meses a que se referem os dados de produção do censo, aqui 1909."
+            ],
+            [
+              "Autoconsumo",
+              "parte da produção da fazenda consumida pela própria família, sem passar pelo mercado."
+            ],
+            [
+              "Aluguel imputado",
+              "valor atribuído ao uso da casa própria, como se fosse alugada."
+            ],
+            [
+              "Rendimento líquido",
+              "receita bruta menos as despesas de produção, antes de remunerar o capital próprio."
+            ],
+            [
+              "Ganho da família",
+              "rendimento líquido menos os juros atribuídos ao capital investido na fazenda."
+            ],
+            [
+              "Debulha",
+              "separação dos grãos da palha, então feita por máquinas contratadas."
+            ]
+          ],
+          "hoje": "As contas nacionais modernas fazem as escolhas que Goldenweiser fez: imputam o aluguel da casa própria, registram o autoconsumo rural, separam consumo intermediário de produção final e tratam a valorização de ativos à parte da renda. Estatísticas de renda agrícola ainda distinguem rendimento da fazenda e renda da família, e a comparação entre renda rural e urbana continua a exigir ajuste pelo custo de vida. As limitações que ele apontou, médias sem distribuição e renda de trabalho fora da fazenda omitida, seguem como críticas comuns."
+        },
+        {
+          "slug": "usher-mercados-especulativos",
+          "titulo": "Usher e a certeza dos mercados modernos",
+          "titulo_original": "The Influence of Speculative Marketing Upon Prices",
+          "autores": "Abbott Payson Usher (Cornell University)",
+          "paginas": "pp. 49–60",
+          "jstor": "1827811",
+          "chamada": "Abbott Payson Usher compara preços de trigo de Danzig, Hamburgo, Oxford e Londres nos séculos XVII e XVIII com os de Chicago e Mark Lane em 1911 e conclui que o mercado moderno ganhou certeza, não estabilidade.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em três semanas de setembro de 1740, as cotações do trigo em Mark Lane, em Londres, registraram três preços para o mesmo dia de mercado, como 38, 44 e 52 xelins por quarter. O preço mais alto era o do trigo velho de boa qualidade. Mas, mesmo sem essa distinção, a faixa entre o preço mínimo e o máximo de um mesmo dia costumava ficar entre 8 e 10 xelins durante a maior parte do século XVIII."
+            },
+            {
+              "tipo": "p",
+              "texto": "Abbott Payson Usher, da Cornell University, usa essas faixas na American Economic Review de março de 1916 para contestar uma tese corrente na defesa das bolsas de mercadorias: a de que a especulação organizada tornou os preços mais estáveis. A especulação estabiliza, ele concede. O que contesta é que essa seja a principal mudança trazida pelos mercados modernos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os estudos anteriores encontravam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os estudos americanos mais conhecidos, de H. H. Brace, em The Value of Organized Speculation, de 1913, e de Henry C. Emery, em seu estudo de 1896 sobre a especulação nas bolsas, comparavam preços de meados e do fim do século XIX e encontravam só uma pequena redução das flutuações. Os próprios autores tratavam os números com cautela. Brace os chamava de inconclusivos; Emery via uma tendência uniforme à redução, mas admitia que as flutuações continuavam grandes."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Usher, o problema estava na premissa, não nos números. A especulação organizada não aumentou o efeito estabilizador o bastante para reduzir de forma notável as flutuações dos preços médios. E a técnica dos mercados modernos não melhorou sobretudo no que se refere à especulação. Se os estudos tivessem recuado um pouco mais no tempo, até antes das grandes mudanças na comercialização da primeira metade do século XIX, o resultado teria sido mais claro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mostram os preços do século XVIII?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A fonte é o First Report on the Corn Trade de William Jacob, publicado em Londres em 1826. Ele traz os preços máximos e mínimos de todos os cereais em Danzig, ano a ano, de 1703 a 1825; os de Cracóvia, mês a mês, de 1814 a 1824; e a média mensal do trigo de Mecklenburg no mercado de Hamburgo de 1791 a 1822. Pelo texto de Jacob, os métodos de comércio na Alemanha e na Polônia eram então os de muito tempo antes, típicos de todo o século XVIII."
+            },
+            {
+              "tipo": "p",
+              "texto": "Usher traça gráficos pelo método de Brace, convertendo as medidas inglesas, o quarter de oito bushels, e as moedas, e chega a um resultado simples: não há diferença significativa no grau de flutuação, apesar da enorme diferença de métodos. As médias mensais de Hamburgo, num mercado mais medieval que moderno, não variam mais em vinte anos do que as de Chicago. A estabilidade, diz, vinha da especulação que já existia ali, mesmo sem contratos futuros nem venda a descoberto."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "8 a 10 xelins",
+              "texto": "Amplitude característica dos preços do trigo por quarter num mesmo dia de mercado em Londres na maior parte do século XVIII, segundo as cotações de Bear Key (1709–1758) e Mark Lane (até 1793) reunidas por J. E. T. Rogers. Usher divide o século em três períodos: 1709–1730 e 1757–1793, de faixas largas e mudanças erráticas, e 1731–1756, relativamente calmo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde está, então, a mudança?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na amplitude dos preços dentro do mesmo dia. Para medi-la, Usher compara as faixas semanais de preço de três conjuntos de mercados: Oxford entre 1663 e 1668, com números cedidos por N. S. B. Gras; Bear Key e Mark Lane em 1740–1742; e Mark Lane e Chicago em 1911–1912. Oxford era um mercado local pequeno, em que as vendas raramente passavam de 50 bushels num dia ou ficavam abaixo de 20. Bear Key recebia todo o grão que chegava a Londres por mar e o vendia em grandes lotes, em geral por barco inteiro."
+            },
+            {
+              "tipo": "p",
+              "texto": "A diferença de qualidade explica pouco. A distinção entre trigo velho e novo, ou entre trigo vermelho e branco, aparece em cotações separadas de alguns anos e não dá conta da largura habitual das faixas. A explicação principal está em duas ausências: a de classificação sistemática dos grãos e a de concorrência organizada entre os negociantes."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em Mark Lane, os corretores sentavam-se a mesas ao redor do pátio da bolsa e negociavam por amostra, num arranjo parecido com o do mercado físico da Chicago Board of Trade. Mas não havia pregão nem leilão de lotes. Cada negócio era um acordo privado entre dois homens, e ninguém sabia o que acontecia do outro lado do pátio. Quando o comércio por amostra se espalhou, no século XVII, os negócios saíram da praça do mercado para estalagens e tavernas próximas, na Inglaterra e na França, e a concorrência pública diminuiu."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O comércio de futuros é sem dúvida importante, mas não pode ser considerado de importância única.”",
+              "original": "“The dealing in futures is no doubt important, but it can not be regarded as of unique importance”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Para que serve o mercado futuro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Usher, o que distingue os mercados modernos são a classificação por padrões, que permite negociar quantidades e qualidades abstratas sem ver o lote, e o leilão simultâneo do pregão, com toda a sua gritaria. O mercado futuro é parte desse sistema, mas sua importância teria sido exagerada."
+            },
+            {
+              "tipo": "p",
+              "texto": "O efeito próprio dos futuros aparece nos gráficos pelo comportamento dos baixistas. Em Bear Key e em Mark Lane de 1911, mercado sem contratos futuros, os vendedores são passivos e reagem mais tarde às novidades, operando com a ideia de um preço mínimo. Num mercado com futuros, os baixistas se tornam ativos e podem forçar o preço para baixo, enquanto os altistas podem empurrá-lo para cima. Na maior parte do tempo os dois lados interpretam depressa os mesmos fatos e se movem juntos; o mercado só se alarga quando surgem diferenças reais de opinião."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que ideia de valor está por trás dos gráficos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O último passo é teórico. Os gráficos de Brace medem as flutuações sobre uma base horizontal e correspondem à ideia clássica de valor, de John Stuart Mill: um nível médio em torno do qual o preço oscila. Nessa visão, que Usher atribui também ao público em geral, toda flutuação parece desvio, e isso ajuda a explicar a desconfiança em relação às bolsas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os gráficos de amplitude supõem outra ideia: um valor que muda continuamente com as condições, medido sobre uma base móvel. O exemplo é Chicago. Em 11 de novembro de 1911 e em 13 de abril de 1912 a amplitude do dia foi de cerca de cinco centavos, mas os dois dias diziam coisas diferentes. Em novembro, o mercado estava cada vez mais incerto sobre o futuro; em abril, todos sabiam que os preços iam subir. A direção do movimento é parte da comparação."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O mar tende por toda parte a um nível; mas nunca está num nível exato.”",
+              "original": "“The sea everywhere tends to a level; but it never is at any exact level”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão de Usher é que a eficiência de um mercado se mede mais pelo grau de certeza que pela estabilidade relativa. Onde há certeza, os preços serão tão estáveis quanto as condições permitirem. A doutrina de que a especulação estabiliza os preços é verdadeira, mas parcial; o ganho recente na estabilidade foi insignificante, e o ganho em certeza, grande."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do artigo está na escolha da comparação. Em vez de medir a especulação contra si mesma em décadas próximas, Usher compara mercados com organizações muito diferentes e mostra que a variável que a defesa das bolsas apontava, a estabilidade das médias, quase não mudou. A mudança aparece em outra medida, a dispersão de preços num mesmo momento, que reflete informação e padronização.",
+                "O texto antecipa uma forma de avaliar mercados pelo que eles revelam, e não só pelo nível dos preços. A distinção entre um valor fixo em torno do qual o preço oscila e um valor que se desloca com as condições é também uma advertência a quem julga um mercado pela volatilidade: preço que muda pode ser preço que informa."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Quarter",
+              "medida inglesa de grãos equivalente a oito bushels."
+            ],
+            [
+              "Classificação (grading)",
+              "padronização dos grãos em tipos definidos, que permite negociar sem examinar cada lote."
+            ],
+            [
+              "Contrato futuro",
+              "compromisso padronizado de entrega de mercadoria em data futura, negociado em bolsa."
+            ],
+            [
+              "Venda a descoberto",
+              "venda de mercadoria que o vendedor ainda não possui, para entrega futura."
+            ],
+            [
+              "Baixista e altista (bear e bull)",
+              "quem aposta na queda e quem aposta na alta dos preços."
+            ],
+            [
+              "Pregão (wheat pit)",
+              "recinto da bolsa onde os lotes são leiloados em público, ao mesmo tempo."
+            ]
+          ],
+          "hoje": "A pergunta de Usher reaparece sempre que se discute o papel dos mercados futuros de commodities: estabilizam preços ou só os tornam mais informativos? Pesquisas sobre microestrutura de mercado medem a eficiência pela dispersão de preços, pelo spread e pela velocidade com que a informação se incorpora, mais que pela volatilidade. A padronização de contratos e a transparência das negociações, que ele via como as verdadeiras inovações, continuam no centro da regulação de bolsas."
+        }
+      ]
     }
   ],
   "proximas": [
