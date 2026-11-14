@@ -25090,10 +25090,1825 @@
       ],
       "jstor_edicao": "i302109",
       "colecao": "eua"
+    },
+    {
+      "slug": "1910-o-manual-da-associacao",
+      "numero": 106,
+      "titulo": "Manual de 1910: 1.360 sócios e a criação da American Economic Review",
+      "titulo_original": "Hand Book of the American Economic Association, May 1910",
+      "autores": "American Economic Association; atas e relatórios de T. N. Carver (secretário e tesoureiro), Jacob H. Hollander (Comitê de Publicações), E. W. Kemmerer (editor do Economic Bulletin) e David Kinley (comissão de publicações)",
+      "publicacao": "American Economic Association Quarterly",
+      "colecao": "eua",
+      "volume": "3ª série, vol. 11, nº 2",
+      "data": "maio de 1910",
+      "chamada": "O manual de 1910 traz um quadro de 1.360 sócios e assinantes, um caixa ainda apertado e a decisão de trocar o Quarterly e o boletim por uma revista nova: a American Economic Review.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 27 de julho de 1909, o caixa da associação estava zerado. O tesoureiro T. N. Carver tinha duas saídas: vender um dos três títulos da cidade de Nova York que formavam a reserva ou tomar um empréstimo. Escolheu o empréstimo, de US$ 500 por três meses, e o quitou com as anuidades de setembro. Os títulos chegaram intactos ao fim do ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "O episódio está no Hand Book of the American Economic Association de maio de 1910, nº 2 do vol. 11 da terceira série. A estrutura é a dos manuais anteriores: propósitos da associação, estatuto, lista de sócios e atas da vigésima segunda reunião anual, realizada em Nova York de 27 a 31 de dezembro de 1909, quando se comemorou o vigésimo quinto aniversário da fundação. A impressão passara à Princeton University Press, e o escritório do secretário-tesoureiro mudara de Princeton para Cambridge."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quantos eram os sócios?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 22 de dezembro de 1909, o quadro somava 1.205 sócios e 155 assinantes, 1.360 nomes ao todo. No manual de 1909, comentado no nº 98, eram 1.030. Entraram 424 sócios novos no ano; saíram 100 nomes, entre inadimplentes, demissões, mortes e assinaturas canceladas. O ganho líquido foi de 332."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3.660,83",
+          "texto": "Receita de anuidades em 1909, ante US$ 2.442,37 em 1908 e US$ 1.842,60 em 1907. As receitas brutas somaram US$ 5.134,11 (mais US$ 643,10); as despesas, US$ 6.554,12 (mais US$ 1.453,91). Caixa e títulos fecharam o ano em US$ 3.160,01, US$ 1.420,01 abaixo de dezembro de 1908, quase o valor das contas do ano anterior pagas em 1909 (US$ 1.418,64)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a melhora não resolvia o caixa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Carver mostrou que parte da alta era antecipação. As cobranças de setembro saíram de US$ 4 em vez de US$ 3, para cobrir dezesseis meses e alinhar todas as anuidades ao ano civil; em 1910, portanto, não haveria receita de anuidades em setembro. Os mais de cem sócios que entraram em novembro e dezembro já tinham pago 1910. Para o ano seguinte, ele estimava despesas de US$ 5.900 e receitas de US$ 4.750, e via perspectiva mais favorável só em 1911."
+        },
+        {
+          "tipo": "p",
+          "texto": "O secretário apresentou o dilema em três termos: aumentar o quadro, aumentar a anuidade ou publicar menos. Preferia o primeiro. O argumento era o volume entregue: em 1909 o Quarterly somou 965 páginas e o boletim, 438, ou 1.403 páginas pela anuidade de três dólares."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que se decidiu sobre as publicações?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão de 30 de dezembro, David Kinley apresentou o relatório da comissão criada um ano antes para estudar a unificação das publicações. A comissão recomendava ampliar o boletim e transformá-lo numa revista trimestral, semelhante à da Royal Economic Society, com resumos de artigos, notas pessoais e resenhas. O nome proposto era American Economic Review. A assembleia aprovou o relatório."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Que a revista se chame American Economic Review.”",
+          "original": "“That the journal be called the American Economic Review.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano previa um editor-gerente eleito por três anos, com salário de US$ 1.500, e seis editores associados, que absorveriam as funções do Comitê de Publicações, da equipe do boletim e do trabalho editorial da secretaria. O material monográfico continuaria, como números avulsos, artigos seriados ou suplementos. As publicações existentes seguiriam até a nova estar pronta, mas não depois de 31 de dezembro de 1910."
+        },
+        {
+          "tipo": "p",
+          "texto": "As outras decisões foram de rotina. Edmund J. James, presidente da University of Illinois, foi eleito presidente para 1910; Carver continuou como secretário e tesoureiro, e Kemmerer, como editor do boletim. O local da reunião de 1910 ficou com o Comitê Executivo, e a página de apresentação do manual já anuncia St. Louis. Por proposta de Victor Rosewater, a lista de sócios passaria a indicar o ano de entrada de cada um, e esta já traz a informação. Os trabalhos apresentados em Nova York estão comentados no nº 104."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o relatório de Carver é uma aula de leitura de fluxo de caixa. Uma receita recorde de anuidades podia parecer solução, mas ele separa o que é crescimento do quadro do que é antecipação: a cobrança de dezesseis meses e os sócios de fim de ano inscritos para 1910 inflaram 1909 à custa do ano seguinte. A decisão de criar a Review, com editor remunerado, reorganiza o produto em vez de cortá-lo, e aposta que um periódico único e mais útil sustentaria o quadro maior de que a associação precisava para fechar as contas."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "American Economic Association",
+          "autores": "texto institucional",
+          "paginas": "pp. 1–2",
+          "resumo": "Apresenta a associação como reunião de professores de economia de todas as universidades e das principais faculdades, ao lado de homens de negócios, jornalistas, advogados e políticos, com quase duzentos assinantes, entre eles as principais bibliotecas do país. Lembra as reuniões conjuntas com a American Historical Association e outras sociedades e anuncia St. Louis, no Missouri, como sede de 1910. Resume o histórico das publicações desde março de 1886, incluindo o Economic Bulletin, e reafirma que a associação não é órgão de partido, seita ou instituição e que dirigentes e colaboradores não são remunerados.",
+          "jstor": "2999979"
+        },
+        {
+          "titulo": "Constitution of the American Economic Association",
+          "autores": "texto revisto na reunião anual de dezembro de 1905",
+          "paginas": "pp. 3–5",
+          "resumo": "Mesmo texto dos manuais anteriores. Os objetivos são o incentivo à pesquisa econômica, em especial ao estudo histórico e estatístico das condições reais da vida industrial, as publicações e a plena liberdade de discussão, sem posição partidária. A anuidade é de três dólares, a contribuição vitalícia de cinquenta, e são admitidos até 25 sócios honorários estrangeiros. O estatuto define os cargos, o Comitê Executivo, com quórum de cinco membros, e o Comitê de Publicações, encarregado das publicações.",
+          "jstor": "2999980"
+        },
+        {
+          "titulo": "List of Members",
+          "autores": "",
+          "paginas": "pp. 6–48",
+          "resumo": "Relação alfabética de sócios e assinantes, com endereços e sinais para sócios vitalícios, assinantes e honorários. Uma nota explica que o número entre parênteses depois de cada nome indica o ano desde o qual a filiação é contínua, como a assembleia de dezembro havia pedido. Com o quadro maior, a lista ocupa 43 páginas, ante 28 no manual anterior.",
+          "jstor": "2999981"
+        },
+        {
+          "titulo": "The Twenty-Second Annual Meeting",
+          "autores": "atas; relatórios de T. N. Carver, J. H. Hollander, E. W. Kemmerer e D. Kinley",
+          "paginas": "pp. 49–79",
+          "resumo": "Atas da reunião de Nova York, de 27 a 31 de dezembro de 1909, celebrada como vigésimo quinto aniversário da associação, com sessões conjuntas com a American Historical Association e a American Political Science Association. Trazem a lista de presença, o programa, os relatórios do secretário, do tesoureiro, do Comitê de Publicações e do editor do boletim, que contou mais de 3.400 itens no volume de 1909 e 130 livros resenhados. Registram ainda o parecer da auditoria, a eleição de Edmund J. James e a aprovação do relatório Kinley, que cria a American Economic Review. Os trabalhos apresentados estão comentados no nº 104.",
+          "jstor": "2999982"
+        }
+      ],
+      "glossario": [
+        [
+          "Assinante (subscriber)",
+          "instituição ou pessoa que recebe as publicações sem ser sócia, como as bibliotecas."
+        ],
+        [
+          "Ano civil",
+          "período de janeiro a dezembro; as anuidades, antes contadas a partir de setembro, passaram a seguir esse calendário."
+        ],
+        [
+          "Editor-gerente (managing editor)",
+          "responsável pela condução cotidiana da revista, com apoio de um conselho de editores associados."
+        ],
+        [
+          "Comitê Executivo",
+          "órgão que cuida dos interesses da associação entre as reuniões anuais."
+        ]
+      ],
+      "hoje": "A troca de duas séries por uma revista única é um problema que associações científicas ainda enfrentam: quantos produtos editoriais um quadro de sócios consegue financiar, e qual deles atrai novos membros. Em 1909, a resposta veio de uma conta de caixa. O tesoureiro mostrou que o crescimento era real, mas que parte da receita fora antecipada, e a assembleia escolheu concentrar recursos num periódico com editor pago. A decisão mostra a mesma preocupação de sempre: o que se publica depende de quem paga a anuidade.",
+      "itens": [
+        [
+          "American Economic Association",
+          "pp. 1–2",
+          "2999979"
+        ],
+        [
+          "Constitution of the American Economic Association",
+          "pp. 3–5",
+          "2999980"
+        ],
+        [
+          "List of Members",
+          "pp. 6–48",
+          "2999981"
+        ],
+        [
+          "The Twenty-Second Annual Meeting",
+          "pp. 49–79",
+          "2999982"
+        ]
+      ],
+      "jstor_edicao": "i350435"
+    },
+    {
+      "slug": "1910-o-boletim-economico-junho",
+      "numero": 107,
+      "titulo": "O Bulletin de junho de 1910: Walras, Giffen e Sumner",
+      "titulo_original": "The Economic Bulletin, vol. 3, no. 2 (June 1910)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento; John Bauer (Cornell University), assistente do editor-gerente",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 3, nº 2",
+      "data": "junho de 1910",
+      "chamada": "Os obituários de Léon Walras, Robert Giffen, William Graham Sumner e George M. Fisk, e 22 resenhas, de Adam Smith e o império ao socialismo britânico.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O número de junho de 1910 traz quatro obituários de economistas. Um deles, assinado por Henry Higgs, é o de Sir Robert Giffen, morto em 12 de abril aos 73 anos: chefe do departamento de estatística do Board of Trade e, antes, editor-assistente do Economist de Walter Bagehot."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Giffen gostava de repetir: “Nenhum de nós é mais sábio que Adam Smith”.",
+          "original": "We are none of us wiser than Adam Smith"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem a profissão perdia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Léon Walras, nascido em 1834, morreu em 4 de janeiro de 1910. Ensinara economia política em Lausanne desde 1870. A nota, assinada I. F., o coloca ao lado de Jevons na fundação da economia matemática moderna e lembra a descoberta independente e quase simultânea da utilidade marginal por Walras, Jevons e Menger."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Segundo a nota, Walras mostrou que havia, em cada caso, “tantas equações independentes quanto incógnitas”.",
+          "original": "just as many independent equations as unknown quantities"
+        },
+        {
+          "tipo": "p",
+          "texto": "William Graham Sumner, de Yale, é lembrado em nota assinada A. T. H. A trajetória vai da defesa do padrão-ouro e do livre-comércio à história, com as vidas de Andrew Jackson, Alexander Hamilton e Robert Morris, e depois à sociologia, que ele preferia chamar de ciência da sociedade; Folkways saiu em 1907."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "37 anos",
+          "texto": "Tempo de Sumner como professor de ciência política e social em Yale, segundo a nota. Formado em Yale em 1863, estudou teologia e filosofia em Göttingen e Oxford. Entre suas obras, History of American Currency e Protectionism."
+        },
+        {
+          "tipo": "p",
+          "texto": "George Mygatt Fisk, ex-professor de comércio na Universidade de Illinois e estudioso das relações comerciais entre as grandes potências, morreu afogado em Madison, em 29 de abril; a nota é assinada M. H. R. Registram-se também as mortes de Émile Cheysson, de Karl Lueger, prefeito de Viena, e de Charles Sprague Smith, fundador do People's Institute de Nova York."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frederick Jackson Turner trocava Wisconsin por Harvard. Paul S. Reinsch foi nomeado professor de intercâmbio Roosevelt na Universidade de Berlim para 1911–1912. Wesley C. Mitchell obteve licença para estudar a relação entre ciclos de negócios e flutuações de preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Illinois, o governador Deneen criou uma comissão tributária especial, com David Kinley e Charles E. Merriam entre os membros. Indianápolis e as universidades de Illinois e do Kansas abriram escritórios de referência municipal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 22 resenhas. F. W. Taussig abre a seção com A Project of Empire, de Nicholson, sobre as ideias de Adam Smith acerca das relações entre a Grã-Bretanha e suas colônias."
+        },
+        {
+          "tipo": "p",
+          "texto": "A história econômica americana tem peso. Katherine Coman resenha as Selections de G. S. Callender. Ernest L. Bogart resenha os volumes III e IV da Documentary History of American Industrial Society, sobre os processos por conspiração trabalhista de 1806 a 1842, e o livro de Emerson David Fite sobre o Norte durante a Guerra Civil."
+        },
+        {
+          "tipo": "p",
+          "texto": "Administração de empresas forma outro bloco: Harrington Emerson sobre eficiência, Carl C. Parsons, Galloway, Hotchkiss e Mavor e um manual de contabilidade. Em transportes, John Bauer resenha a história tarifária do sistema do Mississippi escrita por Frank Haigh Dixon, que resenha os volumes da Buffalo Historical Society sobre os canais de Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "Frank A. Fetter resenha cinco obras britânicas contra o socialismo, e Walter E. Lagerquist, a tradução inglesa de Evolutionary Socialism, de Edward Bernstein. Fecham a seção imigração chinesa, mulheres na indústria, sistema penitenciário, origens sociais, eugenia e ética social."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications reúne obras publicadas principalmente desde 1º de fevereiro de 1910, precedida da lista de periódicos indexados."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a nota sobre Walras é a peça de método do número. O critério que ela destaca, contar equações e incógnitas para saber se um sistema está determinado, é o ponto de partida do equilíbrio geral, embora a contagem, sozinha, não garanta que a solução exista nem que seja única.",
+            "O obituário de Giffen mostra o outro polo. Segundo Higgs, faltava a Giffen o instrumental matemático moderno, e sua força estava no juízo sobre os números e no faro para as armadilhas das séries. O sistema fechado e a medição cuidadosa seguiriam convivendo na disciplina."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 131–144",
+          "resumo": "Nomeações, prêmios, novos periódicos e escritórios de referência municipal, e obituários de George M. Fisk (M. H. R.), Robert Giffen (Henry Higgs), William Graham Sumner (A. T. H.) e Léon Walras (I. F.), este com lista das principais obras.",
+          "jstor": "222283"
+        },
+        {
+          "titulo": "Nicholson, A Project of Empire: A Critical Study of the Economics of Empire, with Special Reference to the Ideas of Adam Smith",
+          "autores": "F. W. Taussig",
+          "paginas": "pp. 145–147",
+          "resumo": "Estudo das ideias de Adam Smith sobre as relações entre a Grã-Bretanha e suas colônias, incluindo seu plano de federação imperial.",
+          "jstor": "222284"
+        },
+        {
+          "titulo": "G. S. Callender, Selections from the Economic History of the United States, 1765–1860",
+          "autores": "Katherine Coman",
+          "paginas": "pp. 147–148",
+          "resumo": "Coletânea de textos de história econômica americana destinada a cursos universitários.",
+          "jstor": "222285"
+        },
+        {
+          "titulo": "John R. Commons e Eugene A. Gilmore (orgs.), A Documentary History of American Industrial Society, vols. III e IV: Labor Conspiracy Cases, 1806–1842",
+          "autores": "Ernest L. Bogart",
+          "paginas": "pp. 149–151",
+          "resumo": "Primeiros volumes da parte da coleção dedicada ao trabalho, com os documentos dos processos por conspiração contra trabalhadores organizados.",
+          "jstor": "222286"
+        },
+        {
+          "titulo": "Emerson David Fite, Social and Industrial Conditions in the North during the Civil War",
+          "autores": "Ernest L. Bogart",
+          "paginas": "pp. 151–152",
+          "resumo": "Estudo das condições econômicas e sociais do Norte dos Estados Unidos durante a Guerra Civil.",
+          "jstor": "222287"
+        },
+        {
+          "titulo": "Office de Renseignements Agricoles, La Petite Propriété Rurale en France: Enquêtes Monographiques",
+          "autores": "James B. Morman",
+          "paginas": "pp. 153–154",
+          "resumo": "Inquérito iniciado em 1908 pelo ministério da agricultura francês sobre a situação dos pequenos proprietários rurais.",
+          "jstor": "222288"
+        },
+        {
+          "titulo": "J. Frost, Agrarverfassung und Landwirtschaft in Belgien",
+          "autores": "James B. Morman",
+          "paginas": "pp. 154–155",
+          "resumo": "Descrição da agricultura belga publicada pela Sociedade Alemã de Agricultura.",
+          "jstor": "222289"
+        },
+        {
+          "titulo": "Harrington Emerson, Efficiency as a Basis for Operation and Wages",
+          "autores": "Dexter S. Kimball",
+          "paginas": "pp. 156–158",
+          "resumo": "Reunião de ensaios publicados na Engineering Magazine sobre eficiência na gestão industrial e sua relação com os salários.",
+          "jstor": "222290"
+        },
+        {
+          "titulo": "Frank Haigh Dixon, A Tariff History of the Mississippi River System",
+          "autores": "John Bauer",
+          "paginas": "pp. 158–160",
+          "resumo": "Relato das mudanças no transporte pelo Mississippi e seus afluentes, baseado sobretudo em dados de entidades comerciais das cidades ribeirinhas.",
+          "jstor": "222291"
+        },
+        {
+          "titulo": "Henry Wayland Hill, An Historical Review of Waterways and Canal Construction in New York State; Canal Enlargement in New York State",
+          "autores": "Frank Haigh Dixon",
+          "paginas": "pp. 160–162",
+          "resumo": "Dois volumes da Buffalo Historical Society voltados à defesa da melhoria das hidrovias do estado de Nova York.",
+          "jstor": "222292"
+        },
+        {
+          "titulo": "Lee Galloway, George Burton Hotchkiss e James Mavor, Organization, Correspondence, Transportation (Modern Business II)",
+          "autores": "Don C. Barrett",
+          "paginas": "pp. 162–164",
+          "resumo": "Segundo volume da série Modern Business, com partes sobre organização, correspondência comercial e transportes.",
+          "jstor": "222293"
+        },
+        {
+          "titulo": "Carl C. Parsons, Business Administration",
+          "autores": "J. W. Jenks",
+          "paginas": "pp. 164–165",
+          "resumo": "Livro baseado em conferências do autor sobre os princípios de organização e os métodos de gestão de empresas.",
+          "jstor": "222294"
+        },
+        {
+          "titulo": "Elisha Ely Garrison, Accounting Every Business Man Should Know",
+          "autores": "C. A. Mackenzie",
+          "paginas": "pp. 165–166",
+          "resumo": "Exposição dos princípios fundamentais e avançados da contabilidade para homens de negócios.",
+          "jstor": "222295"
+        },
+        {
+          "titulo": "Erwin Steinitzer, Ökonomische Theorie der Aktiengesellschaft",
+          "autores": "M. B. Hammond",
+          "paginas": "pp. 167–169",
+          "resumo": "Monografia sobre a economia das sociedades anônimas, da origem da forma corporativa ao controle da administração pelos acionistas.",
+          "jstor": "222296"
+        },
+        {
+          "titulo": "Boldt, Die Wertzuwachssteuer, ihre bisherige Gestaltung in der Praxis und ihre Bedeutung für die Steuerpolitik der Gemeinden",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 169–171",
+          "resumo": "Estudo, por um comissário fiscal de Dortmund, do imposto sobre a valorização imobiliária adotado pelas cidades alemãs.",
+          "jstor": "222297"
+        },
+        {
+          "titulo": "Mary Roberts Coolidge, Chinese Immigration",
+          "autores": "Ira B. Cross",
+          "paginas": "pp. 172–174",
+          "resumo": "História da imigração chinesa nos Estados Unidos, das campanhas contra ela e das leis de exclusão.",
+          "jstor": "222298"
+        },
+        {
+          "titulo": "Edith Abbott, Women in Industry",
+          "autores": "John K. Towles",
+          "paginas": "pp. 174–176",
+          "resumo": "Estudo da história e das estatísticas do emprego feminino nos Estados Unidos, com nota introdutória de Sophonisba P. Breckinridge.",
+          "jstor": "222299"
+        },
+        {
+          "titulo": "Frederick Howard Wines, Punishment and Reformation: A Study of the Penitentiary System",
+          "autores": "Willard C. Fisher",
+          "paginas": "pp. 176–177",
+          "resumo": "Nova edição de um estudo sobre o sistema penitenciário, acrescida de plantas antigas de prisões e de dois ensaios do autor.",
+          "jstor": "222300"
+        },
+        {
+          "titulo": "G. E. Raines, The Case against Socialism e Present-Day Socialism and the Problem of the Unemployed; Towler, Socialism in Local Government; J. St. Loe Strachey, Problems and Perils of Socialism; John D. Mayne, The Triumph of Socialism and How It Succeeded",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 177–180",
+          "resumo": "Cinco obras britânicas contra o socialismo, entre elas um manual para oradores e candidatos.",
+          "jstor": "222301"
+        },
+        {
+          "titulo": "Edward Bernstein, Evolutionary Socialism: A Criticism and Affirmation",
+          "autores": "Walter E. Lagerquist",
+          "paginas": "pp. 180–182",
+          "resumo": "Tradução inglesa da obra do líder dos revisionistas alemães, na coleção Socialist Library.",
+          "jstor": "222302"
+        },
+        {
+          "titulo": "William I. Thomas, Source Book for Social Origins",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 182–184",
+          "resumo": "Coletânea de materiais etnológicos, com bibliografias classificadas e anotadas, para a interpretação das sociedades primitivas.",
+          "jstor": "222303"
+        },
+        {
+          "titulo": "Saleeby, Parenthood and Race Culture: An Outline of Eugenics",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 184–186",
+          "resumo": "Exposição popular dos princípios da eugenia, com apêndice bibliográfico.",
+          "jstor": "222304"
+        },
+        {
+          "titulo": "Francis Greenwood Peabody, The Approach to the Social Question: An Introduction to Social Ethics",
+          "autores": "Isaac A. Loos",
+          "paginas": "pp. 186–188",
+          "resumo": "Introdução à ética social que discute os caminhos de aproximação à questão social.",
+          "jstor": "222305"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 189–252",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de fevereiro de 1910, precedida da lista de periódicos indexados, com livros e artigos por seção temática.",
+          "jstor": "222306"
+        }
+      ],
+      "glossario": [
+        [
+          "Utilidade marginal",
+          "utilidade do último incremento consumido de um bem; base da teoria do valor dos marginalistas."
+        ],
+        [
+          "Determinação de um sistema",
+          "condição em que o número de equações independentes é igual ao de incógnitas."
+        ],
+        [
+          "Bimetalismo",
+          "regime monetário com ouro e prata como padrão, a uma razão legal fixa."
+        ]
+      ],
+      "hoje": "A contagem de equações e incógnitas de Walras evoluiu para as provas formais de existência do equilíbrio geral, que exigiram matemática bem mais pesada. A tradição de Giffen sobrevive nos institutos de estatística: conhecer as armadilhas das séries e informar a política econômica sem depender de um modelo fechado. E a pergunta que Mitchell levava para Berkeley, a relação entre ciclos de negócios e preços, continua no centro da macroeconomia.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 131–144",
+          "222283"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 145-147",
+          "pp. 145–147",
+          "222284"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 147-148",
+          "pp. 147–148",
+          "222285"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 149-151",
+          "pp. 149–151",
+          "222286"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 151-152",
+          "pp. 151–152",
+          "222287"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 153-154",
+          "pp. 153–154",
+          "222288"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 154-155",
+          "pp. 154–155",
+          "222289"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 156-158",
+          "pp. 156–158",
+          "222290"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 158-160",
+          "pp. 158–160",
+          "222291"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 160-162",
+          "pp. 160–162",
+          "222292"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 162-164",
+          "pp. 162–164",
+          "222293"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 164-165",
+          "pp. 164–165",
+          "222294"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 165-166",
+          "pp. 165–166",
+          "222295"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 167-169",
+          "pp. 167–169",
+          "222296"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 169-171",
+          "pp. 169–171",
+          "222297"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 172-174",
+          "pp. 172–174",
+          "222298"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 174-176",
+          "pp. 174–176",
+          "222299"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 176-177",
+          "pp. 176–177",
+          "222300"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 177-180",
+          "pp. 177–180",
+          "222301"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 180-182",
+          "pp. 180–182",
+          "222302"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 182-184",
+          "pp. 182–184",
+          "222303"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 184-186",
+          "pp. 184–186",
+          "222304"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-06-01), pages 186-188",
+          "pp. 186–188",
+          "222305"
+        ],
+        [
+          "Recent Publications",
+          "pp. 189–252",
+          "222306"
+        ]
+      ],
+      "jstor_edicao": "i302110",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1910-a-politica-de-trabalho-infantil-de-nova-jersey",
+      "numero": 108,
+      "titulo": "Field, 1910: sessenta anos de leis contra o trabalho infantil em Nova Jersey",
+      "titulo_original": "The Child Labor Policy of New Jersey",
+      "autores": "Arthur Sargent Field, Ph.D.",
+      "publicacao": "American Economic Association Quarterly",
+      "colecao": "eua",
+      "volume": "3ª série, vol. 11, nº 3",
+      "data": "1910",
+      "chamada": "Em 1910, Arthur Sargent Field reconstituiu a política de Nova Jersey para o trabalho infantil, da lei de 1851 à de 1904: idade mínima, jornada, provas de idade, inspeção e o peso da opinião pública.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1884, o primeiro inspetor de fábricas de Nova Jersey fez um levantamento cuidadoso das crianças empregadas. Concluiu que, em média, elas tinham começado a trabalhar aos nove anos. Em regra, iam à escola até os seis ou sete anos e eram tiradas dela dois anos depois. A lei em vigor, de 1851, proibia o trabalho de menores de dez anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "The Child Labor Policy of New Jersey, de Arthur Sargent Field, ocupa o nº 3 do vol. 11 da terceira série do American Economic Association Quarterly, datado de outubro de 1910. O trabalho de campo foi feito no verão e no outono de 1908, e o texto, escrito no inverno seguinte, com orientação de Henry W. Farnam e Clive Day, de Yale, e apoio financeiro da Carnegie Institution of Washington. O prefácio é assinado em Hanover, New Hampshire, em julho de 1910. Field avisa que não quer um compêndio cronológico de leis, mas a história da formação de uma política: a percepção do problema, a agitação, a resistência dos interesses e a lenta adesão do público."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que dizia a primeira lei?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira declaração do estado veio em 1851, depois de três anos de petições e de uma campanha eleitoral disputada em torno de reformas. O governador George F. Fort pediu, na mensagem inaugural, proteção para as crianças das fábricas:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os pequenos trabalhadores das fábricas também devem ser protegidos de exigências excessivas”",
+          "original": "“Infant laborers in factories should also be protected from such excessive exactions”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei proibiu admitir menores de dez anos em qualquer fábrica e limitou a jornada dos menores de 21 anos a dez horas por dia e sessenta por semana. A multa era de US$ 50 por infração, cobrada em ação civil em nome do supervisor dos pobres. Para Field, a idade era baixa demais para alterar a prática, não havia meio de comprovar a idade e ninguém estava encarregado de processar os infratores. Ainda assim, a lei comprometeu o estado, pela primeira vez, com o controle do emprego infantil, e foi a única até 1883."
+        },
+        {
+          "tipo": "p",
+          "texto": "A escola obrigatória chegou em 1874, três anos depois de as escolas públicas se tornarem gratuitas em todo o estado: crianças de oito a treze anos deveriam frequentar ao menos doze semanas por ano, seis delas seguidas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10.002",
+          "texto": "Crianças contadas pelo Bureau of Statistics of Labor and Industry em 734 estabelecimentos em 1880, 17,3% dos empregados. O censo de manufaturas do mesmo ano registrou 12.152 menores de dezesseis anos, 9,6% do total. Field atribui a diferença a que o bureau pesquisou sobretudo as fábricas maiores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a lei de 1883 falhou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A agitação recomeçou no fim dos anos 1870, liderada por trabalhadores que se organizavam e pelo novo Bureau of Statistics, criado em 1878. Projetos de 1880, 1881 e 1882 morreram na Câmara ou no Senado. Em 1883 passou uma lei aplicada a minas e manufaturas, com idade mínima de doze anos para meninos e catorze para meninas e doze semanas de escola para os que tivessem até quinze. Criou também um inspetor, nomeado pelo governador com aprovação do Senado, com salário de US$ 1.200."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma cláusula anulava o resto. O certificado de idade feito pelo próprio menor e pelos pais no momento da contratação valia como prova conclusiva em qualquer processo. Contra pais dispostos a mentir e patrões dispostos a aceitar, a idade mínima deixava de ser exigível."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "7.128",
+          "texto": "Estabelecimentos manufatureiros de Nova Jersey no censo de 1880, com 126.038 empregados, dos quais 12.152 menores de dezesseis anos. A lei de 1883 deu um único inspetor para fiscalizá-los. Em 1908, o número de auxiliares autorizados chegou a treze."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1892 veio uma lei mais ambiciosa: dez horas por dia, 55 por semana e nenhum trabalho noturno para menores de dezoito anos e mulheres. Passou sem voto contrário nas duas casas, mas enfraquecida: excluiu a indústria de conservas e a de vidro, retirou a exigência de visitas trimestrais e trocou o dever do inspetor de processar os infratores por uma simples faculdade. Contestada nos tribunais, ficou nos livros e desacreditada. Na segunda metade do período, segundo Field, a inspeção foi entregue a nomeações políticas, e é duvidoso que houvesse restrição digna do nome."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou depois de 1900?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O tema ganhou novos defensores: a Consumers' League de Nova Jersey, fundada em 1901, clubes femininos, entidades de caridade e os jornais. Field registra a morte, em junho de 1901, de um menino de nove anos que dormiu num trilho depois de trabalhar dia e noite numa fábrica de vidro; o júri do legista censurou a empresa. Em 1902 os inspetores foram obrigados a dedicar tempo integral ao cargo, e uma lei de 1903 elevou a idade mínima dos meninos para catorze anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O governador Murphy pôs seu secretário particular, John L. Swayze, à frente do departamento de inspeção. Um investigador independente, trabalhando incógnito, confirmou casos de crianças abaixo da idade, e Swayze concluiu que eram várias centenas. Ele preparou um projeto novo, ouviu fabricantes, sindicalistas e entidades filantrópicas e pediu aos defensores da reforma que chegassem a um acordo antes de ir ao Legislativo. Dali nasceu a Children's Protective Alliance."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "18 a 0",
+          "texto": "Placar do Senado ao aprovar o projeto de Swayze, em 22 de março de 1904; na Câmara foram 55 a 0, em dois dias. A lei de 24 de março de 1904 proibiu o emprego de menores de catorze anos em manufaturas, com multa de US$ 50 para patrão ou pai, e limitou os menores de dezesseis a dez horas por dia e 55 por semana."
+        },
+        {
+          "tipo": "p",
+          "texto": "A peça central era a prova de idade. A criança precisava de declaração juramentada dos pais acompanhada de certidão de nascimento ou, na falta dela, de certidão de batismo. O patrão mantinha um registro dos menores de dezesseis anos e enviava cópias dos papéis ao departamento em Trenton. Em caso de dúvida, os pais tinham cinco dias para provar a idade; o ônus deixava de ser do Estado. Swayze disse a Field que esse dispositivo era o mais valioso da lei."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A lei pegou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Segundo Field, a observância depois de 1904 foi muito superior à de qualquer período anterior. As fábricas de vidro passaram a ter dificuldade para encontrar meninos com mais de catorze anos, e cresceu a procura por certidões de nascimento. A resistência que restou vinha sobretudo de pequenos patrões e de capatazes pressionados por custos. A proibição do trabalho noturno, retirada do projeto de 1904 por pressão da indústria do vidro, só passou em 1910: proibido para menores de quinze anos e, a partir de 1º de julho de 1911, para menores de dezesseis."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto mais contestado pelos fabricantes era a semana de 55 horas. Na Pensilvânia, o estado concorrente mais próximo, a semana permitida para crianças era de sessenta horas, diferença que Field calcula em um mês de trabalho por ano. Em 1908, a junta comercial de Camden enviou circular às demais propondo uma campanha contra a lei; até outubro, recebera uma única resposta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que balanço Field faz?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Field, a política entre 1883 e 1904 avançou sobretudo pela pressão das organizações operárias, enquanto o público em geral apoiava sem acompanhar a execução:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sua determinação era forte quando o princípio estava em jogo”",
+          "original": "“Its resolution was strong when the principle was at issue”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1904 deixou lacunas, algumas por receio de inconstitucionalidade: não exigia escolaridade mínima, não alcançava o comércio e não previa amparo às famílias pobres que dependiam do salário dos filhos. Comparada a Massachusetts, conclui Field, Nova Jersey ainda era menos sensível ao problema, mas tomara consciência dele havia só meia dúzia de anos."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o estudo mostra que uma regra só vale o que vale a sua prova. Entre 1883 e 1904, Nova Jersey teve idade mínima no papel, mas aceitava como conclusiva a palavra de quem tinha interesse em mentir. A lei de 1904 mudou o desenho dos incentivos: documento de terceiro, registro no próprio estabelecimento, cópia enviada ao fiscal e ônus da prova sobre os pais. O patrão que cumpria o rito ficava protegido; o que o ignorava assumia o risco. A fiscalização deixou de depender só de flagrantes.",
+            "O outro dilema é de custo distribuído. A semana de 55 horas impunha às fábricas locais uma desvantagem frente à Pensilvânia, e a falta de amparo às famílias pobres transferia a elas o custo da proibição. Field registra as duas objeções sem descartá-las: a proteção da criança tem preço, e a política precisa dizer quem o paga."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Supervisor dos pobres (overseer of the poor)",
+          "funcionário municipal encarregado da assistência aos pobres; na lei de 1851, a multa era cobrada em seu nome."
+        ],
+        [
+          "Frequência escolar obrigatória",
+          "exigência legal de que crianças de certa idade frequentem a escola por um número mínimo de semanas ou dias."
+        ],
+        [
+          "Inspetor de fábricas",
+          "agente do Estado encarregado de visitar estabelecimentos e processar violações das leis do trabalho."
+        ],
+        [
+          "Declaração juramentada (affidavit)",
+          "declaração escrita feita sob juramento perante autoridade, com valor de prova."
+        ],
+        [
+          "Ônus da prova",
+          "obrigação de demonstrar um fato; na lei de 1904, cabia aos pais provar a idade da criança."
+        ]
+      ],
+      "hoje": "O desenho de Swayze reaparece em toda regulação que depende de um fato difícil de verificar. Documentos emitidos por terceiros, registros mantidos pelo próprio regulado, envio imediato ao fiscal e inversão do ônus da prova são ferramentas usuais de controle trabalhista e tributário. A objeção dos fabricantes de Nova Jersey também continua viva: regras mais exigentes que as de um vizinho afetam a competitividade local, e o debate sobre padrões trabalhistas no comércio internacional retoma a pergunta de 1904 sobre quem arca com o custo da proteção.",
+      "itens": [
+        [
+          "[The Child Labor Policy of New Jersey]: Preface",
+          "pp. iii–iv",
+          "3000005"
+        ],
+        [
+          "[The Child Labor Policy of New Jersey]: Contents",
+          "pp. v–vi",
+          "3000006"
+        ],
+        [
+          "The Child Labor Policy of New Jersey",
+          "pp. 1–229",
+          "3000007"
+        ]
+      ],
+      "jstor_edicao": "i350436"
+    },
+    {
+      "slug": "1910-o-boletim-economico-setembro",
+      "numero": 109,
+      "titulo": "O Bulletin de setembro de 1910: St. Louis, Schmoller e o câmbio",
+      "titulo_original": "The Economic Bulletin, vol. 3, no. 3 (September 1910)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento; John Bauer (Cornell University), assistente do editor-gerente",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 3, nº 3",
+      "data": "setembro de 1910",
+      "chamada": "O programa da reunião de St. Louis, com Ricardo e a tributação da renda em pauta, e 24 resenhas, do Festschrift de Schmoller ao câmbio, aos bancos e às cidades.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O número de setembro de 1910 abre com a convocação da 22ª reunião anual da American Economic Association, em St. Louis, de 27 a 30 de dezembro, com sede no Planters' Hotel."
+        },
+        {
+          "tipo": "p",
+          "texto": "Cada tema teria uma sessão inteira: aspectos econômicos da imigração, moeda e preços, o problema da pobreza, um século de Ricardo e do ricardianismo, canais e ferrovias, e tributação, sobretudo da renda e do incremento não ganho da terra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "E. Piatt Andrew passou de diretor da Casa da Moeda a secretário-assistente do Tesouro. Thomas Sewall Adams deixou Wisconsin para chefiar o departamento de economia da Washington University, em St. Louis. Carroll W. Doten tornou-se investigador-chefe da comissão de Massachusetts sobre indenização por acidentes de trabalho."
+        },
+        {
+          "tipo": "p",
+          "texto": "A International Tax Association reuniu-se em Milwaukee. No programa, o imposto sobre a propriedade na Suíça, por Charles J. Bullock, e o imposto de renda como substituto do imposto sobre bens pessoais, por T. S. Adams. Em Paris, uma conferência internacional sobre desemprego tratava de bolsas de trabalho, estatísticas e seguro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Chicago ganharia um Bureau of Public Efficiency, por iniciativa do City Club, para acompanhar a administração municipal. A Library of Congress passou a publicar uma lista mensal das publicações dos estados. A D. Appleton & Co. anunciou para 1911 o primeiro American Year Book."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "29",
+          "texto": "Sociedades científicas com representantes no conselho do American Year Book, presidido por Albert Bushnell Hart. S. N. D. North, ex-diretor do Censo, seria o editor-gerente."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 24 resenhas. Jacob H. Hollander abre a seção com o Festschrift pelos 70 anos de Gustav Schmoller, escrito por cerca de quarenta amigos e ex-alunos como uma história da economia alemã no século XIX."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Hollander lembra que 1910 era “o ano do centenário da publicação do primeiro livro de Ricardo”.",
+          "original": "the centennial year of the publication of Ricardo's first book"
+        },
+        {
+          "tipo": "p",
+          "texto": "Moeda e bancos têm peso. E. W. Kemmerer resenha Elements of Foreign Exchange, de Franklin Escher, e Gold Production and Future Prices, de Harrison H. Brace. H. Parker Willis resenha A Central Bank, de Robert Emmett Ireton, e a nova edição de People's Banks, de Henry W. Wolff, sobre o crédito cooperativo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Para Kemmerer, o livro de Escher era, em julho de 1910, “o melhor tratamento geral do assunto” publicado no país.",
+          "original": "the best general treatment of the subject"
+        },
+        {
+          "tipo": "p",
+          "texto": "Kemmerer corrige uma afirmação de Escher com dados oficiais de comércio: nos 43 anos de 1867 a 1909, o mês de maior exportação de mercadorias caiu em setembro, outubro ou novembro apenas dez vezes. Dezembro liderou em 23 desses anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Corporações e trabalho formam outro bloco. M. B. Hammond resenha os livros de William H. Lough Jr. e Thomas Conyngton sobre finanças e organização de corporações; Roswell C. McCrea, Work-Accidents and the Law, de Crystal Eastman; Charles A. Ellwood, Wage-Earning Women, de Annie Marion MacLean."
+        },
+        {
+          "tipo": "p",
+          "texto": "Clinton Rogers Woodruff resenha Municipal Government, de Frank J. Goodnow, e A Modern City, organizado por William Kirk. Fecham a seção probabilidade e estatística, com Émile Borel e Camille Jacquart, saúde urbana, habitação, imigração e o voto feminino no Colorado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications reúne obras publicadas principalmente desde 1º de maio de 1910, precedida da lista de periódicos indexados."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a correção de Kemmerer a Escher é a melhor lição de método do número. Uma regra de mercado repetida como certeza, a de que as exportações sempre atingem o pico no outono, não resiste a uma série mensal de 43 anos. É o hábito de testar o lugar-comum contra a estatística oficial antes de explicá-lo.",
+            "Kemmerer também aponta como falácia tratar os fretes pagos a estrangeiros como uma drenagem econômica direta. A objeção continua válida: pagar por um serviço recebido é troca, não perda, e o balanço de pagamentos registra os dois lados da operação."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 253–260",
+          "resumo": "Convocação da reunião anual de St. Louis, nomeações, a reunião da International Tax Association em Milwaukee, a conferência sobre desemprego em Paris, novos periódicos e iniciativas de eficiência municipal.",
+          "jstor": "222309"
+        },
+        {
+          "titulo": "Die Entwicklung der deutschen Volkswirtschaftslehre im neunzehnten Jahrhundert: Gustav Schmoller zur siebenzigsten Wiederkehr seines Geburtstages",
+          "autores": "Jacob H. Hollander",
+          "paginas": "pp. 261–263",
+          "resumo": "Festschrift em dois volumes que conta o desenvolvimento do pensamento econômico alemão no século XIX seguindo o plano de um tratado sistemático.",
+          "jstor": "222310"
+        },
+        {
+          "titulo": "Maxime Kovalewsky, La France économique et sociale à la veille de la Révolution: Les Campagnes",
+          "autores": "John H. Gray",
+          "paginas": "pp. 263–264",
+          "resumo": "Estudo das condições do campo francês às vésperas da Revolução.",
+          "jstor": "222311"
+        },
+        {
+          "titulo": "Alexander Wachs, Die volkswirtschaftliche Bedeutung der technischen Entwickelung der deutschen Wollindustrie",
+          "autores": "Chester W. Wright",
+          "paginas": "pp. 264–266",
+          "resumo": "Monografia da série Technisch-volkswirtschaftliche Monographien sobre o significado econômico do progresso técnico na indústria alemã de lã.",
+          "jstor": "222312"
+        },
+        {
+          "titulo": "Lewis Henry Haney, A Congressional History of Railways in the United States, 1850–1887",
+          "autores": "Avard L. Bishop",
+          "paginas": "pp. 266–267",
+          "resumo": "Continuação do estudo do autor sobre as relações entre o Congresso e as ferrovias, entre auxílio e regulação, até a Interstate Commerce Act de 1887.",
+          "jstor": "222313"
+        },
+        {
+          "titulo": "Grabower, Die finanzielle Entwicklung der Aktiengesellschaften der deutschen chemischen Industrie",
+          "autores": "John H. Gray",
+          "paginas": "pp. 267–268",
+          "resumo": "Tese de doutorado apresentada em Berlim sobre o financiamento das sociedades anônimas da indústria química alemã e suas relações com os bancos.",
+          "jstor": "222314"
+        },
+        {
+          "titulo": "William H. Lough Jr., Corporation Finance; Thomas Conyngton, The Modern Corporation, 4ª ed.",
+          "autores": "M. B. Hammond",
+          "paginas": "pp. 268–271",
+          "resumo": "Dois livros sobre promoção, organização e gestão de corporações, o primeiro como volume IV da série Modern Business.",
+          "jstor": "222315"
+        },
+        {
+          "titulo": "Spartaco Bassi, Gli Infortuni sul Lavoro Agricolo",
+          "autores": "James B. Morman",
+          "paginas": "pp. 271–272",
+          "resumo": "Estudo sobre os acidentes no trabalho agrícola e a legislação a respeito.",
+          "jstor": "222316"
+        },
+        {
+          "titulo": "Crystal Eastman, Work-Accidents and the Law",
+          "autores": "Roswell C. McCrea",
+          "paginas": "pp. 272–274",
+          "resumo": "Volume do Pittsburgh Survey sobre os acidentes de trabalho e o tratamento que recebiam da lei.",
+          "jstor": "222317"
+        },
+        {
+          "titulo": "Annie Marion MacLean, Wage-Earning Women",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 274–275",
+          "resumo": "Resultados de uma investigação da Young Women's Christian Association, iniciada em 1907, sobre as condições das trabalhadoras assalariadas em várias regiões do país.",
+          "jstor": "222318"
+        },
+        {
+          "titulo": "Franklin Escher, Elements of Foreign Exchange; Harrison H. Brace, Gold Production and Future Prices",
+          "autores": "E. W. Kemmerer",
+          "paginas": "pp. 275–279",
+          "resumo": "Duas exposições populares, uma sobre o funcionamento do mercado de câmbio e outra sobre a produção de ouro e os preços.",
+          "jstor": "222319"
+        },
+        {
+          "titulo": "Robert Emmett Ireton, A Central Bank",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 279–280",
+          "resumo": "Monografia que reúne fatos e informações sobre a proposta de um banco central.",
+          "jstor": "222320"
+        },
+        {
+          "titulo": "Henry W. Wolff, People's Banks: A Record of Social and Economic Success",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 281–282",
+          "resumo": "Terceira edição, quase um livro novo, sobre o sistema de crédito cooperativo nos principais países.",
+          "jstor": "222321"
+        },
+        {
+          "titulo": "International Tax Association, State and Local Taxation: Third International Conference, Louisville, 1909",
+          "autores": "C. C. P.",
+          "paginas": "pp. 283–284",
+          "resumo": "Anais da conferência de Louisville, com os trabalhos apresentados e as resoluções da associação.",
+          "jstor": "222322"
+        },
+        {
+          "titulo": "Émile Borel, Éléments de la Théorie des Probabilités",
+          "autores": "C. W. A. V.",
+          "paginas": "pp. 285",
+          "resumo": "Manual de probabilidade com cinquenta problemas para fixar as fórmulas estabelecidas.",
+          "jstor": "222323"
+        },
+        {
+          "titulo": "Camille Jacquart, Essais de Statistique Morale, II: Le Divorce et la Séparation de Corps",
+          "autores": "Lewis Meriam",
+          "paginas": "pp. 285–287",
+          "resumo": "Ensaio estatístico sobre o divórcio e a separação de corpos.",
+          "jstor": "222324"
+        },
+        {
+          "titulo": "Rudolph R. Reeder, How 200 Children Live and Learn",
+          "autores": "Ludwig B. Bernstein",
+          "paginas": "pp. 287–289",
+          "resumo": "Relato da experiência do autor na educação de crianças acolhidas em instituição, apresentado como contribuição à pedagogia dos orfanatos.",
+          "jstor": "222325"
+        },
+        {
+          "titulo": "Hollis Godfrey, The Health of the City",
+          "autores": "Henry Clayton Metcalf",
+          "paginas": "pp. 289–291",
+          "resumo": "Capítulos descritivos sobre os problemas de saúde das cidades.",
+          "jstor": "222326"
+        },
+        {
+          "titulo": "Frank J. Goodnow, Municipal Government",
+          "autores": "Clinton Rogers Woodruff",
+          "paginas": "pp. 291–294",
+          "resumo": "Tratado sobre o governo municipal pelo professor de direito administrativo e ciência municipal de Columbia.",
+          "jstor": "222327"
+        },
+        {
+          "titulo": "William Kirk (org.), A Modern City: Providence, Rhode Island, and Its Activities",
+          "autores": "Clinton Rogers Woodruff",
+          "paginas": "pp. 294–295",
+          "resumo": "Retrato coletivo das atividades de uma cidade americana, escrito por Kirk e colaboradores.",
+          "jstor": "222328"
+        },
+        {
+          "titulo": "Lawrence Veiller, Housing Reform",
+          "autores": "E. E. Pratt",
+          "paginas": "pp. 295–296",
+          "resumo": "Pequeno manual sobre reforma habitacional publicado pela Russell Sage Foundation.",
+          "jstor": "222329"
+        },
+        {
+          "titulo": "Clinton Rogers Woodruff (org.), Proceedings of the Cincinnati Conference for Good City Government",
+          "autores": "Arthur C. Ludington",
+          "paginas": "pp. 297–298",
+          "resumo": "Anais da conferência de 1909 e da reunião anual da National Municipal League, com a mesa-redonda sobre a cédula curta (short ballot).",
+          "jstor": "222330"
+        },
+        {
+          "titulo": "George T. Flom, A History of the Norwegian Immigration to the United States; Thomas B. McCormack (org.), Memoirs of Gustave Koerner, 1809–1896; Emily Greene Balch, Our Slavic Fellow Citizens",
+          "autores": "A. B. Faust",
+          "paginas": "pp. 298–305",
+          "resumo": "Três livros sobre a história e a influência de grupos de imigrantes nos Estados Unidos.",
+          "jstor": "222331"
+        },
+        {
+          "titulo": "Booker T. Washington, The Story of the Negro: The Rise of the Race from Slavery",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 305–306",
+          "resumo": "Relato popular, em dois volumes, das conquistas econômicas e culturais da população negra americana.",
+          "jstor": "222332"
+        },
+        {
+          "titulo": "Helen L. Sumner, Equal Suffrage",
+          "autores": "John B. Phillips",
+          "paginas": "pp. 306–308",
+          "resumo": "Resultados de uma investigação no Colorado sobre o voto feminino, feita para a Collegiate Equal Suffrage League do estado de Nova York.",
+          "jstor": "222333"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 309–385",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de maio de 1910, precedida da lista de periódicos indexados, com livros e artigos por seção temática.",
+          "jstor": "222334"
+        }
+      ],
+      "glossario": [
+        [
+          "Câmbio (foreign exchange)",
+          "mercado de letras e ordens de pagamento em moeda estrangeira."
+        ],
+        [
+          "Incremento não ganho",
+          "valorização da terra que não resulta de esforço ou investimento do proprietário."
+        ],
+        [
+          "Bancos populares (people's banks)",
+          "cooperativas de crédito voltadas a pequenos tomadores."
+        ]
+      ],
+      "hoje": "O cuidado de Kemmerer com séries mensais virou rotina: a sazonalidade das exportações hoje se mede e se ajusta antes de qualquer análise. A tributação da valorização da terra, em pauta para St. Louis, reaparece nos debates sobre impostos sobre o solo urbano e a captura de parte da valorização gerada por obras públicas. E a pergunta de Ireton, se o país precisava de um banco central, seria respondida nos Estados Unidos poucos anos depois.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 253–260",
+          "222309"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 261-263",
+          "pp. 261–263",
+          "222310"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 263-264",
+          "pp. 263–264",
+          "222311"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 264-266",
+          "pp. 264–266",
+          "222312"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 266-267",
+          "pp. 266–267",
+          "222313"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 267-268",
+          "pp. 267–268",
+          "222314"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 268-271",
+          "pp. 268–271",
+          "222315"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 271-272",
+          "pp. 271–272",
+          "222316"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 272-274",
+          "pp. 272–274",
+          "222317"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 274-275",
+          "pp. 274–275",
+          "222318"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 275-279",
+          "pp. 275–279",
+          "222319"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 279-280",
+          "pp. 279–280",
+          "222320"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 281-282",
+          "pp. 281–282",
+          "222321"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 283-284",
+          "pp. 283–284",
+          "222322"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1910-09-01), page 285",
+          "pp. 285",
+          "222323"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 285-287",
+          "pp. 285–287",
+          "222324"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 287-289",
+          "pp. 287–289",
+          "222325"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 289-291",
+          "pp. 289–291",
+          "222326"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 291-294",
+          "pp. 291–294",
+          "222327"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 294-295",
+          "pp. 294–295",
+          "222328"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 295-296",
+          "pp. 295–296",
+          "222329"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 297-298",
+          "pp. 297–298",
+          "222330"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 298-305",
+          "pp. 298–305",
+          "222331"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 305-306",
+          "pp. 305–306",
+          "222332"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-09-01), pages 306-308",
+          "pp. 306–308",
+          "222333"
+        ],
+        [
+          "Recent Publications",
+          "pp. 309–385",
+          "222334"
+        ]
+      ],
+      "jstor_edicao": "i302111",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1910-a-industria-americana-da-seda-e-a-tarifa",
+      "numero": 110,
+      "titulo": "Mason, 1910: a seda americana, filha da tarifa",
+      "titulo_original": "The American Silk Industry and the Tariff",
+      "autores": "Frank R. Mason, A. M., ex-Austin Teaching Fellow em economia na Harvard University",
+      "publicacao": "American Economic Association Quarterly",
+      "colecao": "eua",
+      "volume": "3ª série, vol. 11, nº 4",
+      "data": "1910",
+      "chamada": "Em 1910, Frank R. Mason seguiu a indústria americana da seda de 1864 à tarifa de 1909: direitos de 60%, produção multiplicada, importações paradas e a pergunta sobre quando a proteção à indústria nascente se justifica.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na revisão tarifária de 1889-90, a comissão tarifária da Câmara ouviu testemunhas sobre a ideia de proteger a criação de bicho-da-seda nos Estados Unidos. Um fabricante admitiu que a seda crua poderia ser produzida no país, se houvesse proteção suficiente. Perguntado quanto bastaria, respondeu:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ah, uns mil por cento.”",
+          "original": "“Oh, about a thousand per cent.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena está em The American Silk Industry and the Tariff, de Frank R. Mason, A. M., ex-Austin Teaching Fellow em economia em Harvard. A tese, preparada sob supervisão de F. W. Taussig, saiu como o nº 4 do vol. 11 da terceira série do American Economic Association Quarterly, datado de dezembro de 1910. Mason a apresenta como estudo indutivo de um caso particular, para iluminar uma questão em que os economistas continuavam longe de acordo. A escolha do caso é explícita:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“uma indústria criada e erguida sob o estímulo de altos direitos tarifários”",
+          "original": "“an industry created and built up under the stimulus of high tariff duties”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como uma indústria quase inexistente cresceu tanto?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde 1824, os direitos gerais sobre seda tinham ficado entre 24% e 30%, e só existia uma produção modesta de linhas e pequenos aviamentos. A tarifa da Guerra Civil, de 1864, elevou o direito sobre tecidos de seda a 60% ad valorem, com objetivo puramente fiscal: as linhas de costura e a seda fiada, os únicos itens fabricados no país, ficaram em 40% e 35%. Mason vê ali o começo real da indústria. As importações de seda crua quadruplicaram entre 1860 e 1870."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 118,5 milhões",
+          "texto": "Produção líquida americana de artigos de seda em 1905, sem dupla contagem, ante US$ 34,5 milhões em 1880. Em valores brutos, foram US$ 132 milhões em 1905, contra US$ 129 milhões da França, o que, segundo Mason, já punha os Estados Unidos em primeiro lugar no mundo."
+        },
+        {
+          "tipo": "p",
+          "texto": "As importações ficaram praticamente paradas, em torno de US$ 30 milhões, desde 1873. Todo o aumento do consumo foi suprido pela produção doméstica. Em 1905, o valor produzido no país equivalia a 400% do importado."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto do mercado era de fato americano?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A conta direta dava cerca de 85% do consumo, mas Mason a corrige. O valor das importações é o da fatura no exterior, a preços franceses, alemães ou japoneses, sem o imposto, o frete e a margem do importador; além disso, a subavaliação das faturas chegava, segundo se dizia, a 25% ou 50%. Somando-se 50% a 70% ao valor importado, a fatia doméstica cai para 70% a 75%, estimativa corrente no mercado."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "85%",
+          "texto": "Parcela americana do consumo de fitas, já corrigido o valor das importações. Nas linhas de costura, quase todo o consumo era nacional; nos tecidos largos (broad goods), cerca de 67%; nos veludos e pelúcias, 50%. Quanto mais individual e fantasioso o artigo, menor a parcela feita no país."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Imposto pelo valor ou pelo peso?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A disputa tarifária sobre a seda girou em torno da forma do direito. O direito ad valorem, cobrado sobre o valor, é igual em princípio, mas convida à subavaliação das faturas. O direito específico, cobrado por libra ou por jarda, é fácil de cobrar, mas pesa mais sobre os artigos baratos e, à medida que os preços caem, sobe como proporção do valor. Por isso, explica Mason, protecionistas preferiam o específico e seus adversários, o ad valorem, que mostra com clareza o tamanho da proteção."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1883, o direito geral caiu de 60% para 50%, e o de linhas e seda fiada, de 35% para 30%, sem efeito visível sobre importações ou produção. A lei de 1890 tentou um sistema específico completo; o Senado o desfez, e só veludos e pelúcias ficaram com direitos por libra. O equivalente ad valorem saltou de 45% para mais de 70%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "45% → 74%",
+          "texto": "Direito efetivo sobre pelúcias e veludos importados, em equivalente ad valorem: 45% em 1889 e 1890, 74% em 1891 e 60% em 1894. A queda final veio da cláusula de mínimo de 50%: os importadores passaram a trazer artigos tão caros que o direito específico ficava abaixo dele. As importações de pelúcias e veludos caíram de US$ 5,4 milhões em 1889 para pouco mais de US$ 2 milhões em 1894."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei Wilson, que virou lei sem a assinatura do presidente Cleveland em 28 de agosto de 1894, manteve 50% sobre tecidos e reduziu os direitos específicos a US$ 1,50 a libra para veludos e US$ 1,00 para pelúcias. Com a tarifa Dingley de 1897, o sistema específico passou a valer para todos os itens importantes, com escalas por peso, teor de seda e tingimento, sempre com o mínimo de 50%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "200% a 700%",
+          "texto": "Direito efetivo da tabela específica de 1897 sobre os tecidos mais baratos, que por isso deixaram de ser importados. Em 1899, dos US$ 13,05 milhões em tecidos e peças importados, US$ 7,79 milhões entraram pelo mínimo de 50%: os artigos mais finos, comprados pelas classes altas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou na tarifa de 1909?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a revisão de 1909, conhecida como Payne-Aldrich, a Silk Association of America preparou uma tabela nova, com ampla extensão dos direitos específicos. A Câmara, diante de críticas contraditórias, manteve as alíquotas de 1897. A Comissão de Finanças do Senado, sem audiências públicas, restaurou a tabela da associação, que passou sem debate. Para Mason, o silêncio tem explicação: a seda era vista como luxo, ao lado do vinho e do fumo, e quem defendia tarifas menores guardava munição para artigos de primeira necessidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O padrão das mudanças é nítido. Na seda fiada, o direito equivalia a cerca de 37% ad valorem e a nova escala deveria render, em média, 50%; Mason anota que o principal fabricante desse artigo presidia o comitê que redigiu a tabela. A linha de costura passou de 30% para um direito específico estimado em 58%, embora fosse exportada. O mínimo caiu de 50% para 45%, aliviando os tecidos finos europeus, e os lenços voltaram ao ad valorem."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão de Mason sobre a tabela de 1909 é que a proteção subiu em todos os artigos que concorriam com a produção nacional, sobretudo os de qualidade média, e a revisão para baixo ficou restrita a alguns tecidos caros sem equivalente nos teares americanos. A seda artificial ganhou um parágrafo próprio e, com ele, o princípio da compensação: um direito para o fio e outro, compensatório, para os artigos feitos com ele, num total de 90% a 100%."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A proteção à indústria nascente se justificou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda metade do livro trata da americanização da indústria a partir de 1890. Máquinas automáticas de torcer o fio permitiram empregar mulheres e crianças e levaram as torcedeiras para as regiões carboníferas da Pensilvânia, onde combustível, impostos e aluguéis eram baratos. Em 1905, a Pensilvânia produziu US$ 39,3 milhões, quase o mesmo que Nova Jersey, com US$ 42,8 milhões. O custo de preparar o fio ficou abaixo do de qualquer outro país, e teares mais rápidos elevaram continuamente a produção por operário em fitas e tecidos largos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 847.894",
+          "texto": "Exportações americanas de manufaturas de seda em 1909, ante US$ 290.729 em 1899. Mason atribui a maior parte às linhas de costura, o único ramo que nasceu sem estímulo protecionista e cujo direito ele chama de letra morta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão aplica o critério clássico: a proteção à indústria nascente só se justifica quando a indústria chega à independência. Para Mason, boa parte da seda americana já prosperaria sem tarifa. Uma minoria de artigos, sobretudo os mais trabalhosos à mão, não se adaptava às condições do país, e produzi-los era perda econômica; a doutrina estrita mandaria retirar seus direitos, embora isso ferisse interesses estabelecidos. O balanço final é favorável:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a tarifa do passado ergueu para si, na indústria da seda, um monumento orgulhoso”",
+          "original": "“the tariff of the past has in the silk industry reared itself a proud monument”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com este número, a série do American Economic Association Quarterly se encerra; a partir de 1911, ela continua como American Economic Review."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o mérito do estudo está em tratar a forma do imposto como questão econômica, e não só técnica. Mason mostra que o direito específico, defendido como remédio contra a fraude na fatura, faz a proteção crescer sem alarde à medida que os preços caem e pesa mais justamente sobre os artigos baratos. A cláusula de mínimo inverte a progressividade: o tecido fino paga 50%, o barato paga 200% ou nem entra. Uma escolha administrativa redistribui o custo da tarifa entre consumidores.",
+            "O teste que ele propõe para a indústria nascente também é o certo: não basta crescer, é preciso chegar a um ponto em que a proteção possa ser retirada. A seda passa no teste em alguns ramos, como linhas e torção, e falha em outros. A tabela de 1909, porém, elevou os direitos justamente onde a concorrência nacional já existia. A proteção temporária tem dificuldade de acabar quando os protegidos ajudam a escrever a tabela."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Direito ad valorem",
+          "imposto de importação calculado como porcentagem do valor declarado da mercadoria."
+        ],
+        [
+          "Direito específico",
+          "imposto fixo por unidade física, como libra ou jarda, independente do preço."
+        ],
+        [
+          "Cláusula de mínimo",
+          "regra segundo a qual o direito nunca fica abaixo de certa porcentagem do valor."
+        ],
+        [
+          "Seda crua",
+          "fio desenrolado do casulo, ainda não torcido; os Estados Unidos importavam toda a que usavam."
+        ],
+        [
+          "Torção (throwing)",
+          "etapa que prepara o fio de seda crua para o tear, torcendo e combinando filamentos."
+        ],
+        [
+          "Seda fiada (spun silk)",
+          "fio feito de resíduos e fibras defeituosas, cardado e fiado como o algodão."
+        ],
+        [
+          "Indústria nascente",
+          "argumento de que uma indústria nova precisa de proteção temporária até poder competir sozinha."
+        ],
+        [
+          "Direito compensatório",
+          "parcela do imposto sobre o produto final que compensa o imposto pago sobre a matéria-prima importada."
+        ]
+      ],
+      "hoje": "O argumento da indústria nascente segue no centro das discussões sobre política industrial, e o teste de Mason continua sendo o mais exigente: a proteção se justifica quando termina. Seu exame da forma do imposto também segue atual. Direitos por unidade e cláusulas de mínimo ainda aparecem em tarifas e acordos comerciais, com o mesmo efeito de esconder a alíquota efetiva e pesar mais sobre os produtos baratos. E a cena de 1909, em que uma associação setorial redige a própria tabela, ainda ilustra o risco de captura na política comercial.",
+      "itens": [
+        [
+          "[The American Silk Industry and the Tariff]: Summary",
+          "pp. v–ix",
+          "3000043"
+        ],
+        [
+          "[The American Silk Industry and the Tariff]: Prologue",
+          "pp. xi",
+          "3000044"
+        ],
+        [
+          "The American Silk Industry and the Tariff",
+          "pp. 1–182",
+          "3000045"
+        ]
+      ],
+      "jstor_edicao": "i350437"
+    },
+    {
+      "slug": "1910-o-boletim-economico-dezembro",
+      "numero": 111,
+      "titulo": "O último Bulletin, dezembro de 1910: a passagem para a AER",
+      "titulo_original": "The Economic Bulletin, vol. 3, no. 4 (December 1910)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento; John Bauer (Cornell University), assistente do editor-gerente",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 3, nº 4",
+      "data": "dezembro de 1910",
+      "chamada": "O último número anuncia a fusão com o Quarterly na American Economic Review e traz a conferência de Haia sobre letras de câmbio e 28 resenhas, com peso para a Comissão Monetária Nacional.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A primeira frase das notas de dezembro de 1910 é um aviso de encerramento."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Este é o último número do Economic Bulletin.”",
+          "original": "This is the last number of THE ECONOMIC BULLETIN"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pela resolução da reunião anual anterior, o Bulletin e o Quarterly seriam fundidos, no início do ano seguinte, numa nova publicação trimestral, a American Economic Review. Um editor-gerente e seis editores associados assumiriam as funções do comitê de publicações e da equipe editorial do Bulletin."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A resolução previa um Bulletin ampliado e transformado em “uma revista semelhante… à da Royal Economic Society”.",
+          "original": "a journal similar. . . to that of the Royal Economic Society"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "23",
+          "texto": "Editores de departamento do Bulletin. Segundo a nota, o conselho ficou inalterado desde a reorganização feita três anos antes, quando assumiu o editor-gerente; com este número, cessam as funções da equipe."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O anúncio do presidente James confirma a reunião de St. Louis, de 27 a 30 de dezembro, com sessões sobre imigração, ricardianismo, moeda e preços, canais e hidrovias, pobreza, tarifas ferroviárias e tributação. Cinco outras associações provavelmente se reuniriam no mesmo lugar e data."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Haia, uma conferência internacional sobre letras de câmbio, com Charles A. Conant como delegado americano, aprovou um projeto de lei uniforme. Os delegados dos Estados Unidos e da Grã-Bretanha não o recomendaram, por causa da uniformidade já obtida entre as leis britânicas e as dos estados americanos, mas aceitaram submetê-lo aos legislativos."
+        },
+        {
+          "tipo": "p",
+          "texto": "As ferrovias criaram em Washington um Bureau of Railway Economics, com L. G. McPherson como diretor e Frank Haigh Dixon como estatístico-chefe. Taft nomeou uma comissão sobre a regulação federal dos títulos ferroviários, presidida por Arthur T. Hadley. William B. Dana, fundador do Commercial and Financial Chronicle, morreu em 10 de outubro."
+        },
+        {
+          "tipo": "p",
+          "texto": "As notas registram ainda a criação da National Association for the Advancement of the Colored People, à qual William E. B. DuBois passou a se dedicar, e a nomeação de Frank A. Fetter para a junta estadual de caridades de Nova York, a primeira de um economista acadêmico."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 28 resenhas e uma carta. Walter F. Willcox abre a seção com Highways of Progress, de James J. Hill, estudos de economia aplicada centrados no desenvolvimento ferroviário do Noroeste americano."
+        },
+        {
+          "tipo": "p",
+          "texto": "O bloco mais denso trata dos relatórios da National Monetary Commission. H. P. W. resenha o volume de Davis R. Dewey e Robert E. Chaddock sobre os bancos estaduais antes da Guerra Civil e o de Andrew McFarland Davis sobre a origem do sistema bancário nacional. H. Parker Willis resenha o estudo de David Kinley sobre o uso de instrumentos de crédito e as estatísticas de 1867 a 1909 compiladas por A. Piatt Andrew."
+        },
+        {
+          "tipo": "p",
+          "texto": "M. B. Hammond resenha o relatório do Commissioner of Corporations sobre as bolsas de algodão, e H. S. Smalley, a monografia de John Maurice Clark sobre a razoabilidade na discriminação de fretes locais. Wm. B. Bailey resenha o manual elementar de Arthur L. Bowley."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fecham a seção história do trabalho, conservação, saúde, sociologia, a carta de Charles Edward Woodruff contestando a resenha de Ellwood sobre seu livro, Latter-Day Problems, de J. Laurence Laughlin, resenhado por George Ray Wicker, e The Southern South, de Albert Bushnell Hart."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications cobre obras publicadas principalmente entre 1º de agosto e 15 de outubro de 1910, período duas semanas mais curto que o habitual, precedida da lista de periódicos indexados."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número fecha uma fase editorial. O boletim de resenhas, notas e bibliografia daria lugar a um periódico geral no modelo da Royal Economic Society, com resumos de artigos de revistas em várias línguas, notas pessoais e resenhas.",
+            "No conteúdo, o peso da National Monetary Commission mostra onde estava a agenda. Antes de redesenhar o sistema bancário, encomendaram-se história bancária, estatísticas monetárias e um levantamento do uso de instrumentos de crédito. É uma boa ordem de trabalho: medir o sistema existente antes de propor outro."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 387–398",
+          "resumo": "Anúncio do fim do Bulletin e de sua fusão com o Quarterly na American Economic Review, programa da reunião de St. Louis, conferência de Haia sobre letras de câmbio, Bureau of Railway Economics, nomeações e mortes.",
+          "jstor": "222337"
+        },
+        {
+          "titulo": "James J. Hill, Highways of Progress",
+          "autores": "Walter F. Willcox",
+          "paginas": "pp. 399–401",
+          "resumo": "Estudos de economia aplicada, com capítulos sobre consolidações industriais e ferroviárias, comércio oriental e conservação do capital.",
+          "jstor": "222338"
+        },
+        {
+          "titulo": "Charles Grove Haines, The Conflict over Judicial Powers in the United States to 1870",
+          "autores": "F. J. Swayze",
+          "paginas": "pp. 402–403",
+          "resumo": "Relato histórico, nos Columbia University Studies, do conflito sobre os poderes do Judiciário nos Estados Unidos até 1870.",
+          "jstor": "222339"
+        },
+        {
+          "titulo": "Hosea Ballou Morse, The Gilds of China, with an Account of the Gild Merchant or Co-Hong of Canton",
+          "autores": "John H. Gray",
+          "paginas": "pp. 403–404",
+          "resumo": "Estudo das guildas chinesas e de sua independência em relação às autoridades públicas.",
+          "jstor": "222340"
+        },
+        {
+          "titulo": "Gifford Pinchot, The Fight for Conservation",
+          "autores": "Fernow",
+          "paginas": "pp. 405",
+          "resumo": "Coletânea de discursos e artigos em defesa da conservação dos recursos naturais.",
+          "jstor": "222341"
+        },
+        {
+          "titulo": "Angelo Mariani, Geografia Economica Sociale dell'Italia",
+          "autores": "James B. Morman",
+          "paginas": "pp. 405–406",
+          "resumo": "Estudo da geografia italiana em relação ao desenvolvimento econômico e social do país.",
+          "jstor": "222342"
+        },
+        {
+          "titulo": "B. Seebohm Rowntree, Land and Labor: Lessons from Belgium",
+          "autores": "James B. Morman",
+          "paginas": "pp. 407–409",
+          "resumo": "Volume abrangente sobre os principais aspectos da vida econômica e social da Bélgica.",
+          "jstor": "222343"
+        },
+        {
+          "titulo": "John Maurice Clark, Standards of Reasonableness in Local Freight Discriminations",
+          "autores": "H. S. Smalley",
+          "paginas": "pp. 409–410",
+          "resumo": "Monografia sobre a razoabilidade das tarifas ferroviárias, com atenção especial aos fretes locais.",
+          "jstor": "222344"
+        },
+        {
+          "titulo": "Commissioner of Corporations, Report on Cotton Exchanges, Parts I–V",
+          "autores": "M. B. Hammond",
+          "paginas": "pp. 411–414",
+          "resumo": "Relatório em três fascículos sobre as operações das bolsas de algodão, a classificação do algodão e o efeito dos contratos futuros sobre os preços.",
+          "jstor": "222345"
+        },
+        {
+          "titulo": "John R. Commons e Helen L. Sumner, A Documentary History of American Industrial Society, suplemento ao vol. IV e vols. V e VI: Labor Movement, 1820–1840",
+          "autores": "Ernest L. Bogart",
+          "paginas": "pp. 414–416",
+          "resumo": "Documentos sobre o movimento operário americano no período, com uma fase política (1828–1832) e outra sindical (1833–1837).",
+          "jstor": "222346"
+        },
+        {
+          "titulo": "Davis R. Dewey e Robert E. Chaddock, State Banking before the Civil War and the Safety Fund Banking System in New York; Andrew McFarland Davis, The Origin of the National Banking System",
+          "autores": "H. P. W.",
+          "paginas": "pp. 417–419",
+          "resumo": "Dois relatórios históricos da National Monetary Commission, sobre os bancos estaduais e sobre a origem do sistema bancário nacional.",
+          "jstor": "222347"
+        },
+        {
+          "titulo": "David Kinley, The Use of Credit Instruments",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 419–421",
+          "resumo": "Relatório da National Monetary Commission que retoma os estudos de 1896 sobre o uso de instrumentos de crédito, com questionário enviado pelo Comptroller of the Currency a todos os bancos.",
+          "jstor": "222348"
+        },
+        {
+          "titulo": "A. Piatt Andrew (comp.), Statistics for the United States, 1867–1909",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 421–422",
+          "resumo": "Volume de estatísticas compilado para a National Monetary Commission.",
+          "jstor": "222349"
+        },
+        {
+          "titulo": "Arthur L. Bowley, An Elementary Manual of Statistics",
+          "autores": "Wm. B. Bailey",
+          "paginas": "pp. 422–423",
+          "resumo": "Manual para um curso elementar de teoria e prática da estatística.",
+          "jstor": "222350"
+        },
+        {
+          "titulo": "W. Palin Elderton e Ethel M. Elderton, Primer of Statistics",
+          "autores": "W. B. B.",
+          "paginas": "pp. 423–424",
+          "resumo": "Introdução breve à teoria da estatística.",
+          "jstor": "222351"
+        },
+        {
+          "titulo": "Camille Jacquart, La Mortalité Infantile dans les Flandres: Étude de Démographie Belge",
+          "autores": "John Cummings",
+          "paginas": "pp. 424–426",
+          "resumo": "Estudo demográfico da mortalidade infantil nas províncias belgas de Flandres Oriental e Ocidental.",
+          "jstor": "222352"
+        },
+        {
+          "titulo": "Alfred Grotjahn, Krankenhauswesen und Heilstättenbewegung im Lichte der sozialen Hygiene",
+          "autores": "P. T. Dondlinger",
+          "paginas": "pp. 426–429",
+          "resumo": "Estudo dos hospitais e do movimento dos sanatórios do ponto de vista da higiene social.",
+          "jstor": "222353"
+        },
+        {
+          "titulo": "A. Davies Edwards, Children of the Poor",
+          "autores": "S. M. L.",
+          "paginas": "pp. 429",
+          "resumo": "Descrição da vida das crianças pobres e dos meios de melhorar suas condições, por um médico do serviço escolar de Bournemouth.",
+          "jstor": "222354"
+        },
+        {
+          "titulo": "Otto Warschauer, Zur Entwicklungsgeschichte des Sozialismus",
+          "autores": "Simon Litman",
+          "paginas": "pp. 429–430",
+          "resumo": "Revisão da obra e dos escritos dos primeiros socialistas franceses.",
+          "jstor": "222355"
+        },
+        {
+          "titulo": "Michels-Lindner, Geschichte der modernen Gemeindebetriebe in Italien",
+          "autores": "R. C. B.",
+          "paginas": "pp. 431",
+          "resumo": "Estudo histórico das empresas municipais modernas na Itália.",
+          "jstor": "222356"
+        },
+        {
+          "titulo": "Lampe, The Japanese Social Organization",
+          "autores": "William Elliot Griffis",
+          "paginas": "pp. 432–433",
+          "resumo": "Monografia em três partes: a história social, a estrutura social e a ordem social em mudança.",
+          "jstor": "222357"
+        },
+        {
+          "titulo": "Charles Edward Woodruff, Expansion of Races (carta do autor)",
+          "autores": "Charles Edward Woodruff",
+          "paginas": "pp. 433–435",
+          "resumo": "Carta ao editor-gerente contestando pontos da resenha de Charles A. Ellwood publicada no vol. II do Bulletin, divulgada a pedido de Ellwood.",
+          "jstor": "222358"
+        },
+        {
+          "titulo": "Roswell C. McCrea, The Humane Movement",
+          "autores": "Edward E. Pratt",
+          "paginas": "pp. 436–437",
+          "resumo": "Estudo em duas partes do movimento humanitário, preparado para a Henry Bergh Foundation, da Universidade Columbia.",
+          "jstor": "222359"
+        },
+        {
+          "titulo": "A. H. Keane, The World's Peoples",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 437–438",
+          "resumo": "Manual popular de etnografia escrito para o leitor geral.",
+          "jstor": "222360"
+        },
+        {
+          "titulo": "Charles F. Dole, The Ethics of Progress",
+          "autores": "Clinton Rogers Woodruff",
+          "paginas": "pp. 438–439",
+          "resumo": "Discussão da doutrina da boa vontade, que o autor considera a chave da teoria ética.",
+          "jstor": "222361"
+        },
+        {
+          "titulo": "René Worms, Les Principes Biologiques de l'Évolution Sociale",
+          "autores": "C. A. E.",
+          "paginas": "pp. 440",
+          "resumo": "Monografia sobre a aplicação de princípios biológicos à evolução social.",
+          "jstor": "222362"
+        },
+        {
+          "titulo": "F. Müller-Lyer, Phasen der Kultur und Richtungslinien des Fortschritts",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 440–441",
+          "resumo": "Panorama sociológico das fases da cultura e das direções do progresso.",
+          "jstor": "222363"
+        },
+        {
+          "titulo": "J. Laurence Laughlin, Latter-Day Problems",
+          "autores": "George Ray Wicker",
+          "paginas": "pp. 442–445",
+          "resumo": "Reedição de textos do autor de divulgação econômica para o público geral.",
+          "jstor": "222364"
+        },
+        {
+          "titulo": "George, The Junior Republic: Its History and Ideals",
+          "autores": "William Fremont Blackman",
+          "paginas": "pp. 445–447",
+          "resumo": "História e ideais da George Junior Republic, com introdução de Thomas M. Osborne.",
+          "jstor": "222365"
+        },
+        {
+          "titulo": "Albert Bushnell Hart, The Southern South",
+          "autores": "William H. Glasson",
+          "paginas": "pp. 447–450",
+          "resumo": "Estudo dos problemas do Sul dos Estados Unidos, tratados também como problemas nacionais.",
+          "jstor": "222366"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 451–501",
+          "resumo": "Bibliografia corrente de obras publicadas principalmente entre 1º de agosto e 15 de outubro de 1910, precedida da lista de periódicos indexados, com livros e artigos por seção temática.",
+          "jstor": "222367"
+        }
+      ],
+      "glossario": [
+        [
+          "National Monetary Commission",
+          "comissão do Congresso americano encarregada de estudar a reforma monetária e bancária."
+        ],
+        [
+          "Letra de câmbio",
+          "ordem escrita e transferível de pagamento, usada no comércio interno e internacional."
+        ],
+        [
+          "Safety fund",
+          "sistema de fundo comum de garantia entre os bancos do estado de Nova York antes da Guerra Civil."
+        ]
+      ],
+      "hoje": "A American Economic Review, anunciada neste número, segue entre as revistas centrais da disciplina. A agenda da National Monetary Commission desembocaria na criação do Federal Reserve, em 1913. E o problema discutido em Haia, harmonizar o direito dos títulos de crédito entre tradições jurídicas distintas, continua presente no comércio internacional, onde a uniformidade das regras reduz custos e riscos das transações.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 387–398",
+          "222337"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 399-401",
+          "pp. 399–401",
+          "222338"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 402-403",
+          "pp. 402–403",
+          "222339"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 403-404",
+          "pp. 403–404",
+          "222340"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1910-12-01), page 405",
+          "pp. 405",
+          "222341"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 405-406",
+          "pp. 405–406",
+          "222342"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 407-409",
+          "pp. 407–409",
+          "222343"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 409-410",
+          "pp. 409–410",
+          "222344"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 411-414",
+          "pp. 411–414",
+          "222345"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 414-416",
+          "pp. 414–416",
+          "222346"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 417-419",
+          "pp. 417–419",
+          "222347"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 419-421",
+          "pp. 419–421",
+          "222348"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 421-422",
+          "pp. 421–422",
+          "222349"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 422-423",
+          "pp. 422–423",
+          "222350"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 423-424",
+          "pp. 423–424",
+          "222351"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 424-426",
+          "pp. 424–426",
+          "222352"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 426-429",
+          "pp. 426–429",
+          "222353"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1910-12-01), page 429",
+          "pp. 429",
+          "222354"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 429-430",
+          "pp. 429–430",
+          "222355"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1910-12-01), page 431",
+          "pp. 431",
+          "222356"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 432-433",
+          "pp. 432–433",
+          "222357"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 433-435",
+          "pp. 433–435",
+          "222358"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 436-437",
+          "pp. 436–437",
+          "222359"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 437-438",
+          "pp. 437–438",
+          "222360"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 438-439",
+          "pp. 438–439",
+          "222361"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1910-12-01), page 440",
+          "pp. 440",
+          "222362"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 440-441",
+          "pp. 440–441",
+          "222363"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 442-445",
+          "pp. 442–445",
+          "222364"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 445-447",
+          "pp. 445–447",
+          "222365"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1910-12-01), pages 447-450",
+          "pp. 447–450",
+          "222366"
+        ],
+        [
+          "Recent Publications",
+          "pp. 451–501",
+          "222367"
+        ]
+      ],
+      "jstor_edicao": "i302112",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "American Economic Association Quarterly e Economic Bulletin (1910)",
-    "American Economic Review (1911–1922)"
+    "American Economic Review, vol. 1 (1911)",
+    "American Economic Review (1912–1922)"
   ]
 }
