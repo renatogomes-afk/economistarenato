@@ -84463,6 +84463,936 @@
           "paginas": "pp. 252–267"
         }
       ]
+    },
+    {
+      "slug": "1921-orcamentos-familiares-e-salarios",
+      "numero": 171,
+      "titulo": "Salário real, orçamento de família e o limite da taxa de redesconto",
+      "titulo_original": "The American Economic Review, vol. XI, no. 3, September 1921",
+      "autores": "Paul H. Douglas e Frances Lamberson, George E. Putnam, C. O. Ruggles, Margaret Loomis Stecker, Anna Youngman, Alvin H. Hansen, Lewis H. Haney e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 11, nº 3",
+      "data": "setembro de 1921",
+      "chamada": "Douglas e Lamberson medem o salário real até 1918; Stecker questiona os orçamentos de família usados para fixar salários; Youngman duvida que a taxa de redesconto do Federal Reserve controle o crédito.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1918, uma hora de trabalho na indústria americana comprava 20,7% menos alimentos do que na média de 1890 a 1899. A conta é de Paul H. Douglas, da University of Chicago, e Frances Lamberson, de Portland, no Oregon, e abre a American Economic Review de setembro de 1921, terceiro número do volume XI. O salário-hora nominal mais que dobrara no período; os preços dos alimentos subiram ainda mais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição gira em torno de uma pergunta comum: os instrumentos com que se media e se regulava a economia do pós-guerra mediam o que diziam medir? Margaret Loomis Stecker, de Nova York, examina os orçamentos de família usados nas arbitragens salariais; Anna Youngman, do Brooklyn, pergunta se a taxa de redesconto dos bancos do Federal Reserve controla de fato o crédito. George E. Putnam, de Chicago, relata a decisão da Suprema Corte sobre o sistema federal de crédito agrícola, e C. O. Ruggles, da State University of Iowa, descreve a desorganização dos terminais ferroviários dos portos. Duas comunicações curtas, de Alvin H. Hansen e Lewis H. Haney, fecham a parte de artigos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A guerra elevou o salário real do trabalhador americano?",
+          "artigo": "1804510",
+          "credito": "Paul H. Douglas (University of Chicago) e Frances Lamberson (Portland, Oregon) · “The Movement of Real Wages, 1890-1918” · pp. 409–426"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os autores continuam, para 1912 a 1918, um estudo de I. M. Rubinow que cobrira 1890 a 1912. Rubinow encontrara queda de 8,2% no poder de compra do salário-hora, medido em alimentos, entre a média de 1890 a 1899 e 1912. Para os anos seguintes, o Bureau of Labor Statistics só publicara dados de dez das quinze indústrias de Rubinow. Douglas e Lamberson testam a troca: para 1890 a 1912, dez e quinze indústrias dão resultados praticamente iguais. Os índices são emendados em 1912 e mantidos na base 1890 a 1899."
+        },
+        {
+          "tipo": "p",
+          "texto": "Do lado dos preços, usam as quinze mercadorias alimentares com registro contínuo, ponderadas como fazia o Bureau entre 1908 e 1912. A alimentação, lembram, responde por cerca de 40% dos gastos do trabalhador. Comparam o índice com o de 22 mercadorias do Bureau e com o custo de vida de dezoito cidades desde dezembro de 1914: no curto prazo o custo de vida fica atrás dos alimentos, porque os aluguéis demoram a subir, de modo que o índice exagera um pouco a alta de 1916 a 1918."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "29,6%",
+          "texto": "Queda do poder de compra dos ganhos de uma semana integral de trabalho em 1918, em relação à média de 1890 a 1899, segundo Douglas e Lamberson. No mesmo período, o salário-hora nominal das dez indústrias subiu 111,3%, os ganhos semanais nominais 87,7%, e a semana de trabalho encolheu 11,5%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A perda concentrou-se em dois períodos: 1907 a 1912 e 1916 a 1917. De 1913 a 1918, o salário-hora subiu 41%, e os alimentos, 71%. Depois do salto de preços de 1916, o poder de compra da hora caiu 27,1% em dois anos; só em 1918 os salários voltaram a ganhar terreno. Os autores listam as ressalvas: a amostra exclui fábricas de munição e domésticos, que ganharam, mas também ferroviários e mineiros de carvão, que perderam; e usa tabelas sindicais. Os ganhos efetivos de Nova York e Wisconsin, que incluem horas extras, partem de bases deprimidas: em junho de 1914, 25,5% dos sindicalizados de Nova York estavam desempregados."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão: ao fim da guerra, a hora de trabalho comprava de 10% a 20% menos que na década de 1890, e a semana estabelecida, de 20% a 30% menos. O trabalho americano, escrevem, não pode ser acusado de ter lucrado com a guerra."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Como Alice no País das Maravilhas, foi obrigado a correr mais depressa para ficar no mesmo lugar.”",
+          "original": "“Like Alice in Wonderland, it was compelled to run faster in order to stay in the same place.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Suprema Corte resolveu o futuro dos bancos de terra?",
+          "artigo": "1804511",
+          "credito": "George E. Putnam (Chicago, Illinois) · “Recent Developments in the Federal Farm Loan System” · pp. 427–437"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 28 de fevereiro de 1921, a Suprema Corte confirmou a constitucionalidade da Federal Farm Loan Act, a lei que criou os bancos federais de terra e os bancos de terra por ações (joint-stock), ambos com títulos isentos de impostos. O processo começara em julho de 1919, quando Charles E. Smith, acionista da Kansas City Title and Trust Company, tentou impedir a empresa de aplicar US$ 10.000 em títulos de cada tipo de banco. Putnam observa que o Congresso blindara a lei ao declarar os bancos depositários de dinheiro público e agentes financeiros do governo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Essa cláusula, diz Putnam, era um subterfúgio: os senadores Hollis e Cummins admitiram no plenário que o objetivo era só baixar os juros dos agricultores, e os bancos nunca foram usados como agentes, salvo três bancos federais no verão de 1918, para empréstimos de sementes. A Corte, pelo juiz Day, apoiou-se em McCulloch v. Maryland e Osborn v. Bank: o Congresso pode criar bancos para fins nacionais, e o poder de isentar seus títulos vem junto."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Com a sabedoria e a conveniência desta legislação nada temos a ver.”",
+          "original": "“With the wisdom and policy of this legislation we have nothing to do.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Por trás do caso, segundo o autor, estavam os banqueiros de hipotecas rurais, que temiam sobretudo os bancos por ações. Em 30 de novembro de 1919 havia trinta deles, com mais de 16% dos empréstimos do sistema, concentrados nos estados agrícolas mais desenvolvidos, onde já atuavam as companhias hipotecárias. A dúvida sobre os títulos paralisou o sistema: em 1º de março de 1920 os bancos federais estavam sem recursos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 45,4 milhões",
+          "texto": "Títulos dos bancos federais de terra comprados pelo Tesouro até 31 de dezembro de 1920, sob resolução do Congresso de 26 de maio de 1920; os juros desses títulos subiram de 4,5% para 5%. Os bancos por ações não receberam ajuda e, ainda assim, fizeram mais de 28% dos novos negócios do sistema em catorze meses."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os problemas continuam. A lei limita os juros dos títulos a 5% e o custo ao tomador a 6%, com títulos de 5% vendidos abaixo do par, e há propostas para tirar a isenção apenas dos bancos por ações. Putnam conclui que foi infeliz manter a isenção: nenhum argumento a favor dela vale para um tipo de banco e não para o outro, e, num sistema de imposto progressivo, os títulos de nenhum dos dois deveriam escapar do imposto de renda federal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os portos americanos congestionavam?",
+          "artigo": "1804512",
+          "credito": "C. O. Ruggles (State University of Iowa) · “Railway Service and Regulation in Port Terminals” · pp. 438–446"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ruggles parte de um contraste. Na França, as ferrovias foram planejadas por engenheiros sob direção do governo e irradiam de Paris como raios de uma roda; nos Estados Unidos, quase não houve regulação da construção, e muitas linhas foram feitas paralelas às existentes. O resultado foi excesso de quilometragem e controle monopolista dos terminais. Ele separa as causas da ineficiência nos portos em três grupos: as ferrovias, as indústrias e a falta de previsão das autoridades."
+        },
+        {
+          "tipo": "p",
+          "texto": "As ferrovias duplicaram terminais caros sem coordená-los e prestaram serviços abaixo do custo para garantir o transporte de longa distância: a Baltimore and Ohio teve déficit de mais de US$ 1,25 milhão nos serviços de terminal em Nova York entre 1909 e 1911. Recusavam manobras para vagões de outras linhas e o uso de seus cais, o que, nas palavras do autor, cria tantos portos dentro de um porto quantos são os terminais de águas profundas controlados por ferrovias diferentes."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "13 zonas",
+          "texto": "Divisão dos trilhos de manobra da Northern Pacific nas ruas da orla de Seattle, cada uma com tarifa própria, de US$ 1,50 a US$ 12, segundo o presidente do Porto de Seattle em 1917. Em Boston, três ferrovias dividiam o porto, na prática, em três portos separados."
+        },
+        {
+          "tipo": "p",
+          "texto": "As indústrias, por sua vez, ocupam a orla profunda que deveria servir ao comércio. No North River, em Manhattan, navios de 17 pés de calado ocupam berços que caberiam a navios oceânicos de 35 pés; o diretor do Porto de Nova York propôs em novembro de 1918 transferir os vapores do Sound para o East River, poupando sessenta milhas de navegação inútil por dia. Nova Orleans, que controla toda a sua orla, e San Francisco são as exceções. Nova York é dona de quase toda a sua frente de água, mas a cedeu em arrendamentos longos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O remédio proposto é tirar das ferrovias a propriedade individual dos terminais nos portos importantes e entregá-los a companhias de terminal sem interesse por nenhum transportador, o que não significaria necessariamente propriedade ou operação estatal. O frete seria dividido, na contabilidade, entre transporte de linha e serviço de terminal, e o poder de desapropriação, usado antes a favor das ferrovias, serviria agora para desalojar ferrovias e indústrias da orla. Ruggles duvida que a Transportation Act de 1920 baste, pois a consolidação compulsória foi retirada do texto, e pede legislação federal que mande a Interstate Commerce Commission unificar os terminais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Um orçamento de família pode servir para fixar salários?",
+          "artigo": "1804513",
+          "credito": "Margaret Loomis Stecker (New York City) · “Family Budgets and Wages” · pp. 447–465"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em julho de 1920, dezesseis estudos de orçamento familiar foram apresentados como prova à United States Anthracite Coal Commission, o tribunal que arbitrava os salários dos mineiros de antracito. Stecker toma o caso como o exame mais cuidadoso já feito da relação entre custo de vida e salário. Os mineiros defendiam um salário vital acima da subsistência; os operadores aceitavam o princípio, mas diziam que os orçamentos apresentados não eram da região e que um salário vital não é uma soma definida de dinheiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "A autora vê duas confusões. A primeira é de padrão. Os orçamentos anteriores a 1917, como os de Chapin, foram feitos para medir o mínimo abaixo do qual uma família não deveria cair. Os novos, chamados de mínimo de conforto ou de saúde e decência, partiam das despesas de trabalhadores qualificados, de renda mais alta, e de juízos subjetivos dos pesquisadores sobre o que seria adequado; descrevem um padrão médio ideal, não um mínimo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 2.242",
+          "texto": "Renda anual que, segundo a média de seis orçamentos de mínimo de conforto atualizados para maio de 1920, os mineiros apresentaram como necessária a uma família média. A cifra de subsistência, por método semelhante, foi de US$ 1.772. O salário pedido para o trabalhador menos qualificado, US$ 6 por dia, daria só US$ 1.836 por ano no máximo de dias trabalhados."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda confusão é de lugar. Seis dos orçamentos de subsistência vinham de Nova York. Em 1918, o Bureau of Labor Statistics encontrou custo de vida médio de US$ 1.844,99 em Scranton, a única cidade do antracito pesquisada, contra US$ 1.525,66 em Nova York; nas 92 localidades estudadas, os valores iam de US$ 1.167,12 em Chippewa Falls a US$ 1.919,40 em Bisbee. Sem estudo local, conclui, nem uma aproximação grosseira é possível."
+        },
+        {
+          "tipo": "p",
+          "texto": "Há ainda a família-tipo: pai como único assalariado, mãe e três filhos menores de 14 anos. No censo de 1910, as famílias tinham em média 4,5 pessoas. No estudo federal de 1901, as famílias com esse perfil eram 44% do total e tinham em média 3,96 pessoas; as famílias de cinco ou mais costumam ter filhos mais velhos e outras rendas. Stecker conclui que o uso descuidado dos orçamentos desacreditou o método e pede novos padrões ou outra forma de medir o custo de vida."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "stecker-orcamentos-familiares-e-salarios",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Mudar a taxa de redesconto basta para controlar o crédito?",
+          "artigo": "1804514",
+          "credito": "Anna Youngman (Brooklyn, N. Y.) · “The Efficacy of Changes in the Discount Rates of the Federal Reserve Banks” · pp. 466–485"
+        },
+        {
+          "tipo": "p",
+          "texto": "Youngman começa por uma distinção: uma coisa é saber se convém restringir ou ampliar o crédito; outra é saber se a taxa de desconto do banco central é capaz de fazê-lo. Quem concorda sobre o fim pode divergir sobre o meio. Na Europa, Vissering, na conferência de Bruxelas, e McKenna, em discurso aos acionistas do London Joint City and Midland, sustentavam que a inflação monetária criada pelos empréstimos de guerra não se corrige com a taxa do banco, mas com o pagamento da dívida pública."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, observa, a opinião técnica e o Federal Reserve Board tratavam a eficácia como evidente. O próprio Board, porém, ora atribuía à alta de taxas um sucesso marcado, ora admitia que não havia como negar crédito a usos indesejáveis sem negá-lo também aos desejáveis. As estatísticas, diz a autora, não decidem a questão, porque os mesmos dados servem aos dois lados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seu argumento central é estrutural. Os juros de curto prazo pesam pouco nos custos de produção. E o sistema regional não serve a um mercado centralizado como o de Londres: atende milhares de bancos pequenos, com taxas locais ditadas pelo costume. Um banco do oeste que empresta a 8%, 10% ou 12% não deixa de redescontar por causa de uma alta fracionária."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 692.163",
+          "texto": "Juros pagos pela Cudahy Company em 1912, diante de despesas totais de US$ 90,6 milhões, segundo dados da Federal Trade Commission citados por Youngman. Em 1917, foram US$ 1,55 milhão sobre US$ 182,2 milhões. Em 155 lojas de ferragens pesquisadas por Harvard em 1919, o valor típico dos juros foi de 3,3% das vendas líquidas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O que contraiu o crédito em 1920, sustenta, foi a recusa direta de empréstimos e a pressão por pagamento; as altas da taxa foram apenas o anúncio de uma política mais dura. As taxas do Federal Reserve Bank de Nova York ficaram abaixo das de mercado e seguiram seus movimentos, em vez de antecipá-los."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Meros sinais externos do início de uma política mais severa em relação aos bancos membros.”",
+          "original": "“Mere outward signs of the initiation of a sterner policy toward member banks.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para que a taxa funcione, propõe mantê-la acima das de mercado nos grandes centros e criar mercados de desconto amplos e competitivos, não baseados sobretudo em aceites bancários, com operações de mercado aberto em notas promissórias comerciais e empréstimos contra garantia de ações."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "youngman-a-eficacia-das-taxas-de-redesconto",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O custo da guerra pode passar às gerações futuras?",
+          "artigo": "1804515",
+          "credito": "Alvin H. Hansen (The University of Minnesota) · “Shifting the War Burden”; Lewis H. Haney (New York University) · “Integration in Marketing” · pp. 486–489"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção de comunicações traz duas notas. Na primeira, Alvin H. Hansen, da University of Minnesota, discute o discurso presidencial de Davenport, publicado no número de março. Davenport sustentara que nenhuma parte do custo de uma guerra pode ser transferida às gerações futuras: elas herdam os impostos para pagar juros e principal da dívida, mas também os títulos. O que sai de um bolso entra no outro, e a única transferência possível seria entre classes, dos portadores de títulos para o resto da sociedade."
+        },
+        {
+          "tipo": "p",
+          "texto": "Hansen aceita o raciocínio numa sociedade estática e o ilustra. O senhor A compra US$ 100.000 em títulos, proporcionais à sua renda, a juros de 4,5%. Recebe US$ 4.500 por ano do governo e paga US$ 4.500 em impostos de guerra, também proporcionais à renda. Os títulos nada valem para ele; o filho herda títulos e impostos e fica como estaria se o pai tivesse pago tudo de uma vez."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 33.333",
+          "texto": "Valor líquido dos títulos do senhor A depois de 25 anos numa sociedade em crescimento, no exemplo de Hansen. Se a renda do país sobe 50%, a parcela de A na renda nacional cai e seus impostos de guerra passam a US$ 3.000; com US$ 4.500 de juros, ele fica US$ 1.500 à frente por ano, valor que, capitalizado a 4,5%, dá a cifra."
+        },
+        {
+          "tipo": "p",
+          "texto": "A pergunta de Hansen é se, numa sociedade com população, riqueza e renda crescentes, parte do ônus não passa ao futuro sem redistribuição entre classes: A continua pagando na proporção da renda, mas o aumento da renda nacional assume parte do encargo. O argumento, acrescenta, vale também com imposto progressivo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda nota, Lewis H. Haney, da New York University, responde às críticas de L. D. H. Weld, da Swift & Co., a seu artigo “Integration in Marketing”, do número de setembro anterior. Haney diz ter sido mal interpretado: a necessidade de métodos novos e caros de comercialização, como o vagão frigorífico, justificaria em parte a integração feita pelos frigoríficos; e a Cudahy Company mostra que um frigorífico pode fazer o essencial sem o porte de Armour e Swift. Cita como propaganda excessiva um anúncio de duas páginas, em cores, de um prato de presunto com ovos, e mantém o juízo de que a integração movida pela publicidade não traz benefício público."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem Abbott Payson Usher sobre o estudo de Herbert Heaton das indústrias de lã de Yorkshire; Lewis C. Gray sobre o livro de W. H. R. Curtler a respeito dos cercamentos ingleses; Alexander E. Cance sobre Wages and Empire, de Vyvyan Ashleigh Lyons; D. A. McCabe sobre The Frontier of Control, de Carter L. Goodrich, com prefácio de R. H. Tawney; Walter W. Stewart sobre Banking Progress, de J. Laurence Laughlin; Carl C. Plehn sobre as conferências de Columbia reunidas em The Federal Income Tax e sobre British War Finance and the Consequences, de T. J. Kiernan; John Graham Brooks sobre a crítica de Maurice Williams à interpretação econômica da história; e Willford I. King sobre The Problem of Estimation, de Correa Moylan Walsh. Seguem listas de livros novos por área, uma seção de documentos com notas sobre a lei de serviços públicos de Nova York, um relatório da Califórnia sobre concessionárias, um estudo de custo de vida de Massachusetts e um relatório sobre crédito rural em Ontário, os resumos de periódicos e as notas, com a lista de novos sócios."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de setembro de 1921 é um exercício sobre a distância entre o indicador e a coisa medida. Douglas e Lamberson testam se dez indústrias substituem quinze e se o preço dos alimentos representa o custo de vida antes de concluir qualquer coisa sobre o salário real; Stecker mostra que um orçamento feito para um lugar e um propósito muda de sentido quando transplantado para outro, e que a família-tipo pode descrever uma minoria.",
+            "Youngman aplica a mesma desconfiança à política monetária: uma taxa oficial que segue o mercado pode parecer eficaz sem causar nada. Ruggles e Putnam, em terrenos diferentes, tratam de regras que produzem incentivos não previstos, da isenção tributária que favorece um tipo de banco ao terminal que serve para capturar carga. E Hansen mostra como uma conclusão correta num modelo estático pode mudar quando se admite crescimento."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Salário real",
+          "salário nominal dividido por um índice de preços; mede o que o salário compra."
+        ],
+        [
+          "Ganhos semanais integrais",
+          "salário-hora multiplicado pela jornada semanal estabelecida, sem descontar desemprego nem somar horas extras."
+        ],
+        [
+          "Banco de terra por ações (joint-stock land bank)",
+          "banco privado criado sob a lei de crédito agrícola de 1916, autorizado a emitir títulos lastreados em hipotecas rurais."
+        ],
+        [
+          "Taxa de redesconto",
+          "juro cobrado pelo banco central ao descontar títulos apresentados pelos bancos comerciais."
+        ],
+        [
+          "Aceite bancário",
+          "letra de câmbio que um banco se compromete a pagar no vencimento, comum no financiamento do comércio exterior."
+        ],
+        [
+          "Empréstimo de call (call loan)",
+          "empréstimo resgatável a qualquer momento, em geral garantido por ações e usado no mercado de bolsa."
+        ],
+        [
+          "Família-tipo",
+          "unidade padrão usada nos orçamentos: pai assalariado, mãe e três filhos menores de 14 anos."
+        ]
+      ],
+      "hoje": "Os temas de setembro de 1921 seguem em debate. A medição do salário real ainda depende da escolha do índice de preços e do tratamento das horas trabalhadas. Salários mínimos e cálculos de salário digno continuam a partir de orçamentos de famílias de referência, e a pergunta de Stecker sobre qual família representar permanece. A eficácia da taxa básica dos bancos centrais, sua relação com as taxas de mercado e a ideia de que a dívida pública transfere ônus às gerações futuras continuam no centro da política econômica.",
+      "itens": [
+        [
+          "The Movement of Real Wages, 1890-1918",
+          "pp. 409–426",
+          "1804510"
+        ],
+        [
+          "Recent Developments in the Federal Farm Loan System",
+          "pp. 427–437",
+          "1804511"
+        ],
+        [
+          "Railway Service and Regulation in Port Terminals",
+          "pp. 438–446",
+          "1804512"
+        ],
+        [
+          "Family Budgets and Wages",
+          "pp. 447–465",
+          "1804513"
+        ],
+        [
+          "The Efficacy of Changes in the Discount Rates of The Federal Reserve Banks",
+          "pp. 466–485",
+          "1804514"
+        ],
+        [
+          "Shifting the War Burden",
+          "pp. 486–489",
+          "1804515"
+        ],
+        [
+          "New Books",
+          "pp. 490–492",
+          "1804516"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 492-494",
+          "pp. 492–494",
+          "1804517"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 494-498",
+          "pp. 494–498",
+          "1804518"
+        ],
+        [
+          "New Books",
+          "pp. 498–502",
+          "1804519"
+        ],
+        [
+          "New Books",
+          "pp. 503–504",
+          "1804520"
+        ],
+        [
+          "New Books",
+          "pp. 504",
+          "1804521"
+        ],
+        [
+          "New Books",
+          "pp. 504–505",
+          "1804522"
+        ],
+        [
+          "New Books",
+          "pp. 505–506",
+          "1804523"
+        ],
+        [
+          "New Books",
+          "pp. 506–511",
+          "1804524"
+        ],
+        [
+          "New Books",
+          "pp. 511–512",
+          "1804525"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 512-513",
+          "pp. 512–513",
+          "1804526"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 513-515",
+          "pp. 513–515",
+          "1804527"
+        ],
+        [
+          "New Books",
+          "pp. 515–519",
+          "1804528"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 519-521",
+          "pp. 519–521",
+          "1804529"
+        ],
+        [
+          "New Books",
+          "pp. 521–523",
+          "1804530"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 523-527",
+          "pp. 523–527",
+          "1804531"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 527-529",
+          "pp. 527–529",
+          "1804532"
+        ],
+        [
+          "New Books",
+          "pp. 529–532",
+          "1804533"
+        ],
+        [
+          "New Books",
+          "pp. 532–533",
+          "1804534"
+        ],
+        [
+          "New Books",
+          "pp. 533–536",
+          "1804535"
+        ],
+        [
+          "New Books",
+          "pp. 536",
+          "1804536"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 537-538",
+          "pp. 537–538",
+          "1804537"
+        ],
+        [
+          "New Books",
+          "pp. 538–540",
+          "1804538"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-09-01), pages 540-541",
+          "pp. 540–541",
+          "1804539"
+        ],
+        [
+          "New Books",
+          "pp. 541–543",
+          "1804540"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 544–557",
+          "1804541"
+        ],
+        [
+          "Periodicals",
+          "pp. 558–588",
+          "1804542"
+        ],
+        [
+          "Notes",
+          "pp. 589–600",
+          "1804543"
+        ]
+      ],
+      "jstor_edicao": "i304572",
+      "artigos": [
+        {
+          "titulo": "The Movement of Real Wages, 1890-1918",
+          "autores": "Paul H. Douglas (University of Chicago) e Frances Lamberson (Portland, Oregon)",
+          "paginas": "pp. 409–426",
+          "jstor": "1804510",
+          "resumo": "Estende até 1918 a série de salários reais de Rubinow e conclui que, ao fim da guerra, a hora de trabalho comprava de 10% a 20% menos que na década de 1890."
+        },
+        {
+          "titulo": "Recent Developments in the Federal Farm Loan System",
+          "autores": "George E. Putnam (Chicago, Illinois)",
+          "paginas": "pp. 427–437",
+          "jstor": "1804511",
+          "resumo": "A decisão da Suprema Corte de fevereiro de 1921 sobre a lei de crédito agrícola, a disputa entre bancos de terra e companhias hipotecárias e o problema da isenção tributária."
+        },
+        {
+          "titulo": "Railway Service and Regulation in Port Terminals",
+          "autores": "C. O. Ruggles (State University of Iowa)",
+          "paginas": "pp. 438–446",
+          "jstor": "1804512",
+          "resumo": "As causas da ineficiência nos terminais portuários e a proposta de unificá-los sob companhias de terminal neutras, por lei federal."
+        },
+        {
+          "titulo": "Family Budgets and Wages",
+          "autores": "Margaret Loomis Stecker (New York City)",
+          "paginas": "pp. 447–465",
+          "jstor": "1804513",
+          "resumo": "Critica o uso de orçamentos de família nas arbitragens salariais: padrões ideais tomados por mínimos, dados transplantados de outras cidades e uma família-tipo pouco representativa.",
+          "ensaio_slug": "stecker-orcamentos-familiares-e-salarios"
+        },
+        {
+          "titulo": "The Efficacy of Changes in the Discount Rates of The Federal Reserve Banks",
+          "autores": "Anna Youngman (Brooklyn, N. Y.)",
+          "paginas": "pp. 466–485",
+          "jstor": "1804514",
+          "resumo": "Sustenta que as mudanças nas taxas de redesconto do Federal Reserve não foram a arma efetiva do controle do crédito e propõe criar mercados de desconto amplos.",
+          "ensaio_slug": "youngman-a-eficacia-das-taxas-de-redesconto"
+        },
+        {
+          "titulo": "Shifting the War Burden",
+          "autores": "Alvin H. Hansen (The University of Minnesota); Lewis H. Haney (New York University)",
+          "paginas": "pp. 486–489",
+          "jstor": "1804515",
+          "resumo": "Duas comunicações: Hansen sobre a transferência do custo da guerra numa sociedade em crescimento; Haney, em “Integration in Marketing”, responde a L. D. H. Weld."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 490–492",
+          "jstor": "1804516",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Herbert Heaton, The Yorkshire Woollen and Worsted Industries",
+          "autores": "Abbott Payson Usher (Boston University)",
+          "paginas": "pp. 492–494",
+          "jstor": "1804517",
+          "resumo": "Monografia sobre a história das indústrias de lã cardada e penteada de Yorkshire."
+        },
+        {
+          "titulo": "W. H. R. Curtler, The Enclosure and Redistribution of Our Land",
+          "autores": "Lewis C. Gray",
+          "paginas": "pp. 494–498",
+          "jstor": "1804518",
+          "resumo": "História dos cercamentos e da redistribuição da terra na Inglaterra."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 498–502",
+          "jstor": "1804519",
+          "resumo": "Lista de livros novos: história econômica e geografia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 503–504",
+          "jstor": "1804520",
+          "resumo": "Lista de livros novos: agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 504",
+          "jstor": "1804521",
+          "resumo": "Lista de livros novos: indústria manufatureira."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 504–505",
+          "jstor": "1804522",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 505–506",
+          "jstor": "1804523",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 506–511",
+          "jstor": "1804524",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócio, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 511–512",
+          "jstor": "1804525",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "Vyvyan Ashleigh Lyons, Wages and Empire",
+          "autores": "Alexander E. Cance",
+          "paginas": "pp. 512–513",
+          "jstor": "1804526",
+          "resumo": "Livro que liga os salários à relação entre terra agrícola disponível e população e propõe o desenvolvimento econômico do império britânico."
+        },
+        {
+          "titulo": "Carter L. Goodrich, The Frontier of Control: A Study in British Workshop Politics",
+          "autores": "D. A. McCabe",
+          "paginas": "pp. 513–515",
+          "jstor": "1804527",
+          "resumo": "Estudo sobre até onde os trabalhadores britânicos reivindicaram e obtiveram controle na indústria."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 515–519",
+          "jstor": "1804528",
+          "resumo": "Lista de livros novos: trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "J. Laurence Laughlin, Banking Progress",
+          "autores": "Walter W. Stewart (Amherst College)",
+          "paginas": "pp. 519–521",
+          "jstor": "1804529",
+          "resumo": "Relato de um contemporâneo sobre a legislação bancária americana dos últimos vinte e cinco anos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 521–523",
+          "jstor": "1804530",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Robert M. Haig e outros, The Federal Income Tax",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 523–527",
+          "jstor": "1804531",
+          "resumo": "Conferências feitas na Columbia University em dezembro de 1920 sobre o imposto de renda federal."
+        },
+        {
+          "titulo": "T. J. Kiernan, British War Finance and the Consequences",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 527–529",
+          "jstor": "1804532",
+          "resumo": "Dissertação de mestrado na National University of Ireland sobre as finanças de guerra britânicas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 529–532",
+          "jstor": "1804533",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 532–533",
+          "jstor": "1804534",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 533–536",
+          "jstor": "1804535",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 536",
+          "jstor": "1804536",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "Maurice Williams, The Social Interpretation of History",
+          "autores": "John Graham Brooks (Cambridge, Mass.)",
+          "paginas": "pp. 537–538",
+          "jstor": "1804537",
+          "resumo": "Crítica à interpretação econômica marxista da história."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 538–540",
+          "jstor": "1804538",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "Correa Moylan Walsh, The Problem of Estimation",
+          "autores": "Willford I. King",
+          "paginas": "pp. 540–541",
+          "jstor": "1804539",
+          "resumo": "Uma controvérsia do século XVII e sua relação com questões estatísticas modernas, em especial os números-índice."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 541–543",
+          "jstor": "1804540",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 544–557",
+          "jstor": "1804541",
+          "resumo": "Documentos oficiais, entre eles a lei de serviços públicos de Nova York, um relatório da Califórnia sobre concessionárias, custo de vida em Massachusetts e crédito rural em Ontário."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 558–588",
+          "jstor": "1804542",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 589–600",
+          "jstor": "1804543",
+          "resumo": "Lista de novos sócios da associação e notícias sobre economistas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "stecker-orcamentos-familiares-e-salarios",
+          "titulo": "Stecker e a família que o orçamento inventou",
+          "titulo_original": "Family Budgets and Wages",
+          "autores": "Margaret Loomis Stecker (New York City)",
+          "paginas": "pp. 447–465",
+          "jstor": "1804513",
+          "chamada": "Margaret Loomis Stecker examina os orçamentos de família usados nas arbitragens salariais de 1920 e conclui que padrão, lugar e família-tipo foram escolhidos sem conferência com os fatos.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em julho de 1920, a United States Anthracite Coal Commission, encarregada de arbitrar os salários dos mineiros de antracito, recebeu como prova dezesseis estudos de orçamento familiar. Margaret Loomis Stecker, de Nova York, considera que nenhum tribunal havia examinado com tanto cuidado a relação entre orçamento de família e salário, e usa o caso como ponto de partida de seu artigo na American Economic Review de setembro de 1921."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo trata de um instrumento antigo posto a serviço novo. Desde Le Play e Engel, lembra a autora, orçamentos de família foram coletados para estudar o comércio internacional, as condições de vida dos assalariados, a assistência aos pobres e o salário mínimo. Até a guerra, quase não se usaram nos Estados Unidos para reajustar salários. Em 1915, um estudo de custo de vida foi feito para fixar os salários dos trabalhadores não qualificados da prefeitura de Nova York; a partir de 1917, vieram as arbitragens, os casos do National War Labor Board e, em 1920, as disputas de bondes, ferroviários e mineiros, decididas em grande parte pela exatidão dos números de custo de vida."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que estava em disputa no antracito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O argumento dos mineiros, apresentado por W. Jett Lauck, era que o princípio de fazer os salários acompanharem o custo de vida fora uma medida de guerra e devia dar lugar a outro: todo assalariado tem direito a um salário vital, que cubra as necessidades físicas e deixe algum saldo para conforto, saúde, lazer e educação. Os orçamentos que até então mediam o mínimo, como o de Chapin, de 1907, e o da comissão de fábricas do estado de Nova York, de 1914, passaram a ser descritos como mera subsistência."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os operadores responderam que não havia divergência sobre o princípio, só sobre o que constitui um salário vital. Os orçamentos apresentados não eram de famílias da região; o teste justo seria examinar a prosperidade da comunidade onde a indústria domina, e citaram o aumento dos depósitos de poupança na região do antracito. Stecker reduz o problema a três perguntas: a adequação da renda pode ser medida por orçamentos? Se pode, é preciso sempre um estudo local? Ou um estudo feito num lugar serve de medida em outro?"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Mínimo ou ideal?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A autora contesta que os orçamentos antigos fossem de subsistência. Um sinal está na parcela gasta com despesas diversas, onde fica a maior margem para o que não é estritamente essencial. Quando a família assalariada média gastava cerca de 20% da renda nesses itens, as famílias de Mrs. More gastavam 21,5%; as de Chapin com renda de US$ 800 a US$ 900, 16%; as de Kennedy, 15,1%. Eram orçamentos modestos, mas incluíam lazer, médico, seguro, igreja, sindicato e transporte."
+            },
+            {
+              "tipo": "p",
+              "texto": "O novo padrão, surgido em 1917 com os nomes de mínimo de conforto ou de saúde e decência, partia de outro grupo. O orçamento de Peixotto para San Francisco falava do trabalhador típico; o da arbitragem dos bondes de Seattle e Tacoma vinha de trabalhadores qualificados; o de Ogburn para o National War Labor Board, de operários de estaleiros de Nova York com rendas mais altas. Os testes objetivos de alimentação e moradia perdiam peso, e a opinião do pesquisador sobre o que seria adequado decidia conteúdo e custo. Tais orçamentos, conclui, retratam um padrão médio ideal, não o nível abaixo do qual nenhuma família deveria cair."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 1.772",
+              "texto": "Custo anual de subsistência de uma família de cinco pessoas apresentado pelos mineiros, obtido pela média de dez estimativas de 1905 a 1919 atualizadas para 1º de maio de 1920. O mesmo método, aplicado a seis orçamentos de mínimo de conforto, deu US$ 2.242. Seis dos orçamentos de subsistência vinham de estudos feitos em Nova York."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Um orçamento viaja de uma cidade para outra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Stecker, esse foi o erro mais importante. Três pesquisas feitas ao mesmo tempo e pelos mesmos métodos em Nova York e Buffalo deram resultados distintos. Na pesquisa do Bureau of Labor Statistics de 1918, Scranton, a única cidade da região do antracito incluída, teve custo médio de US$ 1.844,99 para uma família de 5,2 pessoas, contra US$ 1.525,66 em Nova York e US$ 1.460 em Buffalo. Nas 92 localidades pesquisadas, o custo ia de US$ 1.167,12 em Chippewa Falls, Wisconsin, a US$ 1.919,40 em Bisbee, Arizona."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os aumentos também divergiam. Segundo o Bureau, o custo de vida do país subira 110,2% entre dezembro de 1914 e junho de 1920; em Detroit, 136%; em San Francisco, 96%. Aplicar um índice geral a uma cidade específica podia dar um retrato muito errado. O orçamento em quantidades preparado para a família de um funcionário público em Washington, que deveria ser precificado em qualquer lugar, esbarrou em cidades mineiras onde certos artigos simplesmente não existiam no comércio local."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na arbitragem da Boston Elevated Railway Company, na primavera de 1920, os empregados rejeitaram orçamentos que refletiam as condições locais porque não alcançavam o padrão de Washington, embora este não pudesse ser realizado ali. A companhia sabia, diz a autora, que milhares de homens em Boston sustentavam a família decentemente com 75 centavos por hora ou menos, valor que o representante dos empregados considerava abaixo da subsistência."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem é a família de cinco?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo problema, menos visível, é a família-tipo: pai como único assalariado, mãe e três filhos menores de 14 anos. Stecker reúne as evidências. O censo de 1910 dava 4,5 pessoas por família. Nos estudos de assalariados sem seleção prévia, a média fica perto de cinco, mas inclui filhos mais velhos, parentes, pensionistas e outras rendas. No estudo federal de 1901, com 25.440 famílias e média de 4,88 pessoas, as famílias classificadas como normais, sem filhos acima de 14 anos nem pensionistas, eram 11.156, ou 44% do total, com média de 3,96 pessoas e custo por pessoa maior: US$ 157,13, contra US$ 143,29."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Há comparativamente poucas famílias de assalariados inteiramente dependentes dos ganhos do chefe da família.”",
+              "original": "“There are comparatively few families of wage-earners who are entirely dependent on the earnings of the head of the family.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A frase é de Louise B. More, citada pela autora. Nas 200 famílias de More, o pai respondia por 63,5% da renda média; entre as de Kennedy, nos currais de Chicago, por 54,5%. Na pesquisa do British Board of Trade de 1909, a parcela do pai caía de 93,2% nas famílias de menor renda para 44,4% nas de maior. Dados da Metropolitan Life Insurance Company sobre 663 famílias mostraram média de 2,4 filhos, dos quais só 34% tinham menos de 16 anos."
+            },
+            {
+              "tipo": "p",
+              "texto": "As médias de cinco pessoas, além disso, eram muitas vezes produzidas pela seleção. Chapin escolheu famílias com dois a quatro filhos menores de 16 anos e descartou 106 questionários, um sexto do total, por terem menos de quatro ou mais de seis pessoas. As instruções da pesquisa federal de 1918 exigiam que ao menos 75% da renda viesse do chefe ou de quem entregasse todos os ganhos ao fundo familiar e excluíam famílias com pensionistas; a média final de 4,9 pessoas pouco diz, portanto, sobre o tamanho real das famílias."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quando o trabalho da mulher e dos filhos indica pobreza?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Adotar a família de cinco com um só assalariado implica que o salário do pai deve cobrir sozinho o padrão mínimo. Stecker mostra por que isso leva a perguntas sem resposta pronta. Na maioria dos estados americanos havia pouca oportunidade de empregar menores de 14 anos; se os filhos que trabalham têm 14 anos ou mais, a família deixa de ser normal. Dezesseis anos é a idade usual da licença para trabalhar, mas protege saúde e educação, não define situação econômica. Estudos sobre a saída da escola indicam outros fatores além da pobreza."
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo vale para o trabalho das mulheres casadas e para os pensionistas. O British Board of Trade notou que cerca de um terço dos chamados pensionistas eram, na verdade, filhos mais velhos que entregavam uma quantia fixa à família, e que em muitos casos a pensão servia para pagar a compra da casa ou alugar uma moradia maior. A autora sugere um estudo que diga se a alta de salários de 1914 a 1920 manteve mais crianças na escola e reduziu o emprego de mulheres casadas; até então, ninguém o fizera."
+            },
+            {
+              "tipo": "p",
+              "texto": "Suas conclusões são cinco: o uso extenso de orçamentos para fixar salários é novo no país; a troca do mínimo antigo por um padrão de trabalhadores qualificados exige estudo cuidadoso da base do mínimo; medir uma comunidade por padrões de outra pôs em dúvida todo o método; a família de cinco com um só assalariado não é a mais representativa; e o descrédito resultante pede novos padrões ajustados aos fatos ou outro meio de medir o custo de vida."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo de Stecker é uma aula sobre amostragem antes que a palavra se tornasse comum nos debates salariais. Ela mostra que uma média pode ser produzida pelo critério de seleção, como no caso de Chapin, e que uma unidade de medida escolhida por conveniência passa a ser tratada como descrição da realidade. O ponto não é que o orçamento seja inútil, mas que o resultado depende de quem foi incluído, onde e com que propósito.",
+                "O texto também separa duas perguntas que costumam vir juntas: quanto custa um padrão de vida e quem, dentro da família, deve pagá-lo. A primeira é empírica e local; a segunda envolve normas sobre o trabalho de mulheres e filhos que nenhum orçamento resolve sozinho. Ao distinguir as duas, Stecker deixa claro o que a estatística pode e o que não pode decidir numa arbitragem."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Orçamento de família",
+              "registro ou estimativa das despesas de uma família por categoria, usado para medir padrão e custo de vida."
+            ],
+            [
+              "Salário vital",
+              "salário que cobre as necessidades físicas e deixa margem para algum conforto, saúde e educação."
+            ],
+            [
+              "Orçamento em quantidades",
+              "lista de bens e serviços em quantidades e qualidades definidas, para ser precificada em diferentes lugares e datas."
+            ],
+            [
+              "Família-tipo",
+              "unidade padrão dos orçamentos: pai assalariado, mãe e três filhos menores de 14 anos."
+            ]
+          ],
+          "hoje": "O problema de Stecker continua atual. Cálculos de salário mínimo e de salário digno ainda partem de famílias de referência, e a escolha do tamanho, da composição e do número de assalariados muda o resultado. Diferenças de custo de vida entre cidades seguem desafiando pisos nacionais, e o debate sobre usar cestas definidas por especialistas ou gastos observados das famílias permanece em aberto nas estatísticas oficiais."
+        },
+        {
+          "slug": "youngman-a-eficacia-das-taxas-de-redesconto",
+          "titulo": "Youngman e a taxa que seguia o mercado",
+          "titulo_original": "The Efficacy of Changes in the Discount Rates of the Federal Reserve Banks",
+          "autores": "Anna Youngman (Brooklyn, N. Y.)",
+          "paginas": "pp. 466–485",
+          "jstor": "1804514",
+          "chamada": "Anna Youngman argumenta que as altas da taxa de redesconto de 1919–1920 não foram a arma efetiva da contração do crédito e propõe criar mercados de desconto amplos e competitivos.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 23 de janeiro de 1920, o Federal Reserve Bank de Nova York elevou para 6% sua taxa para papel comercial. A taxa de mercado já estava em 6% havia semanas. Quando, em 1º de junho, a taxa oficial subiu para 7%, o papel comercial era negociado a 7,5% havia nove semanas. Para Anna Youngman, do Brooklyn, os dois episódios resumem o problema de seu artigo na American Economic Review de setembro de 1921: a taxa do banco central seguia o mercado, em vez de conduzi-lo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Convém usar a taxa ou ela funciona?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A autora começa separando duas questões que, a seu ver, o debate confundia. Uma é a conveniência de restringir ou estimular o crédito em dado momento; outra é a eficácia da taxa de desconto como meio para isso. Pessoas que concordam sobre o fim podem divergir sobre o meio, e a falta dessa distinção produzia discussões em que os lados não se encontravam. Há ainda divergências de momento: quem pede alta de juros numa fase pode pedir redução em outra sem incoerência."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na Europa, lembra, muitos opositores da alta de juros não eram inflacionistas. Vissering, na conferência financeira internacional de Bruxelas, argumentou que a abundância de moeda depreciada não viera de crédito fácil nem de especulação e que a alta da taxa não teria efeito; os remédios seriam a amortização da dívida pública e o racionamento do crédito pelo banco emissor. McKenna, em 28 de janeiro de 1921, disse aos acionistas do London Joint City and Midland que a inflação monetária só se desfaria com o pagamento de parte da dívida nacional. O Economist de Londres seguiu a mesma linha."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que dizia o próprio Federal Reserve?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos Estados Unidos, a opinião técnica, representada por Sprague e Moulton, tratava a eficácia como dada, e o Federal Reserve Board parecia aceitá-la. Em carta de 10 de junho de 1919, o Board dizia que a especulação poderia normalmente ser corrigida por uma alta da taxa, impraticável naquele momento por causa do financiamento do governo. Em julho de 1920, o boletim do Board afirmava que o controle por meio de taxas mais altas tivera sucesso marcado. Mas em outubro de 1919 o mesmo boletim admitira não haver meio, no sistema de reservas, de negar crédito a usos indesejáveis sem negá-lo também aos desejáveis."
+            },
+            {
+              "tipo": "p",
+              "texto": "Diante de opiniões oficiais que se anulam, conclui a autora, a autoridade não decide a questão; tampouco as estatísticas, porque as forças que criam ou destroem crédito são numerosas demais para isolar o efeito de uma só, e os mesmos dados servem aos dois lados. Trata-se de argumentar a priori, com apoio apenas negativo dos fatos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Juros altos afastam o especulador?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Gustav Cassel, no memorando preparado para Bruxelas, defendera que juros altos, ao exprimir a escassez real de capital, dispensariam restrições burocráticas ao crédito. Os críticos perguntavam por que o especulador, à espera de lucros excepcionais com preços em alta, reduziria suas operações por causa de um ou dois pontos a mais de juros. Youngman acha que, sem dados sobre o peso dos juros para cada grupo, uma opinião vale tanto quanto outra, e que separar especulação ilegítima de negócio normal é tarefa impossível."
+            },
+            {
+              "tipo": "p",
+              "texto": "Ela rejeita também a analogia entre a taxa de desconto e o preço de uma mercadoria escassa. Juros mais altos podem deslocar empréstimos de uma praça para outra, mas não fazem surgir novos fundos bancários; o banco vende serviços de transferência de bens e de crédito, limitados por uma reserva que ele próprio pode obter tomando emprestado. Num auge, o tomador marginal pagaria mais, o que mostra que as taxas não são fixadas de forma estritamente competitiva."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "1,6%",
+              "texto": "Peso típico dos juros totais nas vendas líquidas de 159 atacadistas de mercearia em 1919, segundo o Bureau of Business Research de Harvard, citado por Youngman. Nas lojas de ferragens, o valor típico foi de 3,3%; nas farmácias, de 3,1%. Na Cudahy Company, os juros foram US$ 1,55 milhão sobre despesas de US$ 182,2 milhões em 1917."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí sua tese sobre custos: a insistência na eficácia dos juros de curto prazo exagera seu peso nas despesas de produção, dominadas por trabalho e materiais. O juro parece grande ao tomador porque não vem acompanhado de um bem tangível, e quando o negócio vai mal recebe uma parte desproporcional da culpa. A dependência de crédito bancário varia muito entre empresas, e por isso mudanças fortes de taxa afetam concorrentes de forma desigual."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o sistema americano não é o Banco da Inglaterra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto central do artigo é que a discussão americana supunha uma relação direta entre a taxa oficial e as taxas de mercado, como no sistema inglês. Mesmo o Banco da Inglaterra, lembra a autora, tinha dificuldade de impor sua taxa antes da guerra, e sua autoridade repousava na deferência voluntária do mercado. Nos Estados Unidos não há costume nem lei que alinhe as taxas. Os doze bancos regionais servem a milhares de bancos pequenos, de interesses domésticos, que sentem pouco a concorrência; os bancos de reserva evitam redescontar entre si, e a própria lei preferiu doze bancos a um só."
+            },
+            {
+              "tipo": "p",
+              "texto": "As taxas locais variam muito, e o tomador de uma cidade pequena muitas vezes não tem alternativa ao banco local. Que efeito tem uma alta fracionária, pergunta Youngman, sobre um banco de um estado do oeste ou do sudoeste que empresta a 8%, 10% ou 12%? Nenhum, se ele está pressionado por pedidos e vê lucro no redesconto. O único remédio, nesse caso, é a recusa pura e simples de emprestar."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A recusa direta de expandir certas classes de empréstimos e a pressão pelo pagamento de outros foram os fatores eficazes.”",
+              "original": "“Downright refusal to expand certain classes of loans and pressure for repayment of others were the potent factors.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A autora admite que a política anunciada pelo Board, sinalizada pelas altas de taxa, apressou uma contração inevitável e atenuou suas consequências. Mas as altas, diz, só tiveram efeito porque vieram acompanhadas de ação direta. O boletim de setembro de 1920 registrava que as taxas médias do banco de Nova York ficaram cerca de 1,5 ponto abaixo do mercado até novembro de 1919. A taxa oficial, nesse quadro, premiava o redesconto em vez de penalizá-lo, e o efeito de sinal só funciona quando coincide com o interesse de quem o recebe."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que seria preciso para a taxa funcionar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Primeiro, manter as taxas oficiais acima das de mercado nos grandes centros, para que o redesconto deixe de ser fonte de lucro e os bancos membros não usem os recursos do sistema como acréscimo permanente de capital. A autora relata um estudo próprio sobre onze grandes bancos de Nova York em 1918 e 1919: alguns expandiram operações sem relação com sua capacidade, enquanto outros só redescontaram com relutância no fim de 1919."
+            },
+            {
+              "tipo": "p",
+              "texto": "Segundo, criar mercados de desconto amplos e competitivos. As operações de mercado aberto se limitavam à compra de aceites bancários a taxas artificialmente baixas, e esse mercado não se desenvolvera como se esperava: em 1º de abril de 1921 havia US$ 664,1 milhões em aceites, 18% menos que um ano antes. Ela propõe estender as operações a notas promissórias comerciais, base do crédito doméstico, e permitir empréstimos contra garantia de ações, a taxas de mercado. As proibições existentes, argumenta, não impediam que os recursos chegassem à especulação; só aumentavam a incerteza e as oscilações das taxas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Quanto ao mercado de call de Nova York, Youngman observa que a demanda especulativa num auge é muito inelástica: taxas altas não significam demanda contida, e podem atrair fundos que iriam para outros empréstimos. Se os bancos de reserva pudessem quebrar taxas anormais por empréstimo direto, prestariam um serviço. O objetivo geral é evitar deslocamentos bruscos do crédito entre usos comerciais e de investimento, porque ambos sustentam a liquidez um do outro."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a contribuição mais duradoura de Youngman é metodológica: distinguir o que uma política pretende do que o instrumento consegue fazer, e perguntar se um indicador antecede ou acompanha aquilo que supostamente causa. Quando a taxa oficial sobe depois das taxas de mercado, a correlação entre alta de juros e contração do crédito não prova que a primeira produziu a segunda.",
+                "O artigo também mostra que a transmissão da política monetária depende da estrutura do sistema financeiro. Num mercado fragmentado, com bancos locais e pouca concorrência, a taxa do banco central chega fraca ao tomador final. A autora não descarta o instrumento; argumenta que sua eficácia teria de ser construída, com taxas acima do mercado e mercados de desconto capazes de transmitir o sinal."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Taxa de redesconto",
+              "juro cobrado pelo banco central ao descontar títulos apresentados pelos bancos comerciais."
+            ],
+            [
+              "Bancos membros",
+              "bancos comerciais filiados ao Federal Reserve, obrigados a manter reservas nos bancos regionais."
+            ],
+            [
+              "Operações de mercado aberto",
+              "compra e venda de títulos pelo banco central no mercado, por iniciativa própria."
+            ],
+            [
+              "Aceite bancário",
+              "letra de câmbio que um banco se compromete a pagar no vencimento."
+            ],
+            [
+              "Mercado de call",
+              "mercado de empréstimos resgatáveis a qualquer momento, em geral garantidos por ações."
+            ]
+          ],
+          "hoje": "A pergunta de Youngman segue atual. Bancos centrais discutem até que ponto a taxa básica chega às taxas cobradas de famílias e empresas e quanto depende da estrutura do sistema bancário. A ideia de que o banco central deve conduzir as taxas de mercado, e não segui-las, tornou-se regra em muitos regimes, e o debate sobre usar juros ou instrumentos diretos contra excessos de crédito em mercados de ativos continua aberto."
+        }
+      ]
     }
   ],
   "proximas": [
