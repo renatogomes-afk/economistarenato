@@ -30387,70 +30387,189 @@
       "blocos": [
         {
           "tipo": "p",
-          "texto": "Como financiar a reforma social e, ao mesmo tempo, um seguro mais pesado para a segurança comercial e territorial? É o duplo problema com que J. Watson Grice, de Londres, abre seu balanço da tributação inglesa. O governo liberal fora eleito em 1906 prometendo conter o gasto, e se viu diante de necessidades públicas sempre maiores."
-        },
-        {
-          "tipo": "caixa",
-          "valor": "72 milhões",
-          "texto": "Custo anual, em libras, de preservar a segurança do Império, segundo Grice, contra 45 milhões doze anos antes. Na tabela do artigo, a estimativa para 1911-12 soma 27,7 milhões para o Exército e 44,4 milhões para a Marinha."
+          "texto": "Num artigo recente, um dos principais engenheiros de eficiência dos Estados Unidos previra que a administração científica eliminaria quase todas as causas de disputa entre patrões e empregados. John R. Commons, da University of Wisconsin, abre o número de setembro de 1911 da American Economic Review lembrando que os porta-vozes dos sindicatos reagiam de outro modo, com hostilidade e suspeita, e quer saber por quê."
         },
         {
           "tipo": "p",
-          "texto": "O número de setembro de 1911 é o terceiro da American Economic Review. Traz seis artigos, 43 resenhas organizadas por área, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação."
+          "texto": "É o terceiro número da revista. Traz seis artigos, 43 resenhas organizadas por área, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação. Os artigos cobrem três terrenos. Commons e J. Maurice Clark tratam de como repartir custos e ganhos, entre empregadores e empregados num caso, entre consumidores de serviços públicos no outro. J. Watson Grice, Ernest L. Bogart e John A. Fairlie descrevem a tributação da Inglaterra, de Ohio e de Illinois. Ira B. Cross faz o balanço da cooperação na Califórnia. Os dois primeiros artigos têm páginas comentadas próprias."
         },
         {
           "tipo": "h2",
-          "texto": "O que trazem os dois primeiros artigos?"
+          "texto": "Os sindicatos são contra a eficiência?",
+          "artigo": "1828092",
+          "credito": "John R. Commons (University of Wisconsin) · “Organized Labor's Attitude Toward Industrial Efficiency” · pp. 463–472"
         },
         {
           "tipo": "p",
-          "texto": "John R. Commons sustenta que a oposição sindical à administração científica é contra a barganha individual imposta pelo sistema de bônus, e não contra a eficiência. J. Maurice Clark defende cobrar de cada consumidor de gás, eletricidade ou telefone pela parte que lhe cabe na demanda de pico. Os dois têm páginas comentadas próprias."
+          "texto": "A pergunta de Commons é se sindicalismo e administração científica estão em conflito irreconciliável, ou se a oposição entre os dois é um acidente que pode ser corrigido para que ambos prosperem juntos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira tese é que o sindicato é restritivo por natureza. Para Commons, a produção é tarefa do empregador; o sindicato que se dedica a produzir vira cooperativa, e as cooperativas operárias ou se tornaram empresas comuns, com assalariados, ou faliram cortando preços. O sindicato moderno contenta-se em amarrar as mãos do patrão, e quase todas as suas restrições nascem do esforço de preservar a própria organização, que para o sindicalista experiente vale mais do que ganhar greves."
+        },
+        {
+          "tipo": "p",
+          "texto": "A evidência é a história dos moldadores de fogões. Durante quarenta anos antes de 1890, os fabricantes praticaram por tentativa os princípios da eficiência: divisão do trabalho e tarifa por peça. Cada ganho de produção por homem derrubava o preço dos fogões, cada queda de preço forçava corte na tarifa por peça, e cada corte obrigava o trabalhador a produzir mais pelo mesmo ganho, num círculo vicioso de eficiência fútil, nas palavras do autor. Os moldadores responderam com limites a aprendizes, tetos de ganho e recusa a trabalhar com não sindicalizados. O círculo foi rompido pelo acordo coletivo, com conferências conjuntas, que mantinha a paz no setor havia mais de vinte anos: o patrão que corta a tarifa é expulso da associação patronal, e o sindicato retirou os limites à produção. Foram precisos cerca de quinze anos de acordo para chegar a esse resultado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Commons aplica o exemplo ao sistema de bônus. O sindicato dos maquinistas de locomotiva, o menos restritivo de todos, exigiu da ferrovia Santa Fe que o abandonasse depois de poucos meses de teste. O que se rejeitava, diz ele, era o “princípio” por trás do bônus: a barganha individual no lugar da coletiva. O contrato de salário é, na prática, um contrato novo a cada manhã, e as medições do engenheiro são apenas uma forma mais precisa de evidência numa disputa decidida pelo poder de barganha."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que se deve primeiro investigar e organizar as relações de barganha, e só depois fixar padrões e registros subordinados a essa organização, substituindo tanto quanto possível a barganha individual pela coletiva. Com essa garantia, argumenta Commons, os trabalhadores respondem com a mesma razoabilidade dos demais."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "commons-sindicatos-e-eficiencia",
+          "texto": "Ler o comentário completo"
         },
         {
           "tipo": "h2",
-          "texto": "Como tributavam a Inglaterra e os estados americanos?"
+          "texto": "Quem deve pagar pela capacidade de uma usina?",
+          "artigo": "1828093",
+          "credito": "J. Maurice Clark (Amherst College) · “Rates for Public Utilities” · pp. 473–487"
         },
         {
           "tipo": "p",
-          "texto": "Grice descreve as respostas inglesas: aumento do imposto sobre a renda das propriedades, um imposto adicional sobre rendas acima de £5.000, que o governo estimava atingir cerca de 10.000 contribuintes, e os impostos sobre o valor da terra, que deveriam dar receita crescente ao Estado e aliviar os tributos locais sobre imóveis ocupados."
+          "texto": "Clark parte de um contraste: as ferrovias haviam abandonado havia muito a tarifa uniforme, mas entre os serviços públicos só as usinas de eletricidade classificavam consumidores de forma sistemática. O gás continuava vendido por mil pés cúbicos, e o telefone oscilava entre a tarifa fixa, que ignora o serviço prestado, e a cobrança por chamada, que só considera isso. A pergunta é como desenhar tarifas justas que aproveitem ao máximo a capacidade das usinas."
         },
         {
           "tipo": "p",
-          "texto": "Nos Estados Unidos, o problema era o imposto geral sobre a propriedade. Ernest L. Bogart conta como Ohio, cuja constituição de 1851 exigia tributar toda propriedade por uma regra uniforme, passou a separar impostos especiais sobre empresas e criou uma comissão tributária permanente. Na primeira avaliação da comissão, a base tributável das ferrovias aumentou cerca de US$ 20 milhões, perto de 100%."
+          "texto": "O autor reduz o problema a dois princípios: justiça, pela qual cada consumidor paga os custos de que é responsável, e uso mais eficiente da usina. O exemplo é o telefone. Com serviço ilimitado, o assinante faz chamadas inúteis; pagando muito por chamada, usa pouco e deixa a central ociosa. Daí a regra de que o uso adicional deve custar algo próximo de seu baixo custo direto."
         },
         {
           "tipo": "p",
-          "texto": "John A. Fairlie mostra que Illinois, terceiro estado em população e em indústria, mantinha formas de tributação do tempo dos pioneiros. A lei previa abertamente a avaliação a uma fração do valor de mercado: desde 1909, um terço do valor pleno."
+          "texto": "O núcleo é a repartição dos custos fixos. A usina é dimensionada pelo pico de demanda, não pela média. Como eletricidade e telefone não podem ser estocados, a usina elétrica pode operar com fator de 25% ou menos, contra cerca de 60% da usina de gás, que armazena o produto. Cálculos feitos em St. Louis mostram o peso do critério: pela carga instalada, a tarifa residencial sairia mais de dez vezes a municipal; pela participação efetiva no pico, menos de três vezes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark sustenta que a regra da responsabilidade pelo pico só vale estritamente quando a usina opera perto da capacidade. Com capacidade ociosa, concessões pelo que o tráfego suporta são legítimas, desde que evitem discriminações injustas; à medida que a demanda cresce, as tarifas devem convergir para o custo. Contra o engenheiro-chefe da comissão de St. Louis, argumenta que um sistema de custo perfeito seria também o mais conveniente, pois deslocaria o consumo e transformaria o pico num platô."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na forma das tarifas, descreve os sistemas de prontidão para servir (readiness to serve), com cobranças separadas por capacidade e por energia, e as tarifas em degraus que embutem a capacidade nas primeiras horas de uso. Por fim, propõe mudar as leis que fixam tarifas máximas uniformes e permitir lucros maiores, por cerca de três anos, à empresa que reduzir tarifas ou melhorar o serviço."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "clark-tarifas-de-servicos-publicos",
+          "texto": "Ler o comentário completo"
         },
         {
           "tipo": "h2",
-          "texto": "E a cooperação na Califórnia?"
+          "texto": "Como a Inglaterra pagou a reforma social e a Marinha?",
+          "artigo": "1828094",
+          "credito": "J. Watson Grice (Londres) · “Recent Developments in Taxation in England” · pp. 488–504"
         },
         {
           "tipo": "p",
-          "texto": "Ira B. Cross encontra o êxito cooperativo mais nítido do estado na comercialização de frutas cítricas. A California Fruit Growers' Exchange movimentava mais de US$ 20 milhões por ano em produtos de pomar para cerca de 6.000 produtores."
+          "texto": "Grice abre com o que chama de duplo problema do governo liberal britânico: financiar a reforma social e, ao mesmo tempo, um seguro mais pesado para a segurança comercial e territorial. Eleito em 1906 com a promessa de conter o gasto, o governo viu a despesa nacional passar de 150 milhões para 181 milhões de libras. A Marinha, que custava 33 milhões em 1906, pedia mais de 44 milhões; as pensões para idosos, estimadas em 6 milhões em 1908, chegavam a 13 milhões."
         },
         {
-          "tipo": "caixa",
-          "valor": "60%",
-          "texto": "Parcela da safra de frutas cítricas da Califórnia comercializada pela California Fruit Growers' Exchange, segundo Cross. Nenhuma das 46 lojas do modelo Rochdale do estado pagava dividendo sobre compras a não sócios, prática comum na Inglaterra; para Cross, essas cooperativas eram, na prática, associações de lucro."
+          "tipo": "p",
+          "texto": "O autor identifica três linhas de política dos chanceleres liberais. A primeira foi reduzir a dívida: nos três primeiros anos, a dívida consolidada e flutuante caiu em média quase 15 milhões por ano. A segunda, aumentar a tributação direta com algumas concessões ao contribuinte indireto: o orçamento de 1906 baixou o imposto sobre o chá de 6 para 5 pence por libra-peso, e o de 1907 reduziu o imposto de renda sobre rendas ganhas de até £2.000 e elevou os impostos sobre heranças acima de £150.000. Para Grice, 1907 marcou a aceitação tácita de que o imposto de renda deixara de ser reserva para tempos de guerra e passara a eixo permanente das finanças britânicas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O centro do artigo é o orçamento de 1909, de Lloyd George, diante de um déficit previsto de 16 milhões e três quartos. O lado indireto elevou em 30% o imposto sobre destilados e em 20% o do tabaco. O lado direto subiu o imposto sobre rendas não ganhas, criou um imposto adicional sobre rendas acima de £5.000, estimado para cerca de 10.000 contribuintes, aumentou os impostos sobre heranças e concedeu abatimento de £10 por filho menor de 16 anos para rendas entre £160 e £500."
+        },
+        {
+          "tipo": "p",
+          "texto": "A novidade eram os impostos sobre o valor da terra: 20% sobre o incremento de valor, 10% sobre o benefício do arrendador ao fim dos arrendamentos, um imposto sobre terra não aproveitada e outro sobre direitos minerais, todos apoiados numa avaliação do valor do terreno nu. A estimativa oficial era de cinco anos e dois milhões de libras para a avaliação; o rendimento previsto para o ano era de apenas £700.000."
+        },
+        {
+          "tipo": "p",
+          "texto": "A terceira linha era a relação entre finanças nacionais e locais, ainda em aberto e entregue a um comitê."
         },
         {
           "tipo": "h2",
-          "texto": "O que mais traz o número?"
+          "texto": "Como Ohio reformou o imposto sobre a propriedade?",
+          "artigo": "1828095",
+          "credito": "Ernest L. Bogart (University of Illinois) · “Recent Tax Reforms in Ohio” · pp. 505–518"
         },
         {
           "tipo": "p",
-          "texto": "Na seção de moeda e bancos, David Kinley resenha The Purchasing Power of Money, de Irving Fisher, com reservas sobre a coerência do argumento, mas sem dúvida sobre seu peso. Edward L. Thorndike resenha o Motion Study de Frank B. Gilbreth, e dois volumes do Pittsburgh Survey tratam dos trabalhadores do aço e das famílias de Homestead."
-        },
-        {
-          "tipo": "citacao",
-          "texto": "Para Kinley, o livro de Fisher pode ser chamado “o mais importante livro americano do ano no campo da economia”.",
-          "original": "“the most important American book of the year in the field of economics”"
+          "texto": "Bogart explica por que Ohio, em 1911, chamava a atenção dos estudiosos de tributação: a primeira comissão tributária permanente publicara seu relatório, os eleitores tinham autorizado uma convenção constitucional, e a legislatura aprovara leis novas sobre impostos e finanças."
         },
         {
           "tipo": "p",
-          "texto": "As notas registram 167 novos sócios e assinantes desde o número anterior, com total de 2.160 sócios em 20 de julho de 1911. Lucile Eaves publica uma carta em que contesta a resenha de Ira B. Cross sobre seu livro de história da legislação trabalhista da Califórnia."
+          "texto": "O ponto de partida é a constituição de 1851, que mandava tributar toda propriedade, tangível ou intangível, por regra uniforme e pelo valor real em dinheiro. Durante cerca de quarenta anos, o imposto geral sobre a propriedade foi praticamente a única receita. Mesmo assim, menos de 10% dos impostos do estado recaíam sobre a propriedade intangível, e as empresas escapavam com pouca ou nenhuma tributação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta foi fragmentar o sistema. Desde a década de 1890, Ohio criou impostos sobre franquias, impostos de consumo sobre empresas de serviços públicos e participação estadual nos impostos sobre bebidas. Em 1902, deixou de cobrar o imposto estadual sobre a propriedade para o fundo geral, compensado pela elevação do imposto sobre a receita bruta das empresas de serviços públicos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma comissão nomeada em 1906 fez cinco recomendações, e quatro foram praticamente adotadas em dois anos. A convenção constitucional, que poderia abolir a regra de uniformidade, foi aprovada em votação de 1910. As avaliações de imóveis, antes decenais, passaram a ser quadrienais, e as cidades passaram a publicar a avaliação de cada lote, para que cada contribuinte pudesse comparar a sua com as dos vizinhos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A peça principal, para o autor, é a comissão tributária permanente de 1910, com três membros. Ela centralizou a avaliação das empresas de serviços públicos e diferenciou as alíquotas: 4% da receita bruta intraestadual para ferrovias e oleodutos, 2% para empresas de expresso e telégrafo, 1,2% para as demais. Em sua primeira avaliação, a base tributável das ferrovias aumentou cerca de US$ 20 milhões, perto de 100%. Bogart mostra também o tamanho da subavaliação: em quatro condados, em 1906, o valor tributado ia de 36% a 50% do preço de venda dos imóveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para que a reavaliação não elevasse a carga, uma lei limitou a alíquota total, e a legislatura de 1911 fixou o teto em dez milésimos, com comissões de orçamento em cada condado. A reforma anistiou os bens declarados em 1910 e passou a cobrar cinco anos de atrasados sobre os omitidos a partir de 1911."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Illinois tributava como no tempo dos pioneiros?",
+          "artigo": "1828096",
+          "credito": "John A. Fairlie (University of Illinois) · “Taxation in Illinois” · pp. 519–534"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairlie parte de um descompasso. Illinois era o terceiro estado em população e em indústria e tinha a segunda maior cidade do país, mas tributava com formas e métodos nascidos no tempo dos pioneiros, quando o estado ainda era sobretudo agrícola. A base era o imposto geral sobre a propriedade, exigido pela constituição; a avaliação ficava com funcionários de municípios e condados, quase sem supervisão estadual."
+        },
+        {
+          "tipo": "p",
+          "texto": "O histórico mostra, segundo o autor, um sistema formado ao acaso. Depois da Guerra Civil, Illinois esteve na vanguarda: a constituição de 1870 e a lei de receita de 1872 deram a uma junta estadual de equalização o poder de avaliar ferrovias e o capital das empresas. Em 1873, a primeira avaliação das ferrovias pela junta passou de US$ 25 milhões para US$ 138 milhões. A reação veio logo, e por quase vinte anos a administração se deteriorou: em 1880, o valor avaliado voltara a cerca de um quarto do valor verdadeiro estimado pelo censo, contra mais de dois terços em 1850."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei passou então a reconhecer a subavaliação. Em 1898, o valor tributável foi fixado em um quinto do valor pleno; em 1909, em um terço. Fairlie mostra que nem isso se cumpria. Os imóveis, cerca de 75% da base, eram avaliados em alguns dos 102 condados a não mais de 20% do valor verdadeiro. A propriedade intangível escapava quase toda. Os impostos pagos pelas ferrovias caíram de 13% do lucro líquido em 1890 para 11% em 1908. O capital declarado pelas empresas à junta estadual em 1909 foi de US$ 480 milhões; ao fisco federal, no ano seguinte, as empresas com sede em Illinois declararam US$ 3,19 bilhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado, conclui, era uma alíquota nominal alta, uma carga mal distribuída e receita pública escassa: a receita estadual por habitante era menos da metade da de Nova York e da de Massachusetts."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairlie, autor de um relatório descritivo e estatístico para a comissão especial criada em 1909, resume as recomendações dela: uma emenda constitucional que desse à legislatura liberdade para classificar e tributar de modo distinto os bens móveis, avaliadores de condado no lugar dos municipais e uma comissão tributária estadual permanente, de três membros com mandato de seis anos. O projeto da comissão permanente não foi aprovado pela Assembleia Geral."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A cooperação deu certo na Califórnia?",
+          "artigo": "1828097",
+          "credito": "Ira B. Cross (Stanford University) · “Co-operation in California” · pp. 535–544"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cross faz um balanço da cooperação na Califórnia, tentada desde a corrida do ouro. A primeira parte é histórica: companhias de mineração e de colonização, fundições cooperativas em San Francisco depois da ferrovia transcontinental de 1869, lojas, laticínios e até bancos da Grange nos anos 1870, nenhum dos quais sobreviveu à desagregação da organização, e colônias inspiradas no movimento de Bellamy."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte são as lojas de consumo. Havia cerca de cinquenta no estado, com capital aproximado de US$ 700 mil e 7.000 acionistas. Quarenta e seis seguiam o modelo de Rochdale: juros fixos sobre o capital, em geral 8%, ações iguais, um voto por sócio e distribuição das sobras na proporção das compras. Todas tinham ações da Rochdale Wholesale Company, atacadista fundada em San Francisco em 1899, cujas vendas chegavam a US$ 335 mil em 1910. Cross aponta a fraqueza: as próprias lojas compravam de outros atacadistas quando lhes convinha. E o número caía. Em 1905, o autor contara 64 lojas cooperativas, 51 delas do modelo Rochdale; destas, só 23 continuavam em funcionamento."
+        },
+        {
+          "tipo": "p",
+          "texto": "O artigo registra outros casos: uma cooperativa de carne formada em Oakland por sindicalistas açougueiros, o mercado cooperativo dos horticultores que abasteciam San Francisco, que fixava preços semanais, e as companhias mútuas de seguro contra incêndio de dezessete condados."
+        },
+        {
+          "tipo": "p",
+          "texto": "O maior êxito estava na agricultura, sobretudo nos cítricos. A California Fruit Growers' Exchange, organizada em 1905 depois de duas décadas de tentativas iniciadas com a Orange Growers' Protective Union, movimentava mais de US$ 20 milhões por ano para cerca de 6.000 produtores e comercializava cerca de 60% da safra. Sua estrutura tinha três níveis: perto de cem associações locais com casas de embalagem, treze bolsas distritais e um conselho central. Controlando os embarques, a Exchange distribuía a fruta entre as cidades para evitar mercados abarrotados. Segundo Cross, reduziu à metade o custo de embalar, vender e cobrar, e no último ano rendeu ganho líquido de mais de US$ 3 milhões aos sócios."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo assim, as tentativas de cooperação entre produtores de amêndoas, nozes, ameixas e uvas-passas falharam. A conclusão do autor é que a cooperação não fora um sucesso no estado, por falta do ponto de vista cooperativo, e que as cooperativas eram, na prática, associações de lucro: nenhuma das 46 lojas Rochdale pagava dividendo sobre compras a não sócios, prática comum na Inglaterra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na seção de moeda e bancos, David Kinley resenha The Purchasing Power of Money, de Irving Fisher, com reservas sobre a coerência do argumento, mas chama o livro de “o mais importante livro americano do ano no campo da economia”. Edward L. Thorndike resenha o Motion Study de Frank B. Gilbreth, e dois volumes do Pittsburgh Survey tratam dos trabalhadores do aço e das famílias de Homestead. Lucile Eaves publica uma carta em que contesta a resenha de Ira B. Cross sobre seu livro de história da legislação trabalhista da Califórnia. As notas registram 167 novos sócios e assinantes desde o número anterior, com total de 2.160 sócios em 20 de julho de 1911."
         },
         {
           "tipo": "leitura",
@@ -30835,7 +30954,7 @@
           "paginas": "pp. 463–472",
           "jstor": "1828092",
           "ensaio_slug": "commons-sindicatos-e-eficiencia",
-          "resumo": "Commons pergunta se sindicalismo e administração científica estão em conflito irreconciliável. Sustenta que os sindicatos são restritivos por natureza, porque a produção é tarefa do empregador, e que suas restrições nascem do esforço de preservar a organização. Com a história dos moldadores de fogões, mostra como a eficiência sem organização levou a um círculo vicioso de cortes de preço e de tarifa por peça, rompido por um acordo coletivo. A objeção sindical ao sistema de bônus seria à barganha individual, e a saída, organizar a negociação antes de medir o trabalho."
+          "resumo": "Commons sustenta que a hostilidade sindical à administração científica é contra a barganha individual do sistema de bônus, e não contra a eficiência."
         },
         {
           "titulo": "Rates for Public Utilities",
@@ -30843,35 +30962,35 @@
           "paginas": "pp. 473–487",
           "jstor": "1828093",
           "ensaio_slug": "clark-tarifas-de-servicos-publicos",
-          "resumo": "Clark observa que, entre os serviços públicos, só a eletricidade classificara sistematicamente consumidores e tarifas, enquanto o gás seguia vendido por mil pés cúbicos e o telefone dividido entre tarifa fixa e cobrança por chamada. Com dois princípios, justiça e uso mais eficiente da usina, discute como repartir os custos de capacidade pela demanda de pico, quando se justificam descontos pelo que o tráfego suporta e que forma as tarifas devem ter. Propõe permitir lucros maiores, por cerca de três anos, à empresa que melhorar tarifas e serviço."
+          "resumo": "Clark discute como repartir entre consumidores de gás, eletricidade e telefone os custos de capacidade de uma usina, pela demanda de pico e pelo que o tráfego suporta."
         },
         {
           "titulo": "Recent Developments in Taxation in England",
           "autores": "J. Watson Grice (Londres)",
           "paginas": "pp. 488–504",
           "jstor": "1828094",
-          "resumo": "Grice trata do duplo problema do governo liberal britânico: financiar a reforma social e um gasto militar crescente, que custava 72 milhões, contra 45 milhões doze anos antes. Descreve o peso maior do imposto de renda sobre as rendas de propriedade, o imposto adicional sobre rendas acima de £5.000, estimado para cerca de 10.000 contribuintes, e os impostos sobre o valor da terra, com isenções para pequenos proprietários. Fecha com tabelas de receita e despesa de 1905-06, 1907-08 e da estimativa de 1911-12."
+          "resumo": "Grice descreve como o governo liberal britânico financiou a reforma social e o gasto militar crescente, do orçamento de 1906 aos impostos sobre o valor da terra de 1909."
         },
         {
           "titulo": "Recent Tax Reforms in Ohio",
           "autores": "Ernest L. Bogart (University of Illinois)",
           "paginas": "pp. 505–518",
           "jstor": "1828095",
-          "resumo": "Bogart parte da constituição de Ohio de 1851, que exigia tributar toda propriedade por regra uniforme pelo valor real, e mostra como o imposto geral sobre a propriedade se fragmentou em impostos especiais sobre empresas. Descreve a comissão tributária permanente, com poder de mandar reavaliar distritos, a diferenciação das alíquotas sobre serviços públicos e a primeira avaliação das ferrovias pela comissão, que elevou sua base em cerca de 100%. A reforma anistiou bens declarados em 1910 e passou a cobrar cinco anos de atrasados sobre os omitidos."
+          "resumo": "Bogart relata as reformas tributárias de Ohio, da regra de uniformidade de 1851 à comissão tributária permanente de 1910 e ao teto de alíquotas de 1911."
         },
         {
           "titulo": "Taxation in Illinois",
           "autores": "John A. Fairlie (University of Illinois)",
           "paginas": "pp. 519–534",
           "jstor": "1828096",
-          "resumo": "Fairlie mostra que Illinois, terceiro estado em população e em indústria, mantinha formas de tributação do tempo dos pioneiros: imposto geral sobre a propriedade, avaliação por funcionários de municípios e condados quase sem supervisão estadual e avaliação legal a uma fração do valor, um terço do valor pleno desde 1909. A Illinois Central pagava ao estado 7% da receita bruta das linhas originais. Resume as recomendações de um comitê, inclusive uma comissão tributária estadual, cujo projeto não passou."
+          "resumo": "Fairlie mostra as falhas do imposto geral sobre a propriedade em Illinois e resume as propostas da comissão especial de 1910."
         },
         {
           "titulo": "Co-operation in California",
           "autores": "Ira B. Cross (Stanford University)",
           "paginas": "pp. 535–544",
           "jstor": "1828097",
-          "resumo": "Cross percorre a história da cooperação na Califórnia: companhias de mineração da corrida do ouro, colônias agrícolas, fundições cooperativas em San Francisco depois da ferrovia transcontinental de 1869, lojas e bancos da Grange nos anos 1870. O maior êxito estava na comercialização de cítricos: a California Fruit Growers' Exchange, de 1905, vendia cerca de 60% da safra. Conclui que as cooperativas do estado eram, na prática, associações de lucro para seus sócios."
+          "resumo": "Cross faz o balanço da cooperação na Califórnia, das lojas Rochdale à California Fruit Growers' Exchange."
         },
         {
           "titulo": "Raymund de Waha, Die Nationalökonomie in Frankreich",
@@ -31576,44 +31695,117 @@
       "blocos": [
         {
           "tipo": "p",
-          "texto": "Em 16 de junho de 1909, o presidente Taft mandou ao Senado uma mensagem especial. Advertia que as propostas de imposto de renda em debate seriam provavelmente inconstitucionais e oferecia um substituto: um imposto federal sobre as sociedades. É com essa história que Maurice H. Robinson, da University of Illinois, abre o número de dezembro de 1911 da American Economic Review."
-        },
-        {
-          "tipo": "caixa",
-          "valor": "1%",
-          "texto": "Alíquota do imposto de 1909 sobre o lucro líquido das sociedades acima de US$ 5.000. O projeto previa 2%; a alíquota caiu porque a receita deveria complementar a das tarifas alfandegárias, e não substituí-la. O lançamento do primeiro ano somou US$ 27.290.767,43, além de cerca de US$ 125.000 em multas."
+          "texto": "Uma criança ganhou uma pera e um pêssego. Um menino tenta tomar as duas frutas, e o único jeito de salvar uma é largar a outra no mato e correr. Quanto custou o pêssego, que foi presente? Com perguntas assim, H. J. Davenport, da University of Missouri, explica no número de dezembro de 1911 da American Economic Review o que os economistas deveriam entender por custo."
         },
         {
           "tipo": "p",
-          "texto": "É o quarto número da revista, o último de 1911. Traz quatro artigos, uma comunicação de Carl Vrooman, 45 resenhas organizadas por área, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação."
+          "texto": "É o quarto número da revista, o último de 1911. Traz quatro artigos, uma comunicação de Carl Vrooman, 45 resenhas organizadas por área, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação. Dois artigos tratam de impostos e regulação: Maurice H. Robinson, da University of Illinois, reconstrói o imposto federal sobre as sociedades de 1909, e M. B. Hammond, da Ohio State University, relata a recusa da Interstate Commerce Commission aos aumentos de fretes de 1910. Henry Pratt Fairchild, de Yale, examina a relação entre imigração e crises. Robinson e Davenport têm páginas comentadas próprias."
         },
         {
           "tipo": "h2",
-          "texto": "O que trazem Robinson e Davenport?"
+          "texto": "Como nasceu o imposto federal sobre as sociedades?",
+          "artigo": "1806878",
+          "credito": "Maurice H. Robinson (University of Illinois) · “The Federal Corporation Tax” · pp. 691–723"
         },
         {
           "tipo": "p",
-          "texto": "Robinson mostra como uma lei que media o lucro pelo que fora efetivamente pago no ano foi reescrita, na prática, pelos regulamentos do Tesouro, e examina as brechas, a publicidade frustrada das declarações e as primeiras estatísticas sobre as sociedades americanas. H. J. Davenport, da University of Missouri, discute o que é custo de produção e conclui que ele é, sobretudo, a alternativa sacrificada. Os dois têm páginas comentadas próprias."
+          "texto": "Robinson reconstrói a origem do imposto federal sobre as sociedades, criado em 1909, e o examina como fonte de receita e como instrumento de supervisão das empresas. A história começa com a promessa do governo Taft de rever a tarifa alfandegária para baixo. O presidente propôs um imposto federal sobre heranças. A Câmara o aprovou, mas no Senado a ideia não teve apoio, e duas emendas criando um imposto de renda geral pareciam ter maioria. Em 16 de junho de 1909, Taft enviou ao Senado uma mensagem que recomendava uma emenda constitucional sobre o imposto de renda e, como substituto imediato, o imposto sobre sociedades, redigido pelo procurador-geral. A lei foi sancionada em 5 de agosto de 1909."
+        },
+        {
+          "tipo": "p",
+          "texto": "O imposto era de 1% sobre a renda líquida das sociedades acima de US$ 5.000. O autor dedica boa parte do artigo à definição de renda líquida. A lei falava em despesas “efetivamente pagas” no ano; os contadores protestaram que isso violava os princípios contábeis e obrigaria as empresas a manter livros duplicados. Segundo Robinson, foram os regulamentos do Tesouro, a partir de dezembro de 1909, que aproximaram o imposto da prática contábil: estoques, depreciação, e decisões caso a caso sobre o que é despesa e o que é investimento."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na avaliação econômica, o autor aponta efeitos não pretendidos. O imposto onera a forma societária diante das firmas individuais e das sociedades de pessoas. Como os juros são dedutíveis até o valor do capital integralizado, favorece o endividamento e estimula a inflação do capital social."
+        },
+        {
+          "tipo": "p",
+          "texto": "Como receita, a estimativa revista se confirmou: o lançamento do primeiro ano chegou a cerca de US$ 27,3 milhões. A publicidade das declarações foi praticamente suspensa por decisão administrativa e depois restrita: só se podiam consultar em Washington as declarações das empresas cujos títulos eram oferecidos ao público. A Suprema Corte declarou a lei constitucional, por unanimidade, em 1911."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por fim, o autor usa as estatísticas do Comissário da Receita Interna de 1910: 262.490 empresas. As de serviços públicos eram menos de 10% do total, mas tinham quase 56% das debêntures. O retorno sobre o capital ia de mais de 14% nas financeiras a 4,2% nos serviços públicos. Para Robinson, o imposto é um primeiro passo na supervisão federal das empresas interestaduais, e os dados reunidos deveriam ser publicados."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "robinson-imposto-federal-sobre-sociedades",
+          "texto": "Ler o comentário completo"
         },
         {
           "tipo": "h2",
-          "texto": "A saída de estrangeiros alivia as crises?"
+          "texto": "O que é, afinal, o custo de produção?",
+          "artigo": "1806879",
+          "credito": "H. J. Davenport (University of Missouri) · “Cost and Its Significance” · pp. 724–752"
         },
         {
           "tipo": "p",
-          "texto": "Henry Pratt Fairchild, de Yale, aproveita um dado novo: desde julho de 1907, os relatórios do Commissioner-General of Immigration registram também as saídas. Com uma tabela mensal de entradas e saídas de 1907 a 1910, conclui que a saída provocada pela crise é muito menor do que se supunha como alívio do mercado de trabalho, porque as entradas nunca cessam. No ano fiscal de 1908, saíram 714.828 estrangeiros."
+          "texto": "Davenport pergunta o que é o custo de produção e qual seu papel na formação do preço. Parte de Senior: o custo só influi no preço na medida em que determina ou modifica a oferta."
+        },
+        {
+          "tipo": "p",
+          "texto": "O conceito central é o custo de oportunidade (opportunity cost). Davenport o constrói com exemplos simples. Quem, com um dólar, hesita entre um livro e um canivete, mede o custo do livro pelo canivete, seu concorrente mais forte. Se um dia de trabalho rende um alqueire de trigo ou dois de milho, o trigo custou dois alqueires de milho."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na economia competitiva, o custo funciona como preço de reserva do produtor: o mínimo abaixo do qual a produção não continua. O exemplo do carpinteiro mostra a distinção entre lucro necessário e lucro excedente. Com um contrato de US$ 1.400 e US$ 800 pagos aos empregados, sobram US$ 600; como ele poderia ter ganho US$ 400 trabalhando por dia, seu custo é de US$ 1.200, e só US$ 200 são lucro acima do custo. A conta detalhada de um fazendeiro de trigo, com juros e o valor do próprio tempo incluídos, mostra uma colheita vendida por US$ 3.000 que custou cerca de US$ 3.140. A marginalidade, diz o autor, é relativa: o produtor marginal não é o de menor lucro, e sim o mais próximo da indiferença em relação à melhor alternativa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com isso, Davenport julga resolver a velha controvérsia entre utilidade e custo como fundamento do preço. Como o custo se reduz em grande parte às demandas concorrentes por outros produtos, o preço é o ponto de equilíbrio entre demandas opostas, e não há oposição real entre demanda e custo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mas o custo do empresário é, ainda assim, uma explicação superficial e circular: explica o preço do produto pelo preço dos fatores e o preço dos fatores pelo valor do produto. As causas últimas estão, de um lado, nas necessidades humanas e, de outro, na escassez da capacidade produtiva e do equipamento. O empresário é sobretudo o intermediário pelo qual essas causas se expressam numa sociedade competitiva. A conclusão é que valor e distribuição são o mesmo problema visto de dois lados, e que o empresário é em parte efeito e em parte causa da situação que dirige."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "davenport-custo-de-oportunidade",
+          "texto": "Ler o comentário completo"
         },
         {
           "tipo": "h2",
-          "texto": "Por que as ferrovias queriam subir os fretes?"
+          "texto": "A saída de estrangeiros alivia as crises?",
+          "artigo": "1806880",
+          "credito": "Henry Pratt Fairchild (Yale University) · “Immigration and Crises” · pp. 753–765"
         },
         {
           "tipo": "p",
-          "texto": "M. B. Hammond, da Ohio State University, relata os pedidos de aumento de fretes de 1910. A emenda Mann-Elkins dera à Interstate Commerce Commission o poder de suspender aumentos e pusera nas ferrovias o ônus de provar que a nova tarifa era justa. A comissão decidiu os dois casos, do Leste e do Oeste, em 22 de fevereiro de 1911 e exigiu que as ferrovias cancelassem os aumentos anunciados."
+          "texto": "Fairchild parte de um consenso da época, registrado também pela Comissão de Imigração: a imigração para os Estados Unidos era, antes de tudo, um fenômeno econômico, movido pelo desejo de melhorar de vida. Se é assim, pergunta o autor, qual é a relação entre a imigração e as crises industriais que marcavam a economia americana?"
         },
         {
           "tipo": "p",
-          "texto": "Pelos embarcadores, Louis D. Brandeis sustentou que a administração científica cobriria os custos maiores."
+          "texto": "Uma parte da resposta já era conhecida. John R. Commons mostrara que o volume de imigração acompanha a prosperidade: a curva de imigrantes por 10.000 habitantes seguia quase exatamente a das importações por habitante. Também era sabido que as depressões provocavam grande saída de estrangeiros, e a interpretação corrente via nesse êxodo um alívio, pois retiraria trabalhadores excedentes até a volta dos bons tempos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairchild testa essa interpretação com dados novos: desde julho de 1907, o Comissário-Geral de Imigração passara a registrar as partidas, e no período o país atravessara a crise de 1907. Com as séries mensais de chegadas e partidas, mostra que a reação foi imediata, com as partidas quase dobrando em novembro de 1907, mas curta: a população estrangeira só diminuiu de dezembro de 1907 a agosto de 1908. A redução total no período foi de 124.124 pessoas, número que mal chegava à imigração de um único mês movimentado. Para o autor, o efeito de alívio fora muito exagerado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A relação que considera importante é outra. Apoiado no esquema de Irving Fisher, descreve a crise como superprodução especulativa: quando os preços sobem 2% ao ano, um juro nominal de 6% equivale a cerca de 4% reais, o crédito se expande e os lucros estimulam a produção até o colapso. O salário poderia frear esse ciclo, obrigando os empresários a dividir lucros e a reconsiderar a expansão. Mas, com imigração ilimitada, cada aumento da demanda por trabalho era atendido por mais trabalhadores, e os salários não subiam. Por isso, diz Fairchild, não foi por acaso que o ano do pânico de 1907 foi também o ano recorde de imigração."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelo lado do subconsumo, salários contidos reduzem o poder de compra e a poupança dos trabalhadores, que poderia amortecer a queda da demanda depois da crise. O autor fecha com os dados anuais de 1908 a 1910 sobre estrangeiros residentes que saem e voltam, as chamadas aves de passagem (birds of passage), e conclui que o efeito da emigração sobre o mercado de trabalho era mínimo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a comissão negou o aumento dos fretes?",
+          "artigo": "1806881",
+          "credito": "M. B. Hammond (Ohio State University) · “Recent Efforts to Advance Freight Rates” · pp. 766–789"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hammond examina os processos em que a Interstate Commerce Commission, julgou os aumentos gerais de fretes propostos em 1910 pelas ferrovias do Leste e do Oeste. O ponto de partida é a década anterior. Nos anos 1890, a concorrência entre as linhas troncais do Leste derrubara as tarifas: na Pennsylvania, a receita média por tonelada-milha caiu de 0,686 centavo em 1889 para 0,473 centavo em 1899. O chamado plano de comunhão de interesses, pelo qual a New York Central e a Pennsylvania compraram o controle de concorrentes mais fracos, deteve a queda, e a média chegou ao ponto mais alto em 1904."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1910, depois de conceder aumentos salariais, as ferrovias do Leste propuseram elevar todas as tarifas por classe, de 8% na sexta classe a 20% nas três primeiras; as do Oeste, cerca de 200 tarifas por mercadoria. A emenda Mann-Elkins acabara de dar à comissão o poder de suspender aumentos e de pôr sobre as ferrovias o ônus de provar que eram razoáveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "As ferrovias alegaram um aumento salarial de mais de US$ 34 milhões, contra US$ 27 milhões de receita esperada com as novas tarifas; a alta do coeficiente de despesas, de 64,64% da receita em 1900 para 69,75% em 1908; e a necessidade de sustentar o crédito. Os embarcadores responderam que, mesmo sem aumento, a receita operacional líquida do ano encerrado em junho de 1910 crescera quase US$ 55 milhões e que as ferrovias não tinham tentado vender títulos com juros acima de 4%. O advogado Louis D. Brandeis levou testemunhas sobre a administração científica."
         },
         {
           "tipo": "citacao",
@@ -31621,16 +31813,20 @@
           "original": "“could effect an economy of perhaps $300,000,000 a year or not less than $1,000,000 a day”"
         },
         {
+          "tipo": "p",
+          "texto": "Em 22 de fevereiro de 1911, a comissão negou, por unanimidade, qualquer aumento por ora. Segundo os comissários Prouty e Lane, as ferrovias não provaram nenhum de seus argumentos: com o aumento salarial em vigor o ano inteiro, o lucro líquido das ferrovias do Leste em 1910 ainda teria superado o de 1909 em US$ 16 milhões; a dificuldade de vender títulos de 4% vinha da alta dos juros. A comissão pediu esforço de economia antes de qualquer aumento geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "A porta ficou aberta a aumentos pontuais em tarifas por mercadoria comprovadamente baixas, mas Hammond considera improvável, no curto prazo, a aprovação de um aumento geral."
+        },
+        {
           "tipo": "h2",
-          "texto": "O que mais traz o número?"
+          "texto": "O que mais há na edição?"
         },
         {
           "tipo": "p",
-          "texto": "Carl Vrooman contesta a resenha de E. R. Dewsnup sobre seu livro de problemas ferroviários e diz que uma réplica de 2.500 palavras não coube na revista. Entre as resenhas, Carl C. Plehn trata do The Income Tax, de Edwin R. A. Seligman; Edward D. Jones, dos Principles of Scientific Management, de Frederick W. Taylor; S. M. MacVane, das cartas de John Stuart Mill; e George Ray Wicker, das conferências de Jacob H. Hollander no centenário da primeira obra importante de Ricardo."
-        },
-        {
-          "tipo": "p",
-          "texto": "As notas anunciam a reunião anual em Washington, de 27 a 30 de dezembro, com Taft como orador sobre o orçamento. Mais de 650 sócios tinham entrado até 20 de outubro, mas as despesas também cresceram; com cerca de 2.200 sócios, a associação queria chegar a 3.000 para dispensar o fundo de garantia."
+          "texto": "Carl Vrooman contesta a resenha de E. R. Dewsnup sobre seu livro de problemas ferroviários. Entre as resenhas, Carl C. Plehn trata do The Income Tax, de Edwin R. A. Seligman; Edward D. Jones, dos Principles of Scientific Management, de Frederick W. Taylor; S. M. MacVane, das cartas de John Stuart Mill; e George Ray Wicker, das conferências de Jacob H. Hollander no centenário da primeira obra importante de Ricardo. As notas anunciam a reunião anual em Washington, de 27 a 30 de dezembro, com Taft como orador sobre o orçamento; com cerca de 2.200 sócios, a associação queria chegar a 3.000."
         },
         {
           "tipo": "leitura",
@@ -32025,7 +32221,7 @@
           "paginas": "pp. 691–723",
           "jstor": "1806878",
           "ensaio_slug": "robinson-imposto-federal-sobre-sociedades",
-          "resumo": "Robinson reconstrói a origem do imposto federal de 1909 sobre as sociedades, proposto por Taft como substituto do imposto de renda que o Senado parecia disposto a aprovar. A lei cobrava 1% do lucro líquido acima de US$ 5.000 e definia receitas e despesas pelo que fora efetivamente pago no ano, contra o parecer dos contadores; os regulamentos do Tesouro a reaproximaram da contabilidade usual. Robinson discute a limitação dos juros dedutíveis, o tratamento das holdings e das seguradoras mútuas, a publicidade das declarações, suspensa na prática, e as primeiras estatísticas sobre as sociedades do país."
+          "resumo": "Robinson reconstrói a origem do imposto federal de 1909 sobre as sociedades e examina sua base, seus efeitos, sua receita e suas primeiras estatísticas."
         },
         {
           "titulo": "Cost and Its Significance",
@@ -32033,21 +32229,21 @@
           "paginas": "pp. 724–752",
           "jstor": "1806879",
           "ensaio_slug": "davenport-custo-de-oportunidade",
-          "resumo": "Davenport sustenta que o custo de produção só influi no preço por meio da oferta, e que o custo relevante é, em geral, a alternativa sacrificada: o custo de oportunidade. Com exemplos numéricos, um carpinteiro, um fazendeiro de trigo e um fabricante de chapéus, separa o lucro necessário, que é parte do custo, do lucro excedente, e mostra que a marginalidade é questão de ganho relativo. Conclui que a velha disputa entre utilidade e custo perde o sentido, porque o custo consiste sobretudo em demandas concorrentes, e que o empresário é antes intermediário que causa do ajuste dos preços."
+          "resumo": "Davenport sustenta que o custo de produção relevante para o preço é, sobretudo, o custo de oportunidade, e que custo e demanda não se opõem."
         },
         {
           "titulo": "Immigration and Crises",
           "autores": "Henry Pratt Fairchild (Yale University)",
           "paginas": "pp. 753–765",
           "jstor": "1806880",
-          "resumo": "Fairchild examina a relação entre imigração e crises industriais com os dados de saída de estrangeiros, registrados oficialmente desde julho de 1907, e uma tabela mensal de entradas e saídas de janeiro de 1907 a dezembro de 1910. Reconhece que a prosperidade regula o volume de entradas e que a depressão provoca grande saída, mas conclui que o efeito dessa saída em aliviar o mercado de trabalho é muito menor do que se supunha, porque as entradas nunca cessam. Sustenta ainda que a imigração tende a agravar as crises, entre outros motivos por dificultar a formação de poupança dos trabalhadores no país."
+          "resumo": "Fairchild usa os registros de partidas desde 1907 para medir a relação entre imigração e crises industriais."
         },
         {
           "titulo": "Recent Efforts to Advance Freight Rates",
           "autores": "M. B. Hammond (Ohio State University)",
           "paginas": "pp. 766–789",
           "jstor": "1806881",
-          "resumo": "Hammond relata os casos de 1910 e 1911 em que as ferrovias do Leste e do Oeste tentaram elevar fretes e a Interstate Commerce Commission, com o novo poder de suspensão dado pela emenda Mann-Elkins, examinou os aumentos. A emenda pôs nas ferrovias o ônus de provar que a tarifa aumentada era justa e razoável, e Hammond descreve a disputa sobre o sentido dessa regra. Destaca o argumento dos embarcadores, levado por Louis D. Brandeis, de que a administração científica cobriria os custos maiores, e a decisão de fevereiro de 1911, que obrigou as ferrovias a cancelar os aumentos anunciados."
+          "resumo": "Hammond relata como a Interstate Commerce Commission negou, em 1911, os aumentos gerais de fretes propostos pelas ferrovias em 1910."
         },
         {
           "titulo": "Simon N. Patten, The Social Basis of Religion",
