@@ -59897,6 +59897,2287 @@
         ]
       ],
       "jstor_edicao": "i331377"
+    },
+    {
+      "slug": "1916-barometro-dos-negocios",
+      "numero": 144,
+      "titulo": "Um barômetro dos negócios, a capitalização do imposto e o crédito rural",
+      "titulo_original": "The American Economic Review, vol. VI, no. 4, December 1916",
+      "autores": "Warren M. Persons, George E. Putnam, Edwin R. A. Seligman e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 6, nº 4",
+      "data": "dezembro de 1916",
+      "chamada": "Persons constrói um barômetro dos negócios com séries anuais; Seligman defende a teoria da capitalização do imposto; Putnam, Blakey e Fairchild tratam do crédito rural, da lei de receitas e da tributação dos bancos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Depois da crise de 1907, o governo francês nomeou uma comissão de 44 membros, entre autoridades, senadores, deputados, banqueiros, estatísticos e economistas, para estudar como atenuar o desemprego das crises periódicas. Seu relatório, apresentado em 1911, recomendou oito índices da situação econômica, da carteira comercial do Banco da França ao tráfego das ferrovias, mas não chegou a combiná-los num barômetro único. Warren M. Persons, da Harvard University, parte desse relatório para abrir o número de dezembro de 1916 da American Economic Review com a tentativa de construir esse barômetro com séries anuais americanas de 1879 a 1913."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição tem oito artigos, quase todos sobre finanças públicas e regulação. George E. Putnam, da University of Kansas, examina a lei federal de crédito agrícola de julho de 1916; Edwin R. A. Seligman, da Columbia University, responde a T. S. Adams sobre a capitalização dos impostos; Paul L. Vogt, da Ohio State University, mede a renda do trabalho do agricultor; Frederick Kellogg Blue, de San Francisco, propõe um modo de subsidiar a marinha mercante; Roy G. Blakey, da University of Minnesota, descreve a nova lei de receitas de setembro de 1916; Fred Rogers Fairchild, da Yale University, trata da tributação estadual e local dos bancos; e Edmond E. Lincoln, da Harvard University, discute o controle do retorno das empresas de serviço público. Seguem resenhas organizadas por área, listas de livros novos, documentos, resumos de periódicos e as notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que séries anuais formam um barômetro dos negócios?",
+          "artigo": "1827527",
+          "credito": "Warren M. Persons (Harvard University) · “Construction of a Business Barometer Based upon Annual Data” · pp. 739–769"
+        },
+        {
+          "tipo": "p",
+          "texto": "Persons começa pelos barômetros comerciais em uso. Os serviços de Babson e de Brookmire, criados nos seis anos anteriores, somavam séries de natureza diversa, como compensações bancárias, preços, produção de ferro-gusa e imigração. Babson supunha que a lei de ação e reação de Newton valia para os negócios e que as áreas acima e abaixo da linha de crescimento normal deviam se igualar; Brookmire e M. T. Copeland eliminavam a tendência com médias dos dez anos anteriores. Persons objeta que as séries eram escolhidas sem análise científica, que os resultados não podiam ser conferidos e que as médias de dez anos pressupunham ciclos de duração fixa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A suposição de um ciclo de duração definida antecipa a conclusão.”",
+          "original": "“The assumption of a cycle of definite length anticipates the conclusion.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seu método parte dos preços no atacado, que Juglar, Mitchell, Aftalion e Veblen associavam às fases do ciclo. Para 1879–1913, período em que o país esteve todo no padrão-ouro, ele ajusta a cada série uma tendência secular suave, trata os desvios em relação a ela como ciclos e calcula o coeficiente de correlação de Pearson entre esses ciclos e os dos preços, no mesmo ano e com defasagens. Confere o resultado com as primeiras diferenças, isto é, as variações de um ano para o outro."
+        },
+        {
+          "tipo": "p",
+          "texto": "As compensações bancárias mostram por que a escolha importa. Corrigidas pelos preços, tinham correlação de +0,715 com os preços do mesmo ano e de +0,852 com os do ano seguinte: moviam-se um ano antes e, por isso, não deveriam entrar no mesmo índice que eles, como faziam Babson e Brookmire."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "9 séries",
+          "texto": "Compõem o barômetro de Persons: preços no atacado, receita bruta e lucro líquido das ferrovias, produção de carvão, exportações, importações, produção e preço do ferro-gusa e imigração. Cada série é expressa em unidades de seu desvio-padrão antes da média. As correlações de cada uma com o barômetro vão de +0,785 a +0,951."
+        },
+        {
+          "tipo": "p",
+          "texto": "As séries que se adiantam ao barômetro formam um previsor de um ano: ações vendidas na Bolsa de Nova York e seu preço médio, compensações corrigidas, nova quilometragem ferroviária e percentual de falências, este com o sinal invertido. Num teste de direção com três dessas séries, o previsor acertou o sentido da mudança do ano seguinte 25 vezes e errou 9. Persons conclui que a antecedência é de cerca de nove ou dez meses e que o passo seguinte exige dados trimestrais ou mensais."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "persons-barometro-dos-negocios",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei de crédito agrícola de 1916 criou?",
+          "artigo": "1827528",
+          "credito": "George E. Putnam (University of Kansas) · “The Federal Farm Loan Act” · pp. 770–789"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 17 de julho de 1916, o presidente Wilson sancionou a Federal Farm Loan bill. George E. Putnam reconstitui o caminho até ali. A Country Life Commission, criada em 1908, apontara a falta de um sistema adequado de crédito agrícola; o relatório da National Monetary Commission divulgara o landschaft alemão, sistema cooperativo de crédito hipotecário; e, em 1912, os três partidos apoiaram a reforma em suas convenções. A comissão americana enviada à Europa concluiu que a ajuda do governo era desnecessária e imprudente, e o projeto Moss-Fletcher, que seguia suas recomendações, foi acusado de ser uma lei de banqueiros. Prevaleceu a linha do Hollis-Bulkley, base do texto aprovado no Senado em 4 de maio e na Câmara em 15 de maio de 1916."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei combina três programas. Um Federal Farm Loan Board, formado pelo secretário do Tesouro e por quatro membros nomeados pelo presidente, divide o país em doze distritos, cada um com um banco federal de terras de capital mínimo de US$ 750 mil, que o Tesouro subscreve se faltarem compradores. Abaixo deles ficam as associações nacionais de crédito agrícola, de dez ou mais proprietários, que emprestam até 50% do valor da terra e 20% das benfeitorias, a juros de até 6%, por até quarenta anos. Onde as associações não se formarem, bancos locais podem servir de agentes; e grupos privados podem criar bancos de terras por ações, com capital mínimo de US$ 250 mil."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20 vezes",
+          "texto": "Limite de emissão de títulos hipotecários de cada banco federal de terras em relação a capital e reservas, com juros de até 5%; nos bancos por ações, o limite é de 15 vezes. Hipotecas e títulos ficam isentos de impostos federais, estaduais e locais, e o Tesouro pode depositar até US$ 6 milhões nos bancos federais em dificuldade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão de Putnam é crítica. Para ele, a lei é uma tentativa mal disfarçada de criar empréstimos do governo sob a capa da cooperação, uma medida de proprietários, complicada e cara, e o crédito dos proprietários caberia aos estados. A questão federal seria outra: ajudar os jovens agricultores a comprar terra, para conter o arrendamento e o esvaziamento do campo. Do modo como foi feita, conclui, a lei dá um subsídio aos atuais proprietários que pode agravar o problema do arrendamento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem compra um bem tributado se livra do imposto?",
+          "artigo": "1827529",
+          "credito": "Edwin R. A. Seligman (Columbia University) · “Tax Exemption Through Tax Capitalization: A Reply” · pp. 790–807"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em junho de 1916, T. S. Adams publicara na revista uma crítica à teoria da isenção pela capitalização do imposto: a ideia de que um imposto permanente sobre um bem reduz seu preço no valor capitalizado do imposto, de modo que quem compra depois fica livre dele. Adams associava a teoria aos defensores do imposto único sobre a terra. Seligman, da Columbia University, começa lembrando que se opõe ao imposto único desde seu primeiro debate público com Henry George, em 1892."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento separa as premissas. Seligman concorda que a teoria não justifica o programa do imposto único, mas por outra razão: a premissa maior, a capitalização, seria verdadeira; a menor, a de que os atuais donos de terra compraram livres do imposto, seria falsa, porque muitos já eram donos antes de o imposto ser criado ou aumentado. A teoria só se aplicaria a um imposto exclusivo, anunciado com taxa fixa e permanente e cobrado apenas de quem comprasse depois."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Capitalização é equalização; equalização é capitalização.”",
+          "original": "“Capitalization is equalization; equalization is capitalization.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Seligman, o que decide se um novo imposto geral é legítimo é o caráter do imposto antigo. Se uma propriedade já paga um imposto exclusivo e a capitalização é verdadeira, os novos compradores estão livres dele e podem pagar o imposto geral como todos; a Itália, ao contrário, isentou a terra do novo imposto de renda por considerá-la já tributada. Ele cita a estimativa de que, nas cidades americanas, a terra muda de mãos em média a cada vinte anos, o que reduz o número de donos originais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese de Adams de que a taxa de juros registra automaticamente a carga média dos impostos é o ponto que Seligman mais contesta. Um imposto pode reduzir a demanda por capital, mas também a poupança, e as duas forças tenderiam a se compensar. Como prova prática da capitalização, cita memoriais apresentados em Washington por banqueiros de investimento, que tratavam como fato de mercado a diferença de preço entre títulos isentos e não isentos do imposto de renda."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "seligman-capitalizacao-do-imposto",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto ganha o agricultor pelo próprio trabalho?",
+          "artigo": "1827530",
+          "credito": "Paul L. Vogt (Ohio State University) · “The Farmer's Labor Income” · pp. 808–822"
+        },
+        {
+          "tipo": "p",
+          "texto": "Paul L. Vogt parte de uma observação sobre o campo: o descontentamento vem menos de ter pouco do que de ter menos que os outros. Para comparar rendas, propõe separar empreendedores, gerentes assalariados e assalariados, e lembra que o agricultor reúne as três funções, além de fornecer terra e equipamento. A medida usada nos estudos de administração rural, a renda do trabalho, é o resultado da fazenda menos os juros sobre o capital; Vogt acrescenta o valor dos produtos consumidos em casa e da moradia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os dados vêm do Departamento de Agricultura. Pelo censo de 1910, a fazenda média tinha 188,1 acres, dos quais 75,2 cultivados, e investimento de US$ 6.444. As pesquisas de campo do Office of Farm Management, em condados do Maine a Washington, mostravam rendas do trabalho semelhantes em todas as regiões, e Vogt atribui a uniformidade a um mecanismo econômico: as diferenças de produtividade se refletem no valor da terra, não na renda de quem trabalha."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "49,4%",
+          "texto": "Proporção das rendas médias do trabalho, nas fazendas pesquisadas, entre US$ 200 e US$ 500; 68,2% ficavam abaixo de US$ 500. Entre as fazendas melhores, selecionadas pelos técnicos, 49,2% ficavam entre US$ 800 e US$ 1.200."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comparação entre arrendatários e proprietários reforça o argumento. No Iowa, no período 1907–1911, 722 arrendatários tiveram renda do trabalho de US$ 770, contra US$ 439 de 2.090 proprietários. Vogt não conclui que o arrendatário seja melhor agricultor: o proprietário aceitaria menos que os juros de mercado porque espera ganhar com a valorização da terra. Os assalariados rurais ficam atrás: em 1909, um trabalhador rural sem casa e comida ganhava em média US$ 329,16 por ano, contra US$ 554 na indústria."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão olha para frente. No presente, diz Vogt, a renda dos agricultores se compara bem à das indústrias urbanas, mas, se uma parte crescente da produção for para proprietários ausentes e o preço da terra impedir o acesso dos jovens, o grande vale central do país viverá descontentamento e êxodo rural."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como subsidiar navios sem criar privilégio?",
+          "artigo": "1827531",
+          "credito": "Frederick Kellogg Blue (San Francisco) · “Regulation of a Government Fostered Merchant Marine by the Automatic Tempering of its Securities” · pp. 823–836"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frederick Kellogg Blue parte de um impasse. Aumentar a marinha mercante americana era considerado urgente para o comércio exterior e para formar uma frota auxiliar em caso de guerra, mas navios privados sob bandeira americana tinham dificuldade em competir, a propriedade estatal enfrentava oposição e o subsídio tinha pouco apoio popular. Sua proposta parte de um princípio de finanças: o valor de uma ação depende do lucro a dividir e do número de ações que participam dele. Pode-se subsidiar aumentando o lucro ou reduzindo o número de ações."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo é um navio de US$ 600 mil que renderia US$ 36 mil por ano, 6%, quando o mercado exige 9%. Um subsídio direto de US$ 18 mil anuais resolveria. O mesmo efeito se obteria se o governo pusesse US$ 200 mil do capital sem participar dos lucros, deixando aos investidores privados os US$ 36 mil sobre US$ 400 mil. Financiado a 4%, esse capital custaria ao governo US$ 8 mil por ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2 1/4 vezes",
+          "texto": "Relação entre o custo do subsídio direto, US$ 18 mil por ano, e o do capital público de US$ 200 mil financiado a 4%, US$ 8 mil por ano, no exemplo de Blue. Nos dois casos, os acionistas privados recebem 9% sobre o que investiram."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte automática do plano está no resgate e na reemissão. A empresa emitiria ações ao par, e o governo se obrigaria a comprar ao par as que os acionistas oferecessem e a revendê-las ao par a quem pedisse, sem que as ações em seu poder recebessem dividendos. Se o mercado exigisse 8%, os resgates parariam quando restassem 450 ações de US$ 1.000; se exigisse 10%, quando restassem 360. Se o lucro caísse para US$ 31.500, mais 50 ações seriam resgatadas, e o rendimento voltaria a 9%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Blue vê no mecanismo vantagens sobre o subsídio comum: o governo forneceria exatamente o necessário, sem avaliar propriedades nem estimar lucros, e qualquer investidor poderia participar em igualdade de condições. Para ele, métodos de controle automático como esse poderiam ser a engenharia econômica do futuro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou com a lei de receitas de 1916?",
+          "artigo": "1827532",
+          "credito": "Roy G. Blakey (University of Minnesota) · “The New Revenue Act” · pp. 837–850"
+        },
+        {
+          "tipo": "p",
+          "texto": "A nova lei federal de receitas foi sancionada em 8 de setembro de 1916, nos últimos dias de uma longa sessão do Congresso. Roy G. Blakey a descreve como uma mudança de rumo: o dinheiro para o programa de preparação militar viria sobretudo de impostos sobre a renda, sobre heranças e sobre os fabricantes de munições, e não da tarifa. A Comissão de Meios e Recursos da Câmara estimava as dotações do ano fiscal de 1917 em US$ 1,579 bilhão e um déficit de US$ 266,9 milhões a cobrir."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei tem nove títulos. No imposto de renda, a alíquota normal dobra, de 1% para 2%, e a adicional, que só recai sobre pessoas físicas, sobe por faixas até 13% sobre a renda acima de US$ 2 milhões; as isenções de US$ 3.000 para solteiros e de US$ 4.000 para casados não mudam. O imposto federal sobre o espólio é novo: vai de 1% a 10% sobre o que exceder US$ 50 mil, sem distinguir herdeiros diretos e colaterais. Os fabricantes de munições pagam 12 1/2% sobre o lucro líquido até um ano depois do fim da guerra europeia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 28,2 milhões",
+          "texto": "Arrecadação dos impostos sobre herança dos 42 estados que os cobravam, em 1915, segundo a Comissão de Meios e Recursos, contra US$ 132 milhões na Grã-Bretanha em 1914. O novo imposto federal sobre o espólio deveria render US$ 20 milhões em 1917 e cerca de US$ 65 milhões depois de alguns anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os corantes recebem proteção temporária. Quando a guerra começou, seis fábricas com 400 operários produziam 3.300 toneladas curtas de corantes de alcatrão por ano, contra 25.700 importadas da Europa. Depois de cinco anos, as tarifas especiais cairiam em cinco parcelas anuais, e deixariam de existir se a produção nacional não chegasse a 60% do consumo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Este bebê pode esperar cinco anos de amamentação.”",
+          "original": "“this infant may expect nursing for five years”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei cria ainda uma comissão tarifária permanente de seis membros e proíbe o dumping de produtos estrangeiros. Blakey registra que essas medidas contrariavam doutrinas tradicionais do Partido Democrata e vê nas demais dois traços comuns: o abandono da tarifa como fonte de receita e uma tendência igualitária na distribuição da carga tributária."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como tributar os bancos com igualdade?",
+          "artigo": "1827533",
+          "credito": "Fred Rogers Fairchild (Yale University) · “State and Local Taxation of Banks” · pp. 851–868"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira lei estadual a tributar bancos foi a da Geórgia, em 1805: 2 1/2% sobre o capital e meio por cento sobre as notas em circulação. Fred Rogers Fairchild mostra como a legislação da Guerra Civil mudou essa história. A lei de 1864 dos bancos nacionais permitiu aos estados tributar as ações desses bancos como propriedade dos acionistas, desde que não a uma taxa maior que a de outros capitais monetários. Os tribunais interpretaram a restrição de modo tão estrito que os estados estenderam o mesmo método aos demais bancos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema estava na avaliação local. Como os bancos informam capital e acionistas, suas ações eram avaliadas perto do valor real, enquanto terras e bens pessoais eram subavaliados. Fairchild reúne exemplos: no Kentucky, o conselho estadual avaliava as ações bancárias a 80% do valor contábil, e os avaliadores dos 120 condados iam de 60% a 100%; em alguns condados de Minnesota, os bancos pagariam 60% de todo o imposto sobre bens pessoais. Reduzir a avaliação dos bancos, conclui, seria um paliativo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1%",
+          "texto": "Alíquota que Fairchild considera em geral justa para um imposto estadual uniforme sobre o valor contábil das ações, a soma de capital, reservas e lucros não distribuídos dividida pelo número de ações. Nova York cobra 1% desde 1901; Nova Jersey, 3/4 de 1%; a Califórnia, desde 1911, 1,2%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta prefere o valor contábil ao de mercado, porque as ações da maior parte dos bancos pequenos quase não são negociadas, e o valor de mercado leva a estimativas e disputas. O imposto seria cobrado do banco, como agente dos acionistas; os imóveis seriam tributados localmente, e a compensação viria, de preferência, por uma pequena redução da alíquota sobre as ações. Em Nova York, um levantamento de 1899 encontrara avaliações entre 10% e 119% do valor contábil; a lei de 1901, com taxa fixa, deu satisfação geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Califórnia é o caso oposto. Antes da reforma, os bancos deduziam dívidas e isenções até escapar do imposto, e, depois de uma decisão federal de 1905, os bancos nacionais passaram a ser tributados apenas pelos imóveis. Com a emenda constitucional de 1910 e a lei de 1911, diz Fairchild, o estado resolveu o problema de modo satisfatório."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O lucro das empresas de serviço público deve ser fixo?",
+          "artigo": "1827534",
+          "credito": "Edmond E. Lincoln (Harvard University) · “The Control of Return on Public Utility Investments” · pp. 869–873"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edmond E. Lincoln responde a um artigo de Bauer publicado na revista em setembro de 1916. Bauer defendia que a meta de legisladores e comissões fosse controlar o retorno sobre o investimento, e não fixar tarifas razoáveis, com uma base de avaliação simples e uniforme e uma taxa de retorno definida, sem nada além dela. Lincoln aceita que uma base simples seria desejável, mas duvida de que seja possível, dadas as diferenças passadas de contabilidade, gestão, legislação e regulação entre as empresas. Essas dificuldades, reconhece, já tinham sido apontadas pelo próprio Bauer; seu objetivo é chamar a atenção para outros aspectos da questão."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele aponta exceções. Empresas novas costumam operar por anos com lucro baixo ou prejuízo, e a justiça exigiria acrescentar à avaliação a diferença entre o retorno razoável e o obtido, ou permitir um retorno maior por algum tempo. Também discorda de excluir da avaliação a terra doada pelo poder público e a valorização dos terrenos, ao menos no gás, na eletricidade e, provavelmente, nos bondes: quem doou a terra esperava o serviço e a valorização que ele traria, e, depois da doação, a terra passou a ser propriedade privada."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre a depreciação, as divergências seriam tão grandes que qualquer regra uniforme ficaria nominal; Lincoln menciona a tese da National Electric Lighting Association de que, mantida a usina a 100% de eficiência, a lei não precisaria fixar uma depreciação. E lembra a psicologia do investidor inicial, que assume riscos elevados e espera mais que um retorno justo, desde que as tarifas caiam na mesma proporção. O poder de monopólio, diz, importa menos que o modo como é usado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão contrapõe a regulação dos lucros à fixação de tarifas. Para Lincoln, a regulação rígida dos lucros retira o principal estímulo à iniciativa, premia a ineficiência, afasta o capital e mantém os preços mais altos do que seriam. Levada às últimas consequências, conduziria ao Estado socialista; se isso seria desejável, diz ele, é outra questão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas, organizadas por área, incluem The Colonization of Australia (1829–42), de Richard Charles Mills, por Richard T. Ely; Second Thoughts of an Economist, de William Smart, por H. E. Mills; An Introduction to the Study of Organized Labor in America, de George Gorham Groat, por Frank T. Carlton; Principles of Money and Banking, de Harold G. Moulton, e Readings in Money and Banking, de Chester Arthur Phillips, por Eugene E. Agger; The Single Tax Movement in the United States, de Arthur Nichols Young, por Carl C. Plehn; e Health Insurance, de B. S. Warren e Edgar Sydenstricker, por I. M. Rubinow. Os documentos começam pelos mercados de madeira da América do Sul e incluem a lei federal do trabalho infantil. As notas anunciam a 29ª reunião anual da American Economic Association, em Columbus, Ohio, de 27 a 30 de dezembro de 1916, com a American Sociological Society, a American Statistical Association e a American Association for Labor Legislation."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a edição mostra dois usos dos números em economia. Persons e Vogt medem: um procura, entre 25 séries, as que se movem juntas e as que se adiantam; o outro separa a renda do trabalho do retorno da terra para entender por que os ganhos do campo se acumulam no preço do solo. Nos dois casos, a pergunta econômica decide o tratamento estatístico, e não o contrário.",
+            "Os demais artigos discutem desenho institucional, e quase todos voltam à capitalização. Seligman e Adams divergem sobre quem paga um imposto já embutido no preço; Fairchild escolhe o valor contábil porque o de mercado não se observa; Lincoln discute se a terra doada entra na base de remuneração; Blue usa o preço das ações como regulador automático. Em todos, o valor de um ativo como renda futura descontada é o instrumento comum, aplicado a perguntas de política diferentes."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Barômetro dos negócios",
+          "índice composto que resume a situação geral da atividade econômica."
+        ],
+        [
+          "Tendência secular",
+          "linha suave que representa o crescimento de longo prazo de uma série."
+        ],
+        [
+          "Ciclo",
+          "na terminologia de Persons, o desvio de cada ano em relação à tendência secular."
+        ],
+        [
+          "Primeira diferença",
+          "variação de uma série de um ano para o seguinte."
+        ],
+        [
+          "Coeficiente de correlação de Pearson",
+          "medida de –1 a +1 da associação linear entre duas séries."
+        ],
+        [
+          "Compensações bancárias (clearings)",
+          "valor dos cheques liquidados entre bancos nas câmaras de compensação."
+        ],
+        [
+          "Capitalização do imposto",
+          "redução do preço de um bem no valor presente de um imposto permanente que recai sobre ele."
+        ],
+        [
+          "Imposto exclusivo",
+          "imposto que recai só sobre uma classe de bens, e não sobre todos."
+        ],
+        [
+          "Imposto único (single tax)",
+          "programa associado a Henry George de financiar o governo pela renda da terra."
+        ],
+        [
+          "Landschaft",
+          "associação cooperativa alemã de proprietários que emite títulos garantidos por hipotecas."
+        ],
+        [
+          "Banco federal de terras",
+          "banco de crédito hipotecário rural criado pela lei de 1916 em cada um de doze distritos."
+        ],
+        [
+          "Renda do trabalho (labor income)",
+          "resultado da fazenda menos os juros sobre o capital investido."
+        ],
+        [
+          "Valor contábil da ação",
+          "capital, reservas e lucros não distribuídos divididos pelo número de ações."
+        ],
+        [
+          "Imposto sobre o espólio",
+          "imposto sobre a transferência do patrimônio líquido de quem morre."
+        ]
+      ],
+      "hoje": "Os temas da edição continuam na pauta. Indicadores antecedentes, que se adiantam ao ciclo, seguem sendo construídos e testados por institutos de pesquisa e bancos centrais. A capitalização dos impostos no preço de imóveis e de títulos isentos continua a orientar estudos de incidência tributária. Bancos públicos de crédito rural e a tributação de bancos por bases uniformes ainda são temas de política. E a escolha entre controlar o retorno das empresas reguladas ou fixar tetos de preço permanece no centro da regulação de serviços públicos.",
+      "itens": [
+        [
+          "Construction of a Business Barometer Based upon Annual Data",
+          "pp. 739–769",
+          "1827527"
+        ],
+        [
+          "The Federal Farm Loan Act",
+          "pp. 770–789",
+          "1827528"
+        ],
+        [
+          "Tax Exemption Through Tax Capitalization: A Reply",
+          "pp. 790–807",
+          "1827529"
+        ],
+        [
+          "The Farmer's Labor Income",
+          "pp. 808–822",
+          "1827530"
+        ],
+        [
+          "Regulation of a Government Fostered Merchant Marine by the Automatic Tempering of its Securities",
+          "pp. 823–836",
+          "1827531"
+        ],
+        [
+          "The New Revenue Act",
+          "pp. 837–850",
+          "1827532"
+        ],
+        [
+          "State and Local Taxation of Banks",
+          "pp. 851–868",
+          "1827533"
+        ],
+        [
+          "The Control of Return on Public Utility Investments",
+          "pp. 869–873",
+          "1827534"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 874-876",
+          "pp. 874–876",
+          "1827535"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 876-878",
+          "pp. 876–878",
+          "1827536"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 878-880",
+          "pp. 878–880",
+          "1827537"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 880-881",
+          "pp. 880–881",
+          "1827538"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 881-882",
+          "pp. 881–882",
+          "1827539"
+        ],
+        [
+          "New Books",
+          "pp. 882–883",
+          "1827540"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 883-885",
+          "pp. 883–885",
+          "1827541"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 885-886",
+          "pp. 885–886",
+          "1827542"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 887-889",
+          "pp. 887–889",
+          "1827543"
+        ],
+        [
+          "New Books",
+          "pp. 889–891",
+          "1827544"
+        ],
+        [
+          "New Books",
+          "pp. 891–892",
+          "1827545"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 892-894",
+          "pp. 892–894",
+          "1827546"
+        ],
+        [
+          "New Books",
+          "pp. 894–895",
+          "1827547"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 895-897",
+          "pp. 895–897",
+          "1827548"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 897-900",
+          "pp. 897–900",
+          "1827549"
+        ],
+        [
+          "New Books",
+          "pp. 900–901",
+          "1827550"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 901-903",
+          "pp. 901–903",
+          "1827551"
+        ],
+        [
+          "New Books",
+          "pp. 903",
+          "1827552"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 904-905",
+          "pp. 904–905",
+          "1827553"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 905-907",
+          "pp. 905–907",
+          "1827554"
+        ],
+        [
+          "New Books",
+          "pp. 907–911",
+          "1827555"
+        ],
+        [
+          "New Books",
+          "pp. 911–913",
+          "1827556"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 913-915",
+          "pp. 913–915",
+          "1827557"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 915-917",
+          "pp. 915–917",
+          "1827558"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 917-920",
+          "pp. 917–920",
+          "1827559"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 920-921",
+          "pp. 920–921",
+          "1827560"
+        ],
+        [
+          "New Books",
+          "pp. 921–923",
+          "1827561"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 923-925",
+          "pp. 923–925",
+          "1827562"
+        ],
+        [
+          "New Books",
+          "pp. 925–926",
+          "1827563"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 926-928",
+          "pp. 926–928",
+          "1827564"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 928-930",
+          "pp. 928–930",
+          "1827565"
+        ],
+        [
+          "New Books",
+          "pp. 930–931",
+          "1827566"
+        ],
+        [
+          "New Books",
+          "pp. 931",
+          "1827567"
+        ],
+        [
+          "New Books",
+          "pp. 931–934",
+          "1827568"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 934-936",
+          "pp. 934–936",
+          "1827569"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 936-939",
+          "pp. 936–939",
+          "1827570"
+        ],
+        [
+          "New Books",
+          "pp. 939–941",
+          "1827571"
+        ],
+        [
+          "[untitled] The American Economic Review, (1916-12-01), pages 941-943",
+          "pp. 941–943",
+          "1827572"
+        ],
+        [
+          "New Books",
+          "pp. 943",
+          "1827573"
+        ],
+        [
+          "New Books",
+          "pp. 943–944",
+          "1827574"
+        ],
+        [
+          "Documents, Reports and Legistration",
+          "pp. 945–966",
+          "1827575"
+        ],
+        [
+          "Periodicals",
+          "pp. 967–1008",
+          "1827576"
+        ],
+        [
+          "Notes",
+          "pp. 1009–1024",
+          "1827577"
+        ]
+      ],
+      "jstor_edicao": "i331815",
+      "artigos": [
+        {
+          "titulo": "Construction of a Business Barometer Based upon Annual Data",
+          "autores": "Warren M. Persons (Harvard University)",
+          "paginas": "pp. 739–769",
+          "jstor": "1827527",
+          "resumo": "Persons constrói, com séries anuais de 1879 a 1913, um barômetro dos negócios de nove séries que se movem com os preços e um previsor formado pelas que se adiantam a eles.",
+          "ensaio_slug": "persons-barometro-dos-negocios"
+        },
+        {
+          "titulo": "The Federal Farm Loan Act",
+          "autores": "George E. Putnam (University of Kansas)",
+          "paginas": "pp. 770–789",
+          "jstor": "1827528",
+          "resumo": "Putnam descreve a história e a estrutura da lei federal de crédito agrícola de 1916 e conclui que ela favorece os atuais proprietários."
+        },
+        {
+          "titulo": "Tax Exemption Through Tax Capitalization: A Reply",
+          "autores": "Edwin R. A. Seligman (Columbia University)",
+          "paginas": "pp. 790–807",
+          "jstor": "1827529",
+          "resumo": "Seligman responde a T. S. Adams e defende a teoria da isenção pela capitalização do imposto, negando que ela justifique o imposto único sobre a terra.",
+          "ensaio_slug": "seligman-capitalizacao-do-imposto"
+        },
+        {
+          "titulo": "The Farmer's Labor Income",
+          "autores": "Paul L. Vogt (Ohio State University)",
+          "paginas": "pp. 808–822",
+          "jstor": "1827530",
+          "resumo": "Vogt compara a renda do trabalho de agricultores, arrendatários e assalariados rurais com a de outras ocupações, com dados do Departamento de Agricultura."
+        },
+        {
+          "titulo": "Regulation of a Government Fostered Merchant Marine by the Automatic Tempering of its Securities",
+          "autores": "Frederick Kellogg Blue (San Francisco)",
+          "paginas": "pp. 823–836",
+          "jstor": "1827531",
+          "resumo": "Blue propõe subsidiar a marinha mercante com capital público sem direito a lucros, ajustado automaticamente pelo resgate e pela reemissão de ações ao par."
+        },
+        {
+          "titulo": "The New Revenue Act",
+          "autores": "Roy G. Blakey (University of Minnesota)",
+          "paginas": "pp. 837–850",
+          "jstor": "1827532",
+          "resumo": "Blakey descreve a lei de receitas de setembro de 1916: imposto de renda maior, imposto federal sobre o espólio, imposto sobre munições, proteção aos corantes e comissão tarifária."
+        },
+        {
+          "titulo": "State and Local Taxation of Banks",
+          "autores": "Fred Rogers Fairchild (Yale University)",
+          "paginas": "pp. 851–868",
+          "jstor": "1827533",
+          "resumo": "Fairchild examina a tributação estadual e local dos bancos e propõe um imposto uniforme sobre o valor contábil das ações, com os exemplos de Nova York e da Califórnia."
+        },
+        {
+          "titulo": "The Control of Return on Public Utility Investments",
+          "autores": "Edmond E. Lincoln (Harvard University)",
+          "paginas": "pp. 869–873",
+          "jstor": "1827534",
+          "resumo": "Lincoln responde a Bauer e argumenta contra a regulação rígida do retorno das empresas de serviço público."
+        },
+        {
+          "titulo": "Richard Charles Mills, The Colonization of Australia (1829–42). The Wakefield Experiment in Empire Building",
+          "autores": "Richard T. Ely",
+          "paginas": "pp. 874–876",
+          "jstor": "1827535",
+          "resumo": "Resenha de Richard T. Ely."
+        },
+        {
+          "titulo": "William Smart, Second Thoughts of an Economist",
+          "autores": "H. E. Mills",
+          "paginas": "pp. 876–878",
+          "jstor": "1827536",
+          "resumo": "Resenha de H. E. Mills."
+        },
+        {
+          "titulo": "Henry Clay, Economics. An Introduction for the General Reader",
+          "autores": "H. E. Mills",
+          "paginas": "pp. 878–880",
+          "jstor": "1827537",
+          "resumo": "Resenha de H. E. Mills."
+        },
+        {
+          "titulo": "Ezra Thayer Towne, Social Problems; John M. Gillette, Sociology",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 880–881",
+          "jstor": "1827538",
+          "resumo": "Resenha de Charles A. Ellwood."
+        },
+        {
+          "titulo": "Augusto Pereyra Alcántara, El Capitalismo y el Problema Económico",
+          "autores": "Julius Klein",
+          "paginas": "pp. 881–882",
+          "jstor": "1827539",
+          "resumo": "Resenha de Julius Klein."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 882–883",
+          "jstor": "1827540",
+          "resumo": "Lista de livros recentes da seção de obras gerais, teoria e sua história, com notas breves."
+        },
+        {
+          "titulo": "Commerce of Rhode Island, 1726–1800, vol. II (Collections of the Massachusetts Historical Society)",
+          "autores": "Charles M. Andrews",
+          "paginas": "pp. 883–885",
+          "jstor": "1827541",
+          "resumo": "Resenha de Charles M. Andrews."
+        },
+        {
+          "titulo": "Percy Wells Bidwell, Rural Economy in New England at the Beginning of the Nineteenth Century",
+          "autores": "Alexander E. Cance",
+          "paginas": "pp. 885–886",
+          "jstor": "1827542",
+          "resumo": "Resenha de Alexander E. Cance."
+        },
+        {
+          "titulo": "A. H. de Trémaudan, The Hudson Bay Road, 1498–1915",
+          "autores": "Arch. B. Clark",
+          "paginas": "pp. 887–889",
+          "jstor": "1827543",
+          "resumo": "Resenha de Arch. B. Clark."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 889–891",
+          "jstor": "1827544",
+          "resumo": "Lista de livros recentes da seção de história econômica e geografia, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 891–892",
+          "jstor": "1827545",
+          "resumo": "Lista de livros recentes da seção de agricultura, mineração, florestas e pesca, com notas breves."
+        },
+        {
+          "titulo": "Edward Wiest, The Butter Industry in the United States",
+          "autores": "L. D. H. Weld",
+          "paginas": "pp. 892–894",
+          "jstor": "1827546",
+          "resumo": "Resenha de L. D. H. Weld."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 894–895",
+          "jstor": "1827547",
+          "resumo": "Lista de livros recentes da seção de indústrias manufatureiras, com notas breves."
+        },
+        {
+          "titulo": "F. W. Doolittle, Studies in the Cost of Urban Transportation Service",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 895–897",
+          "jstor": "1827548",
+          "resumo": "Resenha de Carl C. Plehn."
+        },
+        {
+          "titulo": "Robert James McFall, Railway Monopoly and Rate Regulation",
+          "autores": "Edgar J. Rich",
+          "paginas": "pp. 897–900",
+          "jstor": "1827549",
+          "resumo": "Resenha de Edgar J. Rich."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 900–901",
+          "jstor": "1827550",
+          "resumo": "Lista de livros recentes da seção de transportes e comunicações, com notas breves."
+        },
+        {
+          "titulo": "Edward Ewing Pratt, diretor, Course in Foreign Trade",
+          "autores": "Melvin T. Copeland",
+          "paginas": "pp. 901–903",
+          "jstor": "1827551",
+          "resumo": "Resenha de Melvin T. Copeland."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 903",
+          "jstor": "1827552",
+          "resumo": "Lista de livros recentes da seção de comércio e crises comerciais, com notas breves."
+        },
+        {
+          "titulo": "William L. Raymond, American and Foreign Investment Bonds",
+          "autores": "Hastings Lyon",
+          "paginas": "pp. 904–905",
+          "jstor": "1827553",
+          "resumo": "Resenha de Hastings Lyon."
+        },
+        {
+          "titulo": "Louis Heft, Holders of Railroad Bonds and Notes: Their Rights and Remedies",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 905–907",
+          "jstor": "1827554",
+          "resumo": "Resenha de Arthur S. Dewing."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 907–911",
+          "jstor": "1827555",
+          "resumo": "Lista de livros recentes da seção de contabilidade, métodos comerciais, investimentos e bolsas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 911–913",
+          "jstor": "1827556",
+          "resumo": "Lista de livros recentes da seção de capital e organização capitalista, com notas breves."
+        },
+        {
+          "titulo": "George Gorham Groat, An Introduction to the Study of Organized Labor in America",
+          "autores": "Frank T. Carlton",
+          "paginas": "pp. 913–915",
+          "jstor": "1827557",
+          "resumo": "Resenha de Frank T. Carlton."
+        },
+        {
+          "titulo": "Lorin Stuckey, Iowa State Federation of Labor",
+          "autores": "William Kirk",
+          "paginas": "pp. 915–917",
+          "jstor": "1827558",
+          "resumo": "Resenha de William Kirk."
+        },
+        {
+          "titulo": "George M. Janes, The Control of Strikes in American Trade Unions",
+          "autores": "F. E. Wolfe",
+          "paginas": "pp. 917–920",
+          "jstor": "1827559",
+          "resumo": "Resenha de F. E. Wolfe."
+        },
+        {
+          "titulo": "Department of Labor, State of New York, European Regulations for the Prevention of Occupational Diseases",
+          "autores": "Emery R. Hayhurst",
+          "paginas": "pp. 920–921",
+          "jstor": "1827560",
+          "resumo": "Resenha de Emery R. Hayhurst."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 921–923",
+          "jstor": "1827561",
+          "resumo": "Lista de livros recentes da seção de trabalho e organizações trabalhistas, com notas breves."
+        },
+        {
+          "titulo": "Harold G. Moulton, Principles of Money and Banking; Chester Arthur Phillips, Readings in Money and Banking",
+          "autores": "Eugene E. Agger",
+          "paginas": "pp. 923–925",
+          "jstor": "1827562",
+          "resumo": "Resenha de Eugene E. Agger."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 925–926",
+          "jstor": "1827563",
+          "resumo": "Lista de livros recentes da seção de moeda, preços, crédito e bancos, com notas breves."
+        },
+        {
+          "titulo": "Arthur Nichols Young, The Single Tax Movement in the United States",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 926–928",
+          "jstor": "1827564",
+          "resumo": "Resenha de Carl C. Plehn."
+        },
+        {
+          "titulo": "Chin Chu, The Tariff Problem in China",
+          "autores": "A. P. Winston",
+          "paginas": "pp. 928–930",
+          "jstor": "1827565",
+          "resumo": "Resenha de A. P. Winston."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 930–931",
+          "jstor": "1827566",
+          "resumo": "Lista de livros recentes da seção de finanças públicas, tributação e tarifas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 931",
+          "jstor": "1827567",
+          "resumo": "Lista de livros recentes da seção de população e migração, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 931–934",
+          "jstor": "1827568",
+          "resumo": "Lista de livros recentes da seção de problemas sociais e reformas, com notas breves."
+        },
+        {
+          "titulo": "Edward Augustus Ketcham, The Essentials of the Fire Insurance Business",
+          "autores": "William F. Gephart",
+          "paginas": "pp. 934–936",
+          "jstor": "1827569",
+          "resumo": "Resenha de William F. Gephart."
+        },
+        {
+          "titulo": "B. S. Warren e Edgar Sydenstricker, Health Insurance. Its Relation to the Public Health",
+          "autores": "I. M. Rubinow",
+          "paginas": "pp. 936–939",
+          "jstor": "1827570",
+          "resumo": "Resenha de I. M. Rubinow."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 939–941",
+          "jstor": "1827571",
+          "resumo": "Lista de livros recentes da seção de seguros e pensões, com notas breves."
+        },
+        {
+          "titulo": "R. W. Sellars, The Next Step in Democracy",
+          "autores": "J. E. LeRossignol",
+          "paginas": "pp. 941–943",
+          "jstor": "1827572",
+          "resumo": "Resenha de J. E. LeRossignol."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 943",
+          "jstor": "1827573",
+          "resumo": "Lista de livros recentes da seção de socialismo e empresas cooperativas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 943–944",
+          "jstor": "1827574",
+          "resumo": "Lista de livros recentes da seção de estatística e seus métodos, com notas breves."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 945–966",
+          "jstor": "1827575",
+          "resumo": "Resumos de documentos oficiais, a começar pelos mercados de madeira da América do Sul."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 967–1008",
+          "jstor": "1827576",
+          "resumo": "Resumos de artigos de periódicos americanos e estrangeiros, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "redação",
+          "paginas": "pp. 1009–1024",
+          "jstor": "1827577",
+          "resumo": "Notas da associação e do meio acadêmico, a começar pelo anúncio da 29ª reunião anual, em Columbus, Ohio, de 27 a 30 de dezembro de 1916."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "persons-barometro-dos-negocios",
+          "titulo": "Persons, 1916: como montar um barômetro dos negócios",
+          "titulo_original": "Construction of a Business Barometer Based upon Annual Data",
+          "autores": "Warren M. Persons (Harvard University)",
+          "paginas": "pp. 739–769",
+          "jstor": "1827527",
+          "chamada": "Warren M. Persons usa séries anuais americanas de 1879 a 1913 para separar as que se movem com os preços, que formam um barômetro dos negócios, das que se adiantam a eles e servem para prever.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Numa carta de 7 de outubro de 1915, Babson explicou a Warren M. Persons como traçava sua linha de crescimento normal dos negócios. Partia de um ciclo completo, desenhava uma linha que deixasse áreas iguais acima e abaixo dela e a prolongava ano a ano conforme as compensações bancárias, reservando-se o direito de corrigi-la no fim de cada ciclo. A lei de ação e reação não era demonstrada pelos gráficos: era suposta para construí-los."
+            },
+            {
+              "tipo": "p",
+              "texto": "Persons, da Harvard University, cita a carta no artigo que abre o número de dezembro de 1916 da American Economic Review, apresentado em parte na reunião da American Statistical Association em San Francisco, em 11 de agosto de 1915. O problema que propõe é duplo: que séries estatísticas devem ser combinadas num barômetro da situação geral dos negócios nos Estados Unidos e que séries variam antes desse barômetro e servem de base para previsões."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os barômetros comerciais não bastavam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo começa por quem já tentara. Depois da crise de 1907, uma comissão francesa de 44 membros buscou sinais que revelassem a depressão próxima, para que o governo acelerasse obras públicas nos períodos de baixa. Recomendou oito índices, da carteira comercial e das reservas do Banco da França ao consumo de carvão, ao tráfego ferroviário e ao desemprego, e comparou suas datas de máximos e mínimos com as das crises. Não construiu um índice composto."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos Estados Unidos, os serviços de Babson e de Brookmire vendiam a empresários, banqueiros e investidores barômetros feitos de médias de muitas séries. Brookmire combinava compensações bancárias, receitas ferroviárias, produção e preço do ferro-gusa, preços, importações, construção e imigração, e eliminava o crescimento subtraindo o aumento médio dos dez anos anteriores. M. T. Copeland propunha dividir o número de cada mês pela média do mesmo mês nos dez anos anteriores. Babson não eliminava a tendência antes de somar as séries."
+            },
+            {
+              "tipo": "p",
+              "texto": "As críticas de Persons são três. As séries eram heterogêneas e escolhidas sem análise científica; o método de eliminar a tendência não era satisfatório; e ninguém podia conferir os resultados. O método de dez anos tinha ainda um defeito lógico: ao supor ciclos de dez anos, presumia o que se queria descobrir. Persons faz questão de dizer que os dois serviços prestavam um serviço valioso ao divulgar as estatísticas fundamentais."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não me oponho ao uso de uma variedade de séries estatísticas, mas ao seu uso ingênuo ou empírico.”",
+              "original": "“not to the use of a variety of ... statistical series ... but rather to their use in a naïve or rule-of-thumb manner”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como separar a tendência do ciclo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Persons escolhe o período de 1879 a 1913 pela relativa homogeneidade: o país esteve todo no padrão-ouro, com preços em queda até 1896 e em alta a partir de 1897, e houve várias fases de prosperidade e depressão. Examina 25 séries anuais, de preços e produção a ações negociadas, falências, reservas bancárias e taxas de juros, estas só para 1890–1911."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para ele, a tendência normal deve ser uma linha ou curva suave, determinada pelos próprios dados, como os movimentos seculares graduais de que falava Marshall. Ajusta uma reta aos preços por dois métodos, os momentos e os mínimos quadrados, que deram o mesmo resultado, e usa uma curva de juros compostos para as compensações bancárias. Os ciclos são os desvios de cada ano em relação a essa linha; as primeiras diferenças, a variação dos ciclos de um ano para o outro."
+            },
+            {
+              "tipo": "p",
+              "texto": "O padrão de comparação são os preços no atacado, série que combina o índice do Aldrich Report e o do Bureau of Labor Statistics. A escolha se apoia num consenso: Juglar definia a crise como a parada da alta dos preços, Mitchell e Aftalion organizavam suas explicações em torno dos preços, e Veblen os tratava como fenômenos de perturbação dos preços. Para cada série, Persons calcula o coeficiente de correlação de Pearson com os preços, no mesmo ano e com defasagens, e procura onde ele chega ao máximo."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "0,45",
+              "texto": "Coeficiente de correlação que Persons considera significativo; 0,60 seria alto, e 0,75 ou 0,80, muito alto. Para dar uma referência, ele transcreve uma tabela de correlações em medidas do corpo humano, como a do fêmur com a estatura, de 0,80 a 0,81, e apresenta erros prováveis para 35 pares de observações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que as compensações bancárias revelaram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira série examinada mostra o método em funcionamento. Seguindo Irving Fisher, Persons soma às compensações de Nova York cinco vezes as das demais cidades. A correlação com os preços é mais alta quando as compensações de um ano são comparadas aos preços do ano seguinte. Para tirar o efeito do próprio nível de preços, ele divide as compensações pelo índice de preços: a correlação passa a ser de +0,715 no mesmo ano, +0,852 com um ano de defasagem e +0,749 com dois."
+            },
+            {
+              "tipo": "p",
+              "texto": "As primeiras diferenças confirmam: +0,039 no mesmo ano, +0,661 com um ano de defasagem e –0,030 com dois. As compensações se movem cerca de um ano antes dos preços. Como Babson e Brookmire somavam as duas séries, misturavam um indicador que antecipa com outro que acompanha."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como se monta o barômetro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aplicado a todas as séries, o método as separa em três grupos: as que flutuam com os preços, as que se adiantam e as que se atrasam ou não mostram relação clara. Entram no barômetro as nove do primeiro grupo: preços no atacado, receita bruta e lucro líquido das ferrovias, produção de carvão, exportações, importações, produção e preço do ferro-gusa e imigração. Em todas, menos nas importações, os coeficientes crescem gradualmente até o ano corrente e depois caem; as primeiras diferenças das importações confirmam que elas também acompanham os preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para que séries de oscilação ampla e estreita pesem o mesmo, cada uma é dividida por seu próprio desvio-padrão antes da média. Quatro das nove são séries de preço; a média das outras cinco acompanha de perto os preços. As correlações de cada série com o barômetro resultante vão de +0,785 a +0,951 nos ciclos e de +0,516 a +0,847 nas primeiras diferenças, com uma pequena correlação espúria, porque cada série faz parte do índice."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O previsor funciona?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As séries que se adiantam formam o previsor de um ano: ações vendidas na Bolsa de Nova York e seu preço médio, compensações corrigidas, nova quilometragem ferroviária e percentual de falências, este com o sinal invertido. A média das cinco tem correlação de +0,860 com o barômetro nos ciclos e de +0,510 nas primeiras diferenças."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Na previsão, as primeiras diferenças têm mais significado que os ciclos.”",
+              "original": "“In forecasting, the first differences are of greater significance than the cycles.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O teste é simples. Persons tabula os sinais das primeiras diferenças de três séries, ações vendidas, preço das ações e compensações corrigidas, e toma dois ou três sinais iguais como previsão da direção do barômetro no ano seguinte. Obtém 25 acertos e 9 erros. Em sete dos nove erros, os sinais coincidiam com o barômetro do mesmo ano, o que sugere uma antecedência de nove ou dez meses, e não de um ano inteiro. Numa nota, ele informa que um estudo com dados trimestrais já encontrara séries que se adiantam de três a nove meses."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há ainda dois resultados laterais. A produtividade das nove principais lavouras, em médias de três anos, tem correlação de +0,655 com o barômetro quatro anos depois, perto dos +0,800 que Henry L. Moore encontrara com os preços; Persons adverte que correlações de médias trienais são difíceis de interpretar. E o método das diferenças variadas, publicado por “Student” na Biometrika em 1914 e assim batizado por Karl Pearson, confirma a seleção das séries, com dúvida apenas sobre as exportações."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“É necessária nova investigação baseada em dados trimestrais ou mensais.”",
+              "original": "“Further investigation based upon quarterly or monthly data is necessary”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a contribuição de Persons está menos no barômetro em si do que na regra de classificação. Uma série entra no índice se se move junto com a referência; vai para o previsor se se adianta a ela. Somar as duas coisas, como faziam os serviços comerciais, apaga justamente a informação que interessa a quem quer prever. É a distinção, hoje corrente, entre indicadores coincidentes e antecedentes, feita aqui com uma tabela de correlações defasadas.",
+                "O cuidado com a tendência pesa tanto quanto a correlação. Ao recusar médias móveis de dez anos, Persons evita impor aos dados a duração do ciclo; ao padronizar cada série pelo desvio-padrão, evita que as mais voláteis dominem o índice; ao conferir tudo com as primeiras diferenças, protege-se da correlação espúria entre séries que apenas crescem juntas. O próprio teste de sinais, com 25 acertos em 34, indica o limite do material anual e aponta para os dados trimestrais."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Barômetro dos negócios",
+              "índice composto que resume a situação geral da atividade econômica."
+            ],
+            [
+              "Tendência secular",
+              "linha suave que representa o crescimento de longo prazo de uma série."
+            ],
+            [
+              "Ciclo",
+              "desvio de cada ano em relação à tendência secular."
+            ],
+            [
+              "Primeira diferença",
+              "variação de uma série de um ano para o seguinte."
+            ],
+            [
+              "Coeficiente de correlação de Pearson",
+              "medida de –1 a +1 da associação linear entre duas séries."
+            ],
+            [
+              "Defasagem",
+              "comparação de uma série com os valores de outra em anos anteriores ou posteriores."
+            ],
+            [
+              "Desvio-padrão",
+              "medida da dispersão de uma série em torno de sua média."
+            ],
+            [
+              "Método das diferenças variadas",
+              "correlação entre diferenças sucessivas de ordem crescente para eliminar o efeito do tempo."
+            ]
+          ],
+          "hoje": "A divisão de Persons entre séries que acompanham e séries que antecipam a atividade é a base dos índices de indicadores coincidentes e antecedentes que institutos de pesquisa e bancos centrais publicam. Mercado de ações e indicadores financeiros seguem entre os antecedentes mais usados. E a recomendação de passar de dados anuais para trimestrais e mensais tornou-se prática comum, assim como a atenção à correlação espúria entre séries com tendência, hoje tratada com métodos de séries temporais."
+        },
+        {
+          "slug": "seligman-capitalizacao-do-imposto",
+          "titulo": "Seligman, 1916: o comprador de um bem tributado paga o imposto?",
+          "titulo_original": "Tax Exemption Through Tax Capitalization: A Reply",
+          "autores": "Edwin R. A. Seligman (Columbia University)",
+          "paginas": "pp. 790–807",
+          "jstor": "1827529",
+          "chamada": "Edwin R. A. Seligman responde a T. S. Adams: a capitalização do imposto no preço dos bens seria uma verdade fiscal, e o erro dos defensores do imposto único estaria em aplicá-la à terra.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Edwin R. A. Seligman debatera em público com Henry George pela primeira vez em 1892 e, desde então, sempre se opusera ao imposto único sobre a terra. Em junho de 1916, viu-se posto, como ele diz, no mesmo tronco de castigo de um dos principais defensores desse imposto, Fillebrown. O responsável era T. S. Adams, que, num artigo da American Economic Review, atacara a teoria da isenção pela capitalização do imposto, de que Seligman era o principal expositor, e a associara aos argumentos do imposto único."
+            },
+            {
+              "tipo": "p",
+              "texto": "A resposta, publicada no número de dezembro de 1916, elogia o tom cortês do adversário e passa logo ao ataque. Seligman, da Columbia University, sustenta que a isenção pela capitalização, longe de ser uma falácia fiscal, é uma verdade fiscal, e que Adams escreveu sem a deliberação que o tema exigia."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde está o erro dos defensores do imposto único?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seligman divide o artigo de Adams em três partes: a crítica geral à teoria, aplicada aos títulos de empresas; a tese de que ela também não vale para a terra; e o argumento sobre a difusão do incremento não ganho, a valorização que o dono recebe sem esforço próprio. Começa pela terra, onde concorda com a conclusão de Adams, mas não com as razões."
+            },
+            {
+              "tipo": "p",
+              "texto": "O raciocínio dos defensores do imposto único teria uma premissa maior verdadeira, a capitalização, e uma premissa menor falsa: a de que os atuais donos de terra compraram livres do imposto. Muitos deles, diz Seligman, já eram donos antes de os impostos atuais serem criados ou aumentados. O programa só seria um imposto sem ônus se três condições valessem: que fosse de fato o único imposto, que a taxa exata e permanente fosse anunciada com antecedência e que fosse cobrado apenas de quem comprasse depois. Sem elas, o plano significaria um imposto pesado sobre a massa dos donos atuais, razão pela qual, segundo ele, foi derrotado em Nova York."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Fizeram um uso ilegítimo de uma teoria correta.”",
+              "original": "“they have made an illegitimate use of a correct theory”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seligman acrescenta um testemunho pessoal. O relatório da maioria do Comitê de Tributação do prefeito de Nova York, que Adams criticara por não responder à teoria do encargo fixo sobre a terra, fora redigido por ele, e o tema não foi discutido porque mal aparecera nas audiências."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O imposto antigo ou o novo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Adams afirmara que a legitimidade de um novo imposto depende de ele ser geral ou exclusivo. Seligman responde que depende do imposto antigo. Suponha-se que uma classe de bens já pague um imposto exclusivo. Se a capitalização for falsa, os donos ainda carregam esse ônus, e incluí-los num novo imposto geral seria dupla tributação. Se for verdadeira, os compradores posteriores estão livres do imposto antigo, e o novo imposto geral os atinge apenas uma vez, como a todos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os exemplos vêm da prática fiscal. A Itália isentou a terra do novo imposto de renda por já estar sujeita a um imposto especial; um financista de Nova York usou o mesmo argumento no debate sobre um imposto de renda proposto; outros países, como os Estados Unidos, não fizeram a exceção. Seligman cita a estimativa de que, nas cidades americanas, a terra muda de mãos em média a cada vinte anos, e lembra que os títulos mudam de dono ainda mais depressa: quanto mais antigo o imposto, menos donos originais restam."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "20 anos",
+              "texto": "Intervalo médio em que a terra muda de mãos nas cidades americanas, segundo a estimativa citada por Seligman. Com o passar do tempo, a maior parte da propriedade sujeita a um imposto exclusivo antigo estaria nas mãos de compradores que já o descontaram no preço."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os impostos reduzem a taxa de juros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O núcleo da tese de Adams era que o comprador não escapa do imposto porque o paga por meio de uma taxa de juros mais baixa, que registraria automaticamente a carga média dos impostos. Seligman considera a proposição nova e importante, se verdadeira, e a examina com o exemplo de um imposto especial sobre os títulos da Steel Corporation."
+            },
+            {
+              "tipo": "p",
+              "texto": "Se o imposto for transferido ao consumidor, o aço fica mais caro; a produção menor pode reduzir a demanda por capital e baixar os juros, mas a poupança menor reduz a oferta de capital e tende a elevá-los. O efeito é incerto. Se não for transferido, só quando os lucros caem a ponto de reduzir a produção haveria alguma pressão para baixo. E grande parte do capital está em terra, cujos impostos com frequência não se transferem. A conclusão de Seligman é que a tendência existe, mas é excepcional, muitas vezes compensada e, mesmo quando ocorre, pequena demais para contar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Capitalização é o mesmo que equalização?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A teoria da capitalização, diz Seligman, é apenas uma extensão da teoria do valor: quem compra um bem durável paga o valor capitalizado da renda anual esperada, e um imposto permanente é uma das saídas que se deduzem para chegar a essa renda. Quando Adams escreve que os compradores de bens tributados ficam em pé de igualdade com os de bens isentos, e que não há isenção, mas equalização pela concorrência, estaria dizendo a mesma coisa com outras palavras."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O capital é renda capitalizada.”",
+              "original": "“Capital is capitalized income.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto mais citado da réplica é a frase de Adams segundo a qual o comprador posterior se livra de qualquer excesso de imposto acima da taxa média. Para Seligman, basta trocar taxa média por campo livre de impostos e tem-se a própria teoria. O comprador se livra de um imposto especial, acima do geral; e, no caso inverso, quem compra um título isento do imposto de renda federal paga mais por ele e, na prática, perde a isenção."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que dizia o mercado de títulos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na discussão em Washington sobre substituir a retenção na fonte pela informação na fonte no imposto de renda, vários memoriais trataram a capitalização como fato corrente. Um advogado dos banqueiros de investimento escreveu que a cláusula de isenção representava a capitalização do imposto; o First National Bank of Chicago apresentou as diferenças de preço entre títulos isentos e não isentos desde a lei. Seligman conclui que quem contesta a doutrina tem contra si os especialistas do mercado."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E o incremento não ganho?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na última parte, Seligman questiona a difusão do incremento não ganho. Se os pioneiros não obtêm o salário corrente em suas fazendas, isso indicaria trabalho e capital mal dirigidos, uma perda social a pôr do outro lado da balança. Duvida que fabricantes tratem a terra como especulação e acha que a compra de toda a terra pelo Estado envolveria a eficiência da administração pública. Fecha com seis acusações, entre elas a de ter atacado a premissa maior em vez da menor, confundido impostos novos e antigos e ignorado o mercado de títulos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a controvérsia é sobre onde o imposto aparece no preço. Seligman olha para o ativo: um imposto específico e permanente reduz o preço do bem tributado, e quem compra depois recebe o retorno normal sobre o que pagou. Adams olhava para o mercado de capitais como um todo: se todos os ativos são tributados, a taxa de retorno de todos cai. As duas coisas podem ser verdadeiras ao mesmo tempo, uma para impostos exclusivos e outra para impostos gerais, e boa parte da réplica consiste em separar esses dois casos.",
+                "A distinção entre o dono original e o comprador posterior é o ponto que mais rende. Ela explica por que um imposto antigo pode parecer não pesar sobre ninguém e por que um imposto novo e alto sobre um ativo funciona como uma perda única para quem o possui no dia do anúncio. É esse o argumento que Seligman usa contra o imposto único: a teoria que o justificaria só funciona para quem ainda não comprou."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Capitalização do imposto",
+              "redução do preço de um bem no valor presente de um imposto permanente que recai sobre ele."
+            ],
+            [
+              "Imposto exclusivo",
+              "imposto que recai só sobre uma classe de bens ou de rendas."
+            ],
+            [
+              "Imposto geral",
+              "imposto que recai sobre todos os bens ou todas as rendas."
+            ],
+            [
+              "Imposto único (single tax)",
+              "programa associado a Henry George de financiar o governo pela renda da terra."
+            ],
+            [
+              "Incremento não ganho",
+              "valorização de um bem, sobretudo a terra, que não resulta de esforço do dono."
+            ],
+            [
+              "Translação (shifting)",
+              "passagem do ônus de um imposto a outra pessoa por meio dos preços."
+            ],
+            [
+              "Título isento",
+              "título cujos juros não pagam determinado imposto, como o de renda."
+            ],
+            [
+              "Retenção na fonte",
+              "cobrança do imposto por quem paga a renda, antes de entregá-la ao beneficiário."
+            ]
+          ],
+          "hoje": "A capitalização de impostos no preço dos ativos é tema permanente da economia do setor público. Estudos sobre o imposto predial medem quanto dele se reflete no valor dos imóveis, e a diferença de rendimento entre títulos isentos e tributados segue sendo usada para estimar o valor de isenções. A distinção de Seligman entre donos originais e compradores posteriores reaparece sempre que se discute criar ou elevar um imposto sobre a terra ou mudar a tributação de um ativo já negociado."
+        }
+      ]
+    },
+    {
+      "slug": "1917-imposto-unico-e-poupanca-postal",
+      "numero": 145,
+      "titulo": "O imposto único em teoria, a poupança postal e o dólar comercial",
+      "titulo_original": "The American Economic Review, vol. VII, no. 1, March 1917",
+      "autores": "H. J. Davenport, Mark A. Smith, E. W. Kemmerer e Porter Garnett",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 7, nº 1",
+      "data": "março de 1917",
+      "chamada": "Davenport aceita o princípio do imposto único e recusa a confiscação; Kemmerer faz o balanço de seis anos de poupança postal; Smith testa a avaliação das ferrovias; Garnett conta a história do dólar comercial.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1913, o diretor do sistema de poupança postal dos Estados Unidos contou que somas de até US$ 25 mil chegavam aos guichês dos correios em chaleiras velhas, meias e outros recipientes estranhos, e voltavam para os cantos, os porões e o subsolo quando o limite de US$ 500 por depositante obrigava a recusá-las. A cena está no balanço que E. W. Kemmerer, da Princeton University, faz dos seis primeiros anos do sistema, no número de março de 1917 da American Economic Review, que abre o sétimo volume."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição tem quatro artigos. H. J. Davenport, da Cornell University, examina as questões teóricas do imposto único sobre a terra, do qual aceita o princípio e recusa a confiscação; Mark A. Smith, da Harvard University, propõe uma regra estatística para testar a avaliação das ferrovias para fins de imposto em Wisconsin; Kemmerer avalia a poupança postal; e Porter Garnett, de Berkeley, Califórnia, conta a história do dólar comercial, a peça de prata criada em 1873 para o comércio com a China. Seguem resenhas organizadas por área, listas de livros novos, documentos, resumos de periódicos e as notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que está certo e o que está errado no imposto único?",
+          "artigo": "1814350",
+          "credito": "H. J. Davenport (Cornell University) · “Theoretical Issues in the Single Tax” · pp. 1–30"
+        },
+        {
+          "tipo": "p",
+          "texto": "Davenport abre com uma profissão de fé: o princípio no centro do movimento do imposto único, que as receitas públicas venham das rendas de bens naturais, como minas, florestas, quedas-d'água, concessões e terrenos urbanos, está certo e é muito importante. O que ele recusa é a confiscação: impor ao dono atual da terra a penalidade por um erro institucional da sociedade seria uma posição antiética para uma escola cuja doutrina é de ética prática. Como remédio, propõe impostos sobre herança e a compra pública das rendas futuras do solo com receita de novos impostos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro alvo técnico é o método. Cobrar o imposto como porcentagem do valor de mercado da terra é inadequado quando se quer tomar a renda: cada aumento do imposto reduz o preço, e a alíquota precisa subir para obter a mesma receita. Num terreno que rende US$ 50 e vale US$ 1.000, tomar US$ 10 reduz o preço a US$ 800 e exige uma alíquota de 1 1/4%. Davenport reconhece um erro antigo seu, apontado por Edgar H. Johnson em 1910. E acrescenta que tributar o valor presente de uma renda que ainda não existe financia o gasto atual à custa da produção futura."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Um imposto único parcial é uma coisa perigosa.”",
+          "original": "“A partial single tax is a dangerous thing.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Davenport aceita a doutrina ricardiana de que o imposto sobre a renda da terra urbana não se transfere: a área não muda com o imposto, e por isso preços e aluguéis também não. A mudança seria de quem recebe a renda, que passaria a ser o Estado. Com a terra agrícola é diferente, porque a fertilidade pode ser esgotada ou renovada."
+        },
+        {
+          "tipo": "p",
+          "texto": "No debate sobre especulação, separa o efeito dos especuladores do efeito das condições especulativas: a incerteza sobre o uso futuro de um terreno retarda ou acelera construções qualquer que seja o imposto. Concorda com A. S. Johnson que a perspectiva de valorização empurrou a fronteira, mas só em cinquenta a cem milhas. Conclui que, enquanto os outros investimentos escaparem do imposto sobre a propriedade, as benfeitorias devem ficar isentas; o ideal seria tributar as rendas como rendas."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "davenport-imposto-unico",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como saber se uma ferrovia foi bem avaliada para o imposto?",
+          "artigo": "1814351",
+          "credito": "Mark A. Smith (Harvard University) · “A Rule for Testing Tax Valuations of Railroads” · pp. 31–45"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Wisconsin, as ferrovias pagavam a taxa média verdadeira de imposto sobre o valor de mercado da propriedade, mas esse valor era difícil de estimar: os comissários faziam estimativas independentes e davam pesos diferentes aos mesmos elementos. Mark A. Smith propõe uma regra matemática para testar se as avaliações eram justas entre as ferrovias, sem substituir o julgamento dos comissários. A pesquisa foi sugerida por Thomas S. Adams, antes da University of Wisconsin e, na época da publicação, da Yale University."
+        },
+        {
+          "tipo": "p",
+          "texto": "As 50 ferrovias do estado foram divididas em oito grupos de condições semelhantes. O primeiro reúne seis linhas-tronco, com 6.608 das 8.026 milhas de ferrovia do estado, 82% do total; o último, ferrovias madeireiras construídas para um fim temporário. Pelas avaliações da comissão de impostos, o valor médio por milha ia de US$ 46.650 no primeiro grupo a US$ 2.600 no sétimo. A comparação entre avaliação, custo de reprodução e valor nominal de ações e títulos mostrava valores mais próximos nas grandes ferrovias que nas pequenas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "50%",
+          "texto": "Peso do lucro líquido médio dos cinco anos anteriores na regra de Smith. A receita bruta média de cinco anos e a avaliação física pesam 20% cada; a receita bruta e o lucro líquido do último ano, 5% cada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A regra calcula, para cada grupo, a razão entre cada fator e o valor total atribuído pelos comissários; capitaliza os fatores de cada ferrovia a essas taxas do grupo; tira a média ponderada; e compara o valor avaliado com o valor recalculado. Dividindo a razão de cada ferrovia pela média do grupo, números acima de 100 indicam sobreavaliação relativa, e abaixo de 100, subavaliação. No grupo das linhas-tronco, a média foi de 97,8%, e duas ferrovias ficaram 9,1% acima dela."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é limitada de propósito. A regra serviria para testar a justiça relativa das avaliações dentro de um grupo, aplicada só depois que os comissários tivessem fixado suas estimativas com base no conhecimento das ferrovias. Smith reconhece que falar em capitalizar a avaliação física é um uso impróprio do termo, adotado por simplicidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que seis anos de poupança postal mostraram?",
+          "artigo": "1814352",
+          "credito": "E. W. Kemmerer (Princeton University) · “Six Years of Postal Savings in the United States” · pp. 46–90"
+        },
+        {
+          "tipo": "p",
+          "texto": "O sistema de poupança postal, autorizado pela lei de 25 de junho de 1910, abriu as portas em 3 de janeiro de 1911. Os opositores o chamavam de proposta socialista que poria o governo no negócio bancário; os defensores esperavam tirar dinheiro de esconderijos, reter no país a poupança que os imigrantes enviavam ao exterior e atender a população rural do Oeste e do Sul. Kemmerer examina a organização, as agências, os depositantes e o investimento dos fundos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O sistema cresceu depressa demais em agências: em 1913 havia postos em 12.151 agências, e cerca de 3.000 das 4.000 de quarta classe não tinham depósito algum ou tinham só um dólar. Em 30 de junho de 1916 restavam 8.421, das quais 509 ainda sem um dólar. Os limites de US$ 500 de saldo e de US$ 100 por mês foram afrouxados pela lei de 18 de maio de 1916, que elevou o teto com juros a US$ 1.000."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 86 milhões",
+          "texto": "Depósitos da poupança postal em 30 de junho de 1916, contra US$ 20,2 milhões em 1912; em novembro de 1916 eram cerca de US$ 108,5 milhões. O saldo médio passou de US$ 57 em 1911 para US$ 148 em 1916. Segundo o diretor Carter B. Keene, 60% dos depositantes tinham nascido fora do país e detinham três quartos dos depósitos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Não houve concorrência com os bancos, conclui Kemmerer: os depósitos vinham sobretudo de entesouramento e de dinheiro que antes ia para bancos europeus, e o sistema funcionou como alimentador dos bancos. O ponto crítico são os juros. A taxa de 2% era a mais baixa entre os sistemas postais do mundo, e as regras não pagavam juros sobre dinheiro depositado por menos de um ano; em 1916, os depositantes receberam o equivalente a 1,27% do saldo médio, enquanto o governo recebia 2 1/2% dos bancos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O dinheiro é uma forma de capital fluida demais para ser ‘mantido em casa’.”",
+          "original": "“Money is too fluid a form of capital to be ‘kept at home’”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A última crítica é ao desenho do investimento. Para obter apoio político, a lei manteve os fundos nos bancos das comunidades onde eram depositados, e mais de 90% deles estavam em bancos. Como esses fundos se parecem mais com capital permanente do que com fundos de giro, Kemmerer propõe usar mais os bancos de poupança como depositários."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "kemmerer-poupanca-postal",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o dólar comercial não era uma moeda?",
+          "artigo": "1814353",
+          "credito": "Porter Garnett (Berkeley, California) · “The History of the Trade Dollar” · pp. 91–97"
+        },
+        {
+          "tipo": "p",
+          "texto": "Porter Garnett conta a história de uma ideia de seu pai, Louis A. Garnett, então gerente da San Francisco Assaying and Refining Works, que no outono de 1872 a apresentou a H. R. Linderman, superintendente da Casa da Moeda da Filadélfia. O México mandava a San Francisco dólares de prata que os comerciantes exportavam para a China, onde o dólar mexicano se tornara a moeda de conta do comércio exterior, e eles eram vendidos a cerca de 7 1/2% acima do valor da prata que continham."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta era um disco de prata de peso e toque uniformes, com 378 grãos de prata pura, um pouco mais que o dólar mexicano, sem curso legal no país e feito por conta de quem fornecesse o metal. Linderman sugeriu chamá-lo de silver union. A lei de cunhagem de 12 de fevereiro de 1873 criou o trade dollar, cunhado a partir de julho; segundo Garnett, testes do governo chinês levaram a uma proclamação que lhe deu curso legal, e dois bancos de Hong Kong relataram que ele era preferido ao mexicano no sul da China."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 35,97 milhões",
+          "texto": "Cunhagem total de dólares comerciais até 1884, dos quais US$ 29,36 milhões foram exportados. Em 1887, o governo resgatou cerca de US$ 7,7 milhões ao par em dólares-padrão; pelo cálculo de Garnett, a prata correspondente valia cerca de US$ 1,8 milhão menos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O dólar comercial não era uma moeda no sentido aceito da palavra.”",
+          "original": "“the trade dollar was not a coin in the accepted sense of the word”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema veio de um descuido legislativo. Quando o trade dollar substituiu, no projeto, um dólar subsidiário proposto por Hooper, a cláusula que dava curso legal até US$ 5 a esse dólar e às moedas fracionárias não foi alterada, e o dólar comercial ganhou curso legal limitado, revogado em 22 de julho de 1876. Com a queda da prata, especuladores passaram a comprar com desconto os dólares que circulavam no país, alegando que o governo devia resgatá-los."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em março de 1887, quase onze anos depois da revogação, o Congresso obrigou o governo a resgatá-los ao par e encerrou a cunhagem. Garnett sustenta que os dólares não foram recebidos por engano em pagamentos, mas comprados com desconto em antecipação ao resgate: até julho de 1876, só cerca de US$ 2,8 milhões tinham ficado no país, e nenhum voltou do exterior antes de 1879."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas, organizadas por área, incluem a terceira edição de Outlines of Economics, de Richard T. Ely, Thomas S. Adams, Max O. Lorenz e Allyn A. Young, por Charles E. Persons; Current Economic Problems, de Walton Hale Hamilton, por A. B. Wolfe; Readings in the Economic History of the United States, de Ernest Ludlow Bogart e Charles Manfred Thompson, por Amelia C. Ford; The Panama Canal and Commerce, de Emory R. Johnson, por Welding Ring; The Colonial Tariff Policy of France, de Arthur Girault, por F. W. Taussig; e United States Life Tables, 1910, preparadas sob a supervisão de James W. Glover, por Louis I. Dublin. Os documentos começam pelo relatório da Federal Trade Commission sobre comércio e tarifas no Brasil, no Uruguai, na Argentina, no Chile, na Bolívia e no Peru. As notas trazem a lista de novos sócios e registram a morte de Paul Leroy-Beaulieu, em 10 de dezembro de 1916, aos 73 anos, fundador de L'Économiste Français, que dirigiu por 43 anos."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, três dos quatro artigos tratam do mesmo problema de método: como atribuir um valor presente a uma renda que se distribui no tempo. Davenport mostra que tributar o valor de mercado da terra é tributar uma expectativa, e que o preço reage ao próprio imposto; Smith capitaliza receitas e lucros de cada ferrovia às taxas observadas em seu grupo para obter um valor de comparação; Kemmerer mostra como regras de cálculo de juros, como a exigência de um ano inteiro de depósito, mudam o retorno efetivo do poupador.",
+            "O artigo de Garnett completa o quadro pelo lado institucional. Uma peça pensada como lingote de peso garantido ganhou, por uma cláusula não revista, atributos de moeda, e o valor que o mercado lhe dava passou a depender da expectativa de resgate pelo governo. É o mesmo mecanismo que Davenport descreve para a terra: quando a regra não é clara, o preço registra uma aposta sobre o que a política vai fazer."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto único (single tax)",
+          "programa associado a Henry George de financiar o governo pela renda da terra."
+        ],
+        [
+          "Renda da terra",
+          "pagamento pelo uso da terra, sobretudo da localização e das qualidades naturais."
+        ],
+        [
+          "Incremento não ganho",
+          "valorização da terra que não resulta de esforço do dono."
+        ],
+        [
+          "Imposto ad valorem",
+          "imposto cobrado como porcentagem do valor de um bem."
+        ],
+        [
+          "Valor presente",
+          "valor hoje de uma renda futura, descontada a juros."
+        ],
+        [
+          "Translação (shifting)",
+          "passagem do ônus de um imposto a outra pessoa por meio dos preços."
+        ],
+        [
+          "Margem extensiva",
+          "limite das terras que ainda compensa cultivar."
+        ],
+        [
+          "Custo de reprodução novo",
+          "custo de construir hoje uma propriedade equivalente; base da avaliação física das ferrovias."
+        ],
+        [
+          "Poupança postal",
+          "sistema público de depósitos de poupança recebidos nas agências dos correios."
+        ],
+        [
+          "Banco depositário",
+          "banco que recebe, contra garantia, os fundos da poupança postal."
+        ],
+        [
+          "Dólar comercial (trade dollar)",
+          "peça de prata americana de 1873 destinada ao comércio com o Oriente."
+        ],
+        [
+          "Curso legal",
+          "obrigação legal de aceitar uma moeda em pagamento de dívidas."
+        ]
+      ],
+      "hoje": "Os quatro temas seguem em debate. O imposto sobre o valor da terra, separado do valor das construções, continua a ser estudado e adotado em algumas cidades, e a questão da transição para os donos atuais permanece. A avaliação de propriedades para impostos ainda é conferida por comparações estatísticas entre valor avaliado e valor de mercado. Sistemas de poupança nos correios existem em vários países como instrumento de acesso a serviços financeiros. E o desenho jurídico de moedas e títulos continua a decidir quem ganha quando a política muda.",
+      "itens": [
+        [
+          "Theoretical Issues in the Single Tax",
+          "pp. 1–30",
+          "1814350"
+        ],
+        [
+          "A Rule for Testing Tax Valuations of Railroads",
+          "pp. 31–45",
+          "1814351"
+        ],
+        [
+          "Six Years of Postal Savings in the United States",
+          "pp. 46–90",
+          "1814352"
+        ],
+        [
+          "The History of the Trade Dollar",
+          "pp. 91–97",
+          "1814353"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 98-103",
+          "pp. 98–103",
+          "1814354"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 103-107",
+          "pp. 103–107",
+          "1814355"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 107-108",
+          "pp. 107–108",
+          "1814356"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 108-109",
+          "pp. 108–109",
+          "1814357"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 109-111",
+          "pp. 109–111",
+          "1814358"
+        ],
+        [
+          "New Books",
+          "pp. 111–115",
+          "1814359"
+        ],
+        [
+          "New Books",
+          "pp. 115–117",
+          "1814360"
+        ],
+        [
+          "New Books",
+          "pp. 117",
+          "1814361"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 117-119",
+          "pp. 117–119",
+          "1814362"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 119-121",
+          "pp. 119–121",
+          "1814363"
+        ],
+        [
+          "Book Reviews",
+          "pp. 121–122",
+          "1814364"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 122-125",
+          "pp. 122–125",
+          "1814365"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 125-129",
+          "pp. 125–129",
+          "1814366"
+        ],
+        [
+          "New Books",
+          "pp. 129–130",
+          "1814367"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 130-132",
+          "pp. 130–132",
+          "1814368"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 132-133",
+          "pp. 132–133",
+          "1814369"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 133-137",
+          "pp. 133–137",
+          "1814370"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 137-139",
+          "pp. 137–139",
+          "1814371"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 139-141",
+          "pp. 139–141",
+          "1814372"
+        ],
+        [
+          "New Books",
+          "pp. 141–144",
+          "1814373"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 144-147",
+          "pp. 144–147",
+          "1814374"
+        ],
+        [
+          "New Books",
+          "pp. 147",
+          "1814375"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 147-150",
+          "pp. 147–150",
+          "1814376"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 150-152",
+          "pp. 150–152",
+          "1814377"
+        ],
+        [
+          "New Books",
+          "pp. 152–153",
+          "1814378"
+        ],
+        [
+          "New Books",
+          "pp. 153–155",
+          "1814379"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 155-158",
+          "pp. 155–158",
+          "1814380"
+        ],
+        [
+          "New Books",
+          "pp. 158–161",
+          "1814381"
+        ],
+        [
+          "New Books",
+          "pp. 161",
+          "1814382"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 162-163",
+          "pp. 162–163",
+          "1814383"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 164-165",
+          "pp. 164–165",
+          "1814384"
+        ],
+        [
+          "New Books",
+          "pp. 165–168",
+          "1814385"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 168-171",
+          "pp. 168–171",
+          "1814386"
+        ],
+        [
+          "[untitled] The American Economic Review, (1917-03-01), pages 171-174",
+          "pp. 171–174",
+          "1814387"
+        ],
+        [
+          "New Books",
+          "pp. 174–176",
+          "1814388"
+        ],
+        [
+          "New Books",
+          "pp. 176",
+          "1814389"
+        ],
+        [
+          "New Books",
+          "pp. 176–178",
+          "1814390"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 179–226",
+          "1814391"
+        ],
+        [
+          "Periodicals",
+          "pp. 227–260",
+          "1814392"
+        ],
+        [
+          "Notes",
+          "pp. 261–268",
+          "1814393"
+        ]
+      ],
+      "jstor_edicao": "i331473",
+      "artigos": [
+        {
+          "titulo": "Theoretical Issues in the Single Tax",
+          "autores": "H. J. Davenport (Cornell University)",
+          "paginas": "pp. 1–30",
+          "jstor": "1814350",
+          "resumo": "Davenport aceita o princípio de reservar ao Estado a renda dos bens naturais, recusa a confiscação e critica o método ad valorem e vários argumentos dos dois lados do debate.",
+          "ensaio_slug": "davenport-imposto-unico"
+        },
+        {
+          "titulo": "A Rule for Testing Tax Valuations of Railroads",
+          "autores": "Mark A. Smith (Harvard University)",
+          "paginas": "pp. 31–45",
+          "jstor": "1814351",
+          "resumo": "Smith propõe uma regra de capitalização ponderada de receitas, lucros e avaliação física para testar a justiça relativa das avaliações das ferrovias de Wisconsin."
+        },
+        {
+          "titulo": "Six Years of Postal Savings in the United States",
+          "autores": "E. W. Kemmerer (Princeton University)",
+          "paginas": "pp. 46–90",
+          "jstor": "1814352",
+          "resumo": "Kemmerer avalia os seis primeiros anos da poupança postal americana: agências, depositantes, limites, juros e investimento dos fundos.",
+          "ensaio_slug": "kemmerer-poupanca-postal"
+        },
+        {
+          "titulo": "The History of the Trade Dollar",
+          "autores": "Porter Garnett (Berkeley, California)",
+          "paginas": "pp. 91–97",
+          "jstor": "1814353",
+          "resumo": "Garnett narra a criação do dólar comercial para o comércio com a China, o curso legal que ganhou por descuido e seu resgate em 1887."
+        },
+        {
+          "titulo": "Richard T. Ely, Thomas S. Adams, Max O. Lorenz e Allyn A. Young, Outlines of Economics, 3ª ed.",
+          "autores": "Charles E. Persons",
+          "paginas": "pp. 98–103",
+          "jstor": "1814354",
+          "resumo": "Resenha de Charles E. Persons."
+        },
+        {
+          "titulo": "Walton Hale Hamilton, Current Economic Problems; Exercises in Current Economics",
+          "autores": "A. B. Wolfe",
+          "paginas": "pp. 103–107",
+          "jstor": "1814355",
+          "resumo": "Resenha de A. B. Wolfe."
+        },
+        {
+          "titulo": "A. A. Trever, A History of Greek Economic Thought",
+          "autores": "James Bonar",
+          "paginas": "pp. 107–108",
+          "jstor": "1814356",
+          "resumo": "Resenha de James Bonar."
+        },
+        {
+          "titulo": "Ernest Ludlow Bogart e Charles Manfred Thompson, Readings in the Economic History of the United States",
+          "autores": "Amelia C. Ford",
+          "paginas": "pp. 108–109",
+          "jstor": "1814357",
+          "resumo": "Resenha de Amelia C. Ford."
+        },
+        {
+          "titulo": "Ernesto Quesada, La Legislación Inmobiliaria Tunecina",
+          "autores": "David Kinley",
+          "paginas": "pp. 109–111",
+          "jstor": "1814358",
+          "resumo": "Resenha de David Kinley."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 111–115",
+          "jstor": "1814359",
+          "resumo": "Lista de livros recentes da seção de história econômica e geografia, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 115–117",
+          "jstor": "1814360",
+          "resumo": "Lista de livros recentes da seção de agricultura, mineração, florestas e pesca, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 117",
+          "jstor": "1814361",
+          "resumo": "Lista de livros recentes da seção de indústrias manufatureiras, com notas breves."
+        },
+        {
+          "titulo": "Edwin J. Clapp, The Port of Boston",
+          "autores": "H. F. Lane",
+          "paginas": "pp. 117–119",
+          "jstor": "1814362",
+          "resumo": "Resenha de H. F. Lane."
+        },
+        {
+          "titulo": "Emory R. Johnson, The Panama Canal and Commerce",
+          "autores": "Welding Ring",
+          "paginas": "pp. 119–121",
+          "jstor": "1814363",
+          "resumo": "Resenha de Welding Ring."
+        },
+        {
+          "titulo": "James Peabody, Railway Organization and Management",
+          "autores": "C. W. Doten",
+          "paginas": "pp. 121–122",
+          "jstor": "1814364",
+          "resumo": "Resenha de C. W. Doten."
+        },
+        {
+          "titulo": "Ernst B. Filsinger, Exporting to Latin America",
+          "autores": "E. E. Pratt",
+          "paginas": "pp. 122–125",
+          "jstor": "1814365",
+          "resumo": "Resenha de E. E. Pratt."
+        },
+        {
+          "titulo": "Arthur B. Adams, Marketing Perishable Farm Products",
+          "autores": "William R. Camp",
+          "paginas": "pp. 125–129",
+          "jstor": "1814366",
+          "resumo": "Resenha de William R. Camp."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 129–130",
+          "jstor": "1814367",
+          "resumo": "Lista de livros recentes da seção de comércio e crises comerciais, com notas breves."
+        },
+        {
+          "titulo": "Robert H. Montgomery, Auditing Theory and Practice",
+          "autores": "William Morse Cole",
+          "paginas": "pp. 130–132",
+          "jstor": "1814368",
+          "resumo": "Resenha de William Morse Cole."
+        },
+        {
+          "titulo": "Frederick A. Parkhurst, Predetermination of Prices",
+          "autores": "John Raymond Wildman",
+          "paginas": "pp. 132–133",
+          "jstor": "1814369",
+          "resumo": "Resenha de John Raymond Wildman."
+        },
+        {
+          "titulo": "Stephen Gilman, Principles of Accounting",
+          "autores": "C. C. Huntington",
+          "paginas": "pp. 133–137",
+          "jstor": "1814370",
+          "resumo": "Resenha de C. C. Huntington."
+        },
+        {
+          "titulo": "Clinton H. Scovell, Cost Accounting and Burden Application",
+          "autores": "M. M. FitzHugh",
+          "paginas": "pp. 137–139",
+          "jstor": "1814371",
+          "resumo": "Resenha de M. M. FitzHugh."
+        },
+        {
+          "titulo": "James W. Fisk, Retail Selling; Simon Robert Hoover, The Science and Art of Salesmanship; Norris A. Brisco, Fundamentals of Salesmanship",
+          "autores": "Ray B. Westerfield",
+          "paginas": "pp. 139–141",
+          "jstor": "1814372",
+          "resumo": "Resenha de Ray B. Westerfield."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 141–144",
+          "jstor": "1814373",
+          "resumo": "Lista de livros recentes da seção de contabilidade, métodos comerciais e investimentos, com notas breves."
+        },
+        {
+          "titulo": "J. E. Kingsbury, The Telephone and Telephone Exchanges",
+          "autores": "Dugald C. Jackson",
+          "paginas": "pp. 144–147",
+          "jstor": "1814374",
+          "resumo": "Resenha de Dugald C. Jackson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 147",
+          "jstor": "1814375",
+          "resumo": "Lista de livros recentes da seção de capital e organização capitalista, com notas breves."
+        },
+        {
+          "titulo": "The Boot and Shoe Industry in Massachusetts as a Vocation for Women; Lorinda Perry, Millinery as a Trade for Women",
+          "autores": "Sarah S. W. Walden",
+          "paginas": "pp. 147–150",
+          "jstor": "1814376",
+          "resumo": "Resenha de Sarah S. W. Walden."
+        },
+        {
+          "titulo": "Charles H. Winslow, Collective Agreements in the Men's Clothing Industry",
+          "autores": "Nathaniel R. Whitney",
+          "paginas": "pp. 150–152",
+          "jstor": "1814377",
+          "resumo": "Resenha de Nathaniel R. Whitney."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 152–153",
+          "jstor": "1814378",
+          "resumo": "Lista de livros recentes da seção de trabalho e organizações trabalhistas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 153–155",
+          "jstor": "1814379",
+          "resumo": "Lista de livros recentes da seção de moeda, preços, crédito e bancos, com notas breves."
+        },
+        {
+          "titulo": "Arthur Girault, The Colonial Tariff Policy of France",
+          "autores": "F. W. Taussig",
+          "paginas": "pp. 155–158",
+          "jstor": "1814380",
+          "resumo": "Resenha de F. W. Taussig."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 158–161",
+          "jstor": "1814381",
+          "resumo": "Lista de livros recentes da seção de finanças públicas, tributação e tarifas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 161",
+          "jstor": "1814382",
+          "resumo": "Lista de livros recentes da seção de população e migração, com notas breves."
+        },
+        {
+          "titulo": "William Adrian Bonger, Criminality and Economic Conditions",
+          "autores": "C. C. Carstens",
+          "paginas": "pp. 162–163",
+          "jstor": "1814383",
+          "resumo": "Resenha de C. C. Carstens."
+        },
+        {
+          "titulo": "Albert Benedict Wolfe, Readings in Social Problems",
+          "autores": "Henry Pratt Fairchild",
+          "paginas": "pp. 164–165",
+          "jstor": "1814384",
+          "resumo": "Resenha de Henry Pratt Fairchild."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 165–168",
+          "jstor": "1814385",
+          "resumo": "Lista de livros recentes da seção de problemas sociais e reformas, com notas breves."
+        },
+        {
+          "titulo": "United States Life Tables, 1910, preparadas sob a supervisão de James W. Glover",
+          "autores": "Louis I. Dublin",
+          "paginas": "pp. 168–171",
+          "jstor": "1814386",
+          "resumo": "Resenha de Louis I. Dublin."
+        },
+        {
+          "titulo": "I. M. Rubinow, Standards of Health Insurance",
+          "autores": "Robert F. Foerster",
+          "paginas": "pp. 171–174",
+          "jstor": "1814387",
+          "resumo": "Resenha de Robert F. Foerster."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 174–176",
+          "jstor": "1814388",
+          "resumo": "Lista de livros recentes da seção de seguros e pensões, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 176",
+          "jstor": "1814389",
+          "resumo": "Lista de livros recentes da seção de pauperismo e caridade, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 176–178",
+          "jstor": "1814390",
+          "resumo": "Lista de livros recentes da seção de socialismo e empresas cooperativas e de estatística, com notas breves."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 179–226",
+          "jstor": "1814391",
+          "resumo": "Resumos de documentos oficiais, a começar pelo relatório da Federal Trade Commission sobre comércio e tarifas em seis países sul-americanos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 227–260",
+          "jstor": "1814392",
+          "resumo": "Resumos de artigos de periódicos americanos e estrangeiros, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "redação",
+          "paginas": "pp. 261–268",
+          "jstor": "1814393",
+          "resumo": "Lista de novos sócios e notas do meio acadêmico, entre elas a morte de Paul Leroy-Beaulieu, em 10 de dezembro de 1916."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "davenport-imposto-unico",
+          "titulo": "Davenport, 1917: o imposto único entre o princípio e a confiscação",
+          "titulo_original": "Theoretical Issues in the Single Tax",
+          "autores": "H. J. Davenport (Cornell University)",
+          "paginas": "pp. 1–30",
+          "jstor": "1814350",
+          "chamada": "H. J. Davenport defende que a renda dos bens naturais pertence ao fisco, recusa a confiscação dos donos atuais e examina, um a um, os argumentos técnicos a favor e contra o imposto único.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Na Rua State, em Chicago, a meio caminho entre o centro comercial e os antigos bairros residenciais, quarteirões de construções baratas e sem manutenção abrigavam bares, restaurantes ordinários, espetáculos de quinta categoria e outros negócios que as autoridades toleravam. Por que ninguém as substituía? Porque ainda não se sabia quão bom teria de ser o prédio para render mais a longo prazo, responde H. J. Davenport, da Cornell University. Esperar era sensato, e nenhum imposto mudaria isso."
+            },
+            {
+              "tipo": "p",
+              "texto": "O exemplo está no artigo que abre o número de março de 1917 da American Economic Review, uma discussão das questões teóricas do imposto único sobre a terra. Davenport escreve como simpatizante, um defensor da observância mais frouxa, como ele mesmo diz, e por isso suas objeções miram sobretudo os argumentos, e não o princípio."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é a profissão de fé?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O princípio no centro do movimento, diz Davenport, está certo e é muito importante: as receitas públicas deveriam vir dos patrimônios sociais, fontes às quais não se aplicam as justificativas da propriedade privada. As rendas de minas, florestas, quedas-d'água, concessões, terrenos urbanos e, se possível, terras agrícolas deveriam ficar com o fisco. Ele lembra as terras escolares do Oeste, as minas reservadas à University of Minnesota, as terras que dotam a University of Texas, as minas de sal públicas da Alemanha e os royalties que o Canadá cobrava sobre parte de seus minérios."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não uma sociedade com imposto único, mas uma sociedade livre de qualquer imposto.”",
+              "original": "“Not a society singletaxed, but a society free from all taxes of any sort”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A base ética do defensor coerente do imposto único seria o direito do indivíduo a si mesmo e ao resultado de sua atividade. Por isso Davenport o descreve como um individualista do tipo mais radical, a antítese do socialista: só aceita a propriedade social onde nenhuma propriedade individual pode se justificar, deixa a exploração da terra à concorrência e socializa apenas o recebimento da renda."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o imposto ad valorem não serve?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro problema técnico é o método. Quando a meta é tomar a renda, o caminho certo seria tomá-la diretamente, e não cobrar uma porcentagem do valor da terra, porque o valor cai a cada aumento do imposto. Num terreno que rende US$ 50 e vale US$ 1.000, tomar US$ 10 reduz o preço a US$ 800, e a alíquota precisa ser de 1 1/4%, e não de 1%. Para tomar quase toda a renda, a alíquota teria de crescer sem limite. Davenport aproveita para admitir que errou ao dizer que o método só alcançaria metade da renda: Edgar H. Johnson o corrigira em 1910, e ele nunca respondeu porque não podia."
+            },
+            {
+              "tipo": "p",
+              "texto": "O defeito mais grave é outro. Tributar o valor presente de um terreno que ainda não rende é cobrar hoje por uma renda futura e, ao mesmo tempo, pretender tomá-la quando ela surgir: dois impostos onde só um pode ser justo. A regra geral, para Davenport, é que a renda corrente é o único objeto apropriado da tributação corrente. Ele aplica o raciocínio às florestas, às minas e a uma renda vitalícia: US$ 1.000 pagos aos 30 anos compram cerca de US$ 250 por ano a partir dos 60, e o imposto sobre a propriedade cobraria cada ano mais sobre um direito que ainda não rendeu nada."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Antecipar o incremento por meio de impostos é um contrassenso.”",
+              "original": "“To anticipate the increment by taxation is nonsense.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O mesmo vale para as empresas reguladas: se um privilégio aumenta os lucros em US$ 50 mil, o preço da propriedade sobe US$ 1 milhão, e um imposto de 1% sobre esse aumento recupera só US$ 10 mil. A sociedade, conclui, deve reclamar todo incremento assim que ele surge; adiar é iludir os investidores e depois puni-los por terem sido iludidos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Confiscar é justo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Davenport recusa a confiscação das valorizações passadas. Quem agiu de acordo com regras estabelecidas e reconhecidas tem direito à proteção, e o custo de passar a um regime melhor deve caber à sociedade que criou a instituição. Ele aponta o que considera um paradoxo: a fortuna de quem vendeu a terra com lucro fica protegida em casas, rebanhos e fábricas, enquanto quem comprou a terra com dinheiro honesto passaria a correr o risco de perdê-la. A culpa ficaria ligada às coisas, e não às pessoas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Outros argumentos contrários lhe parecem fracos: que há muitos incrementos não ganhos além do da terra; que, se o Estado toma as valorizações, deve cobrir as desvalorizações; que o imposto não segue a capacidade de pagamento e não tem elasticidade. Se a renda da terra é o preço do uso de uma vantagem especial, a regra da capacidade não se aplica."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O imposto sobre a terra se transfere?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pela doutrina ricardiana, não. Um imposto só se transfere por mudanças de preço, e estas exigem mudanças na oferta ou na procura. A terra urbana é superfície, um fato de geografia: sua quantidade não muda com o imposto, e nada leva aluguéis ou preços a subir. Na terra agrícola, a fertilidade pode ser esgotada ou renovada, e a análise é menos simples, mas Davenport considera as rendas agrícolas um ponto menor, pois o valor do solo de Nova York superaria todo o valor imobiliário a oeste do Mississippi. O programa trocaria apenas o recebedor da renda; não aumentaria salários nem baixaria aluguéis por si."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A especulação retarda as construções?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui Davenport arbitra um debate. Os defensores do imposto único dizem que a especulação retarda as melhorias; A. S. Johnson, que sem a busca da valorização a fronteira americana estaria em Ohio ou Indiana; R. M. Haig e T. S. Adams, que tributar o incremento estimularia o investimento; B. M. Anderson, que o imposto não estimula nem retarda nada. Para Davenport, os autores falam de coisas diferentes: da dúvida sobre o que vai acontecer, da certeza sobre o que ainda não aconteceu, da atividade dos especuladores ou do peso dos impostos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Sua síntese distingue especuladores de condições especulativas. Os especuladores, que compram para revender, restringem um pouco a oferta e espalham a cidade; mas a incerteza sobre o uso futuro de um terreno retarda ou acelera construções qualquer que seja o imposto, como na Rua State. Quanto à fronteira, a perspectiva de valorização a teria adiantado só cinquenta a cem milhas, e mandar pioneiros para além da margem lucrativa teria desperdiçado trabalho."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que fazer com as benfeitorias?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Davenport também comenta a disputa entre Adams e Seligman. Um imposto sobre todas as propriedades existentes, com novos investimentos isentos, não alteraria a taxa de juros; um imposto sobre novos fundos a reduziria. Vancouver mostrou os riscos de aplicar o princípio pela metade: cresceu depressa, alimentou uma especulação frenética e terminou num colapso. Na conclusão, defende isentar as construções enquanto os outros investimentos escaparem do imposto sobre a propriedade, e tributar, idealmente, as rendas como rendas."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo vale pela insistência no tempo. Quase todos os argumentos de Davenport giram em torno da diferença entre uma renda que existe e o valor presente de uma renda esperada. É essa diferença que torna o imposto ad valorem inadequado para tomar a renda da terra, que faz da confiscação uma perda concentrada em quem comprou por último e que explica por que a incerteza sobre o uso futuro, e não o imposto, decide quando se constrói.",
+                "A outra contribuição é separar o princípio da transição. Davenport aceita que a renda dos bens naturais deveria ter ficado com o público e, ao mesmo tempo, recusa que os donos atuais paguem pelo erro passado, propondo meios graduais, como o imposto sobre heranças e a compra das rendas futuras. É uma distinção que vale para qualquer reforma que mude o valor de ativos já negociados: o mérito da regra nova não resolve, sozinho, quem deve arcar com a mudança."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Imposto único (single tax)",
+              "programa associado a Henry George de financiar o governo pela renda da terra."
+            ],
+            [
+              "Renda da terra",
+              "pagamento pelo uso da terra, sobretudo da localização e das qualidades naturais."
+            ],
+            [
+              "Incremento não ganho",
+              "valorização da terra que não resulta de esforço do dono."
+            ],
+            [
+              "Imposto ad valorem",
+              "imposto cobrado como porcentagem do valor de um bem."
+            ],
+            [
+              "Valor presente",
+              "valor hoje de uma renda futura, descontada a juros."
+            ],
+            [
+              "Translação (shifting)",
+              "passagem do ônus de um imposto a outra pessoa por meio dos preços."
+            ],
+            [
+              "Margem extensiva",
+              "limite das terras que ainda compensa cultivar."
+            ],
+            [
+              "Renda vitalícia (annuity)",
+              "pagamento anual garantido a partir de certa idade, comprado com uma quantia inicial."
+            ]
+          ],
+          "hoje": "A tributação do valor da terra separada do valor das construções segue em discussão e é aplicada em algumas cidades, com o argumento de que não desestimula a construção. A questão de Davenport sobre a transição, quem perde quando um imposto novo é capitalizado no preço de um ativo já negociado, reaparece em toda reforma do imposto sobre a propriedade. E o efeito da incerteza regulatória sobre o momento de investir é tema corrente da economia urbana e da regulação."
+        },
+        {
+          "slug": "kemmerer-poupanca-postal",
+          "titulo": "Kemmerer, 1917: seis anos de poupança nos correios",
+          "titulo_original": "Six Years of Postal Savings in the United States",
+          "autores": "E. W. Kemmerer (Princeton University)",
+          "paginas": "pp. 46–90",
+          "jstor": "1814352",
+          "chamada": "E. W. Kemmerer avalia os seis primeiros anos da poupança postal americana: o excesso de agências, os limites aos depósitos, os juros que os depositantes perdem e a regra de manter o dinheiro em casa.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 7 de julho de 1913, o First-Second National Bank, de Pittsburgh, fechou as portas. Na semana seguinte, os correios da cidade receberam US$ 19.624 em depósitos de poupança, mais do que costumavam receber num mês inteiro. Muitos depositantes queriam deixar de US$ 1.000 a US$ 9.000; alguns, ao saber que só podiam depositar US$ 100, foram embora sem abrir conta. O agente postal estimou que o total oferecido e recusado passou de US$ 100 mil."
+            },
+            {
+              "tipo": "p",
+              "texto": "O episódio é um dos casos que E. W. Kemmerer, da Princeton University, reúne no balanço dos seis primeiros anos da poupança postal dos Estados Unidos, publicado no número de março de 1917 da American Economic Review. O sistema, autorizado pela lei de 25 de junho de 1910, começara a receber depósitos em 3 de janeiro de 1911. Kemmerer o examina em quatro partes: organização, agências, depositantes e depósitos, e investimento dos fundos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o sistema foi organizado?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei criou um conselho de curadores com três membros natos: o Postmaster General, o secretário do Tesouro e o Attorney General, representando o lado administrativo, o financeiro e o jurídico. Como os três tinham dificuldade de se reunir, uma lei de março de 1911 deu ao Postmaster General a escolha das agências e as regras de depósito e saque; o investimento ficou com o conselho. Em 1913, o serviço passou a uma Divisão de Poupança Postal, subordinada ao Third Assistant Postmaster General."
+            },
+            {
+              "tipo": "p",
+              "texto": "A expansão foi rápida demais. No fim do ano fiscal de 1913 havia postos em 12.151 agências e 667 filiais. O deputado William H. Stafford mostrou que, das 4.000 agências de quarta classe designadas, 3.000 não tinham depósitos ou tinham apenas um dólar, e a remuneração média dos agentes nesses casos era de 27 centavos por ano, enquanto cada uma exigia contas e auditorias próprias. Muitas foram fechadas; em 30 de junho de 1916 restavam 8.421."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "509",
+              "texto": "Agências de poupança postal sem um único dólar depositado em 30 de junho de 1916, pela contagem de Kemmerer. Outras 259 tinham só US$ 1, e 1.648 das 8.421 tinham menos de US$ 100. Para ele, ainda havia muito espaço para a tesoura."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem eram os depositantes?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Qualquer pessoa a partir dos dez anos podia abrir uma conta, com depósitos de um dólar ou múltiplos; cartões com selos de dez centavos permitiam juntar o primeiro dólar. Em vez de caderneta, o depositante recebia certificados. A lei de 1910 limitava o saldo a US$ 500 e os depósitos a US$ 100 por mês. Segundo o diretor Carter B. Keene, em setembro de 1916 cerca de 375 mil depositantes, 60% do total, tinham nascido fora dos Estados Unidos e detinham três quartos dos depósitos."
+            },
+            {
+              "tipo": "p",
+              "texto": "A distribuição geográfica era muito desigual. Em 30 de junho de 1916, havia um depositante para cada 153 habitantes no país, mas a proporção ia de um para 36 em Nevada a um para 5.550 na Carolina do Sul. Oito estados, liderados por Nova York e Pensilvânia, tinham 70% dos depósitos, e as 76 localidades com mais de US$ 100 mil depositados, com 22% da população, concentravam 67% deles. Os maiores depósitos por habitante estavam em pequenas cidades de mineração e de indústria."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os correios tiraram dinheiro dos bancos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os banqueiros tinham temido que sim. Kemmerer conclui que não há evidência de concorrência apreciável: os agentes postais relatavam quase unanimemente que o dinheiro vinha de esconderijos, como mostravam as moedas manchadas e os recipientes em que chegava, e de fundos antes enviados a bancos europeus. Keene relatou que uma pesquisa não encontrou nenhum depositante que tivesse trocado, em condições normais, o banco pelo correio; ao contrário, contas migravam dos correios para os bancos locais."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O sistema de poupança postal é uma escola adequada para as outras instituições de poupança.”",
+              "original": "“The postal savings system is a fitting school for other savings institutions.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Também o temor de que os correios estimulassem corridas aos bancos não se confirmou: os poucos casos, como o de Pittsburgh, ocorreram depois de falências locais, e o dinheiro recebido voltou imediatamente aos bancos da cidade. O sistema ainda substituiu um costume caro: antes de 1911, pessoas compravam ordens de pagamento para si mesmas só para deixar o dinheiro sob a guarda do governo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os limites de depósito foram afrouxados?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O limite de US$ 500 mandava dinheiro de volta aos esconderijos. Em dezembro de 1915, mais de 30 mil depositantes já o tinham atingido, e o diretor Reed estimara em pelo menos US$ 30 milhões o que fora recusado. Um projeto do deputado Moon, aprovado em 1914, foi vetado pelo presidente Wilson por outro motivo, a permissão de depositar fundos em bancos fora do sistema da reserva federal. Contra o afrouxamento, argumentava-se que o sistema passaria a concorrer com os bancos de poupança e que facilitaria a fuga de credores e de impostos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Retirada a oposição organizada dos banqueiros, a lei de 18 de maio de 1916 eliminou o limite mensal e elevou o saldo com juros a US$ 1.000, permitindo ainda mais US$ 1.000 sem juros, faculdade que o conselho não havia usado. Os depósitos, de US$ 20,2 milhões em 1912, chegaram a US$ 86 milhões em junho de 1916 e a cerca de US$ 108,5 milhões em novembro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto os depositantes recebem de juros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei fixou juros de 2% ao ano, a taxa mais baixa entre os sistemas postais do mundo, embora os juros nos Estados Unidos fossem mais altos que na maioria dos países avançados. O conselho proibiu juros compostos e decidiu não pagar juros sobre dinheiro depositado por menos de um ano inteiro nem sobre frações de ano. Como 62% dos depósitos eram sacados antes de um ano, a perda era grande."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "1,27%",
+              "texto": "Juros efetivamente creditados aos depositantes em 1916, em relação ao saldo médio de US$ 75,9 milhões: US$ 964.187, contra US$ 1,52 milhão que 2% teriam rendido. No mesmo ano, o governo recebeu cerca de US$ 1,8 milhão de juros dos bancos e das aplicações, e o lucro estimado do sistema foi de US$ 481.816."
+            },
+            {
+              "tipo": "p",
+              "texto": "Kemmerer vê nisso uma má política social, porque o lucro vem dos pobres que poupam. Pede juros sobre saldos semestrais ou trimestrais e um meio simples de transferir a conta quando o depositante muda de cidade, sem perder os juros acumulados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Para onde vai o dinheiro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos outros países, os fundos postais costumavam ir para a dívida pública, mas a dívida americana era pequena e estava presa à emissão de notas bancárias. A lei exigiu um fundo de reserva de 5% no Tesouro, permitiu aplicar até 30% em títulos federais e mandou depositar o resto nos bancos das próprias localidades, mediante garantia. Na prática, mais de 90% ficaram em bancos, e quase nada foi para títulos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Kemmerer, a ideia de manter o dinheiro em casa significava apenas entregar o lucro dos fundos aos bancos locais. Como em 1916 a cidade de Nova York tinha 24% dos depósitos, e 86% dos títulos de poupança postal emitidos eram nominativos, comprados para investimento permanente, ele conclui que os fundos se parecem mais com capital que com fundos de giro. Propõe usar mais os bancos de poupança mútua como depositários, o que os ajudaria num período de juros em alta."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um estudo de como regras de detalhe definem o resultado de uma política. O mesmo sistema que deveria estimular a poupança pagava a menor taxa do mundo, cortava os juros de quem sacava antes de um ano e recusava o dinheiro acima de US$ 500; o efeito combinado foi transformar a poupança dos pequenos depositantes em lucro do governo e devolver parte do dinheiro aos esconderijos. Kemmerer mede cada regra pelo custo que ela impõe, e não pela intenção declarada.",
+                "A outra lição está na alocação dos fundos. A regra de manter o dinheiro na localidade nasceu de um acordo político com os bancos locais, mas contrariava a mobilidade de crédito que a reforma bancária da época procurava criar. Ao propor os bancos de poupança como depositários, Kemmerer aplica um critério econômico simples: fundos de prazo longo devem financiar aplicações de prazo longo."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Poupança postal",
+              "sistema público de depósitos de poupança recebidos nas agências dos correios."
+            ],
+            [
+              "Conselho de curadores",
+              "órgão formado pelo Postmaster General, pelo secretário do Tesouro e pelo Attorney General que administrava os fundos."
+            ],
+            [
+              "Banco depositário",
+              "banco que recebe, contra garantia, os fundos da poupança postal."
+            ],
+            [
+              "Juros compostos",
+              "juros calculados também sobre os juros já creditados."
+            ],
+            [
+              "Fundo de reserva",
+              "parcela de 5% dos depósitos mantida em dinheiro no Tesouro."
+            ],
+            [
+              "Título nominativo",
+              "título registrado em nome do dono, em vez de pagável ao portador."
+            ],
+            [
+              "Banco de poupança mútua",
+              "banco de poupança sem acionistas, administrado em benefício dos depositantes."
+            ],
+            [
+              "Entesouramento",
+              "guarda de dinheiro fora do sistema bancário, sem render juros."
+            ]
+          ],
+          "hoje": "Sistemas de poupança operados pelos correios existem em vários países e voltam ao debate sempre que se discute como levar serviços financeiros a quem não tem conta em banco. As questões de Kemmerer continuam atuais: quanto o poupador pequeno deve receber, quem fica com o resultado da aplicação dos depósitos e se os recursos devem financiar a dívida pública, os bancos locais ou investimentos de longo prazo. O efeito de limites e regras de cálculo de juros sobre o comportamento do poupador também segue em estudo."
+        }
+      ]
     }
   ],
   "proximas": [
