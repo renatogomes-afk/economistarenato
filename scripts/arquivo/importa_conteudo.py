@@ -4,7 +4,7 @@ Uso: python scripts/arquivo/importa_conteudo.py <pasta_com_jsons>
 - Cada <slug>.json substitui (ou acrescenta) a edição com o mesmo slug; ordena por número.
 - A lista de verificação de fatos de cada texto vai para scripts/arquivo/verificacao.json (não é publicada).
 """
-import json, os, sys, glob
+import json, os, sys, glob, re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 ORIGEM = sys.argv[1]
@@ -33,6 +33,18 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
     ed["hoje"] = h
     verif[ed["slug"]] = ed.pop("verificacao", [])
     slugs_art = {x.get("ensaio_slug") for x in ed.get("artigos", [])}
+    if ed.get("publicacao") == "The American Economic Review":
+        # Piso de conteúdo (decisão do dono, 14/11/2026): todo artigo principal explica ideia e argumento no hub.
+        reuniao = "suplemento" in ed.get("volume", "")
+        orig = {i[2]: i[0] for i in ed["itens"]}
+        for x in ed.get("artigos", []):
+            t0 = orig.get(x.get("jstor"), "")
+            if t0.startswith(("[untitled]", "New Books")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^\[.*\]: ", t0):
+                continue
+            n = len(x.get("resumo", "").split())
+            discussao = re.search(r"Discussion|Round Table|Meeting|Address of|Luncheon", t0)
+            piso = 0 if (reuniao and discussao) else (150 if reuniao else 300)
+            assert n >= piso, f"{f}: artigo {x.get('jstor')} '{t0[:50]}' com {n} palavras (< {piso})"
     for c in ed.get("comentarios", []):
         for k in ("slug", "titulo", "titulo_original", "autores", "paginas", "jstor", "chamada", "blocos", "hoje"):
             assert k in c, f"{f}: comentário sem {k}"
