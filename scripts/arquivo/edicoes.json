@@ -87663,6 +87663,1756 @@
           "hoje": "Quase todos os temas da lei de 1921 continuam nas reformas do imposto de renda. A alíquota própria para ganhos de capital, a compensação de prejuízos entre exercícios, a erosão da base por ativos isentos e a disputa entre tributar renda e tributar consumo voltam a cada revisão. O mesmo vale para o lado administrativo: o estoque de processos sem solução e a falta de segurança sobre quando um lançamento é definitivo ainda pesam sobre contribuintes e governos. O artigo de Blakey lembra que a lei aprovada depende tanto da tramitação quanto do projeto."
         }
       ]
+    },
+    {
+      "slug": "1922-a-trigesima-quarta-reuniao-anual",
+      "numero": 175,
+      "titulo": "Pittsburgh, 1921: a crise de 1920 e a ambição de domar o ciclo",
+      "titulo_original": "Papers and Proceedings of the Thirty-fourth Annual Meeting of the American Economic Association. Pittsburgh, Pennsylvania, December, 1921",
+      "autores": "Warren M. Persons, Wesley C. Mitchell, George E. Barnett, Wm. M. Leiserson, Walker D. Hines, Logan G. McPherson, E. H. Downey, Charles H. Verrill, Harry T. Collings e os debatedores N. I. Stone, W. C. Schluter, Walter W. Stewart, David A. McCabe, M. B. Hammond, F. S. Deibler, Noel Sargent, A. M. Sakolski, M. O. Lorenz, Julius H. Parmelee, Powers Hapgood, Carl Hookstadt e Albert W. Whitney",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 12, nº 1 (suplemento)",
+      "data": "1922",
+      "chamada": "Pittsburgh, dezembro de 1921: Persons mede a crise de 1920, Mitchell propõe juros e obras públicas contra o ciclo e Barnett mostra que o salto sindical da guerra veio com a intervenção do governo.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na tarde de 27 de dezembro de 1921, em Pittsburgh, a American Economic Association abriu sua trigésima quarta reunião anual com uma autópsia. Warren M. Persons, de Harvard, mostrou que o índice de preços por atacado do Bureau of Labor Statistics, que chegara a 272 em maio de 1920, caíra para 148 em junho de 1921. Logo depois, Wesley C. Mitchell, da New School for Social Research, perguntou se crises assim podiam ser controladas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O suplemento de março de 1922 reúne os textos e debates da reunião, realizada de 27 a 30 de dezembro sob a presidência de Jacob H. Hollander. O discurso presidencial saiu no número regular de março. O volume traz o ciclo econômico, o sindicalismo, as ferrovias e a indenização por acidentes de trabalho, além de mesas-redondas, atas e relatórios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A crise de 1920 foi diferente das outras?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Persons respondeu que não no tipo, só no grau. Seu levantamento reconstrói a sequência conhecida: alta de ações e mercadorias, aperto monetário, expansão imprudente, colapso, falências e, por fim, reservas em alta e juros em queda. Impostos altos, câmbio e a passagem da guerra para a paz agravaram a crise, mas não a causaram. A virada, diz, inverteu a lógica comercial."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“o ajuste dos custos aos preços de venda, em vez dos preços de venda aos custos”",
+          "original": "“the adjustment of costs to selling prices instead of selling prices to costs”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Dá para domar o ciclo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mitchell lembrou que o país já aprendera, com o Federal Reserve Act de 1914, a impedir que crises virassem pânicos, e propôs o passo seguinte: elevar o redesconto quando os índices de produção física mostrassem a capacidade perto do limite, planejar obras públicas para as depressões, criar seguro-desemprego com prêmio ligado à rotatividade e produzir estatísticas melhores. Na discussão, Walter W. Stewart sugeriu para a produção um órgão não competitivo, como o Federal Reserve fora para as reservas bancárias."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O sindicato cresceria ou recuaria?"
+        },
+        {
+          "tipo": "p",
+          "texto": "George E. Barnett, da Johns Hopkins, mostrou que os sindicatos chegaram em 1920 a pouco menos de cinco milhões de membros, mas que o salto se concentrou nas indústrias de guerra e nas ferrovias, onde a intervenção do governo continuava; fora delas, previu perdas maiores que as das depressões anteriores. Wm. M. Leiserson, árbitro da indústria de roupas masculinas de Nova York, descreveu os acordos coletivos como constituições industriais, com legislativo, executivo e tribunais."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "12%",
+          "texto": "Parcela dos sindicalizados entre as pessoas com ocupação remunerada em 1920, segundo Barnett, com base nos dados preliminares de ocupação. Era de 5,6% em 1910 e de 3,5% em 1900."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custaria operar as ferrovias?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker D. Hines, ex-diretor-geral das ferrovias, mostrou que a renda operacional líquida das ferrovias de Classe I passou de US$ 668,5 milhões em 1918 a um déficit de US$ 2,5 milhões em 1920 e defendeu terminais consolidados, vagões de propriedade comum e a fusão em poucos grandes sistemas. Logan G. McPherson criticou o critério de retorno justo sobre o valor da propriedade da Transportation Act de 1920."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga o acidente de trabalho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "E. H. Downey, de Harrisburg, estimou que a indenização paga não chegava a um quarto do custo pecuniário dos acidentes cobertos pelas leis, e que quatro quintos da perda direta ainda recaíam sobre as vítimas. Charles H. Verrill, da United States Employees' Compensation Commission, descreveu o esforço por estatísticas padronizadas de frequência e gravidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Completam o volume o programa, as discussões, o texto de Harry T. Collings sobre as bases econômicas da nova federação da América Central, três mesas-redondas (ensino de economia elementar, mercearias de rede e a relação entre economia e ética), as atas, que registram a eleição de Henry R. Seager para presidente, e os relatórios do secretário, do tesoureiro, da comissão de auditoria e do editor-gerente. Com doações e cortes na revista, a associação fechou o ano com superávit."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a reunião de Pittsburgh registra o momento em que o ciclo econômico passou a ser tratado como objeto de medida e de política. Persons descreve a crise com índices de preços, produção e crédito; Mitchell propõe que índices de produção guiem a taxa de redesconto; Verrill e Downey querem medir os acidentes antes de discutir quem os paga. Em quase todas as sessões, o diagnóstico esbarra na falta de estatística, e a proposta de política começa por pedir que ela exista."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Taxa de redesconto",
+          "juro cobrado pelo banco central ao emprestar a bancos comerciais contra títulos que estes já descontaram."
+        ],
+        [
+          "Índice de reserva",
+          "razão entre as reservas de ouro dos bancos do Federal Reserve e suas obrigações, usada como guia da política de crédito."
+        ],
+        [
+          "Índice de produção física",
+          "medida do volume produzido, sem o efeito dos preços."
+        ],
+        [
+          "Crédito congelado",
+          "empréstimo bancário que o devedor não consegue liquidar no prazo, imobilizando o banco."
+        ],
+        [
+          "Acordo coletivo (trade agreement)",
+          "contrato entre sindicato e empregadores que fixa salários, jornada, disciplina e formas de resolver disputas."
+        ],
+        [
+          "Loja fechada (closed shop)",
+          "estabelecimento que só emprega membros do sindicato; na loja aberta, a filiação não é condição."
+        ],
+        [
+          "Ferrovias de Classe I",
+          "as maiores ferrovias americanas, segundo a classificação da Interstate Commerce Commission por receita."
+        ],
+        [
+          "Período de carência",
+          "dias iniciais de incapacidade pelos quais a lei de indenização não paga benefício."
+        ]
+      ],
+      "hoje": "A agenda de Pittsburgh envelheceu bem. A ideia de mover os juros conforme a proximidade da capacidade plena, e não só conforme as reservas, está no centro da política monetária que observa o hiato do produto. O seguro-desemprego com contribuição do empregador ligada às demissões, como no projeto Huber de Wisconsin, tornou-se a regra do sistema americano. E as queixas sobre estatísticas de desemprego, comércio e acidentes deram lugar a sistemas oficiais regulares, cujos números ainda geram debate a cada revisão.",
+      "itens": [
+        [
+          "Program of the Thirty-Fourth Annual Meeting",
+          "pp. ",
+          "1805397"
+        ],
+        [
+          "The Crisis of 1920 in the United States: A Quantitative Survey",
+          "pp. 5–19",
+          "1805398"
+        ],
+        [
+          "The Crisis of 1920 and the Problem of Controlling Business Cycles",
+          "pp. 20–32",
+          "1805399"
+        ],
+        [
+          "Controlling Business Cycles--Discussion",
+          "pp. 33–43",
+          "1805400"
+        ],
+        [
+          "The Present Position of American Trade Unionism",
+          "pp. 44–55",
+          "1805401"
+        ],
+        [
+          "Constitutional Government in American Industries",
+          "pp. 56–79",
+          "1805402"
+        ],
+        [
+          "American Trade Unionism--Discussion",
+          "pp. 80–96",
+          "1805403"
+        ],
+        [
+          "The Railroad Situation",
+          "pp. 97–107",
+          "1805404"
+        ],
+        [
+          "The Core of the Railroad Problem",
+          "pp. 108–119",
+          "1805405"
+        ],
+        [
+          "The Railroads--Discussion",
+          "pp. 120–128",
+          "1805406"
+        ],
+        [
+          "The Present Status of Workmen's Compensation in the United States",
+          "pp. 129–136",
+          "1805407"
+        ],
+        [
+          "Industrial Accident and Compensation Statistics",
+          "pp. 137–152",
+          "1805408"
+        ],
+        [
+          "Workmen's Compensation--Discussion",
+          "pp. 153–167",
+          "1805409"
+        ],
+        [
+          "The Economic Basis of Federation in Central America",
+          "pp. 168–176",
+          "1805410"
+        ],
+        [
+          "Round Table Conference on the Teaching of Elementary Economics",
+          "pp. 177–185",
+          "1805411"
+        ],
+        [
+          "Round Table Conference on Marketing: The Chain Store Grocer",
+          "pp. 186–191",
+          "1805412"
+        ],
+        [
+          "Round Table Conference on the Relation Between Economics and Ethics",
+          "pp. 192–201",
+          "1805413"
+        ],
+        [
+          "Business Meetings at Pittsburgh, Pennsylvania: December 27-31, 1921",
+          "pp. 202–206",
+          "1805414"
+        ],
+        [
+          "Report of the Secretary of the American Economic Association for the Year Ending December 20, 1921",
+          "pp. 207–210",
+          "1805415"
+        ],
+        [
+          "Report of the Treasurer of the American Economic Association for the Year Ending December 20, 1921",
+          "pp. 211–213",
+          "1805416"
+        ],
+        [
+          "Report of the Auditing Committee",
+          "pp. 214–215",
+          "1805417"
+        ],
+        [
+          "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1921",
+          "pp. 216–217",
+          "1805418"
+        ]
+      ],
+      "jstor_edicao": "i331315",
+      "artigos": [
+        {
+          "titulo": "Program of the Thirty-Fourth Annual Meeting",
+          "autores": "Programa da reunião",
+          "paginas": "p. 1",
+          "jstor": "1805397",
+          "resumo": "Programa da reunião de Pittsburgh, de 27 a 30 de dezembro de 1921. Na terça-feira, 27, a primeira sessão tratou do ciclo econômico, com Warren M. Persons e Wesley C. Mitchell, e à noite houve sessão conjunta com a American Statistical Association para os discursos de seus presidentes, Carroll W. Doten e Jacob H. Hollander. Na quarta, 28, depois da reunião administrativa, vieram a sessão sobre o problema do trabalho, com George E. Barnett e W. M. Leiserson, o texto de E. R. A. Seligman sobre as finanças da nação, três mesas-redondas e, à noite, a sessão sobre ferrovias, com Walker D. Hines e Logan G. McPherson. Na quinta, 29, houve as sessões sobre acidentes industriais e sobre renda nacional, esta com textos de Fred R. Macaulay sobre a lei de Pareto e de Oswald W. Knauth sobre o lucro retido das empresas, uma homenagem ao ex-presidente Henry C. Adams e o discurso de Seligman na sessão com a American Association of University Professors. Na sexta, 30, a última sessão, conjunta com cientistas políticos e sociólogos, tratou da Décima Quarta Emenda, da política interamericana, da federação centro-americana e de patriotismo e internacionalismo."
+        },
+        {
+          "titulo": "The Crisis of 1920 in the United States: A Quantitative Survey",
+          "autores": "Warren M. Persons, Harvard University",
+          "paginas": "pp. 5–19",
+          "jstor": "1805398",
+          "resumo": "Persons faz um levantamento quantitativo da crise. Em novembro de 1918, os preços eram mais que o dobro dos de 1913; depois de uma pausa, a demanda externa e as compras do pós-guerra, com juros baixos sustentados pela política do Federal Reserve Board, levaram a uma alta sem precedentes. O índice do Bureau of Labor Statistics chegou a 272 em maio de 1920 e caiu para 148 em junho de 1921, queda de 46%. Os salários sindicais por hora subiram quase 30% no ano de expansão e continuaram altos; com o custo de vida em 177 e os salários em cerca de 180, os salários reais estariam no nível de 1913. A produção caiu mais que a distribuição: em 1921, a manufatura ficou 28% abaixo de 1920, e o volume de carga, 13%. Nas exportações, a queda foi sobretudo de preços, não de quantidades, segundo índices de John H. Williams. Persons conclui que a sequência é a dos ciclos conhecidos, agravada por fatores novos, e enumera sete razões para esperar uma retomada em 1922, entre elas o crédito farto, a entrada recorde de ouro e uma produção industrial abaixo do consumo."
+        },
+        {
+          "titulo": "The Crisis of 1920 and the Problem of Controlling Business Cycles",
+          "autores": "Wesley C. Mitchell, New School for Social Research",
+          "paginas": "pp. 20–32",
+          "jstor": "1805399",
+          "resumo": "Mitchell sustenta que nem as teorias nem a história impedem a esperança de atenuar boa parte do sofrimento causado pelos ciclos. Os ingleses aprenderam no século XIX a evitar pânicos garantindo crédito, a juro alto, a todo devedor solvente, e os Estados Unidos, com o Federal Reserve Act de 1914, passaram no teste de 1920. O passo seguinte é moderar os booms. Apoiado na opinião do governador Benjamin Strong de que os juros deveriam ter subido entre janeiro e março de 1919, e não em novembro, Mitchell defende elevar o redesconto quando índices de produção física, como propõe O. M. W. Sprague, indicarem a capacidade perto do limite, mesmo com reservas altas. Acrescenta o planejamento de obras públicas para as depressões, a extensão dessa prática às ferrovias e a outras empresas e o seguro-desemprego com prêmio ligado à rotatividade, como no projeto Huber de Wisconsin. Pede estatísticas de crédito, de bancos fora do sistema, de desemprego e de comércio. Conclui que a economia monetária, por ser uma instituição humana, pode ser emendada, e que o economista deve combinar análise quantitativa, estudo das instituições e atitude construtiva.",
+          "ensaio_slug": "mitchell-controle-dos-ciclos"
+        },
+        {
+          "titulo": "Controlling Business Cycles--Discussion",
+          "autores": "N. I. Stone, Rochester, N. Y.; W. C. Schluter, Wharton School, University of Pennsylvania; e Walter W. Stewart, Amherst College",
+          "paginas": "pp. 33–43",
+          "jstor": "1805400",
+          "resumo": "Stone prefere falar em sistema capitalista, e não em economia monetária, e compara o redesconto ao volante e ao regulador de uma máquina a vapor: regula, mas não cria demanda. Por isso defende obras públicas planejadas e o projeto do senador Kenyon. Schluter vê obstáculos no grande volume de recursos dos bancos fora do alcance do redesconto e nos gastos de capital feitos na depressão, e sugere estimular, sob supervisão federal, a concentração de empresas e bancos. Stewart observa que, na depressão, as empresas mantêm juros e dividendos e cortam a folha: em 1921, desapareceu a renda salarial de cerca de 4 milhões de trabalhadores industriais. Propõe, para a produção, um órgão não competitivo, como o Federal Reserve foi para as reservas."
+        },
+        {
+          "titulo": "The Present Position of American Trade Unionism",
+          "autores": "George E. Barnett, Johns Hopkins University",
+          "paginas": "pp. 44–55",
+          "jstor": "1805401",
+          "resumo": "Barnett estima a filiação dos sindicatos nacionais desde 1897, com os métodos que publicara em 1916, e divide a história em quatro fases: alta contínua de meio milhão para mais de dois milhões até 1904, estagnação até 1910, nova alta até 1913 e queda em 1914, e um salto a partir de 1915 que levou o total a pouco menos de cinco milhões em 1920. Até então, nenhuma depressão tirara mais de 10% dos membros. O crescimento de 1913 a 1920 foi desigual: quatro grupos, construção, metalurgia, vestuário e transporte, deram 1,8 milhão dos 2,25 milhões de novos membros, e só o transporte respondeu por cerca de um milhão, 700 mil nas ferrovias. Nesses setores de guerra, a intervenção do governo estimulou a filiação. Ela acabou em todos, menos nas ferrovias, onde a Esch-Cummins Act manteve a fixação judicial de salários e as regras de disciplina e promoção que prendem o membro ao sindicato. Fora delas, Barnett prevê perdas muito acima das anteriores, porque a queda de preços obriga a rever salários e os sindicatos relutam em guiar-se só por considerações competitivas.",
+          "ensaio_slug": "barnett-sindicalismo-americano"
+        },
+        {
+          "titulo": "Constitutional Government in American Industries",
+          "autores": "Wm. M. Leiserson, presidente da Board of Arbitration, Men's Clothing Industry, Nova York",
+          "paginas": "pp. 56–79",
+          "jstor": "1805402",
+          "resumo": "Leiserson parte da divergência entre John R. Commons, para quem o objetivo do sindicalismo é o acordo coletivo, e Robert F. Hoxie, que distinguia tipos funcionais de sindicato. Para ele, todo sindicato que ganha força, conservador ou revolucionário, chega a acordos com os empregadores, como fez o Amalgamated Clothing Workers. Esses acordos são constituições industriais: as conferências conjuntas fazem as leis, como um parlamento de duas casas; a gerência é o executivo; e falta, na maioria, um judiciário. A arbitragem por terceiro é inadequada para fazer leis, mas indispensável para interpretá-las, e o modelo é o presidente imparcial criado na indústria de roupas, com John E. Williams. Com uma compilação de cerca de mil decisões do sistema de Chicago, presidido por Millis, mostra como surgem regras sobre quem o acordo cobre, demissão só por justa causa, proteção dos delegados de fábrica, partilha do trabalho na baixa, volta ao emprego depois de doença e introdução de máquinas. Conclui que o poder de governar a força de trabalho está passando dos donos para um governo constitucional, que qualquer forma de propriedade precisará de algo semelhante e que os planos de representação criados pelas empresas devem ser estudados do mesmo modo."
+        },
+        {
+          "titulo": "American Trade Unionism--Discussion",
+          "autores": "David A. McCabe, Princeton University; M. B. Hammond, Ohio State University; F. S. Deibler, Northwestern University; e Noel Sargent, National Association of Manufacturers",
+          "paginas": "pp. 80–96",
+          "jstor": "1805403",
+          "resumo": "McCabe concorda que a perda de membros passará de 10% e acha que os sindicatos ferroviários de oficinas e de ofícios diversos também perderão, porque as juntas nacionais de ajuste não foram restabelecidas e o conselho trabalhista passou a decidir no lugar da negociação. Hammond nota que os sindicatos triplicaram no mundo desde 1913, contra uma duplicação nos Estados Unidos, e associa a menor influência dos americanos à pouca atenção à via legislativa e aos métodos de restrição da produção. Deibler pergunta se a boa vontade entre as partes não importa mais que a forma da máquina de Leiserson. Sargent, defensor da loja aberta, compara cidades com construção em regime aberto e fechado e encontra desemprego de 3,4% nas primeiras e 7,4% nas segundas."
+        },
+        {
+          "titulo": "The Railroad Situation",
+          "autores": "Walker D. Hines, ex-diretor-geral das ferrovias",
+          "paginas": "pp. 97–107",
+          "jstor": "1805404",
+          "resumo": "Hines diz que nunca foi tão difícil avaliar a situação das ferrovias. Parte da dificuldade é um estado de espírito: discute-se o controle federal da guerra em vez dos custos futuros, como no caso do National Agreement com as oficinas, que ele assinou em 1919 e que, segundo ele, não explica o aumento de quase US$ 350 milhões na manutenção de equipamento em 1920. A outra parte são os fatos: aumentos salariais sucessivos, tarifas maiores, greves, invernos severos e quedas de negócios tornam quase inúteis as comparações entre anos. Nas ferrovias de Classe I, a renda operacional líquida caiu de US$ 668,5 milhões em 1918 para US$ 481,9 milhões em 1919 e um déficit de US$ 2,5 milhões em 1920; nos dez primeiros meses de 1921 voltou a US$ 496,8 milhões, em parte por cortes de manutenção. Hines estima que terminais e manutenção absorvem cerca de 65% do custo operacional e pede para eles a atenção antes dada ao tamanho dos trens. Defende terminais consolidados, propriedade comum dos vagões de carga e, no fim, a fusão compulsória em poucos grandes sistemas."
+        },
+        {
+          "titulo": "The Core of the Railroad Problem",
+          "autores": "Logan G. McPherson, Nova York",
+          "paginas": "pp. 108–119",
+          "jstor": "1805405",
+          "resumo": "McPherson define o problema ferroviário como o ajuste entre o que as ferrovias recebem pelo transporte e o que pagam para provê-lo, de modo a servir à indústria e ao comércio. A Transportation Act de 1920 avança ao reconhecer a necessidade de renda líquida, com um retorno justo de 5,5% sobre o valor da propriedade nos dois primeiros anos, mas, diz ele, põe o carro adiante dos bois. Em 1920, com o maior tráfego da história, a renda líquida equivaleu a um décimo de 1% do investimento. O valor, argumenta, não é o custo de reprodução das instalações, base da avaliação feita sob a Valuation Act de 1913, mas o que se obtém pelo serviço, refletido nos preços de ações e títulos. Critica tarifas desenhadas para manter produtores ineficientes, como no carvão betuminoso, cujas minas teriam capacidade mecânica ao menos 75% acima da demanda, e salários impostos acima do necessário. Teme que limitar o retorno a uma porcentagem do valor físico estimule investir em ativos em vez de usá-los melhor, e vê na lei mais controle governamental do que nunca."
+        },
+        {
+          "titulo": "The Railroads--Discussion",
+          "autores": "A. M. Sakolski, New York University; M. O. Lorenz, Interstate Commerce Commission; e Julius H. Parmelee, Bureau of Railway Economics",
+          "paginas": "pp. 120–128",
+          "jstor": "1805406",
+          "resumo": "Sakolski concorda com Hines que as novas economias não devem vir de cortes salariais, mas pede o fim das restrições sindicais nas oficinas e critica a dupla autoridade do conselho trabalhista e da comissão sobre salários e tarifas. Discorda de McPherson quanto a avaliar as ferrovias pelo preço de mercado dos títulos. Lorenz calcula que o ganho médio por hora do trabalho ferroviário subiu de cerca de 27 centavos em 1915 para 69 centavos no primeiro semestre de 1921, e que a folha se aproxima de 60% das despesas operacionais. Parmelee lembra que a avaliação provisória da comissão, de US$ 18,9 bilhões, sustenta toda a estrutura tarifária e propõe partir das necessidades de renda líquida de cada empresa."
+        },
+        {
+          "titulo": "The Present Status of Workmen's Compensation in the United States",
+          "autores": "E. H. Downey, Harrisburg, Pensilvânia",
+          "paginas": "pp. 129–136",
+          "jstor": "1805407",
+          "resumo": "Downey mede as leis de indenização por acidentes de trabalho comparando os benefícios com as perdas que pretendem cobrir. O sistema já alcança quase todo o território, menos o Distrito de Colúmbia e seis estados do Sul, mas exclui agricultura, serviço doméstico, pequenos estabelecimentos e, quase sempre, as doenças ocupacionais, e cobre de dois terços a três quartos dos assalariados. Os benefícios são piores: pensões por morte de 10% a 50% dos ganhos, por prazo limitado, tetos semanais que reduziram a indenização efetiva por incapacidade total na Pensilvânia a 40% dos ganhos em 1920, períodos de carência e assistência médica restrita. No conjunto, a indenização não passaria de um quarto do custo pecuniário dos acidentes cobertos, e quatro quintos da perda direta ainda caem sobre as vítimas. Na Pensilvânia, foram 16 mil mortes e mais de um milhão de acidentes incapacitantes em seis anos. Downey calcula que indenizar dois terços da perda salarial custaria no máximo dez centavos por tonelada de carvão betuminoso, elogia a rapidez das comissões e critica os atrasos, a supervisão frouxa das seguradoras e a falta de estatística."
+        },
+        {
+          "titulo": "Industrial Accident and Compensation Statistics",
+          "autores": "Charles H. Verrill, United States Employees' Compensation Commission",
+          "paginas": "pp. 137–152",
+          "jstor": "1805408",
+          "resumo": "Verrill estima que os acidentes industriais de um ano custam aos trabalhadores mais de US$ 400 milhões em salários, dos quais provavelmente menos de um quarto é reposto pela indenização. Lembra as estimativas de Frederic L. Hoffman, feitas por falta de estatísticas confiáveis: entre 15 mil e 17,5 mil mortes por ano em 1908 e cerca de 25 mil em 1913. Para o presente, admite ao menos 20 mil mortes por ano, o que, pela American Accident Table, indicaria 2,5 milhões de acidentes temporários com perda de tempo. Explica por que estatísticas completas só existem onde há lei de indenização: sem interesse financeiro, nem empregados nem empregadores comunicam os acidentes. Descreve a busca de estatística internacional desde o congresso de Paris de 1889 e o trabalho do comitê de estatística da associação das comissões de acidentes, que trocou a unidade de exposição do trabalhador de 3.000 horas por mil horas de exposição e criou um índice de gravidade em dias perdidos, atribuindo 6.000 dias a cada morte. O comitê, conclui, lançou uma base sólida, mas a padronização avança devagar."
+        },
+        {
+          "titulo": "Workmen's Compensation--Discussion",
+          "autores": "Powers Hapgood, Bureau of Industrial Research; Carl Hookstadt, U. S. Bureau of Labor Statistics; e Albert W. Whitney, National Workmen's Compensation Service Bureau",
+          "paginas": "pp. 153–167",
+          "jstor": "1805409",
+          "resumo": "Hapgood relata casos do centro da Pensilvânia, onde mineiros feridos e viúvas perdiam indenização com honorários de advogados ou por desconhecer seus direitos; um dirigente do distrito sindical estimava a perda em ao menos meio milhão de dólares por ano. Hookstadt acha Downey otimista com as comissões e propõe cobrar da indústria toda a perda salarial e distribuí-la segundo a necessidade dos beneficiários. Whitney trata dos efeitos secundários do seguro, que reduzem a responsabilidade pessoal, e defende tarifas baseadas na experiência de cada fábrica como estímulo à prevenção."
+        },
+        {
+          "titulo": "The Economic Basis of Federation in Central America",
+          "autores": "Harry T. Collings, The University of Pennsylvania",
+          "paginas": "pp. 168–176",
+          "jstor": "1805410",
+          "resumo": "Collings parte do pacto de San José, de janeiro de 1921, e da constituição assinada em Tegucigalpa em 9 de setembro, que uniu Guatemala, Honduras e Salvador na República da América Central, em funcionamento desde 1º de outubro; Nicarágua e Costa Rica ficaram de fora. Pergunta se o ambiente econômico justifica a federação e enumera seis bases: governo estável, redução de gastos, reforma da moeda e dos bancos, melhores condições para empréstimos externos, transporte e comércio exterior. A instabilidade política, diz, foi o maior obstáculo do século. A federação poderia reduzir exércitos, cortar cargos, unificar a moeda num padrão-ouro, já que Guatemala e Honduras seguiam na prata, e dar aos credores a segurança que faltou: Honduras não pagava juros desde 1872, e os atrasados já eram quase quatro vezes o principal. Pela lei do custo comparativo, a região deve exportar produtos do solo e importar manufaturas, mas tarifas, taxas e falta de transporte multiplicam de três a cinco vezes o preço dos importados. Collings conclui que as bases econômicas justificam a união."
+        },
+        {
+          "titulo": "Round Table Conference on the Teaching of Elementary Economics",
+          "autores": "E. L. Bogart, University of Illinois, presidente da mesa, e participantes",
+          "paginas": "pp. 177–185",
+          "jstor": "1805411",
+          "resumo": "Resumo, feito pelo presidente da mesa, da mesa-redonda de quarta-feira. H. L. Lutz, de Oberlin, propôs três objetivos para o curso elementar: familiaridade com as instituições, treino no raciocínio econômico e formação de cidadãos. H. T. Collings descreveu o curso do primeiro ano da Wharton School, com cerca de mil alunos; C. O. Ruggles defendeu levar a economia ao primeiro ano e ao ensino secundário; e E. E. Day, de Harvard, recomendou experimentar o método de casos. Outros participantes descreveram cursos em Dartmouth, na Westinghouse e em Pittsburgh."
+        },
+        {
+          "titulo": "Round Table Conference on Marketing: The Chain Store Grocer",
+          "autores": "Alfred H. Beckmann, National Chain Store Grocers' Association, e participantes",
+          "paginas": "pp. 186–191",
+          "jstor": "1805412",
+          "resumo": "Beckmann diz que há no país menos de 75 organizações responsáveis de mercearias de rede, com não mais de 50 mil lojas, que giram o estoque de 12 a 25 vezes por ano, vendem à vista, não entregam e poupam ao consumidor, em média, 15%. No debate, H. C. Marshall, do Bureau of Markets and Crop Estimates, mostrou que no varejo de carne a margem bruta das redes era pouco menor que a das lojas individuais, e B. H. Hibbard minimizou as economias. A mesa concluiu que o serviço da loja individual continuaria a ser procurado."
+        },
+        {
+          "titulo": "Round Table Conference on the Relation Between Economics and Ethics",
+          "autores": "Frank H. Knight, State University of Iowa, presidente da mesa, e participantes",
+          "paginas": "pp. 192–201",
+          "jstor": "1805413",
+          "resumo": "Knight argumentou que o economista precisa tratar de ética porque a ideia de eficiência social supõe padrões de valor e porque os conceitos econômicos estão ligados a valores, e pediu que se distinga sempre quando se afirma um fato e quando se faz um juízo. A. B. Wolfe disse que uma economia sem ética é impossível; H. Gordon Hayes atribuiu ao economista as tarefas de explicar e de avaliar; Willford I. King sustentou que a economia trata do que é, não do que deve ser. Wesley C. Mitchell encerrou o debate em tom conciliador."
+        },
+        {
+          "titulo": "Business Meetings at Pittsburgh, Pennsylvania: December 27-31, 1921",
+          "autores": "Ray B. Westerfield, secretário",
+          "paginas": "pp. 202–206",
+          "jstor": "1805414",
+          "resumo": "Atas das três reuniões da comissão executiva e das duas reuniões administrativas no William Penn Hotel, presididas por Hollander. Foram inscritos como sócios vitalícios Ephraim A. Karelsen, Clarence C. Vernam e os vinte doadores de US$ 100 ou mais ao fundo do déficit. David Friday relatou o trabalho do National Bureau of Economic Research sobre a renda nacional e o início do estudo dos ciclos. Foram eleitos membros honorários A. C. Pigou, Maffeo Pantaleoni, Friedrich von Wieser, Charles Rist e Yves Guyot; para presidente, Henry R. Seager, de Columbia, e para vice-presidentes, Walker D. Hines e Thomas W. Page. Criou-se uma comissão, presidida por F. W. Taussig, para estudar uma conferência econômica internacional."
+        },
+        {
+          "titulo": "Report of the Secretary of the American Economic Association for the Year Ending December 20, 1921",
+          "autores": "Ray B. Westerfield, secretário",
+          "paginas": "pp. 207–210",
+          "jstor": "1805415",
+          "resumo": "Westerfield informa que, por economia, Hollander dispensou a reunião de primavera da comissão executiva, e as decisões foram tomadas por correspondência: a escolha de Pittsburgh para a reunião anual, a dispensa do Handbook de 1921 e os prêmios do concurso Karelsen sobre o tema “What Can a Man Afford”, de US$ 1.000 para Paul H. e Dorothy Douglas, da University of Chicago, e de US$ 500 para Carl Joslyn. Uma moção a favor de pôr os bureaus científicos do governo sob a Smithsonian Institution foi derrotada por 7 votos a 3. Karelsen deu uma nota de US$ 1.750 para um segundo concurso, sobre as relações entre capital e trabalho, e Vernam financiou a publicação dos ensaios premiados. O secretário também organizou a venda das publicações excedentes, que a partir de 1º de março seriam reservadas ou transformadas em polpa. A tabela de sócios mostra 2.335 membros e 592 assinantes em dezembro de 1921, total de 2.927, com ganho líquido de 61. O aumento de 22 sócios vitalícios não tinha precedente, e as saídas cresceram com as más condições econômicas. O relatório termina com a lista dos sócios mortos no ano, entre eles o ex-presidente Henry C. Adams e o membro honorário Gustav Cohn."
+        },
+        {
+          "titulo": "Report of the Treasurer of the American Economic Association for the Year Ending December 20, 1921",
+          "autores": "Ray B. Westerfield, tesoureiro",
+          "paginas": "pp. 211–213",
+          "jstor": "1805416",
+          "resumo": "O tesoureiro apresenta o movimento de caixa do ano encerrado em 20 de dezembro de 1921. O caixa começou com US$ 3.481,54 e terminou com US$ 4.971,33. As receitas somaram US$ 28.049,00, das quais US$ 11.092,42 de anuidades e US$ 10.222,25 de contribuições ao fundo do déficit; entre as despesas, US$ 8.798,70 foram para investimentos. Westerfield aplicou os recursos da campanha da comissão especial de finanças em US$ 5.000 de títulos conversíveis Northern Pacific-Great Northern e US$ 4.000 de títulos de crédito agrícola isentos de imposto. A campanha reuniu contribuições de 82 sócios em Atlantic City, de 254 sócios por circular e de 52 pessoas diretamente a Seligman, estas no total de US$ 10.060. Vinte doadores viraram sócios vitalícios, e por isso US$ 2.000 foram reservados. O ano fechou com superávit líquido de US$ 362,06, contra déficits de US$ 1.688,48 em 1919 e de US$ 2.366,50 em 1920, graças sobretudo à redução do custo da revista. O tesoureiro adverte que o equilíbrio veio de cortes na revista, do fim dos pagamentos aos colaboradores e da suspensão do Handbook, e pede medidas para a estabilidade financeira permanente."
+        },
+        {
+          "titulo": "Report of the Auditing Committee",
+          "autores": "Comissão de auditoria: Earl A. Saliers, John D. Hauslein, Ray V. Leffler e Edgar S. Furniss",
+          "paginas": "pp. 214–215",
+          "jstor": "1805417",
+          "resumo": "A comissão, em carta datada de New Haven em 24 de dezembro de 1921, certifica que examinou os livros do exercício encerrado em 20 de dezembro e que o balanço concorda com o razão. A demonstração de resultados mostra anuidades de US$ 11.384,42, das quais se deduziram US$ 800 de inadimplência estimada, e receita ordinária de US$ 10.977,04, contra despesas ordinárias de US$ 3.817,67, sobretudo salários do escritório. As publicações custaram US$ 11.023,64, incluídos armazenagem e seguro, e renderam US$ 4.226,33 em assinaturas e vendas, um excesso de despesa de US$ 6.797,31. O resultado é o superávit líquido de US$ 362,06. O balanço soma US$ 19.756,19. No ativo, inclui US$ 12.798,70 em investimentos, caixa num banco de New Haven e numa conta de poupança em Cambridge, anuidades e contas a receber, estoque de papel e móveis. No passivo, registra US$ 3.500 de reserva para sócios vitalícios, US$ 10.222,25 de contribuições ao fundo do déficit e um superávit acumulado que passou de US$ 5.441,38 para US$ 5.803,44."
+        },
+        {
+          "titulo": "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1921",
+          "autores": "Davis R. Dewey, editor-gerente",
+          "paginas": "pp. 216–217",
+          "jstor": "1805418",
+          "resumo": "Dewey informa que a revista custou US$ 9.003,94 em 1921, contra US$ 11.181,90 em 1920, uma redução de US$ 2.177,96. A impressão, incluído o papel, custou US$ 5.646,97, US$ 1.009,34 menos que no ano anterior, e os pagamentos aos colaboradores foram suspensos, com economia de US$ 1.058,25. O novo formato, adotado no início do ano, acrescentou duas linhas a cada página e alargou um pouco a mancha; Dewey estima que poupou cerca de US$ 300 e uma centena de páginas sem reduzir o material. Também se publicou menos: foram suprimidos os resumos de periódicos sobre investimentos e títulos, de Arthur S. Dewing, e C. A. Phillips deixou os de moeda, crédito e bancos. O relatório lista o conselho editorial, informa que 99 pessoas escreveram para a revista no ano e traz tabelas que comparam, de 1911 a 1921, as páginas de cada seção e as despesas. Em 1921, o volume teve 772 páginas, contra 936 em 1920, e o salário do editor continuou em US$ 1.500."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "mitchell-controle-dos-ciclos",
+          "titulo": "Mitchell, 1921: dá para domar o ciclo econômico?",
+          "titulo_original": "The Crisis of 1920 and the Problem of Controlling Business Cycles",
+          "autores": "Wesley C. Mitchell (New School for Social Research)",
+          "paginas": "pp. 20–32",
+          "jstor": "1805399",
+          "chamada": "Depois da crise de 1920, Mitchell propõe usar índices de produção para guiar os juros, planejar obras públicas para as depressões e medir o que ainda não se media.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Wesley C. Mitchell, da New School for Social Research, começou sua fala em Pittsburgh, em 27 de dezembro de 1921, com uma observação sobre o próprio público. O interesse pelo controle dos ciclos, disse, também flutua com os negócios. Na prosperidade, poucos se preocupam em evitar excessos; na crise, todos só pensam em emergências. É na depressão, quando os homens de negócios têm tempo de sobra, que pensar nas causas e na cura dos ciclos vira fenômeno de massa. Ao abrir a reunião com a crise de 1920, o presidente Jacob H. Hollander quis aproveitar essa maré."
+            },
+            {
+              "tipo": "h2",
+              "texto": "É possível controlar o ciclo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Ninguém competente, diz Mitchell, afirmará que a alternância de atividade e estagnação pode ser eliminada enquanto existirem as instituições da economia monetária. Mas nada nas teorias nem na história proíbe a esperança de atenuar boa parte do sofrimento. Nem mesmo as teorias de causa cósmica. Se Henry L. Moore provar que o planeta Vênus, em seu movimento de oito anos, gera ciclos na Terra, ainda assim se poderia compensar o efeito administrando o que está sob controle, como se compensa o inverno para não morrer de frio."
+            },
+            {
+              "tipo": "p",
+              "texto": "A história, além disso, mostra uma intervenção bem-sucedida. Em meados do século XIX, os ingleses descobriram que, se o público tivesse a garantia de que todo devedor solvente obteria crédito pagando um juro alto, não haveria corridas bancárias nem falências desnecessárias. As crises inglesas ficaram menos espetaculares, e as liquidações, mais cautelosas e mais longas. Os Estados Unidos continuaram a ter pânicos violentos, como em 1873, 1893 e 1907, até que o Federal Reserve Act de 1914 centralizou os recursos bancários. Seis anos depois, a nova máquina passou no teste."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“aprendemos a impedir que as crises degenerem em pânicos”",
+              "original": "“we have learned how to prevent crises from degenerating into panics”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O próximo problema, então, é reduzir os excessos dos booms e o sofrimento das depressões. Até ali, diz Mitchell, o país combatera os efeitos, com medidas de emergência, em vez das causas; o sinal mais promissor de 1920 e 1921 era a atitude preventiva da conferência sobre desemprego dirigida pelo secretário Hoover."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quando o Federal Reserve deveria ter agido?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto central do debate sobre 1919 é o momento em que os bancos do Federal Reserve deveriam ter elevado os juros de redesconto. Mitchell cita a opinião pessoal do governador Benjamin Strong, diante de uma comissão do Congresso: teria sido desejável subir as taxas entre janeiro e março de 1919, em vez de esperar até novembro. Talvez o lançamento do Victory Loan na primavera o impedisse; o que importa a Mitchell é a conclusão de que juros mais altos teriam moderado a expansão e a severidade da crise. Ele propõe generalizar: subir o redesconto sempre que a produção se aproximar do limite e a expansão passar a consistir em elevar preços de títulos, equipamentos e mercadorias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Responde a três objeções. A primeira é que a medida seria ineficaz, porque o desconto bancário pesa pouco nos custos americanos, ao contrário do comércio de Londres antes da guerra, feito com margens estreitas. Mitchell admite a força do argumento, mas acha que parte das transações seria afetada diretamente e outra, maior, pelo sinal de cautela dos bancos. A segunda, de A. C. Miller, do Federal Reserve Board, é que o público aceita o índice de reserva como guia. Mitchell lembra que a Inglaterra, mesmo com esse sistema, sofreu muito com os ciclos, e que o economista pode propor campanhas de educação."
+            },
+            {
+              "tipo": "p",
+              "texto": "A terceira objeção é que não se sabe em que ponto da prosperidade frear. Aqui entra a proposta de O. M. W. Sprague: usar índices de produção física, como os de Day, King, Snyder e Stewart. Depois de uma depressão, o aumento dos negócios vem sobretudo de mais bens úteis, e a expansão é desejável. Quando o equipamento está tomado e a força de trabalho, empregada, novas altas de preços só criam especulação e os emaranhados de crédito que prolongam a liquidação. Nesse ponto, os juros deveriam subir, mesmo com reservas ainda altas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mais poderia estabilizar a atividade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Mitchell lista outros planos. O primeiro é o planejamento de longo prazo das obras públicas, para concentrá-las nas depressões, estudado por A. L. Bowley na Inglaterra e defendido pelos Webb. Nos Estados Unidos, Otto T. Mallery convenceu a Pensilvânia a criar a máquina para isso em 1917; a Califórnia copiou a lei em 1921, e um projeto federal tramitava no Congresso. O volume anual de construção pública chegava a centenas de milhões, e parte dele poderia ser distribuída segundo o ciclo."
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo é estender o planejamento às empresas. As ferrovias, observa, constroem e compram mais nos anos de atividade, quando os custos estão altos, porque vivem da mão para a boca; com receitas suficientes, poderiam ao menos nivelar os gastos entre anos bons e ruins. Somadas as demais indústrias, as compras e obras planejáveis chegariam a bilhões. O terceiro é o seguro-desemprego, em especial o projeto Huber, em Wisconsin, que obrigaria os industriais a uma companhia de seguro com prêmios conforme a rotatividade de cada um. A ideia é menos aliviar o desempregado do que dar ao empregador um motivo para não demitir, como o seguro de acidentes reduzira os acidentes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que faltava saber?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A crise, diz Mitchell, mostrou o peso da especulação no pensamento dos próprios economistas. Fala-se muito em créditos congelados, mas ninguém sabe que proporção dos empréstimos se encaixa na definição, nem quanto disso é normal. E as estatísticas bancárias têm uma lacuna grave."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "20 mil bancos",
+              "texto": "Bancos estaduais e privados fora do Federal Reserve, sobre os quais havia um só relatório por ano, e magro, segundo Mitchell. Os cerca de 10 mil bancos-membros informavam cinco vezes por ano. Os 20 mil tinham, juntos, metade dos recursos dos membros, mas pesavam nas contas dos agricultores."
+            },
+            {
+              "tipo": "p",
+              "texto": "As estatísticas de desemprego, salários e ganhos eram ainda piores. No outono de 1921, o Bureau of Labor Statistics e a comissão consultiva da conferência sobre desemprego não conseguiram chegar a menos de um milhão de diferença em suas estimativas de desempregados. Sobre trabalho em tempo parcial, quase nada se sabia. Sem dados de folha de pagamento e de renda familiar, as comparações entre salário e custo de vida ficavam em dúvida. E no comércio de mercadorias não se sabia nem quantas lojas de varejo e de atacado havia no país. Mitchell pede aos colegas que usem os dados existentes e cooperem com as agências públicas e privadas que tentavam melhorá-los."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde está o defeito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para chegar ao centro do problema, Mitchell recorre a Carlyle, que descreveu em 1843 uma Inglaterra cheia de riqueza e morrendo de inanição, como se um encantamento proibisse os trabalhadores de tocar no fruto do próprio trabalho. Carlyle errou ao tomar como crônica uma doença intermitente, mas a descrição, diz Mitchell, serve aos Estados Unidos de 1921: milhões ociosos querendo trabalhar, fábricas paradas cujos donos queriam acendê-las, e o que se queria produzir era o que se precisava consumir. O encantamento vinha da economia monetária, que desvia o objetivo da atividade econômica."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O que somos obrigados a fazer, como cidadãos da economia monetária, é ganhar dinheiro.”",
+              "original": "“What we are compelled to do as citizens of the money economy is to make money.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Como seres humanos, queremos fazer bens úteis; quando fazê-los não dá lucro, sacrificamos essa vontade à de fazer dinheiro. Daí o otimismo de Mitchell: sendo a economia monetária um conjunto de instituições humanas, pode ser emendada. Para isso, o economista deve avançar em três linhas: usar cada vez mais a análise quantitativa e cooperar na obtenção de dados; entender o papel das instituições, a começar pela economia monetária, porque não se promove o bem-estar sem saber onde o sistema de preços serve bem e onde serve mal; e adotar uma atitude construtiva, citando John Dewey, que em 1917 comparava a ciência social à física do início do século XVII."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o mérito de método do texto está em transformar uma pergunta de política em um programa de medição. A regra proposta para o redesconto depende de um indicador observável, o índice de produção física, e não do juízo do momento; as obras públicas e o seguro-desemprego são apresentados como mecanismos de incentivo; e a lista de lacunas estatísticas é, na prática, a condição para que qualquer regra funcione.",
+                "O texto também deixa claro um dilema que persiste: a regra de Mitchell e Sprague pede que o banco central aperte quando o ciclo ainda parece bom e as reservas estão altas, isto é, quando a pressão política para não agir é maior. Por isso ele insiste em educação do público, além de técnica."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Economia monetária",
+              "na expressão de Mitchell, o conjunto de instituições em que a produção se organiza pela busca de lucro em dinheiro."
+            ],
+            [
+              "Taxa de redesconto",
+              "juro cobrado pelos bancos do Federal Reserve ao emprestar a bancos comerciais."
+            ],
+            [
+              "Índice de reserva",
+              "razão entre as reservas e as obrigações dos bancos do Federal Reserve."
+            ],
+            [
+              "Índice de produção física",
+              "medida do volume de bens produzidos, sem o efeito dos preços."
+            ],
+            [
+              "Crédito congelado",
+              "empréstimo que o devedor não consegue liquidar no prazo."
+            ],
+            [
+              "Rotatividade (labor turnover)",
+              "frequência com que uma empresa contrata e demite trabalhadores."
+            ]
+          ],
+          "hoje": "A agenda de Mitchell tornou-se rotina dos bancos centrais e das agências de estatística. Olhar a capacidade ociosa da economia, e não só o balanço do banco central, para decidir quando subir os juros é a lógica do hiato do produto. O seguro-desemprego com contribuição ligada às demissões passou a fazer parte do sistema americano. E a lista de lacunas que ele apresentou, como desemprego, crédito, comércio varejista e renda das famílias, corresponde a estatísticas que hoje saem todo mês, ainda alvo de debate quando são revisadas."
+        },
+        {
+          "slug": "barnett-sindicalismo-americano",
+          "titulo": "Barnett, 1921: o sindicato depois do salto da guerra",
+          "titulo_original": "The Present Position of American Trade Unionism",
+          "autores": "George E. Barnett (Johns Hopkins University)",
+          "paginas": "pp. 44–55",
+          "jstor": "1805401",
+          "chamada": "Barnett reconstrói a filiação sindical americana desde 1897 e mostra que o salto para quase cinco milhões de membros veio das indústrias de guerra e das ferrovias, sob proteção do governo.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1920, os sindicatos americanos tinham pouco menos de cinco milhões de membros, quase o dobro do que tinham em 1915. Na manhã de 28 de dezembro de 1921, em Pittsburgh, em plena depressão, George E. Barnett, da Johns Hopkins University, perguntou quanto daquilo resistiria. Sua resposta partiu da única medida que considerava capaz de indicar a influência crescente ou minguante do sindicalismo: o número de filiados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que contar membros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Barnett reconhece que a filiação não é o único critério de sucesso. A posição legal dos sindicatos importa, embora, diz, o efeito de decisões judiciais adversas quase sempre seja exagerado. A visão que os sindicalistas têm de sua relação com a máquina econômica também pode ser decisiva. Mas esses fatores mudam devagar, e o movimento da filiação seria a consideração isolada mais importante."
+            },
+            {
+              "tipo": "p",
+              "texto": "O problema era que ninguém contava. A American Federation of Labor só publicava a filiação de seus sindicatos nacionais afiliados, e nenhum órgão oficial, federal ou estadual, reunia as estatísticas. Barnett fizera ele mesmo uma estimativa de 1897 a 1914, publicada no Quarterly Journal of Economics em outubro de 1916, e a estendeu até 1920 pelos mesmos métodos. Os números incluem os membros canadenses dos sindicatos internacionais e excluem os sindicatos locais independentes dos Estados Unidos; como as duas parcelas são aproximadamente iguais, a série representaria bem o país, e o movimento relativo estaria correto de qualquer forma, porque a filiação canadense seguira quase exatamente a americana."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como cresceu o sindicalismo desde 1897?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Barnett divide a história em quatro períodos. De 1897 a 1904, a filiação subiu todos os anos, de meio milhão para mais de dois milhões. De 1904 a 1910, oscilou em torno de dois milhões, sem tendência. De 1910 a 1913, subiu de dois milhões para quase 2,75 milhões, movimento revertido em 1914 pela depressão e pela guerra; em 1915, estava em cerca de 2,5 milhões. A partir de 1915 veio um grande salto, que não perdeu força com o armistício e seguiu até 1920."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4.924.300",
+              "texto": "Total de membros dos sindicatos americanos em 1920 na tabela de Barnett, que omite as centenas, contra 2.567.700 em 1915. Pela mesma fonte, os sindicalizados passaram de 3,5% das pessoas com ocupação remunerada em 1900 para 5,6% em 1910 e 12% em 1920."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí duas conclusões. A primeira é que o aumento desde 1915 não tinha precedente: só de 1897 a 1903 houvera alta percentual comparável em período igual, e nunca um aumento tão grande em números absolutos. A segunda é que, até então, a perda de membros nunca passara de 10%, mesmo em depressões longas. Se a história se repetisse, o sindicalismo entraria na próxima prosperidade com uma parte da classe trabalhadora muito maior do que jamais tivera. Mas as condições do salto, adverte, eram únicas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde estava o crescimento?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para saber se o aumento se espalhou por todas as indústrias, Barnett compara 1920 com 1913, outro ano de pico, porque a comparação com 1915 exageraria o ganho. Divide os sindicatos em quinze grupos, aproximação imperfeita, já que os maquinistas, por exemplo, ficam todos em metalurgia embora muitos trabalhem em oficinas ferroviárias. Em cinco grupos, o aumento foi desprezível: mineração, alimentos e fumo, teatros e música, química e vidro, e madeira. Em outros cinco, como têxteis, couro e serviço público, houve altas percentuais grandes, mas sobre bases pequenas, que somaram 300 mil membros, menos de um sétimo do total."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os quatro grupos restantes, construção, metalurgia e construção naval, vestuário e transporte, responderam por 1,8 milhão dos 2,25 milhões de novos membros. Desses, cerca de 700 mil estavam no transporte, e parte do ganho atribuído à construção e à metalurgia também pertencia a ele. Barnett estima que um milhão do aumento estava no transporte e uns 700 mil nas ferrovias, onde o grande salto ocorrera depois de 1918. O ganho de 1919 para 1920, o maior de todos os anos, deveu-se sobretudo a elas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que as ferrovias seriam diferentes?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos quatro grupos que puxaram o crescimento, as indústrias de guerra por excelência, a intervenção do governo para manter a paz industrial estimulou a filiação. Essa intervenção acabou em todos eles, menos no transporte. Barnett admite efeitos duradouros, como talvez no vestuário, e cita a restrição à imigração como possível reforço, mas não vê razão para resultados permanentes fora das ferrovias. Nelas, o sistema de fixação judicial de salários e condições criado pela Esch-Cummins Act parecia permanente."
+            },
+            {
+              "tipo": "p",
+              "texto": "O controle governamental contínuo protege os sindicatos ferroviários de duas formas. Na depressão, não há como criar oficinas sem sindicato nem desviar trabalho para não filiados; a perda por desemprego é recuperável. E ele estendeu a todos os grupos regras que já atraíam membros. As irmandades dos trens, mais necessárias à operação, tinham conquistado o direito de se organizar e negociar; o governo e o Labor Board deram esse direito a todos os empregados. Mais importante, as irmandades conseguiram filiar uma proporção dos homens de seus ofícios maior que qualquer sindicato de tamanho comparável, sem loja fechada, graças a cláusulas de disciplina e promoção que dão a cada membro um interesse pessoal na ação do sindicato."
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui Barnett formula uma regra geral. O desejo de subir salários ou reduzir jornadas é um desejo de massa e se mostrou mais fraco que o de resistir a demissão injusta ou discriminação. Muitos deixam aos colegas a negociação do que beneficia o grupo inteiro, mas poucos deixam de agir quando o fim é individual. O mineiro que espera brigar com o patrão sobre trabalho não pago se filia, mesmo que não o fizesse só pela tabela salarial. Os acordos nacionais com a administração ferroviária mantiveram essas cláusulas, e por isso seriam uma força poderosa para segurar membros."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que esperar da deflação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fora das ferrovias, a perspectiva é muito menos promissora. Afora a perda direta pelo desemprego, a maior dificuldade para reter membros é reajustar os salários ao nível geral de preços, e a queda rápida e grande dos preços era um problema de grau inédito. O caso mais próximo, a deflação depois da Guerra Civil, não ajudava, porque o sindicalismo era então pouco importante. Os relatórios disponíveis indicavam que a queda de filiação, exceto nas ferrovias, superaria em muito a dos períodos anteriores. O tamanho da perda dependeria da habilidade tática dos dirigentes."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Os sindicatos funcionam melhor sob um regime de preços estáveis.”",
+              "original": "“Trade unions function best under a regime of static prices.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os sindicatos protegidos por contratos de arbitragem de longo prazo tinham menos a temer. Os demais teriam de decidir sobre salários pesando duas coisas: a capacidade de resistir, diante da concorrência não sindicalizada e da substituição de membros, e o efeito da mudança salarial sobre o emprego. Sobre nenhuma das duas havia informação minimamente exata. Mais importante ainda, diz Barnett, era a relutância dos sindicatos, sobretudo da base, em guiar sua política só por considerações competitivas."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“adotou como princípio dominante a máxima de que o trabalho não é uma mercadoria”",
+              "original": "“it has adopted as its ruling principle the dictum that labor is not a commodity”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Barnett diz não discutir se o princípio é correto, mas observa que é difícil agir por ele num período de preços em queda e, ao mesmo tempo, manter intacta a força dos sindicatos. A tabela anexa dá a filiação de cada sindicato nacional de 1915 a 1920, agrupada pelas mesmas indústrias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na discussão, David A. McCabe, de Princeton, concordou que a queda seria muito maior que 10%, mas achou que até os sindicatos ferroviários de oficinas e de ofícios diversos perderiam, porque as juntas nacionais de ajuste não tinham sido restabelecidas. Noel Sargent, da National Association of Manufacturers, partiu da observação de Barnett sobre a política não competitiva dos sindicatos para defender a loja aberta."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto é um bom exemplo de como uma série estatística feita à mão pode sustentar uma previsão. Barnett não tem dados oficiais; constrói a série, explica seus vieses e mostra por que eles não afetam o movimento relativo. Em seguida decompõe o crescimento por indústria e chega a uma tese verificável: o salto dependeu de intervenção do governo, e onde ela acabou a filiação deveria recuar.",
+                "A segunda contribuição é a explicação do que segura um membro no sindicato. Ao separar os benefícios coletivos, que todos recebem filiados ou não, dos benefícios individuais, como a defesa contra demissão, Barnett antecipa a questão de incentivos que mais tarde seria discutida como o problema do carona."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Sindicato nacional",
+              "organização que reúne os sindicatos locais de um ofício ou indústria em todo o país; os internacionais incluem o Canadá."
+            ],
+            [
+              "Irmandades ferroviárias",
+              "sindicatos tradicionais das tripulações de trens, como maquinistas e condutores."
+            ],
+            [
+              "Loja fechada (closed shop)",
+              "estabelecimento que só emprega membros do sindicato."
+            ],
+            [
+              "Esch-Cummins Act",
+              "nome da Transportation Act de 1920, que devolveu as ferrovias aos donos e criou o Railroad Labor Board."
+            ],
+            [
+              "Fixação judicial de salários",
+              "determinação de salários por um órgão com função de tribunal, em vez de negociação direta."
+            ],
+            [
+              "Trabalho não pago (deadwork)",
+              "na mineração, tarefas auxiliares que não entram no pagamento por tonelada e geram disputas."
+            ]
+          ],
+          "hoje": "A pergunta de Barnett sobre o que mantém os trabalhadores filiados continua no centro do estudo dos sindicatos. A distinção entre benefícios coletivos e individuais reaparece nas análises do problema do carona e nas discussões sobre contribuição sindical obrigatória. A observação de que o crescimento sindical depende de regras estabelecidas pelo governo, e recua quando elas mudam, também segue presente nos debates sobre leis trabalhistas. E a dificuldade de negociar salários quando os preços caem voltou a aparecer em todos os episódios de deflação."
+        }
+      ]
+    },
+    {
+      "slug": "1922-guildas-e-financas-de-guerra",
+      "numero": 176,
+      "titulo": "As guildas inglesas, a guerra alemã a crédito e as zonas francas",
+      "titulo_original": "The American Economic Review, vol. XII, no. 2, June 1922",
+      "autores": "Amy Hewes, Herbert Feis, Fred Rogers Fairchild, Edwin J. Clapp, D. A. MacGibbon e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 12, nº 2",
+      "data": "junho de 1922",
+      "chamada": "Hewes mede dois anos das guildas de construção inglesas; Fairchild, com Rist, reconstitui como a Alemanha pagou a guerra; Feis explica o volume do comércio; Clapp defende zonas francas nos portos americanos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1º de novembro de 1920, respondendo a perguntas na Câmara dos Comuns, o ministro da Saúde britânico informou que oito contratos entre autoridades locais e guildas de construção, para 1.003 casas, haviam sido aprovados. O dado está no artigo de Amy Hewes, do Mount Holyoke College, que abre a American Economic Review de junho de 1922 e confronta dois anos de prática do socialismo de guilda na Inglaterra com mais de uma década de teoria."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resto da edição trata de comércio exterior e de finanças de guerra. Herbert Feis, da University of Kansas, pergunta o que determina o volume do comércio de um país. Fred Rogers Fairchild, da Yale University, usa o livro de Charles Rist para reconstituir como a Alemanha financiou a guerra com empréstimos e papel-moeda. Edwin J. Clapp defende zonas francas nos portos americanos, e D. A. MacGibbon, da University of Alberta, pergunta se a classificação oficial de grãos mede a qualidade real do trigo. Fecham o número resenhas, listas de livros novos, resumos de periódicos, documentos oficiais e a décima nona lista de teses de doutorado em andamento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que dois anos de prática ensinaram às guildas inglesas?",
+          "artigo": "1802623",
+          "credito": "Amy Hewes (Mount Holyoke College) · “Guild Socialism: A Two Years' Test” · pp. 209–237"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hewes parte de uma inversão. Em geral, diz, um experimento econômico já está em curso quando surge a literatura teórica sobre ele; no caso inglês, oito anos de discussão sobre o Estado guildista precederam a primeira guilda ativa. A autora reconstitui essa literatura: Arthur J. Penty, arquiteto, que em 1906 publicou The Restoration of the Gild System e via no trabalho medieval o modelo perdido; S. G. Hobson, cujos artigos no New Age, a partir de 1912, deram forma ao movimento; e G. D. H. Cole, que em 1915 organizou a National Guilds League e em 1917 expôs sua teoria em Self-Government in Industry, com o Estado como associação de consumidores e a guilda como associação de produtores."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Hewes, essa literatura é rica em filosofia política e pobre em análise econômica: discute o controle das indústrias e pouco diz sobre matérias-primas, máquinas ou venda dos produtos. A Liga, por sua vez, dividiu-se em 1920 sobre a atitude diante do regime soviético e terminou 1921 com menos membros e finanças em situação grave."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte prática nasce da falta de moradias. Em janeiro de 1920, por sugestão de Hobson, os sindicatos da construção de Manchester criaram uma guilda que oferecia como garantia não capital, mas a oferta de trabalho. O contrato aprovado pelo Ministério da Saúde pagava o custo efetivo de materiais e mão de obra, mais £ 40 por casa para manter o pagamento contínuo dos trabalhadores e 6% do custo estimado para equipamento e administração. A Co-operative Wholesale Society entrou com materiais, crédito e seguro do contrato."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1.003 casas",
+          "texto": "Total dos oito contratos entre autoridades locais e guildas de construção aprovados até 1º de novembro de 1920, segundo o ministro da Saúde citado por Hewes. No quadro do fim de 1920, o maior contrato era o de Walthamstow, com 400 casas. Em dezembro de 1921, as guildas anunciavam contratos acima de £ 2 milhões e recebimentos de £ 600 mil."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1921 o ministério deixou de aprovar novos contratos nos mesmos termos, e as guildas, que recusaram abrir mão do pagamento contínuo, passaram a obras privadas e se fundiram numa National Building Guild. Hewes registra os resultados que considera estabelecidos, casas mais baratas e bom rendimento do trabalho, mas observa que as guildas começaram em condições excepcionalmente favoráveis e ainda teriam de provar resistência aos altos e baixos dos negócios."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "hewes-socialismo-de-guilda-dois-anos-de-teste",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que alguns países comerciam mais que outros?",
+          "artigo": "1802624",
+          "credito": "Herbert Feis (University of Kansas) · “What Determines the Volume of a Country's International Trade” · pp. 238–245"
+        },
+        {
+          "tipo": "p",
+          "texto": "Feis deixa de lado vendas de títulos, remessas de imigrantes e outras transações e pergunta apenas o que governa o volume das exportações e importações de mercadorias. Começa pelos princípios, com dois países imaginários, A e B, no padrão-ouro. Se B vende vinho e tecido mais barato, o ouro sai de A, os preços sobem em B e caem em A até que A passe a exportar tecido. Cada país termina exportando aquilo em que tem a maior vantagem comparativa, ou a menor desvantagem, e o fluxo de ouro cessa quando os valores se equilibram."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre essa base o autor enuncia três influências. A primeira é a diferença de eficiência entre as indústrias exportadoras e o resto da economia: quanto mais singulares e marcadas as vantagens das exportadoras sobre as demais indústrias do mesmo país, maior o comércio. Alguns países tropicais, com recursos naturais excepcionais e eficiência geral baixa, estariam nessa situação; os Estados Unidos, onde o trabalho é eficiente em muitos ramos, na posição oposta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda é a força relativa da demanda por produtos estrangeiros. Um país pequeno como a Suíça, de recursos pouco variados, depende de fora para muito do que deseja e por isso comercia muito. Se todo o carvão da América do Norte ficasse do outro lado da fronteira canadense, raciocina Feis, as importações e exportações americanas seriam maiores. Quem depende de outros para carvão, minério de ferro, grãos ou petróleo carrega, necessariamente, um comércio exterior considerável."
+        },
+        {
+          "tipo": "p",
+          "texto": "A terceira é o nível geral de produtividade. Se a guerra desorganiza a indústria de B, a renda real cai e B compra menos, ainda que deseje os produtos de A tanto quanto antes; caem as importações e, depois, as exportações. Feis aplica o raciocínio à Europa daquele momento: o trabalho europeu rende pouco, os europeus compram poucas importações e as indústrias exportadoras americanas e inglesas ficam sem mercado. O câmbio, para ele, é aspecto secundário, que se corrigiria se a indústria europeia recuperasse a capacidade de produzir."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Quão limitada é a medida em que uma nação pode controlar esse volume.”",
+          "original": "“how limited is the extent to which any one nation can control that volume.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "É a reflexão final do artigo: condições fora do alcance de cada país podem pesar mais que todas as suas campanhas cuidadosamente planejadas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como a Alemanha pagou a guerra?",
+          "artigo": "1802625",
+          "credito": "Fred Rogers Fairchild (Yale University) · “German War Finance—A Review” · pp. 246–261"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fairchild escreve uma resenha longa de Les Finances de Guerre de l'Allemagne, de Charles Rist, professor da Faculdade de Direito de Paris, e a usa como roteiro para contar as finanças de guerra alemãs. Começa pelos empréstimos. O primeiro saiu em setembro de 1914; depois vieram dois por ano, em março e setembro, até o nono, em setembro e outubro de 1918, diante do colapso militar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "97.619 milhões de marcos",
+          "texto": "Soma das subscrições aos nove empréstimos de guerra alemães, de setembro de 1914 a setembro de 1918, na tabela de Rist reproduzida por Fairchild. O primeiro rendeu 4.460 milhões; o oitavo, de março de 1918, 14.766 milhões. Na guerra franco-prussiana de 1870-71, os empréstimos haviam rendido 350 milhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "A fonte principal, segundo Rist, não foi a venda de títulos estrangeiros, modesta no caso alemão, mas a poupança normal da guerra. Com o comércio exterior cortado e muitas indústrias de paz paradas, capital e trabalho migraram para as encomendas do Estado, e os lucros de guerra encheram caixas econômicas, cooperativas de crédito e bancos. O Tesouro absorvia essa poupança com letras de curto prazo, descontadas sobretudo no Reichsbank, e a cada seis meses consolidava a dívida flutuante num grande empréstimo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O elo mais frágil, diz Fairchild, eram as Darlehnskassen, caixas de empréstimo que emprestavam sobre títulos e mercadorias com notas próprias. Essas notas podiam ser contadas pelo Reichsbank como reserva, o que permitia emitir sem romper formalmente a regra de cobertura de um terço. A circulação fiduciária passou de 2.095 milhões de marcos em 23 de julho de 1914 para 27.418 milhões em 7 de novembro de 1918 e 49.628 milhões no fim de 1919, 24 vezes o nível inicial."
+        },
+        {
+          "tipo": "p",
+          "texto": "A falha maior, para o autor, foi tributária. O plano exposto por Helfferich ao Reichstag em março de 1915 cobria com impostos apenas os juros dos empréstimos; o resto viria de dívida e notas, à espera de vitória rápida e indenização. Fairchild atribui a escolha também à fraqueza constitucional do império, a quem cabiam os impostos indiretos, enquanto os diretos ficavam com os estados. Depois da guerra, o orçamento de 1921 previa déficit de 162 bilhões de marcos, e as notas do Reichsbank chegavam a 115.755 milhões em 15 de fevereiro de 1922."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "fairchild-as-financas-de-guerra-da-alemanha",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Uma zona franca faria de Nova York um entreposto mundial?",
+          "artigo": "1802626",
+          "credito": "Edwin J. Clapp (New York City) · “Foreign Trading Zones in our Seaports” · pp. 262–271"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clapp define a zona de comércio exterior como uma parte do porto cercada por barreira alfandegária, com cais e armazéns onde navios descarregam e mercadorias são baldeadas, armazenadas, reembaladas e reexportadas sem fiscalização. Só quando a carga sai para o interior é inspecionada e paga o imposto. A ideia, diz, tinha dez anos nos Estados Unidos e mudou de nome para escapar da acusação de livre-cambismo: porto livre, depois zona franca, enfim zona de comércio exterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "O modelo é Hamburgo. Para entrar na união aduaneira alemã, que adotara tarifa protecionista em 1879, a cidade criou em 1882 o esquema da zona franca e reconstruiu o porto, com 40 milhões de marcos do império, para preservar a baldeação e a reexportação para o Báltico. A receita não se perdia: os impostos eram cobrados nos poucos pontos de saída da zona."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro benefício, segundo Clapp, é pouco citado: o giro mais rápido dos navios. Nos portos americanos, cada navio recebe inspetores, a descarga noturna exige fiança e horas extras pagas em dobro, e a carga só deixa o cais depois de pesada e amostrada. Como, em média, 60% do custo operacional de uma viagem estaria nas despesas de terminal, cais livres atrairiam as linhas. O segundo é a reexportação: o regime de armazéns alfandegados proíbe alterar a embalagem original, e um importador de rendas suíças teve de mandar suas caixas a um porto das Índias Ocidentais Britânicas para reembalá-las."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20%",
+          "texto": "Peso médio das reexportações britânicas em relação às exportações domésticas antes da guerra, segundo Clapp; em 1913, £ 109,567 milhões contra £ 525,254 milhões. As reexportações americanas foram cerca de 1,5% do total exportado no ano fiscal de 1914 e pouco mais de 2% em 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "Aos opositores, Clapp responde que a localização americana é menos desfavorável do que parece e que a Europa exportará de qualquer modo, com ou sem zonas. As bases do Exército em Boston, Nova York, Filadélfia, Norfolk, Charleston e Nova Orleans, bastando cercá-las, poderiam virar zonas em poucas semanas. O projeto mais recente no Congresso, nota, omitia o direito de fabricar dentro da zona, que poucos fabricantes americanos teriam como aproveitar."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A zona franca surge como um farol.”",
+          "original": "“the free zone looms up like a beacon.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A melhor classificação oficial indica o melhor trigo?",
+          "artigo": "1802627",
+          "credito": "D. A. MacGibbon (The University of Alberta) · “Grain Standardization” · pp. 272–273"
+        },
+        {
+          "tipo": "p",
+          "texto": "A comunicação de MacGibbon responde a um artigo sobre padronização de grãos publicado na Review de junho de 1921, parte de um trabalho lido por H. Bruce Price em Atlantic City em 29 de dezembro de 1920. MacGibbon trata de um aspecto que, diz, o texto publicado não examinou: a suposição de que o grão classificado na categoria mais alta pelos padrões de inspeção seja de fato o mais adequado ao uso econômico."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para ele, isso não é necessariamente verdade. O clima e a composição do solo podem dar ao grão dureza, cor, volume e peso, todas as aparências que costumam ser tomadas como sinais de qualidade, e ainda assim faltar ao trigo o vigor que faz dele uma matéria-prima de primeira para a moagem. O autor compara com as maçãs: o exemplar mais bonito de uma variedade pode valer menos que outro, menos vistoso, cultivado em outras condições."
+        },
+        {
+          "tipo": "p",
+          "texto": "A evidência vem dos laboratórios que os grandes moinhos passaram a manter. As companhias analisam o trigo de cada distrito da região fornecedora e, com fichários mantidos por anos, chegam a conclusões firmes sobre a qualidade real do grão de cada lugar, qualquer que seja a classificação oficial. O resultado é que o trigo de alguns distritos é vendido com ágio, mesmo quando a categoria técnica não o justificaria; compradores são enviados a essas áreas, ou os vagões são separados nos pátios ferroviários dos centros de inspeção. Os carregamentos de outros distritos são evitados e seguem, pela classificação oficial, para a exportação ou para moinhos menos atentos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí três problemas. O primeiro é que o sistema de padronização seria grosseiro e não chegaria ao elemento que cria valor no grão. O segundo diz respeito à exportação: se os moinhos escolhem o melhor dos lotes classificados, a reputação do grão exportado do continente pode sofrer; o autor admite não poder estimar a extensão da prática, mas afirma que ela existe. O terceiro é o valor da terra. Em certos distritos, ele depende da capacidade de produzir, ano após ano, trigo de primeira segundo a classificação oficial, e métodos imperfeitos de classificação podem criar valores fictícios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wesley C. Mitchell resenha Risk, Uncertainty and Profit, de Frank H. Knight, cuja contribuição principal, diz, é a distinção entre risco e incerteza; Clyde Olin Fisher, The Ricardian Rent Theory in Early American Economics, de John Roscoe Turner; Victor H. Pelz, Problems in Sales Management, de Harry R. Tosdal; F. E. Wolfe, The Settlement of Wage Disputes, do próprio Herbert Feis; Walter W. Stewart, os cinco volumes de Banking Principles and Practice, de Ray B. Westerfield; Elisha M. Friedman, British War Finance, coordenado por A. H. Gibson e editado por A. W. Kirkaldy; Frank T. Stockton e Rufus S. Tucker, livros de finanças públicas de Merlin Harold Hunter e Robert Jones; G. B. Mangold, obras de Mary E. Richmond e John Lewis Gillin; John Graham Brooks, The Consumers' Cooperative Movement, de Sydney e Beatrice Webb; e G. P. Watkins, o primeiro volume de Income in the United States, do National Bureau of Economic Research. Há ainda resumos de periódicos, documentos oficiais, a décima nona lista de teses de doutorado em andamento e notas, entre elas a de que a reunião anual da associação será em dezembro, em Chicago."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de junho de 1922 confronta planos com registros. Hewes mede a teoria das guildas pelos contratos assinados e pelas casas entregues; Fairchild mede o plano financeiro alemão pela circulação de notas e pelos déficits; MacGibbon mede a classificação oficial do trigo pelo que os laboratórios dos moinhos encontram. Em cada caso, o indicador formal, seja a doutrina, a cobertura de um terço ou a categoria de inspeção, se descola daquilo que deveria medir.",
+            "Feis e Clapp tratam do comércio exterior em dois níveis. Feis mostra que o volume de comércio depende de produtividade e de demanda, em boa parte fora do controle de cada país; Clapp propõe uma mudança institucional pequena, uma cerca em torno de um cais, para reduzir custos de terminal e de fiscalização. As duas abordagens se completam: a teoria fixa os limites, e a regra administrativa decide quanto se aproveita dentro deles."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Socialismo de guilda",
+          "proposta de entregar a gestão de cada indústria a associações nacionais de trabalhadores, as guildas, ao lado de um Estado que representa os consumidores."
+        ],
+        [
+          "Pagamento contínuo",
+          "garantia das guildas de pagar o trabalhador também em mau tempo, feriados e férias curtas."
+        ],
+        [
+          "Vantagem comparativa",
+          "vantagem relativa de um país na produção de um bem, comparada com as suas outras produções."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida pública de curto prazo, como as letras do Tesouro, renovada continuamente."
+        ],
+        [
+          "Darlehnskassen",
+          "caixas de empréstimo alemãs que emprestavam sobre títulos e mercadorias com notas próprias."
+        ],
+        [
+          "Zona franca",
+          "área do porto fora da fronteira alfandegária, onde a mercadoria circula sem fiscalização até entrar no país."
+        ],
+        [
+          "Armazém alfandegado",
+          "depósito sob controle aduaneiro em que a mercadoria fica sem pagar imposto até ser retirada."
+        ],
+        [
+          "Drawback",
+          "devolução do imposto de importação pago sobre mercadoria depois reexportada."
+        ],
+        [
+          "Mercado de consignação",
+          "praça onde produtores enviam mercadoria para ser vendida por corretores locais, como Londres."
+        ]
+      ],
+      "hoje": "Os temas de junho de 1922 seguem em debate. Zonas francas e zonas de processamento de exportação existem em muitos países, e continua a discussão sobre seus efeitos na arrecadação e na indústria local. O financiamento de guerras e crises por emissão monetária, em vez de impostos, é ainda um caso clássico no estudo da inflação. A gestão de empresas pelos próprios trabalhadores segue objeto de experimentos, e a distância entre padrões oficiais de qualidade e a qualidade efetiva continua relevante nos mercados de commodities.",
+      "itens": [
+        [
+          "Guild Socialism: A Two Years' Test",
+          "pp. 209–237",
+          "1802623"
+        ],
+        [
+          "What Determines the Volume of a Country's International Trade",
+          "pp. 238–245",
+          "1802624"
+        ],
+        [
+          "German War Finance--A Review",
+          "pp. 246–261",
+          "1802625"
+        ],
+        [
+          "Foreign Trading Zones in our Seaports",
+          "pp. 262–271",
+          "1802626"
+        ],
+        [
+          "Grain Standardization",
+          "pp. 272–273",
+          "1802627"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 274-275",
+          "pp. 274–275",
+          "1802628"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 275-278",
+          "pp. 275–278",
+          "1802629"
+        ],
+        [
+          "New Books",
+          "pp. 278–282",
+          "1802630"
+        ],
+        [
+          "New Books",
+          "pp. 282–285",
+          "1802631"
+        ],
+        [
+          "New Books",
+          "pp. 285–288",
+          "1802632"
+        ],
+        [
+          "New Books",
+          "pp. 288–291",
+          "1802633"
+        ],
+        [
+          "New Books",
+          "pp. 291–292",
+          "1802634"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 292-295",
+          "pp. 292–295",
+          "1802635"
+        ],
+        [
+          "New Books",
+          "pp. 295–303",
+          "1802636"
+        ],
+        [
+          "New Books",
+          "pp. 303–304",
+          "1802637"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 304-307",
+          "pp. 304–307",
+          "1802638"
+        ],
+        [
+          "New Books",
+          "pp. 307–309",
+          "1802639"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 309-312",
+          "pp. 309–312",
+          "1802640"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 313-316",
+          "pp. 313–316",
+          "1802641"
+        ],
+        [
+          "New Books",
+          "pp. 316–320",
+          "1802642"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 320-321",
+          "pp. 320–321",
+          "1802643"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 321-322",
+          "pp. 321–322",
+          "1802644"
+        ],
+        [
+          "New Books",
+          "pp. 323–327",
+          "1802645"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 327-328",
+          "pp. 327–328",
+          "1802646"
+        ],
+        [
+          "New Books",
+          "pp. 328–332",
+          "1802647"
+        ],
+        [
+          "New Books",
+          "pp. 332–334",
+          "1802648"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 334-336",
+          "pp. 334–336",
+          "1802649"
+        ],
+        [
+          "New Books",
+          "pp. 336–337",
+          "1802650"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 337-338",
+          "pp. 337–338",
+          "1802651"
+        ],
+        [
+          "New Books",
+          "pp. 339–340",
+          "1802652"
+        ],
+        [
+          "[untitled] The American Economic Review, (1922-06-01), pages 341-343",
+          "pp. 341–343",
+          "1802653"
+        ],
+        [
+          "New Books",
+          "pp. 343–345",
+          "1802654"
+        ],
+        [
+          "Periodicals",
+          "pp. 346–375",
+          "1802655"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 376–379",
+          "1802656"
+        ],
+        [
+          "Nineteenth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "pp. 380–392",
+          "1802657"
+        ],
+        [
+          "Notes",
+          "pp. 393–400",
+          "1802658"
+        ]
+      ],
+      "jstor_edicao": "i331269",
+      "artigos": [
+        {
+          "titulo": "Guild Socialism: A Two Years' Test",
+          "autores": "Amy Hewes (Mount Holyoke College)",
+          "paginas": "pp. 209–237",
+          "jstor": "1802623",
+          "resumo": "A teoria do socialismo de guilda de 1906 a 1921 e os dois primeiros anos das guildas de construção inglesas, com seus contratos, conflitos e perspectivas.",
+          "ensaio_slug": "hewes-socialismo-de-guilda-dois-anos-de-teste"
+        },
+        {
+          "titulo": "What Determines the Volume of a Country's International Trade",
+          "autores": "Herbert Feis (University of Kansas)",
+          "paginas": "pp. 238–245",
+          "jstor": "1802624",
+          "resumo": "Três influências sobre o volume do comércio de mercadorias de um país: vantagens das indústrias exportadoras, demanda relativa por produtos estrangeiros e produtividade geral."
+        },
+        {
+          "titulo": "German War Finance--A Review",
+          "autores": "Fred Rogers Fairchild (Yale University)",
+          "paginas": "pp. 246–261",
+          "jstor": "1802625",
+          "resumo": "Resenha do livro de Charles Rist que reconstitui os empréstimos, a inflação monetária e a política tributária da Alemanha na guerra e depois dela.",
+          "ensaio_slug": "fairchild-as-financas-de-guerra-da-alemanha"
+        },
+        {
+          "titulo": "Foreign Trading Zones in our Seaports",
+          "autores": "Edwin J. Clapp (New York City)",
+          "paginas": "pp. 262–271",
+          "jstor": "1802626",
+          "resumo": "Defesa de zonas de comércio exterior nos portos americanos, a partir do exemplo da zona franca de Hamburgo."
+        },
+        {
+          "titulo": "Grain Standardization",
+          "autores": "D. A. MacGibbon (The University of Alberta)",
+          "paginas": "pp. 272–273",
+          "jstor": "1802627",
+          "resumo": "Comunicação que questiona se a classificação oficial de grãos reflete a qualidade real do trigo para a moagem."
+        },
+        {
+          "titulo": "Risk, Uncertainty and Profit, de Frank H. Knight",
+          "autores": "Wesley C. Mitchell",
+          "paginas": "pp. 274–275",
+          "jstor": "1802628",
+          "resumo": "Resenha que aponta como contribuição principal do livro a distinção entre risco e incerteza."
+        },
+        {
+          "titulo": "The Ricardian Rent Theory in Early American Economics, de John Roscoe Turner",
+          "autores": "Clyde Olin Fisher",
+          "paginas": "pp. 275–278",
+          "jstor": "1802629",
+          "resumo": "Resenha do estudo sobre a recepção da teoria ricardiana da renda pelos primeiros economistas americanos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 278–282",
+          "jstor": "1802630",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 282–285",
+          "jstor": "1802631",
+          "resumo": "Lista de livros novos: história econômica e geografia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 285–288",
+          "jstor": "1802632",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 288–291",
+          "jstor": "1802633",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 291–292",
+          "jstor": "1802634",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "Problems in Sales Management, de Harry R. Tosdal",
+          "autores": "Victor H. Pelz",
+          "paginas": "pp. 292–295",
+          "jstor": "1802635",
+          "resumo": "Resenha de um manual de casos de administração de vendas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 295–303",
+          "jstor": "1802636",
+          "resumo": "Lista de livros novos: contabilidade, métodos comerciais, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 303–304",
+          "jstor": "1802637",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "The Settlement of Wage Disputes, de Herbert Feis",
+          "autores": "F. E. Wolfe",
+          "paginas": "pp. 304–307",
+          "jstor": "1802638",
+          "resumo": "Resenha do livro que propõe um sistema uniforme de solução de disputas salariais nas principais indústrias."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 307–309",
+          "jstor": "1802639",
+          "resumo": "Lista de livros novos: trabalho e organizações trabalhistas."
+        },
+        {
+          "titulo": "Banking Principles and Practice, de Ray B. Westerfield",
+          "autores": "Walter W. Stewart",
+          "paginas": "pp. 309–312",
+          "jstor": "1802640",
+          "resumo": "Resenha da obra em cinco volumes sobre moeda, crédito e prática bancária."
+        },
+        {
+          "titulo": "British War Finance During and After the War 1914-1921, coordenado por A. H. Gibson e editado por A. W. Kirkaldy",
+          "autores": "Elisha M. Friedman",
+          "paginas": "pp. 313–316",
+          "jstor": "1802641",
+          "resumo": "Resenha do levantamento sobre as finanças de guerra britânicas feito por um comitê da British Association."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 316–320",
+          "jstor": "1802642",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Outlines of Public Finance, de Merlin Harold Hunter",
+          "autores": "Frank T. Stockton",
+          "paginas": "pp. 320–321",
+          "jstor": "1802643",
+          "resumo": "Resenha de um manual introdutório de finanças públicas."
+        },
+        {
+          "titulo": "Taxation, Yesterday and Tomorrow, de Robert Jones",
+          "autores": "Rufus S. Tucker",
+          "paginas": "pp. 321–322",
+          "jstor": "1802644",
+          "resumo": "Resenha de um pequeno livro inglês sobre tributação."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 323–327",
+          "jstor": "1802645",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifas; população e migração."
+        },
+        {
+          "titulo": "What is Social Case Work?, de Mary E. Richmond",
+          "autores": "G. B. Mangold",
+          "paginas": "pp. 327–328",
+          "jstor": "1802646",
+          "resumo": "Resenha de uma descrição introdutória do serviço social de casos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 328–332",
+          "jstor": "1802647",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 332–334",
+          "jstor": "1802648",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "Poverty and Dependency: Their Relief and Prevention, de John Lewis Gillin",
+          "autores": "George B. Mangold",
+          "paginas": "pp. 334–336",
+          "jstor": "1802649",
+          "resumo": "Resenha de um tratado sobre a assistência e a prevenção da pobreza."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 336–337",
+          "jstor": "1802650",
+          "resumo": "Lista de livros novos: pauperismo, caridade e medidas de assistência."
+        },
+        {
+          "titulo": "The Consumers' Cooperative Movement, de Sydney e Beatrice Webb",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 337–338",
+          "jstor": "1802651",
+          "resumo": "Resenha do estudo dos Webb sobre o cooperativismo de consumo."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 339–340",
+          "jstor": "1802652",
+          "resumo": "Lista de livros novos: socialismo e empreendimentos cooperativos."
+        },
+        {
+          "titulo": "Income in the United States, its Amount and Distribution, 1909-1919, vol. I, do National Bureau of Economic Research",
+          "autores": "G. P. Watkins",
+          "paginas": "pp. 341–343",
+          "jstor": "1802653",
+          "resumo": "Resenha do resumo da estimativa da renda americana feita por Mitchell, King, Macaulay e Knauth."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 343–345",
+          "jstor": "1802654",
+          "resumo": "Lista de livros novos: estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 346–375",
+          "jstor": "1802655",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 376–379",
+          "jstor": "1802656",
+          "resumo": "Documentos, relatórios e legislação, a começar pelas publicações da Tariff Commission."
+        },
+        {
+          "titulo": "Nineteenth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "autores": "",
+          "paginas": "pp. 380–392",
+          "jstor": "1802657",
+          "resumo": "Décima nona lista de teses de doutorado em economia política em andamento nas universidades americanas."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 393–400",
+          "jstor": "1802658",
+          "resumo": "Notas da associação: reunião anual de dezembro em Chicago e novos membros."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "hewes-socialismo-de-guilda-dois-anos-de-teste",
+          "titulo": "Hewes e as guildas que saíram do papel",
+          "titulo_original": "Guild Socialism: A Two Years' Test",
+          "autores": "Amy Hewes (Mount Holyoke College)",
+          "paginas": "pp. 209–237",
+          "jstor": "1802623",
+          "chamada": "Amy Hewes compara mais de uma década de teoria do socialismo de guilda com os dois primeiros anos das guildas de construção inglesas, que trocaram a garantia financeira pela garantia do trabalho.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 20 de janeiro de 1920, os comitês que representavam os trabalhadores organizados da construção na região de Manchester aprovaram a criação de um Building Guild Committee e se comprometeram a eleger um representante de cada sindicato. A proposta viera de S. G. Hobson, um dos primeiros teóricos do socialismo de guilda, que sugerira à Operative Bricklayers Society romper o impasse habitacional com uma guilda que detivesse o monopólio do trabalho na construção."
+            },
+            {
+              "tipo": "p",
+              "texto": "Amy Hewes, do Mount Holyoke College, conta essa história na abertura da American Economic Review de junho de 1922. O artigo tem duas partes: a evolução da teoria das guildas e de sua organização de propaganda, a National Guilds League, e um resumo dos dois primeiros anos das guildas de construção. A tese é que a experiência deu à longa discussão anterior um interesse apenas acadêmico e deveria obrigar a teoria a se refazer."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde veio a ideia das guildas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Hewes situa a origem em Arthur J. Penty, arquiteto, que em 1906 publicou The Restoration of the Gild System, crítica ao comercialismo moderno em nome dos métodos medievais de produção, com ataques à divisão do trabalho e às máquinas. Em 1912, S. G. Hobson publicou no New Age, de A. R. Orage, a série de artigos reunida depois em National Guilds, uma acusação ao sistema assalariado. G. D. H. Cole tentou levar as ideias à Fabian Society, não conseguiu, saiu e em 1915 organizou a National Guilds League."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em Self-Government in Industry, de 1917, Cole apresentou a versão mais detalhada: o Estado seria a associação dos consumidores, os sindicatos reorganizados por indústria seriam as guildas dos produtores, e nenhum dos dois seria soberano. A guilda garantiria ao trabalhador pagamento no emprego e no desemprego, controle da produção e direito sobre o produto. Hobson, em 1920, preferiu um Estado supremo que delegasse às guildas o comando da produção."
+            },
+            {
+              "tipo": "p",
+              "texto": "A dissidência veio do major C. H. Douglas, engenheiro. Em Economic Democracy, de 1919, e Credit Power and Democracy, de 1920, sustentou que o controle real da indústria estava com os financistas e que o poder de compra distribuído na produção era menor que o necessário para comprar o produto; propôs bancos de trabalho e controle comunitário do crédito. A conferência especial da Liga, em dezembro de 1920, rejeitou o esquema por ampla maioria, e Cole, em fevereiro de 1921, condenou-o sem rodeios."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Impraticável na prática, insustentável economicamente e indesejável moralmente.”",
+              "original": "“unworkable practically, unsound economically, and undesirable morally.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O juízo de Hewes sobre essa literatura tem dois lados. De um, ela a considera saturada de teoria, apoiada num conhecimento pouco profundo da sociedade econômica: Cole discute o controle das indústrias mecânicas e navais sem examinar matérias-primas, máquinas ou destino dos produtos. De outro, reconhece que Penty e Cole têm razão ao dizer que o coletivismo não satisfez o trabalhador britânico, e que esses livros merecem lugar permanente na história dos movimentos sociais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a Liga se dividiu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fundada em Londres na Páscoa de 1915, a National Guilds League tinha por objetivo abolir o sistema assalariado e estabelecer o autogoverno na indústria por guildas nacionais, em conjunto com um Estado democrático. Publicava panfletos e, desde 1917, um mensal, The Guild Socialist, antes The Guildsman, editado por G. D. H. e Margaret Cole desde 1920. Em 1920 teve de definir posição sobre agricultura, associações profissionais, cooperativismo e o sistema soviético. As duas primeiras questões trouxeram acordo; a terceira, controvérsia; a quarta quase destruiu a organização."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em maio de 1920, uma ala esquerda simpática à Rússia soviética obteve vitórias apertadas; a direita, que se dizia gradualista, perdeu por pequena margem a moção que rejeitava a ditadura do proletariado. Na conferência especial de dezembro, os seis membros da ala direita do comitê executivo renunciaram. Em 1921 a Liga perdeu grupos locais e membros e teve de funcionar em bases voluntárias. Hewes cita W. Mellor, membro da Liga, na Labour Monthly de novembro de 1921."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Desde 1917 o socialismo de guilda vem perdendo força de modo constante e progressivo.”",
+              "original": "“since 1917 Guild Socialism has been constantly and progressively waning in power.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seria um erro, adverte a autora, medir o movimento pela sorte da Liga. As guildas em funcionamento não tinham filiação formal a ela, alguns sindicatos que as formaram nem sabiam de sua existência, e seus membros eram sobretudo intelectuais, não assalariados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como uma guilda conseguiu contratos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A ocasião foi a falta de moradias. Construir casas deixara de ser lucrativo, e o governo ofereceu subsídios de até £ 260 por casa ao construtor individual, ao mesmo tempo que restringia aluguéis. A lei de habitação de julho de 1919 permitia ao governo emprestar às cidades e cobrir perdas acima do produto de um penny por libra no imposto local. Quase todos os primeiros contratos das guildas foram moradias operárias de conselhos municipais."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os sindicatos argumentavam que a capacidade de fornecer trabalho valia tanto quanto um depósito em ouro: um empreiteiro pode ser financeiramente sólido e não construir por falta de mão de obra. Depois de negociações de janeiro a julho de 1920, um memorando do Ministério da Saúde fixou os termos, adotados em setembro: custo efetivo de materiais e trabalho, mais £ 40 por casa e 6% do custo estimado; qualquer excedente iria para a melhoria do serviço, e uma cláusula permitia encerrar o contrato se os custos superassem a estimativa."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "£ 40 por casa",
+              "texto": "Quantia fixa paga às guildas para garantir o pagamento contínuo dos trabalhadores, inclusive em mau tempo e feriados. Somavam-se 6% do custo estimado para equipamento e despesas da sede. Segundo Hewes, os contratos dos empreiteiros privados tinham os mesmos £ 40, que constituíam seu lucro."
+            },
+            {
+              "tipo": "p",
+              "texto": "A Co-operative Wholesale Society, a maior vendedora de materiais de construção do reino depois do governo, deu o que faltava: fornecimento garantido, saque a descoberto de cerca de 2% do valor dos contratos e, pela Co-operative Insurance Society, seguro do contrato com responsabilidade limitada a um quinto do custo. Em Londres, a London Guild of Builders, criada em 20 de abril de 1920 sob a direção de Malcolm Sparkes, aceitava também obras privadas e não buscava monopólio do trabalho."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que aconteceu quando o governo recuou?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os empreiteiros reagiram. O secretário da guilda de Manchester dizia construir casas de £ 150 a £ 200 mais baratas, e Stephen Easten, presidente da federação patronal, considerou injustos os termos. No início de 1921 o ministério deixou de aprovar novos contratos até que as condições mudassem. As guildas não cederam no pagamento contínuo e passaram a buscar reparos e casas para compradores privados. Em julho de 1921, mês em que o governo anunciou o fim dos subsídios, as guildas de Manchester e Londres fundiram-se na National Building Guild."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em dezembro de 1921 a guilda lançou um mensal, anunciou um empréstimo de £ 150 mil entre membros e simpatizantes e registrou contratos acima de £ 2 milhões e recebimentos de £ 600 mil. Vieram também problemas de administração: comitês de obra que pediam funções além de cantinas e esportes, e conflitos com as regras de ofício dos sindicatos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que faltava provar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No balanço de Hewes, as guildas demonstraram que o pagamento contínuo era viável na construção, que podiam construir mais barato que os empreiteiros e que seus trabalhadores rendiam mais nas mesmas obras. Mas começaram em circunstâncias excepcionais: pouco capital exigido, obras de caráter semipúblico, eficiência geral baixa e demanda premente por casas. Quando a demanda arrefecesse, os trabalhadores menos necessários ou menos eficientes relutariam em sair, os custos subiriam e a posição competitiva sofreria. A formação de gerentes continuava sem solução. Hobson via o próximo problema no crédito; os teóricos, conclui a autora, pareciam marcar passo, deixando o avanço a quem trabalhava na produção."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo vale pelo contraste de método. Hewes não julga as guildas pela coerência da doutrina, mas pelos termos do contrato: quem garante a obra, quanto se paga por casa, quem fica com a economia de custo. É nessa contabilidade que aparecem as questões que a teoria deixara de lado, como crédito, fornecimento de materiais e seguro, resolvidas na prática pela entrada de uma terceira parte, a cooperativa atacadista.",
+                "O segundo ponto é a distinção entre resultado e condição. Custos menores e bom rendimento do trabalho num mercado com escassez de casas e pleno emprego não dizem muito sobre o desempenho num ciclo de baixa. Hewes deixa a pergunta aberta: a regra do pagamento contínuo, central para as guildas, é exatamente a que seria testada quando a demanda caísse."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Socialismo de guilda",
+              "proposta de entregar a gestão de cada indústria a guildas nacionais de trabalhadores, ao lado de um Estado que representa os consumidores."
+            ],
+            [
+              "Coletivismo",
+              "termo da época para a gestão estatal da indústria, defendida pela Fabian Society."
+            ],
+            [
+              "Pagamento contínuo",
+              "garantia de salário também em mau tempo, feriados e férias curtas."
+            ],
+            [
+              "Co-operative Wholesale Society",
+              "cooperativa atacadista do movimento cooperativo britânico, com departamento de construção e banco."
+            ],
+            [
+              "Cláusula de rescisão",
+              "dispositivo que permitia encerrar o contrato se os custos superassem a estimativa mais os reajustes."
+            ],
+            [
+              "Crédito social de Douglas",
+              "proposta de controle comunitário do crédito e de compensar a diferença entre poder de compra e preço do produto."
+            ]
+          ],
+          "hoje": "O tema das guildas reaparece sempre que se discute a gestão de empresas pelos próprios trabalhadores. Cooperativas de produção, inclusive na construção, existem em muitos países, e o problema descrito por Hewes, como manter o compromisso com o emprego quando a demanda cai, continua central na avaliação dessas formas de organização. A disputa entre garantias financeiras e garantias de desempenho em contratos públicos de obras também segue atual."
+        },
+        {
+          "slug": "fairchild-as-financas-de-guerra-da-alemanha",
+          "titulo": "Fairchild, Rist e a conta da guerra alemã",
+          "titulo_original": "German War Finance--A Review",
+          "autores": "Fred Rogers Fairchild (Yale University)",
+          "paginas": "pp. 246–261",
+          "jstor": "1802625",
+          "chamada": "A partir do livro de Charles Rist, Fred Rogers Fairchild reconstitui como a Alemanha financiou a guerra com empréstimos, notas das caixas de empréstimo e quase nenhum imposto novo, e o que veio depois.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 23 de julho de 1914, o último balanço do Reichsbank antes da guerra mostrava 1.890 milhões de marcos em notas contra uma reserva metálica de 1.691 milhões, quase 90%. Em 31 de dezembro de 1919, a reserva metálica cobria 3%. Entre os dois números está a história que Fred Rogers Fairchild, da Yale University, conta na American Economic Review de junho de 1922."
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto de partida é Les Finances de Guerre de l'Allemagne, de Charles Rist, professor da Faculdade de Direito de Paris, publicado pela Payot em 1921. Fairchild descreve o livro como escrito para o leitor geral, apoiado em fontes alemãs originais, e decide usá-lo como base de um relato breve das finanças de guerra alemãs, na ordem do próprio Rist: empréstimos, moeda, impostos, indenizações e pós-guerra."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vieram os empréstimos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro empréstimo de guerra veio em setembro de 1914, com 4.460 milhões de marcos; o segundo dobrou o valor, e nenhum dos seguintes ficou abaixo de 10 bilhões. Os nove somaram 97.619 milhões. Durante a guerra, nota o autor, os Aliados tendiam a tratar esse êxito como ilusão; para Fairchild, se houve artifício, não diferiu no fundamental das práticas de todos os beligerantes."
+            },
+            {
+              "tipo": "p",
+              "texto": "A venda de títulos estrangeiros ajudou pouco. Os estatísticos alemães estimavam a carteira externa em 16 a 20 bilhões de marcos no início da guerra, mas cerca de 5 bilhões estavam aplicados em países aliados e 7 a 8 bilhões em países inimigos; só 7 a 8 bilhões eram realizáveis, e cerca de 3 bilhões foram vendidos nos primeiros anos. Em setembro de 1916, o governo passou a usar esses títulos como garantia de empréstimos externos, para sustentar o câmbio."
+            },
+            {
+              "tipo": "p",
+              "texto": "A base real, segundo Rist, foi a poupança normal da guerra. Com o comércio exterior cortado, a marinha mercante parada e muitas indústrias de paz ociosas, o capital ficava disponível, e o Estado tornou-se o grande comprador, que pagava bem. Os lucros foram altos: a Daimler, com capital de 8 milhões de marcos, lucrou 12 milhões em 1916 e pagou dividendos de 14%, 16%, 28% e 35% nos anos seguintes a 1913. Fairchild acrescenta que a inflação monetária estimulava esses lucros, enquanto o custo de vida da maioria subia sem aumento correspondente de renda."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "6 bilhões de marcos",
+              "texto": "Excesso dos depósitos sobre os saques nas caixas econômicas alemãs em 1918, segundo Rist; antes da guerra, raramente passava de 500 ou 600 milhões por ano. Os depósitos das cooperativas agrícolas do tipo Raiffeisen foram de 79 milhões em 1913 a 429 milhões em 1917, e os sete grandes bancos de Berlim tinham mais de 19 bilhões em depósitos no fim de 1918."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o Tesouro recolhia a poupança?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A política tinha três tempos: deixar a poupança acumular-se pelos canais normais, absorvê-la com letras do Tesouro de curto prazo vendidas a bancos, caixas econômicas, cooperativas e grandes capitalistas, e consolidar essa dívida flutuante a cada seis meses num grande empréstimo. O Reichsbank, presidido por Havenstein, recebia a maior parte das letras e tornou-se, na prática, o agente de crédito do governo. Os empréstimos nunca bastaram para resgatar todas as letras: a carteira do banco, de 4.712 milhões em 30 de setembro de 1914, chegou a pouco menos de 19 bilhões em outubro de 1918."
+            },
+            {
+              "tipo": "p",
+              "texto": "O instrumento mais original, diz Fairchild, foram as Darlehnskassen, caixas de empréstimo criadas na Prússia em 1848 e revividas nas guerras de 1866 e 1870. Em 1914 abriram-se 99 escritórios, que emprestavam sobre títulos e mercadorias a comerciantes, bancos, cidades e indivíduos, com notas próprias de até um marco. As notas não tinham curso legal, mas eram aceitas nas repartições públicas e, sobretudo, podiam ser contadas pelo Reichsbank como reserva. O público era incentivado a tomar emprestado nas caixas, a 5,25%, para subscrever títulos que rendiam 5,36%."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Era fácil comer o bolo fiduciário e continuar com ele.”",
+              "original": "“it was easy to eat the fiduciary cake and have it too.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O resultado foi a inflação. A circulação fiduciária, de 2.095 milhões de marcos em julho de 1914, chegou a 27.418 milhões em 7 de novembro de 1918 e a 49.628 milhões em 31 de dezembro de 1919, 24 vezes o ponto de partida. Na França, as notas do Banco da França foram de 5.433 milhões de francos em julho de 1914 a 30.617 milhões no fim de 1919. A reserva metálica alemã caiu a 22% no fim de 1917 e a 10% no fim de 1918, e os jornais deixaram de publicar a relação. O ouro do Reichsbank atingiu o máximo, dois bilhões e meio, em 15 de junho de 1917."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que tão poucos impostos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Antes da guerra a carga tributária alemã era leve. Em 1902, o total de impostos na Prússia era estimado em 42,50 marcos por habitante, contra 79,57 na França e 101,44 na Grã-Bretanha. Em 1913, o prussiano médio pagava 68,40 marcos, cerca de 10% da renda; o francês, 135 francos, 15%. Empresas públicas forneciam 30% da receita bruta do império e 67% da dos estados."
+            },
+            {
+              "tipo": "p",
+              "texto": "O plano, exposto por Helfferich ao Reichstag em 10 de março de 1915, era cobrir com impostos apenas os juros; o custo da guerra viria de empréstimos e notas. Fairchild o identifica com o chamado plano Gallatin, da guerra americana de 1812. Uma explicação é a aposta na vitória rápida e na indenização. A outra, que o autor considera decisiva e encontra também em Rist, é constitucional: os impostos diretos e as receitas industriais cabiam aos estados, e ao império os indiretos. Só em 1906, com o imposto sobre heranças, e em 1913, com o Wehrbeitrag, o império entrou nos tributos diretos. O paralelo, nota, é a Constituição americana antes da décima sexta emenda."
+            },
+            {
+              "tipo": "p",
+              "texto": "O plano só foi abandonado em 1917, com o Kriegsteuer. Rist estima que, no máximo, a carga per capita de todos os impostos pouco mais que dobrou entre 1914 e 1918, e que os impostos imperiais não chegaram a triplicar, em moeda depreciada. O efeito duradouro foi institucional: a nova Constituição deu ao império o monopólio dos impostos diretos, inclusive o de renda, e as ferrovias dos estados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem pagaria a conta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os planos alemães contavam com indenizações pagas pelos vencidos. Rist resume os autores que as anteviam e comenta com secura o entusiasmo de 1915."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Desde 1915 a alegria de viver diminuiu consideravelmente na Alemanha.”",
+              "original": "“since 1915 the joy of living has considerably diminished in Germany”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sobre as reparações, Fairchild acompanha Rist: a Alemanha só pode pagar com seus produtos ou com letras sobre países que os comprem; logo, a capacidade de pagamento depende do comércio exterior, e boicote ou protecionismo são incompatíveis com a cobrança. O pós-guerra repete o padrão. O orçamento de 1920 previa gastos de 55 bilhões de marcos e receitas de 25 bilhões; o de 1921, 234 bilhões contra 72; para 1922, a estimativa preliminar indicava déficit de 183 bilhões a cobrir com crédito. As notas do Reichsbank foram a 68.805 milhões no fim de 1920, 113.639 milhões no fim de 1921 e 115.755 milhões em 15 de fevereiro de 1922. O fim, conclui o autor, ainda estava por ver."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o centro do texto é a separação entre a regra formal e a substância monetária. A cobertura de um terço foi preservada no papel enquanto as notas das caixas de empréstimo, contadas como reserva, permitiam emitir sem limite efetivo; depois, a troca de notas por depósitos reduziu a circulação visível sem alterar o volume de crédito ao Tesouro. Fairchild mostra que acompanhar só o indicador oficial esconde exatamente o que ele deveria revelar.",
+                "O segundo ponto é a ligação entre federalismo fiscal e financiamento de guerra. A escolha por empréstimos e emissão aparece não só como aposta militar, mas como consequência da repartição de tributos entre império e estados. Mudar essa repartição exigiu uma nova Constituição; enquanto isso, o déficit se transferia para a moeda."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Reichsbank",
+              "banco central do império alemão, emissor das notas e principal comprador das letras do Tesouro."
+            ],
+            [
+              "Letras do Tesouro",
+              "títulos de curto prazo usados pelo governo para financiar-se entre um empréstimo de guerra e outro."
+            ],
+            [
+              "Darlehnskassen",
+              "caixas de empréstimo que emprestavam sobre títulos e mercadorias com notas próprias, aceitas como reserva do Reichsbank."
+            ],
+            [
+              "Cobertura de um terço",
+              "regra que exigia reserva em espécie de ao menos um terço das notas emitidas pelo Reichsbank."
+            ],
+            [
+              "Plano Gallatin",
+              "financiamento de guerra por empréstimos, com impostos apenas para os juros, associado à guerra americana de 1812."
+            ],
+            [
+              "Wehrbeitrag",
+              "contribuição extraordinária de defesa criada em 1913 sobre o patrimônio."
+            ],
+            [
+              "Reparações",
+              "pagamentos impostos ao país derrotado para cobrir danos e custos de guerra dos vencedores."
+            ]
+          ],
+          "hoje": "A pergunta de Fairchild, como uma guerra ou uma crise se paga entre impostos, dívida e emissão, volta sempre que gastos extraordinários pressionam os orçamentos. A experiência alemã continua a ser estudada como exemplo de inflação gerada por financiamento monetário do déficit. A repartição de tributos entre governo central e entes federados, e o uso de instrumentos que contornam regras formais de cobertura, seguem como temas de política fiscal e monetária."
+        }
+      ]
+    },
+    {
+      "slug": "1922-o-manual-da-associacao",
+      "numero": 177,
+      "titulo": "Manual de 1922: New Haven, seiscentos assinantes e Viena de volta",
+      "titulo_original": "Handbook of the American Economic Association, 1922",
+      "autores": "American Economic Association",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 12, nº 2 (suplemento)",
+      "data": "1922",
+      "chamada": "O manual de 1922 muda a sede editorial para St. Albans e New Haven, traz o estatuto revisto em 1919, quase seiscentos assinantes e um índice geográfico com Viena, Berlim e Munique.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O manual de 1922 já não sai de Princeton. A capa indica escritórios de publicação em St. Albans, Vermont, e New Haven, Connecticut, e as assinaturas passam a ser tratadas pela própria associação, em New Haven. A impressão fica a cargo da St. Albans Messenger Press, e o exemplar avulso, em brochura, custa US$ 1,50."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Handbook of the American Economic Association de 1922 saiu como suplemento do nº 2 do vol. 12 da American Economic Review, com data de junho. Antes do sumário, uma página lembra que a associação foi organizada em Saratoga, em 9 de setembro de 1885, lista os ex-presidentes, de John B. Clark a Jacob H. Hollander, e os dirigentes do ano: Henry R. Seager, da Columbia University, na presidência, Ray B. Westerfield, de Yale, como secretário e tesoureiro, e Davis R. Dewey como editor-gerente da Review. O sumário mantém as quatro partes do manual de 1919, comentado no nº 160."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou desde 1919?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A apresentação repete o texto de 1919, com poucas atualizações. Os assinantes, que eram cerca de quatrocentos e cinquenta, passam a ser quase seiscentos, entre eles as bibliotecas mais importantes do país. A reunião anual de 1922 volta a ser anunciada para Chicago, nas festas de fim de ano, como a de 1919. E a Review, que tinha menos de dez anos, está agora no décimo segundo ano e, diz o texto, já ocupa lugar entre as revistas científicas sérias do país."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A American Economic Association não é órgão de nenhum partido, seita ou instituição.”",
+          "original": "“The American Economic Association is the organ of no party, sect, or institution.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O estatuto traz agora a indicação de revisão na reunião anual de dezembro de 1919, e não mais na de 1911. Os objetivos e as regras de filiação seguem iguais. A novidade está nos cargos: entre os eleitos aparecem três membros do Comitê de Programa, com mandato de três anos e renovação de um terço a cada ano, como no Conselho Editorial e no Comitê Executivo. O presidente prepara o programa das reuniões em consulta com esse comitê."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 5",
+          "texto": "Anuidade prevista no artigo III, a mesma de 1919. A contribuição vitalícia segue em US$ 100, com isenção das anuidades, e o limite de sócios honorários estrangeiros continua em 25. O Comitê Executivo reúne presidente, vice-presidentes, secretário, tesoureiro, editor-gerente, os três últimos ex-presidentes e seis membros eleitos; o quórum é de cinco."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como as listas mudaram de tamanho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lista de sócios e assinantes ocupa 57 páginas, das 5 às 61, ante 62 em 1919. O índice geográfico ocupa 39, das 62 às 100, ante 44. As listas encolhem em páginas no mesmo manual que anuncia mais assinantes; o texto não traz um total de sócios. O formato é o de sempre, com sinais para vitalícios, assinantes e honorários."
+        },
+        {
+          "tipo": "p",
+          "texto": "A relação alfabética abre, mais uma vez, com Edith Abbott, da University of Chicago, sócia desde 1905. Entre os últimos nomes está Erich W. Zimmermann, de Decatur, Illinois, sócio desde 1921. Há inscrições datadas de 1922, o próprio ano do manual, ao lado de filiações que remontam a 1888, como a de Frederick George Young, da University of Oregon."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que países aparecem no índice geográfico?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira parte vai do Alabama ao Wyoming, com o Distrito de Colúmbia e o Havaí, e segue pelo Canadá: em Kingston, a biblioteca da Queen’s University; em Montreal, Stephen Leacock, a McGill University e a École des Hautes Études Commerciales. Na parte de outros países, as seções legíveis vão da Austrália à Tasmânia, passando por China, Cuba, Índia, Itália, Japão, Lituânia, Noruega, Filipinas, Portugal, África do Sul, Espanha, Suécia e Suíça."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Europa Central volta ao mapa. A Áustria, ausente em 1919, reaparece com uma entrada: F. von Wieser, em Viena. A Alemanha, que em 1919 tinha apenas G. Cohn, em Göttingen, passa a ter entradas em Berlim, Göttingen, Hamburgo e Munique, entre livrarias, a Biblioteca Estatal da Prússia e a biblioteca da escola de comércio de Munique. Em Kaunas, na Lituânia, aparecem um assinante e uma biblioteca."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Cambridge seguem J. N. Keynes, Alfred Marshall e A. C. Pigou; em Oxford, Edwin Cannan e F. Y. Edgeworth; em Paris, Charles Gide e Yves Guyot; em Roma, M. Pantaleoni; em Genebra, W. E. Rappard. Em Londres consta uma delegação comercial russa. O Japão mantém uma das seções mais extensas fora da América do Norte, com Tóquio reunindo o Banco do Japão, a Biblioteca Imperial, universidades e empresas; na China, há entradas de Amoy a Tianjin; na Índia, de Allahabad a Trivandrum."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o manual de 1922 é o de uma associação que assume a própria gestão. A sede editorial e as assinaturas passam para endereços ligados ao secretário, e o estatuto de 1919 formaliza um Comitê de Programa, sinal de que organizar a reunião anual já exigia estrutura própria. O índice geográfico registra outra coisa: três anos depois do manual de 1919, economistas e bibliotecas de Viena, Berlim e Munique voltam à lista. Para quem estuda a circulação de ideias econômicas, essa volta é uma medida concreta, e modesta, da recomposição dos vínculos acadêmicos depois da guerra."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Purposes of the American Economic Association",
+          "autores": "texto institucional",
+          "paginas": "pp. 1–2",
+          "jstor": "1806424",
+          "resumo": "Repete a apresentação de 1919, agora com quase seiscentos assinantes, a reunião de 1922 marcada para Chicago e a Review no seu décimo segundo ano."
+        },
+        {
+          "titulo": "Constitution of the American Economic Association",
+          "autores": "texto revisto na reunião anual de dezembro de 1919",
+          "paginas": "pp. 3–4",
+          "jstor": "1806425",
+          "resumo": "Mantém a anuidade de cinco dólares e a contribuição vitalícia de cem e inclui entre os cargos eleitos três membros do Comitê de Programa."
+        },
+        {
+          "titulo": "List of Members and Subscribers",
+          "autores": "",
+          "paginas": "pp. 5–61",
+          "jstor": "1806426",
+          "resumo": "Relação alfabética de sócios e assinantes, a partir de Edith Abbott, com endereços, sinais para vitalícios, assinantes e honorários e o ano de início da filiação contínua."
+        },
+        {
+          "titulo": "Geographical Index of Members and Subscribers",
+          "autores": "",
+          "paginas": "pp. 62–100",
+          "jstor": "1806427",
+          "resumo": "Os mesmos nomes agrupados por estado e cidade nos Estados Unidos e no Canadá e, depois, por país, da Austrália à Tasmânia."
+        }
+      ],
+      "glossario": [
+        [
+          "Assinante (subscriber)",
+          "instituição ou pessoa que recebe as publicações sem ser sócia, como as bibliotecas."
+        ],
+        [
+          "Comitê de Programa",
+          "grupo eleito que prepara, com o presidente, o programa das reuniões anuais."
+        ],
+        [
+          "Índice geográfico",
+          "relação dos sócios e assinantes organizada por lugar de residência, e não por ordem alfabética."
+        ],
+        [
+          "Sócio vitalício (life member)",
+          "quem paga uma contribuição única e fica isento das anuidades."
+        ]
+      ],
+      "hoje": "Diretórios de associações científicas seguem úteis como fonte para medir o alcance de uma disciplina e a sua recuperação depois de choques externos. O manual de 1922 mostra, em poucas linhas de índice, a volta de economistas e bibliotecas da Europa Central a uma rede americana de leitores. As associações de economia continuam a eleger comitês de programa para organizar seus congressos, e a pergunta implícita no estatuto, quem decide o que será discutido, segue no centro da governança dessas entidades.",
+      "itens": [
+        [
+          "Purposes of the American Economic Association",
+          "pp. 1–2",
+          "1806424"
+        ],
+        [
+          "Constitution of the American Economic Association",
+          "pp. 3–4",
+          "1806425"
+        ],
+        [
+          "List of Members and Subscribers",
+          "pp. 5–61",
+          "1806426"
+        ],
+        [
+          "Geographical Index of Members and Subscribers",
+          "pp. 62–100",
+          "1806427"
+        ]
+      ],
+      "jstor_edicao": "i304587"
     }
   ],
   "proximas": [
