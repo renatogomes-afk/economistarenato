@@ -27370,7 +27370,8 @@
           "autores": "H. A. Millis (Leland Stanford Junior University)",
           "paginas": "pp. 72–76",
           "jstor": "1802908",
-          "resumo": "Millis descreve as medidas canadenses de 1908 contra a entrada de trabalhadores vindos da Índia — a exigência de viagem contínua desde o país de origem e o aumento, de US$ 25 para US$ 200, do dinheiro exigido no desembarque — e informa que as chegadas caíram a seis em 1909. Relata o movimento para os estados do Pacífico, as ocupações nas serrarias, ferrovias e lavouras da Califórnia e a recomendação da Immigration Commission de buscar um entendimento com o governo britânico para impedir a vinda desses trabalhadores."
+          "resumo": "Millis descreve as medidas canadenses de 1908 contra a entrada de trabalhadores vindos da Índia — a exigência de viagem contínua desde o país de origem e o aumento, de US$ 25 para US$ 200, do dinheiro exigido no desembarque — e informa que as chegadas caíram a seis em 1909. Relata o movimento para os estados do Pacífico, as ocupações nas serrarias, ferrovias e lavouras da Califórnia e a recomendação da Immigration Commission de buscar um entendimento com o governo britânico para impedir a vinda desses trabalhadores.",
+          "ensaio_slug": "millis-imigracao-indiana-no-pacifico"
         },
         {
           "titulo": "Cl.-J. Herbert, Essai sur la police générale des grains (1755), ed. Edgard Depitre",
@@ -28054,6 +28055,114 @@
             ]
           ],
           "hoje": "O calendário de Kemmerer desapareceu em grande parte, e por uma razão institucional: bancos centrais passaram a suprir liquidez nas datas de maior demanda, e as taxas de curto prazo deixaram de oscilar com as safras. As pressões sazonais, porém, continuam visíveis no fim de mês, de trimestre e de ano, quando bancos ajustam balanços e a demanda por reservas aumenta. O método também permanece: separar o padrão sazonal da tendência ainda é o primeiro passo para ler qualquer série econômica mensal ou semanal."
+        },
+        {
+          "slug": "millis-imigracao-indiana-no-pacifico",
+          "titulo": "Millis, 1911: de 2.623 chegadas a seis, a regra da viagem contínua",
+          "titulo_original": "East Indian Immigration to British Columbia and the Pacific Coast States",
+          "autores": "H. A. Millis (Leland Stanford Junior University)",
+          "paginas": "pp. 72–76",
+          "jstor": "1802908",
+          "chamada": "Millis relata como o Canadá praticamente fechou a entrada de trabalhadores da Índia em 1908, com duas regras administrativas, e resume os dados da Comissão de Imigração dos EUA sobre emprego e salários no Pacífico.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1908, segundo H. A. Millis, chegaram ao Canadá 2.623 trabalhadores vindos da Índia. Em 1909, chegaram seis. Nos cinco primeiros meses de 1910, um. A queda não veio de uma lei nova votada no Parlamento, mas de duas medidas administrativas. Em cinco páginas do primeiro número da American Economic Review, Millis, de Stanford, resume o que o governo canadense e a Comissão de Imigração dos EUA apuraram sobre esse fluxo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quantos chegaram, e por quê?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Millis relata uma série curta e de crescimento rápido: 48 imigrantes em 1905, 387 em 1906, 2.124 em apenas nove meses de 1907. Eles se empregavam sobretudo como trabalhadores não qualificados nas ferrovias, nas serrarias e fábricas de telhas de madeira (shingle mills) e na pesca da Colúmbia Britânica."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "48 → 2.124",
+              "texto": "Chegadas ao Canadá, segundo Millis: 48 em 1905; 387 em 1906; 2.124 em nove meses de 1907; 2.623 em 1908. Depois das medidas de 1908: seis em 1909 e um nos cinco primeiros meses de 1910."
+            },
+            {
+              "tipo": "p",
+              "texto": "A investigação do vice-ministro do Trabalho canadense, citada por Millis, atribuiu a maior parte do fluxo a agentes de companhias de navegação, à distribuição de folhetos em distritos rurais da Índia que exageravam as oportunidades de enriquecer na província e a alguns intermediários locais que trouxeram trabalhadores sob acordos de emprego. Muitos, relata o autor, sofreram com hostilidade, clima severo e empregos inadequados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o Canadá fechou a porta sem proibir?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O Canadá dependia da cooperação do governo britânico. Em conferências na Inglaterra, na primavera de 1908, o governo da Índia comprometeu-se a desfazer as falsas impressões difundidas pelos folhetos, e as companhias de navegação foram informadas de que sua atividade era vista com desagrado. Segundo Millis, os objetivos declarados eram evitar as privações, prevenir atritos e proteger o padrão de vida dos trabalhadores locais."
+            },
+            {
+              "tipo": "p",
+              "texto": "A medida mais forte foi aplicar a seção 38 da Lei de Imigração, que permitia excluir quem chegasse “de outro modo que não por viagem contínua desde o país de que são naturais” (otherwise than by continuous journey from the country of which they are natives), com passagem direta comprada nesse país. Como não havia viagem contínua possível da Índia ao Canadá, observa Millis, a regra era efetiva. Uma ordem do conselho de 3 de junho de 1908 elevou ainda o dinheiro exigido no desembarque."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 25 → US$ 200",
+              "texto": "Quantia que o trabalhador vindo da Índia precisava ter em mãos ao desembarcar no Canadá, antes e depois da ordem do conselho de 3 de junho de 1908. Combinada com a regra da viagem contínua, levou as chegadas a quase zero."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que aconteceu do lado americano?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Até a restrição canadense, quase todos os que entravam nos Estados Unidos vinham da Colúmbia Britânica, em busca de clima menos rigoroso, emprego mais adequado e salários mais altos. Depois, a maioria passou a chegar diretamente a São Francisco. Millis mostra que o fluxo oscilou com a interpretação da lei nos portos: em 1908 os fiscais começaram a barrar muitos, sob o risco de se tornarem um encargo público, e no ano fiscal de 1909–1910, com tratamento mais favorável em São Francisco, as entradas subiram a 1.782. A partir de julho de 1910, nova mudança de orientação voltou a reduzi-las."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4.901 e 1.597",
+              "texto": "Admitidos e rejeitados nos EUA nos quatro anos encerrados em 30 de junho de 1910, segundo Millis. Chegadas de “imigrantes” e “não imigrantes”: 271 em 1906, 1.072 em 1907 e 1.710 em 1908. As numerosas rejeições, diz o autor, causaram muitas privações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde trabalhavam e quanto ganhavam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pelos levantamentos da Comissão de Imigração, cerca de 85% dos trabalhadores vinham da classe agrícola em seu país. O emprego concentrava-se no trabalho de pátio das serrarias, em turmas de manutenção e construção ferroviária, na beterraba açucareira da Califórnia, na colheita de uva e frutas, na capina e no corte de lenha. Nas serrarias do Noroeste, relata Millis, recebiam mais que os japoneses e menos que os demais trabalhadores comuns; com o tempo, quase desapareceram delas e das ferrovias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em julho de 1910, a grande maioria dos cerca de 5.000 nos estados do Oeste estava na Califórnia, como mão de obra temporária nas fazendas, para cobrir falta de braços ou enfraquecer a posição dos japoneses no mercado de trabalho. Vinham sem família, com a meta de juntar uma pequena soma e voltar; a maioria remetia os ganhos assim que os recebia, às vezes sem reserva para os períodos de desemprego, que podiam durar semanas. O gasto total era menor que o de outros grupos masculinos, mas a diferença era pequena quando a comparação se limitava ao mesmo tipo de trabalho."
+            },
+            {
+              "tipo": "p",
+              "texto": "A tese de Millis é que esses trabalhadores ocupavam um lugar pequeno e inseguro na oferta de mão de obra do Oeste, com emprego irregular e baixa capacidade competitiva, e que encontrariam fortes barreiras à integração. Daí a recomendação da Comissão: que se chegasse a “um entendimento com o governo britânico” (an understanding should be reached with the British Government) para impedir a vinda desses trabalhadores. Seria pedir aos britânicos, conclui o autor, o que já haviam feito por um de seus domínios."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo vale menos pela tese e mais pelo que mostra sobre o desenho de políticas. Um fluxo de alguns milhares de pessoas por ano bastou para mobilizar dois governos, e o instrumento escolhido não foi a proibição nominal, mas regras de aparência neutra, como a passagem direta e a quantia mínima no desembarque, calibradas para produzir o mesmo efeito. Do lado americano, a série de Millis mostra que a discricionariedade na aplicação da lei nos portos movia as entradas tanto quanto a própria lei: o mesmo texto legal admitiu muitos em 1909–1910 e poucos depois de julho de 1910.",
+                "Há também uma lição de mercado de trabalho. O emprego descrito é residual e temporário, usado para cobrir picos de colheita ou para disputar salários com outro grupo de imigrantes, e as remessas imediatas deixavam o trabalhador sem colchão para o desemprego sazonal. É o retrato de um migrante que vem para acumular uma soma e voltar, e cuja oferta de trabalho responde a salários relativos entre fronteiras."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Viagem contínua",
+              "Exigência canadense de que o imigrante viesse direto do país de origem, com passagem comprada lá; inviável a partir da Índia em 1908."
+            ],
+            [
+              "Ordem do conselho",
+              "Ato do Executivo canadense (order in council), com força normativa sem votação parlamentar."
+            ],
+            [
+              "Encargo público",
+              "Critério da lei americana para barrar quem pudesse depender de assistência pública (public charge)."
+            ],
+            [
+              "Shingle mill",
+              "Fábrica de telhas de madeira, comum no Noroeste do Pacífico."
+            ],
+            [
+              "Remessa",
+              "Parte da renda do migrante enviada à família no país de origem."
+            ]
+          ],
+          "hoje": "Os dois instrumentos descritos por Millis continuam no repertório da política migratória: exigências de renda ou meios mínimos e regras de rota e documentação que filtram sem proibir. O debate econômico também é reconhecível: migração temporária e sazonal na agricultura, remessas como objetivo central do migrante e o efeito da discricionariedade administrativa, que pode mudar fluxos sem que a lei mude. A diferença é que hoje esses efeitos são medidos com séries longas e microdados, onde Millis dispunha de poucos anos de contagens portuárias."
         }
       ]
     },
