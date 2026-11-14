@@ -32,6 +32,15 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
         if h.startswith(pre): h = h[len(pre):].strip()
     ed["hoje"] = h
     verif[ed["slug"]] = ed.pop("verificacao", [])
+    slugs_art = {x.get("ensaio_slug") for x in ed.get("artigos", [])}
+    for c in ed.get("comentarios", []):
+        for k in ("slug", "titulo", "titulo_original", "autores", "paginas", "jstor", "chamada", "blocos", "hoje"):
+            assert k in c, f"{f}: comentário sem {k}"
+        for bl in c["blocos"]:
+            assert bl.get("tipo") in TIPOS, f"{f}: bloco inválido {bl}"
+        assert any(bl["tipo"] == "leitura" for bl in c["blocos"]), f"{f}: comentário {c['slug']} sem 'Na minha leitura'"
+        assert c["slug"] in slugs_art, f"{f}: comentário {c['slug']} sem ensaio_slug correspondente em artigos"
+        verif[ed["slug"] + "/" + c["slug"]] = c.pop("verificacao", [])
     por_slug[ed["slug"]] = ed
     print("importada", ed["numero"], ed["slug"])
 

@@ -127,7 +127,9 @@ e download.
 - **Página da edição = hub:** visão geral da edição + lista de todos os artigos (campo `artigos` em
   `edicoes.json`), cada um com link para o original.
 - **Artigo relevante ganha página comentada própria** em `/arquivo/<edicao>/<artigo>/` (campo
-  `ensaio_slug` no artigo). Resenhas, notas e "new books" ficam só no hub.
+  `ensaio_slug` no artigo). O texto do comentário fica na própria edição, na lista `comentarios`
+  (slug, titulo, titulo_original, autores, paginas, jstor, chamada, blocos, glossario, hoje); imagem em
+  `site/assets/arquivo/<edicao>--<artigo>.jpg`. Gerado por `pagina_comentario()` em `gera_site.py`. Resenhas, notas e "new books" ficam só no hub.
 - Edições de monografia única (1886–1887) continuam como página única.
 
 **Profundidade mínima (mínimos flexíveis, não rígidos):**

@@ -617,6 +617,62 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
+def pagina_comentario(ed, c, anterior=None, proxima=None):
+    """Modelo híbrido: artigo comentado dentro de uma edição (campo 'comentarios' da edição)."""
+    rel = "../../../"
+    nav = [f'<a href="../">&uarr; Nº {ed["numero"]} · {e(ed["titulo"])}</a>']
+    if anterior: nav.insert(0, f'<a href="../{anterior["slug"]}/">&larr; {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">{e(proxima["titulo"])} &rarr;</a>')
+    fig = figura_html(f'{ed["slug"]}--{c["slug"]}', rel, f"Página original: {c['titulo_original']}, {ed['publicacao']}, {ed['volume']} ({ed['data']}).")
+    j = c.get("jstor", "")
+    fonte = (f'        <li><b>{e(c["titulo_original"])}</b> — {e(c["autores"])} ({e(c["paginas"])}). '
+             f'<a href="https://www.jstor.org/stable/{j}" target="_blank" rel="noopener">JSTOR</a> · '
+             f'<a href="https://archive.org/details/jstor-{j}" target="_blank" rel="noopener">Internet Archive (PDF)</a></li>')
+    corpo = f"""
+<div class="env">
+{subnav_arquivo("../../", ed.get("colecao", "eua") + "/")}</div>
+<article class="artigo">
+  <div class="artigo-topo">
+    <span class="chapeu"><a href="../">Arquivo · Nº {ed['numero']} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</a></span>
+    <h1>{e(c['titulo'])}</h1>
+    <p class="tempo-leitura">Leitura: {minutos(c)} min</p>
+    <p class="olho">{e(c['chamada'])}</p>
+    <div class="barra-autor">
+      <div class="mini"><img src="{rel}assets/monograma-branco.png" alt=""></div>
+      <div class="quem">
+        <b>Comentado por Renato W. Gomes</b>
+        <span>Original: “{e(c['titulo_original'])}” — {e(c['autores'])}, {e(c['paginas'])}</span>
+      </div>
+    </div>
+  </div>
+{fig}
+  <div class="corpo">
+{render_blocos(c['blocos'])}
+{glossario_html(c.get('glossario'))}
+
+    <div class="caixa-num">
+      <div class="valor">E hoje?</div>
+      <div class="exp">{e(c.get('hoje', ''))}</div>
+    </div>
+
+    <div class="fontes">
+      <h3>Fontes</h3>
+      <ol>
+{fonte}
+        <li>Edição completa, com os demais artigos: <a href="../">Nº {ed['numero']} do Arquivo</a>.</li>
+      </ol>
+    </div>
+
+    <p class="nota-legal">Documento em domínio público (EUA, publicado antes de 1931), via JSTOR Early Journal Content e Internet Archive. Resumo e comentário do autor deste site, sem afiliação com a American Economic Association. Encontrou um erro? Escreva: a correção é publicada no próprio texto, com data.</p>
+
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+"""
+    escreve(f"arquivo/{ed['slug']}/{c['slug']}", cabeca(f"{c['titulo']} — Arquivo · Economista Renato Gomes", c["chamada"], f"arquivo/{ed['slug']}/{c['slug']}/", rel, "article")
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
+
+
 NOTAS_ARQ = os.path.join(RAIZ, "scripts", "arquivo", "notas.json")
 NOTAS = json.load(open(NOTAS_ARQ, encoding="utf-8"))["notas"] if os.path.exists(NOTAS_ARQ) else []
 
@@ -1411,7 +1467,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]]
+    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -1435,6 +1491,9 @@ if __name__ == "__main__":
     eds = DADOS["edicoes"]
     for i, ed in enumerate(eds):
         pagina_edicao(ed, eds[i - 1] if i > 0 else None, eds[i + 1] if i + 1 < len(eds) else None)
+        cs = ed.get("comentarios") or []
+        for k, c in enumerate(cs):
+            pagina_comentario(ed, c, cs[k - 1] if k > 0 else None, cs[k + 1] if k + 1 < len(cs) else None)
     gera_leituras()
     gera_campo_grande()
     sitemap()
