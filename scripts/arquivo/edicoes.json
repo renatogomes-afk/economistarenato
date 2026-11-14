@@ -83421,6 +83421,1048 @@
           "hoje": "A ideia de que o desemprego tem um custo social que o empregador não paga deu origem a instrumentos como o seguro-desemprego com contribuição ligada à rotatividade e entrou no estudo dos custos fixos e do ciclo econômico, campo que o próprio Clark desenvolveu. A discussão sobre se a defesa do mercado depende de agentes racionais ou dos limites do conhecimento seguiu viva no debate sobre o cálculo econômico e a informação dispersa. E a pergunta sobre os efeitos não pretendidos da técnica sobre o trabalho continua presente."
         }
       ]
+    },
+    {
+      "slug": "1921-a-politica-do-federal-reserve",
+      "numero": 170,
+      "titulo": "Miller, o Federal Reserve e a comercialização agrícola",
+      "titulo_original": "The American Economic Review, vol. XI, no. 2, June 1921",
+      "autores": "A. C. Miller, James E. Boyle, Fred E. Clark, Asher Hobson, H. Bruce Price, B. H. Hibbard, Theodore M. Avé-Lallemant, Herbert Feis e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 11, nº 2",
+      "data": "junho de 1921",
+      "chamada": "Miller defende que o Federal Reserve previna a expansão do crédito; cinco textos discutem a comercialização agrícola; Avé-Lallemant, o contrato coletivo; Feis, a indústria britânica.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No outono de 1920, em plena campanha presidencial, o Federal Reserve foi atacado com dureza nas regiões que mais sentiram a queda dos preços. A. C. Miller, membro do Federal Reserve Board, abre a American Economic Review de junho de 1921 lembrando que o sistema não cedeu a pressões regionais nem políticas, e usa o episódio como ponto de partida para propor uma mudança de método: o banco central deveria agir sobre o crédito enquanto a expansão ainda está em formação, e não depois que ela aparece nas reservas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número 2 do volume XI reúne ainda cinco textos lidos na 33ª reunião anual da American Economic Association, em Atlantic City, em 29 de dezembro de 1920, todos sobre a comercialização de produtos agrícolas. James E. Boyle, da Cornell University, decompõe o problema em cinco etapas; Fred E. Clark, da Northwestern University, propõe critérios para medir a eficiência da comercialização; Asher Hobson, da Columbia University, examina a situação das cooperativas de agricultores diante das leis antitruste; H. Bruce Price, de Yale, trata da padronização dos grãos; e B. H. Hibbard, da University of Wisconsin, discute a estabilização dos preços. Theodore M. Avé-Lallemant, de Nova York, separa a negociação coletiva do contrato coletivo de trabalho, e Herbert Feis, de Harvard, faz o balanço da indústria britânica do armistício ao início de 1921. Fecham a edição resenhas, listas de livros novos, documentos, resumos de periódicos, a décima oitava lista de teses de doutorado em andamento e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O banco central deve esperar a expansão do crédito ou preveni-la?",
+          "artigo": "1808655",
+          "credito": "A. C. Miller (Federal Reserve Board) · “Federal Reserve Policy” · pp. 177–206"
+        },
+        {
+          "tipo": "p",
+          "texto": "Miller parte de um balanço. Em pouco mais de seis anos de funcionamento, diz, o sistema enfrentou uma variedade de problemas maior do que qualquer outro sistema de bancos de reserva: ajudou o Tesouro nos empréstimos de curto prazo, deu base de crédito às exportações para a Europa e evitou que a queda de preços dos oito meses anteriores se transformasse em colapso, sem pôr em risco o padrão-ouro. O autor organiza a análise em três políticas, a do ouro, a da moeda e a do crédito, e sustenta que as duas primeiras são, no fundo, elementos da terceira: regular o fluxo e o volume do crédito é a função primária dos bancos de reserva."
+        },
+        {
+          "tipo": "p",
+          "texto": "O núcleo histórico do artigo é 1919. Da entrada na guerra até o fim daquele ano, as taxas de redesconto ficaram em níveis artificialmente baixos para ajudar o Tesouro a colocar seus títulos, com taxas preferenciais para o papel garantido por títulos públicos. Enquanto vigoraram os controles de guerra sobre produção, comércio e consumo, o efeito foi contido; com a retirada deles após o armistício, o crédito criado na guerra se difundiu, os preços subiram e a especulação em terras, mercadorias e ações ganhou força. As advertências diretas aos bancos não deram resultado. Para Miller, se o sistema tivesse regulado o crédito em 1919 com a eficácia que teve em 1920, teria evitado boa parte das dificuldades do ano seguinte."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "43,7%",
+          "texto": "Coeficiente de reservas do sistema em 2 de janeiro de 1920, ante 50,8% em 3 de julho de 1919, segundo Miller. A queda vinha da expansão de depósitos e notas, não da perda de ouro: o ouro do sistema somava US$ 2,091 bilhões em 3 de janeiro de 1919 e US$ 2,059 bilhões em 31 de dezembro de 1920."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em janeiro de 1920, a taxa do papel comercial foi elevada para 6% em todos os bancos de reserva; no início do verão, para 7% nos maiores. Miller rejeita a leitura de que essas altas foram impostas pela posição das reservas: o objetivo, diz, era conter a expansão do crédito. Recusa também a proposta de guiar o redesconto por índices de preços. Reconhece seu mérito abstrato, mas observa que a lei não a autoriza e que o público americano, sensível ao medo da contração, não toleraria uma política declaradamente baseada em preços."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A prevenção, mais do que o controle, deveria ser o objetivo de uma política de crédito competente.”",
+          "original": "“Prevention, rather than control, should be the objective of a competent credit policy”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta final é tornar o coeficiente de reservas um indicador mais sensível. Os balanços semanais passariam a separar a reserva contra depósitos, fixada em cerca de 45% dos depósitos, da reserva em ouro contra as notas, que absorveria as entradas e saídas de ouro. Qualquer expansão dos empréstimos apareceria logo na queda do coeficiente de depósitos, e o ouro vindo da Europa ficaria guardado como uma super-reserva."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "miller-a-politica-do-federal-reserve",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem é o culpado pelas perdas na comercialização agrícola?",
+          "artigo": "1808656",
+          "credito": "James E. Boyle (Cornell University) · “Marketing of Agricultural Products” · pp. 207–213"
+        },
+        {
+          "tipo": "p",
+          "texto": "Boyle abre com a frase de um agricultor da Dakota do Norte: “Malditos intermediários! Quem me dera ser um!” (“Damn these middlemen! I wish I was one!”). Em seguida dá voz à resposta do intermediário, para quem ineficiente é a lavoura. Um agricultor comum colhe 54 alqueires de milho por acre, mas a média americana é de 27; um bom produtor de trigo colhe 28, e a média é 14. As ervas daninhas, acrescenta, custam mais de um bilhão de dólares por ano em produção perdida. A conclusão do autor é que repreender não adianta: um sistema de comercialização perfeito depende de um sistema de produção perfeito."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mercado ideal, diz Boyle, seria aquele em que um cinquenta e dois avos da safra anual fosse produzido, vendido e consumido a cada semana, com quantidade, qualidade, demanda e preço constantes e pagamento à vista. Não haveria problema de crédito, de armazenagem, de classificação nem de preço. A realidade é outra. O mundo consome em média três bilhões e meio de alqueires de trigo por ano, e a oferta varia meio bilhão para cima ou para baixo de um ano para o outro. O intermediário existe para corrigir quatro desajustes entre produção e consumo, de tempo, lugar, quantidade e qualidade, e assume dois riscos: a oscilação dos preços e a perecibilidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A comercialização, define o autor, vai da produção de um bem vendável até sua chegada à casa do consumidor, e tem cinco etapas: produção, armazenagem, transporte, crédito e venda. Na produção, o agricultor deveria pôr no mercado as melhores classes e guardar as piores, além de vender produtos classificados e padronizados, como fazem as grandes cooperativas com marcas próprias. Na armazenagem, deveria possuir parte dos armazéns, como os Canadian Grain Growers, cerca de 20 mil, que têm armazéns terminais. No transporte, o grande vazamento são as estradas rurais: levar algodão ou trigo da fazenda à estação custa mais que o frete do litoral atlântico a Liverpool."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 30.000",
+          "texto": "Gasto anual com telegramas dos produtores de batata da Eastern Shore of Virginia Produce Exchange, segundo Boyle. Com 3.000 membros e produto classificado, a cooperativa usa a informação de mercado para negociar melhor. Boyle cita o caso como argumento para as cooperativas de venda."
+        },
+        {
+          "tipo": "p",
+          "texto": "No crédito, Boyle recomenda o aceite comercial previsto no sistema do Federal Reserve e o recibo de armazém, que tornam o financiamento da safra mais fácil e mais barato quando o produto está classificado e guardado. Na venda, defende a negociação coletiva, mas adverte que o custo de produção não é a base correta do preço: qualquer preço fixado precisa refletir a oferta e a demanda, ou gerará excedente ou escassez."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como saber se a comercialização é eficiente?",
+          "artigo": "1808657",
+          "credito": "Fred E. Clark (Northwestern University) · “Criteria of Marketing Efficiency” · pp. 214–220"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark distingue dois pontos de vista no estudo da comercialização. O privado, adotado pelos bureaus de pesquisa empresarial de Harvard e da Northwestern e pela maior parte do trabalho do Bureau of Markets, busca aumentar o lucro de empresas ou de classes de empresários. O social, que é o dele, olha para a comercialização como um mecanismo que leva bens do produtor ao consumidor e pergunta se ele pode funcionar de forma mais eficaz e mais econômica. Em última análise, diz, isso equivale a ver o mercado pelos olhos do consumidor, porque o fim social da comercialização é satisfazer as necessidades dele."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí três critérios: a eficácia do serviço prestado; o custo desse serviço, incluindo os lucros de quem participa dele, seja produtor, consumidor ou intermediário; e o efeito do sistema sobre a produção e o consumo. Um sistema eficaz mas caro é ineficiente, e também o é um sistema barato mas ineficaz. Mesmo um mecanismo eficaz e econômico não é eficiente se prejudica a produção ou o consumo. Os dois primeiros critérios, nota o autor, costumam ser estudados juntos; o terceiro envolve questões mais difíceis, que só a guerra e os controles de preços tornaram urgentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os problemas técnicos se dividem em dois grupos. Um é mecânico: estradas ruins, ferrovias limitadas, terminais congestionados e mercados atacadistas mal planejados. O outro é comercial e diz respeito à transferência da propriedade: o serviço de informação de mercado, a adequação do sistema de preços, a proteção legal das partes, os custos de padronização, de negociação e de criação de demanda, os riscos e o financiamento. A maior parte das críticas, observa Clark, atinge o regime competitivo, que os economistas consideram o melhor conhecido, mas que seleciona devagar quando as condições mudam depressa."
+        },
+        {
+          "tipo": "p",
+          "texto": "Como remédio, o autor aponta duas formas de ação já em uso: a assistência do governo, como as estimativas de safra, e a cooperação privada, por combinação de empresas ou cooperativas de produtores e consumidores. Ambas podem melhorar a informação, ajustar a produção ao mercado, aperfeiçoar mercados centrais e transportes, ampliar a classificação dos produtos, eliminar intermediários desnecessários e conter lucros excessivos. Clark adverte, porém, que uma margem de 50% ou mais entre produtor e consumidor não prova ineficiência: o serviço pode ser caro e bem feito, e o consumidor que exige muito serviço precisa pagar por ele. Os ganhos da produção especializada em grande escala, conclui, são em parte compensados por custos de distribuição maiores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "As cooperativas de agricultores violam as leis antitruste?",
+          "artigo": "1808658",
+          "credito": "Asher Hobson (Columbia University) · “Farmers' Co-Operative Associations: Their Legal and Legislative Aspects” · pp. 221–226"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hobson limita o tema à legislação que define a situação das cooperativas de agricultores diante das leis antitruste federais. O ponto de partida é a Seção 6 da emenda Clayton, de 1914, segundo a qual o trabalho humano não é mercadoria e as organizações agrícolas sem capital em ações e sem fins lucrativos, criadas para ajuda mútua, não podem ser tratadas como combinações ilegais. A intenção do Congresso, diz o autor, era clara; o efeito, não. Muitos advogados admitiam não saber como interpretar o texto sem uma decisão judicial, e a Federal Trade Commission, ao tratar da California Associated Raisin Company, indicara que os atos das cooperativas continuavam sujeitos à lei."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Hobson, a emenda tornou a situação das cooperativas mais incerta e tinha ainda um defeito econômico: exigia a forma sem capital em ações, que muitos estados nem previam e que obrigaria a reorganizar a maioria das cooperativas existentes, organizadas com ações. Desde o ano fiscal de 1914, o Congresso inseria na verba do Departamento de Justiça uma cláusula que proibia processar agricultores que se organizassem para obter um preço justo e razoável, expressão que ficava indefinida. Os projetos Capper-Hersman, de isenção total, morreram nas comissões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor dá mais esperança aos projetos Capper-Volstead. Pelas suas regras, as associações seriam formadas só por agricultores, para ajuda mútua e não para lucro; a Federal Trade Commission investigaria as que elevassem indevidamente os preços e poderia ordenar que cessassem a prática; se a ordem não fosse cumprida em 30 dias, o caso iria ao procurador-geral. A legalidade seria medida pelo efeito sobre o bem-estar público, e não pelo critério de competição contra monopólio, que Hobson julga inadequado."
+        },
+        {
+          "tipo": "p",
+          "texto": "À acusação de legislação de classe, o autor responde com a natureza da agricultura. A fazenda é ao mesmo tempo empresa e casa, e só uma pequena fração de 1% da produção agrícola americana vinha de fazendas sob administração corporativa; pelo menos um quarto dos agricultores, estima, não recebia remuneração em dinheiro pelo trabalho depois de descontadas as despesas e juros de 5% sobre a terra e o equipamento. A cooperativa, por sua natureza uma organização de limitações, tem negócios públicos e fica mais exposta a processos do que a grande empresa. O projeto passou na Câmara em 31 de maio e no Senado em 15 de dezembro de 1920, mas o Senado acrescentou uma emenda que, para Hobson, anularia seu propósito."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve definir o que é um grão de primeira?",
+          "artigo": "1808659",
+          "credito": "H. Bruce Price (Yale University) · “Grain Standardization” · pp. 227–230"
+        },
+        {
+          "tipo": "p",
+          "texto": "Price começa pela história. Com o crescimento da produção de grãos em meados do século XIX, a venda por amostra deixou de bastar: armazéns usados por vários donos, grandes volumes negociados entre pessoas que não se conheciam e contratos com prazo exigiam uma nova linguagem comercial, capaz de servir de base comum para comparar valores. A classificação e a inspeção couberam primeiro às bolsas de grãos. Em Minneapolis, o primeiro inspetor foi contratado pela federação dos moleiros, antes que a câmara de comércio assumisse o serviço; em Boston e na Filadélfia, o inspetor-chefe chegou a cobrar as taxas e cuidar das finanças do serviço, arranjo abandonado porque a tentação de manipular os padrões em proveito próprio era grande demais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A inspeção pelas bolsas, onde se encontram compradores e vendedores, tende a ser mais imparcial do que seria sob controle de produtores ou de consumidores, diz o autor, e dá estabilidade aos inspetores. Mas as mudanças ocasionais de padrões em períodos de manipulação, ou seu rebaixamento quando a safra é ruim, minaram a confiança. Isso cria um risco de mercado que se paga com uma margem maior entre produtor e consumidor e alimentou o movimento pela inspeção estadual e pelo controle federal. Os serviços estaduais e a supervisão federal, reconhece Price, lideraram a adoção de novos métodos e equipamentos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "200",
+          "texto": "Número aproximado de classes ou variações de classificação da aveia nos mercados americanos, segundo depoimento de 1914 a uma comissão do Congresso citado por Price. Para o milho eram cerca de 60, e para o centeio, cerca de 30. A associação nacional dos comerciantes de grãos adotou classes uniformes em 1909, sem conseguir impô-las."
+        },
+        {
+          "tipo": "p",
+          "texto": "A uniformidade tem três dimensões: entre o grão que entra e o que sai de um mercado, entre mercados diferentes e ao longo do tempo. Sem ela, a terminologia confunde, os preços oscilam mais e os riscos encarecem a comercialização. Price lembra o trigo de primavera da safra de 1915, desviado de Minneapolis para Chicago, onde obtinha classes e preços melhores: a concorrência entre mercados passou a se dar também nas classes, o que rebaixou os padrões. Classes mais técnicas, com limites definidos de material estranho, desestimulam a mistura e a adulteração."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor examina por fim duas críticas que julga exageradas. A suspeita de que os mercados inspecionam a entrada e a saída com padrões diferentes não se confirmou na análise de reinspeções e recursos. E a crença de que o preço do grão ignora o valor das impurezas foi desmentida por estudos feitos em Minneapolis em 1916 com C. H. Bailey: as impurezas que prejudicam a farinha deprimem o preço, e as separáveis e valiosas podem render prêmio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "É possível tirar as oscilações dos preços agrícolas?",
+          "artigo": "1808660",
+          "credito": "B. H. Hibbard (University of Wisconsin) · “Stabilization of Prices” · pp. 231–236"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hibbard distingue dois modos de formar preços: a venda à vista e a especulativa. Na primeira, o melhor exemplo organizado é a California Fruit Growers' Exchange, que não especula, mas abastece o mercado geograficamente com base em informação minuciosa e elimina custos de intermediação. Na segunda, há dois tipos. Num, o intermediário compra por sua conta produtos que o consumidor ainda não quer, como algodão, grãos e gado. No outro, de que são exemplo os produtores de passas e de nozes, os próprios produtores guardam a safra e a vendem conforme a demanda, a um preço calculado com base em informação completa sobre a oferta."
+        },
+        {
+          "tipo": "p",
+          "texto": "A acusação de monopólio contra esses grupos, diz o autor, importa menos do que a pergunta sobre sua utilidade social; e eles não parecem predatórios, porque aceitam novos membros todo ano e não limitam a oferta. Hibbard nota uma assimetria: quando os preços sobem, como em 1918 e 1919, ninguém culpa os especuladores; quando caem, como o trigo no fim de 1920, a acusação vem de todo o país. Se os especuladores realmente derrubassem o preço na colheita para subi-lo na primavera, o remédio seria guardar o trigo, e outros especuladores apostariam na alta. As estatísticas, porém, mostram que o trigo em maio costuma valer só quatro ou cinco centavos acima do preço de dezembro."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mercado futuro foi condenado por todas as organizações de agricultores de peso, da Grange de 1870 à federação dos Farm Bureaus de 1920, mas poucos estudiosos chegaram à mesma conclusão; a maior parte das evidências, segundo Hibbard, mostra que a especulação organizada estabiliza o mercado. Os remédios propostos são três: a propriedade de toda a cadeia de comercialização, por cooperação voluntária ou com ajuda do Estado; a ação cooperativa de grandes grupos, como os United Farmers of Canada; e o controle da produção pelos próprios produtores, com venda em conjunto ao longo da safra, como fazem os de nozes e de passas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o trigo, as dificuldades são grandes: há um milhão e meio de produtores nos Estados Unidos, o trigo cresce em muitas fazendas que hoje não o plantam, vão só quatro meses da semeadura à colheita, e os canadenses venderiam ao preço mundial. Uma grande empresa de agricultores, com especialistas e acesso às bolsas existentes, poderia estabilizar preços sem abandonar o mercado. Hibbard recomenda prudência, usar a máquina existente em vez de descartá-la antes que a sucessora exista sequer em projeto, mas conclui que a oferta e a demanda precisam operar “segundo regras, e não como foras da lei” (“according to rule instead of as outlaws”)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Negociar em grupo é o mesmo que contratar em grupo?",
+          "artigo": "1808661",
+          "credito": "Theodore M. Avé-Lallemant (Nova York) · “The Collective Labor Contract” · pp. 237–251"
+        },
+        {
+          "tipo": "p",
+          "texto": "Avé-Lallemant começa pela terminologia. O que chama de contrato coletivo de trabalho corresponderia, em francês, ao contrat collectif d'ouvrage e, em alemão, ao Gruppen-Werkvertrag: um contrato coletivo por obra, e não por tempo. O pano de fundo é o debate do fim de 1920. Herbert Hoover, num discurso de 19 de novembro, defendera uma concepção ampla de negociação coletiva e o programa da Segunda Conferência Industrial convocada pelo presidente. O autor nota, porém, que o grupo dos empregadores na Primeira Conferência Industrial negara existir um direito de negociar coletivamente: o direito de se organizar seria legal, e o de negociar em grupo, apenas contratual, dependente da vontade do empregador."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os empregadores argumentavam que cerca de 98% dos estabelecimentos manufatureiros tinham menos de 250 empregados e 95% menos de 100, de modo que o contato pessoal bastaria; para os maiores, recomendavam comitês de fábrica. Avé-Lallemant vê nisso dois obstáculos: o sentimentalismo de quem descreve como pessoal uma relação que, no mesmo fôlego, declara contratual, e a recusa em ver os fatos da evolução industrial. Para corrigi-los, propõe voltar a Adam Smith e ao primeiro capítulo da Riqueza das Nações, mas com a crítica de Wakefield: toda melhoria na produtividade do trabalho, inclusive a divisão das ocupações, depende da cooperação, que pode ser simples, quando várias pessoas ajudam umas às outras na mesma tarefa, ou complexa, quando trabalham em ocupações diferentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "A administração científica, diz o autor, depende dessa coordenação, que é cooperação e exige trabalho mental de cada operário. A forma de remuneração deveria seguir a organização do trabalho, mas não segue. Ele lembra o empreiteiro inglês Thomas Brassey, que entregava trechos de obra a turmas de dez a quinze homens, com divisão igual do resultado e um adicional para o chefe; os braccianti italianos organizados sob a lei de 1889; e as turmas de rebitadores dos estaleiros americanos, que dividem o ganho meio a meio, embora a empresa os pague de forma diferente."
+        },
+        {
+          "tipo": "p",
+          "texto": "A distinção central é jurídica. A negociação coletiva apenas fixa os termos de tantos contratos individuais quantos são os trabalhadores; o contrato coletivo de trabalho é um único contrato para todos os que cooperam. No salário por tempo, o pagamento é determinado e a tarefa, indeterminada, e por isso o assalariado fica sujeito às ordens do patrão; o contrato comum seria, na expressão do autor, um pseudocontrato. A cooperação é um valor intangível, que não cabe em contrato e só é dada por lealdade a um grupo. Por isso, conclui, o grupo contratante pode entregar mais do que a soma do que seus membros entregariam em contratos individuais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A indústria britânica se recuperou da guerra?",
+          "artigo": "1808662",
+          "credito": "Herbert Feis (Harvard University) · “The Industrial Situation in Great Britain: From the Armistice to the Beginning of 1921” · pp. 252–267"
+        },
+        {
+          "tipo": "p",
+          "texto": "Feis enumera primeiro as dificuldades. A Grã-Bretanha teve de reabsorver um grande exército, enfrentar a exigência dos trabalhadores organizados por um novo status e mais poder de controle e atravessar pelo menos três greves graves, nas ferrovias, nas minas de carvão e na siderurgia. Suas grandes indústrias exportadoras vendiam para um mundo em boa parte desorganizado: a Rússia deixara de fornecer matérias-primas, a Alemanha não podia comprar, e a oscilação dos preços e do câmbio tornava o comércio arriscado. O melhor caminho para entender a situação, diz, é comparar a produção com a de antes da guerra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O carvão, pedra angular da indústria britânica, é o caso mais grave. A produção média de 1909 a 1913 fora de 287 milhões de toneladas; em 1919, de 230 milhões. As exportações caíram de 73 milhões para 25 milhões de toneladas em 1920. O autor atribui a queda ao esgotamento dos veios mais fáceis, à depreciação do equipamento, à redução da jornada e, nos últimos anos, à disposição dos mineiros, que em grande maioria queriam alguma forma de nacionalização. Na siderurgia e na construção naval houve recuperação: a produção de aço de 1920 superou a de 1913, e a tonelagem lançada ao mar também."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "185 t",
+          "texto": "Produção média anual por mineiro de carvão em 1920, segundo Feis. Era de 286 toneladas em 1894-1898 e de 257 em 1909-1913. A greve do carvão de 1920 custou cerca de 14 milhões de toneladas, pelo cálculo do autor."
+        },
+        {
+          "tipo": "p",
+          "texto": "No comércio exterior, o déficit de mercadorias caiu de 784 milhões de libras em 1918 para 378 milhões em 1920. Somadas as receitas de fretes, investimentos e serviços financeiros, o balanço geral de 1920 fechou com saldo positivo de 165 milhões, o primeiro desde 1913. Medidas a preços de 1913, porém, as exportações de produtos britânicos eram cerca de 36% menores que antes da guerra. Nas finanças públicas, a receita igualou a despesa pela primeira vez desde 1913, e a dívida nacional, que chegara a 8.079 milhões de libras em dezembro de 1919, recuara para 7.817 milhões em janeiro de 1921."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto crítico é o trabalho. O desemprego nos ofícios organizados, de 2,1% em 1913, chegou a 8,5% em fevereiro de 1921, o maior desde o inverno de 1908-1909, e os empregadores iniciavam a primeira campanha organizada de redução geral de salários. Feis prevê conflito sério se os empregadores não tratarem os sindicatos com franqueza e não aceitarem lucros menores, e considera a queda do custo de vida o único fator realmente encorajador. Num pós-escrito, registra a greve dos mineiros por uma escala nacional de salários e um fundo nacional de lucros."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "feis-a-industria-britanica-depois-do-armisticio",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem The Place of Science in Modern Civilization, de Thorstein Veblen, por Walton H. Hamilton; três livros de sociologia, de Grove Samuel Dow, James Quayle Dealey e F. Mueller-Lyer, por Henry Pratt Fairchild; Elementary Economics, de Thomas Nixon Carver, por Charles E. Persons; The World's Food Resources, de J. Russell Smith, por A. B. Wolfe; o relatório do censo sobre centrais elétricas preparado por Edmund E. Lincoln, por Arthur S. Dewing; os livros de Paul T. Cherington e C. S. Duncan sobre comercialização, por Homer B. Vanderblue; How to Manage Men, de E. H. Fish, por Walter J. Matherly; o estudo de John Henry Williams sobre o comércio argentino sob papel-moeda inconversível, por Harry Gunnison Brown; Bank Credit, de Chester Arthur Phillips, por William A. Scott; Tax Procedure, de Robert M. Montgomery, por Carl C. Plehn; Introduction to Public Finance, de Plehn, por Rufus S. Tucker; o livro de Robert F. Foerster sobre a emigração italiana, por Fairchild; e Public Health and Insurance, de Sir Arthur Newsholme, por C. E. Turner. Floyd L. Vaughan resume o relatório da Federal Trade Commission sobre o comércio de grãos. A décima oitava lista de teses inclui a do próprio Herbert Feis, sobre princípios salariais para uma política de paz industrial, prevista para 1921 em Harvard. As notas anunciam que a próxima reunião anual será em Pittsburgh, provavelmente de 27 a 29 de dezembro."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de junho de 1921 é um estudo sobre sinais e regras. Miller quer que o coeficiente de reservas avise a tempo que o crédito está se expandindo, e propõe mudar a contabilidade do banco central para que o indicador meça uma só coisa; Price mostra que uma classe de grão só serve de linguagem comum se não mudar ao sabor do mercado; Hibbard pergunta se o preço oscila por culpa de quem o observa ou de quem despeja oferta sem coordenação. Em todos, a informação vem antes da intervenção.",
+            "Clark, Hobson e Avé-Lallemant tratam do mesmo problema pelo lado das instituições: quando a coordenação entre agentes falha, o que deve substituí-la? A cooperativa supervisionada, o contrato de grupo e a informação pública de mercado são respostas diferentes à mesma dificuldade de organizar a cooperação sem abolir a concorrência. Feis fornece o contraponto empírico: na Grã-Bretanha de 1920, deflação, câmbio e salários dependiam de um acordo que nenhum indicador sozinho poderia produzir."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Redesconto",
+          "empréstimo do banco central a um banco, garantido por títulos que este já descontou."
+        ],
+        [
+          "Coeficiente de reservas",
+          "razão entre as reservas de um banco central e seus passivos em depósitos e notas."
+        ],
+        [
+          "Elemento fiduciário",
+          "parte das notas emitidas que não tem cobertura em ouro."
+        ],
+        [
+          "Papel de empréstimo de guerra",
+          "título de crédito garantido por títulos da dívida pública emitidos na guerra."
+        ],
+        [
+          "Aceite comercial",
+          "letra de câmbio aceita pelo comprador, que pode ser descontada num banco."
+        ],
+        [
+          "Recibo de armazém",
+          "documento que comprova a guarda de uma mercadoria e serve de garantia para empréstimos."
+        ],
+        [
+          "Pool",
+          "venda conjunta em que o resultado é dividido entre os produtores conforme a quantidade e a classe entregues."
+        ],
+        [
+          "Mercado futuro",
+          "negociação de contratos para entrega da mercadoria numa data posterior."
+        ],
+        [
+          "Contrato coletivo de trabalho",
+          "contrato único entre o empregador e um grupo de trabalhadores para uma obra, em vez de contratos individuais."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida pública de curto prazo, renovada com frequência."
+        ]
+      ],
+      "hoje": "Os temas de junho de 1921 seguem no debate. Bancos centrais continuam a discutir se devem agir antes que a expansão do crédito apareça nos indicadores e se a estabilidade dos preços deve ser sua regra explícita. A isenção antitruste das cooperativas agrícolas, criada nos Estados Unidos pouco depois, ainda gera disputas sobre o que é elevar preços indevidamente. Padrões de classificação de grãos, mercados futuros e vendas conjuntas seguem como instrumentos centrais do comércio agrícola, e a diferença entre negociação coletiva e contratação por grupo reaparece nas discussões sobre trabalho por tarefa.",
+      "itens": [
+        [
+          "Federal Reserve Policy",
+          "pp. 177–206",
+          "1808655"
+        ],
+        [
+          "Marketing of Agricultural Products",
+          "pp. 207–213",
+          "1808656"
+        ],
+        [
+          "Criteria of Marketing Efficiency",
+          "pp. 214–220",
+          "1808657"
+        ],
+        [
+          "Farmers' Co-Operative Associations: Their Legal and Legislative Aspects",
+          "pp. 221–226",
+          "1808658"
+        ],
+        [
+          "Grain Standardization",
+          "pp. 227–230",
+          "1808659"
+        ],
+        [
+          "Stabilization of Prices",
+          "pp. 231–236",
+          "1808660"
+        ],
+        [
+          "The Collective Labor Contract",
+          "pp. 237–251",
+          "1808661"
+        ],
+        [
+          "The Industrial Situation in Great Britain: From the Armistice to the Beginning of 1921",
+          "pp. 252–267",
+          "1808662"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 268-271",
+          "pp. 268–271",
+          "1808663"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 271-274",
+          "pp. 271–274",
+          "1808664"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 274-277",
+          "pp. 274–277",
+          "1808665"
+        ],
+        [
+          "New Books",
+          "pp. 277–278",
+          "1808666"
+        ],
+        [
+          "New Books",
+          "pp. 279–282",
+          "1808667"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 282-286",
+          "pp. 282–286",
+          "1808668"
+        ],
+        [
+          "New Books",
+          "pp. 286–288",
+          "1808669"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 288-291",
+          "pp. 288–291",
+          "1808670"
+        ],
+        [
+          "New Books",
+          "pp. 291",
+          "1808671"
+        ],
+        [
+          "New Books",
+          "pp. 291–293",
+          "1808672"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 293-296",
+          "pp. 293–296",
+          "1808673"
+        ],
+        [
+          "New Books",
+          "pp. 297–298",
+          "1808674"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 298-300",
+          "pp. 298–300",
+          "1808675"
+        ],
+        [
+          "New Books",
+          "pp. 300–304",
+          "1808676"
+        ],
+        [
+          "New Books",
+          "pp. 304",
+          "1808677"
+        ],
+        [
+          "New Books",
+          "pp. 304–308",
+          "1808678"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 308-313",
+          "pp. 308–313",
+          "1808679"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 313-315",
+          "pp. 313–315",
+          "1808680"
+        ],
+        [
+          "New Books",
+          "pp. 315–320",
+          "1808681"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 320-325",
+          "pp. 320–325",
+          "1808682"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 325-327",
+          "pp. 325–327",
+          "1808683"
+        ],
+        [
+          "New Books",
+          "pp. 327–329",
+          "1808684"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 329-330",
+          "pp. 329–330",
+          "1808685"
+        ],
+        [
+          "New Books",
+          "pp. 330–331",
+          "1808686"
+        ],
+        [
+          "New Books",
+          "pp. 331–333",
+          "1808687"
+        ],
+        [
+          "[untitled] The American Economic Review, (1921-06-01), pages 333-335",
+          "pp. 333–335",
+          "1808688"
+        ],
+        [
+          "New Books",
+          "pp. 335–336",
+          "1808689"
+        ],
+        [
+          "New Books",
+          "pp. 336–337",
+          "1808690"
+        ],
+        [
+          "New Books",
+          "pp. 338–339",
+          "1808691"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 340–350",
+          "1808692"
+        ],
+        [
+          "Periodicals",
+          "pp. 351–387",
+          "1808693"
+        ],
+        [
+          "Eighteenth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "pp. 388–398",
+          "1808694"
+        ],
+        [
+          "Notes",
+          "pp. 399–408",
+          "1808695"
+        ]
+      ],
+      "jstor_edicao": "i331379",
+      "artigos": [
+        {
+          "titulo": "Federal Reserve Policy",
+          "autores": "A. C. Miller (Federal Reserve Board)",
+          "paginas": "pp. 177–206",
+          "jstor": "1808655",
+          "resumo": "Revisão das políticas de ouro, moeda e crédito do Federal Reserve desde 1914 e proposta de separar as reservas contra depósitos e contra notas.",
+          "ensaio_slug": "miller-a-politica-do-federal-reserve"
+        },
+        {
+          "titulo": "Marketing of Agricultural Products",
+          "autores": "James E. Boyle (Cornell University)",
+          "paginas": "pp. 207–213",
+          "jstor": "1808656",
+          "resumo": "A comercialização agrícola em cinco etapas, da produção de classes melhores à venda cooperativa."
+        },
+        {
+          "titulo": "Criteria of Marketing Efficiency",
+          "autores": "Fred E. Clark (Northwestern University)",
+          "paginas": "pp. 214–220",
+          "jstor": "1808657",
+          "resumo": "Três critérios para medir a eficiência da comercialização do ponto de vista do consumidor: serviço, custo e efeito sobre produção e consumo."
+        },
+        {
+          "titulo": "Farmers' Co-Operative Associations: Their Legal and Legislative Aspects",
+          "autores": "Asher Hobson (Columbia University)",
+          "paginas": "pp. 221–226",
+          "jstor": "1808658",
+          "resumo": "A situação das cooperativas de agricultores diante das leis antitruste, da emenda Clayton aos projetos Capper-Volstead."
+        },
+        {
+          "titulo": "Grain Standardization",
+          "autores": "H. Bruce Price (Yale University)",
+          "paginas": "pp. 227–230",
+          "jstor": "1808659",
+          "resumo": "História e economia da inspeção e classificação de grãos nos Estados Unidos."
+        },
+        {
+          "titulo": "Stabilization of Prices",
+          "autores": "B. H. Hibbard (University of Wisconsin)",
+          "paginas": "pp. 231–236",
+          "jstor": "1808660",
+          "resumo": "Formas de formação de preços agrícolas e os limites da venda cooperativa para estabilizá-los."
+        },
+        {
+          "titulo": "The Collective Labor Contract",
+          "autores": "Theodore M. Avé-Lallemant (Nova York)",
+          "paginas": "pp. 237–251",
+          "jstor": "1808661",
+          "resumo": "Distinção entre negociação coletiva e contrato coletivo de trabalho, com base na cooperação como fato da organização do trabalho."
+        },
+        {
+          "titulo": "The Industrial Situation in Great Britain: From the Armistice to the Beginning of 1921",
+          "autores": "Herbert Feis (Harvard University)",
+          "paginas": "pp. 252–267",
+          "jstor": "1808662",
+          "resumo": "Balanço da produção, do comércio, das finanças e da questão trabalhista na Grã-Bretanha de 1919 a 1921.",
+          "ensaio_slug": "feis-a-industria-britanica-depois-do-armisticio"
+        },
+        {
+          "titulo": "The Place of Science in Modern Civilization and Other Essays (Thorstein Veblen)",
+          "autores": "Walton H. Hamilton (Amherst College)",
+          "paginas": "pp. 268–271",
+          "jstor": "1808663",
+          "resumo": "Resenha da coletânea de ensaios de Veblen."
+        },
+        {
+          "titulo": "Introduction to the Principles of Sociology (Grove Samuel Dow); Sociology: Its Development and Applications (James Quayle Dealey); The History of Social Development (F. Mueller-Lyer)",
+          "autores": "Henry Pratt Fairchild (New York University)",
+          "paginas": "pp. 271–274",
+          "jstor": "1808664",
+          "resumo": "Resenha conjunta de três obras de sociologia."
+        },
+        {
+          "titulo": "Elementary Economics (Thomas Nixon Carver)",
+          "autores": "Charles E. Persons",
+          "paginas": "pp. 274–277",
+          "jstor": "1808665",
+          "resumo": "Resenha do manual de Carver."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 277–278",
+          "jstor": "1808666",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 279–282",
+          "jstor": "1808667",
+          "resumo": "Lista de livros novos: história econômica e geografia."
+        },
+        {
+          "titulo": "The World's Food Resources (J. Russell Smith)",
+          "autores": "A. B. Wolfe (University of Texas)",
+          "paginas": "pp. 282–286",
+          "jstor": "1808668",
+          "resumo": "Resenha do livro de Smith sobre os recursos alimentares do mundo."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 286–288",
+          "jstor": "1808669",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "Central Electric Light and Power Stations with Summary of the Electrical Industries, 1917 (Edmund E. Lincoln)",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 288–291",
+          "jstor": "1808670",
+          "resumo": "Resenha do relatório do Bureau of the Census sobre centrais elétricas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 291",
+          "jstor": "1808671",
+          "resumo": "Lista de livros novos: indústria manufatureira."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 291–293",
+          "jstor": "1808672",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "Elements of Marketing (Paul T. Cherington); Marketing, its Problems and Methods (C. S. Duncan)",
+          "autores": "Homer B. Vanderblue",
+          "paginas": "pp. 293–296",
+          "jstor": "1808673",
+          "resumo": "Resenha conjunta de dois livros sobre comercialização."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 297–298",
+          "jstor": "1808674",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "How to Manage Men. The Principles of Employing Labor (E. H. Fish)",
+          "autores": "Walter J. Matherly",
+          "paginas": "pp. 298–300",
+          "jstor": "1808675",
+          "resumo": "Resenha do livro de Fish sobre administração de pessoal."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 300–304",
+          "jstor": "1808676",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 304",
+          "jstor": "1808677",
+          "resumo": "Lista de livros novos: capital e organizações capitalistas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 304–308",
+          "jstor": "1808678",
+          "resumo": "Lista de livros novos: trabalho e organizações trabalhistas."
+        },
+        {
+          "titulo": "Argentine International Trade under Inconvertible Paper Money 1880-1900 (John Henry Williams)",
+          "autores": "Harry Gunnison Brown",
+          "paginas": "pp. 308–313",
+          "jstor": "1808679",
+          "resumo": "Resenha do estudo de Williams sobre o comércio argentino sob papel-moeda inconversível."
+        },
+        {
+          "titulo": "Bank Credit (Chester Arthur Phillips)",
+          "autores": "William A. Scott",
+          "paginas": "pp. 313–315",
+          "jstor": "1808680",
+          "resumo": "Resenha do livro de Phillips sobre os princípios do crédito bancário."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 315–320",
+          "jstor": "1808681",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Tax Procedure, 1921 (Robert M. Montgomery)",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 320–325",
+          "jstor": "1808682",
+          "resumo": "Resenha do manual de Montgomery sobre procedimento tributário."
+        },
+        {
+          "titulo": "Introduction to Public Finance (Carl C. Plehn)",
+          "autores": "Rufus S. Tucker",
+          "paginas": "pp. 325–327",
+          "jstor": "1808683",
+          "resumo": "Resenha do manual de finanças públicas de Plehn."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 327–329",
+          "jstor": "1808684",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifas."
+        },
+        {
+          "titulo": "The Italian Emigration of Our Times (Robert F. Foerster)",
+          "autores": "Henry Pratt Fairchild",
+          "paginas": "pp. 329–330",
+          "jstor": "1808685",
+          "resumo": "Resenha do livro de Foerster sobre a emigração italiana."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 330–331",
+          "jstor": "1808686",
+          "resumo": "Lista de livros novos: população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 331–333",
+          "jstor": "1808687",
+          "resumo": "Lista de livros novos: problemas sociais e reformas."
+        },
+        {
+          "titulo": "Public Health and Insurance (Sir Arthur Newsholme)",
+          "autores": "C. E. Turner",
+          "paginas": "pp. 333–335",
+          "jstor": "1808688",
+          "resumo": "Resenha do livro de Newsholme sobre saúde pública e seguro."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 335–336",
+          "jstor": "1808689",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 336–337",
+          "jstor": "1808690",
+          "resumo": "Lista de livros novos: pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 338–339",
+          "jstor": "1808691",
+          "resumo": "Lista de livros novos: socialismo e cooperação."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "Floyd L. Vaughan (Brown University)",
+          "paginas": "pp. 340–350",
+          "jstor": "1808692",
+          "resumo": "Documentos e relatórios, com resumo do relatório da Federal Trade Commission sobre o comércio de grãos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 351–387",
+          "jstor": "1808693",
+          "resumo": "Resumos de artigos de periódicos, por tema."
+        },
+        {
+          "titulo": "Eighteenth List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "autores": "",
+          "paginas": "pp. 388–398",
+          "jstor": "1808694",
+          "resumo": "Décima oitava lista de teses de doutorado em economia política em andamento nas universidades americanas."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 399–408",
+          "jstor": "1808695",
+          "resumo": "Notas da associação: próxima reunião anual em Pittsburgh, venda de publicações excedentes, nomeações."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "miller-a-politica-do-federal-reserve",
+          "titulo": "Miller e o coeficiente de reservas que avisa tarde",
+          "titulo_original": "Federal Reserve Policy",
+          "autores": "A. C. Miller (Federal Reserve Board)",
+          "jstor": "1808655",
+          "chamada": "Membro do Federal Reserve Board, A. C. Miller revê as políticas de ouro, moeda e crédito desde 1914, explica os juros baixos de 1919 e propõe uma contabilidade que faça as reservas avisarem antes.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1919, o Federal Reserve Board escreveu aos presidentes dos bancos de reserva que estava preocupado com a especulação excessiva e que, em condições normais, a corrigiria elevando a taxa de redesconto, mas que isso não era praticável por causa do financiamento do governo. A. C. Miller, membro do Board, reproduz a carta numa nota do artigo que abre a American Economic Review de junho de 1921. Ela resume o argumento: da entrada na guerra ao fim de 1919, o principal instrumento do banco central esteve a serviço do Tesouro."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto se apresenta como continuação de um exame da política de desconto feito por O. M. W. Sprague no número de março da revista. Miller divide a política de um banco central em três atitudes, diante do ouro, da moeda e do crédito, e sustenta que as duas primeiras ganham sentido a partir da terceira. Para ele, regular o fluxo e o volume do crédito é, em última análise, a função primária dos bancos de reserva."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o ouro e as notas serviram à política de crédito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira fase da política do ouro veio com o grande fluxo de metal que chegou aos Estados Unidos depois do início da guerra europeia, e que até o fim de 1916 acrescentou cerca de 1,2 bilhão de dólares ao estoque monetário. Os bancos de reserva não tinham como neutralizar esse ouro. O Board pediu poder para elevar as exigências de reserva dos bancos membros, sem sucesso; em setembro de 1916, uma emenda permitiu que os bancos membros mantivessem todas as reservas nos bancos de reserva. O objetivo era concentrar o ouro e impedir que ele servisse de base a uma expansão indesejada do crédito."
+            },
+            {
+              "tipo": "p",
+              "texto": "A mesma lógica valia para as notas. Até a entrada na guerra, o Federal Reserve as emitia em troca de ouro, e a nota funcionava, na prática, como um certificado de ouro. Como as notas não contavam como reserva legal dos bancos membros, a troca retirava o ouro do uso bancário. Com a guerra, a lei foi liberalizada para permitir emitir notas contra ouro dado em garantia e para exigir que todas as reservas dos bancos membros ficassem nos bancos de reserva: agora se tratava de juntar ouro para sustentar o crédito que a guerra exigiria. Em junho de 1919, por recomendação do Board, o embargo à exportação de ouro foi suspenso, e o país perdeu 322 milhões de dólares em ouro até o fim do ano."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 3,405 bi",
+              "texto": "Pico da circulação de notas do Federal Reserve em 23 de dezembro de 1920, segundo Miller. O máximo de 1919 fora de US$ 3,058 bilhões, em 26 de dezembro. Do pico de 1920 até 15 de abril de 1921, a circulação caiu US$ 536 milhões, movimento que Miller lê como apoio à tese do Board de que as notas acompanham o crédito e os preços."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os juros ficaram baixos em 1919?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A política de crédito, diz Miller, teve importância só teórica nos primeiros anos, por causa da redução das reservas exigidas e da entrada de ouro. Com a guerra, a política de desconto passou a ser tratada como parte da política de empréstimos do Tesouro. Miller cita o governador do Board, numa audiência de dezembro de 1920, que classificou essa política de economicamente insensata: cerca de 18 bilhões de dólares em títulos foram vendidos ao público durante a guerra, o que só seria possível com ajuda dos bancos de reserva a juros baixos. O instrumento foram taxas preferenciais para o papel garantido por títulos e certificados, inferiores aos próprios juros desses títulos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo explica por que a inflação veio depois do armistício. Durante a guerra, órgãos como o War Industries Board, a Food Administration e o Capital Issues Committee limitavam o uso do crédito na origem. Com o fim das hostilidades, esses controles foram retirados, o poder de compra contido se liberou e, na primavera de 1919, formou-se um mercado de vendedores, com compras para especulação. Miller sustenta que o sistema era a única agência de controle que restara e que setembro de 1919, logo após o pico da dívida pública, teria sido o momento de agir. Entre 19 de setembro e 7 de novembro daquele ano, os empréstimos dos bancos de reserva cresceram mais de 500 milhões de dólares."
+            },
+            {
+              "tipo": "p",
+              "texto": "As advertências e a chamada ação direta sobre os bancos, prossegue, não deram resultado. A primeira alta, pequena, veio em dezembro de 1919. Em janeiro de 1920, o Board elevou a taxa do papel comercial de 4,75% em dez bancos e 5% em dois para 6% em todos, e no início do verão para 7% nos maiores. Miller contesta Sprague, para quem a alta foi imposta pela posição esgotada das reservas: o ouro do sistema quase não variou, e o coeficiente caía porque os passivos cresciam."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que não guiar os juros pelos preços?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sprague sugerira abandonar o coeficiente de reservas como guia e basear a política de desconto nos efeitos observados do crédito sobre os preços. Miller reconhece o mérito abstrato da ideia e admite que, com o tempo, uma técnica de regulação baseada em índices de preços poderia ser desenvolvida. Mas aponta dois obstáculos. A lei manda fixar as taxas para acomodar o comércio e os negócios, e não autoriza essa regra. E o público americano, diz, tem um medo persistente da contração, visível desde a hostilidade ao Second Bank of the United States em 1833-1834."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Seria visto como equivalente a instaurar um despotismo do crédito e dos preços.”",
+              "original": "“It would be regarded as tantamount to the setting up of a credit and price despotism.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A decisão de política, conclui, deve ser um julgamento vivo, não mecânico, que pese o estado dos negócios, dos mercados monetários, o movimento do ouro, as estações, o ciclo, os preços e as reservas. Ainda assim, nenhum indicador sugere tanto quanto uma mudança no coeficiente de reservas. O problema prático, portanto, é torná-lo mais sensível."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como fazer as reservas avisarem antes?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O modelo é o Banco da Inglaterra sob a lei de 1844: liberdade para conceder crédito e restrição rígida às notas, com reserva de 100% contra novas emissões. Ali, qualquer expansão excessiva logo se traduzia em demanda de dinheiro vivo e em saída de ouro, e a perda de reservas indicava a hora de subir os juros. Miller argumenta que, mesmo num país que usa cheques, a regulação das notas importa, porque a expansão dos depósitos sempre aumenta a demanda por moeda manual, na proporção de cerca de um dólar de moeda para cinco ou seis de crédito. O argumento se resume numa cadeia."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O poder sobre as reservas é poder sobre o crédito.”",
+              "original": "“power over reserves is power over credit.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Com a maior parte do mundo fora do padrão-ouro, o mecanismo automático da conversibilidade deixara de funcionar: os fluxos de ouro tinham mão única, e os Estados Unidos acumulavam metal. De 15 de outubro de 1920 a 15 de abril de 1921, o ouro dos bancos de reserva aumentou cerca de 295 milhões de dólares, boa parte vinda das minas sul-africanas pelo mercado de Londres, e o coeficiente dos doze bancos passou de 40,9% para 53,7%."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "45%",
+              "texto": "Reserva contra depósitos que Miller propõe fixar para os bancos de reserva, aproximadamente o coeficiente do início de 1921. A lei exigia 35% contra depósitos e 40% em ouro contra notas. A margem até o mínimo legal permitiria uma expansão de mais de US$ 500 milhões de crédito."
+            },
+            {
+              "tipo": "p",
+              "texto": "O plano separa duas reservas. A de depósitos, relativamente constante, seria a reserva de trabalho do departamento de desconto, e qualquer expansão dos empréstimos apareceria logo na queda de seu coeficiente. A de notas absorveria as entradas e saídas de ouro: o ouro novo substituiria outras garantias junto ao Federal Reserve Agent, e as exportações sairiam dela. Pelo cálculo de Miller, a mudança deslocaria cerca de 200 milhões de dólares de ouro e devolveria à nota o caráter de certificado de ouro. O ouro ficaria como super-reserva, à espera do dia em que parte dele voltasse à Europa para restaurar o padrão-ouro. O autor prefere falar em regulação, não em controle: a política deve agir sobre tendências ainda em formação, usando os juros a tempo de evitar níveis extremos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo de Miller trata menos de juros do que de informação. Ele aceita que o coeficiente de reservas é um indicador imperfeito, porque mistura o efeito do crédito com o efeito do ouro, mas o conserva porque é o sinal que banqueiros e público entendem e aceitam. A solução é redesenhar a contabilidade para que o número mais visível passe a medir uma só coisa: a expansão dos empréstimos do próprio banco central.",
+                "O debate com Sprague expõe um dilema permanente. Uma regra baseada em preços pode ser mais correta em teoria, mas precisa de mandato legal e de apoio público; uma regra baseada em reservas tem legitimidade, mas avisa tarde. A resposta de Miller é aproximar o indicador aceito do objetivo desejado, e não trocar um pelo outro."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Redesconto",
+              "empréstimo do banco central a um banco, garantido por títulos que este já descontou."
+            ],
+            [
+              "Coeficiente de reservas",
+              "razão entre as reservas do banco central e seus passivos em depósitos e notas."
+            ],
+            [
+              "Ação direta",
+              "pressão do banco central sobre os bancos para restringir empréstimos especulativos, sem mudar os juros."
+            ],
+            [
+              "Federal Reserve Agent",
+              "representante do Board em cada banco de reserva, que guardava as garantias das notas emitidas."
+            ],
+            [
+              "Super-reserva",
+              "expressão de Miller para o ouro excedente guardado contra as notas, à disposição do Board."
+            ]
+          ],
+          "hoje": "A pergunta de Miller continua atual. Bancos centrais ainda discutem se devem agir contra a expansão do crédito antes que ela apareça nos preços, e a tensão entre política monetária e financiamento do Tesouro reaparece em períodos de dívida alta. A ideia de que um indicador só orienta bem a política se medir uma coisa só, e se o público o entender, segue presente na comunicação dos bancos centrais e na escolha de metas e regras.",
+          "paginas": "pp. 177–206"
+        },
+        {
+          "slug": "feis-a-industria-britanica-depois-do-armisticio",
+          "titulo": "Feis e a indústria britânica entre a deflação e as greves",
+          "titulo_original": "The Industrial Situation in Great Britain: From the Armistice to the Beginning of 1921",
+          "autores": "Herbert Feis (Harvard University)",
+          "jstor": "1808662",
+          "chamada": "Herbert Feis, de Harvard, mede a produção, o comércio, as finanças e o desemprego britânicos de 1919 ao início de 1921 e conclui que a volta ao padrão-ouro depende de um acordo sobre salários.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em fevereiro de 1921, 8,5% dos membros dos sindicatos que informavam ao governo britânico estavam desempregados, a maior proporção desde o inverno de 1908-1909. O número aparece perto do fim do artigo de Herbert Feis, de Harvard, publicado na American Economic Review de junho de 1921, e resume o ponto a que chegou a economia britânica dois anos depois do armistício: uma recuperação desigual, interrompida no fim de 1920 por uma depressão que coincidiu com a tentativa de deflação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Feis abre com a lista das dificuldades. A guerra exigira da Grã-Bretanha todas as suas forças econômicas e militares; desde novembro de 1918, o governo enfrentava uma sucessão de problemas políticos, entre eles a Irlanda. Não se tratava apenas de converter fábricas da produção de guerra para a de paz: era preciso reabsorver um grande exército e atender à exigência dos trabalhadores organizados por novo status e mais controle. Houve pelo menos três greves graves. As indústrias exportadoras vendiam para um mundo desorganizado, a Rússia estava fechada, a Alemanha não podia comprar, e preços e câmbios oscilavam."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto a produção caiu desde a guerra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A agricultura, diz Feis, não mudou de forma radical. Sob o preço garantido, a área de trigo cresceu, mas já recuava e deveria voltar ao nível de antes da guerra em 1922; a política britânica continuaria construída sobre a importação de alimentos. Em 1913, o país produzira 22 milhões de quintais de cereais panificáveis e importara 122 milhões."
+            },
+            {
+              "tipo": "p",
+              "texto": "O carvão é o caso central. A produção média de 1909 a 1913 fora de 287 milhões de toneladas por ano; em 1919, de 230 milhões. As exportações, de 73 milhões de toneladas no período anterior à guerra, foram de 25 milhões em 1920, embora seu valor tenha sido maior que em 1913. Para a Rússia, as vendas caíram de 5.998 mil toneladas em 1913 para 92 mil em 1920; para a Alemanha, de 8.952 mil para 13 mil."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "185 t",
+              "texto": "Produção média anual por mineiro em 1920, segundo Feis, ante 257 toneladas em 1909-1913 e 286 em 1894-1898. O autor cita o esgotamento dos veios mais acessíveis, o desgaste do equipamento, a redução da jornada em 1912 e 1919 e a disposição dos mineiros, que em grande maioria queriam alguma forma de nacionalização."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os mineiros, acrescenta, acusavam os donos de restringir a produção para manter os preços, e enquanto não houvesse acordo que lhes garantisse que mais produção não significaria mais lucro, a perspectiva continuaria ruim. Na siderurgia, a situação era melhor: as usinas foram ampliadas na guerra, e a produção de aço de 1920 superou a de 1913, que fora o ano recorde, embora fevereiro de 1921 tenha marcado o ponto mais baixo desde o armistício. Na construção naval, a tonelagem lançada em 1920, de 2,005 milhões de toneladas, superou a de 1913, mas a participação britânica na construção mundial de navios mercantes caíra de 58% em 1913 para 35% em 1920."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os têxteis sentiram a depressão com mais força. No fim de 1920, metade dos teares de algodão estava parada, e os fabricantes restringiam a produção a três ou quatro dias por semana; ainda assim, o algodão respondeu por 26% do valor das exportações britânicas no ano. Na lã, os preços da matéria-prima caíram a menos da metade dos de março. Feis registra ainda a observação do gerente da Caledonian Railway: o tráfego de 1920 foi menor que o de 1913, de 330 milhões de toneladas ante 367 milhões, com 30% mais empregados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O comércio exterior voltou ao equilíbrio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As emissões de capital mostram um afastamento do investimento externo que o autor julga temporário: em 1913, 82% do novo capital fora aplicado no exterior; em 1920, 15%. No comércio de mercadorias, o excesso de importações caiu de 784 milhões de libras em 1918 para 378 milhões em 1920. Medido a preços de 1913, porém, o quadro é menos favorável: as importações retidas eram 12% menores que antes da guerra, e as exportações de produtos britânicos, cerca de 36% menores. Os mercados próximos recebiam parcela maior das exportações, e as compras dos Estados Unidos eram grandes, enquanto as vendas para lá eram pequenas."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "£ 165 mi",
+              "texto": "Saldo positivo do balanço geral britânico em 1920, pelo cálculo de Feis com dados do Board of Trade. Fretes renderam 340 milhões de libras, rendas de investimentos 120 milhões e serviços bancários e de seguros 40 milhões, contra 378 milhões de excesso de importações de mercadorias. Foi o primeiro saldo favorável desde 1913."
+            },
+            {
+              "tipo": "p",
+              "texto": "O desconto da libra em relação ao dólar atingiu o máximo em novembro de 1920 e recuou para 21% em fevereiro de 1921. As moedas dos aliados e dos ex-inimigos continentais, por sua vez, se depreciavam continuamente em relação à libra."
+            },
+            {
+              "tipo": "h2",
+              "texto": "As finanças públicas permitiam deflacionar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O orçamento de 1919-1920 teve despesa de 1.665 milhões de libras e déficit de 326 milhões. Para 1920-1921, a estimativa previa receita de 1.418 milhões, despesa de 1.184 milhões e saldo de 234 milhões, com a ressalva de que a receita incluía 311 milhões de receitas especiais, como a venda de suprimentos, e a despesa, 345 milhões de encargos da dívida. Pela primeira vez desde 1913, a receita igualou a despesa. A dívida nacional, de 711 milhões de libras em agosto de 1914, chegou a 8.079 milhões em dezembro de 1919 e recuou para 7.817 milhões em janeiro de 1921; a dívida flutuante, porém, subira para 1.570 milhões."
+            },
+            {
+              "tipo": "p",
+              "texto": "A discussão sobre deflação, diz Feis, centrava-se nas notas do Tesouro emitidas desde 1914, que contavam como reserva dos bancos e haviam permitido ampliar o crédito, e cujo volume parara de crescer. O índice de preços por atacado da Economist, com base 100 em novembro de 1918, chegou a 134 em março de 1920 e caiu para 83 em fevereiro de 1921. O custo de vida, medido pela Labour Gazette em relação a 1914, subiu até novembro de 1920 e passou a cair."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem pagaria o ajuste?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O desemprego se tornou o centro da questão. A nova lei de seguro-desemprego estendera a cobertura a cerca de 12 milhões de trabalhadores, com benefício semanal de 15 xelins para os homens, e os empregadores iniciavam o primeiro esforço organizado de redução geral de salários, com dois argumentos: a queda do custo de vida e a concorrência do continente. Os líderes sindicais se opunham. Feis cita J. R. Clynes, que representava os setores mais moderados."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O trabalhismo rejeitará qualquer proposta de redução geral de salários com o objetivo de reduzir preços.”",
+              "original": "“Labor will reject any proposal for a general reduction in wages with the object of securing a reduction in prices.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os lucros industriais, nota o autor, foram altos até o fim de 1920: em mais de trezentas grandes empresas acompanhadas pela Economist, cresceram em média 32,6% sobre 1919, embora a tributação fosse pesada. Feis prevê conflito sério se a depressão continuar e os empregadores não aceitarem lucros menores, e conclui que o Tesouro dificilmente voltaria ao padrão-ouro sem uma redução de salários negociada com os sindicatos. Num pós-escrito, registra a greve do carvão de 1921, em que os mineiros pediam uma escala nacional de salários e um fundo nacional de lucros, e o risco de adesão de ferroviários e transportadores. Aposta, ainda assim, num acordo."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O súbito desmoronamento da atual estrutura industrial não é coisa em que se possa pensar.”",
+              "original": "“the sudden wreck of the present industrial structure is not to be thought of”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo de Feis mostra que a estatística de produção, sozinha, não explica a situação britânica de 1920. Os números de carvão, aço e comércio indicam uma recuperação desigual, mas o autor insiste que as causas da queda da produtividade são impossíveis de separar com clareza: falta de mercados, jornada menor, equipamento gasto, acordos de preço entre empresas e a atitude dos trabalhadores aparecem misturados nos mesmos dados.",
+                "O ponto econômico central é a ligação entre deflação e salários. Equilibrar o orçamento era condição necessária, mas a volta ao padrão-ouro exigia que os preços caíssem, e os preços só cairiam o suficiente se os salários nominais também caíssem. A política monetária, nesse quadro, dependia de uma negociação distributiva que ela não podia resolver por si."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Quintal (hundredweight)",
+              "medida britânica de peso, equivalente a 112 libras-peso."
+            ],
+            [
+              "Balanço geral",
+              "saldo das contas externas que soma ao comércio de mercadorias os fretes, rendas e serviços."
+            ],
+            [
+              "Dívida flutuante",
+              "dívida pública de curto prazo, renovada com frequência."
+            ],
+            [
+              "Notas do Tesouro (currency notes)",
+              "papel-moeda de uma libra e dez xelins emitido pelo Tesouro a partir de 1914."
+            ],
+            [
+              "Triple Alliance",
+              "aliança entre os sindicatos de mineiros, ferroviários e trabalhadores dos transportes."
+            ]
+          ],
+          "hoje": "O dilema descrito por Feis reaparece sempre que um país tenta reduzir a inflação depois de um choque. Equilibrar o orçamento e conter o crédito costumam ser condições necessárias, mas o custo do ajuste depende de como salários e lucros se adaptam, e a coordenação entre empregadores, sindicatos e governo continua no centro do debate sobre deflação, desemprego e competitividade externa. A dificuldade de separar as causas de uma queda de produtividade também segue atual.",
+          "paginas": "pp. 252–267"
+        }
+      ]
     }
   ],
   "proximas": [
