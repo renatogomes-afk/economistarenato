@@ -19636,10 +19636,1340 @@
       ],
       "jstor_edicao": "i302113",
       "colecao": "eua"
+    },
+    {
+      "slug": "1908-legislacao-fabril-de-rhode-island",
+      "numero": 92,
+      "titulo": "Towles, 1908: as leis de fábrica de Rhode Island, de 1840 a 1907",
+      "titulo_original": "Factory Legislation of Rhode Island",
+      "autores": "John K. Towles",
+      "publicacao": "American Economic Association Quarterly",
+      "volume": "3ª série, vol. 9, nº 3",
+      "data": "1908",
+      "chamada": "Em 1908, John K. Towles reconstituiu as leis de fábrica de Rhode Island: trabalho infantil, jornada, inspeção, saídas de incêndio e a distância entre o que a lei dizia e o que se fiscalizava.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "No verão de 1907, John K. Towles trabalhou como operário em várias fábricas de Providence e do vale do Blackstone e acompanhou os inspetores estaduais em visitas a cerca de uma dúzia de fábricas em Providence, Pawtucket e Woonsocket. Certa vez, contou 46 crianças pequenas entrando por uma das portas de uma grande fábrica de lã de Providence. Pelo tamanho, escreve, muitas não pareciam ter os 14 anos que a lei exigia desde o fim de 1906."
+        },
+        {
+          "tipo": "p",
+          "texto": "Factory Legislation of Rhode Island saiu em 1908 como o nº 3 do vol. 9 da terceira série do Quarterly da American Economic Association. Em seis capítulos, Towles trata do sistema fabril do estado, do trabalho infantil, da jornada, da lei de inspeção de fábricas, das saídas de incêndio e dos elevadores e do Bureau of Industrial Statistics. As fontes são os diários da legislatura, os jornais de Providence, os relatórios oficiais e o que o próprio autor viu nas fábricas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que Rhode Island?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Towles apresenta o estado como o mais industrial do país. Em Pawtucket, em dezembro de 1790, Samuel Slater, em sociedade com Moses Brown, abriu a primeira fiação de algodão da América. Pelo censo de 1900, Rhode Island tinha a maior densidade populacional do país e liderava em valor per capita de manufaturas; os assalariados da indústria eram 23,1% da população total."
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde o início, a mão de obra das fiações incluía crianças. Slater começou com quatro fiandeiros e cardadores e logo acrescentou cinco crianças de sete a doze anos. Em 1801, Josiah Quincy viu na fábrica de Slater mais de cem crianças de quatro a dez anos, pagas de 12 a 25 centavos por dia."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3.472",
+          "texto": "Crianças com menos de 12 anos nas fábricas de algodão de Rhode Island em 1831, pelas estatísticas de Pitkin reproduzidas por Towles. No mesmo levantamento eram 60 em New Hampshire e 439 em Connecticut. Mesmo admitindo superestimação, o autor conclui que o estado empregava crianças em grau especialmente alto."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que as primeiras leis não pegaram?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira lei de trabalho infantil foi apresentada por Thomas R. Holden, de Warwick, em 3 de novembro de 1838, e aprovada em 25 de janeiro de 1840: a criança com menos de 12 anos só podia trabalhar em fábrica se tivesse frequentado a escola três meses nos doze meses anteriores, sob multa de US$ 50 ao patrão. Ninguém ficou encarregado de aplicá-la, e ela caiu em 1845, omitida da nova lei escolar."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1851, a legislatura mandou investigar. O comissário nomeado, coronel Welcome Sayles, contou 1.857 menores de 15 anos nas fábricas e propôs, em 1853, idade mínima de 12 anos, jornada de 11 horas dos 12 aos 15 e um comissário estadual para visitar as fábricas. A lei de 1853 adotou a idade mínima e o limite de 11 horas, entre 5h e 19h30, mas a Câmara retirou as cláusulas de educação, em votação partidária. A multa de US$ 20 só atingia quem violasse a lei conscientemente."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1854, exigiu-se que o menor de 15 anos tivesse frequentado a escola três meses no ano anterior; em 1856, uma lei autorizou os municípios a tratar das crianças faltosas. Nenhuma das três leis dizia quem as aplicaria. Fabricantes de Connecticut, segundo o estudo de Alba M. Edwards também neste arquivo, queixavam-se em 1870-73 dessa liberdade do estado vizinho. Em 1875, o censo estadual contou 1.258 crianças com menos de 12 anos nas fábricas, das quais 599 tinham 11 anos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a lei de 1883 foi um passo atrás?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1883 foi a primeira a prever quem a aplicasse: agentes municipais de frequência escolar, obrigados a visitar cada fábrica uma vez por período letivo e a conferir os certificados de idade e escolaridade. Mas a mesma lei baixou a idade mínima de 12 para 10 anos e revogou os limites de jornada de 1853, sem pôr nada no lugar. E a nomeação dos agentes ficou, na prática, opcional."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14.706",
+          "texto": "Crianças de 5 a 15 anos fora de qualquer escola em 1883, segundo o comissário de escolas públicas. Em 1885 eram 11.222: nos três primeiros anos, a lei foi mais bem aplicada que as anteriores, e todas as cidades, menos dez, nomearam agentes. A cidade de Providence, anota Towles, ignorou a lei."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1887 tentou dar dentes à anterior: o município que não a cumprisse perderia metade da verba escolar estadual. Não funcionou. Em 1888, o Conselho Estadual de Educação relatou agentes nomeados pelo partido no poder, mal pagos e, às vezes, supervisores nas fábricas, empregando as crianças que deviam estar na escola. De 1885 a 1888, a população escolar de 5 a 15 anos cresceu 6,2%; a de 10 a 15, que deveria ter crescido cerca de metade disso, cresceu 1,1%. A conclusão:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Ou a mortalidade dessas crianças era excepcionalmente alta, ou a veracidade de seus pais, excepcionalmente baixa.”",
+          "original": "“either the mortality of such children was unusually large, or the veracity of their parents unusually small.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mudou com a inspeção de fábricas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1894, modelada na de Massachusetts, restabeleceu a idade mínima de 12 anos em estabelecimentos industriais e comerciais com cinco ou mais empregados, exigiu registro de todo menor de 16 e criou dois inspetores nomeados pelo governador, um deles mulher, com salário de US$ 1.500 cada. A multa chegava a US$ 500."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seguiram-se a lei de 1902, que elevou para 13 anos a idade mínima durante o período escolar, e a de 9 de março de 1905: 13 anos até 31 de dezembro de 1906 e 14 depois, proibição do trabalho de menores de 16 antes das 6h e depois das 20h e certificado de idade emitido pelo comitê escolar. Ficavam de fora o serviço doméstico e a agricultura. Em 1907, a lei passou a valer também para quem empregasse menos de cinco pessoas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4,5%",
+          "texto": "Fatia dos menores de 16 anos entre os empregados das fábricas inspecionadas em 1907, contra 8,5% em 1894, pelos relatórios dos inspetores. Nos censos federais, as crianças eram 12,0% dos assalariados da indústria do estado em 1880, 7,2% em 1890 e 5,1% em 1900. Os números dos inspetores, observa Towles, vêm de declarações dos patrões."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei era aplicada? Gilbert E. Whittemore, agente de frequência escolar de Providence, disse ao autor que, no ano encerrado em 30 de junho de 1907, comunicou 93 casos de emprego ilegal ao departamento de inspeção, sem que os inspetores processassem um único patrão. Em relatório de setembro de 1907, defendeu que os processados fossem os patrões, e não pais ou crianças:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Não acredito que as leis do trabalho infantil possam ser aplicadas pela persuasão.”",
+          "original": "“I do not believe that the child labor laws can be enforced by persuasion.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A lei encurtou a jornada?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1853 declarou dez horas a jornada legal, salvo acordo em contrário entre as partes, ressalva que, para Towles, a anulava. A redução veio por decisão dos patrões: no início dos anos 1870, a regra geral já era de 11 horas por dia, e em 1883 a semana estava em cerca de 66 horas. Naquele ano, a lei escolar revogou os limites de 1853 e deixou o estado sem nenhum teto de jornada."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei das dez horas, de 1885, veio da campanha dos Knights of Labor. Petições de quase todas as cidades fabris somaram mais de 16 mil nomes; 238 pessoas e 91 empresas pediram a rejeição. A lei limitou a dez horas por dia e 60 por semana o trabalho de mulheres e menores de 16 anos em estabelecimentos industriais e mecânicos, com multa de US$ 20, e aceitou como prova conclusiva o certificado de idade feito pelo próprio menor ou pelos pais. Por catorze anos ninguém foi encarregado de aplicá-la; a tarefa passou aos inspetores de fábrica em 1899. Em 1902, a semana caiu de 60 para 58 horas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "31 a 3",
+          "texto": "Placar no Senado estadual, em 28 de maio de 1885, do projeto das dez horas que o mesmo Senado havia rejeitado por 15 a 12 em 7 de abril. Para Towles, a mudança se deveu inteiramente à situação política."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mesmo assim, a jornada caiu mais pelo mercado que pela fiscalização. Das 1.439 operárias que responderam ao comissário de estatísticas industriais em 1889, 1.298 trabalhavam dez horas e 23 passavam disso. Towles atribui o cumprimento sobretudo à constatação, pelos gerentes, de que a jornada de dez horas não reduzia a produção. A exceção eram os picos de encomendas, com horas extras pagas a 1⅓ ou 1½ vez o salário."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o inspetor podia exigir?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fora a idade mínima e os elevadores, a lei de 1894 não fixava padrões: iluminação, aquecimento, ventilação, banheiros e proteção de máquinas deviam ser os que o inspetor julgasse necessários, com prazo de noventa dias para as correções. Towles vê vantagem na flexibilidade e risco de tudo depender do caráter do inspetor; defende padrões mínimos na própria lei. Os acidentes não eram comunicados: os inspetores dependiam dos jornais."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A lei, estando no código, deveria ser aplicada ou revogada.”",
+          "original": "“The law, being upon the statute book, should either be enforced or repealed.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1907, os inspetores visitaram 1.899 estabelecimentos; Towles preferiria 600 inspeções cuidadosas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E as saídas de incêndio e as estatísticas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de 1890, proposta por Lorin M. Cook, exigiu de toda fábrica com empregados acima do segundo andar escadas de incêndio metálicas externas ou escadas incombustíveis nas duas extremidades do prédio, com multa de US$ 100 a US$ 500. O certificado de conformidade isentava o dono de responsabilidade por três anos; em 1895, a isenção passou a valer sem prazo. Towles considera satisfatória a aplicação dessa lei e boa a da lei de elevadores."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Bureau of Industrial Statistics, criado em 1887 com um comissário de US$ 2.000 por ano, podia multar em US$ 20 quem negasse informações, mas não podia entrar nas fábricas sem consentimento do dono. Para Towles, é duvidoso que tenha valido o que custou: os fabricantes copiavam de um ano para outro as respostas enviadas, e os sindicatos orientavam seus membros a não responder."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o livro é um estudo sobre a distância entre o texto legal e o desenho de quem o aplica. Cada lei falha num elo previsível: a de 1840 não tem fiscal; a de 1883 deixa o fiscal ao município que perde com a fiscalização; a de 1885 aceita como prova de idade a declaração do interessado; a de 1894 dá ao inspetor discricionariedade sem padrão. A contribuição de método está em perguntar, para cada norma, quem fiscaliza, quem paga o fiscal, quem produz a prova e quanto custa descumprir.",
+            "O segundo ponto, na minha leitura, é a causalidade. A jornada caiu antes da lei e, segundo o próprio autor, sobretudo porque os patrões viram que dez horas não reduziam a produção; o trabalho infantil caiu junto com a inspeção, mas também com a mudança de opinião registrada a partir de 1890. Separar as duas forças é o problema clássico de toda avaliação de regulação: a lei tende a funcionar quando acompanha um custo que o mercado já está disposto a pagar e quando alguém tem incentivo para aplicá-la."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Lei de frequência escolar (truant law)",
+          "lei que obriga a criança a frequentar a escola e prevê punição para a ausência."
+        ],
+        [
+          "Agente de frequência escolar (truant officer)",
+          "funcionário municipal encarregado de levar à escola as crianças faltosas e de conferir certificados nas fábricas."
+        ],
+        [
+          "Certificado de idade",
+          "documento que o patrão devia manter para provar que o menor empregado tinha a idade mínima legal."
+        ],
+        [
+          "Knights of Labor",
+          "organização nacional de trabalhadores, forte nos Estados Unidos na década de 1880."
+        ],
+        [
+          "General Assembly",
+          "a legislatura estadual de Rhode Island, formada por Senado e Câmara."
+        ],
+        [
+          "Inspetor de fábricas (factory inspector)",
+          "funcionário estadual que fiscaliza as condições de trabalho e aplica as leis fabris."
+        ],
+        [
+          "Bureau of Industrial Statistics",
+          "repartição estadual criada em 1887 para coletar e publicar dados sobre trabalho e indústria."
+        ]
+      ],
+      "hoje": "As perguntas de Towles continuam no centro da fiscalização do trabalho. A inspeção depende de número de fiscais, de independência na nomeação e de critérios objetivos; normas que deixam tudo ao juízo do fiscal tendem a variar conforme quem fiscaliza. A prova de idade e de jornada segue sendo um problema de documentos e de quem os emite. E a dificuldade de separar o efeito da lei do efeito do mercado reaparece sempre que se avalia uma regra de jornada máxima, idade mínima ou segurança no trabalho.",
+      "itens": [
+        [
+          "Factory Legislation of Rhode Island",
+          "pp. 1–119",
+          "3000008"
+        ]
+      ],
+      "jstor_edicao": "i350432",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1908-o-boletim-economico-setembro",
+      "numero": 93,
+      "titulo": "O terceiro Bulletin: petróleo, população e a bibliografia herdada",
+      "titulo_original": "The Economic Bulletin, vol. 1, no. 3 (September 1908)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 1, nº 3",
+      "data": "setembro de 1908",
+      "chamada": "O número de setembro de 1908 traz notas sobre nomeações e congressos, 23 resenhas com peso para população, petróleo e cidades, e a bibliografia corrente que o Quarterly Journal of Economics deixa de publicar.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A nota mais consequente do número de setembro de 1908 vem de outro periódico. O Quarterly Journal of Economics anuncia, em seu número de agosto, que deixará de publicar listas de publicações correntes de economia ao fim do volume 1907–08. A tarefa, diz a nota reproduzida no Bulletin, passou a outras mãos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A bibliografia “tornou-se, mais particularmente, um dos principais objetivos do Economic Bulletin”.",
+          "original": "has more particularly become a chief object of the Economic Bulletin"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nomeações e congressos dominam. Henry C. Adams retoma as aulas na Universidade de Michigan sem deixar a Interstate Commerce Commission. W. C. Mitchell, da Universidade da Califórnia, vai lecionar em Harvard no lugar de A. P. Andrew, que viaja a serviço da comissão monetária do Congresso. Alexander E. Cance abre cursos de economia agrícola no Massachusetts Agricultural College. Antigos alunos americanos de Johannes Conrad, da Universidade de Halle, organizam uma homenagem pelos seus 70 anos, em fevereiro de 1909."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 100",
+          "texto": "Prêmio da National Municipal League para o ensaio de 1909 sobre o funcionamento prático do governo de uma grande cidade americana. A liga, que trata do tema desde 1894, publicará no outono uma exposição de seu programa municipal, escrita por Horace E. Deming."
+        },
+        {
+          "tipo": "p",
+          "texto": "A saúde pública aparece como assunto de economistas. O Committee of One Hundred sobre regulação federal da saúde pública, da American Association for the Advancement of Science, é presidido por Irving Fisher, de Yale. O congresso internacional sobre tuberculose, em Washington, tem membros da associação na comissão organizadora. A National Tax Association prepara em Toronto sua segunda conferência sobre tributação estadual e local. Em Paris, a Société d'Économie Politique recebe o Political and Economic Circle de Londres e visita a terra natal de Quesnay e o túmulo de Turgot. O número fecha com o obituário de John J. McNulty, professor de filosofia do College of the City of New York, morto em 8 de maio."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 23 resenhas. A história econômica abre o bloco: Ohio antes de 1850, de Robert E. Chaddock; os cercamentos ingleses, de Gilbert Slater; a refinação de açúcar americana, de Paul L. Vogt. Transporte e grandes empresas vêm em seguida, com os vagões privados de L. H. D. Weld e os relatórios do Commissioner of Corporations sobre o petróleo, resumidos por Lewis H. Haney. Benjamin M. Rastall narra as greves de Cripple Creek, e uma coletânea de conferências em Columbia trata da crise de 1907."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1.800 páginas",
+          "texto": "Mais que isso somam os três volumes do Bureau of Corporations sobre o petróleo, publicados entre maio de 1906 e agosto de 1907: o relatório sobre o transporte e as duas partes do relatório sobre a indústria, uma sobre a posição da Standard Oil Company e outra sobre preços e lucros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A população tem duas resenhas de peso. Walter F. Willcox examina o compêndio francês de estatística internacional do movimento da população, que faz para as estatísticas vitais o que J. Bertillon fizera para os censos. William B. Bailey resume o estudo de Paul Mombert sobre a Alemanha, apoiado em 118 tabelas estatísticas, que termina com uma revisão das leis de população de Malthus."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Não é frequente encontrar melhor aplicação do método estatístico a um problema social importante.",
+          "original": "it is not often that one meets a better application of the statistical method to an important social problem"
+        },
+        {
+          "tipo": "p",
+          "texto": "As finanças públicas entram com o estudo de Harry G. Friedman sobre a tributação das empresas em Massachusetts. As cidades ocupam um bloco próprio: a conferência de Providence da National Municipal League, o inquérito sobre West Ham, os ensaios de John A. Fairlie e a constituição de Michigan anotada para a convenção constituinte. Fecham o número a biografia de Herbert Spencer por David Duncan, a sociologia de Jordan, Dowd, Ross e Northcote W. Thomas, o governo da Inglaterra de A. Lawrence Lowell e a China de W. A. P. Martin."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications cobre obras publicadas sobretudo desde 1º de junho de 1908. Mantém a lista de periódicos indexados, com a promessa de ampliá-la à medida que se acertarem as permutas, e a divisão em seções numeradas, das obras gerais à miscelânea. Com a decisão do Quarterly Journal of Economics, que passa a manter uma seção de resenhas e balanços da literatura recente, o inventário corrente fica com o Bulletin."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de setembro mostra a estatística demográfica ganhando o centro da cena. O compêndio francês e o livro de Mombert não partem de dedução: acumulam séries de mortalidade, casamentos e nascimentos e só então discutem Malthus. O mesmo método aparece nos relatórios do petróleo, em que a discriminação ferroviária é demonstrada caso a caso, região por região. A divisão de trabalho entre os periódicos completa o quadro: ao Quarterly Journal of Economics, as discussões extensas; ao Bulletin, o inventário do que se publica."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 189–196",
+          "resumo": "Notas sobre nomeações, congressos e publicações, a decisão do Quarterly Journal of Economics de deixar a bibliografia corrente ao Bulletin e o obituário de John J. McNulty.",
+          "jstor": "222012"
+        },
+        {
+          "titulo": "Robert E. Chaddock, Ohio Before 1850",
+          "autores": "Ernest L. Bogart",
+          "paginas": "pp. 197–198",
+          "resumo": "Monografia de Columbia sobre as origens da população de Ohio e o desenvolvimento da democracia na fronteira, com capítulos sobre a escravidão, as denominações religiosas e a educação.",
+          "jstor": "222013"
+        },
+        {
+          "titulo": "Frederic Harrison, National and Social Problems",
+          "autores": "J. R. Commons",
+          "paginas": "pp. 198–199",
+          "resumo": "Reedição de ensaios do líder dos positivistas ingleses, divididos entre problemas nacionais e questões sociais, de The Limits of Political Economy, de 1865, ao sindicalismo e à cooperação.",
+          "jstor": "222014"
+        },
+        {
+          "titulo": "Gilbert Slater, The English Peasantry and the Enclosure of Common Fields",
+          "autores": "James B. Morman",
+          "paginas": "pp. 199–201",
+          "resumo": "Volume da série de estudos da London School of Economics, derivado de tese aprovada em 1904, sobre a política dos cercamentos e seus efeitos na produção agrícola, nas rendas e no despovoamento rural.",
+          "jstor": "222015"
+        },
+        {
+          "titulo": "Paul L. Vogt, The Sugar Refining Industry in the United States",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 201–202",
+          "resumo": "Monografia sobre a refinação de açúcar americana, que acompanha a concorrência, a influência da tarifa e a manipulação de preços até a combinação numa única corporação.",
+          "jstor": "222016"
+        },
+        {
+          "titulo": "Montgomery Rollins, Money and Investments",
+          "autores": "F. A. Cleveland",
+          "paginas": "pp. 203",
+          "resumo": "Dicionário de termos financeiros em ordem alfabética, com informação descritiva e conselhos ao leitor e um prefácio sobre investimento e especulação.",
+          "jstor": "222017"
+        },
+        {
+          "titulo": "L. H. D. Weld, Private Freight Cars and American Railways",
+          "autores": "Frank Haigh Dixon",
+          "paginas": "pp. 203–205",
+          "resumo": "Monografia de Columbia sobre os vagões especiais de propriedade privada, como os refrigerados, os de gado e os tanques, e sobre sua regulação.",
+          "jstor": "222018"
+        },
+        {
+          "titulo": "Commissioner of Corporations, Report on the Transportation of Petroleum and Report on the Petroleum Industry",
+          "autores": "Lewis H. Haney",
+          "paginas": "pp. 205–212",
+          "resumo": "Três volumes do Bureau of Corporations sobre a discriminação ferroviária a favor da Standard Oil Company, os oleodutos, a posição da empresa na indústria e seus preços e lucros.",
+          "jstor": "222019"
+        },
+        {
+          "titulo": "Benjamin McKie Rastall, The Labor History of the Cripple Creek District",
+          "autores": "William Kirk",
+          "paginas": "pp. 212–214",
+          "resumo": "Relato dos dois grandes conflitos entre capital e trabalho no distrito mineiro de Cripple Creek, a greve de 1893 e a luta de 1903–1904.",
+          "jstor": "222020"
+        },
+        {
+          "titulo": "Seligman e outros, The Currency Problem and the Present Financial Situation",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 214–215",
+          "resumo": "Conferências de banqueiros e outros em Columbia sobre a crise de 1907 e a reforma monetária, com introdução de Edwin R. A. Seligman sobre a crise à luz da história.",
+          "jstor": "222021"
+        },
+        {
+          "titulo": "Harry G. Friedman, The Taxation of Corporations in Massachusetts",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 215–218",
+          "resumo": "Estudo de Columbia sobre a tributação das empresas em Massachusetts, com dois capítulos históricos e capítulos sobre o imposto geral e as empresas comerciais, de serviço público e financeiras.",
+          "jstor": "222022"
+        },
+        {
+          "titulo": "Statistique internationale du mouvement de la population",
+          "autores": "Walter F. Willcox",
+          "paginas": "pp. 218–220",
+          "resumo": "Compêndio francês de estatísticas vitais de vários países, das origens do registro civil até 1905, formado pela consolidação de apêndices da estatística anual francesa da população.",
+          "jstor": "222023"
+        },
+        {
+          "titulo": "Paul Mombert, Studien zur Bevölkerungsbewegung in Deutschland",
+          "autores": "William B. Bailey",
+          "paginas": "pp. 221–223",
+          "resumo": "Estudo do movimento da população alemã em cinco capítulos, sobre mortalidade, casamentos, nascimentos, excedente de nascimentos e as leis de população de Malthus.",
+          "jstor": "222024"
+        },
+        {
+          "titulo": "Clinton Rogers Woodruff (ed.), Report of the Providence Conference of the National Municipal League",
+          "autores": "Thomas Raeburn White",
+          "paginas": "pp. 223–225",
+          "resumo": "Registro do trabalho da liga em 1907 e de sua conferência anual em Providence, com relatórios de comissões, discussões informais e trabalhos formais.",
+          "jstor": "222025"
+        },
+        {
+          "titulo": "Edward G. Howarth e Mona Wilson, West Ham: A Study in Social and Industrial Problems",
+          "autores": "J. Edward Newton",
+          "paginas": "pp. 226–227",
+          "resumo": "Inquérito do Outer London Inquiry Committee sobre moradia, indústrias, governo local e instituições de West Ham, subúrbio no extremo leste de Londres.",
+          "jstor": "222026"
+        },
+        {
+          "titulo": "David Duncan, Life and Letters of Herbert Spencer",
+          "autores": "Isaac A. Loos",
+          "paginas": "pp. 227–232",
+          "resumo": "Biografia em dois volumes escrita pelo primeiro secretário de Spencer, escolhido por ele próprio, para completar a autobiografia.",
+          "jstor": "222027"
+        },
+        {
+          "titulo": "David Starr Jordan, The Human Harvest",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 232–233",
+          "resumo": "Ensaio do presidente de Stanford sobre as causas do declínio das nações, que o resenhista discute do ponto de vista dos limites entre biologia e sociologia.",
+          "jstor": "222028"
+        },
+        {
+          "titulo": "Jerome Dowd, The Negro Races, vol. 1",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 234–235",
+          "resumo": "Primeiro volume de uma série de estudos sociológicos do autor, que descreve povos africanos organizados por zonas econômicas, da banana, do milhete, do gado e do camelo.",
+          "jstor": "222029"
+        },
+        {
+          "titulo": "Edward Alsworth Ross, Social Psychology",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 235–238",
+          "resumo": "Esboço e livro de fontes de psicologia social, que o resenhista discute quanto à delimitação do campo e ao uso como curso introdutório.",
+          "jstor": "222030"
+        },
+        {
+          "titulo": "Northcote W. Thomas, Natives of Australia; Kinship Organizations and Group Marriage in Australia",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 238",
+          "resumo": "Dois livros sobre os aborígines australianos: um relato geral que abre a série The Native Races of the British Empire e uma discussão crítica da organização de parentesco.",
+          "jstor": "222031"
+        },
+        {
+          "titulo": "John A. Fairlie, Essays in Municipal Administration",
+          "autores": "Clinton Rogers Woodruff",
+          "paginas": "pp. 238–240",
+          "resumo": "Coletânea de ensaios sobre a organização das cidades, as funções municipais e o governo municipal no exterior, o mais longo sobre as corporações municipais nas colônias.",
+          "jstor": "222032"
+        },
+        {
+          "titulo": "A. Lawrence Lowell, The Government of England",
+          "autores": "T. F. Moran",
+          "paginas": "pp. 240–242",
+          "resumo": "Tratado em dois volumes sobre o governo inglês, nacional e local, da Coroa, do gabinete e do Parlamento aos partidos, à igreja, ao império e aos tribunais.",
+          "jstor": "222033"
+        },
+        {
+          "titulo": "Legislative Reference Department of Michigan, Constitution of Michigan Annotated for the Use of the Constitutional Convention",
+          "autores": "Clinton Rogers Woodruff",
+          "paginas": "pp. 242–243",
+          "resumo": "Edição anotada da constituição de Michigan, em 25 partes, que reproduz para cada artigo os dispositivos equivalentes de outras constituições e leis estaduais.",
+          "jstor": "222034"
+        },
+        {
+          "titulo": "W. A. P. Martin, The Awakening of China",
+          "autores": "Edw. D. Jones",
+          "paginas": "pp. 243–245",
+          "resumo": "Relato popular da história e da situação presente da China por um veterano da educação ocidental no país, em três partes e três apêndices.",
+          "jstor": "222035"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 246–277",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de junho de 1908, com lista de periódicos indexados e seções temáticas numeradas de livros e artigos.",
+          "jstor": "222036"
+        }
+      ],
+      "glossario": [
+        [
+          "Cercamento",
+          "conversão de campos abertos e terras comunais inglesas em propriedades fechadas e individuais."
+        ],
+        [
+          "Discriminação ferroviária",
+          "cobrança de tarifas ou condições diferentes a embarcadores distintos pelo mesmo serviço."
+        ],
+        [
+          "Estatísticas vitais",
+          "registros de nascimentos, casamentos e óbitos de uma população."
+        ]
+      ],
+      "hoje": "Bibliografias correntes continuam sendo infraestrutura da pesquisa em economia, hoje em bases eletrônicas, mas a lógica é a do Bulletin de 1908: alguém precisa inventariar o que se publica para que o resto da profissão possa ler o que importa. Os relatórios do Bureau of Corporations sobre o petróleo também tiveram vida longa. A investigação antecedeu a ação antitruste que, em 1911, levou à dissolução da Standard Oil, e o método de documentar a discriminação caso a caso continua familiar a quem trabalha com defesa da concorrência.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 189–196",
+          "222012"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 197-198",
+          "pp. 197–198",
+          "222013"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 198-199",
+          "pp. 198–199",
+          "222014"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 199-201",
+          "pp. 199–201",
+          "222015"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 201-202",
+          "pp. 201–202",
+          "222016"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-09-01), page 203",
+          "pp. 203",
+          "222017"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 203-205",
+          "pp. 203–205",
+          "222018"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 205-212",
+          "pp. 205–212",
+          "222019"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 212-214",
+          "pp. 212–214",
+          "222020"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 214-215",
+          "pp. 214–215",
+          "222021"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 215-218",
+          "pp. 215–218",
+          "222022"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 218-220",
+          "pp. 218–220",
+          "222023"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 221-223",
+          "pp. 221–223",
+          "222024"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 223-225",
+          "pp. 223–225",
+          "222025"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 226-227",
+          "pp. 226–227",
+          "222026"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 227-232",
+          "pp. 227–232",
+          "222027"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 232-233",
+          "pp. 232–233",
+          "222028"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 234-235",
+          "pp. 234–235",
+          "222029"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 235-238",
+          "pp. 235–238",
+          "222030"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-09-01), page 238",
+          "pp. 238",
+          "222031"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 238-240",
+          "pp. 238–240",
+          "222032"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 240-242",
+          "pp. 240–242",
+          "222033"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 242-243",
+          "pp. 242–243",
+          "222034"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-09-01), pages 243-245",
+          "pp. 243–245",
+          "222035"
+        ],
+        [
+          "Recent Publications",
+          "pp. 246–277",
+          "222036"
+        ]
+      ],
+      "jstor_edicao": "i302114",
+      "colecao": "eua"
+    },
+    {
+      "slug": "1908-o-imposto-progressivo",
+      "numero": 94,
+      "titulo": "Seligman, 1908: o imposto progressivo entre a teoria e a prática",
+      "titulo_original": "Progressive Taxation in Theory and Practice",
+      "autores": "Edwin R. A. Seligman",
+      "publicacao": "American Economic Association Quarterly",
+      "volume": "3ª série, vol. 9, nº 4",
+      "data": "1908",
+      "chamada": "Em 1908, Edwin R. A. Seligman revisou seu estudo do imposto progressivo: a progressão seria defensável em teoria, mas, nos Estados Unidos, aplicável de imediato só ao imposto sobre heranças.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1863, na Geórgia, um cervejeiro investiu US$ 50 e lucrou US$ 1.500, ou 3.000% sobre o capital. O imposto estadual sobre a renda crescia com a razão entre lucro e capital, sem teto, e a conta veio em US$ 2.225, mais do que tudo o que ele possuía. Ao reclamar, ouviu do coletor, segundo um jornal da época, que entregasse o que tinha e assinasse uma nota promissória pelo resto. Edwin R. A. Seligman registra o caso numa nota de rodapé, ao descrever o exemplo mais notável de escala progressiva nos estados do Sul durante a Guerra Civil."
+        },
+        {
+          "tipo": "p",
+          "texto": "Progressive Taxation in Theory and Practice saiu em 1908 como o nº 4 do vol. 9 da terceira série das publicações trimestrais da American Economic Association, com 334 páginas. É a segunda edição, revista; a primeira saiu em 1894 nas Publications e está comentada no nº 40 do Arquivo. O plano tem três partes: a história e a situação atual do imposto progressivo, a teoria, e a aplicação do princípio aos tributos americanos. Logo na introdução, Seligman afirma que quase todos os países já haviam introduzido, em alguma medida, o princípio progressivo, inclusive os Estados Unidos, tidos como a pátria da tributação proporcional."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Afinal, o que é um imposto progressivo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman começa pela nomenclatura. O imposto é proporcional quando a relação entre o tributo e a base se mantém; é progressivo quando, à medida que a base cresce, o tributo representa uma fração cada vez maior dela. O efeito pode vir de alíquotas crescentes ou da mesma alíquota aplicada a parcelas cada vez menores da base. Quando a alíquota cai com a renda, o imposto é regressivo; quando sobe até um ponto e depois se estabiliza, é degressivo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Toda progressão para em algum lugar. A alíquota mais alta efetivamente aplicada que o autor encontra na história é de 37,5%, no imposto de renda da Holanda em 1796, uma escala que começava em 3% e, nas palavras dele, quase chegou ao confisco. Durou um ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem já havia tentado?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira parte percorre a experiência histórica, da Antiguidade à década de 1900. Em Florença, o catasto ganhou escala progressiva em 1443: a chamada graziosa dividia os contribuintes em catorze classes, com alíquotas de 4% a 33⅓% da renda. Na Inglaterra, Pitt introduziu o imposto de renda geral em 1799 com isenção abaixo de £ 60, alíquotas graduadas até £ 200 e 10% acima disso."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, o primeiro imposto de renda federal efetivamente cobrado, a lei de 1º de julho de 1862, taxava em 3% a renda entre US$ 600 e US$ 10.000 e em 5% o que passasse disso. A lei de 1864 criou três faixas, com alíquotas de 5%, 7,5% e 10%. O secretário do Tesouro, Fessenden, defendeu a escala no relatório daquele ano:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A capacidade de pagar cresce em proporção muito mais que aritmética.”",
+          "original": "“the ability to pay increases in much more than arithmetical proportion”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Terminada a guerra, a alíquota foi reduzida e unificada, a isenção subiu e o imposto acabou em 1872."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "20 de 25",
+          "texto": "Cantões suíços que, segundo Seligman, cobravam imposto progressivo sobre a propriedade ou a renda; nove tinham imposto progressivo sobre heranças, e 21 dos 25 aplicavam alguma forma de progressão. O impulso decisivo veio da lei de Zurique de 1870, que estendeu a escala à propriedade; nas décadas seguintes, cantões como Grisões, Vaud, Lucerna e Basileia seguiram o exemplo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão da primeira parte é que a tendência à progressão crescia em quase toda parte, com mais força nos países mais democráticos, como a Austrália e a Suíça. O autor ressalva que a aplicação principal estava nos impostos sobre heranças, cobrados uma única vez, e que, nos impostos anuais sobre renda e propriedade, a graduação assumira em geral a forma degressiva."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a progressão não se apoia na teoria socialista?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte organiza os argumentos em três grupos: o socialista, o compensatório e o econômico. O primeiro tem como principal expoente Adolf Wagner, para quem as finanças públicas passavam de um período puramente fiscal a um período “sociopolítico”, em que o Estado usaria o imposto para corrigir a distribuição da riqueza. Seligman objeta que considerações sociais sempre influíram na política tributária, de tarifas protecionistas a impostos sobre o luxo, e separa a reforma social do socialismo. Para ele, a justiça exige que o Estado não aumente deliberadamente a desigualdade, mas não que a elimine. As principais reformas sociais, no campo fiscal, estariam do lado do gasto, não da receita."
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria compensatória sustenta que parte das diferenças de fortuna resulta de atos ou omissões do próprio Estado, e que o imposto deveria corrigi-las. Seligman a encontra em Francis A. Walker, em Clémence Royer, premiada no congresso tributário de Lausanne em 1860, e em Courcelle-Seneuil. Sua objeção é de medida: não há como calcular quanto da desigualdade o Estado criou. Mais força, diz ele, tem a versão especial do argumento, que aceita um imposto direto progressivo para contrabalançar impostos indiretos regressivos e, assim, restabelecer a proporção no sistema como um todo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O imposto como prêmio de seguro leva a quê?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria do benefício via o imposto como prêmio pago à seguradora coletiva, o Estado, pela proteção da propriedade. A conclusão natural era a proporção. Seligman mostra como a doutrina se modificou: a isenção do mínimo de subsistência transformava o imposto proporcional sobre a renda líquida em imposto degressivo sobre a renda total. O engenheiro francês Fauveau calculou, com fórmulas matemáticas, que o prêmio de seguro deveria crescer mais rápido que o valor do bem protegido, mas menos rápido que o seu quadrado. Os defensores do benefício, resume o autor, chegaram aos poucos a defender a progressão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O sacrifício igual resolve a questão?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria da faculdade, ou capacidade contributiva, é mais antiga: as leis coloniais americanas falavam em faculty, e a Declaração dos Direitos do Homem de 1789 mandava repartir a contribuição segundo as faculdades dos cidadãos. Por muito tempo, isso significou imposto proporcional à propriedade e, depois, à renda. A ideia de sacrifício entrou com a isenção do mínimo de subsistência. Tirar 10% de quem ganha mil dólares corta o necessário; tirar 10% de quem ganha cem mil corta, no máximo, o supérfluo. Para igualar os sacrifícios, o rico teria de pagar relativamente mais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Economistas holandeses deram ao argumento a forma da utilidade marginal, com tabelas em que, para igualar a razão entre sacrifício e satisfação, a alíquota crescia com a renda. Seligman expõe então a resposta de Cohen-Stuart: com outras hipóteses igualmente plausíveis de utilidade decrescente, as mesmas contas levam à proporção ou até à regressão. O autor conclui que, conforme os números escolhidos, se prova qualquer escala."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3,38% ou 2,41%",
+          "texto": "Duas alíquotas para a renda mais alta das tabelas expostas por Seligman, ambas calculadas para igualar o sacrifício a partir de 3% sobre a primeira faixa de US$ 1.000. Na tabela progressiva dos economistas holandeses (Bok, com pequena correção de Cohen-Stuart), a alíquota sobe até 3,3755%, para a renda de US$ 7.000. Na terceira tabela de Cohen-Stuart, com outra hipótese de utilidade média, ela cai até 2,412%, para a renda de US$ 6.000: regressão pura."
+        },
+        {
+          "tipo": "p",
+          "texto": "A objeção de fundo é outra. O sacrifício é psíquico; o imposto retira bens materiais, e não há cálculo que converta um no outro. Duas pessoas com a mesma renda podem senti-la de modo muito diverso. Seligman examina ainda a teoria do sacrifício mínimo de Edgeworth e Carver e conclui que ela não oferece ajuda maior que a do sacrifício igual."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Qual é, então, a posição do autor?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman volta à faculdade e a divide em dois lados. Do lado da produção, a fortuna grande facilita a aquisição de mais fortuna, como notaram Rousseau e Adam Smith: o rico estaria sujeito a uma espécie de lei dos rendimentos crescentes. Do lado do consumo, volta-se ao sacrifício, que não leva a nenhuma escala definida, mas tampouco à proporção. Para o contribuinte médio, conclui, um imposto estritamente proporcional pesa mais sobre o pobre típico do que sobre o rico típico. A progressão não seria nem mais ilógica nem mais injusta que a proporção. O autor admite que a teoria não fixa nenhuma alíquota e responde à objeção da incerteza:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Meio pão é melhor que pão nenhum.”",
+          "original": "“Half a loaf is better than no bread.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "As objeções clássicas recebem respostas uma a uma. O confisco se evita com uma progressão que desacelera e nunca alcança 100%. A acusação de multar a poupança vale contra qualquer imposto sobre renda ou propriedade. O argumento da arrecadação é fraco, porque a função da progressão é repartir o ônus, não arrecadar mais. Ao temor de que uma classe vote impostos para outra pagar, formulado por Lecky, Seligman responde que ele não se confirmara na prática. Restam ressalvas práticas: a incidência, a dificuldade de tornar progressivo um sistema inteiro e o risco de fraude, que cresce com a alíquota."
+        },
+        {
+          "tipo": "h2",
+          "texto": "E nos Estados Unidos de 1908?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A terceira parte desce aos tributos americanos. O imposto geral sobre a propriedade era, na prática, regressivo: os bens mobiliários intangíveis escapavam na proporção do seu tamanho, e uma alíquota maior para os ricos só aumentaria a evasão. Sobre imóveis, o imposto incidia sobre a terra, não sobre o dono, sem descontar hipotecas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "25 vezes",
+          "texto": "Quanto B pagaria em relação a A sob uma alíquota progressiva sobre imóveis, no exemplo de Seligman. A tem uma fazenda de US$ 10.000 hipotecada em US$ 5.000; B, uma de US$ 100.000 hipotecada em US$ 95.000. O patrimônio líquido dos dois é o mesmo, US$ 5.000. Com 2% para A (US$ 200) e 5% para B (US$ 5.000), todo o patrimônio de B iria para o imposto."
+        },
+        {
+          "tipo": "p",
+          "texto": "No imposto de renda, o obstáculo é administrativo. O modelo inglês, cedular e retido na fonte, funcionava, mas não admite escala: no exemplo do autor, uma renda de US$ 50.000 vinda de cinco fontes pagaria US$ 1.000, e a mesma renda vinda de uma só fonte, US$ 3.000. O modelo global, de declaração pessoal, admite a escala, mas fracassara nos países anglo-saxões. Seligman descreve a saída proposta pelo comitê britânico de 1906, um super-tax pessoal sobre rendas acima de £ 5.000, somado ao imposto retido na fonte, e conclui que, nas condições americanas, as vantagens da progressão no imposto de renda seriam ilusórias. No imposto sobre empresas, o argumento do sacrifício não se aplica: a sociedade anônima não tem necessidades, e uma alíquota maior para as grandes pode ser regressiva para o acionista."
+        },
+        {
+          "tipo": "p",
+          "texto": "A exceção é a herança, que Seligman trata como renda fortuita, um acréscimo casual ao patrimônio. Nela convergem o argumento da faculdade e o compensatório, e quase nenhuma das objeções vale. O livro reproduz longo trecho do relatório de 1907 da Comissão Especial de Tributação de Nova York em defesa da escala progressiva. O desenho futuro que o autor antevê é de receitas federais indiretas, com algum imposto de renda constitucional; impostos estaduais sobre empresas e heranças; e o imóvel deixado aos governos locais. A síntese final é dupla: a progressão é exigida pela justiça ideal, mas"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“as dificuldades práticas para sua aplicação geral são quase insuperáveis.”",
+          "original": "“the practical difficulties in the way of its general application are well nigh insuperable”"
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o mérito de método do livro está em separar duas perguntas que o debate costuma fundir: se a progressão é justa e se ela é aplicável a um sistema tributário concreto. As razões da resposta negativa à segunda são de administração, não de princípio. O exemplo das cinco fontes de renda e o da fazenda hipotecada mostram que uma alíquota nominalmente progressiva pode produzir o contrário do pretendido quando a base é mal definida. A lição permanece: a progressividade de um sistema se mede pela incidência efetiva sobre a renda do indivíduo, não pela tabela publicada.",
+            "A discussão das tabelas de utilidade marginal também ajuda a pensar o presente. Se hipóteses igualmente razoáveis produzem escalas progressivas, proporcionais ou regressivas, a teoria do sacrifício não fornece a alíquota, apenas a pergunta. A escolha da escala depende de parâmetros que ninguém observa diretamente, e por isso a decisão continua a ser, em boa parte, política. O livro transforma essa incerteza num argumento por uma progressão moderada e por melhor administração."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto proporcional",
+          "alíquota constante: o tributo representa sempre a mesma fração da base."
+        ],
+        [
+          "Imposto progressivo",
+          "o tributo representa fração crescente da base à medida que ela aumenta."
+        ],
+        [
+          "Imposto regressivo",
+          "a alíquota efetiva cai à medida que a base aumenta."
+        ],
+        [
+          "Imposto degressivo",
+          "alíquota que sobe até um limite e depois se mantém constante; o ideal continua a ser a proporção."
+        ],
+        [
+          "Teoria do benefício",
+          "cada um paga segundo as vantagens que recebe do Estado, como num prêmio de seguro."
+        ],
+        [
+          "Teoria da faculdade (capacidade contributiva)",
+          "cada um paga segundo sua capacidade de pagar, medida por propriedade, renda ou sacrifício."
+        ],
+        [
+          "Sacrifício igual",
+          "princípio de que o imposto deve impor a cada contribuinte o mesmo ônus relativo."
+        ],
+        [
+          "Utilidade marginal",
+          "valor da última unidade de um bem ou de renda para quem a possui; tende a cair com a quantidade."
+        ],
+        [
+          "Imposto cedular (retenção na fonte)",
+          "renda dividida por fontes, cada uma tributada separadamente, em geral no pagador."
+        ],
+        [
+          "Imposto global",
+          "renda somada e tributada de uma vez, por declaração do próprio contribuinte."
+        ],
+        [
+          "Incidência",
+          "quem de fato suporta o imposto depois que ele é transferido por preços e contratos."
+        ]
+      ],
+      "hoje": "A agenda de Seligman continua em pé. A tributação ótima moderna substituiu as tabelas de utilidade por elasticidades, mas o ponto central é o mesmo: a escala ideal depende de hipóteses que a teoria não fixa sozinha. O dilema entre retenção na fonte e declaração global reaparece nos sistemas duais, que tratam de modo distinto a renda do trabalho e a do capital, e na tributação de dividendos. A herança como base privilegiada da progressividade, a evasão que cresce com a alíquota e a incidência efetiva sobre o indivíduo seguem no centro do debate.",
+      "itens": [
+        [
+          "Progressive Taxation in Theory and Practice",
+          "pp. 1–334",
+          "3000009"
+        ]
+      ],
+      "jstor_edicao": "i350433",
+      "colecao": "eua",
+      "ensaio": true
+    },
+    {
+      "slug": "1908-o-boletim-economico-dezembro",
+      "numero": 95,
+      "titulo": "O quarto Bulletin: Patten e a forma da literatura econômica",
+      "titulo_original": "The Economic Bulletin, vol. 1, no. 4 (December 1908)",
+      "autores": "American Economic Association; E. W. Kemmerer (Cornell University), editor-gerente, e conselho de editores de departamento",
+      "publicacao": "The Economic Bulletin",
+      "volume": "vol. 1, nº 4",
+      "data": "dezembro de 1908",
+      "chamada": "O número de dezembro de 1908 antecipa o discurso presidencial de S. N. Patten sobre a literatura econômica e traz o programa da reunião de Atlantic City, 31 resenhas e a bibliografia desde setembro.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "O número de dezembro de 1908 imprime um discurso que ainda não tinha sido proferido. A comissão executiva pediu que o discurso presidencial de S. N. Patten, da Universidade da Pensilvânia, marcado para 28 de dezembro em Atlantic City, saísse antes no Bulletin, para que os sócios o estudassem antes da discussão."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que contavam as notas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A reunião anual ocupa as primeiras páginas. Seria realizada em Atlantic City, de 28 a 31 de dezembro, com a American Sociological Society, a American Statistical Association e a American Association for Labor Legislation, e sede no Haddon Hall. O programa provisório inclui a teoria da negociação coletiva, por J. B. Clark, uma mesa sobre contabilidade, a responsabilidade dos empregadores por acidentes, a lei canadense de disputas industriais, a revisão da tarifa, um banco central e a capitalização das empresas de serviço público, por C. J. Bullock."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "58 alunos",
+          "texto": "Matrícula inicial da Graduate School of Business Administration de Harvard. Cerca de 26 cursam o primeiro ano em tempo integral; os demais são alunos especiais. Do total, 46 são formados em college."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ensino de negócios avança em outras frentes. A Northwestern University School of Commerce é inaugurada em 19 de outubro, e a Universidade de Minnesota abre cursos noturnos de contabilidade, com B. M. Rastall à frente da formação para as profissões de negócios. Em Londres, W. Pember Reeves sucede H. J. Mackinder na direção da London School of Economics, e E. J. Urwick sucede C. S. Loch na cátedra Tooke do King's College. Em Chicago, a School of Civics and Philanthropy começa uma investigação sobre moradia, com apoio da Russell Sage Foundation e a cargo de Edith Abbott."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Paris, a Société d'Économie Politique discute o congresso de livre-comércio realizado em Londres em agosto de 1908. Guyot resume o resultado: a proteção não se justifica do ponto de vista econômico; se tanto, só do político."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que propunha Patten?"
+        },
+        {
+          "tipo": "p",
+          "texto": "The Making of Economic Literature (pp. 290–300) compara as duas metades dos 23 anos passados desde a fundação da associação, em Saratoga. Nos periódicos, a teoria cedeu lugar à descrição; nas teses, o ensaio curto de tese nítida virou o volume pesado de fatos. Para Patten, a essência da literatura econômica está nos contrastes, como em Adam Smith a simpatia contra o interesse próprio, ou a tríade terra, trabalho e capital. O economista deveria ter o instinto do contador e do cartunista, com gráficos, diagramas e frases fortes, e escrever para o jornal e a revista. Investigações de grande escala caberiam a instituições como o Bureau of Municipal Research, a Russell Sage Foundation ou o governo nacional. A pós-graduação deveria virar escola de expressão, aliada ao direito."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Ser científico é ser popular.",
+          "original": "To be scientific is to be popular."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Nenhum economista é economista até ter dito a si mesmo: “Quisera eu ser editor.”",
+          "original": "No economist is an economist until he has said to himself, 'I wish I were an editor.'"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que livros foram resenhados?"
+        },
+        {
+          "tipo": "p",
+          "texto": "São 31 resenhas. A teoria abre com o Outlines of Economics de Richard T. Ely, revisto e ampliado, que T. N. Carver apresenta como o primeiro manual geral a tratar a fundo o princípio da produtividade decrescente. A agricultura forma um bloco: a reforma agrária de Jesse Collings, The State and the Farmer, de L. H. Bailey, um manual de agricultura preparado para o Sudoeste, os dois livros de Bolton Hall sobre pequenas propriedades e a destilação de resíduos de madeira."
+        },
+        {
+          "tipo": "p",
+          "texto": "A regulação de transportes e serviços públicos é o tema mais denso. Stuart Daggett resenha os primeiros relatórios das comissões de serviço público de Nova York e o primeiro volume de decisões da comissão ferroviária de Wisconsin, e tem seu próprio Railroad Reorganization resenhado por Harrison Standish Smalley. M. B. Hammond examina as decisões federais sob a lei antitruste de 1890; Ralph E. Heilman trata dos bondes de Chicago; J. O. Fagan, sinaleiro, escreve sobre a segurança das ferrovias americanas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 ferrovias",
+          "texto": "Base do estudo indutivo de Stuart Daggett sobre reorganizações: Baltimore and Ohio, Erie, Reading, Southern, Atchison, Union Pacific, Northern Pacific e Rock Island. O livro é o volume IV das Harvard Economic Studies."
+        },
+        {
+          "tipo": "p",
+          "texto": "Finanças e tributação aparecem com as memórias de Henry Clews em Wall Street, os trabalhos sobre tributação da Minnesota Academy of Social Sciences, a história financeira de Wisconsin de Raymond Vincent Phelan e o anuário oficial da Austrália de G. H. Knibbs, os três últimos resenhados por Carl C. Plehn. O bloco social reúne a vadiagem, o leite para lactentes, The Iron Heel, de Jack London, a ética de Dewey e Tufts, a conferência de Benjamin Kidd sobre o individualismo e livros sobre a China e o Extremo Oriente."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se organizava a bibliografia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção Recent Publications cobre obras publicadas sobretudo desde 1º de setembro de 1908, nas mesmas seções numeradas, das obras gerais e de teoria à miscelânea. Por ser o último número do volume, o de dezembro traz também o sumário e o índice do volume I."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o discurso de Patten é um diagnóstico de método antes de ser uma provocação. Ele registra o mesmo movimento que os números anteriores do Bulletin mostram, a passagem da teoria dedutiva para a coleta de fatos, mas tira dele a conclusão oposta à de quem montava tabelas: o economista deveria produzir contrastes e deixar a investigação em grande escala para instituições. O próprio número mostra o outro lado, com Daggett reconstruindo a história de oito ferrovias caso a caso. A tensão entre a ideia nítida e a evidência acumulada atravessa a profissão desde então."
+          ]
+        }
+      ],
+      "artigos": [
+        {
+          "titulo": "Personal and Miscellaneous Notes",
+          "autores": "editores",
+          "paginas": "pp. 279–289",
+          "resumo": "Programa da reunião anual de Atlantic City e das associações que se reuniam com ela, a reunião da comissão executiva, nomeações, a abertura de escolas de negócios e notícias da London School of Economics e da Société d'Économie Politique.",
+          "jstor": "222247"
+        },
+        {
+          "titulo": "The Making of Economic Literature",
+          "autores": "S. N. Patten",
+          "paginas": "pp. 290–300",
+          "resumo": "Discurso presidencial impresso antes da reunião anual, que defende textos curtos, contrastes e gráficos em lugar de volumes extensos e propõe reformar a pós-graduação como escola de expressão.",
+          "jstor": "222248"
+        },
+        {
+          "titulo": "Richard T. Ely, Outlines of Economics",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 301–302",
+          "resumo": "Edição revista e ampliada do manual universitário, que abre com a evolução da sociedade industrial e trata do princípio da produtividade decrescente.",
+          "jstor": "222249"
+        },
+        {
+          "titulo": "Jesse Collings, Land Reform: Occupying Ownership, Peasant Proprietary, and Rural Education",
+          "autores": "James B. Morman",
+          "paginas": "pp. 302–305",
+          "resumo": "Nova edição barata do livro nascido do projeto de lei de compra de terras apresentado pelo autor ao Parlamento em 1904, com uma história do sistema fundiário inglês.",
+          "jstor": "222250"
+        },
+        {
+          "titulo": "L. H. Bailey, The State and the Farmer",
+          "autores": "Henry C. Taylor",
+          "paginas": "pp. 305–307",
+          "resumo": "Livro sobre os problemas do agricultor e da vida rural e sobre o papel do governo em resolvê-los, com destaque para a fazenda abandonada como caso de reajuste.",
+          "jstor": "222251"
+        },
+        {
+          "titulo": "A. M. Ferguson e L. L. Lewis, Elementary Principles of Agriculture",
+          "autores": "D. J. Crosby",
+          "paginas": "pp. 307–308",
+          "resumo": "Manual escolar que trata a agricultura como negócio, ciência e ofício, da botânica e dos solos à criação de animais, preparado para o Sudoeste.",
+          "jstor": "222252"
+        },
+        {
+          "titulo": "Walter B. Harper, The Utilization of Wood Waste by Distillation",
+          "autores": "S. M. Woodward",
+          "paginas": "pp. 308–309",
+          "resumo": "Obra ilustrada sobre os princípios físicos e químicos da destilação da madeira e os aparelhos usados comercialmente no processo.",
+          "jstor": "222253"
+        },
+        {
+          "titulo": "Bolton Hall, Three Acres and Liberty; A Little Land and a Living",
+          "autores": "James B. Morman",
+          "paginas": "pp. 309–312",
+          "resumo": "Dois livros de um advogado interessado em questões sociais que propõem a pequena propriedade agrícola como meio de aliviar a pobreza e o congestionamento urbanos.",
+          "jstor": "222254"
+        },
+        {
+          "titulo": "Achille Viallate, L'Industrie américaine",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 312–313",
+          "resumo": "Livro para o público francês sobre a evolução industrial e a política comercial, a organização e a expansão da indústria dos Estados Unidos.",
+          "jstor": "222255"
+        },
+        {
+          "titulo": "Public Service Commission of the State of New York, First and Second Districts, Annual Report for Year 1907",
+          "autores": "Stuart Daggett",
+          "paginas": "pp. 313–315",
+          "resumo": "Relatórios dos primeiros seis meses das comissões de serviços públicos de Nova York; a do primeiro distrito, a cidade de Nova York, dedicou-se sobretudo ao transporte rápido.",
+          "jstor": "222256"
+        },
+        {
+          "titulo": "Wisconsin Railroad Commission Reports, vol. 1",
+          "autores": "Stuart Daggett",
+          "paginas": "pp. 315–317",
+          "resumo": "Primeiro volume de decisões da comissão ferroviária de Wisconsin criada em 1905, com poder sobre tarifas, classificações, vagões, contas e custo de construção das ferrovias.",
+          "jstor": "222257"
+        },
+        {
+          "titulo": "James A. Finch (ed.), Federal Anti-Trust Decisions",
+          "autores": "M. B. Hammond",
+          "paginas": "pp. 317–322",
+          "resumo": "Coletânea em dois volumes, feita por ordem do procurador-geral, dos casos julgados nos tribunais federais sob a lei antitruste de 2 de julho de 1890.",
+          "jstor": "222258"
+        },
+        {
+          "titulo": "Henry Clews, Fifty Years in Wall Street",
+          "autores": "F. W. Powell",
+          "paginas": "pp. 322–323",
+          "resumo": "Edição ampliada das memórias de um banqueiro de Wall Street, que acrescenta um resumo dos 22 anos posteriores à edição original.",
+          "jstor": "222259"
+        },
+        {
+          "titulo": "Frank L. McVey (ed.), Taxation: Papers and Proceedings of the First Annual Meeting of the Minnesota Academy of Social Sciences",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 323–325",
+          "resumo": "Nove trabalhos sobre tributação, entre eles um sobre a taxação das ferrovias de Michigan e três sobre o imposto de registro de hipotecas.",
+          "jstor": "222260"
+        },
+        {
+          "titulo": "Raymond Vincent Phelan, The Financial History of Wisconsin",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 325–326",
+          "resumo": "Tese de doutorado baseada em documentos originais, parte das investigações sobre a história financeira dos estados feitas com apoio da Carnegie Institution.",
+          "jstor": "222261"
+        },
+        {
+          "titulo": "George B. Louis Arner, Consanguineous Marriages in the American Population",
+          "autores": "William B. Bailey",
+          "paginas": "pp. 326–328",
+          "resumo": "Monografia de Columbia sobre casamentos consanguíneos nos Estados Unidos, feita com estatística escassa, monografias anteriores e genealogias de famílias.",
+          "jstor": "222262"
+        },
+        {
+          "titulo": "G. H. Knibbs, Official Year Book of the Commonwealth of Australia, 1901–1907",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 328",
+          "resumo": "Compêndio oficial de estatísticas financeiras, econômicas e sociais da Austrália, organizado pelo estatístico da Commonwealth, com mapas e gráficos.",
+          "jstor": "222263"
+        },
+        {
+          "titulo": "Jack London, The Iron Heel",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 328–329",
+          "resumo": "Romance social, na linha de Looking Backward, que narra um avanço imaginário do socialismo e sua repressão pela classe dominante.",
+          "jstor": "222264"
+        },
+        {
+          "titulo": "John Spargo, The Common Sense of the Milk Question",
+          "autores": "G. N. Lauman",
+          "paginas": "pp. 329–330",
+          "resumo": "Livro para o leitor leigo sobre os aspectos político-sociais da questão do leite, em sua maior parte uma defesa dos postos de distribuição de leite para lactentes.",
+          "jstor": "222265"
+        },
+        {
+          "titulo": "Edmond Kelly, The Elimination of the Tramp",
+          "autores": "Orlando F. Lewis",
+          "paginas": "pp. 331–333",
+          "resumo": "Proposta de colônias de trabalho para tratar a vadiagem, baseada sobretudo na colônia compulsória suíça de Witzwyl e na colônia voluntária vizinha.",
+          "jstor": "222266"
+        },
+        {
+          "titulo": "Charles Zueblin, The Religion of a Democrat",
+          "autores": "Isaac A. Loos",
+          "paginas": "pp. 333–335",
+          "resumo": "Série curta de ensaios sobre temperamento e personalidade, ortodoxia, declínio da autoridade, religião e Estado e imortalidade impessoal.",
+          "jstor": "222267"
+        },
+        {
+          "titulo": "John Dewey e James H. Tufts, Ethics",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 335–336",
+          "resumo": "Tratado de ética dividido em terços: história social e origens da moralidade, teoria ética e problemas sociais e econômicos vistos do ponto de vista ético.",
+          "jstor": "222268"
+        },
+        {
+          "titulo": "American Sociological Society, Papers and Proceedings of the Second Annual Meeting",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 336–337",
+          "resumo": "Segundo volume de atas da sociedade, com os trabalhos da reunião de Madison, em dezembro de 1907, dedicada ao conflito social.",
+          "jstor": "222269"
+        },
+        {
+          "titulo": "F. A. McKenzie, The Unveiled East",
+          "autores": "Edw. D. Jones",
+          "paginas": "pp. 337–338",
+          "resumo": "Relato dos acontecimentos no Extremo Oriente desde a guerra russo-japonesa, da política comercial japonesa às mudanças na China e à disputa pelo comércio oriental.",
+          "jstor": "222270"
+        },
+        {
+          "titulo": "Fabian Franklin, People and Problems",
+          "autores": "Isaac A. Loos",
+          "paginas": "pp. 338–339",
+          "resumo": "Coletânea de discursos e editoriais do editor do Baltimore News entre 1895 e 1908, antigo professor de matemática da Johns Hopkins.",
+          "jstor": "222271"
+        },
+        {
+          "titulo": "Robert Kennedy Duncan, The Chemistry of Commerce",
+          "autores": "Edw. D. Jones",
+          "paginas": "pp. 339–340",
+          "resumo": "Ensaios populares sobre a química de certas indústrias, escritos para levar fabricantes a usar mais a química e jovens químicos a entrar na indústria.",
+          "jstor": "222272"
+        },
+        {
+          "titulo": "William N. Brewster, The Evolution of New China",
+          "autores": "Ozro C. Gould",
+          "paginas": "pp. 340–341",
+          "resumo": "Livro de um missionário na China que dedica a primeira metade às condições políticas e industriais do país e a segunda a questões éticas e religiosas.",
+          "jstor": "222273"
+        },
+        {
+          "titulo": "Stuart Daggett, Railroad Reorganization",
+          "autores": "Harrison Standish Smalley",
+          "paginas": "pp. 341–343",
+          "resumo": "Estudo indutivo das reorganizações de oito ferrovias americanas, volume IV das Harvard Economic Studies.",
+          "jstor": "222274"
+        },
+        {
+          "titulo": "Maurice Parmelee, The Principles of Anthropology and Sociology in their Relation to Criminal Procedure",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 344–345",
+          "resumo": "Livro que leva à prática penal anglo-americana resultados da antropologia e da criminologia continentais, a partir de Beccaria e dos criminologistas italianos.",
+          "jstor": "222275"
+        },
+        {
+          "titulo": "Benjamin Kidd, Individualism and After",
+          "autores": "Charles A. Ellwood",
+          "paginas": "pp. 345–346",
+          "resumo": "Conferência Herbert Spencer de 1908, em Oxford, sobre a passagem do individualismo de Spencer para concepções mais orgânicas da vida social.",
+          "jstor": "222276"
+        },
+        {
+          "titulo": "Ralph E. Heilman, Chicago Traction: A Study of the Effort of the Public to Secure Good Service",
+          "autores": "George Ray Wicker",
+          "paginas": "pp. 346–348",
+          "resumo": "História das companhias de bondes de Chicago de 1858 até a eleição municipal de abril de 1907, publicada pela própria associação.",
+          "jstor": "222277"
+        },
+        {
+          "titulo": "J. O. Fagan, Confessions of a Railroad Signalman",
+          "autores": "Frank Haigh Dixon",
+          "paginas": "pp. 348–349",
+          "resumo": "Depoimento de um ferroviário com 27 anos de serviço, que busca o remédio para os acidentes nas ferrovias americanas numa disciplina adequada do pessoal.",
+          "jstor": "222278"
+        },
+        {
+          "titulo": "Henry A. Wise Wood, Money Hunger",
+          "autores": "Jeremiah W. Jenks",
+          "paginas": "pp. 349–351",
+          "resumo": "Livro sobre os males políticos e sociais dos métodos americanos de fazer negócios, com propostas que incluem o ensino de moral comercial e editores voltados ao bem público.",
+          "jstor": "222279"
+        },
+        {
+          "titulo": "Recent Publications",
+          "autores": "",
+          "paginas": "pp. 352–377",
+          "resumo": "Bibliografia corrente, sobretudo de obras publicadas desde 1º de setembro de 1908, com lista de periódicos indexados e seções temáticas numeradas de livros e artigos.",
+          "jstor": "222280"
+        }
+      ],
+      "glossario": [
+        [
+          "Produtividade decrescente",
+          "queda do acréscimo de produto quando se adiciona um fator de produção a outros mantidos fixos."
+        ],
+        [
+          "Reorganização ferroviária",
+          "reestruturação financeira de uma ferrovia em dificuldades, com troca de títulos e novo controle."
+        ],
+        [
+          "Comissão de serviço público",
+          "órgão estadual que regula tarifas e serviços de ferrovias, bondes e outras empresas de utilidade pública."
+        ]
+      ],
+      "hoje": "A crítica de Patten à tese volumosa soa familiar a quem acompanha o debate sobre o formato da produção acadêmica em economia: artigos longos, revisões demoradas e a disputa pela atenção do público fora da universidade. Sua aposta no gráfico e na frase curta tem paralelo nas notas de política, nos blogs de economistas e nos painéis de dados. A divisão que ele propunha, ideias para o economista e grandes investigações para instituições, também sobrevive na rotina dos institutos de estatística e dos bancos centrais.",
+      "itens": [
+        [
+          "Personal and Miscellaneous Notes",
+          "pp. 279–289",
+          "222247"
+        ],
+        [
+          "The Making of Economic Literature",
+          "pp. 290–300",
+          "222248"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 301-302",
+          "pp. 301–302",
+          "222249"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 302-305",
+          "pp. 302–305",
+          "222250"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 305-307",
+          "pp. 305–307",
+          "222251"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 307-308",
+          "pp. 307–308",
+          "222252"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 308-309",
+          "pp. 308–309",
+          "222253"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 309-312",
+          "pp. 309–312",
+          "222254"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 312-313",
+          "pp. 312–313",
+          "222255"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 313-315",
+          "pp. 313–315",
+          "222256"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 315-317",
+          "pp. 315–317",
+          "222257"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 317-322",
+          "pp. 317–322",
+          "222258"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 322-323",
+          "pp. 322–323",
+          "222259"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 323-325",
+          "pp. 323–325",
+          "222260"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 325-326",
+          "pp. 325–326",
+          "222261"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 326-328",
+          "pp. 326–328",
+          "222262"
+        ],
+        [
+          "[untitled] The Economic Bulletin (1908-12-01), page 328",
+          "pp. 328",
+          "222263"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 328-329",
+          "pp. 328–329",
+          "222264"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 329-330",
+          "pp. 329–330",
+          "222265"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 331-333",
+          "pp. 331–333",
+          "222266"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 333-335",
+          "pp. 333–335",
+          "222267"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 335-336",
+          "pp. 335–336",
+          "222268"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 336-337",
+          "pp. 336–337",
+          "222269"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 337-338",
+          "pp. 337–338",
+          "222270"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 338-339",
+          "pp. 338–339",
+          "222271"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 339-340",
+          "pp. 339–340",
+          "222272"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 340-341",
+          "pp. 340–341",
+          "222273"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 341-343",
+          "pp. 341–343",
+          "222274"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 344-345",
+          "pp. 344–345",
+          "222275"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 345-346",
+          "pp. 345–346",
+          "222276"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 346-348",
+          "pp. 346–348",
+          "222277"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 348-349",
+          "pp. 348–349",
+          "222278"
+        ],
+        [
+          "[untitled] The Economic Bulletin, (1908-12-01), pages 349-351",
+          "pp. 349–351",
+          "222279"
+        ],
+        [
+          "Recent Publications",
+          "pp. 352–377",
+          "222280"
+        ]
+      ],
+      "jstor_edicao": "i302115",
+      "colecao": "eua"
     }
   ],
   "proximas": [
-    "American Economic Association Quarterly e Economic Bulletin (1908, nº 3 e 4; 1909–1910)",
+    "American Economic Association Quarterly e Economic Bulletin (1909–1910)",
     "American Economic Review (1911–1922)"
   ]
 }
