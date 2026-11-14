@@ -29067,37 +29067,185 @@
           "texto": "Sócios da associação em 20 de abril de 1911, distribuídos por estado na tabela das notas. Somados 195 assinantes, o total chegava a 2.012. Entre 1º de fevereiro e 20 de abril haviam entrado 372 novos sócios."
         },
         {
-          "tipo": "h2",
-          "texto": "Por que três artigos sobre o mesmo plano?"
-        },
-        {
           "tipo": "p",
-          "texto": "O centro da edição é o plano que o senador Aldrich apresentara à National Monetary Commission, criando uma Reserve Association de bancos nacionais. Três autores o examinam de ângulos diferentes. Thornton Cooke, de Kansas City, vê nele a aplicação aos bancos do princípio de cooperação que já organizara ferrovias e indústrias, num país em que nenhuma das 23 mil unidades bancárias podia emitir nota de crédito."
-        },
-        {
-          "tipo": "p",
-          "texto": "Wm. A. Scott, da Universidade de Wisconsin, lista os defeitos que o plano pretende corrigir — a falta de elasticidade da moeda, o uso das reservas ligado à bolsa, a ausência de mercado para o papel comercial e o Tesouro independente — e pergunta se a instituição, com sede em Washington e quinze filiais, funcionaria sem obrigar ninguém a aderir. O. M. W. Sprague, de Harvard, discute os limites ao redesconto e o efeito multiplicador dos empréstimos do novo banco."
+          "texto": "O número de junho de 1911 traz seis artigos. Três examinam o mesmo projeto: o plano que o senador Aldrich apresentara à National Monetary Commission para criar uma Reserve Association de bancos nacionais. Os outros tratam da reciprocidade comercial com o Canadá, dos relatórios estaduais de tributação e da equação de trocas de Irving Fisher, atualizada até 1910. Seguem as resenhas, os documentos oficiais, os resumos de periódicos e as notas."
         },
         {
           "tipo": "h2",
-          "texto": "O que Hibbard via na reciprocidade com o Canadá?"
+          "texto": "A tarifa protegia mesmo o agricultor americano?",
+          "artigo": "1804299",
+          "credito": "Benjamin Horace Hibbard (Iowa State College) · “Reciprocity and the Farmer” · pp. 221–233"
         },
         {
           "tipo": "p",
-          "texto": "Benjamin Horace Hibbard, do Iowa State College, abre o número contra o argumento de que a tarifa protegia o agricultor. Com base no relatório da Tariff Board de março de 1911, mostra que os salários de trabalhadores sazonais eram do mesmo nível em Manitoba e Minnesota, e em Saskatchewan e Dakota do Norte, e que o gado valia mais no Canadá, onde o inverno era longo e o milho não crescia. Adverte que o acordo não baixaria o custo de vida e que o ganho viria da expansão do comércio."
+          "texto": "Benjamin Horace Hibbard, do Iowa State College, abre o número com o acordo de reciprocidade com o Canadá, que ele trata como uma forma de revisão e de redução da tarifa. Sua pergunta é se o agricultor americano, a classe que mais acreditara no argumento do mercado interno, tinha algo a perder com o livre comércio agrícola com o vizinho. A resposta do autor é não. Na sua descrição, por uma geração os oradores do partido tarifário apresentaram o direito sobre o trigo, a cevada ou a carne como a medida da vantagem do produtor, e o Canadá como a ameaça."
+        },
+        {
+          "tipo": "p",
+          "texto": "A evidência vem do relatório que a Tariff Board entregou ao presidente em março de 1911, que compara produção, preços e salários dos dois lados da fronteira. Em Ontário, os salários rurais eram talvez 25% menores que nos estados do Leste americano, mas os custos de produção e os preços agrícolas eram tão altos quanto nos Estados Unidos. No Oeste, os trabalhadores sazonais experientes ganhavam no mesmo nível em Manitoba e Minnesota, e em Saskatchewan e Dakota do Norte. Para Hibbard, o argumento do trabalho barato não se aplica ao Canadá."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 32 a 35",
+          "texto": "Salário mensal dos trabalhadores sazonais experientes no Oeste, dos dois lados da fronteira, numa temporada de sete ou oito meses, segundo o relatório da Tariff Board citado por Hibbard."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor admite um risco: as terras virgens do Noroeste canadense poderiam baixar, por um tempo, o valor de terras americanas de culturas semelhantes, como a abertura do vale do Red River fizera com as terras de trigo de Nova York e Wisconsin. Mas a agricultura americana se deslocava para a pecuária, os laticínios e as aves. Uma vaca valia 20% mais no Canadá, onde o inverno é longo e o milho não cresce; Ohio tinha mais ovelhas que todo o Canadá; cavalos valiam quase 25% mais do outro lado. No trigo, Hibbard sustenta que os preços americanos eram fixados no mercado mundial e que o trigo canadense, procurado para misturar ao americano, mais macio, não os derrubaria."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão separa ganhos e promessas. A reciprocidade não baixaria o custo de vida; o ganho estaria na expansão de um comércio lucrativo. Sobre a alternativa de obter o mesmo por reforma tarifária, o autor responde com uma frase seca."
         },
         {
           "tipo": "citacao",
-          "texto": "Sobre fazer o mesmo por reforma tarifária: “Sem dúvida poderíamos, mas sem dúvida não faremos.”",
-          "original": "“Without doubt we could, but without doubt we won't.”"
+          "texto": "Sem dúvida poderíamos, mas sem dúvida não faremos.",
+          "original": "Without doubt we could, but without doubt we won't."
         },
         {
           "tipo": "h2",
-          "texto": "O que dizem Seligman e Fisher?"
+          "texto": "Por que os bancos americanos não cooperavam?",
+          "artigo": "1804300",
+          "credito": "Thornton Cooke (Kansas City, Mo.) · “Financial Co-Operation and the Aldrich Plan” · pp. 234–250"
         },
         {
           "tipo": "p",
-          "texto": "Edwin R. A. Seligman, de Columbia, faz seu balanço dos relatórios de comissões de tributação. Contou quinze relatórios de comissões especiais em quatro anos, contra doze nos sete anos anteriores, e concluiu que a insatisfação com o imposto geral sobre a propriedade se tornara quase universal. Irving Fisher, de Yale, atualiza até 1910 os números da equação de trocas e decompõe a alta dos preços americanos desde 1896."
+          "texto": "Thornton Cooke, de Kansas City, parte de um contraste. Por uma geração, a cooperação foi o fator mais importante da economia americana: as ferrovias formaram grandes sistemas por acordos de tráfego e compras de linhas, e a siderurgia integrou minério, transporte e usinas. Os bancos continuavam unidades independentes, quase isoladas, e nenhuma das 23 mil podia emitir uma nota de crédito. A cooperação existente, por meio de correspondentes nas cidades e de câmaras de compensação que juntavam reservas em crises desde 1860, não garantia a nenhum banco do interior socorro num pânico geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Cooke, o plano que o senador Aldrich apresentou à National Monetary Commission estende essa cooperação. Os bancos nacionais formariam a Reserve Association of America, subscrevendo 20% do próprio capital, metade paga de início, e se agrupariam em associações locais e em quinze distritos, com uma filial cada. Três quintos dos diretores seriam eleitos com um voto por banco, o que dá peso aos pequenos: dos 7.173 bancos nacionais, 4.543 tinham capital inferior a US$ 100 mil. A associação redescontaria papel nascido de operações comerciais, e não papel da bolsa, o que, segundo o autor, afasta a ideia de um plano a serviço de Wall Street."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 530,8 milhões",
+          "texto": "Valor das exportações de algodão em bruto em 1910. Cooke usa o número para defender que os bancos nacionais possam aceitar letras de câmbio, até metade do capital, o que facilitaria financiar a safra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor prevê quem usaria a instituição. Os bancos do interior pouco a procurariam: guardavam caixa acima do mínimo legal e mantinham relações pessoais com os correspondentes, que pagavam juros sobre os depósitos. Os bancos das cidades de reserva depositariam ali o excesso de caixa, e o redesconto viria sobretudo dos grandes centros, de Nova York em especial. O ganho do banco pequeno seria indireto: seu correspondente teria crédito assegurado. Cooke propõe ligar o imposto sobre as notas à razão de reservas, por exemplo 1% com reservas de 60% e 2% com 50%. Defende o teto de 5% aos dividendos e de 20% ao fundo de reserva, e se opõe à entrada dos bancos estaduais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Conclui que o plano pouco faz além de legalizar o que os banqueiros já faziam, de modo ineficiente, com suas organizações dispersas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O plano Aldrich funcionaria sem obrigar ninguém?",
+          "artigo": "1804301",
+          "credito": "Wm. A. Scott (University of Wisconsin) · “The Aldrich Banking Plan” · pp. 251–261"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wm. A. Scott, da Universidade de Wisconsin, começa pelo inventário dos defeitos que o plano pretende corrigir: a falta de elasticidade da moeda; o uso pouco econômico das reservas bancárias, sua ligação com a bolsa e seu controle por Wall Street; a falta de um mercado seguro para o papel comercial de primeira linha; a ausência de uma letra que trouxesse no próprio corpo a prova de sua origem; e o Tesouro independente. Reconhece que uma instituição central em Washington, com quinze filiais, emissora e agente de reservas dos bancos nacionais, atacaria esses pontos. A pergunta é se ela de fato funcionaria."
+        },
+        {
+          "tipo": "p",
+          "texto": "Como nenhum banco seria obrigado a aderir, tudo depende dos incentivos. Scott lista quatro: o redesconto, contar o saldo na associação como reserva legal, as transferências entre filiais e o envio de notas sem custo. E três compensações: a perda dos juros pagos pelos agentes de reserva, a imobilização de 20% do capital em ações da associação e o dividendo máximo de 5%. Para os bancos do interior, distantes das filiais e com pouco papel de prazo curto, os custos quase anulariam o benefício. Restariam os bancos das cidades de reserva, o que daria à associação um capital de cerca de US$ 80 milhões."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 580,1 milhões",
+          "texto": "Títulos federais a 2% que os bancos nacionais mantinham como garantia de emissão em 31 de outubro de 1910, segundo o Comptroller of the Currency. O plano obrigaria a associação a oferecer-se para comprá-los durante um ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí as dúvidas do autor. Com esse capital, a compra dos títulos consumiria depósitos e poderia deixar a instituição sem caixa. A parcela de notas sem imposto, de cerca de US$ 600 milhões ou US$ 750 milhões conforme a leitura do projeto, ficaria toda em circulação permanente, sem sobra para a demanda sazonal. Sem os bancos do interior, e com filiais mal distribuídas pelo país, a associação tenderia a ser uma instituição de emergência, com pouca influência sobre a taxa de desconto em tempos normais. A influência de Wall Street lhe parece remota; a crítica que faz é à complexidade da administração."
+        },
+        {
+          "tipo": "p",
+          "texto": "A sugestão final amplia o alcance: acesso ao mercado aberto, ligação com bancos estaduais e trust companies, papel bancável contado como reserva e filiais conforme a experiência. Nesse desenho, conclui Scott, os bancos nacionais teriam interesse claro em aderir."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto crédito o novo banco poderia criar?",
+          "artigo": "1804302",
+          "credito": "O. M. W. Sprague (Harvard University) · “The Aldrich Plan for Monetary Legislation” · pp. 262–271"
+        },
+        {
+          "tipo": "p",
+          "texto": "O. M. W. Sprague, da Universidade Harvard, apoia o plano e prevê melhora material do sistema bancário se ele for adotado como está, mas prefere concentrar-se nas emendas que facilitariam sua aprovação ou o tornariam mais útil. A organização complexa, a seu ver, responde a objeções políticas e regionais. Ele acrescentaria um limite: entre os diretores escolhidos pelo capital dos bancos e os escolhidos pelo próprio conselho, no máximo três de um mesmo distrito e cinco de distritos vizinhos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A preocupação maior está nos empréstimos. O projeto exige taxa uniforme em todo o país, embora os juros no Oeste e no Sul sejam mais altos que no Leste; em Oklahoma, de 8% para cima. Sem a taxa como freio, o banco poderia ver seus empréstimos concentrados nas regiões de crédito caro e papel menos líquido. O redesconto direto de papel de até 28 dias está bem limitado; o de papel de até quatro meses garantido pelas associações locais, não. Sprague propõe restringir essas garantias à metade do capital de cada banco."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central é o efeito multiplicador. Como os bancos mantinham reservas de cerca de um quinto dos depósitos, cada dólar emprestado pela Reserve Association que se tornasse saldo de outro banco poderia sustentar cerca de cinco vezes esse valor em empréstimos. Por isso, conclui, os recursos da associação devem atender necessidades temporárias, e não oferecer uma acomodação constante."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "50%",
+          "texto": "Razão entre reservas e obrigações à vista no balanço inicial que Sprague estima para a Reserve Association: US$ 600 milhões em espécie e notas legais contra US$ 1,2 bilhão em notas emitidas e depósitos do governo e dos bancos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mesmo balanço mostra o risco oposto, o de recursos escassos. Com capital pago de até US$ 125 milhões, cerca de US$ 100 milhões do governo e US$ 400 milhões de depósitos bancários, quase tudo ficaria em reserva. Sprague sugere reforçá-la retendo parte dos cerca de US$ 900 milhões em certificados de ouro em circulação e trocando-os por notas próprias, mas o imposto progressivo sobre as emissões o impede; propõe que o imposto varie com a razão de reservas. Para atrair os bancos estaduais, quer reservas definidas pela natureza do negócio, e não pela cidade: 25% para quem atuar como agente de reserva."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "sprague-plano-aldrich",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o imposto geral sobre a propriedade perdia apoio?",
+          "artigo": "1804303",
+          "credito": "Edwin R. A. Seligman (Columbia University) · “Recent Reports on State and Local Taxation” · pp. 272–295"
+        },
+        {
+          "tipo": "p",
+          "texto": "Edwin R. A. Seligman, da Universidade Columbia, retoma o balanço que fazia de tempos em tempos dos relatórios de comissões estaduais e municipais de tributação. Os números indicam aceleração: em 1908 saíram seis relatórios de comissões especiais, e três em cada um dos anos seguintes, o que dá quinze em quatro anos, contra doze nos sete anos anteriores. A novidade são as comissões permanentes, já presentes em dezoito estados, algumas com poderes reais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas cidades, o autor descreve três casos. Em Nova York, o limite de dívida de 10% do valor avaliado dos imóveis travava o metrô, e a comissão consultiva propôs excluir do limite os títulos de empreendimentos que se pagam sozinhos. Em Baltimore, a tributação de títulos a uma alíquota fixa de três milésimos elevou as avaliações de cerca de 6 milhões de dólares em 1896 para mais de 150 milhões em 1907. Pittsburg discutia abolir a classificação de imóveis em urbanos, rurais e agrícolas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2.281",
+          "texto": "Pessoas que constavam como donas de títulos nos registros de Baltimore em 1907, numa população de 550 mil. O comitê consultivo concluiu que os métodos de avaliação não alcançavam essa forma de riqueza."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os relatórios estaduais repetem o diagnóstico com variações. Massachusetts, Ohio, Louisiana, Vermont, Maine, Nova Hampshire, Rhode Island, Kentucky, Illinois e Pensilvânia apontam a falência do imposto sobre bens pessoais intangíveis e recomendam, em combinações diferentes, emendas constitucionais para permitir a classificação, comissões estaduais com poderes, avaliação centralizada, separação entre receitas estaduais e locais e impostos sobre heranças. Há divergências: uma comissão especial de Massachusetts concluiu contra a classificação, e a de Nova Hampshire preferia isentar dinheiro e créditos. A Califórnia aprovou no outono de 1910 a separação das receitas; no Kansas, a comissão multiplicou as avaliações por cerca de seis."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seligman fecha com cinco conclusões. A insatisfação com o imposto geral sobre a propriedade tornou-se quase universal. Cresce o reconhecimento da fraqueza da avaliação local, que ele associa à “anarquia americana da autonomia local” (American anarchy of local autonomy), expressão de Sidney Webb. Difunde-se a separação de receitas. A busca de substitutos para o imposto sobre bens pessoais apenas começa. E as comissões recorrem cada vez mais ao especialista e ao economista profissional."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a equação de trocas mostra sobre os preços até 1910?",
+          "artigo": "1804304",
+          "credito": "Irving Fisher (Yale University) · “The Equation of Exchange, 1896-1910” · pp. 296–305"
+        },
+        {
+          "tipo": "p",
+          "texto": "Irving Fisher, da Universidade Yale, estende até 1910 as estimativas de The Purchasing Power of Money, que cobriam 1896 a 1909, e redesenha o diagrama principal do livro. A base é a equação de trocas, MV + M'V' = PT: a moeda em circulação (M) multiplicada por sua velocidade (V), somada aos depósitos movimentáveis por cheque (M') vezes a velocidade deles (V'), iguala o nível de preços (P) vezes o volume de comércio (T). Para Fisher, P é em geral o elemento passivo, determinado pelos outros cinco. Cada magnitude foi estimada de forma independente e depois ajustada para fechar a equação; os ajustes raramente passaram de 1%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O diagrama é uma balança: à esquerda, a bolsa de moedas e a caderneta bancária, penduradas à distância de suas velocidades; à direita, a bandeja de mercadorias, à distância do nível de preços. Entre 1896 e 1910, a moeda quase dobrou, de 0,88 para 1,64 bilhão de dólares, os depósitos quase triplicaram, o comércio dobrou e os preços subiram três quartos. A velocidade dos depósitos atingiu em 1909 e 1910 níveis sem precedentes, sinal, para o autor, de saldos bancários muito pequenos diante dos gastos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "72%",
+          "texto": "Alta do nível de preços entre 1896 e 1910, de 60,3 para 104,0. Sem o aumento da moeda, calcula Fisher, os preços teriam caído 7%; sem a alta relativa dos depósitos, subiriam 25%; sem a alta da velocidade deles, 24%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O cálculo contrafactual ordena as causas: a quantidade de moeda é a mais importante, a velocidade da moeda a menos importante, e os depósitos relativos e sua velocidade ficam a meio caminho. Por trás delas, Fisher aponta a produção mundial de ouro, a concentração da população nas cidades e a expansão bancária; o ouro seria de longe o fator principal, e as tarifas teriam efeito pequeno. A parcela dos pagamentos feitos em dinheiro caiu de 14% para 8%, e a dos cheques subiu de 86% para 92%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A previsão é declarada provisória: contração em 1911, sem crise, e retomada da expansão em um ou dois anos, com uma possível crise, se ocorrer, entre 1913 e 1916. A conclusão vai além da conjuntura: os economistas deveriam estudar a sério o controle do poder de compra da moeda."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "fisher-equacao-de-trocas",
+          "texto": "Ler o comentário completo"
         },
         {
           "tipo": "h2",
@@ -29550,28 +29698,28 @@
           "autores": "Benjamin Horace Hibbard (Iowa State College)",
           "paginas": "pp. 221–233",
           "jstor": "1804299",
-          "resumo": "Hibbard examina o acordo de reciprocidade com o Canadá do ponto de vista do agricultor americano. Usa o relatório da Tariff Board de março de 1911 para mostrar que salários agrícolas eram semelhantes dos dois lados da fronteira no Oeste e que o gado valia mais no Canadá. Admite que terras virgens canadenses poderiam pressionar o valor de algumas terras americanas, mas lembra que a agricultura americana se deslocava para a pecuária e os laticínios. Adverte que a reciprocidade não baixaria o custo de vida; o ganho estaria na expansão do comércio."
+          "resumo": "Hibbard sustenta, com base no relatório da Tariff Board de março de 1911, que a reciprocidade com o Canadá não prejudicaria o agricultor americano."
         },
         {
           "titulo": "Financial Co-Operation and the Aldrich Plan",
           "autores": "Thornton Cooke (Kansas City, Mo.)",
           "paginas": "pp. 234–250",
           "jstor": "1804300",
-          "resumo": "Cooke trata o plano Aldrich como uma forma de cooperação entre bancos, princípio que ferrovias e indústrias já haviam explorado. Lembra que nenhuma das 23 mil unidades bancárias do país podia emitir nota de crédito e que a cooperação existente, via correspondentes e câmaras de compensação, não protegia os bancos pequenos num pânico. Descreve a Reserve Association, a subscrição de 20% do capital e as associações locais, defende que ela fique restrita aos bancos nacionais e conclui que o plano legalizaria, de modo mais eficiente, o que os bancos já faziam."
+          "resumo": "Cooke descreve o plano Aldrich como uma forma de cooperação entre bancos e examina quais bancos usariam a Reserve Association."
         },
         {
           "titulo": "The Aldrich Banking Plan",
           "autores": "Wm. A. Scott (University of Wisconsin)",
           "paginas": "pp. 251–261",
           "jstor": "1804301",
-          "resumo": "Scott enumera os defeitos que o plano Aldrich pretende corrigir: falta de elasticidade, uso pouco econômico das reservas e sua ligação com a bolsa, ausência de mercado para o papel comercial e os efeitos do Tesouro independente. Descreve a instituição central em Washington, com quinze filiais, e pergunta se ela funcionaria sem compulsão, já que nenhum banco seria obrigado a aderir. Julga remota a influência de Wall Street e critica a complexidade da administração. Sugere ampliar o alcance da Reserve Association, com acesso ao mercado aberto e a bancos estaduais."
+          "resumo": "Scott pergunta se a Reserve Association funcionaria sem adesão obrigatória e sugere ampliar seu alcance."
         },
         {
           "titulo": "The Aldrich Plan for Monetary Legislation",
           "autores": "O. M. W. Sprague (Harvard University)",
           "paginas": "pp. 262–271",
           "jstor": "1804302",
-          "resumo": "Sprague apoia o plano, mas propõe emendas. Limitaria a representação regional no conselho, critica a taxa de redesconto uniforme e sugere restringir as garantias das associações locais à metade do capital de cada banco. Mostra que os empréstimos regulares da Reserve Association se multiplicariam no sistema e defende que sirvam a necessidades temporárias. Estima um balanço inicial com 50% de reserva, propõe tributar as notas conforme a razão de reservas e sugere reservas definidas pela natureza do negócio de cada banco.",
+          "resumo": "Sprague apoia o plano Aldrich e propõe emendas sobre representação regional, garantias, imposto sobre as notas e reservas.",
           "ensaio_slug": "sprague-plano-aldrich"
         },
         {
@@ -29579,14 +29727,14 @@
           "autores": "Edwin R. A. Seligman (Columbia University)",
           "paginas": "pp. 272–295",
           "jstor": "1804303",
-          "resumo": "Seligman faz seu balanço periódico dos relatórios de comissões estaduais e municipais de tributação. Conta quinze relatórios de comissões especiais em quatro anos, contra doze nos sete anos anteriores, e registra a novidade das comissões permanentes com mais poderes. Examina as propostas de Nova York, Baltimore e Pittsburg e de vários estados. Conclui que a insatisfação com o imposto geral sobre a propriedade se tornara quase universal e aponta como avanços a centralização da avaliação, a separação entre receitas estaduais e locais e a crescente participação de economistas profissionais."
+          "resumo": "Seligman faz o balanço dos relatórios de comissões estaduais e municipais de tributação publicados em quatro anos."
         },
         {
           "titulo": "\"The Equation of Exchange,\" 1896-1910",
           "autores": "Irving Fisher (Yale University)",
           "paginas": "pp. 296–305",
           "jstor": "1804304",
-          "resumo": "Fisher estende até 1910 as estimativas da equação de trocas de The Purchasing Power of Money e redesenha o diagrama da balança. Mostra que a moeda quase dobrou, os depósitos quase triplicaram e os preços subiram 72% desde 1896. Calcula o peso de cada fator, atribui o principal papel ao ouro e aponta a alta inédita da velocidade dos depósitos. Prevê uma contração em 1911 e, provisoriamente, uma crise entre 1913 e 1916, e conclui pedindo que os economistas estudem o controle do poder de compra da moeda.",
+          "resumo": "Fisher atualiza até 1910 a equação de trocas e decompõe a alta dos preços americanos desde 1896.",
           "ensaio_slug": "fisher-equacao-de-trocas"
         },
         {
