@@ -49,7 +49,7 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
                 secoes[atual] += len((" ".join(txt) if isinstance(txt, list) else txt).split())
         for x in ed.get("artigos", []):
             t0 = orig.get(x.get("jstor"), "")
-            if t0.startswith(("[untitled]", "New Books")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^\[.*\]: ", t0):
+            if t0.startswith(("[untitled]", "New Books")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|Program|^\[.*\]: ", t0):
                 continue
             n = len(x.get("resumo", "").split())
             if secoes:

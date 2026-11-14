@@ -36405,6 +36405,2661 @@
           "hoje": "A pergunta de Mitchell voltou por vários caminhos. A teoria da produção doméstica tratou a família como uma pequena fábrica que combina tempo e bens. A economia comportamental documentou erros sistemáticos de consumo e poupança e passou a desenhar regras que ajudam a decidir. O consumo de status segue estudado como fonte de gasto excessivo. E a provisão pública de serviços, de creches a parques, continua a ser discutida como forma de organizar o consumo em escala maior que a da família."
         }
       ]
+    },
+    {
+      "slug": "1912-precos-mundiais-e-tarifas",
+      "numero": 120,
+      "titulo": "Setembro de 1912: a maré dos preços, o algodão e a tarifa",
+      "titulo_original": "The American Economic Review, vol. 2, no. 3 (September 1912)",
+      "autores": "Irving Fisher (Yale University), Melvin T. Copeland (New York University), Harry Brookings Wallace (St. Louis), Allyn A. Young (Washington University), Lewis H. Haney (University of Texas), Herbert E. Mills e resenhistas",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 2, nº 3",
+      "data": "setembro de 1912",
+      "chamada": "Fisher prevê que os preços mundiais seguirão subindo, Copeland lê o relatório da Tariff Board sobre o algodão, Wallace propõe uma tarifa que se ajusta sozinha e Young e Haney revisitam Jevons e o custo de oportunidade.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos de 1911, segundo as contas de Irving Fisher, 92% de todas as transações eram feitas por cheque. É desse dado, quase escondido no meio de um artigo de 28 páginas, que Fisher, da Yale University, tira a sua previsão para os preços mundiais na abertura do número de setembro de 1912 da American Economic Review."
+        },
+        {
+          "tipo": "p",
+          "texto": "É o terceiro número do segundo ano da revista. Traz cinco artigos: a previsão de Fisher, duas leituras da política tarifária americana, uma por Melvin T. Copeland, sobre o relatório da Tariff Board para o algodão, e outra por Harry Brookings Wallace, com uma proposta de reforma; um balanço de Allyn A. Young sobre a Theory of Political Economy de Jevons; e a resposta de Lewis H. Haney à tese do custo de oportunidade. Completam a edição uma comunicação de Herbert E. Mills, cerca de sessenta resenhas organizadas por área, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A alta dos preços mundiais vai continuar?",
+          "artigo": "1804590",
+          "credito": "Irving Fisher (Yale University) · “Will the Present Upward Trend of World Prices Continue?” · pp. 531–558"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fisher pergunta se a alta do custo de vida vai continuar e sustenta que a resposta exige separar o nível geral de preços, como a maré, dos preços particulares, como as ondas. Pela equação de trocas, o nível de preços depende só de cinco grandezas: a moeda em circulação, os depósitos movimentados por cheque, as velocidades de ambos e o volume de comércio; trustes, tarifas, sindicatos ou intermediários só contam na medida em que afetam essas cinco. Daí um primeiro erro que ele aponta no debate: supor que os preços cairão assim que a produção de ouro diminuir, quando o que importa é o estoque, não o fluxo anual."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com dados de 1896 a 1911 para os Estados Unidos, mostra que os depósitos cresceram 7,3% ao ano e o uso de cheques 9,5%, contra 5,3% do comércio e 4,2% da moeda. Para o mundo do padrão-ouro, monta estimativas aproximadas a partir de relatórios do Comptroller, compensações bancárias, ferrovias, correios e navegação. Depois de ajustes que declara arbitrários, conclui que os preços vinham subindo cerca de 2,5% ao ano porque os meios de pagamento cresciam 7% e o comércio só 4,5%; o motor principal era a expansão dos depósitos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "2% ao ano",
+          "texto": "Alta provável dos preços no mundo do padrão-ouro, segundo Fisher, de um índice 100 em 1911 para 134 em 1926. Nos Estados Unidos, entre 1896 e 1911, os depósitos sujeitos a cheque cresceram 7,3% ao ano, o uso de cheques 9,5%, o comércio 5,3% e a moeda 4,2%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Examina então cada fator. O ouro continuaria a acrescentar pelo menos 2% ao ano ao estoque monetário; a Índia e o Egito, que entesouravam metal, tenderiam a desentesourar com a difusão dos bancos, o que aumentaria a velocidade; o uso de cheques ainda se espalhava pela Europa continental e pelo Japão; e o comércio, por causa da ocupação das terras e do crescimento mais lento da população, tenderia a crescer mais devagar. Num cenário que chama de provável, os preços subiriam 2% ao ano, de 100 em 1911 para 134 em 1926; num cenário conservador, ficariam estáveis. Pelo cálculo de probabilidades, estima em menos de uma em cem a chance de que não subam em quinze anos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fisher admite interrupções por crises a cada década, como a de 1907. Conclui que o mundo verá por muitos anos uma maré de preços em rápida subida."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "fisher-tendencia-dos-precos-mundiais",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A tarifa do algodão protegia o quê?",
+          "artigo": "1804591",
+          "credito": "Melvin T. Copeland (New York University) · “The Report of the Tariff Board on Cotton Manufactures” · pp. 559–567"
+        },
+        {
+          "tipo": "p",
+          "texto": "Copeland examina o relatório da Tariff Board sobre as manufaturas de algodão, o Schedule I da tarifa americana, e sustenta que suas conclusões, se usadas na legislação, exigem reduções substanciais dos direitos. A investigação cobriu 81 fiações e tecelagens, com 5.210.836 fusos e 133.761 teares, cerca de um quinto do total do país, e apenas 17 fábricas de malhas. As comparações principais foram com os custos ingleses na fiação, tecelagem e acabamento, e com os alemães nas malhas. Como o algodão em rama não custava mais nos Estados Unidos e não pagava direito, só os custos de fabricação foram estudados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na fiação, a comissão comparou a fiação de anel americana com a fiação de mule inglesa, a técnica predominante em cada país, e confrontou a fábrica de menor custo de cada lado. Para os fios mais produzidos, o menor custo inglês, sem matéria-prima, era cerca de 73% do menor custo americano; com a matéria-prima, o fio americano saía só de 3,8% a 11,9% mais caro. Em alguns casos o direito chegava a quase seis vezes a diferença de custo de fabricação, o que leva Copeland a duvidar de que a tarifa beneficiasse muito os operários das fiações."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na tecelagem, sem acesso aos livros ingleses, a comissão comparou preços. As importações de tecidos equivaliam a 1,79% da produção nacional em 1909-10. Em 78 tecidos comuns, os fabricantes americanos cobravam menos em 53 e o mesmo em dois; a produção por tecelão era, nos tecidos simples, às vezes cinco vezes maior que na Inglaterra, graças a máquinas e métodos adaptados. Copeland conclui que todos os direitos sobre tecidos deveriam ser reduzidos e muitos eliminados. No acabamento, o adicional de direito sobre o tecido cru costumava superar todo o custo do processo; nas malhas, o relatório lhe parece insuficiente, por não comparar técnicas equivalentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Copeland nota ainda que o preço ao consumidor era mais alto que no exterior por causa dos custos de distribuição, e que salários maiores não significavam, necessariamente, custo de mão de obra maior. Apesar das lacunas, julga o relatório útil e conclui que ele prova a necessidade de revisão genuína para baixo dos direitos sobre o algodão."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Para Copeland, o relatório prova que deve haver uma “verdadeira revisão para baixo dos direitos sobre os artigos de algodão”.",
+          "original": "“it proves that there should be a genuine downward revision of the duties on cotton goods”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "E se o protegido pagasse pela proteção?",
+          "artigo": "1804592",
+          "credito": "Harry Brookings Wallace (St. Louis) · “A Balanced Tariff” · pp. 568–575"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wallace parte de uma constatação política: há demanda insistente por redução da tarifa, e a revisão de um schedule por vez, então favorecida, tem vantagens sobre as revisões gerais, porque reduz o choque sobre a indústria e as trocas de votos. Mas ela traz um problema fiscal. Nas revisões gerais, uma perda de receita num item era compensada por aumentos em outros; revisando aos poucos e para baixo, a receita alfandegária cairia de forma contínua, e seria preciso indicar de onde viria o dinheiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta é simples: todo fabricante ou produtor de um bem protegido pagaria um imposto federal de consumo igual a uma fração fixa, digamos 5%, do direito de importação sobre aquele bem, e uma comissão tarifária permanente receberia pedidos de revisão e faria recomendações ao Congresso. Wallace espera cinco efeitos. Os produtores que não precisassem de proteção pediriam a retirada do direito, limpando os itens mortos da tarifa. Os que tivessem proteção excessiva pediriam redução: com direito de 50%, o imposto custaria 2,5% do valor do produto; com 20%, apenas 1%. Monopólios protegidos, que hoje nada pagam pela proteção, teriam um ônus que cresce com o preço que desejam cobrar, o que os levaria em muitos casos a preferir preços menores."
+        },
+        {
+          "tipo": "p",
+          "texto": "O imposto também seria uma fonte grande e elástica de receita e, como imposto indireto, segura do ponto de vista constitucional. Com os dados do censo de manufaturas de 1905, Wallace estima que a produção protegida somava US$ 13.584 milhões e que o imposto teria rendido US$ 290.318.000; somado aos US$ 166.967.000 de direitos sobre os mesmos artigos, o total superaria os US$ 261.799.000 efetivamente arrecadados pela alfândega naquele ano. Bastaria, assim, um imposto de 1,5% dos direitos para manter a receita, o que permitiria reduzir ou abolir direitos sobre açúcar, lã, arroz e outros bens de primeira necessidade."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 290 milhões",
+          "texto": "Receita que o imposto de 5% sobre os direitos teria rendido em 1905, pelas contas de Wallace, sobre uma produção protegida de US$ 13.584 milhões. Somada aos direitos sobre os mesmos artigos, chegaria a US$ 457.285.000, contra US$ 261.799.000 de receita alfandegária efetiva."
+        },
+        {
+          "tipo": "p",
+          "texto": "Wallace reconhece que o consumidor pagaria o imposto nos bens produzidos em concorrência, mas lembra que ele já paga os direitos atuais. Conclui que a tarifa equilibrada não abandona o princípio protecionista: confia menos nas estatísticas de custos comparados e mais no interesse dos próprios protegidos, que não quereriam pagar por mais proteção do que precisam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que resta da teoria de Jevons?",
+          "artigo": "1804593",
+          "credito": "Allyn A. Young (Washington University, St. Louis) · “Jevons' Theory of Political Economy” · pp. 576–589"
+        },
+        {
+          "tipo": "p",
+          "texto": "Young parte da quarta edição da Theory of Political Economy de W. Stanley Jevons, organizada pelo filho, H. S. Jevons, em 1911, e aproveita o aniversário de cinquenta anos do primeiro texto de Jevons sobre a teoria, enviado em 1862 à British Association, para reavaliar o livro. Reconstrói a origem das ideias: Jevons formou sua convicção lendo economia em Sydney, onde foi ensaiador da Casa da Moeda de 1854 a 1859, e já em cartas de 1860 ao irmão anunciava a lei da utilidade decrescente e uma nova teoria do capital e dos juros. O livro de 1871, segundo Young, pouco acrescenta ao que as cartas prometiam, e foi recebido com frieza na Inglaterra e com mais interesse no continente."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese central é que o livro é desigual e assistemático, mas importante. Young sustenta que a psicologia hedonista de Jevons pode ser separada de suas teorias de troca e distribuição sem perda essencial, e que o grau final de utilidade, embora próximo da utilidade marginal, é conceito mais preciso, independente da unidade de medida. A equação de trocas entre dois negociantes, porém, pressupõe a lei da indiferença, um só preço num mercado, o que equivale a supor uma moeda; e o conceito de corpo negociante, que trata grupos como indivíduos, contorna mais do que resolve o problema do mercado geral."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte que Young mais destaca é a teoria da distribuição dos últimos capítulos, pouco lida. Jevons definiu o capital como o estoque de subsistência dos trabalhadores e atribuiu a produtividade decrescente ao prazo do investimento, e não ao montante investido; por isso sua teoria dos juros, que poucos reconheceram como antecipação da teoria da produtividade marginal, fica mais próxima da superioridade técnica dos bens presentes de Böhm-Bawerk. Sua teoria dos salários como resíduo vem de tratar o trabalho como fator fixo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre o método, Young observa que o livro é matemático só na superfície: Jevons não era matemático hábil, e suas equações são algébricas. A influência é difícil de isolar, mas clara em Edgeworth e Wicksteed. Conclui que, embora Jevons não tenha feito a revolução que desejava, a teoria corrente seria outra sem ele, e o livro permanece entre os quatro ou cinco grandes da economia política inglesa do século XIX."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Young subscreve o juízo de Marshall de que “o livro melhoraria se a matemática fosse omitida, mas os diagramas mantidos”.",
+          "original": "“the book would be improved if the mathematics were omitted, but the diagrams retained”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "young-teoria-de-jevons",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A alternativa abandonada é um custo?",
+          "artigo": "1804594",
+          "credito": "Lewis H. Haney (University of Texas) · “Opportunity Cost” · pp. 590–600"
+        },
+        {
+          "tipo": "p",
+          "texto": "Haney parte de uma distinção que, a seu ver, nenhum economista manteve com coerência: o ponto de vista social e o individual. O conceito de custo, diz, foi o último a cair nessa confusão, e o principal responsável é H. J. Davenport, cujo artigo Cost and Its Significance saíra na revista em dezembro de 1911. Haney quer mostrar três coisas: que o raciocínio do custo de oportunidade incorre em petição de princípio; que a oportunidade não é custo em nenhum sentido que determine preços; e que a importância do ponto de vista do empresário foi exagerada."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a primeira tese, usa o exemplo do próprio debate. Um empresário vende chapéus a US$ 2, com desembolso e esforço equivalentes a US$ 1,75; com o mesmo esforço, poderia vender sapatos a US$ 1,90. O teórico da oportunidade diria que o custo do chapéu é US$ 1,90, porque abaixo disso o empresário mudaria de ramo. Haney responde que ganho e vantagem são conceitos líquidos, que só existem depois de conhecidos os preços; usar o preço dos sapatos para explicar o preço dos chapéus é tomar como dado aquilo que se pretende explicar. A margem verdadeira, acrescenta, é aquela em que a venda apenas cobre as despesas, e o produtor de US$ 1,90 ainda ganha 15 centavos acima do custo absoluto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a segunda, critica os exemplos de Davenport, a criança que larga a pera para salvar o pêssego e o comprador que escolhe um livro em vez de uma faca. O que se sacrifica, diz, é o dólar ganho com o trabalho, não a faca; a escolha é apenas uma comparação de utilidades. Dois produtores com o mesmo esforço, um com alternativa e outro sem, recebem o mesmo preço e têm o mesmo ganho. A oportunidade é um índice, não uma força que limita a oferta; o custo, em sentido próprio, é o sacrifício necessário para criar utilidades."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na terceira parte, Haney liga o custo de oportunidade a uma noção ultraindividualista de produção, que trataria como produtivo qualquer ganho individual, inclusive o roubo, e a uma análise que não seria de fato competitiva. Conclui que o custo do empresário deve ser procurado nos riscos da direção responsável de um negócio, um custo fundamental que limita a oferta como o esforço do trabalho."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as resenhas, Richard T. Ely trata dos Principles of Economics de F. W. Taussig; Allyn A. Young, de dois livros sobre trustes; Wesley C. Mitchell, do estudo de preços de Walter T. Layton; e Jeffrey R. Brackett, de Grants in Aid, de Sidney Webb. Na comunicação, Mills cita o diário de William Owen, de 1824, para sustentar que os Owen usavam a palavra socialista antes de 1833. Os documentos abrem com uma estimativa do balanço de pagamentos americano no ano fiscal de 1910, e as notas anunciam o Fifteenth International Congress on Hygiene and Demography, em Washington, de 23 a 28 de setembro."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número inteiro gira em torno de uma mesma pergunta de método: o que entra na conta. Fisher insiste que o nível de preços depende do estoque de moeda e de depósitos, e não do fluxo anual de ouro; Copeland mostra que a comparação de custos depende de quais fábricas se comparam e de como se rateiam as despesas gerais; Wallace troca a estatística de custos pelo interesse dos próprios protegidos; Haney discute se a alternativa abandonada pertence ou não ao custo. Em todos os casos, a conclusão muda conforme a definição adotada antes de qualquer número."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Equação de trocas",
+          "identidade MV + M'V' = PT, que liga moeda, depósitos, suas velocidades, nível de preços e volume de comércio."
+        ],
+        [
+          "Depósitos sujeitos a cheque",
+          "saldos bancários movimentados por cheque; na notação de Fisher, M'."
+        ],
+        [
+          "Padrão-ouro",
+          "regime em que a unidade monetária é definida por um peso fixo de ouro."
+        ],
+        [
+          "Tariff Board",
+          "comissão criada pelo presidente Taft para levantar custos de produção e orientar a revisão da tarifa."
+        ],
+        [
+          "Custo de conversão",
+          "custo de fabricação excluída a matéria-prima, termo usado no relatório sobre o algodão."
+        ],
+        [
+          "Custo de oportunidade",
+          "valor da melhor alternativa abandonada ao escolher um uso para recursos."
+        ],
+        [
+          "Grau final de utilidade",
+          "termo de Jevons para a utilidade da última porção consumida de um bem, por unidade."
+        ]
+      ],
+      "hoje": "Os dois temas centrais seguem em debate. A previsão de inflação ainda parte de uma pergunta parecida com a de Fisher: quanto crescem a moeda e o crédito bancário em relação à produção, e se a velocidade de circulação é estável. E a política comercial continua a discutir se uma tarifa deve compensar diferenças de custo, quem paga por ela e como se mede o custo de um produtor diante dos concorrentes externos.",
+      "itens": [
+        [
+          "Will the Present Upward Trend of World Prices Continue?",
+          "pp. 531–558",
+          "1804590"
+        ],
+        [
+          "The Report of the Tariff Board on Cotton Manufacturers",
+          "pp. 559–567",
+          "1804591"
+        ],
+        [
+          "A Balanced Tariff",
+          "pp. 568–575",
+          "1804592"
+        ],
+        [
+          "Jevons' \"Theory of Political Economy.\"",
+          "pp. 576–589",
+          "1804593"
+        ],
+        [
+          "Opportunity Cost",
+          "pp. 590–600",
+          "1804594"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 601-605",
+          "pp. 601–605",
+          "1804595"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 605-606",
+          "pp. 605–606",
+          "1804596"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 606-607",
+          "pp. 606–607",
+          "1804597"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 607-608",
+          "pp. 607–608",
+          "1804598"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-09-01), page 609",
+          "pp. 609",
+          "1804599"
+        ],
+        [
+          "New Books",
+          "pp. 610",
+          "1804600"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 611-612",
+          "pp. 611–612",
+          "1804601"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 612-613",
+          "pp. 612–613",
+          "1804602"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 613-615",
+          "pp. 613–615",
+          "1804603"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 615-616",
+          "pp. 615–616",
+          "1804604"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 616-617",
+          "pp. 616–617",
+          "1804605"
+        ],
+        [
+          "New Books",
+          "pp. 617–620",
+          "1804606"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 620-624",
+          "pp. 620–624",
+          "1804607"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 624-625",
+          "pp. 624–625",
+          "1804608"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-09-01), page 626",
+          "pp. 626",
+          "1804609"
+        ],
+        [
+          "New Books",
+          "pp. 626–627",
+          "1804610"
+        ],
+        [
+          "New Books",
+          "pp. 627",
+          "1804611"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 627-629",
+          "pp. 627–629",
+          "1804612"
+        ],
+        [
+          "New Books",
+          "pp. 629–630",
+          "1804613"
+        ],
+        [
+          "New Books",
+          "pp. 630–632",
+          "1804614"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 632-634",
+          "pp. 632–634",
+          "1804615"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 634-635",
+          "pp. 634–635",
+          "1804616"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 635-636",
+          "pp. 635–636",
+          "1804617"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 636-638",
+          "pp. 636–638",
+          "1804618"
+        ],
+        [
+          "New Books",
+          "pp. 638–640",
+          "1804619"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 640-642",
+          "pp. 640–642",
+          "1804620"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 643-645",
+          "pp. 643–645",
+          "1804621"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 645-646",
+          "pp. 645–646",
+          "1804622"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 646-648",
+          "pp. 646–648",
+          "1804623"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 648-649",
+          "pp. 648–649",
+          "1804624"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 649-650",
+          "pp. 649–650",
+          "1804625"
+        ],
+        [
+          "New Books",
+          "pp. 650–651",
+          "1804626"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 651-652",
+          "pp. 651–652",
+          "1804627"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 652-654",
+          "pp. 652–654",
+          "1804628"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-09-01), page 654",
+          "pp. 654",
+          "1804629"
+        ],
+        [
+          "New Books",
+          "pp. 655–657",
+          "1804630"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 657-659",
+          "pp. 657–659",
+          "1804631"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 659-660",
+          "pp. 659–660",
+          "1804632"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 660-661",
+          "pp. 660–661",
+          "1804633"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 661-662",
+          "pp. 661–662",
+          "1804634"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 662-665",
+          "pp. 662–665",
+          "1804635"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 665-666",
+          "pp. 665–666",
+          "1804636"
+        ],
+        [
+          "New Books",
+          "pp. 666–668",
+          "1804637"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 668-670",
+          "pp. 668–670",
+          "1804638"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 670-672",
+          "pp. 670–672",
+          "1804639"
+        ],
+        [
+          "New Books",
+          "pp. 672–675",
+          "1804640"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 675-677",
+          "pp. 675–677",
+          "1804641"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 677-678",
+          "pp. 677–678",
+          "1804642"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 678-679",
+          "pp. 678–679",
+          "1804643"
+        ],
+        [
+          "New Books",
+          "pp. 679",
+          "1804644"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 679-681",
+          "pp. 679–681",
+          "1804645"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-09-01), page 682",
+          "pp. 682",
+          "1804646"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 682-683",
+          "pp. 682–683",
+          "1804647"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 684-685",
+          "pp. 684–685",
+          "1804648"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 685-686",
+          "pp. 685–686",
+          "1804649"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 686-687",
+          "pp. 686–687",
+          "1804650"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 687-688",
+          "pp. 687–688",
+          "1804651"
+        ],
+        [
+          "New Books",
+          "pp. 688–689",
+          "1804652"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 689-690",
+          "pp. 689–690",
+          "1804653"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 690-692",
+          "pp. 690–692",
+          "1804654"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 692-696",
+          "pp. 692–696",
+          "1804655"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 696-698",
+          "pp. 696–698",
+          "1804656"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 698-700",
+          "pp. 698–700",
+          "1804657"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 700-701",
+          "pp. 700–701",
+          "1804658"
+        ],
+        [
+          "New Books",
+          "pp. 701–702",
+          "1804659"
+        ],
+        [
+          "New Books",
+          "pp. 702",
+          "1804660"
+        ],
+        [
+          "[Communication]",
+          "pp. 702",
+          "1804661"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 703-704",
+          "pp. 703–704",
+          "1804662"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 704-705",
+          "pp. 704–705",
+          "1804663"
+        ],
+        [
+          "New Books",
+          "pp. 705–707",
+          "1804664"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-09-01), pages 707-709",
+          "pp. 707–709",
+          "1804665"
+        ],
+        [
+          "New Books",
+          "pp. 709",
+          "1804666"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 710–735",
+          "1804667"
+        ],
+        [
+          "Periodicals",
+          "pp. 736–774",
+          "1804668"
+        ],
+        [
+          "Notes",
+          "pp. 775–782",
+          "1804669"
+        ]
+      ],
+      "jstor_edicao": "i304567",
+      "artigos": [
+        {
+          "titulo": "Will the Present Upward Trend of World Prices Continue?",
+          "autores": "Irving Fisher (Yale University)",
+          "paginas": "pp. 531–558",
+          "jstor": "1804590",
+          "ensaio_slug": "fisher-tendencia-dos-precos-mundiais",
+          "resumo": "Fisher decompõe o nível de preços mundial pela equação de trocas e prevê alta de cerca de 2% ao ano por quinze anos, puxada pela expansão dos depósitos e cheques."
+        },
+        {
+          "titulo": "The Report of the Tariff Board on Cotton Manufactures",
+          "autores": "Melvin T. Copeland (New York University)",
+          "paginas": "pp. 559–567",
+          "jstor": "1804591",
+          "resumo": "Copeland examina o relatório da Tariff Board sobre o algodão e conclui que ele justifica uma revisão para baixo dos direitos."
+        },
+        {
+          "titulo": "A Balanced Tariff",
+          "autores": "Harry Brookings Wallace (St. Louis)",
+          "paginas": "pp. 568–575",
+          "jstor": "1804592",
+          "resumo": "Wallace propõe que todo produtor protegido pague um imposto de consumo proporcional ao direito de importação, para que a tarifa se ajuste sozinha e gere receita."
+        },
+        {
+          "titulo": "Jevons' “Theory of Political Economy”",
+          "autores": "Allyn A. Young (Washington University, St. Louis)",
+          "paginas": "pp. 576–589",
+          "jstor": "1804593",
+          "ensaio_slug": "young-teoria-de-jevons",
+          "resumo": "Young reavalia a Theory of Political Economy de Jevons na edição de 1911, separando o núcleo da teoria do hedonismo e da roupagem matemática."
+        },
+        {
+          "titulo": "Opportunity Cost",
+          "autores": "Lewis H. Haney (University of Texas)",
+          "paginas": "pp. 590–600",
+          "jstor": "1804594",
+          "resumo": "Haney contesta a tese de Davenport de que o custo é a alternativa sacrificada e situa o custo do empresário no risco da direção do negócio."
+        },
+        {
+          "titulo": "F. W. Taussig, Principles of Economics",
+          "autores": "Richard T. Ely",
+          "paginas": "pp. 601–605",
+          "jstor": "1804595",
+          "resumo": "Resenha do tratado de Taussig em dois volumes."
+        },
+        {
+          "titulo": "J. A. Hobson, The Science of Wealth",
+          "autores": "Alvin S. Johnson",
+          "paginas": "pp. 605–606",
+          "jstor": "1804596",
+          "resumo": "Resenha de um livro de divulgação da Home University Library."
+        },
+        {
+          "titulo": "The Theory of Distribution and Consumption",
+          "autores": "C. W. Mixter",
+          "paginas": "pp. 606–607",
+          "jstor": "1804597",
+          "resumo": "Resenha de um tratado inglês sobre distribuição e consumo."
+        },
+        {
+          "titulo": "Kiichiro Soda, Die logische Natur der Wirtschaftsgesetze",
+          "autores": "Carl E. Parry",
+          "paginas": "pp. 607–608",
+          "jstor": "1804598",
+          "resumo": "Resenha de um estudo sobre a natureza lógica das leis econômicas."
+        },
+        {
+          "titulo": "Alexander Berner, Die Theorie vom Arbeitslohn",
+          "autores": "A. N. Holcombe",
+          "paginas": "pp. 609",
+          "jstor": "1804599",
+          "resumo": "Resenha de um estudo alemão sobre a teoria dos salários."
+        },
+        {
+          "titulo": "New Books (teoria e sua história)",
+          "autores": "redação",
+          "paginas": "pp. 610",
+          "jstor": "1804600",
+          "resumo": "Lista de lançamentos de teoria e história do pensamento."
+        },
+        {
+          "titulo": "Mary Verhoeff, The Kentucky Mountains: Transportation and Commerce, 1750-1911",
+          "autores": "E. L. Bogart",
+          "paginas": "pp. 611–612",
+          "jstor": "1804601",
+          "resumo": "Resenha de um estudo de história econômica de uma região carbonífera."
+        },
+        {
+          "titulo": "William S. Culbertson, Alexander Hamilton",
+          "autores": "Worthington C. Ford",
+          "paginas": "pp. 612–613",
+          "jstor": "1804602",
+          "resumo": "Resenha de um ensaio premiado pela Yale University sobre Hamilton."
+        },
+        {
+          "titulo": "Oliver Morton Dickerson, American Colonial Government, 1696-1765",
+          "autores": "Charles M. Andrews",
+          "paginas": "pp. 613–615",
+          "jstor": "1804603",
+          "resumo": "Resenha de um estudo sobre o Board of Trade britânico e as colônias americanas."
+        },
+        {
+          "titulo": "Robert Stout e J. Logan Stout, New Zealand",
+          "autores": "J. E. LeRossignol",
+          "paginas": "pp. 615–616",
+          "jstor": "1804604",
+          "resumo": "Resenha de um livro sobre a Nova Zelândia e sua legislação social."
+        },
+        {
+          "titulo": "J. Loutchisky, L'État des classes agricoles en France à la veille de la Révolution",
+          "autores": "Robert P. Shepherd",
+          "paginas": "pp. 616–617",
+          "jstor": "1804605",
+          "resumo": "Resenha de um estudo sobre as classes agrícolas francesas antes de 1789."
+        },
+        {
+          "titulo": "New Books (história econômica e geografia)",
+          "autores": "redação",
+          "paginas": "pp. 617–620",
+          "jstor": "1804606",
+          "resumo": "Lista de lançamentos de história econômica e geografia."
+        },
+        {
+          "titulo": "Thomas Nixon Carver, Principles of Rural Economics",
+          "autores": "Henry C. Taylor",
+          "paginas": "pp. 620–624",
+          "jstor": "1804607",
+          "resumo": "Resenha de um manual de economia rural."
+        },
+        {
+          "titulo": "Report of the Commissioner of Corporations on Water-Power Development in the United States",
+          "autores": "H. S. Person",
+          "paginas": "pp. 624–625",
+          "jstor": "1804608",
+          "resumo": "Resenha do relatório do Bureau of Corporations sobre a energia hidráulica e a concentração de sua propriedade."
+        },
+        {
+          "titulo": "Argument of the Honorable Elihu Root (North Atlantic Coast Fisheries Arbitration), org. James Brown Scott",
+          "autores": "Carl Russell Fish",
+          "paginas": "pp. 626",
+          "jstor": "1804609",
+          "resumo": "Resenha da argumentação americana no arbitramento das pescarias do Atlântico Norte, em Haia, em 1910."
+        },
+        {
+          "titulo": "New Books (agricultura, mineração, florestas e pesca)",
+          "autores": "redação",
+          "paginas": "pp. 626–627",
+          "jstor": "1804610",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "redação",
+          "paginas": "pp. 627",
+          "jstor": "1804611",
+          "resumo": "Lista de lançamentos."
+        },
+        {
+          "titulo": "Progress and Prosperity",
+          "autores": "Ernest L. Bogart",
+          "paginas": "pp. 627–629",
+          "jstor": "1804612",
+          "resumo": "Resenha de um volume de mais de 800 páginas sobre progresso e prosperidade."
+        },
+        {
+          "titulo": "New Books (transportes)",
+          "autores": "redação",
+          "paginas": "pp. 629–630",
+          "jstor": "1804613",
+          "resumo": "Lista de lançamentos sobre transportes."
+        },
+        {
+          "titulo": "New Books (comércio)",
+          "autores": "redação",
+          "paginas": "pp. 630–632",
+          "jstor": "1804614",
+          "resumo": "Lista de lançamentos sobre comércio."
+        },
+        {
+          "titulo": "Leo Greendlinger, Accountancy Problems with Solutions",
+          "autores": "John C. Duncan",
+          "paginas": "pp. 632–634",
+          "jstor": "1804615",
+          "resumo": "Resenha de um livro de problemas de contabilidade com soluções."
+        },
+        {
+          "titulo": "Timber Bonds",
+          "autores": "Walter E. Lagerquist",
+          "paginas": "pp. 634–635",
+          "jstor": "1804616",
+          "resumo": "Resenha de um livro sobre títulos lastreados em madeira."
+        },
+        {
+          "titulo": "Les Obligations Américaines et le Portefeuille Français",
+          "autores": "Roger W. Babson",
+          "paginas": "pp. 635–636",
+          "jstor": "1804617",
+          "resumo": "Resenha de um livro que apresenta os títulos americanos ao investidor francês."
+        },
+        {
+          "titulo": "Seymour Walton e Stephen W. Gilman, Auditing and Cost Accounts",
+          "autores": "W. T. Jackman",
+          "paginas": "pp. 636–638",
+          "jstor": "1804618",
+          "resumo": "Resenha de um manual de auditoria e contabilidade de custos."
+        },
+        {
+          "titulo": "New Books (contabilidade, investimentos e bolsas)",
+          "autores": "redação",
+          "paginas": "pp. 638–640",
+          "jstor": "1804619",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Henry Floy, Valuation of Public Utility Properties",
+          "autores": "E. W. Bemis",
+          "paginas": "pp. 640–642",
+          "jstor": "1804620",
+          "resumo": "Resenha de um livro sobre a avaliação de empresas de serviços públicos."
+        },
+        {
+          "titulo": "Bruce Wyman, Control of the Market; Theodore E. Burton, Corporations and the State",
+          "autores": "Allyn A. Young",
+          "paginas": "pp. 643–645",
+          "jstor": "1804621",
+          "resumo": "Resenha conjunta de dois livros sobre trustes e controle das sociedades."
+        },
+        {
+          "titulo": "Horace LaFayette Wilgus, Private Corporations",
+          "autores": "Maurice H. Robinson",
+          "paginas": "pp. 645–646",
+          "jstor": "1804622",
+          "resumo": "Resenha de um tratado breve sobre o aspecto jurídico das sociedades privadas."
+        },
+        {
+          "titulo": "Hermann Levy, Monopoly and Competition",
+          "autores": "Francis Walker",
+          "paginas": "pp. 646–648",
+          "jstor": "1804623",
+          "resumo": "Resenha de um estudo sobre monopólio e concorrência na indústria inglesa."
+        },
+        {
+          "titulo": "Paul de Rousiers, Les Syndicats industriels de producteurs en France et à l'étranger",
+          "autores": "W. S. Stevens",
+          "paginas": "pp. 648–649",
+          "jstor": "1804624",
+          "resumo": "Resenha da segunda edição de um estudo sobre cartéis de produtores."
+        },
+        {
+          "titulo": "Richard Passow, Materialien für das wirtschaftswissenschaftliche Studium. I, Kartelle des Bergbaues",
+          "autores": "Abraham Berglund",
+          "paginas": "pp. 649–650",
+          "jstor": "1804625",
+          "resumo": "Resenha de uma coletânea de documentos sobre cartéis da mineração."
+        },
+        {
+          "titulo": "New Books (capital e organização capitalista)",
+          "autores": "redação",
+          "paginas": "pp. 650–651",
+          "jstor": "1804626",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Frank T. Stockton, The Closed Shop in American Trade Unions",
+          "autores": "Frank T. Carlton",
+          "paginas": "pp. 651–652",
+          "jstor": "1804627",
+          "resumo": "Resenha de um estudo da Johns Hopkins sobre a exclusividade sindical."
+        },
+        {
+          "titulo": "Sue Ainslie Clark e Edith Wyatt, Making Both Ends Meet",
+          "autores": "Edith Abbott",
+          "paginas": "pp. 652–654",
+          "jstor": "1804628",
+          "resumo": "Resenha de um estudo sobre a renda e os gastos de trabalhadoras de Nova York."
+        },
+        {
+          "titulo": "Washington Gladden, The Labor Question",
+          "autores": "R. F. Hoxie",
+          "paginas": "pp. 654",
+          "jstor": "1804629",
+          "resumo": "Resenha de um pequeno livro sobre a questão operária."
+        },
+        {
+          "titulo": "New Books (trabalho e organizações de trabalhadores)",
+          "autores": "redação",
+          "paginas": "pp. 655–657",
+          "jstor": "1804630",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Banking Reform, org. J. Laurence Laughlin",
+          "autores": "Fred Rogers Fairchild",
+          "paginas": "pp. 657–659",
+          "jstor": "1804631",
+          "resumo": "Resenha de um livro de divulgação sobre a reforma bancária, publicado pela National Citizens' League."
+        },
+        {
+          "titulo": "Roger W. Babson e Ralph May, Commercial Paper",
+          "autores": "David Kinley",
+          "paginas": "pp. 659–660",
+          "jstor": "1804632",
+          "resumo": "Resenha de um manual sobre títulos comerciais para comerciantes, banqueiros e investidores."
+        },
+        {
+          "titulo": "Walter T. Layton, An Introduction to the Study of Prices",
+          "autores": "Wesley C. Mitchell",
+          "paginas": "pp. 660–661",
+          "jstor": "1804633",
+          "resumo": "Resenha de uma introdução ao estudo dos preços, com índices desde 1800."
+        },
+        {
+          "titulo": "Agustín Ross, Chile 1851-1910",
+          "autores": "David Kinley",
+          "paginas": "pp. 661–662",
+          "jstor": "1804634",
+          "resumo": "Resenha de um livro sobre sessenta anos de questões monetárias e bancárias do Chile."
+        },
+        {
+          "titulo": "Der landwirtschaftliche Kredit und seine durchgreifende Verbesserung",
+          "autores": "I. M. Rubinow",
+          "paginas": "pp. 662–665",
+          "jstor": "1804635",
+          "resumo": "Resenha de um folheto alemão sobre o crédito agrícola."
+        },
+        {
+          "titulo": "Henry Sagnier, Le Crédit agricole en France",
+          "autores": "Carl W. Thompson",
+          "paginas": "pp. 665–666",
+          "jstor": "1804636",
+          "resumo": "Resenha de um livro sobre o crédito agrícola na França."
+        },
+        {
+          "titulo": "New Books (moeda, preços, crédito e bancos)",
+          "autores": "redação",
+          "paginas": "pp. 666–668",
+          "jstor": "1804637",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Willard Eugene Hotchkiss, The Judicial Work of the Comptroller of the Treasury",
+          "autores": "C. J. Bullock",
+          "paginas": "pp. 668–670",
+          "jstor": "1804638",
+          "resumo": "Resenha de um estudo de direito administrativo sobre o Comptroller of the Treasury."
+        },
+        {
+          "titulo": "Franz Meisel, Moral und Technik bei der Veranlagung der preussischen Einkommensteuer",
+          "autores": "T. S. Adams",
+          "paginas": "pp. 670–672",
+          "jstor": "1804639",
+          "resumo": "Resenha de um estudo sobre o lançamento do imposto de renda prussiano."
+        },
+        {
+          "titulo": "New Books (finanças públicas, tributação e tarifa)",
+          "autores": "redação",
+          "paginas": "pp. 672–675",
+          "jstor": "1804640",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Jeremiah W. Jenks e W. Jett Lauck, The Immigration Problem",
+          "autores": "Prescott F. Hall",
+          "paginas": "pp. 675–677",
+          "jstor": "1804641",
+          "resumo": "Resenha de um livro sobre a imigração, com apêndice estatístico."
+        },
+        {
+          "titulo": "Arthur Newsholme, The Declining Birth-Rate",
+          "autores": "James A. Field",
+          "paginas": "pp. 677–678",
+          "jstor": "1804642",
+          "resumo": "Resenha de um folheto sobre o declínio da natalidade."
+        },
+        {
+          "titulo": "Werner Sombart, Die Zukunft der Juden",
+          "autores": "E. A. Goldenweiser",
+          "paginas": "pp. 678–679",
+          "jstor": "1804643",
+          "resumo": "Resenha de um ensaio de Sombart."
+        },
+        {
+          "titulo": "New Books (população e migração)",
+          "autores": "redação",
+          "paginas": "pp. 679",
+          "jstor": "1804644",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Thomas Nixon Carver, The Religion Worth Having",
+          "autores": "A. B. Wolfe",
+          "paginas": "pp. 679–681",
+          "jstor": "1804645",
+          "resumo": "Resenha de um pequeno livro de Carver sobre religião."
+        },
+        {
+          "titulo": "Edward T. Devine, The Spirit of Social Work",
+          "autores": "Herbert Croly",
+          "paginas": "pp. 682",
+          "jstor": "1804646",
+          "resumo": "Resenha de um livro sobre o trabalho social."
+        },
+        {
+          "titulo": "Samuel George Smith, Social Pathology",
+          "autores": "Ulysses G. Weatherly",
+          "paginas": "pp. 682–683",
+          "jstor": "1804647",
+          "resumo": "Resenha de um livro sobre patologia social."
+        },
+        {
+          "titulo": "The Philanthropic Work of Josephine Shaw Lowell, org. William Rhinelander Stewart",
+          "autores": "Emily Greene Balch",
+          "paginas": "pp. 684–685",
+          "jstor": "1804648",
+          "resumo": "Resenha de uma biografia com escritos públicos e cartas de Josephine Shaw Lowell."
+        },
+        {
+          "titulo": "Social Conditions in Provincial Towns, org. Mrs. Bernard Bosanquet",
+          "autores": "Carol Aronovici",
+          "paginas": "pp. 685–686",
+          "jstor": "1804649",
+          "resumo": "Resenha de uma série de estudos sobre condições sociais em cidades inglesas e escocesas."
+        },
+        {
+          "titulo": "Sidney Webb, Grants in Aid: A Criticism and a Proposal",
+          "autores": "Jeffrey R. Brackett",
+          "paginas": "pp. 686–687",
+          "jstor": "1804650",
+          "resumo": "Resenha de um livro sobre as transferências do governo central às autoridades locais."
+        },
+        {
+          "titulo": "Année Sociale Internationale, 1912",
+          "autores": "R. F. F.",
+          "paginas": "pp. 687–688",
+          "jstor": "1804651",
+          "resumo": "Resenha de um anuário de questões sociais."
+        },
+        {
+          "titulo": "New Books (problemas e reformas sociais)",
+          "autores": "redação",
+          "paginas": "pp. 688–689",
+          "jstor": "1804652",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "James M. Hudnut, Studies in Practical Life Insurance",
+          "autores": "William H. Price",
+          "paginas": "pp. 689–690",
+          "jstor": "1804653",
+          "resumo": "Resenha de um estudo sobre os métodos de uma seguradora de vida."
+        },
+        {
+          "titulo": "Frederick L. Hoffman, Insurance Science and Economics",
+          "autores": "John Bauer",
+          "paginas": "pp. 690–692",
+          "jstor": "1804654",
+          "resumo": "Resenha de um livro sobre problemas atuais da administração de seguros."
+        },
+        {
+          "titulo": "Die Vorarbeiten zur Herstellung gemeinsamer deutscher Sterblichkeitstafeln",
+          "autores": "F. S. Crum",
+          "paginas": "pp. 692–696",
+          "jstor": "1804655",
+          "resumo": "Resenha dos trabalhos preparatórios para tábuas de mortalidade alemãs comuns."
+        },
+        {
+          "titulo": "A. S. Comyns Carr, W. H. Stuart Garnett e J. H. Taylor, National Insurance; I. M. Rubinow, Studies in Workmen's Insurance",
+          "autores": "A. W. Whitney",
+          "paginas": "pp. 696–698",
+          "jstor": "1804656",
+          "resumo": "Resenha de um comentário à lei inglesa de seguro nacional e de um estudo sobre seguro operário na Itália, Rússia e Espanha."
+        },
+        {
+          "titulo": "H. Norman Barnett e Cecil E. Shaw, Accidental Injuries to Workmen",
+          "autores": "W. C. Hanson",
+          "paginas": "pp. 698–700",
+          "jstor": "1804657",
+          "resumo": "Resenha de um livro sobre acidentes de trabalho e a lei de indenização de 1906."
+        },
+        {
+          "titulo": "Alfred Manes, Grundzüge des Versicherungswesens",
+          "autores": "W. F. Gephart",
+          "paginas": "pp. 700–701",
+          "jstor": "1804658",
+          "resumo": "Resenha de um manual alemão de seguros."
+        },
+        {
+          "titulo": "New Books (seguros e pensões)",
+          "autores": "redação",
+          "paginas": "pp. 701–702",
+          "jstor": "1804659",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "New Books (pauperismo e caridade)",
+          "autores": "redação",
+          "paginas": "pp. 702",
+          "jstor": "1804660",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Comunicação",
+          "autores": "Herbert E. Mills (Vassar College)",
+          "paginas": "pp. 702",
+          "jstor": "1804661",
+          "resumo": "Mills cita o diário de William Owen, de 1824, para mostrar que os Owen já usavam a palavra socialista antes da primeira ocorrência impressa conhecida, de 1833."
+        },
+        {
+          "titulo": "Adolph von Wenckstern, Leitfaden zu Vorlesungen über Geschichte und Methode der nationalökonomischen und sozialistischen Theorien",
+          "autores": "J. E. Le Rossignol",
+          "paginas": "pp. 703–704",
+          "jstor": "1804662",
+          "resumo": "Resenha de um roteiro de aulas sobre teorias econômicas e socialistas."
+        },
+        {
+          "titulo": "Franz Rehbein, Das Leben eines Landarbeiters, org. Paul Göhre",
+          "autores": "John Graham Brooks",
+          "paginas": "pp. 704–705",
+          "jstor": "1804663",
+          "resumo": "Resenha da autobiografia de um trabalhador rural alemão."
+        },
+        {
+          "titulo": "New Books (socialismo e cooperativas)",
+          "autores": "redação",
+          "paginas": "pp. 705–707",
+          "jstor": "1804664",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Edward Bunnell Phelps, The Mortality of Alcohol",
+          "autores": "W. B. Bailey",
+          "paginas": "pp. 707–709",
+          "jstor": "1804665",
+          "resumo": "Resenha de uma estimativa estatística das mortes associadas ao álcool nos Estados Unidos."
+        },
+        {
+          "titulo": "New Books (estatística)",
+          "autores": "redação",
+          "paginas": "pp. 709",
+          "jstor": "1804666",
+          "resumo": "Lista de lançamentos de estatística."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "redação",
+          "paginas": "pp. 710–735",
+          "jstor": "1804667",
+          "resumo": "Documentos oficiais, a começar por uma estimativa do balanço de pagamentos dos Estados Unidos no ano fiscal de 1910."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "redação",
+          "paginas": "pp. 736–774",
+          "jstor": "1804668",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "redação",
+          "paginas": "pp. 775–782",
+          "jstor": "1804669",
+          "resumo": "Notas da redação, com o programa do congresso internacional de higiene e demografia de Washington."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "fisher-tendencia-dos-precos-mundiais",
+          "titulo": "Fisher, 1912: a alta dos preços vai continuar?",
+          "titulo_original": "Will the Present Upward Trend of World Prices Continue?",
+          "autores": "Irving Fisher (Yale University)",
+          "paginas": "pp. 531–558",
+          "jstor": "1804590",
+          "chamada": "Fisher decompõe o nível de preços mundial em moeda, depósitos, velocidades e comércio e conclui que, com a expansão dos cheques, os preços subiriam cerca de 2% ao ano por quinze anos.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Num discurso em Londres, em 1907, Lord Cromer contou o caso de um proprietário rural egípcio que comprou uma terra por £ 25.000. Meia hora depois de assinado o contrato, apareceu com uma fila de burros carregando o dinheiro, que estivera enterrado no seu jardim. Irving Fisher, da Yale University, recolhe a história do relatório do diretor da Casa da Moeda americana e a usa como prova de uma tese: o entesouramento estava em declínio, e com ele cairia um freio à alta dos preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "A pergunta do artigo é a que, diz Fisher, o mundo civilizado inteiro queria ver respondida: o alto custo de vida vai subir, recuar ou ficar parado? As opiniões eram muitas e os dados poucos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que determina o nível geral de preços?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher separa o nível geral de preços dos preços particulares. O custo de vida, que costuma se referir a preços de varejo de alimentos, sobe e desce com o nível geral, como uma boia sobe com a maré, mas também oscila por causas próprias, como as ondas. O artigo trata só da maré."
+            },
+            {
+              "tipo": "p",
+              "texto": "Pela equação de trocas, exposta no seu livro The Purchasing Power of Money, o nível de preços é determinado por cinco grandezas: a moeda em circulação, os depósitos movimentados por cheque, a velocidade de cada um e o volume de comércio. Trustes, tarifas, sindicatos, intermediários, armazenagem a frio ou armamentos só influem nos preços na medida em que afetam essas cinco."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Para Fisher, “o nível de preços não depende diretamente do ritmo de produção de ouro, mas do estoque de ouro e de outras moedas”.",
+              "original": "“The price level does not depend directly on the rate of gold production but on the stock of gold and other money.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí a imagem do lago: ele não para de subir quando a enchente que o alimenta atinge o pico, mas enquanto a entrada superar a saída. Supor que os preços cairão assim que a produção de ouro diminuir é, para Fisher, um erro grosseiro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto cresciam a moeda e os cheques?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para os Estados Unidos, Fisher repete os números de um artigo de junho de 1912 na mesma revista. Entre 1896 e 1911, os depósitos sujeitos a cheque cresceram 7,3% ao ano e o uso de cheques 9,5%, ambos bem acima do comércio, com 5,3%, que por sua vez superou a moeda, com 4,2%."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para o resto do mundo do padrão-ouro, não havia dados completos. Fisher estima taxas de crescimento, e não valores absolutos, a partir de relatórios do Comptroller of the Currency, estatísticas de compensação bancária, cartas postais, receitas ferroviárias, comércio exterior e tonelagem de navios. Divide o mundo em três grupos: os países de língua inglesa, que usam muito o cheque; a Europa continental e o Japão, que começavam a usá-lo; e os demais, sobretudo a Índia, que quase não o usavam. Admite discrepâncias grandes, que atribui sobretudo a erros na medida do comércio, e faz ajustes que declara arbitrários."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "2,5% ao ano",
+              "texto": "Alta dos preços mundiais no período recente, segundo as estimativas finais de Fisher. Os meios de pagamento, moeda e cheques, cresciam 7% ao ano e o comércio 4,5%. A circulação por cheque crescia 8%, puxada pelos depósitos, com 6,5%: 2,5 pontos vinham do aumento da moeda e 4 pontos do avanço dos depósitos sobre ela."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que o ouro não seria o freio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher examina cada fator. Sobre o ouro, registra opiniões divergentes de especialistas e conclui que a produção não cairia depressa nem de repente, acrescentando pelo menos 2% ao ano ao estoque monetário. Qualquer reforma do sistema monetário americano, como a proposta pela National Monetary Commission, liberaria reservas e também tenderia a elevar os preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "A Índia e o Egito, que absorviam ouro e o entesouravam, eram apontados por outros como um escoadouro capaz de deter a alta. Fisher responde que esse escoadouro não impedira a subida no passado e tenderia a enfraquecer: com a difusão dos bancos, o entesouramento sairia de moda, como já ocorrera na Inglaterra e, mais recentemente, na França. No Egito, os depósitos das caixas econômicas postais passaram de US$ 190.000 em 1901 para US$ 2.250.000 em 1910."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os cheques pesam tanto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O fator mais negligenciado, diz Fisher, é o cheque. Os depósitos que circulam por cheque são uma forma de moeda, e nos Estados Unidos já respondiam por 92% de todas as transações. O mundo atravessava uma longa transição em que o cheque substituía a moeda em ritmo prodigioso; mesmo na Inglaterra os depósitos cresciam, e na Alemanha e no resto do continente havia um vasto campo para a expansão bancária."
+            },
+            {
+              "tipo": "p",
+              "texto": "A velocidade dos depósitos também crescia com a concentração da população em cidades. Pelos dados de Fisher e de Pierre des Essars, a rotação dos depósitos passava de 100 vezes ao ano em Paris, Berlim e Bruxelas, mas era de 16 em New Haven, de quatro em Atenas e de uma em Santa Barbara, na Califórnia."
+            },
+            {
+              "tipo": "p",
+              "texto": "O único fator que contém os preços é o volume de comércio, e Fisher não vê razão para que ele cresça mais depressa: a ocupação das terras e o crescimento mais lento da população tenderiam a freá-lo, e o comércio internacional, que mais se beneficia dos transportes, é uma franja pequena do total."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é a chance de os preços não subirem?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher monta dois cenários para quinze anos. No provável, com taxas um pouco menores que as recentes para moeda e depósitos, os preços subiriam 2% ao ano, de 100 em 1911 para 134 em 1926, um aumento de um terço. No conservador, em que todos os fatores de alta crescem o mínimo razoável e o comércio o máximo razoável, os preços ficariam estáveis, mas não cairiam."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para estimar a probabilidade, Fisher compara os cinco fatores a cinco moedas lançadas ao ar: a chance de todas darem cara é uma em 32. Com um cálculo mais completo, que admite desvios prováveis de meio ponto, conclui que a chance de os preços não subirem em quinze anos é menor que uma em cem."
+            },
+            {
+              "tipo": "p",
+              "texto": "A alta não seria contínua. Fisher espera interrupções por crises a cada década, como a de 1907, e vê sinais de crédito distendido no Canadá e na Alemanha. Prevê também ajustes no comércio internacional: a alta menor na Inglaterra estimularia as exportações britânicas, e o contrário ocorreria nos Estados Unidos, no Canadá e na Alemanha."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Fisher encerra: “creio que o mundo como um todo está destinado a ver, por muitos anos, uma maré de preços em rápida subida”.",
+              "original": "“I believe the world as a whole is destined to see for many years to come a rapidly rising tide of prices.”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do artigo está no método: Fisher transforma uma pergunta difusa sobre o custo de vida numa decomposição contábil, e obriga cada argumento, do ouro egípcio às cidades europeias, a passar por uma das cinco grandezas. Isso torna explícito o que cada previsão supõe e onde ela pode falhar. O próprio Fisher mostra os limites: as taxas do resto do mundo são aproximações, a velocidade dos depósitos tem estimativas que ele considera sem valor, e os ajustes finais dependem de seu juízo.",
+                "O ponto mais interessante, para um economista de hoje, é a ênfase no crédito bancário. Fisher percebe que a moeda relevante já não era o metal, mas os depósitos, e que a transição para o cheque podia elevar os preços mesmo com o ouro crescendo menos. É uma intuição sobre a importância da moeda criada pelos bancos que segue no centro da discussão monetária."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Equação de trocas",
+              "MV + M'V' = PT: moeda vezes velocidade, mais depósitos vezes sua rotação, igual a preços vezes comércio."
+            ],
+            [
+              "Velocidade de circulação",
+              "número de vezes que uma unidade de moeda troca de mãos num ano."
+            ],
+            [
+              "Atividade dos depósitos",
+              "termo de Fisher para a velocidade de rotação dos depósitos movimentados por cheque (V')."
+            ],
+            [
+              "Entesouramento",
+              "guarda de moeda ou metal fora de circulação, que reduz a velocidade efetiva."
+            ],
+            [
+              "Padrão de câmbio-ouro",
+              "regime em que um país mantém a moeda conversível em ouro por meio de reservas e câmbio, sem cunhagem ampla de ouro, como a Índia."
+            ],
+            [
+              "Compensação bancária",
+              "liquidação mútua de cheques entre bancos, usada por Fisher como indicador do uso de cheques."
+            ]
+          ],
+          "hoje": "A pergunta de Fisher, se a inflação vai continuar, é a que bancos centrais respondem a cada reunião. O instrumental mudou: hoje se olham expectativas, salários, hiato do produto e juros, e a velocidade da moeda deixou de ser tratada como estável. Mas a ideia de que o crédito bancário, e não só a moeda emitida, determina o poder de compra disponível segue central, assim como a cautela de distinguir o nível geral de preços dos preços de itens isolados, como alimentos e energia."
+        },
+        {
+          "slug": "young-teoria-de-jevons",
+          "titulo": "Young, 1912: o que resta da teoria de Jevons?",
+          "titulo_original": "Jevons' “Theory of Political Economy”",
+          "autores": "Allyn A. Young (Washington University, St. Louis)",
+          "paginas": "pp. 576–589",
+          "jstor": "1804593",
+          "chamada": "Young relê a Theory of Political Economy de Jevons na edição de 1911 e conclui que o livro é desigual, pouco matemático e menos lido do que citado, mas segue entre os grandes do século XIX.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1862, um homem de 27 anos mandou à reunião da British Association, em Cambridge, um texto curto intitulado “Notice of a General Mathematical Theory of Economy”. Junto foi outro, sobre flutuações comerciais periódicas. O secretário informou que ambos foram lidos na seção F e que o segundo, o estatístico, foi aprovado. Do primeiro, nada se disse. O autor era W. Stanley Jevons, e Allyn A. Young, da Washington University, em St. Louis, abre com essa cena sua revisão do livro que daí nasceu."
+            },
+            {
+              "tipo": "p",
+              "texto": "O pretexto é a quarta edição da Theory of Political Economy, de 1911, organizada pelo filho, H. S. Jevons. O corpo do livro reproduz a terceira edição, com algumas correções e notas, e os apêndices trazem material novo, inclusive notas inéditas de Jevons sobre predecessores e contemporâneos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde veio a teoria?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Jevons se interessou por economia política nas leituras que ocupavam suas horas livres de 1854 a 1859, quando era ensaiador da Casa da Moeda de Sydney, na Austrália. Convencido de que o campo fora mal cultivado, deixou um posto bem pago e voltou à Inglaterra. Em duas cartas de 1860 ao irmão, já anunciava o essencial: uma teoria inteiramente matemática, a lei de que a utilidade da última porção consumida decresce com a quantidade, e uma nova visão do capital e dos juros."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Young, as cartas importam menos pelas disputas de prioridade do que por anteciparem quase todo o livro de 1871, que pouco acrescentou a elas. A recepção inglesa foi fria. Em 1874, Jevons escreveu que o que publicara sobre economia matemática recebera pouca ou nenhuma atenção e fora em geral rejeitado ou ridicularizado. Cairnes resenhou o livro com severidade; Marshall, com equilíbrio e sem entusiasmo. No continente, cartas de Walras e outros sustentaram a confiança de Jevons, mesmo quando ele descobriu que Gossen e Dupuit o haviam antecipado."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com o tempo, a recepção mudou. A reputação de Jevons como lógico, firmada com The Principles of Science, a revolta contra a economia ortodoxa liderada por Thornton e continuada por Cliffe Leslie e Ingram, e a influência crescente do ensino de Marshall em Cambridge deram ao livro uma atenção mais séria. Em 1875, Jevons escreveu a Walras que alguns professores já começavam a apresentar a teoria aos alunos, embora previsse luta, porque os discípulos de J. S. Mill se opunham a qualquer inovação. A segunda edição, a última em vida do autor, saiu em 1879, com a bibliografia de economia matemática e a discussão das dimensões das quantidades econômicas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O livro é um sistema?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não, responde Young. O próprio Jevons o descreveu como um esboço elementar de princípios elementares. O livro é coerente, mas desigual: traz elaborações matemáticas tediosas de truísmos na teoria das trocas e, em outro ponto, uma teoria dos juros brilhante e inacabada. Os quatro primeiros capítulos estão mais trabalhados que os quatro últimos, e o prefácio e os três primeiros capítulos são mais conhecidos que o restante."
+            },
+            {
+              "tipo": "p",
+              "texto": "Young sustenta que a psicologia hedonista de Jevons, a contabilidade de prazeres e dores, não é indispensável à teoria. Wicksteed mostrara que a noção de significância marginal vale também quando instintos e hábitos governam as escolhas, e Pareto separara seu equilíbrio econômico do postulado da utilidade. As teorias de troca e distribuição de Jevons, diz Young, poderiam ser separadas do hedonismo sem alteração essencial."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é o grau final de utilidade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "É a contribuição mais famosa do livro. Young explica que o conceito não é idêntico ao de utilidade marginal: é a razão entre o acréscimo de utilidade total e o acréscimo de quantidade na margem, independente da unidade em que o bem é medido. Por isso servia às equações de troca de Jevons, enquanto a utilidade marginal é mais adequada à exposição popular."
+            },
+            {
+              "tipo": "p",
+              "texto": "O teorema fundamental é que a razão de troca entre dois bens é o inverso da razão entre seus graus finais de utilidade. Young aponta os limites. A troca direta entre dois negociantes é indeterminada, como mostrara Edgeworth; Jevons a torna determinada invocando a lei da indiferença, a de que não há mais de um preço para o mesmo artigo no mesmo mercado, o que equivale a supor uma moeda geral. E o conceito de corpo negociante, que trata todos os moleiros ou todos os padeiros da Inglaterra como um só agente, contorna o problema do mercado geral; tomado ao pé da letra, eliminaria a concorrência."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que há nos capítulos esquecidos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A teoria da distribuição. Young observa que só um autor, Cassel, creditara a Jevons a teoria da produtividade marginal dos juros, e que ninguém notara a semelhança de seu diagrama com os usados depois. Há, porém, uma diferença: Jevons definiu o capital como o estoque de subsistência dos trabalhadores e atribuiu a produtividade decrescente ao prazo do investimento, não ao montante. Sua teoria fica, assim, mais próxima da superioridade técnica dos bens presentes de Böhm-Bawerk. A teoria dos salários como resíduo vem de tratar o trabalho como fator fixo e o capital como variável; a possibilidade inversa, diz Young, parece ter-lhe escapado."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O livro é de fato matemático?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Só na superfície. Fora os símbolos, é matemático apenas no sentido em que todo raciocínio sobre quantidades variáveis o é. Cournot confiava nos seus símbolos e chegava, por processos matemáticos, a conclusões que o raciocínio comum não alcançaria; Jevons, que não era matemático hábil, vestia de matemática resultados obtidos por outros meios. O grau final de utilidade, concebido como derivada, é tratado como razão algébrica."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Young subscreve o juízo de Marshall de que “o livro melhoraria se a matemática fosse omitida, mas os diagramas mantidos”.",
+              "original": "“the book would be improved if the mathematics were omitted, but the diagrams retained”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A influência é difícil de isolar da de Walras, Menger, Böhm-Bawerk e Marshall. Na Inglaterra, a filiação é clara em Edgeworth e Wicksteed; na Itália, onde saiu uma tradução em 1875, Jevons pesou por algum tempo; nos Estados Unidos, os austríacos o ofuscaram. Jevons não fez a revolução que queria, e suas ideias foram absorvidas e reconciliadas com a linha ricardiana de um modo que ele não imaginaria."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Ainda assim, conclui Young, “a posição da Theory como um dos quatro ou cinco grandes livros” da economia política inglesa do século XIX “está assegurada”.",
+              "original": "“the position of the Theory as one of the four or five great books of nineteenth century English political economy is secure”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o ensaio é um exemplo de como separar, num clássico, o que é essencial do que é roupagem. Young retira de Jevons o hedonismo, a ética utilitarista e boa parte da matemática, e mostra que o núcleo, a utilidade na margem e a determinação de razões de troca, sobrevive sem eles. Ao mesmo tempo, identifica o ponto em que a teoria depende de uma hipótese não declarada: a lei de um só preço supõe um mercado com moeda, e não a troca isolada que Jevons dizia analisar.",
+                "A observação sobre a matemática também tem alcance de método. Young distingue a matemática que produz resultados novos, como em Cournot, da que apenas reescreve conclusões já obtidas. É uma distinção útil para qualquer leitor de economia formal: a pergunta não é se há equações, mas se elas fazem algum trabalho que o argumento verbal não faria."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Grau final de utilidade",
+              "razão entre o acréscimo de utilidade total e o acréscimo de quantidade na margem, em Jevons."
+            ],
+            [
+              "Utilidade marginal",
+              "utilidade da última unidade consumida de um bem."
+            ],
+            [
+              "Lei da indiferença",
+              "princípio de Jevons segundo o qual não pode haver mais de um preço para o mesmo artigo no mesmo mercado e momento."
+            ],
+            [
+              "Corpo negociante",
+              "termo de Jevons para um grupo de agentes tratado como um só negociante na análise das trocas."
+            ],
+            [
+              "Hedonismo",
+              "explicação da conduta econômica pela busca de prazer e fuga da dor."
+            ],
+            [
+              "Superioridade técnica dos bens presentes",
+              "tese de Böhm-Bawerk de que métodos de produção mais longos rendem mais, o que dá aos bens presentes vantagem sobre os futuros."
+            ]
+          ],
+          "hoje": "A economia que Jevons ajudou a fundar venceu: a análise na margem está em qualquer manual, e a separação entre teoria da escolha e psicologia hedonista, que Young defende, tornou-se padrão com a teoria das preferências. A questão de método que Young levanta, se a matemática acrescenta conclusões ou só as traduz, continua presente nos debates sobre modelos formais, assim como o cuidado de perguntar que instituições, como a moeda e o mercado organizado, uma teoria das trocas supõe sem dizer."
+        }
+      ]
+    },
+    {
+      "slug": "1912-definicao-de-preco-e-juros",
+      "numero": 121,
+      "titulo": "Dezembro de 1912: o que é preço, de onde vêm os juros",
+      "titulo_original": "The American Economic Review, vol. 2, no. 4 (December 1912)",
+      "autores": "Frank A. Fetter (Princeton University), H. Parker Willis (Washington, D. C.), Henry R. Seager (Columbia University), E. W. Kemmerer (Princeton University) e resenhistas",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 2, nº 4",
+      "data": "dezembro de 1912",
+      "chamada": "Fetter reúne 117 definições de preço e propõe uma nova, Seager critica a teoria dos juros de Fisher, Willis testa o argumento dos fretes na América do Sul e Kemmerer estuda o crédito agrícola.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Para escrever uma definição de preço, Frank A. Fetter, da Princeton University, foi às bibliotecas de Princeton e de Columbia, abriu todos os manuais gerais de economia e todas as enciclopédias econômicas que encontrou e recolheu 117 definições. É com esse inventário que abre o número de dezembro de 1912 da American Economic Review, o último do segundo ano da revista."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição traz quatro artigos. Além de Fetter, H. Parker Willis examina se o transporte marítimo prejudicava os exportadores americanos na América do Sul; Henry R. Seager, da Columbia University, critica a teoria dos juros como impaciência, de Irving Fisher; e E. W. Kemmerer, também de Princeton, estuda o crédito agrícola de curto prazo nos Estados Unidos. Seguem-se cerca de cinquenta resenhas, entre elas a de John Bates Clark sobre a Theorie der wirtschaftlichen Entwicklung de Joseph Schumpeter, listas de livros novos, documentos oficiais, resumos de periódicos e as notas da redação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é, afinal, um preço?",
+          "artigo": "1828191",
+          "credito": "Frank A. Fetter (Princeton University) · “The Definition of Price” · pp. 783–813"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fetter parte da necessidade, sentida por todos os economistas, de uma terminologia mais clara, e escolhe o preço como primeiro termo a discutir por parecer o mais simples. Classifica as 117 definições em três grupos, conforme a noção de valor a que se ligam: valor de troca objetivo, isto é, poder de compra; valor subjetivo, isto é, estima; e razão de troca, uma expressão matemática. Cada grupo se divide em definições monetárias, em que preço é necessariamente dinheiro, e não monetárias, em que qualquer bem dado em troca é preço."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "117",
+          "texto": "Definições de preço que Fetter reuniu. O tipo mais numeroso, o de valor de troca expresso em dinheiro, tem 43 casos, de Ricardo a Taussig. Entre 61 autores ingleses e americanos, 26 dão definições não monetárias e 35, monetárias."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte histórica mostra uma trajetória. Antes de Ricardo, todas as definições da lista eram não monetárias. Ricardo, homem da City que só conhecia preços em dinheiro, deu o primeiro exemplo claro do preço como valor de troca em moeda, e J. S. Mill, em 1848, fez dessa a forma dominante, com o argumento de que o caráter monetário era a única distinção entre valor e preço. Depois de 1871, com Menger e Jevons, as definições ligadas ao valor subjetivo voltaram a crescer, sobretudo fora da Inglaterra. As poucas definições de preço como razão de troca, inclusive a de Irving Fisher, remontam a Jevons, cuja sugestão Fetter considera um beco sem saída."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fetter conclui que a maior parte das definições foi escolhida por acaso, imitação ou deferência à autoridade, e faz duas propostas. A primeira é definir o preço sem referência ao valor, termo mais ambíguo: a definição não deve conter uma teoria do preço. A segunda é não limitá-lo ao dinheiro, porque toda expressão de preço já precisa indicar em que bem é cotada, e porque o escambo continua existindo."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "A definição a que chega é: “preço é a quantidade de bens dada ou recebida em troca de outro bem”.",
+          "original": "“Price is the quantity of goods given or received in exchange for another good.”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "fetter-definicao-de-preco",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O navio decidia o comércio com a América do Sul?",
+          "artigo": "1828192",
+          "credito": "H. Parker Willis (Washington, D. C.) · “Transportation and Competition in South American Markets” · pp. 814–833"
+        },
+        {
+          "tipo": "p",
+          "texto": "Willis parte de um argumento então frequente nos debates sobre subsídios à marinha mercante: o pouco sucesso americano em certos mercados sul-americanos se deveria a más condições de transporte a partir dos Estados Unidos. Para testá-lo, isola o transporte e supõe um exportador com mercadoria igual em qualidade e preço à de seus concorrentes britânicos e alemães. A pergunta é se esse exportador consegue pôr seus produtos nas mãos do comprador sul-americano em condições de igualdade."
+        },
+        {
+          "tipo": "p",
+          "texto": "Examina primeiro a tonelagem. Em abril de 1910, seis grandes firmas exportadoras de Nova York declararam publicamente que cinco linhas iam direto ao Brasil e que, para a Argentina, sete linhas faziam de seis a oito partidas por mês, com fretes abaixo dos oferecidos aos concorrentes europeus. Willis reproduz listas de partidas de Nova York e o depoimento de armadores. Compara depois os fretes: em maio de 1910, embarcar farinha em barris para Pernambuco custava menos a partir de Nova York do que de Liverpool, Hamburgo ou Trieste."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10%",
+          "texto": "Abatimento sobre o frete do café pago pelas linhas a quem embarcasse com elas por doze meses seguidos. Willis observa que a regra estava aberta a todos os embarcadores nas mesmas condições e que nenhuma investigação do Congresso encontrou discriminação contra firmas americanas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Willis discute também o processo do governo contra as linhas Prince, Hamburg-Amerika e outras, por acordo de partidas e abatimentos, e conclui que, mesmo provado, ele não mostraria fretes excessivos. Sobre correio e passageiros, sustenta que as cartas comerciais importantes já seguiam em navios diretos. Admite uma vantagem alemã nas tarifas ferroviárias de exportação, pelas quais trilhos iam mais baratos de Frankfurt a Constantinopla, via Hamburgo, do que de Frankfurt só até Hamburgo, mas julga o ponto de pouca importância."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que não há evidência de discriminação séria contra os Estados Unidos. A Inglaterra e a Alemanha tinham navios maiores e mais frequentes para a América do Sul porque o volume de comércio era maior: no mar como em terra, o tráfego gera tráfego. Para Willis, a comunicação podia ser desenvolvida por meios naturais, sem subvenções do governo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os juros nascem só da impaciência?",
+          "artigo": "1828193",
+          "credito": "Henry R. Seager (Columbia University) · “The Impatience Theory of Interest” · pp. 834–851"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seager parte da reapresentação da teoria dos juros de Irving Fisher num manual de 1912, Elementary Principles of Economics. Para Fisher, a essência dos juros é a impaciência, a preferência por bens presentes sobre bens futuros, que depende de traços pessoais, como previdência, autocontrole e amor à descendência, e das características da renda esperada. Fisher nega duas ideias de Böhm-Bawerk: a distinção entre terra e capital e a influência da produtividade do capital sobre os juros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A primeira objeção de Seager é que Fisher separa por completo a explicação dos juros da explicação da produção, como se as rendas brotassem espontaneamente. A segunda é que a impaciência não é atributo fundamental da natureza humana. Sem a produtividade do capital, diz, muita gente pouparia mesmo sem juros, como mostram os camponeses franceses que entesouravam moedas, e os mais impacientes, em geral assalariados de renda pequena, teriam pouco poder de tomar empréstimos. Seager ilustra com um bebedor inveterado de renda pequena e certa, que jamais conseguiria tomar emprestado o bastante para reduzir sua impaciência ao nível da taxa de juros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A terceira objeção ataca os exemplos de Fisher. O argumento de que a terra vale US$ 100.000 porque esse é o valor descontado de US$ 5.000 por ano só funciona, diz Seager, porque a terra tem oferta fixa; ferramentas e máquinas são produzidas, e seu valor tende ao custo de produzi-las. Do mesmo modo, se a produtividade de todos os instrumentos dobrasse, eles seriam multiplicados até que seu valor voltasse ao custo, e o retorno maior apareceria como juros mais altos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Para Seager, querer elevar os juros por outra via que não a produtividade é como aumentar um rio por mudanças “no oceano em que ele deságua”.",
+          "original": "“like the idea of increasing the volume of a stream by changes … in the ocean into which it flows”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seager conclui que a teoria de Fisher é verdadeira até onde vai, mas incompleta: a produtividade é o complemento necessário da teoria do desconto. Observa ainda que os exemplos históricos do próprio Fisher, os juros altos da Califórnia entre 1850 e 1870, parecem confirmar a explicação pela produtividade."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "seager-teoria-da-impaciencia",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o fazendeiro americano não usava crédito?",
+          "artigo": "1828194",
+          "credito": "E. W. Kemmerer (Princeton University) · “Agricultural Credit in the United States” · pp. 852–872"
+        },
+        {
+          "tipo": "p",
+          "texto": "Kemmerer parte de um contraste: os Estados Unidos lideravam o mundo em produção agrícola e em negócios bancários, mas estavam atrás de quase todos os países avançados em crédito agrícola de curto prazo, sem hipoteca. A indústria e o comércio se financiavam assim; a agricultura, não. Muitos fazendeiros, diz, pareciam aceitar o dito atribuído a Luís XIV."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Para o rei, “o crédito sustenta a agricultura como a corda sustenta o enforcado”.",
+          "original": "“Credit supports agriculture, as the cord supports the hanged.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os bancos estavam concentrados nas cidades: dos 7.301 bancos nacionais existentes em 1º de setembro de 1911, 192 ficavam nas doze maiores cidades, com 14% da população; seus bancos nacionais concentravam 40% dos empréstimos. A lei, porém, não impedia empréstimos a fazendeiros, salvo a proibição de garantia imobiliária aos bancos nacionais. Como não havia estatística sobre esses empréstimos, Kemmerer recorre a depoimentos de banqueiros e encontra um quadro confuso, de práticas muito variadas. Onde não havia banco, o crédito vinha do comerciante, em contas de loja pagas na colheita; no Sul, o sistema de penhor da safra ao armazém cobrava juros que uma testemunha estimou em cerca de 40% ao ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as causas do atraso, Kemmerer aponta a terra barata, a prosperidade dos fazendeiros, a mobilidade da população rural, o isolamento das fazendas e o crescimento acelerado da indústria e do comércio. Mas essas causas estavam passando: o valor médio da terra por acre subira de US$ 15,57 em 1900 para US$ 32,40 em 1910, e a mecanização exigia capital de giro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Kemmerer rejeita bancos agrícolas estatais, descreve o sistema cooperativo Raiffeisen alemão e registra as primeiras oito cooperativas de crédito rural organizadas nos Estados Unidos pela Jewish Agricultural and Industrial Aid Society, de Nova York, em 1911 e 1912. Em Massachusetts, único estado com lei própria, de 1909, 22 cooperativas de crédito tinham sido criadas até março de 1912, nenhuma entre fazendeiros. Conclui que o mais necessário é educar fazendeiros e banqueiros, permitir aos bancos nacionais empréstimos com garantia imobiliária e tornar a moeda e o crédito mais elásticos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as resenhas, além da de Clark sobre Schumpeter, Harry G. Brown trata das Laws of Wages de Henry Ludwell Moore; Jacob H. Hollander, da History of Economic Thought de Lewis H. Haney; Edward Alsworth Ross, do estudo de Chen Huan-Chang sobre os princípios econômicos de Confúcio; e F. W. Taussig, do livro de Roy G. Blakey sobre o açúcar de beterraba e a tarifa. As notas anunciam a reunião anual da associação em Boston, com sessões sobre salário mínimo, alta do custo de vida e reforma bancária, e o discurso presidencial de Fetter."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, três dos quatro artigos tratam do mesmo problema por ângulos diferentes: o que se deve pôr dentro de um conceito antes de usá-lo. Fetter quer que a definição de preço não carregue uma teoria do valor; Seager acusa Fisher de construir a teoria dos juros com um conceito de capital que mistura terra e máquinas; Kemmerer começa reclamando que não há sequer estatística do crédito agrícola, e que sem ela qualquer reforma seria às cegas. Willis faz o mesmo exercício com um argumento político, isolando o transporte de todas as outras variáveis antes de medir seu efeito."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Valor de troca",
+          "poder de compra de um bem sobre outros bens, no sentido da escola de Ricardo e Mill."
+        ],
+        [
+          "Valor subjetivo",
+          "estima que uma pessoa atribui a um bem, no sentido da escola austríaca."
+        ],
+        [
+          "Razão de troca",
+          "proporção em que dois bens se trocam, termo que Jevons propôs no lugar de valor."
+        ],
+        [
+          "Teoria da impaciência",
+          "explicação de Fisher para os juros como preferência por bens presentes sobre futuros."
+        ],
+        [
+          "Produtividade do capital",
+          "maior produto obtido com métodos que usam meios de produção produzidos."
+        ],
+        [
+          "Crédito agrícola",
+          "no artigo de Kemmerer, crédito de curto prazo ao fazendeiro, sem hipoteca."
+        ],
+        [
+          "Penhor da safra",
+          "garantia sobre a colheita futura dada ao credor, comum no Sul dos Estados Unidos."
+        ],
+        [
+          "Raiffeisen",
+          "sistema alemão de cooperativas de crédito rural, com empréstimos só a associados."
+        ]
+      ],
+      "hoje": "Os quatro temas continuam presentes. Manuais ainda tropeçam na diferença entre preço, valor e custo; a teoria dos juros combina hoje a preferência temporal de Fisher com a produtividade do capital que Seager defendia; subsídios à marinha mercante seguem justificados por argumentos de acesso a mercados; e o crédito rural, com cooperativas, bancos de desenvolvimento e garantias sobre a safra, continua a ser um capítulo próprio da política agrícola em muitos países.",
+      "itens": [
+        [
+          "The Definition of Price",
+          "pp. 783–813",
+          "1828191"
+        ],
+        [
+          "Transportation and Competition in South American Markets",
+          "pp. 814–833",
+          "1828192"
+        ],
+        [
+          "The Impatience Theory of Interest",
+          "pp. 834–851",
+          "1828193"
+        ],
+        [
+          "Agricultural Credit in the United States",
+          "pp. 852–872",
+          "1828194"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 873-875",
+          "pp. 873–875",
+          "1828195"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 875-877",
+          "pp. 875–877",
+          "1828196"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 877-879",
+          "pp. 877–879",
+          "1828197"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 879-881",
+          "pp. 879–881",
+          "1828198"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 881-882",
+          "pp. 881–882",
+          "1828199"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 883",
+          "pp. 883",
+          "1828200"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 883-884",
+          "pp. 883–884",
+          "1828201"
+        ],
+        [
+          "New Books",
+          "pp. 884–885",
+          "1828202"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 886-887",
+          "pp. 886–887",
+          "1828203"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 887",
+          "pp. 887",
+          "1828204"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 888",
+          "pp. 888",
+          "1828205"
+        ],
+        [
+          "New Books",
+          "pp. 888–891",
+          "1828206"
+        ],
+        [
+          "New Books",
+          "pp. 891–892",
+          "1828207"
+        ],
+        [
+          "New Books",
+          "pp. 892–893",
+          "1828208"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 893-895",
+          "pp. 893–895",
+          "1828209"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 895-896",
+          "pp. 895–896",
+          "1828210"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 896-897",
+          "pp. 896–897",
+          "1828211"
+        ],
+        [
+          "New Books",
+          "pp. 897–898",
+          "1828212"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 898",
+          "pp. 898",
+          "1828213"
+        ],
+        [
+          "New Books",
+          "pp. 898",
+          "1828214"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 899",
+          "pp. 899",
+          "1828215"
+        ],
+        [
+          "New Books",
+          "pp. 899–901",
+          "1828216"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 901-903",
+          "pp. 901–903",
+          "1828217"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 903-904",
+          "pp. 903–904",
+          "1828218"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 905",
+          "pp. 905",
+          "1828219"
+        ],
+        [
+          "New Books",
+          "pp. 905–906",
+          "1828220"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 906-908",
+          "pp. 906–908",
+          "1828221"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 908-909",
+          "pp. 908–909",
+          "1828222"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 910",
+          "pp. 910",
+          "1828223"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 910-912",
+          "pp. 910–912",
+          "1828224"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 912-913",
+          "pp. 912–913",
+          "1828225"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 914-915",
+          "pp. 914–915",
+          "1828226"
+        ],
+        [
+          "New Books",
+          "pp. 915–916",
+          "1828227"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 916-917",
+          "pp. 916–917",
+          "1828228"
+        ],
+        [
+          "New Books",
+          "pp. 917–918",
+          "1828229"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 919-921",
+          "pp. 919–921",
+          "1828230"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 921-923",
+          "pp. 921–923",
+          "1828231"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 923-924",
+          "pp. 923–924",
+          "1828232"
+        ],
+        [
+          "New Books",
+          "pp. 924–926",
+          "1828233"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 926-928",
+          "pp. 926–928",
+          "1828234"
+        ],
+        [
+          "New Books",
+          "pp. 928–929",
+          "1828235"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 929-931",
+          "pp. 929–931",
+          "1828236"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 931-932",
+          "pp. 931–932",
+          "1828237"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 932",
+          "pp. 932",
+          "1828238"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 932-935",
+          "pp. 932–935",
+          "1828239"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 935-937",
+          "pp. 935–937",
+          "1828240"
+        ],
+        [
+          "New Books",
+          "pp. 937–938",
+          "1828241"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 938-939",
+          "pp. 938–939",
+          "1828242"
+        ],
+        [
+          "[untitled] The American Economic Review (1912-12-01), page 939",
+          "pp. 939",
+          "1828243"
+        ],
+        [
+          "New Books",
+          "pp. 939–941",
+          "1828244"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 941-945",
+          "pp. 941–945",
+          "1828245"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 945-949",
+          "pp. 945–949",
+          "1828246"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 949-950",
+          "pp. 949–950",
+          "1828247"
+        ],
+        [
+          "[untitled] The American Economic Review, (1912-12-01), pages 950-951",
+          "pp. 950–951",
+          "1828248"
+        ],
+        [
+          "New Books",
+          "pp. 951–952",
+          "1828249"
+        ],
+        [
+          "New Books",
+          "pp. 952",
+          "1828250"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 953–976",
+          "1828251"
+        ],
+        [
+          "Periodicals",
+          "pp. 977–1031",
+          "1828252"
+        ],
+        [
+          "Notes",
+          "pp. 1032–1040",
+          "1828253"
+        ]
+      ],
+      "jstor_edicao": "i331809",
+      "artigos": [
+        {
+          "titulo": "The Definition of Price",
+          "autores": "Frank A. Fetter (Princeton University)",
+          "paginas": "pp. 783–813",
+          "jstor": "1828191",
+          "ensaio_slug": "fetter-definicao-de-preco",
+          "resumo": "Fetter classifica 117 definições de preço e propõe defini-lo, sem referência ao valor nem ao dinheiro, como a quantidade de bens dada ou recebida em troca de outro bem."
+        },
+        {
+          "titulo": "Transportation and Competition in South American Markets",
+          "autores": "H. Parker Willis (Washington, D. C.)",
+          "paginas": "pp. 814–833",
+          "jstor": "1828192",
+          "resumo": "Willis conclui que tonelagem, fretes e partidas entre os Estados Unidos e a América do Sul não punham o exportador americano em desvantagem séria."
+        },
+        {
+          "titulo": "The Impatience Theory of Interest",
+          "autores": "Henry R. Seager (Columbia University)",
+          "paginas": "pp. 834–851",
+          "jstor": "1828193",
+          "ensaio_slug": "seager-teoria-da-impaciencia",
+          "resumo": "Seager sustenta que a teoria dos juros de Fisher, baseada só na impaciência, é incompleta sem a produtividade do capital."
+        },
+        {
+          "titulo": "Agricultural Credit in the United States",
+          "autores": "E. W. Kemmerer (Princeton University)",
+          "paginas": "pp. 852–872",
+          "jstor": "1828194",
+          "resumo": "Kemmerer examina o atraso do crédito agrícola de curto prazo nos Estados Unidos e propõe educação, cooperativas e mudanças na lei bancária."
+        },
+        {
+          "titulo": "Joseph Schumpeter, Theorie der wirtschaftlichen Entwicklung",
+          "autores": "John Bates Clark",
+          "paginas": "pp. 873–875",
+          "jstor": "1828195",
+          "resumo": "Resenha do livro de Schumpeter sobre o desenvolvimento econômico."
+        },
+        {
+          "titulo": "Henry Ludwell Moore, Laws of Wages",
+          "autores": "Harry G. Brown",
+          "paginas": "pp. 875–877",
+          "jstor": "1828196",
+          "resumo": "Resenha de um ensaio de economia estatística sobre salários."
+        },
+        {
+          "titulo": "Lewis H. Haney, History of Economic Thought",
+          "autores": "Jacob H. Hollander",
+          "paginas": "pp. 877–879",
+          "jstor": "1828197",
+          "resumo": "Resenha de uma história crítica das teorias econômicas."
+        },
+        {
+          "titulo": "Carl Koepp, Das Verhältnis der Mehrwerttheorien von Karl Marx und Thomas Hodgskin",
+          "autores": "Esther Lowenthal",
+          "paginas": "pp. 879–881",
+          "jstor": "1828198",
+          "resumo": "Resenha de um estudo comparativo das teorias da mais-valia de Marx e Hodgskin."
+        },
+        {
+          "titulo": "Karl Diehl e Paul Mombert, Ausgewählte Lesestücke zum Studium der politischen Oekonomie, vols. II e III",
+          "autores": "Walter Adriance",
+          "paginas": "pp. 881–882",
+          "jstor": "1828199",
+          "resumo": "Resenha de uma coletânea de textos para o estudo da economia política."
+        },
+        {
+          "titulo": "Ernest Felder, Der Wert im Gesetze",
+          "autores": "J. E. LeRossignol",
+          "paginas": "pp. 883",
+          "jstor": "1828200",
+          "resumo": "Resenha de um estudo sobre o valor nas leis e decisões judiciais austríacas."
+        },
+        {
+          "titulo": "Chen Huan-Chang, The Economic Principles of Confucius and his School",
+          "autores": "Edward Alsworth Ross",
+          "paginas": "pp. 883–884",
+          "jstor": "1828201",
+          "resumo": "Resenha de um compêndio do pensamento econômico chinês, publicado pela Columbia University."
+        },
+        {
+          "titulo": "New Books (teoria e sua história)",
+          "autores": "redação",
+          "paginas": "pp. 884–885",
+          "jstor": "1828202",
+          "resumo": "Lista de lançamentos de teoria e história do pensamento."
+        },
+        {
+          "titulo": "Hermann Schumacher, Weltwirtschaftliche Studien",
+          "autores": "Edward Van Dyke Robinson",
+          "paginas": "pp. 886–887",
+          "jstor": "1828203",
+          "resumo": "Resenha de uma coletânea de conferências e ensaios sobre economia mundial."
+        },
+        {
+          "titulo": "Karl Brauer, Kritische Studien zur Literatur und Quellenkunde der Wirtschaftsgeschichte",
+          "autores": "Clive Day",
+          "paginas": "pp. 887",
+          "jstor": "1828204",
+          "resumo": "Resenha de um estudo sobre fontes e literatura da história econômica."
+        },
+        {
+          "titulo": "Riccardo Bachi, L'Italia economica nel 1911",
+          "autores": "Robert F. Foerster",
+          "paginas": "pp. 888",
+          "jstor": "1828205",
+          "resumo": "Resenha de um anuário da economia italiana."
+        },
+        {
+          "titulo": "New Books (história econômica e geografia)",
+          "autores": "redação",
+          "paginas": "pp. 888–891",
+          "jstor": "1828206",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "New Books (agricultura)",
+          "autores": "redação",
+          "paginas": "pp. 891–892",
+          "jstor": "1828207",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "New Books (indústrias)",
+          "autores": "redação",
+          "paginas": "pp. 892–893",
+          "jstor": "1828208",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Samuel O. Dunn, The American Transportation Question",
+          "autores": "Frank L. McVey",
+          "paginas": "pp. 893–895",
+          "jstor": "1828209",
+          "resumo": "Resenha de um livro sobre a questão ferroviária americana."
+        },
+        {
+          "titulo": "Charles Lee Raper, Railway Transportation",
+          "autores": "Stuart Daggett",
+          "paginas": "pp. 895–896",
+          "jstor": "1828210",
+          "resumo": "Resenha de uma história da economia ferroviária e de sua relação com o Estado."
+        },
+        {
+          "titulo": "Edwin M. Bacon, Manual of Navigation Laws",
+          "autores": "E. J. Clapp",
+          "paginas": "pp. 896–897",
+          "jstor": "1828211",
+          "resumo": "Resenha de um manual de leis de navegação."
+        },
+        {
+          "titulo": "New Books (transportes e comunicações)",
+          "autores": "redação",
+          "paginas": "pp. 897–898",
+          "jstor": "1828212",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Georg Schmidt, Geschichte des Welthandels",
+          "autores": "Clive Day",
+          "paginas": "pp. 898",
+          "jstor": "1828213",
+          "resumo": "Resenha da segunda edição de uma história breve do comércio mundial."
+        },
+        {
+          "titulo": "New Books (comércio e crises)",
+          "autores": "redação",
+          "paginas": "pp. 898",
+          "jstor": "1828214",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Edward W. Bemis, Report upon the Price of Gas in Chicago",
+          "autores": "H. G. Friedman",
+          "paginas": "pp. 899",
+          "jstor": "1828215",
+          "resumo": "Resenha de um relatório sobre o preço do gás em Chicago."
+        },
+        {
+          "titulo": "New Books (contabilidade, investimentos e bolsas)",
+          "autores": "redação",
+          "paginas": "pp. 899–901",
+          "jstor": "1828216",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Joseph A. Joyce, A Treatise on Monopolies and Unlawful Combinations or Restraints",
+          "autores": "Maurice H. Robinson",
+          "paginas": "pp. 901–903",
+          "jstor": "1828217",
+          "resumo": "Resenha de um tratado jurídico sobre monopólios e combinações."
+        },
+        {
+          "titulo": "The Regulation of Municipal Utilities, org. Clyde Lyndon King",
+          "autores": "H. G. Friedman",
+          "paginas": "pp. 903–904",
+          "jstor": "1828218",
+          "resumo": "Resenha de uma coletânea sobre a regulação de serviços públicos municipais."
+        },
+        {
+          "titulo": "Report of St. Louis Public Service Commission on Rates for Electric Light and Power",
+          "autores": "H. G. Friedman",
+          "paginas": "pp. 905",
+          "jstor": "1828219",
+          "resumo": "Resenha do relatório de uma comissão municipal sobre tarifas de eletricidade."
+        },
+        {
+          "titulo": "New Books (capital e organização capitalista)",
+          "autores": "redação",
+          "paginas": "pp. 905–906",
+          "jstor": "1828220",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "David A. McCabe, The Standard Rate in American Trade Unions",
+          "autores": "H. A. E. Chandler",
+          "paginas": "pp. 906–908",
+          "jstor": "1828221",
+          "resumo": "Resenha de um estudo da Johns Hopkins sobre a taxa salarial uniforme nos sindicatos."
+        },
+        {
+          "titulo": "Finding Employment for Children who Leave the Grade Schools to go to Work",
+          "autores": "Susan M. Kingsbury",
+          "paginas": "pp. 908–909",
+          "jstor": "1828222",
+          "resumo": "Resenha de um relatório de Chicago sobre o emprego de crianças que deixam a escola."
+        },
+        {
+          "titulo": "Earl A. Saliers, The Coal Miner",
+          "autores": "Frank T. Carlton",
+          "paginas": "pp. 910",
+          "jstor": "1828223",
+          "resumo": "Resenha de um estudo sobre a luta dos mineiros do Hocking Valley por salários regulados."
+        },
+        {
+          "titulo": "Ernest L. Talbert, Opportunities in School and Industry for Children of the Stockyards District, e outros",
+          "autores": "Frank T. Carlton",
+          "paginas": "pp. 910–912",
+          "jstor": "1828224",
+          "resumo": "Resenha de estudos curtos sobre crianças, envenenamento por mercúrio e acidentes em minas."
+        },
+        {
+          "titulo": "Henry H. Schloesser e W. Smith Clark, The Legal Position of Trade Unions",
+          "autores": "Lindley D. Clark",
+          "paginas": "pp. 912–913",
+          "jstor": "1828225",
+          "resumo": "Resenha de um livro sobre a situação jurídica dos sindicatos ingleses."
+        },
+        {
+          "titulo": "H. Lichtenfelt, Über die Ernährung und deren Kosten bei deutschen Arbeitern; F. Krömmelbein, Massenverbrauch und Preisbewegung in der Schweiz",
+          "autores": "Donald F. Grass",
+          "paginas": "pp. 914–915",
+          "jstor": "1828226",
+          "resumo": "Resenha de dois estudos sobre alimentação, consumo e preços."
+        },
+        {
+          "titulo": "New Books (trabalho e organizações de trabalhadores)",
+          "autores": "redação",
+          "paginas": "pp. 915–916",
+          "jstor": "1828227",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "William Graham, The One Pound Note in the History of Banking in Great Britain",
+          "autores": "William A. Scott",
+          "paginas": "pp. 916–917",
+          "jstor": "1828228",
+          "resumo": "Resenha de uma história da nota de uma libra no sistema bancário britânico."
+        },
+        {
+          "titulo": "New Books (moeda, preços, crédito e bancos)",
+          "autores": "redação",
+          "paginas": "pp. 917–918",
+          "jstor": "1828229",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Roy G. Blakey, The United States Beet-Sugar Industry and the Tariff",
+          "autores": "F. W. Taussig",
+          "paginas": "pp. 919–921",
+          "jstor": "1828230",
+          "resumo": "Resenha de um estudo sobre a indústria do açúcar de beterraba e a tarifa."
+        },
+        {
+          "titulo": "Paul Leroy-Beaulieu, Traité de la science des finances",
+          "autores": "C. J. Bullock",
+          "paginas": "pp. 921–923",
+          "jstor": "1828231",
+          "resumo": "Resenha da oitava edição do tratado de finanças públicas."
+        },
+        {
+          "titulo": "Bruno Moll, Untersuchungen zur Geschichte des Objektes direkter Steuern",
+          "autores": "Raymond V. Phelan",
+          "paginas": "pp. 923–924",
+          "jstor": "1828232",
+          "resumo": "Resenha de um estudo sobre a história da base dos impostos diretos."
+        },
+        {
+          "titulo": "New Books (finanças públicas, tributação e tarifa)",
+          "autores": "redação",
+          "paginas": "pp. 924–926",
+          "jstor": "1828233",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "E. George Payne, An Experiment in Alien Labor",
+          "autores": "Mary Roberts Coolidge",
+          "paginas": "pp. 926–928",
+          "jstor": "1828234",
+          "resumo": "Resenha de um estudo sobre trabalho de imigrantes."
+        },
+        {
+          "titulo": "New Books (população e migração)",
+          "autores": "redação",
+          "paginas": "pp. 928–929",
+          "jstor": "1828235",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Lee Welling Squier, Old Age Dependency in the United States",
+          "autores": "Robert F. Foerster",
+          "paginas": "pp. 929–931",
+          "jstor": "1828236",
+          "resumo": "Resenha de um levantamento do movimento por pensões de velhice."
+        },
+        {
+          "titulo": "George F. Kenngott, The Record of a City",
+          "autores": "W. B. B.",
+          "paginas": "pp. 931–932",
+          "jstor": "1828237",
+          "resumo": "Resenha de um levantamento social de Lowell, Massachusetts."
+        },
+        {
+          "titulo": "National Housing Association, Proceedings of the First National Housing Conference",
+          "autores": "J. Ford",
+          "paginas": "pp. 932",
+          "jstor": "1828238",
+          "resumo": "Resenha dos anais da primeira conferência nacional de habitação, de 1911."
+        },
+        {
+          "titulo": "E. Stagg Whitin, Penal Servitude",
+          "autores": "Winthrop D. Lane",
+          "paginas": "pp. 932–935",
+          "jstor": "1828239",
+          "resumo": "Resenha de um livro sobre o trabalho prisional."
+        },
+        {
+          "titulo": "B. Seebohm Rowntree e Bruno Lasker, Unemployment: A Social Study",
+          "autores": "William H. Pear",
+          "paginas": "pp. 935–937",
+          "jstor": "1828240",
+          "resumo": "Resenha de um estudo social sobre o desemprego."
+        },
+        {
+          "titulo": "New Books (problemas e reformas sociais)",
+          "autores": "redação",
+          "paginas": "pp. 937–938",
+          "jstor": "1828241",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Harry B. Bradbury, Workmen's Compensation and State Insurance Law of the United States",
+          "autores": "Carroll W. Doten",
+          "paginas": "pp. 938–939",
+          "jstor": "1828242",
+          "resumo": "Resenha de um tratado sobre as leis de indenização de acidentes de trabalho."
+        },
+        {
+          "titulo": "G. H. Knibbs, Social Insurance",
+          "autores": "W. F. G.",
+          "paginas": "pp. 939",
+          "jstor": "1828243",
+          "resumo": "Resenha de um estudo do serviço de estatística australiano sobre seguro social."
+        },
+        {
+          "titulo": "New Books (seguros e pensões)",
+          "autores": "redação",
+          "paginas": "pp. 939–941",
+          "jstor": "1828244",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Esther Lowenthal, The Ricardian Socialists; Ira B. Cross, The Essentials of Socialism; Henry C. Vedder, Socialism and the Ethics of Jesus",
+          "autores": "Herbert E. Mills",
+          "paginas": "pp. 941–945",
+          "jstor": "1828245",
+          "resumo": "Resenha conjunta de três livros sobre o socialismo."
+        },
+        {
+          "titulo": "Sir Arthur Clay, Syndicalism and Labour; Louis Levine, The Labor Movement in France; Compère-Morel, La Question agraire et le socialisme en France",
+          "autores": "O. D. Skelton",
+          "paginas": "pp. 945–949",
+          "jstor": "1828246",
+          "resumo": "Resenha conjunta de três livros sobre sindicalismo e socialismo."
+        },
+        {
+          "titulo": "John Lee Coulter, Cooperation among Farmers",
+          "autores": "T. N. Carver",
+          "paginas": "pp. 949–950",
+          "jstor": "1828247",
+          "resumo": "Resenha de um livro sobre cooperativas de fazendeiros."
+        },
+        {
+          "titulo": "Report on Industrial and Agricultural Cooperative Societies in the United Kingdom",
+          "autores": "James Ford",
+          "paginas": "pp. 950–951",
+          "jstor": "1828248",
+          "resumo": "Resenha de um relatório oficial sobre cooperativas industriais e agrícolas britânicas."
+        },
+        {
+          "titulo": "New Books (socialismo e cooperativas)",
+          "autores": "redação",
+          "paginas": "pp. 951–952",
+          "jstor": "1828249",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "New Books (estatística)",
+          "autores": "redação",
+          "paginas": "pp. 952",
+          "jstor": "1828250",
+          "resumo": "Lista de lançamentos da seção."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "redação",
+          "paginas": "pp. 953–976",
+          "jstor": "1828251",
+          "resumo": "Documentos oficiais, a começar pelo relatório da comissão de Massachusetts sobre armazenagem a frio."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "redação",
+          "paginas": "pp. 977–1031",
+          "jstor": "1828252",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "redação",
+          "paginas": "pp. 1032–1040",
+          "jstor": "1828253",
+          "resumo": "Notas da redação, com o programa da reunião anual da associação em Boston."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "fetter-definicao-de-preco",
+          "titulo": "Fetter, 1912: o que é, afinal, um preço?",
+          "titulo_original": "The Definition of Price",
+          "autores": "Frank A. Fetter (Princeton University)",
+          "paginas": "pp. 783–813",
+          "jstor": "1828191",
+          "chamada": "Fetter reúne 117 definições de preço, de Adam Smith a Taussig, mostra como Ricardo e Mill prenderam o termo ao dinheiro e propõe uma definição sem valor e sem moeda.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Frank A. Fetter, da Princeton University, foi às bibliotecas de Princeton e de Columbia e abriu todos os manuais gerais de economia e todas as enciclopédias econômicas que encontrou. Recolheu 117 definições de preço. Algumas ideias do trabalho já tinham sido apresentadas, informalmente, numa mesa-redonda sobre preço e valor que ele presidira em Washington, em 29 de dezembro de 1911."
+            },
+            {
+              "tipo": "p",
+              "texto": "A escolha do tema, diz Fetter, pede justificativa. O preço parece o conceito mais simples e mais palpável da economia, menos carente de redefinição que valor ou custo. Mas as definições formam um novelo, e é preciso puxar um fio de cada vez, começando pelos menos emaranhados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como se classificam 117 definições?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fetter usa dois critérios. O primeiro é a noção de valor a que a definição se liga. No grupo A, o valor é poder de compra, valor de troca objetivo; no grupo B, é estima, valor subjetivo, no vocabulário austríaco; no grupo C, é uma simples razão de troca, uma expressão matemática. O segundo critério é o dinheiro. Nas definições monetárias, preço é necessariamente uma quantia de moeda; nas não monetárias, qualquer bem dado em troca pode ser o preço de outro. Os dois critérios combinados dão seis tipos."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "43",
+              "texto": "Exemplos do tipo mais numeroso, o de valor de troca expresso em dinheiro, que vai de Ricardo, em 1817, a Taussig, em 1911. O tipo não monetário de valor de troca, iniciado por Adam Smith, tem 27 exemplos; o não monetário de valor subjetivo, 28; o monetário de valor subjetivo, 13; os dois tipos de razão de troca, três cada."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os exemplos vão de Adam Smith, que chamava o trabalho de primeiro preço, a Walker, para quem era igualmente correto dizer que um preço era de 75 alqueires de trigo ou de US$ 100. Entre os subjetivistas, Beccaria chamava o vinho de preço do trigo e vice-versa, e Menger definia os preços como as quantidades de bens que aparecem na troca."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o preço ficou preso ao dinheiro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Antes de 1817, todas as definições da lista eram não monetárias. Ricardo deu o primeiro exemplo claro da variante monetária. Homem da City, numa Inglaterra em que a economia de escambo era substituída pela monetária, ele só conhecia preços em dinheiro, e viu no contraste entre poder de compra geral e sua expressão em moeda um novo critério de distinção."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Num ensaio de 1816, Ricardo escreveu que “o preço de uma mercadoria é seu valor de troca apenas em dinheiro”.",
+              "original": "“The price of a commodity is its exchangeable value in money only.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em 1848, J. S. Mill deu a esse uso o peso de sua autoridade. Os primeiros economistas, dizia, usavam valor e preço como sinônimos; para não desperdiçar dois bons termos com uma só ideia, preço seria o valor em relação ao dinheiro. Fetter sustenta que Mill não percebeu a distinção anterior a Smith e Ricardo, entre o valor como qualidade e o preço como a coisa dada em troca, e que por isso escolheu o caráter monetário como a única diferença possível."
+            },
+            {
+              "tipo": "p",
+              "texto": "A explicação, segundo Fetter, está numa mudança de vocabulário. Do fim do século XVIII em diante, a palavra valor perdeu nos escritos econômicos o sentido psicológico de estima e passou a significar poder de compra; ao mesmo tempo, sob a influência de Bentham, a palavra utilidade ocupou o lugar do valor de uso de Smith. Em alemão, onde Wert e Nutzen não se confundiam, a mudança foi incompleta."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou depois de 1871?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Com Menger e Jevons, em 1871, veio um novo impulso. A Menger se deve a maior parte das definições ligadas ao valor subjetivo entre 1871 e 1911; a Jevons, as definições de preço como razão de troca. Fetter critica o raciocínio de Jevons: dizer que o valor implica uma relação não é o mesmo que dizer que ele é uma relação. A altura e o peso implicam comparação com outros objetos, mas não são a comparação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os autores que seguiram Jevons nesse ponto, entre eles Davenport e Irving Fisher, são para Fetter um beco sem saída. Fisher define o preço como razão de troca e transfere a palavra valor para o produto da quantidade pelo preço, apelando ao uso dos homens de negócios. Fetter objeta que a distinção entre unidade e agregado é arbitrária, e que tirar de valor o sentido subjetivo tornaria incompreensível a discussão recente sobre o valor."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "100% para 49%",
+              "texto": "Proporção de definições não monetárias antes de Ricardo e entre 1871 e 1911. Ela caíra a 43% entre 1817 e 1847 e a 32% depois de Mill, até 1870. Entre 1871 e 1911, as definições de valor de troca e de valor subjetivo aparecem em número quase igual."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que definição Fetter propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fetter observa que quase ninguém estudou o problema de forma sistemática: as definições foram escolhidas por acaso, por imitação ou por deferência à autoridade, e os que se afastaram do costume o fizeram, em geral, sem perceber. Ele mesmo admite que a pesquisa mudou a sua opinião, e que no exercício de um de seus manuais usara a expressão preço mínimo subjetivo, que agora critica nos outros."
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira proposta é definir o preço sem referência ao valor. Uma boa definição vai do conhecido ao desconhecido, e o valor é termo mais ambíguo que o preço. A definição não deve conter uma teoria do preço nem de sua relação com o valor; cada autor pode manter sua opinião sobre os componentes do preço, o problema de Smith, ou sobre seu vínculo com o valor, o problema austríaco, fora da definição. Fetter recusa também a ideia de preços pessoais ou subjetivos, que, a seu ver, nada mais são que avaliações individuais."
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda proposta é não limitar o preço ao dinheiro. O escambo não desapareceu, e o uso popular chama de preço quase tudo o que se dá em troca. O argumento de Davenport, de que sem a definição monetária faltaria um termo para a relação com o dinheiro, não procede: em qualquer caso é preciso dizer em que bem e em que unidade o preço está expresso, centavos por alqueire ou pence por jarda, e limitar a definição ao dinheiro não abrevia nada."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "A definição final é: “preço é a quantidade de bens dada ou recebida em troca de outro bem”.",
+              "original": "“Price is the quantity of goods given or received in exchange for another good.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fetter diz que dificilmente se melhoraria a formulação de Menger, para quem os preços são as quantidades de bens que aparecem na troca, vistas como pagamento pelos bens contra os quais se trocam. E admite que o momento de um acordo internacional sobre a definição talvez ainda não tenha chegado."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo vale menos pela definição a que chega do que pelo método. Fetter trata a terminologia como um problema empírico: conta, classifica e data as definições, e mostra que o significado de uma palavra técnica mudou com as teorias e com o ambiente econômico, como a passagem do escambo à economia monetária na Inglaterra de Ricardo. Uma definição, nesse quadro, não é neutra; carrega uma teoria do valor sem dizer.",
+                "A recomendação de separar a definição da teoria é útil para qualquer campo. Quando um conceito traz embutida a explicação do fenômeno que nomeia, o debate fica circular, porque discordar da teoria parece discordar da palavra. Fetter propõe o caminho inverso: um conceito concreto e observável, a quantidade de bens dada na troca, sobre o qual as escolas possam divergir na explicação."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Valor de troca objetivo",
+              "poder de compra de um bem sobre outros bens."
+            ],
+            [
+              "Valor subjetivo",
+              "estima que uma pessoa atribui a um bem."
+            ],
+            [
+              "Razão de troca",
+              "proporção matemática em que dois bens se trocam."
+            ],
+            [
+              "Definição monetária",
+              "aquela em que o preço é necessariamente uma quantia de dinheiro."
+            ],
+            [
+              "Escambo",
+              "troca direta de bens sem uso de moeda."
+            ],
+            [
+              "Valor de uso",
+              "expressão de Adam Smith para a utilidade de um bem, distinta do seu valor de troca."
+            ]
+          ],
+          "hoje": "A distinção de Fetter entre o preço observado e as avaliações que o explicam está hoje implícita em qualquer manual, e os modelos de equilíbrio geral tratam os preços justamente como razões de troca entre bens, com a moeda como numerário. A pergunta sobre o que uma definição já supõe continua presente, por exemplo quando se discute o que entra num índice de preços ou como se mede o preço de serviços gratuitos ou trocados sem dinheiro."
+        },
+        {
+          "slug": "seager-teoria-da-impaciencia",
+          "titulo": "Seager, 1912: os juros nascem só da impaciência?",
+          "titulo_original": "The Impatience Theory of Interest",
+          "autores": "Henry R. Seager (Columbia University)",
+          "paginas": "pp. 834–851",
+          "jstor": "1828193",
+          "chamada": "Seager responde à teoria dos juros de Irving Fisher: a impaciência explica a oferta de poupança, mas sem a produtividade do capital a explicação fica pela metade.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1912, Irving Fisher publicou um manual para estudantes de graduação, Elementary Principles of Economics, que no prefácio dizia não pretender introduzir matéria controversa. Nele estava, em linguagem simples, a teoria dos juros que Fisher expusera em 1907 em The Rate of Interest, cercada de demonstrações matemáticas. Para Henry R. Seager, da Columbia University, a versão elementar tem um efeito duplo: mostra que Fisher considera a teoria assente e a expõe, mais do que nunca, à crítica."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que diz a teoria da impaciência?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager a descreve como a teoria do desconto de Böhm-Bawerk com duas modificações importantes. Fisher nega a distinção entre terra e capital: capital é qualquer estoque de riqueza num dado instante, incluindo terra, bens de consumo duráveis e os próprios trabalhadores. E recusa que a superioridade técnica dos bens presentes sobre os futuros, ou a produtividade do capital, influa na comparação entre satisfações presentes e futuras."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Para Fisher, “a essência dos juros é a impaciência, o desejo de obter satisfações mais cedo do que podemos obtê-las”.",
+              "original": "“the essence of interest is impatience, the desire to obtain gratifications earlier than we can get them”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A taxa de impaciência varia com traços pessoais, previdência, autocontrole, hábito, expectativa de vida e amor à descendência, e com as características da renda esperada: tamanho, distribuição no tempo e certeza. Pessoas imprevidentes, de vontade fraca, acostumadas a gastar, com pouco tempo de vida e sem herdeiros têm taxas altas; as previdentes têm taxas baixas. A combinação dessas taxas, por meio de empréstimos e investimentos, forma a taxa de juros."
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager lembra que quase todos esses fatores já eram conhecidos. No seu próprio Introduction to Economics, listara oito influências sobre a acumulação de capital, que cobriam os de Fisher, exceto o hábito e a distribuição da renda no tempo. O que distingue Fisher é o método e a recusa da produtividade."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vêm as rendas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira crítica é que Fisher separa a explicação dos juros da explicação da produção. Lendo The Rate of Interest, diz Seager, se teria a impressão de que enriquecer é um processo puramente psicológico, como se as rendas brotassem das encostas como riachos de montanha. Böhm-Bawerk, ao reconhecer a superioridade técnica dos bens presentes, precisou explicar o papel do capital na produção, e sua teoria ficou próxima da teoria da produtividade. Fisher, ao negar essa superioridade, ficou livre para não dizer nada sobre a produção."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A impaciência é da natureza humana?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher afirma que a preferência pelo presente é atributo fundamental da natureza humana e que os juros em dinheiro nunca podem ser negativos, porque a moeda pode ser entesourada sem perda. Seager responde que entesourar exige trabalho, despesa e risco, e que muitas pessoas bem providas pagariam algo para transferir riqueza supérflua do presente para o futuro. Se os juros quase nunca são negativos, é porque os homens de negócios, que conhecem a produtividade do capital, tomam emprestada a poupança alheia."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para mostrá-lo, Seager propõe supor ausente a produtividade do capital. Haveria ainda gente imprevidente disposta a trocar renda futura por presente. Mas muitos pobres entesourariam para os dias difíceis, como os camponeses franceses que guardavam moedas sem juro nenhum, e muitos ricos poupariam para a velhice, para os filhos e pelo poder que a riqueza confere."
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto que Fisher deixaria de lado é o poder de endividamento. Na sua primeira aproximação, os impacientes tomam emprestado até que sua taxa de impaciência iguale a de juros. Seager pergunta se isso vale para um bebedor inveterado com renda pequena e certa, disposto a sacrificar tudo pela bebida e com poucos anos de vida: ele nunca conseguiria tomar emprestado o bastante. A maioria dos que têm taxas altas, acrescenta, são assalariados sem outra renda além do trabalho. Sem a produtividade, conclui, a existência de juros positivos seria uma questão em aberto."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que há de errado nos exemplos de Fisher?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher acusa os teóricos da produtividade de petição de princípio: a terra vale US$ 100.000 porque esse é o valor descontado de US$ 5.000 por ano, e descontar já supõe uma taxa de juros. Seager responde que o argumento só convence porque a terra, de oferta fixa, é apresentada como típica do capital. Basta trocar terra por ferramentas e máquinas: se o custo de produzi-las cair à metade, elas se multiplicarão até que o valor dos produtos se ajuste ao valor reduzido dos instrumentos. A relação entre o valor do capital e o de seus produtos é de dependência mútua."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 20.000 para US$ 40.000",
+              "texto": "Valor do pomar no exemplo de Fisher quando a colheita dobra de US$ 1.000 para US$ 2.000, mantendo o retorno em cerca de 5%. Seager objeta que o exemplo usa, de novo, um capital em que a terra é dominante; com máquinas reproduzíveis, o valor tenderia ao custo de produzi-las, e não dobraria."
+            },
+            {
+              "tipo": "p",
+              "texto": "Fisher vai além e sugere que dobrar a produtividade de todo o capital do mundo poderia até reduzir os juros, por mais que dobrar o valor do capital. Seager considera esse o exemplo mais claro dos efeitos de juntar terra e meios de produção produzidos num mesmo conceito: se o custo de produzir os instrumentos pouco mudasse, o retorno maior teria de aparecer como juros mais altos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que a teoria da produtividade afirma?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager resume a teoria que defende. Os empresários competem pelos fatores de produção e repassam a eles, descontados a remuneração da gestão e o fundo de reposição, o preço que recebem. Os bens de capital, em concorrência, tendem a custar o que custa produzi-los; quanto podem pagar de juros, os empresários estimam comparando os serviços do capital com os dos trabalhadores. Essa demanda por capital é a influência ativa sobre os juros, como a utilidade o é sobre o valor. A teoria não dispensa a análise psicológica da poupança, que determina os juros pelo lado da oferta."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "A ideia de Fisher de que elevar a produtividade não eleva os juros lhe parece o inverso do certo: mudar os juros por outra via é como aumentar um rio por mudanças “no oceano em que ele deságua”.",
+              "original": "“like the idea of increasing the volume of a stream by changes … in the ocean into which it flows”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager encerra com uma observação. Entre as ilustrações históricas de Fisher estão os juros altos dos Estados Unidos em comparação com a Europa ocidental, e os da Califórnia entre 1850 e 1870, depois da descoberta do ouro, que Fisher atribui a rendas em expansão. Rendas em expansão, pergunta Seager, não significam justamente capital muito produtivo? Ele reconhece, por fim, o serviço que Fisher prestou ao submeter as teorias correntes a uma análise rigorosa, e conclui que sua explicação, por partir de um conceito de capital que confunde terra e meios produzidos, é unilateral."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o centro do debate é uma questão de conceito, não de psicologia. Seager não nega que a preferência temporal existe; nega que ela baste, e localiza o problema na decisão de Fisher de tratar terra e máquinas como a mesma coisa. Para um bem de oferta fixa, o valor é de fato o rendimento descontado; para um bem reproduzível, o custo de produção ancora o valor, e a produtividade passa a determinar o retorno.",
+                "O exemplo do bebedor também tem alcance econômico: a teoria da impaciência, na versão de Fisher, supõe mercados de crédito em que qualquer um pode tomar emprestado contra a renda futura. Seager mostra que a restrição de crédito dos mais pobres muda o resultado, porque quem mais quer gastar hoje é quem menos consegue pedir emprestado. É uma observação sobre restrições de liquidez que continua relevante para entender poupança, consumo e juros."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Taxa de impaciência",
+              "grau de preferência de uma pessoa por bens presentes sobre bens futuros, na teoria de Fisher."
+            ],
+            [
+              "Teoria do desconto",
+              "explicação de Böhm-Bawerk dos juros pelo desconto que se aplica aos bens futuros."
+            ],
+            [
+              "Superioridade técnica dos bens presentes",
+              "tese de Böhm-Bawerk de que métodos indiretos de produção rendem mais com o tempo."
+            ],
+            [
+              "Teoria da produtividade",
+              "explicação dos juros pela contribuição do capital à produção."
+            ],
+            [
+              "Juros negativos",
+              "situação em que o credor paga para emprestar, devolvendo-se menos do que se recebeu."
+            ],
+            [
+              "Poder de endividamento",
+              "capacidade de tomar empréstimos, limitada pela renda futura e pelas garantias do devedor."
+            ]
+          ],
+          "hoje": "A teoria moderna dos juros combina os dois lados do debate: a preferência temporal das famílias, à maneira de Fisher, e a produtividade marginal do capital, que Seager defendia, se encontram no equilíbrio entre poupança e investimento. A restrição de crédito dos mais pobres, que Seager ilustrou com o bebedor, é hoje tema próprio da macroeconomia. E a possibilidade de juros negativos, que Fisher descartava e Seager admitia, deixou de ser hipótese de livro-texto."
+        }
+      ]
     }
   ],
   "proximas": [
