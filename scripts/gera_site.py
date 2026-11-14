@@ -532,7 +532,7 @@ def tipo_item_aer(titulo_original):
     t = titulo_original or ""
     if t.startswith("[untitled]"): return "resenha"
     if t.startswith("New Book"): return "livros"
-    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^\[.*\]: ", t): return "docs"
+    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[.*\]: ", t): return "docs"
     return "artigo"
 
 
