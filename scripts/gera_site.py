@@ -5,7 +5,7 @@ Saída: site/index.html, site/arquivo/, site/analises/, site/servicos/, site/sob
        site/sitemap.xml
 Cabeçalho, menu e rodapé ficam aqui, num lugar só: mexeu aqui, mudou em todas as páginas.
 """
-import json, os, html
+import json, re, os, html
 from datetime import date
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -522,11 +522,46 @@ def figura_html(slug, rel, legenda):
             f'    <figcaption>{e(legenda)} <span class="credito">Domínio público · JSTOR Early Journal Content / Internet Archive</span></figcaption>\n  </figure>')
 
 
+def tipo_item_aer(titulo_original):
+    """Classifica um item da AER pelo título do metadado (JSTOR)."""
+    t = titulo_original or ""
+    if t.startswith("[untitled]"): return "resenha"
+    if t.startswith("New Books"): return "livros"
+    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^\[.*\]: ", t): return "docs"
+    return "artigo"
+
+
+def item_artigo_html(ed, a, rel):
+    link = (f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">ler o comentário</a>' if a.get("ensaio_slug") else "")
+    return (f'        <li><b>{e(a["titulo"])}</b>' + (f' — {e(a["autores"])}' if a.get("autores") else "")
+            + (f' ({e(a["paginas"])})' if a.get("paginas") else "") + (f'. {e(a["resumo"])}' if a.get("resumo") else "")
+            + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") else "")
+            + link + "</li>")
+
+
+def artigos_em_blocos(ed, rel, arts):
+    """AER: artigos em destaque, depois resenhas, novos livros e documentos/periódicos/notas."""
+    orig = {i[2]: i[0] for i in ed.get("itens", [])}
+    grupos = {"artigo": [], "resenha": [], "livros": [], "docs": []}
+    for a in arts:
+        grupos[tipo_item_aer(orig.get(a.get("jstor"), a.get("titulo", "")))].append(a)
+    nomes = [("artigo", "Artigos"), ("resenha", "Resenhas"), ("livros", "Novos livros"), ("docs", "Documentos, periódicos e notas")]
+    out = []
+    for k, nome in nomes:
+        g = grupos[k]
+        if not g: continue
+        cls = ' class="artigos-principais"' if k == "artigo" else ""
+        out.append(f'      <h3>{nome} ({len(g)})</h3>\n      <ol{cls}>\n' + "\n".join(item_artigo_html(ed, a, rel) for a in g) + "\n      </ol>")
+    return '    <div class="artigos-edicao">\n' + "\n".join(out) + "\n    </div>\n"
+
+
 def artigos_html(ed, rel):
     """Modelo híbrido (AER): a edição lista seus artigos; um artigo pode ter página comentada própria
     (campo 'ensaio_slug' -> /arquivo/<edicao>/<artigo>/). Sem 'artigos', nada é exibido."""
     arts = ed.get("artigos") or []
     if not arts: return ""
+    if ed.get("publicacao") == "The American Economic Review":
+        return artigos_em_blocos(ed, rel, arts)
     linhas = []
     for a in arts:
         link = (f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">ler o comentário</a>' if a.get("ensaio_slug") else "")
@@ -746,13 +781,31 @@ def pagina_nota(n):
             + topo("notas/", rel, completo=False) + corpo + rodape(rel))
 
 
+def cartao_comentario(ed, c, rel):
+    """Artigo comentado da AER (modelo híbrido) listado em /ensaios/."""
+    return f"""    <article class="cartao">
+      <a href="{rel}arquivo/{ed['slug']}/{c['slug']}/">
+        <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['data'])}</span>
+        <h3 class="tit tit-g">{e(c['titulo'])}</h3>
+        <p class="olho">{e(c['chamada'])}</p>
+        <span class="selo">Leitura: {minutos(c)} min</span>
+      </a>
+    </article>"""
+
+
 def ensaios():
     return [ed for ed in DADOS["edicoes"] if ed.get("ensaio")]
 
 
 def pagina_ensaios():
     rel = "../"
-    lista = "\n".join(cartao_edicao(ed, rel) for ed in ensaios())
+    cards = []
+    for ed in DADOS["edicoes"]:
+        if ed.get("ensaio"): cards.append(cartao_edicao(ed, rel))
+        for c in ed.get("comentarios", []):
+            if c.get("ensaio") or palavras(c["blocos"]) >= 1100:
+                cards.append(cartao_comentario(ed, c, rel))
+    lista = "\n".join(cards)
     corpo = f"""
 <main class="env">
   <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
