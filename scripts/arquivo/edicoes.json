@@ -66249,6 +66249,1796 @@
           "hoje": "As escolhas de 1917 voltam em cada grande choque de gasto público. A divisão entre imposto e dívida, a tentação de deixar a diferença para a expansão do crédito e o efeito de cada opção sobre o consumo são discutidos com os mesmos termos de Blakey. Impostos sobre lucros extraordinários reaparecem em crises de energia e de preços, com a mesma dificuldade de definir o lucro normal. E a passagem da retenção para a informação na fonte antecipou o cruzamento de dados que hoje sustenta a administração do imposto de renda."
         }
       ]
+    },
+    {
+      "slug": "1918-mandeville-no-seculo-xx",
+      "numero": 150,
+      "titulo": "O mercado da Califórnia, o trigo de Hoover e a fábula de Mandeville",
+      "titulo_original": "The American Economic Review, vol. VIII, no. 1, March 1918",
+      "autores": "Carl C. Plehn, H. R. Tosdal, Nathaniel R. Whitney, William M. Duffus, Simon N. Patten e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 8, nº 1",
+      "data": "março de 1918",
+      "chamada": "Plehn acompanha a comissão de mercados da Califórnia, Tosdal o preço de revenda, Whitney os saques a descoberto, Duffus o controle do trigo e Patten o financiamento da guerra por títulos.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1915, o produtor californiano de pêssego seco recebeu 2,5 centavos de dólar por libra-peso. Carl C. Plehn, da University of California, abre a American Economic Review de março de 1918 com a conta que daí resulta: de cada dólar pago pelo consumidor, 15 centavos chegavam ao produtor; os outros 85 ficavam com embaladores, comissários, atacadistas, varejistas e ferrovias. A pergunta dele é se essa divisão justifica a intervenção do governo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A edição, a primeira do volume VIII, sai no primeiro inverno dos Estados Unidos na guerra, e quase todos os artigos tratam de mercados sob algum tipo de direção pública. Plehn descreve a comissão estadual de mercados da Califórnia; H. R. Tosdal, da Boston University, o debate sobre o preço de revenda fixado pelo fabricante; Nathaniel R. Whitney, da State University of Iowa, o hábito dos bancos de deixar o cliente sacar além do saldo; William M. Duffus, da University of Kansas, a lei de 10 de agosto de 1917 que pôs o comércio de trigo sob controle federal; e Simon N. Patten discute com J. H. Hollander e E. R. A. Seligman se a guerra deve ser paga com títulos ou com impostos. Completam o número as resenhas, a lista de livros novos, documentos oficiais, resumos de periódicos e as notas da associação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pode o Estado organizar um mercado sem mandar nele?",
+          "artigo": "1805685",
+          "credito": "Carl C. Plehn (University of California) · “The State Market Commission of California” · pp. 1–27"
+        },
+        {
+          "tipo": "p",
+          "texto": "Plehn começa pelas causas do custo alto. Os produtores são muitos e pequenos. Até a colheita, a fruticultura obedece aos rendimentos decrescentes, e o pomar de 40 a 100 acres cuidado pelo dono produz mais barato; depois dela, colher, embalar, transportar e vender ficam mais baratos em grande escala. Os produtos são perecíveis e os mercados estão longe: os primeiros centros de porte ficam a cerca de 1.000 milhas, a costa atlântica a 3.000. O “packer”, termo local para embaladores e intermediários em geral, presta um serviço necessário, e o produtor se sente à mercê dele."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "69%",
+          "texto": "Parcela da safra de cítricos de 1916–17 vendida pela cooperativa California Fruit Growers Exchange, então com 22 anos, segundo Plehn. Ela embalava a caixa por 27 a 28 centavos, ante cerca de 40 centavos cobrados pelos embaladores comerciais, e reduziu o custo de venda da comissão tradicional de 10% para cerca de 4%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A vantagem da cooperativa, diz o autor, vem de uma só fonte: o trabalho não pago ou mal pago dos próprios associados. Em 1915, a legislatura criou um “mercado de comissão” estadual; o primeiro diretor, Harris Weinstock, montou em seu lugar uma comissão de mercado, depois confirmada pela lei de 1917. O diretor não tem poder de mando. Obteve do Departamento de Justiça um parecer de que cooperativas agrícolas podiam se formar sem violar as leis antitruste e passou a organizar produtores. A associação do pêssego seco reuniu 45.750 dos cerca de 50 mil acres do estado, e o preço ao produtor subiu de 2,5 para 6 centavos no primeiro ano, sem alta no varejo de Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "O peixe é a exceção. A State Fish Exchange Act, de 1917, deu ao diretor o poder de fixar preços máximos de varejo. Toda tarde um agente apura a pesca do dia e as sobras dos comerciantes; fixa-se então o preço que deve escoar o estoque, publicado nos jornais da manhã. Escalas negociadas repartem o preço entre pescador, atacadista e varejista conforme as perdas de limpeza de cada espécie."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A cooperação não é uma varinha mágica que cria algo do nada.”",
+          "original": "“Cooperation is not a magic wand which creates something out of nothing.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Plehn conclui que os ganhos poderiam ter vindo da iniciativa privada, mas que o diretor tem função permanente: inspirar confiança, aproximar facções e certificar padrões. As cooperativas só sobrevivem com monopólio substancial; até ali, a evidência apontava pequena queda de preços ao consumidor e serviço melhor. O êxito do peixe, admite, deve algo às condições extraordinárias da guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem quer fixar o preço de revenda, e o que dizem os tribunais?",
+          "artigo": "1805686",
+          "credito": "H. R. Tosdal (Boston University, College of Business Administration) · “Price Maintenance” · pp. 28–47"
+        },
+        {
+          "tipo": "p",
+          "texto": "Manter o preço de revenda é a política pela qual o fabricante de um artigo identificado por marca, patente ou direito autoral impõe ao revendedor o preço a cobrar do consumidor. Tosdal se apoia sobretudo nas audiências da Comissão de Comércio Interestadual e Exterior da Câmara entre 1914 e 1917 e liga a prática à publicidade nacional: o fabricante que cria demanda diretamente no consumidor quer ficar semi-independente dos intermediários e impedir que seu produto vire chamariz de preço cortado."
+        },
+        {
+          "tipo": "p",
+          "texto": "A história mais nítida vem do comércio de livros. Por volta de 1900, editores e livreiros adotaram o preço líquido, com boicote a quem desse desconto. A loja Macy's cortou preços, foi boicoteada e recorreu à Justiça em 1903; uma década depois venceu, com as combinações julgadas contrárias à Lei Sherman. A American Publishers Association se dissolveu no outono de 1914."
+        },
+        {
+          "tipo": "p",
+          "texto": "O alinhamento de interesses não segue classes. Fabricantes de artigos anunciados nacionalmente e as revistas de circulação nacional apoiam a legalização, organizados na American Fair Trade League; lojas de departamentos, redes e casas de venda por catálogo tendem a se opor; os varejistas independentes se dividem e os atacadistas ficam à margem. A American Federation of Labor e a federação de clubes femininos registraram oposição."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Justiça, resume o autor, combinações de fabricantes para manter preços violam a Lei Sherman; a simples nota afixada ao artigo protegido não obriga o revendedor, como decidiu a Suprema Corte no caso Macy, em 1908, e no caso Sanatogen, em 1913, por cinco votos a quatro; os contratos recebem tratamento desigual; e a recusa de venda ao revendedor que corta preço ainda aguardava julgamento."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 10",
+          "texto": "Taxa de registro prevista no projeto Stephens-Ashurst: o fabricante sem monopólio registraria na Federal Trade Commission a tabela de preços de revenda, uniforme para revendedores da mesma categoria. Artigos danificados ou fora de moda só poderiam ser liquidados abaixo da tabela depois de oferecidos de volta ao fabricante, com 30 dias de antecedência. Bibliotecas e instituições religiosas, educacionais e científicas ficariam isentas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Diante da incerteza judicial, os defensores da prática passaram a buscar a lei. Tosdal prevê que a decisão sobre o corte de preço como concorrência desleal dependerá do saldo de vantagens para o público e que surgirá, caso a caso, uma classificação entre formas permitidas e proibidas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que os bancos de Iowa deixavam o cliente sacar a descoberto?",
+          "artigo": "1805687",
+          "credito": "Nathaniel R. Whitney (State University of Iowa) · “The Overdraft Evil as Illustrated by Conditions in Iowa Banks” · pp. 48–61"
+        },
+        {
+          "tipo": "p",
+          "texto": "Whitney trata o saque a descoberto como resquício das práticas bancárias anteriores ao sistema de bancos nacionais. O Comptroller of the Currency vinha pedindo sua redução, e nos bancos nacionais o total caiu de cerca de US$ 27,5 milhões em 1913 para US$ 7,8 milhões em setembro de 1916. Os números declarados subestimam o problema: muitos bancos guardam entre os itens de caixa cheques que, lançados, deixariam a conta negativa."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 2,657 milhões",
+          "texto": "Saldos a descoberto nos bancos de Iowa em 30 de junho de 1916, o maior total do país; seguiam Mississippi, Geórgia e Missouri, com cerca de US$ 1,4 milhão cada. Iowa tinha 1.693 bancos, sem contar os privados. Nos bancos nacionais do estado, os saques a descoberto equivaliam a 1,8% do capital e das reservas, ante 0,2% em Nova York."
+        },
+        {
+          "tipo": "p",
+          "texto": "A explicação habitual, a de que o agricultor saca mais que os outros, não se confirma. Dos dez banqueiros consultados, quatro dizem que comerciantes e industriais sacam a descoberto com mais frequência, dois não veem diferença e quatro apontam o agricultor. A causa, para Whitney, é a distribuição da população: dos 893 municípios incorporados de Iowa, 685 tinham menos de mil habitantes, e é difícil ao caixa da cidade pequena devolver o cheque de um vizinho. Os bancos de poupança por ações, que podiam abrir com US$ 10 mil de capital, concentram a maior parte dos saldos negativos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda causa é a concorrência: um banco para cada 1.455 habitantes, quase dois por município. Larrabee, com 192 moradores, tinha dois. Um banqueiro relatou caixas de bancos pequenos distribuindo talões de cheque, em leilões de gado e equipamento, a compradores sem conta, para conquistar o cliente."
+        },
+        {
+          "tipo": "p",
+          "texto": "O saque a descoberto é um empréstimo irregular, muitas vezes não autorizado e sem garantia, que tira do banqueiro o controle das reservas. Whitney apoia a lei proposta pela American Bankers Association, que faria do cheque sem fundos prova presumida de intenção de fraude, e lista outras penalidades possíveis. Elevar o capital mínimo reduziria a concorrência, mas ele duvida que poucos bancos grandes sirvam melhor uma população dispersa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei de alimentos de 1917 deu ao governo sobre o trigo?",
+          "artigo": "1805688",
+          "credito": "William M. Duffus (University of Kansas) · “Government Control of the Wheat Trade in the United States” · pp. 62–87"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de controle de alimentos e combustíveis, sancionada em 10 de agosto de 1917, autorizou o presidente a licenciar comerciantes, punir o açambarcamento, requisitar estoques e fábricas, comprar e vender trigo e farinha, regular ou proibir operações nas bolsas e garantir preços ao produtor. Duffus, que escreve em dezembro de 1917, observa na abertura que poucos economistas teriam defendido a lei tal como foi aprovada e propõe examinar a teoria em que ela se apoia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O contexto vem em oito condições. A guerra fora declarada em 6 de abril. A safra de 1916 fora curta, a de 1917 também prometia sê-lo, e a demanda europeia era grande. Os preços dos alimentos subiam, e os consumidores exigiam ação contra intermediários e especuladores. Os agricultores temiam plantar mais e ver o preço cair com a paz; parte deles combatia havia anos as bolsas de grãos; e os governos europeus já controlavam os alimentos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3,25",
+          "texto": "Preço do trigo para entrega em maio na Bolsa de Chicago quando ela restringiu os contratos futuros, em 14 de maio de 1917; os moinhos pagavam US$ 3,45 pelo trigo disponível. A bolsa proibiu novas operações no contrato de maio e fixou o preço máximo de liquidação em US$ 3,18. Em julho e agosto de 1914, lembra um agricultor citado por Duffus, o trigo se vendia a 62 centavos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Duffus agrupa os poderes da lei em nove e examina a justificativa de cada um. Punir desperdício e monopólio repetia direito existente. A autoridade para comprar e vender trigo veio do secretário da Agricultura, Houston, e de Herbert Hoover, para quem um preço máximo só funciona quando o governo controla parte do estoque. O controle das bolsas aparece justificado pela guerra, sem que se explicasse a diferença entre especulação útil e especulação “prejudicial”."
+        },
+        {
+          "tipo": "p",
+          "texto": "Hoover defendia um preço fixo para cada etapa, do grão à farinha, baseado no custo de produção, e negava que preços altos fossem bons racionadores, porque cortariam o consumo dos mais pobres. Para a safra de 1918, a lei garantiu ao produtor um mínimo de US$ 2 por bushel. Duffus considera essa garantia uma das partes menos vulneráveis da lei, desde que fixada a tempo de estimular o plantio."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "duffus-controle-do-trigo",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Comprar um título de guerra torna a nação mais rica?",
+          "artigo": "1805689",
+          "credito": "Simon N. Patten · “Mandeville in the Twentieth Century” · pp. 88–98"
+        },
+        {
+          "tipo": "p",
+          "texto": "Patten parte de Mandeville, cuja Fábula das Abelhas, diz ele, abriu a série de debates que terminou na Riqueza das Nações. A tese refutada de que gastar faz bem ao comércio reaparece a cada crise; em 1918, na ideia de que a despesa de guerra e os títulos públicos enriquecem a nação. O exemplo é um poema de propaganda dos Liberty Bonds em que um título de cem dólares passa de mão em mão, quitando dívidas, e volta ao comprador original."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Exaltamos o título e evitamos o imposto.”",
+          "original": "“We extol the bond and avoid the tax.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo são os economistas. Contra Hollander, que atribuíra a Pigou, em 1916, a resistência ao financiamento por dívida, Patten cita Thomas Chalmers, que em 1808 já defendia tributar até o limite das necessidades públicas. Define inflação como uma superestimação do poder presente de consumir: alta de preços sem alta correspondente dos custos físicos de produção. Não encontra sinal de que os americanos tenham reduzido o consumo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Contra Seligman, sustenta que o custo da guerra cai sobre o presente: adiar a reposição do capital ou esgotar o trabalhador aumenta o ônus atual. O crédito legítimo é de curto prazo, ligado ao intervalo entre produção e consumo; títulos de longo prazo prendem o dinheiro do consumidor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 21 bilhões",
+          "texto": "Valor da produção agrícola americana do ano, segundo Patten; quantidades praticamente iguais valiam US$ 10 bilhões cinco anos antes. Somando a estimativa de outro economista, de que se gastavam US$ 50 bilhões para obter o que antes custava US$ 30 bilhões, ele conclui que o povo paga dois dólares em preços mais altos para cada dólar que o governo obtém com empréstimos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conta do autor é direta: o ônus da guerra é o excesso do gasto público sobre o excedente nacional, e o consumo deve cair na mesma medida, com a poupança entregue ao governo por impostos. Pela via dos títulos, o governo deixa os preços subirem, toma emprestado de quem lucrou com a alta, e a guerra é paga três vezes: pelo consumidor, pelo capitalista e, no vencimento, outra vez. Patten pede ainda juros maiores, já que 4% seriam demais como bônus a quem lucra com a guerra e pouco para despertar a poupança."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "patten-mandeville-no-seculo-xx",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem o segundo volume dos Economic Annals of the Nineteenth Century, de William Smart, por Clive Day; History of Commerce and Industry, de Cheesman A. Herrick, por Abbott Payson Usher; o estudo de Frederick Merk sobre a economia de Wisconsin na década da Guerra Civil, por C. O. Ruggles; Middlemen in English Business, de Ray Bert Westerfield, por W. T. Jackman; o levantamento de Arthur W. Ashby sobre pequenas propriedades em Oxfordshire, por Richard T. Ely; a história dos transportes antes de 1860 coordenada por Balthasar Henry Meyer, por Isaac Lippincott; Modern Currency Reforms, de E. W. Kemmerer, por E. M. Patterson; The Value of Money, de B. M. Anderson Jr., por William A. Scott; os ensaios de Joseph Stancliffe Davis sobre as primeiras sociedades anônimas americanas, por Maurice H. Robinson; e três obras sobre população resenhadas por A. B. Wolfe. Nas notas, o comitê executivo escolhe Cleveland para a reunião seguinte e cria comissões sobre transportes, trabalho e controle de preços."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número de março de 1918 é um estudo comparado de mecanismos de preço. Plehn mede quanto do dólar do consumidor chega ao produtor e o que muda quando um órgão público reúne a informação dispersa; Tosdal mapeia quem ganha com o preço uniforme de revenda e como o direito trata cada forma de impô-lo; Whitney usa a comparação entre estados e entre tipos de banco para separar a explicação pelo tipo de cliente da explicação pela estrutura do mercado.",
+            "Duffus e Patten tratam do mesmo problema em escala nacional: o que acontece quando a guerra rompe o sinal de preço. Duffus reconstrói os argumentos de cada poder dado ao governo e aponta onde faltou distinguir o que se queria regular; Patten usa os preços agrícolas para testar a afirmação de que os títulos não causam inflação. Em todos os casos, a pergunta de fundo é quem produz a informação que o preço deveria transmitir."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cooperativa de comercialização",
+          "associação de produtores que embala, transporta e vende a produção dos membros, repartindo custos e resultados."
+        ],
+        [
+          "Manutenção do preço de revenda",
+          "prática pela qual o fabricante fixa o preço que atacadistas e varejistas devem cobrar por seu produto."
+        ],
+        [
+          "Saque a descoberto (overdraft)",
+          "pagamento de cheque além do saldo da conta, que funciona como empréstimo sem contrato."
+        ],
+        [
+          "Contrato futuro",
+          "compromisso de comprar ou vender uma mercadoria numa data futura a preço fixado hoje, negociado em bolsa."
+        ],
+        [
+          "Açambarcamento",
+          "retenção de estoques além das necessidades normais para lucrar com a alta de preços."
+        ],
+        [
+          "Preço mínimo garantido",
+          "preço que o governo se compromete a assegurar ao produtor, comprando a produção se necessário."
+        ],
+        [
+          "Bushel",
+          "medida de volume de grãos usada nos Estados Unidos, cerca de 27 kg no caso do trigo."
+        ],
+        [
+          "Inflação, em Patten",
+          "alta de preços sem alta correspondente dos custos físicos de produção."
+        ]
+      ],
+      "hoje": "Os temas de março de 1918 seguem presentes. Cooperativas agrícolas continuam a disputar com intermediários a parcela do produtor no preço final, e órgãos públicos de padronização e certificação cumprem parte da função que Plehn atribuía ao diretor de mercados. A fixação do preço de revenda pelo fabricante é tratada pelo direito da concorrência de forma diferente em cada país. O controle de preços de alimentos em emergências reaparece em crises de oferta, e o debate entre financiar gastos extraordinários com dívida ou com impostos, e seu efeito sobre a inflação, voltou a cada grande choque fiscal.",
+      "itens": [
+        [
+          "The State Market Commission of California",
+          "pp. 1–27",
+          "1805685"
+        ],
+        [
+          "Price Maintenance",
+          "pp. 28–47",
+          "1805686"
+        ],
+        [
+          "The Overdraft Evil as Illustrated by Conditions in Iowa Banks",
+          "pp. 48–61",
+          "1805687"
+        ],
+        [
+          "Government Control of the Wheat Trade in the United States",
+          "pp. 62–87",
+          "1805688"
+        ],
+        [
+          "Mandeville in the Twentieth Century",
+          "pp. 88–98",
+          "1805689"
+        ],
+        [
+          "New Books",
+          "pp. 99–100",
+          "1805690"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 100-101",
+          "pp. 100–101",
+          "1805691"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 101-103",
+          "pp. 101–103",
+          "1805692"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 104-105",
+          "pp. 104–105",
+          "1805693"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 105-107",
+          "pp. 105–107",
+          "1805694"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 107-109",
+          "pp. 107–109",
+          "1805695"
+        ],
+        [
+          "New Books",
+          "pp. 109–113",
+          "1805696"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 114-116",
+          "pp. 114–116",
+          "1805697"
+        ],
+        [
+          "New Books",
+          "pp. 116–118",
+          "1805698"
+        ],
+        [
+          "New Books",
+          "pp. 118–119",
+          "1805699"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 119-121",
+          "pp. 119–121",
+          "1805700"
+        ],
+        [
+          "New Books",
+          "pp. 122–123",
+          "1805701"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 123-125",
+          "pp. 123–125",
+          "1805702"
+        ],
+        [
+          "New Books",
+          "pp. 125–128",
+          "1805703"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 128-129",
+          "pp. 128–129",
+          "1805704"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 129-131",
+          "pp. 129–131",
+          "1805705"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 131-134",
+          "pp. 131–134",
+          "1805706"
+        ],
+        [
+          "New Books",
+          "pp. 134–138",
+          "1805707"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 138-141",
+          "pp. 138–141",
+          "1805708"
+        ],
+        [
+          "New Books",
+          "pp. 141–142",
+          "1805709"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 142-143",
+          "pp. 142–143",
+          "1805710"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 143-144",
+          "pp. 143–144",
+          "1805711"
+        ],
+        [
+          "[untitled] The American Economic Review (1918-03-01), page 144",
+          "pp. 144",
+          "1805712"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 145-147",
+          "pp. 145–147",
+          "1805713"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 147-150",
+          "pp. 147–150",
+          "1805714"
+        ],
+        [
+          "New Books",
+          "pp. 150–153",
+          "1805715"
+        ],
+        [
+          "New Books",
+          "pp. 153–156",
+          "1805716"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 157-158",
+          "pp. 157–158",
+          "1805717"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 158-161",
+          "pp. 158–161",
+          "1805718"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 161-162",
+          "pp. 161–162",
+          "1805719"
+        ],
+        [
+          "New Books",
+          "pp. 163–169",
+          "1805720"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 169-171",
+          "pp. 169–171",
+          "1805721"
+        ],
+        [
+          "New Books",
+          "pp. 171–173",
+          "1805722"
+        ],
+        [
+          "[untitled] The American Economic Review, (1918-03-01), pages 173-174",
+          "pp. 173–174",
+          "1805723"
+        ],
+        [
+          "New Books",
+          "pp. 175–177",
+          "1805724"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 178–208",
+          "1805725"
+        ],
+        [
+          "Periodicals",
+          "pp. 209–234",
+          "1805726"
+        ],
+        [
+          "Notes",
+          "pp. 235–246",
+          "1805727"
+        ]
+      ],
+      "jstor_edicao": "i331330",
+      "artigos": [
+        {
+          "titulo": "The State Market Commission of California",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 1–27",
+          "jstor": "1805685",
+          "resumo": "Os primeiros anos da comissão estadual de mercados da Califórnia, que organizou cooperativas de produtores e passou a fixar os preços do peixe."
+        },
+        {
+          "titulo": "Price Maintenance",
+          "autores": "H. R. Tosdal (Boston University, College of Business Administration)",
+          "paginas": "pp. 28–47",
+          "jstor": "1805686",
+          "resumo": "Interesses, jurisprudência e projetos de lei sobre a fixação do preço de revenda pelo fabricante de artigos de marca."
+        },
+        {
+          "titulo": "The Overdraft Evil as Illustrated by Conditions in Iowa Banks",
+          "autores": "Nathaniel R. Whitney (State University of Iowa)",
+          "paginas": "pp. 48–61",
+          "jstor": "1805687",
+          "resumo": "Por que Iowa liderava o país em saldos a descoberto: cidades pequenas, relações pessoais e concorrência entre muitos bancos."
+        },
+        {
+          "titulo": "Government Control of the Wheat Trade in the United States",
+          "autores": "William M. Duffus (University of Kansas)",
+          "paginas": "pp. 62–87",
+          "jstor": "1805688",
+          "resumo": "Os poderes sobre o comércio de trigo dados pela lei de alimentos e combustíveis de 1917 e a teoria que justificou cada um.",
+          "ensaio_slug": "duffus-controle-do-trigo"
+        },
+        {
+          "titulo": "Mandeville in the Twentieth Century",
+          "autores": "Simon N. Patten",
+          "paginas": "pp. 88–98",
+          "jstor": "1805689",
+          "resumo": "Crítica ao financiamento da guerra por títulos e à ideia de que a despesa pública enriquece a nação.",
+          "ensaio_slug": "patten-mandeville-no-seculo-xx"
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 99–100",
+          "jstor": "1805690",
+          "resumo": "Lista de livros novos: obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "William Smart, Economic Annals of the Nineteenth Century, vol. II, 1821–1830",
+          "autores": "Clive Day (Yale University)",
+          "paginas": "pp. 100–101",
+          "jstor": "1805691",
+          "resumo": "Segundo volume dos anais econômicos britânicos de Smart, compilados a partir dos debates parlamentares."
+        },
+        {
+          "titulo": "Cheesman A. Herrick, History of Commerce and Industry",
+          "autores": "Abbott Payson Usher",
+          "paginas": "pp. 101–103",
+          "jstor": "1805692",
+          "resumo": "Manual de história do comércio e da indústria."
+        },
+        {
+          "titulo": "Mary Alice Hanna, Trade of the Delaware District before the Revolution",
+          "autores": "Charles M. Andrews (Yale University)",
+          "paginas": "pp. 104–105",
+          "jstor": "1805693",
+          "resumo": "Estudo do comércio colonial da região do rio Delaware."
+        },
+        {
+          "titulo": "Frederick Merk, Economic History of Wisconsin during the Civil War Decade",
+          "autores": "C. O. Ruggles (Ohio State University)",
+          "paginas": "pp. 105–107",
+          "jstor": "1805694",
+          "resumo": "História econômica de Wisconsin na década da Guerra Civil."
+        },
+        {
+          "titulo": "Ray Bert Westerfield, Middlemen in English Business, Particularly between 1660 and 1760",
+          "autores": "W. T. Jackman (University of Toronto)",
+          "paginas": "pp. 107–109",
+          "jstor": "1805695",
+          "resumo": "Os intermediários no comércio inglês entre 1660 e 1760."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 109–113",
+          "jstor": "1805696",
+          "resumo": "Lista de livros novos: história econômica e geografia."
+        },
+        {
+          "titulo": "Arthur W. Ashby, Allotments and Small Holdings in Oxfordshire",
+          "autores": "Richard T. Ely (University of Wisconsin)",
+          "paginas": "pp. 114–116",
+          "jstor": "1805697",
+          "resumo": "Levantamento sobre lotes e pequenas propriedades rurais no condado de Oxford."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 116–118",
+          "jstor": "1805698",
+          "resumo": "Lista de livros novos: agricultura, mineração, florestas e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 118–119",
+          "jstor": "1805699",
+          "resumo": "Lista de livros novos: indústrias manufatureiras."
+        },
+        {
+          "titulo": "Caroline E. MacGill e colaboradores, History of Transportation in the United States before 1860",
+          "autores": "Isaac Lippincott (Washington University)",
+          "paginas": "pp. 119–121",
+          "jstor": "1805700",
+          "resumo": "História dos transportes nos Estados Unidos antes de 1860, preparada sob a direção de Balthasar Henry Meyer."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 122–123",
+          "jstor": "1805701",
+          "resumo": "Lista de livros novos: transportes e comunicações."
+        },
+        {
+          "titulo": "Paul T. Cherington, The Wool Industry",
+          "autores": "Chester W. Wright (The University of Chicago)",
+          "paginas": "pp. 123–125",
+          "jstor": "1805702",
+          "resumo": "Problemas comerciais da indústria americana de lã e lã penteada."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 125–128",
+          "jstor": "1805703",
+          "resumo": "Lista de livros novos: comércio e crises comerciais."
+        },
+        {
+          "titulo": "William H. Lough, Business Finance",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 128–129",
+          "jstor": "1805704",
+          "resumo": "Estudo prático da gestão financeira de empresas privadas."
+        },
+        {
+          "titulo": "Albert W. Atwood, The Exchanges and Speculation; Edward D. Jones, Investment; William H. Walker, Corporation Finance",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 129–131",
+          "jstor": "1805705",
+          "resumo": "Três volumes da série Modern Business, do Alexander Hamilton Institute."
+        },
+        {
+          "titulo": "C. Bertrand Thompson, How to Find Factory Costs; Frank E. Webner, Factory Accounting; Dexter S. Kimball, Cost Finding",
+          "autores": "Clinton H. Scovell",
+          "paginas": "pp. 131–134",
+          "jstor": "1805706",
+          "resumo": "Três manuais de contabilidade de custos industriais."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 134–138",
+          "jstor": "1805707",
+          "resumo": "Lista de livros novos: contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Joseph Stancliffe Davis, Essays in the Earlier History of American Corporations",
+          "autores": "Maurice H. Robinson",
+          "paginas": "pp. 138–141",
+          "jstor": "1805708",
+          "resumo": "Ensaios sobre as primeiras sociedades anônimas americanas, em dois volumes."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 141–142",
+          "jstor": "1805709",
+          "resumo": "Lista de livros novos: capital e organização capitalista."
+        },
+        {
+          "titulo": "H. E. Hoagland, Collective Bargaining in the Lithographic Industry",
+          "autores": "Frank T. Stockton",
+          "paginas": "pp. 142–143",
+          "jstor": "1805710",
+          "resumo": "Monografia sobre a negociação coletiva na indústria litográfica."
+        },
+        {
+          "titulo": "M. Van Kleeck, A Seasonal Industry: A Study of the Millinery Trade in New York",
+          "autores": "Lucile Eaves",
+          "paginas": "pp. 143–144",
+          "jstor": "1805711",
+          "resumo": "Estudo do emprego sazonal e dos salários na indústria de chapéus femininos de Nova York."
+        },
+        {
+          "titulo": "S. Webb, The Restoration of Trade Union Conditions",
+          "autores": "G. E. B.",
+          "paginas": "pp. 144",
+          "jstor": "1805712",
+          "resumo": "Folheto sobre a restauração das regras sindicais suspensas na Inglaterra durante a guerra."
+        },
+        {
+          "titulo": "Edwin Walter Kemmerer, Modern Currency Reforms",
+          "autores": "E. M. Patterson (University of Pennsylvania)",
+          "paginas": "pp. 145–147",
+          "jstor": "1805713",
+          "resumo": "Reformas monetárias recentes na Índia, em Porto Rico, nas Filipinas, nos Straits Settlements e no México."
+        },
+        {
+          "titulo": "B. M. Anderson Jr., The Value of Money",
+          "autores": "William A. Scott (University of Wisconsin)",
+          "paginas": "pp. 147–150",
+          "jstor": "1805714",
+          "resumo": "Tratado sobre a teoria do valor da moeda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 150–153",
+          "jstor": "1805715",
+          "resumo": "Lista de livros novos: moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 153–156",
+          "jstor": "1805716",
+          "resumo": "Lista de livros novos: finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Margaret H. Sanger, The Case for Birth Control",
+          "autores": "A. B. Wolfe (University of Texas)",
+          "paginas": "pp. 157–158",
+          "jstor": "1805717",
+          "resumo": "Coletânea de argumentos e dados reunida pela autora."
+        },
+        {
+          "titulo": "The Declining Birth-Rate, Its Causes and Effects",
+          "autores": "A. B. Wolfe (University of Texas)",
+          "paginas": "pp. 158–161",
+          "jstor": "1805718",
+          "resumo": "Relatório e depoimentos colhidos pelo National Council of Public Morals sobre a queda da natalidade."
+        },
+        {
+          "titulo": "Fluctuation of the Populations during the World War. I. Germany and France",
+          "autores": "A. B. Wolfe (University of Texas)",
+          "paginas": "pp. 161–162",
+          "jstor": "1805719",
+          "resumo": "Boletim de Copenhague que estima, com estatísticas fragmentárias, os efeitos da guerra sobre a população."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 163–169",
+          "jstor": "1805720",
+          "resumo": "Lista de livros novos: população e migração; problemas sociais e reformas."
+        },
+        {
+          "titulo": "Ralph H. Blanchard, Liability and Compensation Insurance",
+          "autores": "Willard C. Fisher (New York University)",
+          "paginas": "pp. 169–171",
+          "jstor": "1805721",
+          "resumo": "Manual sobre acidentes de trabalho, responsabilidade do empregador e seguro de indenização."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 171–173",
+          "jstor": "1805722",
+          "resumo": "Lista de livros novos: seguros e pensões."
+        },
+        {
+          "titulo": "Carl D. Thompson, Municipal Ownership",
+          "autores": "Ralph E. Heilman",
+          "paginas": "pp. 173–174",
+          "jstor": "1805723",
+          "resumo": "Exposição resumida dos argumentos a favor da propriedade municipal de serviços públicos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 175–177",
+          "jstor": "1805724",
+          "resumo": "Lista de livros novos: socialismo e empresas cooperativas; estatística e seus métodos."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 178–208",
+          "jstor": "1805725",
+          "resumo": "Publicações oficiais recebidas sobre indústria, comércio e legislação."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 209–234",
+          "jstor": "1805726",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 235–246",
+          "jstor": "1805727",
+          "resumo": "Comitê executivo, comissões de guerra da associação e lista de novos sócios."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "duffus-controle-do-trigo",
+          "titulo": "Duffus e o controle federal do trigo em 1917",
+          "titulo_original": "Government Control of the Wheat Trade in the United States",
+          "autores": "William M. Duffus (University of Kansas)",
+          "paginas": "pp. 62–87",
+          "jstor": "1805688",
+          "chamada": "William M. Duffus examina a lei de alimentos e combustíveis de 1917: as condições que a tornaram possível, os nove poderes que deu ao governo sobre o trigo e a teoria por trás de cada um.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 14 de maio de 1917, o contrato de trigo para entrega em maio valia US$ 3,25 por bushel na Bolsa de Chicago, e os moinhos pagavam US$ 3,45 pelo grão disponível. Quem vendera a descoberto não conseguia cobrir as posições. Os diretores da bolsa proibiram novas operações naquele contrato, exceto para liquidar as existentes, e fixaram o preço máximo de liquidação em US$ 3,18; logo depois suspenderam as compras especulativas nos contratos de julho e setembro."
+            },
+            {
+              "tipo": "p",
+              "texto": "A cena está no meio de um longo artigo de William M. Duffus, da University of Kansas, na American Economic Review de março de 1918. O tema é a lei de controle de alimentos e combustíveis, sancionada em 10 de agosto de 1917. Duffus abre com uma observação sobre a própria profissão: poucos economistas com reputação de sobriedade teriam defendido a lei tal como foi aprovada, e talvez a maioria a tivesse combatido. Mas a lei estava em vigor e, por isso, merecia análise imparcial."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que a lei autorizava?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei se declara medida de emergência, apoiada nos poderes de guerra do Congresso, para assegurar oferta e distribuição equitativa de alimentos, rações, combustíveis, fertilizantes e máquinas, chamados de “necessários”. Proíbe destruir estoques para elevar preços, desperdiçar, açambarcar, monopolizar e cobrar preços excessivos. Permite ao presidente licenciar a importação, a fabricação, a armazenagem e a distribuição, com isenção para agricultores, cooperativas, transportadores e varejistas com vendas anuais até US$ 100 mil."
+            },
+            {
+              "tipo": "p",
+              "texto": "Outras seções autorizam a apreensão e venda de estoques açambarcados, a requisição de mercadorias para o Exército e a Marinha, a compra e venda de trigo, farinha, feijão e batata a preços razoáveis, a requisição e operação de fábricas e frigoríficos e a regulação ou proibição de operações nas bolsas. A seção 26 repete parte das proibições para quem atua no comércio interestadual e prevê multa de até US$ 5 mil ou dois anos de prisão. Duffus supõe que a repetição sirva para apoiar a lei também no poder de regular o comércio."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 2",
+              "texto": "Preço mínimo por bushel garantido pela lei aos produtores para a safra de 1918, válido até 1º de maio de 1919, tomando por base o trigo No. 1 Northern Spring nos principais mercados do interior. Para assegurá-lo, a lei previa dois instrumentos: proteção tarifária contra importações e compras pelo governo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a lei passou?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Duffus enumera oito condições. A guerra fora declarada em 6 de abril de 1917, sem previsão de fim. A safra de 1916 fora curta e a de 1917 prometia sê-lo: a de 1915 passara de um bilhão de bushels, a de 1916 ficou perto de 640 milhões, e as condições do trigo de inverno em abril de 1917 foram as piores já registradas para o mês. A demanda europeia era grande. Hoover, em discurso de 20 de maio, falou em setenta milhões de homens retirados do trabalho produtivo na Europa."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os preços subiam. Segundo o Bureau of Labor Statistics, os preços de varejo dos principais alimentos aumentaram em média 48% entre abril de 1913 e abril de 1917; no mês encerrado em 16 de abril de 1917, subiram 9%, a maior alta mensal desde o início da guerra europeia. Os consumidores, observa Duffus, raciocinam como teóricos do custo original de produção quando discutem preço justo e não aceitam que preços altos sejam o meio adequado de conter o consumo em tempo de escassez."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "107%",
+              "texto": "Alta do preço de varejo da farinha nos Estados Unidos entre abril de 1913 e abril de 1917, segundo o Bureau of Labor Statistics citado por Duffus. A farinha subiu mais 18% no mês seguinte a março de 1917 e 29% no mês posterior. Em meados de junho, mesmo depois de cair 8%, custava cerca de duas vezes e meia o preço de julho de 1914."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os agricultores hesitavam em plantar mais. Um produtor do Missouri, em artigo citado por Duffus, lembrava que em julho e agosto de 1914 vendera trigo a 62 centavos e temia a volta desses preços se a área plantada crescesse; uma garantia de US$ 1,50 por bushel, dizia, faria mais pela expansão do plantio do que toda a propaganda oficial. Organizações como a American Society of Equity e a Non-Partisan League da Dakota do Norte pediam preços máximos e mínimos, o fim da especulação em bolsa e a tomada de elevadores e frigoríficos pelo governo."
+            },
+            {
+              "tipo": "p",
+              "texto": "As duas últimas condições vinham de fora e de cima. Todos os países europeus haviam adotado algum controle de alimentos, e a Food Administration divulgou em 8 de julho de 1917 preços oficiais do trigo de US$ 1,80 por bushel na Grã-Bretanha e na França, US$ 1,14 na Austrália e US$ 1,35 na Índia, quando o trigo disponível em Chicago passava de US$ 2,10. O público concluiu que a diferença se devia à ganância dos especuladores. E o governo de Wilson pediu a lei."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que teoria sustentava cada poder?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Duffus divide os poderes em nove grupos. Punir desperdício, destruição e monopólio repetia princípios já presentes nas leis estaduais e federais; a vantagem era o efeito moral e uma máquina administrativa que atravessava fronteiras estaduais. A proibição do açambarcamento vinha de um memorando do Departamento de Agricultura: o medo da escassez leva consumidores a estocar, e o medo comercializado leva especuladores a fazer o mesmo."
+            },
+            {
+              "tipo": "p",
+              "texto": "A autoridade para comprar, armazenar e vender alimentos fora recomendada pelo secretário Houston ao Senado em 18 de abril de 1917, com base numa conferência de representantes agrícolas de 32 estados em St. Louis. Hoover a defendia por outro motivo. Segundo ele, o governo francês importava cerca de 25% do pão que consumia e usava essa posição como alavanca para sustentar o preço máximo."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Em todas as mercadorias em que não há alavanca desse tipo, o preço máximo é um fracasso total.”",
+              "original": "“in all commodities where there is no club of that character the maximum price is a total failure”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O poder de requisitar e operar fábricas aparece, no memorando do Departamento, como meio de estimular a produção; para Hoover, como incentivo à cooperação voluntária, capaz de levar os 5% de comerciantes relutantes a acompanhar os 95% dispostos a cooperar. O controle das bolsas foi justificado pelo risco de manipulação com margens pequenas, mas Duffus registra que o argumento não explicava a diferença entre especulação “prejudicial” e os “muitos serviços úteis” das bolsas, e que Houston preferia ter mais fatos antes de opinar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Preço fixo, máximo ou mínimo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Hoover negava o papel dos preços altos como conservadores de estoques escassos: reduzem o consumo, mas à custa dos mais pobres, e os salários sobem devagar e de forma desigual, o que abre caminho a greves e desordem. Citava o prefeito de Paris, para quem a cidade tinha pão para quatro dias e, sem ele no quinto, a guerra terminaria. Afirmava ainda que o pão era 60%, 40% e 30% mais barato na Bélgica, na França e na Inglaterra que nos Estados Unidos."
+            },
+            {
+              "tipo": "p",
+              "texto": "A economia, para Hoover, viria da exclusão dos lucros especulativos, não do sacrifício do produtor: a farinha poderia cair de US$ 14 ou mais por barril para US$ 9, poupando ao público US$ 50 milhões por mês. Duffus nota que Hoover toma como preço justo o preço normal dos teóricos do custo de produção e não inclui nenhum lucro especulativo entre os lucros necessários. Daí sua preferência pela fórmula que diz ter restado da experiência europeia: um preço fixo para cada etapa, do grão ao produto final, baseado no custo e em retorno razoável do capital."
+            },
+            {
+              "tipo": "p",
+              "texto": "A garantia de US$ 2 para a safra de 1918, acrescentada ao projeto original, é para Duffus uma das partes menos vulneráveis da lei: quase ninguém duvidou de sua eficácia como estímulo, salvo quebra de safra. As dúvidas eram outras: se o estímulo era necessário, se o valor era adequado e se cabia ao Congresso fixá-lo. O licenciamento de comerciantes, por fim, é tratado como instrumento administrativo, com problemas mais políticos que econômicos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o método de Duffus é o mais útil do artigo. Em vez de julgar a lei pelo conjunto, ele a decompõe em poderes e pergunta, para cada um, qual argumento econômico o sustenta e de onde ele veio: do Departamento de Agricultura, de Hoover, das organizações de agricultores ou da pressão dos consumidores. O resultado mostra que a mesma lei reúne medidas de natureza muito diferente, desde a repetição de normas antigas até a substituição do mercado por preços administrados.",
+                "O ponto econômico central é a distinção que Hoover faz entre preço máximo e preço fixo com controle de estoque. Um teto sem capacidade de compra e venda tende a desviar a mercadoria do mercado normal; um preço administrado exige que o governo detenha parte da oferta. É a mesma questão, em linguagem de 1917, que separa controles de preço eficazes de controles apenas declarados."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Contrato futuro",
+              "compromisso negociado em bolsa de comprar ou vender trigo numa data futura a preço fixado hoje."
+            ],
+            [
+              "Venda a descoberto",
+              "venda de contrato futuro sem possuir a mercadoria, na expectativa de recomprá-la mais barato."
+            ],
+            [
+              "Açambarcamento",
+              "retenção de estoques além das necessidades normais para lucrar com a alta de preços."
+            ],
+            [
+              "Licenciamento de mercadorias",
+              "exigência de licença federal para importar, fabricar, armazenar ou distribuir os bens controlados."
+            ],
+            [
+              "Preço máximo",
+              "teto legal ao preço de venda, sem que o governo compre ou venda a mercadoria."
+            ],
+            [
+              "Preço fixo",
+              "preço determinado para cada etapa da cadeia, do produtor ao consumidor, com base no custo de produção."
+            ],
+            [
+              "Bushel",
+              "medida de volume de grãos usada nos Estados Unidos, cerca de 27 kg no caso do trigo."
+            ]
+          ],
+          "hoje": "A distinção entre teto de preço e preço sustentado por estoques públicos reaparece sempre que governos tentam conter a alta de alimentos em crises de oferta. Estoques reguladores, compras governamentais e preços mínimos ao produtor seguem em uso em vários países, assim como o debate sobre o papel dos mercados futuros na formação e na volatilidade dos preços de grãos. A pergunta de Duffus, sobre qual argumento sustenta cada instrumento, continua sendo o ponto de partida para avaliar esse tipo de política."
+        },
+        {
+          "slug": "patten-mandeville-no-seculo-xx",
+          "titulo": "Patten, Mandeville e os títulos de guerra",
+          "titulo_original": "Mandeville in the Twentieth Century",
+          "autores": "Simon N. Patten",
+          "paginas": "pp. 88–98",
+          "jstor": "1805689",
+          "chamada": "Simon N. Patten vê na propaganda dos títulos de guerra a velha tese de Mandeville, de que gastar enriquece, e responde a Hollander e Seligman: a guerra deve ser paga com impostos e menos consumo, no presente.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Tom Robinson, encanador, compra um título de guerra de cem dólares e o usa para pagar o médico. O médico paga o peleteiro, o peleteiro o alfaiate, o alfaiate o atacadista, e o título segue de dívida em dívida, intacto no valor, até a modista que manda reformar o banheiro e o devolve ao encanador. A moral do poema, escrito por um especialista em publicidade, é que o país não pode falhar se cada um comprar um título e passá-lo adiante."
+            },
+            {
+              "tipo": "p",
+              "texto": "Simon N. Patten reproduz o poema na abertura de “Mandeville in the Twentieth Century”, na American Economic Review de março de 1918, e pergunta: se isso não é inflação, o que é? O poema, diz, seria ignorável se fosse só a voz da rua; mas editores, oradores, banqueiros e autoridades repetiam a mesma coisa de mil formas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que Mandeville?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Costuma-se dizer que Adam Smith escreveu para refutar os mercantilistas. Para Patten, foi Mandeville quem abriu a série de discussões que terminou na Riqueza das Nações: assim que a Fábula das Abelhas apareceu, começaram as respostas, e Smith completou o que os outros tentaram. Mas doutrinas refutadas, diz o autor, voltam com o mesmo vigor a cada crise nacional. Ninguém afirmaria que o incêndio de Londres fez bem ao comércio; em 1918, porém, muitos supunham que a despesa de guerra enriquecia a nação e que vinte bilhões em títulos a tornavam vinte bilhões mais rica."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Exaltamos o título e evitamos o imposto.”",
+              "original": "“We extol the bond and avoid the tax.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Patten liga essa crença ao dito de Jay Cooke, na Guerra Civil, de que a dívida nacional era uma bênção nacional, e diz que ela encontrava eco entre economistas. Atribui o eco a duas causas: os economistas têm as mesmas emoções dos outros e buscam um compromisso entre sentimento e princípio; e não estão livres de viés de classe, o que faz da discussão sobre tributação, em sua visão, uma defesa da isenção tributária."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é inflação para Patten?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro interlocutor é J. H. Hollander, que atribuíra a Pigou, em 1916, a primeira formulação explícita da resistência ao financiamento por dívida na guerra. Patten responde com Thomas Chalmers, que em 1808 escrevera que, se fosse ministro, tributaria o país até a medida plena das necessidades públicas. A tese, lembra, foi retomada por Mill em sua terceira proposição sobre o capital."
+            },
+            {
+              "tipo": "p",
+              "texto": "Patten recusa discutir os pressupostos da teoria quantitativa da moeda e propõe uma definição operacional, que dispensa essa teoria e pode ser testada com fatos: se as pessoas estão de fato poupando o equivalente aos títulos, se os títulos ainda estão nos bancos ou já com o público investidor."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Inflação é uma superestimação do poder presente de consumir.”",
+              "original": "“Inflation is an overestimate of present powers to consume.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em seus termos, é uma alta de preços sem alta correspondente dos custos físicos de produção. Ele encontra muitos sinais de valores crescentes e nenhum de aumento desses custos: a eficiência do trabalho nunca fora tão alta. Os itens que conseguiu conferir indicavam aumento, e não redução, do consumo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem paga a guerra, o presente ou o futuro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo interlocutor é E. R. A. Seligman, que admitia que os custos objetivos da guerra recaem sobre o presente, mas sustentava que parte dos custos subjetivos podia ser adiada. Patten responde que o subjetivo é psicologia, útil enquanto faltam dados objetivos, e que nesse caso os dados existem. Para tornar a questão resolúvel, define o presente como o período em que os atuais proprietários arcam com os encargos, a guerra ou os próximos dois ou três anos, e o futuro como o tempo, vinte anos ou mais adiante, em que a geração seguinte assume os impostos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os exemplos de Seligman, a reposição adiada do capital e a sobrecarga do trabalhador, provam o contrário, diz Patten. As ferrovias pouparam na renovação do material rodante e agora impunham ao presente um ônus pesado, visível nos preços altos. A experiência da guerra mostrava que a jornada precisa ser encurtada e as condições de trabalho melhoradas para obter a eficiência máxima. O presente deve, portanto, cortar o consumo além do gasto militar, para ampliar o capital fixo e cuidar melhor do trabalho."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é crédito legítimo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O crédito, para Patten, nasce do intervalo entre o momento em que o trabalho é feito e o momento em que o produto é consumido, e das sazonalidades dos negócios. As duas formas são úteis e curtas: o crédito bancário legítimo é o de papéis comerciais até noventa dias, e o de longo prazo deveria ser proibido aos bancos. Notas do Tesouro de prazo curto são aceitáveis se resgatadas no vencimento; títulos longos prendem o dinheiro do consumidor."
+            },
+            {
+              "tipo": "p",
+              "texto": "Contra a afirmação de Seligman de que todo crédito repousa num substrato de dinheiro, Patten inverte a relação: o dinheiro é que repousa no crédito. Os depósitos crescem quando o consumidor adia gastos, não quando se endivida; as reservas bancárias são efeito, e não causa, do crédito. Por isso, quem promove o consumo excessivo não é o banqueiro, mas a publicidade e a imprensa, que levam o consumidor a se julgar mais rico do que é."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto custa financiar a guerra com títulos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O problema, como Patten o formula, é saber como uma nação com excedente anual de três bilhões de dólares pode gastar dez bilhões num ano. A única resposta é reduzir o consumo diário na medida do excesso do gasto sobre o excedente. Se a despesa for de sete bilhões, o consumo deve cair sete bilhões, e a poupança, ir ao governo: a conta fecha a cada ano e a guerra é paga uma só vez."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 21 bilhões",
+              "texto": "Valor da produção agrícola americana do ano, segundo Patten; quantidades praticamente iguais valiam US$ 10 bilhões cinco anos antes. Com a estimativa de outro economista, de que os americanos gastavam US$ 50 bilhões para obter o que antes custava US$ 30 bilhões, Patten conclui que o povo paga dois dólares em preços mais altos para cada dólar que o governo obtém com empréstimos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Pela via dos títulos, o governo provoca ou tolera a alta de preços, que eleva os lucros, e toma emprestado dos que lucraram. Dez bilhões, diz Patten, ficaram pelo caminho, e ele cita a estimativa de que cinco bilhões permaneciam nas empresas como dividendos não declarados. A guerra seria paga ao menos três vezes: pelo consumidor, pelo capitalista e, no vencimento dos títulos, de novo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que Patten propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O programa tem dois pontos. O primeiro é admitir que a nação pode pagar a guerra de uma só vez, por impostos. O segundo é oferecer juros mais altos: a taxa de 4% seria alta demais como bônus a quem lucra com a despesa de guerra e baixa demais para despertar a poupança em quem gasta tudo o que ganha. Nenhuma parte do argumento de Seligman, conclui, justifica a afirmação de que pagar a guerra integralmente com impostos seria suicida."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o interesse do artigo está menos na polêmica do que na definição de inflação. Patten a separa da teoria quantitativa e a liga a um teste observável: os preços sobem mais que os custos físicos de produção, e o consumo não cai na medida do gasto público. Com isso, a pergunta sobre títulos ou impostos deixa de ser sobre a forma do financiamento e passa a ser sobre quem reduz o consumo, quando e por qual mecanismo.",
+                "O método também chama atenção pela escolha dos interlocutores. Patten não responde à propaganda, mas a Hollander e a Seligman, e em cada caso desloca a discussão para uma pergunta empírica: se a poupança acompanha as emissões, se o consumo caiu, quanto os preços agrícolas subiram. A estrutura do raciocínio, a de que a guerra é paga com bens do presente e que a dívida define quem terá direito ao reembolso, é o ponto de partida da discussão sobre o financiamento de gastos extraordinários."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Fábula das Abelhas",
+              "obra de Bernard Mandeville que sustenta que os vícios privados, como o gasto de luxo, produzem benefícios públicos."
+            ],
+            [
+              "Títulos da Liberdade (Liberty Bonds)",
+              "títulos emitidos pelo governo americano para financiar a Primeira Guerra Mundial."
+            ],
+            [
+              "Teoria quantitativa da moeda",
+              "teoria segundo a qual o nível de preços varia com a quantidade de moeda em circulação."
+            ],
+            [
+              "Custos subjetivos",
+              "sacrifícios medidos pela percepção de quem os sofre, em oposição a bens e serviços efetivamente consumidos."
+            ],
+            [
+              "Papel comercial",
+              "título de crédito de curto prazo emitido para financiar operações correntes de comércio."
+            ],
+            [
+              "Excedente nacional",
+              "parte da produção anual que excede o consumo corrente."
+            ]
+          ],
+          "hoje": "A pergunta de Patten volta a cada grande gasto extraordinário. Pandemias, guerras e pacotes de estímulo reabrem o debate sobre financiar o gasto com dívida ou com impostos, sobre quanto da conta é paga pela inflação e sobre quem a suporta. A distinção entre transferir o ônus para gerações futuras e apenas redistribuí-lo entre credores e contribuintes do presente segue no centro da discussão sobre sustentabilidade fiscal, e a publicidade de títulos públicos ao pequeno poupador ainda faz parte da gestão da dívida."
+        }
+      ]
+    },
+    {
+      "slug": "1918-a-trigesima-reuniao-anual",
+      "numero": 151,
+      "titulo": "Filadélfia, 1917: lucros extraordinários, terra e o fim do laissez-faire",
+      "titulo_original": "Papers and Proceedings of the Thirtieth Annual Meeting of the American Economic Association. Philadelphia, Pa., December, 1917",
+      "autores": "John R. Commons (presidente da associação), T. S. Adams, Benjamin H. Hibbard, W. J. Spillman, Elwood Mead, John Bauer, Henry R. Seager, M. B. Hammond, E. V. Wilcox, Charles B. Barnes, Edward C. Hayes, Carleton H. Parker, B. M. Anderson Jr., Irving Fisher, A. N. Holcombe, Edward P. Costigan e os debatedores E. M. Patterson, Arthur N. Young, E. R. A. Seligman, Henry H. Bond, Carl G. Barth, Roy G. Blakey, N. I. Stone, R. R. Bowker, Richard T. Ely, G. F. Warren, C. F. Marbut, E. W. Bemis, Thomas W. Hulme, Ralph E. Heilman, John A. Ryan, Frank App, Rex E. Willard, George E. Barnett, George A. Billings, E. St. John Wileman, Don D. Lescohier, Frank A. Fetter, Wesley C. Mitchell, E. W. Kemmerer, Duncan A. MacGibbon, Hugo Bilgram e L. D. H. Weld",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 8, nº 1 (suplemento)",
+      "data": "1918",
+      "chamada": "Filadélfia, dezembro de 1917: Commons declara morto o laissez-faire, Adams defende o imposto sobre lucros extraordinários, Mead pede colonização dirigida e Seager um serviço nacional de emprego.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na véspera da sessão em que John Bauer, da Princeton University, apresentaria seu trabalho sobre a avaliação federal das ferrovias, o presidente Wilson assinou a proclamação que punha todas as ferrovias do país sob o controle do governo federal. Bauer acrescentou uma nota ao texto: o plano, com um diretor-geral que manteria a organização de cada companhia, era em substância o que ele tinha em mente, e parecia inconcebível que as linhas, uma vez fundidas num só sistema, voltassem à situação anterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "A trigésima reunião anual da American Economic Association, em Filadélfia e Haverford, de 27 a 29 de dezembro de 1917, teve como tema geral “Guerra e reconstrução”. O suplemento de março de 1918 da American Economic Review reúne os textos, os debates, as atas e os relatórios. No discurso presidencial, John R. Commons declarou morto o laissez-faire e propôs que o poder público decidisse onde investir o capital da reconstrução."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como pagar a guerra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "T. S. Adams, da Yale University, abriu a reunião com os impostos federais sobre a renda e os lucros extraordinários aprovados em 3 de outubro de 1917 e defendeu que o imposto sobre lucros acima do normal sobrevivesse à guerra, como a parte do Estado no êxito das empresas. Oito debatedores responderam, entre eles E. R. A. Seligman e Roy G. Blakey. No último dia, B. M. Anderson Jr. e Irving Fisher voltaram ao tema pelo lado dos preços e da moeda, e A. N. Holcombe mostrou a escala do gasto: mais de 21 bilhões de dólares em dotações e autorizações para o ano fiscal de 1918."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "74%",
+          "texto": "Parcela da receita da lei de guerra de 1917, estimada em US$ 2,5 bilhões, que viria de impostos sobre a riqueza e a capacidade contributiva, segundo cálculo aproximado de Adams. Outros 15% viriam de impostos sobre luxos ou bens não essenciais, e só 11% de impostos sobre processos e produção essenciais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem deve ficar com a terra?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A sessão sobre a terra partiu do fim da fronteira. Benjamin H. Hibbard, da University of Wisconsin, mostrou que, de 1900 a 1910, a população cresceu 20% e a área em fazendas só 5%; W. J. Spillman, do Departamento de Agricultura, que o valor da terra agrícola por acre subiu 108% na década; e Elwood Mead, da University of California, defendeu a colonização dirigida pelo Estado, nos moldes da Austrália, da Dinamarca e da Irlanda. A associação aprovou a recomendação de que um órgão do governo estudasse o assentamento de soldados e marinheiros na terra ao fim da guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como mobilizar o trabalho?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão sobre emprego, Henry R. Seager, da Columbia University, pediu um serviço federal de emprego que coordenasse os escritórios estaduais e municipais; M. B. Hammond, da Ohio State University, contou como a Grã-Bretanha passou do desemprego de agosto de 1914 à falta de braços e à entrada das mulheres na indústria; E. V. Wilcox descreveu o plano do Departamento de Agricultura para a mão de obra rural; e Charles B. Barnes, do serviço de emprego de Nova York, atribuiu a escassez à falta de treinamento e à disputa de operários entre empregadores."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais se discutiu?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bauer propôs fixar por lei o valor das ferrovias e garantir aos investidores um retorno definido. Edward C. Hayes, da University of Illinois, atacou a teoria da produtividade específica como defesa do laissez-faire; Carleton H. Parker, da University of Washington, pediu que a economia incorporasse a psicologia dos instintos para entender a inquietação operária. Edward P. Costigan, da Tariff Commission, defendeu tratados e tarifas sem discriminação depois da guerra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como terminou a reunião?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na sessão de negócios em Haverford, Irving Fisher foi eleito presidente para 1918, e Allyn A. Young continuou como secretário e tesoureiro. A associação autorizou uma comissão sobre os problemas econômicos da guerra, presidida por Seligman, e outra sobre o poder de compra da moeda, presidida por Fisher."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a reunião de 1917 registra uma mudança de pergunta. Em vez de discutir se o governo deve intervir, os textos discutem como: com que base medir o lucro normal, com que critério classificar a terra, com que órgão coordenar o emprego, com que valor remunerar as ferrovias. Quase todos os autores pedem antes de tudo informação, sob a forma de censos, avaliações, índices de preços e registros de contratos, e organização administrativa capaz de usá-la."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Imposto sobre lucros extraordinários (excess-profits tax)",
+          "imposto graduado sobre o lucro que excede um retorno considerado normal sobre o capital investido."
+        ],
+        [
+          "Laissez-faire",
+          "doutrina segundo a qual o governo deve deixar a economia funcionar sem intervenção."
+        ],
+        [
+          "Contribuição de melhoria (special assessment)",
+          "tributo cobrado dos imóveis valorizados por uma obra pública, para custeá-la."
+        ],
+        [
+          "Avaliação federal das ferrovias",
+          "levantamento do valor das propriedades ferroviárias pela Interstate Commerce Commission, previsto na lei de 1913."
+        ],
+        [
+          "Diluição do trabalho",
+          "política britânica de reservar os trabalhadores qualificados às tarefas que só eles podem fazer e preencher as demais com semiqualificados e mulheres."
+        ],
+        [
+          "Teoria da produtividade específica",
+          "teoria segundo a qual cada fator de produção recebe, em concorrência, o valor do que acrescenta ao produto."
+        ],
+        [
+          "Cláusula de nação mais favorecida",
+          "compromisso, em tratado comercial, de estender ao parceiro as vantagens tarifárias concedidas a terceiros."
+        ],
+        [
+          "Números-índice",
+          "medidas da variação média de um conjunto de preços em relação a um período-base."
+        ]
+      ],
+      "hoje": "Os temas de Filadélfia continuam na pauta. Impostos sobre lucros extraordinários voltam em crises de preços de energia e de commodities, com as mesmas dificuldades de definir o lucro normal que Adams descreveu. Serviços públicos de emprego coordenados nacionalmente, regulação de concessões com remuneração definida sobre o capital investido e políticas de acesso à terra seguem em debate. A pergunta de Fisher e Anderson, sobre quanto do financiamento de guerra se converte em inflação, reaparece a cada grande expansão fiscal.",
+      "itens": [
+        [
+          "Program of the Thirtieth Annual Meeting",
+          "pp. 1–3",
+          "1814626"
+        ],
+        [
+          "Economic Reconstruction: Foreign and Domestic Investments: Annual Address of the President",
+          "pp. 5–17",
+          "1814627"
+        ],
+        [
+          "Federal Taxes Upon Income and Excess Profits",
+          "pp. 18–35",
+          "1814628"
+        ],
+        [
+          "Federal Taxes Upon Income and Excess Profits--Discussion",
+          "pp. 36–54",
+          "1814629"
+        ],
+        [
+          "The Utilization of Land Not in Farms",
+          "pp. 55–64",
+          "1814630"
+        ],
+        [
+          "Work of the Office of Farm Management Relating to Land Classification and Land Tenure",
+          "pp. 65–71",
+          "1814631"
+        ],
+        [
+          "Government Aid and Direction in Land Settlement",
+          "pp. 72–98",
+          "1814632"
+        ],
+        [
+          "Land Utilization--Discussion",
+          "pp. 99–112",
+          "1814633"
+        ],
+        [
+          "The Federal Valuation of Railroads in Relation to a Definite Policy of National Railway Control",
+          "pp. 113–133",
+          "1814634"
+        ],
+        [
+          "Federal Valuation of Railroads--Discussion",
+          "pp. 134–140",
+          "1814635"
+        ],
+        [
+          "Coordination of Federal, State, and Municipal Employment Bureaus",
+          "pp. 141–146",
+          "1814636"
+        ],
+        [
+          "Lessons from English War Experience in the Employment of Labor",
+          "pp. 147–157",
+          "1814637"
+        ],
+        [
+          "Plan of the Department of Agriculture for Handling the Farm Labor Problem",
+          "pp. 158–170",
+          "1814638"
+        ],
+        [
+          "Employment and the Labor Market",
+          "pp. 171–176",
+          "1814639"
+        ],
+        [
+          "Employment of Labor and the War--Discussion",
+          "pp. 177–193",
+          "1814640"
+        ],
+        [
+          "The Social Control of the Acquisition of Wealth",
+          "pp. 194–211",
+          "1814641"
+        ],
+        [
+          "Motives in Economic Life",
+          "pp. 212–231",
+          "1814642"
+        ],
+        [
+          "Control of Wealth and Economic Life--Discussion",
+          "pp. 232–238",
+          "1814643"
+        ],
+        [
+          "Value and Price Theory in Relation to Price-Fixing and War Finance",
+          "pp. 239–256",
+          "1814644"
+        ],
+        [
+          "Some Contributions of the War to Our Knowledge of Money and Prices (Abstract)",
+          "pp. 257–258",
+          "1814645"
+        ],
+        [
+          "Money and Prices--Discussion",
+          "pp. 259–270",
+          "1814646"
+        ],
+        [
+          "New Problems of Governmental Efficiency",
+          "pp. 271–280",
+          "1814647"
+        ],
+        [
+          "Economic Alliances, Commercial Treaties, and Tariff Adjustments",
+          "pp. 281–296",
+          "1814648"
+        ],
+        [
+          "Minutes of Business Meetings: December 28 and 29, 1917",
+          "pp. 297–299",
+          "1814649"
+        ],
+        [
+          "Report of the Secretary for the Year Ending December 18, 1917",
+          "pp. 300–301",
+          "1814650"
+        ],
+        [
+          "Report of the Treasurer for the Year Ending December 18, 1917",
+          "pp. 302",
+          "1814651"
+        ],
+        [
+          "Report of the Auditing Committee",
+          "pp. 303–304",
+          "1814652"
+        ],
+        [
+          "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1917",
+          "pp. 305–307",
+          "1814653"
+        ],
+        [
+          "Report of Committee on Economics in Secondary Schools",
+          "pp. 308–312",
+          "1814654"
+        ],
+        [
+          "Report of the Committee on Coordination in Taxation",
+          "pp. 313–317",
+          "1814655"
+        ]
+      ],
+      "jstor_edicao": "i331475",
+      "artigos": [
+        {
+          "titulo": "Program of the Thirtieth Annual Meeting",
+          "autores": "Programa da reunião",
+          "paginas": "pp. 1–3",
+          "jstor": "1814626",
+          "resumo": "Programa da reunião de Filadélfia e Haverford, de 27 a 29 de dezembro de 1917, com o tema geral “Guerra e reconstrução”. São nove sessões, a maioria no Gold Room do Hotel Adelphia, outras na University of Pennsylvania e no Haverford College, várias em conjunto com a American Farm Management Association, a American Political Science Association, a American Sociological Society e a American Association for Labor Legislation. Inclui um almoço com palestra de Guy Stanton Ford sobre a publicidade do governo na guerra e uma sessão final sobre federação internacional. Alguns participantes não entregaram manuscrito."
+        },
+        {
+          "titulo": "Economic Reconstruction: Foreign and Domestic Investments: Annual Address of the President",
+          "autores": "John R. Commons, The University of Wisconsin; discurso presidencial",
+          "paginas": "pp. 5–17",
+          "jstor": "1814627",
+          "resumo": "No discurso presidencial, lido na sessão conjunta com a American Political Science Association e a American Sociological Society, Commons parte das origens do laissez-faire: na prática, a ineficiência e a autocracia dos governos do século XVIII; na teoria, a lei natural. A Inglaterra prosperou com a iniciativa privada e amarrou-se à doutrina; a Alemanha construiu outra, em que o Estado substitui a liberdade por incentivos administrados cientificamente. Nos Estados Unidos, a teoria dos direitos naturais virou, diz ele, uma teoria do “barril de toucinho”: o direito igual de cada um a tirar o que puder do governo, da tarifa às obras de rios e portos. A Suprema Corte, nos casos Granger, na avaliação unitária das concessionárias e nas contribuições de melhoria, já formulara uma teoria jurídica do valor como poder. Com o fim da fronteira, o capital especulativo procura países atrasados, sob proteção diplomática e militar. Commons propõe obter o capital da reconstrução com contribuições sobre benefícios especiais, aliviar os impostos das indústrias que disputam capital no mercado mundial e usar o crédito público para comprar e operar indústrias básicas, como rodovias, ferrovias, minas, florestas e quedas d'água.",
+          "ensaio_slug": "commons-reconstrucao-economica"
+        },
+        {
+          "titulo": "Federal Taxes Upon Income and Excess Profits",
+          "autores": "T. S. Adams, Yale University",
+          "paginas": "pp. 18–35",
+          "jstor": "1814628",
+          "resumo": "Adams examina os impostos federais de guerra. O imposto sobre lucros extraordinários aprovado em 3 de outubro de 1917, graduado e incidente sobre a renda “supernormal” medida como percentual do capital investido, representa a vitória do princípio do lucro excedente sobre o do lucro de guerra, que tomaria como base os lucros de 1911–13. Para Adams, o imposto pode ser permanente, porque mede a parte do Estado, sócio silencioso de toda empresa, no êxito acima do normal, e não fere o princípio da capacidade de pagar. Aponta defeitos: o investidor escapa; empresas de capital apenas nominal ficam na alíquota de 8%, baixa para quem lucra com intangíveis; a vantagem da sociedade anônima sobre a sociedade de pessoas, já que os lucros retidos, que em 1917 passariam de cinco bilhões de dólares, não pagam a sobretaxa; e a definição de capital investido, que ignora intangíveis e valorizações. Propõe um órgão de equalização inspirado no conselho de árbitros inglês e a dedução da amortização de instalações de guerra. Conclui que o imposto é instrumento tosco de repressão do consumo, que a lei de 1917 é em geral boa e que o remédio direto contra a inflação é a boa prática bancária.",
+          "ensaio_slug": "adams-lucros-extraordinarios"
+        },
+        {
+          "titulo": "Federal Taxes Upon Income and Excess Profits--Discussion",
+          "autores": "E. M. Patterson, Arthur N. Young, E. R. A. Seligman, Henry H. Bond, Carl G. Barth, Roy G. Blakey, N. I. Stone e R. R. Bowker",
+          "paginas": "pp. 36–54",
+          "jstor": "1814629",
+          "resumo": "E. M. Patterson parte da hipótese de uma guerra longa e de custos crescentes. Arthur N. Young elogia a lei de outubro de 1917, mas pede a revogação imediata da cláusula de 8% sobre rendas do trabalho acima de US$ 6 mil e alíquotas maiores sobre rendas não ganhas. Seligman concorda com os fundamentos do texto de Adams. Henry H. Bond, em texto não apresentado na reunião, prefere o imposto sobre lucros de guerra, como na Grã-Bretanha. Carl G. Barth aponta a falta de relação matemática entre as alíquotas do imposto de renda. Blakey, que ajudou a levar ao Congresso o memorial de economistas pelo financiamento por impostos, aceita esperar a aplicação das alíquotas existentes. N. I. Stone contesta a ideia de capital como lucro capitalizado, e R. R. Bowker liga o imposto a um esquema tributário em evolução."
+        },
+        {
+          "titulo": "The Utilization of Land Not in Farms",
+          "autores": "Benjamin H. Hibbard, The University of Wisconsin",
+          "paginas": "pp. 55–64",
+          "jstor": "1814630",
+          "resumo": "Hibbard escolhe a terra fora das fazendas como o tema mais básico da colonização. Os Estados Unidos têm pouco menos de 2 bilhões de acres; metade está em fazendas, e do bilhão restante, pouco menos da metade é pública e mais de 500 milhões estão em mãos privadas sem uso agrícola. De 1850 a 1880, a população cresceu 117% e a terra em fazendas, 83%; de 1900 a 1910, 20% e 5%. A base de terra da produção de alimentos se estreitou: o país passou a produzir sete bushels de trigo por habitante em vez de nove. A terra do Meio-Oeste subiu acima do valor produtivo; em Iowa, um estudo indicou que valeria US$ 125 o acre e era vendida a US$ 200, e os arrendatários levavam mais tempo para virar donos. Hibbard pede um levantamento econômico da terra ligado aos levantamentos de solo, uma política para instalar colonos em condições favoráveis e um plano, administrado por uma comissão, para assentar soldados e marinheiros que voltarão da guerra. No curto prazo, diz, mais alimentos devem vir de mais fertilizante, máquinas e trabalho nas fazendas existentes."
+        },
+        {
+          "titulo": "Work of the Office of Farm Management Relating to Land Classification and Land Tenure",
+          "autores": "W. J. Spillman, United States Department of Agriculture",
+          "paginas": "pp. 65–71",
+          "jstor": "1814631",
+          "resumo": "Spillman parte do esgotamento das boas terras públicas. Na década encerrada em 1910, o valor de mercado da terra agrícola por acre subiu 108%, enquanto os preços dos produtos agrícolas subiram 67%; a diferença vinha da procura por terra já melhorada de quem antes teria ocupado terra nova. Com a terra como principal fator limitante da agricultura, é preciso fazer o inventário. O Office of Farm Management usa uma classificação por uso, da área total às áreas de lavoura, pastagem e mata, recomendada por um comitê para o censo de 1920. Uma tabulação dos questionários do censo feita pelo escritório indicou que 36% da terra das fazendas estava em lavouras, 33% em pastagens e 31% em matas, terrenos baldios e outros usos. O escritório prepara um atlas da agricultura americana, com seções sobre classificação da terra e propriedade fundiária, e estuda o lote de mata das fazendas, os contratos de arrendamento e a economia dos ranchos. No país pastoril, procura o tamanho de rebanho capaz de sustentar uma família e observa que, sem controle exclusivo da pastagem, nenhum criador tem incentivo para conservá-la."
+        },
+        {
+          "titulo": "Government Aid and Direction in Land Settlement",
+          "autores": "Elwood Mead, The University of California",
+          "paginas": "pp. 72–98",
+          "jstor": "1814632",
+          "resumo": "Mead defende um plano de colonização com ajuda e direção do governo. O país, diz, deu 160 milhões de acres a ferrovias e outras empresas e vendeu terra pública a quem queria revender com lucro, e não cultivar; a colonização foi especulativa, esgotou o solo e levou o preço da terra acima do valor produtivo. Em média, a terra agrícola custava quase três vezes mais que no início do século, e o homem de pouco capital tinha cada vez mais dificuldade para comprar uma fazenda. Dinamarca, Irlanda, Nova Zelândia, Austrália e Alemanha, entre outros, compravam grandes áreas, subdividiam-nas em fazendas e lotes para trabalhadores e as vendiam a colonos com pagamento a longo prazo. No estado australiano de Victoria, o título exige que o dono ou alguém da família viva na terra e a cultive oito meses por ano. Mead propõe que os estados dividam com a União a responsabilidade pelos projetos de irrigação, como na Austrália, onde o governo federal empresta aos estados a 4% e eles aos colonos a 5%, e cita a lei de colonização da Califórnia. Pede uma comissão de terras federal e estadual."
+        },
+        {
+          "titulo": "Land Utilization--Discussion",
+          "autores": "Richard T. Ely, G. F. Warren e C. F. Marbut",
+          "paginas": "pp. 99–112",
+          "jstor": "1814633",
+          "resumo": "Richard T. Ely, da University of Wisconsin, trata do trabalho para soldados e marinheiros ao fim da guerra e lembra que a questão da terra veio à tona depois de todas as guerras do país. George F. Warren, da Cornell University, organiza o tema em três perguntas: quais são os recursos de terra, quem vai viver na terra e como o agricultor vai adquiri-la, e comenta a classificação proposta para o próximo censo. C. F. Marbut, do Bureau of Soils, observa que os dados do censo descrevem o uso da terra, mas nada dizem diretamente sobre seu caráter."
+        },
+        {
+          "titulo": "The Federal Valuation of Railroads in Relation to a Definite Policy of National Railway Control",
+          "autores": "John Bauer, Princeton University",
+          "paginas": "pp. 113–133",
+          "jstor": "1814634",
+          "resumo": "Bauer responde a quem pedia a suspensão da avaliação federal das ferrovias, iniciada pela lei de 1º de março de 1913, cujo custo total ele estima em pelo menos US$ 75 milhões. A avaliação, diz, só se justifica se servir a uma política definida, e a lei não exige sequer que se fixe o valor final de cada ferrovia. Em nota, registra que na véspera da apresentação o presidente Wilson tomou as ferrovias para o governo federal, num plano de supercontrole nacional que lhe parece a política permanente mais desejável, com duas mudanças: o órgão de supercontrole deveria ser a Interstate Commerce Commission, e a compensação aos investidores teria de ser revista. Sua proposta é fixar por lei o valor do investimento e garantir aos investidores um retorno definido sobre ele; com a garantia, estima, o capital novo sairia a cerca de 4%, ante 6% a 8% com o risco nos investidores. As tarifas passariam a seguir as condições dos negócios, e as ferrovias bem situadas entregariam ao público o excedente, uma forma de imposto indireto. A comissão ficaria livre da tarefa de fixar tarifas pelo custo."
+        },
+        {
+          "titulo": "Federal Valuation of Railroads--Discussion",
+          "autores": "E. W. Bemis, Thomas W. Hulme, Ralph E. Heilman, John R. Commons e John A. Ryan",
+          "paginas": "pp. 134–140",
+          "jstor": "1814635",
+          "resumo": "E. W. Bemis considera desejável um valor final para as ferrovias, se obtido sem sacrifício excessivo naquele momento. Thomas W. Hulme, de Filadélfia, limita-se à relação entre a avaliação e a política de controle nacional. Ralph E. Heilman, da Northwestern University, acha sólida a proposta de Bauer sobre a avaliação, mas não a de fixação de tarifas, e lembra o peso do valor de reprodução na tradição jurídica. Commons recorda que o Congresso mandou a Interstate Commerce Commission manter as avaliações atualizadas. John A. Ryan, da Catholic University, pergunta se uma definição de valor justo votada pelo Congresso teria autoridade perante a Suprema Corte."
+        },
+        {
+          "titulo": "Coordination of Federal, State, and Municipal Employment Bureaus",
+          "autores": "Henry Rogers Seager, Columbia University",
+          "paginas": "pp. 141–146",
+          "jstor": "1814636",
+          "resumo": "Seager parte da ideia de que a guerra é uma disputa entre indústrias, e não só entre exércitos: mobilizar um exército industrial é tão essencial quanto mobilizar o militar. Até então, o governo deixara aos empregadores privados, estimulados pelos contratos de guerra, a tarefa de recrutar trabalhadores, e as contribuições dos serviços públicos de emprego federais, estaduais e municipais careciam de coordenação. Agora os empregadores começavam a tirar empregados uns dos outros, com perda de eficiência para toda a indústria. Seager apresenta o projeto endossado pela Association of Public Employment Officials em Milwaukee, em setembro de 1917, com três pontos: concentrar as atividades federais de emprego num diretor do Federal Employment Service, no Departamento do Trabalho, com amplos poderes e recursos; coordenar os escritórios estaduais e municipais com subsídios federais condicionados a regras comuns; e criar câmaras de compensação interestaduais e uma central em Washington. Acrescenta um conselho consultivo com os órgãos de guerra e escritórios de emergência como o de Seattle. Só com esse serviço, diz, se saberá se há mão de obra suficiente ou se será preciso diluir o trabalho qualificado, como no Reino Unido."
+        },
+        {
+          "titulo": "Lessons from English War Experience in the Employment of Labor",
+          "autores": "M. B. Hammond, Ohio State University",
+          "paginas": "pp. 147–157",
+          "jstor": "1814637",
+          "resumo": "Hammond resume a experiência britânica. O primeiro efeito da guerra foi a incerteza: no fim de agosto de 1914, o desemprego nos sindicatos que informavam ao Board of Trade chegou a 7,1%, ante 2,8% no fim de julho. A situação durou pouco; desde fevereiro de 1915, o desemprego ficou abaixo de 1%, e o problema passou a ser a falta de braços. A peça administrativa decisiva foram as Labour Exchanges, criadas por lei de 1909, com cerca de 400 escritórios. O alistamento voluntário sem restrições tirou trabalhadores qualificados da engenharia e da construção naval; o governo respondeu com os War Munitions Volunteers e com o certificado de saída, que impedia o trabalhador de munições de mudar de emprego sem autorização, foi apontado pela comissão oficial de inquérito como a segunda causa da inquietação operária e acabou revogado. A diluição do trabalho, reservar os qualificados às tarefas que só eles fazem, traduziu-se sobretudo na entrada de mulheres na indústria. Entre as lições, Hammond lista o cuidado com a fadiga, a preferência pela cooperação de empregadores e sindicatos em vez da compulsão e a de não convocar qualificados das indústrias de guerra sem substitutos."
+        },
+        {
+          "titulo": "Plan of the Department of Agriculture for Handling the Farm Labor Problem",
+          "autores": "E. V. Wilcox, Office of Farm Management",
+          "paginas": "pp. 158–170",
+          "jstor": "1814638",
+          "resumo": "Wilcox descreve o plano do Departamento de Agricultura para a mão de obra rural. Sem verba específica, o Office of Farm Management deslocou técnicos para os estados com pedidos mais urgentes e fez um acordo com o Departamento do Trabalho: a Agricultura levantaria as necessidades dos agricultores e as fontes de trabalho nas zonas rurais e cidades de até 10 mil habitantes, e o Trabalho cuidaria das cidades maiores. A escassez vinha da expansão industrial para abastecer os Aliados, da ida de talvez 40 mil homens ao Canadá como trabalhadores agrícolas, de agentes que levaram trabalhadores do Sul para as indústrias do Norte, do alistamento e das obras de acantonamentos e estaleiros. Wilcox acrescenta um fator menos notado: os ofícios de luxo, sobretudo o automóvel, haviam absorvido milhões de trabalhadores antes da guerra. O programa tinha duas frentes, conhecer a necessidade de cada agricultor e desenvolver todas as fontes de trabalho, com um especialista em mão de obra rural em cada estado. A conclusão da safra é que não havia escassez absoluta, mas distúrbios locais causados pela disputa por trabalho a salários altos; a saída estaria em mais eficiência, máquinas e sistemas de cultivo que poupem trabalho."
+        },
+        {
+          "titulo": "Employment and the Labor Market",
+          "autores": "Charles B. Barnes, New York State Employment Bureau",
+          "paginas": "pp. 171–176",
+          "jstor": "1814639",
+          "resumo": "Barnes dirige o serviço estadual de emprego de Nova York, organizado em 1915, com escritórios em Buffalo, Rochester, Syracuse, Albany e Nova York e relatórios diários à sede. Em doze meses, os escritórios registraram pouco mais de 90 mil pessoas, receberam pedidos de quase 114 mil trabalhadores e encaminharam mais de 111 mil, das quais 73.370 comprovadamente conseguiram emprego; cerca de metade das colocações foi na indústria e no comércio, um terço em trabalho eventual, doméstico e hoteleiro, e quase 12% na agricultura. Todos os escritórios recebiam mais de cem candidatos por dia, alguns de 300 a 400, e mesmo assim se falava em escassez; Barnes atribui parte dessas notícias ao hábito de anunciar necessidades futuras como imediatas. O problema real, para ele, é a falta de treinamento: os empregadores recusavam-se a treinar porque o trabalhador treinado seria levado por outro, e comunidades inteiras contratavam supostos especialistas para atrair operários qualificados de fora. Propõe conferências de empregadores e trabalhadores em cada centro industrial para planejar o treinamento, a subdivisão de tarefas e a distribuição dos contratos públicos conforme a mão de obra local."
+        },
+        {
+          "titulo": "Employment of Labor and the War--Discussion",
+          "autores": "Frank App, Rex E. Willard, George E. Barnett, George A. Billings, E. St. John Wileman e Don D. Lescohier",
+          "paginas": "pp. 177–193",
+          "jstor": "1814640",
+          "resumo": "Frank App, do New Jersey Agricultural College, diz que distribuir trabalho é pôr o homem certo no lugar certo, com o empregador certo. Rex E. Willard descreve a lei de trabalho compulsório de Maryland, em vigor desde 20 de agosto de 1917, que exige o registro dos homens de 18 a 50 anos sem emprego regular. George E. Barnett, da Johns Hopkins University, nota o acordo geral sobre a necessidade de um sistema nacional de escritórios de emprego. George A. Billings propõe organizar cada estado tendo o condado como unidade. E. St. John Wileman, do Canadá, apoia um sistema federal sem controle dividido, e Don D. Lescohier conclui que o mercado de trabalho do país é praticamente desorganizado."
+        },
+        {
+          "titulo": "The Social Control of the Acquisition of Wealth",
+          "autores": "Edward Cary Hayes, The University of Illinois",
+          "paginas": "pp. 194–211",
+          "jstor": "1814641",
+          "resumo": "Hayes lembra que, uma geração antes, economia e sociologia se resumiam no laissez-faire: Adam Smith e Herbert Spencer ensinavam que controlar a aquisição de riqueza seria intromissão nociva. Como em outras ciências, o conhecimento abriu possibilidades de controle; continuar a pregar o laissez-faire, diz, seria fugir ao dever de liderança social, ainda que o controle deva ser exercido com cautela. Toda política estabelecida tem a filosofia que a justifica, e a do individualismo exploratório é o laissez-faire, defendido sucessivamente pelos fisiocratas, pela lei de ferro de Malthus, pelo fundo de salários e pela teoria do requerente residual. A versão então em voga, a teoria da produtividade específica, falharia porque supõe uma concorrência ilimitada que não existe e atribui ao capital tudo o que excede o produto do trabalho com terra e máquinas sem renda. Hayes enumera o que a sociedade poderia fazer: ampliar a propriedade pública do capital, limitar a transmissão por herança, estender os conselhos de salário mínimo e restringir os ganhos com operações financeiras. Termina com a imprensa e as escolas, que chama de cidadelas da democracia, e com um apelo a um grupo liberal entre conservadores e radicais."
+        },
+        {
+          "titulo": "Motives in Economic Life",
+          "autores": "Carleton H. Parker, The University of Washington",
+          "paginas": "pp. 212–231",
+          "jstor": "1814642",
+          "resumo": "Parker abre com a inquietação operária de 1917: as greves teriam aumentado cerca de 300% em relação aos tempos de paz, e Seattle viveu, num só verão, greves de bondes, da construção civil, de 30 mil operários de estaleiros e de outras categorias. Medidas tomadas em nome da unidade nacional, diz, acabavam produzindo desunião. A explicação viria da psicologia dinâmica e comportamental: a atividade humana é movida por instintos, como mostram McDougall e Veblen, e o ambiente industrial moderno os reprime. O trabalhador migratório e sem vínculos, privado de expressão, reage com greve, violência ou sabotagem, num estado que Parker chama de psicose industrial; nas camadas mais altas, a rotatividade também é grande, e uma loja de Nova York com menos de três mil empregados via passar 13 mil por ano. Parker critica a economia por deixar a desigualdade e a degradação da vida fora da ciência e por tratar o valor como mero mecanismo de preço. Propõe pôr a natureza e os motivos humanos nas hipóteses básicas e medir o valor de coisas e instituições pelo quanto contribuem para uma vida psicológica plena."
+        },
+        {
+          "titulo": "Control of Wealth and Economic Life--Discussion",
+          "autores": "Frank A. Fetter, Wesley C. Mitchell e E. C. Hayes",
+          "paginas": "pp. 232–238",
+          "jstor": "1814643",
+          "resumo": "Frank A. Fetter, da Princeton University, vê nos dois trabalhos lamentações paralelas: ambos acusam o sistema econômico de falhar, um na distribuição da riqueza, o outro na satisfação de necessidades humanas fundamentais. Wesley C. Mitchell, da Columbia University, aproxima Parker do discurso de Irving Fisher na American Association for Labor Legislation: os dois concluíram que, para entender a inquietação industrial, é preciso conhecer a natureza humana. Na réplica, Hayes observa que, se o laissez-faire está morto, ainda fala pelos manuais."
+        },
+        {
+          "titulo": "Value and Price Theory in Relation to Price-Fixing and War Finance",
+          "autores": "B. M. Anderson Jr., Harvard University",
+          "paginas": "pp. 239–256",
+          "jstor": "1814644",
+          "resumo": "Anderson observa que a teoria econômica pouco tratou de preços fixados por lei: os manuais os consideram inúteis ou nocivos, salvo no monopólio, e a fixação de preços da guerra causava apreensão entre economistas, sem uma teoria que a sustentasse; um dos responsáveis teria dito que não havia teoria, apenas uma nova decisão para cada contingência. Com base no trigo e na farinha, no cobre e no carvão, e com a ressalva de ter tido seis ou sete semanas de preparação, conclui que a fixação deu certo no trigo, na farinha e no cobre, fez bem no carvão antracito e, até então, muito mal no betuminoso. Os valores econômicos guiam produção e consumo, mas fazem parte de um sistema social de valores mais amplo, e na guerra as pressões não econômicas permitem ao governo substituir em parte o mecanismo automático dos preços. Contra os quantitativistas, sustenta que baixar alguns preços, como o do cobre de 30 para 23,5 centavos, reduz o valor das ações dadas em garantia e tende a reduzir empréstimos e depósitos bancários. Anderson adverte que a política depende da honestidade e da competência do governo e não serviria em tempos de paz."
+        },
+        {
+          "titulo": "Some Contributions of the War to Our Knowledge of Money and Prices (Abstract)",
+          "autores": "Irving Fisher, Yale University",
+          "paginas": "pp. 257–258",
+          "jstor": "1814645",
+          "resumo": "No resumo de sua exposição, Fisher lista o que a guerra vinha ensinando sobre moeda e preços. A teoria bulionista, segundo a qual o papel-moeda nunca vale mais que o ouro em que é resgatado, estaria errada: em maio de 1916, a libra-papel inglesa valia mais na França que a libra-ouro, e na Suécia havia prêmio sobre o papel desde o fim de 1916. Pode haver inflação sem suspensão da conversibilidade, e ela deve ser medida por números-índice de preços de mercadorias, não pelo ágio do ouro. Os empréstimos do governo estão ligados à inflação de papel e depósitos, e mesmo a inflação de crédito eleva preços. Fisher ordena os países do menos para o mais inflacionado: Estados Unidos, Suécia, Suíça, Dinamarca, Itália, Inglaterra, Noruega, França, Alemanha, Áustria e Rússia. A mudança de preços seguiria a da quantidade de moeda, com defasagem de cerca de três meses na Inglaterra e de menos de dois nos Estados Unidos. A emissão de títulos além da poupança do público, conclui, retira de quem tem renda fixa parte de seu rendimento pelo custo de vida, uma forma disfarçada de imposto."
+        },
+        {
+          "titulo": "Money and Prices--Discussion",
+          "autores": "E. W. Kemmerer, Duncan A. MacGibbon, Hugo Bilgram, L. D. H. Weld, B. M. Anderson Jr. e Irving Fisher",
+          "paginas": "pp. 259–270",
+          "jstor": "1814646",
+          "resumo": "E. W. Kemmerer, da Princeton University, desenvolve o ponto de Fisher sobre a evidência da guerra contra a escola bulionista. Duncan A. MacGibbon, da McMaster University, afirma que a fixação do preço da farinha não deu certo no Canadá. Hugo Bilgram, de Filadélfia, rejeita a teoria quantitativa e defende a teoria mercadoria do valor da moeda. L. D. H. Weld, de Chicago, lembra que o país está em guerra e enfrenta problemas imediatos. Nas réplicas, Anderson e Fisher discutem a correlação entre moeda e preços e o método de medi-la."
+        },
+        {
+          "titulo": "New Problems of Governmental Efficiency",
+          "autores": "A. N. Holcombe, United States Bureau of Efficiency",
+          "paginas": "pp. 271–280",
+          "jstor": "1814647",
+          "resumo": "Holcombe trata de um só problema: como organizar as compras do governo diante de um gasto sem precedente. As dotações para o ano fiscal de 1918 somavam entre 18 e 19 bilhões de dólares e, com as autorizações de contratos, passavam de 21 bilhões, mais de dez vezes qualquer valor anterior; sete bilhões eram empréstimos aos Aliados, gastos em sua maior parte nos Estados Unidos. Uma política de compras de guerra deveria buscar preços razoáveis para o governo e para todos os consumidores, distribuição segundo a necessidade e não a capacidade de pagar, e participação razoável dos assalariados nos lucros sem interromper a produção. Holcombe expõe o debate entre centralizar as compras num só órgão e manter a organização funcional, com o Departamento da Guerra, a Marinha, a Emergency Fleet Corporation e a comissão de compras dos Aliados, e descreve o War Industries Board. Conclui pela descentralização das compras, mas pede que o comitê de prioridades se torne independente, com jurisdição ampla, ligação com o diretor-geral das ferrovias e com o Shipping Board e informação adequada, como embrião de um estado-maior civil."
+        },
+        {
+          "titulo": "Economic Alliances, Commercial Treaties, and Tariff Adjustments",
+          "autores": "Edward P. Costigan, United States Tariff Commission",
+          "paginas": "pp. 281–296",
+          "jstor": "1814648",
+          "resumo": "Costigan prevê que as mudanças do pós-guerra no comércio exterior virão mais no espírito que na forma: as nações voltarão a usar tarifas e tratados para disputar mercados. Examina as propostas de alianças econômicas, a Europa Central planejada pelas potências centrais e o acordo da Conferência Econômica de Paris, de junho de 1916, que previa medidas comuns dos Aliados também depois da paz. Apoia a rejeição de Wilson a ligas econômicas egoístas e exclusivas: dividir o mundo em dois blocos hostis exigiria cercar a Europa Central indefinidamente, manter a harmonia entre Aliados de interesses distintos e sacrificar um grande mercado. Descreve sistemas tarifários, como o múltiplo do Canadá, com preferência imperial, tarifa intermediária e tarifa geral, e as duas leituras da cláusula de nação mais favorecida: a incondicional europeia, que estende automaticamente as concessões a todos os parceiros, e a condicional americana, que só as estende a quem oferece concessões equivalentes. Conclui que tratados e tarifas devem buscar eliminar a discriminação, que alianças econômicas devem ser evitadas salvo em extremo e que o objetivo é um comércio liberado num mundo pacífico e federado."
+        },
+        {
+          "titulo": "Minutes of Business Meetings: December 28 and 29, 1917",
+          "autores": "Atas da associação",
+          "paginas": "pp. 297–299",
+          "jstor": "1814649",
+          "resumo": "Atas das sessões de negócios de 28 de dezembro, no Hotel Adelphia, e de 29 de dezembro, no Haverford College, com Commons na presidência. Foram aprovados os relatórios do secretário, do tesoureiro, da comissão de auditoria e do editor-gerente; o comitê sobre economia no ensino secundário foi dissolvido e o de coordenação tributária, mantido. Uma proposta para que a Federal Trade Commission tivesse obrigatoriamente um economista entre seus membros foi deixada sobre a mesa. A associação autorizou uma comissão sobre os problemas econômicos da guerra, recomendou o estudo oficial do assentamento de soldados e marinheiros na terra e, depois de reconsiderar a votação, aprovou a comissão sobre o poder de compra da moeda proposta por Fisher. Foram eleitos Irving Fisher, presidente; Frank A. Vanderlip, Edith Abbott e E. L. Bogart, vice-presidentes; e Allyn A. Young, secretário e tesoureiro."
+        },
+        {
+          "titulo": "Report of the Secretary for the Year Ending December 18, 1917",
+          "autores": "Allyn A. Young, secretário",
+          "paginas": "pp. 300–301",
+          "jstor": "1814650",
+          "resumo": "O comitê executivo reuniu-se no City Club de Nova York em 2 de junho de 1917 e, a pedido de Commons, transferiu a reunião anual de Rochester para Filadélfia. Rejeitou a criação de comissões para estudar os problemas econômicos da guerra, por risco de duplicar trabalho de outros órgãos e por contrariar a regra da constituição de que a associação não adota posições partidárias nem compromete os sócios em questões práticas. Criou, porém, uma comissão especial em Washington, com F. W. Taussig, G. E. Barnett e o secretário, para ajudar o governo a recrutar especialistas, e acertou com a Civil Service Commission o registro de economistas dispostos a servir. A associação terminou 1917 com 2.169 sócios, entre eles 85 vitalícios e 6 honorários, e 433 assinaturas, num total de 2.602; entraram 274 novos sócios, e o ganho líquido foi de 113. O secretário registra com pesar a morte de dezoito sócios, um deles vice-presidente da associação em 1917."
+        },
+        {
+          "titulo": "Report of the Treasurer for the Year Ending December 18, 1917",
+          "autores": "Allyn A. Young, tesoureiro",
+          "paginas": "pp. 302",
+          "jstor": "1814651",
+          "resumo": "O tesoureiro começou o exercício com US$ 4.295,95 em caixa, em 19 de dezembro de 1916. As receitas somaram US$ 13.463,58, das quais US$ 10.010,99 de anuidades, US$ 2.140,79 de assinaturas, US$ 500 de contribuições vitalícias, US$ 469,91 de vendas de publicações e US$ 339,64 de juros. As despesas chegaram a US$ 11.231,81. As publicações foram o maior item, com US$ 8.381,01, incluindo impressão, redação e despesas da Review e os anais da reunião; o escritório do secretário custou US$ 2.689,53, dos quais US$ 1.773,11 em salários e US$ 171,29 com a reunião anual; as comissões gastaram US$ 46,77, o seguro US$ 64,50 e a armazenagem das publicações US$ 50. O exercício terminou em 18 de dezembro de 1917 com US$ 6.527,72 em caixa, distribuídos entre o Central Trust Company, o Ithaca Trust Company e o Tompkins County Bank. O balanço completo e a demonstração de resultados ficam com a comissão de auditoria."
+        },
+        {
+          "titulo": "Report of the Auditing Committee",
+          "autores": "Donald English, Robert A. Campbell e Abbott Payson Usher, comissão de auditoria",
+          "paginas": "pp. 303–304",
+          "jstor": "1814652",
+          "resumo": "A comissão de auditoria, em carta datada de Ithaca, 22 de dezembro de 1917, informa que assistentes sob sua direção examinaram em detalhe as contas do secretário-tesoureiro e certifica que os livros conferem com o balanço. O ativo e o passivo somam US$ 11.275,83 cada um; o caixa em contas de poupança é de US$ 6.126,28, e os investimentos, de US$ 3 mil, incluem US$ 1 mil em títulos do Liberty Loan a 4%. O patrimônio passou de US$ 8.079,42, em 20 de dezembro de 1916, para US$ 8.393,51. Na demonstração de resultados, a receita ordinária líquida de anuidades foi de US$ 10.390,54 e o excedente da receita ordinária sobre os gastos de escritório, de US$ 7.969,30; as publicações custaram US$ 9.618,91 e renderam US$ 2.542,72, um déficit de US$ 7.076,19. Feitas as reservas para anuidades não pagas e contas incobráveis, o superávit líquido do ano foi de US$ 368,11, incorporado ao patrimônio da associação."
+        },
+        {
+          "titulo": "Report of the Managing Editor of the American Economic Review for the Year Ending December, 1917",
+          "autores": "Davis R. Dewey, editor-gerente",
+          "paginas": "pp. 305–307",
+          "jstor": "1814653",
+          "resumo": "A Review enfrentou custos crescentes. Como Dewey previra no ano anterior, a despesa subiu cerca de US$ 500: o total do ano foi de US$ 8.006,68, ante US$ 7.694,06 em 1916. A impressão custou US$ 3.762,37, US$ 505,10 a mais, sobretudo pelo papel; houve pequenas reduções nos pagamentos a colaboradores, no trabalho de escritório e nos materiais, e a revista imprimiu 984 páginas, o menor número desde 1911. A tiragem média subiu para 3.050 exemplares, ante 2.900. Serviram como editores Clive Day e H. J. Davenport, com mandato terminando no ano; T. W. Page e J. L. Coulter, até 1918; e F. A. Fetter e H. E. Mills, até 1919. Nos resumos de periódicos, A. N. Young assumiu a teoria, Tosdal o comércio, George B. Mangold a assistência social e A. B. Wolfe a população, em lugar de colaboradores que deixaram a função, dois deles por trabalho para o governo. Ao todo, 127 pessoas escreveram para a Review no ano."
+        },
+        {
+          "titulo": "Report of Committee on Economics in Secondary Schools",
+          "autores": "E. T. Towne, G. O. Virtue e F. R. Clow, comitê",
+          "paginas": "pp. 308–312",
+          "jstor": "1814654",
+          "resumo": "O comitê enviou um questionário a professores de introdução à economia de faculdades e universidades e recebeu respostas de cerca de 200 faculdades e 70 universidades. Dos 22.680 alunos de introdução à economia nessas instituições, 1.774, ou 7,8%, tinham estudado economia no ensino secundário, cerca de um em cada treze; 1,6% tinham estudado história industrial e 0,68%, sociologia. Quanto à qualidade do trabalho, 45 professores notavam diferença a favor de quem já estudara a matéria, 67 não notavam e 28 não tinham elementos; alguns achavam o curso anterior superficial ou criador de preconceitos. Quase todos viam a economia ganhar espaço nas escolas. A pergunta se a matéria deveria ser ensinada no secundário teve 115 respostas a favor, 64 contra e 78 condicionais. Para o secundário, a preferência foi por problemas concretos e descrição, com alguma história e pouca teoria: problemas foram mencionados 145 vezes, descrição 182, história 88 e teoria 40. O relatório traz ainda respostas dos superintendentes estaduais de ensino sobre escolas e alunos de economia, sociologia e história industrial."
+        },
+        {
+          "titulo": "Report of the Committee on Coordination in Taxation",
+          "autores": "R. R. Bowker, presidente interino, pelo comitê",
+          "paginas": "pp. 313–317",
+          "jstor": "1814655",
+          "resumo": "Relatório preliminar de um comitê formado no fim de 1916 por proposta de R. R. Bowker, com T. S. Adams, H. L. Lutz, H. C. Adams e Ogden L. Mills; Mills partiu para a França no serviço militar, e Bowker atuou como presidente. O comitê se correspondeu com comissões da National Tax Association e apresenta uma classificação dos tributos por esfera de governo. Seriam necessariamente nacionais as tarifas de importação; preferencialmente nacionais os impostos de consumo, os de renda, os de selo e os sobre lucros, estes talvez partilhados com os estados. A tributação imobiliária seria necessariamente estadual; a de herança, preferencialmente estadual se a renda ficar com a União; e os impostos sobre empresas, melhor cobrados como impostos uniformes sobre renda ou lucro. As licenças profissionais caberiam aos governos locais. O relatório classifica como objetáveis os impostos sobre vendas, que se acumulam a cada etapa, os impostos sobre bens pessoais e a capitação. Aponta como tema central a repartição dos impostos de renda e herança entre União e estados. Lutz concorda; T. S. Adams quer também a herança primordialmente federal; H. C. Adams discorda."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "commons-reconstrucao-economica",
+          "titulo": "Commons e o fim do laissez-faire",
+          "titulo_original": "Economic Reconstruction: Foreign and Domestic Investments. Annual Address of the President",
+          "autores": "John R. Commons (The University of Wisconsin)",
+          "paginas": "pp. 5–17",
+          "jstor": "1814627",
+          "chamada": "No discurso presidencial de 1917, John R. Commons declara morto o laissez-faire, descreve a teoria americana do “barril de toucinho” e propõe que o poder público decida onde investir o capital da reconstrução.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Na noite de 27 de dezembro de 1917, no Gold Room do Hotel Adelphia, em Filadélfia, três presidentes de associações científicas falaram na mesma sessão: o da American Sociological Society, o da American Political Science Association e John R. Commons, da University of Wisconsin, pela American Economic Association. O título de Commons falava de investimentos externos e internos; o argumento ia além e terminava numa frase que ele repete duas vezes no texto: o laissez-faire está morto."
+            },
+            {
+              "tipo": "p",
+              "texto": "O discurso, publicado no suplemento de março de 1918 da American Economic Review, começa pela história da doutrina, passa por uma teoria do valor tirada das decisões da Suprema Corte americana e chega a uma proposta concreta sobre como obter e onde aplicar o capital necessário depois da guerra."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde veio o laissez-faire?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A doutrina, diz Commons, teve uma origem prática e outra teórica. Na prática, a ineficiência e a autocracia dos governos do século XVIII; na teoria, a lei da natureza e os direitos naturais do indivíduo. A Inglaterra, mais pelo acaso de ser ilha que pela filosofia, mostrou que o governo faz mais quando faz menos: a iniciativa e o capital privados lhe deram marinha, império e mercado mundial. Adam Smith justificou em teoria o que a Inglaterra já demonstrara na prática, e o país ganhou uma dianteira de um ou dois séculos, mas amarrado a uma teoria que supunha condições permanentes."
+            },
+            {
+              "tipo": "p",
+              "texto": "A Alemanha, prossegue, partiu de outra hipótese: o poder do Estado não viola a lei natural, é seu fruto. Não há direitos naturais acima da vontade do Estado. Mas, como a iniciativa individual continua sendo a maior fonte de poder, a liberdade é substituída por um uso científico do poder do Estado para levar o indivíduo a se esforçar ao máximo: recompensas, promoções, honrarias, subsídios, escolas técnicas que ofereçam cérebros em excesso ao mercado."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Abolir a liberdade, mas substituí-la pelo incentivo.”",
+              "original": "“Abolish liberty, but substitute inducement.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A guerra, para Commons, é o choque entre esses dois experimentos e suas teorias, e qualquer que seja o resultado é um tempo de reconstrução da teoria e da prática. A teoria subjacente a todas as ciências sociais é a do valor. A economia herdou a de Adam Smith, a do indivíduo isolado em busca da maior renda líquida; a sociologia vinha elaborando uma teoria social do valor; faltava uma teoria política ou jurídica, e ela já surgia da democracia americana."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é a teoria do “barril de toucinho”?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos Estados Unidos, o laissez-faire não nasceu da autocracia, mas da ineficiência: quando os empreendimentos públicos faliram, o povo escreveu o laissez-faire nas constituições. E a teoria americana dos direitos naturais nunca foi uma teoria de deixar fazer. Foi, diz Commons, a teoria do direito igual de qualquer um a obter tudo o que puder do governo: a tarifa protecionista negociada em troca de votos, a lei de terras para colonos e as leis de madeira, deserto e mineração, as verbas de rios, portos e prédios públicos, os cargos públicos."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não uma teoria de deixar em paz, mas uma teoria de vamos pegar.”",
+              "original": "“Not a let-alone theory but a let's-grab theory.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Essa teoria serviu ao século XIX americano, de conquista e expansão para o oeste, e tem uma meia verdade: o Estado existe para os indivíduos. A metade que falta é a dos deveres. Se os direitos vêm do Estado, e não da natureza, o mesmo ato que concede um direito impõe um dever equivalente. A falta não se sentia enquanto quem não tinha propriedade podia ir para o oeste e consegui-la; sente-se no século XX, quando quem tem poucos direitos precisa negociar com quem os tem."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a Suprema Corte redefiniu a propriedade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Commons encontra a outra metade em três linhas de decisões da Suprema Corte. Nos casos Granger, a propriedade afetada por uso público passou a depender, na prática, do poder de persuadir os eleitores. Pela regra de avaliação unitária, a concessionária de serviço público deixou de ser tributada só pelos bens físicos e passou a sê-lo pelo valor capitalizado de todo o seu poder de ganho. E as contribuições de melhoria permitem cobrar o custo de uma obra pública dos imóveis especialmente valorizados por ela, e não de todos os contribuintes. A contribuição de melhoria, lembra, é uma espécie de imposto sobre lucros extraordinários, um imposto sobre o incremento não ganho."
+            },
+            {
+              "tipo": "p",
+              "texto": "Dessas decisões resulta outra definição de propriedade: não mais a posse exclusiva de uma coisa física, mas valor; valor é poder sobre os outros; e o tribunal protege não necessariamente o valor de mercado sem regulação, mas o valor razoável da propriedade. As disputas futuras, conclui, girarão sobre o tipo e a extensão do controle do Estado sobre o valor da propriedade privada."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Para onde vai o capital excedente?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os pioneiros do oeste, diz Commons, eram especuladores, movidos menos pelo ganho diário que pela valorização futura da terra, e o mesmo princípio está em todo negócio. Enquanto havia recursos livres, a especulação desenvolvia riquezas novas e o país podia pagar recompensas excepcionais. Ocupados os recursos, os investidores passaram a disputar os já ocupados, e a especulação passou a elevar valores existentes, sem acrescentar riqueza. A consolidação em trustes foi outra fonte de lucro especulativo, também em vias de esgotamento."
+            },
+            {
+              "tipo": "p",
+              "texto": "A fronteira, então, saiu do país: o capital americano começava a procurar México, Canadá, China, América Central e do Sul, África e Rússia, onde o valor especulativo era baixo. Esses valores só se realizam sob a proteção diplomática e, no limite, militar do Estado. A exportação de capital, diz Commons, é para o futuro uma questão mais importante que a exportação de produtos ou a anexação de territórios. O país precisa do seu capital, mas não pode proibi-lo de sair; só pode competir com o financista internacional que o convida a sair."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 1 bilhão",
+              "texto": "Necessidade estimada de capital novo por ano para as ferrovias americanas na década seguinte, citada por Commons. Sob regulação de tarifas, o capital privado não se dispõe a investir a taxas de lucro baixas, e os financistas não captam recursos sem a perspectiva de lucros especulativos. Outros países, lembra, subsidiaram ferrovias, garantiram seus títulos ou as compraram."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que Commons propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O governo, diz, tem duas vantagens sobre o financista: pode desviar a poupança pelo poder de tributar e pode obtê-la a juros menores com títulos próprios ou garantidos. Já o fazia em projetos de irrigação e na educação industrial. Mas o risco é a teoria do barril de toucinho, que desvia os benefícios da tributação nacional e dos juros baixos para a valorização dos imóveis locais. Em projetos de irrigação, quase todo o aumento de valor criado pelo governo ficou com os proprietários especuladores, e o colono pedia ao governo alívio dos encargos."
+            },
+            {
+              "tipo": "p",
+              "texto": "A resposta que Commons vê na democracia americana e na Suprema Corte tem três partes: obter o capital novo com contribuições sobre os benefícios especiais criados pelos governos local, estadual e federal; reduzir ou eliminar os impostos sobre indústrias que não recebem benefício especial e disputam capital no mercado mundial; e usar o crédito público, apoiado na tributação, para comprar e operar as indústrias básicas, como rodovias, ferrovias, minas, florestas e quedas d'água. Com a regra do benefício especial, o governo poderia avançar para a propriedade pública das ferrovias sem a disputa no Congresso por ramais e terminais locais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Imitar a Alemanha?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Commons antecipa a objeção de que essas seriam técnicas da autocracia alemã e responde que são os processos pelos quais a Alemanha se impunha ao mundo. A indústria moderna, diz, é parecida em todos os países; o que difere é o propósito. Se o objetivo é ganhar poder sobre outras nações, o capital tributado irá para marinhas, armamentos e investimentos especulativos no exterior; se é desenvolver os próprios recursos, irá para as indústrias básicas que não podem mais ficar com a especulação. Só o governo pode escolher qual propósito vem primeiro. A ineficiência do governo americano, acrescenta, é um estado de espírito, e milhares de empresários e líderes trabalhistas aprendiam nos conselhos de defesa a importância da administração pública."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o discurso interessa sobretudo pelo instrumento que propõe. Commons não defende o investimento público em abstrato; procura uma regra que impeça que os ganhos do investimento público sejam capturados por quem está perto da obra. A contribuição de melhoria cumpre essa função: liga o financiamento ao benefício e reduz o incentivo para disputar obras no Congresso.",
+                "A outra contribuição é a definição de propriedade como valor e de valor como poder, extraída de decisões judiciais e não de uma teoria do indivíduo isolado. Ela desloca a análise econômica do mercado em abstrato para as regras que determinam quem se apropria do valor, que é o terreno em que se discutem até hoje regulação de concessões, tributação da valorização imobiliária e financiamento de infraestrutura."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Laissez-faire",
+              "doutrina segundo a qual o governo deve deixar a economia funcionar sem intervenção."
+            ],
+            [
+              "Barril de toucinho (pork barrel)",
+              "uso de verbas públicas para obras e favores locais negociados em troca de apoio político."
+            ],
+            [
+              "Casos Granger",
+              "decisões da Suprema Corte dos anos 1870 que admitiram a regulação de tarifas de empresas afetadas por uso público."
+            ],
+            [
+              "Avaliação unitária (unit rule)",
+              "tributação da concessionária pelo valor capitalizado de todo o seu poder de ganho, e não só pelos bens físicos."
+            ],
+            [
+              "Contribuição de melhoria",
+              "tributo cobrado dos imóveis valorizados por uma obra pública, para custeá-la."
+            ],
+            [
+              "Incremento não ganho",
+              "valorização de um bem que não resulta do trabalho ou do investimento do dono."
+            ]
+          ],
+          "hoje": "A contribuição de melhoria e a captura da valorização imobiliária gerada por obras públicas seguem como instrumentos de financiamento urbano em vários países, inclusive no Brasil. A disputa de parlamentares por obras locais continua presente nos orçamentos. E a pergunta de Commons sobre como atrair capital para infraestrutura regulada, sem deixar a decisão de onde investir apenas com quem busca o maior retorno, reaparece nos debates sobre concessões, parcerias público-privadas e bancos de desenvolvimento."
+        },
+        {
+          "slug": "adams-lucros-extraordinarios",
+          "titulo": "T. S. Adams e o imposto sobre lucros extraordinários",
+          "titulo_original": "Federal Taxes Upon Income and Excess Profits",
+          "autores": "T. S. Adams (Yale University)",
+          "paginas": "pp. 18–35",
+          "jstor": "1814628",
+          "chamada": "T. S. Adams examina os impostos de guerra de 1917: por que o imposto sobre lucros acima do normal venceu o imposto sobre lucros de guerra, quem escapa dele, como medir o capital e por que impostos são um instrumento tosco.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "O primeiro imposto americano sobre lucros extraordinários, de 3 de março de 1917, era moderado e uniforme: incidia sobre a renda de sociedades anônimas e sociedades de pessoas acima de 8% do capital efetivamente investido. A comissão de finanças do Senado o transformou num imposto sobre lucros de guerra. Depois de longa discussão, o Congresso voltou ao princípio original, agora com um imposto fortemente graduado sobre a renda “supernormal” de pessoas físicas, sociedades e empresas, aprovado em 3 de outubro de 1917."
+            },
+            {
+              "tipo": "p",
+              "texto": "T. S. Adams, da Yale University, abriu a reunião de Filadélfia com esse imposto e com as mudanças no imposto de renda. Avisou que falava só em nome próprio. O texto, publicado no suplemento de março de 1918 da American Economic Review, é ao mesmo tempo uma defesa do princípio e um inventário de defeitos da lei."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Lucro extraordinário ou lucro de guerra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O que decidiu a questão, diz Adams, foi saber que algumas indústrias, como a de automóveis, estavam excepcionalmente prósperas antes da guerra, e outras, como a têxtil e a madeireira, deprimidas. Medir o excesso pela diferença entre o lucro da guerra e o de 1911–13 isentaria quem já lucrava muito e puniria quem saía de uma crise. O Congresso preferiu tributar a renda acima do normal, medida como percentual do capital investido."
+            },
+            {
+              "tipo": "p",
+              "texto": "A diferença tem consequência para a duração do imposto. Um imposto sobre lucros de guerra é temporário por natureza: sua base fica mais ilógica a cada ano e tende a desaparecer com a guerra. Um imposto sobre a renda acima de um retorno normal pode durar indefinidamente, porque representa a parte do Estado no êxito supernormal de cada empresa e mede, de forma aproximada, o valor das oportunidades e do ambiente que a comunidade oferece."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O imposto fere a capacidade de pagar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A crítica mais séria, diz Adams, é a de que o imposto viola o princípio da capacidade de pagar. Duas empresas com o mesmo capital e o mesmo lucro, uma de pequenos acionistas, outra de milionários, pagariam o mesmo, com efeitos muito diferentes sobre os donos. Adams responde que essa leitura olha o contribuinte só como consumidor. Há variantes válidas do princípio que olham o contribuinte como produtor e reconhecem a empresa como unidade."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O Estado e a comunidade são sócios silenciosos de toda empresa.”",
+              "original": "“the state and community stand as silent partners in every business enterprise”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O imposto inglês, lembra, é tratado pelos tribunais da Inglaterra como a parte do Estado nos lucros da empresa privada. Como na contribuição de melhoria, a capacidade de pagar dos acionistas não precisa ser considerada. Adams vê ainda usos futuros: depois da guerra, o imposto poderia servir aos adversários do protecionismo como alternativa às tarifas e, se o protecionismo vencer, como meio de recuperar parte dos lucros que a proteção cria. Combinado à regulação de preços, que tende a dar retornos excessivos aos produtores mais bem situados, tornaria os resultados mais equitativos. Sua maior fraqueza seria render pouco em anos normais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem escapa do imposto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O imposto alcança lucros de empresas e salários, mas não a renda do investidor que vive de seus títulos. Adams não vê razão para tratá-lo melhor que quem ganha com o próprio trabalho ou arrisca tempo e capital no negócio. Propõe duas correções: ajustar a dedução de 7% a 9% sobre o capital aos diferentes retornos “justos” de cada setor e criar no imposto de renda uma alíquota adicional sobre dividendos, juros, royalties e outras rendas asseguradas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Sobre os salários, a cláusula de 8% foi incluída para não isentar o advogado e o presidente de banco enquanto o agricultor pagava. Adams diz não conhecer resposta satisfatória à pergunta que a motivou, mas prefere uma alíquota graduada sobre a renda pessoal acima de uma isenção liberal. A desigualdade maior está entre a sociedade anônima e a sociedade de pessoas: o sócio paga sobretaxa sobre toda a sua parte nos lucros, retidos ou não, e a empresa paga só o imposto normal sobre o que retém. A lei tentou compensar com alíquota normal de 6% para empresas, ante 4% para pessoas, deduções menores e um adicional de 10% sobre lucros não distribuídos, cheio de exceções."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 5 bilhões",
+              "texto": "Estimativa citada por Adams para os lucros não distribuídos das empresas americanas em 1917, quase todos reinvestidos na produção. Aplicar a eles as sobretaxas do imposto de renda seria grave; isentá-los só para as empresas, injusto com os demais. Sua proposta: tributar os lucros retidos às alíquotas que se aplicariam se fossem distribuídos aos acionistas, com alguma redução das sobretaxas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é capital investido?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A definição de capital investido é a base de toda a lei. A crítica usual é que ela parte do investimento original, que nada significa numa empresa madura. Adams acha a crítica exagerada: a lei reconhece reservas integralizadas e lucros acumulados, e em não menos de 70% dos casos, calcula, o valor contábil do capital representa seu valor justo. O problema está nas empresas cujo capital real superou muito o legal, por valorização ou por intangíveis criados com publicidade, que só são reconhecidos se houve reorganização."
+            },
+            {
+              "tipo": "p",
+              "texto": "O remédio seria um órgão de equalização, inspirado no conselho de árbitros da lei inglesa, a válvula de segurança do imposto britânico. Nos Estados Unidos, a seção 210 da lei poderia cumprir esse papel se aperfeiçoada: o Tesouro calcularia o imposto de um caso duvidoso pela relação média entre imposto e renda de empresas representativas do mesmo ramo. Sobre a escolha entre capital e lucros de antes da guerra, Adams conclui que o capital, no caso médio, é a expressão resumida dos lucros normais, lucros normais capitalizados, e que o difícil é começar certo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou no imposto de renda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei de guerra trouxe melhorias que a associação vinha recomendando: isenções menores, deduções por filhos e dependentes, informação na fonte em lugar de cobrança na fonte, fim da dedução do imposto pago no ano anterior. Outras mudanças preocupam Adams. A pior é a regra que tributa dividendos às alíquotas do ano em que os lucros foram acumulados, o que fará muitos dividendos de 1918 pagarem as alíquotas baixas de 1916 e criará problemas administrativos insolúveis. Também falta dedução para obsolescência e amortização de instalações de guerra, o que atrasava a construção de fábricas pedidas pelo governo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Impostos ou empréstimos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os impostos, diz Adams, têm três propósitos: arrecadar, repartir com equidade o custo do governo e reprimir produção e consumo. Com alíquotas altas, os três entram em conflito. Como instrumento de repressão, o imposto é ruim; quando se quer conter o desperdício ou as indústrias não essenciais, controles diretos, como racionamento, prioridades, restrição de crédito e requisição de trabalho e matérias-primas, funcionam melhor."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Pode-se matar um homem com um machado cego.”",
+              "original": "“you can kill a man with a dull axe”"
+            },
+            {
+              "tipo": "caixa",
+              "valor": "74%",
+              "texto": "Parcela da receita da lei de guerra, estimada em US$ 2,5 bilhões, que viria de impostos sobre a riqueza e a capacidade contributiva, segundo cálculo aproximado de Adams; 15% de impostos sobre luxos ou bens não essenciais e só 11% de impostos sobre processos e produção essenciais. A alíquota máxima do imposto de renda chegara a 67%, com cobrança só em 15 de junho de 1918."
+            },
+            {
+              "tipo": "p",
+              "texto": "Adams vê na lei uma vitória da boa economia e pede cuidado para não desfazê-la com impostos tão extremos que provoquem reação, como ocorreu com o imposto de renda da Guerra Civil, revogado e esquecido por quase quarenta anos. A preferência dos economistas por impostos, diz, vinha daquela guerra, quando o crédito público era frágil e o sistema tributário pesava sobre os pobres; em 1917, o crédito estava ao par, o sistema bancário era moderno e o peso recaía sobre os ricos. Admite que empréstimos produzem mais inflação que impostos, mas conclui que as grandes guerras continuarão a ser financiadas sobretudo por empréstimos enquanto as leis tributárias forem imperfeitas, e que o remédio direto contra a inflação é a boa prática bancária."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto se destaca por tratar o imposto sobre lucros extraordinários como problema de medida. Tudo depende de definir um retorno normal e um capital investido, e Adams mostra, caso a caso, como cada escolha da lei cria vantagens para um tipo de empresa ou de contribuinte: o investidor sobre o trabalhador, a sociedade anônima sobre a de pessoas, a empresa reorganizada sobre a conservadora.",
+                "A segunda lição é a separação entre os propósitos do imposto. Ao distinguir arrecadação, equidade e repressão, e ao dizer que a terceira é mais bem servida por instrumentos diretos, Adams oferece um critério que continua útil: antes de escolher um tributo, perguntar qual dos três objetivos se quer atingir e se o imposto é de fato o instrumento adequado para ele."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Renda supernormal",
+              "lucro que excede o retorno considerado normal sobre o capital investido."
+            ],
+            [
+              "Imposto sobre lucros de guerra",
+              "imposto sobre a diferença entre os lucros do período de guerra e os de um período-base anterior."
+            ],
+            [
+              "Capital investido",
+              "base legal sobre a qual se calcula o retorno normal: capital integralizado, reservas e lucros acumulados."
+            ],
+            [
+              "Intangíveis",
+              "ativos sem existência física, como marcas, clientela e reputação."
+            ],
+            [
+              "Informação na fonte",
+              "obrigação de quem paga rendimentos de informar o fisco, em vez de reter o imposto."
+            ],
+            [
+              "Amortização de instalações de guerra",
+              "dedução do custo de fábricas construídas para a guerra e sem uso previsto depois dela."
+            ]
+          ],
+          "hoje": "Impostos sobre lucros extraordinários voltaram ao debate em crises recentes de preços de energia e de commodities, com a mesma dificuldade de definir o lucro normal e o capital de referência. A diferença de tratamento entre lucros retidos e distribuídos, e entre empresas e pessoas físicas, segue no centro das reformas do imposto de renda, inclusive no Brasil. E a distinção de Adams entre arrecadar, distribuir e reprimir orienta a discussão sobre impostos seletivos e regulatórios."
+        }
+      ]
     }
   ],
   "proximas": [
