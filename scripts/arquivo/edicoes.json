@@ -78511,6 +78511,925 @@
           "hoje": "O problema que Taussig descreve, a diferença entre arrecadar uma soma e transferi-la ao exterior, voltou ao centro do debate econômico nos anos seguintes e continua presente nas discussões sobre dívidas externas e programas de ajuste. Um país devedor só paga em termos líquidos se exportar mais do que importa, e isso depende de os credores aceitarem essas exportações. A tensão entre exigir pagamentos e restringir o comércio do devedor reaparece sempre que se discutem renegociações de dívidas soberanas e desequilíbrios de balanço de pagamentos."
         }
       ]
+    },
+    {
+      "slug": "1920-a-marinha-mercante-e-as-reparacoes",
+      "numero": 164,
+      "titulo": "A frota que a guerra deu aos Estados Unidos e a conta de Keynes",
+      "titulo_original": "The American Economic Review, vol. X, no. 2, June 1920",
+      "autores": "Abraham Berglund, Alzada Comstock, Earl A. Saliers, Carl C. Plehn, Clive Day e Simon Litman",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 10, nº 2",
+      "data": "junho de 1920",
+      "chamada": "Berglund mede a redistribuição da marinha mercante, Day resenha o livro de Keynes sobre a paz, Plehn analisa o imposto sobre lucros excessivos e Litman separa preço e volume no comércio exterior.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A edição de 1919–1920 do Lloyd's Register of Shipping foi a primeira, desde o início da guerra, publicada inteiramente sem censura. Abraham Berglund, de Washington, abre a American Economic Review de junho de 1920 com o que ela revela. Em junho de 1919, a marinha mercante mundial somava 29.255 navios de 100 toneladas brutas ou mais, com 50,9 milhões de toneladas brutas. O total quase não mudara em cinco anos. A distribuição, sim: a frota oceânica a vapor dos Estados Unidos crescera 382%, e a do Reino Unido encolhera 13,5%."
+        },
+        {
+          "tipo": "p",
+          "texto": "É uma edição de balanço do pós-guerra, e quase todos os artigos medem o que a guerra deixou. Além de Berglund, Alzada Comstock, do Mount Holyoke College, compara a arrecadação dos impostos estaduais sobre a renda; Earl A. Saliers, da Yale University, discute o lugar das reservas de depreciação no valor justo das concessionárias; Carl C. Plehn examina o imposto sobre lucros de guerra e lucros excessivos; Clive Day, também de Yale, resenha The Economic Consequences of the Peace, de John Maynard Keynes; e Simon Litman, da University of Illinois, separa preço e quantidade na década do comércio exterior americano. Seguem-se resenhas, listas de livros novos, documentos, periódicos e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A guerra redistribuiu a marinha mercante do mundo?",
+          "artigo": "1804864",
+          "credito": "Abraham Berglund (Washington, D. C.) · “The War and the World's Mercantile Marine” · pp. 227–258"
+        },
+        {
+          "tipo": "p",
+          "texto": "Abraham Berglund compara as tabelas do Lloyd's Register de junho de 1914 e de junho de 1919. A tonelagem mundial a vapor cresceu cerca de 2,5 milhões de toneladas brutas, ou 5,5% em cinco anos, enquanto a de veleiros caiu mais de 1 milhão. A mudança estava na distribuição. O Reino Unido perdeu 2.547.000 toneladas brutas a vapor; a Alemanha, 1.888.000, ou 36,8%; o Japão passou do sexto para o quarto lugar. A frota oceânica dos Estados Unidos ganhou 7.746.000 toneladas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "41,6% → 34,1%",
+          "texto": "Participação do Reino Unido na tonelagem mundial a vapor em junho de 1914 e em junho de 1919, segundo Berglund. A dos Estados Unidos subiu de 9,4% para 24,9%, e a parcela oceânica, de cerca de 4,5% para 20,4%. Juntos, os dois países tinham 62% da tonelagem bruta mundial em 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "Berglund cita uma estimativa do Board of Trade Journal sobre quanto cada frota teria crescido sem a guerra. Por ela, o mundo perdeu 7.473.000 toneladas brutas a vapor; as frotas estrangeiras perderam cerca de 14,2 milhões, compensadas em parte pelo ganho líquido americano de 6.729.000. A conta não inclui a deterioração. Navios que seriam desmanchados continuaram no mar, navios especializados foram desviados de suas rotas, e o serviço britânico para a Australásia caiu de 24 ou 25 vapores por mês em 1914 para 5 em outubro de 1918."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte pergunta se a posição americana é duradoura. Antes da guerra, só 1.076.152 toneladas brutas americanas operavam no comércio exterior, e em 1914 navios americanos levavam 11,4% das importações e 8,3% das exportações por mar. O autor examina o custo de construção, o combustível, a mão de obra e o equilíbrio entre as cargas de ida e de volta. Em 1919, o aço naval custava menos nos Estados Unidos que na Inglaterra; o óleo combustível reduzia tripulações e a dependência das carvoarias britânicas; e os salários pesavam menos no custo total do que se supunha. A dificuldade estava na falta de experiência marítima de um país voltado havia duas gerações para atividades em terra. Berglund conclui que a nova posição está de acordo com as tendências econômicas e pede uma política protetora e reguladora, seja a frota de propriedade pública ou privada."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "berglund-marinha-mercante-mundial",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto rende um imposto estadual sobre a renda?",
+          "artigo": "1804865",
+          "credito": "Alzada Comstock (Mount Holyoke College) · “Fiscal Aspects of State Income Taxes” · pp. 259–271"
+        },
+        {
+          "tipo": "p",
+          "texto": "Alzada Comstock usa as estatísticas federais de renda de 1917 para medir a capacidade tributária de cada estado. Nova York, Pensilvânia, Illinois, Massachusetts e Ohio pagaram exatamente dois terços do imposto federal sobre a renda das pessoas físicas e 63% do imposto sobre as empresas. Dos doze estados com lei de imposto de renda, só Nova York e Massachusetts estão entre os ricos; os outros dez têm desenvolvimento industrial moderado ou pequeno. A autora compara o que cada estado arrecada com o que a União arrecada nele, o peso do tributo na receita estadual e o custo de cobrança."
+        },
+        {
+          "tipo": "p",
+          "texto": "Wisconsin, pioneiro em 1911, arrecadou US$ 1.631.413 em 1912 e US$ 6.951.483 em 1918, mais de três quartos sobre lucros de empresas. Entre 1912 e 1917, a arrecadação do imposto sobre a propriedade cresceu 47%, e a do imposto de renda, 172%. A comissão tributária do estado chamou os anos de 1917 e 1918 de anormais, mas julgou o resultado satisfatório."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "um terço",
+          "texto": "Quanto Massachusetts arrecadou com seu imposto sobre a renda das pessoas físicas, comparado aos US$ 43,7 milhões do imposto federal no estado em 1917. Wisconsin chegou a cerca de um quinto; Mississippi, a cerca de 1,5%. Massachusetts arrecadou US$ 14.077.801 em 1918, com custo de administração de 1,44% do lançamento."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os fracassos têm causa comum. Mississippi cobra 0,5% sobre rendas acima de US$ 2.500 e arrecadou US$ 31.123 no ano encerrado em setembro de 1918, enquanto a União tirava mais de US$ 2 milhões das pessoas físicas do estado. A primeira lei de Oklahoma rendeu US$ 2.816 em 1909; só a revisão de 1915 elevou a receita para mais de US$ 400 mil em 1916. A Carolina do Sul revogou a sua em 1918, depois de deixá-la nas mãos dos avaliadores locais. O comitê legislativo do Mississippi resumiu o diagnóstico em 1918."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Seu sucesso ou fracasso é exclusivamente uma questão de administração.”",
+          "original": "“Its success or failure is solely a matter of administration.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre as leis de 1919, a de Nova York, estado que pagou 37% do imposto federal sobre pessoas físicas, deve render US$ 45 milhões com alíquotas de 1% a 3%; a de Dakota do Norte chega a 10% sobre rendas do trabalho acima de US$ 40 mil. A conclusão de Comstock é que o êxito é possível, mas depende de ajustar as alíquotas aos tipos de renda de cada estado e de uma administração especializada e centralizada. O custo de cobrança conhecido vai de pouco mais de 1% do lançamento em Wisconsin a quase 4% na Virgínia."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A reserva de depreciação faz parte do valor justo?",
+          "artigo": "1804866",
+          "credito": "Earl A. Saliers (Yale University) · “Cost, Fair Value, and Depreciation Reserves” · pp. 272–282"
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde Smyth v. Ames, de 1898, a Suprema Corte manda fixar as tarifas dos serviços públicos com base no valor justo da propriedade, e não no investimento efetivo. Earl A. Saliers nota que a escolha separou a regulação dos registros contábeis, que partem do custo. A maior parte das concessionárias não tem reservas de depreciação, sob o argumento de que reparos equivalem a depreciação, ou as tem insuficientes; alguns administradores temem que a reserva seja usada para reduzir o valor justo numa avaliação. Para o autor, reparos não equivalem a depreciação, e a reserva é uma das melhores proteções contra a insolvência."
+        },
+        {
+          "tipo": "p",
+          "texto": "A contabilidade ignora as flutuações de preço. Uma máquina instalada em 1910 por US$ 1.000, com vida útil de dez anos, é baixada por US$ 1.000 menos o valor residual, ainda que substituí-la em 1920 custe US$ 1.500; os US$ 500 a mais são investimento novo. Com preços em alta, o investidor perde; com preços em queda, ganha. Como esse risco é de todo capital, Saliers sustenta que o valor justo não deve compensar a perda nem tomar o ganho."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,63 milhão",
+          "texto": "Depreciação normal no exemplo hipotético de Saliers: uma concessionária com US$ 5 milhões de ativos, dos quais US$ 3 milhões depreciáveis em quatro classes, lança US$ 213 mil por ano à reserva. Por volta do trigésimo ano, as baixas igualam as provisões, e o custo da propriedade, com a reserva reinvestida, sobe para US$ 6,63 milhões, 32,6% acima do investimento original."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão segue do exemplo. A reserva é uma conta de avaliação que compensa a depreciação acumulada não deduzida do ativo; não é lucro acumulado nem propriedade do público, como alguns afirmam. A empresa deve ter retorno sobre o custo da planta original, que continua a servir com a mesma eficiência, mas não sobre a reserva, porque isso equivaleria a capitalizá-la. Se a depreciação acumulada for deduzida do custo, então as ampliações pagas com a reserva devem entrar no valor justo."
+        },
+        {
+          "tipo": "p",
+          "texto": "Saliers trata ainda de três casos. Se a receita não bastou para formar a reserva, deduzir a depreciação esgota o investimento, e a perda só não deve ser capitalizada se vier de má gestão. Se a depreciação foi ganha mas distribuída aos acionistas, deve ser deduzida, ou a empresa capitalizaria o que já devolveu. Se a reserva serviu para amortizar capital, também deve ser deduzida."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O imposto sobre lucros excessivos tributa o lucro ou a inflação?",
+          "artigo": "1804867",
+          "credito": "Carl C. Plehn (Columbia University) · “War Profits and Excess Profits Taxes” · pp. 283–298"
+        },
+        {
+          "tipo": "p",
+          "texto": "Carl C. Plehn trata o imposto sobre lucros excessivos como um tributo novo: pela primeira vez, uma lei separa como base tributável um lucro tido por anormal, acima de um lucro normal presumido. As analogias com o imposto sobre heranças, a contribuição de melhoria ou o imposto sobre a valorização da terra vão pouco longe. O tributo nasceu em 1915, na Dinamarca e na Suécia, sobre os comerciantes que abasteciam a Alemanha, e em março de 1917 J. C. Stamp já contava treze países que o adotavam. Como imposto de paz, diz Plehn, é difícil de defender; como imposto de guerra, tem méritos de conveniência: arrecada e recolhe parte dos ganhos da inflação."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor descreve as formas finais. Na Grã-Bretanha, em 1918, a alíquota era de 80% sobre o excesso em relação a um padrão de lucros de antes da guerra, com retorno legal de 6% para companhias. Nos Estados Unidos, a lei de 1918 cobrava das empresas 30% sobre o lucro acima de um crédito de 8% do capital mais US$ 3.000, até 20% do capital, e 65% acima disso, com uma terceira faixa de lucros de guerra a 80%. No exemplo numérico de Plehn, uma empresa com capital de US$ 100 mil e lucro de US$ 40 mil paga US$ 17.600."
+        },
+        {
+          "tipo": "p",
+          "texto": "A dificuldade central é o capital investido. Seu valor depende dos lucros, mas a lei precisa fixá-lo independentemente deles para calcular o lucro normal."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É preciso fixar a sombra na ausência do corpo que a projeta.”",
+          "original": "“one has to fix the shadow in the absence of the body which casts the shadow”"
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 8.260",
+          "texto": "Imposto de 1918 de uma mercearia hipotética que, sem mudar nada além dos preços, dobrou o estoque para US$ 100 mil e o lucro para US$ 30 mil. Depois do imposto, os acionistas recebem US$ 21.740, com poder de compra de US$ 10.870, contra US$ 15 mil antes da guerra. Com capital emprestado, o imposto subiria para US$ 10.160."
+        },
+        {
+          "tipo": "p",
+          "texto": "Plehn conclui que o tributo incide sobre uma excessividade presumida, e não só sobre a especulação do período inflacionário. Parte dele é repassada aos preços, e a mortalidade de empresas foi notavelmente baixa enquanto vigorou. O anúncio, na lei de 1918, de alíquotas menores para os anos seguintes levou madeireiras, petroleiras e donos de estoques de couro a adiar a produção, quando a reconstrução pedia o contrário. O artigo termina com o relatório de dezembro de 1919 do secretário do Tesouro, Carter Glass, contra o imposto em tempos de paz."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Alemanha pode pagar o que o tratado lhe cobra?",
+          "artigo": "1804868",
+          "credito": "Clive Day (Yale University) · “Keynes' Economic Consequences of the Peace” · pp. 299–312"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clive Day resenha The Economic Consequences of the Peace, de John Maynard Keynes, que fora o principal representante do Tesouro britânico na Conferência de Paz e renunciara aos cargos quando perdeu a esperança de mudar os termos. Publicado nos Estados Unidos na última semana de janeiro, o livro tinha, segundo uma circular do editor de 8 de março, esgotado a primeira tiragem de 20 mil exemplares. Day separa duas partes. Os três primeiros capítulos, com os retratos de Clemenceau, Lloyd George e Wilson, são para ele teatrais, e o livro, um panfleto político. O corpo, sobre o tratado e as reparações, é sóbrio e digno de confiança."
+        },
+        {
+          "tipo": "p",
+          "texto": "Day aceita os dois pontos principais de Keynes: os termos podem representar uma quebra da palavra empenhada antes do armistício, e as reparações podem estar muito além da capacidade alemã. O tratado não fixou uma soma; incluiu, no Anexo I, pensões e auxílios de separação. Keynes estima em US$ 10,6 bilhões os danos em sentido estrito e em US$ 25 bilhões as pensões e auxílios."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 40 bilhões",
+          "texto": "Soma bruta que, pelas estimativas de Keynes, poderia ser cobrada da Alemanha, numa faixa de US$ 32 bilhões a US$ 44 bilhões. Keynes julga que o país pode pagar no máximo US$ 500 milhões por ano, valor presente de cerca de US$ 8,5 bilhões em trinta anos; Taussig e Young chegam a perto de US$ 1 bilhão por ano como teto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Day critica detalhes do cálculo: Keynes dá a Alta Silésia por perdida e não credita a redução das importações que acompanharia a cessão de território. Mas lembra que a capacidade de pagamento dependerá mais de fatores sociais e políticos que de estatísticas de antes da guerra. Sobre os remédios, apoia a fixação de uma soma definida, que os representantes americanos defenderam na conferência; duvida que os americanos aceitem, nas condições presentes, cancelar as dívidas entre aliados, o que custaria US$ 10 bilhões aos Estados Unidos; e acha a união de livre comércio sob a Liga das Nações economicamente benéfica, mas contrária ao desejo dos novos estados de ter política própria."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte final contesta a história da conferência. Keynes ignora os acordos territoriais, trabalho construtivo de primeira grandeza, e atribui o tratado a três chefes de governo, quando as comissões fixavam os limites de cada acordo. Day, que trabalhou na área territorial, conclui que nenhum homem poderia ter conciliado os interesses em conflito."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "day-consequencias-economicas-da-paz",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto do salto das exportações era só preço?",
+          "artigo": "1804869",
+          "credito": "Simon Litman (University of Illinois) · “The Past Decade of the Foreign Commerce of the United States” · pp. 313–331"
+        },
+        {
+          "tipo": "p",
+          "texto": "Simon Litman parte das cifras oficiais. As exportações americanas passaram de US$ 1,74 bilhão no ano fiscal de 1910 para US$ 7,23 bilhões em 1919. De 1910 a 1914, subiram 33%, e as importações, 18%; de 1914 a 1919, 205,6% e 63,4%. Para o autor, as estatísticas em valor já eram enganosas antes da guerra e passaram a sê-lo inteiramente depois dela: o índice de preços por atacado do Bureau of Labor americano subiu de 100 em 1913 para 203 no primeiro semestre de 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "Litman reúne estimativas de volume. J. J. MacFarlane atribui 70% do aumento do comércio entre 1914 e 1919 aos preços; o índice de quantidade das exportações calculado por Berridge para o Harvard University Committee on Economic Research dá 140 em 1919, com base 100 em 1911–1914. O autor faz o próprio cálculo, multiplicando as quantidades de cada ano pelo preço unitário de 1910. No algodão em rama, a alta de preços responde por 56,3% do valor de 1919; em treze manufaturas selecionadas, o aumento seria de 46%, e não de 228%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 3,1 bilhões",
+          "texto": "Valor das exportações de 1919 a preços de 1910, pela estimativa de Litman, contra os US$ 7,23 bilhões registrados. Ele parte de 25 mercadorias que somavam cerca de 55% das exportações em 1910 e indicam alta de 132% nos preços de exportação. Nas importações, 28 mercadorias indicam inflação de preços de 21%."
+        },
+        {
+          "tipo": "p",
+          "texto": "A queda das exportações de 1918, segundo O. P. Austin, foi em parte aparente: mercadorias embarcadas em navios sob controle do governo não entravam nos registros, e as compras dos aliados registradas naquele ano ficaram US$ 1,238 bilhão abaixo dos empréstimos americanos feitos para esse fim. Litman nota também o comércio direto pelo Pacífico e a tentativa britânica de recuperar o papel de intermediária: a costa do Pacífico recebeu 20,95% das importações em 1918 e 15,92% em 1919."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que o comércio da guerra foi um caso patológico, e não uma conquista normal de mercados. A produção de 1918 superou a de 1913 em só 13%, e a de 1919 em 8%, enquanto a moeda em circulação subiu 68% e os depósitos bancários 103%. O saldo exportador de US$ 13,96 bilhões em cinco anos, financiado por empréstimos públicos de longo prazo, e não por crédito mercantil, seria transitório; fora da Europa, os mercados ficariam com quem produzisse com mais eficiência."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas tratam de Introduction to Economics, de John Roscoe Turner, por Harvey A. Wooster; American Negro Slavery, de Ulrich B. Phillips, por Tipton R. Snavely; Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, de Clarence Henry Haring, por James Alexander Robertson; o relatório do comitê do Gabinete de Guerra britânico sobre as mulheres na indústria, por Edith Abbott; e os volumes de 1920 de Robert H. Montgomery sobre o procedimento do imposto de renda e do imposto sobre lucros excessivos, por Carl C. Plehn. Seguem-se as listas de livros novos, os documentos oficiais, os resumos de periódicos e as notas, que registram a adesão da American Economic Association ao American Council of Learned Societies."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a edição é sobre medir com uma régua que muda de tamanho. Litman mostra que as exportações de 1919 em dólares diziam mais sobre preços que sobre mercadorias embarcadas; Plehn mostra uma mercearia sem nenhuma mudança real pagando imposto sobre lucros excessivos porque a moeda passara a valer metade; Saliers aceita que a contabilidade a custo histórico fique atrás dos preços de reposição e argumenta que esse risco cabe ao investidor, e não à tarifa.",
+            "Day e Berglund levam a mesma pergunta a escalas maiores. Quanto a Alemanha pode pagar depende de premissas sobre a produção futura que as estatísticas de antes da guerra não respondem; se a frota americana é duradoura depende de custos relativos de construção e operação, e não da tonelagem acumulada às pressas. Nos dois casos, o trabalho do economista é separar o que mudou de fato do que mudou só na unidade de medida ou por força da emergência."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tonelagem bruta",
+          "medida do espaço interno de um navio, em unidades de 100 pés cúbicos."
+        ],
+        [
+          "Tonelagem de porte bruto (dead-weight)",
+          "peso, em toneladas de 2.240 libras, de carga, provisões e carvão que um navio pode levar."
+        ],
+        [
+          "Tonelagem registrada",
+          "nos Estados Unidos, a frota matriculada para o comércio exterior, distinta da destinada ao comércio interno."
+        ],
+        [
+          "Tráfego equilibrado",
+          "volume de carga semelhante nas viagens de ida e de volta de uma rota."
+        ],
+        [
+          "Valor justo (fair value)",
+          "base da propriedade sobre a qual tribunais e comissões calculam o retorno permitido às concessionárias."
+        ],
+        [
+          "Reserva de depreciação",
+          "conta que acumula as parcelas do custo de ativos que se desgastam, lançadas como despesa ao longo da vida útil."
+        ],
+        [
+          "Depreciação normal",
+          "nível em que a reserva se estabiliza porque as baixas de ativos igualam as novas provisões."
+        ],
+        [
+          "Imposto sobre lucros excessivos",
+          "tributo sobre o lucro acima de um retorno considerado normal sobre o capital investido."
+        ],
+        [
+          "Capital investido",
+          "na lei americana, o montante aportado pelos acionistas, em dinheiro, bens ou lucros retidos."
+        ],
+        [
+          "Reparações",
+          "pagamentos exigidos da Alemanha pelo tratado de paz por danos e custos de guerra."
+        ],
+        [
+          "Valor presente",
+          "valor hoje de uma sequência de pagamentos futuros, descontados a uma taxa de juros."
+        ],
+        [
+          "Reexportação",
+          "venda ao exterior de mercadoria importada, sem transformação no país."
+        ]
+      ],
+      "hoje": "As questões da edição seguem atuais. A distinção entre crescimento nominal e real do comércio é rotina nas estatísticas, mas volta a ser esquecida em períodos de inflação alta. Impostos sobre lucros extraordinários retornam ao debate sempre que choques de preços concentram ganhos em alguns setores, com a mesma dúvida sobre como definir o lucro normal. A capacidade de pagamento de dívidas externas, a regulação de tarifas pelo custo ou pelo valor dos ativos e a política para a marinha mercante continuam entre os temas da política econômica.",
+      "itens": [
+        [
+          "The War and the World's Mercantile Marine",
+          "pp. 227–258",
+          "1804864"
+        ],
+        [
+          "Fiscal Aspects of State Income Taxes",
+          "pp. 259–271",
+          "1804865"
+        ],
+        [
+          "Cost, Fair Value, and Depreciation Reserves",
+          "pp. 272–282",
+          "1804866"
+        ],
+        [
+          "War Profits and Excess Profits Taxes",
+          "pp. 283–298",
+          "1804867"
+        ],
+        [
+          "Keynes' Economic Consequences of the Peace",
+          "pp. 299–312",
+          "1804868"
+        ],
+        [
+          "The Past Decade of the Foreign Commerce of the United States",
+          "pp. 313–331",
+          "1804869"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-06-01), pages 332-334",
+          "pp. 332–334",
+          "1804870"
+        ],
+        [
+          "New Books",
+          "pp. 334–336",
+          "1804871"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-06-01), pages 336-338",
+          "pp. 336–338",
+          "1804872"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-06-01), pages 338-341",
+          "pp. 338–341",
+          "1804873"
+        ],
+        [
+          "New Books",
+          "pp. 341–344",
+          "1804874"
+        ],
+        [
+          "New Books",
+          "pp. 344–347",
+          "1804875"
+        ],
+        [
+          "[untitled] The American Economic Review (1920-06-01), page 347",
+          "pp. 347",
+          "1804876"
+        ],
+        [
+          "New Books",
+          "pp. 347–350",
+          "1804877"
+        ],
+        [
+          "New Books",
+          "pp. 351–353",
+          "1804878"
+        ],
+        [
+          "New Books",
+          "pp. 353–357",
+          "1804879"
+        ],
+        [
+          "New Books",
+          "pp. 357–358",
+          "1804880"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-06-01), pages 358-362",
+          "pp. 358–362",
+          "1804881"
+        ],
+        [
+          "New Books",
+          "pp. 363–367",
+          "1804882"
+        ],
+        [
+          "New Books",
+          "pp. 367–372",
+          "1804883"
+        ],
+        [
+          "[untitled] The American Economic Review, (1920-06-01), pages 372-376",
+          "pp. 372–376",
+          "1804884"
+        ],
+        [
+          "New Books",
+          "pp. 376–379",
+          "1804885"
+        ],
+        [
+          "New Books",
+          "pp. 379",
+          "1804886"
+        ],
+        [
+          "New Books",
+          "pp. 379–382",
+          "1804887"
+        ],
+        [
+          "New Books",
+          "pp. 383",
+          "1804888"
+        ],
+        [
+          "New Books",
+          "pp. 384–387",
+          "1804889"
+        ],
+        [
+          "New Books",
+          "pp. 387–389",
+          "1804890"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 390–429",
+          "1804891"
+        ],
+        [
+          "Periodicals",
+          "pp. 430–458",
+          "1804892"
+        ],
+        [
+          "Notes",
+          "pp. 459–466",
+          "1804893"
+        ]
+      ],
+      "jstor_edicao": "i331314",
+      "artigos": [
+        {
+          "titulo": "The War and the World's Mercantile Marine",
+          "autores": "Abraham Berglund (Washington, D. C.)",
+          "paginas": "pp. 227–258",
+          "jstor": "1804864",
+          "resumo": "Berglund mede pelo Lloyd's Register a redistribuição da marinha mercante mundial entre 1914 e 1919 e discute se a nova frota americana é duradoura.",
+          "ensaio_slug": "berglund-marinha-mercante-mundial"
+        },
+        {
+          "titulo": "Fiscal Aspects of State Income Taxes",
+          "autores": "Alzada Comstock (Mount Holyoke College)",
+          "paginas": "pp. 259–271",
+          "jstor": "1804865",
+          "resumo": "Comstock compara a arrecadação dos impostos estaduais sobre a renda com a do imposto federal em cada estado e conclui que o êxito depende das alíquotas e da administração."
+        },
+        {
+          "titulo": "Cost, Fair Value, and Depreciation Reserves",
+          "autores": "Earl A. Saliers (Yale University)",
+          "paginas": "pp. 272–282",
+          "jstor": "1804866",
+          "resumo": "Saliers discute como as reservas de depreciação, baseadas no custo, devem entrar no valor justo usado para fixar as tarifas das concessionárias."
+        },
+        {
+          "titulo": "War Profits and Excess Profits Taxes",
+          "autores": "Carl C. Plehn (Columbia University)",
+          "paginas": "pp. 283–298",
+          "jstor": "1804867",
+          "resumo": "Plehn descreve os impostos britânico e americano sobre lucros de guerra e lucros excessivos e mostra como incidem sobre lucros inflados e desestimulam a produção."
+        },
+        {
+          "titulo": "Keynes' Economic Consequences of the Peace",
+          "autores": "Clive Day (Yale University)",
+          "paginas": "pp. 299–312",
+          "jstor": "1804868",
+          "resumo": "Day aceita as contas de Keynes sobre as reparações, discute seus remédios e contesta sua versão da Conferência de Paz.",
+          "ensaio_slug": "day-consequencias-economicas-da-paz"
+        },
+        {
+          "titulo": "The Past Decade of the Foreign Commerce of the United States",
+          "autores": "Simon Litman (University of Illinois)",
+          "paginas": "pp. 313–331",
+          "jstor": "1804869",
+          "resumo": "Litman separa preço e quantidade no comércio exterior americano de 1910 a 1919 e conclui que o saldo exportador da guerra era transitório."
+        },
+        {
+          "titulo": "John Roscoe Turner, Introduction to Economics",
+          "autores": "Harvey A. Wooster",
+          "paginas": "pp. 332–334",
+          "jstor": "1804870",
+          "resumo": "Resenha de Harvey A. Wooster."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 334–336",
+          "jstor": "1804871",
+          "resumo": "Lista de livros recentes de obras gerais, teoria e sua história, com notas breves."
+        },
+        {
+          "titulo": "Ulrich B. Phillips, American Negro Slavery",
+          "autores": "Tipton R. Snavely",
+          "paginas": "pp. 336–338",
+          "jstor": "1804872",
+          "resumo": "Resenha de Tipton R. Snavely."
+        },
+        {
+          "titulo": "Clarence Henry Haring, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs",
+          "autores": "James Alexander Robertson",
+          "paginas": "pp. 338–341",
+          "jstor": "1804873",
+          "resumo": "Resenha de James Alexander Robertson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 341–344",
+          "jstor": "1804874",
+          "resumo": "Lista de livros recentes de história econômica e geografia, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 344–347",
+          "jstor": "1804875",
+          "resumo": "Lista de livros recentes de agricultura, mineração, silvicultura e pesca, com notas breves."
+        },
+        {
+          "titulo": "Manufacturing Industries",
+          "autores": "",
+          "paginas": "pp. 347",
+          "jstor": "1804876",
+          "resumo": "Lista de livros recentes sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 347–350",
+          "jstor": "1804877",
+          "resumo": "Lista de livros recentes de transportes e comunicações, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 351–353",
+          "jstor": "1804878",
+          "resumo": "Lista de livros recentes de comércio e crises comerciais, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 353–357",
+          "jstor": "1804879",
+          "resumo": "Lista de livros recentes de contabilidade, métodos comerciais, investimentos e bolsas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 357–358",
+          "jstor": "1804880",
+          "resumo": "Lista de livros recentes sobre capital e organização capitalista, com notas breves."
+        },
+        {
+          "titulo": "Report of the War Cabinet Committee on Women in Industry",
+          "autores": "Edith Abbott",
+          "paginas": "pp. 358–362",
+          "jstor": "1804881",
+          "resumo": "Resenha de Edith Abbott."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 363–367",
+          "jstor": "1804882",
+          "resumo": "Lista de livros recentes sobre trabalho e organizações de trabalhadores, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 367–372",
+          "jstor": "1804883",
+          "resumo": "Lista de livros recentes sobre moeda, preços, crédito e bancos, com notas breves."
+        },
+        {
+          "titulo": "Robert H. Montgomery, Income Tax Procedure, 1920; Excess Profits Tax Procedure, 1920",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 372–376",
+          "jstor": "1804884",
+          "resumo": "Resenha de Carl C. Plehn."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 376–379",
+          "jstor": "1804885",
+          "resumo": "Lista de livros recentes de finanças públicas, tributação e tarifas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 379",
+          "jstor": "1804886",
+          "resumo": "Lista de livros recentes, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 379–382",
+          "jstor": "1804887",
+          "resumo": "Lista de livros recentes sobre população, migração e problemas sociais, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 383",
+          "jstor": "1804888",
+          "resumo": "Lista de livros recentes sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 384–387",
+          "jstor": "1804889",
+          "resumo": "Lista de livros recentes sobre socialismo e cooperativas, com notas breves."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 387–389",
+          "jstor": "1804890",
+          "resumo": "Lista de livros recentes de estatística e seus métodos, com notas breves."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 390–429",
+          "jstor": "1804891",
+          "resumo": "Resumos de documentos oficiais, a começar pelas publicações do Bureau of Foreign and Domestic Commerce sobre indústria e comércio."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "redação e colaboradores",
+          "paginas": "pp. 430–458",
+          "jstor": "1804892",
+          "resumo": "Resumos de artigos de periódicos americanos e estrangeiros, por área."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "redação",
+          "paginas": "pp. 459–466",
+          "jstor": "1804893",
+          "resumo": "Notas da associação e do meio acadêmico, a começar pela adesão ao American Council of Learned Societies."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "berglund-marinha-mercante-mundial",
+          "titulo": "Berglund, 1920: a frota que a guerra deu aos Estados Unidos",
+          "titulo_original": "The War and the World's Mercantile Marine",
+          "autores": "Abraham Berglund (Washington, D. C.)",
+          "paginas": "pp. 227–258",
+          "jstor": "1804864",
+          "chamada": "Abraham Berglund usa o primeiro Lloyd's Register sem censura para medir como a guerra redistribuiu a marinha mercante e pergunta se a nova frota americana tem bases econômicas para durar.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em agosto de 1919, o vapor Calonne, de Sunderland, com 4.019 toneladas e construído em 1899, foi vendido por US$ 1 milhão. Em 1915, o mesmo navio mudara de dono por US$ 343.750, preço então considerado alto. O caso está numa nota de rodapé de Abraham Berglund, de Washington, e ilustra um dos efeitos da guerra sobre a navegação: navios que, em tempos normais, iriam para o desmanche dobraram, triplicaram e até quadruplicaram de valor."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo abre a American Economic Review de junho de 1920. Berglund quer saber se as mudanças da guerra na marinha mercante mundial, sobretudo o crescimento da frota americana, foram uma transformação artificial e temporária, causada pela emergência, ou se seguem tendências econômicas anteriores e presentes. Para responder, descreve primeiro a situação da navegação e depois a examina à luz das condições industriais e comerciais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mostra o primeiro Lloyd's sem censura?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A fonte é o Lloyd's Register of Shipping de 1919–1920, a primeira edição, desde o início da guerra, publicada inteiramente sem censura. A anterior, de 1914–1915, saíra logo após o início das hostilidades, mas tratava da navegação de junho de 1914. O registro cobre praticamente todos os navios de alto-mar de 100 toneladas brutas ou mais, exceto os do mar Cáspio, os navios de madeira dos Grandes Lagos e os veleiros japoneses. Berglund explica que tonelagem bruta e líquida são medidas de espaço: a bruta, o espaço interno do casco em unidades de 100 pés cúbicos; a líquida, o mesmo espaço menos o ocupado por máquinas, caldeiras e tripulação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em junho de 1919, havia 29.255 navios, com 50.919.273 toneladas brutas. Em junho de 1914, eram 30.836 navios e 49.089.552 toneladas, somando a tonelagem bruta dos vapores e a líquida dos veleiros. Os veleiros eram cerca de um sexto do número e menos de um dezesseis avos da tonelagem. Em cinco anos, a frota a vapor ou a motor cresceu cerca de 2,5 milhões de toneladas brutas, e a de veleiros caiu mais de 1 milhão."
+            },
+            {
+              "tipo": "p",
+              "texto": "A redistribuição é o efeito mais significativo. O Reino Unido perdeu 2.547.000 toneladas brutas a vapor, 13,5%. A Alemanha perdeu 1.888.000, ou 36,8%, num retrocesso para uma das frotas que mais cresciam antes da guerra: de 1900 a 1914, sua tonelagem a vapor aumentara cerca de 2,8 milhões de toneladas, um crescimento de 120%. A Grécia perdeu 64,6%. O Japão, que em 1914 ocupava o sexto lugar, passou ao quarto, trocando de posição com a Noruega, ao aproveitar a demanda por navios no Pacífico e a retirada das frotas beligerantes do comércio com o Oriente."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "382,1%",
+              "texto": "Crescimento da tonelagem a vapor oceânica dos Estados Unidos entre junho de 1914 e junho de 1919, de 2.027.000 para 9.773.000 toneladas brutas, segundo a tabela de Berglund. A participação americana na tonelagem mundial a vapor subiu de 9,4% para 24,9%; a do Reino Unido caiu de 41,6% para 34,1%."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto a guerra custou à frota mundial?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para medir a perda, é preciso comparar o que houve com o que teria havido sem a guerra. Berglund reconhece a incerteza dessas contas, ainda mais porque, antes da guerra, algumas grandes companhias de navegação estavam sob administração judicial ou perto da falência. Mesmo assim, reproduz uma estimativa do Board of Trade Journal, de Londres, que supõe a continuação das taxas de crescimento de antes da guerra, com ajustes para cada país. O resultado é uma perda mundial líquida de 7.473.000 toneladas brutas a vapor. O Reino Unido teria hoje mais de 5 milhões de toneladas a menos do que teria sem a guerra; a Alemanha, 3.582.000; a Noruega, 1.025.000. Além dos Estados Unidos, só o Japão ganhou acima do crescimento normal, e apenas 20 mil toneladas."
+            },
+            {
+              "tipo": "p",
+              "texto": "A essa perda soma-se a deterioração. Antes da guerra, as substituições de navios perdidos ou desmanchados equivaliam a cerca de 1,5% da tonelagem por ano. Durante a guerra, navios velhos foram reparados às pressas e mantidos em serviço. Pelas contas do Almirantado britânico, as perdas da frota britânica por ação inimiga e riscos do mar somaram 9.031.828 toneladas brutas até outubro de 1918, mais de dois terços por submarinos; a construção nova no Reino Unido foi de 4.342.295 toneladas. Em 1916–1918, provavelmente menos de 100 mil toneladas foram vendidas ao exterior para dar lugar a navios mais modernos. Berglund julga inteiramente insuficiente a estimativa de 1 milhão de toneladas perdidas por deterioração."
+            },
+            {
+              "tipo": "p",
+              "texto": "Houve também efeitos que não aparecem na tonelagem. Navios frigoríficos para carne e frutas foram adaptados para outros usos, e as linhas europeias para a América do Sul, a África e o Oriente perderam serviços. O comércio britânico com a Índia caiu 50%; o serviço para a Australásia passou de 24 ou 25 vapores por mês em 1914 para 5 em outubro de 1918; companhias japonesas ocuparam o espaço, e uma delas criou um serviço de carga em volta do mundo. Em compensação, o tamanho médio dos navios cresceu: os lançados no Reino Unido em 1918 tinham em média 4.478 toneladas, 1.655 a mais que em 1913, e mais de 96% da tonelagem britânica a vapor era de aço."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como os Estados Unidos chegaram lá?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Antes da guerra, a frota americana era grande, mas operava sobretudo na cabotagem e nos Grandes Lagos. Em 1914, só 1.076.152 toneladas brutas estavam no comércio exterior, das quais 720.609 em vapores. No ano fiscal de 1914, navios americanos levaram 11,4% das importações e 8,3% das exportações por mar; pouco antes do embargo de 1807, mais de 90% do comércio exterior viajava sob bandeira americana. O declínio, para Berglund, veio da troca da vela pelo vapor e da madeira pelo ferro e pelo aço, num período em que carvão, ferro e aço eram mais caros nos Estados Unidos que na Inglaterra."
+            },
+            {
+              "tipo": "p",
+              "texto": "De 1914 a 1919, a tonelagem registrada para o comércio exterior chegou a 6.669.726 toneladas brutas, mais de seis vezes a de cinco anos antes. Os navios de alto-mar no Lloyd's passaram de 2.970.284 para 10.782.170 toneladas. Berglund atribui a rapidez à guerra combinada a uma política de governo que primeiro admitiu navios construídos no exterior, depois estimulou a construção e, por fim, dirigiu a operação de quase toda a frota oceânica e votou grandes somas para construir navios. Com o fim do programa de construção previsto para 31 de dezembro de 1920, a frota americana teria cerca de 18 milhões de toneladas brutas, e os dois países de língua inglesa controlariam cerca de dois terços da navegação mundial."
+            },
+            {
+              "tipo": "p",
+              "texto": "O quadro tem aspectos sombrios. Muitos navios feitos logo após a entrada na guerra foram mal construídos, porque a velocidade importava mais que o cuidado. Os vapores de madeira somavam quase 1,4 milhão de toneladas brutas na frota americana, contra menos de 80 mil na britânica. E faltavam navios grandes: os Estados Unidos tinham 90 navios de 8 mil toneladas brutas ou mais, contra 263 do Reino Unido."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A nova frota tem bases econômicas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Berglund sustenta que a política pode estimular ou atrapalhar uma marinha mercante, mas o crescimento fundamental depende dos recursos naturais e da técnica industrial. Os subsídios franceses não superaram a escassez de carvão e o preço alto do aço. A predominância britânica já se reduzia antes da guerra: a participação do Império Britânico nos lançamentos mundiais caiu de 81,6% em 1892–1894 para 61,9% em 1910–1914, e a do Reino Unido na tonelagem mundial registrada, de 46,2% em 1890 para 39,2% em 1914."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os materiais favorecem os Estados Unidos. Em 1913, as chapas navais custavam em Pittsburgh cerca de US$ 33,60 por tonelada longa, quase o mesmo que na Inglaterra. Em julho de 1919, a chapa naval custava US$ 92,46 na Inglaterra e US$ 68,13 no litoral leste americano. Os custos de construção eram altos em toda parte: o Shipping Board vendia navios a preços que iam de US$ 90 por tonelada de porte bruto, para os de madeira, a US$ 250, para os melhores de aço, próximos dos britânicos, e a principal companhia japonesa estimava de 500 a 600 ienes por tonelada para seus novos vapores."
+            },
+            {
+              "tipo": "p",
+              "texto": "Construir, porém, não é operar. Berglund examina três fatores. O combustível: o óleo, adotado em 486 vapores de aço americanos com 3.789.733 toneladas de porte bruto, dá raio de ação de pelo menos 10 mil milhas, poupa espaço e foguistas e reduz a dependência das carvoarias britânicas nas grandes rotas. A mão de obra: as leis sobre marinheiros são as mais exigentes do mundo, mas os salários são uma parcela menor do custo do que se supõe, e a Pacific Mail, cuja venda é atribuída à lei La Follette, não pagava dividendos desde 1900. O tráfego equilibrado: o carvão britânico, exportado como lastro, permite aos navios voltar com matérias-primas a frete lucrativo, enquanto o comércio americano é desigual em tonelagem, sobretudo com o Caribe."
+            },
+            {
+              "tipo": "p",
+              "texto": "Pesados os fatores, o autor conclui que as mudanças no combustível e no comércio favorecem a permanência da nova frota. Falta a experiência: o país não tem população marítima e se dedica há duas gerações a atividades em terra. Por isso, recomenda que uma política de governo proteja os resultados por algum tempo."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“até que se transponha o hiato entre a posição e a experiência”",
+              "original": "“until the hiatus between position and experience has been bridged”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A propriedade pública ou privada, acrescenta Berglund, não é a questão: o governo pode operar os navios, arrendá-los ou vendê-los. Em qualquer caso, a política deve ser protetora e reguladora, não porque proteja um crescimento artificial, mas porque a nova frota estaria de acordo com a nova situação mundial e só precisaria do tempo e do treinamento."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o mérito do artigo está em separar o estoque da vantagem. A tonelagem acumulada em cinco anos de emergência diz quanto existe; não diz se vale a pena operar. Berglund passa da contagem de navios para os custos relativos de aço, combustível, salários e frete de retorno, que são o que decide, num mercado aberto a todas as bandeiras, se uma frota se mantém. A estimativa contrafactual de perdas, que ele usa com ressalvas, e a distinção entre construção e operação vão na mesma direção.",
+                "O argumento final, de proteção temporária até que a experiência alcance a posição, é a forma clássica do argumento da indústria nascente aplicada a um setor que nasceu de uma só vez. O próprio artigo deixa as condições para avaliá-lo: o que deve ser medido é se os custos relativos de construção e operação permanecem favoráveis depois que a emergência passa."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Tonelagem bruta",
+              "medida do espaço interno de um navio, em unidades de 100 pés cúbicos."
+            ],
+            [
+              "Tonelagem líquida",
+              "a tonelagem bruta menos o espaço ocupado por máquinas, caldeiras e tripulação."
+            ],
+            [
+              "Tonelagem de porte bruto (dead-weight)",
+              "peso de carga, provisões e carvão que o navio pode levar."
+            ],
+            [
+              "Navio de linha e tramp",
+              "o primeiro tem rotas e saídas regulares; o segundo não tem rota nem calendário fixos."
+            ],
+            [
+              "Tráfego equilibrado",
+              "volume de carga semelhante nas viagens de ida e de volta de uma rota."
+            ],
+            [
+              "Raio de ação",
+              "distância que um navio percorre sem reabastecer combustível."
+            ]
+          ],
+          "hoje": "A pergunta de Berglund, se uma frota mercante criada por política pública se sustenta sem ela, continua no debate sobre reserva de cabotagem, subsídios à construção naval e bandeiras de conveniência. A distinção entre construir e operar navios, e a atenção aos custos relativos de combustível, mão de obra e frete de retorno, seguem úteis para avaliar qualquer política setorial. E o argumento da proteção temporária até que a experiência se acumule continua a exigir a mesma prova: que a proteção termine."
+        },
+        {
+          "slug": "day-consequencias-economicas-da-paz",
+          "titulo": "Clive Day lê Keynes: as contas das reparações e a conferência",
+          "titulo_original": "Keynes' Economic Consequences of the Peace",
+          "autores": "Clive Day (Yale University)",
+          "paginas": "pp. 299–312",
+          "jstor": "1804868",
+          "chamada": "Clive Day, que trabalhou na Conferência de Paz, aceita as contas de Keynes sobre as reparações, discute seus remédios e contesta a história da conferência contada no livro.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Uma circular de editor de 8 de março de 1920 informava que a primeira tiragem americana de The Economic Consequences of the Peace, de 20 mil exemplares, estava esgotada, e que outra grande edição, ao que parece de 30 mil, estava sendo distribuída. Nove traduções estariam em preparo. O livro de John Maynard Keynes fora discutido na Câmara dos Comuns e no Senado americano e provocara protestos não oficiais de autoridades francesas. Clive Day, da Yale University, resenha-o no número de junho de 1920 da American Economic Review."
+            },
+            {
+              "tipo": "p",
+              "texto": "Day começa pelo autor. Keynes, filho de John Neville Keynes, é fellow do King's College, em Cambridge, e um dos editores do Economic Journal. Dirigiu as relações financeiras britânicas com os aliados durante a guerra, acompanhou Lord Reading a Washington em 1917 como conselheiro financeiro e foi o principal representante do Tesouro britânico na Conferência de Paz, com assento no Conselho Econômico Supremo como suplente de Austen Chamberlain. Renunciou quando perdeu a esperança de emendar os termos, e o livro expõe suas objeções."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que Day chama o livro de panfleto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Day, a atenção que o livro recebe tem razões claras: trata da pergunta sobre o destino da Europa, contesta a solução oficial sob ameaça das consequências mais graves e é escrito com arte. Os termos do tratado e as reparações só aparecem depois que o leitor foi conquistado por aspectos menos abstratos e fortemente pessoais. Os três primeiros capítulos, escreve Day, são inteiramente teatrais, como um desenho de Gustave Doré, com exageros e sombras pesadas. A Paris da conferência aparece em todos os seus adereços."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Paris era um pesadelo, e todos ali estavam mórbidos.”",
+              "original": "“Paris was a nightmare, and everyone there was morbid.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conferência se resolve, no livro, num conflito de três personalidades: Clemenceau, decidido a obter para a França uma paz cartaginesa; Lloyd George, que percebe o que cada interlocutor pensa; e Wilson, que chega como rei-filósofo e se revela, para Keynes, sem o equipamento intelectual necessário para enfrentar os outros dois. Day cita esses retratos com prazer, mas diz que os cita porque caracterizam o livro. É obra de um economista sobre tema econômico, mas não é, nem pode ter sido concebida como, uma contribuição à literatura econômica."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“É um panfleto político.”",
+              "original": "“It is a political tract.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Day o compara aos escritos de Daniel Defoe e do British Merchant sobre a Paz de Utrecht, dois séculos antes: textos feitos para despertar o interesse público e forçar uma ação política. Por isso mesmo considera notável, e mérito do autor, que o corpo do livro, sobre o tratado e as reparações, seja sóbrio e digno de confiança. Keynes, diz, em geral distingue bem opinião e fato e apresenta os fatos a favor e contra sua tese."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto o tratado pode cobrar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Day considera que Keynes demonstra, além de dúvida razoável, dois pontos. O primeiro é que os termos podem representar uma quebra de palavra dos aliados em relação aos princípios anunciados por Wilson antes do armistício, que previam o pagamento dos danos causados à população civil e a suas propriedades, sem indenizações punitivas. O segundo é que as reparações podem ir muito além da capacidade alemã. O tratado não fixou uma soma; a Alemanha assinou, como se disse, um cheque em branco, que no Anexo I inclui as pensões e os auxílios de separação pagos pelos governos aliados."
+            },
+            {
+              "tipo": "p",
+              "texto": "Pela leitura estrita das condições anteriores ao armistício, Keynes estima os danos em US$ 10,6 bilhões: US$ 2,5 bilhões para a Bélgica, US$ 4 bilhões para a França, US$ 2,85 bilhões para a Grã-Bretanha e US$ 1,25 bilhão para os demais aliados. Day diz não ter meios de conferir as cifras, mas encontra garantia na avaliação de Taussig e Young, que trabalharam na comissão americana de paz. Young poria o número mais perto de US$ 20 bilhões; a diferença parece pequena diante do que vem a seguir."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 25 bilhões",
+              "texto": "Palpite de Keynes para as pensões e auxílios de separação: US$ 7 bilhões para o Império Britânico, US$ 12 bilhões para a França, US$ 2,5 bilhões para a Itália e US$ 3,5 bilhões para os demais, incluídos os Estados Unidos. Somada aos danos, a conta bruta chega a cerca de US$ 40 bilhões, numa faixa que Keynes situa entre US$ 32 bilhões e US$ 44 bilhões."
+            },
+            {
+              "tipo": "p",
+              "texto": "Day reproduz o cálculo de Keynes sobre uma cobrança rigorosa. Se a Alemanha pagar US$ 750 milhões por ano até 1936, os juros de 5% sobre US$ 15 bilhões, os US$ 25 bilhões com juros diferidos terão subido para US$ 50 bilhões, e a dívida total será de US$ 65 bilhões, contra US$ 40 bilhões. A partir de 1936, seriam precisos US$ 3,25 bilhões por ano só para os juros e US$ 3,9 bilhões para quitar o capital em trinta anos. Para Day, está-se num mundo de irrealidades, que a conferência deveria ter abandonado para perguntar quanto a Alemanha pode pagar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto a Alemanha pode pagar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Keynes conclui, pelo exame dos ativos alemães e do excedente produtivo disponível para o exterior, que o país pode pagar no máximo US$ 500 milhões por ano; trinta anos de pagamentos, com 5% de juros e 1% de amortização, valem cerca de US$ 8,5 bilhões hoje. Day acha o processo criticável em detalhes. Keynes supõe perdida a Alta Silésia, o que ainda não estava decidido, desconta toda a capacidade baseada no carvão silesiano e não credita a redução das importações que viria com a cessão do território. Sua visão é a de um pessimista."
+            },
+            {
+              "tipo": "p",
+              "texto": "Contra os US$ 500 milhões, Day põe as estimativas de Taussig e Young, perto de US$ 1 bilhão como máximo, e a de H. C. Emery, quatro bilhões de marcos-ouro. Mas lembra que a cifra americana é um teto, possível só em condições favoráveis, e que as estatísticas de produção de antes da guerra devem ser usadas com extrema cautela. O que a Alemanha de fato pagará dependerá de fatores sociais e políticos muito mais que de teorias econômicas ou de fatos econômicos antiquados."
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro remédio de Keynes é rever o tratado e fixar uma soma definida, dentro do que a Alemanha pode pagar. Day lembra que os representantes americanos defenderam esse plano desde o início. A proposta de Keynes parte de US$ 10 bilhões, incluídos os custos do exército de ocupação, desconta US$ 2,5 bilhões em créditos, como navios, cabos e material de guerra, e deixa um saldo de US$ 7,5 bilhões sem juros, em trinta prestações anuais de US$ 250 milhões. Day observa que o valor presente é muito menor que o nominal e nota que Keynes criticara a contraproposta alemã justamente por apresentar como grande uma soma modesta. Seu próprio palpite é que os aliados fixarão uma soma muito maior e receberão ainda menos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E as dívidas entre aliados e o livre comércio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo remédio é cancelar as dívidas de guerra entre os governos aliados. Pelas cifras de Keynes, os Estados Unidos perderiam US$ 10 bilhões e o Reino Unido US$ 4,5 bilhões; a França ganharia US$ 3,5 bilhões e a Itália US$ 4 bilhões. Day acha boa parte do argumento correta, mas pensa que os americanos, que adiantaram o dinheiro esperando em troca justiça, decência e ordem, não aceitariam nas condições presentes que o governo renunciasse aos créditos e ao que lhe resta de influência sobre os governos europeus, temendo financiar empreendimentos militaristas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os demais remédios, para Day, têm menos importância. Keynes exagera o efeito das novas fronteiras sobre o carvão e o ferro: o carvão silesiano era exportado à Áustria antes da guerra, apesar da fronteira. A proposta de uma união de livre comércio sob a Liga das Nações, obrigatória por dez anos para a Alemanha, a Polônia e os novos estados dos antigos impérios austro-húngaro e turco, é, para Day, extraordinária. Ele não vê nela perigo político e reconhece um benefício econômico quase sem mistura, mas lembra que os pequenos estados queriam a independência justamente para ter política própria; negar-lhes isso exigiria dar um exército à Liga."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que história da conferência o livro conta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Day volta aos capítulos teatrais porque são os mais divulgados e os que mais marcarão os leitores. Assusta-o ler numa revista sóbria que os retratos de Keynes serão estudados pelos historiadores no próximo século. Para ele, a análise é superficial em dois pontos. Keynes ignora o trabalho da conferência fora do campo que mais lhe interessa, sobretudo os acordos territoriais, obra construtiva de primeira grandeza e condição da paz, da desmobilização e da recuperação. E dá a impressão de que o tratado foi decidido por três chefes de governo, quando as comissões, algumas reunidas por meses, examinavam os fatos e fixavam os limites de cada acordo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Day fala da própria experiência na área territorial, onde acompanhava cada questão do Conselho dos Dez a uma comissão e ao Conselho dos Quatro. Compara o método de Keynes ao de Heródoto, a partir de um ensaio de Macaulay de 1828: Keynes não conta o que os personagens disseram, mas o que pensaram. Considera Clemenceau exaltado acima de seu papel real e nota que Tardieu, força do lado francês, nem é mencionado. Contesta o retrato de Wilson como lento e inadaptável, impressão que diz não ser partilhada por alguns conselheiros britânicos. A conclusão é que Wilson fez mais do que qualquer outro poderia, sem ser onipotente."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“nenhum homem na Terra [...] poderia conciliar os interesses em conflito e obter uma paz perfeita”",
+              "original": "“no man on earth ... could compose the conflicting interests and win a perfect peace”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Day encerra notando que o próprio Keynes, ao discutir os caminhos abertos a Wilson diante da recusa francesa e britânica, não encontra nenhum que prometesse resultado melhor."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a resenha vale por separar duas coisas que o livro mistura: a retórica e a contabilidade. Day aceita a contabilidade, discute suas premissas e recusa a retórica como história. A crítica mais útil, do ponto de vista econômico, é a da capacidade de pagamento. Keynes e seus críticos americanos divergem por um fator de dois, mas Day mostra que a divergência vem de premissas sobre a produção futura, e que essas premissas dependem de condições sociais e políticas que nenhuma série de antes da guerra mede.",
+                "O exercício dos juros compostos é a outra lição de método. Uma dívida cujo serviço supera o que o devedor pode pagar cresce sozinha, e o número nominal deixa de informar quanto será recebido. Day tira daí a mesma conclusão de Keynes, a de que é preciso fixar uma soma pagável, e discorda apenas sobre quanto e sobre a probabilidade de os credores aceitarem a conta."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Reparações",
+              "pagamentos exigidos da Alemanha pelo tratado de paz por danos e custos de guerra."
+            ],
+            [
+              "Anexo I",
+              "parte do tratado que define as categorias de danos cobráveis, incluindo pensões e auxílios de separação."
+            ],
+            [
+              "Auxílios de separação",
+              "pagamentos dos governos às famílias dos mobilizados durante a guerra."
+            ],
+            [
+              "Valor presente",
+              "valor hoje de uma sequência de pagamentos futuros, descontados a uma taxa de juros."
+            ],
+            [
+              "Capacidade de pagamento",
+              "excedente que um país pode transferir ao exterior sem comprometer sua produção."
+            ],
+            [
+              "Paz cartaginesa",
+              "acordo que busca enfraquecer de modo permanente o vencido."
+            ]
+          ],
+          "hoje": "A discussão entre Keynes e Day sobre quanto um devedor pode pagar continua no centro das negociações de dívida soberana. A ideia de que uma dívida cujo serviço supera a capacidade de pagamento cresce sozinha, e de que o valor nominal deixa de indicar o que será recebido, é corrente nas análises de sustentabilidade. E a dúvida de Day sobre perdoar créditos entre governos sem condições segue presente sempre que se discute alívio de dívida."
+        }
+      ]
     }
   ],
   "proximas": [
