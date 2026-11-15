@@ -90501,7 +90501,7 @@
           "economia entendida como ciência das trocas e dos preços."
         ]
       ],
-      "hoje": "As cooperativas agrícolas continuam a ser forma corrente de organizar compras, beneficiamento e venda de pequenos produtores, e a tensão descrita por Nourse entre o princípio democrático e o poder de mercado reaparece no direito da concorrência. A regulação de serviços públicos ainda discute a base de ativos, o custo histórico ou de reposição e uma taxa de retorno ligada ao custo de capital. E a ordem do currículo de economia segue em debate. Este é o último número da American Economic Review coberto pelo Arquivo, cuja coleção vai até 1922, em domínio público.",
+      "hoje": "As cooperativas agrícolas continuam a ser forma corrente de organizar compras, beneficiamento e venda de pequenos produtores, e a tensão descrita por Nourse entre o princípio democrático e o poder de mercado reaparece no direito da concorrência. A regulação de serviços públicos ainda discute a base de ativos, o custo histórico ou de reposição e uma taxa de retorno ligada ao custo de capital. E a ordem do currículo de economia segue em debate.",
       "itens": [
         [
           "The Economic Philosophy of Co-operation",
@@ -91203,6 +91203,1143 @@
             ]
           ],
           "hoje": "A economia seguiu, em boa parte, o caminho que Boucke descreve como tarefa: séries estatísticas, correlação e, depois, econometria e modelos dinâmicos. O problema que ele aponta no marginalismo, a dificuldade de observar preferências fora das escolhas e dos preços, também foi enfrentado de frente pela teoria, com formulações que dispensam a medida direta da utilidade, e continua em discussão na economia comportamental e na avaliação de bem-estar."
+        }
+      ]
+    },
+    {
+      "slug": "1923-sindicatos-de-empresa-e-a-tarifa-de-1922",
+      "numero": 180,
+      "titulo": "Seager, os sindicatos de empresa, a tarifa de 1922 e a Europa",
+      "titulo_original": "The American Economic Review, vol. XIII, no. 1, March 1923",
+      "autores": "Henry R. Seager, Abraham Berglund, Rufus S. Tucker, Benjamin M. Anderson, Jr. e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 13, nº 1",
+      "data": "março de 1923",
+      "chamada": "Seager compara sindicatos de empresa e de ofício; Berglund descreve a tarifa de 1922; Tucker contesta o argumento da pobreza dos estados; Anderson propõe um pacto para a Europa.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Entre agosto de 1919 e fevereiro de 1922, segundo o levantamento do National Industrial Conference Board citado por Henry R. Seager, o número de conselhos de fábrica nos Estados Unidos passou de 225 para 725. No mesmo período, a filiação à American Federation of Labor caiu mais de 800 mil membros, ou mais de 20%. É com esse contraste que abre o número de março de 1923 da American Economic Review, o primeiro do volume XIII: o discurso presidencial de Seager, da Columbia University, lido na reunião anual da associação em Chicago, em 27 de dezembro de 1922."
+        },
+        {
+          "tipo": "p",
+          "texto": "O restante do número trata de política pública vista pelas contas. Abraham Berglund, da University of Virginia, descreve a lei tarifária de 1922, que devolveu as alíquotas americanas ao nível da lei de 1909 e, em vários produtos, as levou mais alto. Rufus S. Tucker, da Harvard University, testa com estatísticas de renda, patrimônio tributável e gasto escolar o argumento financeiro a favor da ajuda federal à educação. E Benjamin M. Anderson Jr., do Chase National Bank, resume a intervenção que fez na reunião de Chicago sobre a situação financeira da Europa e os remédios possíveis. Com ele, H. G. Moulton e Henry Bruère formam a sessão sobre problemas financeiros externos, comentada por Irving Fisher; S. S. Garrett escreve sobre moeda e preços e E. A. Goldenweiser, sobre as importações de ouro."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Sindicato de empresa ou sindicato de ofício?",
+          "artigo": "1804044",
+          "credito": "Henry R. Seager (Columbia University) · “Company Unions vs. Trade Unions” · pp. 1–13"
+        },
+        {
+          "tipo": "p",
+          "texto": "Seager restringe a pergunta às indústrias de serviço público, aquelas cuja operação contínua é vital para o interesse público, como bondes e ferrovias, e compara as duas formas de organização do ponto de vista do público, dos empregados e dos empregadores. O pano de fundo é a legislação ferroviária: a lei Erdman, de 1898, apostou em mediação e arbitragem voluntária; a lei Newlands, de 1913, refinou esse mecanismo; a lei Adamson, de 1916, fixou por lei a jornada-padrão; e a Transportation Act, de 1920, criou o Railroad Labor Board, com sete critérios para salários justos e razoáveis. O Kansas foi além, com um tribunal industrial que proibia greves sob penas severas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, essa trajetória tende a se firmar, por duas razões. A greve nessas indústrias se volta contra quem a faz, porque a opinião pública condena de antemão quem interrompe o serviço. E o poder público, que já regula tarifas e qualidade, não pode exigir tarifas razoáveis sem exigir também custos razoáveis, inclusive os salários."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A arma da greve nessas indústrias começa a ser um bumerangue.”",
+          "original": "“the strike weapon in these industries is beginning to be a boomerang”"
+        },
+        {
+          "tipo": "p",
+          "texto": "No balanço, o sindicato de empresa leva vantagem em economia, eficiência e continuidade da operação: restrito aos empregados de uma só organização, conhece os problemas de produção e tende à cooperação. O sindicato de ofício leva vantagem em salários, jornada e condições de trabalho: seus dirigentes não dependem do empregador, conhecem as condições do setor no país inteiro e contam com o apoio dos demais membros. Seager acrescenta que o excesso de luta pode custar caro aos próprios trabalhadores, e cita os ofícios da construção em Nova York e Chicago."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 horas",
+          "texto": "Jornada que Seager inclui entre os padrões mínimos que uma lei deveria garantir caso tirasse dos empregados de serviço público o direito de greve, com pagamento extra das horas adicionais. Os demais: salário de subsistência razoável, contratação mensal ou anual em vez de diária e direito de filiação à organização de sua escolha."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quando a lei fixa padrões, cria tribunais e restringe a greve, as vantagens do sindicato de ofício ficam em boa parte neutralizadas. A escolha sobre qual forma prepara melhor o trabalhador e o cidadão, conclui o autor, depende do tipo de empregador: enquanto predominar o empregador explorador, movido só pelo lucro, a preferência deve ser pelo sindicato de luta; com o empregador cooperativo, cresce o campo do sindicato de empresa. A solidariedade dos assalariados, prevê, passará em parte do campo industrial para o político."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "seager-sindicatos-de-empresa-e-de-oficio",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Até onde subiu a tarifa de 1922?",
+          "artigo": "1804045",
+          "credito": "Abraham Berglund (University of Virginia) · “The Tariff Act of 1922” · pp. 14–33"
+        },
+        {
+          "tipo": "p",
+          "texto": "Berglund situa a lei, sancionada no fim de setembro de 1922 depois de cerca de vinte meses de preparo, numa história tarifária de três períodos: tarifas sobretudo de receita até 1816, proteção moderada até a Guerra Civil e proteção alta depois dela. A lei de 1913 marcara uma volta à moderação; a reação do pós-guerra, alimentada pelo medo da queda de preços e salários diante de mais importações, recolocou a de 1922 na linha das leis de 1890, 1897 e 1909. O Congresso tomou a lei de 1909 como base e, em muitos casos, repetiu suas alíquotas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Medir o nível médio é difícil, explica o autor. A média das tarifas efetivamente cobradas ignora as alíquotas proibitivas, que não geram importação, e, quando inclui a lista de isentos, mistura produtos como o café. Foi assim que o senador Watson, de Indiana, pôde argumentar que a média do projeto seria de 13,36%, contra 11,44% nas importações de 1921. Para Berglund, o caráter da lei se vê melhor pelo que foi feito item a item."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "47,11%",
+          "texto": "Média ad valorem das tarifas cobradas sobre bens tributáveis nos doze anos de vigência da lei de 1897; nos quatro anos da lei Payne-Aldrich, de 1909, foi de 40,73%. Incluídos os bens isentos, as médias caem para 25,92% e 19,42%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ferro e o aço, que cresceram sob proteção e se tornaram exportadores, ficaram quase indiferentes às próprias tarifas. As grandes altas vieram em produtos de indústrias surgidas na guerra, em bens agrícolas cujos preços caíram depois do armistício e em manufaturas em que o trabalho pesa muito no custo. O capital da indústria de corantes de alcatrão passou de US$ 3 milhões para US$ 174 milhões durante a guerra, e as novas alíquotas, calculadas sobre o valor americano, equivaliam na prática a um embargo. Nos minérios e ligas usados no aço, que o autor considera as alíquotas menos defensáveis da lei, o imposto sobre o tungstênio, de 45 centavos por libra do metal contido, equivalia a algo entre cerca de 100% e mais de 220% ad valorem aos preços de tempo de paz."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei, conclui Berglund, resulta mais de interesses seccionais do que de uma política nacional, com o Oeste produtor de matérias-primas de um lado e o Leste industrial do outro. Essa tensão ajudou a criar a tarifa flexível, que permite ao presidente mudar alíquotas em até 50%, com base em investigações da Tariff Commission sobre diferenças de custo de produção."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "berglund-a-tarifa-de-1922",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os estados pobres precisam de ajuda federal para as escolas?",
+          "artigo": "1804046",
+          "credito": "Rufus S. Tucker (Harvard University) · “The Financial Argument for Federal Aid to Education: A Criticism” · pp. 34–47"
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo é o projeto Towner-Sterling, que poria à disposição dos estados US$ 100 milhões por ano para atividades educacionais, condicionados a igual gasto com recursos locais e praticamente sem controle federal sobre o uso. Entre as razões apresentadas, a principal, diz Tucker, é a suposta incapacidade de alguns estados, sobretudo do Sul, de manter boas escolas sem ajuda dos mais ricos. Para testá-la, o autor reúne dados dos dezessete estados com maior proporção de crianças em idade escolar fora da escola segundo o censo de 1920, ao lado das médias nacionais e dos números de Nova York e Massachusetts, sobre os quais recairia boa parte do custo."
+        },
+        {
+          "tipo": "p",
+          "texto": "As fontes são oficiais: as estimativas de riqueza do Census Bureau para 1912, o patrimônio tributável publicado em Financial Statistics of States, 1919, a renda estimada pelo National Bureau of Economic Research e os gastos escolares de 1917–1918. A leitura das tabelas, para o autor, é que a maioria desses estados tributava menos do que podia e menos do que os demais, tanto para as escolas quanto para o governo em geral. Nas cidades de mais de 30 mil habitantes, a média nacional do imposto geral sobre a propriedade passava de US$ 21 por mil dólares de valor real; em Charlotte, era de US$ 8,39."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "0,667%",
+          "texto": "Parcela da renda gasta em escolas públicas na Carolina do Norte, nas contas de Tucker para 1918–19, contra média nacional de 1,121%. Na Geórgia, 0,664%; na Carolina do Sul, 0,672%; em Massachusetts, 1,030%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Tucker sustenta ainda que os números oficiais favorecem esses estados. A reavaliação da Carolina do Norte mostrou que a estimativa do censo não passava de 75% do valor real, e comparações com ela sugerem subavaliação semelhante em outros. A renda calculada a partir do imposto de renda também estaria subestimada: em vários desses estados havia menos declarações na faixa de US$ 1.000 a US$ 2.000 do que na de US$ 2.000 a US$ 3.000. Parte disso, diz, se explica pela isenção de US$ 2.000 para chefes de família, mais US$ 200 por dependente, e por famílias maiores que a média."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que a ajuda federal não se justifica pela pobreza. O remédio, para o autor, está nos próprios estados: revisão dos sistemas de avaliação e de tributação, leis de frequência escolar mais rigorosas e maior controle dos conselhos escolares de condado por um departamento estadual de educação."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Se os subsídios federais se justificam, é apenas por uniformidade de política e controle central.”",
+          "original": "“If federal subsidies are justifiable it is only on the ground of uniformity of policy and central control”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia europeia pode se recuperar à parte das finanças?",
+          "artigo": "1804047",
+          "credito": "H. G. Moulton (Institute of Economics, Washington, D. C.) · “Economic Conditions in Europe” · pp. 48–64"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pediram a H. G. Moulton, do Institute of Economics, de Washington, que tratasse das condições econômicas “fundamentais” da Europa, separadas dos fatores financeiros, tidos como menos importantes. Ele começa pela produção, tida comumente como o índice fundamental, e encontra contrastes. Na Alemanha, a produção se manteve bem até meses recentes e o desemprego efetivo foi muito baixo em boa parte de 1922. A Tchecoslováquia vivia grave crise industrial, a França ia relativamente bem e a Grã-Bretanha quase não saíra da depressão de 1921. O paradoxo, observa o autor, é que Inglaterra e Tchecoslováquia, os dois países que seguiram o conselho dos especialistas e tinham finanças mais sólidas, estavam na pior situação econômica."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "399 mil t",
+          "texto": "Produção britânica de ferro-gusa em julho de 1922, contra 726 mil toneladas em junho de 1920. No mesmo período, a de aço caiu de 845 mil para 473 mil toneladas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os fatores clássicos de produção, terra, trabalho, bens de capital e gestão, estão para Moulton substancialmente intactos: a área de terra quase não mudou, há excedente e não falta de mão de obra, e os bens de capital poderiam ser repostos em poucos anos. A análise, porém, omite o que ele chama de fatores conjunturais, os que dizem respeito não à empresa isolada, mas ao sistema econômico em que ela opera. A França reconstruiu as áreas devastadas com déficits anuais de 25 a 30 bilhões de francos; a Alemanha sustentou a produção com subsídios e inflação, até que nenhum empresário soubesse se tinha lucro. Das quatro saídas que o autor examina para o marco, inflação indefinida, colapso, deflação e estabilização, só a última é viável, e ela exige orçamento equilibrado e fim das emissões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Equilibrar o orçamento, porém, envolve tudo. Pelas contas do autor, os gastos domésticos franceses chegariam em 1925 a cerca de 34 bilhões de francos, 18 deles em juros da dívida interna, enquanto a receita tributária nunca alcançara 20 bilhões. Há ainda as rupturas do sistema internacional: a Alemanha, que antes da guerra mandava cerca de 24% das exportações para a Rússia, a Finlândia, a Áustria-Hungria, os Bálcãs e a Turquia, perdeu esses mercados e fornecedores próximos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que 1923, sem reformas políticas e econômicas significativas, será consideravelmente pior que 1922, com o foco do problema na Alemanha. Moulton insiste em três relações: a economia está entrelaçada com as finanças públicas e privadas, nenhum país europeu se recupera sozinho e tudo depende da política. Por isso, o problema deve ser tratado como um todo."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como pôr as finanças da Europa de pé?",
+          "artigo": "1804048",
+          "credito": "Benjamin M. Anderson, Jr. (Chase National Bank, New York City) · “The European Financial Situation and Possible Remedies” · pp. 65–67"
+        },
+        {
+          "tipo": "p",
+          "texto": "Anderson falou sem anotações na reunião anual de Chicago, em 29 de dezembro de 1922, e a Review publica o resumo que ele próprio preparou. A tese é que qualquer solução de fundo para a Europa exige reformas drásticas no próprio continente, em cinco frentes. Nas finanças públicas, impostos muito maiores e gastos muito menores, a ponto de a receita corrente permitir amortizar dívida, e consolidação da dívida flutuante em títulos de longo prazo. Na moeda, retorno rápido à conversibilidade em ouro: a Grã-Bretanha deveria buscar a paridade antiga, mas a maior parte dos beligerantes do continente faria melhor com paridades novas e muito mais baixas, porque restaurar as antigas pesaria demais sobre as dívidas públicas e os preços. Nas reparações alemãs, um acordo baseado na análise da capacidade de pagamento da Alemanha. No comércio, barreiras menores, sobretudo entre os pequenos estados do Leste europeu, e mudança da própria política tarifária americana. Na indústria, capital de fora, que viria se as reformas fossem feitas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O papel-moeda flutuante é o maior obstáculo isolado ao progresso industrial na Europa.”",
+          "original": "“Fluctuating paper money is the most serious single impediment to industrial progress in Europe.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os ministros das finanças, diz Anderson, conhecem essas necessidades, mas dependem de maiorias parlamentares temporárias diante das pressões por pensões, reconstrução, subsídios ao pão e ao desemprego e gastos militares. A proposta é um pacto: os governos da Grã-Bretanha e dos Estados Unidos reduziriam muito ou até cancelariam as dívidas dos aliados continentais, e banqueiros americanos, britânicos e japoneses se empenhariam em colocar novos títulos europeus junto a seus investidores. Em troca, a Europa faria as reformas, e os credores supervisionariam o uso dos recursos, sem exigir que fossem gastos no país que empresta."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor descarta esquemas de estabilização cambial que não ataquem as causas. Sustentar o câmbio com empréstimos americanos, como se fez na guerra e nos cinco meses seguintes, teria estimulado gastos europeus em produtos americanos e atrapalhado a recuperação das exportações da Europa. Um banco internacional de câmbio ou uma câmara de compensação seriam, a seu ver, o mesmo mecanismo sob outra forma. Parte dos novos empréstimos, porém, poderia vir em ouro, para reforçar as reservas dos bancos emissores e facilitar a volta à conversibilidade."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como emprestar à América Latina sem recorrer à força?",
+          "artigo": "1804049",
+          "credito": "Henry Bruère · “Constructive Versus Dollar Diplomacy” · pp. 68–76"
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry Bruère leu o trabalho na reunião de Chicago, em 29 de dezembro de 1922, e limita o tema às relações financeiras dos Estados Unidos com países latino-americanos que dependem de capital externo. A diferença entre os dois termos do título, diz ele, é de ênfase. A diplomacia do dólar tomava os investimentos no exterior como base da política e acionava o poder coercitivo americano quando o devedor deixava de cumprir suas obrigações. A diplomacia construtiva dispensa a força e a substitui pela supervisão dos termos e condições dos empréstimos antes que eles sejam feitos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 334 milhões",
+          "texto": "Títulos latino-americanos lançados em Nova York nos dezoito meses encerrados em 30 de junho de 1922, contra US$ 80 milhões em Londres. O total de títulos de governos, estados, municípios e empresas da região emitidos nos Estados Unidos era de cerca de US$ 435 milhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor registra que, antes da guerra, a participação americana nas finanças da região era secundária em relação à da Inglaterra, da França e da Bélgica, e que técnicos americanos já exerciam funções quase governamentais no Peru, na Nicarágua e no Panamá. Desde março de 1922, o Departamento de Estado pedia que os bancos lhe submetessem os planos de empréstimos externos, sem opinar sobre o mérito comercial nem assumir responsabilidade; Bruère presume que nenhuma emissão importante seria feita sem essa consulta."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dois casos ilustram o argumento. O primeiro é um contrato nunca executado, que dava ao banqueiro todas as receitas do país como garantia e o controle de um banco nacional que seria agente fiscal único e isento de impostos; para o autor, nenhum banco deveria assumir tamanha responsabilidade pela administração fiscal de um país. O segundo é o acordo provisório da dívida mexicana, que distribuía os juros atrasados por quarenta anos a partir de 1928 e que, a seu ver, deveria ter incluído um programa de reforma agrária executado com as ferrovias."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí as propostas: desestimular que interesses financeiros americanos assumam funções de governo, recusar monopólios como condição de empréstimo, numa versão da Doutrina Monroe dirigida aos próprios Estados Unidos, limitar o endividamento em proporção às receitas, exigir a declaração do uso dos recursos e tornar públicos o custo total e todas as cláusulas. O teste final, conclui, é se o empréstimo desenvolve a independência fiscal e econômica do país tomador."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que a Europa afunda se a capacidade produtiva está intacta?",
+          "artigo": "1804050",
+          "credito": "Irving Fisher (Yale University) · “Stabilization of Europe” · pp. 76–80"
+        },
+        {
+          "tipo": "p",
+          "texto": "Irving Fisher, de Yale, comentou na sessão noturna de 29 de dezembro de 1922 os três trabalhos agrupados sob o título “Foreign Financial Problems”. Ele parte do interesse americano: a Europa é mercado e devedora, deve aos Estados Unidos onze bilhões oficialmente e quatro bilhões por outras vias, e precisa estar de pé para comprar trigo e pagar. O melhor método, em sua opinião, é a entrada dos Estados Unidos na Liga das Nações, que permitiria agir como árbitro imparcial e dar à França segurança contra nova invasão."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma investigação imparcial americana deveria medir a capacidade tributária e de pagamento da Alemanha e propor um calendário de reparações, com estudo semelhante das dívidas entre os aliados. Fisher espera, a título provisório, que pouco ou nada possa ser pago por muitos anos e que os Estados Unidos continuem emprestando pelos canais normais de investimento."
+        },
+        {
+          "tipo": "p",
+          "texto": "O paradoxo, diz ele, é que a capacidade produtiva europeia, como enfatizara Moulton, é quase tão adequada quanto antes da guerra, e a área devastada é menos de 1% do continente; ainda assim a Europa afunda. A explicação é o desajuste. O custo da guerra já foi pago quando os projéteis explodiram; as dívidas são só a obrigação de transferir dinheiro dos contribuintes aos portadores de títulos. Mesmo quando credor e devedor são a mesma pessoa, a transferência emperra, e o governo, sem conseguir cobrar o imposto, recorre à impressão de moeda."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1.000",
+          "texto": "Valor do exemplo de Fisher: se cada americano tivesse um título de US$ 1.000 e devesse US$ 1.000 de imposto para resgatá-lo, as contas se cancelariam, mas cada um se apegaria ao título e detestaria o imposto. O exemplo supõe uma dívida pública de 100 bilhões de dólares."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com exceção da Inglaterra, os governos devedores estão, na prática, insolventes, e a emissão de moeda cria um círculo vicioso de incerteza, menos produção e menos receita. Fisher aponta dois meios de aliviar a dívida sem mudar o principal: moratórias sem juros e juros baixos, como dez anos de moratória, depois 3% numa segunda década e então um fundo de amortização de 2%. Cita como precedente a Áustria, socorrida pela Liga das Nações. A conclusão encadeia três chaves: o comércio e os créditos americanos dependem da reabilitação da Europa, esta depende da intervenção dos Estados Unidos, e a intervenção depende de ocupar a cadeira vazia na Liga."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A quantidade de moeda determina os preços?",
+          "artigo": "1804051",
+          "credito": "S. S. Garrett · “Some Notes on the Relation of Money and Prices” · pp. 81–83"
+        },
+        {
+          "tipo": "p",
+          "texto": "S. S. Garrett parte de um ponto de acordo e de uma divergência. Quase todos os economistas admitem alguma relação entre a quantidade de moeda e o nível de preços; os defensores extremos da teoria quantitativa a veem como proporcional e causal, com a moeda como causa. Os críticos respondem que as estatísticas mostram o crédito bancário acompanhando, e não antecedendo, os preços no atacado, e que a forte queda de preços de 1920 já estava em curso antes de qualquer contração do crédito."
+        },
+        {
+          "tipo": "p",
+          "texto": "A análise do mecanismo, sustenta o autor, mostra que os quantitativistas estão mais perto da verdade. As variações começam nos preços por atacado, que respondem depressa ao volume de encomendas recebidas pelos produtores; salários e preços no varejo vêm depois. Como os pagamentos dependem de compromissos assumidos quando as encomendas foram feitas, é de esperar que os preços se movam primeiro e o poder de compra nominal, moeda fora dos bancos mais depósitos à vista, venha em seguida. A expansão de depósitos após a queda de 1920, longa demais para ser explicada assim, decorre de outro fator: na crise, o poder de compra é usado com cautela e a velocidade de circulação cai."
+        },
+        {
+          "tipo": "p",
+          "texto": "A questão interessa por causa do plano de Irving Fisher de estabilizar preços variando o conteúdo de ouro do dólar. Para Garrett, o plano poderia limitar as cristas da curva de preços, mas seria quase inoperante nas depressões: mudar o ouro do dólar altera apenas o tamanho nominal da estrutura de crédito, e a capacidade de empréstimo dos bancos só limita os preços quando está toda em uso, no auge do ciclo. Os juros, a seu ver, têm papel menor na demanda por empréstimos, e o comércio exterior é pequeno demais diante do comércio interno para corrigir os preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano, conclui, poderia eliminar as marés longas de preços causadas por mudanças na oferta e na demanda de ouro, o que não é pouco, mas não as oscilações curtas do ciclo industrial. Essas não se controlam só com a oferta de moeda. A proposta do autor é variar, em sentido inverso ao volume de negócios privados, o ritmo dos gastos em obras públicas e nos serviços públicos sobre os quais o governo tem algum controle, como ferrovias, bondes e companhias de energia."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que acontece com o crédito se o ouro continuar chegando?",
+          "artigo": "1804052",
+          "credito": "E. A. Goldenweiser (Washington, D. C.) · “Effects of Further Gold Imports on our Banking Situation” · pp. 84–91"
+        },
+        {
+          "tipo": "p",
+          "texto": "E. A. Goldenweiser divide a história dos bancos de reserva federal em fases: inércia antes da entrada na guerra, expansão a serviço do financiamento de guerra, auge do pós-guerra, contração de maio de 1920 aos primeiros meses de 1922 e, por fim, uma quinta fase de relativa estabilidade dos ativos rentáveis, em que os redescontos continuaram a cair e foram substituídos por títulos do governo e, depois, por aceites. O artigo examina 1922 com atenção às importações de ouro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Em 1922, as importações líquidas de ouro somaram cerca de US$ 238 milhões e superaram em cerca de US$ 100 milhões a redução dos ativos rentáveis dos bancos de reserva, o que indica algum aumento dos recursos disponíveis no mercado. Os corretivos normais, juros mais baixos, saída de capital e exportação de ouro, não funcionam enquanto a maior parte do mundo está fora do padrão-ouro. O autor prevê que, por vários anos, o país receberá praticamente todo o ouro novo produzido, entre US$ 200 milhões e US$ 300 milhões por ano."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,2 bilhão",
+          "texto": "Crédito que, pelo balanço consolidado de 1º de novembro de 1922, os bancos de reserva forneciam aos bancos membros por redescontos e compras de aceites e títulos do governo. No modelo do autor, esse seria o volume de ouro adicional capaz de zerar todos os ativos rentáveis do sistema."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para isolar o mecanismo, Goldenweiser supõe só dois bancos, o de reserva e um banco membro que representa todo o sistema, e atividade econômica constante. Cada remessa de ouro permite ao banco membro reduzir sua dívida com o de reserva; este pode vender títulos para preservar a carteira de redescontos, até que todos os investimentos virem redescontos e, depois, que estes se liquidem. A partir daí, o banco membro fica com reservas excedentes, baixa juros, empresta a empreendimentos marginais e estimula emissões de títulos. O efeito é o mesmo qualquer que seja o motivo da vinda do ouro, e os doze bancos de reserva, com cerca de 10 mil bancos membros, reagem como uma unidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A recapitulação usa a imagem de uma esponja: até o ponto de saturação dos bancos de reserva, o ouro é absorvido e a expansão do crédito é adiada. Na teoria, esse ponto chega com mais de um bilhão de dólares adicionais; na prática, antes. Além dele, a expansão se faz sem empréstimos dos bancos de reserva e, portanto, fora de seu controle."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas cobrem teoria, história, geografia econômica, trabalho e bancos: Supply and Demand, de H. D. Henderson, por Walton H. Hamilton; An Introduction to Economic History, de N. S. B. Gras, por Felix Flugel; Principles of Human Geography, de Ellsworth Huntington e Sumner W. Cushing, por N. A. Bengtson; The Economic Aspects of Geology, de C. K. Leith, por Alfred C. Lane; The Economics of Tenancy Law and Estate Management, de H. Stanley Jevons, por R. T. Ely; Personnel Relations in Industry, de A. M. Simons, por Carroll W. Doten; The Trust Problem in the United States, de Elliot Jones, por Arthur S. Dewing; o livro de casos de direito do trabalho de Francis Bowes Sayre, por Lindley D. Clark; Sharing Profits with Employees, de James A. Bowie, por James Ford; The Industrial Code, de W. Jett Lauck e Claude S. Watts, por F. S. Deibler; Banking and Credit, de Davis R. Dewey e Martin H. Shugrue, por George William Dowrie; The Development of Federal Reserve Policy, de Harold L. Reed, por O. M. W. Sprague; The Evolution of People's Banks, de Donald S. Tucker, por R. Ingalls; o livro de Guillermo Subercaseaux sobre o sistema monetário e bancário do Chile, por John H. Williams; e The Settlement Horizon, de Robert A. Woods e Albert J. Kennedy, por George B. Mangold. Seguem-se as listas de livros novos, de periódicos e de documentos e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, vários textos do número compartilham um procedimento: cada um troca a pergunta de princípio por um teste mensurável ou ao menos verificável. Seager não pergunta se o sindicato de empresa é bom ou mau, mas qual forma atende melhor a cada critério, separados por público, empregados e empregadores. Tucker não discute se os estados do Sul são pobres em abstrato, mas quanto da renda e do patrimônio tributável cada um destina às escolas e ao governo.",
+            "Berglund mostra o limite desse procedimento quando a medida é mal escolhida: a média das tarifas cobradas cai justamente quando a alíquota é tão alta que impede a importação. Anderson aplica a mesma lógica às finanças europeias ao condicionar a ajuda externa a reformas verificáveis e à supervisão do uso dos recursos. Goldenweiser faz o mesmo com o balanço consolidado dos bancos de reserva, e Moulton mostra que o índice de produção, isolado das finanças, pode enganar. Em todos, a qualidade da conclusão depende da qualidade do indicador."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Sindicato de empresa (company union)",
+          "organização de representação restrita aos empregados de uma só empresa."
+        ],
+        [
+          "Conselho de fábrica (works council)",
+          "outro nome para o sindicato de empresa, com representantes eleitos pelos próprios empregados."
+        ],
+        [
+          "Sindicato de ofício (trade union)",
+          "organização de trabalhadores de um ofício ou setor, que reúne empregados de muitas empresas."
+        ],
+        [
+          "Alíquota ad valorem",
+          "imposto fixado como porcentagem do valor da mercadoria."
+        ],
+        [
+          "Alíquota específica",
+          "imposto fixado em valor por unidade física, como centavos por libra."
+        ],
+        [
+          "Valor americano (American valuation)",
+          "base de cálculo do imposto pelo preço de venda de produtos americanos comparáveis."
+        ],
+        [
+          "Tarifa flexível",
+          "poder dado ao presidente de alterar alíquotas dentro de limites, após investigação da Tariff Commission."
+        ],
+        [
+          "Patrimônio tributável",
+          "valor dos bens sujeitos ao imposto geral sobre a propriedade."
+        ],
+        [
+          "Dívida flutuante",
+          "dívida pública de curto prazo, que precisa ser renovada com frequência."
+        ],
+        [
+          "Paridade-ouro",
+          "quantidade de ouro que a lei atribui a uma unidade da moeda."
+        ]
+      ],
+      "hoje": "A escolha entre representação dos trabalhadores dentro da empresa e negociação por sindicatos setoriais segue no centro do direito do trabalho, assim como a restrição da greve em serviços essenciais. O debate sobre tarifas altas para indústrias consideradas estratégicas e sobre o poder do Executivo de alterá-las sem nova lei voltou a ganhar espaço. E a discussão de transferências federais para educação ainda gira em torno de capacidade fiscal e esforço tributário de cada governo local.",
+      "itens": [
+        [
+          "Company Unions vs. Trade Unions",
+          "pp. 1–13",
+          "1804044"
+        ],
+        [
+          "The Tariff Act of 1922",
+          "pp. 14–33",
+          "1804045"
+        ],
+        [
+          "The Financial Argument for Federal Aid to Education: A Criticism",
+          "pp. 34–47",
+          "1804046"
+        ],
+        [
+          "Economic Conditions in Europe",
+          "pp. 48–64",
+          "1804047"
+        ],
+        [
+          "The European Financial Situation and Possible Remedies",
+          "pp. 65–67",
+          "1804048"
+        ],
+        [
+          "Constructive Versus Dollar Diplomacy",
+          "pp. 68–76",
+          "1804049"
+        ],
+        [
+          "Stabilization of Europe",
+          "pp. 76–80",
+          "1804050"
+        ],
+        [
+          "Some Notes on the Relation of Money and Prices",
+          "pp. 81–83",
+          "1804051"
+        ],
+        [
+          "Effects of Further Gold Imports on our Banking Situation",
+          "pp. 84–91",
+          "1804052"
+        ],
+        [
+          "Review: Supply and Demand by H. D. Henderson",
+          "pp. 92–95",
+          "1804053"
+        ],
+        [
+          "New Books",
+          "",
+          "1804054"
+        ],
+        [
+          "Review: An Introduction to Economic History by N. S. B. Gras",
+          "pp. 97–100",
+          "1804055"
+        ],
+        [
+          "Review: Principles of Human Geography by Ellsworth Huntington, Sumner W. Cushing",
+          "pp. 100–102",
+          "1804056"
+        ],
+        [
+          "New Books",
+          "",
+          "1804057"
+        ],
+        [
+          "Review: The Economic Aspects of Geology by C. K. Leith",
+          "pp. 107–109",
+          "1804058"
+        ],
+        [
+          "Review: The Economics of Tenancy Law and Estate Management by H. Stanley Jevons",
+          "pp. 110–111",
+          "1804059"
+        ],
+        [
+          "New Books",
+          "",
+          "1804060"
+        ],
+        [
+          "New Books",
+          "",
+          "1804061"
+        ],
+        [
+          "New Books",
+          "",
+          "1804062"
+        ],
+        [
+          "New Books",
+          "",
+          "1804063"
+        ],
+        [
+          "Review: Personnel Relations in Industry by A. M. Simons",
+          "pp. 115–116",
+          "1804064"
+        ],
+        [
+          "New Books",
+          "",
+          "1804065"
+        ],
+        [
+          "Review: The Trust Problem in the United States by Elliot Jones",
+          "pp. 123–126",
+          "1804066"
+        ],
+        [
+          "New Books",
+          "",
+          "1804067"
+        ],
+        [
+          "Review: A Selection of Cases and Other Authorities on Labor Law by Francis Bowes Sayre",
+          "pp. 126–128",
+          "1804068"
+        ],
+        [
+          "Review: Sharing Profits with Employees by James A. Bowie",
+          "pp. 128–130",
+          "1804069"
+        ],
+        [
+          "Review: The Industrial Code by W. Jett Lauck, Claude S. Watts",
+          "pp. 130–131",
+          "1804070"
+        ],
+        [
+          "New Books",
+          "",
+          "1804071"
+        ],
+        [
+          "Review: Banking and Credit by Davis R. Dewey, Martin H. Shugrue",
+          "pp. 135–136",
+          "1804072"
+        ],
+        [
+          "Review: The Development of Federal Reserve Policy by Harold L. Reed",
+          "pp. 137–138",
+          "1804073"
+        ],
+        [
+          "Review: The Evolution of People's Banks by Donald S. Tucker",
+          "pp. 139–140",
+          "1804074"
+        ],
+        [
+          "Review: El Sistema Monetario i la Organizacion Bancaria de Chile by Guillermo Subercaseaux",
+          "pp. 140–142",
+          "1804075"
+        ],
+        [
+          "New Books",
+          "",
+          "1804076"
+        ],
+        [
+          "New Books",
+          "",
+          "1804077"
+        ],
+        [
+          "Review: The Settlement Horizon by Robert A. Woods, Albert J. Kennedy",
+          "pp. 151–153",
+          "1804078"
+        ],
+        [
+          "New Books",
+          "",
+          "1804079"
+        ],
+        [
+          "New Books",
+          "",
+          "1804080"
+        ],
+        [
+          "New Books",
+          "",
+          "1804081"
+        ],
+        [
+          "New Books",
+          "",
+          "1804082"
+        ],
+        [
+          "New Books",
+          "",
+          "1804083"
+        ],
+        [
+          "Periodicals",
+          "pp. 162–191",
+          "1804084"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 192–196",
+          "1804085"
+        ],
+        [
+          "Notes",
+          "pp. 197–208",
+          "1804086"
+        ]
+      ],
+      "jstor_edicao": "i304575",
+      "artigos": [
+        {
+          "titulo": "Volume Information",
+          "autores": "",
+          "paginas": "pp. i–viii",
+          "jstor": "1804043",
+          "resumo": "Índice e informações do volume XIII."
+        },
+        {
+          "titulo": "Company Unions vs. Trade Unions",
+          "autores": "Henry R. Seager (Columbia University)",
+          "paginas": "pp. 1–13",
+          "jstor": "1804044",
+          "resumo": "Discurso presidencial que compara sindicatos de empresa e de ofício nas indústrias de serviço público.",
+          "ensaio_slug": "seager-sindicatos-de-empresa-e-de-oficio"
+        },
+        {
+          "titulo": "The Tariff Act of 1922",
+          "autores": "Abraham Berglund (University of Virginia)",
+          "paginas": "pp. 14–33",
+          "jstor": "1804045",
+          "resumo": "Descrição da lei tarifária de 1922, de suas alíquotas, dos interesses seccionais e da tarifa flexível.",
+          "ensaio_slug": "berglund-a-tarifa-de-1922"
+        },
+        {
+          "titulo": "The Financial Argument for Federal Aid to Education: A Criticism",
+          "autores": "Rufus S. Tucker (Harvard University)",
+          "paginas": "pp. 34–47",
+          "jstor": "1804046",
+          "resumo": "Crítica, com dados de renda, patrimônio e gasto escolar, ao argumento de que estados pobres precisam de ajuda federal para as escolas."
+        },
+        {
+          "titulo": "Economic Conditions in Europe",
+          "autores": "H. G. Moulton",
+          "paginas": "pp. 48–64",
+          "jstor": "1804047",
+          "resumo": "Análise que contesta a separação entre condições econômicas e financeiras na Europa e trata o problema como um todo."
+        },
+        {
+          "titulo": "The European Financial Situation and Possible Remedies",
+          "autores": "Benjamin M. Anderson, Jr. (Chase National Bank, New York City)",
+          "paginas": "pp. 65–67",
+          "jstor": "1804048",
+          "resumo": "Resumo de intervenção que propõe reformas fiscais e monetárias na Europa, condicionadas a redução de dívidas e a novos empréstimos."
+        },
+        {
+          "titulo": "Constructive Versus Dollar Diplomacy",
+          "autores": "Henry Bruère",
+          "paginas": "pp. 68–76",
+          "jstor": "1804049",
+          "resumo": "Proposta de supervisionar os termos dos empréstimos americanos à América Latina, em vez de proteger investimentos pela força."
+        },
+        {
+          "titulo": "Stabilization of Europe",
+          "autores": "Irving Fisher",
+          "paginas": "pp. 76–80",
+          "jstor": "1804050",
+          "resumo": "Comentário que atribui a crise europeia ao desajuste das dívidas e defende a entrada dos Estados Unidos na Liga das Nações."
+        },
+        {
+          "titulo": "Some Notes on the Relation of Money and Prices",
+          "autores": "S. S. Garrett",
+          "paginas": "pp. 81–83",
+          "jstor": "1804051",
+          "resumo": "Notas sobre o mecanismo que liga moeda e preços e sobre os limites do plano de Fisher de variar o ouro do dólar."
+        },
+        {
+          "titulo": "Effects of Further Gold Imports on our Banking Situation",
+          "autores": "E. A. Goldenweiser",
+          "paginas": "pp. 84–91",
+          "jstor": "1804052",
+          "resumo": "Análise de como novas importações de ouro absorvem e depois expandem o crédito no sistema de reserva federal."
+        },
+        {
+          "titulo": "H. D. Henderson, Supply and Demand",
+          "autores": "Walton H. Hamilton",
+          "paginas": "pp. 92–95",
+          "jstor": "1804053",
+          "resumo": "Walton H. Hamilton resenha o primeiro volume dos Cambridge Economic Handbooks, editados por J. M. Keynes, uma exposição da teoria neoclássica dos preços."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804054",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "N. S. B. Gras, An Introduction to Economic History",
+          "autores": "Felix Flugel",
+          "paginas": "pp. 97–100",
+          "jstor": "1804055",
+          "resumo": "Felix Flugel resenha o livro de N. S. B. Gras, que aplica o método comparativo a cinco estágios do desenvolvimento econômico."
+        },
+        {
+          "titulo": "Ellsworth Huntington e Sumner W. Cushing, Principles of Human Geography",
+          "autores": "N. A. Bengtson",
+          "paginas": "pp. 100–102",
+          "jstor": "1804056",
+          "resumo": "N. A. Bengtson resenha a segunda edição de um manual que trata o homem nos ambientes físico, vegetal e animal e humano."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804057",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "C. K. Leith, The Economic Aspects of Geology",
+          "autores": "Alfred C. Lane",
+          "paginas": "pp. 107–109",
+          "jstor": "1804058",
+          "resumo": "Alfred C. Lane resenha conferências de C. K. Leith sobre a importância econômica dos minerais, com poucos dados estatísticos."
+        },
+        {
+          "titulo": "H. Stanley Jevons, The Economics of Tenancy Law and Estate Management",
+          "autores": "R. T. Ely",
+          "paginas": "pp. 110–111",
+          "jstor": "1804059",
+          "resumo": "R. T. Ely resenha conferências dadas na Universidade de Allahabad em 1921 sobre arrendamento e posse da terra na Índia."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804060",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804061",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804062",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804063",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "A. M. Simons, Personnel Relations in Industry",
+          "autores": "Carroll W. Doten",
+          "paginas": "pp. 115–116",
+          "jstor": "1804064",
+          "resumo": "Carroll W. Doten resenha um tratado de organização industrial que examina cada setor da empresa pelas relações humanas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804065",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "Elliot Jones, The Trust Problem in the United States",
+          "autores": "Arthur S. Dewing",
+          "paginas": "pp. 123–126",
+          "jstor": "1804066",
+          "resumo": "Arthur S. Dewing resenha um estudo histórico e crítico das combinações com poder de monopólio nos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804067",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "Francis Bowes Sayre, A Selection of Cases and Other Authorities on Labor Law",
+          "autores": "Lindley D. Clark",
+          "paginas": "pp. 126–128",
+          "jstor": "1804068",
+          "resumo": "Lindley D. Clark resenha uma coletânea de casos de direito do trabalho que começa pela Ordinance of Labourers de 1349."
+        },
+        {
+          "titulo": "James A. Bowie, Sharing Profits with Employees",
+          "autores": "James Ford",
+          "paginas": "pp. 128–130",
+          "jstor": "1804069",
+          "resumo": "James Ford resenha estudo que inclui bônus, escalas móveis e gratificações entre as formas de participação nos lucros."
+        },
+        {
+          "titulo": "W. Jett Lauck e Claude S. Watts, The Industrial Code",
+          "autores": "F. S. Deibler",
+          "paginas": "pp. 130–131",
+          "jstor": "1804070",
+          "resumo": "F. S. Deibler resenha a proposta de um código de princípios para as relações industriais do pós-guerra."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804071",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "Davis R. Dewey e Martin H. Shugrue, Banking and Credit",
+          "autores": "George William Dowrie",
+          "paginas": "pp. 135–136",
+          "jstor": "1804072",
+          "resumo": "George William Dowrie resenha um manual que explica ao empresário suas relações com os bancos."
+        },
+        {
+          "titulo": "Harold L. Reed, The Development of Federal Reserve Policy",
+          "autores": "O. M. W. Sprague",
+          "paginas": "pp. 137–138",
+          "jstor": "1804073",
+          "resumo": "O. M. W. Sprague resenha uma análise da organização e das operações do sistema de reserva federal feita de fora da administração."
+        },
+        {
+          "titulo": "Donald S. Tucker, The Evolution of People's Banks",
+          "autores": "R. Ingalls",
+          "paginas": "pp. 139–140",
+          "jstor": "1804074",
+          "resumo": "R. Ingalls resenha estudo sobre a evolução dos bancos cooperativos que compara a lei alemã com a situação americana."
+        },
+        {
+          "titulo": "Guillermo Subercaseaux, El Sistema Monetario i la Organizacion Bancaria de Chile",
+          "autores": "John H. Williams",
+          "paginas": "pp. 140–142",
+          "jstor": "1804075",
+          "resumo": "John H. Williams resenha a única história abrangente da moeda e dos bancos do Chile, escrita por um ex-ministro da Fazenda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804076",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804077",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "Robert A. Woods e Albert J. Kennedy, The Settlement Horizon",
+          "autores": "George B. Mangold",
+          "paginas": "pp. 151–153",
+          "jstor": "1804078",
+          "resumo": "George B. Mangold resenha um panorama nacional do movimento dos settlements, centros de ação social de bairro, e de suas atividades."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804079",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804080",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804081",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804082",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "1804083",
+          "resumo": "Lista de livros novos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 162–191",
+          "jstor": "1804084",
+          "resumo": "Lista de artigos de periódicos, por assunto."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "",
+          "paginas": "pp. 192–196",
+          "jstor": "1804085",
+          "resumo": "Lista de documentos oficiais, relatórios e legislação."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 197–208",
+          "jstor": "1804086",
+          "resumo": "Notas e notícias da associação e da profissão."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "seager-sindicatos-de-empresa-e-de-oficio",
+          "titulo": "Seager e a escolha entre sindicato de empresa e de ofício",
+          "titulo_original": "Company Unions vs. Trade Unions",
+          "autores": "Henry R. Seager (Columbia University)",
+          "paginas": "pp. 1–13",
+          "jstor": "1804044",
+          "chamada": "No discurso presidencial de 1922, Henry R. Seager compara as duas formas de organização operária nos serviços públicos e conclui que a escolha depende do tipo de empregador.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em agosto de 1919, havia nos Estados Unidos 225 conselhos de fábrica, organizações de representação restritas aos empregados de uma só empresa. Em fevereiro de 1922, eram 725, apesar de pelo menos cem dos que existiam no fim da guerra terem desaparecido. Os números, do National Industrial Conference Board, abrem o discurso presidencial que Henry R. Seager, da Columbia University, leu na reunião anual da American Economic Association em Chicago, em 27 de dezembro de 1922. O contraste vem logo depois: de 1920 a 1922, a filiação à American Federation of Labor caiu mais de 800 mil membros, mais de 20%."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que limitar a pergunta aos serviços públicos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para tornar a análise tão definida quanto possível, o autor se restringe às indústrias de serviço público, definidas como aquelas cuja operação contínua é vital para o interesse público, como bondes e ferrovias. As conclusões, admite, valem pouco ou só em parte para as indústrias competitivas; nesta etapa, uma análise intensiva lhe parece mais útil que conclusões de longo alcance."
+            },
+            {
+              "tipo": "p",
+              "texto": "O Congresso levou anos para reconhecer que as ferrovias exigiam medidas especiais. A lei Erdman, de 1898, apostou em mediação, conciliação e arbitragem voluntária, e por algum tempo bastou. A lei Newlands, de 1913, montou um mecanismo mais elaborado. A lei Adamson, de 1916, introduziu o princípio de que certos padrões básicos, no caso a jornada-padrão, seriam fixados por lei; em nota, Seager observa que ela tornava padrão o dia de oito horas sem desestimular jornadas maiores, e era sobretudo uma lei de aumento salarial. A Transportation Act, de 1920, criou o Railroad Labor Board, com sete critérios para salários e condições justos e razoáveis, e declarou dever das partes evitar interrupções, mas sem prever penas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Para onde caminhava a política trabalhista?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A greve das oficinas ferroviárias do verão de 1922 mostrou, para o autor, que o Congresso teria de ir além. O presidente Harding propôs transferir as funções do Railroad Labor Board para uma divisão trabalhista de uma Interstate Commerce Commission ampliada, dar força de lei às suas decisões e proibir greves ferroviárias. No mesmo inverno em que o Congresso aprovou a Transportation Act, o Kansas, sob o governador Allen, criou um tribunal industrial com amplos poderes sobre salários, jornadas e condições de trabalho nas indústrias afetadas por interesse público, e proibiu greves nelas com penas severas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager não arrisca prever a legislação imediata, mas sustenta que a lógica da situação levará a fortalecer, e não enfraquecer, o mecanismo de operação contínua: juntas ou tribunais com autoridade, padrões de salário e condições fixados em lei e proibição da greve com penas aplicáveis. Prefere multas que persigam o infrator até serem pagas, como na Nova Zelândia, à prisão; em nota, atribui parte da reação contra a lei do Kansas à severidade das penas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há duas razões para essa previsão. A primeira é que a opinião pública condena de antemão quem interrompe um serviço vital, qualquer que seja a provocação; por isso, diz, a greve das oficinas estava perdida antes de começar. A segunda, mais forte, é que o poder público já regula tarifas e qualidade do serviço e não pode exigir tarifas razoáveis sem exigir também custos razoáveis, inclusive os salários."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A arma da greve nessas indústrias começa a ser um bumerangue.”",
+              "original": "“the strike weapon in these industries is beginning to be a boomerang”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quais critérios decidem a comparação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor define os testes. Para o público, importam a operação contínua, a economia e a eficiência e a formação de trabalhadores e cidadãos mais inteligentes, capazes e dedicados ao bem público. Para os empregados, além da eficiência, pesam a remuneração liberal, a jornada moderada, condições seguras e a maior participação na fixação das condições de trabalho compatível com a eficiência. Para os empregadores, contam a operação contínua, a máxima eficiência, o baixo custo do trabalho e a aceitação das mudanças que a gerência julga necessárias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em economia, eficiência e continuidade, Seager dá vantagem ao sindicato de empresa. Restrito aos empregados de uma só organização, ele desenvolve interesse por ela; seus representantes conhecem os problemas de produção e percebem a comunidade de interesses com o empregador. O sindicato de ofício, que reúne empregados de muitas empresas concorrentes, enfatiza por construção a oposição de interesses, como mostram, diz o autor, o preâmbulo da constituição da American Federation of Labor e os da maioria dos sindicatos filiados. Seus dirigentes, individualmente, muitas vezes reconhecem o lado cooperativo da relação, mas a forma da organização os impede de agir assim."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem defende melhor o salário?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos interesses principais dos empregados, a vantagem passa ao sindicato de ofício, por três motivos. Os membros do sindicato de empresa, inclusive seus dirigentes, dependem da boa vontade do empregador; o caráter local os impede de conhecer condições mais favoráveis em outros estabelecimentos; e, sem apoio de fora, pouco podem fazer contra mudanças desfavoráveis. O sindicato de ofício tem dirigentes independentes, visão do setor no país e o respaldo dos demais membros, que dissuade o empregador."
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager ressalva o outro lado. A ênfase excessiva na luta pode prejudicar tanto a produção que a parcela maior de um produto menor deixe os trabalhadores em situação pior do que a parcela menor de um produto maior. Cita os ofícios da construção em Nova York e Chicago, onde, diz, os trabalhadores pagam em desemprego e emprego irregular um preço alto pelas regras restritivas de seus sindicatos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que muda quando a greve é proibida?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando a lei fixa padrões, cria tribunais e proíbe a greve, as vantagens do sindicato de ofício ficam em boa parte neutralizadas. Isso explica, para o autor, a oposição dos dirigentes sindicais a qualquer limite ao direito de greve, mesmo quando sabem que usá-lo provocaria uma reação pública que o condenaria ao fracasso. O exemplo é o dos empregados de uma empresa de bondes do Kansas, que podem levar suas demandas ao tribunal industrial e a quem a organização nacional tem pouco a oferecer. Se o empregador acrescentar ao sindicato de empresa planos de compra de ações, participação nos lucros e seguros contra doença, desemprego e velhice, desde que o poder público mantenha padrões justos de salário e jornada, as promessas do sindicato nacional perdem força."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "8 horas",
+              "texto": "Primeiro dos padrões mínimos que, em nota, Seager considera exigência de justiça para qualquer lei que tire dos empregados de serviço público o direito de greve, com pagamento extra das horas adicionais. Os demais: salário de subsistência razoável, contratação mensal ou anual em vez de diária e direito de pertencer a organizações de sua escolha."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual forma prepara o melhor cidadão?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Este é, para o autor, o aspecto que mais interessa aos economistas. Seu ideal é uma sociedade industrial em que o nível médio de inteligência suba, a propriedade do capital se difunda, os trabalhadores sejam mais bem pagos por trabalho mais agradável e com mais lazer, os serviços públicos possam ser operados pelo governo com eficiência, as cooperativas prosperem e os empregados de empresas privadas tenham voz crescente e parte razoável nos lucros. Os sindicatos de ofício, reconhece, deram contribuição de valor inestimável a esse ideal, e por isso se desenvolveram como organizações de luta."
+            },
+            {
+              "tipo": "p",
+              "texto": "Muitos sindicatos de empresa recentes, admite, pouco têm a recomendá-los: foram impostos por empregadores que exigiam a filiação e proibiam qualquer outra organização. Outros não impõem esse limite e atraem a grande maioria dos empregados. A escolha, conclui, depende do tipo de empregador: enquanto predominar o empregador explorador, movido só pelo lucro, a preferência deve ser sem reservas pelo sindicato de luta; à medida que predominar o empregador cooperativo, que se vê como sócio sênior dos empregados, crescerá o campo do sindicato de empresa, como passo para a verdadeira sociedade na indústria."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a solidariedade dos trabalhadores?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Seager não espera que a solidariedade dos assalariados enfraqueça enquanto durar o sistema de salários. Prevê que ela passará em parte do campo industrial para o político: com juntas de ajuste, padrões legais e seguro social, os trabalhadores terão cada vez mais motivo para cuidar da política, como no Reino Unido, na Austrália e na Nova Zelândia, onde o partido trabalhista se tornou o principal partido de oposição. Sua última palavra é a esperança de que essas indústrias passem a ser dominadas pelo motivo do serviço público."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Cada um por todos e todos por cada um.”",
+              "original": "“Each for all and all for each”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o discurso é um exercício de desenho institucional. Seager não julga as formas de organização em bloco: separa os objetivos de cada parte, atribui a cada forma as vantagens que decorrem de sua estrutura, local ou nacional, dependente ou independente do empregador, e mostra como a regulação muda o valor relativo dessas vantagens.",
+                "O ponto central é a interação entre regulação de preços e mercado de trabalho. Quando o Estado fixa a tarifa de um serviço essencial e proíbe sua interrupção, a negociação salarial deixa de ser um conflito bilateral e passa a ser um item do custo regulado. O argumento antecipa a questão de quem deve fixar salários quando o produto tem preço administrado."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Sindicato de empresa (company union)",
+              "organização de representação restrita aos empregados de uma só empresa."
+            ],
+            [
+              "Sindicato de ofício (trade union)",
+              "organização que reúne trabalhadores de um ofício ou setor em várias empresas."
+            ],
+            [
+              "Railroad Labor Board",
+              "junta federal criada em 1920 para fixar salários e condições nas ferrovias."
+            ],
+            [
+              "Tribunal industrial do Kansas",
+              "corte estadual com poder de regular salários e condições e de proibir greves em indústrias de interesse público."
+            ]
+          ],
+          "hoje": "A distinção entre representação dentro da empresa e negociação setorial continua a organizar os sistemas de relações de trabalho, e muitos países combinam as duas, como Seager propunha para as ferrovias. A restrição da greve em serviços essenciais, com exigência de funcionamento mínimo e arbitragem, também segue em vigor em várias legislações. E a ligação entre tarifa regulada e salário dos empregados de concessionárias ainda aparece nas revisões tarifárias."
+        },
+        {
+          "slug": "berglund-a-tarifa-de-1922",
+          "titulo": "Berglund e a tarifa de 1922, item por item",
+          "titulo_original": "The Tariff Act of 1922",
+          "autores": "Abraham Berglund (University of Virginia)",
+          "paginas": "pp. 14–33",
+          "jstor": "1804045",
+          "chamada": "Abraham Berglund descreve como a lei tarifária de 1922 devolveu os Estados Unidos à proteção alta, por que as médias enganam e como interesses regionais moldaram as alíquotas.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "No debate do Senado, o senador McCumber exibiu uma navalha que custava 21 centavos no exterior e era vendida nos Estados Unidos por US$ 5, um colar comprado por US$ 12,35 na França e vendido por US$ 150, e um relógio cuco de 94 centavos na Alemanha que chegava ao varejo de Nova York por US$ 22. Um jornal fez troça com um editorial intitulado “A Cuckoo in the Tariff”. Os preços, lembra Abraham Berglund, da University of Virginia, serviram para mostrar que importadores tinham lucros excessivos e expulsavam os fabricantes nacionais, e ajudaram a elevar as tarifas sobre esses artigos bem acima do nível de 1909, em vários casos a mais de 100%."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde a lei se encaixa na história tarifária?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Berglund divide a história em três períodos. De 1789 a 1816, as tarifas visavam sobretudo à receita. De 1816 à Guerra Civil, foram protecionistas, mas moderadas, e entre a tarifa Walker, de 1846, e a Morrill, de 1861, acompanharam o movimento mundial de maior liberdade comercial. Depois da Guerra Civil veio a proteção alta, em que a receita ficou subordinada à defesa da indústria; mesmo as tarifas ditas de livre-comércio de 1894 e 1913 eram protecionistas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou na forma da lei?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei tem quatro partes, chamadas títulos: lista tributável, lista de isentos, disposições especiais e disposições administrativas. Os bens tributáveis seguem agrupados em catorze tabelas, como em todas as leis gerais desde 1883, mas as tabelas passaram de letras a números; a antiga tabela K, de lãs e lanifícios, virou a 11. O autor supõe que a troca se deva ao desgaste associado a algumas delas desde a lei de 1909. Cada tabela recebeu uma centena de parágrafos possíveis, o que facilita localizar um produto pelo número."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que as médias enganam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O Congresso tomou a lei de 1909 como base, mas dizer se o nível médio ficou acima ou abaixo das leis de 1897 e 1909 é, para o autor, impossível com precisão. A média das tarifas cobradas não registra alíquotas proibitivas e subestima as que reduzem muito a importação; incluída a lista de isentos, entram produtos como o café, que o país não produz. Por isso o senador Watson, de Indiana, pôde argumentar que o projeto teria média de 13,36%, contra 11,44% nas importações de 1921, uma diferença inferior a dois pontos. A média aritmética das alíquotas, por sua vez, dá o mesmo peso a produtos de importação mínima e a produtos de grande volume."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "47,11%",
+              "texto": "Média ad valorem das tarifas cobradas sobre bens tributáveis nos doze anos da lei de 1897, com extremos anuais de 52,07% e 42,55%. Nos quatro anos da lei Payne-Aldrich, de 1909, a média foi de 40,73%. Incluídos os isentos, 25,92% e 19,42%."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem pediu proteção, e quem não pediu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ferro e o aço, cujos trilhos e folhas de flandres eram citados como exemplo clássico do efeito benéfico da proteção, tinham desenvolvido grande comércio exportador e ficaram quase indiferentes às tarifas sobre seus produtos; os fabricantes de automóveis temiam que as tarifas não fossem baixas o bastante. Têxteis, louças e vidros seguiram de perto as alíquotas de 1909, e a repetição de alíquotas específicas significou, com a alta de preços, alguma redução no equivalente ad valorem."
+            },
+            {
+              "tipo": "p",
+              "texto": "As alíquotas que mais chamaram atenção recaíram sobre produtos químicos, sobretudo os derivados de alcatrão, sobre cutelaria, relógios e brinquedos, sobre produtos agrícolas e sobre minerais e ligas metalúrgicas. Na indústria de corantes, o capital passou de US$ 3 milhões para US$ 174 milhões durante a guerra; os produtores pediram embargo, a Câmara mandou retirá-lo, mas as alíquotas sobre o valor americano equivaliam, segundo o autor, a um embargo prático por dois anos. No trigo, exportado em quantidade muito maior do que importado, o efeito seria local, em resposta à concorrência do trigo duro canadense na Dakota do Norte e em Minnesota."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os minérios da guerra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As alíquotas que o autor chama de menos defensáveis são as de certos minérios, metais e ligas usados na siderurgia, antes importados em grande parte e cuja produção doméstica a guerra estimulou. O minério de manganês de alto teor vinha da Índia, da Rússia e do Brasil; a alíquota aprovada equivalia, aos preços do pós-guerra, a mais de 50% ad valorem para um produto antes isento e pouco produzido no país. O Senado chegou a pô-lo na lista de isentos, mas a influência dos senadores do Oeste restabeleceu a alíquota da Câmara."
+            },
+            {
+              "tipo": "p",
+              "texto": "O tungstênio pagaria 45 centavos por libra de metal contido. Os preços do minério caíram mais de 70% de 1918 a 1920 e cerca de 60% mais até 1922, e a alíquota, moderada aos preços de guerra, passou a equivaler a algo entre cerca de 100% e mais de 220% ad valorem. O ferromanganês, que pagava US$ 2,50 por tonelada em 1909, passou a US$ 33,88 por tonelada longa no tipo padrão; o mercúrio, de 7 para 25 centavos por libra. A tentativa de taxar o estanho em lingotes, que o país quase não produz, passou na Câmara e caiu no Senado."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A tarifa é uma questão local?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os economistas, lembra Berglund, costumam associar o protecionismo ao nacionalismo, como sobrevivência do mercantilismo. Nos Estados Unidos, porém, as leis tarifárias foram defendidas e aprovadas a pedido de interesses especiais e regionais, e o autor acha a frase atribuída ao general Hancock, de que a tarifa é uma questão local, próxima da verdade. Uma lei tarifária vira menos a expressão de uma política nacional que a resultante de várias políticas seccionais."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí as incoerências: os senadores da Louisiana, de um partido de tarifas baixas, defendem alíquotas altas para o açúcar; o senador mais antigo de Massachusetts, protecionista em quase tudo, é livre-cambista quando se trata de couros crus; os progressistas do Oeste denunciam tarifas sobre tecidos, mas apoiam as de manganês e tungstênio; o bloco agrícola aceita tarifas sobre fio-máquina e exige isenção para o arame farpado feito dele. No Senado, quase ninguém atacou a teoria da proteção; a oposição argumentou que as alíquotas eram excessivas. A disputa partidária, conclui, deixou de opor proteção e tarifa de receita e passou a opor proteção alta e moderada. E persiste a velha oposição, visível já na tarifa das abominações de 1828, entre o Oeste produtor de matérias-primas e o Leste industrial."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que faz a tarifa flexível?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Essa tensão ajudou a criar o dispositivo mais singular da lei. A Tariff Commission, até então só um órgão de informação, passa a investigar diferenças de custo de produção no país e no principal concorrente, e com base nelas o presidente pode alterar alíquotas em até 50%. O projeto da Câmara usava o valor americano como base dos impostos ad valorem; o Senado trocou-o pelo valor estrangeiro ou de exportação, o que fosse maior, e a tarifa flexível funcionou como substituto. Para Berglund, medir custos com precisão será quase impossível, e a regra compromete a comissão com a proteção, pois manda neutralizar até as vantagens naturais do produtor estrangeiro. Uma emenda do senador Jones, do Novo México, para estudar o efeito das tarifas sobre as exportações, foi rejeitada."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uma tarifa alta significa, porém, certo grau de isolamento comercial.”",
+              "original": "“A high tariff means, however, a certain amount of commercial isolation”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor liga a lei de 1922 às de 1890, 1897 e 1909, entre as mais altas da história tarifária americana, e lembra que o país se tornara credor, gastava para expandir a marinha mercante e as exportações e era sensível a propostas de cancelamento de dívidas. Deixa a pergunta sobre se esse isolamento atende às aspirações do país e às necessidades do mundo."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo ensina sobretudo a medir proteção. A média das tarifas cobradas diminui quando a alíquota sobe a ponto de eliminar a importação, e a média simples das alíquotas pesa igual o relevante e o irrelevante. Berglund troca as duas pela análise produto a produto, com o equivalente ad valorem calculado aos preços de cada época, e mostra que uma alíquota específica fixa pode passar de moderada a proibitiva só porque o preço caiu.",
+                "O segundo ponto é de economia política. Quando cada representante defende o produto de sua região e o Congresso soma essas demandas, a tarifa resultante não corresponde a nenhum desenho nacional, e as incoerências que o autor enumera são a consequência esperada. A delegação a uma comissão técnica aparece como resposta, mas com um critério, igualar custos, que já embute a conclusão protecionista."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Alíquota ad valorem",
+              "imposto em porcentagem do valor da mercadoria."
+            ],
+            [
+              "Alíquota específica",
+              "imposto em valor fixo por unidade física, como centavos por libra."
+            ],
+            [
+              "Equivalente ad valorem",
+              "a alíquota específica expressa como porcentagem do preço do produto."
+            ],
+            [
+              "Tabela (schedule)",
+              "grupo de produtos afins na lista tributável de uma lei tarifária."
+            ],
+            [
+              "Valor americano",
+              "base de cálculo do imposto pelo preço de produtos americanos comparáveis."
+            ],
+            [
+              "Alíquota compensatória",
+              "imposto sobre um produto que cobre o custo adicional criado pelo imposto sobre sua matéria-prima."
+            ],
+            [
+              "Tarifa flexível",
+              "poder presidencial de alterar alíquotas em até 50%, após investigação da Tariff Commission."
+            ]
+          ],
+          "hoje": "A medição da proteção comercial continua a enfrentar o problema apontado por Berglund: médias ponderadas pelo comércio subestimam alíquotas que impedem a importação, e por isso se usam equivalentes ad valorem e indicadores alternativos. A delegação ao Executivo do poder de alterar tarifas, com base em investigações técnicas, tornou-se prática corrente. E a influência de interesses regionais e setoriais sobre a política tarifária segue como tema central da economia política do comércio."
         }
       ]
     }

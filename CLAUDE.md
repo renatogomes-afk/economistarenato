@@ -12,7 +12,7 @@ sócio-fundador da WGSA. (Desde 08/11/2026 o autor **não é mais pré-candidato
 
 Posicionamento (reorganização de 08/11/2026): **"Economia pelas fontes"** — clássicos e
 debates da economia lidos no original e comentados em português (seção **Arquivo**, começando
-pelas publicações da American Economic Association, 1886–1922, domínio público), contas
+pelas publicações da American Economic Association, 1886–1929, domínio público), contas
 públicas com documento oficial (**Análises**) e **Serviços** (consultoria WGSA, palestras,
 cursos). Registro de **economista institucional**: toda afirmação numérica com fonte primária
 verificável, sempre visível para o leitor.
@@ -140,7 +140,7 @@ e download.
 | Hub da edição | visão geral ≥ 200 palavras + 60–120 palavras de parágrafo real por artigo listado; itens menores (resenhas, notas, new books) podem ficar agrupados, uma linha cada |
 | Nota "Então × Agora" | 400–600 palavras |
 
-- **Ordem:** estritamente cronológica (decisão de 08/11/2026): primeiro as Publications (1886–1907), depois o Quarterly e o Economic Bulletin (1908–1910), depois a American Economic Review (1911–1922). Numeração contínua, sem lacunas.
+- **Ordem:** estritamente cronológica (decisão de 08/11/2026): primeiro as Publications (1886–1907), depois o Quarterly e o Economic Bulletin (1908–1910), depois a American Economic Review (1911–1929; de 1923 em diante, a partir das digitalizações de número completo do Internet Archive). Numeração contínua, sem lacunas.
 - **Nunca encher linguiça:** artigo que não sustenta ~900 palavras de análise real fica só no hub.
 - Padrão de redação de toda página: abrir com cena ou fato concreto; citação traduzida com o original
   entre parênteses; um número-chave por parágrafo (o resto em caixa); jargão explicado na primeira

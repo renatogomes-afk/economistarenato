@@ -233,7 +233,7 @@ def pagina_inicio():
 
     <aside class="trilho">
       <div class="trilho-tit">A série em curso</div>
-      <div class="trilho-num">1886–1922</div>
+      <div class="trilho-num">1886–1929</div>
       <p class="olho" style="margin-top:6px">As publicações da American Economic Association: monopólios, ferrovias, moeda, trabalho e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes.</p>
       <a class="botao botao-cheio" href="arquivo/" style="display:inline-block;margin-top:12px">Abrir o arquivo</a>
 
@@ -532,7 +532,7 @@ def tipo_item_aer(titulo_original):
     t = titulo_original or ""
     if t.startswith("[untitled]"): return "resenha"
     if t.startswith("New Book"): return "livros"
-    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t): return "docs"
+    if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Review: |^Volume Information|^Front Matter|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t): return "docs"
     return "artigo"
 
 
@@ -748,7 +748,7 @@ def pagina_notas():
   <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
     <span class="chapeu dado">Notas · Então × Agora</span>
     <h1>Um número de ontem, um número de hoje</h1>
-    <p class="olho">Notas curtas: um dado dos documentos de 1886–1922 ao lado de um dado atual, com as duas fontes. Para ler em três minutos.</p>
+    <p class="olho">Notas curtas: um dado dos documentos de 1886–1929 ao lado de um dado atual, com as duas fontes. Para ler em três minutos.</p>
   </div>
   <section class="grade-3">
 {cartoes}

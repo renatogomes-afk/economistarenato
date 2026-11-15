@@ -48,8 +48,8 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
                 txt = bl.get("texto", "")
                 secoes[atual] += len((" ".join(txt) if isinstance(txt, list) else txt).split())
         for x in ed.get("artigos", []):
-            t0 = orig.get(x.get("jstor"), "")
-            if t0.startswith(("[untitled]", "New Book")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t0):
+            t0 = orig.get(x.get("jstor"), x.get("titulo", ""))
+            if t0.startswith(("[untitled]", "New Book")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Review: |^Volume Information|^Front Matter|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t0):
                 continue
             n = len(x.get("resumo", "").split())
             if secoes:
