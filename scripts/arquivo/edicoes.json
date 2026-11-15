@@ -114311,6 +114311,1772 @@
           "hoje": "O argumento de Fisher volta sempre que bancos centrais mudam as reservas obrigatórias. A redução libera recursos para um banco isolado, mas o efeito sobre o sistema depende de como juros e preços se ajustam. A discussão sobre quem se apropria do ganho, bancos, tomadores ou depositantes, segue presente na análise de requisitos de reserva e de remuneração das reservas."
         }
       ]
+    },
+    {
+      "slug": "1896-clark-walker-e-a-reuniao-de-indianapolis",
+      "numero": "ES 1",
+      "titulo": "Economic Studies nº 1: Clark, Walker e a reunião de Indianápolis",
+      "titulo_original": "The Theory of Economic Progress; The Relation of Changes in the Volume of the Currency to Prosperity; Hand-Book of the American Economic Association, 1896, together with Report of the Eighth Annual Meeting",
+      "autores": "John B. Clark (Columbia University), Francis A. Walker (Massachusetts Institute of Technology) e American Economic Association",
+      "publicacao": "Economic Studies",
+      "serie": "economic-studies",
+      "colecao": "eua",
+      "volume": "vol. 1, nº 1",
+      "data": "abril de 1896",
+      "archive_id": "sim_economic-studies_1896-04_1_1",
+      "chamada": "O primeiro número da nova série traz o discurso de Clark sobre progresso, trustes e máquinas e o texto de Walker sobre moeda e prosperidade, com o manual de 1896 e os anais da reunião de Indianápolis.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na noite de 27 de dezembro de 1895, no senado estadual de Indianápolis, John B. Clark abriu a oitava reunião anual da American Economic Association com uma frase que serve de programa: um paraíso estático seria intolerável; um purgatório dinâmico teria ao menos um encanto supremo. No dia seguinte, Francis A. Walker defendeu, na mesma sala, que a quantidade de moeda governa os preços e que a sua contração pode travar a prosperidade. Os dois textos abrem, em abril de 1896, a primeira edição dos Economic Studies."
+        },
+        {
+          "tipo": "p",
+          "texto": "A série nasceu de uma decisão do Conselho da associação, tomada na própria reunião de Indianápolis: além das monografias, que passariam a sair sem periodicidade fixa, viria uma série de estudos curtos, no mínimo seis e no máximo doze por ano, em que questões práticas seriam discutidas cientificamente. A introdução do manual explica o objetivo: textos breves, imparciais, com circulação maior que a das monografias. O exemplar reúne o nº 1, com Clark e Walker, e um suplemento com o manual da associação de 1896 e o relatório da reunião, com resumos dos trabalhos e dos debates."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O progresso econômico pode parar?",
+          "artigo": "ia-es-1896-04_1_1-p1",
+          "credito": "John B. Clark (Columbia University) · “The Theory of Economic Progress” · pp. 1–22"
+        },
+        {
+          "tipo": "p",
+          "texto": "Clark, presidente da associação, propõe que o teste decisivo de um sistema econômico é a velocidade e a direção do seu movimento, e não o seu estado num dado momento. A pergunta é se a sociedade industrial pode chegar a um impasse interno que a torne estática. O homem isolado já estaria nesse impasse: a lei do consumo pede variedade, a lei da produção pede especialização, e uma anula a outra. A troca desfaz o bloqueio, e a concorrência, que Clark define como rivalidade em servir, obriga cada empregador a melhorar os métodos. Quem acompanha a primeira fila sobrevive; quem se adianta lucra; quando todos alcançam o mais adiantado, o público ganha com bens mais baratos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto sensível são os trustes. Clark admite que a concorrência que sobrevive a eles limita, mas não elimina, o poder de cobrar preços acima do normal. O que importa, diz, é o efeito sobre o progresso: a exação de um truste é aritmética, uma soma fixa; o avanço técnico é geométrico, multiplica a produtividade todos os dias. E os lucros acumulados precisam virar capital, o que leva um truste a invadir o território de outro. Daí quatro proposições, resumidas na caixa abaixo."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4",
+          "texto": "Proposições de Clark sobre as combinações de produtores: a concorrência latente contém as exações do truste; não é necessário nem desejável que anule os ganhos da combinação; a acumulação de capital é a garantia última do progresso industrial; e o progresso torna secundária qualquer exação de valor fixo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda metade trata do trabalho. Antes, uma invenção destruía a habilidade acumulada do artesão; agora, com operações simples e máquinas sofisticadas, o trabalhador muda de função com pouca perda, e o custo da mudança passa ao capital, cuja máquina obsoleta vira sucata. Clark conclui que o conflito do futuro será entre a riqueza honesta e a riqueza predatória, com o trabalho como aliado da primeira, ainda que dispute cada dólar de salário."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "clark-a-teoria-do-progresso-economico",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A quantidade de moeda decide a prosperidade?",
+          "artigo": "ia-es-1896-04_1_1-p23",
+          "credito": "Francis A. Walker (Massachusetts Institute of Technology) · “The Relation of Changes in the Volume of the Currency to Prosperity” · pp. 23–45"
+        },
+        {
+          "tipo": "p",
+          "texto": "Walker parte de uma constatação de método: quem rejeita a teoria quantitativa da moeda não tem por que ver relação entre o volume do meio circulante e a prosperidade. Por isso começa defendendo a teoria. Lembra que ninguém duvidou da causa da alta de preços depois da prata americana dos séculos XVI e XVII, do papel-moeda do Congresso Continental, dos assignats da Revolução Francesa ou do ouro da Califórnia e da Austrália. Só quando os preços caem, observa, alguém duvida da relação. A teoria seria apenas a aplicação à moeda da lei da oferta e da procura, sempre com a cláusula de “tudo o mais constante”: o crédito, os hábitos de uso da moeda e a própria atividade estimulada pelo dinheiro novo explicam por que os preços sobem menos que a quantidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "A inflação deliberada, feita por ato de governo para reduzir dívidas, ele condena em termos morais e econômicos. A inflação metálica, vinda de minas novas, é outra coisa: com Hume, McCulloch, Chevalier, Jevons e Cairnes, Walker sustenta que ela alivia o peso das dívidas e dos encargos fixos e premia a iniciativa. A contração, por sua vez, faz o inverso. Aumenta o peso das obrigações herdadas do passado e corrói o lucro esperado entre a compra de insumos e a venda do produto."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a relação não é irreal porque é indireta”",
+          "original": "the relation is not unreal because it is indirect"
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso que ele usa para mostrar a margem estreita do empresário é numérico: um fabricante compra 200 mil dólares de material e paga 300 mil de salários na esperança de lucrar talvez 20 ou 25 mil. Uma pequena queda de preços apaga esse lucro. Para Walker, a queda contínua de preços pesa sobretudo sobre o “terço inferior” de cada ramo, torna as crises mais frequentes e mais longas e retarda a volta da confiança. A frase acima, que ele cita de L. L. Price, resume a resposta a quem invoca o crédito: ele encobre a relação entre metal e preços, mas não a desfaz."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "walker-moeda-e-prosperidade",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O suplemento traz o manual de 1896: estatuto, regimento, dirigentes, Conselho, sócios honorários e a lista de sócios e assinantes. A anuidade era de três dólares; a contribuição vitalícia, de cinquenta. O relatório do secretário registra 652 sócios e assinantes e a contratação da Macmillan como editora em Nova York. O relatório da reunião, com o programa, as decisões do Conselho, o discurso de boas-vindas do governador Matthews e a resposta de Clark, resume os trabalhos e debates: Irving Fisher sobre valorização do ouro e juros; o debate sobre o duplo padrão entre A. J. Warner e F. W. Taussig; F. M. Taylor sobre moeda elástica; Richmond Mayo-Smith sobre um escritório permanente do censo; Walter F. Willcox sobre a densidade da população em 1890; J. H. Hollander sobre cartas inéditas de Ricardo; e trabalhos de Patten, Millis, Seager, Langworthy Taylor, Ward, Henderson, MacVeagh e Woodruff."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o primeiro número dos Economic Studies junta dois modos de pensar a economia em movimento. Clark olha para a oferta: a concorrência, mesmo latente, e a acumulação de capital garantiriam que a técnica avance e que o custo das mudanças recaia sobre as máquinas, não sobre as pessoas. Walker olha para a moeda: o nível e a tendência dos preços mudam o peso das dívidas e a disposição para empreender. Os dois tratam o tempo como variável central, o que é a marca da edição. E os debates do suplemento mostram que a discussão sobre o ouro, os juros e a queda de preços já se apoiava em números, de títulos indianos a dados de ferrovias, e não só em princípios."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Estado estacionário",
+          "economia sem crescimento, em que produção e população se mantêm constantes; Clark cita a versão de John Stuart Mill."
+        ],
+        [
+          "Concorrência latente",
+          "ameaça de entrada de novos concorrentes, que limita os preços de quem domina um mercado."
+        ],
+        [
+          "Truste",
+          "combinação de empresas de um ramo sob controle comum, para coordenar produção e preços."
+        ],
+        [
+          "Teoria quantitativa da moeda",
+          "doutrina segundo a qual, tudo o mais constante, o nível de preços acompanha a quantidade de moeda."
+        ],
+        [
+          "Inflação metálica",
+          "aumento da moeda causado pela descoberta de metais preciosos, e não por emissão do governo."
+        ],
+        [
+          "Duplo padrão (bimetalismo)",
+          "regime em que ouro e prata são cunhados livremente a uma razão legal fixa."
+        ],
+        [
+          "Moeda elástica",
+          "meio circulante cuja quantidade se ajusta às variações sazonais e cíclicas da demanda por dinheiro."
+        ]
+      ],
+      "hoje": "Os dois textos de 1896 continuam no centro de debates atuais. A ideia de Clark de que a ameaça de entrada disciplina quem domina um mercado reaparece na discussão sobre plataformas digitais e concentração: até onde a concorrência potencial basta, e quando a regulação precisa agir. A preocupação de Walker com a deflação, que aumenta o peso real das dívidas e adia a recuperação, volta sempre que bancos centrais discutem metas de inflação positivas e o risco de preços em queda prolongada.",
+      "itens": [
+        [
+          "The Theory of Economic Progress",
+          "pp. 1–22",
+          "ia-es-1896-04_1_1-p1"
+        ],
+        [
+          "The Relation of Changes in the Volume of the Currency to Prosperity",
+          "pp. 23–45",
+          "ia-es-1896-04_1_1-p23"
+        ],
+        [
+          "Hand-Book: Introduction",
+          "pp. 7–9",
+          "ia-es-1896-04_1_1-p7"
+        ],
+        [
+          "Constitution",
+          "pp. 10–12",
+          "ia-es-1896-04_1_1-p10"
+        ],
+        [
+          "By-Laws",
+          "pp. 13–14",
+          "ia-es-1896-04_1_1-p13"
+        ],
+        [
+          "Officers",
+          "p. 15",
+          "ia-es-1896-04_1_1-p15"
+        ],
+        [
+          "Council",
+          "pp. 16–18",
+          "ia-es-1896-04_1_1-p16"
+        ],
+        [
+          "Honorary Members",
+          "p. 19",
+          "ia-es-1896-04_1_1-p19"
+        ],
+        [
+          "List of Members and Subscribers",
+          "pp. 20–39",
+          "ia-es-1896-04_1_1-p20"
+        ],
+        [
+          "The Eighth Annual Meeting: Report of Proceedings",
+          "pp. 43–47",
+          "ia-es-1896-04_1_1-p43"
+        ],
+        [
+          "Report of the Secretary",
+          "pp. 48–50",
+          "ia-es-1896-04_1_1-p48"
+        ],
+        [
+          "Treasurer’s Report",
+          "p. 51",
+          "ia-es-1896-04_1_1-p51"
+        ],
+        [
+          "Address of Welcome",
+          "pp. 52–54",
+          "ia-es-1896-04_1_1-p52"
+        ],
+        [
+          "Response to the Address of Welcome",
+          "pp. 54–55",
+          "ia-es-1896-04_1_1-p54"
+        ],
+        [
+          "Abstracts: The Theory of Economic Progress",
+          "pp. 56–58",
+          "ia-es-1896-04_1_1-p56"
+        ],
+        [
+          "Abstracts: The Relation of Changes in the Volume of the Currency to Prosperity",
+          "pp. 58–73",
+          "ia-es-1896-04_1_1-p58"
+        ],
+        [
+          "Abstracts: The Practicability and Desirability for the Commercial World of a Double Standard of Currency",
+          "pp. 74–97",
+          "ia-es-1896-04_1_1-p74"
+        ],
+        [
+          "Abstracts: Do We Want an Elastic Currency?",
+          "pp. 97–107",
+          "ia-es-1896-04_1_1-p97"
+        ],
+        [
+          "Abstracts: The Desirability of a Permanent Census Bureau",
+          "pp. 107–115",
+          "ia-es-1896-04_1_1-p107"
+        ],
+        [
+          "Abstracts: The Density of Population in the United States in 1890",
+          "pp. 115–123",
+          "ia-es-1896-04_1_1-p115"
+        ],
+        [
+          "Abstracts: Some Unpublished Letters of David Ricardo",
+          "pp. 123–126",
+          "ia-es-1896-04_1_1-p123"
+        ],
+        [
+          "Abstracts: The Formulation of Normal Laws with Especial Reference to the Theory of Utility",
+          "pp. 126–130",
+          "ia-es-1896-04_1_1-p126"
+        ],
+        [
+          "Abstracts: Pawn Shops as Studied in Cincinnati",
+          "pp. 130–134",
+          "ia-es-1896-04_1_1-p130"
+        ],
+        [
+          "Abstracts: The Fallacy of Saving",
+          "pp. 134–139",
+          "ia-es-1896-04_1_1-p134"
+        ],
+        [
+          "Abstracts: Cost, Singular and Plural",
+          "pp. 139–141",
+          "ia-es-1896-04_1_1-p139"
+        ],
+        [
+          "Abstracts: The Sphere of Voluntary Organization in Social Movements",
+          "pp. 141–161",
+          "ia-es-1896-04_1_1-p141"
+        ],
+        [
+          "Abstracts: Present Obstacles to the Adoption of Business Methods in Municipal Administration",
+          "pp. 161–178",
+          "ia-es-1896-04_1_1-p161"
+        ]
+      ],
+      "jstor_edicao": "",
+      "artigos": [
+        {
+          "titulo": "The Theory of Economic Progress",
+          "autores": "John B. Clark, Columbia University",
+          "paginas": "pp. 1–22",
+          "jstor": "ia-es-1896-04_1_1-p1",
+          "resumo": "Discurso presidencial de 27 de dezembro de 1895: a concorrência, mesmo sob trustes, e a acumulação de capital garantiriam progresso contínuo, com o custo das invenções passando do trabalho ao capital.",
+          "ensaio_slug": "clark-a-teoria-do-progresso-economico"
+        },
+        {
+          "titulo": "The Relation of Changes in the Volume of the Currency to Prosperity",
+          "autores": "Francis A. Walker, Massachusetts Institute of Technology",
+          "paginas": "pp. 23–45",
+          "jstor": "ia-es-1896-04_1_1-p23",
+          "resumo": "Defesa da teoria quantitativa e do argumento de que a inflação metálica estimula a atividade, enquanto a contração da moeda aumenta o peso das dívidas e prolonga as crises.",
+          "ensaio_slug": "walker-moeda-e-prosperidade"
+        },
+        {
+          "titulo": "Hand-Book: Introduction",
+          "autores": "texto institucional",
+          "paginas": "pp. 7–9",
+          "jstor": "ia-es-1896-04_1_1-p7",
+          "resumo": "Anuncia, no décimo segundo ano da associação, a série de estudos populares e breves; anuidade de três dólares, contribuição vitalícia de cinquenta."
+        },
+        {
+          "titulo": "Constitution",
+          "autores": "texto institucional",
+          "paginas": "pp. 10–12",
+          "jstor": "ia-es-1896-04_1_1-p10",
+          "resumo": "Objetivos da associação, entre eles a liberdade de discussão econômica sem posição partidária; até 25 sócios honorários estrangeiros; Comitê de Publicações de seis membros."
+        },
+        {
+          "titulo": "By-Laws",
+          "autores": "texto institucional",
+          "paginas": "pp. 13–14",
+          "jstor": "ia-es-1896-04_1_1-p13",
+          "resumo": "Funções dos dirigentes e nove comitês permanentes, de trabalho e transporte a estatística e ensino de economia política."
+        },
+        {
+          "titulo": "Officers",
+          "autores": "",
+          "paginas": "p. 15",
+          "jstor": "ia-es-1896-04_1_1-p15",
+          "resumo": "Henry C. Adams na presidência; Walker, Dunbar e Clark como ex-presidentes; Jeremiah W. Jenks secretário; Taussig à frente do Comitê de Publicações."
+        },
+        {
+          "titulo": "Council",
+          "autores": "",
+          "paginas": "pp. 16–18",
+          "jstor": "ia-es-1896-04_1_1-p16",
+          "resumo": "Membros do Conselho, por ano de término do mandato."
+        },
+        {
+          "titulo": "Honorary Members",
+          "autores": "",
+          "paginas": "p. 19",
+          "jstor": "ia-es-1896-04_1_1-p19",
+          "resumo": "Economistas estrangeiros como Alfred Marshall, Henry Sidgwick, Léon Walras, Eugen Böhm-Bawerk, Adolph Wagner, F. Y. Edgeworth e Charles Gide."
+        },
+        {
+          "titulo": "List of Members and Subscribers",
+          "autores": "",
+          "paginas": "pp. 20–39",
+          "jstor": "ia-es-1896-04_1_1-p20",
+          "resumo": "Relação alfabética de sócios e assinantes, com sinais para vitalícios, assinantes e honorários."
+        },
+        {
+          "titulo": "The Eighth Annual Meeting: Report of Proceedings",
+          "autores": "relatório da reunião",
+          "paginas": "pp. 43–47",
+          "jstor": "ia-es-1896-04_1_1-p43",
+          "resumo": "Programa da reunião de Indianápolis, de 27 a 31 de dezembro de 1895, com sessão conjunta com a Political Science Association of the Central States, e decisões do Conselho: Comitê de Publicações de seis membros, monografias sem periodicidade fixa, a nova série de seis a doze estudos por ano e resoluções a favor da cooperação com as autoridades do censo."
+        },
+        {
+          "titulo": "Report of the Secretary",
+          "autores": "Jeremiah W. Jenks",
+          "paginas": "pp. 48–50",
+          "jstor": "ia-es-1896-04_1_1-p48",
+          "resumo": "Registra 71 sócios vitalícios, 16 honorários, 485 regulares e 80 assinantes, 652 no total; a contratação da Macmillan e da gráfica Andrus & Church; e o excesso de páginas impressas no ano."
+        },
+        {
+          "titulo": "Treasurer’s Report",
+          "autores": "",
+          "paginas": "p. 51",
+          "jstor": "ia-es-1896-04_1_1-p51",
+          "resumo": "Contas do ano, com receitas de assinaturas, vendas, anuidades e contribuições e despesas das secretarias e de publicação."
+        },
+        {
+          "titulo": "Address of Welcome",
+          "autores": "Governador Matthews, de Indiana",
+          "paginas": "pp. 52–54",
+          "jstor": "ia-es-1896-04_1_1-p52",
+          "resumo": "Boas-vindas que lembram Robert Dale Owen e a experiência do condado de Posey e convidam a conhecer as leis, a caridade organizada e as escolas do estado."
+        },
+        {
+          "titulo": "Response to the Address of Welcome",
+          "autores": "John B. Clark",
+          "paginas": "pp. 54–55",
+          "jstor": "ia-es-1896-04_1_1-p54",
+          "resumo": "Clark marca o décimo aniversário da associação e atribui o seu êxito ao interesse do público americano por economia política, ciência de um Estado democrático."
+        },
+        {
+          "titulo": "Abstracts: The Theory of Economic Progress",
+          "autores": "John B. Clark",
+          "paginas": "pp. 56–58",
+          "jstor": "ia-es-1896-04_1_1-p56",
+          "resumo": "Resumo do discurso presidencial publicado na íntegra no nº 1."
+        },
+        {
+          "titulo": "Abstracts: The Relation of Changes in the Volume of the Currency to Prosperity",
+          "autores": "Irving Fisher, Francis A. Walker e debatedores",
+          "paginas": "pp. 58–73",
+          "jstor": "ia-es-1896-04_1_1-p58",
+          "resumo": "Irving Fisher contesta o argumento de que a valorização do ouro agrava as dívidas: quando prevista, ela é compensada por juros mais baixos. No exemplo dele, se o trigo deve cair de um dólar para 96 centavos em um ano, um empréstimo a 8% em ouro equivale a 12,5% em trigo. Os dados de títulos americanos em ouro e em moeda corrente e de títulos indianos em ouro e em prata confirmam que o padrão que se valoriza paga juros menores, com a média de 4,5% nos títulos em prata contra 3,5% nos títulos em ouro desde a queda do câmbio. Walker apresenta o resumo do texto publicado no nº 1. No debate, Willard Fisher afirma que a moeda age sobre os preços também via reservas bancárias e crédito; E. A. Ross descreve a queda de preços como destruição da estrutura das empresas; Taussig lembra que, nos últimos vinte anos, preços em queda vieram com rendas monetárias em alta; Bemis, Warner e Powers discutem quem deve ficar com os ganhos do progresso; W. A. Scott sugere que a causalidade pode ir dos preços para a quantidade de moeda."
+        },
+        {
+          "titulo": "Abstracts: The Practicability and Desirability for the Commercial World of a Double Standard of Currency",
+          "autores": "A. J. Warner, F. W. Taussig e debatedores",
+          "paginas": "pp. 74–97",
+          "jstor": "ia-es-1896-04_1_1-p74",
+          "resumo": "O general A. J. Warner, presidente da American Bimetallic League, sustenta que o padrão de valor é a massa dos metais usados como moeda e que, antes de 1873, ouro e prata juntos determinavam os preços; com a desmonetização da prata, os povos no padrão-ouro passaram de menos de 50 milhões para mais de 350 milhões. Taussig reconhece dois males reais, a instabilidade do câmbio com países de prata e o excesso de moeda de prata fiduciária, mas afirma que a queda de preços veio com rendas monetárias em alta; um acordo internacional seria frágil, e a política certa seria esperar e adotar o padrão-ouro. No debate, Scott critica a ideia de um “nível geral de preços” como alvo; Farnam compara o bimetalismo francês com as compras de prata americanas; Sherwood defende o bimetalismo pela estabilidade da unidade, mas o julga inviável; Gray e Ross destacam o peso das dívidas; F. C. Clark lembra as reservas de ouro para a guerra."
+        },
+        {
+          "titulo": "Abstracts: Do We Want an Elastic Currency?",
+          "autores": "F. M. Taylor, University of Michigan, e debatedores",
+          "paginas": "pp. 97–107",
+          "jstor": "ia-es-1896-04_1_1-p97",
+          "resumo": "Com dados semanais de Bradstreet’s, do Financial and Commercial Chronicle e das reservas dos bancos de Nova York, Taylor mostra que a necessidade de moeda varia por estação, caindo no meio do inverno e subindo muito no outono, e entre anos de expansão e de depressão. A falta de ajuste alterna reservas altas e baixas, juros fáceis e apertados, insegurança para os negócios e dificuldade de proteger a reserva de ouro. Cita a elasticidade de emergência na Inglaterra, os certificados de empréstimo das câmaras de compensação americanas e o sistema canadense. No debate, E. R. L. Gould propõe que o Tesouro troque moeda por títulos de 3% e vice-versa, conforme a estação; Taylor associa a ideia ao plano de Windom; Frank Fetter questiona a definição de elasticidade."
+        },
+        {
+          "titulo": "Abstracts: The Desirability of a Permanent Census Bureau",
+          "autores": "Richmond Mayo-Smith, Columbia College, e debatedores",
+          "paginas": "pp. 107–115",
+          "jstor": "ia-es-1896-04_1_1-p107",
+          "resumo": "Mayo-Smith descreve o censo decenal como uma das maiores operações estatísticas do mundo, mas caro, lento e penoso, porque concentra todo o trabalho num só momento. Propõe um escritório permanente, que manteria equipe treinada, distribuiria pesquisas ao longo da década, como um censo agrícola nos anos terminados em cinco, e poderia um dia produzir um censo anual. Falkner acrescenta que o escritório preservaria pessoal, preparação e o registro das decisões técnicas, e propõe resoluções para cooperar com as autoridades, aprovadas pelo Conselho. Lindsay lembra que a lei do censo de 1890 foi votada à noite, com 27 deputados presentes."
+        },
+        {
+          "titulo": "Abstracts: The Density of Population in the United States in 1890",
+          "autores": "Walter F. Willcox, Cornell University, e debatedores",
+          "paginas": "pp. 115–123",
+          "jstor": "ia-es-1896-04_1_1-p115",
+          "resumo": "Willcox recalcula a densidade da população por condado e compara as áreas de dois boletins do censo e do Geological Survey; nas áreas de condados, atribui ao boletim do censo uma margem média de erro de cerca de 5%. Calcula a densidade dos 2.797 condados e mede a desigualdade da ocupação de cada estado. Dos 133 condados com mais de cem habitantes por milha quadrada, 54 formam um cinturão de Baltimore ao sul de New Hampshire, com pouco menos de 1% da área do país e mais de um sexto da população. Mayo-Smith usa o caso para pedir mais crítica às estatísticas oficiais, inclusive às de dívida privada usadas no debate monetário."
+        },
+        {
+          "titulo": "Abstracts: Some Unpublished Letters of David Ricardo",
+          "autores": "J. H. Hollander, Johns Hopkins University",
+          "paginas": "pp. 123–126",
+          "jstor": "ia-es-1896-04_1_1-p123",
+          "resumo": "Hollander descreve cerca de setenta cartas de Ricardo encontradas na Inglaterra: 24 a Hutches Trower, de 1820 a 1823, guardadas no University College desde 1844, e a correspondência com J. R. McCulloch, quarenta cartas doadas ao Museu Britânico em 1894, com anexos de Malthus e a carta de James Mill sobre a morte de Ricardo. As cartas a Trower tratam sobretudo da atuação parlamentar; as dirigidas a McCulloch, de teoria econômica. Para Hollander, não são revolucionárias, mas iluminam o pensamento e a personalidade do autor."
+        },
+        {
+          "titulo": "Abstracts: The Formulation of Normal Laws with Especial Reference to the Theory of Utility",
+          "autores": "Simon N. Patten, University of Pennsylvania, e debatedores",
+          "paginas": "pp. 126–130",
+          "jstor": "ia-es-1896-04_1_1-p126",
+          "resumo": "Patten argumenta que a utilidade marginal revolucionou a teoria do valor de mercado, feita de forças momentâneas, mas pouco esclareceu a comparação entre épocas, em que as leis normais e o conceito de homem econômico seguem úteis. Ross, Langworthy Taylor e Sherwood discutem se o método marginal se estende à distribuição do excedente do progresso e às pressões sociais sobre a escolha individual."
+        },
+        {
+          "titulo": "Abstracts: Pawn Shops as Studied in Cincinnati",
+          "autores": "H. A. Millis, Indiana University, e debatedores",
+          "paginas": "pp. 130–134",
+          "jstor": "ia-es-1896-04_1_1-p130",
+          "resumo": "Millis descreve o crédito dos que não têm nome nem imóvel. Em Cincinnati, a lei de Ohio obriga o penhorista a registrar cada operação e a informar a polícia, mas não limita os juros, que vão de 3% a 10% ao mês conforme o valor e o cliente. Ele duvida que a atividade funcione com taxas muito menores, mas propõe tabelas mais equitativas para os pequenos empréstimos. Lindsay compara com as experiências filantrópicas de Nova York e Massachusetts."
+        },
+        {
+          "titulo": "Abstracts: The Fallacy of Saving",
+          "autores": "Henry R. Seager, University of Pennsylvania, e debatedores",
+          "paginas": "pp. 134–139",
+          "jstor": "ia-es-1896-04_1_1-p134",
+          "resumo": "Seager responde a autores que veem na poupança excessiva a causa de superprodução. A queda dos juros e a especulação, que destrói capital, conteriam o excesso, e os preços de varejo acompanhariam os de atacado: pelo relatório de Falkner ao Senado, de 1889 a 1891 os preços de atacado caíram em média 0,33% e os de varejo, 0,64%. As crises teriam outras causas, como mudanças de tarifa, crédito, guerra ou safra. Bemis contesta que a queda dos juros reduza a poupança."
+        },
+        {
+          "titulo": "Abstracts: Cost, Singular and Plural",
+          "autores": "W. G. Langworthy Taylor, University of Nebraska",
+          "paginas": "pp. 139–141",
+          "jstor": "ia-es-1896-04_1_1-p139",
+          "resumo": "Defesa da teoria marginal do valor contra quem nega generalizações econômicas; propõe tratar valores como áreas, e não como razões, para ligar custos totais e particulares, com diagramas de segmentos circulares."
+        },
+        {
+          "titulo": "Abstracts: The Sphere of Voluntary Organization in Social Movements",
+          "autores": "Lester F. Ward, C. R. Henderson e debatedores",
+          "paginas": "pp. 141–161",
+          "jstor": "ia-es-1896-04_1_1-p141",
+          "resumo": "Ward exclui das organizações voluntárias a sociedade, a família e o Estado e as define como produtos do cálculo racional, cujo fim não declarado é aumentar a eficiência social. Henderson classifica as associações pelo propósito, do clube recreativo às que melhoram escola, Estado e igreja, e lista usos e abusos. No debate, Lindsay cita a pavimentação de Indianápolis, de cerca de quatro milhões de dólares, atribuída ao Commercial Club; W. D. Foulke relata a campanha da associação estadual de reforma do serviço público; Albion W. Small fala do valor pedagógico dos fatos próximos."
+        },
+        {
+          "titulo": "Abstracts: Present Obstacles to the Adoption of Business Methods in Municipal Administration",
+          "autores": "Franklin MacVeagh, Clinton Rogers Woodruff e debatedores",
+          "paginas": "pp. 161–178",
+          "jstor": "ia-es-1896-04_1_1-p161",
+          "resumo": "MacVeagh lista as condições legais de um bom governo municipal: independência e responsabilidade do prefeito, câmara com poderes restritos e salários adequados, sistema de mérito, autonomia local e reforma eleitoral; o obstáculo maior seria a ausência do bom cidadão. Woodruff aponta o comercialismo, o partidarismo, a pouca atenção ao governo local, a interferência legislativa no executivo e a falta de autonomia. John H. Gray, Washington Gladden e E. W. Bemis completam o debate com as raízes econômicas do problema e o papel dos monopólios urbanos."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "clark-a-teoria-do-progresso-economico",
+          "titulo": "Clark, 1895: o progresso econômico pode parar?",
+          "titulo_original": "The Theory of Economic Progress",
+          "autores": "John B. Clark (Columbia University)",
+          "paginas": "pp. 1–22",
+          "jstor": "ia-es-1896-04_1_1-p1",
+          "chamada": "No discurso presidencial de 1895, Clark pergunta se trustes e máquinas podem levar a sociedade a um impasse e responde que a concorrência, mesmo latente, e o capital novo mantêm o progresso.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "John B. Clark abre o discurso pela expectativa, não pelos números. Opiniões sobre o futuro costumam ser otimistas, diz, e o progresso mecânico reforça a confiança de que a máquina vai aliviar o trabalho. Logo vem a frase que dá o tom: um estado sem progresso seria intolerável, por melhor que fosse, e um estado em progresso seria redimido pelo movimento, por pior que fosse."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“um paraíso estático seria intolerável; mas um purgatório dinâmico teria ao menos um encanto supremo”",
+              "original": "static paradise would be intolerable ; but a dynamic purgatory would have at least one supreme charm"
+            },
+            {
+              "tipo": "p",
+              "texto": "Foi o discurso de abertura da oitava reunião anual da American Economic Association, em Indianápolis, em 27 de dezembro de 1895, e saiu na íntegra como primeiro texto do nº 1 dos Economic Studies, em abril de 1896. Clark era então professor de economia política na Columbia University e presidente da associação. O alvo explícito é a imagem do estado estacionário de John Stuart Mill, que ele vê como o retrato mais sombrio deixado pela economia política do primeiro período."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a troca põe a economia em movimento?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto de partida é uma tensão entre duas leis. Um homem precisa consumir coisas variadas, porque uma renda grande numa só forma saciaria uma só necessidade e a última unidade nada valeria. Mas produzir bem exige especialização. Isolado, ele teria de escolher: fazer um pouco de tudo e perder como produtor, ou especializar-se e perder como consumidor. A vida isolada seria estática, presa num impasse criado pelas forças econômicas primárias."
+            },
+            {
+              "tipo": "p",
+              "texto": "A troca desfaz o impasse: produzindo para um mercado e comprando dele, a pessoa especializa a produção e diversifica o consumo ao mesmo tempo. Clark acrescenta que essa liberdade tem um preço. A lei econômica põe o homem numa oficina, por dez horas, e dita o que ele faz. Podemos trabalhar ou não, escolher a ocupação ou não, mas, se não atendermos às necessidades dos outros, pouco receberemos. A sociedade inteira, porém, não tem com quem trocar. A fonte do progresso tem de estar dentro dela."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que a concorrência faz com os empregadores?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Essa fonte é a concorrência, definida como rivalidade no serviço mútuo, emulação e não guerra. A especialização abre espaço para a máquina, que só tem uso quando há mercado, e a máquina, uma vez introduzida, é obrigada a evoluir, porque cada empregador depende da eficiência relativa do seu equipamento. O empregador ocupa posição estratégica, porque decide o que e como produzir, e crítica, porque só sobrevive se for tão eficiente quanto os rivais."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí a sequência que Clark descreve: na primeira fila, a mera sobrevivência; à frente dela, o lucro; quando todos alcançam o mais adiantado, o progresso social. Novas máquinas, materiais e fontes de energia entram primeiro numa empresa, depois em todas, e o público acaba com bens mais baratos. Ele chama isso de rivalidade em beneficência compulsória: o interesse próprio obrigado a servir aos outros. Segurança para os empregadores, conclui, significaria paralisia para a sociedade."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os trustes param o progresso?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O monopólio daria exatamente essa segurança. Clark lembra que já havia apresentado à associação razões para crer que a concorrência sobrevive aos trustes: preços altos demais atraem novos concorrentes, e a simples perspectiva disso costuma conter as exigências. Agora ele quer testar o limite teórico. Admite que, até o ponto em que a concorrência latente se torna ativa, os preços podem subir acima do normal, e que sobram ganhos de monopólio."
+            },
+            {
+              "tipo": "p",
+              "texto": "A questão vital, diz, não é o tamanho desse ganho, mas o efeito sobre o progresso. Se uma combinação acelera o movimento, deve ser bem-vinda mesmo com lucros enormes; se o freia, o Estado deve combatê-la mesmo que não cobre nada. O argumento é de ordem de grandeza: a exação do truste opera aritmeticamente, tira do público uma soma; o avanço opera geometricamente, multiplica a produtividade todos os dias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para o caso extremo, Clark imagina um mundo com um truste em cada indústria, todos restringindo a produção e enriquecendo. Os lucros acumulados precisam virar capital, e capital tem de produzir alguma coisa. Se um truste não quer ampliar a própria produção, entra no território de outro. Essa concorrência cruzada seria especialmente eficaz, porque o invasor já tem mercado e não pode ser esmagado por guerra de preços. Ele invoca o princípio dos custos fixos e variáveis, estudado nas ferrovias: se os custos gerais são cobertos por máquinas de costura, bicicletas podem ser vendidas mais baratas. É o princípio, diz, das lojas de departamentos."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4",
+              "texto": "Proposições que Clark formula sobre as combinações de produtores: (1) a concorrência latente mantém sob controle as exações do truste; (2) não é necessário nem desejável que essa influência anule os ganhos da combinação; (3) a acumulação de capital é a garantia última do progresso industrial; (4) o progresso torna secundária qualquer exação de valor fixo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem paga o custo das invenções?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda parte trata do trabalho. Clark não nega o dano: as invenções do passado trouxeram sofrimento local aos trabalhadores, mas um benefício geral que, no conjunto, é quase todo o ganho que o trabalho obtém. Uma máquina nova desloca gente de um posto, embora a demande em outros cem. O problema maior no passado era que, ao mudar de ofício, o tecelão substituído pelo tear mecânico perdia a habilidade acumulada e começava por baixo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com a maquinaria moderna, sustenta, isso muda. O operário executa uma operação simples, que se aprende depressa, e pode passar a outra com pouca perda. Se buscar formação ampla, seu ofício passa a ser dominar a maquinaria, e não uma máquina. Ele admite que os trabalhadores ainda não chegaram a essa adaptabilidade, porque não houve tempo, mas diz que a própria mudança dos processos já tornou a mobilidade menos difícil. Ao mesmo tempo, o custo da transição migra para o capital: a máquina complexa é uma especialista sem adaptação, e a ultrapassada vira sucata, por maior que tenha sido o investimento."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“do homem para a máquina foi o elemento que prende”",
+              "original": "out of the man into the machine has gone the element that binds"
+            },
+            {
+              "tipo": "h2",
+              "texto": "De que lado fica o trabalho?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O capital poderia resistir a carregar esses custos, mas Clark diz que a resistência seria inútil: a política eficaz é adotar as melhorias, aceitar a perda e lucrar mais do que ela. O resultado depende da natureza irreprimível da concorrência, e esta depende do capital novo que entra no mercado. Por isso, diz, é o capital honesto, criado e não tomado de alguém, que precisa ser protegido, no interesse do próprio trabalho. Ele prefere essa força econômica a forças legais de ação incerta."
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão desloca a linha do conflito. Clark reconhece que capital e trabalho não têm interesses idênticos em tudo, como mostra a fixação de salários numa greve, mas vê identidade permanente no crescimento do capital. A batalha do futuro seria entre a riqueza honesta e a desonesta: o trabalho seria aliado natural de quem enfrenta um truste predatório e dos acionistas contra diretores fraudulentos. O trabalhador continuaria a exigir cada dólar de salário, a se organizar e a fazer greve até haver meio melhor de ajustar as pretensões, mas veria no capital legítimo o meio de elevar salários e garantir o progresso futuro."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o discurso é um exercício de teoria dinâmica em defesa de uma tese empírica que Clark não testa: a de que a concorrência latente e o capital novo bastam para disciplinar combinações. O argumento de ordem de grandeza, perda fixa contra ganho que se multiplica, é forte e continua útil para avaliar políticas de concorrência. Mas depende de que a combinação não reduza o próprio ritmo de inovação, que é justamente o ponto em disputa.",
+                "O mesmo vale para o trabalho. A ideia de que a maquinaria transfere o custo da obsolescência para o capital é sugestiva, e Clark tem o cuidado de dizer que a adaptabilidade ainda não está pronta e exige formação. A promessa depende, portanto, de um investimento em capacitação que o texto apenas recomenda."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Estado estacionário",
+              "situação sem crescimento de produção e população, descrita por John Stuart Mill como destino da economia competitiva."
+            ],
+            [
+              "Concorrência latente",
+              "possibilidade de entrada de rivais, que limita preços mesmo sem concorrentes efetivos."
+            ],
+            [
+              "Concorrência cruzada",
+              "termo de Clark para o uso dos lucros de um truste na produção de bens controlados por outro."
+            ],
+            [
+              "Custos fixos e variáveis",
+              "custos que não mudam com o volume produzido e custos que mudam; os primeiros, se já cobertos, permitem vender outros produtos mais barato."
+            ],
+            [
+              "Obsolescência",
+              "perda de valor de uma máquina superada por outra mais eficiente."
+            ]
+          ],
+          "hoje": "A tese de Clark, de que importa mais o efeito de uma combinação sobre a inovação do que o tamanho da sua margem, é parte do debate atual sobre fusões e grandes empresas de tecnologia. Autoridades de concorrência discutem justamente se a ameaça de entrada basta para disciplinar quem domina um mercado e como medir danos à inovação. A questão da requalificação dos trabalhadores deslocados por novas tecnologias, que Clark tratava como condição da sua promessa, segue no centro das políticas de emprego."
+        },
+        {
+          "slug": "walker-moeda-e-prosperidade",
+          "titulo": "Walker, 1895: a quantidade de moeda decide a prosperidade?",
+          "titulo_original": "The Relation of Changes in the Volume of the Currency to Prosperity",
+          "autores": "Francis A. Walker (Massachusetts Institute of Technology)",
+          "paginas": "pp. 23–45",
+          "jstor": "ia-es-1896-04_1_1-p23",
+          "chamada": "Walker defende a teoria quantitativa, separa a inflação por decreto da inflação metálica e sustenta que a contração da moeda aumenta o peso das dívidas, corrói lucros e prolonga as crises.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Durante a Revolução Americana, lembra Francis A. Walker, o Congresso Continental substituiu a prata em circulação, talvez uns dezoito milhões de dólares, por papel de valor nominal superior a trezentos milhões. Todos concordaram que o excesso de quantidade fez os preços subirem até que o soldo de um coronel mal comprasse aveia para o cavalo. O episódio abre a série de casos históricos com que Walker, presidente do Massachusetts Institute of Technology, defende a teoria quantitativa da moeda."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto foi lido no simpósio sobre moeda e prosperidade da oitava reunião anual da American Economic Association, em Indianápolis, em 28 de dezembro de 1895, ao lado de um trabalho de Irving Fisher, e saiu na íntegra no nº 1 dos Economic Studies, em abril de 1896. O manual de 1896 o lista em primeiro lugar entre os ex-presidentes da associação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que começar pela teoria quantitativa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira frase explica o método: a visão sobre a relação entre moeda e prosperidade depende da visão sobre a relação entre moeda e preços. Quem nega a teoria quantitativa não tem por que admitir que o volume do meio circulante afete a prosperidade. Walker reclama de que estava na moda negar ou menosprezar a doutrina e cita David A. Wells, que, diante de um aumento da moeda americana com preços em queda, perguntara como a teoria se harmonizava com os fatos. O mesmo Wells, nota, atribuíra à emissão a alta de preços do período dos greenbacks."
+            },
+            {
+              "tipo": "p",
+              "texto": "A história, diz, fala a favor da teoria. Ninguém duvidou de que a prata sul-americana dos séculos XVI e XVII causou a alta de preços; ninguém duvidou do papel-moeda continental, dos assignats franceses ou do ouro da Califórnia e da Austrália por volta de 1850. Só quando os preços caem alguém duvida. Além disso, a teoria seria apenas a aplicação à moeda do princípio geral de que o valor se determina pela oferta e pela procura. Caberia aos críticos mostrar por que esse princípio falharia justamente aqui, e ninguém, segundo Walker, mostrou o que governa os preços se não for a oferta e a procura de moeda."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os preços sobem menos que a moeda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A resposta está na cláusula “tudo o mais constante”. Os dados de câmaras de compensação e crédito, que os críticos invocavam, explicariam apenas por que a procura por moeda não é maior. Hábitos de uso do dinheiro mudam, e o próprio aumento da moeda pode criar demanda por ela. Walker cita Jacob, que estimara um aumento de cerca de 500% da moeda nas primeiras gerações após a descoberta da América, com alta de preços quase igual, e a revisão de Cliffe Leslie, que chegou a pouco mais de 200%. A diferença não refuta a teoria: a prata nova estimulou empreendimentos e produção, como mostrara Cairnes, e a produção maior absorveu parte do dinheiro novo."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "500%",
+              "texto": "Aumento da quantidade de moeda nas primeiras gerações após a descoberta da América, segundo a estimativa de Jacob citada por Walker. Jacob calculou alta de preços quase tão grande; Cliffe Leslie reduziu-a para pouco mais de 200%. Para Walker, a distância se explica por “outras coisas” que não ficaram constantes, como a expansão da produção."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Toda inflação é igual?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não, e a distinção é o centro moral do texto. A inflação deliberada, por ato de governo, para elevar preços e reduzir dívidas, merece a mais grave condenação, por justiça social e por conveniência econômica. Walker compara a diferença entre ela e a inflação por novas minas à diferença entre a morte natural de um avarento, cuja herança passa a um herdeiro generoso, e o assassinato do avarento para mudar a propriedade dos seus bens."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“carrega consigo o ferrão da fraude”",
+              "original": "It carries with it the sting of fraud"
+            },
+            {
+              "tipo": "p",
+              "texto": "A inflação metálica, que não carrega injustiça, Walker considera muito benéfica, mais do que admitiam os economistas de raciocínio a priori. Cita Hume: o dinheiro novo favorece a indústria no intervalo entre a sua chegada e a alta geral dos preços, porque chega primeiro às mãos de poucos que o empregam. E acrescenta o efeito sobre as dívidas: o mundo está sempre preso a obrigações herdadas, e um aumento natural da moeda alivia esse peso. Reforça com Chevalier, McCulloch, Jevons e Cairnes, para quem a prata americana até apressou a decadência do poder feudal."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que a contração da moeda faz?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Walker aponta uma incoerência nos economistas que se diziam ortodoxos: os mesmos que viam males ilimitados na inflação do papel-moeda tratavam a contração como irrelevante. Cita Wells, para quem, se toda a moeda sumisse, haveria inconveniência, como sem as réguas e medidas, mas nem um acre a menos seria cultivado. Walker responde que a contração, absoluta ou relativa ao crescimento do comércio, aumenta de imediato o peso de todas as dívidas e encargos fixos, e que a margem de quem empreende com capital emprestado é estreita."
+            },
+            {
+              "tipo": "p",
+              "texto": "O mal principal, porém, estaria na queda dos preços. No sistema moderno, o único motivo para produzir é o lucro esperado. Um fabricante compra 200 mil dólares de material e paga 300 mil de salários esperando lucrar talvez 20 ou 25 mil; uma pequena queda de preços entre a compra e a venda pode apagar o lucro ou virá-lo em prejuízo. O terço inferior de cada ramo, que compra, produz e vende em desvantagem, é o primeiro a sofrer, e as suas falências desorganizam o mercado de bens e de empréstimos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há ainda as crises. Walker considera inevitável que períodos de produção estimulada alternem com depressões e sustenta que a tendência de queda dos preços torna as perturbações mais frequentes, mais severas e mais longas. Descreve o círculo vicioso: produtores reduzem a produção porque o consumo caiu, e o consumo segue baixo porque os trabalhadores, produzindo pouco, têm pouco para gastar. Com preços em queda, a confiança volta mais devagar. Ele resume com a imagem do nadador: pouca coisa no pescoço o leva ao fundo; pouca coisa sob os braços o mantém à tona por horas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O crédito não compensa a falta de moeda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Era o argumento mais comum da época. Walker responde com L. L. Price, presidente da seção de economia da British Association: o crédito obscurece a relação entre o metal e os preços, mas não a destrói, porque se expande e se contrai limitado pela base de dinheiro em que se apoia, por meio das reservas bancárias. Walker acrescenta uma dúvida própria: o crédito talvez seja menos ativo, e não mais, quando a moeda está em contração."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“a relação não é irreal porque é indireta”",
+              "original": "the relation is not unreal because it is indirect"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do texto está na assimetria que ele denuncia: tratar a inflação como desastre e a deflação como indiferença é incoerente se a moeda importa. A ênfase no lucro esperado, nas dívidas nominais e na margem estreita do empresário marginal antecipa a forma como a economia monetária passou a pensar os custos da deflação.",
+                "O ponto fraco é o mesmo que Taussig levantou no debate: Walker não separa a queda de preços causada pela escassez de moeda da queda causada por ganhos de produtividade, que pode vir com rendas monetárias em alta. A distinção entre inflação por decreto e inflação por minas, por sua vez, é moral antes de ser econômica; os efeitos sobre devedores e credores dependem menos da origem do dinheiro novo que da surpresa com que ele chega."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Teoria quantitativa da moeda",
+              "doutrina segundo a qual, tudo o mais constante, os preços variam com a quantidade de moeda."
+            ],
+            [
+              "Assignats",
+              "papel-moeda emitido na Revolução Francesa, lastreado em bens nacionalizados, que se desvalorizou rapidamente."
+            ],
+            [
+              "Greenbacks",
+              "papel-moeda de curso forçado emitido pelos Estados Unidos durante a Guerra Civil."
+            ],
+            [
+              "Contração relativa",
+              "situação em que a moeda não acompanha o crescimento do comércio, mesmo sem diminuir em termos absolutos."
+            ],
+            [
+              "Câmara de compensação",
+              "instituição em que bancos liquidam entre si cheques e saldos, reduzindo o uso de dinheiro."
+            ]
+          ],
+          "hoje": "A preocupação de Walker com a deflação reaparece sempre que bancos centrais explicam por que preferem metas de inflação positivas: preços em queda aumentam o peso real das dívidas, podem adiar decisões de gasto e dificultam a recuperação depois de uma crise. O debate que ele não resolveu, entre deflação ruim, por falta de demanda, e deflação benigna, por ganhos de produtividade, continua aberto na análise de episódios históricos e de economias com preços estagnados."
+        }
+      ]
+    },
+    {
+      "slug": "1896-salario-e-eficiencia",
+      "numero": "ES 2",
+      "titulo": "Towne, Halsey e Taylor: como pagar o trabalho pela eficiência",
+      "titulo_original": "The Adjustment of Wages to Efficiency: Three Papers on Gain-Sharing, the Premium Plan, a Piece-Rate System",
+      "autores": "Henry R. Towne, F. A. Halsey e Fred W. Taylor",
+      "publicacao": "Economic Studies",
+      "serie": "economic-studies",
+      "colecao": "eua",
+      "volume": "vol. 1, nº 2",
+      "data": "junho de 1896",
+      "archive_id": "sim_economic-studies_1896-06_1_2",
+      "chamada": "Três engenheiros discutem como ligar salário e produtividade: a partilha de ganhos de Towne, o prêmio por hora poupada de Halsey e a tarifa diferencial por peça de Taylor, testada na Midvale Steel.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Na Midvale Steel Company, em Filadélfia, uma peça forjada padrão era torneada à razão de quatro a cinco por dia, a 50 centavos cada. Fred W. Taylor decompôs o trabalho em operações elementares, cronometrou cada uma e concluiu que dez por dia eram possíveis. Ofereceu 35 centavos por peça a quem fizesse dez e 25 a quem fizesse menos. Os torneiros passaram a ganhar 3,50 dólares por dia, e o custo por peça caiu cerca de 40%."
+        },
+        {
+          "tipo": "p",
+          "texto": "O caso está no terceiro dos três textos reunidos no nº 2 dos Economic Studies, de junho de 1896, sob o título comum The Adjustment of Wages to Efficiency. Uma nota do Comitê de Publicações explica que os trabalhos foram lidos na American Society of Mechanical Engineers nas reuniões de 1889, 1891 e 1895 e que, embora impressos nos anais daquela sociedade, eram de difícil acesso para estudantes de economia. Os três autores são engenheiros e administradores de fábrica, e os três tratam do mesmo problema: como pagar de modo que o operário queira produzir mais e o empregador não precise cortar o preço da peça."
+        },
+        {
+          "tipo": "h2",
+          "texto": "É possível dividir o ganho sem dividir o lucro?",
+          "artigo": "ia-es-1896-06_1_2-p51",
+          "credito": "Henry R. Towne · “Gain-Sharing” · pp. 51–74"
+        },
+        {
+          "tipo": "p",
+          "texto": "Henry R. Towne parte da distinção do dicionário de Webster entre lucro e ganho para criar o nome do seu sistema. A participação nos lucros, diz, faz o operário depender de fatores que ele não controla, como compras, vendas, preços de matéria-prima e dívidas incobráveis, e, se dada sem contrapartida, é uma liberalidade que nem sempre agrada a homens que se respeitam. A partilha de ganhos isola apenas os custos que os empregados podem influenciar: trabalho, matéria-prima medida em quantidade a preço fixo, suprimentos, energia, reparos e supervisão."
+        },
+        {
+          "tipo": "p",
+          "texto": "O empregador mede o custo anterior da unidade, credita a produção a esse preço de contrato e divide com os empregados a economia obtida, sem mexer nos salários. No exemplo de Towne, o custo cai de um dólar para 95 centavos, o ganho é de 800 dólares e a folha anual, de 10 mil; a metade dos empregados, 400 dólares, dá um dividendo de 4% sobre os salários, cerca de duas semanas de pagamento extra."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "21",
+          "texto": "Contratos de partilha de ganhos que Towne havia instituído, todos com divisão meio a meio entre empresa e empregados. Na fundição da Yale & Towne, em Stamford, as regras de dezembro de 1887 reservavam 50% para a empresa, 10% para o mestre e 40% para os operários, na proporção dos salários. O sistema alcançava cerca de 300 empregados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Towne recomenda contratos longos, de três a cinco anos, para que o operário não tema que o ganho de hoje vire corte de preço amanhã, sugere dar ao mestre uma parte definida do fundo, de 10% a 15%, para que a sua remuneração dependa em boa medida do resultado, e admite que o primeiro ano costuma decepcionar, até que o primeiro dividendo em dinheiro convença os empregados. Os apêndices trazem os resultados de vários contratos, um quadro mensal afixado na oficina e as regras da fundição."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "towne-a-partilha-de-ganhos",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que pagar um prêmio pela hora poupada?",
+          "artigo": "ia-es-1896-06_1_2-p75",
+          "credito": "F. A. Halsey · “The Premium Plan of Paying for Labor” · pp. 75–88"
+        },
+        {
+          "tipo": "p",
+          "texto": "F. A. Halsey compara quatro formas de pagamento. Na diária, todo esforço extra do operário beneficia só o empregador, e o ritmo se acomoda. Na tarefa por peça, ocorre o contrário: fixado o preço, o ganho é só do operário, até que o empregador corta o preço e ensina a todos que produzir demais é perigoso. A participação nos lucros dá aos operários o que eles não ganharam, dilui o esforço individual, adia a recompensa, não prevê anos ruins e depende de contas que eles não podem conferir."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Cortar o preço da peça é simplesmente matar a galinha dos ovos de ouro.”",
+          "original": "Cutting the piece price is simply killing the goose that lays the golden egg."
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano de prêmio fixa o tempo da tarefa pela experiência anterior e paga, além da diária, um prêmio por hora poupada, sempre menor que o salário por hora. Assim, cada hora economizada reduz o custo da peça e aumenta o ganho horário do operário. No exemplo de Halsey, uma tarefa de dez horas a 30 centavos por hora custa 3 dólares; com prêmio de 10 centavos por hora poupada, feita em cinco horas, custa 2 dólares, e o operário passa a ganhar 40 centavos por hora. Se o prêmio for bem escolhido, diz Halsey, nunca deve ser cortado."
+        },
+        {
+          "tipo": "p",
+          "texto": "O valor do prêmio fica a critério do empregador: generoso onde produzir mais exige mais esforço físico, moderado onde basta atenção às velocidades da máquina. Um prêmio irrisório não convence ninguém; um alto demais apenas encarece o trabalho. Halsey insiste que o ganho do empregador vem também da maior capacidade da fábrica, que libera máquinas para outras encomendas. Na prática, o mestre entrega um cartão de tempo com o tempo-base e o prêmio impressos no verso; em trabalhos de grupo, o prêmio é dividido entre os que trabalharam na máquina, na proporção do tempo. A transição a partir da diária é fácil, porque nada é obrigatório e a contabilidade muda pouco."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "halsey-o-plano-de-premio",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pode a fábrica saber quanto tempo uma tarefa deve levar?",
+          "artigo": "ia-es-1896-06_1_2-p89",
+          "credito": "Fred W. Taylor · “A Piece-Rate System” · pp. 89–129"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fred W. Taylor descreve o sistema que introduziu na Midvale Steel Company e que, segundo ele, funcionava havia dez anos. São três elementos: um departamento de fixação de tarifas por operações elementares, a tarifa diferencial por peça e o pagamento dos diaristas pelo mérito individual. A crítica de partida é que, em todos os sistemas usuais, o preço da tarefa nasce de registros de quanto ela levou, e os operários aprendem a trabalhar devagar quando estão sendo observados. Taylor chama isso de soldiering e diz ser comum o ritmo de um terço ou um quarto da velocidade máxima."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta é medir. Cada tarefa é decomposta em operações elementares, cronometradas, classificadas e indexadas, e o tempo total é somado a partir delas. Sobre esse tempo, a tarifa diferencial paga um preço alto por peça a quem cumpre o máximo sem defeitos e um preço baixo a quem fica aquém. Taylor elogia a partilha de ganhos de Towne e o plano de Halsey, mas diz que ambos partem de tempos medidos de forma desigual e que o primeiro não reconhece o mérito individual."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 0,69",
+          "texto": "Custo por peça na Midvale com a tarifa diferencial, contra US$ 1,17 no sistema comum. No quadro de Taylor, o custo diário de máquina é o mesmo, US$ 3,37; o salário sobe de US$ 2,50 para US$ 3,50, mas a produção passa de 5 para 10 peças por torno por dia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Taylor sustenta que os custos indiretos, como impostos, seguros, depreciação, aluguel, juros e salários de escritório, igualam ou superam os salários diretos e quase não variam com o volume; por isso, pagar mais por uma produção proporcionalmente maior sai mais barato. Diz que nunca houve greve sob a tarifa diferencial e, embora reconheça os serviços prestados pelos sindicatos, considera a negociação coletiva inferior ao pagamento individual. Prevê que poucas empresas adotariam o sistema, que exige organização e máquinas em bom estado."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "taylor-um-sistema-de-tarifa-por-peca",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Além da nota do Comitê de Publicações, a edição traz os três apêndices de Towne: um quadro de resultados de contratos de partilha de ganhos, com salários, ganho ou perda e taxa de dividendo; o quadro mensal de um contrato, em que a parte dos ajudantes era de 25% do ganho e o dividendo do ano chegou a 5,7% dos salários; e as regras do sistema na fundição de Stamford. O texto de Taylor traz um índice por parágrafos, numerados de 1 a 93."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, os três textos são um debate sobre incentivos e informação antes que esses termos existissem. Towne quer separar o que o trabalhador controla do que não controla; Halsey quer dividir o ganho de produtividade de modo que nenhuma das partes tenha motivo para trapacear; Taylor quer eliminar a assimetria de informação sobre o tempo da tarefa, que dá ao operário poder de esconder o ritmo possível. O ponto comum é que o corte de preço destrói o incentivo, e cada um propõe um compromisso diferente para tornar crível a promessa do empregador.",
+            "A diferença está em quem detém a informação. Nos planos de Towne e Halsey, a base é o desempenho passado, que o próprio operário ajudou a formar. No de Taylor, a base é medida pela empresa. Isso torna o sistema mais preciso e também desloca o poder de definir o que é um dia de trabalho, tema que os textos registram mas não resolvem."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Tarefa por peça (piece-work)",
+          "pagamento por unidade produzida, e não por tempo trabalhado."
+        ],
+        [
+          "Partilha de ganhos (gain-sharing)",
+          "divisão entre empresa e empregados da redução de custos que estes controlam, sem envolver o lucro total."
+        ],
+        [
+          "Participação nos lucros (profit-sharing)",
+          "distribuição aos empregados de uma parte do lucro final da empresa."
+        ],
+        [
+          "Plano de prêmio",
+          "pagamento, além da diária, de um valor por hora poupada em relação a um tempo-base."
+        ],
+        [
+          "Tarifa diferencial",
+          "dois preços por peça para a mesma tarefa, alto para quem cumpre o máximo sem defeitos e baixo para quem não cumpre."
+        ],
+        [
+          "Soldiering",
+          "termo de oficina para o trabalho deliberadamente lento, usado para esconder o ritmo possível."
+        ],
+        [
+          "Custos indiretos",
+          "despesas que não variam com a produção, como aluguel, juros, seguros e salários de escritório."
+        ]
+      ],
+      "hoje": "Os três planos têm descendentes diretos. Programas de participação em resultados com metas de custo ou produtividade seguem a lógica de Towne; bônus por desempenho com base histórica lembram Halsey; e a medição de tempos, metas individuais e monitoramento de produtividade, hoje feita por sistemas digitais em armazéns e plataformas, é herdeira do método de Taylor. O dilema que os três discutem, como evitar que o aumento de produtividade seja punido com metas mais duras, continua no centro da negociação entre empresas e trabalhadores.",
+      "itens": [
+        [
+          "Gain-Sharing",
+          "pp. 51–74",
+          "ia-es-1896-06_1_2-p51"
+        ],
+        [
+          "The Premium Plan of Paying for Labor",
+          "pp. 75–88",
+          "ia-es-1896-06_1_2-p75"
+        ],
+        [
+          "A Piece-Rate System, Being a Step toward Partial Solution of the Labor Problem",
+          "pp. 89–129",
+          "ia-es-1896-06_1_2-p89"
+        ]
+      ],
+      "jstor_edicao": "",
+      "artigos": [
+        {
+          "titulo": "Gain-Sharing",
+          "autores": "Henry R. Towne",
+          "paginas": "pp. 51–74",
+          "jstor": "ia-es-1896-06_1_2-p51",
+          "resumo": "Propõe dividir com os empregados a redução dos custos que eles controlam, medida contra preços de contrato fixos, sem envolver o lucro total da empresa; com apêndices de resultados e as regras da fundição de Stamford.",
+          "ensaio_slug": "towne-a-partilha-de-ganhos"
+        },
+        {
+          "titulo": "The Premium Plan of Paying for Labor",
+          "autores": "F. A. Halsey",
+          "paginas": "pp. 75–88",
+          "jstor": "ia-es-1896-06_1_2-p75",
+          "resumo": "Compara diária, tarefa por peça e participação nos lucros e propõe um prêmio por hora poupada, menor que o salário horário, que reduz o custo e eleva o ganho do operário ao mesmo tempo.",
+          "ensaio_slug": "halsey-o-plano-de-premio"
+        },
+        {
+          "titulo": "A Piece-Rate System, Being a Step toward Partial Solution of the Labor Problem",
+          "autores": "Fred W. Taylor",
+          "paginas": "pp. 89–129",
+          "jstor": "ia-es-1896-06_1_2-p89",
+          "resumo": "Descreve a fixação de tarifas por operações elementares cronometradas e a tarifa diferencial por peça aplicadas na Midvale Steel Company, com resultados de produção e custos.",
+          "ensaio_slug": "taylor-um-sistema-de-tarifa-por-peca"
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "towne-a-partilha-de-ganhos",
+          "titulo": "Towne: dividir o ganho sem dividir o lucro",
+          "titulo_original": "Gain-Sharing",
+          "autores": "Henry R. Towne",
+          "paginas": "pp. 51–74",
+          "jstor": "ia-es-1896-06_1_2-p51",
+          "chamada": "Towne propõe dar aos empregados metade da redução dos custos que eles controlam, medida contra preços de contrato fixos, e mostra como o sistema funcionava na Yale & Towne, em Stamford.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Na oficina em que funcionava o sistema de Henry R. Towne, um quadro afixado, de preferência sob vidro, mostrava a cada mês o resultado do mês anterior e a taxa de dividendo acumulada no ano. No fim do ano, cada operário recebia em dinheiro a sua parte, num envelope especial que informava o salário anual, a taxa e o valor do dividendo. O estímulo, escreve Towne, era muito visível."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto é o primeiro dos três trabalhos lidos na American Society of Mechanical Engineers e reunidos no nº 2 dos Economic Studies, de junho de 1896. Towne dirigia a Yale & Towne Manufacturing Company, de Stamford, Connecticut, onde o sistema estava em uso havia mais de dois anos, alcançando cerca de 300 empregados em quase metade das divisões da empresa."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que há de errado na participação nos lucros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Towne parte de uma distinção do dicionário de Webster: lucro é o excesso do valor sobre o custo; ganho é aquilo que se obtém como vantagem. A participação nos lucros, como era praticada, punha o empregado como sócio informal, exposto ao resultado de fatores que não controlava. Ele dá o exemplo de um comerciante de algodão com dois empregados, um que compra e outro que vende: se um falhar, não há lucro, por melhor que o outro trabalhe, e uma mudança de mercado pode anular os dois esforços."
+            },
+            {
+              "tipo": "p",
+              "texto": "Numa fábrica, os fatores do lucro se dividem em quatro grupos: os do dono, como capital, instalações e organização; os da equipe comercial; os externos, como preços de matéria-prima e do produto, juros e dívidas incobráveis; e os dos operários, como cuidado com a propriedade, economia de materiais e eficiência no uso das máquinas. Os operários só influenciam o último grupo. Incluí-los no resultado de todos seria generoso, diz Towne, mas não seria nem um ajuste equitativo nem uma solução correta do problema econômico."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“a mera caridade a quem não precisa dela é um bem duvidoso”",
+              "original": "mere charity to those who do not need it is a doubtful good"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como se mede o ganho?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A base do sistema é conhecer com precisão o custo atual do produto, só com os itens que os empregados podem influenciar. Entram trabalho a custo, matéria-prima medida em quantidade, a um preço fixo arbitrado, suprimentos como óleo, estopa e ferramentas, energia, luz e água quando há medidores, reparos e supervisão do departamento. Ficam de fora os preços de mercado da matéria-prima e as despesas gerais de administração e comércio. Se não houver registros, Towne recomenda montar a contabilidade e esperar de seis a doze meses para formar uma média."
+            },
+            {
+              "tipo": "p",
+              "texto": "O empregador credita a produção a um preço de contrato fixado de antemão, debita os custos incluídos e, se sobrar ganho no fim do ano, divide-o. No exemplo de Towne, o custo unitário cai de um dólar para 95 centavos, o ganho total é de 800 dólares e a folha do ano, de 10 mil. A metade dos empregados, 400 dólares, equivale a 4% sobre os salários, o que ele compara a duas semanas de pagamento extra: para um trabalhador de 1,50 dólar por dia, 18 dólares no fim do ano."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "50%",
+              "texto": "Parte do ganho retida pela empresa nos 21 contratos que Towne havia instituído. Ele sugere de 10% a 15% para o mestre, com cerca de cinquenta subordinados, e de 40% a 35% para os demais. Nas regras da fundição de Stamford, de dezembro de 1887, a divisão era 50% para a empresa, 10% para o mestre e 40% para os operários."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto tempo deve durar o contrato?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui está o problema que os outros dois textos da edição também enfrentam. Se o contrato for curto, o operário se pergunta se vale a pena esforçar-se por um ganho pequeno, sabendo que, no fim do período, o empregador provavelmente baixará o preço de contrato e exigirá ainda mais esforço. Towne recomenda prazos de três a cinco anos, ou mais, quando o custo anterior é bem conhecido: com prazo longo, o empregado pode desconsiderar uma revisão distante, e o empregador, quando revisar, poderá baixar mais o preço e ser mais liberal."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na prática, os preços de contrato de Towne nem sempre eram os custos anteriores: na maioria dos casos ficaram de 10% a 20% abaixo deles, e num caso 30%, quando havia razão para crer que o esforço maior traria grande redução de custo. Mesmo assim, diz, a maior parte dos contratos rendeu dividendos razoáveis. O sistema convive com a tarefa por peça e com o trabalho por empreitada, e se aplica bem a fundições, em que a economia de metal e combustível depende dos operários."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que dizem os apêndices?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro apêndice reúne os resultados de vários contratos, dois deles com dois anos de funcionamento, alguns com perdas no primeiro ano. Towne admite ter errado o ajuste em alguns casos e diz que o primeiro ano tende a decepcionar, por falta de interesse e de compreensão dos empregados, que desaparecem diante do primeiro dividendo pago. O segundo apêndice reproduz o quadro mensal de um contrato, com meses de ganho e de perda; a parte dos ajudantes era de 25%, e o dividendo do ano chegou a 5,7% dos salários."
+            },
+            {
+              "tipo": "p",
+              "texto": "O terceiro traz as regras da fundição. A empresa garante os salários regulares, haja ou não ganho; o mestre continua a fixar os salários e a contratar e demitir; quem sair honrosamente durante o ano recebe a sua parte; dividendos não reclamados em três meses vão para a sociedade de auxílio mútuo da empresa. A cláusula de condições prevê a perda do direito ao ganho em caso de demissão por má conduta ou incompetência, ou se o empregado se combinar com outros para perturbar as relações com a empresa, ressalvado o direito de negociar o próprio salário por meio do mestre."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a contribuição de Towne é contábil antes de ser salarial: ele percebeu que um incentivo só funciona se medir aquilo que o incentivado controla, e montou uma conta separada para isso, com preços fixos para neutralizar o mercado. É a mesma lógica dos centros de custo e das metas operacionais.",
+                "O limite está no preço de contrato. É o empregador quem o fixa e o revisa, e o próprio Towne mostra que o fixava abaixo do custo anterior. A credibilidade do sistema repousa, portanto, no prazo do contrato e na reputação da empresa, o que explica por que ele insiste tanto em contratos longos."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Preço de contrato",
+              "valor por unidade, fixado de antemão, com que se credita a produção para medir o ganho."
+            ],
+            [
+              "Fundo de ganho",
+              "economia de custos apurada no ano, dividida entre empresa, mestre e operários."
+            ],
+            [
+              "Empreitada (contract system)",
+              "regime em que um contratante interno recebe pelo produto acabado e paga os ajudantes."
+            ],
+            [
+              "Sociedade de auxílio mútuo",
+              "fundo dos empregados para amparo em doença, acidente ou morte."
+            ]
+          ],
+          "hoje": "A ideia de Towne sobrevive em programas de participação em resultados atrelados a metas de custo, qualidade ou produtividade de uma unidade, e não ao lucro da empresa. As mesmas questões que ele discutiu, quem fixa a meta, por quanto tempo ela vale e como evitar que o bom desempenho de um ano vire meta mais dura no seguinte, continuam no centro da negociação desses programas."
+        },
+        {
+          "slug": "halsey-o-plano-de-premio",
+          "titulo": "Halsey: o prêmio por hora poupada",
+          "titulo_original": "The Premium Plan of Paying for Labor",
+          "autores": "F. A. Halsey",
+          "paginas": "pp. 75–88",
+          "jstor": "ia-es-1896-06_1_2-p75",
+          "chamada": "Halsey critica a diária, a tarefa por peça e a participação nos lucros e propõe pagar, além do salário, um prêmio menor que o salário horário por hora poupada, sem nunca cortar a taxa.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Um empregador insatisfeito com a diária decide adotar a tarefa por peça. Calcula que uma peça que custa um dólar em salários poderia sair por uns 80 centavos com algum esforço extra e, para dividir a economia, oferece 90. O operário reclama que não vai “fazer o salário”, é convencido ou obrigado a tentar e surpreende todos: a produção sobe muito além dos 25% esperados. O custo continua em 90 centavos, o operário fica com quase toda a economia, e o empregador corta o preço da peça. Para F. A. Halsey, é aí que aparece o defeito fatal do sistema."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto, apresentado à American Society of Mechanical Engineers em 1891, segundo Taylor, é o segundo dos três trabalhos do nº 2 dos Economic Studies, de junho de 1896. Halsey o organiza como comparação: a diária, a tarefa por peça, a participação nos lucros e o seu plano de prêmio."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a diária e a tarefa por peça falham?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na diária, explica, qualquer aumento de esforço beneficia só o empregador; o operário não tem motivo para se esforçar, o ritmo se acomoda e o empregador paga caro pelo produto. Na tarefa por peça, fixado o preço, o aumento de esforço beneficia só o operário. Para recuperar a sua parte, o empregador corta o preço, e o corte equivale a anunciar que os ganhos não poderão passar de certo limite."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Cortar o preço da peça é simplesmente matar a galinha dos ovos de ouro.”",
+              "original": "Cutting the piece price is simply killing the goose that lays the golden egg."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mas, sem o corte, o empregador continua a pagar caro. Os dois sistemas são antíteses, conclui Halsey, e terminam no mesmo ponto: um ritmo acomodado, com os operários chegando tão perto do limite de ganho quanto julgam prudente e o empregador à espera de uma chance para cortar. Os interesses ficam antagônicos, e não há esforço conjunto para reduzir custos. A tarefa por peça tem ainda outro limite: exige registro do custo de cada peça, às vezes de cada operação, e só serve para produtos feitos em grande quantidade."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a participação nos lucros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Halsey lista cinco objeções. Os operários recebem o que não ganharam, porque o lucro pode vir de melhor gestão ou de vendas, e o que vem dessas fontes é presente, com ar de paternalismo. O esforço individual se dilui entre os colegas. A recompensa, anual ou semestral, é remota. O plano não prevê anos ruins: fala-se muito de partilha de lucros, nada de partilha de perdas. E os operários não têm como saber se o acordo foi cumprido, porque não podem examinar os livros nem, se pudessem, entender as contas. Que o sistema funcione por algum tempo, diz, nada prova; também a barragem de Conemaugh segurou água por muitos anos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como funciona o plano de prêmio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O tempo de uma tarefa é fixado pela experiência anterior, e o operário, além da diária, recebe um prêmio por hora que poupar em relação a esse tempo. O prêmio por hora é sempre menor que o salário por hora, e esse é, nas palavras de Halsey, o alicerce de todos os méritos do sistema: cada hora poupada reduz o custo da tarefa e aumenta o ganho horário do operário. Ele é, na prática, pago para poupar tempo."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 3 → US$ 2",
+              "texto": "Custo de uma tarefa de dez horas a 30 centavos por hora, com prêmio de 10 centavos por hora poupada, quando o tempo cai para cinco horas. O salário cai para US$ 1,50, o prêmio soma US$ 0,50, e o ganho do operário por hora sobe de 30 para 40 centavos. Dobrar a produção reduz o custo por peça em um terço e eleva o ganho horário em um terço."
+            },
+            {
+              "tipo": "p",
+              "texto": "Qual deve ser o prêmio? Só o bom senso decide, responde Halsey. Onde produzir mais exige mais esforço muscular, o prêmio precisa ser generoso; onde exige atenção a velocidades e avanços e menos tempo perdido, um prêmio moderado basta. Um prêmio irrisório não convence; um alto demais faz o empregador pagar mais que o necessário, embora menos que antes. Bem escolhido, o prêmio deve ser permanente e só revisto se novos processos tirarem o sentido do tempo-base. Cortá-lo seria repetir o erro da tarefa por peça."
+            },
+            {
+              "tipo": "p",
+              "texto": "Halsey acrescenta que o ganho do empregador vem também do aumento da capacidade da fábrica, que libera máquinas para outros trabalhos. A transição a partir da diária é fácil, a contabilidade muda pouco e não há o que combater, porque nada é obrigatório. Para produtos em série, ele usa um cartão de tempo preenchido pelo mestre, com a promessa do prêmio impressa no verso; para trabalhos em grupo, o prêmio é dividido entre os que trabalharam na máquina, na proporção do tempo; para empreitadas novas, a base é o tempo estimado. Só o trabalho avulso por hora fica de fora."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o plano de Halsey resolve o problema do corte de preço com uma regra de divisão automática: como o prêmio é uma fração do salário horário, o empregador fica com parte de cada hora poupada e não precisa de cortes para participar do ganho. É um desenho de contrato que alinha incentivos sem exigir confiança nas contas da empresa, a objeção que ele faz à participação nos lucros.",
+                "O ponto frágil é o tempo-base. Ele vem da experiência anterior, e Halsey não discute o que acontece se esse tempo tiver sido inflado pelo próprio ritmo acomodado que o plano pretende corrigir. Foi exatamente essa a crítica de Taylor, no texto seguinte da edição."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Plano de prêmio",
+              "pagamento da diária mais um valor por hora poupada em relação a um tempo-base."
+            ],
+            [
+              "Tempo-base",
+              "tempo da tarefa fixado pela experiência anterior, contra o qual se mede a hora poupada."
+            ],
+            [
+              "Cartão de tempo",
+              "registro do início e do fim de uma tarefa, usado para calcular o prêmio e o custo."
+            ],
+            [
+              "Trabalho avulso (jobbing)",
+              "serviço sob encomenda pago por hora, sem tempo-base definido."
+            ]
+          ],
+          "hoje": "O plano de Halsey é o antepassado dos bônus de produtividade com divisão fixa do ganho entre empresa e trabalhador. O dilema que ele formulou, que um incentivo só funciona se o trabalhador acreditar que a regra não será mudada quando ele produzir mais, aparece hoje na literatura sobre contratos e no desenho de metas em empresas e no setor público."
+        },
+        {
+          "slug": "taylor-um-sistema-de-tarifa-por-peca",
+          "titulo": "Taylor, 1895: medir o tempo para pagar a peça",
+          "titulo_original": "A Piece-Rate System, Being a Step toward Partial Solution of the Labor Problem",
+          "autores": "Fred W. Taylor",
+          "paginas": "pp. 89–129",
+          "jstor": "ia-es-1896-06_1_2-p89",
+          "chamada": "Taylor descreve a fixação de tarifas por operações elementares cronometradas e a tarifa diferencial por peça da Midvale Steel, que diz ter dobrado a produção, elevado salários e evitado greves.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Para tornear dez forjados por dia num torno de 16 polegadas com dois carros, era preciso remover em média mais de 800 libras de cavacos de aço em dez horas. Os operários da Midvale Steel Company faziam quatro ou cinco por dia, a 50 centavos a peça. Fred W. Taylor cronometrou as operações elementares do trabalho e concluiu que dez eram possíveis, com homens e máquinas no ritmo máximo da manhã à noite."
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor ofereceu 35 centavos por peça a quem fizesse dez e 25 a quem fizesse menos. Os homens custaram a acreditar que a empresa os deixaria ganhar 3,50 dólares por dia de forma permanente. Depois da primeira vez, diz ele, quase não houve dia em mais de dez anos em que os que dominavam o trabalho deixassem de cumprir a marca, e a tarifa não foi cortada até o início da recente queda geral de salários no país. O caso é o centro do texto apresentado à American Society of Mechanical Engineers e reproduzido como terceiro trabalho do nº 2 dos Economic Studies, em junho de 1896."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é o problema das formas usuais de pagamento?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto, em 93 parágrafos numerados, começa pelo risco. O capital exige do investimento industrial o dobro do retorno pedido a imóveis ou transportes, diz Taylor, e o maior risco da indústria é a má gestão da produção, que costuma receber menos atenção que compras, vendas e finanças. Na diária, homens são pagos pela posição, não pelo mérito, e até os ambiciosos concluem que convém trabalhar o mínimo. A resposta legítima a esse nivelamento, admite, é o sindicato e a greve."
+            },
+            {
+              "tipo": "p",
+              "texto": "A tarefa por peça comum troca o problema por outro. Depois de dois ou três cortes de preço, até o operário menos esperto passa a limitar o ritmo para nunca ganhar acima de certo valor. E começa uma guerra, em geral amistosa, mas guerra: como o preço costuma ser fixado depois de o trabalho ser feito por diária e observado, o operário tem interesse em começar cada tarefa o mais devagar possível. Taylor diz não ser incomum trabalhar a um terço ou a um quarto da velocidade máxima mantendo a aparência de esforço. É o que as oficinas chamavam de soldiering."
+            },
+            {
+              "tipo": "p",
+              "texto": "Ele reconhece a partilha de ganhos de Towne, que diz ter sido inventada em 1886, e o plano de prêmio de Halsey, de 1891, como os melhores aperfeiçoamentos da tarefa por peça. Mas aponta neles o mesmo defeito de origem: o ponto de partida é desigual, porque umas tarefas foram medidas com um bom operário perto do máximo e outras com um operário médio a um terço da velocidade. Critica ainda o plano de Towne por não reconhecer o mérito individual e a participação nos lucros pela recompensa remota e pela divisão com os que trabalham menos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é a fixação de tarifas por operações elementares?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em vez de procurar nos registros uma tarefa parecida e adivinhar o tempo da nova, o departamento de tarifas decompõe cada trabalho em operações elementares, cronometra cada uma, classifica e indexa os tempos e soma o total. No exemplo de Taylor, aplainar uma peça de ferro fundido se divide em levantar a peça do chão à mesa, nivelá-la, pôr e tirar batentes e parafusos, devolvê-la ao chão e limpar a máquina, mais os cortes feitos pela máquina, com um acréscimo percentual para atrasos inevitáveis. Ele compara o método antigo à engenharia mecânica de cinquenta ou sessenta anos antes, que copiava máquinas e trocava as peças que quebravam."
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor começou o método em 1883, quando era mestre da oficina mecânica da Midvale, e depois criou o departamento. Para as máquinas-ferramenta, a empresa fez uma série longa e cara de experimentos sobre a velocidade de corte, considerando o formato da ferramenta, a duração do corte, a dureza do metal, a profundidade do corte e a espessura do avanço. Como gerente de duas fábricas de celulose ao sulfito, ele diz ter aplicado o mesmo método a todas as operações de uma delas e mais que dobrado a produção em dezoito meses."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como funciona a tarifa diferencial?"
+            },
+            {
+              "tipo": "p",
+              "texto": "São dois preços para a mesma tarefa: alto, se o trabalho é feito no menor tempo possível e sem defeitos; baixo, se demora mais ou tem imperfeições. No exemplo de Taylor, se vinte peças são o máximo diário, quem faz vinte perfeitas recebe 15 centavos cada, ou 3 dólares; quem faz dezenove recebe 12 centavos, ou 2,28 dólares; quem faz vinte com defeitos recebe 10 ou 5 centavos, ou 2 dólares ou apenas 1. No sistema comum, ao contrário, o operário que passa de dezesseis para vinte peças a 15 centavos vê o preço cair para 12 e volta a ganhar os mesmos 2,40 dólares, agora trabalhando mais depressa."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“os homens não farão um dia de trabalho extraordinário por um dia de pagamento comum”",
+              "original": "men will not do an extraordinary day’s work for an ordinary day’s pay"
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor diz que a justiça exige tanto a recompensa pelo dia grande quanto a perda proporcional pela queda de quantidade ou qualidade, e que o medo da demissão é uma penalidade insuficiente. O estímulo deve ser diário: o operário precisa saber no dia seguinte se ganhou a tarifa alta, porque dois terços do efeito moral de um prêmio ou de uma pena se perdem com qualquer adiamento. Em trabalhos de equipe, a turma recebe como se fosse um homem só, e a divisão interna deve refletir a energia e a precisão de cada um."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 1,17 → US$ 0,69",
+              "texto": "Custo por peça do forjado da Midvale no quadro de Taylor. No sistema comum: salário de US$ 2,50 e custo de máquina de US$ 3,37 por dia, total de US$ 5,87 para 5 peças. Na tarifa diferencial: salário de US$ 3,50 e o mesmo custo de máquina, total de US$ 6,87 para 10 peças. Os concorrentes, que pagavam de US$ 2 a US$ 2,50 por dia, nunca passaram, segundo ele, da metade dessa produção por torno."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que pagar mais sai mais barato?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A explicação de Taylor está nos custos indiretos. Impostos, seguros, depreciação, aluguel, juros, salários de escritório, mão de obra auxiliar, despesas de venda e muitas vezes energia somam tanto quanto os salários diretos e quase não variam com a produção. Por isso, é sempre mais barato pagar salários maiores quando a produção cresce na mesma proporção, já que o custo indireto por peça cai mais que o salário sobe. Ele generaliza: a mão de obra mais cara, se for proporcionalmente produtiva, é a mais barata."
+            },
+            {
+              "tipo": "p",
+              "texto": "Entre os efeitos indiretos, Taylor destaca que o estudo das máquinas mostrou que nenhuma, mesmo dos melhores fabricantes, era projetada e regulada para cortar aço da melhor forma, e que a Midvale passou a exigir alterações em quase todas as que comprou em oito anos. Também obrigou a sistematizar detalhes como correias, afiação de ferramentas, lubrificação e emissão de ordens. Por isso considera o departamento de tarifas mais importante que a própria tarifa diferencial e prevê, como necessidade, um manual sobre a velocidade com que cada trabalho pode ser feito, semelhante aos manuais de engenharia."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que Taylor diz dos sindicatos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Afirma que nunca houve greve entre homens sob tarifas diferenciais na Midvale em dez anos, num setor marcado por conflitos, embora a empresa nunca tenha impedido a filiação a sindicatos. Atribui isso aos salários altos, à política de promover por mérito, ao registro cuidadoso das qualidades de cada homem e a relações pessoais diretas: os homens, diz, preferem ser repreendidos a ser ignorados, e pequenos gestos de consideração valem mais que grandes obras de caridade."
+            },
+            {
+              "tipo": "p",
+              "texto": "Taylor recusa a visão de que os sindicatos são um prejuízo quase completo: credita aos sindicatos ingleses a redução das horas de trabalho e a melhora das condições dos assalariados. Mas considera a fixação de salários de categorias inteiras por acordo entre líderes, sindicatos e fabricantes muito inferior ao pagamento de cada operário pelo seu valor individual. E termina com cautela: o sistema seria adotado por poucas empresas, porque exige organização completa e máquinas em bom estado, e o efeito de qualquer sistema seria levantar uma pequena onda de prosperidade acima do nível geral."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a novidade de Taylor não é a tarifa diferencial, mas a ideia de que o tempo de uma tarefa pode ser conhecido pela empresa independentemente do que os operários mostram. Isso ataca a assimetria de informação que dava aos trabalhadores poder sobre o ritmo, e é por isso que ele considera o departamento de tarifas mais importante que o esquema de pagamento. O argumento econômico, de que custos indiretos fixos tornam barata a mão de obra mais cara e mais produtiva, é sólido e explica o interesse dos industriais.",
+                "O texto também mostra o custo do método. A tarifa baixa é desenhada para ser pouco atraente e para afastar quem não alcança o máximo, e a definição do máximo passa para a gerência. Os números da Midvale são do próprio autor, sem comparação controlada, e ele mesmo admite que parte do resultado se deveu à melhor gestão dos detalhes da oficina, e não só à tarifa."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Operação elementar",
+              "parte mínima de uma tarefa, como levantar a peça ou fixá-la na mesa, cronometrada separadamente."
+            ],
+            [
+              "Departamento de tarifas (rate-fixing department)",
+              "setor que estuda e fixa os tempos e preços das tarefas."
+            ],
+            [
+              "Tarifa diferencial",
+              "dois preços por peça, alto para o cumprimento do máximo sem defeitos e baixo para o restante."
+            ],
+            [
+              "Soldiering",
+              "redução deliberada do ritmo de trabalho para esconder a velocidade possível."
+            ],
+            [
+              "Custos indiretos",
+              "despesas que pouco variam com o volume produzido, como juros, aluguel e seguros."
+            ]
+          ],
+          "hoje": "O método de Taylor está na origem da administração científica, dos estudos de tempos e movimentos e, mais tarde, da engenharia de produção. A medição detalhada do ritmo de trabalho, hoje feita por sensores, aplicativos e algoritmos em armazéns, centrais de atendimento e plataformas de entrega, reabre as mesmas perguntas do texto: quem define o tempo-padrão, quanto do ganho de produtividade vai para o salário e como conciliar incentivos individuais com negociação coletiva."
+        }
+      ]
+    },
+    {
+      "slug": "1896-o-movimento-populista",
+      "numero": "ES 3",
+      "titulo": "McVey, 1896: o People’s Party lido pelas suas plataformas",
+      "titulo_original": "The Populist Movement",
+      "autores": "Frank L. McVey, Ph.D. (University of Minnesota)",
+      "publicacao": "Economic Studies",
+      "serie": "economic-studies",
+      "colecao": "eua",
+      "volume": "vol. 1, nº 3",
+      "data": "agosto de 1896",
+      "archive_id": "sim_economic-studies_1896-08_1_3",
+      "chamada": "Em 1896, Frank L. McVey examinou as plataformas do People’s Party, de 1889 a Omaha, e confrontou as suas propostas de terra, hipotecas, moeda e ferrovias com os dados do censo de 1890.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "A convenção de Cincinnati, em maio de 1891, abriu com o hino “America” e o Pai-Nosso. Das cerca de 1.500 pessoas presentes, 407 vinham do Kansas, 317 de Ohio e 100 de Illinois; cerca de dois terços dos estados estavam representados. Alguns líderes tentaram adiar a fundação de um partido para o ano seguinte. Foram vencidos, e o People’s Party saiu de Cincinnati com uma plataforma de doze pontos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A cena está no primeiro capítulo de The Populist Movement, de Frank L. McVey, instrutor de economia na University of Minnesota, publicado como nº 3 do primeiro volume dos Economic Studies, em agosto de 1896. O texto, datado de 1º de junho de 1896, tem oito capítulos: a história das plataformas, a de Omaha, terra e hipotecas, finanças, ferrovias, a pergunta se o partido é socialista, o seu futuro e um resumo. Seguem-se sete apêndices, com tabelas de votos e de bancadas estaduais, e uma bibliografia de livros, revistas e jornais."
+        },
+        {
+          "tipo": "p",
+          "texto": "O método é ler o partido pelos seus documentos. McVey define o movimento como de classe, formado sobretudo por agricultores, com parte dos descontentes das cidades. As queixas eram preços agrícolas baixos, renda menor que antes e monopólios que esmagavam o pequeno produtor. As duas primeiras eram atribuídas à legislação financeira; a terceira, à industrial."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como se formou o partido?"
+        },
+        {
+          "tipo": "p",
+          "texto": "McVey liga a origem às mudanças na agricultura depois da Guerra Civil: as máquinas aumentaram a produção, os preços caíram quase sem interrupção e surgiram as organizações de agricultores, como a Grange, de 1867, a Agricultural Wheel, de 1878, e a Farmers’ Alliance, de 1879. Ele vê três estágios: a Grange, que queria educar o agricultor; a Alliance, que reunia associações independentes; e o partido."
+        },
+        {
+          "tipo": "p",
+          "texto": "Cinco convenções marcam a passagem. Em St. Louis, em 6 de dezembro de 1889, agricultores e Knights of Labor formaram a Farmers’ Alliance and Industrial Union, sem ainda criar um partido. Em Ocala, Flórida, em dezembro de 1890, a plataforma mudou pouco e trouxe a única demanda explícita de redução de tarifas das cinco. Vieram então Cincinnati, em 1891; St. Louis, em 22 de fevereiro de 1892, que trocou o controle pela propriedade estatal das ferrovias e acrescentou bancos postais; e Omaha, em 4 de julho de 1892, a primeira convenção de nomeação presidencial."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "8 → 13",
+          "texto": "Número de pontos das plataformas, segundo a contagem de McVey: St. Louis, 1889, oito; Ocala, oito; Cincinnati, doze; St. Louis, 1892, dez; Omaha, treze. Seis demandas aparecem em todas: cunhagem livre da prata, controle ou propriedade estatal das ferrovias, o sub-tesouro, papel-moeda suficiente, receita pública limitada às despesas e proibição de terras em mãos de estrangeiros."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proibição dos contratos futuros de grãos, uma das queixas mais antigas dos agricultores, desapareceu nos três últimos anos. Para McVey, o partido passou a ver o problema como financeiro e esperava, tomando um lado da questão monetária, tirar do campo um dos partidos antigos."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que dizia a plataforma de Omaha?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O preâmbulo, que McVey chama de a parte mais curiosa, descreve um país à beira da ruína moral, política e material, com corrupção nas urnas e nos legislativos, imprensa subornada ou amordaçada, lares hipotecados e terra concentrada. A frase mais citada fala de duas classes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“geramos as duas grandes classes — vagabundos e milionários”",
+          "original": "we breed the two great classes — tramps and millionaires"
+        },
+        {
+          "tipo": "p",
+          "texto": "McVey diz que o quadro não pode ser comprovado e que o próprio documento se enfraquece pelo exagero; a plataforma propriamente dita, mais contida, merece atenção séria. Ele divide os pontos em menores, como tarifas, pensões, leis de contratação, jornada de oito horas e eleição direta de senadores, e maiores: moeda, prata, ferrovias e terra. A tarifa nem é nomeada. A única pista é a exigência de que as receitas fiquem limitadas às despesas necessárias do governo, que democratas e republicanos leram, cada um, como compatível com a sua doutrina. McVey explica a ambiguidade pela tensão entre operários, que associavam proteção a salários altos, e agricultores, que pagavam mais caro pelo que compravam. Também a jornada de oito horas e as restrições à imigração seriam concessões às sociedades de trabalhadores; o agricultor, que empregava mão de obra e trabalhava de doze a dezesseis horas, não teria interesse nelas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "As hipotecas esmagavam o Oeste?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo sobre terra começa pelo domínio público. Dos 1.821.700.922 acres que passaram às mãos da União, restavam em 1890, vagos, 586.216.861, menos de um terço, dos quais apenas 1,7 milhão aptos à agricultura, segundo os números que McVey reproduz. Só para ferrovias, a União e os estados concederam cerca de 171 milhões de acres. McVey reconhece abusos, como certificados emitidos antes de a ferrovia existir e terras isentas de imposto até a emissão do título, mas atribui a maior parte a leis mal feitas, não às empresas. Sobre a proibição de terras para estrangeiros, argumenta que o investidor estrangeiro fica em desvantagem diante do residente e valoriza a propriedade vizinha."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para as hipotecas, ele confronta uma afirmação de campanha de 1894, segundo a qual os agricultores deviam de sete a oito bilhões de dólares, com a investigação do censo. Uma hipoteca, lembra, não é sinal de ruína: é capital de uns emprestado a outros, e no Oeste financiou casas, igrejas, estradas e drenagem. O perigo está nas depressões, quando os juros deixam de ser pagos e a execução derruba o valor das propriedades vizinhas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 6,02 bilhões",
+          "texto": "Dívida hipotecária total dos Estados Unidos em 1º de junho de 1890, pelo censo citado por McVey: US$ 6.019.679.985, em 4.777.698 hipotecas. Sobre terras rurais, US$ 2,21 bilhões; sobre lotes urbanos, US$ 3,81 bilhões. Só Nova York respondia por 26,71% do total. Em catorze estados, a valorização das terras mais que pagou os juros da década."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão de McVey é que a dívida era bem menor do que se supunha e estava em condições mais favoráveis. Ele destaca que o Kansas aparece entre os estados em que a valorização permitiu pagar os juros e ao menos parte do principal. Também registra o efeito contrário da retórica: quanto mais se dizia que o Oeste estava arruinado, mais difícil ficava tomar empréstimos no Leste."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionaria o sub-tesouro?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As demandas financeiras de Omaha, que McVey considera as mais importantes, eram uma moeda nacional emitida só pelo governo, sem bancos, distribuída a um custo de no máximo 2% ao ano; cunhagem livre de prata e ouro à razão de 16 para 1; circulação de pelo menos 50 dólares por habitante; e imposto de renda progressivo. O mecanismo de distribuição era o plano de sub-tesouro da Farmers’ Alliance: o governo emitiria notas contra depósito de produtos agrícolas não perecíveis, imóveis ou manufaturas, entregando 80% do valor, e exigiria mais garantias se o valor caísse."
+        },
+        {
+          "tipo": "p",
+          "texto": "McVey compara o plano ao Land Bank de Massachusetts, de 1714, e lista objeções: armazéns e um exército de escriturários, um surto de preços de terra e produtos agrícolas, e a facilidade com que capitalistas comprariam safras para tomar empréstimos a 2% em vez de 4% ou 5%. Cita ainda doze projetos do senador Peffer, que somariam uma circulação de 95,15 bilhões de dólares, dez vezes e meia a moeda de todas as nações. Para ele, o papel-moeda é uma promessa de pagar, e terra não tem qualidades de dinheiro. Ele explica a demanda por mais moeda no Sul e no Oeste pela situação das regiões novas, em que o pouco dinheiro saía para comprar ferramentas e voltava devagar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O partido era socialista?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sobre as ferrovias, McVey descreve a hostilidade do Oeste, alimentada por tarifas altas cobradas para pagar dividendos sobre ações infladas, e as promessas de economia com a estatização. Nota que nem todos no partido acreditavam nela: o senador Allen, de Nebraska, sugerira testá-la primeiro numa das ferrovias do Pacífico. E mostra que, na prática, a reforma financeira, com a prata à frente, passou a dominar o resto."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a disputa interna que ele narra: de um lado, os adeptos da prata, que queriam uma plataforma de um ponto só; de outro, os fiéis à plataforma de Omaha. Na conferência de St. Louis, em dezembro de 1894, a grande maioria reafirmou Omaha. Para responder à pergunta do capítulo, McVey compara catorze demandas de partidos socialistas com os pontos do People’s Party e conta nove correspondências próximas. Conclui que a propriedade comum e a igualdade de renda não aparecem, mas que a plataforma é socialista na tendência."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo sobre o futuro distingue partidos de princípio e partidos de sentimento, nascidos do descontentamento. Os votos de 1894 superaram os de 1892 em 430.562, um ganho de 42%, mas McVey considera o número enganoso e prevê uma existência transitória. No resumo, reconhece a sinceridade da base e credita ao partido ter levado a moeda ao debate público, embora diga que ele mais retardou do que ajudou a solução; no capítulo sobre Omaha, já considerara acertada a defesa da eleição direta de senadores. E defende a regulação estatal das ferrovias, e não a sua propriedade, como melhor solução."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o valor do estudo está menos nas conclusões do autor, que ele mesmo apresenta como julgamentos, do que no método: tratar um movimento político como um conjunto de propostas econômicas e confrontá-las com dados. O capítulo das hipotecas é o melhor exemplo. Em vez de discutir a retórica, McVey vai ao censo de 1890 e mostra a composição regional da dívida e a relação entre valorização da terra e juros.",
+            "O estudo também registra um dilema permanente das propostas de expansão monetária: o problema real de regiões novas, com pouco capital e moeda escassa na época da colheita, convive com soluções que trocam crédito por emissão. A crítica de McVey ao sub-tesouro é, no fundo, sobre lastro, custos de administração e risco de captura, questões que acompanham qualquer programa público de crédito com garantia em mercadorias."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Cunhagem livre (free coinage)",
+          "direito de levar metal à Casa da Moeda e recebê-lo cunhado, sem limite de quantidade."
+        ],
+        [
+          "16 para 1",
+          "razão legal de dezesseis unidades de prata para uma de ouro proposta pelos defensores da prata."
+        ],
+        [
+          "Sub-tesouro",
+          "plano da Farmers’ Alliance de empréstimos públicos em papel-moeda contra depósito de produtos agrícolas."
+        ],
+        [
+          "Domínio público",
+          "terras de propriedade da União, distribuídas por venda, doação a colonos ou concessão a ferrovias."
+        ],
+        [
+          "Homestead Act",
+          "lei de 1862 que doava lotes de terra pública a quem os ocupasse e cultivasse."
+        ],
+        [
+          "Execução hipotecária",
+          "tomada do imóvel pelo credor quando o devedor deixa de pagar."
+        ],
+        [
+          "Moeda fiduciária (fiat money)",
+          "dinheiro cujo valor decorre da lei, e não de metal ou lastro."
+        ]
+      ],
+      "hoje": "Algumas propostas que McVey tratou como pontos menores ou controversos acabaram adotadas nos Estados Unidos, como o imposto de renda federal e a eleição direta de senadores, ambos por emendas constitucionais de 1913. Outras, como a expansão da moeda pela prata e o crédito público contra estoques agrícolas, voltaram em formas diferentes nos programas de apoio aos preços agrícolas. A tensão que ele descreve, entre o diagnóstico de crédito caro e escasso e a escolha do instrumento, segue presente no debate sobre bancos públicos, crédito rural e financiamento de regiões de fronteira.",
+      "itens": [
+        [
+          "The Populist Movement",
+          "pp. 135–195",
+          "ia-es-1896-08_1_3-p135"
+        ],
+        [
+          "Appendices",
+          "pp. 196–202",
+          "ia-es-1896-08_1_3-p196"
+        ],
+        [
+          "Bibliography",
+          "pp. 203–209",
+          "ia-es-1896-08_1_3-p203"
+        ]
+      ],
+      "jstor_edicao": ""
+    },
+    {
+      "slug": "1896-lexis-situacao-monetaria",
+      "numero": "ES 4",
+      "titulo": "Lexis, 1895: por que o bimetalismo seria um salto no escuro",
+      "titulo_original": "The Present Monetary Situation",
+      "autores": "Dr. W. Lexis (professor em Göttingen); tradução de John Cummings, Ph.D. (Harvard University)",
+      "publicacao": "Economic Studies",
+      "serie": "economic-studies",
+      "colecao": "eua",
+      "volume": "vol. 1, nº 4",
+      "data": "outubro de 1896",
+      "archive_id": "sim_economic-studies_1896-10_1_4",
+      "chamada": "Em conferência em Dresden, em 1895, Wilhelm Lexis examinou a queda da prata, a crise da rupia e a promessa do bimetalismo internacional, e concluiu que mais moeda não faria subir os preços.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1871, a Alemanha deu o primeiro passo para reformar a sua moeda, e a lei de 9 de julho de 1873 levou a obra a uma conclusão provisória. Mais de duas décadas depois, a reforma continuava incompleta. Em 1879, quando a prata já havia perdido um sexto do valor, o governo imperial suspendeu a venda dos táleres, as velhas moedas de prata, porque o prejuízo parecia grande demais. Ficou com cerca de 400 milhões de marcos nessas moedas."
+        },
+        {
+          "tipo": "p",
+          "texto": "É assim que Wilhelm Lexis, professor em Göttingen, abre a conferência que fez em Dresden em fevereiro de 1895, na Gehe-Stiftung. John Cummings, instrutor de economia em Harvard, a traduziu para o nº 4 do primeiro volume dos Economic Studies, de outubro de 1896, junto com dois textos curtos do autor: um artigo sobre a Índia e a questão da prata e uma réplica a um crítico. No prefácio, Cummings diz que a conferência resume as conclusões de uma autoridade reconhecida sobre os aspectos mais gerais da questão da prata e que as mudanças desde 1895 não afetam o argumento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custava à Alemanha a prata que ficou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lexis descreve o resultado como um padrão duplo “manco”: ouro como padrão, com uma quantidade rígida de prata em circulação. O problema, diz, não era a existência da prata, mas o seu valor. A moeda de três marcos, que todos eram obrigados a receber pelo valor de face, valia em metal 1 marco e 35 pfennigs."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "506 milhões de marcos",
+          "texto": "Parte da circulação de prata alemã sustentada só pelo crédito do Império, segundo Lexis, num total nominal de 880 milhões. Os táleres, nominalmente 400 milhões, valiam em metal 180 milhões; as moedas divisionárias, 480 milhões nominais, valiam 194 milhões. A moeda divisionária valia só 40% do valor estampado."
+        },
+        {
+          "tipo": "p",
+          "texto": "Ele aponta dois riscos. Numa guerra prolongada, com emissões de papel, essa massa de prata de valor fictício poderia virar ameaça. E havia o incentivo à cunhagem privada de moedas com o peso e o título legais, que daria à prata um valor 100% acima do mercado; Lexis sugere proibir a importação de moedas com o cunho alemão, como a Rússia fazia. Há ainda o custo para as minas: 200 mil quilos de prata, que antes valiam 36 milhões de marcos, rendiam então 16 milhões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A prata barata ajudava a Índia a exportar?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No início de 1870, a rupia era cotada em Londres a cerca de 23 pence; em 1895, entre 12 e 13 pence. Lexis argumenta que, num país que paga ao exterior juros e pensões, o poder de compra interno da moeda cai bem mais devagar do que o câmbio. O governo da Índia remetia a Londres, todo ano, de 16 a 17 milhões de libras esterlinas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O exemplo é o algodão. Um hundredweight de algodão vendido na Inglaterra por 25 xelins rendia ao comerciante, ao câmbio de pouco menos de 13 pence, 23 rupias; em 1872, com a rupia a 23 pence, a mesma venda rendia 13. Mesmo que preços e salários na Índia tivessem subido 10% ou 12% em rupias, as 23 rupias compravam muito mais. O produtor indiano podia baixar o preço e manter o lucro normal; o americano, que pagava custos em ouro, talvez não cobrisse o custo de produção."
+        },
+        {
+          "tipo": "p",
+          "texto": "Lexis, porém, não atribui a esse efeito a crise agrícola europeia. As exportações indianas de trigo caíram para 15 milhões de quintais em 1892-93, menos da metade do ano anterior, justamente quando a prata atingia o ponto mais baixo. A explicação, para ele, estava nas colheitas ruins de 1891, nas boas safras seguintes e no trigo argentino. Com a rupia ao valor antigo em ouro, a Índia talvez tivesse vendido 10 milhões de quintais, e não 15: um efeito real, mas pequeno."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O ouro encareceu e derrubou os preços?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os bimetalistas, defensores da cunhagem livre de ouro e prata a uma razão fixa, atribuíam a queda geral de preços e a depressão posterior à especulação de 1890 a uma valorização própria do ouro. Lexis discorda. A função monetária não recaíra só sobre o ouro: a França e a União Monetária Latina tinham cerca de 3 bilhões de francos em moedas de cinco francos, e os Estados Unidos cunharam US$ 416 milhões sob a Bland Act, de 1878 a 1890, e emitiram mais US$ 151 milhões em notas do Tesouro sob a Sherman Act. Se a escassez de ouro explicasse tudo, pergunta, como os Estados Unidos, com tanta prata e com US$ 346 milhões em notas de curso legal da guerra, tiveram uma depressão tão grande quanto a europeia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os bancos centrais também não sugeriam escassez. A reserva do Reichsbank chegara a 1,1 bilhão de marcos; em junho de 1894, o Banco da Inglaterra tinha 14 milhões de libras de reserva acima das notas em circulação; e o Banco da França somava cerca de 3,4 bilhões de francos em metal, cobrindo todas as notas menos cerca de 7%. Em Londres, o desconto caíra abaixo de 1%. Para Lexis, a causalidade é a inversa da alegada."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A estagnação é, portanto, a causa do excesso de dinheiro ocioso.”",
+          "original": "Stagnation is, therefore, the cause of the superfluity of idle money."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,2 bilhão de marcos",
+          "texto": "Aumento aproximado do ouro disponível para uso monetário de 1891 a 1894, segundo Lexis, enquanto os preços gerais continuavam a cair. A produção mundial de ouro crescia ano a ano desde 1888 e chegara a cerca de 720 milhões de marcos, mais de 150 milhões acima da média anual dos cinquenta anos anteriores. O novo ouro, diz ele, só aumentou os estoques parados nos porões dos bancos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a tese central: o aumento da quantidade de moeda não basta, por si só, para influir sobre os preços. Estes dependem de forças e condições econômicas; a moeda tem papel formal, que pode reforçar uma alta quando as condições reais existem ou agravar uma crise quando falta."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que aconteceria com uma liga bimetálica?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lexis admite que uma razão fixa entre os metais, adotada por todas as grandes potências e próxima das condições de produção, poderia manter os dois em circulação. Era o caso no início dos anos 1880, quando se produziam cerca de 900 milhões de marcos por ano dos dois metais, em quantidades quase iguais pela razão antiga. Em 1893, porém, só a prata equivalia, ao valor antigo, a 900 milhões de marcos, e o ouro a cerca de 620 milhões. Com o preço de 60 pence por onça, minas americanas de custo médio de 30 pence teriam dividendos enormes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas contas do autor, com a prata de volta ao valor antigo, entrariam todo ano na circulação 400 milhões de marcos em ouro e 800 milhões em prata. A prata superaria o ouro, o público passaria a preferir o ouro, e um prêmio de 1% ou 2% bastaria para tirá-lo da circulação: o padrão passaria, na prática, a ser só a prata. Se as maiores jazidas de ouro, como ele estima, não durassem mais de quarenta anos, o prêmio só cresceria."
+        },
+        {
+          "tipo": "p",
+          "texto": "E o agricultor, principal defensor do bimetalismo, não ganharia. Uma alta de preços beneficiaria primeiro a manufatura; os salários subiriam; e o trigo seria o último produto a acompanhar a alta, enquanto terra nova e barata no exterior seguisse competindo com a terra velha europeia. As dívidas, quase todas contraídas já sob o padrão-ouro, não ficariam mais leves, porque a renda líquida das propriedades não subiria na mesma proporção."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“nunca se arriscou um salto no escuro mais temerário”",
+          "original": "a more foolhardy leap into the dark, has never been risked"
+        },
+        {
+          "tipo": "p",
+          "texto": "O salto seria um aumento anual de 1,1 a 1,2 bilhão de marcos em moeda metálica, contra uma média de 450 a 500 milhões entre 1850 e 1870. Lexis compara o efeito à emissão de 600 a 700 milhões de marcos em papel-moeda por ano, uma inflação universal. Não haveria nada parecido com a alta que se seguiu ao ouro da Califórnia e da Austrália, que acompanhou máquinas, ferrovias e bancos novos e terminou na crise de 1857. Para ele, o aperfeiçoamento monetário caminha no sentido contrário: mais crédito bancário e menos metal, como na Inglaterra."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O fechamento da casa da moeda indiana funcionou?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O segundo texto, publicado antes na Neue Freie Presse em 8 de fevereiro de 1895, trata da medida de 26 de junho de 1893, quando o governo da Índia fechou a casa da moeda à cunhagem livre da prata. Com isso, e com o fim das compras americanas, desapareceu um mercado garantido de 2,75 milhões a 3 milhões de quilos de prata por ano. Mesmo assim, a prata caiu menos do que se previa e passou a oscilar perto de 27 pence por onça."
+        },
+        {
+          "tipo": "p",
+          "texto": "O governo esperava manter a rupia em 16 pence. A Áustria-Hungria conseguira elevar o florim mais de 25% acima do valor do metal só suspendendo a cunhagem para particulares. Na Índia, a rupia ficou entre 12 e 13 pence, mais de 20% acima do valor da prata contida, mas o déficit orçamentário, contado em rupias, aumentou. Lexis explica o resultado pelo comércio de prata em barra: a prata, entesourada em barras e ornamentos, continuou a entrar no país e a concorrer com as letras de câmbio, empurrando a taxa para baixo. Ele estima que a Ásia Oriental absorveria 2 milhões de quilos por ano e que 3,5 milhões de quilos poderiam ser vendidos a 27 pence."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Mudar de opinião é defeito em economia?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A réplica responde ao Dr. Arendt, que o atacara no Deutsches Wochenblatt de 21 de fevereiro de 1895. Lexis distingue primeiro “moeda corrente” de “padrão de valor”: o projeto do presidente Cleveland tratava de notas bancárias e greenbacks, não do padrão. Atribui as dificuldades do Tesouro americano à política monetária do país, às notas de curso legal e às leis Bland e Sherman; com títulos pagáveis em ouro, diz, os Estados Unidos poderiam obter US$ 100 milhões na Europa a 3%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Arendt o acusava de mudar de opinião sobre o padrão monetário. Lexis aceita a acusação. Em 1873 já temia a desvalorização da prata; em 1881, nas suas “Discussões sobre o problema monetário”, foi mais longe no argumento bimetalista; no congresso de Colônia, em 1882, condicionou qualquer ação alemã à adesão inglesa e propôs a razão de 18 para 1; depois a baixou ainda mais. Arendt, lembra, considerara em 1886 que 600 milhões de marcos seriam o máximo concebível da produção de prata; em 1893 ela chegou a 900 milhões."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Sempre considerei a Economia Política uma ciência puramente experimental”",
+          "original": "I have always considered Political Economy a purely experimental science"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Lexis, a questão é sobretudo estatística e depende dos números da produção. Ele cita o período de 1848 a 1859, em que a prata subiu 4,3% em Londres apesar do padrão duplo francês, como prova de que o bimetalismo apenas retarda as mudanças de valor vindas da produção. E fecha dizendo que, se uma liga bimetálica fosse feita, observá-la seria do maior interesse científico, mas que o experimento seria uma vivissecção no corpo político, contra a qual ele adverte."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o que sustenta o texto é a separação entre moeda e atividade. Lexis não nega que a moeda importe; diz que ela amplifica forças reais e não as cria. O argumento contra o bimetalismo nasce daí e de uma contabilidade simples de fluxos: se o preço legal da prata ficar acima do custo de produção, a oferta responde, e nenhuma razão fixa resiste a uma divergência persistente nos custos dos dois metais.",
+            "O caso indiano mostra o outro lado do mesmo raciocínio. Fechar a casa da moeda separou a rupia da prata só em parte, porque a demanda por prata como reserva de valor continuou a concorrer com as letras de câmbio. É um lembrete permanente de que uma âncora cambial depende menos do decreto do que dos canais pelos quais o público pode contorná-lo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Bimetalismo",
+          "regime em que ouro e prata são cunhados livremente a uma razão legal fixa e ambos servem de padrão."
+        ],
+        [
+          "Padrão “manco” (limping standard)",
+          "padrão-ouro em que circula, com curso legal, uma quantidade fixa de moedas de prata antigas."
+        ],
+        [
+          "Táler",
+          "antiga moeda de prata alemã que permaneceu em circulação depois da reforma monetária."
+        ],
+        [
+          "Moeda divisionária",
+          "moeda de pequeno valor cujo valor de face supera o do metal que contém."
+        ],
+        [
+          "Council bills",
+          "letras vendidas em Londres pelo governo da Índia, pagáveis em rupias, para obter ouro para as obrigações em libras."
+        ],
+        [
+          "Prêmio sobre o ouro",
+          "ágio pago pelo ouro em relação ao seu valor legal em moeda de prata ou papel."
+        ],
+        [
+          "Pence por onça",
+          "cotação da prata em Londres, em pence esterlinos por onça de prata de título padrão."
+        ]
+      ],
+      "hoje": "A disputa que Lexis descreve terminou pouco depois a favor do ouro: os Estados Unidos adotaram formalmente o padrão-ouro em 1900, e a prata deixou de ser padrão nos grandes países. Mas as duas teses do texto seguem no debate. A primeira, de que mais moeda não cria atividade quando a demanda está parada, reaparece em toda discussão sobre armadilha de liquidez e reservas bancárias ociosas. A segunda, de que um regime cambial fixo só resiste enquanto custos e fluxos o sustentam, é a lição recorrente das crises de câmbio e das uniões monetárias.",
+      "itens": [
+        [
+          "Translator’s Preface",
+          "pp. 217–218",
+          "ia-es-1896-10_1_4-p217"
+        ],
+        [
+          "I. The Present Monetary Situation",
+          "pp. 219–258",
+          "ia-es-1896-10_1_4-p219"
+        ],
+        [
+          "II. India and the Silver Question",
+          "pp. 259–267",
+          "ia-es-1896-10_1_4-p259"
+        ],
+        [
+          "III. International Bimetallism once more",
+          "pp. 268–281",
+          "ia-es-1896-10_1_4-p268"
+        ]
+      ],
+      "jstor_edicao": ""
+    },
+    {
+      "slug": "1896-bondes-de-cleveland",
+      "numero": "ES 5",
+      "titulo": "Hopkins, 1896: quanto valiam as concessões de bondes de Cleveland?",
+      "titulo_original": "The Street Railway Problem in Cleveland",
+      "autores": "William Rowland Hopkins",
+      "publicacao": "Economic Studies",
+      "serie": "economic-studies",
+      "colecao": "eua",
+      "volume": "vol. 1, nº 5–6",
+      "data": "dezembro de 1896",
+      "archive_id": "sim_economic-studies_1896-12_1_5-6",
+      "chamada": "Em 1896, William R. Hopkins calculou o valor das concessões de bondes de Cleveland pelo custo de reposição das linhas e comparou concessão, arrendamento e operação municipal.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 22 de abril de 1896, o legislativo de Ohio aprovou uma lei que permitia às câmaras municipais prorrogar todas as concessões de bondes existentes por cinquenta anos a partir daquela data, desde que as linhas se consolidassem. O limite legal das concessões era de vinte e cinco anos. Em Cleveland, isso punha nas mãos de quinze vereadores, nas palavras de William Rowland Hopkins, o poder de entregar a uma única empresa o serviço de bondes da cidade por duas gerações."
+        },
+        {
+          "tipo": "p",
+          "texto": "O estudo de Hopkins saiu como número duplo, 5–6, do primeiro volume dos Economic Studies, em dezembro de 1896. Uma nota da comissão de publicações explica a escolha: embora trate de detalhes de interesse imediato só para Cleveland, a investigação valeria como exemplo do método e do espírito com que o problema deveria ser abordado. O texto tem sete capítulos, da história das linhas às possibilidades do sistema de concessões, e apêndices com mapa, estatutos de Ohio, a lista das concessões da câmara, uma estimativa de custo de um sistema elétrico novo e os bens declarados ao fisco."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é metodológico. Hopkins recusa as comparações habituais com cidades britânicas, sobretudo Glasgow, que tinha cerca de três vezes a população de Cleveland numa área de mais ou menos um terço. Capital, quilometragem, densidade, distância das viagens e custo do trabalho eram diferentes demais. Cada cidade teria de resolver o problema com os seus próprios dados, e esses dados, diz ele, as empresas escondiam."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como nove linhas de cavalos viraram duas empresas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hopkins divide a história em três períodos. O das concessões originais, de 1859 a 1875, em que todas as concessões então em vigor foram dadas; a última, em 16 de junho de 1874. O das renovações e extensões, de 1874 a 1889, em que todas foram renovadas, uma delas duas vezes, e ganharam ramais. E o da consolidação, a partir de 1889, ano em que chegaram o cabo e a eletricidade. Em maio de 1893, todas as linhas ficaram sob duas empresas: a Cleveland Electric Railway Company e a Cleveland City Railway Company, cuja fusão já estava legalmente prevista."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor reconhece os ganhos. Com a consolidação veio um sistema de baldeação que, na prática, permitia ir de qualquer ponto da cidade a qualquer outro com uma só passagem, porque quase todas as linhas partiam da Public Square. Ele chega a duvidar que alguma cidade americana tivesse serviço melhor. Seis linhas suburbanas já tinham concessão, quatro operavam, e o sistema alcançava as cidades num raio de trinta milhas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a cidade cobrava pelas ruas?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hopkins propõe três critérios para julgar qualquer política: bom serviço, retorno justo à cidade pelos privilégios concedidos e eliminação da corrupção na entrega das concessões. Pelo primeiro, a lei bastava: estatutos e posturas davam à câmara poder sobre construção, carros, aquecimento, neve e limpeza. Em 1879, ao renovar duas concessões, a câmara reservara ainda o direito de alterar a tarifa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“reserva-se o direito de, no futuro, aumentar ou diminuir a tarifa”",
+          "original": "reserves to itself the right to hereafter increase or diminish the rate of fare"
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelo segundo critério, o resultado era quase nulo. As únicas contrapartidas efetivamente cobradas eram a pavimentação de uma faixa entre os trilhos, de dezesseis pés para via dupla e sete para via simples, e uma licença anual de dez dólares por carro. Havia dezessete anos a câmara não exercia o direito de reduzir tarifas em duas das melhores linhas. Para Hopkins, as empresas tinham obtido, por períodos de trinta e seis a cinquenta e quatro anos, os privilégios de uma cidade próspera a custo muito baixo."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mecanismo, segundo ele, eram as renovações antecipadas. O estatuto permitia renovar uma concessão “na sua expiração”, mas a câmara passou a renovar a qualquer tempo: das nove concessões originais, sete foram renovadas antes do prazo, uma delas com dezesseis anos ainda por correr. O único caso levado à justiça, a renovação de Garden Street, de 22 de março de 1880, foi mantido pelo tribunal de circuito, que considerou a renovação favorável ao interesse público. Hopkins julga o precedente frágil para as demais. Somavam-se as extensões: linhas inteiras, que poderiam ir a concorrência, foram dadas como ramais das existentes, sem licitação nem pagamento."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto valiam as concessões?"
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo central confronta o que as empresas declaravam. A Cleveland Electric informava capital ordinário de US$ 12 milhões, integralizado, e US$ 2.749.000 em títulos emitidos. Pelas contas de Hopkins, mesmo admitindo 105 milhas de via simples, eram cerca de US$ 140 mil de capital e dívida por milha. Nos relatórios às casas que vendiam os seus títulos, porém, a empresa dizia ter investido pouco mais de US$ 7 milhões: menos de US$ 67 mil por milha, e só US$ 4.251.000, descontados os títulos, para US$ 12 milhões em ações."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os resultados contavam outra história. Na Cleveland Electric, a parcela da receita bruta consumida pelas despesas operacionais caiu de 72,1% em 1892 para 69,4% em 1893 e ficou em 65,4% em 1895. Desde a consolidação, a receita bruta crescera US$ 300 mil e as despesas, US$ 100 mil: dois terços do aumento do tráfego iam para o resultado, e o volume de negócios crescia cerca de 5% ao ano. Se a cidade recebesse tudo o que excedesse os juros dos títulos e 10% sobre o capital que a empresa dizia ter investido, ganharia perto de US$ 50 mil naquele ano da Cleveland Electric e mais de US$ 80 mil da Cleveland City, com valores crescentes depois."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mas a pergunta certa, insiste Hopkins, não é quanto as linhas custaram, e sim quanto custaria repô-las. Onde há concorrência, um equipamento vale o seu custo de reposição, não o que já se gastou nele, inclusive o que deveria ter sido baixado como depreciação. Ele chama esse ponto de chave de toda a situação."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 6,97 milhões",
+          "texto": "Custo estimado por Hopkins para construir e equipar um sistema elétrico novo de 180 milhas, mais do que a rede existente: US$ 6.974.403, com trilhos, rede aérea, usinas de 10 mil cavalos-vapor, 440 carros motores, 300 reboques, garagens e pavimentação. Contra isso, as duas empresas somavam US$ 20 milhões de capital e US$ 6 milhões de dívida autorizada e diziam ter investido mais de US$ 12 milhões; os bens declarados ao fisco em 1896 somavam US$ 1.869.073."
+        },
+        {
+          "tipo": "p",
+          "texto": "A diferença de mais de US$ 5 milhões entre o investimento alegado e o custo de reposição seria, para o autor, um presente às empresas se a concessão de cinquenta anos tomasse o primeiro como base, porque as revisões de tarifa previstas no vigésimo e no trigésimo quinto anos partiriam dele. Uma empresa nova, com o mesmo volume de títulos a 5%, teria US$ 250 mil de juros sobre um resultado de US$ 1,1 milhão; pagaria 10% sobre US$ 2 milhões de capital e ainda sobrariam US$ 650 mil. Daí a estimativa de que se poderia pagar meio milhão de dólares só pelas concessões daquele ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A prefeitura deveria comprar os bondes?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hopkins examina três caminhos: concessão, compra para arrendamento e compra para operação municipal. O arrendamento, argumenta, é em princípio o mesmo que a concessão, só que com trilhos e carros incluídos, e a sua vantagem duraria apenas até as concessões vencerem. O preço de compra não ficaria longe de US$ 15 milhões, porque incluiria o valor das concessões em vigor. A 5%, os juros seriam de US$ 750 mil por ano, contra um resultado de cerca de US$ 1,1 milhão, e a cidade teria de recuperar, em cerca de catorze anos, pelo menos US$ 8 milhões pagos acima do valor real das linhas. Glasgow tinha US$ 1,7 milhão investidos enquanto arrendava as suas linhas, e Toronto pagara US$ 1,4 milhão."
+        },
+        {
+          "tipo": "p",
+          "texto": "Contra a operação municipal, o argumento é sobretudo de custo do trabalho, cerca de 70% das despesas operacionais. Em Cleveland, um policial recebia mil dólares por ano e um bombeiro, 960, com promoção e aposentadoria de meio salário após vinte anos. O condutor de bonde ganhava vinte centavos por hora, sem promoção nem pensão, e não passava muito de seiscentos dólares por ano. Hopkins supõe que, empregados pela cidade, os cerca de dois mil trabalhadores dos bondes obteriam pela via política o mesmo que os duzentos e cinquenta bombeiros: só esse ajuste reduziria o resultado em mais de meio milhão de dólares e levaria a um déficit de duzentos a trezentos mil dólares. Ele cita ainda a lei do chamado Federal Plan, que obrigava a cidade a contratar particulares para qualquer obra acima de 250 dólares."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o autor propõe?"
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que o sistema de concessões, com limites adequados, é o melhor caminho, e que o seu defeito fatal foi o poder, assumido pela câmara, de renovar concessões a qualquer tempo. A posição da cidade era de vantagem: as concessões começariam a vencer em pouco mais de sete anos e terminariam todas em menos de dezoito. A lei de cinquenta anos, ao contrário, substituiria esse mosaico por uma concessão única válida até 22 de abril de 1946, em troca de ganhos que ele considera pequenos: as licenças protegidas somavam menos de dez mil dólares por ano, e a taxa sobre a receita bruta que a lei proibia reduzir era “exatamente nada”."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“a política da cidade, quanto às concessões, deveria ser de espera”",
+          "original": "the policy of the city in the matter of grants, should be a waiting one"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hopkins lista seis linhas de ação: reduzir tarifas onde a câmara reservara esse direito, como experimento para conhecer o custo real do serviço; contestar na justiça as renovações de validade duvidosa; proibir por lei renovações fora de datas fixas; revogar a lei de cinquenta anos; impedir que linhas inteiras sejam concedidas como extensões; e dar à cidade o poder de exigir das concessionárias as informações necessárias para avaliar as concessões."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o estudo antecipa a pergunta que organiza a regulação de serviços públicos: sobre que base de ativos se calcula o retorno permitido. Hopkins separa com clareza três números, o capital emitido, o investimento histórico alegado e o custo de reposição, e mostra que a escolha entre eles decide quem fica com a renda criada pelo crescimento da cidade. A proposta de reduzir tarifas até que as empresas prefiram abrir os livros é, no fundo, um instrumento para obter informação que o regulador não tem.",
+            "O capítulo sobre a operação municipal é menos uma defesa da empresa privada do que uma análise de incentivos e custos: quem fixa salários, quem responde por perdas, quanto custa o capital da compra. Também a sua crítica às renovações antecipadas é sobre o desenho do contrato. Uma concessão que pode ser renovada a qualquer momento perde a única disciplina que a concorrência pelo mercado oferece, a do vencimento."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Concessão (franchise)",
+          "direito, dado pela cidade, de usar as ruas para operar um serviço, por prazo e condições definidos."
+        ],
+        [
+          "Renovação antecipada",
+          "prorrogação de uma concessão antes do seu vencimento, sem nova concorrência."
+        ],
+        [
+          "Extensão",
+          "ramal acrescentado a uma concessão existente, que vence junto com ela."
+        ],
+        [
+          "Baldeação (transfer)",
+          "bilhete que permite trocar de linha sem pagar nova passagem."
+        ],
+        [
+          "Ações aguadas (watered stock)",
+          "capital emitido acima do valor efetivamente investido na empresa."
+        ],
+        [
+          "Custo de reposição",
+          "quanto custaria construir hoje um equipamento equivalente ao existente."
+        ],
+        [
+          "Fundo de amortização (sinking fund)",
+          "reserva anual destinada a repor o capital ao fim de um prazo."
+        ],
+        [
+          "Via simples (single track)",
+          "medida de extensão que conta cada trilho de mão única separadamente."
+        ]
+      ],
+      "hoje": "A disputa de Cleveland é a forma inicial de debates que continuam em concessões de transporte, saneamento e energia. A escolha da base de ativos regulatória, entre custo histórico e custo de reposição, segue decidindo tarifas e retornos. As prorrogações antecipadas de contratos, em troca de investimentos ou de pagamentos, voltam com frequência à pauta e reabrem a pergunta de Hopkins: o que a cidade perde ao abrir mão do vencimento. E a comparação entre concessão, arrendamento e operação pública ainda depende, como ele dizia, de dados que o poder concedente muitas vezes não tem.",
+      "itens": [
+        [
+          "The Street Railway Problem in Cleveland",
+          "pp. 289–354",
+          "ia-es-1896-12_1_5-6-p289"
+        ],
+        [
+          "Appendices A–E",
+          "pp. 355–376",
+          "ia-es-1896-12_1_5-6-p355"
+        ]
+      ],
+      "jstor_edicao": ""
     }
   ],
   "proximas": []

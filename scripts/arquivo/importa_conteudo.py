@@ -68,9 +68,17 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
     por_slug[ed["slug"]] = ed
     print("importada", ed["numero"], ed["slug"])
 
-dados["edicoes"] = sorted(por_slug.values(), key=lambda e: e["numero"])
-nums = [e["numero"] for e in dados["edicoes"]]
+def _chave(e):
+    n = str(e["numero"])
+    return (1, int(n[2:])) if n.startswith("ES") else (0, int(n))
+
+
+dados["edicoes"] = sorted(por_slug.values(), key=_chave)
+nums = [e["numero"] for e in dados["edicoes"] if not str(e["numero"]).startswith("ES")]
 assert nums == list(range(1, len(nums) + 1)), f"numeração com lacuna: {nums}"
+# Economic Studies (1896–1899): numeração própria "ES 1", "ES 2"… também sem lacuna
+es = [int(str(e["numero"])[2:]) for e in dados["edicoes"] if str(e["numero"]).startswith("ES")]
+assert es == list(range(1, len(es) + 1)), f"numeração ES com lacuna: {es}"
 json.dump(dados, open(EDS, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 nf = os.path.join(ORIGEM, "notas.json")
