@@ -96189,6 +96189,1622 @@
           "hoje": "A pergunta de Commons, se o desemprego cíclico vem da distribuição da renda ou da instabilidade monetária e do crédito, continua dividindo escolas. A ideia de Hobson de que a desigualdade deprime o consumo voltou ao debate sobre estagnação, e a proposta de Foster e Catchings de guiar o crédito por um índice de preços antecipa as metas de inflação dos bancos centrais."
         }
       ]
+    },
+    {
+      "slug": "1924-o-conceito-de-renda",
+      "numero": 185,
+      "titulo": "Plehn e a renda recorrente; Lucas e o salário mínimo de Massachusetts",
+      "titulo_original": "The American Economic Review, vol. XIV, no. 1, March 1924",
+      "autores": "Carl C. Plehn, Alvin H. Hansen, Lawrence K. Frank, Arthur Fletcher Lucas e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 14, nº 1",
+      "data": "março de 1924",
+      "chamada": "Plehn define a renda pela recorrência; Hansen separa demanda real e monetária; Frank prevê uma economia do comportamento; Lucas avalia dez anos de salário mínimo recomendatório em Massachusetts.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em 1906, Irving Fisher escreveu que a opinião dos economistas sobre a natureza da renda era confusa e contraditória. Em 1911, Seligman disse que o problema de defini-la quase desconcerta o estudante. Em 1921, a equipe do National Bureau of Economic Research apontou a definição como uma das dificuldades mais sérias no uso das estatísticas de renda. Com essas três citações, Carl C. Plehn, da University of California, abre o discurso presidencial que leu na trigésima sexta reunião anual da American Economic Association, em Washington, em 27 de dezembro de 1923, e que inaugura o número de março de 1924 da American Economic Review, o primeiro do volume XIV."
+        },
+        {
+          "tipo": "p",
+          "texto": "A maioria das pessoas, observa Plehn, acha que sabe o que é renda, até ser obrigada a defini-la ou a preencher uma declaração de imposto. O discurso tem dois objetivos: esclarecer o conceito e mostrar, por meio dele, que a economia ganharia com um estudo mais intensivo do tempo. O restante do número vai da teoria à política. Alvin H. Hansen separa demanda real e demanda monetária no ciclo econômico; Lawrence K. Frank prevê o fim da fase especulativa da economia; Arthur Fletcher Lucas avalia a primeira década da lei de salário mínimo de Massachusetts; N. T. Bacon propõe lastrear a moeda em estoques de mercadorias; Gorton James descreve os impostos de exportação preferenciais do Império Britânico; e Irving Fisher comenta o próprio discurso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que faz de uma receita uma renda?",
+          "artigo": "1809280",
+          "credito": "Carl C. Plehn (University of California) · “The Concept of Income, as Recurrent, Consumable Receipts” · pp. 1–12"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é o que Plehn chama de lei da recorrência: o homem ordena a vida em antecipação à sucessão de eventos a que chama tempo. Sabendo que terá fome de novo, procura introduzir a mesma recorrência no seu abastecimento, e esse esforço é regulado pelas estações e pelo fato de que todo dispêndio de esforço leva tempo. Fetter já notara que as necessidades humanas são recorrentes; o autor acrescenta que os processos de produção e seus custos também o são. A ideia, diz, serviria além do conceito de renda: a utilidade marginal de Marshall, pensada para um dado momento, ficaria mais completa com a antecipação da necessidade de amanhã, que explica por que alguém compra farinha em barril e não só para o uso imediato."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese é enunciada com precisão. A renda tem três características essenciais: recebimento, recorrência e possibilidade de gasto. Distingue-se do capital porque este é pensado como possuído, e não recebido; como duradouro, e não recorrente; como algo que se desgasta, mas que não se consome para viver. A renda é a riqueza vista sob o ângulo do tempo; o capital, a riqueza vista no espaço. Recorrência, ressalva o autor, não significa regularidade, apenas periodicidade."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“A renda é essencialmente riqueza disponível para consumo recorrente, recebida de forma recorrente (ou periódica).”",
+          "original": "“Income is essentially wealth available for recurrent consumption, recurrently (or periodically) received.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O método é examinar o que o uso comum chama de renda. Salários e honorários são recebidos, gastáveis e recorrentes; um prêmio isolado gera dúvida justamente por não se repetir. Juros, aluguéis e dividendos esperados têm as mesmas características e podem ser capitalizados; anuidades e pensões, ao contrário, misturam juro e devolução de capital. Ganhos e lucros só são renda sem dúvida quando recorrentes: os do comerciante, sim; o da venda da própria casa, duvidoso. E só conta o líquido, com dedução apenas das despesas recorrentes necessárias para obter a receita."
+        },
+        {
+          "tipo": "p",
+          "texto": "Plehn critica a metáfora da renda como fluxo, usada por Fisher e Seligman: o tempo só se mede pela sucessão de fenômenos, e a renda pela sucessão de recebimentos. Fisher preparou depois uma nota de comentário ao discurso, publicada no mesmo número."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "plehn-a-renda-como-receita-recorrente",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Demanda maior significa preços maiores?",
+          "artigo": "1809281",
+          "credito": "Alvin H. Hansen · “Certain Aspects of Demand in Relation to the Business Cycle” · pp. 13–16"
+        },
+        {
+          "tipo": "p",
+          "texto": "Alvin H. Hansen começa separando os sentidos da palavra demanda. Ela pode ser a quantidade retirada do mercado; a quantidade comprada a certo preço, que F. M. Taylor chama de demanda realizada; a quantidade que os compradores aceitam levar a um preço dado; ou a tabela inteira de quantidades que levariam a preços diferentes. Só há mudança real de demanda quando os compradores aceitam levar mais ao mesmo preço, ou a mesma quantidade a preço maior. Uma queda de preço que aumenta a quantidade vendida apenas percorre a tabela que já existia."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda distinção organiza o artigo. A tabela de demanda pode ser medida em dinheiro, em termos de preço, ou em mercadorias, em termos de valor de troca. Hansen compara com os salários: os salários em dinheiro podem subir depressa enquanto os salários reais ficam parados. Do mesmo modo, a demanda monetária por bens pode crescer sem que mude a demanda real, medida em outros bens."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí uma conclusão que, à primeira vista, parece contraditória. Quando a produção por habitante aumenta, graças a invenções e a métodos melhores, cresce o poder de compra da comunidade e, com ele, a demanda real: compram-se mais camisas e mais sapatos, ainda que a relação de troca entre camisas e sapatos fique igual. Mas, se os meios circulantes não crescerem na mesma proporção, mais bens serão oferecidos pela mesma quantidade de moeda, e os preços cairão. Com a moeda constante, não pode haver ao mesmo tempo aumento geral da demanda real e da demanda monetária."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos períodos de prosperidade, porém, as duas sobem juntas. Para Hansen, isso se explica pelo grande aumento da quantidade e da velocidade dos meios circulantes, que mais do que compensa o ganho de produção por habitante. Na guerra, a demanda monetária cresceu enormemente sem grande aumento geral da demanda real: as curvas de demanda subiam como fenômeno monetário e de preço, não de valor. O caso oposto é o da Alemanha do pós-guerra, onde a demanda monetária disparava enquanto a real caía com a menor produção por habitante, embora quase todos estivessem empregados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na parte final, o autor examina a explicação das crises pela superprodução, pelo excesso de investimento em bens de capital e pela distribuição desigual da renda, associada a Hobson. O ciclo, conclui, corre em termos de dinheiro: é um fenômeno monetário, não um fenômeno de bens."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia ainda está na fase especulativa?",
+          "artigo": "1809282",
+          "credito": "Lawrence K. Frank · “The Emancipation of Economics” · pp. 17–38"
+        },
+        {
+          "tipo": "p",
+          "texto": "Lawrence K. Frank propõe localizar a economia na escala da evolução científica. Vistas de longe, as escolas rivais parecem variações de um único tema: conciliar duas concepções opostas, a de um sistema de forças econômicas em equilíbrio e a da autonomia humana, do homem como agente livre e racional. As duas raramente são enunciadas, diz o autor, porque fazem parte do senso comum do economista."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para mostrar a dificuldade, Frank usa um aquário equilibrado, com peixes, caracóis e plantas. Tratado como sistema, a absorção e a liberação de oxigênio podem ser escritas como lei, com fórmula matemática. Mas, se os peixes forem livres para participar ou não da troca, o sistema se torna indeterminado e mal chega a ser um sistema. As teorias se dividem, assim, entre um grupo pró-sistema, como os economistas matemáticos, e um grupo pró-autonomia, apoiado na psicologia, e cada escola inventa uma fórmula de mediação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão da primeira parte é que a economia está no estágio especulativo que precede uma ciência, quando se explicam os acontecimentos por símbolos verbais. O número crescente de programas de reforma, que pedem melhores definições, psicologia mais moderna, inclusão das instituições e uso mais rigoroso da estatística, sugere que esse estágio se aproxima do fim. Estatística e matemática, adverte o autor, não substituem o experimento."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda parte é uma previsão. A ciência costuma resolver problemas mostrando que eram artificiais. Abandonada a ideia de autonomia, o comportamento passa a ser resposta aprendida a estímulos, formada por hábitos; o motivo seria o nome de um hábito não revelado. Abandonada a ideia de sistema, o que parecia um conjunto de forças seria a semelhança dos hábitos de um grupo. Propriedade, contrato e venda aparecem como práticas sancionadas pelo grupo para suspender tabus sobre coisas e pessoas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na divisão de trabalho que Frank antevê, a psicologia ficaria com a formação dos hábitos, inclusive o problema do valor e da utilidade marginal; a história, com a evolução das instituições; a economia, com o comportamento de preço, isto é, as práticas de contrato e venda com respostas quantitativas medidas em dinheiro. Os ciclos de negócios aparecem como fenômenos repetidos, úteis ao estudo, e o autor pede técnicas de experimento sobre o comportamento social."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Uma lei sem sanção consegue elevar salários?",
+          "artigo": "1809283",
+          "credito": "Arthur Fletcher Lucas (Princeton University) · “A Recommendatory Minimum Wage Law: The First Decade of the Massachusetts Experiment” · pp. 39–51"
+        },
+        {
+          "tipo": "p",
+          "texto": "Arthur Fletcher Lucas parte da posição da Suprema Corte, que, desde o caso do Distrito de Colúmbia, torna arriscado o futuro das leis de salário mínimo obrigatórias. A lei de Massachusetts é o principal exemplo de uma lei apenas recomendatória, e a primeira década de sua aplicação terminou em 1º de julho de 1923. Nesse período, decretos fixaram mínimos para mulheres e meninas em dezesseis ocupações, que empregavam de 70 mil a 80 mil trabalhadoras em cerca de 5 mil empresas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mecanismo: uma comissão de três membros, nomeada pelo governador e integrada em 1919 ao Departamento de Trabalho e Indústrias, investiga ocupações em que os salários pareçam insuficientes para o custo de vida; confirmada a suspeita, cria-se um conselho com representantes de empregadores e de empregadas em número igual e membros do público, que propõe o mínimo. A lei não prevê multa: a única arma é publicar o nome de quem não cumpre."
+        },
+        {
+          "tipo": "p",
+          "texto": "Até 1920, a resistência apareceu em quatro indústrias. Na de escovas, a primeira com decreto, a inspeção inicial encontrou cinco de dezenove fábricas abaixo do mínimo, e a comissão preferiu publicar o nome das que cumpriam. Na de lavanderias, cujo mínimo de US$ 8 por semana vigorou em 1º de setembro de 1915, os empregadores recusaram acesso às folhas de pagamento, e a constitucionalidade da lei só foi confirmada em 1918 pela Suprema Corte de Massachusetts. A partir de 1920, a resistência cresceu."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 a 4%",
+          "texto": "Parcela das trabalhadoras sob decreto para as quais, na estimativa de Lucas, a comissão não conseguiu ou não conseguirá garantir o mínimo. Em 1922, ano de maior descumprimento, 679 empresas de um universo de cerca de 5 mil estavam fora da regra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O êxito, pondera o autor, não se deve só à lei. Os mínimos foram fixados baixo, raramente à altura de um padrão de custo de vida, e a alta de preços de 1915 a 1920 facilitou a aceitação; a queda de 1920 a dificultou. Os orçamentos dos conselhos variaram sem justificativa clara, e nenhum decreto previu o desemprego sazonal. Ainda assim, Lucas conclui que a lei fez muito para melhorar a condição das trabalhadoras, e registra que uma comissão do Legislativo recomendou mantê-la praticamente como está até que receba uma prova mais justa."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "lucas-o-salario-minimo-de-massachusetts",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Armazéns de mercadorias no lugar do ouro?",
+          "artigo": "1809284",
+          "credito": "N. T. Bacon · “Stabilizing Production by Means of Reserves” · pp. 52–55"
+        },
+        {
+          "tipo": "p",
+          "texto": "N. T. Bacon parte de uma constatação sobre o ouro. Guardado sobretudo em reservas, ele tem poucos usos de consumo, como joalheria, douração e odontologia, e seu valor fictício vem sendo minado pela difusão dos instrumentos de crédito. Entre os planos para estabilizar a moeda, o único que ganhou adeptos, diz o autor, foi o de Irving Fisher. Bacon pergunta se não seria melhor apoiar a moeda em artigos de consumo corrente."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta é vender o ouro enquanto ainda há mercado e construir armazéns em pontos estratégicos, sobretudo perto dos centros de consumo, para guardar grandes quantidades de mercadorias não perecíveis, que serviriam de base à moeda. O governo garantiria que o valor em estoque nunca caísse abaixo de certa proporção da circulação, como antes mantinha prata para cada certificado de prata. As fomes recentes e as greves do carvão, argumenta, mostram o risco de depender dos estoques de especuladores e comerciantes; desde as vacas magras do faraó se conhece a vantagem de uma reserva de grãos."
+        },
+        {
+          "tipo": "p",
+          "texto": "A lista vai além do trigo: algodão, lã e linho, carvão, petróleo cru, madeira, ferro-gusa e cobre, e até manufaturados básicos como leite condensado, carnes conservadas, cimento e trilhos de aço. Haveria dois objetivos, seguro contra calamidades e estabilização da moeda e dos mercados."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10%",
+          "texto": "Parcela do estoque público que Bacon liberaria quando o preço de mercado subisse 5% acima do preço médio de compra, com mais 2% para cada ponto adicional de alta. Na queda, as compras começariam abaixo da proporção prevista: no exemplo do autor, com o trigo a US$ 1 valendo 25% do total armazenado, as compras se iniciariam a 95 centavos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado seria uma regulação automática dos preços por atacado, que impediria a manipulação por especuladores. O consumidor deixaria de temer preços de fome, e o agricultor, que uma supersafra destruísse mais valor do que cria; ganharia menos nos anos magros e mais nos gordos. Bacon reconhece as dificuldades: escolher produtos e proporções seria tão disputado quanto a tarifa, e as cidades competiriam pelos armazéns como competiram pelos bancos do Federal Reserve. Propõe limitar a compra de cada mercadoria a duas vezes o consumo doméstico anual médio recente."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem paga o imposto de exportação do Império Britânico?",
+          "artigo": "1809285",
+          "credito": "Gorton James (Harvard Graduate School of Business Administration) · “British Preferential Export Taxes” · pp. 56–63"
+        },
+        {
+          "tipo": "p",
+          "texto": "Gorton James lembra que a Constituição americana proíbe impostos sobre artigos exportados de qualquer estado, e que por isso o tema foi, para os Estados Unidos, sobretudo acadêmico. Mudou com a dependência crescente de matérias-primas estrangeiras e com uma forma nova do tributo: o imposto preferencial, que reduz ou dispensa a cobrança sobre o produto embarcado para dentro do Império Britânico."
+        },
+        {
+          "tipo": "p",
+          "texto": "O primeiro caso é o do minério de estanho. Depois que a International Tin Company foi organizada nos Estados Unidos, em 1903, os Estados Malaios Federados criaram um imposto de exportação proibitivo, de US$ 13,53 por hundredweight, para todo embarque sem garantia de fundição nos Straits Settlements, na Austrália ou na Grã-Bretanha. Em 1916, a American Smelting and Refining Company abriu uma fundição em Perth Amboy, Nova Jersey, seguida de outras quatro, abastecidas com minério boliviano. Sem o direito de importação pedido ao Congresso em 1922, as novas fundições fecharam."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seguem as amêndoas de palma da África Ocidental, taxadas em 1916 com a justificativa de proteger os esmagadores de Hull da concorrência alemã, e os couros da Índia: em 1919, um imposto de 15% ad valorem sobre couros e peles não curtidos, com devolução de dois terços se o curtimento fosse feito no Império. Segundo relato citado pelo autor, a medida destruiu de um golpe a indústria americana de pelica."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 73 milhões",
+          "texto": "Custo total para os Estados Unidos, no primeiro ano, do plano Stevenson de restrição da borracha, segundo cálculo citado por James. O preço da borracha bruta passou de cerca de 12 para perto de 27 centavos por libra; o ganho líquido dos comerciantes de borracha é estimado em US$ 53 milhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "O plano Stevenson criou nas colônias britânicas da península malaia uma escala de impostos de exportação conforme a proporção da produção de 1920. Não é preferencial, observa o autor, mas alivia as plantações britânicas à custa das americanas, mais novas. As colônias britânicas produzem cerca de 70% da borracha bruta do mundo. James lembra que o Império cobre mais de um quarto das terras do mundo e que a eleição de dezembro de 1923 indicou que os ingleses não querem abandonar o livre-comércio; seria anômalo, conclui, manter impostos que embutem o princípio protecionista."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O critério da recorrência vale em teoria?",
+          "artigo": "1809286",
+          "credito": "Irving Fisher (Yale University) · “Comment on President Plehn's Address” · pp. 64–67"
+        },
+        {
+          "tipo": "p",
+          "texto": "Irving Fisher, citado no discurso, responde em quatro páginas. Atribui as diferenças entre os dois aos objetivos: Plehn quer orientar o imposto de renda; Fisher, que escreveu antes da adoção desse imposto, buscava a análise econômica; o National Bureau, a medida estatística. Para Fisher, a renda é um serviço, e a maioria dos serviços tem dupla face: o corte de madeira é renda para a floresta e saída para a serraria. Só a satisfação final das necessidades não tem contrapartida negativa."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Em teoria, portanto, um imposto de renda meticuloso deveria perseguir sua vítima até a mesa de jantar.”",
+          "original": "“Theoretically, therefore, a meticulous income tax should pursue its victim to his dining table”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Como isso é impraticável, o fisco mede o fluxo rio acima, e é aí que a recorrência de Plehn ajuda: o cupom recorrente é indício presumível de gasto de consumo; o lucro não recorrente da venda de um imóvel, indício de reinvestimento. Os exemplos de exceção são Hetty Green, que reinvestia os cupons, e Rip Van Winkle, que gastaria o lucro. A conclusão de Fisher é que os critérios de Plehn têm alto valor prático e baixo valor teórico."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas incluem a biografia de Francis Amasa Walker por Munroe, resenhada por Hadley; Economics for Everyman, de Le Rossignol, por Ise; Agricultural Organization in the United States, de Wiest, por Hibbard; Foundations of Agricultural Economics, de Venn, por C. L. Holmes; Railroad Freight Transportation, de Loree, por Parmelee; Regulation and Management of Public Utilities, de Morgan, por Bauer; The Worker in Modern Economic Society, de Douglas, Hitchcock e Atkins, por Wooster; The United Mine Workers and the Non-Union Coal Fields, de Hinrichs, por Suffern; The Federal Reserve System, de Willis, por Reed; Money and Foreign Exchange after 1914, de Cassel, por W. A. Scott; Labor's Money, de Boeckel, por Weyforth; Money, de Foster e Catchings, por R. G. Hawtrey; e The Population Problem, de Carr-Saunders, por A. B. Wolfe. Completam o número listas de livros novos e de periódicos, a seção de documentos, de Garver e Stewart, e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o discurso de Plehn é um exercício de definição pelo uso. Em vez de partir de um princípio, ele lista o que todos chamam de renda, extrai as características comuns e testa os casos de fronteira, como o prêmio isolado, a herança e a venda da casa. O critério que resulta, a recorrência esperada, separa a receita que se pode gastar sem comprometer a capacidade futura de receber daquela que deve ser tratada como capital.",
+            "O critério tem consequência prática para a tributação e para a contabilidade nacional. Plehn reconhece que as definições técnicas, como a de Fisher e a do National Bureau, servem a propósitos distintos, e restringe a sua à renda privada. A distinção entre receita recorrente e ganho eventual reaparece em qualquer discussão sobre o que deve ser tributado como renda e o que deve ser tratado como acréscimo de patrimônio."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Lei da recorrência",
+          "expressão de Plehn para a tendência de ordenar consumo e produção em antecipação a eventos periódicos."
+        ],
+        [
+          "Utilidade marginal decrescente",
+          "princípio de que cada unidade adicional de um bem acrescenta menos satisfação que a anterior."
+        ],
+        [
+          "Rendimentos decrescentes",
+          "queda do produto adicional quando um fator é usado com intensidade crescente."
+        ],
+        [
+          "Capitalizável",
+          "receita cujo direito pode ser vendido por um valor presente calculável."
+        ],
+        [
+          "Anuidade",
+          "série de pagamentos periódicos que combina juro e devolução de capital."
+        ],
+        [
+          "Renda líquida",
+          "receita depois de deduzidas as despesas necessárias para obtê-la."
+        ],
+        [
+          "Demanda realizada",
+          "quantidade efetivamente comprada a determinado preço, no termo de F. M. Taylor."
+        ],
+        [
+          "Demanda real e monetária",
+          "demanda medida em outros bens (valor de troca) ou em dinheiro (preço)."
+        ],
+        [
+          "Meios circulantes",
+          "moeda e instrumentos de crédito usados nos pagamentos."
+        ],
+        [
+          "Lei recomendatória",
+          "lei que fixa padrões sem sanção legal; em Massachusetts, a sanção era a publicidade."
+        ],
+        [
+          "Imposto de exportação preferencial",
+          "tributo sobre exportações reduzido ou dispensado quando o destino é um território preferido."
+        ]
+      ],
+      "hoje": "A distinção entre renda recorrente e ganho eventual continua a orientar a tributação de ganhos de capital, heranças e prêmios. A separação de Hansen entre demanda real e monetária está na base da análise do ciclo, e a discussão sobre restrições à exportação de matérias-primas críticas voltou à política comercial. Salários mínimos fixados por conselhos setoriais, com participação de empregadores e trabalhadores, seguem em uso em vários países, e o debate sobre seus efeitos no emprego e nos salários continua aberto.",
+      "itens": [
+        [
+          "The Concept of Income, as Recurrent, Consumable Receipts",
+          "pp. 1–12",
+          "1809280"
+        ],
+        [
+          "Certain Aspects of Demand in Relation to the Business Cycle",
+          "pp. 13–16",
+          "1809281"
+        ],
+        [
+          "The Emancipation of Economics",
+          "pp. 17–38",
+          "1809282"
+        ],
+        [
+          "A Recommendatory Minimum Wage Law: The First Decade of the Massachusetts Experiment",
+          "pp. 39–51",
+          "1809283"
+        ],
+        [
+          "Stabilizing Production by Means of Reserves",
+          "pp. 52–55",
+          "1809284"
+        ],
+        [
+          "British Preferential Export Taxes",
+          "pp. 56–63",
+          "1809285"
+        ],
+        [
+          "Communication: Comment on President Plehn's Address",
+          "pp. 64–67",
+          "1809286"
+        ],
+        [
+          "Review: A Life of Francis Amasa Walker by Munroe",
+          "",
+          "1809287"
+        ],
+        [
+          "Review: Economics for Everyman by Le Rossignol",
+          "",
+          "1809288"
+        ],
+        [
+          "Review: Agricultural Organization in the United States by Wiest",
+          "",
+          "1809291"
+        ],
+        [
+          "Review: Foundations of Agricultural Economics by Venn",
+          "",
+          "1809292"
+        ],
+        [
+          "Review: Railroad Freight Transportation by Loree",
+          "",
+          "1809295"
+        ],
+        [
+          "Review: Regulation and Management of Public Utilities by Morgan",
+          "",
+          "1809298"
+        ],
+        [
+          "Review: The Worker in Modern Economic Society by Douglas, Hitchcock & Atkins",
+          "",
+          "1809300"
+        ],
+        [
+          "Review: The United Mine Workers and the Non-Union Coal Fields by Hinrichs",
+          "",
+          "1809301"
+        ],
+        [
+          "Review: The Federal Reserve System by Willis",
+          "",
+          "1809303"
+        ],
+        [
+          "Review: Money and Foreign Exchange after 1914 by Cassel",
+          "",
+          "1809304"
+        ],
+        [
+          "Review: Labor's Money by Boeckel",
+          "",
+          "1809305"
+        ],
+        [
+          "Review: Money by Foster & Catchings",
+          "",
+          "1809306"
+        ],
+        [
+          "Review: The Population Problem by Carr-Saunders",
+          "",
+          "1809309"
+        ],
+        [
+          "Periodicals",
+          "pp. 157–191",
+          "1809316"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 192–199",
+          "1809317"
+        ],
+        [
+          "Notes",
+          "pp. 200–208",
+          "1809318"
+        ]
+      ],
+      "jstor_edicao": "i331394",
+      "artigos": [
+        {
+          "titulo": "Volume Information",
+          "autores": "",
+          "paginas": "pp. iii–viii",
+          "jstor": "1809279",
+          "resumo": "Índice e informações do volume XIV."
+        },
+        {
+          "titulo": "Front Matter",
+          "autores": "",
+          "paginas": "",
+          "jstor": "3857062",
+          "resumo": "Páginas iniciais do número."
+        },
+        {
+          "titulo": "The Concept of Income, as Recurrent, Consumable Receipts",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 1–12",
+          "jstor": "1809280",
+          "resumo": "Discurso presidencial que define a renda por três características, recebimento, recorrência e possibilidade de gasto, e defende o estudo do tempo na economia.",
+          "ensaio_slug": "plehn-a-renda-como-receita-recorrente"
+        },
+        {
+          "titulo": "Certain Aspects of Demand in Relation to the Business Cycle",
+          "autores": "Alvin H. Hansen",
+          "paginas": "pp. 13–16",
+          "jstor": "1809281",
+          "resumo": "Distingue demanda real e demanda monetária e sustenta que o ciclo econômico é um fenômeno monetário."
+        },
+        {
+          "titulo": "The Emancipation of Economics",
+          "autores": "Lawrence K. Frank",
+          "paginas": "pp. 17–38",
+          "jstor": "1809282",
+          "resumo": "Ensaio que situa a economia num estágio especulativo e prevê uma ciência do comportamento econômico baseada em hábitos."
+        },
+        {
+          "titulo": "A Recommendatory Minimum Wage Law: The First Decade of the Massachusetts Experiment",
+          "autores": "Arthur Fletcher Lucas (Princeton University)",
+          "paginas": "pp. 39–51",
+          "jstor": "1809283",
+          "resumo": "Avaliação da primeira década da lei recomendatória de salário mínimo de Massachusetts: cumprimento, efeitos e limites.",
+          "ensaio_slug": "lucas-o-salario-minimo-de-massachusetts"
+        },
+        {
+          "titulo": "Stabilizing Production by Means of Reserves",
+          "autores": "N. T. Bacon",
+          "paginas": "pp. 52–55",
+          "jstor": "1809284",
+          "resumo": "Proposta de substituir as reservas de ouro por armazéns públicos de mercadorias não perecíveis, com compras e vendas automáticas."
+        },
+        {
+          "titulo": "British Preferential Export Taxes",
+          "autores": "Gorton James (Harvard Graduate School of Business Administration)",
+          "paginas": "pp. 56–63",
+          "jstor": "1809285",
+          "resumo": "Descrição dos impostos de exportação preferenciais do Império Britânico sobre estanho, palma, couros e borracha."
+        },
+        {
+          "titulo": "Communication: Comment on President Plehn's Address",
+          "autores": "Irving Fisher (Yale University)",
+          "paginas": "pp. 64–67",
+          "jstor": "1809286",
+          "resumo": "Comunicação de Irving Fisher, que considera a recorrência um critério de alto valor prático e baixo valor teórico."
+        },
+        {
+          "titulo": "Munroe, A Life of Francis Amasa Walker",
+          "autores": "Hadley",
+          "paginas": "",
+          "jstor": "1809287",
+          "resumo": "Resenha de Hadley."
+        },
+        {
+          "titulo": "Le Rossignol, Economics for Everyman",
+          "autores": "Ise",
+          "paginas": "",
+          "jstor": "1809288",
+          "resumo": "Resenha de Ise."
+        },
+        {
+          "titulo": "Wiest, Agricultural Organization in the United States",
+          "autores": "Hibbard",
+          "paginas": "",
+          "jstor": "1809291",
+          "resumo": "Resenha de Hibbard."
+        },
+        {
+          "titulo": "Venn, Foundations of Agricultural Economics",
+          "autores": "C. L. Holmes",
+          "paginas": "",
+          "jstor": "1809292",
+          "resumo": "Resenha de C. L. Holmes."
+        },
+        {
+          "titulo": "Loree, Railroad Freight Transportation",
+          "autores": "Parmelee",
+          "paginas": "",
+          "jstor": "1809295",
+          "resumo": "Resenha de Parmelee."
+        },
+        {
+          "titulo": "Morgan, Regulation and Management of Public Utilities",
+          "autores": "Bauer",
+          "paginas": "",
+          "jstor": "1809298",
+          "resumo": "Resenha de Bauer."
+        },
+        {
+          "titulo": "Douglas, Hitchcock e Atkins, The Worker in Modern Economic Society",
+          "autores": "Wooster",
+          "paginas": "",
+          "jstor": "1809300",
+          "resumo": "Resenha de Wooster."
+        },
+        {
+          "titulo": "Hinrichs, The United Mine Workers and the Non-Union Coal Fields",
+          "autores": "Suffern",
+          "paginas": "",
+          "jstor": "1809301",
+          "resumo": "Resenha de Suffern."
+        },
+        {
+          "titulo": "Willis, The Federal Reserve System",
+          "autores": "Reed",
+          "paginas": "",
+          "jstor": "1809303",
+          "resumo": "Resenha de Reed."
+        },
+        {
+          "titulo": "Cassel, Money and Foreign Exchange after 1914",
+          "autores": "W. A. Scott",
+          "paginas": "",
+          "jstor": "1809304",
+          "resumo": "Resenha de W. A. Scott."
+        },
+        {
+          "titulo": "Boeckel, Labor's Money",
+          "autores": "Weyforth",
+          "paginas": "",
+          "jstor": "1809305",
+          "resumo": "Resenha de Weyforth."
+        },
+        {
+          "titulo": "Foster e Catchings, Money",
+          "autores": "R. G. Hawtrey",
+          "paginas": "",
+          "jstor": "1809306",
+          "resumo": "Resenha de R. G. Hawtrey."
+        },
+        {
+          "titulo": "Carr-Saunders, The Population Problem",
+          "autores": "A. B. Wolfe",
+          "paginas": "",
+          "jstor": "1809309",
+          "resumo": "Resenha de A. B. Wolfe."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 157–191",
+          "jstor": "1809316",
+          "resumo": "Lista de artigos de periódicos, por assunto."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "Garver e Stewart",
+          "paginas": "pp. 192–199",
+          "jstor": "1809317",
+          "resumo": "Lista de documentos oficiais, relatórios e legislação."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 200–208",
+          "jstor": "1809318",
+          "resumo": "Notas e notícias da associação e da profissão."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "plehn-a-renda-como-receita-recorrente",
+          "titulo": "Plehn e a renda como receita recorrente",
+          "titulo_original": "The Concept of Income, as Recurrent, Consumable Receipts",
+          "autores": "Carl C. Plehn (University of California)",
+          "paginas": "pp. 1–12",
+          "jstor": "1809280",
+          "chamada": "No discurso presidencial de 1923, Carl C. Plehn define a renda por recebimento, recorrência e possibilidade de gasto, separa-a do capital e pede mais atenção ao tempo na teoria econômica.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Três autoridades abrem o discurso. Irving Fisher, em The Nature of Capital and Income, de 1906, achou a opinião dos economistas sobre a renda confusa e contraditória. Seligman, em 1911, escreveu que o problema de defini-la quase desconcerta o estudante. E a equipe do National Bureau of Economic Research, em 1921, listou a definição entre as dificuldades mais sérias no trabalho com estatísticas de renda e propôs uma série de enigmas sem resposta. Carl C. Plehn, da University of California, leu o discurso como presidente da American Economic Association na reunião anual de Washington, em 27 de dezembro de 1923."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que falar do tempo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O discurso tem um segundo objetivo: mostrar a conveniência de um estudo mais intensivo do elemento tempo na economia. Plehn quer mostrar que a recorrência antecipada é uma característica essencial da renda e, por meio dela, ilustrar um princípio de conduta que chama, à falta de termo melhor, de lei da recorrência. Admite o caráter um tanto metafísico da ideia e lembra o renovado interesse pela teoria pura."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor separa o seu tema de outros sentidos de tempo: não fala do fluxo eterno de Heráclito, nem da mudança secular que distingue a estática da dinâmica. O que lhe importa é que o homem ordena a vida em antecipação à sucessão de eventos. Sabendo que terá fome em ocasiões recorrentes, procura introduzir a mesma recorrência no seu abastecimento, e nisso é regulado pelas estações e pelo fato de que todo dispêndio de esforço leva tempo. Fetter já mostrara que as necessidades são recorrentes e que a renda, para servi-las, também precisa ser; Plehn acrescenta que a produção e seus custos são periódicos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A recorrência muda a teoria da demanda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro campo de aplicação é a teoria do valor. Plehn cita a formulação de Alfred Marshall da lei das necessidades saciáveis, a utilidade total cresce com o estoque, mas menos que proporcionalmente, e observa que ela se refere a um dado momento, no que Marshall chamou de ficção do estado estacionário. O autor recorre a uma imagem de Seager: o menino americano saudável que se enche de panquecas com xarope de bordo pela manhã está pronto para repetir no dia seguinte."
+            },
+            {
+              "tipo": "p",
+              "texto": "Estendida a lei da saciedade à recorrência antecipada das necessidades, o uso futuro de um estoque presente entra no cálculo de hoje de um modo que o simples desconto não explica. A necessidade de um dólar amanhã limita a utilidade decrescente atribuída a um dólar hoje. E não basta mostrar pelo lado da oferta que um barril de farinha sai mais barato que pacotes de dez libras; é preciso explicar por que há demanda pelo barril. Sem os usos futuros, ninguém compraria mais do que o necessário para o uso presente."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a oferta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo campo é a lei dos rendimentos decrescentes, que muitos já haviam estendido para além da terra. Qualquer agente de produção, terra, máquina ou trabalho, rende menos por unidade se for forçado além de certo ponto. O exemplo é o motor a gasolina do automóvel, com sua velocidade de operação mais econômica: abaixo dela o custo por milha cai; acima, cada milha exige mais potência."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é a definição?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A tese vem em forma de enunciado: a renda é riqueza disponível para consumo recorrente, recebida de forma recorrente ou periódica, com três características essenciais, recebimento, recorrência e possibilidade de gasto. O capital, ao contrário, é pensado como possuído, e não recebido; como duradouro, e não recorrente; como algo que se desgasta, mas não se consome para viver, e que deve ser mantido na forma mais duradoura possível."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“É a riqueza vista principalmente do ponto de vista do tempo.”",
+              "original": "“It is wealth looked at primarily from the point of view of time.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Renda de quem?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Plehn dedica um momento a uma definição que se apresenta como a mais antiga, a do Gênesis, em que o homem recebe as ervas que dão semente e o fruto das árvores para alimento. O que ele recebia era o produto recorrente do jardim, para consumir; a árvore, o capital, devia ser conservada. Da colheita na eira ao conceito contábil de renda como aumento líquido do patrimônio do proprietário, o caminho é longo, e a moeda entrou nele, servindo de denominador comum, mas também obscurecendo o raciocínio."
+            },
+            {
+              "tipo": "p",
+              "texto": "Duas autoridades recentes ficam em extremos. Fisher define a verdadeira renda como os serviços abstratos que a propriedade ou os instrumentos proporcionam, duas vezes distante do dinheiro recebido. O National Bureau não conta como renda nacional nada por que normalmente não se pague um preço. Para Plehn, cada definição técnica é boa na medida em que serve ao seu propósito: a de Fisher dirige a atenção ao que contribui para o bem-estar, mas não serve de base a um imposto; a do National Bureau serve para medir a renda nacional."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que entra na lista?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O método é examinar o que o uso comum chama de renda e extrair as características comuns. Salários, ordenados e outras remunerações de serviços pessoais são renda, em dinheiro ou em espécie. Não é o contrato que os torna renda, nem o esforço. É o fato de serem recebidos; de poderem ser gastos para viver sem prejuízo direto da renda futura esperada; e de se repetirem. Uma herança ou um tesouro achado também podem ser gastos, mas a prudência manda tratá-los como capital. Um prêmio recebido em ocasião rara gera dúvida, e a dúvida, diz Plehn, vem da ausência de recorrência antecipada."
+            },
+            {
+              "tipo": "p",
+              "texto": "Juros e aluguéis têm em comum com os salários quatro traços: são contratuais, recebidos, gastáveis e recorrentes; os dividendos não são contratuais no mesmo sentido, mas são receitas recorrentes e gastáveis. Têm um traço novo, são capitalizáveis, mas como ele falta nos salários não pode ser o que define a renda. Anuidades e pensões, de certo modo, são o inverso: o atuário mostra que cada pagamento é em parte juro e em parte devolução de capital."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os ganhos e lucros são o grupo mais difícil. Os recorrentes, como os do comerciante ou do negociante de imóveis e títulos, são renda sem dúvida, mesmo irregulares. Os que não se repetem, como o lucro da venda da casa própria, são duvidosos. O aumento de valor de um bem de capital, como a árvore que cresce, só tem valor se houver mais fruto, ou se o dia do fruto se aproximar; quando realizado por quem negocia esses bens como mercadoria, entra numa série de receitas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que só o líquido?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O uso comum exige que cada item conte como renda só na medida em que é líquido, porque só assim é gastável. A ideia vem do que Thomas Mun chamou de nobre ordem de devedor e credor: o adiantamento necessário para obter a renda precisa ser recuperado antes de se conhecer a renda verdadeira. Plehn adverte contra levar a equação ao extremo, como no conceito de renda negativa do National Bureau, que significa excesso de saídas sobre entradas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que não um fluxo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A metáfora do fluxo, adotada recentemente por Fisher e Seligman, lembra a definição de Newton do tempo absoluto, que flui uniformemente. Para Plehn, ela é aceitável como recurso de cálculo, mas o tempo só se mede pela sucessão de fenômenos, o tique do relógio ou o nascer do sol, e a renda só se mede pela sucessão de recebimentos. O acúmulo contínuo de renda separado do recebimento é uma abstração baseada numa suposição de regularidade que não se pode provar."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A realidade é o recebimento da renda em parcelas, em ocasiões recorrentes.”",
+              "original": "“The reality is the receipt of income in instalments on recurrent occasions.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pelo mesmo motivo, a definição de capital como fundo não basta para distingui-lo da renda: só quando uma quantidade continua em posse por um período considerável ela é capital. O autor fecha desejando que os estudos do tempo se tornem recorrentes, para que a teoria econômica renda mais."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a contribuição de Plehn é deslocar a definição de renda da natureza do bem para a posição do recebimento no tempo. A mesma quantia pode ser renda ou capital conforme se espere ou não que se repita, e conforme possa ser gasta sem reduzir as receitas futuras. Esse critério resolve de modo coerente os casos que confundem o leigo e o fisco, como a herança, o prêmio e o lucro da venda da casa.",
+                "O ponto mais fértil é a ligação entre recorrência e demanda. Ao lembrar que a necessidade de amanhã entra no cálculo de hoje, Plehn aponta para a demanda por estoques e para a escolha intertemporal de consumo, temas que a análise do momento único deixa de fora. A crítica à metáfora do fluxo, por sua vez, é sobretudo de método: separa o que se observa, os recebimentos datados, do que se supõe, o acúmulo contínuo entre eles."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Lei da recorrência",
+              "princípio, nos termos de Plehn, de que a conduta econômica se ordena em antecipação a eventos periódicos."
+            ],
+            [
+              "Estado estacionário",
+              "construção teórica de uma economia sem mudança, usada por Marshall."
+            ],
+            [
+              "Rendimentos decrescentes",
+              "queda do produto adicional quando um fator é usado com intensidade crescente."
+            ],
+            [
+              "Capitalização",
+              "cálculo do valor presente de uma série de receitas futuras."
+            ],
+            [
+              "Renda negativa",
+              "no uso do National Bureau, excesso das saídas sobre as entradas."
+            ]
+          ],
+          "hoje": "A pergunta de Plehn continua aberta na tributação: ganhos de capital, heranças e prêmios recebem tratamento diferente de salários e juros em muitos países, e a fronteira entre renda e patrimônio segue disputada. Na teoria, a ideia de renda como o que se pode consumir sem reduzir a capacidade futura de ganho tornou-se referência, e a recorrência das necessidades está na base dos modelos de consumo ao longo do tempo."
+        },
+        {
+          "slug": "lucas-o-salario-minimo-de-massachusetts",
+          "titulo": "Lucas e os dez anos do salário mínimo recomendatório de Massachusetts",
+          "titulo_original": "A Recommendatory Minimum Wage Law: The First Decade of the Massachusetts Experiment",
+          "autores": "Arthur Fletcher Lucas (Princeton University)",
+          "paginas": "pp. 39–51",
+          "jstor": "1809283",
+          "chamada": "Arthur Fletcher Lucas avalia a lei de salário mínimo de Massachusetts, que só podia punir com publicidade: o grau de cumprimento, o efeito sobre salários e os limites dos mínimos fixados.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1º de julho de 1923 terminou a primeira década de funcionamento da lei de salário mínimo de Massachusetts. Nesse período, decretos fixaram salários mínimos para mulheres e meninas em dezesseis ocupações, que empregavam de 70 mil a 80 mil trabalhadoras e cobriam cerca de 5 mil empresas. Arthur Fletcher Lucas, da Princeton University, usa o marco para perguntar o que uma lei desse tipo consegue fazer quando não pode obrigar ninguém."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A posição atual da Suprema Corte torna perigoso o futuro das leis de salário mínimo obrigatórias.”",
+              "original": "“The present position of the Supreme Court renders the future of mandatory minimum wage laws perilous.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A pergunta tinha urgência. Depois da decisão no caso do Distrito de Colúmbia, discutia-se o que se poderia obter com uma lei livre dos traços que a Corte considerava objetáveis. A lei de Massachusetts, que apenas recomenda, era o exemplo mais destacado. Os dados do autor vêm sobretudo dos relatórios anuais da comissão de salário mínimo, de 1913 a 1922, e de entrevistas com quem acompanhava a sua aplicação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como funciona a lei?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A administração cabe a uma comissão permanente de três pessoas nomeadas pelo governador. Em 1919, a comissão foi incorporada ao recém-criado Departamento de Trabalho e Indústrias, como uma divisão; seus membros passaram a ser comissários associados e a acumular a função de conselho de conciliação e arbitragem. Na prática, observa Lucas, a aplicação da lei ficou quase toda nas mãos de um comissário assistente."
+            },
+            {
+              "tipo": "p",
+              "texto": "A comissão pode investigar os salários femininos de qualquer ocupação em que tenha razão para crer que um número substancial de empregadas recebe menos do que o necessário para o custo de vida e a saúde. Confirmada a suspeita, cria-se um conselho de salário com representantes de empregadores e de empregadas em número igual e um ou mais membros desinteressados, em nome do público. O conselho fixa o mínimo levando em conta o custo de vida e a situação financeira da ocupação, com taxas próprias para aprendizes e menores. Antes de um decreto formal, há audiência pública."
+            },
+            {
+              "tipo": "p",
+              "texto": "O ponto decisivo é a ausência de sanção. A lei não prevê multa para quem paga menos; o único instrumento da comissão é publicar o nome dos empregadores que não cumprem o decreto. Por isso, diz o autor, o tema mais interessante de uma lei assim é o do cumprimento, seguido do efeito efetivo sobre os salários."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os empregadores cumpriram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Até 1920, o cumprimento trouxe pouca dificuldade. Dos onze decretos anteriores, só quatro, os das indústrias de escovas, lavanderias, comércio varejista e vestuário feminino, criaram problemas sérios. Na de escovas, a primeira com decreto, a inspeção inicial mostrou cinco de dezenove fábricas abaixo do mínimo. A comissão não publicou uma lista negra; contentou-se em divulgar o nome das que cumpriam, e as inspeções seguintes mostraram cumprimento quase universal."
+            },
+            {
+              "tipo": "p",
+              "texto": "O decreto das lavanderias, de 1º de setembro de 1915, fixou US$ 8 por semana. Em novembro, os empregadores negaram aos agentes da comissão acesso às folhas de pagamento, alegando que a lei era inconstitucional. A questão foi aos tribunais, e em 1918 a Suprema Corte de Massachusetts confirmou a lei. No comércio varejista, cujo mínimo de US$ 8,50 vigorou em 1º de janeiro de 1916, cerca de 6% das mulheres ainda ganhavam menos na primeira inspeção, e a lista de cumpridores teve menos efeito; em 1919, a alta dos salários fizera desaparecer quase todos os casos. No vestuário feminino, cerca de metade das alfaiatarias e ateliês de costura sob medida recusou o decreto de 1917."
+            },
+            {
+              "tipo": "p",
+              "texto": "Depois de 1920, a tarefa ficou bem mais difícil. Com certos empregadores dos ramos de caixas de papel e de limpeza de prédios, a comissão recorreu pela primeira vez à publicação dos nomes dos infratores, e mesmo assim não conseguiu o mínimo para 266 mulheres. Em 1922 houve 5.675 casos de descumprimento; 3.711 deles na ocupação de vendas, cujo novo decreto elevara o mínimo de US$ 8,50 para US$ 14. Ao longo do ano, 1.210 casos foram ajustados, e 4.465 seguiam pendentes no fim de 1922."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "679",
+              "texto": "Empresas fora da regra em 1922, ano de maior descumprimento, num universo possível de cerca de 5 mil. Lucas estima que a comissão não conseguiu, ou não conseguirá, garantir o mínimo para uma pequena parcela, provavelmente 3% ou 4%, das mulheres sob decreto."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O sucesso é mérito da lei?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não inteiramente, responde o autor. O primeiro fator é o valor baixo dos mínimos, que raramente alcançaram um padrão de custo de vida. O segundo é a conjuntura: a alta de preços de 1915 a 1920 e a falta de mão de obra favoreceram a aceitação, e a queda de preços e salários em 1920 tornou a aplicação difícil."
+            },
+            {
+              "tipo": "p",
+              "texto": "A publicidade, além disso, pesa de modo desigual. Quem vende direto ao público e usa marca própria não pode arriscar a reputação numa lista negra; quem vende por intermediários quase não sente o golpe. Lucas cita a conclusão de uma comissão especial do Legislativo de Massachusetts."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Em alguns casos, anunciar um empregador pode penalizá-lo severamente; em outras ocupações, pode não afetá-lo de modo apreciável.”",
+              "original": "“In some cases, advertising an employer may penalize him severely; in other occupations advertising may not affect an employer appreciably.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O êxito depende, portanto, da cooperação dos empregadores. A Massachusetts Industrial Protective Association, que defende a abolição da lei, diz representar praticamente todos os empregadores do estado, alegação que, segundo o autor, não foi comprovada perante a comissão legislativa. Muitos empregadores, conta Lucas, dizem que só sabem da lei por causa dos relatórios e inspeções; a maioria pagaria salários adequados mesmo sem ela, e a William Filene & Sons Company é citada como exemplo. Outros apoiam a comissão e prefeririam poderes obrigatórios, porque a recusa de pagar nasce do medo da concorrência de quem não paga."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os salários subiram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para estimar o efeito, Lucas examina o decreto do comércio varejista. Nas lojas que elevaram os salários conforme a recomendação, só 1,6% das empregadas ficaram abaixo do mínimo; nas que não seguiram a recomendação, 48,4%, e ali os salários pouco tinham mudado desde 1914. Como outras causas importantes parecem ausentes, a comissão pode reclamar o mérito principal. Os demais decretos anteriores a 1920 foram seguidos de aumentos substanciais, embora seja impossível medir com precisão a parte que lhes cabe; os salários desse tipo de trabalho, lembra o autor, não reagiram à guerra como os do trabalho qualificado e organizado."
+            },
+            {
+              "tipo": "p",
+              "texto": "No vestuário feminino, o segundo decreto elevou o mínimo para US$ 15,25 em 1º de julho de 1920. Em 1918, 78% das mulheres ganhavam menos de US$ 16 por semana; em 1920, só 25,9%. Quanto disso veio depois de 1919, diz Lucas, é incerto. Há indícios de que os mínimos também elevaram os salários das trabalhadoras mais experientes, pela força que mantém os diferenciais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O mínimo cobre o custo de vida?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui a resposta é negativa. Vários orçamentos dos conselhos omitiram itens que, para o autor, pertencem a eles sem discussão: seguro, poupança, contribuições a organizações e despesas eventuais. E os totais variaram sem razão suficiente. O conselho do vestuário masculino chegou a US$ 10,45 no verão de 1917; o de roupas de musselina, seis meses depois, com o custo de vida presumivelmente maior, a apenas US$ 9,65. No outono de 1919, dois orçamentos foram de US$ 13 e US$ 15,30."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há ainda o desemprego sazonal. Os mínimos são calculados sobre emprego regular, e nenhum decreto fixou valor acima do orçamento semanal para cobrir o desemprego inevitável, embora a maior parte das indústrias sob decreto seja sazonal. Por fim, a exigência de considerar a situação financeira da ocupação levou vários conselhos a fixar taxas abaixo dos próprios orçamentos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O balanço do autor é que, apesar das dificuldades, a lei fez não pouco para melhorar a condição das mulheres mal pagas, e que a publicidade tem uma vantagem real, ainda que difícil de medir. A comissão legislativa recomendou manter a lei praticamente como está até que receba uma prova mais justa."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um exercício cuidadoso de separar o efeito de uma política do efeito da conjuntura. Lucas não confunde alto cumprimento com eficácia: mostra que mínimos baixos e preços em alta tornam fácil cumprir uma regra, e que a mesma regra fica difícil quando os preços caem. A comparação entre lojas que seguiram e não seguiram o decreto funciona como um grupo de controle rudimentar.",
+                "O caso também ilustra um problema permanente do desenho de normas: a sanção reputacional depende da estrutura do mercado. Para quem vende ao público com marca própria, a publicidade pesa; para quem vende por intermediários, quase não pesa. E o desenho do conselho, que pondera custo de vida e situação financeira do setor, explica por que o mínimo tende a ficar abaixo do orçamento que ele mesmo calcula."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Lei recomendatória",
+              "lei que fixa padrões sem pena legal; em Massachusetts, a única sanção era a publicação do nome do infrator."
+            ],
+            [
+              "Conselho de salário",
+              "órgão tripartite, com empregadores, empregadas e público, que propõe o mínimo de uma ocupação."
+            ],
+            [
+              "Lista negra",
+              "publicação dos nomes dos empregadores que não cumprem o decreto."
+            ],
+            [
+              "Desemprego sazonal",
+              "perda de trabalho ligada às estações do ano em setores de produção irregular."
+            ],
+            [
+              "Diferencial de salário",
+              "distância entre os salários de trabalhadores com qualificações ou experiência diferentes."
+            ]
+          ],
+          "hoje": "Salários mínimos setoriais, fixados por conselhos com empregadores e trabalhadores, continuam em uso em vários países, ao lado de mínimos nacionais obrigatórios. O debate de Lucas sobre o que se deve ao instrumento e o que se deve à conjuntura reaparece em toda avaliação de política salarial, assim como o uso da exposição pública de infratores como sanção, comum hoje em normas trabalhistas e ambientais."
+        }
+      ],
+      "archive_id": "sim_american-economic-review_1924-03_14_1"
+    },
+    {
+      "slug": "1924-as-bases-legais-do-capitalismo",
+      "numero": 186,
+      "titulo": "Commons e o capitalismo dos tribunais; Bauer e o valor das concessionárias",
+      "titulo_original": "The American Economic Review, vol. XIV, no. 2, June 1924",
+      "autores": "William Orton, C. E. R. Sherrington, Wesley C. Mitchell, John Bauer e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 14, nº 2",
+      "data": "junho de 1924",
+      "chamada": "Orton examina a filosofia social de Russell; Sherrington, a fusão das ferrovias britânicas; Mitchell lê Commons; Bauer e três juristas discutem como a Suprema Corte avalia as concessionárias.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Dizia-se de um antepassado de Bertrand Russell que se ofereceria, com ou sem dez minutos de aviso, para fazer uma operação, construir São Pedro ou comandar a frota do Canal, e que ninguém perceberia por seus modos que o paciente morrera, a igreja desabara e a frota fora destroçada. A frase, atribuída a Sydney Smith, abre o número de junho de 1924 da American Economic Review, o segundo do volume XIV, num ensaio de William Orton sobre a filosofia social de Russell."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número mistura teoria social, regulação e direito. C. E. R. Sherrington, da Cornell University, faz o balanço do primeiro ano da lei ferroviária britânica de 1921. Wesley C. Mitchell resenha, em forma de ensaio, Legal Foundations of Capitalism, de John R. Commons. John Bauer analisa cinco decisões recentes da Suprema Corte sobre o valor das concessionárias de serviço público, e três juristas comentam o seu artigo. Duas comunicações retomam o debate sobre salários e uso de máquinas. Seguem as resenhas, as listas de livros novos e periódicos, os documentos, as notas e, em suplemento, o manual da associação com a lista de membros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Pode-se reformar a sociedade desconfiando do Estado?",
+          "artigo": "ia-1924-06-p209",
+          "credito": "William Orton (Smith College) · “The Social Philosophy of Mr. Bertrand Russell” · pp. 209–226"
+        },
+        {
+          "tipo": "p",
+          "texto": "Orton parte da fé de Russell na razão. Para Russell, o pensamento científico leva a uma região de necessidade absoluta, e essa confiança na verdade objetiva sustenta tanto sua revolução metafísica quanto a revolução social que defende. Dos três poderes que distingue na sociedade, o militar, o econômico e o mental, o mental seria a fonte última dos outros dois; o crédito, base do poder econômico, é para ele um fenômeno psicológico."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí a desconfiança do Estado soberano, que Orton aproxima da de Laski. Russell admite o Estado para garantir um mínimo universal em saneamento, educação, cuidado das crianças e pesquisa científica, mas o vê como poder cujo fim principal é o próprio poder. Orton contrapõe a noção de liberdade de Hobhouse, para quem a liberdade é condição de crescimento que só se alcança na sociedade e por meio dela, e lembra que Marshall e a escola de Cambridge também separavam o bem-estar econômico dos valores imponderáveis da vida."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte central examina o socialismo de guilda de Russell, que para ele seria uma etapa rumo a algo próximo do anarquismo de Kropotkin. A socialização seria gradual, com indenização aos atuais detentores do capital na forma de renda vitalícia. As guildas teriam autonomia ampla; o Estado, recolocado como árbitro, organizaria os consumidores, fixaria preços e daria a todos, de graça, as necessidades básicas. Orton objeta que é difícil organizar os consumidores de minas, frigoríficos ou moinhos, que, como na guerra, os visitantes mais assíduos do departamento de consumidores seriam as próprias organizações de produtores, e que o esquema ignora o caráter internacional da produção."
+        },
+        {
+          "tipo": "p",
+          "texto": "Orton também registra a mudança de Russell sobre o trabalho: confiante antes em que a natureza humana bastaria, em 1923 ele aceita o trabalho compulsório na comunidade ideal. A conclusão é de método."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O reformador social precisa, acima de tudo, da coragem de ser provisório e da paciência de ser empírico.”",
+          "original": "“The social reformer needs above all the courage to be tentative, the patience to be empirical”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a Grã-Bretanha ganhou ao fundir suas ferrovias?",
+          "artigo": "ia-1924-06-p227",
+          "credito": "C. E. R. Sherrington (Cornell University) · “Some Economic Results of the British Railways Act of 1921” · pp. 227–239"
+        },
+        {
+          "tipo": "p",
+          "texto": "C. E. R. Sherrington parte da dúvida americana sobre a lei de transportes de 1920 e pergunta se a lei britânica de 1921, aprovada quase ao mesmo tempo para fins parecidos, ajuda a orientar a política dos Estados Unidos. A lei foi a forma que o governo de coalizão encontrou para encerrar o controle estatal do tempo de guerra: devolveu as ferrovias à propriedade privada, mas com mais regulação e com a formação de companhias maiores. Os pilares são agrupamento, padronização, simplificação das tarifas e mecanismos para os conflitos trabalhistas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O agrupamento reuniu as linhas em quatro sistemas: London, Midland and Scottish; London and North Eastern; Great Western; e Southern. Quase todos os planos de fusão foram aprovados pelo Amalgamation Tribunal antes de 1º de janeiro de 1923, entraram em vigor em 1º de julho, e o tribunal se dissolveu em outubro. Para o autor, a experiência mostra que as dificuldades financeiras de uma fusão forçada podem ser vencidas sem demora, se a negociação for conciliatória."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 615,8 milhões",
+          "texto": "Soma de reservas, fundos de depreciação e seguro e lucros acumulados com que os grupos começaram, contra US$ 85 milhões antes da guerra. A compensação paga às ferrovias na devolução ao controle privado foi de £ 60 milhões; o autor converte a libra a US$ 4,80."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas tarifas, a lei criou um Rates Tribunal de três membros e mandou reclassificar todo o frete. As tarifas devem dar a cada grupo uma receita líquida padrão, igual à de 1913 das companhias que o formaram; se a receita superar substancialmente o padrão, 80% do excesso servem para reduzir tarifas e 20% ficam com a empresa como prêmio de eficiência. Sherrington aproxima o mecanismo da cláusula de recaptura americana. A aplicação das tarifas padrão foi adiada para 1º de janeiro de 1926."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o trabalho, a lei criou conselhos locais e um Central Wages Board, com oito representantes das companhias e oito dos sindicatos, e um National Wages Board de dezesseis membros, com presidente independente. O autor sugere que comitês regionais semelhantes ajudariam o Railroad Labor Board americano, e destaca a nova classificação do frete em vinte e uma classes, no lugar das oito em uso."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a lei faz com a economia, segundo Commons?",
+          "artigo": "ia-1924-06-p240",
+          "credito": "Wesley C. Mitchell (Columbia University) · “Commons on the Legal Foundations of Capitalism” · pp. 240–253"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wesley C. Mitchell apresenta Legal Foundations of Capitalism, de John R. Commons, como a chave de uma carreira dividida entre reforma social e teoria. Commons começou o livro como estudante de pós-graduação, trinta e cinco anos antes. Redigindo leis para comissões do Legislativo de Wisconsin, ele e seus alunos esbarraram na pergunta de que dependiam os casos: o que os tribunais entendem por valor razoável? Os tratados de economia, salvo os de Ely, pouco ajudavam, e a pista veio de Veblen: uma teoria evolutiva do valor deve ser construída com os hábitos e costumes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Commons, a substância do capitalismo é produzir para o uso dos outros e adquirir para o uso próprio, e suas bases legais foram assentadas pelos juízes que validaram as ideias e práticas de propriedade e liberdade implícitas nos negócios. O papel que a seleção natural tem na biologia de Darwin, resume Mitchell, cabe à seleção judicial no esquema de Commons. A história vai da separação entre soberania e propriedade na Inglaterra feudal à legalização da nota promissória, à negociabilidade dos títulos e ao reconhecimento do lucro esperado como propriedade."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nos Estados Unidos, o caminho passa pelo caso dos matadouros de Nova Orleans, em que a maioria da Suprema Corte entendeu propriedade como coisa física, e pela virada de 1890, quando a Corte passou a examinar a razoabilidade das tarifas e a tratar ganhos esperados como propriedade. O contrato de trabalho, porém, segue anômalo: para Commons, é uma renovação implícita e contínua a cada minuto, e seria preciso uma nova equidade que proteja o emprego como a antiga protegeu o negócio."
+        },
+        {
+          "tipo": "p",
+          "texto": "A unidade de análise proposta é a transação, que envolve no mínimo cinco pessoas: as duas partes, as duas melhores alternativas de cada uma e um juiz. Mitchell inclui a obra na economia institucional de Sombart, dos Webb e de Veblen, e afirma que Commons leva a análise mais longe do que qualquer predecessor."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "mitchell-commons-e-as-bases-legais-do-capitalismo",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A Suprema Corte manda avaliar as concessionárias pelo custo atual?",
+          "artigo": "ia-1924-06-p254",
+          "credito": "John Bauer (New York City) · “Recent Decisions of the Supreme Court of the United States on Valuation and Rate Making” · pp. 254–263"
+        },
+        {
+          "tipo": "p",
+          "texto": "John Bauer examina cinco decisões recentes da Suprema Corte sobre a avaliação das concessionárias de serviço público e a regulação de tarifas: os casos Consolidated Gas e Galveston, de 1922, e Southwestern Bell, Bluefield e Atlanta, de 1923. Os temas são os impostos federais sobre a renda, os ganhos excessivos e as perdas de anos anteriores, o valor de empresa em funcionamento, a depreciação e, sobretudo, a escolha entre custo original e custo de reprodução."
+        },
+        {
+          "tipo": "p",
+          "texto": "Pelos casos, os ganhos excessivos do passado não podem compensar perdas presentes, e as perdas passadas não podem entrar na base tarifária: cada ano, na prática, fica por si. O valor de empresa em funcionamento continua, para Bauer, um elemento nebuloso: sabe-se o que ele não é, mas não o que é. Sobre a depreciação, não houve mudança desde as decisões anteriores, como a do caso Knoxville, de 1909."
+        },
+        {
+          "tipo": "p",
+          "texto": "A questão central nasceu da alta de preços na guerra e depois dela, quando as empresas passaram a pedir retorno sobre o custo de reproduzir hoje suas instalações. No caso Southwestern Bell, a maioria, pela voz do juiz McReynolds, criticou a comissão por ignorar a alta de preços; no caso Atlanta, as tarifas foram mantidas praticamente sobre o custo real, e o juiz McKenna, vencido, disse que a contradição não podia ser conciliada. Bauer propõe separar as decisões dos dicta: a Corte só declara uma tarifa confiscatória quando ela não dá retorno justo sobre o investimento real."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta final é legislativa: avaliar de uma vez todas as propriedades, lançar o valor nos livros como base fixa, somar os investimentos novos e deixar a base sob controle contábil, sem variar com os preços. Para o autor, a regulação, depois de duas décadas, gerou investigações sem fim e quase nada resolvido de forma definitiva."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "33 1/3%",
+          "texto": "Acréscimo pela alta de preços somado ao custo real menos depreciação na avaliação do caso Galveston, quando a alta sobre os preços de antes da guerra passara de 100%. As tarifas foram mantidas, sem decisão conclusiva sobre a obrigação de reconhecer os preços mais altos."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "bauer-valor-e-tarifas-na-suprema-corte",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os juristas concordam com a leitura de Bauer?",
+          "artigo": "ia-1924-06-p264",
+          "credito": "Robert L. Hale, D. R. Richberg e William L. Ransom · “Recent Decisions on Valuation and Rate Making: Comments” · pp. 264–282"
+        },
+        {
+          "tipo": "p",
+          "texto": "A revista publica três comentários ao artigo de Bauer. Robert L. Hale, da Columbia University, acha a previsão otimista demais. Para ele, a Corte professa dois cânones que se contradizem: as tarifas podem ser reduzidas para tirar da empresa uma vantagem considerada extorsiva, e não podem ser reduzidas a ponto de diminuir o valor de troca da propriedade. Como esse valor depende das próprias tarifas, uma redução não pode, a rigor, preservar um retorno justo sobre o valor antigo. A formação dos juízes, argumenta Hale, os leva a evitar essa conclusão, e por isso é inútil esperar que as decisões sigam um padrão lógico; a Corte tende a exigir que se considere o custo de reprodução, porque o número resultante parece mais plausível como valor."
+        },
+        {
+          "tipo": "p",
+          "texto": "D. R. Richberg, que atua pela cidade de Chicago em litígios do gás desde 1915, também vê otimismo excessivo, mas apoia a conclusão de que a solução deve vir de lei, não dos tribunais. Ele redigiu o projeto de lei do Senado nº 1899, apresentado por La Follette, que alteraria as seções de avaliação da lei de comércio interestadual, e lembra que um direito de propriedade é uma criação da lei."
+        },
+        {
+          "tipo": "p",
+          "texto": "William L. Ransom, ex-juiz da City Court de Nova York e advogado da Consolidated Gas Company e de outras empresas de gás e eletricidade, discorda em quase tudo. Sustenta que a Corte decidiu, por unanimidade, que todos os impostos entram nas despesas operacionais; que tribunais estaduais e federais vêm reconhecendo o direito da empresa a recuperar perdas causadas por tarifas que ela contestou; que a classificação contábil nacional das empresas elétricas substituiu a depreciação por uma reserva de retirada; e que a questão é o valor presente, cujo fator dominante é o custo atual de reposição."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "10 centavos",
+          "texto": "Parcela de cada dólar pago pelos consumidores às empresas de gás de Nova York que, segundo Ransom, corresponde a impostos repassados ao fisco. Para um único sistema de gás e eletricidade, os impostos somaram US$ 13.876.095,88 em 1923."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na seção de comunicações, L. A. Morrison, da Princeton University, e Martin A. Gearhart retomam o debate aberto por H. Gordon Hayes sobre o efeito de uma alta geral de salários no uso de máquinas: Morrison sustenta que a alta leva a mais mecanização, e Gearhart discute as equações de Hayes. Entre as resenhas estão Essays in Economic Theory, de Patten, por C. H. Crennan; Absentee Ownership, de Veblen, por J. M. Clark; Monetary Theory before Adam Smith, de Monroe, por Jacob H. Hollander; The American Livestock and Meat Industry, de Clemen, por G. O. Virtue; Railroads, de Vanderblue e Burgess, por J. H. Parmelee; Costs and Profits, de Hastings, por W. A. Paton; Dumping, de Viner; Principles of Real Estate Practice, de Fisher, por Ralph E. Heilman; Outlines of Accounting, de Krebs, por James P. Adams; An Outline of the British Labor Movement, de Blanshard, por W. B. Catlin; os dois livros de Hawtrey, Currency and Credit e Monetary Reconstruction, por Allyn A. Young; os estudos de financiamento escolar de Swift, Graves e Tiegs e de Newcomer, por Frank E. Spaulding; e Co-operative Democracy, de Warbasse, por J. E. Le Rossignol. Completam o número as listas de livros novos, os resumos de periódicos, os documentos e as notas, que anunciam a reunião anual de Chicago, de 28 a 31 de dezembro, e o suplemento com o manual da associação."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o fio que une este número é a relação entre regra e valor econômico. Commons, lido por Mitchell, trata o valor razoável como produto de decisões judiciais; Bauer e seus três comentadores discutem se os tribunais devem fixar o valor das concessionárias pelo custo histórico ou pelo custo atual; e Sherrington mostra a Grã-Bretanha amarrando as tarifas a uma receita padrão definida em lei.",
+            "O debate sobre a base tarifária é, no fundo, uma escolha entre previsibilidade e correção monetária. A base fixa de Bauer facilita o controle e reduz o litígio, mas transfere ao investidor o risco da inflação; o custo de reposição de Ransom protege o capital do investidor contra a perda de poder de compra, ao preço de reabrir a avaliação a cada mudança de preços."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Socialismo de guilda",
+          "proposta de gestão das indústrias por associações autônomas de trabalhadores, com papel limitado do Estado."
+        ],
+        [
+          "Receita líquida padrão",
+          "na lei ferroviária britânica de 1921, receita de referência igual à de 1913 das companhias agrupadas."
+        ],
+        [
+          "Cláusula de recaptura",
+          "dispositivo da lei de transportes americana de 1920 sobre a destinação dos lucros acima do retorno permitido."
+        ],
+        [
+          "Valor razoável",
+          "padrão dos tribunais americanos para julgar tarifas e condutas, estudado por Commons."
+        ],
+        [
+          "Custo de reprodução",
+          "custo de construir hoje instalações equivalentes, aos preços correntes."
+        ],
+        [
+          "Tarifa confiscatória",
+          "tarifa tão baixa que priva o dono da propriedade sem o devido processo legal."
+        ]
+      ],
+      "hoje": "A pergunta de Commons sobre o papel dos tribunais na economia está na base da economia institucional e dos estudos de direito e economia. A discussão entre Bauer e seus críticos sobre custo histórico e custo de reposição continua presente em toda revisão tarifária de serviços públicos, e a reorganização de ferrovias por fusões regionais, com regulação de receita, segue como modelo debatido na política de transportes.",
+      "itens": [
+        [
+          "The Social Philosophy of Mr. Bertrand Russell",
+          "pp. 209–226",
+          "ia-1924-06-p209"
+        ],
+        [
+          "Some Economic Results of the British Railways Act of 1921",
+          "pp. 227–239",
+          "ia-1924-06-p227"
+        ],
+        [
+          "Commons on the Legal Foundations of Capitalism",
+          "pp. 240–253",
+          "ia-1924-06-p240"
+        ],
+        [
+          "Recent Decisions of the Supreme Court of the United States on Valuation and Rate Making",
+          "pp. 254–263",
+          "ia-1924-06-p254"
+        ],
+        [
+          "Recent Decisions on Valuation and Rate Making: Comments",
+          "pp. 264–282",
+          "ia-1924-06-p264"
+        ],
+        [
+          "Communication: An Issue in Economic Theory: “The Rate of Wages and the Use of Machinery” (I)",
+          "pp. 283–284",
+          "ia-1924-06-p283"
+        ],
+        [
+          "Communication: An Issue in Economic Theory: “The Rate of Wages and the Use of Machinery” (II)",
+          "pp. 284–286",
+          "ia-1924-06-p284"
+        ],
+        [
+          "Review: Essays in Economic Theory by Patten",
+          "",
+          "ia-1924-06-p287"
+        ],
+        [
+          "Review: Absentee Ownership and Business Enterprise in Recent Times by Veblen",
+          "",
+          "ia-1924-06-p289"
+        ],
+        [
+          "Review: Monetary Theory before Adam Smith by Monroe",
+          "",
+          "ia-1924-06-p293"
+        ],
+        [
+          "Review: The American Livestock and Meat Industry by Clemen",
+          "",
+          "ia-1924-06-p305"
+        ],
+        [
+          "Review: Railroads: Rates, Service, Management by Vanderblue & Burgess",
+          "",
+          "ia-1924-06-p312"
+        ],
+        [
+          "Review: Costs and Profits: Their Relation to Business Cycles by Hastings",
+          "",
+          "ia-1924-06-p317"
+        ],
+        [
+          "Review: Dumping: A Problem in International Trade by Viner",
+          "",
+          "ia-1924-06-p321"
+        ],
+        [
+          "Review: Principles of Real Estate Practice by Fisher",
+          "",
+          "ia-1924-06-p326"
+        ],
+        [
+          "Review: Outlines of Accounting by Krebs",
+          "",
+          "ia-1924-06-p327"
+        ],
+        [
+          "Review: An Outline of the British Labor Movement by Blanshard",
+          "",
+          "ia-1924-06-p338"
+        ],
+        [
+          "Review: Currency and Credit; Monetary Reconstruction by Hawtrey",
+          "",
+          "ia-1924-06-p349"
+        ],
+        [
+          "Review: Studies in Public School Finance: The East by Swift, Graves & Tiegs; Financial Statistics of Public Education in the United States, 1910–1920 by Newcomer",
+          "",
+          "ia-1924-06-p355"
+        ],
+        [
+          "Review: Co-operative Democracy by Warbasse",
+          "",
+          "ia-1924-06-p370"
+        ],
+        [
+          "New Books",
+          "",
+          "ia-1924-06-x1"
+        ],
+        [
+          "Periodicals",
+          "pp. 377–401",
+          "ia-1924-06-p377"
+        ],
+        [
+          "Documents, Reports and Legislation",
+          "pp. 402–406",
+          "ia-1924-06-p402"
+        ],
+        [
+          "Notes",
+          "",
+          "ia-1924-06-p407"
+        ],
+        [
+          "Handbook of the American Economic Association, 1924: Charter, By-Laws and List of Members",
+          "",
+          "ia-1924-06-x2"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1924-06_14_2",
+      "artigos": [
+        {
+          "titulo": "The Social Philosophy of Mr. Bertrand Russell",
+          "autores": "William Orton (Smith College)",
+          "paginas": "pp. 209–226",
+          "jstor": "ia-1924-06-p209",
+          "resumo": "Exame da filosofia social de Bertrand Russell: a fé na razão, a desconfiança do Estado e as propostas de socialismo de guilda."
+        },
+        {
+          "titulo": "Some Economic Results of the British Railways Act of 1921",
+          "autores": "C. E. R. Sherrington (Cornell University)",
+          "paginas": "pp. 227–239",
+          "jstor": "ia-1924-06-p227",
+          "resumo": "Balanço do primeiro ano da lei ferroviária britânica de 1921: agrupamento em quatro sistemas, tarifas e conselhos salariais."
+        },
+        {
+          "titulo": "Commons on the Legal Foundations of Capitalism",
+          "autores": "Wesley C. Mitchell (Columbia University)",
+          "paginas": "pp. 240–253",
+          "jstor": "ia-1924-06-p240",
+          "resumo": "Resenha-ensaio sobre Legal Foundations of Capitalism, de John R. Commons, e sua teoria da transação e da seleção judicial.",
+          "ensaio_slug": "mitchell-commons-e-as-bases-legais-do-capitalismo"
+        },
+        {
+          "titulo": "Recent Decisions of the Supreme Court of the United States on Valuation and Rate Making",
+          "autores": "John Bauer (New York City)",
+          "paginas": "pp. 254–263",
+          "jstor": "ia-1924-06-p254",
+          "resumo": "Análise de cinco decisões recentes da Suprema Corte sobre avaliação e tarifas de concessionárias e proposta de base tarifária fixa.",
+          "ensaio_slug": "bauer-valor-e-tarifas-na-suprema-corte"
+        },
+        {
+          "titulo": "Recent Decisions on Valuation and Rate Making: Comments",
+          "autores": "Robert L. Hale, D. R. Richberg e William L. Ransom",
+          "paginas": "pp. 264–282",
+          "jstor": "ia-1924-06-p264",
+          "resumo": "Três comentários ao artigo de Bauer, de um professor de economia jurídica, de um advogado de cidade e de um advogado de concessionárias."
+        },
+        {
+          "titulo": "Communication: An Issue in Economic Theory: “The Rate of Wages and the Use of Machinery” (I)",
+          "autores": "L. A. Morrison (Princeton University)",
+          "paginas": "pp. 283–284",
+          "jstor": "ia-1924-06-p283",
+          "resumo": "Comunicação que defende que uma alta geral de salários aumenta o uso de máquinas."
+        },
+        {
+          "titulo": "Communication: An Issue in Economic Theory: “The Rate of Wages and the Use of Machinery” (II)",
+          "autores": "Martin A. Gearhart",
+          "paginas": "pp. 284–286",
+          "jstor": "ia-1924-06-p284",
+          "resumo": "Comunicação que discute as equações de H. Gordon Hayes sobre salários e método de produção."
+        },
+        {
+          "titulo": "Patten, Essays in Economic Theory",
+          "autores": "C. H. Crennan",
+          "paginas": "",
+          "jstor": "ia-1924-06-p287",
+          "resumo": "Resenha de C. H. Crennan."
+        },
+        {
+          "titulo": "Veblen, Absentee Ownership and Business Enterprise in Recent Times",
+          "autores": "J. M. Clark",
+          "paginas": "",
+          "jstor": "ia-1924-06-p289",
+          "resumo": "Resenha de J. M. Clark."
+        },
+        {
+          "titulo": "Monroe, Monetary Theory before Adam Smith",
+          "autores": "Jacob H. Hollander",
+          "paginas": "",
+          "jstor": "ia-1924-06-p293",
+          "resumo": "Resenha de Jacob H. Hollander."
+        },
+        {
+          "titulo": "Clemen, The American Livestock and Meat Industry",
+          "autores": "G. O. Virtue",
+          "paginas": "",
+          "jstor": "ia-1924-06-p305",
+          "resumo": "Resenha de G. O. Virtue."
+        },
+        {
+          "titulo": "Vanderblue e Burgess, Railroads: Rates, Service, Management",
+          "autores": "J. H. Parmelee",
+          "paginas": "",
+          "jstor": "ia-1924-06-p312",
+          "resumo": "Resenha de J. H. Parmelee."
+        },
+        {
+          "titulo": "Hastings, Costs and Profits: Their Relation to Business Cycles",
+          "autores": "W. A. Paton",
+          "paginas": "",
+          "jstor": "ia-1924-06-p317",
+          "resumo": "Resenha de W. A. Paton."
+        },
+        {
+          "titulo": "Viner, Dumping: A Problem in International Trade",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-06-p321",
+          "resumo": "Resenha."
+        },
+        {
+          "titulo": "Fisher, Principles of Real Estate Practice",
+          "autores": "Ralph E. Heilman",
+          "paginas": "",
+          "jstor": "ia-1924-06-p326",
+          "resumo": "Resenha de Ralph E. Heilman."
+        },
+        {
+          "titulo": "Krebs, Outlines of Accounting",
+          "autores": "James P. Adams",
+          "paginas": "",
+          "jstor": "ia-1924-06-p327",
+          "resumo": "Resenha de James P. Adams."
+        },
+        {
+          "titulo": "Blanshard, An Outline of the British Labor Movement",
+          "autores": "W. B. Catlin",
+          "paginas": "",
+          "jstor": "ia-1924-06-p338",
+          "resumo": "Resenha de W. B. Catlin."
+        },
+        {
+          "titulo": "Hawtrey, Currency and Credit; Monetary Reconstruction",
+          "autores": "Allyn A. Young",
+          "paginas": "",
+          "jstor": "ia-1924-06-p349",
+          "resumo": "Resenha de Allyn A. Young."
+        },
+        {
+          "titulo": "Swift, Graves e Tiegs, Studies in Public School Finance: The East; Newcomer, Financial Statistics of Public Education in the United States, 1910–1920",
+          "autores": "Frank E. Spaulding",
+          "paginas": "",
+          "jstor": "ia-1924-06-p355",
+          "resumo": "Resenha de Frank E. Spaulding."
+        },
+        {
+          "titulo": "Warbasse, Co-operative Democracy",
+          "autores": "J. E. Le Rossignol",
+          "paginas": "",
+          "jstor": "ia-1924-06-p370",
+          "resumo": "Resenha de J. E. Le Rossignol."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-06-x1",
+          "resumo": "Listas de livros novos, com notas curtas, por assunto."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 377–401",
+          "jstor": "ia-1924-06-p377",
+          "resumo": "Resumos de artigos de periódicos, por assunto."
+        },
+        {
+          "titulo": "Documents, Reports and Legislation",
+          "autores": "",
+          "paginas": "pp. 402–406",
+          "jstor": "ia-1924-06-p402",
+          "resumo": "Lista de documentos oficiais, relatórios e legislação."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-06-p407",
+          "resumo": "Notas da associação e da profissão, incluindo a reunião anual marcada para Chicago."
+        },
+        {
+          "titulo": "Handbook of the American Economic Association, 1924: Charter, By-Laws and List of Members",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-06-x2",
+          "resumo": "Suplemento com o estatuto, o regimento e a lista de membros da associação."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "mitchell-commons-e-as-bases-legais-do-capitalismo",
+          "titulo": "Mitchell lê Commons: o capitalismo construído pelos tribunais",
+          "titulo_original": "Commons on the Legal Foundations of Capitalism",
+          "autores": "Wesley C. Mitchell (Columbia University)",
+          "paginas": "pp. 240–253",
+          "jstor": "ia-1924-06-p240",
+          "chamada": "Wesley C. Mitchell apresenta Legal Foundations of Capitalism, de John R. Commons: a seleção judicial das práticas econômicas e a transação como unidade de análise da economia.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "John R. Commons, lembra Wesley C. Mitchell, é uma pessoa desconcertante. Deve-se a ele a Documentary History of American Industrial Society e uma dúzia de livros sobre o que se chama de problema do trabalho; deve-se a ele também uma série de experimentos sociais que seu estado, Wisconsin, adotou em tributação, relações industriais, salário mínimo e seguro-desemprego. De tempos em tempos, porém, o reformador vira teórico e tenta remodelar a economia para que ela se ajuste à experiência. Legal Foundations of Capitalism, publicado pela Macmillan, é o resultado mais ambicioso desse esforço."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vem o livro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Commons começou a escrevê-lo como estudante de pós-graduação, trinta e cinco anos antes, nos tempos da Johns Hopkins dos anos 1880, quando Ely era um defensor militante da escola histórica. Em seu primeiro livro, The Distribution of Wealth, de 1893, tentou cedo demais combinar conceitos econômicos e jurídicos, e ele próprio diz que misturou coisas que não se misturam: a psicologia hedonista de Böhm-Bawerk e os direitos legais."
+            },
+            {
+              "tipo": "p",
+              "texto": "A atividade de reformador manteve viva a convicção de que a mistura era necessária. Redigindo projetos para comissões do Legislativo de Wisconsin sobre trabalho e serviços públicos, Commons precisava que as leis fossem constitucionais, o que exigia estudar as decisões dos tribunais. E as decisões que lhe interessavam giravam em torno de uma pergunta."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O que os tribunais entendem por valor razoável?”",
+              "original": "“What do the courts mean by reasonable value?”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os tratados de economia, salvo os de Ely, pouco ajudavam. Os reformadores agiram como homens práticos e usaram as palavras valor razoável, segurança razoável e salário razoável sem saber exatamente o que significavam. Commons, porém, não deixou a questão aí. A pista veio de Veblen: uma teoria evolutiva do valor deve ser construída a partir dos hábitos e costumes da vida social. Com ela, Commons e seus alunos estudaram séculos de decisões judiciais e tentaram conciliar os economistas com os juízes, de Coke a Taft."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mitchell avisa que o livro é difícil. Economistas acharão difíceis as partes jurídicas; advogados se intrigarão com a teoria econômica. Por isso a resenha se propõe apenas a facilitar a leitura, e não a julgar os resultados: um livro assim, diz, se julga pelo trabalho que leva outros a fazer."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é o capitalismo, para Commons?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A substância do capitalismo, distinta do feudalismo de onde saiu, é produzir para o uso dos outros e adquirir para o uso próprio. Suas bases legais foram assentadas pelos juízes que validaram e fizeram cumprir as ideias e práticas de propriedade e liberdade implícitas nos negócios. Commons vê a evolução econômica como um processo em que novas formas de comportamento surgem diante de novas necessidades, e o decisivo é a seleção entre elas. Essa seleção, um tanto tardia, é feita pelos tribunais. O papel da seleção natural na biologia de Darwin, resume Mitchell, cabe à seleção judicial no esquema de Commons."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a propriedade feudal virou propriedade de negócio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No feudalismo havia pouca troca e pouca distinção entre o que pertencia ao rei como governante e como proprietário; controle sobre pessoas e sobre coisas mal se separavam. A soberania foi se separando da propriedade com a conversão dos serviços feudais em pagamentos em dinheiro, até que a terra pudesse ser comprada e vendida como bem móvel. Ao mesmo tempo, os tribunais do rei, desde que Henrique II enviou juízes itinerantes aos condados, construíram um direito comum e passaram a proteger o arrendatário contra o senhor. Para Commons, o primeiro e mais perfeito instrumento da liberdade econômica é o dinheiro."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nas cidades, o capitalismo nasceu nas guildas, beneficiárias de privilégios que entraram em choque com o direito comum no fim do século XVI. Em 1599, o King's Bench julgou contra um regulamento de corporação de Londres, e o choque resultou no que Commons chama de revolução dos negócios do século XVII, que abriu caminho para as revoluções política, agrícola e industrial."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os tribunais validaram então, uma a uma, as práticas da busca do lucro. A nota promissória foi legalizada aos poucos no século XVI; depois, as promessas passaram a ser tratadas como mercadorias que se compram e vendem, base dos instrumentos negociáveis e do crédito moderno. Em 1704, o juiz Holt recusou-se a fazer cumprir as notas dos ourives de Londres pagáveis ao portador, e foi preciso uma lei do Parlamento para abrir caminho à nota bancária."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "3% a 6%",
+              "texto": "Juro com que, segundo Commons, o capitalismo sobreviveu, com giro do capital de três a cinco vezes por ano. Com juro de 10% a 20% e giro de uma ou duas vezes, não sobreviveria: 10% ao ano sobre capital que gira uma vez custam dez vezes mais que 5% sobre capital que gira cinco vezes."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em 1743, uma decisão do chanceler Hardwicke já obrigava o testamenteiro a contabilizar o valor do fundo de comércio, sinal de que o lucro esperado se tornara propriedade. Nos Estados Unidos, o atraso foi maior. No caso dos matadouros de Nova Orleans, a maioria da Suprema Corte entendeu propriedade como coisa física e liberdade sem o direito de comprar e vender; dezoito anos depois, em 1890, a Corte passou a examinar a razoabilidade das tarifas e a tratar os ganhos esperados como propriedade."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E o contrato de trabalho?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui o direito encontra uma anomalia. O que o trabalhador vende é a disposição de usar suas faculdades, uma promessa sem valor de troca, que não pode ser executada: nem o trabalhador pode ser obrigado a ficar, nem o empregador impedido de demiti-lo. O contrato de trabalho, conclui Commons, não é um contrato, mas uma renovação implícita e contínua a cada minuto e a cada hora. Os sindicatos tentaram entrar como terceiros nessa negociação, e o direito do trabalho que nasce dos costumes dos assalariados choca-se com precedentes que estão do lado dos negócios."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Commons, seria preciso uma nova equidade, que protegesse o emprego como a antiga protegeu o negócio. E ele vê sinais dela: empregadores e trabalhadores organizados criam costumes que restringem a concorrência por empregos em nome da concorrência leal, a lei estabelece salvaguardas contra jornadas longas, salários insuficientes, doenças industriais, acidentes e desemprego, e os tribunais, a seu tempo, tomam conhecimento desses costumes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a transação como unidade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A unidade última da economia, da ética e do direito, para Commons, não é um homem pesando sacrifícios e satisfações, nem dois homens trocando nozes por maçãs, mas uma transação com no mínimo cinco pessoas: as duas partes, duas outras que representam as melhores alternativas de cada uma e um juiz. Mitchell aponta três consequências. A economia passa a tratar sobretudo das relações entre homens, e não entre o homem e a natureza. Ao lado dos princípios de mecanismo e de escassez, entra um terceiro, o das regras de funcionamento, legais, éticas ou de negócio. E a vontade humana, entendida como faculdades em ação, ganha o centro da análise."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os homens também agem como membros de organizações, que Commons chama de empresas em funcionamento (going concerns); a história econômica seria em boa parte a disputa entre elas pelo controle das regras. Mitchell situa a obra na economia institucional de Sombart, dos Webb e de Veblen, e diz que Commons leva a análise mais longe do que qualquer predecessor e pode vir a ser uma das maiores contribuições da geração a uma teoria que ilumine o comportamento dos homens."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a resenha de Mitchell é valiosa justamente por recusar o veredito e mapear a estrutura do argumento. A tese de Commons desloca a pergunta do valor: em vez de buscar o preço numa lei natural ou num cálculo de prazer, procura-o nas regras que os tribunais aceitam e fazem cumprir. Isso transforma o juiz em parte de toda transação e dá ao direito um papel econômico de primeira ordem.",
+                "A ideia de transação com cinco partes antecipa temas que a economia formalizaria mais tarde, como o peso das alternativas de cada lado numa negociação e o papel das instituições que garantem contratos. O caso do contrato de trabalho mostra o alcance prático do esquema: uma relação que o direito não consegue enquadrar como contrato comum acaba regulada por costumes, leis e decisões que se acumulam aos poucos."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Valor razoável",
+              "padrão usado pelos tribunais americanos para julgar tarifas, salários e condutas; objeto central da obra de Commons."
+            ],
+            [
+              "Seleção judicial",
+              "expressão de Mitchell para o papel dos tribunais ao validar ou reprimir práticas econômicas."
+            ],
+            [
+              "Transação",
+              "na teoria de Commons, unidade de análise com duas partes, suas alternativas e um juiz."
+            ],
+            [
+              "Going concern",
+              "empresa ou organização em funcionamento, com regras próprias de ação."
+            ],
+            [
+              "Regras de funcionamento",
+              "normas legais, éticas ou de negócio que moldam as transações (working rules)."
+            ],
+            [
+              "Instrumento negociável",
+              "título de crédito que pode ser transferido a terceiros, como a nota promissória."
+            ]
+          ],
+          "hoje": "A ideia de que as instituições, e em especial os tribunais, moldam o funcionamento dos mercados está no centro da economia institucional moderna e dos estudos de direito e economia. A transação como unidade de análise reapareceu na teoria dos custos de transação, e a discussão sobre como o direito trata o contrato de trabalho, entre contrato comum e relação regulada, continua viva no direito do trabalho."
+        },
+        {
+          "slug": "bauer-valor-e-tarifas-na-suprema-corte",
+          "titulo": "Bauer e o valor das concessionárias na Suprema Corte",
+          "titulo_original": "Recent Decisions of the Supreme Court of the United States on Valuation and Rate Making",
+          "autores": "John Bauer (New York City)",
+          "paginas": "pp. 254–263",
+          "jstor": "ia-1924-06-p254",
+          "chamada": "John Bauer analisa cinco decisões da Suprema Corte de 1922 e 1923 sobre o valor das concessionárias de serviço público e propõe uma base tarifária fixa, sob controle contábil.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 1906, o Legislativo de Nova York fixou em oitenta centavos o preço do gás na cidade. A tarifa vigorou até 1919, quando a Consolidated Gas Company a atacou como confiscatória, e foi suspensa em 1920 por uma liminar de um tribunal federal. O caso, decidido pela Suprema Corte em 6 de março de 1922, é o primeiro dos cinco que John Bauer examina para saber como a Corte trata o valor das concessionárias de serviço público na fixação de tarifas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os outros quatro são o caso Galveston, de abril de 1922, e os casos Southwestern Bell, Bluefield e Atlanta, de 1923. Bauer os percorre por tema: impostos, ganhos excessivos e perdas de anos anteriores, valor de empresa em funcionamento, depreciação e custo de reprodução."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem paga o imposto de renda das concessionárias?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A prática das comissões era tratar todos os pagamentos ao governo como custo de serviço, a ser coberto pelas tarifas. Os impostos federais sobre a renda das empresas trouxeram uma divergência: algumas comissões os incluíam no custo, outras os mantinham sobre os donos, como questão de política pública. No caso Galveston, a Corte pareceu aprovar a exclusão; no caso Atlanta, desaprovou a exclusão dos custos operacionais, mas tratou o valor como renda adicional dos investidores. Para Bauer, a posição parece ser a de que o imposto não deve ser repassado ao consumidor."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Ganhos e perdas do passado contam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No caso Consolidated Gas, a defesa da tarifa de oitenta centavos argumentou que a empresa obtivera mais que um retorno justo antes da alta de preços, e que o excesso acumulado deveria compensar as perdas do período ruim, numa espécie de conta corrente entre o público e a empresa. A Corte rejeitou a tese: os ganhos obtidos sob tarifas fixadas pelo poder público pertencem à empresa. Pelo mesmo princípio, no caso Galveston, ela recusou incluir na base tarifária as perdas e deficiências de retorno do passado, que algumas comissões, como a de Wisconsin, vinham tratando como valor de empresa em funcionamento. Cada ano, na prática, fica por si."
+            },
+            {
+              "tipo": "p",
+              "texto": "Bauer observa que isso não impede arranjos legislativos para equilibrar anos bons e ruins, como os contratos de algumas cidades com tarifas ajustadas por uma espécie de barômetro do retorno. E conclui sobre o valor de empresa em funcionamento."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Sabemos o que ele não é, mas não o que é.”",
+              "original": "“We know what it is not, but not what it is.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a depreciação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Engenheiros e advogados vinham defendendo que a depreciação não fosse descontada do custo das propriedades; as comissões, em geral, a descontavam. Desde o caso Knoxville, de 1909, a Corte entendia que a empresa tem direito a uma reserva para depreciação e que a depreciação passada deve ser deduzida. Nos casos recentes, diz Bauer, o tema foi ofuscado por outras questões, e as posições anteriores continuam de pé."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Custo original ou custo de reprodução?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em Smyth v. Ames, de 1898, a Corte afirmou que a empresa tem direito a retorno justo sobre o valor justo da propriedade e listou fatores a considerar: custo original, melhorias, custo de reposição, valor nominal e de mercado dos títulos. Até a guerra, a diferença entre custo original e custo de reprodução não teve peso decisivo. Com a alta de preços, as empresas passaram a pedir retorno sobre o custo de reproduzir as instalações, também para compensar os investidores pela perda de poder de compra do dólar."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "33 1/3%",
+              "texto": "Acréscimo pela alta de preços somado ao custo real menos depreciação na avaliação do caso Galveston, quando a alta sobre os preços de antes da guerra passara de 100%. As tarifas foram mantidas, sem decisão conclusiva sobre a obrigação de reconhecer os preços mais altos."
+            },
+            {
+              "tipo": "p",
+              "texto": "No caso Southwestern Bell, a maioria, pela voz do juiz McReynolds, criticou a comissão por não dar peso ao grande aumento de custos sobre 1913 e 1914; o juiz Brandeis concordou que as tarifas eram confiscatórias, mas porque eram insuficientes mesmo sobre o custo original menos depreciação. O caso Bluefield seguiu a mesma linha. No caso Atlanta, julgado no mesmo dia, as tarifas foram mantidas praticamente sobre o custo real, e o voto, de Brandeis, aprovou a recusa da comissão em avaliar as propriedades pelo custo de reposição. O juiz McKenna, vencido, afirmou que a contradição entre as decisões não podia ser conciliada."
+            },
+            {
+              "tipo": "p",
+              "texto": "A conciliação, propõe Bauer, está nas decisões, não nos votos. É preciso separar o que a Corte decidiu do que disse. Nos casos em que a tarifa foi mantida, a questão não chegou a ser decidida; nos casos em que se exigiu considerar o custo de reprodução, as tarifas eram confiscatórias sob qualquer base razoável. O que distingue uns de outros é se havia retorno justo sobre o investimento líquido real. A Corte quer que se dê consideração substancial ao custo de reprodução, mas só declara uma tarifa confiscatória quando os fatos são inequívocos, e não o fará se houver retorno justo sobre o investimento real, mesmo que o retorno sobre o custo de reprodução seja inadequado."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que fazer?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Bauer registra que Brandeis pediu à Corte, no caso Southwestern Bell, que abandonasse a regra de Smyth v. Ames e adotasse o investimento real como base. Para o autor, o custo de reprodução muda com os preços e as condições de operação, e por isso cada processo tarifário vira uma disputa; a regulação tornou-se em grande parte inútil, com investigações sem fim, custos de milhões de dólares e quase nada resolvido de forma definitiva."
+            },
+            {
+              "tipo": "p",
+              "texto": "A proposta é legislativa. Primeiro, avaliar de uma vez todas as propriedades usadas no serviço público e fixar somas razoáveis e definitivas com direito a retorno futuro. Depois, lançar esse valor nos livros da empresa como base invariável e somar a ela cada novo investimento. A base tarifária ficaria sob controle contábil completo, e a adequação de uma tarifa poderia ser verificada quase de imediato, sobre fatos indiscutíveis. Isso não é tarefa dos tribunais, diz o autor; e as decisões recentes mostram que não haveria interferência judicial indevida."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o método de Bauer é o de um analista de jurisprudência: em vez de levar os votos ao pé da letra, procura o critério que explica os resultados. O critério que encontra, o retorno justo sobre o investimento real, organiza casos que pareciam contraditórios e serve de base à proposta de uma base tarifária contábil.",
+                "O dilema econômico de fundo é permanente na regulação de monopólios naturais. Uma base fixa e contábil dá previsibilidade e reduz o litígio, mas deixa o investidor exposto à inflação; uma base pelo custo de reposição protege o capital em termos reais, mas reabre a avaliação a cada mudança de preços. Os três comentários publicados no mesmo número mostram que juristas viam o problema por ângulos muito diferentes."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Concessionária de serviço público",
+              "empresa que presta serviço como gás, eletricidade, água ou telefone sob regulação de tarifas."
+            ],
+            [
+              "Tarifa confiscatória",
+              "tarifa tão baixa que priva o dono da propriedade sem o devido processo legal."
+            ],
+            [
+              "Base tarifária",
+              "valor da propriedade sobre o qual se calcula o retorno permitido."
+            ],
+            [
+              "Custo de reprodução",
+              "custo de construir hoje instalações equivalentes, aos preços correntes."
+            ],
+            [
+              "Valor de empresa em funcionamento",
+              "valor adicional atribuído a uma empresa já organizada e em operação (going value)."
+            ],
+            [
+              "Dicta",
+              "afirmações de um voto judicial que não são necessárias para a decisão do caso."
+            ]
+          ],
+          "hoje": "A escolha entre custo histórico e custo de reposição na base tarifária continua no centro da regulação de serviços públicos. Muitos reguladores adotaram bases contábeis, próximas da proposta de Bauer, com regras de correção por índices de preços; outros usam modelos de custo de reposição ou de preço-teto. O dilema entre previsibilidade e preservação do capital em termos reais segue presente nas revisões tarifárias de energia, saneamento e telecomunicações."
+        }
+      ]
     }
   ],
   "proximas": []
