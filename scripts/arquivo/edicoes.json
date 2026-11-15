@@ -116643,6 +116643,14 @@
           "texto": "A cidade tinha 4.170 habitantes e 10,5 milhas quadradas quando foi organizada, em 1837. Menos de sessenta anos depois era a segunda do país em população e, com 186,5 milhas quadradas, maior em área que Londres, com 122, Paris, com 30, e Nova York, com 40,22. George atribui o enraizamento do saloon a três condições locais: a extensão do território, o clima de variações bruscas de temperatura e uma população vinda de muitos países, que ele mede pelos censos escolares de 1890 e 1894. Lembra também que o saloon não é o único ponto de venda: restaurantes e hotéis pagam a mesma licença de US$ 500, e clubes vendem bebida aos sócios."
         },
         {
+          "tipo": "p",
+          "texto": "A terceira condição é a que George chama de preponderância da população estrangeira. O censo escolar de 1894 enumerou 28 nacionalidades e, numa lista parcial, registrou 949.092 americanos, 216.324 alemães, 111.037 irlandeses, 58.763 suecos, 47.881 poloneses e 34.960 boêmios, com 618.565 nascidos no exterior. O autor considera esses números enganosos para o seu propósito, porque não separam os filhos de pais estrangeiros, e prefere o censo escolar de 1890, preparado por Frankland, da junta de educação, que classificava cada pessoa pela origem do sobrenome: 384.958 alemães, 292.463 americanos, 215.534 irlandeses, 54.209 boêmios e 52.756 poloneses. Os filhos de estrangeiros nascidos no país, argumenta, não se afastam das condições e influências dos pais a ponto de mudar os seus hábitos e ocupações. Por essa conta, havia em Chicago mais alemães que americanos, e 916 mil pessoas nascidas no exterior ou filhas de estrangeiros contra 293 mil americanos propriamente ditos, pouco mais de três para um. Estimavam-se ainda de 60 a 70 mil boêmios, o que fazia de Chicago, segundo o autor, a terceira maior cidade boêmia do mundo; poloneses, boêmios e italianos formavam colônias quase exclusivas, enquanto irlandeses e alemães se distribuíam pela cidade, com os alemães mais numerosos no North Side."
+        },
+        {
+          "tipo": "p",
+          "texto": "George atribui a esse quadro um peso direto sobre o saloon. Quase todos os estrangeiros, escreve, consomem bebidas alcoólicas e trouxeram de seus países hábitos de beber que lá não tinham o descrédito ligado ao hábito de beber no saloon nos Estados Unidos; em nota, distingue esse hábito do costume americano de beber nos clubes ou de guardar bebida em casa. A grande maioria dos donos de saloon era nascida no exterior, e no North Side eles superavam os nativos na proporção de três para um. Em cinco distritos eleitorais (wards) a população nascida no exterior superava a nativa, e em seis era quase igual; em vinte os eleitores naturalizados superavam os nativos, e em três quase os igualavam, de modo que quase dois terços dos 34 distritos tinham mais naturalizados que nativos. Se é sobretudo a população estrangeira que mantém e frequenta os saloons, conclui, eles devem ser mais numerosos nos distritos com maior proporção de estrangeiros e de naturalizados, o que, segundo ele, é quase universalmente verdadeiro."
+        },
+        {
           "tipo": "h2",
           "texto": "Quem controlava as cervejarias?"
         },
@@ -116690,7 +116698,7 @@
         },
         {
           "tipo": "p",
-          "texto": "O autor sabe que essas contas se apoiam em depoimentos de donos de bar, atacadistas e cervejeiros. Na falta de dados, diz numa nota, resta o consenso de quem conhece o ramo."
+          "texto": "O autor sabe que essas contas se apoiam em depoimentos de donos de bar, atacadistas e cervejeiros. Na falta de dados, diz numa nota, resta o consenso de quem conhece o ramo. Para repartir a conta entre cerveja e destilados, ele recorre também à composição da população: a cerveja é uma bebida distintivamente alemã, embora outras nacionalidades a bebam, e, como havia em Chicago duas vezes mais irlandeses e americanos que alemães, infere que se gastava mais com destilados, uns dois milhões por ano a mais."
         },
         {
           "tipo": "citacao",
@@ -116703,7 +116711,19 @@
         },
         {
           "tipo": "p",
-          "texto": "Quase todo saloon oferecia alguma atração. A mais comum era o almoço grátis: por cinco centavos, o cliente tomava uma bebida e se servia de salsicha, feijão, chucrute, pés de porco e pão até matar a fome. Nos bares do centro, nas ruas Clark, Dearborn e La Salle, centenas de homens de negócio almoçavam assim todos os dias. O custo para o dono ia de dois ou três a doze ou quinze dólares por dia. George nota que comer mais leva a beber mais, e que é por isso que o almoço é oferecido. Um barril rendia, segundo um garçom do centro, 320 copos; nos bairros fabris, a cerveja era vendida em baldes, em geral um quarto de galão por cinco centavos. No outro extremo estavam as casas de barril do distrito do “levee” e os “family resorts” perto da prefeitura, abertos até as duas da manhã de domingo."
+          "texto": "Segundo George, o caráter dos saloons variava em grande parte conforme a nacionalidade dos donos e dos fregueses, embora não se pudesse traçar uma linha rígida entre as classes nem no tipo nem na geografia. No North Side predominavam os bares alemães: dos quase mil donos de saloon da divisão, 350 falavam inglês, segundo o secretário da associação estadual, e a lista de membros da associação local indicava que pelo menos cinco sextos dos demais eram alemães ou de origem alemã. Alemães e irlandeses estavam em toda a cidade, os irlandeses mais no centro. Poloneses e boêmios tinham os seus bares entre a própria gente, os poloneses ao longo da Milwaukee Avenue e nos distritos madeireiros do noroeste, os boêmios do rio Chicago até além da Halsted Street, entre a Polk e a 22nd Street; entre os dois distritos havia muitos bares mantidos por “Franks”, nome comum dos franceses donos de saloon, por italianos e por judeus."
+        },
+        {
+          "tipo": "p",
+          "texto": "Três delegacias servem ao autor de tipos. No primeiro distrito policial, o centro de negócios, havia 587 saloons para 15 mil moradores, um para cada 25, embora milhares de pessoas trabalhassem ali e morassem em outras partes. No 27º, onde predominavam italianos, Franks e judeus, eram 417 para 126 mil, um para 302. No 29º, sobretudo residencial e com população nativa três vezes maior que a estrangeira, eram 124 para 56 mil, um para 451. Os saloons, conclui, eram mais numerosos no centro e onde a população estrangeira era maior."
+        },
+        {
+          "tipo": "p",
+          "texto": "George considera os saloons alemães os melhores da cidade: salões amplos e bem iluminados, com mesas e cadeiras, onde a cerveja lager é a bebida comum. É essa, para ele, a diferença característica em relação ao saloon americano ou irlandês, onde o mais comum é beber em pé no balcão. Os alemães, escreve, bebem devagar; irlandeses e americanos engolem a dose, em geral de destilado, com a pressa com que fazem tudo o mais. Até poucos anos antes, o beer garden alemão, frequentado por alemães respeitáveis com as mulheres e as filhas, era uma grande atração, sem nada de desonroso, mas já não era tão numeroso, segundo um ex-funcionário da prefeitura."
+        },
+        {
+          "tipo": "p",
+          "texto": "Quase todo saloon oferecia alguma atração. A mais comum era o almoço grátis: por cinco centavos, o cliente tomava uma bebida e se servia de salsicha, feijão, chucrute, pés de porco e pão até matar a fome. Nos bares do centro, nas ruas Clark, Dearborn e La Salle, centenas de homens de negócio almoçavam assim todos os dias. O custo para o dono ia de dois ou três a doze ou quinze dólares por dia. George nota que comer mais leva a beber mais, e que é por isso que o almoço é oferecido. Um barril rendia, segundo um garçom do centro, 320 copos; nos bairros fabris, a cerveja era vendida em baldes, em geral um quarto de galão por cinco centavos. No outro extremo estavam as casas de barril do distrito do “levee” e os “family resorts” perto da prefeitura, abertos até as duas da manhã de domingo. Muitas das casas de barril, as mais baixas da cidade, eram mantidas por Franks e judeus; havia também ali, no West Side, muitos donos de bar italianos, cujas casas não lhe pareciam tão ruins quanto as piores."
         },
         {
           "tipo": "h2",
@@ -117064,7 +117084,11 @@
         },
         {
           "tipo": "p",
-          "texto": "Os estados não escapam da crítica. As áreas oficiais terminam todas em zero ou cinco porque, explicou Gannett, não podiam ser dadas com precisão de unidade, salvo em dois ou três casos. Willcox divide-os em três grupos: os grandes, todos a oeste do Mississippi, ocupam 68% do país; os médios, 30,5%; os pequenos, cerca de 1,5%. As reservas indígenas cobriam 180.884 milhas quadradas em 1890, 6% do país, e encolheram quase 28% até 1896."
+          "texto": "Das nove potências, observa Willcox, uma era puramente asiática, três puramente americanas e cinco intercontinentais; sete tinham origem europeia, e os dois impérios não europeus, China e Turquia, pareciam a ele cambalear. A tabela ilustra, nas suas palavras, o controle da civilização e dos governos europeus sobre o mundo e a posição territorial preeminente de um pequeno número de Estados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os estados não escapam da crítica. As áreas oficiais terminam todas em zero ou cinco porque, explicou Gannett, não podiam ser dadas com precisão de unidade, salvo em dois ou três casos. Willcox divide-os em três grupos: os grandes, todos a oeste do Mississippi, ocupam 68% do país; os médios, 30,5%; os pequenos, cerca de 1,5%. As reservas indígenas cobriam 180.884 milhas quadradas em 1890, 6% do país, e encolheram quase 28% até 1896. Para a divisão regional, Willcox segue os cinco grupos do censo e explica as linhas: a leste do meridiano de 104 graus, os estados se dividem em Norte e Sul por uma linha que coincide, no essencial, com a que separava os antigos estados escravistas dos livres, pela linha Mason-Dixon, pelo rio Ohio e pelo paralelo de 36°30'. Cada estado do Sul assim definido, exceto Virgínia Ocidental e Oklahoma, tinha mais de 10% de negros na população, o que não ocorria em nenhum estado do Norte. A Virgínia Ocidental, com proporção de negros menor que a de qualquer outro estado do Sul ou que a do Missouri, no Norte, ficava no Sul por razões históricas."
         },
         {
           "tipo": "p",
@@ -117098,7 +117122,7 @@
         },
         {
           "tipo": "p",
-          "texto": "O Congresso Internacional de Estatística de São Petersburgo, em 1872, recomendou contar todos os presentes no distrito no momento de referência, regra quase universal na Europa, onde a contagem primária se completa em 24 horas. Nos Estados Unidos, a lei dava duas semanas nas cidades de mais de 10 mil habitantes e um mês nas demais, e contava os moradores pelo local habitual de residência, critério que deixava muito ao juízo do recenseador."
+          "texto": "O Congresso Internacional de Estatística de São Petersburgo, em 1872, recomendou contar todos os presentes no distrito no momento de referência, regra quase universal na Europa, onde a contagem primária se completa em 24 horas. Nos Estados Unidos, a lei dava duas semanas nas cidades de mais de 10 mil habitantes e um mês nas demais, e contava os moradores pelo local habitual de residência, critério que deixava muito ao juízo do recenseador. A Constituição, lembra o autor, manda contar o número total de pessoas em cada estado, excluídos os índios não tributados, e o Congresso sempre entendeu a expressão como os habitantes, não os presentes."
         },
         {
           "tipo": "h2",
@@ -117106,7 +117130,16 @@
         },
         {
           "tipo": "p",
-          "texto": "Para Willcox, um censo não é um bloco único, mas a soma das respostas a muitas perguntas, cuja precisão varia com a região, o grupo social e a natureza da pergunta. Os erros vêm do público, por ignorância ou má vontade; dos recenseadores; e do escritório central. As perguntas sobre doenças, defeitos físicos e mentais, delinquência e dependência foram, a seu ver, as que mais desagradaram em 1890 e as de respostas menos corretas. Rivalidades entre cidades levaram a exageros deliberados, como em Minneapolis e St. Paul, onde houve recontagem."
+          "texto": "Para Willcox, um censo não é um bloco único, mas a soma das respostas a muitas perguntas, cuja precisão varia com a região, o grupo social e a natureza da pergunta. As respostas de Massachusetts ou Rhode Island, onde censos estaduais regulares mantêm uma tradição estatística no povo, merecem mais confiança que as do Novo México. O autor estende a comparação à raça dos informantes."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“As respostas dos brancos são provavelmente mais corretas que as respostas dos negros”",
+          "original": "Answers from whites are probably more correct than answers from negroes"
+        },
+        {
+          "tipo": "p",
+          "texto": "Os erros vêm do público, por ignorância ou má vontade; dos recenseadores; e do escritório central. A má vontade, diz, pesa mais que a incapacidade: muitos nascidos no exterior se declarariam nativos, e alguns não quereriam admitir o serviço no exército confederado, outros a mistura de sangue negro, outros o divórcio ou a incapacidade de ler e escrever. As perguntas sobre doenças, defeitos físicos e mentais, delinquência e dependência foram, a seu ver, as que mais desagradaram em 1890 e as de respostas menos corretas. Rivalidades entre cidades levaram a exageros deliberados, como em Minneapolis e St. Paul, onde houve recontagem."
         },
         {
           "tipo": "p",
@@ -117127,7 +117160,7 @@
         },
         {
           "tipo": "p",
-          "texto": "Para interpolar, há dois métodos: o aritmético, que supõe um acréscimo constante por ano, e o geométrico, que supõe uma taxa constante, diferença semelhante à que existe entre juros simples e compostos. Nenhuma população cresce de uma ou de outra forma, adverte. Como a taxa de crescimento americana parecia em queda, o geométrico tenderia a dar resultados pequenos demais; Willcox prefere ligeiramente o aritmético, mas aplica os dois a onze estados e à cidade de Nova York, que somam mais de 27% da população do país."
+          "texto": "Para interpolar, há dois métodos: o aritmético, que supõe um acréscimo constante por ano, e o geométrico, que supõe uma taxa constante, diferença semelhante à que existe entre juros simples e compostos. Nenhuma população cresce de uma ou de outra forma, adverte. Como a taxa de crescimento americana parecia em queda, o geométrico tenderia a dar resultados pequenos demais; Willcox prefere ligeiramente o aritmético, mas aplica os dois a onze estados e à cidade de Nova York, que somam mais de 27% da população do país. Pesa também, na escolha, que o número anual de imigrantes entre 1890 e 1895 fora ligeiramente maior que entre 1885 e 1890."
         },
         {
           "tipo": "caixa",
@@ -117153,12 +117186,12 @@
         },
         {
           "tipo": "p",
-          "texto": "Pela população, Willcox define como grande potência a que tem 35 milhões de habitantes ou mais. São dez, com cerca de quatro quintos da humanidade, e os Estados Unidos ocupam o quinto lugar, com perto de um vinte e cinco avos da população da Terra. Mesmo o número americano variava entre os anuários, e ele rastreia a causa: o escritório do censo publicou três números diferentes para o Alasca, um provisório e dois finais, sem explicar o conflito."
+          "texto": "Pela população, Willcox define como grande potência a que tem 35 milhões de habitantes ou mais. São dez, com cerca de quatro quintos da humanidade, e os Estados Unidos ocupam o quinto lugar, com perto de um vinte e cinco avos da população da Terra. Mesmo o número americano variava entre os anuários, e ele rastreia a causa: o escritório do censo publicou três números diferentes para o Alasca, um provisório e dois finais, sem explicar o conflito. Das dez, escreve, sete são europeias na origem e na civilização dominante e cristãs na religião; o Japão procura assimilar ou adaptar a cultura da Europa; e China e Turquia estariam provavelmente estacionárias ou em declínio de população e cada vez mais fracas, ao menos em termos relativos."
         },
         {
           "tipo": "caixa",
           "valor": "62.979.766",
-          "texto": "População total dos Estados Unidos em 1º de junho de 1890, que inclui os residentes das reservas indígenas, do Território Indígena e do Alasca. A população constitucional, base da distribuição de cadeiras na Câmara dos Representantes, era de 61.908.906; a população geral, a mais usada nos volumes do censo, de 62.622.250. Para fins científicos, diz Willcox, o conceito relevante é o total."
+          "texto": "População total dos Estados Unidos em 1º de junho de 1890, que inclui os residentes das reservas indígenas, do Território Indígena e do Alasca. A população constitucional, base da distribuição de cadeiras na Câmara dos Representantes, era de 61.908.906; a população geral, a mais usada nos volumes do censo, de 62.622.250. Para fins científicos, diz Willcox, o conceito relevante é o total. Ele registra com satisfação a sugestão do censo de incluir futuramente na população geral todos os seres humanos dentro dos limites do país, sejam índios em relações tribais ou não."
         },
         {
           "tipo": "p",
@@ -117278,6 +117311,10 @@
         },
         {
           "tipo": "p",
+          "texto": "O editor diz também não ser possível omitir as principais aversões de Douglass, que nos livros e nos jornais dava livre curso a preconceitos e queixas. Segundo Bullock, Douglass odiava os índios, que considerava apenas uma espécie gregária de homens-brutos, e chamava os franceses de incômodo comum e perturbadores da Europa. Na mesma lista entram pessoas: o bispo Berkeley, homem caprichoso cuja água de alcatrão nunca deixava de lhe provocar sarcasmo; o pregador Whitefield, um vagabundo cujos sermões custavam a Boston £1.000 cada, ao tirar o povo do trabalho; o governador Shirley e o almirante Knowles, que o processou por difamação. Em nota, Bullock reproduz o comentário de Douglass de que os índios inclinados à religião cristã eram tratados como os cristãos de seitas diferentes se tratam entre si, condenados se não aceitam a fé do padre. Alguns biógrafos, registra ainda, queixaram-se de que Douglass vivia em atrito com os colegas de profissão e de que, com o orgulho de estrangeiro escocês, desprezava o povo que lhe dava o sustento; Bullock responde lembrando que, quase cinquenta anos depois da morte de Douglass, três médicos eminentes sangraram Washington até a morte, o que, para o editor, mostra a procedência das críticas do médico às práticas da época."
+        },
+        {
+          "tipo": "p",
           "texto": "Os temas econômicos iam além da moeda. Douglass descreveu o wampum, o Banco de Amsterdã, os projetos de John Law e a Bolha dos Mares do Sul, usou as estimativas de Halley para calcular populações e escreveu sobre tributação colonial: condenava a capitação como injusta e defendia impostos sobre vinhos, bebidas destiladas e outros luxos, licenças para tavernas e selos sobre documentos. A depreciação também lhe custou caro: segundo Bullock, ele perdeu muito com a moeda da colônia durante o governo de Shirley. Ao morrer, o seu patrimônio foi avaliado em cerca de US$ 10.617."
         },
         {
@@ -117290,7 +117327,7 @@
         },
         {
           "tipo": "p",
-          "texto": "Bullock põe o Discourse entre as melhores discussões monetárias do século XVIII, logo abaixo dos Political Essays de Pelatiah Webster. Douglass, diz, não desenvolveu uma teoria completa da moeda, mas entendia a lei de Gresham, sabia que um país com comércio exterior precisa do meio de troca universal e sustentava, com a firmeza de um Ricardo, que a alta da prata era sinal e resultado da depreciação do papel. O editor observa ainda que o panfleto, reeditado por J. R. McCulloch em 1857 como anônimo, vinha sendo citado sem autoria, e reúne as provas internas de que é de Douglass."
+          "texto": "Bullock põe o Discourse entre as melhores discussões monetárias do século XVIII, logo abaixo dos Political Essays de Pelatiah Webster. Douglass, diz, não desenvolveu uma teoria completa da moeda, mas entendia a lei de Gresham, sabia que um país com comércio exterior precisa do meio de troca universal e sustentava, com a firmeza de um Ricardo, que a alta da prata era sinal e resultado da depreciação do papel. O editor observa ainda que o panfleto, reeditado por J. R. McCulloch em 1857 como anônimo, vinha sendo citado sem autoria, e reúne as provas internas de que é de Douglass. Entre essas provas está a aversão aos franceses, expressa nas páginas 297 e 299 do Discourse em termos muito parecidos com os do Summary."
         },
         {
           "tipo": "h2",
@@ -117348,7 +117385,7 @@
         },
         {
           "tipo": "p",
-          "texto": "A tese central é que as emissões grandes e repetidas causam a alta da prata e do câmbio, e que esta as segue como as marés seguem as fases da Lua. Quando se emite só o que se resgata, prata e câmbio ficam parados; quando se emite menos, caem. Douglass ilustra com a sequência de emissões da Nova Inglaterra e com Barbados, onde uma emissão de £80.000 sobre garantia de terra perdeu logo 40% em relação à prata, até ser suprimida por ordem de Londres."
+          "texto": "A tese central é que as emissões grandes e repetidas causam a alta da prata e do câmbio, e que esta as segue como as marés seguem as fases da Lua. Quando se emite só o que se resgata, prata e câmbio ficam parados; quando se emite menos, caem. Douglass ilustra com a sequência de emissões da Nova Inglaterra e com Barbados, onde uma emissão de £80.000 sobre garantia de terra perdeu logo 40% em relação à prata, até ser suprimida por ordem de Londres. Antes dela, em 1702, por conselho de um certo Mr. W., da Nova Inglaterra, Barbados emitira £16.000 sobre o fundo do imposto sobre negros (Negroe Tax), que chegaram a circular perto do par. Na sequência da Nova Inglaterra, uma guerra dispendiosa contra os índios exigiu grandes emissões, e a prata subiu de 14 para 16 xelins a onça; na Carolina do Sul, as emissões pagaram, além das despesas de governo, as expedições contra os índios da Carolina do Norte, em 1711, e contra os índios do Sul, em 1715."
         },
         {
           "tipo": "citacao",
@@ -117365,6 +117402,10 @@
           "texto": "Para Douglass, nenhum país tem crédito ilimitado. Como um comerciante cujas notas valem apenas o seu crédito real, por mais que as multiplique, um país que estica o crédito além de certo ponto só deprecia os bilhetes. A pressão política, explica, vinha da composição do eleitorado: em muitas colônias, a maioria tornara-se devedora, e os representantes, proprietários de terras endividados, ganhavam quando as emissões elevavam o valor nominal da terra e reduziam o valor real das dívidas."
         },
         {
+          "tipo": "p",
+          "texto": "Douglass recorre a comparações entre povos para descrever o abuso. Assim como o gosto francês por construir fortes e o gosto espanhol pela devoção, na construção de igrejas e conventos, se pervertem quando estes se tornam viveiros de ociosidade e outros vícios, diz, a liberdade e a propriedade inglesas são às vezes abusadas em muitas das colônias, até o nivelamento e a licenciosidade; todos os homens são naturalmente iguais, escreve, mas a sociedade requer subordinação. Em outro passo, compara cada emissão de papel, que vê como um imposto pesado sobre os colonos, aos negros da Guiné que vendem a própria prole como escravos para obter algum dinheiro imediato."
+        },
+        {
           "tipo": "h2",
           "texto": "Que remédios ele propunha?"
         },
@@ -117378,7 +117419,7 @@
         },
         {
           "tipo": "p",
-          "texto": "O pós-escrito responde a um panfleto anônimo a favor do papel, An Enquiry, cujas proposições Douglass reorganiza como paradoxos para refutá-las uma a uma, a começar pela tese de que bilhetes sem fundo nem prazo, aceitos só por consentimento comum, seriam os únicos de valor. Bullock o inclui como amostra dos escritos polêmicos do autor."
+          "texto": "O pós-escrito responde a um panfleto anônimo a favor do papel, An Enquiry, cujas proposições Douglass reorganiza como paradoxos para refutá-las uma a uma, a começar pela tese de que bilhetes sem fundo nem prazo, aceitos só por consentimento comum, seriam os únicos de valor. Bullock o inclui como amostra dos escritos polêmicos do autor. Ao exemplo da Carolina do Sul, invocado pelo panfleto a favor do papel, Douglass responde que a prosperidade da província vinha do solo e do clima, do arroz e de um vasto território indígena vizinho que fornecia grandes quantidades de peles de veado, e que os grandes negócios ali não se faziam em papel."
         },
         {
           "tipo": "leitura",
@@ -117479,16 +117520,29 @@
         },
         {
           "tipo": "p",
-          "texto": "Willcox define a densidade da população como o número médio de pessoas por unidade de superfície terrestre, por analogia com a densidade da mecânica, a massa por unidade de volume. A unidade usual é a milha quadrada, e o acre para cidades. Por ser uma média, a densidade sofre os perigos de todas as médias: quanto maior a área, menos ela representa a situação de qualquer parte grande da população. Dizer que a Terra tem cerca de 28 habitantes por milha quadrada, observa, quase nada informa."
+          "texto": "Willcox define a densidade da população como o número médio de pessoas por unidade de superfície terrestre, por analogia com a densidade da mecânica, a massa por unidade de volume. A unidade usual é a milha quadrada, e o acre para cidades. Por ser uma média, a densidade sofre os perigos de todas as médias: quanto maior a área, menos ela representa a situação de qualquer parte grande da população. Dizer que a Terra tem cerca de 28 habitantes por milha quadrada, observa, quase nada informa. Medidas volumétricas, como pessoas por moradia ou por cômodo, podem dar melhor resultado em distritos congestionados, porque, com os avanços da engenharia, os povos civilizados passaram a viver e trabalhar acima ou abaixo da superfície, onde as vantagens das minas ou das cidades os reúnem."
         },
         {
           "tipo": "p",
           "texto": "Com cerca de 52,3 milhões de milhas quadradas de terra e menos de um bilhão e meio de pessoas, a média mundial seria de 28 ou 29, como no Alabama ou no Mississippi. Se um terço da superfície for inabitável, como sustenta Ratzel, a média na parte habitável ficaria entre 42 e 43, como no Tennessee. Ásia e Europa, juntas, têm cerca de dois quintos da terra emersa e quase quatro quintos dos habitantes, com uma densidade média cerca de quatro vezes maior que a de qualquer outra grande massa de terra."
         },
         {
+          "tipo": "p",
+          "texto": "Willcox tira daí um argumento sobre a origem da espécie. A densidade média de 56,9 na Ásia-Europa, quatro vezes a de qualquer outra grande massa de terra, pode sustentar a tese de que a raça humana surgiu em algum ponto da Europa ou da Ásia, mas dificilmente serviria aos que defendem a origem europeia contra a asiática, porque a densidade da Europa cresceu muito no período histórico e talvez fosse menor que a da Ásia há mil ou dois mil anos. O raciocínio de que os menos numerosos migraram dos mais numerosos, lembra, tinha sido usado na controvérsia sobre o lugar de origem dos arianos ou da língua ariana. Se todos os registros históricos fossem destruídos, acrescenta, poderia apoiar-se no fato de a grande maioria dos caucasianos viver na Europa a tese de que os caucasianos da América, da Austrália e do sul da África vieram da Europa, e não o contrário."
+        },
+        {
           "tipo": "caixa",
           "valor": "62,1%",
           "texto": "Parte da população mundial que vivia nos países com mais de cem habitantes por milha quadrada, segundo os dados de Die Bevölkerung der Erde reunidos por Willcox. Esses países ocupavam só 8,3% da superfície terrestre. Na lista estavam boa parte da Europa ocidental e central, Japão, Coreia, China, Índia e Ceilão, Zanzibar e, nos Estados Unidos, Massachusetts, Rhode Island, Connecticut, Nova York, Nova Jersey, Pensilvânia e o Distrito de Colúmbia."
+        },
+        {
+          "tipo": "p",
+          "texto": "O capítulo fecha com uma tese sobre a expansão europeia. Nos últimos séculos, escreve Willcox, a expansão da raça caucasiana pelo globo aumentou muito a densidade das regiões para onde foi, seja pelo próprio crescimento, como na América e na Austrália, seja pela multiplicação da população nativa sob a sua proteção, como na Índia e em Java; ao mesmo tempo, os países da Europa cresciam com rapidez sem precedentes, em boa parte como resultado indireto da mesma expansão. Esse aumento, para o autor, talvez seja uma justificação ética mais profunda da expansão da Europa do que os argumentos de descoberta, conquista ou cristianização apresentados como sua desculpa. A estatística não mede as diferenças qualitativas entre os seres humanos, salvo quando correlacionadas a traços físicos ou linguísticos objetivos, mas oferece uma medida quantitativa da quantidade de vida humana na superfície da Terra."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“uma densidade da população alta e crescente pode ser considerada uma medida estatística de civilização alta e em progresso”",
+          "original": "a high and increasing density of population may be deemed a statistical measure of high and advancing civilization"
         },
         {
           "tipo": "p",

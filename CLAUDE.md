@@ -145,6 +145,7 @@ e download.
 | Nota "Então × Agora" | 400–600 palavras |
 
 - **Ordem:** estritamente cronológica (decisão de 08/11/2026): primeiro as Publications (1886–1907), depois o Quarterly e o Economic Bulletin (1908–1910), depois a American Economic Review (1911–1929; de 1923 em diante, a partir das digitalizações de número completo do Internet Archive). Numeração contínua, sem lacunas.
+- **Preservar a história do documento (decisão de 15/11/2026):** o que o autor diz sobre grupos étnicos, raciais ou nacionais (teses, opiniões e números legíveis) entra na resenha de forma descritiva e atribuída ("segundo Willcox…"), sem comentário, ressalva ou endosso na voz do site. Nada se omite por cautela; só números/nomes ilegíveis no OCR ficam de fora.
 - **Nunca encher linguiça:** artigo que não sustenta ~900 palavras de análise real fica só no hub.
 - Padrão de redação de toda página: abrir com cena ou fato concreto; citação traduzida com o original
   entre parênteses; um número-chave por parágrafo (o resto em caixa); jargão explicado na primeira

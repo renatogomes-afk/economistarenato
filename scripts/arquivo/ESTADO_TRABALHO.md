@@ -1,7 +1,7 @@
 # Estado do trabalho — Arquivo (atualizado em 15/11/2026, madrugada)
 
 ## Publicado
-- Arquivo até a **nº 200** (American Economic Review, dezembro de 1926). 1926 completo, já com página própria para todo artigo.
+- Arquivo até a **nº 200** (American Economic Review, dezembro de 1926) + Economic Studies ES 1–12 (1896–1897). 1926 completo, já com página própria para todo artigo.
 - 1923–1925 vêm das digitalizações de número completo do Internet Archive (campo `archive_id`; ids internos `ia-…`).
 - Página `/arquivo/eua/` organizada por ano (barra de anos por década + seções por ano).
 
@@ -21,6 +21,10 @@
    (renomear a pasta para (1911-1929) e atualizar indice.csv ao fim).
 3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: 189–192 (1925),
    180–188 (1923–1924), depois 112–179 (1911–1922).
+
+4. **Preservar a história do documento (15/11/2026):** revisar as edições antigas (Publications, Quarterly,
+   Bulletin, AER até a nº 200) para recolocar o que os autores dizem sobre grupos étnicos/raciais, descrito e
+   atribuído, junto com a passada de volta do item 3. Prioridade: Economic Studies → AER 1927–1929 → passada de volta.
 
 ## Lacunas conhecidas (sem fonte aberta)
 - AER, anais da 36ª reunião (março de 1924); manuais da associação de 1924 e 1928.
