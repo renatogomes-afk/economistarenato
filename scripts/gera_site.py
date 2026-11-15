@@ -22,7 +22,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261114a"
+CSS_V = "20261115a"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -358,6 +358,12 @@ def pagina_arquivo():
 {recentes}
   </section>
 
+  <div class="faixa">
+    <h2>Edições por ano</h2>
+    <span class="sub">Estados Unidos, 1886–1929</span>
+  </div>
+{barra_anos(eua, "eua/")}
+
   {assine("Uma edição comentada por semana, no seu e-mail.", "O resumo em português, o documento original e a ponte com o debate de hoje.")}
 </main>
 """
@@ -365,19 +371,55 @@ def pagina_arquivo():
             + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
+def ano_edicao(ed):
+    m = re.findall(r"(1[89]\d\d)", str(ed.get("data", "")))
+    return int(m[-1]) if m else 0
+
+
+def barra_anos(eds, base):
+    """Barra de anos clicável, agrupada por década (base = prefixo do link até a página da coleção)."""
+    anos = sorted({ano_edicao(ed) for ed in eds if ano_edicao(ed)})
+    decadas = {}
+    for a in anos: decadas.setdefault(a // 10 * 10, []).append(a)
+    linhas = "\n".join(
+        f'    <div class="anos-decada"><span class="anos-rotulo">{d}s</span>'
+        + "".join(f'<a href="{base}#ano-{a}">{a}</a>' for a in lst) + "</div>"
+        for d, lst in sorted(decadas.items()))
+    return f'  <nav class="barra-anos" aria-label="Edições por ano">\n{linhas}\n  </nav>'
+
+
+def secoes_por_ano(eds, rel):
+    """Edições agrupadas por ano: título do ano, nº de edições e as séries publicadas naquele ano."""
+    grupos = {}
+    for ed in eds: grupos.setdefault(ano_edicao(ed), []).append(ed)
+    out = []
+    for a, lst in sorted(grupos.items()):
+        series = []
+        for ed in lst:
+            p = ed.get("publicacao", "")
+            if p and p not in series: series.append(p)
+        cards = "\n".join(cartao_edicao(ed, rel) for ed in lst)
+        n = len(lst)
+        out.append(f'''  <section class="ano-bloco" id="ano-{a}">
+    <div class="ano-cab"><h3>{a}</h3><span class="sub">{n} {"edição" if n == 1 else "edições"} · {e(" · ".join(series))}</span></div>
+    <div class="grade-3">
+{cards}
+    </div>
+  </section>''')
+    return "\n".join(out)
+
+
 def pagina_colecao(c):
     rel = "../../"
     eds = edicoes_de(c["id"])
     if c["status"] == "ativa" and eds:
-        cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds)
         prox = "\n".join(f"          <li>{e(p)}</li>" for p in DADOS.get("proximas", [])) if c["id"] == "eua" else ""
         miolo = f"""  <div class="faixa">
     <h2>{e(c['periodico'])}</h2>
     <span class="sub">{len(eds)} edições publicadas · {e(c['periodo'])}</span>
   </div>
-  <section class="grade-3">
-{cartoes}
-  </section>
+{barra_anos(eds, "")}
+{secoes_por_ano(eds, rel)}
 """ + (f"""
   <div class="faixa">
     <h2>Próximas edições</h2>

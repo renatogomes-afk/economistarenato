@@ -640,3 +640,14 @@ figcaption .credito::before{content:"· "}
 .corpo h2[id^="art-"]{scroll-margin-top:80px}
 .credito-art{font-family:var(--sans);font-size:13px;color:#555;margin:-6px 0 14px}
 .ler-coment{font-family:var(--sans);font-size:14px;font-weight:600;margin:4px 0 22px}
+/* Arquivo: barra de anos e edições agrupadas por ano */
+.barra-anos{display:flex;flex-direction:column;gap:6px;margin:0 0 30px;font-family:var(--sans);font-size:14px}
+.anos-decada{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding:6px 0;border-bottom:1px solid var(--linha)}
+.anos-rotulo{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#003097;min-width:52px;font-weight:600}
+.barra-anos a{color:var(--tinta);text-decoration:none;padding:2px 0}
+.barra-anos a:hover{color:#003097;text-decoration:underline}
+.ano-bloco{margin:34px 0 10px;scroll-margin-top:80px}
+.ano-cab{display:flex;align-items:baseline;gap:14px;border-top:1px solid var(--tinta);padding-top:10px;margin-bottom:18px}
+.ano-cab h3{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.8rem;margin:0}
+.ano-cab .sub{font-family:var(--sans);font-size:12px;color:#555}
+@media (max-width:700px){.anos-decada{gap:2px 10px}.anos-rotulo{min-width:100%}.ano-cab{flex-direction:column;gap:2px}}
