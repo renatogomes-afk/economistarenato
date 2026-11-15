@@ -102233,6 +102233,1931 @@
           "hoje": "As dificuldades que Slichter listou são o objeto da economia do pessoal e da teoria dos contratos: medir desempenho, evitar que metas numéricas distorçam o resto do trabalho e alinhar gerentes intermediários aos objetivos da empresa. Esquemas de participação nos lucros, prêmios por equipe e avaliações de desempenho são respostas a esses problemas. E o vínculo entre insegurança no emprego e restrição de esforço continua no debate sobre automação e relações de trabalho."
         }
       ]
+    },
+    {
+      "slug": "1925-reparacoes-renda-e-behaviorismo",
+      "numero": 191,
+      "titulo": "As reparações alemãs, a definição de renda e a crítica ao behaviorismo",
+      "titulo_original": "The American Economic Review, vol. XV, no. 2, June 1925",
+      "autores": "Frank D. Graham, A. B. Wolfe, William Wallace Hewett, Frank H. Knight, J. E. Le Rossignol, Robert A. Love, John Ise e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 2",
+      "data": "junho de 1925",
+      "chamada": "Graham discute a transferência das reparações; Knight critica o behaviorismo; Hewett define renda; Love mede o custo dos títulos de guerra no imposto; Ise acha baratos os recursos esgotáveis.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Seis pessoas passam a decidir, sob o plano Dawes, quanto do dinheiro que a Alemanha deposita em marcos no Banco de Emissão pode virar pagamento aos aliados. O comitê de transferências reúne o agente de reparações e um nomeado da Comissão de Reparações por potência aliada ou associada interessada, cinco ao todo, e seus membros devem ser especialistas em câmbio e finanças. Frank D. Graham, da Princeton University, abre o número de junho de 1925 da American Economic Review com uma objeção a esse desenho: a transferência, escreve, é um problema de comércio internacional tanto quanto de finanças, e o mais provável é que cada governo seja representado por um financista, não por um economista versado nos dois campos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O restante do número alterna teoria, método e finanças públicas. A. B. Wolfe, da Ohio State University, propõe diagramas em três dimensões para a demanda dos consumidores e para a oferta de poupança. William Wallace Hewett, da University of Pennsylvania, defende definir renda como fluxo de bens e serviços, poupança incluída. Frank H. Knight discute a proposta de levar o método behaviorista para a economia. J. E. Le Rossignol examina os governos trabalhistas da Austrália, da Nova Zelândia e da Grã-Bretanha. Robert A. Love, da Columbia University, calcula quanto custou ao Tesouro aceitar títulos da Liberty Loan pelo valor de face no imposto federal sobre heranças, e John Ise, da University of Kansas, sustenta que os recursos naturais esgotáveis são vendidos barato demais. Comunicações e resenhas fecham a edição."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o dinheiro das reparações não atravessaria a fronteira?",
+          "artigo": "ia-1925-06-p209",
+          "credito": "Frank D. Graham (Princeton University) · “Germany’s Capacity to Pay and the Reparation Plan” · pp. 209–227"
+        },
+        {
+          "tipo": "p",
+          "texto": "O alvo de Graham são dois livros publicados pelo Institute of Economics: Germany’s Capacity to Pay, de Harold G. Moulton e Constantine E. McGuire, e The Reparation Plan, de Moulton. Segundo Graham, Moulton lê o plano Dawes como se o comitê só pudesse transferir fundos aos credores depois de surgir um saldo favorável no balanço de pagamentos alemão. Graham diz não ter encontrado no relatório nada que exija isso. E argumenta que, se essa leitura prevalecer, só haverá pagamentos desprezíveis, porque o excedente de exportações não surge sozinho: precisa ser induzido por um movimento dos preços, e os preços só se movem quando o poder de compra sai da Alemanha."
+        },
+        {
+          "tipo": "p",
+          "texto": "O mecanismo que ele descreve é o do padrão-ouro. Como a Alemanha tem pouco ouro além do que tomou emprestado para estabilizar a moeda, o nível de preços teria de cair por uma redução da oferta de moeda sem exportação de metal. Graham propõe que os pagamentos acima do limite de 5 bilhões de marcos acumulados no banco sejam retirados de circulação, e critica a aplicação, em títulos e empréstimos na própria Alemanha, dos depósitos acima de 2 bilhões, que manteria os preços altos. Os credores, acrescenta, poderiam sacar marcos e destruí-los. Com preços internos mais baixos, a exportação ganharia vantagem relativa na Alemanha, e a importação, nos países credores."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 600 milhões",
+          "texto": "Pagamento anual alemão previsto para o ano-padrão de 1928, ou 2,5 bilhões de marcos: cerca de US$ 10 por habitante da Alemanha. Os credores, com cerca de 240 milhões de habitantes, receberiam em média dois dólares e meio por pessoa, quase o dobro do que o Canadá absorveu por ano antes da guerra."
+        },
+        {
+          "tipo": "p",
+          "texto": "A evidência histórica vem de três estudos: o do próprio Graham sobre os Estados Unidos de 1862 a 1879, o de John H. Williams sobre a Argentina e o de Jacob Viner sobre o Canadá. Depois de 1873, o excedente de importações americano virou excedente de exportações, que chegou a US$ 258 milhões em 1878, sem perturbação maior do comércio. Graham responde então, um a um, a nove argumentos de Moulton e conclui que a transferência depende de uma pressão gradual e deliberada sobre o câmbio do marco."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O excedente de exportações alemão precisa ser induzido pela ação do comitê.”",
+          "original": "“The German export surplus must be induced by action of the committee.”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "graham-reparacoes-e-transferencia",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como desenhar a demanda de muitos consumidores ao mesmo tempo?",
+          "artigo": "ia-1925-06-p228",
+          "credito": "A. B. Wolfe (Ohio State University) · “Three-Dimensional Diagrams in Illustration of Consumers’ Demand and of Interest Rates and Savers’ Surpluses” · pp. 228–238"
+        },
+        {
+          "tipo": "p",
+          "texto": "Wolfe começa por uma dúvida de fundo. As análises da demanda baseadas na utilidade marginal, observa, pressupõem um hedonismo consciente e calculista que, segundo a crítica de Veblen e de outros institucionalistas, não tem o papel que a economia de tradição benthamiana lhe atribuiu. Mesmo assim, o método esquemático das tabelas de demanda é tão conveniente que deve continuar nos manuais, desde que acompanhado da confissão de que é um raciocínio “como se”, e não o retrato do que acontece num mercado."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é um artigo de Silberling, de setembro de 1924, que mostrava que a curva de demanda habitual é composta e atemporal. Wolfe acrescenta que a curva em duas dimensões serve a duas leituras diferentes: as avaliações sucessivas de um indivíduo para unidades adicionais de um bem, ou o preço que pessoas diferentes pagariam por uma mesma quantidade. Nenhum diagrama plano mostra, ao mesmo tempo, que a utilidade cai para cada indivíduo à medida que a oferta cresce e que a mesma quantidade tem utilidades diferentes para pessoas diferentes."
+        },
+        {
+          "tipo": "p",
+          "texto": "Sua solução é um sólido: um maço de curvas individuais de demanda, enfileiradas por intensidade, análogo ao diagrama da renda da terra dos Materials de Marshall, Wright e Field. Os mais ricos ficam de um lado, com curvas que Wolfe desenha convexas; os mais pobres do outro, com curvas côncavas; a linha que une os pontos de partida é a curva das ofertas iniciais de preço. Um plano horizontal na altura do preço de mercado separa o preço total pago, abaixo, do excedente do consumidor, acima. O autor ressalva que as notações não o comprometem com essas grandezas como realidades mensuráveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "A segunda aplicação é a taxa de juros. Cada poupador tem uma curva de custo de poupar; o poupador marginal, na ponta da cunha, poupa uma só unidade a uma taxa de, digamos, 3%, e os grandes poupadores fazem boa parte de sua poupança sem sacrifício. Baixar a taxa para 2% elimina os poupadores cujo sacrifício inicial é maior. Desenhado em escala real, o diagrama seria impraticável: a base teria forma de L, com as duas pernas muito alongadas, e a linha da poupança do maior poupador teria de ser pelo menos cem mil vezes mais longa que a de poupadores perto da ponta. Wolfe o desaconselha para turmas iniciais e o recomenda para cursos avançados de teoria."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A poupança é renda?",
+          "artigo": "ia-1925-06-p239",
+          "credito": "William Wallace Hewett (University of Pennsylvania) · “The Definition of Income” · pp. 239–246"
+        },
+        {
+          "tipo": "p",
+          "texto": "Com o imposto de renda instalado em quase todos os países, escreve Hewett, a pergunta “o que é renda?” deixou de ser acadêmica. Os economistas se dividem em dois grupos: os que definem renda como fluxo de serviços, cujo principal defensor é Irving Fisher, e os que a definem como fluxo de bens e serviços, isto é, a própria riqueza, posição apresentada por Carl C. Plehn no discurso presidencial à American Economic Association em Washington."
+        },
+        {
+          "tipo": "p",
+          "texto": "Hewett aponta três defeitos na definição de serviços. Ela se afasta do uso do mercado, para o qual renda é ganho líquido; é difícil de aplicar à tributação e à medição da renda nacional, como o próprio Fisher admite; e não combina com a “distribuição da renda” da teoria econômica, que distribui riqueza, poupada ou consumida. A alternativa reúne três grupos: bens novos produzidos, serviços pessoais e serviços dos bens duráveis de consumo herdados do período anterior. Desse total bruto deduz-se o necessário para manter intacto o equipamento, e chega-se à renda social líquida."
+        },
+        {
+          "tipo": "p",
+          "texto": "A objeção de dupla contagem é enfrentada com exemplos. Um advogado compra com seu salário uma casa de US$ 10.000 e a aluga por US$ 100 por mês, dos quais US$ 40 vão para manutenção, depreciação, seguro e impostos; ao fim do ano, tem US$ 720 líquidos e a casa intacta. Nada foi contado duas vezes. Na prática, diz Hewett, só a moradia importa entre os bens duráveis de consumo, posição que atribui ao cálculo recente da renda nacional pelo National Bureau of Economic Research."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 230",
+          "texto": "Total contado pelos dois métodos no exemplo de Hewett: US$ 200 aplicados em títulos a 5%, três anos de juros de US$ 10 e a venda do título para pagar férias. A definição de bens e serviços conta a poupança quando ela é feita; a de serviços, quando o capital é consumido."
+        },
+        {
+          "tipo": "p",
+          "texto": "O artigo propõe abandonar a expressão “renda psíquica” entre os que aceitam a definição de bens e serviços, trocando-a por algo como “benefícios psíquicos”. E rejeita o critério de consumo: se o lucro de US$ 10.000 de uma sapataria só é renda quando gasto, o imposto de renda vira imposto sobre o consumo. Conclusão de Hewett: a poupança deve ser contada como renda, sem dupla contagem."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A economia pode ignorar a consciência?",
+          "artigo": "ia-1925-06-p247",
+          "credito": "Frank H. Knight · “Fact and Metaphysics in Economic Psychology” · pp. 247–266"
+        },
+        {
+          "tipo": "p",
+          "texto": "Knight responde a artigos que defendiam o método behaviorista na economia, como “The Emancipation of Economics”, de L. K. Frank, publicado nesta revista em março de 1924, e “Psychology in Economic Theory”, de A. J. Snow. Ele reconhece a força da proposta: a história da inteligência, escreve, é a passagem do animismo primitivo para uma abordagem objetiva e descritiva, e a ciência deu ao homem o controle da natureza e de si mesmo como objeto natural. O behaviorismo pede que o estudo da conduta se restrinja aos fatos físicos observados, o que, na prática, equivale a negar a consciência."
+        },
+        {
+          "tipo": "p",
+          "texto": "A resposta de Knight tem duas partes. Na lógica, ele observa que a própria discussão pressupõe interesses, ao menos o interesse pela verdade, e que a verdade se estabelece por acordo entre mentes que se comunicam; a comunicação não se reduz à interação mecânica entre organismos. Na prática, separa explicação, previsão e controle. Imagina um behaviorista que aplica o mesmo estímulo a passantes, oferecendo a cada um uma nota de um dólar, e pergunta como explicar as respostas pela estrutura física do organismo, sem referência ao estado de espírito."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí três tipos de controle: o mecânico, de pouca aplicação fora da medicina; o quase mecânico, que usa fatos de consciência como causas, e cobre recompensas, persuasão, opinião pública e costumes; e o que trata os motivos como fins. O direito, nota Knight, está saturado das noções de intenção, fraude, erro, coação e liberdade. Ele invoca Kant, que separou razão pura e razão prática e deu primazia à segunda, e chama de rumo errado a busca dos ideais das ciências naturais nas ciências sociais. A conclusão é dualista: para prever e controlar a conduta humana, aprende-se mais estudando como as mentes se conhecem e se influenciam do que analisando mecanicamente a interação entre corpos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Não a conquista do poder, mas o seu uso é, e precisa ser, a questão principal.”",
+          "original": "“Not the winning of power, but its use is, and must be, the leading question.”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "knight-fato-e-metafisica",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Governo trabalhista significa revolução social?",
+          "artigo": "ia-1925-06-p267",
+          "credito": "J. E. Le Rossignol · “Labor Governments and the Social Revolution” · pp. 267–274"
+        },
+        {
+          "tipo": "p",
+          "texto": "Desde o Manifesto Comunista de 1848, lembra Le Rossignol, os socialistas esperam a revolução proletária, que Marx previa primeiro nos países industriais mais avançados, como a Inglaterra. A vitória do Partido Trabalhista britânico na eleição de dezembro de 1923 e a formação do governo MacDonald, sem maioria própria, animaram socialistas de todas as tendências. Os primeiros trabalhistas chegaram à Câmara dos Comuns em 1874, dois eleitos entre treze candidatos; em 1906 eram 56."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para avaliar o que significaria um governo trabalhista com maioria, o autor recorre à Austrália e à Nova Zelândia. Na Austrália, o primeiro passo foi dado em 1881, em Nova Gales do Sul; depois da greve marítima de 1890, os sindicatos voltaram-se para a política, e em 1891 elegeram 35 membros à assembleia daquela colônia. Antes da guerra, o partido já havia controlado, em algum momento, a Commonwealth e todos os estados, salvo Victoria; dividiu-se em 1916 por causa do recrutamento militar obrigatório; em novembro de 1924, havia governos trabalhistas em todos os estados, menos Nova Gales do Sul. Na Nova Zelândia, a aliança liberal-trabalhista governou de 1891 a 1912, com John Ballance, Richard Seddon e Joseph Ward, até a vitória do Partido Reformista de W. F. Massey."
+        },
+        {
+          "tipo": "p",
+          "texto": "Le Rossignol tira daí algumas generalizações. Líderes trabalhistas no poder abandonam parte do que defendiam fora dele, e o mesmo teria ocorrido com MacDonald, Webb, Snowden e Henderson quanto ao imposto sobre o capital, à nacionalização imediata das ferrovias e minas e a outras promessas. A legislação aprovada na Austrália e na Nova Zelândia, de leis fabris a arbitragem obrigatória de salários, não iria muito além da legislação progressista da Grã-Bretanha, da Alemanha ou de alguns estados americanos. As empresas estatais dependiam de crédito de capitalistas europeus, que puxavam o freio quando achavam o avanço rápido demais. E o crescimento trabalhista aproximava os demais partidos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na Grã-Bretanha, a tabela das duas últimas eleições mostra os trabalhistas com cerca de um terço dos votos, depois de ganharem cerca de 25% em votos. A conclusão do autor é que pode haver revolução política sem revolução social, e que o mesmo valeria para os Estados Unidos, se republicanos e democratas se unissem contra o poder crescente do trabalho."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto custou aceitar títulos de guerra pelo valor de face?",
+          "artigo": "ia-1925-06-p275",
+          "credito": "Robert A. Love (Columbia University) · “The Use of Liberty Bonds in Payment of Estate Taxes” · pp. 275–283"
+        },
+        {
+          "tipo": "p",
+          "texto": "A seção 14 da Segunda Lei da Liberty Loan, de setembro de 1917, emendada pela Terceira, permitia pagar o imposto federal sobre heranças com títulos federais de juros acima de 4%, aceitos pelo valor de face e juros, desde que o falecido os tivesse havia ao menos seis meses. Pelo montante resgatado, a via era das menos importantes da amortização da dívida de guerra. Love chama a atenção para outra coisa: nela, como nos títulos recebidos em pagamento de juros de empréstimos estrangeiros, o governo pagava o valor de face, e não o preço de mercado."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 4,79 milhões",
+          "texto": "Custo estimado por Love para o governo nos anos fiscais de 1920 a 1923: diferença entre os US$ 57,3 milhões de valor de face aceitos e os US$ 52,6 milhões de valor de mercado. O preço médio foi de 91,65. Em 1921, 17,22% dos US$ 154 milhões arrecadados no imposto foram pagos com esses títulos."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para medir o ganho dos espólios, Love examinou inventários registrados nos tribunais de sucessões de Nova York. Dos 72 espólios grandes o bastante para pagar o imposto federal, acima de US$ 50.000, 54 tinham títulos da Liberty Loan e 50 os usaram quando cotados abaixo do par. Mais de 19% dos impostos foram pagos assim, com ganho médio de US$ 9,80 a cada US$ 100 de valor de face. Quatro espólios concentraram mais de 73% dos ganhos. Num espólio de 27 milhões de dólares, a vantagem equivaleu a cerca de 6% ao ano somados aos 4,25% do título."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor examina os três argumentos a favor do dispositivo: facilitar a venda a juros baixos, manter os títulos ao par e proteger os portadores. Com base nos US$ 82 milhões do imposto em 1918, estima que o uso previsto não passaria de cerca de 2% dos mais de US$ 18 bilhões em títulos que podiam ser entregues, pouco para sustentar o preço. Cita o secretário do Tesouro Houston, para quem a União não tinha obrigação de garantir aos portadores um mercado ao par. E recomenda excluir o dispositivo das emissões que o Tesouro terá de decidir até 1928, cerca de metade do total das quatro Liberty Loans."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Recursos esgotáveis estão baratos demais?",
+          "artigo": "ia-1925-06-p284",
+          "credito": "John Ise (University of Kansas) · “The Theory of Value as Applied to Natural Resources” · pp. 284–291"
+        },
+        {
+          "tipo": "p",
+          "texto": "Ise abre com uma tese que ele mesmo chama de aparentemente absurda: mesmo que toda a madeira, todo o petróleo, o gás ou o antracito dos Estados Unidos pertencessem a um monopólio absoluto, sem controle público, os preços ficariam abaixo do que o interesse de longo prazo do público justificaria. Logo, os esforços do governo para baratear esses produtos seriam contrários ao interesse público."
+        },
+        {
+          "tipo": "p",
+          "texto": "O preço adequado depende de haver ou não substitutos. Sem substitutos, a questão é quanto descontar as necessidades futuras; Ise considera que as da próxima geração não deveriam valer menos da metade das nossas, o que dá um desconto máximo de cerca de 2% ao ano, e o preço deveria dobrar a cada geração. Com substitutos, o preço deveria se aproximar do custo de produzi-los: madeira plantada a US$ 20 por mil pés, coque a US$ 10 a tonelada no lugar do antracito, gás artificial a US$ 2 por mil pés cúbicos, óleo de xisto a US$ 5 o barril."
+        },
+        {
+          "tipo": "p",
+          "texto": "Proprietários em concorrência, que precisam ganhar algo como 6% ao ano, fariam o preço dobrar a cada dez ou doze anos, descontando o futuro três vezes mais do que o autor julga socialmente justificado. Ise ilustra com a madeira: o país teria cerca de 1.600 bilhões de pés de mata virgem, uns quarenta anos de consumo, e um valor de US$ 20 daqui a cinquenta anos vale hoje 75 centavos por mil pés. Um monopólio também prefere renda presente: a 5%, US$ 100 recebidos daqui a cem anos valem hoje 76 centavos. As reservas de petróleo estimadas em 1922, pouco mais de 9 bilhões de barris, durariam doze ou treze anos ao consumo corrente."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta final passa por tributos: imposto sobre a gasolina de pelo menos 25 centavos por galão e imposto sobre a produção de petróleo cru de pelo menos US$ 2 por barril, elevados de forma gradual."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O primeiro requisito de tal política racional será um nível de preços muito mais alto.”",
+          "original": "“The first essential of such a rational policy will be a far higher level of prices.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas comunicações, L. R. Gottlieb responde à resenha de H. L. Lutz, publicada em março, sobre The Tax Problem in Wisconsin, estudo do National Industrial Conference Board, e uma nota completa a explicação do índice de custo de vida usado por Alvin H. Hansen no artigo de março sobre a tendência dos salários reais. As resenhas tratam de Principles of Economics, de Raymond T. Bye, por John Ise; A History of the Public Land Policies, de Benjamin Horace Hibbard, por C. L. Holmes; The Agricultural Situation, de George F. Warren e Frank A. Pearson, por John D. Black; The Consolidation of Railroads, de Walter M. W. Splawn, por E. Jones; Interest as a Cost, de Clinton H. Scovell, por W. A. Paton; Common Stocks as Long Term Investments, de Edgar Lawrence Smith, por Milton N. Nelson; German Trade Associations: The Coal Kartells, de Archibald H. Stockder, por Francis Walker; Industrial Ownership, de Robert S. Brookings, por T. N. Carver; The State Theory of Money, de Georg Friedrich Knapp, por Olin Ingraham; Income Tax Procedure, 1925, de Robert H. Montgomery, por Carl C. Plehn; Unemployment Relief in Great Britain, de Felix Morley, por William M. Leiserson; quatro manuais de estatística, de Frederick C. Kent, Robert Riegel, Harry Jerome e Frederick C. Mills, por Willford I. King; e Graphic Statistics in Management, de William Henry Smith, por B. D. Mudgett. Seguem-se as listas de livros novos, os resumos de periódicos, os documentos e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número gira em torno de preços relativos como mecanismo de ajuste. Graham faz a transferência das reparações depender da diferença entre os preços dos bens comerciáveis e dos bens domésticos, dentro e fora da Alemanha; Ise faz a conservação depender da trajetória do preço de um estoque esgotável e da taxa com que se desconta o futuro; Love mede o custo de um privilégio fiscal pela distância entre o valor de face e o preço de mercado de um título.",
+            "Há também um fio de método. Hewett e Knight discutem o que se pode medir e o que se deve contar: o primeiro escolhe a definição de renda pela possibilidade de uso estatístico e pela coerência com a teoria da distribuição; o segundo aceita que os fatos de consciência escapam à medição exata, mas argumenta que excluí-los empobrece a explicação. Os diagramas de Wolfe ficam entre os dois: tornam visível uma teoria que o próprio autor apresenta como hipótese de trabalho."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Problema da transferência",
+          "dificuldade de converter pagamentos internos de um país devedor em pagamentos externos aos credores."
+        ],
+        [
+          "Bens domésticos",
+          "bens que não entram no comércio internacional e cujos preços dependem só do mercado interno."
+        ],
+        [
+          "Pontos do ouro",
+          "limites de variação do câmbio entre moedas conversíveis, além dos quais compensa exportar ou importar ouro."
+        ],
+        [
+          "Excedente do consumidor",
+          "diferença entre o que o comprador pagaria por uma quantidade e o que efetivamente paga."
+        ],
+        [
+          "Behaviorismo",
+          "corrente da psicologia que estuda só o comportamento observável e dispensa a consciência."
+        ],
+        [
+          "Renda psíquica",
+          "satisfação obtida com bens e serviços, distinta do fluxo de bens e serviços em si."
+        ],
+        [
+          "Liberty Loan",
+          "empréstimos de guerra do governo americano de 1917 e 1918, colocados junto ao público."
+        ],
+        [
+          "Taxa de desconto",
+          "taxa usada para converter valores futuros em valor presente."
+        ]
+      ],
+      "hoje": "O problema da transferência voltou ao centro da economia internacional em 1929, no debate entre Keynes e Ohlin sobre as reparações alemãs, e reaparece sempre que um país precisa gerar grandes superávits externos para pagar dívidas. A pergunta de Ise sobre o ritmo de exploração de um recurso esgotável e a taxa de desconto do futuro tornou-se, poucos anos depois, a regra de Hotelling, e continua presente nas discussões sobre petróleo e clima. A escolha entre contar a poupança na renda ou só o consumo segue dividindo propostas de tributação.",
+      "itens": [
+        [
+          "Germany’s Capacity to Pay and the Reparation Plan",
+          "pp. 209–227",
+          "ia-1925-06-p209"
+        ],
+        [
+          "Three-Dimensional Diagrams in Illustration of Consumers’ Demand and of Interest Rates and Savers’ Surpluses",
+          "pp. 228–238",
+          "ia-1925-06-p228"
+        ],
+        [
+          "The Definition of Income",
+          "pp. 239–246",
+          "ia-1925-06-p239"
+        ],
+        [
+          "Fact and Metaphysics in Economic Psychology",
+          "pp. 247–266",
+          "ia-1925-06-p247"
+        ],
+        [
+          "Labor Governments and the Social Revolution",
+          "pp. 267–274",
+          "ia-1925-06-p267"
+        ],
+        [
+          "The Use of Liberty Bonds in Payment of Estate Taxes",
+          "pp. 275–283",
+          "ia-1925-06-p275"
+        ],
+        [
+          "The Theory of Value as Applied to Natural Resources",
+          "pp. 284–291",
+          "ia-1925-06-p284"
+        ],
+        [
+          "The Tax Problem in Wisconsin: A Communication",
+          "pp. 292–294",
+          "ia-1925-06-p292"
+        ],
+        [
+          "Factors Affecting the Trend of Real Wages: A Communication",
+          "p. 294",
+          "ia-1925-06-p294"
+        ],
+        [
+          "Review: Principles of Economics by Raymond T. Bye",
+          "pp. 295–298",
+          "ia-1925-06-p295"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "pp. 298–299",
+          "ia-1925-06-p298"
+        ],
+        [
+          "Review: A History of the Public Land Policies by Benjamin Horace Hibbard",
+          "pp. 299–301",
+          "ia-1925-06-p299"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "pp. 302–309",
+          "ia-1925-06-p302"
+        ],
+        [
+          "Review: The Agricultural Situation: Economic Effects of Fluctuating Prices by George F. Warren, Frank A. Pearson",
+          "pp. 309–311",
+          "ia-1925-06-p309"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "pp. 312–316",
+          "ia-1925-06-p312"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "p. 316",
+          "ia-1925-06-x1"
+        ],
+        [
+          "Review: The Consolidation of Railroads by Walter M. W. Splawn",
+          "pp. 316–318",
+          "ia-1925-06-p316"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "pp. 318–319",
+          "ia-1925-06-p318"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "pp. 319–320",
+          "ia-1925-06-p319"
+        ],
+        [
+          "Review: Interest as a Cost by Clinton H. Scovell",
+          "pp. 321–325",
+          "ia-1925-06-p321"
+        ],
+        [
+          "Review: Common Stocks as Long Term Investments by Edgar Lawrence Smith",
+          "pp. 326–327",
+          "ia-1925-06-p326"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "pp. 328–339",
+          "ia-1925-06-p328"
+        ],
+        [
+          "Review: German Trade Associations: The Coal Kartells by Archibald H. Stockder",
+          "pp. 339–342",
+          "ia-1925-06-p339"
+        ],
+        [
+          "Review: Industrial Ownership, Its Economic and Social Significance by Robert S. Brookings",
+          "pp. 342–343",
+          "ia-1925-06-p342"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "pp. 343–344",
+          "ia-1925-06-p343"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "pp. 344–347",
+          "ia-1925-06-p344"
+        ],
+        [
+          "Review: The State Theory of Money by Georg Friedrich Knapp",
+          "pp. 347–349",
+          "ia-1925-06-p347"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "pp. 349–354",
+          "ia-1925-06-p349"
+        ],
+        [
+          "Review: Income Tax Procedure, 1925 by Robert H. Montgomery",
+          "pp. 354–357",
+          "ia-1925-06-p354"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "pp. 358–361",
+          "ia-1925-06-p358"
+        ],
+        [
+          "New Books: Population and Migration",
+          "pp. 361–364",
+          "ia-1925-06-p361"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "pp. 364–365",
+          "ia-1925-06-p364"
+        ],
+        [
+          "Review: Unemployment Relief in Great Britain by Felix Morley",
+          "pp. 365–366",
+          "ia-1925-06-p365"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "pp. 367–368",
+          "ia-1925-06-p367"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "pp. 368–369",
+          "ia-1925-06-p368"
+        ],
+        [
+          "Review: Elements of Statistics by Frederick C. Kent; Elements of Business Statistics by Robert Riegel; Statistical Method by Harry Jerome; Statistical Methods Applied to Economics and Business by Frederick C. Mills",
+          "pp. 369–372",
+          "ia-1925-06-p369"
+        ],
+        [
+          "Review: Graphic Statistics in Management by William Henry Smith",
+          "pp. 372–374",
+          "ia-1925-06-p372"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "pp. 374–376",
+          "ia-1925-06-p374"
+        ],
+        [
+          "Periodicals",
+          "pp. 377–405",
+          "ia-1925-06-p377"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 406–407",
+          "ia-1925-06-p406"
+        ],
+        [
+          "Notes",
+          "pp. 408–416",
+          "ia-1925-06-p408"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1925-06_15_2",
+      "artigos": [
+        {
+          "titulo": "Germany’s Capacity to Pay and the Reparation Plan",
+          "autores": "Frank D. Graham (Princeton University)",
+          "paginas": "pp. 209–227",
+          "jstor": "ia-1925-06-p209",
+          "resumo": "Crítica à leitura de Moulton sobre a transferência das reparações e defesa de um ajuste por preços relativos induzido pelo comitê de transferências.",
+          "ensaio_slug": "graham-reparacoes-e-transferencia"
+        },
+        {
+          "titulo": "Three-Dimensional Diagrams in Illustration of Consumers’ Demand and of Interest Rates and Savers’ Surpluses",
+          "autores": "A. B. Wolfe (Ohio State University)",
+          "paginas": "pp. 228–238",
+          "jstor": "ia-1925-06-p228",
+          "resumo": "Proposta de diagramas sólidos que reúnem curvas individuais de demanda e de custo de poupar."
+        },
+        {
+          "titulo": "The Definition of Income",
+          "autores": "William Wallace Hewett (University of Pennsylvania)",
+          "paginas": "pp. 239–246",
+          "jstor": "ia-1925-06-p239",
+          "resumo": "Defesa da renda como fluxo de bens e serviços, com a poupança incluída e sem dupla contagem."
+        },
+        {
+          "titulo": "Fact and Metaphysics in Economic Psychology",
+          "autores": "Frank H. Knight",
+          "paginas": "pp. 247–266",
+          "jstor": "ia-1925-06-p247",
+          "resumo": "Resposta às propostas de adotar o método behaviorista na economia.",
+          "ensaio_slug": "knight-fato-e-metafisica"
+        },
+        {
+          "titulo": "Labor Governments and the Social Revolution",
+          "autores": "J. E. Le Rossignol",
+          "paginas": "pp. 267–274",
+          "jstor": "ia-1925-06-p267",
+          "resumo": "Os governos trabalhistas da Austrália, da Nova Zelândia e da Grã-Bretanha e a distância entre vitória política e socialização."
+        },
+        {
+          "titulo": "The Use of Liberty Bonds in Payment of Estate Taxes",
+          "autores": "Robert A. Love (Columbia University)",
+          "paginas": "pp. 275–283",
+          "jstor": "ia-1925-06-p275",
+          "resumo": "Estimativa do custo para o Tesouro de aceitar títulos de guerra pelo valor de face no imposto sobre heranças."
+        },
+        {
+          "titulo": "The Theory of Value as Applied to Natural Resources",
+          "autores": "John Ise (University of Kansas)",
+          "paginas": "pp. 284–291",
+          "jstor": "ia-1925-06-p284",
+          "resumo": "Tese de que recursos esgotáveis são vendidos barato demais, com proposta de impostos para elevar seus preços."
+        },
+        {
+          "titulo": "The Tax Problem in Wisconsin",
+          "autores": "L. R. Gottlieb",
+          "paginas": "pp. 292–294",
+          "jstor": "ia-1925-06-p292",
+          "resumo": "Comunicação em resposta à resenha de H. L. Lutz sobre o estudo do National Industrial Conference Board."
+        },
+        {
+          "titulo": "Factors Affecting the Trend of Real Wages",
+          "autores": "",
+          "paginas": "p. 294",
+          "jstor": "ia-1925-06-p294",
+          "resumo": "Comunicação que completa a nota sobre o índice de custo de vida do artigo de Alvin H. Hansen de março."
+        },
+        {
+          "titulo": "Raymond T. Bye, Principles of Economics",
+          "autores": "John Ise (University of Kansas)",
+          "paginas": "pp. 295–298",
+          "jstor": "ia-1925-06-p295",
+          "resumo": "Resenha de manual de princípios de economia centrado em valor e distribuição."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 298–299",
+          "jstor": "ia-1925-06-p298",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Benjamin Horace Hibbard, A History of the Public Land Policies",
+          "autores": "C. L. Holmes (Agricultural Experiment Station, Ames, Iowa)",
+          "paginas": "pp. 299–301",
+          "jstor": "ia-1925-06-p299",
+          "resumo": "Resenha de história das políticas de terras públicas dos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 302–309",
+          "jstor": "ia-1925-06-p302",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "George F. Warren e Frank A. Pearson, The Agricultural Situation",
+          "autores": "John D. Black (University of Minnesota)",
+          "paginas": "pp. 309–311",
+          "jstor": "ia-1925-06-p309",
+          "resumo": "Resenha de estudo sobre os efeitos das flutuações de preços na agricultura."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 312–316",
+          "jstor": "ia-1925-06-p312",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 316",
+          "jstor": "ia-1925-06-x1",
+          "resumo": "Lista de livros novos, com notas breves, sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "Walter M. W. Splawn, The Consolidation of Railroads",
+          "autores": "E. Jones (Stanford University)",
+          "paginas": "pp. 316–318",
+          "jstor": "ia-1925-06-p316",
+          "resumo": "Resenha de livro sobre a consolidação das ferrovias."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 318–319",
+          "jstor": "ia-1925-06-p318",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicações."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 319–320",
+          "jstor": "ia-1925-06-p319",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Clinton H. Scovell, Interest as a Cost",
+          "autores": "W. A. Paton (University of Michigan)",
+          "paginas": "pp. 321–325",
+          "jstor": "ia-1925-06-p321",
+          "resumo": "Resenha de livro sobre a inclusão dos juros do capital próprio nos custos."
+        },
+        {
+          "titulo": "Edgar Lawrence Smith, Common Stocks as Long Term Investments",
+          "autores": "Milton N. Nelson (Ohio State University)",
+          "paginas": "pp. 326–327",
+          "jstor": "ia-1925-06-p326",
+          "resumo": "Resenha de estudo sobre ações como aplicação de longo prazo."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 328–339",
+          "jstor": "ia-1925-06-p328",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Archibald H. Stockder, German Trade Associations: The Coal Kartells",
+          "autores": "Francis Walker",
+          "paginas": "pp. 339–342",
+          "jstor": "ia-1925-06-p339",
+          "resumo": "Resenha de livro sobre os cartéis do carvão na Alemanha."
+        },
+        {
+          "titulo": "Robert S. Brookings, Industrial Ownership, Its Economic and Social Significance",
+          "autores": "T. N. Carver (Harvard University)",
+          "paginas": "pp. 342–343",
+          "jstor": "ia-1925-06-p342",
+          "resumo": "Resenha de livro sobre a difusão da propriedade das sociedades anônimas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 343–344",
+          "jstor": "ia-1925-06-p343",
+          "resumo": "Lista de livros novos, com notas breves, sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 344–347",
+          "jstor": "ia-1925-06-p344",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Georg Friedrich Knapp, The State Theory of Money",
+          "autores": "Olin Ingraham (Massachusetts Institute of Technology)",
+          "paginas": "pp. 347–349",
+          "jstor": "ia-1925-06-p347",
+          "resumo": "Resenha da edição inglesa resumida da teoria estatal da moeda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 349–354",
+          "jstor": "ia-1925-06-p349",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Robert H. Montgomery, Income Tax Procedure, 1925",
+          "autores": "Carl C. Plehn",
+          "paginas": "pp. 354–357",
+          "jstor": "ia-1925-06-p354",
+          "resumo": "Resenha de manual de procedimento do imposto de renda federal."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 358–361",
+          "jstor": "ia-1925-06-p358",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 361–364",
+          "jstor": "ia-1925-06-p361",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 364–365",
+          "jstor": "ia-1925-06-p364",
+          "resumo": "Lista de livros novos, com notas breves, sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "Felix Morley, Unemployment Relief in Great Britain",
+          "autores": "William M. Leiserson (Toledo, Ohio)",
+          "paginas": "pp. 365–366",
+          "jstor": "ia-1925-06-p365",
+          "resumo": "Resenha de livro sobre o seguro-desemprego e as bolsas de trabalho britânicas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 367–368",
+          "jstor": "ia-1925-06-p367",
+          "resumo": "Lista de livros novos, com notas breves, sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 368–369",
+          "jstor": "ia-1925-06-p368",
+          "resumo": "Lista de livros novos, com notas breves, sobre socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "Frederick C. Kent, Elements of Statistics; Robert Riegel, Elements of Business Statistics; Harry Jerome, Statistical Method; Frederick C. Mills, Statistical Methods Applied to Economics and Business",
+          "autores": "Willford I. King",
+          "paginas": "pp. 369–372",
+          "jstor": "ia-1925-06-p369",
+          "resumo": "Resenha conjunta de quatro manuais de estatística."
+        },
+        {
+          "titulo": "William Henry Smith, Graphic Statistics in Management",
+          "autores": "B. D. Mudgett",
+          "paginas": "pp. 372–374",
+          "jstor": "ia-1925-06-p372",
+          "resumo": "Resenha de manual de gráficos estatísticos para a administração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 374–376",
+          "jstor": "ia-1925-06-p374",
+          "resumo": "Lista de livros novos, com notas breves, sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 377–405",
+          "jstor": "ia-1925-06-p377",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 406–407",
+          "jstor": "ia-1925-06-p406",
+          "resumo": "Documentos, relatórios e legislação recentes."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 408–416",
+          "jstor": "ia-1925-06-p408",
+          "resumo": "Notícias e nomeações acadêmicas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "graham-reparacoes-e-transferencia",
+          "titulo": "Graham e as reparações: a transferência como problema de preços",
+          "titulo_original": "Germany’s Capacity to Pay and the Reparation Plan",
+          "autores": "Frank D. Graham (Princeton University)",
+          "paginas": "pp. 209–227",
+          "jstor": "ia-1925-06-p209",
+          "chamada": "Frank D. Graham contesta a leitura de Harold G. Moulton sobre o plano Dawes e descreve como a queda dos preços alemães faria surgir o excedente de exportações necessário às reparações.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Uma política coordenada, com administração especializada e contínua do câmbio, está na raiz do problema das reparações: a frase é do relatório do Comitê Dawes, de abril de 1924, e Frank D. Graham, da Princeton University, abre seu artigo com ela, dizendo que nenhuma autoridade respeitável discordaria. Mas acrescenta que a frase tem uma vagueza délfica, e que essa vagueza atravessa toda a parte do relatório que trata da transferência dos pagamentos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O controle das transferências cabe a um agente sob a direção de um comitê de seis membros: o próprio agente e um nomeado pela Comissão de Reparações por cada uma das cinco potências aliadas e associadas interessadas. Os membros devem ser hábeis em câmbio e finanças. Graham vê aí a origem provável de um erro. A transferência, escreve, pertence ao campo do comércio internacional tanto quanto ao das finanças, e as medidas mais eficazes para induzir o excedente de exportações alemão parecerão, a financistas, uma ameaça à estabilidade do câmbio e da moeda alemã."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é a divergência com Moulton?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O alvo explícito são dois livros publicados sob a chancela do Institute of Economics: Germany’s Capacity to Pay, de Harold G. Moulton e Constantine E. McGuire, de 1923, e The Reparation Plan, de Moulton, de 1924. Graham reconhece a reputação de Moulton em finanças e o espírito de isenção dos livros, e por isso mesmo teme sua influência: muitos leitores estariam se convencendo de que, mesmo depositados na Alemanha em favor dos aliados, os pagamentos não podem ser transferidos."
+            },
+            {
+              "tipo": "p",
+              "texto": "A divergência está na leitura do plano. Moulton entende que, enquanto não houver saldo favorável no balanço de pagamentos, o comitê deve deixar os fundos acumularem no banco até 2 bilhões de marcos e, depois, até 5 bilhões, aplicá-los na Alemanha. Graham diz não ter encontrado no relatório nada que exija o saldo favorável antes das transferências. Se a leitura de Moulton estiver correta, escreve, só haverá pagamentos desprezíveis, porque o saldo favorável não surge por si: depende de um movimento dos níveis de preços que só a transferência de poder de compra pode provocar."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O dr. Moulton está num círculo vicioso de sua própria criação.”",
+              "original": "“Dr. Moulton is in a vicious circle of his own creation”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o ajuste aconteceria?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Como a Alemanha deve operar sob padrão-ouro, o excedente de exportações não pode vir de uma depreciação do marco além dos pontos do ouro. Tem de vir de uma queda do nível de preços alemão em relação ao dos outros países. O caminho normal seria a venda de saques contra os créditos de reparação, cobertos por remessas de ouro, até que os preços caíssem na Alemanha e subissem fora. Mas a Alemanha tem pouco ouro além do que tomou emprestado para estabilizar a moeda. Graham concorda com Moulton que os preços alemães estão altos demais, e conclui que precisam cair por uma redução da oferta de moeda que não envolva exportar ouro."
+            },
+            {
+              "tipo": "p",
+              "texto": "Aqui o plano lhe parece fraco. Em vez de a obrigação alemã cessar quando 5 bilhões de marcos não transferidos se acumulassem no banco, os pagamentos acima desse montante deveriam ser retirados de circulação. E a aplicação em títulos e empréstimos na Alemanha dos depósitos acima de 2 bilhões tenderia a sustentar os preços alemães. O governo alemão poderia retirar moeda obtida com impostos, mas preferirá remetê-la ao agente; juros altos no banco central restringiriam o crédito, mas onerariam a produção. Resta que os próprios credores saquem marcos de seus depósitos e destruam essa moeda, de forma gradual."
+            },
+            {
+              "tipo": "p",
+              "texto": "Com preços alemães mais baixos, os preços dos bens exportados e importados ficariam altos em relação aos dos bens domésticos dentro da Alemanha, e baixos em relação a eles nos países credores. Na Alemanha, as indústrias exportadoras atrairiam trabalho e capital; nos credores, as indústrias voltadas ao mercado interno. O motor seria o poder de compra tirado dos contribuintes alemães e entregue aos governos aliados, que poderiam aliviar a carga tributária dos seus cidadãos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Há precedentes?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Graham diz que o processo não é inédito. Ocorreu duas vezes nos Estados Unidos entre 1867 e 1878, duas vezes na Argentina entre 1880 e 1900 e no Canadá no início do século XX, casos estudados por ele, por John H. Williams e por Jacob Viner. No período de grandes empréstimos da Inglaterra, os preços americanos de exportação e importação ficaram baixos em relação aos dos bens domésticos; depois de 1873, quando os empréstimos cessaram e começaram os pagamentos, o excedente de importações virou excedente de exportações. O Canadá, entre 1900 e 1913, chegou a um excedente anual de importações de mercadorias próximo de US$ 300 milhões, com estímulo às suas indústrias."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 258 milhões",
+              "texto": "Excedente de exportações americano em 1878, depois da reversão iniciada em 1873, segundo Graham. Antes, os Estados Unidos tinham excedente anual de importações de US$ 100 milhões a US$ 200 milhões. Os valores estão em ouro."
+            },
+            {
+              "tipo": "p",
+              "texto": "Na escala alemã, o ano-padrão de 1928 prevê 2,5 bilhões de marcos, cerca de US$ 600 milhões, quase o dobro do que o Canadá absorvia. Os credores somam cerca de 240 milhões de habitantes, uns 45 vezes a população canadense de 1900, e receberiam em média dois dólares e meio por pessoa. Os Estados Unidos já recebiam cerca de US$ 160 milhões por ano do pagamento da dívida britânica. Mesmo que recebessem todas as reparações, o valor do ano-padrão seria cerca de 1% da produção anual americana."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quais são os argumentos de Moulton?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Graham numera nove argumentos e responde a cada um. Ao primeiro, de que o excedente da produção sobre o consumo pode não ter forma exportável, responde que a transferência redistribui a capacidade produtiva em direção às exportações. Ao segundo, de que a indústria alemã transforma matérias-primas importadas e, portanto, mais exportação exige mais importação, lembra que a maior parte dessas matérias-primas ia para o consumo interno e que menos de um quarto dos manufaturados era exportado. Ao terceiro, de que a Alemanha não conseguia exportar mais do que importava antes da guerra, responde que o saldo comercial resulta da posição nos itens invisíveis: credora antes, devedora agora."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os demais recebem o mesmo tratamento. Territórios perdidos trocavam matérias-primas por manufaturados com o resto da Alemanha e continuarão a fazê-lo, agora como comércio exterior. A falta de matérias-primas próprias faria o ônus recair mais sobre juros, salários e lucros do que sobre rendas da terra. Matérias-primas caras podem virar exportações baratas porque os custos internos de fabricação cairiam. E o fracasso alemão em exportar depois da guerra, diz Graham, ignora a exportação de marcos e créditos em marcos e ocorreu num colapso monetário, não num mundo ordenado."
+            },
+            {
+              "tipo": "p",
+              "texto": "Graham elogia a análise de Moulton sobre a capacidade alemã de fazer os pagamentos em marcos ao banco, que considera o problema real das reparações. O ponto de discordância é a transferência, que, para ele, depende de uma visão correta do comércio e da função da moeda nas trocas internacionais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o comitê deveria fazer?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A receita final é uma restrição gradual da moeda alemã no presente, seguida da permissão para que os credores vendam câmbio contra seus créditos no banco até exercer pressão constante sobre o marco, mantendo-o perto ou um pouco abaixo do ponto de exportação de ouro, sem abalar a confiança na moeda. Se houvesse corrida aos bancos alemães, os aliados deveriam conceder créditos temporários em ouro ao banco de emissão. Uma vez estabelecido o novo padrão de comércio, o excedente de exportações surgiria sem pressão sobre o câmbio."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não se desenvolverá por pura sorte ou em resposta a desejos piedosos.”",
+              "original": "“It will not develop by sheer good luck or in response to pious wishes.”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é uma aplicação direta da teoria clássica do ajuste do balanço de pagamentos, na versão que Graham, Williams e Viner vinham testando com dados: o que move o comércio não é o nível geral de preços em si, mas a relação entre os preços dos bens comerciáveis e os dos bens domésticos dentro de cada país. Essa distinção sustenta toda a resposta a Moulton.",
+                "O texto também separa duas perguntas que costumam se confundir: quanto um país pode arrecadar internamente para pagar e se essa arrecadação pode atravessar a fronteira. Graham trata a primeira como o problema difícil e a segunda como uma questão de mecanismo, que depende de política monetária e de tempo de ajuste."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Plano Dawes",
+              "plano de 1924, elaborado por um comitê de peritos, para a cobrança das reparações alemãs."
+            ],
+            [
+              "Banco de Emissão",
+              "banco central alemão previsto no plano, onde os pagamentos em marcos eram depositados."
+            ],
+            [
+              "Itens invisíveis",
+              "serviços, juros e outras receitas e despesas externas que não são comércio de mercadorias."
+            ],
+            [
+              "Pontos do ouro",
+              "limites de variação do câmbio além dos quais compensa remeter ouro."
+            ],
+            [
+              "Bens domésticos",
+              "bens que não entram no comércio internacional."
+            ]
+          ],
+          "hoje": "A distinção entre arrecadar e transferir voltou ao debate em 1929, quando Keynes e Ohlin discutiram as reparações alemãs, e reaparece em crises de dívida externa em que o devedor precisa gerar superávits comerciais. O papel dos preços relativos entre bens comerciáveis e não comerciáveis, que Graham usa contra Moulton, tornou-se peça padrão dos modelos de taxa de câmbio real."
+        },
+        {
+          "slug": "knight-fato-e-metafisica",
+          "titulo": "Knight contra o behaviorismo: por que a economia não dispensa a mente",
+          "titulo_original": "Fact and Metaphysics in Economic Psychology",
+          "autores": "Frank H. Knight",
+          "paginas": "pp. 247–266",
+          "jstor": "ia-1925-06-p247",
+          "chamada": "Frank H. Knight responde às propostas de aplicar o método behaviorista à economia e defende que interesses, significados e fins são dados indispensáveis ao estudo da conduta humana.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Imagine-se um behaviorista que desce a rua e aplica o mesmo estímulo a cada passante: faz um gesto de deboche ou oferece uma nota de um dólar. Frank H. Knight propõe esse experimento mental, que diz ser desnecessário realizar, para perguntar como o experimentador explicaria a variedade infinita de respostas pela estrutura e pelo estado físico do organismo, sem referência ao estado de espírito ou à história consciente de cada um. Um dos dados mais cruciais, observa, seria saber se o passante já tinha ouvido falar que alguém fazia esse tipo de experimento na vizinhança."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo, publicado no número de junho de 1925 da American Economic Review, responde a textos que defendiam o método behaviorista na economia, entre eles “The Emancipation of Economics”, de L. K. Frank, publicado na revista em março de 1924, e “Psychology in Economic Theory”, de A. J. Snow, no Journal of Political Economy de agosto de 1924. Knight abre dizendo que as ciências sociais se distinguem das naturais por boa parte de seu conteúdo ser controvérsia sobre definição e método, e que muitos pesquisadores, sobretudo jovens, buscam sair da confusão adotando os métodos e categorias das ciências naturais. O ensaio pretende mostrar por que essa saída não pode ser seguida."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não a conquista do poder, mas o seu uso é, e precisa ser, a questão principal.”",
+              "original": "“Not the winning of power, but its use is, and must be, the leading question.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que propõe o behaviorismo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Knight apresenta a proposta em sua forma mais forte. A história da inteligência, escreve, é a passagem do animismo primitivo para uma abordagem objetiva e descritiva dos fenômenos, e o que se chama civilização consiste sobretudo nos triunfos da ciência assim concebida: a tecnologia e a medicina são seus frutos. Por que não pôr o direito e as instituições sociais sobre a mesma base de fatos objetivos? O behaviorismo insiste em que se ignore, no estudo da conduta, tudo o que não seja o fato físico observado, o que na prática equivale a negar a consciência. Como não temos consciência direta da mente alheia, só a inferimos do comportamento, e só o comportamento seria observável."
+            },
+            {
+              "tipo": "p",
+              "texto": "Contra isso, Knight sustenta que o homem é mais que objeto observado em dois sentidos: é também observador, e é agente num sentido distinto daquele em que os objetos naturais são tratados como agentes. Admite que esses fatores incomodam predileções fundamentais do intelecto, e que fatos de consciência não são observados como fenômenos físicos nem permitem a mesma verificação entre pesquisadores. Mas sabemos que os homens têm interesses, e deixá-los de fora vicia a observação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a discussão já pressupõe interesses?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira parte do argumento é lógica. Quem publica um artigo behaviorista apela a um interesse e expressa um, presumivelmente o interesse pela verdade. Entrar numa discussão é reconhecer a discussão como método e teste da verdade. E a verdade, para Knight, se estabelece por acordo: uma observação só conta depois de comunicada, discutida e comparada com as de outras pessoas. Ele critica Whitehead, que em The Concept of Nature usa o plural para designar o observador, mas quase não trata de como os observadores sabem que concordam. A comunicação entre mentes, escreve, não se reduz à interação mecânica entre organismos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O critério de realidade também depende de acordo. Todos concordamos em ver a vara reta dobrada na água e as linhas iguais da figura de Müller-Lyer com comprimentos diferentes, e concordamos em chamá-las de ilusões por testes que aceitamos como válidos. A lógica mecanicista conseguiu convencer o senso comum de que a matéria é incolor e descontínua; não conseguiu, diz Knight, convencer o homem comum de que ele e seus semelhantes não são seres conscientes movidos por interesses conscientes."
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto volta-se então contra o monismo. Tanto o idealismo subjetivo quanto o realismo científico esbarram na impossibilidade, para o senso comum, de não acreditar na realidade de outras mentes. Para Knight, nas ciências humanas e sociais o único ponto de vista possível é pluralista, e o ponto de partida da discussão é a comunicação de experiências entre mentes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Explicar, prever e controlar são a mesma coisa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda parte trata da metodologia à luz dos objetivos do estudo econômico: explicação, previsão e controle. Explicar, para Knight, é obter um sentimento de satisfação intelectual, e ele pergunta se satisfaz mais saber que John bateu em James porque um estímulo sonoro atingiu seu tímpano ou porque James o insultou. Prever é um interesse em si. E o motivo de controle, diz, é exagerado no debate contemporâneo, embora a visão instrumental da ciência entre em contradição com a exigência de limitá-la a fatos verificáveis."
+            },
+            {
+              "tipo": "p",
+              "texto": "A natureza física é, à nossa observação, inexorável: não se move por desejo, súplica ou conversa. A natureza humana não é. As pessoas mudam a cada reação, têm memória e reagem de modo diferente a situações novas e conhecidas. O próprio corpo responde diretamente à vontade, e todo o controle do mundo exterior começa nos movimentos do próprio corpo. Prever e controlar o comportamento alheio, escreve Knight, depende muito mais da comunicação com a mente dos outros do que da observação sensorial de seus movimentos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que tipos de controle existem?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Knight distingue três tipos de controle nas relações humanas. O primeiro é o mecânico, a aplicação de um estímulo físico para obter uma reação física, típico da técnica médica e quase sem uso nas relações sociais comuns. O segundo, que chama de quase mecânico, usa fatos de consciência como elos de uma cadeia causal e abrange a maior parte do que se chama controle social: recompensas, persuasão, coação, opinião pública e costumes. O terceiro trata os motivos não como fatos numa sequência uniforme, mas como fins; nele está a ética, que, para o autor, é mais do que psicologia, assim como a psicologia é mais do que física."
+            },
+            {
+              "tipo": "p",
+              "texto": "O direito serve de prova. Segundo Knight, ele está saturado das noções de intenção, fraude, erro, coação, liberdade e direito moral; retirá-las ou traduzi-las em termos de comportamento não deixaria nada. A relação social deixou de ser controle unilateral, salvo no caso do criminoso, e passou a ser de ajuste mútuo, de vida e trabalho cooperativos."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Monismo é miragem.”",
+              "original": "“monism is moonshine!”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Aonde o argumento leva?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão é um retorno ao senso comum e ao dualismo. Knight lembra Kant, que distinguiu razão pura e razão prática, reconheceu o conflito entre elas e deu primazia à segunda, e diz que a busca dos ideais das ciências naturais nas ciências sociais é um rumo errado. Para prever, controlar e, por fim, compreender o comportamento humano, aprende-se mais estudando como as mentes se conhecem e se influenciam do que analisando mecanicamente a interação entre corpos. O comportamento do organismo fica em papel subordinado e instrumental, embora indispensável."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o ensaio é antes de tudo uma defesa do lugar dos fins na ciência econômica. Knight não nega a utilidade da observação do comportamento; nega que ela baste, porque a economia lida com agentes que têm expectativas, interpretam situações e respondem a significados, e não só a estímulos.",
+                "O argumento tem consequência prática para o método. Se a previsão do comportamento depende de comunicação e de significados, dados de preferências declaradas, de expectativas e de instituições não são resíduos subjetivos a eliminar, mas parte do objeto. E a pergunta sobre os objetivos, que o autor considera central nas ciências sociais, não pode ser resolvida por técnica: exige discussão."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Behaviorismo",
+              "corrente da psicologia que estuda só o comportamento observável e dispensa a consciência."
+            ],
+            [
+              "Monismo",
+              "doutrina que reduz toda a realidade a um só tipo, matéria ou mente."
+            ],
+            [
+              "Pluralismo",
+              "posição que aceita mais de um tipo de realidade, como mentes e objetos."
+            ],
+            [
+              "Razão prática",
+              "em Kant, a razão aplicada à ação e à moral, distinta da razão teórica."
+            ],
+            [
+              "Controle social",
+              "conjunto de meios pelos quais uma sociedade orienta a conduta de seus membros."
+            ]
+          ],
+          "hoje": "A discussão sobre o que conta como dado em economia continua. A economia comportamental e experimental voltou a usar crenças, expectativas e preferências declaradas, e o debate sobre os limites da observação de escolhas, sem acesso a motivos, aparece nas discussões sobre bem-estar e políticas públicas. A distinção de Knight entre controlar e persuadir reaparece nas discussões sobre os chamados empurrões comportamentais."
+        }
+      ]
+    },
+    {
+      "slug": "1925-bancos-fiduciarios-concorrencia-e-renda",
+      "numero": 192,
+      "titulo": "Bancos fiduciários, margens de preço, concorrência e a medida da renda",
+      "titulo_original": "The American Economic Review, vol. XV, no. 3, September 1925",
+      "autores": "Charles S. Tippetts, W. N. Loucks, D. E. Montgomery, William Christie MacLeod, Willford I. King e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 3",
+      "data": "setembro de 1925",
+      "chamada": "Tippetts narra os poderes fiduciários dos bancos nacionais; Loucks testa Mitchell em 1920; Montgomery repensa a concorrência; MacLeod descreve uma compensação de dívidas; King discute como medir renda.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em abril de 1924, a Suprema Corte dos Estados Unidos resolveu numa opinião curta uma disputa que se arrastava havia quase uma década. Um banco nacional de St. Joseph, no Missouri, queria agir como testamenteiro; a justiça estadual dizia que isso violaria a lei do estado. O juiz Holmes respondeu que a emenda de 1918 à lei do Federal Reserve dizia, de modo indireto e polido, mas inequívoco, que bancos nacionais com licença do Federal Reserve Board podiam exercer essa função onde as companhias fiduciárias concorrentes pudessem. Charles S. Tippetts, da University of Iowa, reconstitui essa história no artigo que abre o número de setembro de 1925 da American Economic Review."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os demais artigos testam teorias contra fatos e instituições. W. N. Loucks, da University of Pennsylvania, verifica se os custos das matérias-primas comprimiram as margens antes da crise de 1920, como a teoria de Wesley C. Mitchell levaria a esperar. D. E. Montgomery, do Departamento de Mercados de Wisconsin, propõe uma teoria da concorrência que sirva de base à política pública. William Christie MacLeod, da Wharton School, descreve opções, juros e compensação de dívidas entre os Kwakiutl da costa da Colúmbia Britânica. Willford I. King discute como medir renda e riqueza. Uma comunicação de Joseph K. Folsom, as resenhas e uma nova lista de teses de doutorado completam o número."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Bancos nacionais podem administrar heranças?",
+          "artigo": "ia-1925-09-p417",
+          "credito": "Charles S. Tippetts (The University of Iowa) · “Fiduciary Powers of National Banks” · pp. 417–434"
+        },
+        {
+          "tipo": "p",
+          "texto": "Cerca de 2.000 bancos nacionais já tinham recebido do Federal Reserve Board licença para agir em funções fiduciárias, metade deles em todas as nove previstas na seção 11 (k) da lei do Federal Reserve, de testamenteiro a registrador de ações. Tippetts lembra que o dispositivo nasceu como incentivo: obrigados a entrar no sistema, os bancos nacionais poderiam trocar a licença federal por uma estadual, e o poder fiduciário os aproximava das instituições estaduais. O conselho exigia, entre outras condições, que o fundo de reserva do banco chegasse a 20% do capital."
+        },
+        {
+          "tipo": "p",
+          "texto": "A expansão enfrentou advogados, companhias fiduciárias estaduais e tribunais. A Suprema Corte de Illinois negou o direito a um banco de Joliet, e a de Michigan, por unanimidade, em setembro de 1916, considerou a lei inconstitucional. A Suprema Corte federal reverteu a decisão de Michigan em junho de 1917, apoiada nos precedentes de McCulloch contra Maryland. Mesmo assim, o conselho pediu ao Congresso uma emenda, aprovada em setembro de 1918: se a lei estadual permitisse a instituições estaduais exercer essas funções, concedê-las a bancos nacionais não violaria a lei do estado. A emenda também exigiu departamento fiduciário separado e proibiu emprestar recursos de terceiros a diretores e funcionários."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 825 milhões",
+          "texto": "Fundos fiduciários declarados por 794 bancos nacionais na pesquisa do Federal Reserve Board de outubro de 1921, depois de terem agido 8.341 vezes como fiduciários. O questionário foi enviado aos 1.387 bancos com licença e recebeu 1.300 respostas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Seguiram-se casos em vários estados, até a decisão de 1924 sobre o Missouri, com voto vencido do juiz Sutherland. Por distrito, os números mais recentes vão de 75 bancos com licença em Dallas a 286 em Chicago; em 1923 foram emitidas 182 licenças, e em 1924, mais 127. Tippetts conclui que se deu mais um passo na unificação do sistema bancário, mas observa que o número de bancos nacionais caiu do pico de 8.244, em meados de 1922, para cerca de 8.000, e que a unificação completa não é provável no futuro próximo."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "tippetts-poderes-fiduciarios",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os custos comeram os lucros antes da crise de 1920?",
+          "artigo": "ia-1925-09-p435",
+          "credito": "W. N. Loucks (University of Pennsylvania) · “Price Margins during a Period of Prosperity” · pp. 435–439"
+        },
+        {
+          "tipo": "p",
+          "texto": "Em Business Cycles, de 1913, Wesley C. Mitchell apresentou a teoria que passou a ser chamada de autogeradora: cada fase do ciclo cria as condições da fase seguinte. Na prosperidade, acumulam-se tensões, entre elas o aumento do custo de fazer negócios, a expansão do equipamento industrial e o aperto do mercado monetário, que levam os custos a invadir os lucros. A principal seria o custo dos materiais, que, segundo dados do censo citados por Mitchell, representa em média cerca de dois terços do gasto total da indústria."
+        },
+        {
+          "tipo": "p",
+          "texto": "Mitchell argumentava que os preços de venda sobem devagar no fim da prosperidade porque comissões públicas resistem a reajustar tarifas, há contratos a preço fixo, o costume dita muitos preços e mercadorias são anunciadas a preço fixo. Sua análise de três períodos de alta, de 1896 a 1900, de 1904 a 1907 e de 1908 a 1909, mostrava os preços de compra de materiais avançando sobre os de venda. Loucks repetiu o exercício para 1915 a 1920 e não encontrou esse avanço. Por correspondência, Mitchell sugeriu que os anos escolhidos talvez não coincidissem com o ciclo, que o controle de preços do governo, dirigido aos materiais básicos, podia ter contido os preços de compra, e que o aperto talvez tivesse ocorrido entre março ou julho de 1919 e maio de 1920."
+        },
+        {
+          "tipo": "p",
+          "texto": "Loucks refez então a análise para esse intervalo, com dados dos boletins do Bureau of Labor Statistics. Montou pares de grupos de preços de compra e de venda: alimentos no atacado e no varejo; matérias-primas e produtos manufaturados; matérias-primas, produtos semimanufaturados e produtos acabados; bens de produção brutos e manufaturados. O resultado foi o mesmo. Não houve avanço dos preços de compra sobre os de venda, exceto no grupo de alimentos, em que a margem do varejista diminuiu; na maioria dos casos, os preços de venda subiram mais do que o necessário para compensar."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor não afirma que isso refute a teoria de Mitchell. Conclui que a compressão das margens pelos materiais não era condição geral em 1920 e que, nessa crise, outras tensões, como o aperto do mercado monetário e a restrição do crédito, podem ter sido as causas imediatas mais importantes. Cada crise, sugere, pode ter uma combinação diferente de tensões."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que teoria da concorrência serve ao governo?",
+          "artigo": "ia-1925-09-p440",
+          "credito": "D. E. Montgomery (Wisconsin Department of Markets, Madison) · “Government and the Theory of Competition” · pp. 440–452"
+        },
+        {
+          "tipo": "p",
+          "texto": "Montgomery descreve três etapas que não se encadeiam. Os tribunais de common law ingleses fizeram da concorrência uma política pública contra guildas privilegiadas e monopólios, como mostra The Legal Foundations of Capitalism, de John R. Commons. Os economistas descreveram a concorrência como um mecanismo natural, quase sem papel para o direito. E o governo federal americano lançou um programa para preservar a concorrência usando a descrição dos economistas, mas ignorando o laissez-faire. O autor escreve do ponto de vista de uma comissão obrigada por lei a descobrir e aplicar regras de concorrência leal."
+        },
+        {
+          "tipo": "p",
+          "texto": "A teoria tradicional supõe que cada concorrente calcula, de forma independente, seu melhor preço, e que o mercado chega a um preço uniforme. Montgomery vê aí uma contradição: com um preço de mercado à vista, ninguém calcula de forma independente. Os investigadores e promotores federais resolvem a contradição abandonando o preço uniforme e exigindo preços secretos. Daí testes e programas que ele examina nos casos Linseed, Hardwood, Cement e Maple Flooring: tratar como indício de conluio os encontros e almoços entre concorrentes, a troca de informações sobre preços e a uniformidade de preços."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“O que a teoria pura chama de fluidez [...], o homem de negócios chama de incerteza.”",
+          "original": "“What the pure theory calls fluidity and assumes to be costless, the business man calls uncertainty”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A alternativa é a concorrência de “viver e deixar viver”, inspirada no plano de preços abertos de algumas indústrias. O concorrente capitalista, também devedor, busca boa vontade da clientela e comércio estável; o preço uniforme, que o autor chama de preço corrente, deve ser buscado por si mesmo, com ampla publicidade. Reduções abertas de preço seriam legítimas; cortes secretos e predatórios, desencorajados. As regras viriam das práticas do setor, e o Estado garantiria publicidade também a consumidores e pequenos varejistas. Para o autor, a incerteza é o maior estímulo à combinação e ao monopólio, e a concorrência regrada abriria um caminho intermediário entre o controle monopolista e o controle estatal. Montgomery encerra com quatro perguntas de política, entre elas quando vender abaixo do custo é concorrência leal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como funcionava uma câmara de compensação sem papel?",
+          "artigo": "ia-1925-09-p453",
+          "credito": "William Christie MacLeod (Wharton School, University of Pennsylvania) · “A Primitive Clearing House” · pp. 453–456"
+        },
+        {
+          "tipo": "p",
+          "texto": "MacLeod parte de uma nota recente do Economic Journal, de W. E. Armstrong, sobre o sistema monetário da Ilha Rossel, na Melanésia, e propõe outro caso: os Kwakiutl, povos não agrícolas da costa da Colúmbia Britânica. O centro de sua descrição é o potlatch, troca em grande escala de presentes que o autor compara ao Natal: quem dava esperava receber de volta o equivalente em potlatches futuros, e a posição social dependia da riqueza relativa. A obrigação de retribuir era social, não legal. Havia uma moeda, com conchas e cobertores como unidades de valor, e o volume de trocas, escreve MacLeod, era muito maior do que se esperaria."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nesse ambiente, segundo o artigo, surgiram três expedientes financeiros. O primeiro era a opção: quem queria garantir o direito de comprar uma das placas de cobre de grande valor, caso fosse posta à venda, pagava em segredo ao dono um adiantamento sobre o preço. O segundo era a compensação. Na venda pública de um cobre, o comprador empilhava cobertores diante do vendedor e, se não tivesse o bastante, chamava seus devedores; o devedor sem recursos podia pedir crédito ao vendedor, que tirava cobertores da pilha, entregava-os ao devedor, que os passava ao comprador, que os devolvia à pilha. O manuseio apenas tornava visível, para as testemunhas, a transferência de contas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro era o empréstimo a juros, com taxas muito altas que variavam com o valor, o prazo, a oferta de recursos e o crédito do tomador. MacLeod afirma que, na América aborígine, só os Kwakiutl e alguns vizinhos conheciam o juro, e cita uma fonte de 1546 segundo a qual os astecas emprestavam sem juros. Descarta, pela terminologia, a origem nos comerciantes da Hudson’s Bay Company; atribui as opções e a compensação à invenção local e sugere que o juro teria vindo do Velho Mundo pelas ilhas Aleutas."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uma necessidade não produz uma ideia.”",
+          "original": "“a need will not produce an idea”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Dá para medir renda e riqueza?",
+          "artigo": "ia-1925-09-p457",
+          "credito": "Willford I. King (Flushing, New York) · “Income and Wealth: How Can They Be Measured?” · pp. 457–474"
+        },
+        {
+          "tipo": "p",
+          "texto": "King começa constatando que os dois conceitos centrais da economia não têm definição padronizada, e que tribunais e repartições também divergem desde a criação do imposto de renda. Para o estatístico, uma definição precisa permitir comparações entre famílias e épocas, combinar com o uso popular e ser traduzível em unidades mensuráveis. A renda psíquica líquida seria a melhor medida de prosperidade, mas ninguém sabe medi-la; resta a renda contábil, fluxo de direitos, bens e serviços."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre o regime de caixa e o de competência, King prefere o segundo, que aproxima a renda do padrão de vida e produz séries mais suaves. Argumenta que não há medida lógica de renda sem considerar as variações no valor da propriedade, para cima e para baixo, e que, para as grandes empresas, o valor de mercado dos títulos é o melhor indicador do valor dos ativos. Dividendos em dinheiro ou em ações não alteram a renda do acionista. A correção pela inflação deve deflacionar separadamente os valores do início e do fim do período."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 15",
+          "texto": "Perda real, em dólares de 1º de janeiro, de quem comprou uma ação por US$ 60 e a vendeu por US$ 90 num ano em que o índice de preços passou de 1,00 para 2,00. Em dólares de valor médio do ano, a perda é de US$ 22,50. O método que King chama de indefensável mostraria ganho."
+        },
+        {
+          "tipo": "p",
+          "texto": "King também defende imputar o serviço da casa própria, para que duas famílias com o mesmo patrimônio sejam comparáveis, e considera logicamente necessário incluir o trabalho doméstico, embora difícil de avaliar; o mesmo valeria para as tarefas do marido e dos filhos em casa, com margem de erro ainda maior. Para comparação, remete à definição de William Wallace Hewett publicada no número de junho. A riqueza, conclui, é mais difícil de medir que a renda: seu valor em dinheiro oscila com ondas de otimismo e pessimismo, e os índices físicos não comparam um arranha-céu com uma cabana."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "king-renda-e-riqueza",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na comunicação, Joseph K. Folsom, do Sweet Briar College, propõe aplicar ao ensino de economia o princípio do investimento de capital da indústria: pesquisa sobre métodos de ensino, testes padronizados construídos com as centenas de perguntas que os instrutores preparam a cada semestre, manuais organizados com base em pesquisa, coleções de casos e uma sala de material gráfico com desenhista. As resenhas tratam de The Economy of Human Energy, de Thomas Nixon Carver, por G. A. Kleene; Economic Science and the Common Welfare, de Harry Gunnison Brown, por John R. Commons; North America, de J. Russell Smith, por I. Lippincott; The Panic of 1837, de Reginald Charles McGrane, por A. P. Usher; The Federal Trade Commission, de Gerard C. Henderson, por Milton N. Nelson; The Marketing of Metals and Minerals, organizado por Josiah Edward Spurr e Felix Edgar Wormser, por H. T. Warshow; Budgetary Control for the Cloak and Suit Industry, de Theodore I. Schneider, por Horace Secrist; Public Utility Regulation, organizado por Morris L. Cooke, por C. S. Morgan; The Women’s Garment Workers, de Louis Levine, por H. Everett; três estudos de Ben M. Selekman, dois com Mary Van Kleeck, sobre representação de empregados, por F. S. Deibler; três edições polonesas dos escritos monetários de Copérnico, por J. St. Lewinski; Making the Tariff in the United States, de Thomas Walker Page, por G. O. Virtue; Studies in Human Biology, de Raymond Pearl, por A. B. Wolfe; e Public Ownership, de Carl D. Thompson, por P. H. Douglas. Seguem-se as listas de livros novos, os resumos de periódicos, os documentos, a vigésima segunda lista de teses de doutorado em economia em andamento nas universidades americanas e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número trata de um mesmo problema em escalas diferentes: como instituições produzem confiança e liquidação de compromissos. Tippetts acompanha a disputa jurídica sobre quem pode guardar e administrar patrimônio alheio; Montgomery discute se a publicidade dos preços estabiliza ou suprime a concorrência; MacLeod descreve uma compensação de dívidas feita diante de testemunhas, em que a pilha de cobertores serve de registro público.",
+            "No plano do método, Loucks e King mostram o valor e os limites da verificação estatística. Loucks testa uma proposição específica de uma teoria do ciclo e conclui que ela não se aplicou a 1920, sem descartar a teoria. King mostra que o próprio número a ser medido depende de escolhas de definição, entre caixa e competência, entre valor nominal e real, entre bens comprados e serviços prestados em casa."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Poderes fiduciários",
+          "autorização para administrar bens de terceiros, como testamenteiro, tutor ou depositário."
+        ],
+        [
+          "Companhia fiduciária (trust company)",
+          "instituição estadual especializada em administrar patrimônio de terceiros."
+        ],
+        [
+          "Teoria autogeradora do ciclo",
+          "explicação de Mitchell em que cada fase do ciclo produz as condições da seguinte."
+        ],
+        [
+          "Plano de preços abertos",
+          "troca organizada de informações sobre preços praticados entre concorrentes de um setor."
+        ],
+        [
+          "Câmara de compensação",
+          "mecanismo que liquida dívidas recíprocas por transferência de saldos."
+        ],
+        [
+          "Regime de competência",
+          "contabilização de receitas e despesas quando ocorrem, e não quando são pagas."
+        ],
+        [
+          "Renda imputada",
+          "valor atribuído a serviços que não passam pelo mercado, como o da casa própria."
+        ]
+      ],
+      "hoje": "A extensão de funções aos bancos nacionais para que não migrassem para licenças estaduais antecipa um tema permanente da regulação financeira: a concorrência entre reguladores. A tensão descrita por Montgomery entre troca de informações e conluio continua no centro do direito da concorrência. E as escolhas discutidas por King, como imputar o aluguel da casa própria, deflacionar corretamente e deixar de fora o trabalho doméstico, permanecem nas contas nacionais e nos debates sobre medidas de bem-estar além do PIB.",
+      "itens": [
+        [
+          "Fiduciary Powers of National Banks",
+          "pp. 417–434",
+          "ia-1925-09-p417"
+        ],
+        [
+          "Price Margins during a Period of Prosperity",
+          "pp. 435–439",
+          "ia-1925-09-p435"
+        ],
+        [
+          "Government and the Theory of Competition",
+          "pp. 440–452",
+          "ia-1925-09-p440"
+        ],
+        [
+          "A Primitive Clearing House",
+          "pp. 453–456",
+          "ia-1925-09-p453"
+        ],
+        [
+          "Income and Wealth: How Can They Be Measured?",
+          "pp. 457–474",
+          "ia-1925-09-p457"
+        ],
+        [
+          "What the College Economics Department Can Learn from Industry: A Communication",
+          "pp. 475–478",
+          "ia-1925-09-p475"
+        ],
+        [
+          "Review: The Economy of Human Energy by Thomas Nixon Carver",
+          "pp. 479–480",
+          "ia-1925-09-p479"
+        ],
+        [
+          "Review: Economic Science and the Common Welfare by Harry Gunnison Brown",
+          "pp. 480–485",
+          "ia-1925-09-p480"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "pp. 485–488",
+          "ia-1925-09-p485"
+        ],
+        [
+          "Review: North America: Its People, Resources, Development and Prospects as an Agricultural, Industrial and Commercial Area by J. Russell Smith",
+          "pp. 488–490",
+          "ia-1925-09-p488"
+        ],
+        [
+          "Review: The Panic of 1837 by Reginald Charles McGrane",
+          "pp. 490–491",
+          "ia-1925-09-p490"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "pp. 491–499",
+          "ia-1925-09-p491"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "pp. 499–501",
+          "ia-1925-09-p499"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "pp. 501–502",
+          "ia-1925-09-p501"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "pp. 502–503",
+          "ia-1925-09-p502"
+        ],
+        [
+          "Review: The Federal Trade Commission: A Study in Administrative Law and Procedure by Gerard C. Henderson",
+          "pp. 503–505",
+          "ia-1925-09-p503"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "pp. 505–506",
+          "ia-1925-09-p505"
+        ],
+        [
+          "Review: The Marketing of Metals and Minerals by Josiah Edward Spurr, Felix Edgar Wormser",
+          "pp. 507–511",
+          "ia-1925-09-p507"
+        ],
+        [
+          "Review: Budgetary Control for the Cloak and Suit Industry by Theodore I. Schneider",
+          "pp. 511–513",
+          "ia-1925-09-p511"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "pp. 513–520",
+          "ia-1925-09-p513"
+        ],
+        [
+          "Review: Public Utility Regulation by Morris L. Cooke",
+          "pp. 520–522",
+          "ia-1925-09-p520"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "pp. 522–524",
+          "ia-1925-09-p522"
+        ],
+        [
+          "Review: The Women’s Garment Workers: A History of the International Ladies’ Garment Workers’ Union by Louis Levine",
+          "pp. 524–526",
+          "ia-1925-09-p524"
+        ],
+        [
+          "Review: Employes’ Representation in Coal Mines by Ben M. Selekman, Mary Van Kleeck; Employes’ Representation in Steel Works by Ben M. Selekman; Sharing Management with the Workers by Ben M. Selekman",
+          "pp. 526–528",
+          "ia-1925-09-p526"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "pp. 528–531",
+          "ia-1925-09-p528"
+        ],
+        [
+          "Review: Mikolaja Kopernika Rozprawy o Monecie i Inne Pisma Ekonomiczne; Traktat Kopernika o Monecie; Memorjal Mikolaja Kopernika o Zasadach Bicia Monety",
+          "pp. 532–534",
+          "ia-1925-09-p532"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "pp. 534–538",
+          "ia-1925-09-p534"
+        ],
+        [
+          "Review: Making the Tariff in the United States by Thomas Walker Page",
+          "pp. 538–540",
+          "ia-1925-09-p538"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "pp. 540–541",
+          "ia-1925-09-p540"
+        ],
+        [
+          "Review: Studies in Human Biology by Raymond Pearl",
+          "pp. 542–545",
+          "ia-1925-09-p542"
+        ],
+        [
+          "New Books: Population and Migration",
+          "pp. 545–547",
+          "ia-1925-09-p545"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "pp. 547–550",
+          "ia-1925-09-p547"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "pp. 550–553",
+          "ia-1925-09-p550"
+        ],
+        [
+          "Review: Public Ownership by Carl D. Thompson",
+          "pp. 553–555",
+          "ia-1925-09-p553"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "p. 555",
+          "ia-1925-09-p555"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "pp. 555–558",
+          "ia-1925-09-x1"
+        ],
+        [
+          "Periodicals",
+          "pp. 559–585",
+          "ia-1925-09-p559"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 586–592",
+          "ia-1925-09-p586"
+        ],
+        [
+          "Twenty-Second List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "pp. 593–615",
+          "ia-1925-09-p593"
+        ],
+        [
+          "Notes",
+          "pp. 616–623",
+          "ia-1925-09-p616"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1925-09_15_3",
+      "artigos": [
+        {
+          "titulo": "Fiduciary Powers of National Banks",
+          "autores": "Charles S. Tippetts (The University of Iowa)",
+          "paginas": "pp. 417–434",
+          "jstor": "ia-1925-09-p417",
+          "resumo": "História da concessão de poderes fiduciários aos bancos nacionais e das disputas judiciais com os estados.",
+          "ensaio_slug": "tippetts-poderes-fiduciarios"
+        },
+        {
+          "titulo": "Price Margins during a Period of Prosperity",
+          "autores": "W. N. Loucks (University of Pennsylvania)",
+          "paginas": "pp. 435–439",
+          "jstor": "ia-1925-09-p435",
+          "resumo": "Teste, com preços de 1919 e 1920, da tese de Mitchell de que os custos dos materiais comprimem as margens antes das crises."
+        },
+        {
+          "titulo": "Government and the Theory of Competition",
+          "autores": "D. E. Montgomery (Wisconsin Department of Markets, Madison)",
+          "paginas": "pp. 440–452",
+          "jstor": "ia-1925-09-p440",
+          "resumo": "Crítica dos testes de concorrência derivados da teoria tradicional e proposta de uma concorrência com preços abertos."
+        },
+        {
+          "titulo": "A Primitive Clearing House",
+          "autores": "William Christie MacLeod (Wharton School, University of Pennsylvania)",
+          "paginas": "pp. 453–456",
+          "jstor": "ia-1925-09-p453",
+          "resumo": "Descrição de opções, juros e compensação de dívidas associados ao potlatch entre os Kwakiutl."
+        },
+        {
+          "titulo": "Income and Wealth: How Can They Be Measured?",
+          "autores": "Willford I. King (Flushing, New York)",
+          "paginas": "pp. 457–474",
+          "jstor": "ia-1925-09-p457",
+          "resumo": "Discussão das definições de renda e riqueza adequadas à medição estatística.",
+          "ensaio_slug": "king-renda-e-riqueza"
+        },
+        {
+          "titulo": "What the College Economics Department Can Learn from Industry",
+          "autores": "Joseph K. Folsom (Sweet Briar College)",
+          "paginas": "pp. 475–478",
+          "jstor": "ia-1925-09-p475",
+          "resumo": "Comunicação que propõe pesquisa e equipamento para o ensino de economia, à maneira do investimento industrial."
+        },
+        {
+          "titulo": "Thomas Nixon Carver, The Economy of Human Energy",
+          "autores": "G. A. Kleene (Trinity College, Hartford, Conn.)",
+          "paginas": "pp. 479–480",
+          "jstor": "ia-1925-09-p479",
+          "resumo": "Resenha de livro sobre a economia da energia humana."
+        },
+        {
+          "titulo": "Harry Gunnison Brown, Economic Science and the Common Welfare",
+          "autores": "John R. Commons (University of Wisconsin)",
+          "paginas": "pp. 480–485",
+          "jstor": "ia-1925-09-p480",
+          "resumo": "Resenha de manual sobre preços, níveis de preços, comércio e rendas ganhas e não ganhas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 485–488",
+          "jstor": "ia-1925-09-p485",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "J. Russell Smith, North America",
+          "autores": "I. Lippincott (Washington University)",
+          "paginas": "pp. 488–490",
+          "jstor": "ia-1925-09-p488",
+          "resumo": "Resenha de geografia econômica da América do Norte."
+        },
+        {
+          "titulo": "Reginald Charles McGrane, The Panic of 1837",
+          "autores": "A. P. Usher (Harvard University)",
+          "paginas": "pp. 490–491",
+          "jstor": "ia-1925-09-p490",
+          "resumo": "Resenha de estudo sobre o pânico de 1837."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 491–499",
+          "jstor": "ia-1925-09-p491",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 499–501",
+          "jstor": "ia-1925-09-p499",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 501–502",
+          "jstor": "ia-1925-09-p501",
+          "resumo": "Lista de livros novos, com notas breves, sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 502–503",
+          "jstor": "ia-1925-09-p502",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicações."
+        },
+        {
+          "titulo": "Gerard C. Henderson, The Federal Trade Commission",
+          "autores": "Milton N. Nelson (Ohio State University)",
+          "paginas": "pp. 503–505",
+          "jstor": "ia-1925-09-p503",
+          "resumo": "Resenha de estudo sobre o direito administrativo e o procedimento da Federal Trade Commission."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 505–506",
+          "jstor": "ia-1925-09-p505",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Josiah Edward Spurr e Felix Edgar Wormser (orgs.), The Marketing of Metals and Minerals",
+          "autores": "H. T. Warshow (New York)",
+          "paginas": "pp. 507–511",
+          "jstor": "ia-1925-09-p507",
+          "resumo": "Resenha de coletânea sobre a comercialização de metais e minerais e a bolsa de metais de Nova York."
+        },
+        {
+          "titulo": "Theodore I. Schneider, Budgetary Control for the Cloak and Suit Industry",
+          "autores": "Horace Secrist (Northwestern University)",
+          "paginas": "pp. 511–513",
+          "jstor": "ia-1925-09-p511",
+          "resumo": "Resenha de livro sobre controle orçamentário na indústria de confecção."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 513–520",
+          "jstor": "ia-1925-09-p513",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Morris L. Cooke (org.), Public Utility Regulation",
+          "autores": "C. S. Morgan (Institute of Economics, Washington)",
+          "paginas": "pp. 520–522",
+          "jstor": "ia-1925-09-p520",
+          "resumo": "Resenha de coletânea sobre regulação de serviços públicos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 522–524",
+          "jstor": "ia-1925-09-p522",
+          "resumo": "Lista de livros novos, com notas breves, sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "Louis Levine, The Women’s Garment Workers",
+          "autores": "H. Everett (Washington, D. C.)",
+          "paginas": "pp. 524–526",
+          "jstor": "ia-1925-09-p524",
+          "resumo": "Resenha da história do sindicato internacional das trabalhadoras da confecção feminina."
+        },
+        {
+          "titulo": "Ben M. Selekman e Mary Van Kleeck, Employes’ Representation in Coal Mines; Ben M. Selekman, Employes’ Representation in Steel Works; Ben M. Selekman, Sharing Management with the Workers",
+          "autores": "F. S. Deibler",
+          "paginas": "pp. 526–528",
+          "jstor": "ia-1925-09-p526",
+          "resumo": "Resenha de três estudos da Russell Sage Foundation sobre representação de empregados."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 528–531",
+          "jstor": "ia-1925-09-p528",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Edições polonesas dos escritos monetários de Copérnico",
+          "autores": "J. St. Lewinski",
+          "paginas": "pp. 532–534",
+          "jstor": "ia-1925-09-p532",
+          "resumo": "Resenha de três publicações polonesas sobre o tratado de Copérnico sobre a moeda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 534–538",
+          "jstor": "ia-1925-09-p534",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Thomas Walker Page, Making the Tariff in the United States",
+          "autores": "G. O. Virtue (University of Nebraska)",
+          "paginas": "pp. 538–540",
+          "jstor": "ia-1925-09-p538",
+          "resumo": "Resenha de estudo do Institute of Economics sobre a elaboração da tarifa aduaneira."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 540–541",
+          "jstor": "ia-1925-09-p540",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifas."
+        },
+        {
+          "titulo": "Raymond Pearl, Studies in Human Biology",
+          "autores": "A. B. Wolfe (Ohio State University)",
+          "paginas": "pp. 542–545",
+          "jstor": "ia-1925-09-p542",
+          "resumo": "Resenha de coletânea de estudos de biologia humana e estatística vital."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 545–547",
+          "jstor": "ia-1925-09-p545",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 547–550",
+          "jstor": "ia-1925-09-p547",
+          "resumo": "Lista de livros novos, com notas breves, sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 550–553",
+          "jstor": "ia-1925-09-p550",
+          "resumo": "Lista de livros novos, com notas breves, sobre seguros e pensões."
+        },
+        {
+          "titulo": "Carl D. Thompson, Public Ownership",
+          "autores": "P. H. Douglas (University of Chicago)",
+          "paginas": "pp. 553–555",
+          "jstor": "ia-1925-09-p553",
+          "resumo": "Resenha de levantamento das empresas públicas municipais, estaduais e federais."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 555",
+          "jstor": "ia-1925-09-p555",
+          "resumo": "Lista de livros novos, com notas breves, sobre socialismo e empresas cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 555–558",
+          "jstor": "ia-1925-09-x1",
+          "resumo": "Lista de livros novos, com notas breves, sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 559–585",
+          "jstor": "ia-1925-09-p559",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 586–592",
+          "jstor": "ia-1925-09-p586",
+          "resumo": "Documentos, relatórios e legislação recentes."
+        },
+        {
+          "titulo": "Twenty-Second List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges",
+          "autores": "",
+          "paginas": "pp. 593–615",
+          "jstor": "ia-1925-09-p593",
+          "resumo": "Lista anual de teses de doutorado em economia em andamento."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 616–623",
+          "jstor": "ia-1925-09-p616",
+          "resumo": "Notícias da associação e nomeações acadêmicas."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "tippetts-poderes-fiduciarios",
+          "titulo": "Tippetts e os poderes fiduciários: bancos nacionais contra os estados",
+          "titulo_original": "Fiduciary Powers of National Banks",
+          "autores": "Charles S. Tippetts (The University of Iowa)",
+          "paginas": "pp. 417–434",
+          "jstor": "ia-1925-09-p417",
+          "chamada": "Charles S. Tippetts reconstitui como os bancos nacionais americanos conquistaram, entre 1913 e 1924, o direito de administrar heranças e fundos de terceiros, contra companhias e tribunais estaduais.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 28 de abril de 1924, a Suprema Corte dos Estados Unidos anunciou uma decisão curta sobre um banco nacional de St. Joseph, no Missouri, que queria ser nomeado testamenteiro. A justiça estadual havia negado, alegando que a lei do Missouri seria violada. O juiz Holmes, pela maioria, não viu dificuldade: a emenda de 1918 à lei do Federal Reserve definira o que era violar a lei estadual, e o fizera de um jeito que ele descreveu numa frase."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“De modo indireto e polido, mas inequívoco.”",
+              "original": "“in a roundabout and polite but unmistakable way”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Charles S. Tippetts, da University of Iowa, abre o número de setembro de 1925 da American Economic Review com a história que leva a essa decisão. O tema, escreve, foi largamente ignorado pelos economistas, embora importante: cerca de 2.000 bancos nacionais já tinham licença do Federal Reserve Board para agir em funções fiduciárias, e cerca de metade podia exercer todas as nove listadas na seção 11, parágrafo (k), da lei do Federal Reserve. A expansão se fez contra a oposição de muitos advogados, das companhias fiduciárias com licença estadual e dos tribunais de vários estados; duas decisões da Suprema Corte já haviam sido necessárias, e uma terceira se anunciava a partir de Massachusetts."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que dar poderes fiduciários a bancos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A ideia de companhias fiduciárias sob controle federal é anterior à lei de 1913. O plano Aldrich original previa companhias fiduciárias nacionais, mas a oposição das companhias estaduais e dúvidas sobre a constitucionalidade levaram à exclusão. Nas audiências do projeto Glass-Owen, muitos banqueiros nacionais pediram o direito de exercer funções fiduciárias. O argumento decisivo, segundo Tippetts, foi outro: como a lei obrigaria os bancos nacionais a entrar no sistema do Federal Reserve, muitos poderiam trocar a licença federal pela estadual, e era preciso oferecer incentivos. Um deles foi a seção 11 (k)."
+            },
+            {
+              "tipo": "p",
+              "texto": "O conselho tratou a concessão como um passo para unificar o sistema bancário. Instruiu os agentes federais a examinar a situação do banco, o caráter dos dirigentes e o benefício para a comunidade, e não considerava desejável aprovar pedidos se o fundo de reserva não chegasse a 20% do capital, se houvesse empréstimos duvidosos demais ou concentrados em poucos interesses, ou se os diretores fossem negligentes. A Regulation H, de fevereiro de 1915, exigiu departamento fiduciário separado, guarda separada dos valores e contabilidade própria. Naquele ano, cerca de 350 bancos receberam licença."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como os tribunais reagiram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "As companhias fiduciárias foram à justiça. Em Illinois, a Suprema Corte estadual negou o direito ao First National Bank of Joliet, considerando a seção inconstitucional pelos critérios de McCulloch contra Maryland e de Osborn contra o Banco dos Estados Unidos. Em Michigan, a Suprema Corte estadual decidiu por unanimidade, em 26 de setembro de 1916, impedir um banco nacional de agir como fiduciário. O juiz Ostrander escreveu que, se o Congresso podia dar esse poder por mero lucro, poderia transformar o banco em empresa comercial ou de transporte. Enquanto isso, o conselho aprovou 125 pedidos em 1916; no fim daquele ano, cerca de 480 bancos tinham licença."
+            },
+            {
+              "tipo": "p",
+              "texto": "O caso de Michigan subiu à Suprema Corte federal, que o julgou em 11 de junho de 1917 e reverteu a decisão. O presidente do tribunal, White, aplicou os princípios de McCulloch e Osborn: se uma atividade é apropriada ao negócio bancário, o poder de concedê-la se mede pelo direito de criar o banco. E, se os estados permitem que concorrentes dos bancos nacionais a exerçam, não podem impedir o Congresso de reagir. Para o conselho, a decisão reconhecia ao Congresso o direito de dar aos bancos nacionais todos os poderes necessários para enfrentar a concorrência de empresas estaduais."
+            },
+            {
+              "tipo": "p",
+              "texto": "Restavam dúvidas, como a de Nova York, onde a lei reservava as funções fiduciárias às companhias estaduais. As cerca de 600 companhias que haviam dividido as despesas do caso de Michigan passaram a combater a mudança pedida pelo conselho, e a Suprema Corte de Illinois manteve sua decisão anterior. Em 26 de setembro de 1918, o Congresso aprovou a emenda conhecida como projeto Phelan."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou com a emenda de 1918?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A emenda declarou que, se a lei estadual permitisse a instituições estaduais exercer essas funções, concedê-las a bancos nacionais não seria violação da lei do estado. Ampliou a lista de poderes e acrescentou salvaguardas: ativos fiduciários segregados, livros separados abertos à inspeção estadual, proibição de receber depósitos à vista no departamento fiduciário e de emprestar fundos de terceiros a dirigentes e funcionários, com multa de até US$ 5.000 ou cinco anos de prisão. O banco precisava ter capital e reservas ao menos iguais aos exigidos pelo estado de suas concorrentes, o que importava em estados como a Pensilvânia, que exigia US$ 125.000, e Nova Jersey, US$ 100.000."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os conflitos continuaram. Nova York adaptou sua lei; Wisconsin tornou ilegal a atividade fiduciária dos bancos nacionais, mas a lei foi derrubada pela Suprema Corte estadual em 1920. New Hampshire e Rhode Island, cujas leis restringiam essas funções, decidiram de outro modo. Um tribunal federal no Missouri permitiu a um banco nacional usar as palavras trust company no nome, e cerca de 30 bancos passaram a fazê-lo. Em 1923, a Suprema Corte da Pensilvânia aceitou um banco nacional da Filadélfia que se dispusera a cumprir a lei estadual. Em 1924, o caso do Missouri chegou à Suprema Corte federal, com o resultado descrito por Holmes; o juiz Sutherland votou vencido, por ver interferência indevida nos poderes dos estados sobre sucessões, e McReynolds o acompanhou."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Os bancos ganharam com isso?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Uma consulta da seção de bancos nacionais da American Bankers Association, em março de 1919, trouxe respostas pouco animadoras: a guerra levara pessoal, havia oposição estadual, processos e falta de informação sobre como abrir um departamento fiduciário. A pesquisa do Federal Reserve Board de outubro de 1921 encontrou outro quadro. A oposição quase desaparecera, muitos bancos relatavam negócios novos e a retenção de fundos que iriam para companhias fiduciárias, embora uma minoria grande visse pouca vantagem."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "286",
+              "texto": "Bancos nacionais com funções fiduciárias no distrito de Chicago, o maior número entre os doze distritos do Federal Reserve nos dados mais recentes citados por Tippetts. Nova York tinha 234; Dallas, 75; Atlanta, 78. Em 1923 foram emitidas 182 licenças, e em 1924, mais 127."
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão do autor é que se deu mais um passo na unificação do sistema bancário. Ao mesmo tempo, muitos estados ampliaram os poderes de seus bancos, e o conselho passou a cooperar com as autoridades estaduais: em Wisconsin, por exemplo, não concede licença a bancos nacionais com capital inferior a US$ 50.000, o mínimo estadual. Mas o êxodo de bancos do sistema nacional, temido havia tempos, estava em curso: o número de bancos nacionais chegou a 8.244 em meados de 1922 e caíra para cerca de 8.000, em parte por falências e fusões, em parte pela busca de regras mais brandas sobre empréstimos, agências e fiscalização."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O banco ‘de loja de departamentos’ tornou-se realidade.”",
+              "original": "“‘Department store’ banking has now become a reality.”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo mostra como a estrutura do sistema bancário americano foi moldada pela concorrência entre dois regimes de licença. A seção 11 (k) foi desenhada para reter bancos no sistema federal, e cada avanço federal provocou reação estadual, em lei e nos tribunais. O critério que acabou prevalecendo, o da igualdade competitiva com as instituições estaduais, transformou a regulação estadual em parâmetro da federal.",
+                "Tippetts registra o custo dessa dinâmica: para manter os bancos sob licença nacional, as condições de operação precisariam ficar mais atraentes, com o risco de baixar os padrões bancários em geral. A unificação, no seu diagnóstico, depende tanto de Washington quanto dos estados que se recusam a elevar os padrões de suas próprias instituições."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Banco nacional",
+              "banco com licença federal, supervisionado pelo Comptroller of the Currency."
+            ],
+            [
+              "Poderes fiduciários",
+              "autorização para agir como testamenteiro, tutor, depositário ou registrador em nome de terceiros."
+            ],
+            [
+              "Companhia fiduciária (trust company)",
+              "instituição estadual que administra patrimônio de terceiros e, em muitos estados, também faz negócios bancários."
+            ],
+            [
+              "Seção 11 (k)",
+              "dispositivo da lei do Federal Reserve que autoriza o conselho a licenciar bancos nacionais para funções fiduciárias."
+            ],
+            [
+              "Quo warranto",
+              "ação judicial que questiona o direito de alguém exercer uma função ou poder."
+            ]
+          ],
+          "hoje": "A disputa entre licença federal e licença estadual continua a marcar o sistema bancário americano, e a ideia de que um regulador amplia poderes para não perder instituições para outro reaparece em vários países. A combinação de banco comercial e gestão de patrimônio de terceiros, que Tippetts chama de banco de loja de departamentos, é hoje comum, assim como as regras de segregação de ativos que a emenda de 1918 já exigia."
+        },
+        {
+          "slug": "king-renda-e-riqueza",
+          "titulo": "King e a medida da renda: as escolhas por trás do número",
+          "titulo_original": "Income and Wealth: How Can They Be Measured?",
+          "autores": "Willford I. King (Flushing, New York)",
+          "paginas": "pp. 457–474",
+          "jstor": "ia-1925-09-p457",
+          "chamada": "Willford I. King discute as definições de renda e riqueza que servem à estatística: regime de competência, ganhos de capital, correção pela inflação, aluguel imputado e trabalho doméstico.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Numa cidade africana, conta Willford I. King, um canhão do forte disparava todo dia ao meio-dia. Perguntado sobre como acertava a hora, o artilheiro disse que regulava o relógio pelo do joalheiro. O joalheiro, por sua vez, acertava o relógio todo dia quando o canhão disparava. King usa a anedota para descrever o que aconteceria se os economistas tirassem suas definições de renda dos tribunais, que, por sua vez, costumam citar a opinião dos economistas."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo, publicado no número de setembro de 1925 da American Economic Review, pergunta como o estatístico deve definir renda e riqueza. Seria natural supor que conceitos tão centrais já estivessem padronizados, escreve King, mas cada economista tem seu significado preferido e frequentemente acusa o colega de raciocinar mal porque as deduções não combinam com a definição que ele próprio tem em mente. Desde o imposto de renda, repartições e tribunais também definem renda, sem harmonia."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Toda a ciência econômica gira em torno desses conceitos.”",
+              "original": "“The whole science of economics revolves about these concepts.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que uma definição estatística precisa ter?"
+            },
+            {
+              "tipo": "p",
+              "texto": "King propõe três requisitos: permitir comparações válidas entre rendas de famílias ou grupos diferentes, em épocas e lugares diferentes; corresponder, em linhas gerais, ao entendimento popular do termo; e poder ser traduzida em unidades mensuráveis. A maior parte das divergências econômicas, sugere, vem menos de opiniões diferentes sobre os fatos do que dos muitos significados dados à mesma palavra."
+            },
+            {
+              "tipo": "p",
+              "texto": "O conceito mais fácil de definir, diz, é a renda psíquica, o fluxo de sensações agradáveis. O que se deseja, porém, é a renda psíquica líquida: reduzir a população à semifome aumentaria o prazer de comer, mas a renda líquida cairia. A prosperidade de um país seria medida por sua renda psíquica líquida por habitante, só que ninguém descobriu como medi-la. O estatístico fica, então, com a renda contábil: o fluxo de direitos, bens e serviços registrado por uma contabilidade bem feita, que não tem relação fixa com a renda psíquica."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Caixa ou competência?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No regime de caixa, a primeira dificuldade é saber o que conta como recebimento em dinheiro. Notas, certificados e depósitos são créditos, e não há onde traçar a linha com lógica. Empréstimos também complicam: o dono de uma empresa que não distribui dividendos e vive de empréstimos garantidos por ações que se valorizam não teria renda em dinheiro durante anos, e o mesmo valeria para agricultores que tomam crédito sobre a safra futura. King prefere o regime de competência, que credita o salário ganho no período mesmo que pago depois e produz uma curva mais suave. Um agricultor de trigo de Dakota pode vender toda a safra em outubro e não viver pior em junho."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para comparar famílias de composição diferente, King cita a escala de ammains, desenvolvida com Edgar Sydenstricker nos estudos sobre famílias das tecelagens de algodão da Carolina do Sul. Um ammain equivale à demanda de consumo do homem médio de um grupo na idade de maior necessidade, e a renda da família é comparada ao número de ammains que ela soma."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A variação do valor da propriedade é renda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para King, excluir as variações de valor leva a absurdos. Uma empresa compra uma mina por US$ 100.000, extrai todo o minério a um custo de US$ 200.000 e vende US$ 350.000; sem considerar que a mina se esgotou, a renda líquida seria US$ 150.000; considerando, US$ 50.000. Quem aceita os US$ 50.000 aceita contas de depreciação e, com elas, o regime de competência. E, se a depreciação conta, a valorização também deve contar: o economista que mede a renda de um país, escreve, existe para revelar a verdade, não para enganar ninguém."
+            },
+            {
+              "tipo": "p",
+              "texto": "O valor dos ativos, porém, depende de expectativas. Três sócios de uma mina de ouro no Colorado tiraram US$ 100.000 de ouro e gastaram tudo aprofundando o poço, sem achar mais nada. As contas das empresas podem iludir: num caso do tempo da guerra, os lucros acumulados superaram o valor de face das ações, e pouco depois as ações eram compradas abaixo do par, porque boa parte da fábrica fora adaptada às necessidades da guerra. Para as grandes empresas, King propõe medir o valor pelo mercado de seus títulos. Os dividendos não mudam a renda do acionista, porque a ação cai no ex-dividendo, e dividendos em ações tampouco, pois só dividem a mesma participação em mais papéis."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 22,50",
+              "texto": "Perda, em dólares de valor médio do ano, de quem comprou uma ação por US$ 60 e a vendeu por US$ 90 enquanto o índice de preços passava de 1,00 para 2,00. Deflacionados separadamente, os valores viram US$ 60 e US$ 45, uma perda de US$ 15 em dólares de 1º de janeiro."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mais entra na renda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "King discute duas imputações. A primeira é o serviço dos bens de consumo, sobretudo a casa própria: se Jones aplica US$ 10.000 em títulos que rendem US$ 500 e paga US$ 500 de aluguel, e Smith compra com US$ 10.000 uma casa igual, não faz sentido dizer que só Jones tem renda de propriedade. A segunda é o trabalho doméstico, cuja exclusão faz a renda nacional subir quando tarefas saem de casa para a fábrica, mesmo com a produção constante. Seu valor é difícil de estimar, e a exclusão, para King, só se justifica pela impossibilidade de manter os erros em limites razoáveis."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a riqueza?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Supõe-se em geral que medir riqueza seja mais fácil que medir renda. King afirma o contrário. A riqueza real seria a soma das utilidades, o valor presente de satisfações esperadas, descontadas a uma taxa duvidosa. Bens livres também contam para o bem-estar, e nos Estados Unidos o aumento dos bens econômicos veio com a perda de florestas e campos de caça. Num país com forte movimento de propriedade social, como a Rússia da última década, a queda da riqueza privada não mede a variação da riqueza usada pela população. Em dinheiro, a riqueza oscila com ondas de otimismo e pessimismo; em termos físicos, faltam unidades: um arranha-céu não se compara a uma cabana de toras, nem um vapor de aço a um veleiro, tonelada por tonelada."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Essa suposição é o contrário da verdade.”",
+              "original": "“This assumption is the reverse of the truth.”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo termina com sete conclusões, entre elas que o regime de competência é mais lógico que o de caixa, que não há medida lógica de renda sem considerar as variações do valor da riqueza e do nível de preços, que as contas das empresas não medem corretamente a renda individual por causa dos erros na conta de lucros acumulados e que a riqueza individual em dinheiro é de natureza psicológica e oscila com o humor do país."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o valor do artigo está em tornar explícitas as escolhas por trás de um número que parece objetivo. Cada decisão de King, competência em vez de caixa, ganhos de capital incluídos, deflação separada de estoques, imputação do aluguel da casa própria, altera o tamanho e o comportamento da renda medida, e todas são justificadas pela finalidade da medição: comparar o bem-estar de famílias e de épocas.",
+                "A parte sobre riqueza tem outro alcance. Ao mostrar que o valor de mercado do patrimônio incorpora expectativas e taxas de desconto que mudam com o humor dos investidores, King separa a riqueza contábil do estoque físico de capital, distinção que importa para qualquer uso de séries de riqueza na análise econômica."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Renda psíquica",
+              "fluxo de satisfações obtidas com bens e serviços."
+            ],
+            [
+              "Renda contábil (book income)",
+              "renda registrada por uma contabilidade bem feita, em bens, serviços e direitos."
+            ],
+            [
+              "Regime de competência",
+              "registro de receitas e despesas quando ocorrem, e não quando são pagas."
+            ],
+            [
+              "Ammain",
+              "unidade de consumo equivalente à demanda do homem médio de um grupo, usada por King e Sydenstricker."
+            ],
+            [
+              "Renda imputada",
+              "valor atribuído a serviços que não passam pelo mercado, como o da casa própria."
+            ],
+            [
+              "Ex-dividendo",
+              "cotação de uma ação depois que o direito ao dividendo já foi destacado."
+            ]
+          ],
+          "hoje": "Quase todas as escolhas discutidas por King estão nas contas nacionais atuais. O aluguel imputado da casa própria entra no PIB; o trabalho doméstico não pago fica de fora e é estimado em contas satélites; ganhos de capital são excluídos da renda nacional, mas aparecem nas contas de patrimônio. O debate sobre medir bem-estar além do PIB retoma a distância, apontada por ele, entre a renda medida e a satisfação que ela deveria representar."
+        }
+      ]
     }
   ],
   "proximas": []
