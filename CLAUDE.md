@@ -129,7 +129,11 @@ e download.
 - **Artigo relevante ganha página comentada própria** em `/arquivo/<edicao>/<artigo>/` (campo
   `ensaio_slug` no artigo). O texto do comentário fica na própria edição, na lista `comentarios`
   (slug, titulo, titulo_original, autores, paginas, jstor, chamada, blocos, glossario, hoje); imagem em
-  `site/assets/arquivo/<edicao>--<artigo>.jpg`. Gerado por `pagina_comentario()` em `gera_site.py`. Resenhas, notas e "new books" ficam só no hub.
+  `site/assets/arquivo/<edicao>--<artigo>.jpg`. Gerado por `pagina_comentario()` em `gera_site.py`.
+- **Regra de 15/11/2026 (American Economic Review):** a página da edição é uma resenha contínua com uma seção
+  de 300–400 palavras por artigo; **todo artigo principal e toda comunicação ganham página própria** com link
+  "Ler o comentário completo" (600–800 palavras para os curtos, 1.200–1.500 para os longos). Resenhas de livros,
+  notas e listas ficam só na lista do fim. Nas reuniões anuais, página própria para todo paper. Resenhas, notas e "new books" ficam só no hub.
 - Edições de monografia única (1886–1887) continuam como página única.
 
 **Profundidade mínima (mínimos flexíveis, não rígidos):**

@@ -104158,6 +104158,2272 @@
           "hoje": "Quase todas as escolhas discutidas por King estão nas contas nacionais atuais. O aluguel imputado da casa própria entra no PIB; o trabalho doméstico não pago fica de fora e é estimado em contas satélites; ganhos de capital são excluídos da renda nacional, mas aparecem nas contas de patrimônio. O debate sobre medir bem-estar além do PIB retoma a distância, apontada por ele, entre a renda medida e a satisfação que ela deveria representar."
         }
       ]
+    },
+    {
+      "slug": "1925-a-previsao-do-preco-dos-suinos",
+      "numero": 193,
+      "titulo": "Milho, ações e suínos: uma fórmula para prever o preço, 1925",
+      "titulo_original": "Forecasting the Price of Hogs",
+      "autores": "Charles F. Sarle (Drake University); apresentação de Irving Fisher",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 3 (suplemento nº 2)",
+      "data": "setembro de 1925",
+      "chamada": "Charles F. Sarle, aluno da Drake University, combinou ações, milho, a relação milho-suíno e o próprio preço passado numa fórmula de previsão e ganhou o Prêmio Babson da American Economic Association.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em setembro de 1924, com a safra curta de milho já empurrando o grão para mais de um dólar por bushel nas fazendas do Corn Belt, Charles F. Sarle, aluno de pós-graduação da Drake University, em Des Moines, Iowa, pôs no papel uma previsão com data e valor: em agosto e setembro de 1925, o suíno pesado deveria ser vendido acima de doze dólares no mercado de Chicago. O ensaio, “Forecasting the Price of Hogs”, ganhou o Prêmio Babson da American Economic Association e saiu como suplemento nº 2 do número de setembro de 1925 da American Economic Review."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na apresentação, Irving Fisher, presidente da comissão julgadora, conta que os prêmios foram oferecidos em 1924 por iniciativa de Roger Babson, para ensaios sobre a previsão do preço de uma mercadoria básica. Julgaram também George F. Warren, da Cornell, e Alvin H. Hansen, da University of Minnesota. Sarle levou o prêmio de US$ 650; Theodore J. B. Stier, da Rutgers, o de US$ 400, com um ensaio sobre o preço da madeira."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o milho e o suíno?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Sarle, a cadeia do milho e do suíno é o setor mais importante da agricultura americana. Os Estados Unidos produzem três quartos do milho do mundo, e o fazendeiro do Corn Belt escolhe entre vender o grão ou vendê-lo transformado em carne."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "40%",
+          "texto": "Parcela estimada da safra de milho consumida pelos suínos nas próprias fazendas, segundo o ensaio. Mais de 85% do milho vira ração; cerca de 10% vai para alimentação humana, 20% para cavalos, 15% para gado bovino e 1,5% para exportação."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que move o preço do suíno?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Do lado da oferta, o milho: o clima decide a safra, e milho barato estimula a criação. Sarle mede o incentivo pela razão milho-suíno, o preço do suíno dividido pelo do milho, que no longo prazo fica entre 11 e 12 bushels por cem libras de suíno vivo. Com milho abaixo de quarenta centavos por bushel em Iowa, os suínos vendidos pelo estado passaram de 8.999.000 em 1921 para 13.049.000 em 1923. Do lado da demanda, pesam o emprego, os salários e as exportações."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os preços do milho são muito mais valiosos como barômetro dos preços futuros do suíno.”",
+          "original": "“corn prices are much more valuable as a barometer of future hog prices”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Que método o autor usa?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Sarle distingue dois tipos de barômetro econômico: os que supõem que toda expansão será compensada por uma contração equivalente, como o de Roger Babson, e os que exploram sequências, em que um evento costuma anteceder outro. O seu é do segundo tipo. Com dados de 1897 a 1916, todos expressos em porcentagem da tendência secular e corrigidos da sazonalidade, ele correlaciona o preço do suíno pesado em Chicago com quatro fatores defasados: o preço das ações industriais, seis meses antes (correlação de 0,42); o total móvel de doze meses do milho nº 2 misto, com cinco meses de defasagem (0,57); a razão milho-suíno, com doze meses (correlação negativa de 0,39); e o próprio preço do suíno, total de seis meses com três de defasagem (0,71)."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quão bem a fórmula acerta?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Combinados numa equação de regressão, os quatro fatores têm correlação múltipla de 0,75 com o preço observado. Pelo coeficiente de determinação de Sewall Wright, respondem por 56,7% das influências possíveis, 35,6 pontos dos quais vêm do preço passado do suíno. Para o autor, a fórmula é guia, não oráculo: vale tanto quanto ela estudar as causas dos grandes desvios."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "0,91",
+          "texto": "Correlação entre preços observados e previstos em dólares por cem libras, de 1897 a 1916, com tendência e sazonalidade recolocadas. Sem elas, a correlação múltipla é de 0,75; com a regra dos 25% de desvio, o autor estima que poderia ter chegado a 0,85 ou mais."
+        },
+        {
+          "tipo": "p",
+          "texto": "Desses desvios sai uma regra. Quando o preço se afasta mais de 25% da tendência por dois meses ou mais, observa Sarle, segue-se em cerca de dezoito meses uma reação forte no sentido oposto. Os pontos mais baixos coincidem com abates excessivos, daí a importância do levantamento de leitões que o Departamento de Agricultura fazia com a ajuda dos carteiros."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que o ensaio previu para 1925?"
+        },
+        {
+          "tipo": "p",
+          "texto": "No pós-guerra, sem tendência secular confiável, o autor improvisa substitutos. O excesso de oferta domina o quadro: mais de 53 milhões de suínos abatidos sob inspeção federal em 1923, contra 43 milhões em 1922. Mas o levantamento de junho de 1924 apontava 17% menos leitões de primavera, e o preço, muito abaixo da tendência desde março de 1923, reagira em agosto. Daí a previsão: dez ou onze dólares na primavera de 1925 e, em agosto, mais de onze dólares e cinquenta centavos, possivelmente doze ou mais."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o ensaio é um retrato da econometria aplicada antes da econometria: tendência e sazonalidade removidas à mão, defasagens escolhidas pela inspeção dos gráficos, totais móveis para poupar cálculo. O resultado mais forte é também o mais modesto, pois mais da metade do poder explicativo vem do próprio preço defasado. E o que fica fora da equação, a regra dos dezoito meses, que descreve o tempo biológico do ciclo da criação, entra como julgamento complementar. A fórmula serve de guia do juízo, e não de substituta dele."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Corn Belt",
+          "região do meio-oeste americano centrada em Iowa, Illinois e Indiana, especializada em milho e suínos."
+        ],
+        [
+          "Razão milho-suíno",
+          "preço do suíno dividido pelo preço do milho; indica se compensa transformar o grão em carne."
+        ],
+        [
+          "Tendência secular",
+          "movimento de longo prazo de uma série, removido para isolar as oscilações."
+        ],
+        [
+          "Correção sazonal",
+          "ajuste que retira da série as variações típicas de cada mês do ano."
+        ],
+        [
+          "Defasagem",
+          "intervalo entre o movimento de um fator e o efeito que ele antecipa."
+        ],
+        [
+          "Correlação múltipla",
+          "medida de quanto vários fatores, combinados, acompanham a variável estudada."
+        ],
+        [
+          "Coeficiente de determinação",
+          "parcela da variação explicada por cada fator, no método de Sewall Wright."
+        ],
+        [
+          "Bushel",
+          "medida de volume de grãos usada nos Estados Unidos."
+        ]
+      ],
+      "hoje": "O ciclo do suíno que Sarle descreve, em que preços altos estimulam a criação e a oferta responde com atraso, tornou-se exemplo clássico de dinâmica de oferta defasada nos manuais de economia agrícola. Os levantamentos oficiais sobre o rebanho e as intenções de criação continuam a ser acompanhados por produtores e mercados futuros, e a combinação de modelos estatísticos com o julgamento sobre choques fora do modelo segue como prática comum na previsão de preços de commodities.",
+      "itens": [
+        [
+          "Foreword: The Roger Babson Prizes",
+          "",
+          "ia-1925-09-x1"
+        ],
+        [
+          "Forecasting the Price of Hogs",
+          "pp. 1–22",
+          "ia-1925-09-p1"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1925-09_15_supplement",
+      "artigos": [
+        {
+          "titulo": "Foreword: The Roger Babson Prizes",
+          "autores": "Irving Fisher",
+          "paginas": "",
+          "jstor": "ia-1925-09-x1",
+          "resumo": "Fisher, presidente da comissão julgadora, relata os dois prêmios oferecidos em 1924 por iniciativa de Roger Babson e concedidos a Theodore J. B. Stier e a Charles F. Sarle."
+        },
+        {
+          "titulo": "Forecasting the Price of Hogs",
+          "autores": "Charles F. Sarle (Drake University)",
+          "paginas": "pp. 1–22",
+          "jstor": "ia-1925-09-p1",
+          "ensaio_slug": "sarle-a-previsao-do-preco-dos-suinos",
+          "resumo": "Ensaio premiado que constrói uma fórmula de previsão do preço do suíno pesado em Chicago. O autor descreve a cadeia do milho e do suíno no Corn Belt, os fatores de oferta, como o tamanho das safras de milho e a razão milho-suíno, e os de demanda, como o emprego e as exportações, e classifica os barômetros econômicos em dois tipos. Com dados de 1897 a 1916, expressos em porcentagem da tendência secular e corrigidos da sazonalidade, correlaciona o preço do suíno com o preço das ações industriais, o preço do milho, a razão milho-suíno e o próprio preço do suíno, cada um com sua defasagem, e obtém correlação múltipla de 0,75. Pelo método de Sewall Wright, os quatro fatores respondem por 56,7% das influências possíveis. Examina os grandes desvios entre preço previsto e observado de 1901 a 1911, propõe uma regra de reação em cerca de dezoito meses após desvios de mais de 25% em relação à tendência e adapta o método ao pós-guerra. Conclui, em setembro de 1924, que o preço subiria em 1925 e ficaria acima de onze dólares e cinquenta centavos em agosto, possivelmente doze ou mais. Tabelas mensais e cinco gráficos acompanham o texto."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "sarle-a-previsao-do-preco-dos-suinos",
+          "titulo": "Sarle, 1925: como prever o preço do suíno com quatro números",
+          "titulo_original": "Forecasting the Price of Hogs",
+          "autores": "Charles F. Sarle (Drake University)",
+          "paginas": "pp. 1–22",
+          "jstor": "ia-1925-09-p1",
+          "chamada": "O ensaio premiado de Charles F. Sarle explica o preço do suíno em Chicago por ações, milho, razão milho-suíno e preço passado, mede o acerto da fórmula e arrisca uma previsão para 1925.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em agosto de 1924, o suíno pesado valia cerca de nove dólares em Chicago. Charles F. Sarle, aluno de pós-graduação da Drake University, em Des Moines, previu o caminho mês a mês: talvez oito dólares e setenta centavos em outubro, possivelmente oito em novembro, com os abates mais pesados da temporada, bons preços a partir de fevereiro, dez ou onze dólares no fim de março ou começo de abril. E fechou com uma frase em itálico."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Agosto e setembro de 1925 devem ver suínos pesados vendidos acima de doze dólares.”",
+              "original": "“August and September of 1925 should see heavy hogs selling above twelve dollars”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O ensaio ganhou o Prêmio Babson, de US$ 650, oferecido pela American Economic Association em 1924, e saiu como suplemento da American Economic Review em setembro de 1925: dez páginas de texto, sete de tabelas mensais e cinco gráficos. A ambição é dupla: construir uma fórmula de previsão e mostrar como usá-la sem confiar demais nela."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que estudar o suíno?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Sarle, a cadeia do milho e do suíno está entre as atividades fundamentais do país, ao lado do algodão, do trigo, do carvão e do aço. O milho é a maior lavoura em área e em valor; de 1910 a 1921, superou o trigo e o algodão somados em nove dos onze anos, e os suínos ficaram em segundo lugar em todos eles. As duas mercadorias são, na prática, uma escolha: mais de 85% do milho vira ração, e estima-se que 40% da safra seja comida por suínos nas próprias fazendas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o milho chega ao preço do suíno?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O preço do milho depende sobretudo da oferta, e a oferta, do clima: a produtividade por acre pesa mais que a área plantada. Prever esse preço melhor que os mercados futuros, como o Chicago Board of Trade, exigiria prever o tempo com uma estação de antecedência. Milho barato estimula exportações, consumo industrial e, sobretudo, a criação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os números de Iowa ilustram o mecanismo. Com o milho vendido a menos de quarenta centavos por bushel em boa parte de 1921 e 1922, o estado vendeu 8.999.000 suínos em 1921, 9.693.000 em 1922 e 13.049.000 em 1923, um aumento de mais de 30% no último ano. No país, os abates sob inspeção federal passaram de 43.114.000 cabeças em 1922 para 53.334.000 em 1923. A medida que resume esse incentivo é a razão milho-suíno, quantos bushels de milho valem cem libras de suíno vivo, que no longo prazo fica entre 11 e 12."
+            },
+            {
+              "tipo": "p",
+              "texto": "Do lado da demanda, Sarle cita um estudo de Wentworth, do Armour’s Research Bureau: o preço pago pelo suíno depende sobretudo dos preços da carne e da banha. Trabalhadores empregados e bem pagos comem mais carne de porco a um dado preço, e as exportações, maiores quando o suíno está barato, impedem que o preço caia ainda mais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que tipo de previsão é esta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sarle distingue dois grupos de barômetros econômicos. O primeiro supõe que toda expansão será compensada por depressão equivalente, como o de Roger Babson; sua fraqueza, nota, é não dizer quando as mudanças virão. O segundo explora sequências, como a alta das ações industriais que costuma anteceder em cerca de seis meses a dos preços das mercadorias. Os melhores barômetros desse tipo apoiam-se em correlações calculadas sobre registros passados."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A previsão cem por cento exata é uma impossibilidade absoluta.”",
+              "original": "“One hundred per cent accurate forecasting is an absolute impossibility”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a fórmula foi montada?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O período-base vai de 1897 a 1916. Todos os fatores são expressos em porcentagem da tendência secular e corrigidos da sazonalidade. Para milho e suíno, Sarle usa totais de doze meses, que amortecem as oscilações mensais e servem de correção sazonal; um total, observa, serve tanto quanto uma média e poupa tempo de cálculo. A escolha dos fatores aproveita trabalhos de H. A. Wallace, Sewall Wright, G. F. Warren e F. A. Pearson e G. C. Haas."
+            },
+            {
+              "tipo": "p",
+              "texto": "Ficam quatro fatores. O preço das ações industriais, seis meses antes, tem correlação de 0,42 com o preço do suíno; para o autor, é o indicador mais rápido da demanda. O milho nº 2 misto em Chicago, total de doze meses com cinco de defasagem, tem 0,57. A razão milho-suíno, com doze meses de defasagem, tem correlação negativa de 0,39. E o próprio preço do suíno, total de seis meses com três de defasagem, tem 0,71 e funciona como um volante que mantém a previsão dentro de limites. O peso dos suínos em Chicago, com correlação negativa de 0,32, pouco acrescentava e ficou de fora."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto a fórmula explica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os quatro fatores, combinados numa equação de regressão, têm correlação múltipla de 0,75 com o preço do suíno em porcentagem da tendência. Em dólares por cem libras, com tendência e sazonalidade recolocadas, a correlação entre previsto e observado sobe para 0,91, informa uma nota. O autor insiste no limite: a regressão supõe só a influência média de cada fator, que pode pesar muito mais em certos momentos."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "56,7%",
+              "texto": "Parcela das influências possíveis sobre o preço do suíno ligada aos quatro fatores, pelo coeficiente de determinação de Sewall Wright: 35,6% para o preço do suíno seis meses antes, 10,8% para o milho, 7,6% para as ações e 2,8% para a razão milho-suíno."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que explicam os desvios?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sarle percorre os anos. Em 1901 e 1902, a expansão dos negócios e as exportações puxaram o preço acima do previsto. A excelente safra de milho de 1905 e 1906 estimulou a criação, e os abates de 1907 e 1908 levaram os preços ao ponto mais baixo em relação à tendência; os preços baixíssimos e a depressão de 1907 produziram escassez e preços altos em 1909 e 1910."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí duas observações. A primeira, atribuída a Warren, é que o ciclo do suíno e o ciclo dos negócios têm quase a mesma duração, e as oscilações se agravam quando a baixa da criação coincide com a alta dos negócios. A segunda é uma regra: quando o preço se desvia mais de 25% da tendência por dois meses ou mais, segue-se em cerca de dezoito meses, entre catorze e vinte, uma reação forte para o lado oposto. Com ela, estima Sarle, a correlação teria chegado a 0,85 ou mais."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como adaptar o método ao pós-guerra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para 1923 e 1924 não havia tendência secular confiável, e Sarle usa substitutos, como o índice Dow Jones das ações e o índice de produtos agrícolas do Bureau of Labor. Essa dificuldade, admite, pode explicar em parte por que o previsto ficou bem acima do observado em 1923, ano de abates excessivos, efeito do milho barato de 1921 e 1922."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em setembro de 1924, o quadro se invertera. O levantamento de junho mostrava 17% menos leitões de primavera e a safra curta levara o milho acima de um dólar por bushel. O preço do suíno ficara abaixo de 75% da tendência de março de 1923 a julho de 1924; pela regra, a reação viria dezoito meses depois, e em agosto o preço de fato subiu. Com hipóteses sobre ações, milho, razão milho-suíno e preço do suíno, a fórmula dava cerca de onze dólares e cinquenta centavos; somada a regra dos desvios, o autor chega aos doze dólares ou mais em agosto de 1925."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o valor do ensaio está menos na equação que na disciplina com que ela é usada. Sarle separa o que a regressão capta, a influência média de cada fator em dezenove anos, do que ela não capta, as combinações particulares de safra, negócios e exportações que produzem os grandes desvios. A previsão final resulta das duas coisas.",
+                "Há também uma lição sobre dados. O fator mais forte é o próprio preço defasado, lembrando o quanto a previsão de curto prazo depende da persistência das séries. E a passagem ao pós-guerra mostra a fragilidade de toda fórmula estimada num período: quando a tendência histórica se perde, a medida de normalidade passa a ser uma escolha, e o erro da previsão reflete também essa escolha."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Razão milho-suíno",
+              "preço do suíno dividido pelo do milho; mede o incentivo a transformar grão em carne."
+            ],
+            [
+              "Tendência secular",
+              "trajetória de longo prazo de uma série, retirada para isolar as oscilações."
+            ],
+            [
+              "Total móvel",
+              "soma dos últimos meses recalculada a cada mês, usada para suavizar a série."
+            ],
+            [
+              "Defasagem",
+              "intervalo entre o movimento de um fator e o efeito que ele antecipa."
+            ],
+            [
+              "Correlação múltipla",
+              "grau em que vários fatores, combinados, acompanham a variável prevista."
+            ],
+            [
+              "Coeficiente de determinação",
+              "parcela da variação explicada por cada fator, no método de Sewall Wright."
+            ],
+            [
+              "Equação de regressão",
+              "fórmula que combina os fatores com pesos estimados para gerar a previsão."
+            ]
+          ],
+          "hoje": "A estrutura do ensaio continua reconhecível na previsão de preços agropecuários: variáveis expressas em desvio da tendência e sem sazonalidade, defasagens que refletem o tempo biológico da produção, indicadores de demanda como a atividade econômica e levantamentos oficiais sobre o rebanho. O ciclo do suíno tornou-se exemplo clássico de oferta que responde com atraso aos preços. E a recomendação de estudar os desvios da fórmula, em vez de confiar nela cegamente, segue no centro da avaliação de modelos de previsão."
+        }
+      ]
+    },
+    {
+      "slug": "1925-a-comissao-de-comercio-os-juros-e-as-dividas",
+      "numero": 194,
+      "titulo": "A Comissão de Comércio, os juros e as dívidas de guerra",
+      "titulo_original": "The American Economic Review, vol. XV, no. 4, December 1925",
+      "autores": "W. H. S. Stevens, C. J. Foreman, K. N. Llewellyn, Carl Snyder, H. G. Moulton e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 4",
+      "data": "dezembro de 1925",
+      "chamada": "Stevens avalia a Federal Trade Commission; Foreman separa eficiência de escassez no fundo de comércio; Llewellyn liga direito e economia; Snyder mede juros e ciclo; Moulton discute reparações.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "De 1915 a 1924, a Federal Trade Commission recebeu 8.632 pedidos de ação do público. Arquivou 4.727 numa triagem sumária, emitiu 635 ordens para que empresas cessassem práticas condenadas e viu 53 delas contestadas nos tribunais de recursos até o fim de 1924, com mais derrotas que vitórias. W. H. S. Stevens, da University of Maryland, abre com esse balanço o número de dezembro de 1925 da American Economic Review, dez anos depois da posse dos primeiros comissários."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os outros quatro artigos tratam de instituições e de medidas. C. J. Foreman, da University of Cincinnati, separa, no que juristas e contadores chamam de lucro do fundo de comércio, o ganho de eficiência do ganho de escassez. K. N. Llewellyn, da Faculdade de Direito de Yale, examina o que o direito faz à economia e o que a economia ensina ao direito. Carl Snyder mede quanto os juros pesam no ciclo de negócios. H. G. Moulton responde aos críticos de seus estudos sobre a capacidade alemã de pagar reparações. Duas comunicações, de J. M. Clark e de William E. Oberle, completam a parte principal."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que a Federal Trade Commission fez em dez anos?",
+          "artigo": "ia-1925-12-p625",
+          "credito": "W. H. S. Stevens (University of Maryland) · “What Has the Federal Trade Commission Accomplished?” · pp. 625–651"
+        },
+        {
+          "tipo": "p",
+          "texto": "Stevens parte das críticas que a comissão vinha recebendo e sustenta que muitas nasciam menos de falhas do que da impopularidade de suas decisões junto a grupos influentes. A lei de 1914 deu-lhe poder para coibir “métodos desleais de concorrência” e, pela lei Clayton, discriminação de preços, contratos de exclusividade, aquisições de ações e diretorias entrelaçadas; fora isso, restava o poder de investigar. O trabalho divide-se entre a divisão econômica, herdeira do Bureau of Corporations criado em 1904, e a divisão jurídica."
+        },
+        {
+          "tipo": "p",
+          "texto": "Dos inquéritos econômicos saíram leis, como a lei Webb, que permitiu associações de exportação, e a lei de frigoríficos e currais, nascida do relatório sobre a carne. O inquérito sobre o antracito, em 1917, levou a um sistema de acompanhamento de preços; até agosto daquele ano, segundo o autor, menos de um quarto de 1% do carvão foi vendido acima dos preços indicados pela comissão. Durante a guerra, a divisão entregou mais de 250 relatórios de custos. A tentativa de publicar estatísticas mensais de carvão e aço, iniciada em 1920 com verba de US$ 150 mil, foi barrada por ações judiciais das próprias indústrias."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "635",
+          "texto": "Ordens de cessação emitidas de 1915 a 1924, a partir de 968 queixas formais. Das 53 levadas aos tribunais de recursos, a comissão ganhou 12 e perdeu 28; na Suprema Corte, dos 9 casos decididos, ganhou 2. Menos de 9% das ordens foram contestadas."
+        },
+        {
+          "tipo": "p",
+          "texto": "Stevens explica as derrotas: o campo do direito é novo, os casos que chegam aos tribunais são os de fronteira, e, do ponto de vista do economista, algumas decisões são discutíveis. Em cinco campos, rotulagem enganosa, falsa representação, imitação de marca, propaganda enganosa e fixação de preço de revenda, as ordens foram mantidas, e eles somaram mais de 73% das queixas de 1923 e 1924. O artigo termina com as mudanças de março de 1925, que deixaram de publicar os acordos com as empresas, contra o voto de dois comissários, e com uma pergunta."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Pode o defensor ou o adversário do sistema competitivo negar que a comissão travou o bom combate?”",
+          "original": "“can either the advocate or the opponent of the competitive system honestly deny”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "stevens-o-balanco-da-federal-trade-commission",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto do fundo de comércio é eficiência?",
+          "artigo": "ia-1925-12-p652",
+          "credito": "C. J. Foreman (University of Cincinnati) · “Computation of Good-Will Profits” · pp. 652–664"
+        },
+        {
+          "tipo": "p",
+          "texto": "Foreman quer mostrar como se calculam os lucros atribuídos ao fundo de comércio, o good-will, e por que o cálculo importa. Para ele, juristas e contadores confundem duas coisas: o retorno da eficiência, fruto de custos menores e de organização, e o retorno da exploração, fruto de escassez, restrição e monopólio. A interpretação jurídica do good-will inclui quase todas as formas de lucro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os lucros correntes do fundo de comércio dividem-se em três classes. Há os de eficiência, como o de profissionais liberais, que os tribunais avaliam pouco porque não se transferem sem que o vendedor deixe de concorrer. Há os de escassez, quando a demanda eleva o preço acima do custo marginal; num caso inglês, uma cantina cujo prédio rendia £ 15 por ano foi alugada por mais £ 510 apenas pelo privilégio de vender bebida. E há o aumento de valor dos imóveis, que acaba como renda do proprietário. Ingleses e escoceses chegavam a tributar o good-will como aluguel."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1 a 10",
+          "texto": "Número de anos de lucro líquido pelo qual a prática comercial avaliava o fundo de comércio, segundo o autor. Clínicas e escritórios valiam de dois a três anos; um fabricante de papel de parede falou em dezesseis vezes o lucro, menos os ativos tangíveis."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os contadores, diz Foreman, dividem-se em dois grupos: os que capitalizam o lucro líquido médio e os que capitalizam só o lucro acima de um retorno normal sobre o capital, como Hatfield e Kester. Mesmo estes não separam a recompensa da eficiência do ganho de escassez. A proposta final é restringir o conceito econômico de good-will ao lado da demanda e eliminar por lei os ganhos de exploração, para que o empresário dependa do esforço econômico verdadeiro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para o autor, ao aceitar práticas comerciais como base de suas decisões, os tribunais legalizam ganhos de combinação. Na formação da International Harvester, o plano inicial avaliava o good-will das empresas fundidas pelo lucro dos dois anos anteriores mais 10%, método que o Commissioner of Corporations descreveu como comum entre fabricantes."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "foreman-os-lucros-do-fundo-de-comercio",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O direito é freio ou ferramenta da economia?",
+          "artigo": "ia-1925-12-p665",
+          "credito": "K. N. Llewellyn (Yale University, School of Law) · “The Effect of Legal Institutions upon Economics” · pp. 665–683"
+        },
+        {
+          "tipo": "p",
+          "texto": "O texto foi lido na reunião anual da American Economic Association em Chicago, em 30 de dezembro de 1924. Llewellyn observa um aparente paradoxo: os juristas pregavam algo próximo do determinismo econômico, enquanto Commons, em Legal Foundations of Capitalism, sublinhava o papel do direito na vida econômica. Para o autor, a diferença é de ênfase: o economista descobre que o direito é não só um obstáculo, mas uma ferramenta; não só um freio, mas um lubrificante."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Não só um freio, mas um lubrificante.”",
+          "original": "“not only a brake, but a lubricant”"
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida é um princípio de escassez: a energia que a sociedade pode dedicar ao controle legal é limitada. Daí dois problemas, a engenharia jurídica, escolher os meios de controle mais baratos e eficazes, e a economia das políticas, porque cumprir uma significa sacrificar outra. A regulação de tarifas de serviços públicos funcionou melhor que o tabelamento de preços na guerra, sugere o autor, porque a demanda era estável e localizada e o controle, fácil de aplicar."
+        },
+        {
+          "tipo": "p",
+          "texto": "O problema central da época, diz Llewellyn, é governar atividades especializadas com regras gerais feitas por juízes que, em matéria técnica, são leigos. Os remédios são as leis, a administração especializada e, sobretudo, as regras feitas pelos próprios interessados: estatutos de associações, contratos padronizados e arbitragem, como na indústria do cinema. O artigo enumera ainda efeitos do direito sobre a economia, das instituições que tornam possíveis a concorrência e o crédito à transferência de riscos industriais para os custos das empresas, e termina reconhecendo o que o direito deve a conceitos econômicos como escassez e margem."
+        },
+        {
+          "tipo": "p",
+          "texto": "Entre os efeitos que enumera estão a troca do risco do comprador por uma garantia razoável do vendedor, que altera preços, e a indenização por acidentes de trabalho, que lança sobre a indústria custos antes ignorados. Aponta também um limite do direito feito por acordo: a integração entre produtores organizados pode ameaçar o consumidor desorganizado."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "llewellyn-instituicoes-juridicas-e-economia",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Os juros governam o ciclo de negócios?",
+          "artigo": "ia-1925-12-p684",
+          "credito": "Carl Snyder · “The Influence of the Interest Rate on the Business Cycle” · pp. 684–699"
+        },
+        {
+          "tipo": "p",
+          "texto": "Snyder parte de uma constatação: discute-se a taxa de juros pela taxa do papel comercial de 60 a 90 dias, que se aplica a talvez 1% do dinheiro emprestado no país. Ele classifica os empréstimos por tipo, do dinheiro de call em Nova York às hipotecas rurais, e estima o total emprestado entre 120 e 130 bilhões de dólares, o que faria do crédito, talvez, a fonte de mais da metade do capital das empresas fora da agricultura. Inclui o crédito comercial entre fornecedores e clientes, que considera o mais influente para o ciclo e cuja taxa implícita pode chegar a 35% ao ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "A maior parte desse dinheiro paga taxas estáveis. Milhares de bancos cobram 6% ou 7% ano após ano; com a exigência de saldo médio de cerca de 20%, o custo real chega a 7,5%. As taxas que oscilam muito valem para pequenas parcelas: o call money, que chegou a 100% em 1906 e 1907, raramente passou de 10% depois da guerra. Daí uma lei: a variabilidade das taxas é inversamente proporcional ao volume de recursos de cada grupo e ao prazo dos empréstimos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "4,93%",
+          "texto": "Média de cinquenta anos da taxa do papel comercial em Nova York, segundo Snyder. Fora de pânicos, raramente caiu abaixo de 3% ou subiu muito acima de 6%; a taxa paga pelas empresas aos bancos fica, com raras exceções, entre 5,5% e 7,5%."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com um novo índice do volume de comércio, construído a partir dos débitos bancários e corrigido pelos preços, Snyder compara meio século de negócios e juros. As retomadas começam com juros em queda; a alta dos juros vem de dez a quinze meses depois; e o pico dos negócios chega antes do pico dos juros, às vezes dezoito meses ou dois anos antes. Nas tendências longas, os juros acompanham mais o nível de preços que qualquer outra influência. A conclusão é que o custo do dinheiro não é, em si, fator decisivo do ciclo, o que pesa sobre a ideia de estabilizar os negócios pela taxa de redesconto."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "snyder-os-juros-e-o-ciclo-de-negocios",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto a Alemanha podia pagar?",
+          "artigo": "ia-1925-12-p700",
+          "credito": "H. G. Moulton · “War Debts and International Trade Theory” · pp. 700–716"
+        },
+        {
+          "tipo": "p",
+          "texto": "Moulton, autor de estudos do Institute of Economics sobre as reparações alemãs, responde aos economistas que o acusaram de ignorar a teoria. Começa resumindo a versão de Taussig, de 1919: a pressão dos pagamentos deprecia o câmbio, baixa os preços internos em relação aos externos, estimula as exportações e cria um excedente igual às remessas. Nota que o próprio Taussig fazia ressalvas sobre tarifas e mercados, enquanto Frank D. Graham e B. M. Anderson descreviam o ajuste como quase automático."
+        },
+        {
+          "tipo": "p",
+          "texto": "A posição do instituto, diz Moulton, tem duas partes. Primeiro, só se paga com exportações de bens e serviços, e entregar títulos não elimina essa necessidade. Segundo, a Alemanha precisa de importações: para manter a população e as fábricas, cerca de 14 bilhões de marcos-ouro por ano, contra 6,2 bilhões importados em 1922. Ele nega ter dito que um excedente de exportações fosse impossível; diz que ele exigiria salários baixos e mercados que outros países teriam de aceitar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "14 bilhões",
+          "texto": "Importações anuais, em marcos-ouro, que o estudo do instituto julgava indispensáveis para a Alemanha manter a população e operar as fábricas perto da escala de antes da guerra. Em 1922, as importações foram de cerca de 6,2 bilhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Contra a teoria, Moulton levanta três objeções: só uma pequena parte do excesso de produção sobre o consumo pode tomar forma exportável; as dívidas de guerra não se parecem com empréstimos comerciais, que expandem a capacidade do devedor; e o recebimento traz perdas aos credores, como mostraram as entregas de carvão alemão à França para a indústria britânica. A depreciação estimula exportações, admite, mas também desorganiza moeda e orçamento. Conclui que não convém buscar uma lei de aplicação universal."
+        },
+        {
+          "tipo": "p",
+          "texto": "Moulton rejeita ainda a ideia de que um excedente orçamentário baixaria, por si, os preços alemães: o dinheiro arrecadado volta a circular quando os estrangeiros compram bens alemães, e muitos impostos são repassados aos preços. Para ele, a decisão do Comitê Dawes de administrar o câmbio de forma coordenada resume a lição da experiência europeia do pós-guerra."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "moulton-dividas-de-guerra-e-teoria-do-comercio",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Três dimensões bastam para a oferta e a procura?",
+          "artigo": "ia-1925-12-p717",
+          "credito": "J. M. Clark (University of Chicago) · “Further Discussion of Three-Dimensional Price Diagrams” · pp. 717–719"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na primeira comunicação, Clark comenta os diagramas tridimensionais de Silberling e de Wolfe e conclui que três dimensões continuam insuficientes para a complexidade da demanda e do custo. Contesta o uso da curva de linha de massa como curva de oferta e de custo marginal, a ideia de que, numa indústria de custos crescentes, a demanda maior possa baixar a curva de oferta, e a tese de que pôr custo marginal contra demanda envolva raciocínio circular."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "clark-diagramas-tridimensionais-de-precos",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como regular as tarifas dos serviços públicos?",
+          "artigo": "ia-1925-12-p719",
+          "credito": "William E. Oberle (Filadélfia) · “Regulating Public Utility Rates” · pp. 719–720"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na segunda, Oberle questiona a regulação baseada no valor do investimento. A avaliação federal das ferrovias já custara US$ 100 milhões ao público, e ele propõe comparar o lucro com o custo total de prestar o serviço, entre empresas e entre setores, para premiar a eficiência e não o capital."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "oberle-a-regulacao-das-tarifas-de-servicos-publicos",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As resenhas abrem com Allyn A. Young sobre os três volumes de artigos de F. Y. Edgeworth e com Frank H. Knight sobre a história da sociologia de Small. Seguem-se resenhas de livros de história econômica, agricultura, bancos e finanças públicas, entre elas a de E. M. Patterson sobre as dívidas interaliadas e notas de O. Ingraham sobre livros de D. T. Jack e de J. M. Keynes a respeito do padrão-ouro britânico. Na seção de documentos, R. D. Kilborne estuda a War Finance Corporation, criada em 1918 com capital de US$ 500 milhões. As notas anunciam a reunião anual em Nova York, de 28 a 31 de dezembro de 1925."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número inteiro discute a distância entre teoria e instituições. Stevens mede uma agência pela sua produção de fatos e de ordens; Foreman pede que o direito e a contabilidade separem eficiência de escassez; Llewellyn trata o direito como engenharia sujeita a custos; Snyder mostra que a taxa de juros que todos observam é marginal, e a que pesa no balanço das empresas quase não varia; Moulton argumenta que o mecanismo clássico de ajuste supõe uma economia sem importações indispensáveis. Em todos, a pergunta é a mesma: o que muda quando se olha o funcionamento efetivo da instituição, e não o modelo."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Federal Trade Commission",
+          "agência federal americana criada em 1914 para coibir métodos desleais de concorrência."
+        ],
+        [
+          "Ordem de cessação",
+          "determinação para que uma empresa pare uma prática considerada ilegal."
+        ],
+        [
+          "Good-will",
+          "fundo de comércio; valor ligado à clientela, ao nome e à localização de um negócio."
+        ],
+        [
+          "Call money",
+          "empréstimo diário a corretores, garantido por ações, com taxa muito variável."
+        ],
+        [
+          "Papel comercial",
+          "nota promissória de curto prazo emitida por empresas."
+        ],
+        [
+          "Excedente de exportações",
+          "valor das exportações acima das importações."
+        ],
+        [
+          "Problema da transferência",
+          "dificuldade de converter recursos internos em pagamentos ao exterior."
+        ],
+        [
+          "Arbitragem",
+          "solução de disputas por árbitros escolhidos pelas partes."
+        ]
+      ],
+      "hoje": "Os temas do número continuam vivos. Autoridades de concorrência dividem-se entre litígio e estudos de mercado; a separação entre eficiência e poder de mercado pesa na análise de fusões e na contabilidade do ágio; a arbitragem e a autorregulação ocupam espaço que a lei geral não alcança; bancos centrais acompanham as taxas efetivamente pagas e não só a de curtíssimo prazo; e a capacidade de pagar dívidas externas por superávits comerciais segue em discussão em cada crise de dívida soberana.",
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1925-12_15_4",
+      "comentarios": [
+        {
+          "slug": "stevens-o-balanco-da-federal-trade-commission",
+          "titulo": "Stevens, 1925: o que a Federal Trade Commission fez em dez anos",
+          "titulo_original": "What Has the Federal Trade Commission Accomplished?",
+          "autores": "W. H. S. Stevens (University of Maryland)",
+          "paginas": "pp. 625–651",
+          "jstor": "ia-1925-12-p625",
+          "chamada": "W. H. S. Stevens faz o balanço da primeira década da Federal Trade Commission: inquéritos econômicos, leis, processos, derrotas nos tribunais e a política de publicidade dos fatos.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Os cinco primeiros comissários da Federal Trade Commission tomaram posse em 16 de março de 1915. Dez anos depois, W. H. S. Stevens, da University of Maryland, propõe-se a avaliar o que a comissão realizou, num momento em que ela recebia muitas críticas. Admite que errar é humano e que a comissão não é exceção; mas sustenta que boa parte das críticas não tinha base sólida e nascia da impopularidade de suas ações junto a grupos grandes e influentes ou ao mundo dos negócios em geral."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que poderes a comissão tinha?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A seção 5 da lei de criação autorizou a comissão a coibir “métodos desleais de concorrência” no comércio interestadual. A lei Clayton acrescentou, sob certas condições, a discriminação de preços, os contratos de exclusividade e de venda casada, a combinação por aquisição de ações e as diretorias entrelaçadas. Fora isso, diz Stevens, restava o poder de investigação da seção 6, este amplo. O trabalho se organiza em duas divisões principais, a econômica e a jurídica, além de divisões menores de exportação e de patentes inimigas."
+            },
+            {
+              "tipo": "p",
+              "texto": "A divisão econômica é, para o autor, a sucessora lógica do Bureau of Corporations do Departamento de Comércio, criado em 1904. Como os relatórios do bureau, os da comissão tiveram efeitos desiguais: alguns resultaram logo em leis ou processos, outros não. Stevens lembra que a falta de resultado imediato não prova a falta de efeito: a recomendação do bureau sobre a entrega de algodão nos contratos futuros levou dez anos para virar lei, em 1919."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os inquéritos econômicos produziram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Dois relatórios deram origem direta a leis: o estudo sobre a cooperação no comércio exportador, base da lei Webb, que autorizou associações de exportação, e o inquérito sobre a indústria da carne, de onde saiu a lei de frigoríficos e currais. O inquérito sobre a carne apontou combinação entre os cinco maiores frigoríficos e levou a um decreto de consentimento em 27 de fevereiro de 1920. A comissão recomendara dois remédios, que os frigoríficos abrissem mão do controle dos currais e dos vagões refrigerados; o decreto adotou o primeiro, mas não o segundo, talvez o mais importante para a concorrência."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os relatórios também abasteceram processos antitruste, sobre máquinas agrícolas, móveis, refrigeradores e papel de imprensa, e influíram em preços. Em 1917, a comissão advertiu os produtores de antracito contra aumentos disfarçados, indicou 30 centavos por tonelada como reajuste suficiente para cobrir um aumento salarial e montou um sistema de acompanhamento do carvão do produtor ao consumidor. Até 23 de agosto de 1917, quando os preços foram fixados por decreto, menos de um quarto de 1% do antracito foi vendido acima dos preços indicados. No papel de imprensa, a comissão chegou a fixar preços a partir de 1º de abril de 1918, por acordo entre fabricantes e o procurador-geral."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 150 mil",
+              "texto": "Verba aprovada em 1919 para a comissão coletar e publicar informações correntes sobre produção, custos e preços. Os relatórios mensais de carvão e aço, iniciados em janeiro de 1920, foram suspensos por ações judiciais das duas indústrias."
+            },
+            {
+              "tipo": "p",
+              "texto": "Stevens dá atenção especial a esse fracasso. A comissão quis publicar estatísticas correntes das indústrias básicas, mais amplas que as do Departamento de Comércio, com produção, estoques, custos, margens e retorno do investimento. Para o autor, a tentativa falhou não por culpa da comissão, mas das próprias indústrias. Na guerra, a divisão econômica tornou-se a agência de apuração de custos do governo e entregou, de setembro de 1917 a junho de 1919, mais de 250 relatórios de custos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a comissão perdia nos tribunais?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A divisão jurídica segue um rito: o examinador-chefe investiga as queixas, um conselho de revisão recomenda, um comissário relata e a comissão decide se emite queixa formal. O réu tem 30 dias para responder; um examinador colhe provas; a comissão julga e, se for o caso, ordena que a prática cesse. De 1915 a 1924, chegaram 8.632 pedidos do público; 4.727 foram arquivados de pronto, 3.671 viraram processos, e 968 queixas formais foram ordenadas. Saíram 635 ordens de cessação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Só 53 ordens foram contestadas nos tribunais de recursos até o fim de 1924, que deram razão à comissão em 12 casos e contra ela em 28. Na Suprema Corte, de 9 casos decididos, a comissão ganhou 2. Stevens rebate o argumento de que as derrotas provam queixas injustificadas: menos de 9% das ordens foram contestadas, o campo jurídico é novo, os casos que chegam aos tribunais são justamente os de fronteira e, do ponto de vista do economista, algumas decisões judiciais são discutíveis. Em cinco campos, rotulagem enganosa, falsa representação, imitação de produtos, propaganda enganosa e fixação de preços de revenda, as ordens foram mantidas, e eles responderam por mais de 73% das queixas de 1923 e 1924."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que publicar os fatos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Stevens descreve ainda um instrumento criado para eliminar práticas desleais com o consentimento do próprio ramo: a consulta setorial. A comissão convida representantes de uma indústria a discutir as práticas questionadas, não decide nada e pede que a indústria formalize suas conclusões, que não a obrigam. Até o fim do ano fiscal de 1924, houve consultas em ramos como papel, petróleo, máquinas de escrever usadas, meias, macarrão, prataria, livros por assinatura e instrumentos de banda. Entre as práticas condenadas pelas próprias indústrias estavam vender máquinas recondicionadas como novas, encher pela metade pacotes de macarrão e vender o mesmo conjunto de livros com títulos diferentes. Em muitos casos, admite o autor, o ramo não chega a acordo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Stevens registra uma curiosidade política: a divisão jurídica é de origem democrata, criada por um presidente e um Congresso democratas; a econômica descende do Bureau of Corporations, obra de um Congresso e de um presidente republicanos, que fizeram da publicidade dos fatos a principal arma contra os abusos das empresas. Entre os fatos que a comissão tornou públicos, o autor destaca o estudo sobre títulos isentos de impostos, segundo o qual tributá-los teria acrescentado no máximo US$ 100 milhões à receita federal com as alíquotas de 1922, e a análise de trinta anos de preços de grãos, que não encontrou prova convincente de que o mercado futuro estabilizasse os preços. Nas variações diárias, segundo o relatório, o preço à vista lidera o futuro, e não o contrário."
+            },
+            {
+              "tipo": "p",
+              "texto": "O artigo termina com as mudanças de março de 1925. A comissão decidiu não intervir em disputas puramente privadas, ouvir o acusado antes de emitir queixa e resolver a maior parte dos casos por acordo, sem publicar os acordos. Dois comissários, Thompson e Nugent, votaram contra. Stevens registra também que uma restrição incluída na lei orçamentária levou a comissão a não iniciar inquéritos pedidos pelo Senado. Diz que o registro fala por si e encerra com uma pergunta."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Pode o defensor ou o adversário do sistema competitivo negar honestamente que a comissão travou o bom combate?”",
+              "original": "“can either the advocate or the opponent of the competitive system honestly deny”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é útil por separar duas funções que a comissão acumulava: a de tribunal administrativo, julgando práticas desleais caso a caso, e a de produtora de informação econômica. A primeira se mede por ordens e recursos; a segunda, por efeitos lentos e difusos, como leis aprovadas anos depois ou mudanças de regras nas bolsas. Stevens dá peso especial à segunda e mostra o quanto ela dependia de acesso a dados das empresas, que estas podiam contestar na Justiça.",
+                "Há também um ponto de método regulatório. Os números de recursos mostram que o acordo com o acusado era a regra, e a disputa judicial, a exceção. A mudança de 1925, que retirou a publicidade dos acordos, toca exatamente a combinação de instrumentos que o autor descreve: a ordem formal e a divulgação dos fatos."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Federal Trade Commission",
+              "agência federal americana criada em 1914 para coibir métodos desleais de concorrência."
+            ],
+            [
+              "Lei Clayton",
+              "lei antitruste de 1914 sobre discriminação de preços, exclusividade, aquisições e diretorias entrelaçadas."
+            ],
+            [
+              "Ordem de cessação",
+              "determinação para que a empresa pare uma prática considerada ilegal."
+            ],
+            [
+              "Decreto de consentimento",
+              "acordo judicial em que o réu aceita medidas sem admitir culpa."
+            ],
+            [
+              "Bureau of Corporations",
+              "órgão federal de 1904 a 1915 encarregado de investigar empresas."
+            ]
+          ],
+          "hoje": "O dilema que Stevens descreve continua no centro das autoridades de concorrência: quanto do trabalho deve ser litígio, caso a caso, e quanto deve ser estudo de mercado e divulgação de informações. Os acordos com empresas investigadas, a publicidade desses acordos e o acesso da autoridade a dados das empresas seguem como temas de debate institucional, assim como a relação entre a autoridade e os tribunais que revisam suas decisões."
+        },
+        {
+          "slug": "foreman-os-lucros-do-fundo-de-comercio",
+          "titulo": "Foreman, 1925: o que há de eficiência e de escassez no fundo de comércio",
+          "titulo_original": "Computation of Good-Will Profits",
+          "autores": "C. J. Foreman (University of Cincinnati)",
+          "paginas": "pp. 652–664",
+          "jstor": "ia-1925-12-p652",
+          "chamada": "C. J. Foreman examina como tribunais e contadores calculam os lucros do fundo de comércio e propõe separar a recompensa da eficiência dos ganhos de escassez e monopólio.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Num caso inglês citado por C. J. Foreman, os prédios de uma cantina rendiam £ 15 por ano de aluguel, mas o locatário pagava mais £ 510 pelo privilégio de vender bebida no local. O tribunal decidiu que as duas somas eram aluguel. Para Foreman, da University of Cincinnati, o caso resume o problema do artigo: aquilo que juristas e contadores chamam de fundo de comércio, o good-will, mistura ganhos muito diferentes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é o problema?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O objetivo, diz o autor, é mostrar os diferentes métodos de calcular os lucros do good-will. A importância do tema está em que juristas e contadores, ao confundir os conceitos, deixam de distinguir os retornos da eficiência dos da exploração. A interpretação jurídica do good-will do consumidor abrange quase todas as formas de lucro e, por isso, em muitos aspectos, é inconsistente. Para organizar a análise, Foreman separa os lucros presentes dos futuros e divide os presentes em três classes."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quais são os lucros presentes do fundo de comércio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A primeira classe é a dos lucros de eficiência, devidos à habilidade das pessoas ou a processos técnicos. Os tribunais distinguem o good-will de uma profissão do de um comércio: o de um advogado ou médico é considerado quase intransferível e de pouco valor, salvo quando o vendedor se compromete a não concorrer com o comprador. O de um comércio ou de um processo secreto transfere-se mais facilmente. Se os preços são regulados pela concorrência, o lucro desse good-will vem da redução de custos; se há monopólio de processo patenteado, pode incluir ganhos de escassez."
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda classe é a dos lucros de escassez, quando a intensidade da demanda eleva o preço acima do custo marginal. Pode ser uma alta geral do preço de um produto básico, como farinha, carne ou carvão, ou uma demanda concentrada nos produtos de uma empresa, que no limite forma um monopólio. Os bares ligados a cervejarias inglesas, que só vendiam a cerveja da casa, são o exemplo: as cervejarias obtinham preços mais altos que nos bares livres, e o aluguel do good-will de 33 desses bares equivalia à metade do aluguel da cervejaria."
+            },
+            {
+              "tipo": "p",
+              "texto": "A terceira classe é o aumento de valor do imóvel, das instalações e do equipamento. Parte disso pode resultar de longo esforço, mas, em inúmeros casos, diz o autor, o acréscimo é totalmente não ganho e deve ser tratado como excedente de escassez. É nas decisões sobre a terra que os tribunais mais o reconhecem."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o direito trata o good-will da terra?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os tribunais americanos, segundo Foreman, limitam-se a reconhecer que o good-will valoriza o estoque e o imóvel. Os britânicos vão além: na Inglaterra e na Escócia, o avaliador fiscal inclui no aluguel tributável os pagamentos feitos ao proprietário a título de good-will. Na Escócia, num caso citado, somou-se ao aluguel efetivo a metade da quantia paga pelo good-will dividida pelo número de anos do arrendamento, mas só no início do contrato. Na Inglaterra, o good-will que valoriza o imóvel é levado em conta a qualquer momento, e os avaliadores costumam desmontar arranjos que disfarçam aluguel de pagamento por good-will. Na Escócia, observa o autor, como a avaliação só ocorre no início do contrato, o arrendatário próspero tem interesse em arrendamentos longos: pode vender o contrato com o good-will e embolsar o acréscimo que acabaria indo ao proprietário."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os exemplos americanos citados vão na mesma direção. Um tribunal federal disse que a clientela satisfeita produz um valor tão importante quanto as máquinas; na Califórnia, o good-will foi descrito como elemento de força e permanência que valoriza o imóvel e o estoque; em Massachusetts, para dividir lucros entre sócios, o tribunal mandou deduzir a parte atribuível à habilidade e aos serviços dos réus e tratar o resto como lucro do capital. Mais adiante, Foreman cita Lord Coleridge: se a valorização da vizinhança aumenta o preço de venda do negócio, é uma sorte do arrendatário, assim como a desvalorização seria seu prejuízo. O good-will social, nascido do crescimento da população e da riqueza da comunidade, acaba, conclui o autor, em favor de um proprietário ocioso."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os casos de monopólio são os mais nítidos. Na cantina militar sob controle exclusivo, o aluguel do good-will era pelo menos trinta vezes o do prédio. Nos armazéns de empresa em acampamentos de mineração e de madeira, com contrato exclusivo sobre o comércio dos trabalhadores, o arranjo pode ser legal, mas equivale a um monopólio. Foreman conclui que há duas formas de lucro não ganho: a do arrendatário, que vende mais e mais caro e pode vender o arrendamento, e a do proprietário, que recebe a valorização da terra."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como se calculam os lucros futuros?"
+            },
+            {
+              "tipo": "caixa",
+              "valor": "1 a 10",
+              "texto": "Número de anos de lucro líquido usado na prática comercial para avaliar o good-will, conforme o negócio. Um cirurgião teve o seu avaliado em dois anos de lucro; clínicas e escritórios de advocacia, em dois a três anos."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos negócios maiores, o good-will exige empresa em funcionamento e clientela estável. O presidente de uma fabricante de papel de parede declarou em juízo que a regra usada era a diferença entre dezesseis vezes o lucro líquido e os ativos tangíveis; na formação da International Harvester, o plano inicial avaliava o good-will das empresas fundidas pelo lucro dos dois anos anteriores mais 10%. Para o autor, ao aceitar essas práticas como base de suas decisões, os tribunais legalizam um excedente que resulta em boa parte de combinação e monopólio."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que dizem os contadores?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os contadores dividem-se em dois grupos. O primeiro capitaliza o lucro líquido médio de alguns anos; um manual citado manda tomar o lucro total de cinco anos e deduzir cinco anos de juros de 7% sobre o capital. O segundo capitaliza apenas o lucro acima de uma taxa normal sobre o capital investido, como propõem Hatfield e Kester; Hatfield chega a dizer que um monopólio, legal ou de fato, é base legítima para avaliar o good-will. Foreman vê nessa separação dos lucros excedentes uma inovação animadora, mas nota que nem os contadores separam a recompensa da eficiência do ganho de escassez."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o autor propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão traça uma linha. De um lado, os lucros mais ou menos permanentes da eficiência, devidos a vantagens técnicas e de organização; do outro, os ganhos não merecidos de escassez, que vêm da intensidade da demanda, da limitação da oferta, das restrições ao comércio e do monopólio. O good-will do consumidor, defende, deveria ser definido só pelo lado da demanda; seu lucro corrente seria então o retorno não ganho do mercado, base adequada para a renda da terra, e os ganhos de exploração deveriam ser eliminados por lei."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Confiar quase inteiramente no verdadeiro esforço econômico, um resultado muito desejado.”",
+              "original": "“rely almost wholly upon true economic effort—a much desired result”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo trata de um problema de mensuração que continua difícil: separar, no valor de uma empresa acima de seus ativos tangíveis, o que vem de custos menores e o que vem de poder de mercado ou de localização. Os métodos que Foreman descreve, de anos de lucro e de lucro excedente capitalizado, mostram que essa separação não sai da contabilidade; exige uma hipótese sobre qual seria o retorno normal.",
+                "O vínculo com a renda da terra é a parte mais interessante. Ao mostrar que o fisco britânico tributava o good-will como aluguel, o autor aproxima o fundo de comércio da renda ricardiana, um excedente que se acumula no ativo mais escasso, e sugere que a fronteira entre lucro e renda é, em boa parte, uma questão de definição jurídica."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Good-will",
+              "fundo de comércio; valor de uma empresa ligado à clientela, ao nome e à localização."
+            ],
+            [
+              "Lucro de eficiência",
+              "ganho que vem de custos menores ou melhor organização."
+            ],
+            [
+              "Lucro de escassez",
+              "ganho que vem de demanda intensa, oferta limitada ou monopólio."
+            ],
+            [
+              "Bar vinculado",
+              "estabelecimento obrigado a vender só a cerveja de uma cervejaria."
+            ],
+            [
+              "Lucro excedente",
+              "lucro acima de um retorno considerado normal sobre o capital."
+            ]
+          ],
+          "hoje": "A pergunta de Foreman reaparece na contabilidade moderna do ágio pago em aquisições e na análise antitruste: quanto do valor de uma empresa acima de seus ativos reflete eficiência e quanto reflete poder de mercado. A avaliação por múltiplos de lucro e por lucro excedente capitalizado segue em uso, e a dificuldade de definir o retorno normal continua no centro dessas discussões."
+        },
+        {
+          "slug": "llewellyn-instituicoes-juridicas-e-economia",
+          "titulo": "Llewellyn, 1925: o direito como freio e como lubrificante da economia",
+          "titulo_original": "The Effect of Legal Institutions upon Economics",
+          "autores": "K. N. Llewellyn (Yale University, School of Law)",
+          "paginas": "pp. 665–683",
+          "jstor": "ia-1925-12-p665",
+          "chamada": "K. N. Llewellyn, da Faculdade de Direito de Yale, examina como as instituições jurídicas condicionam a vida econômica, por que juízes e leis se adaptam mal às atividades especializadas e o que a economia oferece ao estudo do direito.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Numa reunião de economistas em Chicago, em 30 de dezembro de 1924, um professor de direito de Yale começou apontando uma contradição. Os juristas mais avançados pregavam algo próximo do determinismo econômico no direito; Commons, em Legal Foundations of Capitalism, insistia no papel decisivo do direito na vida econômica. K. N. Llewellyn conclui que a contradição é só de ênfase, e o artigo publicado no número de dezembro de 1925 da American Economic Review é a tentativa de mostrar como as duas coisas se condicionam."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não só uma obstrução, mas uma ferramenta; não só um freio, mas um lubrificante.”",
+              "original": "“not only an obstruction, but a tool; not only a brake, but a lubricant”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a escassez vale também para o direito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O fato central sobre as instituições jurídicas, diz Llewellyn, é que o direito opera sob o princípio da escassez. A energia disponível para a regulação social é limitada: a comunidade precisa comer, dormir e se reproduzir e não pode gastar toda a sua energia com o governo. Daí dois aspectos do controle legal. O primeiro é de engenharia: estudar o comportamento dos grupos e inventar mecanismos que obtenham o resultado desejado com o menor desperdício, custo e efeito colateral. O segundo é de economia: realizar uma política significa sacrificar outra."
+            },
+            {
+              "tipo": "p",
+              "texto": "A engenharia tem limites. Uma regra não pode contrariar os hábitos da comunidade, e mesmo um número pequeno de interessados pode bloquear a aplicação, como mostram a lei seca e as leis contra o trabalho infantil. O mesmo problema, sugere, aparece na tributação: achar o melhor ponto de apoio para a alavanca do governo. A empresa industrial, já usada para redistribuir o risco de acidentes, poderia sê-lo amanhã para o risco do desemprego. O autor compara a regulação de tarifas de serviços públicos com o tabelamento de preços durante a guerra: o resultado diferente dependeu da facilidade de aplicar o controle. Onde a demanda é estável e localizada e o mercado é fácil de inspecionar, o controle funciona mesmo contra resistência. O ponto de pressão tende a ser o centro de organização da produção, como na lei de alimentos e medicamentos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que juízes e leis se adaptam mal?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O grande problema jurídico da época, diz Llewellyn, é governar transações altamente especializadas com regras gerais, feitas para tratar igualmente todos os homens e lugares. As regras comuns ainda têm amplo papel: a segurança contra a violência, sem a qual nem os bancos existiriam, e a liquidez do crédito, que os juízes criaram ao adotar os costumes mercantis sobre títulos negociáveis. Mas, nas matérias técnicas, os juízes são leigos tentando resolver uma disputa que não entendem por uma regra cujo alcance não conseguem prever."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os exemplos são de direito comercial. A hipoteca aplicada a um negócio que só pode ser reorganizado, e não liquidado, torna-se pouco mais que um direito sobre a renda, mas a forma antiga se mantém, ao custo de um imposto privado pago aos advogados. Em muitos estados, uma hipoteca sobre o estoque de um comerciante continua nula, enquanto a de um caminhão é válida. As leis ajudam, mas os legisladores também são leigos em matéria técnica. O direito administrativo, com especialistas e decisões rápidas, é um avanço, limitado pela revisão judicial, pelos problemas de pessoal e pela pressão dos interesses privados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem faz as regras que funcionam?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A resposta de Llewellyn está nos próprios interessados. Associações de todo tipo, empresas, sindicatos, associações de fabricantes e cooperativas, criam regras de ação e resolvem suas disputas dentro dos limites fixados pelo Estado. São regras de trabalho de uma atividade técnica, justamente as que as instituições oficiais não conseguem construir. Os contratos padronizados são outro exemplo: há os desequilibrados, como arrendamentos e apólices, escritos pela parte profissional e corrigidos em parte pelos tribunais, que os interpretam contra quem os redigiu; e os equilibrados, negociados entre organizações."
+            },
+            {
+              "tipo": "p",
+              "texto": "O caso exemplar é o contrato padrão da indústria do cinema, que prevê arbitragem para todas as disputas, embora na maioria dos estados o acordo de arbitragem ainda não fosse exigível em juízo. Os resultados relatados: regras feitas pelos interessados e adaptadas às suas necessidades, rapidez, decisões tomadas por quem conhece o ramo e soluções que funcionam, em vez de declarar um lado certo e o outro errado. Para o autor, o contrato padronizado com arbitragem é um instrumento de controle de rara eficácia para atividades especializadas, e a negociação coletiva é a forma mais promissora."
+            },
+            {
+              "tipo": "p",
+              "texto": "Llewellyn atribui boa parte da lentidão do direito não aos juízes, mas à profissão: são os advogados que inventam as adaptações, e a sua posição explica por que o direito se adapta mais rápido nos negócios do que no trabalho. Aponta também os limites do direito feito por acordo: a integração entre produtores organizados pode ameaçar o consumidor desorganizado, sobretudo quando a demanda é inelástica, e a busca de diferenciais de preço por quem administra as empresas como vitrine para manobras financeiras ameaça a operação de longo prazo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o direito ensina à teoria econômica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor enumera contribuições. O direito fixa e garante os pressupostos da ordem econômica: violência e fraude punidas, ganhos lícitos protegidos, mudanças lentas. Fornece a maquinaria da concorrência, como o contrato transferível e a representação. Restringe a concorrência para muitos fins, das proibições de discriminação de preços às patentes. Molda produção e distribuição pela tributação. E limita a barganha pelas regras de trabalho: a troca do risco do comprador por uma garantia razoável altera preços, e a indenização por acidentes de trabalho joga sobre a indústria custos antes ignorados."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "30 de dezembro de 1924",
+              "texto": "Data em que o texto foi lido na reunião anual da American Economic Association, em Chicago. O autor declara dívida com Sumner, Holmes, Veblen, Commons e Pound."
+            },
+            {
+              "tipo": "p",
+              "texto": "O direito, insiste o autor, não é só freio: também torce o desenvolvimento econômico para formas imprevistas. Antes das leis que as autorizaram, cooperativas de agricultores fracassaram porque as penalidades combinadas para manter os membros na linha foram anuladas pelos tribunais. A regra de Marshall de que o poder de tributar é o poder de destruir, com o imposto de renda, desviou capital para títulos isentos. E Llewellyn estranha a pouca atenção dada à dupla função do mercado, que ao mesmo tempo mede a parte de cada um no produto social e distribui a energia produtiva da sociedade: nenhum aspecto de uma função, diz, pode ser julgado sem olhar seus efeitos sobre a outra."
+            },
+            {
+              "tipo": "p",
+              "texto": "No fim, Llewellyn inverte a direção e reconhece o que a economia oferece ao estudo do direito: o conceito de escassez de energia para aplicar as leis, a escolha entre políticas, a analogia com oferta e demanda e, sobretudo, os conceitos marginais. As regras contra a agressão, observa, só entram em jogo na margem individual, quando a paixão ultrapassa o autocontrole; e o valor de uma instituição se revela melhor nos seus limites, como o da propriedade nas restrições à propriedade."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto antecipa a ideia de que regras e instituições têm custo de funcionamento e de que a escolha entre tribunal, lei, agência e autorregulação depende desse custo. O princípio de escassez aplicado ao controle legal transforma o direito num problema de alocação: onde aplicar a energia disponível, com que instrumento, a que custo.",
+                "A parte sobre contratos padronizados e arbitragem é a mais concreta. Llewellyn mostra que a regra que funciona numa atividade especializada tende a ser feita por quem a pratica, e que o papel do Estado passa a ser fixar os limites dessa autorregulação, sobretudo quando as partes organizadas podem transferir custos para quem não está à mesa."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Engenharia jurídica",
+              "escolha dos meios de controle legal que atingem um objetivo ao menor custo."
+            ],
+            [
+              "Contrato padronizado",
+              "contrato de cláusulas fixas usado por todo um ramo de atividade."
+            ],
+            [
+              "Arbitragem",
+              "solução de disputas por árbitros escolhidos pelas partes, fora dos tribunais."
+            ],
+            [
+              "Direito administrativo",
+              "regras e decisões de agências especializadas do governo."
+            ],
+            [
+              "Regras de trabalho",
+              "termo de Commons para as normas que regem as transações de uma atividade."
+            ]
+          ],
+          "hoje": "A discussão de Llewellyn sobre o custo de aplicar regras, a escolha entre tribunais, agências e autorregulação e o papel da arbitragem comercial atravessou o século. A arbitragem tornou-se o meio usual de resolver disputas em muitos setores especializados, e a análise econômica do direito trata como questão central a comparação de custos e incentivos entre instituições alternativas."
+        },
+        {
+          "slug": "snyder-os-juros-e-o-ciclo-de-negocios",
+          "titulo": "Snyder, 1925: os juros governam o ciclo de negócios?",
+          "titulo_original": "The Influence of the Interest Rate on the Business Cycle",
+          "autores": "Carl Snyder",
+          "paginas": "pp. 684–699",
+          "jstor": "ia-1925-12-p684",
+          "chamada": "Carl Snyder classifica os empréstimos americanos por tipo e taxa, compara meio século de juros e negócios e conclui que o custo do dinheiro não é, em si, fator decisivo do ciclo.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Uma venda a prazo de 60 dias, com 5% de desconto para pagamento à vista, embute juros de 35% ao ano, calcula Carl Snyder. É a taxa comercial mais alta que se conhece fora das casas de penhor, e ninguém que possa tomar dinheiro de outro modo a paga, salvo em pequenas quantias. O exemplo abre um levantamento de todos os tipos de crédito nos Estados Unidos, com uma pergunta: quais são as taxas típicas do país, quanto variam e quanto essa variação influi no ciclo de negócios?"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Que taxa de juros importa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Snyder parte de uma crítica. Supõe-se que a taxa do papel comercial de 60 ou 90 dias seja a taxa típica e que suas oscilações representem os juros em geral; na verdade, ela se aplica a talvez 1% do dinheiro emprestado no país. O autor lista os tipos de empréstimo em ordem decrescente de variabilidade: o call money em Nova York, de 1 a quase 2,5 bilhões de dólares em empréstimos; o papel comercial; o redesconto dos bancos do Federal Reserve; os aceites bancários; a linha de crédito dos bancos aos clientes, de 15 a 20 bilhões; os títulos de empresas e de governos; as hipotecas urbanas e rurais; e o vasto crédito comercial entre fornecedores e clientes, que considera o mais influente para o ciclo."
+            },
+            {
+              "tipo": "p",
+              "texto": "O total emprestado de uma classe de pessoas a outra chegaria a algo como 120 ou 130 bilhões de dólares. Comparado com as ações das empresas, estimadas em cerca de 30 bilhões, e com o capital das cerca de dois milhões de firmas registradas pelas agências de crédito, o número sugere que mais da metade do capital empresarial do país, fora a agricultura, viria de recursos emprestados. A priori, conclui Snyder, a variação dos juros poderia parecer uma influência profunda sobre os negócios."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quanto variam as taxas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Pouco, para o grosso dos recursos. As hipotecas e os títulos públicos quase não variam no ciclo. Milhares de bancos cobram 6% ou 7% ano após ano, conforme a região e a lei estadual; a variação está nos arranjos, como o saldo médio exigido do cliente, que Snyder estima em cerca de 20% em média. Com taxa nominal de 6% e um quinto do empréstimo retido no banco, o custo real é de 7,5%. Nos grandes bancos das cidades, dados do Federal Reserve para 35 centros desde 1919 mostram mais variação: em Nova York, de menos de 5,5% em 1919 a 7% em 1920 e parte de 1921."
+            },
+            {
+              "tipo": "p",
+              "texto": "As taxas que oscilam muito são as dos empréstimos marginais. O call money chegou a 100% ou mais no boom das ações de 1906 e 1907; desde a guerra, com o Federal Reserve e o mercado de aceites, raramente passou de 10%. Os recursos atraídos a Nova York pelas taxas altas, estima o autor, nunca passaram de 3% ou 4% dos fundos emprestáveis do país. Ele compara esses empréstimos a um pequeno reservatório ligado a um grande corpo de água: uma pequena subida ou descida no corpo principal provoca enorme acréscimo ou drenagem no reservatório."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“A variabilidade dos juros é inversamente proporcional ao total dos fundos envolvidos.”",
+              "original": "“in inverse proportion to the total amounts of the funds involved”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Snyder formula duas leis. A variabilidade das taxas entre os tipos de empréstimo é inversamente proporcional ao volume de recursos de cada tipo, e também inversamente proporcional ao prazo: a menor variação está nas hipotecas e nos títulos longos, a maior no call money diário. Os bancos protegem seus clientes permanentes, e uma flutuação do comércio de 10% ou 15% pode causar variação de 50% ou mais nos fundos disponíveis para a especulação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que move os juros no longo prazo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O valor da moeda. Quando a moeda é depreciada, os juros sobem com o tempo; quando seu poder de compra aumenta, caem. Snyder não vê nisso uma ação consciente: a maioria dos investidores continua comprando títulos por serem “seguros” mesmo quando a queda do principal elimina o retorno real, o que Irving Fisher chamou de juros negativos. Mas, nos últimos 25 ou 30 anos, os juros longos acompanharam o nível de preços mais do que qualquer outra influência. A maior alta de juros em meio século, de 1917 a 1920, seguiu com a defasagem usual de cerca de um ano a maior alta de preços desde a Guerra Civil."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há exceções. Negócios em alta, grande onda de construção e boom acionário podem coexistir com juros muito baixos, como no último ano, diz Snyder, e em 1891 e 1892, pouco antes do pânico de 1893. E só em depreciação extraordinária, como na Alemanha, empresários como Stinnes tomaram grandes somas a quase qualquer taxa; por muito tempo depois da queda do marco, os juros alemães continuaram relativamente baixos, embora os credores perdessem o principal."
+            },
+            {
+              "tipo": "p",
+              "texto": "Já o comércio, ao contrário da crença popular, não cresceu na guerra mais que em outros períodos de atividade. Snyder explica que medidas como produção de ferro-gusa e tráfego ferroviário exageravam as variações; um novo índice do volume de comércio, derivado dos débitos bancários corrigidos pelos preços e pela sazonalidade, permitiu reconstruir meio século de negócios. Nele, nenhuma variação de 30% ou 40% do comércio aparece nos últimos 25 anos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem vem primeiro, os juros ou os negócios?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Comparando o índice com a taxa do papel comercial, Snyder encontra relações de tempo semelhantes às que Warren M. Persons achara para 1903 a 1913. As retomadas começaram com juros em queda, muitas vezes bem antes do ponto mais baixo dos juros, e a alta dos juros veio de dez a quinze meses depois. O pico dos negócios chegou ainda antes do pico dos juros, às vezes dezoito meses ou dois anos antes, como em 1901 a 1903, e muitas vezes quando os juros cruzavam a média de meio século."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4,93%",
+              "texto": "Média de cinquenta anos da taxa do papel comercial, segundo o autor. Fora de pânicos e depressões, raramente caiu abaixo de 3% ou subiu muito acima de 6%; a taxa paga pelas empresas aos bancos fica, com raras exceções, entre 5,5% e 7,5%."
+            },
+            {
+              "tipo": "p",
+              "texto": "Uma diferença de 2 pontos, argumenta Snyder, dificilmente controla a tendência dos negócios. Nos booms, os empresários não se intimidam com juros altos; nas depressões, não tomam muito dinheiro só porque está barato. Até as ferrovias, para quem os juros pesam muito, raramente tomam empréstimos quando o dinheiro está barato, porque isso costuma coincidir com comércio fraco. A contabilidade de custos confirma que os juros são, em geral, item pouco importante. Os juros altos aparecem como consequência da expansão e da especulação."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Então por que se acredita no contrário?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Snyder oferece duas explicações. Antes da guerra, a taxa de juros era um ótimo indicador da direção do comércio, num país de alta mortalidade de empresas e de bancos; o risco dos empréstimos, estima, caiu desde a Guerra Civil para não mais que um quarto do que era. E os juros são, de fato, decisivos para a especulação com ações, que por muito tempo foi o barômetro preferido dos homens de negócios. O medo continua a pesar, e juros em alta são lidos como mau sinal."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a contribuição mais duradoura do artigo é distinguir a taxa que se observa da taxa que se paga. A taxa mais citada era a mais volátil e a que menos pesava nos balanços; o grosso do crédito corria a taxas quase fixas. Daí a conclusão de que a influência direta dos juros sobre o ciclo seria menor do que se supunha, com consequências, como o autor nota, para a ideia de estabilizar os negócios pela taxa de redesconto.",
+                "O método também chama a atenção. Snyder não discute a teoria dos juros; reconstrói séries, mede volumes por tipo de crédito e compara defasagens ao longo de meio século. O argumento depende de índices novos, de débitos bancários, que ele mesmo construiu, e da observação de que os juros longos acompanham a inflação com cerca de um ano de atraso."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Call money",
+              "empréstimo diário a corretores, garantido por ações, com taxa muito variável."
+            ],
+            [
+              "Papel comercial",
+              "nota promissória de curto prazo emitida por empresas e negociada no mercado."
+            ],
+            [
+              "Taxa de redesconto",
+              "taxa cobrada pelos bancos do Federal Reserve ao emprestar aos bancos."
+            ],
+            [
+              "Saldo médio",
+              "depósito que o banco exige que o cliente mantenha, elevando o custo real do empréstimo."
+            ],
+            [
+              "Débitos bancários",
+              "valor dos cheques sacados nas contas, usado como medida da atividade."
+            ]
+          ],
+          "hoje": "A distinção entre a taxa de mercado mais visível e as taxas efetivamente pagas por empresas e famílias segue central no estudo da transmissão da política monetária. Bancos centrais acompanham as taxas de empréstimos bancários, de títulos longos e de financiamento imobiliário, e não só a taxa de curtíssimo prazo que controlam. A relação entre juros longos e inflação esperada, que Snyder observava nas séries, tornou-se peça padrão da análise dos juros."
+        },
+        {
+          "slug": "moulton-dividas-de-guerra-e-teoria-do-comercio",
+          "titulo": "Moulton, 1925: as dívidas de guerra contra a teoria clássica",
+          "titulo_original": "War Debts and International Trade Theory",
+          "autores": "H. G. Moulton",
+          "paginas": "pp. 700–716",
+          "jstor": "ia-1925-12-p700",
+          "chamada": "H. G. Moulton responde aos críticos de seus estudos sobre as reparações alemãs e contesta a teoria clássica segundo a qual o ajuste dos preços produz automaticamente o excedente de exportações necessário aos pagamentos.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Alguns amigos de H. G. Moulton, conta ele, tiveram a gentileza de lhe indicar artigos e livros que o corrigiriam sobre os fundamentos das finanças internacionais. Os estudos do Institute of Economics sobre a capacidade alemã de pagar reparações, escritos para um público não especializado, tinham evitado discutir a teoria, e alguns resenhistas concluíram que os autores a ignoravam. No número de dezembro de 1925 da American Economic Review, Moulton aceita a discussão “em boa forma acadêmica”, e informa que foi criado na tradição clássica e que suas posições atuais resultam dos estudos indutivos."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que diz a teoria aceita?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton toma como referência a exposição de Taussig na reunião da American Economic Association de 1919. Com padrão-ouro, a ordem dos eventos seria: o governo alemão compra divisas, o câmbio sobe, o ouro sai, os preços caem na Alemanha e sobem no exterior, as exportações crescem e as importações caem, até que o excedente comercial se iguale às remessas. Com papel-moeda, a depreciação do câmbio, mais rápida que a alta dos preços internos, daria vantagem aos exportadores e atrairia trabalho e capital para as indústrias de exportação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton ressalta que o próprio Taussig, com o realismo que lhe atribui, qualificava a teoria: as políticas comerciais dos aliados dificultariam as exportações alemãs, o governo alemão teria de estimulá-las deliberadamente, e o ganho dos credores viria com perturbações, sofridas duas vezes, no início e no fim do processo. Outros autores não fazem ressalvas. Frank D. Graham escreve que o processo pode ocorrer quase sem ser percebido, e B. M. Anderson vê uma relação matemática entre excedente orçamentário e excedente de exportações."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que os estudos do instituto realmente disseram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton resume duas teses. A primeira: a longo prazo, o excedente de exportações governa o que se pode pagar, e entregar títulos, públicos ou privados, não elimina a necessidade de pagar em bens. Os aliados já tinham 50 bilhões de marcos em títulos do governo alemão. A segunda: a Alemanha precisa importar. Para manter a população em eficiência física e as fábricas perto da capacidade de antes da guerra, seriam necessários cerca de 14 bilhões de marcos-ouro de importações por ano; em 1922, as importações foram de cerca de 6,2 bilhões, e as exportações, menos da metade de 14 bilhões."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "16,2 bilhões",
+              "texto": "Exportações alemãs de 1913, em valores de 1922 e marcos, segundo o estudo; as importações eram de 17,2 bilhões e poderiam cair a 14 bilhões sem afetar as exportações, o que deixaria um excedente considerável."
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton nega ter afirmado que um excedente de exportações fosse impossível; diz que nunca escreveu algo tão tolo. O estudo concluíra que grandes pagamentos exigiriam manter o padrão de vida alemão perto do mínimo de subsistência e salários e custos abaixo dos do resto do mundo, para que a Alemanha vendesse mais barato que seus concorrentes. E, mesmo resolvida a produção, restaria o problema dos mercados. Em nota, acusa Graham de atribuir aos autores, em frases em itálico que parecem citações, a tese de que a Alemanha não poderia desenvolver excedente."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde está o desacordo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro ponto é a ênfase nas importações. Economistas da tradição clássica sustentavam que as exportações de um país são um fundo livre, que pode comprar importações, financiar investimentos ou pagar dívidas, sem nenhuma importação necessária. Moulton vê nisso uma herança da era pré-industrial, de exemplos com trigo e tecido: cerca de 15 milhões de alemães passariam fome sem importações de alimentos, e o sistema fabril pararia sem matérias-primas. A ideia de indústrias de importação separadas das de exportação, diz, não corresponde a uma economia industrial."
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo ponto é a tese de que a capacidade de pagar é o excesso da produção sobre o consumo, estimado antes da guerra em cerca de 8 bilhões de marcos-ouro por ano. Para Moulton, essa poupança tomava a forma de ferrovias, portos, fábricas, casas e benfeitorias agrícolas, e boa parte dela precisa continuar sendo investida no país para repor a depreciação, acompanhar a técnica e equipar a população que cresce. Só uma pequena parte do excesso poderia virar exportação, e uma grande reorganização da indústria alemã reduziria, em vez de aumentar, os pagamentos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O terceiro ponto são os efeitos sobre os credores. As dívidas de guerra não se parecem com os empréstimos comerciais de antes da guerra, que expandiam a capacidade produtiva do devedor. Moulton relata conversas em que colegas admitem que os pagamentos poderiam deprimir a agricultura e a indústria americanas, mas mantêm que, na teoria, o credor ganha. Os casos práticos citados são as entregas de navios alemães, que deprimiram a navegação aliada, e de carvão, que beneficiaram a França e restringiram os mercados do carvão britânico."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mostraram os fatos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton aceita o primeiro elo da teoria: a depreciação do câmbio torna o país um mercado barato e estimula as exportações. Não aceita que isso produza um excedente igual às obrigações. A depreciação também desorganiza a moeda e o orçamento. Pelo acordo de Londres de 1921, a Alemanha devia 2 bilhões de marcos-ouro por ano mais 26% das exportações; no primeiro semestre, o exigido foi só 1 bilhão, e foi justamente então que começou a desintegração do sistema financeiro alemão. Os exemplos de Estados Unidos e Canadá, que pagaram dívidas com excedentes, envolviam empréstimos que tinham ampliado sua produção, como uma empresa que paga o crédito tomado para expandir a fábrica, e não a multa imposta depois de um incêndio sem seguro."
+            },
+            {
+              "tipo": "p",
+              "texto": "Moulton examina as respostas dos defensores da teoria. Graham dissera que a Alemanha teve excedente se contados os marcos vendidos ao exterior; que ela não poderia cumprir obrigações “impossíveis”; e que a teoria trata de um mundo ordenado, não do caos. Moulton pergunta por que “impossíveis”, se o excedente se formaria automaticamente; lembra que a teoria fora apresentada como guia para a política de reparações, inclusive com papel-moeda; e cita o Comitê McKenna, para quem as vendas de marcos de 1919 a 1923 somaram só cerca de 8 bilhões de marcos-ouro. Nota também que a França, com a queda do franco, teve temporariamente excedente de exportações quando seu déficit orçamentário passava de 16 bilhões de francos."
+            },
+            {
+              "tipo": "p",
+              "texto": "O autor rejeita ainda a ideia de que um excedente orçamentário, por si, reduziria os preços alemães: o dinheiro arrecadado volta a circular quando os estrangeiros o gastam em bens alemães, e muitos impostos alemães são repassados aos preços. Subir a taxa de desconto também elevaria custos de empresas que tomavam capital de giro a juros altos. Para Moulton, a decisão do Comitê Dawes de administrar o câmbio de forma coordenada e contínua é a lição da experiência europeia do pós-guerra."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Cada vez mais impressionado com o perigo de tentar formular uma lei de aplicação universal.”",
+              "original": "“impressed with the danger of trying to formulate a law of universal applicability”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um capítulo do debate sobre o problema da transferência, que voltaria a opor Keynes e Ohlin poucos anos depois. Moulton desloca a pergunta do mecanismo de preços para a estrutura da economia devedora: quais importações são indispensáveis, quanta poupança pode virar exportação, que mercados aceitarão os produtos. A teoria clássica supõe que o ajuste se faz pelos preços relativos; ele argumenta que o ajuste, quando forçado, também desorganiza moeda, orçamento e produção.",
+                "O ponto mais geral é sobre o uso da teoria. Moulton não nega a tendência descrita por Taussig; nega que ela determine o resultado. A diferença entre uma tendência verdadeira e um prognóstico confiável, que ele expõe nas conversas sobre o que é teoricamente certo e praticamente falso, continua no centro de qualquer discussão sobre ajuste externo."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Reparações",
+              "pagamentos impostos à Alemanha pelos vencedores da Primeira Guerra Mundial."
+            ],
+            [
+              "Excedente de exportações",
+              "valor das exportações acima das importações, fonte de divisas para pagar dívidas externas."
+            ],
+            [
+              "Problema da transferência",
+              "dificuldade de converter recursos internos em pagamentos ao exterior."
+            ],
+            [
+              "Marco-ouro",
+              "unidade de conta alemã com valor fixado em ouro, usada nas reparações."
+            ],
+            [
+              "Plano Dawes",
+              "acordo de 1924 que reorganizou os pagamentos alemães e criou controle sobre o câmbio."
+            ]
+          ],
+          "hoje": "A discussão de Moulton com os teóricos clássicos reaparece sempre que um país precisa gerar grandes superávits externos para pagar dívidas: quanto do ajuste vem de câmbio e preços, quanto exige compressão da demanda interna, e se os parceiros comerciais aceitarão as exportações adicionais. Crises de dívida soberana e programas de ajuste externo continuam a pôr à prova a distância entre o mecanismo de ajuste descrito pela teoria e o que se consegue transferir na prática."
+        },
+        {
+          "slug": "clark-diagramas-tridimensionais-de-precos",
+          "titulo": "Clark, 1925: três dimensões não bastam para a oferta e a procura",
+          "titulo_original": "Further Discussion of Three-Dimensional Price Diagrams",
+          "autores": "J. M. Clark (University of Chicago)",
+          "paginas": "pp. 717–719",
+          "jstor": "ia-1925-12-p717",
+          "chamada": "Numa comunicação, J. M. Clark comenta os diagramas tridimensionais de preços de Silberling e Wolfe e contesta três pontos sobre curvas de oferta, custo marginal e raciocínio circular.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "A discussão vinha de dois artigos na própria revista: o de Silberling, de setembro de 1924, que propôs diagramas tridimensionais de oferta e demanda, e o de Wolfe, de junho de 1925, que acrescentou as curvas de demanda individuais. Para J. M. Clark, da University of Chicago, os dois reforçam a conclusão a que ele já chegara: três dimensões não bastam para exprimir a complexidade do comportamento da demanda, do custo e do valor."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que três dimensões são poucas?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Há tantos aspectos a representar, argumenta Clark, que o diagrama tridimensional ainda escolhe uma só coisa a acrescentar ao gráfico de duas dimensões e deixa tantas de fora que fica só um pouco menos incompleto. Edgeworth usara três dimensões para mostrar o custo de uma fábrica com dois produtos complementares; mais um subproduto, e só restaria a álgebra. As empresas de eletricidade usavam algo equivalente para separar oscilações diárias e sazonais da demanda. Três dimensões poderiam ainda separar o efeito de variar a produção com capacidade fixa do de expandir a capacidade, o que corresponde à distinção entre curto e longo prazo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que Clark contesta?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O primeiro ponto é a curva de linha de massa. Nela, cada produtor é um retângulo, com largura igual à produção e altura igual ao custo médio, ordenados por altura; os produtores de custo mais alto, de 10% a 15% da produção, operam com prejuízo. Clark observa que a curva não mostra o custo marginal de ninguém e que, se fosse uma curva de oferta, não haveria produtores com prejuízo. Historicamente, essa franja de alto custo se recria sempre: se os custos mais altos caíssem ao nível atual da linha de massa, o preço não ficaria igual, cairia para uma nova linha."
+            },
+            {
+              "tipo": "p",
+              "texto": "O segundo ponto é a tese de Silberling de que, numa indústria de custos crescentes como a agricultura, a demanda maior poderia levar a uma curva de oferta abaixo da original. Clark aceita que a curva de linha de massa se desloque assim, mais para a direita do que para baixo, mas não a curva de custo marginal: mesmo o produtor de baixo custo produz parte da safra a um custo marginal próximo do preço, e não pode aumentar a produção sem elevá-lo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Clark diz concordar com muito do que Silberling escreve, sobretudo sobre a irreversibilidade de certas curvas. Mas sustenta que a curva de oferta correspondente à situação revelada por uma linha de massa fica abaixo dela, ao menos nos limites usuais de variação, e talvez em toda a extensão. O próprio Silberling, nota, sabe que há produtores com prejuízo, e mesmo assim usa a curva como curva de oferta em seus diagramas."
+            },
+            {
+              "tipo": "p",
+              "texto": "O terceiro ponto é a afirmação de que pôr uma curva de custo marginal contra uma curva de demanda envolveria raciocínio circular, porque a primeira dependeria da segunda. Clark admite que a curva de curto prazo vale para um número dado de fábricas, cuja escala depende da expectativa normal de demanda; por isso é falacioso opor oferta de curto prazo a demanda de longo prazo. Mas pergunta se há circularidade ao opor uma verdadeira oferta de longo prazo a uma demanda de longo prazo. O custo marginal de um milhão de unidades, exemplifica, será um numa indústria ajustada a um milhão e um quarto e outro numa ajustada a três quartos de milhão."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uma aproximação da realidade; mas, ao menos, não parece envolver raciocínio circular.”",
+              "original": "“an approximate guide to reality; but, at least, it does not seem to involve circular reasoning”"
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a comunicação é uma defesa da distinção entre o equilíbrio estático, construção abstrata, e a história efetiva dos preços. Clark reconhece que o gráfico tridimensional de Silberling indica bem a relação entre flutuações e tendências, mas sustenta que a curva de oferta tradicional responde a outra pergunta: que produção seria mantida a cada preço permanente, sem mudanças históricas. A confusão entre custo médio dos produtores e custo marginal da indústria está no centro da discussão."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Curva de linha de massa",
+              "gráfico que ordena os produtores pelo custo médio, com a largura proporcional à produção."
+            ],
+            [
+              "Custo marginal",
+              "custo de produzir uma unidade a mais."
+            ],
+            [
+              "Indústria de custos crescentes",
+              "aquela em que produzir mais eleva o custo unitário, como a agricultura."
+            ],
+            [
+              "Equilíbrio estático",
+              "situação abstrata em que preços e quantidades não mudam."
+            ]
+          ],
+          "hoje": "A distinção entre custo médio dos produtores e custo marginal da oferta, e entre ajustes de curto e de longo prazo, tornou-se matéria básica dos manuais de microeconomia. Curvas que ordenam produtores pelo custo continuam usadas na análise de mercados de energia e de mineração, e a advertência de Clark sobre o que elas mostram e o que não mostram segue pertinente."
+        },
+        {
+          "slug": "oberle-a-regulacao-das-tarifas-de-servicos-publicos",
+          "titulo": "Oberle, 1925: tarifas pelo custo do serviço, não pelo investimento",
+          "titulo_original": "Regulating Public Utility Rates",
+          "autores": "William E. Oberle (Filadélfia)",
+          "paginas": "pp. 719–720",
+          "jstor": "ia-1925-12-p719",
+          "chamada": "Em comunicação breve, William E. Oberle questiona a regulação de tarifas baseada no valor do investimento e propõe comparar lucros com o custo total de prestar o serviço.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "As ferrovias americanas, dizia-se, rendiam apenas 4,38% sobre o investimento. A queixa fazia parte das reclamações constantes, que Oberle diz acompanhar com interesse, sobre lucros insuficientes atribuídos a uma regulação restritiva. William E. Oberle, de Filadélfia, aceita que a conta possa estar certa e pergunta se a base está: seja o registro contábil do custo, feito pelas próprias ferrovias, seja a avaliação para fins tarifários que o governo federal conduzia desde a lei de avaliação de 1913. Essa avaliação, observa, já custara ao público 100 milhões de dólares."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que desconfiar do valor do investimento?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando a avaliação terminar, prevê Oberle, o governo chegará a 3 bilhões de dólares a menos que as empresas. E, mesmo com todos os dados, ninguém saberá se se investiu dinheiro demais nesse meio de transporte para o serviço prestado e esperado. Para ele, custo, valor ou como se queira chamar os ativos pouco têm a ver com o valor do serviço, que é o cerne do que as comissões reguladoras tentam alcançar. A imagem é dele: o valor do serviço é o miolo da noz que todas as comissões tentam quebrar."
+            },
+            {
+              "tipo": "p",
+              "texto": "A interpretação jurídica em vigor, diz, favorece o investimento mais alto, sem olhar para o custo do serviço ou para o seu valor ao público. A empresa com mais capital pode ter custo mais alto por excesso de despesas gerais, má administração ou economias negligenciadas, e cobrar mais por isso. Assim, não há incentivo nem obrigação de reduzir despesas, o que beneficiaria a empresa, com lucros maiores, e o público, com serviço melhor."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o autor propõe?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Como a função principal da regulação é fixar tarifas, Oberle propõe considerar o lucro em relação ao custo total de fazer negócio: despesas operacionais, impostos, dividendos de ações ordinárias e preferenciais e juros de toda a dívida. Na conta entrariam os juros das dívidas hipotecárias, dos títulos com garantia, dos títulos de renda, das obrigações de equipamento e de outras obrigações. Essa relação seria comparada entre serviços públicos semelhantes ou diferentes, na mesma base. Se a comparação mostrasse que um serviço custa caro demais, apressaria uma de duas coisas: a redução do custo, pelo avanço forçado da técnica, ou a substituição por outro serviço."
+            },
+            {
+              "tipo": "p",
+              "texto": "Pelo critério jurídico atual, diz o autor, as ferrovias podem estar ganhando sobre o custo do negócio muito mais do que mereceriam, ou o contrário, se comparadas entre si e com outros serviços; e outros serviços públicos talvez não recebam a mesma proteção que as ferrovias. Se parte dos 100 milhões gastos na avaliação tivesse ido para esse tipo de investigação, muitos problemas tarifários estariam resolvidos."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Substituir pelos princípios da economia os preceitos jurídicos confusos e enganosos.”",
+              "original": "“Substituting the principles of economics ... for the heretofore confusing and misleading legal precepts”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A crítica final é dirigida aos preceitos jurídicos das leis La Follette e de Transportes. Os princípios da economia e métodos estatísticos bem interpretados, conclui Oberle, acelerariam o progresso nesse campo, em vez de retardá-lo."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a comunicação toca o dilema permanente da regulação por taxa de retorno: quando a tarifa remunera o capital investido, a empresa não tem incentivo a reduzir custos, e o regulador gasta recursos enormes discutindo o valor da base. A alternativa de Oberle, comparar empresas pelo custo do serviço, aproxima-se da ideia de regulação por comparação entre empresas, em que o desempenho de uma serve de referência para a tarifa das outras.",
+                "A proposta de comparar também setores diferentes, ferrovias com outros serviços públicos, é a parte mais ambiciosa. Ela trata a regulação como um problema de eficiência relativa: se um serviço custa mais que outro capaz de substituí-lo, a tarifa não deveria proteger o mais caro. Para isso, a comparação entre atividades com tecnologias e riscos distintos exige uma base comum de medida, que o autor encontra no custo total do serviço."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Serviço público",
+              "empresa de transporte, energia ou comunicação sujeita a regulação de tarifas."
+            ],
+            [
+              "Base tarifária",
+              "valor do capital sobre o qual a regulação calcula o retorno permitido."
+            ],
+            [
+              "Lei de avaliação de 1913",
+              "lei que mandou avaliar os ativos das ferrovias americanas para fins de regulação."
+            ],
+            [
+              "Custo do serviço",
+              "soma de despesas, impostos, dividendos e juros necessária para prestar o serviço."
+            ]
+          ],
+          "hoje": "A crítica de Oberle à regulação baseada no capital investido antecipa debates que levaram, décadas depois, a modelos de preço-teto e de comparação entre empresas reguladas, adotados em vários países para setores de energia, saneamento e telecomunicações. A dificuldade de medir a base de ativos e o incentivo a inflar o capital continuam entre os temas centrais da regulação de serviços públicos."
+        }
+      ],
+      "itens": [
+        [
+          "What Has the Federal Trade Commission Accomplished?",
+          "pp. 625–651",
+          "ia-1925-12-p625"
+        ],
+        [
+          "Computation of Good-Will Profits",
+          "pp. 652–664",
+          "ia-1925-12-p652"
+        ],
+        [
+          "The Effect of Legal Institutions upon Economics",
+          "pp. 665–683",
+          "ia-1925-12-p665"
+        ],
+        [
+          "The Influence of the Interest Rate on the Business Cycle",
+          "pp. 684–699",
+          "ia-1925-12-p684"
+        ],
+        [
+          "War Debts and International Trade Theory",
+          "pp. 700–716",
+          "ia-1925-12-p700"
+        ],
+        [
+          "Further Discussion of Three-Dimensional Price Diagrams: A Communication",
+          "pp. 717–719",
+          "ia-1925-12-p717"
+        ],
+        [
+          "Regulating Public Utility Rates: A Communication",
+          "pp. 719–720",
+          "ia-1925-12-p719"
+        ],
+        [
+          "Review: Papers Relating to Political Economy by Edgeworth",
+          "pp. 721–724",
+          "ia-1925-12-p721"
+        ],
+        [
+          "Review: Origins of Sociology by Small",
+          "pp. 724–727",
+          "ia-1925-12-p724"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "pp. 727–731",
+          "ia-1925-12-p727"
+        ],
+        [
+          "Review: Die Problematik des wirtschaftlichen Prinzips by Halberstaedter",
+          "p. 727",
+          "ia-1925-12-x1"
+        ],
+        [
+          "Review: Starting-Points in Social Science by Keller",
+          "p. 728",
+          "ia-1925-12-p728"
+        ],
+        [
+          "Review: Economics for Citizenship by Moriarty",
+          "p. 728",
+          "ia-1925-12-x2"
+        ],
+        [
+          "Review: Principles of Comparative Economics by Mukerjee",
+          "p. 728",
+          "ia-1925-12-x3"
+        ],
+        [
+          "Review: The Law of Diminishing Returns by Spillman and Lang",
+          "p. 729",
+          "ia-1925-12-p729"
+        ],
+        [
+          "Review: The Social Theory of Georg Simmel by Spykman",
+          "p. 730",
+          "ia-1925-12-p730"
+        ],
+        [
+          "Review: La Production des Richesses by Masse",
+          "pp. 731–734",
+          "ia-1925-12-p731"
+        ],
+        [
+          "Review: Production in India by Das",
+          "pp. 734–736",
+          "ia-1925-12-p734"
+        ],
+        [
+          "Review: The New History and the Social Studies by Barnes",
+          "pp. 736–737",
+          "ia-1925-12-p736"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "pp. 738–742",
+          "ia-1925-12-p738"
+        ],
+        [
+          "Review: Industrial Society in England towards the End of the Eighteenth Century by Bowden",
+          "p. 738",
+          "ia-1925-12-x4"
+        ],
+        [
+          "Review: La Crisi del 1905-1907 by Pantaleoni",
+          "p. 739",
+          "ia-1925-12-p739"
+        ],
+        [
+          "Review: L’Évolution Commerciale et Industrielle de la France sous l’Ancien Régime by Sée",
+          "p. 741",
+          "ia-1925-12-p741"
+        ],
+        [
+          "Review: La France Économique et Sociale au XVIIIe Siècle by Sée",
+          "p. 741",
+          "ia-1925-12-x5"
+        ],
+        [
+          "Review: History of Agriculture in the Northern United States by Bidwell and Falconer",
+          "pp. 742–744",
+          "ia-1925-12-p742"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "pp. 744–746",
+          "ia-1925-12-p744"
+        ],
+        [
+          "Review: A History of Agriculture in Europe and America by Gras",
+          "p. 745",
+          "ia-1925-12-p745"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "pp. 746–747",
+          "ia-1925-12-p746"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "pp. 747–749",
+          "ia-1925-12-p747"
+        ],
+        [
+          "Review: The Role of the State in the Provision of Railways by Jagtiani",
+          "p. 747",
+          "ia-1925-12-x6"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "pp. 749–751",
+          "ia-1925-12-p749"
+        ],
+        [
+          "Review: International Economic Policies by Culbertson",
+          "p. 749",
+          "ia-1925-12-x7"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "pp. 751–758",
+          "ia-1925-12-p751"
+        ],
+        [
+          "Review: Mathematics of Accounting by Curtis and Cooper",
+          "p. 752",
+          "ia-1925-12-p752"
+        ],
+        [
+          "Review: The Art of Investment by Gaines",
+          "p. 753",
+          "ia-1925-12-p753"
+        ],
+        [
+          "Review: Depreciation by Kester",
+          "p. 753",
+          "ia-1925-12-x8"
+        ],
+        [
+          "Review: Accounting for Surplus by Pinkerton",
+          "p. 755",
+          "ia-1925-12-p755"
+        ],
+        [
+          "Review: Psychology in Advertising by Poffenberger",
+          "p. 755",
+          "ia-1925-12-x9"
+        ],
+        [
+          "Review: How to Read a Financial Statement by Stockwell",
+          "p. 755",
+          "ia-1925-12-x10"
+        ],
+        [
+          "Review: Problems in Sales Management by Tosdal",
+          "p. 756",
+          "ia-1925-12-p756"
+        ],
+        [
+          "Review: Economics of Our Patent System by Vaughan",
+          "p. 756",
+          "ia-1925-12-x11"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "pp. 758–759",
+          "ia-1925-12-p758"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "pp. 759–762",
+          "ia-1925-12-p759"
+        ],
+        [
+          "Review: The Labor Movement in the Shoe Industry by Galster",
+          "p. 759",
+          "ia-1925-12-x12"
+        ],
+        [
+          "Review: Labor Policy of the United States Steel Corporation by Gulick",
+          "p. 760",
+          "ia-1925-12-p760"
+        ],
+        [
+          "Review: Health Maintenance in Industry by Hackett",
+          "p. 760",
+          "ia-1925-12-x13"
+        ],
+        [
+          "Review: Le Basi Economiche del Movimento Operaio by Supino",
+          "p. 761",
+          "ia-1925-12-p761"
+        ],
+        [
+          "Review: Elements of the Modern Building and Loan Associations by Clark and Chase",
+          "pp. 762–764",
+          "ia-1925-12-p762"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "pp. 764–769",
+          "ia-1925-12-p764"
+        ],
+        [
+          "Review: Coöperative Banking by Bergengren",
+          "p. 765",
+          "ia-1925-12-p765"
+        ],
+        [
+          "Review: The Punjab Peasant in Prosperity and Debt by Darling",
+          "p. 765",
+          "ia-1925-12-x14"
+        ],
+        [
+          "Review: The Economics of the Gold Standard by Jack",
+          "p. 766",
+          "ia-1925-12-p766"
+        ],
+        [
+          "Review: The Economic Consequences of Sterling Parity by Keynes",
+          "p. 766",
+          "ia-1925-12-x15"
+        ],
+        [
+          "Review: Credit Management by Olson and Hallman",
+          "p. 767",
+          "ia-1925-12-p767"
+        ],
+        [
+          "Review: A Century of Banking Progress by Scroggs",
+          "p. 768",
+          "ia-1925-12-p768"
+        ],
+        [
+          "Review: The Bank of North Dakota by Topliff",
+          "p. 768",
+          "ia-1925-12-x16"
+        ],
+        [
+          "Review: The Inter-Ally Debts and the United States",
+          "pp. 769–772",
+          "ia-1925-12-p769"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "pp. 772–777",
+          "ia-1925-12-p772"
+        ],
+        [
+          "Review: Britische und Deutsche Einkommensteuer by Meisel",
+          "p. 773",
+          "ia-1925-12-p773"
+        ],
+        [
+          "Review: The Science of Public Finance by Shirras",
+          "p. 775",
+          "ia-1925-12-p775"
+        ],
+        [
+          "Review: Financial Developments in Modern India by Vakil",
+          "p. 775",
+          "ia-1925-12-x17"
+        ],
+        [
+          "New Books: Population and Migration",
+          "pp. 777–779",
+          "ia-1925-12-p777"
+        ],
+        [
+          "Review: La Popolazione Rurale in Italia by Coletti",
+          "p. 777",
+          "ia-1925-12-x18"
+        ],
+        [
+          "Review: The Population of India by Narain",
+          "p. 777",
+          "ia-1925-12-x19"
+        ],
+        [
+          "Review: Child Marriages by Richmond and Hall",
+          "p. 778",
+          "ia-1925-12-p778"
+        ],
+        [
+          "Review: Il Problema della Popolazione by Virgilii",
+          "p. 778",
+          "ia-1925-12-x20"
+        ],
+        [
+          "Review: The Basis of Racial Adjustment by Woofter",
+          "p. 778",
+          "ia-1925-12-x21"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "pp. 779–781",
+          "ia-1925-12-p779"
+        ],
+        [
+          "Review: Labor and Housing in Bombay by Burnett-Hurst",
+          "p. 779",
+          "ia-1925-12-x22"
+        ],
+        [
+          "Review: Women and Leisure by Pruette",
+          "p. 780",
+          "ia-1925-12-p780"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "pp. 781–782",
+          "ia-1925-12-p781"
+        ],
+        [
+          "New Books: Pauperism, Charities, and Relief Measures",
+          "p. 782",
+          "ia-1925-12-p782"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "pp. 782–783",
+          "ia-1925-12-x23"
+        ],
+        [
+          "Review: Le Solidarisme by Bouglé",
+          "p. 782",
+          "ia-1925-12-x24"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "pp. 783–784",
+          "ia-1925-12-p783"
+        ],
+        [
+          "Review: Notizie Statistiche sul Raccolto Bozzoli d’Italia del 1924",
+          "p. 784",
+          "ia-1925-12-p784"
+        ],
+        [
+          "Periodicals",
+          "pp. 785–809",
+          "ia-1925-12-p785"
+        ],
+        [
+          "Documents, Reports, and Legislation: The War Finance Corporation",
+          "pp. 810–820",
+          "ia-1925-12-p810"
+        ],
+        [
+          "Documents, Reports, and Legislation: Industries and Commerce",
+          "pp. 821–822",
+          "ia-1925-12-p821"
+        ],
+        [
+          "Documents, Reports, and Legislation: Corporations",
+          "p. 822",
+          "ia-1925-12-p822"
+        ],
+        [
+          "Notes",
+          "pp. 823–832",
+          "ia-1925-12-p823"
+        ]
+      ],
+      "artigos": [
+        {
+          "titulo": "What Has the Federal Trade Commission Accomplished?",
+          "autores": "W. H. S. Stevens (University of Maryland)",
+          "paginas": "pp. 625–651",
+          "jstor": "ia-1925-12-p625",
+          "resumo": "Balanço da primeira década da Federal Trade Commission: inquéritos econômicos, processos, recursos judiciais e política de publicidade.",
+          "ensaio_slug": "stevens-o-balanco-da-federal-trade-commission"
+        },
+        {
+          "titulo": "Computation of Good-Will Profits",
+          "autores": "C. J. Foreman (University of Cincinnati)",
+          "paginas": "pp. 652–664",
+          "jstor": "ia-1925-12-p652",
+          "resumo": "Exame dos métodos de juristas e contadores para calcular os lucros do fundo de comércio, com a proposta de separar ganhos de eficiência de ganhos de escassez.",
+          "ensaio_slug": "foreman-os-lucros-do-fundo-de-comercio"
+        },
+        {
+          "titulo": "The Effect of Legal Institutions upon Economics",
+          "autores": "K. N. Llewellyn (Yale University, School of Law)",
+          "paginas": "pp. 665–683",
+          "jstor": "ia-1925-12-p665",
+          "resumo": "Ensaio, lido na reunião anual de 1924, sobre como o direito condiciona a vida econômica e o que a teoria econômica oferece ao estudo do direito.",
+          "ensaio_slug": "llewellyn-instituicoes-juridicas-e-economia"
+        },
+        {
+          "titulo": "The Influence of the Interest Rate on the Business Cycle",
+          "autores": "Carl Snyder (Nova York)",
+          "paginas": "pp. 684–699",
+          "jstor": "ia-1925-12-p684",
+          "resumo": "Estudo das taxas de juros por tipo de empréstimo e de sua relação com o ciclo de negócios em meio século, com a conclusão de que o custo do dinheiro não é fator decisivo do ciclo.",
+          "ensaio_slug": "snyder-os-juros-e-o-ciclo-de-negocios"
+        },
+        {
+          "titulo": "War Debts and International Trade Theory",
+          "autores": "H. G. Moulton (Washington, D.C.)",
+          "paginas": "pp. 700–716",
+          "jstor": "ia-1925-12-p700",
+          "resumo": "Resposta aos críticos dos estudos do Institute of Economics sobre a capacidade alemã de pagar reparações e crítica da teoria clássica dos pagamentos internacionais.",
+          "ensaio_slug": "moulton-dividas-de-guerra-e-teoria-do-comercio"
+        },
+        {
+          "titulo": "Further Discussion of Three-Dimensional Price Diagrams",
+          "autores": "J. M. Clark (University of Chicago)",
+          "paginas": "pp. 717–719",
+          "jstor": "ia-1925-12-p717",
+          "resumo": "Comunicação que discute os diagramas tridimensionais de Silberling e Wolfe e contesta o uso da curva de linha de massa como curva de oferta e de custo marginal.",
+          "ensaio_slug": "clark-diagramas-tridimensionais-de-precos"
+        },
+        {
+          "titulo": "Regulating Public Utility Rates",
+          "autores": "William E. Oberle (Filadélfia)",
+          "paginas": "pp. 719–720",
+          "jstor": "ia-1925-12-p719",
+          "resumo": "Comunicação que propõe regular tarifas pela relação entre lucro e custo do serviço, e não pelo valor do investimento.",
+          "ensaio_slug": "oberle-a-regulacao-das-tarifas-de-servicos-publicos"
+        },
+        {
+          "titulo": "Edgeworth, Papers Relating to Political Economy",
+          "autores": "A. A. Young (Harvard University)",
+          "paginas": "pp. 721–724",
+          "jstor": "ia-1925-12-p721",
+          "resumo": "Resenha dos três volumes de artigos reunidos de F. Y. Edgeworth."
+        },
+        {
+          "titulo": "Small, Origins of Sociology",
+          "autores": "F. H. Knight (University of Iowa)",
+          "paginas": "pp. 724–727",
+          "jstor": "ia-1925-12-p724",
+          "resumo": "Resenha da história da sociologia de Albion W. Small."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 727–731",
+          "jstor": "ia-1925-12-p727",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Halberstaedter, Die Problematik des wirtschaftlichen Prinzips",
+          "autores": "R. R. Whitehead",
+          "paginas": "p. 727",
+          "jstor": "ia-1925-12-x1",
+          "resumo": "Nota de R. R. Whitehead."
+        },
+        {
+          "titulo": "Keller, Starting-Points in Social Science",
+          "autores": "M. G. Smith",
+          "paginas": "p. 728",
+          "jstor": "ia-1925-12-p728",
+          "resumo": "Nota de M. G. Smith."
+        },
+        {
+          "titulo": "Moriarty, Economics for Citizenship",
+          "autores": "J. Ise",
+          "paginas": "p. 728",
+          "jstor": "ia-1925-12-x2",
+          "resumo": "Nota de J. Ise sobre manual para o ensino secundário."
+        },
+        {
+          "titulo": "Mukerjee, Principles of Comparative Economics",
+          "autores": "D. S. T.",
+          "paginas": "p. 728",
+          "jstor": "ia-1925-12-x3",
+          "resumo": "Nota sobre obra de economia comparada."
+        },
+        {
+          "titulo": "Spillman e Lang, The Law of Diminishing Returns",
+          "autores": "M. A. Copeland",
+          "paginas": "p. 729",
+          "jstor": "ia-1925-12-p729",
+          "resumo": "Nota de M. A. Copeland."
+        },
+        {
+          "titulo": "Spykman, The Social Theory of Georg Simmel",
+          "autores": "M. G. Smith",
+          "paginas": "p. 730",
+          "jstor": "ia-1925-12-p730",
+          "resumo": "Nota de M. G. Smith."
+        },
+        {
+          "titulo": "Masse, La Production des Richesses",
+          "autores": "J. E. Le Rossignol",
+          "paginas": "pp. 731–734",
+          "jstor": "ia-1925-12-p731",
+          "resumo": "Resenha de J. E. Le Rossignol."
+        },
+        {
+          "titulo": "Das, Production in India",
+          "autores": "W. I. King",
+          "paginas": "pp. 734–736",
+          "jstor": "ia-1925-12-p734",
+          "resumo": "Resenha de W. I. King."
+        },
+        {
+          "titulo": "Barnes, The New History and the Social Studies",
+          "autores": "A. P. Usher (Harvard University)",
+          "paginas": "pp. 736–737",
+          "jstor": "ia-1925-12-p736",
+          "resumo": "Resenha de A. P. Usher."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 738–742",
+          "jstor": "ia-1925-12-p738",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "Bowden, Industrial Society in England towards the End of the Eighteenth Century",
+          "autores": "A. P. Usher",
+          "paginas": "p. 738",
+          "jstor": "ia-1925-12-x4",
+          "resumo": "Nota de A. P. Usher."
+        },
+        {
+          "titulo": "Pantaleoni, La Crisi del 1905-1907",
+          "autores": "R. F. Foerster",
+          "paginas": "p. 739",
+          "jstor": "ia-1925-12-p739",
+          "resumo": "Nota de R. F. Foerster."
+        },
+        {
+          "titulo": "Sée, L’Évolution Commerciale et Industrielle de la France sous l’Ancien Régime",
+          "autores": "A. P. U.",
+          "paginas": "p. 741",
+          "jstor": "ia-1925-12-p741",
+          "resumo": "Nota de A. P. U."
+        },
+        {
+          "titulo": "Sée, La France Économique et Sociale au XVIIIe Siècle",
+          "autores": "A. P. U.",
+          "paginas": "p. 741",
+          "jstor": "ia-1925-12-x5",
+          "resumo": "Nota de A. P. U."
+        },
+        {
+          "titulo": "Bidwell e Falconer, History of Agriculture in the Northern United States",
+          "autores": "L. B. Schmidt",
+          "paginas": "pp. 742–744",
+          "jstor": "ia-1925-12-p742",
+          "resumo": "Resenha de L. B. Schmidt."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 744–746",
+          "jstor": "ia-1925-12-p744",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "Gras, A History of Agriculture in Europe and America",
+          "autores": "C. W. Wright",
+          "paginas": "p. 745",
+          "jstor": "ia-1925-12-p745",
+          "resumo": "Nota de C. W. Wright."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 746–747",
+          "jstor": "ia-1925-12-p746",
+          "resumo": "Lista de livros novos sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 747–749",
+          "jstor": "ia-1925-12-p747",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicação."
+        },
+        {
+          "titulo": "Jagtiani, The Role of the State in the Provision of Railways",
+          "autores": "E. Jones",
+          "paginas": "p. 747",
+          "jstor": "ia-1925-12-x6",
+          "resumo": "Nota de E. Jones."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 749–751",
+          "jstor": "ia-1925-12-p749",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Culbertson, International Economic Policies",
+          "autores": "P. S. Peirce",
+          "paginas": "p. 749",
+          "jstor": "ia-1925-12-x7",
+          "resumo": "Nota de P. S. Peirce."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 751–758",
+          "jstor": "ia-1925-12-p751",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "Curtis e Cooper, Mathematics of Accounting",
+          "autores": "A. W. H.",
+          "paginas": "p. 752",
+          "jstor": "ia-1925-12-p752",
+          "resumo": "Nota de A. W. H."
+        },
+        {
+          "titulo": "Gaines, The Art of Investment",
+          "autores": "D. S. T.",
+          "paginas": "p. 753",
+          "jstor": "ia-1925-12-p753",
+          "resumo": "Nota de D. S. T."
+        },
+        {
+          "titulo": "Kester, Depreciation",
+          "autores": "A. W. H.",
+          "paginas": "p. 753",
+          "jstor": "ia-1925-12-x8",
+          "resumo": "Nota de A. W. H."
+        },
+        {
+          "titulo": "Pinkerton, Accounting for Surplus",
+          "autores": "A. W. H.",
+          "paginas": "p. 755",
+          "jstor": "ia-1925-12-p755",
+          "resumo": "Nota de A. W. H."
+        },
+        {
+          "titulo": "Poffenberger, Psychology in Advertising",
+          "autores": "C. L. Stone",
+          "paginas": "p. 755",
+          "jstor": "ia-1925-12-x9",
+          "resumo": "Nota de C. L. Stone."
+        },
+        {
+          "titulo": "Stockwell, How to Read a Financial Statement",
+          "autores": "E. A. Saliers",
+          "paginas": "p. 755",
+          "jstor": "ia-1925-12-x10",
+          "resumo": "Nota de E. A. Saliers."
+        },
+        {
+          "titulo": "Tosdal, Problems in Sales Management",
+          "autores": "V. H. P.",
+          "paginas": "p. 756",
+          "jstor": "ia-1925-12-p756",
+          "resumo": "Nota de V. H. P."
+        },
+        {
+          "titulo": "Vaughan, Economics of Our Patent System",
+          "autores": "M. N. Nelson",
+          "paginas": "p. 756",
+          "jstor": "ia-1925-12-x11",
+          "resumo": "Nota de M. N. Nelson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 758–759",
+          "jstor": "ia-1925-12-p758",
+          "resumo": "Lista de livros novos sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 759–762",
+          "jstor": "ia-1925-12-p759",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Galster, The Labor Movement in the Shoe Industry",
+          "autores": "E. J. Miller",
+          "paginas": "p. 759",
+          "jstor": "ia-1925-12-x12",
+          "resumo": "Nota de E. J. Miller."
+        },
+        {
+          "titulo": "Gulick, Labor Policy of the United States Steel Corporation",
+          "autores": "G. M. Janes",
+          "paginas": "p. 760",
+          "jstor": "ia-1925-12-p760",
+          "resumo": "Nota de G. M. Janes."
+        },
+        {
+          "titulo": "Hackett, Health Maintenance in Industry",
+          "autores": "W. Wright",
+          "paginas": "p. 760",
+          "jstor": "ia-1925-12-x13",
+          "resumo": "Nota de W. Wright."
+        },
+        {
+          "titulo": "Supino, Le Basi Economiche del Movimento Operaio",
+          "autores": "A. Graziani",
+          "paginas": "p. 761",
+          "jstor": "ia-1925-12-p761",
+          "resumo": "Nota de A. Graziani."
+        },
+        {
+          "titulo": "Clark e Chase, Elements of the Modern Building and Loan Associations",
+          "autores": "R. S. Meriam",
+          "paginas": "pp. 762–764",
+          "jstor": "ia-1925-12-p762",
+          "resumo": "Resenha de R. S. Meriam."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 764–769",
+          "jstor": "ia-1925-12-p764",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Bergengren, Coöperative Banking",
+          "autores": "Donald S. Tucker",
+          "paginas": "p. 765",
+          "jstor": "ia-1925-12-p765",
+          "resumo": "Nota de Donald S. Tucker."
+        },
+        {
+          "titulo": "Darling, The Punjab Peasant in Prosperity and Debt",
+          "autores": "A. P. U.",
+          "paginas": "p. 765",
+          "jstor": "ia-1925-12-x14",
+          "resumo": "Nota de A. P. U."
+        },
+        {
+          "titulo": "Jack, The Economics of the Gold Standard",
+          "autores": "O. Ingraham",
+          "paginas": "p. 766",
+          "jstor": "ia-1925-12-p766",
+          "resumo": "Nota de O. Ingraham."
+        },
+        {
+          "titulo": "Keynes, The Economic Consequences of Sterling Parity",
+          "autores": "O. Ingraham",
+          "paginas": "p. 766",
+          "jstor": "ia-1925-12-x15",
+          "resumo": "Nota de O. Ingraham."
+        },
+        {
+          "titulo": "Olson e Hallman, Credit Management",
+          "autores": "M. J. Shugrue",
+          "paginas": "p. 767",
+          "jstor": "ia-1925-12-p767",
+          "resumo": "Nota de M. J. Shugrue."
+        },
+        {
+          "titulo": "Scroggs, A Century of Banking Progress",
+          "autores": "M. J. S.",
+          "paginas": "p. 768",
+          "jstor": "ia-1925-12-p768",
+          "resumo": "Nota de M. J. S."
+        },
+        {
+          "titulo": "Topliff, The Bank of North Dakota",
+          "autores": "I. Lippincott",
+          "paginas": "p. 768",
+          "jstor": "ia-1925-12-x16",
+          "resumo": "Nota de I. Lippincott."
+        },
+        {
+          "titulo": "The Inter-Ally Debts and the United States",
+          "autores": "E. M. Patterson",
+          "paginas": "pp. 769–772",
+          "jstor": "ia-1925-12-p769",
+          "resumo": "Resenha de E. M. Patterson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 772–777",
+          "jstor": "ia-1925-12-p772",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Meisel, Britische und Deutsche Einkommensteuer",
+          "autores": "A. Comstock",
+          "paginas": "p. 773",
+          "jstor": "ia-1925-12-p773",
+          "resumo": "Nota de A. Comstock."
+        },
+        {
+          "titulo": "Shirras, The Science of Public Finance",
+          "autores": "F. Flugel",
+          "paginas": "p. 775",
+          "jstor": "ia-1925-12-p775",
+          "resumo": "Nota de F. Flugel."
+        },
+        {
+          "titulo": "Vakil, Financial Developments in Modern India",
+          "autores": "H. L. Reed",
+          "paginas": "p. 775",
+          "jstor": "ia-1925-12-x17",
+          "resumo": "Nota de H. L. Reed."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 777–779",
+          "jstor": "ia-1925-12-p777",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "Coletti, La Popolazione Rurale in Italia",
+          "autores": "A. G.",
+          "paginas": "p. 777",
+          "jstor": "ia-1925-12-x18",
+          "resumo": "Nota de A. G."
+        },
+        {
+          "titulo": "Narain, The Population of India",
+          "autores": "A. B. Wolfe",
+          "paginas": "p. 777",
+          "jstor": "ia-1925-12-x19",
+          "resumo": "Nota de A. B. Wolfe."
+        },
+        {
+          "titulo": "Richmond e Hall, Child Marriages",
+          "autores": "A. B. Wolfe",
+          "paginas": "p. 778",
+          "jstor": "ia-1925-12-p778",
+          "resumo": "Nota de A. B. Wolfe."
+        },
+        {
+          "titulo": "Virgilii, Il Problema della Popolazione",
+          "autores": "A. G.",
+          "paginas": "p. 778",
+          "jstor": "ia-1925-12-x20",
+          "resumo": "Nota de A. G."
+        },
+        {
+          "titulo": "Woofter, The Basis of Racial Adjustment",
+          "autores": "A. B. W.",
+          "paginas": "p. 778",
+          "jstor": "ia-1925-12-x21",
+          "resumo": "Nota de A. B. W."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 779–781",
+          "jstor": "ia-1925-12-p779",
+          "resumo": "Lista de livros novos, com notas breves, sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "Burnett-Hurst, Labor and Housing in Bombay",
+          "autores": "A. P. U.",
+          "paginas": "p. 779",
+          "jstor": "ia-1925-12-x22",
+          "resumo": "Nota de A. P. U."
+        },
+        {
+          "titulo": "Pruette, Women and Leisure",
+          "autores": "M. K.",
+          "paginas": "p. 780",
+          "jstor": "ia-1925-12-p780",
+          "resumo": "Nota de M. K."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 781–782",
+          "jstor": "ia-1925-12-p781",
+          "resumo": "Lista de livros novos sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 782",
+          "jstor": "ia-1925-12-p782",
+          "resumo": "Lista de livros novos sobre pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 782–783",
+          "jstor": "ia-1925-12-x23",
+          "resumo": "Lista de livros novos, com notas breves, sobre socialismo e cooperativas."
+        },
+        {
+          "titulo": "Bouglé, Le Solidarisme",
+          "autores": "R. R. Whitehead",
+          "paginas": "p. 782",
+          "jstor": "ia-1925-12-x24",
+          "resumo": "Nota de R. R. Whitehead."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 783–784",
+          "jstor": "ia-1925-12-p783",
+          "resumo": "Lista de livros novos, com notas breves, sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Notizie Statistiche sul Raccolto Bozzoli d’Italia del 1924",
+          "autores": "R. F. F.",
+          "paginas": "p. 784",
+          "jstor": "ia-1925-12-p784",
+          "resumo": "Nota de R. F. F. sobre anuário estatístico da produção italiana de casulos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 785–809",
+          "jstor": "ia-1925-12-p785",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation: The War Finance Corporation",
+          "autores": "R. D. Kilborne",
+          "paginas": "pp. 810–820",
+          "jstor": "ia-1925-12-p810",
+          "resumo": "Estudo da lei de 1918 que criou a War Finance Corporation e de suas operações de crédito."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation: Industries and Commerce",
+          "autores": "",
+          "paginas": "pp. 821–822",
+          "jstor": "ia-1925-12-p821",
+          "resumo": "Relação de relatórios oficiais sobre indústrias e comércio."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation: Corporations",
+          "autores": "",
+          "paginas": "p. 822",
+          "jstor": "ia-1925-12-p822",
+          "resumo": "Relação de relatórios sobre avaliação de ferrovias e serviços públicos."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 823–832",
+          "jstor": "ia-1925-12-p823",
+          "resumo": "Notícias, programa da reunião anual de Nova York e nomeações."
+        }
+      ]
     }
   ],
   "proximas": []
