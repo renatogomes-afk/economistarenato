@@ -1,7 +1,7 @@
 # Estado do trabalho — Arquivo (atualizado em 15/11/2026, madrugada)
 
 ## Publicado
-- Arquivo até a **nº 194** (American Economic Review, dezembro de 1925).
+- Arquivo até a **nº 200** (American Economic Review, dezembro de 1926). 1926 completo, já com página própria para todo artigo.
 - 1923–1925 vêm das digitalizações de número completo do Internet Archive (campo `archive_id`; ids internos `ia-…`).
 - Página `/arquivo/eua/` organizada por ano (barra de anos por década + seções por ano).
 
@@ -15,8 +15,7 @@
 - Publicar por ano; relatório curto ao fim de cada ano.
 
 ## Em andamento / próximo
-1. **1926 (nº 195–200)**: em redação na noite de 14→15/11 (195 mar, 196 38ª reunião, 197 jun,
-   198 manual de 1926, 199 set, 200 dez). Conferir e publicar o ano inteiro.
+1. **1926**: publicado (nº 195–200). Próximo a redigir: **1927** (nº 201 em diante).
 2. **1927–1929**: arquivos baixados e conferidos em
    `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1924)\<ano>\_archive_sim\`
    (renomear a pasta para (1911-1929) e atualizar indice.csv ao fim).
