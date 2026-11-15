@@ -100338,6 +100338,1901 @@
           "hoje": "A estabilidade da velocidade da moeda sustentou por décadas metas de agregados monetários e deixou de valer quando a inovação financeira mudou a demanda por moeda; o debate sobre quando ela é estável continua. A busca de índices de preços amplos e de medidas de atividade com dados de pagamentos, que Snyder fez com débitos bancários, reaparece hoje no uso de transações eletrônicas para acompanhar a economia quase em tempo real."
         }
       ]
+    },
+    {
+      "slug": "1925-a-analise-quantitativa-e-o-federal-reserve",
+      "numero": 189,
+      "titulo": "Mitchell e a medida, Commons e o Fed, Hansen e o salário real",
+      "titulo_original": "The American Economic Review, vol. XV, no. 1, March 1925",
+      "autores": "Wesley C. Mitchell, Frank A. Fetter, Alvin H. Hansen, John R. Commons, T. E. Gregory, J. R. Bellerby, W. F. Gephart, C. R. Fay e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 1",
+      "data": "março de 1925",
+      "archive_id": "sim_american-economic-review_1925-03_15_1",
+      "chamada": "Mitchell prevê que a estatística vai reformular a teoria; Commons defende o Federal Reserve como estabilizador de preços; Gregory e Bellerby discutem bancos centrais e ouro; Hansen mede um século de salários.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Chicago, em 29 de dezembro de 1924, Wesley C. Mitchell abriu o discurso presidencial da American Economic Association com uma frase que Alfred Marshall dissera dezoito anos antes à Royal Economic Society: a análise qualitativa já teria feito a maior parte de seu trabalho, e a tarefa mais difícil, a quantitativa, teria de esperar o lento crescimento de estatísticas realistas. Mitchell discorda da segunda metade. Os dados, a técnica e o dinheiro para pesquisa cresceram, diz, e a teoria econômica vai mudar de forma e de conteúdo ao ser reformulada para o ataque estatístico."
+        },
+        {
+          "tipo": "p",
+          "texto": "O discurso abre o número de março de 1925 da American Economic Review, primeiro do volume XV. Boa parte do restante também veio da reunião de Chicago: Commons, Gregory e Bellerby falaram na sessão sobre “The World’s Monetary Problem”, com comentário de W. F. Gephart. Frank A. Fetter conta como os economistas americanos ganharam e perderam a confiança do público; Alvin H. Hansen reconstrói um século de salários reais; C. R. Fay descreve o mercado de trigo de Londres por volta de 1800. Completam o número duas comunicações sobre os preços do cimento, resenhas, listas de livros, periódicos, documentos e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A estatística vai mudar as perguntas da teoria?",
+          "artigo": "ia-1925-03-p1",
+          "credito": "Wesley C. Mitchell (Columbia University) · “Quantitative Analysis in Economic Theory” · pp. 1–12"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Mitchell, a situação de 1907 mudou em três frentes. As estatísticas cresceram, sobretudo nos Estados Unidos; a técnica estatística melhorou; e o trabalho quantitativo, que exige laboratório estatístico, assistentes e às vezes equipes de campo, passou a contar com recursos de órgãos de governo, de empresas e de instituições criadas para pesquisar, como o National Bureau of Economic Research, a Pollak Foundation e o Food Research Institute. O Social Science Research Council aparece como canal para projetos maiores."
+        },
+        {
+          "tipo": "p",
+          "texto": "A tese central é que a análise quantitativa não resolverá os problemas da teoria na forma em que foram postos; vai reformulá-los. O exemplo é Henry L. Moore. Marshall tratava a demanda com variações infinitesimais, condições constantes e curva conhecida. Moore precisou derivar as curvas do mundo real, onde nada fica constante, e obteve equações de demanda para milho, feno, aveia e batata, com elasticidades medidas e precisão testada como fórmula de previsão. Mitchell pergunta se o problema de Moore não é mais relevante para a ciência do que o de Marshall."
+        },
+        {
+          "tipo": "p",
+          "texto": "Daí vem a previsão mais ousada: o aparato de utilidades, desutilidades e escolhas individuais sairia de cena no trabalho quantitativo, que parte de fenômenos de massa observados nos mercados reais. Os motivos não seriam ignorados, mas tratados como problema a estudar, e não como explicação pronta. Quanto às velhas explicações, o autor vê pouca chance de que sejam refutadas, mas:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "muita probabilidade de que sejam simplesmente deixadas de lado.",
+          "original": "much likelihood that they will be disregarded"
+        },
+        {
+          "tipo": "p",
+          "texto": "Mitchell associa a mudança à psicologia objetiva e à ideia de que todas as ciências sociais estudam o comportamento humano, o que daria à economia um programa comum com elas. A literatura viria em artigos e monografias, não em tratados, e o conhecimento cresceria por acréscimo. Um tema certo seria o proposto por Veblen em 1900: a relação entre ganhar dinheiro e fazer bens, visível no confronto entre séries em unidades físicas e séries em dinheiro. A análise qualitativa não desaparece: continua nas perguntas, nos fins e nas primeiras generalizações."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "mitchell-a-analise-quantitativa-na-teoria",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que o público desconfia dos economistas?",
+          "artigo": "ia-1925-03-p13",
+          "credito": "Frank A. Fetter (Princeton University) · “The Economists and the Public” · pp. 13–26"
+        },
+        {
+          "tipo": "p",
+          "texto": "O texto de Fetter foi lido na Universidade de Wisconsin em 9 de maio de 1924, na inauguração do retrato de Richard T. Ely. É uma história da relação entre economistas e opinião pública nos Estados Unidos. Até depois da Guerra Civil, diz o autor, a economia das salas de aula seguia manuais ingleses ou imitações americanas fracas. Em 1865 havia no país uma única pessoa com o título de professor de economia política, e o ensino do livre-comércio era descartado pelos interesses dominantes como “mera teoria”."
+        },
+        {
+          "tipo": "p",
+          "texto": "A mudança veio com jovens que estudaram na Alemanha, com Knies, Wagner, Schmoller, Brentano e Conrad, e voltaram para ensinar: entre eles J. B. Clark, E. J. James, H. W. Farnam, S. N. Patten, R. T. Ely, A. T. Hadley, E. R. A. Seligman, A. W. Small e F. W. Taussig. Depois de 1900, economistas passaram a ser chamados a comissões sobre bancos, imigração, ferrovias, serviços públicos, trabalho e tributação. A guerra de 1917-18, afirma Fetter, aumentou como nenhuma outra disciplina acadêmica o prestígio da economia, e empresas abriram departamentos de pesquisa."
+        },
+        {
+          "tipo": "p",
+          "texto": "O autor descreve um paradoxo. O porta-voz dos negócios invoca “leis eternas” da economia quando elas parecem favorecê-lo, enquanto o economista acadêmico se torna mais realista. Desde cerca de 1885, diz, os economistas apoiaram a demanda popular contra a visão dominante nos negócios em temas como regulação de ferrovias e serviços públicos, seguro social, organização sindical, poupança postal e encomenda postal. Daí os ataques à academia, que Fetter ilustra com cartas e discursos de empresários. Sobre liberdade de ensino, sustenta que o risco de interferência é maior nas faculdades pequenas, ligadas a interesses locais, do que nas grandes universidades."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fetter também vê riscos dentro da profissão: o uso do título de economista por agentes de publicidade e o perito contratado por empresas em processos, cuja posição de investigador pode virar a de advogado pago. E lembra casos em que a opinião acadêmica esteve à frente da popular, como a defesa de um sistema bancário mais centralizado e a crítica à tarifa, que o fazendeiro do Norte e do Oeste continuou a apoiar. O encerramento afirma que o país não precisa de mais riqueza, e sim da arte de usá-la para fins racionais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O salário real acompanha a produção?",
+          "artigo": "ia-1925-03-p27",
+          "credito": "Alvin H. Hansen (University of Minnesota) · “Factors Affecting the Trend of Real Wages” · pp. 27–42"
+        },
+        {
+          "tipo": "p",
+          "texto": "Hansen monta uma série de salários reais nos Estados Unidos de 1820 a 1923. Junta índices de Falkner, de Mitchell e de Douglas e Lamberson, além de rendimentos semanais de Nova York e Wisconsin, e constrói um índice de custo de vida com alimentos, vestuário, combustível, iluminação e utensílios domésticos, ponderados pelo orçamento das famílias operárias, na linha do que N. J. Silberling fez para a Grã-Bretanha. A curva americana corresponde de perto às estimativas britânicas e aos rendimentos anuais do Censo de Manufaturas."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "1,04% ao ano",
+          "texto": "Crescimento da tendência do salário real americano estimada por Hansen, contra 1,29% ao ano da produção por pessoa ocupada. A tendência foi ajustada à mão, em escala semilogarítmica, descontando a queda dos anos 1860, que o autor considera exagerada pelos dados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por que o salário cresce menos que a produção? Pela teoria da produtividade marginal, responde Hansen, o salário acompanha o produto marginal, não o médio. Com terra escassa, a diferença vai para a renda; com mais capital, parte do ganho vai para os juros; com maior eficiência do trabalho, o capital por unidade fica mais barato e há substituição. Além disso, boa parte do aumento foi de bens de produção, e ganhos em bens fora do orçamento operário não elevam o salário real. Numa nota, o autor contesta cálculos de George Soule publicados no suplemento de março de 1923."
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas flutuações, com exceção da década de 1870, o salário real anda ao contrário do nível de preços: sobe de 1820 a 1849 e de 1865 a 1897, quando os preços caem, e recua ou estaciona nas altas de 1849-1865 e 1897-1919. Na alta, o ganho vai primeiro ao empresário; na queda, o trabalhador recebe “dividendos” atrasados. Mas o poder de compra da classe trabalhadora segue a prosperidade, porque o desemprego pesa:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "salários altos não ajudam um desempregado a comprar mercadorias.",
+          "original": "high wage rates do not help an unemployed man to buy commodities"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas quedas de preços, quem perde é o agricultor. Hansen lista oito períodos de forte queda do poder de compra dos produtos agrícolas, iniciados em 1817, 1838, 1857, 1868, 1875, 1882, 1893 e 1919. Enquanto operários preferem o desemprego a cortes e industriais reduzem a produção, o fazendeiro lança a safra inteira no mercado. Para o autor, esses fatores explicam o essencial da alta do salário real desde 1919; a restrição à imigração contribuiu, mas seu papel é fácil de superestimar."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O Federal Reserve deve mirar o nível de preços?",
+          "artigo": "ia-1925-03-p43",
+          "credito": "John R. Commons · “The Stabilization of Prices and Business” · pp. 43–52"
+        },
+        {
+          "tipo": "p",
+          "texto": "Commons considera a resolução do Federal Reserve Board de abril de 1923 a mais importante declaração de política desde a lei de 1913: as operações de mercado aberto passariam a obedecer, “com atenção primária”, à acomodação do comércio e ao efeito sobre a “situação geral do crédito”. Para ele, a expressão equivale à cláusula de “promover um nível de preços estável”, que estava no projeto original na Câmara e foi retirada na comissão. A troca teria a vantagem de não alarmar banqueiros e público, que confundem nível geral de preços com preços particulares."
+        },
+        {
+          "tipo": "p",
+          "texto": "O contraste é com 1919. Naquele ano, diz Commons, o secretário do Tesouro, empenhado em colocar títulos do governo a juros abaixo do mercado, impediu o Board de agir; quando agiu, era tarde, e o boom terminou no colapso de 1920. No início de 1923, ao contrário, uma leve alta das taxas em três bancos de reserva, somada a vendas de títulos e a advertências públicas, bastou para frear a expansão, mesmo com grande entrada de ouro. O ouro ficou “represado”, e os preços foram estabilizados em algo diferente do nível do ouro."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "7% ou 8%",
+          "texto": "Taxa de redesconto que, segundo muitos economistas, banqueiros e empresários citados por Commons, teria evitado boa parte do boom e do colapso se aplicada em 1919. Em 1923, bastou uma alta leve em três bancos de reserva; a diferença, para o autor, é de oportunidade."
+        },
+        {
+          "tipo": "p",
+          "texto": "O terceiro alvo é a resolução da American Bankers’ Association de setembro de 1924, que propunha limitar os bancos de reserva às funções de emissão e redesconto e criticava as compras em mercado aberto por competirem com os bancos-membros. Commons a vê como ameaça à função pública do sistema e à sua própria continuidade. A estabilidade, insiste, tem um preço:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Não podemos ter ao mesmo tempo dinheiro barato e nível de preços estável.",
+          "original": "We cannot have both cheap money and a stable price level."
+        },
+        {
+          "tipo": "p",
+          "texto": "O texto termina com a situação que o autor chama de anômala: o ouro que entra torna os bancos menos dependentes do sistema de reserva, as dívidas europeias excedem o que os devedores podem pagar em mercadorias e serviços, e a volta da libra e do franco à paridade depende dos níveis de preços dos dois lados. A saída, sugere, passa por algum entendimento internacional entre bancos centrais."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "commons-a-estabilizacao-de-precos",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que os bancos centrais podem de fato fazer?",
+          "artigo": "ia-1925-03-p53",
+          "credito": "T. E. Gregory (Londres) · “What Can Central Banks Really Do?” · pp. 53–59"
+        },
+        {
+          "tipo": "p",
+          "texto": "Gregory parte de um contraste. Keynes, Hawtrey, Cassel, Irving Fisher, Wicksell e outros atribuíram aos bancos centrais tarefas muito além das imaginadas antes da guerra, justamente quando a experiência da guerra e do pós-guerra alimentava o ceticismo. A teoria anterior, diz, era apenas uma generalização das políticas atribuídas ao Banco da Inglaterra, que raramente as explicava em público, e um ambiente histórico único não basta para uma filosofia geral do banco central."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "98%",
+          "texto": "Taxa de desconto do Reichsbank lembrada por Gregory como exemplo da completa ineficácia da taxa como instrumento de repressão durante a inflação alemã."
+        },
+        {
+          "tipo": "p",
+          "texto": "Uma teoria adequada teria de examinar três coisas: o ambiente, a técnica e a teoria dos preços. No ambiente, o banco central só influencia o mercado se for o emprestador marginal ou puder forçar o mercado a recorrer a ele. Um padrão metálico internacional, como os das reformas monetárias do século XIX, é incompatível com controle de preços pelo banco central: os bancos influíam nos preços locais, mas, sem controlar as minas de ouro, não governavam a tendência de longo prazo. Também importam a estrutura bancária, de bancos unitários ou de redes de agências, e as exigências de reserva."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na técnica, Gregory examina quatro métodos. A alta do desconto pode até atrair tomadores que anteveem novas altas. O mercado aberto exige dizer se vai complementar ou substituir a taxa e se o objetivo é estabilizar juros ou preços, metas que pedem operações opostas; em qualquer caso, os limites quantitativos são os mesmos da política de desconto. O racionamento é descartado pelo favoritismo e pelo poder discricionário que confere. A advertência funciona melhor quando é menos necessária, e mais com poucos bancos grandes do que com milhares de bancos isolados."
+        },
+        {
+          "tipo": "p",
+          "texto": "Por fim, o autor pergunta se os preços dependem de fato do volume de empréstimos bancários e se esse volume se controla pela taxa de juros. Não responde: afirma que os economistas tomaram essas hipóteses como certas e que o campo pede investigação crítica."
+        },
+        {
+          "tipo": "h2",
+          "texto": "A política monetária é um problema internacional?",
+          "artigo": "ia-1925-03-p60",
+          "credito": "J. R. Bellerby (International Labor Office, Washington) · “Some International Aspects of Monetary Policy” · pp. 60–66"
+        },
+        {
+          "tipo": "p",
+          "texto": "Bellerby sustenta que a política monetária é por natureza internacional. Mercados ligados movem os preços juntos no curto prazo, e a estabilização do câmbio, pelo padrão-ouro ou pelo padrão-câmbio-ouro, prende o nível de preços do país dependente ao do país a que se ancora, como corolário da paridade do poder de compra. O valor real das dívidas também depende da política alheia: a alta de preços nos Estados Unidos aliviava a dívida britânica em dólares e as reparações alemãs fixadas em ouro."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 1,5 bilhão",
+          "texto": "Ouro que, segundo estimativa citada por Bellerby, os Estados Unidos poderiam perder sem causar deflação. A taxa de redesconto estava em 3%, o que o autor atribui às reservas mais que amplas."
+        },
+        {
+          "tipo": "p",
+          "texto": "O risco previsto vem em duas etapas. O excesso de ouro americano permitiria uma alta gradual de preços — para o raciocínio, o autor supõe um nível de cerca de 180, contra 100 em 1913 — e, com a volta de Grã-Bretanha, Países Baixos, Suíça e domínios ao ouro, parte do excedente poderia ser exportada. Depois, se França, Itália, Bélgica, Alemanha e outros voltassem ao ouro com moedas em circulação, como a Suíça ensaiou, a absorção de metal poderia forçar uma deflação."
+        },
+        {
+          "tipo": "p",
+          "texto": "A saída proposta vem das doze primeiras resoluções da comissão financeira da conferência de Gênova, de 1922, que reuniu representantes de cerca de trinta países: uma conferência de bancos centrais, convocada pelo Banco da Inglaterra, em que cada um informaria o sistema pretendido e a reserva necessária. As opções iriam do padrão-câmbio-ouro sem ouro interno, como na Índia e na Áustria, à cunhagem de ouro, como nos Estados Unidos, cujo sistema ninguém pediria para mudar. Havendo falta ou excesso de ouro, alguns países ajustariam seus sistemas. Bellerby cita ainda bancos centrais que guardam reservas em outros, como os da França e da Itália no Banco da Inglaterra, sistema que, ampliado, economizaria ouro. A cooperação, conclui, deveria avançar de forma gradual."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Controlar o crédito garante preços estáveis?",
+          "artigo": "ia-1925-03-p67",
+          "credito": "W. F. Gephart · “Discussion” · pp. 67–69"
+        },
+        {
+          "tipo": "p",
+          "texto": "W. F. Gephart, do First National Bank de St. Louis segundo o programa da reunião, comentou o texto de Commons. Resume-o em três pontos: o sistema de reserva pode prestar grande serviço público ao tornar os preços mais estáveis pelo controle do crédito; banqueiros e empresários precisam entender melhor o que é um nível de preços; e o Board fez bem em falar em “situação geral do crédito”, e não em “níveis de preços estáveis”."
+        },
+        {
+          "tipo": "p",
+          "texto": "Concorda que falta compreensão sobre o que o sistema pode e não pode fazer, também entre estudiosos, e lembra que a renovação das cartas dos bancos de reserva se aproximava, com críticos numerosos entre banqueiros do interior. Registra a queixa de bancos comerciais contra as operações de mercado aberto, que teriam afetado suas taxas; para os estudiosos mais cuidadosos, diz, o efeito foi pequeno diante da abundância de crédito. E aponta um conflito de interesses: os bancos-membros são acionistas e esperam dividendos, que nas condições do ano só viriam de operações no mercado aberto."
+        },
+        {
+          "tipo": "p",
+          "texto": "A divergência está na premissa. Gephart nega que controlar a situação do crédito e produzir preços estáveis sejam a mesma coisa. O nível de preços é função de muitos fatores, e as mesmas condições fundamentais que mudam a demanda de crédito empurram os preços. Mesmo com políticas de sabedoria sobre-humana, afirma, não se teriam preços estáveis. O que o sistema pode fazer é agir a tempo e advertir, obtendo a cooperação dos bancos e evitando parte da expansão excessiva."
+        },
+        {
+          "tipo": "p",
+          "texto": "O comentário termina com um alerta institucional. O Federal Reserve é uma organização semipolítica, vista por muitos como um monopólio gigante com poder sobre a prosperidade de cada um, e a ira popular destruiu duas vezes um banco central no país. Por isso, recomenda, deveria apressar-se devagar, até que empresários e banqueiros o compreendessem melhor, e não tentar atender às expectativas de seus defensores mais entusiasmados."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quem especulava com trigo em Londres por volta de 1800?",
+          "artigo": "ia-1925-03-p70",
+          "credito": "C. R. Fay · “The London Corn Market at the Beginning of the Nineteenth Century” · pp. 70–76"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fay mostra que, em 1800, o comércio interno de cereais na Inglaterra, cerca de nove décimos do total, era livre, embora o externo fosse rigidamente regulado. A liberdade levou séculos. Desde o estatuto de 1552 havia penas para quem interceptava mercadorias a caminho da feira (forestalling), revendia no mesmo mercado (regrating) ou açambarcava cereal para revenda (engrossing). O estatuto de 1662, elogiado por Adam Smith, permitiu comprar para revender abaixo de certo preço; em 1772, por iniciativa apoiada por Edmund Burke, o Parlamento revogou as velhas leis. Em 1800, o caso The King vs. Rusby voltou a tratar a prática como delito de direito comum."
+        },
+        {
+          "tipo": "p",
+          "texto": "Os anos de escassez a partir de 1795 levaram a inquéritos. Uma comissão dos Lordes encontrou apenas boatos e chamou os comerciantes de cereais de úteis e necessários; a comissão dos Comuns de 1801 ouviu os negociantes e deixou um retrato da bolsa de Mark Lane, propriedade de oitenta cotas. Havia 64 bancas e cerca de cinquenta pessoas: trinta corretores (factors) e vinte negociantes (dealers), e oito corretores atendiam apenas aos fornecedores de Kent. A maior parte do cereal chegava por mar."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "99%",
+          "texto": "Parcela do cereal vendido em Mark Lane que passava primeiro pelos corretores, à comissão; pouquíssimos fazendeiros vendiam o próprio grão. Os moinhos de Londres compravam diretamente; os distantes, por meio de corretores."
+        },
+        {
+          "tipo": "p",
+          "texto": "O corretor vendia como um corretor de bolsa, com comissão por quarter e liberdade para fixar o preço; o negociante comprava por conta própria, figura antiga no comércio de aveia, em boa parte importada da Irlanda, que até 1806 contava como país estrangeiro para o comércio de grãos. Entre 1697 e 1765, a aveia representou mais de dois terços das importações britânicas de grãos. Os “jobbers”, que todos criticavam e ninguém admitia ser, compravam na sexta-feira para vender na segunda, sem tocar no produto: eram “touros”, diz Fay."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que o problema da época era uma alta prolongada, em que a especulação corria num só sentido. Faltava o “urso”, que vende o que não tem para entrega futura e teria contrabalançado os touros; ele não podia aparecer enquanto o trigo fosse vendido sem padrões de classificação. O artigo aponta os Estados Unidos como pioneiros e Liverpool como seguidor, uma ou duas gerações depois."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Nas comunicações, G. S. Brown, presidente da Alpha Portland Cement Company, contesta a resenha de Fetter sobre Portland Cement Prices: diz que a maior parte da produção de cada fábrica sai pelo preço da fábrica, compara a venda em território distante à entrega de uma loja de departamentos e afirma que, em 26 anos, o consumo de cimento passou de três milhões para quase 150 milhões de barris, com alta de preço inferior a 30%. Fetter responde que a carta não toca o tema central da resenha, o sentido de “preços uniformes”, e que o sistema de preços entregues por zonas e pontos-base se assemelha ao Pittsburgh-plus. As resenhas tratam de Economics of Overhead Costs, de J. Maurice Clark (por J. Hugh Jackson); Economics for Helen, de Hilaire Belloc (J. E. Le Rossignol); American Economic History, de Harold Underwood Faulkner (Abbott Payson Usher); o livro de Lewis H. Haney sobre transporte ferroviário (C. S. Duncan); o estudo de Jacob Viner sobre a balança de endividamento do Canadá (Frank D. Graham); Banking Principles and Practice, de Ray B. Westerfield (W. R. Burgess); Das Geld, de Helfferich (Eugene Schwiedland); o imposto sobre heranças de Eugenio Rignano (Roy G. Blakey); e The Problem of Business Forecasting (W. A. Berridge), entre outras. Seguem listas de livros novos, resumos de periódicos, documentos e notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número inteiro gira em torno da pergunta de Mitchell: o que a medição faz com a teoria. Hansen põe a produtividade marginal diante de um século de dados e conclui que o salário real cresce menos que o produto médio por razões que a própria teoria prevê; Commons e Gephart discutem se uma variável medida, o índice de preços, pode guiar um banco central; Gregory pede que se teste o que a doutrina monetária supõe. É uma economia que começa a trocar postulados por séries temporais e instituições observadas.",
+            "Fay e Fetter lembram o outro lado do método: instituições têm história. A especulação em Londres dependia de regras sobre amostras e classificação, e a autoridade do economista dependia de quem ganhava ou perdia com suas conclusões. Os dois textos mostram que a medição não dispensa o estudo das regras que produzem os números."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Análise quantitativa",
+          "estudo das relações econômicas por meio de dados numéricos e métodos estatísticos."
+        ],
+        [
+          "Salário real",
+          "salário em dinheiro dividido por um índice de custo de vida."
+        ],
+        [
+          "Produtividade marginal",
+          "acréscimo de produto obtido com uma unidade adicional de um fator, como o trabalho."
+        ],
+        [
+          "Operações de mercado aberto",
+          "compra e venda de títulos pelo banco central para ampliar ou reduzir o crédito."
+        ],
+        [
+          "Redesconto",
+          "empréstimo do banco central a bancos comerciais, com garantia de títulos já descontados."
+        ],
+        [
+          "Padrão-câmbio-ouro",
+          "sistema em que o país mantém reservas em moedas conversíveis em ouro, e não em ouro físico."
+        ],
+        [
+          "Paridade do poder de compra",
+          "teoria segundo a qual o câmbio entre duas moedas acompanha a razão entre seus níveis de preços."
+        ],
+        [
+          "Corretor (factor)",
+          "intermediário que vendia cereal por conta de terceiros, à comissão."
+        ]
+      ],
+      "hoje": "As perguntas do número continuam abertas. A previsão de Mitchell sobre uma economia feita de medições e monografias descreve a profissão atual. A discussão entre Commons e Gephart, sobre se o banco central controla preços ou apenas o crédito, reaparece em cada debate sobre metas de inflação e independência. A proposta de Bellerby de coordenar reservas entre bancos centrais antecipa as linhas de swap e os fóruns de cooperação monetária. E a relação entre salário real e produtividade, que Hansen mediu desde 1820, segue no centro do debate sobre distribuição.",
+      "itens": [
+        [
+          "Quantitative Analysis in Economic Theory",
+          "pp. 1–12",
+          "ia-1925-03-p1"
+        ],
+        [
+          "The Economists and the Public",
+          "pp. 13–26",
+          "ia-1925-03-p13"
+        ],
+        [
+          "Factors Affecting the Trend of Real Wages",
+          "pp. 27–42",
+          "ia-1925-03-p27"
+        ],
+        [
+          "The Stabilization of Prices and Business",
+          "pp. 43–52",
+          "ia-1925-03-p43"
+        ],
+        [
+          "What Can Central Banks Really Do?",
+          "pp. 53–59",
+          "ia-1925-03-p53"
+        ],
+        [
+          "Some International Aspects of Monetary Policy",
+          "pp. 60–66",
+          "ia-1925-03-p60"
+        ],
+        [
+          "Discussion",
+          "pp. 67–69",
+          "ia-1925-03-p67"
+        ],
+        [
+          "The London Corn Market at the Beginning of the Nineteenth Century",
+          "pp. 70–76",
+          "ia-1925-03-p70"
+        ],
+        [
+          "Economics and Portland Cement Prices: A Communication",
+          "pp. 77–80",
+          "ia-1925-03-p77"
+        ],
+        [
+          "Reply to Foregoing Letter: A Communication",
+          "pp. 80–81",
+          "ia-1925-03-p80"
+        ],
+        [
+          "Review: The Economics of Overhead Costs by J. Maurice Clark",
+          "pp. 82–84",
+          "ia-1925-03-p82"
+        ],
+        [
+          "Review: Economics for Helen by Hilaire Belloc",
+          "pp. 84–85",
+          "ia-1925-03-p84"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "pp. 85–90",
+          "ia-1925-03-p85"
+        ],
+        [
+          "Review: American Economic History by Harold Underwood Faulkner",
+          "pp. 90–91",
+          "ia-1925-03-p90"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "pp. 91–96",
+          "ia-1925-03-p91"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "pp. 97–100",
+          "ia-1925-03-p97"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "pp. 100–101",
+          "ia-1925-03-p100"
+        ],
+        [
+          "Review: The Business of Railway Transportation by Lewis H. Haney",
+          "pp. 101–103",
+          "ia-1925-03-p101"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "pp. 103–106",
+          "ia-1925-03-p103"
+        ],
+        [
+          "Review: Canada’s Balance of International Indebtedness, 1900-1913 by Jacob Viner",
+          "pp. 106–109",
+          "ia-1925-03-p106"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "pp. 109–112",
+          "ia-1925-03-p109"
+        ],
+        [
+          "Review: Financial Organization and Management of Business by Charles W. Gerstenberg",
+          "pp. 112–114",
+          "ia-1925-03-p112"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "pp. 114–123",
+          "ia-1925-03-p114"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "pp. 123–124",
+          "ia-1925-03-p123"
+        ],
+        [
+          "Review: Labor Attitudes and Problems by Willard E. Atkins, Harold D. Lasswell",
+          "pp. 124–126",
+          "ia-1925-03-p124"
+        ],
+        [
+          "Review: Is Unemployment Inevitable? An Analysis and a Forecast",
+          "pp. 126–128",
+          "ia-1925-03-p126"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "pp. 128–133",
+          "ia-1925-03-p128"
+        ],
+        [
+          "Review: Banking Principles and Practice by Ray B. Westerfield",
+          "pp. 133–136",
+          "ia-1925-03-p133"
+        ],
+        [
+          "Review: Das Geld by K. Helfferich",
+          "pp. 136–137",
+          "ia-1925-03-p136"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "pp. 137–140",
+          "ia-1925-03-p137"
+        ],
+        [
+          "Review: The Tax Problem in Wisconsin (National Industrial Conference Board)",
+          "pp. 140–145",
+          "ia-1925-03-p140"
+        ],
+        [
+          "Review: The Social Significance of the Inheritance Tax by Eugenio Rignano",
+          "pp. 145–147",
+          "ia-1925-03-p145"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "pp. 147–150",
+          "ia-1925-03-p147"
+        ],
+        [
+          "Review: Some Aspects of Italian Immigration to the United States by Antonio Stella",
+          "pp. 150–151",
+          "ia-1925-03-p150"
+        ],
+        [
+          "New Books: Population and Migration",
+          "pp. 151–153",
+          "ia-1925-03-p151"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "pp. 153–155",
+          "ia-1925-03-p153"
+        ],
+        [
+          "Review: Workmen’s Compensation by E. H. Downey",
+          "pp. 155–157",
+          "ia-1925-03-p155"
+        ],
+        [
+          "Review: Life Insurance by Joseph B. MacLean",
+          "pp. 157–158",
+          "ia-1925-03-p157"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "pp. 158–160",
+          "ia-1925-03-p158"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "pp. 160–161",
+          "ia-1925-03-p160"
+        ],
+        [
+          "Review: The Problem of Business Forecasting, edited by Warren M. Persons and others",
+          "pp. 161–164",
+          "ia-1925-03-p161"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "pp. 164–165",
+          "ia-1925-03-p164"
+        ],
+        [
+          "Periodicals",
+          "pp. 166–195",
+          "ia-1925-03-p166"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 195–197",
+          "ia-1925-03-p195"
+        ],
+        [
+          "Notes",
+          "pp. 198–208",
+          "ia-1925-03-p198"
+        ]
+      ],
+      "jstor_edicao": "",
+      "artigos": [
+        {
+          "titulo": "Quantitative Analysis in Economic Theory",
+          "autores": "Wesley C. Mitchell (Columbia University)",
+          "paginas": "pp. 1–12",
+          "jstor": "ia-1925-03-p1",
+          "resumo": "Discurso presidencial: a análise quantitativa vai reformular os problemas da teoria, tornar o tratamento do comportamento mais objetivo e dar mais peso às instituições.",
+          "ensaio_slug": "mitchell-a-analise-quantitativa-na-teoria"
+        },
+        {
+          "titulo": "The Economists and the Public",
+          "autores": "Frank A. Fetter (Princeton University)",
+          "paginas": "pp. 13–26",
+          "jstor": "ia-1925-03-p13",
+          "resumo": "História da relação entre economistas acadêmicos, mundo dos negócios e opinião pública nos Estados Unidos, lida na homenagem a Richard T. Ely."
+        },
+        {
+          "titulo": "Factors Affecting the Trend of Real Wages",
+          "autores": "Alvin H. Hansen (University of Minnesota)",
+          "paginas": "pp. 27–42",
+          "jstor": "ia-1925-03-p27",
+          "resumo": "Série de salários reais americanos de 1820 a 1923, comparada à produção, e relação inversa entre salário real e nível de preços."
+        },
+        {
+          "titulo": "The Stabilization of Prices and Business",
+          "autores": "John R. Commons",
+          "paginas": "pp. 43–52",
+          "jstor": "ia-1925-03-p43",
+          "resumo": "Defesa da resolução de abril de 1923 do Federal Reserve Board como política de estabilização do crédito e dos preços.",
+          "ensaio_slug": "commons-a-estabilizacao-de-precos"
+        },
+        {
+          "titulo": "What Can Central Banks Really Do?",
+          "autores": "T. E. Gregory (Londres)",
+          "paginas": "pp. 53–59",
+          "jstor": "ia-1925-03-p53",
+          "resumo": "Exame crítico do ambiente, das técnicas e das hipóteses de preços por trás das novas tarefas propostas aos bancos centrais."
+        },
+        {
+          "titulo": "Some International Aspects of Monetary Policy",
+          "autores": "J. R. Bellerby (International Labor Office, Washington)",
+          "paginas": "pp. 60–66",
+          "jstor": "ia-1925-03-p60",
+          "resumo": "Riscos da volta geral ao padrão-ouro e proposta de cooperação entre bancos centrais com base nas resoluções de Gênova."
+        },
+        {
+          "titulo": "Discussion",
+          "autores": "W. F. Gephart",
+          "paginas": "pp. 67–69",
+          "jstor": "ia-1925-03-p67",
+          "resumo": "Comentário ao texto de Commons: controlar o crédito não equivale a produzir preços estáveis, e o Federal Reserve deve conter as expectativas."
+        },
+        {
+          "titulo": "The London Corn Market at the Beginning of the Nineteenth Century",
+          "autores": "C. R. Fay",
+          "paginas": "pp. 70–76",
+          "jstor": "ia-1925-03-p70",
+          "resumo": "Estrutura do mercado de cereais de Mark Lane por volta de 1800: corretores, negociantes, jobbers e as leis contra a especulação."
+        },
+        {
+          "titulo": "Economics and Portland Cement Prices",
+          "autores": "G. S. Brown (Alpha Portland Cement Company)",
+          "paginas": "pp. 77–80",
+          "jstor": "ia-1925-03-p77",
+          "resumo": "Carta que contesta a resenha de Fetter sobre Portland Cement Prices e defende o sistema de preços da indústria."
+        },
+        {
+          "titulo": "Reply to Foregoing Letter",
+          "autores": "Frank A. Fetter",
+          "paginas": "pp. 80–81",
+          "jstor": "ia-1925-03-p80",
+          "resumo": "Resposta de Fetter: a carta não discute o sentido de “preços uniformes”, tema central da resenha."
+        },
+        {
+          "titulo": "J. Maurice Clark, The Economics of Overhead Costs",
+          "autores": "J. Hugh Jackson (Harvard Graduate School of Business Administration)",
+          "paginas": "pp. 82–84",
+          "jstor": "ia-1925-03-p82",
+          "resumo": "Resenha do livro de Clark sobre custos fixos e a teoria do valor, do ponto de vista do contador."
+        },
+        {
+          "titulo": "Hilaire Belloc, Economics for Helen",
+          "autores": "J. E. Le Rossignol (University of Nebraska)",
+          "paginas": "pp. 84–85",
+          "jstor": "ia-1925-03-p84",
+          "resumo": "Resenha de um livro de divulgação que simplifica a economia e expõe ideias do autor sobre usura e moeda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 85–90",
+          "jstor": "ia-1925-03-p85",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Harold Underwood Faulkner, American Economic History",
+          "autores": "Abbott Payson Usher (Harvard University)",
+          "paginas": "pp. 90–91",
+          "jstor": "ia-1925-03-p90",
+          "resumo": "Resenha de manual universitário de história econômica americana."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 91–96",
+          "jstor": "ia-1925-03-p91",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 97–100",
+          "jstor": "ia-1925-03-p97",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 100–101",
+          "jstor": "ia-1925-03-p100",
+          "resumo": "Lista de livros novos sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "Lewis H. Haney, The Business of Railway Transportation",
+          "autores": "C. S. Duncan (Washington, D.C.)",
+          "paginas": "pp. 101–103",
+          "jstor": "ia-1925-03-p101",
+          "resumo": "Resenha de manual sobre tráfego, tarifas e regulação das ferrovias."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 103–106",
+          "jstor": "ia-1925-03-p103",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicação."
+        },
+        {
+          "titulo": "Jacob Viner, Canada’s Balance of International Indebtedness, 1900-1913",
+          "autores": "Frank D. Graham (Princeton University)",
+          "paginas": "pp. 106–109",
+          "jstor": "ia-1925-03-p106",
+          "resumo": "Resenha do estudo de Viner sobre a balança de endividamento internacional do Canadá."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 109–112",
+          "jstor": "ia-1925-03-p109",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Charles W. Gerstenberg, Financial Organization and Management of Business",
+          "autores": "Henry Rand Hatfield (University of California)",
+          "paginas": "pp. 112–114",
+          "jstor": "ia-1925-03-p112",
+          "resumo": "Resenha de manual de finanças das empresas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 114–123",
+          "jstor": "ia-1925-03-p114",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócios, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 123–124",
+          "jstor": "ia-1925-03-p123",
+          "resumo": "Lista de livros novos sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "Willard E. Atkins e Harold D. Lasswell, Labor Attitudes and Problems",
+          "autores": "Warren B. Catlin (Bowdoin College)",
+          "paginas": "pp. 124–126",
+          "jstor": "ia-1925-03-p124",
+          "resumo": "Resenha de tratado sistemático sobre o problema do trabalho."
+        },
+        {
+          "titulo": "Is Unemployment Inevitable? An Analysis and a Forecast",
+          "autores": "W. I. King",
+          "paginas": "pp. 126–128",
+          "jstor": "ia-1925-03-p126",
+          "resumo": "Resenha de simpósio britânico de quinze especialistas sobre o desemprego."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 128–133",
+          "jstor": "ia-1925-03-p128",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Ray B. Westerfield, Banking Principles and Practice",
+          "autores": "W. R. Burgess (New York City)",
+          "paginas": "pp. 133–136",
+          "jstor": "ia-1925-03-p133",
+          "resumo": "Resenha de obra de referência sobre princípios e prática bancária."
+        },
+        {
+          "titulo": "K. Helfferich, Das Geld",
+          "autores": "Eugene Schwiedland (Viena)",
+          "paginas": "pp. 136–137",
+          "jstor": "ia-1925-03-p136",
+          "resumo": "Resenha da sexta edição do tratado alemão sobre a moeda."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 137–140",
+          "jstor": "ia-1925-03-p137",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "The Tax Problem in Wisconsin (National Industrial Conference Board)",
+          "autores": "H. L. Lutz (University of Wisconsin)",
+          "paginas": "pp. 140–145",
+          "jstor": "ia-1925-03-p140",
+          "resumo": "Resenha de estudo sobre a carga tributária estadual e local em Wisconsin, do ponto de vista da indústria."
+        },
+        {
+          "titulo": "Eugenio Rignano, The Social Significance of the Inheritance Tax",
+          "autores": "Roy G. Blakey (University of Minnesota)",
+          "paginas": "pp. 145–147",
+          "jstor": "ia-1925-03-p145",
+          "resumo": "Resenha da proposta de Rignano de graduar o imposto sobre heranças pelo número de transmissões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 147–150",
+          "jstor": "ia-1925-03-p147",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "Antonio Stella, Some Aspects of Italian Immigration to the United States",
+          "autores": "Henry Pratt Fairchild (New York University)",
+          "paginas": "pp. 150–151",
+          "jstor": "ia-1925-03-p150",
+          "resumo": "Resenha de livro sobre a imigração italiana nos Estados Unidos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 151–153",
+          "jstor": "ia-1925-03-p151",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 153–155",
+          "jstor": "ia-1925-03-p153",
+          "resumo": "Lista de livros novos sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "E. H. Downey, Workmen’s Compensation",
+          "autores": "Robert M. Woodbury (Washington, D.C.)",
+          "paginas": "pp. 155–157",
+          "jstor": "ia-1925-03-p155",
+          "resumo": "Resenha de síntese sobre a indenização por acidentes de trabalho."
+        },
+        {
+          "titulo": "Joseph B. MacLean, Life Insurance",
+          "autores": "Maurice H. Robinson (University of Illinois)",
+          "paginas": "pp. 157–158",
+          "jstor": "ia-1925-03-p157",
+          "resumo": "Resenha de manual sobre o seguro de vida."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 158–160",
+          "jstor": "ia-1925-03-p158",
+          "resumo": "Lista de livros novos, com notas breves, sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 160–161",
+          "jstor": "ia-1925-03-p160",
+          "resumo": "Lista de livros novos sobre socialismo e cooperativas."
+        },
+        {
+          "titulo": "Warren M. Persons e outros (orgs.), The Problem of Business Forecasting",
+          "autores": "W. A. Berridge (Brown University)",
+          "paginas": "pp. 161–164",
+          "jstor": "ia-1925-03-p161",
+          "resumo": "Resenha de coletânea da Pollak Foundation sobre previsão econômica."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "pp. 164–165",
+          "jstor": "ia-1925-03-p164",
+          "resumo": "Lista de livros novos sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 166–195",
+          "jstor": "ia-1925-03-p166",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 195–197",
+          "jstor": "ia-1925-03-p195",
+          "resumo": "Notas sobre documentos oficiais, relatórios e legislação."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 198–208",
+          "jstor": "ia-1925-03-p198",
+          "resumo": "Notícias da associação, da profissão e das universidades."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "mitchell-a-analise-quantitativa-na-teoria",
+          "titulo": "Mitchell, 1924: o que a estatística fará com a teoria econômica",
+          "titulo_original": "Quantitative Analysis in Economic Theory",
+          "autores": "Wesley C. Mitchell (Columbia University)",
+          "paginas": "pp. 1–12",
+          "jstor": "ia-1925-03-p1",
+          "chamada": "No discurso presidencial de Chicago, Mitchell prevê que a análise quantitativa vai reformular os problemas da teoria, deixar de lado o cálculo dos motivos e pôr as instituições no centro.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Dezoito anos antes, Alfred Marshall dissera à Royal Economic Society que a análise qualitativa tinha feito a maior parte de seu trabalho e que a tarefa “mais alta e mais difícil”, a quantitativa, teria de esperar o lento crescimento de estatísticas realistas. Wesley C. Mitchell tomou a frase como texto do discurso presidencial que leu em Chicago, em 29 de dezembro de 1924, na 37ª reunião anual da American Economic Association. Achou nela um tom quase provocativo — e uma previsão que, a seu ver, já não se sustentava."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mitchell recusa reabrir a velha querela de método. Ninguém, diz, propõe análise qualitativa contra quantitativa; todos praticam as duas, mudando a ênfase conforme a tarefa. A divergência real é sobre a fecundidade relativa de cada uma no futuro próximo. E a análise qualitativa não pode ser dispensada, porque o próprio trabalho quantitativo começa com distinções de espécie."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou desde Marshall?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Três coisas, segundo o autor. Primeiro, o acúmulo de estatísticas, sobretudo nos Estados Unidos: lento para os estatísticos, mas não tanto quanto em 1907. Segundo, a melhora constante dos métodos técnicos de análise. Terceiro, o financiamento. O trabalhador qualitativo precisa de poucos livros; o quantitativo precisa muitas vezes de um laboratório estatístico, de assistentes e de equipes de campo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Esse obstáculo, diz Mitchell, começa a cair: órgãos de governo e grandes empresas mantêm equipes de pesquisa, e instituições como o National Bureau of Economic Research, a Pollak Foundation e o Food Research Institute pesquisam com liberdade de escolha de temas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "A estatística responde às perguntas dos teóricos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A pergunta decisiva é o uso desses recursos. Quando um teórico leva um problema a um estatístico, a resposta nunca cobre exatamente a pergunta; quando o estatístico testa uma teoria, o teste nunca é conclusivo. Mitchell concorda com a visão cética num ponto: a análise quantitativa não promete um complemento estatístico para a teoria pura de Jevons ou de Marshall. Vai além: há pouca perspectiva de que resolva os problemas da análise qualitativa na forma em que foram postos. O que se deve esperar é uma reformulação dos velhos problemas em formas acessíveis ao ataque estatístico — e, com ela, uma teoria diferente no aspecto e no conteúdo."
+            },
+            {
+              "tipo": "p",
+              "texto": "O exemplo é Henry L. Moore, que precisava de “leis concretas de demanda” das principais safras para seus estudos de ciclos. Moore partiu da análise de Marshall, mas ela supunha variações infinitesimais, condições constantes e curva conhecida. No mundo real nada fica constante, as variações são finitas e a curva precisa ser derivada. Com estatística matemática, Moore obteve equações para milho, feno, aveia e batata, mediu sua precisão como fórmulas de previsão e calculou elasticidades. Mitchell pergunta se esse problema não é mais relevante para a ciência do que o original, e se curvas empíricas para muitas mercadorias não ensinam mais sobre a demanda do que a análise qualitativa pode ensinar."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que acontece com o cálculo dos motivos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Jevons queria uma ciência dedutiva baseada num cálculo de prazer e dor; Marshall pensava o comportamento econômico como governado por dois conjuntos opostos de motivos e via no dinheiro o instrumento para medi-los. Mitchell vê pouca perspectiva de que se meçam estatisticamente prazeres, dores ou motivos. Os dados do economista são fenômenos objetivos; interpretá-los como desejos é algo que o teórico acrescenta a partir de seu conhecimento da natureza humana."
+            },
+            {
+              "tipo": "p",
+              "texto": "Os teóricos, observa, nunca acreditaram que um indivíduo soubesse quantas unidades de um bem daria por outro; a construção era um recurso para entender os mercados reais. Os trabalhadores quantitativos partem diretamente desses mercados, dos fenômenos de massa, e podem estudar como preços respondem à oferta, como a oferta responde aos preços, como muda o consumo de comunidades inteiras e como variações monetárias afetam a renda “real”. Daí a previsão de que pouco se interessarão por indivíduos imaginários indo a mercados imaginários. Quanto às velhas explicações, há pouca chance de que sejam refutadas, mas:"
+            },
+            {
+              "tipo": "citacao",
+              "texto": "há muita probabilidade de que sejam simplesmente deixadas de lado.",
+              "original": "much likelihood that they will be disregarded"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os motivos não seriam ignorados, mas tratados como problemas a estudar, e não como explicações prontas. Mitchell liga essa mudança à psicologia, que caminhava para uma concepção objetiva e quantitativa do comportamento, e à ideia de que todas as ciências sociais estudam o comportamento humano. Dentro da economia, essa concepção ajudaria a evitar que a disciplina se desintegrasse em especialidades: a especialização viraria “diferenciação e integração”, na expressão de Herbert Spencer."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como seria a nova literatura econômica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não haveria cristalização rápida de um novo sistema. A literatura quantitativa viria em artigos e monografias, não em tratados gerais, e o conhecimento cresceria por acréscimo, como nas ciências naturais. Livros envelheceriam mais depressa, e os economistas seriam valorizados menos pela erudição do que pela capacidade criativa. Ninguém conseguiria mais cobrir todo o campo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Um tema seria quase certo: o definido por Thorstein Veblen na 13ª reunião anual, em 1900 — a relação entre ganhar dinheiro e fazer bens, entre o pecuniário e o tecnológico. A análise qualitativa, diz Mitchell, passou por cima do problema. O trabalho quantitativo não pode fazê-lo, porque seus dados se dividem em duas grandes famílias de séries temporais: uma em unidades físicas — alqueires, libras, jardas, toneladas-milha, nomes em folhas de pagamento, horas de trabalho, acidentes, rotatividade — e outra em unidades monetárias. A relação entre as duas levaria a examinar a utilidade econômica da publicidade, o efeito de um nível de preços instável sobre a produção e o efeito da regulação pública sobre os serviços."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Dá para fazer experimentos em economia?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Se o caráter herdado da natureza humana muda pouco e as mudanças na vida vêm da cultura, prevê o autor, os economistas se concentrarão nas instituições, que padronizam o comportamento e facilitam o procedimento estatístico. A análise quantitativa ampliaria os critérios objetivos de bem-estar. O estatístico não está em melhor posição que ninguém para dizer o que a humanidade deve buscar, mas, diante de fins concorrentes e recursos limitados, sua medição de custos e resultados ajudaria a transformar o tatear às cegas da sociedade num processo inteligente de experimentação."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mitchell lembra que já existem experimentos com o comportamento de grupos: escolas experimentais, sistemas de remuneração do trabalho, políticas de preços, métodos de supervisão de serviços públicos. Não têm o rigor do laboratório físico; exigem repetição, amostras representativas e correlação parcial. Seriam, ainda assim, a oportunidade mais exigente para a técnica estatística."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Mecânica ou estatística?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A última parte compara duas concepções de ciência. A teoria qualitativa seguiu a lógica da mecânica: o cálculo hedonista tem dois soberanos que governam a conduta como as leis do movimento governam os corpos. O trabalho quantitativo segue a lógica estatística da teoria dos gases de Clerk-Maxwell, que trata de regularidades de multidões de casos não uniformes. Em economia, a concordância entre as duas visões seria menor do que na física, por três razões: os casos somados são muito menos numerosos que as moléculas, as unidades são menos semelhantes e o isolamento do laboratório é inalcançável. Se o objetivo é entender o mundo, conclui, deve-se confiar na observação e abandonar as aproximações mecânicas à medida que a observação ganhe nível científico."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mitchell não anuncia o fim da teoria qualitativa. Teóricos continuarão a usá-la, com ilustrações estatísticas; as perguntas, os fins e as primeiras generalizações seguirão qualitativos; e a própria análise qualitativa ganharia força com medidas melhores. Termina com otimismo: com mais dados, métodos mais fortes e mais apoio, os pesquisadores que começavam a carreira poderiam fazer da economia uma ciência quantitativa e tornar obsoleta não só a obra de Marshall, mas também os primeiros passos quantitativos de seus contemporâneos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o discurso acerta ao tratar a medição como algo que muda a pergunta, e não só a resposta. O exemplo de Moore mostra o mecanismo: ao estimar demanda com dados de mercado, sem a cláusula de condições constantes, o economista passa a estudar outra coisa — uma relação empírica, válida no intervalo observado, com erro mensurável.",
+                "A previsão sobre o cálculo dos motivos é a parte mais discutível em termos de método. A teoria da escolha não desapareceu; voltou como estrutura para interpretar dados, e a econometria acabou exigindo justamente que se dissesse qual comportamento gerou as séries. O programa de Mitchell — séries físicas contra séries monetárias, instituições como objeto, experimentos com grupos — descreve bem a agenda empírica que viria, mas a ligação entre teoria e medida se mostrou mais estreita do que ele supunha."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Análise qualitativa",
+              "raciocínio sobre relações de causa e direção dos efeitos, sem medir sua grandeza."
+            ],
+            [
+              "Análise quantitativa",
+              "estudo das relações econômicas por meio de dados numéricos e métodos estatísticos."
+            ],
+            [
+              "Elasticidade da demanda",
+              "variação percentual da quantidade demandada para uma variação de 1% no preço."
+            ],
+            [
+              "Cálculo hedonista",
+              "teoria que explica a conduta pela soma de prazeres e dores, associada a Bentham e Jevons."
+            ],
+            [
+              "Correlação parcial",
+              "medida da associação entre duas variáveis mantendo outras constantes por meio estatístico."
+            ],
+            [
+              "Série temporal",
+              "sequência de observações de uma variável ao longo do tempo."
+            ]
+          ],
+          "hoje": "A previsão de Mitchell sobre a forma da literatura se confirmou: a economia passou a avançar por artigos empíricos, não por tratados. A ideia de que a medição reformula a pergunta reaparece na estimação de demanda, nos experimentos de campo e nos estudos que usam dados administrativos. E o tema que ele tirou de Veblen, a relação entre quantidades físicas e valores monetários, continua no centro das contas nacionais, dos índices de preços e das medidas de produtividade."
+        },
+        {
+          "slug": "commons-a-estabilizacao-de-precos",
+          "titulo": "Commons, 1924: o Federal Reserve e a estabilização dos preços",
+          "titulo_original": "The Stabilization of Prices and Business",
+          "autores": "John R. Commons",
+          "paginas": "pp. 43–52",
+          "jstor": "ia-1925-03-p43",
+          "chamada": "Commons lê a resolução de abril de 1923 do Federal Reserve Board como uma meta de preços disfarçada, compara 1919 a 1923 e alerta contra a pressão dos banqueiros para limitar o mercado aberto.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em abril de 1923, o Federal Reserve Board adotou uma resolução de uma frase: o momento, a forma, o caráter e o volume das compras de títulos em mercado aberto pelos bancos de reserva seriam governados “com atenção primária” à acomodação do comércio e dos negócios e ao efeito dessas compras e vendas sobre a “situação geral do crédito”. Para John R. Commons, era a declaração de política mais importante desde a lei do Federal Reserve, de 1913. Ele a defendeu em Chicago, em 30 de dezembro de 1924, no primeiro de três trabalhos sobre “The World’s Monetary Problem”."
+            },
+            {
+              "tipo": "p",
+              "texto": "O alcance da frase, diz Commons, não se limita ao mercado aberto. Inclui os outros dois instrumentos de estabilidade dos bancos de reserva, a taxa de redesconto e a emissão de notas, porque os três estão amarrados em qualquer esforço de atender ao efeito das políticas sobre o crédito. O autor faz três comparações: com a própria lei de 1913, com o que os bancos de reserva fizeram em 1919 e em 1923, e com uma resolução da American Bankers’ Association de setembro de 1924."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que não falar em estabilizar preços?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando o projeto da lei chegou à Câmara, as taxas de desconto deveriam ser fixadas não só para “acomodar o comércio”, mas também para “promover um nível de preços estável”. A cláusula caiu na comissão. Commons entende que a “situação geral do crédito” de 1923 equivale à cláusula suprimida — e talvez seja melhor do que ela."
+            },
+            {
+              "tipo": "p",
+              "texto": "Em 1913, explica, público e banqueiros teriam se alarmado se um novo instrumento de crédito concentrado recebesse poder de regular preços. A ideia de um nível geral, medido por números-índices, estava oito anos à frente do espetáculo de 1920 e 1921. As pessoas aprendem por pancadas, não pela teoria, e o produtor tende a ver na regulação do índice uma regulação dos seus preços. Se seus preços caem, conclui que outros grupos dominaram o Board e que o remédio é disputá-lo politicamente."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí a tarefa que Commons atribui aos economistas: ensinar a diferença entre preços particulares e nível geral. Dá um exemplo. Consultada pelo Congresso sobre a alta da gasolina, a Federal Trade Commission dedicou 57 páginas a explicá-la sem mencionar que, comparado à alta geral, o preço da gasolina havia caído. A mesma confusão, diz, alimenta a ideia de que o Federal Reserve deve atender ao financiamento do governo ou que grupos devem ter representação no Board para proteger seus preços."
+            },
+            {
+              "tipo": "p",
+              "texto": "O Board conhece a distinção e a usa. Seus boletins e os dos bancos distritais acompanham índices sensíveis de preços, de produção, de comércio e de emprego. Nenhum economista, observa Commons, supõe que o nível de preços possa ser estabilizado exatamente; estabilizar significa evitar os picos e as quedas excessivas. E isso, afirma, foi o que a política fez desde abril de 1923."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que deu errado em 1919?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em 1919, diz o autor, havia banqueiros experientes nos conselhos e nos bancos de reserva que viam o que vinha com redesconto baixo, grandes compras de títulos e multiplicação das notas. Mas o secretário do Tesouro ocupava lugar dominante no Board e queria colocar novos títulos do governo a juros inferiores aos do mercado. Só depois de vendidas as emissões, no outono de 1919, o Board ficou livre para dar passos hesitantes contra a inflação. Era tarde, e o boom seguiu até o colapso de 1920."
+            },
+            {
+              "tipo": "p",
+              "texto": "Depois, os bancos continuaram vendendo títulos e mantendo o redesconto alto muito depois de a situação exigir o contrário. Se tivessem seguido a regra de 1923, diz Commons, teriam subido as taxas e reduzido as carteiras alguns meses antes em 1919, e as teriam reduzido alguns meses antes em 1920. Muitos economistas, banqueiros e empresários, acrescenta, achavam que um redesconto de 7% ou 8% em 1919 teria evitado grande parte do boom e do colapso."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que funcionou em 1923?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos meses anteriores a fevereiro de 1923, os preços subiam quase tão depressa quanto em 1915 e na primavera de 1919, e o ouro entrava em grande quantidade. Desta vez, uma leve alta em três bancos de reserva, vendas de títulos e liquidação de empréstimos a partir de janeiro, somadas a advertências do secretário do Comércio, de agências de previsão e de cartas de grandes bancos, tiveram efeito quase imediato em todo o país. Com o ouro dos bancos-membros já recolhido aos bancos de reserva, a venda de títulos neutralizou as importações de metal como se ele tivesse saído."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "3 bancos de reserva",
+              "texto": "Número de bancos de reserva que subiram levemente o redesconto em fevereiro de 1923. Para Commons, a diferença em relação a 1919 foi de oportunidade: um aumento pequeno no início fez o que um aumento grande teria precisado fazer depois."
+            },
+            {
+              "tipo": "p",
+              "texto": "A conclusão, que o autor diz ter surpreendido muitos, é que as enormes importações de ouro não precisavam elevar os preços. Desde abril de 1923, os Estados Unidos não estariam bem num padrão-ouro: o ouro ficou represado fora do sistema bancário, e os preços foram estabilizados em algo diferente do nível do ouro. Se algo, admite, o Board exagerou: a queda tornou-se séria no primeiro semestre de 1924, e só depois de três reduções do desconto em Nova York e de compras em mercado aberto os negócios e os preços agrícolas se recuperaram."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual é o perigo dos banqueiros?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A terceira comparação é com a American Bankers’ Association. Em setembro de 1924, os banqueiros reclamaram que o sistema prestava serviços gratuitos, que isso elevava os custos e que, para cobrir despesas e dividendos, os bancos de reserva competiam com seus próprios membros, podendo acentuar as oscilações do pêndulo financeiro. Sugeriram limitar os bancos de reserva às funções de emissão e redesconto. A posição repetia uma declaração do Federal Advisory Council de janeiro de 1922."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Commons, essas resoluções tratam as compras em mercado aberto como as de um banco privado, feitas para lucrar, e subordinam o sistema aos lucros dos bancos-membros. Antes do Federal Reserve, a única arma contra a expansão e a contração excessivas era a taxa de juros, e ela chegava tarde. O mercado aberto permite tomar a iniciativa, sem esperar que o público venha pedir crédito, e por isso deveria ser ampliado, não restringido. A escolha, no fim, é entre dois objetivos:"
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Não podemos ter ao mesmo tempo dinheiro barato e nível de preços estável.",
+              "original": "We cannot have both cheap money and a stable price level."
+            },
+            {
+              "tipo": "p",
+              "texto": "Para ter preços estáveis, diz, é preciso subir a taxa de juros para moderar a inflação de crédito e depois baixá-la para moderar a deflação — e fazê-lo vários meses antes de as tendências se completarem. Os devedores que medem o sucesso do sistema por juros baixos e os banqueiros que o medem pelos próprios lucros erram, na sua visão, em direções opostas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que esperar de 1925?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O texto termina com a situação que Commons chama de anômala. O ouro entrava em quantidades enormes e era represado, de modo que as exigências de reserva perdiam o sentido. A cobrança das dívidas europeias excedia a capacidade de pagamento em mercadorias e serviços, e o país subiria tarifas se tentassem pagar assim. A libra poderia voltar à paridade se os preços americanos subissem ou os britânicos caíssem; mas, se outros países europeus começassem a pagar, a pressão sobre a libra aumentaria, e o franco ficaria ainda mais longe. O futuro, sugere, pediria algum entendimento internacional que associasse o sistema de reserva aos bancos centrais de outros países."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto antecipa a lógica das metas de inflação mais de meio século antes de elas se tornarem regra. Commons separa nível geral de preços particulares, trata a estabilização como redução de picos e vales, e põe a oportunidade no centro: agir cedo com pouco em vez de tarde com muito. A frase sobre dinheiro barato e preços estáveis resume o dilema de qualquer banco central com um único instrumento.",
+                "A discussão com os banqueiros também é atual em seus termos econômicos. Se o banco central opera para lucrar, seus incentivos se confundem com os dos bancos que deve disciplinar; se opera para estabilizar, precisa de liberdade para comprar e vender contra o mercado. E o episódio de 1919 mostra a outra pressão, a do Tesouro interessado em juros baixos para a dívida pública — o problema que hoje se discute como dominância fiscal."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Operações de mercado aberto",
+              "compra e venda de títulos pelo banco central para aumentar ou reduzir o crédito disponível."
+            ],
+            [
+              "Redesconto",
+              "empréstimo do banco central a bancos comerciais, garantido por títulos que eles já descontaram."
+            ],
+            [
+              "Nível geral de preços",
+              "média dos preços de muitas mercadorias, medida por um número-índice."
+            ],
+            [
+              "Ouro represado",
+              "ouro mantido fora da base de crédito, para não expandir empréstimos e preços."
+            ],
+            [
+              "Paridade",
+              "valor legal de uma moeda em ouro ou em outra moeda."
+            ],
+            [
+              "Dominância fiscal",
+              "situação em que a política monetária se subordina às necessidades de financiamento do governo."
+            ]
+          ],
+          "hoje": "A frase de Commons sobre dinheiro barato e preços estáveis descreve o dilema de qualquer banco central diante de pressões por juros baixos. O debate sobre mandato — mirar só os preços ou também o crédito e o emprego — continua, assim como a discussão sobre a independência em relação ao Tesouro. E a ideia de agir cedo e pouco, em vez de tarde e muito, está na base das regras de política monetária e das comunicações prospectivas dos bancos centrais."
+        }
+      ]
+    },
+    {
+      "slug": "1925-a-trigesima-setima-reuniao-anual",
+      "numero": 190,
+      "titulo": "Chicago, 1924: publicidade, preço competitivo e o futuro da teoria",
+      "titulo_original": "Papers and Proceedings of the Thirty-seventh Annual Meeting of the American Economic Association, Chicago, December 1924",
+      "autores": "Fred E. Clark, George B. Hotchkiss, William D. Moriarty, H. Parker Willis, Thorstein Veblen, Sumner H. Slichter, Elliott Dunlap Smith, Arthur W. Kornhauser e outros, com os debatedores Paul T. Cherington, Morris A. Copeland, John Maurice Clark, Raymond T. Bye e Harry A. Millis",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 15, nº 1 (suplemento)",
+      "data": "1925",
+      "archive_id": "sim_american-economic-review_1925-03_15_supplement",
+      "chamada": "Chicago, dezembro de 1924: três defesas e críticas da publicidade, Willis pede um conceito prático de preço competitivo, Veblen prevê uma economia de negócios e Slichter mede os limites do incentivo salarial.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Em Chicago, na última semana de 1924, Thorstein Veblen disse à American Economic Association que a economia do futuro calculável seria uma ciência dos negócios: monográfica, detalhada e voltada para o ganho diferencial das empresas, enquanto a metade tecnológica da vida econômica ficaria na sombra. Na mesma reunião, três trabalhos discutiram se a publicidade é desperdício, H. Parker Willis pediu que os economistas definissem o que é um preço competitivo e Sumner H. Slichter perguntou por que a troca competitiva falha em interessar o operário na produção e nos custos."
+        },
+        {
+          "tipo": "p",
+          "texto": "O suplemento de março de 1925 reúne os trabalhos e debates da 37ª reunião anual, realizada de 28 a 31 de dezembro de 1924, sob a presidência de Wesley C. Mitchell. O discurso presidencial e a sessão sobre o problema monetário saíram no número regular de março; aqui ficam os demais trabalhos, as mesas-redondas, as atas e os relatórios."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para que serve a publicidade?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Fred E. Clark examinou cinco críticas correntes e concluiu que o custo da publicidade deve ser cobrado da concorrência, não da técnica, e que ela ajudou a criar os mercados amplos da produção em grande escala. George B. Hotchkiss foi além: a função econômica da publicidade é informar e educar, e não “criar demanda”. William D. Moriarty separou a publicidade ilegítima da legítima e apontou, nesta, o desperdício dos comerciantes que não a integram ao trabalho de seus vendedores. Na discussão, Morris A. Copeland perguntou se o lucro do anunciante é bom critério para julgar a educação do consumidor."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "13 milhões",
+          "texto": "Automóveis de passeio registrados nos Estados Unidos, segundo Cherington, quase o dobro do número de contribuintes do imposto de renda federal. Ele citou ainda cerca de 600 mil máquinas de lavar elétricas e um milhão de aspiradores vendidos por ano."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que é um preço competitivo?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Willis observou que as leis antitruste e de comissão de comércio deixaram empresários e promotores sem critério prático de preço competitivo. Sem provas diretas de conspiração, o governo passou a tratar certos padrões de preços como indício dela, com padrões que variavam a cada caso. Willis propôs que a associação examinasse as práticas reais de formação e cotação de preços. Uma moção de John R. Commons, aceita por Willis, mandou a comissão executiva tratar do estudo com uma agência de pesquisa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Para onde vai a teoria econômica?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Veblen previu que a nova geração de economistas, formada sob as preconcepções do sistema de preços, faria uma ciência dos negócios, voltada para o ganho diferencial, e deixaria a teoria tradicional como antiguidade perfunctória. John Maurice Clark respondeu que o próprio Veblen era a primeira e notável exceção à tendência descrita e que qualquer sistema precisa organizar a “derrota mútua” entre interesses conflitantes. Raymond T. Bye concordou que crescia o estudo detalhado, mas o atribuiu aos novos dados e defendeu a teoria geral: uma massa de estudos separados, sem interpretação,"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "seria caos, não ciência.",
+          "original": "would be chaos, not science."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como interessar o operário na produção?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Slichter mostrou que a troca competitiva só funciona quando a empresa consegue medir o desempenho de cada trabalhador e quer pagá-lo por isso — e que essas condições faltam com frequência. Elliott Dunlap Smith argumentou que a supervisão e a compulsão financeira obtêm só parte do esforço possível, e que o resto depende de reduzir o medo e o conflito no trabalho. Arthur W. Kornhauser examinou as notas dos testes de inteligência por ocupação e sustentou que o ambiente de origem pesa muito nas diferenças."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "35,8%",
+          "texto": "Parcela, segundo Slichter, dos 220.536 trabalhadores de 175 fábricas pagos por peça; 12,7% recebiam bônus ou prêmio e 51,5% eram pagos por tempo. Para ele, medir a produção individual era impossível ou impraticável em cerca de um terço dos empregos fabris."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As nove mesas-redondas trataram de teoria, transportes, pesquisa de mercado, energia elétrica em grande escala, ensino, administração, estabilização monetária, serviço exterior e rodovias. O tesoureiro informa que os sócios passaram de 2.714 para 3.570 em cinco anos; os relatórios tratam, entre outros temas, da classificação dos economistas no serviço federal, do Social Science Research Council e da exclusão de cientistas dos antigos impérios centrais dos congressos internacionais."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, a reunião de Chicago tem um tema comum: a distância entre o mercado da teoria e as instituições observadas. A publicidade existe porque os bens não são padronizados e a informação é cara; o preço “competitivo” virou questão judicial porque a teoria não dizia como reconhecê-lo na prática; e a troca competitiva no chão de fábrica depende de algo que a teoria supunha dado, a medição do desempenho individual.",
+            "Slichter e Copeland chegam ao mesmo ponto por caminhos diferentes: quando a medida falha, o incentivo de preço não organiza a produção nem a informação ao consumidor. É uma agenda que a economia da informação e da organização retomaria décadas depois."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Publicidade de prestígio",
+          "anúncio que promove o nome do fabricante, e não um produto específico."
+        ],
+        [
+          "Preço competitivo",
+          "preço formado sem acordo entre vendedores; nas leis antitruste, critério para identificar conluio."
+        ],
+        [
+          "Ganho diferencial",
+          "lucro de uma empresa em relação às demais, inclusive à custa delas."
+        ],
+        [
+          "Pagamento por peça",
+          "salário proporcional à quantidade produzida."
+        ],
+        [
+          "Grupos não concorrentes",
+          "camadas de ocupações entre as quais, segundo Taussig, é difícil mudar."
+        ],
+        [
+          "Giant Power",
+          "plano de geração elétrica em grande escala junto às minas da Pensilvânia, com transmissão em alta tensão."
+        ]
+      ],
+      "hoje": "Os temas de Chicago continuam em pauta. A disputa sobre publicidade como informação ou como persuasão reaparece na regulação de plataformas digitais e de dados. A falta de um critério prático de preço competitivo, apontada por Willis, persiste nos casos de conluio tácito e de algoritmos de preço. A previsão de Veblen sobre uma economia voltada aos negócios ecoa no peso das escolas de administração. E os limites da medição do desempenho, descritos por Slichter, estão no centro da economia do pessoal e dos contratos.",
+      "itens": [
+        [
+          "Program of the Thirty-seventh Annual Meeting",
+          "pp. 1–4",
+          "ia-1925-03s-p1"
+        ],
+        [
+          "An Appraisal of Certain Criticisms of Advertising",
+          "pp. 5–13",
+          "ia-1925-03s-p5"
+        ],
+        [
+          "An Economic Defense of Advertising",
+          "pp. 14–22",
+          "ia-1925-03s-p14"
+        ],
+        [
+          "An Appraisal of the Present Status of Advertising",
+          "pp. 23–35",
+          "ia-1925-03s-p23"
+        ],
+        [
+          "The Economics of Advertising—Discussion",
+          "pp. 36–41",
+          "ia-1925-03s-p36"
+        ],
+        [
+          "The Problem of a Competitive Price",
+          "pp. 42–47",
+          "ia-1925-03s-p42"
+        ],
+        [
+          "Economic Theory in the Calculable Future",
+          "pp. 48–55",
+          "ia-1925-03s-p48"
+        ],
+        [
+          "Problems of Economic Theory—Discussion",
+          "pp. 56–61",
+          "ia-1925-03s-p56"
+        ],
+        [
+          "Round Table Conference on Economic Theory",
+          "pp. 62–64",
+          "ia-1925-03s-p62"
+        ],
+        [
+          "Round Table Conference on Transportation",
+          "pp. 65–71",
+          "ia-1925-03s-p65"
+        ],
+        [
+          "Round Table Conference on Marketing",
+          "p. 72",
+          "ia-1925-03s-p72"
+        ],
+        [
+          "Round Table Conference on Giant Power",
+          "pp. 73–75",
+          "ia-1925-03s-p73"
+        ],
+        [
+          "Round Table Conference on the Teaching of Business and Economics",
+          "pp. 76–79",
+          "ia-1925-03s-p76"
+        ],
+        [
+          "Round Table Conference on Business Administration",
+          "pp. 80–81",
+          "ia-1925-03s-p80"
+        ],
+        [
+          "Round Table Conference on Monetary Stabilization",
+          "pp. 82–83",
+          "ia-1925-03s-p82"
+        ],
+        [
+          "Round Table Conference on Foreign Service Training",
+          "pp. 84–87",
+          "ia-1925-03s-p84"
+        ],
+        [
+          "Round Table Conference on Highway Economics",
+          "pp. 88–91",
+          "ia-1925-03s-p88"
+        ],
+        [
+          "Competitive Exchange as a Method of Interesting Workmen in Output and Costs",
+          "pp. 92–100",
+          "ia-1925-03s-p92"
+        ],
+        [
+          "Labor Supply and Labor Effort",
+          "pp. 101–109",
+          "ia-1925-03s-p101"
+        ],
+        [
+          "Intelligence Test Ratings of Occupational Groups",
+          "pp. 110–122",
+          "ia-1925-03s-p110"
+        ],
+        [
+          "Psychological Problems of Industry—Discussion",
+          "pp. 123–125",
+          "ia-1925-03s-p123"
+        ],
+        [
+          "Minutes of the Business Meetings",
+          "pp. 126–131",
+          "ia-1925-03s-p126"
+        ],
+        [
+          "Report of the Secretary",
+          "pp. 132–138",
+          "ia-1925-03s-p132"
+        ],
+        [
+          "Report of the Treasurer",
+          "pp. 139–141",
+          "ia-1925-03s-p139"
+        ],
+        [
+          "Report of the Auditing Committee",
+          "pp. 142–143",
+          "ia-1925-03s-p142"
+        ],
+        [
+          "Report of the Editor of the American Economic Review",
+          "pp. 144–145",
+          "ia-1925-03s-p144"
+        ],
+        [
+          "Report of the Membership Committee",
+          "p. 146",
+          "ia-1925-03s-p146"
+        ],
+        [
+          "Report of the Committee on Methods of Nomination",
+          "p. 147",
+          "ia-1925-03s-p147"
+        ],
+        [
+          "Report of the Committee on an Encyclopedia of the Social Sciences",
+          "p. 148",
+          "ia-1925-03s-p148"
+        ],
+        [
+          "Report of the Committee on the Classification of Economists in the Federal Service",
+          "pp. 149–150",
+          "ia-1925-03s-p149"
+        ],
+        [
+          "Report of the Representatives of the American Economic Association on the American Council of Learned Societies",
+          "pp. 151–152",
+          "ia-1925-03s-p151"
+        ],
+        [
+          "Report of the Representatives of the American Economic Association to the International Mathematical Congress",
+          "pp. 153–156",
+          "ia-1925-03s-p153"
+        ],
+        [
+          "Report of the Representatives on the Social Science Research Council",
+          "pp. 157–160",
+          "ia-1925-03s-p157"
+        ],
+        [
+          "Report of the Representatives of the American Statistical Association and the American Economic Association on the Joint Census Advisory Committee",
+          "pp. 161–165",
+          "ia-1925-03s-p161"
+        ],
+        [
+          "Publications of the American Economic Association",
+          "",
+          "ia-1925-03s-x1"
+        ]
+      ],
+      "jstor_edicao": "",
+      "artigos": [
+        {
+          "titulo": "Program of the Thirty-seventh Annual Meeting",
+          "autores": "Programa da reunião",
+          "paginas": "pp. 1–4",
+          "jstor": "ia-1925-03s-p1",
+          "resumo": "Programa da reunião de Chicago, de 28 a 31 de dezembro de 1924. A primeira sessão, conjunta com a American Association for Labor Legislation e presidida por James A. Field, tratou dos reajustes entre direito e indústria, com William Draper Lewis, do American Law Institute. A segunda, presidida por Lewis H. Haney, foi sobre a economia da publicidade. A terceira, conjunta com a American Statistical Association e presidida por Louis I. Dublin, tratou de população e recursos naturais, com A. B. Wolfe, D. D. Lescohier, David Friday, Alonzo E. Taylor, Frederick Gale Tryon e Lida Mann. Parte dos trabalhos do programa seria publicada pela American Association for Labor Legislation e pela American Statistical Association. Seguem as sessões de teoria, as mesas-redondas, a do problema monetário, a de psicologia da indústria e as reuniões administrativas."
+        },
+        {
+          "titulo": "An Appraisal of Certain Criticisms of Advertising",
+          "autores": "Fred E. Clark, Northwestern University",
+          "paginas": "pp. 5–13",
+          "jstor": "ia-1925-03s-p5",
+          "resumo": "Clark define publicidade como a tentativa de vender pela palavra impressa ou pela imagem e examina cinco críticas: que é cara e socialmente desperdiçadora; que reforça o lado aquisitivo dos negócios; que individualiza produtos e encarece a distribuição; que aumenta a demanda por luxo, variedade e estilo e cria valores fictícios; e que seus resultados incertos geram desperdício. Sobre o custo, conclui que, na medida em que a publicidade resulta da concorrência, deve ser cobrada da concorrência, e que, como complemento da especialização regional e da produção em grande escala, trouxe benefícios. Reconhece que ela estimula a diferenciação desnecessária de produtos básicos, as “marcas de artigos de primeira necessidade”, mas lembra que também amplia mercados para produtores padronizados. Sobre a demanda, diz que o poder da publicidade costuma ser superestimado e que grande parte dela é informativa. Admite que os resultados de anúncios isolados raramente podem ser medidos. Muitas das críticas, observa, valem para qualquer método de venda e são, no fundo, críticas à própria concorrência."
+        },
+        {
+          "titulo": "An Economic Defense of Advertising",
+          "autores": "George B. Hotchkiss, New York University",
+          "paginas": "pp. 14–22",
+          "jstor": "ia-1925-03s-p14",
+          "resumo": "Hotchkiss nega que a função econômica primária da publicidade seja estimular ou controlar o consumo, e critica a expressão “criar demanda”: a demanda por novos produtos, diz, é despertada, intensificada, dirigida e tornada articulada. Um invento ou um produto melhor seria inútil enquanto o público não soubesse de sua existência, e a publicidade que transmite esse conhecimento acrescenta utilidade ao bem. Para mostrar o caráter educativo, cita a análise de um número do Ladies Home Journal por estudantes de pós-graduação: mais de 40% dos anúncios traziam informação que poderia estar nas colunas editoriais, outros 40% eram competitivos mas informativos, e 20% tinham pouco valor educativo. Sobre a publicidade de prestígio, dá o exemplo de um chapéu anunciado que custa US$ 3 a mais: parte do valor seria seguro contra risco e parte satisfação do comprador. A maior parte do gasto não poderia ser poupada; iria para produção em menor escala, vendedores, tempo dos compradores e perdas com mercadorias ruins. O resto seria o pagamento do consumidor por sua educação."
+        },
+        {
+          "titulo": "An Appraisal of the Present Status of Advertising",
+          "autores": "William D. Moriarty, University of Washington",
+          "paginas": "pp. 23–35",
+          "jstor": "ia-1925-03s-p23",
+          "resumo": "Moriarty parte do viés emocional com que se julga o sistema de comercialização, alvo preferido de quem ataca a ordem econômica e de organizadores de cooperativas. Separa a publicidade em que todas as partes agem de modo legítimo daquela em que vendedores de espaço, agências incompetentes ou anunciantes vitimam o anunciante ou o consumidor, ou em que ela serve a fins políticos. Para a legítima, propõe três testes: se aumenta o produto em valor mais do que o custo; se o anúncio comprado é bem aproveitado; e se rende tanto quanto renderia uma publicidade mais inteligente. No primeiro, ela sai vitoriosa, porque nenhuma empresa bem administrada vive sem ela. No segundo, aponta o desperdício das lojas que não usam o anúncio para estimular os próprios vendedores. No terceiro, vê violações elementares da lei dos rendimentos decrescentes. As correções, diz, vêm do próprio mercado, com os clubes de publicidade, os Better Business Bureaus, as agências melhores e os jornais que recusam anúncios duvidosos; a lei deve ficar em segundo plano."
+        },
+        {
+          "titulo": "The Economics of Advertising—Discussion",
+          "autores": "Paul T. Cherington, J. Walter Thompson Company; Morris A. Copeland, Cornell University",
+          "paginas": "pp. 36–41",
+          "jstor": "ia-1925-03s-p36",
+          "resumo": "Cherington descreve mudanças no consumo: em Chicago, a área nova de apartamentos foi de quase 19 milhões de pés quadrados, contra 4 milhões em casas; quase metade dos lares tinha eletricidade; vendiam-se 600 mil máquinas de lavar e um milhão de aspiradores por ano; e os 13 milhões de automóveis eram quase o dobro dos contribuintes do imposto de renda. Copeland observa que a própria existência da publicidade revela a ausência das condições que a teoria usa para mostrar que o lucro competitivo serve ao bem comum. O lucro pode estimular a obsolescência e o consumo competitivo, e a educação do consumidor talvez não deva ficar a cargo de quem não é pago para pensar em seus efeitos sociais."
+        },
+        {
+          "titulo": "The Problem of a Competitive Price",
+          "autores": "H. Parker Willis",
+          "paginas": "pp. 42–47",
+          "jstor": "ia-1925-03s-p42",
+          "resumo": "Willis afirma que as leis antitruste e de comissão de comércio deixaram, depois de muitos processos e decisões contraditórias, um vazio: não há critério prático de preço competitivo que oriente o empresário ou o promotor. As autoridades passaram a tratar condições de preço como indício de conspiração, e cada promotor fixou seus próprios padrões. Cita o processo contra a New York Sugar & Coffee Exchange, acusada de elevar artificialmente o preço do açúcar pelo mercado futuro. Os economistas, diz, concordam sobre a concorrência em teoria, mas divergem na prática: se a uniformidade de preços indica falta de concorrência, se preços diferentes para compradores diferentes são legítimos, se estatísticas de custos e preços trocadas entre empresas prejudicam a concorrência, se diferenciais fixos entre atacado e varejo são competitivos, e se a concorrência pode tomar a forma de serviços de entrega. Propõe que a associação nomeie uma comissão para examinar as práticas de formação e cotação de preços e chegar a um consenso."
+        },
+        {
+          "titulo": "Economic Theory in the Calculable Future",
+          "autores": "Thorstein Veblen",
+          "paginas": "pp. 48–55",
+          "jstor": "ia-1925-03s-p48",
+          "resumo": "Veblen prevê como será a economia no “futuro calculável”, a próxima geração. Os economistas, diz, serão pessoas de capacidade média formadas por hábitos de pensamento adquiridos no último quarto de século, e haverá uma defasagem crescente entre suas categorias e fatos que mudam depressa. O sistema econômico se dividiu entre negócios e indústria: de um lado a lógica do sistema de preços e da propriedade ausente, de outro a tecnologia mecânica. Como as empresas buscam ganho diferencial, muitas vezes à custa umas das outras, e a técnica busca eficiência produtiva, que depende de cooperação, as duas metades seguem lógicas diferentes. A economia, prevê, será cada vez mais uma ciência dos negócios, monográfica e detalhada, cujos praticantes serão partidários do sistema de preços; a tecnologia só entrará como “proposta de negócio”. Os sistemas teóricos gerais deixarão de interessar, os cursos se voltarão para administração, finanças e vendas, e a teoria vitoriana restará como antiguidade de interesse histórico.",
+          "ensaio_slug": "veblen-a-teoria-no-futuro-calculavel"
+        },
+        {
+          "titulo": "Problems of Economic Theory—Discussion",
+          "autores": "John Maurice Clark; Raymond T. Bye",
+          "paginas": "pp. 56–61",
+          "jstor": "ia-1925-03s-p56",
+          "resumo": "Clark aceita que as tendências descritas por Veblen existem, mas diz que há outras: o próprio Veblen e seus discípulos, o impulso reformador do educador, o trabalho de Llewellyn sobre direito, a assessoria econômica a sindicatos. Contesta a oposição entre negócios e indústria: a repartição de renda e propriedade exige ajustar interesses conflitantes em qualquer sistema, e a eficiência técnica nada significa sem uma escala de valores. Bye concorda que cresce o estudo detalhado de instituições, mas o atribui às novas estatísticas, e discorda de que a teoria geral será abandonada. Observa que o próprio Veblen generaliza e que sua distinção ecoa a velha disputa entre trabalho produtivo e improdutivo."
+        },
+        {
+          "titulo": "Round Table Conference on Economic Theory",
+          "autores": "Mesa-redonda sobre teoria econômica",
+          "paginas": "pp. 62–64",
+          "jstor": "ia-1925-03s-p62",
+          "resumo": "Mesa-redonda sobre a teoria e outros campos. Snow criticou as noções de instintos e de ação “nativa” e “adquirida” e pediu estudos de caso sobre motivos; Dice tratou o consumo como adaptação aos padrões do grupo; Hewett notou que os manuais dedicam a maior parte das páginas de teoria dos preços à concorrência; May propôs estudar a ordem jurídica para orientar tribunais e legisladores; Graham discutiu como o laissez-faire altera a distribuição e a qualidade da população; e Fay contrastou a psicologia de consumidor da Grã-Bretanha com a de produtor da América do Norte."
+        },
+        {
+          "titulo": "Round Table Conference on Transportation",
+          "autores": "Mesa-redonda sobre transportes; presidente, William J. Cunningham (Harvard)",
+          "paginas": "pp. 65–71",
+          "jstor": "ia-1925-03s-p65",
+          "resumo": "Cunningham propôs dois temas: o conteúdo dos cursos de transporte e a relação entre universitários e ferrovias. Lewis C. Sorrell, de Chicago, defendeu cursos gerais em 134 faculdades, a criação de cursos nas mais de 300 escolas sem a matéria e a divisão das especialidades entre instituições. Winthrop M. Daniels, de Yale, enviou texto sobre a falta de recrutamento de universitários pelas ferrovias, ligada à regra de antiguidade. Um levantamento de 204 dirigentes ferroviários mostrou 82, ou 40,2%, com diploma ou ao menos três anos de faculdade."
+        },
+        {
+          "titulo": "Round Table Conference on Marketing",
+          "autores": "Mesa-redonda sobre pesquisa de mercado; presidente, Harry R. Tosdal",
+          "paginas": "p. 72",
+          "jstor": "ia-1925-03s-p72",
+          "resumo": "Mesa sobre pesquisa de mercado. L. D. H. Weld, da Swift & Company, dividiu a pesquisa privada em cinco grupos e defendeu um departamento independente das áreas de vendas e de contabilidade. O Bureau of Agricultural Economics descreveu seu trabalho contra a desinformação e a favor da padronização; Benjamin H. Hibbard tratou da pesquisa nas escolas agrícolas; Horace Secrist disse que os bureaus universitários devem buscar princípios, não números de custo para o comércio; Edward S. Gardner descreveu o programa de pesquisa de anunciantes e agências."
+        },
+        {
+          "titulo": "Round Table Conference on Giant Power",
+          "autores": "Mesa-redonda sobre Giant Power; presidente, Morris L. Cooke",
+          "paginas": "pp. 73–75",
+          "jstor": "ia-1925-03s-p73",
+          "resumo": "Cooke anunciou linhas de 220 mil volts no leste da Pensilvânia, levando energia gerada nas minas de carvão às indústrias do Delaware, e disse que a troca interestadual tornava obsoleta a regulação estadual; a comissão estadual estimava que metade das fazendas podia ser servida. Irving Fisher citou Macaulay sobre invenções que encurtam distâncias. Um dirigente do sindicato dos eletricitários disse que o movimento operário apoiava a eletrificação. Arthur J. Mason afirmou que a maior parte do carvão de Illinois valia um centavo a tonelada na mina; W. F. Rittman propôs extrair óleo do carvão; Robert Bruère distinguiu Giant Power, voltada ao bem-estar, de super-power."
+        },
+        {
+          "titulo": "Round Table Conference on the Teaching of Business and Economics",
+          "autores": "Mesa-redonda sobre o ensino de negócios e de economia; presidente, J. E. Hagerty (Ohio State University)",
+          "paginas": "pp. 76–79",
+          "jstor": "ia-1925-03s-p76",
+          "resumo": "A. G. Anderson, de Illinois, defendeu professores com experiência de negócios e estágios para alunos. William H. Kiekhofer, de Wisconsin, abriu a parte de economia. E. E. Day, de Michigan, pediu separar cursos de negócios, voltados à empresa, dos de economia, voltados à política pública. F. H. Knight, de Iowa, disse que a exposição teórica é quase inútil para a maioria dos alunos e que princípios só se aprendem resolvendo problemas; Ira Cross, da Califórnia, discordou para o curso elementar; J. E. LeRossignol descreveu o modelo de Nebraska."
+        },
+        {
+          "titulo": "Round Table Conference on Business Administration",
+          "autores": "Mesa-redonda sobre administração de empresas; presidente, C. M. Thompson (University of Illinois)",
+          "paginas": "pp. 80–81",
+          "jstor": "ia-1925-03s-p80",
+          "resumo": "John D. Ball, da Edward Schuster & Co., definiu a engenharia de negócios como aplicação do método analítico do engenheiro à administração. C. C. Leeds, do Carnegie Institute of Technology, relatou análises de cargos executivos no distrito de Pittsburgh. Willits, da Pensilvânia, disse que os negócios ganhavam caráter de profissão, com corpo de conhecimento, método científico e códigos de ética, e propôs deixar o treinamento profissional à pós-graduação. J. J. Garvey, da Western Electric, defendeu cursos de treinamento para recém-formados nas grandes empresas."
+        },
+        {
+          "titulo": "Round Table Conference on Monetary Stabilization",
+          "autores": "Mesa-redonda sobre estabilização monetária; presidente, Holbrook Working (University of Minnesota)",
+          "paginas": "pp. 82–83",
+          "jstor": "ia-1925-03s-p82",
+          "resumo": "A mesa discutiu se a oferta de ouro bastaria para estabilizar a moeda nas décadas seguintes. Hastings, de Yale, estimou a produção futura; Irving Fisher julgou improvável que países com moedas muito depreciadas voltassem logo ao ouro; W. F. Gephart previu exportações de ouro bem abaixo de um bilhão de dólares; B. M. Anderson Jr., do Chase National Bank, negou que os preços dependam da quantidade de moeda e crédito; e um trabalho de W. Randolph Burgess estimou que a necessidade anual de ouro, perto de 2,8% no passado, cairia para cerca de 2%."
+        },
+        {
+          "titulo": "Round Table Conference on Foreign Service Training",
+          "autores": "Mesa-redonda sobre formação para o serviço exterior",
+          "paginas": "pp. 84–87",
+          "jstor": "ia-1925-03s-p84",
+          "resumo": "Cerca de 25 pessoas discutiram a formação para o comércio e o serviço exterior. H. C. Kidd, de Pittsburgh, apresentou o plano de um curso semestral de comércio exterior em 15 semanas; R. J. Ray, da Northwestern, tratou da graduação e da pós-graduação; Edmund A. Walsh descreveu a School of Foreign Service de Georgetown, que envia alunos ao exterior todo verão; R. S. Tucker, do Bureau of Foreign and Domestic Commerce, criticou a fraqueza dos formados em inglês e geografia comercial e pôs o francês como língua mais útil fora da América Latina."
+        },
+        {
+          "titulo": "Round Table Conference on Highway Economics",
+          "autores": "Mesa-redonda sobre economia rodoviária",
+          "paginas": "pp. 88–91",
+          "jstor": "ia-1925-03s-p88",
+          "resumo": "C. L. Raper, de Syracuse, propôs cursos de transporte rodoviário em engenharia e em administração e cooperação entre caminhões e ferrovias. Lewis C. Sorrell apresentou um levantamento do transporte de cargas em Chicago: 122 empresas com 1.312 caminhões e 1.390 veículos de tração animal, e 3.004 empregados em 121 empresas. A. N. Johnson pediu pesquisa ampla; Harold Hotelling, de Stanford, questionou se não seria melhor concentrar o pavimento em poucas estradas principais. A mesa criou uma comissão de cinco membros para promover o ensino da matéria."
+        },
+        {
+          "titulo": "Competitive Exchange as a Method of Interesting Workmen in Output and Costs",
+          "autores": "Sumner H. Slichter",
+          "paginas": "pp. 92–100",
+          "jstor": "ia-1925-03s-p92",
+          "resumo": "Slichter observa que a atitude dos operários diante da produção e dos custos contraria o que a teoria supõe e revela uma falha da troca competitiva como método de organizar a produção. Para que ela funcione com pagamento individual, a empresa precisa conseguir medir o desempenho de cada um, querer basear nele a remuneração, e o operário precisa responder ao incentivo. A medição é difícil: em 175 fábricas com 220.536 trabalhadores, só 35,8% eram pagos por peça e 12,7% por bônus; quantidade, qualidade, desgaste do equipamento e atitude escapam à medida. As empresas cortam tarifas quando os ganhos sobem, e os capatazes, sobrecarregados e preocupados em manter o emprego, evitam premiar o mérito. Os operários, diante do risco de desemprego, tentam fazer o trabalho durar. Um fabricante de borracha economizou mais de US$ 84 mil num ano com sugestões de empregados. Slichter espera que a medição avance, que os bônus de grupo cresçam e que outras motivações além do interesse próprio ganhem espaço.",
+          "ensaio_slug": "slichter-a-troca-competitiva-e-o-operario"
+        },
+        {
+          "titulo": "Labor Supply and Labor Effort",
+          "autores": "Elliott Dunlap Smith (Framingham, Massachusetts)",
+          "paginas": "pp. 101–109",
+          "jstor": "ia-1925-03s-p101",
+          "resumo": "Smith parte da ideia de que a oferta de trabalho não é só o número de trabalhadores, mas o esforço que eles põem no trabalho. As empresas contam com a compulsão da demissão e com a supervisão pessoal, que tem limites: ninguém vigia todos o tempo todo, e o vigia também precisa ser vigiado. Registros de desempenho e pagamento por peça rendem mais — na experiência do autor, aumentos de produção que muitas vezes chegam a 50% —, mas deixam de fora parte do melhor esforço, que precisa ser voluntário. O trabalhador busca sustento, respeito próprio e alheio, expressão e justiça; o medo da demissão arbitrária e do desemprego e o conflito aberto ou submerso com a gerência provocam reações primitivas, como limitar a produção. A gerência deve primeiro reduzir esses medos, com promoção por mérito, controle sobre os capatazes, segurança e esforço contra o desemprego; depois, tratar o trabalhador como parceiro, por participação nos lucros ou representação, desde que com sinceridade. Para Smith, cooperação e compulsão justa somadas aumentariam a oferta efetiva de trabalho."
+        },
+        {
+          "titulo": "Intelligence Test Ratings of Occupational Groups",
+          "autores": "Arthur W. Kornhauser",
+          "paginas": "pp. 110–122",
+          "jstor": "ia-1925-03s-p110",
+          "resumo": "Kornhauser discute o que a psicologia pode oferecer à economia, tanto na especulação, desde que tratada como provisória, quanto em pesquisas empíricas com testes e escalas. Examina os dados dos testes do exército de 1917-18: as notas médias sobem dos trabalhadores não qualificados aos semiqualificados, qualificados, ocupações de escritório e profissões, numa hierarquia que se parece com os cinco “grupos não concorrentes” de Taussig. Aponta limites: o recrutamento isentou parte dos trabalhadores, a classificação ocupacional era feita em entrevista breve, e os testes têm boa correlação com o sucesso de escriturários, mas não dão resultados claros para operários, vendedores e executivos. Sobretudo, rejeita interpretar as diferenças apenas como capacidade inata: lar, escola e convivência moldam as respostas, e as oportunidades não são iguais entre classes. Ao discutir a proposta de Taussig de remover as barreiras artificiais à escolha de ocupação, diz que diferenças de ambiente e de herança devem ser tratadas segundo a viabilidade de controlá-las."
+        },
+        {
+          "titulo": "Psychological Problems of Industry—Discussion",
+          "autores": "Harry A. Millis",
+          "paginas": "pp. 123–125",
+          "jstor": "ia-1925-03s-p123",
+          "resumo": "Millis diz que o mundo precisa de uma ciência e de uma administração da produção que elevem a renda nacional e tornem o trabalho menos penoso. Concorda com Smith, mas o acha geral demais, e vê nas experiências de empresas como a Dennison material de casos para essa ciência. Concorda com Slichter e diz que sindicatos só se tornam construtivos com segurança de existência, controle da disciplina arbitrária, estabilização e seguro-desemprego, como observou na indústria de roupas de Chicago, onde trabalhou três ou quatro anos."
+        },
+        {
+          "titulo": "Minutes of the Business Meetings",
+          "autores": "Ray B. Westerfield, secretário",
+          "paginas": "pp. 126–131",
+          "jstor": "ia-1925-03s-p126",
+          "resumo": "Atas das reuniões administrativas de 29 e 31 de dezembro de 1924, a segunda no Congress Hotel, sob a presidência de Mitchell, e das reuniões da comissão executiva. Foram aprovados os relatórios das comissões; ratificada a mudança de estatuto do American Council of Learned Societies; concedido o prêmio Babson de US$ 650 a Charles F. Sarle, da Drake University, por um ensaio sobre a previsão do preço dos porcos, e o de US$ 400 a Theodore J. B. Stier, da Rutgers. Uma moção de Commons, aceita por Willis, mandou estudar a formação de preços industriais. A comissão executiva destinou US$ 1.500 a pagamentos a colaboradores, decidiu continuar publicando a lista de teses de doutorado e autorizou o presidente Young a nomear uma comissão para a sucessão do secretário e tesoureiro."
+        },
+        {
+          "titulo": "Report of the Secretary",
+          "autores": "Ray B. Westerfield, secretário",
+          "paginas": "pp. 132–138",
+          "jstor": "ia-1925-03s-p132",
+          "resumo": "O secretário relata o ano de 1924. O ganho líquido de 280 sócios foi o maior da história da associação; nos cinco anos de sua gestão, de 1920 a 1924, o ganho somou 856, média de 171 por ano. Cerca de um terço dos novos sócios veio da campanha especial de Deibler, um terço por iniciativa própria e um terço por cartas e circulares do escritório, enviadas a membros de outras associações, a dirigentes de associações comerciais e a bibliotecas. O crescimento foi maior nos estados do Leste, 30%, e do Centro, 26%, e no exterior, 20%; o Sul estava sub-representado, o que justificaria uma campanha especial. Entre os mortos do ano está Alfred Marshall, sócio honorário. O concurso Babson sobre previsão de preços recebeu apenas quatro ensaios, e a comissão do segundo prêmio Karelsen, sobre capital e trabalho, não considerou nenhum digno de publicação. O secretário agradece às comissões locais de organização e de publicidade da reunião de Chicago."
+        },
+        {
+          "titulo": "Report of the Treasurer",
+          "autores": "Ray B. Westerfield, tesoureiro",
+          "paginas": "pp. 139–141",
+          "jstor": "ia-1925-03s-p139",
+          "resumo": "O tesoureiro apresenta receitas e despesas de 16 de dezembro de 1923 a 13 de dezembro de 1924 e faz um balanço de sua gestão, iniciada em junho de 1920. A associação tivera déficits de US$ 1.688,48 em 1919 e de US$ 2.366,60 em 1920; com economia, sobretudo na publicação, campanha de sócios e a comissão especial de finanças de Seligman, passou a superávits, de US$ 3.302,86 em 1924. Os sócios foram de 2.714 a 3.570, e duas novas categorias, assinantes e contribuintes, foram criadas. Os ativos incluíam investimentos de US$ 19.448,00, e os fundos foram mais que quadruplicados no período. Recomenda criar um fundo para publicar obras sem mercado, buscar uma doação de um milhão de dólares, erguer com outras sociedades de ciências sociais um edifício comum, cooperar em serviços administrativos, pagar alguma remuneração ao secretário e tesoureiro e criar um serviço de informação e colocação para economistas. A associação, conclui, está em base financeira sólida."
+        },
+        {
+          "titulo": "Report of the Auditing Committee",
+          "autores": "Comissão de auditoria",
+          "paginas": "pp. 142–143",
+          "jstor": "ia-1925-03s-p142",
+          "resumo": "A comissão de auditoria, em relatório datado de 16 de dezembro de 1924, em Connecticut, examinou os livros do secretário e tesoureiro, conferiu os títulos e os saldos nas instituições depositárias e considerou adequadas as reservas para anuidades recebidas antecipadamente e para valores a receber. Certifica que o balanço patrimonial apresenta corretamente a situação financeira da associação em 13 de dezembro de 1924 e que a demonstração de resultados reflete o exercício iniciado em 16 de dezembro de 1923. O balanço registra excedente de US$ 20.629,31 naquela data. A demonstração de resultados inclui, entre as receitas, as anuidades das novas categorias de sócios assinantes e contribuintes, de US$ 1.365,00, além de ajustes de juros a receber sobre investimentos e de transferências da conta de sócios vitalícios. O relatório complementa o do tesoureiro, que apresenta o movimento de caixa, e o do editor, que detalha o custo da revista, e foi aprovado na reunião administrativa junto com os demais relatórios dos dirigentes."
+        },
+        {
+          "titulo": "Report of the Editor of the American Economic Review",
+          "autores": "Davis R. Dewey, editor",
+          "paginas": "pp. 144–145",
+          "jstor": "ia-1925-03s-p144",
+          "resumo": "O editor informa que 122 pessoas colaboraram na preparação da revista em 1924, entre artigos, comunicações, resenhas, documentos, resumos de periódicos e notas. Como nos anos anteriores, anexa tabelas comparativas do conteúdo e dos custos desde 1911. O custo total da revista foi de US$ 9.802,86 em 1924, contra US$ 8.620,54 em 1923 e US$ 7.980,05 em 1922; o pico da série foi 1920, com US$ 11.181,90. Um item fixo de US$ 1.500,00 aparece em todos os anos da tabela, desde 1911; os demais incluem pagamentos a colaboradores, despesas de escritório e material, e variam com o volume publicado. Em 1921 o custo fora de US$ 9.003,94; em 1911, primeiro ano da série, de US$ 6.730,59. As tabelas mostram ainda a distribuição das páginas entre artigos, resenhas, listas de livros, periódicos, documentos e notas. Os números permitem acompanhar como a revista, criada em 1911, encareceu em 1919 e 1920 e voltou a custar menos nos anos seguintes."
+        },
+        {
+          "titulo": "Report of the Membership Committee",
+          "autores": "F. S. Deibler, presidente da comissão",
+          "paginas": "p. 146",
+          "jstor": "ia-1925-03s-p146",
+          "resumo": "A comissão especial de sócios encerra três anos de campanha. Seus membros, em várias instituições, buscaram novos sócios com intensidade variável, conforme as outras tarefas e as condições locais, mas a cooperação foi geral. O relatório lembra que nem todo o ganho líquido do período pode ser creditado à comissão, mas uma boa parte, sim. A despesa da campanha foi coberta por um fundo especial, sem pesar sobre a receita das novas anuidades, e somou US$ 1.044; parte da correspondência foi paga pelas instituições dos membros, um sinal da boa vontade de que a associação goza. Como sugestão final, observa que as filiações mais duradouras são as de pessoas cujo trabalho é econômico e que, com tantos estudantes de economia e comércio nas universidades, convém ter alguém em cada instituição para atrair alunos. Uma carta do secretário uma ou duas vezes por ano ao grupo mais provável, diz, seria barata e daria resultados tão bons quanto planos mais caros. A comissão foi dispensada na reunião."
+        },
+        {
+          "titulo": "Report of the Committee on Methods of Nomination",
+          "autores": "Comissão sobre métodos de indicação",
+          "paginas": "p. 147",
+          "jstor": "ia-1925-03s-p147",
+          "resumo": "A comissão examinou a proposta de permitir a indicação de candidatos por petição de trinta sócios e a de eleger ocasionalmente um presidente honorário. O sistema vigente, diz, buscava deixar o controle da associação com cientistas de posição reconhecida, e não com grupos partidários, e não parecia ter excluído economistas por suas opiniões, embora alguns se mantivessem à parte. Mas parte dos sócios achava o sistema pouco representativo. Sem unanimidade sobre a petição, a comissão recomendou ser mantida por mais um ano para consultar os sócios por questionário e que a comissão de indicação fosse nomeada pelo menos seis meses antes da reunião anual, para receber e examinar sugestões. Lembrou que a indicação em plenário já era permitida e não contrariava o espírito da associação. Apresentou ainda, sem recomendá-las, três medidas adicionais: divulgar os nomes da comissão na revista de março, enviar aos sócios formulários para sugestões e remeter a chapa por correio antes da reunião."
+        },
+        {
+          "titulo": "Report of the Committee on an Encyclopedia of the Social Sciences",
+          "autores": "E. R. A. Seligman, presidente da comissão",
+          "paginas": "p. 148",
+          "jstor": "ia-1925-03s-p148",
+          "resumo": "A comissão da associação, presidida por E. R. A. Seligman, participou das reuniões de uma comissão conjunta de várias sociedades científicas sobre o projeto de um manual ou enciclopédia das ciências sociais. Participavam, além da sociedade em que a ideia nascera, as associações de estatística e de antropologia, entre outras, e havia convites a outras entidades; William F. Ogburn, da Columbia University, atuava como secretário. A comissão conjunta planejava estudar em detalhe o escopo e o plano da obra, a possibilidade de encontrar um editor-chefe capaz e as formas de financiamento. A comissão da associação considerou desejável uma obra de referência desse tipo, desde que com escopo bem definido e alto nível, e recomendou continuar por mais um ano e contribuir com US$ 100 para as despesas de organização. Recomendou também que, se o plano e o financiamento fossem bem resolvidos e a comissão assim informasse, a comissão executiva tivesse poder para aprovar o projeto. As propostas foram aprovadas na reunião administrativa."
+        },
+        {
+          "titulo": "Report of the Committee on the Classification of Economists in the Federal Service",
+          "autores": "Comissão sobre a classificação dos economistas no serviço federal",
+          "paginas": "pp. 149–150",
+          "jstor": "ia-1925-03s-p149",
+          "resumo": "Um ano antes, o orçamento federal mostrara que o Personnel Classification Board, criado pela lei de classificação de 1923, não reconhecera muitos cargos de economia, sociologia e estatística como profissões científicas: pusera-os no serviço de escritório, administrativo e fiscal, com escalas de salário impróprias e risco de preenchimento por pessoas sem formação. A comissão planejou agir com as associações de sociologia, de estatística e de legislação trabalhista, mas o Board reverteu a decisão. No documento de julho de 1924 sobre especificações de cargos, o primeiro grupo do serviço profissional e científico passou a ser o dos analistas econômicos. A comissão não revisou a alocação de cada cargo, mas acredita que haveria muitos erros a corrigir. Alerta ainda para um projeto de lei que extinguiria o Board e passaria suas funções à Civil Service Commission, com efeitos incertos. Na reunião, aprovou-se criar uma comissão especial para estudar a classificação em detalhe e assessorar os órgãos existentes."
+        },
+        {
+          "titulo": "Report of the Representatives of the American Economic Association on the American Council of Learned Societies",
+          "autores": "Representantes da associação no American Council of Learned Societies",
+          "paginas": "pp. 151–152",
+          "jstor": "ia-1925-03s-p151",
+          "resumo": "O American Council of Learned Societies Devoted to Humanistic Studies, do qual a associação era uma das doze sociedades constituintes, reuniu-se em Nova York em 26 de janeiro de 1924 e elegeu Charles H. Haskins, de Harvard, presidente e John Erskine, de Columbia, secretário-tesoureiro. Seus delegados participaram da reunião da Union Académique Internationale em Bruxelas, em maio; por falta de recursos, o conselho não pudera participar de muitos projetos internacionais, mas trabalhava num novo dicionário de latim medieval e contribuíra para o Corpus Vasorum Antiquorum. Internamente, o principal projeto do ano foi o Dictionary of American Biography, nos moldes do Dictionary of National Biography britânico. Em 6 de dezembro de 1924, uma reunião especial aprovou o acordo com o New York Times, que financiaria a preparação e a edição ao longo de dez anos, sob uma comissão de administração. O conselho instalou escritório permanente em Washington e iniciou, com apoio da Carnegie Corporation, um levantamento das sociedades de estudos humanísticos."
+        },
+        {
+          "titulo": "Report of the Representatives of the American Economic Association to the International Mathematical Congress",
+          "autores": "Walter F. Willcox e J. H. Rogers, representantes",
+          "paginas": "pp. 153–156",
+          "jstor": "ia-1925-03s-p153",
+          "resumo": "Willcox, de Cornell, e Rogers, da University of Missouri, representaram a associação no congresso internacional de matemática de Toronto, de 11 a 16 de agosto de 1924, que teve uma seção de estatística, ciência atuarial e economia. Só em Toronto entenderam o que significava o congresso seguir as regras do International Research Council. Contam a origem: uma conferência interaliada recomendara que os países em guerra com os impérios centrais deixassem as associações científicas existentes e formassem novas; o conselho foi inaugurado em Bruxelas em 1919, com 16 países, e os neutros só entrariam por três quartos dos votos. Um congresso nos Estados Unidos em 1924 fora abandonado por falta de cooperação e de recursos sob essas regras. A comissão executiva aprovou, por correio, uma declaração pedindo que cientistas de todos os países participassem em igualdade, mas os convidados não tinham voz. Os representantes propõem que a associação declare que é hora de participação igual e que só aceite convites para congressos com essa regra."
+        },
+        {
+          "titulo": "Report of the Representatives on the Social Science Research Council",
+          "autores": "Representantes no Social Science Research Council",
+          "paginas": "pp. 157–160",
+          "jstor": "ia-1925-03s-p157",
+          "resumo": "O Social Science Research Council, organizado em 1923 para promover e coordenar a pesquisa nas ciências sociais, reunia três representantes de cada uma das associações de ciência política, sociologia, estatística e economia. Em 1924 teve três sessões, em 16 de fevereiro, 17 de maio e 29 de novembro. Adotou um plano de bolsas de pesquisa, preparado por comissão presidida por A. B. Hall, com comissão de seleção formada por Wesley C. Mitchell, F. S. Chapin e Charles E. Merriam. Atendendo ao National Research Council, criou uma comissão sobre aspectos sociais da migração; seu principal projeto, sobre a mecanização da indústria e a migração nos Estados Unidos, ficou com Mitchell e Harry Jerome, com doação de US$ 15.500. Outra comissão, presidida por Horace Secrist, planejava um levantamento das agências de ciências sociais, ainda sem recursos. O conselho também recomendou às universidades um arquivo de empréstimo de teses e a publicação anual de seus resumos, e pediu às associações que coordenassem as datas de suas reuniões."
+        },
+        {
+          "titulo": "Report of the Representatives of the American Statistical Association and the American Economic Association on the Joint Census Advisory Committee",
+          "autores": "Representantes no Joint Census Advisory Committee",
+          "paginas": "pp. 161–165",
+          "jstor": "ia-1925-03s-p161",
+          "resumo": "A comissão conjunta das associações de estatística e de economia junto ao Census Bureau completava seu quinto ano. Depois do trabalho intenso do censo decenal, as reuniões ficaram menos frequentes: em 1924 foram três, em fevereiro e março, em junho e em dezembro. A comissão ajudou o diretor a definir o relatório sobre riqueza, dívida pública e tributação, participou da preparação do censo agrícola de 1925, ajudando a reduzir o número de perguntas, e tratou de publicações e monografias. Fez dezesseis recomendações formais, todas aceitas. Alerta que o Census Bureau é, essencialmente, um órgão de publicação e que cortes na verba de impressão, somados ao congestionamento da gráfica do governo, anulam o trabalho de coleta autorizado pelo Congresso. Elogia o diretor William M. Steuart, cuja nomeação ajudou a obter, e propõe mudanças nos relatórios de nascimentos e mortes, nas estimativas de população por condado, no Survey of Current Business e na coleta de estatísticas de crimes."
+        },
+        {
+          "titulo": "Publications of the American Economic Association",
+          "autores": "Lista da associação",
+          "paginas": "",
+          "jstor": "ia-1925-03s-x1",
+          "resumo": "Lista das publicações da associação à venda, com as séries antigas, estudos, anais das reuniões anuais e a revista."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "veblen-a-teoria-no-futuro-calculavel",
+          "titulo": "Veblen, 1924: a economia como ciência dos negócios",
+          "titulo_original": "Economic Theory in the Calculable Future",
+          "autores": "Thorstein Veblen",
+          "paginas": "pp. 48–55",
+          "jstor": "ia-1925-03s-p48",
+          "chamada": "Em Chicago, Veblen prevê que a nova geração fará da economia uma ciência dos negócios, voltada ao ganho diferencial, e que a tecnologia só entrará nela como “proposta de negócio”.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Veblen começa com uma hipótese modesta sobre os economistas da geração seguinte. Não serão, diz, uma raça especial: terão herdado pouco que os distinga das gerações dos últimos dez mil anos e serão pessoas de capacidade média. O que os tornará diferentes é o que aprenderam — os hábitos de pensamento induzidos pela formação e pela experiência durante a juventude e os primeiros anos da vida adulta. O texto, lido na reunião de Chicago de dezembro de 1924, é uma previsão sobre esses hábitos e sobre os fatos a que terão de ser aplicados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que distingue a nova geração?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os novos economistas, diz Veblen, tratarão os fatos do próximo quarto de século com as preconcepções do quarto de século anterior, e não com as heranças do século XIX que guiaram a geração que saía de cena. Mas os fatos mudarão de forma cumulativa e num ritmo sem precedentes, enquanto as preconcepções só se ajustam devagar. O resultado previsível é uma discrepância entre as categorias de trabalho dos economistas e as exigências da vida econômica — maior do que em qualquer período anterior, porque os acontecimentos correm mais depressa."
+            },
+            {
+              "tipo": "p",
+              "texto": "Duas coisas, portanto, definem o período: os hábitos de pensamento da geração, com seus interesses e princípios de valoração, e os acontecimentos que provocarão suas investigações. Em ambas há novidades. A vida material e espiritual mudou, a escolarização mudou, e o conhecimento corrente passou a ver a realidade cada vez mais em termos objetivos e impessoais, próximos das ciências físicas e biológicas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que os grandes sistemas perderam o interesse?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Sistemas teóricos completos, equilibrados e compendiosos, diz Veblen, já não estão no centro da atenção, e ninguém sente falta deles. O que se busca é a ligação da economia com as ciências materiais e biológicas. Enquanto isso, a melhor atenção dos economistas vai para o estudo monográfico e detalhado de processos particulares da indústria e dos negócios. Há pouca perspectiva, prevê, de que essa geração construa um sistema geral de teoria; ela trabalha com pouca ajuda de princípios gerais, salvo os do senso comum, da matemática e da informação corrente."
+            },
+            {
+              "tipo": "p",
+              "texto": "Esses princípios correntes têm caráter evolucionário: olham para as mudanças em curso, e não para o “estado natural do homem” para o qual a história supostamente tenderia. A questão já não é como as coisas se estabilizam num estado estático, mas como crescem e mudam sem fim. Veblen nota uma inversão: os vitorianos viam estabilidade nas instituições e mudança no fator humano; a geração atual vê mudança nas instituições — costumes, leis, artes industriais — e não espera mudança substancial no fator humano."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Negócios e indústria são a mesma coisa?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O centro do argumento é uma divisão. No último quarto de século, diz Veblen, o sistema econômico sofreu uma bifurcação, quase uma dicotomia, entre negócios e indústria. De um lado governa a tecnologia mecânica desenvolvida desde a Revolução Industrial; de outro, a lógica empresarial do sistema de preços, crescida no mesmo período em resposta à propriedade ausente em escala cada vez maior. O autor lembra que Taussig já falara de uma divisão da liderança criadora em que, de um lado, estão os que fazem dinheiro. As duas metades, afirma, são tão distintas em métodos, objetivos e dados que nem chegam a estar coerentemente em conflito."
+            },
+            {
+              "tipo": "p",
+              "texto": "A diferença está no tipo de ganho. Os negócios buscam um ganho diferencial em termos de preço: a renda acima da despesa para uma empresa em particular. Uma empresa pode lucrar com a incapacidade das concorrentes, e seus ganhos tendem a crescer com a desvantagem das outras. A técnica busca eficiência produtiva, e a planta industrial depende do bom funcionamento das outras plantas do mesmo ramo; tecnicamente, as empresas trabalham em equipe."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "Como unidades de negócio, as empresas estão engajadas numa estratégia de derrota mútua.",
+              "original": "engaged in a strategy of mutual defeat"
+            },
+            {
+              "tipo": "p",
+              "texto": "Mas, na prática, nenhum avanço técnico chega a resultado a não ser apresentado como “proposta de negócio”, isto é, como promessa de ganho diferencial para alguma empresa. O mesmo vale para o economista: os fatos da tecnologia só entram em sua teoria na forma de meios de ganho de uma empresa contra outras."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que será a ciência econômica?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Veblen tira a conclusão. No primeiro plano econômico está a organização das empresas, os proprietários ausentes e seus agentes, a quem a lei e o costume conferem toda iniciativa. É para esse trabalho que os economistas se voltam, e assim deve continuar, porque, no presente, os interesses do tráfego de negócios são, e de direito devem ser, supremos. Imbuídos das preconcepções do sistema de preços, os economistas acham essas coisas visíveis, compreensíveis, legítimas e urgentes; a metade tecnológica fica obscura e, no máximo, subsidiária."
+            },
+            {
+              "tipo": "p",
+              "texto": "A economia seria, cada vez mais, uma ciência do tráfego de negócios: monográfica, detalhada, exigente, devotada às coisas como estão se formando sob a propriedade ausente. Seus praticantes seriam partidários desse sistema, e as controvérsias correriam dentro do domínio teórico do sistema de preços. Nenhum argumento econômico, diz, teria audiência ampla antes de ser apresentado como proposta de negócio."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E o Estado e a universidade?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O raciocínio se estende às nações. Veblen afirma que os interesses nacionais, as políticas e os armamentos já não servem a outro propósito senão o ganho diferencial das empresas que negociam contra estrangeiros, e que a guerra e a paz de suspeita que se seguiu tornaram isso claro. Os economistas chamados a servir ao Estado serviriam aos banqueiros e comerciantes do país contra os de fora."
+            },
+            {
+              "tipo": "p",
+              "texto": "As escolas seguem o mesmo rumo. As faculdades de economia estariam tomadas pelo ensino de administração, finanças empresariais, comércio e, cada vez mais, vendas e publicidade. Restariam algumas antiguidades vitorianas, artigos padronizados de teoria a que se dá uma audiência perfunctória, de interesse apenas histórico."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a reunião respondeu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Na discussão, John Maurice Clark aceitou que as tendências descritas existem, mas disse que há outras, a começar pelo próprio Veblen, que não foi engolido pelo espírito de negócios nem é um sobrevivente vitoriano, e por seus discípulos. Contestou a oposição entre negócios e indústria: repartir propriedade e renda e orientar a demanda exige ajustar interesses em conflito em qualquer sistema, e a eficiência técnica nada significa sem uma escala de valores. Raymond T. Bye concordou que crescia o estudo detalhado, mas o atribuiu aos novos dados e ferramentas, e lembrou que o próprio Veblen generaliza o tempo todo."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, a força do texto está na distinção entre ganho privado diferencial e eficiência técnica. Ela antecipa discussões sobre renda de monopólio, concorrência predatória e a diferença entre lucro de uma empresa e produtividade do conjunto. A “estratégia de derrota mútua” descreve o que a economia industrial depois estudaria como concorrência estratégica entre empresas.",
+                "Como previsão de método, o texto acerta e erra. Acerta no avanço do trabalho monográfico e na expansão do ensino de negócios. Erra, ou exagera, ao supor que a teoria geral seria abandonada: como Bye observou, o estudo detalhado acabou servindo de matéria-prima para novas generalizações, e a própria distinção de Veblen se tornou parte da teoria."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Ganho diferencial",
+              "lucro de uma empresa obtido em relação às demais, inclusive à custa delas."
+            ],
+            [
+              "Propriedade ausente (absentee ownership)",
+              "propriedade de empresas por acionistas que não participam da gestão nem do trabalho."
+            ],
+            [
+              "Sistema de preços",
+              "organização da economia pela compra e venda com fins de lucro."
+            ],
+            [
+              "Ativo intangível",
+              "fonte de renda sem existência física, como marcas, patentes ou posição de mercado."
+            ],
+            [
+              "Estado estático",
+              "situação de equilíbrio em que a economia se reproduz sem mudança."
+            ]
+          ],
+          "hoje": "A oposição de Veblen entre ganhar dinheiro e produzir bens reaparece no debate sobre financeirização, recompra de ações e lucro de monopólio em setores concentrados. A ideia de que as empresas ganham com a desvantagem das concorrentes está no centro da política de concorrência. E a previsão sobre o ensino se confirmou em boa medida: escolas de negócios cresceram mais que departamentos de economia, embora a teoria geral não tenha desaparecido."
+        },
+        {
+          "slug": "slichter-a-troca-competitiva-e-o-operario",
+          "titulo": "Slichter, 1924: por que o salário não interessa o operário nos custos",
+          "titulo_original": "Competitive Exchange as a Method of Interesting Workmen in Output and Costs",
+          "autores": "Sumner H. Slichter",
+          "paginas": "pp. 92–100",
+          "jstor": "ia-1925-03s-p92",
+          "chamada": "Slichter mostra que a troca competitiva só motiva o operário quando a empresa consegue medir e premiar o desempenho individual — e que medição, capatazes e desemprego costumam impedir isso.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "A doutrina tradicional, observa Sumner H. Slichter, supõe que os homens agem de certo modo diante do salário; a maioria deles age de outro. O descompasso, diz, não pede apenas uma revisão local da teoria. A atitude dos operários diante da produção e dos custos indica uma falha séria da troca competitiva como método de organizar e estimular a produção — e essa troca é justamente o que a teoria econômica, desde Smith, mais confiou."
+            },
+            {
+              "tipo": "p",
+              "texto": "A confiança foi tanta, diz o autor, que os teóricos nunca estudaram quão bem a troca competitiva organiza a indústria. Há dezenas de obras sobre distribuição e nenhum tratado abrangente sobre a teoria da produção. Slichter vê os alicerces dessa teoria em partes da obra de Veblen, nos estudos do ciclo, no trabalho de J. M. Clark sobre custos indiretos e nos estudos sobre motivos. Seu texto, apresentado na sessão sobre problemas psicológicos da indústria em Chicago, quer ser uma contribuição limitada: explicar por que a troca competitiva falhou em interessar o operário e em que condições funcionaria. Se ela falha nesse caso, pergunta, não haverá outros em que seja igualmente insatisfatória como forma de organizar a produção? O ideal seria examiná-la como um entre muitos métodos possíveis, para saber em que condições funciona bem e a que limites está sujeita."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quando o pagamento funciona como incentivo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Com o operário individual como unidade de remuneração, três condições precisam valer. A administração deve ser capaz de basear o pagamento de cada um no seu desempenho; deve querer fazê-lo; e o operário deve estar disposto a responder. Slichter examina as três."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Dá para medir o desempenho de cada um?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Em muitos trabalhos, não há medida comum para a contribuição individual: construção, manutenção, operações em que várias pessoas trabalham juntas. A medição é mais possível na manufatura do que em outros ramos, e mais nas grandes empresas. Mesmo assim, os dados reunidos pelo autor mostram o limite."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "35,8%",
+              "texto": "Parcela dos 220.536 trabalhadores de 175 fábricas pagos por peça. Outros 12,7% recebiam bônus ou prêmio e 51,5% eram pagos por tempo. Slichter estima, de modo conservador, que medir a produção individual era impossível ou impraticável em um terço dos empregos fabris."
+            },
+            {
+              "tipo": "p",
+              "texto": "Quantidade é o mais fácil. Qualidade se mede só em parte, pela proporção de peças recusadas na inspeção, e muitas vezes não se sabe quem errou, porque o trabalho de vários se junta antes da inspeção. Pagar pela aprovação incentiva o operário apenas a passar pelo inspetor; pagar pela qualidade média exige medir muitas peças, o que costuma ser caro demais. O desgaste de máquinas usadas por várias pessoas ou em vários turnos não tem dono, embora o operador influa muito na vida de um equipamento caro. O consumo de energia e de material pode ser medido, mas raramente compensa. E a atitude do trabalhador é quase imensurável, porque quem sabe que está sendo avaliado mantém a aparência de interesse."
+            },
+            {
+              "tipo": "h2",
+              "texto": "As empresas querem premiar o mérito?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A segunda suposição da teoria é que, onde a medida existe, a empresa paga de acordo. Slichter mostra o contrário em vários pontos: é comum cortar as tarifas por peça quando os ganhos sobem, poucas empresas pagam bônus por redução de refugo, e a remuneração por sugestões é rara, embora sempre possível. Os operários seriam capazes de muitas sugestões valiosas: um fabricante de artigos de borracha economizou US$ 84 mil em 1923 com sugestões de empregados, nove décimos delas vindas da fábrica."
+            },
+            {
+              "tipo": "p",
+              "texto": "A teoria também supõe que os executivos representam fielmente os interesses da empresa. Mas quem lida com os operários, na maioria das fábricas, é o capataz. Ele é sobrecarregado, de capacidade limitada, e a promoção seguinte é um salto tão grande que raramente a espera; preocupa-se mais em manter o emprego do que em ganhar outro, e com resultados imediatos. Por isso joga seguro: resiste a mudanças que reduziriam custos mas atrapalhariam a rotina, evita diferenciais de salário que gerariam ciúmes, não promove o bom operário porque precisa dele no posto e vê sugestões como crítica à sua gestão."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O operário responde ao incentivo?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Mesmo quando a empresa premia o mérito, a resposta pode ser fraca. A doutrina ortodoxa supõe que as ações dos homens são racionais e informadas, mas o operário não sabe quanto a empresa perde com refugo ou faltas e, por isso, não dá importância a reduzi-los. Aumentos para alguns deixam outros insatisfeitos, e operários ressentidos retaliam de formas caras. Erros na fixação de tarifas e tempos — que, quando calculados por estudo de tempos elementares, tendem a favorecer o empregador — criam queixas, como mostrou a experiência da indústria de roupas femininas de Cleveland. E a remuneração do operário só depende em parte da empresa: com a demanda instável, muitos perdem o emprego todo ano por falta de serviço."
+            },
+            {
+              "tipo": "p",
+              "texto": "Daí o comportamento que a teoria não prevê: fazer o trabalho limitado render o máximo de emprego. Para Slichter, é um conflito entre a empresa individual e o sistema econômico,"
+            },
+            {
+              "tipo": "citacao",
+              "texto": "a primeira premiando mais produção, o segundo às vezes penalizando-a.",
+              "original": "the former rewarding more production, the latter sometimes penalizing it"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que pode mudar?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No futuro imediato, Slichter espera que a troca competitiva se torne mais eficaz. As administrações percebem a importância de conhecer a eficiência do trabalho, e a medição deve avançar por novos métodos e por mudanças nos processos feitas para permiti-la. Onde a medida individual é inviável, pode-se medir um departamento inteiro, com bônus de grupo, o que levanta problemas próprios de motivação. Com a melhora da administração, as empresas estariam cada vez mais dispostas a basear a remuneração no mérito."
+            },
+            {
+              "tipo": "p",
+              "texto": "Mas há um limite. Para muitas coisas na indústria, diz o autor, outras forças além do interesse próprio precisam operar, e os empresários sabem disso: seus departamentos de pessoal apelam à boa vontade e ao gosto pelo trabalho bem feito. Um fabricante de máquinas agrícolas e um fabricante de especialidades reduziram fortemente o refugo com campanhas desse tipo."
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando a teoria da produção for escrita, conclui Slichter, dividirá as atividades dos operários em duas partes: as que podem ser medidas, em que a troca competitiva e o interesse próprio terão papel importante, e as que não podem, em que a discussão terá de ser sobre outros motivos e outros métodos de interessar o trabalhador na produção e nos custos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o texto é uma pequena teoria dos contratos de trabalho escrita antes do vocabulário existir. Slichter identifica os ingredientes que a economia da informação formalizaria décadas depois: desempenho não observável, tarefas múltiplas em que pagar por uma dimensão distorce as outras, medida coletiva com incentivo individual fraco, e o problema do intermediário — o capataz — cujos interesses não coincidem com os da empresa.",
+                "O ponto sobre o desemprego também é de método. Quando o emprego total é incerto, o operário que trabalha mais depressa pode encurtar o próprio emprego; o incentivo correto para a empresa vira incentivo errado no agregado. É um argumento de equilíbrio geral aplicado ao chão de fábrica, e ajuda a entender por que a estabilidade no emprego aparece, nos textos do período, como condição da produtividade."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Troca competitiva",
+              "organização da atividade econômica pela compra e venda a preços de mercado, incluindo o salário."
+            ],
+            [
+              "Pagamento por peça",
+              "salário proporcional à quantidade produzida."
+            ],
+            [
+              "Bônus ou prêmio",
+              "pagamento adicional ligado a metas de produção ou de economia."
+            ],
+            [
+              "Bônus de grupo",
+              "prêmio calculado sobre o desempenho de uma equipe ou departamento."
+            ],
+            [
+              "Estudo de tempos",
+              "medição do tempo de cada elemento de uma tarefa para fixar tarifas e padrões."
+            ],
+            [
+              "Refugo",
+              "material ou peça perdida no processo de produção."
+            ]
+          ],
+          "hoje": "As dificuldades que Slichter listou são o objeto da economia do pessoal e da teoria dos contratos: medir desempenho, evitar que metas numéricas distorçam o resto do trabalho e alinhar gerentes intermediários aos objetivos da empresa. Esquemas de participação nos lucros, prêmios por equipe e avaliações de desempenho são respostas a esses problemas. E o vínculo entre insegurança no emprego e restrição de esforço continua no debate sobre automação e relações de trabalho."
+        }
+      ]
     }
   ],
   "proximas": []
