@@ -97805,6 +97805,2539 @@
           "hoje": "A escolha entre custo histórico e custo de reposição na base tarifária continua no centro da regulação de serviços públicos. Muitos reguladores adotaram bases contábeis, próximas da proposta de Bauer, com regras de correção por índices de preços; outros usam modelos de custo de reposição ou de preço-teto. O dilema entre previsibilidade e preservação do capital em termos reais segue presente nas revisões tarifárias de energia, saneamento e telecomunicações."
         }
       ]
+    },
+    {
+      "slug": "1924-pittsburgh-plus-e-a-lei-de-receita",
+      "numero": 187,
+      "titulo": "Pittsburgh-plus, a lei de receita de 1924 e o banco central alemão",
+      "titulo_original": "The American Economic Review, vol. XIV, no. 3, September 1924",
+      "autores": "Norman J. Silberling, Howard H. Preston, E. E. Agger, Roy G. Blakey, John R. Commons e outros",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 14, nº 3",
+      "data": "setembro de 1924",
+      "chamada": "Silberling revê os gráficos de preço; Preston, as filiais bancárias; Agger, o banco do plano Dawes; Blakey, a lei de receita de 1924; Commons, o Pittsburgh-plus; Childs, as ondas do rádio.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um grande consumidor de aço de Minneapolis, conta John R. Commons, achou um buraco no sistema de zonas de preço da siderurgia americana. Comprou um lote para entrega numa estação de Wisconsin, onde o preço de zona era US$ 1 por tonelada menor que em Minnesota, e combinou com a ferrovia, cuja tarifa era a mesma até Minneapolis, que a carga seguisse direto. Economizou algo como US$ 5 mil. A siderúrgica pôs Wisconsin na zona de Minnesota; ele repetiu a manobra na península de Michigan. A resposta das usinas foi o Pittsburgh-plus: preço de Pittsburgh mais o frete exato até a fábrica de cada comprador."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número de setembro de 1924 da American Economic Review trata de mercados e das regras que os definem. Norman J. Silberling revê os gráficos de oferta e demanda usados no ensino; Howard H. Preston acompanha a disputa sobre filiais bancárias; E. E. Agger descreve o banco central que o Comitê Dawes propôs para a Alemanha; Roy G. Blakey reconstitui a tramitação da lei de receita de 1924; Commons expõe o caso do aço; e William Wallace Childs pergunta a quem pertencem as ondas do rádio. Uma comunicação, resenhas, listas de livros e periódicos, documentos, a lista anual de teses em andamento e notas completam a edição."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que um gráfico de oferta e demanda pode mostrar?",
+          "artigo": "ia-1924-09-p417",
+          "credito": "Norman J. Silberling (University of California) · “Graphic Illustration of the Laws of Price” · pp. 417–444"
+        },
+        {
+          "tipo": "p",
+          "texto": "Norman J. Silberling, da University of California, parte de uma frase de Alfred Marshall posta como epígrafe: o grande avanço seria representar os preços normais de demanda e de oferta como funções da quantidade e também do tempo. O objetivo do artigo é torná-los mais precisos e mais próximos das circunstâncias reais dos negócios, examinando o papel do tempo e os casos de custo crescente, decrescente e constante."
+        },
+        {
+          "tipo": "p",
+          "texto": "Do lado da demanda, a curva é um conjunto hipotético e atemporal de relações entre quantidades possíveis e preços oferecidos. A inclinação descendente tem dupla base: a importância de cada unidade cai à medida que a quantidade aumenta, e os compradores diferem em poder de compra, de modo que preços menores trazem ao mercado camadas sucessivas de renda. Por isso, na expressão de Taussig, a curva mede vendabilidade, não utilidade. Toda mudança real leva tempo e aparece como deslocamento de uma linha, não como movimento de um ponto sobre ela; o autor propõe falar em mudança na efetividade da demanda."
+        },
+        {
+          "tipo": "p",
+          "texto": "Do lado da oferta, a crítica é mais extensa. A curva de custos de um só produtor só pode ser posta contra a demanda no caso de monopólio. Num mercado competitivo os custos são desiguais, ponto que o autor documenta com Bullock, Taussig e dados da Federal Trade Commission. A representação proposta é uma escala de custos em degraus, do fornecedor mais barato ao marginal, válida para um dado momento; os que operam com custo acima do preço se ajustam depois, num ritmo que depende do peso dos custos fixos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 38,45",
+          "texto": "Preço médio por tonelada obtido no mercado pelo papel de imprensa em 1915, em dados da Federal Trade Commission reproduzidos de L. H. Haney, que Silberling usa para mostrar custos desiguais no mesmo setor."
+        },
+        {
+          "tipo": "p",
+          "texto": "Com custos crescentes, a demanda precisa deslocar-se primeiro; a nova oferta vem de novos produtores e da intensificação dos antigos, o que se desenha como escalas de custo sucessivas e mais altas. A curva de oferta normal de longo prazo, herdada de Marshall, seria apenas a linha que liga equilíbrios sucessivos. Nos casos de custo decrescente e constante, a mesma construção sugere que o custo sozinho fixa o preço normal."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“São histórias de preços, não condições de oferta; resultados, não elementos causais.”",
+          "original": "“They are price histories, not supply conditions; results, not causal elements.”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é que condições de demanda e de oferta se combinam para determinar a tendência dos preços em qualquer circunstância."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O banco americano deve ter filiais?",
+          "artigo": "ia-1924-09-p445",
+          "credito": "Howard H. Preston (University of Washington, Seattle) · “Recent Developments in Branch Banking” · pp. 445–462"
+        },
+        {
+          "tipo": "p",
+          "texto": "Dois anos antes, diz Howard H. Preston, da University of Washington, as agências bancárias domésticas eram uma questão acadêmica nos Estados Unidos. Em 1924, eram o principal problema bancário do país. Quatro fatos explicam a mudança: o Comptroller of the Currency autorizou os primeiros escritórios adicionais de bancos nacionais; o First National Bank in St. Louis abriu uma filial contra a lei estadual e perdeu na Suprema Corte; o Federal Reserve Board baixou novas regras para filiais de bancos estaduais membros, em vigor desde 7 de abril de 1924; e a Câmara recebeu o projeto McFadden."
+        },
+        {
+          "tipo": "p",
+          "texto": "A legislação estadual é um mosaico. Pelo memorando do comptroller H. M. Dawes, 17 estados proíbem filiais; em outros 11 a lei é omissa, mas a prática não existe; 20 estados e o Distrito de Colúmbia as permitem, nove deles em todo o território estadual. A Califórnia concentra o movimento: o Bank of Italy, de San Francisco, tem cerca de oitenta filiais."
+        },
+        {
+          "tipo": "p",
+          "texto": "A Suprema Corte decidiu, em 28 de janeiro de 1924, que a lei dos bancos nacionais não lhes dá direito a filiais e que o Missouri podia fazer valer sua proibição; três juízes divergiram. O comptroller manteve os escritórios adicionais, limitados a receber depósitos e pagar cheques. O projeto McFadden permitiria filiais urbanas de bancos nacionais onde a lei estadual as admite, com limites por tamanho de cidade, e impediria os bancos estaduais membros do sistema de abrir novas filiais fora da cidade-sede."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "322",
+          "texto": "Falências bancárias nos Estados Unidos entre 1º de janeiro e 11 de abril de 1924, segundo o depoimento de Edmund Platt citado por Preston. No Canadá, houve duas falências em onze anos, a do Bank of Vancouver e a do Home Bank of Canada, com 89 filiais e passivo de US$ 25.615.000."
+        },
+        {
+          "tipo": "p",
+          "texto": "Preston pesa os argumentos. A favor das filiais em larga escala: limites de empréstimo maiores, diversificação de risco, transferência de fundos entre regiões e mais segurança para o depositante, argumento que ele considera bom, mas não conclusivo. Contra: o temor da concentração, visível no Canadá, que passou de 29 para quinze bancos autorizados em quinze anos. Na Califórnia, porém, entre 1919 e 1923, 64 bancos nacionais viraram filiais e 65 novos foram criados."
+        },
+        {
+          "tipo": "p",
+          "texto": "A conclusão é seletiva: o Congresso deveria autorizar filiais urbanas de bancos nacionais onde a lei estadual as permite, mas não filiais em todo o estado, ainda experimentais."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como desenhar um banco central para a Alemanha das reparações?",
+          "artigo": "ia-1924-09-p463",
+          "credito": "E. E. Agger (Columbia University) · “The Proposed New Central Gold Bank of Germany” · pp. 463–474"
+        },
+        {
+          "tipo": "p",
+          "texto": "De todas as propostas do Comitê Dawes, encarregado de pôr ordem no emaranhado das reparações, nenhuma tem, para E. E. Agger, da Columbia University, maior alcance prático que a criação de um novo banco central alemão. O banco teria de cumprir as funções usuais de um banco central, manter uma moeda conversível em ouro e estabilizá-la no mercado internacional enquanto o país faz pesados pagamentos ao exterior."
+        },
+        {
+          "tipo": "p",
+          "texto": "O banco seria alemão, com sede em Berlim e carta de cinquenta anos. A gestão caberia a um conselho executivo sob um presidente alemão, o primeiro deles o presidente do Reichsbank. A supervisão ficaria com um conselho geral de catorze membros, metade estrangeiros, das nacionalidades britânica, francesa, italiana, belga, americana, holandesa e suíça, e com um comissário estrangeiro encarregado de fiscalizar a emissão e as reservas, função que Agger compara à do agente do Federal Reserve. Os alemães dirigiriam; os Aliados supervisionariam."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "400 milhões",
+          "texto": "Capital previsto do banco, em marcos-ouro. Um quarto iria ao Reichsbank em troca de seus ativos; o restante seria oferecido à subscrição pública, paga em ouro ou equivalente. Um empréstimo externo de 800 milhões de marcos-ouro seria depositado no novo banco."
+        },
+        {
+          "tipo": "p",
+          "texto": "As regras de ativos são estritas: descontos com prazo de três meses e três assinaturas solventes; adiantamentos ao Reich de no máximo 100 milhões de marcos, liquidados até o fim do ano fiscal; nada de títulos públicos. As reservas mínimas são de 33⅓% para as notas e de 12% para os depósitos, exigência que o autor considera incomum na Europa. A reserva das notas pode cair, mas paga-se um imposto progressivo sobre a deficiência, de 3% a 8% ao ano até o nível de 25%."
+        },
+        {
+          "tipo": "p",
+          "texto": "As somas arrecadadas para as reparações ficariam no banco, em nome do agente de pagamentos, e um comitê de transferências de cinco membros só as remeteria ao exterior na medida em que o câmbio o permitisse sem ameaçar a estabilidade da moeda. Os saldos não transferidos poderiam acumular-se até cinco bilhões de marcos-ouro."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para a estabilização, o banco poderia resgatar as notas em moeda de ouro, em barras ou em saques sobre bancos estrangeiros pelo valor-ouro corrente. A terceira opção, observa Agger, aplica o padrão-ouro de câmbio de modo inédito, pois os saques poderiam ser sobre países sem moeda conversível. As questões de política, conclui, só poderão ser discutidas à luz da experiência."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Como o Congresso reescreveu o plano Mellon?",
+          "artigo": "ia-1924-09-p475",
+          "credito": "Roy G. Blakey (University of Minnesota) · “The Revenue Act of 1924” · pp. 475–504"
+        },
+        {
+          "tipo": "p",
+          "texto": "A lei de receita federal sancionada em 2 de junho de 1924 não é revolucionária, diz Roy G. Blakey, da University of Minnesota: como a de 1921, reduz as alíquotas dos tributos internos que haviam atingido o máximo em 1918. A sobretaxa sobre a renda passa a começar em 1% na faixa de US$ 10 mil a US$ 14 mil e a chegar a 40% acima de US$ 500 mil, contra 50% acima de US$ 200 mil na lei anterior. As alíquotas normais caem para 2%, 4% e 6%; a renda do trabalho paga 25% menos; o imposto sobre heranças sobe até 40%; surgem um imposto sobre doações, uma junta de recursos fiscais independente do Tesouro e a publicação dos impostos pagos por contribuinte."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida foi a carta do secretário do Tesouro, Andrew W. Mellon, de 10 de novembro de 1923, que propunha baixar a sobretaxa máxima para 25%. O argumento: as alíquotas altas empurram o capital para títulos isentos de estados e municípios, estimulam gastos locais e reduzem a própria arrecadação. Na Câmara, democratas e republicanos insurgentes aprovaram primeiro o substitutivo de Garner e depois o compromisso de Longworth, com teto de 37,5%. No Senado, a Comissão de Finanças restaurou as alíquotas de Mellon por 8 votos a 7, mas o plenário adotou as do democrata Simmons. A conferência entre as casas fixou o teto em 40%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 232,75 milhões",
+          "texto": "Total do abatimento de 25% sobre o imposto de renda pessoal de 1923, aprovado quase sem debate. Para Blakey, o uso adequado do superávit seria reduzir a dívida pública, cujos juros somavam quase US$ 1 bilhão por ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "O senador Couzens contestou os números de Mellon; um relatório da Federal Trade Commission estimou que, de cerca de US$ 32 bilhões em títulos total ou parcialmente isentos em 1922, US$ 4,5 bilhões estavam com indivíduos ricos, e que tributá-los renderia no máximo uns US$ 100 milhões. O senador Jones apontou outra via de evasão: 30.048 empresas com lucro tributável não pagaram dividendos e acumulavam reservas de quase US$ 4 bilhões."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Blakey, a fuga para títulos isentos existe, mas foi exagerada; a retenção de lucros nas empresas pesa mais; e um imposto graduado sobre lucros não distribuídos seria mais equitativo que a alíquota única de 12,5% sobre as empresas. Coolidge sancionou a lei sob protesto e pediu outra:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Menos política e mais econômica.”",
+          "original": "“less political and more economic”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "blakey-a-lei-de-receita-de-1924",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O preço do aço deve incluir um frete imaginário?",
+          "artigo": "ia-1924-09-p505",
+          "credito": "John R. Commons (University of Wisconsin) · “The Delivered Price Practice in the Steel Market” · pp. 505–519"
+        },
+        {
+          "tipo": "p",
+          "texto": "John R. Commons, da University of Wisconsin, foi um dos economistas que depuseram contra o Pittsburgh-plus na Federal Trade Commission em nome de quatro estados do Meio-Oeste, ao lado de Frank A. Fetter e W. Z. Ripley. O artigo expõe a prática e o argumento. Pelo sistema, o aço vendido em qualquer ponto do país custava o preço de Pittsburgh mais o frete ferroviário de Pittsburgh até o comprador, qualquer que fosse a usina de origem. Com o aço a US$ 40 a tonelada em Pittsburgh, todo o setor sabia que o preço entregue seria de US$ 47,60 em Chicago e de US$ 53,20 em Minneapolis."
+        },
+        {
+          "tipo": "p",
+          "texto": "A prática combinava-se com a padronização dos produtos laminados e com a política de estabilização da United States Steel Corporation, dona de usinas em Pittsburgh, Chicago, Duluth e Birmingham: todos cobravam o mesmo preço no mesmo dia, e a uniformidade dispensava acordos."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Uniformidade por publicidade, em vez da antiga uniformidade por segredo e conspiração.”",
+          "original": "“uniformity by publicity ... instead of the old-fashioned uniformity by secrecy and conspiracy”"
+        },
+        {
+          "tipo": "p",
+          "texto": "A discriminação, diz o autor, estava fora de Pittsburgh. Com números do juiz Gary, de 1918, Commons calcula que, se o custo de operação em Pittsburgh fosse 100, o de Chicago seria 80 e o de Birmingham 81, mas os preços entregues equivaleriam a 119 e 112. Num ponto a meio caminho de Pittsburgh, a usina de Chicago precisava igualar o preço de US$ 43,80 e pagar US$ 3,80 de frete real: recebia US$ 40 pelo aço que vendia a US$ 47,60 aos clientes de Chicago."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "Dois terços",
+          "texto": "Parcela das vendas em que as usinas de Chicago, segundo Commons, recebiam menos do que cobravam dos compradores locais. Em Davenport, Iowa, com fretes de US$ 9,50 desde Pittsburgh e de US$ 3,40 desde Chicago, a usina ficava com US$ 46,10 em vez de US$ 47,60."
+        },
+        {
+          "tipo": "p",
+          "texto": "A defesa da Steel Corporation sustentava que cada ponto de entrega era um mercado separado, onde os produtores competiam livremente. Commons responde com a definição de mercado livre e igual: produto padronizado vendido sozinho, compradores e vendedores reunidos no mesmo lugar e momento, sem que um comprador pague mais que o concorrente. As ferrovias, que podiam retirar trilhos em qualquer usina, pagavam o mesmo preço em todas. O remédio proposto é proibir o preço entregue. Em nota, o autor registra que a comissão ordenou o fim da prática por quatro votos a um."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "commons-o-preco-entregue-do-aco",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "De quem são as ondas do rádio?",
+          "artigo": "ia-1924-09-p520",
+          "credito": "William Wallace Childs (Washington, D. C.) · “Problems in the Radio Industry” · pp. 520–523"
+        },
+        {
+          "tipo": "p",
+          "texto": "William Wallace Childs abre com o resultado de uma investigação recente sobre a indústria do rádio: as empresas compram patentes e firmam contratos exclusivos de fabricação e uso, sem recorrer a meios abertamente desleais; a válvula, de que depende o funcionamento dos aparelhos, não é vendida nem alugada separadamente, e só duas empresas podem fabricá-la. Se o setor virará monopólio ou propriedade comum, diz o autor, depende de reconhecer que o eletromagnetismo é um recurso natural, impróprio para exploração privada sem controle."
+        },
+        {
+          "tipo": "p",
+          "texto": "Childs cita Walter S. Rogers, que escrevera nos Annals da American Academy, em março de 1924, sobre o ar como matéria-prima: delegados de cinco potências, reunidos em Washington no outono de 1920, partiram da ideia de que os governos detêm o direito último sobre os comprimentos de onda, enquanto empresas privadas buscavam algo como direitos de posseiro sobre eles. Para Childs, o ar nada tem a ver com o assunto; o que está em jogo é o espaço, que em economia se chama terra."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento é jurídico. A propriedade da terra inclui o espaço acima dela e o direito de impedir que outros o usem; quem emite vibrações que atravessam terrenos alheios sem consentimento invade a propriedade de outros. Como esse direito cede ao domínio eminente e às servidões, a transmissão sem fio só se sustenta por concessão pública. A proposta é declarar a transmissão um meio de comércio interestadual, sujeito a regulação por franquia, como qualquer monopólio natural."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "3 milhões",
+          "texto": "Número aproximado de ouvintes de rádio que Childs menciona ao perguntar se a teoria da posse da terra deveria ser derrubada no interesse deles e de alguns emissores. A investigação citada no início registra que só duas empresas controlam a fabricação da válvula."
+        },
+        {
+          "tipo": "p",
+          "texto": "Na parte final, o autor leva ao absurdo a tese contrária, imaginando nações disputando ondas descobertas, distribuídas por prioridade de ocupação. Conclui que a propriedade privada de qualquer campo natural ou onda é convenção humana que seria perigoso estender a esse continente recém-descoberto, e que a ideia de que só assim ele se desenvolveria já se mostrou falsa."
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "Na seção de comunicações, C. O. Hardy, de Washington, responde ao artigo de Alvin H. Hansen publicado em março: a distinção entre demanda monetária e demanda real só vale para uma mercadoria isolada, e Hansen, ao tratar a demanda como a quantidade efetivamente retirada do mercado, apagaria a diferença entre demanda e oferta. As resenhas incluem Principles of Economics, de E. R. A. Seligman, décima edição, por J. I.; Outlines of Economic History in the Nineteenth Century, de G. Droppers, e outros três livros, por I. Lippincott; o segundo volume da história da Europa moderna de C. J. H. Hayes, por A. P. Usher; Elements of Land Economics, de Richard T. Ely e Edward W. Morehouse, e Elements of Rural Economics, de T. N. Carver, por A. H. Benton; Introduction to Agricultural Economics, de L. C. Gray, por A. E. Cance; The Flaw in the Price System, de P. W. Martin, por W. I. King; os estudos de Horace Secrist sobre custos no varejo de roupas, por P. G. Wright; a biografia de Frederick W. Taylor por Frank Barkley Copley, por J. H. Willits; Miners' Wages and the Cost of Coal, de Isador Lubin, por D. L. Wing; Farm Credits in the United States and Canada, de James B. Morman, por G. O. Virtue; Modern Foreign Exchange, de Hubert C. Walter, por I. B. Cross; Sugar in Relation to the Tariff, de Philip G. Wright, por F. W. Taussig; e The Inter-Ally Debts, de H. E. Fisk, por E. R. A. Seligman. Seguem-se as listas de livros novos e de periódicos, os documentos, com nota de C. E. Parry sobre o comércio de futuros de grãos, a vigésima primeira lista de teses de doutorado em andamento e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, o número tem um fio de método: vários autores mostram que a definição adotada decide a conclusão. Silberling mostra que a curva de oferta normal, tal como desenhada, registra equilíbrios passados e não condições de custo; trocá-la por escalas de custos desiguais muda o que o gráfico permite afirmar sobre preços normais. Commons faz o mesmo com o mercado: se cada ponto de entrega é um mercado, o Pittsburgh-plus é competição; se o mercado é o lugar onde o controle legal do aço passa ao comprador, é discriminação. Childs desloca a pergunta do ar para o espaço e, com isso, do direito de patente para o regime da terra.",
+            "Blakey e Preston aplicam a mesma cautela aos números. A disputa sobre a sobretaxa dependia de saber quanto dos títulos isentos estava com os grandes contribuintes, e a das filiais, de saber se a concentração bancária reduz ou não o número de bancos independentes. Agger descreve um banco central cujo desenho inteiro é uma definição operacional da conversibilidade. Em todos, a escolha do conceito antecede a da política."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Pittsburgh-plus",
+          "sistema em que o aço era vendido pelo preço de Pittsburgh mais o frete de Pittsburgh até o comprador, qualquer que fosse a usina de origem."
+        ],
+        [
+          "Preço entregue (delivered price)",
+          "preço cotado no local do comprador, com o frete incluído; o comprador não pode retirar a mercadoria na usina."
+        ],
+        [
+          "Escala de custos",
+          "na proposta de Silberling, ordenação dos custos de cada fornecedor, do mais barato ao marginal, num dado momento."
+        ],
+        [
+          "Sobretaxa (surtax)",
+          "imposto de renda adicional e progressivo sobre as faixas mais altas, somado à alíquota normal."
+        ],
+        [
+          "Título isento",
+          "título de estados, municípios ou da União cujos juros não pagam, no todo ou em parte, o imposto de renda federal."
+        ],
+        [
+          "Escritório adicional (additional office)",
+          "posto de banco nacional autorizado pelo comptroller apenas para receber depósitos e pagar cheques."
+        ],
+        [
+          "Comptroller of the Currency",
+          "autoridade federal que fiscaliza e autoriza os bancos nacionais americanos."
+        ],
+        [
+          "Padrão-ouro de câmbio",
+          "regime em que a moeda é mantida ao valor-ouro por resgate em saques sobre o exterior, e não em moeda de ouro."
+        ]
+      ],
+      "hoje": "A discussão sobre preços entregues e pontos de base reaparece no direito da concorrência sempre que o frete ou a logística servem para separar mercados. A alocação do espectro de rádio por concessão pública, que Childs defendia, tornou-se regra. O debate entre alíquotas marginais altas e evasão por lucros retidos e títulos isentos segue no centro das reformas tributárias. E a disputa entre bancos de agência única e redes de filiais, com a concentração que estas trazem, continua a orientar a regulação bancária.",
+      "itens": [
+        [
+          "Graphic Illustration of the Laws of Price",
+          "pp. 417–444",
+          "ia-1924-09-p417"
+        ],
+        [
+          "Recent Developments in Branch Banking",
+          "pp. 445–462",
+          "ia-1924-09-p445"
+        ],
+        [
+          "The Proposed New Central Gold Bank of Germany",
+          "pp. 463–474",
+          "ia-1924-09-p463"
+        ],
+        [
+          "The Revenue Act of 1924",
+          "pp. 475–504",
+          "ia-1924-09-p475"
+        ],
+        [
+          "The Delivered Price Practice in the Steel Market",
+          "pp. 505–519",
+          "ia-1924-09-p505"
+        ],
+        [
+          "Problems in the Radio Industry",
+          "pp. 520–523",
+          "ia-1924-09-p520"
+        ],
+        [
+          "Real Demand and Market Price: A Communication",
+          "pp. 524–525",
+          "ia-1924-09-p524"
+        ],
+        [
+          "Review: Principles of Economics, with Special Reference to American Conditions (tenth edition) by E. R. A. Seligman",
+          "p. 526",
+          "ia-1924-09-p526"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "p. 526",
+          "ia-1924-09-x1"
+        ],
+        [
+          "Review: Outlines of Economic History in the Nineteenth Century by G. Droppers",
+          "p. 527",
+          "ia-1924-09-p527"
+        ],
+        [
+          "Review: A Political and Social History of Modern Europe, vol. II by C. J. H. Hayes",
+          "p. 528",
+          "ia-1924-09-p528"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "p. 527",
+          "ia-1924-09-x2"
+        ],
+        [
+          "Review: Elements of Land Economics by Richard T. Ely e Edward W. Morehouse",
+          "p. 530",
+          "ia-1924-09-p530"
+        ],
+        [
+          "Review: The Beginnings of Agriculture in America by L. Carrier",
+          "p. 531",
+          "ia-1924-09-p531"
+        ],
+        [
+          "Review: Elements of Rural Economics by T. N. Carver",
+          "p. 532",
+          "ia-1924-09-p532"
+        ],
+        [
+          "Review: Introduction to Agricultural Economics by L. C. Gray",
+          "p. 534",
+          "ia-1924-09-p534"
+        ],
+        [
+          "Review: The Economic Resources of the Pacific Northwest by Lewis e Miller (eds.)",
+          "p. 535",
+          "ia-1924-09-p535"
+        ],
+        [
+          "Review: The Anthracite Question by H. S. Raushenbush",
+          "p. 536",
+          "ia-1924-09-p536"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "p. 531",
+          "ia-1924-09-x3"
+        ],
+        [
+          "Review: The Packing Industry by Institute of American Meat Packers",
+          "p. 537",
+          "ia-1924-09-p537"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "p. 536",
+          "ia-1924-09-x4"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "p. 537",
+          "ia-1924-09-x5"
+        ],
+        [
+          "Review: The Flaw in the Price System by P. W. Martin",
+          "p. 539",
+          "ia-1924-09-p539"
+        ],
+        [
+          "Review: L'Après-guerre et la politique commerciale by C. J. Gignoux",
+          "p. 541",
+          "ia-1924-09-p541"
+        ],
+        [
+          "Review: Agricultural Commerce (new edition) by G. G. Huebner",
+          "p. 541",
+          "ia-1924-09-x6"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "p. 541",
+          "ia-1924-09-x7"
+        ],
+        [
+          "Review: Competition in the Retail Distribution of Clothing; Expense Levels in Retailing by Horace Secrist",
+          "p. 542",
+          "ia-1924-09-p542"
+        ],
+        [
+          "Review: Frederick W. Taylor, Father of Scientific Management by Frank Barkley Copley",
+          "p. 546",
+          "ia-1924-09-p546"
+        ],
+        [
+          "Review: Depreciation Principles and Applications by E. A. Saliers",
+          "p. 550",
+          "ia-1924-09-p550"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "p. 548",
+          "ia-1924-09-p548"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "",
+          "ia-1924-09-x8"
+        ],
+        [
+          "Review: Miners' Wages and the Cost of Coal by Isador Lubin",
+          "p. 552",
+          "ia-1924-09-p552"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "p. 554",
+          "ia-1924-09-p554"
+        ],
+        [
+          "Review: American Labor Year Book, 1923–1924 by Rand School of Social Science",
+          "p. 555",
+          "ia-1924-09-p555"
+        ],
+        [
+          "Review: Farm Credits in the United States and Canada by James B. Morman",
+          "p. 556",
+          "ia-1924-09-p556"
+        ],
+        [
+          "Review: Modern Foreign Exchange by Hubert C. Walter",
+          "p. 558",
+          "ia-1924-09-p558"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "p. 559",
+          "ia-1924-09-p559"
+        ],
+        [
+          "Review: Sugar in Relation to the Tariff by Philip G. Wright",
+          "p. 561",
+          "ia-1924-09-p561"
+        ],
+        [
+          "Review: The Inter-Ally Debts by H. E. Fisk",
+          "p. 564",
+          "ia-1924-09-p564"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "p. 564",
+          "ia-1924-09-x9"
+        ],
+        [
+          "New Books: Population and Migration",
+          "p. 567",
+          "ia-1924-09-p567"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "p. 568",
+          "ia-1924-09-p568"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "p. 569",
+          "ia-1924-09-p569"
+        ],
+        [
+          "New Books: Pauperism, Charities, and Relief Measures",
+          "p. 570",
+          "ia-1924-09-p570"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "p. 570",
+          "ia-1924-09-x10"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "p. 570",
+          "ia-1924-09-x11"
+        ],
+        [
+          "Periodicals",
+          "pp. 572–597",
+          "ia-1924-09-p572"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 598–600",
+          "ia-1924-09-p598"
+        ],
+        [
+          "Documents, Reports, and Legislation: Trading in Grain Futures",
+          "p. 598",
+          "ia-1924-09-x12"
+        ],
+        [
+          "A List of Doctoral Dissertations in Political Economy in Progress in American Universities and Colleges (twenty-first list)",
+          "pp. 601–618",
+          "ia-1924-09-p601"
+        ],
+        [
+          "Notes",
+          "pp. 619–628",
+          "ia-1924-09-p619"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1924-09_14_3",
+      "artigos": [
+        {
+          "titulo": "Graphic Illustration of the Laws of Price",
+          "autores": "Norman J. Silberling (University of California)",
+          "paginas": "pp. 417–444",
+          "jstor": "ia-1924-09-p417",
+          "resumo": "Revisão dos gráficos de oferta e demanda, com escalas de custos desiguais e crítica à curva de oferta normal."
+        },
+        {
+          "titulo": "Recent Developments in Branch Banking",
+          "autores": "Howard H. Preston (University of Washington, Seattle)",
+          "paginas": "pp. 445–462",
+          "jstor": "ia-1924-09-p445",
+          "resumo": "Panorama das leis, decisões judiciais e regras federais sobre filiais bancárias nos Estados Unidos em 1922–1924."
+        },
+        {
+          "titulo": "The Proposed New Central Gold Bank of Germany",
+          "autores": "E. E. Agger (Columbia University)",
+          "paginas": "pp. 463–474",
+          "jstor": "ia-1924-09-p463",
+          "resumo": "Descrição do banco central proposto pelo Comitê Dawes: organização, ativos, reservas, reparações e estabilização do marco."
+        },
+        {
+          "titulo": "The Revenue Act of 1924",
+          "autores": "Roy G. Blakey (University of Minnesota)",
+          "paginas": "pp. 475–504",
+          "jstor": "ia-1924-09-p475",
+          "resumo": "História da lei de receita de 1924, do plano Mellon à lei aprovada, e exame das disputas sobre sobretaxa, empresas, heranças e publicidade.",
+          "ensaio_slug": "blakey-a-lei-de-receita-de-1924"
+        },
+        {
+          "titulo": "The Delivered Price Practice in the Steel Market",
+          "autores": "John R. Commons (University of Wisconsin)",
+          "paginas": "pp. 505–519",
+          "jstor": "ia-1924-09-p505",
+          "resumo": "Análise do Pittsburgh-plus como discriminação de preços e defesa da venda do aço na usina.",
+          "ensaio_slug": "commons-o-preco-entregue-do-aco"
+        },
+        {
+          "titulo": "Problems in the Radio Industry",
+          "autores": "William Wallace Childs (Washington, D. C.)",
+          "paginas": "pp. 520–523",
+          "jstor": "ia-1924-09-p520",
+          "resumo": "Argumento de que os comprimentos de onda são recurso natural e que a transmissão deve operar por concessão pública."
+        },
+        {
+          "titulo": "Real Demand and Market Price",
+          "autores": "C. O. Hardy (Washington, D. C.)",
+          "paginas": "pp. 524–525",
+          "jstor": "ia-1924-09-p524",
+          "resumo": "Comunicação que contesta o uso do conceito de demanda real em artigo de Alvin H. Hansen."
+        },
+        {
+          "titulo": "E. R. A. Seligman, Principles of Economics, with Special Reference to American Conditions (tenth edition)",
+          "autores": "J. I.",
+          "paginas": "p. 526",
+          "jstor": "ia-1924-09-p526",
+          "resumo": "Resenha de J. I.."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 526",
+          "jstor": "ia-1924-09-x1",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "G. Droppers, Outlines of Economic History in the Nineteenth Century",
+          "autores": "I. Lippincott",
+          "paginas": "p. 527",
+          "jstor": "ia-1924-09-p527",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "C. J. H. Hayes, A Political and Social History of Modern Europe, vol. II",
+          "autores": "A. P. Usher",
+          "paginas": "p. 528",
+          "jstor": "ia-1924-09-p528",
+          "resumo": "Resenha de A. P. Usher."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 527",
+          "jstor": "ia-1924-09-x2",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "Richard T. Ely e Edward W. Morehouse, Elements of Land Economics",
+          "autores": "A. H. Benton (North Dakota Agricultural College)",
+          "paginas": "p. 530",
+          "jstor": "ia-1924-09-p530",
+          "resumo": "Resenha de A. H. Benton (North Dakota Agricultural College)."
+        },
+        {
+          "titulo": "L. Carrier, The Beginnings of Agriculture in America",
+          "autores": "I. Lippincott",
+          "paginas": "p. 531",
+          "jstor": "ia-1924-09-p531",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "T. N. Carver, Elements of Rural Economics",
+          "autores": "A. H. Benton",
+          "paginas": "p. 532",
+          "jstor": "ia-1924-09-p532",
+          "resumo": "Resenha de A. H. Benton."
+        },
+        {
+          "titulo": "L. C. Gray, Introduction to Agricultural Economics",
+          "autores": "A. E. Cance",
+          "paginas": "p. 534",
+          "jstor": "ia-1924-09-p534",
+          "resumo": "Resenha de A. E. Cance."
+        },
+        {
+          "titulo": "Lewis e Miller (eds.), The Economic Resources of the Pacific Northwest",
+          "autores": "I. Lippincott",
+          "paginas": "p. 535",
+          "jstor": "ia-1924-09-p535",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "H. S. Raushenbush, The Anthracite Question",
+          "autores": "D. L. W.",
+          "paginas": "p. 536",
+          "jstor": "ia-1924-09-p536",
+          "resumo": "Resenha de D. L. W.."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 531",
+          "jstor": "ia-1924-09-x3",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "Institute of American Meat Packers, The Packing Industry",
+          "autores": "I. Lippincott",
+          "paginas": "p. 537",
+          "jstor": "ia-1924-09-p537",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 536",
+          "jstor": "ia-1924-09-x4",
+          "resumo": "Lista de livros novos, com notas breves, sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 537",
+          "jstor": "ia-1924-09-x5",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicação."
+        },
+        {
+          "titulo": "P. W. Martin, The Flaw in the Price System",
+          "autores": "W. I. King (Flushing, N. Y.)",
+          "paginas": "p. 539",
+          "jstor": "ia-1924-09-p539",
+          "resumo": "Resenha de W. I. King (Flushing, N. Y.)."
+        },
+        {
+          "titulo": "C. J. Gignoux, L'Après-guerre et la politique commerciale",
+          "autores": "R. R. W.",
+          "paginas": "p. 541",
+          "jstor": "ia-1924-09-p541",
+          "resumo": "Resenha de R. R. W.."
+        },
+        {
+          "titulo": "G. G. Huebner, Agricultural Commerce (new edition)",
+          "autores": "F. R. Rutter",
+          "paginas": "p. 541",
+          "jstor": "ia-1924-09-x6",
+          "resumo": "Resenha de F. R. Rutter."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 541",
+          "jstor": "ia-1924-09-x7",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Horace Secrist, Competition in the Retail Distribution of Clothing; Expense Levels in Retailing",
+          "autores": "P. G. Wright (Institute of Economics, Washington, D. C.)",
+          "paginas": "p. 542",
+          "jstor": "ia-1924-09-p542",
+          "resumo": "Resenha de P. G. Wright (Institute of Economics, Washington, D. C.)."
+        },
+        {
+          "titulo": "Frank Barkley Copley, Frederick W. Taylor, Father of Scientific Management",
+          "autores": "J. H. Willits (University of Pennsylvania)",
+          "paginas": "p. 546",
+          "jstor": "ia-1924-09-p546",
+          "resumo": "Resenha de J. H. Willits (University of Pennsylvania)."
+        },
+        {
+          "titulo": "E. A. Saliers, Depreciation Principles and Applications",
+          "autores": "J. H. Jackson",
+          "paginas": "p. 550",
+          "jstor": "ia-1924-09-p550",
+          "resumo": "Resenha de J. H. Jackson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 548",
+          "jstor": "ia-1924-09-p548",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócio, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-09-x8",
+          "resumo": "Lista de livros novos, com notas breves, sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "Isador Lubin, Miners' Wages and the Cost of Coal",
+          "autores": "D. L. Wing (Washington, D. C.)",
+          "paginas": "p. 552",
+          "jstor": "ia-1924-09-p552",
+          "resumo": "Resenha de D. L. Wing (Washington, D. C.)."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 554",
+          "jstor": "ia-1924-09-p554",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Rand School of Social Science, American Labor Year Book, 1923–1924",
+          "autores": "G. E. B.",
+          "paginas": "p. 555",
+          "jstor": "ia-1924-09-p555",
+          "resumo": "Resenha de G. E. B.."
+        },
+        {
+          "titulo": "James B. Morman, Farm Credits in the United States and Canada",
+          "autores": "G. O. Virtue (University of Nebraska)",
+          "paginas": "p. 556",
+          "jstor": "ia-1924-09-p556",
+          "resumo": "Resenha de G. O. Virtue (University of Nebraska)."
+        },
+        {
+          "titulo": "Hubert C. Walter, Modern Foreign Exchange",
+          "autores": "I. B. Cross (University of California)",
+          "paginas": "p. 558",
+          "jstor": "ia-1924-09-p558",
+          "resumo": "Resenha de I. B. Cross (University of California)."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 559",
+          "jstor": "ia-1924-09-p559",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "Philip G. Wright, Sugar in Relation to the Tariff",
+          "autores": "F. W. Taussig (Harvard University)",
+          "paginas": "p. 561",
+          "jstor": "ia-1924-09-p561",
+          "resumo": "Resenha de F. W. Taussig (Harvard University)."
+        },
+        {
+          "titulo": "H. E. Fisk, The Inter-Ally Debts",
+          "autores": "E. R. A. Seligman",
+          "paginas": "p. 564",
+          "jstor": "ia-1924-09-p564",
+          "resumo": "Resenha de E. R. A. Seligman."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 564",
+          "jstor": "ia-1924-09-x9",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 567",
+          "jstor": "ia-1924-09-p567",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 568",
+          "jstor": "ia-1924-09-p568",
+          "resumo": "Lista de livros novos, com notas breves, sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 569",
+          "jstor": "ia-1924-09-p569",
+          "resumo": "Lista de livros novos, com notas breves, sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 570",
+          "jstor": "ia-1924-09-p570",
+          "resumo": "Lista de livros novos, com notas breves, sobre pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 570",
+          "jstor": "ia-1924-09-x10",
+          "resumo": "Lista de livros novos, com notas breves, sobre socialismo e cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 570",
+          "jstor": "ia-1924-09-x11",
+          "resumo": "Lista de livros novos, com notas breves, sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 572–597",
+          "jstor": "ia-1924-09-p572",
+          "resumo": "Resumos de artigos de periódicos, por área."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 598–600",
+          "jstor": "ia-1924-09-p598",
+          "resumo": "Documentos, relatórios e legislação."
+        },
+        {
+          "titulo": "Trading in Grain Futures",
+          "autores": "C. E. Parry",
+          "paginas": "p. 598",
+          "jstor": "ia-1924-09-x12",
+          "resumo": "Nota sobre o comércio de futuros de grãos."
+        },
+        {
+          "titulo": "Twenty-first List of Doctoral Dissertations in Political Economy",
+          "autores": "",
+          "paginas": "pp. 601–618",
+          "jstor": "ia-1924-09-p601",
+          "resumo": "Lista anual de teses de doutorado em economia em andamento nas universidades americanas."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 619–628",
+          "jstor": "ia-1924-09-p619",
+          "resumo": "Notícias, nomeações e transferências de professores."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "blakey-a-lei-de-receita-de-1924",
+          "titulo": "Blakey e a lei de receita de 1924: como o Congresso reescreveu o plano Mellon",
+          "titulo_original": "The Revenue Act of 1924",
+          "autores": "Roy G. Blakey (University of Minnesota)",
+          "paginas": "pp. 475–504",
+          "jstor": "ia-1924-09-p475",
+          "chamada": "Roy G. Blakey reconstitui a disputa sobre a lei de receita de 1924, do plano de Andrew Mellon à lei sancionada por Coolidge, e examina os números sobre títulos isentos, lucros retidos e o abatimento de 25%.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Em 10 de novembro de 1923, cerca de um mês antes de o 68º Congresso se organizar, o secretário do Tesouro, Andrew W. Mellon, enviou ao deputado Green, presidente em exercício da Comissão de Meios e Recursos da Câmara, as recomendações do Tesouro para reduzir impostos. Os dois anos fiscais anteriores haviam fechado com superávits de mais de US$ 300 milhões, depois das amortizações obrigatórias da dívida. A proposta central era baixar a sobretaxa máxima sobre a renda de 50% para 25%. Em 2 de junho de 1924, o presidente Coolidge sancionava uma lei bem diferente. Roy G. Blakey, da University of Minnesota, conta como se chegou a ela."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que muda na lei?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Blakey começa pelo resultado. Os contribuintes recebem de volta 25% do imposto sobre a renda pessoal de 1923. A sobretaxa vai de 1%, na faixa entre US$ 10 mil e US$ 14 mil, a 40% acima de US$ 500 mil; antes começava entre US$ 6 mil e US$ 10 mil e chegava a 50% acima de US$ 200 mil. As alíquotas normais passam a 2% sobre os primeiros US$ 4 mil, 4% sobre os US$ 4 mil seguintes e 6% acima de US$ 8 mil, contra 4% e 8% nas leis de 1918 e 1921. A renda do trabalho paga 25% menos, considerando-se assim toda renda de até US$ 5 mil e, nas maiores, no máximo US$ 10 mil."
+            },
+            {
+              "tipo": "p",
+              "texto": "O imposto das empresas fica em 12,5%, com o tributo de US$ 1 por US$ 1 mil de capital. O imposto sobre heranças passa a ir de 1% a 40% acima de US$ 10 milhões, contra teto de 25%, e ganha a companhia de um imposto sobre doações. Uma Junta de Recursos Fiscais, independente do Tesouro, julgará disputas antes do pagamento. As declarações ficam acessíveis às comissões do Congresso, e o nome de cada contribuinte será publicado com o imposto pago. Caem os impostos sobre telegramas e telefonemas, doces, refrigerantes e ingressos de até 50 centavos; o de pneus cai de 5% para 2,5%."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "40%",
+              "texto": "Sobretaxa máxima da lei de 1924, sobre rendas acima de US$ 500 mil. Mellon propusera 25%; o compromisso de Longworth, aprovado na Câmara, 37,5% acima de US$ 200 mil; o substitutivo de Garner, 44% acima de US$ 92 mil."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual era o argumento do Tesouro?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Mellon sustentava que as sobretaxas altas tornavam-se improdutivas: empurravam o capital para títulos isentos, privavam ferrovias e empresas de recursos e estimulavam gastos de estados e municípios. Em seu livro, publicado durante a disputa, explica o número de 25%: com 50% de sobretaxa e 8% de alíquota normal, o contribuinte de renda mais alta precisava de um investimento que rendesse 11% para igualar um título isento de 4,5%. Em apoio, apresentou uma tabela de rendas acima de US$ 300 mil em queda desde 1916."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“As fontes de tributação estão secando.”",
+              "original": "“the sources of taxation are drying up”"
+            },
+            {
+              "tipo": "p",
+              "texto": "O senador Couzens, de Michigan, foi dos primeiros a contestar. Em carta de 20 de dezembro de 1923, apontou que 1921 fora ano de depressão e pediu dados sobre quem detinha títulos isentos. Mellon respondeu que havia cerca de US$ 11 bilhões de títulos totalmente isentos e uma perda de receita superior a US$ 200 milhões por ano. Couzens refez as contas com dados do próprio Tesouro: em 1920, os juros desses títulos recebidos por pessoas com renda acima de US$ 50 mil somavam cerca de US$ 53 milhões, e a sobretaxa evitada não passaria de US$ 16 milhões, diante de quase US$ 597 milhões arrecadados."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como a Câmara e o Senado mudaram o projeto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O projeto de Mellon chegou à Câmara em 11 de fevereiro de 1924. Republicanos insurgentes e democratas já tinham mudado o regimento para facilitar emendas em plenário. Em 19 de fevereiro, por 221 votos a 196, a Câmara, reunida em comissão geral, adotou o substitutivo do democrata Garner; em 29 de fevereiro, por 216 a 199, aprovou o compromisso de Longworth, com teto de 37,5%, as alíquotas normais de Garner, o imposto sobre heranças até 40%, o imposto sobre doações e a inspeção das declarações por comissões do Congresso."
+            },
+            {
+              "tipo": "p",
+              "texto": "No Senado, atuários do Tesouro estimaram que o texto da Câmara renderia US$ 446 milhões a menos que a lei vigente. A Comissão de Finanças restaurou as alíquotas de Mellon por 8 a 7, em 24 de março, e apresentou o projeto em 8 de abril. O plenário, com insurgentes e democratas, adotou as alíquotas de Simmons, as heranças da Câmara, a emenda de Jones sobre lucros retidos e a publicidade total das declarações. A conferência retirou estas duas últimas; o texto final passou com apenas seis deputados e nove senadores contra."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde estava a evasão?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Um relatório da Federal Trade Commission, entregue ao Senado em 6 de junho, estimou que, de cerca de US$ 32 bilhões em títulos total ou parcialmente isentos em 1922, US$ 4,5 bilhões estavam com indivíduos ricos e quase US$ 12 bilhões com empresas, que não pagam sobretaxa. Tributar tudo o que a lei isentava renderia no máximo cerca de US$ 100 milhões."
+            },
+            {
+              "tipo": "p",
+              "texto": "O senador Jones, do Novo México, apontou outra via. A alíquota única de 12,5% sobre as empresas equivalia à de um indivíduo com renda de US$ 32 mil; acima disso, convinha incorporar-se ou investir em empresas que não distribuíam lucros. Das 109.313 empresas que declararam em 1923, 30.048, com lucro tributável de US$ 896.254.485, não pagaram dividendos e acumulavam reservas de US$ 3.954.966.686. Sua emenda, um imposto de 9% acrescido de alíquotas sobre lucros não distribuídos, passou no Senado por 42 a 32 em 7 de maio e caiu na conferência; a lei apenas elevou de 25% para 50% o imposto adicional sobre empresas formadas para evitar a sobretaxa."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mais se discutiu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Mellon e Coolidge condenavam os impostos federais sobre heranças. A lei concedeu crédito pelos tributos estaduais até 25% do federal, manteve a isenção de US$ 50 mil e isentou doações de até US$ 500 por pessoa. A publicidade das declarações foi a disputa mais áspera. A nova Junta de Recursos Fiscais terá 28 membros nos dois primeiros anos e depois sete, com mandato de dez anos e salário de US$ 7.500, e suas audiências serão públicas. O deputado Mills, de Nova York, criticou a mudança."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Em vez de melhorar a máquina administrativa, vocês a destruíram.”",
+              "original": "“Instead of improving administrative machinery, you have wrecked it.”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o autor avalia o resultado?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Blakey adverte que suas opiniões são pessoais e baseadas em dados insatisfatórios. Para ele, a arrecadação da sobretaxa caiu ao menos até 1921, mas não houve prova convincente de que as alíquotas altas causassem depressão; a fuga para títulos isentos foi muito exagerada; a formação de empresas e trustes e a retenção de lucros pesaram mais. Um imposto graduado sobre lucros não distribuídos, como o de Jones, seria mais equitativo que a alíquota única. Ele considera a publicidade e a nova junta avanços, e o limite à dedução de perdas de capital, inconsistente com a boa contabilidade."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "US$ 232,75 milhões",
+              "texto": "Custo do abatimento de 25% sobre o imposto de 1923, que Blakey considera a medida mais discutível da lei. Os juros da dívida pública somavam quase US$ 1 bilhão por ano, mais que todo o gasto federal antes da guerra."
+            },
+            {
+              "tipo": "p",
+              "texto": "A política aparece em toda parte. A minoria do Senado calculou que, dos 6.662.176 declarantes de 1921, só 6.109 ganhariam mais com o plano Mellon que com o de Simmons. As estimativas de saldo do Tesouro variaram mais de US$ 1 bilhão conforme o argumento. Coolidge sancionou a lei sob protesto e prometeu outra, menos política. Blakey lembra o que se dizia de 1896: se a eleição fosse em setembro, Bryan teria vencido, mas o preço do trigo subiu. E prevê novas campanhas organizadas por redução de impostos."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo vale menos pelo relato parlamentar que pela disciplina com que separa o argumento do número que o sustenta. A tese de Mellon dependia de uma quantidade, a fatia de títulos isentos nas mãos de quem pagava sobretaxa. Quando Couzens e a Federal Trade Commission a mediram, o argumento mudou de escala, embora não de direção.",
+                "O segundo ponto é a interação entre impostos. Uma sobretaxa progressiva sobre pessoas convive mal com uma alíquota única e baixa sobre empresas, porque o lucro retido vira abrigo. Blakey enxerga que a equidade exigiria imputar a cada acionista sua parte do lucro, e que isso não era administrável; a escolha passa a ser entre compromissos imperfeitos."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Sobretaxa (surtax)",
+              "imposto de renda progressivo adicional sobre as faixas mais altas."
+            ],
+            [
+              "Alíquota normal",
+              "alíquota básica do imposto de renda pessoal, aplicada antes da sobretaxa."
+            ],
+            [
+              "Título isento",
+              "título público cujos juros não pagam, no todo ou em parte, o imposto de renda federal."
+            ],
+            [
+              "Lucro retido",
+              "lucro que a empresa não distribui como dividendo e que, por isso, escapa da sobretaxa pessoal."
+            ],
+            [
+              "Board of Tax Appeals",
+              "junta criada pela lei de 1924 para julgar disputas fiscais antes do pagamento do imposto."
+            ]
+          ],
+          "hoje": "A tensão entre alíquotas progressivas sobre pessoas e alíquota única sobre empresas continua a organizar a discussão sobre a tributação de dividendos e de lucros retidos. A isenção dos juros de títulos municipais segue em vigor nos Estados Unidos e em debate. A publicidade dos dados fiscais e a existência de tribunais administrativos independentes, antes do pagamento do tributo, também permanecem nas pautas de reforma tributária."
+        },
+        {
+          "slug": "commons-o-preco-entregue-do-aco",
+          "titulo": "Commons e o Pittsburgh-plus: quando o preço do aço inclui um frete que não existe",
+          "titulo_original": "The Delivered Price Practice in the Steel Market",
+          "autores": "John R. Commons (University of Wisconsin)",
+          "paginas": "pp. 505–519",
+          "jstor": "ia-1924-09-p505",
+          "chamada": "John R. Commons explica o preço entregue na siderurgia americana, mostra onde estava a discriminação e define o mercado livre e igual pelo lugar onde o controle legal da mercadoria passa ao comprador.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Antes do Pittsburgh-plus, o aço americano era vendido por zonas. O país fora dividido em faixas de frete com centro em Pittsburgh, e cada zona tinha um preço único, que subia em degraus de dois ou três dólares conforme a distância. Um grande consumidor de Minneapolis comprou então um lote para entrega numa estação de Wisconsin, onde o preço de zona era US$ 1 por tonelada menor, e combinou com a ferrovia, que cobrava o mesmo frete até Minneapolis, que a carga não fosse descarregada ali. Economizou algo como US$ 5 mil. A siderúrgica pôs Wisconsin na zona de Minnesota; ele repetiu a manobra na península de Michigan e economizou outros US$ 5 mil. A empresa mandou alguém ver que grandes fábricas ele estava montando e achou apenas duas estações à beira da linha."
+            },
+            {
+              "tipo": "p",
+              "texto": "A história abre o artigo de John R. Commons, da University of Wisconsin, um dos economistas que depuseram contra o sistema na Federal Trade Commission, em nome de quatro estados, ao lado de Frank A. Fetter, de Princeton, e W. Z. Ripley, de Harvard."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como funcionava o sistema?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para fechar o buraco, as usinas ajustaram os preços às tarifas ferroviárias: o preço entregue passou a ser o de Pittsburgh mais o frete exato de Pittsburgh até o ponto de entrega, mesmo quando o aço vinha de Chicago, Duluth ou Sparrows Point. Uma subsidiária da Steel Corporation publicava o livro de tarifas. Com o aço a US$ 40 a tonelada em Pittsburgh, o preço entregue era conhecido de todos: US$ 47,60 em Chicago, US$ 48,30 em Milwaukee, US$ 53,20 em Minneapolis e US$ 46,90 em Indianápolis. O comprador, diz Commons, fica preso no lugar da própria fábrica, porque só obtém o controle do aço quando ele chega lá; as usinas lhe vendem aço e, junto, frete."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que a prática se encaixava na siderurgia?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Os laminados eram tão padronizados que encomendá-los era quase como comprar selos, e a mesma especificação podia ser pedida a qualquer usina equipada. Restava competir em preço, prazo e arte de vender. A produção estava concentrada: a United States Steel Corporation respondia por 40% a 80% dos diversos produtos e tinha usinas em Pittsburgh, Chicago, Duluth e Birmingham. Depois da era de Carnegie, de preços voláteis e concorrentes eliminados, a corporação adotara a estabilização, apreciada por clientes e rivais menores; quando estes cortavam preços, uma advertência pública do juiz Gary, presidente da empresa, bastava. A Suprema Corte entendera que anunciar preços publicamente não violava a lei antitruste."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Uniformidade por publicidade, em vez da antiga uniformidade por segredo e conspiração.”",
+              "original": "“uniformity by publicity ... instead of the old-fashioned uniformity by secrecy and conspiracy”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Padronização, estabilização e um único ponto de base em Pittsburgh formavam, para o autor, a combinação mais simples para manter preços uniformes em todo o país. Os compradores imediatos ficavam satisfeitos, pois sabiam o que os concorrentes pagavam e podiam repassar o custo ao consumidor final."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o segredo apareceu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A prática vigorava desde a formação da Steel Corporation, em 1901, sem queixas relevantes; esperava-se que acabasse quando a empresa concluiu sua grande usina de Gary, em Indiana, o que não ocorreu. Na guerra, o War Industries Board mandou suspendê-la e fez de Chicago um ponto de base; nove meses depois, mandou restaurá-la. Em 1920, a Interstate Commerce Commission quase dobrou os fretes em relação a 1914, e a desvantagem dos fabricantes do Oeste dobrou junto. Eles fundaram uma associação e levaram o caso à Federal Trade Commission; as usinas passaram parte do aço de Chicago a um preço-base de Chicago. Depois vieram as legislaturas de Illinois, Wisconsin, Minnesota e Iowa; trinta e dois estados se uniram."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Onde estava a discriminação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Não em Pittsburgh, onde todos pagavam o mesmo preço mais o frete real. A discriminação estava nas outras usinas. Com números do juiz Gary, de 1918, Commons calcula que, se o custo de operação em Pittsburgh fosse 100, o de Duluth seria 113, o de Chicago 80 e o de Birmingham 81; os preços entregues, porém, equivaleriam a 133, 119 e 112. Num ponto a meio caminho de Pittsburgh, o preço entregue era US$ 43,80; a usina de Chicago, para vender ali, tinha de aceitá-lo e pagar US$ 3,80 de frete real, recebendo US$ 40 pelo mesmo aço que vendia a US$ 47,60 em Chicago."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "Dois terços",
+              "texto": "Parcela das vendas em que, segundo Commons, as usinas de Chicago cortavam o preço líquido. Em Davenport, Iowa, com frete de US$ 9,50 desde Pittsburgh e de US$ 3,40 desde Chicago, a usina recebia US$ 46,10. Em poucos pontos, como Madison, a soma das tarifas locais igualava a direta e não havia corte."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é um mercado livre e igual?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A definição de Commons tem dois pontos. Primeiro, num mercado de aço só se vende aço; se cada comprador é obrigado a levar junto quantidades variáveis de outra mercadoria, o frete, o produto deixa de ser uniforme. Segundo, compradores e vendedores precisam estar no mesmo mercado ao mesmo tempo, com informação sobre os preços uns dos outros. Pelo princípio de indiferença, cada um troca o vendedor caro pelo barato e o cliente que paga pouco pelo que paga mais, e as discriminações desaparecem. As bolsas de valores e de mercadorias se aproximam desse ideal por meio de regras adotadas em conjunto; quando as partes não conseguem fazê-lo, cabe ao governo, e foi para isso que se criou a Federal Trade Commission."
+            },
+            {
+              "tipo": "p",
+              "texto": "O exemplo prático são os trilhos. Havia mais de vinte anos, seu preço era fixado na usina e era o mesmo em Pittsburgh, Chicago ou Birmingham. As ferrovias podiam retirar os trilhos em qualquer usina e pagar o próprio frete; se Chicago cobrasse mais, todas as compras iriam para Pittsburgh. Os fabricantes, presos a uma única localidade de entrega, não tinham essa opção."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Qual a resposta à defesa da Steel Corporation?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A empresa alegava que cada ponto de entrega era um mercado separado, onde os produtores competiam livremente, e que Pittsburgh era o centro de produção excedente, enquanto Chicago produzia menos do que consumia. Commons responde que, mesmo com produtores competindo nos pontos de entrega, os consumidores não podiam competir entre si nas usinas. E que manter o preço alto em casa e vendê-lo mais barato longe é dumping, sinal de excedente, não de déficit; o sistema de fretes funcionaria como uma tarifa protetora para as usinas locais. Em 1908, por protesto dos consumidores do Sul, Birmingham passara a ter preço-base próprio; o autor observa que as empresas já haviam voltado ao ponto de base de Pittsburgh em ocasiões anteriores."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“O remédio, bastante simples, é apenas proibir o sistema de preço entregue.”",
+              "original": "“The rather simple remedy is merely to prohibit the delivered-price system”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que o caso diz sobre os mercados modernos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Commons recorre a Henry Dunning McLeod, para quem num mercado não se compram coisas físicas, mas direitos. Nos mercados primitivos, a entrega física e a transferência de propriedade coincidiam. Nos atacadistas modernos, só o título ou o controle legal muda de mãos, e a mercadoria é definida por padrão, lugar e prazo de entrega. Como é a lei que determina o controle legal, ela pode fixar também o lugar onde ele se transfere, e é isso que os queixosos pediam à comissão. Em nota final, o autor registra que, segundo os jornais de 23 de julho de 1924, a Federal Trade Commission ordenou o fim do Pittsburgh-plus por quatro votos a um; o comissário vencido sugeriu que, se os economistas estivessem certos, a questão pedia uma lei de aplicação geral."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um exercício de definição com consequência prática. A disputa não era sobre fatos, que as partes em geral aceitavam, mas sobre qual unidade chamar de mercado. Se o mercado é cada ponto de entrega, a uniformidade de preços ali prova concorrência; se é o lugar onde o controle legal passa ao comprador, a mesma uniformidade revela discriminação entre clientes de uma mesma usina.",
+                "Commons ancora a escolha em instituições observáveis: os trilhos, vendidos na usina pelo mesmo preço em todo o país, servem de contraprova de que a uniformidade na origem é possível. O método liga a teoria do preço ao direito dos contratos, e o remédio proposto não fixa preços: muda o lugar da transação e deixa a concorrência entre compradores fazer o resto."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Pittsburgh-plus",
+              "preço do aço igual ao de Pittsburgh mais o frete de Pittsburgh até o comprador, qualquer que fosse a usina de origem."
+            ],
+            [
+              "Ponto de base (basing point)",
+              "local cujo preço serve de referência para calcular os preços entregues em todo o mercado."
+            ],
+            [
+              "Preço na usina (mill base price)",
+              "preço cobrado na origem, com o frete pago à parte pelo comprador."
+            ],
+            [
+              "Dumping",
+              "venda a preço menor em mercados distantes do que no mercado próprio do produtor."
+            ],
+            [
+              "Princípio de indiferença",
+              "tendência de compradores e vendedores livres a trocar de contraparte até que todos paguem o mesmo preço."
+            ]
+          ],
+          "hoje": "Sistemas de ponto de base e preços entregues voltaram aos tribunais americanos nas décadas seguintes, e o cimento foi um dos casos centrais. A discussão sobre se o frete separa mercados ou disfarça discriminação reaparece hoje na definição de mercado relevante pelas autoridades de concorrência, inclusive em setores com logística pesada e em plataformas que embutem a entrega no preço."
+        }
+      ]
+    },
+    {
+      "slug": "1924-remessa-ao-par-e-equacao-de-trocas",
+      "numero": 188,
+      "titulo": "A remessa ao par, o preço do cimento e a equação de trocas medida",
+      "titulo_original": "The American Economic Review, vol. XIV, no. 4, December 1924",
+      "autores": "Charles S. Tippetts, Frank A. Fetter, John Bauer, C. R. Chambers, Carl Snyder",
+      "publicacao": "The American Economic Review",
+      "colecao": "eua",
+      "volume": "vol. 14, nº 4",
+      "data": "dezembro de 1924",
+      "chamada": "Tippetts narra a disputa da remessa de cheques ao par; Fetter critica um estudo sobre o cimento; Bauer defende uma base fixa para tarifas; Chambers mede o valor da terra; Snyder testa a equação de trocas.",
+      "blocos": [
+        {
+          "tipo": "p",
+          "texto": "Um depositante de Wisconsin paga um comerciante de Chicago com um cheque de US$ 100. O comerciante o deposita em seu banco, que o envia ao banco de Wisconsin; este paga com um saque sobre seu correspondente em Chicago, mas de US$ 99,90. Os dez centavos, chamados taxa de câmbio, eram prática comum antes do Federal Reserve e, explica Charles S. Tippetts, parte importante do lucro de muitos bancos. Em agosto de 1924, cerca de 3.300 bancos ainda se recusavam a remeter ao par, isto é, sem desconto, aos bancos de reserva."
+        },
+        {
+          "tipo": "p",
+          "texto": "O número de dezembro de 1924 da American Economic Review reúne cinco artigos em que uma regra institucional decide o resultado econômico. Tippetts narra a controvérsia da remessa ao par; Frank A. Fetter critica um estudo encomendado pela indústria do cimento sobre seus preços; John Bauer propõe uma base fixa para as tarifas dos serviços públicos; C. R. Chambers mede como o valor da terra agrícola incorpora rendas futuras; e Carl Snyder testa com estatísticas novas a equação de trocas. Seguem 48 resenhas, listas de livros novos, resumos de periódicos por área, documentos e notas."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Por que tantos bancos resistiam à remessa ao par?",
+          "artigo": "ia-1924-12-p629",
+          "credito": "Charles S. Tippetts (State University of Iowa) · “The Par Remittance Controversy” · pp. 629–648"
+        },
+        {
+          "tipo": "p",
+          "texto": "Charles S. Tippetts, da State University of Iowa, reconstitui uma das controvérsias mais amargas da história bancária americana. Com o Federal Reserve, os bancos de reserva tornaram-se agentes de cobrança de cheques de todo o país, e a emenda Hardwick, de 21 de junho de 1917, proibiu que qualquer taxa de câmbio fosse cobrada contra eles. Os bancos que viviam da taxa, sobretudo os não membros do sistema, reagiram."
+        },
+        {
+          "tipo": "p",
+          "texto": "A expansão foi gradual. Os bancos de reserva de Kansas City e St. Louis começaram; um sistema voluntário de 1915 teve pouca adesão, e em julho de 1916 a remessa ao par tornou-se obrigatória para todos os membros. Uma emenda de setembro de 1916 permitiu receber cheques sobre não membros, e no fim daquele ano cerca de 15 mil bancos remetiam ao par. Para alcançar os demais, os bancos de reserva passaram a apresentar os cheques no balcão, exigindo dinheiro, por meio de empresas de transporte, de bancos membros locais ou de funcionários próprios."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "19.188",
+          "texto": "Bancos não membros que remetiam ao par em 15 de novembro de 1920, o ponto mais alto. Em 15 de janeiro de 1921, só 1.705 bancos no país recusavam a remessa ao par; em agosto de 1924, eram cerca de 3.300."
+        },
+        {
+          "tipo": "p",
+          "texto": "A reação veio do Sul. Formou-se em Atlanta uma associação de bancos nacionais e estaduais, e leis estaduais, a começar pelo Mississippi, autorizaram os bancos a descontar a taxa e, na Carolina do Norte, a pagar com saques em vez de dinheiro. Em 11 de junho de 1923, a Suprema Corte decidiu os dois casos centrais: no de Atlanta, que o banco de reserva podia apresentar cheques no balcão como qualquer banco; no da Carolina do Norte, que a lei estadual era constitucional e que a lei federal não obriga os bancos de reserva a cobrar cheques de quem recusa a remessa ao par."
+        },
+        {
+          "tipo": "p",
+          "texto": "O Federal Reserve Board revisou então suas regras, abandonou a compulsão e rejeitou o plano Claiborne-Adams, que permitiria repassar a taxa aos bancos depositantes; os governadores estimaram que ele recriaria mais de US$ 100 milhões anuais em taxas. As saídas da lista crescem, embora 90% dos bancos ainda remetam ao par."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Poucos economistas hoje acreditam que haja qualquer justificativa para a dedução de câmbio.”",
+          "original": "“Few economists today believe that there is any justification for the deduction of exchange”"
+        },
+        {
+          "tipo": "p",
+          "texto": "Para Tippetts, se a remessa tem custo, quem deve arcar com ele é quem emite o cheque, não quem o recebe."
+        },
+        {
+          "tipo": "comentario",
+          "slug": "tippetts-a-controversia-da-remessa-ao-par",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que quer dizer preço uniforme?",
+          "artigo": "ia-1924-12-p649",
+          "credito": "Frank A. Fetter (Princeton University) · “Economics and Portland Cement Prices” · pp. 649–657"
+        },
+        {
+          "tipo": "p",
+          "texto": "Frank A. Fetter, da Princeton University, examina o livro Portland Cement Prices, de H. P. Willis, da Columbia University, e J. R. B. Byers, do College of the City of New York, escrito a pedido de produtores de cimento do Leste. O contexto é o processo antitruste aberto pelo governo em 30 de junho de 1921 contra a Cement Manufacturers Protective Association, decidido contra os réus em tribunal federal de Nova York e em recurso à Suprema Corte. Fetter limita a análise à questão da uniformidade dos preços."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento central é que a expressão “uniformidade de preços” tem ao menos três sentidos, e que o livro passa de um a outro. O primeiro é a estabilidade ao longo do tempo. O segundo é a identidade do preço cobrado por uma usina a todos os compradores no mesmo momento. O terceiro é a igualdade dos preços entregues cobrados por todos os fabricantes aos compradores de cada localidade. Este último, diz Fetter, era o que estava em julgamento, e ele é incompatível com o segundo, salvo se os fretes fossem iguais para todos, como uma tarifa postal."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "5 a 30",
+          "texto": "Número de preços líquidos diferentes que uma mesma usina obtinha num só dia, de cinco ou seis a vinte e cinco ou trinta, segundo depoimento reproduzido no próprio livro. Para Fetter, isso mostra que o preço-base na usina, que os compradores supostamente calculariam, não existia."
+        },
+        {
+          "tipo": "p",
+          "texto": "Fetter examina a analogia dos autores entre uma fábrica de cimento e uma loja de departamentos com preços etiquetados. Para ele, a comparação só valeria se o comprador pudesse ir à usina e comprar pelo preço etiquetado, o que o sistema de ponto de base não permitia. Também contesta o uso de citações de economistas como Mill, Hadley e Jevons sobre o preço único em mercado competitivo: esses autores pressupunham compradores e vendedores reunidos num mesmo lugar e a transferência da propriedade no local da venda."
+        },
+        {
+          "tipo": "p",
+          "texto": "A parte final trata do economista como perito. Fetter considera bom sinal que empresas busquem conselho econômico, mas sustenta que quem aceita o trabalho deve submeter método e conclusões ao exame dos colegas. Termina comparando os fabricantes, que descobririam ser excelentes economistas teóricos sem o saber, ao burguês fidalgo da comédia que falava em prosa sem perceber."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Sobre que base calcular as tarifas dos serviços públicos?",
+          "artigo": "ia-1924-12-p658",
+          "credito": "John Bauer · “Fair Value for Effective Rate Control” · pp. 658–672"
+        },
+        {
+          "tipo": "p",
+          "texto": "John Bauer responde aos comentários do juiz Ransom sobre seu artigo anterior na Review a respeito das decisões da Suprema Corte sobre avaliação de empresas de serviço público. Seu diagnóstico é que, em quase 25 anos, a regulação não se assentou em direitos definidos nem em fatos exatos: as comissões acumulam montanhas de depoimentos sem decidir nada em definitivo, e a regulação virou litígio. O obstáculo principal é a falta de uma base exata para calcular o retorno; desde Smyth v. Ames, de 1898, vale a fórmula vaga do retorno justo sobre o valor justo."
+        },
+        {
+          "tipo": "p",
+          "texto": "A proposta é que as legislaturas fixem a política e o método. Os bens existentes seriam avaliados uma única vez, e o valor ficaria nos livros como base permanente; os investimentos futuros entrariam pelo custo efetivo, sob controle contábil das comissões. A regulação se tornaria um processo quase automático, e a Suprema Corte, acredita o autor, só interferiria em caso de confisco."
+        },
+        {
+          "tipo": "p",
+          "texto": "O ponto de partida seria o investimento líquido: custo original de instalação menos a depreciação. Bauer admite um ajuste ao nível de preços atual, mas só sobre o investimento dos acionistas, talvez de 50%, porque os portadores de títulos recebem juros fixos e não ganhariam com a reavaliação. O custo de reprodução defendido por Ransom exigiria avaliações repetidas e não resistiria a uma fase de preços em queda, quando enfraqueceria as empresas endividadas a preços altos."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "200 mil kW",
+          "texto": "Capacidade das duas usinas do exemplo de Bauer: uma com unidades geradoras de 5 mil a 10 mil kW, de capital alto por kW e operação cara; outra com unidades de 30 mil a 60 mil kW, mais eficientes. Sem dedução por depreciação, a usina antiquada valeria mais por kW que a moderna."
+        },
+        {
+          "tipo": "p",
+          "texto": "A depreciação, para o autor, é parte do custo do serviço: transfere o gasto de capital para a conta de operação, como se faz com o carvão, só que ao longo de mais anos. Bauer contesta a afirmação de Ransom de que a ideia estaria superada e cita grandes empresas industriais, como as companhias Standard Oil e a United States Steel, que depreciam seus ativos com rigor. A base que propõe, conclui, não sai de demonstração técnica: é um arranjo razoável para investidores e público."
+        },
+        {
+          "tipo": "h2",
+          "texto": "Quanto vale uma terra cuja renda sobe todo ano?",
+          "artigo": "ia-1924-12-p673",
+          "credito": "C. R. Chambers (Bureau of Agricultural Economics) · “Relation of Farm Land Income to Farm Land Value” · pp. 673–698"
+        },
+        {
+          "tipo": "p",
+          "texto": "C. R. Chambers, do Bureau of Agricultural Economics, parte de que o elo entre renda e valor da terra é a taxa de capitalização, mas lembra que as rendas agrícolas não foram constantes: subiram sem parar de 1900 a 1920 e caíram desde então. O estudo usa os arrendamentos em dinheiro e os valores da terra de 154.653 fazendas do censo de 1920. A renda em dinheiro paga o uso da terra e da casa; a parceria incluiria também a gestão e os riscos do proprietário."
+        },
+        {
+          "tipo": "p",
+          "texto": "O argumento teórico é que, onde proprietários e arrendatários convivem, o mercado equilibra renda capitalizada e preço de venda: arrendatários podem arrendar ou comprar, proprietários podem arrendar ou vender. O valor depende de três variáveis: a renda atual, o aumento anual esperado dessa renda e a taxa de capitalização, que o autor iguala à taxa de juros das hipotecas. Conhecidos valor, renda e taxa, calcula-se o aumento que compradores e vendedores esperavam."
+        },
+        {
+          "tipo": "p",
+          "texto": "O resultado é que, em 1920, as expectativas projetavam para o futuro o aumento médio das rendas dos sete a dez anos anteriores, período que incluía a guerra. A alta dos preços da terra, conclui o autor, veio menos de especulação, no sentido de comprar para revender, do que do aumento das rendas e de previsões que tomavam esse passado como normal."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "US$ 96",
+          "texto": "Valor médio do acre em Iowa em 1910, quando a renda em dinheiro era de US$ 4,28 e se esperava alta de 7 centavos por ano, o que daria US$ 4,98 em 1920. A renda efetiva chegou a US$ 8,13, e o retorno sobre o investimento de 1910 alcançou 8,5% naquele ano."
+        },
+        {
+          "tipo": "p",
+          "texto": "Chambers sustenta ainda que a taxa de capitalização segue a das hipotecas. Os compradores podem ter motivos não pecuniários, mas os vendedores típicos, agricultores que se aposentam e proprietários que arrendam, comparam a terra com hipotecas agrícolas, que conhecem bem, e vendem quando ela rende menos; basta que poucos o façam para conter o preço. O autor rejeita também a ideia de que a terra seja investimento sem risco."
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“É verdade que as terras não podem fugir, mas seus valores podem, e fogem.”",
+          "original": "“While it is true that farm lands cannot run away, their values can and do.”"
+        },
+        {
+          "tipo": "h2",
+          "texto": "A equação de trocas pode ser medida?",
+          "artigo": "ia-1924-12-p699",
+          "credito": "Carl Snyder (New York City) · “New Measures in the Equation of Exchange” · pp. 699–713"
+        },
+        {
+          "tipo": "p",
+          "texto": "Carl Snyder, de Nova York, que trabalhava com as estatísticas do Federal Reserve Bank of New York, apresenta novas medidas para os quatro termos da equação de trocas: moeda, velocidade, volume do comércio e nível geral de preços. A primeira é um índice do comércio composto de 56 séries, cerca de trinta de produção básica e as demais de distribuição, comércio exterior e atividade financeira. A segunda é a velocidade de giro dos depósitos, medida em oito cidades selecionadas e depois em 141 cidades, comparando cheques debitados com depósitos médios."
+        },
+        {
+          "tipo": "p",
+          "texto": "A descoberta central é que a velocidade de giro não mostra tendência em cinco ou seis anos, justamente o período das variações de preço mais violentas de que há registro, e que suas oscilações de curto prazo acompanham, no tempo e em porcentagem, as do volume de comércio. Como se compensam, não costumam influir no nível de preços. Se a equação vale, conclui Snyder, o nível geral de preços deve acompanhar a quantidade de meios de pagamento, descontado o crescimento normal do comércio."
+        },
+        {
+          "tipo": "p",
+          "texto": "Para testar isso, o autor constrói um índice do nível geral de preços que cobre todos os tipos de pagamento, e não só os preços por atacado, que se afastam muito de salários, aluguéis e tarifas em períodos de grande oscilação. Os débitos bancários fora de Nova York, corrigidos por esse índice, reproduzem o índice de comércio com diferença mensal raramente superior a 4% ou 5%."
+        },
+        {
+          "tipo": "caixa",
+          "valor": "17%",
+          "texto": "Queda aproximada dos depósitos à vista do pico de 1920 ao ponto baixo seguinte, acompanhada de queda de ordem semelhante no nível geral de preços. De 1909 a 1916, os depósitos cresceram cerca de 4,5% ao ano, e os preços quase não subiram."
+        },
+        {
+          "tipo": "p",
+          "texto": "Snyder apresenta as conclusões como provisórias. Elas não resolvem a questão da causalidade nem explicam por que, com reservas enormes, não houve nova inflação nos dois anos anteriores; os outros fatores apontados por Mitchell e Anderson têm efeito, mas de intensidade variável. Ainda assim, ele afirma:"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "“Os movimentos do nível geral de preços já não são um mistério.”",
+          "original": "“the movements of the general price level are no longer a mystery”"
+        },
+        {
+          "tipo": "comentario",
+          "slug": "snyder-novas-medidas-da-equacao-de-trocas",
+          "texto": "Ler o comentário completo"
+        },
+        {
+          "tipo": "h2",
+          "texto": "O que mais há na edição?"
+        },
+        {
+          "tipo": "p",
+          "texto": "As 48 resenhas cobrem quase todas as áreas. Entre elas, F. H. Knight resenha The Economics of Freedom, de Atkins; Frank A. Fetter, The Background of Economics, de Hunter e Watkins; W. McDougall, o livro de Wolfe sobre conservadorismo, radicalismo e método científico; E. A. Goldenweiser, Russian Debts and Russian Reconstruction, de Pasvolsky e Moulton; E. E. Agger, The Reparation Plan, de Moulton; A. H. Hansen, o estudo de Schlüter sobre o ciclo de negócios de 1907 a 1914; O. M. W. Sprague, Monetary Reform, de Keynes; R. T. Ely, Land-Value Policy, de White; A. B. Wolfe, os livros de Reuter e de Cox sobre população; e A. Hewes, o livro de Blanc sobre o cooperativismo na Rússia. A seção de contabilidade e administração reúne dez resenhas, e a de trabalho, cinco, entre elas a de R. F. Foerster sobre Le Lotte del Lavoro, de Einaudi. Seguem-se as listas de livros novos, os resumos de periódicos por área, os documentos, com nota de C. E. Parry sobre o comércio de grãos, e as notas."
+        },
+        {
+          "tipo": "leitura",
+          "texto": [
+            "Na minha leitura, os cinco artigos tratam da mesma questão de método: a escolha da base de medida antecede a conclusão. Na remessa ao par, a disputa é sobre quem arca com um custo de transferência que a nova tecnologia de cobrança tornou pequeno. Em Bauer, a escolha entre custo original e custo de reprodução decide a remuneração do capital e, com ela, a estabilidade da regulação. Em Fetter, três sentidos de uniformidade de preço levam a conclusões opostas sobre o mesmo mercado.",
+            "Chambers e Snyder aplicam o mesmo cuidado a variáveis que não se observam diretamente. Chambers deduz as expectativas dos compradores de terra a partir de valores, rendas e juros, e encontra uma extrapolação do passado recente. Snyder mede a velocidade da moeda e um nível de preços mais amplo que o índice por atacado, e é a escolha dessas medidas que lhe permite dizer que a equação de trocas se verifica. Em ambos, a teoria só ganha teste quando a medida é construída com a pergunta em mente."
+          ]
+        }
+      ],
+      "glossario": [
+        [
+          "Remessa ao par",
+          "pagamento de um cheque pelo banco sacado pelo valor de face, sem desconto de taxa."
+        ],
+        [
+          "Taxa de câmbio (exchange charge)",
+          "desconto cobrado pelo banco sacado ao remeter o valor de um cheque a outra praça."
+        ],
+        [
+          "Disponibilidade diferida",
+          "regra pela qual o cheque depositado num banco de reserva só vira saldo utilizável após alguns dias."
+        ],
+        [
+          "Valor justo (fair value)",
+          "base sobre a qual a jurisprudência americana mandava calcular o retorno das empresas de serviço público."
+        ],
+        [
+          "Custo de reprodução",
+          "quanto custaria construir hoje os mesmos bens, em vez do custo original efetivamente investido."
+        ],
+        [
+          "Taxa de capitalização",
+          "taxa pela qual a renda esperada de um bem é convertida em seu valor presente."
+        ],
+        [
+          "Equação de trocas",
+          "identidade MV = PT, em que moeda vezes velocidade iguala preços vezes volume de transações."
+        ],
+        [
+          "Velocidade de giro dos depósitos",
+          "razão entre os cheques debitados e os depósitos médios num período."
+        ]
+      ],
+      "hoje": "A remessa ao par tornou-se norma dos sistemas de pagamento, e a pergunta sobre quem paga o custo de transferir dinheiro reaparece nas tarifas de cartões e de pagamentos eletrônicos. A escolha entre custo histórico e custo de reposição na base de remuneração das concessionárias continua no centro da regulação tarifária. E a extrapolação de rendas passadas no preço de ativos, que Chambers mediu na terra agrícola, segue presente no estudo dos ciclos imobiliários, assim como a estabilidade da velocidade da moeda volta ao debate a cada mudança de regime monetário.",
+      "itens": [
+        [
+          "The Par Remittance Controversy",
+          "pp. 629–648",
+          "ia-1924-12-p629"
+        ],
+        [
+          "Economics and Portland Cement Prices",
+          "pp. 649–657",
+          "ia-1924-12-p649"
+        ],
+        [
+          "Fair Value for Effective Rate Control",
+          "pp. 658–672",
+          "ia-1924-12-p658"
+        ],
+        [
+          "Relation of Farm Land Income to Farm Land Value",
+          "pp. 673–698",
+          "ia-1924-12-p673"
+        ],
+        [
+          "New Measures in the Equation of Exchange",
+          "pp. 699–713",
+          "ia-1924-12-p699"
+        ],
+        [
+          "Review: Conservatism, Radicalism and Scientific Method by Wolfe",
+          "p. 714",
+          "ia-1924-12-p714"
+        ],
+        [
+          "Review: The Economics of Freedom by Atkins",
+          "p. 718",
+          "ia-1924-12-p718"
+        ],
+        [
+          "Review: Principles of Sociology by Bushee",
+          "p. 719",
+          "ia-1924-12-p719"
+        ],
+        [
+          "Review: Plain Talks on Economics by Franklin",
+          "p. 720",
+          "ia-1924-12-p720"
+        ],
+        [
+          "Review: Principles of Political Economy (23d edition) by Gide",
+          "p. 721",
+          "ia-1924-12-p721"
+        ],
+        [
+          "Review: The Background of Economics by Hunter e Watkins",
+          "p. 722",
+          "ia-1924-12-p722"
+        ],
+        [
+          "Review: Economics and Ethics by Marriott",
+          "p. 722",
+          "ia-1924-12-x1"
+        ],
+        [
+          "Review: Economics for Secondary Schools by Riley",
+          "p. 723",
+          "ia-1924-12-p723"
+        ],
+        [
+          "New Books: General Works, Theory and Its History",
+          "p. 718",
+          "ia-1924-12-x2"
+        ],
+        [
+          "Review: Russian Debts and Russian Reconstruction by Pasvolsky e Moulton",
+          "p. 724",
+          "ia-1924-12-p724"
+        ],
+        [
+          "Review: American Government and Politics by Beard",
+          "p. 727",
+          "ia-1924-12-p727"
+        ],
+        [
+          "Review: English Society in the Eighteenth Century by Botsford",
+          "p. 728",
+          "ia-1924-12-p728"
+        ],
+        [
+          "Review: The Evolution of French Canada by Bracq",
+          "p. 728",
+          "ia-1924-12-x3"
+        ],
+        [
+          "Review: La Politica Economica e Finanziaria del Governo Fascista by Gangemi",
+          "p. 729",
+          "ia-1924-12-p729"
+        ],
+        [
+          "Review: The Reparation Plan by Moulton",
+          "p. 730",
+          "ia-1924-12-p730"
+        ],
+        [
+          "Review: Alaska by Nichols",
+          "p. 731",
+          "ia-1924-12-p731"
+        ],
+        [
+          "Review: The Industrial Worker, 1840–60 by Ware",
+          "p. 732",
+          "ia-1924-12-p732"
+        ],
+        [
+          "Review: Gesammelte Aufsätze zur Sozial- und Wirtschaftsgeschichte by Weber",
+          "p. 733",
+          "ia-1924-12-p733"
+        ],
+        [
+          "Review: Economic Geography by Whitbeck e Finch",
+          "p. 734",
+          "ia-1924-12-p734"
+        ],
+        [
+          "Review: Politique Parlementaire et Politique Atavique by Yves-Guyot",
+          "p. 735",
+          "ia-1924-12-p735"
+        ],
+        [
+          "New Books: Economic History and Geography",
+          "p. 727",
+          "ia-1924-12-x4"
+        ],
+        [
+          "Review: Rural Texas by Bizzell",
+          "p. 736",
+          "ia-1924-12-p736"
+        ],
+        [
+          "Review: Marketing Northwestern Apples by Maynard",
+          "p. 737",
+          "ia-1924-12-p737"
+        ],
+        [
+          "New Books: Agriculture, Mining, Forestry, and Fisheries",
+          "",
+          "ia-1924-12-x5"
+        ],
+        [
+          "New Books: Manufacturing Industries",
+          "p. 739",
+          "ia-1924-12-p739"
+        ],
+        [
+          "Review: History of the Union Pacific by Trottman",
+          "p. 740",
+          "ia-1924-12-p740"
+        ],
+        [
+          "New Books: Transportation and Communication",
+          "p. 739",
+          "ia-1924-12-x6"
+        ],
+        [
+          "Review: Principles of Foreign Trade by Griffin",
+          "p. 741",
+          "ia-1924-12-p741"
+        ],
+        [
+          "Review: The Key to National Prosperity by Nahoum",
+          "p. 742",
+          "ia-1924-12-p742"
+        ],
+        [
+          "Review: Pre-war Business Cycle, 1907 to 1914 by Schlüter",
+          "p. 742",
+          "ia-1924-12-x7"
+        ],
+        [
+          "New Books: Trade, Commerce, and Commercial Crises",
+          "p. 741",
+          "ia-1924-12-x8"
+        ],
+        [
+          "Review: The Balance Sheet by Couchman",
+          "p. 744",
+          "ia-1924-12-p744"
+        ],
+        [
+          "Review: Factory Management; Industrial Management by Dutton; Lansburgh",
+          "p. 746",
+          "ia-1924-12-p746"
+        ],
+        [
+          "Review: Textbook of Industrial Cost Accounting by Atkins",
+          "p. 748",
+          "ia-1924-12-p748"
+        ],
+        [
+          "Review: Credits and Collections by Beckman",
+          "p. 750",
+          "ia-1924-12-p750"
+        ],
+        [
+          "Review: Equipment Obligations by Duncan",
+          "p. 752",
+          "ia-1924-12-p752"
+        ],
+        [
+          "Review: Fundamentals of Vocational Psychology by Griffitts",
+          "p. 753",
+          "ia-1924-12-p753"
+        ],
+        [
+          "Review: Psychological Tests in Business by Kornhauser e Kingsbury",
+          "p. 754",
+          "ia-1924-12-p754"
+        ],
+        [
+          "Review: Management by Lee",
+          "p. 754",
+          "ia-1924-12-x9"
+        ],
+        [
+          "Review: Elements of Cost Accounting by Manning",
+          "p. 756",
+          "ia-1924-12-p756"
+        ],
+        [
+          "Review: Course in Personnel Administration by Tead",
+          "p. 757",
+          "ia-1924-12-p757"
+        ],
+        [
+          "New Books: Accounting, Business Methods, Investments, and the Exchanges",
+          "",
+          "ia-1924-12-x10"
+        ],
+        [
+          "New Books: Capital and Capitalistic Organization",
+          "p. 761",
+          "ia-1924-12-p761"
+        ],
+        [
+          "Review: The Control of Industry by Robertson",
+          "p. 762",
+          "ia-1924-12-p762"
+        ],
+        [
+          "Review: The United States Employment Service by Smith",
+          "p. 764",
+          "ia-1924-12-p764"
+        ],
+        [
+          "Review: Le Lotte del Lavoro by Einaudi",
+          "p. 766",
+          "ia-1924-12-p766"
+        ],
+        [
+          "Review: Rebellion in Labor Unions by Kopald",
+          "p. 767",
+          "ia-1924-12-p767"
+        ],
+        [
+          "Review: The Sailors' Union of the Pacific by Taylor",
+          "p. 768",
+          "ia-1924-12-p768"
+        ],
+        [
+          "New Books: Labor and Labor Organizations",
+          "p. 767",
+          "ia-1924-12-x11"
+        ],
+        [
+          "Review: Monetary Reform by Keynes",
+          "p. 770",
+          "ia-1924-12-p770"
+        ],
+        [
+          "Review: Paper Money in Maryland, 1727–1789 by Behrens",
+          "p. 772",
+          "ia-1924-12-p772"
+        ],
+        [
+          "Review: La Question du Change en Belgique by Chlepner",
+          "p. 772",
+          "ia-1924-12-x12"
+        ],
+        [
+          "New Books: Money, Prices, Credit, and Banking",
+          "p. 772",
+          "ia-1924-12-x13"
+        ],
+        [
+          "New Books: Public Finance, Taxation, and Tariff",
+          "p. 775",
+          "ia-1924-12-p775"
+        ],
+        [
+          "Review: Land-Value Policy by White",
+          "p. 776",
+          "ia-1924-12-p776"
+        ],
+        [
+          "Review: Population Problems; The Problem of Population by Reuter; Cox",
+          "p. 778",
+          "ia-1924-12-p778"
+        ],
+        [
+          "New Books: Population and Migration",
+          "p. 780",
+          "ia-1924-12-p780"
+        ],
+        [
+          "Review: The Common Weal by Fisher",
+          "p. 781",
+          "ia-1924-12-p781"
+        ],
+        [
+          "Review: The Intellectual Worker and His Work by MacDonald",
+          "p. 783",
+          "ia-1924-12-p783"
+        ],
+        [
+          "New Books: Social Problems and Reforms",
+          "p. 781",
+          "ia-1924-12-x14"
+        ],
+        [
+          "New Books: Insurance and Pensions",
+          "p. 785",
+          "ia-1924-12-p785"
+        ],
+        [
+          "New Books: Pauperism, Charities, and Relief Measures",
+          "p. 786",
+          "ia-1924-12-p786"
+        ],
+        [
+          "Review: Coöperative Movement in Russia by Blanc",
+          "p. 787",
+          "ia-1924-12-p787"
+        ],
+        [
+          "New Books: Socialism and Co-operative Enterprises",
+          "p. 787",
+          "ia-1924-12-x15"
+        ],
+        [
+          "New Books: Statistics and Its Methods",
+          "",
+          "ia-1924-12-x16"
+        ],
+        [
+          "Periodicals",
+          "pp. 790–816",
+          "ia-1924-12-p790"
+        ],
+        [
+          "Documents, Reports, and Legislation",
+          "pp. 817–823",
+          "ia-1924-12-p817"
+        ],
+        [
+          "Documents, Reports, and Legislation: Grain Trading",
+          "p. 817",
+          "ia-1924-12-x17"
+        ],
+        [
+          "Notes",
+          "pp. 824–836",
+          "ia-1924-12-p824"
+        ]
+      ],
+      "jstor_edicao": "",
+      "archive_id": "sim_american-economic-review_1924-12_14_4",
+      "artigos": [
+        {
+          "titulo": "The Par Remittance Controversy",
+          "autores": "Charles S. Tippetts (State University of Iowa)",
+          "paginas": "pp. 629–648",
+          "jstor": "ia-1924-12-p629",
+          "resumo": "História da campanha dos bancos de reserva pela remessa de cheques ao par, da resistência dos bancos não membros e das decisões da Suprema Corte.",
+          "ensaio_slug": "tippetts-a-controversia-da-remessa-ao-par"
+        },
+        {
+          "titulo": "Economics and Portland Cement Prices",
+          "autores": "Frank A. Fetter (Princeton University)",
+          "paginas": "pp. 649–657",
+          "jstor": "ia-1924-12-p649",
+          "resumo": "Crítica ao livro de Willis e Byers sobre os preços do cimento, centrada nos sentidos de uniformidade de preço."
+        },
+        {
+          "titulo": "Fair Value for Effective Rate Control",
+          "autores": "John Bauer",
+          "paginas": "pp. 658–672",
+          "jstor": "ia-1924-12-p658",
+          "resumo": "Resposta ao juiz Ransom e proposta de base tarifária fixa pelo investimento líquido, com ajuste parcial do capital dos acionistas."
+        },
+        {
+          "titulo": "Relation of Farm Land Income to Farm Land Value",
+          "autores": "C. R. Chambers (Bureau of Agricultural Economics)",
+          "paginas": "pp. 673–698",
+          "jstor": "ia-1924-12-p673",
+          "resumo": "Estudo estatístico de como renda atual, aumento esperado e taxa de juros das hipotecas determinam o valor da terra agrícola."
+        },
+        {
+          "titulo": "New Measures in the Equation of Exchange",
+          "autores": "Carl Snyder (New York City)",
+          "paginas": "pp. 699–713",
+          "jstor": "ia-1924-12-p699",
+          "resumo": "Teste da equação de trocas com novos índices de comércio, de giro dos depósitos e de nível geral de preços.",
+          "ensaio_slug": "snyder-novas-medidas-da-equacao-de-trocas"
+        },
+        {
+          "titulo": "Wolfe, Conservatism, Radicalism and Scientific Method",
+          "autores": "W. McDougall",
+          "paginas": "p. 714",
+          "jstor": "ia-1924-12-p714",
+          "resumo": "Resenha de W. McDougall."
+        },
+        {
+          "titulo": "Atkins, The Economics of Freedom",
+          "autores": "F. H. Knight",
+          "paginas": "p. 718",
+          "jstor": "ia-1924-12-p718",
+          "resumo": "Resenha de F. H. Knight."
+        },
+        {
+          "titulo": "Bushee, Principles of Sociology",
+          "autores": "A. B. Wolfe",
+          "paginas": "p. 719",
+          "jstor": "ia-1924-12-p719",
+          "resumo": "Resenha de A. B. Wolfe."
+        },
+        {
+          "titulo": "Franklin, Plain Talks on Economics",
+          "autores": "J. E. Le Rossignol",
+          "paginas": "p. 720",
+          "jstor": "ia-1924-12-p720",
+          "resumo": "Resenha de J. E. Le Rossignol."
+        },
+        {
+          "titulo": "Gide, Principles of Political Economy (23d edition)",
+          "autores": "J. Ise",
+          "paginas": "p. 721",
+          "jstor": "ia-1924-12-p721",
+          "resumo": "Resenha de J. Ise."
+        },
+        {
+          "titulo": "Hunter e Watkins, The Background of Economics",
+          "autores": "F. A. Fetter",
+          "paginas": "p. 722",
+          "jstor": "ia-1924-12-p722",
+          "resumo": "Resenha de F. A. Fetter."
+        },
+        {
+          "titulo": "Marriott, Economics and Ethics",
+          "autores": "A. B. Wolfe",
+          "paginas": "p. 722",
+          "jstor": "ia-1924-12-x1",
+          "resumo": "Resenha de A. B. Wolfe."
+        },
+        {
+          "titulo": "Riley, Economics for Secondary Schools",
+          "autores": "J. I.",
+          "paginas": "p. 723",
+          "jstor": "ia-1924-12-p723",
+          "resumo": "Resenha de J. I.."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 718",
+          "jstor": "ia-1924-12-x2",
+          "resumo": "Lista de livros novos, com notas breves, sobre obras gerais, teoria e sua história."
+        },
+        {
+          "titulo": "Pasvolsky e Moulton, Russian Debts and Russian Reconstruction",
+          "autores": "E. A. Goldenweiser",
+          "paginas": "p. 724",
+          "jstor": "ia-1924-12-p724",
+          "resumo": "Resenha de E. A. Goldenweiser."
+        },
+        {
+          "titulo": "Beard, American Government and Politics",
+          "autores": "A. P. Usher",
+          "paginas": "p. 727",
+          "jstor": "ia-1924-12-p727",
+          "resumo": "Resenha de A. P. Usher."
+        },
+        {
+          "titulo": "Botsford, English Society in the Eighteenth Century",
+          "autores": "A. P. Usher",
+          "paginas": "p. 728",
+          "jstor": "ia-1924-12-p728",
+          "resumo": "Resenha de A. P. Usher."
+        },
+        {
+          "titulo": "Bracq, The Evolution of French Canada",
+          "autores": "A. P. U.",
+          "paginas": "p. 728",
+          "jstor": "ia-1924-12-x3",
+          "resumo": "Resenha de A. P. U.."
+        },
+        {
+          "titulo": "Gangemi, La Politica Economica e Finanziaria del Governo Fascista",
+          "autores": "R. R. Whitehead",
+          "paginas": "p. 729",
+          "jstor": "ia-1924-12-p729",
+          "resumo": "Resenha de R. R. Whitehead."
+        },
+        {
+          "titulo": "Moulton, The Reparation Plan",
+          "autores": "E. E. Agger",
+          "paginas": "p. 730",
+          "jstor": "ia-1924-12-p730",
+          "resumo": "Resenha de E. E. Agger."
+        },
+        {
+          "titulo": "Nichols, Alaska",
+          "autores": "I. Lippincott",
+          "paginas": "p. 731",
+          "jstor": "ia-1924-12-p731",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "Ware, The Industrial Worker, 1840–60",
+          "autores": "I. Lippincott",
+          "paginas": "p. 732",
+          "jstor": "ia-1924-12-p732",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "Weber, Gesammelte Aufsätze zur Sozial- und Wirtschaftsgeschichte",
+          "autores": "R. R. W.",
+          "paginas": "p. 733",
+          "jstor": "ia-1924-12-p733",
+          "resumo": "Resenha de R. R. W.."
+        },
+        {
+          "titulo": "Whitbeck e Finch, Economic Geography",
+          "autores": "A. L. Bishop",
+          "paginas": "p. 734",
+          "jstor": "ia-1924-12-p734",
+          "resumo": "Resenha de A. L. Bishop."
+        },
+        {
+          "titulo": "Yves-Guyot, Politique Parlementaire et Politique Atavique",
+          "autores": "R. R. W.",
+          "paginas": "p. 735",
+          "jstor": "ia-1924-12-p735",
+          "resumo": "Resenha de R. R. W.."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 727",
+          "jstor": "ia-1924-12-x4",
+          "resumo": "Lista de livros novos, com notas breves, sobre história e geografia econômica."
+        },
+        {
+          "titulo": "Bizzell, Rural Texas",
+          "autores": "I. Lippincott",
+          "paginas": "p. 736",
+          "jstor": "ia-1924-12-p736",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "Maynard, Marketing Northwestern Apples",
+          "autores": "",
+          "paginas": "p. 737",
+          "jstor": "ia-1924-12-p737",
+          "resumo": "Resenha."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-12-x5",
+          "resumo": "Lista de livros novos, com notas breves, sobre agricultura, mineração, silvicultura e pesca."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 739",
+          "jstor": "ia-1924-12-p739",
+          "resumo": "Lista de livros novos, com notas breves, sobre indústrias manufatureiras."
+        },
+        {
+          "titulo": "Trottman, History of the Union Pacific",
+          "autores": "I. Lippincott",
+          "paginas": "p. 740",
+          "jstor": "ia-1924-12-p740",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 739",
+          "jstor": "ia-1924-12-x6",
+          "resumo": "Lista de livros novos, com notas breves, sobre transporte e comunicação."
+        },
+        {
+          "titulo": "Griffin, Principles of Foreign Trade",
+          "autores": "H. R. Tosdal",
+          "paginas": "p. 741",
+          "jstor": "ia-1924-12-p741",
+          "resumo": "Resenha de H. R. Tosdal."
+        },
+        {
+          "titulo": "Nahoum, The Key to National Prosperity",
+          "autores": "H. R. T.",
+          "paginas": "p. 742",
+          "jstor": "ia-1924-12-p742",
+          "resumo": "Resenha de H. R. T.."
+        },
+        {
+          "titulo": "Schlüter, Pre-war Business Cycle, 1907 to 1914",
+          "autores": "A. H. Hansen",
+          "paginas": "p. 742",
+          "jstor": "ia-1924-12-x7",
+          "resumo": "Resenha de A. H. Hansen."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 741",
+          "jstor": "ia-1924-12-x8",
+          "resumo": "Lista de livros novos, com notas breves, sobre comércio e crises comerciais."
+        },
+        {
+          "titulo": "Couchman, The Balance Sheet",
+          "autores": "J. P. Adams",
+          "paginas": "p. 744",
+          "jstor": "ia-1924-12-p744",
+          "resumo": "Resenha de J. P. Adams."
+        },
+        {
+          "titulo": "Dutton; Lansburgh, Factory Management; Industrial Management",
+          "autores": "S. Bell",
+          "paginas": "p. 746",
+          "jstor": "ia-1924-12-p746",
+          "resumo": "Resenha de S. Bell."
+        },
+        {
+          "titulo": "Atkins, Textbook of Industrial Cost Accounting",
+          "autores": "J. P. Adams",
+          "paginas": "p. 748",
+          "jstor": "ia-1924-12-p748",
+          "resumo": "Resenha de J. P. Adams."
+        },
+        {
+          "titulo": "Beckman, Credits and Collections",
+          "autores": "C. Almy, Jr.",
+          "paginas": "p. 750",
+          "jstor": "ia-1924-12-p750",
+          "resumo": "Resenha de C. Almy, Jr.."
+        },
+        {
+          "titulo": "Duncan, Equipment Obligations",
+          "autores": "A. S. Dewing",
+          "paginas": "p. 752",
+          "jstor": "ia-1924-12-p752",
+          "resumo": "Resenha de A. S. Dewing."
+        },
+        {
+          "titulo": "Griffitts, Fundamentals of Vocational Psychology",
+          "autores": "C. L. Stone",
+          "paginas": "p. 753",
+          "jstor": "ia-1924-12-p753",
+          "resumo": "Resenha de C. L. Stone."
+        },
+        {
+          "titulo": "Kornhauser e Kingsbury, Psychological Tests in Business",
+          "autores": "C. L. Stone",
+          "paginas": "p. 754",
+          "jstor": "ia-1924-12-p754",
+          "resumo": "Resenha de C. L. Stone."
+        },
+        {
+          "titulo": "Lee, Management",
+          "autores": "H. B. Hastings",
+          "paginas": "p. 754",
+          "jstor": "ia-1924-12-x9",
+          "resumo": "Resenha de H. B. Hastings."
+        },
+        {
+          "titulo": "Manning, Elements of Cost Accounting",
+          "autores": "A. W. Hanson",
+          "paginas": "p. 756",
+          "jstor": "ia-1924-12-p756",
+          "resumo": "Resenha de A. W. Hanson."
+        },
+        {
+          "titulo": "Tead, Course in Personnel Administration",
+          "autores": "H. B. Hastings",
+          "paginas": "p. 757",
+          "jstor": "ia-1924-12-p757",
+          "resumo": "Resenha de H. B. Hastings."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-12-x10",
+          "resumo": "Lista de livros novos, com notas breves, sobre contabilidade, métodos de negócio, investimentos e bolsas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 761",
+          "jstor": "ia-1924-12-p761",
+          "resumo": "Lista de livros novos, com notas breves, sobre capital e organização capitalista."
+        },
+        {
+          "titulo": "Robertson, The Control of Industry",
+          "autores": "W. Orton (Smith College)",
+          "paginas": "p. 762",
+          "jstor": "ia-1924-12-p762",
+          "resumo": "Resenha de W. Orton (Smith College)."
+        },
+        {
+          "titulo": "Smith, The United States Employment Service",
+          "autores": "E. E. Witte",
+          "paginas": "p. 764",
+          "jstor": "ia-1924-12-p764",
+          "resumo": "Resenha de E. E. Witte."
+        },
+        {
+          "titulo": "Einaudi, Le Lotte del Lavoro",
+          "autores": "R. F. Foerster (Princeton University)",
+          "paginas": "p. 766",
+          "jstor": "ia-1924-12-p766",
+          "resumo": "Resenha de R. F. Foerster (Princeton University)."
+        },
+        {
+          "titulo": "Kopald, Rebellion in Labor Unions",
+          "autores": "G. M. Janes",
+          "paginas": "p. 767",
+          "jstor": "ia-1924-12-p767",
+          "resumo": "Resenha de G. M. Janes."
+        },
+        {
+          "titulo": "Taylor, The Sailors' Union of the Pacific",
+          "autores": "D. A. McCabe",
+          "paginas": "p. 768",
+          "jstor": "ia-1924-12-p768",
+          "resumo": "Resenha de D. A. McCabe."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 767",
+          "jstor": "ia-1924-12-x11",
+          "resumo": "Lista de livros novos, com notas breves, sobre trabalho e organizações de trabalhadores."
+        },
+        {
+          "titulo": "Keynes, Monetary Reform",
+          "autores": "O. M. W. Sprague (Harvard University)",
+          "paginas": "p. 770",
+          "jstor": "ia-1924-12-p770",
+          "resumo": "Resenha de O. M. W. Sprague (Harvard University)."
+        },
+        {
+          "titulo": "Behrens, Paper Money in Maryland, 1727–1789",
+          "autores": "I. Lippincott",
+          "paginas": "p. 772",
+          "jstor": "ia-1924-12-p772",
+          "resumo": "Resenha de I. Lippincott."
+        },
+        {
+          "titulo": "Chlepner, La Question du Change en Belgique",
+          "autores": "M. Nadler",
+          "paginas": "p. 772",
+          "jstor": "ia-1924-12-x12",
+          "resumo": "Resenha de M. Nadler."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 772",
+          "jstor": "ia-1924-12-x13",
+          "resumo": "Lista de livros novos, com notas breves, sobre moeda, preços, crédito e bancos."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 775",
+          "jstor": "ia-1924-12-p775",
+          "resumo": "Lista de livros novos, com notas breves, sobre finanças públicas, tributação e tarifa."
+        },
+        {
+          "titulo": "White, Land-Value Policy",
+          "autores": "R. T. Ely",
+          "paginas": "p. 776",
+          "jstor": "ia-1924-12-p776",
+          "resumo": "Resenha de R. T. Ely."
+        },
+        {
+          "titulo": "Reuter; Cox, Population Problems; The Problem of Population",
+          "autores": "A. B. Wolfe",
+          "paginas": "p. 778",
+          "jstor": "ia-1924-12-p778",
+          "resumo": "Resenha de A. B. Wolfe."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 780",
+          "jstor": "ia-1924-12-p780",
+          "resumo": "Lista de livros novos, com notas breves, sobre população e migração."
+        },
+        {
+          "titulo": "Fisher, The Common Weal",
+          "autores": "J. G. Brooks",
+          "paginas": "p. 781",
+          "jstor": "ia-1924-12-p781",
+          "resumo": "Resenha de J. G. Brooks."
+        },
+        {
+          "titulo": "MacDonald, The Intellectual Worker and His Work",
+          "autores": "Z. C. Dickinson",
+          "paginas": "p. 783",
+          "jstor": "ia-1924-12-p783",
+          "resumo": "Resenha de Z. C. Dickinson."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 781",
+          "jstor": "ia-1924-12-x14",
+          "resumo": "Lista de livros novos, com notas breves, sobre problemas sociais e reformas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 785",
+          "jstor": "ia-1924-12-p785",
+          "resumo": "Lista de livros novos, com notas breves, sobre seguros e pensões."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 786",
+          "jstor": "ia-1924-12-p786",
+          "resumo": "Lista de livros novos, com notas breves, sobre pauperismo, caridade e assistência."
+        },
+        {
+          "titulo": "Blanc, Coöperative Movement in Russia",
+          "autores": "A. Hewes",
+          "paginas": "p. 787",
+          "jstor": "ia-1924-12-p787",
+          "resumo": "Resenha de A. Hewes."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "p. 787",
+          "jstor": "ia-1924-12-x15",
+          "resumo": "Lista de livros novos, com notas breves, sobre socialismo e cooperativas."
+        },
+        {
+          "titulo": "New Books",
+          "autores": "",
+          "paginas": "",
+          "jstor": "ia-1924-12-x16",
+          "resumo": "Lista de livros novos, com notas breves, sobre estatística e seus métodos."
+        },
+        {
+          "titulo": "Periodicals",
+          "autores": "",
+          "paginas": "pp. 790–816",
+          "jstor": "ia-1924-12-p790",
+          "resumo": "Resumos de artigos de periódicos, organizados por área e por resenhista."
+        },
+        {
+          "titulo": "Documents, Reports, and Legislation",
+          "autores": "",
+          "paginas": "pp. 817–823",
+          "jstor": "ia-1924-12-p817",
+          "resumo": "Documentos, relatórios e legislação, por área."
+        },
+        {
+          "titulo": "Grain Trading",
+          "autores": "C. E. Parry",
+          "paginas": "p. 817",
+          "jstor": "ia-1924-12-x17",
+          "resumo": "Nota sobre o comércio de grãos."
+        },
+        {
+          "titulo": "Notes",
+          "autores": "",
+          "paginas": "pp. 824–836",
+          "jstor": "ia-1924-12-p824",
+          "resumo": "Notícias, nomeações e transferências de professores."
+        }
+      ],
+      "comentarios": [
+        {
+          "slug": "tippetts-a-controversia-da-remessa-ao-par",
+          "titulo": "Tippetts e a remessa ao par: a disputa pelos dez centavos de cada cheque",
+          "titulo_original": "The Par Remittance Controversy",
+          "autores": "Charles S. Tippetts (State University of Iowa)",
+          "paginas": "pp. 629–648",
+          "jstor": "ia-1924-12-p629",
+          "chamada": "Charles S. Tippetts reconstitui a campanha dos bancos de reserva pela cobrança de cheques sem desconto, a resistência dos bancos que viviam da taxa de câmbio e as decisões da Suprema Corte que mudaram o rumo.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Antes do Federal Reserve, conta Charles S. Tippetts, da State University of Iowa, um depositante de Wisconsin que pagasse um comerciante de Chicago com um cheque de US$ 100 punha em marcha uma pequena cadeia. O comerciante depositava o cheque num banco de Chicago, que o mandava ao banco de Wisconsin. Este não pagava US$ 100: remetia um saque sobre seu correspondente em Chicago de US$ 99,90. A diferença era a taxa de câmbio. Como o banco de Wisconsin mantinha ali uma conta e o correspondente cobrava ao par os cheques dele sobre outros bancos, o correspondente engolia o desconto, ou o repassava ao comerciante, que o embutia nos preços. É esse o peso sobre o comércio a que se refere quem fala em taxas de câmbio."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que é remessa ao par?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Tippetts prefere “remessa ao par” a “compensação ao par”, porque os bancos de reserva não compensam cheques; a disputa é sobre a forma de remeter. A taxa era resquício do tempo em que mandar dinheiro em espécie custava caro. Quando os bancos de reserva tomaram dos correspondentes urbanos o papel de cobradores de cheques, a questão mudou de escala: se pudessem aceitar o desconto, teriam de repassá-lo aos depositantes; mas a emenda Hardwick, de 21 de junho de 1917, determinou que nenhuma taxa fosse cobrada contra eles. A tentativa de tornar os bancos de reserva cobradores de praticamente todos os cheques de fora da praça eliminava, em bloco, uma fonte de lucro de muitos bancos, sobretudo dos não membros."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o sistema foi construído?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A lei do Federal Reserve lançou as bases nas seções 13 e 16. O primeiro passo veio dos bancos de reserva de Kansas City e St. Louis, que pediram ao Board permissão para exigir dos bancos de seus distritos a remessa ao par. Um sistema voluntário para todos os membros, de junho de 1915, teve adesão de cerca de um quarto deles. Em julho de 1916, a remessa ao par tornou-se obrigatória para os membros, apesar da ameaça de muitos bancos nacionais do interior de trocar de licença, que não se cumpriu. Uma tarifa por item, cobrada no início pela cobrança, foi abolida em 15 de julho de 1918. A emenda de 7 de setembro de 1916 permitiu receber cheques sobre não membros, desde que pagáveis à apresentação; no fim daquele ano, cerca de 8 mil não membros remetiam ao par, e o total chegava a uns 15 mil bancos."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "19.188",
+              "texto": "Bancos não membros que remetiam ao par em 15 de novembro de 1920, o máximo da série. Em 15 de janeiro de 1921, só 1.705 bancos no país recusavam a remessa ao par; em agosto de 1924, eram cerca de 3.300, e o autor esperava novas saídas."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como os bancos de reserva pressionaram?"
+            },
+            {
+              "tipo": "p",
+              "texto": "No fim de 1917, cerca de 17 mil bancos remetiam ao par; em 1918 vieram mais dois mil. Uma conferência de agentes do Federal Reserve, em dezembro de 1918, decidiu ampliar a lista, na convicção de que, enquanto cerca de 10 mil bancos recusassem a remessa ao par, o país não teria um sistema universal. Os bancos que cobravam a taxa também se beneficiavam, por meio dos correspondentes, da cobrança ao par dos cheques sobre os outros. O método foi persuadir os bancos estado por estado e, quando restavam poucos, anunciar a data em que todos entrariam na lista. Os cheques sobre os recalcitrantes passavam a ser apresentados no balcão, exigindo-se dinheiro, por empresas de transporte, temporariamente até pelo correio, por bancos membros da cidade ou por funcionários dos próprios bancos de reserva, em viagens longas e caras."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como o Sul reagiu?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Quando a pressão chegou aos bancos do Sul, formou-se em Atlanta uma associação de bancos nacionais e estaduais para defender a taxa. A partir do Mississippi, legislaturas como as da Louisiana, Dakota do Sul, Geórgia, Carolina do Norte, Tennessee e Flórida autorizaram os bancos a descontar a taxa dos cheques apresentados por agentes dos bancos de reserva, e a maioria proibiu protestar cheques por recusa de pagamento integral."
+            },
+            {
+              "tipo": "p",
+              "texto": "No caso de Atlanta, bancos da Geórgia acusaram o banco de reserva de acumular cheques para apresentá-los de uma vez no balcão. Em 16 de maio de 1921, a Suprema Corte, pelo juiz Brandeis, afirmou que nenhum direito é absoluto e mandou julgar os fatos. No julgamento, o banco de reserva aceitou receber saques sobre correspondentes em vez de dinheiro, e não se provou intenção de oprimir. A decisão foi confirmada em 2 de novembro de 1922 e pela Suprema Corte em 11 de junho de 1923: o banco de reserva pode apresentar o cheque no balcão como qualquer banco, e o prejuízo dos bancos é o da concorrência legítima."
+            },
+            {
+              "tipo": "p",
+              "texto": "O caso da Carolina do Norte tratava de outra questão. Uma lei estadual de 5 de fevereiro de 1921 permitia aos bancos pagar com saques os cheques apresentados por agentes do banco de reserva de Richmond, que os devolvia como não pagos. Cerca de 270 bancos aderiram à ação; a Suprema Corte estadual, em maio de 1922, derrubou a lei por unanimidade. A Suprema Corte federal, em 11 de junho de 1923, reformou a decisão e manteve a lei: o pagamento com saque presume o consentimento do portador; a regra é exercício do poder de polícia; e a lei do Federal Reserve não obriga os bancos de reserva a cobrar cheques de quem recusa a remessa ao par, nem a constituir um sistema universal."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mudou depois de 1923?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O Federal Reserve Board revisou suas regras. Os bancos de reserva deixariam de receber cheques sobre não membros que recusassem a remessa ao par, e cobrariam 0,1%, com mínimo de 10 centavos por item, pelos cheques emitidos ou endossados por esses bancos. A segunda medida foi adiada após protestos. Em 1º de agosto de 1923, Charles DeB. Claiborne, de New Orleans, e L. R. Adams, de Atlanta, propuseram que os bancos de reserva recebessem esses cheques como meros agentes, permitindo ao sacado descontar até 10 centavos por US$ 100. Um comitê de governadores rejeitou o plano por unanimidade: ele inflaria o dinheiro em trânsito em cerca de US$ 300 milhões e reimporia mais de US$ 100 milhões anuais em taxas. O Board também mandou suspender o uso de agentes que não fossem bancos."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Não têm direito de partilhar das vantagens do sistema de cobrança ao par.”",
+              "original": "“have no right to share in the advantages of the par collection system”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A versão final, a Regulation J de 1924, apenas proíbe receber cheques que não possam ser cobrados ao par. Os opositores, animados, preparam nova ação: um banco nacional de Pascagoula, no Mississippi, processou o banco de reserva de Atlanta para recuperar o direito de descontar a taxa, sustentando que nada na lei obriga sequer os membros a remeter ao par."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Quem deve pagar o custo do cheque?"
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Poucos economistas hoje acreditam que haja qualquer justificativa para a dedução de câmbio.”",
+              "original": "“Few economists today believe that there is any justification for the deduction of exchange”"
+            },
+            {
+              "tipo": "p",
+              "texto": "Para Tippetts, se a remessa envolve despesa, ela cabe a quem emite o cheque, não a quem o recebe. Os bancos que cobram a taxa respondem que a concorrência impede cobrar do próprio cliente; o autor replica que isso não justifica cobrar de outro, e que a perda deve ser tratada como custo que a concorrência impõe. O sistema de cobrança do Federal Reserve, acrescenta, reduziu muito a despesa de transferir fundos. Com 90% dos bancos ainda na lista ao par, o incômodo é manter dois sistemas de cobrança, um dentro e outro fora do Federal Reserve. Na conclusão, o autor atribui papel decisivo às empresas, que cada vez mais exigem pagamento em cheques pagáveis ao par: sem o empenho dos interesses comerciais em abolir a taxa, o sistema universal de remessa ao par fica para um futuro distante."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo mostra como um custo pequeno por unidade se torna questão de desenho institucional. Dez centavos em cem dólares parecem irrelevantes, mas somados davam lucro a milhares de bancos, e a disputa era sobre a quem cabia esse custo e quem podia impor a regra.",
+                "O ponto de método é a separação entre o que a tecnologia de cobrança permitia e o que a lei autorizava. A Suprema Corte disse que o Federal Reserve podia cobrar cheques no balcão, mas não era obrigado a construir um sistema universal; a rede de pagamentos ao par dependia, assim, de adesão e de incentivos, e não só da eficiência técnica do sistema central."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Remessa ao par",
+              "pagamento de cheque pelo banco sacado pelo valor de face, sem desconto."
+            ],
+            [
+              "Taxa de câmbio (exchange charge)",
+              "desconto cobrado pelo banco sacado ao remeter o valor de um cheque a outra praça."
+            ],
+            [
+              "Banco correspondente",
+              "banco de grande cidade que mantém contas de bancos do interior e cobra cheques para eles."
+            ],
+            [
+              "Emenda Hardwick",
+              "emenda de 1917 à lei do Federal Reserve que proibiu cobrar taxa de câmbio contra os bancos de reserva."
+            ],
+            [
+              "Float",
+              "dinheiro em trânsito, contado como reserva por mais de um banco enquanto o cheque não é pago."
+            ]
+          ],
+          "hoje": "A regra de que o recebedor deve receber o valor integral e o custo da transferência cabe ao sistema ou ao pagador segue no centro das discussões sobre tarifas de cartões e de transferências eletrônicas. A tensão entre adesão voluntária e obrigatoriedade, que os bancos de reserva enfrentaram, reaparece quando bancos centrais criam sistemas de pagamento próprios e precisam decidir quem é obrigado a participar."
+        },
+        {
+          "slug": "snyder-novas-medidas-da-equacao-de-trocas",
+          "titulo": "Snyder e a equação de trocas: quando a velocidade da moeda para de variar",
+          "titulo_original": "New Measures in the Equation of Exchange",
+          "autores": "Carl Snyder (New York City)",
+          "paginas": "pp. 699–713",
+          "jstor": "ia-1924-12-p699",
+          "chamada": "Carl Snyder usa novos índices de comércio, de giro dos depósitos e de nível geral de preços para testar a equação de trocas e conclui que, descontado o crescimento do comércio, os preços acompanham os meios de pagamento.",
+          "blocos": [
+            {
+              "tipo": "p",
+              "texto": "Carl Snyder abre o artigo com oito conclusões numeradas, que chama de ainda provisórias. A velocidade de circulação dos meios de pagamento não tem tendência secular. Suas variações de curto prazo coincidem, no tempo e em porcentagem, com as do volume de comércio. Por isso, essas duas variáveis, que se compensam, não costumam influir no nível geral de preços. Se a equação de trocas vale, o nível de preços deve então variar com a quantidade de meios de pagamento, descontado o crescimento normal do comércio. Os índices de preços por atacado não medem bem o nível geral de preços em tempos de grandes oscilações. Os débitos bancários, corrigidos por um índice mais amplo, medem o comércio e o ciclo de negócios. Experimentalmente, MV é igual a PT. E índices como produção de ferro-gusa e carregamento de vagões não medem o comércio como um todo."
+            },
+            {
+              "tipo": "h2",
+              "texto": "De onde vem a equação?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A ideia de que a relação entre moeda e preços se exprime por quatro fatores mensuráveis é, para Snyder, relativamente nova. Está implícita em Ricardo e em John Stuart Mill, mas a própria ideia de números-índice era estranha àquela época, e Ricardo a rejeitava. A formulação algébrica teria aparecido em 1885, num livro de princípios de economia política escrito por um astrônomo e pouco notado pelos economistas. A primeira prova estatística coube a E. W. Kemmerer, em 1906, e a mais elaborada, a Irving Fisher, em The Purchasing Power of Money. O avanço seguinte, diz o autor, dependia de dados novos sobre os negócios."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Como medir o comércio?"
+            },
+            {
+              "tipo": "p",
+              "texto": "O índice de comércio, publicado pelo autor no Journal of the American Statistical Association, reúne 56 séries, cada uma expressa em porcentagem da própria tendência de crescimento. Cerca de trinta medem a produção básica, divididas entre bens de consumo e de produção; outras 26 cobrem comércio atacadista e varejista, exportações e importações, atividade financeira e até seguros de vida contratados, receitas de diversões e especulação com ações, algodão e grãos. Para Snyder, mesmo um conhecimento completo dos negócios seria só uma extensão, talvez pequena, desse material."
+            },
+            {
+              "tipo": "p",
+              "texto": "Há uma segunda prova. Pelo menos 80% dos pagamentos se fazem por cheque, e os débitos bancários informados cobrem cerca de 85% deles. Excluída Nova York, cujos débitos são dominados por operações financeiras, e corrigidos os valores por um índice do nível geral de preços, os débitos reproduzem o índice de comércio com diferença raramente superior a 4% ou 5% em um mês. Com essa base, o autor estendeu a série até 1875, e ela concorda com os índices de produção de Day e de Stewart."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "56",
+              "texto": "Séries reunidas no índice de comércio de Snyder: cerca de trinta de produção básica e 26 de distribuição, comércio exterior, finanças e outras atividades, cada uma medida em porcentagem de sua tendência. Os débitos bancários fora de Nova York, deflacionados, raramente divergem dele mais de 4% ou 5% ao mês."
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que mostra o giro dos depósitos?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Todo banqueiro observador sabe, diz Snyder, que em tempos de comércio ativo os cheques sacados contra os depósitos crescem mais que os próprios depósitos. Os relatórios semanais publicados pelo Federal Reserve Board desde o fim de 1918 permitiram medir esse giro, primeiro em oito cidades de costa a costa, depois em 141. O método das oito cidades foi definido por Irving Fisher, E. W. Kemmerer e J. H. Riddle, então no banco de reserva de Nova York, e descrito por W. R. Burgess: comparar, mês a mês, o total de cheques debitados com os depósitos médios, ajustar a sazonalidade e ponderar. Os débitos das 141 cidades, comparados com os depósitos à vista de cerca de 750 bancos informantes, deram resultados a menos de 10% dos das oito cidades."
+            },
+            {
+              "tipo": "p",
+              "texto": "Nos cinco anos completos, não apareceu tendência no giro, e suas variações acompanharam de perto, em amplitude, as do índice de comércio. O resultado é surpreendente porque o período teve as variações de preço mais violentas do século ou mais para o qual há registro confiável. Com dados de bancos nacionais desde cerca de 1875, o autor reconstruiu as variações do giro, embora sem resposta firme sobre a tendência de longo prazo. A inferência, nas condições americanas, é que a velocidade não costuma influir no nível de preços; em outras condições, como na Alemanha, pode ter influência muito forte."
+            },
+            {
+              "tipo": "h2",
+              "texto": "Por que um novo índice de preços?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Jevons, em 1863, supôs que as médias de preços por atacado mediriam o nível geral de preços e o valor do ouro. Fisher já contestara essa visão, e o autor lembra o trabalho de Warren sobre mercadorias de movimento cíclico. Nos anos recentes, os salários se afastaram muito dos preços por atacado, que estavam cerca de 50% acima de 1913. As matérias-primas oscilam mais que os produtos feitos com elas, e o varejo menos que o atacado, porque salários, aluguéis e tarifas ferroviárias pesam na distribuição e mudam devagar. Daí a tentativa, descrita pelo autor em junho, de construir um índice da média de todos os tipos de pagamento."
+            },
+            {
+              "tipo": "h2",
+              "texto": "E a moeda?"
+            },
+            {
+              "tipo": "p",
+              "texto": "A moeda em circulação fora dos bancos equivale a cerca de um quinto dos depósitos à vista, e sua quantidade, desde a criação do Federal Reserve, ajusta-se quase automaticamente à demanda. Snyder usa os depósitos à vista como medida do fator monetário. Um nível de preços hipotético, obtido dividindo os débitos por um índice de produção de 28 itens, acompanha o efetivo de modo geral. O terceiro gráfico compara depósitos e preços: de 1909 a 1916, os depósitos cresceram cerca de 4,5% ao ano e os preços quase não subiram; com a grande alta dos depósitos a partir de 1915, os preços dispararam; do pico de 1920 ao ponto baixo seguinte, depósitos e preços caíram cerca de 17%; desde então, ambos ficaram estáveis."
+            },
+            {
+              "tipo": "caixa",
+              "valor": "4,5%",
+              "texto": "Crescimento anual aproximado dos depósitos à vista de 1909 a 1916, quando o nível geral de preços quase não subiu. Do pico de 1920 ao ponto baixo seguinte, a queda dos depósitos foi de cerca de 17%, e a do nível de preços, de ordem semelhante."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“Os movimentos do nível geral de preços já não são um mistério.”",
+              "original": "“the movements of the general price level are no longer a mystery”"
+            },
+            {
+              "tipo": "h2",
+              "texto": "O que fica em aberto?"
+            },
+            {
+              "tipo": "p",
+              "texto": "Snyder reconhece que os resultados não resolvem a questão da causalidade nem explicam por que, com excedentes e reservas enormes, não houve outra grande inflação nos dois anos anteriores. Os outros fatores lembrados por Mitchell e Anderson têm efeito, mas sua força varia muito. O sistema bancário parece acomodar automaticamente as variações normais do ciclo, desde que os meios de pagamento cresçam com o comércio. A relação com os preços por atacado é mais frouxa, embora razoável em tempos de preços calmos. O trabalho estatístico veio do departamento de estudos do Federal Reserve Bank of New York, e o autor agradece a Wesley C. Mitchell, a E. W. Kemmerer e aos colegas Shepard Morgan e W. R. Burgess."
+            },
+            {
+              "tipo": "citacao",
+              "texto": "“As andanças de uma vaca amarrada são limitadas pelo comprimento da corda.”",
+              "original": "“the perambulations of a tethered cow are restricted by the length of the rope”"
+            },
+            {
+              "tipo": "p",
+              "texto": "A imagem serve ao último argumento: com reservas bancárias fixas, a expansão dos depósitos que os negócios podem forçar é limitada pelo tamanho do estoque de ouro."
+            },
+            {
+              "tipo": "leitura",
+              "texto": [
+                "Na minha leitura, o artigo é um exemplo de teoria testada pela construção da medida. A equação de trocas é uma identidade; o que Snyder acrescenta é a escolha de variáveis observáveis para cada termo, de modo que a identidade passe a dizer algo sobre o mundo. A velocidade estável e sincronizada com o comércio é o resultado empírico que transforma a identidade em proposição sobre preços.",
+                "O cuidado está em definir o nível de preços. Usar só o atacado teria gerado divergências que pareceriam refutar a teoria; com um índice de todos os pagamentos, a relação aparece. A advertência do próprio autor sobre a causalidade lembra que medir bem uma relação não basta para dizer qual variável move a outra."
+              ]
+            }
+          ],
+          "glossario": [
+            [
+              "Equação de trocas",
+              "identidade MV = PT entre moeda vezes velocidade e preços vezes transações."
+            ],
+            [
+              "Velocidade de giro",
+              "razão entre os cheques debitados e os depósitos médios num período."
+            ],
+            [
+              "Débitos bancários",
+              "total de cheques lançados contra contas de depositantes, usado como medida de pagamentos."
+            ],
+            [
+              "Nível geral de preços",
+              "média de todos os tipos de pagamento, mais ampla que o índice de preços por atacado."
+            ],
+            [
+              "Tendência secular",
+              "direção de longo prazo de uma série, separada das oscilações cíclicas."
+            ]
+          ],
+          "hoje": "A estabilidade da velocidade da moeda sustentou por décadas metas de agregados monetários e deixou de valer quando a inovação financeira mudou a demanda por moeda; o debate sobre quando ela é estável continua. A busca de índices de preços amplos e de medidas de atividade com dados de pagamentos, que Snyder fez com débitos bancários, reaparece hoje no uso de transações eletrônicas para acompanhar a economia quase em tempo real."
+        }
+      ]
     }
   ],
   "proximas": []
