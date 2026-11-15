@@ -540,7 +540,7 @@ def item_artigo_html(ed, a, rel):
     link = (f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">ler o comentário</a>' if a.get("ensaio_slug") else "")
     return (f'        <li><b>{e(a["titulo"])}</b>' + (f' — {e(a["autores"])}' if a.get("autores") else "")
             + (f' ({e(a["paginas"])})' if a.get("paginas") else "") + (f'. {e(a["resumo"])}' if a.get("resumo") else "")
-            + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") else "")
+            + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") and not str(a["jstor"]).startswith("ia-") else "")
             + link + "</li>")
 
 
@@ -563,7 +563,7 @@ def artigos_em_blocos(ed, rel, arts):
                 if a.get("jstor") in secoes: ln += f' · <a href="#art-{a["jstor"]}">resenha acima</a>'
                 elif a.get("resumo"): ln += f'. {e(a["resumo"])}'
                 if a.get("ensaio_slug"): ln += f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">comentário completo</a>'
-                if a.get("jstor"): ln += f' · <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>'
+                if a.get("jstor") and not str(a["jstor"]).startswith("ia-"): ln += f' · <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>'
                 lis.append(ln + "</li>")
             out.append(f'      <h3>{nome} ({len(g)})</h3>\n      <ol class="artigos-principais">\n' + "\n".join(lis) + "\n      </ol>")
             continue
@@ -584,7 +584,7 @@ def artigos_html(ed, rel):
         link = (f' · <a href="{rel}arquivo/{ed["slug"]}/{a["ensaio_slug"]}/">ler o comentário</a>' if a.get("ensaio_slug") else "")
         linhas.append(f'        <li><b>{e(a["titulo"])}</b>' + (f' — {e(a["autores"])}' if a.get("autores") else "")
                       + (f' ({e(a["paginas"])})' if a.get("paginas") else "") + (f'. {e(a["resumo"])}' if a.get("resumo") else "")
-                      + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") else "")
+                      + (f' <a href="https://www.jstor.org/stable/{a["jstor"]}" target="_blank" rel="noopener">JSTOR</a>' if a.get("jstor") and not str(a["jstor"]).startswith("ia-") else "")
                       + link + "</li>")
     return '    <div class="artigos-edicao">\n      <h3>Artigos desta edição</h3>\n      <ol>\n' + "\n".join(linhas) + "\n      </ol>\n    </div>\n"
 
@@ -620,10 +620,32 @@ def pagina_edicao(ed, anterior, proxima):
     return pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, "", "")
 
 
+def links_original(ed, j):
+    """Links para o original: JSTOR (id numérico) e Internet Archive (item jstor-<id> até 1922;
+    número completo 'sim_' de 1923 em diante, campo 'archive_id' da edição). Ids 'ia-...' são internos."""
+    j = str(j or "")
+    ia = ed.get("archive_id")
+    out = []
+    if j and not j.startswith("ia-"):
+        out.append(f'<a href="https://www.jstor.org/stable/{j}" target="_blank" rel="noopener">JSTOR</a>')
+    if ia:
+        out.append(f'<a href="https://archive.org/details/{ia}" target="_blank" rel="noopener">Internet Archive (número completo, PDF)</a>')
+    elif j and not j.startswith("ia-"):
+        out.append(f'<a href="https://archive.org/details/jstor-{j}" target="_blank" rel="noopener">Internet Archive (PDF)</a>')
+    return " · ".join(out)
+
+
+def linha_sumario(ed):
+    partes = []
+    if ed.get("jstor_edicao"):
+        partes.append(f'        <li>Sumário da edição no JSTOR: <a href="https://www.jstor.org/stable/10.2307/{ed["jstor_edicao"]}" target="_blank" rel="noopener">{e(ed["publicacao"])}, {e(ed["volume"])}</a>.</li>')
+    if ed.get("archive_id"):
+        partes.append(f'        <li>Número completo digitalizado (domínio público): <a href="https://archive.org/details/{ed["archive_id"]}" target="_blank" rel="noopener">Internet Archive</a>.</li>')
+    return "\n".join(partes)
+
+
 def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
-    itens = "\n".join(
-        f'        <li><b>{e(t)}</b> ({e(p)}). <a href="https://www.jstor.org/stable/{j}" target="_blank" rel="noopener">JSTOR</a> · '
-        f'<a href="https://archive.org/details/jstor-{j}" target="_blank" rel="noopener">Internet Archive (PDF)</a></li>' for t, p, j in ed["itens"])
+    itens = "\n".join(f'        <li><b>{e(t)}</b>' + (f' ({e(p)})' if p else '') + '. ' + links_original(ed, j) + '</li>' for t, p, j in ed["itens"])
     nav = []
     if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Nº {anterior["numero"]} · {e(anterior["titulo"])}</a>')
     if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Nº {proxima["numero"]} · {e(proxima["titulo"])} &rarr;</a>')
@@ -651,7 +673,7 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
       <h3>Fontes</h3>
       <ol>
 {itens}
-        <li>Sumário da edição no JSTOR: <a href="https://www.jstor.org/stable/10.2307/{ed['jstor_edicao']}" target="_blank" rel="noopener">{e(ed['publicacao'])}, {e(ed['volume'])}</a>.</li>
+{linha_sumario(ed)}
       </ol>
     </div>
 
@@ -678,8 +700,7 @@ def pagina_comentario(ed, c, anterior=None, proxima=None):
     fig = figura_html(f'{ed["slug"]}--{c["slug"]}', rel, f"Página original: {c['titulo_original']}, {ed['publicacao']}, {ed['volume']} ({ed['data']}).")
     j = c.get("jstor", "")
     fonte = (f'        <li><b>{e(c["titulo_original"])}</b> — {e(c["autores"])} ({e(c["paginas"])}). '
-             f'<a href="https://www.jstor.org/stable/{j}" target="_blank" rel="noopener">JSTOR</a> · '
-             f'<a href="https://archive.org/details/jstor-{j}" target="_blank" rel="noopener">Internet Archive (PDF)</a></li>')
+             + links_original(ed, j) + '</li>')
     corpo = f"""
 <div class="env">
 {subnav_arquivo("../../", ed.get("colecao", "eua") + "/")}</div>
