@@ -530,7 +530,7 @@ def figura_html(slug, rel, legenda):
 def tipo_item_aer(titulo_original):
     """Classifica um item da AER pelo título do metadado (JSTOR)."""
     t = titulo_original or ""
-    if t.startswith("[untitled]"): return "resenha"
+    if t.startswith(("[untitled]", "Review: ")): return "resenha"
     if t.startswith("New Book"): return "livros"
     if re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|^Program|Doctoral Dissertations|Geographical Index|^Book Reviews|^Review: |^Volume Information|^Front Matter|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t): return "docs"
     return "artigo"
