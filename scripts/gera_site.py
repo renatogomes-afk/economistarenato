@@ -203,12 +203,56 @@ def escreve(caminho, conteudo):
 def cartao_edicao(ed, rel):
     return f"""    <article class="cartao">
       <a href="{rel}arquivo/{ed['slug']}/">
-        <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['data'])}</span>
+        <span class="chapeu">Arquivo · {rotulo_num(ed)} · {e((serie_de(ed) or {}).get('curto', ''))} · {e(ed['data'])}</span>
         <h3 class="tit tit-g">{e(ed['titulo'])}</h3>
         <p class="olho">{e(ed['chamada'])}</p>
         <span class="selo">Leitura: {minutos(ed)} min</span>
       </a>
     </article>"""
+
+
+
+# ------------------------------------------------------------------ séries da AEA (eixo do Arquivo · Estados Unidos)
+SERIES_AEA = [
+    {"slug": "publications", "nome": "Publications of the American Economic Association", "curto": "Publications", "periodo": "1886–1907",
+     "pub": ["Publications of the American Economic Association"],
+     "texto": "A série de monografias e anais com que a associação começou: um estudo por número, mais os relatórios das reuniões anuais."},
+    {"slug": "economic-studies", "nome": "Economic Studies of the American Economic Association", "curto": "Economic Studies", "periodo": "1896–1899",
+     "pub": ["Economic Studies"],
+     "texto": "Série bimestral de estudos mais curtos, publicada ao lado das Publications entre 1896 e 1899. Numeração própria (ES 1, ES 2…)."},
+    {"slug": "quarterly", "nome": "American Economic Association Quarterly", "curto": "Quarterly", "periodo": "1908–1910",
+     "pub": ["American Economic Association Quarterly"],
+     "texto": "Nova forma das Publications: monografias, anais das reuniões e o manual da associação, em quatro números por ano."},
+    {"slug": "economic-bulletin", "nome": "The Economic Bulletin", "curto": "Economic Bulletin", "periodo": "1908–1910",
+     "pub": ["The Economic Bulletin"],
+     "texto": "Boletim trimestral de notas, resenhas de livros e bibliografia, que preparou o terreno para a revista."},
+    {"slug": "american-economic-review", "nome": "The American Economic Review", "curto": "American Economic Review", "periodo": "1911–1929",
+     "pub": ["The American Economic Review"],
+     "texto": "A revista da associação desde 1911, que reuniu o Quarterly e o Bulletin: artigos, comunicações, resenhas e os anais das reuniões."},
+]
+
+
+def serie_de(ed):
+    for s_ in SERIES_AEA:
+        if ed.get("publicacao") in s_["pub"] or ed.get("serie") == s_["slug"]:
+            return s_
+    return None
+
+
+def rotulo_num(ed):
+    """'Nº 12' para a numeração geral; 'ES 3' para a Economic Studies (numeração própria)."""
+    n = str(ed.get("numero", ""))
+    return n if n.startswith("ES") else f"Nº {n}"
+
+
+MESES = {"janeiro": 1, "fevereiro": 2, "março": 3, "abril": 4, "maio": 5, "junho": 6, "julho": 7, "agosto": 8,
+         "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12}
+
+
+def chave_data(ed):
+    d = str(ed.get("data", "")).lower()
+    mes = next((v for k, v in MESES.items() if k in d), 0)
+    return (ano_edicao(ed), mes)
 
 
 # ------------------------------------------------------------------ páginas
@@ -394,6 +438,7 @@ def secoes_por_ano(eds, rel):
     for ed in eds: grupos.setdefault(ano_edicao(ed), []).append(ed)
     out = []
     for a, lst in sorted(grupos.items()):
+        lst = sorted(lst, key=chave_data)
         series = []
         for ed in lst:
             p = ed.get("publicacao", "")
@@ -409,6 +454,51 @@ def secoes_por_ano(eds, rel):
     return "\n".join(out)
 
 
+def bloco_series(eds, base):
+    cards = []
+    for s_ in SERIES_AEA:
+        lst = [ed for ed in eds if serie_de(ed) is s_]
+        n = len(lst)
+        cont = f"{n} {'edição' if n == 1 else 'edições'}" if n else "em preparação"
+        cards.append(f"""    <article class="cartao">
+      <a href="{base}{s_['slug']}/">
+        <span class="chapeu">{e(s_['periodo'])}</span>
+        <h3 class="tit">{e(s_['nome'])}</h3>
+        <p class="olho">{e(s_['texto'])}</p>
+        <span class="selo">{cont}</span>
+      </a>
+    </article>""")
+    return ('  <div class="faixa">\n    <h2>Por publicação</h2>\n    <span class="sub">As séries da American Economic Association</span>\n  </div>\n'
+            '  <section class="grade-3">\n' + "\n".join(cards) + "\n  </section>")
+
+
+def pagina_serie(c, s_):
+    rel = "../../../"
+    eds = [ed for ed in edicoes_de(c["id"]) if serie_de(ed) is s_]
+    n = len(eds)
+    lista = (barra_anos(eds, "") + "\n" + secoes_por_ano(eds, rel)) if eds else '  <p class="olho">Edições em preparação.</p>'
+    corpo = f"""
+<main class="env">
+{subnav_arquivo("../../", c["id"] + "/")}
+  <div class="artigo-topo" style="max-width:820px;margin:28px auto 10px">
+    <span class="chapeu"><a href="../">Arquivo · Publicações da American Economic Association</a></span>
+    <h1>{e(s_['nome'])} ({e(s_['periodo'])})</h1>
+    <p class="olho">{e(s_['texto'])}</p>
+  </div>
+  <div class="faixa">
+    <h2>{e(s_['curto'])}</h2>
+    <span class="sub">{n} {'edição publicada' if n == 1 else 'edições publicadas'} · {e(s_['periodo'])}</span>
+  </div>
+{lista}
+  <div class="corpo" style="max-width:820px;margin:0">
+    <p class="nota-legal">Fonte: {e(c['fonte'])}. {e(c['licenca'])}</p>
+  </div>
+</main>
+"""
+    escreve(f"arquivo/{c['id']}/{s_['slug']}", cabeca(f"{s_['nome']} ({s_['periodo']}) — Arquivo · Economista Renato Gomes", s_["texto"], f"arquivo/{c['id']}/{s_['slug']}/", rel)
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
+
+
 def pagina_colecao(c):
     rel = "../../"
     eds = edicoes_de(c["id"])
@@ -417,6 +507,11 @@ def pagina_colecao(c):
         miolo = f"""  <div class="faixa">
     <h2>{e(c['periodico'])}</h2>
     <span class="sub">{len(eds)} edições publicadas · {e(c['periodo'])}</span>
+  </div>
+{bloco_series(eds, "")}
+  <div class="faixa">
+    <h2>Por ano</h2>
+    <span class="sub">Todas as séries, em ordem cronológica</span>
   </div>
 {barra_anos(eds, "")}
 {secoes_por_ano(eds, rel)}
@@ -689,14 +784,14 @@ def linha_sumario(ed):
 def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
     itens = "\n".join(f'        <li><b>{e(t)}</b>' + (f' ({e(p)})' if p else '') + '. ' + links_original(ed, j) + '</li>' for t, p, j in ed["itens"])
     nav = []
-    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; Nº {anterior["numero"]} · {e(anterior["titulo"])}</a>')
-    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">Nº {proxima["numero"]} · {e(proxima["titulo"])} &rarr;</a>')
+    if anterior: nav.append(f'<a href="../{anterior["slug"]}/">&larr; {rotulo_num(anterior)} · {e(anterior["titulo"])}</a>')
+    if proxima: nav.append(f'<a href="../{proxima["slug"]}/">{rotulo_num(proxima)} · {e(proxima["titulo"])} &rarr;</a>')
     corpo = f"""
 <div class="env">
 {subnav_arquivo("../", ed.get("colecao", "eua") + "/")}</div>
 <article class="artigo">
   <div class="artigo-topo">
-    <span class="chapeu">Arquivo · Nº {ed['numero']} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</span>
+    <span class="chapeu">Arquivo · {rotulo_num(ed)} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</span>
     <h1>{e(ed['titulo'])}</h1>
     <p class="tempo-leitura">Leitura: {minutos(ed)} min</p>
     <p class="olho">{e(ed['chamada'])}</p>
@@ -736,7 +831,7 @@ def pagina_edicao_html(ed, anterior, proxima, rel, corpo_ed, fig, leitura_min):
 def pagina_comentario(ed, c, anterior=None, proxima=None):
     """Modelo híbrido: artigo comentado dentro de uma edição (campo 'comentarios' da edição)."""
     rel = "../../../"
-    nav = [f'<a href="../">&uarr; Nº {ed["numero"]} · {e(ed["titulo"])}</a>']
+    nav = [f'<a href="../">&uarr; {rotulo_num(ed)} · {e(ed["titulo"])}</a>']
     if anterior: nav.insert(0, f'<a href="../{anterior["slug"]}/">&larr; {e(anterior["titulo"])}</a>')
     if proxima: nav.append(f'<a href="../{proxima["slug"]}/">{e(proxima["titulo"])} &rarr;</a>')
     fig = figura_html(f'{ed["slug"]}--{c["slug"]}', rel, f"Página original: {c['titulo_original']}, {ed['publicacao']}, {ed['volume']} ({ed['data']}).")
@@ -748,7 +843,7 @@ def pagina_comentario(ed, c, anterior=None, proxima=None):
 {subnav_arquivo("../../", ed.get("colecao", "eua") + "/")}</div>
 <article class="artigo">
   <div class="artigo-topo">
-    <span class="chapeu"><a href="../">Arquivo · Nº {ed['numero']} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</a></span>
+    <span class="chapeu"><a href="../">Arquivo · {rotulo_num(ed)} · {e(ed['publicacao'])}, {e(ed['volume'])} ({e(ed['data'])})</a></span>
     <h1>{e(c['titulo'])}</h1>
     <p class="tempo-leitura">Leitura: {minutos(c)} min</p>
     <p class="olho">{e(c['chamada'])}</p>
@@ -774,7 +869,7 @@ def pagina_comentario(ed, c, anterior=None, proxima=None):
       <h3>Fontes</h3>
       <ol>
 {fonte}
-        <li>Edição completa, com os demais artigos: <a href="../">Nº {ed['numero']} do Arquivo</a>.</li>
+        <li>Edição completa, com os demais artigos: <a href="../">{rotulo_num(ed)} do Arquivo</a>.</li>
       </ol>
     </div>
 
@@ -1600,7 +1695,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -1621,9 +1716,15 @@ if __name__ == "__main__":
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)
-    eds = DADOS["edicoes"]
-    for i, ed in enumerate(eds):
-        pagina_edicao(ed, eds[i - 1] if i > 0 else None, eds[i + 1] if i + 1 < len(eds) else None)
+    for c_ in COLECOES:
+        if c_["id"] == "eua":
+            for s_ in SERIES_AEA: pagina_serie(c_, s_)
+    principais = [ed for ed in DADOS["edicoes"] if not str(ed["numero"]).startswith("ES")]
+    es = sorted([ed for ed in DADOS["edicoes"] if str(ed["numero"]).startswith("ES")], key=lambda x: int(str(x["numero"])[2:]))
+    for grupo in (principais, es):
+        for i, ed in enumerate(grupo):
+            pagina_edicao(ed, grupo[i - 1] if i > 0 else None, grupo[i + 1] if i + 1 < len(grupo) else None)
+    for ed in DADOS["edicoes"]:
         cs = ed.get("comentarios") or []
         for k, c in enumerate(cs):
             pagina_comentario(ed, c, cs[k - 1] if k > 0 else None, cs[k + 1] if k + 1 < len(cs) else None)
