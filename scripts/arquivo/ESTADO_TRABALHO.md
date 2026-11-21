@@ -27,13 +27,16 @@
    **Passada de volta, 1925 publicada (21/11/2026):** nº 189–192 refeitas no formato atual (32 páginas próprias, slugs e ids
    mantidos), com os trechos sobre grupos étnicos/nacionais recolocados e conferência completa. Método: OCR `reocr180.py`
    (em `...\1925\_tesseract\`), pedido `PEDIDO_VOLTA.md` + `BRIEF_REDATOR.md`, versão publicada como ponto de partida.
-   Importador: itens com `"tipo": "errata"` ou `"necrologio"` ficam só na lista. Próximo: **1924** (nº 180–188), mesma passada
-   (sem as edições novas de 1924, que aguardam o Renato).
+   Importador: itens com `"tipo": "errata"` ou `"necrologio"` ficam só na lista.
+   **Passada de volta, 1924 publicada (21/11/2026):** nº 185–188 refeitas no formato atual (26 páginas próprias, slugs e ids
+   antigos mantidos; ids novos só para blocos de New Books que faltavam), trechos sobre grupos recolocados, conferência completa.
+   OCR em `...\1924\_tesseract\`. Workflow do Pages: upload-pages-artifact v4 desde 21/11/2026 (o v3 passou a falhar no deploy).
+   Próximo: **1923** (nº 180–184), mesma passada. As edições novas de 1924 (36ª reunião, manuais) seguem aguardando o Renato.
 1. **1926–1929**: publicados (nº 195–215).
 2. **1927–1929**: arquivos baixados e conferidos em
    `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1929)\<ano>\_archive_sim\`
    (pasta renomeada para (1911-1929) em 20/11/2026; indice.csv e edicoes.csv atualizados).
-3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: ~~189–192 (1925)~~ (feito em 21/11/2026),
+3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: ~~189–192 (1925)~~ e ~~185–188 (1924)~~ (feitos em 21/11/2026),
    180–188 (1923–1924), depois 112–179 (1911–1922).
 
 4. **Preservar a história do documento (15/11/2026):** revisar as edições antigas (Publications, Quarterly,
