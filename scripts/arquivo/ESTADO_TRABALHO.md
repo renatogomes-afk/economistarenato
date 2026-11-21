@@ -31,21 +31,16 @@
    **Passada de volta, 1924 publicada (21/11/2026):** nº 185–188 refeitas no formato atual (26 páginas próprias, slugs e ids
    antigos mantidos; ids novos só para blocos de New Books que faltavam), trechos sobre grupos recolocados, conferência completa.
    OCR em `...\1924\_tesseract\`. Workflow do Pages: upload-pages-artifact v4 desde 21/11/2026 (o v3 passou a falhar no deploy).
-   **1923 EM ANDAMENTO (parado no teto de uso em 21/11/2026, 22h40 UTC; NÃO publicado):** material no scratchpad da sessão
-   `C:\Users\renat\AppData\Local\Temp\claude\e4e389c2532ad394\b4d3dd58-0a7d-4a99-8e70-34fa057f7c5a\scratchpad`
-   (OCR em `...\1923\_tesseract\`, joins `join_180..184.txt`, versões publicadas em `atual\`, saídas em `conteudo1923\`).
-   - 180 e 182: redigidas e conferidas (validador OK).
-   - 183 e 184: redigidas (validador OK); conferência interrompida no início → refazer a conferência das duas.
-   - 181 (35ª reunião): as 13 páginas próprias estão prontas em `tools\n181\pg_*.py`; falta o hub (abertura, discussões,
-     mesas-redondas, atas, memorial de Patten), `c181a/b.py`, `b181.py` e validador (ver `tools\n181\PROGRESSO.md`); depois conferência.
-   - Depois: publicar 1923 inteira com `tools\pub.py` (pasta `conteudo1923`). As edições novas de 1924 (36ª reunião, manuais)
-     seguem aguardando o Renato.
+   **Passada de volta, 1923 publicada (21/11/2026):** nº 180–184 refeitas no formato atual (42 páginas próprias, slugs e ids
+   mantidos), trechos sobre grupos recolocados, conferência completa. OCR em `...\1923\_tesseract\`.
+   Próximo: **1922** (nº 175–179) e para trás até a nº 112 (1911), mesma passada. As edições novas de 1924 (36ª reunião,
+   manuais) seguem aguardando o Renato.
 1. **1926–1929**: publicados (nº 195–215).
 2. **1927–1929**: arquivos baixados e conferidos em
    `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1929)\<ano>\_archive_sim\`
    (pasta renomeada para (1911-1929) em 20/11/2026; indice.csv e edicoes.csv atualizados).
-3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: ~~189–192 (1925)~~ e ~~185–188 (1924)~~ (feitos em 21/11/2026),
-   180–188 (1923–1924), depois 112–179 (1911–1922).
+3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: ~~189–192 (1925)~~, ~~185–188 (1924)~~ e ~~180–184 (1923)~~ (feitos em 21/11/2026),
+   depois 112–179 (1911–1922).
 
 4. **Preservar a história do documento (15/11/2026):** revisar as edições antigas (Publications, Quarterly,
    Bulletin, AER até a nº 200) para recolocar o que os autores dizem sobre grupos étnicos/raciais, descrito e
