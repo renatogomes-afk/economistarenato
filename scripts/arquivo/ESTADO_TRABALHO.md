@@ -24,12 +24,16 @@
    `...\(1911-1929)\1930\_artigos\`, com PDF de cada número e linhas em indice.csv/edicoes.csv (estudo pessoal; fora do recorte do site).
    Atenção: IDs curtos do JSTOR (junho 417–470, dezembro 844–893) exigem conferência exata de id no CSV, não por substring.
    Manual de 1928 baixado do JSTOR (20/11/2026): `1928\AER_1928_vol18_no2_i331356.pdf` (ainda sem edição no site).
-   Próximo: a passada de volta (item 3 + item 4).
+   **Passada de volta, 1925 publicada (21/11/2026):** nº 189–192 refeitas no formato atual (32 páginas próprias, slugs e ids
+   mantidos), com os trechos sobre grupos étnicos/nacionais recolocados e conferência completa. Método: OCR `reocr180.py`
+   (em `...\1925\_tesseract\`), pedido `PEDIDO_VOLTA.md` + `BRIEF_REDATOR.md`, versão publicada como ponto de partida.
+   Importador: itens com `"tipo": "errata"` ou `"necrologio"` ficam só na lista. Próximo: **1924** (nº 180–188), mesma passada
+   (sem as edições novas de 1924, que aguardam o Renato).
 1. **1926–1929**: publicados (nº 195–215).
 2. **1927–1929**: arquivos baixados e conferidos em
    `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1929)\<ano>\_archive_sim\`
    (pasta renomeada para (1911-1929) em 20/11/2026; indice.csv e edicoes.csv atualizados).
-3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: 189–192 (1925),
+3. **Completar páginas próprias** nas edições feitas antes da regra nova, em ordem: ~~189–192 (1925)~~ (feito em 21/11/2026),
    180–188 (1923–1924), depois 112–179 (1911–1922).
 
 4. **Preservar a história do documento (15/11/2026):** revisar as edições antigas (Publications, Quarterly,

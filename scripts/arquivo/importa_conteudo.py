@@ -51,7 +51,7 @@ for f in sorted(glob.glob(os.path.join(ORIGEM, "*.json"))):
             t0 = orig.get(x.get("jstor"), x.get("titulo", ""))
             if t0.startswith(("[untitled]", "New Book")) or re.search(r"Documents|Periodicals|^Notes|List of Doctoral|Communication|Personal and Miscellaneous|Back Matter|^Purposes of|^Constitution of|List of Members|Program|^Minutes of|^Report of|^Report on|Annual Report of|Doctoral Dissertations|Geographical Index|^Book Reviews|^Review: |^Volume Information|^Front Matter|^Book Notes|^Foreword|^A List of|^Preface|^Correspondence|^Index of|^Books Reviewed|^Publications of the American Economic|^\[[^\]]*\]$|^\[.*\]: ", t0):
                 continue
-            if x.get("tipo") == "necrologio":  # necrológios ficam só na lista, como as notas
+            if x.get("tipo") in ("necrologio", "errata"):  # necrológios e erratas ficam só na lista, como as notas
                 continue
             n = len(x.get("resumo", "").split())
             if secoes:
