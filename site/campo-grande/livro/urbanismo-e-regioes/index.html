@@ -68,7 +68,7 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
   <div class="artigo-topo">
     <span class="chapeu"><a href="../">Campo Grande em 2036</a> · Capítulo 5 de 16</span>
     <h1>Urbanismo e regiões</h1>
-    <p class="tempo-leitura situacao-cg">Texto em andamento · Leitura: 30 min</p>
+    <p class="tempo-leitura situacao-cg">Texto em andamento · Leitura: 36 min</p>
     <p class="olho">Como a cidade se formou, quanto custa a cidade espalhada e por que o bairro completo, com tudo a dez minutos a pé, é o caminho.</p>
     <div class="barra-autor">
       <div class="mini"><img src="../../../assets/monograma-branco.png" alt=""></div>
@@ -192,22 +192,95 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
       </tbody>
     </table></div>
     <p>A conta mostra o desperdício. O dinheiro gasto em quatro anos remendando buraco daria para recapear de 200 a 300 km de ruas (Correio do Estado, 25/02/2026); remendo dura uma chuva, recapeamento dura anos. Ao mesmo tempo, o orçamento de requalificação caiu 70% de um ano para o outro, e a Câmara abriu uma CPI para investigar medições e pagamentos do tapa-buraco (A Crítica, 17/10/2026). O asfalto novo, que leva rua a bairros que esperavam havia décadas, como o Jardim das Nações, é pago com empréstimo: entra na dívida tratada no subtópico 6.3.</p>
-    <h3 class="pergunta">Quanto falta asfaltar, e quanto custaria?</h3>
-    <p>A cidade tem cerca de 3,4 mil km de vias asfaltadas e outros 1.000 km sem pavimento, segundo a imprensa (Campo Grande News, 22/01/2026); a prefeitura não publica o inventário. Pela soma, a malha tem perto de 4,4 mil km, e 23% dela é de terra (cálculo do autor).</p>
+    <h3 class="pergunta">Quantas ruas a cidade tem, e quantas são de terra?</h3>
+    <p>A prefeitura não publica o cadastro da malha viária, e os números que ela mesma dá à imprensa mudam de uma entrevista para outra. A tabela junta o que foi dito e por quem.</p>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>O tamanho da malha viária de Campo Grande, segundo cada fonte</caption>
+      <thead><tr><th>Quando</th><th>Asfaltado</th><th>Sem asfalto</th><th>Quem disse</th><th>Fonte</th></tr></thead>
+      <tbody>
+        <tr><td>Agosto de 2022</td><td>2,5 mil km</td><td>cerca de 800 km; R$ 2,5 bilhões para asfaltar tudo</td><td>Sisep, em nota</td><td>O Estado MS, 08/08/2022</td></tr>
+        <tr><td>Censo de 2022</td><td>75,9% dos moradores em rua pavimentada</td><td>cerca de 24%, perto de 215 mil pessoas</td><td>IBGE, entorno dos domicílios</td><td>IBGE, via Campo Grande News, 17/04/2025; número de pessoas, cálculo do autor sobre 892 mil moradores</td></tr>
+        <tr><td>Julho de 2025</td><td>70% da malha asfaltada comprometida; R$ 1,5 bilhão para recapear</td><td>mais de 1.000 km; 40 km deles em ruas com ônibus</td><td>Marcelo Miglioli, secretário de Infraestrutura, na Câmara</td><td>Coxim Agora, 10/07/2025</td></tr>
+        <tr><td>Janeiro de 2026</td><td>cerca de 3,4 mil km, 70% com danos</td><td>cerca de 1.000 km</td><td>Marcelo Miglioli, no podcast Na Íntegra</td><td>Campo Grande News, 22/01/2026</td></tr>
+        <tr><td>2026</td><td>145 km de asfalto novo em três anos</td><td>22,5% das vias</td><td>levantamento da reportagem</td><td>Midiamax, 2026</td></tr>
+      </tbody>
+    </table></div>
+    <p>Os números não fecham entre si. De 2022 para 2026 o asfalto teria crescido 900 km, mas a própria prefeitura informa cerca de 145 km de rua nova em três anos (Midiamax, 2026); a diferença deve vir de critério de contagem, como contar cada pista de uma avenida duplicada, ou de ruas de condomínios e loteamentos novos recebidas prontas. O livro usa o número mais recente do secretário, 3,4 mil km asfaltados e 1.000 km de terra, e a malha de 4,4 mil km, com 23% de terra, coerente com os 22,5% da reportagem (cálculo do autor). Com os números de 2022, todas as contas abaixo cairiam cerca de um quarto. É por isso que a primeira proposta do subtópico é o inventário.</p>
+    <h3 class="pergunta">Quanto pavimento precisa de manutenção?</h3>
+    <p>Todo o asfalto precisa de manutenção; a diferença é o tipo. A rua boa pede conservação, que é selar trinca e tapar o buraco no dia em que ele abre. A rua comprometida pede recapeamento, que é tirar a capa velha e pôr outra. E a rua de terra pede patrola e cascalho até ser asfaltada. Para ter a área, supus 8 metros de pista em média: a rua de bairro tem de 7 a 8 metros entre as guias, e as avenidas, o dobro (hipótese do autor).</p>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>O pavimento de Campo Grande e o que cada parte pede (estimativa do autor)</caption>
+      <thead><tr><th>Parte da malha</th><th>Extensão</th><th>Área (8 m de pista)</th><th>O que precisa</th><th>Base</th></tr></thead>
+      <tbody>
+        <tr><td>Asfalto comprometido (70%)</td><td>2.380 km</td><td>cerca de 19 milhões de m²</td><td>recapeamento</td><td>70% de 3,4 mil km (Campo Grande News, 22/01/2026)</td></tr>
+        <tr><td>Asfalto em estado aceitável (30%)</td><td>1.020 km</td><td>cerca de 8 milhões de m²</td><td>conservação e, no ciclo, recapeamento</td><td>idem</td></tr>
+        <tr><td>Total asfaltado</td><td>3.400 km</td><td>cerca de 27 milhões de m² (24 a 31 milhões com 7 a 9 m)</td><td>manutenção permanente</td><td>idem; área, cálculo do autor</td></tr>
+        <tr><td>Ruas de terra</td><td>1.000 km</td><td>cerca de 8 milhões de m²</td><td>patrola e cascalho até o asfalto; depois, asfalto com drenagem</td><td>idem</td></tr>
+        <tr><td>Malha total</td><td>4.400 km</td><td>cerca de 35 milhões de m²</td><td></td><td>cálculo do autor</td></tr>
+      </tbody>
+    </table></div>
+    <p>Para comparar: 27 milhões de m² de asfalto equivalem a cerca de 3.800 campos de futebol oficiais, de 105 por 68 metros (cálculo do autor). O recapeamento custa de R$ 0,63 a 1 milhão por km, ou de R$ 80 a 125 por m² de pista (cálculo do autor sobre o custo por km do quadro anterior e sobre os R$ 1,5 bilhão do secretário para os 2.380 km comprometidos).</p>
+    <h3 class="pergunta">Quanto custa manter a malha por ano?</h3>
+    <p>O asfalto bem feito de rua urbana dura de 12 a 15 anos até precisar de capa nova, se a conservação for feita em dia (hipótese do autor, a conferir com o manual de pavimentação do DNIT e com o histórico da Sisep). Com 3,4 mil km, isso dá de 230 a 280 km recapeados por ano só para a malha não envelhecer. Somada a conservação, a conta da manutenção em regime, com a malha já recuperada, é esta:</p>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>Custo anual de manutenção do pavimento em regime (estimativa do autor, R$ milhões de 2026)</caption>
+      <thead><tr><th>Item</th><th>Hoje (3,4 mil km)</th><th>Com toda a malha asfaltada (4,4 mil km)</th><th>Base</th></tr></thead>
+      <tbody>
+        <tr><td>Recapeamento do ciclo (1/15 a 1/12 da malha por ano)</td><td>145 a 285</td><td>185 a 365</td><td>R$ 0,63 a 1 milhão por km</td></tr>
+        <tr><td>Conservação: tapa-buraco, selagem de trincas</td><td>25 a 45</td><td>25 a 45</td><td>hipótese do autor, abaixo dos R$ 46,3 milhões de hoje, que são de malha estragada</td></tr>
+        <tr><td>Total</td><td>170 a 330 (meio: 250)</td><td>210 a 410 (meio: 310)</td><td>cálculo do autor</td></tr>
+        <tr><td>Por m² de pista</td><td>R$ 6 a 12 por ano</td><td>R$ 6 a 12 por ano</td><td>cálculo do autor</td></tr>
+        <tr><td>Manutenção das ruas de terra (patrola e cascalho)</td><td>R$ 33 milhões (contratos de 2025); teto de R$ 40,4 milhões por ano na licitação de 2024</td><td>deixa de existir</td><td>Campo Grande News, 14/02/2025; Correio do Estado, 02/08/2024</td></tr>
+      </tbody>
+    </table></div>
+    <p>O que se gasta hoje está longe disso. Os novos contratos de tapa-buraco somam R$ 46,3 milhões por ano (Correio do Estado, 13/10/2026) e a requalificação de vias tem R$ 40 milhões no orçamento de 2026 (A Crítica, 17/10/2026): cerca de R$ 86 milhões por ano, um terço do que a malha pede em regime (cálculo do autor). Faltam perto de R$ 165 milhões por ano, todo ano, e é essa diferença acumulada que explica os 70% de malha comprometida: o que não se recapeia na hora certa vira buraco, e o buraco custa mais.</p>
+    <div class="caixa-num">
+      <div class="valor">R$ 250 milhões por ano</div>
+      <div class="exp">é o que a manutenção dos 3,4 mil km de asfalto pede em regime, com a malha recuperada; hoje se gastam cerca de R$ 86 milhões. Fonte: estimativa do autor com Campo Grande News (22/01/2026), Correio do Estado (13/10/2026) e A Crítica (17/10/2026).</div>
+    </div>
+    <h3 class="pergunta">Quanto custa asfaltar o que falta?</h3>
+    <p>O custo do km de rua nova depende sobretudo da drenagem: rua sem galeria de águas pluviais não dura uma estação de chuva. Os contratos recentes da prefeitura mostram a faixa.</p>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>Custo do km de asfalto novo com drenagem em Campo Grande</caption>
+      <thead><tr><th>Obra</th><th>Valor e extensão</th><th>Por km</th><th>Fonte</th></tr></thead>
+      <tbody>
+        <tr><td>Vira CG, fase 1</td><td>R$ 280 milhões, mais de 80 km</td><td>até R$ 3,5 milhões</td><td>A Crítica, 10/08/2026; por km, cálculo do autor</td></tr>
+        <tr><td>Vira CG, fase 2</td><td>R$ 433 milhões, 170 km</td><td>R$ 2,55 milhões</td><td>A Crítica, 10/08/2026; idem</td></tr>
+        <tr><td>Bancada federal, Anhanduizinho e Lagoa</td><td>R$ 100 milhões, 33,96 km (Lagoa 24,4 km; Anhanduizinho 9,5 km)</td><td>R$ 2,94 milhões</td><td>A Crítica, 30/04/2026; idem</td></tr>
+        <tr><td>Porto Galo e Parque Residencial Lisboa</td><td>R$ 8,49 milhões, 3,41 km</td><td>R$ 2,49 milhões</td><td>A Crítica, 23/09/2026; idem</td></tr>
+        <tr><td>Estimativa da Sisep para as ruas de terra, 2022</td><td>R$ 2,5 bilhões, cerca de 800 km</td><td>R$ 3,1 milhões (em reais de 2022)</td><td>O Estado MS, 08/08/2022; idem</td></tr>
+      </tbody>
+    </table></div>
+    <p>O livro passa a usar de R$ 2,5 a 3,5 milhões por km, meio de R$ 3 milhões; a versão anterior usava de R$ 1,5 a 2,5 milhões, abaixo do que a prefeitura de fato contrata. Para os 1.000 km de terra, a conta é de R$ 2,5 a 3,5 bilhões, meio de R$ 3 bilhões (cálculo do autor). Os R$ 713 milhões das fases 1 e 2, já contratados ou em contratação, cobrem cerca de 250 km dessa conta (A Crítica, 10/08/2026).</p>
+    <p>O ritmo também precisa mudar. A cidade fez cerca de 145 km de rua nova em três anos, perto de 50 km por ano (Midiamax, 2026), e a prefeita fala em quase 700 km na sua gestão, número que não bate com o primeiro (A Crítica, 10/04/2026). Para acabar com a rua de terra em oito anos são precisos 125 km por ano, duas vezes e meia o ritmo medido (cálculo do autor).</p>
+    <h3 class="pergunta">Onde estão as ruas de terra?</h3>
+    <p>Não há dado oficial por região. Fiz uma estimativa com duas pistas. Para o asfalto existente, dividi os 3,4 mil km pela quantidade de domicílios de cada região no Censo 2022, porque cada lote ocupado fica de frente para uma rua. Para a terra, dividi os 1.000 km pelo valor que a prefeitura paga a cada região para manter as ruas sem asfalto, nos contratos de 2025 (Campo Grande News, 14/02/2025): Anhanduizinho R$ 7,4 milhões, Prosa R$ 6,9 milhões, Bandeira R$ 4,5 milhões, Lagoa R$ 4 milhões, Imbirussu cerca de R$ 3,2 milhões (diferença entre o total de R$ 33 milhões e os lotes nomeados, cálculo do autor) e Segredo R$ 2,8 milhões; o Centro não tem rua de terra (Correio do Estado, 02/08/2024). O lote do distrito de Anhanduí, de R$ 4,2 milhões, ficou fora, porque cuida de estrada rural.</p>
+    <div class="tabela-wrap"><table class="tabela-guia"><caption>Asfalto e terra por região, e o custo de oito anos (estimativa do autor, R$ de 2026)</caption>
+      <thead><tr><th>Região</th><th>Asfalto (km)</th><th>Terra (km)</th><th>Terra (%)</th><th>Manutenção por ano (R$ mi)</th><th>Asfaltar a terra (R$ mi)</th><th>Recapear (R$ mi)</th><th>Total em 8 anos (R$ mi)</th><th>Por morador (R$)</th></tr></thead>
+      <tbody>
+        <tr><td>Anhanduizinho</td><td>830</td><td>255</td><td>24%</td><td>61</td><td>770</td><td>475</td><td>1.310</td><td>6.000</td></tr>
+        <tr><td>Prosa</td><td>350</td><td>240</td><td>41%</td><td>26</td><td>720</td><td>200</td><td>945</td><td>10.300</td></tr>
+        <tr><td>Bandeira</td><td>525</td><td>155</td><td>23%</td><td>39</td><td>470</td><td>300</td><td>810</td><td>5.900</td></tr>
+        <tr><td>Lagoa</td><td>495</td><td>140</td><td>22%</td><td>36</td><td>415</td><td>280</td><td>740</td><td>5.500</td></tr>
+        <tr><td>Segredo</td><td>500</td><td>95</td><td>16%</td><td>37</td><td>290</td><td>285</td><td>615</td><td>4.800</td></tr>
+        <tr><td>Imbirussu</td><td>405</td><td>110</td><td>22%</td><td>30</td><td>335</td><td>230</td><td>595</td><td>5.500</td></tr>
+        <tr><td>Centro</td><td>305</td><td>0</td><td>0%</td><td>22</td><td>—</td><td>175</td><td>200</td><td>3.200</td></tr>
+        <tr><td>Cidade</td><td>3.400</td><td>1.000</td><td>23%</td><td>250</td><td>3.000</td><td>1.940</td><td>5.220</td><td>5.900</td></tr>
+      </tbody>
+    </table></div>
+    <p>Bases: asfalto e terra, rateio do autor como descrito acima; domicílios e moradores, IBGE, Censo 2022, por setor censitário somado por região (5.11); manutenção em regime, R$ 73,5 mil por km por ano, meio da faixa do quadro anterior; asfaltar, R$ 3 milhões por km; recapear, 70% do asfalto a R$ 815 mil por km; o total inclui a conservação. Os valores são de meio da faixa e estão arredondados.</p>
+    <p>Na minha leitura, o quadro confirma o que o morador já sabe e traz uma surpresa. A terra se concentra no Anhanduizinho, a região mais populosa, e nas bordas do Bandeira, do Lagoa e do Imbirussu, onde estão os bairros que esperam asfalto há décadas. A surpresa é o Prosa: a região de renda mais alta aparece com a maior parte de terra, provavelmente pelas chácaras urbanas e loteamentos do nordeste da cidade, de poucas casas por quilômetro de rua. É ali que o critério de prioridade importa: o primeiro quilômetro deve ir para a rua com mais moradores, ônibus, escola e posto, e não para a rua com menos casas. O rateio é frágil, porque o valor do contrato depende também do relevo e da frequência do serviço; só o inventário da malha por região, que a prefeitura pode fazer em um ano com a UFMS (9.10), substitui esta estimativa.</p>
+    <h3 class="pergunta">Quanto custa o plano de oito anos?</h3>
     <div class="tabela-wrap"><table class="tabela-guia"><caption>Plano de oito anos para o asfalto (estimativa do autor)</caption>
       <thead><tr><th>Frente</th><th>Extensão</th><th>Custo por km</th><th>Custo em 8 anos</th><th>Por ano</th></tr></thead>
       <tbody>
-        <tr><td>Asfaltar as ruas de terra, com drenagem</td><td>1.000 km</td><td>R$ 1,5 a 2,5 milhões</td><td>R$ 1,5 a 2,5 bilhões</td><td>R$ 190 a 310 milhões</td></tr>
-        <tr><td>Recapear a malha comprometida (70% de 3,4 mil km)</td><td>2.380 km</td><td>R$ 0,7 a 1 milhão</td><td>R$ 1,7 a 2,4 bilhões</td><td>R$ 210 a 300 milhões</td></tr>
-        <tr><td>Conservar o restante (30%)</td><td>1.020 km</td><td>R$ 0,2 a 0,3 milhão (hipótese do autor)</td><td>R$ 0,2 a 0,3 bilhão</td><td>R$ 25 a 40 milhões</td></tr>
-        <tr><td>Total</td><td>4.400 km</td><td></td><td>R$ 3,4 a 5,2 bilhões</td><td>R$ 425 a 650 milhões</td></tr>
+        <tr><td>Asfaltar as ruas de terra, com drenagem</td><td>1.000 km (125 km por ano)</td><td>R$ 2,5 a 3,5 milhões</td><td>R$ 2,5 a 3,5 bilhões</td><td>R$ 310 a 440 milhões</td></tr>
+        <tr><td>Recapear a malha comprometida (70% de 3,4 mil km)</td><td>2.380 km (300 km por ano)</td><td>R$ 0,63 a 1 milhão</td><td>R$ 1,5 a 2,4 bilhões</td><td>R$ 190 a 300 milhões</td></tr>
+        <tr><td>Conservar toda a malha</td><td>3,4 a 4,4 mil km</td><td>R$ 25 a 45 milhões por ano (hipótese do autor)</td><td>R$ 0,2 a 0,36 bilhão</td><td>R$ 25 a 45 milhões</td></tr>
+        <tr><td>Total</td><td>4.400 km</td><td></td><td>R$ 4,2 a 6,3 bilhões (meio: R$ 5,2 bilhões)</td><td>R$ 525 a 780 milhões</td></tr>
       </tbody>
     </table></div>
-    <p>Bases do custo por km: R$ 2,5 milhões é o custo da fase 2 do programa de asfalto e drenagem, R$ 433 milhões para 170 km (A Crítica, 10/08/2026); o piso de R$ 1,5 milhão supõe ruas onde a drenagem já existe ou é mais simples. O recapeamento de R$ 0,7 a 1 milhão por km vem do contrato de 2020 (R$ 17,8 milhões por 25 km, Campo Grande News, 04/03/2020) e da estimativa de engenheira ouvida pelo Correio do Estado (25/02/2026). O custo de conservação é hipótese do autor e precisa de orçamento de referência (SINAPI ou Sicro).</p>
-    <p>O valor anual, de R$ 425 a 650 milhões, equivale a 7% a 11% da receita corrente de 2025, de R$ 5,95 bilhões (SICONFI; cálculo do autor), e não cabe só no caixa. Parte já está contratada: os R$ 713 milhões das fases 1 e 2 cobrem cerca de 250 km (A Crítica, 10/08/2026). O resto exige financiamento de longo prazo, como o da Caixa já usado, dentro do limite de dívida do subtópico 6.3, e o fim do gasto perdido com remendo: só o tapa-buraco custou R$ 197 milhões em quatro anos, perto de R$ 50 milhões por ano que passariam para o recapeamento.</p>
+    <p>Bases: asfalto novo, o quadro dos contratos acima; recapeamento, de R$ 0,63 milhão por km, que é o valor do secretário (R$ 1,5 bilhão para os 2.380 km, Coxim Agora, 10/07/2025; cálculo do autor), a R$ 1 milhão por km, do contrato de 2020 (R$ 17,8 milhões por 25 km, Campo Grande News, 04/03/2020) e da engenheira ouvida pelo Correio do Estado (25/02/2026). O custo de conservação é hipótese do autor e precisa de orçamento de referência (SINAPI ou Sicro). O plano sobe de R$ 4,3 para R$ 5,2 bilhões no meio da faixa por causa do custo do km novo, corrigido com os contratos de 2026.</p>
+    <p>O valor anual, de R$ 525 a 780 milhões, equivale a 9% a 13% da receita corrente de 2025, de R$ 5,95 bilhões (SICONFI; cálculo do autor), e não cabe só no caixa. Parte já está contratada: os R$ 713 milhões das fases 1 e 2 (A Crítica, 10/08/2026). O asfalto novo é obra de vida longa e pode ser pago com financiamento de longo prazo, como o da Caixa já usado, dentro do limite de dívida do 6.3. A manutenção, não: ela é despesa de todo ano e tem de sair do orçamento. Por isso o plano troca o remendo pelo recapeamento, já que o tapa-buraco custou R$ 197 milhões em quatro anos, perto de R$ 50 milhões por ano (Correio do Estado, 25/02/2026), e por isso cada quilômetro novo de asfalto deve nascer com a sua manutenção prevista: são cerca de R$ 73,5 mil por km por ano que entram no orçamento para sempre (cálculo do autor).</p>
     <div class="caixa-como caixa-propostas">
       <h3>Propostas para 2036 · Asfalto e a manutenção das ruas</h3>
-      <ol><li>Inventário público da malha viária: quilômetros por região, asfaltados ou não, e um índice de condição de cada trecho, atualizado todo ano.</li><li>Trocar o remendo pelo recapeamento planejado, com garantia de cinco anos do empreiteiro e prioridade para as ruas com linha de ônibus, escola e posto de saúde.</li><li>Tapa-buraco com medição aberta: cada buraco com foto, local e data antes e depois, e pagamento só pelo que foi conferido.</li><li>Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila.</li><li>Plano Asfalto 2036: em oito anos, asfaltar com drenagem os 1.000 km de terra e recapear os 2.380 km comprometidos, com meta anual por região publicada e financiamento de longo prazo dentro do limite de dívida.</li></ol>
+      <ol><li>Inventário público da malha viária: quilômetros por região, asfaltados ou não, e um índice de condição de cada trecho, atualizado todo ano.</li><li>Trocar o remendo pelo recapeamento planejado, com garantia de cinco anos do empreiteiro e prioridade para as ruas com linha de ônibus, escola e posto de saúde.</li><li>Tapa-buraco com medição aberta: cada buraco com foto, local e data antes e depois, e pagamento só pelo que foi conferido.</li><li>Drenagem antes do asfalto, e asfalto novo nas ruas de terra começando pelos bairros mais antigos da fila.</li><li>Plano Asfalto 2036: em oito anos, asfaltar com drenagem os 1.000 km de terra, 125 km por ano, e recapear os 2.380 km comprometidos, 300 km por ano, com meta anual por região publicada e financiamento de longo prazo dentro do limite de dívida.</li><li>Fundo de conservação viária no orçamento: cerca de R$ 250 milhões por ano para recapear no ciclo de 12 a 15 anos e conservar, e cada km novo de asfalto entregue já com a sua manutenção somada ao orçamento dos anos seguintes.</li><li>Fila pública da rua de terra: a ordem em que cada rua será asfaltada, por região, pelo número de moradores e pela presença de ônibus, escola e posto, publicada e atualizada a cada contrato.</li></ol>
     </div>
     <h2 class="subtopico" id="st-5-6"><span class="st-num">5.6</span> Bairros ricos, médios e pobres</h2>
     <h3 class="pergunta">Onde está o dinheiro da cidade?</h3>
@@ -322,7 +395,7 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
     <div class="tabela-wrap"><table class="tabela-guia"><caption>Urbanização completa em 8 anos: custo por item (R$ milhões de 2026)</caption>
       <thead><tr><th>Item</th><th>Meta</th><th>Faixa</th><th>Meio</th><th>Base do cálculo</th></tr></thead>
       <tbody>
-        <tr><td>Asfalto com drenagem e recapeamento</td><td>1.000 km de terra e 2.380 km comprometidos</td><td>3.400 a 5.200</td><td>4.300</td><td>5.5 (já no plano)</td></tr>
+        <tr><td>Asfalto com drenagem e recapeamento</td><td>1.000 km de terra e 2.380 km comprometidos</td><td>4.200 a 6.260</td><td>5.220</td><td>5.5 (já no plano)</td></tr>
         <tr><td>Praças e parques existentes</td><td>229 praças; seis parques</td><td>140 a 149</td><td>145</td><td>5.3 e 5.4 (já no plano)</td></tr>
         <tr><td>Macrodrenagem: canais, galerias e bacias de detenção</td><td>obras nos córregos que mais alagam</td><td>400 a 800</td><td>600</td><td>hipótese do autor; não há plano com custo publicado</td></tr>
         <tr><td>Calçadas acessíveis nas rotas de pedestre</td><td>1.200 km de calçada (600 km de ruas com ônibus, escola ou posto, nos dois lados), 2 m de largura</td><td>290 a 430</td><td>360</td><td>R$ 120 a 180 por m² (hipótese do autor)</td></tr>
@@ -333,24 +406,24 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
         <tr><td>Urbanização de favelas e regularização</td><td>16 favelas do Censo (7.862 moradores) e títulos para cerca de 15 mil lotes irregulares</td><td>210 a 340</td><td>275</td><td>R$ 80 a 120 mil por moradia urbanizada e R$ 2 mil por título (hipótese do autor); 11.1</td></tr>
         <tr><td>Abrigos de ônibus e travessias seguras</td><td>2.000 abrigos</td><td>50 a 80</td><td>65</td><td>R$ 25 a 40 mil cada (hipótese do autor)</td></tr>
         <tr><td>Projetos e fiscalização</td><td>5% dos itens novos</td><td>56 a 98</td><td>77</td><td>cálculo do autor</td></tr>
-        <tr><td>Total</td><td></td><td>4.720 a 7.410</td><td>6.065</td><td></td></tr>
+        <tr><td>Total</td><td></td><td>5.520 a 8.470</td><td>6.985</td><td></td></tr>
         <tr><td>…dos quais novos, fora do plano anterior</td><td></td><td>1.180 a 2.060</td><td>1.620</td><td></td></tr>
       </tbody>
     </table></div>
     <p>Fonte: estimativas do autor. Os custos unitários marcados como hipótese precisam ser conferidos em orçamento de referência (SINAPI) e nos contratos recentes da prefeitura antes de virar meta.</p>
     <h3 class="pergunta">Quanto cabe a cada região?</h3>
-    <p>O dinheiro não deve ser dividido só pelo número de moradores, porque a rua de terra, a calçada que falta e a favela estão nas regiões pobres (5.6). A divisão abaixo pesa a população pela necessidade: peso 1,3 para Anhanduizinho, Lagoa e Imbirussu, 1,15 para o Segredo, 1,0 para o Bandeira e 0,6 para o Prosa e o Centro. Os pesos são hipótese do autor e devem ser trocados pelo inventário da malha e das calçadas por região, que a prefeitura não publica.</p>
+    <p>O dinheiro não deve ser dividido só pelo número de moradores, porque a rua de terra, a calçada que falta e a favela estão nas regiões pobres (5.6). A divisão abaixo pesa a população pela necessidade: peso 1,3 para Anhanduizinho, Lagoa e Imbirussu, 1,15 para o Segredo, 1,0 para o Bandeira e 0,6 para o Prosa e o Centro. Os pesos são hipótese do autor e devem ser trocados pelo inventário da malha e das calçadas por região, que a prefeitura não publica. Para o asfalto, o 5.5 traz uma estimativa própria por região, a partir dos contratos de manutenção das ruas de terra.</p>
     <div class="tabela-wrap"><table class="tabela-guia"><caption>Urbanização completa por região, em 8 anos (estimativa do autor, R$ milhões de 2026, meio da faixa)</caption>
       <thead><tr><th>Região</th><th>Moradores (2022)</th><th>Peso</th><th>Parte</th><th>Total em 8 anos</th><th>Por ano</th><th>Por morador</th></tr></thead>
       <tbody>
-        <tr><td>Anhanduizinho</td><td>218.500</td><td>1,3</td><td>29,0%</td><td>1.761</td><td>220</td><td>R$ 8.060</td></tr>
-        <tr><td>Lagoa</td><td>134.964</td><td>1,3</td><td>17,9%</td><td>1.088</td><td>136</td><td>R$ 8.060</td></tr>
-        <tr><td>Segredo</td><td>128.300</td><td>1,15</td><td>15,1%</td><td>915</td><td>114</td><td>R$ 7.130</td></tr>
-        <tr><td>Imbirussu</td><td>108.000</td><td>1,3</td><td>14,3%</td><td>870</td><td>109</td><td>R$ 8.060</td></tr>
-        <tr><td>Bandeira</td><td>136.691</td><td>1,0</td><td>14,0%</td><td>847</td><td>106</td><td>R$ 6.200</td></tr>
-        <tr><td>Prosa</td><td>95.500</td><td>0,6</td><td>5,9%</td><td>355</td><td>44</td><td>R$ 3.720</td></tr>
-        <tr><td>Centro</td><td>61.653</td><td>0,6</td><td>3,8%</td><td>229</td><td>29</td><td>R$ 3.720</td></tr>
-        <tr><td>Total</td><td>883.608</td><td></td><td>100%</td><td>6.065</td><td>758</td><td>R$ 6.860</td></tr>
+        <tr><td>Anhanduizinho</td><td>218.500</td><td>1,3</td><td>29,0%</td><td>2.028</td><td>254</td><td>R$ 9.280</td></tr>
+        <tr><td>Lagoa</td><td>134.964</td><td>1,3</td><td>17,9%</td><td>1.253</td><td>157</td><td>R$ 9.280</td></tr>
+        <tr><td>Segredo</td><td>128.300</td><td>1,15</td><td>15,1%</td><td>1.054</td><td>132</td><td>R$ 8.210</td></tr>
+        <tr><td>Imbirussu</td><td>108.000</td><td>1,3</td><td>14,3%</td><td>1.002</td><td>125</td><td>R$ 9.280</td></tr>
+        <tr><td>Bandeira</td><td>136.691</td><td>1,0</td><td>14,0%</td><td>975</td><td>122</td><td>R$ 7.140</td></tr>
+        <tr><td>Prosa</td><td>95.500</td><td>0,6</td><td>5,9%</td><td>409</td><td>51</td><td>R$ 4.280</td></tr>
+        <tr><td>Centro</td><td>61.653</td><td>0,6</td><td>3,8%</td><td>264</td><td>33</td><td>R$ 4.280</td></tr>
+        <tr><td>Total</td><td>883.608</td><td></td><td>100%</td><td>6.985</td><td>873</td><td>R$ 7.900</td></tr>
       </tbody>
     </table></div>
     <p>Fonte: moradores, IBGE, Censo 2022, via Campo Grande News, 21/03/2024 (5.1); divisão e valores, cálculo do autor.</p>
@@ -358,20 +431,20 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
     <div class="tabela-wrap"><table class="tabela-guia"><caption>Urbanização completa: desembolso por ano (estimativa do autor, R$ milhões de 2026)</caption>
       <thead><tr><th>Ano</th><th>%</th><th>Valor</th><th>O que acontece</th></tr></thead>
       <tbody>
-        <tr><td>1º</td><td>5%</td><td>303</td><td>inventário da malha, das calçadas e da drenagem; projetos; obras já contratadas do asfalto</td></tr>
-        <tr><td>2º</td><td>10%</td><td>607</td><td>primeiros lotes de asfalto novo e recapeamento; praças; abrigos</td></tr>
-        <tr><td>3º</td><td>15%</td><td>910</td><td>obras em todas as regiões; macrodrenagem nas bacias que mais alagam</td></tr>
-        <tr><td>4º</td><td>15%</td><td>910</td><td>parques lineares; urbanização das favelas</td></tr>
-        <tr><td>5º</td><td>15%</td><td>910</td><td>segunda metade do asfalto novo</td></tr>
-        <tr><td>6º</td><td>15%</td><td>910</td><td>calçadas e árvores nas rotas de pedestre</td></tr>
-        <tr><td>7º</td><td>13%</td><td>788</td><td>recapeamento final e regularização dos lotes</td></tr>
-        <tr><td>8º</td><td>12%</td><td>728</td><td>acabamento, conservação e prestação de contas</td></tr>
-        <tr><td>Total</td><td>100%</td><td>6.066</td><td></td></tr>
+        <tr><td>1º</td><td>5%</td><td>349</td><td>inventário da malha, das calçadas e da drenagem; projetos; obras já contratadas do asfalto</td></tr>
+        <tr><td>2º</td><td>10%</td><td>698</td><td>primeiros lotes de asfalto novo e recapeamento; praças; abrigos</td></tr>
+        <tr><td>3º</td><td>15%</td><td>1.048</td><td>obras em todas as regiões; macrodrenagem nas bacias que mais alagam</td></tr>
+        <tr><td>4º</td><td>15%</td><td>1.048</td><td>parques lineares; urbanização das favelas</td></tr>
+        <tr><td>5º</td><td>15%</td><td>1.048</td><td>segunda metade do asfalto novo</td></tr>
+        <tr><td>6º</td><td>15%</td><td>1.048</td><td>calçadas e árvores nas rotas de pedestre</td></tr>
+        <tr><td>7º</td><td>13%</td><td>908</td><td>recapeamento final e regularização dos lotes</td></tr>
+        <tr><td>8º</td><td>12%</td><td>838</td><td>acabamento, conservação e prestação de contas</td></tr>
+        <tr><td>Total</td><td>100%</td><td>6.985</td><td></td></tr>
       </tbody>
     </table></div>
     <div class="caixa-num">
-      <div class="valor">R$ 6,1 bilhões</div>
-      <div class="exp">é o custo estimado para deixar as sete regiões bem urbanizadas em oito anos, cerca de R$ 760 milhões por ano; R$ 4,4 bilhões já estavam no plano (asfalto, praças e parques), e R$ 1,6 bilhão é novo. Fonte: estimativas do autor.</div>
+      <div class="valor">R$ 7 bilhões</div>
+      <div class="exp">é o custo estimado para deixar as sete regiões bem urbanizadas em oito anos, cerca de R$ 870 milhões por ano; R$ 5,4 bilhões já estavam no plano (asfalto, praças e parques), e R$ 1,6 bilhão é novo. Fonte: estimativas do autor.</div>
     </div>
     <p>Na minha leitura, a conta assusta menos quando se olha a fonte. O asfalto tem R$ 713 milhões já contratados e financiados (5.5), a telegestão cabe na COSIP (5.7), a rede de esgoto é paga pela tarifa (5.8), e a macrodrenagem e a urbanização de favelas são o tipo de obra que o governo federal financia a longo prazo (Avançar Cidades e Novo PAC). O que não pode faltar é o inventário: sem saber quantos quilômetros de rua, de calçada e de córrego cada região tem, nenhuma meta é verificável.</p>
     <div class="caixa-como caixa-propostas">
@@ -500,6 +573,7 @@ document.querySelectorAll('.sub-toggle').forEach(function(b){b.addEventListener(
         <li>IBGE. Censo Demográfico 2022: população por região urbana de Campo Grande, conforme Campo Grande News, 21/03/2024 (fonte secundária).</li>
         <li>Praças: Campo Grande News (ata de R$ 19,7 mi, 01/07/2024; Propam, 17/06/2025); Correio do Estado (Praça dos Imigrantes, 24/07/2025 e 13/08/2025; Praça do Preto Velho, 23/09/2026); A Crítica (Funesp, 12/10/2026); Prefeitura de Campo Grande, CG Notícias (23/03/2026). Fontes secundárias; estimativa de custo do autor (planilha pracas-de-campo-grande.xlsx).</li>
         <li>IBGE. Censo Demográfico 2022: população, idade e domicílios por região urbana, conforme Campo Grande News (21/03/2024) e City Population (fontes secundárias).</li>
+        <li>Asfalto (5.5): O Estado MS (08/08/2022, nota da Sisep); IBGE, Censo 2022, entorno dos domicílios, conforme Campo Grande News (17/04/2025); Coxim Agora (10/07/2025, audiência na Câmara); Campo Grande News (22/01/2026; 14/02/2025, manutenção de ruas de terra); Correio do Estado (02/08/2024; 25/02/2026; 13/10/2026); A Crítica (10/04/2026; 30/04/2026; 10/08/2026; 23/09/2026; 17/10/2026); Midiamax (2026). Fontes secundárias; área, custo de manutenção e divisão por região são estimativas do autor (dados/asfalto-malha-e-manutencao.md).</li>
       </ol>
     </div>
 
