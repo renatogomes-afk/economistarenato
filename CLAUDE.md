@@ -86,6 +86,11 @@ longa, que ele não previa):
 - A Reckless tem **um peso só**: usar sempre `font-weight:400` e
   `font-synthesis-weight:none`, nunca negrito sintético.
 
+- **Layout (21/11/2026):** modelo de newsletter de opinião, inspirado no Doomberg/Substack, sem copiar marca:
+  barra única no alto (marca · seções curtas · botão "Assinar" sempre visível), página inicial como
+  vitrine (boas-vindas com e-mail, destaque da edição mais recente + "Nesta edição", lista "Mais recentes"
+  com miniatura e lateral "Séries"). Estilos no bloco "REDESENHO 21/11/2026" do fim de `estilo.css`.
+
 ---
 
 ## 5. Bases abertas (`/dados/`)
