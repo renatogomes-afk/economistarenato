@@ -1,7 +1,7 @@
 # Estado do trabalho — Arquivo (atualizado em 21/11/2026)
 
 ## Publicado
-- Arquivo até a **nº 210** (American Economic Review, dezembro de 1928), com página própria para todo artigo em 1926–1928.
+- Arquivo até a **nº 215** (American Economic Review, dezembro de 1929), com página própria para todo artigo em 1926–1929.
 - **Economic Studies completa**: ES 1–25 (1896–1899), série própria, já com a regra de preservar a história do documento. 1926 completo, já com página própria para todo artigo.
 - 1923–1925 vêm das digitalizações de número completo do Internet Archive (campo `archive_id`; ids internos `ia-…`).
 - Página `/arquivo/eua/` organizada por ano (barra de anos por década + seções por ano).
@@ -16,15 +16,16 @@
 - Publicar por ano; relatório curto ao fim de cada ano.
 
 ## Em andamento / próximo
-0. **PONTO DE RETOMADA (21/11/2026):** AER **1928 publicada** (nº 206–210: março, 40ª reunião, junho, setembro, dezembro;
-   36 páginas próprias). Próximo: **1929** (03_19_1, 03 supplement = 41ª reunião, 06, 09, 12), mesmo método:
-   OCR Tesseract por página (`_tesseract\tools\reocr.py`, só as páginas de artigos nos números regulares), `join.py`,
-   brief `BRIEF_REDATOR.md`, validador `valida_aer.py`; redatores Opus (até 2 em paralelo, autorizado em 21/11/2026), suplemento
-   dividido em duas partes. Material de 1928 (OCR, joins, scripts de cada edição) em
-   `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1929)\1928\_tesseract\`.
+0. **PONTO DE RETOMADA (21/11/2026):** AER **1929 publicada** (nº 211–215: março, 41ª reunião, junho, setembro, dezembro;
+   41 páginas próprias), com conferência completa por dois conferentes Opus. Fecha o recorte 1886–1929.
+   OCR de 1929: Tesseract com limiar 180 e sem filtro de mediana (`reocr180.py`; o limiar 220 de 1928 saiu ruim nesse scan),
+   em `...\(1911-1929)\1929\_tesseract\`; joins, briefs e scripts de cada edição (n211–n215) ficaram no scratchpad da sessão.
+   **AER 1930 baixada do JSTOR (21/11/2026): 222 PDFs** (março, suplemento da 42ª reunião, junho, setembro, dezembro) em
+   `...\(1911-1929)\1930\_artigos\`, com PDF de cada número e linhas em indice.csv/edicoes.csv (estudo pessoal; fora do recorte do site).
+   Atenção: IDs curtos do JSTOR (junho 417–470, dezembro 844–893) exigem conferência exata de id no CSV, não por substring.
    Manual de 1928 baixado do JSTOR (20/11/2026): `1928\AER_1928_vol18_no2_i331356.pdf` (ainda sem edição no site).
-   Depois de 1929: a passada de volta (item 3 + item 4).
-1. **1926–1928**: publicados (nº 195–210).
+   Próximo: a passada de volta (item 3 + item 4).
+1. **1926–1929**: publicados (nº 195–215).
 2. **1927–1929**: arquivos baixados e conferidos em
    `Downloads\AEA_historico\The American Economic Review\The American Economic Review (1911-1929)\<ano>\_archive_sim\`
    (pasta renomeada para (1911-1929) em 20/11/2026; indice.csv e edicoes.csv atualizados).
