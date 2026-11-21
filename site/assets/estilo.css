@@ -651,3 +651,137 @@ figcaption .credito::before{content:"· "}
 .ano-cab h3{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.8rem;margin:0}
 .ano-cab .sub{font-family:var(--sans);font-size:12px;color:#555}
 @media (max-width:700px){.anos-decada{gap:2px 10px}.anos-rotulo{min-width:100%}.ano-cab{flex-direction:column;gap:2px}}
+
+/* ==========================================================================
+   REDESENHO 21/11/2026 — modelo de newsletter de opinião
+   Barra única no alto (marca · seções curtas · Assinar sempre visível),
+   página inicial como vitrine (destaque + mais recentes + séries) e muito branco.
+   Identidade preservada: azul #003097, Reckless nos títulos, Newsreader no texto,
+   Inter nos rótulos. Este bloco sobrescreve as regras antigas de cabeçalho.
+   ========================================================================== */
+:root{--linha:#e6e4df}
+.barra{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--linha);backdrop-filter:saturate(1.4) blur(6px)}
+.barra-in{display:flex;align-items:center;gap:28px;min-height:64px}
+.barra .marca-lockup.compacta{--sim:32px;padding:0;flex:none}
+.barra .secoes{position:static;border:0;background:none;flex:1;min-width:0}
+.barra .menu{gap:22px;width:auto;flex-wrap:nowrap}
+.barra .secoes a{font-family:var(--sans);font-size:14px;font-weight:500;letter-spacing:0;color:var(--tinta-2);padding:6px 0;border-bottom:2px solid transparent}
+.barra .secoes a:hover{color:var(--azul);border-color:transparent}
+.barra .secoes a.ativo{color:var(--tinta);font-weight:600;border-color:var(--azul)}
+.barra .menu .sub a{font-size:14px;border:0;padding:8px 16px}
+.menu-extra{display:none!important}
+.barra-acoes{display:flex;align-items:center;gap:14px;flex:none;margin-left:auto}
+.barra-acoes .ig{display:flex;color:var(--tinta-2)}
+.barra-acoes .ig:hover{color:var(--azul)}
+.botao-assinar{font-size:14px;padding:9px 20px;border-radius:999px}
+.barra .nav-toggle{font-size:20px;padding:4px 2px;line-height:1}
+@media (max-width:1180px){
+  .barra-in{flex-wrap:wrap;gap:0 14px}
+  .barra .nav-toggle{display:block}
+  .barra-acoes .ig{display:none}
+  .barra .secoes{order:3;flex-basis:100%}
+  .barra .menu{display:none;flex-direction:column;align-items:stretch;gap:0;padding:4px 0 14px}
+  .barra .menu.aberto{display:flex}
+  .barra .menu>li{flex-wrap:wrap;border-top:1px solid var(--linha)}
+  .barra .menu>li>a{padding:12px 0;flex:1;border:0}
+  .barra .menu .tem-sub:hover .sub{display:none}
+  .barra .menu .tem-sub.sub-aberto .sub{display:block}
+  .barra .menu .sub{position:static;box-shadow:none;border:0;border-left:3px solid var(--azul);margin:0 0 8px 6px;width:100%;min-width:0;padding:0;max-height:none}
+  .menu-extra{display:flex!important}
+  .barra .secoes a.ativo{border:0;color:var(--azul)}
+}
+@media (max-width:420px){.barra .marca-nome{font-size:17px;line-height:16px}.botao-assinar{padding:8px 14px}}
+
+/* botões e caixas mais suaves, no espírito das newsletters */
+.botao{border-radius:999px}
+.form-linha input{border-radius:999px;padding:11px 18px;border-color:#c9c6bf}
+.form-linha input:focus{outline:2px solid var(--azul);outline-offset:1px;border-color:var(--azul)}
+.assine{border-radius:14px;border-color:var(--linha)}
+.assine h3{font-family:var(--display);font-weight:400;font-synthesis-weight:none}
+
+/* ---- página inicial: boas-vindas ---- */
+.boas-vindas{text-align:center;padding:64px 0 52px;border-bottom:1px solid var(--linha)}
+.bv-chapeu{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--azul)}
+.bv-tit,.bv-texto{text-wrap:balance}
+.bv-tit{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.04;letter-spacing:-.02em;max-width:820px;margin:14px auto 0}
+.bv-texto{font-size:1.18rem;line-height:1.55;color:var(--tinta-2);max-width:620px;margin:18px auto 0}
+.bv-texto b{color:var(--tinta);font-weight:600}
+.bv-form{max-width:460px;margin:28px auto 0}
+.bv-nota{font-family:var(--sans);font-size:12.5px;color:var(--cinza);margin-top:10px}
+
+/* ---- vitrine: destaque + "nesta edição" ---- */
+.vitrine{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:48px;padding:48px var(--gutter) 24px}
+.vitrine-so{grid-template-columns:minmax(0,1fr);max-width:860px}
+.destaque a{display:block;color:inherit}
+.destaque-fig{aspect-ratio:16/10;overflow:hidden;border-radius:8px;background:var(--papel-2);margin-bottom:22px}
+.destaque-fig img{width:100%;height:100%;object-fit:cover;object-position:top;border:0;transition:transform .4s}
+.destaque a:hover .destaque-fig img{transform:scale(1.02)}
+.destaque-tit{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:clamp(1.8rem,3.2vw,2.5rem);line-height:1.08;letter-spacing:-.015em}
+.destaque a:hover .destaque-tit{color:var(--azul)}
+.destaque-olho{font-size:1.12rem;line-height:1.5;color:var(--tinta-2);margin:12px 0 14px}
+.rotulo-sec{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--tinta);padding-bottom:10px;border-bottom:1px solid var(--tinta);margin-bottom:4px}
+
+/* ---- listas de textos (título, subtítulo de uma linha, data, miniatura) ---- */
+.lista-itens{list-style:none;margin:0;padding:0}
+.item{border-bottom:1px solid var(--linha)}
+.item>a{display:flex;gap:22px;align-items:flex-start;padding:20px 0;color:inherit}
+.item-txt{flex:1;min-width:0}
+.item-tit{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.36rem;line-height:1.15;letter-spacing:-.01em}
+.item>a:hover .item-tit{color:var(--azul)}
+.item-olho{font-size:1rem;line-height:1.45;color:var(--tinta-2);margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.item-meta{display:block;font-family:var(--sans);font-size:12.5px;color:var(--cinza);margin-top:9px;letter-spacing:.01em}
+.item-mini{width:132px;aspect-ratio:4/3;object-fit:cover;object-position:top;border-radius:6px;border:1px solid var(--linha);flex:none;background:var(--papel-2)}
+.item-curto>a{padding:15px 0;gap:16px}
+.item-curto .item-tit{font-size:1.08rem;line-height:1.2}
+.item-curto .item-meta{margin-top:6px}
+.item-curto .item-mini{width:76px;aspect-ratio:1}
+.item-curto:last-child{border-bottom:0}
+
+/* ---- mais recentes + lateral ---- */
+.dupla{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;padding-top:36px}
+.abas{display:flex;gap:26px;border-bottom:1px solid var(--linha);font-family:var(--sans);font-size:14.5px}
+.aba{padding:10px 0;margin-bottom:-1px;color:var(--cinza);border-bottom:2px solid transparent}
+.aba:hover{color:var(--tinta)}
+.aba.ativa{color:var(--tinta);font-weight:600;border-color:var(--tinta)}
+.ver-mais{display:inline-block;margin-top:22px;font-family:var(--sans);font-size:14px;font-weight:600;color:var(--azul)}
+.ver-mais:hover{text-decoration:underline}
+.lateral{align-self:start;position:sticky;top:88px}
+.lateral .rotulo-sec{margin-top:30px}
+.lateral .rotulo-sec:first-child{margin-top:12px}
+.lista-series{list-style:none;margin:0;padding:0}
+.lista-series li{border-bottom:1px solid var(--linha)}
+.lista-series a{display:block;padding:11px 0;color:inherit}
+.lista-series b{display:block;font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.12rem}
+.lista-series span{display:block;font-family:var(--sans);font-size:12.5px;color:var(--cinza);margin-top:2px}
+.lista-series a:hover b{color:var(--azul)}
+.lateral-txt{font-size:.98rem;line-height:1.5;color:var(--tinta-2);margin-top:12px}
+.lateral-txt a{color:var(--azul);font-family:var(--sans);font-size:13px;font-weight:600}
+.autor-mini{display:flex;gap:14px;align-items:flex-start}
+.autor-mini img{width:58px;height:58px;border-radius:50%;object-fit:cover;flex:none;margin-top:14px}
+.lateral-botao{display:inline-block;margin-top:16px}
+
+@media (max-width:960px){
+  .vitrine{grid-template-columns:minmax(0,1fr);gap:36px}
+  .dupla{grid-template-columns:minmax(0,1fr);gap:20px}
+  .lateral{position:static}
+}
+@media (max-width:600px){
+  .boas-vindas{padding:40px 0 34px;text-align:left}
+  .bv-tit,.bv-texto,.bv-form{margin-left:0;margin-right:0}
+  .bv-form{flex-direction:row}
+  .bv-form input{min-width:0}
+  .vitrine{padding-top:28px}
+  .item>a{gap:14px}
+  .item-mini{width:88px}
+  .item-tit{font-size:1.16rem}
+  .item-olho{-webkit-line-clamp:2;font-size:.95rem}
+  .abas{gap:18px;overflow-x:auto}
+}
+
+/* páginas internas: mesmos códigos visuais (pílulas, menos caixas) */
+.subnav{border-bottom-color:var(--linha)}
+.subnav a{border-radius:999px;border-color:var(--linha);padding:6px 14px}
+.tempo-leitura{border:0;padding:0;letter-spacing:.02em;text-transform:none;font-weight:500;font-size:13.5px;color:var(--cinza)}
+.tempo-leitura::before{content:"\23F1\FE0E  ";color:var(--azul)}
+.selo{border-radius:999px}
+.leitura-autor{border-radius:0 10px 10px 0}

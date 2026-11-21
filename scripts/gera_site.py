@@ -22,7 +22,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261115a"
+CSS_V = "20261121a"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -61,12 +61,15 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 
 IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
 
-# Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("campo-grande/", "Campo Grande-MS"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
-        ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
+# Menu principal: poucas seções, nomes curtos. Item novo aqui aparece em todas as páginas.
+MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("ensaios/", "Ensaios"),
+        ("analises/", "Análises"), ("campo-grande/", "Campo Grande"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
 
 
 def topo(ativo, rel, completo=True):
+    """Barra única no alto, no modelo das newsletters de opinião: marca à esquerda, seções curtas
+    no meio e o botão de assinar sempre visível à direita. `completo` ficou por compatibilidade:
+    a apresentação longa agora mora só na página inicial."""
     itens = []
     for h, n in MENU:
         cls = ' class="ativo"' if h == ativo else ""
@@ -82,39 +85,22 @@ def topo(ativo, rel, completo=True):
                          f'<ul class="sub sub-larga">{subs}</ul></li>')
         else:
             itens.append(f'<li><a href="{rel}{h}"{cls}>{n}</a></li>')
-    itens.append(f'<li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>')
-    itens.append(f'<li class="menu-ig"><a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato">{IG_SVG}</a></li>')
+    itens.append(f'<li class="menu-extra"><a href="{rel}notas/">Notas · Então × Agora</a></li>')
     nav = "\n        ".join(itens)
-    if completo:
-        cab = f"""  <div class="env">
-    <div class="cabecalho">
-      <a class="marca-lockup" href="{rel}">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
-      <div class="lema"><b>{LEMA}.</b> {SUBLEMA}</div>
-      <div class="canto">
-        <a class="botao" href="{rel}servicos/">Consultoria</a>
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    else:
-        cab = f"""  <div class="env">
-    <div class="cabecalho" style="padding:18px 0 14px">
-      <a class="marca-lockup compacta" href="{rel}">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
-      <div class="canto">
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    return f"""<header>
-{cab}
-  <nav class="secoes" aria-label="Menu principal">
-    <div class="env nav-wrap">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
+    return f"""<header class="barra">
+  <div class="env barra-in">
+    <a class="marca-lockup compacta" href="{rel}" aria-label="Economista Renato Gomes, página inicial">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
+    <nav class="secoes" aria-label="Menu principal">
       <ul class="menu" id="menu-principal">
         {nav}
       </ul>
+    </nav>
+    <div class="barra-acoes">
+      <a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato">{IG_SVG}</a>
+      <a class="botao botao-cheio botao-assinar" href="#assine">Assinar</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir o menu"><span aria-hidden="true">&#9776;</span></button>
     </div>
-  </nav>
+  </div>
 </header>
 <script>
 document.querySelector('.nav-toggle').addEventListener('click',function(){{var m=document.getElementById('menu-principal');var o=m.classList.toggle('aberto');this.setAttribute('aria-expanded',o)}});
@@ -256,92 +242,149 @@ def chave_data(ed):
 
 
 # ------------------------------------------------------------------ páginas
+def num_int(ed):
+    n = str(ed.get("numero", ""))
+    return int(n) if n.isdigit() else -1
+
+
+def recentes():
+    """Edições da numeração geral, da mais nova para a mais antiga (a última publicada vem primeiro)."""
+    return sorted([ed for ed in DADOS["edicoes"] if num_int(ed) > 0], key=num_int, reverse=True)
+
+
+def capa_de(nome, rel):
+    """Imagem da peça (fac-símile do original) se existir em assets/arquivo/."""
+    return f"{rel}assets/arquivo/{nome}.jpg" if os.path.exists(os.path.join(SITE, "assets", "arquivo", f"{nome}.jpg")) else ""
+
+
+def meta_item(ed, extra=""):
+    curto = e((serie_de(ed) or {}).get("curto", ""))
+    partes = [p for p in (rotulo_num(ed), curto, e(ed["data"]), extra) if p]
+    return " · ".join(partes)
+
+
+def item_lista(ed, rel):
+    img = capa_de(ed["slug"], rel)
+    mini = f'<img class="item-mini" src="{img}" alt="" loading="lazy">' if img else ""
+    return f"""      <li class="item">
+        <a href="{rel}arquivo/{ed['slug']}/">
+          <div class="item-txt">
+            <h3 class="item-tit">{e(ed['titulo'])}</h3>
+            <p class="item-olho">{e(ed['chamada'])}</p>
+            <span class="item-meta">{meta_item(ed, f'{minutos(ed)} min')}</span>
+          </div>
+          {mini}
+        </a>
+      </li>"""
+
+
 def pagina_inicio():
     rel = ""
-    eds = DADOS["edicoes"]
-    cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds[:3])
+    eds = recentes()
+    dest = eds[0]
+    img = capa_de(dest["slug"], rel)
+    fig = f'<img src="{img}" alt="Fac-símile do original: {e(dest.get("titulo_original", dest["titulo"]))}">' if img else ""
+    # ao lado do destaque: os artigos comentados da mesma edição ("nesta edição")
+    lado = []
+    for c in dest.get("comentarios", [])[:5]:
+        ci = capa_de(f"{dest['slug']}--{c['slug']}", rel)
+        mini = f'<img class="item-mini" src="{ci}" alt="" loading="lazy">' if ci else ""
+        lado.append(f"""        <li class="item item-curto">
+          <a href="{rel}arquivo/{dest['slug']}/{c['slug']}/">
+            <div class="item-txt">
+              <h3 class="item-tit">{e(c['titulo'])}</h3>
+              <span class="item-meta">{e(c.get('autores', ''))} · {minutos(c)} min</span>
+            </div>
+            {mini}
+          </a>
+        </li>""")
+    lado_html = ""
+    if lado:
+        lado_html = f"""    <aside class="vitrine-lado">
+      <div class="rotulo-sec">Nesta edição</div>
+      <ul class="lista-itens">
+{chr(10).join(lado)}
+      </ul>
+    </aside>"""
+    lista = "\n".join(item_lista(ed, rel) for ed in eds[1:11])
+    series = []
+    for s_ in SERIES_AEA:
+        n = sum(1 for ed in DADOS["edicoes"] if serie_de(ed) is s_)
+        if n:
+            series.append(f'<li><a href="{rel}arquivo/eua/{s_["slug"]}/"><b>{e(s_["curto"])}</b><span>{s_["periodo"]} · {n} {"edição" if n == 1 else "edições"}</span></a></li>')
+    series.append(f'<li><a href="{rel}leituras/"><b>Leituras</b><span>Livros clássicos comentados, capítulo a capítulo</span></a></li>')
+    if CG:
+        series.append(f'<li><a href="{rel}campo-grande/"><b>Campo Grande-MS</b><span>A cidade com o número e a fonte de cada dado</span></a></li>')
+    series_html = "\n          ".join(series)
     corpo = f"""
-<main class="env">
+<main>
 
-  <section class="capa capa-dupla">
-    <article class="manchete">
-      <span class="chapeu opiniao">{LEMA}</span>
-      <h1 class="tit tit-xl">O que os documentos dizem — antes da opinião.</h1>
-      <p class="olho olho-xl">Este é o espaço de Renato W. Gomes, economista. Aqui se lê a economia pelas fontes: os clássicos e os debates que formaram a disciplina, lidos no original e explicados em português, e as contas públicas de hoje, sempre com o documento no rodapé.</p>
-      <div class="assin"><span>Por <b>Renato W. Gomes</b></span><i class="ponto"></i><span>Economista · CORECON-MS 1297</span></div>
-      <figure style="margin-top:20px">
-        <img src="assets/entrevista-palacios.jpg" alt="Renato W. Gomes em entrevista" style="aspect-ratio:16/9;object-fit:cover">
-        <figcaption><b>Renato W. Gomes</b>, economista, em entrevista. <span class="credito">Foto: Miguel Palacios</span></figcaption>
-      </figure>
-    </article>
-
-    <aside class="trilho">
-      <div class="trilho-tit">A série em curso</div>
-      <div class="trilho-num">1886–1929</div>
-      <p class="olho" style="margin-top:6px">As publicações da American Economic Association: monopólios, ferrovias, moeda, trabalho e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes.</p>
-      <a class="botao botao-cheio" href="arquivo/" style="display:inline-block;margin-top:12px">Abrir o arquivo</a>
-
-      <div class="trilho-tit" style="margin-top:30px">A regra da casa</div>
-      <p class="olho" style="margin-top:0">Nenhuma afirmação numérica sem fonte primária citada. Quando o dado não existe, o texto diz que não existe. Erro se corrige no próprio texto, com data.</p>
-    </aside>
-  </section>
-
-  <div class="faixa" id="arquivo">
-    <h2>Arquivo · Clássicos comentados</h2>
-    <span class="sub">Os debates que criaram a economia moderna, edição por edição</span>
-    <a class="mais" href="arquivo/">Ver o arquivo &rarr;</a>
-  </div>
-  <section class="grade-3">
-{cartoes}
-  </section>
-
-  <div class="faixa" id="trabalho">
-    <h2>O que se publica aqui</h2>
-    <span class="sub">E o que vem a seguir</span>
-  </div>
-  <section class="grade-3">
-    <article class="cartao produto">
-      <span class="chapeu">Arquivo</span>
-      <h3 class="tit tit-g">Clássicos comentados</h3>
-      <p class="olho">Uma edição ou obra por semana: resumo em português, o documento original e a ponte com o debate de hoje.</p>
-      <span class="selo">Semanal</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu dado">Análises</span>
-      <h3 class="tit tit-g">Contas públicas com fonte</h3>
-      <p class="olho">Orçamento, arrecadação, renúncia fiscal e investimento — lidos no documento oficial e explicados em linguagem de gente.</p>
-      <span class="selo">Em preparação</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu opiniao">Serviços</span>
-      <h3 class="tit tit-g">Consultoria e palestras</h3>
-      <p class="olho">Planejamento financeiro e tributário para empresas, e palestras sobre economia, finanças públicas e história econômica.</p>
-      <a class="selo" href="servicos/">Conheça &rarr;</a>
-    </article>
-  </section>
-
-  <div class="faixa" id="sobre">
-    <h2>Quem escreve</h2>
-    <span class="sub">E com que método</span>
-    <a class="mais" href="sobre/">Página completa &rarr;</a>
-  </div>
-  <section class="coluna-destaque">
-    <div class="retrato"><img src="assets/retrato-palacios.jpg" alt="Renato W. Gomes" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
-    <div>
-      <h3 class="tit tit-g" style="font-style:normal">Renato W. Gomes</h3>
-      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Trabalha com planejamento contábil, tributário e financeiro de empresas e atuou no mercado financeiro no Rio de Janeiro e em Brasília.</p>
-      <p class="olho">O método é o mesmo para um relatório de 1886 e para o orçamento de 2026: ler o documento original, citar a fonte e separar o que é fato do que é opinião.</p>
-      <div class="assin"><a href="sobre/"><b>Leia o método completo</b></a><i class="ponto"></i><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></div>
+  <section class="boas-vindas">
+    <div class="env">
+      <span class="bv-chapeu">{LEMA}</span>
+      <h1 class="bv-tit">O que os documentos dizem, antes da opinião.</h1>
+      <p class="bv-texto">Clássicos e debates da economia lidos no original e comentados em português, e as contas públicas de hoje com o documento oficial no rodapé. Por <b>Renato W. Gomes</b>, economista (CORECON-MS 1297).</p>
+      <form class="form-linha bv-form" name="assinantes" method="POST" data-netlify="true" action="/obrigado/">
+        <input type="hidden" name="form-name" value="assinantes">
+        <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
+        <button class="botao botao-cheio" type="submit">Assinar</button>
+      </form>
+      <p class="bv-nota">Uma carta por semana, sem custo. Você sai quando quiser.</p>
     </div>
   </section>
 
+  <section class="env vitrine{' vitrine-so' if not lado else ''}">
+    <article class="destaque">
+      <a href="{rel}arquivo/{dest['slug']}/">
+        <figure class="destaque-fig">{fig}</figure>
+        <span class="chapeu">Mais recente · {meta_item(dest)}</span>
+        <h2 class="destaque-tit">{e(dest['titulo'])}</h2>
+        <p class="destaque-olho">{e(dest['chamada'])}</p>
+        <span class="item-meta">Renato W. Gomes · {minutos(dest)} min de leitura</span>
+      </a>
+    </article>
+{lado_html}
+  </section>
+
+  <div class="env dupla">
+    <section class="recentes">
+      <div class="abas" role="navigation" aria-label="Atalhos">
+        <span class="aba ativa">Mais recentes</span>
+        <a class="aba" href="{rel}ensaios/">Ensaios</a>
+        <a class="aba" href="{rel}arquivo/">Arquivo completo</a>
+      </div>
+      <ul class="lista-itens">
+{lista}
+      </ul>
+      <a class="ver-mais" href="{rel}arquivo/eua/">Ver todas as edições &rarr;</a>
+    </section>
+
+    <aside class="lateral">
+      <div class="rotulo-sec">Séries</div>
+      <ul class="lista-series">
+          {series_html}
+      </ul>
+
+      <div class="rotulo-sec">A regra da casa</div>
+      <p class="lateral-txt">Nenhuma afirmação numérica sem fonte primária citada. Quando o dado não existe, o texto diz que não existe. Erro se corrige no próprio texto, com data.</p>
+
+      <div class="rotulo-sec">Quem escreve</div>
+      <div class="autor-mini">
+        <img src="{rel}assets/retrato-palacios.jpg" alt="Renato W. Gomes">
+        <p class="lateral-txt">Economista há 15 anos, consultor independente, especialização em finanças pela FGV. <a href="{rel}sobre/">Trajetória e método &rarr;</a></p>
+      </div>
+      <a class="botao lateral-botao" href="{rel}servicos/">Consultoria e palestras</a>
+    </aside>
+  </div>
+
+  <div class="env">
   {assine()}
+  </div>
 
 </main>
 """
     escreve("", cabeca(f"Economista Renato Gomes — {LEMA}", "Economia pelas fontes: clássicos comentados, contas públicas com documento oficial e consultoria. Por Renato W. Gomes, economista (CORECON-MS 1297).", "", rel)
             + topo("", rel) + corpo + rodape(rel))
-
 
 
 
@@ -375,7 +418,7 @@ def pagina_arquivo():
     rel = "../"
     cards = "\n".join(cartao_colecao(c, "") for c in COLECOES)
     eua = edicoes_de("eua")
-    recentes = "\n".join(cartao_edicao(ed, rel) for ed in eua[-3:][::-1])
+    ultimas = "\n".join(cartao_edicao(ed, rel) for ed in [x for x in recentes() if x.get("colecao", "eua") == "eua"][:3])
     corpo = f"""
 <main class="env">
 {subnav_arquivo("", "")}
@@ -399,7 +442,7 @@ def pagina_arquivo():
     <a class="mais" href="eua/">Ver todas &rarr;</a>
   </div>
   <section class="grade-3">
-{recentes}
+{ultimas}
   </section>
 
   <div class="faixa">
