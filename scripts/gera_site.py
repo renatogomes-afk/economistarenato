@@ -981,6 +981,26 @@ def pagina_tech():
             + topo("tech/", rel) + corpo + rodape(rel))
 
 
+def autores_btc_html(rel):
+    if not AUTORES_BTC:
+        return ""
+    def nome(n, u):
+        return f'<a href="{u}" target="_blank" rel="noopener">{e(n)}</a>' if u else e(n)
+    li = "\n".join(f'      <li><b>{nome(n, u)}.</b> {e(t)}</li>' for n, t, u in AUTORES_BTC)
+    return f"""  <section class="para-quem" id="autores">
+    <h2>Quem me inspira</h2>
+    <p>Esta é uma plataforma aberta: as regras, os testes e as referências ficam à vista. Estes são os autores de onde vêm as ideias testadas aqui.</p>
+    <ul class="lista-min">
+{li}
+    </ul>
+  </section>
+"""
+
+
+# Autores que inspiram o piloto de bitcoin: (nome, o que ele ensina, link opcional). Lista vazia = seção some.
+AUTORES_BTC = []
+
+
 def pagina_bitcoin():
     rel = "../"
     arq = [("1889-um-dolar-honesto", "1889", "Um dólar honesto: a moeda que compra sempre o mesmo"),
@@ -1007,7 +1027,7 @@ def pagina_bitcoin():
   <section class="heroi heroi-interno">
     <p class="heroi-quem">Bitcoin · piloto · Renato W. Gomes, economista</p>
     <h1>Análise técnica no bitcoin: o que funciona quando a gente testa?</h1>
-    <p class="heroi-olho">Médias móveis, IFR, rompimentos, MACD. Cada sinal gráfico é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, com o retorno, o risco e a pior queda à vista.</p>
+    <p class="heroi-olho">Uma plataforma aberta: médias móveis, IFR, rompimentos, MACD. Cada sinal gráfico é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, com o retorno, o risco e a pior queda à vista.</p>
     <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
   </section>
 
@@ -1031,6 +1051,7 @@ def pagina_bitcoin():
     <p class="nota-min">Piloto: primeiros resultados em preparação. Regras e parâmetros podem mudar até o fim do piloto, e cada mudança fica registrada.</p>
   </section>
 
+{autores_btc_html(rel)}
   <section class="para-quem" id="fontes">
     <h2>As fontes</h2>
     <p>Em 31 de outubro de 2008, Satoshi Nakamoto publicou <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener"><i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></a> (“Bitcoin: um sistema de dinheiro eletrônico ponto a ponto”). E a pergunta de fundo, o que acontece quando a quantidade de moeda não pode crescer à vontade, foi debatida com dados no fim do século XIX. No Arquivo:</p>
