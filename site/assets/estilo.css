@@ -768,3 +768,6 @@ figcaption .credito::before{content:"· "}
 .curvas-btc{width:100%;height:auto;margin:8px 0 4px;font-family:var(--sans);font-size:11px;fill:var(--cinza)}
 .curvas-btc .g{stroke:var(--linha)}.curvas-btc .g1{stroke:#1A1A1A;stroke-dasharray:4 3}
 .legenda-btc{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--sans);font-size:12px;color:var(--tinta-2)}
+.placar{list-style:none;padding:0;margin:10px 0 14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:6px 18px;font-family:var(--sans);font-size:13px}
+.placar li.sim b{color:#0a7d35}.placar li.nao b{color:var(--alerta)}
+.tab-btc tr.consenso td{font-weight:600;background:#fdf0eb}

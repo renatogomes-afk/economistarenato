@@ -1105,6 +1105,29 @@ def diario_btc_html():
 CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4",
              "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700",
              "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a"}
+COR_CONSENSO = "#e4572e"
+
+
+def cor_btc(nome):
+    return COR_CONSENSO if nome.startswith("Consenso") else CORES_BTC.get(nome, "#666")
+
+
+def consenso_btc_html(D):
+    C = D.get("consenso")
+    if not C:
+        return ""
+    votos = "".join(f'<li class="{"sim" if v else "nao"}"><i class="cor" style="background:{cor_btc(n)}"></i>{e(n)}: <b>{"comprado" if v else "fora"}</b></li>' for n, v in C["votos_por_sinal"].items())
+    def pct(x):
+        return f"{x * 100:+.1f}%".replace(".", ",")
+    var = "".join(f'<tr{" class=regua" if int(k) == C["limite"] else ""}><td>{k} de 7{" (unanimidade)" if int(k) == 7 else ""}</td><td class="num">{f'{v["btc_final"]:.2f}'.replace(".", ",")}</td><td class="num">{pct(v["pior_queda"])}</td><td class="num">{v["operacoes"]}</td></tr>' for k, v in sorted(C["variantes"].items(), key=lambda kv: int(kv[0])))
+    return f"""    <h3 class="conceito-tit">O placar dos sete sinais: {C['votos_agora']} de 7 comprados</h3>
+    <p>A regra do consenso não inventa nada: ela só ouve os sete sinais dos autores. Muda de posição quando pelo menos {C['limite']} de 7 concordam{' (unanimidade)' if C['limite'] == 7 else ''}; enquanto não há acordo, espera.</p>
+    <ul class="placar">{votos}</ul>
+    <div class="tab-rolagem"><table class="tab-btc" style="min-width:0">
+      <thead><tr><th>Quantos precisam concordar</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th><th class="num">Operações</th></tr></thead>
+      <tbody>{var}</tbody>
+    </table></div>
+"""
 
 
 def curvas_btc_svg(D):
@@ -1129,9 +1152,9 @@ def curvas_btc_svg(D):
     linhas = []
     for nome in sorted(nomes, key=lambda x: x == "Comprar e segurar"):
         pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(D["curvas"][nome]))
-        largura = 2.4 if nome == "Comprar e segurar" else 1.5
-        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{CORES_BTC.get(nome, "#666")}" stroke-width="{largura}"><title>{e(nome)}</title></polyline>')
-    leg = "".join(f'<span><i style="background:{CORES_BTC.get(x, "#666")}"></i>{e(x)}</span>' for x in nomes)
+        largura = 2.4 if nome == "Comprar e segurar" or nome.startswith("Consenso") else 1.5
+        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{cor_btc(nome)}" stroke-width="{largura}"><title>{e(nome)}</title></polyline>')
+    leg = "".join(f'<span><i style="background:{cor_btc(x)}"></i>{e(x)}</span>' for x in nomes)
     return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia teria, semana a semana, em escala logarítmica">'
             + "".join(grade) + "".join(anos) + "".join(linhas) + f'</svg>\n    <div class="legenda-btc">{leg}</div>')
 
@@ -1154,7 +1177,7 @@ def acompanhamento_btc_html():
     p0 = D["ultimo_fech_brl"]
     linhas = []
     for r in sorted(D["estrategias"], key=lambda x: -x["btc_final"]):
-        cls = ' class="regua"' if r["nome"] == "Comprar e segurar" else ""
+        cls = ' class="regua"' if r["nome"] == "Comprar e segurar" else ' class="consenso"' if r["nome"].startswith("Consenso") else ""
         pos = "Comprado" if r["comprado"] else "No CDI"
         if r["nome"] == "Só CDI":
             prox = "Ficar no CDI"
@@ -1167,7 +1190,7 @@ def acompanhamento_btc_html():
         ret = pct(v / v0 - 1) if v0 else "–"
         linhas.append(
             f'        <tr{cls} data-btc="{r["btc"]:.8f}" data-caixa="{r["caixa_brl"]:.2f}" data-v0="{v0:.2f}">\n'
-            f'          <td><i class="cor" style="background:{CORES_BTC.get(r["nome"], "#666")}"></i>{e(r["nome"])}</td>\n'
+            f'          <td><i class="cor" style="background:{cor_btc(r["nome"])}"></i>{e(r["nome"])}</td>\n'
             f'          <td>{pos}<small>desde {br(r["desde"])}</small></td>\n'
             f'          <td class="num vivo-btc">{num(v / p0, 3)}</td>\n'
             f'          <td class="num vivo-ret">{ret}</td>\n'
@@ -1196,6 +1219,7 @@ def acompanhamento_btc_html():
       <script src="https://s3.tradingview.com/tv.js"></script>
       <script>if(window.TradingView)new TradingView.widget({tv});</script>
     </div>
+{consenso_btc_html(D)}
     <div class="tab-rolagem">
     <table class="tab-btc">
       <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>

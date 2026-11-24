@@ -139,6 +139,22 @@ def sinais(px):
     return s
 
 
+VOTANTES = ["Média de 40 semanas", "Cruzamento 10 x 40 semanas", "IFR semanal (30/70)", "Rompimento 20 semanas",
+            "MACD semanal", "Topos e fundos (Dow)", "Faixas de percentis 52 semanas"]
+CONSENSO = 7  # quantos dos 7 sinais precisam concordar para mudar de posição (7 = unanimidade). Renato decide.
+
+
+def consenso(s, k):
+    """Entra quando pelo menos k dos 7 sinais estão comprados; sai quando pelo menos k estão fora; senão, mantém."""
+    n, est, out = len(s[VOTANTES[0]]), True, []
+    for i in range(n):
+        votos = sum(s[v][i] for v in VOTANTES)
+        if votos >= k: est = True
+        elif len(VOTANTES) - votos >= k: est = False
+        out.append(est)
+    return out
+
+
 def simula(px, dentro, brl, cdi, ini):
     datas = [p["data"] for p in px]
     c = [p["fech"] * brl[k] for k, p in enumerate(px)]  # preço em reais
@@ -184,6 +200,13 @@ def main():
     cdi = [ultimo_ate(cdi_d, p["data"]) or 0.0 for p in px]
     ini = 52  # um ano de histórico para todos os indicadores terem dados
     sin = sinais(px)
+    votos = [sum(sin[v][i] for v in VOTANTES) for i in range(len(px))]
+    variantes = {}
+    for k in range(4, 8):
+        d = consenso(sin, k)
+        r = simula(px, [d[0]] + d[:-1], brl, cdi, ini)
+        variantes[k] = {x: r[x] for x in ("btc_final", "retorno_anual_brl", "pior_queda", "operacoes", "tempo_comprado")}
+    sin[f"Consenso ({CONSENSO} de 7)"] = consenso(sin, CONSENSO)
     # Sinal visto no fechamento da semana t é executado no fechamento da semana t+1 (sem olhar o futuro).
     res = {nome: simula(px, [d[0]] + d[:-1], brl, cdi, ini) for nome, d in sin.items()}
     so_cdi = simula(px, [False] * len(px), brl, cdi, ini)
@@ -205,12 +228,17 @@ def main():
              "semanas": len(datas), "taxa_por_operacao": TAXA, "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
              "ultimo_fech_usd": ult["fech"], "ultimo_fech_brl": ult["fech"] * brl[-1], "ptax": brl[-1],
              "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
+             "consenso": {"limite": CONSENSO, "votantes": VOTANTES, "votos_agora": votos[-1],
+                          "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}, "variantes": variantes},
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
     print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
+    print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")
+    for k, r in variantes.items():
+        print(f"  Consenso {k} de 7: {r['btc_final']:.3f} BTC, pior queda {r['pior_queda']:.1%}, {r['operacoes']} operações")
     for r in sorted(tabela, key=lambda x: -x["btc_final"]):
         print(f"{r['nome']:34} {r['btc_final']:9.3f} {r['retorno_anual_brl']:8.1%} {r['volatilidade_anual']:6.0%} {r['pior_queda']:10.1%} {r['operacoes']:5d} {r['tempo_comprado']:8.0%} {'dentro' if r['sinal_para_esta_semana'] else 'fora':>6}")
 
