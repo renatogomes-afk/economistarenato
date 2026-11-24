@@ -1331,6 +1331,66 @@ def consenso_btc_html(D):
 """
 
 
+def quatro_tres_btc_html(D):
+    """Por que o consenso 4 x 3 tem vencido e o que ele diz hoje. Todo número sai dos dados, para o texto
+    se atualizar sozinho a cada semana."""
+    nome = "Consenso 4 x 3"
+    est = {r["nome"]: r for r in D["estrategias"]}
+    A = D.get("anuais_usd")
+    if nome not in est or not A:
+        return ""
+    r = est[nome]
+    P, anos = A["por_estrategia"], A["anos"]
+    btc, cc = P["Comprar e segurar"], P[nome]
+    p0 = lambda x: "0%" if abs(x) < 0.005 else f"{x * 100:+.0f}%".replace("-", "−")
+    num = lambda x, k=0: f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    ruins = [(a, b, c) for a, b, c in zip(anos, btc, cc) if b < 0]
+    ruins_txt = "; ".join(f"em {a}{' (até agora)' if a == anos[-1] else ''}, o bitcoin fez {p0(b)} e o 4 x 3, {p0(c)}" for a, b, c in ruins)
+    a_bom, b_bom, c_bom = max(zip(anos[1:], btc[1:], cc[1:]), key=lambda x: x[1] - x[2])
+    tendencia = ["Média de 40 semanas", "Cruzamento 10 x 40 semanas", "Rompimento 20 semanas", "MACD semanal", "Topos e fundos (Dow)"]
+    quedas = [est[n]["pior_queda"] for n in tendencia if n in est]
+    m40 = est.get("Média de 40 semanas")
+    rigidos = [est[n] for n in ("Consenso 7 x 0", "Consenso 6 x 1") if n in est]
+    O = {}
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "otimizacao.json")
+    if os.path.exists(arq):
+        O = json.load(open(arq, encoding="utf-8"))
+    fam = next((x for x in O.get("por_familia", []) if x["familia"] == "Consenso dos 7"), None)
+    oos = (f" Na prova fora da amostra, em que cada família escolhe sua regra sem ver os anos seguintes, o consenso escolhido foi o {e(fam['escolhida'])}, "
+           f"com índice de Sharpe de {num(fam['fora']['sharpe'], 2)} de {data_br(O['fora'][0])} para cá.") if fam else ""
+    # o call de hoje
+    C = D["consenso"]
+    v = C["votos_agora"]
+    dentro = r["comprado"]
+    sim = [n for n, x in C["votos_por_sinal"].items() if x]
+    nao = [n for n, x in C["votos_por_sinal"].items() if not x]
+    falta = (4 - v) if not dentro else (v - 3)
+    lado, contra = ("compra", nao) if not dentro else ("venda", sim)
+    ordens = sorted([(est[n]["ordem_book"]["nivel_usd"], n) for n in contra
+                     if est.get(n, {}).get("ordem_book") and est[n]["ordem_book"]["tipo"] == lado], reverse=dentro)
+    fech = [n for n in contra if n not in D.get("regras_book", [])]
+    pos = "no CDI" if not dentro else "comprado em bitcoin"
+    acao = "comprar" if not dentro else "vender"
+    lista = lambda xs: ", ".join(xs[:-1]) + " e " + xs[-1] if len(xs) > 1 else (xs[0] if xs else "nenhum")
+    ult = D["ultimo_fech_usd"]
+    ordens_txt = "; ".join(f"{e(n)} tem ordem de {lado} no book a US$ {num(x)} ({abs(x / ult - 1) * 100:.0f}% {'acima' if x > ult else 'abaixo'} do fechamento)" for x, n in ordens)
+    call = (f"<p>No fechamento de {data_br(D['fim'])}, o placar ficou em <b>{v} de 7 comprados</b> "
+            f"({e(lista(sim))} a favor; {e(lista(nao))} fora). Pela regra, o 4 x 3 está <b>{pos}</b> desde {data_br(r['desde'])} "
+            f"e continua assim enquanto a maioria não virar. Para {acao}, falta{'m' if falta > 1 else ''} <b>{falta} voto{'s' if falta > 1 else ''}</b>.</p>\n"
+            f"    <p>Há dois caminhos para isso acontecer. No meio da semana, pelas ordens no book (o fechamento foi de US$ {num(ult)}): {ordens_txt or 'nenhuma ordem na direção da virada nesta semana'}. "
+            f"Se uma dessas ordens for acionada, o placar muda na hora, e o 4 x 3, que é regra de fechamento, opera no fechamento de domingo dessa mesma semana. No fechamento de domingo, pelas regras de fechamento "
+            f"que ainda votam contra ({e(lista(fech)) if fech else 'nenhuma'}). O gráfico da semana, acima, recalcula o placar a cada minuto com o preço da Coinbase.</p>")
+    return f"""    <h3 class="conceito-tit">Por que o consenso 4 x 3 tem vencido?</h3>
+    <p>Não é porque acerta mais as altas. Ele ganha porque erra menos nas baixas. Em dólares, nos anos de queda do bitcoin, {ruins_txt}. Nos anos bons, ele fica atrás: em {a_bom}, o bitcoin fez {p0(b_bom)} e o 4 x 3, {p0(c_bom)}. A conta favorece quem foge da queda: quem perde 67% precisa subir 200% só para voltar ao ponto de partida.</p>
+    <p>O 4 x 3 é a maioria simples dos sete sinais. Com sete votos sempre há quatro de um lado, então ele nunca fica em cima do muro. Cinco dos sete sinais seguem tendência (média, cruzamento, rompimento, MACD e topos e fundos); na prática, o 4 x 3 é um seguidor de tendência suavizado, que só entra quando vários critérios confirmam a alta e sai quando a maioria vira.</p>
+    <p>A votação filtra o erro de cada regra, como uma carteira diversificada de sinais. O rompimento compra tarde, a média de 40 semanas entra e sai demais, o IFR fica parado meses. O 4 x 3 fez {r['operacoes']} operações{f", contra {m40['operacoes']} da média de 40 semanas" if m40 else ""}, e sua pior queda foi de {p0(r['pior_queda'])}, contra {p0(est['Comprar e segurar']['pior_queda'])} de quem só segurou bitcoin (os sinais de tendência isolados ficaram entre {p0(max(quedas))} e {p0(min(quedas))}). Os consensos mais exigentes ficam de fora demais e perdem as altas grandes: {" e ".join(f"o {x['nome'][9:]} ficou comprado {x['tempo_comprado'] * 100:.0f}% do tempo" for x in rigidos)}. O 4 x 3 ficou comprado {r['tempo_comprado'] * 100:.0f}% do tempo.{oos}</p>
+    <p class="nota-min">Na minha leitura, há três cuidados. São poucos ciclos de baixa em dez anos, pouco evento para certeza estatística. O 4 x 3 foi escolhido depois de ver os quatro consensos, o que traz algum viés de seleção. E a vantagem depende de o bitcoin continuar tendo quedas longas e bem definidas; num mercado lateral e picotado, a maioria vira muitas vezes e o custo sobe.</p>
+    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>
+    {call}
+    <p class="nota-min">Isto é a leitura mecânica da regra, publicada como experimento, e não recomendação de investimento.</p>
+"""
+
+
 # Seletor de janela: lê bitcoin/valores.json (valor semanal em R$ de cada estratégia) e recalcula a tabela.
 JANELA_JS = r"""
 (function(){
@@ -1616,6 +1676,7 @@ def acompanhamento_btc_html():
     </div>
 {grafico_semana_btc_svg(D)}
 {consenso_btc_html(D)}
+{quatro_tres_btc_html(D)}
     <div class="tab-rolagem">
     <table class="tab-btc">
       <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>
