@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: bitcoin-robo
+  cancel-in-progress: false
+
 jobs:
   testa:
     runs-on: ubuntu-latest

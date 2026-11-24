@@ -1765,7 +1765,7 @@ def acompanhamento_btc_html():
     return {"painel": painel, "estrategias": estrategias, "historico": historico}
 
 
-BTC_PAGINAS = [("", "Painel"), ("estrategias/", "Estratégias"), ("historico/", "Histórico"), ("boletim/", "Boletim semanal")]
+BTC_PAGINAS = [("", "Painel"), ("diario/", "Boletim diário"), ("boletim/", "Boletim semanal"), ("estrategias/", "Estratégias"), ("historico/", "Histórico")]
 AVISO_BTC = '<p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>'
 
 
@@ -1853,7 +1853,7 @@ def paginas_boletim_btc():
 {ult}  {AVISO_BTC}
 </main>
 """
-    escreve("bitcoin/boletim", cabeca("Boletim semanal do bitcoin — Renato W. Gomes, economista", "Toda semana, o que cada estratégia de análise técnica fez no bitcoin: placar dos sinais, operações, ordens e resultado.", "bitcoin/boletim/", rel)
+    escreve("bitcoin/boletim", cabeca("Boletim semanal do bitcoin — Renato W. Gomes, economista", "Toda semana, o que cada estratégia de análise técnica fez no bitcoin: placar dos sinais, operações, ordens e resultado.", "bitcoin/boletim/", "bitcoin/diario/", rel)
             + topo("bitcoin/", rel) + corpo + rodape(rel))
     for k, B in enumerate(bs):
         rel3 = "../../../"
@@ -1883,6 +1883,108 @@ def paginas_boletim_btc():
     return bs
 
 
+def diarios_btc():
+    pasta = os.path.join(RAIZ, "scripts", "bitcoin", "diarios")
+    if not os.path.isdir(pasta):
+        return [], None
+    bs = [json.load(open(os.path.join(pasta, f), encoding="utf-8")) for f in os.listdir(pasta) if f.endswith(".json") and f != "parcial.json"]
+    arq = os.path.join(pasta, "parcial.json")
+    parcial = json.load(open(arq, encoding="utf-8")) if os.path.exists(arq) else None
+    if parcial and any(B["data"] == parcial["data"] for B in bs):
+        parcial = None
+    return sorted(bs, key=lambda B: B["data"], reverse=True), parcial
+
+
+DIAS_SEM = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
+
+
+def diario_txt(B):
+    u = B["btc_usd"]
+    d = f"{(u['fech'] / u['ontem'] - 1) * 100:+.1f}% no dia; ".replace(".", ",").replace("-", "−") if u.get("ontem") else ""
+    w = f"{(u['fech'] / u['domingo'] - 1) * 100:+.1f}% na semana".replace(".", ",").replace("-", "−")
+    mud = sum(1 for x in B["estrategias"] if x["mudou"])
+    return f"Bitcoin a US$ {u['fech']:,.0f}".replace(",", ".") + f"; {d}{w}; placar {B['votos_agora']} de 7" + (f"; {mud} mudança{'s' if mud > 1 else ''} desde domingo" if mud else "") + "."
+
+
+def diario_html(B):
+    num = lambda x, k=0: f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    p1 = lambda x: "0,0%" if abs(x) < 0.0005 else f"{x * 100:+.1f}%".replace(".", ",").replace("-", "−")
+    u = B["btc_usd"]
+    D = dt.date.fromisoformat(B["data"])
+    quando = (f"até {B['gerado_em'][11:16]} UTC (parcial: o dia fecha à meia-noite UTC, 20h em Cuiabá)" if B.get("parcial") else "no fechamento do dia (meia-noite UTC)")
+    dia = f", {p1(u['fech'] / u['ontem'] - 1)} sobre o dia anterior" if u.get("ontem") else ""
+    acion = [x for x in B["estrategias"] if x["book"] and x["mudou"]]
+    acion_txt = "".join(f"<li>{e(x['nome'])}: ordem de {'compra' if x['agora'] else 'venda'} acionada a US$ {num(x['acionada_usd'])}. Vale como operação feita.</li>" for x in acion) or "<li>Nenhuma ordem acionada até aqui.</li>"
+    pend = [x for x in B["estrategias"] if x["book"] and not x["mudou"] and x.get("ordem")]
+    pend_txt = "".join(f"<li>{e(x['nome'])}: {x['ordem']['tipo']} a US$ {num(x['ordem']['nivel_usd'])} ({p1(x['ordem']['nivel_usd'] / u['fech'] - 1)} do preço atual)</li>" for x in pend) or "<li>Nenhuma ordem pendente.</li>"
+    fech = [x for x in B["estrategias"] if not x["book"]]
+    fech_txt = "".join(f"<li>{e(rot_btc(x['nome']))}: {'comprado' if x['domingo'] else 'no CDI'} desde domingo; "
+                       + (f"<b>{'compraria' if x['agora'] else 'venderia'}</b>" if x["mudou"] else f"ficaria {'comprado' if x['agora'] else 'no CDI'}") + "</li>" for x in fech)
+    return f"""    <p>{DIAS_SEM[D.weekday()].capitalize()}, {data_br(B['data'])}, {quando}. O bitcoin estava a <b>US$ {num(u['fech'])}</b>{dia}, e {p1(u['fech'] / u['domingo'] - 1)} sobre o fechamento de domingo, {data_br(B['domingo'])} (US$ {num(u['domingo'])}). No dia, mínima de US$ {num(u['baixa'])} e máxima de US$ {num(u['alta'])}; na semana até aqui, de US$ {num(u['baixa_semana'])} a US$ {num(u['alta_semana'])}.</p>
+    <p><b>Placar dos sete sinais: {B['votos_agora']} de 7</b> se a semana fechasse agora (no domingo, {B['votos_domingo']}).</p>
+    <h3 class="conceito-tit">Ordens no book acionadas na semana</h3>
+    <ul class="lista-min">{acion_txt}</ul>
+    <h3 class="conceito-tit">Ordens ainda pendentes</h3>
+    <ul class="lista-min">{pend_txt}</ul>
+    <h3 class="conceito-tit">Regras de fechamento: se a semana fechasse agora</h3>
+    <ul class="lista-min">{fech_txt}</ul>
+    <p class="nota-min">As regras de fechamento só decidem no domingo; até lá, isto é uma prévia. Ordens no book acionadas já valem. Fonte: Coinbase, velas diárias BTC-USD (UTC). Gerado em {e(B['gerado_em'])}{"" if B.get("parcial") else " e não alterado depois"}.</p>
+"""
+
+
+def paginas_diario_btc():
+    bs, parcial = diarios_btc()
+    rel = "../../"
+    lista = "\n".join(f'      <li><a href="{B["data"]}/"><b>{data_br(B["data"])}</b> · {e(diario_txt(B))}</a></li>' for B in bs) or "      <li>O primeiro boletim diário sai hoje à noite, depois do fechamento do dia.</li>"
+    topo_ = parcial or (bs[0] if bs else None)
+    destaque = (f'  <section class="para-quem">\n    <h2>{"Hoje, até agora" if topo_.get("parcial") else "Último dia fechado"}: {data_br(topo_["data"])}</h2>\n{diario_html(topo_)}  </section>\n') if topo_ else ""
+    corpo = f"""
+<main class="env pagina-min">
+{sub_btc("diario/", "../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · piloto · boletim diário</p>
+    <h1>Boletim diário</h1>
+    <p class="heroi-olho">Todo dia, às 20h10 de Cuiabá, logo depois do fechamento do dia na Coinbase: o preço, as ordens no book acionadas na semana e o que as regras de fechamento decidiriam se a semana terminasse ali. As estratégias continuam semanais; o boletim diário mostra a semana andando. <a href="feed.xml">Assine pelo RSS</a>.</p>
+  </section>
+{destaque}  <section class="para-quem">
+    <h2>Todos os dias</h2>
+    <ul class="lista-min">
+{lista}
+    </ul>
+  </section>
+  {AVISO_BTC}
+</main>
+"""
+    escreve("bitcoin/diario", cabeca("Boletim diário do bitcoin — Renato W. Gomes, economista", "Todo dia, o preço do bitcoin, as ordens no book acionadas e o que as estratégias semanais decidiriam se a semana fechasse ali.", "bitcoin/diario/", rel)
+            + topo("bitcoin/", rel) + corpo + rodape(rel))
+    for k, B in enumerate(bs):
+        rel3 = "../../../"
+        ant = f'<a href="../{bs[k + 1]["data"]}/">← {data_br(bs[k + 1]["data"])}</a>' if k + 1 < len(bs) else ""
+        prox = f'<a href="../{bs[k - 1]["data"]}/">{data_br(bs[k - 1]["data"])} →</a>' if k > 0 else ""
+        corpo = f"""
+<main class="env pagina-min">
+{sub_btc("diario/", "../../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · boletim diário</p>
+    <h1>Boletim de {data_br(B['data'])}</h1>
+  </section>
+  <section class="para-quem">
+{diario_html(B)}    <p class="nav-boletim">{ant} <a href="../">Todos os dias</a> {prox}</p>
+  </section>
+  {AVISO_BTC}
+</main>
+"""
+        escreve(f"bitcoin/diario/{B['data']}", cabeca(f"Bitcoin, boletim de {data_br(B['data'])} — Renato W. Gomes, economista", diario_txt(B), f"bitcoin/diario/{B['data']}/", rel3, "article")
+                + topo("bitcoin/", rel3) + corpo + rodape(rel3))
+    base = "https://economistarenato.com.br/bitcoin/diario/"
+    itens = "".join(f"<item><title>Bitcoin, {data_br(B['data'])}</title><link>{base}{B['data']}/</link><guid>{base}{B['data']}/</guid>"
+                    f"<pubDate>{dt.datetime.fromisoformat(B['data'] + 'T23:59:00').strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>"
+                    f"<description>{e(diario_txt(B))}</description></item>" for B in bs[:60])
+    os.makedirs(os.path.join(SITE, "bitcoin", "diario"), exist_ok=True)
+    open(os.path.join(SITE, "bitcoin", "diario", "feed.xml"), "w", encoding="utf-8").write(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Boletim diário do bitcoin · Renato W. Gomes</title>'
+        f'<link>{base}</link><description>O bitcoin e as estratégias semanais, dia a dia.</description><language>pt-BR</language>{itens}</channel></rss>\n')
+    return topo_
+
+
 def pagina_bitcoin():
     rel = "../"
     arq = [("1889-um-dolar-honesto", "1889", "Um dólar honesto: a moeda que compra sempre o mesmo"),
@@ -1908,12 +2010,15 @@ def pagina_bitcoin():
     </li>""" for k, (n, t) in enumerate(estrategias, 1))
     P = acompanhamento_btc_html()
     bs = paginas_boletim_btc()
+    hoje = paginas_diario_btc()
+    ult_d = (f'  <section class="para-quem">\n    <h2>{"Hoje, até agora" if hoje.get("parcial") else "Último dia"}: {data_br(hoje["data"])}</h2>\n    <p>{e(diario_txt(hoje))} <a href="diario/">Ler o boletim diário</a></p>\n  </section>\n') if hoje else ""
     ult = (f'  <section class="para-quem">\n    <h2>Último boletim: {data_br(bs[0]["data"])}</h2>\n    <p>{e(boletim_txt(bs[0]))} <a href="boletim/{bs[0]["data"]}/">Ler o boletim</a> · <a href="boletim/">todas as semanas</a></p>\n  </section>\n') if bs else ""
     portas = """  <section class="para-quem">
     <h2>No resto do piloto</h2>
     <ul class="lista-min">
       <li><a href="estrategias/"><b>Estratégias</b></a>: as regras, os autores, por que o consenso 4 x 3 tem vencido e os pontos fortes e fracos de cada uma.</li>
       <li><a href="historico/"><b>Histórico</b></a>: o teste desde 2016, ano a ano em reais e em dólares, a janela que você escolher e a otimização corrigida pelo risco.</li>
+      <li><a href="diario/"><b>Boletim diário</b></a>: todo dia às 20h10 de Cuiabá, a semana andando: preço, ordens acionadas e o que as regras decidiriam se a semana fechasse ali.</li>
       <li><a href="boletim/"><b>Boletim semanal</b></a>: o registro de cada semana, gravado na segunda-feira e não alterado depois.</li>
     </ul>
   </section>
@@ -1926,7 +2031,7 @@ def pagina_bitcoin():
     <p class="heroi-olho">Sete sinais de análise técnica e quatro consensos entre eles, no gráfico semanal, testados desde 2016 contra comprar e segurar e contra o CDI, e acompanhados ao vivo. Esta página mostra o agora; o histórico e as regras ficam a um clique.</p>
     <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="boletim/">Ler o boletim semanal</a></p>
   </section>
-{ult}{P["painel"]}{portas}
+{ult_d}{ult}{P["painel"]}{portas}
   {AVISO_BTC}
 
   {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual sinal ou indicador você gostaria de ver testado?", "bitcoin/", "Receba os resultados")}

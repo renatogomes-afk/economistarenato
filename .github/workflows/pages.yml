@@ -6,7 +6,7 @@ on:
     branches: [main]
   # Os commits feitos pelo robô do teste de bitcoin não disparam "push"; este gatilho publica depois dele.
   workflow_run:
-    workflows: ["Bitcoin - teste dos sinais"]
+    workflows: ["Bitcoin - teste dos sinais", "Bitcoin - boletim diário"]
     types: [completed]
     branches: [main]
   workflow_dispatch:

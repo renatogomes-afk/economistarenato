@@ -26,8 +26,10 @@ verificável, sempre visível para o leitor.
 três portas), não divulgada. O marketing vai direto para cada página de entrada, que precisa funcionar sozinha:
 `/tech/` (agentes de IA para PMEs, com o contato), `/historia/` (livros comentados: Leituras) e `/economia/`
 (periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
-para `/tech/`. `/bitcoin/` é o piloto público de análise técnica, em quatro páginas (24/11/2026): painel ao vivo (`/bitcoin/`),
-`/bitcoin/estrategias/`, `/bitcoin/historico/` e `/bitcoin/boletim/`. O boletim semanal é gravado pelo backtest toda
+para `/tech/`. `/bitcoin/` é o piloto público de análise técnica, em cinco páginas (24/11/2026): painel ao vivo (`/bitcoin/`),
+`/bitcoin/diario/`, `/bitcoin/boletim/`, `/bitcoin/estrategias/` e `/bitcoin/historico/`. O boletim diário é gravado todo dia às 00:10 UTC
+por `scripts/bitcoin/diario.py` (workflow `bitcoin-diario.yml`) em `scripts/bitcoin/diarios/AAAA-MM-DD.json`, nunca reescrito; rodado à mão,
+grava também `diarios/parcial.json` (prévia do dia em curso). O boletim semanal é gravado pelo backtest toda
 segunda em `scripts/bitcoin/boletins/AAAA-MM-DD.json` (uma vez, nunca reescrito); nota do autor opcional em
 `scripts/bitcoin/notas_boletim.csv` (data, nota). Autores em `AUTORES_BTC`. `/ms/` (24/11/2026) é a página de entrada de Mato Grosso do Sul: seis números de Campo Grande (de `indicador` em `scripts/campo-grande/livro.json`, lista `NUMEROS_MS`) e links para situação atual, livro e notícias de `/campo-grande/`; contas do Estado em preparação. Análises segue sem link. Newsletter desligada (`assine()` devolve vazio).
 Contato: FormSubmit (`FORM_CONTATO`/`EMAIL_CONTATO` em `gera_site.py`), volta para `/obrigado/`.
