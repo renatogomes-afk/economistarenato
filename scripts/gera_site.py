@@ -987,14 +987,28 @@ def autores_btc_html(rel):
     def nome(n, u):
         return f'<a href="{u}" target="_blank" rel="noopener">{e(n)}</a>' if u else e(n)
     li = "\n".join(f'      <li><b>{nome(n, u)}.</b> {e(t)}</li>' for n, t, u in AUTORES_BTC)
+    obras = "\n".join(f'      <li><a href="{u}" target="_blank" rel="noopener"><i>{e(t)}</i></a> ({a}), {e(au)}. <span class="nota-min">{h}</span></li>' for au, t, a, u, h in OBRAS_BTC)
     return f"""  <section class="para-quem" id="autores">
     <h2>Quem me inspira</h2>
     <p>Esta é uma plataforma aberta: as regras, os testes e as referências ficam à vista. Estes são os sete autores de onde vêm as ideias testadas aqui, em ordem cronológica.</p>
     <ul class="lista-min">
 {li}
     </ul>
+    <h2 style="margin-top:28px">Leia no original</h2>
+    <p>Os textos fundadores, de Dow e Wyckoff, estão em domínio público. Os demais autores têm direitos autorais em vigor; os livros estão à venda.</p>
+    <ul class="lista-min">
+{obras}
+    </ul>
   </section>
 """
+
+
+# Obras dos autores em domínio público (conferidas em 24/11/2026): (autor, título, ano, link, host)
+OBRAS_BTC = [
+    ("S. A. Nelson, com os editoriais de Charles Dow", "The ABC of Stock Speculation", "1903", "https://catalog.hathitrust.org/Record/001740713", "HathiTrust"),
+    ("William Peter Hamilton, sucessor de Dow no Wall Street Journal", "The Stock Market Barometer", "1922", "https://babel.hathitrust.org/cgi/pt?id=uc2.ark:/13960/t42r3r118", "HathiTrust"),
+    ("Richard D. Wyckoff", "How I Trade and Invest in Stocks and Bonds", "1922", "https://archive.org/details/cu31924031269552", "Internet Archive"),
+]
 
 
 # Autores que inspiram o piloto de bitcoin: (nome, o que ele ensina, link opcional). Lista vazia = seção some.
