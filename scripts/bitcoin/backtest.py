@@ -13,10 +13,18 @@ TAXA = 0.0025
 AQUI = os.path.dirname(os.path.abspath(__file__))
 
 
-def baixa(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "research-client"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode())
+def baixa(url, tentativas=5):
+    """Baixa JSON; as APIs às vezes devolvem resposta vazia ou erro passageiro, então tenta de novo com espera crescente."""
+    import time
+    for t in range(tentativas):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "research-client"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read().decode())
+        except Exception:
+            if t == tentativas - 1:
+                raise
+            time.sleep(5 * (t + 1))
 
 
 def btc_semanal():
