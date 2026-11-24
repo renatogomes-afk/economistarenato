@@ -1107,11 +1107,11 @@ def diario_btc_html():
 CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4",
              "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700",
              "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a"}
-COR_CONSENSO = "#e4572e"
+CORES_CONSENSO = {"Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}
 
 
 def cor_btc(nome):
-    return COR_CONSENSO if nome.startswith("Consenso") else CORES_BTC.get(nome, "#666")
+    return CORES_CONSENSO.get(nome) or CORES_BTC.get(nome, "#666")
 
 
 def data_br(iso):
@@ -1150,7 +1150,7 @@ function sinais(c){var n=c.length,s={},i,est,out,r,m,sig;
  est=false;out=[];var topo=null,fundo=null;for(i=0;i<n;i++){var j=i-2;if(j>=2){var w=c.slice(j-2,j+3);if(c[j]==Math.max.apply(null,w))topo=c[j];if(c[j]==Math.min.apply(null,w))fundo=c[j]}
   if(topo!==null&&!est&&c[i]>topo)est=true;else if(fundo!==null&&est&&c[i]<fundo)est=false;out.push(est)}s['Topos e fundos (Dow)']=out;
  est=false;out=[];var pa=null;for(i=0;i<n;i++){var pc=null;if(i>=52){var q=0;for(var k=i-52;k<i;k++)if(c[k]<c[i])q++;pc=100*q/52;if(pa!==null){if(!est&&pa<20&&20<=pc)est=true;else if(est&&pa>80&&80>=pc)est=false}}pa=pc;out.push(est)}s['Faixas de percentis 52 semanas']=out;
- var K=G.limite,V=G.votantes;est=true;out=[];for(i=0;i<n;i++){var v=0;V.forEach(function(x){if(s[x][i])v++});if(v>=K)est=true;else if(V.length-v>=K)est=false;out.push(est)}s['Consenso ('+K+' de 7)']=out;
+ var V=G.votantes;G.limites.forEach(function(K){est=true;out=[];for(i=0;i<n;i++){var v=0;V.forEach(function(x){if(s[x][i])v++});if(v>=K)est=true;else if(V.length-v>=K)est=false;out.push(est)}s['Consenso '+K+' x '+(V.length-K)]=out});
  return s}
 function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
 function br(v,d){return v.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d})}
@@ -1292,7 +1292,7 @@ def grafico_semana_btc_svg(D):
     out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (BTC-USD; semana fecha no domingo, UTC).</text>')
     out.append("</svg>")
     dados = {"fech": G["hist_fech"], "ultimo": G["fech"][-1], "ultima_data": G["datas"][-1],
-             "limite": G["consenso_limite"], "votantes": G["votantes"], "estrategias": lista_js}
+             "limites": G["consenso_limites"], "votantes": G["votantes"], "estrategias": lista_js}
     return f'''    <h3 class="conceito-tit" id="grafico-semana">O gráfico da semana: a decisão de cada estratégia</h3>
     <p>Velas semanais do último ano e meio, em dólares, com a semana em curso desenhada ao vivo. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. À direita, a decisão tomada no último domingo e a que sairia se a semana fechasse agora, recalculada a cada minuto com o preço da Coinbase. Só a decisão de domingo vale: a prévia muda até o fechamento.</p>
     <p class="nota-min gs-viva-t" id="gs-hora">Carregando o preço ao vivo…</p>
@@ -1310,18 +1310,9 @@ def consenso_btc_html(D):
     if not C:
         return ""
     votos = "".join(f'<li class="{"sim" if v else "nao"}"><i class="cor" style="background:{cor_btc(n)}"></i>{e(n)}: <b>{"comprado" if v else "fora"}</b></li>' for n, v in C["votos_por_sinal"].items())
-    def pct(x):
-        return f"{x * 100:+.1f}%".replace(".", ",")
-    def dec2(x):
-        return f"{x:.2f}".replace(".", ",")
-    var = "".join(f'<tr{" class=regua" if int(k) == C["limite"] else ""}><td>{k} de 7{" (unanimidade)" if int(k) == 7 else ""}</td><td class="num">{dec2(v["btc_final"])}</td><td class="num">{pct(v["pior_queda"])}</td><td class="num">{v["operacoes"]}</td></tr>' for k, v in sorted(C["variantes"].items(), key=lambda kv: int(kv[0])))
-    return f"""    <h3 class="conceito-tit">O placar dos sete sinais: {C['votos_agora']} de 7 comprados</h3>
-    <p>A regra do consenso não inventa nada: ela só ouve os sete sinais dos autores. Muda de posição quando pelo menos {C['limite']} de 7 concordam{' (unanimidade)' if C['limite'] == 7 else ''}; enquanto não há acordo, espera.</p>
+    return f"""    <h3 class="conceito-tit">O placar dos sete sinais: {C['votos_agora']} de 7 comprados no domingo</h3>
+    <p>As quatro estratégias de consenso não inventam nada: só ouvem os sete sinais dos autores e mudam de posição quando o placar chega ao mínimo de cada uma. <b>7 x 0</b> exige unanimidade; <b>6 x 1</b> aceita um voto contra; <b>5 x 2</b>, dois; <b>4 x 3</b> segue a maioria simples. Enquanto o placar não chega lá, a estratégia espera na posição em que está.</p>
     <ul class="placar">{votos}</ul>
-    <div class="tab-rolagem"><table class="tab-btc" style="min-width:0">
-      <thead><tr><th>Quantos precisam concordar</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th><th class="num">Operações</th></tr></thead>
-      <tbody>{var}</tbody>
-    </table></div>
 """
 
 
