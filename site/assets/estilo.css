@@ -793,7 +793,7 @@ figcaption .credito::before{content:"· "}
 .gs-baixa{stroke:#A61E1E;fill:#A61E1E}
 .gs-agora{fill:#003097;opacity:.07}
 .gs-base{stroke:var(--linha);stroke-width:1}
-.gs-nome{font-size:11.5px;font-weight:600}
+.gs-nome{font-size:11.5px;font-weight:600;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}
 .gs-forte{font-weight:800}
 .gs-compra{fill:#0a7d35}
 .gs-venda{fill:#A61E1E}

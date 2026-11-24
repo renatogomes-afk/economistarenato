@@ -1138,8 +1138,8 @@ def grafico_semana_btc_svg(D):
     nomes = [n for n in nomes if not n.startswith("Consenso")] + [n for n in nomes if n.startswith("Consenso")]
     n = len(G["fech"])
     W, X0, X1 = 1000, 8, 790          # área do gráfico; à direita fica a coluna das decisões
-    PY0, PY1 = 16, 296                # painel de preço
-    L0, LH = 336, 30                  # faixas das estratégias
+    PY0, PY1 = 34, 306                # painel de preço
+    L0, LH = 362, 30                  # faixas das estratégias
     H = L0 + LH * len(nomes) + 34
     passo = (X1 - X0) / n
     xc = lambda i: X0 + passo * (i + .5)
