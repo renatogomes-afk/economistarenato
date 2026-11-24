@@ -206,7 +206,10 @@ def retornos_anuais(datas, valores):
     anos_5 = (datas[ult] - datas[k5]).days / 365.25
     return {"anos": anos, "ultimo": datas[ult].isoformat(), "inicio_5a": datas[k5].isoformat(),
             "por_estrategia": {n: [round(v[fim_ano[a]] / v[fim_ano[a - 1]] - 1, 4) for a in anos] for n, v in valores.items()},
-            "cinco_anos_aa": {n: round((v[ult] / v[k5]) ** (1 / anos_5) - 1, 4) for n, v in valores.items()}}
+            "cinco_anos_aa": {n: round((v[ult] / v[k5]) ** (1 / anos_5) - 1, 4) for n, v in valores.items()},
+            "inicio_total": datas[0].isoformat(),
+            "total_acum": {n: round(v[ult] / v[0] - 1, 4) for n, v in valores.items()},
+            "total_aa": {n: round((v[ult] / v[0]) ** (365.25 / (datas[ult] - datas[0]).days) - 1, 4) for n, v in valores.items()}}
 
 
 GRAF_SEMANAS = 78  # um ano e meio de velas semanais no gráfico da página

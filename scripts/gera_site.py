@@ -1344,17 +1344,20 @@ def anuais_btc_html(D):
         x5 = A["cinco_anos_aa"][n]
         c5 = "" if n in BENCH_BTC else ("acima" if x5 > A["cinco_anos_aa"]["Só CDI"] else "abaixo")
         tr = ' class="regua"' if n in BENCH_BTC else ""
-        linhas.append(f'<tr{tr}><td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>{"".join(cel)}<td class="num {c5} cinco">{pct(x5).replace("%", "% a.a.")}</td></tr>')
+        xt = A.get("total_aa", {}).get(n)
+        ct = "" if n in BENCH_BTC or xt is None else ("acima" if xt > A["total_aa"]["Só CDI"] else "abaixo")
+        tot = f'<td class="num {ct} cinco">{pct(xt).replace("%", "% a.a.")}<small>{pct(A["total_acum"][n])} no total</small></td>' if xt is not None else ""
+        linhas.append(f'<tr{tr}><td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>{"".join(cel)}<td class="num {c5} cinco">{pct(x5).replace("%", "% a.a.")}</td>{tot}</tr>')
     i5 = A["inicio_5a"]
     return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em reais</h3>
     <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin. A ordem muda muito de um período para outro: quem foi melhor em 5 anos pode ter sido o pior em 10.</p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos">
-      <thead><tr><th>Estratégia</th>{cab}<th class="num">5 anos</th></tr></thead>
+      <thead><tr><th>Estratégia</th>{cab}<th class="num">5 anos</th>{'<th class="num">Desde o início</th>' if A.get("total_aa") else ""}</tr></thead>
       <tbody>
 {chr(10).join(linhas)}
       </tbody>
     </table></div>
-    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior. 5 anos = de {data_br(i5)} a {data_br(ult)}, ao ano. Mesmas regras do teste: 1 BTC em jul/2016, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora.</p>
+    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior. 5 anos = de {data_br(i5)} a {data_br(ult)}, ao ano.{f" Desde o início = de {data_br(A['inicio_total'])} (primeira semana do teste) a {data_br(ult)}, ao ano e no total." if A.get("inicio_total") else ""} Mesmas regras do teste: 1 BTC em jul/2016, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora.</p>
 """
 
 
