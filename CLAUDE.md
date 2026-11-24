@@ -27,7 +27,7 @@ três portas), não divulgada. O marketing vai direto para cada página de entra
 `/tech/` (agentes de IA para PMEs, com o contato), `/historia/` (livros comentados: Leituras) e `/economia/`
 (periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
 para `/tech/`. Campo Grande e Análises ficam sem link. Newsletter desligada (`assine()` devolve vazio).
-Contato: preencher `FORM_CONTATO` (Formspree) e `EMAIL_CONTATO` em `gera_site.py`.
+Contato: FormSubmit (`FORM_CONTATO`/`EMAIL_CONTATO` em `gera_site.py`), volta para `/obrigado/`.
 
 ---
 
@@ -177,8 +177,8 @@ e download.
   Os links para CSS e JS carregam `?v=AAAAMMDD`: **ao mexer neles, atualize a versão**
   (em `scripts/gera_site.py`, constante `CSS_V`) para quem já visitou receber
   o arquivo novo na hora.
-- Formulários (newsletter e contato) usavam **Netlify Forms**, que NÃO funcionam no GitHub Pages:
-  precisam de substituto (ex.: Formspree) — pendente.
+- Formulários: **Netlify Forms** NÃO funcionam no GitHub Pages. O contato (/tech) usa **FormSubmit** (24/11/2026).
+  A newsletter está desligada.
 
 ---
 

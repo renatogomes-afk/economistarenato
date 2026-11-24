@@ -28,9 +28,10 @@ DOMINIO = "https://economistarenato.com.br"
 CSS_V = "20261124c"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
-# Endereço do formulário de contato (Formspree). Vazio = o formulário não aparece e fica só o e-mail.
-FORM_CONTATO = ""
-EMAIL_CONTATO = ""  # e-mail que recebe os pedidos (preencher)
+# Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
+# Depois da ativação, dá para trocar o e-mail na URL pelo código que o FormSubmit manda, para não expor o endereço.
+EMAIL_CONTATO = "renato.gomes@wgsa.com.br"
+FORM_CONTATO = f"https://formsubmit.co/{EMAIL_CONTATO}"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
 e = html.escape
@@ -898,6 +899,10 @@ def pagina_analises():
 def bloco_contato():
     if FORM_CONTATO:
         form = f"""<form class="form-contato" action="{FORM_CONTATO}" method="POST">
+        <input type="hidden" name="_subject" value="Contato pelo site (/tech)">
+        <input type="hidden" name="_next" value="{DOMINIO}/obrigado/">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" required>
         <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
         <input type="text" name="empresa" placeholder="Empresa e área" aria-label="Empresa e área">
@@ -1079,12 +1084,12 @@ def pagina_obrigado():
   <div class="artigo-topo" style="max-width:820px;margin:60px auto">
     <span class="chapeu">Obrigado</span>
     <h1>Recebido.</h1>
-    <p class="olho">Sua mensagem chegou. Se foi a assinatura da carta, a próxima edição vai direto para o seu e-mail; se foi um contato, eu respondo em breve.</p>
-    <p><a class="botao botao-cheio" href="../">Voltar ao início</a> <a class="botao" href="../arquivo/">Ler o arquivo</a></p>
+    <p class="olho">Sua mensagem chegou. Eu respondo por e-mail em até dois dias úteis.</p>
+    <p><a class="botao botao-cheio" href="../tech/">Voltar</a></p>
   </div>
 </main>
 """
-    escreve("obrigado", cabeca("Obrigado — Economista Renato Gomes", "Mensagem recebida.", "obrigado/", rel) + topo("", rel, completo=False) + corpo + rodape(rel))
+    escreve("obrigado", cabeca("Obrigado — Economista Renato Gomes", "Mensagem recebida.", "obrigado/", rel) + topo("", rel) + corpo + rodape(rel))
 
 
 # ------------------------------------------------------------------ Leituras · Livros comentados

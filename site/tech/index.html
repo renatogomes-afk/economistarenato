@@ -78,10 +78,20 @@ document.querySelector('.nav-toggle').addEventListener('click',function(){var m=
   <section class="contato-min" id="contato">
     <div>
       <h2>Fale comigo</h2>
-      <p>Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis.</p>
+      <p>Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis. Ou escreva para <a href="mailto:renato.gomes@wgsa.com.br">renato.gomes@wgsa.com.br</a>.</p>
     </div>
     <div>
-      <p class="aviso-preencher">[Formulário de contato: falta o endereço do Formspree e o e-mail de destino.]</p>
+      <form class="form-contato" action="https://formsubmit.co/renato.gomes@wgsa.com.br" method="POST">
+        <input type="hidden" name="_subject" value="Contato pelo site (/tech)">
+        <input type="hidden" name="_next" value="https://economistarenato.com.br/obrigado/">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" required>
+        <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
+        <input type="text" name="empresa" placeholder="Empresa e área" aria-label="Empresa e área">
+        <textarea name="mensagem" rows="4" placeholder="Qual tarefa toma mais tempo do seu time hoje?" aria-label="Mensagem" required></textarea>
+        <button class="botao botao-cheio" type="submit">Enviar</button>
+      </form>
     </div>
   </section>
 </main>
