@@ -990,10 +990,12 @@ def pagina_bitcoin():
            ("1899-kinder-padrao-monetario-e-distribuicao", "1899", "Kinder: quem ganhou e quem perdeu com a queda dos preços")]
     lis = "\n".join(f'      <li><a href="{rel}arquivo/{sl}/"><b>{a}</b> · {e(t)}</a></li>' for sl, a, t in arq)
     estrategias = [
-        ("Comprar e segurar", "Compra única no início e nenhuma venda. É a régua contra a qual tudo se mede."),
-        ("Aporte mensal fixo", "O mesmo valor em reais todo mês, com qualquer preço. Testa se a disciplina compensa o momento ruim de entrada."),
-        ("Média móvel de longo prazo", "Fica comprado acima da média e sai para a renda fixa abaixo dela. Testa se fugir das quedas custa caro na alta."),
-        ("Rebalanceamento com renda fixa", "Uma fatia fixa em bitcoin e o resto no CDI, rebalanceada de tempos em tempos. Testa o bitcoin como tempero da carteira, não como prato."),
+        ("Comprar e segurar (a régua)", "Compra no início e nenhuma venda. Todo sinal técnico precisa bater esta régua para valer o trabalho."),
+        ("Média móvel de 200 dias", "Comprado com o preço acima da média, fora abaixo dela. O filtro de tendência mais usado do mercado."),
+        ("Cruzamento das médias de 50 e 200 dias", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo."),
+        ("IFR (índice de força relativa)", "Compra quando o IFR indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
+        ("Rompimento de máximas", "Entra quando o preço rompe a máxima das últimas semanas e sai quando perde a mínima. Testa se tendência forte continua forte."),
+        ("MACD", "Segue o cruzamento do MACD com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
     ]
     est = "\n".join(f"""    <li>
       <span class="passo-num">{k}</span>
@@ -1003,14 +1005,14 @@ def pagina_bitcoin():
     corpo = f"""
 <main class="env pagina-min">
   <section class="heroi heroi-interno">
-    <p class="heroi-quem">Bitcoin · Renato W. Gomes, economista</p>
-    <h1>Estratégias de bitcoin, testadas com números e acompanhadas mês a mês.</h1>
-    <p class="heroi-olho">Todo mundo tem uma estratégia para bitcoin. Aqui cada uma é testada no histórico de preços, comparada com o CDI e acompanhada ao vivo, com o retorno, o risco e a pior queda à vista, e a fonte dos dados no rodapé.</p>
+    <p class="heroi-quem">Bitcoin · piloto · Renato W. Gomes, economista</p>
+    <h1>Análise técnica no bitcoin: o que funciona quando a gente testa?</h1>
+    <p class="heroi-olho">Médias móveis, IFR, rompimentos, MACD. Cada sinal gráfico é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, com o retorno, o risco e a pior queda à vista.</p>
     <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
   </section>
 
   <section class="para-quem" id="estrategias">
-    <h2>As estratégias em teste</h2>
+    <h2>Os sinais em teste</h2>
   </section>
   <ol class="passos">
 {est}
@@ -1022,10 +1024,11 @@ def pagina_bitcoin():
       <li><b>Em reais e em dólares.</b> Para quem mora no Brasil, o câmbio muda o resultado.</li>
       <li><b>Retorno, volatilidade e pior queda.</b> Ganhar muito não basta se a queda no caminho faz o investidor desistir.</li>
       <li><b>Contra o CDI.</b> Toda estratégia precisa bater a renda fixa para se justificar.</li>
-      <li><b>Teste no passado, acompanhamento no presente.</b> O histórico mostra o que teria acontecido; o acompanhamento mensal mostra o que está acontecendo.</li>
+      <li><b>Custos incluídos.</b> Cada compra e venda paga taxa de corretora; sinal que opera demais pode perder para quem não faz nada.</li>
+      <li><b>Teste no passado, acompanhamento no presente.</b> O histórico mostra o que teria acontecido; o acompanhamento mostra o que está acontecendo, sem ajustar a regra depois do fato.</li>
       <li><b>Fonte dos preços sempre indicada</b>, e os números de cada teste disponíveis para quem quiser conferir.</li>
     </ul>
-    <p class="nota-min">Primeiros resultados em preparação.</p>
+    <p class="nota-min">Piloto: primeiros resultados em preparação. Regras e parâmetros podem mudar até o fim do piloto, e cada mudança fica registrada.</p>
   </section>
 
   <section class="para-quem" id="fontes">
@@ -1038,10 +1041,10 @@ def pagina_bitcoin():
 
   <p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>
 
-  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual estratégia você gostaria de ver testada?", "bitcoin/", "Receba os resultados")}
+  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual sinal ou indicador você gostaria de ver testado?", "bitcoin/", "Receba os resultados")}
 </main>
 """
-    escreve("bitcoin", cabeca("Bitcoin: estratégias testadas — Renato W. Gomes, economista", "Estratégias de bitcoin testadas no histórico de preços, comparadas com o CDI e acompanhadas mês a mês, com retorno, risco e pior queda.", "bitcoin/", rel)
+    escreve("bitcoin", cabeca("Bitcoin: análise técnica testada — Renato W. Gomes, economista", "Piloto: sinais de análise técnica no bitcoin (médias móveis, IFR, rompimentos, MACD) testados no histórico e acompanhados ao vivo, contra comprar e segurar e contra o CDI.", "bitcoin/", rel)
             + topo("bitcoin/", rel) + corpo + rodape(rel))
 
 
