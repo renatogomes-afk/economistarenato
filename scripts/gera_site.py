@@ -1084,11 +1084,11 @@ def pagina_bitcoin():
     lis = "\n".join(f'      <li><a href="{rel}arquivo/{sl}/"><b>{a}</b> · {e(t)}</a></li>' for sl, a, t in arq)
     estrategias = [
         ("Comprar e segurar (a régua)", "Compra no início e nenhuma venda. Todo sinal técnico precisa bater esta régua para valer o trabalho."),
-        ("Média móvel de 200 dias", "Comprado com o preço acima da média, fora abaixo dela. O filtro de tendência mais usado do mercado."),
-        ("Cruzamento das médias de 50 e 200 dias", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo."),
-        ("IFR (índice de força relativa)", "Compra quando o IFR indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
-        ("Rompimento de máximas", "Entra quando o preço rompe a máxima das últimas semanas e sai quando perde a mínima. Testa se tendência forte continua forte."),
-        ("MACD", "Segue o cruzamento do MACD com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
+        ("Média móvel de 40 semanas", "Comprado com o fechamento semanal acima da média, fora abaixo dela. É a versão semanal da famosa média de 200 dias."),
+        ("Cruzamento das médias de 10 e 40 semanas", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo. O equivalente semanal do cruzamento de 50 e 200 dias."),
+        ("IFR semanal", "Compra quando o índice de força relativa do gráfico semanal indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
+        ("Rompimento de 20 semanas", "Entra quando o fechamento semanal rompe a máxima das últimas 20 semanas e sai quando perde a mínima de 10. Testa se tendência forte continua forte."),
+        ("MACD semanal", "Segue o cruzamento do MACD semanal com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
     ]
     est = "\n".join(f"""    <li>
       <span class="passo-num">{k}</span>
@@ -1099,14 +1099,15 @@ def pagina_bitcoin():
 <main class="env pagina-min">
   <section class="heroi heroi-interno">
     <p class="heroi-quem">Bitcoin · piloto · Renato W. Gomes, economista</p>
-    <h1>Análise técnica no bitcoin: o que funciona quando a gente testa?</h1>
-    <p class="heroi-olho">Uma plataforma aberta: médias móveis, IFR, rompimentos, MACD. Cada sinal gráfico é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, com o retorno, o risco e a pior queda à vista.</p>
+    <h1>Análise técnica no bitcoin, uma vez por semana: o que funciona quando a gente testa?</h1>
+    <p class="heroi-olho">Uma plataforma aberta: médias móveis, IFR, rompimentos e MACD, no gráfico semanal. Cada sinal é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, semana a semana, com o retorno, o risco e a pior queda à vista.</p>
     <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
   </section>
 
   <section class="para-quem" id="estrategias">
     <h2>Os sinais em teste</h2>
     <p>Todos partem da mesma posição de referência: <b>1 bitcoin</b>. Quando o sinal manda sair, o valor vai para o CDI; quando manda voltar, recompra o que der. No fim, a pergunta é simples: o sinal terminou com mais ou menos de 1 bitcoin?</p>
+    <p><b>Acompanhamento semanal.</b> Os sinais olham só o gráfico semanal e são conferidos uma vez por semana, no fechamento de domingo para segunda. Nada de operar no meio da semana: menos ruído, menos taxa e uma rotina que qualquer pessoa consegue seguir.</p>
   </section>
   <ol class="passos">
 {est}
