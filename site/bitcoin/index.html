@@ -80,6 +80,11 @@ document.querySelector('.nav-toggle').addEventListener('click',function(){var m=
     </li>
     <li>
       <span class="passo-num">6</span>
+      <h2>Faixas de percentis de 52 semanas</h2>
+      <p>Compra quando o fechamento semanal volta para cima do percentil 20 do último ano e reduz quando perde força acima do percentil 80. Testa os limites de força compradora e vendedora.</p>
+    </li>
+    <li>
+      <span class="passo-num">7</span>
       <h2>MACD semanal</h2>
       <p>Segue o cruzamento do MACD semanal com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos.</p>
     </li>
@@ -101,6 +106,15 @@ document.querySelector('.nav-toggle').addEventListener('click',function(){var m=
       <li><b>Fonte dos preços sempre indicada</b>, e os números de cada teste disponíveis para quem quiser conferir.</li>
     </ul>
     <p class="nota-min">Piloto: primeiros resultados em preparação. Regras e parâmetros podem mudar até o fim do piloto, e cada mudança fica registrada.</p>
+  </section>
+
+  <section class="para-quem" id="conceitos">
+    <h2>Conceitos</h2>
+    <h3 class="conceito-tit">Faixas de percentis: onde o preço está dentro da sua própria história</h3>
+    <p>Pegue os preços de fechamento das últimas 52 semanas e ordene do menor para o maior. O percentil diz em que ponto dessa fila o preço de hoje está: no percentil 10, só 10% das semanas fecharam mais baixo; no 90, só 10% fecharam mais alto.</p>
+    <p>As faixas viram limites de força. Abaixo do percentil 20 fica o <b>limite inferior</b>: o preço está barato em relação ao próprio passado, e é ali que costuma aparecer a força compradora. Acima do percentil 80 fica o <b>limite superior</b>: o preço está caro, e é ali que a força vendedora costuma agir. Entre os dois, a faixa do meio é terreno neutro.</p>
+    <p>Somando o volume negociado em cada faixa de preço, dá para ver onde mais gente comprou e vendeu. Esses níveis de preço com muito volume funcionam como memória do mercado: quem comprou ali tende a defender o preço na volta, e quem ficou preso ali tende a vender quando empata.</p>
+    <p>No piloto, o conceito vira um sinal testável: comprar quando o fechamento semanal volta para cima do limite inferior e reduzir a posição quando perde força acima do limite superior.</p>
   </section>
 
   <section class="para-quem" id="autores">

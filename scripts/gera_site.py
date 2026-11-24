@@ -981,6 +981,17 @@ def pagina_tech():
             + topo("tech/", rel) + corpo + rodape(rel))
 
 
+def conceitos_btc_html():
+    if not CONCEITOS_BTC:
+        return ""
+    itens = "\n".join(f'    <h3 class="conceito-tit">{e(t)}</h3>\n' + "\n".join(f"    <p>{p_}</p>" for p_ in ps) for t, ps in CONCEITOS_BTC)
+    return f"""  <section class="para-quem" id="conceitos">
+    <h2>Conceitos</h2>
+{itens}
+  </section>
+"""
+
+
 def autores_btc_html(rel):
     if not AUTORES_BTC:
         return ""
@@ -1008,6 +1019,16 @@ OBRAS_BTC = [
     ("S. A. Nelson, com os editoriais de Charles Dow", "The ABC of Stock Speculation", "1903", "https://catalog.hathitrust.org/Record/001740713", "HathiTrust"),
     ("William Peter Hamilton, sucessor de Dow no Wall Street Journal", "The Stock Market Barometer", "1922", "https://babel.hathitrust.org/cgi/pt?id=uc2.ark:/13960/t42r3r118", "HathiTrust"),
     ("Richard D. Wyckoff", "How I Trade and Invest in Stocks and Bonds", "1922", "https://archive.org/details/cu31924031269552", "Internet Archive"),
+]
+
+
+# Conceitos explicados na /bitcoin: (título, texto em parágrafos). Um conceito novo = um item aqui.
+CONCEITOS_BTC = [
+    ("Faixas de percentis: onde o preço está dentro da sua própria história",
+     ["Pegue os preços de fechamento das últimas 52 semanas e ordene do menor para o maior. O percentil diz em que ponto dessa fila o preço de hoje está: no percentil 10, só 10% das semanas fecharam mais baixo; no 90, só 10% fecharam mais alto.",
+      "As faixas viram limites de força. Abaixo do percentil 20 fica o <b>limite inferior</b>: o preço está barato em relação ao próprio passado, e é ali que costuma aparecer a força compradora. Acima do percentil 80 fica o <b>limite superior</b>: o preço está caro, e é ali que a força vendedora costuma agir. Entre os dois, a faixa do meio é terreno neutro.",
+      "Somando o volume negociado em cada faixa de preço, dá para ver onde mais gente comprou e vendeu. Esses níveis de preço com muito volume funcionam como memória do mercado: quem comprou ali tende a defender o preço na volta, e quem ficou preso ali tende a vender quando empata.",
+      "No piloto, o conceito vira um sinal testável: comprar quando o fechamento semanal volta para cima do limite inferior e reduzir a posição quando perde força acima do limite superior."]),
 ]
 
 
@@ -1088,6 +1109,7 @@ def pagina_bitcoin():
         ("Cruzamento das médias de 10 e 40 semanas", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo. O equivalente semanal do cruzamento de 50 e 200 dias."),
         ("IFR semanal", "Compra quando o índice de força relativa do gráfico semanal indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
         ("Rompimento de 20 semanas", "Entra quando o fechamento semanal rompe a máxima das últimas 20 semanas e sai quando perde a mínima de 10. Testa se tendência forte continua forte."),
+        ("Faixas de percentis de 52 semanas", "Compra quando o fechamento semanal volta para cima do percentil 20 do último ano e reduz quando perde força acima do percentil 80. Testa os limites de força compradora e vendedora."),
         ("MACD semanal", "Segue o cruzamento do MACD semanal com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
     ]
     est = "\n".join(f"""    <li>
@@ -1127,6 +1149,7 @@ def pagina_bitcoin():
     <p class="nota-min">Piloto: primeiros resultados em preparação. Regras e parâmetros podem mudar até o fim do piloto, e cada mudança fica registrada.</p>
   </section>
 
+{conceitos_btc_html()}
 {autores_btc_html(rel)}
   <section class="para-quem" id="fontes">
     <h2>As fontes</h2>

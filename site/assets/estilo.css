@@ -752,3 +752,5 @@ figcaption .credito::before{content:"· "}
 .diario-tab{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:14px;margin-top:8px}
 .diario-tab th,.diario-tab td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--linha)}
 .diario-tab .sobe{color:#0a7d35}.diario-tab .desce{color:var(--alerta)}
+.conceito-tit{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:20px;margin:18px 0 8px}
+.para-quem p+p{margin-top:12px}
