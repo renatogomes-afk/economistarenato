@@ -1512,31 +1512,34 @@ def anuais_btc_html(D):
 
 
 def curvas_btc_svg(D):
+    """Do presente para o passado: cada ponto diz quanto bitcoin você teria hoje se tivesse posto 1 BTC na
+    estratégia naquela semana. Hoje fica à esquerda; quanto mais à direita, mais antigo o começo."""
     datas = D["curvas"]["datas"]
     nomes = [x["nome"] for x in D["estrategias"]]
     w, h, pl, pr, pt, pb = 760, 340, 64, 12, 10, 26
-    vals = [v for n in nomes for v in D["curvas"][n] if v > 0]
-    lo = math.floor(math.log10(max(min(vals), 1e-3)) * 2) / 2
+    hoje = {n: [D["curvas"][n][-1] / v if v > 0 else 0 for v in D["curvas"][n]] for n in nomes}
+    vals = [v for n in nomes for v in hoje[n] if v > 0]
+    lo = min(math.floor(math.log10(max(min(vals), 1e-3)) * 2) / 2, -0.5)
     hi = max(math.ceil(math.log10(max(vals)) * 2) / 2, 0.5)
     n = len(datas) - 1
-    X = lambda i: pl + i * (w - pl - pr) / n
+    X = lambda i: pl + (n - i) * (w - pl - pr) / n
     Y = lambda v: pt + (hi - math.log10(max(v, 1e-3))) * (h - pt - pb) / (hi - lo)
     grade = []
     for k in range(int(math.ceil(lo)), int(math.floor(hi)) + 1):
         v = 10 ** k
         grade.append(f'<line x1="{pl}" x2="{w - pr}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" class="{"g1" if k == 0 else "g"}"/>'
                      f'<text x="{pl - 6}" y="{Y(v) + 4:.1f}" text-anchor="end">{str(v).replace(".", ",")} BTC</text>')
-    anos = []
+    anos = [f'<text x="{X(n):.1f}" y="{h - 6}" text-anchor="start">hoje</text>']
     for i, d in enumerate(datas):
-        if i and d[:4] != datas[i - 1][:4] and int(d[:4]) % 2 == 0:
+        if i and d[:4] != datas[i - 1][:4] and int(d[:4]) % 2 == 0 and X(i) > pl + 40:
             anos.append(f'<text x="{X(i):.1f}" y="{h - 6}" text-anchor="middle">{d[:4]}</text>')
     linhas = []
     for nome in sorted(nomes, key=lambda x: x == "Comprar e segurar"):
-        pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(D["curvas"][nome]))
+        pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(hoje[nome]))
         largura = 2.4 if nome == "Comprar e segurar" or nome.startswith("Consenso") else 1.5
         linhas.append(f'<polyline points="{pts}" fill="none" stroke="{cor_btc(nome)}" stroke-width="{largura}"><title>{e(rot_btc(nome))}</title></polyline>')
     leg = "".join(f'<span><i style="background:{cor_btc(x)}"></i>{e(rot_btc(x))}</span>' for x in nomes)
-    return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia teria, semana a semana, em escala logarítmica">'
+    return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia daria hoje, conforme a semana em que começou, em escala logarítmica">'
             + "".join(grade) + "".join(anos) + "".join(linhas) + f'</svg>\n    <div class="legenda-btc">{leg}</div>')
 
 
@@ -1611,9 +1614,9 @@ def acompanhamento_btc_html():
     </table>
     </div>
     <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada sinal manda fazer no próximo fechamento semanal. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
-    <h3 class="conceito-tit">Quanto bitcoin cada estratégia teria, semana a semana</h3>
+    <h3 class="conceito-tit">Quanto bitcoin você teria hoje, conforme a semana em que começou</h3>
     {curvas_btc_svg(D)}
-    <p class="nota-min">Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem só comprou e segurou.</p>
+    <p class="nota-min">Leitura do presente para o passado: hoje à esquerda; cada ponto à direita é uma data de começo mais antiga, com 1 BTC aplicado na estratégia naquela semana. Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem comprou naquela data e segurou até hoje.</p>
 {anuais_btc_html(D)}
     <script>{js}</script>
   </section>
