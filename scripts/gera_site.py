@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124f"
+CSS_V = "20261124g"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1129,6 +1129,79 @@ def decisao_btc(r):
     return ("Vender", "venda") if r["comprado"] else ("Ficar no CDI", "fora")
 
 
+# Recalcula os sinais no navegador com a semana em curso (mesma regra de scripts/bitcoin/backtest.py).
+SINAIS_JS = r"""
+(function(){
+var box=document.getElementById('gs-box');if(!box)return;
+var G=JSON.parse(document.getElementById('gs-dados').textContent);
+var svg=box.querySelector('svg'),NS='http://www.w3.org/2000/svg';
+var lo=+svg.dataset.lo,hi=+svg.dataset.hi,py0=+svg.dataset.py0,py1=+svg.dataset.py1,xv=+svg.dataset.xv,lv=+svg.dataset.lv;
+function yp(v){v=Math.max(lo,Math.min(hi,v));return py1-(v-lo)/(hi-lo)*(py1-py0)}
+function sma(c,n,i){if(i<n-1)return null;var s=0;for(var k=i-n+1;k<=i;k++)s+=c[k];return s/n}
+function ema(c,n){var k=2/(n+1),o=[],e=null;c.forEach(function(x){e=e===null?x:x*k+e*(1-k);o.push(e)});return o}
+function rsi(c,n){n=n||14;var o=c.map(function(){return null}),g=0,p=0;for(var i=1;i<c.length;i++){var d=c[i]-c[i-1],a=Math.max(d,0),b=Math.max(-d,0);
+ if(i<=n){g+=a/n;p+=b/n;if(i==n)o[i]=p?100-100/(1+g/p):100}else{g=(g*(n-1)+a)/n;p=(p*(n-1)+b)/n;o[i]=p?100-100/(1+g/p):100}}return o}
+function sinais(c){var n=c.length,s={},i,est,out,r,m,sig;
+ s['Média de 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&x>m});
+ s['Cruzamento 10 x 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&sma(c,10,i)>m});
+ r=rsi(c);est=false;out=[];for(i=0;i<n;i++){if(r[i]!==null&&i>0&&r[i-1]!==null){if(!est&&r[i-1]<30&&30<=r[i])est=true;else if(est&&r[i-1]>70&&70>=r[i])est=false}out.push(est)}s['IFR semanal (30/70)']=out;
+ est=false;out=[];for(i=0;i<n;i++){if(i>=20){if(!est&&c[i]>Math.max.apply(null,c.slice(i-20,i)))est=true;else if(est&&c[i]<Math.min.apply(null,c.slice(i-10,i)))est=false}out.push(est)}s['Rompimento 20 semanas']=out;
+ var e12=ema(c,12),e26=ema(c,26);m=e12.map(function(x,i){return x-e26[i]});sig=ema(m,9);s['MACD semanal']=m.map(function(x,i){return i>=35&&x>sig[i]});
+ est=false;out=[];var topo=null,fundo=null;for(i=0;i<n;i++){var j=i-2;if(j>=2){var w=c.slice(j-2,j+3);if(c[j]==Math.max.apply(null,w))topo=c[j];if(c[j]==Math.min.apply(null,w))fundo=c[j]}
+  if(topo!==null&&!est&&c[i]>topo)est=true;else if(fundo!==null&&est&&c[i]<fundo)est=false;out.push(est)}s['Topos e fundos (Dow)']=out;
+ est=false;out=[];var pa=null;for(i=0;i<n;i++){var pc=null;if(i>=52){var q=0;for(var k=i-52;k<i;k++)if(c[k]<c[i])q++;pc=100*q/52;if(pa!==null){if(!est&&pa<20&&20<=pc)est=true;else if(est&&pa>80&&80>=pc)est=false}}pa=pc;out.push(est)}s['Faixas de percentis 52 semanas']=out;
+ var K=G.limite,V=G.votantes;est=true;out=[];for(i=0;i<n;i++){var v=0;V.forEach(function(x){if(s[x][i])v++});if(v>=K)est=true;else if(V.length-v>=K)est=false;out.push(est)}s['Consenso ('+K+' de 7)']=out;
+ return s}
+function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+function br(v,d){return v.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d})}
+function desenha(sem,preco){
+ // sem: velas diárias depois do último domingo fechado, agrupadas em semanas; a última é a semana em curso
+ var c=G.fech.slice(),ab=G.ultimo;
+ sem.forEach(function(w,ix){if(ix<sem.length-1)c.push(w.fech)});
+ var at=sem[sem.length-1];at.fech=preco;at.alta=Math.max(at.alta,preco);at.baixa=Math.min(at.baixa,preco);
+ if(sem.length>1)ab=sem[sem.length-2].fech;
+ c.push(preco);
+ var s=sinais(c),g=document.getElementById('gs-vela-viva');g.innerHTML='';
+ var cls=preco>=ab?'gs-alta':'gs-baixa',y1=Math.min(yp(ab),yp(preco)),y2=Math.max(yp(ab),yp(preco));
+ g.appendChild(el('line',{x1:xv,x2:xv,y1:yp(at.alta),y2:yp(at.baixa),'class':cls+' gs-viva'}));
+ g.appendChild(el('rect',{x:xv-lv/2,y:y1,width:lv,height:Math.max(1,y2-y1),'class':cls+' gs-viva'}));
+ document.getElementById('gs-preco').textContent='US$ '+br(preco,0)+' agora';
+ document.getElementById('gs-preco').setAttribute('y',yp(preco)+4);
+ var votos=0;
+ G.estrategias.forEach(function(E){
+  var agora=s[E.nome][c.length-1],antes=s[E.nome][c.length-2],m=document.getElementById('gs-m-'+E.i);m.innerHTML='';
+  if(G.votantes.indexOf(E.nome)>=0&&agora)votos++;
+  var ym=E.y+15;
+  if(agora)m.appendChild(el('rect',{x:xv-lv,y:E.y+4,width:lv*2,height:22,fill:E.cor,opacity:'.22'}));
+  if(agora&&!antes)m.appendChild(el('path',{d:'M'+(xv-5)+' '+(ym+5)+'L'+(xv+5)+' '+(ym+5)+'L'+xv+' '+(ym-6)+'Z','class':'gs-compra gs-pisca'}));
+  if(!agora&&antes)m.appendChild(el('path',{d:'M'+(xv-5)+' '+(ym-5)+'L'+(xv+5)+' '+(ym-5)+'L'+xv+' '+(ym+6)+'Z','class':'gs-venda gs-pisca'}));
+  var rot,tipo;if(agora){rot=E.comprado?'Ficar comprado':'Comprar';tipo=E.comprado?'manter':'compra'}else{rot=E.comprado?'Vender':'Ficar no CDI';tipo=E.comprado?'venda':'fora'}
+  var d=document.getElementById('gs-d-'+E.i);d.textContent=rot;d.setAttribute('class','gs-dec gs-'+tipo+'-t');
+  var k=document.getElementById('gs-k-'+E.i),xm=+k.dataset.x,yc=E.y+15;k.innerHTML='';
+  k.appendChild(tipo=='compra'?el('path',{d:'M'+(xm-6)+' '+(yc+6)+'L'+(xm+6)+' '+(yc+6)+'L'+xm+' '+(yc-7)+'Z','class':'gs-compra'}):
+   tipo=='venda'?el('path',{d:'M'+(xm-6)+' '+(yc-6)+'L'+(xm+6)+' '+(yc-6)+'L'+xm+' '+(yc+7)+'Z','class':'gs-venda'}):
+   tipo=='manter'?el('circle',{cx:xm,cy:yc,r:6,fill:E.cor}):el('circle',{cx:xm,cy:yc,r:5.5,'class':'gs-fora'}));
+ });
+ var h=new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+ document.getElementById('gs-hora').textContent='Ao vivo, '+h+': '+votos+' de 7 sinais comprados se a semana fechasse agora.';
+}
+function semanas(velas){
+ // velas da Coinbase: [t, baixa, alta, abre, fecha, vol]; semana fecha no domingo (UTC)
+ var ult=new Date(G.ultima_data+'T00:00:00Z').getTime(),D=86400000,ws=[];
+ velas.sort(function(a,b){return a[0]-b[0]}).forEach(function(v){var t=v[0]*1000;if(t<=ult)return;var k=Math.floor((t-ult-1)/(7*D));
+  var w=ws[k]||(ws[k]={alta:v[2],baixa:v[1],fech:v[4]});w.alta=Math.max(w.alta,v[2]);w.baixa=Math.min(w.baixa,v[1]);w.fech=v[4]});
+ return ws.filter(function(w){return w})}
+function busca(){
+ var ini=new Date(new Date(G.ultima_data+'T00:00:00Z').getTime()+86400000).toISOString().slice(0,10);
+ fetch('https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start='+ini+'T00:00:00Z').then(function(r){return r.json()}).catch(function(){return[]})
+ .then(function(v){var ws=semanas(Array.isArray(v)?v:[]);
+  fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){var p=+j.data.amount;
+   if(!ws.length)ws=[{alta:p,baixa:p,fech:p}];desenha(ws,p)}).catch(function(){if(ws.length)desenha(ws,ws[ws.length-1].fech)})})}
+busca();setInterval(busca,60000);
+})();
+"""
+
+
 def grafico_semana_btc_svg(D):
     G = D.get("grafico")
     if not G:
@@ -1137,27 +1210,28 @@ def grafico_semana_btc_svg(D):
     nomes = [n for n in G["sinais"] if n in est]
     nomes = [n for n in nomes if not n.startswith("Consenso")] + [n for n in nomes if n.startswith("Consenso")]
     n = len(G["fech"])
-    W, X0, X1 = 1000, 8, 790          # área do gráfico; à direita fica a coluna das decisões
+    X0, X1 = 8, 790                   # área do gráfico; à direita ficam as duas colunas de decisão
+    C1, C2 = X1 + 82, X1 + 236        # "Decisão de domingo" e "Se fechasse agora"
+    W = C2 + 150
     PY0, PY1 = 34, 306                # painel de preço
     L0, LH = 362, 30                  # faixas das estratégias
     H = L0 + LH * len(nomes) + 34
-    passo = (X1 - X0) / n
+    passo = (X1 - X0) / (n + 1)       # uma vaga a mais: a vela da semana em curso, desenhada ao vivo
     xc = lambda i: X0 + passo * (i + .5)
     lo, hi = min(G["baixa"]), max(G["alta"])
-    folga = (hi - lo) * .06
+    folga = (hi - lo) * .12
     lo, hi = lo - folga, hi + folga
     yp = lambda v: PY1 - (v - lo) / (hi - lo) * (PY1 - PY0)
-    out = [f'<svg class="graf-semana" viewBox="0 0 {W} {H}" role="img" aria-label="Velas semanais do bitcoin em dólares e a decisão de cada estratégia, semana a semana">']
-    # grade de preço
-    import math as _m
-    deg = 10 ** _m.floor(_m.log10((hi - lo) / 4))
+    lv = max(2.0, passo * .62)
+    xv = xc(n)
+    out = [f'<svg class="graf-semana" viewBox="0 0 {W} {H}" data-lo="{lo:.2f}" data-hi="{hi:.2f}" data-py0="{PY0}" data-py1="{PY1}" data-xv="{xv:.1f}" data-lv="{lv:.1f}" role="img" aria-label="Velas semanais do bitcoin em dólares, com a semana em curso ao vivo, e a decisão de cada estratégia">']
+    deg = 10 ** math.floor(math.log10((hi - lo) / 4))
     deg = next(d * deg for d in (1, 2, 2.5, 5, 10) if (hi - lo) / (d * deg) <= 6)
-    v = _m.ceil(lo / deg) * deg
+    v = math.ceil(lo / deg) * deg
     while v < hi:
         y = yp(v)
         out.append(f'<line x1="{X0}" x2="{X1}" y1="{y:.1f}" y2="{y:.1f}" class="gs-grade"/><text x="{X1 + 6}" y="{y + 4:.1f}" class="gs-eixo">US$ {v / 1000:,.0f} mil</text>'.replace(",", "."))
         v += deg
-    # meses no eixo
     ult_mes = None
     for i, d in enumerate(G["datas"]):
         a, m_, _ = d.split("-")
@@ -1165,20 +1239,20 @@ def grafico_semana_btc_svg(D):
             x = xc(i)
             out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{PY0}" y2="{L0 + LH * len(nomes)}" class="gs-mes"/><text x="{x + 3:.1f}" y="{PY1 + 16}" class="gs-eixo">{MESES_ABR[int(m_) - 1]}/{a[2:]}</text>')
         ult_mes = m_
-    # velas
-    lv = max(2.0, passo * .62)
     for i in range(n):
         o, c, h, l_ = G["abre"][i], G["fech"][i], G["alta"][i], G["baixa"][i]
         cls = "gs-alta" if c >= o else "gs-baixa"
         x = xc(i)
         y1, y2 = sorted((yp(o), yp(c)))
         out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{yp(h):.1f}" y2="{yp(l_):.1f}" class="{cls}"/><rect x="{x - lv / 2:.1f}" y="{y1:.1f}" width="{lv:.1f}" height="{max(1, y2 - y1):.1f}" class="{cls}"/>')
-    # destaque da semana que acabou de fechar
-    xu = xc(n - 1)
-    out.append(f'<rect x="{xu - passo / 2:.1f}" y="{PY0 - 8}" width="{passo:.1f}" height="{L0 + LH * len(nomes) - PY0 + 8}" class="gs-agora"/>')
-    out.append(f'<text x="{xu:.1f}" y="{PY0 - 10}" text-anchor="end" class="gs-eixo">semana fechada em {e(data_br(G["datas"][-1]))}</text>')
-    # faixas
-    out.append(f'<text x="{X0}" y="{L0 - 12}" class="gs-tit">Sinal de cada estratégia</text><text x="{X1 + 10}" y="{L0 - 12}" class="gs-tit">Decisão de domingo</text>')
+    # semana em curso: faixa destacada, vela e preço preenchidos pelo script
+    out.append(f'<rect x="{xv - passo / 2:.1f}" y="{PY0 - 8}" width="{passo:.1f}" height="{L0 + LH * len(nomes) - PY0 + 8}" class="gs-agora"/>')
+    out.append(f'<text x="{xv:.1f}" y="{PY0 - 12}" text-anchor="end" class="gs-eixo">semana em curso &#9656;</text>')
+    out.append(f'<g id="gs-vela-viva"></g><text id="gs-preco" x="{X1 + 6}" y="{PY0}" class="gs-eixo gs-viva-t"></text>')
+    out.append(f'<text x="{X0}" y="{L0 - 12}" class="gs-tit">Sinal de cada estratégia</text>'
+               f'<text x="{C1 - 8}" y="{L0 - 12}" class="gs-tit">Domingo, {data_br(G["datas"][-1])[:5]}</text>'
+               f'<text x="{C2 - 8}" y="{L0 - 12}" class="gs-tit gs-viva-t">Se fechasse agora</text>')
+    lista_js = []
     for j, nome in enumerate(nomes):
         y = L0 + LH * j
         cor = cor_btc(nome)
@@ -1203,22 +1277,32 @@ def grafico_semana_btc_svg(D):
                 else:
                     out.append(f'<path d="M{x - 5:.1f} {ym - 5:.1f}L{x + 5:.1f} {ym - 5:.1f}L{x:.1f} {ym + 6:.1f}Z" class="gs-venda"><title>{e(nome)}: venda em {e(data_br(G["datas"][i]))}</title></path>')
             ant = s[i]
+        out.append(f'<g id="gs-m-{j}"></g>')
         out.append(f'<text x="{X0 + 4}" y="{y + 15}" class="gs-nome{" gs-forte" if nome.startswith("Consenso") else ""}" fill="{cor}">{e(nome)}</text>')
         rot, tipo = decisao_btc(est[nome])
-        xm, ym = X1 + 18, y + LH / 2
+        ym = y + LH / 2
+        xm = C1
         marca = {"compra": f'<path d="M{xm - 6} {ym + 6}L{xm + 6} {ym + 6}L{xm} {ym - 7}Z" class="gs-compra"/>',
                  "venda": f'<path d="M{xm - 6} {ym - 6}L{xm + 6} {ym - 6}L{xm} {ym + 7}Z" class="gs-venda"/>',
                  "manter": f'<circle cx="{xm}" cy="{ym}" r="6" fill="{cor}"/>',
                  "fora": f'<circle cx="{xm}" cy="{ym}" r="5.5" class="gs-fora"/>'}[tipo]
         out.append(f'{marca}<text x="{xm + 14}" y="{ym + 4.5}" class="gs-dec gs-{tipo}-t">{rot}</text>')
-    out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (velas diárias BTC-USD agrupadas em semanas que fecham no domingo, UTC).</text>')
+        out.append(f'<g id="gs-k-{j}" data-x="{C2}"><circle cx="{C2}" cy="{ym}" r="5.5" class="gs-fora"/></g><text id="gs-d-{j}" x="{C2 + 14}" y="{ym + 4.5}" class="gs-dec gs-fora-t">carregando…</text>')
+        lista_js.append({"i": j, "nome": nome, "cor": cor, "y": y, "comprado": bool(est[nome]["comprado"])})
+    out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (BTC-USD; semana fecha no domingo, UTC).</text>')
     out.append("</svg>")
+    dados = {"fech": G["hist_fech"], "ultimo": G["fech"][-1], "ultima_data": G["datas"][-1],
+             "limite": G["consenso_limite"], "votantes": G["votantes"], "estrategias": lista_js}
     return f'''    <h3 class="conceito-tit" id="grafico-semana">O gráfico da semana: a decisão de cada estratégia</h3>
-    <p>Velas semanais do último ano e meio, em dólares. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. A coluna da direita é a decisão tomada no fechamento deste domingo, executada no fechamento do domingo seguinte.</p>
-    <div class="tab-rolagem graf-semana-box">
+    <p>Velas semanais do último ano e meio, em dólares, com a semana em curso desenhada ao vivo. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. À direita, a decisão tomada no último domingo e a que sairia se a semana fechasse agora, recalculada a cada minuto com o preço da Coinbase. Só a decisão de domingo vale: a prévia muda até o fechamento.</p>
+    <p class="nota-min gs-viva-t" id="gs-hora">Carregando o preço ao vivo…</p>
+    <div class="tab-rolagem graf-semana-box" id="gs-box">
 {"".join(out)}
     </div>
+    <script type="application/json" id="gs-dados">{json.dumps(dados, ensure_ascii=False, separators=(",", ":"))}</script>
+    <script>{SINAIS_JS}</script>
 '''
+
 
 
 def consenso_btc_html(D):

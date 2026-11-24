@@ -800,3 +800,8 @@ figcaption .credito::before{content:"· "}
 .gs-fora{fill:none;stroke:#9a9a9a;stroke-width:1.6}
 .gs-dec{font-size:13px;font-weight:600;fill:var(--tinta)}
 .gs-compra-t{fill:#0a7d35}.gs-venda-t{fill:#A61E1E}.gs-fora-t{fill:var(--cinza)}
+.gs-viva{opacity:.75;stroke-dasharray:3 2}
+.gs-viva-t{fill:#003097;color:#003097;font-weight:600}
+.gs-pisca{animation:gsp 1.6s ease-in-out infinite}
+@keyframes gsp{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.gs-pisca{animation:none}}

@@ -204,7 +204,10 @@ def grafico_semanal(px, sin):
             "baixa": [round(p["baixa"], 2) for p in px[k0:]],
             "fech": [round(p["fech"], 2) for p in px[k0:]],
             "sinal_anterior": {nome: int(d[k0 - 1]) for nome, d in sin.items() if nome != "Comprar e segurar"},
-            "sinais": {nome: [int(x) for x in d[k0:]] for nome, d in sin.items() if nome != "Comprar e segurar"}}
+            "sinais": {nome: [int(x) for x in d[k0:]] for nome, d in sin.items() if nome != "Comprar e segurar"},
+            # histórico completo de fechamentos: a página recalcula os sinais ao vivo com a semana em curso
+            "hist_fech": [round(p["fech"], 2) for p in px],
+            "consenso_limite": CONSENSO, "votantes": VOTANTES}
 
 
 def main():
