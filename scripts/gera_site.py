@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124d"
+CSS_V = "20261124e"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -71,11 +71,11 @@ IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><pa
 
 # Menu principal (site minimalista, 24/11/2026). Leituras, Campo Grande, Análises, Ensaios e Notas
 # saíram do menu: as páginas continuam geradas, mas sem link na navegação.
-MENU = [("tech/", "Tech"), ("bitcoin/", "Bitcoin"), ("historia/", "História"), ("economia/", "Economia"), ("sobre/", "Sobre")]
+MENU = [("tech/", "Tech"), ("bitcoin/", "Bitcoin"), ("historia/", "História"), ("economia/", "Economia"), ("ms/", "MS"), ("sobre/", "Sobre")]
 
 
 def topo(ativo, rel, completo=True):
-    ativo = {"arquivo/": "economia/", "ensaios/": "economia/", "notas/": "economia/", "leituras/": "historia/"}.get(ativo, ativo)
+    ativo = {"arquivo/": "economia/", "ensaios/": "economia/", "notas/": "economia/", "leituras/": "historia/", "campo-grande/": "ms/", "analises/": "ms/"}.get(ativo, ativo)
     ativo_cls = ' class="ativo"'
     itens = "".join(f'<li><a href="{rel}{h}"{ativo_cls if h == ativo else ""}>{n}</a></li>' for h, n in MENU)
     return f"""<header class="topo-min">
@@ -128,6 +128,7 @@ def rodape(rel):
         <li><a href="{rel}bitcoin/">Bitcoin</a></li>
         <li><a href="{rel}historia/">História</a></li>
         <li><a href="{rel}economia/">Economia</a></li>
+        <li><a href="{rel}ms/">MS</a></li>
         <li><a href="{rel}sobre/">Sobre</a></li>
         <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
@@ -209,12 +210,13 @@ def pagina_inicio():
     corpo = f"""
 <main class="capa-enigma">
   <a class="capa-marca" href="./" aria-label="Renato W. Gomes, economista">{MARCA_TAG}</a>
-  <p class="capa-frase">Quatro perguntas. Uma resposta por porta.</p>
+  <p class="capa-frase">Cinco perguntas. Uma resposta por porta.</p>
   <nav class="capa-portas" aria-label="Interesses">
     <a href="tech/"><span>/tech</span><small>máquinas que trabalham</small></a>
     <a href="bitcoin/"><span>/bitcoin</span><small>dinheiro sem dono</small></a>
     <a href="historia/"><span>/historia</span><small>o que já aconteceu</small></a>
     <a href="economia/"><span>/economia</span><small>o que já foi escrito</small></a>
+    <a href="ms/"><span>/ms</span><small>o chão onde se pisa</small></a>
   </nav>
   <p class="capa-rodape">Campo Grande · MS</p>
 </main>
@@ -1373,6 +1375,70 @@ def pagina_economia():
             + topo("economia/", rel) + corpo + rodape(rel))
 
 
+NUMEROS_MS = ["comercio-servicos-e-industrias", "funcionalismo", "arrecadacao-tributaria", "educacao", "moradia", "mobilidade-e-transporte"]
+
+
+def pagina_ms():
+    """Mato Grosso do Sul: página de entrada própria. Reúne Campo Grande (livro, situação, notícias) e as contas públicas."""
+    rel = "../"
+    caps = {c["slug"]: c for c in CG["capitulos"]} if CG else {}
+    linhas = []
+    for sl in NUMEROS_MS:
+        c = caps.get(sl)
+        if not c or not c.get("indicador"):
+            continue
+        i = c["indicador"]
+        linhas.append(f"""    <li>
+      <p class="ms-valor">{e(i['valor'].rstrip(','))}</p>
+      <p class="ms-texto">{e(i['texto'])} <a href="../campo-grande/livro/{sl}/">{e(c['titulo'])}</a></p>
+      <p class="ms-fonte">Fonte: {e(i['fonte'])}</p>
+    </li>""")
+    numeros = "\n".join(linhas)
+    corpo = f"""
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Mato Grosso do Sul · Renato W. Gomes, economista</p>
+    <h1>Mato Grosso do Sul, com o documento na mesa.</h1>
+    <p class="heroi-olho">O estado e a capital lidos nas fontes oficiais: orçamento, folha, arrecadação, serviços e obras. Cada número vem com o documento de onde saiu, e quando o dado não existe, o texto diz que não existe.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="../campo-grande/situacao-atual/">Campo Grande hoje</a> <a class="botao" href="#numeros">Os números</a></p>
+  </section>
+
+  <div class="faixa" id="numeros"><h2>Campo Grande em seis números</h2><a class="mais" href="../campo-grande/situacao-atual/">Todos os temas &rarr;</a></div>
+  <ul class="ms-numeros">
+{numeros}
+  </ul>
+
+  <div class="faixa"><h2>Nesta seção</h2></div>
+  <ol class="passos">
+    <li>
+      <span class="passo-num">1</span>
+      <h2><a href="../campo-grande/situacao-atual/">Campo Grande, tema a tema</a></h2>
+      <p>Como a capital está hoje em economia, contas da prefeitura, saúde, educação, moradia, transporte e segurança, com o número mais recente conferido e a fonte.</p>
+    </li>
+    <li>
+      <span class="passo-num">2</span>
+      <h2><a href="../campo-grande/livro/">{e(CG['titulo']) if CG else 'Campo Grande em 2036'}</a></h2>
+      <p>Um livro em construção: o diagnóstico de cada tema e o que fazer até 2036, com o quadro das sete regiões urbanas.</p>
+    </li>
+    <li>
+      <span class="passo-num">3</span>
+      <h2><a href="../campo-grande/noticias/">Notícias que importam</a></h2>
+      <p>Os fatos que mexem com a vida da cidade e do estado, cada um com a fonte original e um comentário curto.</p>
+    </li>
+    <li>
+      <span class="passo-num">4</span>
+      <h2>Contas do Estado</h2>
+      <p>Em preparação: orçamento, arrecadação de ICMS, renúncia fiscal, dívida e investimento do governo de Mato Grosso do Sul, pela LOA, pelo SICONFI e pela SEFAZ-MS.</p>
+    </li>
+  </ol>
+
+  <p class="olho" style="margin:8px 0 64px;font-size:15px">Análise trata da decisão administrativa, nunca da pessoa. Correções são publicadas no próprio texto, com data.</p>
+</main>
+"""
+    escreve("ms", cabeca("Mato Grosso do Sul, com documento na mesa · Renato W. Gomes", "Mato Grosso do Sul e Campo Grande lidos nas fontes oficiais: orçamento, folha, arrecadação e serviços, cada número com o documento de origem.", "ms/", rel)
+            + topo("ms/", rel) + corpo + rodape(rel))
+
+
 def pagina_sobre():
     rel = "../"
     corpo = f"""
@@ -1996,7 +2062,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "tech/", "bitcoin/", "historia/", "economia/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "tech/", "bitcoin/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -2013,7 +2079,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_bitcoin(); pagina_historia(); pagina_economia(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_bitcoin(); pagina_historia(); pagina_economia(); pagina_ms(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)

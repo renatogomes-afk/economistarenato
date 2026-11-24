@@ -28,7 +28,7 @@ três portas), não divulgada. O marketing vai direto para cada página de entra
 (periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
 para `/tech/`. `/bitcoin/` é o piloto público de análise técnica: diário de retornos em
 `scripts/bitcoin/diario.csv` (data, retorno_pct, nota; só percentuais, nunca valores em reais) e autores em
-`AUTORES_BTC`. Campo Grande e Análises ficam sem link. Newsletter desligada (`assine()` devolve vazio).
+`AUTORES_BTC`. `/ms/` (24/11/2026) é a página de entrada de Mato Grosso do Sul: seis números de Campo Grande (de `indicador` em `scripts/campo-grande/livro.json`, lista `NUMEROS_MS`) e links para situação atual, livro e notícias de `/campo-grande/`; contas do Estado em preparação. Análises segue sem link. Newsletter desligada (`assine()` devolve vazio).
 Contato: FormSubmit (`FORM_CONTATO`/`EMAIL_CONTATO` em `gera_site.py`), volta para `/obrigado/`.
 
 ---
