@@ -1328,6 +1328,8 @@ JANELA_JS = r"""
 (function(){
 var box=document.getElementById('jan-box');if(!box)return;
 var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
+var moeda='usd';
+function val(n,k){var v=V.valores_brl[n][k];return moeda==='usd'?v/V.ptax[k]:v}
 var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
 function br(iso){return iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4)}
@@ -1337,7 +1339,7 @@ var anosJ=0;
 function calcula(){
  var a=idx(de.value),b=idx(ate.value);if(b<=a){res.textContent='Escolha um fim depois do início.';corpo.innerHTML='';return}
  var dias=(Date.parse(V.datas[b])-Date.parse(V.datas[a]))/864e5,anos=dias/365.25,linhas=[],cdi=null;anosJ=anos;
- Object.keys(V.valores_brl).forEach(function(n){var v=V.valores_brl[n],t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
+ Object.keys(V.valores_brl).forEach(function(n){var v=V.valores_brl[n].map(function(x,k){return val(n,k)}),t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
   for(var k=a;k<=b;k++){if(v[k]>pico)pico=v[k];q=Math.min(q,v[k]/pico-1)}
   var o={n:n,t:t,aa:aa,q:q};if(n==='Só CDI')cdi=o;linhas.push(o)});
  var btc=linhas.filter(function(o){return o.n==='Comprar e segurar'})[0];
@@ -1356,6 +1358,8 @@ fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
  de.min=ate.min=V.datas[0];de.max=ate.max=V.datas[V.datas.length-1];
  box.querySelectorAll('.jan-atalhos button').forEach(function(x){x.addEventListener('click',function(){atalho(+x.dataset.anos)})});
  [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button').forEach(function(y){y.classList.remove('ativo')});calcula()})});
+ box.querySelectorAll('.jan-moeda button').forEach(function(x){x.addEventListener('click',function(){moeda=x.dataset.moeda;
+  box.querySelectorAll('.jan-moeda button').forEach(function(y){y.classList.toggle('ativo',y===x)});calcula()})});
  box.hidden=false;atalho(5)}).catch(function(){});
 })();
 """
@@ -1366,9 +1370,10 @@ def janela_btc_html():
            "cores": {n: cor_btc(n) for n in list(CORES_BTC) + list(CORES_CONSENSO)}}
     return f"""    <div class="jan-box" id="jan-box" hidden>
     <h3 class="conceito-tit" id="sua-janela">Escolha a sua janela</h3>
-    <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em reais, do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
+    <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em dólares ou em reais, do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
     <div class="jan-controles">
       <div class="jan-atalhos"><button type="button" data-anos="1">1 ano</button><button type="button" data-anos="3">3 anos</button><button type="button" data-anos="5">5 anos</button><button type="button" data-anos="10">10 anos</button><button type="button" data-anos="0">Desde o início</button></div>
+      <div class="jan-atalhos jan-moeda"><button type="button" data-moeda="usd" class="ativo">US$</button><button type="button" data-moeda="brl">R$</button></div>
       <label>De <input type="date" id="jan-de"></label>
       <label>Até <input type="date" id="jan-ate"></label>
     </div>
@@ -1469,16 +1474,16 @@ def anuais_btc_html(D):
         janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"]["Só CDI"])}">{pct1(x5)}</td>'
                        f'<td class="num {cls_cdi(n, xt, A["total_aa"]["Só CDI"])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
     i5, it = A["inicio_5a"], A["inicio_total"]
-    return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em reais</h3>
-    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
+    return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em dólares</h3>
+    <p>O retorno de cada estratégia em cada ano, medido em dólares, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI convertidos em dólares. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos">
       <thead><tr><th>Estratégia</th>{cab}</tr></thead>
       <tbody>
 {chr(10).join(linhas)}
       </tbody>
     </table></div>
-    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior.</p>
-    <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início</h3>
+    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira em dólares (convertido pela PTAX do Banco Central) no último domingo do ano sobre o do ano anterior.</p>
+    <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início, em dólares</h3>
     <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário.</p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
       <thead><tr><th>Estratégia</th><th class="num">5 anos, ao ano</th><th class="num">Desde o início, ao ano</th><th class="num">Desde o início, no total</th></tr></thead>

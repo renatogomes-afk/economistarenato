@@ -200,11 +200,12 @@ def simula(px, dentro, brl, cdi, ini):
             "_valores": valores, "_estado": {"comprado": pos, "btc": btc, "caixa_brl": caixa, "desde": desde.isoformat()}}
 
 
+INI_SIM = 52  # semanas de folga antes do início do teste
 INICIO_ACOMP = dt.date(2026, 11, 22)  # fechamento de domingo antes do lançamento do piloto
 
 
 def retornos_anuais(datas, valores):
-    """Retorno em reais de cada ano civil (valor no último domingo do ano sobre o do ano anterior) e dos últimos 5 anos."""
+    """Retorno de cada ano civil (na moeda dos valores recebidos; a página usa dólares) (valor no último domingo do ano sobre o do ano anterior) e dos últimos 5 anos."""
     fim_ano = {}
     for k, d in enumerate(datas):
         fim_ano[d.year] = k
@@ -250,7 +251,7 @@ def main():
     json.dump({"datas": [p["data"].isoformat() for p in px], "fech": [p["fech"] for p in px], "alta": [p["alta"] for p in px],
                "baixa": [p["baixa"] for p in px], "ptax": brl, "cdi": cdi},
               open(os.path.join(AQUI, "precos_semanais.json"), "w", encoding="utf-8"), separators=(",", ":"))
-    ini = 52  # um ano de histórico para todos os indicadores terem dados
+    ini = INI_SIM  # um ano de histórico para todos os indicadores terem dados
     sin = sinais(px)
     votos = [sum(sin[v][i] for v in VOTANTES) for i in range(len(px))]
     for k in CONSENSOS:
@@ -280,13 +281,14 @@ def main():
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}},
              "grafico": grafico_semanal(px, sin),
-             "anuais": retornos_anuais(datas, valores),
+             "anuais": retornos_anuais(datas, {n: [x / brl[INI_SIM + k] for k, x in enumerate(v)] for n, v in valores.items()}),
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     # Valor semanal em reais de cada estratégia (base dos retornos semanais, mensais e anuais); não vai para o site.
-    semanal = {"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "valores_brl": valores}
+    semanal = {"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "ptax": [round(x, 4) for x in brl[INI_SIM:]],
+               "valores_brl": valores}
     # Vai também para o site: a página recalcula os retornos na janela que o leitor escolher.
     for destino in (os.path.join(AQUI, "valores_semanais.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "valores.json")):
         json.dump(semanal, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
