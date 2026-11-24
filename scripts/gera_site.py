@@ -1110,6 +1110,13 @@ CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003
 CORES_CONSENSO = {"Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}
 
 
+BENCH_BTC = {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI"}
+
+
+def rot_btc(nome):
+    return BENCH_BTC.get(nome, nome)
+
+
 def cor_btc(nome):
     return CORES_CONSENSO.get(nome) or CORES_BTC.get(nome, "#666")
 
@@ -1339,8 +1346,8 @@ def curvas_btc_svg(D):
     for nome in sorted(nomes, key=lambda x: x == "Comprar e segurar"):
         pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(D["curvas"][nome]))
         largura = 2.4 if nome == "Comprar e segurar" or nome.startswith("Consenso") else 1.5
-        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{cor_btc(nome)}" stroke-width="{largura}"><title>{e(nome)}</title></polyline>')
-    leg = "".join(f'<span><i style="background:{cor_btc(x)}"></i>{e(x)}</span>' for x in nomes)
+        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{cor_btc(nome)}" stroke-width="{largura}"><title>{e(rot_btc(nome))}</title></polyline>')
+    leg = "".join(f'<span><i style="background:{cor_btc(x)}"></i>{e(rot_btc(x))}</span>' for x in nomes)
     return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia teria, semana a semana, em escala logarítmica">'
             + "".join(grade) + "".join(anos) + "".join(linhas) + f'</svg>\n    <div class="legenda-btc">{leg}</div>')
 
@@ -1362,8 +1369,8 @@ def acompanhamento_btc_html():
 
     p0 = D["ultimo_fech_brl"]
     linhas = []
-    for r in sorted(D["estrategias"], key=lambda x: -x["btc_final"]):
-        cls = ' class="regua"' if r["nome"] == "Comprar e segurar" else ' class="consenso"' if r["nome"].startswith("Consenso") else ""
+    for r in sorted(D["estrategias"], key=lambda x: (x["nome"] not in BENCH_BTC, x["nome"] != "Comprar e segurar", -x["btc_final"])):
+        cls = ' class="regua"' if r["nome"] in BENCH_BTC else ' class="consenso"' if r["nome"].startswith("Consenso") else ""
         pos = "Comprado" if r["comprado"] else "No CDI"
         if r["nome"] == "Só CDI":
             prox = "Ficar no CDI"
@@ -1376,7 +1383,7 @@ def acompanhamento_btc_html():
         ret = pct(v / v0 - 1) if v0 else "–"
         linhas.append(
             f'        <tr{cls} data-btc="{r["btc"]:.8f}" data-caixa="{r["caixa_brl"]:.2f}" data-v0="{v0:.2f}">\n'
-            f'          <td><i class="cor" style="background:{cor_btc(r["nome"])}"></i>{e(r["nome"])}</td>\n'
+            f'          <td><i class="cor" style="background:{cor_btc(r["nome"])}"></i>{e(rot_btc(r["nome"]))}</td>\n'
             f'          <td>{pos}<small>desde {br(r["desde"])}</small></td>\n'
             f'          <td class="num vivo-btc">{num(v / p0, 3)}</td>\n'
             f'          <td class="num vivo-ret">{ret}</td>\n'
