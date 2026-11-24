@@ -96,7 +96,8 @@ def rsi_lista(xs, n=14):
     return out
 
 
-def sinais(px):
+def sinais_fechamento(px):
+    """Todos os sinais lidos só no fechamento semanal (versão antiga; serve de comparação em execucao.py)."""
     c = [p["fech"] for p in px]
     n = len(c)
     s = {}
@@ -147,6 +148,100 @@ def sinais(px):
     return s
 
 
+# ---------- ordens no book ----------
+# Regra de execução (decisão do Renato, 24/11/2026): se a regra define um nível de preço conhecido antes da semana,
+# deixa-se uma ordem stop no book nesse nível, executada no meio da semana quando a máxima ou a mínima toca o nível
+# (no preço do nível, ou na abertura se a semana já abrir além dele). Se a regra depende do fechamento, executa-se
+# no próprio fechamento em que o sinal aparece. Cada função devolve (posição ao fim de cada semana, preço da execução
+# em US$ em cada semana, nível da ordem para a semana seguinte).
+def book_media(px, n=40):
+    c = [p["fech"] for p in px]
+    est, alvo, preco = False, [], []
+    for i, p in enumerate(px):
+        pr = p["fech"]
+        if i > n:
+            nivel, ab = sum(c[i - n:i]) / n, c[i - 1]  # média até a semana anterior, conhecida no domingo
+            if not est and p["alta"] > nivel: est, pr = True, max(nivel, ab)
+            elif est and p["baixa"] < nivel: est, pr = False, min(nivel, ab)
+        alvo.append(est); preco.append(pr)
+    return alvo, preco, ("venda" if est else "compra", sum(c[-n:]) / n)
+
+
+def book_romp(px, e=20, x=10):
+    c = [p["fech"] for p in px]
+    est, alvo, preco = False, [], []
+    for i, p in enumerate(px):
+        pr = p["fech"]
+        if i >= e:
+            ab = c[i - 1]
+            if not est:
+                nivel = max(c[i - e:i])
+                if p["alta"] > nivel: est, pr = True, max(nivel, ab)
+            else:
+                nivel = min(c[i - x:i])
+                if p["baixa"] < nivel: est, pr = False, min(nivel, ab)
+        alvo.append(est); preco.append(pr)
+    return alvo, preco, ("venda", min(c[-x:])) if est else ("compra", max(c[-e:]))
+
+
+def book_dow(px, w=2):
+    c = [p["fech"] for p in px]
+    est, alvo, preco, topo, fundo = False, [], [], None, None
+
+    def pivos(i, topo, fundo):
+        j = i - 1 - w  # pivôs confirmados até a semana anterior
+        if j >= w:
+            jan = c[j - w:j + w + 1]
+            if c[j] == max(jan): topo = c[j]
+            if c[j] == min(jan): fundo = c[j]
+        return topo, fundo
+    for i, p in enumerate(px):
+        pr = p["fech"]
+        topo, fundo = pivos(i, topo, fundo)
+        if i > 0:
+            ab = c[i - 1]
+            if topo is not None and not est and p["alta"] > topo: est, pr = True, max(topo, ab)
+            elif fundo is not None and est and p["baixa"] < fundo: est, pr = False, min(fundo, ab)
+        alvo.append(est); preco.append(pr)
+    topo, fundo = pivos(len(px), topo, fundo)
+    return alvo, preco, ("venda", fundo) if est else ("compra", topo)
+
+
+def niveis_pct(c, i, n, lo, hi):
+    jan = sorted(c[i - n:i])
+    return jan[int(len(jan) * lo / 100)], jan[min(len(jan) - 1, int(len(jan) * hi / 100))]
+
+
+def book_pct(px, n=52, lo=20, hi=80):
+    """Faixas de percentis: compra quando o preço sobe de volta acima do nível do percentil 20 (estando abaixo dele no
+    domingo); vende quando cai de volta abaixo do nível do percentil 80 (estando acima dele no domingo)."""
+    c = [p["fech"] for p in px]
+    est, alvo, preco = False, [], []
+    for i, p in enumerate(px):
+        pr = p["fech"]
+        if i > n:
+            n_lo, n_hi = niveis_pct(c, i, n, lo, hi)
+            ab = c[i - 1]
+            if not est and ab < n_lo and p["alta"] > n_lo: est, pr = True, max(n_lo, ab)
+            elif est and ab > n_hi and p["baixa"] < n_hi: est, pr = False, min(n_hi, ab)
+        alvo.append(est); preco.append(pr)
+    n_lo, n_hi = niveis_pct(c, len(c), n, lo, hi)
+    ordem = ("venda", n_hi) if est and c[-1] > n_hi else ("compra", n_lo) if not est and c[-1] < n_lo else None
+    return alvo, preco, ordem
+
+
+BOOK = {"Média de 40 semanas": book_media, "Rompimento 20 semanas": book_romp,
+        "Topos e fundos (Dow)": book_dow, "Faixas de percentis 52 semanas": book_pct}
+
+
+def sinais(px):
+    """Sinais usados no site: as quatro regras com nível de preço viram ordens no book; as demais, fechamento."""
+    s = sinais_fechamento(px)
+    for nome, f in BOOK.items():
+        s[nome] = f(px)[0]
+    return s
+
+
 VOTANTES = ["Média de 40 semanas", "Cruzamento 10 x 40 semanas", "IFR semanal (30/70)", "Rompimento 20 semanas",
             "MACD semanal", "Topos e fundos (Dow)", "Faixas de percentis 52 semanas"]
 CONSENSOS = [7, 6, 5, 4]  # placares mínimos: 7 x 0 (unanimidade), 6 x 1, 5 x 2, 4 x 3 (maioria simples)
@@ -167,7 +262,9 @@ def consenso(s, k):
     return out
 
 
-def simula(px, dentro, brl, cdi, ini):
+def simula(px, dentro, brl, cdi, ini, preco=None):
+    """dentro[i]: posição ao fim da semana i. Sem preco, a troca sai no fechamento da semana i (regra de fechamento).
+    Com preco (US$), a troca sai no meio da semana i, nesse preço (ordem no book), com metade da semana no CDI."""
     datas = [p["data"] for p in px]
     c = [p["fech"] * brl[k] for k, p in enumerate(px)]  # preço em reais
     btc, caixa, trocas, semanas_dentro = 1.0, 0.0, 0, 0
@@ -176,13 +273,20 @@ def simula(px, dentro, brl, cdi, ini):
         caixa, btc, pos, trocas = c[ini] * (1 - TAXA), 0.0, False, 1
     valores, desde = [], datas[ini]
     for i in range(ini, len(px)):
-        if i > ini and not pos:
+        if i > ini:
             dias = (datas[i] - datas[i - 1]).days
-            caixa *= (1 + cdi[i - 1] / 100) ** (dias * 5 / 7)  # CDI diário em dias úteis aproximados
-        if i > ini and dentro[i] != pos:
-            if dentro[i]: btc, caixa = caixa / c[i] * (1 - TAXA), 0.0
-            else: caixa, btc = btc * c[i] * (1 - TAXA), 0.0
-            pos, trocas = dentro[i], trocas + 1
+            fator = (1 + cdi[i - 1] / 100) ** (dias * 5 / 7)  # CDI diário em dias úteis aproximados
+            if dentro[i] != pos:
+                if preco is None:
+                    if dentro[i]: btc, caixa = caixa * fator / c[i] * (1 - TAXA), 0.0
+                    else: caixa, btc = btc * c[i] * (1 - TAXA), 0.0
+                else:
+                    pr = preco[i] * brl[i]
+                    if dentro[i]: btc, caixa = caixa * fator ** 0.5 / pr * (1 - TAXA), 0.0
+                    else: caixa, btc = btc * pr * (1 - TAXA) * fator ** 0.5, 0.0
+                pos, trocas = dentro[i], trocas + 1
+            elif not pos:
+                caixa *= fator
         semanas_dentro += pos
         if i > ini and dentro[i] != dentro[i - 1]:
             desde = datas[i]
@@ -237,6 +341,7 @@ def grafico_semanal(px, sin):
             "sinais": {nome: [int(x) for x in d[k0:]] for nome, d in sin.items() if nome != "Comprar e segurar"},
             # histórico completo de fechamentos: a página recalcula os sinais ao vivo com a semana em curso
             "hist_fech": [round(p["fech"], 2) for p in px],
+            "hist_alta": [round(p["alta"], 2) for p in px], "hist_baixa": [round(p["baixa"], 2) for p in px],
             "consenso_limites": CONSENSOS, "votantes": VOTANTES}
 
 
@@ -256,8 +361,9 @@ def main():
     votos = [sum(sin[v][i] for v in VOTANTES) for i in range(len(px))]
     for k in CONSENSOS:
         sin[nome_consenso(k)] = consenso(sin, k)
-    # Sinal visto no fechamento da semana t é executado no fechamento da semana t+1 (sem olhar o futuro).
-    res = {nome: simula(px, [d[0]] + d[:-1], brl, cdi, ini) for nome, d in sin.items()}
+    # Regras de nível: ordem no book durante a semana. Regras de fechamento: executa no próprio fechamento do sinal.
+    book = {nome: f(px) for nome, f in BOOK.items()}
+    res = {nome: simula(px, d, brl, cdi, ini, book[nome][1] if nome in book else None) for nome, d in sin.items()}
     so_cdi = simula(px, [False] * len(px), brl, cdi, ini)
     so_cdi["operacoes"] = 1
     res["Só CDI"] = so_cdi
@@ -271,11 +377,14 @@ def main():
         curvas[nome] = [round(x / cc, 4) for x, cc in zip(v, c_brl)]
         # sinal da última semana fechada: é o que vale para a semana em curso
         proximo = sin[nome][-1] if nome in sin else False
+        ordem = book[nome][2] if nome in book else None
         tabela.append({"nome": nome, **r, **est, "sinal_para_esta_semana": proximo,
+                       "comprado_antes": bool(sin[nome][-2]) if nome in sin else False,
+                       "ordem_book": {"tipo": ordem[0], "nivel_usd": round(ordem[1], 2)} if ordem and ordem[1] is not None else None,
                        "valor_inicio_acomp_brl": v[k0] if k0 is not None else None})
     ult = px[-1]
     saida = {"gerado_em": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"), "inicio": datas[0].isoformat(), "fim": datas[-1].isoformat(),
-             "semanas": len(datas), "taxa_por_operacao": TAXA, "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
+             "semanas": len(datas), "taxa_por_operacao": TAXA, "regras_book": list(BOOK), "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
              "ultimo_fech_usd": ult["fech"], "ultimo_fech_brl": ult["fech"] * brl[-1], "ptax": brl[-1],
              "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
