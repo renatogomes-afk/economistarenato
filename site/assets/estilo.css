@@ -743,3 +743,6 @@ figcaption .credito::before{content:"· "}
 .capa-portas small{position:absolute;top:100%;left:50%;white-space:nowrap;margin-top:6px;transform:translate(-50%,-4px)}
 .capa-portas a:hover small,.capa-portas a:focus-visible small{transform:translate(-50%,0)}
 @media(hover:none){.capa-portas small{transform:translate(-50%,0)}.capa-portas{row-gap:44px}}
+.lista-min a{color:var(--tinta-2);border-bottom:1px solid var(--linha)}
+.lista-min a:hover{color:var(--azul);border-color:var(--azul)}
+.capa-portas{max-width:900px}
