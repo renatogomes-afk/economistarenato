@@ -22,11 +22,12 @@ verificável, sempre visível para o leitor.
 
 ---
 
-**Site minimalista (24/11/2026, em revisão):** o site vira o hub do negócio de automação com IA.
-Home = uma frase (`FRASE` em `gera_site.py`) + três portas (Serviços, Tecnologia, Arquivo). Menu: Serviços ·
-Tecnologia · Arquivo · Sobre + botão "Fale comigo". Leituras, Campo Grande, Análises, Ensaios e Notas saíram
-do menu (páginas ainda geradas, sem link; Ensaios e Notas linkados dentro do Arquivo). Newsletter desligada
-(`assine()` devolve vazio). Contato: preencher `FORM_CONTATO` (Formspree) e `EMAIL_CONTATO`.
+**Capa + uma página por interesse (24/11/2026, em revisão):** a raiz é uma capa enigmática (marca, uma frase e
+três portas), não divulgada. O marketing vai direto para cada página de entrada, que precisa funcionar sozinha:
+`/tech/` (agentes de IA para PMEs, com o contato), `/historia/` (livros comentados: Leituras) e `/economia/`
+(periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
+para `/tech/`. Campo Grande e Análises ficam sem link. Newsletter desligada (`assine()` devolve vazio).
+Contato: preencher `FORM_CONTATO` (Formspree) e `EMAIL_CONTATO` em `gera_site.py`.
 
 ---
 

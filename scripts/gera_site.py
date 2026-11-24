@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124b"
+CSS_V = "20261124c"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Endereço do formulário de contato (Formspree). Vazio = o formulário não aparece e fica só o e-mail.
@@ -70,10 +70,11 @@ IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><pa
 
 # Menu principal (site minimalista, 24/11/2026). Leituras, Campo Grande, Análises, Ensaios e Notas
 # saíram do menu: as páginas continuam geradas, mas sem link na navegação.
-MENU = [("servicos/", "Serviços"), ("tecnologia/", "Tecnologia"), ("arquivo/", "Arquivo"), ("sobre/", "Sobre")]
+MENU = [("tech/", "Tech"), ("historia/", "História"), ("economia/", "Economia"), ("sobre/", "Sobre")]
 
 
 def topo(ativo, rel, completo=True):
+    ativo = {"arquivo/": "economia/", "ensaios/": "economia/", "notas/": "economia/", "leituras/": "historia/"}.get(ativo, ativo)
     ativo_cls = ' class="ativo"'
     itens = "".join(f'<li><a href="{rel}{h}"{ativo_cls if h == ativo else ""}>{n}</a></li>' for h, n in MENU)
     return f"""<header class="topo-min">
@@ -83,7 +84,6 @@ def topo(ativo, rel, completo=True):
     <nav aria-label="Menu principal">
       <ul class="menu-min" id="menu-principal">
         {itens}
-        <li><a class="botao botao-cheio" href="{rel}servicos/#contato">Fale comigo</a></li>
       </ul>
     </nav>
   </div>
@@ -123,11 +123,10 @@ def rodape(rel):
     <div class="rodape-min-linha">
       <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
       <ul>
-        <li><a href="{rel}servicos/">Serviços</a></li>
-        <li><a href="{rel}tecnologia/">Tecnologia</a></li>
-        <li><a href="{rel}arquivo/">Arquivo</a></li>
+        <li><a href="{rel}tech/">Tech</a></li>
+        <li><a href="{rel}historia/">História</a></li>
+        <li><a href="{rel}economia/">Economia</a></li>
         <li><a href="{rel}sobre/">Sobre</a></li>
-        <li><a href="{rel}servicos/#contato">Contato</a></li>
         <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
     </div>
@@ -203,37 +202,23 @@ def chave_data(ed):
 
 # ------------------------------------------------------------------ páginas
 def pagina_inicio():
+    """Capa: enigmática e mínima. Não é divulgada; o marketing vai direto para /tech, /historia e /economia."""
     rel = ""
     corpo = f"""
-<main class="env home-min">
-  <section class="heroi">
-    <p class="heroi-quem">Renato W. Gomes · Economista</p>
-    <h1>{FRASE}.</h1>
-    <p class="heroi-olho">Encontro onde o seu time perde horas em tarefas repetitivas, coloco agentes de IA para fazer esse trabalho e meço o ganho em reais, mês a mês.</p>
-    <p class="heroi-acoes"><a class="botao botao-cheio" href="servicos/#contato">Fale comigo</a> <a class="botao" href="servicos/">Como funciona</a></p>
-  </section>
-
-  <section class="portas">
-    <a class="porta" href="servicos/">
-      <span class="porta-rot">Serviços</span>
-      <h2>Agentes de IA com retorno medido</h2>
-      <p>Diagnóstico, implantação e acompanhamento mensal, com a conta do ganho na mesa.</p>
-    </a>
-    <a class="porta" href="tecnologia/">
-      <span class="porta-rot">Tecnologia</span>
-      <h2>O que a história da inovação ensina</h2>
-      <p>A automação de hoje lida à luz dos periódicos técnicos originais do século XX.</p>
-    </a>
-    <a class="porta" href="arquivo/">
-      <span class="porta-rot">Arquivo</span>
-      <h2>Clássicos da economia comentados</h2>
-      <p>Os debates de 1886 a 1929, lidos no original e explicados em português.</p>
-    </a>
-  </section>
+<main class="capa-enigma">
+  <a class="capa-marca" href="./" aria-label="Renato W. Gomes, economista">{MARCA_TAG}</a>
+  <p class="capa-frase">Três perguntas. Uma resposta por porta.</p>
+  <nav class="capa-portas" aria-label="Interesses">
+    <a href="tech/"><span>/tech</span><small>máquinas que trabalham</small></a>
+    <a href="historia/"><span>/historia</span><small>o que já aconteceu</small></a>
+    <a href="economia/"><span>/economia</span><small>o que já foi escrito</small></a>
+  </nav>
+  <p class="capa-rodape">Campo Grande · MS</p>
 </main>
+</body>
+</html>
 """
-    escreve("", cabeca(f"Renato W. Gomes, economista — {FRASE}", f"{FRASE}. Diagnóstico, implantação e acompanhamento de agentes de IA, com o ganho medido em reais. Renato W. Gomes, economista (CORECON-MS 1297).", "", rel)
-            + topo("", rel) + corpo + rodape(rel))
+    escreve("", cabeca("Renato W. Gomes, economista", "Renato W. Gomes, economista (CORECON-MS 1297). Tecnologia, história e economia.", "", rel) + corpo)
 
 
 def edicoes_de(cid):
@@ -933,17 +918,28 @@ def bloco_contato():
   </section>"""
 
 
-def pagina_servicos():
+def redireciona(caminho, destino):
+    """Endereço antigo que passou a morar em outra página."""
+    escreve(caminho, f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>Mudou de endereço</title>
+<link rel="canonical" href="{DOMINIO}/{destino}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=/{destino}"></head>
+<body><p>Esta página mudou para <a href="/{destino}">{DOMINIO}/{destino}</a>.</p></body></html>
+""")
+
+
+def pagina_tech():
     rel = "../"
     corpo = f"""
 <main class="env pagina-min">
   <section class="heroi heroi-interno">
-    <p class="heroi-quem">Serviços</p>
-    <h1>Agentes de IA para pequenas e médias empresas, com retorno medido.</h1>
-    <p class="heroi-olho">Não vendo ferramenta. Vendo horas de volta para o seu time, com a conta feita antes e conferida depois.</p>
+    <p class="heroi-quem">Tech · Renato W. Gomes, economista</p>
+    <h1>{FRASE}.</h1>
+    <p class="heroi-olho">Encontro onde o seu time perde horas em tarefas repetitivas, coloco agentes de IA para fazer esse trabalho e meço o ganho em reais, mês a mês.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Fale comigo</a> <a class="botao" href="#como">Como funciona</a></p>
   </section>
 
-  <ol class="passos">
+  <ol class="passos" id="como">
     <li>
       <span class="passo-num">1</span>
       <h2>Diagnóstico</h2>
@@ -966,36 +962,75 @@ def pagina_servicos():
     <p>Escritórios de contabilidade, gestoras e assessorias de investimento, e empresas de serviços e do agro em Mato Grosso do Sul e Mato Grosso. Também faço palestras sobre IA e produtividade para quem decide.</p>
   </section>
 
+  <section class="para-quem">
+    <h2>Por que um economista</h2>
+    <p>Muitas das perguntas que as empresas fazem hoje sobre IA já foram feitas quando as centrais telefônicas e as fábricas se automatizaram. A matemática criada para dimensionar telefonistas serve para dimensionar agentes; os métodos de controle de qualidade da indústria servem para conferir o que um agente entrega. Eu uso essa história como método, e a conta em reais como prova.</p>
+  </section>
+
   {bloco_contato()}
 </main>
 """
-    escreve("servicos", cabeca("Serviços — Renato W. Gomes, economista", "Diagnóstico, implantação e acompanhamento de agentes de IA para pequenas e médias empresas, com o ganho medido em reais.", "servicos/", rel)
-            + topo("servicos/", rel) + corpo + rodape(rel))
+    escreve("tech", cabeca(f"Tech — {FRASE} · Renato W. Gomes", "Diagnóstico, implantação e acompanhamento de agentes de IA para pequenas e médias empresas, com o ganho medido em reais.", "tech/", rel)
+            + topo("tech/", rel) + corpo + rodape(rel))
 
 
-def pagina_tecnologia():
+def pagina_historia():
     rel = "../"
+    livros = "\n".join(f"""    <article class="cartao colecao">
+      <a href="{rel}leituras/{L['slug']}/">
+        <span class="chapeu">{e(L['autor'])} · {L['ano']}</span>
+        <h3 class="tit tit-g">{e(L['titulo'])}</h3>
+        <p class="olho">{e(L['chamada'])}</p>
+        <span class="selo">{len(L.get('resenhas', []))} de {len(L['capitulos'])} capítulos resenhados</span>
+      </a>
+    </article>""" for L in LIVROS)
+    docs = ""
+    if DOCS_PUB:
+        docs = ('  <div class="faixa">\n    <h2>Documentos de época</h2>\n    <span class="sub">Obras antigas resenhadas como documento histórico</span>\n  </div>\n'
+                '  <section class="grade-3">\n' + "\n".join(cartao_documento(d, rel) for d in DOCS_PUB) + '\n  </section>\n')
     corpo = f"""
-<main class="env pagina-min">
+<main class="env">
   <section class="heroi heroi-interno">
-    <p class="heroi-quem">Tecnologia</p>
-    <h1>O que um século de inovação ensina sobre a automação de hoje.</h1>
-    <p class="heroi-olho">Muitas das perguntas que as empresas fazem sobre IA já foram feitas antes, quando as centrais telefônicas e as fábricas se automatizaram. Aqui eu leio os periódicos técnicos originais e trago a lição para quem decide hoje.</p>
+    <p class="heroi-quem">História · Renato W. Gomes, economista</p>
+    <h1>A história econômica, lida livro a livro.</h1>
+    <p class="heroi-olho">Obras longas de história e de pensamento econômico, resenhadas na ordem, um capítulo por página: o argumento do autor em português, os fatos citados e a pergunta de hoje.</p>
   </section>
-
-  <section class="para-quem">
-    <h2>Os primeiros temas</h2>
-    <ul class="lista-min">
-      <li><b>Filas e atendimento.</b> A matemática criada para dimensionar telefonistas serve para dimensionar agentes de IA.</li>
-      <li><b>Controle de qualidade.</b> Como os métodos estatísticos nascidos na indústria ajudam a conferir o que um agente entrega.</li>
-      <li><b>A automação das centrais telefônicas.</b> O que mudou para empresas e trabalhadores quando a operação manual virou automática.</li>
-    </ul>
-    <p class="nota-min">Primeiros textos em preparação.</p>
+  <section class="grade-3">
+{livros}
   </section>
+{docs}
+  <div style="height:64px"></div>
 </main>
 """
-    escreve("tecnologia", cabeca("Tecnologia — Renato W. Gomes, economista", "Economia da inovação: a automação de hoje lida à luz dos periódicos técnicos originais do século XX.", "tecnologia/", rel)
-            + topo("tecnologia/", rel) + corpo + rodape(rel))
+    escreve("historia", cabeca("História — livros de história econômica comentados · Renato W. Gomes", "Obras de história e pensamento econômico resenhadas capítulo a capítulo, em português, com a página citada.", "historia/", rel)
+            + topo("historia/", rel) + corpo + rodape(rel))
+
+
+def pagina_economia():
+    rel = "../"
+    cards = "\n".join(cartao_colecao(c, "../arquivo/") for c in COLECOES)
+    recentes = "\n".join(cartao_edicao(ed, rel) for ed in edicoes_de("eua")[-3:][::-1])
+    corpo = f"""
+<main class="env">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Economia · Renato W. Gomes, economista</p>
+    <h1>Os periódicos que criaram a economia moderna, comentados em português.</h1>
+    <p class="heroi-olho">Monopólios, ferrovias, moeda, impostos e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes. Edição por edição, com o documento original a um clique.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="../arquivo/eua/">Começar pela primeira edição</a> <a class="botao" href="../ensaios/">Ler os ensaios</a></p>
+  </section>
+  <div class="faixa"><h2>Mais recentes</h2><a class="mais" href="../arquivo/">Arquivo completo &rarr;</a></div>
+  <section class="grade-3">
+{recentes}
+  </section>
+  <div class="faixa"><h2>Coleções</h2><span class="sub">Estados Unidos, China e Europa</span></div>
+  <section class="grade-3">
+{cards}
+  </section>
+  <p class="olho" style="margin:8px 0 64px;font-size:15px">Também: <a href="../notas/">Notas · Então × Agora</a>, um dado histórico ao lado de um dado atual. Documentos em domínio público, via JSTOR Early Journal Content e Internet Archive; sem afiliação com as instituições que publicaram os originais.</p>
+</main>
+"""
+    escreve("economia", cabeca("Economia — os periódicos clássicos comentados · Renato W. Gomes", "Os periódicos que criaram a economia moderna, de 1886 em diante, lidos no original e comentados em português.", "economia/", rel)
+            + topo("economia/", rel) + corpo + rodape(rel))
 
 
 def pagina_sobre():
@@ -1620,7 +1655,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "servicos/", "tecnologia/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "tech/", "historia/", "economia/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -1637,7 +1672,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_servicos(); pagina_tecnologia(); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_historia(); pagina_economia(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)

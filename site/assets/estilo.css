@@ -724,3 +724,22 @@ figcaption .credito::before{content:"· "}
 .rodape-min a{font-family:var(--sans);font-size:13px;color:var(--tinta-2)}
 .rodape-min a:hover{color:var(--azul)}
 .rodape-min-fim{font-family:var(--sans);font-size:12px;color:var(--cinza);margin:16px 0 0}
+
+/* Capa enigmática (24/11/2026): marca, uma frase e três portas */
+.capa-enigma{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 16px;gap:0}
+.capa-marca{color:var(--tinta);display:block;width:min(340px,74vw)}
+.capa-marca svg{width:100%;height:auto;display:block}
+.capa-frase{font-family:var(--serif);font-style:italic;font-size:clamp(17px,2vw,20px);color:var(--cinza);margin:44px 0 40px}
+.capa-portas{display:flex;gap:clamp(28px,6vw,72px);flex-wrap:wrap;justify-content:center}
+.capa-portas a{display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--tinta);text-decoration:none}
+.capa-portas span{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:clamp(24px,3vw,30px);letter-spacing:-.01em;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.capa-portas small{font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);opacity:0;transform:translateY(-4px);transition:opacity .25s,transform .25s}
+.capa-portas a:hover span,.capa-portas a:focus-visible span{color:var(--azul);border-color:var(--azul)}
+.capa-portas a:hover small,.capa-portas a:focus-visible small{opacity:1;transform:none}
+@media(hover:none){.capa-portas small{opacity:1;transform:none}}
+@media(max-width:560px){.capa-portas{flex-direction:column;gap:26px}}
+.capa-rodape{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza);margin:64px 0 0}
+.capa-portas a{position:relative}
+.capa-portas small{position:absolute;top:100%;left:50%;white-space:nowrap;margin-top:6px;transform:translate(-50%,-4px)}
+.capa-portas a:hover small,.capa-portas a:focus-visible small{transform:translate(-50%,0)}
+@media(hover:none){.capa-portas small{transform:translate(-50%,0)}.capa-portas{row-gap:44px}}
