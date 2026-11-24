@@ -274,8 +274,10 @@ def main():
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     # Valor semanal em reais de cada estratégia (base dos retornos semanais, mensais e anuais); não vai para o site.
-    json.dump({"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "valores_brl": valores},
-              open(os.path.join(AQUI, "valores_semanais.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    semanal = {"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "valores_brl": valores}
+    # Vai também para o site: a página recalcula os retornos na janela que o leitor escolher.
+    for destino in (os.path.join(AQUI, "valores_semanais.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "valores.json")):
+        json.dump(semanal, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
     print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
     print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")

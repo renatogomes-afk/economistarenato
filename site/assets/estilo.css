@@ -814,3 +814,12 @@ figcaption .credito::before{content:"· "}
 .tab-anos th,.tab-anos td{padding-left:8px;padding-right:8px}
 .tab-anos td:first-child{min-width:170px}.tab-anos{font-size:14px}.tab-janelas{min-width:0}
 .tab-anos td.cinco small{display:block;font-size:11px;font-weight:400;color:var(--cinza)}
+
+/* /bitcoin: seletor de janela */
+.jan-controles{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;margin:6px 0 12px;font-family:var(--sans);font-size:14px}
+.jan-atalhos{display:flex;flex-wrap:wrap;gap:6px}
+.jan-atalhos button{font:600 13px var(--sans);padding:7px 12px;border:1px solid var(--linha);background:#fff;color:var(--tinta);cursor:pointer}
+.jan-atalhos button.ativo,.jan-atalhos button:hover{background:#003097;border-color:#003097;color:#fff}
+.jan-controles label{display:flex;gap:6px;align-items:center;color:var(--cinza)}
+.jan-controles input{font:14px var(--sans);padding:5px 6px;border:1px solid var(--linha)}
+.jan-resumo{font-family:var(--sans);font-size:14px;margin:0 0 6px}

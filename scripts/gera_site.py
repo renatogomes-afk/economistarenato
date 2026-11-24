@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124h"
+CSS_V = "20261124i"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1323,6 +1323,65 @@ def consenso_btc_html(D):
 """
 
 
+# Seletor de janela: lê bitcoin/valores.json (valor semanal em R$ de cada estratégia) e recalcula a tabela.
+JANELA_JS = r"""
+(function(){
+var box=document.getElementById('jan-box');if(!box)return;
+var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
+var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
+function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
+function br(iso){return iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4)}
+function idx(iso){var D=V.datas,k;for(k=D.length-1;k>=0;k--)if(D[k]<=iso)return k;return 0}
+function calcula(){
+ var a=idx(de.value),b=idx(ate.value);if(b<=a){res.textContent='Escolha um fim depois do início.';corpo.innerHTML='';return}
+ var dias=(Date.parse(V.datas[b])-Date.parse(V.datas[a]))/864e5,anos=dias/365.25,linhas=[],cdi=null;
+ Object.keys(V.valores_brl).forEach(function(n){var v=V.valores_brl[n],t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
+  for(var k=a;k<=b;k++){if(v[k]>pico)pico=v[k];q=Math.min(q,v[k]/pico-1)}
+  var o={n:n,t:t,aa:aa,q:q};if(n==='Só CDI')cdi=o;linhas.push(o)});
+ var btc=linhas.filter(function(o){return o.n==='Comprar e segurar'})[0];
+ var bench=linhas.filter(function(o){return CFG.bench[o.n]}),est=linhas.filter(function(o){return!CFG.bench[o.n]}).sort(function(x,y){return y.t-x.t});
+ corpo.innerHTML=bench.concat(est).map(function(o,i){var b=CFG.bench[o.n],c=b?'':(o.t>cdi.t?'acima':'abaixo');
+  return '<tr'+(b?' class="regua"':'')+'><td><i class="cor" style="background:'+CFG.cores[o.n]+'"></i>'+(b||o.n)+'</td>'+
+  '<td class="num '+c+(!b&&o.t>btc.t?' bate-btc':'')+'">'+pct(o.t,1)+'</td><td class="num '+c+'">'+pct(o.aa,1)+'</td>'+
+  '<td class="num">'+pct(o.q,0)+'</td><td class="num">'+(b?'':pct(o.t-cdi.t,1).replace('%',' p.p.'))+'</td></tr>'}).join('');
+ var best=est[0];
+ res.innerHTML='De <b>'+br(V.datas[a])+'</b> a <b>'+br(V.datas[b])+'</b> ('+(anos>=1?anos.toLocaleString('pt-BR',{maximumFractionDigits:1})+' anos':Math.round(dias/7)+' semanas')+'). Melhor estratégia: <b>'+best.n+'</b>, '+pct(best.t,1)+'; bitcoin '+pct(btc.t,1)+'; CDI '+pct(cdi.t,1)+'.';
+}
+function atalho(anos){var fim=V.datas[V.datas.length-1];ate.value=fim;
+ if(anos===0)de.value=V.datas[0];else{var d=new Date(fim+'T00:00:00Z');d.setUTCFullYear(d.getUTCFullYear()-anos);de.value=d.toISOString().slice(0,10)<V.datas[0]?V.datas[0]:d.toISOString().slice(0,10)}
+ box.querySelectorAll('.jan-atalhos button').forEach(function(x){x.classList.toggle('ativo',+x.dataset.anos===anos)});calcula()}
+fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
+ de.min=ate.min=V.datas[0];de.max=ate.max=V.datas[V.datas.length-1];
+ box.querySelectorAll('.jan-atalhos button').forEach(function(x){x.addEventListener('click',function(){atalho(+x.dataset.anos)})});
+ [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button').forEach(function(y){y.classList.remove('ativo')});calcula()})});
+ box.hidden=false;atalho(5)}).catch(function(){});
+})();
+"""
+
+
+def janela_btc_html():
+    cfg = {"url": "valores.json", "bench": BENCH_BTC,
+           "cores": {n: cor_btc(n) for n in list(CORES_BTC) + list(CORES_CONSENSO)}}
+    return f"""    <div class="jan-box" id="jan-box" hidden>
+    <h3 class="conceito-tit" id="sua-janela">Escolha a sua janela</h3>
+    <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em reais, do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
+    <div class="jan-controles">
+      <div class="jan-atalhos"><button type="button" data-anos="1">1 ano</button><button type="button" data-anos="3">3 anos</button><button type="button" data-anos="5">5 anos</button><button type="button" data-anos="10">10 anos</button><button type="button" data-anos="0">Desde o início</button></div>
+      <label>De <input type="date" id="jan-de"></label>
+      <label>Até <input type="date" id="jan-ate"></label>
+    </div>
+    <p class="jan-resumo" id="jan-resumo"></p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
+      <thead><tr><th>Estratégia</th><th class="num">No período</th><th class="num">Ao ano</th><th class="num">Pior queda</th><th class="num">Contra o CDI</th></tr></thead>
+      <tbody id="jan-corpo"></tbody>
+    </table></div>
+    <p class="nota-min">Verde: acima do CDI no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
+    </div>
+    <script type="application/json" id="jan-cfg">{json.dumps(cfg, ensure_ascii=False)}</script>
+    <script>{JANELA_JS}</script>
+"""
+
+
 def anuais_btc_html(D):
     A = D.get("anuais")
     if not A:
@@ -1370,7 +1429,7 @@ def anuais_btc_html(D):
       </tbody>
     </table></div>
     <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
-"""
+{janela_btc_html()}"""
 
 
 def curvas_btc_svg(D):
