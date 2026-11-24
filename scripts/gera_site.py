@@ -989,7 +989,7 @@ def autores_btc_html(rel):
     li = "\n".join(f'      <li><b>{nome(n, u)}.</b> {e(t)}</li>' for n, t, u in AUTORES_BTC)
     return f"""  <section class="para-quem" id="autores">
     <h2>Quem me inspira</h2>
-    <p>Esta é uma plataforma aberta: as regras, os testes e as referências ficam à vista. Estes são os autores de onde vêm as ideias testadas aqui.</p>
+    <p>Esta é uma plataforma aberta: as regras, os testes e as referências ficam à vista. Estes são os sete autores de onde vêm as ideias testadas aqui, em ordem cronológica.</p>
     <ul class="lista-min">
 {li}
     </ul>
@@ -998,7 +998,15 @@ def autores_btc_html(rel):
 
 
 # Autores que inspiram o piloto de bitcoin: (nome, o que ele ensina, link opcional). Lista vazia = seção some.
-AUTORES_BTC = []
+AUTORES_BTC = [
+    ("Charles Dow", "Nos editoriais do Wall Street Journal, jornal que ele fundou, nasceu a ideia de que o mercado anda em tendências e de que elas se confirmam. É a raiz da média de 200 dias.", ""),
+    ("Richard Wyckoff", "Ensinou a ler preço e volume juntos e a reconhecer as fases de acumulação e distribuição, quando quem sabe mais está comprando ou vendendo.", ""),
+    ("Ralph Nelson Elliott", "Em The Wave Principle (1938), propôs que o mercado se move em ondas repetidas, movidas pela psicologia coletiva.", ""),
+    ("Robert D. Edwards e John Magee", "Technical Analysis of Stock Trends (1948) catalogou os padrões gráficos, como ombro-cabeça-ombro, triângulos e suportes, e virou a bíblia dos grafistas.", ""),
+    ("Richard Donchian", "Pioneiro dos sistemas de tendência com regras fixas: entrar no rompimento da máxima e sair na perda da mínima. É a base do sinal de rompimento testado aqui.", ""),
+    ("J. Welles Wilder Jr.", "Em New Concepts in Technical Trading Systems (1978), criou o IFR, o ATR e o ADX, indicadores usados até hoje.", ""),
+    ("Gerald Appel", "Criou o MACD no fim dos anos 1970, o indicador de momento mais popular dos gráficos.", ""),
+]
 
 
 # Diário do piloto: scripts/bitcoin/diario.csv (data AAAA-MM-DD, retorno_pct do dia, nota opcional).
