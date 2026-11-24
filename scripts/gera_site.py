@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124e"
+CSS_V = "20261124f"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1114,6 +1114,113 @@ def cor_btc(nome):
     return COR_CONSENSO if nome.startswith("Consenso") else CORES_BTC.get(nome, "#666")
 
 
+def data_br(iso):
+    a, m, d = iso.split("-")
+    return f"{d}/{m}/{a}"
+
+
+MESES_ABR = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def decisao_btc(r):
+    """Mesma regra da coluna "Decisão de domingo" da tabela."""
+    if r["sinal_para_esta_semana"]:
+        return ("Ficar comprado", "manter") if r["comprado"] else ("Comprar", "compra")
+    return ("Vender", "venda") if r["comprado"] else ("Ficar no CDI", "fora")
+
+
+def grafico_semana_btc_svg(D):
+    G = D.get("grafico")
+    if not G:
+        return ""
+    est = {r["nome"]: r for r in D["estrategias"]}
+    nomes = [n for n in G["sinais"] if n in est]
+    nomes = [n for n in nomes if not n.startswith("Consenso")] + [n for n in nomes if n.startswith("Consenso")]
+    n = len(G["fech"])
+    W, X0, X1 = 1000, 8, 790          # área do gráfico; à direita fica a coluna das decisões
+    PY0, PY1 = 16, 296                # painel de preço
+    L0, LH = 336, 30                  # faixas das estratégias
+    H = L0 + LH * len(nomes) + 34
+    passo = (X1 - X0) / n
+    xc = lambda i: X0 + passo * (i + .5)
+    lo, hi = min(G["baixa"]), max(G["alta"])
+    folga = (hi - lo) * .06
+    lo, hi = lo - folga, hi + folga
+    yp = lambda v: PY1 - (v - lo) / (hi - lo) * (PY1 - PY0)
+    out = [f'<svg class="graf-semana" viewBox="0 0 {W} {H}" role="img" aria-label="Velas semanais do bitcoin em dólares e a decisão de cada estratégia, semana a semana">']
+    # grade de preço
+    import math as _m
+    deg = 10 ** _m.floor(_m.log10((hi - lo) / 4))
+    deg = next(d * deg for d in (1, 2, 2.5, 5, 10) if (hi - lo) / (d * deg) <= 6)
+    v = _m.ceil(lo / deg) * deg
+    while v < hi:
+        y = yp(v)
+        out.append(f'<line x1="{X0}" x2="{X1}" y1="{y:.1f}" y2="{y:.1f}" class="gs-grade"/><text x="{X1 + 6}" y="{y + 4:.1f}" class="gs-eixo">US$ {v / 1000:,.0f} mil</text>'.replace(",", "."))
+        v += deg
+    # meses no eixo
+    ult_mes = None
+    for i, d in enumerate(G["datas"]):
+        a, m_, _ = d.split("-")
+        if m_ != ult_mes and i > 0 and int(m_) % 3 == 1:
+            x = xc(i)
+            out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{PY0}" y2="{L0 + LH * len(nomes)}" class="gs-mes"/><text x="{x + 3:.1f}" y="{PY1 + 16}" class="gs-eixo">{MESES_ABR[int(m_) - 1]}/{a[2:]}</text>')
+        ult_mes = m_
+    # velas
+    lv = max(2.0, passo * .62)
+    for i in range(n):
+        o, c, h, l_ = G["abre"][i], G["fech"][i], G["alta"][i], G["baixa"][i]
+        cls = "gs-alta" if c >= o else "gs-baixa"
+        x = xc(i)
+        y1, y2 = sorted((yp(o), yp(c)))
+        out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{yp(h):.1f}" y2="{yp(l_):.1f}" class="{cls}"/><rect x="{x - lv / 2:.1f}" y="{y1:.1f}" width="{lv:.1f}" height="{max(1, y2 - y1):.1f}" class="{cls}"/>')
+    # destaque da semana que acabou de fechar
+    xu = xc(n - 1)
+    out.append(f'<rect x="{xu - passo / 2:.1f}" y="{PY0 - 8}" width="{passo:.1f}" height="{L0 + LH * len(nomes) - PY0 + 8}" class="gs-agora"/>')
+    out.append(f'<text x="{xu:.1f}" y="{PY0 - 10}" text-anchor="end" class="gs-eixo">semana fechada em {e(data_br(G["datas"][-1]))}</text>')
+    # faixas
+    out.append(f'<text x="{X0}" y="{L0 - 12}" class="gs-tit">Sinal de cada estratégia</text><text x="{X1 + 10}" y="{L0 - 12}" class="gs-tit">Decisão de domingo</text>')
+    for j, nome in enumerate(nomes):
+        y = L0 + LH * j
+        cor = cor_btc(nome)
+        s = G["sinais"][nome]
+        out.append(f'<line x1="{X0}" x2="{X1}" y1="{y + LH - 4}" y2="{y + LH - 4}" class="gs-base"/>')
+        i = 0
+        while i < n:
+            if s[i]:
+                k = i
+                while k < n and s[k]:
+                    k += 1
+                out.append(f'<rect x="{X0 + passo * i:.1f}" y="{y + 4}" width="{passo * (k - i):.1f}" height="{LH - 8}" fill="{cor}" opacity=".22"/>')
+                i = k
+            else:
+                i += 1
+        ant = G["sinal_anterior"].get(nome, s[0])
+        for i in range(n):
+            if s[i] != ant:
+                x, ym = xc(i), y + LH / 2
+                if s[i]:
+                    out.append(f'<path d="M{x - 5:.1f} {ym + 5:.1f}L{x + 5:.1f} {ym + 5:.1f}L{x:.1f} {ym - 6:.1f}Z" class="gs-compra"><title>{e(nome)}: compra em {e(data_br(G["datas"][i]))}</title></path>')
+                else:
+                    out.append(f'<path d="M{x - 5:.1f} {ym - 5:.1f}L{x + 5:.1f} {ym - 5:.1f}L{x:.1f} {ym + 6:.1f}Z" class="gs-venda"><title>{e(nome)}: venda em {e(data_br(G["datas"][i]))}</title></path>')
+            ant = s[i]
+        out.append(f'<text x="{X0 + 4}" y="{y + 15}" class="gs-nome{" gs-forte" if nome.startswith("Consenso") else ""}" fill="{cor}">{e(nome)}</text>')
+        rot, tipo = decisao_btc(est[nome])
+        xm, ym = X1 + 18, y + LH / 2
+        marca = {"compra": f'<path d="M{xm - 6} {ym + 6}L{xm + 6} {ym + 6}L{xm} {ym - 7}Z" class="gs-compra"/>',
+                 "venda": f'<path d="M{xm - 6} {ym - 6}L{xm + 6} {ym - 6}L{xm} {ym + 7}Z" class="gs-venda"/>',
+                 "manter": f'<circle cx="{xm}" cy="{ym}" r="6" fill="{cor}"/>',
+                 "fora": f'<circle cx="{xm}" cy="{ym}" r="5.5" class="gs-fora"/>'}[tipo]
+        out.append(f'{marca}<text x="{xm + 14}" y="{ym + 4.5}" class="gs-dec gs-{tipo}-t">{rot}</text>')
+    out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (velas diárias BTC-USD agrupadas em semanas que fecham no domingo, UTC).</text>')
+    out.append("</svg>")
+    return f'''    <h3 class="conceito-tit" id="grafico-semana">O gráfico da semana: a decisão de cada estratégia</h3>
+    <p>Velas semanais do último ano e meio, em dólares. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. A coluna da direita é a decisão tomada no fechamento deste domingo, executada no fechamento do domingo seguinte.</p>
+    <div class="tab-rolagem graf-semana-box">
+{"".join(out)}
+    </div>
+'''
+
+
 def consenso_btc_html(D):
     C = D.get("consenso")
     if not C:
@@ -1223,6 +1330,7 @@ def acompanhamento_btc_html():
       <script src="https://s3.tradingview.com/tv.js"></script>
       <script>if(window.TradingView)new TradingView.widget({tv});</script>
     </div>
+{grafico_semana_btc_svg(D)}
 {consenso_btc_html(D)}
     <div class="tab-rolagem">
     <table class="tab-btc">

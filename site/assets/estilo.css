@@ -781,3 +781,22 @@ figcaption .credito::before{content:"· "}
 .ms-fonte{font-family:var(--sans);font-size:12px;color:var(--cinza);margin:0}
 .passos h2 a{color:inherit;text-decoration:none;border-bottom:1px solid var(--linha)}
 .passos h2 a:hover{color:var(--azul)}
+
+/* /bitcoin: gráfico da semana com a decisão de cada estratégia */
+.graf-semana-box{margin:8px 0 28px}
+.graf-semana{display:block;width:100%;min-width:760px;height:auto;font-family:var(--sans)}
+.gs-grade{stroke:var(--linha);stroke-width:1}
+.gs-mes{stroke:var(--linha);stroke-width:1;stroke-dasharray:2 4}
+.gs-eixo{font-size:11px;fill:var(--cinza)}
+.gs-tit{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;fill:var(--tinta)}
+.gs-alta{stroke:#0a7d35;fill:#0a7d35}
+.gs-baixa{stroke:#A61E1E;fill:#A61E1E}
+.gs-agora{fill:#003097;opacity:.07}
+.gs-base{stroke:var(--linha);stroke-width:1}
+.gs-nome{font-size:11.5px;font-weight:600}
+.gs-forte{font-weight:800}
+.gs-compra{fill:#0a7d35}
+.gs-venda{fill:#A61E1E}
+.gs-fora{fill:none;stroke:#9a9a9a;stroke-width:1.6}
+.gs-dec{font-size:13px;font-weight:600;fill:var(--tinta)}
+.gs-compra-t{fill:#0a7d35}.gs-venda-t{fill:#A61E1E}.gs-fora-t{fill:var(--cinza)}

@@ -191,6 +191,22 @@ def simula(px, dentro, brl, cdi, ini):
 INICIO_ACOMP = dt.date(2026, 11, 22)  # fechamento de domingo antes do lançamento do piloto
 
 
+GRAF_SEMANAS = 78  # um ano e meio de velas semanais no gráfico da página
+
+
+def grafico_semanal(px, sin):
+    """Velas semanais (USD) e o sinal de cada estratégia, semana a semana, para o gráfico com marcadores."""
+    n = min(GRAF_SEMANAS, len(px) - 1)
+    k0 = len(px) - n
+    return {"datas": [p["data"].isoformat() for p in px[k0:]],
+            "abre": [round(px[k - 1]["fech"], 2) for k in range(k0, len(px))],
+            "alta": [round(p["alta"], 2) for p in px[k0:]],
+            "baixa": [round(p["baixa"], 2) for p in px[k0:]],
+            "fech": [round(p["fech"], 2) for p in px[k0:]],
+            "sinal_anterior": {nome: int(d[k0 - 1]) for nome, d in sin.items() if nome != "Comprar e segurar"},
+            "sinais": {nome: [int(x) for x in d[k0:]] for nome, d in sin.items() if nome != "Comprar e segurar"}}
+
+
 def main():
     px, dias = btc_semanal()
     ini_data = px[0]["data"]
@@ -230,6 +246,7 @@ def main():
              "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
              "consenso": {"limite": CONSENSO, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}, "variantes": variantes},
+             "grafico": grafico_semanal(px, sin),
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)
