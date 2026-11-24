@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site scripts/bitcoin/resultados.json scripts/bitcoin/valores_semanais.json scripts/bitcoin/precos_semanais.json scripts/bitcoin/otimizacao.json
+          git add site scripts/bitcoin
           git diff --cached --quiet || git commit -m "Bitcoin: atualização semanal dos sinais"
           git pull --rebase -X theirs
           git push
