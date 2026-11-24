@@ -25,8 +25,12 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124a"
-LEMA = "Economia pelas fontes"
+CSS_V = "20261124b"
+LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
+FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
+# Endereço do formulário de contato (Formspree). Vazio = o formulário não aparece e fica só o e-mail.
+FORM_CONTATO = ""
+EMAIL_CONTATO = ""  # e-mail que recebe os pedidos (preencher)
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
 e = html.escape
@@ -64,69 +68,38 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 
 IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
 
-# Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("campo-grande/", "Campo Grande-MS"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
-        ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
+# Menu principal (site minimalista, 24/11/2026). Leituras, Campo Grande, Análises, Ensaios e Notas
+# saíram do menu: as páginas continuam geradas, mas sem link na navegação.
+MENU = [("servicos/", "Serviços"), ("tecnologia/", "Tecnologia"), ("arquivo/", "Arquivo"), ("sobre/", "Sobre")]
 
 
 def topo(ativo, rel, completo=True):
-    itens = []
-    for h, n in MENU:
-        cls = ' class="ativo"' if h == ativo else ""
-        if h == "arquivo/":
-            subs = "".join(f'<li><a href="{rel}arquivo/{c["id"]}/">{e(c["regiao"])}</a></li>' for c in COLECOES)
-            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
-                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as regiões do Arquivo">&#9662;</button>'
-                         f'<ul class="sub"><li><a href="{rel}arquivo/">Todas as coleções</a></li>{subs}</ul></li>')
-        elif h == "campo-grande/" and CG:
-            subs = "".join(f'<li><a href="{rel}campo-grande/{sl}/">{e(nm)}</a></li>' for sl, nm, _ in SUB_CG)
-            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
-                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as seções de Campo Grande-MS">&#9662;</button>'
-                         f'<ul class="sub sub-larga">{subs}</ul></li>')
-        else:
-            itens.append(f'<li><a href="{rel}{h}"{cls}>{n}</a></li>')
-    itens.append(f'<li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>')
-    itens.append(f'<li class="menu-ig"><a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato">{IG_SVG}</a></li>')
-    nav = "\n        ".join(itens)
-    if completo:
-        cab = f"""  <div class="env">
-    <div class="cabecalho">
-      <a class="marca-lockup" href="{rel}">{MARCA_TAG}</a>
-      <div class="lema"><b>{LEMA}.</b> {SUBLEMA}</div>
-      <div class="canto">
-        <a class="botao" href="{rel}servicos/">Consultoria</a>
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    else:
-        cab = f"""  <div class="env">
-    <div class="cabecalho" style="padding:18px 0 14px">
-      <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
-      <div class="canto">
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    return f"""<header>
-{cab}
-  <nav class="secoes" aria-label="Menu principal">
-    <div class="env nav-wrap">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
-      <ul class="menu" id="menu-principal">
-        {nav}
+    ativo_cls = ' class="ativo"'
+    itens = "".join(f'<li><a href="{rel}{h}"{ativo_cls if h == ativo else ""}>{n}</a></li>' for h, n in MENU)
+    return f"""<header class="topo-min">
+  <div class="env topo-min-barra">
+    <a class="marca-lockup compacta" href="{rel}" aria-label="Início">{MARCA}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
+    <nav aria-label="Menu principal">
+      <ul class="menu-min" id="menu-principal">
+        {itens}
+        <li><a class="botao botao-cheio" href="{rel}servicos/#contato">Fale comigo</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
 <script>
 document.querySelector('.nav-toggle').addEventListener('click',function(){{var m=document.getElementById('menu-principal');var o=m.classList.toggle('aberto');this.setAttribute('aria-expanded',o)}});
-document.querySelectorAll('.sub-toggle').forEach(function(b){{b.addEventListener('click',function(){{var li=b.parentNode;var o=li.classList.toggle('sub-aberto');b.setAttribute('aria-expanded',o)}})}});
 </script>
 """
 
 
-def assine(titulo="A carta do economista, no seu e-mail.", texto="Um clássico comentado e uma análise com fonte primária, uma vez por semana. Sem custo e sem spam."):
+def assine(titulo="", texto=""):
+    # Newsletter fora do ar no site minimalista: o formulário (Netlify Forms) não funciona no GitHub Pages.
+    return ""
+
+
+def _assine_antigo(titulo="A carta do economista, no seu e-mail.", texto="Um clássico comentado e uma análise com fonte primária, uma vez por semana. Sem custo e sem spam."):
     return f"""<section class="assine" id="assine">
     <div>
       <h3>{titulo}</h3>
@@ -145,50 +118,20 @@ def assine(titulo="A carta do economista, no seu e-mail.", texto="Um clássico c
 
 def rodape(rel):
     return f"""
-<footer>
+<footer class="rodape-min">
   <div class="env">
-    <div class="rodape-grade">
-      <div class="rodape-marca">
-        <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
-        <p class="rodape-texto">{LEMA}. Análise econômica independente: toda afirmação numérica publicada aqui traz a fonte primária — documento histórico, orçamento, Diário Oficial, IBGE ou órgão de controle.</p>
-      </div>
-      <div>
-        <h4>Conteúdo</h4>
-        <ul>
-          <li><a href="{rel}arquivo/">Arquivo · Clássicos comentados</a></li>
-          <li><a href="{rel}arquivo/eua/">— Estados Unidos</a></li>
-          <li><a href="{rel}arquivo/europa/">— Europa</a></li>
-          <li><a href="{rel}arquivo/china/">— China</a></li>
-          <li><a href="{rel}leituras/">Leituras · Livros comentados</a></li>
-          <li><a href="{rel}campo-grande/">Campo Grande-MS</a></li>
-          <li><a href="{rel}ensaios/">Ensaios</a></li>
-          <li><a href="{rel}notas/">Notas · Então × Agora</a></li>
-          <li><a href="{rel}analises/">Análises</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Trabalho</h4>
-        <ul>
-          <li><a href="{rel}servicos/">Consultoria</a></li>
-          <li><a href="{rel}servicos/#palestras">Palestras e cursos</a></li>
-          <li><a href="{rel}servicos/#contato">Contato</a></li>
-          <li><a href="#assine">Newsletter</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Sobre</h4>
-        <ul>
-          <li><a href="{rel}sobre/">Quem sou</a></li>
-          <li><a href="{rel}sobre/#metodo">Como eu apuro os números</a></li>
-          <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></li>
-        </ul>
-      </div>
+    <div class="rodape-min-linha">
+      <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
+      <ul>
+        <li><a href="{rel}servicos/">Serviços</a></li>
+        <li><a href="{rel}tecnologia/">Tecnologia</a></li>
+        <li><a href="{rel}arquivo/">Arquivo</a></li>
+        <li><a href="{rel}sobre/">Sobre</a></li>
+        <li><a href="{rel}servicos/#contato">Contato</a></li>
+        <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
     </div>
-    <div class="rodape-fim">
-      <span>© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297</span>
-      <span>Conteúdo de análise e opinião pessoal. Correções são publicadas no próprio texto, com data.</span>
-    </div>
-    <p class="rodape-fontes">Documentos históricos do Arquivo: domínio público, via JSTOR Early Journal Content e Internet Archive, sempre com a fonte indicada. Este site não tem afiliação com as instituições que publicaram os periódicos originais.</p>
+    <p class="rodape-min-fim">© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297 · WGSA</p>
   </div>
 </footer>
 </body>
@@ -261,91 +204,36 @@ def chave_data(ed):
 # ------------------------------------------------------------------ páginas
 def pagina_inicio():
     rel = ""
-    eds = DADOS["edicoes"]
-    cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds[:3])
     corpo = f"""
-<main class="env">
-
-  <section class="capa capa-dupla">
-    <article class="manchete">
-      <span class="chapeu opiniao">{LEMA}</span>
-      <h1 class="tit tit-xl">O que os documentos dizem — antes da opinião.</h1>
-      <p class="olho olho-xl">Este é o espaço de Renato W. Gomes, economista. Aqui se lê a economia pelas fontes: os clássicos e os debates que formaram a disciplina, lidos no original e explicados em português, e as contas públicas de hoje, sempre com o documento no rodapé.</p>
-      <div class="assin"><span>Por <b>Renato W. Gomes</b></span><i class="ponto"></i><span>Economista · CORECON-MS 1297</span></div>
-      <figure style="margin-top:20px">
-        <img src="assets/entrevista-palacios.jpg" alt="Renato W. Gomes em entrevista" style="aspect-ratio:16/9;object-fit:cover">
-        <figcaption><b>Renato W. Gomes</b>, economista, em entrevista. <span class="credito">Foto: Miguel Palacios</span></figcaption>
-      </figure>
-    </article>
-
-    <aside class="trilho">
-      <div class="trilho-tit">A série em curso</div>
-      <div class="trilho-num">1886–1929</div>
-      <p class="olho" style="margin-top:6px">As publicações da American Economic Association: monopólios, ferrovias, moeda, trabalho e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes.</p>
-      <a class="botao botao-cheio" href="arquivo/" style="display:inline-block;margin-top:12px">Abrir o arquivo</a>
-
-      <div class="trilho-tit" style="margin-top:30px">A regra da casa</div>
-      <p class="olho" style="margin-top:0">Nenhuma afirmação numérica sem fonte primária citada. Quando o dado não existe, o texto diz que não existe. Erro se corrige no próprio texto, com data.</p>
-    </aside>
+<main class="env home-min">
+  <section class="heroi">
+    <p class="heroi-quem">Renato W. Gomes · Economista</p>
+    <h1>{FRASE}.</h1>
+    <p class="heroi-olho">Encontro onde o seu time perde horas em tarefas repetitivas, coloco agentes de IA para fazer esse trabalho e meço o ganho em reais, mês a mês.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="servicos/#contato">Fale comigo</a> <a class="botao" href="servicos/">Como funciona</a></p>
   </section>
 
-  <div class="faixa" id="arquivo">
-    <h2>Arquivo · Clássicos comentados</h2>
-    <span class="sub">Os debates que criaram a economia moderna, edição por edição</span>
-    <a class="mais" href="arquivo/">Ver o arquivo &rarr;</a>
-  </div>
-  <section class="grade-3">
-{cartoes}
+  <section class="portas">
+    <a class="porta" href="servicos/">
+      <span class="porta-rot">Serviços</span>
+      <h2>Agentes de IA com retorno medido</h2>
+      <p>Diagnóstico, implantação e acompanhamento mensal, com a conta do ganho na mesa.</p>
+    </a>
+    <a class="porta" href="tecnologia/">
+      <span class="porta-rot">Tecnologia</span>
+      <h2>O que a história da inovação ensina</h2>
+      <p>A automação de hoje lida à luz dos periódicos técnicos originais do século XX.</p>
+    </a>
+    <a class="porta" href="arquivo/">
+      <span class="porta-rot">Arquivo</span>
+      <h2>Clássicos da economia comentados</h2>
+      <p>Os debates de 1886 a 1929, lidos no original e explicados em português.</p>
+    </a>
   </section>
-
-  <div class="faixa" id="trabalho">
-    <h2>O que se publica aqui</h2>
-    <span class="sub">E o que vem a seguir</span>
-  </div>
-  <section class="grade-3">
-    <article class="cartao produto">
-      <span class="chapeu">Arquivo</span>
-      <h3 class="tit tit-g">Clássicos comentados</h3>
-      <p class="olho">Uma edição ou obra por semana: resumo em português, o documento original e a ponte com o debate de hoje.</p>
-      <span class="selo">Semanal</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu dado">Análises</span>
-      <h3 class="tit tit-g">Contas públicas com fonte</h3>
-      <p class="olho">Orçamento, arrecadação, renúncia fiscal e investimento — lidos no documento oficial e explicados em linguagem de gente.</p>
-      <span class="selo">Em preparação</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu opiniao">Serviços</span>
-      <h3 class="tit tit-g">Consultoria e palestras</h3>
-      <p class="olho">Planejamento financeiro e tributário para empresas, e palestras sobre economia, finanças públicas e história econômica.</p>
-      <a class="selo" href="servicos/">Conheça &rarr;</a>
-    </article>
-  </section>
-
-  <div class="faixa" id="sobre">
-    <h2>Quem escreve</h2>
-    <span class="sub">E com que método</span>
-    <a class="mais" href="sobre/">Página completa &rarr;</a>
-  </div>
-  <section class="coluna-destaque">
-    <div class="retrato"><img src="assets/retrato-palacios.jpg" alt="Renato W. Gomes" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
-    <div>
-      <h3 class="tit tit-g" style="font-style:normal">Renato W. Gomes</h3>
-      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Trabalha com planejamento contábil, tributário e financeiro de empresas e atuou no mercado financeiro no Rio de Janeiro e em Brasília.</p>
-      <p class="olho">O método é o mesmo para um relatório de 1886 e para o orçamento de 2026: ler o documento original, citar a fonte e separar o que é fato do que é opinião.</p>
-      <div class="assin"><a href="sobre/"><b>Leia o método completo</b></a><i class="ponto"></i><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></div>
-    </div>
-  </section>
-
-  {assine()}
-
 </main>
 """
-    escreve("", cabeca(f"Economista Renato Gomes — {LEMA}", "Economia pelas fontes: clássicos comentados, contas públicas com documento oficial e consultoria. Por Renato W. Gomes, economista (CORECON-MS 1297).", "", rel)
+    escreve("", cabeca(f"Renato W. Gomes, economista — {FRASE}", f"{FRASE}. Diagnóstico, implantação e acompanhamento de agentes de IA, com o ganho medido em reais. Renato W. Gomes, economista (CORECON-MS 1297).", "", rel)
             + topo("", rel) + corpo + rodape(rel))
-
-
 
 
 def edicoes_de(cid):
@@ -386,6 +274,7 @@ def pagina_arquivo():
     <span class="chapeu">Arquivo · Clássicos comentados</span>
     <h1>Os debates que criaram a economia moderna</h1>
     <p class="olho">Um periódico de referência por região, lido no original e explicado em português — com o documento sempre a um clique e a pergunta de hoje no fim de cada texto.</p>
+    <p class="olho" style="font-size:15px">Também no Arquivo: <a href="../ensaios/">Ensaios</a>, os textos longos, e <a href="../notas/">Notas · Então × Agora</a>.</p>
   </div>
 
   <div class="faixa">
@@ -918,7 +807,7 @@ def pagina_notas():
 </main>
 """
     escreve("notas", cabeca("Notas · Então × Agora — Economista Renato Gomes", "Um dado histórico ao lado de um dado atual, com as duas fontes.", "notas/", rel)
-            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_nota(n):
@@ -956,7 +845,7 @@ def pagina_nota(n):
 </div>
 """
     escreve(f"notas/{n['slug']}", cabeca(f"{n['titulo']} — Notas · Economista Renato Gomes", n["chamada"], f"notas/{n['slug']}/", rel, "article")
-            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def cartao_comentario(ed, c, rel):
@@ -998,7 +887,7 @@ def pagina_ensaios():
 </main>
 """
     escreve("ensaios", cabeca("Ensaios — Economista Renato Gomes", "Os textos longos da casa: clássicos e temas lidos a fundo, com fonte primária e análise do autor.", "ensaios/", rel)
-            + topo("ensaios/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_analises():
@@ -1021,59 +910,92 @@ def pagina_analises():
             + topo("analises/", rel, completo=False) + corpo + rodape(rel))
 
 
+def bloco_contato():
+    if FORM_CONTATO:
+        form = f"""<form class="form-contato" action="{FORM_CONTATO}" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" required>
+        <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
+        <input type="text" name="empresa" placeholder="Empresa e área" aria-label="Empresa e área">
+        <textarea name="mensagem" rows="4" placeholder="Qual tarefa toma mais tempo do seu time hoje?" aria-label="Mensagem" required></textarea>
+        <button class="botao botao-cheio" type="submit">Enviar</button>
+      </form>"""
+    else:
+        form = '<p class="aviso-preencher">[Formulário de contato: falta o endereço do Formspree e o e-mail de destino.]</p>'
+    email = f' Ou escreva para <a href="mailto:{EMAIL_CONTATO}">{EMAIL_CONTATO}</a>.' if EMAIL_CONTATO else ""
+    return f"""<section class="contato-min" id="contato">
+    <div>
+      <h2>Fale comigo</h2>
+      <p>Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis.{email}</p>
+    </div>
+    <div>
+      {form}
+    </div>
+  </section>"""
+
+
 def pagina_servicos():
     rel = "../"
     corpo = f"""
-<main class="env">
-  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
-    <span class="chapeu opiniao">Serviços</span>
-    <h1>Consultoria, palestras e cursos</h1>
-    <p class="olho">O mesmo método das análises — documento, número e fonte — aplicado ao seu negócio ou ao seu evento.</p>
-  </div>
-
-  <section class="grade-3">
-    <article class="cartao produto">
-      <span class="chapeu">Consultoria</span>
-      <h3 class="tit tit-g">Planejamento financeiro e tributário</h3>
-      <p class="olho">Planejamento contábil, tributário e financeiro para empresas, com o mesmo método das análises: documento, número e fonte.</p>
-    </article>
-    <article class="cartao produto" id="palestras">
-      <span class="chapeu dado">Palestras</span>
-      <h3 class="tit tit-g">Economia para quem decide</h3>
-      <p class="olho">Finanças públicas, leitura de orçamento e história econômica aplicada: o que os debates de 1886 a 1922 ensinam sobre monopólios, concessões e regulação hoje.</p>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu opiniao">Cursos</span>
-      <h3 class="tit tit-g">Economia pelas fontes</h3>
-      <p class="olho">Cursos curtos sobre como ler um orçamento público e sobre os clássicos da economia lidos no original.</p>
-      <span class="selo">Em preparação</span>
-    </article>
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Serviços</p>
+    <h1>Agentes de IA para pequenas e médias empresas, com retorno medido.</h1>
+    <p class="heroi-olho">Não vendo ferramenta. Vendo horas de volta para o seu time, com a conta feita antes e conferida depois.</p>
   </section>
 
-  <div class="faixa" id="contato">
-    <h2>Contato</h2>
-    <span class="sub">Conte o que você precisa</span>
-  </div>
-  <section class="assine">
-    <div>
-      <h3>Fale comigo.</h3>
-      <p>Consultoria, palestra ou curso: descreva em poucas linhas e eu respondo por e-mail. Também pelo Instagram <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>.</p>
-    </div>
-    <div>
-      <form class="form-contato" name="contato" method="POST" data-netlify="true" action="/obrigado/">
-        <input type="hidden" name="form-name" value="contato">
-        <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" required>
-        <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
-        <select name="assunto" aria-label="Assunto"><option>Consultoria</option><option>Palestra</option><option>Curso</option><option>Outro</option></select>
-        <textarea name="mensagem" rows="4" placeholder="Em poucas linhas, o que você precisa" aria-label="Mensagem" required></textarea>
-        <button class="botao botao-cheio" type="submit">Enviar</button>
-      </form>
-    </div>
+  <ol class="passos">
+    <li>
+      <span class="passo-num">1</span>
+      <h2>Diagnóstico</h2>
+      <p>Mapeio as tarefas repetitivas, quantas horas cada uma consome e quanto custa. Você recebe a conta do que vale automatizar e do que não vale.</p>
+    </li>
+    <li>
+      <span class="passo-num">2</span>
+      <h2>Implantação</h2>
+      <p>Coloco agentes de IA nas tarefas escolhidas, como atendimento, conferência de documentos, conciliação e relatórios, ligados às ferramentas que a empresa já usa.</p>
+    </li>
+    <li>
+      <span class="passo-num">3</span>
+      <h2>Acompanhamento mensal</h2>
+      <p>Ajusto os agentes, controlo a qualidade do que eles entregam e mando todo mês o relatório do ganho em horas e em reais.</p>
+    </li>
+  </ol>
+
+  <section class="para-quem">
+    <h2>Para quem</h2>
+    <p>Escritórios de contabilidade, gestoras e assessorias de investimento, e empresas de serviços e do agro em Mato Grosso do Sul e Mato Grosso. Também faço palestras sobre IA e produtividade para quem decide.</p>
+  </section>
+
+  {bloco_contato()}
+</main>
+"""
+    escreve("servicos", cabeca("Serviços — Renato W. Gomes, economista", "Diagnóstico, implantação e acompanhamento de agentes de IA para pequenas e médias empresas, com o ganho medido em reais.", "servicos/", rel)
+            + topo("servicos/", rel) + corpo + rodape(rel))
+
+
+def pagina_tecnologia():
+    rel = "../"
+    corpo = f"""
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Tecnologia</p>
+    <h1>O que um século de inovação ensina sobre a automação de hoje.</h1>
+    <p class="heroi-olho">Muitas das perguntas que as empresas fazem sobre IA já foram feitas antes, quando as centrais telefônicas e as fábricas se automatizaram. Aqui eu leio os periódicos técnicos originais e trago a lição para quem decide hoje.</p>
+  </section>
+
+  <section class="para-quem">
+    <h2>Os primeiros temas</h2>
+    <ul class="lista-min">
+      <li><b>Filas e atendimento.</b> A matemática criada para dimensionar telefonistas serve para dimensionar agentes de IA.</li>
+      <li><b>Controle de qualidade.</b> Como os métodos estatísticos nascidos na indústria ajudam a conferir o que um agente entrega.</li>
+      <li><b>A automação das centrais telefônicas.</b> O que mudou para empresas e trabalhadores quando a operação manual virou automática.</li>
+    </ul>
+    <p class="nota-min">Primeiros textos em preparação.</p>
   </section>
 </main>
 """
-    escreve("servicos", cabeca("Serviços — Economista Renato Gomes", "Consultoria em planejamento financeiro e tributário, palestras e cursos de economia e finanças públicas.", "servicos/", rel)
-            + topo("servicos/", rel, completo=False) + corpo + rodape(rel))
+    escreve("tecnologia", cabeca("Tecnologia — Renato W. Gomes, economista", "Economia da inovação: a automação de hoje lida à luz dos periódicos técnicos originais do século XX.", "tecnologia/", rel)
+            + topo("tecnologia/", rel) + corpo + rodape(rel))
 
 
 def pagina_sobre():
@@ -1698,7 +1620,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "servicos/", "tecnologia/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -1715,7 +1637,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_servicos(); pagina_tecnologia(); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)

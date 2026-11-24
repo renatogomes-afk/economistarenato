@@ -22,6 +22,14 @@ verificável, sempre visível para o leitor.
 
 ---
 
+**Site minimalista (24/11/2026, em revisão):** o site vira o hub do negócio de automação com IA.
+Home = uma frase (`FRASE` em `gera_site.py`) + três portas (Serviços, Tecnologia, Arquivo). Menu: Serviços ·
+Tecnologia · Arquivo · Sobre + botão "Fale comigo". Leituras, Campo Grande, Análises, Ensaios e Notas saíram
+do menu (páginas ainda geradas, sem link; Ensaios e Notas linkados dentro do Arquivo). Newsletter desligada
+(`assine()` devolve vazio). Contato: preencher `FORM_CONTATO` (Formspree) e `EMAIL_CONTATO`.
+
+---
+
 ## 2. Stack
 
 - **Site estático** — HTML/CSS/JS puro, sem framework e sem build step.
