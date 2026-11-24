@@ -1,0 +1,25 @@
+# Piloto /bitcoin: roda o teste dos sinais semanais (dados da Kraken e do Banco Central).
+name: Bitcoin - teste dos sinais
+
+on:
+  push:
+    branches: [bitcoin-testes]
+    paths: ["scripts/bitcoin/**", ".github/workflows/bitcoin.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/bitcoin/backtest.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: resultados
+          path: scripts/bitcoin/resultados.json
