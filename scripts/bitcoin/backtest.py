@@ -195,6 +195,20 @@ def simula(px, dentro, brl, cdi, ini):
 INICIO_ACOMP = dt.date(2026, 11, 22)  # fechamento de domingo antes do lançamento do piloto
 
 
+def retornos_anuais(datas, valores):
+    """Retorno em reais de cada ano civil (valor no último domingo do ano sobre o do ano anterior) e dos últimos 5 anos."""
+    fim_ano = {}
+    for k, d in enumerate(datas):
+        fim_ano[d.year] = k
+    anos = sorted(fim_ano)[1:]
+    ult = len(datas) - 1
+    k5 = max(k for k, d in enumerate(datas) if d <= datas[-1].replace(year=datas[-1].year - 5))
+    anos_5 = (datas[ult] - datas[k5]).days / 365.25
+    return {"anos": anos, "ultimo": datas[ult].isoformat(), "inicio_5a": datas[k5].isoformat(),
+            "por_estrategia": {n: [round(v[fim_ano[a]] / v[fim_ano[a - 1]] - 1, 4) for a in anos] for n, v in valores.items()},
+            "cinco_anos_aa": {n: round((v[ult] / v[k5]) ** (1 / anos_5) - 1, 4) for n, v in valores.items()}}
+
+
 GRAF_SEMANAS = 78  # um ano e meio de velas semanais no gráfico da página
 
 
@@ -251,6 +265,7 @@ def main():
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}},
              "grafico": grafico_semanal(px, sin),
+             "anuais": retornos_anuais(datas, valores),
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)

@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124g"
+CSS_V = "20261124h"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1323,6 +1323,41 @@ def consenso_btc_html(D):
 """
 
 
+def anuais_btc_html(D):
+    A = D.get("anuais")
+    if not A:
+        return ""
+    P, cdi, btc = A["por_estrategia"], A["por_estrategia"].get("Só CDI"), A["por_estrategia"].get("Comprar e segurar")
+    nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
+    def pct(x):
+        return f"{x * 100:+.0f}%".replace("-", "−")
+    ult = A["ultimo"]
+    cab = "".join(f'<th class="num">{a}{"*" if a == int(ult[:4]) else ""}</th>' for a in A["anos"])
+    linhas = []
+    for n in nomes:
+        cel = []
+        for i, x in enumerate(P[n]):
+            cls = [] if n in BENCH_BTC else ["acima" if x > cdi[i] else "abaixo"]
+            if n not in BENCH_BTC and x > btc[i]:
+                cls.append("bate-btc")
+            cel.append(f'<td class="num {" ".join(cls)}">{pct(x)}</td>')
+        x5 = A["cinco_anos_aa"][n]
+        c5 = "" if n in BENCH_BTC else ("acima" if x5 > A["cinco_anos_aa"]["Só CDI"] else "abaixo")
+        tr = ' class="regua"' if n in BENCH_BTC else ""
+        linhas.append(f'<tr{tr}><td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>{"".join(cel)}<td class="num {c5} cinco">{pct(x5).replace("%", "% a.a.")}</td></tr>')
+    i5 = A["inicio_5a"]
+    return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em reais</h3>
+    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin. A ordem muda muito de um período para outro: quem foi melhor em 5 anos pode ter sido o pior em 10.</p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos">
+      <thead><tr><th>Estratégia</th>{cab}<th class="num">5 anos</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table></div>
+    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior. 5 anos = de {data_br(i5)} a {data_br(ult)}, ao ano. Mesmas regras do teste: 1 BTC em jul/2016, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora.</p>
+"""
+
+
 def curvas_btc_svg(D):
     datas = D["curvas"]["datas"]
     nomes = [x["nome"] for x in D["estrategias"]]
@@ -1426,6 +1461,7 @@ def acompanhamento_btc_html():
     <h3 class="conceito-tit">Quanto bitcoin cada estratégia teria, semana a semana</h3>
     {curvas_btc_svg(D)}
     <p class="nota-min">Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem só comprou e segurou.</p>
+{anuais_btc_html(D)}
     <script>{js}</script>
   </section>
 """

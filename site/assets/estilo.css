@@ -805,3 +805,10 @@ figcaption .credito::before{content:"· "}
 .gs-pisca{animation:gsp 1.6s ease-in-out infinite}
 @keyframes gsp{50%{opacity:.35}}
 @media (prefers-reduced-motion:reduce){.gs-pisca{animation:none}}
+
+/* /bitcoin: retornos ano a ano */
+.tab-anos td.acima{color:#0a7d35}
+.tab-anos td.abaixo{color:#A61E1E}
+.tab-anos td.bate-btc{font-weight:700}
+.tab-anos td.cinco{border-left:1px solid var(--linha);font-weight:600;white-space:nowrap}
+.tab-anos th,.tab-anos td{padding-left:8px;padding-right:8px}
