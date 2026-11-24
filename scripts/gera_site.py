@@ -976,11 +976,152 @@ def pagina_tech():
     <p>Muitas das perguntas que as empresas fazem hoje sobre IA já foram feitas quando as centrais telefônicas e as fábricas se automatizaram. A matemática criada para dimensionar telefonistas serve para dimensionar agentes; os métodos de controle de qualidade da indústria servem para conferir o que um agente entrega. Eu uso essa história como método, e a conta em reais como prova.</p>
   </section>
 
+  {acervo_tech_html(rel)}
+
   {bloco_contato()}
 </main>
 """
     escreve("tech", cabeca(f"Tech — {FRASE} · Renato W. Gomes", "Diagnóstico, implantação e acompanhamento de agentes de IA para pequenas e médias empresas, com o ganho medido em reais.", "tech/", rel)
             + topo("tech/", rel) + corpo + rodape(rel))
+
+
+# ------------------------------------------------------------------ Tech · Acervo de periódicos de tecnologia
+# Dados: scripts/tech/periodicos.json (um item por periódico) + scripts/tech/<slug>/<ano>.md (análise do ano).
+# Ano novo = soltar scripts/tech/<slug>/<ano>.md e regerar. Periódico novo = um item no JSON. Ver scripts/tech/LEIA.md.
+TECH_DIR = os.path.join(RAIZ, "scripts", "tech")
+_TP = os.path.join(TECH_DIR, "periodicos.json")
+PERIODICOS = json.load(open(_TP, encoding="utf-8"))["periodicos"] if os.path.exists(_TP) else []
+
+
+def anos_tech(p):
+    d = os.path.join(TECH_DIR, p["slug"])
+    return sorted(int(f[:-3]) for f in os.listdir(d) if re.fullmatch(r"\d{4}\.md", f)) if os.path.isdir(d) else []
+
+
+def md_inline(t):
+    t = e(t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+    return re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", t)
+
+
+def md_html(texto):
+    """Markdown mínimo (títulos #/##/###, parágrafos, listas com '- ', **negrito**, *itálico*). Devolve (h1, html)."""
+    h1, out, lista, par = "", [], [], []
+
+    def fecha():
+        if par: out.append("    <p>" + md_inline(" ".join(par)) + "</p>"); par.clear()
+        if lista: out.append("    <ul>\n" + "\n".join(f"      <li>{md_inline(i)}</li>" for i in lista) + "\n    </ul>"); lista.clear()
+    for ln in texto.splitlines():
+        s = ln.strip()
+        if not s: fecha(); continue
+        m = re.match(r"(#{1,3})\s+(.*)", s)
+        if m:
+            fecha()
+            if len(m.group(1)) == 1 and not h1: h1 = m.group(2); continue
+            n = len(m.group(1)) + (0 if len(m.group(1)) > 1 else 1)
+            out.append(f"    <h{n}>{md_inline(m.group(2))}</h{n}>"); continue
+        if s.startswith("- "):
+            if par: fecha()
+            lista.append(s[2:]); continue
+        if lista: fecha()
+        par.append(s)
+    fecha()
+    return h1, "\n".join(out)
+
+
+def periodo_tech(p):
+    return f"{p['periodo'][0]}–{p['periodo'][1]}"
+
+
+def acervo_tech_html(rel):
+    if not PERIODICOS:
+        return ""
+    cards = "\n".join(f"""    <article class="cartao colecao">
+      <a href="{rel}tech/{p['slug']}/">
+        <span class="chapeu">{e(p['sigla'])} · {periodo_tech(p)}</span>
+        <h3 class="tit tit-g">{e(p['nome'])}</h3>
+        <p class="olho">{e(p['descricao'])}</p>
+        <span class="selo">{len(anos_tech(p))} ano(s) analisado(s)</span>
+      </a>
+    </article>""" for p in PERIODICOS)
+    return f"""<section id="acervo">
+  <div class="faixa">
+    <h2>Acervo técnico</h2>
+    <span class="sub">Periódicos de tecnologia lidos ano a ano: reportagem, economia e investimentos</span>
+  </div>
+  <section class="grade-3">
+{cards}
+  </section>
+  </section>"""
+
+
+def migalhas_tech(itens, rel):
+    return '<span class="chapeu">' + " › ".join(f'<a href="{rel}{h}">{e(n)}</a>' if h else e(n) for h, n in itens) + "</span>"
+
+
+def pagina_tech_periodico(p):
+    rel = "../../"
+    pub = set(anos_tech(p))
+    anos = []
+    for a in range(p["periodo"][0], p["periodo"][1] + 1):
+        if a in pub:
+            anos.append(f'<a href="{a}/" style="display:inline-block;padding:6px 10px;border:1px solid var(--azul);margin:3px;font-family:var(--sans);font-size:13px">{a}</a>')
+        else:
+            anos.append(f'<span title="em breve" style="display:inline-block;padding:6px 10px;border:1px solid var(--linha);margin:3px;font-family:var(--sans);font-size:13px;color:var(--cinza)">{a}</span>')
+    fonte = f'<a href="{p["fonte_url"]}" target="_blank" rel="noopener">{e(p["fonte"])}</a>' if p.get("fonte_url") and p.get("fonte") else e(p.get("fonte", ""))
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    {migalhas_tech([("tech/", "Tech"), ("tech/#acervo", "Acervo técnico"), ("", p['sigla'])], rel)}
+    <h1>{e(p['nome'])}</h1>
+    <p class="olho">{e(p['descricao'])}</p>
+    <p class="tempo-leitura">{periodo_tech(p)} · {e(p['editora'])}{(' · Fonte: ' + fonte) if fonte else ''}</p>
+  </div>
+  <div class="corpo">
+    <h2>Por ano</h2>
+    <p>Anos em azul já têm análise; os em cinza estão em preparação.</p>
+    <p>{''.join(anos)}</p>
+  </div>
+</article>
+"""
+    escreve(f"tech/{p['slug']}", cabeca(f"{p['nome']} — Acervo técnico · Renato W. Gomes", p["descricao"], f"tech/{p['slug']}/", rel)
+            + topo("tech/", rel, completo=False) + corpo + rodape(rel))
+
+
+def pagina_tech_ano(p, ano, anterior, proxima):
+    rel = "../../../"
+    h1, corpo_md = md_html(open(os.path.join(TECH_DIR, p["slug"], f"{ano}.md"), encoding="utf-8").read())
+    palavras_ = len(re.sub(r"<[^>]+>", " ", corpo_md).split())
+    nav = []
+    if anterior: nav.append(f'<a href="../{anterior}/">&larr; {anterior}</a>')
+    nav.append(f'<a href="../">Todos os anos</a>')
+    if proxima: nav.append(f'<a href="../{proxima}/">{proxima} &rarr;</a>')
+    titulo = h1 or f"{p['nome']}, {ano}"
+    corpo = f"""
+<article class="artigo">
+  <div class="artigo-topo">
+    {migalhas_tech([("tech/", "Tech"), ("tech/#acervo", "Acervo técnico"), (f"tech/{p['slug']}/", p['sigla']), ("", str(ano))], rel)}
+    <h1>{md_inline(titulo)}</h1>
+    <p class="tempo-leitura">Leitura: {max(1, round(palavras_ / 200))} min · Análise do ano · Reportagem, economia e investimentos</p>
+  </div>
+  <div class="corpo">
+{corpo_md}
+    <p class="nota-legal">A parte de investimentos é análise histórica e didática, não recomendação de compra ou venda de qualquer ativo. Encontrou um erro? Escreva: a correção é publicada no próprio texto, com data.</p>
+    <p class="fonte-links" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">{' '.join(nav)}</p>
+  </div>
+</article>
+"""
+    escreve(f"tech/{p['slug']}/{ano}", cabeca(f"{p['nome']}, {ano} — Acervo técnico · Renato W. Gomes",
+                                            f"Análise do ano {ano} do {p['nome']}: reportagem, economia e investimentos.", f"tech/{p['slug']}/{ano}/", rel, "article")
+            + topo("tech/", rel, completo=False) + corpo + rodape(rel))
+
+
+def gera_tech_acervo():
+    for p in PERIODICOS:
+        pagina_tech_periodico(p)
+        anos = anos_tech(p)
+        for i, a in enumerate(anos):
+            pagina_tech_ano(p, a, anos[i - 1] if i > 0 else None, anos[i + 1] if i + 1 < len(anos) else None)
 
 
 def conceitos_btc_html():
@@ -2852,6 +2993,8 @@ def sitemap():
             urls += [f"leituras/{L['slug']}/"] + [f"leituras/{L['slug']}/{r['slug']}/" for r in L.get("resenhas", [])]
         for d in DOCS_PUB:
             urls += [f"leituras/documentos/{d['slug']}/"] + [f"leituras/documentos/{d['slug']}/{c['slug']}/" for c in d.get("capitulos", [])]
+    for p in PERIODICOS:
+        urls += [f"tech/{p['slug']}/"] + [f"tech/{p['slug']}/{a}/" for a in anos_tech(p)]
     if NOTAS: urls += ["notas/"] + [f"notas/{n['slug']}/" for n in NOTAS]
     if CG: urls += ["campo-grande/"] + [f"campo-grande/{sl}/" for sl, _, _ in SUB_CG] + [f"campo-grande/livro/{c['slug']}/" for c in CG["capitulos"]]
     hoje = date.today().isoformat()
@@ -2880,4 +3023,5 @@ if __name__ == "__main__":
             pagina_comentario(ed, c, cs[k - 1] if k > 0 else None, cs[k + 1] if k + 1 < len(cs) else None)
     gera_leituras()
     gera_campo_grande()
+    gera_tech_acervo()
     sitemap()

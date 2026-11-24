@@ -1,0 +1,44 @@
+{
+  "periodicos": [
+    {
+      "slug": "bstj",
+      "nome": "Bell System Technical Journal",
+      "sigla": "BSTJ",
+      "periodo": [1922, 1983],
+      "editora": "American Telephone and Telegraph Company (Bell System)",
+      "descricao": "A revista técnica do Bell System: telefonia, rádio, válvulas, o transistor, a teoria da informação de Shannon, os códigos de Hamming. Lida ano a ano, com três leituras de cada ano: a reportagem, a economia e o olhar do investidor.",
+      "fonte": "Internet Archive, coleção bstj-archives",
+      "fonte_url": "https://archive.org/details/bstj-archives"
+    },
+    {
+      "slug": "electronics",
+      "nome": "Electronics (McGraw-Hill)",
+      "sigla": "Electronics",
+      "periodo": [1930, 1995],
+      "editora": "McGraw-Hill",
+      "descricao": "A revista da indústria eletrônica americana, onde saiu a \"Lei de Moore\" (1965).",
+      "fonte": "Internet Archive (coleção sim_)",
+      "fonte_url": "https://archive.org/"
+    },
+    {
+      "slug": "proceedings-ire",
+      "nome": "Proceedings of the IRE",
+      "sigla": "Proc. IRE",
+      "periodo": [1913, 1962],
+      "editora": "Institute of Radio Engineers",
+      "descricao": "Rádio, televisão, radar e os primeiros computadores, escritos por quem os inventou.",
+      "fonte": "",
+      "fonte_url": ""
+    },
+    {
+      "slug": "aiee-transactions",
+      "nome": "Transactions of the AIEE",
+      "sigla": "Trans. AIEE",
+      "periodo": [1884, 1951],
+      "editora": "American Institute of Electrical Engineers",
+      "descricao": "A eletrificação dos Estados Unidos: Edison, Tesla, Steinmetz e a disputa entre corrente alternada e contínua.",
+      "fonte": "",
+      "fonte_url": ""
+    }
+  ]
+}
