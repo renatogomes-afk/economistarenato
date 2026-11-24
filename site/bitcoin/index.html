@@ -402,11 +402,11 @@ function calcula(){
 }
 function atalho(anos){var fim=V.datas[V.datas.length-1];ate.value=fim;
  if(anos===0)de.value=V.datas[0];else{var d=new Date(fim+'T00:00:00Z');d.setUTCFullYear(d.getUTCFullYear()-anos);de.value=d.toISOString().slice(0,10)<V.datas[0]?V.datas[0]:d.toISOString().slice(0,10)}
- box.querySelectorAll('.jan-atalhos button').forEach(function(x){x.classList.toggle('ativo',+x.dataset.anos===anos)});calcula()}
+ box.querySelectorAll('.jan-atalhos button[data-anos]').forEach(function(x){x.classList.toggle('ativo',+x.dataset.anos===anos)});calcula()}
 fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
  de.min=ate.min=V.datas[0];de.max=ate.max=V.datas[V.datas.length-1];
- box.querySelectorAll('.jan-atalhos button').forEach(function(x){x.addEventListener('click',function(){atalho(+x.dataset.anos)})});
- [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button').forEach(function(y){y.classList.remove('ativo')});calcula()})});
+ box.querySelectorAll('.jan-atalhos button[data-anos]').forEach(function(x){x.addEventListener('click',function(){atalho(+x.dataset.anos)})});
+ [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button[data-anos]').forEach(function(y){y.classList.remove('ativo')});calcula()})});
  box.querySelectorAll('.jan-moeda button').forEach(function(x){x.addEventListener('click',function(){moeda=x.dataset.moeda;
   box.querySelectorAll('.jan-moeda button').forEach(function(y){y.classList.toggle('ativo',y===x)});calcula()})});
  box.hidden=false;atalho(5)}).catch(function(){});
