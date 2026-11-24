@@ -3,7 +3,7 @@
 Dados (baixados na hora, fontes públicas):
   - BTC/USD semanal: Kraken, OHLC público (XBTUSD, intervalo de 1 semana).
   - Dólar (PTAX venda, série SGS 1) e CDI (taxa diária, série SGS 12): Banco Central do Brasil.
-Regras: decisão uma vez por semana, no fechamento semanal; posição inicial = 1 BTC;
+Regras: decisão uma vez por semana; o sinal do fechamento de uma semana é executado no fechamento da seguinte; posição inicial = 1 BTC;
 fora do mercado o dinheiro rende CDI; taxa de 0,25% por compra ou venda; sem alavancagem.
 Saída: scripts/bitcoin/resultados.json e uma tabela no terminal.
 """
@@ -168,7 +168,8 @@ def main():
     brl = [ultimo_ate(ptax, p["data"]) for p in px]
     cdi = [ultimo_ate(cdi_d, p["data"]) or 0.0 for p in px]
     ini = 52  # um ano de histórico para todos os indicadores terem dados
-    res = {nome: simula(px, d, brl, cdi, ini) for nome, d in sinais(px).items()}
+    # Sinal visto no fechamento da semana t é executado no fechamento da semana t+1 (sem olhar o futuro).
+    res = {nome: simula(px, [d[0]] + d[:-1], brl, cdi, ini) for nome, d in sinais(px).items()}
     # CDI puro: vende 1 BTC no início e deixa no CDI
     so_cdi = simula(px, [False] * len(px), brl, cdi, ini)
     so_cdi["operacoes"] = 1
