@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124j"
+CSS_V = "20261124k"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1391,6 +1391,65 @@ def quatro_tres_btc_html(D):
 """
 
 
+def forcas_btc_html(D):
+    """Pontos fortes e fracos de cada estratégia. O juízo é fixo; os números saem dos dados a cada semana."""
+    est = {r["nome"]: r for r in D["estrategias"]}
+    A = D.get("anuais_usd")
+    if not A:
+        return ""
+    P, anos = A["por_estrategia"], A["anos"]
+    p0 = lambda x: "0%" if abs(x) < 0.005 else f"{x * 100:+.0f}%".replace("-", "−")
+    num = lambda x, k=2: f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+    def ano(n, a):
+        return p0(P[n][anos.index(a)]) if a in anos else "–"
+    B = "Comprar e segurar"
+    cinco = D["anuais"]["cinco_anos_aa"]
+    O = {}
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "otimizacao.json")
+    if os.path.exists(arq):
+        O = json.load(open(arq, encoding="utf-8"))
+    macd = next((x for x in O.get("por_familia", []) if x["familia"] == "MACD"), None)
+    T = {
+        "Consenso 4 x 3": ("foge das baixas e ainda fica comprado cerca de metade do tempo; a votação filtra o erro de cada sinal.",
+                           "foi escolhido depois de ver o resultado dos quatro consensos e sofre em mercado lateral, quando a maioria vira muitas vezes."),
+        "Topos e fundos (Dow)": (f"pega a virada cedo: a ordem fica no book no último topo e no último fundo e executa no meio da semana, sem esperar o fechamento. Em dólar, fez {ano('Topos e fundos (Dow)', 2021)} em 2021 (bitcoin, {ano(B, 2021)}) e {ano('Topos e fundos (Dow)', 2022)} em 2022 (bitcoin, {ano(B, 2022)}).",
+                                 "em mercado picotado, cada topo e fundo novo vira uma operação, e a queda é funda quando ele erra."),
+        "Consenso 5 x 2": ("chega perto do 4 x 3 com bem menos operações.",
+                           "entra um pouco mais tarde nas altas, porque precisa de cinco votos."),
+        "MACD semanal": (f"o mais robusto na otimização: {macd['fracao_positiva_fora'] * 100:.0f}% das {macd['testadas']} variações testadas ficaram positivas fora da amostra." if macd else "acompanha bem as tendências longas.",
+                         f"demora a sair das quedas: em 2022, fez {ano('MACD semanal', 2022)} em dólar."),
+        "Rompimento 20 semanas": (f"a menor queda entre os sinais de tendência; em 2022, fez {ano('Rompimento 20 semanas', 2022)} em dólar.",
+                                  f"compra tarde, só na máxima de 20 semanas: em 2020, fez {ano('Rompimento 20 semanas', 2020)}, contra {ano(B, 2020)} do bitcoin."),
+        "Cruzamento 10 x 40 semanas": ("poucas operações e regra muito simples.",
+                                       f"lento demais para sair: fez {ano('Cruzamento 10 x 40 semanas', 2022)} em 2022 e {ano('Cruzamento 10 x 40 semanas', 2019)} em 2019, em dólar."),
+        "Média de 40 semanas": ("é a regra clássica para separar mercado de alta e de baixa.",
+                                "com ordem no book, o preço cruza a média várias vezes na mesma fase, e cada cruzamento paga taxa e escorregamento."),
+        "IFR semanal (30/70)": ("a menor queda de todas as estratégias com bitcoin.",
+                                "vende cedo nas altas e fica fora quase o tempo todo; num ativo de tendência, comprar barato e vender caro perde a parte boa."),
+        "Faixas de percentis 52 semanas": ("lógica de valor: compra perto do fundo histórico do último ano.",
+                                           "vende no percentil 80, justamente quando o bitcoin costuma disparar."),
+        "Consenso 6 x 1": (f"oscila pouco e está entre os melhores em 5 anos ({p0(cinco.get('Consenso 6 x 1', 0))} ao ano em reais).",
+                           f"exige quase unanimidade, fica comprado cerca de um terço do tempo e perde as altas grandes: em 2020, fez {ano('Consenso 6 x 1', 2020)} em dólar, contra {ano(B, 2020)} do bitcoin."),
+        "Consenso 7 x 0": (f"oscila pouco e está entre os melhores em 5 anos ({p0(cinco.get('Consenso 7 x 0', 0))} ao ano em reais).",
+                           f"exige unanimidade, então quase nunca muda de posição ({est['Consenso 7 x 0']['operacoes'] if 'Consenso 7 x 0' in est else 0} operações em todo o teste) e fica muito tempo na posição errada: em 2017, fez {ano('Consenso 7 x 0', 2017)} em dólar, contra {ano(B, 2017)} do bitcoin."),
+    }
+    itens = []
+    for r in sorted((est[n] for n in T if n in est), key=lambda x: -x["btc_final"]):
+        f, fr = T[r["nome"]]
+        itens.append(f'      <li><p><i class="cor" style="background:{cor_btc(r["nome"])}"></i><b>{e(r["nome"])}</b> '
+                     f'<span class="nota-min">{num(r["btc_final"])} BTC no fim · pior queda {p0(r["pior_queda"])} · {r["operacoes"]} operações · comprado {r["tempo_comprado"] * 100:.0f}% do tempo</span></p>'
+                     f'<p><b>Ponto forte:</b> {f}</p><p><b>Ponto fraco:</b> {fr}</p></li>')
+    b = est.get(B)
+    return f"""    <h3 class="conceito-tit">Pontos fortes e fracos de cada estratégia</h3>
+    <p>Do melhor para o pior no teste desde {data_br(D['inicio'])}, em bitcoin no fim. Para comparar: quem só comprou e segurou termina com 1 BTC e teve pior queda de {p0(b['pior_queda']) if b else '–'}. Anos citados em dólar.</p>
+    <ul class="forcas">
+{chr(10).join(itens)}
+    </ul>
+    <p>A lição geral: no bitcoin, as regras de tendência ganham das regras de reversão (IFR e percentis), e as que filtram as baixas ganham das que tentam pegar toda a alta.</p>
+"""
+
+
 # Seletor de janela: lê bitcoin/valores.json (valor semanal em R$ de cada estratégia) e recalcula a tabela.
 JANELA_JS = r"""
 (function(){
@@ -1677,6 +1736,7 @@ def acompanhamento_btc_html():
 {grafico_semana_btc_svg(D)}
 {consenso_btc_html(D)}
 {quatro_tres_btc_html(D)}
+{forcas_btc_html(D)}
     <div class="tab-rolagem">
     <table class="tab-btc">
       <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>
