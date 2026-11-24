@@ -1,7 +1,8 @@
 """Otimização dos sinais do piloto /bitcoin, com retorno corrigido pelo risco e controle de sobreajuste.
 
 Usa os dados gravados pelo backtest (scripts/bitcoin/precos_semanais.json) e as mesmas regras de simula():
-decisão semanal, execução no fechamento seguinte, 0,25% por operação, CDI quando fora, valores em reais.
+decisão semanal; regras com nível de preço (média, rompimento, topos e fundos, faixas de percentis) executam por ordem
+no book durante a semana; as demais, no próprio fechamento do sinal; 0,25% por operação, CDI quando fora, valores em reais.
 
 Métrica principal: índice de Sharpe do excesso sobre o CDI (retornos semanais, anualizado por raiz de 52).
 Também: Sortino, Calmar (retorno ao ano / pior queda), retorno ao ano e pior queda.
@@ -105,9 +106,16 @@ def s_pct_mom(c, n, x):
     return [i >= n and pctl(c, i, n) > x for i in range(len(c))]
 
 
+# regras de nível: ordem no book (devolvem posição e preço de execução)
+def b_media(px, n): return bt.book_media(px, n)[:2]
+def b_romp(px, e, x): return bt.book_romp(px, e, x)[:2]
+def b_dow(px, w): return bt.book_dow(px, w)[:2]
+def b_pct(px, n, lo, hi): return bt.book_pct(px, n, lo, hi)[:2]
+
+
 def grade():
     g = []
-    for n in range(10, 62, 2): g.append(("Média móvel", f"preço acima da média de {n} semanas", (n,), s_media))
+    for n in range(10, 62, 2): g.append(("Média móvel", f"preço acima da média de {n} semanas", (n,), b_media))
     for f in range(4, 22, 2):
         for s in range(20, 64, 4):
             if f < s: g.append(("Cruzamento de médias", f"média de {f} acima da de {s} semanas", (f, s), s_cruz))
@@ -119,16 +127,16 @@ def grade():
             g.append(("IFR tendência", f"IFR {n} acima de {x}", (n, x), s_ifr_mom))
     for e in (8, 10, 13, 16, 20, 26, 30, 40, 52):
         for x in (4, 5, 8, 10, 13, 20):
-            if x <= e: g.append(("Rompimento", f"compra na máxima de {e} semanas, vende na mínima de {x}", (e, x), s_romp))
+            if x <= e: g.append(("Rompimento", f"compra na máxima de {e} semanas, vende na mínima de {x}", (e, x), b_romp))
     for f in (6, 8, 12, 16):
         for s in (17, 21, 26, 34):
             for sg in (5, 9, 12):
                 if f < s: g.append(("MACD", f"MACD {f}/{s}/{sg}", (f, s, sg), s_macd))
-    for w in (1, 2, 3, 4, 6): g.append(("Topos e fundos (Dow)", f"pivô de {w} semana(s) de cada lado", (w,), s_dow))
+    for w in (1, 2, 3, 4, 6): g.append(("Topos e fundos (Dow)", f"pivô de {w} semana(s) de cada lado", (w,), b_dow))
     for n in (26, 52):
         for lo in (10, 20, 30):
             for hi in (70, 80, 90):
-                g.append(("Percentis contrário", f"percentil de {n} semanas: compra ao subir por {lo}, vende ao cair por {hi}", (n, lo, hi), s_pct_rev))
+                g.append(("Percentis contrário", f"percentil de {n} semanas: compra ao subir por {lo}, vende ao cair por {hi}", (n, lo, hi), b_pct))
         for x in (50, 60, 70, 80):
             g.append(("Percentis tendência", f"percentil de {n} semanas acima de {x}", (n, x), s_pct_mom))
     return g
@@ -156,8 +164,8 @@ def main():
     px, brl, cdi = carrega()
     c = [p["fech"] for p in px]
     datas = [p["data"] for p in px][INI:]
-    def roda(sinal):
-        return bt.simula(px, [sinal[0]] + sinal[:-1], brl, cdi, INI)["_valores"]
+    def roda(sinal, preco=None):
+        return bt.simula(px, sinal, brl, cdi, INI, preco)["_valores"]
     cdi_v = roda([False] * len(px))
     btc_v = roda([True] * len(px))
     n = len(datas) - 1
@@ -165,7 +173,7 @@ def main():
 
     cfgs = []
     for fam, desc, par, fn in grade():
-        v = roda(fn(c, *par))
+        v = roda(*fn(px, *par)) if fn in (b_media, b_romp, b_dow, b_pct) else roda(fn(c, *par))
         cfgs.append({"familia": fam, "regra": desc, "param": par, "v": v,
                      "dentro": metricas(v, cdi_v, datas, 0, k_oos), "fora": metricas(v, cdi_v, datas, k_oos, n),
                      "total": metricas(v, cdi_v, datas, 0, n)})

@@ -1130,10 +1130,11 @@ MESES_ABR = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out
 
 
 def decisao_btc(r):
-    """Mesma regra da coluna "Decisão de domingo" da tabela."""
+    """O que a estratégia fez na semana que fechou no domingo: compara a posição antes e depois dela."""
+    antes = r.get("comprado_antes", r["comprado"])
     if r["sinal_para_esta_semana"]:
-        return ("Ficar comprado", "manter") if r["comprado"] else ("Comprar", "compra")
-    return ("Vender", "venda") if r["comprado"] else ("Ficar no CDI", "fora")
+        return ("Ficar comprado", "manter") if antes else ("Comprar", "compra")
+    return ("Vender", "venda") if antes else ("Ficar no CDI", "fora")
 
 
 # Recalcula os sinais no navegador com a semana em curso (mesma regra de scripts/bitcoin/backtest.py).
@@ -1148,27 +1149,34 @@ function sma(c,n,i){if(i<n-1)return null;var s=0;for(var k=i-n+1;k<=i;k++)s+=c[k
 function ema(c,n){var k=2/(n+1),o=[],e=null;c.forEach(function(x){e=e===null?x:x*k+e*(1-k);o.push(e)});return o}
 function rsi(c,n){n=n||14;var o=c.map(function(){return null}),g=0,p=0;for(var i=1;i<c.length;i++){var d=c[i]-c[i-1],a=Math.max(d,0),b=Math.max(-d,0);
  if(i<=n){g+=a/n;p+=b/n;if(i==n)o[i]=p?100-100/(1+g/p):100}else{g=(g*(n-1)+a)/n;p=(p*(n-1)+b)/n;o[i]=p?100-100/(1+g/p):100}}return o}
-function sinais(c){var n=c.length,s={},i,est,out,r,m,sig;
- s['Média de 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&x>m});
+function mx(v){return Math.max.apply(null,v)}function mn(v){return Math.min.apply(null,v)}
+function bMedia(c,A,B,n){var est=false,o=[];for(var i=0;i<c.length;i++){if(i>n){var s=0;for(var k=i-n;k<i;k++)s+=c[k];s/=n;if(!est&&A[i]>s)est=true;else if(est&&B[i]<s)est=false}o.push(est)}return o}
+function bRomp(c,A,B,e,x){var est=false,o=[];for(var i=0;i<c.length;i++){if(i>=e){if(!est){if(A[i]>mx(c.slice(i-e,i)))est=true}else if(B[i]<mn(c.slice(i-x,i)))est=false}o.push(est)}return o}
+function bDow(c,A,B,w){var est=false,o=[],topo=null,fundo=null;for(var i=0;i<c.length;i++){var j=i-1-w;if(j>=w){var q=c.slice(j-w,j+w+1);if(c[j]==mx(q))topo=c[j];if(c[j]==mn(q))fundo=c[j]}
+ if(i>0){if(topo!==null&&!est&&A[i]>topo)est=true;else if(fundo!==null&&est&&B[i]<fundo)est=false}o.push(est)}return o}
+function bPct(c,A,B,n,lo,hi){var est=false,o=[];for(var i=0;i<c.length;i++){if(i>n){var q=c.slice(i-n,i).sort(function(x,y){return x-y}),nl=q[Math.floor(n*lo/100)],nh=q[Math.min(n-1,Math.floor(n*hi/100))],ab=c[i-1];
+ if(!est&&ab<nl&&A[i]>nl)est=true;else if(est&&ab>nh&&B[i]<nh)est=false}o.push(est)}return o}
+function sinais(c,A,B){var n=c.length,s={},i,est,out,r,m,sig;
+ // regras de nível: ordem no book, executada no meio da semana quando a máxima ou a mínima toca o nível
+ s['Média de 40 semanas']=bMedia(c,A,B,40);
  s['Cruzamento 10 x 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&sma(c,10,i)>m});
  r=rsi(c);est=false;out=[];for(i=0;i<n;i++){if(r[i]!==null&&i>0&&r[i-1]!==null){if(!est&&r[i-1]<30&&30<=r[i])est=true;else if(est&&r[i-1]>70&&70>=r[i])est=false}out.push(est)}s['IFR semanal (30/70)']=out;
- est=false;out=[];for(i=0;i<n;i++){if(i>=20){if(!est&&c[i]>Math.max.apply(null,c.slice(i-20,i)))est=true;else if(est&&c[i]<Math.min.apply(null,c.slice(i-10,i)))est=false}out.push(est)}s['Rompimento 20 semanas']=out;
+ s['Rompimento 20 semanas']=bRomp(c,A,B,20,10);
  var e12=ema(c,12),e26=ema(c,26);m=e12.map(function(x,i){return x-e26[i]});sig=ema(m,9);s['MACD semanal']=m.map(function(x,i){return i>=35&&x>sig[i]});
- est=false;out=[];var topo=null,fundo=null;for(i=0;i<n;i++){var j=i-2;if(j>=2){var w=c.slice(j-2,j+3);if(c[j]==Math.max.apply(null,w))topo=c[j];if(c[j]==Math.min.apply(null,w))fundo=c[j]}
-  if(topo!==null&&!est&&c[i]>topo)est=true;else if(fundo!==null&&est&&c[i]<fundo)est=false;out.push(est)}s['Topos e fundos (Dow)']=out;
- est=false;out=[];var pa=null;for(i=0;i<n;i++){var pc=null;if(i>=52){var q=0;for(var k=i-52;k<i;k++)if(c[k]<c[i])q++;pc=100*q/52;if(pa!==null){if(!est&&pa<20&&20<=pc)est=true;else if(est&&pa>80&&80>=pc)est=false}}pa=pc;out.push(est)}s['Faixas de percentis 52 semanas']=out;
+ s['Topos e fundos (Dow)']=bDow(c,A,B,2);
+ s['Faixas de percentis 52 semanas']=bPct(c,A,B,52,20,80);
  var V=G.votantes;G.limites.forEach(function(K){est=true;out=[];for(i=0;i<n;i++){var v=0;V.forEach(function(x){if(s[x][i])v++});if(v>=K)est=true;else if(V.length-v>=K)est=false;out.push(est)}s['Consenso '+K+' x '+(V.length-K)]=out});
  return s}
 function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
 function br(v,d){return v.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d})}
 function desenha(sem,preco){
  // sem: velas diárias depois do último domingo fechado, agrupadas em semanas; a última é a semana em curso
- var c=G.fech.slice(),ab=G.ultimo;
- sem.forEach(function(w,ix){if(ix<sem.length-1)c.push(w.fech)});
+ var c=G.fech.slice(),A=G.alta.slice(),B=G.baixa.slice(),ab=G.ultimo;
+ sem.forEach(function(w,ix){if(ix<sem.length-1){c.push(w.fech);A.push(w.alta);B.push(w.baixa)}});
  var at=sem[sem.length-1];at.fech=preco;at.alta=Math.max(at.alta,preco);at.baixa=Math.min(at.baixa,preco);
  if(sem.length>1)ab=sem[sem.length-2].fech;
- c.push(preco);
- var s=sinais(c),g=document.getElementById('gs-vela-viva');g.innerHTML='';
+ c.push(preco);A.push(at.alta);B.push(at.baixa);
+ var s=sinais(c,A,B),g=document.getElementById('gs-vela-viva');g.innerHTML='';
  var cls=preco>=ab?'gs-alta':'gs-baixa',y1=Math.min(yp(ab),yp(preco)),y2=Math.max(yp(ab),yp(preco));
  g.appendChild(el('line',{x1:xv,x2:xv,y1:yp(at.alta),y2:yp(at.baixa),'class':cls+' gs-viva'}));
  g.appendChild(el('rect',{x:xv-lv/2,y:y1,width:lv,height:Math.max(1,y2-y1),'class':cls+' gs-viva'}));
@@ -1298,10 +1306,10 @@ def grafico_semana_btc_svg(D):
         lista_js.append({"i": j, "nome": nome, "cor": cor, "y": y, "comprado": bool(est[nome]["comprado"])})
     out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (BTC-USD; semana fecha no domingo, UTC).</text>')
     out.append("</svg>")
-    dados = {"fech": G["hist_fech"], "ultimo": G["fech"][-1], "ultima_data": G["datas"][-1],
+    dados = {"fech": G["hist_fech"], "alta": G.get("hist_alta", G["hist_fech"]), "baixa": G.get("hist_baixa", G["hist_fech"]), "ultimo": G["fech"][-1], "ultima_data": G["datas"][-1],
              "limites": G["consenso_limites"], "votantes": G["votantes"], "estrategias": lista_js}
     return f'''    <h3 class="conceito-tit" id="grafico-semana">O gráfico da semana: a decisão de cada estratégia</h3>
-    <p>Velas semanais do último ano e meio, em dólares, com a semana em curso desenhada ao vivo. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. À direita, a decisão tomada no último domingo e a que sairia se a semana fechasse agora, recalculada a cada minuto com o preço da Coinbase. Só a decisão de domingo vale: a prévia muda até o fechamento.</p>
+    <p>Velas semanais do último ano e meio, em dólares, com a semana em curso desenhada ao vivo. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. À direita, a decisão tomada no último domingo e a que sairia se a semana fechasse agora, recalculada a cada minuto com o preço da Coinbase. Nas regras de nível (média de 40 semanas, rompimento, topos e fundos e faixas de percentis), a ordem fica no book e a prévia já mostra se ela foi acionada na semana; nas demais, a prévia muda até o fechamento de domingo.</p>
     <p class="nota-min gs-viva-t" id="gs-hora">Carregando o preço ao vivo…</p>
     <div class="tab-rolagem graf-semana-box" id="gs-box">
 {"".join(out)}
@@ -1504,7 +1512,7 @@ def anuais_btc_html(D):
 {anos_html}    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior.</p>
     <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início</h3>
     <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário. Os botões acima trocam a moeda das duas tabelas.</p>
-{jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
+{jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, ordem no book nas regras de nível e execução no próprio fechamento do sinal nas demais, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
     <script>{js}</script>
     </div>
 {janela_btc_html()}
@@ -1565,10 +1573,13 @@ def acompanhamento_btc_html():
         pos = "Comprado" if r["comprado"] else "No CDI"
         if r["nome"] == "Só CDI":
             prox = "Ficar no CDI"
-        elif r["sinal_para_esta_semana"]:
-            prox = "Ficar comprado" if r["comprado"] else "Comprar"
         else:
-            prox = "Vender" if r["comprado"] else "Ficar no CDI"
+            prox = decisao_btc(r)[0]
+        if r.get("ordem_book"):
+            o = r["ordem_book"]
+            prox += f'<small>ordem de {o["tipo"]} no book a US$ {num(o["nivel_usd"], 0)}</small>'
+        elif r["nome"] in D.get("regras_book", []):
+            prox += '<small>sem ordem no book nesta semana</small>'
         v0 = r["valor_inicio_acomp_brl"] or 0
         v = r["btc"] * p0 + r["caixa_brl"]
         ret = pct(v / v0 - 1) if v0 else "–"
@@ -1613,7 +1624,7 @@ def acompanhamento_btc_html():
       </tbody>
     </table>
     </div>
-    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada sinal manda fazer no próximo fechamento semanal. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
+    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada estratégia fez na semana que fechou; embaixo dela, a ordem que fica no book para esta semana. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
     <h3 class="conceito-tit">Quanto bitcoin você teria hoje, conforme a semana em que começou</h3>
     {curvas_btc_svg(D)}
     <p class="nota-min">Leitura do presente para o passado: hoje à esquerda; cada ponto à direita é uma data de começo mais antiga, com 1 BTC aplicado na estratégia naquela semana. Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem comprou naquela data e segurou até hoje.</p>
@@ -1658,7 +1669,7 @@ def pagina_bitcoin():
   <section class="para-quem" id="estrategias">
     <h2>Os sinais em teste</h2>
     <p>Todos partem da mesma posição de referência: <b>1 bitcoin</b>. Quando o sinal manda sair, o valor vai para o CDI; quando manda voltar, recompra o que der. No fim, a pergunta é simples: o sinal terminou com mais ou menos de 1 bitcoin?</p>
-    <p><b>Acompanhamento semanal.</b> Os sinais olham só o gráfico semanal e são conferidos uma vez por semana, no fechamento de domingo para segunda. Nada de operar no meio da semana: menos ruído, menos taxa e uma rotina que qualquer pessoa consegue seguir.</p>
+    <p><b>Acompanhamento semanal.</b> Os sinais olham só o gráfico semanal. As regras que definem um nível de preço conhecido antes da semana (média de 40 semanas, rompimento, topos e fundos, faixas de percentis) deixam uma ordem stop no book a cada domingo, que executa no meio da semana se o preço tocar o nível. As regras que dependem do fechamento (cruzamento de médias, IFR, MACD e os consensos) são conferidas minutos antes do fechamento de domingo e operam nesse mesmo fechamento, sem esperar a semana seguinte.</p>
   </section>
   <ol class="passos">
 {est}

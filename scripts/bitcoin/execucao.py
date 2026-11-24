@@ -9,6 +9,7 @@ Três premissas, com os mesmos sinais, 0,25% por operação e CDI quando fora:
      média de 40 semanas, faixas de percentis), deixa-se uma ordem stop no nível. Ela executa no meio da semana, quando
      a máxima ou a mínima da semana toca o nível, no preço do nível (ou na abertura, se a semana já abrir além dele).
      As regras que dependem do fechamento (cruzamento de médias, IFR, MACD) ficam como na premissa 2.
+Premissa adotada no site desde 24/11/2026 (backtest.py): a 3 para as regras de nível e a 2 para as de fechamento.
 Saída: scripts/bitcoin/execucao.json e uma tabela no terminal.
 """
 import json, math, os, sys, datetime as dt, statistics as st
@@ -46,82 +47,15 @@ def simula_exec(px, brl, cdi, alvo, preco, ini=INI):
     return valores, trocas
 
 
-# ---------- premissa 3: ordens stop em níveis conhecidos antes da semana ----------
-def stop_romp(px, e=20, x=10):
-    c = [p["fech"] for p in px]
-    est, alvo, preco = False, [], []
-    for i, p in enumerate(px):
-        pr = p["fech"]
-        if i >= e:
-            ab = c[i - 1]
-            if not est:
-                nivel = max(c[i - e:i])
-                if p["alta"] > nivel: est, pr = True, max(nivel, ab)
-            else:
-                nivel = min(c[i - x:i])
-                if p["baixa"] < nivel: est, pr = False, min(nivel, ab)
-        alvo.append(est); preco.append(pr)
-    return alvo, preco
-
-
-def stop_media(px, n=40):
-    c = [p["fech"] for p in px]
-    est, alvo, preco = False, [], []
-    for i, p in enumerate(px):
-        pr = p["fech"]
-        if i > n:
-            nivel, ab = sum(c[i - n:i]) / n, c[i - 1]  # média até a semana anterior, conhecida no domingo
-            if not est and p["alta"] > nivel: est, pr = True, max(nivel, ab)
-            elif est and p["baixa"] < nivel: est, pr = False, min(nivel, ab)
-        alvo.append(est); preco.append(pr)
-    return alvo, preco
-
-
-def stop_dow(px, w=2):
-    c = [p["fech"] for p in px]
-    est, alvo, preco, topo, fundo = False, [], [], None, None
-    for i, p in enumerate(px):
-        pr = p["fech"]
-        j = i - 1 - w  # pivôs confirmados até a semana anterior
-        if j >= w:
-            jan = c[j - w:j + w + 1]
-            if c[j] == max(jan): topo = c[j]
-            if c[j] == min(jan): fundo = c[j]
-        if i > 0:
-            ab = c[i - 1]
-            if topo is not None and not est and p["alta"] > topo: est, pr = True, max(topo, ab)
-            elif fundo is not None and est and p["baixa"] < fundo: est, pr = False, min(fundo, ab)
-        alvo.append(est); preco.append(pr)
-    return alvo, preco
-
-
-def stop_pct(px, n=52, lo=20, hi=80):
-    """Faixas de percentis: compra quando o preço sobe de volta acima do nível do percentil 20 (estando abaixo);
-    vende quando cai de volta abaixo do nível do percentil 80 (estando acima)."""
-    c = [p["fech"] for p in px]
-    est, alvo, preco = False, [], []
-    for i, p in enumerate(px):
-        pr = p["fech"]
-        if i > n:
-            jan = sorted(c[i - n:i])
-            n_lo, n_hi = jan[int(len(jan) * lo / 100)], jan[min(len(jan) - 1, int(len(jan) * hi / 100))]
-            ab = c[i - 1]
-            if not est and ab < n_lo and p["alta"] > n_lo: est, pr = True, max(n_lo, ab)
-            elif est and ab > n_hi and p["baixa"] < n_hi: est, pr = False, min(n_hi, ab)
-        alvo.append(est); preco.append(pr)
-    return alvo, preco
-
-
 def main():
     px, brl, cdi = ot.carrega()
     datas = [p["data"] for p in px][INI:]
     n = len(datas) - 1
-    sin = bt.sinais(px)
+    sin = bt.sinais_fechamento(px)  # versão só de fechamento, para comparar as três premissas
     for k in bt.CONSENSOS:
         sin[bt.nome_consenso(k)] = bt.consenso(sin, k)
     fech = [p["fech"] for p in px]
-    stops = {"Média de 40 semanas": stop_media(px), "Rompimento 20 semanas": stop_romp(px),
-             "Topos e fundos (Dow)": stop_dow(px), "Faixas de percentis 52 semanas": stop_pct(px)}
+    stops = {nome: f(px)[:2] for nome, f in bt.BOOK.items()}
     cdi_v, _ = simula_exec(px, brl, cdi, [False] * len(px), fech)
     btc_v, _ = simula_exec(px, brl, cdi, [True] * len(px), fech)
     k5 = max(k for k, d in enumerate(datas) if d <= datas[-1].replace(year=datas[-1].year - 5))
