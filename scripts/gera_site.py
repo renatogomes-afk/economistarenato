@@ -5,7 +5,7 @@ Saída: site/index.html, site/arquivo/, site/analises/, site/servicos/, site/sob
        site/sitemap.xml
 Cabeçalho, menu e rodapé ficam aqui, num lugar só: mexeu aqui, mudou em todas as páginas.
 """
-import json, re, os, html
+import json, re, os, html, math
 from datetime import date
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,8 +25,13 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124a"
-LEMA = "Economia pelas fontes"
+CSS_V = "20261124h"
+LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
+FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
+# Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
+# Depois da ativação, dá para trocar o e-mail na URL pelo código que o FormSubmit manda, para não expor o endereço.
+EMAIL_CONTATO = "renato.gomes@wgsa.com.br"
+FORM_CONTATO = f"https://formsubmit.co/{EMAIL_CONTATO}"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
 e = html.escape
@@ -64,69 +69,38 @@ def cabeca(titulo, descricao, caminho, rel, tipo="website"):
 
 IG_SVG = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>'
 
-# Main menu. Arquivo has sub-items (regions). Add an item here and it appears on every page.
-MENU = [("", "Início"), ("arquivo/", "Arquivo"), ("leituras/", "Leituras"), ("campo-grande/", "Campo Grande-MS"), ("ensaios/", "Ensaios"), ("notas/", "Notas"),
-        ("analises/", "Análises"), ("servicos/", "Serviços"), ("sobre/", "Sobre")]
+# Menu principal (site minimalista, 24/11/2026). Leituras, Campo Grande, Análises, Ensaios e Notas
+# saíram do menu: as páginas continuam geradas, mas sem link na navegação.
+MENU = [("tech/", "Tech"), ("bitcoin/", "Bitcoin"), ("historia/", "História"), ("economia/", "Economia"), ("ms/", "MS"), ("sobre/", "Sobre")]
 
 
 def topo(ativo, rel, completo=True):
-    itens = []
-    for h, n in MENU:
-        cls = ' class="ativo"' if h == ativo else ""
-        if h == "arquivo/":
-            subs = "".join(f'<li><a href="{rel}arquivo/{c["id"]}/">{e(c["regiao"])}</a></li>' for c in COLECOES)
-            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
-                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as regiões do Arquivo">&#9662;</button>'
-                         f'<ul class="sub"><li><a href="{rel}arquivo/">Todas as coleções</a></li>{subs}</ul></li>')
-        elif h == "campo-grande/" and CG:
-            subs = "".join(f'<li><a href="{rel}campo-grande/{sl}/">{e(nm)}</a></li>' for sl, nm, _ in SUB_CG)
-            itens.append(f'<li class="tem-sub"><a href="{rel}{h}"{cls}>{n}</a>'
-                         f'<button class="sub-toggle" type="button" aria-expanded="false" aria-label="Abrir as seções de Campo Grande-MS">&#9662;</button>'
-                         f'<ul class="sub sub-larga">{subs}</ul></li>')
-        else:
-            itens.append(f'<li><a href="{rel}{h}"{cls}>{n}</a></li>')
-    itens.append(f'<li class="menu-news"><a class="botao-news" href="#assine">Newsletter</a></li>')
-    itens.append(f'<li class="menu-ig"><a class="ig" href="https://instagram.com/economistarenato" target="_blank" rel="noopener" aria-label="Instagram @economistarenato" title="@economistarenato">{IG_SVG}</a></li>')
-    nav = "\n        ".join(itens)
-    if completo:
-        cab = f"""  <div class="env">
-    <div class="cabecalho">
-      <a class="marca-lockup" href="{rel}">{MARCA_TAG}</a>
-      <div class="lema"><b>{LEMA}.</b> {SUBLEMA}</div>
-      <div class="canto">
-        <a class="botao" href="{rel}servicos/">Consultoria</a>
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    else:
-        cab = f"""  <div class="env">
-    <div class="cabecalho" style="padding:18px 0 14px">
-      <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
-      <div class="canto">
-        <a class="botao botao-cheio" href="#assine">Assinar</a>
-      </div>
-    </div>
-  </div>"""
-    return f"""<header>
-{cab}
-  <nav class="secoes" aria-label="Menu principal">
-    <div class="env nav-wrap">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
-      <ul class="menu" id="menu-principal">
-        {nav}
+    ativo = {"arquivo/": "economia/", "ensaios/": "economia/", "notas/": "economia/", "leituras/": "historia/", "campo-grande/": "ms/", "analises/": "ms/"}.get(ativo, ativo)
+    ativo_cls = ' class="ativo"'
+    itens = "".join(f'<li><a href="{rel}{h}"{ativo_cls if h == ativo else ""}>{n}</a></li>' for h, n in MENU)
+    return f"""<header class="topo-min">
+  <div class="env topo-min-barra">
+    <a class="marca-lockup compacta" href="{rel}" aria-label="Início">{MARCA}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu <span aria-hidden="true">&#9776;</span></button>
+    <nav aria-label="Menu principal">
+      <ul class="menu-min" id="menu-principal">
+        {itens}
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
 <script>
 document.querySelector('.nav-toggle').addEventListener('click',function(){{var m=document.getElementById('menu-principal');var o=m.classList.toggle('aberto');this.setAttribute('aria-expanded',o)}});
-document.querySelectorAll('.sub-toggle').forEach(function(b){{b.addEventListener('click',function(){{var li=b.parentNode;var o=li.classList.toggle('sub-aberto');b.setAttribute('aria-expanded',o)}})}});
 </script>
 """
 
 
-def assine(titulo="A carta do economista, no seu e-mail.", texto="Um clássico comentado e uma análise com fonte primária, uma vez por semana. Sem custo e sem spam."):
+def assine(titulo="", texto=""):
+    # Newsletter fora do ar no site minimalista: o formulário (Netlify Forms) não funciona no GitHub Pages.
+    return ""
+
+
+def _assine_antigo(titulo="A carta do economista, no seu e-mail.", texto="Um clássico comentado e uma análise com fonte primária, uma vez por semana. Sem custo e sem spam."):
     return f"""<section class="assine" id="assine">
     <div>
       <h3>{titulo}</h3>
@@ -145,50 +119,21 @@ def assine(titulo="A carta do economista, no seu e-mail.", texto="Um clássico c
 
 def rodape(rel):
     return f"""
-<footer>
+<footer class="rodape-min">
   <div class="env">
-    <div class="rodape-grade">
-      <div class="rodape-marca">
-        <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
-        <p class="rodape-texto">{LEMA}. Análise econômica independente: toda afirmação numérica publicada aqui traz a fonte primária — documento histórico, orçamento, Diário Oficial, IBGE ou órgão de controle.</p>
-      </div>
-      <div>
-        <h4>Conteúdo</h4>
-        <ul>
-          <li><a href="{rel}arquivo/">Arquivo · Clássicos comentados</a></li>
-          <li><a href="{rel}arquivo/eua/">— Estados Unidos</a></li>
-          <li><a href="{rel}arquivo/europa/">— Europa</a></li>
-          <li><a href="{rel}arquivo/china/">— China</a></li>
-          <li><a href="{rel}leituras/">Leituras · Livros comentados</a></li>
-          <li><a href="{rel}campo-grande/">Campo Grande-MS</a></li>
-          <li><a href="{rel}ensaios/">Ensaios</a></li>
-          <li><a href="{rel}notas/">Notas · Então × Agora</a></li>
-          <li><a href="{rel}analises/">Análises</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Trabalho</h4>
-        <ul>
-          <li><a href="{rel}servicos/">Consultoria</a></li>
-          <li><a href="{rel}servicos/#palestras">Palestras e cursos</a></li>
-          <li><a href="{rel}servicos/#contato">Contato</a></li>
-          <li><a href="#assine">Newsletter</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Sobre</h4>
-        <ul>
-          <li><a href="{rel}sobre/">Quem sou</a></li>
-          <li><a href="{rel}sobre/#metodo">Como eu apuro os números</a></li>
-          <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></li>
-        </ul>
-      </div>
+    <div class="rodape-min-linha">
+      <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
+      <ul>
+        <li><a href="{rel}tech/">Tech</a></li>
+        <li><a href="{rel}bitcoin/">Bitcoin</a></li>
+        <li><a href="{rel}historia/">História</a></li>
+        <li><a href="{rel}economia/">Economia</a></li>
+        <li><a href="{rel}ms/">MS</a></li>
+        <li><a href="{rel}sobre/">Sobre</a></li>
+        <li><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
     </div>
-    <div class="rodape-fim">
-      <span>© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297</span>
-      <span>Conteúdo de análise e opinião pessoal. Correções são publicadas no próprio texto, com data.</span>
-    </div>
-    <p class="rodape-fontes">Documentos históricos do Arquivo: domínio público, via JSTOR Early Journal Content e Internet Archive, sempre com a fonte indicada. Este site não tem afiliação com as instituições que publicaram os periódicos originais.</p>
+    <p class="rodape-min-fim">© {date.today().year} Renato W. Gomes · Economista, CORECON-MS 1297 · WGSA</p>
   </div>
 </footer>
 </body>
@@ -260,92 +205,25 @@ def chave_data(ed):
 
 # ------------------------------------------------------------------ páginas
 def pagina_inicio():
+    """Capa: enigmática e mínima. Não é divulgada; o marketing vai direto para /tech, /historia e /economia."""
     rel = ""
-    eds = DADOS["edicoes"]
-    cartoes = "\n".join(cartao_edicao(ed, rel) for ed in eds[:3])
     corpo = f"""
-<main class="env">
-
-  <section class="capa capa-dupla">
-    <article class="manchete">
-      <span class="chapeu opiniao">{LEMA}</span>
-      <h1 class="tit tit-xl">O que os documentos dizem — antes da opinião.</h1>
-      <p class="olho olho-xl">Este é o espaço de Renato W. Gomes, economista. Aqui se lê a economia pelas fontes: os clássicos e os debates que formaram a disciplina, lidos no original e explicados em português, e as contas públicas de hoje, sempre com o documento no rodapé.</p>
-      <div class="assin"><span>Por <b>Renato W. Gomes</b></span><i class="ponto"></i><span>Economista · CORECON-MS 1297</span></div>
-      <figure style="margin-top:20px">
-        <img src="assets/entrevista-palacios.jpg" alt="Renato W. Gomes em entrevista" style="aspect-ratio:16/9;object-fit:cover">
-        <figcaption><b>Renato W. Gomes</b>, economista, em entrevista. <span class="credito">Foto: Miguel Palacios</span></figcaption>
-      </figure>
-    </article>
-
-    <aside class="trilho">
-      <div class="trilho-tit">A série em curso</div>
-      <div class="trilho-num">1886–1929</div>
-      <p class="olho" style="margin-top:6px">As publicações da American Economic Association: monopólios, ferrovias, moeda, trabalho e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes.</p>
-      <a class="botao botao-cheio" href="arquivo/" style="display:inline-block;margin-top:12px">Abrir o arquivo</a>
-
-      <div class="trilho-tit" style="margin-top:30px">A regra da casa</div>
-      <p class="olho" style="margin-top:0">Nenhuma afirmação numérica sem fonte primária citada. Quando o dado não existe, o texto diz que não existe. Erro se corrige no próprio texto, com data.</p>
-    </aside>
-  </section>
-
-  <div class="faixa" id="arquivo">
-    <h2>Arquivo · Clássicos comentados</h2>
-    <span class="sub">Os debates que criaram a economia moderna, edição por edição</span>
-    <a class="mais" href="arquivo/">Ver o arquivo &rarr;</a>
-  </div>
-  <section class="grade-3">
-{cartoes}
-  </section>
-
-  <div class="faixa" id="trabalho">
-    <h2>O que se publica aqui</h2>
-    <span class="sub">E o que vem a seguir</span>
-  </div>
-  <section class="grade-3">
-    <article class="cartao produto">
-      <span class="chapeu">Arquivo</span>
-      <h3 class="tit tit-g">Clássicos comentados</h3>
-      <p class="olho">Uma edição ou obra por semana: resumo em português, o documento original e a ponte com o debate de hoje.</p>
-      <span class="selo">Semanal</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu dado">Análises</span>
-      <h3 class="tit tit-g">Contas públicas com fonte</h3>
-      <p class="olho">Orçamento, arrecadação, renúncia fiscal e investimento — lidos no documento oficial e explicados em linguagem de gente.</p>
-      <span class="selo">Em preparação</span>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu opiniao">Serviços</span>
-      <h3 class="tit tit-g">Consultoria e palestras</h3>
-      <p class="olho">Planejamento financeiro e tributário para empresas, e palestras sobre economia, finanças públicas e história econômica.</p>
-      <a class="selo" href="servicos/">Conheça &rarr;</a>
-    </article>
-  </section>
-
-  <div class="faixa" id="sobre">
-    <h2>Quem escreve</h2>
-    <span class="sub">E com que método</span>
-    <a class="mais" href="sobre/">Página completa &rarr;</a>
-  </div>
-  <section class="coluna-destaque">
-    <div class="retrato"><img src="assets/retrato-palacios.jpg" alt="Renato W. Gomes" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
-    <div>
-      <h3 class="tit tit-g" style="font-style:normal">Renato W. Gomes</h3>
-      <p class="olho olho-xl">Economista há 15 anos, consultor independente com especialização em finanças pela Fundação Getúlio Vargas. Trabalha com planejamento contábil, tributário e financeiro de empresas e atuou no mercado financeiro no Rio de Janeiro e em Brasília.</p>
-      <p class="olho">O método é o mesmo para um relatório de 1886 e para o orçamento de 2026: ler o documento original, citar a fonte e separar o que é fato do que é opinião.</p>
-      <div class="assin"><a href="sobre/"><b>Leia o método completo</b></a><i class="ponto"></i><a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a></div>
-    </div>
-  </section>
-
-  {assine()}
-
+<main class="capa-enigma">
+  <a class="capa-marca" href="./" aria-label="Renato W. Gomes, economista">{MARCA_TAG}</a>
+  <p class="capa-frase">Cinco perguntas. Uma resposta por porta.</p>
+  <nav class="capa-portas" aria-label="Interesses">
+    <a href="tech/"><span>/tech</span><small>máquinas que trabalham</small></a>
+    <a href="bitcoin/"><span>/bitcoin</span><small>dinheiro sem dono</small></a>
+    <a href="historia/"><span>/historia</span><small>o que já aconteceu</small></a>
+    <a href="economia/"><span>/economia</span><small>o que já foi escrito</small></a>
+    <a href="ms/"><span>/ms</span><small>o chão onde se pisa</small></a>
+  </nav>
+  <p class="capa-rodape">Campo Grande · MS</p>
 </main>
+</body>
+</html>
 """
-    escreve("", cabeca(f"Economista Renato Gomes — {LEMA}", "Economia pelas fontes: clássicos comentados, contas públicas com documento oficial e consultoria. Por Renato W. Gomes, economista (CORECON-MS 1297).", "", rel)
-            + topo("", rel) + corpo + rodape(rel))
-
-
+    escreve("", cabeca("Renato W. Gomes, economista", "Renato W. Gomes, economista (CORECON-MS 1297). Tecnologia, bitcoin, história e economia.", "", rel) + corpo)
 
 
 def edicoes_de(cid):
@@ -386,6 +264,7 @@ def pagina_arquivo():
     <span class="chapeu">Arquivo · Clássicos comentados</span>
     <h1>Os debates que criaram a economia moderna</h1>
     <p class="olho">Um periódico de referência por região, lido no original e explicado em português — com o documento sempre a um clique e a pergunta de hoje no fim de cada texto.</p>
+    <p class="olho" style="font-size:15px">Também no Arquivo: <a href="../ensaios/">Ensaios</a>, os textos longos, e <a href="../notas/">Notas · Então × Agora</a>.</p>
   </div>
 
   <div class="faixa">
@@ -918,7 +797,7 @@ def pagina_notas():
 </main>
 """
     escreve("notas", cabeca("Notas · Então × Agora — Economista Renato Gomes", "Um dado histórico ao lado de um dado atual, com as duas fontes.", "notas/", rel)
-            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_nota(n):
@@ -956,7 +835,7 @@ def pagina_nota(n):
 </div>
 """
     escreve(f"notas/{n['slug']}", cabeca(f"{n['titulo']} — Notas · Economista Renato Gomes", n["chamada"], f"notas/{n['slug']}/", rel, "article")
-            + topo("notas/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def cartao_comentario(ed, c, rel):
@@ -998,7 +877,7 @@ def pagina_ensaios():
 </main>
 """
     escreve("ensaios", cabeca("Ensaios — Economista Renato Gomes", "Os textos longos da casa: clássicos e temas lidos a fundo, com fonte primária e análise do autor.", "ensaios/", rel)
-            + topo("ensaios/", rel, completo=False) + corpo + rodape(rel))
+            + topo("arquivo/", rel, completo=False) + corpo + rodape(rel))
 
 
 def pagina_analises():
@@ -1021,59 +900,769 @@ def pagina_analises():
             + topo("analises/", rel, completo=False) + corpo + rodape(rel))
 
 
-def pagina_servicos():
-    rel = "../"
-    corpo = f"""
-<main class="env">
-  <div class="artigo-topo" style="max-width:820px;margin:40px auto 10px">
-    <span class="chapeu opiniao">Serviços</span>
-    <h1>Consultoria, palestras e cursos</h1>
-    <p class="olho">O mesmo método das análises — documento, número e fonte — aplicado ao seu negócio ou ao seu evento.</p>
-  </div>
-
-  <section class="grade-3">
-    <article class="cartao produto">
-      <span class="chapeu">Consultoria</span>
-      <h3 class="tit tit-g">Planejamento financeiro e tributário</h3>
-      <p class="olho">Planejamento contábil, tributário e financeiro para empresas, com o mesmo método das análises: documento, número e fonte.</p>
-    </article>
-    <article class="cartao produto" id="palestras">
-      <span class="chapeu dado">Palestras</span>
-      <h3 class="tit tit-g">Economia para quem decide</h3>
-      <p class="olho">Finanças públicas, leitura de orçamento e história econômica aplicada: o que os debates de 1886 a 1922 ensinam sobre monopólios, concessões e regulação hoje.</p>
-    </article>
-    <article class="cartao produto">
-      <span class="chapeu opiniao">Cursos</span>
-      <h3 class="tit tit-g">Economia pelas fontes</h3>
-      <p class="olho">Cursos curtos sobre como ler um orçamento público e sobre os clássicos da economia lidos no original.</p>
-      <span class="selo">Em preparação</span>
-    </article>
-  </section>
-
-  <div class="faixa" id="contato">
-    <h2>Contato</h2>
-    <span class="sub">Conte o que você precisa</span>
-  </div>
-  <section class="assine">
-    <div>
-      <h3>Fale comigo.</h3>
-      <p>Consultoria, palestra ou curso: descreva em poucas linhas e eu respondo por e-mail. Também pelo Instagram <a href="https://instagram.com/economistarenato" target="_blank" rel="noopener">@economistarenato</a>.</p>
-    </div>
-    <div>
-      <form class="form-contato" name="contato" method="POST" data-netlify="true" action="/obrigado/">
-        <input type="hidden" name="form-name" value="contato">
+def bloco_contato(assunto="Contato pelo site (/tech)", convite="Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis.", pergunta="Qual tarefa toma mais tempo do seu time hoje?", voltar="tech/", titulo="Fale comigo"):
+    if FORM_CONTATO:
+        form = f"""<form class="form-contato" action="{FORM_CONTATO}" method="POST">
+        <input type="hidden" name="_subject" value="{assunto}">
+        <input type="hidden" name="_next" value="{DOMINIO}/obrigado/?de={voltar}">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" required>
         <input type="email" name="email" placeholder="seu@email.com.br" aria-label="Seu e-mail" required>
-        <select name="assunto" aria-label="Assunto"><option>Consultoria</option><option>Palestra</option><option>Curso</option><option>Outro</option></select>
-        <textarea name="mensagem" rows="4" placeholder="Em poucas linhas, o que você precisa" aria-label="Mensagem" required></textarea>
+        <input type="text" name="empresa" placeholder="Empresa e área" aria-label="Empresa e área">
+        <textarea name="mensagem" rows="4" placeholder="{pergunta}" aria-label="Mensagem" required></textarea>
         <button class="botao botao-cheio" type="submit">Enviar</button>
-      </form>
+      </form>"""
+    else:
+        form = '<p class="aviso-preencher">[Formulário de contato: falta o endereço do Formspree e o e-mail de destino.]</p>'
+    email = f' Ou escreva para <a href="mailto:{EMAIL_CONTATO}">{EMAIL_CONTATO}</a>.' if EMAIL_CONTATO else ""
+    return f"""<section class="contato-min" id="contato">
+    <div>
+      <h2>{titulo}</h2>
+      <p>{convite}{email}</p>
     </div>
+    <div>
+      {form}
+    </div>
+  </section>"""
+
+
+def redireciona(caminho, destino):
+    """Endereço antigo que passou a morar em outra página."""
+    escreve(caminho, f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>Mudou de endereço</title>
+<link rel="canonical" href="{DOMINIO}/{destino}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=/{destino}"></head>
+<body><p>Esta página mudou para <a href="/{destino}">{DOMINIO}/{destino}</a>.</p></body></html>
+""")
+
+
+def pagina_tech():
+    rel = "../"
+    corpo = f"""
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Tech · Renato W. Gomes, economista</p>
+    <h1>{FRASE}.</h1>
+    <p class="heroi-olho">Encontro onde o seu time perde horas em tarefas repetitivas, coloco agentes de IA para fazer esse trabalho e meço o ganho em reais, mês a mês.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Fale comigo</a> <a class="botao" href="#como">Como funciona</a></p>
   </section>
+
+  <ol class="passos" id="como">
+    <li>
+      <span class="passo-num">1</span>
+      <h2>Diagnóstico</h2>
+      <p>Mapeio as tarefas repetitivas, quantas horas cada uma consome e quanto custa. Você recebe a conta do que vale automatizar e do que não vale.</p>
+    </li>
+    <li>
+      <span class="passo-num">2</span>
+      <h2>Implantação</h2>
+      <p>Coloco agentes de IA nas tarefas escolhidas, como atendimento, conferência de documentos, conciliação e relatórios, ligados às ferramentas que a empresa já usa.</p>
+    </li>
+    <li>
+      <span class="passo-num">3</span>
+      <h2>Acompanhamento mensal</h2>
+      <p>Ajusto os agentes, controlo a qualidade do que eles entregam e mando todo mês o relatório do ganho em horas e em reais.</p>
+    </li>
+  </ol>
+
+  <section class="para-quem">
+    <h2>Para quem</h2>
+    <p>Escritórios de contabilidade, gestoras e assessorias de investimento, e empresas de serviços e do agro em Mato Grosso do Sul e Mato Grosso. Também faço palestras sobre IA e produtividade para quem decide.</p>
+  </section>
+
+  <section class="para-quem">
+    <h2>Por que um economista</h2>
+    <p>Muitas das perguntas que as empresas fazem hoje sobre IA já foram feitas quando as centrais telefônicas e as fábricas se automatizaram. A matemática criada para dimensionar telefonistas serve para dimensionar agentes; os métodos de controle de qualidade da indústria servem para conferir o que um agente entrega. Eu uso essa história como método, e a conta em reais como prova.</p>
+  </section>
+
+  {bloco_contato()}
 </main>
 """
-    escreve("servicos", cabeca("Serviços — Economista Renato Gomes", "Consultoria em planejamento financeiro e tributário, palestras e cursos de economia e finanças públicas.", "servicos/", rel)
-            + topo("servicos/", rel, completo=False) + corpo + rodape(rel))
+    escreve("tech", cabeca(f"Tech — {FRASE} · Renato W. Gomes", "Diagnóstico, implantação e acompanhamento de agentes de IA para pequenas e médias empresas, com o ganho medido em reais.", "tech/", rel)
+            + topo("tech/", rel) + corpo + rodape(rel))
+
+
+def conceitos_btc_html():
+    if not CONCEITOS_BTC:
+        return ""
+    itens = "\n".join(f'    <h3 class="conceito-tit">{e(t)}</h3>\n' + "\n".join(f"    <p>{p_}</p>" for p_ in ps) for t, ps in CONCEITOS_BTC)
+    return f"""  <section class="para-quem" id="conceitos">
+    <h2>Conceitos</h2>
+{itens}
+  </section>
+"""
+
+
+def autores_btc_html(rel):
+    if not AUTORES_BTC:
+        return ""
+    def nome(n, u):
+        return f'<a href="{u}" target="_blank" rel="noopener">{e(n)}</a>' if u else e(n)
+    li = "\n".join(f'      <li><b>{nome(n, u)}.</b> {e(t)}</li>' for n, t, u in AUTORES_BTC)
+    obras = "\n".join(f'      <li><a href="{u}" target="_blank" rel="noopener"><i>{e(t)}</i></a> ({a}), {e(au)}. <span class="nota-min">{h}</span></li>' for au, t, a, u, h in OBRAS_BTC)
+    return f"""  <section class="para-quem" id="autores">
+    <h2>Quem me inspira</h2>
+    <p>Esta é uma plataforma aberta: as regras, os testes e as referências ficam à vista. Estes são os sete autores de onde vêm as ideias testadas aqui, em ordem cronológica.</p>
+    <ul class="lista-min">
+{li}
+    </ul>
+    <h2 style="margin-top:28px">Leia no original</h2>
+    <p>Os textos fundadores, de Dow e Wyckoff, estão em domínio público. Os demais autores têm direitos autorais em vigor; os livros estão à venda.</p>
+    <ul class="lista-min">
+{obras}
+    </ul>
+  </section>
+"""
+
+
+# Obras dos autores em domínio público (conferidas em 24/11/2026): (autor, título, ano, link, host)
+OBRAS_BTC = [
+    ("S. A. Nelson, com os editoriais de Charles Dow", "The ABC of Stock Speculation", "1903", "https://catalog.hathitrust.org/Record/001740713", "HathiTrust"),
+    ("William Peter Hamilton, sucessor de Dow no Wall Street Journal", "The Stock Market Barometer", "1922", "https://babel.hathitrust.org/cgi/pt?id=uc2.ark:/13960/t42r3r118", "HathiTrust"),
+    ("Richard D. Wyckoff", "How I Trade and Invest in Stocks and Bonds", "1922", "https://archive.org/details/cu31924031269552", "Internet Archive"),
+]
+
+
+# Conceitos explicados na /bitcoin: (título, texto em parágrafos). Um conceito novo = um item aqui.
+CONCEITOS_BTC = [
+    ("Faixas de percentis: onde o preço está dentro da sua própria história",
+     ["Pegue os preços de fechamento das últimas 52 semanas e ordene do menor para o maior. O percentil diz em que ponto dessa fila o preço de hoje está: no percentil 10, só 10% das semanas fecharam mais baixo; no 90, só 10% fecharam mais alto.",
+      "As faixas viram limites de força. Abaixo do percentil 20 fica o <b>limite inferior</b>: o preço está barato em relação ao próprio passado, e é ali que costuma aparecer a força compradora. Acima do percentil 80 fica o <b>limite superior</b>: o preço está caro, e é ali que a força vendedora costuma agir. Entre os dois, a faixa do meio é terreno neutro.",
+      "Somando o volume negociado em cada faixa de preço, dá para ver onde mais gente comprou e vendeu. Esses níveis de preço com muito volume funcionam como memória do mercado: quem comprou ali tende a defender o preço na volta, e quem ficou preso ali tende a vender quando empata.",
+      "No piloto, o conceito vira um sinal testável: comprar quando o fechamento semanal volta para cima do limite inferior e reduzir a posição quando perde força acima do limite superior."]),
+    ("Os três movimentos e a tendência primária (Dow)",
+     ["“O mercado deve sempre ser considerado como tendo três movimentos, todos acontecendo ao mesmo tempo” (“The market is always to be considered as having three movements, all going on at the same time”), escreveu Charles Dow em 1900, citado por William Peter Hamilton em <i>The Stock Market Barometer</i> (1922, cap. IV, p. 30). Há a oscilação diária, sem importância; a reação secundária, que dura semanas; e o movimento primário, que dura anos.",
+      "A regra para saber em que maré se está é simples: “é um período de alta enquanto um topo supera os topos anteriores” (“It is a bull period as long as the average of one high point exceeds that of previous high points”) e de baixa quando o fundo fica abaixo dos fundos anteriores (p. 32). Dow também observou que um movimento primário costuma ter uma reação contrária de pelo menos três oitavos do seu tamanho (p. 37): é a correção que assusta, mas não muda a maré.",
+      "O próprio Dow avisou dos limites: quem tenta operar só com essa teoria “encontra muitas exceções” (“find a good many exceptions”, p. 36). Por isso, aqui ela vira um sinal entre vários, testado contra os outros."]),
+    ("Acumulação, alta e distribuição (Wyckoff)",
+     ["Richard Wyckoff, em <i>How I Trade and Invest in Stocks and Bonds</i> (1922), descreve as campanhas dos grandes operadores em três etapas: acumulação, alta e distribuição (cap. II, p. 38-39). Na acumulação, quem sabe mais compra em silêncio, numa faixa de preço que pode durar semanas ou meses; na distribuição, vende para quem chega tarde.",
+      "Duas regras dele viram filtros no piloto. A primeira: operar a favor da tendência multiplica as chances de acerto “três ou quatro vezes” (cap. II, p. 48). A segunda: o lucro esperado deve ser “pelo menos três ou quatro vezes” o tamanho do risco (“at least three or four times the amount of the risk”, cap. II, p. 49). E o dinheiro de verdade, dizia, estava nos movimentos de 30 a 60 dias, não no vaivém do dia."]),
+]
+
+
+# Autores que inspiram o piloto de bitcoin: (nome, o que ele ensina, link opcional). Lista vazia = seção some.
+AUTORES_BTC = [
+    ("Charles Dow", "Nos editoriais do Wall Street Journal, jornal que ele fundou, nasceu a ideia de que o mercado anda em tendências e de que elas se confirmam. É a raiz da média de 200 dias.", ""),
+    ("Richard Wyckoff", "Ensinou a ler preço e volume juntos e a reconhecer as fases de acumulação e distribuição, quando quem sabe mais está comprando ou vendendo.", ""),
+    ("Ralph Nelson Elliott", "Em The Wave Principle (1938), propôs que o mercado se move em ondas repetidas, movidas pela psicologia coletiva.", ""),
+    ("Robert D. Edwards e John Magee", "Technical Analysis of Stock Trends (1948) catalogou os padrões gráficos, como ombro-cabeça-ombro, triângulos e suportes, e virou a bíblia dos grafistas.", ""),
+    ("Richard Donchian", "Pioneiro dos sistemas de tendência com regras fixas: entrar no rompimento da máxima e sair na perda da mínima. É a base do sinal de rompimento testado aqui.", ""),
+    ("J. Welles Wilder Jr.", "Em New Concepts in Technical Trading Systems (1978), criou o IFR, o ATR e o ADX, indicadores usados até hoje.", ""),
+    ("Gerald Appel", "Criou o MACD no fim dos anos 1970, o indicador de momento mais popular dos gráficos.", ""),
+]
+
+
+# Diário do piloto: scripts/bitcoin/diario.csv (data AAAA-MM-DD, retorno_pct do dia, nota opcional).
+# Só percentuais: o valor da carteira em reais nunca entra no site.
+def diario_btc():
+    import csv
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "diario.csv")
+    if not os.path.exists(arq):
+        return []
+    with open(arq, encoding="utf-8") as f:
+        return [(r["data"], float(r["retorno_pct"].replace(",", ".")), r.get("nota", "")) for r in csv.DictReader(f) if r.get("data")]
+
+
+def diario_btc_html():
+    linhas = diario_btc()
+    if not linhas:
+        return """  <section class="para-quem" id="diario">
+    <h2>Meu diário de retornos</h2>
+    <p>Aqui eu publico, dia a dia, o retorno de uma posição de referência de 1 bitcoin, em percentual, com acertos e erros à vista. O diário começa no primeiro dia do piloto.</p>
+  </section>
+"""
+    idx, acum = [], 100.0
+    for _, r, _ in linhas:
+        acum *= 1 + r / 100
+        idx.append(acum)
+    w, h, pad = 640, 180, 8
+    lo, hi = min(idx + [100.0]), max(idx + [100.0])
+    esc = (hi - lo) or 1
+    n = max(len(idx) - 1, 1)
+    pts = " ".join(f"{pad + i * (w - 2 * pad) / n:.1f},{h - pad - (v - lo) * (h - 2 * pad) / esc:.1f}" for i, v in enumerate(idx))
+    y100 = h - pad - (100 - lo) * (h - 2 * pad) / esc
+    total = idx[-1] - 100
+    ult = linhas[::-1][:30]
+    def pct(x):
+        return f"{x:+.2f}%".replace(".", ",")
+    tab = "\n".join(f'        <tr><td>{d[8:10]}/{d[5:7]}/{d[:4]}</td><td class="{"sobe" if r >= 0 else "desce"}">{pct(r)}</td><td>{e(nt)}</td></tr>' for d, r, nt in ult)
+    return f"""  <section class="para-quem" id="diario">
+    <h2>Meu diário de retornos</h2>
+    <p>O retorno de uma posição de referência de 1 bitcoin, dia a dia, em percentual. Desde o início do piloto: <b>{pct(total)}</b> em {len(linhas)} dias.</p>
+    <svg class="diario-graf" viewBox="0 0 {w} {h}" role="img" aria-label="Retorno acumulado, base 100">
+      <line x1="{pad}" x2="{w - pad}" y1="{y100:.1f}" y2="{y100:.1f}" class="base"/>
+      <polyline points="{pts}" class="linha"/>
+    </svg>
+    <table class="diario-tab">
+      <thead><tr><th>Dia</th><th>Retorno</th><th>Nota</th></tr></thead>
+      <tbody>
+{tab}
+      </tbody>
+    </table>
+  </section>
+"""
+
+
+CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4",
+             "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700",
+             "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a"}
+CORES_CONSENSO = {"Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}
+
+
+BENCH_BTC = {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI"}
+
+
+def rot_btc(nome):
+    return BENCH_BTC.get(nome, nome)
+
+
+def cor_btc(nome):
+    return CORES_CONSENSO.get(nome) or CORES_BTC.get(nome, "#666")
+
+
+def data_br(iso):
+    a, m, d = iso.split("-")
+    return f"{d}/{m}/{a}"
+
+
+MESES_ABR = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def decisao_btc(r):
+    """Mesma regra da coluna "Decisão de domingo" da tabela."""
+    if r["sinal_para_esta_semana"]:
+        return ("Ficar comprado", "manter") if r["comprado"] else ("Comprar", "compra")
+    return ("Vender", "venda") if r["comprado"] else ("Ficar no CDI", "fora")
+
+
+# Recalcula os sinais no navegador com a semana em curso (mesma regra de scripts/bitcoin/backtest.py).
+SINAIS_JS = r"""
+(function(){
+var box=document.getElementById('gs-box');if(!box)return;
+var G=JSON.parse(document.getElementById('gs-dados').textContent);
+var svg=box.querySelector('svg'),NS='http://www.w3.org/2000/svg';
+var lo=+svg.dataset.lo,hi=+svg.dataset.hi,py0=+svg.dataset.py0,py1=+svg.dataset.py1,xv=+svg.dataset.xv,lv=+svg.dataset.lv;
+function yp(v){v=Math.max(lo,Math.min(hi,v));return py1-(v-lo)/(hi-lo)*(py1-py0)}
+function sma(c,n,i){if(i<n-1)return null;var s=0;for(var k=i-n+1;k<=i;k++)s+=c[k];return s/n}
+function ema(c,n){var k=2/(n+1),o=[],e=null;c.forEach(function(x){e=e===null?x:x*k+e*(1-k);o.push(e)});return o}
+function rsi(c,n){n=n||14;var o=c.map(function(){return null}),g=0,p=0;for(var i=1;i<c.length;i++){var d=c[i]-c[i-1],a=Math.max(d,0),b=Math.max(-d,0);
+ if(i<=n){g+=a/n;p+=b/n;if(i==n)o[i]=p?100-100/(1+g/p):100}else{g=(g*(n-1)+a)/n;p=(p*(n-1)+b)/n;o[i]=p?100-100/(1+g/p):100}}return o}
+function sinais(c){var n=c.length,s={},i,est,out,r,m,sig;
+ s['Média de 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&x>m});
+ s['Cruzamento 10 x 40 semanas']=c.map(function(x,i){var m=sma(c,40,i);return m!==null&&sma(c,10,i)>m});
+ r=rsi(c);est=false;out=[];for(i=0;i<n;i++){if(r[i]!==null&&i>0&&r[i-1]!==null){if(!est&&r[i-1]<30&&30<=r[i])est=true;else if(est&&r[i-1]>70&&70>=r[i])est=false}out.push(est)}s['IFR semanal (30/70)']=out;
+ est=false;out=[];for(i=0;i<n;i++){if(i>=20){if(!est&&c[i]>Math.max.apply(null,c.slice(i-20,i)))est=true;else if(est&&c[i]<Math.min.apply(null,c.slice(i-10,i)))est=false}out.push(est)}s['Rompimento 20 semanas']=out;
+ var e12=ema(c,12),e26=ema(c,26);m=e12.map(function(x,i){return x-e26[i]});sig=ema(m,9);s['MACD semanal']=m.map(function(x,i){return i>=35&&x>sig[i]});
+ est=false;out=[];var topo=null,fundo=null;for(i=0;i<n;i++){var j=i-2;if(j>=2){var w=c.slice(j-2,j+3);if(c[j]==Math.max.apply(null,w))topo=c[j];if(c[j]==Math.min.apply(null,w))fundo=c[j]}
+  if(topo!==null&&!est&&c[i]>topo)est=true;else if(fundo!==null&&est&&c[i]<fundo)est=false;out.push(est)}s['Topos e fundos (Dow)']=out;
+ est=false;out=[];var pa=null;for(i=0;i<n;i++){var pc=null;if(i>=52){var q=0;for(var k=i-52;k<i;k++)if(c[k]<c[i])q++;pc=100*q/52;if(pa!==null){if(!est&&pa<20&&20<=pc)est=true;else if(est&&pa>80&&80>=pc)est=false}}pa=pc;out.push(est)}s['Faixas de percentis 52 semanas']=out;
+ var V=G.votantes;G.limites.forEach(function(K){est=true;out=[];for(i=0;i<n;i++){var v=0;V.forEach(function(x){if(s[x][i])v++});if(v>=K)est=true;else if(V.length-v>=K)est=false;out.push(est)}s['Consenso '+K+' x '+(V.length-K)]=out});
+ return s}
+function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+function br(v,d){return v.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d})}
+function desenha(sem,preco){
+ // sem: velas diárias depois do último domingo fechado, agrupadas em semanas; a última é a semana em curso
+ var c=G.fech.slice(),ab=G.ultimo;
+ sem.forEach(function(w,ix){if(ix<sem.length-1)c.push(w.fech)});
+ var at=sem[sem.length-1];at.fech=preco;at.alta=Math.max(at.alta,preco);at.baixa=Math.min(at.baixa,preco);
+ if(sem.length>1)ab=sem[sem.length-2].fech;
+ c.push(preco);
+ var s=sinais(c),g=document.getElementById('gs-vela-viva');g.innerHTML='';
+ var cls=preco>=ab?'gs-alta':'gs-baixa',y1=Math.min(yp(ab),yp(preco)),y2=Math.max(yp(ab),yp(preco));
+ g.appendChild(el('line',{x1:xv,x2:xv,y1:yp(at.alta),y2:yp(at.baixa),'class':cls+' gs-viva'}));
+ g.appendChild(el('rect',{x:xv-lv/2,y:y1,width:lv,height:Math.max(1,y2-y1),'class':cls+' gs-viva'}));
+ document.getElementById('gs-preco').textContent='US$ '+br(preco,0)+' agora';
+ document.getElementById('gs-preco').setAttribute('y',yp(preco)+4);
+ var votos=0;
+ G.estrategias.forEach(function(E){
+  var agora=s[E.nome][c.length-1],antes=s[E.nome][c.length-2],m=document.getElementById('gs-m-'+E.i);m.innerHTML='';
+  if(G.votantes.indexOf(E.nome)>=0&&agora)votos++;
+  var ym=E.y+15;
+  if(agora)m.appendChild(el('rect',{x:xv-lv,y:E.y+4,width:lv*2,height:22,fill:E.cor,opacity:'.22'}));
+  if(agora&&!antes)m.appendChild(el('path',{d:'M'+(xv-5)+' '+(ym+5)+'L'+(xv+5)+' '+(ym+5)+'L'+xv+' '+(ym-6)+'Z','class':'gs-compra gs-pisca'}));
+  if(!agora&&antes)m.appendChild(el('path',{d:'M'+(xv-5)+' '+(ym-5)+'L'+(xv+5)+' '+(ym-5)+'L'+xv+' '+(ym+6)+'Z','class':'gs-venda gs-pisca'}));
+  var rot,tipo;if(agora){rot=E.comprado?'Ficar comprado':'Comprar';tipo=E.comprado?'manter':'compra'}else{rot=E.comprado?'Vender':'Ficar no CDI';tipo=E.comprado?'venda':'fora'}
+  var d=document.getElementById('gs-d-'+E.i);d.textContent=rot;d.setAttribute('class','gs-dec gs-'+tipo+'-t');
+  var k=document.getElementById('gs-k-'+E.i),xm=+k.dataset.x,yc=E.y+15;k.innerHTML='';
+  k.appendChild(tipo=='compra'?el('path',{d:'M'+(xm-6)+' '+(yc+6)+'L'+(xm+6)+' '+(yc+6)+'L'+xm+' '+(yc-7)+'Z','class':'gs-compra'}):
+   tipo=='venda'?el('path',{d:'M'+(xm-6)+' '+(yc-6)+'L'+(xm+6)+' '+(yc-6)+'L'+xm+' '+(yc+7)+'Z','class':'gs-venda'}):
+   tipo=='manter'?el('circle',{cx:xm,cy:yc,r:6,fill:E.cor}):el('circle',{cx:xm,cy:yc,r:5.5,'class':'gs-fora'}));
+ });
+ var h=new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+ document.getElementById('gs-hora').textContent='Ao vivo, '+h+': '+votos+' de 7 sinais comprados se a semana fechasse agora.';
+}
+function semanas(velas){
+ // velas da Coinbase: [t, baixa, alta, abre, fecha, vol]; semana fecha no domingo (UTC)
+ var ult=new Date(G.ultima_data+'T00:00:00Z').getTime(),D=86400000,ws=[];
+ velas.sort(function(a,b){return a[0]-b[0]}).forEach(function(v){var t=v[0]*1000;if(t<=ult)return;var k=Math.floor((t-ult-1)/(7*D));
+  var w=ws[k]||(ws[k]={alta:v[2],baixa:v[1],fech:v[4]});w.alta=Math.max(w.alta,v[2]);w.baixa=Math.min(w.baixa,v[1]);w.fech=v[4]});
+ return ws.filter(function(w){return w})}
+function busca(){
+ var ini=new Date(new Date(G.ultima_data+'T00:00:00Z').getTime()+86400000).toISOString().slice(0,10);
+ fetch('https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start='+ini+'T00:00:00Z').then(function(r){return r.json()}).catch(function(){return[]})
+ .then(function(v){var ws=semanas(Array.isArray(v)?v:[]);
+  fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){var p=+j.data.amount;
+   if(!ws.length)ws=[{alta:p,baixa:p,fech:p}];desenha(ws,p)}).catch(function(){if(ws.length)desenha(ws,ws[ws.length-1].fech)})})}
+window.gsSinais=sinais;busca();setInterval(busca,60000);
+})();
+"""
+
+
+def grafico_semana_btc_svg(D):
+    G = D.get("grafico")
+    if not G:
+        return ""
+    est = {r["nome"]: r for r in D["estrategias"]}
+    nomes = [n for n in G["sinais"] if n in est]
+    nomes = [n for n in nomes if not n.startswith("Consenso")] + [n for n in nomes if n.startswith("Consenso")]
+    n = len(G["fech"])
+    X0, X1 = 8, 790                   # área do gráfico; à direita ficam as duas colunas de decisão
+    C1, C2 = X1 + 82, X1 + 236        # "Decisão de domingo" e "Se fechasse agora"
+    W = C2 + 150
+    PY0, PY1 = 34, 306                # painel de preço
+    L0, LH = 362, 30                  # faixas das estratégias
+    H = L0 + LH * len(nomes) + 34
+    passo = (X1 - X0) / (n + 1)       # uma vaga a mais: a vela da semana em curso, desenhada ao vivo
+    xc = lambda i: X0 + passo * (i + .5)
+    lo, hi = min(G["baixa"]), max(G["alta"])
+    folga = (hi - lo) * .12
+    lo, hi = lo - folga, hi + folga
+    yp = lambda v: PY1 - (v - lo) / (hi - lo) * (PY1 - PY0)
+    lv = max(2.0, passo * .62)
+    xv = xc(n)
+    out = [f'<svg class="graf-semana" viewBox="0 0 {W} {H}" data-lo="{lo:.2f}" data-hi="{hi:.2f}" data-py0="{PY0}" data-py1="{PY1}" data-xv="{xv:.1f}" data-lv="{lv:.1f}" role="img" aria-label="Velas semanais do bitcoin em dólares, com a semana em curso ao vivo, e a decisão de cada estratégia">']
+    deg = 10 ** math.floor(math.log10((hi - lo) / 4))
+    deg = next(d * deg for d in (1, 2, 2.5, 5, 10) if (hi - lo) / (d * deg) <= 6)
+    v = math.ceil(lo / deg) * deg
+    while v < hi:
+        y = yp(v)
+        out.append(f'<line x1="{X0}" x2="{X1}" y1="{y:.1f}" y2="{y:.1f}" class="gs-grade"/><text x="{X1 + 6}" y="{y + 4:.1f}" class="gs-eixo">US$ {v / 1000:,.0f} mil</text>'.replace(",", "."))
+        v += deg
+    ult_mes = None
+    for i, d in enumerate(G["datas"]):
+        a, m_, _ = d.split("-")
+        if m_ != ult_mes and i > 0 and int(m_) % 3 == 1:
+            x = xc(i)
+            out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{PY0}" y2="{L0 + LH * len(nomes)}" class="gs-mes"/><text x="{x + 3:.1f}" y="{PY1 + 16}" class="gs-eixo">{MESES_ABR[int(m_) - 1]}/{a[2:]}</text>')
+        ult_mes = m_
+    for i in range(n):
+        o, c, h, l_ = G["abre"][i], G["fech"][i], G["alta"][i], G["baixa"][i]
+        cls = "gs-alta" if c >= o else "gs-baixa"
+        x = xc(i)
+        y1, y2 = sorted((yp(o), yp(c)))
+        out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{yp(h):.1f}" y2="{yp(l_):.1f}" class="{cls}"/><rect x="{x - lv / 2:.1f}" y="{y1:.1f}" width="{lv:.1f}" height="{max(1, y2 - y1):.1f}" class="{cls}"/>')
+    # semana em curso: faixa destacada, vela e preço preenchidos pelo script
+    out.append(f'<rect x="{xv - passo / 2:.1f}" y="{PY0 - 8}" width="{passo:.1f}" height="{L0 + LH * len(nomes) - PY0 + 8}" class="gs-agora"/>')
+    out.append(f'<text x="{xv:.1f}" y="{PY0 - 12}" text-anchor="end" class="gs-eixo">semana em curso &#9656;</text>')
+    out.append(f'<g id="gs-vela-viva"></g><text id="gs-preco" x="{X1 + 6}" y="{PY0}" class="gs-eixo gs-viva-t"></text>')
+    out.append(f'<text x="{X0}" y="{L0 - 12}" class="gs-tit">Sinal de cada estratégia</text>'
+               f'<text x="{C1 - 8}" y="{L0 - 12}" class="gs-tit">Domingo, {data_br(G["datas"][-1])[:5]}</text>'
+               f'<text x="{C2 - 8}" y="{L0 - 12}" class="gs-tit gs-viva-t">Se fechasse agora</text>')
+    lista_js = []
+    for j, nome in enumerate(nomes):
+        y = L0 + LH * j
+        cor = cor_btc(nome)
+        s = G["sinais"][nome]
+        out.append(f'<line x1="{X0}" x2="{X1}" y1="{y + LH - 4}" y2="{y + LH - 4}" class="gs-base"/>')
+        i = 0
+        while i < n:
+            if s[i]:
+                k = i
+                while k < n and s[k]:
+                    k += 1
+                out.append(f'<rect x="{X0 + passo * i:.1f}" y="{y + 4}" width="{passo * (k - i):.1f}" height="{LH - 8}" fill="{cor}" opacity=".22"/>')
+                i = k
+            else:
+                i += 1
+        ant = G["sinal_anterior"].get(nome, s[0])
+        for i in range(n):
+            if s[i] != ant:
+                x, ym = xc(i), y + LH / 2
+                if s[i]:
+                    out.append(f'<path d="M{x - 5:.1f} {ym + 5:.1f}L{x + 5:.1f} {ym + 5:.1f}L{x:.1f} {ym - 6:.1f}Z" class="gs-compra"><title>{e(nome)}: compra em {e(data_br(G["datas"][i]))}</title></path>')
+                else:
+                    out.append(f'<path d="M{x - 5:.1f} {ym - 5:.1f}L{x + 5:.1f} {ym - 5:.1f}L{x:.1f} {ym + 6:.1f}Z" class="gs-venda"><title>{e(nome)}: venda em {e(data_br(G["datas"][i]))}</title></path>')
+            ant = s[i]
+        out.append(f'<g id="gs-m-{j}"></g>')
+        out.append(f'<text x="{X0 + 4}" y="{y + 15}" class="gs-nome{" gs-forte" if nome.startswith("Consenso") else ""}" fill="{cor}">{e(nome)}</text>')
+        rot, tipo = decisao_btc(est[nome])
+        ym = y + LH / 2
+        xm = C1
+        marca = {"compra": f'<path d="M{xm - 6} {ym + 6}L{xm + 6} {ym + 6}L{xm} {ym - 7}Z" class="gs-compra"/>',
+                 "venda": f'<path d="M{xm - 6} {ym - 6}L{xm + 6} {ym - 6}L{xm} {ym + 7}Z" class="gs-venda"/>',
+                 "manter": f'<circle cx="{xm}" cy="{ym}" r="6" fill="{cor}"/>',
+                 "fora": f'<circle cx="{xm}" cy="{ym}" r="5.5" class="gs-fora"/>'}[tipo]
+        out.append(f'{marca}<text x="{xm + 14}" y="{ym + 4.5}" class="gs-dec gs-{tipo}-t">{rot}</text>')
+        out.append(f'<g id="gs-k-{j}" data-x="{C2}"><circle cx="{C2}" cy="{ym}" r="5.5" class="gs-fora"/></g><text id="gs-d-{j}" x="{C2 + 14}" y="{ym + 4.5}" class="gs-dec gs-fora-t">carregando…</text>')
+        lista_js.append({"i": j, "nome": nome, "cor": cor, "y": y, "comprado": bool(est[nome]["comprado"])})
+    out.append(f'<text x="{X0}" y="{H - 8}" class="gs-eixo">▲ compra  ▼ venda  · faixa colorida: comprado  · ● ficar comprado  ○ ficar no CDI. Fonte: Coinbase (BTC-USD; semana fecha no domingo, UTC).</text>')
+    out.append("</svg>")
+    dados = {"fech": G["hist_fech"], "ultimo": G["fech"][-1], "ultima_data": G["datas"][-1],
+             "limites": G["consenso_limites"], "votantes": G["votantes"], "estrategias": lista_js}
+    return f'''    <h3 class="conceito-tit" id="grafico-semana">O gráfico da semana: a decisão de cada estratégia</h3>
+    <p>Velas semanais do último ano e meio, em dólares, com a semana em curso desenhada ao vivo. Embaixo, uma faixa por estratégia: o trecho colorido é quando ela esteve comprada, ▲ marca a semana em que mandou comprar e ▼ a semana em que mandou vender. À direita, a decisão tomada no último domingo e a que sairia se a semana fechasse agora, recalculada a cada minuto com o preço da Coinbase. Só a decisão de domingo vale: a prévia muda até o fechamento.</p>
+    <p class="nota-min gs-viva-t" id="gs-hora">Carregando o preço ao vivo…</p>
+    <div class="tab-rolagem graf-semana-box" id="gs-box">
+{"".join(out)}
+    </div>
+    <script type="application/json" id="gs-dados">{json.dumps(dados, ensure_ascii=False, separators=(",", ":"))}</script>
+    <script>{SINAIS_JS}</script>
+'''
+
+
+
+def consenso_btc_html(D):
+    C = D.get("consenso")
+    if not C:
+        return ""
+    votos = "".join(f'<li class="{"sim" if v else "nao"}"><i class="cor" style="background:{cor_btc(n)}"></i>{e(n)}: <b>{"comprado" if v else "fora"}</b></li>' for n, v in C["votos_por_sinal"].items())
+    return f"""    <h3 class="conceito-tit">O placar dos sete sinais: {C['votos_agora']} de 7 comprados no domingo</h3>
+    <p>As quatro estratégias de consenso não inventam nada: só ouvem os sete sinais dos autores e mudam de posição quando o placar chega ao mínimo de cada uma. <b>7 x 0</b> exige unanimidade; <b>6 x 1</b> aceita um voto contra; <b>5 x 2</b>, dois; <b>4 x 3</b> segue a maioria simples. Enquanto o placar não chega lá, a estratégia espera na posição em que está.</p>
+    <ul class="placar">{votos}</ul>
+"""
+
+
+def anuais_btc_html(D):
+    A = D.get("anuais")
+    if not A:
+        return ""
+    P, cdi, btc = A["por_estrategia"], A["por_estrategia"].get("Só CDI"), A["por_estrategia"].get("Comprar e segurar")
+    nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
+    def pct(x):
+        return f"{x * 100:+.0f}%".replace("-", "−")
+    ult = A["ultimo"]
+    cab = "".join(f'<th class="num">{a}{"*" if a == int(ult[:4]) else ""}</th>' for a in A["anos"])
+    linhas = []
+    for n in nomes:
+        cel = []
+        for i, x in enumerate(P[n]):
+            cls = [] if n in BENCH_BTC else ["acima" if x > cdi[i] else "abaixo"]
+            if n not in BENCH_BTC and x > btc[i]:
+                cls.append("bate-btc")
+            cel.append(f'<td class="num {" ".join(cls)}">{pct(x)}</td>')
+        x5 = A["cinco_anos_aa"][n]
+        c5 = "" if n in BENCH_BTC else ("acima" if x5 > A["cinco_anos_aa"]["Só CDI"] else "abaixo")
+        tr = ' class="regua"' if n in BENCH_BTC else ""
+        linhas.append(f'<tr{tr}><td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>{"".join(cel)}<td class="num {c5} cinco">{pct(x5).replace("%", "% a.a.")}</td></tr>')
+    i5 = A["inicio_5a"]
+    return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em reais</h3>
+    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin. A ordem muda muito de um período para outro: quem foi melhor em 5 anos pode ter sido o pior em 10.</p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos">
+      <thead><tr><th>Estratégia</th>{cab}<th class="num">5 anos</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table></div>
+    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior. 5 anos = de {data_br(i5)} a {data_br(ult)}, ao ano. Mesmas regras do teste: 1 BTC em jul/2016, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora.</p>
+"""
+
+
+def curvas_btc_svg(D):
+    datas = D["curvas"]["datas"]
+    nomes = [x["nome"] for x in D["estrategias"]]
+    w, h, pl, pr, pt, pb = 760, 340, 64, 12, 10, 26
+    vals = [v for n in nomes for v in D["curvas"][n] if v > 0]
+    lo = math.floor(math.log10(max(min(vals), 1e-3)) * 2) / 2
+    hi = max(math.ceil(math.log10(max(vals)) * 2) / 2, 0.5)
+    n = len(datas) - 1
+    X = lambda i: pl + i * (w - pl - pr) / n
+    Y = lambda v: pt + (hi - math.log10(max(v, 1e-3))) * (h - pt - pb) / (hi - lo)
+    grade = []
+    for k in range(int(math.ceil(lo)), int(math.floor(hi)) + 1):
+        v = 10 ** k
+        grade.append(f'<line x1="{pl}" x2="{w - pr}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" class="{"g1" if k == 0 else "g"}"/>'
+                     f'<text x="{pl - 6}" y="{Y(v) + 4:.1f}" text-anchor="end">{str(v).replace(".", ",")} BTC</text>')
+    anos = []
+    for i, d in enumerate(datas):
+        if i and d[:4] != datas[i - 1][:4] and int(d[:4]) % 2 == 0:
+            anos.append(f'<text x="{X(i):.1f}" y="{h - 6}" text-anchor="middle">{d[:4]}</text>')
+    linhas = []
+    for nome in sorted(nomes, key=lambda x: x == "Comprar e segurar"):
+        pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(D["curvas"][nome]))
+        largura = 2.4 if nome == "Comprar e segurar" or nome.startswith("Consenso") else 1.5
+        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{cor_btc(nome)}" stroke-width="{largura}"><title>{e(rot_btc(nome))}</title></polyline>')
+    leg = "".join(f'<span><i style="background:{cor_btc(x)}"></i>{e(rot_btc(x))}</span>' for x in nomes)
+    return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia teria, semana a semana, em escala logarítmica">'
+            + "".join(grade) + "".join(anos) + "".join(linhas) + f'</svg>\n    <div class="legenda-btc">{leg}</div>')
+
+
+def acompanhamento_btc_html():
+    arq = os.path.join(SITE, "bitcoin", "dados.json")
+    if not os.path.exists(arq):
+        return ""
+    D = json.load(open(arq, encoding="utf-8"))
+
+    def pct(x):
+        return f"{x * 100:+.1f}%".replace(".", ",")
+
+    def br(d):
+        return f"{d[8:10]}/{d[5:7]}/{d[:4]}"
+
+    def num(x, k):
+        return f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+    p0 = D["ultimo_fech_brl"]
+    linhas = []
+    for r in sorted(D["estrategias"], key=lambda x: (x["nome"] not in BENCH_BTC, x["nome"] != "Comprar e segurar", -x["btc_final"])):
+        cls = ' class="regua"' if r["nome"] in BENCH_BTC else ' class="consenso"' if r["nome"].startswith("Consenso") else ""
+        pos = "Comprado" if r["comprado"] else "No CDI"
+        if r["nome"] == "Só CDI":
+            prox = "Ficar no CDI"
+        elif r["sinal_para_esta_semana"]:
+            prox = "Ficar comprado" if r["comprado"] else "Comprar"
+        else:
+            prox = "Vender" if r["comprado"] else "Ficar no CDI"
+        v0 = r["valor_inicio_acomp_brl"] or 0
+        v = r["btc"] * p0 + r["caixa_brl"]
+        ret = pct(v / v0 - 1) if v0 else "–"
+        linhas.append(
+            f'        <tr{cls} data-btc="{r["btc"]:.8f}" data-caixa="{r["caixa_brl"]:.2f}" data-v0="{v0:.2f}">\n'
+            f'          <td><i class="cor" style="background:{cor_btc(r["nome"])}"></i>{e(rot_btc(r["nome"]))}</td>\n'
+            f'          <td>{pos}<small>desde {br(r["desde"])}</small></td>\n'
+            f'          <td class="num vivo-btc">{num(v / p0, 3)}</td>\n'
+            f'          <td class="num vivo-ret">{ret}</td>\n'
+            f'          <td>{prox}</td>\n'
+            f'          <td class="num">{num(r["btc_final"], 2)}</td>\n'
+            f'          <td class="num">{pct(r["pior_queda"])}</td>\n'
+            f'        </tr>')
+    ini, fim, ia = br(D["inicio"]), br(D["fim"]), br(D["inicio_acompanhamento"])
+    tv = ('{"container_id":"tv-btc","symbol":"COINBASE:BTCUSD","interval":"W","timezone":"America/Sao_Paulo","theme":"light",'
+          '"style":"1","locale":"br","autosize":true,"hide_side_toolbar":true,"allow_symbol_change":false,'
+          '"studies":["MASimple@tv-basicstudies","MACD@tv-basicstudies"]}')
+    js = ("(function(){var ptax=" + f"{D['ptax']:.4f}" + ";"
+          "function f(p){document.getElementById('btc-agora').textContent='R$ '+Math.round(p).toLocaleString('pt-BR');"
+          "document.getElementById('btc-hora').textContent='(agora, '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})+')';"
+          "document.querySelectorAll('.tab-btc tbody tr').forEach(function(tr){var b=+tr.dataset.btc,c=+tr.dataset.caixa,v0=+tr.dataset.v0,v=b*p+c;"
+          "tr.querySelector('.vivo-btc').textContent=(v/p).toFixed(3).replace('.',',');"
+          "if(v0){var r=(v/v0-1)*100,td=tr.querySelector('.vivo-ret');td.textContent=(r>=0?'+':'')+r.toFixed(1).replace('.',',')+'%';td.className='num vivo-ret '+(r>=0?'sobe':'desce')}})}"
+          "function busca(){fetch('https://api.coinbase.com/v2/prices/BTC-BRL/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount)})"
+          ".catch(function(){fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount*ptax)}).catch(function(){})})}"
+          "busca();setInterval(busca,60000)})();")
+    return f"""  <section class="para-quem" id="ao-vivo">
+    <h2>Acompanhamento ao vivo</h2>
+    <p>Bitcoin agora: <b id="btc-agora">R$ {num(p0, 0)}</b> <small class="nota-min" id="btc-hora">(fechamento de {fim})</small></p>
+    <div class="tv-box">
+      <div class="tradingview-widget-container"><div id="tv-btc"></div></div>
+      <script src="https://s3.tradingview.com/tv.js"></script>
+      <script>if(window.TradingView)new TradingView.widget({tv});</script>
+    </div>
+{grafico_semana_btc_svg(D)}
+{consenso_btc_html(D)}
+    <div class="tab-rolagem">
+    <table class="tab-btc">
+      <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table>
+    </div>
+    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada sinal manda fazer no próximo fechamento semanal. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
+    <h3 class="conceito-tit">Quanto bitcoin cada estratégia teria, semana a semana</h3>
+    {curvas_btc_svg(D)}
+    <p class="nota-min">Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem só comprou e segurou.</p>
+{anuais_btc_html(D)}
+    <script>{js}</script>
+  </section>
+"""
+
+
+def pagina_bitcoin():
+    rel = "../"
+    arq = [("1889-um-dolar-honesto", "1889", "Um dólar honesto: a moeda que compra sempre o mesmo"),
+           ("1892-a-questao-da-prata", "1892", "Taussig e a prata que voltava ao Tesouro"),
+           ("1896-lexis-situacao-monetaria", "1895", "Lexis: por que o bimetalismo seria um salto no escuro"),
+           ("1896-valorizacao-e-juros", "1896", "Fisher: o juro que antecipa o valor da moeda"),
+           ("1899-kinder-padrao-monetario-e-distribuicao", "1899", "Kinder: quem ganhou e quem perdeu com a queda dos preços")]
+    lis = "\n".join(f'      <li><a href="{rel}arquivo/{sl}/"><b>{a}</b> · {e(t)}</a></li>' for sl, a, t in arq)
+    estrategias = [
+        ("Comprar e segurar (a régua)", "Compra no início e nenhuma venda. Todo sinal técnico precisa bater esta régua para valer o trabalho."),
+        ("Média móvel de 40 semanas", "Comprado com o fechamento semanal acima da média, fora abaixo dela. É a versão semanal da famosa média de 200 dias."),
+        ("Cruzamento das médias de 10 e 40 semanas", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo. O equivalente semanal do cruzamento de 50 e 200 dias."),
+        ("IFR semanal", "Compra quando o índice de força relativa do gráfico semanal indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
+        ("Rompimento de 20 semanas", "Entra quando o fechamento semanal rompe a máxima das últimas 20 semanas e sai quando perde a mínima de 10. Testa se tendência forte continua forte."),
+        ("Topos e fundos ascendentes (Dow)", "Comprado enquanto cada topo semanal supera o anterior; sai quando um fundo fica abaixo do fundo anterior. É a regra de Dow para a tendência primária, aplicada ao gráfico semanal."),
+        ("Faixas de percentis de 52 semanas", "Compra quando o fechamento semanal volta para cima do percentil 20 do último ano e reduz quando perde força acima do percentil 80. Testa os limites de força compradora e vendedora."),
+        ("MACD semanal", "Segue o cruzamento do MACD semanal com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
+    ]
+    est = "\n".join(f"""    <li>
+      <span class="passo-num">{k}</span>
+      <h2>{e(n)}</h2>
+      <p>{e(t)}</p>
+    </li>""" for k, (n, t) in enumerate(estrategias, 1))
+    corpo = f"""
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · piloto · Renato W. Gomes, economista</p>
+    <h1>Análise técnica no bitcoin, uma vez por semana: o que funciona quando a gente testa?</h1>
+    <p class="heroi-olho">Uma plataforma aberta: médias móveis, IFR, rompimentos e MACD, no gráfico semanal. Cada sinal é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, semana a semana, com o retorno, o risco e a pior queda à vista.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
+  </section>
+
+  <section class="para-quem" id="estrategias">
+    <h2>Os sinais em teste</h2>
+    <p>Todos partem da mesma posição de referência: <b>1 bitcoin</b>. Quando o sinal manda sair, o valor vai para o CDI; quando manda voltar, recompra o que der. No fim, a pergunta é simples: o sinal terminou com mais ou menos de 1 bitcoin?</p>
+    <p><b>Acompanhamento semanal.</b> Os sinais olham só o gráfico semanal e são conferidos uma vez por semana, no fechamento de domingo para segunda. Nada de operar no meio da semana: menos ruído, menos taxa e uma rotina que qualquer pessoa consegue seguir.</p>
+  </section>
+  <ol class="passos">
+{est}
+  </ol>
+
+{acompanhamento_btc_html()}
+{diario_btc_html()}
+  <section class="para-quem">
+    <h2>Como eu meço</h2>
+    <ul class="lista-min">
+      <li><b>Em bitcoin, em reais e em dólares.</b> Em bitcoin, a régua é a posição inicial de 1 BTC: quem termina com menos perdeu para quem só segurou. Em reais, o câmbio muda o resultado para quem mora no Brasil.</li>
+      <li><b>Retorno, volatilidade e pior queda.</b> Ganhar muito não basta se a queda no caminho faz o investidor desistir.</li>
+      <li><b>Contra o CDI.</b> Toda estratégia precisa bater a renda fixa para se justificar.</li>
+      <li><b>Custos incluídos.</b> Cada compra e venda paga taxa de corretora; sinal que opera demais pode perder para quem não faz nada.</li>
+      <li><b>Teste no passado, acompanhamento no presente.</b> O histórico mostra o que teria acontecido; o acompanhamento mostra o que está acontecendo, sem ajustar a regra depois do fato.</li>
+      <li><b>Fonte dos preços sempre indicada</b>, e os números de cada teste disponíveis para quem quiser conferir.</li>
+    </ul>
+    <p class="nota-min">Piloto: primeiros resultados em preparação. Regras e parâmetros podem mudar até o fim do piloto, e cada mudança fica registrada.</p>
+  </section>
+
+{conceitos_btc_html()}
+{autores_btc_html(rel)}
+  <section class="para-quem" id="fontes">
+    <h2>As fontes</h2>
+    <p>Em 31 de outubro de 2008, Satoshi Nakamoto publicou <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener"><i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></a> (“Bitcoin: um sistema de dinheiro eletrônico ponto a ponto”). E a pergunta de fundo, o que acontece quando a quantidade de moeda não pode crescer à vontade, foi debatida com dados no fim do século XIX. No Arquivo:</p>
+    <ul class="lista-min">
+{lis}
+    </ul>
+  </section>
+
+  <p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>
+
+  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual sinal ou indicador você gostaria de ver testado?", "bitcoin/", "Receba os resultados")}
+</main>
+"""
+    escreve("bitcoin", cabeca("Bitcoin: análise técnica testada — Renato W. Gomes, economista", "Piloto: sinais de análise técnica no bitcoin (médias móveis, IFR, rompimentos, MACD) testados no histórico e acompanhados ao vivo, contra comprar e segurar e contra o CDI.", "bitcoin/", rel)
+            + topo("bitcoin/", rel) + corpo + rodape(rel))
+
+
+def pagina_historia():
+    rel = "../"
+    livros = "\n".join(f"""    <article class="cartao colecao">
+      <a href="{rel}leituras/{L['slug']}/">
+        <span class="chapeu">{e(L['autor'])} · {L['ano']}</span>
+        <h3 class="tit tit-g">{e(L['titulo'])}</h3>
+        <p class="olho">{e(L['chamada'])}</p>
+        <span class="selo">{len(L.get('resenhas', []))} de {len(L['capitulos'])} capítulos resenhados</span>
+      </a>
+    </article>""" for L in LIVROS)
+    docs = ""
+    if DOCS_PUB:
+        docs = ('  <div class="faixa">\n    <h2>Documentos de época</h2>\n    <span class="sub">Obras antigas resenhadas como documento histórico</span>\n  </div>\n'
+                '  <section class="grade-3">\n' + "\n".join(cartao_documento(d, rel) for d in DOCS_PUB) + '\n  </section>\n')
+    corpo = f"""
+<main class="env">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">História · Renato W. Gomes, economista</p>
+    <h1>A história econômica, lida livro a livro.</h1>
+    <p class="heroi-olho">Obras longas de história e de pensamento econômico, resenhadas na ordem, um capítulo por página: o argumento do autor em português, os fatos citados e a pergunta de hoje.</p>
+  </section>
+  <section class="grade-3">
+{livros}
+  </section>
+{docs}
+  <div style="height:64px"></div>
+</main>
+"""
+    escreve("historia", cabeca("História — livros de história econômica comentados · Renato W. Gomes", "Obras de história e pensamento econômico resenhadas capítulo a capítulo, em português, com a página citada.", "historia/", rel)
+            + topo("historia/", rel) + corpo + rodape(rel))
+
+
+def pagina_economia():
+    rel = "../"
+    cards = "\n".join(cartao_colecao(c, "../arquivo/") for c in COLECOES)
+    recentes = "\n".join(cartao_edicao(ed, rel) for ed in edicoes_de("eua")[-3:][::-1])
+    corpo = f"""
+<main class="env">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Economia · Renato W. Gomes, economista</p>
+    <h1>Os periódicos que criaram a economia moderna, comentados em português.</h1>
+    <p class="heroi-olho">Monopólios, ferrovias, moeda, impostos e o papel do Estado, discutidos por quem viveu a primeira grande era dos trustes. Edição por edição, com o documento original a um clique.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="../arquivo/eua/">Começar pela primeira edição</a> <a class="botao" href="../ensaios/">Ler os ensaios</a></p>
+  </section>
+  <div class="faixa"><h2>Mais recentes</h2><a class="mais" href="../arquivo/">Arquivo completo &rarr;</a></div>
+  <section class="grade-3">
+{recentes}
+  </section>
+  <div class="faixa"><h2>Coleções</h2><span class="sub">Estados Unidos, China e Europa</span></div>
+  <section class="grade-3">
+{cards}
+  </section>
+  <p class="olho" style="margin:8px 0 64px;font-size:15px">Também: <a href="../notas/">Notas · Então × Agora</a>, um dado histórico ao lado de um dado atual. Documentos em domínio público, via JSTOR Early Journal Content e Internet Archive; sem afiliação com as instituições que publicaram os originais.</p>
+</main>
+"""
+    escreve("economia", cabeca("Economia — os periódicos clássicos comentados · Renato W. Gomes", "Os periódicos que criaram a economia moderna, de 1886 em diante, lidos no original e comentados em português.", "economia/", rel)
+            + topo("economia/", rel) + corpo + rodape(rel))
+
+
+NUMEROS_MS = ["comercio-servicos-e-industrias", "funcionalismo", "arrecadacao-tributaria", "educacao", "moradia", "mobilidade-e-transporte"]
+
+
+def pagina_ms():
+    """Mato Grosso do Sul: página de entrada própria. Reúne Campo Grande (livro, situação, notícias) e as contas públicas."""
+    rel = "../"
+    caps = {c["slug"]: c for c in CG["capitulos"]} if CG else {}
+    linhas = []
+    for sl in NUMEROS_MS:
+        c = caps.get(sl)
+        if not c or not c.get("indicador"):
+            continue
+        i = c["indicador"]
+        linhas.append(f"""    <li>
+      <p class="ms-valor">{e(i['valor'].rstrip(','))}</p>
+      <p class="ms-texto">{e(i['texto'])} <a href="../campo-grande/livro/{sl}/">{e(c['titulo'])}</a></p>
+      <p class="ms-fonte">Fonte: {e(i['fonte'])}</p>
+    </li>""")
+    numeros = "\n".join(linhas)
+    corpo = f"""
+<main class="env pagina-min">
+  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Mato Grosso do Sul · Renato W. Gomes, economista</p>
+    <h1>Mato Grosso do Sul, com o documento na mesa.</h1>
+    <p class="heroi-olho">O estado e a capital lidos nas fontes oficiais: orçamento, folha, arrecadação, serviços e obras. Cada número vem com o documento de onde saiu, e quando o dado não existe, o texto diz que não existe.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="../campo-grande/situacao-atual/">Campo Grande hoje</a> <a class="botao" href="#numeros">Os números</a></p>
+  </section>
+
+  <div class="faixa" id="numeros"><h2>Campo Grande em seis números</h2><a class="mais" href="../campo-grande/situacao-atual/">Todos os temas &rarr;</a></div>
+  <ul class="ms-numeros">
+{numeros}
+  </ul>
+
+  <div class="faixa"><h2>Nesta seção</h2></div>
+  <ol class="passos">
+    <li>
+      <span class="passo-num">1</span>
+      <h2><a href="../campo-grande/situacao-atual/">Campo Grande, tema a tema</a></h2>
+      <p>Como a capital está hoje em economia, contas da prefeitura, saúde, educação, moradia, transporte e segurança, com o número mais recente conferido e a fonte.</p>
+    </li>
+    <li>
+      <span class="passo-num">2</span>
+      <h2><a href="../campo-grande/livro/">{e(CG['titulo']) if CG else 'Campo Grande em 2036'}</a></h2>
+      <p>Um livro em construção: o diagnóstico de cada tema e o que fazer até 2036, com o quadro das sete regiões urbanas.</p>
+    </li>
+    <li>
+      <span class="passo-num">3</span>
+      <h2><a href="../campo-grande/noticias/">Notícias que importam</a></h2>
+      <p>Os fatos que mexem com a vida da cidade e do estado, cada um com a fonte original e um comentário curto.</p>
+    </li>
+    <li>
+      <span class="passo-num">4</span>
+      <h2>Contas do Estado</h2>
+      <p>Em preparação: orçamento, arrecadação de ICMS, renúncia fiscal, dívida e investimento do governo de Mato Grosso do Sul, pela LOA, pelo SICONFI e pela SEFAZ-MS.</p>
+    </li>
+  </ol>
+
+  <p class="olho" style="margin:8px 0 64px;font-size:15px">Análise trata da decisão administrativa, nunca da pessoa. Correções são publicadas no próprio texto, com data.</p>
+</main>
+"""
+    escreve("ms", cabeca("Mato Grosso do Sul, com documento na mesa · Renato W. Gomes", "Mato Grosso do Sul e Campo Grande lidos nas fontes oficiais: orçamento, folha, arrecadação e serviços, cada número com o documento de origem.", "ms/", rel)
+            + topo("ms/", rel) + corpo + rodape(rel))
 
 
 def pagina_sobre():
@@ -1122,12 +1711,13 @@ def pagina_obrigado():
   <div class="artigo-topo" style="max-width:820px;margin:60px auto">
     <span class="chapeu">Obrigado</span>
     <h1>Recebido.</h1>
-    <p class="olho">Sua mensagem chegou. Se foi a assinatura da carta, a próxima edição vai direto para o seu e-mail; se foi um contato, eu respondo em breve.</p>
-    <p><a class="botao botao-cheio" href="../">Voltar ao início</a> <a class="botao" href="../arquivo/">Ler o arquivo</a></p>
+    <p class="olho">Sua mensagem chegou. Eu respondo por e-mail em até dois dias úteis.</p>
+    <p><a class="botao botao-cheio" id="voltar" href="../">Voltar</a></p>
+    <script>var d=new URLSearchParams(location.search).get('de');if(/^[a-z]+[/]$/.test(d||''))document.getElementById('voltar').href='../'+d;</script>
   </div>
 </main>
 """
-    escreve("obrigado", cabeca("Obrigado — Economista Renato Gomes", "Mensagem recebida.", "obrigado/", rel) + topo("", rel, completo=False) + corpo + rodape(rel))
+    escreve("obrigado", cabeca("Obrigado — Economista Renato Gomes", "Mensagem recebida.", "obrigado/", rel) + topo("", rel) + corpo + rodape(rel))
 
 
 # ------------------------------------------------------------------ Leituras · Livros comentados
@@ -1698,7 +2288,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "arquivo/", "analises/", "servicos/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "tech/", "bitcoin/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -1715,7 +2305,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_servicos(); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_bitcoin(); pagina_historia(); pagina_economia(); pagina_ms(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)

@@ -22,6 +22,17 @@ verificável, sempre visível para o leitor.
 
 ---
 
+**Capa + uma página por interesse (24/11/2026, em revisão):** a raiz é uma capa enigmática (marca, uma frase e
+três portas), não divulgada. O marketing vai direto para cada página de entrada, que precisa funcionar sozinha:
+`/tech/` (agentes de IA para PMEs, com o contato), `/historia/` (livros comentados: Leituras) e `/economia/`
+(periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
+para `/tech/`. `/bitcoin/` é o piloto público de análise técnica: diário de retornos em
+`scripts/bitcoin/diario.csv` (data, retorno_pct, nota; só percentuais, nunca valores em reais) e autores em
+`AUTORES_BTC`. `/ms/` (24/11/2026) é a página de entrada de Mato Grosso do Sul: seis números de Campo Grande (de `indicador` em `scripts/campo-grande/livro.json`, lista `NUMEROS_MS`) e links para situação atual, livro e notícias de `/campo-grande/`; contas do Estado em preparação. Análises segue sem link. Newsletter desligada (`assine()` devolve vazio).
+Contato: FormSubmit (`FORM_CONTATO`/`EMAIL_CONTATO` em `gera_site.py`), volta para `/obrigado/`.
+
+---
+
 ## 2. Stack
 
 - **Site estático** — HTML/CSS/JS puro, sem framework e sem build step.
@@ -168,8 +179,8 @@ e download.
   Os links para CSS e JS carregam `?v=AAAAMMDD`: **ao mexer neles, atualize a versão**
   (em `scripts/gera_site.py`, constante `CSS_V`) para quem já visitou receber
   o arquivo novo na hora.
-- Formulários (newsletter e contato) usavam **Netlify Forms**, que NÃO funcionam no GitHub Pages:
-  precisam de substituto (ex.: Formspree) — pendente.
+- Formulários: **Netlify Forms** NÃO funcionam no GitHub Pages. O contato (/tech) usa **FormSubmit** (24/11/2026).
+  A newsletter está desligada.
 
 ---
 
