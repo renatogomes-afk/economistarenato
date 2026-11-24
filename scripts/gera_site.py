@@ -1330,34 +1330,46 @@ def anuais_btc_html(D):
     P, cdi, btc = A["por_estrategia"], A["por_estrategia"].get("Só CDI"), A["por_estrategia"].get("Comprar e segurar")
     nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
     def pct(x):
-        return f"{x * 100:+.0f}%".replace("-", "−")
+        return f"{x * 100:+,.0f}%".replace(",", ".").replace("-", "−")
+    def pct1(x):
+        return f"{x * 100:+,.1f}%".replace(",", "X").replace(".", ",").replace("X", ".").replace("-", "−")
+    def cls_cdi(n, x, ref):
+        return "" if n in BENCH_BTC else ("acima" if x > ref else "abaixo")
     ult = A["ultimo"]
     cab = "".join(f'<th class="num">{a}{"*" if a == int(ult[:4]) else ""}</th>' for a in A["anos"])
-    linhas = []
+    linhas, janelas = [], []
     for n in nomes:
         cel = []
         for i, x in enumerate(P[n]):
-            cls = [] if n in BENCH_BTC else ["acima" if x > cdi[i] else "abaixo"]
+            cls = [cls_cdi(n, x, cdi[i])]
             if n not in BENCH_BTC and x > btc[i]:
                 cls.append("bate-btc")
-            cel.append(f'<td class="num {" ".join(cls)}">{pct(x)}</td>')
-        x5 = A["cinco_anos_aa"][n]
-        c5 = "" if n in BENCH_BTC else ("acima" if x5 > A["cinco_anos_aa"]["Só CDI"] else "abaixo")
+            cel.append(f'<td class="num {" ".join(c for c in cls if c)}">{pct(x)}</td>')
         tr = ' class="regua"' if n in BENCH_BTC else ""
-        xt = A.get("total_aa", {}).get(n)
-        ct = "" if n in BENCH_BTC or xt is None else ("acima" if xt > A["total_aa"]["Só CDI"] else "abaixo")
-        tot = f'<td class="num {ct} cinco">{pct(xt).replace("%", "% a.a.")}<small>{pct(A["total_acum"][n])} no total</small></td>' if xt is not None else ""
-        linhas.append(f'<tr{tr}><td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>{"".join(cel)}<td class="num {c5} cinco">{pct(x5).replace("%", "% a.a.")}</td>{tot}</tr>')
-    i5 = A["inicio_5a"]
+        nome = f'<td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>'
+        linhas.append(f'<tr{tr}>{nome}{"".join(cel)}</tr>')
+        x5, xt, xa = A["cinco_anos_aa"][n], A["total_aa"][n], A["total_acum"][n]
+        janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"]["Só CDI"])}">{pct1(x5)}</td>'
+                       f'<td class="num {cls_cdi(n, xt, A["total_aa"]["Só CDI"])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
+    i5, it = A["inicio_5a"], A["inicio_total"]
     return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em reais</h3>
-    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin. A ordem muda muito de um período para outro: quem foi melhor em 5 anos pode ter sido o pior em 10.</p>
+    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos">
-      <thead><tr><th>Estratégia</th>{cab}<th class="num">5 anos</th>{'<th class="num">Desde o início</th>' if A.get("total_aa") else ""}</tr></thead>
+      <thead><tr><th>Estratégia</th>{cab}</tr></thead>
       <tbody>
 {chr(10).join(linhas)}
       </tbody>
     </table></div>
-    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior. 5 anos = de {data_br(i5)} a {data_br(ult)}, ao ano.{f" Desde o início = de {data_br(A['inicio_total'])} (primeira semana do teste) a {data_br(ult)}, ao ano e no total." if A.get("inicio_total") else ""} Mesmas regras do teste: 1 BTC em jul/2016, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora.</p>
+    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior.</p>
+    <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início</h3>
+    <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário.</p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
+      <thead><tr><th>Estratégia</th><th class="num">5 anos, ao ano</th><th class="num">Desde o início, ao ano</th><th class="num">Desde o início, no total</th></tr></thead>
+      <tbody>
+{chr(10).join(janelas)}
+      </tbody>
+    </table></div>
+    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
 """
 
 
