@@ -1,0 +1,199 @@
+{
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-24 12:57 UTC",
+ "inicio_acompanhamento": "2026-11-22",
+ "btc_usd": {
+  "fech": 61163.01,
+  "anterior": 65315.35,
+  "alta": 65626.98,
+  "baixa": 55106.0
+ },
+ "ptax": 5.8889,
+ "votos": 3,
+ "votos_antes": 3,
+ "votos_por_sinal": {
+  "Média de 40 semanas": false,
+  "Cruzamento 10 x 40 semanas": true,
+  "IFR semanal (30/70)": true,
+  "Rompimento 20 semanas": false,
+  "MACD semanal": false,
+  "Topos e fundos (Dow)": false,
+  "Faixas de percentis 52 semanas": true
+ },
+ "votos_por_sinal_antes": {
+  "Média de 40 semanas": false,
+  "Cruzamento 10 x 40 semanas": true,
+  "IFR semanal (30/70)": true,
+  "Rompimento 20 semanas": false,
+  "MACD semanal": false,
+  "Topos e fundos (Dow)": false,
+  "Faixas de percentis 52 semanas": true
+ },
+ "estrategias": [
+  {
+   "nome": "Comprar e segurar",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 1.0
+  },
+  {
+   "nome": "Média de 40 semanas",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": {
+    "tipo": "compra",
+    "nivel_usd": 71926.89
+   },
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.43925
+  },
+  {
+   "nome": "Cruzamento 10 x 40 semanas",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.69106
+  },
+  {
+   "nome": "IFR semanal (30/70)",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.0343
+  },
+  {
+   "nome": "Rompimento 20 semanas",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   },
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 1.22445
+  },
+  {
+   "nome": "MACD semanal",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 1.52478
+  },
+  {
+   "nome": "Topos e fundos (Dow)",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   },
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 1.89641
+  },
+  {
+   "nome": "Faixas de percentis 52 semanas",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.0159
+  },
+  {
+   "nome": "Consenso 7 x 0",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.02914
+  },
+  {
+   "nome": "Consenso 6 x 1",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.15071
+  },
+  {
+   "nome": "Consenso 5 x 2",
+   "antes": true,
+   "agora": true,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": -0.02429,
+   "semana_usd": -0.06357,
+   "desde_lancamento_brl": 0.0,
+   "btc": 1.88895
+  },
+  {
+   "nome": "Consenso 4 x 3",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 2.09317
+  },
+  {
+   "nome": "Só CDI",
+   "antes": false,
+   "agora": false,
+   "operou": false,
+   "preco_usd": null,
+   "ordem_book": null,
+   "semana_brl": 0.00254,
+   "semana_usd": -0.03782,
+   "desde_lancamento_brl": 0.0,
+   "btc": 0.01593
+  }
+ ]
+}
