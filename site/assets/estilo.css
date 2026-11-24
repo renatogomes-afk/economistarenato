@@ -651,3 +651,12 @@ figcaption .credito::before{content:"· "}
 .ano-cab h3{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:1.8rem;margin:0}
 .ano-cab .sub{font-family:var(--sans);font-size:12px;color:#555}
 @media (max-width:700px){.anos-decada{gap:2px 10px}.anos-rotulo{min-width:100%}.ano-cab{flex-direction:column;gap:2px}}
+
+/* Assinatura oficial (24/11/2026): o vetor do Manual de Marca, com o nome em curvas.
+   Antes o nome era digitado em Reckless ("Economista / Renato Gomes"), fora do manual. */
+.marca-svg{display:block;width:auto;height:var(--marca-h,64px);color:var(--tinta)}
+.marca-lockup{padding:12px 0}
+.cabecalho .marca-lockup{--marca-h:92px}
+.marca-lockup.compacta{--marca-h:42px;padding:6px 0}
+.rodape-marca .marca-lockup{--marca-h:48px;padding:0 0 12px}
+@media(max-width:720px){.cabecalho .marca-lockup{--marca-h:66px}.marca-lockup.compacta{--marca-h:36px}}
