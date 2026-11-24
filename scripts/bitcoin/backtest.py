@@ -345,6 +345,45 @@ def grafico_semanal(px, sin):
             "consenso_limites": CONSENSOS, "votantes": VOTANTES}
 
 
+BOLETINS = os.path.join(AQUI, "boletins")
+
+
+def grava_boletim(px, brl, sin, book, datas, valores, votos, k0):
+    """Boletim semanal: registro do que cada estratégia fez na semana que fechou no domingo. É gravado uma vez por
+    semana e nunca reescrito, para o arquivo ficar como foi publicado (mesmo que regras ou dados mudem depois)."""
+    if k0 is None:
+        return
+    os.makedirs(BOLETINS, exist_ok=True)
+    data = datas[-1].isoformat()
+    arq = os.path.join(BOLETINS, f"{data}.json")
+    if os.path.exists(arq):
+        return
+    n = len(px) - 1
+    usd = lambda v, k: v / brl[INI_SIM + k]
+    k = len(datas) - 1
+    est = []
+    for nome, v in valores.items():
+        s = sin.get(nome)
+        antes, agora = (bool(s[n - 1]), bool(s[n])) if s else (False, False)
+        operou = antes != agora
+        preco = None
+        if operou:
+            preco = round(book[nome][1][n], 2) if nome in book else round(px[n]["fech"], 2)
+        ordem = book[nome][2] if nome in book else None
+        est.append({"nome": nome, "antes": antes, "agora": agora, "operou": operou, "preco_usd": preco,
+                    "ordem_book": {"tipo": ordem[0], "nivel_usd": round(ordem[1], 2)} if ordem and ordem[1] is not None else None,
+                    "semana_brl": round(v[k] / v[k - 1] - 1, 5), "semana_usd": round(usd(v[k], k) / usd(v[k - 1], k - 1) - 1, 5),
+                    "desde_lancamento_brl": round(v[k] / v[k0] - 1, 5) if k0 <= k else None,
+                    "btc": round(v[k] / (px[n]["fech"] * brl[n]), 5)})
+    json.dump({"data": data, "gerado_em": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+               "inicio_acompanhamento": datas[k0].isoformat(),
+               "btc_usd": {"fech": px[n]["fech"], "anterior": px[n - 1]["fech"], "alta": px[n]["alta"], "baixa": px[n]["baixa"]},
+               "ptax": brl[n], "votos": votos[n], "votos_antes": votos[n - 1],
+               "votos_por_sinal": {v: bool(sin[v][n]) for v in VOTANTES},
+               "votos_por_sinal_antes": {v: bool(sin[v][n - 1]) for v in VOTANTES},
+               "estrategias": est}, open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
 def main():
     px, dias = btc_semanal()
     ini_data = px[0]["data"]
@@ -402,6 +441,7 @@ def main():
     # Vai também para o site: a página recalcula os retornos na janela que o leitor escolher.
     for destino in (os.path.join(AQUI, "valores_semanais.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "valores.json")):
         json.dump(semanal, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    grava_boletim(px, brl, sin, book, datas, valores, votos, k0)
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
     print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
     print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")

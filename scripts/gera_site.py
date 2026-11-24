@@ -5,7 +5,7 @@ Saída: site/index.html, site/arquivo/, site/analises/, site/servicos/, site/sob
        site/sitemap.xml
 Cabeçalho, menu e rodapé ficam aqui, num lugar só: mexeu aqui, mudou em todas as páginas.
 """
-import json, re, os, html, math
+import json, re, os, html, math, csv, datetime as dt
 from datetime import date
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124k"
+CSS_V = "20261124l"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1493,7 +1493,7 @@ fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
 
 
 def janela_btc_html():
-    cfg = {"url": "valores.json", "bench": BENCH_BTC,
+    cfg = {"url": "../valores.json", "bench": BENCH_BTC,
            "cores": {n: cor_btc(n) for n in list(CORES_BTC) + list(CORES_CONSENSO)}}
     return f"""    <div class="jan-box" id="jan-box" hidden>
     <h3 class="conceito-tit" id="sua-janela">Escolha a sua janela</h3>
@@ -1673,7 +1673,7 @@ def curvas_btc_svg(D):
 def acompanhamento_btc_html():
     arq = os.path.join(SITE, "bitcoin", "dados.json")
     if not os.path.exists(arq):
-        return ""
+        return {"painel": "", "estrategias": "", "historico": ""}
     D = json.load(open(arq, encoding="utf-8"))
 
     def pct(x):
@@ -1725,7 +1725,9 @@ def acompanhamento_btc_html():
           "function busca(){fetch('https://api.coinbase.com/v2/prices/BTC-BRL/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount)})"
           ".catch(function(){fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount*ptax)}).catch(function(){})})}"
           "busca();setInterval(busca,60000)})();")
-    return f"""  <section class="para-quem" id="ao-vivo">
+    q43 = quatro_tres_btc_html(D)
+    porque, marca, call = q43.partition('    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>')
+    painel = f"""  <section class="para-quem" id="ao-vivo">
     <h2>Acompanhamento ao vivo</h2>
     <p>Bitcoin agora: <b id="btc-agora">R$ {num(p0, 0)}</b> <small class="nota-min" id="btc-hora">(fechamento de {fim})</small></p>
     <div class="tv-box">
@@ -1735,8 +1737,8 @@ def acompanhamento_btc_html():
     </div>
 {grafico_semana_btc_svg(D)}
 {consenso_btc_html(D)}
-{quatro_tres_btc_html(D)}
-{forcas_btc_html(D)}
+{marca}{call}
+    <h3 class="conceito-tit">Cada estratégia agora</h3>
     <div class="tab-rolagem">
     <table class="tab-btc">
       <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>
@@ -1746,13 +1748,139 @@ def acompanhamento_btc_html():
     </table>
     </div>
     <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada estratégia fez na semana que fechou; embaixo dela, a ordem que fica no book para esta semana. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
+    <script>{js}</script>
+  </section>
+"""
+    estrategias = f"""  <section class="para-quem" id="analise">
+{porque}{forcas_btc_html(D)}  </section>
+"""
+    historico = f"""  <section class="para-quem" id="historico">
+    <h2>O teste no histórico</h2>
     <h3 class="conceito-tit">Quanto bitcoin você teria hoje, conforme a semana em que começou</h3>
     {curvas_btc_svg(D)}
     <p class="nota-min">Leitura do presente para o passado: hoje à esquerda; cada ponto à direita é uma data de começo mais antiga, com 1 BTC aplicado na estratégia naquela semana. Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem comprou naquela data e segurou até hoje.</p>
 {anuais_btc_html(D)}
-    <script>{js}</script>
   </section>
 """
+    return {"painel": painel, "estrategias": estrategias, "historico": historico}
+
+
+BTC_PAGINAS = [("", "Painel"), ("estrategias/", "Estratégias"), ("historico/", "Histórico"), ("boletim/", "Boletim semanal")]
+AVISO_BTC = '<p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>'
+
+
+def sub_btc(atual, rel_btc):
+    """Navegação entre as páginas do /bitcoin. rel_btc leva até /bitcoin/."""
+    itens = "".join(f'<a href="{rel_btc}{h}"{' class="ativo"' if h == atual else ''}>{n}</a>' for h, n in BTC_PAGINAS)
+    return f'  <nav class="sub-btc" aria-label="Páginas do bitcoin">{itens}</nav>\n'
+
+
+def boletins_btc():
+    pasta = os.path.join(RAIZ, "scripts", "bitcoin", "boletins")
+    if not os.path.isdir(pasta):
+        return []
+    bs = [json.load(open(os.path.join(pasta, f), encoding="utf-8")) for f in sorted(os.listdir(pasta)) if f.endswith(".json")]
+    notas = {}
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "notas_boletim.csv")
+    if os.path.exists(arq):
+        for l in csv.DictReader(open(arq, encoding="utf-8")):
+            if l.get("data") and l.get("nota"):
+                notas[l["data"].strip()] = l["nota"].strip()
+    for B in bs:
+        B["nota"] = notas.get(B["data"], "")
+    return sorted(bs, key=lambda B: B["data"], reverse=True)
+
+
+def boletim_txt(B):
+    """Resumo de uma linha, para a lista e o feed."""
+    x = B["btc_usd"]["fech"] / B["btc_usd"]["anterior"] - 1
+    ops = [y["nome"] for y in B["estrategias"] if y["operou"]]
+    return (f"Bitcoin {x * 100:+.1f}% na semana em dólar;".replace("-", "−") + f" placar em {B['votos']} de 7 comprados; "
+            + (f"{len(ops)} estratégia{'s' if len(ops) > 1 else ''} operou" + ("aram" if len(ops) > 1 else "") if ops else "nenhuma estratégia operou") + ".").replace(".", ",", 1)
+
+
+def boletim_html(B):
+    num = lambda x, k=0: f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    p1 = lambda x: "–" if x is None else ("0,0%" if abs(x) < 0.0005 else f"{x * 100:+.1f}%".replace(".", ",").replace("-", "−"))
+    u = B["btc_usd"]
+    ini = (dt.date.fromisoformat(B["data"]) - dt.timedelta(days=6)).isoformat()
+    mud = [n for n, v in B["votos_por_sinal"].items() if v != B["votos_por_sinal_antes"].get(n)]
+    mud_txt = "; ".join(f"{e(n)} {'passou a comprado' if B['votos_por_sinal'][n] else 'saiu'}" for n in mud) or "nenhum sinal mudou de lado"
+    ops = [y for y in B["estrategias"] if y["operou"]]
+    ops_txt = "".join(f"<li>{e(rot_btc(y['nome']))}: <b>{'comprou' if y['agora'] else 'vendeu'}</b> a US$ {num(y['preco_usd'])}</li>" for y in ops) or "<li>Nenhuma estratégia operou.</li>"
+    ordens = [y for y in B["estrategias"] if y.get("ordem_book")]
+    ord_txt = "".join(f"<li>{e(y['nome'])}: ordem de {y['ordem_book']['tipo']} a US$ {num(y['ordem_book']['nivel_usd'])}</li>" for y in ordens) or "<li>Nenhuma ordem no book.</li>"
+    linhas = "".join(
+        f'<tr{" class=\"regua\"" if y["nome"] in BENCH_BTC else " class=\"consenso\"" if y["nome"].startswith("Consenso") else ""}>'
+        f'<td><i class="cor" style="background:{cor_btc(y["nome"])}"></i>{e(rot_btc(y["nome"]))}</td>'
+        f'<td>{"Comprado" if y["agora"] else "No CDI"}</td><td class="num">{p1(y["semana_brl"])}</td><td class="num">{p1(y["semana_usd"])}</td>'
+        f'<td class="num">{p1(y["desde_lancamento_brl"])}</td><td class="num">{num(y["btc"], 3)}</td></tr>'
+        for y in sorted(B["estrategias"], key=lambda y: (y["nome"] not in BENCH_BTC, -y["btc"])))
+    nota = f'    <div class="nota-autor"><p><b>Nota do autor.</b> {e(B["nota"])}</p></div>\n' if B.get("nota") else ""
+    return f"""    <p>Semana de {data_br(ini)} a {data_br(B['data'])}. O bitcoin fechou a US$ {num(u['fech'])}, {p1(u['fech'] / u['anterior'] - 1)} sobre o domingo anterior (US$ {num(u['anterior'])}), com mínima de US$ {num(u['baixa'])} e máxima de US$ {num(u['alta'])} na semana.</p>
+{nota}    <p><b>Placar dos sete sinais: {B['votos']} de 7 comprados</b> (na semana anterior, {B['votos_antes']}). {mud_txt[0].upper() + mud_txt[1:]}.</p>
+    <h3 class="conceito-tit">Operações da semana</h3>
+    <ul class="lista-min">{ops_txt}</ul>
+    <h3 class="conceito-tit">Ordens no book para a semana seguinte</h3>
+    <ul class="lista-min">{ord_txt}</ul>
+    <h3 class="conceito-tit">Resultado</h3>
+    <div class="tab-rolagem"><table class="tab-btc">
+      <thead><tr><th>Estratégia</th><th>Posição no domingo</th><th class="num">Semana (R$)</th><th class="num">Semana (US$)</th><th class="num">Desde {data_br(B['inicio_acompanhamento'])}</th><th class="num">BTC no teste</th></tr></thead>
+      <tbody>{linhas}</tbody>
+    </table></div>
+    <p class="nota-min">Registro gravado em {e(B['gerado_em'])} e não alterado depois. “BTC no teste” é quanto bitcoin cada estratégia teria desde 2016, partindo de 1 BTC.</p>
+"""
+
+
+def paginas_boletim_btc():
+    bs = boletins_btc()
+    rel = "../../"
+    lista = "\n".join(f'      <li><a href="{B["data"]}/"><b>{data_br(B["data"])}</b> · {e(boletim_txt(B))}</a></li>' for B in bs) or "      <li>O primeiro boletim sai na segunda-feira depois do primeiro fechamento semanal.</li>"
+    ult = f'  <section class="para-quem">\n    <h2>Último boletim: {data_br(bs[0]["data"])}</h2>\n{boletim_html(bs[0])}  </section>\n' if bs else ""
+    corpo = f"""
+<main class="env pagina-min">
+{sub_btc("boletim/", "../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · piloto · boletim semanal</p>
+    <h1>Boletim semanal</h1>
+    <p class="heroi-olho">Toda segunda-feira, depois do fechamento de domingo, um registro do que cada estratégia fez na semana: o placar dos sete sinais, as operações, as ordens no book e o resultado. Cada boletim é gravado uma vez e não muda depois. <a href="feed.xml">Assine pelo RSS</a>.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Todas as semanas</h2>
+    <ul class="lista-min">
+{lista}
+    </ul>
+  </section>
+{ult}  {AVISO_BTC}
+</main>
+"""
+    escreve("bitcoin/boletim", cabeca("Boletim semanal do bitcoin — Renato W. Gomes, economista", "Toda semana, o que cada estratégia de análise técnica fez no bitcoin: placar dos sinais, operações, ordens e resultado.", "bitcoin/boletim/", rel)
+            + topo("bitcoin/", rel) + corpo + rodape(rel))
+    for k, B in enumerate(bs):
+        rel3 = "../../../"
+        ant = f'<a href="../{bs[k + 1]["data"]}/">← {data_br(bs[k + 1]["data"])}</a>' if k + 1 < len(bs) else ""
+        prox = f'<a href="../{bs[k - 1]["data"]}/">{data_br(bs[k - 1]["data"])} →</a>' if k > 0 else ""
+        corpo = f"""
+<main class="env pagina-min">
+{sub_btc("boletim/", "../../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · boletim semanal</p>
+    <h1>Boletim de {data_br(B['data'])}</h1>
+  </section>
+  <section class="para-quem">
+{boletim_html(B)}    <p class="nav-boletim">{ant} <a href="../">Todos os boletins</a> {prox}</p>
+  </section>
+  {AVISO_BTC}
+</main>
+"""
+        escreve(f"bitcoin/boletim/{B['data']}", cabeca(f"Boletim do bitcoin, {data_br(B['data'])} — Renato W. Gomes, economista", boletim_txt(B), f"bitcoin/boletim/{B['data']}/", rel3, "article")
+                + topo("bitcoin/", rel3) + corpo + rodape(rel3))
+    base = "https://economistarenato.com.br/bitcoin/boletim/"
+    itens = "".join(f"<item><title>Boletim de {data_br(B['data'])}</title><link>{base}{B['data']}/</link><guid>{base}{B['data']}/</guid>"
+                    f"<pubDate>{dt.datetime.fromisoformat(B['data'] + 'T23:59:00').strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate>"
+                    f"<description>{e(boletim_txt(B))}</description></item>" for B in bs[:52])
+    open(os.path.join(SITE, "bitcoin", "boletim", "feed.xml"), "w", encoding="utf-8").write(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Boletim semanal do bitcoin · Renato W. Gomes</title>'
+        f'<link>{base}</link><description>O que cada estratégia de análise técnica fez no bitcoin, semana a semana.</description><language>pt-BR</language>{itens}</channel></rss>\n')
+    return bs
 
 
 def pagina_bitcoin():
@@ -1778,15 +1906,42 @@ def pagina_bitcoin():
       <h2>{e(n)}</h2>
       <p>{e(t)}</p>
     </li>""" for k, (n, t) in enumerate(estrategias, 1))
+    P = acompanhamento_btc_html()
+    bs = paginas_boletim_btc()
+    ult = (f'  <section class="para-quem">\n    <h2>Último boletim: {data_br(bs[0]["data"])}</h2>\n    <p>{e(boletim_txt(bs[0]))} <a href="boletim/{bs[0]["data"]}/">Ler o boletim</a> · <a href="boletim/">todas as semanas</a></p>\n  </section>\n') if bs else ""
+    portas = """  <section class="para-quem">
+    <h2>No resto do piloto</h2>
+    <ul class="lista-min">
+      <li><a href="estrategias/"><b>Estratégias</b></a>: as regras, os autores, por que o consenso 4 x 3 tem vencido e os pontos fortes e fracos de cada uma.</li>
+      <li><a href="historico/"><b>Histórico</b></a>: o teste desde 2016, ano a ano em reais e em dólares, a janela que você escolher e a otimização corrigida pelo risco.</li>
+      <li><a href="boletim/"><b>Boletim semanal</b></a>: o registro de cada semana, gravado na segunda-feira e não alterado depois.</li>
+    </ul>
+  </section>
+"""
     corpo = f"""
 <main class="env pagina-min">
-  <section class="heroi heroi-interno">
+{sub_btc("", "")}  <section class="heroi heroi-interno">
     <p class="heroi-quem">Bitcoin · piloto · Renato W. Gomes, economista</p>
     <h1>Análise técnica no bitcoin, uma vez por semana: o que funciona quando a gente testa?</h1>
-    <p class="heroi-olho">Uma plataforma aberta: médias móveis, IFR, rompimentos e MACD, no gráfico semanal. Cada sinal é testado no histórico de preços do bitcoin, comparado com simplesmente comprar e segurar e com o CDI, e depois acompanhado ao vivo, semana a semana, com o retorno, o risco e a pior queda à vista.</p>
-    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
+    <p class="heroi-olho">Sete sinais de análise técnica e quatro consensos entre eles, no gráfico semanal, testados desde 2016 contra comprar e segurar e contra o CDI, e acompanhados ao vivo. Esta página mostra o agora; o histórico e as regras ficam a um clique.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="boletim/">Ler o boletim semanal</a></p>
   </section>
+{ult}{P["painel"]}{portas}
+  {AVISO_BTC}
 
+  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual sinal ou indicador você gostaria de ver testado?", "bitcoin/", "Receba os resultados")}
+</main>
+"""
+    escreve("bitcoin", cabeca("Bitcoin: análise técnica testada — Renato W. Gomes, economista", "Piloto: sinais de análise técnica no bitcoin (médias móveis, IFR, rompimentos, MACD) testados no histórico e acompanhados ao vivo, contra comprar e segurar e contra o CDI.", "bitcoin/", rel)
+            + topo("bitcoin/", rel) + corpo + rodape(rel))
+    rel2 = "../../"
+    lis2 = lis.replace(f'href="{rel}arquivo/', f'href="{rel2}arquivo/')
+    corpo = f"""
+<main class="env pagina-min">
+{sub_btc("estrategias/", "../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · piloto · estratégias</p>
+    <h1>As estratégias: o que cada uma faz e por que ganha ou perde</h1>
+  </section>
   <section class="para-quem" id="estrategias">
     <h2>Os sinais em teste</h2>
     <p>Todos partem da mesma posição de referência: <b>1 bitcoin</b>. Quando o sinal manda sair, o valor vai para o CDI; quando manda voltar, recompra o que der. No fim, a pergunta é simples: o sinal terminou com mais ou menos de 1 bitcoin?</p>
@@ -1796,8 +1951,7 @@ def pagina_bitcoin():
 {est}
   </ol>
 
-{acompanhamento_btc_html()}
-{diario_btc_html()}
+{P["estrategias"]}
   <section class="para-quem">
     <h2>Como eu meço</h2>
     <ul class="lista-min">
@@ -1812,22 +1966,32 @@ def pagina_bitcoin():
   </section>
 
 {conceitos_btc_html()}
-{autores_btc_html(rel)}
+{autores_btc_html(rel2)}
   <section class="para-quem" id="fontes">
     <h2>As fontes</h2>
     <p>Em 31 de outubro de 2008, Satoshi Nakamoto publicou <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener"><i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></a> (“Bitcoin: um sistema de dinheiro eletrônico ponto a ponto”). E a pergunta de fundo, o que acontece quando a quantidade de moeda não pode crescer à vontade, foi debatida com dados no fim do século XIX. No Arquivo:</p>
     <ul class="lista-min">
-{lis}
+{lis2}
     </ul>
   </section>
 
-  <p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>
-
-  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual sinal ou indicador você gostaria de ver testado?", "bitcoin/", "Receba os resultados")}
+  {AVISO_BTC}
 </main>
 """
-    escreve("bitcoin", cabeca("Bitcoin: análise técnica testada — Renato W. Gomes, economista", "Piloto: sinais de análise técnica no bitcoin (médias móveis, IFR, rompimentos, MACD) testados no histórico e acompanhados ao vivo, contra comprar e segurar e contra o CDI.", "bitcoin/", rel)
-            + topo("bitcoin/", rel) + corpo + rodape(rel))
+    escreve("bitcoin/estrategias", cabeca("Estratégias de análise técnica no bitcoin — Renato W. Gomes, economista", "As regras testadas no bitcoin, os autores, por que o consenso 4 x 3 tem vencido e os pontos fortes e fracos de cada estratégia.", "bitcoin/estrategias/", rel2)
+            + topo("bitcoin/", rel2) + corpo + rodape(rel2))
+    corpo = f"""
+<main class="env pagina-min">
+{sub_btc("historico/", "../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · piloto · histórico</p>
+    <h1>O teste no histórico, desde 2016</h1>
+    <p class="heroi-olho">Cada estratégia começa com 1 BTC, paga 0,25% por operação e rende CDI quando está fora. Ordens no book nas regras de nível; execução no próprio fechamento nas demais.</p>
+  </section>
+{P["historico"]}  {AVISO_BTC}
+</main>
+"""
+    escreve("bitcoin/historico", cabeca("Histórico do teste de análise técnica no bitcoin — Renato W. Gomes, economista", "Ano a ano em reais e em dólares, janela personalizada e otimização corrigida pelo risco das estratégias de análise técnica no bitcoin.", "bitcoin/historico/", rel2)
+            + topo("bitcoin/", rel2) + corpo + rodape(rel2))
 
 
 def pagina_historia():
@@ -2576,7 +2740,7 @@ def gera_campo_grande():
 
 
 def sitemap():
-    urls = ["", "tech/", "bitcoin/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "tech/", "bitcoin/", "bitcoin/estrategias/", "bitcoin/historico/", "bitcoin/boletim/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:

@@ -830,3 +830,9 @@ figcaption .credito::before{content:"· "}
 .forcas li{border-top:1px solid #e3e3e3;padding:.8rem 0}
 .forcas li p{margin:.2rem 0}
 .forcas .nota-min{display:block;margin-top:.15rem}
+/* navegação interna do /bitcoin e boletim */
+.sub-btc{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:1rem 0 0;padding:.6rem 0;border-bottom:1px solid #e3e3e3;font-family:var(--sans);font-size:14px}
+.sub-btc a{color:#555;text-decoration:none;padding-bottom:.2rem}
+.sub-btc a.ativo{color:#003097;border-bottom:2px solid #003097}
+.nota-autor{border-left:3px solid #003097;padding:.2rem 0 .2rem .9rem;margin:1rem 0}
+.nav-boletim{display:flex;justify-content:space-between;gap:1rem;font-family:var(--sans);font-size:14px;margin-top:1.5rem}
