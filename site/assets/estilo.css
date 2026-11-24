@@ -746,3 +746,9 @@ figcaption .credito::before{content:"· "}
 .lista-min a{color:var(--tinta-2);border-bottom:1px solid var(--linha)}
 .lista-min a:hover{color:var(--azul);border-color:var(--azul)}
 .capa-portas{max-width:900px}
+.diario-graf{width:100%;height:auto;margin:16px 0 8px}
+.diario-graf .linha{fill:none;stroke:var(--azul);stroke-width:2}
+.diario-graf .base{stroke:var(--linha);stroke-dasharray:4 4}
+.diario-tab{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:14px;margin-top:8px}
+.diario-tab th,.diario-tab td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--linha)}
+.diario-tab .sobe{color:#0a7d35}.diario-tab .desce{color:var(--alerta)}

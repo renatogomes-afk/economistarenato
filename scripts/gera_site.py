@@ -1001,6 +1001,57 @@ def autores_btc_html(rel):
 AUTORES_BTC = []
 
 
+# Diário do piloto: scripts/bitcoin/diario.csv (data AAAA-MM-DD, retorno_pct do dia, nota opcional).
+# Só percentuais: o valor da carteira em reais nunca entra no site.
+def diario_btc():
+    import csv
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "diario.csv")
+    if not os.path.exists(arq):
+        return []
+    with open(arq, encoding="utf-8") as f:
+        return [(r["data"], float(r["retorno_pct"].replace(",", ".")), r.get("nota", "")) for r in csv.DictReader(f) if r.get("data")]
+
+
+def diario_btc_html():
+    linhas = diario_btc()
+    if not linhas:
+        return """  <section class="para-quem" id="diario">
+    <h2>Meu diário de retornos</h2>
+    <p>Aqui eu publico o retorno da minha carteira de bitcoin dia a dia, em percentual, com acertos e erros à vista. O diário começa no primeiro dia do piloto.</p>
+  </section>
+"""
+    idx, acum = [], 100.0
+    for _, r, _ in linhas:
+        acum *= 1 + r / 100
+        idx.append(acum)
+    w, h, pad = 640, 180, 8
+    lo, hi = min(idx + [100.0]), max(idx + [100.0])
+    esc = (hi - lo) or 1
+    n = max(len(idx) - 1, 1)
+    pts = " ".join(f"{pad + i * (w - 2 * pad) / n:.1f},{h - pad - (v - lo) * (h - 2 * pad) / esc:.1f}" for i, v in enumerate(idx))
+    y100 = h - pad - (100 - lo) * (h - 2 * pad) / esc
+    total = idx[-1] - 100
+    ult = linhas[::-1][:30]
+    def pct(x):
+        return f"{x:+.2f}%".replace(".", ",")
+    tab = "\n".join(f'        <tr><td>{d[8:10]}/{d[5:7]}/{d[:4]}</td><td class="{"sobe" if r >= 0 else "desce"}">{pct(r)}</td><td>{e(nt)}</td></tr>' for d, r, nt in ult)
+    return f"""  <section class="para-quem" id="diario">
+    <h2>Meu diário de retornos</h2>
+    <p>O retorno da minha carteira de bitcoin, dia a dia, em percentual. Desde o início do piloto: <b>{pct(total)}</b> em {len(linhas)} dias.</p>
+    <svg class="diario-graf" viewBox="0 0 {w} {h}" role="img" aria-label="Retorno acumulado, base 100">
+      <line x1="{pad}" x2="{w - pad}" y1="{y100:.1f}" y2="{y100:.1f}" class="base"/>
+      <polyline points="{pts}" class="linha"/>
+    </svg>
+    <table class="diario-tab">
+      <thead><tr><th>Dia</th><th>Retorno</th><th>Nota</th></tr></thead>
+      <tbody>
+{tab}
+      </tbody>
+    </table>
+  </section>
+"""
+
+
 def pagina_bitcoin():
     rel = "../"
     arq = [("1889-um-dolar-honesto", "1889", "Um dólar honesto: a moeda que compra sempre o mesmo"),
@@ -1038,6 +1089,7 @@ def pagina_bitcoin():
 {est}
   </ol>
 
+{diario_btc_html()}
   <section class="para-quem">
     <h2>Como eu meço</h2>
     <ul class="lista-min">

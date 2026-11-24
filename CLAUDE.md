@@ -26,7 +26,9 @@ verificável, sempre visível para o leitor.
 três portas), não divulgada. O marketing vai direto para cada página de entrada, que precisa funcionar sozinha:
 `/tech/` (agentes de IA para PMEs, com o contato), `/historia/` (livros comentados: Leituras) e `/economia/`
 (periódicos: Arquivo). As páginas internas continuam em `/arquivo/` e `/leituras/`. `/servicos/` redireciona
-para `/tech/`. Campo Grande e Análises ficam sem link. Newsletter desligada (`assine()` devolve vazio).
+para `/tech/`. `/bitcoin/` é o piloto público de análise técnica: diário de retornos em
+`scripts/bitcoin/diario.csv` (data, retorno_pct, nota; só percentuais, nunca valores em reais) e autores em
+`AUTORES_BTC`. Campo Grande e Análises ficam sem link. Newsletter desligada (`assine()` devolve vazio).
 Contato: FormSubmit (`FORM_CONTATO`/`EMAIL_CONTATO` em `gera_site.py`), volta para `/obrigado/`.
 
 ---
