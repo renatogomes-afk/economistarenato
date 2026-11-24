@@ -1029,6 +1029,13 @@ CONCEITOS_BTC = [
       "As faixas viram limites de força. Abaixo do percentil 20 fica o <b>limite inferior</b>: o preço está barato em relação ao próprio passado, e é ali que costuma aparecer a força compradora. Acima do percentil 80 fica o <b>limite superior</b>: o preço está caro, e é ali que a força vendedora costuma agir. Entre os dois, a faixa do meio é terreno neutro.",
       "Somando o volume negociado em cada faixa de preço, dá para ver onde mais gente comprou e vendeu. Esses níveis de preço com muito volume funcionam como memória do mercado: quem comprou ali tende a defender o preço na volta, e quem ficou preso ali tende a vender quando empata.",
       "No piloto, o conceito vira um sinal testável: comprar quando o fechamento semanal volta para cima do limite inferior e reduzir a posição quando perde força acima do limite superior."]),
+    ("Os três movimentos e a tendência primária (Dow)",
+     ["“O mercado deve sempre ser considerado como tendo três movimentos, todos acontecendo ao mesmo tempo” (“The market is always to be considered as having three movements, all going on at the same time”), escreveu Charles Dow em 1900, citado por William Peter Hamilton em <i>The Stock Market Barometer</i> (1922, cap. IV, p. 30). Há a oscilação diária, sem importância; a reação secundária, que dura semanas; e o movimento primário, que dura anos.",
+      "A regra para saber em que maré se está é simples: “é um período de alta enquanto um topo supera os topos anteriores” (“It is a bull period as long as the average of one high point exceeds that of previous high points”) e de baixa quando o fundo fica abaixo dos fundos anteriores (p. 32). Dow também observou que um movimento primário costuma ter uma reação contrária de pelo menos três oitavos do seu tamanho (p. 37): é a correção que assusta, mas não muda a maré.",
+      "O próprio Dow avisou dos limites: quem tenta operar só com essa teoria “encontra muitas exceções” (“find a good many exceptions”, p. 36). Por isso, aqui ela vira um sinal entre vários, testado contra os outros."]),
+    ("Acumulação, alta e distribuição (Wyckoff)",
+     ["Richard Wyckoff, em <i>How I Trade and Invest in Stocks and Bonds</i> (1922), descreve as campanhas dos grandes operadores em três etapas: acumulação, alta e distribuição (cap. II, p. 38-39). Na acumulação, quem sabe mais compra em silêncio, numa faixa de preço que pode durar semanas ou meses; na distribuição, vende para quem chega tarde.",
+      "Duas regras dele viram filtros no piloto. A primeira: operar a favor da tendência multiplica as chances de acerto “três ou quatro vezes” (cap. II, p. 48). A segunda: o lucro esperado deve ser “pelo menos três ou quatro vezes” o tamanho do risco (“at least three or four times the amount of the risk”, cap. II, p. 49). E o dinheiro de verdade, dizia, estava nos movimentos de 30 a 60 dias, não no vaivém do dia."]),
 ]
 
 
@@ -1109,6 +1116,7 @@ def pagina_bitcoin():
         ("Cruzamento das médias de 10 e 40 semanas", "Entra quando a média curta cruza a longa para cima e sai no cruzamento para baixo. O equivalente semanal do cruzamento de 50 e 200 dias."),
         ("IFR semanal", "Compra quando o índice de força relativa do gráfico semanal indica sobrevenda e vende na sobrecompra. Testa se o exagero do mercado se corrige."),
         ("Rompimento de 20 semanas", "Entra quando o fechamento semanal rompe a máxima das últimas 20 semanas e sai quando perde a mínima de 10. Testa se tendência forte continua forte."),
+        ("Topos e fundos ascendentes (Dow)", "Comprado enquanto cada topo semanal supera o anterior; sai quando um fundo fica abaixo do fundo anterior. É a regra de Dow para a tendência primária, aplicada ao gráfico semanal."),
         ("Faixas de percentis de 52 semanas", "Compra quando o fechamento semanal volta para cima do percentil 20 do último ano e reduz quando perde força acima do percentil 80. Testa os limites de força compradora e vendedora."),
         ("MACD semanal", "Segue o cruzamento do MACD semanal com a sua linha de sinal. Testa o indicador de momento mais popular dos gráficos."),
     ]
