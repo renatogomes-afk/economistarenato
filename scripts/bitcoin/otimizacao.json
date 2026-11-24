@@ -1,0 +1,1352 @@
+{
+ "gerado_em": "2026-11-24 03:45 UTC",
+ "testadas": 370,
+ "periodo": [
+  "2016-07-24",
+  "2026-11-22"
+ ],
+ "dentro": [
+  "2016-07-24",
+  "2021-12-26"
+ ],
+ "fora": [
+  "2021-12-26",
+  "2026-11-22"
+ ],
+ "walk_forward_desde": 2019,
+ "benchmarks": {
+  "Bitcoin (comprar e segurar)": {
+   "dentro": {
+    "sharpe": 1.4284522147038188,
+    "sortino": 2.3639064057724317,
+    "aa": 1.4615971666822754,
+    "pior_queda": -0.8057760262749305,
+    "calmar": 1.8139000404854175,
+    "vol": 0.8247297395798244
+   },
+   "fora": {
+    "sharpe": 0.06731348827975983,
+    "sortino": 0.10137139365908467,
+    "aa": 0.0470165428971967,
+    "pior_queda": -0.6991903050502417,
+    "calmar": 0.06724427177779337,
+    "vol": 0.4768536895666247
+   },
+   "total": {
+    "sharpe": 0.923036673261444,
+    "sortino": 1.5020324061845298,
+    "aa": 0.6401518928242742,
+    "pior_queda": -0.8057760262749305,
+    "calmar": 0.7944538829030073,
+    "vol": 0.6861301543209029
+   }
+  },
+  "CDI": {
+   "dentro": {
+    "sharpe": 0.0,
+    "sortino": 0.0,
+    "aa": 0.06764978402366562,
+    "pior_queda": 0.0,
+    "calmar": 0.0,
+    "vol": 0.004644263903961979
+   },
+   "fora": {
+    "sharpe": 0.0,
+    "sortino": 0.0,
+    "aa": 0.1344491234720031,
+    "pior_queda": 0.0,
+    "calmar": 0.0,
+    "vol": 0.002018886297808845
+   },
+   "total": {
+    "sharpe": 0.0,
+    "sortino": 0.0,
+    "aa": 0.0988712033967345,
+    "pior_queda": 0.0,
+    "calmar": 0.0,
+    "vol": 0.005555319937052471
+   }
+  }
+ },
+ "por_familia": [
+  {
+   "familia": "Consenso dos 7",
+   "testadas": 4,
+   "escolhida": "4 x 3",
+   "dentro": {
+    "sharpe": 1.349206983301794,
+    "sortino": 2.4173436305597225,
+    "aa": 1.1300480357354106,
+    "pior_queda": -0.5927690624656701,
+    "calmar": 1.9063883513672018,
+    "vol": 0.6802899183214741
+   },
+   "fora": {
+    "sharpe": 0.29612008962860814,
+    "sortino": 0.5194371615639845,
+    "aa": 0.18780961208126778,
+    "pior_queda": -0.37978762986739734,
+    "calmar": 0.49451218868513813,
+    "vol": 0.30102646362451335
+   },
+   "melhor_no_total": "4 x 3",
+   "sharpe_melhor_no_total": 0.9745947752027164,
+   "fracao_positiva_fora": 1.0,
+   "mediana_fora": 0.4163305194692268
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "testadas": 98,
+   "escolhida": "média de 12 acima da de 20 semanas",
+   "dentro": {
+    "sharpe": 1.459667728461039,
+    "sortino": 2.565998258233225,
+    "aa": 1.3773444681722027,
+    "pior_queda": -0.5927690624656701,
+    "calmar": 2.323576845328312,
+    "vol": 0.7303574788446852
+   },
+   "fora": {
+    "sharpe": -0.05255759943902905,
+    "sortino": -0.08177137555426105,
+    "aa": 0.06010821768696517,
+    "pior_queda": -0.42963405572025903,
+    "calmar": 0.13990561708660848,
+    "vol": 0.32286460226392044
+   },
+   "melhor_no_total": "média de 10 acima da de 60 semanas",
+   "sharpe_melhor_no_total": 1.0974790385048097,
+   "fracao_positiva_fora": 0.8775510204081632,
+   "mediana_fora": 0.3476440950258806
+  },
+  {
+   "familia": "IFR contrário",
+   "testadas": 100,
+   "escolhida": "IFR 14: compra ao subir por 35, vende ao cair por 65",
+   "dentro": {
+    "sharpe": 1.084981600574725,
+    "sortino": 2.279386189465251,
+    "aa": 0.4314953272852018,
+    "pior_queda": -0.17926412448760898,
+    "calmar": 2.4070367036268174,
+    "vol": 0.3127961144689628
+   },
+   "fora": {
+    "sharpe": 0.1908865628896951,
+    "sortino": 0.32353720575211214,
+    "aa": 0.1538993772696906,
+    "pior_queda": -0.23666218100535774,
+    "calmar": 0.6502913841827838,
+    "vol": 0.2655775241678662
+   },
+   "melhor_no_total": "IFR 21: compra ao subir por 40, vende ao cair por 65",
+   "sharpe_melhor_no_total": 1.206738472483328,
+   "fracao_positiva_fora": 0.51,
+   "mediana_fora": 0.03583619079275347
+  },
+  {
+   "familia": "IFR tendência",
+   "testadas": 16,
+   "escolhida": "IFR 10 acima de 45",
+   "dentro": {
+    "sharpe": 1.2389076656374,
+    "sortino": 2.059563825564115,
+    "aa": 1.034389354648539,
+    "pior_queda": -0.7180269160176478,
+    "calmar": 1.4405996928158549,
+    "vol": 0.7424200533532709
+   },
+   "fora": {
+    "sharpe": 0.1367627611566777,
+    "sortino": 0.22178699421448586,
+    "aa": 0.11987163890927821,
+    "pior_queda": -0.42432267946305235,
+    "calmar": 0.28250113583597875,
+    "vol": 0.3571877450780721
+   },
+   "melhor_no_total": "IFR 7 acima de 55",
+   "sharpe_melhor_no_total": 1.0547966448662052,
+   "fracao_positiva_fora": 0.9375,
+   "mediana_fora": 0.2488842986790894
+  },
+  {
+   "familia": "MACD",
+   "testadas": 48,
+   "escolhida": "MACD 12/34/9",
+   "dentro": {
+    "sharpe": 1.3471656227818491,
+    "sortino": 2.3415774488299843,
+    "aa": 1.1692382761850322,
+    "pior_queda": -0.7301773416685972,
+    "calmar": 1.6013072571015357,
+    "vol": 0.7144605519685848
+   },
+   "fora": {
+    "sharpe": 0.5256660853329818,
+    "sortino": 0.9777364840996611,
+    "aa": 0.28477234711791444,
+    "pior_queda": -0.2604809794937031,
+    "calmar": 1.0932558211022796,
+    "vol": 0.34282700439479147
+   },
+   "melhor_no_total": "MACD 16/17/12",
+   "sharpe_melhor_no_total": 1.0571992160544614,
+   "fracao_positiva_fora": 1.0,
+   "mediana_fora": 0.42242065572736726
+  },
+  {
+   "familia": "Média móvel",
+   "testadas": 26,
+   "escolhida": "preço acima da média de 10 semanas",
+   "dentro": {
+    "sharpe": 1.4125654860612726,
+    "sortino": 2.574232466613095,
+    "aa": 1.2436857249621074,
+    "pior_queda": -0.663970582300158,
+    "calmar": 1.873103655667504,
+    "vol": 0.6909987794961369
+   },
+   "fora": {
+    "sharpe": 0.18574587315985114,
+    "sortino": 0.3094803941044338,
+    "aa": 0.14047159869638426,
+    "pior_queda": -0.46855833149989323,
+    "calmar": 0.2997953280367959,
+    "vol": 0.35466612867494596
+   },
+   "melhor_no_total": "preço acima da média de 14 semanas",
+   "sharpe_melhor_no_total": 1.0179621909827439,
+   "fracao_positiva_fora": 0.9615384615384616,
+   "mediana_fora": 0.3539041808652932
+  },
+  {
+   "familia": "Percentis contrário",
+   "testadas": 18,
+   "escolhida": "percentil de 52 semanas: compra ao subir por 20, vende ao cair por 70",
+   "dentro": {
+    "sharpe": 0.811433377781767,
+    "sortino": 1.3294774704886803,
+    "aa": 0.41061660662839805,
+    "pior_queda": -0.5426902610721356,
+    "calmar": 0.7566316112199736,
+    "vol": 0.4885097332123002
+   },
+   "fora": {
+    "sharpe": -0.43840010684845104,
+    "sortino": -0.6245144903513007,
+    "aa": -0.07832142058115099,
+    "pior_queda": -0.6136826613417076,
+    "calmar": -0.12762527852736655,
+    "vol": 0.34134447622039676
+   },
+   "melhor_no_total": "percentil de 26 semanas: compra ao subir por 10, vende ao cair por 70",
+   "sharpe_melhor_no_total": 0.5678159884293162,
+   "fracao_positiva_fora": 0.5,
+   "mediana_fora": -0.026688070405164296
+  },
+  {
+   "familia": "Percentis tendência",
+   "testadas": 8,
+   "escolhida": "percentil de 26 semanas acima de 50",
+   "dentro": {
+    "sharpe": 1.403930536392956,
+    "sortino": 2.5100118535966844,
+    "aa": 1.2721696923613228,
+    "pior_queda": -0.5927690624656701,
+    "calmar": 2.1461472484235795,
+    "vol": 0.7192101287741975
+   },
+   "fora": {
+    "sharpe": 0.2953618349205312,
+    "sortino": 0.5092032015933408,
+    "aa": 0.18728786265014574,
+    "pior_queda": -0.30988610485260326,
+    "calmar": 0.6043764457887806,
+    "vol": 0.3172464955267154
+   },
+   "melhor_no_total": "percentil de 26 semanas acima de 80",
+   "sharpe_melhor_no_total": 1.0726427276868915,
+   "fracao_positiva_fora": 1.0,
+   "mediana_fora": 0.3354567353210378
+  },
+  {
+   "familia": "Rompimento",
+   "testadas": 47,
+   "escolhida": "compra na máxima de 13 semanas, vende na mínima de 13",
+   "dentro": {
+    "sharpe": 1.2756654502923965,
+    "sortino": 2.178924731245872,
+    "aa": 1.081553034816276,
+    "pior_queda": -0.6476847802197535,
+    "calmar": 1.669875636801771,
+    "vol": 0.7319120672761098
+   },
+   "fora": {
+    "sharpe": 0.1119309864847761,
+    "sortino": 0.18300664342039494,
+    "aa": 0.1169560815181121,
+    "pior_queda": -0.4765022488856604,
+    "calmar": 0.24544707142856825,
+    "vol": 0.3297943784211959
+   },
+   "melhor_no_total": "compra na máxima de 16 semanas, vende na mínima de 5",
+   "sharpe_melhor_no_total": 0.9996232980249962,
+   "fracao_positiva_fora": 0.574468085106383,
+   "mediana_fora": 0.1119309864847761
+  },
+  {
+   "familia": "Topos e fundos (Dow)",
+   "testadas": 5,
+   "escolhida": "pivô de 1 semana(s) de cada lado",
+   "dentro": {
+    "sharpe": 1.2732794497480622,
+    "sortino": 2.2917293905343286,
+    "aa": 1.0053326578815032,
+    "pior_queda": -0.7218319359193506,
+    "calmar": 1.3927517027922518,
+    "vol": 0.6624368617602956
+   },
+   "fora": {
+    "sharpe": -0.10279610915743032,
+    "sortino": -0.15830979387244562,
+    "aa": 0.0396744249521741,
+    "pior_queda": -0.5608081067985724,
+    "calmar": 0.07074509885147598,
+    "vol": 0.33021061317126843
+   },
+   "melhor_no_total": "pivô de 2 semana(s) de cada lado",
+   "sharpe_melhor_no_total": 1.0075553350676942,
+   "fracao_positiva_fora": 0.8,
+   "mediana_fora": 0.08265235794336763
+  }
+ ],
+ "walk_forward": {
+  "Consenso dos 7": {
+   "metricas": {
+    "sharpe": 0.7030132747052029,
+    "sortino": 1.206161932414684,
+    "aa": 0.35949926771534413,
+    "pior_queda": -0.4569959243169929,
+    "calmar": 0.7866574920829694,
+    "vol": 0.4273665877065391
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2020,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2021,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2022,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2023,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2024,
+     "familia": "Consenso dos 7",
+     "regra": "5 x 2"
+    },
+    {
+     "ano": 2025,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    },
+    {
+     "ano": 2026,
+     "familia": "Consenso dos 7",
+     "regra": "4 x 3"
+    }
+   ]
+  },
+  "Cruzamento de médias": {
+   "metricas": {
+    "sharpe": 0.5424499381976594,
+    "sortino": 0.8565948302727232,
+    "aa": 0.27158540284724575,
+    "pior_queda": -0.6500290342488073,
+    "calmar": 0.41780503414143316,
+    "vol": 0.4699331917462745
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 4 acima da de 24 semanas"
+    },
+    {
+     "ano": 2020,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 4 acima da de 24 semanas"
+    },
+    {
+     "ano": 2021,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 14 acima da de 24 semanas"
+    },
+    {
+     "ano": 2022,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 14 acima da de 24 semanas"
+    },
+    {
+     "ano": 2023,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 14 acima da de 24 semanas"
+    },
+    {
+     "ano": 2024,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 14 acima da de 24 semanas"
+    },
+    {
+     "ano": 2025,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 10 acima da de 60 semanas"
+    },
+    {
+     "ano": 2026,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 10 acima da de 60 semanas"
+    }
+   ]
+  },
+  "IFR contrário": {
+   "metricas": {
+    "sharpe": 1.0636245953086685,
+    "sortino": 2.2587802715075713,
+    "aa": 0.532568800118334,
+    "pior_queda": -0.23666218100535774,
+    "calmar": 2.250333356415224,
+    "vol": 0.373093910179021
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "IFR contrário",
+     "regra": "IFR 10: compra ao subir por 25, vende ao cair por 60"
+    },
+    {
+     "ano": 2020,
+     "familia": "IFR contrário",
+     "regra": "IFR 10: compra ao subir por 35, vende ao cair por 60"
+    },
+    {
+     "ano": 2021,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2022,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2023,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2024,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2025,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 65"
+    },
+    {
+     "ano": 2026,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 65"
+    }
+   ]
+  },
+  "IFR tendência": {
+   "metricas": {
+    "sharpe": 0.7639491945326727,
+    "sortino": 1.3552267305683154,
+    "aa": 0.3957965438880846,
+    "pior_queda": -0.4930678310187523,
+    "calmar": 0.8027223010479297,
+    "vol": 0.4271873768992683
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "IFR tendência",
+     "regra": "IFR 10 acima de 60"
+    },
+    {
+     "ano": 2020,
+     "familia": "IFR tendência",
+     "regra": "IFR 10 acima de 60"
+    },
+    {
+     "ano": 2021,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    },
+    {
+     "ano": 2022,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    },
+    {
+     "ano": 2023,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    },
+    {
+     "ano": 2024,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    },
+    {
+     "ano": 2025,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    },
+    {
+     "ano": 2026,
+     "familia": "IFR tendência",
+     "regra": "IFR 7 acima de 55"
+    }
+   ]
+  },
+  "MACD": {
+   "metricas": {
+    "sharpe": 0.7104850652264887,
+    "sortino": 1.1890542623348768,
+    "aa": 0.3797265619548631,
+    "pior_queda": -0.6644186191921664,
+    "calmar": 0.5715170390868242,
+    "vol": 0.47580774801237635
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "MACD",
+     "regra": "MACD 16/34/12"
+    },
+    {
+     "ano": 2020,
+     "familia": "MACD",
+     "regra": "MACD 16/34/12"
+    },
+    {
+     "ano": 2021,
+     "familia": "MACD",
+     "regra": "MACD 16/34/12"
+    },
+    {
+     "ano": 2022,
+     "familia": "MACD",
+     "regra": "MACD 8/34/12"
+    },
+    {
+     "ano": 2023,
+     "familia": "MACD",
+     "regra": "MACD 8/34/12"
+    },
+    {
+     "ano": 2024,
+     "familia": "MACD",
+     "regra": "MACD 16/17/12"
+    },
+    {
+     "ano": 2025,
+     "familia": "MACD",
+     "regra": "MACD 16/17/12"
+    },
+    {
+     "ano": 2026,
+     "familia": "MACD",
+     "regra": "MACD 16/17/12"
+    }
+   ]
+  },
+  "Média móvel": {
+   "metricas": {
+    "sharpe": 0.5411302214457648,
+    "sortino": 0.8854816912214196,
+    "aa": 0.27321201724227673,
+    "pior_queda": -0.6591306019660585,
+    "calmar": 0.4145036149548183,
+    "vol": 0.46895444508580003
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 28 semanas"
+    },
+    {
+     "ano": 2020,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 12 semanas"
+    },
+    {
+     "ano": 2021,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 12 semanas"
+    },
+    {
+     "ano": 2022,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 12 semanas"
+    },
+    {
+     "ano": 2023,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 14 semanas"
+    },
+    {
+     "ano": 2024,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 14 semanas"
+    },
+    {
+     "ano": 2025,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 48 semanas"
+    },
+    {
+     "ano": 2026,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 14 semanas"
+    }
+   ]
+  },
+  "Percentis contrário": {
+   "metricas": {
+    "sharpe": 0.3566168600667255,
+    "sortino": 0.5848314088744355,
+    "aa": 0.1729478439692076,
+    "pior_queda": -0.7397108211855016,
+    "calmar": 0.23380466935988822,
+    "vol": 0.41460172130796513
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 26 semanas: compra ao subir por 10, vende ao cair por 70"
+    },
+    {
+     "ano": 2020,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 52 semanas: compra ao subir por 10, vende ao cair por 90"
+    },
+    {
+     "ano": 2021,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 52 semanas: compra ao subir por 20, vende ao cair por 80"
+    },
+    {
+     "ano": 2022,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 52 semanas: compra ao subir por 20, vende ao cair por 80"
+    },
+    {
+     "ano": 2023,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 52 semanas: compra ao subir por 20, vende ao cair por 80"
+    },
+    {
+     "ano": 2024,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 52 semanas: compra ao subir por 20, vende ao cair por 80"
+    },
+    {
+     "ano": 2025,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 26 semanas: compra ao subir por 10, vende ao cair por 70"
+    },
+    {
+     "ano": 2026,
+     "familia": "Percentis contrário",
+     "regra": "percentil de 26 semanas: compra ao subir por 10, vende ao cair por 70"
+    }
+   ]
+  },
+  "Percentis tendência": {
+   "metricas": {
+    "sharpe": 0.6074921450754349,
+    "sortino": 1.0318790436371694,
+    "aa": 0.2971796526688648,
+    "pior_queda": -0.5863971513815982,
+    "calmar": 0.5067890455618449,
+    "vol": 0.39896848773969534
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 52 semanas acima de 80"
+    },
+    {
+     "ano": 2020,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 80"
+    },
+    {
+     "ano": 2021,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 80"
+    },
+    {
+     "ano": 2022,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 50"
+    },
+    {
+     "ano": 2023,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 80"
+    },
+    {
+     "ano": 2024,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 50"
+    },
+    {
+     "ano": 2025,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 80"
+    },
+    {
+     "ano": 2026,
+     "familia": "Percentis tendência",
+     "regra": "percentil de 26 semanas acima de 80"
+    }
+   ]
+  },
+  "Rompimento": {
+   "metricas": {
+    "sharpe": 0.7311261346915066,
+    "sortino": 1.2212533845283249,
+    "aa": 0.3895490448286991,
+    "pior_queda": -0.5891030393936674,
+    "calmar": 0.661257910381249,
+    "vol": 0.4656641870591058
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 10 semanas, vende na mínima de 10"
+    },
+    {
+     "ano": 2020,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 10 semanas, vende na mínima de 10"
+    },
+    {
+     "ano": 2021,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 10 semanas, vende na mínima de 10"
+    },
+    {
+     "ano": 2022,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 10 semanas, vende na mínima de 10"
+    },
+    {
+     "ano": 2023,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 10 semanas, vende na mínima de 10"
+    },
+    {
+     "ano": 2024,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 8 semanas, vende na mínima de 5"
+    },
+    {
+     "ano": 2025,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 8 semanas, vende na mínima de 5"
+    },
+    {
+     "ano": 2026,
+     "familia": "Rompimento",
+     "regra": "compra na máxima de 8 semanas, vende na mínima de 5"
+    }
+   ]
+  },
+  "Topos e fundos (Dow)": {
+   "metricas": {
+    "sharpe": 0.713791943227387,
+    "sortino": 1.203937293594214,
+    "aa": 0.37474228121826236,
+    "pior_queda": -0.5793682083315097,
+    "calmar": 0.6468119510690133,
+    "vol": 0.4534361927688864
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 3 semana(s) de cada lado"
+    },
+    {
+     "ano": 2020,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 3 semana(s) de cada lado"
+    },
+    {
+     "ano": 2021,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    },
+    {
+     "ano": 2022,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    },
+    {
+     "ano": 2023,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    },
+    {
+     "ano": 2024,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    },
+    {
+     "ano": 2025,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    },
+    {
+     "ano": 2026,
+     "familia": "Topos e fundos (Dow)",
+     "regra": "pivô de 2 semana(s) de cada lado"
+    }
+   ]
+  },
+  "Todas as famílias": {
+   "metricas": {
+    "sharpe": 0.7637837912515404,
+    "sortino": 1.32939951163547,
+    "aa": 0.3939385135896738,
+    "pior_queda": -0.5284927448995187,
+    "calmar": 0.7454000407603941,
+    "vol": 0.42452877061203265
+   },
+   "escolhas": [
+    {
+     "ano": 2019,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 4 acima da de 24 semanas"
+    },
+    {
+     "ano": 2020,
+     "familia": "Média móvel",
+     "regra": "preço acima da média de 12 semanas"
+    },
+    {
+     "ano": 2021,
+     "familia": "Cruzamento de médias",
+     "regra": "média de 14 acima da de 24 semanas"
+    },
+    {
+     "ano": 2022,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2023,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2024,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70"
+    },
+    {
+     "ano": 2025,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 65"
+    },
+    {
+     "ano": 2026,
+     "familia": "IFR contrário",
+     "regra": "IFR 21: compra ao subir por 40, vende ao cair por 65"
+    }
+   ]
+  }
+ },
+ "walk_forward_benchmarks": {
+  "Bitcoin (comprar e segurar)": {
+   "sharpe": 0.8170590235810814,
+   "sortino": 1.3034988972000772,
+   "aa": 0.4977177498430536,
+   "pior_queda": -0.7564139823838938,
+   "calmar": 0.6579964958797561,
+   "vol": 0.5888235837202148
+  },
+  "CDI": {
+   "sharpe": 0.0,
+   "sortino": 0.0,
+   "aa": 0.09969136238459075,
+   "pior_queda": 0.0,
+   "calmar": 0.0,
+   "vol": 0.005959419679506131
+  }
+ },
+ "top_total": [
+  {
+   "familia": "IFR contrário",
+   "regra": "IFR 21: compra ao subir por 40, vende ao cair por 65",
+   "total": {
+    "sharpe": 1.206738472483328,
+    "sortino": 2.660660870968054,
+    "aa": 0.5939304862972954,
+    "pior_queda": -0.23666218100535785,
+    "calmar": 2.5096130010052144,
+    "vol": 0.35743921314509974
+   },
+   "dentro": {
+    "sharpe": 1.6068096967786512,
+    "sortino": 3.6542417003843695,
+    "aa": 0.8941086186231786,
+    "pior_queda": -0.20516918366468562,
+    "calmar": 4.357908934727976,
+    "vol": 0.4049550164945739
+   },
+   "fora": {
+    "sharpe": 0.6460256451851597,
+    "sortino": 1.3270512851048855,
+    "aa": 0.3171356978185065,
+    "pior_queda": -0.23666218100535785,
+    "calmar": 1.3400353891411436,
+    "vol": 0.2934022486718933
+   },
+   "plato": 0.0
+  },
+  {
+   "familia": "IFR contrário",
+   "regra": "IFR 21: compra ao subir por 40, vende ao cair por 70",
+   "total": {
+    "sharpe": 1.1356052860994081,
+    "sortino": 2.5119040757990927,
+    "aa": 0.5360624381640979,
+    "pior_queda": -0.23666218100535796,
+    "calmar": 2.265095487106838,
+    "vol": 0.34271998701361484
+   },
+   "dentro": {
+    "sharpe": 1.6461148186986452,
+    "sortino": 3.8510240938146825,
+    "aa": 0.9195758914696404,
+    "pior_queda": -0.1931065954750455,
+    "calmar": 4.762011826719165,
+    "vol": 0.40281744600728503
+   },
+   "fora": {
+    "sharpe": 0.3415467827173608,
+    "sortino": 0.651570885875979,
+    "aa": 0.20061414219072304,
+    "pior_queda": -0.23666218100535796,
+    "calmar": 0.8476814560674618,
+    "vol": 0.2554022750815122
+   },
+   "plato": 0.0
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "regra": "média de 10 acima da de 60 semanas",
+   "total": {
+    "sharpe": 1.0974790385048097,
+    "sortino": 1.8532470848556488,
+    "aa": 0.7772554074954152,
+    "pior_queda": -0.6476847802197536,
+    "calmar": 1.2000519870664546,
+    "vol": 0.6003489262655035
+   },
+   "dentro": {
+    "sharpe": 1.4361369370006112,
+    "sortino": 2.4311248960471072,
+    "aa": 1.3763774597937841,
+    "pior_queda": -0.6476847802197536,
+    "calmar": 2.125073032172829,
+    "vol": 0.7575861627340787
+   },
+   "fora": {
+    "sharpe": 0.5417243036693761,
+    "sortino": 0.8735064093597303,
+    "aa": 0.28907367106838056,
+    "pior_queda": -0.3134418220228359,
+    "calmar": 0.9222562235084252,
+    "vol": 0.3423852773330896
+   },
+   "plato": 1.3557693029287892
+  },
+  {
+   "familia": "IFR contrário",
+   "regra": "IFR 14: compra ao subir por 35, vende ao cair por 70",
+   "total": {
+    "sharpe": 1.0923613118246014,
+    "sortino": 2.28316751093127,
+    "aa": 0.5252054361682656,
+    "pior_queda": -0.23666218100535785,
+    "calmar": 2.2192199612847117,
+    "vol": 0.35350117810065057
+   },
+   "dentro": {
+    "sharpe": 1.628854174580566,
+    "sortino": 3.903692278111448,
+    "aa": 0.8767031388709838,
+    "pior_queda": -0.19310659547504538,
+    "calmar": 4.539995833463274,
+    "vol": 0.39006314977402773
+   },
+   "fora": {
+    "sharpe": 0.3650567915640345,
+    "sortino": 0.6300905168459695,
+    "aa": 0.21272360203755025,
+    "pior_queda": -0.23666218100535785,
+    "calmar": 0.8988491576215735,
+    "vol": 0.3045079913067192
+   },
+   "plato": 1.084981600574725
+  },
+  {
+   "familia": "Percentis tendência",
+   "regra": "percentil de 26 semanas acima de 80",
+   "total": {
+    "sharpe": 1.0726427276868915,
+    "sortino": 2.0546905222801928,
+    "aa": 0.6727534783827791,
+    "pior_queda": -0.5414090030600723,
+    "calmar": 1.2425975086862997,
+    "vol": 0.5052220164578498
+   },
+   "dentro": {
+    "sharpe": 1.3841118917951583,
+    "sortino": 2.5977339011785707,
+    "aa": 1.1303130039434097,
+    "pior_queda": -0.5414090030600723,
+    "calmar": 2.0877248024226063,
+    "vol": 0.6451655014225515
+   },
+   "fora": {
+    "sharpe": 0.5741719262848616,
+    "sortino": 1.220466558202635,
+    "aa": 0.28039814321109846,
+    "pior_queda": -0.2104845280515214,
+    "calmar": 1.3321556021564869,
+    "vol": 0.26953232767178037
+   },
+   "plato": 1.3841118917951583
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "regra": "média de 14 acima da de 56 semanas",
+   "total": {
+    "sharpe": 1.0650891629137487,
+    "sortino": 1.789057518862459,
+    "aa": 0.7421737764528242,
+    "pior_queda": -0.6476847802197534,
+    "calmar": 1.1458873191385037,
+    "vol": 0.5993187510458263
+   },
+   "dentro": {
+    "sharpe": 1.4150061110987233,
+    "sortino": 2.3871361057739118,
+    "aa": 1.3341588271536127,
+    "pior_queda": -0.6476847802197534,
+    "calmar": 2.0598891125725465,
+    "vol": 0.7546247952731722
+   },
+   "fora": {
+    "sharpe": 0.4758512125899898,
+    "sortino": 0.7572464488866429,
+    "aa": 0.26082236304036144,
+    "pior_queda": -0.3274307548100761,
+    "calmar": 0.7965725858331469,
+    "vol": 0.34578015589743066
+   },
+   "plato": 1.3446927094405372
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "regra": "média de 12 acima da de 60 semanas",
+   "total": {
+    "sharpe": 1.0641183323206356,
+    "sortino": 1.7874465919881826,
+    "aa": 0.7412875242870107,
+    "pior_queda": -0.6476847802197536,
+    "calmar": 1.1445189804143592,
+    "vol": 0.5993877651417681
+   },
+   "dentro": {
+    "sharpe": 1.419560218119439,
+    "sortino": 2.3953355210495375,
+    "aa": 1.3425986038740798,
+    "pior_queda": -0.6476847802197536,
+    "calmar": 2.072919798144011,
+    "vol": 0.7548874107736422
+   },
+   "fora": {
+    "sharpe": 0.46141573048700496,
+    "sortino": 0.732975076559807,
+    "aa": 0.2544571547870329,
+    "pior_queda": -0.31618115532687185,
+    "calmar": 0.8047827977729162,
+    "vol": 0.345171964329802
+   },
+   "plato": 1.3595287564721792
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "regra": "média de 12 acima da de 56 semanas",
+   "total": {
+    "sharpe": 1.0608354378815508,
+    "sortino": 1.785290023406155,
+    "aa": 0.7402738140887175,
+    "pior_queda": -0.6476847802197534,
+    "calmar": 1.142953851466989,
+    "vol": 0.6021211765929605
+   },
+   "dentro": {
+    "sharpe": 1.4359486611327292,
+    "sortino": 2.431149362279926,
+    "aa": 1.3759729542140486,
+    "pior_queda": -0.6476847802197534,
+    "calmar": 2.1244484913590123,
+    "vol": 0.7575969332896294
+   },
+   "fora": {
+    "sharpe": 0.4120212473608182,
+    "sortino": 0.6502852656639333,
+    "aa": 0.23347906125135265,
+    "pior_queda": -0.313441822022836,
+    "calmar": 0.7448880297612053,
+    "vol": 0.3477993377531467
+   },
+   "plato": 1.3489492312268496
+  },
+  {
+   "familia": "MACD",
+   "regra": "MACD 16/17/12",
+   "total": {
+    "sharpe": 1.0571992160544614,
+    "sortino": 1.878815085475942,
+    "aa": 0.7124450596399903,
+    "pior_queda": -0.7467213774626533,
+    "calmar": 0.9540975806275516,
+    "vol": 0.5687363428099831
+   },
+   "dentro": {
+    "sharpe": 1.386462960703834,
+    "sortino": 2.4344923048944778,
+    "aa": 1.225914346881329,
+    "pior_queda": -0.7467213774626533,
+    "calmar": 1.6417292766506368,
+    "vol": 0.7107399597376649
+   },
+   "fora": {
+    "sharpe": 0.5190316140717717,
+    "sortino": 0.9513422483094217,
+    "aa": 0.281482911288641,
+    "pior_queda": -0.26462004961753083,
+    "calmar": 1.0637248073057313,
+    "vol": 0.3420098250930447
+   },
+   "plato": 1.3361366523846343
+  },
+  {
+   "familia": "IFR tendência",
+   "regra": "IFR 7 acima de 55",
+   "total": {
+    "sharpe": 1.0547966448662052,
+    "sortino": 1.9635564591177084,
+    "aa": 0.6814212851658328,
+    "pior_queda": -0.49306783101875207,
+    "calmar": 1.382003128774218,
+    "vol": 0.5317509107184017
+   },
+   "dentro": {
+    "sharpe": 1.4482809337422027,
+    "sortino": 2.695684769355078,
+    "aa": 1.2604975787703414,
+    "pior_queda": -0.467823818864322,
+    "calmar": 2.6943852107194872,
+    "vol": 0.6686477312937101
+   },
+   "fora": {
+    "sharpe": 0.36218614489712353,
+    "sortino": 0.6497376796935218,
+    "aa": 0.21225337027592284,
+    "pior_queda": -0.2689355494268699,
+    "calmar": 0.7892350815214173,
+    "vol": 0.30772618410891933
+   },
+   "plato": 1.3796656473620852
+  },
+  {
+   "familia": "IFR tendência",
+   "regra": "IFR 10 acima de 55",
+   "total": {
+    "sharpe": 1.0476126040575022,
+    "sortino": 1.9180024959792246,
+    "aa": 0.6767593050013916,
+    "pior_queda": -0.4678238188643218,
+    "calmar": 1.4466114757565716,
+    "vol": 0.5344847688957997
+   },
+   "dentro": {
+    "sharpe": 1.4024105161752274,
+    "sortino": 2.561774422547618,
+    "aa": 1.2011849877955707,
+    "pior_queda": -0.4678238188643218,
+    "calmar": 2.5676011766812974,
+    "vol": 0.6745293522921391
+   },
+   "fora": {
+    "sharpe": 0.4403639244807573,
+    "sortino": 0.7879111864196968,
+    "aa": 0.24113778538901154,
+    "pior_queda": -0.2620643676432979,
+    "calmar": 0.9201471667343574,
+    "vol": 0.3046385720125754
+   },
+   "plato": 1.3870276081250368
+  },
+  {
+   "familia": "MACD",
+   "regra": "MACD 8/34/12",
+   "total": {
+    "sharpe": 1.0458673536754184,
+    "sortino": 1.8564313854537242,
+    "aa": 0.7012396397902012,
+    "pior_queda": -0.7301773416685972,
+    "calmar": 0.9603689402190053,
+    "vol": 0.5683879666585266
+   },
+   "dentro": {
+    "sharpe": 1.412615393554953,
+    "sortino": 2.488399569891124,
+    "aa": 1.263192255445964,
+    "pior_queda": -0.7301773416685972,
+    "calmar": 1.7299800793041924,
+    "vol": 0.708272347389694
+   },
+   "fora": {
+    "sharpe": 0.4242983588174178,
+    "sortino": 0.7567757877422899,
+    "aa": 0.24089792680658362,
+    "pior_queda": -0.2533878215601322,
+    "calmar": 0.9507083857596347,
+    "vol": 0.3453848339813255
+   },
+   "plato": 1.328726464474951
+  },
+  {
+   "familia": "MACD",
+   "regra": "MACD 6/34/12",
+   "total": {
+    "sharpe": 1.0389273308840288,
+    "sortino": 1.840938028918187,
+    "aa": 0.6930257699604279,
+    "pior_queda": -0.7140867095895402,
+    "calmar": 0.9705064674271584,
+    "vol": 0.5666782966344459
+   },
+   "dentro": {
+    "sharpe": 1.3958362211204665,
+    "sortino": 2.4511385271203934,
+    "aa": 1.2346192775576914,
+    "pior_queda": -0.7140867095895402,
+    "calmar": 1.728948685051645,
+    "vol": 0.7071100609615014
+   },
+   "fora": {
+    "sharpe": 0.4362527834949368,
+    "sortino": 0.7830499764644486,
+    "aa": 0.24569119902004632,
+    "pior_queda": -0.30618031152982095,
+    "calmar": 0.8024395748781411,
+    "vol": 0.34246621058438126
+   },
+   "plato": 1.3238470311649322
+  },
+  {
+   "familia": "Cruzamento de médias",
+   "regra": "média de 8 acima da de 60 semanas",
+   "total": {
+    "sharpe": 1.0383318316546573,
+    "sortino": 1.7395893279271228,
+    "aa": 0.7164445077139783,
+    "pior_queda": -0.703812198999817,
+    "calmar": 1.0179484082999883,
+    "vol": 0.6016491169652438
+   },
+   "dentro": {
+    "sharpe": 1.3625893746307287,
+    "sortino": 2.2894122386400686,
+    "aa": 1.2514504925924266,
+    "pior_queda": -0.703812198999817,
+    "calmar": 1.778102872287316,
+    "vol": 0.7593932569266713
+   },
+   "fora": {
+    "sharpe": 0.5013666587442477,
+    "sortino": 0.8029506840528049,
+    "aa": 0.27165549537225586,
+    "pior_queda": -0.313441822022836,
+    "calmar": 0.8666855418944835,
+    "vol": 0.34373424340641157
+   },
+   "plato": 1.3079459908004534
+  },
+  {
+   "familia": "MACD",
+   "regra": "MACD 12/26/9",
+   "total": {
+    "sharpe": 1.0371463502355909,
+    "sortino": 1.836575041631825,
+    "aa": 0.6918313166062238,
+    "pior_queda": -0.7499805322459666,
+    "calmar": 0.9224656999220988,
+    "vol": 0.5673040330514383
+   },
+   "dentro": {
+    "sharpe": 1.3669465835759216,
+    "sortino": 2.394871792199648,
+    "aa": 1.192105543852478,
+    "pior_queda": -0.7499805322459666,
+    "calmar": 1.5895153175276158,
+    "vol": 0.7084863238719483
+   },
+   "fora": {
+    "sharpe": 0.49390214566186763,
+    "sortino": 0.8959610525932962,
+    "aa": 0.27053595729835744,
+    "pior_queda": -0.2447054393256266,
+    "calmar": 1.105557596283581,
+    "vol": 0.342357708313691
+   },
+   "plato": 1.3300973579242106
+  }
+ ]
+}

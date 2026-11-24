@@ -22,6 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/bitcoin/backtest.py
+      - run: python scripts/bitcoin/otimiza.py
       - run: python scripts/gera_site.py > /dev/null
       - uses: actions/upload-artifact@v4
         with:
