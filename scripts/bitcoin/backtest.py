@@ -234,9 +234,10 @@ def main():
     datas = [p["data"] for p in px][ini:]
     c_brl = [px[k]["fech"] * brl[k] for k in range(ini, len(px))]
     k0 = next((k for k, d in enumerate(datas) if d >= INICIO_ACOMP), None)
-    curvas, tabela = {}, []
+    curvas, tabela, valores = {}, [], {}
     for nome, r in res.items():
         v = r.pop("_valores"); est = r.pop("_estado")
+        valores[nome] = [round(x, 2) for x in v]
         curvas[nome] = [round(x / cc, 4) for x, cc in zip(v, c_brl)]
         # sinal da última semana fechada: é o que vale para a semana em curso
         proximo = sin[nome][-1] if nome in sin else False
@@ -254,6 +255,9 @@ def main():
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    # Valor semanal em reais de cada estratégia (base dos retornos semanais, mensais e anuais); não vai para o site.
+    json.dump({"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "valores_brl": valores},
+              open(os.path.join(AQUI, "valores_semanais.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
     print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
     print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")
