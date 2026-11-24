@@ -1,0 +1,288 @@
+{
+ "gerado_em": "2026-11-24 03:58 UTC",
+ "periodo": [
+  "2016-07-24",
+  "2026-11-22"
+ ],
+ "benchmarks": {
+  "Bitcoin": {
+   "aa": 0.6401518928242742,
+   "sharpe": 0.923036673261444,
+   "aa_5anos": 0.020060886205467865
+  },
+  "CDI": {
+   "aa": 0.0988712033967345,
+   "sharpe": 0.0,
+   "aa_5anos": 0.13349109205483645
+  }
+ },
+ "estrategias": [
+  {
+   "nome": "Média de 40 semanas",
+   "fechamento_seguinte": {
+    "btc_final": 0.9495676724107202,
+    "aa": 0.6319559726068378,
+    "sharpe": 0.9564099619523101,
+    "pior_queda": -0.6720703079800295,
+    "aa_5anos": 0.2195711831978675,
+    "sharpe_5anos": 0.3767684619894774,
+    "operacoes": 25
+   },
+   "mesmo_fechamento": {
+    "btc_final": 1.576991882498349,
+    "aa": 0.7140962248540299,
+    "sharpe": 1.041577718591388,
+    "pior_queda": -0.6485814289662268,
+    "aa_5anos": 0.2600523726671997,
+    "sharpe_5anos": 0.46705638917359527,
+    "operacoes": 25
+   },
+   "ordens_no_book": {
+    "btc_final": 0.43925255628876775,
+    "aa": 0.5145952088725196,
+    "sharpe": 0.8287305029583688,
+    "pior_queda": -0.7311831303266314,
+    "aa_5anos": 0.19894233534733785,
+    "sharpe_5anos": 0.33089749928644896,
+    "operacoes": 77
+   }
+  },
+  {
+   "nome": "Cruzamento 10 x 40 semanas",
+   "fechamento_seguinte": {
+    "btc_final": 1.2197958474945436,
+    "aa": 0.672003589221128,
+    "sharpe": 1.0045067641133167,
+    "pior_queda": -0.6476847802197535,
+    "aa_5anos": 0.21550009999626663,
+    "sharpe_5anos": 0.3689526298801793,
+    "operacoes": 14
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.6909285036416416,
+    "aa": 0.5824871425959879,
+    "sharpe": 0.9104740504739879,
+    "pior_queda": -0.6476847802197535,
+    "aa_5anos": 0.1450405545467892,
+    "sharpe_5anos": 0.207022197514292,
+    "operacoes": 14
+   }
+  },
+  {
+   "nome": "IFR semanal (30/70)",
+   "fechamento_seguinte": {
+    "btc_final": 0.04592350572213734,
+    "aa": 0.21749147662312418,
+    "sharpe": 0.5107947516476414,
+    "pior_queda": -0.30297652206647296,
+    "aa_5anos": 0.18918816899597402,
+    "sharpe_5anos": 0.3037692717445401,
+    "operacoes": 6
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.03424758858143682,
+    "aa": 0.18340207126903763,
+    "sharpe": 0.4071094372359478,
+    "pior_queda": -0.309443827473573,
+    "aa_5anos": 0.16622993021891674,
+    "sharpe_5anos": 0.2402961890370245,
+    "operacoes": 6
+   }
+  },
+  {
+   "nome": "Rompimento 20 semanas",
+   "fechamento_seguinte": {
+    "btc_final": 0.28734634566386585,
+    "aa": 0.45363158699273143,
+    "sharpe": 0.7797159801370332,
+    "pior_queda": -0.5927690624656701,
+    "aa_5anos": 0.06316697280855044,
+    "sharpe_5anos": -0.07907312402592383,
+    "operacoes": 23
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.5111929353684186,
+    "aa": 0.5369978483329922,
+    "sharpe": 0.8869110831727188,
+    "pior_queda": -0.5935185392242963,
+    "aa_5anos": 0.12042365774988673,
+    "sharpe_5anos": 0.0957552055838432,
+    "operacoes": 23
+   },
+   "ordens_no_book": {
+    "btc_final": 1.2244467538031276,
+    "aa": 0.6726196796005173,
+    "sharpe": 1.0518316288562717,
+    "pior_queda": -0.5321475229632702,
+    "aa_5anos": 0.2225136655798543,
+    "sharpe_5anos": 0.3968241874265062,
+    "operacoes": 29
+   }
+  },
+  {
+   "nome": "MACD semanal",
+   "fechamento_seguinte": {
+    "btc_final": 1.378707894126301,
+    "aa": 0.6919435021723821,
+    "sharpe": 1.0372358110475317,
+    "pior_queda": -0.7498149802287294,
+    "aa_5anos": 0.22729108574637014,
+    "sharpe_5anos": 0.39549266080295586,
+    "operacoes": 35
+   },
+   "mesmo_fechamento": {
+    "btc_final": 1.5259530407020339,
+    "aa": 0.708645639887999,
+    "sharpe": 1.0621487232784066,
+    "pior_queda": -0.6192262898289986,
+    "aa_5anos": 0.18260616094666315,
+    "sharpe_5anos": 0.28900855438093176,
+    "operacoes": 35
+   }
+  },
+  {
+   "nome": "Topos e fundos (Dow)",
+   "fechamento_seguinte": {
+    "btc_final": 1.1845082295995994,
+    "aa": 0.6672587903492737,
+    "sharpe": 1.007658182462418,
+    "pior_queda": -0.6476847802197535,
+    "aa_5anos": 0.07731625940962461,
+    "sharpe_5anos": 0.008117086384034966,
+    "operacoes": 33
+   },
+   "mesmo_fechamento": {
+    "btc_final": 1.6765908657937392,
+    "aa": 0.7242888351861236,
+    "sharpe": 1.0769781247002055,
+    "pior_queda": -0.6483495456304,
+    "aa_5anos": 0.18932304590195814,
+    "sharpe_5anos": 0.3045027695433621,
+    "operacoes": 33
+   },
+   "ordens_no_book": {
+    "btc_final": 1.896409189426105,
+    "aa": 0.7449766924620489,
+    "sharpe": 1.113580297914675,
+    "pior_queda": -0.7267777536015675,
+    "aa_5anos": 0.17626025466668116,
+    "sharpe_5anos": 0.2810303253138973,
+    "operacoes": 61
+   }
+  },
+  {
+   "nome": "Faixas de percentis 52 semanas",
+   "fechamento_seguinte": {
+    "btc_final": 0.03241841557485662,
+    "aa": 0.17713056608483413,
+    "sharpe": 0.37060034737798286,
+    "pior_queda": -0.7398857535873415,
+    "aa_5anos": -0.04136440690506671,
+    "sharpe_5anos": -0.3551115595286497,
+    "operacoes": 8
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.056840476437721645,
+    "aa": 0.24288911296346827,
+    "sharpe": 0.4989706496002954,
+    "pior_queda": -0.6638816585208281,
+    "aa_5anos": -0.059574542376175876,
+    "sharpe_5anos": -0.41481269290616535,
+    "operacoes": 8
+   },
+   "ordens_no_book": {
+    "btc_final": 0.01590075866784128,
+    "aa": 0.09869033617111533,
+    "sharpe": 0.14155337683313388,
+    "pior_queda": -0.5421072170732895,
+    "aa_5anos": 0.0667536089698797,
+    "sharpe_5anos": -0.09943291371537682,
+    "operacoes": 8
+   }
+  },
+  {
+   "nome": "Consenso 7 x 0",
+   "fechamento_seguinte": {
+    "btc_final": 0.03068085823658894,
+    "aa": 0.17086983357643937,
+    "sharpe": 0.3587225340278618,
+    "pior_queda": -0.3638059178698996,
+    "aa_5anos": 0.33886608380467553,
+    "sharpe_5anos": 0.6417170691459804,
+    "operacoes": 6
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.02932146440273455,
+    "aa": 0.16574427415731074,
+    "sharpe": 0.3438823511996512,
+    "pior_queda": -0.3638059178698996,
+    "aa_5anos": 0.3270968231552629,
+    "sharpe_5anos": 0.6160697390439073,
+    "operacoes": 6
+   }
+  },
+  {
+   "nome": "Consenso 6 x 1",
+   "fechamento_seguinte": {
+    "btc_final": 0.11504878880325183,
+    "aa": 0.3306897619447855,
+    "sharpe": 0.6927083355941159,
+    "pior_queda": -0.49557916285368897,
+    "aa_5anos": 0.2491246413867616,
+    "sharpe_5anos": 0.472915150608958,
+    "operacoes": 8
+   },
+   "mesmo_fechamento": {
+    "btc_final": 0.12277812126920438,
+    "aa": 0.3390923248269553,
+    "sharpe": 0.7091507959369894,
+    "pior_queda": -0.4966372031425711,
+    "aa_5anos": 0.27553125436762715,
+    "sharpe_5anos": 0.5462633418872302,
+    "operacoes": 8
+   }
+  },
+  {
+   "nome": "Consenso 5 x 2",
+   "fechamento_seguinte": {
+    "btc_final": 0.7530402014759541,
+    "aa": 0.5957295852804079,
+    "sharpe": 0.9413414226165223,
+    "pior_queda": -0.6476847802197535,
+    "aa_5anos": 0.17412573227342243,
+    "sharpe_5anos": 0.2627636000404292,
+    "operacoes": 16
+   },
+   "mesmo_fechamento": {
+    "btc_final": 1.1627724737927114,
+    "aa": 0.6642722437348247,
+    "sharpe": 1.0215446314571175,
+    "pior_queda": -0.6483495456304,
+    "aa_5anos": 0.2033244537787242,
+    "sharpe_5anos": 0.3408863204850597,
+    "operacoes": 16
+   }
+  },
+  {
+   "nome": "Consenso 4 x 3",
+   "fechamento_seguinte": {
+    "btc_final": 0.8482028269427226,
+    "aa": 0.6142187766170024,
+    "sharpe": 0.9747516642777663,
+    "pior_queda": -0.5927690624656701,
+    "aa_5anos": 0.15405341574019427,
+    "sharpe_5anos": 0.2057711206329347,
+    "operacoes": 29
+   },
+   "mesmo_fechamento": {
+    "btc_final": 1.5902385032029647,
+    "aa": 0.7154848097684123,
+    "sharpe": 1.0831562805877957,
+    "pior_queda": -0.5935185392242963,
+    "aa_5anos": 0.1733083669611417,
+    "sharpe_5anos": 0.2604325505926099,
+    "operacoes": 29
+   }
+  }
+ ]
+}
