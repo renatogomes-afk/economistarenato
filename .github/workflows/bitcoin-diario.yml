@@ -1,0 +1,37 @@
+# Piloto /bitcoin: boletim diário. Roda todo dia às 00:10 UTC (20:10 em Cuiabá), logo depois do fechamento do dia
+# na Coinbase. Rodado à mão, também grava a prévia do dia em curso.
+name: Bitcoin - boletim diário
+
+on:
+  schedule:
+    - cron: "10 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bitcoin-robo
+  cancel-in-progress: false
+
+jobs:
+  diario:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/bitcoin/diario.py
+        env:
+          PARCIAL: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+      - run: python scripts/gera_site.py > /dev/null
+      - name: Publica
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/bitcoin-testes'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site scripts/bitcoin
+          git diff --cached --quiet || git commit -m "Bitcoin: boletim diário"
+          git pull --rebase -X theirs
+          git push
