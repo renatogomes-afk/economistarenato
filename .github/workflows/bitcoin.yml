@@ -29,8 +29,8 @@ jobs:
           path: |
             scripts/bitcoin/resultados.json
             site/bitcoin/dados.json
-      - name: Publica (só na main)
-        if: github.ref == 'refs/heads/main'
+      - name: Publica (main) ou grava a prévia (bitcoin-testes)
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/bitcoin-testes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
