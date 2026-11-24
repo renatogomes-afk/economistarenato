@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124i"
+CSS_V = "20261124j"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1332,9 +1332,11 @@ var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
 function br(iso){return iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4)}
 function idx(iso){var D=V.datas,k;for(k=D.length-1;k>=0;k--)if(D[k]<=iso)return k;return 0}
+function ex(o,ref){if(o===ref)return{t:'',c:''};var d=(anosJ>=1?o.aa-ref.aa:o.t-ref.t);return{t:pct(d,1).replace('%',' p.p.'),c:d>=0?'acima':'abaixo'}}
+var anosJ=0;
 function calcula(){
  var a=idx(de.value),b=idx(ate.value);if(b<=a){res.textContent='Escolha um fim depois do início.';corpo.innerHTML='';return}
- var dias=(Date.parse(V.datas[b])-Date.parse(V.datas[a]))/864e5,anos=dias/365.25,linhas=[],cdi=null;
+ var dias=(Date.parse(V.datas[b])-Date.parse(V.datas[a]))/864e5,anos=dias/365.25,linhas=[],cdi=null;anosJ=anos;
  Object.keys(V.valores_brl).forEach(function(n){var v=V.valores_brl[n],t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
   for(var k=a;k<=b;k++){if(v[k]>pico)pico=v[k];q=Math.min(q,v[k]/pico-1)}
   var o={n:n,t:t,aa:aa,q:q};if(n==='Só CDI')cdi=o;linhas.push(o)});
@@ -1343,7 +1345,7 @@ function calcula(){
  corpo.innerHTML=bench.concat(est).map(function(o,i){var b=CFG.bench[o.n],c=b?'':(o.t>cdi.t?'acima':'abaixo');
   return '<tr'+(b?' class="regua"':'')+'><td><i class="cor" style="background:'+CFG.cores[o.n]+'"></i>'+(b||o.n)+'</td>'+
   '<td class="num '+c+(!b&&o.t>btc.t?' bate-btc':'')+'">'+pct(o.t,1)+'</td><td class="num '+c+'">'+pct(o.aa,1)+'</td>'+
-  '<td class="num">'+pct(o.q,0)+'</td><td class="num">'+(b?'':pct(o.t-cdi.t,1).replace('%',' p.p.'))+'</td></tr>'}).join('');
+  '<td class="num '+ex(o,cdi).c+'">'+ex(o,cdi).t+'</td><td class="num '+ex(o,btc).c+'">'+ex(o,btc).t+'</td><td class="num">'+pct(o.q,0)+'</td></tr>'}).join('');
  var best=est[0];
  res.innerHTML='De <b>'+br(V.datas[a])+'</b> a <b>'+br(V.datas[b])+'</b> ('+(anos>=1?anos.toLocaleString('pt-BR',{maximumFractionDigits:1})+' anos':Math.round(dias/7)+' semanas')+'). Melhor estratégia: <b>'+best.n+'</b>, '+pct(best.t,1)+'; bitcoin '+pct(btc.t,1)+'; CDI '+pct(cdi.t,1)+'.';
 }
@@ -1372,13 +1374,69 @@ def janela_btc_html():
     </div>
     <p class="jan-resumo" id="jan-resumo"></p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
-      <thead><tr><th>Estratégia</th><th class="num">No período</th><th class="num">Ao ano</th><th class="num">Pior queda</th><th class="num">Contra o CDI</th></tr></thead>
+      <thead><tr><th>Estratégia</th><th class="num">No período</th><th class="num">Ao ano</th><th class="num">Excesso sobre o CDI</th><th class="num">Excesso sobre o bitcoin</th><th class="num">Pior queda</th></tr></thead>
       <tbody id="jan-corpo"></tbody>
     </table></div>
-    <p class="nota-min">Verde: acima do CDI no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
+    <p class="nota-min">Excesso de retorno = retorno ao ano da estratégia menos o do benchmark, em pontos percentuais (em janelas menores que um ano, a diferença no período). Verde: acima do CDI no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
     </div>
     <script type="application/json" id="jan-cfg">{json.dumps(cfg, ensure_ascii=False)}</script>
     <script>{JANELA_JS}</script>
+"""
+
+
+def otimizacao_btc_html():
+    arq = os.path.join(RAIZ, "scripts", "bitcoin", "otimizacao.json")
+    if not os.path.exists(arq):
+        return ""
+    O = json.load(open(arq, encoding="utf-8"))
+    B = O["benchmarks"]
+    cdi, btc = B["CDI"]["fora"]["aa"], B["Bitcoin (comprar e segurar)"]["fora"]["aa"]
+    def p1(x):
+        return f"{x * 100:+.1f}%".replace(".", ",").replace("-", "−")
+    def pp(x):
+        return f"{x * 100:+.1f}".replace(".", ",").replace("-", "−") + " p.p."
+    def d2(x):
+        return f"{x:.2f}".replace(".", ",").replace("-", "−")
+    def cls(x):
+        return "acima" if x >= 0 else "abaixo"
+    linhas = []
+    for nome, m in (("Benchmark: o próprio bitcoin", B["Bitcoin (comprar e segurar)"]["fora"]), ("Benchmark: reais no CDI", B["CDI"]["fora"])):
+        linhas.append(f'<tr class="regua"><td>{nome}</td><td></td><td class="num">{d2(m["sharpe"])}</td><td class="num">{p1(m["aa"])}</td>'
+                      f'<td class="num">{"" if m is B["CDI"]["fora"] else pp(m["aa"] - cdi)}</td><td class="num">{"" if m is B["Bitcoin (comprar e segurar)"]["fora"] else pp(m["aa"] - btc)}</td><td class="num">{p1(m["pior_queda"]) if m["pior_queda"] < 0 else "0%"}</td><td></td></tr>')
+    for x in sorted(O["por_familia"], key=lambda x: -x["fora"]["sharpe"]):
+        m = x["fora"]
+        linhas.append(f'<tr><td><b>{e(x["familia"])}</b><small>{e(x["escolhida"])}</small></td><td class="num">{d2(x["dentro"]["sharpe"])}</td>'
+                      f'<td class="num {cls(m["sharpe"])}">{d2(m["sharpe"])}</td><td class="num">{p1(m["aa"])}</td>'
+                      f'<td class="num {cls(m["aa"] - cdi)}">{pp(m["aa"] - cdi)}</td><td class="num {cls(m["aa"] - btc)}">{pp(m["aa"] - btc)}</td>'
+                      f'<td class="num">{p1(m["pior_queda"])}</td><td class="num">{x["fracao_positiva_fora"] * 100:.0f}% de {x["testadas"]}</td></tr>')
+    W = O["walk_forward"]
+    wf = sorted(((k, v["metricas"]) for k, v in W.items()), key=lambda kv: -kv[1]["sharpe"])
+    wfb = O["walk_forward_benchmarks"]
+    wcdi, wbtc = wfb["CDI"]["aa"], wfb["Bitcoin (comprar e segurar)"]["aa"]
+    wl = [f'<tr class="regua"><td>Benchmark: o próprio bitcoin</td><td class="num">{d2(wfb["Bitcoin (comprar e segurar)"]["sharpe"])}</td><td class="num">{p1(wbtc)}</td><td class="num">{pp(wbtc - wcdi)}</td><td class="num"></td><td class="num">{p1(wfb["Bitcoin (comprar e segurar)"]["pior_queda"])}</td></tr>',
+          f'<tr class="regua"><td>Benchmark: reais no CDI</td><td class="num">{d2(0)}</td><td class="num">{p1(wcdi)}</td><td class="num"></td><td class="num">{pp(wcdi - wbtc)}</td><td class="num">0%</td></tr>']
+    for k, m in wf:
+        wl.append(f'<tr><td>{e(k)}</td><td class="num">{d2(m["sharpe"])}</td><td class="num">{p1(m["aa"])}</td>'
+                  f'<td class="num {cls(m["aa"] - wcdi)}">{pp(m["aa"] - wcdi)}</td><td class="num {cls(m["aa"] - wbtc)}">{pp(m["aa"] - wbtc)}</td><td class="num">{p1(m["pior_queda"])}</td></tr>')
+    di, fo = O["dentro"], O["fora"]
+    return f"""    <h3 class="conceito-tit" id="otimizacao">As melhores corrigidas pelo risco</h3>
+    <p>Testei {O['testadas']} variações das regras dos autores (médias, cruzamentos, IFR, rompimentos, MACD, topos e fundos, percentis e os consensos). Otimizar muitos parâmetros sempre acha um vencedor por sorte; por isso cada família escolheu sua melhor regra só com os dados de {data_br(di[0])} a {data_br(di[1])} e é medida aqui no período seguinte, de {data_br(fo[0])} a {data_br(fo[1])}, que ela não viu. A régua é o índice de Sharpe: quanto a estratégia rendeu acima do CDI para cada unidade de oscilação.</p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos tab-otim">
+      <thead><tr><th>Família e regra escolhida</th><th class="num">Sharpe na escolha</th><th class="num">Sharpe fora da amostra</th><th class="num">Ao ano</th><th class="num">Excesso sobre o CDI</th><th class="num">Excesso sobre o bitcoin</th><th class="num">Pior queda</th><th class="num">Variações com Sharpe positivo</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table></div>
+    <p class="nota-min">Excesso de retorno = retorno ao ano da estratégia menos o do benchmark, em pontos percentuais, no período fora da amostra. "Variações com Sharpe positivo" mostra quantas das regras testadas na família ficaram acima do CDI fora da amostra: quando quase todas ficam, o resultado não depende de um parâmetro de sorte.</p>
+    <h3 class="conceito-tit">Escolhendo sem ver o futuro, ano a ano</h3>
+    <p>Outra prova: a cada ano, desde {O['walk_forward_desde']}, escolhe-se o melhor parâmetro de cada família com os dados até o fim do ano anterior, e ele vale só no ano seguinte. É o resultado que um investidor teria obtido seguindo a otimização em tempo real.</p>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos tab-otim">
+      <thead><tr><th>Família</th><th class="num">Sharpe</th><th class="num">Ao ano</th><th class="num">Excesso sobre o CDI</th><th class="num">Excesso sobre o bitcoin</th><th class="num">Pior queda</th></tr></thead>
+      <tbody>
+{chr(10).join(wl)}
+      </tbody>
+    </table></div>
+    <p class="nota-min">Atenção a regras com poucas operações: uma regra que opera duas vezes por ano pode liderar por acaso. Teste no histórico não garante resultado futuro e não é recomendação de investimento. Código em scripts/bitcoin/otimiza.py; atualizado em {e(O['gerado_em'])}.</p>
 """
 
 
@@ -1429,7 +1487,8 @@ def anuais_btc_html(D):
       </tbody>
     </table></div>
     <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
-{janela_btc_html()}"""
+{janela_btc_html()}
+{otimizacao_btc_html()}"""
 
 
 def curvas_btc_svg(D):
