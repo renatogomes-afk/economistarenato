@@ -21,16 +21,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  # Dois jobs, como no modelo oficial do GitHub: o deploy num job separado encontra o artefato
+  # (no mesmo job, o deploy às vezes procura o artefato antes de ele ficar visível e falha).
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
