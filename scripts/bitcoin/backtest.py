@@ -1,11 +1,11 @@
 """Piloto /bitcoin: testa sinais semanais de análise técnica no histórico do bitcoin.
 
 Dados (baixados na hora, fontes públicas):
-  - BTC/USD semanal: Kraken, OHLC público (XBTUSD, intervalo de 1 semana).
+  - BTC/USD: velas diárias da Coinbase, agrupadas em semanas que fecham no domingo (UTC).
   - Dólar (PTAX venda, série SGS 1) e CDI (taxa diária, série SGS 12): Banco Central do Brasil.
 Regras: decisão uma vez por semana; o sinal do fechamento de uma semana é executado no fechamento da seguinte; posição inicial = 1 BTC;
 fora do mercado o dinheiro rende CDI; taxa de 0,25% por compra ou venda; sem alavancagem.
-Saída: scripts/bitcoin/resultados.json e uma tabela no terminal.
+Saída: scripts/bitcoin/resultados.json, site/bitcoin/dados.json (lido pela página) e uma tabela no terminal.
 """
 import json, math, os, sys, urllib.request, datetime as dt
 
@@ -20,14 +20,23 @@ def baixa(url):
 
 
 def btc_semanal():
-    d = baixa("https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=10080")
-    if d.get("error"):
-        raise RuntimeError(d["error"])
-    linhas = next(v for k, v in d["result"].items() if k != "last")
-    out = []
-    for t, o, h, l, c, *_ in linhas:
-        out.append({"data": dt.datetime.utcfromtimestamp(int(t)).date(), "alta": float(h), "baixa": float(l), "fech": float(c)})
-    return out[:-1]  # a última semana ainda não fechou
+    """Velas diárias da Coinbase (BTC-USD) agrupadas em semanas que fecham no domingo (UTC)."""
+    dias, ini, hoje = {}, dt.date(2015, 7, 20), dt.date.today()
+    while ini <= hoje:
+        fim = min(ini + dt.timedelta(days=299), hoje)
+        url = (f"https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400"
+               f"&start={ini.isoformat()}T00:00:00Z&end={fim.isoformat()}T23:59:59Z")
+        for t, lo, hi, op, cl, vol in baixa(url):
+            dias[dt.datetime.utcfromtimestamp(int(t)).date()] = (float(hi), float(lo), float(cl))
+        ini = fim + dt.timedelta(days=1)
+    semanas = {}
+    for d in sorted(dias):
+        domingo = d + dt.timedelta(days=6 - d.weekday())
+        hi, lo, cl = dias[d]
+        w = semanas.setdefault(domingo, {"data": domingo, "alta": hi, "baixa": lo, "fech": cl, "ult": d})
+        w["alta"], w["baixa"], w["fech"], w["ult"] = max(w["alta"], hi), min(w["baixa"], lo), cl, d
+    out = [w for k, w in sorted(semanas.items()) if w["ult"] == k]  # só semanas que já fecharam no domingo
+    return out, dias
 
 
 def sgs(serie, ini):
@@ -137,7 +146,7 @@ def simula(px, dentro, brl, cdi, ini):
     pos = True  # começa com 1 BTC
     if not dentro[ini]:
         caixa, btc, pos, trocas = c[ini] * (1 - TAXA), 0.0, False, 1
-    valores = []
+    valores, desde = [], datas[ini]
     for i in range(ini, len(px)):
         if i > ini and not pos:
             dias = (datas[i] - datas[i - 1]).days
@@ -147,6 +156,8 @@ def simula(px, dentro, brl, cdi, ini):
             else: caixa, btc = btc * c[i] * (1 - TAXA), 0.0
             pos, trocas = dentro[i], trocas + 1
         semanas_dentro += pos
+        if i > ini and dentro[i] != dentro[i - 1]:
+            desde = datas[i]
         valores.append(btc * c[i] + caixa)
     anos = (datas[-1] - datas[ini]).days / 365.25
     rets = [valores[k] / valores[k - 1] - 1 for k in range(1, len(valores))]
@@ -157,32 +168,51 @@ def simula(px, dentro, brl, cdi, ini):
         pico = max(pico, v); pior = min(pior, v / pico - 1)
     return {"btc_final": valores[-1] / c[-1], "retorno_anual_brl": (valores[-1] / valores[0]) ** (1 / anos) - 1,
             "volatilidade_anual": vol, "pior_queda": pior, "operacoes": trocas,
-            "tempo_comprado": semanas_dentro / len(valores)}
+            "tempo_comprado": semanas_dentro / len(valores),
+            "_valores": valores, "_estado": {"comprado": pos, "btc": btc, "caixa_brl": caixa, "desde": desde.isoformat()}}
+
+
+INICIO_ACOMP = dt.date(2026, 11, 22)  # fechamento de domingo antes do lançamento do piloto
 
 
 def main():
-    px = btc_semanal()
+    px, dias = btc_semanal()
     ini_data = px[0]["data"]
     ptax = sgs(1, ini_data - dt.timedelta(days=15))
     cdi_d = sgs(12, ini_data - dt.timedelta(days=15))
     brl = [ultimo_ate(ptax, p["data"]) for p in px]
     cdi = [ultimo_ate(cdi_d, p["data"]) or 0.0 for p in px]
     ini = 52  # um ano de histórico para todos os indicadores terem dados
+    sin = sinais(px)
     # Sinal visto no fechamento da semana t é executado no fechamento da semana t+1 (sem olhar o futuro).
-    res = {nome: simula(px, [d[0]] + d[:-1], brl, cdi, ini) for nome, d in sinais(px).items()}
-    # CDI puro: vende 1 BTC no início e deixa no CDI
+    res = {nome: simula(px, [d[0]] + d[:-1], brl, cdi, ini) for nome, d in sin.items()}
     so_cdi = simula(px, [False] * len(px), brl, cdi, ini)
     so_cdi["operacoes"] = 1
-    res["Só CDI (vende tudo no início)"] = so_cdi
-    saida = {"gerado_em": dt.date.today().isoformat(), "inicio": px[ini]["data"].isoformat(), "fim": px[-1]["data"].isoformat(),
-             "semanas": len(px) - ini, "taxa_por_operacao": TAXA,
-             "fontes": {"btc": "Kraken, OHLC semanal XBTUSD", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
-             "resultados": res}
-    json.dump(saida, open(os.path.join(AQUI, "resultados.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    res["Só CDI"] = so_cdi
+    datas = [p["data"] for p in px][ini:]
+    c_brl = [px[k]["fech"] * brl[k] for k in range(ini, len(px))]
+    k0 = next((k for k, d in enumerate(datas) if d >= INICIO_ACOMP), None)
+    curvas, tabela = {}, []
+    for nome, r in res.items():
+        v = r.pop("_valores"); est = r.pop("_estado")
+        curvas[nome] = [round(x / cc, 4) for x, cc in zip(v, c_brl)]
+        # sinal da última semana fechada: é o que vale para a semana em curso
+        proximo = sin[nome][-1] if nome in sin else False
+        tabela.append({"nome": nome, **r, **est, "sinal_para_esta_semana": proximo,
+                       "valor_inicio_acomp_brl": v[k0] if k0 is not None else None})
+    ult = px[-1]
+    saida = {"gerado_em": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"), "inicio": datas[0].isoformat(), "fim": datas[-1].isoformat(),
+             "semanas": len(datas), "taxa_por_operacao": TAXA, "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
+             "ultimo_fech_usd": ult["fech"], "ultimo_fech_brl": ult["fech"] * brl[-1], "ptax": brl[-1],
+             "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
+             "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
+    for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
+        os.makedirs(os.path.dirname(destino), exist_ok=True)
+        json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
-    print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8}")
-    for nome, r in sorted(res.items(), key=lambda kv: -kv[1]["btc_final"]):
-        print(f"{nome:34} {r['btc_final']:9.3f} {r['retorno_anual_brl']:8.1%} {r['volatilidade_anual']:6.0%} {r['pior_queda']:10.1%} {r['operacoes']:5d} {r['tempo_comprado']:8.0%}")
+    print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
+    for r in sorted(tabela, key=lambda x: -x["btc_final"]):
+        print(f"{r['nome']:34} {r['btc_final']:9.3f} {r['retorno_anual_brl']:8.1%} {r['volatilidade_anual']:6.0%} {r['pior_queda']:10.1%} {r['operacoes']:5d} {r['tempo_comprado']:8.0%} {'dentro' if r['sinal_para_esta_semana'] else 'fora':>6}")
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ Saída: site/index.html, site/arquivo/, site/analises/, site/servicos/, site/sob
        site/sitemap.xml
 Cabeçalho, menu e rodapé ficam aqui, num lugar só: mexeu aqui, mudou em todas as páginas.
 """
-import json, re, os, html
+import json, re, os, html, math
 from datetime import date
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261124c"
+CSS_V = "20261124d"
 LEMA = "Economia pelas fontes"  # lema antigo, só no Arquivo
 FRASE = "Ajudo pequenas e médias empresas a usar IA com retorno medido"
 # Formulário de contato via FormSubmit (grátis, sem conta): o 1º envio pede ativação por e-mail.
@@ -1102,6 +1102,117 @@ def diario_btc_html():
 """
 
 
+CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4",
+             "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700",
+             "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a"}
+
+
+def curvas_btc_svg(D):
+    datas = D["curvas"]["datas"]
+    nomes = [x["nome"] for x in D["estrategias"]]
+    w, h, pl, pr, pt, pb = 760, 340, 64, 12, 10, 26
+    vals = [v for n in nomes for v in D["curvas"][n] if v > 0]
+    lo = math.floor(math.log10(max(min(vals), 1e-3)))
+    hi = max(math.ceil(math.log10(max(vals)) * 2) / 2, 0.5)
+    n = len(datas) - 1
+    X = lambda i: pl + i * (w - pl - pr) / n
+    Y = lambda v: pt + (hi - math.log10(max(v, 1e-3))) * (h - pt - pb) / (hi - lo)
+    grade = []
+    for k in range(int(lo), int(math.floor(hi)) + 1):
+        v = 10 ** k
+        grade.append(f'<line x1="{pl}" x2="{w - pr}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" class="{"g1" if k == 0 else "g"}"/>'
+                     f'<text x="{pl - 6}" y="{Y(v) + 4:.1f}" text-anchor="end">{str(v).replace(".", ",")} BTC</text>')
+    anos = []
+    for i, d in enumerate(datas):
+        if i and d[:4] != datas[i - 1][:4] and int(d[:4]) % 2 == 0:
+            anos.append(f'<text x="{X(i):.1f}" y="{h - 6}" text-anchor="middle">{d[:4]}</text>')
+    linhas = []
+    for nome in sorted(nomes, key=lambda x: x == "Comprar e segurar"):
+        pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(D["curvas"][nome]))
+        largura = 2.4 if nome == "Comprar e segurar" else 1.5
+        linhas.append(f'<polyline points="{pts}" fill="none" stroke="{CORES_BTC.get(nome, "#666")}" stroke-width="{largura}"><title>{e(nome)}</title></polyline>')
+    leg = "".join(f'<span><i style="background:{CORES_BTC.get(x, "#666")}"></i>{e(x)}</span>' for x in nomes)
+    return (f'<svg class="curvas-btc" viewBox="0 0 {w} {h}" role="img" aria-label="Quanto bitcoin cada estratégia teria, semana a semana, em escala logarítmica">'
+            + "".join(grade) + "".join(anos) + "".join(linhas) + f'</svg>\n    <div class="legenda-btc">{leg}</div>')
+
+
+def acompanhamento_btc_html():
+    arq = os.path.join(SITE, "bitcoin", "dados.json")
+    if not os.path.exists(arq):
+        return ""
+    D = json.load(open(arq, encoding="utf-8"))
+
+    def pct(x):
+        return f"{x * 100:+.1f}%".replace(".", ",")
+
+    def br(d):
+        return f"{d[8:10]}/{d[5:7]}/{d[:4]}"
+
+    def num(x, k):
+        return f"{x:.{k}f}".replace(".", ",")
+
+    p0 = D["ultimo_fech_brl"]
+    linhas = []
+    for r in sorted(D["estrategias"], key=lambda x: -x["btc_final"]):
+        cls = ' class="regua"' if r["nome"] == "Comprar e segurar" else ""
+        pos = "Comprado" if r["comprado"] else "No CDI"
+        if r["nome"] == "Só CDI":
+            prox = "Ficar no CDI"
+        elif r["sinal_para_esta_semana"]:
+            prox = "Ficar comprado" if r["comprado"] else "Comprar"
+        else:
+            prox = "Vender" if r["comprado"] else "Ficar no CDI"
+        v0 = r["valor_inicio_acomp_brl"] or 0
+        v = r["btc"] * p0 + r["caixa_brl"]
+        ret = pct(v / v0 - 1) if v0 else "–"
+        linhas.append(
+            f'        <tr{cls} data-btc="{r["btc"]:.8f}" data-caixa="{r["caixa_brl"]:.2f}" data-v0="{v0:.2f}">\n'
+            f'          <td><i class="cor" style="background:{CORES_BTC.get(r["nome"], "#666")}"></i>{e(r["nome"])}</td>\n'
+            f'          <td>{pos}<small>desde {br(r["desde"])}</small></td>\n'
+            f'          <td class="num vivo-btc">{num(v / p0, 3)}</td>\n'
+            f'          <td class="num vivo-ret">{ret}</td>\n'
+            f'          <td>{prox}</td>\n'
+            f'          <td class="num">{num(r["btc_final"], 2)}</td>\n'
+            f'          <td class="num">{pct(r["pior_queda"])}</td>\n'
+            f'        </tr>')
+    ini, fim, ia = br(D["inicio"]), br(D["fim"]), br(D["inicio_acompanhamento"])
+    tv = ('{"container_id":"tv-btc","symbol":"COINBASE:BTCUSD","interval":"W","timezone":"America/Sao_Paulo","theme":"light",'
+          '"style":"1","locale":"br","autosize":true,"hide_side_toolbar":true,"allow_symbol_change":false,'
+          '"studies":["MASimple@tv-basicstudies","MACD@tv-basicstudies"]}')
+    js = ("(function(){var ptax=" + f"{D['ptax']:.4f}" + ";"
+          "function f(p){document.getElementById('btc-agora').textContent='R$ '+Math.round(p).toLocaleString('pt-BR');"
+          "document.getElementById('btc-hora').textContent='(agora, '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})+')';"
+          "document.querySelectorAll('.tab-btc tbody tr').forEach(function(tr){var b=+tr.dataset.btc,c=+tr.dataset.caixa,v0=+tr.dataset.v0,v=b*p+c;"
+          "tr.querySelector('.vivo-btc').textContent=(v/p).toFixed(3).replace('.',',');"
+          "if(v0){var r=(v/v0-1)*100,td=tr.querySelector('.vivo-ret');td.textContent=(r>=0?'+':'')+r.toFixed(1).replace('.',',')+'%';td.className='num vivo-ret '+(r>=0?'sobe':'desce')}})}"
+          "function busca(){fetch('https://api.coinbase.com/v2/prices/BTC-BRL/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount)})"
+          ".catch(function(){fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){f(+j.data.amount*ptax)}).catch(function(){})})}"
+          "busca();setInterval(busca,60000)})();")
+    return f"""  <section class="para-quem" id="ao-vivo">
+    <h2>Acompanhamento ao vivo</h2>
+    <p>Bitcoin agora: <b id="btc-agora">R$ {num(p0, 0)}</b> <small class="nota-min" id="btc-hora">(fechamento de {fim})</small></p>
+    <div class="tv-box">
+      <div class="tradingview-widget-container"><div id="tv-btc"></div></div>
+      <script src="https://s3.tradingview.com/tv.js"></script>
+      <script>if(window.TradingView)new TradingView.widget({tv});</script>
+    </div>
+    <div class="tab-rolagem">
+    <table class="tab-btc">
+      <thead><tr><th>Estratégia</th><th>Posição</th><th class="num">BTC agora</th><th class="num">Desde {ia}</th><th>Decisão de domingo</th><th class="num">BTC no fim do teste</th><th class="num">Pior queda</th></tr></thead>
+      <tbody>
+{chr(10).join(linhas)}
+      </tbody>
+    </table>
+    </div>
+    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada sinal manda fazer no próximo fechamento semanal. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
+    <h3 class="conceito-tit">Quanto bitcoin cada estratégia teria, semana a semana</h3>
+    {curvas_btc_svg(D)}
+    <p class="nota-min">Escala logarítmica. Acima da linha de 1 BTC, a estratégia ganhou de quem só comprou e segurou.</p>
+    <script>{js}</script>
+  </section>
+"""
+
+
 def pagina_bitcoin():
     rel = "../"
     arq = [("1889-um-dolar-honesto", "1889", "Um dólar honesto: a moeda que compra sempre o mesmo"),
@@ -1143,6 +1254,7 @@ def pagina_bitcoin():
 {est}
   </ol>
 
+{acompanhamento_btc_html()}
 {diario_btc_html()}
   <section class="para-quem">
     <h2>Como eu meço</h2>

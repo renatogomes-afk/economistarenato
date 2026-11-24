@@ -4,6 +4,11 @@ name: Publicar no GitHub Pages
 on:
   push:
     branches: [main]
+  # Os commits feitos pelo robô do teste de bitcoin não disparam "push"; este gatilho publica depois dele.
+  workflow_run:
+    workflows: ["Bitcoin - teste dos sinais"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

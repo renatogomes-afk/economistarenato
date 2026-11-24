@@ -754,3 +754,17 @@ figcaption .credito::before{content:"· "}
 .diario-tab .sobe{color:#0a7d35}.diario-tab .desce{color:var(--alerta)}
 .conceito-tit{font-family:var(--display);font-weight:400;font-synthesis-weight:none;font-size:20px;margin:18px 0 8px}
 .para-quem p+p{margin-top:12px}
+.tv-box{height:420px;margin:12px 0 20px;border:1px solid var(--linha)}
+.tv-box .tradingview-widget-container,.tv-box #tv-btc{height:100%}
+.tab-rolagem{overflow-x:auto;margin:8px 0}
+.tab-btc{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:13.5px;min-width:720px}
+.tab-btc th,.tab-btc td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--linha);vertical-align:top}
+.tab-btc th{font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--cinza)}
+.tab-btc .num{text-align:right;font-variant-numeric:tabular-nums}
+.tab-btc small{display:block;color:var(--cinza);font-size:11.5px}
+.tab-btc tr.regua td{font-weight:600;background:#f6f5f1}
+.tab-btc .sobe{color:#0a7d35}.tab-btc .desce{color:var(--alerta)}
+.tab-btc i.cor,.legenda-btc i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px;vertical-align:baseline}
+.curvas-btc{width:100%;height:auto;margin:8px 0 4px;font-family:var(--sans);font-size:11px;fill:var(--cinza)}
+.curvas-btc .g{stroke:var(--linha)}.curvas-btc .g1{stroke:#1A1A1A;stroke-dasharray:4 3}
+.legenda-btc{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--sans);font-size:12px;color:var(--tinta-2)}

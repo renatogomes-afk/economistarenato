@@ -1,14 +1,17 @@
-# Piloto /bitcoin: roda o teste dos sinais semanais (dados da Kraken e do Banco Central).
+# Piloto /bitcoin: refaz o teste dos sinais com os preços até o último domingo e atualiza a página.
+# Roda toda segunda às 00:30 UTC (domingo 21h30 em Brasília), depois do fechamento semanal.
 name: Bitcoin - teste dos sinais
 
 on:
+  schedule:
+    - cron: "30 0 * * 1"
   push:
     branches: [bitcoin-testes]
     paths: ["scripts/bitcoin/**", ".github/workflows/bitcoin.yml"]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   testa:
@@ -19,7 +22,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/bitcoin/backtest.py
+      - run: python scripts/gera_site.py > /dev/null
       - uses: actions/upload-artifact@v4
         with:
           name: resultados
-          path: scripts/bitcoin/resultados.json
+          path: |
+            scripts/bitcoin/resultados.json
+            site/bitcoin/dados.json
+      - name: Publica (só na main)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site scripts/bitcoin/resultados.json
+          git diff --cached --quiet || git commit -m "Bitcoin: atualização semanal dos sinais"
+          git push
