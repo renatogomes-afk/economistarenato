@@ -177,7 +177,7 @@ function busca(){
  .then(function(v){var ws=semanas(Array.isArray(v)?v:[]);
   fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot').then(function(r){return r.json()}).then(function(j){var p=+j.data.amount;
    if(!ws.length)ws=[{alta:p,baixa:p,fech:p}];desenha(ws,p)}).catch(function(){if(ws.length)desenha(ws,ws[ws.length-1].fech)})})}
-busca();setInterval(busca,60000);
+window.gsSinais=sinais;busca();setInterval(busca,60000);
 })();
 </script>
 
