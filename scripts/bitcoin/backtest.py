@@ -238,6 +238,10 @@ def main():
     cdi_d = sgs(12, ini_data - dt.timedelta(days=15))
     brl = [ultimo_ate(ptax, p["data"]) for p in px]
     cdi = [ultimo_ate(cdi_d, p["data"]) or 0.0 for p in px]
+    # Cópia dos dados semanais usados (preço, dólar e CDI), para a otimização rodar sem baixar de novo.
+    json.dump({"datas": [p["data"].isoformat() for p in px], "fech": [p["fech"] for p in px], "alta": [p["alta"] for p in px],
+               "baixa": [p["baixa"] for p in px], "ptax": brl, "cdi": cdi},
+              open(os.path.join(AQUI, "precos_semanais.json"), "w", encoding="utf-8"), separators=(",", ":"))
     ini = 52  # um ano de histórico para todos os indicadores terem dados
     sin = sinais(px)
     votos = [sum(sin[v][i] for v in VOTANTES) for i in range(len(px))]
