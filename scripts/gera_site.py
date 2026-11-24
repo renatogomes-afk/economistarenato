@@ -1119,7 +1119,9 @@ def consenso_btc_html(D):
     votos = "".join(f'<li class="{"sim" if v else "nao"}"><i class="cor" style="background:{cor_btc(n)}"></i>{e(n)}: <b>{"comprado" if v else "fora"}</b></li>' for n, v in C["votos_por_sinal"].items())
     def pct(x):
         return f"{x * 100:+.1f}%".replace(".", ",")
-    var = "".join(f'<tr{" class=regua" if int(k) == C["limite"] else ""}><td>{k} de 7{" (unanimidade)" if int(k) == 7 else ""}</td><td class="num">{f'{v["btc_final"]:.2f}'.replace(".", ",")}</td><td class="num">{pct(v["pior_queda"])}</td><td class="num">{v["operacoes"]}</td></tr>' for k, v in sorted(C["variantes"].items(), key=lambda kv: int(kv[0])))
+    def dec2(x):
+        return f"{x:.2f}".replace(".", ",")
+    var = "".join(f'<tr{" class=regua" if int(k) == C["limite"] else ""}><td>{k} de 7{" (unanimidade)" if int(k) == 7 else ""}</td><td class="num">{dec2(v["btc_final"])}</td><td class="num">{pct(v["pior_queda"])}</td><td class="num">{v["operacoes"]}</td></tr>' for k, v in sorted(C["variantes"].items(), key=lambda kv: int(kv[0])))
     return f"""    <h3 class="conceito-tit">O placar dos sete sinais: {C['votos_agora']} de 7 comprados</h3>
     <p>A regra do consenso não inventa nada: ela só ouve os sete sinais dos autores. Muda de posição quando pelo menos {C['limite']} de 7 concordam{' (unanimidade)' if C['limite'] == 7 else ''}; enquanto não há acordo, espera.</p>
     <ul class="placar">{votos}</ul>
