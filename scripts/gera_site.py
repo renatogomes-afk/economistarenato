@@ -1039,7 +1039,7 @@ def diario_btc_html():
     if not linhas:
         return """  <section class="para-quem" id="diario">
     <h2>Meu diário de retornos</h2>
-    <p>Aqui eu publico o retorno da minha carteira de bitcoin dia a dia, em percentual, com acertos e erros à vista. O diário começa no primeiro dia do piloto.</p>
+    <p>Aqui eu publico, dia a dia, o retorno de uma posição de referência de 1 bitcoin, em percentual, com acertos e erros à vista. O diário começa no primeiro dia do piloto.</p>
   </section>
 """
     idx, acum = [], 100.0
@@ -1059,7 +1059,7 @@ def diario_btc_html():
     tab = "\n".join(f'        <tr><td>{d[8:10]}/{d[5:7]}/{d[:4]}</td><td class="{"sobe" if r >= 0 else "desce"}">{pct(r)}</td><td>{e(nt)}</td></tr>' for d, r, nt in ult)
     return f"""  <section class="para-quem" id="diario">
     <h2>Meu diário de retornos</h2>
-    <p>O retorno da minha carteira de bitcoin, dia a dia, em percentual. Desde o início do piloto: <b>{pct(total)}</b> em {len(linhas)} dias.</p>
+    <p>O retorno de uma posição de referência de 1 bitcoin, dia a dia, em percentual. Desde o início do piloto: <b>{pct(total)}</b> em {len(linhas)} dias.</p>
     <svg class="diario-graf" viewBox="0 0 {w} {h}" role="img" aria-label="Retorno acumulado, base 100">
       <line x1="{pad}" x2="{w - pad}" y1="{y100:.1f}" y2="{y100:.1f}" class="base"/>
       <polyline points="{pts}" class="linha"/>
@@ -1106,6 +1106,7 @@ def pagina_bitcoin():
 
   <section class="para-quem" id="estrategias">
     <h2>Os sinais em teste</h2>
+    <p>Todos partem da mesma posição de referência: <b>1 bitcoin</b>. Quando o sinal manda sair, o valor vai para o CDI; quando manda voltar, recompra o que der. No fim, a pergunta é simples: o sinal terminou com mais ou menos de 1 bitcoin?</p>
   </section>
   <ol class="passos">
 {est}
@@ -1115,7 +1116,7 @@ def pagina_bitcoin():
   <section class="para-quem">
     <h2>Como eu meço</h2>
     <ul class="lista-min">
-      <li><b>Em reais e em dólares.</b> Para quem mora no Brasil, o câmbio muda o resultado.</li>
+      <li><b>Em bitcoin, em reais e em dólares.</b> Em bitcoin, a régua é a posição inicial de 1 BTC: quem termina com menos perdeu para quem só segurou. Em reais, o câmbio muda o resultado para quem mora no Brasil.</li>
       <li><b>Retorno, volatilidade e pior queda.</b> Ganhar muito não basta se a queda no caminho faz o investidor desistir.</li>
       <li><b>Contra o CDI.</b> Toda estratégia precisa bater a renda fixa para se justificar.</li>
       <li><b>Custos incluídos.</b> Cada compra e venda paga taxa de corretora; sinal que opera demais pode perder para quem não faz nada.</li>
