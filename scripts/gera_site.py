@@ -1112,13 +1112,13 @@ def curvas_btc_svg(D):
     nomes = [x["nome"] for x in D["estrategias"]]
     w, h, pl, pr, pt, pb = 760, 340, 64, 12, 10, 26
     vals = [v for n in nomes for v in D["curvas"][n] if v > 0]
-    lo = math.floor(math.log10(max(min(vals), 1e-3)))
+    lo = math.floor(math.log10(max(min(vals), 1e-3)) * 2) / 2
     hi = max(math.ceil(math.log10(max(vals)) * 2) / 2, 0.5)
     n = len(datas) - 1
     X = lambda i: pl + i * (w - pl - pr) / n
     Y = lambda v: pt + (hi - math.log10(max(v, 1e-3))) * (h - pt - pb) / (hi - lo)
     grade = []
-    for k in range(int(lo), int(math.floor(hi)) + 1):
+    for k in range(int(math.ceil(lo)), int(math.floor(hi)) + 1):
         v = 10 ** k
         grade.append(f'<line x1="{pl}" x2="{w - pr}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" class="{"g1" if k == 0 else "g"}"/>'
                      f'<text x="{pl - 6}" y="{Y(v) + 4:.1f}" text-anchor="end">{str(v).replace(".", ",")} BTC</text>')
@@ -1149,7 +1149,7 @@ def acompanhamento_btc_html():
         return f"{d[8:10]}/{d[5:7]}/{d[:4]}"
 
     def num(x, k):
-        return f"{x:.{k}f}".replace(".", ",")
+        return f"{x:,.{k}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
     p0 = D["ultimo_fech_brl"]
     linhas = []
