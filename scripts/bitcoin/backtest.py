@@ -281,7 +281,8 @@ def main():
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}},
              "grafico": grafico_semanal(px, sin),
-             "anuais": retornos_anuais(datas, {n: [x / brl[INI_SIM + k] for k, x in enumerate(v)] for n, v in valores.items()}),
+             "anuais": retornos_anuais(datas, valores),
+             "anuais_usd": retornos_anuais(datas, {n: [x / brl[INI_SIM + k] for k, x in enumerate(v)] for n, v in valores.items()}),
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)

@@ -824,3 +824,4 @@ figcaption .credito::before{content:"· "}
 .jan-controles input{font:14px var(--sans);padding:5px 6px;border:1px solid var(--linha)}
 .jan-resumo{font-family:var(--sans);font-size:14px;margin:0 0 6px}
 .tab-otim td small{display:block;font-size:12px;color:var(--cinza);font-weight:400}.tab-otim td:first-child{min-width:220px}.tab-otim{font-size:13px}
+.moeda-anos{margin:0 0 10px}

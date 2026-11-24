@@ -1328,7 +1328,7 @@ JANELA_JS = r"""
 (function(){
 var box=document.getElementById('jan-box');if(!box)return;
 var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
-var moeda='usd';
+var moeda='brl';
 function val(n,k){var v=V.valores_brl[n][k];return moeda==='usd'?v/V.ptax[k]:v}
 var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
@@ -1373,7 +1373,7 @@ def janela_btc_html():
     <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em dólares ou em reais, do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
     <div class="jan-controles">
       <div class="jan-atalhos"><button type="button" data-anos="1">1 ano</button><button type="button" data-anos="3">3 anos</button><button type="button" data-anos="5">5 anos</button><button type="button" data-anos="10">10 anos</button><button type="button" data-anos="0">Desde o início</button></div>
-      <div class="jan-atalhos jan-moeda"><button type="button" data-moeda="usd" class="ativo">US$</button><button type="button" data-moeda="brl">R$</button></div>
+      <div class="jan-atalhos jan-moeda"><button type="button" data-moeda="brl" class="ativo">R$</button><button type="button" data-moeda="usd">US$</button></div>
       <label>De <input type="date" id="jan-de"></label>
       <label>Até <input type="date" id="jan-ate"></label>
     </div>
@@ -1446,52 +1446,67 @@ def otimizacao_btc_html():
 
 
 def anuais_btc_html(D):
-    A = D.get("anuais")
-    if not A:
+    if not D.get("anuais"):
         return ""
-    P, cdi, btc = A["por_estrategia"], A["por_estrategia"].get("Só CDI"), A["por_estrategia"].get("Comprar e segurar")
-    nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
     def pct(x):
         return f"{x * 100:+,.0f}%".replace(",", ".").replace("-", "−")
     def pct1(x):
         return f"{x * 100:+,.1f}%".replace(",", "X").replace(".", ",").replace("X", ".").replace("-", "−")
     def cls_cdi(n, x, ref):
         return "" if n in BENCH_BTC else ("acima" if x > ref else "abaixo")
+    def tabelas(A):
+        P, cdi, btc = A["por_estrategia"], A["por_estrategia"]["Só CDI"], A["por_estrategia"]["Comprar e segurar"]
+        nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
+        linhas, janelas = [], []
+        for n in nomes:
+            cel = []
+            for i, x in enumerate(P[n]):
+                cls = [cls_cdi(n, x, cdi[i])] + (["bate-btc"] if n not in BENCH_BTC and x > btc[i] else [])
+                cel.append(f'<td class="num {" ".join(c for c in cls if c)}">{pct(x)}</td>')
+            tr = ' class="regua"' if n in BENCH_BTC else ""
+            nome = f'<td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>'
+            linhas.append(f'<tr{tr}>{nome}{"".join(cel)}</tr>')
+            x5, xt, xa = A["cinco_anos_aa"][n], A["total_aa"][n], A["total_acum"][n]
+            janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"]["Só CDI"])}">{pct1(x5)}</td>'
+                           f'<td class="num {cls_cdi(n, xt, A["total_aa"]["Só CDI"])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
+        return "\n".join(linhas), "\n".join(janelas)
+    A = D["anuais"]
+    moedas = [("brl", "R$", D["anuais"])] + ([("usd", "US$", D["anuais_usd"])] if D.get("anuais_usd") else [])
     ult = A["ultimo"]
     cab = "".join(f'<th class="num">{a}{"*" if a == int(ult[:4]) else ""}</th>' for a in A["anos"])
-    linhas, janelas = [], []
-    for n in nomes:
-        cel = []
-        for i, x in enumerate(P[n]):
-            cls = [cls_cdi(n, x, cdi[i])]
-            if n not in BENCH_BTC and x > btc[i]:
-                cls.append("bate-btc")
-            cel.append(f'<td class="num {" ".join(c for c in cls if c)}">{pct(x)}</td>')
-        tr = ' class="regua"' if n in BENCH_BTC else ""
-        nome = f'<td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>'
-        linhas.append(f'<tr{tr}>{nome}{"".join(cel)}</tr>')
-        x5, xt, xa = A["cinco_anos_aa"][n], A["total_aa"][n], A["total_acum"][n]
-        janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"]["Só CDI"])}">{pct1(x5)}</td>'
-                       f'<td class="num {cls_cdi(n, xt, A["total_aa"]["Só CDI"])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
+    botoes = "".join(f'<button type="button" data-moeda="{m}"{" class=ativo" if k == 0 else ""}>{r}</button>' for k, (m, r, _) in enumerate(moedas))
+    anos_html, jan_html = "", ""
+    for k, (m, r, AA) in enumerate(moedas):
+        l, jn = tabelas(AA)
+        oculto = "" if k == 0 else " hidden"
+        anos_html += f"""    <div class="tab-rolagem" data-moeda="{m}"{oculto}><table class="tab-btc tab-anos">
+      <thead><tr><th>Estratégia ({r})</th>{cab}</tr></thead>
+      <tbody>
+{l}
+      </tbody>
+    </table></div>
+"""
+        jan_html += f"""    <div class="tab-rolagem" data-moeda="{m}"{oculto}><table class="tab-btc tab-anos tab-janelas">
+      <thead><tr><th>Estratégia ({r})</th><th class="num">5 anos, ao ano</th><th class="num">Desde o início, ao ano</th><th class="num">Desde o início, no total</th></tr></thead>
+      <tbody>
+{jn}
+      </tbody>
+    </table></div>
+"""
     i5, it = A["inicio_5a"], A["inicio_total"]
-    return f"""    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano, em dólares</h3>
-    <p>O retorno de cada estratégia em cada ano, medido em dólares, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI convertidos em dólares. Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
-    <div class="tab-rolagem"><table class="tab-btc tab-anos">
-      <thead><tr><th>Estratégia</th>{cab}</tr></thead>
-      <tbody>
-{chr(10).join(linhas)}
-      </tbody>
-    </table></div>
-    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira em dólares (convertido pela PTAX do Banco Central) no último domingo do ano sobre o do ano anterior.</p>
-    <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início, em dólares</h3>
-    <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário.</p>
-    <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
-      <thead><tr><th>Estratégia</th><th class="num">5 anos, ao ano</th><th class="num">Desde o início, ao ano</th><th class="num">Desde o início, no total</th></tr></thead>
-      <tbody>
-{chr(10).join(janelas)}
-      </tbody>
-    </table></div>
-    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
+    js = ("document.querySelectorAll('.moeda-anos button').forEach(function(b){b.addEventListener('click',function(){var m=b.dataset.moeda;"
+          "document.querySelectorAll('.moeda-anos button').forEach(function(x){x.classList.toggle('ativo',x.dataset.moeda===m)});"
+          "document.querySelectorAll('.bloco-anos [data-moeda]').forEach(function(d){if(d.tagName==='DIV')d.hidden=d.dataset.moeda!==m})})});")
+    return f"""    <div class="bloco-anos">
+    <h3 class="conceito-tit" id="ano-a-ano">Ano a ano</h3>
+    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Em reais ou em dólares (convertido pela PTAX do Banco Central em cada domingo; em dólares, o CDI também sofre o câmbio). Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
+    <div class="jan-atalhos moeda-anos">{botoes}</div>
+{anos_html}    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior.</p>
+    <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início</h3>
+    <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário. Os botões acima trocam a moeda das duas tabelas.</p>
+{jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, execução no domingo seguinte ao sinal, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
+    <script>{js}</script>
+    </div>
 {janela_btc_html()}
 {otimizacao_btc_html()}"""
 
