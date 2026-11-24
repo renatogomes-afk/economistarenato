@@ -86,6 +86,11 @@ longa, que ele não previa):
 - A Reckless tem **um peso só**: usar sempre `font-weight:400` e
   `font-synthesis-weight:none`, nunca negrito sintético.
 
+- **Assinatura (24/11/2026):** o logo do site é o vetor oficial do manual (`_kit_marca/.../_vetor/rwg_marca_01.ai`
+  e `rwg_marca_01_tag.ai`, página 6, preto sobre branco), salvo em `scripts/arquivo/_marca_lockup.svg` e
+  `_marca_lockup_tag.svg`: símbolo + **"Renato / W. Gomes"**, com o tag **ECONOMISTA** embaixo só no cabeçalho grande.
+  Nunca digitar o nome em fonte nem trocar por "Economista Renato Gomes".
+
 ---
 
 ## 5. Bases abertas (`/dados/`)

@@ -11,6 +11,9 @@ from datetime import date
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(RAIZ, "site")
 DADOS = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "edicoes.json"), encoding="utf-8"))
+# Assinatura oficial (Manual de Marca v.01), vetor tirado de _kit_marca/_vetor/rwg_marca_01*.ai, texto em curvas.
+MARCA = open(os.path.join(RAIZ, "scripts", "arquivo", "_marca_lockup.svg"), encoding="utf-8").read().strip()
+MARCA_TAG = open(os.path.join(RAIZ, "scripts", "arquivo", "_marca_lockup_tag.svg"), encoding="utf-8").read().strip()
 LOGO = open(os.path.join(RAIZ, "scripts", "arquivo", "_logo.svg"), encoding="utf-8").read().strip()
 COLECOES = json.load(open(os.path.join(RAIZ, "scripts", "arquivo", "colecoes.json"), encoding="utf-8"))["colecoes"]
 _CG = os.path.join(RAIZ, "scripts", "campo-grande", "livro.json")
@@ -22,7 +25,7 @@ SUB_CG = [("livro", "Livro · Minhas propostas para 2028", "O livro em construç
           ("situacao-atual", "Situação atual", "Como a cidade está hoje, tema a tema, com o número e a fonte de cada dado."),
           ("noticias", "Notícias importantes", "Os fatos que mexem com a cidade, com a fonte e um comentário curto.")]
 DOMINIO = "https://economistarenato.com.br"
-CSS_V = "20261115a"
+CSS_V = "20261124a"
 LEMA = "Economia pelas fontes"
 SUBLEMA = "Análise econômica com documento na mesa — dos clássicos às contas públicas de hoje"
 
@@ -88,7 +91,7 @@ def topo(ativo, rel, completo=True):
     if completo:
         cab = f"""  <div class="env">
     <div class="cabecalho">
-      <a class="marca-lockup" href="{rel}">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
+      <a class="marca-lockup" href="{rel}">{MARCA_TAG}</a>
       <div class="lema"><b>{LEMA}.</b> {SUBLEMA}</div>
       <div class="canto">
         <a class="botao" href="{rel}servicos/">Consultoria</a>
@@ -99,7 +102,7 @@ def topo(ativo, rel, completo=True):
     else:
         cab = f"""  <div class="env">
     <div class="cabecalho" style="padding:18px 0 14px">
-      <a class="marca-lockup compacta" href="{rel}">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
+      <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
       <div class="canto">
         <a class="botao botao-cheio" href="#assine">Assinar</a>
       </div>
@@ -146,7 +149,7 @@ def rodape(rel):
   <div class="env">
     <div class="rodape-grade">
       <div class="rodape-marca">
-        <a class="marca-lockup compacta" href="{rel}">{LOGO}<span class="marca-nome"><span>Economista</span><span>Renato Gomes</span></span></a>
+        <a class="marca-lockup compacta" href="{rel}">{MARCA}</a>
         <p class="rodape-texto">{LEMA}. Análise econômica independente: toda afirmação numérica publicada aqui traz a fonte primária — documento histórico, orçamento, Diário Oficial, IBGE ou órgão de controle.</p>
       </div>
       <div>
