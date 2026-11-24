@@ -898,7 +898,7 @@ def pagina_analises():
             + topo("analises/", rel, completo=False) + corpo + rodape(rel))
 
 
-def bloco_contato(assunto="Contato pelo site (/tech)", convite="Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis.", pergunta="Qual tarefa toma mais tempo do seu time hoje?", voltar="tech/"):
+def bloco_contato(assunto="Contato pelo site (/tech)", convite="Conte em poucas linhas qual tarefa toma mais tempo do seu time. Eu respondo em até dois dias úteis.", pergunta="Qual tarefa toma mais tempo do seu time hoje?", voltar="tech/", titulo="Fale comigo"):
     if FORM_CONTATO:
         form = f"""<form class="form-contato" action="{FORM_CONTATO}" method="POST">
         <input type="hidden" name="_subject" value="{assunto}">
@@ -916,7 +916,7 @@ def bloco_contato(assunto="Contato pelo site (/tech)", convite="Conte em poucas 
     email = f' Ou escreva para <a href="mailto:{EMAIL_CONTATO}">{EMAIL_CONTATO}</a>.' if EMAIL_CONTATO else ""
     return f"""<section class="contato-min" id="contato">
     <div>
-      <h2>Fale comigo</h2>
+      <h2>{titulo}</h2>
       <p>{convite}{email}</p>
     </div>
     <div>
@@ -989,51 +989,59 @@ def pagina_bitcoin():
            ("1896-valorizacao-e-juros", "1896", "Fisher: o juro que antecipa o valor da moeda"),
            ("1899-kinder-padrao-monetario-e-distribuicao", "1899", "Kinder: quem ganhou e quem perdeu com a queda dos preços")]
     lis = "\n".join(f'      <li><a href="{rel}arquivo/{sl}/"><b>{a}</b> · {e(t)}</a></li>' for sl, a, t in arq)
+    estrategias = [
+        ("Comprar e segurar", "Compra única no início e nenhuma venda. É a régua contra a qual tudo se mede."),
+        ("Aporte mensal fixo", "O mesmo valor em reais todo mês, com qualquer preço. Testa se a disciplina compensa o momento ruim de entrada."),
+        ("Média móvel de longo prazo", "Fica comprado acima da média e sai para a renda fixa abaixo dela. Testa se fugir das quedas custa caro na alta."),
+        ("Rebalanceamento com renda fixa", "Uma fatia fixa em bitcoin e o resto no CDI, rebalanceada de tempos em tempos. Testa o bitcoin como tempero da carteira, não como prato."),
+    ]
+    est = "\n".join(f"""    <li>
+      <span class="passo-num">{k}</span>
+      <h2>{e(n)}</h2>
+      <p>{e(t)}</p>
+    </li>""" for k, (n, t) in enumerate(estrategias, 1))
     corpo = f"""
 <main class="env pagina-min">
   <section class="heroi heroi-interno">
     <p class="heroi-quem">Bitcoin · Renato W. Gomes, economista</p>
-    <h1>Bitcoin é uma pergunta antiga sobre dinheiro, feita com tecnologia nova.</h1>
-    <p class="heroi-olho">O que faz uma moeda ser boa? Quem controla a quantidade? Quem ganha e quem perde quando ela valoriza? Economistas brigaram por isso no tempo do ouro e da prata. Eu leio o bitcoin pelas fontes e ajudo empresas e famílias a decidir se ele cabe no caixa ou no patrimônio.</p>
-    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Fale comigo</a> <a class="botao" href="#fontes">Ler as fontes</a></p>
+    <h1>Estratégias de bitcoin, testadas com números e acompanhadas mês a mês.</h1>
+    <p class="heroi-olho">Todo mundo tem uma estratégia para bitcoin. Aqui cada uma é testada no histórico de preços, comparada com o CDI e acompanhada ao vivo, com o retorno, o risco e a pior queda à vista, e a fonte dos dados no rodapé.</p>
+    <p class="heroi-acoes"><a class="botao botao-cheio" href="#contato">Receber os resultados</a> <a class="botao" href="#estrategias">Ver as estratégias</a></p>
+  </section>
+
+  <section class="para-quem" id="estrategias">
+    <h2>As estratégias em teste</h2>
+  </section>
+  <ol class="passos">
+{est}
+  </ol>
+
+  <section class="para-quem">
+    <h2>Como eu meço</h2>
+    <ul class="lista-min">
+      <li><b>Em reais e em dólares.</b> Para quem mora no Brasil, o câmbio muda o resultado.</li>
+      <li><b>Retorno, volatilidade e pior queda.</b> Ganhar muito não basta se a queda no caminho faz o investidor desistir.</li>
+      <li><b>Contra o CDI.</b> Toda estratégia precisa bater a renda fixa para se justificar.</li>
+      <li><b>Teste no passado, acompanhamento no presente.</b> O histórico mostra o que teria acontecido; o acompanhamento mensal mostra o que está acontecendo.</li>
+      <li><b>Fonte dos preços sempre indicada</b>, e os números de cada teste disponíveis para quem quiser conferir.</li>
+    </ul>
+    <p class="nota-min">Primeiros resultados em preparação.</p>
   </section>
 
   <section class="para-quem" id="fontes">
-    <h2>A fonte de 2008</h2>
-    <p>Em 31 de outubro de 2008, Satoshi Nakamoto publicou <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener"><i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></a> (“Bitcoin: um sistema de dinheiro eletrônico ponto a ponto”). São nove páginas. Quase tudo o que se discute sobre bitcoin começa ali, e quase ninguém lê o original.</p>
-  </section>
-
-  <section class="para-quem">
-    <h2>O debate que já aconteceu</h2>
-    <p>Moeda que não se pode imprimir à vontade, deflação, credores contra devedores: tudo isso foi discutido com dados no fim do século XIX. No Arquivo:</p>
+    <h2>As fontes</h2>
+    <p>Em 31 de outubro de 2008, Satoshi Nakamoto publicou <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener"><i>Bitcoin: A Peer-to-Peer Electronic Cash System</i></a> (“Bitcoin: um sistema de dinheiro eletrônico ponto a ponto”). E a pergunta de fundo, o que acontece quando a quantidade de moeda não pode crescer à vontade, foi debatida com dados no fim do século XIX. No Arquivo:</p>
     <ul class="lista-min">
 {lis}
     </ul>
   </section>
 
-  <ol class="passos">
-    <li>
-      <span class="passo-num">1</span>
-      <h2>Tese</h2>
-      <p>Uma conversa franca sobre o que o bitcoin é, o que não é e se faz sentido para a sua empresa ou família, com os riscos na mesa.</p>
-    </li>
-    <li>
-      <span class="passo-num">2</span>
-      <h2>Custódia</h2>
-      <p>Como guardar com segurança: corretora ou carteira própria, cópias de segurança, quem tem acesso e o que acontece numa sucessão.</p>
-    </li>
-    <li>
-      <span class="passo-num">3</span>
-      <h2>Contabilidade e tributos</h2>
-      <p>Registro contábil, apuração de ganho e declaração à Receita Federal, feitos por quem toca um escritório de contabilidade.</p>
-    </li>
-  </ol>
-  <p class="nota-min">Não faço recomendação de investimento nem gestão de recursos de terceiros.</p>
+  <p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>
 
-  {bloco_contato("Contato pelo site (/bitcoin)", "Conte em poucas linhas a sua situação: empresa ou pessoa física, e o que quer decidir. Eu respondo em até dois dias úteis.", "O que você quer decidir sobre bitcoin?", "bitcoin/")}
+  {bloco_contato("Resultados de bitcoin (/bitcoin)", "Quer receber os resultados quando saírem, ou sugerir uma estratégia para testar? Deixe seu contato.", "Qual estratégia você gostaria de ver testada?", "bitcoin/", "Receba os resultados")}
 </main>
 """
-    escreve("bitcoin", cabeca("Bitcoin pelas fontes — Renato W. Gomes, economista", "Bitcoin lido pelas fontes, do white paper de 2008 aos debates monetários do século XIX, e consultoria sobre tese, custódia e tributação para empresas e famílias.", "bitcoin/", rel)
+    escreve("bitcoin", cabeca("Bitcoin: estratégias testadas — Renato W. Gomes, economista", "Estratégias de bitcoin testadas no histórico de preços, comparadas com o CDI e acompanhadas mês a mês, com retorno, risco e pior queda.", "bitcoin/", rel)
             + topo("bitcoin/", rel) + corpo + rodape(rel))
 
 
