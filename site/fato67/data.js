@@ -37,10 +37,10 @@
       // mapeado: false = ainda não sabemos o que o órgão exige, então vai tudo (como o Roger faz hoje)
       { nome: 'Prefeitura da Capital', registro: 'CERCA Municipal', extras: [], mapeado: false },
       { nome: 'Câmara Municipal da Capital', registro: 'CERCA Municipal', extras: [], mapeado: false },
-      { nome: 'Governo do Estado', registro: 'CERCA Estadual', extras: ['Certidão de falência e concordata', 'Comprovante de inscrição no Simples'], mapeado: true },
+      { nome: 'Governo do Estado', registro: 'CERCA Estadual', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados', 'Certidão de falência e concordata', 'Comprovante de inscrição no Simples'], mapeado: true },
       { nome: 'Tribunal de Contas do Estado', registro: 'CERCA Estadual', extras: [], mapeado: false },
-      { nome: 'Assembleia Legislativa', registro: 'CERCA Estadual', extras: [], mapeado: true },
-      { nome: 'Prefeitura do Município B', registro: 'CRC Município B', extras: ['Certidão de falência e concordata'], mapeado: true }
+      { nome: 'Assembleia Legislativa', registro: 'CERCA Estadual', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados'], mapeado: true },
+      { nome: 'Prefeitura do Município B', registro: 'CRC Município B', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados', 'Certidão de falência e concordata'], mapeado: true }
     ],
     // Agência → e-mail padrão e atendentes por cliente (órgão ou município)
     agencias: [
