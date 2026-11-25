@@ -29,12 +29,12 @@
     if (!lista.length) return null;
     emp = lista.find(e => e.id === empresaId) || lista[0];
     const q = t => sb.from(t).select('*').eq('empresa_id', emp.id);
-    let [contas, saldos, docs, orgaos, agencias, pis, pagar, receber, entrada, extrato] = (await Promise.all([
+    let [contas, saldos, docs, orgaos, agencias, pis, pagar, receber, entrada, extrato, regras] = (await Promise.all([
       q('contas_bancarias').order('ordem'), q('saldos').order('data', { ascending: false }).limit(400),
       q('documentos').order('criado_em', { ascending: false }), q('orgaos').order('nome'), q('agencias').order('nome'),
       q('pis').order('data', { ascending: false }), q('contas_pagar'), q('contas_receber').is('recebido_em', null),
       q('entrada').eq('resolvido', false).order('recebido_em', { ascending: false }),
-      q('extrato').order('data', { ascending: false }).limit(200)
+      q('extrato').order('data', { ascending: false }).limit(200), q('regras').order('criado_em')
     ])).map(ok);
     const agIds = agencias.map(a => a.id), piIds = pis.map(p => p.id);
     const [atend, manuais, piArq] = (await Promise.all([
@@ -66,7 +66,10 @@
       }),
       pagar: pagar.map(p => ({ id: p.id, desc: p.descricao, fornecedor: p.fornecedor || '—', categoria: p.categoria || 'A classificar', venc: p.vencimento, valor: +p.valor, origem: p.origem || 'Manual', status: p.pago_em ? 'pago' : 'pendente' })),
       receber: receber.map(r => ({ id: r.id, cliente: r.cliente, ref: r.referencia || '', venc: r.vencimento, valor: +r.valor })),
-      entrada: entrada.map(e => ({ id: e.id, arquivo: e.arquivo ? e.arquivo.split('/').pop().replace(/^[0-9a-f-]{36}-/, '') : (e.assunto || '(sem anexo)'), de: e.de || '—', parece: [e.tipo, e.motivo].filter(Boolean).join(' · ') || 'a classificar' })),
+      entrada: entrada.map(e => ({ id: e.id, caminho: e.arquivo, nome: e.nome || (e.arquivo ? e.arquivo.split('/').pop().replace(/^[0-9a-f-]{36}-/, '') : (e.assunto || '(sem anexo)')),
+        de: e.de || '', assunto: e.assunto || '', texto: e.texto, origem: e.origem, recebido: e.recebido_em,
+        lido: { tipo: e.tipo, validade: e.validade, valor: e.valor == null ? null : +e.valor, vencimento: e.vencimento, linha: e.linha_digitavel, descricao: e.descricao, categoria: e.categoria } })),
+      regras,
       extrato: extrato.map(x => ({ id: x.id, conta_id: x.conta_id, data: x.data, valor: +x.valor, descricao: x.descricao, conciliado: x.conciliado, pagar: x.conta_pagar_id, receber: x.conta_receber_id })),
       whatsappExemplo: ''
     };
@@ -113,13 +116,39 @@
       const velho = interna ? (c.internas || []).find(i => i.nome === interna) : c;
       // Cópia de um mês anterior ao da versão atual entra só no histórico
       const antigo = !!(competencia && velho && velho.id && velho.arquivo && velho.competencia && competencia < velho.competencia);
-      const arquivo = file ? await subir('documentos', file) : (velho && velho.arquivo) || null;
+      const arquivo = typeof file === 'string' ? file : file ? await subir('documentos', file) : (velho && velho.arquivo) || null;
       const novo = ok(await sb.from('documentos').insert({ empresa_id: emp.id, tipo: interna || c.nome, numero: velho && velho.numero, validade, arquivo, pai_id: interna ? c.id : null, origem: 'upload', competencia: competencia || undefined, atual: !antigo }).select('id').single());
       if (velho && velho.id && !antigo) {
         ok(await sb.from('documentos').update({ atual: false }).eq('id', velho.id));
         if (!interna) ok(await sb.from('documentos').update({ pai_id: novo.id }).eq('pai_id', velho.id).eq('atual', true));
       }
     },
+    // ---- caixa de entrada (triagem) ----
+    async subirEntrada(file, texto, a) {
+      const arquivo = await subir('entrada', file);
+      ok(await sb.from('entrada').insert({ empresa_id: emp.id, arquivo, nome: file.name, texto, origem: 'upload', sugestao: a.sugestao, tipo: a.tipo, motivo: a.motivo,
+        validade: a.validade, valor: a.valor, vencimento: a.vencimento, linha_digitavel: a.linha, descricao: a.descricao, categoria: a.categoria }));
+    },
+    async textoEntrada(id, texto, a) {
+      ok(await sb.from('entrada').update({ texto, sugestao: a.sugestao, tipo: a.tipo, motivo: a.motivo, validade: a.validade, valor: a.valor, vencimento: a.vencimento,
+        linha_digitavel: a.linha, descricao: a.descricao, categoria: a.categoria }).eq('id', id));
+    },
+    // Qualifica um item: Arquivo, conta a pagar, os dois, PI ou descartar; e aprende a regra do remetente
+    async triar(e, x, cert, remetente) {
+      if (x.destino === 'documento' || x.destino === 'ambos') await acoes.atualizarDocumento(cert || { nome: x.tipo }, null, e.caminho, x.validade || null, x.competencia);
+      if (x.destino === 'pagar' || x.destino === 'ambos') ok(await sb.from('contas_pagar').insert({ empresa_id: emp.id, descricao: x.descricao, vencimento: x.vencimento, valor: x.valor,
+        categoria: x.categoria || 'A classificar', origem: e.origem === 'email' ? 'E-mail' : 'Upload', linha_digitavel: e.lido.linha || null, documento: e.caminho }));
+      if (x.destino === 'pi') ok(await sb.from('pi_arquivos').insert({ pi_id: x.pi, tipo: x.tipoPi || 'nf', nome: e.nome, arquivo: e.caminho }));
+      if (x.destino === 'ignorar' && e.caminho) await sb.storage.from('arquivos').remove([e.caminho]);
+      ok(await sb.from('entrada').update({ resolvido: true, destino: x.destino }).eq('id', e.id));
+      const padrao = remetente; if (!padrao || x.destino === 'pi') return;
+      const velha = ok(await sb.from('regras').select('*').eq('empresa_id', emp.id).eq('campo', 'remetente').eq('padrao', padrao)).at(0);
+      const mesma = velha && velha.destino === x.destino;
+      const linha = { empresa_id: emp.id, campo: 'remetente', padrao, destino: x.destino, tipo_doc: x.tipo || null, categoria: x.categoria || null,
+        descricao: x.destino === 'pagar' || x.destino === 'ambos' ? x.descricao : null, vezes: mesma ? velha.vezes + 1 : 1, automatico: !!x.sempre || (mesma && velha.automatico) };
+      ok(await sb.from('regras').upsert(linha, { onConflict: 'empresa_id,campo,padrao' }));
+    },
+    async excluirRegra(id) { ok(await sb.from('regras').delete().eq('id', id)); },
     async resolverEntrada(id) { ok(await sb.from('entrada').update({ resolvido: true }).eq('id', id)); },
     async saldo(conta, valor, data) {
       ok(await sb.from('saldos').upsert({ empresa_id: emp.id, conta_id: conta, data: data || hoje(), saldo: valor, origem: 'manual' }));
