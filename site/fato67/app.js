@@ -55,6 +55,19 @@
   const mesDe = x => String(x.competencia || x.criado || iso(today)).slice(0, 7);
   const nomeMes = m => { const [a, mm] = m.split('-'); return ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'][+mm - 1] + '/' + a; };
   let mesArq = null;
+  // ---- caixa de entrada: leitura do PDF (pdf.js sob demanda) e análise sem IA ----
+  const R = window.Reconhece;
+  const carregarPdfjs = () => window.pdfjsLib ? Promise.resolve() : new Promise((feito, erro) => {
+    const sc = document.createElement('script'); sc.src = 'vendor/pdf.min.js';
+    sc.onload = () => { window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'vendor/pdf.worker.min.js'; feito(); };
+    sc.onerror = () => erro(new Error('não foi possível carregar o leitor de PDF')); document.head.appendChild(sc); });
+  async function lerTexto(blob, nome) {
+    if (!/pdf/i.test(blob.type || '') && !/\.pdf$/i.test(nome || blob.name || '')) return '';
+    try { await carregarPdfjs(); return await R.textoPdf(await blob.arrayBuffer()); } catch (e) { return ''; }
+  }
+  const analiseDe = e => { const a = R.analisar({ de: e.de, assunto: e.assunto, nome: e.nome, texto: e.texto || '' }, D.regras || [], D.certidoes.map(c => c.nome)), l = e.lido || {};
+    return { ...a, tipo: a.tipo || l.tipo, validade: a.validade || l.validade, valor: a.valor || l.valor, vencimento: a.vencimento || l.vencimento, descricao: a.descricao || l.descricao, categoria: a.categoria || l.categoria }; };
+  const DESTINOS = { documento: 'Arquivo', pagar: 'Conta a pagar', ambos: 'Arquivo e conta a pagar', pi: 'PI', ignorar: 'Descartar' };
   // Agência + cliente → destinatário (atendente, senão e-mail padrão) e passos do processo
   const agenciaDe = n => D.agencias.find(a => a.nome === n);
   function destino(agencia, orgao) {
@@ -214,21 +227,22 @@ Abrir: economistarenato.com.br/fato67`;
         `<li class="todo"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(proximo(p).txt)}</div></div><a class="btn" href="#pis/${encodeURIComponent(p.numero)}">Abrir</a></li>`));
       const semConc = (D.extrato || []).filter(x => x.id && !x.conciliado).length;
       if (semConc) t.push(`<li class="todo"><div><strong>Conciliar o extrato</strong><div class="muted">${semConc} lançamento(s) ainda sem conta ligada</div></div><a class="btn" href="#contas">Conciliar</a></li>`);
-      D.entrada.forEach((e, i) => { if (!e.feito) t.push(
-        `<li class="todo"><div><strong>Chegou: ${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div></div><span class="btns" style="margin:0"><button class="primary" data-in="${i}">Guardar</button><button data-in-x="${i}" aria-label="Descartar">✕</button></span></li>`); });
+      const ents = D.entrada.filter(e => !e.feito);
+      if (ents.length) t.unshift(`<li class="todo"><div><strong>Triar ${ents.length} documento(s) que chegaram</strong><div class="muted">${esc(ents.slice(0, 2).map(e => e.nome).join(', '))}${ents.length > 2 ? '…' : ''}</div></div><a class="btn primary" href="#entrada">Triar</a></li>`);
       // Rotinas fixas da empresa, cada uma com a situação de agora
       const ext = D.extrato || [], ultExt = ext.length ? ext.map(x => x.data).sort().pop() : null;
       const certRuins = D.certidoes.filter(c => situacao(c.nome).cls !== 'enviado').length;
       const emAndamento = D.pis.filter(p => p.status !== 'enviada').length;
       const rot = [
         ['Todo dia', 'Informar o saldo do C6 PJ', saldoPend.length ? ['pendente', 'falta hoje'] : ['enviado', 'feito hoje'], '#contas'],
+        ['Sempre que chegar', 'Triar documentos e cobranças (caixa de entrada)', ents.length ? ['pendente', `${ents.length} esperando`] : ['enviado', 'vazia'], '#entrada'],
         ['Todo dia', 'Lançar as contas anotadas no grupo do WhatsApp', null, '#contas'],
         ['Toda semana', 'Importar o extrato e conciliar', !ultExt ? ['pendente', 'nenhum extrato'] : semConc ? ['pendente', `${semConc} sem conciliar`] : diasAte(ultExt) < -7 ? ['pendente', `último em ${dt(ultExt)}`] : ['enviado', 'em dia'], '#contas'],
         ['Todo mês', `Arquivo de ${nomeMes(iso(today).slice(0, 7))}: manter certidões e registros em dia`, certRuins ? ['classificar', `${certRuins} para atualizar`] : ['enviado', 'em dia'], '#arquivo'],
         ['A cada PI', 'NF, prints e envio do processo', emAndamento ? ['pendente', `${emAndamento} em andamento`] : ['enviado', 'nenhuma pendente'], '#pis']];
       return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">Rotinas de ${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}</p>
       ${saldoPend.length ? cartaoSaldo(true) : ''}
-      <div class="card" style="margin-bottom:12px"><strong>Para fazer hoje</strong>
+      <div class="card" style="margin-bottom:12px"><div class="head" style="margin:0"><strong>Para fazer hoje</strong><a class="btn" href="#entrada">+ Subir documento</a></div>
         ${t.length ? `<ul class="alerts">${t.join('')}</ul>` : `<p class="good" style="margin:8px 0 0">Tudo em dia.${saldoPend.length ? ' Só falta o saldo acima.' : ''}</p>`}</div>
       <div class="card"><strong>Rotinas da empresa</strong><ul class="alerts">${rot.map(([q, o, st, h]) => `<li class="todo"><div><span class="muted">${q}</span><div><strong>${o}</strong></div></div>${st ? `<a href="${h}"><span class="tag ${st[0]}">${st[1]}</span></a>` : `<a class="btn" href="${h}">Abrir</a>`}</li>`).join('')}</ul></div>`;
     },
@@ -415,7 +429,39 @@ Abrir: economistarenato.com.br/fato67`;
       <details class="card form" style="margin-bottom:8px"><summary><strong>+ Novo cliente</strong></summary>${formOrg(null)}</details>
       <h2 class="etapa">Agências</h2>
       ${D.agencias.map(a => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(a.nome)}</strong> <span class="muted">${esc(a.padrao || 'sem e-mail')}</span>${manualDe(a.nome, '') || D.manuais.some(m => m.agencia === a.nome) ? ' <span class="tag enviado">manual</span>' : ''}</summary>${formAg(a)}</details>`).join('')}
-      <details class="card form"><summary><strong>+ Nova agência</strong></summary>${formAg(null)}</details>`;
+      <details class="card form"><summary><strong>+ Nova agência</strong></summary>${formAg(null)}</details>
+      <h2 class="etapa">Regras da caixa de entrada</h2>
+      <div class="card">${(D.regras || []).length ? `<ul class="alerts">${D.regras.map(r => `<li class="todo"><div>${esc(r.padrao)}<div class="muted">→ ${esc(DESTINOS[r.destino])}${r.tipo_doc ? ' · ' + esc(r.tipo_doc) : ''}${r.descricao ? ' · ' + esc(r.descricao) : ''} · ${r.automatico ? 'faz sozinho' : `só sugere (${r.vezes}x)`}</div></div>${real() ? `<button class="link perigo" data-rg-del="${esc(r.id)}">remover</button>` : ''}</li>`).join('')}</ul>`
+        : '<p class="muted" style="margin:0">Nenhuma ainda. Elas nascem das escolhas feitas na caixa de entrada.</p>'}</div>`;
+    },
+    entrada() {
+      const tipos = D.certidoes.map(c => c.nome), mes = iso(today).slice(0, 7);
+      const pis = D.pis.filter(p => p.status !== 'enviada').concat(D.pis.filter(p => p.status === 'enviada'));
+      const card = (e, i) => { if (real() && e.caminho && e.texto == null) return `<div class="card lendo" style="margin-bottom:12px"><strong>${esc(e.nome)}</strong><p class="muted" style="margin:4px 0 0">${e.de ? 'de ' + esc(e.de) + ' · ' : ''}lendo o PDF…</p></div>`;
+        const a = analiseDe(e), rem = R.remetente(e.de), regra = a.regra, sug = a.sugestao || '';
+        const tiposOpc = [...new Set(tipos.concat(a.tipo && a.tipo !== 'Nota fiscal' ? [a.tipo] : []))];
+        return `<div class="card form tri" data-i="${i}" data-dest="${sug}" style="margin-bottom:12px">
+          <div style="display:flex;justify-content:space-between;gap:8px"><div><strong>${esc(e.nome)}</strong>
+            <div class="muted">${e.de ? 'de ' + esc(e.de) + ' · ' : ''}${e.origem === 'email' ? 'por e-mail' : 'subido aqui'}${e.recebido ? ' · ' + dt(String(e.recebido).slice(0, 10)) : ''}</div>
+            <p style="margin:6px 0 10px">${a.sugestao ? `Parece: <strong>${esc(a.motivo)}</strong>` : e.caminho ? '<span class="muted">Não reconhecido: escolha o destino.</span>' : `<span class="muted">${esc((e.texto || e.assunto || '').slice(0, 400))}</span>`}</p></div>
+            ${real() && e.caminho ? `<button class="link" data-ver="${esc(e.caminho)}">ver</button>` : ''}</div>
+          <div class="seg wrap" role="group">${Object.entries(DESTINOS).filter(([k]) => e.caminho || k === 'ignorar').map(([k, n]) => `<button type="button" data-dst="${k}" class="${k === sug ? 'on' : ''}">${k === 'ambos' ? 'Os dois' : n}</button>`).join('')}</div>
+          <div class="f-doc"><label>Documento<select class="t-tipo">${tiposOpc.map(n => `<option ${n === a.tipo ? 'selected' : ''}>${esc(n)}</option>`).join('')}<option value="">Outro (novo tipo)…</option></select></label>
+            <label class="t-novo" hidden>Nome do novo documento<input class="t-novo-n"></label>
+            <label>Válido até<input type="date" class="t-val" value="${a.validade || ''}"></label>
+            <label>Competência<input type="month" class="t-comp" value="${mes}" max="${mes}"></label></div>
+          <div class="f-pag"><label>Descrição<input class="t-desc" value="${esc(a.descricao || '')}"></label>
+            <label>Valor<input inputmode="decimal" class="t-valor" value="${a.valor ? fmt(a.valor) : ''}" placeholder="ex.: 1.450,00"></label>
+            <label>Vencimento<input type="date" class="t-venc" value="${a.vencimento || ''}"></label></div>
+          <div class="f-pi"><label>PI<select class="t-pi">${pis.map(p => `<option value="${esc(p.id || '')}">PI ${esc(p.numero)} · ${esc(p.orgao)}</option>`).join('')}</select></label>
+            <label>Como<select class="t-pit"><option value="nf">Nota fiscal</option><option value="print">Print de veiculação</option><option value="avulso">Outro anexo</option></select></label></div>
+          ${rem ? `<label class="check f-sempre"><input type="checkbox" class="t-sempre" ${regra && regra.automatico ? 'checked' : ''}> Daqui pra frente, fazer isso sozinho com o que vier de ${esc(rem)}</label>${regra ? `<p class="muted" style="margin:4px 0 0">Você já escolheu "${esc(DESTINOS[regra.destino])}" para este remetente ${regra.vezes} vez(es).</p>` : ''}` : ''}
+          <div class="btns"><button class="primary t-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Confirmar</button></div></div>`; };
+      const lista = D.entrada.map((e, i) => (e.feito ? '' : card(e, i))).join('');
+      return `<p><a href="#rotinas">← Rotinas</a></p><h1>Caixa de entrada</h1><p class="sub">Documentos e cobranças que chegaram. A plataforma lê o PDF e sugere o destino; você confirma ou troca. Cada escolha vira regra para o mesmo remetente.</p>
+      <div class="card form" style="margin-bottom:12px"><strong>Subir documento</strong><p class="muted">Certidão, boleto, DAS, nota fiscal, print… pode escolher vários de uma vez.</p>
+        <label class="btn up primary">Escolher arquivos<input type="file" id="ent-up" accept="application/pdf,image/*" multiple hidden></label><div id="ent-out"></div></div>
+      ${lista || '<p class="muted">Nada esperando triagem.</p>'}`;
     },
     resumo() {
       const msg = textoResumo();
@@ -497,13 +543,37 @@ Abrir: economistarenato.com.br/fato67`;
     document.querySelectorAll('button[data-ver]').forEach(b => b.addEventListener('click', async () => {
       try { const blob = await N.baixar(b.dataset.ver); window.open(URL.createObjectURL(blob), '_blank'); } catch (e) { avisar(e.message, 'bad'); }
     }));
-    document.querySelectorAll('button[data-in]').forEach(b => b.addEventListener('click', () => {
-      const e = D.entrada[+b.dataset.in];
-      if (real()) acao(() => N.acoes.resolverEntrada(e.id), 'Guardado.'); else { e.feito = true; render(); }
-    }));
-    document.querySelectorAll('button[data-in-x]').forEach(b => b.addEventListener('click', () => {
-      if (real()) acao(() => N.acoes.resolverEntrada(D.entrada[+b.dataset.inX].id)); else { D.entrada.splice(+b.dataset.inX, 1); render(); }
-    }));
+    // Caixa de entrada
+    document.querySelectorAll('.tri').forEach(card => {
+      const e = D.entrada[+card.dataset.i], q = c => card.querySelector(c), tt = q('.t-tipo');
+      card.querySelectorAll('button[data-dst]').forEach(b => { b.onclick = () => { card.dataset.dest = b.dataset.dst; card.querySelectorAll('button[data-dst]').forEach(x => x.classList.toggle('on', x === b)); }; });
+      if (tt) tt.onchange = () => { q('.t-novo').hidden = !!tt.value; };
+      q('.t-ok').onclick = () => {
+        const destino = card.dataset.dest; if (!destino) { avisar('Escolha o destino.', 'bad'); return; }
+        const x = { destino, sempre: !!(q('.t-sempre') && q('.t-sempre').checked) };
+        if (destino === 'documento' || destino === 'ambos') {
+          x.tipo = tt.value || q('.t-novo-n').value.trim(); if (!x.tipo) { avisar('Informe o nome do documento.', 'bad'); return; }
+          x.validade = q('.t-val').value; x.competencia = (q('.t-comp').value || iso(today).slice(0, 7)) + '-01';
+        }
+        if (destino === 'pagar' || destino === 'ambos') {
+          x.descricao = q('.t-desc').value.trim(); x.valor = valorBR(q('.t-valor').value); x.vencimento = q('.t-venc').value; x.categoria = analiseDe(e).categoria;
+          if (!x.descricao || !x.vencimento || !(x.valor > 0)) { avisar('Preencha descrição, valor e vencimento.', 'bad'); return; }
+        }
+        if (destino === 'pi') { x.pi = q('.t-pi').value; x.tipoPi = q('.t-pit').value; if (!x.pi) { avisar('Escolha a PI.', 'bad'); return; } }
+        acao(() => N.acoes.triar(e, x, cert(x.tipo), R.remetente(e.de)), { documento: 'Guardado no Arquivo.', pagar: 'Conta a pagar lançada.', ambos: 'Guardado no Arquivo e lançado em Contas.', pi: 'Anexado à PI.', ignorar: 'Descartado.' }[destino]);
+      };
+    });
+    const eu = document.getElementById('ent-up');
+    if (eu) eu.addEventListener('change', () => {
+      const files = [...eu.files]; if (!files.length) return;
+      if (!real()) { avisar('Demonstração: entre com sua conta para subir documentos.', 'bad'); return; }
+      document.getElementById('ent-out').innerHTML = '<p class="muted">Lendo os arquivos…</p>';
+      acao(async () => {
+        for (const f of files) { const texto = await lerTexto(f, f.name); await N.acoes.subirEntrada(f, texto, R.analisar({ nome: f.name, texto }, D.regras, D.certidoes.map(c => c.nome))); }
+        await recarregar(); await processarEntrada();
+      }, `${files.length} arquivo(s) na caixa de entrada.`);
+    });
+    document.querySelectorAll('button[data-rg-del]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.excluirRegra(b.dataset.rgDel), 'Regra removida.')));
     document.querySelectorAll('button[data-paga]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.marcarPaga(b.dataset.paga), 'Conta marcada como paga.')));
     document.querySelectorAll('button[data-recebi]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.marcarRecebido(b.dataset.recebi), 'Marcado como recebido.')));
     document.querySelectorAll('button[data-nc]').forEach(b => b.addEventListener('click', () => {
@@ -612,7 +682,8 @@ Abrir: economistarenato.com.br/fato67`;
     route = { bancos: 'contas', financeiro: 'contas', documentos: 'arquivo', envios: 'pis', inicio: 'rotinas', hoje: 'rotinas' }[route] || route;
     const r = views[route] && route !== 'novaPi' ? route : 'rotinas';
     document.getElementById('app').innerHTML = views[r](sel);
-    document.querySelectorAll('nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + r));
+    const aba = { entrada: 'rotinas', resumo: 'painel' }[r] || r;
+    document.querySelectorAll('nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + aba));
     bind(r); window.scrollTo(0, 0);
   }
 
@@ -623,6 +694,22 @@ Abrir: economistarenato.com.br/fato67`;
     const dados = await N.carregar(empresaEscolhida);
     if (dados) { D = dados; return true; }
     return false;
+  }
+  // Lê o texto dos PDFs que chegaram por e-mail e aplica as regras marcadas para fazer sozinho
+  async function processarEntrada() {
+    if (!real()) return false; let mudou = false; const sozinhos = [];
+    for (const e of D.entrada.filter(x => x.caminho && x.texto == null)) {
+      try { const blob = await N.baixar(e.caminho); e.texto = await lerTexto(blob, e.nome); await N.acoes.textoEntrada(e.id, e.texto, analiseDe(e)); mudou = true; } catch (x) { /* fica para a próxima */ }
+    }
+    for (const e of D.entrada.filter(x => !x.feito)) {
+      const a = analiseDe(e), r = a.regra; if (!r || !r.automatico || !e.caminho && r.destino !== 'ignorar') continue;
+      const doc = r.destino === 'documento' || r.destino === 'ambos', pag = r.destino === 'pagar' || r.destino === 'ambos';
+      if ((doc && !a.tipo) || (pag && !(a.valor > 0 && a.vencimento && a.descricao))) continue;   // falta dado: fica para triagem manual
+      try { await N.acoes.triar(e, { destino: r.destino, tipo: a.tipo, validade: a.validade, competencia: iso(today).slice(0, 8) + '01', descricao: a.descricao, valor: a.valor, vencimento: a.vencimento, categoria: a.categoria },
+        cert(a.tipo), R.remetente(e.de)); e.feito = true; mudou = true; sozinhos.push(e.nome); } catch (x) { /* fica para triagem manual */ }
+    }
+    if (sozinhos.length) setTimeout(() => avisar(`Guardado sozinho pelas regras: ${sozinhos.join(', ')}.`), 300);
+    return mudou;
   }
   function cabecalho() {
     const btn = document.getElementById('login'), banner = document.getElementById('banner'), selE = document.getElementById('empresa');
@@ -668,7 +755,7 @@ Abrir: economistarenato.com.br/fato67`;
     try {
       const u = await N.sessao();
       if (!u) { if (temSessao) render(); return; }
-      if (await recarregar()) { cabecalho(); render(); return; }
+      if (await recarregar()) { cabecalho(); render(); if (await processarEntrada().catch(() => false)) { await recarregar(); render(); } return; }
       document.getElementById('app').innerHTML = `<div class="card" style="max-width:480px;margin:24px auto"><h1>Acesso ainda não liberado</h1>
         <p>Você entrou como <strong>${esc(u.email)}</strong>, mas este e-mail ainda não está ligado a nenhuma empresa. Peça ao escritório para liberar o acesso.</p>
         <div class="btns"><button id="sair2">Sair</button></div></div>`;

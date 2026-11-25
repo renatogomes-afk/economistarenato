@@ -1,6 +1,7 @@
 // Dados de demonstração. Nenhum dado real da FATO67, de clientes ou de órgãos.
 (function () {
   const mes = n => { const x = new Date(); x.setDate(1); x.setMonth(x.getMonth() + n); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-01`; };
+  const br = s => s.split('-').reverse().join('/');
   const d = n => { const x = new Date(); x.setHours(0,0,0,0); x.setDate(x.getDate() + n); return x.toISOString().slice(0,10); };
   window.DEMO = {
     saldos: [
@@ -80,11 +81,16 @@
       { cliente: 'Agência Exemplo Dois', ref: 'PI 10241', venc: d(20), valor: 6800.00 },
       { cliente: 'Agência Exemplo Um', ref: 'PI 10198', venc: d(10), valor: 15000.00 }
     ],
-    // O que chegou no Gmail da empresa e as regras reconheceram (demonstração)
+    // Caixa de entrada (demonstração): o que chegou por e-mail; a plataforma lê o PDF e sugere o destino
     entrada: [
-      { arquivo: 'certidao_estadual.pdf', de: 'e-mail do órgão emissor', parece: 'Certidão estadual, nova versão' },
-      { arquivo: 'boleto_honorarios.pdf', de: 'escritório de contabilidade', parece: 'Honorários, vence dia 10' }
+      { nome: 'certidao_trabalhista.pdf', de: 'naoresponda@tst.exemplo', origem: 'email', recebido: d(0), caminho: 'demo',
+        texto: `CERTIDÃO NEGATIVA DE DÉBITOS TRABALHISTAS\nValidade: ${br(d(180))}` },
+      { nome: 'boleto_honorarios.pdf', de: 'Cobrança WG <cobranca@wg.exemplo>', assunto: 'Honorários contábeis', origem: 'email', recebido: d(0), caminho: 'demo',
+        texto: `Honorários contábeis\nVencimento ${br(d(10))}\nValor do documento R$ 1.450,00` },
+      { nome: 'DAS_competencia.pdf', de: 'contabilidade@escritorio.exemplo', origem: 'email', recebido: d(-1), caminho: 'demo',
+        texto: `Documento de Arrecadação do Simples Nacional\nPagar este documento até ${br(d(20))}\nValor Total do Documento 3.870,40` }
     ],
+    regras: [],
     whatsappExemplo: `25/11/2026 08:14 - Roger: pagar contador 1.450,00 dia 30
 25/11/2026 08:20 - Roger: luz escritório R$ 312,40 venc 05/12
 25/11/2026 09:02 - Roger: lembrar de ligar pra agência

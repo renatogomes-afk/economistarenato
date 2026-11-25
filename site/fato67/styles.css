@@ -99,3 +99,10 @@ h2.etapa{font-size:15px;margin:20px 0 8px;display:flex;align-items:center;gap:8p
 .docs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 12px;margin:4px 0 8px}.docs-grid label.check{margin-bottom:6px}
 .form.inline{display:flex;gap:8px;margin-top:12px}.form.inline input{margin:0;flex:1}
 details.hist summary{font-size:12px;padding:2px 0}
+
+/* Caixa de entrada: campos aparecem conforme o destino escolhido */
+.seg.wrap{flex-wrap:wrap}.seg.wrap button{flex:1 1 30%;min-width:84px}
+.tri .f-doc,.tri .f-pag,.tri .f-pi,.tri .f-sempre{display:none}
+.tri[data-dest=documento] .f-doc,.tri[data-dest=ambos] .f-doc,.tri[data-dest=pagar] .f-pag,.tri[data-dest=ambos] .f-pag,.tri[data-dest=pi] .f-pi{display:block}
+.tri[data-dest=documento] .f-sempre,.tri[data-dest=pagar] .f-sempre,.tri[data-dest=ambos] .f-sempre,.tri[data-dest=ignorar] .f-sempre{display:flex}
+[hidden]{display:none!important}
