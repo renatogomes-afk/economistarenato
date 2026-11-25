@@ -1,6 +1,8 @@
 # Piloto /bitcoin: boletim diário. Roda todo dia às 00:17 UTC (20:17 em Cuiabá), logo depois do fechamento do dia
 # na Coinbase. O agendamento do GitHub às vezes atrasa ou pula horários cheios; por isso há repescagens (01:47, 03:17,
 # 06:47 e 12:17 UTC). O script só grava o dia que ainda não tem boletim, então as repescagens não duplicam nada.
+# Boletim de abertura: uma hora depois da abertura de Nova York (14:37 UTC no horário de verão americano, 15:37 no de
+# inverno; 16:37 e 17:37 são repescagens). O script confere a hora de Nova York e grava uma vez por dia.
 # Rodado à mão, também grava a prévia do dia em curso.
 name: Bitcoin - boletim diário
 
@@ -11,7 +13,16 @@ on:
     - cron: "17 3 * * *"
     - cron: "47 6 * * *"
     - cron: "17 12 * * *"
+    - cron: "37 14 * * *"
+    - cron: "37 15 * * *"
+    - cron: "37 16 * * *"
+    - cron: "37 17 * * *"
   workflow_dispatch:
+    inputs:
+      teste_mercado:
+        description: "Só conferir as fontes de mercado (imprime, não publica)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,10 +41,11 @@ jobs:
           python-version: "3.12"
       - run: python scripts/bitcoin/diario.py
         env:
-          PARCIAL: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          PARCIAL: ${{ github.event_name == 'workflow_dispatch' && !inputs.teste_mercado && '1' || '0' }}
+          TESTE_MERCADO: ${{ inputs.teste_mercado && '1' || '0' }}
       - run: python scripts/gera_site.py > /dev/null
       - name: Publica
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/bitcoin-testes'
+        if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/bitcoin-testes') && !inputs.teste_mercado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
