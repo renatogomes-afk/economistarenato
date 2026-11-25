@@ -72,3 +72,9 @@ button,.btn{min-height:44px}
 tr.sub-row td{padding-top:4px;padding-bottom:4px;font-size:13px;color:var(--muted)}
 #print{display:none}
 @media print{body>*:not(#print){display:none!important}#print{display:block;color:#000}#print .pg{page-break-after:always;padding:24px;font-family:Arial,sans-serif}#print h1{font-size:24px}}
+label.pick{display:flex;gap:10px;align-items:flex-start;cursor:pointer}label.pick input{width:20px;height:20px;margin-top:2px;flex:none}label.pick>span:first-of-type{flex:1}
+details summary{cursor:pointer;color:var(--brand);padding:8px 0}
+.btn.up{margin-top:10px;cursor:pointer;font-size:14px}
+button.link{border:0;background:none;color:var(--brand);padding:4px 0;min-height:0;font-size:13px;text-decoration:underline}
+.google{margin-left:auto;font-size:14px;min-height:36px;padding:6px 12px}
+@media (max-width:700px){.top{justify-content:space-between}}

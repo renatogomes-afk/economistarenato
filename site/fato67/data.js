@@ -64,6 +64,11 @@
       { cliente: 'Agência Exemplo Dois', ref: 'PI 10241', venc: d(20), valor: 6800.00 },
       { cliente: 'Agência Exemplo Um', ref: 'PI 10198', venc: d(10), valor: 15000.00 }
     ],
+    // O que chegou no Gmail da empresa e as regras reconheceram (demonstração)
+    entrada: [
+      { arquivo: 'certidao_estadual.pdf', de: 'e-mail do órgão emissor', parece: 'Certidão estadual, nova versão' },
+      { arquivo: 'boleto_honorarios.pdf', de: 'escritório de contabilidade', parece: 'Honorários, vence dia 10' }
+    ],
     whatsappExemplo: `25/11/2026 08:14 - Roger: pagar contador 1.450,00 dia 30
 25/11/2026 08:20 - Roger: luz escritório R$ 312,40 venc 05/12
 25/11/2026 09:02 - Roger: lembrar de ligar pra agência

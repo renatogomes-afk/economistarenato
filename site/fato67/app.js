@@ -42,7 +42,9 @@
     if (!o || tudo || !o.mapeado) return D.certidoes.filter(c => !registros.has(c.nome)).map(c => c.nome).concat(o ? [o.registro] : []);
     return D.padrao.concat(o.extras, [o.registro]);
   };
-  const piPronta = pi => exigidos(pi.orgao).every(n => situacao(n).cls !== 'classificar');
+  // Anexos da PI: começa pela regra do órgão; o Roger marca e desmarca
+  const docsPi = pi => (pi.sel = pi.sel || exigidos(pi.orgao));
+  const piPronta = pi => docsPi(pi).every(n => situacao(n).cls !== 'classificar');
   const assunto = pi => `Processo - PI ${pi.numero} ${pi.orgao}`;
   const corpo = pi => `Segue anexo os documentos referentes ao processo da PI ${pi.numero} da ${pi.orgao}.\n\nAtt\nRoger`;
 
@@ -90,7 +92,7 @@
   }
 
   // ---- pasta da PI: ZIP e PDF único ----
-  const arquivosPi = pi => exigidos(pi.orgao).map((n, i) => `${String(i + 1).padStart(2, '0')}_${n.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w]+/g, '_')}.pdf`)
+  const arquivosPi = pi => docsPi(pi).map((n, i) => `${String(i + 1).padStart(2, '0')}_${n.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w]+/g, '_')}.pdf`)
     .concat(pi.pasta.nf ? [pi.pasta.nf] : [], pi.pasta.prints.map(p => 'prints/' + p));
   async function baixarZip(pi) {
     if (!window.JSZip) { return; }
@@ -101,7 +103,7 @@
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `PI_${pi.numero}.zip`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   }
   function imprimir(pi) {
-    const docs = exigidos(pi.orgao);
+    const docs = docsPi(pi);
     const el = document.getElementById('print');
     el.innerHTML = `<section class="pg"><h1>Processo · PI ${esc(pi.numero)}</h1><p>${esc(pi.orgao)}<br>${esc(pi.cliente)}<br>${dt(iso(today))}</p>
       <h2>Índice</h2><ol>${docs.map(n => `<li>${esc(n)}</li>`).join('')}${pi.pasta.nf ? '<li>Nota fiscal</li>' : ''}<li>Comprovantes de veiculação (${pi.pasta.prints.length})</li></ol></section>
@@ -125,6 +127,8 @@
       ${alertas.length || piPend.length ? `<div class="card" style="margin-bottom:12px"><strong>Atenção hoje</strong><ul class="alerts">
         ${alertas.map(c => `<li><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span> ${esc(c.nome)}</li>`).join('')}
         ${piPend.map(p => `<li><a href="#pis/${p.numero}">PI ${p.numero}</a> · ${esc(p.orgao)} ainda não enviada</li>`).join('')}</ul></div>` : ''}
+      ${D.entrada.filter(e => !e.feito).length ? `<div class="card" style="margin-bottom:12px"><strong>Chegou no Gmail</strong><p class="muted">Anexos reconhecidos pelas regras. Confirme para guardar.</p><ul class="alerts">
+        ${D.entrada.map((e, i) => `<li>${e.feito ? `<span class="tag enviado">guardado</span> ${esc(e.arquivo)}` : `<strong>${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div><div class="btns"><button class="primary" data-in="${i}">Confirmar</button><button data-in-x="${i}">Não é isso</button></div>`}</li>`).join('')}</ul></div>` : ''}
       <div class="card chart"><strong>Fluxo de caixa PJ, 30 dias</strong><p class="muted" style="margin:4px 0 8px">Saldo de hoje menos contas a pagar, mais recebimentos previstos.</p>${chart(pts)}</div>
       <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}</table></div>`;
     },
@@ -132,11 +136,18 @@
       if (sel === 'nova') return views.novaPi();
       const pi = D.pis.find(p => p.numero === sel);
       if (pi) {
-        const docs = exigidos(pi.orgao);
+        const docs = docsPi(pi), regra = exigidos(pi.orgao);
         const o = orgaoDe(pi.orgao);
+        const outros = D.certidoes.map(c => c.nome).filter(n => !docs.includes(n));
+        const linha = (n, on) => `<li><label class="pick"><input type="checkbox" data-doc="${esc(n)}" ${on ? 'checked' : ''}>
+          <span>${esc(n)}${regra.includes(n) ? '' : ' <span class="muted">(fora da regra)</span>'}${on && cert(n) && vencidasInternas(cert(n)).length ? `<div class="muted">Atualizar e anexar: ${vencidasInternas(cert(n)).map(i => esc(i.nome)).join(', ')}</div>` : ''}</span>
+          ${cert(n) ? `<span class="tag ${situacao(n).cls}">${situacao(n).txt}</span>` : '<span class="tag">avulso</span>'}</label></li>`;
         return `<p><a href="#pis">← PIs</a></p><h1>PI ${pi.numero}</h1><p class="sub">${esc(pi.orgao)} · ${esc(pi.cliente)}</p>
-        <div class="card" style="margin-bottom:12px"><strong>${o && o.mapeado ? 'Documentos que este órgão exige' : 'Enviando tudo (exigências deste órgão ainda não mapeadas)'}</strong><ul class="alerts">
-          ${docs.map(n => `<li><span class="tag ${situacao(n).cls}">${situacao(n).txt}</span> ${esc(n)}${cert(n) && vencidasInternas(cert(n)).length ? `<div class="muted">Atualizar e anexar: ${vencidasInternas(cert(n)).map(i => esc(i.nome)).join(', ')}</div>` : ''}</li>`).join('')}</ul></div>
+        <div class="card" style="margin-bottom:12px"><strong>Anexos (${docs.length})</strong>
+          <p class="muted">${o && o.mapeado ? 'Marcados pela regra do órgão.' : 'Órgão sem regra: tudo marcado.'} Toque para tirar ou incluir.</p>
+          <ul class="alerts">${docs.map(n => linha(n, true)).join('')}</ul>
+          ${outros.length ? `<details><summary>Incluir outro documento da biblioteca (${outros.length})</summary><ul class="alerts">${outros.map(n => linha(n, false)).join('')}</ul></details>` : ''}
+          <label class="btn up">+ Anexar arquivo só nesta PI<input type="file" id="pi-file" accept="application/pdf,image/*" hidden></label></div>
         <div class="card" style="margin-bottom:12px"><strong>E-mail preparado</strong>
           <pre class="mail">Para: ${esc(pi.para)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}\n\nAnexos: ${docs.map(esc).join('; ')}</pre>
           ${piPronta(pi) ? '' : '<p class="bad">Há documento vencido ou faltando. Atualize antes de enviar.</p>'}
@@ -172,10 +183,11 @@
       <div class="card"><table><thead><tr><th>Venc.</th><th>Conta</th><th class="num">Valor</th></tr></thead><tbody>${rows}</tbody></table></div>`;
     },
     documentos() {
-      return `<h1>Documentos</h1><p class="sub">Certidões e registros com controle de validade, e a regra de quais documentos cada órgão exige.</p>
+      return `<h1>Documentos</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
+      <div id="up-form"></div>
       <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
-        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span></td></tr>
-          ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span></td></tr>`).join('')}`).join('')}</table>
+        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button></div></td></tr>
+          ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span><div><button class="link" data-up="${esc(c.nome)}|${esc(i.nome)}">atualizar</button></div></td></tr>`).join('')}`).join('')}</table>
         <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p></div>
       <div class="card"><strong>O que cada órgão exige</strong><p class="muted">Base: ${D.padrao.map(esc).join(', ')}. Órgão ainda não mapeado recebe todos os documentos, como hoje.</p><table>
         <thead><tr><th>Órgão</th><th>Registro</th><th class="hide-sm">Exige também</th><th>Regra</th></tr></thead>
@@ -219,6 +231,29 @@ Abrir: economistarenato.com.br/fato67`;
       out.innerHTML = views.contas(); document.getElementById('wa').value = keep; bind('contas');
       document.getElementById('wa-out').innerHTML = `<p class="good">${novas.length} contas encontradas e adicionadas na lista.</p>`;
     });
+    document.querySelectorAll('input[data-doc]').forEach(cb => cb.addEventListener('change', () => {
+      const pi = D.pis.find(p => p.numero === decodeURIComponent(location.hash).split('/')[1]); const n = cb.dataset.doc;
+      pi.sel = cb.checked ? docsPi(pi).concat([n]) : docsPi(pi).filter(x => x !== n); render();
+    }));
+    const pf = document.getElementById('pi-file');
+    if (pf) pf.addEventListener('change', () => { const f = pf.files[0]; if (!f) return;
+      const pi = D.pis.find(p => p.numero === decodeURIComponent(location.hash).split('/')[1]); pi.sel = docsPi(pi).concat([f.name]); render(); });
+    document.querySelectorAll('button[data-up]').forEach(btn => btn.addEventListener('click', () => {
+      const [c, i] = btn.dataset.up.split('|');
+      document.getElementById('up-form').innerHTML = `<div class="card form" style="margin-bottom:12px"><strong>Atualizar: ${esc(i || c)}</strong>
+        <label>Arquivo (PDF ou foto)<input type="file" id="up-f" accept="application/pdf,image/*"></label>
+        <label>Válido até<input type="date" id="up-d"></label>
+        <div class="btns"><button class="primary" id="up-ok">Guardar</button><button id="up-x">Cancelar</button></div>
+        <p class="muted">Demonstração: o arquivo fica só neste aparelho. Na versão final, vai para o armazenamento da plataforma, com login.</p></div>`;
+      window.scrollTo(0, 0);
+      document.getElementById('up-x').onclick = () => { document.getElementById('up-form').innerHTML = ''; };
+      document.getElementById('up-ok').onclick = () => {
+        const v = document.getElementById('up-d').value; if (!v) { document.getElementById('up-d').focus(); return; }
+        const alvo = cert(c); if (i) alvo.internas.find(x => x.nome === i).validade = v; else alvo.validade = v; render();
+      };
+    }));
+    document.querySelectorAll('button[data-in]').forEach(b => b.addEventListener('click', () => { D.entrada[+b.dataset.in].feito = true; render(); }));
+    document.querySelectorAll('button[data-in-x]').forEach(b => b.addEventListener('click', () => { D.entrada.splice(+b.dataset.inX, 1); render(); }));
     const z = document.getElementById('dl-zip'), pd = document.getElementById('dl-pdf');
     if (z) z.addEventListener('click', () => baixarZip(D.pis.find(p => p.numero === z.dataset.pi)));
     if (pd) pd.addEventListener('click', () => imprimir(D.pis.find(p => p.numero === pd.dataset.pi)));
@@ -247,3 +282,4 @@ Abrir: economistarenato.com.br/fato67`;
   render();
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
+document.getElementById('login').addEventListener('click', e => { e.target.textContent = 'Roger · conectado'; e.target.disabled = true; });
