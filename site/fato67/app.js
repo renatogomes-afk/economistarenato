@@ -61,7 +61,6 @@
 
   // Anexos da PI: começa pela regra do órgão; o Roger marca e desmarca
   const docsPi = pi => (pi.sel = pi.sel || exigidos(pi.orgao).concat(pi.avulsos || []));
-  const piPronta = pi => docsPi(pi).every(n => situacao(n).cls !== 'classificar' || (pi.avulsos || []).includes(n));
   const assunto = pi => `Processo - PI ${pi.numero} ${pi.orgao}`;
   const corpo = pi => `Segue anexo os documentos referentes ao processo da PI ${pi.numero} (${pi.orgao}).\n\nAtt\nRoger Usai`;
   const piAtual = () => D.pis.find(p => p.numero === decodeURIComponent(location.hash).split('/')[1]);
@@ -144,38 +143,94 @@
     window.print();
   }
 
+  const fmt = v => v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  // Saldo do dia: C6 PJ já preenchido com o último valor (corrige só se mudou); contas PF opcionais
+  function cartaoSaldo(noInicio) {
+    const hoje = iso(today), pj = D.saldos.filter(s => s.tipo === 'PJ'), pf = D.saldos.filter(s => s.tipo !== 'PJ');
+    const campo = (s, pre) => `<label>${esc(s.conta)} <span class="muted">${s.data ? `· ${s.data === hoje ? 'hoje' : 'último em ' + dt(s.data)}: ${brl(s.saldo)}` : ''}</span>
+      <input inputmode="decimal" data-saldo="${esc(s.id || s.conta)}" ${pre && s.data ? `value="${fmt(s.saldo)}"` : ''} placeholder="${s.data ? fmt(s.saldo) : 'ex.: 12.345,67'}"></label>`;
+    return `<div class="card form destaque" style="margin-bottom:12px"><strong>Saldo de hoje</strong>
+      <p class="muted">${noInicio ? 'Abra o app do C6, confira o saldo PJ e corrija se mudou.' : 'Abra o app do banco, veja o saldo e digite aqui.'}</p>
+      ${pj.map(s => campo(s, true)).join('')}
+      ${pf.length ? `<details${noInicio ? '' : ' open'}><summary>Contas PF (opcional)</summary>${pf.map(s => campo(s, false)).join('')}</details>` : ''}
+      <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Guardar</button>${noInicio ? '<a class="btn" href="#bancos">Importar extrato</a>' : ''}</div></div>`;
+  }
+  // Próxima ação da PI, para o topo da tela e para a lista do dia
+  function proximo(pi) {
+    if (pi.status === 'enviada') return { cls: 'enviado', txt: 'Enviada.' };
+    const ruins = docsPi(pi).filter(n => situacao(n).cls === 'classificar' && !(pi.avulsos || []).includes(n));
+    if (ruins.length) return { cls: 'classificar', txt: `Falta atualizar: ${ruins.join(', ')}.`, docs: true };
+    const lista = l => l.length > 3 ? `${l.slice(0, 3).join(', ')} e mais ${l.length - 3}` : l.join(', ');
+    const semArq = docsPi(pi).filter(n => cert(n) && cert(n).semArquivo);
+    if (semArq.length) return { cls: 'pendente', txt: `Falta guardar o PDF de: ${lista(semArq)}.`, docs: true };
+    if (!pi.pasta.nf) return { cls: 'pendente', txt: 'Falta anexar a NF.', nf: true };
+    if (!pi.pasta.prints.length) return { cls: 'pendente', txt: 'Falta anexar os prints de veiculação.', prints: true };
+    return { cls: 'enviado', txt: 'Pronta: baixe o ZIP, abra o e-mail, anexe e envie.' };
+  }
+  function textoResumo() {
+    const p7 = abertas().filter(p => p.venc <= addDays(7)).sort((a, b) => a.venc.localeCompare(b.venc));
+    const r7 = D.receber.filter(r => r.venc <= addDays(7));
+    const pts = fluxo(30), min = pts.reduce((m, p) => p.s < m.s ? p : m, pts[0]);
+    const alertas = D.certidoes.filter(c => c.validade && diasAte(c.validade) <= 15);
+    return `*${real() ? D.empresa.nome : 'FATO67'} · Resumo de ${dt(iso(today))}*
+
+Saldo PJ: ${brl(pjF())}
+Contas PF: ${brl(pfF())}
+
+*A pagar nos próximos 7 dias*
+${p7.map(p => `• ${dt(p.venc)} ${p.desc}: ${brl(p.valor)}`).join('\n') || '• nada previsto'}
+
+*A receber nos próximos 7 dias*
+${r7.map(r => `• ${dt(r.venc)} ${r.ref || r.cliente}: ${brl(r.valor)}`).join('\n') || '• nada previsto'}
+
+Menor saldo PJ em 30 dias: ${brl(min.s)} em ${dt(min.day)}
+
+*Certidões*
+${alertas.map(c => `• ${c.nome}: ${situacao(c.nome).txt}`).join('\n') || '• todas em dia'}
+
+Abrir: economistarenato.com.br/fato67`;
+  }
+
   const views = {
     painel() {
-      const p7 = abertas().filter(p => p.venc <= addDays(7)).reduce((a, p) => a + p.valor, 0);
+      const hoje = iso(today);
       const pts = fluxo(30), min = pts.reduce((m, p) => p.s < m.s ? p : m, pts[0]);
-      const alertas = D.certidoes.filter(c => c.validade && diasAte(c.validade) <= 15);
-      const piPend = D.pis.filter(p => p.status !== 'enviada');
-      const velhos = real() ? D.saldos.filter(s => s.data !== iso(today)) : [];
-      return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">${dt(iso(today))} · ${real() ? esc(D.empresa.nome) + ' · saldos digitados ou lidos do extrato' : 'saldos lidos por Open Finance'}</p>
-      ${velhos.length ? `<a class="card picard" href="#bancos" style="margin-bottom:12px"><div><strong>Atualizar os saldos de hoje</strong><div class="muted">${velhos.map(s => esc(s.conta)).join(', ')}</div></div><span class="tag pendente">${velhos.length}</span></a>` : ''}
+      const p7 = abertas().filter(p => p.venc <= addDays(7)).reduce((a, p) => a + p.valor, 0);
+      const saldoPend = D.saldos.filter(s => s.tipo === 'PJ' && s.data !== hoje);
+      // "Para fazer hoje": tudo que pede um toque, com a ação na própria linha
+      const t = [];
+      abertas().filter(p => p.venc <= addDays(1)).sort((a, b) => a.venc.localeCompare(b.venc)).forEach(p => t.push(
+        `<li class="todo"><div><strong>Pagar ${esc(p.desc)}</strong> · ${brl(p.valor)}<div class="${p.venc < hoje ? 'bad' : 'muted'}">${p.venc < hoje ? `vencida em ${dt(p.venc)}` : p.venc === hoje ? 'vence hoje' : 'vence amanhã'}</div></div>${real() && p.id ? `<button data-paga="${p.id}">Paguei</button>` : ''}</li>`));
+      D.receber.filter(r => r.venc <= hoje).forEach(r => t.push(
+        `<li class="todo"><div><strong>Receber de ${esc(r.cliente)}</strong> · ${brl(r.valor)}<div class="muted">${esc(r.ref)} · previsto para ${dt(r.venc)}</div></div>${real() && r.id ? `<button data-recebi="${r.id}">Recebi</button>` : ''}</li>`));
+      D.certidoes.filter(c => ['classificar'].includes(situacao(c.nome).cls) || (c.validade && diasAte(c.validade) <= 15)).forEach(c => t.push(
+        `<li class="todo"><div><strong>${esc(c.nome)}</strong><div class="${situacao(c.nome).cls === 'classificar' ? 'bad' : 'muted'}">${situacao(c.nome).txt}</div></div><a class="btn" href="#documentos">Atualizar</a></li>`));
+      D.pis.filter(p => p.status !== 'enviada').forEach(p => t.push(
+        `<li class="todo"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(proximo(p).txt)}</div></div><a class="btn" href="#pis/${encodeURIComponent(p.numero)}">Abrir</a></li>`));
+      D.entrada.forEach((e, i) => { if (!e.feito) t.push(
+        `<li class="todo"><div><strong>Chegou: ${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div></div><span class="btns" style="margin:0"><button class="primary" data-in="${i}">Guardar</button><button data-in-x="${i}" aria-label="Descartar">✕</button></span></li>`); });
+      return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}</p>
+      ${saldoPend.length ? cartaoSaldo(true) : ''}
+      <div class="card" style="margin-bottom:12px"><strong>Para fazer hoje</strong>
+        ${t.length ? `<ul class="alerts">${t.join('')}</ul>` : `<p class="good" style="margin:8px 0 0">Tudo em dia.${saldoPend.length ? ' Só falta o saldo acima.' : ''}</p>`}</div>
       <div class="grid">
-        <div class="card kpi"><div class="label">Saldo PJ (C6)</div><div class="value">${brl(pjF())}</div></div>
+        <div class="card kpi"><div class="label">Saldo PJ</div><div class="value">${brl(pjF())}</div></div>
         <div class="card kpi"><div class="label">A pagar em 7 dias</div><div class="value bad">${brl(p7)}</div></div>
         <div class="card kpi"><div class="label">Menor saldo em 30 dias</div><div class="value ${min.s < 0 ? 'bad' : ''}">${brl(min.s)}</div><div class="label">em ${dt(min.day)}</div></div>
-        <div class="card kpi"><div class="label">Contas PF (C6, Mercado Pago, BB)</div><div class="value">${brl(pfF())}</div></div>
+        <div class="card kpi"><div class="label">Contas PF</div><div class="value">${brl(pfF())}</div></div>
       </div>
-      ${alertas.length || piPend.length ? `<div class="card" style="margin-bottom:12px"><strong>Atenção hoje</strong><ul class="alerts">
-        ${alertas.map(c => `<li><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span> ${esc(c.nome)}</li>`).join('')}
-        ${piPend.map(p => `<li><a href="#pis/${encodeURIComponent(p.numero)}">PI ${esc(p.numero)}</a> · ${esc(p.orgao)} ainda não enviada</li>`).join('')}</ul></div>` : ''}
-      ${D.entrada.filter(e => !e.feito).length ? `<div class="card" style="margin-bottom:12px"><strong>Chegou por e-mail</strong><p class="muted">Anexos reconhecidos pelas regras. Confirme para guardar.</p><ul class="alerts">
-        ${D.entrada.map((e, i) => `<li>${e.feito ? `<span class="tag enviado">guardado</span> ${esc(e.arquivo)}` : `<strong>${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div><div class="btns"><button class="primary" data-in="${i}">Confirmar</button><button data-in-x="${i}">Não é isso</button></div>`}</li>`).join('')}</ul></div>` : ''}
       <div class="card chart"><strong>Fluxo de caixa PJ, 30 dias</strong><p class="muted" style="margin:4px 0 8px">Saldo de hoje menos contas a pagar, mais recebimentos previstos.</p>${chart(pts)}</div>
-      <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}${real() ? `<div class="muted">${s.data ? 'em ' + dt(s.data) : 'saldo ainda não informado'}</div>` : ''}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}</table>
-        ${real() ? '<div class="btns"><a class="btn" href="#bancos">Informar saldo ou importar extrato</a></div>' : ''}</div>`;
+      <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}${s.data ? `<div class="muted">em ${dt(s.data)}</div>` : real() ? '<div class="muted">saldo ainda não informado</div>' : ''}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}</table>
+        <div class="btns"><a class="btn" href="#bancos">Bancos e extratos</a></div></div>
+      <div class="card" style="margin-top:12px"><strong>Resumo do dia</strong><p class="muted">Saldos, contas da semana, menor saldo do mês e certidões, pronto para o WhatsApp.</p>
+        <div class="btns"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(textoResumo())}" target="_blank" rel="noopener">Mandar no WhatsApp</a><a class="btn" href="#resumo">Ver antes</a></div></div>`;
     },
     bancos() {
       const contas = D.saldos;
       const ext = D.extrato || [];
       return `<h1>Bancos</h1><p class="sub">Enquanto o Open Finance não entra, o saldo vem de duas formas: você digita o saldo do dia, ou importa o extrato (OFX ou CSV) baixado no app do banco.</p>
       ${real() ? '' : '<p class="bad">Demonstração: entre com sua conta para guardar saldos e extratos.</p>'}
-      <div class="card form" style="margin-bottom:12px"><strong>Saldo de hoje</strong><p class="muted">Abra o app do banco, veja o saldo e digite aqui. Leva um minuto.</p>
-        ${contas.map(s => `<label>${esc(s.conta)} <span class="muted">${s.data ? `· último: ${brl(s.saldo)} em ${dt(s.data)}` : ''}</span><input inputmode="decimal" data-saldo="${esc(s.id || s.conta)}" placeholder="ex.: 12.345,67"></label>`).join('')}
-        <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled'}>Guardar saldos</button></div></div>
+      ${cartaoSaldo(false)}
       <div class="card form" style="margin-bottom:12px"><strong>Importar extrato</strong>
         <p class="muted">C6 e Banco do Brasil: extrato › exportar › OFX. Mercado Pago: Seu dinheiro › Relatórios › CSV. Importar de novo o mesmo período não duplica.</p>
         <label>Conta<select id="ex-conta">${contas.map(s => `<option value="${esc(s.id || '')}">${esc(s.conta)}</option>`).join('')}</select></label>
@@ -194,30 +249,34 @@
           <span>${esc(n)}${regra.includes(n) || (pi.avulsos || []).includes(n) ? '' : ' <span class="muted">(fora da regra)</span>'}${on && cert(n) && vencidasInternas(cert(n)).length ? `<div class="muted">Atualizar e anexar: ${vencidasInternas(cert(n)).map(i => esc(i.nome)).join(', ')}</div>` : ''}</span>
           ${cert(n) ? `<span class="tag ${situacao(n).cls}">${situacao(n).txt}</span>` : '<span class="tag">avulso</span>'}</label></li>`;
         const dst = destino(pi.cliente, pi.orgao);
+        const px = proximo(pi), up = (tipo, txt, multi) => real() ? `<label class="btn up${multi === 'p' ? ' primary' : ''}">${txt}<input type="file" class="pi-up" data-tipo="${tipo}" accept="${tipo === 'print' ? 'image/*,application/pdf' : 'application/pdf,image/*'}" ${tipo === 'print' ? 'multiple' : ''} hidden></label>` : '';
+        const mail = real() && dst.email ? `<a class="btn${px.cls === 'enviado' && pi.status !== 'enviada' ? ' primary' : ''}" href="mailto:${esc(dst.email)}?subject=${encodeURIComponent(assunto(pi))}&body=${encodeURIComponent(corpo(pi))}">Abrir e-mail</a>` : '';
         return `<p><a href="#pis">← PIs</a></p><h1>PI ${esc(pi.numero)}</h1><p class="sub">${esc(pi.orgao)} · ${esc(pi.cliente)}</p>
-        <div class="card" style="margin-bottom:12px"><strong>Anexos (${docs.length})</strong>
+        <div class="card destaque" style="margin-bottom:12px"><span class="tag ${px.cls}">${pi.status === 'enviada' ? 'enviada' : px.cls === 'enviado' ? 'pronta' : 'pendente'}</span>
+          <p style="margin:8px 0 0"><strong>${esc(px.txt)}</strong></p>
+          <div class="btns wrap">${px.nf ? up('nf', '+ Anexar NF', 'p') : ''}${px.prints ? up('print', '+ Anexar prints', 'p') : ''}${px.docs ? '<a class="btn primary" href="#documentos">Atualizar documentos</a>' : ''}
+            <button id="dl-zip" class="${px.cls === 'enviado' && pi.status !== 'enviada' ? 'primary' : ''}">Baixar ZIP</button>${mail}
+            ${real() && pi.status !== 'enviada' ? '<button id="pi-enviada">Marcar como enviada</button>' : ''}</div>
+          ${real() && !dst.email ? '<p class="muted">A agência ainda não tem e-mail cadastrado; o e-mail abre sem destinatário.</p>' : ''}</div>
+        <details class="card" style="margin-bottom:12px"${px.docs ? ' open' : ''}><summary><strong>Documentos anexados (${docs.length})</strong></summary>
           <p class="muted">${o && o.mapeado ? 'Marcados pela regra do órgão.' : 'Órgão sem regra: tudo marcado.'} Toque para tirar ou incluir.</p>
           <ul class="alerts">${docs.map(n => linha(n, true)).join('')}</ul>
           ${outros.length ? `<details><summary>Incluir outro documento da biblioteca (${outros.length})</summary><ul class="alerts">${outros.map(n => linha(n, false)).join('')}</ul></details>` : ''}
-          <label class="btn up">+ Anexar arquivo só nesta PI<input type="file" class="pi-up" data-tipo="avulso" accept="application/pdf,image/*" hidden></label></div>
-        <div class="card" style="margin-bottom:12px"><strong>E-mail preparado</strong>
+          <label class="btn up">+ Anexar arquivo só nesta PI<input type="file" class="pi-up" data-tipo="avulso" accept="application/pdf,image/*" hidden></label></details>
+        <details class="card" style="margin-bottom:12px"><summary><strong>Ver o e-mail</strong></summary>
           <p class="muted">Para: ${esc(dst.txt)}</p><pre class="mail">Para: ${esc(dst.email || '—')}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}\n\nAnexos: ${docs.map(esc).join('; ')}</pre>
-          ${piPronta(pi) ? '' : '<p class="bad">Há documento vencido ou faltando. Atualize antes de enviar.</p>'}
-          ${real() ? `<div class="btns"><a class="btn primary" href="mailto:${esc(dst.email)}?subject=${encodeURIComponent(assunto(pi))}&body=${encodeURIComponent(corpo(pi))}">Abrir no e-mail</a>${pi.status === 'enviada' ? '' : '<button id="pi-enviada">Marcar como enviada</button>'}</div><p class="muted">Baixe o ZIP abaixo e anexe no e-mail. O envio pela própria plataforma vem depois.</p>`
-            : '<div class="btns"><button class="primary" disabled title="Desativado na demonstração">Enviar</button><button disabled>Editar</button></div>'}</div>
-        <div class="card" style="margin-bottom:12px"><strong>Passos do processo</strong><p class="muted">${manualDe(pi.cliente, pi.orgao) ? `Do manual "${esc(pi.cliente)} + ${esc(pi.orgao)}".` : 'Passos padrão: ainda não há manual para esta combinação.'}</p>
-          <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" data-passo="${i}" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></div>
-        <div class="card" style="margin-bottom:12px"><strong>Baixar a pasta da PI</strong><p class="muted">Para enviar ou imprimir o processo, como algumas agências pedem.</p>
-          <div class="btns"><button class="primary" id="dl-zip">Baixar ZIP</button><button id="dl-pdf">PDF para imprimir</button></div></div>
-        <div class="card"><strong>Pasta da PI</strong><ul class="alerts">
-          <li>Nota fiscal: ${pi.pasta.nf ? esc(pi.pasta.nf) : '<span class="tag pendente">ainda não emitida</span>'}</li>
-          <li>Prints de veiculação: ${pi.pasta.prints.map(esc).join(', ') || '—'}</li></ul>
-          ${real() ? `<div class="btns"><label class="btn up">+ NF<input type="file" class="pi-up" data-tipo="nf" accept="application/pdf,image/*" hidden></label><label class="btn up">+ Prints<input type="file" class="pi-up" data-tipo="print" accept="image/*,application/pdf" multiple hidden></label></div>` : ''}</div>`;
+          <p class="muted">Baixe o ZIP e anexe no e-mail. O envio pela própria plataforma vem depois.</p></details>
+        <div class="card" style="margin-bottom:12px"><strong>Nota fiscal e prints</strong><ul class="alerts">
+          <li>Nota fiscal: ${pi.pasta.nf ? esc(pi.pasta.nf) : '<span class="tag pendente">ainda não anexada</span>'}</li>
+          <li>Prints de veiculação: ${pi.pasta.prints.map(esc).join(', ') || '<span class="tag pendente">nenhum</span>'}</li></ul>
+          <div class="btns wrap">${up('nf', pi.pasta.nf ? 'Trocar NF' : '+ NF')}${up('print', '+ Prints')}<button id="dl-pdf">PDF para imprimir</button></div></div>
+        <details class="card"><summary><strong>Passos do processo</strong> <span class="muted">(${pi.status === 'enviada' ? 'todos' : Math.min(pi.feitos || 0, passos(pi.cliente, pi.orgao).length)} de ${passos(pi.cliente, pi.orgao).length})</span></summary><p class="muted">${manualDe(pi.cliente, pi.orgao) ? `Do manual "${esc(pi.cliente)} + ${esc(pi.orgao)}".` : 'Passos padrão: ainda não há manual para esta combinação.'}</p>
+          <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" data-passo="${i}" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></details>`;
       }
       return `<div class="head"><div><h1>PIs</h1><p class="sub">Cada pedido de inserção vira uma pasta com documentos, NF e prints, e um e-mail pronto.</p></div><a class="btn primary" href="#pis/nova">+ Nova PI</a></div>
       ${D.pis.length ? '' : '<p class="muted">Nenhuma PI cadastrada ainda.</p>'}
       ${D.pis.map(p => `<a class="card picard" href="#pis/${encodeURIComponent(p.numero)}"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(p.cliente)} · ${dt(p.data)}</div></div>
-        <span class="tag ${p.status === 'enviada' ? 'enviado' : piPronta(p) ? 'pendente' : 'classificar'}">${p.status === 'enviada' ? 'enviada' : piPronta(p) ? 'pronta p/ enviar' : 'falta documento'}</span></a>`).join('')}`;
+        <span class="tag ${proximo(p).cls}">${p.status === 'enviada' ? 'enviada' : proximo(p).cls === 'enviado' ? 'pronta p/ enviar' : proximo(p).docs ? 'falta documento' : proximo(p).nf ? 'falta NF' : 'falta print'}</span></a>`).join('')}`;
     },
     novaPi() {
       return `<p><a href="#pis">← PIs</a></p><h1>Nova PI</h1><p class="sub">Escolha o órgão e a plataforma junta os documentos certos e monta o e-mail.</p>
@@ -234,10 +293,10 @@
       const rec = [...D.receber].sort((a, b) => a.venc.localeCompare(b.venc)).map(r => `<tr><td>${dt(r.venc)}</td><td><strong>${esc(r.cliente)}</strong><div class="muted">${esc(r.ref)}</div></td>
         <td class="num">${brl(r.valor)}${real() && r.id ? `<div><button class="link" data-recebi="${r.id}">recebi</button></div>` : ''}</td></tr>`).join('');
       return `<h1>Contas</h1><p class="sub">Impostos, honorários, fornecedores e o que você anota no WhatsApp. A plataforma não paga: você paga no banco e marca aqui.</p>
-      ${real() ? `<details class="card form" style="margin-bottom:12px"><summary><strong>+ Nova conta a pagar ou a receber</strong></summary>
-        <label>Tipo<select id="nc-tipo"><option value="pagar">A pagar</option><option value="receber">A receber</option></select></label>
-        <label>Descrição (ou cliente, se for a receber)<input id="nc-desc" placeholder="ex.: Aluguel"></label>
-        <label>Referência (opcional)<input id="nc-ref" placeholder="ex.: PI 58820"></label>
+      ${real() ? `<details class="card form" style="margin-bottom:12px"><summary><strong>+ Nova conta</strong></summary>
+        <div class="seg" role="group"><button type="button" class="on" data-nc="pagar">A pagar</button><button type="button" data-nc="receber">A receber</button></div><input type="hidden" id="nc-tipo" value="pagar">
+        <label><span id="nc-l1">Descrição</span><input id="nc-desc" placeholder="ex.: Aluguel"></label>
+        <label><span id="nc-l2">Observação (opcional)</span><input id="nc-ref" placeholder="ex.: fornecedor, nº do boleto"></label>
         <label>Vencimento<input id="nc-venc" type="date"></label>
         <label>Valor<input id="nc-valor" inputmode="decimal" placeholder="ex.: 1.450,00"></label>
         <div class="btns"><button class="primary" id="nc-ok">Guardar</button></div></details>` : ''}
@@ -249,7 +308,7 @@
       <div class="card"><strong>A receber</strong>${rec ? `<table><tbody>${rec}</tbody></table>` : '<p class="muted">Nada previsto.</p>'}</div>`;
     },
     documentos() {
-      return `<h1>Documentos e regras</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
+      return `<h1>Documentos</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
       <div id="up-form"></div>
       <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
         ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.numero ? `<div class="muted">${esc(c.numero)}</div>` : ''}${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button>${real() && c.arquivo ? ` · <button class="link" data-ver="${esc(c.arquivo)}">ver</button>` : ''}</div></td></tr>
@@ -264,30 +323,10 @@
         ${D.orgaos.map(o => `<tr><td>${esc(o.nome)}</td><td>${esc(o.registro)}</td><td class="hide-sm">${o.mapeado ? (o.extras.map(esc).join(', ') || '—') : '—'}</td><td><span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? 'mapeado' : 'envia tudo'}</span></td></tr>`).join('')}</table></div>`;
     },
     resumo() {
-      const p7 = abertas().filter(p => p.venc <= addDays(7)).sort((a, b) => a.venc.localeCompare(b.venc));
-      const r7 = D.receber.filter(r => r.venc <= addDays(7));
-      const pts = fluxo(30), min = pts.reduce((m, p) => p.s < m.s ? p : m, pts[0]);
-      const alertas = D.certidoes.filter(c => c.validade && diasAte(c.validade) <= 15);
-      const msg = `*${real() ? D.empresa.nome : 'FATO67'} · Resumo de ${dt(iso(today))}*
-
-Saldo PJ (C6): ${brl(pjF())}
-Contas PF: ${brl(pfF())}
-
-*A pagar nos próximos 7 dias*
-${p7.map(p => `• ${dt(p.venc)} ${p.desc}: ${brl(p.valor)}`).join('\n') || '• nada previsto'}
-
-*A receber nos próximos 7 dias*
-${r7.map(r => `• ${dt(r.venc)} ${r.ref || r.cliente}: ${brl(r.valor)}`).join('\n') || '• nada previsto'}
-
-Menor saldo PJ em 30 dias: ${brl(min.s)} em ${dt(min.day)}
-
-*Certidões*
-${alertas.map(c => `• ${c.nome}: ${situacao(c.nome).txt}`).join('\n') || '• todas em dia'}
-
-Abrir: economistarenato.com.br/fato67`;
-      return `<h1>Resumo diário</h1><p class="sub">${real() ? 'O envio automático pelo WhatsApp vem numa próxima etapa. Por enquanto, copie e mande para você mesmo.' : 'Chega todo dia às 7h no seu WhatsApp.'} Prévia de hoje:</p>
+      const msg = textoResumo();
+      return `<p><a href="#painel">← Início</a></p><h1>Resumo do dia</h1><p class="sub">Prévia da mensagem. O envio automático todo dia de manhã vem numa próxima etapa.</p>
       <div class="phone"><div class="bubble">${esc(msg).replace(/\*(.+?)\*/g, '<strong>$1</strong>')}</div></div>
-      ${real() ? `<div class="btns" style="justify-content:center"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">Mandar pelo WhatsApp</a></div>` : ''}`;
+      <div class="btns" style="justify-content:center"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">Mandar no WhatsApp</a></div>`;
     }
   };
 
@@ -362,11 +401,20 @@ Abrir: economistarenato.com.br/fato67`;
     }));
     document.querySelectorAll('button[data-paga]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.marcarPaga(b.dataset.paga), 'Conta marcada como paga.')));
     document.querySelectorAll('button[data-recebi]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.marcarRecebido(b.dataset.recebi), 'Marcado como recebido.')));
+    document.querySelectorAll('button[data-nc]').forEach(b => b.addEventListener('click', () => {
+      const rec = b.dataset.nc === 'receber';
+      document.querySelectorAll('button[data-nc]').forEach(x => x.classList.toggle('on', x === b));
+      document.getElementById('nc-tipo').value = b.dataset.nc;
+      document.getElementById('nc-l1').textContent = rec ? 'De quem (cliente ou agência)' : 'Descrição';
+      document.getElementById('nc-desc').placeholder = rec ? 'ex.: Agência X' : 'ex.: Aluguel';
+      document.getElementById('nc-l2').textContent = rec ? 'Referência (opcional)' : 'Observação (opcional)';
+      document.getElementById('nc-ref').placeholder = rec ? 'ex.: PI 58820' : 'ex.: fornecedor, nº do boleto';
+    }));
     const nc = document.getElementById('nc-ok');
     if (nc) nc.addEventListener('click', () => {
       const g = id => document.getElementById(id).value.trim();
       const valor = valorBR(g('nc-valor')), venc = g('nc-venc'), desc = g('nc-desc');
-      if (!desc || !venc || !(valor > 0)) { avisar('Preencha descrição, vencimento e valor.', 'bad'); return; }
+      if (!desc || !venc || !(valor > 0)) { avisar('Preencha os campos, o vencimento e o valor.', 'bad'); return; }
       acao(() => g('nc-tipo') === 'receber' ? N.acoes.novoReceber({ cliente: desc, ref: g('nc-ref'), venc, valor }) : N.acoes.novaConta({ desc: g('nc-ref') ? `${desc} (${g('nc-ref')})` : desc, venc, valor, categoria: 'A classificar' }), 'Guardado.');
     });
     // Bancos: saldo digitado e extrato
