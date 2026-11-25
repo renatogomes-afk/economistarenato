@@ -118,6 +118,10 @@ def _p(x):
     return f"{abs(x) * 100:.1f}%".replace(".", ",")
 
 
+def _usd(x):
+    return f"{x:,.0f}".replace(",", ".")
+
+
 def consideracoes(B):
     """Considerações do fechamento, por regras simples sobre os números do boletim. Lista de frases."""
     u, m, ab = B["btc_usd"], B.get("mercado") or {}, B.get("abertura")
@@ -126,7 +130,7 @@ def consideracoes(B):
     r = u["fech"] / u["ontem"] - 1 if u.get("ontem") else None
     if r is not None:
         out.append(f"Dia de pouca variação: o bitcoin fechou {'em alta' if r >= 0 else 'em baixa'} de {_p(r)}." if abs(r) < 0.01
-                   else f"O bitcoin {'subiu' if r > 0 else 'caiu'} {_p(r)} no dia, entre US$ {u['baixa']:,.0f} e US$ {u['alta']:,.0f}.".replace(",", "."))
+                   else f"O bitcoin {'subiu' if r > 0 else 'caiu'} {_p(r)} no dia, entre US$ {_usd(u['baixa'])} e US$ {_usd(u['alta'])}.")
     if ab and u.get("ontem"):
         pre, pos = ab["btc_usd"] / u["ontem"] - 1, u["fech"] / ab["btc_usd"] - 1
         hora = ab["hora_cuiaba"]
@@ -171,7 +175,7 @@ def consideracoes(B):
         out.append(f"O índice Fear & Greed do cripto marcava {fg['valor']} de 100 ({fg['classe']}).")
     acion = [x for x in B["estrategias"] if x["book"] and x["mudou"]]
     if acion:
-        out.append("Ordens no book acionadas na semana: " + "; ".join(f"{x['nome']} ({'compra' if x['agora'] else 'venda'} a US$ {x['acionada_usd']:,.0f})".replace(",", ".") for x in acion) + ".")
+        out.append("Ordens no book acionadas na semana: " + "; ".join(f"{x['nome']} ({'compra' if x['agora'] else 'venda'} a US$ {_usd(x['acionada_usd'])})" for x in acion) + ".")
     if B["votos_agora"] != B["votos_domingo"]:
         out.append(f"O placar dos sete sinais passou de {B['votos_domingo']} para {B['votos_agora']} de 7 desde domingo.")
     return out

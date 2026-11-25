@@ -2061,6 +2061,36 @@ def diario_html(B):
     fech = [x for x in B["estrategias"] if not x["book"]]
     fech_txt = "".join(f"<li>{e(rot_btc(x['nome']))}: {'comprado' if x['domingo'] else 'no CDI'} desde domingo; "
                        + (f"<b>{'compraria' if x['agora'] else 'venderia'}</b>" if x["mudou"] else f"ficaria {'comprado' if x['agora'] else 'no CDI'}") + "</li>" for x in fech)
+    ab = B.get("abertura")
+    ab_txt = (f"""    <h3 class="conceito-tit">Boletim de abertura</h3>
+    <p>Às {ab['hora_cuiaba']} de Cuiabá ({e(ab['hora_utc'][11:])}), uma hora depois da abertura da bolsa de Nova York, o bitcoin estava a <b>US$ {num(ab['btc_usd'])}</b>{f", {p1(ab['btc_usd'] / u['ontem'] - 1)} sobre o dia anterior" if u.get("ontem") else ""}, depois de oscilar entre US$ {num(ab['baixa'])} e US$ {num(ab['alta'])} desde a meia-noite UTC. Placar: {ab['votos']} de 7{"; ordens acionadas até ali: " + e(", ".join(ab['acionadas'])) if ab['acionadas'] else "; nenhuma ordem acionada até ali"}.</p>
+""" if ab else "")
+    m = B.get("mercado")
+    if m and m.get("variaveis"):
+        def lin(v):
+            if not v.get("aberto"):
+                return f"<tr><td>{e(v['rotulo'])}</td><td>–</td><td>sem pregão</td></tr>"
+            if v["unidade"] == "pb":
+                k = 100 if v["valor"] < 20 else 10
+                return f"<tr><td>{e(v['rotulo'])}</td><td>{num(v['valor'] * k / 100, 2)}%</td><td>{(v['valor'] - v['anterior']) * k:+.0f} p.b.</td></tr>".replace("-", "−")
+            return f"<tr><td>{e(v['rotulo'])}</td><td>{num(v['valor'], 2)}</td><td>{p1(v['valor'] / v['anterior'] - 1)}</td></tr>"
+        fg = m.get("medo_ganancia")
+        fg_l = f"<tr><td>Fear &amp; Greed do cripto</td><td>{fg['valor']} de 100</td><td>{e(fg['classe'])}</td></tr>" if fg else ""
+        manch = "".join(f'<li><a href="{e(x["link"])}" rel="noopener">{e(x["titulo"])}</a></li>' for x in m.get("manchetes") or [])
+        merc_txt = f"""    <h3 class="conceito-tit">O mercado no dia</h3>
+    <div class="tab-rolagem"><table class="tab-btc tab-anos"><thead><tr><th>Variável</th><th>{"Agora" if B.get("parcial") else "Fechamento"}</th><th>No dia</th></tr></thead><tbody>{"".join(lin(v) for v in m["variaveis"])}{fg_l}</tbody></table></div>
+    <p class="nota-min">Bolsas, dólar, ouro, juro e VIX: Yahoo Finance, pregão do dia na data local de cada bolsa. Ether: Coinbase, vela diária UTC. Fear &amp; Greed: Alternative.me.</p>
+""" + (f"""    <h3 class="conceito-tit">Manchetes do dia</h3>
+    <ul class="lista-min">{manch}</ul>
+    <p class="nota-min">Títulos e links do CoinDesk (em inglês), na ordem do RSS.</p>
+""" if manch else "")
+    else:
+        merc_txt = ""
+    cons = B.get("consideracoes")
+    cons_txt = (f"""    <h3 class="conceito-tit">Considerações do dia</h3>
+    <ul class="lista-min">{"".join(f"<li>{e(c)}</li>" for c in cons)}</ul>
+    <p class="nota-min">Escritas automaticamente, por regras fixas, a partir dos números acima. Descrevem o dia; não são recomendação.</p>
+""" if cons else "")
     return f"""    <p>{DIAS_SEM[D.weekday()].capitalize()}, {data_br(B['data'])}, {quando}. O bitcoin estava a <b>US$ {num(u['fech'])}</b>{dia}, e {p1(u['fech'] / u['domingo'] - 1)} sobre o fechamento de domingo, {data_br(B['domingo'])} (US$ {num(u['domingo'])}). No dia, mínima de US$ {num(u['baixa'])} e máxima de US$ {num(u['alta'])}; na semana até aqui, de US$ {num(u['baixa_semana'])} a US$ {num(u['alta_semana'])}.</p>
     <p><b>Placar dos sete sinais: {B['votos_agora']} de 7</b> se a semana fechasse agora (no domingo, {B['votos_domingo']}).</p>
     <h3 class="conceito-tit">Ordens no book acionadas na semana</h3>
@@ -2069,7 +2099,7 @@ def diario_html(B):
     <ul class="lista-min">{pend_txt}</ul>
     <h3 class="conceito-tit">Regras de fechamento: se a semana fechasse agora</h3>
     <ul class="lista-min">{fech_txt}</ul>
-    <p class="nota-min">As regras de fechamento só decidem no domingo; até lá, isto é uma prévia. Ordens no book acionadas já valem. Fonte: Coinbase, velas diárias BTC-USD (UTC). Gerado em {e(B['gerado_em'])}{"" if B.get("parcial") else " e não alterado depois"}.</p>
+{ab_txt}{merc_txt}{cons_txt}    <p class="nota-min">As regras de fechamento só decidem no domingo; até lá, isto é uma prévia. Ordens no book acionadas já valem. Fonte: Coinbase, velas diárias BTC-USD (UTC). Gerado em {e(B['gerado_em'])}{"" if B.get("parcial") else (". " + e(B["complemento"]) if B.get("complemento") else " e não alterado depois")}.</p>
 """
 
 
@@ -2084,7 +2114,7 @@ def paginas_diario_btc():
 {sub_btc("diario/", "../")}  <section class="heroi heroi-interno">
     <p class="heroi-quem">Bitcoin · piloto · boletim diário</p>
     <h1>Boletim diário</h1>
-    <p class="heroi-olho">Todo dia, às 20h10 de Cuiabá, logo depois do fechamento do dia na Coinbase: o preço, as ordens no book acionadas na semana e o que as regras de fechamento decidiriam se a semana terminasse ali. As estratégias continuam semanais; o boletim diário mostra a semana andando. <a href="feed.xml">Assine pelo RSS</a>.</p>
+    <p class="heroi-olho">Todo dia, às 20h17 de Cuiabá, logo depois do fechamento do dia na Coinbase: o preço, as ordens no book acionadas na semana e o que as regras de fechamento decidiriam se a semana terminasse ali, com o retrato da abertura (uma hora depois da abertura de Nova York), as variáveis que mexeram com o mercado e as considerações do dia. As estratégias continuam semanais; o boletim diário mostra a semana andando. <a href="feed.xml">Assine pelo RSS</a>.</p>
   </section>
 {destaque}  <section class="para-quem">
     <h2>Todos os dias</h2>
