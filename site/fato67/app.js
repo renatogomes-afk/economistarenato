@@ -325,7 +325,8 @@ Abrir: economistarenato.com.br/fato67`;
           <p style="margin:8px 0 0"><strong>${esc(px.txt)}</strong></p>
           <div class="btns wrap">${px.nf ? up('nf', '+ Anexar NF', 'p') : ''}${px.prints ? up('print', '+ Anexar prints', 'p') : ''}${px.docs ? '<a class="btn primary" href="#arquivo">Atualizar documentos</a>' : ''}
             <button id="dl-zip" class="${px.cls === 'enviado' && pi.status !== 'enviada' ? 'primary' : ''}">Baixar ZIP</button>${mail}
-            ${real() && pi.status !== 'enviada' ? '<button id="pi-enviada">Marcar como enviada</button>' : ''}</div>
+            ${real() && pi.status !== 'enviada' ? '<button id="pi-enviada">Marcar como enviada</button>' : ''}${real() && pi.status === 'enviada' ? '<button id="pi-desmarcar">Desmarcar envio</button>' : ''}</div>
+          ${pi.status === 'enviada' && pi.enviada ? `<p class="muted">Enviada em ${dt(pi.enviada)}; o processo está guardado no Arquivo, gaveta Processos enviados.</p>` : ''}
           ${real() && !dst.email ? '<p class="muted">A agência ainda não tem e-mail cadastrado; o e-mail abre sem destinatário.</p>' : ''}</div>
         <details class="card" style="margin-bottom:12px"${px.docs ? ' open' : ''}><summary><strong>Documentos anexados (${docs.length})</strong></summary>
           <p class="muted">${o && o.mapeado ? 'Marcados pela regra do órgão.' : 'Órgão sem regra: tudo marcado.'} Toque para tirar ou incluir.</p>
@@ -368,7 +369,7 @@ Abrir: economistarenato.com.br/fato67`;
       const arqs = D.pis.flatMap(p => (p.pasta.arquivos || [{ tipo: 'nf', nome: p.pasta.nf }].concat(p.pasta.prints.map(n => ({ tipo: 'print', nome: n })))).filter(a => a.nome)
         .map(a => ({ ...a, pi: p, mes: a.competencia ? a.competencia.slice(0, 7) : String(p.data || iso(today)).slice(0, 7) })));
       // Meses com alguma coisa guardada, do mais antigo até o atual (sem buracos)
-      const usados = D.certidoes.flatMap(c => [c].concat(c.historico || [])).map(mesDe).concat(arqs.map(a => a.mes)).filter(m => m <= atual);
+      const usados = D.certidoes.flatMap(c => [c].concat(c.historico || [])).map(mesDe).concat(arqs.map(a => a.mes), D.pis.filter(p => p.status === 'enviada').map(p => String(p.enviada || p.data || '').slice(0, 7)).filter(Boolean)).filter(m => m <= atual);
       const meses = []; for (let m = usados.reduce((x, y) => (y < x ? y : x), atual); m <= atual;) { meses.unshift(m); const [y, mm] = m.split('-').map(Number); m = mm === 12 ? `${y + 1}-01` : `${y}-${String(mm + 1).padStart(2, '0')}`; }
       const fimMes = m => { const [y, mm] = m.split('-').map(Number); return iso(new Date(y, mm, 0)); };
       // Versão de cada documento que valia na competência: a mais recente guardada até aquele mês
@@ -393,16 +394,32 @@ Abrir: economistarenato.com.br/fato67`;
       const blocoNf = nfs.length ? grupos(nfs).map(([o, l]) => `<p style="margin:12px 0 4px"><strong>${esc(o)}</strong> <span class="muted">(${l.length})</span></p><ul class="alerts">${l.map(item).join('')}</ul>`).join('') : vazio;
       const blocoPr = prints.length ? grupos(prints).map(([o, l]) => `<p style="margin:12px 0 4px"><strong>${esc(o)}</strong> <span class="muted">(${l.length})</span></p>${[...new Set(l.map(a => a.pi.numero))].map(n => { const da = l.filter(a => a.pi.numero === n);
           return `<details class="hist"><summary>PI ${esc(n)} · ${esc(da[0].pi.cliente)} · ${da.length} print(s)</summary><ul class="alerts">${da.map(a => `<li class="todo"><div>${esc(a.nome)}</div>${ver(a)}</li>`).join('')}</ul></details>`; }).join('')}`).join('') : vazio;
-      return `<h1>Arquivo da empresa</h1><p class="sub">Cada mês-competência guarda a sua cópia de cada documento. Escolha o mês para ver as cópias de meses anteriores.</p>
+      // Processos enviados: cada PI enviada é uma pasta, no mês em que foi enviada
+      const enviadas = D.pis.filter(p => p.status === 'enviada' && String(p.enviada || p.data || '').slice(0, 7) === M);
+      const pasta = p => { const docs = docsPi(p);
+        return `<details class="hist"><summary>PI ${esc(p.numero)} · ${esc(p.cliente)} · enviada em ${dt(String(p.enviada || p.data).slice(0, 10))}</summary>
+          <ul class="alerts"><li><strong>E-mail:</strong> ${esc(assunto(p))}<div class="muted">para ${esc(destino(p.cliente, p.orgao).email || '—')}</div></li>
+          <li><strong>Documentos (${docs.length}):</strong> <span class="muted">${docs.map(esc).join(', ') || '—'}</span></li>
+          <li><strong>Nota fiscal:</strong> <span class="muted">${esc(p.pasta.nf || 'não anexada')}</span></li>
+          <li><strong>Prints:</strong> <span class="muted">${p.pasta.prints.length ? p.pasta.prints.map(esc).join(', ') : 'nenhum'}</span></li></ul>
+          <div class="btns"><button data-zip="${esc(p.numero)}">Baixar o processo (ZIP)</button><a class="btn" href="#pis/${encodeURIComponent(p.numero)}">Abrir a PI</a></div></details>`; };
+      const blocoEnv = enviadas.length ? grupos(enviadas.map(p => ({ pi: p }))).map(([o, l]) => `<p style="margin:12px 0 4px"><strong>${esc(o)}</strong> <span class="muted">(${l.length})</span></p>${l.map(x => pasta(x.pi)).join('')}`).join('')
+        : `<p class="muted">Nenhum processo enviado em ${nomeMes(M)}. A PI entra aqui quando é marcada como enviada.</p>`;
+      const comCopia = D.certidoes.filter(c => agora ? !c.semArquivo : vigente(c)).length;
+      const gavetas = [['g-cert', 'Certidões e registros', `${comCopia} de ${D.certidoes.length}`], ['g-env', 'Processos enviados', enviadas.length],
+        ['g-nf', 'Notas fiscais', nfs.length], ['g-pr', 'Prints de veiculação', prints.length], ['g-out', 'Outros anexos', avulsos.length]];
+      const gaveta = (id, n, titulo, corpo, aberta) => `<details class="card gaveta" id="${id}" style="margin-bottom:12px"${aberta ? ' open' : ''}><summary><span class="muted">Gaveta ${n}</span> <strong>${titulo}</strong> <span class="muted">· ${nomeMes(M)}</span></summary>${corpo}</details>`;
+      return `<h1>Arquivo da empresa</h1><p class="sub">Um fichário: cada gaveta guarda um tipo de papel, separado por mês-competência. Escolha o mês para abrir as pastas de meses anteriores.</p>
       <div class="card form" style="margin-bottom:12px"><label>Competência<select id="arq-mes">${meses.map(m => `<option value="${m}" ${m === M ? 'selected' : ''}>${nomeMes(m)}${m === atual ? ' (mês atual)' : ''}</option>`).join('')}</select></label>
-        <p class="muted" style="margin:0">${nomeMes(M)}: ${D.certidoes.filter(c => agora ? !c.semArquivo : vigente(c)).length} de ${D.certidoes.length} documentos com cópia · ${nfs.length} NF(s) · ${prints.length} print(s)</p></div>
+        <div class="fichario">${gavetas.map(([id, n, q], i) => `<button type="button" data-gaveta="${id}"><span class="muted">${i + 1}</span><strong>${n}</strong><span>${q}</span></button>`).join('')}</div></div>
       <div id="up-form"></div>
-      <div class="card" style="margin-bottom:12px"><strong>Certidões e registros · ${nomeMes(M)}</strong><table>${agora ? linhasAgora : linhasMes}</table>
+      ${gaveta('g-cert', 1, 'Certidões e registros', `<table>${agora ? linhasAgora : linhasMes}</table>
         ${agora ? `<p class="muted">O certificado de registro (CERCA, CRC) tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p>
-        ${real() ? '<div class="form inline"><input id="td-nome" placeholder="Novo tipo de documento (ex.: Alvará)"><button id="td-ok">Adicionar</button></div>' : ''}` : `<p class="muted">Mostra a cópia que valia em ${nomeMes(M)}. Se faltar a do mês, guarde-a aqui; ela entra no histórico sem mudar a versão atual.</p>`}</div>
-      <details class="card" style="margin-bottom:12px" open><summary><strong>Notas fiscais por cliente · ${nomeMes(M)} (${nfs.length})</strong></summary>${blocoNf}</details>
-      <details class="card" style="margin-bottom:12px"${prints.length ? ' open' : ''}><summary><strong>Prints de veiculação por cliente e PI · ${nomeMes(M)} (${prints.length})</strong></summary>${blocoPr}</details>
-      ${avulsos.length ? `<details class="card"><summary><strong>Outros anexos de PI · ${nomeMes(M)} (${avulsos.length})</strong></summary><ul class="alerts">${avulsos.map(item).join('')}</ul></details>` : ''}`;
+        ${real() ? '<div class="form inline"><input id="td-nome" placeholder="Novo tipo de documento (ex.: Alvará)"><button id="td-ok">Adicionar</button></div>' : ''}` : `<p class="muted">Mostra a cópia que valia em ${nomeMes(M)}. Se faltar a do mês, guarde-a aqui; ela entra no histórico sem mudar a versão atual.</p>`}`, true)}
+      ${gaveta('g-env', 2, 'Processos enviados', `<p class="muted" style="margin:8px 0 0">Por cliente; cada PI é uma pasta com o e-mail, os documentos, a NF e os prints que foram.</p>${blocoEnv}`, enviadas.length)}
+      ${gaveta('g-nf', 3, 'Notas fiscais por cliente', blocoNf, nfs.length)}
+      ${gaveta('g-pr', 4, 'Prints de veiculação por cliente e PI', blocoPr, false)}
+      ${gaveta('g-out', 5, 'Outros anexos de PI', avulsos.length ? `<ul class="alerts">${avulsos.map(item).join('')}</ul>` : `<p class="muted">Nada em ${nomeMes(M)}.</p>`, false)}`;
     },
     cadastros() {
       // Todos os documentos do Arquivo numa lista só; o certificado de registro (CERCA, CRC) é um deles, marcado como tal
@@ -512,7 +529,11 @@ Abrir: economistarenato.com.br/fato67`;
       }, 'Arquivo guardado na pasta da PI.');
     }));
     const env = document.getElementById('pi-enviada');
-    if (env) env.addEventListener('click', () => acao(() => N.acoes.statusPi(piAtual().id, 'enviada'), 'PI marcada como enviada.'));
+    if (env) env.addEventListener('click', () => acao(() => N.acoes.statusPi(piAtual().id, 'enviada'), 'PI marcada como enviada e arquivada.'));
+    const des = document.getElementById('pi-desmarcar');
+    if (des) des.addEventListener('click', () => acao(() => N.acoes.statusPi(piAtual().id, 'aberta'), 'Envio desmarcado: a PI voltou para a linha de produção.'));
+    document.querySelectorAll('button[data-gaveta]').forEach(b => b.addEventListener('click', () => { const g = document.getElementById(b.dataset.gaveta); g.open = true; g.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
+    document.querySelectorAll('button[data-zip]').forEach(b => b.addEventListener('click', () => { b.disabled = true; baixarZip(D.pis.find(p => p.numero === b.dataset.zip)).catch(e => avisar('Erro ao montar o ZIP: ' + e.message, 'bad')).finally(() => { b.disabled = false; }); }));
     const ex = document.getElementById('pi-excluir');
     if (ex) ex.addEventListener('click', () => {
       // Dois toques: o primeiro pede confirmação, sem janela do navegador
