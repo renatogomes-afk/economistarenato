@@ -1,5 +1,6 @@
 // Dados de demonstração. Nenhum dado real da FATO67, de clientes ou de órgãos.
 (function () {
+  const mes = n => { const x = new Date(); x.setDate(1); x.setMonth(x.getMonth() + n); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-01`; };
   const d = n => { const x = new Date(); x.setHours(0,0,0,0); x.setDate(x.getDate() + n); return x.toISOString().slice(0,10); };
   window.DEMO = {
     saldos: [
@@ -10,8 +11,8 @@
     ],
     // Certidões e documentos da empresa, reaproveitados em todas as PIs
     certidoes: [
-      { nome: 'CND Federal (Receita e PGFN)', validade: d(62) },
-      { nome: 'CND Trabalhista (TST)', validade: d(9) },
+      { nome: 'CND Federal (Receita e PGFN)', validade: d(62), historico: [{ nome: 'CND Federal (Receita e PGFN)', validade: d(-5), competencia: mes(-2) }] },
+      { nome: 'CND Trabalhista (TST)', validade: d(9), historico: [{ nome: 'CND Trabalhista (TST)', validade: d(-20), competencia: mes(-1) }, { nome: 'CND Trabalhista (TST)', validade: d(-50), competencia: mes(-2) }] },
       { nome: 'CRF do FGTS', validade: d(21) },
       { nome: 'CND Estadual', validade: d(-3) },
       { nome: 'CND Municipal', validade: d(40) },

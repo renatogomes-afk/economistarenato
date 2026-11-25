@@ -43,11 +43,18 @@
   }
   const orgaoDe = nome => D.orgaos.find(x => x.nome === nome);
   // Cliente (órgão) mapeado: só a lista que ele exige. Não mapeado (ou "enviar tudo"): todas as certidões, mais o registro desse órgão.
+  // Certificado de registro cadastral (CERCA, CRC): um documento só, emitido pelo órgão, que lista certidões internas
+  const ehRegistro = n => D.orgaos.some(x => x.registro === n) || /cerca|crc|registro cadastral/i.test(n) || !!(cert(n) && cert(n).internas);
+  const registrosDe = o => o ? [...new Set((o.registro ? [o.registro] : []).concat(o.extras.filter(ehRegistro)))] : [];
   const exigidos = (orgao, tudo) => {
-    const o = orgaoDe(orgao), registros = new Set(D.orgaos.map(x => x.registro));
-    if (!o || tudo || !o.mapeado) return D.certidoes.filter(c => !registros.has(c.nome)).map(c => c.nome).concat(o && o.registro ? [o.registro] : []);
+    const o = orgaoDe(orgao);
+    if (!o || tudo || !o.mapeado) return D.certidoes.filter(c => !ehRegistro(c.nome)).map(c => c.nome).concat(registrosDe(o));
     return o.extras.concat(o.registro && !o.extras.includes(o.registro) ? [o.registro] : []);
   };
+  // Mês-competência (AAAA-MM) de um documento, NF ou print
+  const mesDe = x => String(x.competencia || x.criado || iso(today)).slice(0, 7);
+  const nomeMes = m => { const [a, mm] = m.split('-'); return ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'][+mm - 1] + '/' + a; };
+  let mesArq = null;
   // Agência + cliente → destinatário (atendente, senão e-mail padrão) e passos do processo
   const agenciaDe = n => D.agencias.find(a => a.nome === n);
   function destino(agencia, orgao) {
@@ -153,7 +160,7 @@
       <p class="muted">${noInicio ? 'Abra o app do C6, confira o saldo PJ e corrija se mudou.' : 'Abra o app do banco, veja o saldo e digite aqui.'}</p>
       ${pj.map(s => campo(s, true)).join('')}
       ${pf.length ? `<details${noInicio ? '' : ' open'}><summary>Contas PF (opcional)</summary>${pf.map(s => campo(s, false)).join('')}</details>` : ''}
-      <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Guardar</button>${noInicio ? '<a class="btn" href="#financeiro">Importar extrato</a>' : ''}</div></div>`;
+      <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Guardar</button>${noInicio ? '<a class="btn" href="#contas">Importar extrato</a>' : ''}</div></div>`;
   }
   // Próxima ação da PI, para o topo da tela e para a lista do dia
   function proximo(pi) {
@@ -192,10 +199,8 @@ Abrir: economistarenato.com.br/fato67`;
   }
 
   const views = {
-    painel() {
+    rotinas() {
       const hoje = iso(today);
-      const pts = fluxo(30), min = pts.reduce((m, p) => p.s < m.s ? p : m, pts[0]);
-      const p7 = abertas().filter(p => p.venc <= addDays(7)).reduce((a, p) => a + p.valor, 0);
       const saldoPend = D.saldos.filter(s => s.tipo === 'PJ' && s.data !== hoje);
       // "Para fazer hoje": tudo que pede um toque, com a ação na própria linha
       const t = [];
@@ -208,26 +213,46 @@ Abrir: economistarenato.com.br/fato67`;
       D.pis.filter(p => p.status !== 'enviada').forEach(p => t.push(
         `<li class="todo"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(proximo(p).txt)}</div></div><a class="btn" href="#pis/${encodeURIComponent(p.numero)}">Abrir</a></li>`));
       const semConc = (D.extrato || []).filter(x => x.id && !x.conciliado).length;
-      if (semConc) t.push(`<li class="todo"><div><strong>Conciliar o extrato</strong><div class="muted">${semConc} lançamento(s) ainda sem conta ligada</div></div><a class="btn" href="#financeiro">Conciliar</a></li>`);
+      if (semConc) t.push(`<li class="todo"><div><strong>Conciliar o extrato</strong><div class="muted">${semConc} lançamento(s) ainda sem conta ligada</div></div><a class="btn" href="#contas">Conciliar</a></li>`);
       D.entrada.forEach((e, i) => { if (!e.feito) t.push(
         `<li class="todo"><div><strong>Chegou: ${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div></div><span class="btns" style="margin:0"><button class="primary" data-in="${i}">Guardar</button><button data-in-x="${i}" aria-label="Descartar">✕</button></span></li>`); });
-      return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}</p>
+      // Rotinas fixas da empresa, cada uma com a situação de agora
+      const ext = D.extrato || [], ultExt = ext.length ? ext.map(x => x.data).sort().pop() : null;
+      const certRuins = D.certidoes.filter(c => situacao(c.nome).cls !== 'enviado').length;
+      const emAndamento = D.pis.filter(p => p.status !== 'enviada').length;
+      const rot = [
+        ['Todo dia', 'Informar o saldo do C6 PJ', saldoPend.length ? ['pendente', 'falta hoje'] : ['enviado', 'feito hoje'], '#contas'],
+        ['Todo dia', 'Lançar as contas anotadas no grupo do WhatsApp', null, '#contas'],
+        ['Toda semana', 'Importar o extrato e conciliar', !ultExt ? ['pendente', 'nenhum extrato'] : semConc ? ['pendente', `${semConc} sem conciliar`] : diasAte(ultExt) < -7 ? ['pendente', `último em ${dt(ultExt)}`] : ['enviado', 'em dia'], '#contas'],
+        ['Todo mês', `Arquivo de ${nomeMes(iso(today).slice(0, 7))}: manter certidões e registros em dia`, certRuins ? ['classificar', `${certRuins} para atualizar`] : ['enviado', 'em dia'], '#arquivo'],
+        ['A cada PI', 'NF, prints e envio do processo', emAndamento ? ['pendente', `${emAndamento} em andamento`] : ['enviado', 'nenhuma pendente'], '#pis']];
+      return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">Rotinas de ${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}</p>
       ${saldoPend.length ? cartaoSaldo(true) : ''}
       <div class="card" style="margin-bottom:12px"><strong>Para fazer hoje</strong>
         ${t.length ? `<ul class="alerts">${t.join('')}</ul>` : `<p class="good" style="margin:8px 0 0">Tudo em dia.${saldoPend.length ? ' Só falta o saldo acima.' : ''}</p>`}</div>
+      <div class="card"><strong>Rotinas da empresa</strong><ul class="alerts">${rot.map(([q, o, st, h]) => `<li class="todo"><div><span class="muted">${q}</span><div><strong>${o}</strong></div></div>${st ? `<a href="${h}"><span class="tag ${st[0]}">${st[1]}</span></a>` : `<a class="btn" href="${h}">Abrir</a>`}</li>`).join('')}</ul></div>`;
+    },
+    painel() {
+      const hoje = iso(today);
+      const pts = fluxo(30), min = pts.reduce((m, p) => p.s < m.s ? p : m, pts[0]);
+      const p7 = abertas().filter(p => p.venc <= addDays(7)).reduce((a, p) => a + p.valor, 0);
+      const r7 = D.receber.filter(r => r.venc <= addDays(7)).reduce((a, r) => a + r.valor, 0);
+      const prox = abertas().filter(p => p.venc <= addDays(7)).map(p => ({ d: p.venc, txt: p.desc, v: -p.valor }))
+        .concat(D.receber.filter(r => r.venc <= addDays(7)).map(r => ({ d: r.venc, txt: `${r.cliente}${r.ref ? ' · ' + r.ref : ''}`, v: r.valor }))).sort((a, b) => a.d.localeCompare(b.d));
+      return `<h1>Painel financeiro</h1><p class="sub">Acompanhamento de ${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}. Para lançar e conciliar, use Contas.</p>
       <div class="grid">
         <div class="card kpi"><div class="label">Saldo PJ</div><div class="value">${brl(pjF())}</div></div>
         <div class="card kpi"><div class="label">A pagar em 7 dias</div><div class="value bad">${brl(p7)}</div></div>
+        <div class="card kpi"><div class="label">A receber em 7 dias</div><div class="value good">${brl(r7)}</div></div>
         <div class="card kpi"><div class="label">Menor saldo em 30 dias</div><div class="value ${min.s < 0 ? 'bad' : ''}">${brl(min.s)}</div><div class="label">em ${dt(min.day)}</div></div>
-        <div class="card kpi"><div class="label">Contas PF</div><div class="value">${brl(pfF())}</div></div>
       </div>
       <div class="card chart"><strong>Fluxo de caixa PJ, 30 dias</strong><p class="muted" style="margin:4px 0 8px">Saldo de hoje menos contas a pagar, mais recebimentos previstos.</p>${chart(pts)}</div>
-      <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}${s.data ? `<div class="muted">em ${dt(s.data)}</div>` : real() ? '<div class="muted">saldo ainda não informado</div>' : ''}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}</table>
-        <div class="btns"><a class="btn" href="#financeiro">Bancos e extratos</a></div></div>
+      <div class="card" style="margin-top:12px"><strong>Próximos 7 dias</strong>${prox.length ? `<table>${prox.map(x => `<tr><td>${dt(x.d)}${x.d < hoje ? '<div class="bad">atrasado</div>' : ''}</td><td>${esc(x.txt)}</td><td class="num ${x.v < 0 ? 'bad' : 'good'}">${brl(x.v)}</td></tr>`).join('')}</table>` : '<p class="muted">Nada previsto.</p>'}</div>
+      <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}${s.data ? `<div class="muted">em ${dt(s.data)}</div>` : real() ? '<div class="muted">saldo ainda não informado</div>' : ''}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}<tr><td><strong>Total PF</strong></td><td class="num"><strong>${brl(pfF())}</strong></td></tr></table></div>
       <div class="card" style="margin-top:12px"><strong>Resumo do dia</strong><p class="muted">Saldos, contas da semana, menor saldo do mês e certidões, pronto para o WhatsApp.</p>
         <div class="btns"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(textoResumo())}" target="_blank" rel="noopener">Mandar no WhatsApp</a><a class="btn" href="#resumo">Ver antes</a></div></div>`;
     },
-    financeiro() {
+    contas() {
       const contas = D.saldos, ext = D.extrato || [], hoje = iso(today);
       const abertasP = pagarTodas().filter(p => p.status !== 'pago' && p.id), rec = D.receber.filter(r => r.id);
       const pend = ext.filter(x => !x.conciliado && x.id);
@@ -238,7 +263,7 @@ Abrir: economistarenato.com.br/fato67`;
         <td class="num">${brl(p.valor)}${real() && p.id ? `<div><button class="link" data-paga="${p.id}">paguei</button></div>` : ''}</td></tr>`).join('');
       const recRows = [...D.receber].sort((a, b) => a.venc.localeCompare(b.venc)).map(r => `<tr><td>${dt(r.venc)}</td><td><strong>${esc(r.cliente)}</strong><div class="muted">${esc(r.ref)}</div></td>
         <td class="num">${brl(r.valor)}${real() && r.id ? `<div><button class="link" data-recebi="${r.id}">recebi</button></div>` : ''}</td></tr>`).join('');
-      return `<h1>Financeiro</h1><p class="sub">Linha de produção em três etapas: lançar as contas, atualizar o banco e conciliar um com o outro.</p>
+      return `<h1>Contas</h1><p class="sub">Linha de produção em três etapas: lançar as contas, atualizar o banco e conciliar um com o outro.</p>
       <h2 class="etapa"><span>1</span> Lançar contas a pagar e a receber</h2>
       <details class="card form" style="margin-bottom:12px"><summary><strong>+ Nova conta</strong></summary>
         <div class="seg" role="group"><button type="button" class="on" data-nc="pagar">A pagar</button><button type="button" data-nc="receber">A receber</button></div><input type="hidden" id="nc-tipo" value="pagar">
@@ -325,31 +350,56 @@ Abrir: economistarenato.com.br/fato67`;
       <div id="f-out"></div>`;
     },
     arquivo() {
-      const arqs = D.pis.flatMap(p => (p.pasta.arquivos || [{ tipo: 'nf', nome: p.pasta.nf }].concat(p.pasta.prints.map(n => ({ tipo: 'print', nome: n })))).filter(a => a.nome).map(a => ({ ...a, pi: p })));
-      const lista = tipo => { const l = arqs.filter(a => a.tipo === tipo); return l.length ? `<ul class="alerts">${l.map(a => `<li class="todo"><div>${esc(a.nome)}<div class="muted">PI ${esc(a.pi.numero)} · ${esc(a.pi.orgao)}</div></div>${real() && a.arquivo ? `<button class="link" data-ver="${esc(a.arquivo)}">ver</button>` : ''}</li>`).join('')}</ul>` : '<p class="muted">Nenhum ainda. Eles entram pela tela de cada PI.</p>'; };
-      return `<h1>Arquivo da empresa</h1><p class="sub">Tudo o que a empresa guarda, com as atualizações periódicas. Cada documento é guardado uma vez e reaproveitado em todas as PIs; a versão anterior fica no histórico.</p>
+      const atual = iso(today).slice(0, 7), M = mesArq && mesArq <= atual ? mesArq : atual, agora = M === atual;
+      const arqs = D.pis.flatMap(p => (p.pasta.arquivos || [{ tipo: 'nf', nome: p.pasta.nf }].concat(p.pasta.prints.map(n => ({ tipo: 'print', nome: n })))).filter(a => a.nome)
+        .map(a => ({ ...a, pi: p, mes: a.competencia ? a.competencia.slice(0, 7) : String(p.data || iso(today)).slice(0, 7) })));
+      // Meses com alguma coisa guardada, do mais antigo até o atual (sem buracos)
+      const usados = D.certidoes.flatMap(c => [c].concat(c.historico || [])).map(mesDe).concat(arqs.map(a => a.mes)).filter(m => m <= atual);
+      const meses = []; for (let m = usados.reduce((x, y) => (y < x ? y : x), atual); m <= atual;) { meses.unshift(m); const [y, mm] = m.split('-').map(Number); m = mm === 12 ? `${y + 1}-01` : `${y}-${String(mm + 1).padStart(2, '0')}`; }
+      const fimMes = m => { const [y, mm] = m.split('-').map(Number); return iso(new Date(y, mm, 0)); };
+      // Versão de cada documento que valia na competência: a mais recente guardada até aquele mês
+      const vigente = c => [c].concat(c.historico || []).filter(v => mesDe(v) <= M && (v.arquivo || v === c || !real())).sort((x, y) => mesDe(y).localeCompare(mesDe(x)) || String(y.criado || '').localeCompare(String(x.criado || '')))[0];
+      const sitMes = v => !v.validade ? { cls: 'enviado', txt: 'sem validade' } : v.validade < M + '-01' ? { cls: 'classificar', txt: `vencida em ${dt(v.validade)}/${v.validade.slice(2, 4)}` }
+        : v.validade < fimMes(M) ? { cls: 'pendente', txt: `venceu em ${dt(v.validade)}` } : { cls: 'enviado', txt: 'válida no mês' };
+      const ver = x => real() && x.arquivo ? `<button class="link" data-ver="${esc(x.arquivo)}">ver</button>` : '';
+      const hist = c => { const hs = (c.historico || []).filter(h => h.arquivo || !real()); return hs.length ? `<details class="hist"><summary>${hs.length} cópia(s) anteriores</summary>${[...hs].sort((x, y) => mesDe(y).localeCompare(mesDe(x))).map(h => `<div class="muted">${nomeMes(mesDe(h))} · ${h.validade ? 'válida até ' + dt(h.validade) + '/' + h.validade.slice(2, 4) : 'sem validade'}${h.arquivo ? ` · ${ver(h)}` : ''}</div>`).join('')}</details>` : ''; };
+      const linhasAgora = [...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.numero ? `<div class="muted">${esc(c.numero)}</div>` : ''}${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}
+            ${!c.semArquivo && mesDe(c) < atual ? `<div class="muted">cópia guardada em ${nomeMes(mesDe(c))}</div>` : ''}${hist(c)}</td>
+          <td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button>${ver(c) ? ' · ' + ver(c) : ''}</div></td></tr>
+          ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span><div><button class="link" data-up="${esc(c.nome)}|${esc(i.nome)}">atualizar</button></div></td></tr>`).join('')}`).join('');
+      const linhasMes = D.certidoes.map(c => { const v = vigente(c);
+        return `<tr><td><strong>${esc(c.nome)}</strong><div class="muted">${v ? `cópia de ${nomeMes(mesDe(v))}${v.validade ? ' · válida até ' + dt(v.validade) + '/' + v.validade.slice(2, 4) : ''}` : 'nenhuma cópia guardada até este mês'}</div></td>
+          <td class="num">${v ? `<span class="tag ${sitMes(v).cls}">${sitMes(v).txt}</span>` : '<span class="tag classificar">falta</span>'}<div>${v && ver(v) ? ver(v) + ' · ' : ''}<button class="link" data-up="${esc(c.nome)}" data-comp="${M}">guardar cópia de ${nomeMes(M)}</button></div></td></tr>`; }).join('');
+      // NFs por cliente; prints por cliente e, dentro dele, por PI
+      const doMes = tipo => arqs.filter(a => a.tipo === tipo && a.mes === M);
+      const grupos = l => [...new Set(l.map(a => a.pi.orgao))].sort().map(o => [o, l.filter(a => a.pi.orgao === o)]);
+      const item = a => `<li class="todo"><div>${esc(a.nome)}<div class="muted">PI ${esc(a.pi.numero)} · ${esc(a.pi.cliente)}</div></div>${ver(a)}</li>`;
+      const nfs = doMes('nf'), prints = doMes('print'), avulsos = doMes('avulso');
+      const vazio = `<p class="muted">Nada em ${nomeMes(M)}. NFs e prints entram pela tela de cada PI, no mês em que são anexados.</p>`;
+      const blocoNf = nfs.length ? grupos(nfs).map(([o, l]) => `<p style="margin:12px 0 4px"><strong>${esc(o)}</strong> <span class="muted">(${l.length})</span></p><ul class="alerts">${l.map(item).join('')}</ul>`).join('') : vazio;
+      const blocoPr = prints.length ? grupos(prints).map(([o, l]) => `<p style="margin:12px 0 4px"><strong>${esc(o)}</strong> <span class="muted">(${l.length})</span></p>${[...new Set(l.map(a => a.pi.numero))].map(n => { const da = l.filter(a => a.pi.numero === n);
+          return `<details class="hist"><summary>PI ${esc(n)} · ${esc(da[0].pi.cliente)} · ${da.length} print(s)</summary><ul class="alerts">${da.map(a => `<li class="todo"><div>${esc(a.nome)}</div>${ver(a)}</li>`).join('')}</ul></details>`; }).join('')}`).join('') : vazio;
+      return `<h1>Arquivo da empresa</h1><p class="sub">Cada mês-competência guarda a sua cópia de cada documento. Escolha o mês para ver as cópias de meses anteriores.</p>
+      <div class="card form" style="margin-bottom:12px"><label>Competência<select id="arq-mes">${meses.map(m => `<option value="${m}" ${m === M ? 'selected' : ''}>${nomeMes(m)}${m === atual ? ' (mês atual)' : ''}</option>`).join('')}</select></label>
+        <p class="muted" style="margin:0">${nomeMes(M)}: ${D.certidoes.filter(c => agora ? !c.semArquivo : vigente(c)).length} de ${D.certidoes.length} documentos com cópia · ${nfs.length} NF(s) · ${prints.length} print(s)</p></div>
       <div id="up-form"></div>
-      <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
-        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.numero ? `<div class="muted">${esc(c.numero)}</div>` : ''}${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}
-            ${(c.historico || []).length ? `<details class="hist"><summary>${c.historico.length} versão(ões) anterior(es)</summary>${c.historico.map(h => `<div class="muted">${h.validade ? 'válida até ' + dt(h.validade) + '/' + h.validade.slice(2, 4) : 'sem validade'} · guardada em ${h.criado ? dt(h.criado.slice(0, 10)) : '—'}${h.arquivo ? ` · <button class="link" data-ver="${esc(h.arquivo)}">ver</button>` : ''}</div>`).join('')}</details>` : ''}</td>
-          <td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button>${real() && c.arquivo ? ` · <button class="link" data-ver="${esc(c.arquivo)}">ver</button>` : ''}</div></td></tr>
-          ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span><div><button class="link" data-up="${esc(c.nome)}|${esc(i.nome)}">atualizar</button></div></td></tr>`).join('')}`).join('')}</table>
-        <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p>
-        ${real() ? '<div class="form inline"><input id="td-nome" placeholder="Novo tipo de documento (ex.: Alvará)"><button id="td-ok">Adicionar</button></div>' : ''}</div>
-      <details class="card" style="margin-bottom:12px"><summary><strong>Notas fiscais (${arqs.filter(a => a.tipo === 'nf').length})</strong></summary>${lista('nf')}</details>
-      <details class="card" style="margin-bottom:12px"><summary><strong>Prints de veiculação (${arqs.filter(a => a.tipo === 'print').length})</strong></summary>${lista('print')}</details>
-      ${arqs.some(a => a.tipo === 'avulso') ? `<details class="card"><summary><strong>Outros anexos de PI (${arqs.filter(a => a.tipo === 'avulso').length})</strong></summary>${lista('avulso')}</details>` : ''}`;
+      <div class="card" style="margin-bottom:12px"><strong>Certidões e registros · ${nomeMes(M)}</strong><table>${agora ? linhasAgora : linhasMes}</table>
+        ${agora ? `<p class="muted">O certificado de registro (CERCA, CRC) tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p>
+        ${real() ? '<div class="form inline"><input id="td-nome" placeholder="Novo tipo de documento (ex.: Alvará)"><button id="td-ok">Adicionar</button></div>' : ''}` : `<p class="muted">Mostra a cópia que valia em ${nomeMes(M)}. Se faltar a do mês, guarde-a aqui; ela entra no histórico sem mudar a versão atual.</p>`}</div>
+      <details class="card" style="margin-bottom:12px" open><summary><strong>Notas fiscais por cliente · ${nomeMes(M)} (${nfs.length})</strong></summary>${blocoNf}</details>
+      <details class="card" style="margin-bottom:12px"${prints.length ? ' open' : ''}><summary><strong>Prints de veiculação por cliente e PI · ${nomeMes(M)} (${prints.length})</strong></summary>${blocoPr}</details>
+      ${avulsos.length ? `<details class="card"><summary><strong>Outros anexos de PI · ${nomeMes(M)} (${avulsos.length})</strong></summary><ul class="alerts">${avulsos.map(item).join('')}</ul></details>` : ''}`;
     },
     cadastros() {
-      const registros = new Set(D.orgaos.map(o => o.registro).filter(Boolean));
-      const docsLib = D.certidoes.map(c => c.nome);
+      // Todos os documentos do Arquivo numa lista só; o certificado de registro (CERCA, CRC) é um deles, marcado como tal
+      const docsLib = [...D.certidoes.map(c => c.nome)].sort((x, y) => (ehRegistro(y) - ehRegistro(x)) || x.localeCompare(y));
       const dis = real() ? '' : 'disabled';
-      const formOrg = o => { const k = o ? o.id || o.nome : 'novo', sel = o ? (o.mapeado ? o.extras : []) : D.padrao;
+      const formOrg = o => { const k = o ? o.id || o.nome : 'novo', sel = o ? o.extras.concat(registrosDe(o)) : D.padrao;
         return `<label>Nome<input id="og-nome-${esc(k)}" value="${esc(o ? o.nome : '')}" placeholder="ex.: Prefeitura de Dourados"></label>
-        <label>Certificado de registro exigido<select id="og-reg-${esc(k)}"><option value="">nenhum</option>${docsLib.filter(n => registros.has(n) || /cerca|crc|registro/i.test(n)).map(n => `<option ${o && o.registro === n ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select></label>
-        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="tudo" ${o && !o.mapeado ? 'checked' : ''}> Ainda não sei: enviar todos os documentos</label>
-        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="lista" ${!o || o.mapeado ? 'checked' : ''}> Enviar só os marcados abaixo</label>
-        <div class="docs-grid">${docsLib.filter(n => !(registros.has(n) || /cerca|crc/i.test(n))).map(n => `<label class="check"><input type="checkbox" data-og="${esc(k)}" value="${esc(n)}" ${sel.includes(n) ? 'checked' : ''}> ${esc(n)}</label>`).join('')}</div>
+        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="lista" ${!o || o.mapeado ? 'checked' : ''}> Enviar só os documentos marcados</label>
+        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="tudo" ${o && !o.mapeado ? 'checked' : ''}> Ainda não sei: enviar todas as certidões, mais o certificado de registro marcado</label>
+        <p style="margin:12px 0 4px"><strong>Documentos exigidos</strong></p>
+        <div class="docs-grid">${docsLib.map(n => `<label class="check"><input type="checkbox" data-og="${esc(k)}" value="${esc(n)}" ${sel.includes(n) ? 'checked' : ''}> ${esc(n)}${ehRegistro(n) ? ' <span class="muted">(certificado de registro)</span>' : ''}</label>`).join('')}</div>
         <div class="btns"><button class="primary" data-og-save="${esc(k)}" ${o && o.id ? `data-id="${o.id}"` : ''} ${dis}>Guardar</button>${o && o.id ? `<button class="link perigo" data-og-del="${o.id}" ${dis}>excluir</button>` : ''}</div>`; };
       const formAg = a => { const k = a ? a.id || a.nome : 'nova';
         return `<label>Nome<input id="ag-nome-${esc(k)}" value="${esc(a ? a.nome : '')}" placeholder="ex.: Agência X"></label>
@@ -360,7 +410,8 @@ Abrir: economistarenato.com.br/fato67`;
           ${real() && a.id ? `<div class="form"><label>Cliente<select id="at-org-${a.id}">${D.orgaos.map(o => `<option value="${o.id}">${esc(o.nome)}</option>`).join('')}</select></label><label>Nome do atendente<input id="at-nome-${a.id}"></label><label>E-mail<input type="email" id="at-email-${a.id}"></label><div class="btns"><button data-at-add="${a.id}">+ Adicionar contato</button></div></div>` : ''}` : ''}`; };
       return `<h1>Cadastros</h1><p class="sub">A base de tudo: quem são os clientes, o que cada um exige e para qual e-mail vai cada processo.</p>
       <h2 class="etapa">Clientes (órgãos)</h2>
-      ${D.orgaos.map(o => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(o.nome)}</strong> <span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? `${o.extras.length + (o.registro ? 1 : 0)} docs exigidos` : 'envia tudo'}</span></summary>${formOrg(o)}</details>`).join('')}
+      <p class="muted" style="margin-top:0">CERCA e CRC são um documento só: o certificado de registro cadastral que o órgão emite depois de conferir um conjunto de certidões. Por isso aparece aqui como um dos documentos exigidos; as certidões que ele lista, com vencimentos próprios, ficam no Arquivo, dentro dele.</p>
+      ${D.orgaos.map(o => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(o.nome)}</strong> <span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? `${exigidos(o.nome).length} docs exigidos` : 'envia tudo'}</span></summary>${formOrg(o)}</details>`).join('')}
       <details class="card form" style="margin-bottom:8px"><summary><strong>+ Novo cliente</strong></summary>${formOrg(null)}</details>
       <h2 class="etapa">Agências</h2>
       ${D.agencias.map(a => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(a.nome)}</strong> <span class="muted">${esc(a.padrao || 'sem e-mail')}</span>${manualDe(a.nome, '') || D.manuais.some(m => m.agencia === a.nome) ? ' <span class="tag enviado">manual</span>' : ''}</summary>${formAg(a)}</details>`).join('')}
@@ -368,7 +419,7 @@ Abrir: economistarenato.com.br/fato67`;
     },
     resumo() {
       const msg = textoResumo();
-      return `<p><a href="#painel">← Início</a></p><h1>Resumo do dia</h1><p class="sub">Prévia da mensagem. O envio automático todo dia de manhã vem numa próxima etapa.</p>
+      return `<p><a href="#painel">← Painel</a></p><h1>Resumo do dia</h1><p class="sub">Prévia da mensagem. O envio automático todo dia de manhã vem numa próxima etapa.</p>
       <div class="phone"><div class="bubble">${esc(msg).replace(/\*(.+?)\*/g, '<strong>$1</strong>')}</div></div>
       <div class="btns" style="justify-content:center"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">Mandar no WhatsApp</a></div>`;
     }
@@ -428,6 +479,7 @@ Abrir: economistarenato.com.br/fato67`;
       document.getElementById('up-form').innerHTML = `<div class="card form" style="margin-bottom:12px"><strong>Atualizar: ${esc(i || c)}</strong>
         <label>Arquivo (PDF ou foto)<input type="file" id="up-f" accept="application/pdf,image/*"></label>
         <label>Válido até<input type="date" id="up-d"></label>
+        <label>Competência (mês a que a cópia pertence)<input type="month" id="up-m" value="${btn.dataset.comp || iso(today).slice(0, 7)}" max="${iso(today).slice(0, 7)}"></label>
         <div class="btns"><button class="primary" id="up-ok">Guardar</button><button id="up-x">Cancelar</button></div>
         <p class="muted">${real() ? 'O arquivo vai para o armazenamento privado da empresa. A versão anterior fica guardada.' : 'Demonstração: o arquivo fica só neste aparelho. Na versão final, vai para o armazenamento da plataforma, com login.'}</p></div>`;
       window.scrollTo(0, 0);
@@ -436,7 +488,9 @@ Abrir: economistarenato.com.br/fato67`;
         const v = document.getElementById('up-d').value, f = document.getElementById('up-f').files[0];
         if (!v && !f) { document.getElementById('up-d').focus(); return; }
         const alvo = cert(c);
-        if (real()) { acao(() => N.acoes.atualizarDocumento(alvo, i, f, v || null), 'Documento atualizado.'); return; }
+        const comp = (document.getElementById('up-m').value || iso(today).slice(0, 7)) + '-01', antiga = !i && comp.slice(0, 7) < mesDe(alvo) && !alvo.semArquivo;
+        if (real()) { acao(() => N.acoes.atualizarDocumento(alvo, i, f, v || null, comp), antiga ? `Cópia de ${nomeMes(comp.slice(0, 7))} guardada no histórico.` : 'Documento atualizado.'); return; }
+        if (antiga) { (alvo.historico = alvo.historico || []).push({ nome: alvo.nome, validade: v || null, competencia: comp }); render(); return; }
         if (i) alvo.internas.find(x => x.nome === i).validade = v; else alvo.validade = v; render();
       };
     }));
@@ -472,7 +526,7 @@ Abrir: economistarenato.com.br/fato67`;
       const k = b.dataset.ogSave, nome = val('og-nome-' + k); if (!nome) { avisar('Informe o nome do cliente.', 'bad'); return; }
       const modo = (document.querySelector(`input[name="og-modo-${CSS.escape(k)}"]:checked`) || {}).value;
       const extras = [...document.querySelectorAll(`input[data-og="${CSS.escape(k)}"]:checked`)].map(i => i.value);
-      acao(() => N.acoes.salvarOrgao({ id: b.dataset.id, nome, registro: val('og-reg-' + k), extras, mapeado: modo === 'lista' }), 'Cliente guardado.');
+      acao(() => N.acoes.salvarOrgao({ id: b.dataset.id, nome, registro: extras.find(ehRegistro) || null, extras, mapeado: modo === 'lista' }), 'Cliente guardado.');
     }));
     document.querySelectorAll('button[data-og-del]').forEach(b => b.addEventListener('click', () => {
       if (!b.dataset.conf) { b.dataset.conf = 1; b.textContent = 'toque de novo para excluir'; return; }
@@ -491,6 +545,8 @@ Abrir: economistarenato.com.br/fato67`;
       acao(() => N.acoes.salvarAtendente({ agencia: a, orgao: val('at-org-' + a), nome: val('at-nome-' + a), email }), 'Contato adicionado.');
     }));
     document.querySelectorAll('button[data-at-del]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.excluirAtendente(b.dataset.atDel), 'Contato removido.')));
+    const am = document.getElementById('arq-mes');
+    if (am) am.addEventListener('change', () => { mesArq = am.value; render(); });
     const td = document.getElementById('td-ok');
     if (td) td.addEventListener('click', () => { const n = val('td-nome'); if (!n) return; if (cert(n)) { avisar('Esse documento já existe.', 'bad'); return; } acao(() => N.acoes.novoTipoDoc(n), 'Documento adicionado. Toque em "atualizar" para guardar o PDF.'); });
     const nc = document.getElementById('nc-ok');
@@ -553,8 +609,8 @@ Abrir: economistarenato.com.br/fato67`;
   }
   function render() {
     let [route, sel] = decodeURIComponent(location.hash.slice(1)).split('/');
-    route = { bancos: 'financeiro', contas: 'financeiro', documentos: 'arquivo', envios: 'pis' }[route] || route;
-    const r = views[route] && route !== 'novaPi' ? route : 'painel';
+    route = { bancos: 'contas', financeiro: 'contas', documentos: 'arquivo', envios: 'pis', inicio: 'rotinas', hoje: 'rotinas' }[route] || route;
+    const r = views[route] && route !== 'novaPi' ? route : 'rotinas';
     document.getElementById('app').innerHTML = views[r](sel);
     document.querySelectorAll('nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + r));
     bind(r); window.scrollTo(0, 0);
@@ -586,7 +642,7 @@ Abrir: economistarenato.com.br/fato67`;
       <details style="margin-top:16px"><summary>Entrar com link por e-mail</summary>
         <label>E-mail<input id="m-email" type="email" autocomplete="email"></label>
         <div class="btns"><button id="m-ok">Enviar link</button></div></details>
-      <p class="muted" style="margin-top:16px"><a href="#painel" id="demo">Ver a demonstração</a></p></div>`;
+      <p class="muted" style="margin-top:16px"><a href="#rotinas" id="demo">Ver a demonstração</a></p></div>`;
     document.getElementById('g-ok').onclick = () => N.entrarGoogle().catch(e => avisar(/provider is not enabled/i.test(e.message) ? 'O login com Google ainda está sendo ligado. Use o link por e-mail.' : e.message, 'bad'));
     document.getElementById('m-ok').onclick = () => { const em = document.getElementById('m-email').value.trim(); if (!em) return;
       N.entrarEmail(em).then(() => avisar('Link enviado. Abra o e-mail neste aparelho.')).catch(e => avisar(e.message, 'bad')); };
