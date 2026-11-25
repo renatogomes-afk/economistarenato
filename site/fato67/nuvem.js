@@ -62,7 +62,7 @@
         return { id: p.id, numero: p.numero, orgao: orgNome(p.orgao_id), cliente: agNome(p.agencia_id), data: p.data,
           pasta: { nf: nf ? nf.nome : null, prints: arq.filter(a => a.tipo === 'print').map(a => a.nome), arquivos: arq },
           avulsos: arq.filter(a => a.tipo === 'avulso').map(a => a.nome),
-          status: p.status === 'aberta' ? 'pendente' : 'enviada', sel: p.anexos || undefined, feitos: p.passos_feitos };
+          status: p.status === 'aberta' ? 'pendente' : 'enviada', enviada: p.enviada_em, sel: p.anexos || undefined, feitos: p.passos_feitos };
       }),
       pagar: pagar.map(p => ({ id: p.id, desc: p.descricao, fornecedor: p.fornecedor || '—', categoria: p.categoria || 'A classificar', venc: p.vencimento, valor: +p.valor, origem: p.origem || 'Manual', status: p.pago_em ? 'pago' : 'pendente' })),
       receber: receber.map(r => ({ id: r.id, cliente: r.cliente, ref: r.referencia || '', venc: r.vencimento, valor: +r.valor })),
@@ -106,7 +106,7 @@
       ok(await sb.from('contas_receber').update({ pi_id: null }).eq('pi_id', id));
       ok(await sb.from('pis').delete().eq('id', id));
     },
-    async statusPi(id, status) { ok(await sb.from('pis').update({ status }).eq('id', id)); },
+    async statusPi(id, status) { ok(await sb.from('pis').update({ status, enviada_em: status === 'enviada' ? hoje() : null }).eq('id', id)); },
     async arquivoPi(id, tipo, file) {
       const arquivo = await subir('pis', file);
       ok(await sb.from('pi_arquivos').insert({ pi_id: id, tipo, nome: file.name, arquivo }));
