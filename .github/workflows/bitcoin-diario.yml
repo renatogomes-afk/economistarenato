@@ -1,10 +1,16 @@
-# Piloto /bitcoin: boletim diário. Roda todo dia às 00:10 UTC (20:10 em Cuiabá), logo depois do fechamento do dia
-# na Coinbase. Rodado à mão, também grava a prévia do dia em curso.
+# Piloto /bitcoin: boletim diário. Roda todo dia às 00:17 UTC (20:17 em Cuiabá), logo depois do fechamento do dia
+# na Coinbase. O agendamento do GitHub às vezes atrasa ou pula horários cheios; por isso há repescagens (01:47, 03:17,
+# 06:47 e 12:17 UTC). O script só grava o dia que ainda não tem boletim, então as repescagens não duplicam nada.
+# Rodado à mão, também grava a prévia do dia em curso.
 name: Bitcoin - boletim diário
 
 on:
   schedule:
-    - cron: "10 0 * * *"
+    - cron: "17 0 * * *"
+    - cron: "47 1 * * *"
+    - cron: "17 3 * * *"
+    - cron: "47 6 * * *"
+    - cron: "17 12 * * *"
   workflow_dispatch:
 
 permissions:
