@@ -29,9 +29,9 @@
     if (!lista.length) return null;
     emp = lista.find(e => e.id === empresaId) || lista[0];
     const q = t => sb.from(t).select('*').eq('empresa_id', emp.id);
-    const [contas, saldos, docs, orgaos, agencias, pis, pagar, receber, entrada, extrato] = (await Promise.all([
+    let [contas, saldos, docs, orgaos, agencias, pis, pagar, receber, entrada, extrato] = (await Promise.all([
       q('contas_bancarias').order('ordem'), q('saldos').order('data', { ascending: false }).limit(400),
-      q('documentos').eq('atual', true), q('orgaos').order('nome'), q('agencias').order('nome'),
+      q('documentos').order('criado_em', { ascending: false }), q('orgaos').order('nome'), q('agencias').order('nome'),
       q('pis').order('data', { ascending: false }), q('contas_pagar'), q('contas_receber').is('recebido_em', null),
       q('entrada').eq('resolvido', false).order('recebido_em', { ascending: false }),
       q('extrato').order('data', { ascending: false }).limit(200)
@@ -45,16 +45,17 @@
     const orgNome = id => (orgaos.find(o => o.id === id) || {}).nome || '—';
     const agNome = id => (agencias.find(a => a.id === id) || {}).nome || '—';
     const ultimo = id => saldos.find(s => s.conta_id === id);
-    const doc = d => ({ id: d.id, nome: d.tipo, numero: d.numero, validade: d.validade, arquivo: d.arquivo, semArquivo: !d.arquivo });
+    const doc = d => ({ id: d.id, nome: d.tipo, numero: d.numero, validade: d.validade, arquivo: d.arquivo, semArquivo: !d.arquivo, criado: d.criado_em });
+    const todosDocs = docs; docs = docs.filter(d => d.atual);
     return {
       real: true, empresa: emp, empresas: lista, usuario: user,
       saldos: contas.map(c => { const s = ultimo(c.id); return { id: c.id, conta: c.nome, tipo: c.tipo, saldo: s ? +s.saldo : 0, data: s ? s.data : null, origem: s ? s.origem : null }; }),
-      certidoes: docs.filter(d => !d.pai_id).map(d => ({ ...doc(d), internas: docs.filter(i => i.pai_id === d.id).map(doc) }))
+      certidoes: docs.filter(d => !d.pai_id).map(d => ({ ...doc(d), historico: todosDocs.filter(v => !v.atual && v.tipo === d.tipo && !v.pai_id).map(doc), internas: docs.filter(i => i.pai_id === d.id).map(doc) }))
         .map(c => (c.internas.length ? c : { ...c, internas: undefined })),
       padrao: emp.docs_padrao || [],
       passosPadrao: emp.passos_padrao && emp.passos_padrao.length ? emp.passos_padrao : ['Conferir a PI', 'Emitir a NF', 'Juntar os prints', 'Enviar o processo'],
       orgaos: orgaos.map(o => ({ id: o.id, nome: o.nome, registro: o.registro, extras: o.extras || [], mapeado: o.mapeado })),
-      agencias: agencias.map(a => ({ id: a.id, nome: a.nome, padrao: a.email_padrao || '', atendentes: atend.filter(t => t.agencia_id === a.id).map(t => ({ cliente: orgNome(t.orgao_id), nome: t.nome, email: t.email })) })),
+      agencias: agencias.map(a => ({ id: a.id, nome: a.nome, padrao: a.email_padrao || '', atendentes: atend.filter(t => t.agencia_id === a.id).map(t => ({ id: t.id, cliente: orgNome(t.orgao_id), nome: t.nome, email: t.email })) })),
       manuais: manuais.map(m => ({ agencia: agNome(m.agencia_id), cliente: orgNome(m.orgao_id), passos: m.passos })),
       pis: pis.map(p => {
         const arq = piArq.filter(a => a.pi_id === p.id), nf = arq.find(a => a.tipo === 'nf');
@@ -66,7 +67,7 @@
       pagar: pagar.map(p => ({ id: p.id, desc: p.descricao, fornecedor: p.fornecedor || '—', categoria: p.categoria || 'A classificar', venc: p.vencimento, valor: +p.valor, origem: p.origem || 'Manual', status: p.pago_em ? 'pago' : 'pendente' })),
       receber: receber.map(r => ({ id: r.id, cliente: r.cliente, ref: r.referencia || '', venc: r.vencimento, valor: +r.valor })),
       entrada: entrada.map(e => ({ id: e.id, arquivo: e.arquivo ? e.arquivo.split('/').pop().replace(/^[0-9a-f-]{36}-/, '') : (e.assunto || '(sem anexo)'), de: e.de || '—', parece: [e.tipo, e.motivo].filter(Boolean).join(' · ') || 'a classificar' })),
-      extrato: extrato.map(x => ({ conta_id: x.conta_id, data: x.data, valor: +x.valor, descricao: x.descricao })),
+      extrato: extrato.map(x => ({ id: x.id, conta_id: x.conta_id, data: x.data, valor: +x.valor, descricao: x.descricao, conciliado: x.conciliado, pagar: x.conta_pagar_id, receber: x.conta_receber_id })),
       whatsappExemplo: ''
     };
   }
@@ -130,6 +131,42 @@
       if (r.saldo) ok(await sb.from('saldos').upsert({ empresa_id: emp.id, conta_id: conta, data: r.saldo.data, saldo: r.saldo.valor, origem: r.origem }));
       return novos;
     },
+    // ---- cadastros ----
+    async salvarOrgao(o) {
+      const linha = { empresa_id: emp.id, nome: o.nome, registro: o.registro || null, extras: o.extras || [], mapeado: !!o.mapeado };
+      ok(o.id ? await sb.from('orgaos').update(linha).eq('id', o.id) : await sb.from('orgaos').insert(linha));
+    },
+    async excluirOrgao(id) { const r = await sb.from('orgaos').delete().eq('id', id); if (r.error) throw new Error(/foreign key/i.test(r.error.message) ? 'este cliente tem PIs; não dá para excluir' : r.error.message); },
+    async salvarAgencia(a) {
+      const linha = { empresa_id: emp.id, nome: a.nome, email_padrao: a.email || null };
+      ok(a.id ? await sb.from('agencias').update(linha).eq('id', a.id) : await sb.from('agencias').insert(linha));
+    },
+    async excluirAgencia(id) { const r = await sb.from('agencias').delete().eq('id', id); if (r.error) throw new Error(/foreign key/i.test(r.error.message) ? 'esta agência tem PIs; não dá para excluir' : r.error.message); },
+    async salvarAtendente(t) { ok(await sb.from('atendentes').insert({ agencia_id: t.agencia, orgao_id: t.orgao, nome: t.nome || null, email: t.email })); },
+    async excluirAtendente(id) { ok(await sb.from('atendentes').delete().eq('id', id)); },
+    async docsPadrao(lista) { ok(await sb.from('empresas').update({ docs_padrao: lista }).eq('id', emp.id)); },
+    async novoTipoDoc(tipo) { ok(await sb.from('documentos').insert({ empresa_id: emp.id, tipo, origem: 'cadastro' })); },
+    // ---- conciliação ----
+    async conciliar(x, conta) {
+      if (x.valor < 0) {
+        ok(await sb.from('contas_pagar').update({ pago_em: x.data }).eq('id', conta));
+        ok(await sb.from('extrato').update({ conciliado: true, conta_pagar_id: conta }).eq('id', x.id));
+      } else {
+        ok(await sb.from('contas_receber').update({ recebido_em: x.data }).eq('id', conta));
+        ok(await sb.from('extrato').update({ conciliado: true, conta_receber_id: conta }).eq('id', x.id));
+      }
+    },
+    // Lançamento do extrato sem conta correspondente: cria a conta já quitada e liga
+    async lancarDoExtrato(x) {
+      if (x.valor < 0) {
+        const c = ok(await sb.from('contas_pagar').insert({ empresa_id: emp.id, descricao: x.descricao || 'Saída do extrato', vencimento: x.data, valor: -x.valor, pago_em: x.data, origem: 'Extrato', categoria: 'A classificar' }).select('id').single());
+        ok(await sb.from('extrato').update({ conciliado: true, conta_pagar_id: c.id }).eq('id', x.id));
+      } else {
+        const c = ok(await sb.from('contas_receber').insert({ empresa_id: emp.id, cliente: x.descricao || 'Entrada do extrato', vencimento: x.data, valor: x.valor, recebido_em: x.data }).select('id').single());
+        ok(await sb.from('extrato').update({ conciliado: true, conta_receber_id: c.id }).eq('id', x.id));
+      }
+    },
+    async ignorarExtrato(id) { ok(await sb.from('extrato').update({ conciliado: true }).eq('id', id)); },
     async convidar(email, papel) { ok(await sb.from('convites').upsert({ email: email.trim().toLowerCase(), empresa_id: emp.id, papel })); }
   };
 

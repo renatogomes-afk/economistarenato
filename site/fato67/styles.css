@@ -92,3 +92,10 @@ li.todo{display:flex;justify-content:space-between;align-items:center;gap:12px}l
 details.card>summary{cursor:pointer;padding:0;color:inherit}
 details.card[open]>summary{margin-bottom:8px}
 button.link.perigo{color:var(--bad)}
+h2.etapa{font-size:15px;margin:20px 0 8px;display:flex;align-items:center;gap:8px;color:var(--ink)}h2.etapa span{display:inline-flex;width:24px;height:24px;border-radius:50%;background:var(--brand);color:#fff;font-size:13px;align-items:center;justify-content:center}
+.trilha{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
+.seta{font-size:24px;color:var(--muted)}
+.btns.col{flex-direction:column;align-items:flex-end;gap:2px}
+.docs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 12px;margin:4px 0 8px}.docs-grid label.check{margin-bottom:6px}
+.form.inline{display:flex;gap:8px;margin-top:12px}.form.inline input{margin:0;flex:1}
+details.hist summary{font-size:12px;padding:2px 0}

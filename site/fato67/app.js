@@ -42,11 +42,11 @@
     return { cls: 'enviado', txt: `válida até ${dt(c.validade)}` };
   }
   const orgaoDe = nome => D.orgaos.find(x => x.nome === nome);
-  // Órgão mapeado: só o que ele exige. Não mapeado (ou "enviar tudo"): todas as certidões, mais o registro desse órgão.
+  // Cliente (órgão) mapeado: só a lista que ele exige. Não mapeado (ou "enviar tudo"): todas as certidões, mais o registro desse órgão.
   const exigidos = (orgao, tudo) => {
     const o = orgaoDe(orgao), registros = new Set(D.orgaos.map(x => x.registro));
     if (!o || tudo || !o.mapeado) return D.certidoes.filter(c => !registros.has(c.nome)).map(c => c.nome).concat(o && o.registro ? [o.registro] : []);
-    return D.padrao.concat(o.extras, o.registro ? [o.registro] : []);
+    return o.extras.concat(o.registro && !o.extras.includes(o.registro) ? [o.registro] : []);
   };
   // Agência + cliente → destinatário (atendente, senão e-mail padrão) e passos do processo
   const agenciaDe = n => D.agencias.find(a => a.nome === n);
@@ -153,7 +153,7 @@
       <p class="muted">${noInicio ? 'Abra o app do C6, confira o saldo PJ e corrija se mudou.' : 'Abra o app do banco, veja o saldo e digite aqui.'}</p>
       ${pj.map(s => campo(s, true)).join('')}
       ${pf.length ? `<details${noInicio ? '' : ' open'}><summary>Contas PF (opcional)</summary>${pf.map(s => campo(s, false)).join('')}</details>` : ''}
-      <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Guardar</button>${noInicio ? '<a class="btn" href="#bancos">Importar extrato</a>' : ''}</div></div>`;
+      <div class="btns"><button class="primary" id="saldo-ok" ${real() ? '' : 'disabled title="Demonstração"'}>Guardar</button>${noInicio ? '<a class="btn" href="#financeiro">Importar extrato</a>' : ''}</div></div>`;
   }
   // Próxima ação da PI, para o topo da tela e para a lista do dia
   function proximo(pi) {
@@ -204,9 +204,11 @@ Abrir: economistarenato.com.br/fato67`;
       D.receber.filter(r => r.venc <= hoje).forEach(r => t.push(
         `<li class="todo"><div><strong>Receber de ${esc(r.cliente)}</strong> · ${brl(r.valor)}<div class="muted">${esc(r.ref)} · previsto para ${dt(r.venc)}</div></div>${real() && r.id ? `<button data-recebi="${r.id}">Recebi</button>` : ''}</li>`));
       D.certidoes.filter(c => ['classificar'].includes(situacao(c.nome).cls) || (c.validade && diasAte(c.validade) <= 15)).forEach(c => t.push(
-        `<li class="todo"><div><strong>${esc(c.nome)}</strong><div class="${situacao(c.nome).cls === 'classificar' ? 'bad' : 'muted'}">${situacao(c.nome).txt}</div></div><a class="btn" href="#documentos">Atualizar</a></li>`));
+        `<li class="todo"><div><strong>${esc(c.nome)}</strong><div class="${situacao(c.nome).cls === 'classificar' ? 'bad' : 'muted'}">${situacao(c.nome).txt}</div></div><a class="btn" href="#arquivo">Atualizar</a></li>`));
       D.pis.filter(p => p.status !== 'enviada').forEach(p => t.push(
         `<li class="todo"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(proximo(p).txt)}</div></div><a class="btn" href="#pis/${encodeURIComponent(p.numero)}">Abrir</a></li>`));
+      const semConc = (D.extrato || []).filter(x => x.id && !x.conciliado).length;
+      if (semConc) t.push(`<li class="todo"><div><strong>Conciliar o extrato</strong><div class="muted">${semConc} lançamento(s) ainda sem conta ligada</div></div><a class="btn" href="#financeiro">Conciliar</a></li>`);
       D.entrada.forEach((e, i) => { if (!e.feito) t.push(
         `<li class="todo"><div><strong>Chegou: ${esc(e.arquivo)}</strong><div class="muted">de ${esc(e.de)} · parece: ${esc(e.parece)}</div></div><span class="btns" style="margin:0"><button class="primary" data-in="${i}">Guardar</button><button data-in-x="${i}" aria-label="Descartar">✕</button></span></li>`); });
       return `<h1>${saudacao()}, ${esc(primeiro())}</h1><p class="sub">${dt(hoje)}${real() ? ' · ' + esc(D.empresa.nome) : ''}</p>
@@ -221,22 +223,50 @@ Abrir: economistarenato.com.br/fato67`;
       </div>
       <div class="card chart"><strong>Fluxo de caixa PJ, 30 dias</strong><p class="muted" style="margin:4px 0 8px">Saldo de hoje menos contas a pagar, mais recebimentos previstos.</p>${chart(pts)}</div>
       <div class="card" style="margin-top:12px"><strong>Saldos por conta</strong><table>${D.saldos.map(s => `<tr><td>${esc(s.conta)}${s.data ? `<div class="muted">em ${dt(s.data)}</div>` : real() ? '<div class="muted">saldo ainda não informado</div>' : ''}</td><td class="num">${brl(s.saldo)}</td></tr>`).join('')}</table>
-        <div class="btns"><a class="btn" href="#bancos">Bancos e extratos</a></div></div>
+        <div class="btns"><a class="btn" href="#financeiro">Bancos e extratos</a></div></div>
       <div class="card" style="margin-top:12px"><strong>Resumo do dia</strong><p class="muted">Saldos, contas da semana, menor saldo do mês e certidões, pronto para o WhatsApp.</p>
         <div class="btns"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(textoResumo())}" target="_blank" rel="noopener">Mandar no WhatsApp</a><a class="btn" href="#resumo">Ver antes</a></div></div>`;
     },
-    bancos() {
-      const contas = D.saldos;
-      const ext = D.extrato || [];
-      return `<h1>Bancos</h1><p class="sub">Enquanto o Open Finance não entra, o saldo vem de duas formas: você digita o saldo do dia, ou importa o extrato (OFX ou CSV) baixado no app do banco.</p>
-      ${real() ? '' : '<p class="bad">Demonstração: entre com sua conta para guardar saldos e extratos.</p>'}
+    financeiro() {
+      const contas = D.saldos, ext = D.extrato || [], hoje = iso(today);
+      const abertasP = pagarTodas().filter(p => p.status !== 'pago' && p.id), rec = D.receber.filter(r => r.id);
+      const pend = ext.filter(x => !x.conciliado && x.id);
+      const dist = (a, b) => Math.abs(new Date(a) - new Date(b)) / 864e5;
+      const par = x => (x.valor < 0 ? abertasP : rec).filter(c => Math.abs(c.valor - Math.abs(x.valor)) < 0.01 && dist(c.venc, x.data) <= 10).sort((c1, c2) => dist(c1.venc, x.data) - dist(c2.venc, x.data))[0];
+      const rows = [...pagarTodas()].filter(p => p.status !== 'pago').sort((a, b) => a.venc.localeCompare(b.venc)).map(p => `<tr>
+        <td>${dt(p.venc)}${p.venc < hoje ? '<div class="bad">vencida</div>' : ''}</td><td><strong>${esc(p.desc)}</strong><div class="muted">${esc(p.origem)}${p.importada ? ' · importada agora' : ''}</div></td>
+        <td class="num">${brl(p.valor)}${real() && p.id ? `<div><button class="link" data-paga="${p.id}">paguei</button></div>` : ''}</td></tr>`).join('');
+      const recRows = [...D.receber].sort((a, b) => a.venc.localeCompare(b.venc)).map(r => `<tr><td>${dt(r.venc)}</td><td><strong>${esc(r.cliente)}</strong><div class="muted">${esc(r.ref)}</div></td>
+        <td class="num">${brl(r.valor)}${real() && r.id ? `<div><button class="link" data-recebi="${r.id}">recebi</button></div>` : ''}</td></tr>`).join('');
+      return `<h1>Financeiro</h1><p class="sub">Linha de produção em três etapas: lançar as contas, atualizar o banco e conciliar um com o outro.</p>
+      <h2 class="etapa"><span>1</span> Lançar contas a pagar e a receber</h2>
+      <details class="card form" style="margin-bottom:12px"><summary><strong>+ Nova conta</strong></summary>
+        <div class="seg" role="group"><button type="button" class="on" data-nc="pagar">A pagar</button><button type="button" data-nc="receber">A receber</button></div><input type="hidden" id="nc-tipo" value="pagar">
+        <label><span id="nc-l1">Descrição</span><input id="nc-desc" placeholder="ex.: Aluguel"></label>
+        <label><span id="nc-l2">Observação (opcional)</span><input id="nc-ref" placeholder="ex.: fornecedor, nº do boleto"></label>
+        <label>Vencimento<input id="nc-venc" type="date"></label>
+        <label>Valor<input id="nc-valor" inputmode="decimal" placeholder="ex.: 1.450,00"></label>
+        <div class="btns"><button class="primary" id="nc-ok" ${real() ? '' : 'disabled'}>Guardar</button></div></details>
+      <details class="card" style="margin-bottom:12px"${importadas.length ? ' open' : ''}><summary><strong>Importar do grupo do WhatsApp</strong></summary>
+        <p class="muted">No grupo: ⋮ › Mais › Exportar conversa › Sem mídia. Cole o texto aqui. Linhas com valor viram conta; o resto é ignorado.</p>
+        <textarea id="wa" rows="5" placeholder="Cole aqui a conversa exportada">${esc(D.whatsappExemplo)}</textarea>
+        <div class="btns"><button class="primary" id="wa-go">Ler mensagens</button></div><div id="wa-out"></div></details>
+      <h2 class="etapa"><span>2</span> Atualizar o banco</h2>
       ${cartaoSaldo(false)}
       <div class="card form" style="margin-bottom:12px"><strong>Importar extrato</strong>
         <p class="muted">C6 e Banco do Brasil: extrato › exportar › OFX. Mercado Pago: Seu dinheiro › Relatórios › CSV. Importar de novo o mesmo período não duplica.</p>
         <label>Conta<select id="ex-conta">${contas.map(s => `<option value="${esc(s.id || '')}">${esc(s.conta)}</option>`).join('')}</select></label>
         <label>Arquivo (.ofx ou .csv)<input type="file" id="ex-file" accept=".ofx,.csv,.txt,text/csv,application/x-ofx"></label>
         <div id="ex-out"></div></div>
-      <div class="card"><strong>Últimos lançamentos</strong>${ext.length ? `<table>${ext.slice(0, 40).map(x => `<tr><td>${dt(x.data)}</td><td>${esc(x.descricao)}<div class="muted">${esc((contas.find(c => c.id === x.conta_id) || {}).conta)}</div></td><td class="num ${x.valor < 0 ? 'bad' : 'good'}">${brl(x.valor)}</td></tr>`).join('')}</table>` : '<p class="muted">Nenhum extrato importado ainda.</p>'}</div>`;
+      <h2 class="etapa"><span>3</span> Conciliar extrato com contas</h2>
+      <div class="card" style="margin-bottom:12px">${pend.length ? `<p class="muted" style="margin-top:0">Cada lançamento do extrato precisa ser ligado a uma conta. Quando valor e data batem, a plataforma sugere; senão, lance como conta nova ou ignore (transferência entre contas, por exemplo).</p><ul class="alerts">${pend.map(x => { const c = par(x);
+          return `<li class="todo"><div><strong>${dt(x.data)} · <span class="${x.valor < 0 ? 'bad' : 'good'}">${brl(x.valor)}</span></strong><div>${esc(x.descricao)}</div><div class="muted">${esc((contas.find(k => k.id === x.conta_id) || {}).conta)}${c ? ` · bate com: <strong>${esc(c.desc || c.cliente)}</strong> (venc. ${dt(c.venc)})` : ' · sem conta correspondente'}</div></div>
+            <span class="btns col" style="margin:0">${c ? `<button class="primary" data-conc="${x.id}|${c.id}">Conciliar</button>` : `<button data-lanc="${x.id}">Lançar</button>`}<button class="link" data-ign="${x.id}">ignorar</button></span></li>`; }).join('')}</ul>`
+        : `<p class="${ext.length ? 'good' : 'muted'}" style="margin:0">${ext.length ? 'Tudo conciliado.' : 'Importe um extrato na etapa 2 para conciliar.'}</p>`}</div>
+      <h2 class="etapa">Em aberto</h2>
+      <div class="card" style="margin-bottom:12px"><strong>A pagar</strong>${rows ? `<table><thead><tr><th>Venc.</th><th>Conta</th><th class="num">Valor</th></tr></thead><tbody>${rows}</tbody></table>` : '<p class="muted">Nenhuma conta em aberto.</p>'}</div>
+      <div class="card" style="margin-bottom:12px"><strong>A receber</strong>${recRows ? `<table><tbody>${recRows}</tbody></table>` : '<p class="muted">Nada previsto.</p>'}</div>
+      ${ext.length ? `<details class="card"><summary><strong>Últimos lançamentos do extrato</strong></summary><table>${ext.slice(0, 40).map(x => `<tr><td>${dt(x.data)}</td><td>${esc(x.descricao)}<div class="muted">${esc((contas.find(c => c.id === x.conta_id) || {}).conta)}${x.conciliado ? ' · conciliado' : ''}</div></td><td class="num ${x.valor < 0 ? 'bad' : 'good'}">${brl(x.valor)}</td></tr>`).join('')}</table></details>` : ''}`;
     },
     pis(sel) {
       if (sel === 'nova') return views.novaPi();
@@ -254,7 +284,7 @@ Abrir: economistarenato.com.br/fato67`;
         return `<p><a href="#pis">← PIs</a></p><h1>PI ${esc(pi.numero)}</h1><p class="sub">${esc(pi.orgao)} · ${esc(pi.cliente)}</p>
         <div class="card destaque" style="margin-bottom:12px"><span class="tag ${px.cls}">${pi.status === 'enviada' ? 'enviada' : px.cls === 'enviado' ? 'pronta' : 'pendente'}</span>
           <p style="margin:8px 0 0"><strong>${esc(px.txt)}</strong></p>
-          <div class="btns wrap">${px.nf ? up('nf', '+ Anexar NF', 'p') : ''}${px.prints ? up('print', '+ Anexar prints', 'p') : ''}${px.docs ? '<a class="btn primary" href="#documentos">Atualizar documentos</a>' : ''}
+          <div class="btns wrap">${px.nf ? up('nf', '+ Anexar NF', 'p') : ''}${px.prints ? up('print', '+ Anexar prints', 'p') : ''}${px.docs ? '<a class="btn primary" href="#arquivo">Atualizar documentos</a>' : ''}
             <button id="dl-zip" class="${px.cls === 'enviado' && pi.status !== 'enviada' ? 'primary' : ''}">Baixar ZIP</button>${mail}
             ${real() && pi.status !== 'enviada' ? '<button id="pi-enviada">Marcar como enviada</button>' : ''}</div>
           ${real() && !dst.email ? '<p class="muted">A agência ainda não tem e-mail cadastrado; o e-mail abre sem destinatário.</p>' : ''}</div>
@@ -274,10 +304,17 @@ Abrir: economistarenato.com.br/fato67`;
           <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" data-passo="${i}" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></details>
         ${real() ? '<div style="margin-top:24px;text-align:center"><button class="link perigo" id="pi-excluir">Excluir esta PI</button></div>' : ''}`;
       }
-      return `<div class="head"><div><h1>PIs</h1><p class="sub">Cada pedido de inserção vira uma pasta com documentos, NF e prints, e um e-mail pronto.</p></div><a class="btn primary" href="#pis/nova">+ Nova PI</a></div>
+      const etapas = [
+        ['Falta documento', 'classificar', p => p.status !== 'enviada' && proximo(p).docs],
+        ['Falta NF ou prints', 'pendente', p => p.status !== 'enviada' && !proximo(p).docs && (proximo(p).nf || proximo(p).prints)],
+        ['Pronta para enviar', 'enviado', p => p.status !== 'enviada' && proximo(p).cls === 'enviado'],
+        ['Enviadas', 'enviado', p => p.status === 'enviada']];
+      const cartao = p => `<a class="card picard" href="#pis/${encodeURIComponent(p.numero)}"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(p.cliente)} · ${dt(p.data)}</div>${p.status !== 'enviada' ? `<div class="muted">${esc(proximo(p).txt)}</div>` : ''}</div><span class="seta">›</span></a>`;
+      return `<div class="head"><div><h1>Envios</h1><p class="sub">Linha de produção dos e-mails: cada PI anda da esquerda para a direita até ser enviada.</p></div><a class="btn primary" href="#pis/nova">+ Nova PI</a></div>
+      <div class="trilha">${etapas.map(([n, c, f]) => `<span class="tag ${D.pis.filter(f).length ? c : ''}">${n}: ${D.pis.filter(f).length}</span>`).join('<span class="muted">›</span>')}</div>
       ${D.pis.length ? '' : '<p class="muted">Nenhuma PI cadastrada ainda.</p>'}
-      ${D.pis.map(p => `<a class="card picard" href="#pis/${encodeURIComponent(p.numero)}"><div><strong>PI ${esc(p.numero)}</strong> · ${esc(p.orgao)}<div class="muted">${esc(p.cliente)} · ${dt(p.data)}</div></div>
-        <span class="tag ${proximo(p).cls}">${p.status === 'enviada' ? 'enviada' : proximo(p).cls === 'enviado' ? 'pronta p/ enviar' : proximo(p).docs ? 'falta documento' : proximo(p).nf ? 'falta NF' : 'falta print'}</span></a>`).join('')}`;
+      ${etapas.map(([n, c, f], i) => { const l = D.pis.filter(f); if (!l.length) return '';
+        return i === 3 ? `<details style="margin-top:16px"><summary><strong>${n} (${l.length})</strong></summary>${l.map(cartao).join('')}</details>` : `<h2 class="etapa"><span>${i + 1}</span> ${n}</h2>${l.map(cartao).join('')}`; }).join('')}`;
     },
     novaPi() {
       return `<p><a href="#pis">← PIs</a></p><h1>Nova PI</h1><p class="sub">Escolha o órgão e a plataforma junta os documentos certos e monta o e-mail.</p>
@@ -287,41 +324,47 @@ Abrir: economistarenato.com.br/fato67`;
         <label class="check"><input id="f-tudo" type="checkbox"> Enviar todos os documentos, mesmo os que o órgão não exige</label></div>
       <div id="f-out"></div>`;
     },
-    contas() {
-      const rows = [...pagarTodas()].filter(p => p.status !== 'pago').sort((a, b) => a.venc.localeCompare(b.venc)).map(p => `<tr>
-        <td>${dt(p.venc)}${diasAte(p.venc) < 0 ? '<div class="bad">vencida</div>' : ''}</td><td><strong>${esc(p.desc)}</strong><div class="muted">${esc(p.origem)}${p.importada ? ' · importada agora' : ''}</div></td>
-        <td class="num">${brl(p.valor)}${real() && p.id ? `<div><button class="link" data-paga="${p.id}">paguei</button></div>` : ''}</td></tr>`).join('');
-      const rec = [...D.receber].sort((a, b) => a.venc.localeCompare(b.venc)).map(r => `<tr><td>${dt(r.venc)}</td><td><strong>${esc(r.cliente)}</strong><div class="muted">${esc(r.ref)}</div></td>
-        <td class="num">${brl(r.valor)}${real() && r.id ? `<div><button class="link" data-recebi="${r.id}">recebi</button></div>` : ''}</td></tr>`).join('');
-      return `<h1>Contas</h1><p class="sub">Impostos, honorários, fornecedores e o que você anota no WhatsApp. A plataforma não paga: você paga no banco e marca aqui.</p>
-      ${real() ? `<details class="card form" style="margin-bottom:12px"><summary><strong>+ Nova conta</strong></summary>
-        <div class="seg" role="group"><button type="button" class="on" data-nc="pagar">A pagar</button><button type="button" data-nc="receber">A receber</button></div><input type="hidden" id="nc-tipo" value="pagar">
-        <label><span id="nc-l1">Descrição</span><input id="nc-desc" placeholder="ex.: Aluguel"></label>
-        <label><span id="nc-l2">Observação (opcional)</span><input id="nc-ref" placeholder="ex.: fornecedor, nº do boleto"></label>
-        <label>Vencimento<input id="nc-venc" type="date"></label>
-        <label>Valor<input id="nc-valor" inputmode="decimal" placeholder="ex.: 1.450,00"></label>
-        <div class="btns"><button class="primary" id="nc-ok">Guardar</button></div></details>` : ''}
-      <div class="card" style="margin-bottom:12px"><strong>Importar do seu grupo do WhatsApp</strong>
-        <p class="muted">No grupo: ⋮ › Mais › Exportar conversa › Sem mídia. Cole o texto aqui. Linhas com valor viram conta; o resto é ignorado.</p>
-        <textarea id="wa" rows="5" placeholder="Cole aqui a conversa exportada">${esc(D.whatsappExemplo)}</textarea>
-        <div class="btns"><button class="primary" id="wa-go">Ler mensagens</button></div><div id="wa-out"></div></div>
-      <div class="card" style="margin-bottom:12px"><strong>A pagar</strong>${rows ? `<table><thead><tr><th>Venc.</th><th>Conta</th><th class="num">Valor</th></tr></thead><tbody>${rows}</tbody></table>` : '<p class="muted">Nenhuma conta em aberto.</p>'}</div>
-      <div class="card"><strong>A receber</strong>${rec ? `<table><tbody>${rec}</tbody></table>` : '<p class="muted">Nada previsto.</p>'}</div>`;
-    },
-    documentos() {
-      return `<h1>Documentos</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
+    arquivo() {
+      const arqs = D.pis.flatMap(p => (p.pasta.arquivos || [{ tipo: 'nf', nome: p.pasta.nf }].concat(p.pasta.prints.map(n => ({ tipo: 'print', nome: n })))).filter(a => a.nome).map(a => ({ ...a, pi: p })));
+      const lista = tipo => { const l = arqs.filter(a => a.tipo === tipo); return l.length ? `<ul class="alerts">${l.map(a => `<li class="todo"><div>${esc(a.nome)}<div class="muted">PI ${esc(a.pi.numero)} · ${esc(a.pi.orgao)}</div></div>${real() && a.arquivo ? `<button class="link" data-ver="${esc(a.arquivo)}">ver</button>` : ''}</li>`).join('')}</ul>` : '<p class="muted">Nenhum ainda. Eles entram pela tela de cada PI.</p>'; };
+      return `<h1>Arquivo da empresa</h1><p class="sub">Tudo o que a empresa guarda, com as atualizações periódicas. Cada documento é guardado uma vez e reaproveitado em todas as PIs; a versão anterior fica no histórico.</p>
       <div id="up-form"></div>
       <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
-        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.numero ? `<div class="muted">${esc(c.numero)}</div>` : ''}${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button>${real() && c.arquivo ? ` · <button class="link" data-ver="${esc(c.arquivo)}">ver</button>` : ''}</div></td></tr>
+        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.numero ? `<div class="muted">${esc(c.numero)}</div>` : ''}${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}
+            ${(c.historico || []).length ? `<details class="hist"><summary>${c.historico.length} versão(ões) anterior(es)</summary>${c.historico.map(h => `<div class="muted">${h.validade ? 'válida até ' + dt(h.validade) + '/' + h.validade.slice(2, 4) : 'sem validade'} · guardada em ${h.criado ? dt(h.criado.slice(0, 10)) : '—'}${h.arquivo ? ` · <button class="link" data-ver="${esc(h.arquivo)}">ver</button>` : ''}</div>`).join('')}</details>` : ''}</td>
+          <td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button>${real() && c.arquivo ? ` · <button class="link" data-ver="${esc(c.arquivo)}">ver</button>` : ''}</div></td></tr>
           ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span><div><button class="link" data-up="${esc(c.nome)}|${esc(i.nome)}">atualizar</button></div></td></tr>`).join('')}`).join('')}</table>
-        <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p></div>
-      <div class="card" style="margin-bottom:12px"><strong>Para quem vai cada processo</strong><p class="muted">Cada agência tem um e-mail padrão; algumas têm atendente por cliente. Sem atendente, vai para o padrão.</p><table>
-        <thead><tr><th>Agência</th><th>Cliente</th><th>Destinatário</th><th>Manual</th></tr></thead>
-        ${D.agencias.map(a => a.atendentes.map(t => `<tr><td>${esc(a.nome)}</td><td>${esc(t.cliente)}</td><td>${esc(t.nome)}<div class="muted">${esc(t.email)}</div></td><td>${manualDe(a.nome, t.cliente) ? '<span class="tag enviado">sim</span>' : '—'}</td></tr>`).join('')
-          + `<tr><td>${esc(a.nome)}</td><td class="muted">demais clientes</td><td>padrão<div class="muted">${esc(a.padrao || 'a cadastrar')}</div></td><td>${D.manuais.some(m => m.agencia === a.nome && !a.atendentes.some(t => t.cliente === m.cliente)) ? '<span class="tag enviado">sim</span>' : '—'}</td></tr>`).join('')}</table></div>
-      <div class="card"><strong>O que cada órgão exige</strong><p class="muted">Base: ${D.padrao.map(esc).join(', ')}. Órgão ainda não mapeado recebe todos os documentos, como hoje.</p><table>
-        <thead><tr><th>Órgão</th><th>Registro</th><th class="hide-sm">Exige também</th><th>Regra</th></tr></thead>
-        ${D.orgaos.map(o => `<tr><td>${esc(o.nome)}</td><td>${esc(o.registro)}</td><td class="hide-sm">${o.mapeado ? (o.extras.map(esc).join(', ') || '—') : '—'}</td><td><span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? 'mapeado' : 'envia tudo'}</span></td></tr>`).join('')}</table></div>`;
+        <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p>
+        ${real() ? '<div class="form inline"><input id="td-nome" placeholder="Novo tipo de documento (ex.: Alvará)"><button id="td-ok">Adicionar</button></div>' : ''}</div>
+      <details class="card" style="margin-bottom:12px"><summary><strong>Notas fiscais (${arqs.filter(a => a.tipo === 'nf').length})</strong></summary>${lista('nf')}</details>
+      <details class="card" style="margin-bottom:12px"><summary><strong>Prints de veiculação (${arqs.filter(a => a.tipo === 'print').length})</strong></summary>${lista('print')}</details>
+      ${arqs.some(a => a.tipo === 'avulso') ? `<details class="card"><summary><strong>Outros anexos de PI (${arqs.filter(a => a.tipo === 'avulso').length})</strong></summary>${lista('avulso')}</details>` : ''}`;
+    },
+    cadastros() {
+      const registros = new Set(D.orgaos.map(o => o.registro).filter(Boolean));
+      const docsLib = D.certidoes.map(c => c.nome);
+      const dis = real() ? '' : 'disabled';
+      const formOrg = o => { const k = o ? o.id || o.nome : 'novo', sel = o ? (o.mapeado ? o.extras : []) : D.padrao;
+        return `<label>Nome<input id="og-nome-${esc(k)}" value="${esc(o ? o.nome : '')}" placeholder="ex.: Prefeitura de Dourados"></label>
+        <label>Certificado de registro exigido<select id="og-reg-${esc(k)}"><option value="">nenhum</option>${docsLib.filter(n => registros.has(n) || /cerca|crc|registro/i.test(n)).map(n => `<option ${o && o.registro === n ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select></label>
+        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="tudo" ${o && !o.mapeado ? 'checked' : ''}> Ainda não sei: enviar todos os documentos</label>
+        <label class="check"><input type="radio" name="og-modo-${esc(k)}" value="lista" ${!o || o.mapeado ? 'checked' : ''}> Enviar só os marcados abaixo</label>
+        <div class="docs-grid">${docsLib.filter(n => !(registros.has(n) || /cerca|crc/i.test(n))).map(n => `<label class="check"><input type="checkbox" data-og="${esc(k)}" value="${esc(n)}" ${sel.includes(n) ? 'checked' : ''}> ${esc(n)}</label>`).join('')}</div>
+        <div class="btns"><button class="primary" data-og-save="${esc(k)}" ${o && o.id ? `data-id="${o.id}"` : ''} ${dis}>Guardar</button>${o && o.id ? `<button class="link perigo" data-og-del="${o.id}" ${dis}>excluir</button>` : ''}</div>`; };
+      const formAg = a => { const k = a ? a.id || a.nome : 'nova';
+        return `<label>Nome<input id="ag-nome-${esc(k)}" value="${esc(a ? a.nome : '')}" placeholder="ex.: Agência X"></label>
+        <label>E-mail padrão (vale para todos os clientes sem contato próprio)<input type="email" id="ag-email-${esc(k)}" value="${esc(a ? a.padrao : '')}" placeholder="ex.: midia@agencia.com.br"></label>
+        <div class="btns"><button class="primary" data-ag-save="${esc(k)}" ${a && a.id ? `data-id="${a.id}"` : ''} ${dis}>Guardar</button>${a && a.id ? `<button class="link perigo" data-ag-del="${a.id}" ${dis}>excluir</button>` : ''}</div>
+        ${a ? `<p style="margin:16px 0 4px"><strong>Contato por cliente</strong></p><p class="muted" style="margin:0 0 8px">Quando a agência tem um atendente para um cliente, o e-mail da PI vai para ele.</p>
+          <ul class="alerts">${a.atendentes.map(t => `<li class="todo"><div>${esc(t.cliente)}<div class="muted">${esc(t.nome || '')} ${esc(t.email)}</div></div>${real() && t.id ? `<button class="link perigo" data-at-del="${t.id}">remover</button>` : ''}</li>`).join('') || '<li class="muted">Nenhum: tudo vai para o e-mail padrão.</li>'}</ul>
+          ${real() && a.id ? `<div class="form"><label>Cliente<select id="at-org-${a.id}">${D.orgaos.map(o => `<option value="${o.id}">${esc(o.nome)}</option>`).join('')}</select></label><label>Nome do atendente<input id="at-nome-${a.id}"></label><label>E-mail<input type="email" id="at-email-${a.id}"></label><div class="btns"><button data-at-add="${a.id}">+ Adicionar contato</button></div></div>` : ''}` : ''}`; };
+      return `<h1>Cadastros</h1><p class="sub">A base de tudo: quem são os clientes, o que cada um exige e para qual e-mail vai cada processo.</p>
+      <h2 class="etapa">Clientes (órgãos)</h2>
+      ${D.orgaos.map(o => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(o.nome)}</strong> <span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? `${o.extras.length + (o.registro ? 1 : 0)} docs exigidos` : 'envia tudo'}</span></summary>${formOrg(o)}</details>`).join('')}
+      <details class="card form" style="margin-bottom:8px"><summary><strong>+ Novo cliente</strong></summary>${formOrg(null)}</details>
+      <h2 class="etapa">Agências</h2>
+      ${D.agencias.map(a => `<details class="card form" style="margin-bottom:8px"><summary><strong>${esc(a.nome)}</strong> <span class="muted">${esc(a.padrao || 'sem e-mail')}</span>${manualDe(a.nome, '') || D.manuais.some(m => m.agencia === a.nome) ? ' <span class="tag enviado">manual</span>' : ''}</summary>${formAg(a)}</details>`).join('')}
+      <details class="card form"><summary><strong>+ Nova agência</strong></summary>${formAg(null)}</details>`;
     },
     resumo() {
       const msg = textoResumo();
@@ -418,6 +461,38 @@ Abrir: economistarenato.com.br/fato67`;
       document.getElementById('nc-l2').textContent = rec ? 'Referência (opcional)' : 'Observação (opcional)';
       document.getElementById('nc-ref').placeholder = rec ? 'ex.: PI 58820' : 'ex.: fornecedor, nº do boleto';
     }));
+    // Conciliação
+    const extDe = id => (D.extrato || []).find(x => x.id === id);
+    document.querySelectorAll('button[data-conc]').forEach(b => b.addEventListener('click', () => { const [x, c] = b.dataset.conc.split('|'); acao(() => N.acoes.conciliar(extDe(x), c), 'Conciliado: a conta foi dada como quitada.'); }));
+    document.querySelectorAll('button[data-lanc]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.lancarDoExtrato(extDe(b.dataset.lanc)), 'Lançado como conta quitada.')));
+    document.querySelectorAll('button[data-ign]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.ignorarExtrato(b.dataset.ign), 'Ignorado.')));
+    // Cadastros
+    const val = id => { const e = document.getElementById(id); return e ? e.value.trim() : ''; };
+    document.querySelectorAll('button[data-og-save]').forEach(b => b.addEventListener('click', () => {
+      const k = b.dataset.ogSave, nome = val('og-nome-' + k); if (!nome) { avisar('Informe o nome do cliente.', 'bad'); return; }
+      const modo = (document.querySelector(`input[name="og-modo-${CSS.escape(k)}"]:checked`) || {}).value;
+      const extras = [...document.querySelectorAll(`input[data-og="${CSS.escape(k)}"]:checked`)].map(i => i.value);
+      acao(() => N.acoes.salvarOrgao({ id: b.dataset.id, nome, registro: val('og-reg-' + k), extras, mapeado: modo === 'lista' }), 'Cliente guardado.');
+    }));
+    document.querySelectorAll('button[data-og-del]').forEach(b => b.addEventListener('click', () => {
+      if (!b.dataset.conf) { b.dataset.conf = 1; b.textContent = 'toque de novo para excluir'; return; }
+      acao(() => N.acoes.excluirOrgao(b.dataset.ogDel), 'Cliente excluído.');
+    }));
+    document.querySelectorAll('button[data-ag-save]').forEach(b => b.addEventListener('click', () => {
+      const k = b.dataset.agSave, nome = val('ag-nome-' + k); if (!nome) { avisar('Informe o nome da agência.', 'bad'); return; }
+      acao(() => N.acoes.salvarAgencia({ id: b.dataset.id, nome, email: val('ag-email-' + k) }), 'Agência guardada.');
+    }));
+    document.querySelectorAll('button[data-ag-del]').forEach(b => b.addEventListener('click', () => {
+      if (!b.dataset.conf) { b.dataset.conf = 1; b.textContent = 'toque de novo para excluir'; return; }
+      acao(() => N.acoes.excluirAgencia(b.dataset.agDel), 'Agência excluída.');
+    }));
+    document.querySelectorAll('button[data-at-add]').forEach(b => b.addEventListener('click', () => {
+      const a = b.dataset.atAdd, email = val('at-email-' + a); if (!email) { avisar('Informe o e-mail do contato.', 'bad'); return; }
+      acao(() => N.acoes.salvarAtendente({ agencia: a, orgao: val('at-org-' + a), nome: val('at-nome-' + a), email }), 'Contato adicionado.');
+    }));
+    document.querySelectorAll('button[data-at-del]').forEach(b => b.addEventListener('click', () => acao(() => N.acoes.excluirAtendente(b.dataset.atDel), 'Contato removido.')));
+    const td = document.getElementById('td-ok');
+    if (td) td.addEventListener('click', () => { const n = val('td-nome'); if (!n) return; if (cert(n)) { avisar('Esse documento já existe.', 'bad'); return; } acao(() => N.acoes.novoTipoDoc(n), 'Documento adicionado. Toque em "atualizar" para guardar o PDF.'); });
     const nc = document.getElementById('nc-ok');
     if (nc) nc.addEventListener('click', () => {
       const g = id => document.getElementById(id).value.trim();
@@ -477,7 +552,8 @@ Abrir: economistarenato.com.br/fato67`;
     }
   }
   function render() {
-    const [route, sel] = decodeURIComponent(location.hash.slice(1)).split('/');
+    let [route, sel] = decodeURIComponent(location.hash.slice(1)).split('/');
+    route = { bancos: 'financeiro', contas: 'financeiro', documentos: 'arquivo', envios: 'pis' }[route] || route;
     const r = views[route] && route !== 'novaPi' ? route : 'painel';
     document.getElementById('app').innerHTML = views[r](sel);
     document.querySelectorAll('nav a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + r));
