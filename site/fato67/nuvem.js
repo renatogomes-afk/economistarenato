@@ -45,7 +45,7 @@
     const orgNome = id => (orgaos.find(o => o.id === id) || {}).nome || '—';
     const agNome = id => (agencias.find(a => a.id === id) || {}).nome || '—';
     const ultimo = id => saldos.find(s => s.conta_id === id);
-    const doc = d => ({ id: d.id, nome: d.tipo, numero: d.numero, validade: d.validade, arquivo: d.arquivo, semArquivo: !d.arquivo, criado: d.criado_em });
+    const doc = d => ({ id: d.id, nome: d.tipo, numero: d.numero, validade: d.validade, arquivo: d.arquivo, semArquivo: !d.arquivo, criado: d.criado_em, competencia: d.competencia || (d.criado_em || '').slice(0, 7) + '-01' });
     const todosDocs = docs; docs = docs.filter(d => d.atual);
     return {
       real: true, empresa: emp, empresas: lista, usuario: user,
@@ -109,11 +109,13 @@
       ok(await sb.from('pi_arquivos').insert({ pi_id: id, tipo, nome: file.name, arquivo }));
     },
     // Nova versão de documento: guarda o arquivo, cria a versão e aposenta a anterior
-    async atualizarDocumento(c, interna, file, validade) {
+    async atualizarDocumento(c, interna, file, validade, competencia) {
       const velho = interna ? (c.internas || []).find(i => i.nome === interna) : c;
+      // Cópia de um mês anterior ao da versão atual entra só no histórico
+      const antigo = !!(competencia && velho && velho.id && velho.arquivo && velho.competencia && competencia < velho.competencia);
       const arquivo = file ? await subir('documentos', file) : (velho && velho.arquivo) || null;
-      const novo = ok(await sb.from('documentos').insert({ empresa_id: emp.id, tipo: interna || c.nome, numero: velho && velho.numero, validade, arquivo, pai_id: interna ? c.id : null, origem: 'upload' }).select('id').single());
-      if (velho && velho.id) {
+      const novo = ok(await sb.from('documentos').insert({ empresa_id: emp.id, tipo: interna || c.nome, numero: velho && velho.numero, validade, arquivo, pai_id: interna ? c.id : null, origem: 'upload', competencia: competencia || undefined, atual: !antigo }).select('id').single());
+      if (velho && velho.id && !antigo) {
         ok(await sb.from('documentos').update({ atual: false }).eq('id', velho.id));
         if (!interna) ok(await sb.from('documentos').update({ pai_id: novo.id }).eq('pai_id', velho.id).eq('atual', true));
       }
