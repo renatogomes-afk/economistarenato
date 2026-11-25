@@ -91,3 +91,4 @@ li.todo{display:flex;justify-content:space-between;align-items:center;gap:12px}l
 .seg{display:flex;margin-bottom:12px;border:1px solid var(--line);border-radius:10px;overflow:hidden}.seg button{flex:1;border:0;border-radius:0;background:var(--bg)}.seg button.on{background:var(--brand);color:#fff}
 details.card>summary{cursor:pointer;padding:0;color:inherit}
 details.card[open]>summary{margin-bottom:8px}
+button.link.perigo{color:var(--bad)}

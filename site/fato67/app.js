@@ -271,7 +271,8 @@ Abrir: economistarenato.com.br/fato67`;
           <li>Prints de veiculação: ${pi.pasta.prints.map(esc).join(', ') || '<span class="tag pendente">nenhum</span>'}</li></ul>
           <div class="btns wrap">${up('nf', pi.pasta.nf ? 'Trocar NF' : '+ NF')}${up('print', '+ Prints')}<button id="dl-pdf">PDF para imprimir</button></div></div>
         <details class="card"><summary><strong>Passos do processo</strong> <span class="muted">(${pi.status === 'enviada' ? 'todos' : Math.min(pi.feitos || 0, passos(pi.cliente, pi.orgao).length)} de ${passos(pi.cliente, pi.orgao).length})</span></summary><p class="muted">${manualDe(pi.cliente, pi.orgao) ? `Do manual "${esc(pi.cliente)} + ${esc(pi.orgao)}".` : 'Passos padrão: ainda não há manual para esta combinação.'}</p>
-          <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" data-passo="${i}" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></details>`;
+          <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" data-passo="${i}" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></details>
+        ${real() ? '<div style="margin-top:24px;text-align:center"><button class="link perigo" id="pi-excluir">Excluir esta PI</button></div>' : ''}`;
       }
       return `<div class="head"><div><h1>PIs</h1><p class="sub">Cada pedido de inserção vira uma pasta com documentos, NF e prints, e um e-mail pronto.</p></div><a class="btn primary" href="#pis/nova">+ Nova PI</a></div>
       ${D.pis.length ? '' : '<p class="muted">Nenhuma PI cadastrada ainda.</p>'}
@@ -372,6 +373,13 @@ Abrir: economistarenato.com.br/fato67`;
     }));
     const env = document.getElementById('pi-enviada');
     if (env) env.addEventListener('click', () => acao(() => N.acoes.statusPi(piAtual().id, 'enviada'), 'PI marcada como enviada.'));
+    const ex = document.getElementById('pi-excluir');
+    if (ex) ex.addEventListener('click', () => {
+      // Dois toques: o primeiro pede confirmação, sem janela do navegador
+      if (!ex.dataset.conf) { ex.dataset.conf = '1'; ex.textContent = 'Toque de novo para excluir a PI e os arquivos dela'; setTimeout(() => { if (ex.isConnected) { delete ex.dataset.conf; ex.textContent = 'Excluir esta PI'; } }, 5000); return; }
+      const pi = piAtual();
+      acao(() => N.acoes.excluirPi(pi.id), `PI ${pi.numero} excluída.`).then(() => { location.hash = 'pis'; });
+    });
     document.querySelectorAll('button[data-up]').forEach(btn => btn.addEventListener('click', () => {
       const [c, i] = btn.dataset.up.split('|');
       document.getElementById('up-form').innerHTML = `<div class="card form" style="margin-bottom:12px"><strong>Atualizar: ${esc(i || c)}</strong>
