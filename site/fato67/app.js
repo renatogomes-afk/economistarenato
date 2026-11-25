@@ -42,11 +42,21 @@
     if (!o || tudo || !o.mapeado) return D.certidoes.filter(c => !registros.has(c.nome)).map(c => c.nome).concat(o ? [o.registro] : []);
     return D.padrao.concat(o.extras, [o.registro]);
   };
+  // Agência + cliente → destinatário (atendente, senão e-mail padrão) e passos do processo
+  const agenciaDe = n => D.agencias.find(a => a.nome === n);
+  function destino(agencia, orgao) {
+    const a = agenciaDe(agencia); if (!a) return { email: '—', txt: 'agência sem cadastro' };
+    const at = a.atendentes.find(x => x.cliente === orgao);
+    return at ? { email: at.email, txt: `${at.nome}, atendente de ${orgao}` } : { email: a.padrao, txt: 'e-mail padrão da agência (sem atendente para este cliente)' };
+  }
+  const manualDe = (agencia, orgao) => D.manuais.find(m => m.agencia === agencia && m.cliente === orgao);
+  const passos = (agencia, orgao) => (manualDe(agencia, orgao) || { passos: D.passosPadrao }).passos;
+
   // Anexos da PI: começa pela regra do órgão; o Roger marca e desmarca
   const docsPi = pi => (pi.sel = pi.sel || exigidos(pi.orgao));
   const piPronta = pi => docsPi(pi).every(n => situacao(n).cls !== 'classificar');
   const assunto = pi => `Processo - PI ${pi.numero} ${pi.orgao}`;
-  const corpo = pi => `Segue anexo os documentos referentes ao processo da PI ${pi.numero} da ${pi.orgao}.\n\nAtt\nRoger`;
+  const corpo = pi => `Segue anexo os documentos referentes ao processo da PI ${pi.numero} (${pi.orgao}).\n\nAtt\nRoger`;
 
   // ---- fluxo de caixa (conta PJ) ----
   function fluxo(dias) {
@@ -97,7 +107,7 @@
   async function baixarZip(pi) {
     if (!window.JSZip) { return; }
     const zip = new JSZip(), pasta = zip.folder(`PI_${pi.numero}`);
-    pasta.file('00_email.txt', `Para: ${pi.para}\nAssunto: ${assunto(pi)}\n\n${corpo(pi)}\n`);
+    pasta.file('00_email.txt', `Para: ${destino(pi.cliente, pi.orgao).email}\nAssunto: ${assunto(pi)}\n\n${corpo(pi)}\n`);
     pasta.file('00_indice.txt', `PI ${pi.numero} · ${pi.orgao} · ${pi.cliente}\n\n` + arquivosPi(pi).map(f => `- ${f}`).join('\n') + '\n\nDemonstração: os arquivos reais entram aqui na versão final.\n');
     const blob = await zip.generateAsync({ type: 'blob' });
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `PI_${pi.numero}.zip`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
@@ -149,9 +159,11 @@
           ${outros.length ? `<details><summary>Incluir outro documento da biblioteca (${outros.length})</summary><ul class="alerts">${outros.map(n => linha(n, false)).join('')}</ul></details>` : ''}
           <label class="btn up">+ Anexar arquivo só nesta PI<input type="file" id="pi-file" accept="application/pdf,image/*" hidden></label></div>
         <div class="card" style="margin-bottom:12px"><strong>E-mail preparado</strong>
-          <pre class="mail">Para: ${esc(pi.para)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}\n\nAnexos: ${docs.map(esc).join('; ')}</pre>
+          <p class="muted">Para: ${esc(destino(pi.cliente, pi.orgao).txt)}</p><pre class="mail">Para: ${esc(destino(pi.cliente, pi.orgao).email)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}\n\nAnexos: ${docs.map(esc).join('; ')}</pre>
           ${piPronta(pi) ? '' : '<p class="bad">Há documento vencido ou faltando. Atualize antes de enviar.</p>'}
           <div class="btns"><button class="primary" disabled title="Desativado na demonstração">Enviar</button><button disabled>Editar</button></div></div>
+        <div class="card" style="margin-bottom:12px"><strong>Passos do processo</strong><p class="muted">${manualDe(pi.cliente, pi.orgao) ? `Do manual "${esc(pi.cliente)} + ${esc(pi.orgao)}".` : 'Passos padrão: ainda não há manual para esta combinação.'}</p>
+          <ul class="alerts">${passos(pi.cliente, pi.orgao).map((t, i) => `<li><label class="pick"><input type="checkbox" ${pi.status === 'enviada' || i < (pi.feitos || 0) ? 'checked' : ''}><span>${esc(t)}</span></label></li>`).join('')}</ul></div>
         <div class="card" style="margin-bottom:12px"><strong>Baixar a pasta da PI</strong><p class="muted">Para enviar ou imprimir o processo, como algumas agências pedem.</p>
           <div class="btns"><button class="primary" id="dl-zip" data-pi="${pi.numero}">Baixar ZIP</button><button id="dl-pdf" data-pi="${pi.numero}">PDF para imprimir</button></div></div>
         <div class="card"><strong>Pasta da PI</strong><ul class="alerts">
@@ -165,9 +177,8 @@
     novaPi() {
       return `<p><a href="#pis">← PIs</a></p><h1>Nova PI</h1><p class="sub">Escolha o órgão e a plataforma junta os documentos certos e monta o e-mail.</p>
       <div class="card form"><label>Número da PI<input id="f-num" inputmode="numeric" placeholder="ex.: 10250"></label>
-        <label>Órgão<select id="f-org">${D.orgaos.map(o => `<option>${esc(o.nome)}</option>`).join('')}</select></label>
-        <label>Cliente (agência)<input id="f-cli" placeholder="ex.: Agência Exemplo Um"></label>
-        <label>Enviar para<input id="f-para" type="email" placeholder="email@cliente"></label>
+        <label>Cliente final (órgão)<select id="f-org">${D.orgaos.map(o => `<option>${esc(o.nome)}</option>`).join('')}</select></label>
+        <label>Agência<select id="f-cli">${D.agencias.map(a => `<option>${esc(a.nome)}</option>`).join('')}</select></label>
         <label class="check"><input id="f-tudo" type="checkbox"> Enviar todos os documentos, mesmo os que o órgão não exige</label></div>
       <div id="f-out"></div>`;
     },
@@ -183,12 +194,16 @@
       <div class="card"><table><thead><tr><th>Venc.</th><th>Conta</th><th class="num">Valor</th></tr></thead><tbody>${rows}</tbody></table></div>`;
     },
     documentos() {
-      return `<h1>Documentos</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
+      return `<h1>Documentos e regras</h1><p class="sub">Biblioteca da empresa: cada documento é guardado uma vez e reaproveitado em todas as PIs. Para trocar por uma versão nova, toque em "atualizar", escolha o PDF ou tire a foto, e informe a validade.</p>
       <div id="up-form"></div>
       <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
         ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span><div><button class="link" data-up="${esc(c.nome)}">atualizar</button></div></td></tr>
           ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span><div><button class="link" data-up="${esc(c.nome)}|${esc(i.nome)}">atualizar</button></div></td></tr>`).join('')}`).join('')}</table>
         <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p></div>
+      <div class="card" style="margin-bottom:12px"><strong>Para quem vai cada processo</strong><p class="muted">Cada agência tem um e-mail padrão; algumas têm atendente por cliente. Sem atendente, vai para o padrão.</p><table>
+        <thead><tr><th>Agência</th><th>Cliente</th><th>Destinatário</th><th>Manual</th></tr></thead>
+        ${D.agencias.map(a => a.atendentes.map(t => `<tr><td>${esc(a.nome)}</td><td>${esc(t.cliente)}</td><td>${esc(t.nome)}<div class="muted">${esc(t.email)}</div></td><td>${manualDe(a.nome, t.cliente) ? '<span class="tag enviado">sim</span>' : '—'}</td></tr>`).join('')
+          + `<tr><td>${esc(a.nome)}</td><td class="muted">demais clientes</td><td>padrão<div class="muted">${esc(a.padrao)}</div></td><td>${D.manuais.some(m => m.agencia === a.nome && !a.atendentes.some(t => t.cliente === m.cliente)) ? '<span class="tag enviado">sim</span>' : '—'}</td></tr>`).join('')}</table></div>
       <div class="card"><strong>O que cada órgão exige</strong><p class="muted">Base: ${D.padrao.map(esc).join(', ')}. Órgão ainda não mapeado recebe todos os documentos, como hoje.</p><table>
         <thead><tr><th>Órgão</th><th>Registro</th><th class="hide-sm">Exige também</th><th>Regra</th></tr></thead>
         ${D.orgaos.map(o => `<tr><td>${esc(o.nome)}</td><td>${esc(o.registro)}</td><td class="hide-sm">${o.mapeado ? (o.extras.map(esc).join(', ') || '—') : '—'}</td><td><span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? 'mapeado' : 'envia tudo'}</span></td></tr>`).join('')}</table></div>`;
@@ -260,15 +275,17 @@ Abrir: economistarenato.com.br/fato67`;
     const num = document.getElementById('f-num');
     if (num) {
       const upd = () => {
-        const pi = { numero: num.value || '_____', orgao: document.getElementById('f-org').value, cliente: document.getElementById('f-cli').value, para: document.getElementById('f-para').value || '—' };
+        const pi = { numero: num.value || '_____', orgao: document.getElementById('f-org').value, cliente: document.getElementById('f-cli').value };
+        const dst = destino(pi.cliente, pi.orgao);
         const o = orgaoDe(pi.orgao), tudo = document.getElementById('f-tudo').checked;
         const docs = exigidos(pi.orgao, tudo);
         document.getElementById('f-out').innerHTML = `<div class="card" style="margin-top:12px"><strong>Documentos que vão anexados (${docs.length})</strong>${o && !o.mapeado ? '<p class="muted">Este órgão ainda não tem regra; por segurança vai tudo.</p>' : ''}<ul class="alerts">
           ${docs.map(n => `<li><span class="tag ${situacao(n).cls}">${situacao(n).txt}</span> ${esc(n)}</li>`).join('')}</ul>
-          <strong>E-mail</strong><pre class="mail">Para: ${esc(pi.para)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}</pre>
+          <strong>Passos</strong>${manualDe(pi.cliente, pi.orgao) ? '' : '<span class="muted"> (padrão, sem manual para esta combinação)</span>'}<ol>${passos(pi.cliente, pi.orgao).map(t => `<li>${esc(t)}</li>`).join('')}</ol>
+          <strong>E-mail</strong><p class="muted">Para: ${esc(dst.txt)}</p><pre class="mail">Para: ${esc(dst.email)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}</pre>
           <div class="btns"><button class="primary" disabled title="Desativado na demonstração">Criar PI e enviar</button></div></div>`;
       };
-      ['f-num', 'f-org', 'f-cli', 'f-para', 'f-tudo'].forEach(id => document.getElementById(id).addEventListener('input', upd)); document.getElementById('f-tudo').addEventListener('change', upd); upd();
+      ['f-num', 'f-org', 'f-cli', 'f-tudo'].forEach(id => document.getElementById(id).addEventListener('input', upd)); document.getElementById('f-tudo').addEventListener('change', upd); ['f-org', 'f-cli'].forEach(id => document.getElementById(id).addEventListener('change', upd)); upd();
     }
   }
   function render() {

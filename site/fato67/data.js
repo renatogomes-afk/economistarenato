@@ -42,13 +42,28 @@
       { nome: 'Assembleia Legislativa', registro: 'CERCA Estadual', extras: [], mapeado: true },
       { nome: 'Prefeitura do Município B', registro: 'CRC Município B', extras: ['Certidão de falência e concordata'], mapeado: true }
     ],
+    // Agência → e-mail padrão e atendentes por cliente (órgão ou município)
+    agencias: [
+      { nome: 'Agência Exemplo Um', padrao: 'midia@agencia-um.exemplo', atendentes: [
+        { cliente: 'Prefeitura do Município B', nome: 'Ana', email: 'ana@agencia-um.exemplo' },
+        { cliente: 'Prefeitura da Capital', nome: 'Bruno', email: 'bruno@agencia-um.exemplo' } ] },
+      { nome: 'Agência Exemplo Dois', padrao: 'processos@agencia-dois.exemplo', atendentes: [
+        { cliente: 'Governo do Estado', nome: 'Carla', email: 'carla@agencia-dois.exemplo' } ] },
+      { nome: 'Agência Exemplo Três', padrao: 'financeiro@agencia-tres.exemplo', atendentes: [] }
+    ],
+    // Passos por combinação agência + cliente (vêm dos manuais em PDF do Roger)
+    passosPadrao: ['Conferir a PI assinada', 'Emitir a NF com o número da PI', 'Juntar os prints de veiculação', 'Enviar o processo ao destinatário'],
+    manuais: [
+      { agencia: 'Agência Exemplo Dois', cliente: 'Governo do Estado', passos: ['Conferir a PI assinada e o período de veiculação', 'Emitir a NF com número da PI e da campanha na descrição', 'Prints com data e horário visíveis, um por inserção', 'Relatório de veiculação assinado', 'Enviar o processo à atendente da conta', 'Guardar o comprovante de entrega'] },
+      { agencia: 'Agência Exemplo Um', cliente: 'Assembleia Legislativa', passos: ['Conferir a PI', 'Emitir a NF', 'Anexar certidões e registro estadual atualizados', 'Enviar ao e-mail padrão da agência', 'Levar o processo impresso, se pedido'] }
+    ],
     // PI = pedido de inserção: a unidade de organização
     pis: [
-      { numero: '10234', orgao: 'Assembleia Legislativa', cliente: 'Agência Exemplo Um', para: 'financeiro@agencia-um.exemplo', data: d(-2),
+      { numero: '10234', orgao: 'Assembleia Legislativa', cliente: 'Agência Exemplo Um', data: d(-2),
         pasta: { nf: 'NFSe_0151.pdf', prints: ['print_veiculacao_1.jpg', 'print_veiculacao_2.jpg'] }, status: 'pronta' },
-      { numero: '10241', orgao: 'Prefeitura do Município B', cliente: 'Agência Exemplo Dois', para: 'contato@agencia-dois.exemplo', data: d(0),
+      { numero: '10241', orgao: 'Prefeitura do Município B', cliente: 'Agência Exemplo Um', data: d(0),
         pasta: { nf: null, prints: ['print_veiculacao_1.jpg'] }, status: 'pendente' },
-      { numero: '10198', orgao: 'Prefeitura da Capital', cliente: 'Agência Exemplo Um', para: 'financeiro@agencia-um.exemplo', data: d(-19),
+      { numero: '10198', orgao: 'Prefeitura da Capital', cliente: 'Agência Exemplo Um', data: d(-19),
         pasta: { nf: 'NFSe_0147.pdf', prints: ['print_1.jpg', 'print_2.jpg', 'print_3.jpg'] }, status: 'enviada' }
     ],
     pagar: [
