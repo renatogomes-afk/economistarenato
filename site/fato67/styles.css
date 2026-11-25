@@ -41,3 +41,31 @@ button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
 .muted{color:var(--muted)}
 .foot{text-align:center;color:var(--muted);font-size:12px;padding:24px}
 @media (max-width:600px){.top{padding:10px 16px;gap:8px}td,th{padding:8px 4px}.hide-sm{display:none}}
+/* v2: celular primeiro */
+nav .ico{display:none}
+.alerts{list-style:none;padding:0;margin:8px 0 0}.alerts li{padding:8px 0;border-bottom:1px solid var(--line)}.alerts li:last-child{border:0}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.btn{display:inline-block;text-decoration:none;padding:10px 16px;border-radius:10px;border:1px solid var(--line);color:var(--ink);white-space:nowrap}
+.btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+.picard{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px;text-decoration:none;color:inherit}
+.btns{display:flex;gap:8px;margin-top:10px}
+.form label{display:block;font-size:13px;color:var(--muted);margin-bottom:12px}
+.form input,.form select,textarea{display:block;width:100%;margin-top:4px;font:inherit;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+textarea{font-size:14px;font-family:ui-monospace,Menlo,monospace}
+a{color:var(--brand)}
+button,.btn{min-height:44px}
+@media (max-width:700px){
+  body{padding-bottom:72px;font-size:16px}
+  .top{justify-content:center}
+  nav{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);gap:0;padding:4px 0 calc(4px + env(safe-area-inset-bottom));z-index:10}
+  nav a{display:flex;flex-direction:column;align-items:center;font-size:11px;padding:6px 0;border-radius:0}
+  nav .ico{display:block;font-size:20px;line-height:1.2}
+  nav a.on{background:none}
+  main{padding:16px 12px}
+  .grid{grid-template-columns:1fr 1fr;gap:8px}
+  .kpi .value{font-size:19px}
+  .card{padding:14px}
+  .foot{display:none}
+  .head{flex-direction:column}
+}
+.form label.check{display:flex;gap:8px;align-items:center;color:var(--ink);font-size:14px}.form label.check input{width:auto;margin:0}
