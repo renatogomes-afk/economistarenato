@@ -15,9 +15,17 @@
       { nome: 'CRF do FGTS', validade: d(21) },
       { nome: 'CND Estadual', validade: d(-3) },
       { nome: 'CND Municipal', validade: d(40) },
-      { nome: 'CERCA Municipal', validade: d(5) },
-      { nome: 'CERCA Estadual', validade: d(88) },
-      { nome: 'CRC Município B', validade: d(-10) },
+      // Certificados de registro: validade própria + certidões internas com vencimento próprio
+      { nome: 'CERCA Municipal', validade: d(127), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão municipal', validade: d(-217) },
+        { nome: 'Certidão estadual', validade: d(-186) }, { nome: 'Falência e concordata', validade: d(-216) },
+        { nome: 'Federal e trabalhista', validade: d(298) }, { nome: 'Alvará', validade: d(36) }, { nome: 'Balanço', validade: d(552) } ] },
+      { nome: 'CERCA Estadual', validade: d(148), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão estadual', validade: d(-188) },
+        { nome: 'Falência e concordata', validade: d(-218) }, { nome: 'Federal e trabalhista', validade: d(297) }, { nome: 'Balanço', validade: d(552) } ] },
+      { nome: 'CRC Município B', validade: d(134), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão municipal', validade: d(-217) },
+        { nome: 'Federal e trabalhista', validade: d(298) }, { nome: 'Alvará', validade: d(36) } ] },
       { nome: 'Certidão de falência e concordata', validade: d(27) },
       { nome: 'Comprovante de inscrição no Simples', validade: null },
       { nome: 'Tabela comercial assinada', validade: null },

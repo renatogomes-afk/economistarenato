@@ -15,9 +15,19 @@
 
   // ---- certidões e regra órgão → documentos ----
   const cert = nome => D.certidoes.find(c => c.nome === nome);
+  function sitData(validade) {
+    if (!validade) return { cls: 'enviado', txt: 'ok' };
+    const n = diasAte(validade);
+    if (n < 0) return { cls: 'classificar', txt: `vencida há ${-n} d` };
+    if (n <= 15) return { cls: 'pendente', txt: `vence em ${n} d` };
+    return { cls: 'enviado', txt: `válida até ${dt(validade)}` };
+  }
+  const vencidasInternas = c => (c.internas || []).filter(i => diasAte(i.validade) < 0);
   function situacao(nome) {
     const c = cert(nome);
     if (!c) return { cls: 'classificar', txt: 'falta' };
+    const venc = vencidasInternas(c);
+    if (venc.length && (!c.validade || diasAte(c.validade) >= 0)) return { cls: 'classificar', txt: `${venc.length} internas vencidas` };
     if (!c.validade) return { cls: 'enviado', txt: 'ok' };
     const n = diasAte(c.validade);
     if (n < 0) return { cls: 'classificar', txt: `vencida há ${-n} d` };
@@ -79,6 +89,26 @@
     return out;
   }
 
+  // ---- pasta da PI: ZIP e PDF único ----
+  const arquivosPi = pi => exigidos(pi.orgao).map((n, i) => `${String(i + 1).padStart(2, '0')}_${n.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w]+/g, '_')}.pdf`)
+    .concat(pi.pasta.nf ? [pi.pasta.nf] : [], pi.pasta.prints.map(p => 'prints/' + p));
+  async function baixarZip(pi) {
+    if (!window.JSZip) { return; }
+    const zip = new JSZip(), pasta = zip.folder(`PI_${pi.numero}`);
+    pasta.file('00_email.txt', `Para: ${pi.para}\nAssunto: ${assunto(pi)}\n\n${corpo(pi)}\n`);
+    pasta.file('00_indice.txt', `PI ${pi.numero} · ${pi.orgao} · ${pi.cliente}\n\n` + arquivosPi(pi).map(f => `- ${f}`).join('\n') + '\n\nDemonstração: os arquivos reais entram aqui na versão final.\n');
+    const blob = await zip.generateAsync({ type: 'blob' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `PI_${pi.numero}.zip`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  }
+  function imprimir(pi) {
+    const docs = exigidos(pi.orgao);
+    const el = document.getElementById('print');
+    el.innerHTML = `<section class="pg"><h1>Processo · PI ${esc(pi.numero)}</h1><p>${esc(pi.orgao)}<br>${esc(pi.cliente)}<br>${dt(iso(today))}</p>
+      <h2>Índice</h2><ol>${docs.map(n => `<li>${esc(n)}</li>`).join('')}${pi.pasta.nf ? '<li>Nota fiscal</li>' : ''}<li>Comprovantes de veiculação (${pi.pasta.prints.length})</li></ol></section>
+      ${docs.map(n => `<section class="pg"><h2>${esc(n)}</h2><p class="muted">Na versão final, aqui entram as páginas do documento.</p></section>`).join('')}`;
+    window.print();
+  }
+
   const views = {
     painel() {
       const p7 = abertas().filter(p => p.venc <= addDays(7)).reduce((a, p) => a + p.valor, 0);
@@ -106,11 +136,13 @@
         const o = orgaoDe(pi.orgao);
         return `<p><a href="#pis">← PIs</a></p><h1>PI ${pi.numero}</h1><p class="sub">${esc(pi.orgao)} · ${esc(pi.cliente)}</p>
         <div class="card" style="margin-bottom:12px"><strong>${o && o.mapeado ? 'Documentos que este órgão exige' : 'Enviando tudo (exigências deste órgão ainda não mapeadas)'}</strong><ul class="alerts">
-          ${docs.map(n => `<li><span class="tag ${situacao(n).cls}">${situacao(n).txt}</span> ${esc(n)}</li>`).join('')}</ul></div>
+          ${docs.map(n => `<li><span class="tag ${situacao(n).cls}">${situacao(n).txt}</span> ${esc(n)}${cert(n) && vencidasInternas(cert(n)).length ? `<div class="muted">Atualizar e anexar: ${vencidasInternas(cert(n)).map(i => esc(i.nome)).join(', ')}</div>` : ''}</li>`).join('')}</ul></div>
         <div class="card" style="margin-bottom:12px"><strong>E-mail preparado</strong>
           <pre class="mail">Para: ${esc(pi.para)}\nAssunto: ${esc(assunto(pi))}\n\n${esc(corpo(pi))}\n\nAnexos: ${docs.map(esc).join('; ')}</pre>
           ${piPronta(pi) ? '' : '<p class="bad">Há documento vencido ou faltando. Atualize antes de enviar.</p>'}
           <div class="btns"><button class="primary" disabled title="Desativado na demonstração">Enviar</button><button disabled>Editar</button></div></div>
+        <div class="card" style="margin-bottom:12px"><strong>Baixar a pasta da PI</strong><p class="muted">Para enviar ou imprimir o processo, como algumas agências pedem.</p>
+          <div class="btns"><button class="primary" id="dl-zip" data-pi="${pi.numero}">Baixar ZIP</button><button id="dl-pdf" data-pi="${pi.numero}">PDF para imprimir</button></div></div>
         <div class="card"><strong>Pasta da PI</strong><ul class="alerts">
           <li>Nota fiscal: ${pi.pasta.nf ? esc(pi.pasta.nf) : '<span class="tag pendente">ainda não emitida</span>'}</li>
           <li>Prints de veiculação: ${pi.pasta.prints.map(esc).join(', ')}</li></ul></div>`;
@@ -142,7 +174,9 @@
     documentos() {
       return `<h1>Documentos</h1><p class="sub">Certidões e registros com controle de validade, e a regra de quais documentos cada órgão exige.</p>
       <div class="card" style="margin-bottom:12px"><strong>Certidões e registros</strong><table>
-        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td>${esc(c.nome)}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span></td></tr>`).join('')}</table></div>
+        ${[...D.certidoes].sort((a, b) => (a.validade || '9').localeCompare(b.validade || '9')).map(c => `<tr><td><strong>${esc(c.nome)}</strong>${c.internas ? `<div class="muted">certificado ${sitData(c.validade).txt}</div>` : ''}</td><td class="num"><span class="tag ${situacao(c.nome).cls}">${situacao(c.nome).txt}</span></td></tr>
+          ${(c.internas || []).map(i => `<tr class="sub-row"><td>↳ ${esc(i.nome)}</td><td class="num"><span class="tag ${sitData(i.validade).cls}">${sitData(i.validade).txt}</span></td></tr>`).join('')}`).join('')}</table>
+        <p class="muted">O certificado de registro tem validade própria, mas cada certidão listada nele vence antes. Certidão interna vencida precisa ir anexada atualizada junto com o certificado.</p></div>
       <div class="card"><strong>O que cada órgão exige</strong><p class="muted">Base: ${D.padrao.map(esc).join(', ')}. Órgão ainda não mapeado recebe todos os documentos, como hoje.</p><table>
         <thead><tr><th>Órgão</th><th>Registro</th><th class="hide-sm">Exige também</th><th>Regra</th></tr></thead>
         ${D.orgaos.map(o => `<tr><td>${esc(o.nome)}</td><td>${esc(o.registro)}</td><td class="hide-sm">${o.mapeado ? (o.extras.map(esc).join(', ') || '—') : '—'}</td><td><span class="tag ${o.mapeado ? 'enviado' : 'pendente'}">${o.mapeado ? 'mapeado' : 'envia tudo'}</span></td></tr>`).join('')}</table></div>`;
@@ -185,6 +219,9 @@ Abrir: economistarenato.com.br/fato67`;
       out.innerHTML = views.contas(); document.getElementById('wa').value = keep; bind('contas');
       document.getElementById('wa-out').innerHTML = `<p class="good">${novas.length} contas encontradas e adicionadas na lista.</p>`;
     });
+    const z = document.getElementById('dl-zip'), pd = document.getElementById('dl-pdf');
+    if (z) z.addEventListener('click', () => baixarZip(D.pis.find(p => p.numero === z.dataset.pi)));
+    if (pd) pd.addEventListener('click', () => imprimir(D.pis.find(p => p.numero === pd.dataset.pi)));
     const num = document.getElementById('f-num');
     if (num) {
       const upd = () => {

@@ -69,3 +69,6 @@ button,.btn{min-height:44px}
   .head{flex-direction:column}
 }
 .form label.check{display:flex;gap:8px;align-items:center;color:var(--ink);font-size:14px}.form label.check input{width:auto;margin:0}
+tr.sub-row td{padding-top:4px;padding-bottom:4px;font-size:13px;color:var(--muted)}
+#print{display:none}
+@media print{body>*:not(#print){display:none!important}#print{display:block;color:#000}#print .pg{page-break-after:always;padding:24px;font-family:Arial,sans-serif}#print h1{font-size:24px}}
