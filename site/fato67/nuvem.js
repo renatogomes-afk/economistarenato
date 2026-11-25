@@ -95,6 +95,13 @@
     },
     async anexosPi(id, anexos) { ok(await sb.from('pis').update({ anexos }).eq('id', id)); },
     async passosPi(id, n) { ok(await sb.from('pis').update({ passos_feitos: n }).eq('id', id)); },
+    // Exclui a PI, seus registros de arquivo e os arquivos guardados no Storage
+    async excluirPi(id) {
+      const arqs = ok(await sb.from('pi_arquivos').select('arquivo').eq('pi_id', id));
+      if (arqs.length) ok(await sb.storage.from('arquivos').remove(arqs.map(a => a.arquivo)));
+      ok(await sb.from('contas_receber').update({ pi_id: null }).eq('pi_id', id));
+      ok(await sb.from('pis').delete().eq('id', id));
+    },
     async statusPi(id, status) { ok(await sb.from('pis').update({ status }).eq('id', id)); },
     async arquivoPi(id, tipo, file) {
       const arquivo = await subir('pis', file);
