@@ -8,16 +8,25 @@ As estratégias continuam semanais. O boletim diário mostra como a semana em cu
   - as ordens no book que já foram acionadas na semana (regras de nível), que valem como operação feita;
   - o que as regras de fechamento (cruzamento, IFR, MACD e consensos) decidiriam se a semana fechasse naquele dia.
 
+Boletim de abertura: uma hora depois da abertura da bolsa de Nova York (10h30 em Nova York; 11h30 em Cuiabá no horário
+de inverno americano, 10h30 no de verão), grava scripts/bitcoin/diarios/abertura/AAAA-MM-DD.json com o dia até ali e o
+contexto de mercado. O boletim de fechamento registra esse retrato e conclui com as considerações do dia
+(scripts/bitcoin/mercado.py): as variáveis que mexeram com o mercado e as manchetes.
+
 Rodado à mão (workflow_dispatch), também grava scripts/bitcoin/diarios/parcial.json com o dia em curso até a hora
 da execução, marcado como parcial; o boletim fechado do dia substitui a prévia na página à noite.
 """
 import json, os, sys, datetime as dt
+from zoneinfo import ZoneInfo
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import backtest as bt  # noqa: E402
+import mercado  # noqa: E402
 
 PASTA = os.path.join(AQUI, "diarios")
+PASTA_AB = os.path.join(PASTA, "abertura")
+NY, CUIABA = ZoneInfo("America/New_York"), ZoneInfo("America/Cuiaba")
 
 
 def semanas_ate(dias, ate):
@@ -60,19 +69,55 @@ def boletim(dias, D, parcial=False):
             "estrategias": est}
 
 
+def hora_cuiaba(agora):
+    return agora.astimezone(CUIABA).strftime("%Hh%M")
+
+
+def resumo_abertura(A):
+    return {"hora_utc": A["gerado_em"], "hora_cuiaba": A["hora_cuiaba"], "btc_usd": A["btc_usd"]["fech"],
+            "alta": A["btc_usd"]["alta"], "baixa": A["btc_usd"]["baixa"], "votos": A["votos_agora"],
+            "acionadas": [x["nome"] for x in A["estrategias"] if x["book"] and x["mudou"]]}
+
+
+def fechamento(dias, D):
+    B = boletim(dias, D)
+    arq_ab = os.path.join(PASTA_AB, f"{D.isoformat()}.json")
+    if os.path.exists(arq_ab):
+        B["abertura"] = resumo_abertura(json.load(open(arq_ab, encoding="utf-8")))
+    B["mercado"] = mercado.contexto(D)
+    B["consideracoes"] = mercado.consideracoes(B)
+    return B
+
+
 def main():
     _, dias = bt.btc_semanal()
-    os.makedirs(PASTA, exist_ok=True)
-    hoje = dt.datetime.now(dt.timezone.utc).date()
+    os.makedirs(PASTA_AB, exist_ok=True)
+    agora = dt.datetime.now(dt.timezone.utc)
+    hoje = agora.date()
     D = hoje - dt.timedelta(days=1)  # último dia fechado (UTC)
     arq = os.path.join(PASTA, f"{D.isoformat()}.json")
     if D in dias and not os.path.exists(arq):
-        json.dump(boletim(dias, D), open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(fechamento(dias, D), open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("gravado", arq)
+    # abertura: de 1h a 4h depois da abertura de Nova York (9h30 locais), uma vez por dia
+    ny = agora.astimezone(NY)
+    alvo = ny.replace(hour=10, minute=30, second=0, microsecond=0)
+    arq_ab = os.path.join(PASTA_AB, f"{hoje.isoformat()}.json")
+    if (alvo <= ny <= alvo + dt.timedelta(hours=3) or os.environ.get("ABERTURA") == "1") and hoje in dias and not os.path.exists(arq_ab):
+        A = boletim(dias, hoje, parcial=True)
+        A["hora_cuiaba"] = hora_cuiaba(agora)
+        A["mercado"] = mercado.contexto(hoje)
+        json.dump(A, open(arq_ab, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("gravada a abertura de", hoje, A["mercado"].get("erros"))
     if os.environ.get("PARCIAL") == "1" and hoje in dias:
-        json.dump(boletim(dias, hoje, parcial=True), open(os.path.join(PASTA, "parcial.json"), "w", encoding="utf-8"),
-                  ensure_ascii=False, indent=1)
+        P = boletim(dias, hoje, parcial=True)
+        if os.path.exists(arq_ab):
+            P["abertura"] = resumo_abertura(json.load(open(arq_ab, encoding="utf-8")))
+        json.dump(P, open(os.path.join(PASTA, "parcial.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("gravada a prévia de", hoje)
+    if os.environ.get("TESTE_MERCADO") == "1":  # só confere as fontes, sem gravar
+        T = fechamento(dias, D)
+        print(json.dumps({k: T[k] for k in ("mercado", "consideracoes")}, ensure_ascii=False, indent=1))
     # a prévia some quando o dia dela já tem boletim fechado
     p = os.path.join(PASTA, "parcial.json")
     if os.path.exists(p) and os.path.exists(os.path.join(PASTA, json.load(open(p, encoding="utf-8"))["data"] + ".json")):
