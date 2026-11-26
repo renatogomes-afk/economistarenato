@@ -2191,6 +2191,7 @@ def pagina_bitcoin():
       <li><a href="historico/"><b>Histórico</b></a>: o teste desde 2016, ano a ano em reais e em dólares, a janela que você escolher e a otimização corrigida pelo risco.</li>
       <li><a href="diario/"><b>Boletim diário</b></a>: todo dia às 20h10 de Cuiabá, a semana andando: preço, ordens acionadas e o que as regras decidiriam se a semana fechasse ali.</li>
       <li><a href="boletim/"><b>Boletim semanal</b></a>: o registro de cada semana, gravado na segunda-feira e não alterado depois.</li>
+      <li><a href="prova-de-trabalho/"><b>Quem inventou a prova de trabalho?</b></a>: do selo antispam de 1992 ao bitcoin, e como o conceito chegou à economia.</li>
     </ul>
   </section>
 """
@@ -3015,8 +3016,101 @@ def gera_campo_grande():
 
 
 
+
+def pagina_prova_trabalho():
+    """Ensaio: a origem da prova de trabalho e a passagem do conceito da computação para a economia (26/11/2026)."""
+    rel = "../../"
+    linha = [
+        ("1992", "Cynthia Dwork e Moni Naor apresentam no CRYPTO '92 a ideia de cobrar acesso com processamento: \"Pricing via Processing\", contra o lixo eletrônico."),
+        ("1997", "Adam Back anuncia o Hashcash na lista dos cypherpunks: um \"selo\" de e-mail pago com ciclos de computador e conferido por qualquer um, sem autoridade central."),
+        ("1998", "Wei Dai descreve o b-money: dinheiro criado por quem resolve um problema computacional, em quantidade igual ao custo do cálculo."),
+        ("1999", "Markus Jakobsson e Ari Juels dão nome e definição formal ao conceito: \"proof of work\"."),
+        ("2004", "Hal Finney põe no ar o RPOW, provas de trabalho reutilizáveis como fichas digitais. Ben Laurie e Richard Clayton mostram, com números, por que a prova de trabalho não resolve o spam."),
+        ("2005", "Nick Szabo publica a proposta do bit gold: escassez digital pelo custo de criação, como nos metais preciosos."),
+        ("2008", "Satoshi Nakamoto usa a prova de trabalho \"semelhante ao Hashcash de Adam Back\" para registrar as transações do bitcoin e emitir moeda nova."),
+        ("2015–2021", "A economia acadêmica assume o tema: Böhme, Christin, Edelman e Moore (2015), Budish (2018) e Huberman, Leshno e Moallemi (2021)."),
+    ]
+    lt = "\n".join(f"      <li><b>{a}</b> · {e(t)}</li>" for a, t in linha)
+    fontes = [
+        ("Dwork, C. e Naor, M. (1992). Pricing via Processing or Combatting Junk Mail. CRYPTO '92, LNCS 740, p. 139–147.", "https://www.microsoft.com/en-us/research/publication/pricing-via-processing-or-combatting-junk-mail/"),
+        ("Back, A. (28/3/1997). [ANNOUNCE] hash cash postage implementation. Lista cypherpunks.", "https://datwww.mit.edu/bloom-picayune/crypto/453"),
+        ("Back, A. (2002). Hashcash – A Denial of Service Counter-Measure.", "http://www.hashcash.org/papers/hashcash.pdf"),
+        ("Dai, W. (1998). b-money.", "http://www.weidai.com/bmoney.txt"),
+        ("Jakobsson, M. e Juels, A. (1999). Proofs of Work and Bread Pudding Protocols. Communications and Multimedia Security (CMS '99).", "https://www.arijuels.com/wp-content/uploads/2013/09/JJ99.pdf"),
+        ("Finney, H. (2004). RPOW – Reusable Proofs of Work.", "https://nakamotoinstitute.org/finney/rpow/"),
+        ("Laurie, B. e Clayton, R. (2004). \"Proof-of-Work\" Proves Not to Work. Workshop on the Economics of Information Security.", "https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf"),
+        ("Szabo, N. (29/12/2005). Bit Gold.", "https://nakamotoinstitute.org/library/bit-gold/"),
+        ("Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.", "https://bitcoin.org/bitcoin.pdf"),
+        ("Böhme, R., Christin, N., Edelman, B. e Moore, T. (2015). Bitcoin: Economics, Technology, and Governance. Journal of Economic Perspectives 29(2).", "https://www.aeaweb.org/articles?id=10.1257/jep.29.2.213"),
+        ("Budish, E. (2018). The Economic Limits of Bitcoin and the Blockchain. NBER Working Paper 24717.", "https://www.nber.org/papers/w24717"),
+        ("Huberman, G., Leshno, J. e Moallemi, C. (2021). Monopoly without a Monopolist: An Economic Analysis of the Bitcoin Payment System. Review of Economic Studies 88(6).", "https://doi.org/10.1093/restud/rdab014"),
+    ]
+    fl = "\n".join(f'      <li>{e(t)} <a href="{u}" rel="noopener">Ver o original</a>.</li>' for t, u in fontes)
+    corpo = f"""
+<main class="env pagina-min">
+{sub_btc("prova-de-trabalho/", "../")}  <section class="heroi heroi-interno">
+    <p class="heroi-quem">Bitcoin · história de um conceito</p>
+    <h1>Quem inventou a prova de trabalho?</h1>
+    <p class="heroi-olho">Antes de sustentar o bitcoin, a prova de trabalho foi inventada para combater o lixo eletrônico. A ideia nasceu na criptografia, ganhou nome em 1999 e só chegou à economia por um caminho indireto: primeiro como preço, depois como dinheiro, por fim como problema de incentivos.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Como a ideia começou?</h2>
+    <p>Agosto de 1992, conferência CRYPTO, em Santa Barbara, na Califórnia. Cynthia Dwork e Moni Naor apresentam um artigo de nove páginas com um título que já soa a economia: <i>Pricing via Processing or Combatting Junk Mail</i>, algo como "precificar pelo processamento, ou como combater o lixo eletrônico". A proposta cabe numa frase: "exigir que o usuário compute uma função moderadamente difícil, mas não intratável, para ter acesso ao recurso" (<i>to require a user to compute a moderately hard, but not intractable, function in order to gain access to the resource</i>).</p>
+    <p>O raciocínio é de preço, não de proibição. Para quem manda um e-mail, alguns segundos de processamento não custam nada; para quem manda um milhão, o custo se multiplica. A função difícil faz o papel de um selo postal pago em tempo de máquina. Os autores chamaram essas funções de <i>pricing functions</i>, funções de preço, e previram um atalho: uma autoridade central com uma chave secreta poderia gerar os "selos" sem esforço.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Quem deu o nome de "prova de trabalho"?</h2>
+    <p>O nome veio sete anos depois. Em 1999, Markus Jakobsson e Ari Juels publicaram <i>Proofs of Work and Bread Pudding Protocols</i> e escreveram: "formalizamos a noção de prova de trabalho" (<i>we formalize the notion of a proof of work</i>). A definição deles é a que se usa até hoje: um protocolo em que quem prova "demonstra a quem verifica que despendeu certo nível de esforço computacional num intervalo de tempo" (<i>a prover demonstrates to a verifier that she has expended a certain level of computational effort in a specified interval of time</i>). Eles creditam a Dwork e Naor a ideia original de usar quebra-cabeças para "atribuir um custo computacional" aos pedidos de acesso.</p>
+    <p>O "pudim de pão" do título é uma metáfora de reaproveitamento: o pudim é feito com pão amanhecido, e o protocolo de pudim de pão é uma prova de trabalho cujo esforço pode ser "colhido" para outra tarefa útil. A preocupação com o desperdício de energia, que hoje domina o debate sobre o bitcoin, já estava no artigo que batizou o conceito.</p>
+  </section>
+  <section class="para-quem">
+    <h2>O que o Hashcash trouxe de novo?</h2>
+    <p>Entre um artigo e outro, a ideia saiu do papel. Em 28 de março de 1997, Adam Back anunciou na lista de e-mails dos cypherpunks o Hashcash, "um esquema de selo postal baseado em colisão parcial de hash" (<i>a partial hash collision based postage scheme</i>). A mecânica é simples: o remetente procura, por tentativa e erro, um número que, combinado com o endereço e a data, produza um resumo criptográfico (<i>hash</i>) começando com certa quantidade de zeros. Achar exige milhões de tentativas; conferir exige uma só.</p>
+    <p>A diferença em relação a Dwork e Naor é institucional: no Hashcash não há autoridade central nem atalho secreto. Qualquer um verifica, ninguém emite selos de graça. Back resumiu assim: "o Hashcash é de graça, basta queimar alguns ciclos do seu PC" (<i>Hashcash is free, all you've got to do is burn some cycles on your PC</i>). A descrição formal saiu em 2002, no artigo <i>Hashcash – A Denial of Service Counter-Measure</i>.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Como um selo antispam virou dinheiro?</h2>
+    <p>A passagem para a economia monetária foi feita por programadores que pensavam como economistas. Em 1998, Wei Dai propôs o b-money, em que "qualquer um pode criar dinheiro divulgando a solução de um problema computacional ainda não resolvido" (<i>anyone can create money by broadcasting the solution to a previously unsolved computational problem</i>). A regra de emissão é uma teoria do valor em uma linha: "o número de unidades monetárias criadas é igual ao custo do esforço computacional", medido "em termos de uma cesta-padrão de mercadorias" (<i>in terms of a standard basket of commodities</i>).</p>
+    <p>Em 2004, Hal Finney pôs no ar o RPOW, provas de trabalho reutilizáveis: fichas do tipo Hashcash que podiam passar de mão em mão, com a propriedade registrada num servidor. Em dezembro de 2005, Nick Szabo publicou a proposta do bit gold e explicitou a analogia com o ouro: "metais preciosos e colecionáveis têm uma escassez impossível de falsificar por causa do custo de criá-los" (<i>precious metals and collectibles have an unforgeable scarcity due to the costliness of their creation</i>). No bit gold, "a sequência de bits resultante é a prova de trabalho" (<i>the resulting string of bits is the proof of work</i>).</p>
+    <p>Em 2008, Satoshi Nakamoto juntou as peças. A seção 4 do artigo do bitcoin abre dizendo que será preciso "um sistema de prova de trabalho semelhante ao Hashcash de Adam Back", e o b-money de Wei Dai é a primeira referência da bibliografia. O salto conceitual está em outra frase: "a prova de trabalho é essencialmente um processador, um voto" (<i>proof-of-work is essentially one-CPU-one-vote</i>). A prova deixou de ser preço de acesso e virou mecanismo de decisão coletiva: quem acumula mais trabalho escreve o histórico. E Nakamoto usou a imagem dos economistas clássicos para a emissão: a entrada constante de moedas novas é "análoga a garimpeiros de ouro gastando recursos para pôr ouro em circulação".</p>
+  </section>
+  <section class="para-quem">
+    <h2>Por que não funcionou contra o spam?</h2>
+    <p>A primeira análise econômica séria da prova de trabalho foi um resultado negativo. Em 2004, Ben Laurie e Richard Clayton, este da Universidade de Cambridge, apresentaram no Workshop on the Economics of Information Security o artigo <i>"Proof-of-Work" Proves Not to Work</i>. Com dados de um grande provedor, calcularam quanto trabalho seria preciso cobrar por mensagem para tornar o spam antieconômico, sobretudo quando os spammers usam computadores de terceiros, sem custo para eles. A resposta: tanto que muitos remetentes legítimos não conseguiriam mais mandar seus e-mails. A conclusão: "a prova de trabalho não será uma solução para o problema do spam" (<i>proof-of-work will not be a solution to the problem of spam</i>).</p>
+    <p>É uma lição de incidência: o custo recai igual sobre quem tem e quem não tem recursos baratos, e quem frauda costuma ter os mais baratos.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Quando os economistas entraram na conversa?</h2>
+    <p>Depois do bitcoin, a prova de trabalho virou objeto de economia aplicada. Em 2015, o <i>Journal of Economic Perspectives</i>, da American Economic Association, publicou um panorama de Rainer Böhme, Nicolas Christin, Benjamin Edelman e Tyler Moore sobre a economia, a tecnologia e a governança do bitcoin. Em 2018, Eric Budish, da Universidade de Chicago, formalizou o limite econômico do sistema num texto para discussão do NBER: os pagamentos recorrentes aos mineradores, um "fluxo", precisam ser grandes em relação ao benefício único de atacar a rede, um "estoque" (<i>the recurring, "flow", payments to miners for running the blockchain must be large relative to the one-off, "stock", benefits of attacking it</i>). Em 2021, Gur Huberman, Jacob Leshno e Ciamac Moallemi publicaram na <i>Review of Economic Studies</i> a análise do bitcoin como um sistema de pagamentos com características de monopólio, mas sem um monopolista.</p>
+    <p>O percurso fecha um círculo. Dwork e Naor usaram a linguagem do preço para resolver um problema de computação; trinta anos depois, os economistas usam a linguagem da computação para discutir um problema de preço: quanto custa manter um registro confiável sem uma autoridade central.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Linha do tempo</h2>
+    <ul class="lista-min">
+{lt}
+    </ul>
+  </section>
+  <section class="para-quem">
+    <h2>Na minha leitura</h2>
+    <p>A prova de trabalho é a versão digital de uma ideia velha da teoria monetária: a moeda-mercadoria vale, em parte, porque custa produzir. O b-money de Wei Dai, com unidades iguais ao custo em uma cesta de mercadorias, lembra os debates sobre padrão monetário que estão no <a href="{rel}arquivo/">Arquivo</a>, do dólar de poder de compra constante à questão da prata. O garimpeiro de Nakamoto é o mesmo personagem desses debates, agora com processadores no lugar de bateias.</p>
+    <p>O que a economia acrescentou foi a conta. Budish mostra que a segurança do bitcoin é um custo recorrente, pago com emissão e taxas, e não um ativo construído uma vez. É a mesma pergunta que se fazia sobre o ouro: quanto da riqueza de uma sociedade vale a pena gastar para que o dinheiro seja difícil de falsificar.</p>
+  </section>
+  <section class="para-quem">
+    <h2>Fontes</h2>
+    <ol class="lista-min">
+{fl}
+    </ol>
+    <p class="nota-min">Citações traduzidas por mim, com o original entre parênteses. Publicado em 26/11/2026.</p>
+  </section>
+  {AVISO_BTC}
+</main>
+"""
+    escreve("bitcoin/prova-de-trabalho", cabeca("Quem inventou a prova de trabalho? — Renato W. Gomes, economista",
+            "Do selo antispam de Dwork e Naor (1992) ao bitcoin: quem criou a prova de trabalho, quem lhe deu o nome e como o conceito chegou à economia.",
+            "bitcoin/prova-de-trabalho/", rel, "article") + topo("bitcoin/", rel) + corpo + rodape(rel))
+
 def sitemap():
-    urls = ["", "tech/", "bitcoin/", "bitcoin/estrategias/", "bitcoin/historico/", "bitcoin/boletim/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
+    urls = ["", "tech/", "bitcoin/", "bitcoin/estrategias/", "bitcoin/historico/", "bitcoin/boletim/", "bitcoin/diario/", "bitcoin/prova-de-trabalho/", "historia/", "economia/", "ms/", "arquivo/", "sobre/"] + [f"arquivo/{c['id']}/" for c in COLECOES] + [f"arquivo/eua/{s_['slug']}/" for s_ in SERIES_AEA] + ["ensaios/"] + [f"arquivo/{ed['slug']}/" for ed in DADOS["edicoes"]] + [f"arquivo/{ed['slug']}/{c['slug']}/" for ed in DADOS["edicoes"] for c in ed.get("comentarios", [])]
     if LIVROS:
         urls += ["leituras/"]
         for L in LIVROS:
@@ -3035,7 +3129,7 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_bitcoin(); pagina_historia(); pagina_economia(); pagina_ms(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
+    pagina_inicio(); pagina_arquivo(); [pagina_colecao(c) for c in COLECOES]; pagina_ensaios(); pagina_analises(); pagina_tech(); pagina_bitcoin(); pagina_prova_trabalho(); pagina_historia(); pagina_economia(); pagina_ms(); redireciona("servicos", "tech/"); pagina_sobre(); pagina_obrigado()
     if NOTAS:
         pagina_notas()
         for n in NOTAS: pagina_nota(n)
