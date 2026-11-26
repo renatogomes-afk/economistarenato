@@ -1,16 +1,16 @@
 {
  "data": "2026-11-25",
- "parcial": true,
- "gerado_em": "2026-11-25 03:26 UTC",
+ "parcial": false,
+ "gerado_em": "2026-11-26 08:18 UTC",
  "domingo": "2026-11-22",
  "btc_usd": {
-  "fech": 59423.48,
-  "alta": 59749.17,
-  "baixa": 58852.86,
+  "fech": 60383.51,
+  "alta": 60487.0,
+  "baixa": 57208.17,
   "ontem": 59740.87,
   "domingo": 61163.01,
   "alta_semana": 64533.96,
-  "baixa_semana": 58852.86
+  "baixa_semana": 57208.17
  },
  "votos_domingo": 3,
  "votos_agora": 3,

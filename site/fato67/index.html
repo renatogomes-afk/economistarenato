@@ -5,26 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FATO67 · Plataforma financeira</title>
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#1f4e79">
+<meta name="theme-color" content="#000000">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="marca/icone-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="marca/icone-270.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500;700&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="demo-banner">Versão preliminar com dados de demonstração. Nenhum dado real do cliente.</div>
+<div class="demo-banner" id="banner">Demonstração com dados fictícios. Entre com sua conta para ver os dados reais.</div>
 <header class="top">
-  <div class="brand"><img src="icon.svg" alt="" width="28" height="28"><span>FATO67</span></div>
+  <div class="brand"><img src="marca/logo-branco.png" alt="FATO67" width="128" height="30"><span>Plataforma</span></div>
+  <select id="empresa" hidden aria-label="Empresa"></select>
+  <button class="google" id="login">Entrar</button>
   <nav id="nav">
-    <a href="#painel">Painel</a>
-    <a href="#pagar">Contas a pagar</a>
-    <a href="#documentos">Documentos</a>
-    <a href="#emails">E-mails</a>
-    <a href="#resumo">Resumo diário</a>
+    <a href="#rotinas"><span class="ico">☑</span>Rotinas</a>
+    <a href="#painel"><span class="ico">◧</span>Painel</a>
+    <a href="#pis"><span class="ico">✉</span>Envios</a>
+    <a href="#contas"><span class="ico">₢</span>Contas</a>
+    <a href="#arquivo"><span class="ico">▤</span>Arquivo</a>
+    <a href="#cadastros"><span class="ico">☰</span>Cadastros</a>
   </nav>
 </header>
 <main id="app"></main>
 <footer class="foot">Plataforma em desenvolvimento · piloto FATO67</footer>
+<div id="print"></div>
+<div id="toast" class="toast" hidden role="status"></div>
+<script src="vendor/jszip.min.js"></script>
+<script src="vendor/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="extrato.js"></script>
+<script src="reconhece.js"></script>
+<script src="nuvem.js"></script>
 <script src="data.js"></script>
 <script src="app.js"></script>
 </body>

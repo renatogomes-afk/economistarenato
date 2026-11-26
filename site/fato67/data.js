@@ -1,41 +1,99 @@
-// Dados de demonstração. Nenhum dado real da FATO67.
+// Dados de demonstração. Nenhum dado real da FATO67, de clientes ou de órgãos.
 (function () {
+  const mes = n => { const x = new Date(); x.setDate(1); x.setMonth(x.getMonth() + n); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-01`; };
+  const br = s => s.split('-').reverse().join('/');
   const d = n => { const x = new Date(); x.setHours(0,0,0,0); x.setDate(x.getDate() + n); return x.toISOString().slice(0,10); };
   window.DEMO = {
     saldos: [
-      { conta: 'C6 Bank PJ (FATO67)', saldo: 48320.55 },
-      { conta: 'Banco do Brasil PF (opcional)', saldo: 6210.00 }
+      { conta: 'C6 Bank PJ', tipo: 'PJ', saldo: 48320.55 },
+      { conta: 'C6 Bank PF', tipo: 'PF', saldo: 3120.10 },
+      { conta: 'Mercado Pago PF', tipo: 'PF', saldo: 1875.40 },
+      { conta: 'Banco do Brasil PF', tipo: 'PF', saldo: 6210.00 }
     ],
-    clientes: [
-      { id: 'alfa', nome: 'Construtora Alfa', servicos: ['Consultoria mensal', 'Projeto de reforma'] },
-      { id: 'beta', nome: 'Clínica Beta', servicos: ['Manutenção de sistemas'] },
-      { id: 'gama', nome: 'Comércio Gama', servicos: ['Consultoria mensal', 'Treinamento'] }
+    // Certidões e documentos da empresa, reaproveitados em todas as PIs
+    certidoes: [
+      { nome: 'CND Federal (Receita e PGFN)', validade: d(62), historico: [{ nome: 'CND Federal (Receita e PGFN)', validade: d(-5), competencia: mes(-2) }] },
+      { nome: 'CND Trabalhista (TST)', validade: d(9), historico: [{ nome: 'CND Trabalhista (TST)', validade: d(-20), competencia: mes(-1) }, { nome: 'CND Trabalhista (TST)', validade: d(-50), competencia: mes(-2) }] },
+      { nome: 'CRF do FGTS', validade: d(21) },
+      { nome: 'CND Estadual', validade: d(-3) },
+      { nome: 'CND Municipal', validade: d(40) },
+      // Certificados de registro: validade própria + certidões internas com vencimento próprio
+      { nome: 'CERCA Municipal', validade: d(127), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão municipal', validade: d(-217) },
+        { nome: 'Certidão estadual', validade: d(-186) }, { nome: 'Falência e concordata', validade: d(-216) },
+        { nome: 'Federal e trabalhista', validade: d(298) }, { nome: 'Alvará', validade: d(36) }, { nome: 'Balanço', validade: d(552) } ] },
+      { nome: 'CERCA Estadual', validade: d(148), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão estadual', validade: d(-188) },
+        { nome: 'Falência e concordata', validade: d(-218) }, { nome: 'Federal e trabalhista', validade: d(297) }, { nome: 'Balanço', validade: d(552) } ] },
+      { nome: 'CRC Município B', validade: d(134), internas: [
+        { nome: 'CRF do FGTS', validade: d(-212) }, { nome: 'Certidão municipal', validade: d(-217) },
+        { nome: 'Federal e trabalhista', validade: d(298) }, { nome: 'Alvará', validade: d(36) } ] },
+      { nome: 'Certidão de falência e concordata', validade: d(27) },
+      { nome: 'Comprovante de inscrição no Simples', validade: null },
+      { nome: 'Tabela comercial assinada', validade: null },
+      { nome: 'Declaração de profissionais habilitados', validade: null }
+    ],
+    // Regra órgão → documentos exigidos (o certificado de registro muda por órgão)
+    padrao: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados'],
+    orgaos: [
+      // mapeado: false = ainda não sabemos o que o órgão exige, então vai tudo (como o Roger faz hoje)
+      { nome: 'Prefeitura da Capital', registro: 'CERCA Municipal', extras: [], mapeado: false },
+      { nome: 'Câmara Municipal da Capital', registro: 'CERCA Municipal', extras: [], mapeado: false },
+      { nome: 'Governo do Estado', registro: 'CERCA Estadual', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados', 'Certidão de falência e concordata', 'Comprovante de inscrição no Simples'], mapeado: true },
+      { nome: 'Tribunal de Contas do Estado', registro: 'CERCA Estadual', extras: [], mapeado: false },
+      { nome: 'Assembleia Legislativa', registro: 'CERCA Estadual', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados'], mapeado: true },
+      { nome: 'Prefeitura do Município B', registro: 'CRC Município B', extras: ['CND Trabalhista (TST)', 'Tabela comercial assinada', 'Declaração de profissionais habilitados', 'Certidão de falência e concordata'], mapeado: true }
+    ],
+    // Agência → e-mail padrão e atendentes por cliente (órgão ou município)
+    agencias: [
+      { nome: 'Agência Exemplo Um', padrao: 'midia@agencia-um.exemplo', atendentes: [
+        { cliente: 'Prefeitura do Município B', nome: 'Ana', email: 'ana@agencia-um.exemplo' },
+        { cliente: 'Prefeitura da Capital', nome: 'Bruno', email: 'bruno@agencia-um.exemplo' } ] },
+      { nome: 'Agência Exemplo Dois', padrao: 'processos@agencia-dois.exemplo', atendentes: [
+        { cliente: 'Governo do Estado', nome: 'Carla', email: 'carla@agencia-dois.exemplo' } ] },
+      { nome: 'Agência Exemplo Três', padrao: 'financeiro@agencia-tres.exemplo', atendentes: [] }
+    ],
+    // Passos por combinação agência + cliente (vêm dos manuais em PDF do Roger)
+    passosPadrao: ['Conferir a PI assinada', 'Emitir a NF com o número da PI', 'Juntar os prints de veiculação', 'Enviar o processo ao destinatário'],
+    manuais: [
+      { agencia: 'Agência Exemplo Dois', cliente: 'Governo do Estado', passos: ['Conferir a PI assinada e o período de veiculação', 'Emitir a NF com número da PI e da campanha na descrição', 'Prints com data e horário visíveis, um por inserção', 'Relatório de veiculação assinado', 'Enviar o processo à atendente da conta', 'Guardar o comprovante de entrega'] },
+      { agencia: 'Agência Exemplo Um', cliente: 'Assembleia Legislativa', passos: ['Conferir a PI', 'Emitir a NF', 'Anexar certidões e registro estadual atualizados', 'Enviar ao e-mail padrão da agência', 'Levar o processo impresso, se pedido'] }
+    ],
+    // PI = pedido de inserção: a unidade de organização
+    pis: [
+      { numero: '10234', orgao: 'Assembleia Legislativa', cliente: 'Agência Exemplo Um', data: d(-2),
+        pasta: { nf: 'NFSe_0151.pdf', prints: ['print_veiculacao_1.jpg', 'print_veiculacao_2.jpg'] }, status: 'pronta' },
+      { numero: '10241', orgao: 'Prefeitura do Município B', cliente: 'Agência Exemplo Um', data: d(0),
+        pasta: { nf: null, prints: ['print_veiculacao_1.jpg'] }, status: 'pendente' },
+      { numero: '10198', orgao: 'Prefeitura da Capital', cliente: 'Agência Exemplo Um', data: d(-19),
+        pasta: { nf: 'NFSe_0147.pdf', prints: ['print_1.jpg', 'print_2.jpg', 'print_3.jpg'] }, status: 'enviada' }
     ],
     pagar: [
-      { id: 1, desc: 'DAS Simples Nacional', fornecedor: 'Escritório de contabilidade', categoria: 'Impostos', venc: d(3), valor: 3870.40, origem: 'Guia recebida por e-mail', status: 'pendente' },
-      { id: 2, desc: 'Honorários contábeis', fornecedor: 'Escritório de contabilidade', categoria: 'Honorários', venc: d(5), valor: 1450.00, origem: 'Boleto recebido por e-mail', status: 'pendente' },
-      { id: 3, desc: 'Licença de software', fornecedor: 'Fornecedor de software', categoria: 'Fornecedores', venc: d(1), valor: 689.90, origem: 'Boleto recebido por e-mail', status: 'pendente' },
-      { id: 4, desc: 'Aluguel do escritório', fornecedor: 'Imobiliária', categoria: 'Despesas fixas', venc: d(8), valor: 4200.00, origem: 'Lançamento recorrente', status: 'pendente' },
-      { id: 5, desc: 'Internet e telefone', fornecedor: 'Operadora', categoria: 'Despesas fixas', venc: d(12), valor: 329.90, origem: 'Boleto recebido por e-mail', status: 'pendente' },
-      { id: 6, desc: 'Pró-labore', fornecedor: 'Roger', categoria: 'Pessoal', venc: d(15), valor: 6000.00, origem: 'Lançamento recorrente', status: 'pendente' },
-      { id: 7, desc: 'Material de escritório', fornecedor: 'Papelaria', categoria: 'Fornecedores', venc: d(-2), valor: 214.30, origem: 'Print enviado (a classificar)', status: 'pago' }
+      { desc: 'DAS Simples Nacional', fornecedor: 'Escritório de contabilidade', categoria: 'Impostos', venc: d(3), valor: 3870.40, origem: 'Guia por e-mail', status: 'pendente' },
+      { desc: 'Honorários contábeis', fornecedor: 'Escritório de contabilidade', categoria: 'Honorários', venc: d(5), valor: 1450.00, origem: 'Boleto por e-mail', status: 'pendente' },
+      { desc: 'Licença de software', fornecedor: 'Fornecedor de software', categoria: 'Fornecedores', venc: d(1), valor: 689.90, origem: 'Boleto por e-mail', status: 'pendente' },
+      { desc: 'Aluguel', fornecedor: 'Imobiliária', categoria: 'Despesas fixas', venc: d(8), valor: 4200.00, origem: 'Grupo do WhatsApp', status: 'pendente' },
+      { desc: 'Internet e telefone', fornecedor: 'Operadora', categoria: 'Despesas fixas', venc: d(12), valor: 329.90, origem: 'Grupo do WhatsApp', status: 'pendente' },
+      { desc: 'Pró-labore', fornecedor: 'Roger', categoria: 'Pessoal', venc: d(15), valor: 6000.00, origem: 'Recorrente', status: 'pendente' }
     ],
     receber: [
-      { cliente: 'alfa', servico: 'Consultoria mensal', venc: d(4), valor: 9500.00 },
-      { cliente: 'beta', servico: 'Manutenção de sistemas', venc: d(10), valor: 6800.00 },
-      { cliente: 'gama', servico: 'Treinamento', venc: d(18), valor: 4200.00 },
-      { cliente: 'alfa', servico: 'Projeto de reforma', venc: d(25), valor: 15000.00 }
+      { cliente: 'Agência Exemplo Um', ref: 'PI 10234', venc: d(4), valor: 9500.00 },
+      { cliente: 'Agência Exemplo Dois', ref: 'PI 10241', venc: d(20), valor: 6800.00 },
+      { cliente: 'Agência Exemplo Um', ref: 'PI 10198', venc: d(10), valor: 15000.00 }
     ],
-    documentos: [
-      { tipo: 'NFS-e emitida', cliente: 'alfa', servico: 'Consultoria mensal', data: d(-3), arquivo: 'NFSe_0142_Alfa.pdf', status: 'enviado', regra: 'Emitida pela plataforma' },
-      { tipo: 'Relatório de serviço', cliente: 'alfa', servico: 'Consultoria mensal', data: d(-3), arquivo: 'Relatorio_out_Alfa.pdf', status: 'enviado', regra: 'Upload manual' },
-      { tipo: 'Orçamento de fornecedor', cliente: 'alfa', servico: 'Projeto de reforma', data: d(-1), arquivo: 'Orcamento_materiais.pdf', status: 'pendente', regra: 'Remetente: fornecedor de materiais' },
-      { tipo: 'NFS-e emitida', cliente: 'beta', servico: 'Manutenção de sistemas', data: d(-6), arquivo: 'NFSe_0141_Beta.pdf', status: 'enviado', regra: 'Emitida pela plataforma' },
-      { tipo: 'Nota do fornecedor', cliente: 'beta', servico: 'Manutenção de sistemas', data: d(0), arquivo: 'NF_peca_reposicao.pdf', status: 'pendente', regra: 'Remetente: distribuidora de peças' },
-      { tipo: 'Contrato', cliente: 'gama', servico: 'Treinamento', data: d(-20), arquivo: 'Contrato_treinamento_Gama.pdf', status: 'enviado', regra: 'Upload manual' },
-      { tipo: 'Guia DAS', cliente: null, servico: null, data: d(-1), arquivo: 'DAS_competencia.pdf', status: 'pendente', regra: 'Remetente: escritório · layout DAS' },
-      { tipo: 'Boleto de honorários', cliente: null, servico: null, data: d(-1), arquivo: 'Boleto_honorarios.pdf', status: 'pendente', regra: 'Remetente: escritório · linha digitável' },
-      { tipo: 'Imagem sem padrão', cliente: null, servico: null, data: d(0), arquivo: 'IMG_2231.jpg', status: 'classificar', regra: 'Nenhuma regra reconheceu' }
-    ]
+    // Caixa de entrada (demonstração): o que chegou por e-mail; a plataforma lê o PDF e sugere o destino
+    entrada: [
+      { nome: 'certidao_trabalhista.pdf', de: 'naoresponda@tst.exemplo', origem: 'email', recebido: d(0), caminho: 'demo',
+        texto: `CERTIDÃO NEGATIVA DE DÉBITOS TRABALHISTAS\nValidade: ${br(d(180))}` },
+      { nome: 'boleto_honorarios.pdf', de: 'Cobrança WG <cobranca@wg.exemplo>', assunto: 'Honorários contábeis', origem: 'email', recebido: d(0), caminho: 'demo',
+        texto: `Honorários contábeis\nVencimento ${br(d(10))}\nValor do documento R$ 1.450,00` },
+      { nome: 'DAS_competencia.pdf', de: 'contabilidade@escritorio.exemplo', origem: 'email', recebido: d(-1), caminho: 'demo',
+        texto: `Documento de Arrecadação do Simples Nacional\nPagar este documento até ${br(d(20))}\nValor Total do Documento 3.870,40` }
+    ],
+    regras: [],
+    whatsappExemplo: `25/11/2026 08:14 - Roger: pagar contador 1.450,00 dia 30
+25/11/2026 08:20 - Roger: luz escritório R$ 312,40 venc 05/12
+25/11/2026 09:02 - Roger: lembrar de ligar pra agência
+26/11/2026 07:45 - Roger: aluguel 4200 dia 10`
   };
 })();
