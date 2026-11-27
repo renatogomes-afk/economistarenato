@@ -1624,8 +1624,8 @@ var box=document.getElementById('jan-box');if(!box)return;
 var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
 var moeda='brl';
 // Cada moeda tem a sua carteira: em R$, BTC em reais e caixa no CDI; em US$, BTC em dólares e caixa no Fed Funds.
-function serie(){return moeda==='usd'&&V.valores_usd?V.valores_usd:V.valores_brl}
-function caixa(){return moeda==='usd'&&V.valores_usd?'Só Fed Funds':'Só CDI'}
+function serie(){return moeda==='usd'?V.valores_usd:V.valores_brl}
+function caixa(){return moeda==='usd'?'Só Fed Funds':'Só CDI'}
 function rotCaixa(){return caixa()==='Só CDI'?'CDI':'Fed Funds'}
 var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
@@ -1658,13 +1658,16 @@ fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
  [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button[data-anos]').forEach(function(y){y.classList.remove('ativo')});calcula()})});
  box.querySelectorAll('.jan-moeda button').forEach(function(x){x.addEventListener('click',function(){moeda=x.dataset.moeda;
   box.querySelectorAll('.jan-moeda button').forEach(function(y){y.classList.toggle('ativo',y===x)});calcula()})});
+ // sem a carteira em dólares (arquivo antigo), o botão US$ some em vez de mostrar reais com o rótulo errado
+ if(!V.valores_usd)box.querySelectorAll('.jan-moeda button[data-moeda=usd]').forEach(function(x){x.hidden=true});
  box.hidden=false;atalho(5)}).catch(function(){});
 })();
 """
 
 
-def janela_btc_html():
-    cfg = {"url": "../valores.json", "bench": BENCH_BTC,
+def janela_btc_html(versao=""):
+    # ?v= muda a cada geração: o navegador não mistura página nova com valores.json velho do cache
+    cfg = {"url": "../valores.json" + (f"?v={versao}" if versao else ""), "bench": BENCH_BTC,
            "cores": {n: cor_btc(n) for n in list(CORES_BTC) + list(CORES_CONSENSO)}}
     return f"""    <div class="jan-box" id="jan-box" hidden>
     <h3 class="conceito-tit" id="sua-janela">Escolha a sua janela</h3>
@@ -1806,7 +1809,7 @@ def anuais_btc_html(D):
 {jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, ordem no book nas regras de nível e execução no próprio fechamento do sinal nas demais, 0,25% por operação, caixa no CDI (reais) ou no Fed Funds (dólares) quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
     <script>{js}</script>
     </div>
-{janela_btc_html()}
+{janela_btc_html("".join(ch for ch in D.get("gerado_em", "") if ch.isdigit()))}
 {otimizacao_btc_html()}"""
 
 
