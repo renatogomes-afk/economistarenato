@@ -560,6 +560,12 @@ def main():
     print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")
     for r in sorted(tabela, key=lambda x: -x["btc_final"]):
         print(f"{r['nome']:34} {r['btc_final']:9.3f} {r['retorno_anual_brl']:8.1%} {r['volatilidade_anual']:6.0%} {r['pior_queda']:10.1%} {r['operacoes']:5d} {r['tempo_comprado']:8.0%} {'dentro' if r['sinal_para_esta_semana'] else 'fora':>6}")
+    A, B = saida["anuais_usd"], saida["anuais"]
+    print(f"\nCarteira em dólares (caixa no Fed Funds) x em reais (caixa no CDI). 5 anos ao ano desde {A['inicio_5a']}.")
+    print(f"{'Sinal':34} {'BTC US$':>8} {'a.a. US$':>8} {'5a US$':>7} {'BTC R$':>7} {'a.a. R$':>8} {'5a R$':>7}")
+    for r in sorted(tabela, key=lambda x: -x["btc_final_usd"]):
+        n, nu = r["nome"], (CAIXA_USD if r["nome"] == "Só CDI" else r["nome"])
+        print(f"{nu:34} {r['btc_final_usd']:8.3f} {r['retorno_anual_usd']:8.1%} {A['cinco_anos_aa'][nu]:7.1%} {r['btc_final']:7.3f} {r['retorno_anual_brl']:8.1%} {B['cinco_anos_aa'][n]:7.1%}")
 
 
 if __name__ == "__main__":
