@@ -1523,12 +1523,36 @@ def quatro_tres_btc_html(D):
             f"    <p>Há dois caminhos para isso acontecer. No meio da semana, pelas ordens no book (o fechamento foi de US$ {num(ult)}): {ordens_txt or 'nenhuma ordem na direção da virada nesta semana'}. "
             f"Se uma dessas ordens for acionada, o placar muda na hora, e o 4 x 3, que é regra de fechamento, opera no fechamento de domingo dessa mesma semana. No fechamento de domingo, pelas regras de fechamento "
             f"que ainda votam contra ({e(lista(fech)) if fech else 'nenhuma'}). O gráfico da semana, acima, recalcula o placar a cada minuto com o preço da Coinbase.</p>")
-    return f"""    <h3 class="conceito-tit">Por que o consenso 4 x 3 tem vencido?</h3>
+    # Duas carteiras (27/11/2026): em reais o caixa rende CDI; em dólares, Fed Funds. A liderança pode mudar com a moeda.
+    AB = D.get("anuais") or A
+    def lider(X, chave):
+        return max((n for n in X[chave] if n not in BENCH_BTC), key=lambda n: X[chave][n])
+    def posicao(X, chave):
+        ordem = sorted((n for n in X[chave] if n not in BENCH_BTC), key=lambda n: -X[chave][n])
+        return ordem.index(nome) + 1 if nome in ordem else None
+    lb, lu, lu5 = lider(AB, "total_aa"), lider(A, "total_aa"), lider(A, "cinco_anos_aa")
+    pb, pu = posicao(AB, "total_aa"), posicao(A, "total_aa")
+    ck_b, ck_u = AB.get("caixa", "Só CDI"), A.get("caixa", "Só Fed Funds")
+    pa = lambda x: f"{x * 100:.1f}%".replace(".", ",")
+    ordinal = lambda k: "o primeiro" if k == 1 else f"o {k}º"
+    if lb == nome and lu == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido?"
+    elif lb == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido em reais?"
+    elif lu == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido em dólares?"
+    else:
+        titulo = "O que explica o resultado do consenso 4 x 3?"
+    moedas = (f"""    <h3 class="conceito-tit">E em dólares?</h3>
+    <p>O resultado depende da moeda, porque o 4 x 3 passa {(1 - r['tempo_comprado']) * 100:.0f}% do tempo fora do bitcoin, e o que o dinheiro rende nesse tempo muda tudo. Ninguém ganha CDI em dólar: na carteira em reais, quem vende recebe reais, que rendem CDI ({pa(AB['total_aa'][ck_b])} ao ano desde {data_br(AB['inicio_total'])}); na carteira em dólares, fica em dólares rendendo Fed Funds ({pa(A['total_aa'][ck_u])} ao ano). Em reais, o 4 x 3 termina com {num(r['btc_final'], 2)} BTC ({pa(AB['total_aa'][nome])} ao ano) e é {ordinal(pb)} entre as estratégias. Em dólares, termina com {num(r.get('btc_final_usd', r['btc_final']), 2)} BTC ({pa(A['total_aa'][nome])} ao ano) e é {ordinal(pu)}{"" if lu == nome else f"; quem lidera é o {e(lu)}, com {pa(A['total_aa'][lu])} ao ano"}. Nos últimos 5 anos, em dólares, lidera o {e(lu5)} ({pa(A['cinco_anos_aa'][lu5])} ao ano, contra {pa(A['cinco_anos_aa'][nome])} do 4 x 3).</p>
+    <p class="nota-min">Na minha leitura, parte da vantagem do 4 x 3 em reais vem do CDI alto nos períodos fora do bitcoin, e não do acerto da regra. Para quem pensa em dólar, a comparação certa é a de dólares.</p>
+""" if A.get("caixa") else "")
+    return f"""    <h3 class="conceito-tit">{titulo}</h3>
     <p>Não é porque acerta mais as altas. Ele ganha porque erra menos nas baixas. Em dólares, nos anos de queda do bitcoin, {ruins_txt}. Nos anos bons, ele fica atrás: em {a_bom}, o bitcoin fez {p0(b_bom)} e o 4 x 3, {p0(c_bom)}. A conta favorece quem foge da queda: quem perde 67% precisa subir 200% só para voltar ao ponto de partida.</p>
     <p>O 4 x 3 é a maioria simples dos sete sinais. Com sete votos sempre há quatro de um lado, então ele nunca fica em cima do muro. Cinco dos sete sinais seguem tendência (média, cruzamento, rompimento, MACD e topos e fundos); na prática, o 4 x 3 é um seguidor de tendência suavizado, que só entra quando vários critérios confirmam a alta e sai quando a maioria vira.</p>
     <p>A votação filtra o erro de cada regra, como uma carteira diversificada de sinais. O rompimento compra tarde, a média de 40 semanas entra e sai demais, o IFR fica parado meses. O 4 x 3 fez {r['operacoes']} operações{f", contra {m40['operacoes']} da média de 40 semanas" if m40 else ""}, e sua pior queda foi de {p0(r['pior_queda'])}, contra {p0(est['Comprar e segurar']['pior_queda'])} de quem só segurou bitcoin (os sinais de tendência isolados ficaram entre {p0(max(quedas))} e {p0(min(quedas))}). Os consensos mais exigentes ficam de fora demais e perdem as altas grandes: {" e ".join(f"o {x['nome'][9:]} ficou comprado {x['tempo_comprado'] * 100:.0f}% do tempo" for x in rigidos)}. O 4 x 3 ficou comprado {r['tempo_comprado'] * 100:.0f}% do tempo.{oos}</p>
     <p class="nota-min">Na minha leitura, há três cuidados. São poucos ciclos de baixa em dez anos, pouco evento para certeza estatística. O 4 x 3 foi escolhido depois de ver os quatro consensos, o que traz algum viés de seleção. E a vantagem depende de o bitcoin continuar tendo quedas longas e bem definidas; num mercado lateral e picotado, a maioria vira muitas vezes e o custo sobe.</p>
-    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>
+{moedas}    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>
     {call}
     <p class="nota-min">Isto é a leitura mecânica da regra, publicada como experimento, e não recomendação de investimento.</p>
 """
