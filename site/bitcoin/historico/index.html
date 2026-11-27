@@ -150,15 +150,15 @@ document.querySelector('.nav-toggle').addEventListener('click',function(){var m=
     </table></div>
     <p class="nota-min">Excesso de retorno = retorno ao ano da estratégia menos o do benchmark, em pontos percentuais (em janelas menores que um ano, a diferença no período). Verde: acima do caixa (<span class="rot-caixa">CDI</span>) no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
     </div>
-    <script type="application/json" id="jan-cfg">{"url": "../valores.json", "bench": {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI", "Só Fed Funds": "Benchmark: dólares no Fed Funds"}, "cores": {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4", "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700", "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a", "Só Fed Funds": "#9a9a9a", "Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}}</script>
+    <script type="application/json" id="jan-cfg">{"url": "../valores.json?v=202611271632", "bench": {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI", "Só Fed Funds": "Benchmark: dólares no Fed Funds"}, "cores": {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4", "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700", "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a", "Só Fed Funds": "#9a9a9a", "Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}}</script>
     <script>
 (function(){
 var box=document.getElementById('jan-box');if(!box)return;
 var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
 var moeda='brl';
 // Cada moeda tem a sua carteira: em R$, BTC em reais e caixa no CDI; em US$, BTC em dólares e caixa no Fed Funds.
-function serie(){return moeda==='usd'&&V.valores_usd?V.valores_usd:V.valores_brl}
-function caixa(){return moeda==='usd'&&V.valores_usd?'Só Fed Funds':'Só CDI'}
+function serie(){return moeda==='usd'?V.valores_usd:V.valores_brl}
+function caixa(){return moeda==='usd'?'Só Fed Funds':'Só CDI'}
 function rotCaixa(){return caixa()==='Só CDI'?'CDI':'Fed Funds'}
 var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
@@ -191,6 +191,8 @@ fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
  [de,ate].forEach(function(x){x.addEventListener('change',function(){box.querySelectorAll('.jan-atalhos button[data-anos]').forEach(function(y){y.classList.remove('ativo')});calcula()})});
  box.querySelectorAll('.jan-moeda button').forEach(function(x){x.addEventListener('click',function(){moeda=x.dataset.moeda;
   box.querySelectorAll('.jan-moeda button').forEach(function(y){y.classList.toggle('ativo',y===x)});calcula()})});
+ // sem a carteira em dólares (arquivo antigo), o botão US$ some em vez de mostrar reais com o rótulo errado
+ if(!V.valores_usd)box.querySelectorAll('.jan-moeda button[data-moeda=usd]').forEach(function(x){x.hidden=true});
  box.hidden=false;atalho(5)}).catch(function(){});
 })();
 </script>
@@ -235,7 +237,7 @@ fetch(CFG.url).then(function(r){return r.json()}).then(function(j){V=j;
 <tr><td>Percentis contrário</td><td class="num">0,45</td><td class="num">+21,5%</td><td class="num acima">+11,9 p.p.</td><td class="num abaixo">−28,3 p.p.</td><td class="num">−47,4%</td></tr>
       </tbody>
     </table></div>
-    <p class="nota-min">Atenção a regras com poucas operações: uma regra que opera duas vezes por ano pode liderar por acaso. Teste no histórico não garante resultado futuro e não é recomendação de investimento. Código em scripts/bitcoin/otimiza.py; atualizado em 2026-11-27 16:23 UTC.</p>
+    <p class="nota-min">Atenção a regras com poucas operações: uma regra que opera duas vezes por ano pode liderar por acaso. Teste no histórico não garante resultado futuro e não é recomendação de investimento. Código em scripts/bitcoin/otimiza.py; atualizado em 2026-11-27 16:32 UTC.</p>
 
   </section>
   <p class="nota-min">Conteúdo de estudo. Resultado passado não garante resultado futuro, e nada aqui é recomendação de investimento.</p>
