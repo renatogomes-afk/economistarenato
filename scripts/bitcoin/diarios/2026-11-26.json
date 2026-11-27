@@ -1,0 +1,223 @@
+{
+ "data": "2026-11-26",
+ "parcial": false,
+ "gerado_em": "2026-11-27 00:46 UTC",
+ "domingo": "2026-11-22",
+ "btc_usd": {
+  "fech": 60495.57,
+  "alta": 61524.42,
+  "baixa": 59842.43,
+  "ontem": 60383.51,
+  "domingo": 61163.01,
+  "alta_semana": 64520.28,
+  "baixa_semana": 57208.75
+ },
+ "votos_domingo": 3,
+ "votos_agora": 3,
+ "estrategias": [
+  {
+   "nome": "Média de 40 semanas",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 71925.84
+   }
+  },
+  {
+   "nome": "Cruzamento 10 x 40 semanas",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "IFR semanal (30/70)",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Rompimento 20 semanas",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   }
+  },
+  {
+   "nome": "MACD semanal",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Topos e fundos (Dow)",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   }
+  },
+  {
+   "nome": "Faixas de percentis 52 semanas",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 7 x 0",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 6 x 1",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 5 x 2",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 4 x 3",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  }
+ ],
+ "abertura": {
+  "hora_utc": "2026-11-26 17:20 UTC",
+  "hora_cuiaba": "13h20",
+  "btc_usd": 60487.24,
+  "alta": 61524.42,
+  "baixa": 59842.43,
+  "votos": 3,
+  "acionadas": []
+ },
+ "mercado": {
+  "variaveis": [
+   {
+    "rotulo": "S&P 500",
+    "simbolo": "^GSPC",
+    "unidade": "pct",
+    "aberto": false
+   },
+   {
+    "rotulo": "Nasdaq",
+    "simbolo": "^IXIC",
+    "unidade": "pct",
+    "aberto": false
+   },
+   {
+    "rotulo": "Dólar (DXY)",
+    "simbolo": "DX-Y.NYB",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 103.7770004272461,
+    "anterior": 103.66999816894531
+   },
+   {
+    "rotulo": "Ouro",
+    "simbolo": "GC=F",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 3595.800048828125,
+    "anterior": 3535.800048828125
+   },
+   {
+    "rotulo": "Juro de 10 anos dos EUA",
+    "simbolo": "^TNX",
+    "unidade": "pb",
+    "aberto": false
+   },
+   {
+    "rotulo": "VIX (medo na bolsa)",
+    "simbolo": "^VIX",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 26.799999237060547,
+    "anterior": 28.290000915527344
+   },
+   {
+    "rotulo": "Ether (ETH)",
+    "simbolo": "ETH-USD",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 1687.61,
+    "anterior": 1690.38
+   }
+  ],
+  "erros": [],
+  "medo_ganancia": {
+   "valor": 11,
+   "classe": "medo extremo"
+  },
+  "manchetes": [
+   {
+    "titulo": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+    "link": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+   },
+   {
+    "titulo": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+    "link": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases"
+   },
+   {
+    "titulo": "Crypto for Advisors: Four questions to ask before trusting a crypto exchange",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/11/26/crypto-for-advisors-four-questions-to-ask-before-trusting-a-crypto-exchange"
+   },
+   {
+    "titulo": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+    "link": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+   },
+   {
+    "titulo": "Standard Chartered's Zodia Custody suffers data breach, exposing client information",
+    "link": "https://www.coindesk.com/tech/2026/11/26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information"
+   }
+  ]
+ },
+ "consideracoes": [
+  "Dia de pouca variação: o bitcoin fechou em alta de 0,2%.",
+  "As bolsas americanas não abriram (fim de semana ou feriado): o movimento do dia veio do próprio mercado de cripto.",
+  "O ouro subiu 1,7%.",
+  "O índice Fear & Greed do cripto marcava 11 de 100 (medo extremo)."
+ ]
+}
