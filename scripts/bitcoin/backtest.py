@@ -3,7 +3,7 @@
 Dados (baixados na hora, fontes públicas):
   - BTC/USD: velas diárias da Coinbase, agrupadas em semanas que fecham no domingo (UTC).
   - Dólar (PTAX venda, série SGS 1) e CDI (taxa diária, série SGS 12): Banco Central do Brasil.
-  - Juro do dólar: Fed Funds efetivo (série DFF do FRED, Federal Reserve de St. Louis), o equivalente americano do CDI.
+  - Juro do dólar: Fed Funds efetivo (EFFR, Federal Reserve Bank of New York; reserva: série DFF do FRED), o equivalente americano do CDI.
 Regras: decisão uma vez por semana; posição inicial = 1 BTC; taxa de 0,25% por compra ou venda; sem alavancagem.
 Duas carteiras, cada uma coerente com a sua moeda (ninguém ganha CDI em dólar):
   - Em reais: o bitcoin é cotado em reais (BTC-USD x PTAX do dia, como numa corretora brasileira de BTC/BRL); vender
@@ -66,14 +66,14 @@ def sgs(serie, ini):
     return out
 
 
-def fred(serie, ini, tentativas=5):
+def fred(serie, ini, tentativas=3):
     """Série diária do FRED (CSV público, sem chave). Devolve {data: valor}; dias sem dado ("." no CSV) ficam de fora."""
     import time
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={serie}&cosd={ini.isoformat()}"
     for t in range(tentativas):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "research-client"})
-            with urllib.request.urlopen(req, timeout=60) as r:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=120) as r:
                 linhas = r.read().decode().splitlines()
             break
         except Exception:
@@ -92,6 +92,21 @@ def fred(serie, ini, tentativas=5):
     return out
 
 
+def effr_nyfed(ini):
+    """Fed Funds efetivo (EFFR) direto do Federal Reserve Bank of New York, que publica a taxa (dias úteis).
+    Baixa ano a ano. Devolve {data: % ao ano}."""
+    out, a, hoje = {}, ini, dt.date.today()
+    while a <= hoje:
+        b = min(dt.date(a.year, 12, 31), hoje)
+        url = f"https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate={a.isoformat()}&endDate={b.isoformat()}"
+        for x in baixa(url).get("refRates", []):
+            out[dt.date.fromisoformat(x["effectiveDate"])] = float(x["percentRate"])
+        a = b + dt.timedelta(days=1)
+    if not out:
+        raise ValueError("NY Fed: resposta sem dados")
+    return out
+
+
 def fatores_cdi(datas, cdi_d):
     """Quanto R$ 1 no CDI cresce de um domingo ao seguinte: produto das taxas diárias dos dias úteis da semana
     (a SGS 12 só tem dias úteis; a taxa de sexta remunera até segunda). fator[0] = 1."""
@@ -107,7 +122,7 @@ def fatores_cdi(datas, cdi_d):
 
 def fatores_fed(datas, fed_d):
     """Quanto US$ 1 no Fed Funds cresce de um domingo ao seguinte: taxa/360 por dia corrido, composta dia a dia
-    (a DFF tem valor para todos os dias; falta de dado repete o último). fator[0] = 1."""
+    (fim de semana e feriado repetem a taxa do último dia útil, como no mercado americano). fator[0] = 1."""
     out = [1.0]
     for a, b in zip(datas, datas[1:]):
         f, d = 1.0, a
@@ -446,22 +461,27 @@ CAIXA_USD = "Só Fed Funds"  # benchmark de caixa da carteira em dólares (o "S�
 
 
 def juro_usd(datas):
-    """Fatores semanais do Fed Funds. Se o FRED falhar, reaproveita os fatores já gravados e repete o último nas
-    semanas novas (avisa no terminal), para o robô semanal não parar por causa de uma fonte."""
-    try:
-        fed_d = fred("DFF", datas[0] - dt.timedelta(days=15))
-        return fatores_fed(datas, fed_d), [ultimo_ate(fed_d, d) or 0.0 for d in datas]
-    except Exception as erro:
-        print(f"AVISO: FRED indisponível ({erro}); usando os fatores do Fed Funds já gravados.")
-        P = json.load(open(os.path.join(AQUI, "precos_semanais.json"), encoding="utf-8"))
-        if not P.get("fator_fed"):
-            raise
-        velho, taxa = dict(zip(P["datas"], P["fator_fed"])), dict(zip(P["datas"], P["fed"]))
-        f, t, ult_f, ult_t = [], [], 1.0, 0.0
-        for k, d in enumerate(datas):
-            ult_f, ult_t = velho.get(d.isoformat(), ult_f), taxa.get(d.isoformat(), ult_t)
-            f.append(1.0 if k == 0 else ult_f); t.append(ult_t)
-        return f, t
+    """Fatores semanais do Fed Funds: NY Fed (fonte oficial da EFFR); se falhar, FRED (série DFF); se os dois
+    falharem, reaproveita os fatores já gravados e repete o último nas semanas novas (avisa no terminal), para o robô
+    semanal não parar por causa de uma fonte."""
+    ini = datas[0] - dt.timedelta(days=15)
+    erros = []
+    for nome, f in (("NY Fed", effr_nyfed), ("FRED", lambda d: fred("DFF", d))):
+        try:
+            fed_d = f(ini)
+            return fatores_fed(datas, fed_d), [ultimo_ate(fed_d, d) or 0.0 for d in datas]
+        except Exception as erro:
+            erros.append(f"{nome}: {erro}")
+    print(f"AVISO: juro do dólar indisponível ({'; '.join(erros)}); usando os fatores do Fed Funds já gravados.")
+    P = json.load(open(os.path.join(AQUI, "precos_semanais.json"), encoding="utf-8"))
+    if not P.get("fator_fed"):
+        raise RuntimeError("sem juro do dólar: " + "; ".join(erros))
+    velho, taxa = dict(zip(P["datas"], P["fator_fed"])), dict(zip(P["datas"], P["fed"]))
+    f, t, ult_f, ult_t = [], [], 1.0, 0.0
+    for k, d in enumerate(datas):
+        ult_f, ult_t = velho.get(d.isoformat(), ult_f), taxa.get(d.isoformat(), ult_t)
+        f.append(1.0 if k == 0 else ult_f); t.append(ult_t)
+    return f, t
 
 
 def main():
@@ -517,7 +537,7 @@ def main():
              "semanas": len(datas), "taxa_por_operacao": TAXA, "regras_book": list(BOOK), "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
              "ultimo_fech_usd": ult["fech"], "ultimo_fech_brl": ult["fech"] * brl[-1], "ptax": brl[-1],
              "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12",
-                        "juro_usd": "FRED/DFF (Fed Funds efetivo)"},
+                        "juro_usd": "Federal Reserve Bank of New York (EFFR, Fed Funds efetivo)"},
              "caixa": {"brl": "Só CDI", "usd": CAIXA_USD},
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}},
