@@ -1,0 +1,215 @@
+{
+ "data": "2026-11-27",
+ "parcial": true,
+ "gerado_em": "2026-11-27 16:59 UTC",
+ "domingo": "2026-11-22",
+ "btc_usd": {
+  "fech": 59961.08,
+  "alta": 62140.28,
+  "baixa": 58700.0,
+  "ontem": 60495.57,
+  "domingo": 61163.01,
+  "alta_semana": 64533.96,
+  "baixa_semana": 57208.17
+ },
+ "votos_domingo": 3,
+ "votos_agora": 3,
+ "estrategias": [
+  {
+   "nome": "Média de 40 semanas",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 71926.89
+   }
+  },
+  {
+   "nome": "Cruzamento 10 x 40 semanas",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "IFR semanal (30/70)",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Rompimento 20 semanas",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   }
+  },
+  {
+   "nome": "MACD semanal",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Topos e fundos (Dow)",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": {
+    "tipo": "compra",
+    "nivel_usd": 86507.11
+   }
+  },
+  {
+   "nome": "Faixas de percentis 52 semanas",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": true,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 7 x 0",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 6 x 1",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 5 x 2",
+   "domingo": true,
+   "agora": true,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  },
+  {
+   "nome": "Consenso 4 x 3",
+   "domingo": false,
+   "agora": false,
+   "mudou": false,
+   "book": false,
+   "acionada_usd": null,
+   "ordem": null
+  }
+ ],
+ "hora_cuiaba": "12h59",
+ "mercado": {
+  "variaveis": [
+   {
+    "rotulo": "S&P 500",
+    "simbolo": "^GSPC",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 7284.43017578125,
+    "anterior": 7182.77978515625
+   },
+   {
+    "rotulo": "Nasdaq",
+    "simbolo": "^IXIC",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 24028.232421875,
+    "anterior": 23585.80078125
+   },
+   {
+    "rotulo": "Dólar (DXY)",
+    "simbolo": "DX-Y.NYB",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 104.0,
+    "anterior": 103.66999816894531
+   },
+   {
+    "rotulo": "Ouro",
+    "simbolo": "GC=F",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 3656.60009765625,
+    "anterior": 3535.800048828125
+   },
+   {
+    "rotulo": "Juro de 10 anos dos EUA",
+    "simbolo": "^TNX",
+    "unidade": "pb",
+    "aberto": true,
+    "valor": 4.932000160217285,
+    "anterior": 4.8480000495910645
+   },
+   {
+    "rotulo": "VIX (medo na bolsa)",
+    "simbolo": "^VIX",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 24.8799991607666,
+    "anterior": 26.799999237060547
+   },
+   {
+    "rotulo": "Ether (ETH)",
+    "simbolo": "ETH-USD",
+    "unidade": "pct",
+    "aberto": true,
+    "valor": 1671.38,
+    "anterior": 1687.61
+   }
+  ],
+  "erros": [],
+  "medo_ganancia": {
+   "valor": 12,
+   "classe": "medo extremo"
+  },
+  "manchetes": [
+   {
+    "titulo": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
+    "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
+   },
+   {
+    "titulo": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
+    "link": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13"
+   },
+   {
+    "titulo": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+    "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound"
+   },
+   {
+    "titulo": "Live updates: Bitcoin's Thanksgiving gains prove fleeting",
+    "link": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains"
+   },
+   {
+    "titulo": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+    "link": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin"
+   }
+  ]
+ }
+}
