@@ -29,7 +29,10 @@ def carrega():
     P = json.load(open(os.path.join(AQUI, "precos_semanais.json"), encoding="utf-8"))
     px = [{"data": dt.date.fromisoformat(d), "fech": f, "alta": a, "baixa": b}
           for d, f, a, b in zip(P["datas"], P["fech"], P["alta"], P["baixa"])]
-    return px, P["ptax"], P["cdi"]
+    # fator semanal exato do CDI (gravado pelo backtest); arquivos antigos sem ele caem na aproximação por dias úteis
+    juros = P.get("fator_cdi") or [1.0] + [(1 + P["cdi"][k - 1] / 100) ** ((px[k]["data"] - px[k - 1]["data"]).days * 5 / 7)
+                                           for k in range(1, len(px))]
+    return px, P["ptax"], juros
 
 
 # ---------- sinais parametrizados (mesma lógica de backtest.sinais, com parâmetros livres) ----------

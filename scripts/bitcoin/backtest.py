@@ -3,8 +3,13 @@
 Dados (baixados na hora, fontes públicas):
   - BTC/USD: velas diárias da Coinbase, agrupadas em semanas que fecham no domingo (UTC).
   - Dólar (PTAX venda, série SGS 1) e CDI (taxa diária, série SGS 12): Banco Central do Brasil.
-Regras: decisão uma vez por semana; o sinal do fechamento de uma semana é executado no fechamento da seguinte; posição inicial = 1 BTC;
-fora do mercado o dinheiro rende CDI; taxa de 0,25% por compra ou venda; sem alavancagem.
+  - Juro do dólar: Fed Funds efetivo (série DFF do FRED, Federal Reserve de St. Louis), o equivalente americano do CDI.
+Regras: decisão uma vez por semana; posição inicial = 1 BTC; taxa de 0,25% por compra ou venda; sem alavancagem.
+Duas carteiras, cada uma coerente com a sua moeda (ninguém ganha CDI em dólar):
+  - Em reais: o bitcoin é cotado em reais (BTC-USD x PTAX do dia, como numa corretora brasileira de BTC/BRL); vender
+    o bitcoin dá reais, que rendem CDI (composto dia útil a dia útil); recomprar gasta esses reais na cotação do dia.
+  - Em dólares: o bitcoin é cotado em dólares; vender dá dólares, que rendem Fed Funds (composto dia a dia, base 360).
+    Não há conversão para reais nem CDI nessa carteira.
 Saída: scripts/bitcoin/resultados.json, site/bitcoin/dados.json (lido pela página) e uma tabela no terminal.
 """
 import json, math, os, sys, urllib.request, datetime as dt
@@ -58,6 +63,58 @@ def sgs(serie, ini):
             d, m, y = x["data"].split("/")
             out[dt.date(int(y), int(m), int(d))] = float(x["valor"])
         a = b + dt.timedelta(days=1)
+    return out
+
+
+def fred(serie, ini, tentativas=5):
+    """Série diária do FRED (CSV público, sem chave). Devolve {data: valor}; dias sem dado ("." no CSV) ficam de fora."""
+    import time
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={serie}&cosd={ini.isoformat()}"
+    for t in range(tentativas):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "research-client"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                linhas = r.read().decode().splitlines()
+            break
+        except Exception:
+            if t == tentativas - 1:
+                raise
+            time.sleep(5 * (t + 1))
+    out = {}
+    for linha in linhas[1:]:
+        partes = linha.split(",")
+        try:
+            out[dt.date.fromisoformat(partes[0])] = float(partes[1])
+        except (ValueError, IndexError):
+            pass
+    if not out:
+        raise ValueError(f"FRED {serie}: resposta sem dados")
+    return out
+
+
+def fatores_cdi(datas, cdi_d):
+    """Quanto R$ 1 no CDI cresce de um domingo ao seguinte: produto das taxas diárias dos dias úteis da semana
+    (a SGS 12 só tem dias úteis; a taxa de sexta remunera até segunda). fator[0] = 1."""
+    out = [1.0]
+    for a, b in zip(datas, datas[1:]):
+        f, d = 1.0, a + dt.timedelta(days=1)
+        while d <= b:
+            f *= 1 + cdi_d.get(d, 0.0) / 100
+            d += dt.timedelta(days=1)
+        out.append(f)
+    return out
+
+
+def fatores_fed(datas, fed_d):
+    """Quanto US$ 1 no Fed Funds cresce de um domingo ao seguinte: taxa/360 por dia corrido, composta dia a dia
+    (a DFF tem valor para todos os dias; falta de dado repete o último). fator[0] = 1."""
+    out = [1.0]
+    for a, b in zip(datas, datas[1:]):
+        f, d = 1.0, a
+        while d < b:
+            f *= 1 + (ultimo_ate(fed_d, d) or 0.0) / 36000
+            d += dt.timedelta(days=1)
+        out.append(f)
     return out
 
 
@@ -262,11 +319,13 @@ def consenso(s, k):
     return out
 
 
-def simula(px, dentro, brl, cdi, ini, preco=None):
-    """dentro[i]: posição ao fim da semana i. Sem preco, a troca sai no fechamento da semana i (regra de fechamento).
-    Com preco (US$), a troca sai no meio da semana i, nesse preço (ordem no book), com metade da semana no CDI."""
+def simula(px, dentro, conv, juros, ini, preco=None):
+    """Carteira numa moeda só. conv[i]: unidades da moeda por US$ na semana i (PTAX para reais; 1 para dólares);
+    juros[i]: quanto o caixa nessa moeda cresce da semana i-1 à i (CDI para reais; Fed Funds para dólares).
+    dentro[i]: posição ao fim da semana i. Sem preco, a troca sai no fechamento da semana i (regra de fechamento).
+    Com preco (US$), a troca sai no meio da semana i, nesse preço (ordem no book), com metade da semana no caixa."""
     datas = [p["data"] for p in px]
-    c = [p["fech"] * brl[k] for k, p in enumerate(px)]  # preço em reais
+    c = [p["fech"] * conv[k] for k, p in enumerate(px)]  # preço do bitcoin na moeda da carteira
     btc, caixa, trocas, semanas_dentro = 1.0, 0.0, 0, 0
     pos = True  # começa com 1 BTC
     if not dentro[ini]:
@@ -274,14 +333,13 @@ def simula(px, dentro, brl, cdi, ini, preco=None):
     valores, desde = [], datas[ini]
     for i in range(ini, len(px)):
         if i > ini:
-            dias = (datas[i] - datas[i - 1]).days
-            fator = (1 + cdi[i - 1] / 100) ** (dias * 5 / 7)  # CDI diário em dias úteis aproximados
+            fator = juros[i]
             if dentro[i] != pos:
                 if preco is None:
                     if dentro[i]: btc, caixa = caixa * fator / c[i] * (1 - TAXA), 0.0
                     else: caixa, btc = btc * c[i] * (1 - TAXA), 0.0
                 else:
-                    pr = preco[i] * brl[i]
+                    pr = preco[i] * conv[i]
                     if dentro[i]: btc, caixa = caixa * fator ** 0.5 / pr * (1 - TAXA), 0.0
                     else: caixa, btc = btc * pr * (1 - TAXA) * fator ** 0.5, 0.0
                 pos, trocas = dentro[i], trocas + 1
@@ -298,7 +356,7 @@ def simula(px, dentro, brl, cdi, ini, preco=None):
     pico, pior = valores[0], 0.0
     for v in valores:
         pico = max(pico, v); pior = min(pior, v / pico - 1)
-    return {"btc_final": valores[-1] / c[-1], "retorno_anual_brl": (valores[-1] / valores[0]) ** (1 / anos) - 1,
+    return {"btc_final": valores[-1] / c[-1], "retorno_anual": (valores[-1] / valores[0]) ** (1 / anos) - 1,
             "volatilidade_anual": vol, "pior_queda": pior, "operacoes": trocas,
             "tempo_comprado": semanas_dentro / len(valores),
             "_valores": valores, "_estado": {"comprado": pos, "btc": btc, "caixa_brl": caixa, "desde": desde.isoformat()}}
@@ -308,7 +366,7 @@ INI_SIM = 52  # semanas de folga antes do início do teste
 INICIO_ACOMP = dt.date(2026, 11, 22)  # fechamento de domingo antes do lançamento do piloto
 
 
-def retornos_anuais(datas, valores):
+def retornos_anuais(datas, valores, caixa="Só CDI"):
     """Retorno de cada ano civil (na moeda dos valores recebidos; a página usa dólares) (valor no último domingo do ano sobre o do ano anterior) e dos últimos 5 anos."""
     fim_ano = {}
     for k, d in enumerate(datas):
@@ -317,7 +375,7 @@ def retornos_anuais(datas, valores):
     ult = len(datas) - 1
     k5 = max(k for k, d in enumerate(datas) if d <= datas[-1].replace(year=datas[-1].year - 5))
     anos_5 = (datas[ult] - datas[k5]).days / 365.25
-    return {"anos": anos, "ultimo": datas[ult].isoformat(), "inicio_5a": datas[k5].isoformat(),
+    return {"anos": anos, "caixa": caixa, "ultimo": datas[ult].isoformat(), "inicio_5a": datas[k5].isoformat(),
             "por_estrategia": {n: [round(v[fim_ano[a]] / v[fim_ano[a - 1]] - 1, 4) for a in anos] for n, v in valores.items()},
             "cinco_anos_aa": {n: round((v[ult] / v[k5]) ** (1 / anos_5) - 1, 4) for n, v in valores.items()},
             "inicio_total": datas[0].isoformat(),
@@ -348,7 +406,7 @@ def grafico_semanal(px, sin):
 BOLETINS = os.path.join(AQUI, "boletins")
 
 
-def grava_boletim(px, brl, sin, book, datas, valores, votos, k0):
+def grava_boletim(px, brl, sin, book, datas, valores, valores_usd, votos, k0):
     """Boletim semanal: registro do que cada estratégia fez na semana que fechou no domingo. É gravado uma vez por
     semana e nunca reescrito, para o arquivo ficar como foi publicado (mesmo que regras ou dados mudem depois)."""
     if k0 is None:
@@ -359,10 +417,10 @@ def grava_boletim(px, brl, sin, book, datas, valores, votos, k0):
     if os.path.exists(arq):
         return
     n = len(px) - 1
-    usd = lambda v, k: v / brl[INI_SIM + k]
     k = len(datas) - 1
     est = []
     for nome, v in valores.items():
+        vu = valores_usd[CAIXA_USD if nome == "Só CDI" else nome]
         s = sin.get(nome)
         antes, agora = (bool(s[n - 1]), bool(s[n])) if s else (False, False)
         operou = antes != agora
@@ -372,7 +430,7 @@ def grava_boletim(px, brl, sin, book, datas, valores, votos, k0):
         ordem = book[nome][2] if nome in book else None
         est.append({"nome": nome, "antes": antes, "agora": agora, "operou": operou, "preco_usd": preco,
                     "ordem_book": {"tipo": ordem[0], "nivel_usd": round(ordem[1], 2)} if ordem and ordem[1] is not None else None,
-                    "semana_brl": round(v[k] / v[k - 1] - 1, 5), "semana_usd": round(usd(v[k], k) / usd(v[k - 1], k - 1) - 1, 5),
+                    "semana_brl": round(v[k] / v[k - 1] - 1, 5), "semana_usd": round(vu[k] / vu[k - 1] - 1, 5),
                     "desde_lancamento_brl": round(v[k] / v[k0] - 1, 5) if k0 <= k else None,
                     "btc": round(v[k] / (px[n]["fech"] * brl[n]), 5)})
     json.dump({"data": data, "gerado_em": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
@@ -384,16 +442,41 @@ def grava_boletim(px, brl, sin, book, datas, valores, votos, k0):
                "estrategias": est}, open(arq, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
+CAIXA_USD = "Só Fed Funds"  # benchmark de caixa da carteira em dólares (o "Só CDI" da carteira em reais)
+
+
+def juro_usd(datas):
+    """Fatores semanais do Fed Funds. Se o FRED falhar, reaproveita os fatores já gravados e repete o último nas
+    semanas novas (avisa no terminal), para o robô semanal não parar por causa de uma fonte."""
+    try:
+        fed_d = fred("DFF", datas[0] - dt.timedelta(days=15))
+        return fatores_fed(datas, fed_d), [ultimo_ate(fed_d, d) or 0.0 for d in datas]
+    except Exception as erro:
+        print(f"AVISO: FRED indisponível ({erro}); usando os fatores do Fed Funds já gravados.")
+        P = json.load(open(os.path.join(AQUI, "precos_semanais.json"), encoding="utf-8"))
+        if not P.get("fator_fed"):
+            raise
+        velho, taxa = dict(zip(P["datas"], P["fator_fed"])), dict(zip(P["datas"], P["fed"]))
+        f, t, ult_f, ult_t = [], [], 1.0, 0.0
+        for k, d in enumerate(datas):
+            ult_f, ult_t = velho.get(d.isoformat(), ult_f), taxa.get(d.isoformat(), ult_t)
+            f.append(1.0 if k == 0 else ult_f); t.append(ult_t)
+        return f, t
+
+
 def main():
     px, dias = btc_semanal()
     ini_data = px[0]["data"]
     ptax = sgs(1, ini_data - dt.timedelta(days=15))
     cdi_d = sgs(12, ini_data - dt.timedelta(days=15))
-    brl = [ultimo_ate(ptax, p["data"]) for p in px]
-    cdi = [ultimo_ate(cdi_d, p["data"]) or 0.0 for p in px]
-    # Cópia dos dados semanais usados (preço, dólar e CDI), para a otimização rodar sem baixar de novo.
-    json.dump({"datas": [p["data"].isoformat() for p in px], "fech": [p["fech"] for p in px], "alta": [p["alta"] for p in px],
-               "baixa": [p["baixa"] for p in px], "ptax": brl, "cdi": cdi},
+    datas_px = [p["data"] for p in px]
+    brl = [ultimo_ate(ptax, d) for d in datas_px]
+    cdi = [ultimo_ate(cdi_d, d) or 0.0 for d in datas_px]
+    f_cdi = fatores_cdi(datas_px, cdi_d)
+    f_fed, fed = juro_usd(datas_px)
+    # Cópia dos dados semanais usados (preço, dólar, CDI e Fed Funds), para a otimização rodar sem baixar de novo.
+    json.dump({"datas": [d.isoformat() for d in datas_px], "fech": [p["fech"] for p in px], "alta": [p["alta"] for p in px],
+               "baixa": [p["baixa"] for p in px], "ptax": brl, "cdi": cdi, "fator_cdi": f_cdi, "fed": fed, "fator_fed": f_fed},
               open(os.path.join(AQUI, "precos_semanais.json"), "w", encoding="utf-8"), separators=(",", ":"))
     ini = INI_SIM  # um ano de histórico para todos os indicadores terem dados
     sin = sinais(px)
@@ -402,10 +485,15 @@ def main():
         sin[nome_consenso(k)] = consenso(sin, k)
     # Regras de nível: ordem no book durante a semana. Regras de fechamento: executa no próprio fechamento do sinal.
     book = {nome: f(px) for nome, f in BOOK.items()}
-    res = {nome: simula(px, d, brl, cdi, ini, book[nome][1] if nome in book else None) for nome, d in sin.items()}
-    so_cdi = simula(px, [False] * len(px), brl, cdi, ini)
+    res = {nome: simula(px, d, brl, f_cdi, ini, book[nome][1] if nome in book else None) for nome, d in sin.items()}
+    so_cdi = simula(px, [False] * len(px), brl, f_cdi, ini)
     so_cdi["operacoes"] = 1
     res["Só CDI"] = so_cdi
+    # Mesmas regras, carteira em dólares: BTC em US$ e caixa no Fed Funds, sem passar pelo real nem pelo CDI.
+    usd1 = [1.0] * len(px)
+    res_usd = {nome: simula(px, d, usd1, f_fed, ini, book[nome][1] if nome in book else None) for nome, d in sin.items()}
+    res_usd[CAIXA_USD] = simula(px, [False] * len(px), usd1, f_fed, ini)
+    valores_usd = {nome: [round(x, 2) for x in r.pop("_valores")] for nome, r in res_usd.items()}
     datas = [p["data"] for p in px][ini:]
     c_brl = [px[k]["fech"] * brl[k] for k in range(ini, len(px))]
     k0 = next((k for k, d in enumerate(datas) if d >= INICIO_ACOMP), None)
@@ -417,7 +505,10 @@ def main():
         # sinal da última semana fechada: é o que vale para a semana em curso
         proximo = sin[nome][-1] if nome in sin else False
         ordem = book[nome][2] if nome in book else None
-        tabela.append({"nome": nome, **r, **est, "sinal_para_esta_semana": proximo,
+        ru = res_usd[CAIXA_USD if nome == "Só CDI" else nome]
+        r["retorno_anual_brl"] = r.pop("retorno_anual")
+        tabela.append({"nome": nome, **r, **est, "btc_final_usd": ru["btc_final"], "retorno_anual_usd": ru["retorno_anual"],
+                       "pior_queda_usd": ru["pior_queda"], "sinal_para_esta_semana": proximo,
                        "comprado_antes": bool(sin[nome][-2]) if nome in sin else False,
                        "ordem_book": {"tipo": ordem[0], "nivel_usd": round(ordem[1], 2)} if ordem and ordem[1] is not None else None,
                        "valor_inicio_acomp_brl": v[k0] if k0 is not None else None})
@@ -425,23 +516,25 @@ def main():
     saida = {"gerado_em": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"), "inicio": datas[0].isoformat(), "fim": datas[-1].isoformat(),
              "semanas": len(datas), "taxa_por_operacao": TAXA, "regras_book": list(BOOK), "inicio_acompanhamento": INICIO_ACOMP.isoformat(),
              "ultimo_fech_usd": ult["fech"], "ultimo_fech_brl": ult["fech"] * brl[-1], "ptax": brl[-1],
-             "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12"},
+             "fontes": {"btc": "Coinbase, velas diárias BTC-USD, semana fechando no domingo (UTC)", "dolar": "BCB/SGS 1 (PTAX venda)", "cdi": "BCB/SGS 12",
+                        "juro_usd": "FRED/DFF (Fed Funds efetivo)"},
+             "caixa": {"brl": "Só CDI", "usd": CAIXA_USD},
              "consenso": {"limites": CONSENSOS, "votantes": VOTANTES, "votos_agora": votos[-1],
                           "votos_por_sinal": {v: bool(sin[v][-1]) for v in VOTANTES}},
              "grafico": grafico_semanal(px, sin),
              "anuais": retornos_anuais(datas, valores),
-             "anuais_usd": retornos_anuais(datas, {n: [x / brl[INI_SIM + k] for k, x in enumerate(v)] for n, v in valores.items()}),
+             "anuais_usd": retornos_anuais(datas, valores_usd, CAIXA_USD),
              "estrategias": tabela, "curvas": {"datas": [d.isoformat() for d in datas], **curvas}}
     for destino in (os.path.join(AQUI, "resultados.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "dados.json")):
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         json.dump(saida, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     # Valor semanal em reais de cada estratégia (base dos retornos semanais, mensais e anuais); não vai para o site.
     semanal = {"datas": [d.isoformat() for d in datas], "btc_brl": [round(x, 2) for x in c_brl], "ptax": [round(x, 4) for x in brl[INI_SIM:]],
-               "valores_brl": valores}
+               "valores_brl": valores, "valores_usd": valores_usd}
     # Vai também para o site: a página recalcula os retornos na janela que o leitor escolher.
     for destino in (os.path.join(AQUI, "valores_semanais.json"), os.path.join(AQUI, "..", "..", "site", "bitcoin", "valores.json")):
         json.dump(semanal, open(destino, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-    grava_boletim(px, brl, sin, book, datas, valores, votos, k0)
+    grava_boletim(px, brl, sin, book, datas, valores, valores_usd, votos, k0)
     print(f"Período: {saida['inicio']} a {saida['fim']} ({saida['semanas']} semanas). Taxa {TAXA:.2%} por operação.")
     print(f"{'Sinal':34} {'BTC final':>9} {'a.a. R$':>8} {'Vol':>6} {'Pior queda':>10} {'Oper.':>5} {'Comprado':>8} {'Agora':>6}")
     print(f"Placar desta semana: {votos[-1]} de 7 sinais comprados.")

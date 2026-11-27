@@ -23,26 +23,25 @@ INI = 52
 TAXA = bt.TAXA
 
 
-def simula_exec(px, brl, cdi, alvo, preco, ini=INI):
-    """alvo[i]: posição ao fim da semana i; preco[i]: preço em US$ da execução na semana i, se a posição mudar."""
-    datas = [p["data"] for p in px]
+def simula_exec(px, brl, juros, alvo, preco, ini=INI):
+    """alvo[i]: posição ao fim da semana i; preco[i]: preço em US$ da execução na semana i, se a posição mudar.
+    Carteira em reais: juros[i] é o fator do CDI da semana i-1 à i (ver backtest.fatores_cdi)."""
     btc, caixa, pos, trocas, valores = 1.0, 0.0, True, 0, []
     if not alvo[ini]:
         caixa, btc, pos, trocas = px[ini]["fech"] * brl[ini] * (1 - TAXA), 0.0, False, 1
     valores.append(btc * px[ini]["fech"] * brl[ini] + caixa)
     for i in range(ini + 1, len(px)):
-        dias = (datas[i] - datas[i - 1]).days
         if alvo[i] != pos:
             pr = preco[i] * brl[i]
             if not pos:
-                caixa *= (1 + cdi[i - 1] / 100) ** (dias * 5 / 7 / 2)  # metade da semana no CDI, em média
+                caixa *= juros[i] ** 0.5  # metade da semana no CDI, em média
                 btc, caixa = caixa / pr * (1 - TAXA), 0.0
             else:
                 caixa, btc = btc * pr * (1 - TAXA), 0.0
-                caixa *= (1 + cdi[i - 1] / 100) ** (dias * 5 / 7 / 2)
+                caixa *= juros[i] ** 0.5
             pos, trocas = alvo[i], trocas + 1
         elif not pos:
-            caixa *= (1 + cdi[i - 1] / 100) ** (dias * 5 / 7)
+            caixa *= juros[i]
         valores.append(btc * px[i]["fech"] * brl[i] + caixa)
     return valores, trocas
 
