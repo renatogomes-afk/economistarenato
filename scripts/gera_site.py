@@ -1247,11 +1247,13 @@ def diario_btc_html():
 
 CORES_BTC = {"Comprar e segurar": "#1A1A1A", "Cruzamento 10 x 40 semanas": "#003097", "Média de 40 semanas": "#03A9F4",
              "MACD semanal": "#7a5cff", "Rompimento 20 semanas": "#0a7d35", "Topos e fundos (Dow)": "#c77700",
-             "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a"}
+             "Faixas de percentis 52 semanas": "#b0418f", "IFR semanal (30/70)": "#A61E1E", "Só CDI": "#9a9a9a",
+             "Só Fed Funds": "#9a9a9a"}
 CORES_CONSENSO = {"Consenso 7 x 0": "#e4572e", "Consenso 6 x 1": "#d98e04", "Consenso 5 x 2": "#2a9d8f", "Consenso 4 x 3": "#5c4d7d"}
 
 
-BENCH_BTC = {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI"}
+BENCH_BTC = {"Comprar e segurar": "Benchmark: o próprio bitcoin", "Só CDI": "Benchmark: reais no CDI",
+             "Só Fed Funds": "Benchmark: dólares no Fed Funds"}
 
 
 def rot_btc(nome):
@@ -1521,12 +1523,36 @@ def quatro_tres_btc_html(D):
             f"    <p>Há dois caminhos para isso acontecer. No meio da semana, pelas ordens no book (o fechamento foi de US$ {num(ult)}): {ordens_txt or 'nenhuma ordem na direção da virada nesta semana'}. "
             f"Se uma dessas ordens for acionada, o placar muda na hora, e o 4 x 3, que é regra de fechamento, opera no fechamento de domingo dessa mesma semana. No fechamento de domingo, pelas regras de fechamento "
             f"que ainda votam contra ({e(lista(fech)) if fech else 'nenhuma'}). O gráfico da semana, acima, recalcula o placar a cada minuto com o preço da Coinbase.</p>")
-    return f"""    <h3 class="conceito-tit">Por que o consenso 4 x 3 tem vencido?</h3>
+    # Duas carteiras (27/11/2026): em reais o caixa rende CDI; em dólares, Fed Funds. A liderança pode mudar com a moeda.
+    AB = D.get("anuais") or A
+    def lider(X, chave):
+        return max((n for n in X[chave] if n not in BENCH_BTC), key=lambda n: X[chave][n])
+    def posicao(X, chave):
+        ordem = sorted((n for n in X[chave] if n not in BENCH_BTC), key=lambda n: -X[chave][n])
+        return ordem.index(nome) + 1 if nome in ordem else None
+    lb, lu, lu5 = lider(AB, "total_aa"), lider(A, "total_aa"), lider(A, "cinco_anos_aa")
+    pb, pu = posicao(AB, "total_aa"), posicao(A, "total_aa")
+    ck_b, ck_u = AB.get("caixa", "Só CDI"), A.get("caixa", "Só Fed Funds")
+    pa = lambda x: f"{x * 100:.1f}%".replace(".", ",")
+    ordinal = lambda k: "o primeiro" if k == 1 else f"o {k}º"
+    if lb == nome and lu == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido?"
+    elif lb == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido em reais?"
+    elif lu == nome:
+        titulo = "Por que o consenso 4 x 3 tem vencido em dólares?"
+    else:
+        titulo = "O que explica o resultado do consenso 4 x 3?"
+    moedas = (f"""    <h3 class="conceito-tit">E em dólares?</h3>
+    <p>O resultado depende da moeda, porque o 4 x 3 passa {(1 - r['tempo_comprado']) * 100:.0f}% do tempo fora do bitcoin, e o que o dinheiro rende nesse tempo muda tudo. Ninguém ganha CDI em dólar: na carteira em reais, quem vende recebe reais, que rendem CDI ({pa(AB['total_aa'][ck_b])} ao ano desde {data_br(AB['inicio_total'])}); na carteira em dólares, fica em dólares rendendo Fed Funds ({pa(A['total_aa'][ck_u])} ao ano). Em reais, o 4 x 3 termina com {num(r['btc_final'], 2)} BTC ({pa(AB['total_aa'][nome])} ao ano) e é {ordinal(pb)} entre as estratégias. Em dólares, termina com {num(r.get('btc_final_usd', r['btc_final']), 2)} BTC ({pa(A['total_aa'][nome])} ao ano) e é {ordinal(pu)}{"" if lu == nome else f"; quem lidera é o {e(lu)}, com {pa(A['total_aa'][lu])} ao ano"}. Nos últimos 5 anos, em dólares, lidera o {e(lu5)} ({pa(A['cinco_anos_aa'][lu5])} ao ano, contra {pa(A['cinco_anos_aa'][nome])} do 4 x 3).</p>
+    <p class="nota-min">Na minha leitura, parte da vantagem do 4 x 3 em reais vem do CDI alto nos períodos fora do bitcoin, e não do acerto da regra. Para quem pensa em dólar, a comparação certa é a de dólares.</p>
+""" if A.get("caixa") else "")
+    return f"""    <h3 class="conceito-tit">{titulo}</h3>
     <p>Não é porque acerta mais as altas. Ele ganha porque erra menos nas baixas. Em dólares, nos anos de queda do bitcoin, {ruins_txt}. Nos anos bons, ele fica atrás: em {a_bom}, o bitcoin fez {p0(b_bom)} e o 4 x 3, {p0(c_bom)}. A conta favorece quem foge da queda: quem perde 67% precisa subir 200% só para voltar ao ponto de partida.</p>
     <p>O 4 x 3 é a maioria simples dos sete sinais. Com sete votos sempre há quatro de um lado, então ele nunca fica em cima do muro. Cinco dos sete sinais seguem tendência (média, cruzamento, rompimento, MACD e topos e fundos); na prática, o 4 x 3 é um seguidor de tendência suavizado, que só entra quando vários critérios confirmam a alta e sai quando a maioria vira.</p>
     <p>A votação filtra o erro de cada regra, como uma carteira diversificada de sinais. O rompimento compra tarde, a média de 40 semanas entra e sai demais, o IFR fica parado meses. O 4 x 3 fez {r['operacoes']} operações{f", contra {m40['operacoes']} da média de 40 semanas" if m40 else ""}, e sua pior queda foi de {p0(r['pior_queda'])}, contra {p0(est['Comprar e segurar']['pior_queda'])} de quem só segurou bitcoin (os sinais de tendência isolados ficaram entre {p0(max(quedas))} e {p0(min(quedas))}). Os consensos mais exigentes ficam de fora demais e perdem as altas grandes: {" e ".join(f"o {x['nome'][9:]} ficou comprado {x['tempo_comprado'] * 100:.0f}% do tempo" for x in rigidos)}. O 4 x 3 ficou comprado {r['tempo_comprado'] * 100:.0f}% do tempo.{oos}</p>
     <p class="nota-min">Na minha leitura, há três cuidados. São poucos ciclos de baixa em dez anos, pouco evento para certeza estatística. O 4 x 3 foi escolhido depois de ver os quatro consensos, o que traz algum viés de seleção. E a vantagem depende de o bitcoin continuar tendo quedas longas e bem definidas; num mercado lateral e picotado, a maioria vira muitas vezes e o custo sobe.</p>
-    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>
+{moedas}    <h3 class="conceito-tit">O que o 4 x 3 diz hoje</h3>
     {call}
     <p class="nota-min">Isto é a leitura mecânica da regra, publicada como experimento, e não recomendação de investimento.</p>
 """
@@ -1597,7 +1623,10 @@ JANELA_JS = r"""
 var box=document.getElementById('jan-box');if(!box)return;
 var CFG=JSON.parse(document.getElementById('jan-cfg').textContent),V;
 var moeda='brl';
-function val(n,k){var v=V.valores_brl[n][k];return moeda==='usd'?v/V.ptax[k]:v}
+// Cada moeda tem a sua carteira: em R$, BTC em reais e caixa no CDI; em US$, BTC em dólares e caixa no Fed Funds.
+function serie(){return moeda==='usd'&&V.valores_usd?V.valores_usd:V.valores_brl}
+function caixa(){return moeda==='usd'&&V.valores_usd?'Só Fed Funds':'Só CDI'}
+function rotCaixa(){return caixa()==='Só CDI'?'CDI':'Fed Funds'}
 var de=document.getElementById('jan-de'),ate=document.getElementById('jan-ate'),corpo=document.getElementById('jan-corpo'),res=document.getElementById('jan-resumo');
 function pct(x,d){if(x===null||!isFinite(x))return'–';var s=(x*100).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});return(x>=0?'+':'−')+s.replace('-','')+'%'}
 function br(iso){return iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4)}
@@ -1607,9 +1636,10 @@ var anosJ=0;
 function calcula(){
  var a=idx(de.value),b=idx(ate.value);if(b<=a){res.textContent='Escolha um fim depois do início.';corpo.innerHTML='';return}
  var dias=(Date.parse(V.datas[b])-Date.parse(V.datas[a]))/864e5,anos=dias/365.25,linhas=[],cdi=null;anosJ=anos;
- Object.keys(V.valores_brl).forEach(function(n){var v=V.valores_brl[n].map(function(x,k){return val(n,k)}),t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
+ var S=serie(),CX=caixa();document.querySelectorAll('#jan-box .rot-caixa').forEach(function(x){x.textContent=rotCaixa()});
+ Object.keys(S).forEach(function(n){var v=S[n],t=v[b]/v[a]-1,aa=anos>=1?Math.pow(v[b]/v[a],1/anos)-1:null,pico=v[a],q=0;
   for(var k=a;k<=b;k++){if(v[k]>pico)pico=v[k];q=Math.min(q,v[k]/pico-1)}
-  var o={n:n,t:t,aa:aa,q:q};if(n==='Só CDI')cdi=o;linhas.push(o)});
+  var o={n:n,t:t,aa:aa,q:q};if(n===CX)cdi=o;linhas.push(o)});
  var btc=linhas.filter(function(o){return o.n==='Comprar e segurar'})[0];
  var bench=linhas.filter(function(o){return CFG.bench[o.n]}),est=linhas.filter(function(o){return!CFG.bench[o.n]}).sort(function(x,y){return y.t-x.t});
  corpo.innerHTML=bench.concat(est).map(function(o,i){var b=CFG.bench[o.n],c=b?'':(o.t>cdi.t?'acima':'abaixo');
@@ -1617,7 +1647,7 @@ function calcula(){
   '<td class="num '+c+(!b&&o.t>btc.t?' bate-btc':'')+'">'+pct(o.t,1)+'</td><td class="num '+c+'">'+pct(o.aa,1)+'</td>'+
   '<td class="num '+ex(o,cdi).c+'">'+ex(o,cdi).t+'</td><td class="num '+ex(o,btc).c+'">'+ex(o,btc).t+'</td><td class="num">'+pct(o.q,0)+'</td></tr>'}).join('');
  var best=est[0];
- res.innerHTML='De <b>'+br(V.datas[a])+'</b> a <b>'+br(V.datas[b])+'</b> ('+(anos>=1?anos.toLocaleString('pt-BR',{maximumFractionDigits:1})+' anos':Math.round(dias/7)+' semanas')+'). Melhor estratégia: <b>'+best.n+'</b>, '+pct(best.t,1)+'; bitcoin '+pct(btc.t,1)+'; CDI '+pct(cdi.t,1)+'.';
+ res.innerHTML='De <b>'+br(V.datas[a])+'</b> a <b>'+br(V.datas[b])+'</b> ('+(anos>=1?anos.toLocaleString('pt-BR',{maximumFractionDigits:1})+' anos':Math.round(dias/7)+' semanas')+'). Melhor estratégia: <b>'+best.n+'</b>, '+pct(best.t,1)+'; bitcoin '+pct(btc.t,1)+'; '+rotCaixa()+' '+pct(cdi.t,1)+'.';
 }
 function atalho(anos){var fim=V.datas[V.datas.length-1];ate.value=fim;
  if(anos===0)de.value=V.datas[0];else{var d=new Date(fim+'T00:00:00Z');d.setUTCFullYear(d.getUTCFullYear()-anos);de.value=d.toISOString().slice(0,10)<V.datas[0]?V.datas[0]:d.toISOString().slice(0,10)}
@@ -1638,7 +1668,7 @@ def janela_btc_html():
            "cores": {n: cor_btc(n) for n in list(CORES_BTC) + list(CORES_CONSENSO)}}
     return f"""    <div class="jan-box" id="jan-box" hidden>
     <h3 class="conceito-tit" id="sua-janela">Escolha a sua janela</h3>
-    <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em dólares ou em reais, do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
+    <p>Teste qualquer período: os atalhos ou duas datas. A tabela recalcula na hora quanto cada estratégia rendeu, em reais (caixa no CDI) ou em dólares (caixa no Fed Funds), do último fechamento semanal antes da data inicial ao último antes da data final, com a mesma carteira do teste (quem entra no início da janela pega a posição em que a estratégia estava).</p>
     <div class="jan-controles">
       <div class="jan-atalhos"><button type="button" data-anos="1">1 ano</button><button type="button" data-anos="3">3 anos</button><button type="button" data-anos="5">5 anos</button><button type="button" data-anos="10">10 anos</button><button type="button" data-anos="0">Desde o início</button></div>
       <div class="jan-atalhos jan-moeda"><button type="button" data-moeda="brl" class="ativo">R$</button><button type="button" data-moeda="usd">US$</button></div>
@@ -1647,10 +1677,10 @@ def janela_btc_html():
     </div>
     <p class="jan-resumo" id="jan-resumo"></p>
     <div class="tab-rolagem"><table class="tab-btc tab-anos tab-janelas">
-      <thead><tr><th>Estratégia</th><th class="num">No período</th><th class="num">Ao ano</th><th class="num">Excesso sobre o CDI</th><th class="num">Excesso sobre o bitcoin</th><th class="num">Pior queda</th></tr></thead>
+      <thead><tr><th>Estratégia</th><th class="num">No período</th><th class="num">Ao ano</th><th class="num">Excesso sobre o <span class="rot-caixa">CDI</span></th><th class="num">Excesso sobre o bitcoin</th><th class="num">Pior queda</th></tr></thead>
       <tbody id="jan-corpo"></tbody>
     </table></div>
-    <p class="nota-min">Excesso de retorno = retorno ao ano da estratégia menos o do benchmark, em pontos percentuais (em janelas menores que um ano, a diferença no período). Verde: acima do CDI no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
+    <p class="nota-min">Excesso de retorno = retorno ao ano da estratégia menos o do benchmark, em pontos percentuais (em janelas menores que um ano, a diferença no período). Verde: acima do caixa (<span class="rot-caixa">CDI</span>) no período; vermelho, abaixo; negrito: ganhou também do bitcoin. "Ao ano" só aparece em janelas de um ano ou mais. Pior queda = maior perda do topo ao fundo dentro da janela.</p>
     </div>
     <script type="application/json" id="jan-cfg">{json.dumps(cfg, ensure_ascii=False)}</script>
     <script>{JANELA_JS}</script>
@@ -1723,8 +1753,9 @@ def anuais_btc_html(D):
     def cls_cdi(n, x, ref):
         return "" if n in BENCH_BTC else ("acima" if x > ref else "abaixo")
     def tabelas(A):
-        P, cdi, btc = A["por_estrategia"], A["por_estrategia"]["Só CDI"], A["por_estrategia"]["Comprar e segurar"]
-        nomes = ["Comprar e segurar", "Só CDI"] + [n for n in P if n not in BENCH_BTC]
+        ck = A.get("caixa", "Só CDI")  # CDI na carteira em reais; Fed Funds na carteira em dólares
+        P, cdi, btc = A["por_estrategia"], A["por_estrategia"][ck], A["por_estrategia"]["Comprar e segurar"]
+        nomes = ["Comprar e segurar", ck] + [n for n in P if n not in BENCH_BTC]
         linhas, janelas = [], []
         for n in nomes:
             cel = []
@@ -1735,8 +1766,8 @@ def anuais_btc_html(D):
             nome = f'<td><i class="cor" style="background:{cor_btc(n)}"></i>{e(rot_btc(n))}</td>'
             linhas.append(f'<tr{tr}>{nome}{"".join(cel)}</tr>')
             x5, xt, xa = A["cinco_anos_aa"][n], A["total_aa"][n], A["total_acum"][n]
-            janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"]["Só CDI"])}">{pct1(x5)}</td>'
-                           f'<td class="num {cls_cdi(n, xt, A["total_aa"]["Só CDI"])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
+            janelas.append(f'<tr{tr}>{nome}<td class="num {cls_cdi(n, x5, A["cinco_anos_aa"][ck])}">{pct1(x5)}</td>'
+                           f'<td class="num {cls_cdi(n, xt, A["total_aa"][ck])}">{pct1(xt)}</td><td class="num">{pct(xa)}</td></tr>')
         return "\n".join(linhas), "\n".join(janelas)
     A = D["anuais"]
     moedas = [("brl", "R$", D["anuais"])] + ([("usd", "US$", D["anuais_usd"])] if D.get("anuais_usd") else [])
@@ -1767,12 +1798,12 @@ def anuais_btc_html(D):
           "document.querySelectorAll('.bloco-anos [data-moeda]').forEach(function(d){if(d.tagName==='DIV')d.hidden=d.dataset.moeda!==m})})});")
     return f"""    <div class="bloco-anos">
     <h3 class="conceito-tit" id="ano-a-ano">Ano a ano</h3>
-    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e reais no CDI. Em reais ou em dólares (convertido pela PTAX do Banco Central em cada domingo; em dólares, o CDI também sofre o câmbio). Verde é ano acima do CDI; vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
+    <p>O retorno de cada estratégia em cada ano, ao lado dos dois benchmarks: o próprio bitcoin e o caixa da moeda. São duas carteiras, porque ninguém ganha CDI em dólar. <b>Em reais</b>, o bitcoin é cotado em reais (dólar pela PTAX do Banco Central do dia); quando a estratégia vende, recebe reais, que rendem CDI, e quando volta, compra bitcoin com esses reais na cotação do dia. <b>Em dólares</b>, o bitcoin é cotado em dólares; quando a estratégia vende, fica em dólares rendendo o Fed Funds (o juro de um dia do dólar, equivalente americano do CDI), sem passar pelo real. Verde é ano acima do caixa (CDI ou Fed Funds); vermelho, abaixo; em negrito, ano em que a estratégia também ganhou do bitcoin.</p>
     <div class="jan-atalhos moeda-anos">{botoes}</div>
 {anos_html}    <p class="nota-min">* {ult[:4]} até {data_br(ult)}. Ano = valor da carteira no último domingo do ano sobre o do ano anterior.</p>
     <h3 class="conceito-tit" id="janelas">Em 5 anos e desde o início</h3>
     <p>A ordem muda muito com a janela. Quem lidera nos últimos 5 anos pode ficar para trás desde o início do teste, e o contrário. Os botões acima trocam a moeda das duas tabelas.</p>
-{jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, ordem no book nas regras de nível e execução no próprio fechamento do sinal nas demais, 0,25% por operação, CDI quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
+{jan_html}    <p class="nota-min">5 anos = de {data_br(i5)} a {data_br(ult)}. Desde o início = de {data_br(it)}, primeira semana do teste, a {data_br(ult)}. Mesmas regras: 1 BTC no início, ordem no book nas regras de nível e execução no próprio fechamento do sinal nas demais, 0,25% por operação, caixa no CDI (reais) ou no Fed Funds (dólares) quando fora. O histórico começa em 2016 porque é quando há dados semanais da Coinbase com um ano de folga para os indicadores.</p>
     <script>{js}</script>
     </div>
 {janela_btc_html()}
@@ -1888,7 +1919,7 @@ def acompanhamento_btc_html():
       </tbody>
     </table>
     </div>
-    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e rende CDI quando está fora. A decisão de domingo é o que cada estratégia fez na semana que fechou; embaixo dela, a ordem que fica no book para esta semana. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
+    <p class="nota-min">“BTC agora” e “Desde {ia}” mudam com o preço ao vivo, atualizado a cada minuto. As duas últimas colunas vêm do teste no histórico, de {ini} a {fim}: cada estratégia começa com 1 BTC, paga {num(D['taxa_por_operacao'] * 100, 2)}% por operação e, na carteira em reais desta tabela, rende CDI quando está fora (na carteira em dólares, Fed Funds). A decisão de domingo é o que cada estratégia fez na semana que fechou; embaixo dela, a ordem que fica no book para esta semana. Fontes: {e(D['fontes']['btc'])}; dólar e CDI do Banco Central. Atualizado em {e(D['gerado_em'])}.</p>
     <script>{js}</script>
   </section>
 """
